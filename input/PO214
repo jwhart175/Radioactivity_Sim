@@ -1,0 +1,20 @@
+#Radioactivity Sim Decay Chain Input File
+#Data:
+#STRING1 = Initial Nucleus (no spaces)
+#STRING2 = Ending Nucleus  (no spaces)
+#STRING3 = alpha, beta-, beta+, neutron&beta-, or gamma (no spaces)
+#DOUBLE1 = energy in MEV (no commas, no carats, greater than 0)
+#DOUBLE2 = halflife in seconds (no commas, no carats, greater than 0)
+#DOUBLE3 = probability (no commas, no carats, between 0 and 1)
+#Rule Format:
+#Rules are separated by lines, each line must have the following format:
+#STRING1 STRING2 STRING3 DOUBLE1 DOUBLE2 DOUBLE3
+PO214 PB210 alpha 7.83346 0.0001636 1
+PB210 HG206 alpha 3.792 700099200 0.0000019
+PB210 BI210 beta- 0.0635 700099200 0.9999981
+HG206 TI206 beta- 1.308 499.2 1
+BI210 TI206 alpha 5.0364 433036.8 0.000132
+BI210 PO210 beta- 1.1622 433036.8 0.999868
+PO210 PB206 alpha 5.40745 11955686.4 1
+TI206 PB206 beta- 1.532346 250.02 1
+#BI210 TI206 alpha 5.0364 95869000000000 1 ***if BI210 at a high starting energy***
