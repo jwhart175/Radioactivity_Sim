@@ -44,13 +44,13 @@ public class DataExport {
     	Calendar cal = Calendar.getInstance();
     	Date date = cal.getTime();
     	long now = date.getTime();
-    	double num = 6.022*Math.pow(10,8);
+    	double num = 6.022*Math.pow(10,2);
     	double startTime = 0.0*365*24*60*60;
-    	double endTime = 0.0*365*24*60*60+10*3600.0;
+    	double endTime = 1.0*365*24*60*60;
     	//test whether the chosen period is equilibrium sensitive by varying the (resolution) and seeing
     	//if more counts start to occur in the earlier portions of the time period
-    	double resolution = 10;
-    	NucleiSample test = new NucleiSample(num,"/home/user/git/Radioactivity_Sim/input/U238",startTime,endTime,resolution);
+    	int resolution = 100;
+    	NucleiSample test = new NucleiSample(num,"/home/user/git/Radioactivity_Sim/input/RA224",startTime,endTime,resolution);
 
     	//Writes all event data (Warning! limited by maximum size of java String's!)
 //    	String file = "/home/user/git/Radioactivity_Sim/output/AllData";
@@ -73,7 +73,8 @@ public class DataExport {
     	int numRuleSets4 = rules4.puGetNumBranches();
     	StringBuilder data4 = new StringBuilder();
     	for (int x = 0; x<numRuleSets4; x++){
-    		data4.append(rules4.puOutputRuleBranch(x));
+    		data4.append("Branch No: " + x + System.getProperty("line.separator"));
+    		data4.append(rules4.puOutputRuleBranch(x) + System.getProperty("line.separator"));
     	}
         pvsScribe(data4.toString(),file4);
 

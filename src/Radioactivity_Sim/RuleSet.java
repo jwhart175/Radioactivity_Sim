@@ -26,10 +26,6 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.Scanner;
 
-//TODO
-// 1 - Strange input data sheet parsing error.  A commented line near the end of an
-// input file causes the parser to skip the last few lines.
-
 
 public class RuleSet {
 	//A container for rule data read in from a file
@@ -65,111 +61,101 @@ public class RuleSet {
         	System.out.println(e);
         	System.out.println("Input file: " + input + " failed to open for reading");
         }
-    	boolean stillParsing = true;
     	boolean noLineEnd = true;
     	boolean stillRuleParsing = true;
-    	while (stillParsing) {
-    		int x = 0;
-    		String ruleLine = "";
-    		while (noLineEnd) {
-    				if((x+1)>inputData.length()){
-    					noLineEnd = false;
-    					break;
-    				}
-    				if (inputData.substring(x,x+1).compareTo(System.getProperty("line.separator"))==0) {
-    					noLineEnd = false;
-    					ruleLine = inputData.substring(0,x) + "       ";
-    					inputData = inputData.substring(x+1,inputData.length());
-    					int y = 0;
-    					int ruleNum = 0;
-    					String startNucleus = "";
-    					String endNucleus = "";
-    					String type = "";
-    					double energy = 0.0;
-    					double halfLife = 0.0;
-    					double probability = 0.0;
-    					if (ruleLine.substring(0,1).compareTo("#")==0){
-    						stillRuleParsing = false;
-    					} else if (ruleLine.substring(0,1).compareTo(" ")==0){
-    						stillRuleParsing = false;
-    					} else if (ruleLine.substring(0,2).compareTo("//")==0){
-    						stillRuleParsing = false;
-    					}
-    					while (stillRuleParsing) {
-    						if (ruleLine.substring(y,y+1).compareTo(" ")==0) {
-    							ruleNum++;
-    							switch (ruleNum) {
-    							case 1:
-    								startNucleus = ruleLine.substring(0,y);
-    								ruleLine = ruleLine.substring(y+1,ruleLine.length());
-    								y = 0;
-    								break;
-    							case 2:
-    								endNucleus = ruleLine.substring(0,y);
-    								ruleLine = ruleLine.substring(y+1,ruleLine.length());
-    								y = 0;
-    								break;
-    							case 3:
-    								type = ruleLine.substring(0,y);
-    								ruleLine = ruleLine.substring(y+1,ruleLine.length());
-    								y = 0;
-    								break;
-    							case 4:
-    								energy = Double.valueOf(ruleLine.substring(0,y));
-    								ruleLine = ruleLine.substring(y+1,ruleLine.length());
-    								y = 0;
-    								break;
-    							case 5:
-    								halfLife = Double.valueOf(ruleLine.substring(0,y));
-    								ruleLine = ruleLine.substring(y+1,ruleLine.length());
-    								y = 0;
-    								break;
-    							case 6:
-    								probability = Double.valueOf(ruleLine.substring(0,y));
-    								ruleLine = ruleLine.substring(y+1,ruleLine.length());
-    								stillRuleParsing = false;
-    								puAddRule(startNucleus,endNucleus,type,energy,halfLife,probability);
-    								if (startNucleus.compareTo("")==0){
-    									System.out.println("Parsing of the input file, " + input + " failed at the StartNucleus string!");
-    								}
-    								if (endNucleus.compareTo("")==0){
-    									System.out.println("Parsing of the input file, " + input + " failed at the EndNucleus string!");
-    								}
-    								if (type.compareTo("alpha")!=0&type.compareTo("beta-")!=0&type.compareTo("beta+")!=0&type.compareTo("gamma")!=0&type.compareTo("neutron&beta-")!=0){
-    									System.out.println("Parsing of the input file, " + input + " failed at the type string!");
-    									System.out.println("type should be one of the following: alpha, beta-, beta+, gamma, neutron&beta-");
-    								}
-    								if (energy<0){
-    									System.out.println("Parsing of the input file, " + input + " failed because the energy was less than zero!");
-    								}
-    								if (halfLife<0){
-    									System.out.println("Parsing of the input file, " + input + " failed because the halflife was less than zero!");
-    								}
-    								if (probability<0|probability>1){
-    									System.out.println("Parsing of the input file, " + input + " failed because the probability was less than zero or greater than one!");
-    								}
-    								break;
-    							case 7:
-    								stillRuleParsing = false;
-    								break;
-    							}
-    						}
-    						y++;
-    						if ((y+1)>ruleLine.length()){
-    							stillRuleParsing = false;
-    						}
-    					}
-    					stillRuleParsing = true;
-    				}
-    			x++;
-    			if((x+1)>inputData.length()){
-    				noLineEnd = false;
-    			}
+    	int z = 0;
+    	String ruleLine = "";
+    	while (noLineEnd) {
+    		if((z+1)>inputData.length()){
+    			noLineEnd = false;
+    			break;
     		}
-    		if((x+1)>inputData.length()){
-				break;
-			}
-    		noLineEnd = true;
+    		if (inputData.substring(z,z+1).compareTo(System.getProperty("line.separator"))==0) {
+    			ruleLine = inputData.substring(0,z) + "       ";
+    			inputData = inputData.substring(z+1,inputData.length());
+    			z = 0;
+    			int y = 0;
+    			int ruleNum = 0;
+    			String startNucleus = "";
+    			String endNucleus = "";
+    			String type = "";
+    			double energy = 0.0;
+    			double halfLife = 0.0;
+    			double probability = 0.0;
+    			if (ruleLine.substring(0,1).compareTo("#")==0){
+    				stillRuleParsing = false;
+    			} else if (ruleLine.substring(0,1).compareTo(" ")==0){
+    				stillRuleParsing = false;
+    			} else if (ruleLine.substring(0,2).compareTo("//")==0){
+    				stillRuleParsing = false;
+    			}
+    			while (stillRuleParsing) {
+    				if (ruleLine.substring(y,y+1).compareTo(" ")==0) {
+    					ruleNum++;
+    					switch (ruleNum) {
+    					case 1:
+    						startNucleus = ruleLine.substring(0,y);
+    						ruleLine = ruleLine.substring(y+1,ruleLine.length());
+    						y = 0;
+    						break;
+    					case 2:
+    						endNucleus = ruleLine.substring(0,y);
+    						ruleLine = ruleLine.substring(y+1,ruleLine.length());
+    						y = 0;
+    						break;
+    					case 3:
+    						type = ruleLine.substring(0,y);
+    						ruleLine = ruleLine.substring(y+1,ruleLine.length());
+    						y = 0;
+    						break;
+    					case 4:
+    						energy = Double.valueOf(ruleLine.substring(0,y));
+    						ruleLine = ruleLine.substring(y+1,ruleLine.length());
+    						y = 0;
+    						break;
+    					case 5:
+    						halfLife = Double.valueOf(ruleLine.substring(0,y));
+    						ruleLine = ruleLine.substring(y+1,ruleLine.length());
+    						y = 0;
+    						break;
+    					case 6:
+    						probability = Double.valueOf(ruleLine.substring(0,y));
+    						ruleLine = ruleLine.substring(y+1,ruleLine.length());
+    						stillRuleParsing = false;
+    						puAddRule(startNucleus,endNucleus,type,energy,halfLife,probability);
+    						if (startNucleus.compareTo("")==0){
+    							System.out.println("Parsing of the input file, " + input + " failed at the StartNucleus string!");
+    						}
+    						if (endNucleus.compareTo("")==0){
+    							System.out.println("Parsing of the input file, " + input + " failed at the EndNucleus string!");
+    						}
+    						if (type.compareTo("alpha")!=0&type.compareTo("beta-")!=0&type.compareTo("beta+")!=0&type.compareTo("gamma")!=0&type.compareTo("neutron&beta-")!=0){
+    							System.out.println("Parsing of the input file, " + input + " failed at the type string!");
+    							System.out.println("type should be one of the following: alpha, beta-, beta+, gamma, neutron&beta-");
+    						}
+    						if (energy<0){
+    							System.out.println("Parsing of the input file, " + input + " failed because the energy was less than zero!");
+    						}
+    						if (halfLife<0){
+    							System.out.println("Parsing of the input file, " + input + " failed because the halflife was less than zero!");
+    						}
+    						if (probability<0|probability>1){
+    							System.out.println("Parsing of the input file, " + input + " failed because the probability was less than zero or greater than one!");
+    						}
+    						break;
+    					case 7:
+    						stillRuleParsing = false;
+    						break;
+    					}
+    				}
+    				y++;
+    				if ((y+1)>ruleLine.length()){
+    					stillRuleParsing = false;
+    				}
+    			}
+    			stillRuleParsing = true;
+    		}
+    		z++;
     	}
     	pvAddRuleBranch();
     	for(int x = 0; x<pvNumRule; x++){
@@ -182,8 +168,8 @@ public class RuleSet {
     					if (x<pvNumRule-1){
     						if(pvProbability[x]+pvProbability[x+1]==1) {
     							pvAddRuleBranch();
-    	    					for (int z = 0; z<pvBranches[y].puGetNumRules()-1; z++) {
-    	    						pvBranches[pvNumBranches-1].puAddRuleToBranch(pvBranches[y].puGetStartNucleus(z),pvBranches[y].puGetEndNucleus(z),pvBranches[y].puGetType(z),pvBranches[y].puGetEnergy(z),pvBranches[y].puGetHalfLife(z),pvBranches[y].puGetProbability(z));
+    	    					for (int w = 0; w<pvBranches[y].puGetNumRules()-1; w++) {
+    	    						pvBranches[pvNumBranches-1].puAddRuleToBranch(pvBranches[y].puGetStartNucleus(w),pvBranches[y].puGetEndNucleus(w),pvBranches[y].puGetType(w),pvBranches[y].puGetEnergy(w),pvBranches[y].puGetHalfLife(w),pvBranches[y].puGetProbability(w));
     	    					}
     	    					pvBranches[pvNumBranches-1].puAddRuleToBranch(pvStartNuclei[x+1],pvEndNuclei[x+1],pvType[x+1],pvEnergy[x+1],pvHalfLife[x+1],pvProbability[x+1]);
     						}
@@ -192,9 +178,9 @@ public class RuleSet {
     	    				if(pvProbability[x]+pvProbability[x+1]+pvProbability[x+2]==1){
     	    					pvAddRuleBranch();
     	    					pvAddRuleBranch();
-    	    					for (int z = 0; z<pvBranches[y].puGetNumRules()-1; z++) {
-    	    						pvBranches[pvNumBranches-2].puAddRuleToBranch(pvBranches[y].puGetStartNucleus(z),pvBranches[y].puGetEndNucleus(z),pvBranches[y].puGetType(z),pvBranches[y].puGetEnergy(z),pvBranches[y].puGetHalfLife(z),pvBranches[y].puGetProbability(z));
-    	    						pvBranches[pvNumBranches-1].puAddRuleToBranch(pvBranches[y].puGetStartNucleus(z),pvBranches[y].puGetEndNucleus(z),pvBranches[y].puGetType(z),pvBranches[y].puGetEnergy(z),pvBranches[y].puGetHalfLife(z),pvBranches[y].puGetProbability(z));
+    	    					for (int w = 0; w<pvBranches[y].puGetNumRules()-1; w++) {
+    	    						pvBranches[pvNumBranches-2].puAddRuleToBranch(pvBranches[y].puGetStartNucleus(w),pvBranches[y].puGetEndNucleus(w),pvBranches[y].puGetType(w),pvBranches[y].puGetEnergy(w),pvBranches[y].puGetHalfLife(w),pvBranches[y].puGetProbability(w));
+    	    						pvBranches[pvNumBranches-1].puAddRuleToBranch(pvBranches[y].puGetStartNucleus(w),pvBranches[y].puGetEndNucleus(w),pvBranches[y].puGetType(w),pvBranches[y].puGetEnergy(w),pvBranches[y].puGetHalfLife(w),pvBranches[y].puGetProbability(w));
     	    					}
     	    					pvBranches[pvNumBranches-2].puAddRuleToBranch(pvStartNuclei[x+1],pvEndNuclei[x+1],pvType[x+1],pvEnergy[x+1],pvHalfLife[x+1],pvProbability[x+1]);
     	    					pvBranches[pvNumBranches-1].puAddRuleToBranch(pvStartNuclei[x+2],pvEndNuclei[x+2],pvType[x+2],pvEnergy[x+2],pvHalfLife[x+2],pvProbability[x+2]);

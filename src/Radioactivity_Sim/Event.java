@@ -265,7 +265,8 @@ public class Event {
     	//Assumes equilibrium
     	//TODO make this algorithm capable of calculating accurate times when
     	//equilibrium should not be assumed
-        return (pvStartTime + Math.random()*(pvEndTime-pvStartTime));
+    	double time = pvStartTime + Math.random()*(pvEndTime-pvStartTime);
+        return time;
     }
 
     private double pvCalcTime() {

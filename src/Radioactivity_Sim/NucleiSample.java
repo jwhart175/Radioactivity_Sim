@@ -41,11 +41,11 @@ public class NucleiSample {
     private int pvNumEvents = 0;
     private double pvStartTime = 0;
     private double pvEndTime = 0;
-    private double pvResolution = 0;
+    private int pvResolution = 0;
     private double[] pvFinalPartNum = new double[1];
     private String[] pvNuclei = new String[1];
 
-    public NucleiSample(int num,String input, double start, double end, double resolution) {
+    public NucleiSample(int num,String input, double start, double end, int resolution) {
     	//Constructor for a sample containing a number of nuclei of a single type
         if (num > 0) {
             pvRules = new RuleSet[1];
@@ -60,7 +60,7 @@ public class NucleiSample {
         }
     }
 
-    public NucleiSample(double num,String input, double start, double end, double resolution) {
+    public NucleiSample(double num,String input, double start, double end, int resolution) {
     	//Constructor for a sample containing a number of nuclei of a single type
         if (num > 0) {
             pvRules = new RuleSet[1];
@@ -103,22 +103,60 @@ public class NucleiSample {
     	double dividend = 1, subproduct = 1, subsum = 0, subsum2 = 0;
     	int numBranches = rules.puGetNumBranches();
     	double[] endPartNum = new double[1];
-    	double[] startPartNum = new double[1];
     	double[] finalPartNum = new double[1];
+    	double[][] startNumTime = new double[1][1];
+    	double delta = (pvEndTime-pvStartTime)/pvResolution;
     	RuleBranch branch = new RuleBranch();
     	for (int x = 0; x<numBranches ;x++) {
     		branch = rules.puGetRuleBranch(x);
     		int numRules = branch.puGetNumRules();
-    		startPartNum = new double[numRules];
     		endPartNum = new double[numRules];
     		finalPartNum = new double[numRules];
+    		startNumTime = new double[pvResolution][numRules];
     		for (int n = 0; n < numRules; n++) {
     			subsum2 = 0;
-    			startPartNum[n] = 0;
     			endPartNum[n] = 0;
-    			if(n == 1) {
-    				//Calculate particle numbers at pvStartTime using the normal Bateman Solution
-    				if (pvStartTime > 0) {
+    			if(n == 0) {
+    			//Calculate particle numbers at pvStartTime using the normal Bateman Solution
+    				for (int w = 0; w<pvResolution;w++) {
+        				double newTime = w*delta + pvStartTime;
+        				for (int i = 0; i <= n; i++){
+        					subsum = 0;
+        					subproduct = 1;
+        					for (int j = i; j <= n; j++){
+        						dividend = 1;
+        						for (int p = i; p <= n; p++){
+        							if (p != j) {
+        								dividend = dividend * ((Math.log(2)/branch.puGetHalfLife(p)-Math.log(2)/branch.puGetHalfLife(j)));
+        							}
+        						}
+        						subsum = subsum + (Math.exp(-newTime*Math.log(2)/branch.puGetHalfLife(j)))/dividend;
+        						if (j <= (n-1)) {
+        							subproduct = subproduct * Math.log(2)/branch.puGetHalfLife(j);
+        						}
+        						subproduct = subproduct * branch.puGetProbability(0);
+        					}
+        					if (i==0) {
+        						subsum2 = num*subsum*subproduct;
+        					} else {
+        						subsum2 = subsum2 + 0*subsum*subproduct;
+        					}
+        				}
+        				startNumTime[w][n] = subsum2;
+    				}
+    				//Calculates the number of events for n = 0 between pvStartTime and pvEndTime
+    				endPartNum[n] = startNumTime[0][0]*(Math.exp(-pvStartTime*Math.log(2)/branch.puGetHalfLife(n))-Math.exp(-pvEndTime*Math.log(2)/branch.puGetHalfLife(n)));
+
+    				//Calculate event times for events occurring between pvStartTime and pvEndTime
+					for (long g = 0; g<(endPartNum[n]); g++) {
+						Event instance = new Event(pvStartTime,pvEndTime,branch.puGetStartNucleus(n),branch.puGetEndNucleus(n),branch.puGetHalfLife(n),branch.puGetEnergy(n),branch.puGetType(n));
+						pvAddEvent(instance);
+					}
+    			} else if (n>0) {
+    				//Calculates events for the child nuclei
+
+    				for (int w = 0; w<pvResolution;w++) {
+    					double newTime = w*delta + pvStartTime;
     					for (int i = 0; i <= n; i++){
     						subsum = 0;
     						subproduct = 1;
@@ -129,7 +167,7 @@ public class NucleiSample {
     									dividend = dividend * ((Math.log(2)/branch.puGetHalfLife(p)-Math.log(2)/branch.puGetHalfLife(j)));
     								}
     							}
-    							subsum = subsum + (Math.exp(-pvStartTime*Math.log(2)/branch.puGetHalfLife(j)))/dividend;
+    							subsum = subsum + (Math.exp(-newTime*Math.log(2)/branch.puGetHalfLife(j)))/dividend;
     							if (j <= (n-1)) {
     								subproduct = subproduct * Math.log(2)/branch.puGetHalfLife(j);
     							}
@@ -141,120 +179,31 @@ public class NucleiSample {
     							subsum2 = subsum2 + 0*subsum*subproduct;
     						}
     					}
-    					startPartNum[n] = subsum2;
-    				} else if (pvStartTime ==0) {
-    					for(int i = 0; i <= n;i++){
-    						if (i == 0){
-    							startPartNum[i] = num;
-    						} else {
-    							startPartNum[i] = 0;
-    						}
-    					}
-    				}
+    					startNumTime[w][n] = subsum2;
+       				}
 
-    				/*
-    				 * Calculates the number of events for each particle type from pvStartTime to pvEndTime
-    				 * uses a modified Bateman equation in which negative terms (which represent transitions
-    				 * to the next nuclei type are thrown out of the calculation for each nuclei type.  By
-    				 * then subtracting these numbers from the initial counts, one obtains the total number
-    				 * of transitions to that nuclei type, and hence the number of events.
-    				 */
     				subsum2 = 0;
-    				for (int i = 0; i <= n; i++){
-    					subsum = 0;
-    					subproduct = 1;
-    					for (int j = i; j <= n; j++){
-    						dividend = 1;
-    						for (int p = i; p <= n; p++){
-    							if (p != j) {
-    								dividend = dividend * ((Math.log(2)/branch.puGetHalfLife(p)-Math.log(2)/branch.puGetHalfLife(j)));
-    							}
-    						}
-    						if (dividend > 0 & dividend != 1){
-    							subsum = subsum + (Math.exp(-(pvEndTime-pvStartTime)*Math.log(2)/branch.puGetHalfLife(j)))/dividend;
-    						}
-    						if (j <= (n-1)) {
-    							subproduct = subproduct * Math.log(2)/branch.puGetHalfLife(j);
-    						}
-    						subproduct = subproduct * branch.puGetProbability(0);
-    					}
-    					subsum2 = subsum2 + (startPartNum[i]*subproduct*subsum);
-    				}
-    				endPartNum[n] = subsum2;
-    				//Calculate event times for events occurring between pvStartTime and pvEndTime
+        			for (int i = n-1; i >= 0; i--){
+        				subsum = 0;
+
+        				for (int j = 0; j < pvResolution; j++){
+        					subproduct = 1;
+        					for (int k = n; k >= i; k--){
+        						subproduct = subproduct * (Math.exp(-(pvStartTime+j*delta)*Math.log(2)/branch.puGetHalfLife(k))-Math.exp(-(pvStartTime+(j+1)*delta)*Math.log(2)/branch.puGetHalfLife(k)));
+        	        					}
+        					subsum += startNumTime[j][i]*subproduct;
+        				}
+        				subsum2 = subsum2 + subsum;
+        			}
+        			endPartNum[n] = subsum2;
+
+        			//Calculate event times for events occurring between pvStartTime and pvEndTime
 					for (long g = 0; g<(endPartNum[n]); g++) {
-						Event instance = new Event(pvStartTime,pvEndTime,branch.puGetStartNucleus(n-1),branch.puGetEndNucleus(n-1),branch.puGetHalfLife(n-1),branch.puGetEnergy(n-1),branch.puGetType(n-1));
+						Event instance = new Event(true,pvStartTime,pvEndTime,branch.puGetStartNucleus(n),branch.puGetEndNucleus(n),branch.puGetHalfLife(n),branch.puGetEnergy(n),branch.puGetType(n));
 						pvAddEvent(instance);
 					}
-    			} else if (n>1) {
-    				//Calculates events for child nuclei
-    				double delta = (pvEndTime-pvStartTime)/pvResolution;
-    				for (int w = 0; w<pvResolution; w++) {
-    					double startTime = pvStartTime+w*delta;
-    					double endTime = pvStartTime+(w+1)*delta;
-    					if (startTime > 0) {
-        					for (int i = 0; i <= n; i++){
-        						subsum = 0;
-        						subproduct = 1;
-        						for (int j = i; j <= n; j++){
-        							dividend = 1;
-        							for (int p = i; p <= n; p++){
-        								if (p != j) {
-        									dividend = dividend * ((Math.log(2)/branch.puGetHalfLife(p)-Math.log(2)/branch.puGetHalfLife(j)));
-        								}
-        							}
-        							subsum = subsum + (Math.exp(-startTime*Math.log(2)/branch.puGetHalfLife(j)))/dividend;
-        							if (j <= (n-1)) {
-        								subproduct = subproduct * Math.log(2)/branch.puGetHalfLife(j);
-        							}
-        							subproduct = subproduct * branch.puGetProbability(0);
-        						}
-        						if (i==0) {
-        							subsum2 = num*subsum*subproduct;
-        						} else {
-        							subsum2 = subsum2 + 0*subsum*subproduct;
-        						}
-        					}
-        					startPartNum[n] = subsum2;
-        				} else if (startTime ==0) {
-        					for(int i = 0; i <= n;i++){
-        						if (i == 0){
-        							startPartNum[i] = num;
-        						} else {
-        							startPartNum[i] = 0;
-        						}
-        					}
-        				}
-
-    					subsum2 = 0;
-        				for (int i = 0; i <= n; i++){
-        					subsum = 0;
-        					subproduct = 1;
-        					for (int j = i; j <= n; j++){
-        						dividend = 1;
-        						for (int p = i; p <= n; p++){
-        							if (p != j) {
-        								dividend = dividend * ((Math.log(2)/branch.puGetHalfLife(p)-Math.log(2)/branch.puGetHalfLife(j)));
-        							}
-        						}
-        						if (dividend > 0 & dividend != 1){
-        							subsum = subsum + (Math.exp(-(endTime-startTime)*Math.log(2)/branch.puGetHalfLife(j)))/dividend;
-        						}
-        						if (j <= (n-1)) {
-        							subproduct = subproduct * Math.log(2)/branch.puGetHalfLife(j);
-        						}
-        						subproduct = subproduct * branch.puGetProbability(0);
-        					}
-        					subsum2 = subsum2 + (startPartNum[i]*subproduct*subsum);
-        				}
-        				endPartNum[n] = subsum2;
-        				//Calculate event times for events occurring between pvStartTime and pvEndTime
-						for (long g = 0; g<(endPartNum[n]); g++) {
-							Event instance = new Event(true,pvStartTime,pvEndTime,branch.puGetStartNucleus(n-1),branch.puGetEndNucleus(n-1),branch.puGetHalfLife(n-1),branch.puGetEnergy(n-1),branch.puGetType(n-1));
-							pvAddEvent(instance);
-						}
-    				}
     			}
+
     			//Calculates final quantities for all particles
     			for (int i = 0; i <= n; i++){
 					subsum = 0;
