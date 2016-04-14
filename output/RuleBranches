@@ -1,0 +1,21 @@
+Branch No: 0
+StartingNucleus,EndingNucleus,Type,Energy(MeV),Halflife(s),Probability
+RA224,RN220,alpha,5.789,316224.0,0.6406
+RN220,PO216,alpha,6.404,55.6,1.0
+PO216,PB212,alpha,6.906,0.145,1.0
+PB212,BI212,beta-,0.5699,38304.0,1.0
+BI212,PO212,beta-,2.252,3633.0,1.0
+PO212,PB208,alpha,8.955,2.99E-7,1.0
+
+
+Branch No: 1
+StartingNucleus,EndingNucleus,Type,Energy(MeV),Halflife(s),Probability
+RA224,RN220,alpha,5.789,316224.0,0.3594
+RN220,PO216,alpha,6.404,55.6,1.0
+PO216,PB212,alpha,6.906,0.145,1.0
+PB212,BI212,beta-,0.5699,38304.0,1.0
+BI212,TI208,alpha,6.208,3633.0,1.0
+TI208,PB208,beta-,4.999,183.19,1.0
+
+
+
