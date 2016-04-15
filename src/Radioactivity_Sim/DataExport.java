@@ -45,13 +45,16 @@ public class DataExport {
     	Calendar cal = Calendar.getInstance();
     	Date date = cal.getTime();
     	long now = date.getTime();
-    	double num = 6.022*Math.pow(10,2);
+    	double num = Math.pow(10,5);
     	double startTime = 0.0*365*24*60*60;
-    	double endTime = 1.0*365*24*60*60;
+    	double endTime = 0.0*365*24*60*60+Math.pow(10.0,10);
     	//test whether the chosen period is equilibrium sensitive by varying the (resolution) and seeing
     	//if more counts start to occur in the earlier portions of the time period
-    	int resolution = 100;
+    	int resolution = 20;
     	NucleiSample test = new NucleiSample(num,"/home/user/git/Radioactivity_Sim/input/RA224",startTime,endTime,resolution);
+    	test.puAddSpecies(1.4776*Math.pow(10,-7), "/home/user/git/Radioactivity_Sim/input/RN220", startTime, endTime);
+    	System.out.println("Radiated Power = " + test.puGetRadiatedPowerOverTimeRange(startTime, endTime));
+    	System.out.println("Total Energy = " + test.puGetEnergySumOverTimeRange(startTime, endTime));
 
     	//Writes all event data (Warning! limited by maximum size of java String's!)
 //    	String file = "/home/user/git/Radioactivity_Sim/output/AllData";
@@ -70,34 +73,34 @@ public class DataExport {
 //      scrivener.puCloseFile(fileNum-1);
 
     	//Writes the average per second energy for a year starting at (startTime)
-    	String file3 = "/home/user/git/Radioactivity_Sim/output/Output";
-        String data3 = test.puGetPerSecondAveEnergyForOneYear(startTime);
-        scrivener.puOpenNewFile(file3);
-        fileNum = scrivener.puGetNumFiles();
-        scrivener.puAppendStringToFile(fileNum-1, data3);
-        scrivener.puCloseFile(fileNum-1);
+//    	String file3 = "/home/user/git/Radioactivity_Sim/output/Output";
+//      String data3 = test.puGetPerSecondAveEnergyForOneYear(startTime);
+//      scrivener.puOpenNewFile(file3);
+//      fileNum = scrivener.puGetNumFiles();
+//      scrivener.puAppendStringToFile(fileNum-1, data3);
+//      scrivener.puCloseFile(fileNum-1);
 
         //Writes the parsed (RuleBranches) to a file
-    	String file4 = "/home/user/git/Radioactivity_Sim/output/RuleBranches";
-    	DecayChainRuleSet rules4 = test.puGetDecayChainRuleSet(0);
-    	int numRuleSets4 = rules4.puGetNumBranches();
-    	StringBuilder data4 = new StringBuilder();
-    	for (int x = 0; x<numRuleSets4; x++){
-    		data4.append("Branch No: " + x + System.getProperty("line.separator"));
-    		data4.append(rules4.puOutputDecayRuleBranch(x) + System.getProperty("line.separator"));
-    	}
-    	scrivener.puOpenNewFile(file4);
-        fileNum = scrivener.puGetNumFiles();
-        scrivener.puAppendStringToFile(fileNum-1, data4.toString());
-        scrivener.puCloseFile(fileNum-1);
+//    	String file4 = "/home/user/git/Radioactivity_Sim/output/RuleBranches";
+//    	DecayChainRuleSet rules4 = test.puGetDecayChainRuleSet(0);
+//    	int numRuleSets4 = rules4.puGetNumBranches();
+//    	StringBuilder data4 = new StringBuilder();
+//    	for (int x = 0; x<numRuleSets4; x++){
+//    		data4.append("Branch No: " + x + System.getProperty("line.separator"));
+//    		data4.append(rules4.puOutputDecayRuleBranch(x) + System.getProperty("line.separator"));
+//    	}
+//    	scrivener.puOpenNewFile(file4);
+//      fileNum = scrivener.puGetNumFiles();
+//      scrivener.puAppendStringToFile(fileNum-1, data4.toString());
+//      scrivener.puCloseFile(fileNum-1);
 
         //Writes the first parsed (RuleSet) for the (nucleiSample) to file
-    	String file5 = "/home/user/git/Radioactivity_Sim/output/RuleSet";
-    	DecayChainRuleSet rules5 = test.puGetDecayChainRuleSet(0);
-    	scrivener.puOpenNewFile(file5);
-        fileNum = scrivener.puGetNumFiles();
-        scrivener.puAppendStringToFile(fileNum-1, rules5.puOutputDecayChainRuleSet());
-        scrivener.puCloseFile(fileNum-1);
+//    	String file5 = "/home/user/git/Radioactivity_Sim/output/RuleSet";
+//    	DecayChainRuleSet rules5 = test.puGetDecayChainRuleSet(0);
+//    	scrivener.puOpenNewFile(file5);
+//      fileNum = scrivener.puGetNumFiles();
+//      scrivener.puAppendStringToFile(fileNum-1, rules5.puOutputDecayChainRuleSet());
+//      scrivener.puCloseFile(fileNum-1);
 
         //Prints the program runtime to the console in milliseconds
         System.out.println(Calendar.getInstance().getTime().getTime() - now);

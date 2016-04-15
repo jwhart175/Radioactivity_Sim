@@ -102,9 +102,10 @@ public class NucleiSample {
     }
 
     private void pvPredictNumCalcParticles(double num, DecayChainRuleSet rules) {
+    	//Method to predict the number of DecayEvents of each type
     	double dividend = 1, subproduct = 1, subsum = 0, subsum2 = 0;
     	int numBranches = rules.puGetNumBranches();
-    	double[] endPartNum = new double[1];
+    	double[] eventNum = new double[1];
     	double[] finalPartNum = new double[1];
     	double[][] startNumTime = new double[1][1];
     	double delta = (pvEndTime-pvStartTime)/pvResolution;
@@ -112,12 +113,12 @@ public class NucleiSample {
     	for (int x = 0; x<numBranches ;x++) {
     		branch = rules.puGetDecayRuleBranch(x);
     		int numRules = branch.puGetNumRules();
-    		endPartNum = new double[numRules];
+    		eventNum = new double[numRules];
     		finalPartNum = new double[numRules];
     		startNumTime = new double[pvResolution][numRules];
     		for (int n = 0; n < numRules; n++) {
     			subsum2 = 0;
-    			endPartNum[n] = 0;
+    			eventNum[n] = 0;
     			if(n == 0) {
     			//Calculate particle numbers at pvStartTime using the normal Bateman Solution
     				for (int w = 0; w<pvResolution;w++) {
@@ -147,10 +148,9 @@ public class NucleiSample {
         				startNumTime[w][n] = subsum2;
     				}
     				//Calculates the number of DecayEvents for n = 0 between pvStartTime and pvEndTime
-    				endPartNum[n] = startNumTime[0][0]*(Math.exp(-pvStartTime*Math.log(2)/branch.puGetHalfLife(n))-Math.exp(-pvEndTime*Math.log(2)/branch.puGetHalfLife(n)));
-
+    				eventNum[n] = startNumTime[0][0]*(Math.exp(-pvStartTime*Math.log(2)/branch.puGetHalfLife(n))-Math.exp(-pvEndTime*Math.log(2)/branch.puGetHalfLife(n)));
     				//Calculate DecayEvent times for DecayEvents occurring between pvStartTime and pvEndTime
-					for (long g = 0; g<(endPartNum[n]); g++) {
+					for (long g = 0; g<(eventNum[n]); g++) {
 						DecayEvent instance = new DecayEvent(pvStartTime,pvEndTime,branch.puGetStartNucleus(n),branch.puGetEndNucleus(n),branch.puGetHalfLife(n),branch.puGetEnergy(n),branch.puGetType(n));
 						pvAddDecayEvent(instance);
 					}
@@ -186,21 +186,21 @@ public class NucleiSample {
 
     				subsum2 = 0;
         			for (int i = n-1; i >= 0; i--){
+        				double testsum = 0;
         				subsum = 0;
-
         				for (int j = 0; j < pvResolution; j++){
         					subproduct = 1;
         					for (int k = n; k >= i; k--){
-        						subproduct = subproduct * (Math.exp(-(pvStartTime+j*delta)*Math.log(2)/branch.puGetHalfLife(k))-Math.exp(-(pvStartTime+(j+1)*delta)*Math.log(2)/branch.puGetHalfLife(k)));
-        	        					}
-        					subsum += startNumTime[j][i]*subproduct;
+        						subproduct = subproduct * (Math.exp(-(pvStartTime+j*delta)*Math.log(2.0)/branch.puGetHalfLife(k))-Math.exp(-(pvStartTime+(j+1.0)*delta)*Math.log(2.0)/branch.puGetHalfLife(k)));
+        	        		}
+        					testsum += subproduct;
+        					subsum += startNumTime[j][i]*subproduct*Math.pow((Math.exp(-(pvStartTime)*Math.log(2.0)/branch.puGetHalfLife(n))-Math.exp(-(pvEndTime)*Math.log(2.0)/branch.puGetHalfLife(n))),1.5)*pvResolution;
         				}
         				subsum2 = subsum2 + subsum;
         			}
-        			endPartNum[n] = subsum2;
-
+        			eventNum[n] = + subsum2;
         			//Calculate DecayEvent times for DecayEvents occurring between pvStartTime and pvEndTime
-					for (long g = 0; g<(endPartNum[n]); g++) {
+					for (long g = 0; g<(eventNum[n]); g++) {
 						DecayEvent instance = new DecayEvent(true,pvStartTime,pvEndTime,branch.puGetStartNucleus(n),branch.puGetEndNucleus(n),branch.puGetHalfLife(n),branch.puGetEnergy(n),branch.puGetType(n));
 						pvAddDecayEvent(instance);
 					}
@@ -441,6 +441,7 @@ public class NucleiSample {
     }
 
     private void pvAddDecayEvent(DecayEvent instance) {
+    	//Adds a (DecayEvent) to this (NucleiSample)
     	DecayEvent[] DecayEvents = new DecayEvent[pvNumDecayEvents+1];
     	for(int x = 0; x < pvNumDecayEvents; x++) {
     		DecayEvents[x]=pvDecayEvents[x];
@@ -451,6 +452,7 @@ public class NucleiSample {
     }
 
     public double[][] puGetAllEnergyAndTime() {
+    	//returns all calculated (DecayEvent) energies and times
     	if (pvNumDecayEvents > 0) {
         	double returned[][] = new double[pvNumDecayEvents][2];
         	for (int x = 0;x<pvNumDecayEvents;x++) {
@@ -466,6 +468,7 @@ public class NucleiSample {
     }
 
     public String puGetAllDecayEventData() {
+    	//Returns a complete set of this (NucleiSamples)'s (DecayEvent) data
     	if (pvNumDecayEvents > 0) {
         	StringBuilder text = new StringBuilder();
         	text.append("Occurence_Time(s),StartingNucleus,EndingNucleus,Type,Energy(MeV)" + System.getProperty("line.separator"));
@@ -514,8 +517,8 @@ public class NucleiSample {
     	return sum;
     }
 
-    public double puGetEnergyAveOverTimeRange(double start, double end) {
-    	//Returns the average energy in MeV/s between the user supplied (start) and (end) times
+    public double puGetRadiatedPowerOverTimeRange(double start, double end) {
+    	//Returns the radiated power in MeV/s between the user supplied (start) and (end) times
     	double sum = 0;
     	double test = 0;
     	if (start < pvStartTime) {
@@ -550,8 +553,8 @@ public class NucleiSample {
     	return (sum/(end-start));
     }
 
-    public String puGetPerSecondAveEnergyForOneYear(double start) {
-    	//Returns a comma delimited String with a years worth of MeV/s (one per hour) calculations starting at time (start)
+    public String puGetRadiatedPowerForOneYear(double start) {
+    	//Returns a comma delimited String with a years worth of radiated power MeV/s (one per hour) calculations starting at time (start)
     	double[] aveBucket = new double[365*24];
     	for (int x = 0; x<365*24; x++) {
     		aveBucket[x] = 0;
