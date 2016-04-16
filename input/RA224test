@@ -1,0 +1,15 @@
+#Radioactivity Sim Decay Chain Input File
+#Data:
+#STRING1 = Initial Nucleus (no spaces)
+#STRING2 = Ending Nucleus  (no spaces)
+#STRING3 = alpha, beta-, beta+, or gamma (no spaces)
+#DOUBLE1 = energy in MEV (no commas, no carats, greater than 0)
+#DOUBLE2 = halflife in seconds (no commas, no carats, greater than 0)
+#DOUBLE3 = probability (no commas, no carats, between 0 and 1)
+#Rule Format:
+#Rules are separated by lines, each line must have the following format:
+#STRING1 STRING2 STRING3 DOUBLE1 DOUBLE2 DOUBLE3
+RA224 RN220 alpha 5.789 316224 1
+RN220 PO216 alpha 6.404 55.6 1
+#THIS IS AN INCOMPLETE CHAIN USED FOR VERIFICATION OF CALCULATIONS ONLY!
+#FOR THE COMPLETE RA224 CHAIN, USE THE "RA224" FILE INSTEAD OF "RA224test"

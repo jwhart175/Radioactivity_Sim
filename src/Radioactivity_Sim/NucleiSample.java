@@ -184,18 +184,20 @@ public class NucleiSample {
     					}
     					startNumTime[w][n] = subsum2;
        				}
-
+    				double subsum3 = 0;
     				subsum2 = 0;
         			for (int i = n-1; i >= 0; i--){
+
         				subsum = 0;
         				for (int j = 0; j < pvResolution; j++){
         					subproduct = 1;
         					for (int k = n; k >= i; k--){
         						subproduct = subproduct * (Math.exp(-(pvStartTime+j*delta)*Math.log(2.0)/branch.puGetHalfLife(k))-Math.exp(-(pvStartTime+(j+1.0)*delta)*Math.log(2.0)/branch.puGetHalfLife(k)));
         	        		}
-        					subsum += startNumTime[j][i]*subproduct*Math.pow((Math.exp(-(pvStartTime)*Math.log(2.0)/branch.puGetHalfLife(n))-Math.exp(-(pvEndTime)*Math.log(2.0)/branch.puGetHalfLife(n))),1.5)*pvResolution;
+        					subsum3 = startNumTime[j][i]*subproduct*Math.pow((Math.exp(-(pvStartTime)*Math.log(2.0)/branch.puGetHalfLife(n))-Math.exp(-(pvEndTime)*Math.log(2.0)/branch.puGetHalfLife(n))),1.5)*pvResolution;
+        					subsum += subsum3;
         					//Store the predicted events in a (DecayEventSet)
-        					DecayEventSet instance = new DecayEventSet(subsum,true,pvStartTime,pvEndTime,branch.puGetStartNucleus(n),branch.puGetEndNucleus(n),branch.puGetHalfLife(n),branch.puGetEnergy(n),branch.puGetType(n));
+        					DecayEventSet instance = new DecayEventSet(subsum3,true,(pvStartTime+j*delta),(pvStartTime+(j+1)*delta),branch.puGetStartNucleus(n),branch.puGetEndNucleus(n),branch.puGetHalfLife(n),branch.puGetEnergy(n),branch.puGetType(n));
         					pvAddDecayEventSet(instance);
         				}
         				subsum2 = subsum2 + subsum;
