@@ -66,6 +66,9 @@ public class DecayEvent {
             46062,46643,47218,47786,
             48349,48905,49456,50000};
 
+    public DecayEvent(){
+    	//empty constructor
+    }
     public DecayEvent(boolean isChild, double startTime, double endTime, String start, String end, double halfLife, double energy, String type) {
         //constructor which checks to see if the (DecayEvent) is a child before directing it to the occurrence time prediction algorithm
     	prStartNucleus = start;
@@ -363,7 +366,6 @@ public class DecayEvent {
     public void puSetHalfLife(double halflife) {
     	//sets the half-life of this (DecayEvent)
         if (halflife > 0) {
-        	pvTime = -1.0;
             prHalfLife = halflife;
         } else {
             System.out.println("(puSetHalfLife) failed because the (halflife) provided is not greater than zero");
@@ -408,7 +410,6 @@ public class DecayEvent {
         	prEndTime = -1;
             System.out.println("(puSetTimeBounds) failed because (DecayEvent) input (endTime) must be greater than or equal to zero and greaterh than (startTime)");
         }
-        pvTime = -1.0;
     }
 
     public void puSetType(String newtype) {

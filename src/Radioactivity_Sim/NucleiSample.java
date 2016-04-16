@@ -38,9 +38,11 @@ public class NucleiSample {
      */
 
     private DecayEvent[] pvDecayEvents;
+    private DecayEventSet[] pvDecayEventSets;
     private DecayChainRuleSet[] pvRules;
     private int pvNumDecayChainRuleSets = 0;
     private int pvNumDecayEvents = 0;
+    private int pvNumDecayEventSets = 0;
     private double pvStartTime = 0;
     private double pvEndTime = 0;
     private int pvResolution = 0;
@@ -149,11 +151,10 @@ public class NucleiSample {
     				}
     				//Calculates the number of DecayEvents for n = 0 between pvStartTime and pvEndTime
     				eventNum[n] = startNumTime[0][0]*(Math.exp(-pvStartTime*Math.log(2)/branch.puGetHalfLife(n))-Math.exp(-pvEndTime*Math.log(2)/branch.puGetHalfLife(n)));
-    				//Calculate DecayEvent times for DecayEvents occurring between pvStartTime and pvEndTime
-					for (long g = 0; g<(eventNum[n]); g++) {
-						DecayEvent instance = new DecayEvent(pvStartTime,pvEndTime,branch.puGetStartNucleus(n),branch.puGetEndNucleus(n),branch.puGetHalfLife(n),branch.puGetEnergy(n),branch.puGetType(n));
-						pvAddDecayEvent(instance);
-					}
+    				//Store the predicted events in a (DecayEventSet)
+					DecayEventSet instance = new DecayEventSet(eventNum[n],false,pvStartTime,pvEndTime,branch.puGetStartNucleus(n),branch.puGetEndNucleus(n),branch.puGetHalfLife(n),branch.puGetEnergy(n),branch.puGetType(n));
+					pvAddDecayEventSet(instance);
+
     			} else if (n>0) {
     				//Calculates DecayEvents for the child nuclei
 
@@ -186,24 +187,20 @@ public class NucleiSample {
 
     				subsum2 = 0;
         			for (int i = n-1; i >= 0; i--){
-        				double testsum = 0;
         				subsum = 0;
         				for (int j = 0; j < pvResolution; j++){
         					subproduct = 1;
         					for (int k = n; k >= i; k--){
         						subproduct = subproduct * (Math.exp(-(pvStartTime+j*delta)*Math.log(2.0)/branch.puGetHalfLife(k))-Math.exp(-(pvStartTime+(j+1.0)*delta)*Math.log(2.0)/branch.puGetHalfLife(k)));
         	        		}
-        					testsum += subproduct;
         					subsum += startNumTime[j][i]*subproduct*Math.pow((Math.exp(-(pvStartTime)*Math.log(2.0)/branch.puGetHalfLife(n))-Math.exp(-(pvEndTime)*Math.log(2.0)/branch.puGetHalfLife(n))),1.5)*pvResolution;
+        					//Store the predicted events in a (DecayEventSet)
+        					DecayEventSet instance = new DecayEventSet(subsum,true,pvStartTime,pvEndTime,branch.puGetStartNucleus(n),branch.puGetEndNucleus(n),branch.puGetHalfLife(n),branch.puGetEnergy(n),branch.puGetType(n));
+        					pvAddDecayEventSet(instance);
         				}
         				subsum2 = subsum2 + subsum;
         			}
-        			eventNum[n] = + subsum2;
-        			//Calculate DecayEvent times for DecayEvents occurring between pvStartTime and pvEndTime
-					for (long g = 0; g<(eventNum[n]); g++) {
-						DecayEvent instance = new DecayEvent(true,pvStartTime,pvEndTime,branch.puGetStartNucleus(n),branch.puGetEndNucleus(n),branch.puGetHalfLife(n),branch.puGetEnergy(n),branch.puGetType(n));
-						pvAddDecayEvent(instance);
-					}
+        			eventNum[n] = subsum2;
     			}
 
     			//Calculates final quantities for all particles
@@ -231,7 +228,7 @@ public class NucleiSample {
 				}
 				finalPartNum[n] = subsum2;
 				//debug line to verify bateman calcs
-				System.out.println("Branch No. = " + x + ", Start nucleus = " + branch.puGetStartNucleus(n) + ", Final count = " + finalPartNum[n]);
+				//System.out.println("Branch No. = " + x + ", Start nucleus = " + branch.puGetStartNucleus(n) + ", Final count = " + finalPartNum[n]);
     		}
     	}
     }
@@ -451,7 +448,18 @@ public class NucleiSample {
     	pvNumDecayEvents++;
     }
 
-    public double[][] puGetAllEnergyAndTime() {
+    private void pvAddDecayEventSet(DecayEventSet instance) {
+    	//Adds a (DecayEventSet) to this (NucleiSample)
+    	DecayEventSet[] DecayEventSets = new DecayEventSet[pvNumDecayEventSets+1];
+    	for(int x = 0; x < pvNumDecayEventSets; x++) {
+    		DecayEventSets[x]=pvDecayEventSets[x];
+    	}
+    	DecayEventSets[pvNumDecayEventSets] = instance;
+    	pvDecayEventSets = DecayEventSets;
+    	pvNumDecayEventSets++;
+    }
+
+    public double[][] puGetAllDecayEventEnergyAndTime() {
     	//returns all calculated (DecayEvent) energies and times
     	if (pvNumDecayEvents > 0) {
         	double returned[][] = new double[pvNumDecayEvents][2];
@@ -474,6 +482,13 @@ public class NucleiSample {
         	text.append("Occurence_Time(s),StartingNucleus,EndingNucleus,Type,Energy(MeV)" + System.getProperty("line.separator"));
         	for (int x = 0;x<pvNumDecayEvents;x++) {
         		text.append(pvDecayEvents[x].puGetTime() + "," + pvDecayEvents[x].puGetStartNucleus() + "," + pvDecayEvents[x].puGetEndNucleus() + "," + pvDecayEvents[x].puGetType() + "," + pvDecayEvents[x].puGetEnergy() + System.getProperty("line.separator"));
+        	}
+        	return text.toString();
+    	} else if (pvNumDecayEventSets > 0) {
+        	StringBuilder text = new StringBuilder();
+        	text.append("StartTime,EndTime,NumParticles,StartingNucleus,EndingNucleus,Type,Energy(MeV)" + System.getProperty("line.separator"));
+        	for (int x = 0;x<pvNumDecayEventSets;x++) {
+        		text.append(pvDecayEventSets[x].puGetStartTime() + "," + pvDecayEventSets[x].puGetEndTime() + "," + pvDecayEventSets[x].puGetTotalNum() + "," + pvDecayEvents[x].puGetStartNucleus() + "," + pvDecayEvents[x].puGetEndNucleus() + "," + pvDecayEvents[x].puGetType() + "," + pvDecayEvents[x].puGetEnergy() + System.getProperty("line.separator"));
         	}
         	return text.toString();
     	} else {
@@ -506,6 +521,10 @@ public class NucleiSample {
     					sum += pvDecayEvents[x].puGetEnergy();
     				}
 
+    			}
+    		} else if (pvNumDecayEventSets > 0) {
+    			for (int x = 0; x < pvNumDecayEventSets; x++) {
+    				sum += pvDecayEventSets[x].puGetEnergyWithinTimeBounds(start, end);
     			}
     		} else {
     			System.out.println("(puGetEnergyAveOverTimeRange) failed because this (NucleiSample) contain no DecayEvents");
@@ -540,8 +559,12 @@ public class NucleiSample {
     				if (test>=start&test<end) {
     					sum += pvDecayEvents[x].puGetEnergy();
     				}
+    			 }
+    		} else if (pvNumDecayEventSets > 0) {
+    			for (int x = 0; x < pvNumDecayEventSets; x++) {
+    				sum += pvDecayEventSets[x].puGetEnergyWithinTimeBounds(start, end);
     			}
-    		} else {
+    		}  else {
     			System.out.println("(puGetEnergyAveOverTimeRange) failed because this (NucleiSample) contain no particles");
     			return 0;
     		}
@@ -574,17 +597,29 @@ public class NucleiSample {
     					}
     				}
     			}
-    			for (int x = 0; x < 365*24; x++) {
-    				aveBucket[x] = aveBucket[x]/3600;
-    			}
     			StringBuilder text = new StringBuilder();
     			text.append("Averages are of the (DecayEvent)s occurring between each of the Times below and the next one" + System.getProperty("line.separator"));
     			text.append("Time,AverageEnergy(MeV/s)" + System.getProperty("line.separator"));
     			for (int x = 0;x<365*24;x++) {
+    				aveBucket[x] = aveBucket[x]/3600;
     				text.append((start+3600*x) + "," + aveBucket[x] + System.getProperty("line.separator"));
     			}
     			return text.toString();
-    		} else {
+    		} else if (pvNumDecayEventSets > 0) {
+    			for (int x = 0; x < pvNumDecayEventSets; x++) {
+    				for (int y = 0; y < 365*24; y++) {
+    					aveBucket[y] = aveBucket[y] + pvDecayEventSets[x].puGetEnergyWithinTimeBounds(start+3600*y,start+3600*(y+1));
+    				}
+    			}
+    			StringBuilder text = new StringBuilder();
+    			text.append("Averages are of the (DecayEventSet)s occurring between each of the Times below and the next one" + System.getProperty("line.separator"));
+    			text.append("Time,AverageEnergy(MeV/s)" + System.getProperty("line.separator"));
+    			for (int x = 0;x<365*24;x++) {
+    				aveBucket[x] = aveBucket[x]/3600;
+    				text.append((start+3600*x) + "," + aveBucket[x] + System.getProperty("line.separator"));
+    			}
+    			return text.toString();
+    		}  else {
     			System.out.println("(puGetPerSecondAveEnergyForOneYear) failed because this (NucleiSample) contains no (DecayEvent)s");
     			return "(puGetPerSecondAveEnergyForOneYear) failed because this (NucleiSample) contains no (DecayEvent)s";
     		}

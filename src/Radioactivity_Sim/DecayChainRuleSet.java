@@ -39,16 +39,40 @@ public class DecayChainRuleSet extends DecayRuleBranch {
      * prsf = protected static final
      * pusf = public static final
      */
+
+	/*
+	 * Inherited variables and functions:
+	 * protected String[] prStartNuclei; //The starting nucleus of each rule
+	 * protected String[] prEndNuclei; //The ending nucleus of each rule
+	 * protected String[] prType; //The radiation type of each rule
+	 * protected double[] prEnergy; //The energy quantity for each rule
+	 * protected double[] prHalfLife; //The half-life for each rule
+	 * protected double[] prProbability; //The probability of each rule
+	 * protected int prNumRule = 0; //The total number of rules
+	 * public void puAddRule(String start, String end, String type, double energy, double halflife, double probability)
+	 * public void puDelRule(int index)
+	 * overridden public void puReorderProbabilities()
+	 * public String puGetStartNucleus(int index)
+	 * public String puGetEndNucleus(int index)
+	 * public String puGetType(int index)
+	 * public double puGetEnergy(int index)
+	 * public double puGetHalfLife(int index)
+	 * public double puGetProbability(int index)
+	 * public int puGetNumRules()
+	 */
 	private String[] pvNuclei; //All independent nuclei in the rule set
 	private int pvNumBranches = 0; //number of DecayRuleBranch objects
 	private DecayRuleBranch[] pvBranches; //Stores the rule branches for predictive computation
 	private int pvNumNuclei = 0; //The total number of independent nuclei
+
 	public DecayChainRuleSet() {
 		// Blank (DecayChainRuleSet) constructor
 	}
+
 	public void puReorderProbabilities() {
 		//Hides the (puReorderProbabilities) from the super class
 	}
+
 	public DecayChainRuleSet(String input) {
 		//DecayChainRuleSet Constructor that reads in and parses a DecayChainRuleSet file
 		String inputData = "";
@@ -221,14 +245,17 @@ public class DecayChainRuleSet extends DecayRuleBranch {
     		}
     	}
 	}
+
 	public String[] puGetNuclei() {
 		//Returns a string array containing the independent nuclei addressed in this (DecayChainRuleSet)
 		return pvNuclei;
 	}
+
 	public int puGetNumBranches() {
 		//Returns the number of (DecayRuleBranch) objects in this (DecayChainRuleSet)
 		return pvNumBranches;
 	}
+
 	public DecayRuleBranch puGetDecayRuleBranch(int index){
 		//Return the (DecayRuleBranch) from this (DecayChainRuleSet) at the supplied (index)
 		if(index < 0) {
@@ -243,6 +270,7 @@ public class DecayChainRuleSet extends DecayRuleBranch {
 			return pvBranches[index];
 		}
 	}
+
 	public String puOutputDecayRuleBranch(int index) {
 		//Return a string containing the (DecayRuleBranch) at the supplied (index)
 		if(index < 0) {
@@ -263,6 +291,7 @@ public class DecayChainRuleSet extends DecayRuleBranch {
         	return text.toString();
 		}
 	}
+
 	public String puOutputDecayChainRuleSet() {
 		//Return a string containing this (DecayChainRuleSet)
 		StringBuilder text = new StringBuilder();
@@ -272,6 +301,7 @@ public class DecayChainRuleSet extends DecayRuleBranch {
        	}
        	return text.toString();
 	}
+
 	private void pvAddDecayRuleBranch(){
 		//Adds an empty DecayRuleBranch to pvDecayRuleBranches
 		DecayRuleBranch[] newBranches = new DecayRuleBranch[pvNumBranches+1];
@@ -282,6 +312,7 @@ public class DecayChainRuleSet extends DecayRuleBranch {
 		pvBranches = newBranches;
 		pvNumBranches++;
 	}
+
 	private String pvReadData(String input) throws IOException {
 		// reads data into a string
 		StringBuilder text = new StringBuilder();
@@ -299,6 +330,7 @@ public class DecayChainRuleSet extends DecayRuleBranch {
 	    }
 	    return text.toString();
 	}
+
 	public int puGetNumberOfNuclei() {
 		//retrieve the total number of different nuclei
 		return pvNumNuclei;

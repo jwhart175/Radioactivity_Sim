@@ -45,14 +45,14 @@ public class DataExport {
     	Calendar cal = Calendar.getInstance();
     	Date date = cal.getTime();
     	long now = date.getTime();
-    	double num = Math.pow(10,5);
+    	double num = 6.022*Math.pow(10,27);
     	double startTime = 0.0*365*24*60*60;
-    	double endTime = 0.0*365*24*60*60+Math.pow(10.0,10);
+    	double endTime = 10.0*365*24*60*60;
     	//test whether the chosen period is equilibrium sensitive by varying the (resolution) and seeing
     	//if more counts start to occur in the earlier portions of the time period
     	int resolution = 20;
-    	NucleiSample test = new NucleiSample(num,"/home/user/git/Radioactivity_Sim/input/RA224",startTime,endTime,resolution);
-    	test.puAddSpecies(1.4776*Math.pow(10,-7), "/home/user/git/Radioactivity_Sim/input/RN220", startTime, endTime);
+    	NucleiSample test = new NucleiSample(num,"/home/user/git/Radioactivity_Sim/input/U238",startTime,endTime,resolution);
+    	test.puAddSpecies(1.4776*Math.pow(10,-7), "/home/user/git/Radioactivity_Sim/input/TH234", startTime, endTime);
     	System.out.println("Radiated Power = " + test.puGetRadiatedPowerOverTimeRange(startTime, endTime));
     	System.out.println("Total Energy = " + test.puGetEnergySumOverTimeRange(startTime, endTime));
 

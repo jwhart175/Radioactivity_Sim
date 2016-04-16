@@ -42,9 +42,11 @@ public class DecayRuleBranch {
 	protected double[] prHalfLife; //The half-life for each rule
 	protected double[] prProbability; //The probability of each rule
 	protected int prNumRule = 0; //The total number of rules
+
 	public DecayRuleBranch(){
 		//Basic Constructor
 	}
+
 	public void puAddRule(String start, String end, String type, double energy, double halflife, double probability) {
 		//Adds a rule to the branch
 		if (prNumRule==0) {
@@ -93,6 +95,7 @@ public class DecayRuleBranch {
 			prNumRule++;
 		}
 	}
+
 	public void puDelRule(int index) {
 		//Remove a rule from the (DecayRuleBranch) at the supplied index
 		if (index < 0){
@@ -137,6 +140,7 @@ public class DecayRuleBranch {
 			System.out.println("(puDelRule) failed because the supplied (index) was out of bounds");
 		}
 	}
+
 	public void puReorderProbabilities() {
 		//to be called after this (DecayRuleBranch) has been completely populated
 		for (int y = 1; y < prNumRule; y++) {
@@ -146,6 +150,7 @@ public class DecayRuleBranch {
 			}
 		}
 	}
+
 	public String puGetStartNucleus(int index) {
 		//returns the start nucleus for the specified rule number
 		if (index < 0) {
@@ -160,6 +165,7 @@ public class DecayRuleBranch {
 			return prStartNuclei[index];
 		}
 	}
+
 	public String puGetEndNucleus(int index) {
 		//returns the end nucleus for the specified rule number
 		if (index < 0) {
@@ -174,6 +180,7 @@ public class DecayRuleBranch {
 			return prEndNuclei[index];
 		}
 	}
+
 	public String puGetType(int index) {
 		//returns the event type for the specified rule number
 		if (index < 0) {
@@ -188,6 +195,7 @@ public class DecayRuleBranch {
 			return prType[index];
 		}
 	}
+
 	public double puGetEnergy(int index) {
 		//returns the event energy for the specified rule number
 		if (index < 0) {
@@ -202,6 +210,7 @@ public class DecayRuleBranch {
 			return prEnergy[index];
 		}
 	}
+
 	public double puGetHalfLife(int index) {
 		//returns the event half life for the specified rule number
 		if (index < 0) {
@@ -216,6 +225,7 @@ public class DecayRuleBranch {
 			return prHalfLife[index];
 		}
 	}
+
 	public double puGetProbability(int index) {
 		//returns the probability coefficient for the specified rule number
 		if (index < 0) {
@@ -230,6 +240,7 @@ public class DecayRuleBranch {
 			return prProbability[index];
 		}
 	}
+
 	public int puGetNumRules() {
 		//returns the total number of rules
 		return prNumRule;
