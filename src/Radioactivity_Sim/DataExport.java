@@ -90,7 +90,7 @@ public class DataExport {
 //      scrivener.puAppendStringToFile(fileNum-1, data4.toString());
 //      scrivener.puCloseFile(fileNum-1);
 
-        //Writes the first parsed (RuleSet) for the (nucleiSample) to file
+        //Writes the first parsed (RuleSet) for the (NucleiSamplePredictiveSim) to file
 //    	String file5 = "/home/user/git/Radioactivity_Sim/output/RuleSet";
 //    	DecayChainRuleSet rules5 = test.puGetDecayChainRuleSet(0);
 //    	scrivener.puOpenNewFile(file5);
@@ -98,73 +98,77 @@ public class DataExport {
 //      scrivener.puAppendStringToFile(fileNum-1, rules5.puOutputDecayChainRuleSet());
 //      scrivener.puCloseFile(fileNum-1);
 
-//    	//Verify if the calculations agree with theory:
-//    	num = Math.pow(10, 5);
-//    	startTime = 0; endTime = 100; resolution = 10;
-//    	NucleiSample test = new NucleiSample(num,"/home/user/git/Radioactivity_Sim/input/RA224test",startTime,endTime,resolution);
-//    	test.puAddSpecies(17.58, "/home/user/git/Radioactivity_Sim/input/RN220test", startTime, endTime);
-//    	String file6 = "/home/user/git/Radioactivity_Sim/proofs/verification1";
-//    	StringBuilder data6 = new StringBuilder();
-//    	data6.append("Secular Equilibrium occurs between RA224 and RN220 because the decay constant, lambda" + System.getProperty("line.separator"));
-//    	data6.append("of RN220 is much greater than that of RA224.  The decay constants are defined as:    " + System.getProperty("line.separator"));
-//    	data6.append(System.getProperty("line.separator"));
-//    	data6.append("   lambda_RA224 = ln(2) / HALFLIFE_RA224  &  lambda_RN220 = ln(2) / HALFLIFE_RN220   " + System.getProperty("line.separator"));
-//    	data6.append(System.getProperty("line.separator"));
-//    	data6.append("For these nuclei: lambda_RA224 = 2.19195E-6 & lambda_RN220 = 1.24667E-2              " + System.getProperty("line.separator"));
-//    	data6.append("In the case of secular equilibrium, the number of child nuclei (in this case RN220)  " + System.getProperty("line.separator"));
-//    	data6.append("remains at a fixed ratio to the number of parent nuclei.  This relationship is       " + System.getProperty("line.separator"));
-//    	data6.append("governed by the equation: N_RN220 = N_RA224 x lambda_RA224/lambda_RN220              " + System.getProperty("line.separator"));
-//    	data6.append("where N is the total number of nuclei of each type.  In order for this relationship  " + System.getProperty("line.separator"));
-//    	data6.append("to remain true, the number of decay events of the parent nuclei must equal the number" + System.getProperty("line.separator"));
-//    	data6.append("of decay events of the child nuclei such that:  NDECAYS_RA224 = NDECAYS_RN220        " + System.getProperty("line.separator"));
-//    	data6.append("To prove this program's agreement with these theories we select a starting quantity  " + System.getProperty("line.separator"));
-//    	data6.append("of RA224 nuclei:                                                                     " + System.getProperty("line.separator"));
-//    	data6.append("N_RA224 = " + num + System.getProperty("line.separator"));
-//    	data6.append("Then from theory, N_RN220 = " + num + "x(2.19195E-6/1.24667E-2) = " + (num*2.19195*Math.pow(10, -6)/0.0124667) + System.getProperty("line.separator"));
-//    	data6.append("Next, a sufficiently small time period is selected such that N_RA224 doesn't decrease" + System.getProperty("line.separator"));
-//    	data6.append("by much.  Let us choose a time period of 100 seconds.                                " + System.getProperty("line.separator"));
-//    	data6.append("The number of decays of RA224 which occur in 100 seconds from a sample of 1E5 is     " + System.getProperty("line.separator"));
-//    	data6.append("given by:  NDECAYS_RA224 = "+num+" x(1 - e^(-100*lambda_RA224) = 21.92               " + System.getProperty("line.separator"));
-//    	data6.append("Of course, in reality the number of decay events has to be a whole number, but for   " + System.getProperty("line.separator"));
-//    	data6.append("theory, it is acceptable to use the fraction, because it is an average amount that   " + System.getProperty("line.separator"));
-//    	data6.append("would occur during this time period.  Since NDECAY_RA224 = NDECAY_RN220, the number  " + System.getProperty("line.separator"));
-//    	data6.append("of RN220 events is also 21.92.  The energy released by each RA224 decay is 5.789 MeV " + System.getProperty("line.separator"));
-//    	data6.append("and the energy released by each RN220 decay is 6.404 MeV.  Therefore the total energy" + System.getProperty("line.separator"));
-//    	data6.append("released is: NDECAY_RA224 x 5.789 + NDECAY_RN220 x 6.404 = 267.27 MeV                " + System.getProperty("line.separator"));
-//    	data6.append("and the average radiated power is: Energy/time = 267.27/100 = 2.6727 MeV/s           " + System.getProperty("line.separator"));
-//    	data6.append("Now let us see if the program can produce the same values:                            " + System.getProperty("line.separator"));
-//    	data6.append(System.getProperty("line.separator"));
-//    	scrivener.puOpenNewFile(file6);
-//        fileNum = scrivener.puGetNumFiles();
-//        data6.append("For any user set (resolution) we will get: " + System.getProperty("line.separator"));
-//        data6.append("Radiated Power = " + test.puGetRadiatedPowerOverTimeRange(startTime, endTime)+ " MeV/s" + System.getProperty("line.separator"));
-//    	data6.append("Total Energy = " + test.puGetEnergySumOverTimeRange(startTime, endTime) + " MeV" + System.getProperty("line.separator"));
-//    	data6.append(System.getProperty("line.separator"));
-//    	data6.append("Next we see how the program is distributing the event energies into smaller groups as defined by the (resolution)" + System.getProperty("line.separator"));
-//    	double sum = 0;
-//    	for(int x = 1; x <= 1000 ;x = x*10) {
-//    		sum = 0;
-//    		data6.append("For resolution set to " + x + " we get:" + System.getProperty("line.separator"));
-//    		for(int y = 0; y < x; y++) {
-//    			data6.append("Energy (t = "+(startTime+(y+1)*(endTime-startTime)/x)+") = " + test.puGetEnergySumOverTimeRange(startTime+y*(endTime-startTime)/x, startTime+(y+1)*(endTime-startTime)/x)+ " MeV" + System.getProperty("line.separator"));
-//    			sum += test.puGetEnergySumOverTimeRange(startTime+y*(endTime-startTime)/x, startTime+(y+1)*(endTime-startTime)/x);
-//    		}
-//    		data6.append("Which all adds up to: " + sum + " MeV" + System.getProperty("line.separator"));
-//    		data6.append(System.getProperty("line.separator"));
-//    	}
-//    	scrivener.puAppendStringToFile(fileNum-1, data6.toString());
-//    	scrivener.puCloseFile(fileNum-1);
+    	//Verify if the calculations agree with theory:
+    	num = Math.pow(10, 5);
+    	startTime = 0; endTime = 100; resolution = 10;
+    	NucleiSamplePredictiveSim test6 = new NucleiSamplePredictiveSim(num,"/home/user/git/Radioactivity_Sim/input/RA224test",startTime,endTime,resolution);
+    	test6.puAddSpecies(17.58, "/home/user/git/Radioactivity_Sim/input/RN220test", startTime, endTime);
+    	String file6 = "/home/user/git/Radioactivity_Sim/proofs/verification1";
+    	StringBuilder data6 = new StringBuilder();
+    	data6.append("verification1 for NucleiSamplePredictiveSim.java calculations:                       " + System.getProperty("line.separator"));
+    	data6.append("Secular Equilibrium occurs between RA224 and RN220 because the decay constant, lambda" + System.getProperty("line.separator"));
+    	data6.append("of RN220 is much greater than that of RA224.  The decay constants are defined as:    " + System.getProperty("line.separator"));
+    	data6.append(System.getProperty("line.separator"));
+    	data6.append("   lambda_RA224 = ln(2) / HALFLIFE_RA224  &  lambda_RN220 = ln(2) / HALFLIFE_RN220   " + System.getProperty("line.separator"));
+    	data6.append(System.getProperty("line.separator"));
+    	data6.append("For these nuclei: lambda_RA224 = 2.19195E-6 & lambda_RN220 = 1.24667E-2              " + System.getProperty("line.separator"));
+    	data6.append("In the case of secular equilibrium, the number of child nuclei (in this case RN220)  " + System.getProperty("line.separator"));
+    	data6.append("remains at a fixed ratio to the number of parent nuclei.  This relationship is       " + System.getProperty("line.separator"));
+    	data6.append("governed by the equation: N_RN220 = N_RA224 x lambda_RA224/lambda_RN220              " + System.getProperty("line.separator"));
+    	data6.append("where N is the total number of nuclei of each type.  In order for this relationship  " + System.getProperty("line.separator"));
+    	data6.append("to remain true, the number of decay events of the parent nuclei must equal the number" + System.getProperty("line.separator"));
+    	data6.append("of decay events of the child nuclei such that:  NDECAYS_RA224 = NDECAYS_RN220        " + System.getProperty("line.separator"));
+    	data6.append("To prove this program's agreement with these theories we select a starting quantity  " + System.getProperty("line.separator"));
+    	data6.append("of RA224 nuclei:                                                                     " + System.getProperty("line.separator"));
+    	data6.append("N_RA224 = " + num + System.getProperty("line.separator"));
+    	data6.append("Then from theory, N_RN220 = " + num + "x(2.19195E-6/1.24667E-2) = " + (num*2.19195*Math.pow(10, -6)/0.0124667) + System.getProperty("line.separator"));
+    	data6.append("Next, a sufficiently small time period is selected such that N_RA224 doesn't decrease" + System.getProperty("line.separator"));
+    	data6.append("by much.  Let us choose a time period of 100 seconds.                                " + System.getProperty("line.separator"));
+    	data6.append("The number of decays of RA224 which occur in 100 seconds from a sample of 1E5 is     " + System.getProperty("line.separator"));
+    	data6.append("given by:  NDECAYS_RA224 = "+num+" x(1 - e^(-100*lambda_RA224) = 21.92               " + System.getProperty("line.separator"));
+    	data6.append("Of course, in reality the number of decay events has to be a whole number, but for   " + System.getProperty("line.separator"));
+    	data6.append("theory, it is acceptable to use the fraction, because it is an average amount that   " + System.getProperty("line.separator"));
+    	data6.append("would occur during this time period.  Since NDECAY_RA224 = NDECAY_RN220, the number  " + System.getProperty("line.separator"));
+    	data6.append("of RN220 events is also 21.92.  The energy released by each RA224 decay is 5.789 MeV " + System.getProperty("line.separator"));
+    	data6.append("and the energy released by each RN220 decay is 6.404 MeV.  Therefore the total energy" + System.getProperty("line.separator"));
+    	data6.append("released is: NDECAY_RA224 x 5.789 + NDECAY_RN220 x 6.404 = 267.27 MeV                " + System.getProperty("line.separator"));
+    	data6.append("and the average radiated power is: Energy/time = 267.27/100 = 2.6727 MeV/s           " + System.getProperty("line.separator"));
+    	data6.append("Now let us see if the program can produce the same values:                            " + System.getProperty("line.separator"));
+    	data6.append(System.getProperty("line.separator"));
+    	scrivener.puOpenNewFile(file6);
+    	fileNum = scrivener.puGetNumFiles();
+    	data6.append("For any user set (resolution) we will get: " + System.getProperty("line.separator"));
+    	data6.append("Radiated Power = " + test6.puGetRadiatedPowerOverTimeRange(startTime, endTime)+ " MeV/s" + System.getProperty("line.separator"));
+    	data6.append("Total Energy = " + test6.puGetEnergySumOverTimeRange(startTime, endTime) + " MeV" + System.getProperty("line.separator"));
+    	data6.append(System.getProperty("line.separator"));
+    	data6.append("Next we see how the program is distributing the event energies into smaller groups as defined by the (resolution)" + System.getProperty("line.separator"));
+    	double sum6 = 0;
+    	for(int x = 1; x <= 1000 ;x = x*10) {
+    		sum6 = 0;
+    		data6.append("For resolution set to " + x + " we get:" + System.getProperty("line.separator"));
+    		test6 = new NucleiSamplePredictiveSim(num,"/home/user/git/Radioactivity_Sim/input/RA224test",startTime,endTime,resolution);
+        	test6.puAddSpecies(17.58, "/home/user/git/Radioactivity_Sim/input/RN220test", startTime, endTime);
+    		for(int y = 0; y < x; y++) {
+    			data6.append("Energy (t = "+(startTime+(y+1)*(endTime-startTime)/x)+") = " + test6.puGetEnergySumOverTimeRange(startTime+y*(endTime-startTime)/x, startTime+(y+1)*(endTime-startTime)/x)+ " MeV" + System.getProperty("line.separator"));
+    			sum6 += test6.puGetEnergySumOverTimeRange(startTime+y*(endTime-startTime)/x, startTime+(y+1)*(endTime-startTime)/x);
+    		}
+    		data6.append("Which all adds up to: " + sum6 + " MeV" + System.getProperty("line.separator"));
+    		data6.append(System.getProperty("line.separator"));
+    	}
+    	scrivener.puAppendStringToFile(fileNum-1, data6.toString());
+    	scrivener.puCloseFile(fileNum-1);
 
     	//Verify if the calculations agree with theory:
     	double numU238 = Math.pow(10, 26);
     	double numTH234 = 1.4776*Math.pow(10, 14);
     	double numPA234 = 1.7116*Math.pow(10, 12);
     	startTime = 0; endTime = Math.pow(10,13); resolution = 10;
-    	NucleiSample test = new NucleiSample(numU238,"/home/user/git/Radioactivity_Sim/input/U238test",startTime,endTime,resolution);
-    	test.puAddSpecies(numTH234, "/home/user/git/Radioactivity_Sim/input/TH234test", startTime, endTime);
-    	test.puAddSpecies(numPA234, "/home/user/git/Radioactivity_Sim/input/PA234test", startTime, endTime);
+    	NucleiSamplePredictiveSim test7 = new NucleiSamplePredictiveSim(numU238,"/home/user/git/Radioactivity_Sim/input/U238test",startTime,endTime,resolution);
+    	test7.puAddSpecies(numTH234, "/home/user/git/Radioactivity_Sim/input/TH234test", startTime, endTime);
+    	test7.puAddSpecies(numPA234, "/home/user/git/Radioactivity_Sim/input/PA234test", startTime, endTime);
     	String file7 = "/home/user/git/Radioactivity_Sim/proofs/verification2";
     	StringBuilder data7 = new StringBuilder();
+    	data7.append("verification2 for NucleiSamplePredictiveSim.java calculations:                       " + System.getProperty("line.separator"));
     	data7.append("This verification is intended to show that the Radioactive_Sim program does not      " + System.getProperty("line.separator"));
     	data7.append("create or propagate error in decay products that are further down a chain.           " + System.getProperty("line.separator"));
     	data7.append("Secular Equilibrium occurs between U238 and the next two products on its decay chain " + System.getProperty("line.separator"));
@@ -203,22 +207,83 @@ public class DataExport {
     	scrivener.puOpenNewFile(file7);
         fileNum = scrivener.puGetNumFiles();
         data7.append("For any user set (resolution) we will get: " + System.getProperty("line.separator"));
-        data7.append("Radiated Power = " + test.puGetRadiatedPowerOverTimeRange(startTime, endTime)+ " MeV/s" + System.getProperty("line.separator"));
-    	data7.append("Total Energy = " + test.puGetEnergySumOverTimeRange(startTime, endTime) + " MeV" + System.getProperty("line.separator"));
+        data7.append("Radiated Power = " + test7.puGetRadiatedPowerOverTimeRange(startTime, endTime)+ " MeV/s" + System.getProperty("line.separator"));
+    	data7.append("Total Energy = " + test7.puGetEnergySumOverTimeRange(startTime, endTime) + " MeV" + System.getProperty("line.separator"));
     	data7.append(System.getProperty("line.separator"));
     	data7.append("Next we see how the program is distributing the event energies into smaller groups as defined by the (resolution)" + System.getProperty("line.separator"));
-    	double sum = 0;
+    	double sum7 = 0;
     	for(int x = 1; x <= 1000 ;x = x*10) {
-    		sum = 0;
+    		sum7 = 0;
     		data7.append("For resolution set to " + x + " we get:" + System.getProperty("line.separator"));
+    		test7 = new NucleiSamplePredictiveSim(numU238,"/home/user/git/Radioactivity_Sim/input/U238test",startTime,endTime,x);
+        	test7.puAddSpecies(numTH234, "/home/user/git/Radioactivity_Sim/input/TH234test", startTime, endTime);
+        	test7.puAddSpecies(numPA234, "/home/user/git/Radioactivity_Sim/input/PA234test", startTime, endTime);
     		for(int y = 0; y < x; y++) {
-    			data7.append("Energy (t = "+(startTime+(y+1)*(endTime-startTime)/x)+") = " + test.puGetEnergySumOverTimeRange(startTime+y*(endTime-startTime)/x, startTime+(y+1)*(endTime-startTime)/x)+ " MeV" + System.getProperty("line.separator"));
-    			sum += test.puGetEnergySumOverTimeRange(startTime+y*(endTime-startTime)/x, startTime+(y+1)*(endTime-startTime)/x);
+    			data7.append("Energy (t = "+(startTime+(y+1)*(endTime-startTime)/x)+") = " + test7.puGetEnergySumOverTimeRange(startTime+y*(endTime-startTime)/x, startTime+(y+1)*(endTime-startTime)/x)+ " MeV" + System.getProperty("line.separator"));
+    			sum7 += test7.puGetEnergySumOverTimeRange(startTime+y*(endTime-startTime)/x, startTime+(y+1)*(endTime-startTime)/x);
     		}
-    		data7.append("Which all adds up to: " + sum + " MeV" + System.getProperty("line.separator"));
+    		data7.append("Which all adds up to: " + sum7 + " MeV" + System.getProperty("line.separator"));
     		data7.append(System.getProperty("line.separator"));
     	}
     	scrivener.puAppendStringToFile(fileNum-1, data7.toString());
+    	scrivener.puCloseFile(fileNum-1);
+
+    	//Verify if the calculations agree with theory:
+    	startTime = 0; endTime = 100;
+    	NucleiSampleBruteForceSim test8 = new NucleiSampleBruteForceSim(100000,"/home/user/git/Radioactivity_Sim/input/RA224test",startTime,endTime);
+    	test8.puAddSpecies(18, "/home/user/git/Radioactivity_Sim/input/RN220test", startTime, endTime);
+    	String file8 = "/home/user/git/Radioactivity_Sim/proofs/verification3";
+    	StringBuilder data8 = new StringBuilder();
+    	data8.append("verification3 for NucleiSampleBruteForceSim.java calculations:                       " + System.getProperty("line.separator"));
+    	data8.append("Secular Equilibrium occurs between RA224 and RN220 because the decay constant, lambda" + System.getProperty("line.separator"));
+    	data8.append("of RN220 is much greater than that of RA224.  The decay constants are defined as:    " + System.getProperty("line.separator"));
+    	data8.append(System.getProperty("line.separator"));
+    	data8.append("   lambda_RA224 = ln(2) / HALFLIFE_RA224  &  lambda_RN220 = ln(2) / HALFLIFE_RN220   " + System.getProperty("line.separator"));
+    	data8.append(System.getProperty("line.separator"));
+    	data8.append("For these nuclei: lambda_RA224 = 2.19195E-6 & lambda_RN220 = 1.24667E-2              " + System.getProperty("line.separator"));
+    	data8.append("In the case of secular equilibrium, the number of child nuclei (in this case RN220)  " + System.getProperty("line.separator"));
+    	data8.append("remains at a fixed ratio to the number of parent nuclei.  This relationship is       " + System.getProperty("line.separator"));
+    	data8.append("governed by the equation: N_RN220 = N_RA224 x lambda_RA224/lambda_RN220              " + System.getProperty("line.separator"));
+    	data8.append("where N is the total number of nuclei of each type.  In order for this relationship  " + System.getProperty("line.separator"));
+    	data8.append("to remain true, the number of decay events of the parent nuclei must equal the number" + System.getProperty("line.separator"));
+    	data8.append("of decay events of the child nuclei such that:  NDECAYS_RA224 = NDECAYS_RN220        " + System.getProperty("line.separator"));
+    	data8.append("To prove this program's agreement with these theories we select a starting quantity  " + System.getProperty("line.separator"));
+    	data8.append("of RA224 nuclei:                                                                     " + System.getProperty("line.separator"));
+    	data8.append("N_RA224 = " + 100000 + System.getProperty("line.separator"));
+    	data8.append("Then from theory, N_RN220 = " + 100000 + "x(2.19195E-6/1.24667E-2) = " + (100000*2.19195*Math.pow(10, -6)/0.0124667) + System.getProperty("line.separator"));
+    	data8.append("Next, a sufficiently small time period is selected such that N_RA224 doesn't decrease" + System.getProperty("line.separator"));
+    	data8.append("by much.  Let us choose a time period of 100 seconds.                                " + System.getProperty("line.separator"));
+    	data8.append("The number of decays of RA224 which occur in 100 seconds from a sample of 1E5 is     " + System.getProperty("line.separator"));
+    	data8.append("given by:  NDECAYS_RA224 = "+100000+" x(1 - e^(-100*lambda_RA224) = 21.92               " + System.getProperty("line.separator"));
+    	data8.append("Of course, in reality the number of decay events has to be a whole number, but for   " + System.getProperty("line.separator"));
+    	data8.append("theory, it is acceptable to use the fraction, because it is an average amount that   " + System.getProperty("line.separator"));
+    	data8.append("would occur during this time period.  Since NDECAY_RA224 = NDECAY_RN220, the number  " + System.getProperty("line.separator"));
+    	data8.append("of RN220 events is also 21.92.  The energy released by each RA224 decay is 5.789 MeV " + System.getProperty("line.separator"));
+    	data8.append("and the energy released by each RN220 decay is 6.404 MeV.  Therefore the total energy" + System.getProperty("line.separator"));
+    	data8.append("released is: NDECAY_RA224 x 5.789 + NDECAY_RN220 x 6.404 = 267.27 MeV                " + System.getProperty("line.separator"));
+    	data8.append("and the average radiated power is: Energy/time = 267.27/100 = 2.6727 MeV/s           " + System.getProperty("line.separator"));
+    	data8.append("Now let us see if the program can produce the same values:                            " + System.getProperty("line.separator"));
+    	data8.append(System.getProperty("line.separator"));
+    	scrivener.puOpenNewFile(file8);
+    	fileNum = scrivener.puGetNumFiles();
+    	data8.append("From the program we will get: " + System.getProperty("line.separator"));
+    	double sumEnergy8 = 0;
+    	double sumPower8 = 0;
+    	for (int x = 0; x < 20; x++){
+    		test8 = new NucleiSampleBruteForceSim(100000,"/home/user/git/Radioactivity_Sim/input/RA224test",startTime,endTime);
+        	test8.puAddSpecies(18, "/home/user/git/Radioactivity_Sim/input/RN220test", startTime, endTime);
+    		data8.append("Attempt No. " + (x+1) + System.getProperty("line.separator"));
+    		data8.append("Radiated Power = " + test8.puGetRadiatedPowerOverTimeRange(startTime, endTime) + " MeV/s" + System.getProperty("line.separator"));
+    		data8.append("Total Energy = " + test8.puGetEnergySumOverTimeRange(startTime, endTime) + " MeV" + System.getProperty("line.separator"));
+    		data8.append(System.getProperty("line.separator"));
+    		sumEnergy8 += test8.puGetEnergySumOverTimeRange(startTime, endTime);
+    		sumPower8 += test8.puGetRadiatedPowerOverTimeRange(startTime, endTime);
+    	}
+    	data8.append("Average:" + System.getProperty("line.separator"));
+		data8.append("Ave. Radiated Power = " + (sumPower8/20.0) + " MeV/s" + System.getProperty("line.separator"));
+		data8.append("Ave. Total Energy = " + (sumEnergy8/20.0) + " MeV" + System.getProperty("line.separator"));
+		data8.append(System.getProperty("line.separator"));
+    	scrivener.puAppendStringToFile(fileNum-1, data8.toString());
     	scrivener.puCloseFile(fileNum-1);
 
         //Prints the program runtime to the console in milliseconds

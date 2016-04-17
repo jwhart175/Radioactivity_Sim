@@ -1,0 +1,116 @@
+verification3 for NucleiSampleBruteForceSim.java calculations:                       
+Secular Equilibrium occurs between RA224 and RN220 because the decay constant, lambda
+of RN220 is much greater than that of RA224.  The decay constants are defined as:    
+
+   lambda_RA224 = ln(2) / HALFLIFE_RA224  &  lambda_RN220 = ln(2) / HALFLIFE_RN220   
+
+For these nuclei: lambda_RA224 = 2.19195E-6 & lambda_RN220 = 1.24667E-2              
+In the case of secular equilibrium, the number of child nuclei (in this case RN220)  
+remains at a fixed ratio to the number of parent nuclei.  This relationship is       
+governed by the equation: N_RN220 = N_RA224 x lambda_RA224/lambda_RN220              
+where N is the total number of nuclei of each type.  In order for this relationship  
+to remain true, the number of decay events of the parent nuclei must equal the number
+of decay events of the child nuclei such that:  NDECAYS_RA224 = NDECAYS_RN220        
+To prove this program's agreement with these theories we select a starting quantity  
+of RA224 nuclei:                                                                     
+N_RA224 = 100000
+Then from theory, N_RN220 = 100000x(2.19195E-6/1.24667E-2) = 17.5824396191454
+Next, a sufficiently small time period is selected such that N_RA224 doesn't decrease
+by much.  Let us choose a time period of 100 seconds.                                
+The number of decays of RA224 which occur in 100 seconds from a sample of 1E5 is     
+given by:  NDECAYS_RA224 = 100000 x(1 - e^(-100*lambda_RA224) = 21.92               
+Of course, in reality the number of decay events has to be a whole number, but for   
+theory, it is acceptable to use the fraction, because it is an average amount that   
+would occur during this time period.  Since NDECAY_RA224 = NDECAY_RN220, the number  
+of RN220 events is also 21.92.  The energy released by each RA224 decay is 5.789 MeV 
+and the energy released by each RN220 decay is 6.404 MeV.  Therefore the total energy
+released is: NDECAY_RA224 x 5.789 + NDECAY_RN220 x 6.404 = 267.27 MeV                
+and the average radiated power is: Energy/time = 267.27/100 = 2.6727 MeV/s           
+Now let us see if the program can produce the same values:                            
+
+From the program we will get: 
+Attempt No. 1
+Radiated Power = 0.7684799999999997 MeV/s
+Total Energy = 76.84799999999997 MeV
+
+Attempt No. 2
+Radiated Power = 0.5763599999999998 MeV/s
+Total Energy = 57.63599999999998 MeV
+
+Attempt No. 3
+Radiated Power = 0.7044399999999997 MeV/s
+Total Energy = 70.44399999999997 MeV
+
+Attempt No. 4
+Radiated Power = 0.8325199999999997 MeV/s
+Total Energy = 83.25199999999997 MeV
+
+Attempt No. 5
+Radiated Power = 0.6403999999999997 MeV/s
+Total Energy = 64.03999999999998 MeV
+
+Attempt No. 6
+Radiated Power = 0.5763599999999998 MeV/s
+Total Energy = 57.63599999999998 MeV
+
+Attempt No. 7
+Radiated Power = 0.6403999999999997 MeV/s
+Total Energy = 64.03999999999998 MeV
+
+Attempt No. 8
+Radiated Power = 0.5123199999999999 MeV/s
+Total Energy = 51.231999999999985 MeV
+
+Attempt No. 9
+Radiated Power = 0.5763599999999998 MeV/s
+Total Energy = 57.63599999999998 MeV
+
+Attempt No. 10
+Radiated Power = 0.8325199999999997 MeV/s
+Total Energy = 83.25199999999997 MeV
+
+Attempt No. 11
+Radiated Power = 0.7044399999999997 MeV/s
+Total Energy = 70.44399999999997 MeV
+
+Attempt No. 12
+Radiated Power = 0.5763599999999998 MeV/s
+Total Energy = 57.63599999999998 MeV
+
+Attempt No. 13
+Radiated Power = 0.5763599999999998 MeV/s
+Total Energy = 57.63599999999998 MeV
+
+Attempt No. 14
+Radiated Power = 0.4482799999999999 MeV/s
+Total Energy = 44.82799999999999 MeV
+
+Attempt No. 15
+Radiated Power = 0.5123199999999999 MeV/s
+Total Energy = 51.231999999999985 MeV
+
+Attempt No. 16
+Radiated Power = 0.6403999999999997 MeV/s
+Total Energy = 64.03999999999998 MeV
+
+Attempt No. 17
+Radiated Power = 0.7044399999999997 MeV/s
+Total Energy = 70.44399999999997 MeV
+
+Attempt No. 18
+Radiated Power = 0.5123199999999999 MeV/s
+Total Energy = 51.231999999999985 MeV
+
+Attempt No. 19
+Radiated Power = 0.3202 MeV/s
+Total Energy = 32.019999999999996 MeV
+
+Attempt No. 20
+Radiated Power = 0.4482799999999999 MeV/s
+Total Energy = 44.82799999999999 MeV
+
+Average:
+Ave. Radiated Power = 0.6051779999999999 MeV/s
+Ave. Total Energy = 60.51779999999998 MeV
+
+

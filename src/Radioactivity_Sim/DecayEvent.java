@@ -38,7 +38,7 @@ public class DecayEvent {
      * pusf = public static final
      */
     private double pvTime = -1.0; //calculated time of the (DecayEvent) referenced from arbitrary start point in seconds
-    private int pvMaxHalfLives = 20;
+    private int pvMaxHalfLives = 80;
     private double pvTimeOffset = 0.0; //user supplied offset time in seconds
     protected double prEnergy = -1.0; //user supplied (DecayEvent) energy in MeV
     protected String prType; //user supplied (DecayEvent) type (alpha, beta, gamma, neutron)
@@ -48,7 +48,7 @@ public class DecayEvent {
     protected double prStartTime = -1.0; //lower bound of the time in which the (DecayEvent) may occur
     protected double prEndTime = -1.0; //upper bound of the time in which the (DecayEvent) may occur
     //pvDetailedTest is a predefined sieve to reduce error in the unbound time calculation
-    private static final int pvDetailedTest[] = {
+    private static final double pvDetailedTest[] = {
             1077,2143,3197,4240,
             5271,6292,7301,8300,
             9287,10265,11231,12187,
@@ -69,79 +69,7 @@ public class DecayEvent {
     public DecayEvent(){
     	//empty constructor
     }
-    public DecayEvent(boolean isChild, double startTime, double endTime, String start, String end, double halfLife, double energy, String type) {
-        //constructor which checks to see if the (DecayEvent) is a child before directing it to the occurrence time prediction algorithm
-    	prStartNucleus = start;
-        prEndNucleus = end;
-        if (startTime >= 0 & startTime < endTime) {
-        	prStartTime = startTime;
-        } else {
-            System.out.println("(DecayEvent) construction failed because (DecayEvent) input (startTime) must be greater than or equal to zero and less than (endTime)");
-        }
-        if (endTime >= 0 & endTime > startTime) {
-        	prEndTime = endTime;
-        } else {
-            System.out.println("(DecayEvent) construction failed because (DecayEvent) input (endTime) must be greater than or equal to zero and greaterh than (startTime)");
-        }
 
-    	if (energy > 0) {
-            prEnergy = energy;
-        } else {
-            System.out.println("(DecayEvent) construction failed because (DecayEvent) input (energy) must be a positive number and greater than zero");
-        }
-        prType = type;
-        if (halfLife > 0) {
-            prHalfLife = halfLife;
-        } else {
-            System.out.println("(DecayEvent) construction failed because input (halflife) must be a positive number and greater than zero");
-        }
-        if ((prHalfLife > 0)&(prStartTime > -1)&(prEndTime > -1)) {
-        	if (isChild) {
-        		pvTime = pvCalcBoundTimeChild();
-        	} else {
-            	pvTime = pvCalcBoundTime();
-        	}
-        } else {
-            System.out.println("(DecayEvent) construction failed because (pvTime) cannot be calculated without a proper (halflife),(startTime), and (endTime)");
-        }
-        pvMaxHalfLives = 20;
-        pvTimeOffset = 0.0;
-    }
-
-    public DecayEvent(double startTime, double endTime, String start, String end, double halfLife, double energy, String type) {
-        //(DecayEvent) constructor which includes a time bound for the decay event, assumes that the event is not a child nucleus
-    	prStartNucleus = start;
-        prEndNucleus = end;
-        if (startTime >= 0 & startTime < endTime) {
-        	prStartTime = startTime;
-        } else {
-            System.out.println("(DecayEvent) construction failed because (DecayEvent) input (startTime) must be greater than or equal to zero and less than (endTime)");
-        }
-        if (endTime >= 0 & endTime > startTime) {
-        	prEndTime = endTime;
-        } else {
-            System.out.println("(DecayEvent) construction failed because (DecayEvent) input (endTime) must be greater than or equal to zero and greaterh than (startTime)");
-        }
-
-    	if (energy > 0) {
-            prEnergy = energy;
-        } else {
-            System.out.println("(DecayEvent) construction failed because (DecayEvent) input (energy) must be a positive number and greater than zero");
-        }
-        prType = type;
-        if (halfLife > 0) {
-            prHalfLife = halfLife;
-        } else {
-            System.out.println("(DecayEvent) construction failed because input (halflife) must be a positive number and greater than zero");
-        }
-        if ((prHalfLife > 0)&(prStartTime > -1)&(prEndTime > -1)) {
-            pvTime = pvCalcBoundTime();
-        } else {
-            System.out.println("(DecayEvent) construction failed because (pvTime) cannot be calculated without a proper (halflife),(startTime), and (endTime)");
-        }
-        pvMaxHalfLives = 20;
-        pvTimeOffset = 0.0;
-    }
     public DecayEvent(String start, String end, double halfLife, double energy, String type) {
     	//Simple (DecayEvent) constructor that calculates the time that the event occurs based on the supplied half-life
         prStartNucleus = start;
@@ -162,7 +90,7 @@ public class DecayEvent {
         } else {
             System.out.println("(DecayEvent) construction failed because (pvTime) cannot be calculated without a defined (halflife)");
         }
-        pvMaxHalfLives = 20;
+        pvMaxHalfLives = 80;
         pvTimeOffset = 0.0;
     }
     public DecayEvent(String start, String end, double halfLife, double energy, String type,double timeOffset) {
@@ -190,7 +118,7 @@ public class DecayEvent {
         } else {
             System.out.println("(DecayEvent) construction failed because (pvTime) cannot be calculated without a defined (halflife)");
         }
-        pvMaxHalfLives = 20;
+        pvMaxHalfLives = 80;
     }
     public DecayEvent(String start, String end, double halfLife, double energy, String type, int maxHalfLives) {
     	//Simple (DecayEvent) constructor that calculates the time that the event occurs based on the supplied half-life that includes a variable to modify the maximum number of half lives to search through (default is 20)
@@ -211,7 +139,7 @@ public class DecayEvent {
             pvMaxHalfLives = maxHalfLives;
         } else {
             System.out.println("Using default (pvMaxHalfLives) of 20 because the (maxHalfLives) supplied to the constructor was not a positive number and greater than zero");
-            pvMaxHalfLives = 20;
+            pvMaxHalfLives = 80;
         }
         if (prHalfLife > 0) {
             pvTime = pvCalcTime();
@@ -245,7 +173,7 @@ public class DecayEvent {
             pvMaxHalfLives = maxHalfLives;
         } else {
             System.out.println("Using default (pvMaxHalfLives) of 20 because the (maxHalfLives) supplied to the constructor was not a positive number and greater than zero");
-            pvMaxHalfLives = 20;
+            pvMaxHalfLives = 80;
         }
         if (prHalfLife > 0) {
             pvTime = pvCalcTime();
@@ -254,56 +182,31 @@ public class DecayEvent {
         }
     }
 
-    private double pvCalcBoundTime(){
-    	//Calculates the (DecayEvent) time within a specified time range based on the half-life
-    	double end = Math.exp(-prEndTime*Math.log(2)/prHalfLife);
-    	double start = Math.exp(-prStartTime*Math.log(2)/prHalfLife);
-    	double seed1 = Math.random()*(start-end)+end;
-    	double t = 0;
-    	double deltaT = (prEndTime-prStartTime)/10;
-    	int x = 0;
-        while (t == 0) {
-        	if(Math.exp(-(prStartTime+x*deltaT)*Math.log(2)/prHalfLife)<=seed1){
-            	t = prStartTime + (Math.random()+x-1)*deltaT;
-        	}
-        	x++;
-        }
-        return t;
-    }
-
-    private double pvCalcBoundTimeChild(){
-    	//Calculates the (DecayEvent) time within a specified time range for a child nucleus
-    	//Assumes equilibrium
-    	//Accuracy can be improved by reducing the size of the time period
-    	double time = prStartTime + Math.random()*(prEndTime-prStartTime);
-        return time;
-    }
-
     private double pvCalcTime() {
     	//Calculates the (DecayEvent) time with a time offset for a maximum number of half-lives
         double seed1 = Math.random();
         double seed2 = Math.random();
         double seed3 = Math.random();
-        double weightedLife = Math.pow(2,pvMaxHalfLives);
+        double weightedLife = 100.0;
         double testWeightedLife = seed1 * weightedLife;
-        double testDetailedLife = seed2 * 50000;
+        double testDetailedLife = seed2 * 50000.0;
         double t = 0;
-        int x = 0;
+        double x = 0;
         while (t == 0) {
             if (x == (pvMaxHalfLives-1)) {
                 for (int y = 0; y<64;y++) {
                     if (testDetailedLife <= pvDetailedTest[y]){
-                        t = (x+y/64+seed3/64)*prHalfLife;
+                        t = (x+y/64.0+seed3/64.0)*prHalfLife;
                     }
                 }
-            } else if (testWeightedLife <= weightedLife*(1+(x*2))/Math.pow(2,x+1)){
+            } else if (testWeightedLife <= weightedLife*(1.0+(x*2.0))/Math.pow(2,x+1)){
                 for (int y = 0; y<64;y++) {
                     if (testDetailedLife <= pvDetailedTest[y]){
-                        t = (x+y/64+seed3/64)*prHalfLife;
+                        t = (x+y/64.0+seed3/64.0)*prHalfLife;
                     }
                 }
             }
-            x+=1;
+            x+=1.0;
         }
         return (t+pvTimeOffset);
     }
@@ -427,30 +330,4 @@ public class DecayEvent {
         }
     }
 
-    public void puRecalculateTime(boolean bound, boolean isChild){
-    	//a method to recalculate the (DecayEvent) occurrence time to be used after half-life or other parameters have changed
-    	if(bound){
-    		if(isChild){
-    			if(prStartTime*prEndTime>0&prEndTime>prStartTime){
-    				pvTime = pvCalcBoundTimeChild();
-    			} else {
-    				System.out.println("(puRecalculateTime) failed because (prStartTime) or (prEndTime) is less than or equal to zero or because (prEndTime) is less than (prStartTime)!");
-    				pvTime = -1.0;
-    			}
-    		} else {
-    			if(prStartTime*prEndTime*prHalfLife>0&prEndTime>prStartTime){
-    				pvTime = pvCalcBoundTime();
-    			} else {
-    				System.out.println("(puRecalculateTime) failed because (prStartTime), (prEndTime), or (prHalfLife) is less than or equal to zero or because (prEndTime) is less than (prStartTime)!");
-    				pvTime = -1.0;
-    			}
-    		}
-    	} else {
-    		if(prHalfLife>0){
-    			pvTime = pvCalcTime();
-    		} else {
-    			System.out.println("(puRecalculateTime) failed because (prHalfLife) is less than or equal to zero!");
-    		}
-    	}
-    }
 }
