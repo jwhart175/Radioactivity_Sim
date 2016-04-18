@@ -100,7 +100,7 @@ public class DataExport {
 
     	//Verify if the calculations agree with theory:
     	num = Math.pow(10, 5);
-    	startTime = 0; endTime = 100; resolution = 10;
+    	startTime = 0; endTime = 100; resolution = 1;
     	NucleiSamplePredictiveSim test6 = new NucleiSamplePredictiveSim(num,"/home/user/git/Radioactivity_Sim/input/RA224test",startTime,endTime,resolution);
     	test6.puAddSpecies(17.58, "/home/user/git/Radioactivity_Sim/input/RN220test", startTime, endTime);
     	String file6 = "/home/user/git/Radioactivity_Sim/proofs/verification1";
@@ -137,9 +137,13 @@ public class DataExport {
     	data6.append(System.getProperty("line.separator"));
     	scrivener.puOpenNewFile(file6);
     	fileNum = scrivener.puGetNumFiles();
-    	data6.append("For any user set (resolution) we will get: " + System.getProperty("line.separator"));
+    	data6.append("For a standard resolution of 10 we will get: " + System.getProperty("line.separator"));
     	data6.append("Radiated Power = " + test6.puGetRadiatedPowerOverTimeRange(startTime, endTime)+ " MeV/s" + System.getProperty("line.separator"));
     	data6.append("Total Energy = " + test6.puGetEnergySumOverTimeRange(startTime, endTime) + " MeV" + System.getProperty("line.separator"));
+    	data6.append(System.getProperty("line.separator"));
+    	data6.append(test6.puGetAllFinalNucleiCounts());
+    	data6.append(System.getProperty("line.separator"));
+    	data6.append(test6.puGetAllEventCountsOverTimeRangeByNuclei(startTime, endTime));
     	data6.append(System.getProperty("line.separator"));
     	data6.append("Next we see how the program is distributing the event energies into smaller groups as defined by the (resolution)" + System.getProperty("line.separator"));
     	double sum6 = 0;
@@ -162,7 +166,7 @@ public class DataExport {
     	double numU238 = Math.pow(10, 26);
     	double numTH234 = 1.4776*Math.pow(10, 14);
     	double numPA234 = 1.7116*Math.pow(10, 12);
-    	startTime = 0; endTime = Math.pow(10,13); resolution = 10;
+    	startTime = 0; endTime = Math.pow(10,13); resolution = 1;
     	NucleiSamplePredictiveSim test7 = new NucleiSamplePredictiveSim(numU238,"/home/user/git/Radioactivity_Sim/input/U238test",startTime,endTime,resolution);
     	test7.puAddSpecies(numTH234, "/home/user/git/Radioactivity_Sim/input/TH234test", startTime, endTime);
     	test7.puAddSpecies(numPA234, "/home/user/git/Radioactivity_Sim/input/PA234test", startTime, endTime);
@@ -206,9 +210,13 @@ public class DataExport {
     	data7.append(System.getProperty("line.separator"));
     	scrivener.puOpenNewFile(file7);
         fileNum = scrivener.puGetNumFiles();
-        data7.append("For any user set (resolution) we will get: " + System.getProperty("line.separator"));
+        data7.append("For a standard resolution of 10 we will get: " + System.getProperty("line.separator"));
         data7.append("Radiated Power = " + test7.puGetRadiatedPowerOverTimeRange(startTime, endTime)+ " MeV/s" + System.getProperty("line.separator"));
     	data7.append("Total Energy = " + test7.puGetEnergySumOverTimeRange(startTime, endTime) + " MeV" + System.getProperty("line.separator"));
+    	data7.append(System.getProperty("line.separator"));
+    	data7.append(test7.puGetAllFinalNucleiCounts());
+    	data7.append(System.getProperty("line.separator"));
+    	data7.append(test7.puGetAllEventCountsOverTimeRangeByNuclei(startTime, endTime));
     	data7.append(System.getProperty("line.separator"));
     	data7.append("Next we see how the program is distributing the event energies into smaller groups as defined by the (resolution)" + System.getProperty("line.separator"));
     	double sum7 = 0;
@@ -285,6 +293,23 @@ public class DataExport {
 		data8.append(System.getProperty("line.separator"));
     	scrivener.puAppendStringToFile(fileNum-1, data8.toString());
     	scrivener.puCloseFile(fileNum-1);
+
+    	//Writes a new Detailed Sieve for the DecayEventClass to increase the accuracy of the NucleiSampleBruteForceSim calculations
+//    	int count9 = 0;
+//    	String file9 = "/home/user/git/Radioactivity_Sim/output/newSieve";
+//    	StringBuilder data9 = new StringBuilder();
+//    	for(int x = 0; x <= 990;x+=10){
+//    		for(int y = 1; y <= 10;y++){
+//    			data9.append(Integer.valueOf(Long.toString(Math.round(1000000.0*(1-Math.exp(-(x+y)*Math.log(2.0)/1000.0)))))+",");
+//    			count9++;
+//    		}
+//    		data9.append(System.getProperty("line.separator"));
+//    	}
+//    	data9.append(count9);
+//    	scrivener.puOpenNewFile(file9);
+//    	fileNum = scrivener.puGetNumFiles();
+//    	scrivener.puAppendStringToFile(fileNum-1, data9.toString());
+//    	scrivener.puCloseFile(fileNum-1);
 
         //Prints the program runtime to the console in milliseconds
         System.out.println(Calendar.getInstance().getTime().getTime() - now);

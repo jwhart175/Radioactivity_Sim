@@ -34,9 +34,19 @@ released is: ND_U238 x (4.2697 + 0.273 + 2.195) = 3.314 x 10^21 MeV
 and the average radiated power is: Energy/time = 3.314E21/1E13 = 3.3143E8 MeV/s      
 Now let us see if this program can produce the same values:                          
 
-For any user set (resolution) we will get: 
-Radiated Power = 3.314559751782637E8 MeV/s
-Total Energy = 3.3145597517826375E21 MeV
+For a standard resolution of 10 we will get: 
+Radiated Power = 3.3145541449509925E8 MeV/s
+Total Energy = 3.314554144950992E21 MeV
+
+The final nuclei counts are: 
+At t = 1.0E13, the number of remaining U238 = 9.999950805856947E25
+At t = 1.0E13, the number of remaining TH234 = 1.4778067825421106E14
+At t = 1.0E13, the number of remaining PA234 = 1.7118439562642312E12
+
+The final decay counts are: 
+The number of decays of U238 = 4.919414305359915E20
+The number of decays of TH234 = 4.9194157829599153E20
+The number of decays of PA234 = 4.919415800075915E20
 
 Next we see how the program is distributing the event energies into smaller groups as defined by the (resolution)
 For resolution set to 1 we get:

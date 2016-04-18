@@ -108,10 +108,12 @@ public class DecayEventSet extends DecayEvent {
 	        	if(pvIsChild){
 	        		if(prStartTime < startTime) {
 	        			if(prEndTime < endTime & prEndTime >= startTime) {
+	        				System.out.println((prEndTime-startTime)/(prEndTime-prStartTime));
 	        				return (pvNum*(prEndTime-startTime)/(prEndTime-prStartTime));
 	        			} else if (prEndTime < startTime) {
 	        				return 0;
 	        			} else if (prEndTime >= endTime) {
+	        				System.out.println((endTime-startTime)/(prEndTime-prStartTime));
 	        				return (pvNum*(endTime-startTime)/(prEndTime-prStartTime));
 	        			}
 	        			System.out.println("(puGetNumWithinTimeBounds) failed because something unexpected happened!");
@@ -122,6 +124,7 @@ public class DecayEventSet extends DecayEvent {
 	        			} else if (prStartTime >= endTime) {
 	        				return 0;
 	        			} else if (prEndTime >= endTime) {
+	        				System.out.println((endTime-prStartTime)/(prEndTime-prStartTime));
 	        				return pvNum*(endTime-prStartTime)/(prEndTime-prStartTime);
 	        			}
 	        			System.out.println("(puGetNumWithinTimeBounds) failed because something unexpected happened!");
@@ -133,25 +136,26 @@ public class DecayEventSet extends DecayEvent {
 	        		//lambda is ln(2)/half-life
 	        		//upperbound = 0 if prStartTime is the upper bound
 	        		double lambda = Math.log(2)/prHalfLife;
+	        		double var = pvNum/(Math.exp(-(prStartTime)*lambda)-Math.exp(-(prEndTime)*lambda));
 	        		if(prStartTime < startTime) {
 	        			if(prEndTime < endTime & prEndTime >= startTime) {
-	        				return pvNum/lambda*(Math.exp(-(startTime-prStartTime)*lambda)-Math.exp(-(prEndTime-prStartTime)*lambda));
+	        				return (var*(Math.exp(-(startTime-prStartTime)*lambda)-Math.exp(-(prEndTime-prStartTime)*lambda)));
 	        			} else if (prEndTime < startTime) {
 	        				return 0;
 	        			} else if (prEndTime >= endTime) {
-	        				return pvNum/lambda*(Math.exp(-(startTime-prStartTime)*lambda)-Math.exp(-(endTime-prStartTime)*lambda));
+	        				return (var*(Math.exp(-(startTime-prStartTime)*lambda)-Math.exp(-(endTime-prStartTime)*lambda)));
 	        			}
-	        			System.out.println("(puGetNumWithinTimeBounds) failed because something unexpected happened!");
+	        			System.out.println("(puGetEnergyWithinTimeBounds) failed because something unexpected happened!");
 	        			return -1.0;
 	        		} else {
-	        			if(prEndTime < endTime & prEndTime >= prStartTime) {
-	        				return pvNum;
+	        			if(prEndTime <= endTime & prEndTime >= prStartTime) {
+	        				return (pvNum);
 	        			} else if (prStartTime >= endTime) {
 	        				return 0;
-	        			} else if (prEndTime >= endTime) {
-	        				return pvNum/lambda*(1-Math.exp(-(endTime-prStartTime)*lambda));
+	        			} else if (prEndTime > endTime) {
+	        				return (var*(1-Math.exp(-(endTime-prStartTime)*lambda)));
 	        			}
-	        			System.out.println("(puGetNumWithinTimeBounds) failed because something unexpected happened!");
+	        			System.out.println("(puGetEnergyWithinTimeBounds) failed because something unexpected happened!");
 	        			return -1.0;
 	        		}
 	        	}

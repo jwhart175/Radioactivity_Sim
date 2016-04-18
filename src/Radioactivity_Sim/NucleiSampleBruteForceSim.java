@@ -326,6 +326,142 @@ public class NucleiSampleBruteForceSim {
     	}
     }
 
+    public double puGetEventNumForTypeOverTimeRange(double start, double end, String type) {
+    	//Returns the number of events with the supplied (type) that occurred between the user supplied (start) and (end) times
+    	double sum = 0;
+    	double test = 0;
+    	if (start < pvStartTime) {
+    		System.out.println("Warning (puGetEventNumForTypeOverTimeRange) was supplied a start time that is earlier than (pvStartTime)!");
+    	} else if (start > pvEndTime) {
+    		System.out.println("Warning (puGetEventNumForTypeOverTimeRange) was supplied a start time that is past (pvEndTime)!");
+    		return sum;
+    	}
+    	if (end < pvStartTime) {
+    		System.out.println("Warning (puGetEventNumForTypeOverTimeRange) was supplied an end time that is earlier than (pvStartTime)!");
+    		return sum;
+    	} else if (end > pvEndTime) {
+    		System.out.println("Warning (puGetEventNumForTypeOverTimeRange) was supplied an end time that is past (pvEndTime)!");
+    	}
+    	if (start < end) {
+    		if (pvNumDecayEvents > 0) {
+    			for (int x = 0; x < pvNumDecayEvents; x++) {
+    				test = pvDecayEvents[x].puGetTime();
+    				if (test>=start&test<end&type.compareTo(pvDecayEvents[x].puGetType())==0) {
+    					sum++;
+    				}
+    			}
+    		} else {
+    			System.out.println("(puGetEventNumForTypeOverTimeRange) failed because this (NucleiSamplePredictiveSim) contain no (DecayEventSet)s");
+    			return 0;
+    		}
+    	} else {
+    		System.out.println("(puGetEventNumForTypeOverTimeRange) failed because the supplied start time was greater than the supplied end time!");
+    	}
+    	return sum;
+    }
+
+    public double puGetEventNumForStartNucleusOverTimeRange(double start, double end, String startN) {
+    	//Returns the number of events with the supplied (startN) that occurred between the user supplied (start) and (end) times
+    	double sum = 0;
+    	double test = 0;
+    	if (start < pvStartTime) {
+    		System.out.println("Warning (puGetEventNumForStartNucleusOverTimeRange) was supplied a start time that is earlier than (pvStartTime)!");
+    	} else if (start > pvEndTime) {
+    		System.out.println("Warning (puGetEventNumForStartNucleusOverTimeRange) was supplied a start time that is past (pvEndTime)!");
+    		return sum;
+    	}
+    	if (end < pvStartTime) {
+    		System.out.println("Warning (puGetEventNumForStartNucleusOverTimeRange) was supplied an end time that is earlier than (pvStartTime)!");
+    		return sum;
+    	} else if (end > pvEndTime) {
+    		System.out.println("Warning (puGetEventNumForStartNucleusOverTimeRange) was supplied an end time that is past (pvEndTime)!");
+    	}
+    	if (start < end) {
+    		if (pvNumDecayEvents > 0) {
+    			for (int x = 0; x < pvNumDecayEvents; x++) {
+    				test = pvDecayEvents[x].puGetTime();
+    				if (test>=start&test<end&startN.compareTo(pvDecayEvents[x].puGetStartNucleus())==0) {
+    					sum++;
+    				}
+    			}
+    		} else {
+    			System.out.println("(puGetEventNumForStartNucleusOverTimeRange) failed because this (NucleiSamplePredictiveSim) contain no (DecayEventSet)s");
+    			return 0;
+    		}
+    	} else {
+    		System.out.println("(puGetEventNumForStartNucleusOverTimeRange) failed because the supplied start time was greater than the supplied end time!");
+    	}
+    	return sum;
+    }
+
+    public double puGetEventNumForEndNucleusOverTimeRange(double start, double end, String endN) {
+    	//Returns the number of events with the supplied (endN) that occurred between the user supplied (start) and (end) times
+    	double sum = 0;
+    	double test = 0;
+    	if (start < pvStartTime) {
+    		System.out.println("Warning (puGetEventNumForEndNucleusOverTimeRange) was supplied a start time that is earlier than (pvStartTime)!");
+    	} else if (start > pvEndTime) {
+    		System.out.println("Warning (puGetEventNumForEndNucleusOverTimeRange) was supplied a start time that is past (pvEndTime)!");
+    		return sum;
+    	}
+    	if (end < pvStartTime) {
+    		System.out.println("Warning (puGetEventNumForEndNucleusOverTimeRange) was supplied an end time that is earlier than (pvStartTime)!");
+    		return sum;
+    	} else if (end > pvEndTime) {
+    		System.out.println("Warning (puGetEventNumForEndNucleusOverTimeRange) was supplied an end time that is past (pvEndTime)!");
+    	}
+    	if (start < end) {
+    		if (pvNumDecayEvents > 0) {
+    			for (int x = 0; x < pvNumDecayEvents; x++) {
+    				test = pvDecayEvents[x].puGetTime();
+    				if (test>=start&test<end&endN.compareTo(pvDecayEvents[x].puGetEndNucleus())==0) {
+    					sum++;
+    				}
+    			}
+    		} else {
+    			System.out.println("(puGetEventNumForEndNucleusOverTimeRange) failed because this (NucleiSamplePredictiveSim) contain no (DecayEventSet)s");
+    			return 0;
+    		}
+    	} else {
+    		System.out.println("(puGetEventNumForEndNucleusOverTimeRange) failed because the supplied start time was greater than the supplied end time!");
+    	}
+    	return sum;
+    }
+
+    public double puGetEventNumOverTimeRange(double start, double end) {
+    	//Returns the number of events that occurred between the user supplied (start) and (end) times
+    	double sum = 0;
+    	double test = 0;
+    	if (start < pvStartTime) {
+    		System.out.println("Warning (puGetEventNumForEndNucleusOverTimeRange) was supplied a start time that is earlier than (pvStartTime)!");
+    	} else if (start > pvEndTime) {
+    		System.out.println("Warning (puGetEventNumForEndNucleusOverTimeRange) was supplied a start time that is past (pvEndTime)!");
+    		return sum;
+    	}
+    	if (end < pvStartTime) {
+    		System.out.println("Warning (puGetEventNumForEndNucleusOverTimeRange) was supplied an end time that is earlier than (pvStartTime)!");
+    		return sum;
+    	} else if (end > pvEndTime) {
+    		System.out.println("Warning (puGetEventNumForEndNucleusOverTimeRange) was supplied an end time that is past (pvEndTime)!");
+    	}
+    	if (start < end) {
+    		if (pvNumDecayEvents > 0) {
+    			for (int x = 0; x < pvNumDecayEvents; x++) {
+    				test = pvDecayEvents[x].puGetTime();
+    				if (test>=start&test<end) {
+    					sum++;
+    				}
+    			}
+    		}  else {
+    			System.out.println("(puGetEventNumForEndNucleusOverTimeRange) failed because this (NucleiSamplePredictiveSim) contain no (DecayEventSet)s");
+    			return 0;
+    		}
+    	} else {
+    		System.out.println("(puGetEventNumForEndNucleusOverTimeRange) failed because the supplied start time was greater than the supplied end time!");
+    	}
+    	return sum;
+    }
+
     public double puGetEnergySumForTypeOverTimeRange(double start, double end, String type) {
     	//Returns the total energy in MeV for the supplied (type) that was radiated between the user supplied (start) and (end) times
     	double sum = 0;
