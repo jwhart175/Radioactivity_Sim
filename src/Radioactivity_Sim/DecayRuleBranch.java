@@ -22,7 +22,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
  */
 
-public class DecayRuleBranch {
+public class DecayRuleBranch extends PRSFNUM{
 	//A container for a branch of rules
 	 /* Variable and Function Nomenclature prescripts:
      * pv = private
@@ -35,13 +35,38 @@ public class DecayRuleBranch {
      * prsf = protected static final
      * pusf = public static final
      */
+
+	/*
+	 * Inherited Variables and Functions:
+	 * protected static final double prsfDoubleZero = 0.0;
+	 * protected static final double prsfDoubleOne = 1.0;
+	 * protected static final double prsfDoubleTwo = 2.0;
+	 * protected static final double prsfDoubleLN2 = 0.69314718;
+	 * protected static final double prsfDoubleSQRT2 = 1.414213562;
+	 * protected static final double prsfDoubleMinusOne = -1.0;
+	 * protected static final double prsfDoubleThousand = 1000.0;
+	 * protected static final double prsfDoubleHundred = 100.0;
+	 * protected static final double prsfDoubleFiveHundredThousand = 500000;
+	 * protected static final double prsfDouble3600 = 3600.0;
+	 * protected static final double prsfDoubleThreeHalves = 1.5;
+	 * protected static final int prsfInt8760 = 8760;
+	 * protected static final int prsfIntEighty = 80;
+	 * protected static final int prsfInt365 = 365;
+	 * protected static final int prsfInt24 = 24;
+	 * protected static final int prsfInt3600 = 3600;
+	 * protected static final int prsfIntZero = 0;
+	 * protected static final int prsfIntOne = 0;
+	 * protected static final int prsfIntTwo = 2;
+	 * protected static final int[] prsfDetailedTest = ...
+	 */
+
 	protected String[] prStartNuclei; //The starting nucleus of each rule
 	protected String[] prEndNuclei; //The ending nucleus of each rule
 	protected String[] prType; //The radiation type of each rule
 	protected double[] prEnergy; //The energy quantity for each rule
 	protected double[] prHalfLife; //The half-life for each rule
 	protected double[] prProbability; //The probability of each rule
-	protected int prNumRule = 0; //The total number of rules
+	protected int prNumRule = prsfIntZero; //The total number of rules
 
 	public DecayRuleBranch(){
 		//Basic Constructor
@@ -49,30 +74,30 @@ public class DecayRuleBranch {
 
 	public void puAddRule(String start, String end, String type, double energy, double halflife, double probability) {
 		//Adds a rule to the branch
-		if (prNumRule==0) {
-			prStartNuclei = new String[1];
-			prStartNuclei[0] = start;
-			prEndNuclei = new String[1];
-			prEndNuclei[0] = end;
-			prType = new String[1];
-			prType[0] = type;
-			prEnergy = new double[1];
-			prEnergy[0] = energy;
-			prHalfLife = new double[1];
-			prHalfLife[0] = halflife;
-			prProbability = new double[1];
-			prProbability[0] = probability;
+		if (prNumRule==prsfIntZero) {
+			prStartNuclei = new String[prsfIntOne];
+			prStartNuclei[prsfIntZero] = start;
+			prEndNuclei = new String[prsfIntOne];
+			prEndNuclei[prsfIntZero] = end;
+			prType = new String[prsfIntOne];
+			prType[prsfIntZero] = type;
+			prEnergy = new double[prsfIntOne];
+			prEnergy[prsfIntZero] = energy;
+			prHalfLife = new double[prsfIntOne];
+			prHalfLife[prsfIntZero] = halflife;
+			prProbability = new double[prsfIntOne];
+			prProbability[prsfIntZero] = probability;
 			prNumRule++;
 		} else {
 			String[] s,e,t;
 			double[] en,hl,p;
-			s = new String[prNumRule+1];
-			e = new String[prNumRule+1];
-			t = new String[prNumRule+1];
-			en = new double[prNumRule+1];
-			hl = new double[prNumRule+1];
-			p = new double[prNumRule+1];
-			for(int x = 0; x < prNumRule; x++){
+			s = new String[prNumRule+prsfIntOne];
+			e = new String[prNumRule+prsfIntOne];
+			t = new String[prNumRule+prsfIntOne];
+			en = new double[prNumRule+prsfIntOne];
+			hl = new double[prNumRule+prsfIntOne];
+			p = new double[prNumRule+prsfIntOne];
+			for(int x = prsfIntZero; x < prNumRule; x++){
 				s[x] = prStartNuclei[x];
 				e[x] = prEndNuclei[x];
 				t[x] = prType[x];
@@ -98,19 +123,19 @@ public class DecayRuleBranch {
 
 	public void puDelRule(int index) {
 		//Remove a rule from the (DecayRuleBranch) at the supplied index
-		if (index < 0){
+		if (index < prsfIntZero){
 			System.out.println("(puDelRule) failed because the supplied (index) was less than zero");
-		} else if (index <= ((prNumRule-1))) {
-			if (prNumRule > 1) {
+		} else if (index <= ((prNumRule-prsfIntOne))) {
+			if (prNumRule > prsfIntOne) {
 				String[] s,e,t;
 				double[] en,hl,p;
-				s = new String[prNumRule-1];
-				e = new String[prNumRule-1];
-				t = new String[prNumRule-1];
-				en = new double[prNumRule-1];
-				hl = new double[prNumRule-1];
-				p = new double[prNumRule-1];
-				for (int x = 0; x<index; x++) {
+				s = new String[prNumRule-prsfIntOne];
+				e = new String[prNumRule-prsfIntOne];
+				t = new String[prNumRule-prsfIntOne];
+				en = new double[prNumRule-prsfIntOne];
+				hl = new double[prNumRule-prsfIntOne];
+				p = new double[prNumRule-prsfIntOne];
+				for (int x = prsfIntZero; x<index; x++) {
 					s[x] = prStartNuclei[x];
 					e[x] = prEndNuclei[x];
 					t[x] = prType[x];
@@ -119,12 +144,12 @@ public class DecayRuleBranch {
 					p[x] = prProbability[x];
 				}
 				for (int x = index+1; x<prNumRule; x++) {
-					s[x-1] = prStartNuclei[x];
-					e[x-1] = prEndNuclei[x];
-					t[x-1] = prType[x];
-					en[x-1] = prEnergy[x];
-					hl[x-1] = prHalfLife[x];
-					p[x-1] = prProbability[x];
+					s[x-prsfIntOne] = prStartNuclei[x];
+					e[x-prsfIntOne] = prEndNuclei[x];
+					t[x-prsfIntOne] = prType[x];
+					en[x-prsfIntOne] = prEnergy[x];
+					hl[x-prsfIntOne] = prHalfLife[x];
+					p[x-prsfIntOne] = prProbability[x];
 				}
 				prStartNuclei = s;
 				prEndNuclei = e;
@@ -132,7 +157,7 @@ public class DecayRuleBranch {
 				prEnergy = en;
 				prHalfLife = hl;
 				prProbability = p;
-				prNumRule+=1;
+				prNumRule++;
 			} else {
 				System.out.println("(puDelRule) failed because there are no rules to delete!");
 			}
@@ -143,17 +168,17 @@ public class DecayRuleBranch {
 
 	public void puReorderProbabilities() {
 		//to be called after this (DecayRuleBranch) has been completely populated
-		for (int y = 1; y < prNumRule; y++) {
-			if (prProbability[y]<1){
-				prProbability[0] = prProbability[0]*prProbability[y];
-				prProbability[y] = 1;
+		for (int y = prsfIntOne; y < prNumRule; y++) {
+			if (prProbability[y]<prsfIntOne){
+				prProbability[prsfIntZero] = prProbability[prsfIntZero]*prProbability[y];
+				prProbability[y] = prsfIntOne;
 			}
 		}
 	}
 
 	public String puGetStartNucleus(int index) {
 		//returns the start nucleus for the specified rule number
-		if (index < 0) {
+		if (index < prsfIntZero) {
 			String errString = "(puGetStartNucleus) failed because the supplied index was less than zero";
 			System.out.println(errString);
 			return errString;
@@ -168,7 +193,7 @@ public class DecayRuleBranch {
 
 	public String puGetEndNucleus(int index) {
 		//returns the end nucleus for the specified rule number
-		if (index < 0) {
+		if (index < prsfIntZero) {
 			String errString = "(puGetEndNucleus) failed because the supplied index was less than zero";
 			System.out.println(errString);
 			return errString;
@@ -183,7 +208,7 @@ public class DecayRuleBranch {
 
 	public String puGetType(int index) {
 		//returns the event type for the specified rule number
-		if (index < 0) {
+		if (index < prsfIntZero) {
 			String errString = "(puGetType) failed because the supplied index was less than zero";
 			System.out.println(errString);
 			return errString;
@@ -198,14 +223,14 @@ public class DecayRuleBranch {
 
 	public double puGetEnergy(int index) {
 		//returns the event energy for the specified rule number
-		if (index < 0) {
+		if (index < prsfIntZero) {
 			String errString = "(puGetEnergy) failed because the supplied index was less than zero";
 			System.out.println(errString);
-			return -1;
+			return prsfDoubleMinusOne;
 		} else if (index >= prNumRule) {
 			String errString = "(puGetEnergy) failed because the supplied index is greater than the number of rules in this (DecayRuleBranch)";
 			System.out.println(errString);
-			return -1;
+			return prsfDoubleMinusOne;
 		} else {
 			return prEnergy[index];
 		}
@@ -213,14 +238,14 @@ public class DecayRuleBranch {
 
 	public double puGetHalfLife(int index) {
 		//returns the event half life for the specified rule number
-		if (index < 0) {
+		if (index < prsfIntZero) {
 			String errString = "(puGetHalfLife) failed because the supplied index was less than zero";
 			System.out.println(errString);
-			return -1;
+			return prsfDoubleMinusOne;
 		} else if (index >= prNumRule) {
 			String errString = "(puGetHalfLife) failed because the supplied index is greater than the number of rules in this (DecayRuleBranch)";
 			System.out.println(errString);
-			return -1;
+			return prsfDoubleMinusOne;
 		} else {
 			return prHalfLife[index];
 		}
@@ -228,14 +253,14 @@ public class DecayRuleBranch {
 
 	public double puGetProbability(int index) {
 		//returns the probability coefficient for the specified rule number
-		if (index < 0) {
+		if (index < prsfIntZero) {
 			String errString = "(puGetProbability) failed because the supplied index was less than zero";
 			System.out.println(errString);
-			return -1;
+			return prsfDoubleMinusOne;
 		} else if (index >= prNumRule) {
 			String errString = "(puGetProbability) failed because the supplied index is greater than the number of rules in this (DecayRuleBranch)";
 			System.out.println(errString);
-			return -1;
+			return prsfDoubleMinusOne;
 		} else {
 			return prProbability[index];
 		}

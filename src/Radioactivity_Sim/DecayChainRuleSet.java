@@ -42,6 +42,26 @@ public class DecayChainRuleSet extends DecayRuleBranch {
 
 	/*
 	 * Inherited variables and functions:
+	 * protected static final double prsfDoubleZero = 0.0;
+	 * protected static final double prsfDoubleOne = 1.0;
+	 * protected static final double prsfDoubleTwo = 2.0;
+	 * protected static final double prsfDoubleLN2 = 0.69314718;
+	 * protected static final double prsfDoubleSQRT2 = 1.414213562;
+	 * protected static final double prsfDoubleMinusOne = -1.0;
+	 * protected static final double prsfDoubleThousand = 1000.0;
+	 * protected static final double prsfDoubleHundred = 100.0;
+	 * protected static final double prsfDoubleFiveHundredThousand = 500000;
+	 * protected static final double prsfDouble3600 = 3600.0;
+	 * protected static final double prsfDoubleThreeHalves = 1.5;
+	 * protected static final int prsfInt8760 = 8760;
+	 * protected static final int prsfIntEighty = 80;
+	 * protected static final int prsfInt365 = 365;
+	 * protected static final int prsfInt24 = 24;
+	 * protected static final int prsfInt3600 = 3600;
+	 * protected static final int prsfIntZero = 0;
+	 * protected static final int prsfIntOne = 0;
+	 * protected static final int prsfIntTwo = 2;
+	 * protected static final int[] prsfDetailedTest = ...
 	 * protected String[] prStartNuclei; //The starting nucleus of each rule
 	 * protected String[] prEndNuclei; //The ending nucleus of each rule
 	 * protected String[] prType; //The radiation type of each rule
@@ -61,9 +81,9 @@ public class DecayChainRuleSet extends DecayRuleBranch {
 	 * public int puGetNumRules()
 	 */
 	private String[] pvNuclei; //All independent nuclei in the rule set
-	private int pvNumBranches = 0; //number of DecayRuleBranch objects
+	private int pvNumBranches = prsfIntZero; //number of DecayRuleBranch objects
 	private DecayRuleBranch[] pvBranches; //Stores the rule branches for predictive computation
-	private int pvNumNuclei = 0; //The total number of independent nuclei
+	private int pvNumNuclei = prsfIntZero; //The total number of independent nuclei
 
 	public DecayChainRuleSet() {
 		// Blank (DecayChainRuleSet) constructor
@@ -85,83 +105,83 @@ public class DecayChainRuleSet extends DecayRuleBranch {
         }
     	boolean noLineEnd = true;
     	boolean stillRuleParsing = true;
-    	int z = 0;
+    	int z = prsfIntZero;
     	String ruleLine = "";
     	while (noLineEnd) {
     		if((z+1)>inputData.length()){
     			noLineEnd = false;
     			break;
     		}
-    		if (inputData.substring(z,z+1).compareTo(System.getProperty("line.separator"))==0) {
-    			ruleLine = inputData.substring(0,z) + "       ";
+    		if (inputData.substring(z,z+1).compareTo(System.getProperty("line.separator"))==prsfIntZero) {
+    			ruleLine = inputData.substring(prsfIntZero,z) + "       ";
     			inputData = inputData.substring(z+1,inputData.length());
-    			z = 0;
-    			int y = 0;
-    			int ruleNum = 0;
+    			z = prsfIntZero;
+    			int y = prsfIntZero;
+    			int ruleNum = prsfIntZero;
     			String startNucleus = "";
     			String endNucleus = "";
     			String type = "";
-    			double energy = 0.0;
-    			double halfLife = 0.0;
-    			double probability = 0.0;
-    			if (ruleLine.substring(0,1).compareTo("#")==0){
+    			double energy = prsfIntZero;
+    			double halfLife = prsfIntZero;
+    			double probability = prsfIntZero;
+    			if (ruleLine.substring(prsfIntZero,prsfIntOne).compareTo("#")==prsfIntZero){
     				stillRuleParsing = false;
-    			} else if (ruleLine.substring(0,1).compareTo(" ")==0){
+    			} else if (ruleLine.substring(prsfIntZero,prsfIntOne).compareTo(" ")==prsfIntZero){
     				stillRuleParsing = false;
-    			} else if (ruleLine.substring(0,2).compareTo("//")==0){
+    			} else if (ruleLine.substring(prsfIntZero,prsfIntTwo).compareTo("//")==prsfIntZero){
     				stillRuleParsing = false;
     			}
     			while (stillRuleParsing) {
-    				if (ruleLine.substring(y,y+1).compareTo(" ")==0) {
+    				if (ruleLine.substring(y,y+prsfIntOne).compareTo(" ")==prsfIntZero) {
     					ruleNum++;
     					switch (ruleNum) {
     					case 1:
-    						startNucleus = ruleLine.substring(0,y);
-    						ruleLine = ruleLine.substring(y+1,ruleLine.length());
-    						y = 0;
+    						startNucleus = ruleLine.substring(prsfIntZero,y);
+    						ruleLine = ruleLine.substring(y+prsfIntOne,ruleLine.length());
+    						y = prsfIntZero;
     						break;
     					case 2:
-    						endNucleus = ruleLine.substring(0,y);
-    						ruleLine = ruleLine.substring(y+1,ruleLine.length());
-    						y = 0;
+    						endNucleus = ruleLine.substring(prsfIntZero,y);
+    						ruleLine = ruleLine.substring(y+prsfIntOne,ruleLine.length());
+    						y = prsfIntZero;
     						break;
     					case 3:
-    						type = ruleLine.substring(0,y);
-    						ruleLine = ruleLine.substring(y+1,ruleLine.length());
-    						y = 0;
+    						type = ruleLine.substring(prsfIntZero,y);
+    						ruleLine = ruleLine.substring(y+prsfIntOne,ruleLine.length());
+    						y = prsfIntZero;
     						break;
     					case 4:
-    						energy = Double.valueOf(ruleLine.substring(0,y));
-    						ruleLine = ruleLine.substring(y+1,ruleLine.length());
-    						y = 0;
+    						energy = Double.valueOf(ruleLine.substring(prsfIntZero,y));
+    						ruleLine = ruleLine.substring(y+prsfIntOne,ruleLine.length());
+    						y = prsfIntZero;
     						break;
     					case 5:
-    						halfLife = Double.valueOf(ruleLine.substring(0,y));
-    						ruleLine = ruleLine.substring(y+1,ruleLine.length());
-    						y = 0;
+    						halfLife = Double.valueOf(ruleLine.substring(prsfIntZero,y));
+    						ruleLine = ruleLine.substring(y+prsfIntOne,ruleLine.length());
+    						y = prsfIntZero;
     						break;
     					case 6:
-    						probability = Double.valueOf(ruleLine.substring(0,y));
-    						ruleLine = ruleLine.substring(y+1,ruleLine.length());
+    						probability = Double.valueOf(ruleLine.substring(prsfIntZero,y));
+    						ruleLine = ruleLine.substring(y+prsfIntOne,ruleLine.length());
     						stillRuleParsing = false;
     						puAddRule(startNucleus,endNucleus,type,energy,halfLife,probability);
-    						if (startNucleus.compareTo("")==0){
+    						if (startNucleus.compareTo("")==prsfIntZero){
     							System.out.println("Parsing of the input file, " + input + " failed at the StartNucleus string!");
     						}
-    						if (endNucleus.compareTo("")==0){
+    						if (endNucleus.compareTo("")==prsfIntZero){
     							System.out.println("Parsing of the input file, " + input + " failed at the EndNucleus string!");
     						}
-    						if (type.compareTo("alpha")!=0&type.compareTo("beta-")!=0&type.compareTo("beta+")!=0&type.compareTo("gamma")!=0&type.compareTo("neutron&beta-")!=0){
+    						if (type.compareTo("alpha")!=prsfIntZero&type.compareTo("beta-")!=prsfIntZero&type.compareTo("beta+")!=prsfIntZero&type.compareTo("gamma")!=prsfIntZero&type.compareTo("neutron&beta-")!=prsfIntZero){
     							System.out.println("Parsing of the input file, " + input + " failed at the type string!");
     							System.out.println("type should be one of the following: alpha, beta-, beta+, gamma, neutron&beta-");
     						}
-    						if (energy<0){
+    						if (energy<prsfIntZero){
     							System.out.println("Parsing of the input file, " + input + " failed because the energy was less than zero!");
     						}
-    						if (halfLife<0){
+    						if (halfLife<prsfIntZero){
     							System.out.println("Parsing of the input file, " + input + " failed because the halflife was less than zero!");
     						}
-    						if (probability<0|probability>1){
+    						if (probability<prsfIntZero|probability>prsfIntOne){
     							System.out.println("Parsing of the input file, " + input + " failed because the probability was less than zero or greater than one!");
     						}
     						break;
@@ -171,7 +191,7 @@ public class DecayChainRuleSet extends DecayRuleBranch {
     					}
     				}
     				y++;
-    				if ((y+1)>ruleLine.length()){
+    				if ((y+prsfIntOne)>ruleLine.length()){
     					stillRuleParsing = false;
     				}
     			}
@@ -180,65 +200,65 @@ public class DecayChainRuleSet extends DecayRuleBranch {
     		z++;
     	}
     	pvAddDecayRuleBranch();
-    	for(int x = 0; x<prNumRule; x++){
-    		if(x == 0) {
-    			pvBranches[0].puAddRule(prStartNuclei[x],prEndNuclei[x],prType[x],prEnergy[x],prHalfLife[x],prProbability[x]);
+    	for(int x = prsfIntZero; x<prNumRule; x++){
+    		if(x == prsfIntZero) {
+    			pvBranches[prsfIntZero].puAddRule(prStartNuclei[x],prEndNuclei[x],prType[x],prEnergy[x],prHalfLife[x],prProbability[x]);
     		} else {
-    			for(int y = 0; y<pvNumBranches; y++){
+    			for(int y = prsfIntZero; y<pvNumBranches; y++){
     				if(prStartNuclei[x].compareTo(pvBranches[y].puGetEndNucleus(pvBranches[y].puGetNumRules()-1))==0) {
     	    			pvBranches[y].puAddRule(prStartNuclei[x],prEndNuclei[x],prType[x],prEnergy[x],prHalfLife[x],prProbability[x]);
-    					if (x<prNumRule-1){
-    						if(prProbability[x]+prProbability[x+1]==1) {
+    					if (x<prNumRule-prsfIntOne){
+    						if(prProbability[x]+prProbability[x+prsfIntOne]==prsfIntOne) {
     							pvAddDecayRuleBranch();
-    	    					for (int w = 0; w<pvBranches[y].puGetNumRules()-1; w++) {
-    	    						pvBranches[pvNumBranches-1].puAddRule(pvBranches[y].puGetStartNucleus(w),pvBranches[y].puGetEndNucleus(w),pvBranches[y].puGetType(w),pvBranches[y].puGetEnergy(w),pvBranches[y].puGetHalfLife(w),pvBranches[y].puGetProbability(w));
+    	    					for (int w = prsfIntZero; w<pvBranches[y].puGetNumRules()-prsfIntOne; w++) {
+    	    						pvBranches[pvNumBranches-prsfIntOne].puAddRule(pvBranches[y].puGetStartNucleus(w),pvBranches[y].puGetEndNucleus(w),pvBranches[y].puGetType(w),pvBranches[y].puGetEnergy(w),pvBranches[y].puGetHalfLife(w),pvBranches[y].puGetProbability(w));
     	    					}
-    	    					pvBranches[pvNumBranches-1].puAddRule(prStartNuclei[x+1],prEndNuclei[x+1],prType[x+1],prEnergy[x+1],prHalfLife[x+1],prProbability[x+1]);
+    	    					pvBranches[pvNumBranches-prsfIntOne].puAddRule(prStartNuclei[x+prsfIntOne],prEndNuclei[x+prsfIntOne],prType[x+prsfIntOne],prEnergy[x+prsfIntOne],prHalfLife[x+prsfIntOne],prProbability[x+prsfIntOne]);
     						}
     	    			}
-    					if (x<prNumRule-2){
-    	    				if(prProbability[x]+prProbability[x+1]+prProbability[x+2]==1){
+    					if (x<prNumRule-prsfIntTwo){
+    	    				if(prProbability[x]+prProbability[x+prsfIntOne]+prProbability[x+prsfIntTwo]==prsfIntOne){
     	    					pvAddDecayRuleBranch();
     	    					pvAddDecayRuleBranch();
-    	    					for (int w = 0; w<pvBranches[y].puGetNumRules()-1; w++) {
-    	    						pvBranches[pvNumBranches-2].puAddRule(pvBranches[y].puGetStartNucleus(w),pvBranches[y].puGetEndNucleus(w),pvBranches[y].puGetType(w),pvBranches[y].puGetEnergy(w),pvBranches[y].puGetHalfLife(w),pvBranches[y].puGetProbability(w));
-    	    						pvBranches[pvNumBranches-1].puAddRule(pvBranches[y].puGetStartNucleus(w),pvBranches[y].puGetEndNucleus(w),pvBranches[y].puGetType(w),pvBranches[y].puGetEnergy(w),pvBranches[y].puGetHalfLife(w),pvBranches[y].puGetProbability(w));
+    	    					for (int w = prsfIntZero; w<pvBranches[y].puGetNumRules()-prsfIntOne; w++) {
+    	    						pvBranches[pvNumBranches-prsfIntTwo].puAddRule(pvBranches[y].puGetStartNucleus(w),pvBranches[y].puGetEndNucleus(w),pvBranches[y].puGetType(w),pvBranches[y].puGetEnergy(w),pvBranches[y].puGetHalfLife(w),pvBranches[y].puGetProbability(w));
+    	    						pvBranches[pvNumBranches-prsfIntOne].puAddRule(pvBranches[y].puGetStartNucleus(w),pvBranches[y].puGetEndNucleus(w),pvBranches[y].puGetType(w),pvBranches[y].puGetEnergy(w),pvBranches[y].puGetHalfLife(w),pvBranches[y].puGetProbability(w));
     	    					}
-    	    					pvBranches[pvNumBranches-2].puAddRule(prStartNuclei[x+1],prEndNuclei[x+1],prType[x+1],prEnergy[x+1],prHalfLife[x+1],prProbability[x+1]);
-    	    					pvBranches[pvNumBranches-1].puAddRule(prStartNuclei[x+2],prEndNuclei[x+2],prType[x+2],prEnergy[x+2],prHalfLife[x+2],prProbability[x+2]);
+    	    					pvBranches[pvNumBranches-prsfIntTwo].puAddRule(prStartNuclei[x+prsfIntOne],prEndNuclei[x+prsfIntOne],prType[x+prsfIntOne],prEnergy[x+prsfIntOne],prHalfLife[x+prsfIntOne],prProbability[x+prsfIntOne]);
+    	    					pvBranches[pvNumBranches-prsfIntOne].puAddRule(prStartNuclei[x+prsfIntTwo],prEndNuclei[x+prsfIntTwo],prType[x+prsfIntTwo],prEnergy[x+prsfIntTwo],prHalfLife[x+prsfIntTwo],prProbability[x+prsfIntTwo]);
     	    				}
     	    			}
     				}
     			}
      		}
     	}
-    	for (int x = 0; x<pvBranches.length;x++) {
+    	for (int x = prsfIntZero; x<pvBranches.length;x++) {
     		pvBranches[x].puReorderProbabilities();
     	}
-    	int n = 0, r = 0;
-    	for(int x = 0; x<prNumRule; x++){
-    		r = 0;
-    		for (int y = 0; y<x; y++){
-    			if(prStartNuclei[x].compareTo(prStartNuclei[y])==0){
+    	int n = prsfIntZero, r = prsfIntZero;
+    	for(int x = prsfIntZero; x<prNumRule; x++){
+    		r = prsfIntZero;
+    		for (int y = prsfIntZero; y<x; y++){
+    			if(prStartNuclei[x].compareTo(prStartNuclei[y])==prsfIntZero){
     				r++;
     			}
     		}
-    		if (r==0) {
+    		if (r==prsfIntZero) {
     			n++;
     		}
     	}
     	pvNumNuclei = n;
     	pvNuclei = new String[n];
-    	n = 0;
-    	r = 0;
-    	for(int x = 0; x<prNumRule; x++){
-    		r = 0;
-    		for (int y = 0; y<x; y++){
-    			if(prStartNuclei[x].compareTo(prStartNuclei[y])==0){
+    	n = prsfIntZero;
+    	r = prsfIntZero;
+    	for(int x = prsfIntZero; x<prNumRule; x++){
+    		r = prsfIntZero;
+    		for (int y = prsfIntZero; y<x; y++){
+    			if(prStartNuclei[x].compareTo(prStartNuclei[y])==prsfIntZero){
     				r++;
     			}
     		}
-    		if (r==0) {
+    		if (r==prsfIntZero) {
     			pvNuclei[n] = prStartNuclei[x];
     			n++;
 
@@ -258,7 +278,7 @@ public class DecayChainRuleSet extends DecayRuleBranch {
 
 	public DecayRuleBranch puGetDecayRuleBranch(int index){
 		//Return the (DecayRuleBranch) from this (DecayChainRuleSet) at the supplied (index)
-		if(index < 0) {
+		if(index < prsfIntZero) {
 			String errString = "(puGetDecayRuleBranch) failed because the supplied (index) is less than zero!";
 			System.out.println(errString);
 			return new DecayRuleBranch();
@@ -273,7 +293,7 @@ public class DecayChainRuleSet extends DecayRuleBranch {
 
 	public String puOutputDecayRuleBranch(int index) {
 		//Return a string containing the (DecayRuleBranch) at the supplied (index)
-		if(index < 0) {
+		if(index < prsfIntZero) {
 			String errString = "(puGetDecayRuleBranch) failed because the supplied (index) is less than zero!";
 			System.out.println(errString);
 			return errString;
@@ -284,7 +304,7 @@ public class DecayChainRuleSet extends DecayRuleBranch {
 		} else {
 			StringBuilder text = new StringBuilder();
         	text.append("StartingNucleus,EndingNucleus,Type,Energy(MeV),Halflife(s),Probability" + System.getProperty("line.separator"));
-        	for (int x = 0;x<pvBranches[index].puGetNumRules();x++) {
+        	for (int x = prsfIntZero;x<pvBranches[index].puGetNumRules();x++) {
         		text.append(pvBranches[index].puGetStartNucleus(x) + "," + pvBranches[index].puGetEndNucleus(x) + "," + pvBranches[index].puGetType(x) + "," + pvBranches[index].puGetEnergy(x) + "," + pvBranches[index].puGetHalfLife(x) + "," + pvBranches[index].puGetProbability(x) + System.getProperty("line.separator"));
         	}
         	text.append(System.getProperty("line.separator"));
@@ -296,7 +316,7 @@ public class DecayChainRuleSet extends DecayRuleBranch {
 		//Return a string containing this (DecayChainRuleSet)
 		StringBuilder text = new StringBuilder();
        	text.append("StartingNucleus,EndingNucleus,Type,Energy(MeV),Halflife(s),Probability" + System.getProperty("line.separator"));
-       	for (int x = 0;x<prNumRule;x++) {
+       	for (int x = prsfIntZero;x<prNumRule;x++) {
        		text.append(prStartNuclei[x] + "," + prEndNuclei[x] + "," + prType[x] + "," + prEnergy[x] + "," + prHalfLife[x] + "," + prProbability[x] + System.getProperty("line.separator"));
        	}
        	return text.toString();
@@ -305,7 +325,7 @@ public class DecayChainRuleSet extends DecayRuleBranch {
 	private void pvAddDecayRuleBranch(){
 		//Adds an empty DecayRuleBranch to pvDecayRuleBranches
 		DecayRuleBranch[] newBranches = new DecayRuleBranch[pvNumBranches+1];
-		for (int x = 0; x < pvNumBranches;x++){
+		for (int x = prsfIntZero; x < pvNumBranches;x++){
 			newBranches[x] = pvBranches[x];
 		}
 		newBranches[pvNumBranches] = new DecayRuleBranch();

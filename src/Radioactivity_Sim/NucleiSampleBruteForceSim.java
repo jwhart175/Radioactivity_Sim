@@ -23,7 +23,7 @@ SOFTWARE.
 
 package Radioactivity_Sim;
 
-public class NucleiSampleBruteForceSim {
+public class NucleiSampleBruteForceSim extends PRSFNUM {
 	// a container for a group of user defined unstable nuclei and all of the radioactive DecayEvents that they transition through to reach stability
 	 /* Variable and Function Nomenclature prescripts:
      * pv = private
@@ -37,24 +37,48 @@ public class NucleiSampleBruteForceSim {
      * pusf = public static final
      */
 
+	/*
+	 * Inherited Variables and Functions:
+	 * protected static final double prsfDoubleZero = 0.0;
+	 * protected static final double prsfDoubleOne = 1.0;
+	 * protected static final double prsfDoubleTwo = 2.0;
+	 * protected static final double prsfDoubleLN2 = 0.69314718;
+	 * protected static final double prsfDoubleSQRT2 = 1.414213562;
+	 * protected static final double prsfDoubleMinusOne = -1.0;
+	 * protected static final double prsfDoubleThousand = 1000.0;
+	 * protected static final double prsfDoubleHundred = 100.0;
+	 * protected static final double prsfDoubleFiveHundredThousand = 500000;
+	 * protected static final double prsfDouble3600 = 3600.0;
+	 * protected static final double prsfDoubleThreeHalves = 1.5;
+	 * protected static final int prsfInt8760 = 8760;
+	 * protected static final int prsfIntEighty = 80;
+	 * protected static final int prsfInt365 = 365;
+	 * protected static final int prsfInt24 = 24;
+	 * protected static final int prsfInt3600 = 3600;
+	 * protected static final int prsfIntZero = 0;
+	 * protected static final int prsfIntOne = 0;
+	 * protected static final int prsfIntTwo = 2;
+	 * protected static final int[] prsfDetailedTest = ...
+	 */
+
     private DecayEvent[] pvDecayEvents;
     private DecayChainRuleSet[] pvRules;
-    private int pvNumDecayChainRuleSets = 0;
-    private int pvNumDecayEvents = 0;
-    private double pvStartTime = 0;
-    private double pvEndTime = 0;
-    private double[] pvFinalPartNum = new double[1];
-    private String[] pvNuclei = new String[1];
+    private int pvNumDecayChainRuleSets = prsfIntZero;
+    private int pvNumDecayEvents = prsfIntZero;
+    private double pvStartTime = prsfIntZero;
+    private double pvEndTime = prsfIntZero;
+    private double[] pvFinalPartNum = new double[prsfIntOne];
+    private String[] pvNuclei = new String[prsfIntOne];
 
     public NucleiSampleBruteForceSim(int num,String input, double start, double end) {
     	//Constructor for a sample containing a number of nuclei of a single type
-        if (num > 0) {
-            pvRules = new DecayChainRuleSet[1];
-            pvRules[0] = new DecayChainRuleSet(input);
-            pvNumDecayChainRuleSets = 1;
+        if (num > prsfIntZero) {
+            pvRules = new DecayChainRuleSet[prsfIntOne];
+            pvRules[prsfIntZero] = new DecayChainRuleSet(input);
+            pvNumDecayChainRuleSets = prsfIntOne;
             pvStartTime = start;
             pvEndTime = end;
-            pvDecayEventCalc(num,pvRules[0]);
+            pvDecayEventCalc(num,pvRules[prsfIntZero]);
         } else {
             System.out.println("Construction of this (NucleiSampleBruteForceSim) failed because the (num) supplied was not greater than zero");
         }
@@ -62,13 +86,13 @@ public class NucleiSampleBruteForceSim {
 
     public NucleiSampleBruteForceSim(long num,String input, double start, double end) {
     	//Constructor for a sample containing a number of nuclei of a single type
-        if (num > 0) {
-            pvRules = new DecayChainRuleSet[1];
-            pvRules[0] = new DecayChainRuleSet(input);
-            pvNumDecayChainRuleSets = 1;
+        if (num > prsfIntZero) {
+            pvRules = new DecayChainRuleSet[prsfIntOne];
+            pvRules[prsfIntZero] = new DecayChainRuleSet(input);
+            pvNumDecayChainRuleSets = prsfIntOne;
             pvStartTime = start;
             pvEndTime = end;
-            pvDecayEventCalcLong(num, pvRules[0]);
+            pvDecayEventCalcLong(num, pvRules[prsfIntZero]);
         } else {
             System.out.println("Construction of this (NucleiSampleBruteForceSim) failed because the (num) supplied was not greater than zero");
         }
@@ -85,7 +109,7 @@ public class NucleiSampleBruteForceSim {
 
     public DecayChainRuleSet puGetDecayChainRuleSet(int index) {
     	//Returns the (DecayChainRuleSet) at the specified (index)
-    	if(index < 0) {
+    	if(index < prsfIntZero) {
     		String errString = "(puGetDecayChainRuleSet) failed because the supplied (index) is less than zero!";
     		System.out.println(errString);
     		return new DecayChainRuleSet();
@@ -100,17 +124,17 @@ public class NucleiSampleBruteForceSim {
 
     public void puAddSpecies (int num, String input, double start, double end) {
     	//Adds an integer (num) of nuclei of the type described in data file whose path is the String (input)
-    	if (num > 0) {
+    	if (num > prsfIntZero) {
     		pvStartTime = start;
             pvEndTime = end;
-    		pvNumDecayChainRuleSets += 1;
+    		pvNumDecayChainRuleSets += prsfIntOne;
             DecayChainRuleSet[] newRules = new DecayChainRuleSet[pvNumDecayChainRuleSets];
-            for(int x = 0; x<pvNumDecayChainRuleSets-1;x++){
+            for(int x = prsfIntZero; x<pvNumDecayChainRuleSets-prsfIntOne;x++){
             	newRules[x] = pvRules[x];
             }
-            newRules[pvNumDecayChainRuleSets-1] = new DecayChainRuleSet(input);
+            newRules[pvNumDecayChainRuleSets-prsfIntOne] = new DecayChainRuleSet(input);
     		pvRules = newRules;
-    		pvDecayEventCalc(num, pvRules[pvNumDecayChainRuleSets-1]);
+    		pvDecayEventCalc(num, pvRules[pvNumDecayChainRuleSets-prsfIntOne]);
         } else {
             System.out.println("(puAddSpecies) failed because the input (num) supplied was not greater than zero");
         }
@@ -118,17 +142,17 @@ public class NucleiSampleBruteForceSim {
 
     public void puAddSpecies (long num, String input, double start, double end) {
     	//Adds an integer (num) of nuclei of the type described in data file whose path is the String (input)
-    	if (num > 0) {
+    	if (num > prsfIntZero) {
     		pvStartTime = start;
             pvEndTime = end;
-    		pvNumDecayChainRuleSets += 1;
+    		pvNumDecayChainRuleSets += prsfIntOne;
             DecayChainRuleSet[] newRules = new DecayChainRuleSet[pvNumDecayChainRuleSets];
-            for(int x = 0; x<pvNumDecayChainRuleSets-1;x++){
+            for(int x = prsfIntZero; x<pvNumDecayChainRuleSets-prsfIntOne;x++){
             	newRules[x] = pvRules[x];
             }
-            newRules[pvNumDecayChainRuleSets-1] = new DecayChainRuleSet(input);
+            newRules[pvNumDecayChainRuleSets-prsfIntOne] = new DecayChainRuleSet(input);
     		pvRules = newRules;
-    		pvDecayEventCalcLong(num, pvRules[pvNumDecayChainRuleSets-1]);
+    		pvDecayEventCalcLong(num, pvRules[pvNumDecayChainRuleSets-prsfIntOne]);
         } else {
             System.out.println("(puAddSpecies) failed because the input (num) supplied was not greater than zero");
         }
@@ -139,13 +163,13 @@ public class NucleiSampleBruteForceSim {
     	int numRules = rules.puGetNumRules();
     	//Calculate Number of DecayEvents
         String startNucleus = "";
-    	double timeOffset = 0;
-    	for(int x = 0; x<num; x++) {
-    		timeOffset = 0;
-    		startNucleus = rules.puGetStartNucleus(0);
-    		for(int y = 0; y<numRules; y++) {
-    			if (rules.puGetStartNucleus(y).compareTo(startNucleus)==0) {
-    				if (rules.puGetProbability(y) == 1) {
+    	double timeOffset = prsfIntZero;
+    	for(int x = prsfIntZero; x<num; x++) {
+    		timeOffset = prsfIntZero;
+    		startNucleus = rules.puGetStartNucleus(prsfIntZero);
+    		for(int y = prsfIntZero; y<numRules; y++) {
+    			if (rules.puGetStartNucleus(y).compareTo(startNucleus)==prsfIntZero) {
+    				if (rules.puGetProbability(y) == prsfIntOne) {
     					startNucleus = rules.puGetEndNucleus(y);
     					DecayEvent instance = new DecayEvent(rules.puGetStartNucleus(y),rules.puGetEndNucleus(y),rules.puGetHalfLife(y),rules.puGetEnergy(y),rules.puGetType(y),timeOffset);
     					if (instance.puGetTime()>=pvStartTime&instance.puGetTime()<pvEndTime) {
@@ -154,7 +178,7 @@ public class NucleiSampleBruteForceSim {
     					timeOffset += instance.puGetTime();
     				} else {
     					double seed = Math.random();
-    					if ((rules.puGetProbability(y) + rules.puGetProbability(y+1)) == 1) {
+    					if ((rules.puGetProbability(y) + rules.puGetProbability(y+1)) == prsfIntOne) {
     						if (seed <= rules.puGetProbability(y)){
     							startNucleus = rules.puGetEndNucleus(y);
     							DecayEvent instance = new DecayEvent(rules.puGetStartNucleus(y),rules.puGetEndNucleus(y),rules.puGetHalfLife(y),rules.puGetEnergy(y),rules.puGetType(y),timeOffset);
@@ -164,8 +188,8 @@ public class NucleiSampleBruteForceSim {
     	    					timeOffset += instance.puGetTime();
     	    					y++;
     						} else {
-    							startNucleus = rules.puGetEndNucleus(y+1);
-    							DecayEvent instance = new DecayEvent(rules.puGetStartNucleus(y),rules.puGetEndNucleus(y),rules.puGetHalfLife(y+1),rules.puGetEnergy(y+1),rules.puGetType(y+1),timeOffset);
+    							startNucleus = rules.puGetEndNucleus(y+prsfIntOne);
+    							DecayEvent instance = new DecayEvent(rules.puGetStartNucleus(y+prsfIntOne),rules.puGetEndNucleus(y+prsfIntOne),rules.puGetHalfLife(y+prsfIntOne),rules.puGetEnergy(y+prsfIntOne),rules.puGetType(y+prsfIntOne),timeOffset);
     	    					if (instance.puGetTime()>=pvStartTime&instance.puGetTime()<pvEndTime) {
     	    						pvAddDecayEvent(instance);
     	    					}
@@ -173,7 +197,7 @@ public class NucleiSampleBruteForceSim {
     							y++;
     						}
 
-    					} else if ((rules.puGetProbability(y) + rules.puGetProbability(y+1) + rules.puGetProbability(y+2)) == 1) {
+    					} else if ((rules.puGetProbability(y) + rules.puGetProbability(y+prsfIntOne) + rules.puGetProbability(y+prsfIntTwo)) == prsfIntOne) {
     						if (seed <= rules.puGetProbability(y)) {
     							startNucleus = rules.puGetEndNucleus(y);
     							DecayEvent instance = new DecayEvent(rules.puGetStartNucleus(y),rules.puGetEndNucleus(y),rules.puGetHalfLife(y),rules.puGetEnergy(y),rules.puGetType(y),timeOffset);
@@ -181,23 +205,23 @@ public class NucleiSampleBruteForceSim {
     	    						pvAddDecayEvent(instance);
     	    					}
     	    					timeOffset += instance.puGetTime();
-    	    					y += 2;
-    						} else if (seed <= (rules.puGetProbability(y) + rules.puGetProbability(y+1))) {
+    	    					y += prsfIntTwo;
+    						} else if (seed <= (rules.puGetProbability(y) + rules.puGetProbability(y+prsfIntOne))) {
     							startNucleus = rules.puGetEndNucleus(y+1);
-    							DecayEvent instance = new DecayEvent(rules.puGetStartNucleus(y),rules.puGetEndNucleus(y),rules.puGetHalfLife(y+1),rules.puGetEnergy(y+1),rules.puGetType(y+1),timeOffset);
+    							DecayEvent instance = new DecayEvent(rules.puGetStartNucleus(y+prsfIntOne),rules.puGetEndNucleus(y+prsfIntOne),rules.puGetHalfLife(y+prsfIntOne),rules.puGetEnergy(y+prsfIntOne),rules.puGetType(y+prsfIntOne),timeOffset);
     	    					if (instance.puGetTime()>=pvStartTime&instance.puGetTime()<pvEndTime) {
     	    						pvAddDecayEvent(instance);
     	    					}
     	    					timeOffset += instance.puGetTime();
-    							y += 2;
+    							y += prsfIntTwo;
     						} else {
-    							startNucleus = rules.puGetEndNucleus(y+2);
-    							DecayEvent instance = new DecayEvent(rules.puGetStartNucleus(y),rules.puGetEndNucleus(y),rules.puGetHalfLife(y+2),rules.puGetEnergy(y+2),rules.puGetType(y+2),timeOffset);
+    							startNucleus = rules.puGetEndNucleus(y+prsfIntTwo);
+    							DecayEvent instance = new DecayEvent(rules.puGetStartNucleus(y+prsfIntTwo),rules.puGetEndNucleus(y+prsfIntTwo),rules.puGetHalfLife(y+prsfIntTwo),rules.puGetEnergy(y+prsfIntTwo),rules.puGetType(y+prsfIntTwo),timeOffset);
     	    					if (instance.puGetTime()>=pvStartTime&instance.puGetTime()<pvEndTime) {
     	    						pvAddDecayEvent(instance);
     	    					}
     	    					timeOffset += instance.puGetTime();
-    							y += 2;
+    							y += prsfIntTwo;
     						}
 
     					} else {
@@ -214,13 +238,13 @@ public class NucleiSampleBruteForceSim {
     	int numRules = rules.puGetNumRules();
     	//Calculate Number of DecayEvents
     	String startNucleus = "";
-    	double timeOffset = 0;
-    	for(long x = 0; x<num; x++) {
-    		timeOffset = 0;
-    		startNucleus = rules.puGetStartNucleus(0);
-    		for(int y = 0; y<numRules; y++) {
-    			if (rules.puGetStartNucleus(y).compareTo(startNucleus)==0) {
-    				if (rules.puGetProbability(y) == 1) {
+    	double timeOffset = prsfIntZero;
+    	for(long x = prsfIntZero; x<num; x++) {
+    		timeOffset = prsfIntZero;
+    		startNucleus = rules.puGetStartNucleus(prsfIntZero);
+    		for(int y = prsfIntZero; y<numRules; y++) {
+    			if (rules.puGetStartNucleus(y).compareTo(startNucleus)==prsfIntZero) {
+    				if (rules.puGetProbability(y) == prsfIntOne) {
     					startNucleus = rules.puGetEndNucleus(y);
     					DecayEvent instance = new DecayEvent(rules.puGetStartNucleus(y),rules.puGetEndNucleus(y),rules.puGetHalfLife(y),rules.puGetEnergy(y),rules.puGetType(y),timeOffset);
     					if (instance.puGetTime()>=pvStartTime&instance.puGetTime()<pvEndTime) {
@@ -229,7 +253,7 @@ public class NucleiSampleBruteForceSim {
     					timeOffset += instance.puGetTime();
     				} else {
     					double seed = Math.random();
-    					if ((rules.puGetProbability(y) + rules.puGetProbability(y+1)) == 1) {
+    					if ((rules.puGetProbability(y) + rules.puGetProbability(y+prsfIntOne)) == prsfIntOne) {
     						if (seed <= rules.puGetProbability(y)){
     							startNucleus = rules.puGetEndNucleus(y);
     							DecayEvent instance = new DecayEvent(rules.puGetStartNucleus(y),rules.puGetEndNucleus(y),rules.puGetHalfLife(y),rules.puGetEnergy(y),rules.puGetType(y),timeOffset);
@@ -239,8 +263,8 @@ public class NucleiSampleBruteForceSim {
     	    					timeOffset += instance.puGetTime();
     	    					y++;
     						} else {
-    							startNucleus = rules.puGetEndNucleus(y+1);
-    							DecayEvent instance = new DecayEvent(rules.puGetStartNucleus(y),rules.puGetEndNucleus(y),rules.puGetHalfLife(y+1),rules.puGetEnergy(y+1),rules.puGetType(y+1),timeOffset);
+    							startNucleus = rules.puGetEndNucleus(y+prsfIntOne);
+    							DecayEvent instance = new DecayEvent(rules.puGetStartNucleus(y+prsfIntOne),rules.puGetEndNucleus(y+prsfIntOne),rules.puGetHalfLife(y+prsfIntOne),rules.puGetEnergy(y+prsfIntOne),rules.puGetType(y+prsfIntOne),timeOffset);
     	    					if (instance.puGetTime()>=pvStartTime&instance.puGetTime()<pvEndTime) {
     	    						pvAddDecayEvent(instance);
     	    					}
@@ -248,7 +272,7 @@ public class NucleiSampleBruteForceSim {
     							y++;
     						}
 
-    					} else if ((rules.puGetProbability(y) + rules.puGetProbability(y+1) + rules.puGetProbability(y+2)) == 1) {
+    					} else if ((rules.puGetProbability(y) + rules.puGetProbability(y+prsfIntOne) + rules.puGetProbability(y+prsfIntTwo)) == prsfIntOne) {
     						if (seed <= rules.puGetProbability(y)) {
     							startNucleus = rules.puGetEndNucleus(y);
     							DecayEvent instance = new DecayEvent(rules.puGetStartNucleus(y),rules.puGetEndNucleus(y),rules.puGetHalfLife(y),rules.puGetEnergy(y),rules.puGetType(y),timeOffset);
@@ -257,22 +281,22 @@ public class NucleiSampleBruteForceSim {
     	    					}
     	    					timeOffset += instance.puGetTime();
     	    					y += 2;
-    						} else if (seed <= (rules.puGetProbability(y) + rules.puGetProbability(y+1))) {
-    							startNucleus = rules.puGetEndNucleus(y+1);
-    							DecayEvent instance = new DecayEvent(rules.puGetStartNucleus(y),rules.puGetEndNucleus(y),rules.puGetHalfLife(y+1),rules.puGetEnergy(y+1),rules.puGetType(y+1),timeOffset);
+    						} else if (seed <= (rules.puGetProbability(y) + rules.puGetProbability(y+prsfIntOne))) {
+    							startNucleus = rules.puGetEndNucleus(y+prsfIntOne);
+    							DecayEvent instance = new DecayEvent(rules.puGetStartNucleus(y+prsfIntOne),rules.puGetEndNucleus(y+prsfIntOne),rules.puGetHalfLife(y+prsfIntOne),rules.puGetEnergy(y+prsfIntOne),rules.puGetType(y+prsfIntOne),timeOffset);
     	    					if (instance.puGetTime()>=pvStartTime&instance.puGetTime()<pvEndTime) {
     	    						pvAddDecayEvent(instance);
     	    					}
     	    					timeOffset += instance.puGetTime();
-    							y += 2;
+    							y += prsfIntTwo;
     						} else {
-    							startNucleus = rules.puGetEndNucleus(y+2);
-    							DecayEvent instance = new DecayEvent(rules.puGetStartNucleus(y),rules.puGetEndNucleus(y),rules.puGetHalfLife(y+2),rules.puGetEnergy(y+2),rules.puGetType(y+2),timeOffset);
+    							startNucleus = rules.puGetEndNucleus(y+prsfIntTwo);
+    							DecayEvent instance = new DecayEvent(rules.puGetStartNucleus(y+prsfIntTwo),rules.puGetEndNucleus(y+prsfIntTwo),rules.puGetHalfLife(y+prsfIntTwo),rules.puGetEnergy(y+prsfIntTwo),rules.puGetType(y+prsfIntTwo),timeOffset);
     	    					if (instance.puGetTime()>=pvStartTime&instance.puGetTime()<pvEndTime) {
     	    						pvAddDecayEvent(instance);
     	    					}
     	    					timeOffset += instance.puGetTime();
-    							y += 2;
+    							y += prsfIntTwo;
     						}
 
     					} else {
@@ -287,7 +311,7 @@ public class NucleiSampleBruteForceSim {
     private void pvAddDecayEvent(DecayEvent instance) {
     	//Adds a (DecayEvent) to this (NucleiSampleBruteForceSim)
     	DecayEvent[] DecayEvents = new DecayEvent[pvNumDecayEvents+1];
-    	for(int x = 0; x < pvNumDecayEvents; x++) {
+    	for(int x = prsfIntZero; x < pvNumDecayEvents; x++) {
     		DecayEvents[x]=pvDecayEvents[x];
     	}
     	DecayEvents[pvNumDecayEvents] = instance;
@@ -297,26 +321,26 @@ public class NucleiSampleBruteForceSim {
 
     public double[][] puGetAllDecayEventEnergyAndTime() {
     	//returns all calculated (DecayEvent) energies and times
-    	if (pvNumDecayEvents > 0) {
-        	double returned[][] = new double[pvNumDecayEvents][2];
-        	for (int x = 0;x<pvNumDecayEvents;x++) {
-        		returned[x][0]=pvDecayEvents[x].puGetTime();
-        		returned[x][1]=pvDecayEvents[x].puGetEnergy();
+    	if (pvNumDecayEvents > prsfIntZero) {
+        	double returned[][] = new double[pvNumDecayEvents][prsfIntTwo];
+        	for (int x = prsfIntZero;x<pvNumDecayEvents;x++) {
+        		returned[x][prsfIntZero]=pvDecayEvents[x].puGetTime();
+        		returned[x][prsfIntOne]=pvDecayEvents[x].puGetEnergy();
         	}
         	return returned;
     	} else {
     		System.out.println("(puGetEnergyAndTime) failed because this (NucleiSampleBruteForceSim) contain no DecayEvents");
-    		double returned[][] = new double[1][1];
+    		double returned[][] = new double[prsfIntOne][prsfIntOne];
     		return returned;
     	}
     }
 
     public String puGetAllDecayEventData() {
     	//Returns a complete set of this (NucleiSampleBruteForceSims)'s (DecayEvent) data
-    	if (pvNumDecayEvents > 0) {
+    	if (pvNumDecayEvents > prsfIntZero) {
         	StringBuilder text = new StringBuilder();
         	text.append("Occurence_Time(s),StartingNucleus,EndingNucleus,Type,Energy(MeV)" + System.getProperty("line.separator"));
-        	for (int x = 0;x<pvNumDecayEvents;x++) {
+        	for (int x = prsfIntZero;x<pvNumDecayEvents;x++) {
         		text.append(pvDecayEvents[x].puGetTime() + "," + pvDecayEvents[x].puGetStartNucleus() + "," + pvDecayEvents[x].puGetEndNucleus() + "," + pvDecayEvents[x].puGetType() + "," + pvDecayEvents[x].puGetEnergy() + System.getProperty("line.separator"));
         	}
         	return text.toString();
@@ -328,8 +352,8 @@ public class NucleiSampleBruteForceSim {
 
     public double puGetEventNumForTypeOverTimeRange(double start, double end, String type) {
     	//Returns the number of events with the supplied (type) that occurred between the user supplied (start) and (end) times
-    	double sum = 0;
-    	double test = 0;
+    	double sum = prsfIntZero;
+    	double test = prsfIntZero;
     	if (start < pvStartTime) {
     		System.out.println("Warning (puGetEventNumForTypeOverTimeRange) was supplied a start time that is earlier than (pvStartTime)!");
     	} else if (start > pvEndTime) {
@@ -343,16 +367,16 @@ public class NucleiSampleBruteForceSim {
     		System.out.println("Warning (puGetEventNumForTypeOverTimeRange) was supplied an end time that is past (pvEndTime)!");
     	}
     	if (start < end) {
-    		if (pvNumDecayEvents > 0) {
-    			for (int x = 0; x < pvNumDecayEvents; x++) {
+    		if (pvNumDecayEvents > prsfIntZero) {
+    			for (int x = prsfIntZero; x < pvNumDecayEvents; x++) {
     				test = pvDecayEvents[x].puGetTime();
-    				if (test>=start&test<end&type.compareTo(pvDecayEvents[x].puGetType())==0) {
+    				if (test>=start&test<end&type.compareTo(pvDecayEvents[x].puGetType())==prsfIntZero) {
     					sum++;
     				}
     			}
     		} else {
     			System.out.println("(puGetEventNumForTypeOverTimeRange) failed because this (NucleiSamplePredictiveSim) contain no (DecayEventSet)s");
-    			return 0;
+    			return prsfIntZero;
     		}
     	} else {
     		System.out.println("(puGetEventNumForTypeOverTimeRange) failed because the supplied start time was greater than the supplied end time!");
@@ -362,8 +386,8 @@ public class NucleiSampleBruteForceSim {
 
     public double puGetEventNumForStartNucleusOverTimeRange(double start, double end, String startN) {
     	//Returns the number of events with the supplied (startN) that occurred between the user supplied (start) and (end) times
-    	double sum = 0;
-    	double test = 0;
+    	double sum = prsfIntZero;
+    	double test = prsfIntZero;
     	if (start < pvStartTime) {
     		System.out.println("Warning (puGetEventNumForStartNucleusOverTimeRange) was supplied a start time that is earlier than (pvStartTime)!");
     	} else if (start > pvEndTime) {
@@ -377,16 +401,16 @@ public class NucleiSampleBruteForceSim {
     		System.out.println("Warning (puGetEventNumForStartNucleusOverTimeRange) was supplied an end time that is past (pvEndTime)!");
     	}
     	if (start < end) {
-    		if (pvNumDecayEvents > 0) {
-    			for (int x = 0; x < pvNumDecayEvents; x++) {
+    		if (pvNumDecayEvents > prsfIntZero) {
+    			for (int x = prsfIntZero; x < pvNumDecayEvents; x++) {
     				test = pvDecayEvents[x].puGetTime();
-    				if (test>=start&test<end&startN.compareTo(pvDecayEvents[x].puGetStartNucleus())==0) {
+    				if (test>=start&test<end&startN.compareTo(pvDecayEvents[x].puGetStartNucleus())==prsfIntZero) {
     					sum++;
     				}
     			}
     		} else {
     			System.out.println("(puGetEventNumForStartNucleusOverTimeRange) failed because this (NucleiSamplePredictiveSim) contain no (DecayEventSet)s");
-    			return 0;
+    			return prsfIntZero;
     		}
     	} else {
     		System.out.println("(puGetEventNumForStartNucleusOverTimeRange) failed because the supplied start time was greater than the supplied end time!");
@@ -396,8 +420,8 @@ public class NucleiSampleBruteForceSim {
 
     public double puGetEventNumForEndNucleusOverTimeRange(double start, double end, String endN) {
     	//Returns the number of events with the supplied (endN) that occurred between the user supplied (start) and (end) times
-    	double sum = 0;
-    	double test = 0;
+    	double sum = prsfIntZero;
+    	double test = prsfIntZero;
     	if (start < pvStartTime) {
     		System.out.println("Warning (puGetEventNumForEndNucleusOverTimeRange) was supplied a start time that is earlier than (pvStartTime)!");
     	} else if (start > pvEndTime) {
@@ -411,16 +435,16 @@ public class NucleiSampleBruteForceSim {
     		System.out.println("Warning (puGetEventNumForEndNucleusOverTimeRange) was supplied an end time that is past (pvEndTime)!");
     	}
     	if (start < end) {
-    		if (pvNumDecayEvents > 0) {
-    			for (int x = 0; x < pvNumDecayEvents; x++) {
+    		if (pvNumDecayEvents > prsfIntZero) {
+    			for (int x = prsfIntZero; x < pvNumDecayEvents; x++) {
     				test = pvDecayEvents[x].puGetTime();
-    				if (test>=start&test<end&endN.compareTo(pvDecayEvents[x].puGetEndNucleus())==0) {
+    				if (test>=start&test<end&endN.compareTo(pvDecayEvents[x].puGetEndNucleus())==prsfIntZero) {
     					sum++;
     				}
     			}
     		} else {
     			System.out.println("(puGetEventNumForEndNucleusOverTimeRange) failed because this (NucleiSamplePredictiveSim) contain no (DecayEventSet)s");
-    			return 0;
+    			return prsfIntZero;
     		}
     	} else {
     		System.out.println("(puGetEventNumForEndNucleusOverTimeRange) failed because the supplied start time was greater than the supplied end time!");
@@ -430,8 +454,8 @@ public class NucleiSampleBruteForceSim {
 
     public double puGetEventNumOverTimeRange(double start, double end) {
     	//Returns the number of events that occurred between the user supplied (start) and (end) times
-    	double sum = 0;
-    	double test = 0;
+    	double sum = prsfIntZero;
+    	double test = prsfIntZero;
     	if (start < pvStartTime) {
     		System.out.println("Warning (puGetEventNumForEndNucleusOverTimeRange) was supplied a start time that is earlier than (pvStartTime)!");
     	} else if (start > pvEndTime) {
@@ -445,8 +469,8 @@ public class NucleiSampleBruteForceSim {
     		System.out.println("Warning (puGetEventNumForEndNucleusOverTimeRange) was supplied an end time that is past (pvEndTime)!");
     	}
     	if (start < end) {
-    		if (pvNumDecayEvents > 0) {
-    			for (int x = 0; x < pvNumDecayEvents; x++) {
+    		if (pvNumDecayEvents > prsfIntZero) {
+    			for (int x = prsfIntZero; x < pvNumDecayEvents; x++) {
     				test = pvDecayEvents[x].puGetTime();
     				if (test>=start&test<end) {
     					sum++;
@@ -454,7 +478,7 @@ public class NucleiSampleBruteForceSim {
     			}
     		}  else {
     			System.out.println("(puGetEventNumForEndNucleusOverTimeRange) failed because this (NucleiSamplePredictiveSim) contain no (DecayEventSet)s");
-    			return 0;
+    			return prsfIntZero;
     		}
     	} else {
     		System.out.println("(puGetEventNumForEndNucleusOverTimeRange) failed because the supplied start time was greater than the supplied end time!");
@@ -464,8 +488,8 @@ public class NucleiSampleBruteForceSim {
 
     public double puGetEnergySumForTypeOverTimeRange(double start, double end, String type) {
     	//Returns the total energy in MeV for the supplied (type) that was radiated between the user supplied (start) and (end) times
-    	double sum = 0;
-    	double test = 0;
+    	double sum = prsfIntZero;
+    	double test = prsfIntZero;
     	if (start < pvStartTime) {
     		System.out.println("Warning (puGetEnergySumForTypeOverTimeRange) was supplied a start time that is earlier than (pvStartTime)!");
     	} else if (start > pvEndTime) {
@@ -479,17 +503,17 @@ public class NucleiSampleBruteForceSim {
     		System.out.println("Warning (puGetEnergySumForTypeOverTimeRange) was supplied an end time that is past (pvEndTime)!");
     	}
     	if (start < end) {
-    		if (pvNumDecayEvents > 0) {
-    			for (int x = 0; x < pvNumDecayEvents; x++) {
+    		if (pvNumDecayEvents > prsfIntZero) {
+    			for (int x = prsfIntZero; x < pvNumDecayEvents; x++) {
     				test = pvDecayEvents[x].puGetTime();
-    				if (test>=start&test<end&type.compareTo(pvDecayEvents[x].puGetType())==0) {
+    				if (test>=start&test<end&type.compareTo(pvDecayEvents[x].puGetType())==prsfIntZero) {
     					sum += pvDecayEvents[x].puGetEnergy();
     				}
 
     			}
     		} else {
     			System.out.println("(puGetEnergySumForTypeOverTimeRange) failed because this (NucleiSampleBruteForceSim) contain no (DecayEvent)s");
-    			return 0;
+    			return prsfIntZero;
     		}
     	} else {
     		System.out.println("(puGetEnergySumForTypeOverTimeRange) failed because the supplied start time was greater than the supplied end time!");
@@ -499,8 +523,8 @@ public class NucleiSampleBruteForceSim {
 
     public double puGetEnergySumForStartingNucleusOverTimeRange(double start, double end, String startN) {
     	//Returns the total energy in MeV for the supplied (startN) that was radiated between the user supplied (start) and (end) times
-    	double sum = 0;
-    	double test = 0;
+    	double sum = prsfIntZero;
+    	double test = prsfIntZero;
     	if (start < pvStartTime) {
     		System.out.println("Warning (puGetEnergySumForStartingNucleusOverTimeRange) was supplied a start time that is earlier than (pvStartTime)!");
     	} else if (start > pvEndTime) {
@@ -514,17 +538,17 @@ public class NucleiSampleBruteForceSim {
     		System.out.println("Warning (puGetEnergySumForStartingNucleusOverTimeRange) was supplied an end time that is past (pvEndTime)!");
     	}
     	if (start < end) {
-    		if (pvNumDecayEvents > 0) {
-    			for (int x = 0; x < pvNumDecayEvents; x++) {
+    		if (pvNumDecayEvents > prsfIntZero) {
+    			for (int x = prsfIntZero; x < pvNumDecayEvents; x++) {
     				test = pvDecayEvents[x].puGetTime();
-    				if (test>=start&test<end&startN.compareTo(pvDecayEvents[x].puGetStartNucleus())==0) {
+    				if (test>=start&test<end&startN.compareTo(pvDecayEvents[x].puGetStartNucleus())==prsfIntZero) {
     					sum += pvDecayEvents[x].puGetEnergy();
     				}
 
     			}
     		} else {
     			System.out.println("(puGetEnergySumForStartingNucleusOverTimeRange) failed because this (NucleiSampleBruteForceSim) contain no (DecayEvent)s");
-    			return 0;
+    			return prsfIntZero;
     		}
     	} else {
     		System.out.println("(puGetEnergySumForStartingNucleusOverTimeRange) failed because the supplied start time was greater than the supplied end time!");
@@ -534,8 +558,8 @@ public class NucleiSampleBruteForceSim {
 
     public double puGetEnergySumForEndingNucleusOverTimeRange(double start, double end, String endN) {
     	//Returns the total energy in MeV for the supplied (endN) that was radiated between the user supplied (start) and (end) times
-    	double sum = 0;
-    	double test = 0;
+    	double sum = prsfIntZero;
+    	double test = prsfIntZero;
     	if (start < pvStartTime) {
     		System.out.println("Warning (puGetEnergySumForEndingNucleusOverTimeRange) was supplied a start time that is earlier than (pvStartTime)!");
     	} else if (start > pvEndTime) {
@@ -549,17 +573,17 @@ public class NucleiSampleBruteForceSim {
     		System.out.println("Warning (puGetEnergySumForEndingNucleusOverTimeRange) was supplied an end time that is past (pvEndTime)!");
     	}
     	if (start < end) {
-    		if (pvNumDecayEvents > 0) {
-    			for (int x = 0; x < pvNumDecayEvents; x++) {
+    		if (pvNumDecayEvents > prsfIntZero) {
+    			for (int x = prsfIntZero; x < pvNumDecayEvents; x++) {
     				test = pvDecayEvents[x].puGetTime();
-    				if (test>=start&test<end&endN.compareTo(pvDecayEvents[x].puGetEndNucleus())==0) {
+    				if (test>=start&test<end&endN.compareTo(pvDecayEvents[x].puGetEndNucleus())==prsfIntZero) {
     					sum += pvDecayEvents[x].puGetEnergy();
     				}
 
     			}
     		} else {
     			System.out.println("(puGetEnergySumForEndingNucleusOverTimeRange) failed because this (NucleiSampleBruteForceSim) contain no (DecayEvent)s");
-    			return 0;
+    			return prsfIntZero;
     		}
     	} else {
     		System.out.println("(puGetEnergySumForEndingNucleusOverTimeRange) failed because the supplied start time was greater than the supplied end time!");
@@ -569,8 +593,8 @@ public class NucleiSampleBruteForceSim {
 
     public double puGetEnergySumOverTimeRange(double start, double end) {
     	//Returns the total energy in MeV radiated between the user supplied (start) and (end) times
-    	double sum = 0;
-    	double test = 0;
+    	double sum = prsfIntZero;
+    	double test = prsfIntZero;
     	if (start < pvStartTime) {
     		System.out.println("Warning (puGetEnergySumOverTimeRange) was supplied a start time that is earlier than (pvStartTime)!");
     	} else if (start > pvEndTime) {
@@ -584,17 +608,16 @@ public class NucleiSampleBruteForceSim {
     		System.out.println("Warning (puGetEnergySumOverTimeRange) was supplied an end time that is past (pvEndTime)!");
     	}
     	if (start < end) {
-    		if (pvNumDecayEvents > 0) {
-    			for (int x = 0; x < pvNumDecayEvents; x++) {
+    		if (pvNumDecayEvents > prsfIntZero) {
+    			for (int x = prsfIntZero; x < pvNumDecayEvents; x++) {
     				test = pvDecayEvents[x].puGetTime();
     				if (test>=start&test<end) {
     					sum += pvDecayEvents[x].puGetEnergy();
     				}
-
     			}
     		} else {
     			System.out.println("(puGetEnergySumOverTimeRange) failed because this (NucleiSampleBruteForceSim) contain no (DecayEvent)s");
-    			return 0;
+    			return prsfIntZero;
     		}
     	} else {
     		System.out.println("(puGetEnergySumOverTimeRange) failed because the supplied start time was greater than the supplied end time!");
@@ -605,8 +628,8 @@ public class NucleiSampleBruteForceSim {
 
     public double puGetRadiatedPowerOverTimeRange(double start, double end) {
     	//Returns the radiated power in MeV/s between the user supplied (start) and (end) times
-    	double sum = 0;
-    	double test = 0;
+    	double sum = prsfIntZero;
+    	double test = prsfIntZero;
     	if (start < pvStartTime) {
     		System.out.println("Warning (puGetRadiatedPowerOverTimeRange) was supplied a start time that is earlier than (pvStartTime)!");
     	} else if (start > pvEndTime) {
@@ -620,8 +643,8 @@ public class NucleiSampleBruteForceSim {
     		System.out.println("Warning (puGetRadiatedPowerOverTimeRange) was supplied an end time that is past (pvEndTime)!");
     	}
     	if (start < end) {
-    		if (pvNumDecayEvents > 0) {
-    			for (int x = 0; x < pvNumDecayEvents; x++) {
+    		if (pvNumDecayEvents > prsfIntZero) {
+    			for (int x = prsfIntZero; x < pvNumDecayEvents; x++) {
     				test = pvDecayEvents[x].puGetTime();
     				if (test>=start&test<end) {
     					sum += pvDecayEvents[x].puGetEnergy();
@@ -629,20 +652,20 @@ public class NucleiSampleBruteForceSim {
     			 }
     		} else {
     			System.out.println("(puGetRadiatedPowerOverTimeRange) failed because this (NucleiSampleBruteForceSim) contain no particles");
-    			return 0;
+    			return prsfIntZero;
     		}
 
     	} else {
     		System.out.println("(puGetRadiatedPowerOverTimeRange) failed because the supplied start time was greater than the supplied end time!");
-    		return 0;
+    		return prsfIntZero;
     	}
     	return (sum/(end-start));
     }
 
     public double puGetRadiatedPowerForTypeOverTimeRange(double start, double end, String type) {
     	//Returns the radiated power in MeV/s for the supplied (type) between the user supplied (start) and (end) times
-    	double sum = 0;
-    	double test = 0;
+    	double sum = prsfIntZero;
+    	double test = prsfIntZero;
     	if (start < pvStartTime) {
     		System.out.println("Warning (puGetRadiatedPowerForTypeOverTimeRange) was supplied a start time that is earlier than (pvStartTime)!");
     	} else if (start > pvEndTime) {
@@ -656,29 +679,29 @@ public class NucleiSampleBruteForceSim {
     		System.out.println("Warning (puGetRadiatedPowerForTypeOverTimeRange) was supplied an end time that is past (pvEndTime)!");
     	}
     	if (start < end) {
-    		if (pvNumDecayEvents > 0) {
-    			for (int x = 0; x < pvNumDecayEvents; x++) {
+    		if (pvNumDecayEvents > prsfIntZero) {
+    			for (int x = prsfIntZero; x < pvNumDecayEvents; x++) {
     				test = pvDecayEvents[x].puGetTime();
-    				if (test>=start&test<end&type.compareTo(pvDecayEvents[x].puGetType())==0) {
+    				if (test>=start&test<end&type.compareTo(pvDecayEvents[x].puGetType())==prsfIntZero) {
     					sum += pvDecayEvents[x].puGetEnergy();
     				}
     			 }
     		} else {
     			System.out.println("(puGetRadiatedPowerForTypeOverTimeRange) failed because this (NucleiSampleBruteForceSim) contain no particles");
-    			return 0;
+    			return prsfIntZero;
     		}
 
     	} else {
     		System.out.println("(puGetRadiatedPowerForTypeOverTimeRange) failed because the supplied start time was greater than the supplied end time!");
-    		return 0;
+    		return prsfIntZero;
     	}
     	return (sum/(end-start));
     }
 
     public double puGetRadiatedPowerForStartNucleusOverTimeRange(double start, double end, String startN) {
     	//Returns the radiated power in MeV/s for the supplied (startN) between the user supplied (start) and (end) times
-    	double sum = 0;
-    	double test = 0;
+    	double sum = prsfIntZero;
+    	double test = prsfIntZero;
     	if (start < pvStartTime) {
     		System.out.println("Warning (puGetRadiatedPowerForStartNucleusOverTimeRange) was supplied a start time that is earlier than (pvStartTime)!");
     	} else if (start > pvEndTime) {
@@ -692,29 +715,29 @@ public class NucleiSampleBruteForceSim {
     		System.out.println("Warning (puGetRadiatedPowerForStartNucleusOverTimeRange) was supplied an end time that is past (pvEndTime)!");
     	}
     	if (start < end) {
-    		if (pvNumDecayEvents > 0) {
-    			for (int x = 0; x < pvNumDecayEvents; x++) {
+    		if (pvNumDecayEvents > prsfIntZero) {
+    			for (int x = prsfIntZero; x < pvNumDecayEvents; x++) {
     				test = pvDecayEvents[x].puGetTime();
-    				if (test>=start&test<end&startN.compareTo(pvDecayEvents[x].puGetStartNucleus())==0) {
+    				if (test>=start&test<end&startN.compareTo(pvDecayEvents[x].puGetStartNucleus())==prsfIntZero) {
     					sum += pvDecayEvents[x].puGetEnergy();
     				}
     			 }
     		} else {
     			System.out.println("(puGetRadiatedPowerForStartNucleusOverTimeRange) failed because this (NucleiSampleBruteForceSim) contain no particles");
-    			return 0;
+    			return prsfIntZero;
     		}
 
     	} else {
     		System.out.println("(puGetRadiatedPowerForStartNucleusOverTimeRange) failed because the supplied start time was greater than the supplied end time!");
-    		return 0;
+    		return prsfIntZero;
     	}
     	return (sum/(end-start));
     }
 
     public double puGetRadiatedPowerForEndNucleusOverTimeRange(double start, double end, String endN) {
     	//Returns the radiated power in MeV/s for the supplied (endN) between the user supplied (start) and (end) times
-    	double sum = 0;
-    	double test = 0;
+    	double sum = prsfIntZero;
+    	double test = prsfIntZero;
     	if (start < pvStartTime) {
     		System.out.println("Warning (puGetRadiatedPowerForEndNucleusOverTimeRange) was supplied a start time that is earlier than (pvStartTime)!");
     	} else if (start > pvEndTime) {
@@ -728,30 +751,30 @@ public class NucleiSampleBruteForceSim {
     		System.out.println("Warning (puGetRadiatedPowerForEndNucleusOverTimeRange) was supplied an end time that is past (pvEndTime)!");
     	}
     	if (start < end) {
-    		if (pvNumDecayEvents > 0) {
-    			for (int x = 0; x < pvNumDecayEvents; x++) {
+    		if (pvNumDecayEvents > prsfIntZero) {
+    			for (int x = prsfIntZero; x < pvNumDecayEvents; x++) {
     				test = pvDecayEvents[x].puGetTime();
-    				if (test>=start&test<end&endN.compareTo(pvDecayEvents[x].puGetEndNucleus())==0) {
+    				if (test>=start&test<end&endN.compareTo(pvDecayEvents[x].puGetEndNucleus())==prsfIntZero) {
     					sum += pvDecayEvents[x].puGetEnergy();
     				}
     			 }
     		} else {
     			System.out.println("(puGetRadiatedPowerForEndNucleusOverTimeRange) failed because this (NucleiSampleBruteForceSim) contain no particles");
-    			return 0;
+    			return prsfIntZero;
     		}
 
     	} else {
     		System.out.println("(puGetRadiatedPowerForEndNucleusOverTimeRange) failed because the supplied start time was greater than the supplied end time!");
-    		return 0;
+    		return prsfIntZero;
     	}
     	return (sum/(end-start));
     }
 
     public String puGetRadiatedPowerForOneYear(double start) {
     	//Returns a comma delimited String with a years worth of radiated power MeV/s (one per hour) calculations starting at time (start)
-    	double[] aveBucket = new double[365*24];
-    	for (int x = 0; x<365*24; x++) {
-    		aveBucket[x] = 0;
+    	double[] aveBucket = new double[prsfInt8760];
+    	for (int x = prsfIntZero; x<prsfInt8760; x++) {
+    		aveBucket[x] = prsfIntZero;
     	}
     	if (start < pvStartTime) {
     		System.out.println("Warning (puGetRadiatedPowerForOneYear) was supplied a start time that is earlier than (pvStartTime)!");
@@ -759,11 +782,11 @@ public class NucleiSampleBruteForceSim {
     		System.out.println("Warning (puGetRadiatedPowerForOneYear) was supplied a start time that is past (pvEndTime)!");
     		return "Warning (puGetRadiatedPowerForOneYear) was supplied a start time that is past (pvEndTime)!";
     	}
-    	if (start >= 0) {
-    		if (pvNumDecayEvents > 0) {
-    			for (int x = 0; x < pvNumDecayEvents; x++) {
-    				for (int y = 0; y < 365*24; y++) {
-    					if(((pvDecayEvents[x].puGetTime())>=(start+3600*y))&((pvDecayEvents[x].puGetTime())<(start+3600*(y+1)))){
+    	if (start >= prsfIntZero) {
+    		if (pvNumDecayEvents > prsfIntZero) {
+    			for (int x = prsfIntZero; x < pvNumDecayEvents; x++) {
+    				for (int y = prsfIntZero; y < prsfInt8760; y++) {
+    					if(((pvDecayEvents[x].puGetTime())>=(start+prsfDouble3600*y))&((pvDecayEvents[x].puGetTime())<(start+prsfDouble3600*(y+prsfIntOne)))){
     						aveBucket[y] = aveBucket[y] + pvDecayEvents[x].puGetEnergy();
     					}
     				}
@@ -771,9 +794,9 @@ public class NucleiSampleBruteForceSim {
     			StringBuilder text = new StringBuilder();
     			text.append("Averages are of the (DecayEvent)s occurring between each of the Times below and the next one" + System.getProperty("line.separator"));
     			text.append("Time,AverageEnergy(MeV/s)" + System.getProperty("line.separator"));
-    			for (int x = 0;x<365*24;x++) {
-    				aveBucket[x] = aveBucket[x]/3600;
-    				text.append((start+3600*x) + "," + aveBucket[x] + System.getProperty("line.separator"));
+    			for (int x = prsfIntZero;x<prsfInt8760;x++) {
+    				aveBucket[x] = aveBucket[x]/prsfDouble3600;
+    				text.append((start+prsfDouble3600*x) + "," + aveBucket[x] + System.getProperty("line.separator"));
     			}
     			return text.toString();
     		} else {
@@ -788,9 +811,9 @@ public class NucleiSampleBruteForceSim {
 
     public String puGetRadiatedPowerForOneYearForType(double start, String type) {
     	//Returns a comma delimited String with a years worth of radiated power MeV/s (one per hour) calculations starting at time (start) of only the specified (type)
-    	double[] aveBucket = new double[365*24];
-    	for (int x = 0; x<365*24; x++) {
-    		aveBucket[x] = 0;
+    	double[] aveBucket = new double[prsfInt8760];
+    	for (int x = 0; x<prsfInt8760; x++) {
+    		aveBucket[x] = prsfIntZero;
     	}
     	if (start < pvStartTime) {
     		System.out.println("Warning (puGetRadiatedPowerForOneYearForType) was supplied a start time that is earlier than (pvStartTime)!");
@@ -798,11 +821,11 @@ public class NucleiSampleBruteForceSim {
     		System.out.println("Warning (puGetRadiatedPowerForOneYearForType) was supplied a start time that is past (pvEndTime)!");
     		return "Warning (puGetRadiatedPowerForOneYearForType) was supplied a start time that is past (pvEndTime)!";
     	}
-    	if (start >= 0) {
-    		if (pvNumDecayEvents > 0) {
-    			for (int x = 0; x < pvNumDecayEvents; x++) {
-    				for (int y = 0; y < 365*24; y++) {
-    					if((type.compareTo(pvDecayEvents[x].puGetType())==0)&((pvDecayEvents[x].puGetTime())>=(start+3600*y))&((pvDecayEvents[x].puGetTime())<(start+3600*(y+1)))){
+    	if (start >= prsfIntZero) {
+    		if (pvNumDecayEvents > prsfIntZero) {
+    			for (int x = prsfIntZero; x < pvNumDecayEvents; x++) {
+    				for (int y = prsfIntZero; y < prsfInt8760; y++) {
+    					if((type.compareTo(pvDecayEvents[x].puGetType())==prsfIntZero)&((pvDecayEvents[x].puGetTime())>=(start+prsfDouble3600*y))&((pvDecayEvents[x].puGetTime())<(start+prsfDouble3600*(y+prsfIntOne)))){
     						aveBucket[y] = aveBucket[y] + pvDecayEvents[x].puGetEnergy();
     					}
     				}
@@ -810,9 +833,9 @@ public class NucleiSampleBruteForceSim {
     			StringBuilder text = new StringBuilder();
     			text.append("Averages are of the (DecayEvent)s occurring between each of the Times below and the next one" + System.getProperty("line.separator"));
     			text.append("Time,AverageEnergy(MeV/s)" + System.getProperty("line.separator"));
-    			for (int x = 0;x<365*24;x++) {
-    				aveBucket[x] = aveBucket[x]/3600;
-    				text.append((start+3600*x) + "," + aveBucket[x] + System.getProperty("line.separator"));
+    			for (int x = prsfIntZero;x<prsfInt8760;x++) {
+    				aveBucket[x] = aveBucket[x]/prsfDouble3600;
+    				text.append((start+prsfDouble3600*x) + "," + aveBucket[x] + System.getProperty("line.separator"));
     			}
     			return text.toString();
     		} else {
@@ -827,9 +850,9 @@ public class NucleiSampleBruteForceSim {
 
     public String puGetRadiatedPowerForOneYearForStartNucleus(double start, String startN) {
     	//Returns a comma delimited String with a years worth of radiated power MeV/s (one per hour) calculations starting at time (start) of only the specified (startN)
-    	double[] aveBucket = new double[365*24];
-    	for (int x = 0; x<365*24; x++) {
-    		aveBucket[x] = 0;
+    	double[] aveBucket = new double[prsfInt8760];
+    	for (int x = prsfIntZero; x<prsfInt8760; x++) {
+    		aveBucket[x] = prsfIntZero;
     	}
     	if (start < pvStartTime) {
     		System.out.println("Warning (puGetRadiatedPowerForOneYearForStartNucleus) was supplied a start time that is earlier than (pvStartTime)!");
@@ -837,11 +860,11 @@ public class NucleiSampleBruteForceSim {
     		System.out.println("Warning (puGetRadiatedPowerForOneYearForStartNucleus) was supplied a start time that is past (pvEndTime)!");
     		return "Warning (puGetRadiatedPowerForOneYearForStartNucleus) was supplied a start time that is past (pvEndTime)!";
     	}
-    	if (start >= 0) {
-    		if (pvNumDecayEvents > 0) {
-    			for (int x = 0; x < pvNumDecayEvents; x++) {
-    				for (int y = 0; y < 365*24; y++) {
-    					if((startN.compareTo(pvDecayEvents[x].puGetStartNucleus())==0)&((pvDecayEvents[x].puGetTime())>=(start+3600*y))&((pvDecayEvents[x].puGetTime())<(start+3600*(y+1)))){
+    	if (start >= prsfIntZero) {
+    		if (pvNumDecayEvents > prsfIntZero) {
+    			for (int x = prsfIntZero; x < pvNumDecayEvents; x++) {
+    				for (int y = prsfIntZero; y < prsfInt8760; y++) {
+    					if((startN.compareTo(pvDecayEvents[x].puGetStartNucleus())==prsfIntZero)&((pvDecayEvents[x].puGetTime())>=(start+prsfDouble3600*y))&((pvDecayEvents[x].puGetTime())<(start+prsfDouble3600*(y+prsfIntOne)))){
     						aveBucket[y] = aveBucket[y] + pvDecayEvents[x].puGetEnergy();
     					}
     				}
@@ -849,9 +872,9 @@ public class NucleiSampleBruteForceSim {
     			StringBuilder text = new StringBuilder();
     			text.append("Averages are of the (DecayEvent)s occurring between each of the Times below and the next one" + System.getProperty("line.separator"));
     			text.append("Time,AverageEnergy(MeV/s)" + System.getProperty("line.separator"));
-    			for (int x = 0;x<365*24;x++) {
-    				aveBucket[x] = aveBucket[x]/3600;
-    				text.append((start+3600*x) + "," + aveBucket[x] + System.getProperty("line.separator"));
+    			for (int x = prsfIntZero;x<prsfInt8760;x++) {
+    				aveBucket[x] = aveBucket[x]/prsfDouble3600;
+    				text.append((start+prsfDouble3600*x) + "," + aveBucket[x] + System.getProperty("line.separator"));
     			}
     			return text.toString();
     		} else {
@@ -866,9 +889,9 @@ public class NucleiSampleBruteForceSim {
 
     public String puGetRadiatedPowerForOneYearForEndNucleus(double start, String endN) {
     	//Returns a comma delimited String with a years worth of radiated power MeV/s (one per hour) calculations starting at time (start) of only the specified (endN)
-    	double[] aveBucket = new double[365*24];
-    	for (int x = 0; x<365*24; x++) {
-    		aveBucket[x] = 0;
+    	double[] aveBucket = new double[prsfInt8760];
+    	for (int x = 0; x<prsfInt8760; x++) {
+    		aveBucket[x] = prsfIntZero;
     	}
     	if (start < pvStartTime) {
     		System.out.println("Warning (puGetRadiatedPowerForOneYearForEndNucleus) was supplied a start time that is earlier than (pvStartTime)!");
@@ -876,11 +899,11 @@ public class NucleiSampleBruteForceSim {
     		System.out.println("Warning (puGetRadiatedPowerForOneYearForEndNucleus) was supplied a start time that is past (pvEndTime)!");
     		return "Warning (puGetRadiatedPowerForOneYearForEndNucleus) was supplied a start time that is past (pvEndTime)!";
     	}
-    	if (start >= 0) {
-    		if (pvNumDecayEvents > 0) {
-    			for (int x = 0; x < pvNumDecayEvents; x++) {
-    				for (int y = 0; y < 365*24; y++) {
-    					if((endN.compareTo(pvDecayEvents[x].puGetEndNucleus())==0)&((pvDecayEvents[x].puGetTime())>=(start+3600*y))&((pvDecayEvents[x].puGetTime())<(start+3600*(y+1)))){
+    	if (start >= prsfIntZero) {
+    		if (pvNumDecayEvents > prsfIntZero) {
+    			for (int x = prsfIntZero; x < pvNumDecayEvents; x++) {
+    				for (int y = prsfIntZero; y < prsfInt8760; y++) {
+    					if((endN.compareTo(pvDecayEvents[x].puGetEndNucleus())==prsfIntZero)&((pvDecayEvents[x].puGetTime())>=(start+prsfDouble3600*y))&((pvDecayEvents[x].puGetTime())<(start+prsfDouble3600*(y+prsfIntOne)))){
     						aveBucket[y] = aveBucket[y] + pvDecayEvents[x].puGetEnergy();
     					}
     				}
@@ -888,9 +911,9 @@ public class NucleiSampleBruteForceSim {
     			StringBuilder text = new StringBuilder();
     			text.append("Averages are of the (DecayEvent)s occurring between each of the Times below and the next one" + System.getProperty("line.separator"));
     			text.append("Time,AverageEnergy(MeV/s)" + System.getProperty("line.separator"));
-    			for (int x = 0;x<365*24;x++) {
-    				aveBucket[x] = aveBucket[x]/3600;
-    				text.append((start+3600*x) + "," + aveBucket[x] + System.getProperty("line.separator"));
+    			for (int x = prsfIntZero;x<prsfInt8760;x++) {
+    				aveBucket[x] = aveBucket[x]/prsfDouble3600;
+    				text.append((start+prsfDouble3600*x) + "," + aveBucket[x] + System.getProperty("line.separator"));
     			}
     			return text.toString();
     		} else {

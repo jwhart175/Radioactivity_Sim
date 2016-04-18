@@ -27,7 +27,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.io.PrintWriter;
 
-public class OutputScribe {
+public class OutputScribe extends PRSFNUM{
 	// A class to open and write multiple output files
 	 /* Variable and Function Nomenclature prescripts:
 	  * pv = private
@@ -40,11 +40,36 @@ public class OutputScribe {
 	  * prsf = protected static final
 	  * pusf = public static final
 	  */
+
+	/*
+	 * Inherited Variables and Functions:
+	 * protected static final double prsfDoubleZero = 0.0;
+	 * protected static final double prsfDoubleOne = 1.0;
+	 * protected static final double prsfDoubleTwo = 2.0;
+	 * protected static final double prsfDoubleLN2 = 0.69314718;
+	 * protected static final double prsfDoubleSQRT2 = 1.414213562;
+	 * protected static final double prsfDoubleMinusOne = -1.0;
+	 * protected static final double prsfDoubleThousand = 1000.0;
+	 * protected static final double prsfDoubleHundred = 100.0;
+	 * protected static final double prsfDoubleFiveHundredThousand = 500000;
+	 * protected static final double prsfDouble3600 = 3600.0;
+	 * protected static final double prsfDoubleThreeHalves = 1.5;
+	 * protected static final int prsfInt8760 = 8760;
+	 * protected static final int prsfIntEighty = 80;
+	 * protected static final int prsfInt365 = 365;
+	 * protected static final int prsfInt24 = 24;
+	 * protected static final int prsfInt3600 = 3600;
+	 * protected static final int prsfIntZero = 0;
+	 * protected static final int prsfIntOne = 0;
+	 * protected static final int prsfIntTwo = 2;
+	 * protected static final int[] prsfDetailedTest = ...
+	 */
+
 	protected PrintWriter[] prPrintWriters;
 	protected BufferedWriter[] prBufferedWriters;
 	protected FileWriter[] prFileWriters;
 	protected boolean[] prStatus;
-	protected int prNumFiles = 0;
+	protected int prNumFiles = prsfIntZero;
 
 	public OutputScribe() {
 		//(OutputScribe) basic constructor
@@ -58,8 +83,8 @@ public class OutputScribe {
 	public OutputScribe(String file, String output) {
 		//(OutputScribe) constructor that opens a file, writes a string, and closes it
 		puOpenNewFile(file);
-		puAppendStringToFile(0,output);
-		puCloseFile(0);
+		puAppendStringToFile(prsfIntZero,output);
+		puCloseFile(prsfIntZero);
 	}
 
 	public int puGetNumFiles(){
@@ -69,8 +94,8 @@ public class OutputScribe {
 
 	public boolean puGetStatus(int index){
 		//returns the status of the file at the supplied index
-		if (index>=0){
-			if (index<=(prNumFiles-1)){
+		if (index>=prsfIntZero){
+			if (index<=(prNumFiles-prsfIntOne)){
 				return prStatus[index];
 			} else {
 				System.out.println("(puGetStatus) failed because the supplied index is greater than the number of files!");
@@ -84,8 +109,8 @@ public class OutputScribe {
 
 	public void puAppendStringToFile(int index, String output){
 		//Attempts to append the String (output) to the file at (index)
-		if (index>=0){
-			if (index<=(prNumFiles-1)){
+		if (index>=prsfIntZero){
+			if (index<=(prNumFiles-prsfIntOne)){
 				if (prStatus[index]){
 					try {
 						prPrintWriters[index].println(output);
@@ -107,8 +132,8 @@ public class OutputScribe {
 
 	public void puCloseFile(int index) {
 		//Attempts to close the file at (index)
-		if (index>=0){
-			if (index<=(prNumFiles-1)){
+		if (index>=prsfIntZero){
+			if (index<=(prNumFiles-prsfIntOne)){
 				if (prStatus[index]){
 					try {
 						prPrintWriters[index].close();
@@ -137,11 +162,11 @@ public class OutputScribe {
 			fw = new FileWriter(file,true);
             bw = new BufferedWriter(fw);
             pw = new PrintWriter(bw);
-            PrintWriter[] pws = new PrintWriter[prNumFiles+1];
-            BufferedWriter[] bws = new BufferedWriter[prNumFiles+1];
-            FileWriter[] fws = new FileWriter[prNumFiles+1];
-            boolean[] s = new boolean[prNumFiles+1];
-            for (int x = 0; x<prNumFiles; x++){
+            PrintWriter[] pws = new PrintWriter[prNumFiles+prsfIntOne];
+            BufferedWriter[] bws = new BufferedWriter[prNumFiles+prsfIntOne];
+            FileWriter[] fws = new FileWriter[prNumFiles+prsfIntOne];
+            boolean[] s = new boolean[prNumFiles+prsfIntOne];
+            for (int x = prsfIntZero; x<prNumFiles; x++){
             	pws[x] = prPrintWriters[x];
             	bws[x] = prBufferedWriters[x];
             	fws[x] = prFileWriters[x];
