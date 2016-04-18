@@ -9,6 +9,6 @@ This readme will be updated when the developer deems the program to be suitable 
 # Contact info
 
 Jonathan Wayne Hart 
-<a href="mailto:jwhart1@gmail.com">jwhart1@gmail.com</a>
-<a href="http://jonathanhartpage.com/hartwp/">jonathanhartpage.com</a>
+<a href="mailto:jwhart1@gmail.com">jwhart1@gmail.com</a><br>
+<a href="http://jonathanhartpage.com/hartwp/">jonathanhartpage.com</a><br>
 
