@@ -141,7 +141,7 @@ public class DataExport extends PRSFNUM {
     	data6.append("Radiated Power = " + test6.puGetRadiatedPowerOverTimeRange(startTime, endTime)+ " MeV/s" + System.getProperty("line.separator"));
     	data6.append("Total Energy = " + test6.puGetEnergySumOverTimeRange(startTime, endTime) + " MeV" + System.getProperty("line.separator"));
     	data6.append(System.getProperty("line.separator"));
-    	data6.append(test6.puGetAllFinalNucleiCounts());
+    	data6.append(test6.puGetAllEndTimeNucleiCounts());
     	data6.append(System.getProperty("line.separator"));
     	data6.append(test6.puGetAllEventCountsOverTimeRangeByNuclei(startTime, endTime));
     	data6.append(System.getProperty("line.separator"));
@@ -214,7 +214,7 @@ public class DataExport extends PRSFNUM {
         data7.append("Radiated Power = " + test7.puGetRadiatedPowerOverTimeRange(startTime, endTime)+ " MeV/s" + System.getProperty("line.separator"));
     	data7.append("Total Energy = " + test7.puGetEnergySumOverTimeRange(startTime, endTime) + " MeV" + System.getProperty("line.separator"));
     	data7.append(System.getProperty("line.separator"));
-    	data7.append(test7.puGetAllFinalNucleiCounts());
+    	data7.append(test7.puGetAllEndTimeNucleiCounts());
     	data7.append(System.getProperty("line.separator"));
     	data7.append(test7.puGetAllEventCountsOverTimeRangeByNuclei(startTime, endTime));
     	data7.append(System.getProperty("line.separator"));
@@ -324,16 +324,59 @@ public class DataExport extends PRSFNUM {
     	StringBuilder data10 = new StringBuilder();
     	data10.append("verification4 for NucleiSamplePredictiveSim.java calculations:                       " + System.getProperty("line.separator"));
     	data10.append(System.getProperty("line.separator"));
+    	data10.append("In this verification a single pure sample of 10^26 U238 nuclei are allowed to decay  " + System.getProperty("line.separator"));
+    	data10.append("for three half-lives and the decays which occur between t =" + startTime + " and " + endTime + System.getProperty("line.separator"));
+    	data10.append("are examined and verified for accuracy with the following hand calcs:" + System.getProperty("line.separator"));
+    	data10.append(System.getProperty("line.separator"));
+    	data10.append("Nuclei Parent       ParentDecays   EndTimeCount    StartTimeCount   PredictedDecays  " + System.getProperty("line.separator"));
+    	data10.append("U238   N/A          N/A            1.250000002E25  1.250006151E25   6.149298E19      " + System.getProperty("line.separator"));
+    	data10.append("TH234  U238         6.149298E19    1.847267569E13  1.847276656E13   6.149298E19      " + System.getProperty("line.separator"));
+    	data10.append("PA234  TH234        6.149298E19    2.139815476E11  2.139826002E11   6.149298E19      " + System.getProperty("line.separator"));
+    	data10.append("U234   PA234        6.149298E19    6.868472812E19  6.868506601E19   6.149331E19      " + System.getProperty("line.separator"));
+    	data10.append("TH230  U234         6.149331E19    2.108957662E19  2.108968037E19   6.149342E19      " + System.getProperty("line.separator"));
+    	data10.append("RA226  TH230        6.149342E19    1.250000002E25  1.250006151E25   6.149342E19      " + System.getProperty("line.separator"));
+    	data10.append("RN222  RA226        6.149342E19    1.250000002E25  1.250006151E25   6.149342E19      " + System.getProperty("line.separator"));
+    	data10.append("PO218  RN222        6.149342E19    1.250000002E25  1.250006151E25   6.149342E19      " + System.getProperty("line.separator"));
+    	data10.append("PB214  PO218        6.149342E19    1.250000002E25  1.250006151E25   6.149342E19      " + System.getProperty("line.separator"));
+    	data10.append("BI214  PB214        6.149342E19    1.250000002E25  1.250006151E25   6.149342E19      " + System.getProperty("line.separator"));
+    	data10.append("TI210  BI214        1.291362E16    1.250000002E25  1.250006151E25   1.291362E16      " + System.getProperty("line.separator"));
+    	data10.append("PB210  PO214,TI210  6.148051E19    1.250000002E25  1.250006151E25   6.149342E19      " + System.getProperty("line.separator"));
+    	data10.append("PO214  BI214        6.148051E19    1.250000002E25  1.250006151E25   6.148051E19      " + System.getProperty("line.separator"));
+    	data10.append("PB209  TI210        1.162226E12    1.250000002E25  1.250006151E25   1.162226E12      " + System.getProperty("line.separator"));
+    	data10.append("BI209  PB209        1.162226E12    1.250000002E25  1.250006151E25   1.213845E12      " + System.getProperty("line.separator"));
+    	data10.append("BI210  PB210        6.148530E19    1.250000002E25  1.250006151E25   6.148530E19      " + System.getProperty("line.separator"));
+    	data10.append("TI206  BI210        8.116060E15    1.250000002E25  1.250006151E25   8.116060E15      " + System.getProperty("line.separator"));
+    	data10.append("PO210  BI210        6.147718E19    1.250000002E25  1.250006151E25   6.147718E19      " + System.getProperty("line.separator"));
+    	data10.append(System.getProperty("line.separator"));
+    	data10.append("Energy of BI214 decays is 6.149342E19x(0.99979x3.27[MeV]+0.00021x5.6213[MeV]) = " + (6.149342*Math.pow(10, 19)*(0.99979*3.27+0.00021*5.6213)) + " [MeV]" + System.getProperty("line.separator"));
+    	data10.append("and the energy of PO214 decays is 6148051E19x7.83346[MeV] = " + (6.148051*Math.pow(10,19)*7.83346) + " [MeV]" + System.getProperty("line.separator"));
+    	data10.append("Which adds up to: " + ((6.148051*Math.pow(10,19)*7.83346)+(6.149342*Math.pow(10, 19)*(0.99979*3.27+0.00021*5.6213))) + " [MeV]" + System.getProperty("line.separator"));
+    	data10.append("Now let's see what the program comes up with: " + System.getProperty("line.separator"));
+    	data10.append(System.getProperty("line.separator"));
     	scrivener.puOpenNewFile(file10);
     	fileNum = scrivener.puGetNumFiles();
     	data10.append("From the program we will get: " + System.getProperty("line.separator"));
-    	data10.append("Radiated Power = " + (test10.puGetRadiatedPowerForStartNucleusOverTimeRange(startTime, endTime,"BI214")+test10.puGetRadiatedPowerForStartNucleusOverTimeRange(startTime, endTime, "PO214"))+ " MeV/s" + System.getProperty("line.separator"));
-    	data10.append("Total Energy = " + (test10.puGetEnergySumForStartingNucleusOverTimeRange(startTime, endTime, "BI214")+test10.puGetEnergySumForStartingNucleusOverTimeRange(startTime, endTime, "PO214")) + " MeV" + System.getProperty("line.separator"));
+    	data10.append("Radiated Power (for BI214 and PO214) = " + (test10.puGetRadiatedPowerForStartNucleusOverTimeRange(startTime, endTime,"BI214")+test10.puGetRadiatedPowerForStartNucleusOverTimeRange(startTime, endTime, "PO214"))+ " MeV/s" + System.getProperty("line.separator"));
+    	data10.append("Total Energy (for BI214 and PO214) = " + (test10.puGetEnergySumForStartingNucleusOverTimeRange(startTime, endTime, "BI214")+test10.puGetEnergySumForStartingNucleusOverTimeRange(startTime, endTime, "PO214")) + " MeV" + System.getProperty("line.separator"));
     	data10.append(System.getProperty("line.separator"));
-    	data10.append(test10.puGetAllFinalNucleiCounts());
+    	data10.append(test10.puGetAllStartTimeNucleiCounts());
+    	data10.append(System.getProperty("line.separator"));
+    	data10.append(test10.puGetAllEndTimeNucleiCounts());
     	data10.append(System.getProperty("line.separator"));
     	data10.append(test10.puGetAllEventCountsOverTimeRangeByNuclei(startTime, endTime));
     	data10.append(System.getProperty("line.separator"));
+    	double sum10 = 0;
+    	for(int x = 1; x <= 1000;x = 10*x) {
+    		sum10 = 0;
+    		data10.append("For resolution set to " + x + " we get:" + System.getProperty("line.separator"));
+    		test10 = new NucleiSamplePredictiveSim(Math.pow(10, 26),"/home/user/git/Radioactivity_Sim/input/U238",startTime,endTime,x);
+    		for(double y = 0; y < x; y++) {
+    			data10.append("Energy (BI214 & PO214)(t = "+(startTime+(y+1)*(endTime-startTime)/x)+") = " + (test10.puGetEnergySumForStartingNucleusOverTimeRange(startTime+y*(endTime-startTime)/x, startTime+(y+1)*(endTime-startTime)/x,"BI214")+test10.puGetEnergySumForStartingNucleusOverTimeRange(startTime+y*(endTime-startTime)/x, startTime+(y+1)*(endTime-startTime)/x, "PO214")) + " MeV" + System.getProperty("line.separator"));
+    			sum10 += (test10.puGetEnergySumForStartingNucleusOverTimeRange(startTime+y*(endTime-startTime)/x, startTime+(y+1)*(endTime-startTime)/x,"BI214")+test10.puGetEnergySumForStartingNucleusOverTimeRange(startTime+y*(endTime-startTime)/x, startTime+(y+1)*(endTime-startTime)/x, "PO214"));
+    		}
+    		data10.append("Which all adds up to: " + sum10 + " MeV" + System.getProperty("line.separator"));
+    		data10.append(System.getProperty("line.separator"));
+    	}
     	scrivener.puAppendStringToFile(fileNum-1, data10.toString());
     	scrivener.puCloseFile(fileNum-1);
 
