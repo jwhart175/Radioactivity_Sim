@@ -50,6 +50,8 @@ public abstract class PRSFNUM {
 	protected static final double prsfDoubleFiveHundredThousand = 500000;
 	protected static final double prsfDouble3600 = 3600.0;
 	protected static final double prsfDoubleThreeHalves = 1.5;
+	protected static final double prsfDoubleNineTenths = 0.9;
+	protected static final double prsfDoubleElevenTenths = 1.1;
 	protected static final int prsfInt8760 = 8760;
 	protected static final int prsfIntEighty = 80;
 	protected static final int prsfInt365 = 365;
@@ -58,6 +60,7 @@ public abstract class PRSFNUM {
 	protected static final int prsfIntZero = 0;
 	protected static final int prsfIntOne = 1;
 	protected static final int prsfIntTwo = 2;
+	protected static final int prsfIntThree = 3;
 	//prsfDetailedTest is a predefined sieve to reduce error in the unbound time calculation
     protected static final int prsfDetailedTest[] = {
 	    	693,1385,2077,2769,3460,4150,4840,5530,6219,6908,

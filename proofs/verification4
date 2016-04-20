@@ -1,47 +1,94 @@
-verification10 for NucleiSamplePredictiveSim.java calculations:                       
+verification4 for NucleiSamplePredictiveSim.java calculations:                       
 
 From the program we will get: 
-Radiated Power = 5.251157481524523E7 MeV/s
-Total Energy = 5.251157481524523E20 MeV
+Radiated Power = 3.38770650811317E7 MeV/s
+Total Energy = 3.3877065081131696E20 MeV
 
 The final nuclei counts are: 
-At t = 1.409E18, the number of remaining U238 = 5.000000002799728E25
-At t = 1.409E18, the number of remaining TH234 = 7.383989811640558E13
-At t = 1.409E18, the number of remaining PA234 = 8.550435066736777E11
-At t = 1.409E18, the number of remaining U234 = 2.743612073966793E20
-At t = 1.409E18, the number of remaining TH230 = 8.421336397221041E19
-At t = 1.409E18, the number of remaining RA226 = 1.78686825058582707E18
-At t = 1.409E18, the number of remaining RN222 = 1.1694762660839334E13
-At t = 1.409E18, the number of remaining PO218 = 6.578090922594828E9
-At t = 1.409E18, the number of remaining PB214 = 5.688580200786794E10
-At t = 1.409E18, the number of remaining BI214 = 4.2225305515986084E10
-At t = 1.409E18, the number of remaining TI210 = 9.671621811165213E-32
-At t = 1.409E18, the number of remaining PB210 = 2.4741687707298268E16
-At t = 1.409E18, the number of remaining PO214 = 5783.655357259036
-At t = 1.409E18, the number of remaining PB209 = 8.63298503232442E-82
-At t = 1.409E18, the number of remaining BI209 = 8.71957829894065E-77
-At t = 1.409E18, the number of remaining BI210 = 1.5298370587561105E13
-At t = 1.409E18, the number of remaining TI206 = 4.313039364645434E-45
-At t = 1.409E18, the number of remaining PO210 = 4.222265317619234E14
+At t = 4.2270000000000005E18, the number of remaining U238 = 1.2500000020997945E25
+At t = 4.2270000000000005E18, the number of remaining TH234 = 1.847267568755233E13
+At t = 4.2270000000000005E18, the number of remaining PA234 = 2.1398154755636713E11
+At t = 4.2270000000000005E18, the number of remaining U234 = 6.8684728124021645E19
+At t = 4.2270000000000005E18, the number of remaining TH230 = 2.1089576622738104E19
+At t = 4.2270000000000005E18, the number of remaining RA226 = 4.4763985340187437E17
+At t = 4.2270000000000005E18, the number of remaining RN222 = 2.9307379785658696E12
+At t = 4.2270000000000005E18, the number of remaining PO218 = 1.6490537788234067E9
+At t = 4.2270000000000005E18, the number of remaining PB214 = 1.4265539468194754E10
+At t = 4.2270000000000005E18, the number of remaining BI214 = 1.0592695351383425E10
+At t = 4.2270000000000005E18, the number of remaining TI210 = 145316.87592601386
+At t = 4.2270000000000005E18, the number of remaining PB210 = 6.211002851650621E15
+At t = 4.2270000000000005E18, the number of remaining PO214 = 1451.0896455986904
+At t = 4.2270000000000005E18, the number of remaining PB209 = 1963.4558995715122
+At t = 4.2270000000000005E18, the number of remaining BI209 = 1.0492860845866276E16
+At t = 4.2270000000000005E18, the number of remaining BI210 = 3.841723700647233E12
+At t = 4.2270000000000005E18, the number of remaining TI206 = 292785.7962000652
+At t = 4.2270000000000005E18, the number of remaining PO210 = 1.06051912867899E14
 
 The final decay counts are: 
-The number of decays of U238 = 1.229865677102495E20
-The number of decays of TH234 = 0.0
-The number of decays of PA234 = 0.0
-The number of decays of U234 = 0.0
-The number of decays of TH230 = 0.0
-The number of decays of RA226 = 0.0
-The number of decays of RN222 = 0.0
-The number of decays of PO218 = 0.0
-The number of decays of PB214 = 0.0
-The number of decays of BI214 = 0.0
-The number of decays of TI210 = 0.0
-The number of decays of PB210 = 0.0
-The number of decays of PO214 = 0.0
-The number of decays of PB209 = 0.0
-The number of decays of BI209 = 0.0
-The number of decays of BI210 = 0.0
-The number of decays of TI206 = 0.0
-The number of decays of PO210 = 0.0
+The number of decays of U238 = 6.149298137978854E19
+The number of decays of TH234 = 6.149298137978854E19
+The number of decays of PA234 = 6.14929998525551E19
+The number of decays of U234 = 2.1515666556217225E19
+The number of decays of TH230 = 5.61988425321121E19
+The number of decays of RA226 = 6.0582610898284134E19
+The number of decays of RN222 = 4.5835567321993445E19
+The number of decays of PO218 = 3.853880239141616E19
+The number of decays of PB214 = 3.441306948503763E19
+The number of decays of BI214 = 3.178885477631199E19
+The number of decays of TI210 = 6.296003417156435E15
+The number of decays of PB210 = 2.8662643909344076E19
+The number of decays of PO214 = 2.997467264970873E19
+The number of decays of PB209 = 5.4172398013826196E11
+The number of decays of BI209 = 6995.007230897394
+The number of decays of BI210 = 2.766540144712223E19
+The number of decays of TI206 = 3.547482283276668E15
+The number of decays of PO210 = 2.6871318300115735E19
+
+
+verification4 for NucleiSamplePredictiveSim.java calculations:                       
+
+From the program we will get: 
+Radiated Power = 3.38770650811317E7 MeV/s
+Total Energy = 3.3877065081131696E20 MeV
+
+The final nuclei counts are: 
+At t = 4.2270000000000005E18, the number of remaining U238 = 1.2500000020997945E25
+At t = 4.2270000000000005E18, the number of remaining TH234 = 1.847267568755233E13
+At t = 4.2270000000000005E18, the number of remaining PA234 = 2.1398154755636713E11
+At t = 4.2270000000000005E18, the number of remaining U234 = 6.8684728124021645E19
+At t = 4.2270000000000005E18, the number of remaining TH230 = 2.1089576622738104E19
+At t = 4.2270000000000005E18, the number of remaining RA226 = 4.4763985340187437E17
+At t = 4.2270000000000005E18, the number of remaining RN222 = 2.9307379785658696E12
+At t = 4.2270000000000005E18, the number of remaining PO218 = 1.6490537788234067E9
+At t = 4.2270000000000005E18, the number of remaining PB214 = 1.4265539468194754E10
+At t = 4.2270000000000005E18, the number of remaining BI214 = 1.0592695351383425E10
+At t = 4.2270000000000005E18, the number of remaining TI210 = 145316.87592601386
+At t = 4.2270000000000005E18, the number of remaining PB210 = 6.211002851650621E15
+At t = 4.2270000000000005E18, the number of remaining PO214 = 1451.0896455986904
+At t = 4.2270000000000005E18, the number of remaining PB209 = 1963.4558995715122
+At t = 4.2270000000000005E18, the number of remaining BI209 = 1.0492860845866276E16
+At t = 4.2270000000000005E18, the number of remaining BI210 = 3.841723700647233E12
+At t = 4.2270000000000005E18, the number of remaining TI206 = 292785.7962000652
+At t = 4.2270000000000005E18, the number of remaining PO210 = 1.06051912867899E14
+
+The final decay counts are: 
+The number of decays of U238 = 6.149298137978854E19
+The number of decays of TH234 = 6.149298137978854E19
+The number of decays of PA234 = 6.14929998525551E19
+The number of decays of U234 = 1.6547678936249534E19
+The number of decays of TH230 = 5.465579547710083E19
+The number of decays of RA226 = 6.0582610898284134E19
+The number of decays of RN222 = 4.5835567321993445E19
+The number of decays of PO218 = 3.853880239141616E19
+The number of decays of PB214 = 3.441306948503763E19
+The number of decays of BI214 = 3.178885477631199E19
+The number of decays of TI210 = 6.296003417156435E15
+The number of decays of PB210 = 2.8662643909344076E19
+The number of decays of PO214 = 2.997467264970873E19
+The number of decays of PB209 = 5.4172398013826196E11
+The number of decays of BI209 = 75.23322583946404
+The number of decays of BI210 = 2.766540144712223E19
+The number of decays of TI206 = 3.547482283276668E15
+The number of decays of PO210 = 2.6871318300115735E19
 
 

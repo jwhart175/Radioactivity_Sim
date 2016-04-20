@@ -53,6 +53,8 @@ public class DecayChainRuleSet extends DecayRuleBranch {
 	 * protected static final double prsfDoubleFiveHundredThousand = 500000;
 	 * protected static final double prsfDouble3600 = 3600.0;
 	 * protected static final double prsfDoubleThreeHalves = 1.5;
+	 * protected static final double prsfDoubleNineTenths = 0.9;
+	 * protected static final double prsfDoubleElevenTenths = 1.1;
 	 * protected static final int prsfInt8760 = 8760;
 	 * protected static final int prsfIntEighty = 80;
 	 * protected static final int prsfInt365 = 365;
@@ -202,7 +204,13 @@ public class DecayChainRuleSet extends DecayRuleBranch {
     	pvAddDecayRuleBranch();
     	for(int x = prsfIntZero; x<prNumRule; x++){
     		if(x == prsfIntZero) {
-    			pvBranches[prsfIntZero].puAddRule(prStartNuclei[x],prEndNuclei[x],prType[x],prEnergy[x],prHalfLife[x],prProbability[x]);
+    			pvBranches[prsfIntZero].puAddRule(prStartNuclei[prsfIntZero],prEndNuclei[prsfIntZero],prType[prsfIntZero],prEnergy[prsfIntZero],prHalfLife[prsfIntZero],prProbability[prsfIntZero]);
+    			if(x+1<prProbability.length){
+    				if(prProbability[prsfIntZero]+prProbability[prsfIntOne]==prsfIntOne) {
+    					pvAddDecayRuleBranch();
+    					pvBranches[prsfIntOne].puAddRule(prStartNuclei[prsfIntOne],prEndNuclei[prsfIntOne],prType[prsfIntOne],prEnergy[prsfIntOne],prHalfLife[prsfIntOne],prProbability[prsfIntOne]);
+    				}
+    			}
     		} else {
     			for(int y = prsfIntZero; y<pvNumBranches; y++){
     				if(prStartNuclei[x].compareTo(pvBranches[y].puGetEndNucleus(pvBranches[y].puGetNumRules()-1))==0) {

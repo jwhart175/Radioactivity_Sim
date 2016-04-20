@@ -50,6 +50,8 @@ public class NucleiSamplePredictiveSim extends PRSFNUM {
 	 * protected static final double prsfDoubleFiveHundredThousand = 500000;
 	 * protected static final double prsfDouble3600 = 3600.0;
 	 * protected static final double prsfDoubleThreeHalves = 1.5;
+	 * protected static final double prsfDoubleNineTenths = 0.9;
+	 * protected static final double prsfDoubleElevenTenths = 1.1;
 	 * protected static final int prsfInt8760 = 8760;
 	 * protected static final int prsfIntEighty = 80;
 	 * protected static final int prsfInt365 = 365;
@@ -191,7 +193,7 @@ public class NucleiSamplePredictiveSim extends PRSFNUM {
         						if (j <= (n-prsfIntOne)) {
         							subproduct = subproduct * prsfDoubleLN2/branch.puGetHalfLife(j);
         						}
-        						subproduct = subproduct * branch.puGetProbability(prsfIntZero);
+        						subproduct = subproduct * branch.puGetProbability(j);
         					}
         					if (i==prsfIntZero) {
         						subsum2 = num*subsum*subproduct;
@@ -202,7 +204,7 @@ public class NucleiSamplePredictiveSim extends PRSFNUM {
         				startNumTime[w][n] = subsum2;
     				}
     				//Calculates the number of DecayEvents for n = 0 between pvStartTime and pvEndTime
-    				eventNum[n] = startNumTime[prsfIntZero][prsfIntZero]*(Math.exp(-pvStartTime*prsfDoubleLN2/branch.puGetHalfLife(n))-Math.exp(-pvEndTime*prsfDoubleLN2/branch.puGetHalfLife(n)));
+    				eventNum[n] = startNumTime[prsfIntZero][prsfIntZero]*(1-Math.exp(-(pvEndTime-pvStartTime)*prsfDoubleLN2/branch.puGetHalfLife(n)));
     				//Store the predicted events in a (DecayEventSet)
 					if(eventNum[n]>prsfIntZero){
     					DecayEventSet instance = new DecayEventSet(eventNum[n],false,pvStartTime,pvEndTime,branch.puGetStartNucleus(n),branch.puGetEndNucleus(n),branch.puGetHalfLife(n),branch.puGetEnergy(n),branch.puGetType(n));
@@ -211,9 +213,9 @@ public class NucleiSamplePredictiveSim extends PRSFNUM {
 
     			} else if (n>prsfIntZero) {
     				//Calculates DecayEvents for the child nuclei
-
+    				double newTime = prsfIntZero;
     				for (int w = prsfIntZero; w<pvResolution;w++) {
-    					double newTime = w*delta + pvStartTime;
+    					newTime = w*delta + pvStartTime;
     					for (int i = prsfIntZero; i <= n; i++){
     						subsum = prsfIntZero;
     						subproduct = prsfIntOne;
@@ -228,7 +230,7 @@ public class NucleiSamplePredictiveSim extends PRSFNUM {
     							if (j <= (n-prsfIntOne)) {
     								subproduct = subproduct * prsfDoubleLN2/branch.puGetHalfLife(j);
     							}
-    							subproduct = subproduct * branch.puGetProbability(prsfIntZero);
+    							subproduct = subproduct * branch.puGetProbability(j);
     						}
     						if (i==prsfIntZero) {
     							subsum2 = num*subsum*subproduct;
@@ -237,7 +239,8 @@ public class NucleiSamplePredictiveSim extends PRSFNUM {
     						}
     					}
     					startNumTime[w][n] = subsum2;
-       				}
+    				}
+
     				double subsum3 = prsfIntZero;
     				subsum2 = prsfIntZero;
         			for (int i = n-prsfIntOne; i >= prsfIntZero; i--){
@@ -245,9 +248,13 @@ public class NucleiSamplePredictiveSim extends PRSFNUM {
         				for (int j = prsfIntZero; j < pvResolution; j++){
         					subproduct = prsfIntOne;
         					for (int k = n; k >= i; k--){
-        						subproduct = subproduct * (Math.exp(-(pvStartTime+j*delta)*prsfDoubleLN2/branch.puGetHalfLife(k))-Math.exp(-(pvStartTime+(j+prsfDoubleOne)*delta)*prsfDoubleLN2/branch.puGetHalfLife(k)));
-        	        		}
-        					subsum3 = startNumTime[j][i]*subproduct*Math.pow((Math.exp(-(pvStartTime)*prsfDoubleLN2/branch.puGetHalfLife(n))-Math.exp(-(pvEndTime)*prsfDoubleLN2/branch.puGetHalfLife(n))),prsfDoubleThreeHalves)*pvResolution;
+        						if(k>i){
+        							subproduct = subproduct * (prsfIntOne-Math.exp(-(delta)/(prsfDoubleTwo*(n-k))*prsfDoubleLN2/branch.puGetHalfLife(k)));
+        						} else {
+        							subproduct = subproduct * (prsfIntOne-Math.exp(-(delta)*prsfDoubleLN2/branch.puGetHalfLife(k)));
+        						}
+        					}
+        					subsum3 = startNumTime[j][i]*subproduct*Math.pow((1-Math.exp(-(pvEndTime-pvStartTime)*prsfDoubleLN2/branch.puGetHalfLife(n))),2.5);
         					subsum += subsum3;
         					//Store the predicted events in a (DecayEventSet)
         					if(subsum3>prsfIntZero){
@@ -257,7 +264,33 @@ public class NucleiSamplePredictiveSim extends PRSFNUM {
         				}
         				subsum2 = subsum2 + subsum;
         			}
-        			eventNum[n] = subsum2;
+//       				double subsum4 = startNumTime[prsfIntZero][n]*(prsfIntOne-Math.exp(-(pvEndTime-pvStartTime)*prsfDoubleLN2/branch.puGetHalfLife(n)));
+//       				eventNum[n] = subsum2 + subsum4;
+//       				if(subsum4>prsfIntZero){
+//						DecayEventSet instance = new DecayEventSet(subsum4,true,(pvStartTime),(pvEndTime),branch.puGetStartNucleus(n),branch.puGetEndNucleus(n),branch.puGetHalfLife(n),branch.puGetEnergy(n),branch.puGetType(n));
+//						pvAddDecayEventSet(instance);
+//       				}
+
+//        			double subsum3 = prsfIntZero;
+//    				subsum2 = prsfIntZero;
+//        			for (int i = n-prsfIntOne; i >= prsfIntZero; i--){
+//        				subsum = prsfIntZero;
+//        				for (int j = prsfIntZero; j < pvResolution; j++){
+//        					subproduct = prsfIntOne;
+//        					for (int k = n; k >= i; k--){
+//        						subproduct = subproduct * (Math.exp(-(pvStartTime+j*delta)*prsfDoubleLN2/branch.puGetHalfLife(k))-Math.exp(-(pvStartTime+(j+prsfDoubleOne)*delta)*prsfDoubleLN2/branch.puGetHalfLife(k)));
+//        	        		}
+//        					subsum3 = startNumTime[j][i]*subproduct*Math.pow((Math.exp(-(pvStartTime)*prsfDoubleLN2/branch.puGetHalfLife(n))-Math.exp(-(pvEndTime)*prsfDoubleLN2/branch.puGetHalfLife(n))),prsfDoubleThreeHalves)*pvResolution;
+//        					subsum += subsum3;
+//        					//Store the predicted events in a (DecayEventSet)
+//        					if(subsum3>prsfIntZero){
+//        						DecayEventSet instance = new DecayEventSet(subsum3,true,(pvStartTime+j*delta),(pvStartTime+(j+prsfIntOne)*delta),branch.puGetStartNucleus(n),branch.puGetEndNucleus(n),branch.puGetHalfLife(n),branch.puGetEnergy(n),branch.puGetType(n));
+//        						pvAddDecayEventSet(instance);
+//        					}
+//        				}
+//        				subsum2 = subsum2 + subsum;
+//        			}
+//        			eventNum[n] = subsum2;
     			}
 
     			//Calculates final quantities for all particles
@@ -275,7 +308,7 @@ public class NucleiSamplePredictiveSim extends PRSFNUM {
 						if (j <= (n-prsfIntOne)) {
 							subproduct = subproduct * prsfDoubleLN2/branch.puGetHalfLife(j);
 						}
-						subproduct = subproduct * branch.puGetProbability(prsfIntZero);
+						subproduct = subproduct * branch.puGetProbability(j);
 					}
 					if (i==prsfIntZero) {
 						subsum2 = num*subsum*subproduct;
