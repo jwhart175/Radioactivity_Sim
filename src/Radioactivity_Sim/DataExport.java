@@ -150,7 +150,7 @@ public class DataExport extends PRSFNUM {
     	for(int x = 1; x <= 1000 ;x = x*10) {
     		sum6 = 0;
     		data6.append("For resolution set to " + x + " we get:" + System.getProperty("line.separator"));
-    		test6 = new NucleiSamplePredictiveSim(num,"/home/user/git/Radioactivity_Sim/input/RA224test",startTime,endTime,resolution);
+    		test6 = new NucleiSamplePredictiveSim(num,"/home/user/git/Radioactivity_Sim/input/RA224test",startTime,endTime,x);
         	test6.puAddSpecies(17.58, "/home/user/git/Radioactivity_Sim/input/RN220test", startTime, endTime);
     		for(int y = 0; y < x; y++) {
     			data6.append("Energy (t = "+(startTime+(y+1)*(endTime-startTime)/x)+") = " + test6.puGetEnergySumOverTimeRange(startTime+y*(endTime-startTime)/x, startTime+(y+1)*(endTime-startTime)/x)+ " MeV" + System.getProperty("line.separator"));
@@ -161,7 +161,7 @@ public class DataExport extends PRSFNUM {
     	}
     	scrivener.puAppendStringToFile(fileNum-1, data6.toString());
     	scrivener.puCloseFile(fileNum-1);
-//
+
     	//Verify if the calculations agree with theory:
     	double numU238 = Math.pow(10, 26);
     	double numTH234 = 1.4776*Math.pow(10, 14);
