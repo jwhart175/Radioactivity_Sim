@@ -63,6 +63,7 @@ public class DecayChainRuleSet extends DecayRuleBranch {
 	 * protected static final int prsfIntZero = 0;
 	 * protected static final int prsfIntOne = 0;
 	 * protected static final int prsfIntTwo = 2;
+	 * protected static final int prsfIntThree = 3;
 	 * protected static final int[] prsfDetailedTest = ...
 	 * protected String[] prStartNuclei; //The starting nucleus of each rule
 	 * protected String[] prEndNuclei; //The ending nucleus of each rule
