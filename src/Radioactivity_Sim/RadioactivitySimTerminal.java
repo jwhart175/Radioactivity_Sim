@@ -98,11 +98,11 @@ public class RadioactivitySimTerminal extends JFrame {
     	if(commandString.contains("help")){
     		currentText = currentText + System.getProperty("line.separator");
     		currentText = currentText + "The program commands are: " + System.getProperty("line.separator");
-    		currentText = currentText + "verification1 <file>  ->  This command runs the verification1 test script and outputs it to <file>." + System.getProperty("line.separator");
-    		currentText = currentText + "verification2 <file>  ->  This command runs the verification2 test script and outputs it to <file>." + System.getProperty("line.separator");
-    		currentText = currentText + "verification3 <file>  ->  This command runs the verification3 test script and outputs it to <file>." + System.getProperty("line.separator");
-    		currentText = currentText + "verification4 <file>  ->  This command runs the verification4 test script and outputs it to <file>." + System.getProperty("line.separator");
-    		currentText = currentText + "clear                 ->  This command clears the console." + System.getProperty("line.separator");
+    		currentText = currentText + "verification1 <outfile>  ->  This command runs the verification1 test script and outputs it to <file>." + System.getProperty("line.separator");
+    		currentText = currentText + "verification2 <outfile>  ->  This command runs the verification2 test script and outputs it to <file>." + System.getProperty("line.separator");
+    		currentText = currentText + "verification3 <outfile>  ->  This command runs the verification3 test script and outputs it to <file>." + System.getProperty("line.separator");
+    		currentText = currentText + "verification4 <outfile>  ->  This command runs the verification4 test script and outputs it to <file>." + System.getProperty("line.separator");
+    		currentText = currentText + "clear                    ->  This command clears the console." + System.getProperty("line.separator");
     		prTextPane.setText(currentText);
     	}
     	if(commandString.contains("verification1")){
