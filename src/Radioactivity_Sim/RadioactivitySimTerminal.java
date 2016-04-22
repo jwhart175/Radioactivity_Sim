@@ -52,7 +52,8 @@ public class RadioactivitySimTerminal extends JFrame {
     private NucleiSamplePredictiveSim pvPredictiveSample = new NucleiSamplePredictiveSim();
     private NucleiSampleBruteForceSim pvBruteForceSample = new NucleiSampleBruteForceSim();
     private String pvInputDir = "/home/user/git/Radioactivity_Sim/input/";
-
+    private String[] pvCommandLog;
+    private int pvCommandIndex = 0;
 
     public RadioactivitySimTerminal() {
         super("Radioactivity_Sim Terminal");
@@ -79,20 +80,34 @@ public class RadioactivitySimTerminal extends JFrame {
         public void keyTyped(KeyEvent e){
         	if(e.getKeyChar() == KeyEvent.VK_ENTER) {
         		//check for and execute commands
-        		prEnterCommand();
+        		pvEnterCommand();
         	}
         }
         public void keyPressed(KeyEvent e){
-        	//no action
+        	//scroll back through old commands when up or down keys are pressed
+        	//up = key code 38
+        	//down = key code 40
+        	if(e.getKeyCode()==38){
+        		if(pvCommandIndex>0){
+        			pvCommandIndex--;
+        		}
+        		pvTextField.setText(pvCommandLog[pvCommandIndex]);
+        	} else if(e.getKeyCode()==40){
+        		if(pvCommandIndex<(pvCommandLog.length-1)){
+        			pvCommandIndex++;
+        		}
+        		pvTextField.setText(pvCommandLog[pvCommandIndex]);
+        	}
         }
         public void keyReleased(KeyEvent e){
         	//no action
         }
     }
 
-    private void prEnterCommand(){
+    private void pvEnterCommand(){
     	//read text in from pvTextField
     	String commandString = pvTextField.getText();
+    	pvLogCommand(commandString);
     	pvTextField.setText("");
     	StringBuilder currentText = new StringBuilder();
     	currentText.append(pvTextPane.getText() + System.getProperty("line.separator"));
@@ -102,192 +117,368 @@ public class RadioactivitySimTerminal extends JFrame {
     	if(commandString.contains("help")){
     		currentText.append(System.getProperty("line.separator"));
     		currentText.append("The program commands are: " + System.getProperty("line.separator"));
-    		currentText.append("clear                     ->  This command clears the console." + System.getProperty("line.separator"));
-    		currentText.append("get currentPSample        ->  This command returns some statistics about the current NucleiSamplePredictiveSim" + System.getProperty("line.separator"));
-    		currentText.append("get currentBFSample       ->  This command returns some statistics about the current NucleiSampleBruteForceSim" + System.getProperty("line.separator"));
-    		currentText.append("get inputDir              ->  This command returns the current dirctory from which the program is reading input files, and the contents thereof." + System.getProperty("line.separator"));
-    		currentText.append("set inputDir <Directory>  ->  This command sets the directory from which the program will read future input files." + System.getProperty("line.separator"));
-    		currentText.append("verification1 <outfile>   ->  This command runs the verification1 test script and outputs it to <file>." + System.getProperty("line.separator"));
-    		currentText.append("verification2 <outfile>   ->  This command runs the verification2 test script and outputs it to <file>." + System.getProperty("line.separator"));
-    		currentText.append("verification3 <outfile>   ->  This command runs the verification3 test script and outputs it to <file>." + System.getProperty("line.separator"));
-    		currentText.append("verification4 <outfile>   ->  This command runs the verification4 test script and outputs it to <file>." + System.getProperty("line.separator"));
+    		currentText.append(">: clear" + System.getProperty("line.separator"));
+    		currentText.append("This command clears the console." + System.getProperty("line.separator"));
+    		currentText.append(System.getProperty("line.separator"));
+    		currentText.append(">: add BFSample <numberOfNuclei> <inputFileName>" + System.getProperty("line.separator"));
+    		currentText.append("This command adds nuclei to the brute force calculated nuclei sample, overwriting the current one." + System.getProperty("line.separator"));
+    		currentText.append(System.getProperty("line.separator"));
+    		currentText.append(">: add PSample <numberOfNuclei> <inputFileName>" + System.getProperty("line.separator"));
+    		currentText.append("This command adds nuclei to the predictive calculated nuclei sample, overwriting the current one." + System.getProperty("line.separator"));
+    		currentText.append(System.getProperty("line.separator"));
+    		currentText.append(">: get PSample" + System.getProperty("line.separator"));
+    		currentText.append("This command returns some statistics about the current NucleiSamplePredictiveSim" + System.getProperty("line.separator"));
+    		currentText.append(System.getProperty("line.separator"));
+    		currentText.append(">: get PSample energy all" + System.getProperty("line.separator"));
+    		currentText.append("This command returns the sum of all event energies contained within the NucleiSamplePredictiveSim" + System.getProperty("line.separator"));
+    		currentText.append(System.getProperty("line.separator"));
+    		currentText.append(">: get PSample energy <startTime> <endTime>" + System.getProperty("line.separator"));
+    		currentText.append("This command returns the sum of event energies contained within the NucleiSamplePredictiveSim which occur between <startTime> and <endTime>" + System.getProperty("line.separator"));
+    		currentText.append(System.getProperty("line.separator"));
+    		currentText.append(">: get BFSample" + System.getProperty("line.separator"));
+    		currentText.append("This command returns some statistics about the current NucleiSampleBruteForceSim" + System.getProperty("line.separator"));
+    		currentText.append(System.getProperty("line.separator"));
+    		currentText.append(">: get inputDir" + System.getProperty("line.separator"));
+    		currentText.append("This command returns the current dirctory from which the program is reading input files, and the contents thereof." + System.getProperty("line.separator"));
+    		currentText.append(System.getProperty("line.separator"));
+    		currentText.append(">: new NucleiSampleBruteForceSim <numberOfNuclei> <inputFileName> <startTime> <endTime>" + System.getProperty("line.separator"));
+    		currentText.append("This command creates a new brute force calculated nuclei sample, overwriting the current one." + System.getProperty("line.separator"));
+    		currentText.append(System.getProperty("line.separator"));
+    		currentText.append(">: new NucleiSamplePredictiveSim <numberOfNuclei> <inputFileName> <startTime> <endTime> <resolution>" + System.getProperty("line.separator"));
+    		currentText.append("This command creates a new predictive calculated nuclei sample, overwriting the current one." + System.getProperty("line.separator"));
+    		currentText.append(System.getProperty("line.separator"));
+    		currentText.append(">: set inputDir <Directory>" + System.getProperty("line.separator"));
+    		currentText.append("This command sets the directory from which the program will read future input files." + System.getProperty("line.separator"));
+    		currentText.append(System.getProperty("line.separator"));
+    		currentText.append(">: verification1 <outfile>" + System.getProperty("line.separator"));
+    		currentText.append("This command runs the verification1 test script and outputs it to <file>." + System.getProperty("line.separator"));
+    		currentText.append(System.getProperty("line.separator"));
+    		currentText.append(">: verification2 <outfile>" + System.getProperty("line.separator"));
+    		currentText.append("This command runs the verification2 test script and outputs it to <file>." + System.getProperty("line.separator"));
+    		currentText.append(System.getProperty("line.separator"));
+    		currentText.append(">: verification3 <outfile>" + System.getProperty("line.separator"));
+    		currentText.append("This command runs the verification3 test script and outputs it to <file>." + System.getProperty("line.separator"));
+    		currentText.append(System.getProperty("line.separator"));
+    		currentText.append(">: verification4 <outfile>" + System.getProperty("line.separator"));
+    		currentText.append("This command runs the verification4 test script and outputs it to <file>." + System.getProperty("line.separator"));
     		pvTextPane.setText(currentText.toString());
     	}
-
-    	if(commandString.contains("add ")){
-    		String[] snippets = commandString.split(" ");
-    		//snippets[0] = "new"
-    		try {
-    			if(snippets.length==4){
-    				if(snippets[1].compareTo("NucleiSamplePredictiveSim")==0){
-
-
-    					pvTextPane.setText(currentText.toString());
-    				}
-    				if(snippets[1].compareTo("NucleiSampleBruteForceSim")==0){
-
-
-    					pvTextPane.setText(currentText.toString());
-    				}
-    			}
-    		} catch (Exception e) {
-    			currentText.append("Error! add function has failed! Try typing help to find the correct format!" + System.getProperty("line.separator"));
-    			pvTextPane.setText(currentText.toString());
-    		}
-
-    	}
-
-
-    	if(commandString.contains("get ")){
-    		String[] snippets = commandString.split(" ");
-    		//snippets[0] = "get"
-    		try {
-    			if(snippets.length==2){
-    				if(snippets[1].compareTo("inputDir")==0){
-    					currentText.append(System.getProperty("line.separator"));
-    					currentText.append("The current input file directory is = " + pvInputDir + System.getProperty("line.separator"));
-    					currentText.append("It contains the following files: " + System.getProperty("line.separator"));
-    					File input = new File(pvInputDir);
-    					File[] Files = input.listFiles();
-    					for( int x = 0; x < Files.length; x++){
+		String[] splits = commandString.split(" ");
+    	if(splits[0].length()>=3) {
+    		if(splits[0].compareTo("add")==0){
+    			try {
+    				if(splits.length==4){
+    					if(splits[1].compareTo("PSample")==0){
     						try {
-    							currentText.append(Files[x].getCanonicalPath() + System.getProperty("line.separator"));
-    						} catch (IOException e) {
-    							currentText.append("Error! The program failed to print the file name!"+System.getProperty("line.separator"));
+	    						Double num = Double.valueOf(splits[2]);
+	    						String file = splits[3];
+	    						if(num > 0){
+									if(file.contains(pvInputDir)){
+										pvPredictiveSample.puAddSpecies(num,file);
+										currentText.append("Species added to NucleiSamplePredictiveSim!" + System.getProperty("line.separator"));
+									} else {
+										file = pvInputDir+file;
+										pvPredictiveSample.puAddSpecies(num,file);
+										currentText.append("Species added to NucleiSamplePredictiveSim!" + System.getProperty("line.separator"));
+									}
+	    						} else {
+	    							currentText.append("add NucleisamplePredictiveSim Failed!  The <numberOfNuclei> must be greater than zero!" + System.getProperty("line.separator"));
+	    							currentText.append("Correct Syntax = add PSample <numberOfNuclei> <inputFileName>" + System.getProperty("line.separator"));
+	    						}
+    						} catch (Exception e){
+    							currentText.append(e.getClass() + " Occurred!" + System.getProperty("line.separator"));
+								currentText.append(e.getCause() + System.getProperty("line.separator"));
     						}
+    						pvTextPane.setText(currentText.toString());
     					}
-    					pvTextPane.setText(currentText.toString());
+    					if(splits[1].compareTo("BFSample")==0){
+    						try {
+	    						long num = Long.valueOf(splits[2]);
+	    						String file = splits[3];
+	    						if(num > 0){
+									if(file.contains(pvInputDir)){
+										pvBruteForceSample.puAddSpecies(num,file);
+										currentText.append("NucleiSampleBruteForceSim created!" + System.getProperty("line.separator"));
+									} else {
+										file = pvInputDir+file;
+										pvBruteForceSample.puAddSpecies(num,file);
+										currentText.append("NucleiSampleBruteForceSim created!" + System.getProperty("line.separator"));
+									}
+	    						} else {
+	    							currentText.append("add NucleisampleBruteForceSim Failed!  The <numberOfNuclei> must be greater than zero!" + System.getProperty("line.separator"));
+	    							currentText.append("Correct Syntax = add BFSample <numberOfNuclei> <inputFileName>" + System.getProperty("line.separator"));
+	    						}
+    						} catch (Exception e) {
+    							currentText.append(e.getClass() + " Occurred!" + System.getProperty("line.separator"));
+								currentText.append(e.getCause() + System.getProperty("line.separator"));
+    						}
+    						pvTextPane.setText(currentText.toString());
+    					}
     				}
-    				if(snippets[1].compareTo("currentPSample")==0){
-    					currentText.append(System.getProperty("line.separator"));
-    					currentText.append("The current NucleiSamplePredictiveSim has the following properties: " + System.getProperty("line.separator"));
-    					currentText.append("Sample start time                                  = " + pvPredictiveSample.puGetStartTime() + System.getProperty("line.separator"));
-    					currentText.append("Sample end time                                    = " + pvPredictiveSample.puGetEndTime() + System.getProperty("line.separator"));
-    					currentText.append("Sample resolution                                  = " + pvPredictiveSample.puGetResolution() + System.getProperty("line.separator"));
-    					currentText.append("Sample contains the following number of event sets = " + pvPredictiveSample.puGetNumDecayEventSets() + System.getProperty("line.separator"));
-    					pvTextPane.setText(currentText.toString());
-    				}
-    				if(snippets[1].compareTo("currentBFSample")==0){
-    					currentText.append(System.getProperty("line.separator"));
-    					currentText.append("The current NucleiSampleBruteForceSim has the following properties: " + System.getProperty("line.separator"));
-    					currentText.append("Sample start time                                  = " + pvBruteForceSample.puGetStartTime() + System.getProperty("line.separator"));
-    					currentText.append("Sample end time                                    = " + pvBruteForceSample.puGetEndTime() + System.getProperty("line.separator"));
-    					currentText.append("Sample contains the following number of events     = " + pvBruteForceSample.puGetNumDecayEvents() + System.getProperty("line.separator"));
-    					pvTextPane.setText(currentText.toString());
-    				}
+    			} catch (Exception e) {
+    				currentText.append("Error! add function has failed! Try typing help to find the correct format!" + System.getProperty("line.separator"));
+    				pvTextPane.setText(currentText.toString());
     			}
-    		} catch (Exception e) {
-    			currentText.append("Error! get function has failed! Try typing help to find the correct format!" + System.getProperty("line.separator"));
-    			pvTextPane.setText(currentText.toString());
+
     		}
-
-    	}
-
-    	if(commandString.contains("new ")){
-    		String[] snippets = commandString.split(" ");
-    		//snippets[0] = "new"
-    		try {
-    			if(snippets.length==4){
-    				if(snippets[1].compareTo("NucleiSamplePredictiveSim")==0){
-
-
-    					pvTextPane.setText(currentText.toString());
-    				}
-    				if(snippets[1].compareTo("NucleiSampleBruteForceSim")==0){
-
-
-    					pvTextPane.setText(currentText.toString());
-    				}
-    			}
-    		} catch (Exception e) {
-    			currentText.append("Error! new function has failed! Try typing help to find the correct format!" + System.getProperty("line.separator"));
-    			pvTextPane.setText(currentText.toString());
-    		}
-
-    	}
-
-
-    	if(commandString.contains("set ")){
-    		String[] snippets = commandString.split(" ");
-    		//snippets[0] = "set"
-    		try {
-    			if(snippets.length==3){
-    				if(snippets[1].compareTo("inputDir")==0){
-    					pvInputDir = snippets[2];
-    					File inputDir = new File(pvInputDir);
-    					if(inputDir.isDirectory()){
-    						File[] Files = inputDir.listFiles();
+    		if(splits[0].compareTo("get")==0){
+    			try {
+    				if(splits.length==2){
+    					if(splits[1].compareTo("inputDir")==0){
     						currentText.append(System.getProperty("line.separator"));
-    						currentText.append("The program has detected the following files in that directory: " + System.getProperty("line.separator"));
-    						for(int x = 0; x<Files.length ;x++){
+    						currentText.append("The current input file directory is = " + pvInputDir + System.getProperty("line.separator"));
+    						currentText.append("It contains the following files: " + System.getProperty("line.separator"));
+    						File input = new File(pvInputDir);
+    						File[] Files = input.listFiles();
+    						for( int x = 0; x < Files.length; x++){
     							try {
     								currentText.append(Files[x].getCanonicalPath() + System.getProperty("line.separator"));
     							} catch (IOException e) {
-    								currentText.append("An error occurred while reading the path name!" + System.getProperty("line.separator"));
+    								currentText.append("Error! The program failed to print the file name!"+System.getProperty("line.separator"));
     							}
     						}
     						pvTextPane.setText(currentText.toString());
-    					} else {
-    						currentText.append("Error! The supplied path = " + pvInputDir + " is not a Directory!" + System.getProperty("line.separator"));
+    					}
+    					if(splits[1].compareTo("PSample")==0){
+    						currentText.append(System.getProperty("line.separator"));
+    						currentText.append("The current NucleiSamplePredictiveSim has the following properties: " + System.getProperty("line.separator"));
+    						currentText.append("Sample start time                                  = " + pvPredictiveSample.puGetStartTime() + System.getProperty("line.separator"));
+    						currentText.append("Sample end time                                    = " + pvPredictiveSample.puGetEndTime() + System.getProperty("line.separator"));
+    						currentText.append("Sample resolution                                  = " + pvPredictiveSample.puGetResolution() + System.getProperty("line.separator"));
+    						currentText.append("Sample contains the following number of event sets = " + pvPredictiveSample.puGetNumDecayEventSets() + System.getProperty("line.separator"));
+    						pvTextPane.setText(currentText.toString());
+    					}
+    					if(splits[1].compareTo("BFSample")==0){
+    						currentText.append(System.getProperty("line.separator"));
+    						currentText.append("The current NucleiSampleBruteForceSim has the following properties: " + System.getProperty("line.separator"));
+    						currentText.append("Sample start time                                  = " + pvBruteForceSample.puGetStartTime() + System.getProperty("line.separator"));
+    						currentText.append("Sample end time                                    = " + pvBruteForceSample.puGetEndTime() + System.getProperty("line.separator"));
+    						currentText.append("Sample contains the following number of events     = " + pvBruteForceSample.puGetNumDecayEvents() + System.getProperty("line.separator"));
     						pvTextPane.setText(currentText.toString());
     					}
     				}
+    				if(splits.length==4){
+    					if(splits[1].compareTo("PSample")==0){
+    						if(splits[2].compareTo("energy")==0){
+    							if(splits[3].compareTo("all")==0){
+    								currentText.append(System.getProperty("line.separator"));
+    	    						currentText.append("PSample Total Energy = " + pvPredictiveSample.puGetEnergySumOverTimeRange(pvPredictiveSample.puGetStartTime(),pvPredictiveSample.puGetEndTime()) + " [MeV]" + System.getProperty("line.separator"));
+    	    						currentText.append(System.getProperty("line.separator"));
+    							} else {
+    								currentText.append("Command unknown!  Please type help for a list of commands." + System.getProperty("line.separator"));
+    							}
+    						}
+    						pvTextPane.setText(currentText.toString());
+    					}
+    				}
+    				if(splits.length==5){
+    					if(splits[1].compareTo("PSample")==0){
+    						if(splits[2].compareTo("energy")==0){
+    							try{
+	    							double start = Double.valueOf(splits[3]);
+	    							double end = Double.valueOf(splits[4]);
+	    							if(start >= 0){
+	    								if(end >= 0 & end > start){
+	    									currentText.append(System.getProperty("line.separator"));
+	    									currentText.append("PSample Energy = " + pvPredictiveSample.puGetEnergySumOverTimeRange(start,end) + " [MeV], between t_start = " + start + " and t_end = " + end + System.getProperty("line.separator"));
+	    									currentText.append(System.getProperty("line.separator"));
+	    								} else {
+	        								currentText.append("get PSample energy failed! The <endTime> must be greater than or equal to zero and greater than the <startTime>." + System.getProperty("line.separator"));
+	        								currentText.append("Correct Syntax = get PSample energy <startTime> <endTime>" + System.getProperty("line.separator"));
+	        							}
+	    							} else {
+	    								currentText.append("get PSample energy failed! The <startTime> must be greater than or equal to zero." + System.getProperty("line.separator"));
+	    								currentText.append("Correct Syntax = get PSample energy <startTime> <endTime>" + System.getProperty("line.separator"));
+	    							}
+    							} catch (Exception e) {
+    								currentText.append(e.getClass() + " Occurred!" + System.getProperty("line.separator"));
+    								currentText.append(e.getCause() + System.getProperty("line.separator"));
+    							}
+    						}
+    						pvTextPane.setText(currentText.toString());
+    					}
+    				}
+    			} catch (Exception e) {
+    				currentText.append("Error! get function has failed! Try typing help to find the correct format!" + System.getProperty("line.separator"));
+    				pvTextPane.setText(currentText.toString());
     			}
-    		} catch (Exception e) {
-    			currentText.append("Error! set function has failed! Try typing help to find the correct format!" + System.getProperty("line.separator"));
-    			pvTextPane.setText(currentText.toString());
-    		}
 
-    	}
+    		}
+    		if(splits[0].compareTo("new")==0){
+    			try {
+    				if(splits.length==7){
+    					if(splits[1].compareTo("PSample")==0){
+    						try {
+	    						Double num = Double.valueOf(splits[2]);
+	    						String file = splits[3];
+	    						Double start = Double.valueOf(splits[4]);
+	    						Double end = Double.valueOf(splits[5]);
+	    						int resolution = Integer.valueOf(splits[6]);
+	    						if(num > 0){
+	    							if(start >= 0){
+	    								if(end >= 0 & end > start){
+	    									if(resolution > 0){
+		    									if(file.contains(pvInputDir)){
+		    										pvPredictiveSample = new NucleiSamplePredictiveSim(num,file,start,end,resolution);
+		    										currentText.append("NucleiSamplePredictiveSim created!" + System.getProperty("line.separator"));
+		    									} else {
+		    										file = pvInputDir+file;
+		    										pvPredictiveSample = new NucleiSamplePredictiveSim(num,file,start,end,resolution);
+		    										currentText.append("NucleiSamplePredictiveSim created!" + System.getProperty("line.separator"));
+		    									}
+	    									} else {
+	    										currentText.append("new PSample Failed!  The <resolution> must be greater than zero!" + System.getProperty("line.separator"));
+	                							currentText.append("Correct Syntax = new PSample <numberOfNuclei> <inputFileName> <startTime> <endTime> <resolution>" + System.getProperty("line.separator"));
+	            							}
+	    								} else {
+	    									currentText.append("new PSample Failed!  The <endTime> must be greater than or equal to zero and greater than <startTime>!" + System.getProperty("line.separator"));
+	            							currentText.append("Correct Syntax = new PSample <numberOfNuclei> <inputFileName> <startTime> <endTime> <resolution>" + System.getProperty("line.separator"));
+	        							}
+	    							} else {
+	    								currentText.append("new PSample Failed!  The <startTime> must be greater than or equal to zero!" + System.getProperty("line.separator"));
+	        							currentText.append("Correct Syntax = new PSample <numberOfNuclei> <inputFileName> <startTime> <endTime> <resolution>" + System.getProperty("line.separator"));
+	    							}
+	    						} else {
+	    							currentText.append("new PSample Failed!  The <numberOfNuclei> must be greater than zero!" + System.getProperty("line.separator"));
+	    							currentText.append("Correct Syntax = new PSample <numberOfNuclei> <inputFileName> <startTime> <endTime> <resolution>" + System.getProperty("line.separator"));
+	    						}
+    						} catch (Exception e) {
+    							currentText.append(e.getClass() + " Occurred!" + System.getProperty("line.separator"));
+								currentText.append(e.getCause() + System.getProperty("line.separator"));
+    						}
+    						pvTextPane.setText(currentText.toString());
+    					}
+    				}
+    				if(splits.length==6){
+    					if(splits[1].compareTo("BFSample")==0){
+    						try {
+	    						long num = Long.valueOf(splits[2]);
+	    						String file = splits[3];
+	    						double start = Double.valueOf(splits[4]);
+	    						double end = Double.valueOf(splits[5]);
+	    						if(num > 0){
+	    							if(start >= 0){
+	    								if(end >= 0 & end > start){
+	    									if(file.contains(pvInputDir)){
+	    										pvBruteForceSample = new NucleiSampleBruteForceSim(num,file,start,end);
+	    										currentText.append("NucleiSampleBruteForceSim created!" + System.getProperty("line.separator"));
+	    									} else {
+	    										file = pvInputDir+file;
+	    										pvBruteForceSample = new NucleiSampleBruteForceSim(num,file,start,end);
+	    										currentText.append("NucleiSampleBruteForceSim created!" + System.getProperty("line.separator"));
+	    									}
+	    								} else {
+	    									currentText.append("new BFSample Failed!  The <endTime> must be greater than or equal to zero and greater than <startTime>!" + System.getProperty("line.separator"));
+	            							currentText.append("Correct Syntax = new BFSample <numberOfNuclei> <inputFileName> <startTime> <endTime>" + System.getProperty("line.separator"));
+	        							}
+	    							} else {
+	    								currentText.append("new BFSample Failed!  The <startTime> must be greater than or equal to zero!" + System.getProperty("line.separator"));
+	        							currentText.append("Correct Syntax = new BFSample <numberOfNuclei> <inputFileName> <startTime> <endTime>" + System.getProperty("line.separator"));
+	    							}
+	    						} else {
+	    							currentText.append("new BFSample Failed!  The <numberOfNuclei> must be greater than zero!" + System.getProperty("line.separator"));
+	    							currentText.append("Correct Syntax = new BFSample <numberOfNuclei> <inputFileName> <startTime> <endTime>" + System.getProperty("line.separator"));
+	    						}
+    						} catch (Exception e) {
+    							currentText.append(e.getClass() + " Occurred!" + System.getProperty("line.separator"));
+								currentText.append(e.getCause() + System.getProperty("line.separator"));
+    						}
+    						pvTextPane.setText(currentText.toString());
+    					}
+    				}
+    			} catch (Exception e) {
+    				currentText.append("Error! new function has failed! Try typing help to find the correct format!" + System.getProperty("line.separator"));
+    				pvTextPane.setText(currentText.toString());
+    			}
 
-    	if(commandString.contains("verification1 ")){
-    		String[] snippets = commandString.split(" ");
-    		String file = snippets[snippets.length-1];
-    		file = file.substring(0,file.length());
-    		try{
-    			prVerification1(file);
-    		} catch(Exception e) {
-    			currentText.append(System.getProperty("line.separator") + e.getMessage() + System.getProperty("line.separator") + "Error input file: " + file + " could not be read!" + System.getProperty("line.separator") + ">:");
-    			pvTextPane.setText(currentText.toString());
     		}
+	    	if(splits[0].compareTo("set")==0){
+	    		try {
+	    			if(splits.length==3){
+	    				if(splits[1].compareTo("inputDir")==0){
+	    					try {
+		    					pvInputDir = splits[2];
+		    					File inputDir = new File(pvInputDir);
+		    					if(inputDir.isDirectory()){
+		    						File[] Files = inputDir.listFiles();
+		    						currentText.append(System.getProperty("line.separator"));
+		    						currentText.append("The program has detected the following files in that directory: " + System.getProperty("line.separator"));
+		    						for(int x = 0; x<Files.length ;x++){
+		    							try {
+		    								currentText.append(Files[x].getCanonicalPath() + System.getProperty("line.separator"));
+		    							} catch (IOException e) {
+		    								currentText.append("An error occurred while reading the path name!" + System.getProperty("line.separator"));
+		    							}
+		    						}
+		    					} else {
+		    						currentText.append("Error! The supplied path = " + pvInputDir + " is not a Directory!" + System.getProperty("line.separator"));
+		    					}
+	    					} catch (Exception e) {
+	    						currentText.append(e.getClass() + " Occurred!" + System.getProperty("line.separator"));
+								currentText.append(e.getCause() + System.getProperty("line.separator"));
+	    					}
+	    					pvTextPane.setText(currentText.toString());
+	    				}
+	    			}
+	    		} catch (Exception e) {
+	    			currentText.append("Error! set function has failed! Try typing help to find the correct format!" + System.getProperty("line.separator"));
+	    			pvTextPane.setText(currentText.toString());
+	    		}
+
+	    	}
     	}
-    	if(commandString.contains("verification2 ")){
-    		String[] snippets = commandString.split(" ");
-    		String file = snippets[snippets.length-1];
-    		file = file.substring(0,file.length());
-    		try{
-    			prVerification2(file);
-    		} catch(Exception e) {
-    			currentText.append(System.getProperty("line.separator") + e.getMessage() + System.getProperty("line.separator") + "Error input file: " + file + " could not be read!" + System.getProperty("line.separator") + ">:");
-    			pvTextPane.setText(currentText.toString());
-    		}
+    	if(splits[0].length()>=13){
+	    	if(splits[0].compareTo("verification1")==0){
+	    		String file = splits[splits.length-1];
+	    		file = file.substring(0,file.length());
+	    		try{
+	    			pvVerification1(file);
+	    		} catch(Exception e) {
+	    			currentText.append(e.getClass() + " Occurred!" + System.getProperty("line.separator"));
+					currentText.append(e.getCause() + System.getProperty("line.separator"));
+	    			pvTextPane.setText(currentText.toString());
+	    		}
+	    	}
+	    	if(splits[0].compareTo("verification2")==0){
+	    		String file = splits[splits.length-1];
+	    		file = file.substring(0,file.length());
+	    		try{
+	    			pvVerification2(file);
+	    		} catch(Exception e) {
+	    			currentText.append(e.getClass() + " Occurred!" + System.getProperty("line.separator"));
+					currentText.append(e.getCause() + System.getProperty("line.separator"));
+	    			pvTextPane.setText(currentText.toString());
+	    		}
+	    	}
+	    	if(splits[0].compareTo("verification3")==0){
+	    		String file = splits[splits.length-1];
+	    		file = file.substring(0,file.length());
+	    		try{
+	    			pvVerification3(file);
+	    		} catch(Exception e) {
+	    			currentText.append(e.getClass() + " Occurred!" + System.getProperty("line.separator"));
+					currentText.append(e.getCause() + System.getProperty("line.separator"));
+	    			pvTextPane.setText(currentText.toString());
+	    		}
+	    	}
+	    	if(splits[0].compareTo("verification4 ")==0){
+	    		String file = splits[splits.length-1];
+	    		file = file.substring(0,file.length());
+	    		try{
+	    			pvVerification4(file);
+	    		} catch(Exception e) {
+	    			currentText.append(e.getClass() + " Occurred!" + System.getProperty("line.separator"));
+					currentText.append(e.getCause() + System.getProperty("line.separator"));
+	    			pvTextPane.setText(currentText.toString());
+	    		}
+	    	}
     	}
-    	if(commandString.contains("verification3 ")){
-    		String[] snippets = commandString.split(" ");
-    		String file = snippets[snippets.length-1];
-    		file = file.substring(0,file.length());
-    		try{
-    			prVerification3(file);
-    		} catch(Exception e) {
-    			currentText.append(System.getProperty("line.separator") + e.getMessage() + System.getProperty("line.separator") + "Error input file: " + file + " could not be read!" + System.getProperty("line.separator") + ">:");
-    			pvTextPane.setText(currentText.toString());
-    		}
-    	}
-    	if(commandString.contains("verification4 ")){
-    		String[] snippets = commandString.split(" ");
-    		String file = snippets[snippets.length-1];
-    		file = file.substring(0,file.length());
-    		try{
-    			prVerification4(file);
-    		} catch(Exception e) {
-    			currentText.append(System.getProperty("line.separator") + e.getMessage() + System.getProperty("line.separator") + "Error input file: " + file + " could not be read!" + System.getProperty("line.separator") + ">:");
-    			pvTextPane.setText(currentText.toString());
-    		}
-    	}
-    	if(commandString.contains("clear")){
-    		currentText = new StringBuilder();
-    		currentText.append(">:" + System.getProperty("line.separator"));
-    		pvTextPane.setText(currentText.toString());
+    	if(splits[0].length()>=5){
+	    	if(splits[0].compareTo("clear")==0){
+	    		currentText = new StringBuilder();
+	    		currentText.append(">:" + System.getProperty("line.separator"));
+	    		pvTextPane.setText(currentText.toString());
+	    	}
     	}
     }
 
@@ -307,7 +498,25 @@ public class RadioactivitySimTerminal extends JFrame {
         });
     }
 
-    private void prVerification1(String file){
+    private void pvLogCommand(String command){
+    	//adds a (command) to the (pvCommandLog)
+    	try {
+	    	String[] log = new String[pvCommandLog.length+1];
+	    	for (int x = 0; x < pvCommandLog.length; x++) {
+	    		log[x] = pvCommandLog[x];
+	    	}
+	    	log[pvCommandLog.length] = command;
+	    	pvCommandLog = log;
+	    	pvCommandIndex = pvCommandLog.length - 1;
+    	} catch (NullPointerException e) {
+    		String[] log = new String[1];
+    		log[0] = command;
+    		pvCommandLog = log;
+    		pvCommandIndex = 0;
+    	}
+    }
+
+    private void pvVerification1(String file){
     	//Runs the verification1 test script and outputs it to (file)
 
     	double numRA224 = 0, numRN220 = 0, startTime = 0, endTime = 0;
@@ -397,7 +606,7 @@ public class RadioactivitySimTerminal extends JFrame {
 
     }
 
-    private void prVerification2(String file){
+    private void pvVerification2(String file){
     	//Runs the verification2 test script and outputs it to (file)
 
     	double numU238 = Math.pow(10, 26);
@@ -493,7 +702,7 @@ public class RadioactivitySimTerminal extends JFrame {
     	pvTextPane.setText(currentText);
     }
 
-    private void prVerification3(String file){
+    private void pvVerification3(String file){
     	//Runs the verification3 test script and outputs it to (file)
 
     	double startTime = 0, endTime = 0;
@@ -576,7 +785,7 @@ public class RadioactivitySimTerminal extends JFrame {
     	pvTextPane.setText(currentText);
     }
 
-    private void prVerification4(String file){
+    private void pvVerification4(String file){
     	//Runs the verification4 test script and outputs it to (file)
 
     	double startTime = 0, endTime = 0;
