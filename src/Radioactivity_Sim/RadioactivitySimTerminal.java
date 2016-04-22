@@ -25,6 +25,8 @@ package Radioactivity_Sim;
 
 import java.awt.*;
 import java.awt.event.*;
+import java.io.File;
+import java.io.IOException;
 import java.util.Calendar;
 import java.util.Date;
 import javax.swing.*;
@@ -44,31 +46,32 @@ public class RadioactivitySimTerminal extends JFrame {
      * pusf = public static final
      */
 
-    private JTextPane prTextPane;
-    private JTextField prTextField;
-    private OutputScribe prScrivener = new OutputScribe();
-    private NucleiSamplePredictiveSim prPredictiveSample = new NucleiSamplePredictiveSim();
-    private NucleiSampleBruteForceSim prBruteForceSample = new NucleiSampleBruteForceSim();
+    private JTextPane pvTextPane;
+    private JTextField pvTextField;
+    private OutputScribe pvScrivener = new OutputScribe();
+    private NucleiSamplePredictiveSim pvPredictiveSample = new NucleiSamplePredictiveSim();
+    private NucleiSampleBruteForceSim pvBruteForceSample = new NucleiSampleBruteForceSim();
+    private String pvInputDir = "/home/user/git/Radioactivity_Sim/input/";
 
 
     public RadioactivitySimTerminal() {
         super("Radioactivity_Sim Terminal");
         //creates a simple console
-        prTextPane = new JTextPane();
-        prTextPane.setCaretPosition(0);
-        prTextPane.setMargin(new Insets(8,8,8,8));
-        JScrollPane scrollPane = new JScrollPane(prTextPane);
+        pvTextPane = new JTextPane();
+        pvTextPane.setCaretPosition(0);
+        pvTextPane.setMargin(new Insets(8,8,8,8));
+        JScrollPane scrollPane = new JScrollPane(pvTextPane);
         scrollPane.setPreferredSize(new Dimension(800, 400));
-        prTextPane.setEditable(false);
-        prTextField = new JTextField();
-        prTextField.setMargin(new Insets(8,8,8,8));
-        prTextField.setEditable(true);
+        pvTextPane.setEditable(false);
+        pvTextField = new JTextField();
+        pvTextField.setMargin(new Insets(8,8,8,8));
+        pvTextField.setEditable(true);
         getContentPane().add(scrollPane, BorderLayout.CENTER);
-        getContentPane().add(prTextField, BorderLayout.PAGE_START);
+        getContentPane().add(pvTextField, BorderLayout.PAGE_START);
         String initString = "Welcome to Radioactivity_Sim Terminal" + System.getProperty("line.separator") + "Enter help for command list" +System.getProperty("line.separator");
-        prTextPane.setText(initString);
-        prTextPane.setCaretPosition(0);
-        prTextField.addKeyListener(new prTerminalKeyListener());;
+        pvTextPane.setText(initString);
+        pvTextPane.setCaretPosition(0);
+        pvTextField.addKeyListener(new prTerminalKeyListener());;
     }
 
     private class prTerminalKeyListener
@@ -88,70 +91,203 @@ public class RadioactivitySimTerminal extends JFrame {
     }
 
     private void prEnterCommand(){
-    	//read text in from prTextField
-    	String commandString = prTextField.getText();
-    	prTextField.setText("");
-    	String currentText = prTextPane.getText();
-    	currentText = currentText + "\n" + ">: " + commandString;
-    	prTextPane.setText(currentText);
+    	//read text in from pvTextField
+    	String commandString = pvTextField.getText();
+    	pvTextField.setText("");
+    	StringBuilder currentText = new StringBuilder();
+    	currentText.append(pvTextPane.getText() + System.getProperty("line.separator"));
+    	currentText.append(">: " + commandString + System.getProperty("line.separator"));
+    	pvTextPane.setText(currentText.toString());
     	//interpret command and print response or error
     	if(commandString.contains("help")){
-    		currentText = currentText + System.getProperty("line.separator");
-    		currentText = currentText + "The program commands are: " + System.getProperty("line.separator");
-    		currentText = currentText + "verification1 <outfile>  ->  This command runs the verification1 test script and outputs it to <file>." + System.getProperty("line.separator");
-    		currentText = currentText + "verification2 <outfile>  ->  This command runs the verification2 test script and outputs it to <file>." + System.getProperty("line.separator");
-    		currentText = currentText + "verification3 <outfile>  ->  This command runs the verification3 test script and outputs it to <file>." + System.getProperty("line.separator");
-    		currentText = currentText + "verification4 <outfile>  ->  This command runs the verification4 test script and outputs it to <file>." + System.getProperty("line.separator");
-    		currentText = currentText + "clear                    ->  This command clears the console." + System.getProperty("line.separator");
-    		prTextPane.setText(currentText);
+    		currentText.append(System.getProperty("line.separator"));
+    		currentText.append("The program commands are: " + System.getProperty("line.separator"));
+    		currentText.append("clear                     ->  This command clears the console." + System.getProperty("line.separator"));
+    		currentText.append("get currentPSample        ->  This command returns some statistics about the current NucleiSamplePredictiveSim" + System.getProperty("line.separator"));
+    		currentText.append("get currentBFSample       ->  This command returns some statistics about the current NucleiSampleBruteForceSim" + System.getProperty("line.separator"));
+    		currentText.append("get inputDir              ->  This command returns the current dirctory from which the program is reading input files, and the contents thereof." + System.getProperty("line.separator"));
+    		currentText.append("set inputDir <Directory>  ->  This command sets the directory from which the program will read future input files." + System.getProperty("line.separator"));
+    		currentText.append("verification1 <outfile>   ->  This command runs the verification1 test script and outputs it to <file>." + System.getProperty("line.separator"));
+    		currentText.append("verification2 <outfile>   ->  This command runs the verification2 test script and outputs it to <file>." + System.getProperty("line.separator"));
+    		currentText.append("verification3 <outfile>   ->  This command runs the verification3 test script and outputs it to <file>." + System.getProperty("line.separator"));
+    		currentText.append("verification4 <outfile>   ->  This command runs the verification4 test script and outputs it to <file>." + System.getProperty("line.separator"));
+    		pvTextPane.setText(currentText.toString());
     	}
-    	if(commandString.contains("verification1")){
-    		String[] snippets = commandString.split("verification1");
+
+    	if(commandString.contains("add ")){
+    		String[] snippets = commandString.split(" ");
+    		//snippets[0] = "new"
+    		try {
+    			if(snippets.length==4){
+    				if(snippets[1].compareTo("NucleiSamplePredictiveSim")==0){
+
+
+    					pvTextPane.setText(currentText.toString());
+    				}
+    				if(snippets[1].compareTo("NucleiSampleBruteForceSim")==0){
+
+
+    					pvTextPane.setText(currentText.toString());
+    				}
+    			}
+    		} catch (Exception e) {
+    			currentText.append("Error! add function has failed! Try typing help to find the correct format!" + System.getProperty("line.separator"));
+    			pvTextPane.setText(currentText.toString());
+    		}
+
+    	}
+
+
+    	if(commandString.contains("get ")){
+    		String[] snippets = commandString.split(" ");
+    		//snippets[0] = "get"
+    		try {
+    			if(snippets.length==2){
+    				if(snippets[1].compareTo("inputDir")==0){
+    					currentText.append(System.getProperty("line.separator"));
+    					currentText.append("The current input file directory is = " + pvInputDir + System.getProperty("line.separator"));
+    					currentText.append("It contains the following files: " + System.getProperty("line.separator"));
+    					File input = new File(pvInputDir);
+    					File[] Files = input.listFiles();
+    					for( int x = 0; x < Files.length; x++){
+    						try {
+    							currentText.append(Files[x].getCanonicalPath() + System.getProperty("line.separator"));
+    						} catch (IOException e) {
+    							currentText.append("Error! The program failed to print the file name!"+System.getProperty("line.separator"));
+    						}
+    					}
+    					pvTextPane.setText(currentText.toString());
+    				}
+    				if(snippets[1].compareTo("currentPSample")==0){
+    					currentText.append(System.getProperty("line.separator"));
+    					currentText.append("The current NucleiSamplePredictiveSim has the following properties: " + System.getProperty("line.separator"));
+    					currentText.append("Sample start time                                  = " + pvPredictiveSample.puGetStartTime() + System.getProperty("line.separator"));
+    					currentText.append("Sample end time                                    = " + pvPredictiveSample.puGetEndTime() + System.getProperty("line.separator"));
+    					currentText.append("Sample resolution                                  = " + pvPredictiveSample.puGetResolution() + System.getProperty("line.separator"));
+    					currentText.append("Sample contains the following number of event sets = " + pvPredictiveSample.puGetNumDecayEventSets() + System.getProperty("line.separator"));
+    					pvTextPane.setText(currentText.toString());
+    				}
+    				if(snippets[1].compareTo("currentBFSample")==0){
+    					currentText.append(System.getProperty("line.separator"));
+    					currentText.append("The current NucleiSampleBruteForceSim has the following properties: " + System.getProperty("line.separator"));
+    					currentText.append("Sample start time                                  = " + pvBruteForceSample.puGetStartTime() + System.getProperty("line.separator"));
+    					currentText.append("Sample end time                                    = " + pvBruteForceSample.puGetEndTime() + System.getProperty("line.separator"));
+    					currentText.append("Sample contains the following number of events     = " + pvBruteForceSample.puGetNumDecayEvents() + System.getProperty("line.separator"));
+    					pvTextPane.setText(currentText.toString());
+    				}
+    			}
+    		} catch (Exception e) {
+    			currentText.append("Error! get function has failed! Try typing help to find the correct format!" + System.getProperty("line.separator"));
+    			pvTextPane.setText(currentText.toString());
+    		}
+
+    	}
+
+    	if(commandString.contains("new ")){
+    		String[] snippets = commandString.split(" ");
+    		//snippets[0] = "new"
+    		try {
+    			if(snippets.length==4){
+    				if(snippets[1].compareTo("NucleiSamplePredictiveSim")==0){
+
+
+    					pvTextPane.setText(currentText.toString());
+    				}
+    				if(snippets[1].compareTo("NucleiSampleBruteForceSim")==0){
+
+
+    					pvTextPane.setText(currentText.toString());
+    				}
+    			}
+    		} catch (Exception e) {
+    			currentText.append("Error! new function has failed! Try typing help to find the correct format!" + System.getProperty("line.separator"));
+    			pvTextPane.setText(currentText.toString());
+    		}
+
+    	}
+
+
+    	if(commandString.contains("set ")){
+    		String[] snippets = commandString.split(" ");
+    		//snippets[0] = "set"
+    		try {
+    			if(snippets.length==3){
+    				if(snippets[1].compareTo("inputDir")==0){
+    					pvInputDir = snippets[2];
+    					File inputDir = new File(pvInputDir);
+    					if(inputDir.isDirectory()){
+    						File[] Files = inputDir.listFiles();
+    						currentText.append(System.getProperty("line.separator"));
+    						currentText.append("The program has detected the following files in that directory: " + System.getProperty("line.separator"));
+    						for(int x = 0; x<Files.length ;x++){
+    							try {
+    								currentText.append(Files[x].getCanonicalPath() + System.getProperty("line.separator"));
+    							} catch (IOException e) {
+    								currentText.append("An error occurred while reading the path name!" + System.getProperty("line.separator"));
+    							}
+    						}
+    						pvTextPane.setText(currentText.toString());
+    					} else {
+    						currentText.append("Error! The supplied path = " + pvInputDir + " is not a Directory!" + System.getProperty("line.separator"));
+    						pvTextPane.setText(currentText.toString());
+    					}
+    				}
+    			}
+    		} catch (Exception e) {
+    			currentText.append("Error! set function has failed! Try typing help to find the correct format!" + System.getProperty("line.separator"));
+    			pvTextPane.setText(currentText.toString());
+    		}
+
+    	}
+
+    	if(commandString.contains("verification1 ")){
+    		String[] snippets = commandString.split(" ");
     		String file = snippets[snippets.length-1];
-    		file = file.substring(1,file.length());
+    		file = file.substring(0,file.length());
     		try{
     			prVerification1(file);
     		} catch(Exception e) {
-    			currentText = currentText + System.getProperty("line.separator") + e.getMessage() + System.getProperty("line.separator") + "Error input file: " + file + " could not be read!" + System.getProperty("line.separator") + ">:";
-    			prTextPane.setText(currentText);
+    			currentText.append(System.getProperty("line.separator") + e.getMessage() + System.getProperty("line.separator") + "Error input file: " + file + " could not be read!" + System.getProperty("line.separator") + ">:");
+    			pvTextPane.setText(currentText.toString());
     		}
     	}
-    	if(commandString.contains("verification2")){
-    		String[] snippets = commandString.split("verification2");
+    	if(commandString.contains("verification2 ")){
+    		String[] snippets = commandString.split(" ");
     		String file = snippets[snippets.length-1];
-    		file = file.substring(1,file.length());
+    		file = file.substring(0,file.length());
     		try{
     			prVerification2(file);
     		} catch(Exception e) {
-    			currentText = currentText + System.getProperty("line.separator") + e.getMessage() + System.getProperty("line.separator") + "Error input file: " + file + " could not be read!" + System.getProperty("line.separator") + ">:";
-    			prTextPane.setText(currentText);
+    			currentText.append(System.getProperty("line.separator") + e.getMessage() + System.getProperty("line.separator") + "Error input file: " + file + " could not be read!" + System.getProperty("line.separator") + ">:");
+    			pvTextPane.setText(currentText.toString());
     		}
     	}
-    	if(commandString.contains("verification3")){
-    		String[] snippets = commandString.split("verification3");
+    	if(commandString.contains("verification3 ")){
+    		String[] snippets = commandString.split(" ");
     		String file = snippets[snippets.length-1];
-    		file = file.substring(1,file.length());
+    		file = file.substring(0,file.length());
     		try{
     			prVerification3(file);
     		} catch(Exception e) {
-    			currentText = currentText + System.getProperty("line.separator") + e.getMessage() + System.getProperty("line.separator") + "Error input file: " + file + " could not be read!" + System.getProperty("line.separator") + ">:";
-    			prTextPane.setText(currentText);
+    			currentText.append(System.getProperty("line.separator") + e.getMessage() + System.getProperty("line.separator") + "Error input file: " + file + " could not be read!" + System.getProperty("line.separator") + ">:");
+    			pvTextPane.setText(currentText.toString());
     		}
     	}
-    	if(commandString.contains("verification4")){
-    		String[] snippets = commandString.split("verification4");
+    	if(commandString.contains("verification4 ")){
+    		String[] snippets = commandString.split(" ");
     		String file = snippets[snippets.length-1];
-    		file = file.substring(1,file.length());
+    		file = file.substring(0,file.length());
     		try{
     			prVerification4(file);
     		} catch(Exception e) {
-    			currentText = currentText + System.getProperty("line.separator") + e.getMessage() + System.getProperty("line.separator") + "Error input file: " + file + " could not be read!" + System.getProperty("line.separator") + ">:";
-    			prTextPane.setText(currentText);
+    			currentText.append(System.getProperty("line.separator") + e.getMessage() + System.getProperty("line.separator") + "Error input file: " + file + " could not be read!" + System.getProperty("line.separator") + ">:");
+    			pvTextPane.setText(currentText.toString());
     		}
     	}
     	if(commandString.contains("clear")){
-    		currentText = ">:" + System.getProperty("line.separator");
-    		prTextPane.setText(currentText);
+    		currentText = new StringBuilder();
+    		currentText.append(">:" + System.getProperty("line.separator"));
+    		pvTextPane.setText(currentText.toString());
     	}
     }
 
@@ -180,21 +316,21 @@ public class RadioactivitySimTerminal extends JFrame {
     	Calendar cal = Calendar.getInstance();
     	Date date = cal.getTime();
     	long now = date.getTime();
-    	//read text in from prTextField
-    	String commandString = prTextField.getText();
-    	prTextField.setText("");
-    	//print command in prTextPane
-    	String currentText = prTextPane.getText();
+    	//read text in from pvTextField
+    	String commandString = pvTextField.getText();
+    	pvTextField.setText("");
+    	//print command in pvTextPane
+    	String currentText = pvTextPane.getText();
     	currentText = currentText + "\n" + commandString;
-    	prTextPane.setText(currentText);
+    	pvTextPane.setText(currentText);
 
     	int resolution = 1;
     	numRA224 = Math.pow(10, 5);
     	numRN220 = 17.58;
     	startTime = 0;
     	endTime = 100;
-    	prPredictiveSample = new NucleiSamplePredictiveSim(numRA224,"/home/user/git/Radioactivity_Sim/input/RA224test",startTime,endTime,resolution);
-    	prPredictiveSample.puAddSpecies(numRN220, "/home/user/git/Radioactivity_Sim/input/RN220test", startTime, endTime);
+    	pvPredictiveSample = new NucleiSamplePredictiveSim(numRA224,"/home/user/git/Radioactivity_Sim/input/RA224test",startTime,endTime,resolution);
+    	pvPredictiveSample.puAddSpecies(numRN220, "/home/user/git/Radioactivity_Sim/input/RN220test");
     	StringBuilder data = new StringBuilder();
     	data.append("verification1 for NucleiSamplePredictiveSim.java calculations:                       " + System.getProperty("line.separator"));
     	data.append("Secular Equilibrium occurs between RA224 and RN220 because the decay constant, lambda" + System.getProperty("line.separator"));
@@ -227,23 +363,23 @@ public class RadioactivitySimTerminal extends JFrame {
     	data.append("Now let us see if the program can produce the same values:                            " + System.getProperty("line.separator"));
     	data.append(System.getProperty("line.separator"));
     	data.append("For a standard resolution of 10 we will get: " + System.getProperty("line.separator"));
-    	data.append("Radiated Power = " + prPredictiveSample.puGetRadiatedPowerOverTimeRange(startTime, endTime)+ " MeV/s" + System.getProperty("line.separator"));
-    	data.append("Total Energy = " + prPredictiveSample.puGetEnergySumOverTimeRange(startTime, endTime) + " MeV" + System.getProperty("line.separator"));
+    	data.append("Radiated Power = " + pvPredictiveSample.puGetRadiatedPowerOverTimeRange(startTime, endTime)+ " MeV/s" + System.getProperty("line.separator"));
+    	data.append("Total Energy = " + pvPredictiveSample.puGetEnergySumOverTimeRange(startTime, endTime) + " MeV" + System.getProperty("line.separator"));
     	data.append(System.getProperty("line.separator"));
-    	data.append(prPredictiveSample.puGetAllEndTimeNucleiCounts());
+    	data.append(pvPredictiveSample.puGetAllEndTimeNucleiCounts());
     	data.append(System.getProperty("line.separator"));
-    	data.append(prPredictiveSample.puGetAllEventCountsOverTimeRangeByNuclei(startTime, endTime));
+    	data.append(pvPredictiveSample.puGetAllEventCountsOverTimeRangeByNuclei(startTime, endTime));
     	data.append(System.getProperty("line.separator"));
     	data.append("Next we see how the program is distributing the event energies into smaller groups as defined by the (resolution)" + System.getProperty("line.separator"));
     	double sum = 0;
     	for(int x = 1; x <= 1000 ;x = x*10) {
     		sum = 0;
     		data.append("For resolution set to " + x + " we get:" + System.getProperty("line.separator"));
-    		prPredictiveSample = new NucleiSamplePredictiveSim(numRA224,"/home/user/git/Radioactivity_Sim/input/RA224test",startTime,endTime,x);
-    		prPredictiveSample.puAddSpecies(17.58, "/home/user/git/Radioactivity_Sim/input/RN220test", startTime, endTime);
+    		pvPredictiveSample = new NucleiSamplePredictiveSim(numRA224,"/home/user/git/Radioactivity_Sim/input/RA224test",startTime,endTime,x);
+    		pvPredictiveSample.puAddSpecies(17.58, "/home/user/git/Radioactivity_Sim/input/RN220test");
     		for(int y = 0; y < x; y++) {
-    			data.append("Energy (t = "+(startTime+(y+1)*(endTime-startTime)/x)+") = " + prPredictiveSample.puGetEnergySumOverTimeRange(startTime+y*(endTime-startTime)/x, startTime+(y+1)*(endTime-startTime)/x)+ " MeV" + System.getProperty("line.separator"));
-    			sum += prPredictiveSample.puGetEnergySumOverTimeRange(startTime+y*(endTime-startTime)/x, startTime+(y+1)*(endTime-startTime)/x);
+    			data.append("Energy (t = "+(startTime+(y+1)*(endTime-startTime)/x)+") = " + pvPredictiveSample.puGetEnergySumOverTimeRange(startTime+y*(endTime-startTime)/x, startTime+(y+1)*(endTime-startTime)/x)+ " MeV" + System.getProperty("line.separator"));
+    			sum += pvPredictiveSample.puGetEnergySumOverTimeRange(startTime+y*(endTime-startTime)/x, startTime+(y+1)*(endTime-startTime)/x);
     		}
     		data.append("Which all adds up to: " + sum + " MeV" + System.getProperty("line.separator"));
     		data.append(System.getProperty("line.separator"));
@@ -251,13 +387,13 @@ public class RadioactivitySimTerminal extends JFrame {
     	//retrieve the calculation time
     	data.append("Calculation Time = " + (Calendar.getInstance().getTime().getTime() - now) + System.getProperty("line.separator"));
     	data.append(">: " + System.getProperty("line.separator"));
-    	prScrivener.puOpenNewFile(file);
-    	fileNum = prScrivener.puGetNumFiles();
-    	prScrivener.puAppendStringToFile(fileNum-1, data.toString());
-    	prScrivener.puCloseFile(fileNum-1);
-    	//write the output to prTextPane
+    	pvScrivener.puOpenNewFile(file);
+    	fileNum = pvScrivener.puGetNumFiles();
+    	pvScrivener.puAppendStringToFile(fileNum-1, data.toString());
+    	pvScrivener.puCloseFile(fileNum-1);
+    	//write the output to pvTextPane
     	currentText = currentText + "\n" + data.toString();
-    	prTextPane.setText(currentText);
+    	pvTextPane.setText(currentText);
 
     }
 
@@ -273,18 +409,18 @@ public class RadioactivitySimTerminal extends JFrame {
     	Calendar cal = Calendar.getInstance();
     	Date date = cal.getTime();
     	long now = date.getTime();
-    	//read text in from prTextField
-    	String commandString = prTextField.getText();
-    	prTextField.setText("");
-    	//print command in prTextPane
-    	String currentText = prTextPane.getText();
+    	//read text in from pvTextField
+    	String commandString = pvTextField.getText();
+    	pvTextField.setText("");
+    	//print command in pvTextPane
+    	String currentText = pvTextPane.getText();
     	currentText = currentText + "\n" + commandString;
-    	prTextPane.setText(currentText);
+    	pvTextPane.setText(currentText);
 
     	int resolution = 10;
-    	prPredictiveSample = new NucleiSamplePredictiveSim(numU238,"/home/user/git/Radioactivity_Sim/input/U238test",startTime,endTime,resolution);
-    	prPredictiveSample.puAddSpecies(numTH234, "/home/user/git/Radioactivity_Sim/input/TH234test", startTime, endTime);
-    	prPredictiveSample.puAddSpecies(numPA234, "/home/user/git/Radioactivity_Sim/input/PA234test", startTime, endTime);
+    	pvPredictiveSample = new NucleiSamplePredictiveSim(numU238,"/home/user/git/Radioactivity_Sim/input/U238test",startTime,endTime,resolution);
+    	pvPredictiveSample.puAddSpecies(numTH234, "/home/user/git/Radioactivity_Sim/input/TH234test");
+    	pvPredictiveSample.puAddSpecies(numPA234, "/home/user/git/Radioactivity_Sim/input/PA234test");
     	StringBuilder data = new StringBuilder();
     	data.append("verification2 for NucleiSamplePredictiveSim.java calculations:                       " + System.getProperty("line.separator"));
     	data.append("This verification is intended to show that the Radioactive_Sim program does not      " + System.getProperty("line.separator"));
@@ -323,24 +459,24 @@ public class RadioactivitySimTerminal extends JFrame {
     	data.append("Now let us see if this program can produce the same values:                          " + System.getProperty("line.separator"));
     	data.append(System.getProperty("line.separator"));
         data.append("For a standard resolution of 10 we will get: " + System.getProperty("line.separator"));
-        data.append("Radiated Power = " + prPredictiveSample.puGetRadiatedPowerOverTimeRange(startTime, endTime)+ " MeV/s" + System.getProperty("line.separator"));
-    	data.append("Total Energy = " + prPredictiveSample.puGetEnergySumOverTimeRange(startTime, endTime) + " MeV" + System.getProperty("line.separator"));
+        data.append("Radiated Power = " + pvPredictiveSample.puGetRadiatedPowerOverTimeRange(startTime, endTime)+ " MeV/s" + System.getProperty("line.separator"));
+    	data.append("Total Energy = " + pvPredictiveSample.puGetEnergySumOverTimeRange(startTime, endTime) + " MeV" + System.getProperty("line.separator"));
     	data.append(System.getProperty("line.separator"));
-    	data.append(prPredictiveSample.puGetAllEndTimeNucleiCounts());
+    	data.append(pvPredictiveSample.puGetAllEndTimeNucleiCounts());
     	data.append(System.getProperty("line.separator"));
-    	data.append(prPredictiveSample.puGetAllEventCountsOverTimeRangeByNuclei(startTime, endTime));
+    	data.append(pvPredictiveSample.puGetAllEventCountsOverTimeRangeByNuclei(startTime, endTime));
     	data.append(System.getProperty("line.separator"));
     	data.append("Next we see how the program is distributing the event energies into smaller groups as defined by the (resolution)" + System.getProperty("line.separator"));
     	double sum = 0;
     	for(int x = 1; x <= 1000;x = 10*x) {
     		sum = 0;
     		data.append("For resolution set to " + x + " we get:" + System.getProperty("line.separator"));
-    		prPredictiveSample = new NucleiSamplePredictiveSim(numU238,"/home/user/git/Radioactivity_Sim/input/U238test",startTime,endTime,x);
-    		prPredictiveSample.puAddSpecies(numTH234, "/home/user/git/Radioactivity_Sim/input/TH234test", startTime, endTime);
-    		prPredictiveSample.puAddSpecies(numPA234, "/home/user/git/Radioactivity_Sim/input/PA234test", startTime, endTime);
+    		pvPredictiveSample = new NucleiSamplePredictiveSim(numU238,"/home/user/git/Radioactivity_Sim/input/U238test",startTime,endTime,x);
+    		pvPredictiveSample.puAddSpecies(numTH234, "/home/user/git/Radioactivity_Sim/input/TH234test");
+    		pvPredictiveSample.puAddSpecies(numPA234, "/home/user/git/Radioactivity_Sim/input/PA234test");
     		for(int y = 0; y < x; y++) {
-    			data.append("Energy (t = "+(startTime+(y+1)*(endTime-startTime)/x)+") = " + prPredictiveSample.puGetEnergySumOverTimeRange(startTime+y*(endTime-startTime)/x, startTime+(y+1)*(endTime-startTime)/x)+ " MeV" + System.getProperty("line.separator"));
-    			sum += prPredictiveSample.puGetEnergySumOverTimeRange(startTime+y*(endTime-startTime)/x, startTime+(y+1)*(endTime-startTime)/x);
+    			data.append("Energy (t = "+(startTime+(y+1)*(endTime-startTime)/x)+") = " + pvPredictiveSample.puGetEnergySumOverTimeRange(startTime+y*(endTime-startTime)/x, startTime+(y+1)*(endTime-startTime)/x)+ " MeV" + System.getProperty("line.separator"));
+    			sum += pvPredictiveSample.puGetEnergySumOverTimeRange(startTime+y*(endTime-startTime)/x, startTime+(y+1)*(endTime-startTime)/x);
     		}
     		data.append("Which all adds up to: " + sum + " MeV" + System.getProperty("line.separator"));
     		data.append(System.getProperty("line.separator"));
@@ -348,13 +484,13 @@ public class RadioactivitySimTerminal extends JFrame {
     	//retrieve the calculation time
     	data.append("Calculation Time = " + (Calendar.getInstance().getTime().getTime() - now) + System.getProperty("line.separator"));
     	data.append(">: " + System.getProperty("line.separator"));
-    	prScrivener.puOpenNewFile(file);
-    	fileNum = prScrivener.puGetNumFiles();
-    	prScrivener.puAppendStringToFile(fileNum-1, data.toString());
-    	prScrivener.puCloseFile(fileNum-1);
-    	//write the output to prTextPane
+    	pvScrivener.puOpenNewFile(file);
+    	fileNum = pvScrivener.puGetNumFiles();
+    	pvScrivener.puAppendStringToFile(fileNum-1, data.toString());
+    	pvScrivener.puCloseFile(fileNum-1);
+    	//write the output to pvTextPane
     	currentText = currentText + "\n" + data.toString();
-    	prTextPane.setText(currentText);
+    	pvTextPane.setText(currentText);
     }
 
     private void prVerification3(String file){
@@ -366,18 +502,18 @@ public class RadioactivitySimTerminal extends JFrame {
     	Calendar cal = Calendar.getInstance();
     	Date date = cal.getTime();
     	long now = date.getTime();
-    	//read text in from prTextField
-    	String commandString = prTextField.getText();
-    	prTextField.setText("");
-    	//print command in prTextPane
-    	String currentText = prTextPane.getText();
+    	//read text in from pvTextField
+    	String commandString = pvTextField.getText();
+    	pvTextField.setText("");
+    	//print command in pvTextPane
+    	String currentText = pvTextPane.getText();
     	currentText = currentText + "\n" + commandString;
-    	prTextPane.setText(currentText);
+    	pvTextPane.setText(currentText);
 
     	int resolution = 10;
     	startTime = 0; endTime = 100;
-    	prBruteForceSample = new NucleiSampleBruteForceSim(100000,"/home/user/git/Radioactivity_Sim/input/RA224test",startTime,endTime);
-    	prBruteForceSample.puAddSpecies(18, "/home/user/git/Radioactivity_Sim/input/RN220test", startTime, endTime);
+    	pvBruteForceSample = new NucleiSampleBruteForceSim(100000,"/home/user/git/Radioactivity_Sim/input/RA224test",startTime,endTime);
+    	pvBruteForceSample.puAddSpecies(18, "/home/user/git/Radioactivity_Sim/input/RN220test");
     	StringBuilder data = new StringBuilder();
     	data.append("verification3 for NucleiSampleBruteForceSim.java calculations:                       " + System.getProperty("line.separator"));
     	data.append("Secular Equilibrium occurs between RA224 and RN220 because the decay constant, lambda" + System.getProperty("line.separator"));
@@ -409,20 +545,20 @@ public class RadioactivitySimTerminal extends JFrame {
     	data.append("and the average radiated power is: Energy/time = 267.27/100 = 2.6727 MeV/s           " + System.getProperty("line.separator"));
     	data.append("Now let us see if the program can produce the same values:                            " + System.getProperty("line.separator"));
     	data.append(System.getProperty("line.separator"));
-    	prScrivener.puOpenNewFile(file);
-    	fileNum = prScrivener.puGetNumFiles();
+    	pvScrivener.puOpenNewFile(file);
+    	fileNum = pvScrivener.puGetNumFiles();
     	data.append("From the program we will get: " + System.getProperty("line.separator"));
     	double sumEnergy8 = 0;
     	double sumPower8 = 0;
     	for (int x = 0; x < 20; x++){
-    		prBruteForceSample = new NucleiSampleBruteForceSim(100000,"/home/user/git/Radioactivity_Sim/input/RA224test",startTime,endTime);
-    		prBruteForceSample.puAddSpecies(18, "/home/user/git/Radioactivity_Sim/input/RN220test", startTime, endTime);
+    		pvBruteForceSample = new NucleiSampleBruteForceSim(100000,"/home/user/git/Radioactivity_Sim/input/RA224test",startTime,endTime);
+    		pvBruteForceSample.puAddSpecies(18, "/home/user/git/Radioactivity_Sim/input/RN220test");
     		data.append("Attempt No. " + (x+1) + System.getProperty("line.separator"));
-    		data.append("Radiated Power = " + prBruteForceSample.puGetRadiatedPowerOverTimeRange(startTime, endTime) + " MeV/s" + System.getProperty("line.separator"));
-    		data.append("Total Energy = " + prBruteForceSample.puGetEnergySumOverTimeRange(startTime, endTime) + " MeV" + System.getProperty("line.separator"));
+    		data.append("Radiated Power = " + pvBruteForceSample.puGetRadiatedPowerOverTimeRange(startTime, endTime) + " MeV/s" + System.getProperty("line.separator"));
+    		data.append("Total Energy = " + pvBruteForceSample.puGetEnergySumOverTimeRange(startTime, endTime) + " MeV" + System.getProperty("line.separator"));
     		data.append(System.getProperty("line.separator"));
-    		sumEnergy8 += prBruteForceSample.puGetEnergySumOverTimeRange(startTime, endTime);
-    		sumPower8 += prBruteForceSample.puGetRadiatedPowerOverTimeRange(startTime, endTime);
+    		sumEnergy8 += pvBruteForceSample.puGetEnergySumOverTimeRange(startTime, endTime);
+    		sumPower8 += pvBruteForceSample.puGetRadiatedPowerOverTimeRange(startTime, endTime);
     	}
     	data.append("Average:" + System.getProperty("line.separator"));
 		data.append("Ave. Radiated Power = " + (sumPower8/20.0) + " MeV/s" + System.getProperty("line.separator"));
@@ -431,13 +567,13 @@ public class RadioactivitySimTerminal extends JFrame {
     	//retrieve the calculation time
     	data.append("Calculation Time = " + (Calendar.getInstance().getTime().getTime() - now) + System.getProperty("line.separator"));
     	data.append(">: " + System.getProperty("line.separator"));
-    	prScrivener.puOpenNewFile(file);
-    	fileNum = prScrivener.puGetNumFiles();
-    	prScrivener.puAppendStringToFile(fileNum-1, data.toString());
-    	prScrivener.puCloseFile(fileNum-1);
-    	//write the output to prTextPane
+    	pvScrivener.puOpenNewFile(file);
+    	fileNum = pvScrivener.puGetNumFiles();
+    	pvScrivener.puAppendStringToFile(fileNum-1, data.toString());
+    	pvScrivener.puCloseFile(fileNum-1);
+    	//write the output to pvTextPane
     	currentText = currentText + "\n" + data.toString();
-    	prTextPane.setText(currentText);
+    	pvTextPane.setText(currentText);
     }
 
     private void prVerification4(String file){
@@ -449,17 +585,17 @@ public class RadioactivitySimTerminal extends JFrame {
     	Calendar cal = Calendar.getInstance();
     	Date date = cal.getTime();
     	long now = date.getTime();
-    	//read text in from prTextField
-    	String commandString = prTextField.getText();
-    	prTextField.setText("");
-    	//print command in prTextPane
-    	String currentText = prTextPane.getText();
+    	//read text in from pvTextField
+    	String commandString = pvTextField.getText();
+    	pvTextField.setText("");
+    	//print command in pvTextPane
+    	String currentText = pvTextPane.getText();
     	currentText = currentText + "\n" + commandString;
-    	prTextPane.setText(currentText);
+    	pvTextPane.setText(currentText);
 
     	int resolution = 10;
     	startTime = 3*1.409*Math.pow(10,18)-Math.pow(10,13); endTime = 3*1.409*Math.pow(10,18);
-    	prPredictiveSample = new NucleiSamplePredictiveSim(Math.pow(10, 26),"/home/user/git/Radioactivity_Sim/input/U238",startTime,endTime,1);
+    	pvPredictiveSample = new NucleiSamplePredictiveSim(Math.pow(10, 26),"/home/user/git/Radioactivity_Sim/input/U238",startTime,endTime,1);
     	StringBuilder data = new StringBuilder();
     	data.append("verification4 for NucleiSamplePredictiveSim.java calculations:                       " + System.getProperty("line.separator"));
     	data.append(System.getProperty("line.separator"));
@@ -493,23 +629,23 @@ public class RadioactivitySimTerminal extends JFrame {
     	data.append("Now let's see what the program comes up with: " + System.getProperty("line.separator"));
     	data.append(System.getProperty("line.separator"));
     	data.append("From the program we will get: " + System.getProperty("line.separator"));
-    	data.append("Radiated Power (for BI214 and PO214) = " + (prPredictiveSample.puGetRadiatedPowerForStartNucleusOverTimeRange(startTime, endTime,"BI214")+prPredictiveSample.puGetRadiatedPowerForStartNucleusOverTimeRange(startTime, endTime, "PO214"))+ " MeV/s" + System.getProperty("line.separator"));
-    	data.append("Total Energy (for BI214 and PO214) = " + (prPredictiveSample.puGetEnergySumForStartingNucleusOverTimeRange(startTime, endTime, "BI214")+prPredictiveSample.puGetEnergySumForStartingNucleusOverTimeRange(startTime, endTime, "PO214")) + " MeV" + System.getProperty("line.separator"));
+    	data.append("Radiated Power (for BI214 and PO214) = " + (pvPredictiveSample.puGetRadiatedPowerForStartNucleusOverTimeRange(startTime, endTime,"BI214")+pvPredictiveSample.puGetRadiatedPowerForStartNucleusOverTimeRange(startTime, endTime, "PO214"))+ " MeV/s" + System.getProperty("line.separator"));
+    	data.append("Total Energy (for BI214 and PO214) = " + (pvPredictiveSample.puGetEnergySumForStartingNucleusOverTimeRange(startTime, endTime, "BI214")+pvPredictiveSample.puGetEnergySumForStartingNucleusOverTimeRange(startTime, endTime, "PO214")) + " MeV" + System.getProperty("line.separator"));
     	data.append(System.getProperty("line.separator"));
-    	data.append(prPredictiveSample.puGetAllStartTimeNucleiCounts());
+    	data.append(pvPredictiveSample.puGetAllStartTimeNucleiCounts());
     	data.append(System.getProperty("line.separator"));
-    	data.append(prPredictiveSample.puGetAllEndTimeNucleiCounts());
+    	data.append(pvPredictiveSample.puGetAllEndTimeNucleiCounts());
     	data.append(System.getProperty("line.separator"));
-    	data.append(prPredictiveSample.puGetAllEventCountsOverTimeRangeByNuclei(startTime, endTime));
+    	data.append(pvPredictiveSample.puGetAllEventCountsOverTimeRangeByNuclei(startTime, endTime));
     	data.append(System.getProperty("line.separator"));
     	double sum = 0;
     	for(int x = 1; x <= 1000;x = 10*x) {
     		sum = 0;
     		data.append("For resolution set to " + x + " we get:" + System.getProperty("line.separator"));
-    		prPredictiveSample = new NucleiSamplePredictiveSim(Math.pow(10, 26),"/home/user/git/Radioactivity_Sim/input/U238",startTime,endTime,x);
+    		pvPredictiveSample = new NucleiSamplePredictiveSim(Math.pow(10, 26),"/home/user/git/Radioactivity_Sim/input/U238",startTime,endTime,x);
     		for(double y = 0; y < x; y++) {
-    			data.append("Energy (BI214 & PO214)(t = "+(startTime+(y+1)*(endTime-startTime)/x)+") = " + (prPredictiveSample.puGetEnergySumForStartingNucleusOverTimeRange(startTime+y*(endTime-startTime)/x, startTime+(y+1)*(endTime-startTime)/x,"BI214")+prPredictiveSample.puGetEnergySumForStartingNucleusOverTimeRange(startTime+y*(endTime-startTime)/x, startTime+(y+1)*(endTime-startTime)/x, "PO214")) + " MeV" + System.getProperty("line.separator"));
-    			sum += (prPredictiveSample.puGetEnergySumForStartingNucleusOverTimeRange(startTime+y*(endTime-startTime)/x, startTime+(y+1)*(endTime-startTime)/x,"BI214")+prPredictiveSample.puGetEnergySumForStartingNucleusOverTimeRange(startTime+y*(endTime-startTime)/x, startTime+(y+1)*(endTime-startTime)/x, "PO214"));
+    			data.append("Energy (BI214 & PO214)(t = "+(startTime+(y+1)*(endTime-startTime)/x)+") = " + (pvPredictiveSample.puGetEnergySumForStartingNucleusOverTimeRange(startTime+y*(endTime-startTime)/x, startTime+(y+1)*(endTime-startTime)/x,"BI214")+pvPredictiveSample.puGetEnergySumForStartingNucleusOverTimeRange(startTime+y*(endTime-startTime)/x, startTime+(y+1)*(endTime-startTime)/x, "PO214")) + " MeV" + System.getProperty("line.separator"));
+    			sum += (pvPredictiveSample.puGetEnergySumForStartingNucleusOverTimeRange(startTime+y*(endTime-startTime)/x, startTime+(y+1)*(endTime-startTime)/x,"BI214")+pvPredictiveSample.puGetEnergySumForStartingNucleusOverTimeRange(startTime+y*(endTime-startTime)/x, startTime+(y+1)*(endTime-startTime)/x, "PO214"));
     		}
     		data.append("Which all adds up to: " + sum + " MeV" + System.getProperty("line.separator"));
     		data.append(System.getProperty("line.separator"));
@@ -517,13 +653,13 @@ public class RadioactivitySimTerminal extends JFrame {
     	//retrieve the calculation time
     	data.append("Calculation Time = " + (Calendar.getInstance().getTime().getTime() - now) + System.getProperty("line.separator"));
     	data.append(">: " + System.getProperty("line.separator"));
-    	prScrivener.puOpenNewFile(file);
-    	fileNum = prScrivener.puGetNumFiles();
-    	prScrivener.puAppendStringToFile(fileNum-1, data.toString());
-    	prScrivener.puCloseFile(fileNum-1);
-    	//write the output to prTextPane
+    	pvScrivener.puOpenNewFile(file);
+    	fileNum = pvScrivener.puGetNumFiles();
+    	pvScrivener.puAppendStringToFile(fileNum-1, data.toString());
+    	pvScrivener.puCloseFile(fileNum-1);
+    	//write the output to pvTextPane
     	currentText = currentText + "\n" + data.toString();
-    	prTextPane.setText(currentText);
+    	pvTextPane.setText(currentText);
     }
 
 }
@@ -533,7 +669,7 @@ public class RadioactivitySimTerminal extends JFrame {
 //private void prWriteAllEventData(String file) {
 ////Writes all event data (Warning! limited by maximum size of java String's!)
 //
-//String data = prPredictiveSample.puGetAllEventData();
+//String data = pvPredictiveSample.puGetAllEventData();
 //scrivener.puOpenNewFile(file);
 //fileNum = scrivener.puGetNumFiles();
 //scrivener.puAppendStringToFile(fileNum-1, data);

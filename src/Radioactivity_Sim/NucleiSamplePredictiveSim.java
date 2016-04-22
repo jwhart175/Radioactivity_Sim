@@ -373,11 +373,9 @@ public class NucleiSamplePredictiveSim extends PRSFNUM {
     	pvCleanDecayEventSets();
     }
 
-    public void puAddSpecies (int num, String input, double start, double end) {
+    public void puAddSpecies (int num, String input) {
     	//Adds an integer (num) of nuclei of the type described in data file whose path is the String (input)
     	if (num > prsfIntZero) {
-    		pvStartTime = start;
-            pvEndTime = end;
     		pvNumDecayChainRuleSets++;
             DecayChainRuleSet[] newRules = new DecayChainRuleSet[pvNumDecayChainRuleSets];
             for(int x = prsfIntZero; x<pvNumDecayChainRuleSets-prsfIntOne;x++){
@@ -391,11 +389,9 @@ public class NucleiSamplePredictiveSim extends PRSFNUM {
         }
     }
 
-    public void puAddSpecies (double num, String input, double start, double end) {
+    public void puAddSpecies (double num, String input) {
     	//Adds an double (num) of nuclei of the type described in data file whose path is the String (input)
     	if (num > prsfIntZero) {
-    		pvStartTime = start;
-            pvEndTime = end;
     		pvNumDecayChainRuleSets++;
             DecayChainRuleSet[] newRules = new DecayChainRuleSet[pvNumDecayChainRuleSets];
             for(int x = prsfIntZero; x<pvNumDecayChainRuleSets-prsfIntOne;x++){
@@ -409,11 +405,9 @@ public class NucleiSamplePredictiveSim extends PRSFNUM {
         }
     }
 
-    public void puAddSpecies (long num, String input, double start, double end) {
+    public void puAddSpecies (long num, String input) {
     	//Adds an integer (num) of nuclei of the type described in data file whose path is the String (input)
     	if (num > prsfIntZero) {
-    		pvStartTime = start;
-            pvEndTime = end;
     		pvNumDecayChainRuleSets++;
             DecayChainRuleSet[] newRules = new DecayChainRuleSet[pvNumDecayChainRuleSets];
             for(int x = prsfIntZero; x<pvNumDecayChainRuleSets-prsfIntOne;x++){
@@ -456,6 +450,26 @@ public class NucleiSamplePredictiveSim extends PRSFNUM {
     	}
     	pvDecayEventSets = DecayEventSets;
     	pvNumDecayEventSets = numCleanDecayEventSets;
+    }
+
+    public int puGetNumDecayEventSets(){
+    	//returns the number of (DecayEventSet)s contained in this (NucleiSamplePredictiveSim)
+    	return pvNumDecayEventSets;
+    }
+
+    public double puGetStartTime(){
+    	//returns the (pvStartTime) of this (NucleiSamplePredictiveSim)
+    	return pvStartTime;
+    }
+
+    public double puGetEndTime(){
+    	//returns the (pvEndTime) of this (NucleiSamplePredictiveSim)
+    	return pvEndTime;
+    }
+
+    public int puGetResolution(){
+    	//returns the (pvResolution) of this (NucleiSamplePredictiveSim)
+    	return pvResolution;
     }
 
     public String puGetAllDecayEventSetData() {

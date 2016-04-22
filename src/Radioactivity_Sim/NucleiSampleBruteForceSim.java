@@ -124,11 +124,9 @@ public class NucleiSampleBruteForceSim extends PRSFNUM {
     	}
     }
 
-    public void puAddSpecies (int num, String input, double start, double end) {
+    public void puAddSpecies (int num, String input) {
     	//Adds an integer (num) of nuclei of the type described in data file whose path is the String (input)
     	if (num > prsfIntZero) {
-    		pvStartTime = start;
-            pvEndTime = end;
     		pvNumDecayChainRuleSets += prsfIntOne;
             DecayChainRuleSet[] newRules = new DecayChainRuleSet[pvNumDecayChainRuleSets];
             for(int x = prsfIntZero; x<pvNumDecayChainRuleSets-prsfIntOne;x++){
@@ -142,11 +140,9 @@ public class NucleiSampleBruteForceSim extends PRSFNUM {
         }
     }
 
-    public void puAddSpecies (long num, String input, double start, double end) {
+    public void puAddSpecies (long num, String input) {
     	//Adds an integer (num) of nuclei of the type described in data file whose path is the String (input)
     	if (num > prsfIntZero) {
-    		pvStartTime = start;
-            pvEndTime = end;
     		pvNumDecayChainRuleSets += prsfIntOne;
             DecayChainRuleSet[] newRules = new DecayChainRuleSet[pvNumDecayChainRuleSets];
             for(int x = prsfIntZero; x<pvNumDecayChainRuleSets-prsfIntOne;x++){
@@ -335,6 +331,21 @@ public class NucleiSampleBruteForceSim extends PRSFNUM {
     		double returned[][] = new double[prsfIntOne][prsfIntOne];
     		return returned;
     	}
+    }
+
+    public int puGetNumDecayEvents(){
+    	//returns the number of (DecayEvent)s contained in this (NucleiSampleBruteForceSim)
+    	return pvNumDecayEvents;
+    }
+
+    public double puGetStartTime(){
+    	//returns the (pvStartTime) of this (NucleiSampleBruteForceSim)
+    	return pvStartTime;
+    }
+
+    public double puGetEndTime(){
+    	//returns the (pvEndTime) of this (NucleiSampleBruteForceSim)
+    	return pvEndTime;
     }
 
     public String puGetAllDecayEventData() {
