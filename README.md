@@ -12,17 +12,17 @@ On a linux machine: install java
 
 The actual install method varies by distro but this can typically be done (with an internet connection) with one of the following commands in a terminal:
 
-sudo apt-get install java //Debian or Ubuntu
-sudo yum install java //Fedora
+sudo apt-get install java //Debian or Ubuntu<br>
+sudo yum install java //Fedora<br>
 
 Then clone the git repository with:
 
-git clone https://github.com/jwhart175/Radioactivity_Sim
+git clone https://github.com/jwhart175/Radioactivity_Sim<br>
 
 Change directories and run the program:
 
-cd Radioactivity_Sim
-java -jar Radioactivity_Sim_Terminal.jar
+cd Radioactivity_Sim<br>
+java -jar Radioactivity_Sim_Terminal.jar<br>
 
 The terminal should then open up for you.  Type "help" to get a list of commands, and the first one that I suggest is "set inputDir <yourDirectory>" because in order to get anything to work, you must first point the program towards the dirctory of the Radioactivity_Sim/input files which contain all of the rules by which the program will be calculating.
 
