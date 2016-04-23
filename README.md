@@ -4,7 +4,7 @@ Radioactivity_Sim is an experimental program with the goal of predicting the occ
 
 Radioactivity_Sim is experimental software that is in development.  At any time the developer may rewrite substantial portions of the code and those rewrites may be released with errors.  Furthermore, the program has not been thoroughly tested for accuraccy and agreement with experimentally measured values.  Therefore users are advised not to rely on the output of this program for any calculation that matters. 
 
-The program has reached a state where running trying to test and debug every feature is as or more time consuming then writing additional code.  Therefore I have uploaded a "build" of the project in the form of an executable jar file "Radioactivity_Sim_Terminal.jar" and I invite anyone to download, test it, and reports errors, issues, or suggestions.  I still recommend that anyone verify any of the calculations by comparison with hand calcs or other programs.  While the algorithms seem to be working, there may still be issues with it or with any of the functions that bring the results to the screen.
+The program has reached a state where trying to test and debug every feature is as or more time consuming then writing additional code.  Therefore I have uploaded a "build" of the project in the form of an executable jar file "Radioactivity_Sim_Terminal.jar" and I invite anyone to download, test it, and reports errors, issues, or suggestions.  I still recommend that anyone verify any of the calculations by comparison with hand calcs or other programs.  While the algorithms seem to be working, there may still be issues with it or with any of the functions that bring the results to the screen.
 
 Running the program:
 
