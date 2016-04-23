@@ -196,7 +196,7 @@ public class NucleiSamplePredictiveSim extends PRSFNUM {
         						}
         						subproduct = subproduct * branch.puGetProbability(j);
         					}
-        					if (i==prsfIntZero) {
+        					if (i==prsfIntZero&subsum>=0) {
         						subsum2 = num*subsum*subproduct;
         					} else {
         						subsum2 += prsfIntZero*subsum*subproduct;
@@ -236,7 +236,7 @@ public class NucleiSamplePredictiveSim extends PRSFNUM {
     							}
     							subproduct = subproduct * branch.puGetProbability(j);
     						}
-    						if (i==prsfIntZero) {
+    						if (i==prsfIntZero&subsum>=0) {
     							subsum2 = num*subsum*subproduct;
     						} else {
     							subsum2 += prsfIntZero*subsum*subproduct;
