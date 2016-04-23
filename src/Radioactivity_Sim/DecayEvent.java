@@ -254,6 +254,11 @@ public class DecayEvent extends PRSFNUM {
     	return prStartNucleus;
     }
 
+    public double puGetTimeOffset(){
+    	//returns the (pvTimeOffset) of this (DecayEvent)
+    	return pvTimeOffset;
+    }
+
     public String puGetEndNucleus() {
     	//returns the end nucleus of this (DecayEvent)
     	return prEndNucleus;

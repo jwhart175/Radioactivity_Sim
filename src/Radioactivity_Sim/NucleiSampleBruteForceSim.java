@@ -71,9 +71,12 @@ public class NucleiSampleBruteForceSim extends PRSFNUM {
     private double pvEndTime = prsfIntZero;
     private double[] pvFinalPartNum = new double[prsfIntOne];
     private String[] pvNuclei = new String[prsfIntOne];
+    private double pvNucleiStarter = prsfIntZero;
 
     public NucleiSampleBruteForceSim(int num,String input, double start, double end) {
     	//Constructor for a sample containing a number of nuclei of a single type
+    	pvNucleiStarter = Math.random();
+        pvNuclei[prsfIntZero] = Double.toString(pvNucleiStarter);
         if (num > prsfIntZero) {
             pvRules = new DecayChainRuleSet[prsfIntOne];
             pvRules[prsfIntZero] = new DecayChainRuleSet(input);
@@ -88,6 +91,8 @@ public class NucleiSampleBruteForceSim extends PRSFNUM {
 
     public NucleiSampleBruteForceSim(long num,String input, double start, double end) {
     	//Constructor for a sample containing a number of nuclei of a single type
+    	pvNucleiStarter = Math.random();
+        pvNuclei[prsfIntZero] = Double.toString(pvNucleiStarter);
         if (num > prsfIntZero) {
             pvRules = new DecayChainRuleSet[prsfIntOne];
             pvRules[prsfIntZero] = new DecayChainRuleSet(input);
@@ -102,6 +107,8 @@ public class NucleiSampleBruteForceSim extends PRSFNUM {
 
     public NucleiSampleBruteForceSim() {
     	//Constructor for a sample to be user-defined with the (puAddSpecies) function
+    	pvNucleiStarter = Math.random();
+        pvNuclei[prsfIntZero] = Double.toString(pvNucleiStarter);
     }
 
     public int puGetNumDecayChainRuleSets() {
@@ -162,6 +169,29 @@ public class NucleiSampleBruteForceSim extends PRSFNUM {
     	//Calculate Number of DecayEvents
         String startNucleus = "";
     	double timeOffset = prsfIntZero;
+    	for(int x = prsfIntZero; x < rules.puGetNumRules(); x++){
+	    	boolean newNucleus = true;
+			for(int q = prsfIntZero;q < pvNuclei.length; q++) {
+				if(pvNuclei.length ==prsfIntOne){
+					if(Double.toString(pvNucleiStarter).compareTo(pvNuclei[prsfIntZero])==prsfIntZero){
+						newNucleus = false;
+						pvNuclei[prsfIntZero] = rules.puGetStartNucleus(x);
+						break;
+					}
+				}
+				if(pvNuclei[q].compareTo(rules.puGetStartNucleus(x))==prsfIntZero){
+					newNucleus = false;
+				}
+			}
+			if(newNucleus){
+				String[] nuclei = new String[pvNuclei.length+prsfIntOne];
+				for(int q = prsfIntZero;q < pvNuclei.length; q++) {
+					nuclei[q] = pvNuclei[q];
+				}
+				nuclei[pvNuclei.length] = rules.puGetStartNucleus(x);
+				pvNuclei = nuclei;
+			}
+    	}
     	for(int x = prsfIntZero; x<num; x++) {
     		timeOffset = prsfIntZero;
     		startNucleus = rules.puGetStartNucleus(prsfIntZero);
@@ -237,6 +267,29 @@ public class NucleiSampleBruteForceSim extends PRSFNUM {
     	//Calculate Number of DecayEvents
     	String startNucleus = "";
     	double timeOffset = prsfIntZero;
+    	for(int x = prsfIntZero; x < rules.puGetNumRules(); x++){
+	    	boolean newNucleus = true;
+			for(int q = prsfIntZero;q < pvNuclei.length; q++) {
+				if(pvNuclei.length ==prsfIntOne){
+					if(Double.toString(pvNucleiStarter).compareTo(pvNuclei[prsfIntZero])==prsfIntZero){
+						newNucleus = false;
+						pvNuclei[prsfIntZero] = rules.puGetStartNucleus(x);
+						break;
+					}
+				}
+				if(pvNuclei[q].compareTo(rules.puGetStartNucleus(x))==prsfIntZero){
+					newNucleus = false;
+				}
+			}
+			if(newNucleus){
+				String[] nuclei = new String[pvNuclei.length+prsfIntOne];
+				for(int q = prsfIntZero;q < pvNuclei.length; q++) {
+					nuclei[q] = pvNuclei[q];
+				}
+				nuclei[pvNuclei.length] = rules.puGetStartNucleus(x);
+				pvNuclei = nuclei;
+			}
+    	}
     	for(long x = prsfIntZero; x<num; x++) {
     		timeOffset = prsfIntZero;
     		startNucleus = rules.puGetStartNucleus(prsfIntZero);
@@ -346,6 +399,52 @@ public class NucleiSampleBruteForceSim extends PRSFNUM {
     public double puGetEndTime(){
     	//returns the (pvEndTime) of this (NucleiSampleBruteForceSim)
     	return pvEndTime;
+    }
+
+    public String puGetAllEndTimeNucleiCounts() {
+    	//Returns a string containing all of the final counts for all nuclei at (pvEndTime) within this (NucleiSamplePredictiveSim)
+    	StringBuilder text = new StringBuilder();
+    	text.append("The nuclei counts at "+pvEndTime+" are: " + System.getProperty("line.separator"));
+    	double[] endTimePartNum = new double[pvNuclei.length];
+    	for(int x = prsfIntZero; x < pvNumDecayEvents; x++){
+    		for(int y = prsfIntZero; y < pvNuclei.length; y++) {
+    			if((pvEndTime<pvDecayEvents[x].puGetTime())&(pvEndTime>=pvDecayEvents[x].puGetTimeOffset())&(pvNuclei[y].compareTo(pvDecayEvents[x].puGetStartNucleus())==0)){
+    				endTimePartNum[y]++;
+    			}
+    		}
+    	}
+    	for(int q = prsfIntZero; q < pvNuclei.length; q++) {
+			text.append("At t = " + pvEndTime + ", the number of remaining " + pvNuclei[q] + " = " + endTimePartNum[q] + System.getProperty("line.separator"));
+		}
+    	return text.toString();
+    }
+
+    public String puGetAllStartTimeNucleiCounts() {
+    	//Returns a string containing all of the final counts for all nuclei at (pvEndTime) within this (NucleiSamplePredictiveSim)
+    	StringBuilder text = new StringBuilder();
+    	text.append("The nuclei counts at "+pvStartTime+" are: " + System.getProperty("line.separator"));
+    	double[] startTimePartNum = new double[pvNuclei.length];
+    	for(int x = prsfIntZero; x < pvNumDecayEvents; x++){
+    		for(int y = prsfIntZero; y < pvNuclei.length; y++) {
+    			if((pvStartTime<pvDecayEvents[x].puGetTime())&(pvStartTime>=pvDecayEvents[x].puGetTimeOffset())&(pvNuclei[y].compareTo(pvDecayEvents[x].puGetStartNucleus())==0)){
+    				startTimePartNum[y]++;
+    			}
+    		}
+    	}
+    	for(int q = prsfIntZero; q < pvNuclei.length; q++) {
+			text.append("At t = " + pvStartTime + ", the number of remaining " + pvNuclei[q] + " = " + startTimePartNum[q] + System.getProperty("line.separator"));
+		}
+    	return text.toString();
+    }
+
+    public String puGetAllEventCountsOverTimeRangeByNuclei(double start, double end) {
+    	//Returns a string containing all of the event counts for all nuclei over the specified time rante within this (NucleiSamplePredictiveSim)
+    	StringBuilder text = new StringBuilder();
+    	text.append("The final decay counts are: " + System.getProperty("line.separator"));
+    	for(int q = prsfIntZero; q < pvNuclei.length; q++) {
+			text.append("The number of decays of " + pvNuclei[q] + " = " + puGetEventNumForStartNucleusOverTimeRange(start,end,pvNuclei[q]) + System.getProperty("line.separator"));
+		}
+    	return text.toString();
     }
 
     public String puGetAllDecayEventData() {

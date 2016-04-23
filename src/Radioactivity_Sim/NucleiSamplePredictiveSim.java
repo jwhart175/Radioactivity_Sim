@@ -199,10 +199,14 @@ public class NucleiSamplePredictiveSim extends PRSFNUM {
         					if (i==prsfIntZero) {
         						subsum2 = num*subsum*subproduct;
         					} else {
-        						subsum2 = subsum2 + prsfIntZero*subsum*subproduct;
+        						subsum2 += prsfIntZero*subsum*subproduct;
         					}
         				}
-        				startNumTime[w][n] = subsum2;
+        				if(pvStartTime==0&w==0){
+        					startNumTime[w][n] = num * branch.puGetProbability(0);
+        				} else {
+        					startNumTime[w][n] = subsum2;
+        				}
         				eventNum[w][n] = startNumTime[w][n]*(1-Math.exp(-(delta*prsfDoubleLN2/branch.puGetHalfLife(n))));
         				if(eventNum[w][n]>prsfIntZero){
         					DecayEventSet instance = new DecayEventSet(eventNum[w][n],false,pvStartTime+w*delta,pvStartTime+(w+prsfIntOne)*delta,branch.puGetStartNucleus(n),branch.puGetEndNucleus(n),branch.puGetHalfLife(n),branch.puGetEnergy(n),branch.puGetType(n));
@@ -235,10 +239,14 @@ public class NucleiSamplePredictiveSim extends PRSFNUM {
     						if (i==prsfIntZero) {
     							subsum2 = num*subsum*subproduct;
     						} else {
-    							subsum2 = subsum2 + prsfIntZero*subsum*subproduct;
+    							subsum2 += prsfIntZero*subsum*subproduct;
     						}
     					}
-    					startNumTime[w][n] = subsum2;
+    					if(pvStartTime==0&w==0){
+        					startNumTime[w][n] = 0;
+        				} else {
+        					startNumTime[w][n] = subsum2;
+        				}
     					if(w>prsfIntZero){
     						//System.out.println("startNumTime["+(w)+"]["+n+"] = " + startNumTime[w][n]);
     						//System.out.println("startNumTime["+(w-prsfIntOne)+"]["+n+"] = " + startNumTime[w-prsfIntOne][n]);
