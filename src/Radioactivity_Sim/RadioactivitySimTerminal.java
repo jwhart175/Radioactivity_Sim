@@ -61,18 +61,22 @@ public class RadioactivitySimTerminal extends JFrame {
         pvTextPane = new JTextPane();
         pvTextPane.setCaretPosition(0);
         pvTextPane.setMargin(new Insets(8,8,8,8));
+        pvTextPane.setForeground(Color.WHITE);
+        pvTextPane.setBackground(Color.DARK_GRAY);
         JScrollPane scrollPane = new JScrollPane(pvTextPane);
         scrollPane.setPreferredSize(new Dimension(800, 400));
         pvTextPane.setEditable(false);
         pvTextField = new JTextField();
         pvTextField.setMargin(new Insets(8,8,8,8));
+        pvTextField.setForeground(Color.WHITE);
+        pvTextField.setBackground(Color.DARK_GRAY);
         pvTextField.setEditable(true);
         getContentPane().add(scrollPane, BorderLayout.CENTER);
         getContentPane().add(pvTextField, BorderLayout.PAGE_START);
-        String initString = "Welcome to Radioactivity_Sim Terminal" + System.getProperty("line.separator") + "Enter 'help' for command list" +System.getProperty("line.separator");
+        String initString = "Welcome to Radioactivity_Sim Terminal" + System.getProperty("line.separator") + "Enter 'help' for command list, or 'example' for examples" +System.getProperty("line.separator");
         pvTextPane.setText(initString + "Or get started by checking the current input directory with 'get inputDir'" + System.getProperty("line.separator"));
         pvTextPane.setCaretPosition(0);
-        pvTextField.addKeyListener(new prTerminalKeyListener());;
+        pvTextField.addKeyListener(new prTerminalKeyListener());
     }
 
     private class prTerminalKeyListener
@@ -216,6 +220,7 @@ public class RadioactivitySimTerminal extends JFrame {
     		currentText.append(System.getProperty("line.separator"));
     		currentText.append(">: get <BFSample or PSample> <num, energy, power> <startTime> <endTime>" + System.getProperty("line.separator"));
     		currentText.append("This command returns number, energy sum, or average radiated power contained within the NucleiSamplePredictiveSim or NucleiSampleBruteForceSim which occur between <startTime> and <endTime>." + System.getProperty("line.separator"));
+    		currentText.append(System.getProperty("line.separator"));
     		currentText.append(">: get <BFSample or PSample> <num, energy, power> all <TypeOrName>" + System.getProperty("line.separator"));
     		currentText.append("This command returns overall number, energy sum, or average radiated power contained within the NucleiSamplePredictiveSim or NucleiSampleBruteForceSim for the specified type or starting nucleus." + System.getProperty("line.separator"));
     		currentText.append(System.getProperty("line.separator"));
@@ -251,8 +256,35 @@ public class RadioactivitySimTerminal extends JFrame {
     		currentText.append(System.getProperty("line.separator"));
     		currentText.append(">: <AnyOtherCommand> > <File> "+ System.getProperty("line.separator"));
     		currentText.append("This command appends the output of whatever <command> precedes it into the specified <file>. "+ System.getProperty("line.separator"));
-    		pvTextPane.setText(pastText.append(currentText).toString());
-        }
+    	}
+    	if(commandString.contains("example")){
+    		currentText.append(System.getProperty("line.separator"));
+    		currentText.append("To get started, type: " + System.getProperty("line.separator"));
+    		currentText.append(">: get inputDir" + System.getProperty("line.separator"));
+    		currentText.append("This command will attempt to read the files in the current input directory.  If those files are not the Radioactivity_Sim input files, then use the following:" + System.getProperty("line.separator"));
+    		currentText.append(">: set inputDir <directory>" + System.getProperty("line.separator"));
+    		currentText.append("This command will display the files in the chosen directory for user feedback." + System.getProperty("line.separator"));
+    		currentText.append("The next thing a typical user will want to do is create a new PSample with the following command:" + System.getProperty("line.separator"));
+    		currentText.append(">: new PSample <NumberOfNuclei> <InputFile> <startTime> <endTime> <resolution>" + System.getProperty("line.separator"));
+    		currentText.append("Where <NumberOfNuclei> is the number of atoms (use mass to convert to moles and Avogadro's number to convert to nuclei)" + System.getProperty("line.separator"));
+    		currentText.append("          Note that for any large number, the program can read the standard 6.022E5 notation (for 602200)" + System.getProperty("line.separator"));
+    		currentText.append("          But don't use any commas in the numbers." + System.getProperty("line.separator"));
+    		currentText.append("      <InputFile> is the file name of the decay chain rule set (such as 'U238' or 'RA224', many are supplied with this program)" + System.getProperty("line.separator"));
+    		currentText.append("      <startTime> and <endTime> are numbers representing times in seconds, like the <NumberOfNuclei> these numbers are double format" + System.getProperty("line.separator"));
+    		currentText.append("      <resolution> is an integer telling the program how many subdivisions you want the time period to be carved into for accuracy" + System.getProperty("line.separator"));
+    		currentText.append("EXAMPLE: new PSample 1E26 U238 0 1E13 100" + System.getProperty("line.separator"));
+        	currentText.append("This command creates a new predictive sim sample of 10^26 uranium 238 nuclei and then calculates the decays which occur"  + System.getProperty("line.separator"));
+        	currentText.append("between the instant they come into being at t = 0, and the end time of t = 10^13 seconds"  + System.getProperty("line.separator"));
+        	currentText.append("Next the user can get some data from that new sample:"  + System.getProperty("line.separator"));
+        	currentText.append(">: get PSample" + System.getProperty("line.separator"));
+        	currentText.append(">: get PSample countList start" + System.getProperty("line.separator"));
+        	currentText.append(">: get PSample countList end" + System.getProperty("line.separator"));
+        	currentText.append(">: get PSample countList event" + System.getProperty("line.separator"));
+        	currentText.append(">: get PSample power 0 1E8 PA234" + System.getProperty("line.separator"));
+        	currentText.append("Similar commands can be used to construct a brute force sample, but that module may take" + System.getProperty("line.separator"));
+        	currentText.append("an incredibly long amount of time to calculate high quantities. Start by limiting <NumberOfNuclei>" + System.getProperty("line.separator"));
+        	currentText.append("for that module to 10^5 and seeing how well your machine handles it." + System.getProperty("line.separator"));
+    	}
     	String splits[];
     	if(commandString.contains(" > ")){
     		String[] parse = commandString.split(" > ");
@@ -283,8 +315,7 @@ public class RadioactivitySimTerminal extends JFrame {
     		if(splits[0].compareTo("set")==0){
     			currentText.append(pvSetCommands(splits));
     		}
-    		pvTextPane.setText(pastText.append(currentText).toString());
-    	}
+		}
        	if(splits[0].length()>=13){
 	    	if(splits[0].compareTo("verification1")==0){
 	    		String file = splits[splits.length-1];
@@ -294,8 +325,7 @@ public class RadioactivitySimTerminal extends JFrame {
 	    		} catch(Exception e) {
 	    			currentText.append(e.getClass() + " Occurred!" + System.getProperty("line.separator"));
 					currentText.append(e.getCause() + System.getProperty("line.separator"));
-					pvTextPane.setText(pastText.append(currentText).toString());
-	    		}
+				}
 	    	}
 	    	if(splits[0].compareTo("verification2")==0){
 	    		String file = splits[splits.length-1];
@@ -305,8 +335,7 @@ public class RadioactivitySimTerminal extends JFrame {
 	    		} catch(Exception e) {
 	    			currentText.append(e.getClass() + " Occurred!" + System.getProperty("line.separator"));
 					currentText.append(e.getCause() + System.getProperty("line.separator"));
-					pvTextPane.setText(pastText.append(currentText).toString());
-	    		}
+				}
 	    	}
 	    	if(splits[0].compareTo("verification3")==0){
 	    		String file = splits[splits.length-1];
@@ -316,8 +345,7 @@ public class RadioactivitySimTerminal extends JFrame {
 	    		} catch(Exception e) {
 	    			currentText.append(e.getClass() + " Occurred!" + System.getProperty("line.separator"));
 					currentText.append(e.getCause() + System.getProperty("line.separator"));
-					pvTextPane.setText(pastText.append(currentText).toString());
-	    		}
+				}
 	    	}
 	    	if(splits[0].compareTo("verification4 ")==0){
 	    		String file = splits[splits.length-1];
@@ -327,17 +355,19 @@ public class RadioactivitySimTerminal extends JFrame {
 	    		} catch(Exception e) {
 	    			currentText.append(e.getClass() + " Occurred!" + System.getProperty("line.separator"));
 					currentText.append(e.getCause() + System.getProperty("line.separator"));
-					pvTextPane.setText(pastText.append(currentText).toString());
-	    		}
+				}
 	    	}
     	}
     	if(splits[0].length()>=5){
 	    	if(splits[0].compareTo("clear")==0){
 	    		currentText = new StringBuilder();
 	    		currentText.append(">:" + System.getProperty("line.separator"));
-	    		pvTextPane.setText(currentText.toString());
 	    	}
     	}
+    	//write the final output to the terminal
+    	pastText.append(currentText);
+		pvTextPane.setText(pastText.toString());
+		//write the final output to a file if pipe requested
     	if(writeToFile){
     		try{
     			pvScrivener.puAppendStringToFile(fileNum-1, currentText.toString());
