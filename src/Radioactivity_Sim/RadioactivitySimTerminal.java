@@ -70,6 +70,7 @@ public class RadioactivitySimTerminal extends JFrame {
         pvTextField.setMargin(new Insets(8,8,8,8));
         pvTextField.setForeground(Color.WHITE);
         pvTextField.setBackground(Color.DARK_GRAY);
+        pvTextField.setCaretColor(Color.WHITE);
         pvTextField.setEditable(true);
         getContentPane().add(scrollPane, BorderLayout.CENTER);
         getContentPane().add(pvTextField, BorderLayout.PAGE_START);
@@ -89,16 +90,20 @@ public class RadioactivitySimTerminal extends JFrame {
         }
         public void keyPressed(KeyEvent e){
         	//scroll back through old commands when up or down keys are pressed
-        	if(e.getKeyCode()==38){
-        		if(pvCommandIndex>0){
-        			pvCommandIndex--;
-        		}
-        		pvTextField.setText(pvCommandLog[pvCommandIndex]);
-        	} else if(e.getKeyCode()==40){
-        		if(pvCommandIndex<(pvCommandLog.length-1)){
-        			pvCommandIndex++;
-        		}
-        		pvTextField.setText(pvCommandLog[pvCommandIndex]);
+        	try {
+	        	if(e.getKeyCode()==38){
+	        		if(pvCommandIndex>0){
+	        			pvCommandIndex--;
+	        		}
+	        		pvTextField.setText(pvCommandLog[pvCommandIndex]);
+	        	} else if(e.getKeyCode()==40){
+	        		if(pvCommandIndex<(pvCommandLog.length-1)){
+	        			pvCommandIndex++;
+	        		}
+	        		pvTextField.setText(pvCommandLog[pvCommandIndex]);
+	        	}
+        	} catch (Exception err) {
+        		//nothing
         	}
         }
         public void keyReleased(KeyEvent e){
@@ -203,6 +208,9 @@ public class RadioactivitySimTerminal extends JFrame {
     		currentText.append(">: clear" + System.getProperty("line.separator"));
     		currentText.append("This command clears the console." + System.getProperty("line.separator"));
     		currentText.append(System.getProperty("line.separator"));
+    		currentText.append(">: <exit or quit>" + System.getProperty("line.separator"));
+    		currentText.append("This command closes the console, no work will be saved." + System.getProperty("line.separator"));
+    		currentText.append(System.getProperty("line.separator"));
     		currentText.append(">: get inputDir" + System.getProperty("line.separator"));
     		currentText.append("This command returns the current dirctory from which the program is reading input files, and the contents thereof." + System.getProperty("line.separator"));
     		currentText.append(System.getProperty("line.separator"));
@@ -301,8 +309,15 @@ public class RadioactivitySimTerminal extends JFrame {
 		} else {
 			splits = commandString.split(" ");
 		}
-
-		if(splits[0].length()>=3) {
+    	if(splits[0].length()==4){
+	    	if(splits[0].compareTo("quit")==0){
+	    		this.dispose();
+	    	}
+	    	if(splits[0].compareTo("exit")==0){
+	    		this.dispose();
+	    	}
+    	}
+	    if(splits[0].length()==3) {
     		if(splits[0].compareTo("add")==0){
     			currentText.append(pvAddCommands(splits));
     		}
@@ -316,12 +331,12 @@ public class RadioactivitySimTerminal extends JFrame {
     			currentText.append(pvSetCommands(splits));
     		}
 		}
-       	if(splits[0].length()>=13){
+       	if(splits[0].length()==13){
 	    	if(splits[0].compareTo("verification1")==0){
 	    		String file = splits[splits.length-1];
 	    		file = file.substring(0,file.length());
 	    		try{
-	    			pvVerification1(file);
+	    			currentText.append(pvVerification1(file));
 	    		} catch(Exception e) {
 	    			currentText.append(e.getClass() + " Occurred!" + System.getProperty("line.separator"));
 					currentText.append(e.getCause() + System.getProperty("line.separator"));
@@ -331,7 +346,7 @@ public class RadioactivitySimTerminal extends JFrame {
 	    		String file = splits[splits.length-1];
 	    		file = file.substring(0,file.length());
 	    		try{
-	    			pvVerification2(file);
+	    			currentText.append(pvVerification2(file));
 	    		} catch(Exception e) {
 	    			currentText.append(e.getClass() + " Occurred!" + System.getProperty("line.separator"));
 					currentText.append(e.getCause() + System.getProperty("line.separator"));
@@ -341,26 +356,28 @@ public class RadioactivitySimTerminal extends JFrame {
 	    		String file = splits[splits.length-1];
 	    		file = file.substring(0,file.length());
 	    		try{
-	    			pvVerification3(file);
+	    			currentText.append(pvVerification3(file));
 	    		} catch(Exception e) {
 	    			currentText.append(e.getClass() + " Occurred!" + System.getProperty("line.separator"));
 					currentText.append(e.getCause() + System.getProperty("line.separator"));
 				}
 	    	}
-	    	if(splits[0].compareTo("verification4 ")==0){
+	    	if(splits[0].compareTo("verification4")==0){
 	    		String file = splits[splits.length-1];
 	    		file = file.substring(0,file.length());
 	    		try{
-	    			pvVerification4(file);
+	    			currentText.append(pvVerification4(file));
 	    		} catch(Exception e) {
 	    			currentText.append(e.getClass() + " Occurred!" + System.getProperty("line.separator"));
 					currentText.append(e.getCause() + System.getProperty("line.separator"));
 				}
 	    	}
     	}
-    	if(splits[0].length()>=5){
+    	if(splits[0].length()==5){
 	    	if(splits[0].compareTo("clear")==0){
 	    		currentText = new StringBuilder();
+	    		pastText = new StringBuilder();
+	    		pvTextPane.setText("");
 	    		currentText.append(">:" + System.getProperty("line.separator"));
 	    	}
     	}
@@ -1079,7 +1096,7 @@ public class RadioactivitySimTerminal extends JFrame {
     	}
     }
 
-    private void pvVerification1(String file){
+    private StringBuilder pvVerification1(String file){
     	//Runs the verification1 test script and outputs it to (file)
 
     	double numRA224 = 0, numRN220 = 0, startTime = 0, endTime = 0;
@@ -1088,13 +1105,6 @@ public class RadioactivitySimTerminal extends JFrame {
     	Calendar cal = Calendar.getInstance();
     	Date date = cal.getTime();
     	long now = date.getTime();
-    	//read text in from pvTextField
-    	String commandString = pvTextField.getText();
-    	pvTextField.setText("");
-    	//print command in pvTextPane
-    	String currentText = pvTextPane.getText();
-    	currentText = currentText + "\n" + commandString;
-    	pvTextPane.setText(currentText);
 
     	int resolution = 1;
     	numRA224 = Math.pow(10, 5);
@@ -1157,19 +1167,21 @@ public class RadioactivitySimTerminal extends JFrame {
     		data.append(System.getProperty("line.separator"));
     	}
     	//retrieve the calculation time
-    	data.append("Calculation Time = " + (Calendar.getInstance().getTime().getTime() - now) + System.getProperty("line.separator"));
+    	data.append("Calculation Time = " + (Calendar.getInstance().getTime().getTime() - now) + " ms" + System.getProperty("line.separator"));
     	data.append(">: " + System.getProperty("line.separator"));
     	pvScrivener.puOpenNewFile(file);
     	fileNum = pvScrivener.puGetNumFiles();
     	pvScrivener.puAppendStringToFile(fileNum-1, data.toString());
     	pvScrivener.puCloseFile(fileNum-1);
     	//write the output to pvTextPane
-    	currentText = currentText + "\n" + data.toString();
-    	pvTextPane.setText(currentText);
-
+    	StringBuilder currentText = new StringBuilder();
+    	currentText.append(pvTextPane.getText());
+    	currentText.append(data);
+    	pvTextPane.setText(currentText.toString());
+    	return currentText;
     }
 
-    private void pvVerification2(String file){
+    private StringBuilder pvVerification2(String file){
     	//Runs the verification2 test script and outputs it to (file)
 
     	double numU238 = Math.pow(10, 26);
@@ -1181,13 +1193,6 @@ public class RadioactivitySimTerminal extends JFrame {
     	Calendar cal = Calendar.getInstance();
     	Date date = cal.getTime();
     	long now = date.getTime();
-    	//read text in from pvTextField
-    	String commandString = pvTextField.getText();
-    	pvTextField.setText("");
-    	//print command in pvTextPane
-    	String currentText = pvTextPane.getText();
-    	currentText = currentText + "\n" + commandString;
-    	pvTextPane.setText(currentText);
 
     	int resolution = 10;
     	pvPredictiveSample = new NucleiSamplePredictiveSim(numU238,"/home/user/git/Radioactivity_Sim/input/U238test",startTime,endTime,resolution);
@@ -1254,18 +1259,21 @@ public class RadioactivitySimTerminal extends JFrame {
     		data.append(System.getProperty("line.separator"));
     	}
     	//retrieve the calculation time
-    	data.append("Calculation Time = " + (Calendar.getInstance().getTime().getTime() - now) + System.getProperty("line.separator"));
+    	data.append("Calculation Time = " + (Calendar.getInstance().getTime().getTime() - now) + " ms"  + System.getProperty("line.separator"));
     	data.append(">: " + System.getProperty("line.separator"));
     	pvScrivener.puOpenNewFile(file);
     	fileNum = pvScrivener.puGetNumFiles();
     	pvScrivener.puAppendStringToFile(fileNum-1, data.toString());
     	pvScrivener.puCloseFile(fileNum-1);
     	//write the output to pvTextPane
-    	currentText = currentText + "\n" + data.toString();
-    	pvTextPane.setText(currentText);
+    	StringBuilder currentText = new StringBuilder();
+    	currentText.append(pvTextPane.getText());
+    	currentText.append(data);
+    	pvTextPane.setText(currentText.toString());
+    	return currentText;
     }
 
-    private void pvVerification3(String file){
+    private StringBuilder pvVerification3(String file){
     	//Runs the verification3 test script and outputs it to (file)
 
     	double startTime = 0, endTime = 0;
@@ -1274,13 +1282,6 @@ public class RadioactivitySimTerminal extends JFrame {
     	Calendar cal = Calendar.getInstance();
     	Date date = cal.getTime();
     	long now = date.getTime();
-    	//read text in from pvTextField
-    	String commandString = pvTextField.getText();
-    	pvTextField.setText("");
-    	//print command in pvTextPane
-    	String currentText = pvTextPane.getText();
-    	currentText = currentText + "\n" + commandString;
-    	pvTextPane.setText(currentText);
 
     	int resolution = 10;
     	startTime = 0; endTime = 100;
@@ -1337,18 +1338,21 @@ public class RadioactivitySimTerminal extends JFrame {
 		data.append("Ave. Total Energy = " + (sumEnergy8/20.0) + " MeV" + System.getProperty("line.separator"));
 		data.append(System.getProperty("line.separator"));
     	//retrieve the calculation time
-    	data.append("Calculation Time = " + (Calendar.getInstance().getTime().getTime() - now) + System.getProperty("line.separator"));
+    	data.append("Calculation Time = " + (Calendar.getInstance().getTime().getTime() - now) + " ms"  + System.getProperty("line.separator"));
     	data.append(">: " + System.getProperty("line.separator"));
     	pvScrivener.puOpenNewFile(file);
     	fileNum = pvScrivener.puGetNumFiles();
     	pvScrivener.puAppendStringToFile(fileNum-1, data.toString());
     	pvScrivener.puCloseFile(fileNum-1);
     	//write the output to pvTextPane
-    	currentText = currentText + "\n" + data.toString();
-    	pvTextPane.setText(currentText);
+    	StringBuilder currentText = new StringBuilder();
+    	currentText.append(pvTextPane.getText());
+    	currentText.append(data);
+    	pvTextPane.setText(currentText.toString());
+    	return currentText;
     }
 
-    private void pvVerification4(String file){
+    private StringBuilder pvVerification4(String file){
     	//Runs the verification4 test script and outputs it to (file)
 
     	double startTime = 0, endTime = 0;
@@ -1357,13 +1361,6 @@ public class RadioactivitySimTerminal extends JFrame {
     	Calendar cal = Calendar.getInstance();
     	Date date = cal.getTime();
     	long now = date.getTime();
-    	//read text in from pvTextField
-    	String commandString = pvTextField.getText();
-    	pvTextField.setText("");
-    	//print command in pvTextPane
-    	String currentText = pvTextPane.getText();
-    	currentText = currentText + "\n" + commandString;
-    	pvTextPane.setText(currentText);
 
     	int resolution = 10;
     	startTime = 3*1.409*Math.pow(10,18)-Math.pow(10,13); endTime = 3*1.409*Math.pow(10,18);
@@ -1423,15 +1420,17 @@ public class RadioactivitySimTerminal extends JFrame {
     		data.append(System.getProperty("line.separator"));
     	}
     	//retrieve the calculation time
-    	data.append("Calculation Time = " + (Calendar.getInstance().getTime().getTime() - now) + System.getProperty("line.separator"));
+    	data.append("Calculation Time = " + (Calendar.getInstance().getTime().getTime() - now) + " ms"  + System.getProperty("line.separator"));
     	data.append(">: " + System.getProperty("line.separator"));
     	pvScrivener.puOpenNewFile(file);
     	fileNum = pvScrivener.puGetNumFiles();
     	pvScrivener.puAppendStringToFile(fileNum-1, data.toString());
     	pvScrivener.puCloseFile(fileNum-1);
     	//write the output to pvTextPane
-    	currentText = currentText + "\n" + data.toString();
-    	pvTextPane.setText(currentText);
+    	StringBuilder currentText = new StringBuilder();
+    	currentText.append(pvTextPane.getText());
+    	currentText.append(data);
+    	return currentText;
     }
 
 }
