@@ -1,0 +1,74 @@
+#Radioactivity Sim Decay Chain Input File
+#Data:
+#STRING1 = Initial Nucleus (no spaces)
+#STRING2 = Ending Nucleus  (no spaces)
+#STRING3 = alpha, beta-, beta+, or gamma (no spaces)
+#DOUBLE1 = EndNucleus to StartNucleus energy difference in MEV (no commas, no carats, greater than 0)
+#DOUBLE2 = halflife in seconds (no commas, no carats, greater than 0)(note
+#DOUBLE3 = probability (no commas, no carats, between 0 and 1)
+#Rule Format:
+#Rules are separated by lines, each line must have the following format:
+#STRING1 STRING2 STRING3 DOUBLE1 DOUBLE2 DOUBLE3
+#If a given rule has coincident radiation like gamma or x-rays then those are added with:
+#& STRING4 DOUBLE4 DOUBLE5
+#where STRING4 is the photon name
+#      DOUBLE4 is the photon energy in MeV
+#      DOUBLE5 is the photon percent intensity
+#It is useful to track these in order to get a complete radiation picture
+#If a given rule has multiple beta emmission energies, then these can be tracked with:
+#$ STRING5 DOUBLE6 DOUBLE7
+#where STRING5 is the beta name
+#      DOUBLE6 is the beta end point energy in MeV
+#      DOUBLE7 is the beta percent intensity
+#It is useful to track these in order to get a complete radiation picture
+#*************************************************************
+ZR95 NB95 beta- 1.1236 230515.2 0.9892
+$ beta- 1.1236 0.00103
+$ beta- 0.3994 0.4434
+$ beta- 0.3669 0.5446
+& gamma 0.724192 0.4427
+& gamma 0.756725 0.5438
+ZR95 235.7NB95 beta- 0.8879 230515.2 0.0108
+$ beta- 0.8879 0.0108
+235.7NB95 MO95 beta- 0.9256 311904 0.056
+$ beta- 0.1210 1.4E-7
+$ beta- 0.3397 3.7E-6
+$ beta- 0.3741 0.00071
+$ beta- 0.9562 0.024
+$ beta- 1.1603 0.032
+& XR1 0.00229 0.0000455
+& XRka2 0.017374 0.000231
+& XRka1 0.017479 0.000439
+& XRkb3 0.01959 0.0000352
+& XRkb1 0.019607 0.0000681
+& XRkb2 0.019965 0.0000149
+& gamma 0.2041161 0.023
+& gamma 0.218640 3E-10
+& gamma 0.253070 6E-9
+& gamma 0.5820775 0.00048
+& gamma 0.616507 9.5E-7
+& gamma 0.7861922 0.000134
+& gamma 0.820622 3.4E-6
+& gamma 0.835146 3E-7
+& gamma 1.039260 3E-8
+235.7NB95 NB95 IT 0 311904 0.944
+& XR1 0.00217 0.0241
+& XRka2 0.016521 0.122
+& XRka1 0.016615 0.234
+& XRkb3 0.018607 0.0183
+& XRkb1 0.018623 0.0355
+& XRkb2 0.018952 0.00805
+& gamma 0.235690 0.248
+NB95 MO95 0.9256 3023222.4 1
+$ beta- 0.1598 0.9997
+$ beta- 0.7215 1E-5
+$ beta- 0.9256 0.0003
+& XR1 0.00229 0.0000558
+& XRka2 0.017374 0.000287
+& XRka1 0.017479 0.000546
+& XRkb3 0.01959 0.0000437
+& XRkb1 0.019607 0.000085
+& XRkb2 0.019965 0.0000186
+& gamma 0.2041161 0.00028
+& gamma 0.56188 0.00015
+& gamma 0.765803 0.99808

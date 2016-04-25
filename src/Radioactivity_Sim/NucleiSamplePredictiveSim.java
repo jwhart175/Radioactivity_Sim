@@ -145,9 +145,9 @@ public class NucleiSamplePredictiveSim extends PRSFNUM {
     	double delta = (pvEndTime-pvStartTime)/pvResolution;
     	//System.out.println("delta = " + delta);
     	String[] nuclei = new String[prsfIntOne];
-    	DecayRuleBranch branch = new DecayRuleBranch();
+    	DecayChainRuleBranch branch = new DecayChainRuleBranch();
     	for (int x = prsfIntZero; x<numBranches ;x++) {
-    		branch = rules.puGetDecayRuleBranch(x);
+    		branch = rules.puGetDecayChainRuleBranch(x);
     		int numRules = branch.puGetNumRules();
     		eventNum = new double[pvResolution+prsfIntOne][numRules];
     		finalPartNum = new double[numRules];
