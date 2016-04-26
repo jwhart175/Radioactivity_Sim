@@ -58,8 +58,12 @@ public class DecayChainRuleBranch extends PRSFNUM{
 	 * protected static final int prsfInt3600 = 3600;
 	 * protected static final int prsfIntMinusOne = -1;
 	 * protected static final int prsfIntZero = 0;
-	 * protected static final int prsfIntOne = 0;
+	 * protected static final int prsfIntOne = 1;
 	 * protected static final int prsfIntTwo = 2;
+	 * protected static final int prsfIntThree = 3
+	 * protected static final int prsfIntFour = 4;
+	 * protected static final int prsfIntFive = 5;
+	 * protected static final int prsfIntSix = 6;
 	 * protected static final int[] prsfDetailedTest = ...
 	 */
 
@@ -68,6 +72,16 @@ public class DecayChainRuleBranch extends PRSFNUM{
 
 	public DecayChainRuleBranch(){
 		//Basic Constructor
+	}
+
+	public DecayChainRuleBranch(DecayChainRuleBranch branch){
+		//Constructs a new, independent rule branch from an existing one
+		prNumRule = new Integer(branch.puGetNumRules());
+		DecayChainRule[] rules = new DecayChainRule[prNumRule];
+		for (int x = prsfIntZero; x < prNumRule; x++){
+			rules[x] = new DecayChainRule(branch.puGetRule(x));
+		}
+		prRules = rules;
 	}
 
 	public int puAddRule(String start, String end, String type, double energy, double halflife, double probability) {
@@ -79,7 +93,7 @@ public class DecayChainRuleBranch extends PRSFNUM{
 		} else {
 			DecayChainRule[] r = new DecayChainRule[prNumRule+prsfIntOne];
 			for(int x = prsfIntZero; x<prNumRule; x++){
-				r[x] = prRules[x];
+				r[x] = new DecayChainRule(prRules[x]);
 			}
 			r[prNumRule] = new DecayChainRule(start,end,type,energy,halflife,probability);
 			prRules = r;
@@ -97,7 +111,7 @@ public class DecayChainRuleBranch extends PRSFNUM{
 		} else {
 			DecayChainRule[] r = new DecayChainRule[prNumRule+prsfIntOne];
 			for(int x = prsfIntZero; x<prNumRule; x++){
-				r[x] = prRules[x];
+				r[x] = new DecayChainRule(prRules[x]);
 			}
 			r[prNumRule] = new DecayChainRule(rule);
 			prRules = r;
@@ -166,6 +180,27 @@ public class DecayChainRuleBranch extends PRSFNUM{
 			}
 		} else {
 			System.out.println("(puAddAlphaToRule) has failed! There aren't any rules in this (DecayChainRuleBranch)!");
+		}
+	}
+
+	public void puAddNeutronToRule(int index, String name, double energy, double intensity){
+		//Adds a Neutron to the rule at the specified index
+		if(prNumRule>0) {
+			if(index>=0) {
+				if(index<prNumRule){
+					if(energy>0&intensity>0){
+						prRules[index].puAddNeutron(name, energy, intensity);
+					} else {
+						System.out.println("(puAddNeutronToRule) has failed! The supplied energy and intensity must be greater than zero!");
+					}
+				} else {
+					System.out.println("(puAddNeutronToRule) has failed! The supplied index is out of bounds!");
+				}
+			} else {
+				System.out.println("(puAddNeutronToRule) has failed! The supplied index must be greater than zero!");
+			}
+		} else {
+			System.out.println("(puAddNeutronToRule) has failed! There aren't any rules in this (DecayChainRuleBranch)!");
 		}
 	}
 
@@ -303,7 +338,7 @@ public class DecayChainRuleBranch extends PRSFNUM{
 		if(prNumRule>0) {
 			if(index>=0) {
 				if(index<prNumRule){
-					return prRules[index];
+					return (new DecayChainRule(prRules[index]));
 				} else {
 					System.out.println("(puGetRule) has failed! The supplied index is out of bounds!");
 				}

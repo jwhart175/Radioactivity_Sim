@@ -65,6 +65,9 @@ public class DecayChainRuleSet extends DecayChainRuleBranch {
 	 * protected static final int prsfIntOne = 0;
 	 * protected static final int prsfIntTwo = 2;
 	 * protected static final int prsfIntThree = 3;
+	 * protected static final int prsfIntFour = 4;
+	 * protected static final int prsfIntFive = 5;
+	 * protected static final int prsfIntSix = 6;
 	 * protected static final int[] prsfDetailedTest = ...
 	 * protected DecayChainRule[] prRules; //The rules contained within the rule branch
 	 * protected int prNumRule = 0; //The total number of rules
@@ -100,6 +103,28 @@ public class DecayChainRuleSet extends DecayChainRuleBranch {
 		// Blank (DecayChainRuleSet) constructor
 	}
 
+	public DecayChainRuleSet(DecayChainRuleSet ruleSet){
+		//Constructs a new, independent rule branch from an existing one
+		prNumRule = new Integer(ruleSet.puGetNumRules());
+		DecayChainRule[] rules = new DecayChainRule[prNumRule];
+		for (int x = prsfIntZero; x < prNumRule; x++){
+			rules[x] = new DecayChainRule(ruleSet.puGetRule(x));
+		}
+		prRules = rules;
+		pvNumBranches = new Integer(ruleSet.puGetNumBranches());
+		DecayChainRuleBranch[] branches = new DecayChainRuleBranch[pvNumBranches];
+		for (int x = prsfIntZero; x < pvNumBranches; x++){
+			branches[x] = new DecayChainRuleBranch(ruleSet.puGetDecayChainRuleBranch(x));
+		}
+		pvBranches = branches;
+		pvNumNuclei = new Integer(ruleSet.puGetNumberOfNuclei());
+		String[] nuclei = new String[pvNumNuclei];
+		for (int x = prsfIntZero; x < pvNumNuclei; x++){
+			nuclei[x] = new String(ruleSet.puGetNuclei(x));
+		}
+		pvNuclei = nuclei;
+	}
+
 	public void puReorderProbabilities() {
 		//Hides the (puReorderProbabilities) from the super class
 	}
@@ -118,70 +143,79 @@ public class DecayChainRuleSet extends DecayChainRuleBranch {
     	int z = prsfIntZero;
     	String ruleLine = "";
     	String[] lines = inputData.split(System.getProperty("line.separator"));
-    	for(int x = 0; x < lines.length; x++){
+    	int lastRuleNum = prsfIntMinusOne;
+    	for(int x = prsfIntZero; x < lines.length; x++){
     		ruleLine = lines[x];
-			int lastRuleNum = prsfIntMinusOne;
 			String startNucleus = "";
 			String endNucleus = "";
 			String type = "";
 			String gammaName = "";
 			String betaName = "";
 			String alphaName = "";
+			String neutronName = "";
 			double energy = prsfIntZero;
 			double halfLife = prsfIntZero;
 			double probability = prsfIntZero;
 			double intensity = prsfIntZero;
+			String[] splits = ruleLine.split(" ");
 			if (ruleLine.substring(prsfIntZero,prsfIntOne).compareTo("#")==prsfIntZero){
 				//skip line
 			} else if (ruleLine.substring(prsfIntZero,prsfIntOne).compareTo(" ")==prsfIntZero){
 				//skip line
 			} else if (ruleLine.substring(prsfIntZero,prsfIntTwo).compareTo("//")==prsfIntZero){
 				//skip line
-			} else if (ruleLine.substring(prsfIntZero,prsfIntOne).compareTo("$")==prsfIntZero){
-				String[] splits = ruleLine.split(" ");
-				if(splits.length>=4){
-					betaName = splits[1];
-					energy = Double.valueOf(splits[2]);
-					intensity = Double.valueOf(splits[3]);
-					if (lastRuleNum>0){
+			} else if (splits[prsfIntZero].compareTo("+B")==prsfIntZero){
+				if(splits.length>=prsfIntFour){
+					betaName = splits[prsfIntOne];
+					energy = Double.valueOf(splits[prsfIntTwo]);
+					intensity = Double.valueOf(splits[prsfIntThree]);
+					if (lastRuleNum>=prsfIntZero){
 						puAddBetaToRule(lastRuleNum,betaName,energy,intensity);
 					}
 				} else {
 					System.out.println("Parsing of the beta line failed! Not enough arguments!");
 				}
-			} else if (ruleLine.substring(prsfIntZero,prsfIntOne).compareTo("&")==prsfIntZero){
-				String[] splits = ruleLine.split(" ");
-				if(splits.length>=4){
-					gammaName = splits[1];
-					energy = Double.valueOf(splits[2]);
-					intensity = Double.valueOf(splits[3]);
-					if (lastRuleNum>0){
+			} else if (splits[prsfIntZero].compareTo("+G")==prsfIntZero){
+				if(splits.length>=prsfIntFour){
+					gammaName = splits[prsfIntOne];
+					energy = Double.valueOf(splits[prsfIntTwo]);
+					intensity = Double.valueOf(splits[prsfIntThree]);
+					if (lastRuleNum>=prsfIntZero){
 						puAddGammaToRule(lastRuleNum,gammaName,energy,intensity);
 					}
 				} else {
 					System.out.println("Parsing of the gamma line failed! Not enough arguments!");
 				}
-			} else if (ruleLine.substring(prsfIntZero,prsfIntOne).compareTo("@")==prsfIntZero){
-				String[] splits = ruleLine.split(" ");
-				if(splits.length>=4){
-					alphaName = splits[1];
-					energy = Double.valueOf(splits[2]);
-					intensity = Double.valueOf(splits[3]);
-					if (lastRuleNum>0){
+			} else if (splits[prsfIntZero].compareTo("+A")==prsfIntZero){
+				if(splits.length>=prsfIntFour){
+					alphaName = splits[prsfIntOne];
+					energy = Double.valueOf(splits[prsfIntTwo]);
+					intensity = Double.valueOf(splits[prsfIntThree]);
+					if (lastRuleNum>=prsfIntZero){
 						puAddAlphaToRule(lastRuleNum,alphaName,energy,intensity);
 					}
 				} else {
 					System.out.println("Parsing of the alpha line failed! Not enough arguments!");
 				}
+			} else if (splits[prsfIntZero].compareTo("+N")==prsfIntZero){
+				if(splits.length>=prsfIntFour){
+					neutronName = splits[prsfIntOne];
+					energy = Double.valueOf(splits[prsfIntTwo]);
+					intensity = Double.valueOf(splits[prsfIntThree]);
+					if (lastRuleNum>=prsfIntZero){
+						puAddNeutronToRule(lastRuleNum,neutronName,energy,intensity);
+					}
+				} else {
+					System.out.println("Parsing of the neutron line failed! Not enough arguments!");
+				}
 			} else {
-    			String[] splits = ruleLine.split(" ");
-    			if(splits.length>=6){
-    				startNucleus = splits[0];
-    				endNucleus = splits[1];
-    				type = splits[2];
-    				energy = Double.valueOf(splits[3]);
-    				halfLife = Double.valueOf(splits[4]);
-    				probability = Double.valueOf(splits[5]);
+    			if(splits.length>=prsfIntSix){
+    				startNucleus = splits[prsfIntZero];
+    				endNucleus = splits[prsfIntOne];
+    				type = splits[prsfIntTwo];
+    				energy = Double.valueOf(splits[prsfIntThree]);
+    				halfLife = Double.valueOf(splits[prsfIntFour]);
+    				probability = Double.valueOf(splits[prsfIntFive]);
     				if (startNucleus.compareTo("")==prsfIntZero){
 						System.out.println("Parsing of the input file, " + input + " failed at the StartNucleus string!");
 					}
@@ -285,6 +319,21 @@ public class DecayChainRuleSet extends DecayChainRuleBranch {
 		return pvNuclei;
 	}
 
+	public String puGetNuclei(int index){
+		//Return the string from (pvNuclei) at the supplied (index)
+		if(index < prsfIntZero) {
+			String errString = "(puGetNuclei) failed because the supplied (index) is less than zero!";
+			System.out.println(errString);
+			return errString;
+		} else if (index >= pvNumBranches) {
+			String errString = "(puGetNuclei) failed because the supplied (index) is greater than the number of (DecayChainRuleBranches) in this (DecayChainRuleSet)!";
+			System.out.println(errString);
+			return errString;
+		} else {
+			return pvNuclei[index];
+		}
+	}
+
 	public int puGetNumBranches() {
 		//Returns the number of (DecayChainRuleBranch) objects in this (DecayChainRuleSet)
 		return pvNumBranches;
@@ -301,7 +350,7 @@ public class DecayChainRuleSet extends DecayChainRuleBranch {
 			System.out.println(errString);
 			return new DecayChainRuleBranch();
 		} else {
-			return pvBranches[index];
+			return new DecayChainRuleBranch(pvBranches[index]);
 		}
 	}
 

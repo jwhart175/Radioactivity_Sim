@@ -58,8 +58,12 @@ public class NucleiSamplePredictiveSim extends PRSFNUM {
 	 * protected static final int prsfInt24 = 24;
 	 * protected static final int prsfInt3600 = 3600;
 	 * protected static final int prsfIntZero = 0;
-	 * protected static final int prsfIntOne = 0;
+	 * protected static final int prsfIntOne = 1;
 	 * protected static final int prsfIntTwo = 2;
+	 * protected static final int prsfIntThree = 3
+	 * protected static final int prsfIntFour = 4;
+	 * protected static final int prsfIntFive = 5;
+	 * protected static final int prsfIntSix = 6;
 	 * protected static final int[] prsfDetailedTest = ...
 	 */
 
@@ -499,16 +503,16 @@ public class NucleiSamplePredictiveSim extends PRSFNUM {
     		if (pvNumDecayEventSets > prsfIntZero) {
     			//Build counts for the independent name and energy pairs
     			for (int x = prsfIntZero; x < pvNumDecayEventSets; x++) {
-					if(pvDecayEventSets[x].puGetNumGammas()>0){
+    				if(pvDecayEventSets[x].puGetNumGammas()>0){
 						for(int y = prsfIntZero; y < pvDecayEventSets[x].puGetNumGammas(); y++){
 							if(length==prsfIntZero){
-    							names[prsfIntZero]=pvDecayEventSets[x].puGetGammaName(y);
-    							energies[prsfIntZero]=pvDecayEventSets[x].puGetGammaEnergy(y);
-    							counts[prsfIntZero]=pvDecayEventSets[x].puGetNumWithinTimeBounds(start, end)*pvDecayEventSets[x].puGetGammaIntensity(y);
+    							names[length]=pvDecayEventSets[x].puGetGammaName(y);
+    							energies[length]=pvDecayEventSets[x].puGetGammaEnergy(y);
+    							counts[length]=pvDecayEventSets[x].puGetNumWithinTimeBounds(start, end)*pvDecayEventSets[x].puGetGammaIntensity(y);
     							length++;
     						} else {
     							boolean isNew = true;
-    							for(int z = prsfIntZero; z < length;y++){
+    							for(int z = prsfIntZero; z < length;z++){
     								if(pvDecayEventSets[x].puGetGammaName(y).compareTo(names[z])==0&pvDecayEventSets[x].puGetGammaEnergy(y)==energies[z]){
     									isNew = false;
     									counts[z]+=pvDecayEventSets[x].puGetNumWithinTimeBounds(start, end)*pvDecayEventSets[x].puGetGammaIntensity(y);
@@ -534,6 +538,41 @@ public class NucleiSamplePredictiveSim extends PRSFNUM {
     						}
 						}
 					}
+					if(pvDecayEventSets[x].puGetNumNeutrons()>0){
+						for(int y = prsfIntZero; y < pvDecayEventSets[x].puGetNumNeutrons(); y++){
+							if(length==prsfIntZero){
+    							names[prsfIntZero]=pvDecayEventSets[x].puGetNeutronName(y);
+    							energies[prsfIntZero]=pvDecayEventSets[x].puGetNeutronEnergy(y);
+    							counts[prsfIntZero]=pvDecayEventSets[x].puGetNumWithinTimeBounds(start, end)*pvDecayEventSets[x].puGetNeutronIntensity(y);
+    							length++;
+    						} else {
+    							boolean isNew = true;
+    							for(int z = prsfIntZero; z < length;z++){
+    								if(pvDecayEventSets[x].puGetNeutronName(y).compareTo(names[z])==0&pvDecayEventSets[x].puGetNeutronEnergy(y)==energies[z]){
+    									isNew = false;
+    									counts[z]+=pvDecayEventSets[x].puGetNumWithinTimeBounds(start, end)*pvDecayEventSets[x].puGetNeutronIntensity(y);
+    								}
+    							}
+    							if(isNew){
+    								String[] newNames = new String[length+prsfIntOne];
+    								double[] newEnergies = new double[length+prsfIntOne];
+    								double[] newCounts = new double[length+prsfIntOne];
+    								for(int z = prsfIntZero; z < length; z++){
+    									newNames[z] = names[z];
+    									newEnergies[z] = energies[z];
+    									newCounts[z] = counts[z];
+    								}
+    								newNames[length] = pvDecayEventSets[x].puGetNeutronName(y);
+    								newEnergies[length] = pvDecayEventSets[x].puGetNeutronEnergy(y);
+    								newCounts[length] = pvDecayEventSets[x].puGetNumWithinTimeBounds(start, end)*pvDecayEventSets[x].puGetNeutronIntensity(y);pvDecayEventSets[x].puGetNeutronIntensity(y);
+    								names = newNames;
+    								energies = newEnergies;
+    								counts = newCounts;
+    								length++;
+    							}
+    						}
+						}
+					}
 					if(pvDecayEventSets[x].puGetNumAlphas()>0){
 						for(int y = prsfIntZero; y < pvDecayEventSets[x].puGetNumAlphas(); y++){
 							if(length==prsfIntZero){
@@ -543,7 +582,7 @@ public class NucleiSamplePredictiveSim extends PRSFNUM {
     							length++;
     						} else {
     							boolean isNew = true;
-    							for(int z = prsfIntZero; z < length;y++){
+    							for(int z = prsfIntZero; z < length;z++){
     								if(pvDecayEventSets[x].puGetAlphaName(y).compareTo(names[z])==0&pvDecayEventSets[x].puGetAlphaEnergy(y)==energies[z]){
     									isNew = false;
     									counts[z]+=pvDecayEventSets[x].puGetNumWithinTimeBounds(start, end)*pvDecayEventSets[x].puGetAlphaIntensity(y);
@@ -578,7 +617,7 @@ public class NucleiSamplePredictiveSim extends PRSFNUM {
     							length++;
     						} else {
     							boolean isNew = true;
-    							for(int z = prsfIntZero; z < length;y++){
+    							for(int z = prsfIntZero; z < length;z++){
     								if(pvDecayEventSets[x].puGetBetaName(y).compareTo(names[z])==0&pvDecayEventSets[x].puGetBetaEnergy(y)==energies[z]){
     									isNew = false;
     									counts[z]+=pvDecayEventSets[x].puGetNumWithinTimeBounds(start, end)*pvDecayEventSets[x].puGetBetaIntensity(y);

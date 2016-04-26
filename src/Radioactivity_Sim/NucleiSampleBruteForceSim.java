@@ -58,8 +58,12 @@ public class NucleiSampleBruteForceSim extends PRSFNUM {
 	 * protected static final int prsfInt24 = 24;
 	 * protected static final int prsfInt3600 = 3600;
 	 * protected static final int prsfIntZero = 0;
-	 * protected static final int prsfIntOne = 0;
+	 * protected static final int prsfIntOne = 1;
 	 * protected static final int prsfIntTwo = 2;
+	 * protected static final int prsfIntThree = 3
+	 * protected static final int prsfIntFour = 4;
+	 * protected static final int prsfIntFive = 5;
+	 * protected static final int prsfIntSix = 6;
 	 * protected static final int[] prsfDetailedTest = ...
 	 */
 
@@ -486,7 +490,7 @@ public class NucleiSampleBruteForceSim extends PRSFNUM {
 	    							length++;
 	    						} else {
 	    							boolean isNew = true;
-	    							for(int z = prsfIntZero; z < length;y++){
+	    							for(int z = prsfIntZero; z < length;z++){
 	    								if(pvDecayEvents[x].puGetGammaName(y).compareTo(names[z])==0&pvDecayEvents[x].puGetGammaEnergy(y)==energies[z]){
 	    									isNew = false;
 	    									counts[z]+=pvDecayEvents[x].puGetGammaIntensity(y);
@@ -521,7 +525,7 @@ public class NucleiSampleBruteForceSim extends PRSFNUM {
 	    							length++;
 	    						} else {
 	    							boolean isNew = true;
-	    							for(int z = prsfIntZero; z < length;y++){
+	    							for(int z = prsfIntZero; z < length;z++){
 	    								if(pvDecayEvents[x].puGetAlphaName(y).compareTo(names[z])==0&pvDecayEvents[x].puGetAlphaEnergy(y)==energies[z]){
 	    									isNew = false;
 	    									counts[z]+=pvDecayEvents[x].puGetAlphaIntensity(y);
@@ -547,6 +551,41 @@ public class NucleiSampleBruteForceSim extends PRSFNUM {
 	    						}
 							}
 						}
+						if(pvDecayEvents[x].puGetNumNeutrons()>0){
+							for(int y = prsfIntZero; y < pvDecayEvents[x].puGetNumNeutrons(); y++){
+								if(length==prsfIntZero){
+	    							names[prsfIntZero]=pvDecayEvents[x].puGetNeutronName(y);
+	    							energies[prsfIntZero]=pvDecayEvents[x].puGetNeutronEnergy(y);
+	    							counts[prsfIntZero]=pvDecayEvents[x].puGetNeutronIntensity(y);
+	    							length++;
+	    						} else {
+	    							boolean isNew = true;
+	    							for(int z = prsfIntZero; z < length;z++){
+	    								if(pvDecayEvents[x].puGetNeutronName(y).compareTo(names[z])==0&pvDecayEvents[x].puGetNeutronEnergy(y)==energies[z]){
+	    									isNew = false;
+	    									counts[z]+=pvDecayEvents[x].puGetNeutronIntensity(y);
+	    								}
+	    							}
+	    							if(isNew){
+	    								String[] newNames = new String[length+prsfIntOne];
+	    								double[] newEnergies = new double[length+prsfIntOne];
+	    								double[] newCounts = new double[length+prsfIntOne];
+	    								for(int z = prsfIntZero; z < length; z++){
+	    									newNames[z] = names[z];
+	    									newEnergies[z] = energies[z];
+	    									newCounts[z] = counts[z];
+	    								}
+	    								newNames[length] = pvDecayEvents[x].puGetNeutronName(y);
+	    								newEnergies[length] = pvDecayEvents[x].puGetNeutronEnergy(y);
+	    								newCounts[length] = pvDecayEvents[x].puGetNeutronIntensity(y);
+	    								names = newNames;
+	    								energies = newEnergies;
+	    								counts = newCounts;
+	    								length++;
+	    							}
+	    						}
+							}
+						}
 						if(pvDecayEvents[x].puGetNumBetas()>0){
 							for(int y = prsfIntZero; y < pvDecayEvents[x].puGetNumBetas(); y++){
 								if(length==prsfIntZero){
@@ -556,7 +595,7 @@ public class NucleiSampleBruteForceSim extends PRSFNUM {
 	    							length++;
 	    						} else {
 	    							boolean isNew = true;
-	    							for(int z = prsfIntZero; z < length;y++){
+	    							for(int z = prsfIntZero; z < length;z++){
 	    								if(pvDecayEvents[x].puGetBetaName(y).compareTo(names[z])==0&pvDecayEvents[x].puGetBetaEnergy(y)==energies[z]){
 	    									isNew = false;
 	    									counts[z]+=pvDecayEvents[x].puGetBetaIntensity(y);

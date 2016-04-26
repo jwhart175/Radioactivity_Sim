@@ -57,8 +57,12 @@ public class DecayEventSet extends DecayEvent {
 	 * protected static final int prsfInt24 = 24;
 	 * protected static final int prsfInt3600 = 3600;
 	 * protected static final int prsfIntZero = 0;
-	 * protected static final int prsfIntOne = 0;
+	 * protected static final int prsfIntOne = 1;
 	 * protected static final int prsfIntTwo = 2;
+	 * protected static final int prsfIntThree = 3
+	 * protected static final int prsfIntFour = 4;
+	 * protected static final int prsfIntFive = 5;
+	 * protected static final int prsfIntSix = 6;
 	 * protected static final int[] prsfDetailedTest = ...
 	 * protected double prEnergy //user supplied (DecayEvent) energy in MeV
      * protected String prType; //user supplied (DecayEvent) type (alpha, beta, gamma, neutron)
@@ -67,7 +71,24 @@ public class DecayEventSet extends DecayEvent {
      * protected String prEndNucleus //the nucleus after the DecayEvent
      * protected double prStartTime //lower bound of the time in which the (DecayEvent) may occur
      * protected double prEndTime //upper bound of the time in which the (DecayEvent) may occur
+     * protected int prNumGammas = prsfIntZero; //The number of coincident gamma radiation events for this rule
+	 * protected String[] prGammaName = new String[prsfIntOne]; //The names for any coincident gamma radiation events
+	 * protected double[] prGammaEnergy = new double[prsfIntOne]; //The energies for any coincident gamma radiation events
+	 * protected double[] prGammaIntensity = new double[prsfIntOne]; //The intensities for any coincident gamma radiation events
+	 * protected int prNumBetas = prsfIntZero; //The number of coincident beta radiation events for this rule
+	 * protected String[] prBetaName = new String[prsfIntOne]; //The names of the possible beta emission energies
+	 * protected double[] prBetaEnergy = new double[prsfIntOne]; //The possible beta emission energies
+	 * protected double[] prBetaIntensity = new double[prsfIntOne]; //The intensities for each beta emission energy
+	 * protected int prNumAlphas = prsfIntZero; //The number of coincident alpha radiation events for this rule
+	 * protected String[] prAlphaName = new String[prsfIntOne]; //The names of the possible alpha emission energies
+	 * protected double[] prAlphaEnergy = new double[prsfIntOne]; //The possible alpha emission energies
+	 * protected double[] prAlphaIntensity = new double[prsfIntOne]; //The intensities for each alpha emission energy
+	 * protected int prNumNeutrons = prsfIntZero; //The number of coincident Neutron radiation events for this rule
+	 * protected String[] prNeutronName = new String[prsfIntOne]; //The names of the possible Neutron emission energies
+	 * protected double[] prNeutronEnergy = new double[prsfIntOne]; //The possible Neutron emission energies
+	 * protected double[] prNeutronIntensity = new double[prsfIntOne]; //The intensities for each Neutron emission energy
      * public String puGetStartNucleus()
+     * public void puSetRule(DecayChainRule rule)
      * public String puGetEndNucleus()
      * Overridden public double puGetTime()
      * public double puGetHalfLife()
@@ -124,24 +145,8 @@ public class DecayEventSet extends DecayEvent {
 
 	public DecayEventSet(double num, boolean isChild, double startTime, double endTime, DecayChainRule rule) {
 		//Constructor which immediately defines all of the pertinent variables
-		prNumGammas = rule.puGetNumGammas();
-    	prGammaName = rule.puGetGammaName();
-    	prGammaEnergy = rule.puGetGammaEnergy();
-    	prGammaIntensity = rule.puGetGammaIntensity();
-    	prNumBetas = rule.puGetNumBetas();
-    	prBetaName = rule.puGetBetaName();
-    	prBetaEnergy = rule.puGetBetaEnergy();
-    	prBetaIntensity = rule.puGetBetaIntensity();
-    	prNumAlphas = rule.puGetNumAlphas();
-    	prAlphaName = rule.puGetAlphaName();
-    	prAlphaEnergy = rule.puGetAlphaEnergy();
-    	prAlphaIntensity = rule.puGetAlphaIntensity();
-		prStartNucleus = rule.puGetStartNucleus();
-        prEndNucleus = rule.puGetEndNucleus();
+		puSetRule(rule);
         pvIsChild = isChild;
-        prEnergy = rule.puGetEnergy();
-        prType = rule.puGetType();
-        prHalfLife = rule.puGetHalfLife();
         if (startTime >= prsfIntZero & startTime < endTime) {
         	prStartTime = startTime;
         } else {

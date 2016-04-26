@@ -62,6 +62,9 @@ public abstract class PRSFNUM {
 	protected static final int prsfIntOne = 1;
 	protected static final int prsfIntTwo = 2;
 	protected static final int prsfIntThree = 3;
+	protected static final int prsfIntFour = 4;
+	protected static final int prsfIntFive = 5;
+	protected static final int prsfIntSix = 6;
 	//prsfDetailedTest is a predefined sieve to reduce error in the unbound time calculation
     protected static final int prsfDetailedTest[] = {
 	    	693,1385,2077,2769,3460,4150,4840,5530,6219,6908,

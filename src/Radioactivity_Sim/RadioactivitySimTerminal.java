@@ -996,10 +996,10 @@ public class RadioactivitySimTerminal extends JFrame {
     private StringBuilder pvNewCommands(String[] splits){
     	//Handles the "new" type commands
     	StringBuilder currentText = new StringBuilder();
-    	try {
+//    	try {
 			if(splits.length==7){
 				if(splits[1].compareTo("PSample")==0){
-					try {
+//					try {
 						Double num = Double.valueOf(splits[2]);
 						String file = splits[3];
 						Double start = Double.valueOf(splits[4]);
@@ -1033,17 +1033,17 @@ public class RadioactivitySimTerminal extends JFrame {
 							currentText.append("new PSample Failed!  The <numberOfNuclei> must be greater than zero!" + System.getProperty("line.separator"));
 							currentText.append("Correct Syntax = new PSample <numberOfNuclei> <inputFileName> <startTime> <endTime> <resolution>" + System.getProperty("line.separator"));
 						}
-					} catch (Exception e) {
-						currentText.append(e.getClass() + " Occurred!" + System.getProperty("line.separator"));
-						currentText.append(e.getCause() + System.getProperty("line.separator"));
-					}
+//					} catch (Exception e) {
+//						currentText.append(e.getClass() + " Occurred!" + System.getProperty("line.separator"));
+//						currentText.append(e.getCause() + System.getProperty("line.separator"));
+//					}
 				} else {
 					currentText.append("Command unknown!  Please type help for a list of commands." + System.getProperty("line.separator"));
 				}
 			}
 			if(splits.length==6){
 				if(splits[1].compareTo("BFSample")==0){
-					try {
+//					try {
 						long num = Long.valueOf(splits[2]);
 						String file = splits[3];
 						double start = Double.valueOf(splits[4]);
@@ -1071,17 +1071,17 @@ public class RadioactivitySimTerminal extends JFrame {
 							currentText.append("new BFSample Failed!  The <numberOfNuclei> must be greater than zero!" + System.getProperty("line.separator"));
 							currentText.append("Correct Syntax = new BFSample <numberOfNuclei> <inputFileName> <startTime> <endTime>" + System.getProperty("line.separator"));
 						}
-					} catch (Exception e) {
-						currentText.append(e.getClass() + " Occurred!" + System.getProperty("line.separator"));
-						currentText.append(e.getCause() + System.getProperty("line.separator"));
-					}
+//					} catch (Exception e) {
+//						currentText.append(e.getClass() + " Occurred!" + System.getProperty("line.separator"));
+//						currentText.append(e.getCause() + System.getProperty("line.separator"));
+//					}
 				} else {
 					currentText.append("Command unknown!  Please type help for a list of commands." + System.getProperty("line.separator"));
 				}
 			}
-		} catch (Exception e) {
-			currentText.append("Error! new function has failed! Try typing help to find the correct format!" + System.getProperty("line.separator"));
-		}
+//		} catch (Exception e) {
+//			currentText.append("Error! new function has failed! Try typing help to find the correct format!" + System.getProperty("line.separator"));
+//		}
     	return currentText;
     }
 

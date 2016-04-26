@@ -62,8 +62,12 @@ public class OutputScribe extends PRSFNUM{
 	 * protected static final int prsfInt24 = 24;
 	 * protected static final int prsfInt3600 = 3600;
 	 * protected static final int prsfIntZero = 0;
-	 * protected static final int prsfIntOne = 0;
+	 * protected static final int prsfIntOne = 1;
 	 * protected static final int prsfIntTwo = 2;
+	 * protected static final int prsfIntThree = 3
+	 * protected static final int prsfIntFour = 4;
+	 * protected static final int prsfIntFive = 5;
+	 * protected static final int prsfIntSix = 6;
 	 * protected static final int[] prsfDetailedTest = ...
 	 */
 

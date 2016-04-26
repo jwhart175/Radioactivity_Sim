@@ -62,8 +62,12 @@ public class DecayEvent extends DecayChainRule {
 	 * protected static final int prsfInt24 = 24;
 	 * protected static final int prsfInt3600 = 3600;
 	 * protected static final int prsfIntZero = 0;
-	 * protected static final int prsfIntOne = 0;
+	 * protected static final int prsfIntOne = 1;
 	 * protected static final int prsfIntTwo = 2;
+	 * protected static final int prsfIntThree = 3
+	 * protected static final int prsfIntFour = 4;
+	 * protected static final int prsfIntFive = 5;
+	 * protected static final int prsfIntSix = 6;
 	 * protected static final int[] prsfDetailedTest = ...
 	 * protected String prStartNucleus; //The starting nucleus of each rule
 	 * protected String prEndNucleus; //The ending nucleus of each rule
@@ -83,6 +87,11 @@ public class DecayEvent extends DecayChainRule {
 	 * protected String[] prAlphaName = new String[prsfIntOne]; //The names of the possible alpha emission energies
 	 * protected double[] prAlphaEnergy = new double[prsfIntOne]; //The possible alpha emission energies
 	 * protected double[] prAlphaIntensity = new double[prsfIntOne]; //The intensities for each alpha emission energy
+	 * protected int prNumNeutrons = prsfIntZero; //The number of coincident Neutron radiation events for this rule
+	 * protected String[] prNeutronName = new String[prsfIntOne]; //The names of the possible Neutron emission energies
+	 * protected double[] prNeutronEnergy = new double[prsfIntOne]; //The possible Neutron emission energies
+	 * protected double[] prNeutronIntensity = new double[prsfIntOne]; //The intensities for each Neutron emission energy
+	 * public void puSetRule(DecayChainRule rule)
 	 */
 
     private double pvTime = prsfDoubleMinusOne; //calculated time of the (DecayEvent) referenced from arbitrary start point in seconds
@@ -209,23 +218,7 @@ public class DecayEvent extends DecayChainRule {
 
     public DecayEvent(double timeOffset, DecayChainRule rule) {
     	//Simple (DecayEvent) constructor that calculates the time that the event occurs based on the supplied half-life that includes a variable to modify the maximum number of half lives to search through (default is 20) and add a time offset
-    	prNumGammas = rule.puGetNumGammas();
-    	prGammaName = rule.puGetGammaName();
-    	prGammaEnergy = rule.puGetGammaEnergy();
-    	prGammaIntensity = rule.puGetGammaIntensity();
-    	prNumBetas = rule.puGetNumBetas();
-    	prBetaName = rule.puGetBetaName();
-    	prBetaEnergy = rule.puGetBetaEnergy();
-    	prBetaIntensity = rule.puGetBetaIntensity();
-    	prNumAlphas = rule.puGetNumAlphas();
-    	prAlphaName = rule.puGetAlphaName();
-    	prAlphaEnergy = rule.puGetAlphaEnergy();
-    	prAlphaIntensity = rule.puGetAlphaIntensity();
-    	prStartNucleus = rule.puGetStartNucleus();
-        prEndNucleus = rule.puGetEndNucleus();
-        prEnergy = rule.puGetEnergy();
-        prType = rule.puGetType();
-        prHalfLife = rule.puGetHalfLife();
+        puSetRule(rule);
         if (timeOffset >= prsfIntZero) {
             pvTimeOffset = timeOffset;
         } else {
@@ -379,27 +372,6 @@ public class DecayEvent extends DecayChainRule {
             System.out.println("(puSetEnergy) failed because the (energy) provided is not greater than zero");
             prEnergy = prsfDoubleMinusOne;
         }
-    }
-
-    public void puSetRule(DecayChainRule rule) {
-    	//sets the rule
-    	prNumGammas = rule.puGetNumGammas();
-    	prGammaName = rule.puGetGammaName();
-    	prGammaEnergy = rule.puGetGammaEnergy();
-    	prGammaIntensity = rule.puGetGammaIntensity();
-    	prNumBetas = rule.puGetNumBetas();
-    	prBetaName = rule.puGetBetaName();
-    	prBetaEnergy = rule.puGetBetaEnergy();
-    	prBetaIntensity = rule.puGetBetaIntensity();
-    	prNumAlphas = rule.puGetNumAlphas();
-    	prAlphaName = rule.puGetAlphaName();
-    	prAlphaEnergy = rule.puGetAlphaEnergy();
-    	prAlphaIntensity = rule.puGetAlphaIntensity();
-    	prStartNucleus = rule.puGetStartNucleus();
-        prEndNucleus = rule.puGetEndNucleus();
-        prEnergy = rule.puGetEnergy();
-        prType = rule.puGetType();
-        prHalfLife = rule.puGetHalfLife();
     }
 
 }

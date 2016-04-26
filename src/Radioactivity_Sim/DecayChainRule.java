@@ -60,6 +60,10 @@ public class DecayChainRule extends PRSFNUM{
 	 * protected static final int prsfIntZero = 0;
 	 * protected static final int prsfIntOne = 0;
 	 * protected static final int prsfIntTwo = 2;
+	 * protected static final int prsfIntThree = 3;
+	 * protected static final int prsfIntFour = 4;
+	 * protected static final int prsfIntFive = 5;
+	 * protected static final int prsfIntSix = 6;
 	 * protected static final int[] prsfDetailedTest = ...
 	 */
 	protected String prStartNucleus; //The starting nucleus of each rule
@@ -80,6 +84,10 @@ public class DecayChainRule extends PRSFNUM{
 	protected String[] prAlphaName = new String[prsfIntOne]; //The names of the possible alpha emission energies
 	protected double[] prAlphaEnergy = new double[prsfIntOne]; //The possible alpha emission energies
 	protected double[] prAlphaIntensity = new double[prsfIntOne]; //The intensities for each alpha emission energy
+	protected int prNumNeutrons = prsfIntZero; //The number of coincident Neutron radiation events for this rule
+	protected String[] prNeutronName = new String[prsfIntOne]; //The names of the possible Neutron emission energies
+	protected double[] prNeutronEnergy = new double[prsfIntOne]; //The possible Neutron emission energies
+	protected double[] prNeutronIntensity = new double[prsfIntOne]; //The intensities for each Neutron emission energy
 
 	public DecayChainRule(){
 		//Basic Constructor
@@ -90,17 +98,17 @@ public class DecayChainRule extends PRSFNUM{
 		prStartNucleus = start;
 		prEndNucleus = end;
 		prType = type;
-		if(energy>=0){
+		if(energy>=prsfIntZero){
 			prEnergy = energy;
 		} else {
 			System.out.println("(DecayChainRule) construction failed! The supplied energy must be greater than or equal to zero!");
 		}
-		if(halflife>0){
+		if(halflife>prsfIntZero){
 			prHalfLife = halflife;
 		} else {
 			System.out.println("(DecayChainRule) construction failed! The supplied halflife must be greater than zero!");
 		}
-		if(probability>0){
+		if(probability>prsfIntZero){
 			prProbability = probability;
 		} else {
 			System.out.println("(DecayChainRule) construction failed! The supplied probability must be greater than zero!");
@@ -109,31 +117,14 @@ public class DecayChainRule extends PRSFNUM{
 	}
 
 	public DecayChainRule(DecayChainRule rule){
-		//Constructs a rule with all data from another rule
-		prNumGammas = rule.puGetNumGammas();
-    	prGammaName = rule.puGetGammaName();
-    	prGammaEnergy = rule.puGetGammaEnergy();
-    	prGammaIntensity = rule.puGetGammaIntensity();
-    	prNumBetas = rule.puGetNumBetas();
-    	prBetaName = rule.puGetBetaName();
-    	prBetaEnergy = rule.puGetBetaEnergy();
-    	prBetaIntensity = rule.puGetBetaIntensity();
-    	prNumAlphas = rule.puGetNumAlphas();
-    	prAlphaName = rule.puGetAlphaName();
-    	prAlphaEnergy = rule.puGetAlphaEnergy();
-    	prAlphaIntensity = rule.puGetAlphaIntensity();
-    	prStartNucleus = rule.puGetStartNucleus();
-        prEndNucleus = rule.puGetEndNucleus();
-        prEnergy = rule.puGetEnergy();
-        prType = rule.puGetType();
-        prHalfLife = rule.puGetHalfLife();
-        prProbability = rule.puGetProbability();
+		//Constructs an independent rule with all data from another rule
+		puSetRule(rule);
 	}
 
 	public void puAddGamma(String name, double energy, double intensity){
 		//Adds a coincident gamma to the rule
 		if(prNumGammas==prsfIntZero){
-			if(energy>0&intensity>0){
+			if(energy>prsfIntZero&intensity>prsfIntZero){
 				prGammaName[prsfIntZero] = name;
 				prGammaEnergy[prsfIntZero] = energy;
 				prGammaIntensity[prsfIntZero] = intensity;
@@ -142,11 +133,11 @@ public class DecayChainRule extends PRSFNUM{
 				System.out.println("(puAddGamma) has failed! the supplied energy and intensity must be greater than zero!");
 			}
 		} else {
-			if(energy>0&intensity>0){
-				String[] names = new String[prNumGammas+1];
-				double[] energies = new double[prNumGammas+1];
-				double[] intensities = new double[prNumGammas+1];
-				for(int x = 0; x < prNumGammas; x++){
+			if(energy>prsfIntZero&intensity>prsfIntZero){
+				String[] names = new String[prNumGammas+prsfIntOne];
+				double[] energies = new double[prNumGammas+prsfIntOne];
+				double[] intensities = new double[prNumGammas+prsfIntOne];
+				for(int x = prsfIntZero; x < prNumGammas; x++){
 					names[x] = prGammaName[x];
 					energies[x] = prGammaEnergy[x];
 					intensities[x] = prGammaIntensity[x];
@@ -167,7 +158,7 @@ public class DecayChainRule extends PRSFNUM{
 	public void puAddBeta(String name, double energy, double intensity){
 		//Adds Beta emmision energy to the rule
 		if(prNumBetas==prsfIntZero){
-			if(energy>0&intensity>0){
+			if(energy>prsfIntZero&intensity>prsfIntZero){
 				prBetaName[prsfIntZero] = name;
 				prBetaEnergy[prsfIntZero] = energy;
 				prBetaIntensity[prsfIntZero] = intensity;
@@ -176,11 +167,11 @@ public class DecayChainRule extends PRSFNUM{
 				System.out.println("(puAddBeta) has failed! the supplied energy and intensity must be greater than zero!");
 			}
 		} else {
-			if(energy>0&intensity>0){
-				String[] names = new String[prNumBetas+1];
-				double[] energies = new double[prNumBetas+1];
-				double[] intensities = new double[prNumBetas+1];
-				for(int x = 0; x < prNumBetas; x++){
+			if(energy>prsfIntZero&intensity>prsfIntZero){
+				String[] names = new String[prNumBetas+prsfIntOne];
+				double[] energies = new double[prNumBetas+prsfIntOne];
+				double[] intensities = new double[prNumBetas+prsfIntOne];
+				for(int x = prsfIntZero; x < prNumBetas; x++){
 					names[x] = prBetaName[x];
 					energies[x] = prBetaEnergy[x];
 					intensities[x] = prBetaIntensity[x];
@@ -201,7 +192,7 @@ public class DecayChainRule extends PRSFNUM{
 	public void puAddAlpha(String name, double energy, double intensity){
 		//Adds Alpha emmision energy to the rule
 		if(prNumAlphas==prsfIntZero){
-			if(energy>0&intensity>0){
+			if(energy>prsfIntZero&intensity>prsfIntZero){
 				prAlphaName[prsfIntZero] = name;
 				prAlphaEnergy[prsfIntZero] = energy;
 				prAlphaIntensity[prsfIntZero] = intensity;
@@ -210,11 +201,11 @@ public class DecayChainRule extends PRSFNUM{
 				System.out.println("(puAddAlpha) has failed! the supplied energy and intensity must be greater than zero!");
 			}
 		} else {
-			if(energy>0&intensity>0){
-				String[] names = new String[prNumAlphas+1];
-				double[] energies = new double[prNumAlphas+1];
-				double[] intensities = new double[prNumAlphas+1];
-				for(int x = 0; x < prNumAlphas; x++){
+			if(energy>prsfIntZero&intensity>prsfIntZero){
+				String[] names = new String[prNumAlphas+prsfIntOne];
+				double[] energies = new double[prNumAlphas+prsfIntOne];
+				double[] intensities = new double[prNumAlphas+prsfIntOne];
+				for(int x = prsfIntZero; x < prNumAlphas; x++){
 					names[x] = prAlphaName[x];
 					energies[x] = prAlphaEnergy[x];
 					intensities[x] = prAlphaIntensity[x];
@@ -232,26 +223,64 @@ public class DecayChainRule extends PRSFNUM{
 		}
 	}
 
+	public void puAddNeutron(String name, double energy, double intensity){
+		//Adds Neutron emmision energy to the rule
+		if(prNumNeutrons==prsfIntZero){
+			if(energy>prsfIntZero&intensity>prsfIntZero){
+				prNeutronName[prsfIntZero] = name;
+				prNeutronEnergy[prsfIntZero] = energy;
+				prNeutronIntensity[prsfIntZero] = intensity;
+				prNumNeutrons++;
+			} else {
+				System.out.println("(puAddNeutron) has failed! the supplied energy and intensity must be greater than zero!");
+			}
+		} else {
+			if(energy>prsfIntZero&intensity>prsfIntZero){
+				String[] names = new String[prNumNeutrons+prsfIntOne];
+				double[] energies = new double[prNumNeutrons+prsfIntOne];
+				double[] intensities = new double[prNumNeutrons+prsfIntOne];
+				for(int x = prsfIntZero; x < prNumNeutrons; x++){
+					names[x] = prNeutronName[x];
+					energies[x] = prNeutronEnergy[x];
+					intensities[x] = prNeutronIntensity[x];
+				}
+				names[prNumNeutrons] = name;
+				energies[prNumNeutrons] = energy;
+				intensities[prNumNeutrons] = intensity;
+				prNeutronName = names;
+				prNeutronEnergy = energies;
+				prNeutronIntensity = intensities;
+				prNumNeutrons++;
+			} else {
+				System.out.println("(puAddNeutron) has failed! the supplied energy and intensity must be greater than zero!");
+			}
+		}
+	}
+
 	public void puClearRule(){
 		//clears the rule as if it were new
 		prStartNucleus = "";
 		prEndNucleus = "";
 		prType = "";
-		prEnergy = prsfDoubleMinusOne;;
-		prHalfLife = prsfDoubleMinusOne;;
-		prProbability = prsfDoubleMinusOne;
-		prNumGammas = prsfIntZero;
+		prEnergy = new Double(prsfDoubleMinusOne);
+		prHalfLife = new Double(prsfDoubleMinusOne);
+		prProbability = new Double(prsfDoubleMinusOne);
+		prNumGammas = new Integer(prsfIntZero);
 		prGammaName = new String[prsfIntOne];
 		prGammaEnergy = new double[prsfIntOne];
 		prGammaIntensity = new double[prsfIntOne];
-		prNumBetas = prsfIntZero;
+		prNumBetas = new Integer(prsfIntZero);
 		prBetaName = new String[prsfIntOne];
 		prBetaEnergy = new double[prsfIntOne];
 		prBetaIntensity = new double[prsfIntOne];
-		prNumAlphas = prsfIntZero;
+		prNumAlphas = new Integer(prsfIntZero);
 		prAlphaName = new String[prsfIntOne];
 		prAlphaEnergy = new double[prsfIntOne];
 		prAlphaIntensity = new double[prsfIntOne];
+		prNumNeutrons = new Integer(prsfIntZero);
+		prNeutronName = new String[prsfIntOne];
+		prNeutronEnergy = new double[prsfIntOne];
+		prNeutronIntensity = new double[prsfIntOne];
 	}
 
 	public String puGetStartNucleus() {
@@ -326,12 +355,13 @@ public class DecayChainRule extends PRSFNUM{
 			System.out.println(err);
 			return err;
 		} else {
-			if(index>=0){
+			if(index>=prsfIntZero){
 				if(index<prGammaName.length){
 					return prGammaName[index];
 				} else {
 					String err = "(puGetGammaName) has failed! The supplied index is greater than the number of gammas less one!" + System.getProperty("line.separator");
 					System.out.println(err);
+					System.out.println("index = " + index + ", prNumGammas = " + prNumGammas + ", prGammaName.length = " + prGammaName.length);
 					return err;
 				}
 			} else {
@@ -354,7 +384,7 @@ public class DecayChainRule extends PRSFNUM{
 			System.out.println(err);
 			return prsfDoubleMinusOne;
 		} else {
-			if(index>=0){
+			if(index>=prsfIntZero){
 				if(index<prGammaEnergy.length){
 					return prGammaEnergy[index];
 				} else {
@@ -382,7 +412,7 @@ public class DecayChainRule extends PRSFNUM{
 			System.out.println(err);
 			return prsfDoubleMinusOne;
 		} else {
-			if(index>=0){
+			if(index>=prsfIntZero){
 				if(index<prGammaIntensity.length){
 					return prGammaIntensity[index];
 				} else {
@@ -415,7 +445,7 @@ public class DecayChainRule extends PRSFNUM{
 			System.out.println(err);
 			return err;
 		} else {
-			if(index>=0){
+			if(index>=prsfIntZero){
 				if(index<prBetaName.length){
 					return prBetaName[index];
 				} else {
@@ -443,7 +473,7 @@ public class DecayChainRule extends PRSFNUM{
 			System.out.println(err);
 			return prsfDoubleMinusOne;
 		} else {
-			if(index>=0){
+			if(index>=prsfIntZero){
 				if(index<prBetaEnergy.length){
 					return prBetaEnergy[index];
 				} else {
@@ -471,7 +501,7 @@ public class DecayChainRule extends PRSFNUM{
 			System.out.println(err);
 			return prsfDoubleMinusOne;
 		} else {
-			if(index>=0){
+			if(index>=prsfIntZero){
 				if(index<prBetaIntensity.length){
 					return prBetaIntensity[index];
 				} else {
@@ -504,7 +534,7 @@ public class DecayChainRule extends PRSFNUM{
 			System.out.println(err);
 			return err;
 		} else {
-			if(index>=0){
+			if(index>=prsfIntZero){
 				if(index<prAlphaName.length){
 					return prAlphaName[index];
 				} else {
@@ -532,7 +562,7 @@ public class DecayChainRule extends PRSFNUM{
 			System.out.println(err);
 			return prsfDoubleMinusOne;
 		} else {
-			if(index>=0){
+			if(index>=prsfIntZero){
 				if(index<prAlphaEnergy.length){
 					return prAlphaEnergy[index];
 				} else {
@@ -560,7 +590,7 @@ public class DecayChainRule extends PRSFNUM{
 			System.out.println(err);
 			return prsfDoubleMinusOne;
 		} else {
-			if(index>=0){
+			if(index>=prsfIntZero){
 				if(index<prAlphaIntensity.length){
 					return prAlphaIntensity[index];
 				} else {
@@ -575,5 +605,141 @@ public class DecayChainRule extends PRSFNUM{
 			}
 		}
 	}
+
+	public int puGetNumNeutrons() {
+		//returns the number of alternate Neutron energies
+		return prNumNeutrons;
+	}
+
+	public String[] puGetNeutronName() {
+		//returns all of the Neutron names for the rule
+		return prNeutronName;
+	}
+
+	public String puGetNeutronName(int index){
+		//returns the Neutron name at the supplied index for the rule
+		if(prNumNeutrons==prsfIntZero){
+			String err = "(puGetNeutronName) has failed! This rule has no conincident Neutrons!" + System.getProperty("line.separator");
+			System.out.println(err);
+			return err;
+		} else {
+			if(index>=prsfIntZero){
+				if(index<prNeutronName.length){
+					return prNeutronName[index];
+				} else {
+					String err = "(puGetNeutronName) has failed! The supplied index is greater than the number of Neutrons less one!" + System.getProperty("line.separator");
+					System.out.println(err);
+					return err;
+				}
+			} else {
+				String err = "(puGetNeutronName) has failed! The supplied index must be greater then zero!" + System.getProperty("line.separator");
+				System.out.println(err);
+				return err;
+			}
+		}
+	}
+
+	public double[] puGetNeutronEnergy() {
+		//returns all of the Neutron energies for the rule
+		return prNeutronEnergy;
+	}
+
+	public double puGetNeutronEnergy(int index){
+		//returns the energy of the Neutron emission at the supplied index for the rule
+		if(prNumNeutrons==prsfIntZero){
+			String err = "(puGetNeutronEnergy) has failed! This rule has no conincident Neutrons!" + System.getProperty("line.separator");
+			System.out.println(err);
+			return prsfDoubleMinusOne;
+		} else {
+			if(index>=prsfIntZero){
+				if(index<prNeutronEnergy.length){
+					return prNeutronEnergy[index];
+				} else {
+					String err = "(puGetNeutronEnergy) has failed! The supplied index is greater than the number of Neutrons less one!" + System.getProperty("line.separator");
+					System.out.println(err);
+					return prsfDoubleMinusOne;
+				}
+			} else {
+				String err = "(puGetNeutronEnergy) has failed! The supplied index must be greater then zero!" + System.getProperty("line.separator");
+				System.out.println(err);
+				return prsfDoubleMinusOne;
+			}
+		}
+	}
+
+	public double[] puGetNeutronIntensity() {
+		//returns all Neutron emission intensities for the rule
+		return prNeutronIntensity;
+	}
+
+	public double puGetNeutronIntensity(int index){
+		//returns the intensity of the Neutron emission at the supplied index for the rule
+		if(prNumNeutrons==prsfIntZero){
+			String err = "(puGetNeutronIntensity) has failed! This rule has no conincident Neutrons!" + System.getProperty("line.separator");
+			System.out.println(err);
+			return prsfDoubleMinusOne;
+		} else {
+			if(index>=prsfIntZero){
+				if(index<prNeutronIntensity.length){
+					return prNeutronIntensity[index];
+				} else {
+					String err = "(puGetNeutronIntensity) has failed! The supplied index is greater than the number of Neutrons less one!" + System.getProperty("line.separator");
+					System.out.println(err);
+					return prsfDoubleMinusOne;
+				}
+			} else {
+				String err = "(puGetNeutronIntensity) has failed! The supplied index must be greater then zero!" + System.getProperty("line.separator");
+				System.out.println(err);
+				return prsfDoubleMinusOne;
+			}
+		}
+	}
+
+	public void puSetRule(DecayChainRule rule) {
+    	//sets the rule
+    	prNumGammas = new Integer(rule.puGetNumGammas());
+    	prGammaName = new String[prNumGammas];
+    	prGammaEnergy = new double[prNumGammas];
+    	prGammaIntensity = new double[prNumGammas];
+    	for(int x = prsfIntZero; x < prNumGammas; x++){
+    		prGammaName[x] = new String(rule.puGetGammaName()[x]);
+    		prGammaEnergy[x] = new Double(rule.puGetGammaEnergy()[x]);
+    		prGammaIntensity[x] = new Double(rule.puGetGammaIntensity()[x]);
+    	}
+    	prNumBetas = new Integer(rule.puGetNumBetas());
+    	prBetaName = new String[prNumBetas];
+    	prBetaEnergy = new double[prNumBetas];
+    	prBetaIntensity = new double[prNumBetas];
+    	for(int x = prsfIntZero; x < prNumBetas; x++){
+    		prBetaName[x] = new String(rule.puGetBetaName()[x]);
+    		prBetaEnergy[x] = new Double(rule.puGetBetaEnergy()[x]);
+    		prBetaIntensity[x] = new Double(rule.puGetBetaIntensity()[x]);
+    	}
+    	prNumAlphas = new Integer(rule.puGetNumAlphas());
+    	prAlphaName = new String[prNumAlphas];
+    	prAlphaEnergy = new double[prNumAlphas];
+    	prAlphaIntensity = new double[prNumAlphas];
+    	for(int x = prsfIntZero; x < prNumAlphas; x++){
+    		prAlphaName[x] = new String(rule.puGetAlphaName()[x]);
+    		prAlphaEnergy[x] = new Double(rule.puGetAlphaEnergy()[x]);
+    		prAlphaIntensity[x] = new Double(rule.puGetAlphaIntensity()[x]);
+    	}
+    	prNumNeutrons = new Integer(rule.puGetNumNeutrons());
+    	prNeutronName = new String[prNumNeutrons];
+    	prNeutronEnergy = new double[prNumNeutrons];
+    	prNeutronIntensity = new double[prNumNeutrons];
+    	for(int x = prsfIntZero; x < prNumNeutrons; x++){
+    		prNeutronName[x] = new String(rule.puGetNeutronName()[x]);
+    		prNeutronEnergy[x] = new Double(rule.puGetNeutronEnergy()[x]);
+    		prNeutronIntensity[x] = new Double(rule.puGetNeutronIntensity()[x]);
+    	}
+    	prStartNucleus = new String(rule.puGetStartNucleus());
+        prEndNucleus = new String(rule.puGetEndNucleus());
+        prEnergy = new Double(rule.puGetEnergy());
+        prType = new String(rule.puGetType());
+        prHalfLife = new Double(rule.puGetHalfLife());
+        prProbability = new Double(rule.puGetProbability());
+    }
+
 
 }
