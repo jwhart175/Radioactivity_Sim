@@ -27,7 +27,7 @@ import java.security.SecureRandom;
 import java.util.Random;
 
 
-public class DecayEvent extends PRSFNUM {
+public class DecayEvent extends DecayChainRule {
     // A (DecayEvent) calculates and contains a radioactive event
     /* Variable and Function Nomenclature prescripts:
      * pv = private
@@ -65,19 +65,31 @@ public class DecayEvent extends PRSFNUM {
 	 * protected static final int prsfIntOne = 0;
 	 * protected static final int prsfIntTwo = 2;
 	 * protected static final int[] prsfDetailedTest = ...
+	 * protected String prStartNucleus; //The starting nucleus of each rule
+	 * protected String prEndNucleus; //The ending nucleus of each rule
+	 * protected String prType; //The radiation type of each rule
+	 * protected double prEnergy = prsfDoubleMinusOne;; //The energy quantity for each rule
+	 * protected double prHalfLife = prsfDoubleMinusOne;; //The half-life for each rule
+	 * protected double prProbability = prsfDoubleMinusOne; //The probability of each rule
+	 * protected int prNumGammas = prsfIntZero; //The number of coincident gamma radiation events for this rule
+	 * protected String[] prGammaName = new String[prsfIntOne]; //The names for any coincident gamma radiation events
+	 * protected double[] prGammaEnergy = new double[prsfIntOne]; //The energies for any coincident gamma radiation events
+	 * protected double[] prGammaIntensity = new double[prsfIntOne]; //The intensities for any coincident gamma radiation events
+	 * protected int prNumBetas = prsfIntZero; //The number of coincident beta radiation events for this rule
+	 * protected String[] prBetaName = new String[prsfIntOne]; //The names of the possible beta emission energies
+	 * protected double[] prBetaEnergy = new double[prsfIntOne]; //The possible beta emission energies
+	 * protected double[] prBetaIntensity = new double[prsfIntOne]; //The intensities for each beta emission energy
+	 * protected int prNumAlphas = prsfIntZero; //The number of coincident alpha radiation events for this rule
+	 * protected String[] prAlphaName = new String[prsfIntOne]; //The names of the possible alpha emission energies
+	 * protected double[] prAlphaEnergy = new double[prsfIntOne]; //The possible alpha emission energies
+	 * protected double[] prAlphaIntensity = new double[prsfIntOne]; //The intensities for each alpha emission energy
 	 */
 
     private double pvTime = prsfDoubleMinusOne; //calculated time of the (DecayEvent) referenced from arbitrary start point in seconds
     private int pvMaxHalfLives = prsfIntEighty;
     private double pvTimeOffset = prsfDoubleZero; //user supplied offset time in seconds
-    protected double prEnergy = prsfDoubleMinusOne; //user supplied (DecayEvent) energy in MeV
-    protected String prType = ""; //user supplied (DecayEvent) type (alpha, beta, gamma, neutron)
-    protected double prHalfLife = prsfDoubleMinusOne; //user supplied (DecayEvent) half-life in seconds
-    protected String prStartNucleus = ""; //the nucleus before the DecayEvent
-    protected String prEndNucleus = ""; //the nucleus after the DecayEvent
     protected double prStartTime = prsfDoubleMinusOne; //lower bound of the time in which the (DecayEvent) may occur
     protected double prEndTime = prsfDoubleMinusOne; //upper bound of the time in which the (DecayEvent) may occur
-
 
     public DecayEvent(){
     	//empty constructor
@@ -195,6 +207,37 @@ public class DecayEvent extends PRSFNUM {
         }
     }
 
+    public DecayEvent(double timeOffset, DecayChainRule rule) {
+    	//Simple (DecayEvent) constructor that calculates the time that the event occurs based on the supplied half-life that includes a variable to modify the maximum number of half lives to search through (default is 20) and add a time offset
+    	prNumGammas = rule.puGetNumGammas();
+    	prGammaName = rule.puGetGammaName();
+    	prGammaEnergy = rule.puGetGammaEnergy();
+    	prGammaIntensity = rule.puGetGammaIntensity();
+    	prNumBetas = rule.puGetNumBetas();
+    	prBetaName = rule.puGetBetaName();
+    	prBetaEnergy = rule.puGetBetaEnergy();
+    	prBetaIntensity = rule.puGetBetaIntensity();
+    	prNumAlphas = rule.puGetNumAlphas();
+    	prAlphaName = rule.puGetAlphaName();
+    	prAlphaEnergy = rule.puGetAlphaEnergy();
+    	prAlphaIntensity = rule.puGetAlphaIntensity();
+    	prStartNucleus = rule.puGetStartNucleus();
+        prEndNucleus = rule.puGetEndNucleus();
+        prEnergy = rule.puGetEnergy();
+        prType = rule.puGetType();
+        prHalfLife = rule.puGetHalfLife();
+        if (timeOffset >= prsfIntZero) {
+            pvTimeOffset = timeOffset;
+        } else {
+            System.out.println("(DecayEvent) construction failed because (timeOffset) input must be a positive number and greater than or equal to zero");
+        }
+        if (prHalfLife > prsfIntZero) {
+            pvTime = pvCalcTime();
+        } else {
+            System.out.println("(DecayEvent) construction failed because (pvTime) cannot be calculated without a defined (halflife)");
+        }
+    }
+
     public void puRecalculateTime(){
     	//recalculates the (DecayEvent) time, provided in case the (DecayEvent) is initialized with the blank constructor
     	if(prHalfLife>prsfIntZero){
@@ -249,19 +292,9 @@ public class DecayEvent extends PRSFNUM {
         return (t+pvTimeOffset);
     }
 
-    public String puGetStartNucleus() {
-    	//returns the start nucleus of this (DecayEvent)
-    	return prStartNucleus;
-    }
-
     public double puGetTimeOffset(){
     	//returns the (pvTimeOffset) of this (DecayEvent)
     	return pvTimeOffset;
-    }
-
-    public String puGetEndNucleus() {
-    	//returns the end nucleus of this (DecayEvent)
-    	return prEndNucleus;
     }
 
     public double puGetTime() {
@@ -270,31 +303,6 @@ public class DecayEvent extends PRSFNUM {
             return pvTime;
         } else {
             System.out.println("(puGetTime) failed because this (DecayEvent) does not have a calculated (pvTime)");
-            return prsfDoubleMinusOne;
-        }
-    }
-
-    public double puGetHalfLife() {
-    	//returns the half-life of this (DecayEvent)
-        if (prHalfLife > prsfIntZero) {
-            return prHalfLife;
-        } else {
-            System.out.println("(puGetHalfLife) failed because this (DecayEvent) does not have a proper (prHalfLife) assigned");
-            return prsfDoubleMinusOne;
-        }
-    }
-
-    public String puGetType() {
-    	//returns the radiation type of this (DecayEvent)
-        return prType;
-    }
-
-    public double puGetEnergy() {
-    	//returns the energy of this (DecayEvent)
-        if (prEnergy > prsfIntZero) {
-            return prEnergy;
-        } else {
-            System.out.println("(puGetEnergy) failed because this (DecayEvent) does not have a proper (prEnergy) assigned");
             return prsfDoubleMinusOne;
         }
     }
@@ -372,4 +380,26 @@ public class DecayEvent extends PRSFNUM {
             prEnergy = prsfDoubleMinusOne;
         }
     }
+
+    public void puSetRule(DecayChainRule rule) {
+    	//sets the rule
+    	prNumGammas = rule.puGetNumGammas();
+    	prGammaName = rule.puGetGammaName();
+    	prGammaEnergy = rule.puGetGammaEnergy();
+    	prGammaIntensity = rule.puGetGammaIntensity();
+    	prNumBetas = rule.puGetNumBetas();
+    	prBetaName = rule.puGetBetaName();
+    	prBetaEnergy = rule.puGetBetaEnergy();
+    	prBetaIntensity = rule.puGetBetaIntensity();
+    	prNumAlphas = rule.puGetNumAlphas();
+    	prAlphaName = rule.puGetAlphaName();
+    	prAlphaEnergy = rule.puGetAlphaEnergy();
+    	prAlphaIntensity = rule.puGetAlphaIntensity();
+    	prStartNucleus = rule.puGetStartNucleus();
+        prEndNucleus = rule.puGetEndNucleus();
+        prEnergy = rule.puGetEnergy();
+        prType = rule.puGetType();
+        prHalfLife = rule.puGetHalfLife();
+    }
+
 }

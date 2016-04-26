@@ -57,6 +57,7 @@ public abstract class PRSFNUM {
 	protected static final int prsfInt365 = 365;
 	protected static final int prsfInt24 = 24;
 	protected static final int prsfInt3600 = 3600;
+	protected static final int prsfIntMinusOne = -1;
 	protected static final int prsfIntZero = 0;
 	protected static final int prsfIntOne = 1;
 	protected static final int prsfIntTwo = 2;

@@ -217,11 +217,14 @@ public class RadioactivitySimTerminal extends JFrame {
     		currentText.append(">: get <BFSample or PSample>" + System.getProperty("line.separator"));
     		currentText.append("This command returns some statistics about the current NucleiSamplePredictiveSim or NucleiSampleBruteForceSim." + System.getProperty("line.separator"));
     		currentText.append(System.getProperty("line.separator"));
-    		currentText.append(">: get <BFSample or PSample> countList <end, start, or event>" + System.getProperty("line.separator"));
-    		currentText.append("This command returns a list of the starting, ending, or event counts by nuclei contained within the NucleiSamplePredictiveSim or NucleiSampleBruteForceSim." + System.getProperty("line.separator"));
+    		currentText.append(">: get <BFSample or PSample> countList <end, start, event, parts>" + System.getProperty("line.separator"));
+    		currentText.append("This command returns a list of the starting, ending, event, or EM and particle counts by nuclei contained within the NucleiSamplePredictiveSim or NucleiSampleBruteForceSim." + System.getProperty("line.separator"));
     		currentText.append(System.getProperty("line.separator"));
     		currentText.append(">: get <BFSample or PSample> ruleList" + System.getProperty("line.separator"));
     		currentText.append("This command returns an indexed list of the decay chain rules contained within the NucleiSamplePredictiveSim or NucleiSampleBruteForceSim." + System.getProperty("line.separator"));
+    		currentText.append(System.getProperty("line.separator"));
+    		currentText.append(">: get <BFSample or PSample> branchList" + System.getProperty("line.separator"));
+    		currentText.append("This command returns an indexed list of the decay chain rule branches contained within the NucleiSamplePredictiveSim or NucleiSampleBruteForceSim." + System.getProperty("line.separator"));
     		currentText.append(System.getProperty("line.separator"));
     		currentText.append(">: get <BFSample or PSample> <num, energy, power> all" + System.getProperty("line.separator"));
     		currentText.append("This command returns overall number, energy sum, or average radiated power contained within the NucleiSamplePredictiveSim or NucleiSampleBruteForceSim." + System.getProperty("line.separator"));
@@ -406,8 +409,9 @@ public class RadioactivitySimTerminal extends JFrame {
     	//Handles the "get" type commands
     	//get inputDir
     	//get <BFSample or PSample>
-    	//get <BFSample or PSample> countList <end, start, or event>
+    	//get <BFSample or PSample> countList <end, start, event, parts>
     	//get <BFSample or PSample> ruleList
+    	//get <BFSample or PSample> branchList
     	//get <BFSample or PSample> <num, energy, or power> all
     	//get <BFSample or PSample> <num, energy, or power> <startTime> <endTime>
     	//get <BFSample or PSample> <num, energy, or power> all <TypeOrName>
@@ -466,6 +470,34 @@ public class RadioactivitySimTerminal extends JFrame {
 							currentText.append("Decay Chain Rule Set No " + x + System.getProperty("line.separator"));
 							rules = pvBruteForceSample.puGetDecayChainRuleSet(x);
 							currentText.append(rules.puOutputDecayChainRuleSet() + System.getProperty("line.separator"));
+						}
+						currentText.append(System.getProperty("line.separator"));
+					} else {
+						currentText.append("Command unknown!  Please type help for a list of commands." + System.getProperty("line.separator"));
+					}
+				} else if(splits[2].compareTo("branchList")==0){
+					if(splits[1].compareTo("PSample")==0){
+						currentText.append(System.getProperty("line.separator"));
+						DecayChainRuleSet rules;
+						for(int x = 0; x < pvPredictiveSample.puGetNumDecayChainRuleSets(); x++){
+							currentText.append("Decay Chain Rule Set No " + x + System.getProperty("line.separator"));
+							rules = pvPredictiveSample.puGetDecayChainRuleSet(x);
+							for(int y = 0; y < rules.puGetNumBranches(); y++){
+								currentText.append("Decay Chain Rule Set No " + x + " Branch No " + y + System.getProperty("line.separator"));
+								currentText.append(rules.puOutputDecayChainRuleBranch(y) + System.getProperty("line.separator"));
+							}
+						}
+						currentText.append(System.getProperty("line.separator"));
+					} else if (splits[1].compareTo("BFSample")==0){
+						currentText.append(System.getProperty("line.separator"));
+						DecayChainRuleSet rules;
+						for(int x = 0; x < pvBruteForceSample.puGetNumDecayChainRuleSets(); x++){
+							currentText.append("Decay Chain Rule Set No " + x + System.getProperty("line.separator"));
+							rules = pvBruteForceSample.puGetDecayChainRuleSet(x);
+							for(int y = 0; y < rules.puGetNumBranches(); y++){
+								currentText.append("Decay Chain Rule Set No " + x + " Branch No " + y + System.getProperty("line.separator"));
+								currentText.append(rules.puOutputDecayChainRuleBranch(y) + System.getProperty("line.separator"));
+							}
 						}
 						currentText.append(System.getProperty("line.separator"));
 					} else {
@@ -548,6 +580,18 @@ public class RadioactivitySimTerminal extends JFrame {
 					} else if (splits[1].compareTo("BFSample")==0){
 						currentText.append(System.getProperty("line.separator"));
 						currentText.append(pvBruteForceSample.puGetAllEventCountsOverTimeRangeByNuclei(pvBruteForceSample.puGetStartTime(),pvBruteForceSample.puGetEndTime()) + System.getProperty("line.separator"));
+						currentText.append(System.getProperty("line.separator"));
+					} else {
+						currentText.append("Command unknown!  Please type help for a list of commands." + System.getProperty("line.separator"));
+					}
+				} else if (splits[3].compareTo("parts")==0&splits[2].compareTo("countList")==0){
+					if(splits[1].compareTo("PSample")==0){
+						currentText.append(System.getProperty("line.separator"));
+						currentText.append(pvPredictiveSample.puGetAllParticleAndEMCountsOverTimeRangeByEnergy(pvPredictiveSample.puGetStartTime(),pvPredictiveSample.puGetEndTime()) + System.getProperty("line.separator"));
+						currentText.append(System.getProperty("line.separator"));
+					} else if (splits[1].compareTo("BFSample")==0){
+						currentText.append(System.getProperty("line.separator"));
+						currentText.append(pvBruteForceSample.puGetAllParticleAndEMCountsOverTimeRangeByEnergy(pvBruteForceSample.puGetStartTime(),pvBruteForceSample.puGetEndTime()) + System.getProperty("line.separator"));
 						currentText.append(System.getProperty("line.separator"));
 					} else {
 						currentText.append("Command unknown!  Please type help for a list of commands." + System.getProperty("line.separator"));

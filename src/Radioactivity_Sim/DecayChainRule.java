@@ -76,7 +76,10 @@ public class DecayChainRule extends PRSFNUM{
 	protected String[] prBetaName = new String[prsfIntOne]; //The names of the possible beta emission energies
 	protected double[] prBetaEnergy = new double[prsfIntOne]; //The possible beta emission energies
 	protected double[] prBetaIntensity = new double[prsfIntOne]; //The intensities for each beta emission energy
-
+	protected int prNumAlphas = prsfIntZero; //The number of coincident alpha radiation events for this rule
+	protected String[] prAlphaName = new String[prsfIntOne]; //The names of the possible alpha emission energies
+	protected double[] prAlphaEnergy = new double[prsfIntOne]; //The possible alpha emission energies
+	protected double[] prAlphaIntensity = new double[prsfIntOne]; //The intensities for each alpha emission energy
 
 	public DecayChainRule(){
 		//Basic Constructor
@@ -103,6 +106,28 @@ public class DecayChainRule extends PRSFNUM{
 			System.out.println("(DecayChainRule) construction failed! The supplied probability must be greater than zero!");
 		}
 		prNumGammas = prsfIntZero;
+	}
+
+	public DecayChainRule(DecayChainRule rule){
+		//Constructs a rule with all data from another rule
+		prNumGammas = rule.puGetNumGammas();
+    	prGammaName = rule.puGetGammaName();
+    	prGammaEnergy = rule.puGetGammaEnergy();
+    	prGammaIntensity = rule.puGetGammaIntensity();
+    	prNumBetas = rule.puGetNumBetas();
+    	prBetaName = rule.puGetBetaName();
+    	prBetaEnergy = rule.puGetBetaEnergy();
+    	prBetaIntensity = rule.puGetBetaIntensity();
+    	prNumAlphas = rule.puGetNumAlphas();
+    	prAlphaName = rule.puGetAlphaName();
+    	prAlphaEnergy = rule.puGetAlphaEnergy();
+    	prAlphaIntensity = rule.puGetAlphaIntensity();
+    	prStartNucleus = rule.puGetStartNucleus();
+        prEndNucleus = rule.puGetEndNucleus();
+        prEnergy = rule.puGetEnergy();
+        prType = rule.puGetType();
+        prHalfLife = rule.puGetHalfLife();
+        prProbability = rule.puGetProbability();
 	}
 
 	public void puAddGamma(String name, double energy, double intensity){
@@ -173,6 +198,40 @@ public class DecayChainRule extends PRSFNUM{
 		}
 	}
 
+	public void puAddAlpha(String name, double energy, double intensity){
+		//Adds Alpha emmision energy to the rule
+		if(prNumAlphas==prsfIntZero){
+			if(energy>0&intensity>0){
+				prAlphaName[prsfIntZero] = name;
+				prAlphaEnergy[prsfIntZero] = energy;
+				prAlphaIntensity[prsfIntZero] = intensity;
+				prNumAlphas++;
+			} else {
+				System.out.println("(puAddAlpha) has failed! the supplied energy and intensity must be greater than zero!");
+			}
+		} else {
+			if(energy>0&intensity>0){
+				String[] names = new String[prNumAlphas+1];
+				double[] energies = new double[prNumAlphas+1];
+				double[] intensities = new double[prNumAlphas+1];
+				for(int x = 0; x < prNumAlphas; x++){
+					names[x] = prAlphaName[x];
+					energies[x] = prAlphaEnergy[x];
+					intensities[x] = prAlphaIntensity[x];
+				}
+				names[prNumAlphas] = name;
+				energies[prNumAlphas] = energy;
+				intensities[prNumAlphas] = intensity;
+				prAlphaName = names;
+				prAlphaEnergy = energies;
+				prAlphaIntensity = intensities;
+				prNumAlphas++;
+			} else {
+				System.out.println("(puAddAlpha) has failed! the supplied energy and intensity must be greater than zero!");
+			}
+		}
+	}
+
 	public void puClearRule(){
 		//clears the rule as if it were new
 		prStartNucleus = "";
@@ -189,6 +248,10 @@ public class DecayChainRule extends PRSFNUM{
 		prBetaName = new String[prsfIntOne];
 		prBetaEnergy = new double[prsfIntOne];
 		prBetaIntensity = new double[prsfIntOne];
+		prNumAlphas = prsfIntZero;
+		prAlphaName = new String[prsfIntOne];
+		prAlphaEnergy = new double[prsfIntOne];
+		prAlphaIntensity = new double[prsfIntOne];
 	}
 
 	public String puGetStartNucleus() {
@@ -418,6 +481,95 @@ public class DecayChainRule extends PRSFNUM{
 				}
 			} else {
 				String err = "(puGetBetaIntensity) has failed! The supplied index must be greater then zero!" + System.getProperty("line.separator");
+				System.out.println(err);
+				return prsfDoubleMinusOne;
+			}
+		}
+	}
+
+	public int puGetNumAlphas() {
+		//returns the number of alternate Alpha energies
+		return prNumAlphas;
+	}
+
+	public String[] puGetAlphaName() {
+		//returns all of the Alpha names for the rule
+		return prAlphaName;
+	}
+
+	public String puGetAlphaName(int index){
+		//returns the Alpha name at the supplied index for the rule
+		if(prNumAlphas==prsfIntZero){
+			String err = "(puGetAlphaName) has failed! This rule has no conincident Alphas!" + System.getProperty("line.separator");
+			System.out.println(err);
+			return err;
+		} else {
+			if(index>=0){
+				if(index<prAlphaName.length){
+					return prAlphaName[index];
+				} else {
+					String err = "(puGetAlphaName) has failed! The supplied index is greater than the number of Alphas less one!" + System.getProperty("line.separator");
+					System.out.println(err);
+					return err;
+				}
+			} else {
+				String err = "(puGetAlphaName) has failed! The supplied index must be greater then zero!" + System.getProperty("line.separator");
+				System.out.println(err);
+				return err;
+			}
+		}
+	}
+
+	public double[] puGetAlphaEnergy() {
+		//returns all of the Alpha energies for the rule
+		return prAlphaEnergy;
+	}
+
+	public double puGetAlphaEnergy(int index){
+		//returns the energy of the Alpha emission at the supplied index for the rule
+		if(prNumAlphas==prsfIntZero){
+			String err = "(puGetAlphaEnergy) has failed! This rule has no conincident Alphas!" + System.getProperty("line.separator");
+			System.out.println(err);
+			return prsfDoubleMinusOne;
+		} else {
+			if(index>=0){
+				if(index<prAlphaEnergy.length){
+					return prAlphaEnergy[index];
+				} else {
+					String err = "(puGetAlphaEnergy) has failed! The supplied index is greater than the number of Alphas less one!" + System.getProperty("line.separator");
+					System.out.println(err);
+					return prsfDoubleMinusOne;
+				}
+			} else {
+				String err = "(puGetAlphaEnergy) has failed! The supplied index must be greater then zero!" + System.getProperty("line.separator");
+				System.out.println(err);
+				return prsfDoubleMinusOne;
+			}
+		}
+	}
+
+	public double[] puGetAlphaIntensity() {
+		//returns all Alpha emission intensities for the rule
+		return prAlphaIntensity;
+	}
+
+	public double puGetAlphaIntensity(int index){
+		//returns the intensity of the Alpha emission at the supplied index for the rule
+		if(prNumAlphas==prsfIntZero){
+			String err = "(puGetAlphaIntensity) has failed! This rule has no conincident Alphas!" + System.getProperty("line.separator");
+			System.out.println(err);
+			return prsfDoubleMinusOne;
+		} else {
+			if(index>=0){
+				if(index<prAlphaIntensity.length){
+					return prAlphaIntensity[index];
+				} else {
+					String err = "(puGetAlphaIntensity) has failed! The supplied index is greater than the number of Alphas less one!" + System.getProperty("line.separator");
+					System.out.println(err);
+					return prsfDoubleMinusOne;
+				}
+			} else {
+				String err = "(puGetAlphaIntensity) has failed! The supplied index must be greater then zero!" + System.getProperty("line.separator");
 				System.out.println(err);
 				return prsfDoubleMinusOne;
 			}

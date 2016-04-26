@@ -199,7 +199,7 @@ public class NucleiSampleBruteForceSim extends PRSFNUM {
     			if (rules.puGetStartNucleus(y).compareTo(startNucleus)==prsfIntZero) {
     				if (rules.puGetProbability(y) == prsfIntOne) {
     					startNucleus = rules.puGetEndNucleus(y);
-    					DecayEvent instance = new DecayEvent(rules.puGetStartNucleus(y),rules.puGetEndNucleus(y),rules.puGetHalfLife(y),rules.puGetEnergy(y),rules.puGetType(y),timeOffset);
+    					DecayEvent instance = new DecayEvent(timeOffset, rules.puGetRule(y));
     					if (instance.puGetTime()>=pvStartTime&instance.puGetTime()<pvEndTime) {
     						pvAddDecayEvent(instance);
     					}
@@ -209,15 +209,15 @@ public class NucleiSampleBruteForceSim extends PRSFNUM {
     					if ((rules.puGetProbability(y) + rules.puGetProbability(y+1)) == prsfIntOne) {
     						if (seed <= rules.puGetProbability(y)){
     							startNucleus = rules.puGetEndNucleus(y);
-    							DecayEvent instance = new DecayEvent(rules.puGetStartNucleus(y),rules.puGetEndNucleus(y),rules.puGetHalfLife(y),rules.puGetEnergy(y),rules.puGetType(y),timeOffset);
-    	    					if (instance.puGetTime()>=pvStartTime&instance.puGetTime()<pvEndTime) {
+    							DecayEvent instance = new DecayEvent(timeOffset, rules.puGetRule(y));
+    							if (instance.puGetTime()>=pvStartTime&instance.puGetTime()<pvEndTime) {
     	    						pvAddDecayEvent(instance);
     	    					}
     	    					timeOffset += instance.puGetTime();
     	    					y++;
     						} else {
     							startNucleus = rules.puGetEndNucleus(y+prsfIntOne);
-    							DecayEvent instance = new DecayEvent(rules.puGetStartNucleus(y+prsfIntOne),rules.puGetEndNucleus(y+prsfIntOne),rules.puGetHalfLife(y+prsfIntOne),rules.puGetEnergy(y+prsfIntOne),rules.puGetType(y+prsfIntOne),timeOffset);
+    							DecayEvent instance = new DecayEvent(timeOffset, rules.puGetRule(y+prsfIntOne));
     	    					if (instance.puGetTime()>=pvStartTime&instance.puGetTime()<pvEndTime) {
     	    						pvAddDecayEvent(instance);
     	    					}
@@ -228,7 +228,7 @@ public class NucleiSampleBruteForceSim extends PRSFNUM {
     					} else if ((rules.puGetProbability(y) + rules.puGetProbability(y+prsfIntOne) + rules.puGetProbability(y+prsfIntTwo)) == prsfIntOne) {
     						if (seed <= rules.puGetProbability(y)) {
     							startNucleus = rules.puGetEndNucleus(y);
-    							DecayEvent instance = new DecayEvent(rules.puGetStartNucleus(y),rules.puGetEndNucleus(y),rules.puGetHalfLife(y),rules.puGetEnergy(y),rules.puGetType(y),timeOffset);
+    							DecayEvent instance = new DecayEvent(timeOffset, rules.puGetRule(y));
     	    					if (instance.puGetTime()>=pvStartTime&instance.puGetTime()<pvEndTime) {
     	    						pvAddDecayEvent(instance);
     	    					}
@@ -236,7 +236,7 @@ public class NucleiSampleBruteForceSim extends PRSFNUM {
     	    					y += prsfIntTwo;
     						} else if (seed <= (rules.puGetProbability(y) + rules.puGetProbability(y+prsfIntOne))) {
     							startNucleus = rules.puGetEndNucleus(y+1);
-    							DecayEvent instance = new DecayEvent(rules.puGetStartNucleus(y+prsfIntOne),rules.puGetEndNucleus(y+prsfIntOne),rules.puGetHalfLife(y+prsfIntOne),rules.puGetEnergy(y+prsfIntOne),rules.puGetType(y+prsfIntOne),timeOffset);
+    							DecayEvent instance = new DecayEvent(timeOffset, rules.puGetRule(y+prsfIntOne));
     	    					if (instance.puGetTime()>=pvStartTime&instance.puGetTime()<pvEndTime) {
     	    						pvAddDecayEvent(instance);
     	    					}
@@ -244,7 +244,7 @@ public class NucleiSampleBruteForceSim extends PRSFNUM {
     							y += prsfIntTwo;
     						} else {
     							startNucleus = rules.puGetEndNucleus(y+prsfIntTwo);
-    							DecayEvent instance = new DecayEvent(rules.puGetStartNucleus(y+prsfIntTwo),rules.puGetEndNucleus(y+prsfIntTwo),rules.puGetHalfLife(y+prsfIntTwo),rules.puGetEnergy(y+prsfIntTwo),rules.puGetType(y+prsfIntTwo),timeOffset);
+    							DecayEvent instance = new DecayEvent(timeOffset, rules.puGetRule(y+prsfIntTwo));
     	    					if (instance.puGetTime()>=pvStartTime&instance.puGetTime()<pvEndTime) {
     	    						pvAddDecayEvent(instance);
     	    					}
@@ -297,7 +297,7 @@ public class NucleiSampleBruteForceSim extends PRSFNUM {
     			if (rules.puGetStartNucleus(y).compareTo(startNucleus)==prsfIntZero) {
     				if (rules.puGetProbability(y) == prsfIntOne) {
     					startNucleus = rules.puGetEndNucleus(y);
-    					DecayEvent instance = new DecayEvent(rules.puGetStartNucleus(y),rules.puGetEndNucleus(y),rules.puGetHalfLife(y),rules.puGetEnergy(y),rules.puGetType(y),timeOffset);
+    					DecayEvent instance = new DecayEvent(timeOffset, rules.puGetRule(y));
     					if (instance.puGetTime()>=pvStartTime&instance.puGetTime()<pvEndTime) {
     						pvAddDecayEvent(instance);
     					}
@@ -307,7 +307,7 @@ public class NucleiSampleBruteForceSim extends PRSFNUM {
     					if ((rules.puGetProbability(y) + rules.puGetProbability(y+prsfIntOne)) == prsfIntOne) {
     						if (seed <= rules.puGetProbability(y)){
     							startNucleus = rules.puGetEndNucleus(y);
-    							DecayEvent instance = new DecayEvent(rules.puGetStartNucleus(y),rules.puGetEndNucleus(y),rules.puGetHalfLife(y),rules.puGetEnergy(y),rules.puGetType(y),timeOffset);
+    							DecayEvent instance = new DecayEvent(timeOffset, rules.puGetRule(y));
     	    					if (instance.puGetTime()>=pvStartTime&instance.puGetTime()<pvEndTime) {
     	    						pvAddDecayEvent(instance);
     	    					}
@@ -315,7 +315,7 @@ public class NucleiSampleBruteForceSim extends PRSFNUM {
     	    					y++;
     						} else {
     							startNucleus = rules.puGetEndNucleus(y+prsfIntOne);
-    							DecayEvent instance = new DecayEvent(rules.puGetStartNucleus(y+prsfIntOne),rules.puGetEndNucleus(y+prsfIntOne),rules.puGetHalfLife(y+prsfIntOne),rules.puGetEnergy(y+prsfIntOne),rules.puGetType(y+prsfIntOne),timeOffset);
+    							DecayEvent instance = new DecayEvent(timeOffset, rules.puGetRule(y+prsfIntOne));
     	    					if (instance.puGetTime()>=pvStartTime&instance.puGetTime()<pvEndTime) {
     	    						pvAddDecayEvent(instance);
     	    					}
@@ -326,7 +326,7 @@ public class NucleiSampleBruteForceSim extends PRSFNUM {
     					} else if ((rules.puGetProbability(y) + rules.puGetProbability(y+prsfIntOne) + rules.puGetProbability(y+prsfIntTwo)) == prsfIntOne) {
     						if (seed <= rules.puGetProbability(y)) {
     							startNucleus = rules.puGetEndNucleus(y);
-    							DecayEvent instance = new DecayEvent(rules.puGetStartNucleus(y),rules.puGetEndNucleus(y),rules.puGetHalfLife(y),rules.puGetEnergy(y),rules.puGetType(y),timeOffset);
+    							DecayEvent instance = new DecayEvent(timeOffset, rules.puGetRule(y));
     	    					if (instance.puGetTime()>=pvStartTime&instance.puGetTime()<pvEndTime) {
     	    						pvAddDecayEvent(instance);
     	    					}
@@ -334,7 +334,7 @@ public class NucleiSampleBruteForceSim extends PRSFNUM {
     	    					y += 2;
     						} else if (seed <= (rules.puGetProbability(y) + rules.puGetProbability(y+prsfIntOne))) {
     							startNucleus = rules.puGetEndNucleus(y+prsfIntOne);
-    							DecayEvent instance = new DecayEvent(rules.puGetStartNucleus(y+prsfIntOne),rules.puGetEndNucleus(y+prsfIntOne),rules.puGetHalfLife(y+prsfIntOne),rules.puGetEnergy(y+prsfIntOne),rules.puGetType(y+prsfIntOne),timeOffset);
+    							DecayEvent instance = new DecayEvent(timeOffset, rules.puGetRule(y+prsfIntOne));
     	    					if (instance.puGetTime()>=pvStartTime&instance.puGetTime()<pvEndTime) {
     	    						pvAddDecayEvent(instance);
     	    					}
@@ -342,7 +342,7 @@ public class NucleiSampleBruteForceSim extends PRSFNUM {
     							y += prsfIntTwo;
     						} else {
     							startNucleus = rules.puGetEndNucleus(y+prsfIntTwo);
-    							DecayEvent instance = new DecayEvent(rules.puGetStartNucleus(y+prsfIntTwo),rules.puGetEndNucleus(y+prsfIntTwo),rules.puGetHalfLife(y+prsfIntTwo),rules.puGetEnergy(y+prsfIntTwo),rules.puGetType(y+prsfIntTwo),timeOffset);
+    							DecayEvent instance = new DecayEvent(timeOffset, rules.puGetRule(y+prsfIntTwo));
     	    					if (instance.puGetTime()>=pvStartTime&instance.puGetTime()<pvEndTime) {
     	    						pvAddDecayEvent(instance);
     	    					}
@@ -402,7 +402,7 @@ public class NucleiSampleBruteForceSim extends PRSFNUM {
     }
 
     public String puGetAllEndTimeNucleiCounts() {
-    	//Returns a string containing all of the final counts for all nuclei at (pvEndTime) within this (NucleiSamplePredictiveSim)
+    	//Returns a string containing all of the final counts for all nuclei at (pvEndTime) within this (NucleiSampleBruteForceSim)
     	StringBuilder text = new StringBuilder();
     	text.append("The nuclei counts at "+pvEndTime+" are: " + System.getProperty("line.separator"));
     	double[] endTimePartNum = new double[pvNuclei.length];
@@ -420,7 +420,7 @@ public class NucleiSampleBruteForceSim extends PRSFNUM {
     }
 
     public String puGetAllStartTimeNucleiCounts() {
-    	//Returns a string containing all of the final counts for all nuclei at (pvEndTime) within this (NucleiSamplePredictiveSim)
+    	//Returns a string containing all of the final counts for all nuclei at (pvEndTime) within this (NucleiSampleBruteForceSim)
     	StringBuilder text = new StringBuilder();
     	text.append("The nuclei counts at "+pvStartTime+" are: " + System.getProperty("line.separator"));
     	double[] startTimePartNum = new double[pvNuclei.length];
@@ -438,13 +438,168 @@ public class NucleiSampleBruteForceSim extends PRSFNUM {
     }
 
     public String puGetAllEventCountsOverTimeRangeByNuclei(double start, double end) {
-    	//Returns a string containing all of the event counts for all nuclei over the specified time rante within this (NucleiSamplePredictiveSim)
+    	//Returns a string containing all of the event counts for all nuclei over the specified time range within this (NucleiSampleBruteForceSim)
     	StringBuilder text = new StringBuilder();
     	text.append("The final decay counts are: " + System.getProperty("line.separator"));
     	for(int q = prsfIntZero; q < pvNuclei.length; q++) {
 			text.append("The number of decays of " + pvNuclei[q] + " = " + puGetEventNumForStartNucleusOverTimeRange(start,end,pvNuclei[q]) + System.getProperty("line.separator"));
+
 		}
     	return text.toString();
+    }
+
+    public String puGetAllParticleAndEMCountsOverTimeRangeByEnergy(double start, double end){
+    	//Returns the number of emissions listed by type and energy that occurred between the user supplied (start) and (end) times
+    	String names[] = new String[prsfIntOne];
+    	double energies[] = new double[prsfIntOne];
+    	double counts[] = new double[prsfIntOne];
+    	double test = prsfIntZero;
+    	int length = prsfIntZero;
+    	StringBuilder text = new StringBuilder();
+    	if (start < pvStartTime) {
+    		System.out.println("Warning (puGetAllParticleAndEMCountsOverTimeRangeByEnergy) was supplied a start time that is earlier than (pvStartTime)!");
+    	} else if (start > pvEndTime) {
+    		String err = "Warning (puGetAllParticleAndEMCountsOverTimeRangeByEnergy) was supplied a start time that is past (pvEndTime)!";
+    		System.out.println(err);
+    		return err;
+    	}
+    	if (end < pvStartTime) {
+    		String err = "Warning (puGetAllParticleAndEMCountsOverTimeRangeByEnergy) was supplied an end time that is earlier than (pvStartTime)!";
+    		System.out.println(err);
+    		return err;
+    	} else if (end > pvEndTime) {
+    		String err = "Warning (puGetAllParticleAndEMCountsOverTimeRangeByEnergy) was supplied an end time that is past (pvEndTime)!";
+    		System.out.println(err);
+    	}
+    	if (start < end) {
+    		if (pvNumDecayEvents > prsfIntZero) {
+    			//Build counts for the independent name and energy pairs
+    			for (int x = prsfIntZero; x < pvNumDecayEvents; x++) {
+    				test = pvDecayEvents[x].puGetTime();
+    				if (test>=start&test<end) {
+    					if(pvDecayEvents[x].puGetNumGammas()>0){
+							for(int y = prsfIntZero; y < pvDecayEvents[x].puGetNumGammas(); y++){
+								if(length==prsfIntZero){
+	    							names[prsfIntZero]=pvDecayEvents[x].puGetGammaName(y);
+	    							energies[prsfIntZero]=pvDecayEvents[x].puGetGammaEnergy(y);
+	    							counts[prsfIntZero]=pvDecayEvents[x].puGetGammaIntensity(y);
+	    							length++;
+	    						} else {
+	    							boolean isNew = true;
+	    							for(int z = prsfIntZero; z < length;y++){
+	    								if(pvDecayEvents[x].puGetGammaName(y).compareTo(names[z])==0&pvDecayEvents[x].puGetGammaEnergy(y)==energies[z]){
+	    									isNew = false;
+	    									counts[z]+=pvDecayEvents[x].puGetGammaIntensity(y);
+	    								}
+	    							}
+	    							if(isNew){
+	    								String[] newNames = new String[length+prsfIntOne];
+	    								double[] newEnergies = new double[length+prsfIntOne];
+	    								double[] newCounts = new double[length+prsfIntOne];
+	    								for(int z = prsfIntZero; z < length; z++){
+	    									newNames[z] = names[z];
+	    									newEnergies[z] = energies[z];
+	    									newCounts[z] = counts[z];
+	    								}
+	    								newNames[length] = pvDecayEvents[x].puGetGammaName(y);
+	    								newEnergies[length] = pvDecayEvents[x].puGetGammaEnergy(y);
+	    								newCounts[length] = pvDecayEvents[x].puGetGammaIntensity(y);
+	    								names = newNames;
+	    								energies = newEnergies;
+	    								counts = newCounts;
+	    								length++;
+	    							}
+	    						}
+							}
+						}
+						if(pvDecayEvents[x].puGetNumAlphas()>0){
+							for(int y = prsfIntZero; y < pvDecayEvents[x].puGetNumAlphas(); y++){
+								if(length==prsfIntZero){
+	    							names[prsfIntZero]=pvDecayEvents[x].puGetAlphaName(y);
+	    							energies[prsfIntZero]=pvDecayEvents[x].puGetAlphaEnergy(y);
+	    							counts[prsfIntZero]=pvDecayEvents[x].puGetAlphaIntensity(y);
+	    							length++;
+	    						} else {
+	    							boolean isNew = true;
+	    							for(int z = prsfIntZero; z < length;y++){
+	    								if(pvDecayEvents[x].puGetAlphaName(y).compareTo(names[z])==0&pvDecayEvents[x].puGetAlphaEnergy(y)==energies[z]){
+	    									isNew = false;
+	    									counts[z]+=pvDecayEvents[x].puGetAlphaIntensity(y);
+	    								}
+	    							}
+	    							if(isNew){
+	    								String[] newNames = new String[length+prsfIntOne];
+	    								double[] newEnergies = new double[length+prsfIntOne];
+	    								double[] newCounts = new double[length+prsfIntOne];
+	    								for(int z = prsfIntZero; z < length; z++){
+	    									newNames[z] = names[z];
+	    									newEnergies[z] = energies[z];
+	    									newCounts[z] = counts[z];
+	    								}
+	    								newNames[length] = pvDecayEvents[x].puGetAlphaName(y);
+	    								newEnergies[length] = pvDecayEvents[x].puGetAlphaEnergy(y);
+	    								newCounts[length] = pvDecayEvents[x].puGetAlphaIntensity(y);
+	    								names = newNames;
+	    								energies = newEnergies;
+	    								counts = newCounts;
+	    								length++;
+	    							}
+	    						}
+							}
+						}
+						if(pvDecayEvents[x].puGetNumBetas()>0){
+							for(int y = prsfIntZero; y < pvDecayEvents[x].puGetNumBetas(); y++){
+								if(length==prsfIntZero){
+	    							names[prsfIntZero]=pvDecayEvents[x].puGetBetaName(y);
+	    							energies[prsfIntZero]=pvDecayEvents[x].puGetBetaEnergy(y);
+	    							counts[prsfIntZero]=pvDecayEvents[x].puGetBetaIntensity(y);
+	    							length++;
+	    						} else {
+	    							boolean isNew = true;
+	    							for(int z = prsfIntZero; z < length;y++){
+	    								if(pvDecayEvents[x].puGetBetaName(y).compareTo(names[z])==0&pvDecayEvents[x].puGetBetaEnergy(y)==energies[z]){
+	    									isNew = false;
+	    									counts[z]+=pvDecayEvents[x].puGetBetaIntensity(y);
+	    								}
+	    							}
+	    							if(isNew){
+	    								String[] newNames = new String[length+prsfIntOne];
+	    								double[] newEnergies = new double[length+prsfIntOne];
+	    								double[] newCounts = new double[length+prsfIntOne];
+	    								for(int z = prsfIntZero; z < length; z++){
+	    									newNames[z] = names[z];
+	    									newEnergies[z] = energies[z];
+	    									newCounts[z] = counts[z];
+	    								}
+	    								newNames[length] = pvDecayEvents[x].puGetBetaName(y);
+	    								newEnergies[length] = pvDecayEvents[x].puGetBetaEnergy(y);
+	    								newCounts[length] = pvDecayEvents[x].puGetBetaIntensity(y);
+	    								names = newNames;
+	    								energies = newEnergies;
+	    								counts = newCounts;
+	    								length++;
+	    							}
+	    						}
+							}
+						}
+    				}
+    			}
+    			text.append("From t = " + start + " to t = " + end + ", the following emissions occur:" + System.getProperty("line.separator"));
+    			text.append("Names, Energy[MeV], Counts" + System.getProperty("line.separator"));
+    			for(int x = prsfIntZero; x < length; x++){
+    				text.append(names[x] + ", " + energies[x] + ", " + counts[x] + System.getProperty("line.separator"));
+    			}
+    		} else {
+    			String err = "(puGetAllParticleAndEMCountsOverTimeRangeByEnergy) failed because this (NucleiSampleBruteForceSim) contain no (DecayEvent)s";
+    			System.out.println(err);
+    			return err;
+    		}
+    	} else {
+    		String err = "(puGetAllParticleAndEMCountsOverTimeRangeByEnergy) failed because the supplied start time was greater than the supplied end time!";
+    		System.out.println(err);
+			return err;
+    	}
+    	return(text.toString());
     }
 
     public String puGetAllDecayEventData() {
@@ -487,7 +642,7 @@ public class NucleiSampleBruteForceSim extends PRSFNUM {
     				}
     			}
     		} else {
-    			System.out.println("(puGetEventNumForTypeOverTimeRange) failed because this (NucleiSamplePredictiveSim) contain no (DecayEventSet)s");
+    			System.out.println("(puGetEventNumForTypeOverTimeRange) failed because this (NucleiSampleBruteForceSim) contain no (DecayEventSet)s");
     			return prsfIntZero;
     		}
     	} else {
@@ -521,7 +676,7 @@ public class NucleiSampleBruteForceSim extends PRSFNUM {
     				}
     			}
     		} else {
-    			System.out.println("(puGetEventNumForTypeAndStartNOverTimeRange) failed because this (NucleiSamplePredictiveSim) contain no (DecayEventSet)s");
+    			System.out.println("(puGetEventNumForTypeAndStartNOverTimeRange) failed because this (NucleiSampleBruteForceSim) contain no (DecayEventSet)s");
     			return prsfIntZero;
     		}
     	} else {
@@ -555,7 +710,7 @@ public class NucleiSampleBruteForceSim extends PRSFNUM {
     				}
     			}
     		} else {
-    			System.out.println("(puGetEventNumForStartNucleusOverTimeRange) failed because this (NucleiSamplePredictiveSim) contain no (DecayEventSet)s");
+    			System.out.println("(puGetEventNumForStartNucleusOverTimeRange) failed because this (NucleiSampleBruteForceSim) contain no (DecayEventSet)s");
     			return prsfIntZero;
     		}
     	} else {
@@ -589,7 +744,7 @@ public class NucleiSampleBruteForceSim extends PRSFNUM {
     				}
     			}
     		} else {
-    			System.out.println("(puGetEventNumForEndNucleusOverTimeRange) failed because this (NucleiSamplePredictiveSim) contain no (DecayEventSet)s");
+    			System.out.println("(puGetEventNumForEndNucleusOverTimeRange) failed because this (NucleiSampleBruteForceSim) contain no (DecayEventSet)s");
     			return prsfIntZero;
     		}
     	} else {
@@ -623,7 +778,7 @@ public class NucleiSampleBruteForceSim extends PRSFNUM {
     				}
     			}
     		}  else {
-    			System.out.println("(puGetEventNumForEndNucleusOverTimeRange) failed because this (NucleiSamplePredictiveSim) contain no (DecayEventSet)s");
+    			System.out.println("(puGetEventNumForEndNucleusOverTimeRange) failed because this (NucleiSampleBruteForceSim) contain no (DecayEventSet)s");
     			return prsfIntZero;
     		}
     	} else {
@@ -760,7 +915,7 @@ public class NucleiSampleBruteForceSim extends PRSFNUM {
     				}
     			}
     		} else {
-    			System.out.println("(puGetEnergySumForTypeAndStartNOverTimeRange) failed because this (NucleiSamplePredictiveSim) contain no (DecayEventSet)s");
+    			System.out.println("(puGetEnergySumForTypeAndStartNOverTimeRange) failed because this (NucleiSampleBruteForceSim) contain no (DecayEventSet)s");
     			return prsfIntZero;
     		}
     	} else {

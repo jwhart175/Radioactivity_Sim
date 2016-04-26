@@ -120,8 +120,44 @@ public class DecayEventSet extends DecayEvent {
         } else {
             System.out.println("(DecayEventSet) construction failed because input (num) must be a positive number and greater than zero");
         }
-
 	}
+
+	public DecayEventSet(double num, boolean isChild, double startTime, double endTime, DecayChainRule rule) {
+		//Constructor which immediately defines all of the pertinent variables
+		prNumGammas = rule.puGetNumGammas();
+    	prGammaName = rule.puGetGammaName();
+    	prGammaEnergy = rule.puGetGammaEnergy();
+    	prGammaIntensity = rule.puGetGammaIntensity();
+    	prNumBetas = rule.puGetNumBetas();
+    	prBetaName = rule.puGetBetaName();
+    	prBetaEnergy = rule.puGetBetaEnergy();
+    	prBetaIntensity = rule.puGetBetaIntensity();
+    	prNumAlphas = rule.puGetNumAlphas();
+    	prAlphaName = rule.puGetAlphaName();
+    	prAlphaEnergy = rule.puGetAlphaEnergy();
+    	prAlphaIntensity = rule.puGetAlphaIntensity();
+		prStartNucleus = rule.puGetStartNucleus();
+        prEndNucleus = rule.puGetEndNucleus();
+        pvIsChild = isChild;
+        prEnergy = rule.puGetEnergy();
+        prType = rule.puGetType();
+        prHalfLife = rule.puGetHalfLife();
+        if (startTime >= prsfIntZero & startTime < endTime) {
+        	prStartTime = startTime;
+        } else {
+            System.out.println("(DecayEventSet) construction failed because (DecayEventSet) input (startTime) must be greater than or equal to zero and less than (endTime)");
+        }
+        if (endTime >= prsfIntZero & endTime > startTime) {
+        	prEndTime = endTime;
+        } else {
+            System.out.println("(DecayEventSet) construction failed because (DecayEventSet) input (endTime) must be greater than or equal to zero and greaterh than (startTime)");
+        }
+        if (num > prsfIntZero) {
+            pvNum = num;
+        } else {
+            System.out.println("(DecayEventSet) construction failed because input (num) must be a positive number and greater than zero");
+        }
+    }
 
 	public double puGetNumWithinTimeBounds(double startTime, double endTime){
 		//returns the number of events contained in this (DecayEventSet) that are within the specified time bounds

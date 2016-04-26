@@ -73,12 +73,10 @@ public class NucleiSamplePredictiveSim extends PRSFNUM {
     private double[] pvStartTimePartNum = new double[prsfIntOne];
     private double[] pvEndTimePartNum = new double[prsfIntOne];
     private String[] pvNuclei = new String[prsfIntOne];
-    private double pvNucleiStarter = prsfIntZero;
+    private int pvNumNuclei = prsfIntZero;
 
     public NucleiSamplePredictiveSim(int num,String input, double start, double end, int resolution) {
     	//Constructor for a sample containing a number of nuclei of a single type
-    	pvNucleiStarter = Math.random();
-        pvNuclei[prsfIntZero] = Double.toString(pvNucleiStarter);
     	if (num > prsfIntZero) {
             pvRules = new DecayChainRuleSet[prsfIntOne];
             pvRules[prsfIntZero] = new DecayChainRuleSet(input);
@@ -94,8 +92,6 @@ public class NucleiSamplePredictiveSim extends PRSFNUM {
 
     public NucleiSamplePredictiveSim(double num,String input, double start, double end, int resolution) {
     	//Constructor for a sample containing a number of nuclei of a single type
-    	pvNucleiStarter = Math.random();
-        pvNuclei[prsfIntZero] = Double.toString(pvNucleiStarter);
         if (num > prsfIntZero) {
             pvRules = new DecayChainRuleSet[prsfIntOne];
             pvRules[prsfIntZero] = new DecayChainRuleSet(input);
@@ -111,8 +107,6 @@ public class NucleiSamplePredictiveSim extends PRSFNUM {
 
     public NucleiSamplePredictiveSim() {
     	//Constructor for a sample to be user-defined with the (puAddSpecies) function
-    	pvNucleiStarter = Math.random();
-        pvNuclei[prsfIntZero] = Double.toString(pvNucleiStarter);
     }
 
     public int puGetNumDecayChainRuleSets() {
@@ -145,7 +139,7 @@ public class NucleiSamplePredictiveSim extends PRSFNUM {
     	double delta = (pvEndTime-pvStartTime)/pvResolution;
     	//System.out.println("delta = " + delta);
     	String[] nuclei = new String[prsfIntOne];
-    	DecayChainRuleBranch branch = new DecayChainRuleBranch();
+    	DecayChainRuleBranch branch;
     	for (int x = prsfIntZero; x<numBranches ;x++) {
     		branch = rules.puGetDecayChainRuleBranch(x);
     		int numRules = branch.puGetNumRules();
@@ -154,17 +148,16 @@ public class NucleiSamplePredictiveSim extends PRSFNUM {
     		startNumTime = new double[pvResolution+prsfIntOne][numRules];
     		for (int n = prsfIntZero; n < numRules; n++) {
     			boolean newNucleus = true;
-    			for(int q = prsfIntZero;q < pvNuclei.length; q++) {
-    				if(pvNuclei.length ==prsfIntOne){
-    					if(Double.toString(pvNucleiStarter).compareTo(pvNuclei[prsfIntZero])==prsfIntZero){
-    						newNucleus = false;
-    						pvNuclei[prsfIntZero] = branch.puGetStartNucleus(n);
-    						break;
-    					}
-    				}
-    				if(pvNuclei[q].compareTo(branch.puGetStartNucleus(n))==prsfIntZero){
-    					newNucleus = false;
-    				}
+    			if(pvNumNuclei==0){
+    				newNucleus = false;
+					pvNuclei[prsfIntZero] = branch.puGetStartNucleus(n);
+					pvNumNuclei++;
+    			} else {
+	    			for(int q = prsfIntZero;q < pvNumNuclei; q++) {
+	    				if(pvNuclei[q].compareTo(branch.puGetStartNucleus(n))==prsfIntZero){
+	    					newNucleus = false;
+	    				}
+	    			}
     			}
     			if(newNucleus){
     				nuclei = new String[pvNuclei.length+prsfIntOne];
@@ -173,6 +166,7 @@ public class NucleiSamplePredictiveSim extends PRSFNUM {
         			}
     				nuclei[pvNuclei.length] = branch.puGetStartNucleus(n);
     				pvNuclei = nuclei;
+    				pvNumNuclei++;
     			}
 
     			subsum2 = prsfIntZero;
@@ -194,7 +188,7 @@ public class NucleiSamplePredictiveSim extends PRSFNUM {
         						if (j <= (n-prsfIntOne)) {
         							subproduct = subproduct * prsfDoubleLN2/branch.puGetHalfLife(j);
         						}
-        						subproduct = subproduct * branch.puGetProbability(j);
+        						subproduct = subproduct * branch.puGetProbability(prsfIntZero);
         					}
         					if (i==prsfIntZero&subsum>=prsfIntZero) {
         						subsum2 = num*subsum*subproduct;
@@ -209,7 +203,7 @@ public class NucleiSamplePredictiveSim extends PRSFNUM {
         				}
         				eventNum[w][n] = startNumTime[w][n]*(prsfIntOne-Math.exp(-(delta*prsfDoubleLN2/branch.puGetHalfLife(n))));
         				if(eventNum[w][n]>prsfIntZero){
-        					DecayEventSet instance = new DecayEventSet(eventNum[w][n],false,pvStartTime+w*delta,pvStartTime+(w+prsfIntOne)*delta,branch.puGetStartNucleus(n),branch.puGetEndNucleus(n),branch.puGetHalfLife(n),branch.puGetEnergy(n),branch.puGetType(n));
+        					DecayEventSet instance = new DecayEventSet(eventNum[w][n],false,pvStartTime+w*delta,pvStartTime+(w+prsfIntOne)*delta,branch.puGetRule(n));
         					pvAddDecayEventSet(instance);
     					}
         				//System.out.println(branch.puGetStartNucleus(n) + " parent eventNum["+w+"]["+n+"] = "+eventNum[w][n]);
@@ -234,7 +228,7 @@ public class NucleiSamplePredictiveSim extends PRSFNUM {
     							if (j <= (n-prsfIntOne)) {
     								subproduct = subproduct * prsfDoubleLN2/branch.puGetHalfLife(j);
     							}
-    							subproduct = subproduct * branch.puGetProbability(j);
+    							subproduct = subproduct * branch.puGetProbability(prsfIntZero);
     						}
     						if (i==prsfIntZero&subsum>=prsfIntZero) {
     							subsum2 = num*subsum*subproduct;
@@ -252,71 +246,14 @@ public class NucleiSamplePredictiveSim extends PRSFNUM {
     						//System.out.println("startNumTime["+(w-prsfIntOne)+"]["+n+"] = " + startNumTime[w-prsfIntOne][n]);
     						subsum = eventNum[w-prsfIntOne][n-prsfIntOne] - (startNumTime[w][n] - startNumTime[w-prsfIntOne][n]);
     						if(subsum>prsfIntZero){
-    							DecayEventSet instance = new DecayEventSet(subsum,true,(pvStartTime+(w-prsfIntOne)*delta),(pvStartTime+(w)*delta),branch.puGetStartNucleus(n),branch.puGetEndNucleus(n),branch.puGetHalfLife(n),branch.puGetEnergy(n),branch.puGetType(n));
+    							DecayEventSet instance = new DecayEventSet(subsum,true,(pvStartTime+(w-prsfIntOne)*delta),(pvStartTime+(w)*delta),branch.puGetRule(n));
     							pvAddDecayEventSet(instance);
     						}
     						eventNum[w-prsfIntOne][n] = subsum;
     						//System.out.println(branch.puGetStartNucleus(n) + " child eventNum["+(w-prsfIntOne)+"]["+n+"] = "+eventNum[w-prsfIntOne][n]);
     					}
     				}
-
-    				/* *********************************************************************************************************
-    				 * The following is an old deprecated algorithm (non-functional) kept just in case
-    				 * *********************************************************************************************************
-    				 * double subsum3 = prsfIntZero;
-    				subsum2 = prsfIntZero;
-        			for (int i = n-prsfIntOne; i >= prsfIntZero; i--){
-        				subsum = prsfIntZero;
-        				for (int j = prsfIntZero; j < pvResolution; j++){
-        					subproduct = prsfIntOne;
-        					for (int k = n; k >= i; k--){
-        						if(k>i){
-        							subproduct = subproduct * (prsfIntOne-Math.exp(-(delta)/(prsfDoubleTwo*(n-k))*prsfDoubleLN2/branch.puGetHalfLife(k)));
-        						} else {
-        							subproduct = subproduct * (prsfIntOne-Math.exp(-(delta)*prsfDoubleLN2/branch.puGetHalfLife(k)));
-        						}
-        					}
-        					subsum3 = startNumTime[j][i]*subproduct*Math.pow((1-Math.exp(-(pvEndTime-pvStartTime)*prsfDoubleLN2/branch.puGetHalfLife(n))),2.5);
-        					subsum += subsum3;
-        					//Store the predicted events in a (DecayEventSet)
-        					if(subsum3>prsfIntZero){
-        						DecayEventSet instance = new DecayEventSet(subsum3,true,(pvStartTime+j*delta),(pvStartTime+(j+prsfIntOne)*delta),branch.puGetStartNucleus(n),branch.puGetEndNucleus(n),branch.puGetHalfLife(n),branch.puGetEnergy(n),branch.puGetType(n));
-        						pvAddDecayEventSet(instance);
-        					}
-        				}
-        				subsum2 = subsum2 + subsum;
-        			}
-       				double subsum4 = startNumTime[prsfIntZero][n]*(prsfIntOne-Math.exp(-(pvEndTime-pvStartTime)*prsfDoubleLN2/branch.puGetHalfLife(n)));
-       				eventNum[n] = subsum2 + subsum4;
-       				if(subsum4>prsfIntZero){
-						DecayEventSet instance = new DecayEventSet(subsum4,true,(pvStartTime),(pvEndTime),branch.puGetStartNucleus(n),branch.puGetEndNucleus(n),branch.puGetHalfLife(n),branch.puGetEnergy(n),branch.puGetType(n));
-						pvAddDecayEventSet(instance);*/
-       				}
-
-/*        			 * *********************************************************************************************************
-    				 * The following is an old deprecated algorithm (non-functional) kept just in case
-    				 * *********************************************************************************************************
- * 					double subsum3 = prsfIntZero;
-    				subsum2 = prsfIntZero;
-        			for (int i = n-prsfIntOne; i >= prsfIntZero; i--){
-        				subsum = prsfIntZero;
-        				for (int j = prsfIntZero; j < pvResolution; j++){
-        					subproduct = prsfIntOne;
-        					for (int k = n; k >= i; k--){
-        						subproduct = subproduct * (Math.exp(-(pvStartTime+j*delta)*prsfDoubleLN2/branch.puGetHalfLife(k))-Math.exp(-(pvStartTime+(j+prsfDoubleOne)*delta)*prsfDoubleLN2/branch.puGetHalfLife(k)));
-        	        		}
-        					subsum3 = startNumTime[j][i]*subproduct*Math.pow((Math.exp(-(pvStartTime)*prsfDoubleLN2/branch.puGetHalfLife(n))-Math.exp(-(pvEndTime)*prsfDoubleLN2/branch.puGetHalfLife(n))),prsfDoubleThreeHalves)*pvResolution;
-        					subsum += subsum3;
-        					//Store the predicted events in a (DecayEventSet)
-        					if(subsum3>prsfIntZero){
-        						DecayEventSet instance = new DecayEventSet(subsum3,true,(pvStartTime+j*delta),(pvStartTime+(j+prsfIntOne)*delta),branch.puGetStartNucleus(n),branch.puGetEndNucleus(n),branch.puGetHalfLife(n),branch.puGetEnergy(n),branch.puGetType(n));
-        						pvAddDecayEventSet(instance);
-        					}
-        				}
-        				subsum2 = subsum2 + subsum;
-        			}
-        			eventNum[n] = subsum2;
-    			} */
+    			}
 
     			//Calculates final quantities for all particles
     			for (int i = prsfIntZero; i <= n; i++){
@@ -344,9 +281,9 @@ public class NucleiSamplePredictiveSim extends PRSFNUM {
 				finalPartNum[n] = subsum2;
 				//debug line to verify bateman calcs
 				//System.out.println("Branch No. = " + x + ", Start nucleus = " + branch.puGetStartNucleus(n) + ", Final count = " + finalPartNum[n]);
-				if(pvNuclei.length>pvEndTimePartNum.length){
-					double[] tempPartNum = new double[pvNuclei.length];
-					for(int q = prsfIntZero;q < pvNuclei.length; q++) {
+				if(pvNumNuclei>pvEndTimePartNum.length){
+					double[] tempPartNum = new double[pvNumNuclei];
+					for(int q = prsfIntZero;q < pvNumNuclei; q++) {
 						if(q<pvEndTimePartNum.length){
 							tempPartNum[q] = pvEndTimePartNum[q];
 						} else {
@@ -355,14 +292,14 @@ public class NucleiSamplePredictiveSim extends PRSFNUM {
     				}
 					pvEndTimePartNum = tempPartNum;
     			}
-				for(int q = prsfIntZero; q < pvNuclei.length; q++) {
+				for(int q = prsfIntZero; q < pvNumNuclei; q++) {
 					if(pvNuclei[q].compareTo(branch.puGetStartNucleus(n))==prsfIntZero) {
 						pvEndTimePartNum[q] += finalPartNum[n];
 					}
 				}
-				if(pvNuclei.length>pvStartTimePartNum.length){
-					double[] tempPartNum = new double[pvNuclei.length];
-					for(int q = prsfIntZero;q < pvNuclei.length; q++) {
+				if(pvNumNuclei>pvStartTimePartNum.length){
+					double[] tempPartNum = new double[pvNumNuclei];
+					for(int q = prsfIntZero;q < pvNumNuclei; q++) {
 						if(q<pvStartTimePartNum.length){
 							tempPartNum[q] = pvStartTimePartNum[q];
 						} else {
@@ -371,7 +308,7 @@ public class NucleiSamplePredictiveSim extends PRSFNUM {
     				}
 					pvStartTimePartNum = tempPartNum;
     			}
-				for(int q = prsfIntZero; q < pvNuclei.length; q++) {
+				for(int q = prsfIntZero; q < pvNumNuclei; q++) {
 					if(pvNuclei[q].compareTo(branch.puGetStartNucleus(n))==prsfIntZero) {
 						pvStartTimePartNum[q] += startNumTime[0][n];
 					}
@@ -534,6 +471,156 @@ public class NucleiSamplePredictiveSim extends PRSFNUM {
 			text.append("The number of decays of " + pvNuclei[q] + " = " + puGetEventNumForStartNucleusOverTimeRange(start,end,pvNuclei[q]) + System.getProperty("line.separator"));
 		}
     	return text.toString();
+    }
+
+    public String puGetAllParticleAndEMCountsOverTimeRangeByEnergy(double start, double end){
+    	//Returns the number of emissions listed by type and energy that occurred between the user supplied (start) and (end) times
+    	String names[] = new String[prsfIntOne];
+    	double energies[] = new double[prsfIntOne];
+    	double counts[] = new double[prsfIntOne];
+    	int length = prsfIntZero;
+    	StringBuilder text = new StringBuilder();
+    	if (start < pvStartTime) {
+    		System.out.println("Warning (puGetAllParticleAndEMCountsOverTimeRangeByEnergy) was supplied a start time that is earlier than (pvStartTime)!");
+    	} else if (start > pvEndTime) {
+    		String err = "Warning (puGetAllParticleAndEMCountsOverTimeRangeByEnergy) was supplied a start time that is past (pvEndTime)!";
+    		System.out.println(err);
+    		return err;
+    	}
+    	if (end < pvStartTime) {
+    		String err = "Warning (puGetAllParticleAndEMCountsOverTimeRangeByEnergy) was supplied an end time that is earlier than (pvStartTime)!";
+    		System.out.println(err);
+    		return err;
+    	} else if (end > pvEndTime) {
+    		String err = "Warning (puGetAllParticleAndEMCountsOverTimeRangeByEnergy) was supplied an end time that is past (pvEndTime)!";
+    		System.out.println(err);
+    	}
+    	if (start < end) {
+    		if (pvNumDecayEventSets > prsfIntZero) {
+    			//Build counts for the independent name and energy pairs
+    			for (int x = prsfIntZero; x < pvNumDecayEventSets; x++) {
+					if(pvDecayEventSets[x].puGetNumGammas()>0){
+						for(int y = prsfIntZero; y < pvDecayEventSets[x].puGetNumGammas(); y++){
+							if(length==prsfIntZero){
+    							names[prsfIntZero]=pvDecayEventSets[x].puGetGammaName(y);
+    							energies[prsfIntZero]=pvDecayEventSets[x].puGetGammaEnergy(y);
+    							counts[prsfIntZero]=pvDecayEventSets[x].puGetNumWithinTimeBounds(start, end)*pvDecayEventSets[x].puGetGammaIntensity(y);
+    							length++;
+    						} else {
+    							boolean isNew = true;
+    							for(int z = prsfIntZero; z < length;y++){
+    								if(pvDecayEventSets[x].puGetGammaName(y).compareTo(names[z])==0&pvDecayEventSets[x].puGetGammaEnergy(y)==energies[z]){
+    									isNew = false;
+    									counts[z]+=pvDecayEventSets[x].puGetNumWithinTimeBounds(start, end)*pvDecayEventSets[x].puGetGammaIntensity(y);
+    								}
+    							}
+    							if(isNew){
+    								String[] newNames = new String[length+prsfIntOne];
+    								double[] newEnergies = new double[length+prsfIntOne];
+    								double[] newCounts = new double[length+prsfIntOne];
+    								for(int z = prsfIntZero; z < length; z++){
+    									newNames[z] = names[z];
+    									newEnergies[z] = energies[z];
+    									newCounts[z] = counts[z];
+    								}
+    								newNames[length] = pvDecayEventSets[x].puGetGammaName(y);
+    								newEnergies[length] = pvDecayEventSets[x].puGetGammaEnergy(y);
+    								newCounts[length] = pvDecayEventSets[x].puGetNumWithinTimeBounds(start, end)*pvDecayEventSets[x].puGetGammaIntensity(y);pvDecayEventSets[x].puGetGammaIntensity(y);
+    								names = newNames;
+    								energies = newEnergies;
+    								counts = newCounts;
+    								length++;
+    							}
+    						}
+						}
+					}
+					if(pvDecayEventSets[x].puGetNumAlphas()>0){
+						for(int y = prsfIntZero; y < pvDecayEventSets[x].puGetNumAlphas(); y++){
+							if(length==prsfIntZero){
+    							names[prsfIntZero]=pvDecayEventSets[x].puGetAlphaName(y);
+    							energies[prsfIntZero]=pvDecayEventSets[x].puGetAlphaEnergy(y);
+    							counts[prsfIntZero]=pvDecayEventSets[x].puGetNumWithinTimeBounds(start, end)*pvDecayEventSets[x].puGetAlphaIntensity(y);
+    							length++;
+    						} else {
+    							boolean isNew = true;
+    							for(int z = prsfIntZero; z < length;y++){
+    								if(pvDecayEventSets[x].puGetAlphaName(y).compareTo(names[z])==0&pvDecayEventSets[x].puGetAlphaEnergy(y)==energies[z]){
+    									isNew = false;
+    									counts[z]+=pvDecayEventSets[x].puGetNumWithinTimeBounds(start, end)*pvDecayEventSets[x].puGetAlphaIntensity(y);
+    								}
+    							}
+    							if(isNew){
+    								String[] newNames = new String[length+prsfIntOne];
+    								double[] newEnergies = new double[length+prsfIntOne];
+    								double[] newCounts = new double[length+prsfIntOne];
+    								for(int z = prsfIntZero; z < length; z++){
+    									newNames[z] = names[z];
+    									newEnergies[z] = energies[z];
+    									newCounts[z] = counts[z];
+    								}
+    								newNames[length] = pvDecayEventSets[x].puGetAlphaName(y);
+    								newEnergies[length] = pvDecayEventSets[x].puGetAlphaEnergy(y);
+    								newCounts[length] = pvDecayEventSets[x].puGetNumWithinTimeBounds(start, end)*pvDecayEventSets[x].puGetAlphaIntensity(y);pvDecayEventSets[x].puGetAlphaIntensity(y);
+    								names = newNames;
+    								energies = newEnergies;
+    								counts = newCounts;
+    								length++;
+    							}
+    						}
+						}
+					}
+					if(pvDecayEventSets[x].puGetNumBetas()>0){
+						for(int y = prsfIntZero; y < pvDecayEventSets[x].puGetNumBetas(); y++){
+							if(length==prsfIntZero){
+    							names[prsfIntZero]=pvDecayEventSets[x].puGetBetaName(y);
+    							energies[prsfIntZero]=pvDecayEventSets[x].puGetBetaEnergy(y);
+    							counts[prsfIntZero]=pvDecayEventSets[x].puGetNumWithinTimeBounds(start, end)*pvDecayEventSets[x].puGetBetaIntensity(y);
+    							length++;
+    						} else {
+    							boolean isNew = true;
+    							for(int z = prsfIntZero; z < length;y++){
+    								if(pvDecayEventSets[x].puGetBetaName(y).compareTo(names[z])==0&pvDecayEventSets[x].puGetBetaEnergy(y)==energies[z]){
+    									isNew = false;
+    									counts[z]+=pvDecayEventSets[x].puGetNumWithinTimeBounds(start, end)*pvDecayEventSets[x].puGetBetaIntensity(y);
+    								}
+    							}
+    							if(isNew){
+    								String[] newNames = new String[length+prsfIntOne];
+    								double[] newEnergies = new double[length+prsfIntOne];
+    								double[] newCounts = new double[length+prsfIntOne];
+    								for(int z = prsfIntZero; z < length; z++){
+    									newNames[z] = names[z];
+    									newEnergies[z] = energies[z];
+    									newCounts[z] = counts[z];
+    								}
+    								newNames[length] = pvDecayEventSets[x].puGetBetaName(y);
+    								newEnergies[length] = pvDecayEventSets[x].puGetBetaEnergy(y);
+    								newCounts[length] = pvDecayEventSets[x].puGetNumWithinTimeBounds(start, end)*pvDecayEventSets[x].puGetBetaIntensity(y);
+    								names = newNames;
+    								energies = newEnergies;
+    								counts = newCounts;
+    								length++;
+    							}
+    						}
+						}
+					}
+    			}
+    			text.append("From t = " + start + " to t = " + end + ", the following emissions occur:" + System.getProperty("line.separator"));
+    			text.append("Names, Energy[MeV], Counts" + System.getProperty("line.separator"));
+    			for(int x = prsfIntZero; x < length; x++){
+    				text.append(names[x] + ", " + energies[x] + ", " + counts[x] + System.getProperty("line.separator"));
+    			}
+    		} else {
+    			String err = "(puGetAllParticleAndEMCountsOverTimeRangeByEnergy) failed because this (NucleiSampleBruteForceSim) contain no (DecayEvent)s";
+    			System.out.println(err);
+    			return err;
+    		}
+    	} else {
+    		String err = "(puGetAllParticleAndEMCountsOverTimeRangeByEnergy) failed because the supplied start time was greater than the supplied end time!";
+    		System.out.println(err);
+			return err;
+    	}
+    	return(text.toString());
     }
 
     public double puGetEventNumForTypeOverTimeRange(double start, double end, String type) {
@@ -1176,3 +1263,61 @@ public class NucleiSamplePredictiveSim extends PRSFNUM {
     }
 
 }
+
+/* *********************************************************************************************************
+ * The following is an old deprecated algorithm (non-functional) kept just in case
+ * *********************************************************************************************************
+ * double subsum3 = prsfIntZero;
+subsum2 = prsfIntZero;
+for (int i = n-prsfIntOne; i >= prsfIntZero; i--){
+	subsum = prsfIntZero;
+	for (int j = prsfIntZero; j < pvResolution; j++){
+		subproduct = prsfIntOne;
+		for (int k = n; k >= i; k--){
+			if(k>i){
+				subproduct = subproduct * (prsfIntOne-Math.exp(-(delta)/(prsfDoubleTwo*(n-k))*prsfDoubleLN2/branch.puGetHalfLife(k)));
+			} else {
+				subproduct = subproduct * (prsfIntOne-Math.exp(-(delta)*prsfDoubleLN2/branch.puGetHalfLife(k)));
+			}
+		}
+		subsum3 = startNumTime[j][i]*subproduct*Math.pow((1-Math.exp(-(pvEndTime-pvStartTime)*prsfDoubleLN2/branch.puGetHalfLife(n))),2.5);
+		subsum += subsum3;
+		//Store the predicted events in a (DecayEventSet)
+		if(subsum3>prsfIntZero){
+			DecayEventSet instance = new DecayEventSet(subsum3,true,(pvStartTime+j*delta),(pvStartTime+(j+prsfIntOne)*delta),branch.puGetStartNucleus(n),branch.puGetEndNucleus(n),branch.puGetHalfLife(n),branch.puGetEnergy(n),branch.puGetType(n));
+			pvAddDecayEventSet(instance);
+		}
+	}
+	subsum2 = subsum2 + subsum;
+}
+	double subsum4 = startNumTime[prsfIntZero][n]*(prsfIntOne-Math.exp(-(pvEndTime-pvStartTime)*prsfDoubleLN2/branch.puGetHalfLife(n)));
+	eventNum[n] = subsum2 + subsum4;
+	if(subsum4>prsfIntZero){
+	DecayEventSet instance = new DecayEventSet(subsum4,true,(pvStartTime),(pvEndTime),branch.puGetStartNucleus(n),branch.puGetEndNucleus(n),branch.puGetHalfLife(n),branch.puGetEnergy(n),branch.puGetType(n));
+	pvAddDecayEventSet(instance);*/
+//}
+
+/* **********************************************************************************************************
+ * The following is an old deprecated algorithm (non-functional) kept just in case
+ * *********************************************************************************************************
+* 					double subsum3 = prsfIntZero;
+subsum2 = prsfIntZero;
+for (int i = n-prsfIntOne; i >= prsfIntZero; i--){
+	subsum = prsfIntZero;
+	for (int j = prsfIntZero; j < pvResolution; j++){
+		subproduct = prsfIntOne;
+		for (int k = n; k >= i; k--){
+			subproduct = subproduct * (Math.exp(-(pvStartTime+j*delta)*prsfDoubleLN2/branch.puGetHalfLife(k))-Math.exp(-(pvStartTime+(j+prsfDoubleOne)*delta)*prsfDoubleLN2/branch.puGetHalfLife(k)));
+		}
+		subsum3 = startNumTime[j][i]*subproduct*Math.pow((Math.exp(-(pvStartTime)*prsfDoubleLN2/branch.puGetHalfLife(n))-Math.exp(-(pvEndTime)*prsfDoubleLN2/branch.puGetHalfLife(n))),prsfDoubleThreeHalves)*pvResolution;
+		subsum += subsum3;
+		//Store the predicted events in a (DecayEventSet)
+		if(subsum3>prsfIntZero){
+			DecayEventSet instance = new DecayEventSet(subsum3,true,(pvStartTime+j*delta),(pvStartTime+(j+prsfIntOne)*delta),branch.puGetStartNucleus(n),branch.puGetEndNucleus(n),branch.puGetHalfLife(n),branch.puGetEnergy(n),branch.puGetType(n));
+			pvAddDecayEventSet(instance);
+		}
+	}
+	subsum2 = subsum2 + subsum;
+}
+eventNum[n] = subsum2;
+} */

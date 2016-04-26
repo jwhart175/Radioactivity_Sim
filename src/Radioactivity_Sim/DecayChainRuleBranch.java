@@ -56,6 +56,7 @@ public class DecayChainRuleBranch extends PRSFNUM{
 	 * protected static final int prsfInt365 = 365;
 	 * protected static final int prsfInt24 = 24;
 	 * protected static final int prsfInt3600 = 3600;
+	 * protected static final int prsfIntMinusOne = -1;
 	 * protected static final int prsfIntZero = 0;
 	 * protected static final int prsfIntOne = 0;
 	 * protected static final int prsfIntTwo = 2;
@@ -91,14 +92,14 @@ public class DecayChainRuleBranch extends PRSFNUM{
 		//Adds a rule to the branch, returns the index of that new rule
 		if(prNumRule==prsfIntZero) {
 			prRules = new DecayChainRule[prsfIntOne];
-			prRules[prsfIntZero] = rule;
+			prRules[prsfIntZero] = new DecayChainRule(rule);
 			prNumRule++;
 		} else {
 			DecayChainRule[] r = new DecayChainRule[prNumRule+prsfIntOne];
 			for(int x = prsfIntZero; x<prNumRule; x++){
 				r[x] = prRules[x];
 			}
-			r[prNumRule] = rule;
+			r[prNumRule] = new DecayChainRule(rule);
 			prRules = r;
 			prNumRule++;
 		}
@@ -147,6 +148,27 @@ public class DecayChainRuleBranch extends PRSFNUM{
 		}
 	}
 
+	public void puAddAlphaToRule(int index, String name, double energy, double intensity){
+		//Adds a Alpha to the rule at the specified index
+		if(prNumRule>0) {
+			if(index>=0) {
+				if(index<prNumRule){
+					if(energy>0&intensity>0){
+						prRules[index].puAddAlpha(name, energy, intensity);
+					} else {
+						System.out.println("(puAddAlphaToRule) has failed! The supplied energy and intensity must be greater than zero!");
+					}
+				} else {
+					System.out.println("(puAddAlphaToRule) has failed! The supplied index is out of bounds!");
+				}
+			} else {
+				System.out.println("(puAddAlphaToRule) has failed! The supplied index must be greater than zero!");
+			}
+		} else {
+			System.out.println("(puAddAlphaToRule) has failed! There aren't any rules in this (DecayChainRuleBranch)!");
+		}
+	}
+
 	public void puDelRule(int index) {
 		//Remove a rule from the (DecayChainRuleBranch) at the supplied index
 		if (index < prsfIntZero){
@@ -173,10 +195,11 @@ public class DecayChainRuleBranch extends PRSFNUM{
 	public void puReorderProbabilities() {
 		//to be called after this (DecayChainRuleBranch) has been completely populated
 		for (int y = prsfIntOne; y < prNumRule; y++) {
-			if (prRules[y].puGetProbability()<prsfIntOne){
+			if(prRules[y].puGetProbability()<prsfDoubleOne){
 				prRules[prsfIntZero].puSetProbability(prRules[prsfIntZero].puGetProbability()*prRules[y].puGetProbability());
-				prRules[y].puSetProbability(prsfIntOne);
+				prRules[y].puSetProbability(prsfDoubleOne);
 			}
+
 		}
 	}
 
@@ -282,13 +305,13 @@ public class DecayChainRuleBranch extends PRSFNUM{
 				if(index<prNumRule){
 					return prRules[index];
 				} else {
-					System.out.println("(puAddBetaToRule) has failed! The supplied index is out of bounds!");
+					System.out.println("(puGetRule) has failed! The supplied index is out of bounds!");
 				}
 			} else {
-				System.out.println("(puAddBetaToRule) has failed! The supplied index must be greater than zero!");
+				System.out.println("(puGetRule) has failed! The supplied index must be greater than zero!");
 			}
 		} else {
-			System.out.println("(puAddBetaToRule) has failed! There aren't any rules in this (DecayChainRuleBranch)!");
+			System.out.println("(puGetRule) has failed! There aren't any rules in this (DecayChainRuleBranch)!");
 		}
 		return (new DecayChainRule());
 	}
