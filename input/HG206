@@ -2,12 +2,51 @@
 #Data:
 #STRING1 = Initial Nucleus (no spaces)
 #STRING2 = Ending Nucleus  (no spaces)
-#STRING3 = alpha, beta-, beta+, neutron&beta-, or gamma (no spaces)
-#DOUBLE1 = energy in MEV (no commas, no carats, greater than 0)
-#DOUBLE2 = halflife in seconds (no commas, no carats, greater than 0)
+#STRING3 = alpha, beta-, beta+, or gamma (no spaces)
+#DOUBLE1 = EndNucleus to StartNucleus energy difference in MEV (no commas, no carats, greater than 0)
+#DOUBLE2 = halflife in seconds (no commas, no carats, greater than 0)(note
 #DOUBLE3 = probability (no commas, no carats, between 0 and 1)
 #Rule Format:
 #Rules are separated by lines, each line must have the following format:
 #STRING1 STRING2 STRING3 DOUBLE1 DOUBLE2 DOUBLE3
+#If a given rule has coincident radiation like gamma or x-rays then those are added with:
+#+G STRING4 DOUBLE4 DOUBLE5
+#where STRING4 is the photon name
+#      DOUBLE4 is the photon energy in MeV
+#      DOUBLE5 is the photon percent intensity
+#It is useful to track these in order to get a complete radiation picture
+#Each beta emission energy for the rule should be tracked with:
+#+B STRING5 DOUBLE6 DOUBLE7
+#where STRING5 is the beta name
+#      DOUBLE6 is the beta energy in MeV
+#      DOUBLE7 is the beta percent intensity
+#Each alpha emission energy for the rule should be tracked with:
+#+A STRING8 DOUBLE9 DOUBLE10
+#where STRING8 is the alpha name
+#      DOUBLE9 is the alpha energy in MeV
+#      DOUBLE10 is the alpha percent intensity
+#Each neutron emission energy for the rule should be tracked with:
+#+N STRING11 DOUBLE12 DOUBLE13
+#where STRING11 is the neutron name
+#      DOUBLE12 is the neutron energy in MeV
+#      DOUBLE13 is the neutron percent intensity
+#It is useful to track these in order to get a complete radiation picture
+#*************************************************************
 HG206 TI206 beta- 1.308 499.2 1
++B beta- 0.2031 0.03
++B beta- 0.3302 0.35
++B beta- 0.4495 0.62
++G gamma 0.0103 0.03
++G gamma 0.07083199999999999 0.023
++G gamma 0.07287300000000001 0.038
++G gamma 0.082115 0.0046
++G gamma 0.082574 0.0088
++G gamma 0.084865 0.0032
++G gamma 0.265832 3.5000000000000004E-5
++G gamma 0.304896 0.26
++G gamma 0.34452 0.0055000000000000005
++G gamma 0.38359 3.5000000000000004E-5
++G gamma 0.64942 0.022000000000000002
 TI206 PB206 beta- 1.532346 250.02 1
+//specific data unknown for TI206
+#If BI210 is excited: BI210 TI206 alpha 5.0364 95869000000000 1

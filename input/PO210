@@ -2,11 +2,44 @@
 #Data:
 #STRING1 = Initial Nucleus (no spaces)
 #STRING2 = Ending Nucleus  (no spaces)
-#STRING3 = alpha, beta-, beta+, neutron&beta-, or gamma (no spaces)
-#DOUBLE1 = energy in MEV (no commas, no carats, greater than 0)
-#DOUBLE2 = halflife in seconds (no commas, no carats, greater than 0)
+#STRING3 = alpha, beta-, beta+, or gamma (no spaces)
+#DOUBLE1 = EndNucleus to StartNucleus energy difference in MEV (no commas, no carats, greater than 0)
+#DOUBLE2 = halflife in seconds (no commas, no carats, greater than 0)(note
 #DOUBLE3 = probability (no commas, no carats, between 0 and 1)
 #Rule Format:
 #Rules are separated by lines, each line must have the following format:
 #STRING1 STRING2 STRING3 DOUBLE1 DOUBLE2 DOUBLE3
+#If a given rule has coincident radiation like gamma or x-rays then those are added with:
+#+G STRING4 DOUBLE4 DOUBLE5
+#where STRING4 is the photon name
+#      DOUBLE4 is the photon energy in MeV
+#      DOUBLE5 is the photon percent intensity
+#It is useful to track these in order to get a complete radiation picture
+#Each beta emission energy for the rule should be tracked with:
+#+B STRING5 DOUBLE6 DOUBLE7
+#where STRING5 is the beta name
+#      DOUBLE6 is the beta energy in MeV
+#      DOUBLE7 is the beta percent intensity
+#Each alpha emission energy for the rule should be tracked with:
+#+A STRING8 DOUBLE9 DOUBLE10
+#where STRING8 is the alpha name
+#      DOUBLE9 is the alpha energy in MeV
+#      DOUBLE10 is the alpha percent intensity
+#Each neutron emission energy for the rule should be tracked with:
+#+N STRING11 DOUBLE12 DOUBLE13
+#where STRING11 is the neutron name
+#      DOUBLE12 is the neutron energy in MeV
+#      DOUBLE13 is the neutron percent intensity
+#It is useful to track these in order to get a complete radiation picture
+#*************************************************************
 PO210 PB206 alpha 5.40745 11955686.4 1
++A alpha 4.51658 0.0000104
++A alpha 5.30433 1
++G XR1 0.0106 3.23E-8
++G XRka2 0.072805 2.29E-8
++G XRka1 0.074969 3.83E-8
++G XRkb3 0.08445 4.6E-9
++G XRkb1 0.084938 8.9E-9
++G XRkb2 0.0873 3.24E-9
++G gamma 0.80306 0.0000103
+

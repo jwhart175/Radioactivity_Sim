@@ -26,9 +26,12 @@ package Radioactivity_Sim;
 import java.awt.*;
 import java.awt.event.*;
 import java.io.File;
+import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.Calendar;
 import java.util.Date;
+import java.util.Scanner;
+
 import javax.swing.*;
 
 
@@ -183,6 +186,118 @@ public class RadioactivitySimTerminal extends JFrame {
     	return currentText;
     }
 
+    private void pvBatchCommand(String commandString){
+    	//accept a String from another function and process the command therein
+    	//help, example, quit, exit, and read are disabled
+    	boolean writeToFile = false;
+    	int batchFileNum = 0;
+    	StringBuilder currentText = new StringBuilder();
+    	StringBuilder pastText = new StringBuilder();
+    	pastText.append(pvTextPane.getText() + System.getProperty("line.separator") + ">: " + commandString + System.getProperty("line.separator"));
+    	pvTextPane.setText(pastText.toString());
+    	currentText.append("Executing...: " + commandString + System.getProperty("line.separator"));
+    	//interpret command and print response or error
+    	String splits[];
+    	if(commandString.contains(" > ")){
+    		String[] parse = commandString.split(" > ");
+    		try {
+    			pvScrivener.puOpenNewFile(parse[1]);
+    	    	batchFileNum = pvScrivener.puGetNumFiles();
+    	    	writeToFile = true;
+    		} catch (Exception e) {
+    			currentText.append("Failed to open file = " + parse[1] + " cannot write to that file!" + System.getProperty("line.separator"));
+    			writeToFile = false;
+    		} finally {
+    			splits = parse[0].split(" ");
+    		}
+		} else {
+			splits = commandString.split(" ");
+		}
+	    if(splits[0].length()==3) {
+    		if(splits[0].compareTo("add")==0){
+    			currentText.append(pvAddCommands(splits));
+    		}
+    		if(splits[0].compareTo("get")==0){
+    			currentText.append(pvGetCommands(splits));
+    		}
+    		if(splits[0].compareTo("new")==0){
+    			currentText.append(pvNewCommands(splits));
+    		}
+    		if(splits[0].compareTo("set")==0){
+    			currentText.append(pvSetCommands(splits));
+    		}
+		}
+       	if(splits[0].length()==13){
+	    	if(splits[0].compareTo("verification1")==0){
+	    		String file = splits[splits.length-1];
+	    		file = file.substring(0,file.length());
+	    		try{
+	    			currentText.append(pvVerification1(file));
+	    		} catch(Exception e) {
+	    			currentText.append(e.getClass() + " Occurred!" + System.getProperty("line.separator"));
+					currentText.append(e.getCause() + System.getProperty("line.separator"));
+				}
+	    	}
+	    	if(splits[0].compareTo("verification2")==0){
+	    		String file = splits[splits.length-1];
+	    		file = file.substring(0,file.length());
+	    		try{
+	    			currentText.append(pvVerification2(file));
+	    		} catch(Exception e) {
+	    			currentText.append(e.getClass() + " Occurred!" + System.getProperty("line.separator"));
+					currentText.append(e.getCause() + System.getProperty("line.separator"));
+				}
+	    	}
+	    	if(splits[0].compareTo("verification3")==0){
+	    		String file = splits[splits.length-1];
+	    		file = file.substring(0,file.length());
+	    		try{
+	    			currentText.append(pvVerification3(file));
+	    		} catch(Exception e) {
+	    			currentText.append(e.getClass() + " Occurred!" + System.getProperty("line.separator"));
+					currentText.append(e.getCause() + System.getProperty("line.separator"));
+				}
+	    	}
+	    	if(splits[0].compareTo("verification4")==0){
+	    		String file = splits[splits.length-1];
+	    		file = file.substring(0,file.length());
+	    		try{
+	    			currentText.append(pvVerification4(file));
+	    		} catch(Exception e) {
+	    			currentText.append(e.getClass() + " Occurred!" + System.getProperty("line.separator"));
+					currentText.append(e.getCause() + System.getProperty("line.separator"));
+				}
+	    	}
+    	}
+    	if(splits[0].length()==5){
+	    	if(splits[0].compareTo("clear")==0){
+	    		currentText = new StringBuilder();
+	    		pastText = new StringBuilder();
+	    		pvTextPane.setText("");
+	    		currentText.append(">:" + System.getProperty("line.separator"));
+	    	}
+    	}
+    	//write the final output to the terminal
+    	pastText.append(currentText);
+		pvTextPane.setText(pastText.toString());
+		//write the final output to a file if pipe requested
+    	if(writeToFile){
+    		try{
+    			pvScrivener.puAppendStringToFile(batchFileNum-1, currentText.toString());
+    			pvScrivener.puCloseFile(batchFileNum-1);
+    			pastText = new StringBuilder();
+    			pastText.append(pvTextPane.getText());
+    			pastText.append("File written successfully!" + System.getProperty("line.separator"));
+    		} catch (Exception e) {
+    			pastText = new StringBuilder();
+    			pastText.append(pvTextPane.getText());
+    			pastText.append("File failed to write!" + System.getProperty("line.separator"));
+    		} finally {
+    			pvTextPane.setText(pastText.toString());
+    		}
+    	}
+    }
+
     private void pvEnterCommand(){
     	//read text in from pvTextField and process the commands therein
     	String commandString = pvTextField.getText();
@@ -220,6 +335,9 @@ public class RadioactivitySimTerminal extends JFrame {
     		currentText.append(">: get <BFSample or PSample> countList <end, start, event, parts>" + System.getProperty("line.separator"));
     		currentText.append("This command returns a list of the starting, ending, event, or EM and particle counts by nuclei contained within the NucleiSamplePredictiveSim or NucleiSampleBruteForceSim." + System.getProperty("line.separator"));
     		currentText.append(System.getProperty("line.separator"));
+    		currentText.append(">: get <BFSample or PSample> countList <event or parts> <startTime> <endTime>" + System.getProperty("line.separator"));
+    		currentText.append("This command returns a list of the event or EM and particle counts by nuclei contained within the NucleiSamplePredictiveSim or NucleiSampleBruteForceSim during the supplied time frame." + System.getProperty("line.separator"));
+    		currentText.append(System.getProperty("line.separator"));
     		currentText.append(">: get <BFSample or PSample> ruleList" + System.getProperty("line.separator"));
     		currentText.append("This command returns an indexed list of the decay chain rules contained within the NucleiSamplePredictiveSim or NucleiSampleBruteForceSim." + System.getProperty("line.separator"));
     		currentText.append(System.getProperty("line.separator"));
@@ -249,6 +367,12 @@ public class RadioactivitySimTerminal extends JFrame {
     		currentText.append(System.getProperty("line.separator"));
     		currentText.append(">: new PSample <numberOfNuclei> <inputFileName> <startTime> <endTime> <resolution>" + System.getProperty("line.separator"));
     		currentText.append("This command may take a long time and creates a new predictive calculated nuclei sample, overwriting the current one." + System.getProperty("line.separator"));
+    		currentText.append(System.getProperty("line.separator"));
+    		currentText.append(">: read batch <File>" + System.getProperty("line.separator"));
+    		currentText.append("This command opens the specified file and attempts to execute the commands stored therein." + System.getProperty("line.separator"));
+    		currentText.append(System.getProperty("line.separator"));
+    		currentText.append(">: reformat <beta, gamma, or alpha> <File>" + System.getProperty("line.separator"));
+    		currentText.append("This command opens the specified file and attempts to reformat the data therein to match input file format (helper function to reformat data from nudat website)." + System.getProperty("line.separator"));
     		currentText.append(System.getProperty("line.separator"));
     		currentText.append(">: set inputDir <Directory>" + System.getProperty("line.separator"));
     		currentText.append("This command sets the directory from which the program will read future input files." + System.getProperty("line.separator"));
@@ -303,10 +427,10 @@ public class RadioactivitySimTerminal extends JFrame {
     			pvScrivener.puOpenNewFile(parse[1]);
     	    	fileNum = pvScrivener.puGetNumFiles();
     	    	writeToFile = true;
-    	    	splits = parse[0].split(" ");
     		} catch (Exception e) {
     			currentText.append("Failed to open file = " + parse[1] + " cannot write to that file!" + System.getProperty("line.separator"));
     			writeToFile = false;
+    		} finally {
     			splits = parse[0].split(" ");
     		}
 		} else {
@@ -318,6 +442,17 @@ public class RadioactivitySimTerminal extends JFrame {
 	    	}
 	    	if(splits[0].compareTo("exit")==0){
 	    		this.dispose();
+	    	}
+	    	if((splits[0].compareTo("read")==0)&(splits[1].compareTo("batch")==0)){
+	    		try {
+	    	    	String input = pvReadData(splits[2]);
+	    	    	String[] commandParse = input.split(System.getProperty("line.separator"));
+	    	    	for(int x = 0; x < commandParse.length; x++) {
+	    	    		pvBatchCommand(commandParse[x]);
+	    	    	}
+	    		} catch (Exception e) {
+	    			currentText.append("Failed to open file = " + splits[2] + " cannot read that file!" + System.getProperty("line.separator"));
+	    		}
 	    	}
     	}
 	    if(splits[0].length()==3) {
@@ -334,6 +469,130 @@ public class RadioactivitySimTerminal extends JFrame {
     			currentText.append(pvSetCommands(splits));
     		}
 		}
+	    if(splits[0].length()==8){
+	    	if(splits[0].compareTo("reformat")==0){
+	    		if(splits[1].compareTo("beta")==0){
+		    		try {
+		    			String input = pvReadData(splits[2]);
+		    	    	String[] commandParse = input.split(System.getProperty("line.separator"));
+		    	    	double value = 0;
+		    	    	double energy = 0;
+		    	    	double nothing = 0;
+		    	    	double intensity = 0;
+		    	    	currentText.append("The reformatted data is: " + System.getProperty("line.separator"));
+		    	    	for(int x = 0; x < commandParse.length; x++) {
+		    	    		String[] lineParse = commandParse[x].split("\t");
+		    	    		energy = 0;
+		    	    		intensity = 0;
+		    	    		nothing = 0;
+		    	    		for(int y = 0; y < lineParse.length; y++) {
+		    	    			String[] wordParse = lineParse[y].split(" ");
+		    	    			value = 0;
+		    	    			for(int z = 0; z < wordParse.length; z++) {
+		    	    				try{
+			    	    				if(Double.valueOf(wordParse[z])>0){
+			    	    					value = Double.valueOf(wordParse[z]);
+			    	    					break;
+			    	    				}
+		    	    				} catch (Exception e) {
+		    	    					//currentText.append("Fatiled to parse double!");
+		    	    				}
+		    	    			}
+		    	    			if(value>0&energy==0){
+	    	    					energy = value/1000.0;
+	    	    				} else if (value>0&nothing==0){
+	    	    					nothing = value;
+	    	    				} else if(value>0&intensity==0){
+	    	    					intensity = value/100.0;
+	    	    					break;
+	    	    				}
+		    	    		}
+		    	    		currentText.append("+B beta- " + energy + " " + intensity + System.getProperty("line.separator"));
+		    	    	}
+		    		} catch (Exception e) {
+		    			currentText.append("Failed to open file = " + splits[2] + " cannot read that file!" + System.getProperty("line.separator"));
+		    		}
+	    		} else if (splits[1].compareTo("gamma")==0){
+	    			try {
+	    				String input = pvReadData(splits[2]);
+		    	    	String[] commandParse = input.split(System.getProperty("line.separator"));
+		    	    	double value = 0;
+		    	    	double energy = 0;
+		    	    	double intensity = 0;
+		    	    	currentText.append("The reformatted data is: " + System.getProperty("line.separator"));
+		    	    	for(int x = 0; x < commandParse.length; x++) {
+		    	    		String[] lineParse = commandParse[x].split("\t");
+		    	    		energy = 0;
+		    	    		intensity = 0;
+		    	    		for(int y = 0; y < lineParse.length; y++) {
+		    	    			String[] wordParse = lineParse[y].split(" ");
+		    	    			value = 0;
+		    	    			for(int z = 0; z < wordParse.length; z++) {
+		    	    				try{
+			    	    				if(Double.valueOf(wordParse[z])>0){
+			    	    					value = Double.valueOf(wordParse[z]);
+			    	    					break;
+			    	    				}
+		    	    				} catch (Exception e) {
+		    	    					//currentText.append("Fatiled to parse double!");
+		    	    				}
+		    	    			}
+		    	    			if(value>0&energy==0){
+	    	    					energy = value/1000.0;
+	    	    				} else if(value>0&intensity==0){
+	    	    					intensity = value/100.0;
+	    	    					break;
+	    	    				}
+		    	    		}
+		    	    		currentText.append("+G gamma " + energy + " " + intensity + System.getProperty("line.separator"));
+		    	    	}
+		    		} catch (Exception e) {
+		    			currentText.append("Failed to open file = " + splits[2] + " cannot read that file!" + System.getProperty("line.separator"));
+		    		}
+	    		} else if (splits[1].compareTo("alpha")==0){
+	    			try {
+	    				String input = pvReadData(splits[2]);
+		    	    	String[] commandParse = input.split(System.getProperty("line.separator"));
+		    	    	double value = 0;
+		    	    	double energy = 0;
+		    	    	double nothing = 0;
+		    	    	double intensity = 0;
+		    	    	currentText.append("The reformatted data is: " + System.getProperty("line.separator"));
+		    	    	for(int x = 0; x < commandParse.length; x++) {
+		    	    		String[] lineParse = commandParse[x].split("\t");
+		    	    		energy = 0;
+		    	    		intensity = 0;
+		    	    		nothing = 0;
+		    	    		for(int y = 0; y < lineParse.length; y++) {
+		    	    			String[] wordParse = lineParse[y].split(" ");
+		    	    			value = 0;
+		    	    			for(int z = 0; z < wordParse.length; z++) {
+		    	    				try{
+			    	    				if(Double.valueOf(wordParse[z])>0){
+			    	    					value = Double.valueOf(wordParse[z]);
+			    	    					break;
+			    	    				}
+		    	    				} catch (Exception e) {
+		    	    					//currentText.append("Fatiled to parse double!");
+		    	    				}
+		    	    			}
+		    	    			if(value>0&energy==0){
+	    	    					energy = value/1000.0;
+	    	    				} else if (value>0&nothing==0){
+	    	    					nothing = value;
+	    	    				} else if(value>0&intensity==0){
+	    	    					intensity = value/100.0;
+	    	    					break;
+	    	    				}
+		    	    		}
+		    	    		currentText.append("+A alpha " + energy + " " + intensity + System.getProperty("line.separator"));
+		    	    	}
+		    		} catch (Exception e) {
+		    			currentText.append("Failed to open file = " + splits[2] + " cannot read that file!" + System.getProperty("line.separator"));
+		    		}
+	    		}
+	    	}
+	    }
        	if(splits[0].length()==13){
 	    	if(splits[0].compareTo("verification1")==0){
 	    		String file = splits[splits.length-1];
@@ -410,6 +669,7 @@ public class RadioactivitySimTerminal extends JFrame {
     	//get inputDir
     	//get <BFSample or PSample>
     	//get <BFSample or PSample> countList <end, start, event, parts>
+    	//get <BFSample or PSample> countList <event or parts> <startTime> <endTime>
     	//get <BFSample or PSample> ruleList
     	//get <BFSample or PSample> branchList
     	//get <BFSample or PSample> <num, energy, or power> all
@@ -420,7 +680,7 @@ public class RadioactivitySimTerminal extends JFrame {
     	//get <BFSample or PSample> <num, energy, or power> <startTime> <endTime> <Type> <Name>
 
     	StringBuilder currentText = new StringBuilder();
-    	try {
+//    	try {
 			if(splits.length==2){
 				if(splits[1].compareTo("inputDir")==0){
 					currentText.append(System.getProperty("line.separator"));
@@ -881,6 +1141,50 @@ public class RadioactivitySimTerminal extends JFrame {
 							currentText.append(e.getCause() + System.getProperty("line.separator"));
 						}
 					}
+				} else if (splits[3].compareTo("parts")==0&splits[2].compareTo("countList")==0){
+					double start = Double.valueOf(splits[4]);
+					double end = Double.valueOf(splits[5]);
+					if(start>=0){
+						if(end>0 & end>start) {
+							if(splits[1].compareTo("PSample")==0){
+								currentText.append(System.getProperty("line.separator"));
+								currentText.append(pvPredictiveSample.puGetAllParticleAndEMCountsOverTimeRangeByEnergy(start,end) + System.getProperty("line.separator"));
+								currentText.append(System.getProperty("line.separator"));
+							} else if (splits[1].compareTo("BFSample")==0){
+								currentText.append(System.getProperty("line.separator"));
+								currentText.append(pvBruteForceSample.puGetAllParticleAndEMCountsOverTimeRangeByEnergy(start,end) + System.getProperty("line.separator"));
+								currentText.append(System.getProperty("line.separator"));
+							} else {
+								currentText.append("get <PSample or BFSample> countList parts <startTime> <endTime> failed! Second argument must be either PSample or BFSample." + System.getProperty("line.separator"));
+							}
+						} else {
+							currentText.append("get <PSample or BFSample> countList parts <startTime> <endTime> failed! End time must be greater than start time." + System.getProperty("line.separator"));
+						}
+					} else {
+						currentText.append("get <PSample or BFSample> countList parts <startTime> <endTime> failed! Start time must be greater than or equal to zero." + System.getProperty("line.separator"));
+					}
+				} else if (splits[3].compareTo("event")==0&splits[2].compareTo("countList")==0){
+					double start = Double.valueOf(splits[4]);
+					double end = Double.valueOf(splits[5]);
+					if(start>=0){
+						if(end>0 & end>start) {
+							if(splits[1].compareTo("PSample")==0){
+								currentText.append(System.getProperty("line.separator"));
+								currentText.append(pvPredictiveSample.puGetAllEventCountsOverTimeRangeByNuclei(start,end) + System.getProperty("line.separator"));
+								currentText.append(System.getProperty("line.separator"));
+							} else if (splits[1].compareTo("BFSample")==0){
+								currentText.append(System.getProperty("line.separator"));
+								currentText.append(pvBruteForceSample.puGetAllEventCountsOverTimeRangeByNuclei(start,end) + System.getProperty("line.separator"));
+								currentText.append(System.getProperty("line.separator"));
+							} else {
+								currentText.append("get <PSample or BFSample> countList parts <startTime> <endTime> failed! Second argument must be either PSample or BFSample." + System.getProperty("line.separator"));
+							}
+						} else {
+							currentText.append("get <PSample or BFSample> countList parts <startTime> <endTime> failed! End time must be greater than start time." + System.getProperty("line.separator"));
+						}
+					} else {
+						currentText.append("get <PSample or BFSample> countList parts <startTime> <endTime> failed! Start time must be greater than or equal to zero." + System.getProperty("line.separator"));
+					}
 				} else {
 					currentText.append("Command unknown!  Please type help for a list of commands." + System.getProperty("line.separator"));
 				}
@@ -987,19 +1291,19 @@ public class RadioactivitySimTerminal extends JFrame {
 					}
 				}
 			}
-		} catch (Exception e) {
-			currentText.append("Error! get function has failed! Try typing help to find the correct format!" + System.getProperty("line.separator"));
-		}
+//		} catch (Exception e) {
+//			currentText.append("Error! get function has failed! Try typing help to find the correct format!" + System.getProperty("line.separator"));
+//		}
     	return currentText;
     }
 
     private StringBuilder pvNewCommands(String[] splits){
     	//Handles the "new" type commands
     	StringBuilder currentText = new StringBuilder();
-//    	try {
+    	try {
 			if(splits.length==7){
 				if(splits[1].compareTo("PSample")==0){
-//					try {
+					try {
 						Double num = Double.valueOf(splits[2]);
 						String file = splits[3];
 						Double start = Double.valueOf(splits[4]);
@@ -1033,17 +1337,17 @@ public class RadioactivitySimTerminal extends JFrame {
 							currentText.append("new PSample Failed!  The <numberOfNuclei> must be greater than zero!" + System.getProperty("line.separator"));
 							currentText.append("Correct Syntax = new PSample <numberOfNuclei> <inputFileName> <startTime> <endTime> <resolution>" + System.getProperty("line.separator"));
 						}
-//					} catch (Exception e) {
-//						currentText.append(e.getClass() + " Occurred!" + System.getProperty("line.separator"));
-//						currentText.append(e.getCause() + System.getProperty("line.separator"));
-//					}
+					} catch (Exception e) {
+						currentText.append(e.getClass() + " Occurred!" + System.getProperty("line.separator"));
+						currentText.append(e.getCause() + System.getProperty("line.separator"));
+					}
 				} else {
 					currentText.append("Command unknown!  Please type help for a list of commands." + System.getProperty("line.separator"));
 				}
 			}
 			if(splits.length==6){
 				if(splits[1].compareTo("BFSample")==0){
-//					try {
+					try {
 						long num = Long.valueOf(splits[2]);
 						String file = splits[3];
 						double start = Double.valueOf(splits[4]);
@@ -1071,17 +1375,17 @@ public class RadioactivitySimTerminal extends JFrame {
 							currentText.append("new BFSample Failed!  The <numberOfNuclei> must be greater than zero!" + System.getProperty("line.separator"));
 							currentText.append("Correct Syntax = new BFSample <numberOfNuclei> <inputFileName> <startTime> <endTime>" + System.getProperty("line.separator"));
 						}
-//					} catch (Exception e) {
-//						currentText.append(e.getClass() + " Occurred!" + System.getProperty("line.separator"));
-//						currentText.append(e.getCause() + System.getProperty("line.separator"));
-//					}
+					} catch (Exception e) {
+						currentText.append(e.getClass() + " Occurred!" + System.getProperty("line.separator"));
+						currentText.append(e.getCause() + System.getProperty("line.separator"));
+					}
 				} else {
 					currentText.append("Command unknown!  Please type help for a list of commands." + System.getProperty("line.separator"));
 				}
 			}
-//		} catch (Exception e) {
-//			currentText.append("Error! new function has failed! Try typing help to find the correct format!" + System.getProperty("line.separator"));
-//		}
+		} catch (Exception e) {
+			currentText.append("Error! new function has failed! Try typing help to find the correct format!" + System.getProperty("line.separator"));
+		}
     	return currentText;
     }
 
@@ -1121,6 +1425,24 @@ public class RadioactivitySimTerminal extends JFrame {
 		}
 		return currentText;
     }
+
+    private String pvReadData(String input) throws IOException {
+		// reads data into a string
+		StringBuilder text = new StringBuilder();
+	    Scanner scanner = new Scanner(new FileInputStream(input), "UTF-8");
+	    try {
+	    	while (scanner.hasNextLine()){
+	        	text.append(scanner.nextLine() + System.getProperty("line.separator"));
+	        }
+	    } catch (Exception e) {
+	    	System.out.println(e);
+	    	System.out.println("Input file: " + input + " failed to open for reading");
+	    }
+	    finally{
+	      scanner.close();
+	    }
+	    return text.toString();
+	}
 
     private void pvLogCommand(String command){
     	//adds a (command) to the (pvCommandLog)

@@ -32,16 +32,15 @@
 #      DOUBLE13 is the neutron percent intensity
 #It is useful to track these in order to get a complete radiation picture
 #*************************************************************
-NB95 MO95 beta- 0.9256 3023222.4 1
-+B beta- 0.1598 0.9997
-+B beta- 0.7215 1E-5
-+B beta- 0.9256 0.0003
-+G XR1 0.00229 0.0000558
-+G XRka2 0.017374 0.000287
-+G XRka1 0.017479 0.000546
-+G XRkb3 0.01959 0.0000437
-+G XRkb1 0.019607 0.000085
-+G XRkb2 0.019965 0.0000186
-+G gamma 0.2041161 0.00028
-+G gamma 0.56188 0.00015
-+G gamma 0.765803 0.99808
+238RU103 RU103 IT 0.2382 0.00169 1
++G XR1 0.00256 0.04
++G xray 0.0027 0.0031
++G XRka2 0.01915 0.16
++G XRka1 0.019279 0.30
++G XRkb3 0.021634 0.025
++G XRkb1 0.021657 0.048
++G XRkb2 0.022074 0.0112
++G gamma 0.024 0.00113
++G gamma 0.2107 0.91
++G gamma 0.2134 0.051
+RU103 RH103 beta- 0.7634 3390940.8 1

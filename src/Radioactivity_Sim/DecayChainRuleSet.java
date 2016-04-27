@@ -140,7 +140,6 @@ public class DecayChainRuleSet extends DecayChainRuleBranch {
         	System.out.println("Input file: " + input + " failed to open for reading");
         }
 
-    	int z = prsfIntZero;
     	String ruleLine = "";
     	String[] lines = inputData.split(System.getProperty("line.separator"));
     	int lastRuleNum = prsfIntMinusOne;
@@ -169,8 +168,10 @@ public class DecayChainRuleSet extends DecayChainRuleBranch {
 					betaName = splits[prsfIntOne];
 					energy = Double.valueOf(splits[prsfIntTwo]);
 					intensity = Double.valueOf(splits[prsfIntThree]);
+
 					if (lastRuleNum>=prsfIntZero){
 						puAddBetaToRule(lastRuleNum,betaName,energy,intensity);
+						System.out.println(betaName + "  " + energy + "  " + intensity);
 					}
 				} else {
 					System.out.println("Parsing of the beta line failed! Not enough arguments!");
@@ -182,6 +183,7 @@ public class DecayChainRuleSet extends DecayChainRuleBranch {
 					intensity = Double.valueOf(splits[prsfIntThree]);
 					if (lastRuleNum>=prsfIntZero){
 						puAddGammaToRule(lastRuleNum,gammaName,energy,intensity);
+						System.out.println(gammaName + "  " + energy + "  " + intensity);
 					}
 				} else {
 					System.out.println("Parsing of the gamma line failed! Not enough arguments!");
@@ -193,6 +195,7 @@ public class DecayChainRuleSet extends DecayChainRuleBranch {
 					intensity = Double.valueOf(splits[prsfIntThree]);
 					if (lastRuleNum>=prsfIntZero){
 						puAddAlphaToRule(lastRuleNum,alphaName,energy,intensity);
+						System.out.println(alphaName + "  " + energy + "  " + intensity);
 					}
 				} else {
 					System.out.println("Parsing of the alpha line failed! Not enough arguments!");

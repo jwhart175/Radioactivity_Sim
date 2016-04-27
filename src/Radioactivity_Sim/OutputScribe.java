@@ -23,9 +23,11 @@ SOFTWARE.
 package Radioactivity_Sim;
 
 import java.io.BufferedWriter;
+import java.io.FileInputStream;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.PrintWriter;
+import java.util.Scanner;
 
 public class OutputScribe extends PRSFNUM{
 	// A class to open and write multiple output files

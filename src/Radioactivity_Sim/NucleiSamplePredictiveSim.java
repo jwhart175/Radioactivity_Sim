@@ -513,7 +513,7 @@ public class NucleiSamplePredictiveSim extends PRSFNUM {
     						} else {
     							boolean isNew = true;
     							for(int z = prsfIntZero; z < length;z++){
-    								if(pvDecayEventSets[x].puGetGammaName(y).compareTo(names[z])==0&pvDecayEventSets[x].puGetGammaEnergy(y)==energies[z]){
+    								if((pvDecayEventSets[x].puGetGammaName(y).compareTo(names[z])==0)&(pvDecayEventSets[x].puGetGammaEnergy(y)==energies[z])){
     									isNew = false;
     									counts[z]+=pvDecayEventSets[x].puGetNumWithinTimeBounds(start, end)*pvDecayEventSets[x].puGetGammaIntensity(y);
     								}
