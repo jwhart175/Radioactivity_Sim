@@ -338,7 +338,7 @@ public class DecayChainRuleBranch extends PRSFNUM{
 		if(prNumRule>0) {
 			if(index>=0) {
 				if(index<prNumRule){
-					return (new DecayChainRule(prRules[index]));
+					return ((prRules[index]));
 				} else {
 					System.out.println("(puGetRule) has failed! The supplied index is out of bounds!");
 				}
@@ -419,6 +419,150 @@ public class DecayChainRuleBranch extends PRSFNUM{
 			}
 		} else {
 			System.out.println("(puGetGammaIntensitiesFromRule) has failed! There aren't any rules in this (DecayChainRuleBranch)!");
+		}
+		return (new double[1]);
+	}
+
+	public int puGetNumAlphasFromRule(int index) {
+		//returns the number of coincident Alpha radiation events in the specified rule
+		if(prNumRule>0) {
+			if(index>=0) {
+				if(index<prNumRule){
+					return prRules[index].puGetNumAlphas();
+				} else {
+					System.out.println("(puGetNumAlphasFromRule) has failed! The supplied index is out of bounds!");
+				}
+			} else {
+				System.out.println("(puGetNumAlphasFromRule) has failed! The supplied index must be greater than zero!");
+			}
+		} else {
+			System.out.println("(puGetNumAlphasFromRule) has failed! There aren't any rules in this (DecayChainRuleBranch)!");
+		}
+		return prsfIntZero;
+	}
+
+	public String[] puGetAlphaNamesFromRule(int index) {
+		//returns all of the Alpha names for the rule at the specified index
+		if(prNumRule>0) {
+			if(index>=0) {
+				if(index<prNumRule){
+					return prRules[index].puGetAlphaName();
+				} else {
+					System.out.println("(puGetAlphaName) has failed! The supplied index is out of bounds!");
+				}
+			} else {
+				System.out.println("(puGetAlphaName) has failed! The supplied index must be greater than zero!");
+			}
+		} else {
+			System.out.println("(puGetAlphaName) has failed! There aren't any rules in this (DecayChainRuleBranch)!");
+		}
+		return (new String[1]);
+	}
+
+	public double[] puGetAlphaEnergiesFromRule(int index) {
+		//returns all of the Alpha energies for the rule at the specified index
+		if(prNumRule>0) {
+			if(index>=0) {
+				if(index<prNumRule){
+					return prRules[index].puGetAlphaEnergy();
+				} else {
+					System.out.println("(puGetAlphaEnergiesFromRule) has failed! The supplied index is out of bounds!");
+				}
+			} else {
+				System.out.println("(puGetAlphaEnergiesFromRule) has failed! The supplied index must be greater than zero!");
+			}
+		} else {
+			System.out.println("(puGetAlphaEnergiesFromRule) has failed! There aren't any rules in this (DecayChainRuleBranch)!");
+		}
+		return (new double[1]);
+	}
+
+	public double[] puGetAlphaIntensitiesFromRule(int index) {
+		//returns all of the Alpha intensities for the rule at the specified index
+		if(prNumRule>0) {
+			if(index>=0) {
+				if(index<prNumRule){
+					return prRules[index].puGetAlphaIntensity();
+				} else {
+					System.out.println("(puGetAlphaIntensitiesFromRule) has failed! The supplied index is out of bounds!");
+				}
+			} else {
+				System.out.println("(puGetAlphaIntensitiesFromRule) has failed! The supplied index must be greater than zero!");
+			}
+		} else {
+			System.out.println("(puGetAlphaIntensitiesFromRule) has failed! There aren't any rules in this (DecayChainRuleBranch)!");
+		}
+		return (new double[1]);
+	}
+
+	public int puGetNumNeutronsFromRule(int index) {
+		//returns the number of coincident Neutron radiation events in the specified rule
+		if(prNumRule>0) {
+			if(index>=0) {
+				if(index<prNumRule){
+					return prRules[index].puGetNumNeutrons();
+				} else {
+					System.out.println("(puGetNumNeutronsFromRule) has failed! The supplied index is out of bounds!");
+				}
+			} else {
+				System.out.println("(puGetNumNeutronsFromRule) has failed! The supplied index must be greater than zero!");
+			}
+		} else {
+			System.out.println("(puGetNumNeutronsFromRule) has failed! There aren't any rules in this (DecayChainRuleBranch)!");
+		}
+		return prsfIntZero;
+	}
+
+	public String[] puGetNeutronNamesFromRule(int index) {
+		//returns all of the Neutron names for the rule at the specified index
+		if(prNumRule>0) {
+			if(index>=0) {
+				if(index<prNumRule){
+					return prRules[index].puGetNeutronName();
+				} else {
+					System.out.println("(puGetNeutronName) has failed! The supplied index is out of bounds!");
+				}
+			} else {
+				System.out.println("(puGetNeutronName) has failed! The supplied index must be greater than zero!");
+			}
+		} else {
+			System.out.println("(puGetNeutronName) has failed! There aren't any rules in this (DecayChainRuleBranch)!");
+		}
+		return (new String[1]);
+	}
+
+	public double[] puGetNeutronEnergiesFromRule(int index) {
+		//returns all of the Neutron energies for the rule at the specified index
+		if(prNumRule>0) {
+			if(index>=0) {
+				if(index<prNumRule){
+					return prRules[index].puGetNeutronEnergy();
+				} else {
+					System.out.println("(puGetNeutronEnergiesFromRule) has failed! The supplied index is out of bounds!");
+				}
+			} else {
+				System.out.println("(puGetNeutronEnergiesFromRule) has failed! The supplied index must be greater than zero!");
+			}
+		} else {
+			System.out.println("(puGetNeutronEnergiesFromRule) has failed! There aren't any rules in this (DecayChainRuleBranch)!");
+		}
+		return (new double[1]);
+	}
+
+	public double[] puGetNeutronIntensitiesFromRule(int index) {
+		//returns all of the Neutron intensities for the rule at the specified index
+		if(prNumRule>0) {
+			if(index>=0) {
+				if(index<prNumRule){
+					return prRules[index].puGetNeutronIntensity();
+				} else {
+					System.out.println("(puGetNeutronIntensitiesFromRule) has failed! The supplied index is out of bounds!");
+				}
+			} else {
+				System.out.println("(puGetNeutronIntensitiesFromRule) has failed! The supplied index must be greater than zero!");
+			}
+		} else {
+			System.out.println("(puGetNeutronIntensitiesFromRule) has failed! There aren't any rules in this (DecayChainRuleBranch)!");
 		}
 		return (new double[1]);
 	}

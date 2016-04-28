@@ -482,7 +482,6 @@ public class NucleiSamplePredictiveSim extends PRSFNUM {
     	String names[] = new String[prsfIntOne];
     	double energies[] = new double[prsfIntOne];
     	double counts[] = new double[prsfIntOne];
-    	int length = prsfIntZero;
     	StringBuilder text = new StringBuilder();
     	if (start < pvStartTime) {
     		System.out.println("Warning (puGetAllParticleAndEMCountsOverTimeRangeByEnergy) was supplied a start time that is earlier than (pvStartTime)!");
@@ -502,151 +501,83 @@ public class NucleiSamplePredictiveSim extends PRSFNUM {
     	if (start < end) {
     		if (pvNumDecayEventSets > prsfIntZero) {
     			//Build counts for the independent name and energy pairs
-    			for (int x = prsfIntZero; x < pvNumDecayEventSets; x++) {
-    				if(pvDecayEventSets[x].puGetNumGammas()>0){
-						for(int y = prsfIntZero; y < pvDecayEventSets[x].puGetNumGammas(); y++){
-							if(length==prsfIntZero){
-    							names[length]=pvDecayEventSets[x].puGetGammaName(y);
-    							energies[length]=pvDecayEventSets[x].puGetGammaEnergy(y);
-    							counts[length]=pvDecayEventSets[x].puGetNumWithinTimeBounds(start, end)*pvDecayEventSets[x].puGetGammaIntensity(y);
-    							length++;
-    						} else {
-    							boolean isNew = true;
-    							for(int z = prsfIntZero; z < length;z++){
-    								if((pvDecayEventSets[x].puGetGammaName(y).compareTo(names[z])==0)&(pvDecayEventSets[x].puGetGammaEnergy(y)==energies[z])){
-    									isNew = false;
-    									counts[z]+=pvDecayEventSets[x].puGetNumWithinTimeBounds(start, end)*pvDecayEventSets[x].puGetGammaIntensity(y);
-    								}
-    							}
-    							if(isNew){
-    								String[] newNames = new String[length+prsfIntOne];
-    								double[] newEnergies = new double[length+prsfIntOne];
-    								double[] newCounts = new double[length+prsfIntOne];
-    								for(int z = prsfIntZero; z < length; z++){
-    									newNames[z] = names[z];
-    									newEnergies[z] = energies[z];
-    									newCounts[z] = counts[z];
-    								}
-    								newNames[length] = pvDecayEventSets[x].puGetGammaName(y);
-    								newEnergies[length] = pvDecayEventSets[x].puGetGammaEnergy(y);
-    								newCounts[length] = pvDecayEventSets[x].puGetNumWithinTimeBounds(start, end)*pvDecayEventSets[x].puGetGammaIntensity(y);pvDecayEventSets[x].puGetGammaIntensity(y);
-    								names = newNames;
-    								energies = newEnergies;
-    								counts = newCounts;
-    								length++;
-    							}
-    						}
-						}
-					}
-					if(pvDecayEventSets[x].puGetNumNeutrons()>0){
-						for(int y = prsfIntZero; y < pvDecayEventSets[x].puGetNumNeutrons(); y++){
-							if(length==prsfIntZero){
-    							names[prsfIntZero]=pvDecayEventSets[x].puGetNeutronName(y);
-    							energies[prsfIntZero]=pvDecayEventSets[x].puGetNeutronEnergy(y);
-    							counts[prsfIntZero]=pvDecayEventSets[x].puGetNumWithinTimeBounds(start, end)*pvDecayEventSets[x].puGetNeutronIntensity(y);
-    							length++;
-    						} else {
-    							boolean isNew = true;
-    							for(int z = prsfIntZero; z < length;z++){
-    								if(pvDecayEventSets[x].puGetNeutronName(y).compareTo(names[z])==0&pvDecayEventSets[x].puGetNeutronEnergy(y)==energies[z]){
-    									isNew = false;
-    									counts[z]+=pvDecayEventSets[x].puGetNumWithinTimeBounds(start, end)*pvDecayEventSets[x].puGetNeutronIntensity(y);
-    								}
-    							}
-    							if(isNew){
-    								String[] newNames = new String[length+prsfIntOne];
-    								double[] newEnergies = new double[length+prsfIntOne];
-    								double[] newCounts = new double[length+prsfIntOne];
-    								for(int z = prsfIntZero; z < length; z++){
-    									newNames[z] = names[z];
-    									newEnergies[z] = energies[z];
-    									newCounts[z] = counts[z];
-    								}
-    								newNames[length] = pvDecayEventSets[x].puGetNeutronName(y);
-    								newEnergies[length] = pvDecayEventSets[x].puGetNeutronEnergy(y);
-    								newCounts[length] = pvDecayEventSets[x].puGetNumWithinTimeBounds(start, end)*pvDecayEventSets[x].puGetNeutronIntensity(y);pvDecayEventSets[x].puGetNeutronIntensity(y);
-    								names = newNames;
-    								energies = newEnergies;
-    								counts = newCounts;
-    								length++;
-    							}
-    						}
-						}
-					}
-					if(pvDecayEventSets[x].puGetNumAlphas()>0){
-						for(int y = prsfIntZero; y < pvDecayEventSets[x].puGetNumAlphas(); y++){
-							if(length==prsfIntZero){
-    							names[prsfIntZero]=pvDecayEventSets[x].puGetAlphaName(y);
-    							energies[prsfIntZero]=pvDecayEventSets[x].puGetAlphaEnergy(y);
-    							counts[prsfIntZero]=pvDecayEventSets[x].puGetNumWithinTimeBounds(start, end)*pvDecayEventSets[x].puGetAlphaIntensity(y);
-    							length++;
-    						} else {
-    							boolean isNew = true;
-    							for(int z = prsfIntZero; z < length;z++){
-    								if(pvDecayEventSets[x].puGetAlphaName(y).compareTo(names[z])==0&pvDecayEventSets[x].puGetAlphaEnergy(y)==energies[z]){
-    									isNew = false;
-    									counts[z]+=pvDecayEventSets[x].puGetNumWithinTimeBounds(start, end)*pvDecayEventSets[x].puGetAlphaIntensity(y);
-    								}
-    							}
-    							if(isNew){
-    								String[] newNames = new String[length+prsfIntOne];
-    								double[] newEnergies = new double[length+prsfIntOne];
-    								double[] newCounts = new double[length+prsfIntOne];
-    								for(int z = prsfIntZero; z < length; z++){
-    									newNames[z] = names[z];
-    									newEnergies[z] = energies[z];
-    									newCounts[z] = counts[z];
-    								}
-    								newNames[length] = pvDecayEventSets[x].puGetAlphaName(y);
-    								newEnergies[length] = pvDecayEventSets[x].puGetAlphaEnergy(y);
-    								newCounts[length] = pvDecayEventSets[x].puGetNumWithinTimeBounds(start, end)*pvDecayEventSets[x].puGetAlphaIntensity(y);pvDecayEventSets[x].puGetAlphaIntensity(y);
-    								names = newNames;
-    								energies = newEnergies;
-    								counts = newCounts;
-    								length++;
-    							}
-    						}
-						}
-					}
-					if(pvDecayEventSets[x].puGetNumBetas()>0){
-						for(int y = prsfIntZero; y < pvDecayEventSets[x].puGetNumBetas(); y++){
-							if(length==prsfIntZero){
-    							names[prsfIntZero]=pvDecayEventSets[x].puGetBetaName(y);
-    							energies[prsfIntZero]=pvDecayEventSets[x].puGetBetaEnergy(y);
-    							counts[prsfIntZero]=pvDecayEventSets[x].puGetNumWithinTimeBounds(start, end)*pvDecayEventSets[x].puGetBetaIntensity(y);
-    							length++;
-    						} else {
-    							boolean isNew = true;
-    							for(int z = prsfIntZero; z < length;z++){
-    								if(pvDecayEventSets[x].puGetBetaName(y).compareTo(names[z])==0&pvDecayEventSets[x].puGetBetaEnergy(y)==energies[z]){
-    									isNew = false;
-    									counts[z]+=pvDecayEventSets[x].puGetNumWithinTimeBounds(start, end)*pvDecayEventSets[x].puGetBetaIntensity(y);
-    								}
-    							}
-    							if(isNew){
-    								String[] newNames = new String[length+prsfIntOne];
-    								double[] newEnergies = new double[length+prsfIntOne];
-    								double[] newCounts = new double[length+prsfIntOne];
-    								for(int z = prsfIntZero; z < length; z++){
-    									newNames[z] = names[z];
-    									newEnergies[z] = energies[z];
-    									newCounts[z] = counts[z];
-    								}
-    								newNames[length] = pvDecayEventSets[x].puGetBetaName(y);
-    								newEnergies[length] = pvDecayEventSets[x].puGetBetaEnergy(y);
-    								newCounts[length] = pvDecayEventSets[x].puGetNumWithinTimeBounds(start, end)*pvDecayEventSets[x].puGetBetaIntensity(y);
-    								names = newNames;
-    								energies = newEnergies;
-    								counts = newCounts;
-    								length++;
-    							}
-    						}
-						}
-					}
+    			int partCount = prsfIntZero;
+    			for (int x = prsfIntZero; x < pvRules.length; x++){
+    				for(int y = prsfIntZero; y < pvRules[x].puGetNumRules(); y++){
+    					for(int z = prsfIntZero; z < pvRules[x].puGetNumAlphasFromRule(y); z++){
+    						partCount++;
+    					}
+    					for(int z = prsfIntZero; z < pvRules[x].puGetNumBetasFromRule(y); z++){
+    						partCount++;
+    					}
+    					for(int z = prsfIntZero; z < pvRules[x].puGetNumGammasFromRule(y); z++){
+    						partCount++;
+    					}
+    					for(int z = prsfIntZero; z < pvRules[x].puGetNumNeutronsFromRule(y); z++){
+    						partCount++;
+    					}
+    				}
+    			}
+    			names = new String[partCount];
+    	    	energies = new double[partCount];
+    	    	counts = new double[partCount];
+    	    	partCount = prsfIntZero;
+    	    	for (int x = prsfIntZero; x < pvRules.length; x++){
+    				for(int y = prsfIntZero; y < pvRules[x].puGetNumRules(); y++){
+    					DecayChainRule rule = pvRules[x].puGetRule(y);
+    					for(int z = prsfIntZero; z < rule.puGetNumAlphas(); z++){
+    						names[partCount]=rule.puGetAlphaName(z);
+							energies[partCount]=rule.puGetAlphaEnergy(z);
+							for(int x1 = prsfIntZero; x1 < pvNumDecayEventSets; x1++){
+								for(int y1 = prsfIntZero; y1 < pvDecayEventSets[x1].puGetNumAlphas(); y1++){
+		    	    				if((pvDecayEventSets[x1].puGetAlphaName(y1).compareTo(names[partCount])==prsfIntZero)&(pvDecayEventSets[x1].puGetAlphaEnergy(y1)==energies[partCount])){
+		    	    					counts[partCount] += pvDecayEventSets[x1].puGetNumWithinTimeBounds(start,end)*pvDecayEventSets[x1].puGetAlphaIntensity(y1);
+		    	    				}
+		    	    			}
+							}
+							partCount++;
+    					}
+    					for(int z = prsfIntZero; z < rule.puGetNumBetas(); z++){
+    						names[partCount]=rule.puGetBetaName(z);
+							energies[partCount]=rule.puGetBetaEnergy(z);
+							for(int x1 = prsfIntZero; x1 < pvNumDecayEventSets; x1++){
+								for(int y1 = prsfIntZero; y1 < pvDecayEventSets[x1].puGetNumBetas(); y1++){
+		    	    				if((pvDecayEventSets[x1].puGetBetaName(y1).compareTo(names[partCount])==prsfIntZero)&(pvDecayEventSets[x1].puGetBetaEnergy(y1)==energies[partCount])){
+		    	    					counts[partCount] += pvDecayEventSets[x1].puGetNumWithinTimeBounds(start,end)*pvDecayEventSets[x1].puGetBetaIntensity(y1);
+		    	    				}
+		    	    			}
+							}
+							partCount++;
+    					}
+    					for(int z = prsfIntZero; z < rule.puGetNumGammas(); z++){
+    						names[partCount]=rule.puGetGammaName(z);
+							energies[partCount]=rule.puGetGammaEnergy(z);
+							for(int x1 = prsfIntZero; x1 < pvNumDecayEventSets; x1++){
+								for(int y1 = prsfIntZero; y1 < pvDecayEventSets[x1].puGetNumGammas(); y1++){
+		    	    				if((pvDecayEventSets[x1].puGetGammaName(y1).compareTo(names[partCount])==prsfIntZero)&(pvDecayEventSets[x1].puGetGammaEnergy(y1)==energies[partCount])){
+		    	    					counts[partCount] += pvDecayEventSets[x1].puGetNumWithinTimeBounds(start,end)*pvDecayEventSets[x1].puGetGammaIntensity(y1);
+		    	    				}
+		    	    			}
+							}
+							partCount++;
+    					}
+    					for(int z = prsfIntZero; z < rule.puGetNumNeutrons(); z++){
+    						names[partCount]=rule.puGetNeutronName(z);
+							energies[partCount]=rule.puGetNeutronEnergy(z);
+							for(int x1 = prsfIntZero; x1 < pvNumDecayEventSets; x1++){
+								for(int y1 = prsfIntZero; y1 < pvDecayEventSets[x1].puGetNumNeutrons(); y1++){
+		    	    				if((pvDecayEventSets[x1].puGetNeutronName(y1).compareTo(names[partCount])==prsfIntZero)&(pvDecayEventSets[x1].puGetNeutronEnergy(y1)==energies[partCount])){
+		    	    					counts[partCount] += pvDecayEventSets[x1].puGetNumWithinTimeBounds(start,end)*pvDecayEventSets[x1].puGetNeutronIntensity(y1);
+		    	    				}
+		    	    			}
+							}
+							partCount++;
+    					}
+    				}
     			}
     			text.append("From t = " + start + " to t = " + end + ", the following emissions occur:" + System.getProperty("line.separator"));
     			text.append("Names, Energy[MeV], Counts" + System.getProperty("line.separator"));
-    			for(int x = prsfIntZero; x < length; x++){
+    			for(int x = prsfIntZero; x < partCount; x++){
     				text.append(names[x] + ", " + energies[x] + ", " + counts[x] + System.getProperty("line.separator"));
     			}
     		} else {

@@ -171,7 +171,7 @@ public class DecayChainRuleSet extends DecayChainRuleBranch {
 
 					if (lastRuleNum>=prsfIntZero){
 						puAddBetaToRule(lastRuleNum,betaName,energy,intensity);
-						System.out.println(betaName + "  " + energy + "  " + intensity);
+						//System.out.println(betaName + "  " + energy + "  " + intensity);
 					}
 				} else {
 					System.out.println("Parsing of the beta line failed! Not enough arguments!");
@@ -183,7 +183,7 @@ public class DecayChainRuleSet extends DecayChainRuleBranch {
 					intensity = Double.valueOf(splits[prsfIntThree]);
 					if (lastRuleNum>=prsfIntZero){
 						puAddGammaToRule(lastRuleNum,gammaName,energy,intensity);
-						System.out.println(gammaName + "  " + energy + "  " + intensity);
+						//System.out.println(gammaName + "  " + energy + "  " + intensity);
 					}
 				} else {
 					System.out.println("Parsing of the gamma line failed! Not enough arguments!");
@@ -195,7 +195,7 @@ public class DecayChainRuleSet extends DecayChainRuleBranch {
 					intensity = Double.valueOf(splits[prsfIntThree]);
 					if (lastRuleNum>=prsfIntZero){
 						puAddAlphaToRule(lastRuleNum,alphaName,energy,intensity);
-						System.out.println(alphaName + "  " + energy + "  " + intensity);
+						//System.out.println(alphaName + "  " + energy + "  " + intensity);
 					}
 				} else {
 					System.out.println("Parsing of the alpha line failed! Not enough arguments!");
@@ -257,7 +257,7 @@ public class DecayChainRuleSet extends DecayChainRuleBranch {
     		} else {
     			for(int y = prsfIntZero; y<pvNumBranches; y++){
     				if(prRules[x].puGetStartNucleus().compareTo(pvBranches[y].puGetEndNucleus(pvBranches[y].puGetNumRules()-1))==0) {
-    	    			pvBranches[y].puAddRule(prRules[x].puGetStartNucleus(),prRules[x].puGetEndNucleus(),prRules[x].puGetType(),prRules[x].puGetEnergy(),prRules[x].puGetHalfLife(),prRules[x].puGetProbability());
+    	    			pvBranches[y].puAddRule(prRules[x]);
     					if (x<prNumRule-prsfIntOne){
     						if(prRules[x].puGetProbability()+prRules[x+prsfIntOne].puGetProbability()==prsfIntOne) {
     							pvAddDecayChainRuleBranch();
@@ -371,7 +371,20 @@ public class DecayChainRuleSet extends DecayChainRuleBranch {
 			StringBuilder text = new StringBuilder();
         	text.append("StartingNucleus,EndingNucleus,Type,Energy(MeV),Halflife(s),Probability" + System.getProperty("line.separator"));
         	for (int x = prsfIntZero;x<pvBranches[index].puGetNumRules();x++) {
-        		text.append(pvBranches[index].puGetStartNucleus(x) + "," + pvBranches[index].puGetEndNucleus(x) + "," + pvBranches[index].puGetType(x) + "," + pvBranches[index].puGetEnergy(x) + "," + pvBranches[index].puGetHalfLife(x) + "," + pvBranches[index].puGetProbability(x) + System.getProperty("line.separator"));
+        		DecayChainRule rule = pvBranches[index].puGetRule(x);
+        		text.append(rule.puGetStartNucleus() + " " + rule.puGetEndNucleus() + " " + rule.puGetType() + " " + rule.puGetEnergy() + " " + rule.puGetHalfLife() + " " + rule.puGetProbability() + System.getProperty("line.separator"));
+        		for (int y = prsfIntZero; y < rule.puGetNumAlphas(); y++) {
+        			text.append("+A " + rule.puGetAlphaName(y) + " " + rule.puGetAlphaEnergy(y) + " " + rule.puGetAlphaIntensity(y) + System.getProperty("line.separator"));
+        		}
+        		for (int y = prsfIntZero; y < rule.puGetNumBetas(); y++) {
+        			text.append("+B " + rule.puGetBetaName(y) + " " + rule.puGetBetaEnergy(y) + " " + rule.puGetBetaIntensity(y) + System.getProperty("line.separator"));
+        		}
+        		for (int y = prsfIntZero; y < rule.puGetNumGammas(); y++) {
+        			text.append("+G " + rule.puGetGammaName(y) + " " + rule.puGetGammaEnergy(y) + " " + rule.puGetGammaIntensity(y) + System.getProperty("line.separator"));
+        		}
+        		for (int y = prsfIntZero; y < rule.puGetNumNeutrons(); y++) {
+        			text.append("+N " + rule.puGetNeutronName(y) + " " + rule.puGetNeutronEnergy(y) + " " + rule.puGetNeutronIntensity(y) + System.getProperty("line.separator"));
+        		}
         	}
         	text.append(System.getProperty("line.separator"));
         	return text.toString();
@@ -383,7 +396,20 @@ public class DecayChainRuleSet extends DecayChainRuleBranch {
 		StringBuilder text = new StringBuilder();
        	text.append("StartingNucleus,EndingNucleus,Type,Energy(MeV),Halflife(s),Probability" + System.getProperty("line.separator"));
        	for (int x = prsfIntZero;x<prNumRule;x++) {
-       		text.append(prRules[x].puGetStartNucleus() + "," + prRules[x].puGetEndNucleus() + "," + prRules[x].puGetType() + "," + prRules[x].puGetEnergy() + "," + prRules[x].puGetHalfLife() + "," + prRules[x].puGetProbability() + System.getProperty("line.separator"));
+       		DecayChainRule rule = prRules[x];
+    		text.append(rule.puGetStartNucleus() + " " + rule.puGetEndNucleus() + " " + rule.puGetType() + " " + rule.puGetEnergy() + " " + rule.puGetHalfLife() + " " + rule.puGetProbability() + System.getProperty("line.separator"));
+    		for (int y = prsfIntZero; y < rule.puGetNumAlphas(); y++) {
+    			text.append("+A " + rule.puGetAlphaName(y) + " " + rule.puGetAlphaEnergy(y) + " " + rule.puGetAlphaIntensity(y) + System.getProperty("line.separator"));
+    		}
+    		for (int y = prsfIntZero; y < rule.puGetNumBetas(); y++) {
+    			text.append("+B " + rule.puGetBetaName(y) + " " + rule.puGetBetaEnergy(y) + " " + rule.puGetBetaIntensity(y) + System.getProperty("line.separator"));
+    		}
+    		for (int y = prsfIntZero; y < rule.puGetNumGammas(); y++) {
+    			text.append("+G " + rule.puGetGammaName(y) + " " + rule.puGetGammaEnergy(y) + " " + rule.puGetGammaIntensity(y) + System.getProperty("line.separator"));
+    		}
+    		for (int y = prsfIntZero; y < rule.puGetNumNeutrons(); y++) {
+    			text.append("+N " + rule.puGetNeutronName(y) + " " + rule.puGetNeutronEnergy(y) + " " + rule.puGetNeutronIntensity(y) + System.getProperty("line.separator"));
+    		}
        	}
        	return text.toString();
 	}

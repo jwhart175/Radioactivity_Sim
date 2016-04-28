@@ -702,36 +702,36 @@ public class DecayChainRule extends PRSFNUM{
     	prGammaEnergy = new double[prNumGammas];
     	prGammaIntensity = new double[prNumGammas];
     	for(int x = prsfIntZero; x < prNumGammas; x++){
-    		prGammaName[x] = new String(rule.puGetGammaName()[x]);
-    		prGammaEnergy[x] = new Double(rule.puGetGammaEnergy()[x]);
-    		prGammaIntensity[x] = new Double(rule.puGetGammaIntensity()[x]);
+    		prGammaName[x] = new String(rule.puGetGammaName(x));
+    		prGammaEnergy[x] = new Double(rule.puGetGammaEnergy(x));
+    		prGammaIntensity[x] = new Double(rule.puGetGammaIntensity(x));
     	}
     	prNumBetas = new Integer(rule.puGetNumBetas());
     	prBetaName = new String[prNumBetas];
     	prBetaEnergy = new double[prNumBetas];
     	prBetaIntensity = new double[prNumBetas];
     	for(int x = prsfIntZero; x < prNumBetas; x++){
-    		prBetaName[x] = new String(rule.puGetBetaName()[x]);
-    		prBetaEnergy[x] = new Double(rule.puGetBetaEnergy()[x]);
-    		prBetaIntensity[x] = new Double(rule.puGetBetaIntensity()[x]);
+    		prBetaName[x] = new String(rule.puGetBetaName(x));
+    		prBetaEnergy[x] = new Double(rule.puGetBetaEnergy(x));
+    		prBetaIntensity[x] = new Double(rule.puGetBetaIntensity(x));
     	}
     	prNumAlphas = new Integer(rule.puGetNumAlphas());
     	prAlphaName = new String[prNumAlphas];
     	prAlphaEnergy = new double[prNumAlphas];
     	prAlphaIntensity = new double[prNumAlphas];
     	for(int x = prsfIntZero; x < prNumAlphas; x++){
-    		prAlphaName[x] = new String(rule.puGetAlphaName()[x]);
-    		prAlphaEnergy[x] = new Double(rule.puGetAlphaEnergy()[x]);
-    		prAlphaIntensity[x] = new Double(rule.puGetAlphaIntensity()[x]);
+    		prAlphaName[x] = new String(rule.puGetAlphaName(x));
+    		prAlphaEnergy[x] = new Double(rule.puGetAlphaEnergy(x));
+    		prAlphaIntensity[x] = new Double(rule.puGetAlphaIntensity(x));
     	}
     	prNumNeutrons = new Integer(rule.puGetNumNeutrons());
     	prNeutronName = new String[prNumNeutrons];
     	prNeutronEnergy = new double[prNumNeutrons];
     	prNeutronIntensity = new double[prNumNeutrons];
     	for(int x = prsfIntZero; x < prNumNeutrons; x++){
-    		prNeutronName[x] = new String(rule.puGetNeutronName()[x]);
-    		prNeutronEnergy[x] = new Double(rule.puGetNeutronEnergy()[x]);
-    		prNeutronIntensity[x] = new Double(rule.puGetNeutronIntensity()[x]);
+    		prNeutronName[x] = new String(rule.puGetNeutronName(x));
+    		prNeutronEnergy[x] = new Double(rule.puGetNeutronEnergy(x));
+    		prNeutronIntensity[x] = new Double(rule.puGetNeutronIntensity(x));
     	}
     	prStartNucleus = new String(rule.puGetStartNucleus());
         prEndNucleus = new String(rule.puGetEndNucleus());
