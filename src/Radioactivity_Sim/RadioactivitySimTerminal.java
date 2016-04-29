@@ -443,15 +443,17 @@ public class RadioactivitySimTerminal extends JFrame {
 	    	if(splits[0].compareTo("exit")==0){
 	    		this.dispose();
 	    	}
-	    	if((splits[0].compareTo("read")==0)&(splits[1].compareTo("batch")==0)){
-	    		try {
-	    	    	String input = pvReadData(splits[2]);
-	    	    	String[] commandParse = input.split(System.getProperty("line.separator"));
-	    	    	for(int x = 0; x < commandParse.length; x++) {
-	    	    		pvBatchCommand(commandParse[x]);
-	    	    	}
-	    		} catch (Exception e) {
-	    			currentText.append("Failed to open file = " + splits[2] + " cannot read that file!" + System.getProperty("line.separator"));
+	    	if(splits[0].compareTo("read")==0){
+	    		if(splits[1].compareTo("batch")==0){
+		    		try {
+		    	    	String input = pvReadData(splits[2]);
+		    	    	String[] commandParse = input.split(System.getProperty("line.separator"));
+		    	    	for(int x = 0; x < commandParse.length; x++) {
+		    	    		pvBatchCommand(commandParse[x]);
+		    	    	}
+		    		} catch (Exception e) {
+		    			currentText.append("Failed to open file = " + splits[2] + " cannot read that file!" + System.getProperty("line.separator"));
+		    		}
 	    		}
 	    	}
     	}

@@ -450,19 +450,21 @@ public class NucleiSamplePredictiveSim extends PRSFNUM {
     public String puGetAllEndTimeNucleiCounts() {
     	//Returns a string containing all of the final counts for all nuclei at (pvEndTime) within this (NucleiSamplePredictiveSim)
     	StringBuilder text = new StringBuilder();
-    	text.append("The nuclei counts at "+pvEndTime+" are: " + System.getProperty("line.separator"));
+    	text.append("The remaining nuclei counts at "+pvEndTime+" are: " + System.getProperty("line.separator"));
+    	text.append("Nucleus,NumberOfNuclei" + System.getProperty("line.separator"));
     	for(int q = prsfIntZero; q < pvNuclei.length; q++) {
-			text.append("At t = " + pvEndTime + ", the number of remaining " + pvNuclei[q] + " = " + pvEndTimePartNum[q] + System.getProperty("line.separator"));
+			text.append(pvNuclei[q] + "," + pvEndTimePartNum[q] + System.getProperty("line.separator"));
 		}
     	return text.toString();
     }
 
     public String puGetAllStartTimeNucleiCounts() {
-    	//Returns a string containing all of the final counts for all nuclei at (pvEndTime) within this (NucleiSamplePredictiveSim)
+    	//Returns a string containing all of the initial counts for all nuclei at (pvStartTime) within this (NucleiSamplePredictiveSim)
     	StringBuilder text = new StringBuilder();
-    	text.append("The nuclei counts at "+pvStartTime+" are: " + System.getProperty("line.separator"));
+    	text.append("The initial nuclei counts at "+pvStartTime+" are: " + System.getProperty("line.separator"));
+    	text.append("Nucleus,NumberOfNuclei" + System.getProperty("line.separator"));
     	for(int q = prsfIntZero; q < pvNuclei.length; q++) {
-			text.append("At t = " + pvStartTime + ", the number of remaining " + pvNuclei[q] + " = " + pvStartTimePartNum[q] + System.getProperty("line.separator"));
+			text.append(pvNuclei[q] + "," + pvStartTimePartNum[q] + System.getProperty("line.separator"));
 		}
     	return text.toString();
     }
@@ -470,9 +472,10 @@ public class NucleiSamplePredictiveSim extends PRSFNUM {
     public String puGetAllEventCountsOverTimeRangeByNuclei(double start, double end) {
     	//Returns a string containing all of the event counts for all nuclei over the specified time rante within this (NucleiSamplePredictiveSim)
     	StringBuilder text = new StringBuilder();
-    	text.append("The final decay counts are: " + System.getProperty("line.separator"));
+    	text.append("The final decay event counts are: " + System.getProperty("line.separator"));
+    	text.append("Nucleus,NumberOfEvents" + System.getProperty("line.separator"));
     	for(int q = prsfIntZero; q < pvNuclei.length; q++) {
-			text.append("The number of decays of " + pvNuclei[q] + " = " + puGetEventNumForStartNucleusOverTimeRange(start,end,pvNuclei[q]) + System.getProperty("line.separator"));
+			text.append(pvNuclei[q] + "," + puGetEventNumForStartNucleusOverTimeRange(start,end,pvNuclei[q]) + System.getProperty("line.separator"));
 		}
     	return text.toString();
     }
