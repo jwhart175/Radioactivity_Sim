@@ -1,0 +1,149 @@
+#Radioactivity Sim Decay Chain Input File
+#Data:
+#STRING1 = Initial Nucleus (no spaces)
+#STRING2 = Ending Nucleus  (no spaces)
+#STRING3 = alpha, beta-, beta+, or gamma (no spaces)
+#DOUBLE1 = EndNucleus to StartNucleus energy difference in MEV (no commas, no carats, greater than 0)
+#DOUBLE2 = halflife in seconds (no commas, no carats, greater than 0)(note
+#DOUBLE3 = probability (no commas, no carats, between 0 and 1)
+#Rule Format:
+#Rules are separated by lines, each line must have the following format:
+#STRING1 STRING2 STRING3 DOUBLE1 DOUBLE2 DOUBLE3
+#If a given rule has coincident radiation like gamma or x-rays then those are added with:
+#+G STRING4 DOUBLE4 DOUBLE5
+#where STRING4 is the photon name
+#      DOUBLE4 is the photon energy in MeV
+#      DOUBLE5 is the photon percent intensity
+#It is useful to track these in order to get a complete radiation picture
+#Each beta emission energy for the rule should be tracked with:
+#+B STRING5 DOUBLE6 DOUBLE7
+#where STRING5 is the beta name
+#      DOUBLE6 is the beta energy in MeV
+#      DOUBLE7 is the beta percent intensity
+#Each alpha emission energy for the rule should be tracked with:
+#+A STRING8 DOUBLE9 DOUBLE10
+#where STRING8 is the alpha name
+#      DOUBLE9 is the alpha energy in MeV
+#      DOUBLE10 is the alpha percent intensity
+#Each neutron emission energy for the rule should be tracked with:
+#+N STRING11 DOUBLE12 DOUBLE13
+#where STRING11 is the neutron name
+#      DOUBLE12 is the neutron energy in MeV
+#      DOUBLE13 is the neutron percent intensity
+#It is useful to track these in order to get a complete radiation picture
+#*************************************************************
+#I135 XE135 beta- 2.627 23688 1 (Sheet incomplete)
++B beta- 0.04 1.3E-4
++B beta- 0.040799999999999996 0.0014199999999999998
++B beta- 0.0434 0.00127
++B beta- 0.048799999999999996 0.0014000000000000002
++B beta- 0.0603 0.0103
++B beta- 0.0716 0.0092
++B beta- 0.0762 0.0139
++B beta- 0.109 0.0478
++B beta- 0.1165 0.07400000000000001
++B beta- 0.1445 2.3E-4
++B beta- 0.15830000000000002 7.000000000000001E-4
++B beta- 0.1653 0.0159
++B beta- 0.18230000000000002 0.0111
++B beta- 0.211 0.08
++B beta- 0.2265 5.0E-4
++B beta- 0.2391 0.0060999999999999995
++B beta- 0.2792 0.08800000000000001
++B beta- 0.32430000000000003 0.218
++B beta- 0.37039999999999995 0.08
++B beta- 0.4151 0.075
++B beta- 0.4988 0.23600000000000002
++B beta- 0.5545 0.013000000000000001
++B beta- 0.8207000000000001 0.019
++G XR1 0.00411 5.2E-4
++G XRka2 0.029460999999999998 0.00128
++G XRka1 0.029782 0.0023599999999999997
++G XRkb3 0.033561999999999995 2.21E-4
++G XRkb1 0.033624 4.26E-4
++G XRkb2 0.034419 1.29E-4
++G gamma 0.11278 1.26E-4
++G gamma 0.11315 6.9E-5
++G gamma 0.16265000000000002 1.0E-4
++G gamma 0.16574 3.1E-4
++G gamma 0.18449000000000002 2.35E-4
++G gamma 0.19719 3.3E-4
++G gamma 0.220502 0.0175
++G gamma 0.22972 0.00241
++G gamma 0.2475 2.9E-4
++G gamma 0.25474 2.3E-4
++G gamma 0.26426 0.00184
++G gamma 0.288451 0.031
++G gamma 0.29027 0.0030399999999999997
++G gamma 0.30491 3.2E-4
++G gamma 0.30583 9.5E-4
++G gamma 0.326 2.3E-5
++G gamma 0.3336 3.7E-4
++G gamma 0.34252 9.0E-6
++G gamma 0.36185 0.00187
++G gamma 0.40303 0.00232
++G gamma 0.41483 0.00301
++G gamma 0.417633 0.0353
++G gamma 0.42993000000000003 0.0030399999999999997
++G gamma 0.433741 0.005540000000000001
++G gamma 0.45163 0.00316
++G gamma 0.5307999999999999 3.2E-4
++G gamma 0.5465570000000001 0.07150000000000001
++G gamma 0.57597 0.0012900000000000001
++G gamma 0.58828 5.2E-4
++G gamma 0.6169 3.7E-4
++G gamma 0.64985 0.0046
++G gamma 0.6560900000000001 7.5E-4
++G gamma 0.67922 5.5E-4
++G gamma 0.6846 2.3E-4
++G gamma 0.69013 0.0012900000000000001
++G gamma 0.70792 0.0066
++G gamma 0.7854800000000001 0.0015199999999999999
++G gamma 0.7955 2.3E-4
++G gamma 0.79771 0.0017000000000000001
++G gamma 0.8072 4.6E-4
++G gamma 0.836804 0.0669
++G gamma 0.96029 3.0E-4
++G gamma 0.9614299999999999 0.0015
++G gamma 0.97196 0.0089
++G gamma 0.97262 0.0121
++G gamma 0.99509 0.0015
++G gamma 1.03876 0.079
++G gamma 1.09686 8.9E-4
++G gamma 1.10158 0.0161
++G gamma 1.124 0.0362
++G gamma 1.131511 0.226
++G gamma 1.15151 1.4E-5
++G gamma 1.1599000000000002 0.0010299999999999999
++G gamma 1.1690399999999999 0.0088
++G gamma 1.2255999999999998 4.3E-4
++G gamma 1.24047 0.009000000000000001
++G gamma 1.2548 6.0E-5
++G gamma 1.2548 6.0E-5
++G gamma 1.2604090000000001 0.287
++G gamma 1.3157699999999999 6.6E-4
++G gamma 1.3348 3.2E-4
++G gamma 1.34366 7.7E-4
++G gamma 1.36789 0.0060999999999999995
++G gamma 1.4418 1.7E-4
++G gamma 1.4483499999999998 0.0032
++G gamma 1.45756 0.087
++G gamma 1.50279 0.0108
++G gamma 1.52199 3.7E-4
++G gamma 1.5437 2.6E-4
++G gamma 1.56641 0.0129
++G gamma 1.678027 0.096
++G gamma 1.7064590000000002 0.040999999999999995
++G gamma 1.791196 0.07719999999999999
++G gamma 1.8306900000000002 0.0058
++G gamma 1.8453 6.0E-5
++G gamma 1.9273 0.00296
++G gamma 1.94849 6.3E-4
++G gamma 2.04588 0.0087
++G gamma 2.1124 6.900000000000001E-4
++G gamma 2.1515 2.1999999999999998E-4
++G gamma 2.1894 1.3E-4
++G gamma 2.255457 0.0060999999999999995
++G gamma 2.40865 0.0096
++G gamma 2.46607 7.199999999999999E-4
++G gamma 2.4771 1.4E-5

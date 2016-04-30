@@ -18,7 +18,7 @@
 #Each beta emission energy for the rule should be tracked with:
 #+B STRING5 DOUBLE6 DOUBLE7
 #where STRING5 is the beta name
-#      DOUBLE6 is the beta end point energy in MeV
+#      DOUBLE6 is the beta energy in MeV
 #      DOUBLE7 is the beta percent intensity
 #Each alpha emission energy for the rule should be tracked with:
 #+A STRING8 DOUBLE9 DOUBLE10
@@ -28,21 +28,31 @@
 #Each neutron emission energy for the rule should be tracked with:
 #+N STRING11 DOUBLE12 DOUBLE13
 #where STRING11 is the neutron name
-#      DOUBLE12 is the neutron end point energy in MeV
+#      DOUBLE12 is the neutron energy in MeV
 #      DOUBLE13 is the neutron percent intensity
 #It is useful to track these in order to get a complete radiation picture
 #*************************************************************
-NB95 MO95 beta- 0.9256 3023222.4 1
-+B beta- 0.04334 0.9997
-+B beta- 0.28356 1E-5
-+B beta- 0.32194 0.0003
-+G XR1 0.00229 0.0000558
-+G XRka2 0.017374 0.000287
-+G XRka1 0.017479 0.000546
-+G XRkb3 0.01959 0.0000437
-+G XRkb1 0.019607 0.000085
-+G XRkb2 0.019965 0.0000186
-+G gamma 0.2041161 0.00028
-+G gamma 0.56188 0.00015
-+G gamma 0.765803 0.99808
-
+233XE133 XE133 IT 0.23322 1.899072E5 1
++G XR1 0.00411 0.075
++G XRka2 0.029461 0.159
++G XRka1 0.029782 0.293
++G XRkb3 0.033562 0.0274
++G XRkb1 0.033624 0.053
++G XRkb2 0.034419 0.0161
++G gamma 0.233221 0.1012
+XE133 CS133 beta- 0.4274 4.53384E5 1
++B beta- 0.0111 0.000087
++B beta- 0.07516 0.014
++B beta- 0.10062 0.985
++G XR1 0.00429 0.057999999999999996
++G XRka2 0.030625 0.136
++G XRka1 0.030973 0.25
++G XRkb3 0.03492 0.0236
++G XRkb1 0.034987000000000004 0.045599999999999995
++G XRkb2 0.035817999999999996 0.0141
++G gamma 0.0796142 0.0044
++G gamma 0.0809979 0.369
++G gamma 0.160612 0.001066
++G gamma 0.22323679999999999 1.37E-6
++G gamma 0.3028508 5.4999999999999995E-5
++G gamma 0.3838485 2.7000000000000002E-5

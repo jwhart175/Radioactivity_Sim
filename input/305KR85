@@ -18,7 +18,7 @@
 #Each beta emission energy for the rule should be tracked with:
 #+B STRING5 DOUBLE6 DOUBLE7
 #where STRING5 is the beta name
-#      DOUBLE6 is the beta end point energy in MeV
+#      DOUBLE6 is the beta energy in MeV
 #      DOUBLE7 is the beta percent intensity
 #Each alpha emission energy for the rule should be tracked with:
 #+A STRING8 DOUBLE9 DOUBLE10
@@ -28,21 +28,45 @@
 #Each neutron emission energy for the rule should be tracked with:
 #+N STRING11 DOUBLE12 DOUBLE13
 #where STRING11 is the neutron name
-#      DOUBLE12 is the neutron end point energy in MeV
+#      DOUBLE12 is the neutron energy in MeV
 #      DOUBLE13 is the neutron percent intensity
 #It is useful to track these in order to get a complete radiation picture
 #*************************************************************
-NB95 MO95 beta- 0.9256 3023222.4 1
-+B beta- 0.04334 0.9997
-+B beta- 0.28356 1E-5
-+B beta- 0.32194 0.0003
-+G XR1 0.00229 0.0000558
-+G XRka2 0.017374 0.000287
-+G XRka1 0.017479 0.000546
-+G XRkb3 0.01959 0.0000437
-+G XRkb1 0.019607 0.000085
-+G XRkb2 0.019965 0.0000186
-+G gamma 0.2041161 0.00028
-+G gamma 0.56188 0.00015
-+G gamma 0.765803 0.99808
-
+305KR85 KR85 IT 0.304872 16128 0.212
++G XR1 0.00159 0.0017
++G XRka2 0.012598 0.0115
++G XRka1 0.012651 0.0224
++G XRkb3 0.014104 0.0016
++G XRkb1 0.014111 0.00311
++G XRkb2 0.014311 0.000411
++G gamma 0.30487 0.14
+305KR85 RB85 beta- 0.687 16128 0.788
++B beta- 0.07461 0.00019
++B beta- 0.23822 0.00311
++B beta- 0.29034 0.785
++G XR1 0.0016899999999999999 9.4E-4
++G XRka2 0.013336 0.00632
++G XRka1 0.013394999999999999 0.012199999999999999
++G XRkb3 0.014952 8.9E-4
++G XRkb1 0.014961 0.0017299999999999998
++G XRkb2 0.015185 2.73E-4
++G gamma 0.12981 0.00301
++G gamma 0.151195 0.752
++G gamma 0.28101 4.0E-6
++G gamma 0.451 1.0999999999999999E-4
++G gamma 0.5806 4.0E-6
++G gamma 0.7316 8.0E-5
+KR85 RB85 beta- 0.687 3.388896E8 1
++B beta- 0.04765 0.00434
++B beta- 0.12403 2.4E-9
++B beta- 0.25159 0.99563
++G XR1 0.0016899999999999999 8.000000000000001E-7
++G XRka2 0.013336 5.37E-6
++G XRka1 0.013394999999999999 1.0399999999999999E-5
++G XRkb3 0.014952 7.6E-7
++G XRkb1 0.014961 1.47E-6
++G XRkb2 0.015185 2.32E-7
++G gamma 0.12981 2.2000000000000003E-9
++G gamma 0.15118 2.2000000000000002E-8
++G gamma 0.36281 2.2000000000000002E-8
++G gamma 0.5139969999999999 0.00434
