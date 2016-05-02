@@ -1,0 +1,113 @@
+#100MO    100NB B- DECAY (1.5 S)        1982VOZP                  08NDS    200802
+#  100NB B- DECAY (1.5 S)        1982VOZP                  08NDS    200802
+#H TYP=FUL$AUT=BALRAJ SINGH$CIT=NDS 109, 297 (2008)$CUT=26-Dec-2007$      
+#  Measured G, GG, BG                                                     
+#  Other main references: 1987Me06, 1976Ah06, 1972He37. 1987Me06 studied  
+#  mainly the 2.99-s 100NB, whereas, the source used by 1976Ah06 and      
+#  1972He37 contained both the activities (1.5 S and 2.99 S)              
+#  Others:                                                                
+#  G: 1987Me06, 1984BuZS, 1979Bo26, 1976Ah06, 1972He37,                   
+#  1972Tr08, 1970Ei02, 1969WiZX, 1967Hu09                                 
+#  CE: 1975Kh05                                                           
+#  GG: 1987Me06, 1984BuZS, 1976Ah06, 1972He37                             
+#  GG(THETA): 1987Me06                                                    
+#  BG: 1984Pa19, 1983Ke09, 1978St02, 1972He37                             
+#  BG(T): 1990Ma01, 1989OhZY                                              
+#  1990Ma01 and 1990Ma04 have the same citation                           
+#  T1/2 of 100NB isotope: 1976Ah06, 1972He37, 1972Tr08, 1970Ei02          
+#  Total decay energy deposit of 6387 keV {I340} calculated by RADLIST    
+#  code is in agreement with expected value of 6384 keV {I21}             
+#B IB$B- feedings of LT 2% are considered uncertain since unobserved      
+#B transitions from possible high lying levels can alter these feedings   
+#B and associated LOGFT values significantly. It should be noted that     
+#B large gap of about 3 MEV between Q- value of 6384 and highest          
+#B known level at 3130 allows possible unobserved higher energy levels    
+#B and associated |g rays.                                                
+#G           The following G rays with energy(intensity) reported by      
+#G 1972He37 only have been omitted: 549.4(0.68), 682.0(0.64), 702.6(1.5), 
+#G 792.4(1.9), 1245.1(3.1), 1427.6(1.6), 1515.1(1.4), 1565.8(1.7). The    
+#G 702.6G was reported to be in coincidence with 528G+536G by 1972He37,   
+#G but the (528G)(G) spectrum given by 1982VoZP failed to show this G ray 
+#G E$Weighted averages of values from 1982VoZP and 1987Me06               
+#G RI$Photons per 100 decays of 100NB                                     
+#G M$ From 'adopted gammas', unless otherwise stated                      
+#G E(A)$From measurement with a curved-crystal spectrometer (1979Bo26)    
+#G RI(B)$From GG data                                                     
+#G E(D)$Not reported in (N,N'G)                                           
+#G M(F)$ GG(THETA) data typical of 0-2-0 cascade, where both transitions  
+#G are expected as E2 (from RUL), M2 will suggest a long level lifetime   
+#G which is not the case.                                                 
+#L E$From least-squares fit to EG's                                       
+#L J$From 'adopted levels', unless otherwise stated                       
+#L J(A)$From GG(THETA) (1987Me06)                                         
+#P    0.0       1+                 1.5 S   2               6384     21    
++B beta- 2.879 0.5
++B beta- 2.622 0.105
++B beta- 2.546 0.08199999999999999
++B beta- 2.369 0.039
++B beta- 2.334 0.003
++B beta- 2.177 0.033
++B beta- 2.157 0.037000000000000005
++B beta- 2.108 0.008
++B beta- 1.931 0.008
++B beta- 1.902 0.047
++B beta- 1.879 0.07200000000000001
++B beta- 1.829 0.015
++B beta- 1.767 0.013000000000000001
++B beta- 1.474 0.003
++B beta- 1.457 0.019
++B beta- 1.441 0.001
++B beta- 1.424 6.0E-4
++B beta- 1.413 0.006
++B beta- 1.41 0.008
++B beta- 1.381 0.003
+
+#100MO    100NB B- DECAY (2.99 S)       2001SU11,1987ME06         08NDS    200802
+#  100NB B- DECAY (2.99 S)       2001SU11,1987ME06         08NDS    200802
+#H TYP=FUL$AUT=BALRAJ SINGH$CIT=NDS 109, 297 (2008)$CUT=26-Dec-2007$      
+#  2001Su11: {+100}Nb isotope obtained from proton fission of {+238}U     
+#  at E(p)=25 MeV. Mass separated source with A=100 isobars collected     
+#  on a moving tape. Measured E|g, I|g and |g|g using four Ge detectors   
+#  1987Me06: Isotope obtained from mass separation of fission fragments.  
+#  The source used was a mixture of 1.5-s and 2.99-s activities.          
+#  Measured G, GG, GG(THETA)                                              
+#  Others:                                                                
+#  G, GG: 1984BuZS, 1976Ah06, 1972He37                                    
+#  BG and Q- measurement: 1980KeZP, 1988GrZX                              
+#  Total decay energy deposit of 6766 keV {I325} calculated by RADLIST    
+#  code is in agreement with expected value of 6698 keV {I31}             
+#B IB,LOGFT$ The %B- feedings and associated LOGFT values are considered  
+#B as only approximate. There exists the possibility of unobserved        
+#B transitions from possible high lying levels as suggested by the        
+#B inconsistency of LOGFT value=5.6 to 1607 level with JPI=(3+) and       
+#B LOGFT=5.9 to 1847 level with JPI=(6+). For JPI=5+ for the              
+#B parent state, the 1607 level must have negligible B- feeding.          
+#B It should be noted that large gap of about 3 MEV between Q- value of   
+#B 6384 and highest known level at 3647 allows possible unobserved higher 
+#B energy levels and associated |g rays.                                  
+#G RI$Relative photon intensities belonging to 2.99-s activity only.      
+#G For transitions that are common between the two isomers, quoted        
+#G intensities are from GG data of 1987Me06                               
+#G E,RI$ From 2001Su11, unless otherwise stated. The values from          
+#G 1987Me06 are in general agreement but less precise and are             
+#G incomplete. The coincidence information is from 2001Su11 and 1987Me06  
+#G E(A)$From measurement with a curved-crystal spectrometer (1979Bo26)    
+#G M$from 'adopted gammas'                                                
+#L E$From least-squares fit to EG's                                       
+#L J$From 'adopted levels'                                                
+#L J(A)$ 2001Su01 assign (5,6)+ on the basis that no transition is seen   
+#L to levels of J<4, but L(p,p')=4 for a 2563 5 level suggests 4+         
+#P  314      23 (5+)               2.99 S  11              6384     21    
++B beta- 2.485 0.12
++B beta- 2.259 0.026000000000000002
++B beta- 2.18 0.042
++B beta- 2.144 0.047
++B beta- 2.021 0.166
++B beta- 1.932 0.018000000000000002
++B beta- 1.922 0.09300000000000001
++B beta- 1.871 0.27
++B beta- 1.8 0.158
++B beta- 1.758 0.067
++B beta- 1.295 0.011000000000000001
++B beta- 1.285 0.006999999999999999
+

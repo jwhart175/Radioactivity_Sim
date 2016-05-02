@@ -1,0 +1,40 @@
+#153EU    153GD EC DECAY                                          06NDS    200602
+#  153GD EC DECAY                                          06NDS    200602
+#H TYP=FUL$AUT=R. G. Helmer {+*}$CIT=NDS 107, 507 (2006)$CUT=31-Dec-2005$ 
+#  The decay scheme and useful I{|g} data are given by 1964Al09,          
+#       1964Ew04, 1974Se08, 1981Gr19, 1985Si03, 1988Ve05, 1988Su13,       
+#       1992Ch16, 1992Ch44, 1993Eg05, and 1995Ku34.  Level T{-1/2}        
+#       are given by: 1965Me08, 1968Ma15, 1975Si07, 1978AnZP, and         
+#       1986Sa34. Other measurements include: 1996La21, 1994Co02,         
+#       1994MiZZ, 1992EgZY (see 1993Eg05), 1990GeZZ, 1989Po21, 1986Va16,  
+#       1980Se01, 1980BeYK, 1976Gu02, 1975Ba69, 1974Ma27, 1972De67,       
+#       1971Kr19, 1970Me26, 1967Bo11, 1964Cr08, 1962Bl11, 1962Bh01,       
+#       1961Gr39, 1960Su08, 1960Le06, 1958An34, 1954Mc10, 1949Ke01.       
+#  For an independent evaluation of these decay data see                  
+#  1992Ch16.                                                              
+#  The magnitude of possible combined electron-nuclear radiation (CENR)   
+#       is discussed in 1994Al45 and 1995Sa56.                            
+#G           The internal conversion electron intensities are             
+#G      normalized to give |a{-K}(exp)(97.43)=0.258 (E1 theory).          
+#G           I{-Kx|a}=327 {I6} and I{-K|b}=82.6 {I14}. The reduced-|h{+2} 
+#G      values for these averages are 4.8 and 6.3, respectively. See      
+#G      1992Ch16, 1993Eg05, and 1995Ku34 for values for components of     
+#G      these two groups. The corresponding values calculated from the    
+#G      decay scheme are 333 {I8} and 84.8 {I24}, respectively.           
+#G E         From 2000He14 E|g evaluation with additions of values        
+#G      from {+152}Eu(n,|g); all are on the energy scale for which        
+#G      the strong {+198}Au line is 411.80205 {I17} keV.                  
+#G RI        From weighted average of values from 1974Se08, 1985Si03      
+#G      (values for photons below 60 keV omitted), 1988Su13, 1988Ve05,    
+#G      1992Ch16, 1992Ch44, 1993Eg05, and 1995Ku34. Significant           
+#G      discrepancies between these values are noted. Others: 1964Al09,   
+#G      1964Ew04, 1967Bo11, 1981Gr19, 1990GeZZ, and 1996La21.             
+#G MR        From {+153}Eu Adopted Gammas.                                
+#G E(S)      From {+152}Eu(n,|g).                                         
+#L E         From least-squares fit to measured E|g.                      
+#L J         From {+153}Eu Adopted Levels.                                
+#L T         Values are from {+153}Gd decay only; see {+153}E Adopted     
+#L      Levels for values from other production modes.                    
+#P   0         3/2-              240.4 D   10             483.6     12    
+GD153 EU153 beta+ 0.48360000000000003 2.077056E7 0.290
+

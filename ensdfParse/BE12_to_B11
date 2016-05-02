@@ -1,0 +1,79 @@
+# 11B     12BE B-N DECAY                1978Al10,1991Re02,1999Be53               
+#  12BE B-N DECAY                1978Al10,1991Re02,1999Be53               
+#H TYP=UPD$AUT=J. Kelley$CUT=12-SEPT-2013$CIT=ENSDF$                      
+#H COM=Updated data set since last full evaluation$                       
+#  1978Al10: Activity produced in the {+10}Be(t,p) reaction was measured  
+#  with a plastic scintillation detector to measure |b-rays. The          
+#  tritium beam was pulsed with a mechanical chopper (20 ms activation/400
+#  ms counting), and counting was carried out using a 5 cm thick          
+#  NE102 plastic scintillator detector. Using the least squares analysis, 
+#  half-life T{-1/2}=24.4 ms {I30} was obtained, but note the analysis    
+#  involved taking into account the activity from other radionuclides     
+#  produced in {+10}B+t reactions ({+8}Li, {+9}Li, {+12}Be).              
+#  An attempt was made to observe delayed neutrons using a moderated      
+#  {+3}He neutron counter; an upper limit of P{-n} |< 1% was obtained that
+#  depended on the {+9}Li delayed-neutron branching ratio. At the time the
+#  P{-n} of {+9}Li was taken as 35% (1974Aj01), but this value has been   
+#  revised to 50.8% so the limit of (1978Al10) should be adjusted         
+#  proportionally.                                                        
+#  1991Re02: Spallation products from 800 MeV proton bombardment of a     
+#  {+232}Th target were captured by a transport line with a mass-to-charge
+#  filter and transferes to the TOFI spectrometer at LAMPF. The           
+#  beamline was separately tuned to transport a number of different       
+#  nuclides. The ions were implanted in a Si detector and identified      
+#  by standard techniques. The beta-delayed neutrons were detected in a   
+#  polyethylene moderated {+3}He counter; half-lives and beta-delayed     
+#  neutron probabilities were deduced from analysis of the number of      
+#  implanted ions (per beam pulse) and the rate of beta-delayed neutrons  
+#  detected in the zero-threshold counter. This experiment has clear      
+#  evidence of neutron emission with a P{-n} of 0.9% {I4} which is        
+#  consistent with the published upper limit (1978Al10) and is more       
+#  precise with the benefit of mass separtion. In addition, the half-life 
+#  T{-1/2}=45 ms {I29} was measured.                                      
+#  A subsequent conference report with the same author indicates the      
+#  |b-delayed neutron probability P{-n}=0.52% {I9} and T{-1/2}=21.32 ms   
+#  {I6} (the International conference on nuclear data for science and     
+#  technology: nuclear data for the twenty-first century, Gatlinburg, TN  
+#  (United States), 9-13 May 1994) .                                      
+#  1994Ke06: A beam of {+12}Be was produced by bombarding a Be target with
+#  63 MeV/A {+18}O ions from the GANIL cyclotrons. The {+12}Be ions were  
+#  identified as they were implanted in a plastic scintillator that       
+#  was surrounded by a plastic scintillator beta counter.  A HPGe detector
+#  measured gamma-rays from the decay, and the beta-gamma coincident      
+#  events were analyzed during a 250 ms beam-off period. T{-1/2}=26.2 ms  
+#  {I24} was deduced. No clear evidence was found for de-excitation of    
+#  levels in {+11}B, and upper limits on the decay intensity to           
+#  {+12}B*(2621,2723) states were estimated as 0.008% {I6} and 0.040%     
+#  {I26}, respectively. Hence, no detailed decay scheme has been          
+#  experimentally confirmed.                                              
+#  1999Be53: An uranium carbide target was bombarded by a 1-GeV proton    
+#  beam to produce a {+12}Be beam that was implanted in a kapton foil     
+#  located at the center of a {+3}He cylindrical neutron counter array.   
+#  The |b-particles from {+12}Be decay were detected by a plastic         
+#  scintillator located directly behind the implantation foil. The        
+#  P{-n} value was determined from the rate of neutrons detected in the   
+#  {+3}He counter. The measurement is relative to the "known" P{-n} value 
+#  of {+9}Li=50.0% {I18} (1991Re02). The value P{-n}=0.50 % {I3} was      
+#  obtained; an additional proceedings result of P{-n}=0.48% {I+12}{I-10} 
+#  (U. Koster et al., AIP Conf. Proc. 455 (1998) p. 989) is mentioned in  
+#  the text.                                                              
+#  2002Be53: A layered Ta target with improved Be release time            
+#  (vs 1999Be53) was used to improve the {+12}Be |b-decay life-time       
+#  studies. As in (1999Be53), protons from the CERN/ISOLDE facility       
+#  bombarded the spallation target to produce {+12}Be. The measured time  
+#  distributions of |b particles and delayed neutrons gave a weighted mean
+#  and improved value of T{-1/2}=21.49 ms {I3}. See also 2001Be53         
+#  T{-1/2}=21.50 ms {I4}, which is based on the same data.                
+#  Comments: The value P{-n}=0.50 % {I3} (1999Be53) appears to be the most
+#  reliable value found in the literature. It is in agreement with        
+#  P{-n}=0.52% {I9} from the LANL work, but clearer experimental          
+#  details are given in the discussion. The lifetime analysis is a bit    
+#  more complicated. The values given in (1991Re02 and associated works)  
+#  are comparible with the weighted average of values in                  
+#  (1978Al10, 1984Du15, 1986Cu01, 1994Ke06, 2002Be53), however there is   
+#  little information available explaining the sometimes significant      
+#  variation in values given in (1991Re02) and those in the later         
+#  works that used significantly overlapping data sets.                   
+#P 0           0+                21.49 MS  3              8338.6    27    
+BE12 B11 neutron&beta- 8.3386 0.02149 0.0050
+

@@ -1,0 +1,12 @@
+#216RN    220RA A DECAY                 1961RU06,1970VA13         07NDS    200705
+#  220RA A DECAY                 1961RU06,1970VA13         07NDS    200705
+#H TYP=FUL$AUT=S. -C. WU$CIT=NDS 108, 1057 (2007)$CUT=1-Mar-2007$         
+#A HF        The requirement that HF(7453|a)=1.00 yields                  
+#A r{-0}({+216}Rn)=1.554 {I6}                                             
+#G M         From adopted gammas                                          
+#L J         From adopted levels                                          
+#P 0             0+              18 MS     2              7592      6     
+RA220 RN216 alpha 7.592 0.018 1.0
++A alpha 7.453 0.99
++A alpha 7.001 0.01
+

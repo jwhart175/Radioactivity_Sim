@@ -1,0 +1,136 @@
+#106CD    106IN EC DECAY (6.2 M)                                  08NDS    200806
+#  106IN EC DECAY (6.2 M)                                  08NDS    200806
+#H TYP=FUL$AUT=D. DE FRENNE AND A. NEGRET$CIT=NDS 109, 943 (2008)$        
+#H CUT=1-May-2007$                                                        
+#  Experimental results are considered as incomplete by the evaluators    
+#  as the beta decay energy is very high (6526 keV 11)                    
+#  A number of inconsistencies in the |e feeding of some levels are       
+#  observed. See also decay of other {+106}In isomer                      
+#  1992Ku01: source: {+106}Cd(p,n) E not given. Measured: E|g, I|g, ce(K) 
+#  deduced: {+106}Cd levels, J|p, |a(K)exp, mult                          
+#  1978Hu06: source: {+106}Cd(p,n) E=11,15 MeV. Measured: |g singles,     
+#  |g|g and |b|g |b singles. Deduced: {+106}Cd levels, J, |p, log| {Ift}  
+#  1984Ro10: source {+106}In from Sn(p,2pxn), on-line mass separation.    
+#  Measured E|g, I|g, Ice, |g|g and |g(ce). Deduced: log| {Ift},          
+#  {+106}Cd levels, J, |p, |a, mult                                       
+#  Others: 1972Me02, 1976Fl14, 1980Wi20                                   
+#  Q(|e)=6531 {I16} keV calculated from 1984Fi05                          
+#P 0.0         7+                6.2 M     1              6526      11    
+IN106 CD106 beta+ 6.526 372.0 1.0
++G gamma 1.145 0.038883
++B beta+ 2.2471 0.07
++G gamma 0.6326 0.997
++B beta+ 1.8355 0.1
++G gamma 0.8611 0.8973
++B beta+ 1.5460999999999998 0.011000000000000001
++G gamma 0.6107 0.035892
++G gamma 1.4719 0.065802
++B beta+ 1.4517 0.0087
++G gamma 0.8111 0.0127616
++G gamma 1.6725999999999999 0.0018943000000000002
++B beta+ 1.4399000000000002 0.07
++G gamma 0.22569999999999998 0.068793
++G gamma 0.8367 0.027916
++G gamma 0.9746 0.015952
++B beta+ 1.367 0.005
++G gamma 0.9921 0.014955000000000001
++G gamma 1.853 0.008973
++B beta+ 1.3640999999999999 0.106
++G gamma 0.161 0.004985
++G gamma 0.1866 0.0059819999999999995
++G gamma 0.9977999999999999 0.41375500000000004
++B beta+ 1.3589 0.083
++G gamma 1.0092999999999999 0.274175
++B beta+ 1.3095 0.025
++G gamma 0.5246000000000001 0.018942999999999998
++G gamma 1.1352 0.0059819999999999995
++B beta+ 1.1622000000000001 0.035
++G gamma 0.43310000000000004 0.022931
++G gamma 1.4307999999999998 0.011963999999999999
++B beta+ 1.1069 0.39799999999999996
++G gamma 0.541 0.124625
++G gamma 0.5524 0.25124399999999997
++G gamma 0.5586 0.021934
++B beta+ 1.0884 0.062
++G gamma 0.5807 0.006979
++G gamma 0.5921000000000001 0.029910000000000003
++G gamma 0.7533 0.024925000000000003
++B beta+ 1.069 0.027999999999999997
++G gamma 0.6232000000000001 0.017946
++G gamma 0.6341 0.00997
++B beta+ 0.8322999999999999 0.027000000000000003
++G gamma 1.139 0.026919
++B beta+ 0.5441 0.0189
++G gamma 1.7801 0.014955000000000001
++G gamma 1.7904 0.003988
+
+#106CD    106IN EC DECAY (5.2 M)                                  08NDS    200806
+#  106IN EC DECAY (5.2 M)                                  08NDS    200806
+#H TYP=FUL$AUT=D. DE FRENNE AND A. NEGRET$CIT=NDS 109, 943 (2008)$        
+#H CUT=1-May-2007$                                                        
+#  Experimental results are considered as tentative by the evaluators. A  
+#  number of |e branches are inconsistent with the required |DJ|p for     
+#  |e+|b{++} decay. This points to a very incomplete or wrong decay scheme
+#  See also decay of other {+106}In isomer                                
+#  1978Hu06: source: {+106}Cd(p,n) E=11,15 MeV. Measured: |g singles,     
+#  |g|g and |b|g, |b singles. Deduced: {+106}Cd levels, J, |p, log| {Ift} 
+#  1984Ro10: source {+106}In from Sn(p,2pxn), on-line mass separation.    
+#  Measured E|g, I|g, Ice, |g|g and |g(ce). Deduced: log| {Ift},          
+#  {+106}Cd levels, J, |p, |a, mult                                       
+#  1992Ku01: source: {+106}Cd(p,n) E not given. Measured: E|g, I|g, ce(K),
+#  deduced: {+106}Cd levels, J|p, |a(K)exp, mult                          
+#  2007Li07: {+106}In formed with {+106}Cd(p,n) reaction using an 11 MeV  
+#  proton beam. Measured E|g, |g|g, I|g, |g|g(|q) using the Horus Cube    
+#  spectrometer comprised of four BGO-shielded HPGe detectors, five HPGe  
+#  detectors, and the Cologne Euroball Cluster detector. Angular          
+#  correlation defined by angles 55|', 70|', 90|', and 180|' between the  
+#  occupied detector positions. A possible candidate                      
+#  for quadrupole-octupole coupled 1- state proposed at 2825 keV          
+#  Others: 1969St18, 1972Me02, 1976Fl14                                   
+#G E,RI$E|g with I|g values are from 1978Hu06, unless otherwise noted.    
+#G E|g values for transitions with no I|g are from 1984Ro10. For I|g see  
+#G 1984Ro10, not given for {+106}In(5.2 min) and {+106}In(6.2 min) |e     
+#G decay separately. Unassigned |g's of 1984Ro10 given in both decays     
+#G CC        From 1984Ro10                                                
+#G           EKC: from 1992Ku01. Normalized to |a(K)exp(633|g)=0.0035 {I1}
+#G [E2 theory from Bricc]                                                 
+#G M         Based on conversion electron data (1984Ro10) and |a(K)exp and
+#G |g(|q) (1992Ku01) if available                                         
+#L T         Taken from adopted levels                                    
+#L J         From adopted levels                                          
+#L E(B)      Observed only by 1984Ro10. Not clear whether level belongs to
+#L |e decay of {+106}In(6.2 min) or to the |e decay of {+106}In(5.2 min)  
+#P 28.6      3 (2)+              5.2 M     1              6526      11    
+IN106 CD106 beta+ 6.526 312.0 1.0
++G gamma 3.223 0.007344000000000001
++G gamma 3.3945 0.010098000000000001
++G gamma 3.8891999999999998 0.008262
++G gamma 3.912 0.00459
++G gamma 0.63266 0.9179999999999999
++G gamma 0.8611 0.09179999999999999
++G gamma 1.0837999999999999 0.031212
++G gamma 1.71647 0.03855600000000001
++G gamma 1.1625999999999999 0.015606
++G gamma 0.6107 0.01377
++G gamma 1.4719 0.01377
++G gamma 0.42719999999999997 0.0012852000000000002
++G gamma 1.5114 0.0031212
++G gamma 1.7149 0.147798
++G gamma 0.5752 0.0036720000000000004
++G gamma 1.7379 0.014688000000000001
++G gamma 1.7457 0.01377
++G gamma 1.9336 0.069768
++G gamma 1.9975 0.021113999999999997
++G gamma 2.0873000000000004 0.022032
++G gamma 2.2568699999999997 0.049572000000000005
++G gamma 2.2848 0.008262
++G gamma 2.9181999999999997 0.03855600000000001
++G gamma 2.3045999999999998 0.00459
++G gamma 2.4865999999999997 0.010098000000000001
++G gamma 3.1188000000000002 0.006425999999999999
++G gamma 0.9807 0.00459
++G gamma 2.6968 0.00918
++G gamma 2.7946999999999997 0.008262
++G gamma 2.8621 0.014688000000000001
++G gamma 3.4945 0.021113999999999997
+

@@ -1,0 +1,31 @@
+# 83KR    83RB EC DECAY                 1976VA03,1993Ch32         15NDS    201503
+#  83RB EC DECAY                 1976VA03,1993Ch32         15NDS    201503
+#H TYP=FUL$AUT=E.A. MCCUTCHAN$CIT=NDS 125, 201 (2015)$CUT=31-Dec-2014$    
+#  1976Va03: {+83}Br activity from neutron irradiation of natural Se      
+#  target followed by chemical separation. Measured E|g, I|g, |g|g, Ece,  
+#  Ice using a Ge(Li) detector, a low-energy Ge(Li) detector and a        
+#  Si(Li) detector for |g rays, a surface-barrier Si detector for         
+#  conversion electrons and a Ge(Li)-NaI(Tl) detector system for |g|g     
+#  coincidences.                                                          
+#  1988Al01: precise measurements of E|g using a Ge(Li) detector.         
+#  1990Me15: precise measurements of E|g and I|g using Ge(Li) detectors.  
+#  1993Ch32: precise measurements of E|g using a HPGe detector            
+#  Others: 1995Ah04, 1982Gr07, 1972Br37, 1970Go45, 1964Do11, 1955Pe19,    
+#  1952Ca39, 1950Ka62.                                                    
+#  A total energy release of 920 keV {I40} is calculated for this decay   
+#  scheme using the RADLST code, in good agreement with the Q value of    
+#  919.4 keV {I23}.                                                       
+#G E$From 1976Va03, except where noted.                                   
+#G RI$From 1976Va03. I|g given by 1990Me15 are from 1976Va03.             
+#G M,MR,E(A)$From the Adopted Gammas.                                     
+#L E$From a least-squares fit to E|g, by evaluator.                       
+#L J$From the Adopted Levels.                                             
+#L T$From the Adopted Levels, except where noted.                         
+#  CC$FROM BrIcc v2.3a (30-Jun-2013) 2008Ki07, "Frozen Orbitals" appr.    
+#P 0.0          5/2-              86.2 D    1              919.4    23    
++B beta+ 8.71E-4 0.0010685
++B beta+ 8.753E-4 0.001034
++B beta+ 8.703999999999999E-4 0.0010741000000000001
++B beta+ 8.701E-4 0.0010759
++B beta+ 8.655000000000001E-4 0.00111
+

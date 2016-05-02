@@ -1,0 +1,62 @@
+#212BI    216AT A DECAY (0.30 MS)       1994LI10,1991RY01         05NDS    200503
+#  216AT A DECAY (0.30 MS)       1994LI10,1991RY01         05NDS    200503
+#H TYP=FUL$AUT=E. BROWNE$CIT=NDS 104, 427 (2005)$CUT=1-Jan-2004$          
+#  Modified by E. Browne (March 10, 2004).                                
+#  1994LI10: 224AC activity was produced by bombarding targets of         
+#  232TH with 200-MeV protons, mass separated. Sources of 216AT were      
+#  produced in secular equilibrium with 220FR and 224AC. Measured |a, G,  
+#  AG coin, ce, |a-ce coin, ce-|g coin. Detectors: Ge for G rays,         
+#  Si(Li) for conversion electrons.                                       
+#A E$From 1994Li10, decreased by 2 keV so EA(GS)=7802 keV,                
+#A except where noted otherwise                                           
+#A E(A)$From 1991Ry01                                                     
+#A IA$From 1994Li10, except where noted otherwise.                        
+#A IA(E)$IA(7610A+7560A)=0.2, estimated by evaluator from decay scheme.   
+#A IA(D)$1964Mc21 reported IA<0.5                                         
+#A HF$R0(212BI)=1.551, average of R0(214PO)=1.559 8,                      
+#A R0(212PO)=1.5649 8, R0(212PB)=1.5408 9, and                            
+#A R0(210PB)=1.5394 6 (1998AK04).                                         
+#G E,RI$From 1994Li10.                                                    
+#G           XK=2.02% 20, XL=0.92% 12 (1994Li10).                         
+#L J$From 212BI adopted levels                                            
+#L E$From a least-squares fit to G-ray energies,                          
+#L unless otherwise specified.                                            
+#P 0.0          1(-)              0.30 MS  3              7950      3     
++A alpha 7.802 0.975
++A alpha 7.689 0.013999999999999999
++A alpha 7.61 0.002
++A alpha 7.593 0.0016
++A alpha 7.56 0.002
++A alpha 7.556 7.000000000000001E-4
++A alpha 7.47 0.005
++A alpha 7.394 0.0027
++A alpha 7.317 8.500000000000001E-4
++A alpha 7.24 6.0E-4
+
+#212BI    216AT A DECAY (AP 0.1 MS)     1994LI10,1971BR13         05NDS    200503
+#  216AT A DECAY (AP 0.1 MS)     1994LI10,1971BR13         05NDS    200503
+#H TYP=FUL$AUT=E. BROWNE$CIT=NDS 104, 427 (2005)$CUT=1-Jan-2004$          
+#  Modified by E. Browne (March 10, 2004).                                
+#  1994LI10: 224AC activity was produced by bombarding targets of         
+#  232TH with 200-MeV protons, mass separated. Sources of 216AT were      
+#  produced in secular equilibrium with 220FR and 224AC. Measured ALPHA,  
+#  G, AG coin, ce, ALPHA ce coin, ce-G coin. Detectors: Ge for G rays,    
+#  Si(Li) for conversion electrons.                                       
+#            The 7486-keV ALPHA group and the 103.4-keV G ray have        
+#  not been unequivocally placed in the decay scheme. 1994LI10            
+#  speculatively suggested an isomer at 57 keV (JPI=4-) in 216AT that     
+#  decays by an 7482-keV ALPHA-particle group (HF=120) to a JPI=(6-)      
+#  state at 381 keV in 212BI.  This level deexcites by a 103.4-keV        
+#  M1(+E2) G ray to a possible JPI=(7-) state at 278 keV, which           
+#  in turn populates the 27-min 212BI isomer by a strongly converted      
+#  28 keV M1 (or E2) G-ray transition (1994Li10).  The 57-keV isomer      
+#  in 216AT is also suggested to decay to a 34.6-keV (JPI=3-) level       
+#  in 216AT via a highly converted 22.4-keV M1 transition.                
+#  See 1994Li10 for a tentative decay scheme.                             
+#  T(216AT) from systematics                                              
+#A HF$R0(212BI)=1.553 6                                                   
+#L E,J$From 212BI adopted levels                                          
+#P 413          (9-)              0.1 MS   AP             7947.4    30    
++A alpha 7.486 0.002
++A alpha 7.96 1.0
+

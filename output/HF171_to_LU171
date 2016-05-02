@@ -1,0 +1,51 @@
+#171LU    171HF EC DECAY                1970GI03,1974GN02         02NDS    200209
+#  171HF EC DECAY                1970GI03,1974GN02         02NDS    200209
+#H TYP=FUL$AUT=CORAL M. BAGLIN$CIT=NDS 96,399 (2002)$CUT=5-Aug-2002$      
+#  Others: 1955NE03, 1961BR29, 1961BR39, 1962VA17, 1963RA14, 1965BA10,    
+#  1966HA23, 1967GI08, 1969GI06, 1969GI07, 1970CH17, 1971NA28,            
+#  1978GU18, 2000LA11.                                                    
+#  1970GI03: sources from 175LU(P,5N); measured EG, IG (germanium,        
+#  GELI), ECE, ICE (mag spect, silicon detectors), GG coin.               
+#  1974GN02: sources from 171YB(3HE,3N); measured EG, IG (GELI,           
+#  FWHM=2.2-2.5 KEV at 662 KEV), GG coin.                                 
+#  The tentative decay scheme is from 1974GN02. Photon data are           
+#  from 1974GN02, and CE data are from 1970GI03, except where noted.      
+#  Incomplete transition data, a large number of unplaced G's (AP 11%     
+#  of total IG), and unknown allowed (DJ=0, 7/2[633] to 7/2[404]) feeding 
+#  to GS prevent construction of a complete normalized decay scheme.      
+#  For this scheme, the most strongly populated excited states are        
+#  the (7/2)- 662, (11/2)+ 1321 and 7/2+,9/2+ 1193 levels; the 662 and    
+#  1321 levels are not expected to be strongly fed. If                    
+#  SUMOF (TI to GS)=100% (i.e., if there were no EC+B+ feeding of the GS),
+#  the RI normalization factor would be 0.055. However, the measured      
+#  I(XK, LU) suggests that the GS branch is substantial.                  
+#L J         From adopted levels.                                         
+#G RI        Relative to RI=100 10 for 469.3G; data are from 1974GN02,    
+#G except as noted. 1974GN02 report I(XK, LU)=13E+3 4 on this scale.      
+#G M         From EKC, except where noted. EKC values are based on adopted
+#G IG and on I(CEK) from 1970GI03, with photon and CE intensity           
+#G scales normalized through KC(269.1G)=0.0730 (E2 theory).               
+#G Typical uncertainties in I(CEK) are 10-20%, but many values are quoted 
+#G only to one significant figure, so uncertainties are not shown for EKC.
+#G The evaluator assumes that CE data from 1970GI03 supersede those       
+#G in 1969GI06.                                                           
+#G MR        From adopted gammas, except where noted (analysis by         
+#G 1976KR21 of combined EKC and G(|q) data).                              
+#L BAND(A)   7/2[404] band.                                               
+#L BAND(B)   1/2[541] band.                                               
+#L BAND(C)   1/2[411] band.                                               
+#L BAND(D)   5/2[402] band.                                               
+#L BAND(E)   9/2[514] band.                                               
+#L BAND(F)   7/2[523] band.                                               
+#G E(A)      From 1966HA23.                                               
+#G E(DEK),RI(D)$From 1970GI03. DE=0.2 KEV, except for very weak lines.    
+#G DRI=10% for strong, well-resolved lines and LE 20% for all others;     
+#G the evaluator assigns DRI=20%, except when a line is only partially    
+#G resolved.                                                              
+#G E(F),M(J)$From adopted gammas.                                         
+#G RI(EFG)   From coincidence data.                                       
+#G M(IK)     From CE subshell ratios.                                     
+#G MR(H)     From EKC.                                                    
+#P 0.0          (7/2+)           12.1 H    4              2.40E+3   SY    
+HF171 LU171 beta+ 2.4 43560.0 1.0
+

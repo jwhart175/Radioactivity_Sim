@@ -1,0 +1,66 @@
+# 93ZR    93Y B- DECAY                  1973TA15                  11NDS    201105
+#  93Y B- DECAY                  1973TA15                  11NDS    201105
+#H TYP=FUL$AUT=CORAL M. BAGLIN$CIT=NDS 112, 1163 (2011)$CUT=15-Dec-2010$  
+#  Is norm. procedure the best possible?                                  
+#  Others: 1972Oh06, 1972Oh03, 1971Ho15, 1969Ar06, 1968Po06, 1959Kn38.    
+#  1973Ta15: GELI; measured EG, IG, GG coin.                              
+#  1972Oh06: GE(LI), SI(LI), plastic, anthracene detectors;               
+#  measured EG, IG, CEK(267G), GG coin, 679G-267G(|q). See also 1972Oh03. 
+#  1971Ho15: GE(LI) and NAI detectors; measured EG, IG, GG coin.          
+#  1969Ar06: GELI; measured EG, IG, GG coin.                              
+#  1968Po06: GELI; measured EG, IG.                                       
+#  1959Kn38: B spectrometer, NAI; measured EB, EG,                        
+#  I(267CEK)/IB, IG/IB, GG coin.                                          
+#  A TOTAL ENERGY RELEASE OF 2896 39 IS CALCULATED FOR THIS DECAY SCHEME  
+#  USING THE ^RADLST CODE, IN GOOD AGREEMENT WITH Q=2895 10.              
+#B           B- spectrum measured by 1959Kn38.                            
+#G E,RI(A)   From 1973Ta15.                                               
+#G RI        Weighted average of data from 1973Ta15 and 1968Po06,         
+#G normalized so TI(276G)=1000 (assuming CC(267G)=0.025).                 
+#G E(B),RI(B)$From 1973Ta15; G not reported by other authors.             
+#G E(D),RI(D)$From 1971Ho15; G not reported by other authors.             
+#L E         FROM LEAST-SQUARESS FIT TO EG.                               
+#L J,T       From Adopted Levels.                                         
+#L E(B)      Observed by 1973Ta15 only.                                   
+#P      0.0    1/2-              10.18 H   8              2895      10    
+Y93 ZR93 beta- 2.895 36648.0 1.0
++G gamma 0.287 7.599999999999999E-4
++G gamma 0.3415 4.4840000000000006E-4
++G gamma 1.1847 1.976E-4
++G gamma 2.605 1.14E-4
++B beta- 1.2165 0.895
++B beta- 1.0895 0.049
++B beta- 0.7734 0.027000000000000003
++G gamma 0.6802 0.0066652
++G gamma 0.9471 0.021204
++B beta- 0.6724 5.0E-5
++B beta- 0.5572 0.0028000000000000004
++G gamma 1.1585 3.04E-4
++G gamma 1.4254 0.0024776
++B beta- 0.5461 0.0038
++G gamma 1.1835 4.864E-4
++G gamma 1.4505 0.0033136
++B beta- 0.5374 0.0015
++G gamma 1.2033 0.0010868
++G gamma 1.4701 6.612E-4
++B beta- 0.3481 6.5E-4
++G gamma 0.9622999999999999 1.216E-4
++G gamma 1.6427 5.244E-4
++B beta- 0.3443 3.0E-4
++G gamma 0.971 6.84E-5
++G gamma 1.6517 2.356E-4
++B beta- 0.2722 2.4E-4
++G gamma 1.8277999999999999 2.356E-4
++B beta- 0.2365 0.017
++G gamma 0.7143999999999999 1.748E-4
++G gamma 1.2374 2.964E-4
++G gamma 1.9178 0.015656
++G gamma 2.1846 0.0015883999999999998
++B beta- 0.1341 0.0026
++G gamma 0.273 7.22E-4
++G gamma 0.9877 1.064E-4
++G gamma 2.1908000000000003 0.0017100000000000001
++G gamma 2.4573 6.84E-5
++B beta- 0.12840000000000001 1.14E-4
++G gamma 2.4738 1.14E-4
+

@@ -1,0 +1,21 @@
+#240U     244PU A DECAY (8.11E+7 Y)     1969BE06                  08NDS    200810
+#  244PU A DECAY (8.11E+7 Y)     1969BE06                  08NDS    200810
+#H TYP=FUL$AUT=BALRAJ SINGH, E. BROWNE$CIT=NDS 109, 2439 (2008)$          
+#H CUT=31-Jul-2008$                                                       
+#  Half-life of {+244}Pu isotope is adopted here as 8.11E+7 Y 3.          
+#  In 2003Ak04 (^NDS for A=244), adopted value is 8.00E+7 Y 9             
+#  taken from 2000Ho27 and 1989Ho24 evaluations                           
+#  The data set is adapted from evaluation by 1998Ak04                    
+#  1969Be06: Measured E|a, I|a                                            
+#  Other: 1998Se17: Measured long-range |a particles                      
+#  The |a branching of {+244}Pu reported here as 99.879% {I4} has been    
+#  deduced from the total and the partial SF half-lives recommended by    
+#  2000Ho27: T{-1/2}(SF)=6.6|*10{+10} y {I2}. {+244}Pu is |b stable.      
+#A E,IA$As recommended by 1991Ry01 from measurements by 1969Be06          
+#A HF        r{-0}({+240}U)=1.5062 {I10} is calculated from               
+#A HF(4589|a)=1.0.                                                        
+#G E,TI,M$From the decay scheme                                           
+#L BAND(A)$ K=0+ GS BAND.                                                 
+#P 0.0            0+             8.11E+7 Y 3              4665.5    10    
+PU244 U240 alpha 4.6655 2.55926530368E15 1.0
+

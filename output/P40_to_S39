@@ -1,0 +1,13 @@
+# 39S     40P B-N DECAY (153 MS)        2001WI21,1989LE16         06NDS    200602
+#  40P B-N DECAY (153 MS)        2001WI21,1989LE16         06NDS    200602
+#H TYP=FUL$AUT=BALRAJ SINGH AND JOHN A. CAMERON$CIT=NDS 107, 225 (2006)$  
+#H CUT=20-Nov-2005$                                                       
+#  2001WI21: MEASURED G, GG, %B-N, T1/2                                   
+#  1989LE16: MEASURED T1/2, %B-N                                          
+#  %|b{+-}n=15.8 {I21} (2001Wi21). Other: 30 {I10} (1989Le16)             
+#G E,RI$ FROM 2001WI21; INTENSITIES ARE RELATIVE TO 100                   
+#G FOR 903.68G FROM 40P TO 40S DECAY                                      
+#G E(A)$ IN COIN WITH 465.45G. G ALSO SEEN IN 39P DECAY                   
+#P 0            (2-,3-)          153 MS    8              6.98E3    15    
+P40 S39 neutron&beta- 6.98 0.153 1.0
+

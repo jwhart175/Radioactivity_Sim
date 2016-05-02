@@ -1,0 +1,125 @@
+#162ER    162TM EC DECAY (21.70 M)      1974DE47,1982BY03         07NDS    200708
+#  162TM EC DECAY (21.70 M)      1974DE47,1982BY03         07NDS    200708
+#H TYP=FUL$AUT=C. W. Reich$CIT=NDS 108,1807 (2007)$CUT=1-Mar-2007$        
+#  DATA SET UPDATED (DECEMBER, 2005) BY CW REICH TO INCLUDE THE T VALUE   
+#   FOR THE FIRST 2+ LEVEL AND RELATED COMMENTS AND DATA FROM 2002Ca35    
+#   ON THE DECAY OF THE 1171, 2+ LEVELS AND THE 1420 LEVEL. SOME MULTS    
+#   WERE ALSO REVISED AS A RESULT OF THIS.                                
+#  Data are from 1974De47, unless otherwise noted. Others: 1975St12 has   
+#  an extensive list of EG, RI values; 1960Wi17, 1963Ab02, 1965Ab05,      
+#  1971Ch30, and 1987BaZB have small sets of data; also 1974AbZW and      
+#  1974StYQ. The EC+B+ feeding distribution has been determined by        
+#  1982By03 from the total absorption G-ray spectrum. 2002Ca35 MEASURE    
+#  EG AND RI VALUES FOR G'S DEEXCITING THE 1171 AND 1420 LEVELS AND       
+#  REPORT REVISED G BRANCHING FROM THEM AND A DIFFERENT JPI VALUE FOR     
+#  THE LATTER LEVEL.                                                      
+#  Experimental methods:                                                  
+#  1960Wi17: Produced by 162ER(P,N) reaction on enriched (14.1%) target   
+#       with E(P) = 6 MeV.  G's measured on NaI spectrometer.  Report     
+#       2 G's, but wrong (77 M) half-life.                                
+#  1963Ab02: Produced by spallation of Ta target with 660-MeV protons. CE 
+#       measured in magnetic spectrograph.  Report 1 G and T1/2.          
+#  1965Ab05: Produced by spallation with 660-MeV protons.  CE reported    
+#       for 2 G's.                                                        
+#  1969Pa16:       Report T1/2.                                           
+#  1971Ch30: Produced by 165HO(3HE,6N) reaction with E(3HE) = 59 MeV with 
+#       and without isotope separation.  G's measured with Ge detectors.  
+#       Report half-life and data for 8 G's, 511, and K x ray.            
+#  1974AbZW: Produced by spallation of Ta target with chemical separation 
+#       with and without isotope separation.  G singles and GG            
+#       coincidences measured with Ge detector.  CE measured in magnetic  
+#       spectrographs.  GB+ coincidences measured with NaI and Si(Li)     
+#       detectors.  Parts of microfisch not readable.                     
+#  1974De47: Produced by 165HO(3HE,6N) with E(3HE) = 60 MeV, 166ER(P,5N)  
+#       on enriched (94.9%) target with E(P) = 52 MeV, and 164(P,3N) on   
+#       enriched (73.6%) target with E(P) = 35 MeV.                       
+#       G singles and GG coincidences measured with Ge detectors.  CE     
+#       spectra measured with Si(Li) detector in magnetic solenoid.       
+#       GB+ coincidences were mwasured.  Report 315 G's.                  
+#  1974DeZF:      Report T1/2.                                            
+#  1974StYQ: Lab report, see 1975St12 for published version.              
+#  1975St12: Produced by spallation of Ta target with 660-MeV protons with
+#       chemical separation with and without isotope separation.  G       
+#       singles and GG coincidences measured with Ge detectors.  CE       
+#       spectra were measured in magnetic spectrographs and B+ spectra    
+#       Si(Li) detectors.  Report data for AP 142 G's, 511, and K x ray.  
+#  1982By03: Produced by spallation of Ta target with protons.  Used total
+#       absorption G spectrometer made of 3 NaI(Tl) detectors with Si(Li) 
+#       used to get B+ coincidence requirement.  I(EC+B+) vs level energy 
+#       deduced.                                                          
+#  1987BaZB: CE spectra measured for 1 G.                                 
+#  2002Ca35: STUDIED THE DECAY OF THE 162TM GS, FROM THE DECAY OF 162YB,  
+#       PRODUCED IN A RADIOACTIVE BEAM FACILITY. MEASURE, ON-LINE, EG,    
+#       RI, GG COIN, USING TWO LARGE-VOLUME COAXIAL Ge DETECTORS.         
+#E E         The measured B+ energies are from 1963Ab02, 1974De47, and    
+#E 1975St12. From 1963Ab02, E(B+)=3820 50 for the singles endpoint, which 
+#E is probably influenced by the branches to the levels at 0 and 102 keV  
+#E and corresponds to Q+ AP 4890. From 1974De47, E(B+)=2075 150 and       
+#E 2115 80 for the branch to 1573 level. (These two gating G peaks are    
+#E doublets, but the corrections should be small.) This corresponds to    
+#E Q+=4705 70. From 1975St12, E(B+)=3500 300 for the branch to the 102    
+#E level, which corresponds to Q+=4600 300.                               
+#E IB        From measurements of 1974De47.                               
+#E TI        From measured IB+ and theoretical B+/capture ratios. As      
+#E noted by 1974De47, the I(EC+B+) values computed from G-intensity       
+#E balances are inaccurate. This is due to the fact that the unplaced     
+#E G's have a total intensity of 13% and that there may be many           
+#E unobserved G's underlying the observed peaks and Compton distribution. 
+#E This argument is supported by the total-absorption G measurements of   
+#E 1982By03, as indicated in the next comment. The data of 1974De47 and   
+#E 1982By03, together with the G-intensity balances, are compared in the  
+#E following comment and comments associated with some individual levels. 
+#E TI        The total-absorption G measurements of 1982By03 give the     
+#E following results (the energies of the associated levels are the       
+#E evaluator's interpretation): 4% feeding of ground state and 102        
+#E level (compared to 4 to 6.5% in this scheme and 31% from               
+#E G-intensity balances); 10% feeding for levels between 0.9 and          
+#E 2 MeV (compared to AP 11.5% given in this scheme and 45% from          
+#E from G-intensity balances); 32% feeding for levels from 2 to 3         
+#E MeV (compared to 0% shown in this scheme and 10% from G-intensity      
+#E balances); 50% feeding from 3 to 4 MeV (compared to 0% shown in        
+#E this scheme and 12% from G-intensity balances); and 4% feeding         
+#E above 4 MeV (compared to 0% since there are no levels in this          
+#E scheme in this region).                                                
+#G           Data are from 1974De47, unless otherwise noted. Others:      
+#G 1975St12 has an extensive list of EG, RI values; 1960Wi17, 1963Ab02,   
+#G 1965Ab05, 1971Ch30, and 1987BaZB have small sets of data; also         
+#G 1974AbZW and 1974StYQ.                                                 
+#G RI        RI(XKA1)=670 100 (1974De47). Others: RI(XKA1)=690 48         
+#G (1971Ch30) and RI(XK)=1460 (1975St12) which corresponds to             
+#G RI(XKA1)=744. Also 1960Wi17.                                           
+#G RI        For the annihilation radiation, RI(511)=206 20 (1974De47).   
+#G Others: RI(511)=178 17 (1971Ch30) and 203 29 (1975St12).               
+#G E(X),RI(X)$VALUES FROM 2002Ca35.                                       
+#G RI        Pairs of G's at 570 (RI=29.5), 672 (RI=97.4 29), 798         
+#G (RI=129 4), 900 (RI=165 5), 1027 (RI=13.0 8), and 1170                 
+#G (RI=12.8 13) are unresolved in the G singles, but their                
+#G individual intensities are deduced (1974De47) from coincidence data.   
+#G 2002Ca35, HOWEVER, CONCLUDE THAT THIS LATTER PEAK IS A SINGLE          
+#G TRANSITION, WHICH LEADS TO SIGNIFICANT REVISIONS IN THE LEVEL SCHEME   
+#G AND ITS INTERPRETATION.                                                
+#G M         From 162ER Adopted G radiations and based on data of         
+#G 1963Ab02, 1965Ab05, 1974De47, 1975St12, and 1987BaZB; or they are      
+#G deduced from the assigned JPI and are shown in square brackets.        
+#G TI        Computed by evaluator from relative CEK values (1974De47).   
+#L E         COMPUTED FROM A LEAST-SQUARES FIT TO THE LISTED EG VALUES.   
+#L J         JPI and band assignments are from the adopted values.        
+#L BAND(A)   KPI=0+ ground-state band                                     
+#L BAND(B)   KPI=2+ G-vibrational band                                    
+#L BAND(C)   FIRST EXCITED KPI=0+ BAND. POSSIBLE B-VIBRATIONAL BAND,      
+#L  AS SUGGESTED BY 2002Ca35.                                             
+#L BAND(D)   KPI=0- octupole-vibrational band                             
+#L BAND(F)   KPI=1- octupole-vibrational band                             
+#P    0         1-                21.70 M  19              4859     26    
++B beta+ 7.993E-4 0.00153
++B beta+ 1.734 0.0028000000000000004
++B beta+ 1.687 0.003
++B beta+ 1.319 0.0044
++B beta+ 1.264 0.0064
++B beta+ 1.114 9.0E-4
++B beta+ 1.083 0.0076
++B beta+ 1.044 0.002
++B beta+ 1.014 0.024
++B beta+ 0.025 0.13
++B beta+ 8.274E-4 0.00132
+

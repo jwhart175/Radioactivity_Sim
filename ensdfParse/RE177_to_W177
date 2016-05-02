@@ -1,0 +1,38 @@
+#177W     177RE EC DECAY                1975HA32,1975EL07,1970GO2003NDS    200305
+#  177RE EC DECAY                1975HA32,1975EL07,1970GO2003NDS    200305
+#H TYP=FUL$AUT=F.G. KONDEV$CIT=NDS 98, 801 (2003)$CUT=1-Aug-2002$         
+#  Others: 1968Be43, 1970Ar15                                             
+#L E$From least-squares fit to the gamma-ray energies.                    
+#L J,T$From adopted levels, unless otherwise specified.                   
+#L E(D)$From 1975Ha32 and 1975El07.                                       
+#L E(A)$NU 1/2[521] (p{-3/2}).                                            
+#L E(B)$NU 5/2[512] (h{-9/2}).                                            
+#L E(C)$NU 7/2[633] (i{-13/2}).                                           
+#L E(E)$NU 7/2[514] (f{-7/2}).                                            
+#G E,RI$From 1970Go20, unless otherwise specified.                        
+#G E(X)$From 1975Ha32 and 1975El07.                                       
+#G M,E(Y)$From adopted gammas, except as noted.                           
+#G MR$Deduced from ECC (1975El07), unless otherwise specified.            
+#P 0.0          5/2-             14 M       1             3400      SY    
+RE177 W177 beta+ 3.4 840.0 1.0
++G gamma 0.0761 0.025500000000000002
++G gamma 0.125 0.0085
++G gamma 0.6002000000000001 0.017
++G gamma 1.1184 0.012750000000000001
++G gamma 1.1965 0.012750000000000001
++G gamma 1.5517 0.00595
++G gamma 1.7705 0.022099999999999998
++G gamma 1.8611 0.0076500000000000005
++G gamma 1.8860999999999999 0.0076500000000000005
++G gamma 1.9112 0.012750000000000001
++G gamma 1.9449 0.0068000000000000005
++G gamma 1.9646 0.029750000000000002
++G gamma 1.9861 0.0102
++G gamma 0.0798 0.07225000000000001
++G gamma 0.09559999999999999 0.0391
++G gamma 0.0339 0.004165
++G gamma 0.0842 0.06375000000000001
++G gamma 0.2099 0.028050000000000002
++G gamma 0.7081000000000001 0.025500000000000002
++G gamma 0.7233999999999999 0.02125
+

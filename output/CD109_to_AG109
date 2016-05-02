@@ -1,0 +1,111 @@
+#109AG    109CD EC DECAY                                          06NDS    200602
+#  109CD EC DECAY                                          06NDS    200602
+#H TYP=FUL$AUT=JEAN BLACHOT$CIT=NDS 107, 355 (2006)$CUT=1-Aug-2005$       
+#  Decay data was adopted for ENSDF by J. Blachot in January              
+#  1999 in collaboration with E. Schonfeld. This                          
+#  evaluation was done under the collaboration which includes             
+#  evaluators from Laboratoire Primaire des Rayonnments Ionisants         
+#  (LPRI) in France; Physikalisch-Technische Bundesanstalt (PTB)          
+#  in Germany; Imperial College in the United Kingdom; and Brookhaven     
+#  National Laboratory (BNL), Lawrence Berkeley National                  
+#  Laboratory (LBNL), and Idaho National Engineering Laboratory           
+#  (INEL) in the United States. This evaluation was reviewed              
+#  and accepted by evaluators in this collaboration.                      
+#  The main transition in the decay of {+109}Cd is the allowed |e         
+#  transition 0.1 to the 88-keV level in {+109}Ag. If there is an         
+#  |e branch to the ground state of {+109}Ag, it would have |DJ=2 with    
+#  no change of parity, so it would be 2nd                                
+#  forbidden. From the paper of 1973Ra10 it is then expected              
+#  to have a log| {Ift} greater than 11.0 and this                        
+#  corresponds to an |e branch of less than 0.005%.                       
+#  Below the decay energy of {+109}Cd there is, beside the 88-keV level in
+#  {+109}Ag, a level at { 132.74 {i11}} (9/2+ or 7/2+),                   
+#  2.60 {i12} ns. This level has been observed in the decay of {+109}Pd   
+#  but not in the decay of {+109}Cd. This level is much more              
+#  of a problem. If it has J=7/2+, the decay to it would be allowed;      
+#  then if the log| {Ift} were the same as that to the 88-keV             
+#  level. The branch to it would be about 30% or smaller. Since the       
+#  total conversion coefficient of the resulting                          
+#  44-keV gamma would be much less than that of the 88-keV gamma. The     
+#  44-keV photons should be observed along                                
+#  with the conversion electrons. If the 132-keV level has J=9/2+,        
+#  the |e branch is 2nd forbidden with an expected                        
+#  log| {Ift} greater than 11.0 and an emission probability of less than  
+#  0.0003%. This assignment is more probable than the                     
+#  first assumption as up to now no 44-keV transition has been observed.  
+#  Ilakovac et al. (1988Il01) searched for Double Photon Decay of the     
+#  {+109}Ag metastable state at 88 keV and found an experimental upper    
+#  limit of the relative transition probability I(GG)/I(G) LT 6E-7        
+#  using a pair of Ge detectors and a fast-slow coincidence system.       
+#  The total average radiation energy released by {+109}Cd is 210.7 keV   
+#  {i20} (calculated by evaluators using the computer program RADLST).    
+#  This value agrees well with Q(|e)={ 214.2 keV {i29}} (2003Au03) and    
+#  confirms the quality of the decay scheme.                              
+#G           There have been many precise measurements of the decay of    
+#G {+109}Cd to the 88.032 level of {+109}Ag. Tabulated below are the      
+#G measured quantities.                                                   
+#G                                                                        
+#G                E|g                                                     
+#G              ------                                                    
+#G              { 88.008  {I42}}  1966Fr12                                
+#G              { 88.035  {I6}}   1967DiZZ                                
+#G              { 88.033  {I30}}  1967Pi05                                
+#G              { 88.041  {I87}}  1967Sc22                                
+#G              88.09   3   1968Fo03                                      
+#G              88.21   3   1968Fu05                                      
+#G              { 88.036  {I8}}   1970Gr13                                
+#G              { 88.035  {I6}}   1970Ra37                                
+#G              { 88.023  {I8}}   1976Dr07                                
+#G              { 88.0341 {I11}}  1978He21                                
+#G              { 88.035  {I4}}   1978Mo22                                
+#G              { 88.0336 {I1}}   1997HeZZ  (Evaluation)  Adopted         
+#G                                                                        
+#G           For other measurements see: 1947Br05, 1950Co60, 1954Mo38,    
+#G 1954Wa15, 1966En05, 1967Li10, 1968Ea01                                 
+#G                                                                        
+#G              |a(K)exp     |a(exp)                                      
+#G              ------     -------                                        
+#G              { 11.0 {I3}}     { 24.7 {I5}}     1965Le06                
+#G              { 11.3 {I4}}     { 24.2 {I14}}    1965Se08                
+#G              { 12.7 {I9}}                1968Fo03                      
+#G                         { 25.4 {I5}}     1973Le29                      
+#G              { 11.4 {I3}}     { 26.4 {I4}}     1976Dr07                
+#G              { 11.4 {I3}}     { 26.4 {I3}}     1979Pl04                
+#G              11.6       26.7       E3 theory (1968Ha52)                
+#G              39.9      751.8       M4 theory (1968Ha52)                
+#G                                                                        
+#G               K/L       M/L        N/L       L1/L2    L3/L2            
+#G              ------    --------  ---------   ------  ------            
+#G              0.93 {I3}    0.195 {I7}    0.031 {I16}   0.11 {I3}  1.12  
+#G              0.94 {I3}    0.23  {I3}   (M+N/L)                         
+#G              1.18 {I3}    0.208 {I15}   0.05 {I1}     0.25 {I4}  0.98  
+#G              0.94 {I3}    0.171 {I10}  (M+N/L)                         
+#G              0.95 {I3}    0.20 {I5}                                    
+#G              0.95      0.20       0.036(N+0) 0.17    1.16   E3 theory  
+#G  (1968Ha52)                                                            
+#G                                                                        
+#G           Other ce measurements: 1947Br05, 1953Br73, 1954Wa15, 1957Wa05
+#G .                                                                      
+#G                                                                        
+#G               |eL/|eK     |eL+/|eK    |eM+/|eL      |eM/|eL            
+#G                          -------    -------   -------     ------       
+#G              0.195 {I5}    0.228 {I3}   0.17 {I5}      1965Le06        
+#G              { 0.232 {I15}}             { 0.205 {I20}}    1965Mo06     
+#G              0.193 {I3}    0.226 {I3}   0.17 {I4}      1968GoZY,       
+#G              0.186 {I8}              0.260 {I15}    theory (1968Ha52)  
+#G                                                                        
+#G               K| x ray/|g(88.032)                                      
+#G               -----------------                                        
+#G              { 27.0 {I3}}     1976Dr07                                 
+#G              { 25.6 {I9}}     1972Ca16                                 
+#G              { 29.0 {I10}}    1966En05                                 
+#G              { 26.2 {I6}}     1965Le06                                 
+#G              { 23.8 {I7}}     1957Wa05                                 
+#G              { 27.3 {I3}}     1982HoZF                                 
+#G                                                                        
+#G           Other |e measurements: 1953De26, 1954Be41, 1954Wa15,         
+#G 1957Wa05, 1965Mo06, 1966Du01, 1969Fi05.                                
+#P 0.0         5/2+              461.4 D   12             214.3     20    
+CD109 AG109 beta+ 0.21430000000000002 3.986495999999999E7 1.0
++G gamma 0.0880336 0.037000000000000005
+

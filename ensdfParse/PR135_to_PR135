@@ -1,0 +1,19 @@
+#135PR    135PR IT DECAY (105 US)       1973CO32                  08NDS    200803
+#  135PR IT DECAY (105 US)       1973CO32                  08NDS    200803
+#H TYP=FUL$AUT=BALRAJ SINGH, ALEXANDER A. RODIONOV and YURI L. KHAZOV$    
+#H CIT=NDS 109, 517 (2008)$CUT=22-Jan-2008$                               
+#  1973CO32: ISOMER PRODUCED IN REACTION 127I(12C,4NG) AT 88 MEV.         
+#  Measured EG, IG, G(T), I(X RAY)                                        
+#  This isomer is also populated in {+135}Nd |e decay and in in-beam      
+#  |g-ray studies which provide better branching ratios given in          
+#  'adopted levels, gammas'.                                              
+#  Intensity balances at 245.3 and 41.5 levels are poor which implies     
+#  that |g-ray intensities are not known well in this study.              
+#  Total decay energy of 375 KEV 25 calculated (by ^RADLIST code) from    
+#  level scheme is in agreement with the expected value of 358 KEV.       
+#G M,MR$ FROM 'ADOPTED GAMMAS', UNLESS OTHERWISE STATED                   
+#G $ I(K{-|a} x ray)=530 {I106} relative to 220 for 41.5|g                
+#L J$From 'adopted levels'                                                
+#P 357.6     5 (11/2-)            105 US   10                             
++G gamma 0.0415 0.28371999999999997
+

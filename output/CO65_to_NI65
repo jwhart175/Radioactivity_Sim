@@ -1,0 +1,24 @@
+# 65NI    65CO B- DECAY                 2009PA16                  10NDS    201009
+#  65CO B- DECAY                 2009PA16                  10NDS    201009
+#H TYP=FUL$AUT=E. BROWNE, J. K. TULI$CIT=NDS 111, 2425 (2010)$            
+#H CUT=1-Aug-2009$                                                        
+#  Compiled (unevaluated) dataset from 2009Pa16.                          
+#  Phys Rev C 79, 044309 (2009)                                           
+#  Compiled by B. Karamy and B. Singh (McMaster), May 12, 2009            
+#  Modified by E. Browne (Sept. 2009).                                    
+#  Experiment performed at LISOL facility. Measured E|g, I|g, |g|g,       
+#  |b|g and |b|g|g coin using MINIBALL |g-detector array and three thin   
+#  plastic |b detectors. {+65}Co isotope produced in the reaction         
+#  {+238}U(p,F) with a proton energy of 30 MeV, followed by selection     
+#  of {+67}Fe fragments using resonant laser ionization together with     
+#  mass separation                                                        
+#B IB,LOGFT$ All |b feedings are upper limits and associated log| {Ift}   
+#B values are lower limits due to possibly missed |g ray. (This is always 
+#B TRUE!!. EB).                                                           
+#G RI$ Values given in comments from {+65}Fe-->{+65}Co-->{+65}Ni decay    
+#G chain are relative to 100 for 882.5|g in {+65}Fe decay to {+65}Co      
+#L E$ From least-squares fit to G-ray energies.                           
+#P 0           (7/2)-            1.16 S    3              5956      13    
+CO65 NI65 beta- 5.956 1.16 0.029
++G gamma 0.0634 0.15
+

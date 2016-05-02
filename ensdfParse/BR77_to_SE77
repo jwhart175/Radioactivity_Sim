@@ -1,0 +1,50 @@
+# 77SE    77BR EC DECAY (57.04 H)       1974BR10                  12NDS    201206
+#  77BR EC DECAY (57.04 H)       1974BR10                  12NDS    201206
+#H TYP=FUL$AUT=BALRAJ SINGH, NINEL NICA$CIT=NDS 113, 1115 (2012)$         
+#H CUT=30-Mar-2012$                                                       
+#  Measured G, GG and GG(THETA)                                           
+#  Others: 2012Ba12, 1992Hu10, 1984Za08, 1975Wa28, 1975DzZV, 1970Dz10,    
+#  1969Sa05, 1967Ar06, 1964En01, 1963Mo20, 1954Se51, 1951Ca28, 1948Wo08   
+#  Measured |b end-point energy=336 KEV (1951Ca28), 361 KEV 4 (1963Ku06)  
+#  K-capture probability: 1991BeZY (also 1989BeYY)                        
+#  CE data: 1975DzZV                                                      
+#  GG(THETA): 1974Br10, 1984Za08, 1964En01, 1963Mo20                      
+#  GG(THETA,H,T): 1988Ra04, 1988Mo16                                      
+#  ^NMR on oriented 77BR: 1993Oh09, 1992Pr06, 1992Gr20, 1988Gr26          
+#  EC/B+ measurement: 1954Se51                                            
+#  B: 1963Ku06, 1951Ca28, 1948Wo08                                        
+#  Total decay energy of 1365 keV {I19} deduced (by RADLIST code) from    
+#  proposed decay scheme is in agreement with the expected value of       
+#  1365 keV {I3}, indicating that decay scheme is well established        
+#E TI$ From I(G+-)/IG(239G)=0.0635 20 (1969Sa05), EC/B+=59.7 (1971Go40)   
+#E for GS and |g-ray intensity balance at each level                      
+#G           Total conversion coefficients measured in ce data of 1975DzZV
+#G are based on normalization to theoretical conversion coefficient of    
+#G 1.205 for E3 mutipolarity of 161.83|g. But value obtained for this     
+#G transition from BrIcc code is 0.884. Thus all conversion coefficients  
+#G listed in this dataset from 1975DzZV have been multiplied by a factor  
+#G of 0.7336                                                              
+#G           The A2 and A4 coefficients quoted by 1974Br10 have been      
+#G corrected (by evaluators) for solid angle and perturbation effects     
+#G (due to long half-life of 250 level)                                   
+#G M,MR$From ^Adopted ^Gammas and GG(THETA) data, unless otherwise stated 
+#G M(B),MR(B)$From CE data in 76SE(N,G)                                   
+#L J$From Adopted Levels                                                  
+#P    0         3/2-             57.04 H   12             1364.7    28    
+BR77 SE77 beta+ 1.3647 205344.0 1.0
++B beta+ 0.1517 0.0073
++G gamma 0.0134 6.93E-5
++B beta+ 8.763E-4 0.0010334
++B beta+ 0.0497 0.00878
++B beta+ 8.788E-4 0.001013
++B beta+ 8.787E-4 0.0010140000000000001
++B beta+ 8.784E-4 0.001017
++B beta+ 8.781E-4 0.001019
++B beta+ 8.779E-4 0.001021
++B beta+ 8.774E-4 0.0010245
++B beta+ 8.764999999999999E-4 0.001032
++B beta+ 8.764999999999999E-4 0.0010325
++B beta+ 8.756E-4 0.0010398
++B beta+ 8.740999999999999E-4 0.0010517
++B beta+ 8.665000000000001E-4 0.00111
+

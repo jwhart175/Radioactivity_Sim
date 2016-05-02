@@ -1,0 +1,73 @@
+#158HO    158ER EC DECAY                1977ANYX,1982VY06,1996GO0604NDS    200403
+#  158ER EC DECAY                1977ANYX,1982VY06,1996GO0604NDS    200403
+#H TYP=ERR$AUT=J. Tuli$DAT=15-Nov-2007$COM=fixed typos based on PNPI rpt  
+#H TYP=FUL$AUT=R. G. Helmer$CIT=NDS 101, 325 (2004)$CUT=1-Oct-2003$       
+#  The decay scheme is that of 1982Vy06 with changes from 1996Go06 to     
+#       incorporate the 7.7-keV |g; the coincidence data of 1982Vy06      
+#       indicate that several levels proposed by 1972Ha41, and repeated   
+#       by 1977AnYX, do not exist.                                        
+#  This decay scheme is not well established.  Even the decay energy is   
+#       in dispute with the mass evaluation giving 900 keV {I100}         
+#       (1995Au04) and reports of |b+ decay to excited levels giving      
+#       the decay energy of |? 1700 keV (1961Bo24, 1977KaYG, 1982Vy06).   
+#       Also, 1977AnYX assigns several |g's with energies above 1000      
+#       keV to this decay.  The lower decay energy has been adopted       
+#       here.                                                             
+#  Primary references are 1977AnYX, 1982Vy06 (which is a summary          
+#       of previous work at this laboratory), 1996Go06, and 1998KaZV;     
+#       other measurements include 1981BuZJ, 1978Sc10, 1977KaYG,          
+#       1977AnZG, 1975Ru02 (1974RuZX, 1973RuZO), 1975Gr44, 1975BuZQ,      
+#       1975AlYQ, 1972Ha41 (1970HaZG, 1970HaZG), 1971TrZQ, 1968Ab04,      
+#       1968Ab18, 1965St08, 1961Gr25, 1961Bo24, and 1960Dn01.             
+#  Sources produced by spallation of Ta with 660-MeV p, Ho(p,xn),         
+#       {+160}Dy(|a,6n), {+150}Sm({+12}C,4n), and {+151}Eu({+11}B,4n)     
+#       reactions often followed by chemical and/or mass separation.      
+#       Measurements include E{-|g}, I{-|g}, I{-ce}, and |g-ce            
+#       coincidences.                                                     
+#E           The I{-|ec+b+} values have been computed from the            
+#E      |g-intensity balances at each level assuming that there is        
+#E      negligible |e+|b+ decay to the levels at 0 and 67 keV, as         
+#E      expected from J|p considerations.                                 
+#E TI        From |g-intensity balances at each level and assuming zero   
+#E      |e branching to the levels at 0, 67, and 74 keV.  Of these        
+#E      three, the fastest should the unique 1st forbidden transition     
+#E      to the 67-keV level with a log {If{+1u}t} > 8.5 and a             
+#E      corresponding |e intensity of < 0.06%.                            
+#G E         From 1998KaZV, unless otherwise noted.                       
+#G E         The |g-ray energies are very inconsistent or their           
+#G      uncertainties are grossly under estimated; there are 11           
+#G      cases where the |g-ray energy differs from the                    
+#G      level energy difference by more than 5 times                      
+#G      the uncertainty in the |g energy uncertainty.                     
+#G E         For the decay energy of 900 keV adopted here, the following  
+#G      |g's from 1977AnYX can not occur in this decay: 1025.2, 1071.4,   
+#G      1082.5, 1143.2, 1222.9, 1645.0, 1715.5, and 1720.0 keV.           
+#G RI        The values are determined from the consideration of the      
+#G      values reported by 1977AnYX, 1982Vy06, and 1998KaZV; below 60     
+#G      keV the values of 1977AnYX are considerably lower than those of   
+#G      the other two papers and are not used.  Other set of data are     
+#G      given by 1965St08, 1968Ab14, 1971TrZQ, and 1972Ha41.              
+#G M         From I{-ce} and I{-|g} data of 1977AnYX and 1982Vy06 and     
+#G      ce data of 1972Ha41, unless otherwise noted.                      
+#G MR        From 1972Ha41 and 1982Vy06.                                  
+#G E(R)      From 1977AnYX and 1982Vy06.                                  
+#G E(S),RI(S)$From 1977AnYX only.                                         
+#G E(T),RI(T)$From 1982Vy06 only.                                         
+#G E(U),RI(U)$From 1998KaZV only.                                         
+#L           See 1981BuZJ for ce-|g coincidence results.                  
+#L E         From least-squares fit to |g energies.                       
+#L J         From {+158}Ho Adopted Levels where the configurations are    
+#L      also discussed.                                                   
+#L T         From the |e decay only, see {+158}Ho Adopted Levels for      
+#L      any other values.                                                 
+#P 0.0          0+               2.29 H    6               9.0E+2   10    
++G gamma 0.07190300000000001 0.1065
++G gamma 0.19541999999999998 0.0142
++G gamma 0.31082 0.017750000000000002
++G gamma 0.35824 0.019525
++G gamma 0.29607 0.007952
++G gamma 0.34158 0.010295
++G gamma 0.38682 0.07455
++G gamma 0.47242 0.007881
++G gamma 0.51586 0.008165
+

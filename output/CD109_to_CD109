@@ -1,0 +1,21 @@
+#109CD    109CD IT DECAY (12 US)                                  06NDS    200602
+#  109CD IT DECAY (12 US)                                  06NDS    200602
+#H TYP=FUL$AUT=JEAN BLACHOT$CIT=NDS 107, 355 (2006)$CUT=1-Aug-2005$       
+#L J,T$From adopted levels                                                
+#P 59.9      5 1/2+              12 US     2                              
+CD109 CD109 IT 0.0 1.2E-5 1.0
++G gamma 0.0599 0.095
+
+#109CD    109CD IT DECAY (10.9 US)                                06NDS    200602
+#  109CD IT DECAY (10.9 US)                                06NDS    200602
+#H TYP=FUL$AUT=JEAN BLACHOT$CIT=NDS 107, 355 (2006)$CUT=1-Aug-2005$       
+#G E(A)      From 1970Ri06                                                
+#G E(B)      From 1969Be37                                                
+#G RI        From 1966Mc06 and 1964Br27.                                  
+#G E         Other E|g measurements: 1969Iv02, 1966Mc06.                  
+#L J$From adopted levels                                                  
+#P 463.0      3 11/2-             10.9 US   5                             
+CD109 CD109 IT 0.0 0.0 1.0
++G gamma 0.2035 0.938
++G gamma 0.2595 0.855
+

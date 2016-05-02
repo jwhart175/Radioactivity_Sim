@@ -1,0 +1,131 @@
+#166ER    166HO B- DECAY (26.824 H)                               08NDS    200804
+#  166HO B- DECAY (26.824 H)                               08NDS    200804
+#H TYP=FUL$AUT=CORAL M. BAGLIN$CIT=NDS 109, 1103 (2008)$CUT=1-Mar-2008$   
+#B $  EB-(g.s.)          IB-    References                                
+#B ---------         ------ ------------                                  
+#B  1854 5                   1955GR07                                     
+#B  1859 3            49     1963FU17                                     
+#B  1857 3            52     1966DA04                                     
+#B  1854.7 15         51 2   1974GR41                                     
+#B  1845 2            52     1976RA32                                     
+#B                                                                        
+#B  EB- (80.5 level)  IB-    References                                   
+#B  ---------------- ------ ------------                                  
+#B  1771 7            48 4   1955GR07                                     
+#B  1779 5            49     1963FU17                                     
+#B  1776 4            47 3   1966DA04                                     
+#B  1776 8                   1966BE12                                     
+#B  1776 5            48 2   1974GR41                                     
+#B  1771 2            47.5   1976RA32                                     
+#B  1773.1 14                weighted ave.                                
+#B                                                                        
+#B           For measurements of other low energy BETA- groups,           
+#B see 1963FU17, 1966DA04, 1966BE12, 1958CO76,                            
+#B 1976RA32. Other measurements: 1949GR01, 1950AN12, 1950SI20, 1954SU12,  
+#B 1958CO76.                                                              
+#B           B- G(|q): (1773.1BETA-)(80.574G) cascade is consistent       
+#B with 0-,2+,0+ (1955GR07,1965MA39,1968ME17). Other measurements:        
+#B 1961DE34, 1963GR36, 1964GR33.                                          
+#B IB        From the intensity balance.                                  
+#B E(A)      From 1974GR41.                                               
+#G $X-RAYS: (RI relative to IG(1379.3G)=100 (1989CH45)).                  
+#G                                                                        
+#G               INTENSITY          Designation                           
+#G            -----------------------------------                         
+#G                 13.3 3             XL1                                 
+#G                 359 13             XLA                                 
+#G                 381 13             XLB                                 
+#G                 59 3               XLG                                 
+#G                 346 11             XKA2                                
+#G                 613 22             XKA1                                
+#G                 194 8              XKB1P                               
+#G                 47 2               XKB2P                               
+#G                                                                        
+#G                                                                        
+#G ${U Summary of G intensity data relative to I(1379G)=100:}             
+#G                                                                        
+#G Reference     80.6G    184.4G #  521.0G    674.2G # 705.4G #  785.9G   
+#G ---------     -------  --------  -------   -------- --------  -------  
+#G 1962CL03      730 50   -         -         3.0 5    2.0 5     1.0 5    
+#G 1967BU14      667 43   -         -         3.23 22  2.04 32   1.61 32  
+#G 1970RE16      -        0.22 5    -         2.15 22  1.61 22   1.40 22  
+#G 1976RA32      704 32   -         -         3.44 22  2.26 11   1.2 5    
+#G 1977AL27      672 65   0.129 30  0.032 11  1.76 9   1.37 6    1.25 6   
+#G 1980VYZZ      -        -         -         1.95 10  1.40 8    1.37 12  
+#G 1989CH45      722 8    0.23 1    0.05 2    2.3 1    1.7 1     1.4 1    
+#G 1992AR06      656 32   0.097 11  0.0376 43 2.011 32 1.441 22  1.280 22 
+#G 1995GI10      -        -         -         2.4 3    -         -        
+#G Recommended e 712 10   0.17 4    0.037 4   2.07 10  1.49 8    1.286 23 
+#G                                                                        
+#G Reference     1263.0G   1379.4G   1447.5G  1528.2G   1581.8G  1662.4G  
+#G ---------     -------   --------  -------  -------   -------  -------  
+#G 1962CL03      -         100       -        -         19 3     13 3 @   
+#G 1967BU14      -         100       -        -         20.6 10  12.9 7   
+#G 1970RE16      -         100 5     -        -         19.5 10  12.5 6   
+#G 1976RA32      -         100       -        -         21.5 11@ 9.9 4 @  
+#G 1977AL27      0.151 22  100.0 11  0.105 11 0.022     19.7 6   13.0 4   
+#G 1980VYZZ      -         100       -        -         20.3 11  13.2 8   
+#G 1981SE09      -         100       -        -         -        -        
+#G 1989CH45      0.17 1    100 1     0.12 1   -         19.9 4   12.7 3   
+#G 1992AR06      0.161 32  100.0 11  0.14 5   0.0097 11 19.68 22 13.01 11 
+#G 1995GI10      -         100       -        -         -        -        
+#G Recommended e 0.166 9   100.0     0.114 7  0.0097 11 19.79 22 12.92 14 
+#G                                                                        
+#G Reference     1732.0G  1749.8G    1812.8G    1830.5G                   
+#G ---------     -------  ---------  -------    -------                   
+#G 1962CL03      -         3.0 5     -          1.0 3 @                   
+#G 1967BU14      -         3.33 11 @ -          1.00 8 @                  
+#G 1970RE16      -         2.69 22   -          0.86 11                   
+#G 1976RA32      -         3.01 18   -          0.81 54                   
+#G 1977AL27      -         2.80 22   -          0.89 5                    
+#G 1980VYZZ      -         2.75 15   -          0.83 5                    
+#G 1989CH45      -         2.8 1     -          0.85 2                    
+#G 1992AR06      0.0054 22 2.85 4    0.0065 22  0.892 22                  
+#G Recommended e 0.0054 22 2.84 4    0.0065 22  0.871 15                  
+#G                                                                        
+#G $# Data FOR THIS G ARE DISCREPANT (CHI{+2} EXCEEDS CRITICAL VALUE).    
+#G $@ STATISTICAL OUTLIER BASED ON Chauvenet CRITERION; DATUM EXCLUDED    
+#G FROM AVERAGE.                                                          
+#G $e WEIGHTED AVERAGE EXCLUDING STATISTICAL OUTLIERS AND DATA FROM       
+#G 1980VYZZ (FOR WHICH EVALUATOR LACKS COMPLETE DOCUMENTATION).           
+#G           GG(|q): see 1955FR06, 1960MA19, 1961BO05, 1961KU03,          
+#G                   1963VE11, 1969KAZV, 1971SKZX, 1973DI18.              
+#G           B- G(|q,T), GG(|q,T): see 1963BO19, 1961BO05, 1969FO09,      
+#G                                       1969KAZV, 1971HEYP, 1971HEYO.    
+#G           GG(|q,H), GG(|q,H,T): 1960MA38, 1961BO05, 1961KU03,          
+#G                                       1971SKZX, 1973DI18.              
+#G           GG-coin: 1954SU12, 1955FR06, 1958CO61, 1958KL48, 1961HA14,   
+#G                    1962CL03.                                           
+#G           CE(80.6G): L1:L2=0.0859 8, L2:L3=0.962 9, M1:M3=0.0744 22,   
+#G M2:M3=0.926 9, M45:M3=0.024 4, M:M3=2.027 7; L3:M3=3.99 12,            
+#G N1:M3=0.024 3, N2:M3=0.210 4, N3:M3=0.224 10, N123:M3=0.458 11,        
+#G O123:M3=0.065 4, N123:O123=7.0 5 (1981BU24); K:L1:L2:L3:M:M1:M2:M3:N:O=
+#G 350 10:35 1:380 8:430 9:210 5:8.0 4:94 2:100:42.5 20:8.5 6 (1977KA30); 
+#G K:L=0.426 11 (1968NI06);                                               
+#G L1:L2:L3:M3=87.1 11:959 6:1000:250 3 (1966KA13,1968NI06);              
+#G M1:M2:M3:M4:M5=79.0 18:934 8:1000:10.5 4:10.5 5 (1968HO19);            
+#G M:(N+O+^P)=3.78 9 (1968NI06); N1:N2:N3:N45=85 28:90 7:1000:10 8        
+#G (1972DR02); N/O=6.7 4 (1972DR02); (M+N)/L=0.320 3 (1966DA04).          
+#G E         WEIGHTED average of DATA FROM 1977AL27 AND 1970RE16,         
+#G EXCEPT AS NOTED.                                                       
+#G RI        WEIGHTED average of PHOTON DATA IN TABLE ABOVE AFTER         
+#G ELIMINATION OF DATA (DENOTED THERE BY '@') WHICH ARE STATISTICAL       
+#G OUTLIERS BASED ON THE Chauvenet CRITERION, AND EXCLUDING DATA FROM     
+#G 1980VYZZ.  UNCERTAINTIES IN I(1379G) HAVE BEEN                         
+#G ADDED IN QUADRATURE TO THE UNCERTAINTIES IN RI OF OTHER LINES FROM     
+#G THE SAME DATA SET BEFORE AVERAGES WERE CALCULATED.                     
+#G Other measurements: 1950SI20, 1952MC05,                                
+#G 1952MI18, 1954SU12, 1955FR06, 1955GR07, 1957MC34, 1958CO76, 1958KL48,  
+#G 1960HE09, 1960MA19, 1961HA14, 1962EL12, 1963FU17, 1968DA24, 1971BE74.  
+#G M         From Adopted Gammas, unless otherwise noted.                 
+#L E         FROM LEAST-SQUARES FIT TO EG.                                
+#L J         From Adopted Levels.                                         
+#P 0.0         0-                26.824 H  12             1854.7     9    
++B beta- 0.69396 0.488
++B beta- 0.6513300000000001 0.499
++B beta- 0.36933 7.000000000000001E-5
++B beta- 0.11514 0.00943
++B beta- 0.10540999999999999 2.68E-5
++B beta- 0.05218 0.00302
++B beta- 0.0061200000000000004 3.42E-4
+

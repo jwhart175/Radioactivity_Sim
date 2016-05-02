@@ -1,0 +1,34 @@
+#167HO    167DY B- DECAY                1977TU01                  00NDS    200008
+#  167DY B- DECAY                1977TU01                  00NDS    200008
+#H TYP=FUL$AUT=Coral M. Baglin$CIT=NDS 90, 431 (2000)$CUT=5-Jul-2000$     
+#  Others: 1974KA21, 1999AS03.                                            
+#  1977TU01: sources from 170ER(N,A) (EN=14-15 MEV, ER oxide targets      
+#  enriched to 96.9% in 170ER); measured EB, IB (plastic scin),           
+#  EG, IG (GELI with FWHM=0.50 KEV at 60 KEV (for x rays);                
+#  two coaxial GELI with FWHM AP 2.2 KEV at 1.33 MEV), GG coin,           
+#  prompt and delayed BG coin.                                            
+#L J$Adopted values.                                                      
+#B           B- feedings are from intensity imbalance at each             
+#B level (no feeding to GS expected, as DJPI=3, no); feedings to          
+#B low-energy levels are uncertain because of lack of                     
+#B multipolarity information for the low-energy G rays.                   
+#G           RI(HO XK)=810 120, relative to RI=1000 for                   
+#G 569.7G. The corresponding decay-scheme value is                        
+#G RI(HO XK)=644.                                                         
+#G CC(A)$Value and uncertainty cover combined range for both              
+#G M1 and E2.                                                             
+#G E(B)      Isotopic assignment of G is uncertain.                       
+#P 0.0          (1/2-)           6.20 M    8              2350      60    
+DY167 HO167 beta- 2.35 372.0 1.00
++B beta- 0.799 0.05
++B beta- 0.74 0.055999999999999994
++B beta- 0.733 0.017
++B beta- 0.663 0.82
++B beta- 0.513 0.0072
++B beta- 0.439 0.0108
++B beta- 0.418 0.008
++B beta- 0.41 0.0101
++B beta- 0.381 0.013000000000000001
++B beta- 0.217 0.0078000000000000005
++B beta- 0.127 0.0046
+

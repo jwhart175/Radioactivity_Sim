@@ -1,0 +1,35 @@
+# 84NB    84NB IT DECAY                 2000CH07                  09NDS    200910
+#  84NB IT DECAY                 2000CH07                  09NDS    200910
+#H TYP=FUL$AUT=D. Abriola and M. Galan$                                   
+#H CIT=NDS 110,2815 (2009)$CUT=30-Sep-2009$                               
+#  2000Ch07 (also 1997Re12): Fragmentation of {+92}Mo beam at E=60        
+#  MeV/nucleon. Particle identification through ^LISE3 magnetic           
+#  spectrometer at ^GANIL facility. Search for isomers by measuring       
+#  delayed |g rays using four LEPS detectors. No coincidence data are     
+#  available due to low statistics.                                       
+#  Other:                                                                 
+#  2007Re18: Fragmentation of {+107}Ag beam at E=750 MeV. Particle        
+#  identification through fragment recoil separator. Search for isomers   
+#  using the ^RISING (Rare ISotope INvestigations at GSI) array of 15     
+#  seven-element  cluster Ge detectors. The detectors were placed in      
+#  three angular rings at 51|', 90|', and 129|' with respect to the       
+#  secondary beam axis. Measured delayed |g-rays of 48, 65, 115, 141,     
+#  175 and 205 keV, thus confirming the existence of an isomer in {+84}Nb.
+#  Level scheme is as shown by 2000Ch07 based on work of 1999Ma23         
+#G E,RI$From 2000Ch07                                                     
+#G M$From intensity balance considerations in 2000Ch07                    
+#G TI$Calculated by evaluators, corrected for internal conversion based   
+#G on assumed multipolarity                                               
+#L E$From adopted levels                                                  
+#L J$ FROM ADOPTED LEVELS                                                 
+#P 338.7     11(5-)              103 NS    19                             
+NB84 NB84 IT 0.0 1.03E-7 1
++G gamma 0.0474 10.4
++G gamma 0.065 0.78
++G gamma 0.1147 0.65
++G gamma 0.163 0.07800000000000001
++G gamma 0.1414 0.37050000000000005
++G gamma 0.2059 0.3185
++G gamma 0.1333 0.494
++G gamma 0.1754 0.29900000000000004
+

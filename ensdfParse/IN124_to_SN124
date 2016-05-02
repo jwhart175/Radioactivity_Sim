@@ -1,0 +1,71 @@
+#124SN    124IN B- DECAY (3.7 S)        1979FO10                  08NDS    200807
+#  124IN B- DECAY (3.7 S)        1979FO10                  08NDS    200807
+#H TYP=FUL$AUT=J. KATAKURA, Z.D. WU$CIT=NDS 109, 1655 (2008)$             
+#H CUT=1-Apr-2008$                                                        
+#  1979Fo10: {+235}U(n,F) on-line ms; semi |g ce, |g|g coin, |b|g delayed 
+#  coin                                                                   
+#  1987Sp09: {+235}U(n,F) on-line ms; semi |g |b, |b|g coin               
+#  1978Al18: {+235}U(n,F) on-line ms; semi |g |b, |b|g coin               
+#  The decay scheme is that proposed by 1979Fo10 on the basis of          
+#  |g|g coin and E|g sums                                                 
+#L E         From a least-squares fit to E|g's                            
+#L J         From adopted levels                                          
+#L T         From |b|g(t) plastic-Ge(Li) by 1979Fo10                      
+#G $         |a(K)exp from Ice(K)/I|g by 1979Fo10                         
+#G E,RI      From 1979Fo10                                                
+#G E(A)      Isomeric assignment uncertain (1979Fo10)                     
+#G E(B)      Weighted av from {+124}In |b{+-} decay (3.7 s) and {+124}In  
+#G |b{+-} decay (3.11 s)                                                  
+#G M,MR      From adopted gammas                                          
+#P 50        LT(8-)              3.7 S     2              7360      50    
+IN124 SN124 beta- 7.36 3.7 1.0
++G gamma 0.3399 0.006999999999999999
++G gamma 0.4096 0.018000000000000002
++G gamma 0.44933 0.019
++G gamma 0.4965 0.013000000000000001
++G gamma 0.549 0.012
++G gamma 0.5741 0.009000000000000001
++G gamma 0.8202999999999999 0.009000000000000001
++G gamma 0.84973 0.02
++G gamma 0.97715 0.016
++G gamma 1.4526 0.016
++G gamma 1.6723 0.006
++G gamma 1.7627000000000002 0.005
++G gamma 1.856 0.013999999999999999
++G gamma 1.9072 0.011000000000000001
++G gamma 2.6995999999999998 0.031
++G gamma 2.7813000000000003 0.01
++G gamma 1.1316400000000002 1.0
++G gamma 0.96994 0.52
++G gamma 0.10291 0.45
++G gamma 1.0728499999999999 0.47
++G gamma 0.12034 0.38
++B beta- 2.102 0.03
++G gamma 0.24312 0.106
++G gamma 0.36354000000000003 0.17
++B beta- 2.097 0.008
++G gamma 0.25345 0.044000000000000004
++B beta- 1.892 0.011000000000000001
++G gamma 0.4327 0.011000000000000001
++B beta- 1.784 0.013000000000000001
++G gamma 0.91535 0.027000000000000003
++B beta- 1.726 0.016
++G gamma 0.784 0.013999999999999999
++G gamma 1.0372999999999999 0.02
++B beta- 1.65 0.212
++G gamma 0.9559 0.124
++G gamma 1.19897 0.08800000000000001
++B beta- 1.594 0.013999999999999999
++G gamma 0.40301 0.013999999999999999
++B beta- 1.574 0.56
++G gamma 1.1069 0.01
++G gamma 1.11677 0.155
++G gamma 1.3598599999999998 0.39
++B beta- 1.536 0.1
++G gamma 1.1865999999999999 0.008
++G gamma 1.4401300000000001 0.092
++B beta- 1.515 0.024
++G gamma 1.48469 0.024
++B beta- 1.458 0.018000000000000002
++G gamma 0.56911 0.018000000000000002
+

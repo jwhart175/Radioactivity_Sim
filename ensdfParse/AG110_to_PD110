@@ -1,0 +1,47 @@
+#110PD    110AG EC DECAY (24.56 S)      1965FR01                  12NDS    201206
+#  110AG EC DECAY (24.56 S)      1965FR01                  12NDS    201206
+#H TYP=FUL$AUT=G. G~URDAL and F.G. KONDEV$CIT=NDS 113, 1315 (2012)$       
+#H CUT=1-Aug-2011$                                                        
+#G CC$ FROM BrIcc v2.3 (9-Dec-2011) 2008Ki07, "Frozen Orbitals" appr.     
+#  The parent {+110}Ag nuclide was produced via neutron capture  on       
+#  {+109}Ag. The thermal neutrons were produced via {+9}Be(d,n) reaction, 
+#  at E(d)=1 MeV. The K-X rays were detected using 5|*5 cm NaI-crystal    
+#  detector. |b-rays were detected using a plastic scintillator detector. 
+#  Measured: E(XK), I(XK).                                                
+#L E,J$From adopted levels                                                
+#N 1.0                   0.0030  6                                        
+#N 1.0                             1.0                                    
+#P 0.0          1+               24.56 S   11              889      11    
++G gamma 0.374 1.0
++G gamma 0.446 0.77
++G gamma 0.823 0.23
++G gamma 0.79 1.0
++G gamma 0.828 0.75
++G gamma 1.21 0.25
++G gamma 0.577 0.8
++G gamma 1.043 0.2
++G gamma 0.685 0.43
++G gamma 1.115 0.57
++G gamma 0.649 0.4
++G gamma 0.756 0.24
++G gamma 1.203 0.36
++G gamma 0.8 0.21
++G gamma 0.876 0.48
++G gamma 1.33 0.31
++G gamma 0.74 0.43
++G gamma 0.983 0.57
++G gamma 1.234 0.12
++G gamma 1.664 0.88
++G gamma 0.924 0.3
++G gamma 2.13 0.7
++G gamma 1.378 0.25
++G gamma 1.808 0.75
++G gamma 1.915 0.3
++G gamma 2.309 0.04
++G gamma 1.521 0.67
++G gamma 2.094 0.2
++G gamma 2.452 0.13
++G gamma 1.664 0.34
++G gamma 2.142 0.53
++G gamma 2.5 0.13
+

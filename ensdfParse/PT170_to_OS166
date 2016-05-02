@@ -1,0 +1,90 @@
+#166OS  XA170PT A DECAY                                                          
+#XA170PT A DECAY                                                          
+#XB106CD(63CU,P2NG),                                                      
+#XC167IR P DECAY (35.2 MS)                                                
+#XD167IR P DECAY (30.0 MS)                                                
+#XE106CD(64ZN,2P2NG)                                                      
+#N                                                                     6  
+#L 0           0+                199 MS    3                          A   
+#L %A=72 13 (1981HO10)$ %EC+%B+=18 13                                     
+#L XREF=ABCDE                                                             
+#L J         EVEN-EVEN NUCLEUS GROUND STATE.                              
+#L T         WEIGHTED AVERAGE OF 200 MS 7 (1996PA01; 6000A(T)), 194 MS 17 
+#L (1991SE01) AND 181 MS 38 (1981HO10).   OTHER: 0.3 S 1 (1978CA11).      
+#L   432.0    3 2+                                                    A   
+#L XREF=BE                                                                
+#L J         STRETCHED E2 G TO 0+.                                        
+#G     432.0  3 100       E2                     0.0330                   
+#G M         Q FROM G ASYMMETRY, NOT M2 FROM INTENSITY BALANCE IN         
+#G (64ZN,2P2NG).                                                          
+#L  1021.0    5 4+                                                    A   
+#L XREF=BE                                                                
+#L J         STRETCHED INTRABAND Q G TO 2+; CONTINUATION OF GS BAND.      
+#G     589.2  4 100      (E2)                    0.01539                  
+#L 1562.3     7 (3-)                                                  B   
+#L XREF=E                                                                 
+#G  541.6     7 68     24 D                                               
+#G  1129.2    9 100    24                                                 
+#L  1725.0    7 6+                                                    A   
+#L XREF=BE                                                                
+#L J         STRETCHED INTRABAND Q G TO 4+; CONTINUATION OF GS BAND.      
+#G     704.0  5 100      (E2)                    0.01031                  
+#L 1931.3     7 (5-)                                                  B   
+#L XREF=E                                                                 
+#G  368.8     5 100    29 (E2)                   0.0505                   
+#G  910.9     9 71     43 D                                               
+#L  2351.3    9 8+                                                    A   
+#L XREF=BE                                                                
+#L J         STRETCHED INTRABAND Q G TO 6+; CONTINUATION OF GS BAND.      
+#G     626.3  5 100      (E2)                    0.01337                  
+#L 2426.0    11 (6-)                                                  C  ?
+#L XREF=E                                                                 
+#G  494.8     9 100                                                      ?
+#L 2452.4     9 (7-)                                                  B   
+#L XREF=E                                                                 
+#G  521.1     6 100                                                       
+#L 3009.4    12  10+                                                  A   
+#L XREF=E                                                                 
+#G  658.1     8 100                                                       
+#L 3025.5    11 (8-)                                                  C  ?
+#L XREF=E                                                                 
+#G  573.0     9 33     83                                                ?
+#G  599.6     9 100    83                                                ?
+#L 3520.7    13 (12+)                                                 A   
+#L XREF=E                                                                 
+#G  511.3     5 100                                                       
+#L 3910.8    16 (14+)                                                 A  ?
+#L XREF=E                                                                 
+#G  390.1     9 100                                                      ?
+#                                                                         
+#  167IR P DECAY (35.2 MS)       1997DA07                  08NDS    200804
+#H TYP=FUL$AUT=CORAL M. BAGLIN$CIT=NDS 109, 1103 (2008)$CUT=1-Mar-2008$   
+#  1997DA07: SOURCE FROM 357-MEV 78KR BOMBARDMENT OF 92MO; FRAGMENT MASS  
+#  ANALYZER WITH POSITION-SENSITIVE PARALLEL PLATE AVALANCHE COUNTER AT   
+#  FOCAL PLANE, DOUBLE-SIDED SI STRIP DETECTOR; MEASURED EP, EA,          
+#  P(T), |a(t), RECOIL-p-|a CORRELATIONS.                                 
+#  PARENT JPI AND ^T{-1/2} ARE FROM 1997DA07. QP IS FROM MEASURED         
+#  EP=1064 6 (1997DA07) FOR GS TO GS TRANSITION.                          
+#L E,L       FROM 1997DA07.                                               
+#P 0.0          1/2+             35.2 MS   20             1071      5     
+PT170 OS166 alpha 1.071 0.0352 0.32
+
+#166OS    170PT A DECAY                 2004GOZZ,2004KE06,1997UU0108NDS    200804
+#  170PT A DECAY                 2004GOZZ,2004KE06,1997UU0108NDS    200804
+#H TYP=FUL$AUT=CORAL M. BAGLIN$CIT=NDS 109, 1103 (2008)$CUT=1-Mar-2008$   
+#  OTHERS: 1981HO01, 1996BI07, 1998KI20.                                  
+#  2004GOZZ: 84Sr+{+92,94,96}Mo, E(84Sr)=380-395 MEV; RECOIL-DECAY        
+#  TAGGING TECHNIQUE; MEASURED EA, %A                                     
+#  2004KE06: 170PT OBTAINED BOTH AS DAUGHTER OF 171AU PROTON DECAY AND    
+#  DIRECTLY FROM FUSION-EVAPORATION REACTION 96RU+78KR (E(78KR)=361-391   
+#  MEV, MID-TARGET). MEASURED EA, PARENT ^T{-1/2}.                        
+#  1997UU01: 170PT OBTAINED AS DAUGHTER OF MASS-SEPARATED 174HG PRODUCED  
+#  USING 36AR+144SM FUSION REACTION AT E(36AR)=180-230 MEV.  MEASURED     
+#  EA, PARENT ^T{-1/2}, |a CORRELATIONS.                                  
+#  ^T{-1/2}(170PT)=13.93 MS 24 (WEIGHTED AVERAGE OF 14.7 MS 5 (1996BI07), 
+#  13.5 MS 3 (1998KI20) AND 14.0 MS 2 (2004KE06)). OTHERS: 6 MS +5-2      
+#  (1981HO10), 15 MS +16-6 (1997UU01).                                    
+#A HF        R0=1.5638 12 FROM HF=1 IF QA=6706.2 18                       
+#P 0           0+                13.93 MS  24              6708      4    
++A alpha 6.5484 1.0
+

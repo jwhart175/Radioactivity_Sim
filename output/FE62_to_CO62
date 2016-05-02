@@ -1,0 +1,14 @@
+# 62CO    62FE B- DECAY (68 S)          1975FR16                  12NDS    201205
+#  62FE B- DECAY (68 S)          1975FR16                  12NDS    201205
+#H TYP=FUL$AUT=ALAN L. NICHOLS, BALRAJ SINGH, JAGDISH K. TULI$            
+#H CIT=NDS 113, 973 (2012)$CUT=15-Apr-2012$                               
+#  1975Fr16: 62FE source from 64NI(N,2PN) E=25-200 MEV. Chemical          
+#  separation. Measured E|g, I|g, |b|g coin                               
+#  Total decay energy of 2553 keV {I17} deduced (by RADLIST code) from    
+#  proposed decay scheme is in agreement with the expected value of       
+#  2553 keV {I20}, indicating that decay scheme is complete               
+#L J,T$ From Adopted Levels                                               
+#P 0.0         0+                68 S      2              2553      20    
+FE62 CO62 beta- 2.553 68.0 1.0
++G gamma 0.5061 1.0
+

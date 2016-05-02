@@ -1,0 +1,13 @@
+#133ND C  Since low- and high-spin states are populated in 133PM EC DECAY,       
+#  Since low- and high-spin states are populated in 133PM EC DECAY,       
+#  it seems likely that two parent decaying states are involved. The      
+#  decay scheme cannot be normalized and it should be considered as       
+#  tentative                                                              
+#G E,RI$From 1995Br21. The assignment to {+133}Nd is based on x-ray coin  
+#G and multiscaling data.                                                 
+#G M$From EKC, ELC, EMC and sub-shell ratios in 1995Br21                  
+#L E$From a least-squares fit to E|g's                                    
+#L J$From adopted levels                                                  
+#P1  0.0        (3/2+)           13.5 S    21             6925      69    
+PM133 ND133 beta+ 6.925 13.5 1
+

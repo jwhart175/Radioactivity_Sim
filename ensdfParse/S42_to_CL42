@@ -1,0 +1,23 @@
+# 42CL    42S B- DECAY (1.013 S)        1998WIZX                  01NDS    200103
+#  42S B- DECAY (1.013 S)        1998WIZX                  01NDS    200103
+#H TYP=FUL$AUT=BALRAJ SINGH AND JOHN A. CAMERON$CIT=NDS 92, 1 (2001)$     
+#H CUT=31-Dec-2000$                                                       
+#  1998WIZX: measured T1/2, EG, IG, GG, neutrons.                         
+#  No delayed neutrons were observed by 1998WIZX; 1995SO03                
+#  reported %B-N<4                                                        
+#L J$Strong B- feeding from 0+                                            
+#B IB,LOGFT$Due to a large energy gap between the Q value and             
+#B the highest known level at 3030, the BETA feedings and LOGFT           
+#B values are considered as limits only.                                  
+#P 0           0+                1.013 S   15              7.34E3   16    
++B beta- 3.366 0.09
++G gamma 0.1186 0.83
++B beta- 3.134 0.05
++G gamma 0.4707 0.27058
++B beta- 2.8 0.19
++B beta- 2.662 0.012
++B beta- 2.648 0.012
++B beta- 2.381 0.53
++B beta- 2.323 0.013000000000000001
++B beta- 1.937 0.14
+

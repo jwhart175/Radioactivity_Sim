@@ -1,0 +1,49 @@
+# 28NA2C  12280 keV {I10} obtained from 28NE B- DECAY ^Q(g.s.) and branching.    
+#  12280 keV {I10} obtained from 28NE B- DECAY ^Q(g.s.) and branching.    
+#  2006TR02,2005TR05: 28NE isotope was produced from fragmentation of 48CA
+#  beam on a Be target, E=140 MeV/nucleon at ^NSCL; Fragments were        
+#  separated by ^A1900 fragment separator and identified by energy loss in
+#  a DE-E detector and time of flight; Detector: double sided Si          
+#  microstrip detector (^DSSD), ^SeGA array of 12 HPGe detectors, B-      
+#  counting system (BCS); Measured EG, EB, RI, IB, B-GG coin.             
+#  1999Re16: 28NE was produced by TA(36S,X), E(36S)=2.8 GEV, reaction;    
+#  Magnetic Spectrometer (^LISE3); nuclides were identified by ^TOF and   
+#  energy loss in Si; Detector: 6 Si, 4 HPGe and 42 3HE proportional      
+#  counters; Measured: EG, RI, BG COIN, T, B-N.                           
+#  All data are from 2006Tr02, unless otherwise stated                    
+#B IB$From G-ray intensity balance to each level and the total number of  
+#B B-correlated decay events obtained from a fit to decay curves          
+#B (2006Tr02).                                                            
+#G RI$Based on a private communication (via e-mail) between ^XUNDL        
+#G compiler and V. Tripathi, dated May 9, 2006.                           
+#L E$From a least-squares fit to G-ray energies, DE{-|g}=1 keV is assumed 
+#L by the evaluator.                                                      
+#L J(A)$Assigned by the evaluator from LOGFT values                       
+#P 0.0          0+                20 MS    1              12.28E3   10    
++B beta- 5.88 0.55
++B beta- 5.853 0.02
++G gamma 0.055 0.146
++B beta- 5.32 0.005
++G gamma 1.076 0.0141
++G gamma 1.131 0.0128
++B beta- 5.26 0.005
++G gamma 1.2 0.0123
++G gamma 1.255 0.032
++B beta- 4.924 0.017
++B beta- 4.832 0.201
++G gamma 0.8645 0.044000000000000004
++G gamma 2.0629 0.156
++G gamma 2.118 0.0134
++B beta- 4.537 0.085
++G gamma 0.596 0.0129
++G gamma 0.782 0.0168
++G gamma 1.583 0.0235
++G gamma 2.659 0.0129
++G gamma 2.714 0.019
++B beta- 4.254 0.013000000000000001
++G gamma 3.231 0.0126
++B beta- 4.143 0.009000000000000001
++G gamma 3.457 0.009399999999999999
++B beta- 4.103 0.12
++B beta- 0.817 0.037000000000000005
+

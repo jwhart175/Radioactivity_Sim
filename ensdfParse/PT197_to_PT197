@@ -1,0 +1,22 @@
+#197PT    197PT IT DECAY (95.41 M)      1982SO05,1981SA30,1974AL2505NDS    200503
+#  197PT IT DECAY (95.41 M)      1982SO05,1981SA30,1974AL2505NDS    200503
+#H TYP=ERR$AUT=J. TULI$DAT=16-Jul-2007$COM=Fixed typo in comment$         
+#H TYP=FUL$AUT=HUANG XIAOLONG, ZHOU CHUNMEI$CIT=NDS 104, 283 (2005)$      
+#H CUT=1-Jan-2002$                                                        
+#  Others: 1976PeZW, 1983La26, 1987Vi08                                   
+#  Sources produced by {+196}Pt(n,|g)                                     
+#  (1982So05,1983Ca04,1987Vi08,1981He03), {+198}Pt(n,2n) (1983La26), and  
+#  {+197}Au(e{+-},|g) (1981Ha51)                                          
+#  1982So05: measured E|g, I|g, |g(t), |g|g(t), and |g|g(|q,H,t) with     
+#  HPGE, Ge(Li), and NaI(Tl).                                             
+#  1981Sa30: measured |g|g(|q,H,t), |g                                    
+#  1974Al25: measured E|g and I|g.                                        
+#G RI        Relative intensity normalized to I(|g+ce)(53.1|g)=100 from   
+#G intensity balance                                                      
+#L E         From decay scheme and |g's by using least-squares fit to data
+#L J,T       From adopted levels, except as noted.                        
+#L J(J)      From |g|g(|q) (1981Sa30,1982So05)                            
+#P     399.592013/2+             95.41 M   18                             
+PT197 PT197 IT 0.0 5724.599999999999 0.967
++G gamma 0.3465 0.115
+

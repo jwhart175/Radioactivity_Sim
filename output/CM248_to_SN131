@@ -1,0 +1,16 @@
+#131SN    248CM SF DECAY                2001BH04                  06NDS    200612
+#  248CM SF DECAY                2001BH04                  06NDS    200612
+#H TYP=FUL$AUT=YU. KHAZOV, I. MITROPOLSKY, A. RODIONOV$                   
+#H CIT=NDS 107, 2715 (2006)$CUT=17-Jul-2006$                              
+#  2001Bh04: measured E|g and |g|g using GAMMASPHERE detector array       
+#  comprised 99 escape-suppressed large volume Ge detectors               
+#G RI$Estimated (by the evaluators) from the thickness of arrows          
+#G in Figure 2 of 2001BH04                                                
+#L E$From least-squares fit to E|g (by evaluators), assuming 1 keV        
+#L uncertainty for each |g ray                                            
+#L BAND(A)$|n(f{-7/2}h{-11/2}{+-1}) multiplet                             
+#L BAND(B)$|n(f{-7/2}h{-11/2}{+-1}d{-3/2}{+-1}) multiplet                 
+#L BAND(C)$ |nh{-11/2}{+-1}~#(3- octupole) multiplet                      
+#P  0            0+              3.48E5 Y  6                              
+CM248 SN131 SF 0.0 1.09818042624E13 1.0
+

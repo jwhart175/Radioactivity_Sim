@@ -1,0 +1,28 @@
+# 47TI    47SC B- DECAY                 1986RE12,1974HEYW,1956GR1207NDS    200705
+#  47SC B- DECAY                 1986RE12,1974HEYW,1956GR1207NDS    200705
+#H TYP=FUL$AUT=T. W. BURROWS$CIT=NDS 108, 923 (2007)$CUT=20-Feb-2007$     
+#  1986Re12 measured %IG(159G) (NAI,GELI), EB's and %IB (BETA             
+#  spectrometer), and CE's (SILI)                                         
+#  All data are from 1986Re12, except as noted. Coincidences shown on the 
+#  drawing are from 1968Ba33 (4PIBG; pc,NAI). Others: see 1986Re12        
+#B           See 1987Mi18 for calculations of ^GT matrix elements         
+#B E         Weighted averages of 600.5 19 and 439.0 16 (1986Re12) and    
+#B 600 2 and 439 2 (1956Gr12. BETA spectrometer)                          
+#B IB        Absolute intensities. Authors' weighted averages of 67.4 14  
+#B and 32.6 14 (BETA spectrometer) and 68.6 6 and 31.4 6 (from %IG(159G)  
+#B assuming CC(159G)=0.0045 3) (1986Re12)                                 
+#G E         From 1972GeZG and 1974HeYW                                   
+#G RI        Absolute intensity. Authors' weighted average based on       
+#G individual values of 67.8 5 and 67.1 8 (HPGe), 68.7 4 (NAI), and       
+#G 68.9 7 (1986Re12)                                                      
+#G M,MR      FROM THE Adopted Gammas                                      
+#G CC$LABEL=ECC                                                           
+#G CC        FROM EKC=0.00406 21 (1986RE12) AND K/L+ AP 10 (1953CO44).    
+#G OTHER: 0.0036 9 FROM I(CE)/IB(439) (1953CH16. S); 0.00618 13 (THEORY). 
+#L J         From the Adopted Levels                                      
+#P 0.0         7/2-              3.3492 D  6              600.3     19    
+SC47 TI47 beta- 0.6003 289370.88 1.
++B beta- 0.2039 0.316
++B beta- 0.1426 0.684
++G gamma 0.159381 0.6829999999999999
+

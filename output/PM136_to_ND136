@@ -1,0 +1,50 @@
+#136ND    136PM EC DECAY:E=X            1989VI04                  02NDS    200206
+#  136PM EC DECAY:E=X            1989VI04                  02NDS    200206
+#H TYP=FUL$AUT=A.A. Sonzogni$CIT=NDS 95, 837 (2002)$CUT=1-Feb-2002$       
+#  Partial. Produced by {+92}Mo({+48}Ti,xpyn) via the decay               
+#  of {+136}Sm. Authors state that in their experiment only the low-spin  
+#  isomer was populated. 30 s<T{-1/2}({+136}Pm)<150 s                     
+#L J$From adopted values                                                  
+#G M$From adopted gammas                                                  
+#P X           (2+)              47 S       2             7.85E+3   20    
+PM136 ND136 beta+ 7.85 47.0 1.0
++G gamma 0.3737 1.0
++G gamma 0.48860000000000003 0.22
++G gamma 0.8622000000000001 0.28
++G gamma 0.6026 0.17
++G gamma 0.36869999999999997 0.035
++G gamma 0.8572000000000001 0.15
++G gamma 0.6792999999999999 0.028999999999999998
+
+#136ND    136PM EC DECAY:E=Y            1973PAZV                  02NDS    200206
+#  136PM EC DECAY:E=Y            1973PAZV                  02NDS    200206
+#H TYP=FUL$AUT=A.A. Sonzogni$CIT=NDS 95, 837 (2002)$CUT=1-Feb-2002$       
+#  Partial. Produced by {+121}Sb({+20}Ne,5n). Measured: |g's,             
+#  |g|g-coincidences, |g(|q), and |g(t). Assignment based on coincidences 
+#  with known transitions in {+136}Nd from {+120}Sn({+20}Ne,4n|g) and     
+#  |g(t). The evaluator considers this decay scheme to be partial from    
+#  comparison of the maximum level energy to Q(|e). See also |e decay     
+#  E=x,y, above                                                           
+#L E         Energies with uncertainties given are from the ({+20}Ne,4n|g)
+#L data of 1973PaZV. Other energies are from |e decay                     
+#L J         From adopted levels                                          
+#L BAND(A)$ GS BAND                                                       
+#L BAND(B)$ K=2+ G BAND?                                                  
+#L BAND(C)$ |ph{-11/2}|pg{-7/2}, ALPHA=1                                  
+#P Y           (5-)              107 S     6              7.85E+3   20    
+PM136 ND136 beta+ 7.85 107.0 0.0187
++G gamma 0.3735 48.0
++G gamma 0.488 4.9
++G gamma 0.8621 4.15
++G gamma 0.6027 26.6
++G gamma 0.37 5.4
++G gamma 0.858 16.8
++G gamma 0.678 3.7
++G gamma 0.7704 9.6
++G gamma 0.696 5.4
++G gamma 1.0597 7.35
++G gamma 0.815 16.5
++G gamma 1.07 1.4
++G gamma 0.3028 7.3
++G gamma 0.693 1.4
+

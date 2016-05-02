@@ -1,0 +1,18 @@
+#190OS    190OS IT DECAY (9.9 M)        1964HA06,1958SC30         03NDS    200306
+#  190OS IT DECAY (9.9 M)        1964HA06,1958SC30         03NDS    200306
+#H TYP=FUL$AUT=BALRAJ SINGH$CIT=NDS 99, 275 (2003)$CUT=30-Apr-2003$       
+#  Cross section for production of 9.9-min {+190}Os from                  
+#  {+192}Os(n,3n) E=16-18 MeV (1977Au09)                                  
+#  Others: 1968Da24, 1964Ti01, 1962Ma24, 1961Ma31, 1960Ka14               
+#  |g|g(t): 1958Su57, 1958Be72                                            
+#G E$From ce data (1964Ha06). Uncertainty is estimated (evaluator)        
+#G M$From ce data (1964Ha06,1958Sc30)                                     
+#G RI$100/(1+|a)                                                          
+#L J$From adopted levels                                                  
+#P 1705.8    3 (10)-             9.9 M     1                              
+OS190 OS190 IT 0.0 594.0 1.0
++G gamma 0.18669999999999998 0.7020000000000001
++G gamma 0.36119999999999997 0.9488
++G gamma 0.5025 0.9779000000000001
++G gamma 0.0389 8.100000000000001E-4
+

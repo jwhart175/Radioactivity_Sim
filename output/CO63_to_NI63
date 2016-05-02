@@ -1,0 +1,30 @@
+# 63NI    63CO B- DECAY                 1985RU05,1972JO08,1975RO25ENSDF    200906
+#  63CO B- DECAY                 1985RU05,1972JO08,1975RO25ENSDF    200906
+#H TYP=FUL$AUT=HUO JUNDE, YANG DONG, HUO MEIRONG,$CIT=ENSDF$              
+#H CUT=28-Aug-2008$                                                       
+#H TYP=FUL$AUT=BAI ERJUN, HUO JUNDE$CIT=NDS 92, 147 (2001)$CUT=1-Mar-1999$
+#  1985Ru05: {+63}Co from W({+82}Se,X), E=11.5 MeV/U, mass separation,    
+#  E|g, I|g, |b|g, |g|g coincidence                                       
+#  1975Ro25: {+63}Co from {+64}Ni(n,d), T{-1/2} of the 87-keV level,      
+#  delayed coin                                                           
+#  1972Jo08: {+63}Co from {+64}Ni(n,d), E|g, I|g                          
+#  2005PE12 AND 2005PE23: {+63}CO produced in REACTION of {+65}Cu{+15+}   
+#  beam on a {+197}Au target, E=443 MeV, IGISOL(ION-GUIDE ISOTOPE         
+#  SEPARATOR ON-LINE) TECHNIQUE, Measured E|g, I|g, |b.                   
+#G E,RI      E|g and relative I|g are from 1985Ru05, except where noted   
+#G otherwise                                                              
+#G E(A)      From 1972Jo08                                                
+#P 0.0         7/2-              27.4 S    5              3672      20    
+CO63 NI63 beta- 3.672 27.4 0.0211
++G gamma 0.08713 23.1
++G gamma 0.1556 0.76
++G gamma 0.3623 0.05
++G gamma 0.9136 0.25
++G gamma 0.9817 1.0
++G gamma 1.0691 0.51
++G gamma 1.0957000000000001 0.14
++G gamma 1.1638 0.33
++G gamma 1.3645 0.68
++G gamma 2.106 0.25
++G gamma 2.1745 0.4
+

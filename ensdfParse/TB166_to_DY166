@@ -1,0 +1,24 @@
+#166DY    166TB B- DECAY                1996AS05,1996IC01         08NDS    200804
+#  166TB B- DECAY                1996AS05,1996IC01         08NDS    200804
+#H TYP=FUL$AUT=CORAL M. BAGLIN$CIT=NDS 109, 1103 (2008)$CUT=1-Mar-2008$   
+#  1996AS05: 166TB PRODUCED FROM 238U(P,F), EP=16 MEV; ON-LINE ISOTOPE    
+#  SEPARATOR COUPLED TO GAS-JET TRANSPORT SYSTEM; PLASTIC SCINTILLATOR    
+#  |b DETECTOR, LOW-ENERGY PHOTON SPECTROMETER (FWHM=0.61 KEV AT 122 KEV),
+#  HPGE DETECTOR (FWHM=1.8 KEV AT1.33 MEV); MEASURED EG, IG, SINGLES |b   
+#  AND |g SPECTRA, |b-|g COIN, GG COIN, ^T{-1/2} FROM |b(t), |g(t),       
+#  |b-GATED XK(DY)(t).                                                    
+#  SEE 1996IC01 FOR PRELIMINARY REPORT OF THESE DATA.                     
+#B IB(A)     7% +50-7 (1996AS05).                                         
+#G RI        PHOTON INTENSITY RELATIVE TO I(173G)=100 13.  ON THIS        
+#G SCALE,I(DY XK)=69 5 (1996AS05).                                        
+#G M         FROM Adopted Gammas.                                         
+#L E         FROM LEAST-SQUARES FIT TO EG.                                
+#L J         FROM Adopted Levels.                                         
+#P 0.0         (2-)              25.1 S    21             4695      70    
+TB166 DY166 beta- 4.695 25.1 1.0
++B beta- 1.983 0.57
++B beta- 1.948 0.41
++B beta- 1.84 0.09
++B beta- 1.481 0.12
++B beta- 1.039 0.25
+

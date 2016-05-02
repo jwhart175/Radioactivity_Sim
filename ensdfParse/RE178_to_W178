@@ -1,0 +1,180 @@
+#178W     178RE EC DECAY                2001KI10,1970GO20         09NDS    200907
+#  178RE EC DECAY                2001KI10,1970GO20         09NDS    200907
+#H TYP=FUL$AUT=E. Achterberg, O.A. Capurro, G.V. Marti$                   
+#H CIT=NDS 110, 1473 (2009)$CUT=31-May-2008$                              
+#  2001Ki10: {+178}Re isotope formed in the {+173}Yb({+11}B,6n) reaction  
+#  at E=73 MeV, and also obtained from the decay chain of {+178}Ir isotope
+#  formed in the {+164}Er({+19}F,5n) reaction at E=110 MeV.               
+#  Measured E|g, I|g, |g|g, |g|g(t), |g|g(|q), ce using the CAESAR array  
+#  consisting of six Compton-suppressed Ge detectors, and a               
+#  superconducting solenoid spectrometer for electrons                    
+#  1970Go20: Sources of {+178}Re produced by the {+181}Ta({+3}He,xn)      
+#  and W(p,xn) reactions at E=72 and 54 MeV, respectively.                
+#  Measured E|g, I|g, |g|g coin, |b|g coin, E(ce), Ice.                   
+#  Detectors: Ge(Li), scin, Si(Li).                                       
+#E $I(|e+|b{++}) deduced by the evaluators from the total transition      
+#E intensity balances at each level, using the intensity data from        
+#E 2001Ki10, and those from 1970Go20, where no data from 2001Ki10         
+#E were available. No levels have been established in the region 2.1 to   
+#E 3.3 MeV by these |b decay studies. This suggests that the intensity    
+#E balances, and consequent |b feedings and deduced log {Ift} values,     
+#E should be regarded with caution, as there may be unobserved |g-ray     
+#E intensity leading to changes in the |b feedings listed below. However  
+#E these unobserved intensities are assumed to be rather small, as all    
+#E known levels in the mentioned gap have J values of 8 or higher (see    
+#E adopted levels dataset), and therefore any |b feeding can be expected  
+#E to be very small.                                                      
+#E IB,IE$Values obtained using theoretical |e/|b{++} ratios.              
+#G $Experimental restrictions in 2001Ki10 did not allow detecting         
+#G transitions higher than E|g|?1.9 MeV. Some observed, but unplaced,     
+#G transitions of 1970Go20 have been placed by                            
+#G 2001Ki10 in the level scheme. All experimental conversion              
+#G and |g-|g directional correlation coefficients are from 2001Ki10,      
+#G except when otherwise noted.  Quoted relative                          
+#G |g-ray intensities from 2001Ki10 have been normalized to the           
+#G I|g(237) value from 1970Go20.                                          
+#G E$Energy values from 2001Ki10 unless noted                             
+#G otherwise. An uncertainty of 0.2 keV has been assigned to the          
+#G |g-ray energies from 2001Ki10.                                         
+#G M$Multipolarities on the basis of conversion coefficients              
+#G from 2001Ki10 and 1970Go20, and from |g-|g directional                 
+#G correlation coefficient measurements from 2001Ki10.                    
+#G Conversion coefficients quoted from 1970Go20 have been normalized      
+#G to |a(K,237keV,E2,theo)=0.1064 by the evaluators. Some                 
+#G multipolarities have been tentatively assigned by the evaluators,      
+#G based mainly on the J|p values of the connected levels.                
+#G MR$Mixing ratios from 2001Ki10                                         
+#G RI$|g-ray intensities from 2001Ki10, unless otherwise noted.           
+#G E(X),RI(X)$Not seen by 1970Go20                                        
+#G E(Y),RI(Y)$From 1970Go20, |g ray not seen by 2001Ki10.                 
+#G E(Z)$|g ray seen by 1970Go20 but not placed in their level scheme;     
+#G placed by 2001Ki10.                                                    
+#L E$From least-squares fit to E|g's                                      
+#L BAND(A)$ GS band                                                       
+#L BAND(B)$ |g band                                                       
+#L BAND(C)$ |b band                                                       
+#L BAND(D)$ KPI=2- band                                                   
+#L BAND(E)$ KPI=0+ band                                                   
+#P  0            (3+)             13.2 M   2               4.76E3   3     
++G gamma 0.9628 0.0038260000000000004
++G gamma 1.289 0.0047825
++G gamma 1.3772 0.0038260000000000004
++G gamma 1.4994 0.005738999999999999
++G gamma 1.58 0.0047825
++G gamma 1.6085 0.0066955
++G gamma 1.7082 0.0028694999999999997
++G gamma 1.7446 0.0047825
++G gamma 1.7955999999999999 0.0019130000000000002
++G gamma 1.8339 0.0066955
++G gamma 1.836 0.0019130000000000002
++G gamma 1.8933 0.0047825
++G gamma 1.9247 0.0038260000000000004
++G gamma 2.0162999999999998 0.0028694999999999997
++G gamma 2.053 0.0038260000000000004
++G gamma 2.1330999999999998 0.005738999999999999
++G gamma 2.2636999999999996 0.0019130000000000002
++G gamma 2.3066 0.0019130000000000002
++G gamma 2.3121 0.0038260000000000004
++G gamma 2.4559 0.00200865
++G gamma 2.9976 0.0066955
++G gamma 3.1336 0.0028694999999999997
++G gamma 3.164 0.0047825
++G gamma 3.182 0.0025825500000000003
++G gamma 3.1881 0.005165100000000001
++G gamma 3.2171999999999996 0.0025825500000000003
++G gamma 3.2325 0.00200865
++G gamma 3.2475 0.0017216999999999998
++G gamma 3.2542 0.0034433999999999997
++G gamma 3.2575 0.0034433999999999997
++G gamma 3.376 9.565000000000001E-4
++G gamma 3.4172 0.00564335
++G gamma 3.4280999999999997 0.0026782
++G gamma 3.4314 0.0059303
++G gamma 3.4412 0.00296515
++G gamma 3.5256999999999996 9.565000000000001E-4
++G gamma 3.5442 4.7825000000000005E-4
++G gamma 3.559 5.739E-4
++B beta+ 0.0 0.06
++B beta+ 1.644 0.00407
++B beta+ 1.535 0.00447
++B beta+ 1.375 0.00511
++B beta+ 1.216 0.0057799999999999995
++B beta+ 1.199 0.005849999999999999
++B beta+ 1.187 0.0059
++G gamma 0.0757 0.00105215
++B beta+ 1.182 0.00592
++B beta+ 1.135 0.00612
++G gamma 0.8936000000000001 0.0084172
++B beta+ 1.13 0.00614
++G gamma 0.1925 0.0012434500000000001
++G gamma 0.5808 0.0053564
++G gamma 0.9324 0.024103799999999998
++B beta+ 1.112 0.00622
++G gamma 1.1887 0.00277385
++B beta+ 1.104 0.00625
++G gamma 0.2245 0.00679115
++G gamma 0.6504 0.0066955
++G gamma 1.002 0.00373035
++B beta+ 1.081 0.00634
++G gamma 0.6858 0.00334775
++G gamma 1.0374 0.01559095
++G gamma 1.2744000000000002 0.00717375
++B beta+ 1.065 0.00641
++G gamma 0.3353 0.0011478
++G gamma 1.3115 0.013391
++G gamma 1.4179000000000002 0.00564335
++B beta+ 1.048 0.0064800000000000005
++G gamma 1.1065999999999998 0.0084172
++G gamma 1.4495 0.0160692
++B beta+ 1.034 0.00653
++G gamma 0.501 0.0154953
++B beta+ 0.991 0.0067
++G gamma 0.2807 0.0034433999999999997
++G gamma 0.8619 0.0011478
++B beta+ 0.986 0.00672
++G gamma 0.8782000000000001 0.0021043
++G gamma 1.2297 0.0060259499999999995
++B beta+ 0.979 0.006750000000000001
++G gamma 1.2550999999999999 0.02094735
++G gamma 1.4919 0.013391
++B beta+ 0.968 0.006790000000000001
++G gamma 0.5212 0.0084172
++G gamma 1.2986 0.00239125
++B beta+ 0.948 0.00687
++G gamma 1.0094 0.0032521000000000004
++G gamma 1.361 0.00717375
++G gamma 1.5977999999999999 0.00985195
++B beta+ 0.92 0.00697
++G gamma 0.4815 0.008895450000000001
++G gamma 0.6077 0.0042086
++G gamma 0.6357 0.005738999999999999
++G gamma 1.3752 0.00373035
++B beta+ 0.914 0.00699
++G gamma 0.6838 0.00564335
++B beta+ 0.909 0.00701
++B beta+ 0.893 0.0070599999999999994
++B beta+ 0.849 0.007209999999999999
++G gamma 1.5964 0.0021999500000000004
++B beta+ 0.816 0.00732
++G gamma 0.8423999999999999 0.00487815
++B beta+ 0.805 0.00735
++G gamma 1.6541 0.0062172500000000006
++G gamma 1.8917 0.0019130000000000002
++B beta+ 0.79 0.0074
++G gamma 1.7783 0.0063129
++B beta+ 0.735 0.00756
++B beta+ 8.154E-4 0.0014000000000000002
++B beta+ 8.15E-4 0.0014000000000000002
++B beta+ 8.148999999999999E-4 0.0014000000000000002
++B beta+ 8.137999999999999E-4 0.0014099999999999998
++B beta+ 8.137999999999999E-4 0.0014099999999999998
++B beta+ 8.137E-4 0.0014199999999999998
++B beta+ 8.137E-4 0.0014199999999999998
++B beta+ 8.132E-4 0.0014199999999999998
++B beta+ 8.127999999999999E-4 0.0014199999999999998
++B beta+ 8.127E-4 0.0014199999999999998
++B beta+ 8.126E-4 0.0014199999999999998
++B beta+ 8.12E-4 0.0014299999999999998
++B beta+ 8.108E-4 0.0014399999999999999
++B beta+ 8.087999999999999E-4 0.00145
+

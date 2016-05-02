@@ -1,0 +1,339 @@
+#183AU  XB187TL A DECAY                                                          
+#XB187TL A DECAY                                                          
+#XC152SM(35CL,4NG)                                                        
+#Q -6385     129960    231310    175465    3     2012WA38                 
+#Q Note: Current evaluation has used the following Q record               
+#Q    -6470  SY    9930SY    1370SY    5466 3    1995AU04                 
+#Q           |DQ(|b-)=500, |DS(n)=540, |DS(p)=450 (1995Au04).             
+#N                                                                     6  
+#L        0.0   (5/2)-              42.8 S 10                         A   
+#L XREF=A                                                                 
+#L %EC+%B+=99.45 25$%A=0.55 25$                                           
+#L MOMM1=+1.972 23 (1988KR18)$                                            
+#L MOMM1     From resonance ionization mass spectroscopy.                 
+#L %A        Unweighted average of 0.8 3 (1995Bi01), 0.30 5 (1970Ha18).   
+#L           DAVRSQ(183,197)=-0.130 9 fm{+2} (1988Kr18; see also          
+#L 1990Hi08).                                                             
+#L T         weighted average of 44.6 S 19 (1995Bi01), 42 S 4 (1970Ha18), 
+#L 42.0 S 12 (1970Ma24), 45 S 4 (1968Si01). Other: 50 S 2 (1968De01).     
+#L J         parity from LOGFT=5.4 to (5/2,7/2)- 183PT(1956) level;       
+#L J=5/2 expected based on energy systematics of 5/2- levels in           
+#L neighboring odd-^A Au isotopes.                                        
+#L       12.4 4 (9/2)-                                                A   
+#L XREF=ABC                                                               
+#L J         low energy 9/2- level expected based on energy systematics   
+#L for 9/2- levels in neighboring odd-^A Au isotopes; DPI=no 284G from    
+#L PI=- 297 level.                                                        
+#G       12.4 4 100      [E2]                                            S
+#G E         from level energy difference.                                
+#L   12.78   16 (3/2)-                                                    
+#L XREF=A                                                                 
+#L J         DPI=no 160G from PI=- 173 level; low energy 3/2- level       
+#L expected, by analogy with 185AU.                                       
+#G     12.78 16   100    [M1]                                            S
+#G E         from level energy difference.                                
+#L 69.1       5(7/2-)                                                 B   
+#L XREF=C                                                                 
+#L J         band assignment.                                             
+#L       73.3 4 (1/2)+                1 US  GT                            
+#L XREF=A                                                                 
+#L J         E1 61G to (3/2)- 12.8; 1/2+ level energy systematics for     
+#L neighboring odd-^A Au isotopes; absence of G to (5/2)- GS.             
+#L Possibly an oblate nuclear state (1984Ma41).                           
+#L T         based on absence of 60.5G in coincidence spectra             
+#L in EC decay (1984Ma41).                                                
+#G       60.5 3   100     E1                     0.45                     
+#G FL=12.78                                                               
+#G BE1W<6.7E-7                                                            
+#L     91.28 25 (5/2-,7/2-)                                               
+#L XREF=A                                                                 
+#L J         gammas to (9/2)- and (3/2)-.                                 
+#G       78.4 5                                                           
+#G FL=12.78                                                               
+#G       79.0 5                                                           
+#G FL=12.4                                                                
+#G       91.1 5    100 20                                                 
+#L     172.6716  (3/2,5/2)-                                               
+#L XREF=A                                                                 
+#L J         ^D+Q 160G to J=(3/2) 12.8; M1 173G to (5/2)- GS.             
+#G     159.9  3    100 20 M1+E2     0.7          1.60                     
+#G FL=12.78                                                               
+#G     172.7  3     81 16 M1                     1.59                     
+#L    179.14 24  (1/2,3/2,5/2)-                                           
+#L XREF=A                                                                 
+#L J         M1+E2 166G to (3/2)- 12.8 level.                             
+#G     166.3  3    100 20 M1+E2     0.65         1.46                     
+#G FL=12.78                                                               
+#G      179.5 5    5.9 12                                                 
+#L  230.6     6 (11/2)-          1 US      LT                         Y   
+#L XREF=A                                                                 
+#L J         M1 218G to (9/2)- 12.4; hindrance of M1 deexcitation         
+#L consistent with observations for h{-11/2} state in neighboring         
+#L Au isotopes.                                                           
+#L T$5 NS LE T LE 1 US proposed by 1984Ma41 on the basis of delayed       
+#L coincidence intensity in EC decay.                                     
+#G  218.2     5 100       M1                     0.827                    
+#G FL=12.4                                                                
+#G BM1W>1.1E-6                                                            
+#G BM1W<0.00024                                                           
+#L      231.2 4  (13/2-)                                              A   
+#L XREF=C                                                                 
+#L FLAG=Y                                                                 
+#L J         Q 219G to (9/2)-; band structure; 13/2- level energy         
+#L systematics in neighboring odd-^A Au isotopes.                         
+#G      218.8 2   100    (E2)                    0.280                Z   
+#G FL=12.4                                                                
+#G           Presumed to differ from the 218.2 5 G in EC decay.           
+#G M         Q from (35CL,4NG); band structure.                           
+#L    263.53 22 (5/2,7/2)-                                                
+#L XREF=A                                                                 
+#L J         M1+E2 91G to (3/2,5/2)- 173; 251G to (9/2)- 12.4.            
+#G      90.7  3    100 20 M1+E2     0.5          9.6                      
+#G      250.9 5     46 AP                                                 
+#G FL=12.4                                                                
+#L 273.5      4(11/2-)                                                B   
+#L XREF=C                                                                 
+#L J         stretched Q 204G to (7/2-) 69; ^D 261G to J=(9/2) 12.4.      
+#G  204.4     2 100.0  25 Q                                           Z   
+#G  261.1     2 43.5   14 D                                           Z   
+#G FL=12.4                                                                
+#L     289.4318 (3/2,5/2,7/2)-                                            
+#L XREF=A                                                                 
+#L J         M1 290G to (5/2)- GS.                                        
+#G      198.1 3      44 9 M1                     1.08                     
+#G     276.7  3     53 11                                                 
+#G FL=12.78                                                               
+#G     289.5  3    100 20 M1                     0.380                    
+#L      296.8 4 (7/2)-                                                    
+#L XREF=A                                                                 
+#L J         (^D) 284G to J=(9/2) 12.4; ^D, DPI=no 297G to (5/2)- GS.     
+#G      284.4 3    100 20 (M1)                   0.399                    
+#G FL=12.4                                                                
+#G M         anomalous M1 or M1+E0+E2 from EKC in EC decay; level scheme. 
+#G      296.7 5     35 AP (M1)                   0.355                    
+#G M         anomalous M1 or M1+E0+E2 from EKC in EC decay; level scheme. 
+#L     317.9417 (1/2,3/2,5/2)-                                            
+#L XREF=A                                                                 
+#L J         M1 305G to (3/2)- 12.8.                                      
+#G     305.1  3    100 20 M1                     0.329                    
+#G FL=12.78                                                               
+#G     318.1  3      18 4                                                 
+#L      517.1 8 (7/2-)                                                    
+#L XREF=A                                                                 
+#L J         G to (11/2)- 231; analogy with 185AU (1984Ma41).             
+#G      286.5 5   100                                                     
+#G FL=230.6                                                               
+#L   562.52  25 (LE 7/2)                                                  
+#L XREF=A                                                                 
+#L J         G to (3/2)- 12.8.                                            
+#G     244.6  5       7AP                                                 
+#G      273.0 5      36 7                                                 
+#G     549.6  3    100 20                                                 
+#G FL=12.78                                                               
+#L 565.3      4(17/2-)                                                A   
+#L XREF=C                                                                 
+#G  334.1     2 100       Q                                           Z   
+#G FL=231.2                                                               
+#L 599.6      4(15/2-)                                                B   
+#L XREF=C                                                                 
+#G  326.1     2 100.0  17 Q                                           Z   
+#G  368.0     5 18.6   12 D                                           Z   
+#G FL=231.2                                                               
+#L 701.8      4(13/2+)                                                E   
+#L XREF=C                                                                 
+#G  428.3     2 100       D+Q                                         Z   
+#L     779.8616 (LE 7/2)                                                  
+#L XREF=A                                                                 
+#L J         767G to (3/2)- 12.8.                                         
+#G     462.2  3    100 20                                                 
+#G     490.4  5      21 4                                                 
+#G     516.3  3    104 AP                                                 
+#G     607.7  3     54 AP                                                 
+#G     767.1  3    100 20                                                 
+#G FL=12.78                                                               
+#G     779.5  3     88 18                                                 
+#L     811.1324 (LE 7/2)                                                  
+#L XREF=A                                                                 
+#L J         798G to (3/2)- 12.8.                                         
+#G      632.1 5     45 AP                                                 
+#G     798.3  3    100 20                                                 
+#G FL=12.78                                                               
+#L     817.6720 (LE 7/2)                                                  
+#L XREF=A                                                                 
+#L J         805G to (3/2)- 12.8.                                         
+#G      254.7 5     50 AP                                                 
+#G     499.9  5      43 8                                                 
+#G     644.9  3    100 20                                                 
+#G     805.0  5     71 AP                                                 
+#G FL=12.78                                                               
+#G     817.9  5      14AP                                                 
+#L 865.4      4(17/2+)                                                E   
+#L XREF=C                                                                 
+#G  163.6     2 69      6 Q                                           Z   
+#G  265.8     2 100    10 D                                           Z   
+#G  300.0     5 23      6                                             Z   
+#L     885.5721 (LE 7/2)                                                  
+#L XREF=A                                                                 
+#L J         873G to (3/2)- 12.8.                                         
+#G     712.7  3    100 20                                                 
+#G     872.8  3     65 13                                                 
+#G FL=12.78                                                               
+#G     885.9  5     40  8                                                 
+#L 989.1      5(21/2-)                                                A   
+#L XREF=C                                                                 
+#G  423.9     2 100       Q                                           Z   
+#L 1022.9     5(19/2-)                                                B   
+#L XREF=C                                                                 
+#G  423.2     2 100       Q                                           Z   
+#L     1025.1 3                                                           
+#L XREF=A                                                                 
+#G      707.0 5     75 15                                                 
+#G      852.5 3    100 20                                                 
+#L 1054.5     5(19/2-)                                                D   
+#L XREF=C                                                                 
+#G  455.0     5 100                                                   Z   
+#L    1100.2 10                                                           
+#L XREF=A                                                                 
+#G      583.1 5   100                                                     
+#L 1148.5     5(21/2+)                                                E   
+#L XREF=C                                                                 
+#G  283.1     2 100       (Q)                                         Z   
+#L 1487.5     5(23/2-)                                                D   
+#L XREF=C                                                                 
+#G  433.0     2 52      5 (Q)                                         Z   
+#G  464.0     5 95     14 (Q)                                         Z   
+#G  498.5     2 100    21                                             Z   
+#L 1491.9     5(25/2-)                                                A   
+#L XREF=C                                                                 
+#G  502.8     2 100       (Q)                                         Z   
+#L 1527.7     5(25/2+)                                                E   
+#L XREF=C                                                                 
+#G  379.2     2 100       Q                                           Z   
+#L 1544.7     5(23/2-)                                                B   
+#L XREF=C                                                                 
+#G  522.0     5 100    27                                             Z   
+#G  555.0     5 12.0   20                                             Z   
+#L     1605.5 3 (LE 7/2)                                                  
+#L XREF=A                                                                 
+#L J         1593G to (3/2-) 12.8.                                        
+#G    1426.4  3    100 20                                                 
+#G    1592.7  3      23 5                                                 
+#G FL=12.78                                                               
+#L     1671.2 4                                                           
+#L XREF=A                                                                 
+#G     1381.8 3   100                                                     
+#L     1680.9 3                                                           
+#L XREF=A                                                                 
+#G    1362.9  3     54 11                                                 
+#G    1391.6  3    100 20                                                 
+#L    1681.9617 (LE 7/2)                                                  
+#L XREF=A                                                                 
+#L J         1669G to (3/2)- 12.8.                                        
+#G     864.2  3     58 12                                                 
+#G     870.8  3     69 14                                                 
+#G     902.2  3     83 17                                                 
+#G    1509.2  3    100 20                                                 
+#G    1669.4  3      31 6                                                 
+#G FL=12.78                                                               
+#G    1681.8  3      42 8                                                 
+#L    1800.5418 (LE 7/2)                                                  
+#L XREF=A                                                                 
+#L J         1788G to (3/2)- 12.8.                                        
+#G     914.9  3      38 8                                                 
+#G    1021.0  3      18 4                                                 
+#G    1482.5  3      45 9                                                 
+#G    1536.8  3      19 4                                                 
+#G    1627.9  3      23 5                                                 
+#G    1787.8  3    100 20                                                 
+#G FL=12.78                                                               
+#L 1981.1     6(29/2+)                                                E   
+#L XREF=C                                                                 
+#G  453.4     2 100       Q                                           Z   
+#L 1986.3     5(27/2-)                                                D   
+#L XREF=C                                                                 
+#G  441.0     5 66     19                                             Z   
+#G  498.9     2 100     4                                             Z   
+#L 2063.4     6(29/2-)                                                A   
+#L XREF=C                                                                 
+#G  571.5     2 100       (Q)                                         Z   
+#L 2096.7     5(27/2-)                                                B   
+#L XREF=C                                                                 
+#G  552.0     5 100    40                                             Z   
+#G  609.2     2 100    40                                             Z   
+#L 2490.9     6(33/2+)                                                E   
+#L XREF=C                                                                 
+#G  509.8     2 100       Q                                           Z   
+#L 2541.4     6(31/2-)                                                D   
+#L XREF=C                                                                 
+#G  555.1     2 100       Q                                           Z   
+#L 2685.7     7(31/2-)                                                B   
+#L XREF=C                                                                 
+#G  589.0     5 100                                                   Z   
+#L 2691.0     6(33/2-)                                                A   
+#L XREF=C                                                                 
+#G  627.6     2 100       Q                                           Z   
+#L 3048.7     6(37/2+)                                                E   
+#L XREF=C                                                                 
+#G  557.8     2 100       (Q)                                         Z   
+#L 3149.3     6(35/2-)                                                D   
+#L XREF=C                                                                 
+#G  607.9     2 100       Q                                           Z   
+#L 3310.7     9 (35/2-)                                               B  ?
+#L XREF=C                                                                 
+#G  625.0     5 100                                                   Z  ?
+#L 3359.9     6(37/2-)                                                A   
+#L XREF=C                                                                 
+#G  668.9     2 100       Q                                           Z   
+#L 3656.7     7(41/2+)                                                E   
+#L XREF=C                                                                 
+#G  608.0     2 100                                                   Z   
+#L 3798.8     6 (39/2-)                                               D   
+#L XREF=C                                                                 
+#G  649.5     2 100                                                   Z   
+#L 4053.0     7(41/2-)                                                A   
+#L XREF=C                                                                 
+#G  693.1     2 100                                                   Z   
+#L 4309.6     7(45/2+)                                                E   
+#L XREF=C                                                                 
+#G  652.9     2 100                                                   Z   
+#L 4461.0     7 (43/2-)                                               D   
+#L XREF=C                                                                 
+#G  662.2     2 100                                                   Z   
+#L 4765.5     7(45/2-)                                                A   
+#L XREF=C                                                                 
+#G  712.5     2 100                                                   Z   
+#L 4989.2     7(49/2+)                                                E   
+#L XREF=C                                                                 
+#G  679.6     2 100       (Q)                                         Z   
+#L 5129.0     8 (47/2-)                                               D  ?
+#L XREF=C                                                                 
+#G  668.0     5 100                                                   Z  ?
+#L 5500.5     9 (49/2-)                                               A   
+#L XREF=C                                                                 
+#G  735.0     5 100                                                   Z   
+#L 5681.3     8(53/2+)                                                E   
+#L XREF=C                                                                 
+#G  692.1     2 100       (Q)                                         Z   
+#L 6276.5    10 (53/2-)                                               A  ?
+#L XREF=C                                                                 
+#G  776.0     5 100                                                   Z  ?
+#L 6381.5     8(57/2+)                                                E   
+#L XREF=C                                                                 
+#G  700.2     2 100                                                   Z   
+#L 7110.5     9 (61/2+)                                               E   
+#L XREF=C                                                                 
+#G  729.0     5 100                                                   Z   
+#L 7879.5    11 (65/2+)                                               E  ?
+#L XREF=C                                                                 
+#G  769.0     5 100                                                   Z  ?
+#                                                                         
+
+#183AU CA IA        Intensity per 100 A DECAYS; from 1991Wa21.                   
+#A IA        Intensity per 100 A DECAYS; from 1991Wa21.                   
+#A HF        If R0=1.49 1 (based on R0 for 182PT, 184PT, 182HG, 184HG in  
+#A 1998Ak04), T(187TL)=15.60 S 12, QA=5322 11 (from EA=5524 9 to          
+#A 183AU(12.4) from 187TL(335 6)).                                        
+#P 335        6  (9/2-)            15.60 S  12                5322  11    
++A alpha 5.536 0.09
++A alpha 5.524 0.91
+

@@ -1,0 +1,56 @@
+#111PD    111RH B- DECAY (11 S)         1992PEZX,1984KAZW,1978FR1609NDS    200905
+#  111RH B- DECAY (11 S)         1992PEZX,1984KAZW,1978FR1609NDS    200905
+#H TYP=FUL$AUT=Jean Blachot$CIT=NDS 110, 1239 (2009)$CUT=1-Feb-2008$      
+#  Sources: 235U,239PU,249CF(N,F) E=TH, 238U(N,F) E=14.8 MEV, chem        
+#  Measured G-singles, GG-coin (semi) (1984KaZW,1978Fr16)                 
+#  on-line radiochemical separations (1984KaZW)                           
+#  1992PeZX: 238U(P,F), E=20 MEV, on-line isotope separator IGISOL        
+#  Measured: G, GG, G(T), CE, GE(LI), Ge, SI(LI), ^ELLI spectrometer      
+#  The level scheme is from 1992PeZX. It is based on levels known         
+#  from (D,P) and GG coin (1984KaZW).                                     
+#B IB$Calculated with GTOL. Has to be considered as preliminary.          
+#G E,RI$From 1992PeZX, except where noted otherwise.                      
+#G E(A)$Seen only by 1984KaZW                                             
+#L T$From adopted levels                                                  
+#P 0.0          (7/2+)           11 S      1              3.65E+3   3     
+RH111 PD111 beta- 3.65 11.0 1.0
++G gamma 0.0 0.009399999999999999
++G gamma 0.1165 0.0113
++G gamma 0.0723 0.013600000000000001
++G gamma 0.19119999999999998 0.0195
++G gamma 0.123 0.02
++G gamma 0.19519999999999998 0.013999999999999999
++G gamma 0.231 0.08900000000000001
++G gamma 0.187 0.0125
++G gamma 0.25930000000000003 0.0155
++G gamma 0.2754 1.0
++G gamma 0.18919999999999998 0.004
++G gamma 0.312 0.013000000000000001
++G gamma 0.181 0.012
++G gamma 0.2205 0.0026
++G gamma 0.4118 0.0942
++G gamma 0.19119999999999998 0.013999999999999999
++G gamma 0.255 0.004699999999999999
++G gamma 0.25930000000000003 0.0155
++G gamma 0.44989999999999997 0.0078000000000000005
++G gamma 0.293 0.003
++G gamma 0.5239 0.005
++G gamma 0.3885 0.013000000000000001
++G gamma 0.6638 0.005
++G gamma 0.377 0.005
++G gamma 0.5135 0.008
++G gamma 0.5295 0.008
++G gamma 0.5582999999999999 0.017
++G gamma 0.5941000000000001 0.015
++G gamma 0.7888999999999999 0.038
++G gamma 0.8075 0.011000000000000001
++G gamma 0.852 0.003
++G gamma 0.8915 0.008
++G gamma 0.6785 0.005
++G gamma 0.8136 0.004
++G gamma 0.8305 0.006
++G gamma 0.8593999999999999 0.013000000000000001
++G gamma 0.895 0.01
++G gamma 0.9318 0.008
++G gamma 0.9765 0.002
+

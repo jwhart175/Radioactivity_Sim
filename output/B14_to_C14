@@ -1,0 +1,81 @@
+# 14C     14B B- DECAY                  1974Al11,1993ReZX,1996OgZZ         201310
+#  14B B- DECAY                  1974Al11,1993ReZX,1996OgZZ         201310
+#H TYP=UPD$AUT=J. Kelley, C.G. Sheu$CUT=28-August-2013$                   
+#H COM=Updated data set since last full evaluation$                       
+#  1974Al11: A target BeO (94% {+10}Be) was bombarded with 31-MeV {+6}Li  
+#  ions; a fast beam chopper was used to establish beam activation and    
+#  decay counting periods. A plastic scintillator detector measured the   
+#  beta emissions while a NaI(TI) detector measured coincident decay      
+#  gamma-rays.                                                            
+#  Activities from numerous reaction products were detected in the        
+#  target, however by applying a beta particle energy threshold cut to    
+#  the beta-gamma coincidence data it was possible to select {+14}C       
+#  gamma-rays that followed the decay of {+14}B.                          
+#  The |b-decay is primarily to {+14}C*(6.09) [J|p=1-] and (6.73) [J|p=3-]
+#  states, though only an upper limit could be placed on a branch to the  
+#  (7.34) [J|p=2-] state. The half-life, T{-1/2}=16.1 ms {I12}, was       
+#  deduced by analyzing the decay curve of the {+14}C*(6.09) state for    
+#  events in coincidence with E{-|b} > 6.3 MeV.                           
+#  The experimental results are gamma-ray intensities. The measured |g-ray
+#  intensity ratios are                                                   
+#  {II}{-6.09}/{II}{-6.73}/{II}{-7.34}=100/(10.0+-2.0)/< 2.2; using these 
+#  observed intensities and the level decay branching ratios from         
+#  1970Aj01, the relative beta feedings to the {+14}C*(6.09,6.73,7.34)    
+#  states was deduced.                                                    
+#  In order to place the relative intensities on an absolute scale the    
+#  authors estimated the unobserved feeding to the ground state as        
+#  (5 {I3})%, and they made a further assumption that the %beta-n=0.      
+#  With these assumptions, which account for (5 {I3})% of the decay, the  
+#  beta decay branching ratios were deduced by combining the              
+#  measured |g-ray intensity ratios with the know level gamma-ray decay   
+#  branching ratios. The absolute beta-branching ratios                   
+#  I|b{-6.09}/I|b{-6.73}/I|b{-7.34}=(81 {I9})%/(8.6 {I+17-40})%/< 11% were
+#  deduced by normalizing to 100%. There are no new measurements on these 
+#  relative values, however subsequent experiments have produced measured 
+#  values for the beta feeding to the ground state and to neutron unbound 
+#  states.                                                                
+#  1993ReZX: Spallation products from 800 MeV proton bombardment of a     
+#  {+232}Th target were captured by a transport line with a mass-to-charge
+#  filter and transferred to the TOFI spectrometer at LAMPF. The          
+#  beamline was separately tuned to transport a number of different       
+#  nuclides. The neutrons were detected in a polyethylene moderated {+3}He
+#  counter, and standard techniques were implemented. The |b-delayed      
+#  neutron probabilities were deduced from analysis of the number of      
+#  implanted ions (per beam pulse) and the rate of |b-delayed neutrons    
+#  detected in the zero-threshold counter.                                
+#  An associated conference report indicates the |b-delayed neutron       
+#  probability P{-n}=(6.1 {I3})% and T{-1/2} = 12.4 ms {I3} (the          
+#  International conference on nuclear data for science and technology:   
+#  nuclear data for the twenty-first century, Gatlinburg, TN (United      
+#  States), 9-13 May 1994).                                               
+#  Results presented in (1993ReZX) analyzed the data measured in the      
+#  polyethylene moderated {+3}He counter and deduced a general value for  
+#  the energy of neutrons emitted from the decay; E{-n}=1.38 MeV          
+#  {I+86-65}. The value E{-n}=1.3 MeV {I3} is published in the 1994       
+#  conference report.                                                     
+#  1996OgZZ: Fragmentation of a 110 MeV/A {+22}Ne beam on a Be target     
+#  produced a {+14}B beam that was implanted in a 7 mm thick active       
+#  plastic stopper. Beta-rays were detected in a |DE-E scintallator       
+#  telescope while gamma-rays were detected in a NaI detector. A          
+#  high-energy component with E{-|b} > 14.6 MeV was observed and found    
+#  in anti-coincidence with gamma-rays. This branch is attributed to      
+#  beta feeding directly to the {+14}C ground state; I|b{-g.s.} =         
+#  (1.4 {I8})%.                                                           
+#  The conference proceeding (1996OgZZ) presents additional results       
+#  indicating clear evidence for feeding of {+14}C*(7.34) though no       
+#  further details are given. No further analysis on the                  
+#  {+14}C*(6.09,6.73) data are presented, and no subsequent publication   
+#  of the work is found.                                                  
+#  Comments:                                                              
+#  Absolute beta branching ratios have been measured for feeding to       
+#  the {+14}C ground state and for feeding to neutron unbound states.     
+#  Therefore, the relative gamma-ray intensity values of (1974Al11)       
+#  are reevaluated with the current level gamma decay branching           
+#  ratios, and the deduced intensities are normalzed with the decay       
+#  feeding the {+14}C ground state and the %|b-n.                         
+#  In the analysis of the uncertainties of the I|b branching ratios the   
+#  I|b{-7.34} is treated as I|b{-max}/2 +- I|b{-max}/2, and the           
+#  uncertainty mainly impacts the I|b{-6.09} branch.                      
+#P 0           2-                12.6 MS   6              20644     21    
+B14 C14 beta- 20.644 0.0126 1
+

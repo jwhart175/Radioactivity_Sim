@@ -1,0 +1,99 @@
+#130BA    130LA EC DECAY (8.7 M)        1982UR01,1995KI06,1973MEZZ01NDS    200107
+#  130LA EC DECAY (8.7 M)        1982UR01,1995KI06,1973MEZZ01NDS    200107
+#H TYP=FUL$AUT=BALRAJ SINGH$CIT=NDS 93, 33 (2001)$CUT=11-May-2001$        
+#  1982UR01: measured EG, IG, GG                                          
+#  1995KI06, 1994SI02: measured EG, GG, GG(THETA) at 90 DEG and 180 DEG   
+#  1973MEZZ (also 1971EAZU): measured EG, IG.                             
+#  (see 1978LEZA or 1974HI08 for listing of EG and IG from 1973MEZZ)      
+#  Others:                                                                
+#  1998KO66: measured Q(EC) from BG coin                                  
+#  1997AS05: measured GG(THETA) for 822-357 cascade                       
+#  1974DR04: measured EG, IG                                              
+#  1968AB02: measured EG                                                  
+#  1965GE03, 1963YA05, 1961SH17: measured G, T1/2(130BA)                  
+#L J$From adopted levels                                                  
+#L E(A)$Level not given in 1995KI06                                       
+#L E(B)$From 1995KI06 only                                                
+#G           ^R=IG(90 DEG)/IG(180 DEG) (1995KI06,1994SI02)                
+#G E$From 1982UR01, unless otherwise stated                               
+#G RI$Average of 1982UR01 and 1973MEZZ, except as noted                   
+#G E(A)$From 1973MEZZ only                                                
+#G E(E)$From 1995KI06 only. Intensity is not given. Uncertainty           
+#G of 0.3 KEV assigned by the evaluator, based on comparison of           
+#G other EG's with those from 1982UR01                                    
+#G E(H)$From 1995KI06. A similar EG is reported by 1973MEZZ,              
+#G but not by 1982UR01                                                    
+#G E(D)$From 1982UR01, G not reported by 1995KI06                         
+#G RI(B)$From GG coin (1982UR01)                                          
+#G RI(F)$From 1973MEZZ                                                    
+#P 0.0         3(+)              8.7 M     1              5666      70    
+LA130 BA130 beta+ 5.666 522.0 0.81
++G gamma 0.4729 0.006
++G gamma 0.818 0.0023
++G gamma 0.8665 0.005
++G gamma 1.654 0.0037
++G gamma 1.736 0.004
++G gamma 1.9539000000000002 0.006
++G gamma 2.0357 0.005
++G gamma 0.3574 1.0
++G gamma 0.5445 0.2
++G gamma 0.5507000000000001 0.32
++G gamma 0.908 0.21
++G gamma 0.4532 0.047
++G gamma 0.4594 0.009000000000000001
++G gamma 1.0036 0.09699999999999999
++G gamma 0.5694 0.035
++G gamma 0.5757000000000001 0.025
++G gamma 1.1202 0.023
++G gamma 0.19619999999999999 0.0025
++G gamma 0.6496000000000001 0.019
++G gamma 0.6556000000000001 0.0026
++G gamma 1.2001 0.036000000000000004
++G gamma 1.5571 0.003
++G gamma 0.36710000000000004 0.005
++G gamma 0.48369999999999996 0.01
++G gamma 0.9366 0.01
++G gamma 0.9428 0.012
++G gamma 1.4872999999999998 0.009300000000000001
++G gamma 0.5217999999999999 0.008
++G gamma 0.9749 0.038
++G gamma 1.5257 0.08
++G gamma 0.5762 0.003
++G gamma 0.6928 0.0039000000000000003
++G gamma 1.1518 0.0043
++G gamma 1.6958 0.0052
++G gamma 0.2345 0.0014000000000000002
++G gamma 0.5217999999999999 0.005
++G gamma 0.6015 0.004
++G gamma 0.7182000000000001 0.034
++G gamma 1.1710999999999998 0.046
++G gamma 1.1774 0.027000000000000003
++G gamma 1.7217 0.023
++G gamma 1.3463 0.011000000000000001
++G gamma 0.8401000000000001 0.0029
++G gamma 0.957 0.005
++G gamma 1.4107 0.005
++G gamma 1.4159000000000002 0.0011
++G gamma 0.2677 0.006
++G gamma 0.4642 0.01
++G gamma 0.5022 0.0025
++G gamma 0.7892 0.0043
++G gamma 0.8693 0.02
++G gamma 0.9863999999999999 0.003
++G gamma 1.4387999999999999 0.027999999999999997
++G gamma 1.445 0.011000000000000001
++G gamma 0.32789999999999997 0.006999999999999999
++G gamma 0.3976 0.006
++G gamma 0.5664 0.0043
++G gamma 0.5921000000000001 0.005
++G gamma 0.8012 0.01
++G gamma 1.744 0.006
++G gamma 2.2879 0.006999999999999999
++G gamma 1.017 0.006999999999999999
++G gamma 1.7878 0.005
++G gamma 2.1825 0.003
++G gamma 2.7521 0.012
++G gamma 2.7579000000000002 0.005
++G gamma 2.7967 0.016
++G gamma 2.8101 0.017
+

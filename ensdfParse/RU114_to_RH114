@@ -1,0 +1,21 @@
+#114RH    114RU B- DECAY                1992JO05                  12NDS    201203
+#  114RU B- DECAY                1992JO05                  12NDS    201203
+#H TYP=FUL$AUT=Jean Blachot$CIT=NDS 113, 515 (2012)$CUT=1-Jan-2012$       
+#  Activity: {+238}U(p,F), E=20 MeV, on-line isotope separator IGISOL     
+#  Measured: |g, |g|g, |g(t), ce, Ge(Li), Ge, Si(Li), Electron            
+#  spectrometer                                                           
+#  Q(|b{+-})=6120 {I20} (1992Jo05) disagrees with mass adjustment value of
+#  4800 syst (1993Au05)?, but is closer (5.50E+3 7) than the new 2011AuZZ 
+#  The beta feedings and logft values should be considered as limits only 
+#G M$From electron measurements                                           
+#G E$|DE estimated by evaluators                                          
+#P 0.0          0+               0.52 S    5               5.50E+3   7    
++G gamma 0.127 0.24
++B beta- 2.358 0.26
++G gamma 0.052700000000000004 0.0648
++G gamma 0.17909999999999998 0.0744
++B beta- 2.322 0.14
++G gamma 0.12819999999999998 0.1008
++B beta- 2.316 0.046
++G gamma 0.0877 0.0288
+

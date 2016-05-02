@@ -1,0 +1,83 @@
+#239PU    243CM A DECAY                                           14NDS    201411
+#  243CM A DECAY                                           14NDS    201411
+#H TYP=FUL$AUT=E. BROWNE, J. K. TULI$CIT=NDS 122, 293 (2014)$             
+#H CUT=30-Jun-2013$                                                       
+#            See also the evaluation from the                             
+#  Decay Data Evaluation Project (DDEP) (2012Ch30)                        
+#  |a|g: 1953As14, 1963Le17, 1966Ba07, 1977VaZW.                          
+#  |a|g(|q): 1963Fl01.                                                    
+#  (L| x ray)(|g)(|q): 1975Za11.                                          
+#  (K| x ray)(L| x ray)(|q): 1974Ma27.                                    
+#A E$From 1966Ba07 (s), unless otherwise specified. 1966Ba07 reported     
+#A uncertainties of 1 keV near their alpha calibration lines of           
+#A 5167.7 ({+240}Pu), 5498.8 ({+238}Pu), 5806.1 ({+244}Cm), and 2-3 keV   
+#A elsewhere. Others: 1953As14, 1957As70, 1957As83, 1962Iv01, 1963Le17,   
+#A 1963Dz07, 1970By01, 1971Bb10, 1976BaZZ, 1977VaZW.                      
+#A IA$From 1966Ba07, unless otherwise specified.                          
+#A Others: 1976BaZZ, 1963Dz07, 1963Le17.                                  
+#A HF        Using r{-0}({+239}Pu)=1.4996, average of                     
+#A r{-0}({+238}Pu)=1.5013 {I10} and r{-0}({+240}Pu)=1.4979 {I7}           
+#A (1998Ak04).                                                            
+#A E(R),IA(R)$From 1979Ry03 and 1991Ry01                                  
+#G CC$ FROM BrIcc v2.2 (31-Mar-2008) 2008KiAA, "Frozen Orbitals" appr.    
+#G CC$From BRICC (Sept. 10, 2013) E. Browne                               
+#G           x-rays(Pu):                                                  
+#G                                                                        
+#G   E|g        I|g(%|a)                  Calculated                      
+#G (1972Ah02) (1972Ah02)               (RADLST)                           
+#G ---------- ----------               --------                           
+#G                                                                        
+#G  99.536     13.5 {I5}    K|a{-2}| x ray     12.5 {I5}                  
+#G 103.750     20.8 {I8}    K|a{-1}| x ray     19.8 {I8}                  
+#G 117.1        7.6 {I3}    K|b{-1}'| x ray     9.8 {I4} (K|b| x ray)     
+#G 120.6        2.6 {I1}    K|b{-2}'| x ray                               
+#G $The agreement between measured and calculated K| x ray supports       
+#G the experimental |g-ray intensities and assigned multipolarities.      
+#G E         Measurements of 1959Ew90 (s ce), 1965Ma17 (cryst),           
+#G 1972Po04 (s ce, semi), and 1979Bo30 (cryst), and 1982Ah04 (semi)       
+#G observed in {+239}Np and {+239}Am decays, except as noted. Other       
+#G measurements: 1953As14 (scin), 1955Sc08 (s ce), 1956Ne17 (pc, scin),   
+#G 1964Ba31 (|a|g, semi).                                                 
+#G RI        From 1972Ah02. Photon intensity per 100 |a decays. Other     
+#G measurements: 1956Ne17, 1964Ba31.                                      
+#G E(S)      Transition was not observed in {+243}Cm |a decay. E|g is     
+#G from the decay of {+239}Np and {+239}Am.                               
+#G E(X)      From 1963Le17 (|a|g and (|a)(ce) coin).                      
+#G M,MR$From ce data in {+239}Am, {+239}Np, and {+243}Cm decays; and      
+#G |g(|q) measurements by 1972Kr07, 1990Si12 from polarized {+239}Np,     
+#G unless otherwise specified.                                            
+#L J         From adopted levels                                          
+#L E$Deduced by evaluator from a least-squares fit to |g-ray energies.    
+#P 0.0          5/2+             28.9 Y    4              6168.8    10    
+CM243 PU239 alpha 6.1688 9.1199466432E8 0.9971
++A alpha 5.713 4.0E-4
++A alpha 6.0662 0.015
++A alpha 6.058 0.047
++A alpha 6.01 0.011000000000000001
++A alpha 5.9918000000000005 0.057
++G gamma 0.067841 0.002
++A alpha 5.907 0.001
++A alpha 5.876 0.006999999999999999
++A alpha 5.7852 0.732
++A alpha 5.742100000000001 0.115
++A alpha 5.686 0.016
++A alpha 5.682 0.002
++A alpha 5.646 3.0E-4
++A alpha 5.639 0.0014000000000000002
++A alpha 5.622 6.0E-4
++A alpha 5.612 3.0E-4
++A alpha 5.609 1.0E-4
++A alpha 5.593 1.0E-4
++A alpha 5.587 2.0E-4
++A alpha 5.582 8.999999999999999E-5
++A alpha 5.575 7.000000000000001E-5
++A alpha 5.568 7.000000000000001E-5
++A alpha 5.537 2.0E-5
++A alpha 5.532 6.0E-5
++A alpha 5.523 2.0E-5
++A alpha 5.332 3.0E-5
++A alpha 5.323 3.0E-5
++A alpha 5.316 1.0E-5
++A alpha 5.267 1.5E-5
++A alpha 5.226 3.9E-6
+

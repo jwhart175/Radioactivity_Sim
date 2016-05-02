@@ -1,0 +1,77 @@
+#161TM    161YB EC DECAY                1981AD02                  11NDS    201111
+#  161YB EC DECAY                1981AD02                  11NDS    201111
+#H TYP=FUL$AUT=C. W. Reich$CIT=NDS 112,2497 (2011)$CUT=1-Jun-2011$        
+#  DATA SET UPDATED (AUGUST, 2009) BY CW REICH TO INCLUDE A NEW QP        
+#   VALUE AND CC VALUES FROM BRICC.                                       
+#  DATA SET UPDATED (MARCH, 2000) BY CW REICH TO INCLUDE REVISED QP       
+#  VALUE, REVISED LEVEL ENERGIES FOR FOUR LEVELS, JPI VALUES, AND SOME    
+#  CHANGES IN THE COMMENTS                                                
+#  Experimental methods:                                                  
+#  1974Ad10: 161YB produced by spallation with 660-MeV p with isotope     
+#       separation.  Reports five G's and half-life.                      
+#  1974La28: On chemical separation methods.  Quotes half-life of 1974Ad10
+#  1974La32: On chemical separation methods.  Quotes half-life of 1974Ad10
+#  1974LaZJ: Short form of material in 1974La28 and 1974La32.             
+#  1974AdZU: Laboratory report giving same values as 1974Ad10.            
+#  1974AdZR: Abstract giving same G data as 1974Ad10.                     
+#  1975Gr44: Laboratory review giving same data as 1974Ad10.              
+#  1976AdZT: Report giving same data as 1974Ad10.                         
+#  1980AdZZ: Abstract related to data in 1981Ad02.                        
+#  161YB produced by 660-MeV proton spallation on Ta and Hf targets,      
+#  followed by isotope separation. G singles and GG(t) coincidences       
+#  measured with Ge detectors. CE spectra measured using Si(Li) and       
+#  magnetic spectrometers and GCE coincidences.                           
+#            Because of the many unplaced |g's, the large gap between     
+#   the energy of the highest reported level and the Q(|e) value, and the 
+#   uncertain status of the mults of some low-energy transitions, the     
+#   evaluator regards the extraction of EC decay-branch intensities from  
+#   intensity-balance considerations as unreliable. Consequently, EC      
+#   decay branch intensities, as well as a |g-intensity normalization,    
+#   are not quoted here.                                                  
+#G           All data are from 1981Ad02, unless otherwise noted; measured 
+#G |g singles, |g|g(t) coincidences, ce spectra, and |gce coincidences.   
+#G RI        K|a{-1}| x-ray intensity is 530 {I40} (1974Ad10).            
+#G RI        Annihilation-radiation intensity is 222 {I30} (1981Ad02).    
+#G M         From {+161}Tm Adopted Gammas and based on ce data from       
+#G {+161}Yb decay (1981Ad02) and |g(|q) from in-beam study (1984Fo04).    
+#G CC        Only a few CC and KC values are given.  More are not         
+#G      justified, since the decay scheme is poorly defined.              
+#L           All data are from 1981Ad02, unless otherwise noted; measured 
+#L |g singles, |g|g(t) coincidences, ce spectra, and |gce coincidences.   
+#L E         From least-squares fit to |g energies, except for the value  
+#L assigned by the evaluator to the 7.4-keV level.                        
+#L E         In 1981Ad02, energies were not determined for the 1/2[411]   
+#L   band members and for the levels proposed as the bandheads of         
+#L   3/2[411] and 1/2[541]. From in-beam studies (1984Fo04), the position 
+#L   of the 1/2+ level was determined, so the evaluator has been able to  
+#L   assign energies to these remaining levels.                           
+#L E         From energy differences of 7 keV among the unplaced |g's,    
+#L  levels at 722, 800, 813, and 823 keV are possible, but are not        
+#L  included.                                                             
+#L T         From {+161}Yb |e decay studies only. See {+161}Tm Adopted    
+#L Levels for additional data for the 78-keV level.                       
+#L J         From adopted values.                                         
+#L           Level is 7/2(0).                                             
+#L           Levels are 1/2(7), 3/2(22), 5/2(167), and 7/2(210).          
+#L           Level is 5/2(18).                                            
+#L           Level is 7/2(78).                                            
+#L           Level is 1/2(367).                                           
+#L           Proposed levels are 3/2(337) and 5/2(433).                   
+#L E(R)      Value deduced by evaluator from placement of 1/2+ level at   
+#L           7.4 keV.                                                     
+#L E(X)      1981Ad02 tentatively placed a 140.25 G between levels        
+#L assigned as the 3/2+ and 5/2+ members of the 1/2[411] band, making     
+#L this G doubly placed. These authors indicated that an alternative      
+#L would be to place a 144.43 G between these two levels. In light of     
+#L subsequent in-beam studies, the evaluator has chosen this latter       
+#L placement. This has led to the energy of this level being revised      
+#L upward from that shown by 1981Ad02.                                    
+#L BAND(A)   GS BAND. CONF=7/2[404].                                      
+#L BAND(B)   1/2[411] band                                                
+#L BAND(C)   5/2[402] band                                                
+#L BAND(D)   7/2[523] band                                                
+#L BAND(F)   1/2[541] band                                                
+#L BAND(G)   POSSIBLE 3/2[411] BAND.                                      
+#N                                                                     5  
+#P   0          3/2-              4.2 M    2                4056    32    
+

@@ -1,0 +1,86 @@
+#159DY    159HO EC DECAY                1982VY02,1971BO18         12NDS    201201
+#  159HO EC DECAY                1982VY02,1971BO18         12NDS    201201
+#H TYP=FUL$AUT=C. W. Reich$CIT=NDS 113, 157 (2012)$CUT=31-Dec-2010$       
+#  DATA SET UPDATED (NOVEMBER, 2010) BY CW REICH TO INCLUDE NEW QP        
+#   VALUE, NEW CC VALUES, AND REVISED CONF NOTATION AND COMMENTS.         
+#  159HO produced by 660-MeV proton spallation of Ta                      
+#       (1966Gr25,1968Ab15,1975GaYZ,1982Vy02), by Dy(p,xn)                
+#       (1971Bo18,1972Ki21), and by Tb(|a,4n) (1958To32). Measured        
+#       G singles, ce, B+, and GG coincidence spectra.                    
+#  The decay scheme and all G and ce data are from 1982Vy02,              
+#       unless otherwise noted. Others, with many fewer G's and           
+#       without uncertainties: 1966Gr25, 1968Ab15, and 1971Bo18.          
+#  Experimental methods:                                                  
+#  1958To32: From Tb(|a,4n). Measured G and T1/2.                         
+#  1961Ab02: From 660-MeV proton spallation of Ta. Measured ce spectra.   
+#      Report 6 G's.                                                      
+#  1964Ma19: From natural Dy(p,xn) and 160DY(p,2n). Measured {+159}Ho     
+#      T1/2 from decay of 128 G.                                          
+#  1965St08: From {+165}Ho(p,7n)|){+159}Er(|e), with chemical separation. 
+#      Measured G's [NaI(Tl) detector] and ce's. Report 3 G's.            
+#  1966La11: From {+165}Ho(p,7n)|){+159}Er(|e). Measured G's and ce's.    
+#       Report T1/2 and approximately 10 G's.                             
+#  1966Gr25: From 660-MeV proton spallation of Ta. Measured G's and       
+#       ce's spectra. Report 25 G's and 16 multipolarities; 21 G's in a   
+#       levelscheme with 7 excited levels.                                
+#  1968Ab15: From 660-MeV proton spallation of Ta. Measured G's           
+#       and ce's. Report 32 G's and 23 multipolarities and 10             
+#       excited levels.                                                   
+#  1971Bo18: From natural Dy(p,xn) at 65 MeV. Measured G, ce, and         
+#       GG coincidence spectra. Report 67 G's and 37                      
+#       multipolarities and 13 excited levels.                            
+#  1972Ki21: From natural Dy(p,xn) with mass separation. Report T1/2      
+#       of a level with an energy GE 177 and < 309.                       
+#  1975GaYZ: From 660-MeV proton spallation of Ta. Measured B+            
+#       spectrum and decomposed it into 3 components.                     
+#  1975Gr44: Summarizes data from the Dubna laboratory, especially,       
+#       Q(B+), three T1/2 and a LOGFT value.                              
+#  1975VaYX: Report 3 level half-lives.                                   
+#  1976Kr21: Summarized |d(E2/M1) values.                                 
+#  1976KrZG: Reports methology of B+ spectral analysis and gives three    
+#       components of the B+ spectrum.                                    
+#  1982Vy02: From 660-MeV proton spallation of Ta with chemical and mass  
+#       separation. Measured B+, G, and ce spectra. Report 108 G's and    
+#       64 multipolarities and 16 excited levels.                         
+#E E         The measured values are given in comments.                   
+#E IB,IE     The I(B+)+I(EC) are from G-intensity balances at the         
+#E      various levels, and the I(B+) and I(EC) are then computed         
+#E      from the theoretical capture to positron ratios. The              
+#E      uncertainties do not include any contribution from the            
+#E      incompleteness of the decay scheme as indicated by the many       
+#E      unplaced G rays. The measured I(B+) values are given in           
+#E      comments for comparison, and are in good agreement.               
+#G E         Several uncertainties were increased due to                  
+#G      inconsistencies among the energies.                               
+#G RI        The measured K x-ray intensities (energies) are 110 {I4}     
+#G      (XKA2 45.207 keV), 197 {I5} (XKA1 45.998), 66 {I3}                
+#G      (XKB1 52.1), and 17.2 {I8} (XKB2 53.5).                           
+#G RI        The measured annihilation radiation intensity is 0.053       
+#G      {I5}. This value is unreasonably low if the B+ were stopped       
+#G      at the source, since it implies a total I(B+) AP 0.11%            
+#G      compared with the measured total of 0.251% {I7} (1982Vy02)        
+#G      and > 0.20% (1975GaYZ). So, it is reasonable to conclude that     
+#G      B+ were not stopped in the source.                                
+#G M,MR      From 159DY Adopted G radiations, but based on measured       
+#G      data from this decay (1982Vy02). Others: 1966Gr25, 1968Ab15,      
+#G      and 1971Bo18.                                                     
+#L E         From least-squares fit to G energies.                        
+#L J         From 159DY Adopted Levels.                                   
+#L T         From 1978AlZC by e|g(t) and GG(t); others: 1975VaYX, by the  
+#L  same authors as 1978AlZC, 1972Ki21 and 1975Gr44, the latter two       
+#L  without uncertainties. Values are from 159HO |e decay only; see the   
+#L  159DY Adopted Levels for additional data for the 177 level.           
+#L BAND(A)   KPI=3/2-, |n3/2[521] band.                                   
+#L BAND(B)   KPI=5/2+, |n5/2[642] band.                                   
+#L BAND(C)   KPI=5/2-, |n5/2[523] band.                                   
+#L BAND(D)   KPI=5/2-, |n5/2[512] band.                                   
+#P   0         7/2-              33.05 M   11             1837.6    27    
++B beta+ 0.3533 1.3E-4
++B beta+ 0.3183 1.7E-4
++B beta+ 0.30019999999999997 1.2E-4
++B beta+ 0.2864 1.0E-5
++B beta+ 0.2746 1.6E-5
++B beta+ 0.273 3.0E-5
++B beta+ 0.2422 0.0018
++B beta+ 0.204 1.7E-4
+

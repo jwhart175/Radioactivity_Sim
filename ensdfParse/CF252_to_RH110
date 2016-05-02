@@ -1,0 +1,19 @@
+#110RH    252CF SF DECAY                2004LU03                  12NDS    201206
+#  252CF SF DECAY                2004LU03                  12NDS    201206
+#H TYP=FUL$AUT=G. G~URDAL and F.G. KONDEV$CIT=NDS 113, 1315 (2012)$       
+#H CUT=1-Aug-2011$                                                        
+#G CC$ FROM BrIcc v2.2 (31-Mar-2008) 2008KiAA, "Frozen Orbitals" appr.    
+#  2004Lu03: |?62|mCi {+252}Cf source was placed between two iron foils   
+#  with a thickness of 10mg/cm{+2} and in the center of Gamma sphere array
+#  (at LBNL), consisting of 102 Compton-suppressed Ge detectors. More than
+#  5.7|*10{+11} triple-|g or higher coincident events were collected.     
+#  Measured: E|g, I|g, |g|g|g                                             
+#L E$From a least-square fit to E{-|g}'s. |DE|g = 0.5 keV was assumed by  
+#L the evaluator                                                          
+#L J$From 2004Lu03                                                        
+#G E,RI,M$From 2004LU03.                                                  
+#L BAND(A)$ (7-) band,|a=1                                                
+#L BAND(a)$ (8-) band,|a=0                                                
+#P  0           0+                2.645 Y  8                              
+CF252 RH110 SF 0.0 0.0 0.03086
+

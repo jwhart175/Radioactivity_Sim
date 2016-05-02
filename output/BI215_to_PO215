@@ -1,0 +1,62 @@
+#215PO    215BI B- DECAY (7.6 M)        2003KU26                  13NDS    201312
+#  215BI B- DECAY (7.6 M)        2003KU26                  13NDS    201312
+#H TYP=FUL$AUT=J.K. Tuli, B. Singh, S. Bhattacharya, S. Dasgupta$         
+#H AUT=J.Y. Lee$                                                          
+#H CIT=NDS 114, 2023 (2013)$CUT=23-SEP-2013$                              
+#  2003Ku26: {+215}Bi produced by {+232}Th(p,X) and {+238}U(p,X) at       
+#  1 GeV proton energy, followed by mass separation. Measured E|g, I|g,   
+#  |a, |g|g, |b|g coin, |a|g coin, |g x ray coin using large Ge detector  
+#  for |g-rays, low-energy Ge detector for x rays and low-energy |g rays, 
+#  plastic scintillator for |b.                                           
+#  2004DeZV: estimated |b feeding to the ground state                     
+#  See also evaluation of this decay scheme by the Decay Data Evaluation  
+#  Project (DDEP on www.nucleide.org); published in M.M. Be et al., Table 
+#  of Radionuclides, volume 7, BIPM Monographie-5 (2013)                  
+#  1990RU02: 215BI mass-separated source produced by spallation of 200-MEV
+#  protons on targets of 232TH. Measured EG, RI, GG coin, BG coin.        
+#  Detectors: 4PI plastic scintillator, GELI.                             
+#B IB,LOGFT$ Except for the strongly populated level at 293.5 keV, all    
+#B other values should be considered as limits (upper for I|b and lower   
+#B for log| {Ift} values), since the level scheme is likely incomplete    
+#B above the excitation energy of 1400 keV. The I|b feedings given here   
+#B are deduced from |g-intensity balances based on 10% {I10} |b feeding   
+#B to g.s. Values listed in 2003Ku26 are given under comments             
+#G RI$ In table 3 of their paper, 2003Ku26 state that gamma intensities   
+#G are in percent per decay, but this is inconsistent with their decay    
+#G scheme in their figure 6. The intensities quoted in table 3 of 2003Ku26
+#G are relative intensities, instead, as communicated in a priv. comm. of 
+#G April 2011 from J. Kurpeta (first author of 2003Ku26) to evaluator     
+#G (Filip Kondev, ANL) of Decay Data Evaluation Project (DDEP)            
+#G M,MR$From Adopted Gammas                                               
+#L E$From least-squares fit of E|g data                                   
+#L J$From Adopted Levels                                                  
+#P 0.0          (9/2-)           7.6 M     2              2189      15    
+BI215 PO215 beta- 2.189 456.0 1.39
+
+#215PO    215BI B- DECAY (36.9 S)       2003KU26                  13NDS    201312
+#  215BI B- DECAY (36.9 S)       2003KU26                  13NDS    201312
+#H TYP=FUL$AUT=J.K. Tuli, B. Singh, S. Bhattacharya, S. Dasgupta$         
+#H AUT=J.Y. Lee$                                                          
+#H CIT=NDS 114, 2023 (2013)$CUT=23-SEP-2013$                              
+#  2003Ku26: {+215}Bi produced by {+232}Th(p,X) and {+238}U(p,X) at 1 GeV 
+#  proton energy, followed by mass separation. Measured E|g, I|g, |a,     
+#  |g|g, |b|g coin, |a|g coin, |g(x ray) coin using large Ge detector for 
+#  |g, low-energy Ge detector for x rays and low-energy |g rays, plastic  
+#  scintillator for |b                                                    
+#B LOGFT$Deduced using the LOGFT computer code. 2003Ku26                  
+#B give 5.18 for 2159 level and 5.48 for 2001 level. These values         
+#B should be reversed as suggested by |g-ray intensities                  
+#G CC$ FROM BrIcc v2.2 (15-APR-2008) 2008Ki07, "Frozen Orbitals" appr.    
+#G E(A)$The orderings of the 158-319-179 and 498-256-226-308-419 cascades 
+#G are not established, the one given here is just one of the             
+#G possibilities                                                          
+#G M$ FROM ADOPTED GAMMAS OR ASSUMED FROM JPI ASSIGNMENTS.                
+#L E$From E|g data                                                        
+#L E(A)$ The orderings of the 158-319-179 and 498-256-226-308-419 |g      
+#L cascades are not established, the ones given here is just one of       
+#L the possibilities, thus the positions of the intermediate levels could 
+#L be different                                                           
+#L J$ FROM ADOPTED LEVELS.                                                
+#P 1347.5+X     (25/2:29/2)(-)    36.9 S   6              2189      15    
+BI215 PO215 beta- 2.189 0.0 1.0
+

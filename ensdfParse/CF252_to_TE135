@@ -1,0 +1,31 @@
+#135TE    252CF SF DECAY                2001LU16,2003HA49         08NDS    200803
+#  252CF SF DECAY                2001LU16,2003HA49         08NDS    200803
+#H TYP=FUL$AUT=BALRAJ SINGH, ALEXANDER A. RODIONOV and YURI L. KHAZOV$    
+#H CIT=NDS 109, 517 (2008)$CUT=22-Jan-2008$                               
+#  2001Lu16, 2003Ha49 (also 2002Ha46): Measured E|g and |g|g using        
+#  GAMMASPHERE array comprised of 100 escape-suppressed large volume Ge   
+#  detectors. 2003Ha49, 2002Ha46 and 2001Lu16 are the results of the same 
+#  experiment.                                                            
+#  1999Fo10: Measured E|g, I|g, |g|g using GASP array of 40 Compton-      
+#  suppressed Ge detectors and inner ball of 80 BGO detectors. Only       
+#  seven |g rays are reported between seven excited states.               
+#G E,RI$ FROM 2003HA49, UNLESS OTHERWISE STATED. VALUES IN 2001LU16 ARE   
+#G NEARLY THE SAME                                                        
+#G RI(A)$Due to long lifetime of 1555 level, the intensity needs          
+#G to be corrected by a factor of |?0.75                                  
+#G E(X),RI(Y)$ FROM 2001LU16 ONLY                                         
+#G E(Z)$ G FROM 2003HA49 ONLY                                             
+#G E(B)$From level-energy difference                                      
+#L E$From least-squares fit to E|g's, assuming |D(E|g)=0.1 keV systematic 
+#L error for each |g ray, as proposed by 2001Lu16 for {+139}Ba data       
+#L J$ As proposed by 2003Ha49, 2001Lu16 and 1999Fo10 based on expected    
+#L shell-model predictions. The assignments are the same in 'adopted      
+#L levels', unless otherwise stated                                       
+#L J(Y)$ NO ASSIGNMENT GIVEN IN 'ADOPTED LEVELS'                          
+#L E(X)$ LEVEL FROM 2003HA49 ONLY                                         
+#L BAND(A)$ POSSIBLE MAGNETIC-ROTATIONAL BAND BASED ON (19/2-).           
+#L Band assignment suggested by 2001Lu16 with possible                    
+#L configuration=|pg{-7/2}{+2}~#|n(f{-7/2}{+2}h{-11/2}{+-1})              
+#L T(Z)$From 'adopted levels'                                             
+#P  0.0         0+                2.645 Y  8                              
+

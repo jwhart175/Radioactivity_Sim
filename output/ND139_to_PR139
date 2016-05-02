@@ -1,0 +1,233 @@
+#139PR    139ND EC DECAY (5.50 H)       1975VY02,1971BU22,1969BE6401NDS    200104
+#  139ND EC DECAY (5.50 H)       1975VY02,1971BU22,1969BE6401NDS    200104
+#H TYP=FUL$AUT=T. W. BURROWS$CIT=NDS 92, 623 (2001)$CUT=9-Feb-2001$       
+#  See 29.7-min |e decay for experimental details.                        
+#  1972Kr24 measured 114|g-708|g(|q) and 114|g-738|g(|q) (Ge(Li),NaI) and 
+#  (700-900|g)(900-1100|g)(t) (NaI; |?5 half-lives). Chem.                
+#  All data and decay scheme from 1971Bu22, except as noted. Other:       
+#  1988IsZX. See also 1989Bu12.                                           
+#L J         From the Adopted Levels, except as noted.                    
+#L J(B)      From |g|g(|q) and multipolarities of deexciting gammas.      
+#L E(A)      Suggested by evaluator based on reaction |g data.            
+#G           Coincidences shown on drawing are from 1969Be64 and 1972Kr24.
+#G See 1969Be64 for possible coincidences.                                
+#G           |a(K)exp: normalized to |a(K)(231|g {+139}Nd; M4)=9.5.       
+#G           1975Vy02 reported the following |g's with T{-1/2}=5.5 h or   
+#G 29.7 min:                                                              
+#G   E|g      I|g|:        E|g      I|g|:        E|g      I|g|:      E|g  
+#G       I|g|:                                                            
+#G ------- -------   -------- -------   -------- ------  -------- ------  
+#G 204.3 {I3} 0.40 {I6}     558.5 {I5} 0.90 {I14}   1204.2 {I5} 0.25 {I4} 
+#G   1440.5 {I5} 0.11 {I3}                                                
+#G 326.0 {I4} 1.04 {I15}    695.5 {I4} 1.46 {I23}   1250.0 {I8} 0.20 {I4} 
+#G   1948.0 {I7} 0.05 {I2}                                                
+#G 343.1 {I5} 1.55 {I22}    845.5 {I6} 0.22 {I6}    1305.7 {I6} 0.18 {I3} 
+#G   1960.0 {I7} 0.11 {I3}                                                
+#G 419.5 {I5} 0.51 {I7}     870.5 {I5} 0.50 {I9}    1400.0 {I4} 0.22 {I4} 
+#G   2052.0 {I7} 0.16 {I5}                                                
+#G 431.2 {I6} 0.78 {I14}    963.0 {I5} 0.26 {I7}    1412.0 {I5} 0.17 {I4} 
+#G   2285.5 {I5} 0.06 {I2}                                                
+#G 463.8 {I4} 1.15 {I14}   1031.5 {I5} 0.65 {I9}    1421.3 {I5} 0.19 {I5} 
+#G                                                                        
+#G |: Relative to I|g(738|g)=100.                                         
+#N 0.40      5           0.882   4 1.1338                                 
+ND139 PR139 beta+ 2.811 1782.0 0.40
+#N NR        assuming no direct feeding of g.s. (|DJ|p=3,yes).            
+#N BR        from I(|g+ce)(231|g in IT decay)+|SI(|g+ce)(to g.s.)=100     
+#N using ce(K)'s and adopted |a's.                                        
+#N 0.353     44                    1.00                                3  
+#G M,MR      From |a(exp)'s and conversion electron ratios, except as     
+#G noted.                                                                 
+#G M(A)      From |a(exp)'s, conversion electron ratios, and |g|g(|q) of  
+#G 1972Kr24.                                                              
+#G MR(B)     From |g|g(|q) of 1972Kr24.                                   
+#G E(C),RI(C)$From 1975Vy02.                                              
+#G E(D)      Placement suggested by evaluator based on statement by       
+#G 1975Vy02 that |?1/2 of the new gammas observed by them could be placed 
+#G between existing levels.                                               
+#G E(E)      Placement suggested by evaluator on the basis of reaction    
+#G |g data.                                                               
+#E E(A)      1975Vy02 obtained the same value.                            
+#P 231.15     511/2-             5.50 H    20             2811      29    
++G gamma 0.1514 0.002
++G gamma 0.1721 0.002
++G gamma 0.4755 0.0175
++G gamma 0.8947999999999999 0.01
++G gamma 1.1658 0.0098
++G gamma 1.2346 0.012
++G gamma 1.2457 0.008199999999999999
++G gamma 1.3648 0.0095
++G gamma 1.6807 0.009000000000000001
++G gamma 2.085 0.0015
++G gamma 2.2011999999999996 0.0036
++G gamma 0.11387 1.13
++G gamma 0.7081000000000001 0.748
++G gamma 0.8221 0.049
++G gamma 0.8278 0.293
++G gamma 0.7382000000000001 1.0
++G gamma 0.852 0.005
++G gamma 0.9101 0.21600000000000003
++G gamma 0.54765 0.067
++G gamma 0.7012 0.11800000000000001
++G gamma 0.7323999999999999 0.016399999999999998
++G gamma 0.1012 0.005
++G gamma 0.2546 0.034
++G gamma 0.6012000000000001 0.016
++G gamma 0.7725 0.0115
++G gamma 0.7965 0.11900000000000001
++G gamma 0.802 0.198
++G gamma 1.5105 0.004
++G gamma 0.9 0.011000000000000001
++G gamma 0.20965 0.051
++G gamma 0.8096 0.18
++G gamma 0.9822000000000001 0.748
++G gamma 1.0062 0.091
++G gamma 1.0123 0.078
++G gamma 0.09290999999999999 0.028999999999999998
++G gamma 0.30269999999999997 0.016
++G gamma 0.40375 0.068
++G gamma 1.0752000000000002 0.099
++G gamma 1.1053 0.077
++G gamma 0.21459999999999999 0.013999999999999999
++G gamma 0.4243 0.0215
++G gamma 1.0249000000000001 0.043
++G gamma 1.2196 0.047
++G gamma 1.2267000000000001 0.038
++G gamma 0.3405 0.0172
++G gamma 1.1512 0.0034999999999999996
++G gamma 1.3223 0.053
++G gamma 2.0609 0.136
++G gamma 0.1479 0.0177
++G gamma 0.36242 0.066
++G gamma 0.5722999999999999 0.022000000000000002
++G gamma 0.6733 0.0176
++G gamma 1.3448 0.013000000000000001
++G gamma 1.3747 0.012
++G gamma 1.2695 0.0013
++G gamma 1.4636 0.009000000000000001
++G gamma 1.4702 0.016
+
+#139PR    139ND EC DECAY (5.50 H)       1975VY02,1971BU22,1969BE6401NDS    200104
+#  139ND EC DECAY (5.50 H)       1975VY02,1971BU22,1969BE6401NDS    200104
+#H TYP=FUL$AUT=T. W. BURROWS$CIT=NDS 92, 623 (2001)$CUT=9-Feb-2001$       
+#  See 29.7-min |e decay for experimental details.                        
+#  1972Kr24 measured 114|g-708|g(|q) and 114|g-738|g(|q) (Ge(Li),NaI) and 
+#  (700-900|g)(900-1100|g)(t) (NaI; |?5 half-lives). Chem.                
+#  All data and decay scheme from 1971Bu22, except as noted. Other:       
+#  1988IsZX. See also 1989Bu12.                                           
+#L J         From the Adopted Levels, except as noted.                    
+#L J(B)      From |g|g(|q) and multipolarities of deexciting gammas.      
+#L E(A)      Suggested by evaluator based on reaction |g data.            
+#G           Coincidences shown on drawing are from 1969Be64 and 1972Kr24.
+#G See 1969Be64 for possible coincidences.                                
+#G           |a(K)exp: normalized to |a(K)(231|g {+139}Nd; M4)=9.5.       
+#G           1975Vy02 reported the following |g's with T{-1/2}=5.5 h or   
+#G 29.7 min:                                                              
+#G   E|g      I|g|:        E|g      I|g|:        E|g      I|g|:      E|g  
+#G       I|g|:                                                            
+#G ------- -------   -------- -------   -------- ------  -------- ------  
+#G 204.3 {I3} 0.40 {I6}     558.5 {I5} 0.90 {I14}   1204.2 {I5} 0.25 {I4} 
+#G   1440.5 {I5} 0.11 {I3}                                                
+#G 326.0 {I4} 1.04 {I15}    695.5 {I4} 1.46 {I23}   1250.0 {I8} 0.20 {I4} 
+#G   1948.0 {I7} 0.05 {I2}                                                
+#G 343.1 {I5} 1.55 {I22}    845.5 {I6} 0.22 {I6}    1305.7 {I6} 0.18 {I3} 
+#G   1960.0 {I7} 0.11 {I3}                                                
+#G 419.5 {I5} 0.51 {I7}     870.5 {I5} 0.50 {I9}    1400.0 {I4} 0.22 {I4} 
+#G   2052.0 {I7} 0.16 {I5}                                                
+#G 431.2 {I6} 0.78 {I14}    963.0 {I5} 0.26 {I7}    1412.0 {I5} 0.17 {I4} 
+#G   2285.5 {I5} 0.06 {I2}                                                
+#G 463.8 {I4} 1.15 {I14}   1031.5 {I5} 0.65 {I9}    1421.3 {I5} 0.19 {I5} 
+#G                                                                        
+#G |: Relative to I|g(738|g)=100.                                         
+#N 0.40      5           0.882   4 1.1338                                 
+ND139 PR139 beta+ 2.811 1782.0 0.40
+#N NR        assuming no direct feeding of g.s. (|DJ|p=3,yes).            
+#N BR        from I(|g+ce)(231|g in IT decay)+|SI(|g+ce)(to g.s.)=100     
+#N using ce(K)'s and adopted |a's.                                        
+#N 0.353     44                    1.00                                3  
+#G M,MR      From |a(exp)'s and conversion electron ratios, except as     
+#G noted.                                                                 
+#G M(A)      From |a(exp)'s, conversion electron ratios, and |g|g(|q) of  
+#G 1972Kr24.                                                              
+#G MR(B)     From |g|g(|q) of 1972Kr24.                                   
+#G E(C),RI(C)$From 1975Vy02.                                              
+#G E(D)      Placement suggested by evaluator based on statement by       
+#G 1975Vy02 that |?1/2 of the new gammas observed by them could be placed 
+#G between existing levels.                                               
+#G E(E)      Placement suggested by evaluator on the basis of reaction    
+#G |g data.                                                               
+#E E(A)      1975Vy02 obtained the same value.                            
+#P 231.15     511/2-             5.50 H    20             2811      29    
++G gamma 0.1514 0.002
++G gamma 0.1721 0.002
++G gamma 0.4755 0.0175
++G gamma 0.8947999999999999 0.01
++G gamma 1.1658 0.0098
++G gamma 1.2346 0.012
++G gamma 1.2457 0.008199999999999999
++G gamma 1.3648 0.0095
++G gamma 1.6807 0.009000000000000001
++G gamma 2.085 0.0015
++G gamma 2.2011999999999996 0.0036
++G gamma 0.11387 1.13
++G gamma 0.7081000000000001 0.748
++G gamma 0.8221 0.049
++G gamma 0.8278 0.293
++G gamma 0.7382000000000001 1.0
++G gamma 0.852 0.005
++G gamma 0.9101 0.21600000000000003
++G gamma 0.54765 0.067
++G gamma 0.7012 0.11800000000000001
++G gamma 0.7323999999999999 0.016399999999999998
++G gamma 0.1012 0.005
++G gamma 0.2546 0.034
++G gamma 0.6012000000000001 0.016
++G gamma 0.7725 0.0115
++G gamma 0.7965 0.11900000000000001
++G gamma 0.802 0.198
++G gamma 1.5105 0.004
++G gamma 0.9 0.011000000000000001
++G gamma 0.20965 0.051
++G gamma 0.8096 0.18
++G gamma 0.9822000000000001 0.748
++G gamma 1.0062 0.091
++G gamma 1.0123 0.078
++G gamma 0.09290999999999999 0.028999999999999998
++G gamma 0.30269999999999997 0.016
++G gamma 0.40375 0.068
++G gamma 1.0752000000000002 0.099
++G gamma 1.1053 0.077
++G gamma 0.21459999999999999 0.013999999999999999
++G gamma 0.4243 0.0215
++G gamma 1.0249000000000001 0.043
++G gamma 1.2196 0.047
++G gamma 1.2267000000000001 0.038
++G gamma 0.3405 0.0172
++G gamma 1.1512 0.0034999999999999996
++G gamma 1.3223 0.053
++G gamma 2.0609 0.136
++G gamma 0.1479 0.0177
++G gamma 0.36242 0.066
++G gamma 0.5722999999999999 0.022000000000000002
++G gamma 0.6733 0.0176
++G gamma 1.3448 0.013000000000000001
++G gamma 1.3747 0.012
++G gamma 1.2695 0.0013
++G gamma 1.4636 0.009000000000000001
++G gamma 1.4702 0.016
+ND139 PR139 beta+ 2.811 19800.0 1.0
++G gamma 0.1141 0.67
++G gamma 0.7079 1.16
++G gamma 0.822 0.07
++G gamma 0.7385 0.28
++G gamma 0.7011000000000001 0.07
++G gamma 0.1986 0.05
++G gamma 0.9 1.0
++G gamma 0.21930000000000002 0.81
++G gamma 0.5428999999999999 0.49
++G gamma 0.762 0.17
++G gamma 0.24580000000000002 0.39
++G gamma 0.8192999999999999 0.1
++G gamma 0.336 0.2
++G gamma 0.1797 0.28
+

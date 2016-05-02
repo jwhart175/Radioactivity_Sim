@@ -1,0 +1,53 @@
+# 87SR    87Y EC DECAY (13.37 H)        1969ZO04,1967MI13         15NDS    201510
+#  87Y EC DECAY (13.37 H)        1969ZO04,1967MI13         15NDS    201510
+#H TYP=FUL$AUT=T.D. Johnson and W.D. Kulp(a)$CIT=NDS 129, 1 (2015)$       
+#H CUT=27-Jul-2015$                                                       
+#  1969Zo04 and 1967Mi13 observed a |b{++} branch                         
+#       a half-life of 13 h to the ground state of {+87}Sr.  1971Ja24     
+#       did not observe this branch and suggest the reported |b{++}'s     
+#       are from the decay of 14.7 h {+86}Y.                              
+#L J         From {+87}Sr Adopted Levels.                                 
+#E E         Q=2172 {I40} keV from measured E{-|b+}=1150 {I40}            
+#E      (1969Zo04).  Other E{-|b+} measurements: 1540 (1967Mi13), 1500    
+#E      (1970Ak05).  From the Q value, E{-|b+}=1220.4 {I11}.              
+#E TI        From the log{Ift} systematics (1998Si17) and the data of     
+#E      1969Zo04, one can obtain upper limits on the intensities of the   
+#E      |e branches to the excited levels in {+87}Sr.  From the log{Ift}  
+#E      systematics these limits are: 388-keV level, 1.0x10{+-13}%;       
+#E      873-keV level, 1.0x10{+-10}%; 1228-keV level, 1.0x10{+-4}%;       
+#E      1253-keV level, 1.0%; and 1740-keV level, 2.0x10{+-5}%.  From     
+#E      the measurements of 1969Zo04, the branches to the 1228 and 1740   
+#E      levels are <0.05%.                                                
+#N 1.00                  0.0157  1063.69                                  
+Y87 SR87 beta+ 1.8617000000000001 287280.0 0.0157
+#N                                 1.0                                    
+#P   380.82  7 9/2+              13.37 H   3              1861.7    11    
++B beta+ 8.445E-4 0.00127
+
+# 87SR    87Y EC DECAY (13.37 H)        1969ZO04,1967MI13         15NDS    201510
+#  87Y EC DECAY (13.37 H)        1969ZO04,1967MI13         15NDS    201510
+#H TYP=FUL$AUT=T.D. Johnson and W.D. Kulp(a)$CIT=NDS 129, 1 (2015)$       
+#H CUT=27-Jul-2015$                                                       
+#  1969Zo04 and 1967Mi13 observed a |b{++} branch                         
+#       a half-life of 13 h to the ground state of {+87}Sr.  1971Ja24     
+#       did not observe this branch and suggest the reported |b{++}'s     
+#       are from the decay of 14.7 h {+86}Y.                              
+#L J         From {+87}Sr Adopted Levels.                                 
+#E E         Q=2172 {I40} keV from measured E{-|b+}=1150 {I40}            
+#E      (1969Zo04).  Other E{-|b+} measurements: 1540 (1967Mi13), 1500    
+#E      (1970Ak05).  From the Q value, E{-|b+}=1220.4 {I11}.              
+#E TI        From the log{Ift} systematics (1998Si17) and the data of     
+#E      1969Zo04, one can obtain upper limits on the intensities of the   
+#E      |e branches to the excited levels in {+87}Sr.  From the log{Ift}  
+#E      systematics these limits are: 388-keV level, 1.0x10{+-13}%;       
+#E      873-keV level, 1.0x10{+-10}%; 1228-keV level, 1.0x10{+-4}%;       
+#E      1253-keV level, 1.0%; and 1740-keV level, 2.0x10{+-5}%.  From     
+#E      the measurements of 1969Zo04, the branches to the 1228 and 1740   
+#E      levels are <0.05%.                                                
+#N 1.00                  0.0157  1063.69                                  
+Y87 SR87 beta+ 1.8617000000000001 287280.0 0.0157
+#N                                 1.0                                    
+#P   380.82  7 9/2+              13.37 H   3              1861.7    11    
++B beta+ 8.445E-4 0.00127
++G gamma 1.7395999999999998 1.0
+

@@ -1,0 +1,20 @@
+#212RN    212FR EC DECAY                1973GOXM                  05NDS    200503
+#  212FR EC DECAY                1973GOXM                  05NDS    200503
+#H TYP=FUL$AUT=E. BROWNE$CIT=NDS 104, 427 (2005)$CUT=1-Jan-2004$          
+#  LOGFT values recalculated for Q(EC)=5122 26 (E.Browne, April 2004).    
+#  Others: 1972HaWF, 1972KhZU                                             
+#E           Since more than 10% of the G-ray intensity has not been      
+#E placed in the level scheme, and since the level scheme shows a lack    
+#E of intensity balance at the 1274.8-KEV level, the IE, IB+ and LOGFT    
+#E given are approximate values.                                          
+#E           Q+=5070 40                                                   
+#G           All data are from 1973GoXM                                   
+#L           The decay scheme is that proposed by 1972HaWF and is based   
+#L on energy fit and GG coincidence data.                                 
+#L J$From 212RN adopted levels                                            
+#P 0.0         5+                20.0 M    6              5122      26    
+FR212 RN212 beta+ 5.122 1200.0 0.57
++B beta+ 1.171 0.0069
++B beta+ 1.109 0.006999999999999999
++B beta+ 0.818 0.00757
+

@@ -1,0 +1,78 @@
+#225FR    225RN B- DECAY                1997BU03                  09NDS    200905
+#  225RN B- DECAY                1997BU03                  09NDS    200905
+#H TYP=FUL$AUT=A. K. Jain (a), R. Raut (b), J. K. Tuli$                   
+#H CIT=NDS 110, 1409 (2009)$CUT=1-Dec-2008$                               
+#G CC$ FROM BrIcc v2.2 (31-Mar-2008) 2008KiAA, "Frozen Orbitals" appr.    
+#  1997Bu03: {+225}Fr sources from Isolde mass separator following        
+#  spallation of ^UC{-2} target by 600 MeV protons; two HPGe detectors    
+#  (FWHM=1.8 keV at 1333); one HPGe x-ray detector (FWHM=0.70 keV at 122  
+#  keV); mini-Orange electron spectrometer; measured E|g, I|g, E(ce),     
+#  I(ce), |g|g coin, |g-ce coin, parent                                   
+#  T{-1/2}. Supersedes 1987BoZP.                                          
+#  The decay scheme is taken from 1997Bu03. Note, however,                
+#  that negative |b{+-} feeding of the 28 level is implied unless         
+#  |d(28|g)=0.6, significantly larger than measured values (0.32 {I2} and 
+#  0.44 {I2}). Also, the measured multipolarity of the 202|g is           
+#  inconsistent with its placement.                                       
+#B IB        From intensity balance at level, assigning (1/2)I|g|+(1/2)I|g
+#B at each placement for doubly-placed transitions whose intensity        
+#B division has not been determined.                                      
+#B LOGFT     Calculated assuming an uncertainty of 300 keV in Q value.    
+#G M         From I|g and I(ce) data measured using systems with known    
+#G absolute efficiency calibrations.                                      
+#G E(A)      E|g values for 136.0|g, 668.05|g and 1421.0|g are at least   
+#G 5|s from expected least-squares adjusted value for placements          
+#G indicated.                                                             
+#G E(C),RI(C)$Peak obscured or unresolved in singles spectrum; most       
+#G of information was obtained from coincidence experiments.              
+#G E(T)      A multiscaling experiment indicates that this line has       
+#G the correct half-life for {+225}Rn decay.                              
+#G E(Z),RI(Z)$Transition not observed, but its existence and total        
+#G intensity was deduced from coincidences between lines feeding the 182  
+#G level and those depopulating the 152 and 182 levels.                   
+#L E         From least-squares adjustment of E|g, omitting the 136.0|g,  
+#L 668.05|g and 1421.0|g each of which fits its placement very poorly (at 
+#L least 5|s from least-squares adjusted value), and all unresolved or    
+#L multiply-placed lines.                                                 
+#L J         From adopted levels.                                         
+#P 0.0          7/2-             4.66 M    4              2.68E3    SY    
++B beta- 0.95 0.06
++B beta- 0.91 0.024
++B beta- 0.94 0.024
++B beta- 0.93 0.051
++B beta- 0.92 0.033
++B beta- 0.92 0.032
++B beta- 0.91 0.027999999999999997
++B beta- 0.88 0.0288
++B beta- 0.87 0.008
++B beta- 0.86 0.03
++B beta- 0.83 0.0064
++B beta- 0.81 0.0143
++B beta- 0.8 0.0069
++B beta- 0.77 0.062
++B beta- 0.77 0.0111
++B beta- 0.73 0.0111
++B beta- 0.71 0.0397
++B beta- 0.7 0.0106
++B beta- 0.69 0.004699999999999999
++B beta- 0.68 0.27
++B beta- 0.66 0.003
++B beta- 0.66 0.013500000000000002
++B beta- 0.65 0.054000000000000006
++B beta- 0.64 0.0241
++B beta- 0.62 1.0E-4
++B beta- 0.6 0.0115
++B beta- 0.57 0.01
++B beta- 0.57 0.0106
++B beta- 0.55 0.0058
++B beta- 0.52 0.0173
++B beta- 0.5 0.0044
++B beta- 0.44 0.0066
++B beta- 0.4 0.0258
++B beta- 0.39 0.009300000000000001
++B beta- 0.38 0.0058
++B beta- 0.36 0.0104
++B beta- 0.35 0.0084
++B beta- 0.33 0.0132
++B beta- 0.3 0.015300000000000001
+

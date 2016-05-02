@@ -1,0 +1,22 @@
+#128IN    128CD B- DECAY                1988FOZX                  15NDS    201510
+#  128CD B- DECAY                1988FOZX                  15NDS    201510
+#H TYP=FUL$AUT=ZOLTAN ELEKES AND JANOS TIMAR$CIT=NDS 129, 191 (2015)$     
+#H CUT=28-Feb-2015$                                                       
+#  The decay scheme is that from the work by ^B. Ekstrom quoted in        
+#  1988FoZX.                                                              
+#L E$Energy values are based on a least-squares fit to the E|g's by       
+#L evaluator.                                                             
+#L T(B)$10 US<T<20 MS (1988FOZX).                                         
+#G E,RI$From data quoted in 1988FOZX; uncertainties are assumed by        
+#G evaluator.                                                             
+#G RI$Relative to I(247.92G)=100 (quoted in 1988FOZX), uncertainties are  
+#G assumed as 10%.                                                        
+#G RI(A)$Divided on the basis of IB(to 710 level) by evaluators.          
+#G M$From ECC from the work by ^B. Ekstrom quoted in 1988FOZX.            
+#  J$from Adopted Levels.                                                 
+#P 0.0          0+                0.28 S    4              690E+1   15    
++B beta- 2.977 0.17
++B beta- 2.944 0.12
++B beta- 2.757 0.02
++B beta- 2.537 0.93
+

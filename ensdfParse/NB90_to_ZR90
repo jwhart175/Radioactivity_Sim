@@ -1,0 +1,79 @@
+# 90ZR    90NB EC DECAY                 1990ME15                  97NDS    199801
+#  90NB EC DECAY                 1990ME15                  97NDS    199801
+#H TYP=FUL$AUT=E. BROWNE$CIT=NDS 82, 379 (1997)$CUT=1-May-1997$           
+#  Measured precision EG and RI with carefully calibrated GELI            
+#  detector systems (1990Me15).                                           
+#  Measured precision EG, G(t), GG and delayed GG coin with GELI-NAI      
+#  escape-suppression spectrometer and GELI (1982Wa24).                   
+#  G singles and CE(t) spectra with chemically separated sources          
+#  (1968Pe01).                                                            
+#  GG(THETA) with NAI-GELI detectors (1978Be12).                          
+#  Delayed BG coin with anthracene and NAI (1964Lo02).                    
+#  Others: 1954On06, 1955Ma31, 1957Sh32, 1958La12, 1959Bj39, 1960Ha06,    
+#  1966Pe10, 1970Tu04, 1971Za03, 1975Pa07, 1980Iw03                       
+#  Decay scheme is based on GG coin and energy sums (1982Wa24).           
+#G           For adjusted EG and RI (based on energy sums and intensity   
+#G balance) see 1982Wa24.                                                 
+#G           For a search for the 2319 to 1761 E5 transition with         
+#G mini-orange detectors, see 1985HaZI.                                   
+#G RI(A)     Upper limits from 1982Wa24 renormalized to current           
+#G normalization.                                                         
+#E           EC branches are obtained from I(G+CE) imbalance at each      
+#E level.                                                                 
+#G                                                                        
+#G      Conversion coefficient data                                       
+#G      ===========================                                       
+#G                                                                        
+#G     EG        EKC #     Mult @          Comments $                     
+#G  ------     ----------  ----------   ------------------------          
+#G   132.7     2.11 15         E3        EKC/ELC=3.22 16 (1968Pe01)       
+#G   141.3     0.268 19        E2        EKC/ELC=6.25 33 (1968Pe01)       
+#G   371.3     0.0088 6        E2                                         
+#G   518.5     0.00195 17                                                 
+#G   827.7     0.00033 4       E1                                         
+#G   890.6     0.00076 6      M1,E2                                       
+#G  1129.2     0.000197 11     E1                                         
+#G  1270.4     0.00068 7      M2,E3                                       
+#G  1575.0     0.00023 6      M1,E2                                       
+#G  1611.7     0.000240 22    M1,E2 &                                     
+#G  1716.2     0.00021 7      M1,E2 &                                     
+#G  1760.7     > 4.8           E0                                         
+#G  1843.3     0.000166 23    M1,E2 &                                     
+#G  1913.2     0.000144 17    M1,E2 &                                     
+#G  2186.3     0.000123 10    M1,E2 &                                     
+#G  2222.4     0.00010 3                                                  
+#G  2319.0     0.000408       E5         EKC=0.000385 30 (1984HaZC)       
+#G                                                                        
+#G     #) Calculated by evaluators from IG (1982Wa24) and ICE (1968Pe01)  
+#G        assuming KC(2319.0G)=0.000408 13 for an E5 transition           
+#G        (1956Sl44,1958Sl94).                                            
+#G     @) Dominant multipole from EKC.                                    
+#G     &) Theoretical CC from 1968Pe01.                                   
+#G     $) For additional measured CE ratios, see 1968Pe01.                
+#G                                                                        
+#G       GG correlation data (1978Be12)                                   
+#G       ===========================                                      
+#G                                                                        
+#G    Correlation       A2          A4       Mixing ratio #               
+#G   -------------   ---------   ---------  --------------------------    
+#G    141.3-1129.2   -0.070 12   -0.003 10  MR(141)=-0.02 +11 -5          
+#G                                          MR(1129)=-0.02 7              
+#G   1611.7-1129.2   -0.088 20   +0.013 18  MR(1612)=+0.35 7 or +2.4 5    
+#G   1716.2-1129.2   -0.011 75   +0.041 60                                
+#G   1984.6-1129.2   -0.006 54   -0.036 50                                
+#G    827.7-1913.2   +0.164 40   +0.062 35                                
+#G    132.7-2186.3   +0.187 38   -0.063 36  MR(133)=+0.06 10              
+#G    890.6-2186.3   +0.132 51   -0.023 48  MR(890)=+0.05 7               
+#G                                                                        
+#G      # From EKC and GG(THETA) data assuming adopted JPI's.             
+#G                                                                        
+#G E,RI      From 1990Me15, except as noted.                              
+#G M,MR$From conversion coefficient and GG(THETA) data, and adopted JPI's 
+#N 0.08203   20 0.0820320 1.0      1.0                                    
+#N                                                                     3  
+#N NR        Assuming no EC feeding to GS (8+ to 0+ transition).          
+#N With this normalization the total average gamma-ray energy             
+#N SUMOF ^E|g|*I|g is 5970 50, which compares with                        
+#N Q- x branching=6111 4                                                  
+#P 0.0         8+                14.60 H   5              6111       4    
+

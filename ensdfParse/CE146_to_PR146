@@ -1,0 +1,59 @@
+#146PR    146CE B- DECAY                1980YA07                  97NDS    199712
+#  146CE B- DECAY                1980YA07                  97NDS    199712
+#H TYP=FUL$AUT=L. K. PEKER AND J. K. TULI$CIT=NDS 82, 187 (1997)$         
+#H CUT=30-SEP-1997$                                                       
+#  Measured: G, GG (1967Ho19,1968Ho16,1977Bj02,1979Bo26,1980Ya07,         
+#  \1984So18), BG (1967Ho19,1980Ya07), CE (1968Ho16), see also 1969WiZX,  
+#  1970HoZJ, 1972Oh08                                                     
+#  Measured: IB using total absorption G spectrometer (1997Gr09)          
+#  Decay scheme is that from 1980Ya07                                     
+#  Analysis based on the balance of IG and tentative multipolarities      
+#  showed that IB to any of the levels LE 150 KEV is weak (LT 1.5%)       
+#  (1980Ya07). The low energy gammas from these levels are strongly       
+#  converted M1,E2 with unknown MR and therefore CC and TI=IG(1+CC).      
+#  For higher energy gammas from levels GT 350 KEV the conversion is      
+#  much weaker and may be neglected.                                      
+#  To deduce the reliable normalization for IB and IG from the balance    
+#  of IG possible weak B transitions                                      
+#  to levels LE 150 KEV are neglected.                                    
+#  Accordingly, B- feeding was determined assuming no B- decay to 146PR   
+#  levels with E LT 150 KEV                                               
+#B           B and BG reveal the B-components: 830 KEV 50, 600 KEV 50     
+#B (1980Ya07), 748 109 (1981Eb01). Others: 1964Be10, 1967Ho19             
+#B           IB(GS) LT 0.045% from LOGF1UT GT 8.5.                        
+#G           I(CE) were normalized through I(XK)=35 5 (1968Ho16) assuming 
+#G RI(316G)=100                                                           
+#L J         Adopted values                                               
+#G E(A)$Placement based on energy sum postulated by 1997Gr09              
+#B E$IB(0.0+12.2+35.0+87.1)=2.6 17 (1997Gr09)                             
+#P 0.0         0+                13.52 M   13             1026      35    
+CE146 PR146 beta- 1.026 811.1999999999999 1.0
++G gamma 0.17384 0.0023042
++G gamma 0.2455 0.0026976
++G gamma 0.4627 3.372E-4
++G gamma 0.012230000000000001 0.0017422000000000002
++G gamma 0.022879999999999998 1.1240000000000002E-4
++G gamma 0.03505 0.011240000000000002
++G gamma 0.05219 0.0052828
++G gamma 0.08719 0.007868
++G gamma 0.10088 0.025290000000000003
++G gamma 0.09855 0.032034
++G gamma 0.13352 0.08149
++G gamma 0.10617 0.006182000000000001
++G gamma 0.14129 0.032596
++G gamma 0.21046 0.04945600000000001
++G gamma 0.21822999999999998 0.20794
++G gamma 0.25089 0.025290000000000003
++G gamma 0.26456 0.08992000000000001
++G gamma 0.31674 0.562
++G gamma 0.35149 0.023042000000000003
++B beta-0.001 0.19
++G gamma 0.36923 0.0017422000000000002
++G gamma 0.41570999999999997 0.012926
++G gamma 0.46802 0.00843
++G gamma 0.4908 6.182000000000001E-4
++G gamma 0.503 0.010116
++B beta-0.001 0.18
++G gamma 0.37565 0.0010116
++G gamma 0.52683 6.744E-4
+

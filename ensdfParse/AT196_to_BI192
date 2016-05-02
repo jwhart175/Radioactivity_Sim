@@ -1,0 +1,24 @@
+#192BI    196AT A DECAY                 1996EN01,2000SM06,2005DE0112NDS    201209
+#  196AT A DECAY                 1996EN01,2000SM06,2005DE0112NDS    201209
+#H TYP=FUL$AUT=Coral M. Baglin$CIT=NDS 113, 1871 (2012)$CUT=15-Jun-2012$  
+#  OTHERS: 1967TR06, 1995MO14, 1997PU01                                   
+#  2005DE01: 196AT FROM |a DECAY OF 200FR; SI DETECTOR (FWHM=30 KEV);     
+#  MEASURED EA, PARENT ^T{-1/2}, BRANCHING.  SEE ALSO 2004DEZV.           
+#  2000SM06: 196AT FROM 165HO(36AR,5N) AT E=178 MEV; ^RITU GAS-FILLED     
+#  SEPARATOR; 16-STRIP POSITION-SENSITIVE SI DETECTOR; MEASURED EA,       
+#  PARENT ^T{-1/2}.                                                       
+#  1997PU01: 196AT FROM 166ER(36AR,P5N) USING 208 MEV PULSED BEAM;        
+#  96.3% ENRICHED 166ER TARGET; ^GARIS GAS-FILLED RECOIL SEPARATOR WITH   
+#  POSITION-SENSITIVE DETECTOR AT FOCAL PLANE; measured EA,               
+#  (evaporation residue)-|a1-|a2 correlations.                            
+#  1967TR06: sources from 185RE(20NE,9N), 187RE(20NE,11N) (E(20NE)=100-200
+#  MEV, helium-jet transport); 96.66% 185RE and 96.7% 187RE               
+#  targets; measured EA, parent T (silicon surface-barrier detectors).    
+#A HF        For R0=1.540 18 (UNWEIGHTED AVERAGE OF R0(192PB)=1.513 3 AND 
+#A R0(192PO)=1.585 16 (this evaluation), AND R0(190PB)=1.511 6 AND        
+#A R0(194PO)=1.551 10 (1998AK04).                                         
+#L J         FROM Adopted Levels.                                         
+#P 0.0          (3+)             387 MS    14             7198      50    
+AT196 BI192 alpha 7.198 0.387 0.94
++A alpha 7.049 1.0
+

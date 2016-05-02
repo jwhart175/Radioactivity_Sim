@@ -1,0 +1,86 @@
+#128SN    128IN B- DECAY (0.84 S)       1979FO10                  15NDS    201510
+#  128IN B- DECAY (0.84 S)       1979FO10                  15NDS    201510
+#H TYP=FUL$AUT=ZOLTAN ELEKES AND JANOS TIMAR$CIT=NDS 129, 191 (2015)$     
+#H CUT=28-Feb-2015$                                                       
+#  1979FO10: 235U(N,F) E=TH, on-line mass separation; Ge detector, GG;    
+#  scintillator-scintillator BG.                                          
+#  1986GO10: 235U(N,F) E=TH, on-line mass separation; G, B.               
+#  The decay scheme of 128IN is that proposed by 1979FO10. The levels     
+#  connected with G-transitions to GS and lowest-2+ level, and            
+#  transitions coincident with them, were assigned to this decay (see     
+#  also 0.72 S decay). No B- transition to the 4+ level at 2000.35 KEV    
+#  was assumed.                                                           
+#L E$E(levels) are based on a least-squares fit to the E|g's.             
+#G E(A,B)$Isomeric assignment uncertain.                                  
+#G E(A)$Not placed in the decay scheme in 1979FO10.                       
+#  IB$calculated by evaluators from G intensities and their               
+#  uncertainties given in 1979Fo10.                                       
+#L J$From Adopted Levels                                                  
+#P 0.0          (3)+              0.84 S    6              922E1    15    
++B beta- 3.635 0.17
++B beta- 3.192 0.126
++B beta- 3.119 0.036000000000000004
++B beta- 3.111 0.011200000000000002
++B beta- 2.967 0.0236
++B beta- 2.941 0.021
++B beta- 2.937 0.019299999999999998
++B beta- 2.883 0.006500000000000001
++B beta- 2.79 0.0132
++B beta- 2.724 0.0155
++B beta- 2.66 0.0124
++B beta- 2.521 0.185
++B beta- 2.347 0.039
++B beta- 2.314 0.059000000000000004
++B beta- 2.294 0.0366
++B beta- 2.275 0.0229
++B beta- 2.257 0.031
++B beta- 2.189 0.033
++B beta- 2.185 0.0091
++B beta- 2.152 0.129
++B beta- 2.051 0.002
+
+#128SN    128IN B- DECAY (0.72 S)       1979FO10,1981FO02         15NDS    201510
+#  128IN B- DECAY (0.72 S)       1979FO10,1981FO02         15NDS    201510
+#H TYP=FUL$AUT=ZOLTAN ELEKES AND JANOS TIMAR$CIT=NDS 129, 191 (2015)$     
+#H CUT=28-Feb-2015$                                                       
+#  1979FO10: 235U(N,F) E=TH, on-line mass separation; Ge detector, GG;    
+#  Ge CE, scintillator-scintillator BG, BG(T).                            
+#  1981FO02: same setup and authors as 1979FO10; measured T1/2 (2491),    
+#  multipolarity (79G, 321G).                                             
+#  The decay scheme of 128IN is that proposed by 1979FO10. The levels     
+#  connected with G-cascades to (5-) and (7-), based on the coincidence   
+#  relations, were assigned to this decay.                                
+#L E$E(levels) are based on a least-squares fit to the E|g's.             
+#B IB$Calculated by evaluators from G intensities and their               
+#B uncertainties given in 1979Fo10. The transition intensity out of the   
+#B lowest-lying 5- and 7- levels has been taken to represent 100% of the  
+#B decay of the high-spin isomer of the parent. The TI feeding these      
+#B levels only amounts to 82.5%. The remaining intensity is being         
+#B attributed to direct B-transition from (8)- parent to (7-) isomer in   
+#B 128SN.                                                                 
+#G E,RI$From 1979FO10, unless otherwise noted.                            
+#G E(B)$Not placed in the decay scheme in 1979FO10.                       
+#G RI(A)$These G rays follow the 6.5 S half-life of the (7-) level at     
+#G 2378 KEV in 128SN. Due to difficulties in obtaining sources with       
+#G indium and tin in equilibrium, the uncertainties in the intensities    
+#G of these G rays may amount to about 25% (1979FO10).                    
+#G M$From EKC.                                                            
+#P 3.4E+2    6  (8-)              0.72 S    10             922E1    15    
++B beta- 3.359 0.14
++B beta- 3.223 0.047
++B beta- 3.082 0.0
++B beta- 3.169 0.07200000000000001
++B beta- 3.018 0.0
++B beta- 2.948 0.0086
++B beta- 2.845 0.021
++B beta- 2.747 0.004
++B beta- 2.64 0.015
++B beta- 2.564 0.013999999999999999
++B beta- 2.515 0.034
++B beta- 2.474 0.32
++B beta- 2.46 0.0087
++B beta- 2.423 0.204
++B beta- 2.353 0.038
++B beta- 2.339 0.022000000000000002
++B beta- 2.029 0.024
+

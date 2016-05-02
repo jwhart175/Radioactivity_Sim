@@ -1,0 +1,32 @@
+#107TC    252CF SF DECAY                2004LU20                  08NDS    200805
+#  252CF SF DECAY                2004LU20                  08NDS    200805
+#H TYP=FUL$AUT=Jean Blachot$CIT=NDS 109, 1383 (2008)$CUT=1-Mar-2008$      
+#  2004LU20: Levels of {+105}Tc were studied through the spontaneous      
+#  fission of a {+252}Cf source sandwiched between two Fe foils, and      
+#  placed in an 8-cm polyethylene ball.                                   
+#  Measured E|g, I|g, |g|g, lifetimes with the Gammasphere array,         
+#  comprised of 102 active Compton-suppressed Ge detectors.               
+#  1998HW04: "GAMMASPHERE" with 72 Compton-suppressed Ge detectors        
+#  Others: 1970WA05, 1972CHYZ, 1973TAZG, 1974CLZX                         
+#  Analysis of transitions emitted from fission fragments prior to BETA   
+#  decay. Transition half-lives are from (SF-fragment)G(T)-coin (semi);   
+#  assignments from (fragment)(fragment)(XK)(G,CE) coin                   
+#G E$Transition energies listed to two decimal places in 2004Lu20 for     
+#G the purposes of testing sum relationships in the decay scheme and for  
+#G determining signature splitting. The authors do not believe the        
+#G the absolute transition energies are accurate to better than 0.1 keV.  
+#G The uncertainties given here represent statistical standard deviations 
+#G with systematic uncertainty of 0.1 keV, added in quadrature            
+#G M$|a(exp)'s were determined from the intensity balances                
+#G E(B)$ Already seen by 1998Hw04                                         
+#L E$From least-squares fit to E|g's                                      
+#L BAND(A)$ |p7/2[413], |a=+1/2                                           
+#L BAND(a)$ |p7/2[413], |a=-1/2                                           
+#L BAND(B)$ K+2 SATELLITE BAND, |a=+1/2.                                  
+#L Band originating from 7/2[413] band                                    
+#L BAND(b)$ K+2 SATELLITE BAND, |a=-1/2.                                  
+#L Band originating from 7/2[413] band                                    
+#L BAND(C)$ |p1/2[431] intruder BAND                                      
+#P 0.0          0+                2.645 Y  8                              
+CF252 TC107 SF 0.0 0.0 1.0
+

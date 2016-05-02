@@ -1,0 +1,32 @@
+# 90RB    90KR B- DECAY                 1979DU04                  97NDS    199801
+#  90KR B- DECAY                 1979DU04                  97NDS    199801
+#H TYP=FUL$AUT=E. BROWNE$CIT=NDS 82, 379 (1997)$CUT=1-May-1997$           
+#  Activity from 235U(N,F), mass separation.                              
+#  Measured EG, IG, CE, GG coin. Magnetic spectrometer, GELI (1979Du04).  
+#  Measured IG, IB. GELI, 4PI plastic scintillators (1976Wo05).           
+#  For a discussion of the differences between decay schemes of 1979Du04  
+#  and 1970Ma11, see 1979Du04.                                            
+#  Measured EG, IG(T) from n induced fission. Anti-Compton and curved     
+#  crystal spectrometers. EG values given as comments include             
+#  statistical and systematic uncertainties (1979Bo26).                   
+#  Others: 1962Wa34, 1970Ma11, 1974Gr29                                   
+#  All data are from 1979Du04, except as noted.                           
+#L J,T       See adopted levels.                                          
+#B IB        IB(g.s.) from 1976Wo05 from absolute B counting.             
+#B IB for excited states obtained by TI imbalance at each level,          
+#B assuming no B- feeding to 106.9 level from spin difference.            
+#G RI        Relative photon intensity.                                   
+#G E(A)      The 106-keV and 121-keV doublets were resolved by G and      
+#G conversion electron measurements (1979Du04).                           
+#N 0.039     3           1.0       1.0                                    
+KR90 RB90 beta- 10.35 1.92 0.039
+#N                                                                     3  
+#N NR$from SUMOF RI(1 + ALPHA) (GS) + RI(1 + ALPHA) (isomer)=100 - 29 4%, 
+#N where IB(GS)=29% 4 was measured by 1976Wo05. Normalization factor      
+#N NR=0.047 3 given by 1976Wo05 is incorrect. It was possibly deduced     
+#N without including the sum of G-ray transition intensities to the       
+#N 106.9-KEV isomer. NR=0.039 3 deduced by evaluators agree with          
+#N NR=0.0389 27 from 1975Ko16.                                            
+#P 0                   0+        32.32 S   9              4392      17    
++G gamma 0.0 0.008100000000000001
+

@@ -1,0 +1,40 @@
+#141PR    141CE B- DECAY                1979HA09                  14NDS    201411
+#  141CE B- DECAY                1979HA09                  14NDS    201411
+#H TYP=FUL$AUT=N. NICA$CIT=NDS 122, 1 (2014)$CUT=1-Jan-2012$              
+#  Measured: G, XK, B-, CE                                                
+#  (1979HA09,1975LE09,1972SA34,1968LE03,1967WH01,1967IS04,1967BL03,       
+#  1965WA13,1964HA20)                                                     
+#  2000KE02: reanalyzed published Internal Bremsstrahlung data            
+#  1994MO48: ^Moss spectrum                                               
+#  1994FU16: 141CE as calibration source                                  
+#  The adopted half-life of {+141}Ce, 32.508 d {I13}, is a weighted       
+#  average of 32.50 d {I20} (1950Fr58), 32.60 d {I20} (1971Ba28),         
+#  32.51 d {I6} (1971De11),32.45 d {I13} (1972Em01), 32.55 d {I1}         
+#  (1972La14), 32.51 d {I6} (1973MeYE), 32.501 d {I13} (1976Va30),        
+#  32.50 d {I3} (1980RuZY), 32.51 d {I10} (1983Wa26), and 32.510 d {I24}  
+#  (1992Un01).                                                            
+#B           BG(THETA): 1970WO07, 1965RA08, 1961DE27, 1960RU03            
+#B           BG(CP): 1972SC02, 1971VA15, 1969RA10, 1961DE27               
+#B           B(long pol): (1972PO15)                                      
+#B           Shape of BETA spectra: (1979HA09,1971BO19,1968BE06)          
+#B           BETA matrix elements: 1992CH09, 1977NA07, 1976BA29, 1973CI01 
+#G M         EKC from XK-CE coin and XK/I(145G) (1979HA09)                
+#G           Double K-shell ionization with K internal conversion of 146G 
+#G (1985NA09)                                                             
+#G           Total K-shell ionization probability after B- decay to       
+#G 145 level=0.000179 11 (1986NA07), 0.000168 21 (1992BEZB)               
+#G           For measured RI for 145G and XK and XL see                   
+#G 1993BEZV, 1992SC24, 1987ME17, 1985ME18                                 
+#G           The ratio I(XK)/RI(145G)=0.346 5, deduced from gamma-ray and 
+#G K-electron conversion data in this evaluation, agrees with 0.342 3,    
+#G which is a weighted average of the following experimental values:      
+#G 0.338 5 and 0.347 12 (1961NE12); 0.342 9 (1972CA07); 0.334 9           
+#G (1971CA49); 0.349 5 (1979HA09); 0.339 5 (1992SC24). This agreement     
+#G confirms the self consistency of the decay scheme.                     
+#L J         Adopted values                                               
+#P 0.0         7/2-              32.511 D  13             580.4     11    
+CE141 PR141 beta- 0.5804 2808950.4000000004 1.0
++B beta- 0.18078 0.303
++B beta- 0.12972 0.6970000000000001
++G gamma 0.1454433 0.484
+

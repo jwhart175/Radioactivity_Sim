@@ -1,0 +1,15 @@
+#124SN    124SN IT DECAY                1992BR06                  08NDS    200807
+#  124SN IT DECAY                1992BR06                  08NDS    200807
+#H TYP=FUL$AUT=J. KATAKURA, Z.D. WU$CIT=NDS 109, 1655 (2008)$             
+#H CUT=1-Apr-2008$                                                        
+#  1992Br06: {+124}Sn({+76}Ge,{+76}Ge') E=325 MeV; measured off-beam |g,  
+#  |g(t), |g|g                                                            
+#  The decay scheme is that proposed by 1992Br06                          
+#L E         From a least-squares fit to E|g's                            
+#L J         From adopted levels                                          
+#G E         From adopted gammas, unless otherwise noted                  
+#G E(A)      From 1992Br06                                                
+#G M         From adopted gammas                                          
+#P 2656.6    5 (10+)             45 US     5                              
+SN124 SN124 IT 0.0 4.5E-5 1.0
+

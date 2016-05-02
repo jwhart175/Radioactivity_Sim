@@ -1,0 +1,46 @@
+#180HF    180LU B- DECAY                1986KEZW,1973KAYQ,1971GU0215NDS    201506
+#  180LU B- DECAY                1986KEZW,1973KAYQ,1971GU0215NDS    201506
+#H TYP=FUL$AUT=E.A. MCCUTCHAN$CIT=NDS 126, 151 (2015)$CUT=1-Feb-2015$     
+#  1986KeZW: {+180}Lu activity from {+180}Hf(n,p), E(n)=fast. Measured    
+#  E|g, I|g using Ge(Li) detector (FWHM=1.5 keV at 500 keV)               
+#  1973KaYQ: {+180}Lu activity from {+180}Hf(n,p), E(n)=14 MeV. Measured  
+#  E|g, I|g, E|b, I|b, |g(t), |g|g, and |b|g coincidences with Ge(Li)     
+#  detectors and scintillation spectrometers.                             
+#  1971Gu02: {+180}Lu activity from {+180}Hf(n,p), E(n)=14.8 MeV.         
+#  Measured E|g, I|g, E|b, I|b, |g(t), |g|g, and |b|g coincidences with a 
+#  Ge(Li) and NaI(Tl) detector and a plastic scintillator.                
+#  Other: 1971Sw01                                                        
+#  No |b{+-} population (0.005% {I18}) from {+180}Lu to {+180m}Hf(5.5 h)  
+#  (1986Ke19). Other value: 0.46% {I15} (1984Es02). The discrepancy with  
+#  the value given by 1986Ke19 could be explained by assuming the         
+#  existence of a {+180}Lu isomer. However, 1986Le19 found no evidence    
+#  of a {+180}Lu isomer in the 10-300 s half-life range. % branching      
+#  given by 1984Es02 may be affected by an imprecise correction of the    
+#  contribution from {+180}Hf (5.5 h) directly produced in the reaction.  
+#  Its uncertainty may have also been underestimated by using a linear    
+#  approximation with partial derivatives for the propagation of large    
+#  uncertainties.                                                         
+#L E$From a least-squares fit to E|g, by evaluator.                       
+#L J,T$From the Adopted Levels                                            
+#G E,RI$Weighted average of data from 1986KeZW, 1973KaYQ, and 1971Gu02,   
+#G except where noted.                                                    
+#G M,MR$From the Adopted Gammas.                                          
+#G E(X)$Reported by 1971Gu02 have not been confirmed by 1973KaYQ,         
+#G 1986KeZW.                                                              
+#L $See 1992So09 and 1990SoZZ for configuration assignments of {+180}Hf   
+#L levels populated in the |b{+-} decay of {+180}Lu, based on |b{+-}      
+#L transition rates, on calculated two-quasiparticle excitation           
+#L energies, and on level de-excitation patterns.                         
+#L E(A)$K|p=0+ ground state rotational band                               
+#L E(B)$K|p=2+ |g-vibrational band                                        
+#  MODIFIED BY E. BROWNE (OCTOBER 21, 1992).                              
+#  CC$FROM BrIcc v2.3a (30-Jun-2013) 2008Ki07, "Frozen Orbitals" appr.    
+#P 0.0          5+                5.7 M     1              3100     70    
++B beta- 1.099 0.05
++B beta- 0.707 0.03
++B beta- 0.668 0.02
++B beta- 0.633 0.006999999999999999
++B beta- 0.534 0.78
++B beta- 0.533 0.015
++B beta- 0.478 0.09
+

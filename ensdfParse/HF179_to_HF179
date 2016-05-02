@@ -1,0 +1,35 @@
+#179HF    179HF IT DECAY (18.67 S)      1962MO10                  09NDS    200902
+#  179HF IT DECAY (18.67 S)      1962MO10                  09NDS    200902
+#H TYP=FUL$AUT=Coral M. BAGLIN$CIT=NDS 110, 265 (2009)$CUT=15-Nov-2008$   
+#  Others: 1946FL01, 1951BU50, 1951DE24, 1951HA84, 1951KA46, 1959HO91,    
+#  1962AL08, 1963KA34, 1963VE03, 1964LO09, 1965BUZZ, 1966VE07, 1967AB08,  
+#  1967YU01, 1968KA23, 1970JO16, 1972JO05, 1972BF03, 1972BEWN.            
+#G           1962MO10: measured EG, RI. Detector: scin.                   
+#G E(A)      From Adopted Gammas.                                         
+#L E         FROM EG.                                                     
+#L J         FROM Adopted Levels.                                         
+#P 375.0352  251/2-              18.67 S   4                              
++G gamma 0.214335 0.953
++G gamma 0.160696 0.0287806
+
+#179HF    179HF IT DECAY (25.05 D)      1970HU04,1970HU15,1975HU1509NDS    200902
+#  179HF IT DECAY (25.05 D)      1970HU04,1970HU15,1975HU1509NDS    200902
+#H TYP=FUL$AUT=Coral M. BAGLIN$CIT=NDS 110, 265 (2009)$CUT=15-Nov-2008$   
+#  ISOMER PRODUCTION: TA(A,D), EA=30 MEV (1975HU15); 176YB(A,N),          
+#  EA=33 MEV (1970HU04); 176YB(A,N), EA=30 MEV (1970HU15).                
+#  1975HU15: measured G(|q,^H,^T) and GG(|q,^H); deduced MOMM1 for        
+#  Hf(25.05 D), MR.                                                       
+#  1970HU04: measured EG, RI, ICE, GG coin, G(T). Detectors:              
+#  GE(LI), scin, SILI.                                                    
+#  1970HU15: measured CE. Detectors: SI(LI), magnetic spectrograph.       
+#G           Experimental conversion coefficients of 1970HU15 were        
+#G recalculated by evaluator assuming EKC(453.6G)=0.0190 (E2 theory).     
+#G E         Weighted average of EG values from 1970HU04 and 1970HU15.    
+#G RI        From 1970HU04.                                               
+#G MR        FROM Adopted Gammas IF NOT NOTED TO THE CONTRARY.            
+#L E         FROM LEAST-SQUARES FIT TO EG.                                
+#L J         FROM Adopted Levels.                                         
+#L BAND(A)   9/2[624] GS BAND.                                            
+#P   1105.74 1625/2-             25.05 D   25                             
++G gamma 0.02103 8.2716E-5
+

@@ -1,0 +1,39 @@
+#169IR    173AU A DECAY (25 MS)         1999PO09,2004GOZZ         08NDS    200809
+#  173AU A DECAY (25 MS)         1999PO09,2004GOZZ         08NDS    200809
+#H TYP=FUL$AUT=CORAL M. BAGLIN$CIT=NDS 109, 2033 (2008)$CUT=15-Jun-2008$  
+#  OTHER: 2001KO44.                                                       
+#  Parent T=25 MS 1 FROM 2001KO44 and 2004GOZZ (OTHER VALUE: 20 MS +9-6   
+#  from 1999PO09).                                                        
+#A HF        If R0=1.55 1 (based on R0(168OS)=1.558 8 in 1998AK04, and    
+#A R0(170PT)=1.548 12 (2002BA93)), parent T=25 MS 1                       
+#A (2001KO44), %A(173AU)=94 19 (1999PO09) and QA=6836 5 (2003AU03).       
+#L J,T       From Adopted Levels.                                         
+#P 0.0          (1/2+)           25 MS     1              6836      5     
++A alpha 6.683 1.0
+
+#169IR    173AU A DECAY (14.0 MS)       1999PO09,1996PA01,1983SC2408NDS    200809
+#  173AU A DECAY (14.0 MS)       1999PO09,1996PA01,1983SC2408NDS    200809
+#H TYP=FUL$AUT=CORAL M. BAGLIN$CIT=NDS 109, 2033 (2008)$CUT=15-Jun-2008$  
+#  OTHER: 2001KO44.                                                       
+#  1983SC24: Sources from 92MO bombardments of                            
+#  rubidium-molybdenum targets (velocity-filter,                          
+#  evaporation-residue separation); measured EA, IA                       
+#  (position-sensitive Si surface-barrier detectors).                     
+#  1996PA01: sources from heavy-ion fusion-evaporation reactions; recoil  
+#  mass separator, double-sided SI strip detector (FWHM LE 20 KEV);       
+#  measured EA, parent and daughter ^T{-1/2} and %A(169IR).               
+#  1999PO09: produced 177TL grandparent using 102PD(78KR,p2n) reaction    
+#  at 370 MEV; fragment mass analyzer, recoils implanted into double-sided
+#  Si strip detector; measured EA, EP, p-|a and |a-|a correlations,       
+#  ^T{-1/2}, %A, %P.                                                      
+#  Parent T=14.0 MS 9, the weighted average of 14 MS 1                    
+#  (2001KO44,2004GOZZ), 12 MS +3-2 (1999PO09) and 15 MS 2 (1996PA01).     
+#  Other: 59 MS +45-18 (1983SC24).                                        
+#  Parent level energy is 214 23 from 1999PO09 based on EP from 177TL     
+#  GS and from 177TL isomeric state to 176HG GS.                          
+#A HF        If R0=1.55 1 (based on R0(168OS)=1.558 8 in 1998AK04, and    
+#A R0(170PT)=1.548 12 (2002BA93)), parent T=14.0 MS 9                     
+#A (1999PO09), %A(173AU)=92 13 (1999PO09) and QA=6836 5.                  
+#P 214       23 (11/2-)          14.0 MS    9             6836      5     
++A alpha 6.737 1.0
+

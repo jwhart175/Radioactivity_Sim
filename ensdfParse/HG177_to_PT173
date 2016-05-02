@@ -1,0 +1,33 @@
+#173PT    177HG A DECAY                 2009AN20                  ENSDF    201511
+#  177HG A DECAY                 2009AN20                  ENSDF    201511
+#H TYP=FUL$AUT=J. Tuli$CIT=ENSDF$CUT=15-AUG-2015$                         
+#  {+177}Hg obtained as daughter of {+181}Pb |a decay which was produced  
+#  in {+144}Sm({+40}Ca,3n) at beam energy of 196 MeV at GSI SHIP facility 
+#  Measured: E|a, (recoil)|a, |a|a correlations, half-lives, |a decay     
+#  branching ratios.                                                      
+#  Detection system: Evaporation residues were detected with position-    
+#  sensitive silicon detector with |DE|?25 keV FWHM. |a- energy           
+#  calibration was performed using |a-lines from {+176-182}Hg and their   
+#  daughters. Distinction between the reaction and production channels    
+#  was performed with three TOF detectors.                                
+#  Others: 1991Se01, 1996PA01, 2002RO17.                                  
+#  1975Ca39: sources from 142ND(40CA,5N) (E(40CA)=220-240 MEV),           
+#  helium-jet transport; targets enriched to 96% in                       
+#  142ND; measured EA, IA (annular silicon detector).                     
+#  1979Ha10: sources from spallation of PB by 600-MEV protons,            
+#  mass separation; measured                                              
+#  EA, IA (silicon surface-barrier detector, FWHM AP 25),                 
+#  AG coin (GELI G detector).                                             
+#  2004GOZZ: MO(84SR,XNYP), E=380-395 MEV; ISOTOPICALLY ENRICHED (~98%)   
+#  TARGETS; ^GAMMASPHERE ARRAY(101 COMPTON-SUPPRESSED Ge DETECTORS);      
+#  FRAGMENT MASS ANALYZER WITH POSITION-SENSITIVE PARALLEL-PLATE          
+#  AVALANCHE COUNTER IN FOCAL PLANE; DOUBLE-SIDED SI STRIP DETECTOR       
+#  SURROUNDED BY 4 ^GAMMASPHERE-type Ge DETECTORS AND ONE ^LEPS;          
+#  MEASURED TOF, EA, IA, |a(T), EG, |a-|g COIN, G-G COIN, RECOIL-G-COIN;  
+#  RECOIL-DECAY TAGGING TECHNIQUE.                                        
+#A HF        IF R0=1.55 (BASED ON R0(172PT)=1.55 3 AND R0(174PT)=1.545 10 
+#A (1998AK04)).                                                           
+#P 0.0          (7/2-)           118 MS    8              6736      50    
+HG177 PT173 alpha 6.736 0.118 1.00
++A alpha 6.579 1.0
+

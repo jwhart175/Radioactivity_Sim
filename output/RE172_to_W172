@@ -1,0 +1,57 @@
+#172W     172RE EC DECAY (15 S)         1977BE66,1975ST02,1986SZ0695NDS    199509
+#  172RE EC DECAY (15 S)         1977BE66,1975ST02,1986SZ0695NDS    199509
+#H TYP=FUL$AUT=BALRAJ SINGH$CIT=NDS 75,199 (1995)$CUT=31-May-1995$        
+#  1977Be66: 172RE produced by TL(p,^X) E=1 GEV, spallation reactions.    
+#  Measured E, GG. Two activities in 172RE identified, based on           
+#  measurement of intensity ratios (of 123 and 254G) as a function of     
+#  time. One activity (15 S) populated states with J GE 4 while the other 
+#  populated states with J LE 4. No isomeric transition was reported      
+#  1975St02: 172RE produced by 159TB(20NE,7n) E=180 MEV. Measured G, GG.  
+#  Three GAMMA rays reported at 122.9, 254.0 and 350.3                    
+#  1986Sz06: 172RE produced by 165HO(16O,9N) E=177 MEV. Measured G,       
+#  absolute (per 100 decays of the parent) IG. Activity studied by        
+#  1986Sz06 is probably mixed but                                         
+#  RI(254G)/RI(123G)=2 (1986Sz06) suggests predominantly 55-s activity    
+#L J$From adopted levels                                                  
+#G E$Weighted average of 1977Be66 and 1975St02, unless otherwise stated   
+#G RI$From 1977Be66                                                       
+#G M$From adopted gammas                                                  
+#G           The following GAMMA rays with EG(RI) tentatively             
+#G assigned (1974Be59) to 172RE EC decay were not listed in the authors'  
+#G later publication (1977Be66): 434 (11), 715 (3), 744 (5), 786 (1),     
+#G 930 (6), 961 (1), 969 (1), 1041 (2), 1053 (1)                          
+#G           The decay scheme cannot be normalized due to insufficient    
+#G information                                                            
+#P 0.0+X       (5)               15 S      3              7.29E3    46    
+RE172 W172 beta+ 7.29 15.0 1.0
++G gamma 0.12329999999999999 0.45
++G gamma 0.2538 1.0
++G gamma 0.3504 0.55
++G gamma 0.4194 0.1
+
+#172W     172RE EC DECAY (55 S)         1977BE66,1975ST02,1986SZ0695NDS    199509
+#  172RE EC DECAY (55 S)         1977BE66,1975ST02,1986SZ0695NDS    199509
+#H TYP=FMT$AUT=J. Tuli$DAT=19-Apr-2005$COM=fixed fmt/typo$                
+#H TYP=FUL$AUT=BALRAJ SINGH$CIT=NDS 75,199 (1995)$CUT=31-May-1995$        
+#  55-s activity obtained as daughter product from 172OS EC decay.        
+#  Measured EG, IG, GG                                                    
+#  1986Sz06: 172RE produced by 165HO(16O,9N) E=177 MEV. Measured G,       
+#  absolute (per 100 decays of the parent) IG (relative to RI(absolute)   
+#  of main GAMMA rays from                                                
+#  172TA decay). The 172RE activity studied by 1986Sz06 is probably mixed 
+#  but RI(254G)/RI(123G)=2 (1986Sz06) suggests predominantly 55-s activity
+#L J$From adopted levels.                                                 
+#G E$Weighted average of 1977Be66 and 1975St02                            
+#G RI$From 1977Be66                                                       
+#G M$From adopted gammas                                                  
+#G           The decay scheme cannot be normalized due to insufficient    
+#G information. Comparison of RI(per 100 decays) for 123G and 254G from   
+#G 1986Sz06 with RI(relative) from 1977Be66 and 1975St02 suggests a       
+#G normalization factor of 0.17 4; but the intensities given by 1986Sz06  
+#G may be contributed, in part, by the 15-s activity                      
+#P 0.0+Y       (2)               55 S      5              7.29E3    46    
+RE172 W172 beta+ 7.29 55.0 1.0
++G gamma 0.743 0.26
++G gamma 0.12329999999999999 1.35
++G gamma 0.2538 1.0
+

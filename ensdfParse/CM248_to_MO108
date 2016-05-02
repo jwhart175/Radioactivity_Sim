@@ -1,0 +1,22 @@
+#108MO    248CM SF DECAY                1996GU04,1991HO16,1990DUZWENSDF    200810
+#  248CM SF DECAY                1996GU04,1991HO16,1990DUZWENSDF    200810
+#H TYP=FUL$AUT=Jean Blachot$CIT=ENSDF$CUT=1-Jul-2008$                     
+#H TYP=FUL$AUT=Jean Blachot$CIT=NDS 91, 135 (2000)$CUT=1-Jun-2000$        
+#  1996Gu04: {+248}Cm SF decay. 6.5|*10{+4} fissions/s. Eurogam           
+#  45 large volume Ge detectors, DCO                                      
+#  1990Ho12, 1991Ho16: {+248}Cm SF decay. 6.5|*10{+4} fissions/s. Argonne 
+#  Notre Dame |g facility                                                 
+#  10 Bi-germinate-suppressed Ge detectors, 2 Leps, 1 array of 50 Bi-Ge   
+#  scin used as a multiplicity filter. They select only fission           
+#  fragments with an average |g multiplicity of |?10. The                 
+#  assignment is mainly based on coin with complementary Ba isotopes.     
+#  1990DuZW: {+252}Cf SF decay. Same method                               
+#  The level scheme is as given by 1996Gu04                               
+#G E$From 1996Gu04                                                        
+#G RI$Relative photon branching from each level (1996Gu04)                
+#L J$From 1996Gu04 based on DCO and systematics                           
+#L BAND(A)$GS BAND.                                                       
+#L BAND(B)$POSSIBLE G-VIBRATIONAL BAND.                                   
+#L T(C)$From 1996SM04, DOPPLER-profile method                             
+#P 0.0          0+               3.48E+5 Y 6                              
+

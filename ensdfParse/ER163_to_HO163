@@ -1,0 +1,66 @@
+#163HO    163DY[+66] B- DECAY (48 D)    1992JU01,1997KL06         10NDS    201005
+#  163DY[+66] B- DECAY (48 D)    1992JU01,1997KL06         10NDS    201005
+#H TYP=FUL$AUT=C. W. REICH, BALRAJ SINGH$CIT=NDS 111, 1211 (2010)$        
+#H CUT=12-Apr-2010$                                                       
+#  Bound state |b{+-} decay of {+163}Dy{+66+} ion with T{-1/2}={ 48 d}    
+#  1992Ju01,1997Kl06 (also 1993Ju02,1995Bo34): T{-1/2} measured by storing
+#  {+163}Dy, fully-stripped (66+ charge state) ions in a heavy-ion        
+#  storage ring.                                                          
+#  T{-1/2}({+163}Dy{+66+})=48 d {I3} (1997Kl06). Other from the same      
+#  group: { 47 d {I+5-4}} (1992Ju01)                                      
+#  Q(|b{+-}) for K-shell bound-state decay={ 50.3 {I10}};                 
+#  for L-shell Q(|b{+-})={ 1.7 keV} (1992Ju01)                            
+#P  0            5/2-               48 D   3                -2.565  14+66 
+
+#163HO    163ER EC DECAY (75.0 M)       1972FU09                  10NDS    201005
+#  163ER EC DECAY (75.0 M)       1972FU09                  10NDS    201005
+#H TYP=FUL$AUT=C. W. REICH, BALRAJ SINGH$CIT=NDS 111, 1211 (2010)$        
+#H CUT=12-Apr-2010$                                                       
+#  DATA SET UPDATED (OCTOBER, 2008) BY CW REICH TO INCLUDE CC VALUES      
+#   FROM BRICC AND ALTERED COMMENTS                                       
+#  1972Fu09 (also 1966Fu04): measured K| x ray and |g's, |g|g-coin.       
+#  Others: 1951Bu25, 1953Ha43, 1960Bu27, 1961Ab04, 1961Bj02, 1963Pe16,    
+#  1963Gr14, 1965St08, 1971WoZQ, 1973MaYI, 1975Gr44, 1979DzZZ             
+#G $I|g(K| x ray)=6.8|*10{+5} {I13}, I|g(|g{+|+})<106 relative to         
+#G I|g(298|g)=100 (1966Fu04). %|b{++}=0.004 (1963Pe16)                    
+#G $|g rays of 230 (I|g|?9) and 348 (I|g|?2) reported by                  
+#G 1966Fu04 are omitted here, since these are not confirmed in            
+#G the later work of 1972Fu09                                             
+#G M(B)$From (d,2n|g)                                                     
+#G E(D)$Tentative placement (evaluators) based on (d,2n|g) results        
+#L J$From adopted levels                                                  
+#L E(C)$Level proposed (evaluators) on the basis of (d,2n|g) results      
+#L BAND(A)   GS BAND, |p7/2[523]                                          
+#L BAND(B)   |p1/2[411] band.                                             
+#L BAND(D)   |p7/2[404] band.                                             
+#P 0.0          5/2-             75.0 M    4              1210      5     
+ER163 HO163 beta+ 1.21 4500.0 1.0
++G gamma 0.0805 4.6E-6
++G gamma 0.1646 4.6E-6
++G gamma 0.4171 8.74E-6
++G gamma 0.5585 5.865E-6
++G gamma 0.7112999999999999 1.2305E-5
++G gamma 0.1 1.6904999999999998E-5
++G gamma 0.2978 1.15E-4
++B beta+ 0.09820000000000001 0.00828
++B beta+ 8.242000000000001E-4 0.001353
++B beta+ 8.216E-4 0.001373
++G gamma 0.3398 3.3350000000000004E-5
++G gamma 0.43989999999999996 2.76E-4
++B beta+ 8.213000000000001E-4 0.0013750000000000001
++G gamma 0.1926 5.060000000000001E-6
++G gamma 0.45230000000000004 6.900000000000001E-6
++G gamma 0.552 3.2199999999999997E-6
++G gamma 0.2539 3.795E-6
++G gamma 0.6143 3.3350000000000004E-5
++B beta+ 8.154E-4 0.0014188
++G gamma 0.43610000000000004 2.852E-4
++G gamma 0.44480000000000003 9.085E-6
++G gamma 0.484 2.76E-6
++G gamma 0.5684 8.625E-6
++G gamma 0.5781000000000001 1.334E-5
++G gamma 0.8757999999999999 6.9E-5
++B beta+ 7.921E-4 0.00159
++G gamma 1.0136 8.625E-6
++G gamma 1.1135 4.899E-4
+

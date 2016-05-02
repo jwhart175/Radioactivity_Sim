@@ -1,0 +1,66 @@
+#153SM    153PM B- DECAY                1988WIZY,1983MAYP,1995GR1906NDS    200602
+#  153PM B- DECAY                1988WIZY,1983MAYP,1995GR1906NDS    200602
+#H TYP=FUL$AUT=R. G. Helmer {+*}$CIT=NDS 107, 507 (2006)$CUT=31-Dec-2005$ 
+#  The decay scheme is from 1988WiZY with |g|g coincidences data from     
+#       1983MaYP and added |b branch intensities from 1995Gr19 and        
+#       1997Gr09.                                                         
+#  1962Ko10: produced by {+154}Sm(|g,p); report T{-1/2} and 4 |g's.       
+#  1968Na21: level half-lives from |g|g(t).                               
+#  1970SeZY: report 9 |g's.                                               
+#  1978PiZQ, 1979PiZP: produced from {+235}U fission; report 20 |g's      
+#       and scheme with 13 excited levels.                                
+#  1983MaYP: produced from {+252}Cf fission and chemical separation;      
+#       report 32 |g's and |g|g coincidences.                             
+#  1988GrZY: produced by {+252}Cf fission and isotope separation;         
+#       report T{-1/2}.                                                   
+#  1988WiZY: produced by {+252}Cf fission and isotope separation;         
+#       private communication, report 50 |g's.                            
+#  1990An31: produced by {+252}Cf fission and isotope separation;         
+#       report T{-1/2} (same group as 1988GrZY and 1988WiZY).             
+#  1990Ba57: produced from {+252}Cf fission and chemical separation;      
+#       show decay scheme (same group as 1988GrZY, 1988WiZY, and          
+#       1990An31).                                                        
+#  1993Gr17: produced by {+252}Cf fission and isotope separation;         
+#       report Q value from |b spectrum measured with Ge detector in      
+#       coincidence with |g rays.                                         
+#  1995Gr19: produced by {+252}Cf fission and isotope separation;         
+#       measured I{-|b-} to levels below 70 keV from total absorption     
+#       |g spectra.                                                       
+#  1997Gr09: produced by {+252}Cf fission and isotope separation;         
+#       measured I{-|b-} to all levels from total absorption              
+#       |g spectra.                                                       
+#B           For the levels above 80 keV with depopulating |g's, the      
+#B      I|b- are from |g-ray intensity balances, but if the TAGS          
+#B      results differ significantly, they are noted in a comment.        
+#B      Below 80 keV, from total absorption |g (TAGS) measurement         
+#B      (1995Gr19, 1997Gr09),  I{-|b-}(0+7+35+53+65)=40% {I6} and then    
+#B      from |g intensity balances I{-|b-}(0+7)=10% {I5}.  And,           
+#B      I{-|b-}(7) is chosen to be approximately equal to I{-|b-}(0).     
+#G           There are a number of other |g rays reported in              
+#G      {+152}Sm(n,|g) from the levels reported here, but which have      
+#G      not been observed in the {+153}Pm |b- decay. These |g's are       
+#G      generally weak and have not been included here.                   
+#G           |g|g coincidences are from 1983MaYP.                         
+#G E         From 1988WiZY who made use of the precise energies from      
+#G      {+152}Sm(n,|g) (1969Sm04).                                        
+#G RI        From unweighted average of values of 1978PiZQ, 1983MaYP,     
+#G      and 1988WiZY with typical uncertainties assigned. Below 50 keV,   
+#G      the intensity balance at the 35-keV level and the I{-|b-}         
+#G      data of 1995Gr19 and 1997Gr09 were used to determine that the     
+#G      values of 1983MaYP were preferred.                                
+#G M,MR      From {+153}Sm Adopted Gammas and comments here.              
+#L           From total absorption |g (TAGS) spectra, the |b- decay       
+#L      intensity as a function of the excitation energy has been         
+#L      deduced (1997Gr09) independent of the |g-ray intensity balances.  
+#L      These data imply |b- decay to additional levels, especially       
+#L      above the highest level with |g decay at 630 keV.                 
+#L E         From least-squares fit to |g energies.                       
+#L T         For excited levels, from |g|g(t) (1968Na21).                 
+#L E(R)      Pseudolevel from TAGS data analysis.                         
+#L BAND(A)    K|p=3/2+ band, 3/2[651]+3/2[402] states                     
+#L BAND(B)    K|p=3/2- band, 3/2[521] state                               
+#L BAND(D)    K|p=3/2- band, 3/2[532] state                               
+#L BAND(E)    K|p=3/2+ band, 3/2[402]+3/2[651] states                     
+#P   0         5/2-              5.25 M    2              1881      11    
+PM153 SM153 beta- 1.881 315.0 1.0
+

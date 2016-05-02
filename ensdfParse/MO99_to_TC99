@@ -1,0 +1,98 @@
+# 99TC    99MO B- DECAY                 1992GO22                  11NDS    201102
+#  99MO B- DECAY                 1992GO22                  11NDS    201102
+#H TYP=ERR$AUT=B. Singh$DAT=26-Feb-2014$COM=Typo in key numbers$          
+#H TYP=FUL$AUT=E. BROWNE, J. K. TULI$CIT=NDS 112, 275 (2011)$             
+#H CUT=1-Nov-2009$                                                        
+#  Modified by E. Browne (May 7, 2010): BRICC, GTOL, LOGFT.               
+#  B- feeding to 534 level: 0.0027% (previous evaluation) is WRONG.       
+#  GTOL gives: B-0.0027% (that is, ZERO %)                                
+#  The decay scheme is based on 1992Go22.                                 
+#  Measured: |g (1992Go22,1990Me15,1978MeZK); |g, |g|g, |g|g(|q)          
+#  (1982Si16); |g, |g|g (1969Co18); |g, |g|g (1968Va14); |g (1980Di16);   
+#  others: 1980Ya10, 1976Pr18, 1969Ba54 |g|g(|q)                          
+#  (1974Ga01,1973Bh02,1976Pr18,1972Ge04, \1965An02,1970Gf01); ce, K| x    
+#  ray (1981Ge05,1973Le29,1971La12,1971Vo06,                              
+#  \1971Mc02,1969Ba54,1969Ba03,1969Vu03,1969Ra01,1969Ag04,                
+#  1968Va14,1992Go22). Others: 1950Bu91, 1951Me18,1954Ca63, 1954Le53,     
+#  1954Va03, 1958Es69, 1965Cr02, 1965Cr03, 1968Az03, 2003La27.            
+#  |b spectra measured by 1971Na01 using magnetic spectrometer.           
+#  Deduced E|b and shape factors. No evidence was found for               
+#  a |b group with endpoint higher than 1214 keV.                         
+#  Differential |b|g directional correlation investigated                 
+#  by 1968Ap01.                                                           
+#  G         Others: 1996Ci05.                                            
+#G CC$ FROM BrIcc v2.2 (31-Mar-2008) 2008KiAA, "Frozen Orbitals" appr.    
+#G           The large discrepancies of the measurements of |g|g(|q)      
+#G involving the 181 level                                                
+#G as intermediate state are probably due to perturbations influenced     
+#G by the long half-life of the 181 level. Studying this effect,          
+#G 1974Ga01 obtained for the 3/2(740|g)5/2(181|g)9/2 cascade:             
+#G A{-2}=+0.126 {I4}, A{-4}=-0.005 {I6} (cubic metal);                    
+#G A{-2}=+0.123 {I3}, A{-4}=-0.010 {I4} (dilute solution);                
+#G A{-2}=+0.100 {I4}, A{-4}=-0.006 {I6} (original solution);              
+#G A{-2}=+0.061 {I3}, A{-4}=-0.004 {I5} (Mo(03) powder);                  
+#G a similar result was obtained by 1982Si16 who studied the              
+#G correlation with a solid source and two different solutions;           
+#G others: 1969Ja17, 1968ZaZZ, 1959Bo43, 1958Ra16.                        
+#G           The influence of the chemical environment on the conversion  
+#G electron spectrum has been investigated by 1983Dr15 and 1982Ge01.      
+#G           Investigations of the hyperfine field by use of |g|g(H,|q):  
+#G 1972Ra44, 1971Wi08.                                                    
+#G $Measurements of x-rays:                                               
+#G E(K|a{-1}| x ray)=18.3671, E(K|a{-2}| x ray)=18.2506 {I6} (1968Va14)   
+#G I(K|a| x ray)=(78.7 {I32})|*I|g normalization, I(K|b| x ray)=(14.3     
+#G {I6})|*I|g normalization (1980Di16); I(K|a| x ray)=(79.8 {I25})*NR     
+#G (1992Go22). See 1981Ge05 for investigation of M x ray, xn, and Auger   
+#G spectra. The influence of the chemical state on I(K|a| x ray), I(K|b|  
+#G x ray) has been investigated by 1981Yo08.                              
+#G E         From 1990Me15 and 1978MeZK, if not indicated otherwise.      
+#G RI        From 1992Go22, if not indicated otherwise                    
+#G RI(A)     From 1990Me15                                                
+#G M         From |g|g(|q) and |a(K)exp, if not noted otherwise.          
+#L J         Adopted values                                               
+#P 0           1/2+              65.976 H  24             1357.0    10    
+MO99 TC99 beta- 1.357 237513.6 1.0
++G gamma 0.08940000000000001 3.065E-5
++G gamma 0.45583999999999997 1.3486E-5
++G gamma 0.49052999999999997 1.1033999999999998E-5
++G gamma 0.5812999999999999 9.808E-6
++G gamma 0.5996 2.0842E-5
++B beta- 0.44289999999999996 0.8220000000000001
++G gamma 0.04058323 0.01064168
++G gamma 0.181068 0.0614226
++B beta- 0.2897 0.0116
++G gamma 0.366421 0.01203932
++G gamma 0.3917 3.1876E-5
++B beta- 0.2255 5.7E-4
++G gamma 0.16237000000000001 1.20148E-4
++G gamma 0.528788 5.7622E-4
++G gamma 0.58051 3.1876E-5
++G gamma 0.621771 1.839E-4
++G gamma 0.76177 4.0457999999999994E-6
++B beta- 0.13319999999999999 0.16399999999999998
++G gamma 0.158782 1.91256E-4
++G gamma 0.24903 3.9232E-5
++G gamma 0.411491 1.4712E-4
++G gamma 0.7395 0.1226
++G gamma 0.7779210000000001 0.0430326
++B beta- 0.1044 0.00146
++G gamma 0.24229 2.5746000000000004E-5
++G gamma 0.46963 2.6972E-5
++G gamma 0.8229719999999999 0.0013486000000000001
++G gamma 0.8612000000000001 7.356E-5
++G gamma 0.53779 3.3102E-5
++B beta- 0.0639 1.2E-4
++G gamma 0.4576 8.214200000000001E-5
++G gamma 0.62003 2.3294E-5
++G gamma 0.9864400000000001 1.4711999999999999E-5
++B beta- 0.06 0.00111
++G gamma 0.38012999999999997 1.0543599999999998E-4
++G gamma 0.960754 9.5628E-4
++G gamma 1.0013429999999999 5.517E-5
++B beta- 0.0508 1.9E-5
++G gamma 0.41026999999999997 1.9616E-5
++B beta- 0.0429 2.1E-5
++G gamma 0.6896 4.291E-6
++G gamma 1.017 6.130000000000001E-6
++G gamma 1.0562 1.09114E-5
+

@@ -1,0 +1,76 @@
+#194HG    194TL EC DECAY (33.0 M)       2003SU30,1972AM03         06NDS    200606
+#  194TL EC DECAY (33.0 M)       2003SU30,1972AM03         06NDS    200606
+#H TYP=FUL$AUT=BALRAJ SINGH$CIT=NDS 107, 1531 (2006)$CUT=15-Apr-2006$     
+#  2003Su30: 194TL source obtained as daughter of 194PB isotope           
+#  chemically separated in reaction: 181TA(19F,6N) at                     
+#  110 MEV. Measured EG, IG, GG, half-life of 194TL isotope.              
+#  Absolute |g-ray intensity measured from 194PB-194TL successive         
+#  decays and using absolute |g-ray intensity information for             
+#  194PB decay                                                            
+#  1972Am03: Measured G, CE. Mass separated isotope from                  
+#  spallation reaction                                                    
+#  Others: 1970To14, 1968Pe13, 1960Ju01, 1976WeZM                         
+#E           E(B+)=4.4 MEV 3, reported by 1976WeZM probably corresponds   
+#E to a B+ transition to GS                                               
+#G           Several unplaced G rays are given with the decay of the      
+#G 32.8-min isomer of 194TL. These belong to either or both the isomers.  
+#G See G rays from 194TL EC decay (32.8 M)                                
+#G M,MR      From CE data (1972Am03,1968Pe13)                             
+#G E,RI$ FROM 2003SU30. CORRESPONDING VALUES FROM 1972AM03                
+#G ARE IN AGREEMENT BUT LESS PRECISE. THE G-RAY INTENSITIES ARE           
+#G ABSOLUTE INTENSITIES (PER 100 DECAYS OF 33.0 M-194TL)                  
+#G E(A),RI(A)$ FROM 2003SU30 ONLY                                         
+#L           A 1292 level proposed on the basis of energy sums of         
+#L 219.0G and 227.98G (1972Am03) is discarded by the evaluator. The       
+#L 227.98G is placed with an 8- level at 2138 known from (HI,XNG) and     
+#L the 219.0G is considered unplaced due to the absence of any other      
+#L supporting argument                                                    
+#L           Negative result in the search for superdeformation at        
+#L low-spin states populated by 194TL EC decay. Expected 3600G in         
+#L coincidence with 428G (from 428 level) was not observed                
+#L (1989HeYZ, 1990HeYY).                                                  
+#L           E(level): from least-squares fit to EG's                     
+#L           JPI: from adopted levels                                     
+#P    0.0       2-                  33.0 M 5               5.37E3   14    
++B beta+ 6.860000000000001E-4 0.0031
++B beta+ 1.91 0.005659999999999999
++B beta+ 1.769 0.0045000000000000005
++B beta+ 1.446 0.006860000000000001
++B beta+ 1.476 0.00549
++B beta+ 1.298 0.00611
++B beta+ 1.079 0.0068200000000000005
++B beta+ 1.069 0.00685
+
+#194HG    194TL EC DECAY (32.8 M)       1972AM03                  06NDS    200606
+#  194TL EC DECAY (32.8 M)       1972AM03                  06NDS    200606
+#H TYP=FUL$AUT=BALRAJ SINGH$CIT=NDS 107, 1531 (2006)$CUT=15-Apr-2006$     
+#  Measured G, CE. Mass separated isotope from spallation reaction        
+#  Others: 1968Pe13, 1970To14, 1967Na14, 1966Pe06, 1960Ju01, 1974St04,    
+#  1976WeZM                                                               
+#E           LOGFT values have been calculated using Q(EC)=5370 140       
+#E (2003AU03) and E(parent state)=250 150                                 
+#G           Unplaced G rays are from 33-min (GS) or from 32.8-min isomer 
+#G M,MR      From CE data (1972Am03,1968Pe13)                             
+#L           E(level): from least-squares fit to EG's                     
+#L           JPI: from adopted levels                                     
+#L           Negative result in the search for superdeformation at        
+#L low-spin states populated by 194TL EC decay. Expected 3600G in         
+#L coincidence with 428G (from 428 level) was not observed                
+#L (1989HeYZ, 1990HeYY).                                                  
+#L T         From CE-G(T) (1970To14)                                      
+#L           E(2138.4,2143.5 levels): level population                    
+#L suggested by the evaluator on the basis                                
+#L of results from (HI,XNG)                                               
+#P  250      SY (7+)                32.8 M 2               5.37E3   14    
++B beta+ 1.037 0.00695
++B beta+ 1.262 0.0062
++B beta+ 1.232 0.00731
++B beta+ 1.212 0.0064
++B beta+ 1.11 0.0067
++B beta+ 1.091 0.00754
++B beta+ 1.098 0.0068000000000000005
++B beta+ 1.092 0.0068000000000000005
++B beta+ 1.056 0.0069
++B beta+ 1.04 0.0076100000000000004
++B beta+ 1.005 0.006999999999999999
+

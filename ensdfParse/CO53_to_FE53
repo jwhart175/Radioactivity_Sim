@@ -1,0 +1,22 @@
+# 53FE    53CO EC DECAY (240 MS)        1989HO13,1973KO10         09NDS    200910
+#  53CO EC DECAY (240 MS)        1989HO13,1973KO10         09NDS    200910
+#H TYP=FUL$AUT=HUO JUNDE$CIT=NDS 110,2689 (2009)$CUT=31-Mar-2007$         
+#  1973Ko10: produced in {+39}K({+16}O,2n) at E=41 MeV, measured |b{++}   
+#  1989Ho13: produced in {+54}Fe(p,2n) at E=30 MeV, measured E|g, I|g,    
+#  T{-1/2}                                                                
+#  See also 1985EsZZ, 1986EsZX, 1987HoZR, 1988HoZX                        
+#  All data are from 1989Ho13.                                            
+#L J         From adopted values                                          
+#P 0.0         (7/2-)            240 MS    20             8300      18    
+CO53 FE53 beta+ 8.3 0.24 1.0
++B beta+ 8.882E-4 9.518E-4
++B beta+ 0.003 0.04
+
+# 53FE    53CO EC DECAY (247 MS)        1970CE04,1972CE01         09NDS    200910
+#  53CO EC DECAY (247 MS)        1970CE04,1972CE01         09NDS    200910
+#H TYP=FUL$AUT=HUO JUNDE$CIT=NDS 110,2689 (2009)$CUT=31-Mar-2007$         
+#  Produced in {+54}Fe(p,2n), measured: |b{++}, |g                        
+#P 3197      29(19/2-)           247 MS    12             8300      18    
+CO53 FE53 beta+ 8.3 0.247 0.985
++B beta+ 0.002 0.01
+

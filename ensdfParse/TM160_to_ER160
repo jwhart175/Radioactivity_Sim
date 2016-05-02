@@ -1,0 +1,75 @@
+#160ER    160TM EC DECAY (9.4 M)        1975ST12,1982BY03         05NDS    200509
+#  160TM EC DECAY (9.4 M)        1975ST12,1982BY03         05NDS    200509
+#H TYP=FUL$AUT=C. W. Reich$CIT=NDS 105, 557 (2005)$CUT=1-Jun-2005$        
+#  DATA SET UPDATED (AUGUST, 2004) BY CW REICH TO INCLUDE NEW Q VALUE     
+#   AND RELABELLING OF THE FIRST EXCITED 0+ BAND.                         
+#  Sources produced by proton spallation reactions in a TA target,        
+#  followed by isotope separation.                                        
+#  1975St12 also carried out chemical separation after the sample         
+#  irradiation. They measured G-ray singles, GG, and BG using GE(LI)      
+#  detectors and conversion-electron spectra using a magnetic             
+#  spectrograph. G multipolarities were determined from EKC, K/L1 ratios  
+#  and L- and M-SUBSHELL ratios.                                          
+#  1982By03 measured the BETA strength function of 160TM via              
+#  "total-absorption"                                                     
+#  G spectroscopy, using a system of three NaI(TL) detectors.             
+#E           The BETA strength function measurement (1982By03) reveals    
+#E that most (AP 70%) of the EC+B+ feeding in the 160TM decay takes place 
+#E to levels above 2.3 MEV. Direct feeding of the members of the GS and G 
+#E bands is <5% each. The regions of excitation in 160ER that are fed     
+#E and the associated feeding intensities, as given by 1982By03, are      
+#E listed below.                                                          
+#E                                                                        
+#E           E(MEV)     I(%)              E(MEV)     I(%)                 
+#E          --------   ------            --------   ------                
+#E            1.6        18                4.1        17                  
+#E            2.2        12                4.7         7                  
+#E            3.0        18                5.0         8                  
+#E            3.8        20                                               
+#E                                                                        
+#E           1975St12 measure a positron endpoint energy of               
+#E 3700 KEV 500 in coincidence with the 125.7G, which would correspond    
+#E to an energy of 4722 KEV 500 for the EC transition to this level.      
+#E           1978Ad03 report %B+=15 2.                                    
+#G RI        I(ER K x rays)=88 9, relative to RI(125.7G)=35 5.            
+#G RI        I(G+-)=30 4, relative to RI(125.7G)=35 5.                    
+#G M(A)      From RI and ICE(K) data of 1975St12, normalized to           
+#G KC(125.7G)=0.608 (E2 theory). Mult(125.7G) determined from K/L.        
+#G ^Mult(264.0G) confirmed by K/L.                                        
+#L J         From adopted values                                          
+#L BAND(B)   GS BAND                                                      
+#L BAND(C)   GAMMA-VIBRATIONAL BAND                                       
+#L BAND(D)   FIRST EXCITED KPI=0+ BAND ?                                  
+#P 0.0          1-               9.4 M     3                5760    40    
+
+#160ER    160TM EC DECAY (74.5 S)       1983SI20                  05NDS    200509
+#  160TM EC DECAY (74.5 S)       1983SI20                  05NDS    200509
+#H TYP=FUL$AUT=C. W. Reich$CIT=NDS 105, 557 (2005)$CUT=1-Jun-2005$        
+#  DATA SET UPDATED (AUGUST, 2004) BY CW REICH TO INCLUDE NEW Q VALUES,   
+#   REVISED LOGFT VALUES, REVISED COMMENTS                                
+#  Source produced in the 164ER(P,5N) reaction, EP=57 MEV. G radiation    
+#   studied using three high-resolution ^Ge detectors, two to measure |g  
+#   singles, GG, and time-sequential data and one to measure |g singles   
+#   and time-sequential data for x rays and low-energy |g rays. The       
+#   internal-conversion electron spectrum measured using a mini-orange    
+#   spectrometer and a cooled SILI detector. Authors report EG, IG, GG,   
+#   G(T), ECE, ICE.                                                       
+#E TI        The decay scheme is clearly incomplete, with many G          
+#E transitions from higher-lying levels not observed in the experiment.   
+#E Consequently, it is expected that the listed EC+B+ transition          
+#E intensities, particularly those involving the lower-lying levels,      
+#E are too large.                                                         
+#G M         From adopted values                                          
+#L J         From adopted values                                          
+#P  70       20 5                74.5 S    15                5760   40    
++B beta+ 7.75E-4 0.001
++B beta+ 2.015 0.0021
++B beta+ 1.839 0.0025
++B beta+ 1.736 0.0028000000000000004
++B beta+ 1.727 0.0028000000000000004
++B beta+ 1.671 0.003
++B beta+ 1.624 0.0032
++B beta+ 1.584 0.0033
++B beta+ 1.557 0.0034000000000000002
++B beta+ 1.496 0.0037
+

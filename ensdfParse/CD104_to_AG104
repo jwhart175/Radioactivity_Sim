@@ -1,0 +1,26 @@
+#104AG    104CD EC DECAY                1970MU17                  07NDS    200709
+#  104CD EC DECAY                1970MU17                  07NDS    200709
+#H TYP=FUL$AUT=JEAN BLACHOT$CIT=NDS 108,2035 (2007)$CUT=30-Mar-2007$      
+#  Activity: SN(P,3PXN), on-line isotope separation (ISOLDE) (1970MU17)   
+#  Measured: semi CE, G, GG-coincidence. Others: 1955JO25, 1971DO07       
+#  The level energy of the first-excited state was not known to 1970MU17, 
+#  so their energies have been changed using the energy from 1979DE44 for 
+#  the first-excited state                                                
+#E           EC/B+=95 30 from GG-coincidences (1970MU17). This            
+#E indicates Q+=1580 60 for 104CD.                                        
+#G           1.0% 3 of 83.5G are in coincidence with G+- (1970MU17)       
+#G           The 26G is proposed on the basis of 123G-559G coincidences   
+#G           See 1955JO25 for additional conversion-electron energies     
+#L J,T$From adopted levels                                                
+#P 0.0         0+                57.7 M    10             1137      11    
+CD104 AG104 beta+ 1.137 3462.0 1.0
++G gamma 0.0835 0.47
++G gamma 0.1237 0.003525
++B beta+ 8.61E-4 0.00111
++G gamma 0.06659999999999999 0.023969999999999998
++G gamma 0.1502 0.0011279999999999999
++B beta+ 8.606E-4 0.00111
++G gamma 0.559 0.06344999999999999
++G gamma 0.6257 0.02162
++G gamma 0.7092999999999999 0.19505
+

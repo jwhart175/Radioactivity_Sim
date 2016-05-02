@@ -1,0 +1,24 @@
+# 48V     48CR EC DECAY                 1979PRZU,1968WE01,1967AU0206NDS    200607
+#  48CR EC DECAY                 1979PRZU,1968WE01,1967AU0206NDS    200607
+#H TYP=FUL$AUT=T. W. Burrows$CIT=NDS 107, 1747 (2006)$CUT=14-Apr-2006$    
+#  1967AU02 MEASURED GG(T) AND ROTATION OF GG ANGULAR CORRELATION IN      
+#  MAGNETIC FIELD; NAI.                                                   
+#  1968WE01 MEASURED GG(THETA) AND GG-POLARIZATION CORRELATION;           
+#  PLASTIC AND NAI POLARIMETER.                                           
+#  1979PRZU MEASURED T1/2, G'S, IB+'s, and ECC'S; ORANGE B SPECTROMETER   
+#  AND OTHER UNSPECIFIED DETECTORS.                                       
+#  OTHERS: SEE 1985AL14.                                                  
+#G           All DATA ARE FROM 1979PRZU, EXCEPT AS NOTED.                 
+#G E         152EU STANDARD.                                              
+#G RI        48CR ACTIVITY DETERMINED FROM THE DECAY OF 48V.              
+#G M         FROM ECC (1979PRZU) AND GG(THETA) AND GG-POLARIZATION        
+#G CORRELATION (1968WE01).                                                
+#G MR        FROM GG(THETA) AND GG-POLARIZATION CORRELATION (1968WE01).   
+#G CC        CALCULATED ASSUMING ADOPTED EG, MULT, AND MR.                
+#L E         FROM LEAST-SQUARES FIT TO EG'S (EVALUATOR).                  
+#L J         J(GS,308) FROM THE Adopted Levels AND PI FROM                
+#L MULTIPOLARITIES OF GAMMA CASCADE FROM 1+ STATE (LOGFT=4.3 FROM 0+).    
+#P    0.0                0+       21.56 H    3               1656   8     
++B beta+ 0.1371 0.003
++B beta+ 0.09129999999999999 0.0147
+

@@ -1,0 +1,61 @@
+#137LA    137CE EC DECAY (9.0 H)        1975HE20                  07NDS    200709
+#  137CE EC DECAY (9.0 H)        1975HE20                  07NDS    200709
+#H TYP=FUL$AUT=E. BROWNE, J. K. TULI$CIT=NDS 108,2173 (2007)$             
+#H CUT=1-Oct-2006$                                                        
+#  Modified by E. Browne (April 4, 2007).                                 
+#  Measured: G, CE (1975He20,1975ArYT), GG, G(THETA,TEMP), GG(THETA)      
+#  (1964FrZZ), GG(T) (1963Ru03), B+ (1979BuZZ), CEG (1980ZhZY),           
+#  G, GG (1982Ko05)                                                       
+#  EG, RI, and decay scheme is that proposed by 1975He20                  
+#  EC feedings and decay-scheme normalization was determined based on the 
+#  assumption of no ground-state EC branch                                
+#  EKC normalized so that EKC(447G)=0.0136 14 (if KC(254.5G)=5.54 (M4)).  
+#  1979BuZZ observed B+ with EB+=188.8 15                                 
+#G E,RI$From 1975He20.                                                    
+#P 0.0         3/2+              9.0 H     3              1222.1    16    
+CE137 LA137 beta+ 1.2221 32400.0 0.00168
++G gamma 0.01061 4.91
++G gamma 0.43659 1.49
++G gamma 0.44715 10.0
++G gamma 0.48247 0.257
++G gamma 0.49302999999999997 0.059000000000000004
++G gamma 0.14883000000000002 0.005
++G gamma 0.6313799999999999 0.075
++G gamma 0.69872 0.175
++G gamma 0.7092999999999999 0.006
++G gamma 0.77097 0.034
++G gamma 0.7815700000000001 0.017
++G gamma 0.21703 0.022000000000000002
++G gamma 0.43322000000000005 0.29100000000000004
++G gamma 0.47912 0.067
++G gamma 0.9158 0.289
++G gamma 0.92635 0.19
++G gamma 0.5293 0.002
++G gamma 0.67826 0.005
++G gamma 0.7243999999999999 0.004
++G gamma 1.16085 0.0084
+
+#137LA    137CE EC DECAY (34.4 H)       1975HE20                  07NDS    200709
+#  137CE EC DECAY (34.4 H)       1975HE20                  07NDS    200709
+#H TYP=FUL$AUT=E. BROWNE, J. K. TULI$CIT=NDS 108,2173 (2007)$             
+#H CUT=1-Oct-2006$                                                        
+#  Modified by E. Browne (New ICC from BRICC, decay-scheme normalization  
+#  and EC branching have been recalculated, Feb. 15, 2007).               
+#  Measured: G, CE (1975He20,1975ArYT), GG (1982Ko05,1964FrZZ), CEG       
+#  (1980ZhZY) CE (1975Mo12), G(THETA,TEMP) (1964FrZZ), GAMMA (1982Ko05)   
+#  Decay scheme is that from 1975He20, except for the 781 level and its   
+#  decaying transitions which have been seen by 1982Ko05;                 
+#G E,RI$From 1975He20.                                                    
+#G $EKC normalized so that KC(825G)=0.0025 (E2, theory)                   
+#P 254.29     511/2-             34.4 H    3              1222.1    16    
+CE137 LA137 beta+ 1.2221 123840.0 1.0
++G gamma 0.7623 4.35
++G gamma 0.82482 10.0
++G gamma 0.83538 2.34
++G gamma 0.90684 0.063
++G gamma 0.9174500000000001 0.29
++G gamma 0.0872 0.2
++G gamma 0.16926 9.95
++G gamma 0.99381 0.045
++G gamma 1.00449 0.51
+

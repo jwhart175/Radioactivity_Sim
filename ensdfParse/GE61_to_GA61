@@ -1,0 +1,24 @@
+# 61GA    61GE EC DECAY (44 MS)         2007BL09,1987HO01         15NDS    201503
+#  61GE EC DECAY (44 MS)         2007BL09,1987HO01         15NDS    201503
+#H TYP=FUL$AUT=KAZIMIERZ ZUBER, BALRAJ SINGH$CIT=NDS 125, 1 (2015)$       
+#H CUT=25-Jan-2015$                                                       
+#  Source produced by {+40}Ca({+24}Mg,3n) (1987Ho01,1978ViZT,1979ViZY).   
+#  1987Ho01 (also 1979ViZY,1978ViZT thesis): E=77-120 MeV {+40}Ca pulsed  
+#  beam on {+24}Mg target. |DE-E silicon detector telescope               
+#  shielded system. Observed |e-delayed proton group                      
+#  with E=3110 {I30} and T{-1/2}=40 ms {I15}. The proton decay mainly     
+#  feeds {+60}Zn g.s. (<10% to first excited state). A and Z              
+#  identification is not certain, but it is supported by Coulomb          
+#  displacement energy systematics. Measured mass excess=-47.73 MeV {I3}. 
+#  2007Bl09: {+61}Ge nuclei produced in a fragmentation of {+70}Ge{++28}  
+#  beam at an energy of 71.6 MeV using LISE3 facility at GANIL. A nickel  
+#  target was used. Measured delayed proton events by implanting nuclei   
+#  in a double-sided silicon strip detector (DSSSD) and isotopic T{-1/2}. 
+#  From RADLIST code, deduced total decay energy is 5500 keV {I400}       
+#  compared to 13360 keV {I300} from Q(|e) value. The decay scheme is     
+#  poorly known                                                           
+#L J$From Adopted Levels                                                  
+#P 0.0         (3/2-)            44 MS     6              13410     SY    
+GE61 GA61 beta+ 13.41 0.044 1
++B beta+ 3.208 1.0E-5
+

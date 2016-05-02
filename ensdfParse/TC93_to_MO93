@@ -1,0 +1,89 @@
+# 93MO    93TC EC DECAY (2.75 H)        1974CH12,1974AN24,1977PO1311NDS    201105
+#  93TC EC DECAY (2.75 H)        1974CH12,1974AN24,1977PO1311NDS    201105
+#H TYP=FUL$AUT=CORAL M. BAGLIN$CIT=NDS 112, 1163 (2011)$CUT=15-Dec-2010$  
+#  Others: 1966Al17, 1968Ka25, 1977Be19.                                  
+#  1974Ch12: GELI and SILI detectors;                                     
+#  measured EG, IG, EKC (renormalized here so EKC(263)=0.51).             
+#  1974An24: GELI detectors, electron spectrometer; measured EG,          
+#  IG, I{-ce}.                                                            
+#  1977Po13: GELI detectors; measured EG, IG.                             
+#E TI        FROM TI IMBALANCE AT LEVEL.                                  
+#G           The EG=2739.0 10, IG=0.11 2 line reported in 1974Ch12 is     
+#G attributed by 1977Po13 to 94TC and has, consequently, been omitted     
+#G here.                                                                  
+#G E         Weighted average from 1974Ch12 and 1977Po13, if not          
+#G indicated otherwise.                                                   
+#G RI        Weighted average from 1974Ch12, 1974An24, 1977Po13, 1968Ka25,
+#G if not indicated otherwise.                                            
+#G M,MR      FROM Adopted Gammas, EXCEPT AS NOTED.                        
+#G RI(A)     Weighted average from 1974Ch12 and 1977Po13.                 
+#G M(B),MR(B)$From 1977Be19, low temperature nuclear orientation in iron, 
+#G hyperfine structure, G angular distribution fitted                     
+#G for MR and MOMM1(93TC GS) simultaneously. Stated                       
+#G uncertainty is maximum value corresponding to two-parameter            
+#G fit.                                                                   
+#L E         FROM LEAST-SQUARES FIT TO EG.                                
+#L J         FROM Adopted Levels, EXCEPT AS NOTED.                        
+#L J(D)      From G(|q,^H,^T) (1977Be19)                                  
+#P 0.0         9/2+              2.75 H    5              3201.0    10    
+TC93 MO93 beta+ 3.201 9900.0 1.0
++G gamma 0.171 0.001324
++B beta+ 0.36072000000000004 0.0864
++G gamma 1.36294 0.662
++B beta+ 0.31113 0.006999999999999999
++G gamma 0.1142 7.282000000000001E-4
++G gamma 1.4771400000000001 0.08672200000000001
++B beta+ 0.29249 0.0159
++G gamma 1.52028 0.243616
++B beta+ 8.667E-4 0.001083
++G gamma 2.479 4.5016000000000007E-4
++B beta+ 8.662E-4 0.001087
++G gamma 2.7308000000000003 0.0035086000000000006
++B beta+ 8.629999999999999E-4 0.001112
++G gamma 2.8218 2.9790000000000003E-4
++B beta+ 8.608E-4 0.0011298
++G gamma 1.4245999999999999 0.0025818000000000004
++G gamma 1.5388 0.007613
++G gamma 2.902 8.738400000000001E-4
++B beta+ 8.575000000000001E-4 0.0011551999999999999
++G gamma 3.0258000000000003 1.5888000000000002E-4
+
+# 93MO    93TC EC DECAY (43.5 M)        1977PO13                  11NDS    201105
+#  93TC EC DECAY (43.5 M)        1977PO13                  11NDS    201105
+#H TYP=FUL$AUT=CORAL M. BAGLIN$CIT=NDS 112, 1163 (2011)$CUT=15-Dec-2010$  
+#  Others: 1988BeYT, 1974An24, 1974Ch12, 1968Ka25, 1966Al17.              
+#E TI        FROM TI IMBALANCE AT LEVEL.                                  
+#G           Several lines are reported for the first time by 1988BeYT.   
+#G However, EG and IG of established lines are not in very good agreement 
+#G with data from earlier studies.                                        
+#G E,RI      From 1977Po13, if not indicated otherwise. RI is relative to 
+#G I(392G, 93TC ^IT)=100.                                                 
+#G E(A),RI(A) $Weighted average from 1977Po13 and 1974Ch12.               
+#G RI(B)$Weighted average from 1977Po13 and 1974An24.                     
+#G E(D),RI(D)$From 1988BeYT; not reported in other 93TC EC decay (43.5 M) 
+#G studies. Evaluator has renormalized IG so I(2645G)=24.6 (cf. authors'  
+#G value of 26 1); note, however, that I(392G, 93TC ^IT) AP 60 rather     
+#G than 100. Evaluator considers that assignment of this G to this decay  
+#G has yet to be established.                                             
+#L E         FROM LEAST-SQUARES FIT TO EG.                                
+#L J         FROM Adopted Levels.                                         
+#P 391.84     8 1/2-             43.5 M    10             3201.0    10    
+TC93 MO93 beta+ 3.201 2610.0 0.226
++B beta+ 8.459E-4 0.00124
++B beta+ 1.1723 0.46
++G gamma 0.9437000000000001 0.129
++B beta+ 0.7214400000000001 0.01
++G gamma 1.4922 0.08514
++B beta+ 0.47592 0.0
++G gamma 2.182 0.0258
++B beta+ 0.17643999999999999 0.01
++B beta+ 8.68E-4 0.0010730000000000002
++B beta+ 8.676000000000001E-4 0.001076
++G gamma 2.6983 0.032766
++B beta+ 8.673E-4 0.001078
++B beta+ 8.663E-4 0.001086
++B beta+ 8.653999999999999E-4 0.0010931
++G gamma 3.2203000000000004 0.04644
++B beta+ 8.605E-4 0.0011315
++G gamma 3.2981 0.019866
+

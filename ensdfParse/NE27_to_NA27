@@ -1,0 +1,47 @@
+# 27NA    27NE B- DECAY                 2006TR02                  11NDS    201108
+#  27NE B- DECAY                 2006TR02                  11NDS    201108
+#H TYP=FUL$AUT=M. Shamsuzzoha Basunia$CIT=NDS 112, 1875 (2011)$           
+#H CUT=30-Nov-2010$                                                       
+#  27NE isotope was produced from fragmentation of 48CA beam on a Be      
+#  target, E=140 MeV/u, at ^NSCL; Fragments were separated by the ^A1900  
+#  fragment separator and identified by energy loss in DE-E detector,     
+#  and by time of flight; Detector: double sided Si microstrip detector   
+#  (^DSSD), an array of 12 HPGe detectors, B- counting system;            
+#  Measured EG, EB, RI, IB, B-GG coin.                                    
+#B IB$From G-ray intensity balance to each level and estimated neutron    
+#B emission probability of 3(1)%.                                         
+#B (2006Tr02).                                                            
+#G RI$Based on a private communication (e-mail) of the ^XUNDL data        
+#G compilation group with V. Tripathi, May 9, 2006.                       
+#L E$From a least-squares adjustment to EG, DE=1 keV is assumed by the    
+#L evaluator.                                                             
+#L J$From Adopted Levels                                                  
+#P 0.0         (3/2+)             31.5 MS  13             12.59E3   11    
+NE27 NA27 beta- 12.59 0.0 1
++B beta- 6.034 0.595
++B beta- 6.002 0.042
++G gamma 0.063 0.21100000000000002
++B beta- 5.179 0.034
++G gamma 1.665 0.03
++G gamma 1.728 0.0043
++B beta- 4.949 0.009000000000000001
++G gamma 2.129 0.0098
++B beta- 4.902 0.011000000000000001
++G gamma 2.225 0.043
++B beta- 4.649 0.08900000000000001
++G gamma 2.736 0.059000000000000004
++G gamma 2.799 0.03
++B beta- 4.54 0.11
++G gamma 2.956 0.027000000000000003
++G gamma 3.019 0.084
++B beta- 4.298 0.016
++G gamma 3.508 0.016
++B beta- 4.262 0.013000000000000001
++G gamma 3.582 0.013000000000000001
++B beta- 4.211 0.026000000000000002
++G gamma 3.685 0.026000000000000002
++B beta- 4.163 0.03
++G gamma 3.781 0.032
++B beta- 3.88 0.03
++G gamma 2.067 0.032
+

@@ -1,0 +1,45 @@
+#240PU    240NP B- DECAY (61.9 M)       1982PA23                  08NDS    200810
+#  240NP B- DECAY (61.9 M)       1982PA23                  08NDS    200810
+#H TYP=FUL$AUT=BALRAJ SINGH, E. BROWNE$CIT=NDS 109, 2439 (2008)$          
+#H CUT=31-Jul-2008$                                                       
+#  1982PA23: MEASURED EG, IG, GG                                          
+#  Other: 1967Wa27.                                                       
+#B IB$ The |b feedings are poorly known for most levels since the         
+#B multipolarities and mixing ratios of |g-ray transitions are not        
+#B well established, thus all feedings, except that for 1309 keV level    
+#B are treated as uncertain and given mostly without uncertainties.       
+#B From K|p assignments, only the strong feeding to the topmost level at  
+#B 1309 keV is definite with |DK=0. All other feedings are less likely    
+#B since these involve a high degree of K-forbiddenness with |DK=2 to 5.  
+#B Apparent large intensity imbalances for some of the levels suggests    
+#B that the decay scheme is incomplete.                                   
+#B $ The LOGFT VALUES FOR 1076, (4+) AND 1308, (5-) LEVELS are DISCUSSED  
+#B BY 2006SA35 IN TERMS OF INTRINSIC STATES AND K-FORBIDDEN TRANSITIONS   
+#G M(A)      Intensity balance is consistent with mult=E1,E2 or M1.       
+#G Adopted J|p values rule out mult=E1.                                   
+#G M(B)      From adopted |g's.                                           
+#G M(D)      Intensity balance is consistent with mult=E1,E2 or M1.       
+#G Adopted J|p values rule out mult=M1,E2.                                
+#G RI(F)$ Deduced from I(|g+ce) intensity balance.                        
+#G E(X)$ Placement from 1177 level proposed by the evaluators to seek     
+#G some intensity balance at 1030 keV. 1982Pa23 proposed placement from   
+#G only the 1309 keV level. The |DK=4 involved for a transition from      
+#G 1309-keV level to 1161-keV level suggests placement by 1982Pa23 is     
+#G less likely                                                            
+#L J         From 'adopted levels'                                        
+#L BAND(A)$ K|p=0+, g.s. band                                             
+#L BAND(B)$ K|p=0- band                                                   
+#L BAND(C)$ K|p=1- band                                                   
+#L BAND(D)$ K|p=3+ band.                                                  
+#L Configuration=|n5/2[622]~#|n1/2[631]                                   
+#L BAND(E)$ K|p=2+ band                                                   
+#P 0.0          (5+)             61.9 M     2             2188      15    
+NP240 PU240 beta- 2.188 3714.0 1.0
++G gamma 0.0428 0.0012
++G gamma 0.0989 0.0524
++G gamma 1.0335 0.0015
++G gamma 0.1399 0.0026
++G gamma 0.1754 0.051
++G gamma 0.9382 0.0018
++G gamma 1.0905 8.0E-4
+

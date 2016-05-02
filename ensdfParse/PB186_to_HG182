@@ -1,0 +1,16 @@
+#182HG    186PB A DECAY (4.82 S)        1980SC09,1994WA23,1999AN22ENSDF    201507
+#  186PB A DECAY (4.82 S)        1980SC09,1994WA23,1999AN22ENSDF    201507
+#H TYP=FUL$AUT=BALRAJ SINGH AND JOEL C. ROEDIGER$CIT=NDS 111, 2081 (2010)$
+#H CUT=15-Jul-2010$                                                       
+#  Measured E|a, ce, half-lives                                           
+#  Theory: 2000Va34                                                       
+#A IA        |a intensity per 100 |a decays.                              
+#A HF        r{-0}({+182}Hg)=1.50 {I2} is obtained from the systematics of
+#A r{-0} parameters.                                                      
+#L J$From Adopted Levels                                                  
+#P 0.0          0+               4.82 S    3              6470      6     
+PB186 HG182 alpha 6.47 4.82 0.40
++A alpha 6.331 0.996
++A alpha 6.014 0.002
++A alpha 5.988 0.0016
+

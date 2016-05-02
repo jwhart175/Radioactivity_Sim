@@ -1,0 +1,29 @@
+#218RN C  ANALYSIS AND SYST OF 222RA A DECAY DATA: 1987PO06                      
+#  ANALYSIS AND SYST OF 222RA A DECAY DATA: 1987PO06                      
+#A E         From E(level in 218RN) and EA(GS).                           
+#A IA(S,A)   From level scheme.                                           
+#A HF        HF(6559A)=1.0 yields R0(218RN)=1.5446 19 (1998Ak04).         
+#A           For theoretical calculations of ALPHA-decay widths, see,     
+#A for example, 1992De44, 1991In01, 1986Ch36 and 1964Ba49.                
+#G E$ From 1995KO54, UNLESS OTHERWISE STATED. Others: 1976Ku08,           
+#G 1974Va28, 1963Le17, 1956As38, 1956Sm88, 1960St20                       
+#G E(X)$ WEIGHTED AVERAGE FROM 1995KO54 AND 1976KU08                      
+#G RI$ From 1995KO54, UNLESS OTHERWISE STATED. Intensities are            
+#G normalized to IG(324G)=2.77% 8 (1969PE17).                             
+#G Others: 1976KU08, 1963Le17, 1961Ru06, 1960St20, 1956As38               
+#L J$ FROM 'ADOPTED LEVELS'. 1995Ko54 assigned (2+) to 653 level and      
+#L (1-,2+) to 797 and 840 levels based on GS transitions, but in the      
+#L opinion of the evaluators, |g rays to GS are probably contributed by   
+#L summing effects.                                                       
+#P 0.0          0+               36.17 S   10             6679      4     
+RA222 RN218 alpha 6.679 36.17 1.0
++A alpha 6.559 0.9690000000000001
++A alpha 6.241 0.0305
++A alpha 5.918 4.1E-5
++A alpha 5.777 4.1E-5
++G gamma 0.1444 1.1E-6
++G gamma 0.47258999999999995 3.9E-5
++A alpha 5.734 4.2E-5
++G gamma 0.51583 1.42E-5
++G gamma 0.8401799999999999 2.8E-5
+

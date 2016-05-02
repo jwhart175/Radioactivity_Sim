@@ -1,0 +1,19 @@
+#220RA    220FR B- DECAY                1992RU01                  11NDS    201104
+#  220FR B- DECAY                1992RU01                  11NDS    201104
+#H TYP=FUL$AUT=E. BROWNE, J. K. TULI$CIT=NDS 112, 1115 (2011)$            
+#H CUT=31-Oct-2010$                                                       
+#  Modifiedby E. Browne (Dec. 16, 2010).  BRICC, GTOL.                    
+#            Activity produced by bombarding 232TH with 280-MeV 3He       
+#  beam, and mass separated by the ^ISOCELE ^II on-line mass separator.   
+#  Measured B-, G rays, GG COIN. Detectors: plastic for B- particles,     
+#  and GELI for G rays.                                                   
+#B IB        Intensity per 100 parent decays deduced from level scheme    
+#B and I(178|g)<0.05% of parent decay, unless otherwise noted             
+#G CC$ FROM BrIcc v2.2 (31-Mar-2008) 2008KiAA, "Frozen Orbitals" appr.    
+#L J         From Adopted Levels                                          
+#P 0             1+              27.4 S    3              1210      10    
+FR220 RA220 beta- 1.21 27.4 0.0035
++B beta- 0.404 0.0029
++B beta- 0.336 7.000000000000001E-4
++B beta- 0.249 5.0E-4
+

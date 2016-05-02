@@ -1,0 +1,33 @@
+#167ER    167HO B- DECAY                1962HA24,1968FU09         00NDS    200008
+#  167HO B- DECAY                1962HA24,1968FU09         00NDS    200008
+#H TYP=FUL$AUT=Coral M. Baglin$CIT=NDS 90, 431 (2000)$CUT=5-Jul-2000$     
+#  The decay scheme and most data are from 1968FU09 (sources from         
+#  168ER(G,P) (photons from 30-MEV betatron) and 164DY(A,P)               
+#  (E(A)=27 MEV); measured EB, IB (mag spect), EG, IG (GELI,              
+#  scin), prompt and delayed BG and GG coin); CE data are from            
+#  1962HA24 (mag spect). Other: 1955HA45.                                 
+#L J         From adopted levels.                                         
+#B IB        B- feedings to E(level)>79 are from intensity imbalance at   
+#B each level. IB AP 30% for B- branch to the (0.0+79.3) levels           
+#B combined (1968FU09) (evaluator assumed 50% uncertainty in this         
+#B intensity in order to obtain GAMMA normalization).                     
+#B IB(A)     See comment on IB.                                           
+#B           Experimental B- data (1968FU09)                              
+#B                 EB(KEV)       IB(%)                                    
+#B                ---------     -------                                   
+#B                 970 20        |?30                                     
+#B                 610            25                                      
+#B                 315            45                                      
+#G E         From 1968FU09 (167HO source), except where noted.            
+#G M         From EKC unless otherwise specified; the RI (adopted here)   
+#G and CE intensity (1962HA24) scales are normalized through KC=0.469     
+#G (E3 theory) for 207.8G.                                                
+#G E(AD)     From adopted gammas.                                         
+#G RI(AD)    Negligible relative to RI(531.5G) (from adopted branching).  
+#G E(BE)     From CE data (1962HA24).                                     
+#G M(DE)     From adopted gammas.                                         
+#G CC(F)     Value and uncertainty cover combined range for M1            
+#G and E2.                                                                
+#P 0.0          7/2-             3.1 H     1              1007      5     
+HO167 ER167 beta- 1.007 11160.0 1.0
+

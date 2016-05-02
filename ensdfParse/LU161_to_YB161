@@ -1,0 +1,34 @@
+#161YB    161LU EC DECAY                1980BE39                  11NDS    201111
+#  161LU EC DECAY                1980BE39                  11NDS    201111
+#H TYP=FUL$AUT=C. W. Reich$CIT=NDS 112,2497 (2011)$CUT=1-Jun-2011$        
+#  DATA SET UPDATED (AUGUST, 2009) BY CW REICH TO INCLUDE NEW QP VALUE    
+#   AND ICC VAALUES FROM BRICC.                                           
+#  DATA SET UPGRADED (JUNE, 2000) BY CW REICH TO INCLUDE A NEW JPI VALUE  
+#  FOR THE PARENT STATE AND A REVISED JPI ASSIGNMENT FOR THE 211 LEVEL,   
+#  WITH APPROPRIATE CHANGES IN SOME RELATED COMMENTS.                     
+#  DATA SET UPGRADED (MARCH, 1999) BY CW REICH TO INCLUDE A NEW QP VALUE  
+#  FOR THE PARENT GS AND MISCELLANEOUS MODIFICATIONS TO THE COMMENTS      
+#  Experimental methods:                                                  
+#  1979Al16:  Shorter version of 1980Be39 with 2 fewer G's and no level   
+#       scheme.                                                           
+#  1979AlZM:  Same data as 1979Al16.                                      
+#  1980Be39:  161LU produced by spallation of W with 1-GeV proton and     
+#       isotope separation.  G and x-rays measured with Ge detectors.     
+#       Decay scheme is based only on G energies and intensity balances.  
+#  1981RaZH:  Report; gives 161LU GS half-life.                           
+#  1983Ge08:  Review of Daresbury measurements; gives same 161LU GS       
+#       as in 1981RaZH.                                                   
+#                                                                         
+#  The decay scheme is that of 1980Be39. Note that, with a Q+ value of    
+#   5.28 MeV and no 161YB levels reported above 0.37 Mev, the proposed    
+#   decay scheme is incomplete and thus no meaningful intensities can be  
+#   deduced for the |e+|b{++} transitions feeding the 161YB levels.       
+#G           Since the G multipolarities are unknown, a G intensity       
+#G normalization is not possible. The 43-keV G can have an CC             
+#G from 6.4 to 118, so there is a factor of 10 uncertainty in this        
+#G transition intensity.                                                  
+#L J         From adopted values                                          
+#L BAND(A)   KPI=3/2- BAND, PROBABLY CONTAINING A MIXTURE OF THE          
+#L 3/2[521] and 3/2[532] Nilsson orbitals.                                
+#P   0           1/2+             77 S     2                 5280   32    
+

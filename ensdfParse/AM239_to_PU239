@@ -1,0 +1,29 @@
+#239PU    239AM EC DECAY                1972PO04                  14NDS    201411
+#  239AM EC DECAY                1972PO04                  14NDS    201411
+#H TYP=FUL$AUT=E. BROWNE, J. K. TULI$CIT=NDS 122, 293 (2014)$             
+#H CUT=30-Jun-2013$                                                       
+#  Updated by E. Browne (Sept. 26, 2013). BRICC_2008 conversion           
+#  coeffcients.  New calculation of X-ray intensities (RADLST_2008).      
+#  Other measurements: 1957Sm77, 1960Gl01, 1972Po12                       
+#E IE$Deduced by evaluator from |g-ray transition intensity balance.      
+#G CC$ FROM BrIcc v2.2 (31-Mar-2008) 2008KiAA, "Frozen Orbitals" appr.    
+#G M,MR$Based on ce data of 1957Sm77,1972Po04 and |g(|q) of 1972Kr07,     
+#G unless otherwise specified.                                            
+#G MR(Y)$Deduced by evaluator from conversion electron data of 1991Sh06   
+#G in {+243}Cm |a decay.                                                  
+#G           K|a{-2}| x ray={ 35.5% }, K|a{-1}| x                         
+#G ray={ 56.2% }, and K|b| x ray={ 27.8% } calculated by                  
+#G evaluator (RADLST) agree well with experimental K|a{-2}| x             
+#G ray={ 35.0% {I15}}, K|a{-1}| x ray={ 53.9% {I23}}, and K|b| x          
+#G ray={ 27.0% {I12}} (1972Po04), respectively. This agreement suggests   
+#G negligible |e feeding to g.s. and 7.86-keV levels                      
+#L J         From adopted levels                                          
+#L E$Deduced by evaluator from a least-squares fit to |g-ray energies.    
+#P 0            (5/2)-           11.9 H    1              802.1     17    
++B beta+ 7.291E-4 0.00198
++B beta+ 7.274E-4 0.00199
++B beta+ 6.968E-4 0.00221
++B beta+ 6.857E-4 0.00228
++B beta+ 6.649000000000001E-4 0.00243
++B beta+ 5.907999999999999E-4 0.0029
+

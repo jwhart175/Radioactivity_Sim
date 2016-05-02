@@ -1,0 +1,44 @@
+#173OS    173IR EC DECAY (9.0 S)        1992BO21,1992SC16         ENSDF    201511
+#  173IR EC DECAY (9.0 S)        1992BO21,1992SC16         ENSDF    201511
+#H TYP=FUL$AUT=J. Tuli$CIT=ENSDF$CUT=15-AUG-2015$                         
+#H TYP=FUL$AUT=V. S. SHIRLEY$CIT=NDS 75,377 (1995)$CUT=1-Oct-1993$        
+#  1992Bo21: sources from fusion of 32S with samarium                     
+#  (E(32S)=180-195 MEV), helium-jet transport (some sources               
+#  from 40CA fusion with samarium); measured EG, IG (G                    
+#  multianalysis), GX coin, GG coin.                                      
+#  1992Sc16: sources from 141PR(36AR,4N), E(36AR)=234 MEV,                
+#  helium-jet transport; monoisotopic targets; measured                   
+#  excitation functions, EG, IG, GX coin, GG coin.                        
+#  The partial decay scheme and all data are from 1992Sc16,               
+#  except where noted.                                                    
+#G           Unplaced G's are attributed to 173IR(2.20 S)                 
+#G or 173IR(9.0 S).                                                       
+#G RI$Sources also contained 173IR(2.20 S); 1992Sc16 attribute 75%        
+#G of RI(91.8G) and 67% of RI(49.6G) to 9.0-s isomer.                     
+#G RI(total)=27 2 for 91.8G, RI(total)=100 for 49.6G.                     
+#G M$From (HI,XNG).                                                       
+#P 0.0          (3/2+,5/2+)      9.0 S     8              7370      SY    
+IR173 OS173 beta+ 7.37 9.0 0.93
+
+#173OS    173IR EC DECAY (2.20 S)       1992BO21,1992SC16         ENSDF    201511
+#  173IR EC DECAY (2.20 S)       1992BO21,1992SC16         ENSDF    201511
+#H TYP=FUL$AUT=J. Tuli$CIT=ENSDF$CUT=15-AUG-2015$                         
+#H TYP=FUL$AUT=V. S. SHIRLEY$CIT=NDS 75,377 (1995)$CUT=1-Oct-1993$        
+#  1992Bo21: sources from fusion of 32S with samarium                     
+#  (E(32S)=180-195 MEV), helium-jet transport (some sources               
+#  from 40CA fusion with samarium); measured EG, IG (G                    
+#  multianalysis), GX coin, GG coin.                                      
+#  1992Sc16: sources from 141PR(36AR,4N), E(36AR)=234 MEV,                
+#  helium-jet transport; monoisotopic targets; measured                   
+#  excitation functions, EG, IG, GX coin, GG coin.                        
+#  The partial decay scheme and all data are from 1992Sc16,               
+#  except where noted.                                                    
+#G           Unplaced G's are attributed to 173IR(2.20 S)                 
+#G or 173IR(9.0 S).                                                       
+#G RI(A)$Sources also contained 173IR(9.0 S); 1992Sc16 attribute          
+#G 25% of IG(91.8G) and 33% of RI(49.6G) to 2.20-s isomer.                
+#G RI(total)=27 2 for 91.8G, RI(total)=100 for 49.6G.                     
+#G M$From (HI,XNG).                                                       
+#P 226       18 (11/2-)          2.20 S    5              7370      SY    
+IR173 OS173 beta+ 7.37 2.2 0.88
+

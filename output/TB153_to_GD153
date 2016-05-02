@@ -1,0 +1,74 @@
+#153GD    153TB EC DECAY                                          06NDS    200602
+#  153TB EC DECAY                                          06NDS    200602
+#H TYP=FUL$AUT=R. G. Helmer {+*}$CIT=NDS 107, 507 (2006)$CUT=31-Dec-2005$ 
+#  1971VaZU (CONF Moscow (NuclSpectros, Structure) Abstr p99)             
+#  Main references are 1991Gr21, 1983Pr07, 1982Al24, 1975Vy01,            
+#       1974Tu01, and 1974Pe16.                                           
+#  Sources have been produced by spallation of Ta by 660-MeV protons      
+#       (1991Gr21,1983Pr07,1982Al24,1975Vy01), by spallation of Gd by     
+#       120-MeV protons (1975Vy01), and by irradiation of natural Gd      
+#       by 50-MeV protons (1974Tu01), generally followed by chemical      
+#       separation and mass separation. Other measurements: 1978Cr02,     
+#       1978Wa14, 1976Al09, 1975Se16, 1968Ni04, 1962Ha24, 1961St15,       
+#       1960Ab03, and 1959To26.                                           
+#  The decay scheme in the previous evaluation (1990Le13) was             
+#       based on the schemes of 1983Pr07, 1982Al24, 1975Vy01, and         
+#       1974Tu01.  On the basis of additional |g|g and |b|g coincidence   
+#       measurements, 1991Gr21 have proposed many modifications of this   
+#       decay scheme including alternate placements for many |g rays.     
+#       For example, for the 1015 level they remove three of the          
+#       previous five |g's and added three new ones. Here the two         
+#       schemes have been combined with notes on the changes based on     
+#       1991Gr21.                                                         
+#E TI        The |e+|b+ decay to the ground state is from 1978Cr02 and    
+#E      the others are from intensity balances at each level. The         
+#E      I(|e+|b+) which are computed to be negative, and those that are   
+#E      smaller than their computed uncertainties, have been set to 0.    
+#E      With the many multiply placed |g's and the unplaced |g's, the     
+#E      uncertainties in the I(|e+|b+)'s that are less than, say, 5%      
+#E      are larger than the quoted values.                                
+#E IB        %|b+=0.063 {I9} (1978Cr02)                                   
+#G E         From evaluator's consideration of the values from 1991Gr21,  
+#G      1975Vy01, 1974Tu01, and 1974Pe16.  |g's are reported in at least  
+#G      two of these references, unless otherwise noted. For more precise 
+#G      values for many of these |g rays, see the {+152}Gd(n,|g) data or  
+#G      the {+153}Gd Adopted |g radiations.                               
+#G RI        From weighted average of values from 1991Gr21, 1975Vy01,     
+#G      and 1974Pe16 using the rules of the Limitation of Relative        
+#G      Statistical Weight method for adjustment of the input and         
+#G      output uncertainties.                                             
+#G MR        From {+153}Gd Adopted |g radiations and based on measured    
+#G      angular distributions from {+153}Tb |e decay (1983Pr07) and       
+#G      {+152}Gd(n,|g) data.                                              
+#G M         From {+153}Gd Adopted |g radiations and based on             
+#G      {+152}Gd(n,|g) data and {+153}Tb |e decay from 1975Vy01 with      
+#G      relative I|g and Ice(K) normalized so that |a{-K}(212 |g) =       
+#G      0.034 (E1,theory).  Values quoted by 1982Al24 are based on        
+#G      I|g of those authors and Ice(K) of 1975Vy01.                      
+#G E(R)      Only reported by 1991Gr21.                                   
+#G E(S)      Only reported by 1975Vy01.                                   
+#G E(T)      Only reported by 1974Pe16.                                   
+#G E(U)      Only reported by 1974Tu01.                                   
+#G E(V)      This placement from 1991Gr21 only.                           
+#G E(W)      This placement omitted in 1991Gr21.                          
+#G E(X)      The second placement of this |g is from 1991Gr21 only.       
+#L E         From least-squares fit to |g-ray energies with |g's with     
+#L      questionable placement omitted, uncertainties of 1.0 keV          
+#L      assigned to |g's without uncertainties, and uncertainties of      
+#L      multiply placed |g's increased by factors between 2.0 and 5.0.    
+#L      There are several cases where the energies of two |g rays from a  
+#L      level are discrepant, e.g., by over 5 |s; this may imply          
+#L      that one or both of these |g's are multiplets. See {+153}Gd       
+#L      Adopted Levels for more precise level energies.                   
+#L J         From {+153}Gd Adopted Levels, except as noted otherwise.     
+#L T         Level half-lives have been reported by 1969An19, 1970VaZO,   
+#L       1972Af03, and 1982Al24 (and 1991Gr21).                           
+#P 0.0         5/2+              2.34 D    1              1570       4    
+TB153 GD153 beta+ 1.57 202176.0 0.031
++G gamma 0.016399999999999998 0.0022
++G gamma 0.01936 3.2E-4
++G gamma 0.0358 2.1E-4
++G gamma 0.212 10.0
++G gamma 0.31930000000000003 0.015
++G gamma 0.7867999999999999 0.008
+

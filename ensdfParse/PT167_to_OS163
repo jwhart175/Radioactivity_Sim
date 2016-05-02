@@ -1,0 +1,84 @@
+#163OS  XB167PT A DECAY (0.78 MS)                                                
+#XB167PT A DECAY (0.78 MS)                                                
+#XC106CD(60NI,3NG)                                                        
+#N                                                                     6  
+#L   0.0        (7/2-)              5.5 MS 6                          A   
+#L %A AP 100$%EC+%B+=?$                                                   
+#L XREF=ABC                                                               
+#L T$from 1996Bi07. Others: 12 ms {I+11-7} (1996Pa01); 7.5 ms {I+42-20}   
+#L (2001Ke05).                                                            
+#L %A$from parent-daughter intensity correlations (1996Bi07)              
+#L $%|e+%|b{++}<2% from theoretical (1997Mo25) |b-decay T{-1/2}=0.226 s   
+#L and |a-decay T{-1/2}=4.79 ms                                           
+#L J$l=5 proton decay (involving the |ph{-11/2} orbital) from a           
+#L high-spin (probably 9+) state in {+164}Ir. Probable                    
+#L configuration=|nf{-7/2}. Systematics (2012Au07) also support 7/2-      
+#L 623.7      5 (11/2-)                                               A   
+#L XREF=C                                                                 
+#G  623.7    5  100                                                       
+#L 1275.1     7                                                           
+#L XREF=C                                                                 
+#G  651.4    5   100                                                      
+#L 1292.2     7 (15/2-)                                               A  ?
+#L XREF=C                                                                 
+#L FLAG=B                                                                 
+#G  668.5    5   100                                                  X   
+#L 1992.2     9 (19/2-)                                               A  ?
+#L XREF=C                                                                 
+#L FLAG=B                                                                 
+#G  700.0    5   100                                                  X   
+#L 2230.6    10 (23/2-)                                               A   
+#L XREF=C                                                                 
+#G  238.4    5   100                                                  X   
+#                                                                         
+#  164IR P DECAY (70 US)         2014DR02,2001KE05,2002MA6110NDS    201506
+#H TYP=FUL$AUT=BALRAJ SINGH$CIT=ENSDF$CUT=10-JUN-2015$                    
+#H TYP=FUL$AUT=C. W. REICH, BALRAJ SINGH$CIT=NDS 111, 1211 (2010)$        
+#H CUT=12-Apr-2010$                                                       
+#  2014Dr02: {+164}Ir nuclei were produced in the fusion-evaporation      
+#  reaction {+92}Mo({+78}Kr, p5n) with E=428, 435 and 450 MeV {+78}Kr     
+#  beams from the K130 cyclotron at the Accelerator Laboratory of the     
+#  University of Jyvaskyla bombarding a isotopically enriched,            
+#  self-supporting {+92}Mo target foil of 500 |mm/cm{+2} thickness.       
+#  Evaporation residues were separated and transported using the          
+#  gas-filled separator ion transport unit (RITU) to the GREAT            
+#  spectrometer. The ions passed through a multiwire proportional counter 
+#  (MWPC) and were implanted into two adjacently mounted DSSDs.           
+#  Measured E|a, I|a, E(p), I(p), recoil-decay correlations, decay time   
+#  distribution. Deduced {+164}Ir isomer half-life, decay branching       
+#  ratios, decay widths. Comparisons with available data.                 
+#  About 100 {+164}Ir |ph{-11/2} isomer proton-decay events and 4 |a-decay
+#  events were observed and identified from correlations with the |a decay
+#  of daughter nuclei in 2014Dr02.                                        
+#  No evidence was found for the proton decay of the {+164}Ir |pd{-3/2}   
+#  ground state, which may be due to either too low a production yield    
+#  or too short a half-life (<0.5 |ms)                                    
+#  2002Ma61: {+164}Ir produced in the bombardment of a {+92}Mo target by a
+#  437-MeV {+78}Kr beam. Reaction products analyzed in the ANL fragment   
+#  mass analyzer and implanted into a double-sided Si strip detector.     
+#  Report T{-1/2} and E(p).                                               
+#  2001Ke05: {+164}Ir produced in the {+106}Cd({+64}Zn,p5n)               
+#  fusion-evaporation reaction. Reaction products analyzed in the         
+#  gas-filled recoil separator RITU and implanted into a                  
+#  position-sensitive Si strip detector. T{-1/2} and E(p) reported.       
+#  See also 2003SeZZ. 2007Me28 discuss systematics of half-lives for      
+#  proton decay.                                                          
+#  2009Do06: theoretical calculation of proton decay half-life and        
+#  penetration probability.                                               
+#P  0+X         (9+)               70 US   10               1560    SY    
+
+#163OS    167PT A DECAY (0.78 MS)       1996BI07,2004KE06         10NDS    201506
+#  167PT A DECAY (0.78 MS)       1996BI07,2004KE06         10NDS    201506
+#H TYP=FUL$AUT=BALRAJ SINGH$CIT=ENSDF$CUT=10-JUN-2015$                    
+#H TYP=FUL$AUT=C. W. REICH, BALRAJ SINGH$CIT=NDS 111, 1211 (2010)$        
+#H CUT=12-Apr-2010$                                                       
+#  1996Bi07: {+167}Pt produced by {+92}Mo({+78}Kr,xn) followed by         
+#  separation of recoil nuclei by Fragment Mass Analyzer.                 
+#  Measured E|a, T{-1/2}                                                  
+#  2004Ke06: {+167}Pt studied as one of several nuclides produced in the  
+#  fusion-evaporation reaction {+96}Ru+{+78}Kr. Fusion products separated 
+#  in-flight in the gas-filled recoil separator RITU. Measured E|a        
+#  and T{-1/2}                                                            
+#P  0                              0.78 MS 16              7160     50    
++A alpha 6.982 1.0
+

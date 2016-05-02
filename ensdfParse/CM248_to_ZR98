@@ -1,0 +1,31 @@
+# 98ZR    248CM SF DECAY                2001UR01                  03NDS    200305
+#  248CM SF DECAY                2001UR01                  03NDS    200305
+#H TYP=FUL$AUT=BALRAJ SINGH, ZHIQIANG HU$CIT=NDS 98, 335 (2003)$          
+#H CUT=31-Jan-2003$                                                       
+#  2001Ur01: measured E|g, I|g, |g|g, |g|g(|q), |g|g(|q)(DCO), |g(lin pol)
+#  using Eurogam2 array of 52 large Ge detectors in anti-Compton shields, 
+#  24 four-crystal Clover detectors, and 4 LEPS detectors                 
+#  1997Ur02: measured x rays, E|g, I|g, |g|g|g, |g|g(|q), |g|g(|q,pol)    
+#  using Eurogam array of 52 Ge detectors including 24 clover detectors   
+#  |g-ray intensities, |g|g(|q) results and other details                 
+#  of this study are not available                                        
+#G $For the geometry of the detectors used by 2001UR01,                   
+#G ^DCO(calculated)=0.89 for |DJ=2, Q; 1.09 for |DJ=1, dipole and         
+#G 0.81 for |DJ=0, dipole. ^POL(calculated)=+0.14 for |DJ=2, E2;          
+#G +0.09 for |DJ=1, E1; -0.09 for |DJ=1, M1; -0.25 for |DJ=0, E1 and      
+#G +0.25 for |DJ=0, M1                                                    
+#G E(A)$From Figure 4 of 2001UR01                                         
+#L J$As proposed by 2001Ur01                                              
+#L E$From least-squares fit to E|g's, assuming                            
+#L |D(E|g)=0.3 KEV for each |g ray                                        
+#L E(N)$Level not seen by 2001UR01, included in their level scheme        
+#L from literature                                                        
+#L J(M)$(5,6) in adopted levels                                           
+#L BAND(A)$ GS BAND                                                       
+#L BAND(B)$ 3- BAND                                                       
+#L BAND(C)$ 0+ BAND.                                                      
+#L MOME2(intrinsic)=2.00 10 (2001UR01) from lifetime data for             
+#L 12+, 10+ and 8+ states                                                 
+#L BAND(D)$ 0+ BAND.                                                      
+#P 0            0+               3.48E+5 Y 6                              
+

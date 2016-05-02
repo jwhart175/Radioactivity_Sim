@@ -1,0 +1,98 @@
+#240PU    240AM EC DECAY (50.8 H)       1972AH07,1971LEZO,1972POZS08NDS    200810
+#  240AM EC DECAY (50.8 H)       1972AH07,1971LEZO,1972POZS08NDS    200810
+#H TYP=FUL$AUT=BALRAJ SINGH, E. BROWNE$CIT=NDS 109, 2439 (2008)$          
+#H CUT=31-Jul-2008$                                                       
+#  1972Ah07: Measured E|g, I|g, ce, (ce)(|g) coin, mass-separated source, 
+#  Ge(Li) and Si(Li) detectors. Source prepared by {+237}Np(|a,n) reaction
+#  at 30 MeV. Subsequent to chemical separation the source was run through
+#  the Argonne isotope separator to obtain enriched {+240}Am samples.     
+#  A total of 14 |g rays were reported: 42.9, 98.9 and 12 |g rays from    
+#  888 to 1295 keV. In the level scheme, eight |g rays were assigned      
+#  amongst five excited states. Conversion electron intensities were      
+#  given in percent per {+240}Am decay, but no uncertainties were         
+#  quoted in these intensities and the procedure to normalize ce          
+#  intensities to |g-ray intensities was not explained.                   
+#  1971LeZO: Measured E|g, I|g, |g|g, ce, chemically separated source,    
+#  Ge(Li) detectors singles and Compton-suppressed, Si(Li) electron       
+#  spectrometer, (x ray)|g coin using two NaI(Tl) detectors. A total      
+#  of 31 |g rays and two conversion lines (for 42.9|g and 99.0|g)         
+#  reported. Full experimental details about normalization of             
+#  electron spectra and spectral (|g and ce) figures are not available    
+#  in this report.                                                        
+#  Therefore the evaluators have considered the |g-ray intensities        
+#  reported in 1972Ah07 and 1971LeZO to be relative values given          
+#  on an approximate absolute scale because their uncertainties do not    
+#  include the cancellation effects from the decay-scheme normalization   
+#  procedure. See comments on "I|g normalization." Despite the scarcity of
+#  detailed information the agreement of |g-ray data given in 1972Ah07 and
+#  1971LeZO is very good, especially for the intense 988- and 889-keV     
+#  |g rays.                                                               
+#  1972PoZS: Measured E|g, I|g, half-life, chemically separated source    
+#  prepared by {+237}Np(|a,n) reaction at 50 MeV. Ge(Li) detector used.   
+#  A total of 23 |g rays reported between 305 and 1296 keV. Small         
+#  impurities of {+140}La, {+143}Ce and {+239}Am were present in the      
+#  source. Twenty |g rays were placed in a level scheme essentially       
+#  based on the one from 1971LeZO. No uncertainties were quoted on        
+#  |g-ray intensities, except for the ratio I|g(889|g)/I|g(988|g).        
+#  Other studies:                                                         
+#  1970Go42: Measurement of |a decay mode                                 
+#  1966Bi03: Measured E|g, I|g                                            
+#  1960Gl01: Measured E|g, I|g for three |g rays, NaI(Tl) detector        
+#  1957Sm77: Measured ce spectrum, deduced energies of first two          
+#  excited states at 42.87 {I4} and 141.77 {I20}                          
+#  1956Gl80: Isotopic production and measurement of |g rays               
+#  1950St61: Isotopic production and half-life.                           
+#  1949Se02: Identification and production of {+240}Am isotope, measured  
+#  isotopic half-life, isotope produced in {+239}Pu(d,n) at 10 MeV.       
+#E $ The LOGFT VALUE FOR 649, 3- LEVEL DISCUSSED BY 2006SA35              
+#E IN TERMS OF INTRINSIC STATES AND K-FORBIDDEN TRANSITIONS               
+#G $ Pu K| x-ray intensities (per 100 decays of {+240}Am) from 1972Ah07:  
+#G $ I(K|a{-2}, 99.53 keV {I2})=18.6 {I6}                                 
+#G $ I(K|a{-1}, 103.74 keV {I2})=29.0 {I10}                               
+#G $ I(K|b{-1}+K|b{-3}, 116.25 keV {I3}+117.23 keV {I3})=10.8 {I4}        
+#G $ I(K|b{-2}+K|b{-4}+K to O{-2,3}, 120.65 keV {I3}+121.56 keV {I3})=    
+#G 3.80 {I15}                                                             
+#G $ Experimental conversion coefficients are from ce data of 1972Ah07,   
+#G unless otherwise stated. Theoretical conversion coefficients are from  
+#G BrIcc code at www.nndc.bnl.gov.                                        
+#G E,RI$ Weighted averages of values from 1971LeZO and 1972Ah07 are       
+#G taken when possible. Except for the two most intense transitions,      
+#G values from 1972PoZS are not considered in deducing recommended        
+#G values since the energies seem consistently higher (by up to 1 keV     
+#G at the highest energies) and the intensities are given without         
+#G uncertainties. The intensities given by 1972PoZS are in general        
+#G agreement with those from 1971LeZO.                                    
+#G E(A)$ From 'adopted gammas'                                            
+#G E(X),RI(X)$ G FROM 1971LEZO only                                       
+#G E(Z),RI(Z)$ FROM 1971LEZO. CORRESPONDING VALUE FROM 1972POZS IS        
+#G IN GENERAL AGREEMENT BUT LESS PRECISE. This |g ray was not reported    
+#G by 1972Ah07.                                                           
+#G M,MR$ FROM CE DATA OF 1972AH07 AND 1971LEZO                            
+#L E$ From least-squares fit to E|g's                                     
+#L E(L)$ LEVEL FROM 1971LEZO ONLY                                         
+#L J$ From 'adopted levels'                                               
+#L BAND(A)$ K|p=0+, g.s. band                                             
+#L BAND(B)$ K|p=0-, octupole band                                         
+#L BAND(C)$ K|p=0+ band                                                   
+#L BAND(D)$ K|p=(1-) band                                                 
+#L BAND(E)$ K|p=(3)+ band                                                 
+#L BAND(F)$ K|p=(2+) band                                                 
+#P 0           (3-)              50.8 H    3              1385      14    
++G gamma 0.04287 0.00109446
++B beta+ 7.566000000000001E-4 0.00179
++B beta+ 7.541E-4 0.00181
++B beta+ 7.327E-4 0.0019
++B beta+ 7.283E-4 0.0019
++B beta+ 7.180999999999999E-4 0.002
++B beta+ 6.889999999999999E-4 0.00226
++B beta+ 6.71E-4 0.0023899999999999998
++B beta+ 6.57E-4 0.00248
++B beta+ 6.52E-4 0.00252
++B beta+ 6.37E-4 0.00262
++B beta+ 6.03E-4 0.0028599999999999997
++B beta+ 5.200000000000001E-4 0.0033900000000000002
++B beta+ 4.3E-4 0.004
++B beta+ 2.2E-4 0.0054
++B beta+ 1.6E-4 0.0058
++B beta+ 0.0 0.0068000000000000005
+

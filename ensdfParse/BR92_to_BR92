@@ -1,0 +1,27 @@
+# 92BR    92BR IT DECAY                 2009FO05                  12NDS    201210
+#  92BR IT DECAY                 2009FO05                  12NDS    201210
+#H TYP=FUL$AUT=CORAL M. BAGLIN$CIT=NDS 113, 2187 (2012)$CUT=15-Sep-2012$  
+#  92BR produced through the {+9}Be({+238}U,X) reaction. 238U             
+#  beam produced at E=8.00 MeV/nucleon by the ^K500 and ^K1200            
+#  cyclotrons at the National Superconducting Laboratory at Michigan      
+#  State University. Reaction products were separated using the ^A1900    
+#  fragment separator and detected using two parallel plate avalanche     
+#  counters, a Si DE detector, four Si detectors, and a plastic           
+#  scintillator. Measurements of the time-of-flight, B|r and total        
+#  kinetic energy were used to determine the atomic number, mass number   
+#  and charge state of reaction products. |g's were detected with one     
+#  HPGe detector. Half-lives were measured using the time difference      
+#  between implantation events and HPGe events, unsuitable                
+#  for measuring half-lives of less than 500 ns. Measured particle        
+#  spectra, EG, IG, (particle)-G-coincidence and half-lives of            
+#  isomeric states.                                                       
+#  Isomer with half-life of <500 ns discovered; no level scheme           
+#  proposed, but several scenarios have been presented in the             
+#  discussion                                                             
+#G RI        Photons per 100 fragments; CORRECTED FOR LENGTH OF G GATE,   
+#G IN-FLIGHT LOSSES WHILE TRANSITING THE FRAGMENT SEPARATOR, DETECTOR     
+#G EFFICIENCY AND RANDOMLY-CORRELATED BACKGROUND EVENTS. OBSERVED G       
+#G PHOTOPEAK AREAS ARE GIVEN IN COMMENTS.                                 
+#P 0.0+X                         500 NS    LT                             
+BR92 BR92 IT 0.0 5.0E-7 1
+

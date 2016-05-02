@@ -1,0 +1,58 @@
+#154GD    154TB EC DECAY (22.7 H)       1975SO03,1972VY04,1973LA2009NDS    200910
+#  154TB EC DECAY (22.7 H)       1975SO03,1972VY04,1973LA2009NDS    200910
+#H TYP=FUL$AUT=C. W. Reich$CIT=NDS 110, 2257 (2009)$CUT=1-May-2008$       
+#  DATA SET UPDATED (APRIL, 2008) BY CW REICH TO INCORPORATE NEW Q VALUE, 
+#   CC VALUES FROM BRICC, AND MODIFICATIONS TO SOME COMMENTS.             
+#  Three 154TB isomers (21.5, 9.4, and 22.7 H) have been observed. The    
+#  most complete decomposition of the G data among these isomers          
+#  is from 1975So03, so these data are used to place the G's.             
+#  A STUDY OF THE 154TB ISOMERS IS REPORTED AS A PART OF THE THESIS       
+#   WHICH CONSTITUTES 2001KuZS. THESE DATA ARE NOT INCLUDED HERE, SINCE   
+#   FURTHER ANALYSIS APPEARS TO BE REQUIRED.                              
+#  Experimental methods:                                                  
+#  See 154TB (21.5 H) for a listing of references.                        
+#E TI        Values are from G-transition-intensity balances. Due to      
+#E the incompleteness of the decay scheme, values less than 2% are        
+#E considered unreliable and are not given. For the same reason,          
+#E uncertainties are not given for values less than 5%. All negative      
+#E values are omitted. Several values that are incompatible with          
+#E the JPI values are also omitted; these are 2% 12 to 4+ at 371 keV,     
+#E 2.6% 4 to 2+ at 815, 2.4% 7 to 4+ at 1263, and 10.8% 12 to 4+          
+#E at 1645.                                                               
+#E TI        As a check of the normalization, it is noted that            
+#E SUMOF I(EC+B+) is 94% 10 for the values given, 125% 23 for all         
+#E positive values computed. The most meaningful sum may be of the        
+#E positive values to states with J GE 5; this sum is 97% 10.             
+#E TI        The total-absorption G spectrum of 1980By03 indicates that   
+#E for a 154TB source of unstated isomer content, the feeding is          
+#E primarily to levels near 2.0 MeV. This measured feeding appears        
+#E compatible with any combination of the three 154TB isomers.            
+#G E         From weighted average of values of 1972Vy04 and 1975So03.    
+#G Values without uncertainties were computed from level energies         
+#G by 1975So03.                                                           
+#G           RI VALUES ARE NOT GIVEN FOR SEVERAL G'S BY 1975So03. THESE   
+#G  G'S ARE KNOWN FROM OTHER STUDIES TO DEEXCITE LEVELS OBSERVED IN THIS  
+#G  DECAY, BUT FOR VARIOUS REASONS ARE NOT SEEN IN THIS DECAY (1975So03). 
+#G E         Because of the more definitive isomer assignment only the    
+#G unplaced G's of 1975So03 are given.                                    
+#G M,MR      Assignments and values are from 154GD adopted G radiations   
+#G and include the results of all types of experiments and all decay      
+#G modes. See 154GD adopted G radiations for other information            
+#G including: (1) mixing ratios such as MR(M3/E2) and MR(M2/E1)           
+#G where MR can be zero and is not included here; (2) comments on         
+#G measurements for lines which are multiplets; and (3)                   
+#G identification of CC values that are based on                          
+#G experimental values rather than theory.                                
+#L E         Values are from least-squares fit to the G energies.         
+#L J         From 154GD Adopted Levels.                                   
+#L                 Band head is at 680 keV.                               
+#L                 Band head is at 996 keV.                               
+#L                 Band head at 1645 keV.                                 
+#L                 Band head at 2137 keV.                                 
+#L BAND(A)   KPI=0+ ground-state band.                                    
+#L BAND(B)   First excited KPI=0+ band. Probable B-vibrational band.      
+#L BAND(C)   KPI=2+ G-vibrational band.                                   
+#L BAND(I)   KPI=4+ band. Probable hexadecapole vibration.                
+#L BAND(K)   KPI=7- band. CONF=(|n 3/2[651])+(|n 11/2[505]).              
+#P    0+Y       7-               22.7 H    5               3550     50    
+

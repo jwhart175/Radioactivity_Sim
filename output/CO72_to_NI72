@@ -1,0 +1,37 @@
+# 72NI    72CO B- DECAY                 2005MA59,2003SA40         10NDS    201002
+#  72CO B- DECAY                 2005MA59,2003SA40         10NDS    201002
+#H TYP=FUL$AUT=D. Abriola(a), A.A. Sonzogni$CIT=NDS 111,1 (2010)$         
+#H CUT=1-May-2009$                                                        
+#  2005MA59: 72CO produced in fragmentation of {+86}Kr beam in a {+9}Be   
+#  target at E=140 MeV/nucleon.  Reaction products selected according to  
+#  their momentum over charge ratio using the ^A1900 spectrometer of the  
+#  National Superconducting Cyclotron Laboratory (^NSCL).  Measured E|g,  
+#  I|g, |g|g, |g-|b coin, |g-fragment coin, tof and |DE with the ^NSCL    
+#  beta-counting system, a double-sided Si strip detector (^DSSD) and     
+#  the SeGa array of Ge detectors.                                        
+#  2003SA40: 72CO from fragmentation of {+86}Kr{++36} beam at E=58        
+#  MeV/nucleon on a natural Ta target; ^LISE2000 spectrometer for ion     
+#  selection. Measured |b, |g correlated with |b events, E|g, I|g.        
+#G E,RI$From 2005MA59                                                     
+#L E$From E|g                                                             
+#  The decay scheme is incomplete, fewer |g rays than what would be       
+#  expected from a decay with a Q-value of nearly 15 MeV were reported,   
+#  and the %B-N in 72CO is not precisely known. As a result, absolute     
+#  intensities can not be obtained.  Estimates of the B- intensities can  
+#  be made by assuming that the absolute gamma ray intensity of the       
+#  1096|g is about 100%, therefore the I(B-) to the 3593 level will be    
+#  AP 30%, and the I(B-) to the 2396 level will be AP 24%.  The           
+#  intensities of the 845- and 1096-keV G rays are inconsistent with the  
+#  decay scheme shown here. However, they suggest the existence of B-     
+#  population to levels that have not been observed but that gamma decay  
+#  to the 1941-keV level, thus increasing the intensities of these two G  
+#  rays.                                                                  
+#P 0.0         [6-,7-]           59.9 MS   17             1.493E+4  60    
+CO72 NI72 beta- 14.93 0.0599 1.0
++G gamma 0.7 0.21
++G gamma 0.83 0.09
++G gamma 1.096 1.0
++G gamma 0.845 0.8
++G gamma 0.455 0.54
++G gamma 1.197 0.3
+

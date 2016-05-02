@@ -1,0 +1,59 @@
+# 99NB    99ZR B- DECAY                 1998LH03,1979SE01         11NDS    201102
+#  99ZR B- DECAY                 1998LH03,1979SE01         11NDS    201102
+#H TYP=FUL$AUT=E. BROWNE, J. K. TULI$CIT=NDS 112, 275 (2011)$             
+#H CUT=1-Nov-2009$                                                        
+#  99Zr source produced by fission of natural uranium induced by 25-MeV   
+#  protons.  On-line mass separation. Measured G-ray singles and GG COIN  
+#  with a 10-germanium detector array (1998Lh03).                         
+#  Measured: |g, |g|g, |g|g(t), |g|g(|q) (1979Se01); |g|b(t) (1990OhZY);  
+#  |g (1970Ei02)                                                          
+#G CC$ FROM BrIcc v2.2 (31-Mar-2008) 2008KiAA, "Frozen Orbitals" appr.    
+#G E,RI$Weighted averages from 1998Lh03 and 1979Se01 (LOHENGRIN and       
+#G JOSEF fission product separators), unless otherwise specified.         
+#G M,MR      From |g|g(|q). Quadrupole |g's are E2 since T{-1/2}<5 ns.    
+#G E(A)      Curved-crystal spectrometer measurement (1979Bo26)           
+#G E(B),RI(B)$From 1998Lh03.                                              
+#L J         From adopted levels.                                         
+#L T         From |g|g(t) and |b|g(t) (1990OhZY)                          
+#P 0.0         (1/2+)            2.1 S     1              4704      17    
+ZR99 NB99 beta- 4.704 2.1 1.0
++G gamma 0.0461 0.0012
++G gamma 0.0888 9.0E-4
++G gamma 0.1752 9.0E-4
++G gamma 0.363 6.0E-4
++G gamma 0.3792 0.001
++G gamma 0.4445 6.0E-4
++G gamma 0.5367000000000001 0.015
++G gamma 0.5614 0.0019
++G gamma 0.581 0.01
++G gamma 0.6003999999999999 6.0E-4
++G gamma 0.0818 0.055
++G gamma 0.07429999999999999 2.0E-4
++G gamma 0.0867 7.000000000000001E-4
++G gamma 0.2209 8.0E-4
++G gamma 0.3475 8.0E-4
++G gamma 0.4293 0.0038
++G gamma 0.8167000000000001 0.0012
++G gamma 0.1142 0.0031
++G gamma 0.1656 1.0E-4
++G gamma 0.3865 0.0011
++G gamma 0.4618 0.19899999999999998
++G gamma 0.5436 0.0126
++G gamma 0.028399999999999998 0.0039000000000000003
++G gamma 0.49019999999999997 0.01
++G gamma 0.0559 0.039
++G gamma 0.0844 0.0016
++G gamma 0.198 6.0E-4
++G gamma 0.2504 4.0E-4
++G gamma 0.38480000000000003 6.0E-4
++G gamma 0.4711 0.0012
++G gamma 0.54613 0.878
++G gamma 0.6279 0.037000000000000005
++G gamma 0.65 0.040999999999999995
++G gamma 0.1134 6.0E-4
++G gamma 0.49989999999999996 6.0E-4
++G gamma 0.5754 0.016
++G gamma 0.96 0.0060999999999999995
++G gamma 1.0434 0.0018
++G gamma 1.321 0.0024
+

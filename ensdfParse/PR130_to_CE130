@@ -1,0 +1,27 @@
+#130CE    130PR EC DECAY:HIGH J + LOW J 1990KO25,1988BA42         01NDS    200107
+#  130PR EC DECAY:HIGH J + LOW J 1990KO25,1988BA42         01NDS    200107
+#H TYP=FUL$AUT=BALRAJ SINGH$CIT=NDS 93, 33 (2001)$CUT=11-May-2001$        
+#  1990KO25 (also 1987KO24): measured EG, IG, GG, T1/2                    
+#  1988BA42 (also 1991GIZY): measured EG, GG                              
+#  1991GIZY: A. GIZON AND J. GIZON, RECENT ADVANCES IN                    
+#  NUCLEAR STRUCTURE, PREDAL, ROMANIA (AUG 28-SEPT 8, 1990), P61          
+#  1986KUZQ: measured CE for decay of high-spin continuum states          
+#  1997AS05: measured (772G)(254G)(THETA)                                 
+#  1994GIZZ: measured CE                                                  
+#  1994GIZZ: A. GIZON ET AL. INT CONF NUCL SHAPES AND NUCL STRU, ANTIBES  
+#  (FRANCE) JUNE 1994, P315                                               
+#  LOGFT's cannot be deduced due to incomplete information about RI's,    
+#  large gap (of AP 6 MEV) between Q(EC) value and maximum energy level   
+#  known in this decay, and inability to separate the level scheme from   
+#  two isomers from available data. 1991GIZY give %EC feedings and        
+#  associated LOGFT values, but these cannot be valid for reasons         
+#  given above                                                            
+#  T1/2(130PR isotope): 1977BO02, 1964PEZY                                
+#G E,RI$From 1990KO25, unless otherwise stated                            
+#G E(A)$From 1991GIZY (also 1988BA42) only                                
+#L J$From adopted levels                                                  
+#L J(A)$Argument is lacking for assignment (listed under comment)         
+#L proposed by 1988BA42                                                   
+#P 0+X           HIGH J          40.0 S    4              8091      SY    
+PR130 CE130 beta+ 8.091 40.0 1.0
+

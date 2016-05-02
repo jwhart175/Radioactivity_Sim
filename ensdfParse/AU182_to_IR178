@@ -1,0 +1,23 @@
+#178IR    182AU A DECAY                 1995BI01,1979HA10         09NDS    200907
+#  182AU A DECAY                 1995BI01,1979HA10         09NDS    200907
+#H TYP=FUL$AUT=E. Achterberg, O.A. Capurro, G.V. Marti$                   
+#H CIT=NDS 110, 1473 (2009)$CUT=31-May-2008$                              
+#                                                                         
+#  1995Bi01: Activities produced by the bombardment of Yb (diffused into a
+#  C felt) with 165MeV 19F beam. Identification and measurements          
+#  using the UNISOR on-line isotope separator.  Si(Li) detectors to       
+#  identify |a rays and electrons. Ge(Li) detectors to measure |g and     
+#  x-rays, Si(Au) surface barrier detector to measure |a particles.       
+#  Two Ge(Li) detectors were used to observe |g and x-rays in             
+#  coincidence. Measured E|a, I|a,  |a|g coin.,                           
+#  |a-x coin., |a-e coin., and half-lives, deduced HF.                    
+#  1979Ha10: Activity produced by protons on Pb; E=600 MeV. Measured E|a, 
+#  I|a, |a|g coin. Detectors: semiconductors Ge(Li).                      
+#L           Level and transition energies are from 1995Bi01, as well as  
+#L the HF estimates.                                                      
+#P 0.0           2+              15.5 S     4             5526       4    
+AU182 IR178 alpha 5.526 15.5 0.0013
++A alpha 5.403 0.21
++A alpha 5.352 0.72
++A alpha 5.283 0.07
+

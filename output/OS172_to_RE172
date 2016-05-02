@@ -1,0 +1,16 @@
+#172RE    172OS EC DECAY (19.2 S)       1995HI02                  95NDS    199509
+#  172OS EC DECAY (19.2 S)       1995HI02                  95NDS    199509
+#H TYP=FUL$AUT=BALRAJ SINGH$CIT=NDS 75,199 (1995)$CUT=31-May-1995$        
+#  1995Hi02: source produced by 140CE(36AR,4N) E=178,185,194 MEV.         
+#  Measured EA, EG, IG, GG, T1/2(172OS isotope)                           
+#  Others: 1972Be89, 1974Be59, 1977Be66 (all by the same group).          
+#  172OS produced by TL(p,^X) E=1 GEV, spallation reaction.               
+#  1972Be89 reported four GAMMA rays with energy (intensity):             
+#  177 (100), 187 (50), 276 (25), 285 (30). 1995Hi02 confirm the          
+#  existence of 177G, but not the others within an upper limit of         
+#  AP 5%, relative to RI(177G)                                            
+#L J$From adopted levels                                                  
+#G E,RI$From 1995Hi02                                                     
+#P 0.0         0+                19.2 S    9              4460      SY    
+OS172 RE172 beta+ 4.46 19.2 1.0
+

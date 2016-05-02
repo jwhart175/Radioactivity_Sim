@@ -1,0 +1,32 @@
+# 62MN    62CR B- DECAY (206 MS)        2005GA01,2003SO02,1999SO2012NDS    201205
+#  62CR B- DECAY (206 MS)        2005GA01,2003SO02,1999SO2012NDS    201205
+#H TYP=FUL$AUT=ALAN L. NICHOLS, BALRAJ SINGH, JAGDISH K. TULI$            
+#H CIT=NDS 113, 973 (2012)$CUT=15-Apr-2012$                               
+#  All papers are from the same group at GANIL                            
+#  {+62}Cr produced in fragmentation of {+76}Ge{+30+} beam on a {+58}Ni   
+#  target. LISE3 doubly achromatic spectrometer used to separate          
+#  fragments, with magnetic rigidity tuned to optimize transmission of    
+#  {+62}V and {+64}Cr fragments.  Transmitted nuclei were identified by   
+#  three consecutive Si detectors (300, 300 and 1500 microns); first two  
+#  served for energy loss and time-of-flight measurements, while the last 
+#  determined their residual energies.                                    
+#  Measured E|g, I|g, I|b, |g|g, |b|g coin., |g(t), lifetimes with four   
+#  Ge detectors placed around a thick Si telescope. Half-lives determined 
+#  by fitting procedure involving five parameters: half-lives of mother,  
+#  daughter and grand-daughter nuclei, the |b-efficiency and the          
+#  background rate over the counting time.                                
+#  All data are from 2005Ga01, unless otherwise stated                    
+#  The decay scheme is poorly known                                       
+#  Total decay energy of 1140 keV {I3} deduced (by RADLIST code) from     
+#  proposed decay scheme is much lower than the expected value of         
+#  7770 keV {I340}, indicating that decay scheme is incomplete            
+#G E$Uncertainty assigned by evaluators on the basis of the standard      
+#G uncertainty of 2 keV for all other gammas observed by 2005Ga01         
+#L E$2005Ga01 could not distinguish which of the two low-spin |b-decaying 
+#L isomers observed is the ground state; the shorter-lived                
+#L state was presumed to be the isomer. However, systematics as discussed 
+#L in Adopted Levels suggest that 92-ms activity is likely to be the g.s. 
+#L T,J$ From Adopted Levels                                               
+#P 0.0          0+                206 MS   12             7.77E+3   34    
+CR62 MN62 beta- 7.77 0.0 1.0
+

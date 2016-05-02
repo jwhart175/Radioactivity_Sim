@@ -1,0 +1,17 @@
+#159HO    159HO IT DECAY                1971GE01                  12NDS    201201
+#  159HO IT DECAY                1971GE01                  12NDS    201201
+#H TYP=FUL$AUT=C. W. Reich$CIT=NDS 113, 157 (2012)$CUT=31-Dec-2010$       
+#  DATA SET UPGRADED (OCTOBER, 2010) B CW REICH TO INCLUDE REVISED CC     
+#   VALUES, NR AND ADDITIONAL COMMENTS.                                   
+#  159HO (8 s) from 160DY(p,2n) at 12-15 MeV with pulsed beam             
+#   (1971Ge01). Data are from 1971Ge01, unless noted as being from        
+#   1966Bo02.                                                             
+#  Problems with the current theoretical understanding of the measured    
+#   M3 transition probabilities in selected odd-mass nuclides are         
+#   discussed by 2003Lo04.                                                
+#L E         From least-squares fit to G energies.                        
+#L J         From 159HO Adopted Levels.                                   
+#P 205.91    5  1/2+             8.30 S    8                              
++G gamma 0.0395 2.394E-6
++G gamma 0.2059 0.3990000000000001
+

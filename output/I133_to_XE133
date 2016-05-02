@@ -1,0 +1,56 @@
+#133XE    133I B- DECAY (20.83 H)       1976ME16                  11NDS    201104
+#  133I B- DECAY (20.83 H)       1976ME16                  11NDS    201104
+#H TYP=FUL$AUT=YU. KHAZOV AND A. RODIONOV, F.G. KONDEV$                   
+#H CIT=NDS 112, 855 (2011)$CUT=31-Oct-2010$                               
+#  1976Me16: {+133}I |b{+-} decay; measured E|g, I|g, |g|g-coin.;         
+#  deduced levels, J|p, log| {Ift}. Reactor, {+133}Xe chemically isolated 
+#  from fission, gas chromatography facility, Ge(Li) detectors.           
+#  1966Ei01: {+133}I |b{+-} decay [from {+235}U fission]; measured E|g,   
+#  I|g, |g|g-coin, |b{+-} branching; deduced levels, J|p, log| {Ift};     
+#  measured T{-1/2} of {+133}I. Reactor, chemical purification,           
+#  Ge(Li) detector, gas-flow counter.                                     
+#  1974Ko26: {+133}I (oriented) |b{+-} decay; measured E|g, I|g, I|g(|q); 
+#  deduced levels, J|p, |d, log| {Ift}. Iodine implanted in               
+#  iron foil, temperature 25-40 mK, magnetic field 5 kG.                  
+#  Others: 1972Be90, 1971Sa09, 1969Fr04, 1959Ho97                         
+#B E(B)$From 1966Ei01                                                     
+#B IB$From intensity balance considerations                               
+#B IB(A)$From 1976Me16: branching to the 233.221 keV and 743.752 keV      
+#B levels equal 2.88% 2                                                   
+#G CC$ FROM BrIcc v2.2 (31-Mar-2008) 2008KiAA, "Frozen Orbitals" appr.    
+#G E,RI$From 1976Me16, except as noted. Uncertainty of 2% has been added  
+#G in quadrature to |DI|g by the evaluators, as indicated by the authors  
+#G E(B)$Shown in the decay scheme (1976Me16), but not included in the     
+#G Table 1                                                                
+#G M,MR$From |g(|q) in 1974Ko26, except as noted                          
+#G $A{-2}G{-2}, A{-4}G{-4} are from 1974Ko26. G{-2},G{-4} describe change 
+#G in orientation caused by preceding transitions.                        
+#L E$From a least-squares fit to E|g's                                    
+#L J,T$From adopted levels                                                
+#P 0.0          7/2+             20.83 H   8              1757       4    
+I133 XE133 beta- 1.757 74988.0 0.0870
++G gamma 0.17697 0.009000000000000001
++G gamma 0.5671 4.0E-4
++G gamma 1.0181 7.000000000000001E-4
++G gamma 0.15039 0.0034000000000000002
++G gamma 0.41756 0.0177
++G gamma 0.34543 0.012
++G gamma 0.38159 0.0052
++G gamma 0.64876 0.006500000000000001
++G gamma 0.91149 0.0053
++G gamma 0.5224 0.01
++G gamma 0.78959 0.0058
++G gamma 0.36108999999999997 0.013000000000000001
++G gamma 0.5561699999999999 0.0023
++G gamma 0.24595 0.004
++G gamma 0.38685 0.0068000000000000005
++G gamma 0.5545 1.0E-4
++G gamma 0.43887 0.0046
++G gamma 0.6701 0.0049
++G gamma 1.3503800000000001 0.0172
++G gamma 0.5098 0.001
++G gamma 0.2037 5.0E-4
++G gamma 0.90967 0.0246
++G gamma 1.0600699999999998 0.0159
++G gamma 1.3272 5.0E-5
+

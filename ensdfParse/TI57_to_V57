@@ -1,0 +1,23 @@
+# 57V     57TI B- DECAY (98 MS)         2005LI53                  ENSDF    201004
+#  57TI B- DECAY (98 MS)         2005LI53                  ENSDF    201004
+#H TYP=FUL$AUT=BALRAJ SINGH$CUT=12-APR-2010$CIT=ENSDF$                    
+#  2005Li53: {+57}Ti isotope produced in fragmentation of {+86}Kr{+34+}   
+#  beam on a {+9}Be target.  Secondary fragments were selected using the  
+#  A1900 fragment separator.  Fragment identification was performed by a  
+#  combination of multiple energy-loss signals and time of flight method. 
+#  Measured E|g, I|g, |g|g, |g|b(t), lifetime with 12 Ge detectors from   
+#  the MSU segmented Ge array and double-sided Si microstrip detector.    
+#B IB$ deduced by the evaluator from |g-ray intensity balances and the    
+#B ground state feeding deduced by 2005Li53 from the total number of      
+#B {+57}Ti nuclei implanted in the Double-sided Si microstrip detector    
+#B (DSSD). The listed |b feedings should be treated as apparent values    
+#B LOGFT$ All values are considered as lower limits.                      
+#L E$ from least-squares fit to E|g's                                     
+#P 0.0           (5/2-)           98 MS    5              10.64E3   51    
++B beta- 5.02 0.5379999999999999
++B beta- 4.94 0.05
++B beta- 4.18 0.011000000000000001
++B beta- 4.17 0.16
++B beta- 4.03 0.166
++B beta- 3.81 0.073
+

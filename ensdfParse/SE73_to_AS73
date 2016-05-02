@@ -1,0 +1,207 @@
+# 73AS    73SE EC DECAY (7.15 H)        1980TE01                  04NDS    200403
+#  73SE EC DECAY (7.15 H)        1980TE01                  04NDS    200403
+#H TYP=FUL$AUT=BALRAJ SINGH$CIT=NDS 101, 193 (2004)$CUT=12-May-2003$      
+#  1980TE01 (ALSO 1978TEZY): MEASURED EG, IG, GG                          
+#  The decay scheme is based on energy sums and GG-coin data of           
+#  1980Te01, 1970Me20 and 1969Ma21                                        
+#  G, GG: 1970ME20 (ALSO 1970MEZZ), 1969MA21. OTHERS: 1974RO14, 1968AT04, 
+#  1968AK03, 1967RA08, 1963BO16, 1960RI09, 1956HA10, 1951SC70             
+#  CE: 1956HA10, 1951SC70                                                 
+#  BG coin: 1968Ak03.                                                     
+#  (G+-)(G) COIN: 1963BO16, 1960RI09, 1956HA10                            
+#  GG(T): 1963BO26, 1963BO16. OTHERS: 1969IV02, 1968IV02                  
+#  (G+-)(G)(T): 1963BO16, 1956HA10                                        
+#  XG(T): 1969MA21                                                        
+#  B+ endpoint energies: 1968AK03, 1960Ku06, 1960Ri09, 1956HA10, 1951SC70 
+#  EC(K)/B+: 1957KU57                                                     
+#  G(THETA,T): 1988WH03                                                   
+#  GG(THETA), GG(THETA,H,T): 1963Bo26, 1988BE39, 1992SC21                 
+#  T1/2(73SE): 1976BO19, 1969MA21, 1967RA08, 1960RI09, 1957BE46,          
+#  1951SC70, 1948CO07                                                     
+#G           Intensity of G+- radiation=126 3 (1969Ma21) relative to      
+#G 100 for 361G                                                           
+#G E,RI$ FROM 1980TE01, UNLESS OTHERWISE STATED                           
+#G E(A),RI(A)$From 1970Me20                                               
+#G E(B)$Not resolved from annihilation radiation. RI calculated           
+#G from intensity imbalance by assuming no EC feeding of 510 level.       
+#L J         From adopted levels.                                         
+#P 0           9/2+              7.15 H    8              2740      10    
+SE73 AS73 beta+ 2.74 25740.0 1.0
++G gamma 0.60033 2.037E-4
++G gamma 0.793 6.402000000000001E-4
++G gamma 0.857 2.328E-4
++G gamma 0.9300900000000001 4.85E-5
++G gamma 0.9681000000000001 1.94E-4
++G gamma 1.1582000000000001 2.91E-5
++G gamma 1.2154 5.819999999999999E-4
++G gamma 1.2499 3.8799999999999994E-5
++G gamma 1.32381 6.79E-5
++G gamma 1.4390999999999998 1.9399999999999997E-5
++G gamma 1.4516 5.82E-5
++G gamma 1.7384000000000002 1.9399999999999997E-5
++G gamma 1.84782 7.759999999999999E-5
++G gamma 1.88957 2.91E-5
++G gamma 2.0062 1.9399999999999997E-5
++G gamma 2.02386 1.9399999999999997E-5
++G gamma 2.0481 9.699999999999999E-6
++G gamma 2.1705 1.9399999999999997E-5
++B beta+ 0.7514 0.0064
++G gamma 0.06706999999999999 0.6984
++B beta+ 0.562 0.647
++G gamma 0.36119999999999997 0.97
++G gamma 0.4283 7.76E-4
++G gamma 0.4423 5.044E-4
++G gamma 0.51 0.0026578
++B beta+ 0.3133 7.0E-6
++G gamma 0.9261900000000001 3.8799999999999994E-5
++G gamma 0.99352 4.85E-5
++B beta+ 0.29460000000000003 5.999999999999999E-6
++G gamma 0.60917 4.946999999999999E-4
++B beta+ 0.2345 1.83E-4
++G gamma 1.11064 0.0020079
++B beta+ 0.19340000000000002 5.0E-6
++G gamma 0.76507 0.0012706999999999998
++G gamma 0.8471599999999999 8.051E-4
++G gamma 1.2079000000000002 3.8799999999999994E-5
++G gamma 1.2743900000000001 6.79E-5
++B beta+ 0.18580000000000002 1.8999999999999998E-4
++B beta+ 0.18580000000000002 1.8999999999999998E-4
++G gamma 0.7837000000000001 5.819999999999999E-4
++G gamma 0.86509 1.94E-4
++G gamma 1.2266 2.91E-5
++B beta+ 0.1708 4.0E-5
++G gamma 0.81865 3.6859999999999996E-4
++G gamma 0.90073 0.0013483
++G gamma 0.5579 5.335E-4
++G gamma 0.5759 0.001455
++G gamma 0.81338 8.73E-5
++G gamma 1.3405 6.886999999999999E-4
++G gamma 1.4226800000000002 0.001358
++B beta+ 8.796E-4 0.0010111
++G gamma 0.8725599999999999 3.783E-4
++G gamma 1.4822899999999999 2.231E-4
++B beta+ 8.793999999999999E-4 0.0010126
++G gamma 0.68225 1.94E-4
++G gamma 0.7 4.462E-4
++G gamma 1.54745 3.1039999999999996E-4
++B beta+ 8.791E-4 0.0010145
++G gamma 0.88746 1.0669999999999999E-4
++G gamma 1.0019 3.8799999999999994E-5
++G gamma 1.67081 4.85E-5
++G gamma 1.7528800000000002 1.0669999999999999E-4
++B beta+ 8.78E-4 0.0010234999999999999
++G gamma 0.98275 3.395E-4
++G gamma 1.01852 5.335E-4
++G gamma 1.03638 1.4549999999999999E-4
++G gamma 1.31775 5.82E-5
++G gamma 1.8013599999999999 1.94E-4
++G gamma 1.8838499999999998 3.007E-4
++B beta+ 8.768000000000001E-4 0.0010299999999999999
++G gamma 1.1539000000000001 4.85E-5
++G gamma 1.9734 9.699999999999999E-6
++G gamma 2.0538000000000003 2.91E-5
++B beta+ 8.73E-4 0.00106
++G gamma 1.3089000000000002 3.8799999999999994E-5
++G gamma 1.4062999999999999 1.9399999999999997E-5
++G gamma 2.15604 4.85E-5
++G gamma 2.51731 4.85E-5
+
+# 73AS    73SE EC DECAY (39.8 M)        1980TE01                  04NDS    200403
+#  73SE EC DECAY (39.8 M)        1980TE01                  04NDS    200403
+#H TYP=FUL$AUT=BALRAJ SINGH$CIT=NDS 101, 193 (2004)$CUT=12-May-2003$      
+#  1980TE01 (ALSO 1978TEZY): MEASURED EG, IG, GG                          
+#  G, GG: 1970ME20 (ALSO 1970MEZZ), 1969MA21. OTHERS: 1970MU02, 1969MU03, 
+#  1969BA34, 1968MU08, 1968AT04, 1968AK03, 1967RA08, 1960RI09, 1960KU06   
+#  CE: 1971VO10, 1969KO25, 1968MU08                                       
+#  B+ endpoint energies: 1968AK03, 1960Ku06, 1960Ri09                     
+#  BG coin: 1968Ak03.                                                     
+#  (G+-)(G) COIN: 1960RI09                                                
+#  XG COIN: 1969KO25                                                      
+#  ISOMER BRANCHING: 1969MU03, 1969MA21                                   
+#  T1/2(73SE ISOMER): 1976BO19, 1969MA21, 1970ME20, 1969MU03,             
+#  1968AK03, 1960RI09                                                     
+#  The decay scheme is based on energy sums and GG-coin data of           
+#  1980Te01, 1970Me20 and 1969Ma21                                        
+#E TI$EC branches are obtained from (G+CE) imbalances. 39.8-min decay is  
+#E separated from 7.15-h decay by G(T).                                   
+#G CC$ EKC's AND ELC'S from ce intensities in 1971Vo10,                   
+#G assuming MULT(84G)=M1, and KC(84G)=0.129                               
+#G $ Intensity of G+- radiation intensity (relative to 100 for 253.7G)=   
+#G 1713 156, unweighted average of 1680 200 (1969Ma21),                   
+#G 1460 146 (1970Me20) and 2000 100 (1980Te01)                            
+#G E(A)$Possibly doublet.                                                 
+#G RI(B)$Corrected for contamination from 73SE EC decay (7.1 H).          
+#G M$From EKC (1971Vo10)                                                  
+#G E(D)$Not resolved from annihilation radiation. RI calculated           
+#G from relative branching in 73SE EC decay (7.15 H).                     
+#L J$From adopted levels.                                                 
+#P 25.71     4 3/2-              39.8 M    13             2740      10    
+SE73 AS73 beta+ 2.74 2388.0 0.274
++G gamma 0.8601599999999999 4.3E-5
++G gamma 1.2099600000000001 2.838E-4
++G gamma 1.39526 7.74E-5
++G gamma 1.5386900000000001 1.118E-4
++G gamma 1.60633 5.1599999999999994E-5
++G gamma 1.7110999999999998 8.6E-5
++G gamma 2.1355999999999997 2.5799999999999997E-5
++G gamma 2.4257 5.1599999999999994E-5
++B beta+ 8.666E-4 0.0011
++G gamma 0.06706999999999999 0.09459999999999999
++G gamma 0.084 0.07395999999999998
++G gamma 0.16972 0.002451
++G gamma 0.2537 0.086
++G gamma 0.13947 0.0041452
++G gamma 0.3093 0.00602
++G gamma 0.39343 0.05933999999999999
++G gamma 0.4423 9.546E-4
++G gamma 0.51 0.0050739999999999995
++G gamma 0.18106 0.016683999999999997
++G gamma 0.32053 0.029756
++G gamma 0.49024 0.004833199999999999
++G gamma 0.57763 0.036206
++G gamma 0.26200999999999997 0.0061232
++G gamma 0.40147000000000005 0.045579999999999996
++G gamma 0.57096 0.0088408
++G gamma 0.58828 0.003182
++G gamma 0.6553 0.0043343999999999995
++G gamma 0.7025800000000001 0.0033454
++G gamma 0.76959 0.005495399999999999
++G gamma 0.85017 0.00989
++G gamma 0.82368 0.0039732
++G gamma 0.9932799999999999 0.0027692
++G gamma 1.01069 2.7519999999999997E-4
++G gamma 1.0776400000000002 0.0215
++G gamma 0.6932 7.911999999999999E-4
++G gamma 0.83309 0.0019952
++G gamma 1.00238 0.0023994
++G gamma 1.01954 0.0020210000000000002
++G gamma 1.08678 0.0012384
++G gamma 0.9349 8.169999999999999E-4
++G gamma 1.18869 2.58E-4
++G gamma 0.6439 4.3E-4
++G gamma 0.7248 0.00172
++G gamma 1.04558 3.87E-4
++G gamma 1.2158 6.794E-4
++G gamma 1.2324000000000002 9.115999999999999E-4
++G gamma 0.6467 3.4399999999999996E-5
++G gamma 0.7924800000000001 6.277999999999999E-4
++G gamma 0.90846 7.568E-4
++G gamma 1.3020399999999999 0.002365
++G gamma 1.7190999999999999 1.3759999999999998E-4
++G gamma 1.88874 7.74E-5
++G gamma 1.90574 6.879999999999999E-5
++G gamma 1.32648 9.46E-5
++G gamma 1.5885 1.204E-4
++G gamma 1.8988900000000002 5.1599999999999994E-5
++G gamma 1.98224 1.892E-4
++G gamma 1.1255 1.204E-4
++G gamma 1.1334000000000002 7.74E-5
++G gamma 2.1274 1.7199999999999998E-5
++G gamma 2.14438 2.5799999999999997E-5
++G gamma 1.40729 5.1599999999999994E-5
++G gamma 1.9103299999999999 6.02E-5
++G gamma 1.9746700000000001 1.548E-4
++G gamma 2.0907 6.879999999999999E-5
++G gamma 2.40033 2.5799999999999997E-5
++G gamma 2.48478 4.3E-5
+

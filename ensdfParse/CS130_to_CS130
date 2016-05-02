@@ -1,0 +1,14 @@
+#130CS    130CS IT DECAY (3.46 M)       1983WE07                  01NDS    200107
+#  130CS IT DECAY (3.46 M)       1983WE07                  01NDS    200107
+#H TYP=FUL$AUT=BALRAJ SINGH$CIT=NDS 93, 33 (2001)$CUT=11-May-2001$        
+#  1983WE07: measured EG, IG, CE, GG                                      
+#G M$From CE data, except as noted.                                       
+#G E(A)$From conversion electron data only                                
+#G RI(A),TI(A)$From TI and CC; TI is from intensity balance               
+#G M(B)$From K/L                                                          
+#G           ECC=ICE/RI normalized to KC(148.35)=0.0631 (E1 1968HA53)     
+#L J$From adopted levels                                                  
+#P 163.25    115-                3.46 M    6                              
+CS130 CS130 IT 0.0 207.6 0.9984
++G gamma 0.0149 2.4989999999999997E-8
+

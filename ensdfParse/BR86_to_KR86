@@ -1,0 +1,80 @@
+# 86KR    86BR B- DECAY (55.1 S)        1978LEZA,1975HU02,1972AC0115NDS    201412
+#  86BR B- DECAY (55.1 S)        1978LEZA,1975HU02,1972AC0115NDS    201412
+#H TYP=FUL$AUT=ALEXANDRU NEGRET, BALRAJ SINGH$CIT=NDS 124, 1 (2015)$      
+#H CUT=30-Nov-2014$                                                       
+#  1978LeZA (Table of Isotopes-1978): the decay scheme is adopted from a  
+#  private communication in 1977 from S. Prussin (University of           
+#  California, Berkeley). In comparison to earlier studies by 1975Hu02    
+#  and 1972Ac01, about 30 additional gamma rays and six new levels were   
+#  reported in this communication, and the precision of E|g and I|g values
+#  was significantly better than that in previous studies. Consultation   
+#  by one of the evaluators (in February 2001) with S. Prussin suggested  
+#  that their work was not published, and a copy of the private           
+#  communication submitted to 1978LeZA was no longer available. A copy was
+#  neither available from LBNL Isotopes Project. But in view of better    
+#  energy and intensity precisions in this experiment, evaluators adopt   
+#  most of the results of this study as given in 1978LeZA compilation     
+#  1975HU02: measured EG, IG, T1/2; no level scheme is given in this paper
+#  1972AC01: measured EG, IG, T1/2. Mass-separated source                 
+#  1971ER15 (also 1970ERZZ): measured EG, IG, T1/2                        
+#  2014Fi09: Modular Total Absorption Spectrometer (MTAS) system at       
+#  HRIBF-ORNL facility used to obtain true beta feedings and average      
+#  energy of emitted |g radiation as 4110 keV in contrast to 3260 keV     
+#  from the decay scheme presented here. Authors introduced 65 pseudo     
+#  levels to fit the observed total absorption spectrum                   
+#  Level scheme is mainly from 1972Ac01, with some modifications in       
+#  1978LeZA. Total absorption spectra in 2014Fi09 suggest that this       
+#  level scheme is incomplete, and further state-of-the-art gamma-ray     
+#  studies are needed to improve upon the knowledge of this decay scheme, 
+#  and obtain some level of consistency with the total gamma              
+#  absorption (TAGS) spectra                                              
+#  Others:                                                                
+#  1988LE21: measured EG, IG, yields                                      
+#  1979AL05 (also 1982AL01): B and BG coin                                
+#  1977KI14: T1/2                                                         
+#  1975AL11 (also 1973JO02): total GAMMA absorption spectra               
+#  1972NU03, 1972HI13: T1/2                                               
+#  1972KRYX: decay properties and yields                                  
+#  1970LU06: measured EG, IG, T1/2. An additional 4.5-s activity was      
+#  assigned to 86BR based on the initial growth of 1564G. This activity   
+#  has not been confirmed in any of the later studies.                    
+#  1966WI03: G, GG, B, BG coin                                            
+#  1962ST13: identified 86BR nuclide, T1/2                                
+#  1986Ci02: Calculated influence of collective effects on                
+#  unique-forbidden decay                                                 
+#B IB,LOGFT$Since the decay scheme is considered (by the evaluator)       
+#B as incomplete, all B- feedings and associated LOGFT                    
+#B values should be considered as approximate. The LOGFT values given     
+#B here are not used in spin-parity assignments for levels in {+86}Kr     
+#G $Following G rays with EG(RI) reported by 1971ER15 only are omitted:   
+#G 533.2 5 (8.9), 2998 1 (3.6), 3342 (7.3), 3622 2 (6.6), 3762 2 (5.8).   
+#G The intensities reported by 1971ER15 are fairly large which            
+#G should have been seen in 1975HU02, 1972AC01 or results cited in        
+#G 1978LeZA compilation                                                   
+#G $|g|g-coincidences from 1966WI03. The |g|g-coin data using pair        
+#G of Ge(Li) detectors mentioned in 1978LeZA compilation                  
+#G E,RI$From 1978LeZA. Values from 1975Hu02, 1972Ac01 and 1971Er15 are in 
+#G general agreement with those in 1978LeZA, but are less precise,        
+#G especially in 1975Hu02 and 1971Er15. No uncertainties on I|g values    
+#G were given in 1971Er15                                                 
+#G E(X),RI(X)$|g from 1978LeZA only                                       
+#G E(U)$Uncertain assignment in 1978LeZA                                  
+#L E(A)$Level proposed in 1978LeZA only                                   
+#L J$From Adopted Levels                                                  
+#P 0           (1-)              55.1 S    4              7633      3     
+BR86 KR86 beta- 7.633 55.1 1.0
++G gamma 0.8032999999999999 0.027280000000000002
++B beta- 3.5018000000000002 0.15
++B beta- 2.7485 0.13
++B beta-2.3689 0.05
++B beta-2.1271 0.05
++B beta- 2.0905 0.013999999999999999
++B beta-2.0073 0.05
++B beta-1.4229 0.05
++B beta- 0.9075 0.06
++B beta- 0.8553999999999999 0.044000000000000004
++B beta- 0.5406 0.0083
++B beta- 0.31989999999999996 6.8E-4
++G gamma 6.7202 6.82E-4
++B beta- 0.30069999999999997 0.0091
+

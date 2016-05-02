@@ -1,0 +1,26 @@
+#175LU    175HF EC DECAY                1988SI22,1969JO16,1956HA6804NDS    200410
+#  175HF EC DECAY                1988SI22,1969JO16,1956HA6804NDS    200410
+#H TYP=FUL$AUT=M. SHAMSUZZOHA BASUNIA$CIT=NDS 102, 719 (2004)$            
+#H CUT=1-Jun-2004$                                                        
+#  1988Si22: Ge. Measured G, x rays.                                      
+#  1969Jo16: GE(LI). Measured G, CE, XG coincidences, cex coincidences.   
+#  Source produce by 174HF(N,G).                                          
+#  1956Ha68: crystal spectrometer. Measured G and CE. Source produced by  
+#  174HF(N,G).                                                            
+#  Others: 1955Mi90, 1962Ba31, 1965Fu02, 1966Ha23, 1967Er01, 1968Ja11,    
+#  1969Ho18, 1976Pr03.                                                    
+#G E$From 1956Ha68, except as noted.                                      
+#G RI$From 1988Si22, except as noted.                                     
+#G E(X)$From 1966Ha23.                                                    
+#G E(Y)$From 1976Pr03.                                                    
+#G RI(Q)$From 1969Jo16.                                                   
+#L E$Deduced by evaluator from a least-squares fit to G-ray energies.     
+#L E(A)$7/2(404) band                                                     
+#L E(B)$5/2(402) band                                                     
+#L E(C)$1/2(541) band                                                     
+#P 0            5/2-             70 D       2             686.8     19    
++B beta+ 0.0 0.09
++B beta+ 7.0E-4 0.16
++B beta+ 7.0E-4 0.17
++B beta+ 7.0E-4 0.23
+

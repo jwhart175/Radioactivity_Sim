@@ -1,0 +1,47 @@
+#151TM    151TM IT DECAY (0.451 US)     1987MCZZ,1982HE08,1982NO1309NDS    200901
+#  151TM IT DECAY (0.451 US)     1987MCZZ,1982HE08,1982NO1309NDS    200901
+#H TYP=FUL$AUT=BALRAJ SINGH$CIT=NDS 110, 1 (2009)$CUT=20-Nov-2008$        
+#  1987McZZ: 96RU(58NI,3P) E=255 MEV. Measured G, GG, GG(T),              
+#  recoil-catcher method.                                                 
+#  1982He08: 95MO(58NI,PNG) and 93NB(60NI,2NG) E=225-285 MEV.             
+#  Measured G, GG, GG(T).                                                 
+#  They identified a set of negative parity states and                    
+#  interpreted these as |ph{-11/2}{+5} yrast levels.                      
+#  1982No13: 96RU(58NI,3PG) E=238-250 MEV. Measured G, GG                 
+#  Other: 1984ChZS                                                        
+#G E$From 1987McZZ. Their values agree well with those from 1982No13      
+#G E(X)$ Ordering of 415-393 cascade is tentative                         
+#G M$From G(THETA) in 1987McZZ, except for the 140-KEV G.                 
+#L E$Relative to the (11/2-) isomer.                                      
+#L J$From 'adopted levels', where assignments were based on theoretical   
+#L considerations: the negative parity states are well described by the   
+#L |ph{-11/2}{+5} yrast levels. The positive parity levels are assumed    
+#L to have an h{-11/2} proton coupled to a 3-, 5-, 7- core.               
+#P 2655.67   22(27/2-)           0.451 US  34                             
++G gamma 0.21569999999999998 0.12179999999999999
+
+#151TM    151TM IT DECAY (24 NS)        1987MCZZ,1982HE08,1982NO1309NDS    200901
+#  151TM IT DECAY (24 NS)        1987MCZZ,1982HE08,1982NO1309NDS    200901
+#H TYP=FUL$AUT=BALRAJ SINGH$CIT=NDS 110, 1 (2009)$CUT=20-Nov-2008$        
+#  1987McZZ: 96RU(58NI,3P) E=255 MEV. Measured G, GG, GG(T),              
+#  recoil-catcher method.                                                 
+#  1982He08: 95MO(58NI,PNG) and 93NB(60NI,2NG) E=225-285 MEV.             
+#  Measured G, GG, GG(T).                                                 
+#  They identified a set of negative parity states and                    
+#  interpreted these as |ph{-11/2}{+5} yrast levels.                      
+#  1982No13: 96RU(58NI,3PG) E=238-250 MEV. Measured G, GG                 
+#  Other: 1984ChZS                                                        
+#G E$From 1987McZZ. Their values agree well with those from 1982No13      
+#G E(X),RI(X)$ Ordering of 415-393 cascade is tentative. Intensity        
+#G is not given since contaminated by a transition in 68AS                
+#L E(B)$Seen only by 1987McZZ.                                            
+#G M$From G(THETA) in 1987McZZ, except for the 140-KEV G.                 
+#L E$Relative to the (11/2-) isomer.                                      
+#L J$From 'adopted levels', where assignments were based on theoretical   
+#L considerations: the negative parity states are well described by the   
+#L |ph{-11/2}{+5} yrast levels. The positive parity levels are assumed    
+#L to have an h{-11/2} proton coupled to a 3-, 5-, 7- core.               
+#P 6908.5    4                   24 NS     4                              
++G gamma 0.21569999999999998 0.14
++G gamma 0.3388 1.0
+

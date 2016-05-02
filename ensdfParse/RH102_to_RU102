@@ -1,0 +1,96 @@
+#102RU    102RH EC DECAY (207.3 D)                                09NDS    200908
+#  102RH EC DECAY (207.3 D)                                09NDS    200908
+#H TYP=ERR$AUT=J. Tuli,B. Singh$DAT=7-Jun-11$COM=corrected T(475)$        
+#H TYP=FUL$AUT=D. DE FRENNE$CIT=NDS 110, 1745 (2009)$CUT=31-Dec-2008$     
+#  Because of the many close-lying doublets, the internal conversion      
+#  data of 1961Bo35, 1961Hi06 and 1968Ad02 are not included.              
+#  Coincidence measurements by 1969Ko24, 1970Ta03 and 1971Ta01 are        
+#  summarized on the decay scheme.                                        
+#  Absolute intensities were calculated from                              
+#  I|b{+-}(g.s.):I|b{++}(g.s.):I|b{++}(475)=100.0 {I15}:54.6 {I10}:21.2   
+#  {I5}, |e/|b{++}(g.s.)=1.69 {I4}, |e/|b{++}(475)=7.80 {I25}.            
+#  If the g.s. transition is first-forbidden unique, as would follow from 
+#  the J|p=2- assignment of 1975Sc09 for the 207.3-d {+102}Rh isomer, the 
+#  intensities will have to be recalculated using |e/|b{++}(g.s.)=5.89.   
+#E TI        From |g-intensity balance at each level, except for          
+#E the g.s.                                                               
+#G E,RI$|g-ray energies and intensities are primarily from 1969Ge02,      
+#G unless noted otherwise.                                                
+#G Other references: 1969Ko24, 1970Hu02, 1970Ta03, 1971Ta01, 1981Ko23     
+#G M,MR$From |g|g(|q) results of 1970Si13. See also 1968Ad02.             
+#G Mixed transitions have multipolarity=E2+M1 from known J|p.             
+#L J$From adopted levels                                                  
+#L E$From a least-squares procedure using observed gammas                 
+#P 0.0         (1-,2-)           207.3 D   17             2323      5     
+RH102 RU102 beta+ 2.323 1.7910720000000004E7 0.78
++B beta+ 2.321 0.105
++B beta+ 1.847 0.042
++G gamma 0.47506 0.5888
++G gamma 0.46858 0.03712
++G gamma 0.62805 0.0576
++G gamma 1.1031600000000001 0.03712
++G gamma 0.63129 0.00128
++G gamma 0.41525 3.8399999999999996E-4
++G gamma 0.41852 0.0015359999999999998
++G gamma 1.04659 0.005504
++G gamma 0.63681 0.002944
++G gamma 1.1057000000000001 0.004992
++G gamma 1.5805 6.4E-4
++G gamma 0.25680000000000003 2.56E-4
++G gamma 0.73393 0.00128
++G gamma 1.3620999999999999 0.004992
++G gamma 0.45642 0.001024
++G gamma 0.9305 3.8399999999999996E-4
++G gamma 0.9332 2.56E-4
++G gamma 1.5622 0.0014080000000000002
++G gamma 2.037 3.8399999999999996E-4
++G gamma 1.5687 1.28E-4
++G gamma 2.0441 1.2800000000000001E-5
++G gamma 0.2169 1.28E-4
++G gamma 0.22490000000000002 6.4E-4
++G gamma 0.6806599999999999 0.007423999999999999
++G gamma 0.73958 0.006784
++G gamma 1.1581 0.007423999999999999
++G gamma 1.7864 1.28E-4
++G gamma 2.2613000000000003 2.56E-4
+
+#102RU    102RH EC DECAY (3.742 Y)      1969GE02,1970SI13         09NDS    200908
+#  102RH EC DECAY (3.742 Y)      1969GE02,1970SI13         09NDS    200908
+#H TYP=FUL$AUT=D. DE FRENNE$CIT=NDS 110, 1745 (2009)$CUT=31-Dec-2008$     
+#  Some |g-rays, observed by 1970Hu02 only, are summation                 
+#  peaks and therefore, have been omitted.                                
+#  Because of the many close-lying doublets, the internal conversion      
+#  data of 1968Ad02 and 1961Hi06 are not included.                        
+#  Coincidence measurements by 1969Ko24 and 1970Ta03 are summarized       
+#  on the decay scheme.                                                   
+#  Others: 1965Ro09, 1971Fr12                                             
+#E IE(E)     Only upper limit can be given, because of uncertainties      
+#E in |g-intensities.                                                     
+#G E,RI$|g-ray energies and intensities are from 1969Ge02, unless         
+#G noted otherwise.                                                       
+#G RI(F)     Uncertainty given by the evaluator. The value given in the   
+#G paper seems to be a misprint.                                          
+#G M,MR$|g-multipolarities and mixing ratios are from                     
+#G |g|g(|q) results of 1970Si13, unless noted otherwise.                  
+#G E(A)      Observed by 1969Ko24 only                                    
+#L J$From adopted levels                                                  
+#L E$ From a least-squares procedure using gammas given in the data set   
+#P 140         6(+)              3.742 Y   10             2323      5     
+RH102 RU102 beta+ 2.323 1.180859527296E8 1.0
++G gamma 0.47506 0.95
++G gamma 0.62805 0.083
++G gamma 1.1031600000000001 0.046
++G gamma 0.63129 0.56
++G gamma 0.41525 0.021
++G gamma 0.41852 0.094
++G gamma 1.04659 0.34
++G gamma 0.6924 0.016
++G gamma 0.6956 0.028999999999999998
++G gamma 1.3235999999999999 0.0046
++G gamma 0.0756 0.0021
++G gamma 0.7668400000000001 0.34
++G gamma 0.34589 0.0087
++G gamma 0.4204 0.032
++G gamma 0.69749 0.44
++G gamma 1.1128399999999998 0.19
+

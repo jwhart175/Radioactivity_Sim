@@ -1,0 +1,58 @@
+#193PB    197PO A DECAY (53.6 S)                                  06NDS    200602
+#  197PO A DECAY (53.6 S)                                  06NDS    200602
+#H TYP=FUL$AUT=E. Achterberg, G.V. Marti, V.R. Vanin, et al.$             
+#H CIT=NDS 107, 1 (2006)$CUT=30-Sep-2005$                                 
+#            Q(|a) from 2003Au03                                          
+#            1981Sc01: sources from decay of {+201}Rn parent; measured    
+#  evaporation-residue |a spectra (E and gas |DE detectors),              
+#  yields and angular distributions of fusion products. Deduced %|a       
+#            1971Ho01: sources from decay of {+201}Rn parent, mass        
+#  separation; measured E|a, I|a (silicon surface-barrier detectors,      
+#  multispectrum analysis).                                               
+#            1967Si09: sources from {+185,187}Re({+19}^F,xn),             
+#  {+194}Pt({+12}C,xn), helium-jet transport; measured E|a, I|a           
+#  (solid-state detectors).                                               
+#            1967Tr06: sources from decay of {+197}At parent, helium-jet  
+#  transport; measured E|a, I|a (silicon surface-barrier                  
+#  detectors).                                                            
+#            Other: 1967Le21.                                             
+#L J$From adopted levels                                                  
+#P 0.0         (3/2-)            53.6 S    10             6412       4    
+PO197 PB193 alpha 6.412 53.6 0.44
++A alpha 6.281 1.0
+
+#193PB    197PO A DECAY (25.8 S)                                  06NDS    200602
+#  197PO A DECAY (25.8 S)                                  06NDS    200602
+#H TYP=FUL$AUT=E. Achterberg, G.V. Marti, V.R. Vanin, et al.$             
+#H CIT=NDS 107, 1 (2006)$CUT=30-Sep-2005$                                 
+#            Q(|a) from 2003Au03                                          
+#            E(ex) AP 270 deduced by evaluators for {+197}Po(J|p=(13/2+)) 
+#  from {+195}Po(E AP 230 keV) (1999He32) and {+199}Po(E=310 keV)         
+#  (1985St02). Consistent with overall systematic trend for 13/2+ levels  
+#  in the neighboring {+191},{+195},{+199},{+201}Po nuclides.             
+#  2002Va13: {+162}Dy({+40}Ar,5n) E(lab)=189 MeV. Magnetic mass separator 
+#  for recoiling fragments. Implantation in position-sensitive Si strip   
+#  detector. Reaction product identification by coincidences between      
+#  recoil fragments and links in the |a-ray decay chain. Determine        
+#  |a-|g and |a-x-ray coincidences.                                       
+#            1982Bo04: sources from spallation of uranium, thorium, gold, 
+#  and tantalum by 5-GeV protons, helium-jet transport;                   
+#  measured E|a (silicon surface-barrier detectors).                      
+#            1981Sc01: sources from decay of {+201}Rn parent; measured    
+#  evaporation-residue |a spectra (E and gas |DE detectors),              
+#  yields and angular distributions of fusion products. Deduced %|a       
+#            1971Ho01: sources from decay of {+201}Rn parent, mass        
+#  separation; measured E|a, I|a (silicon surface-barrier detectors,      
+#  multispectrum analysis).                                               
+#            1967Si09: sources from {+185,187}Re({+19}^F,xn),             
+#  {+194}Pt({+12}C,xn), helium-jet transport; measured E|a, I|a           
+#  (solid-state detectors).                                               
+#            1967Tr06: sources from decay of {+197}At parent, helium-jet  
+#  transport; measured E|a, I|a (silicon surface-barrier                  
+#  detectors).                                                            
+#            Other: 1967Le21.                                             
+#P 270       SY (13/2+)          25.8 S    1              6412       4    
+PO197 PB193 alpha 6.412 25.8 0.84
++A alpha 6.3834 0.993
++A alpha 5.622 5.0E-4
+

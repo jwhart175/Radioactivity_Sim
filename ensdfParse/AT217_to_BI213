@@ -1,0 +1,41 @@
+#213BI    217AT A DECAY                 1997CH19,1997CH53,1967DZ0207NDS    200704
+#  217AT A DECAY                 1997CH19,1997CH53,1967DZ0207NDS    200704
+#H TYP=ERR$AUT=J. Tuli$DAT=5-Dec-2007$COM=added BR on N record$           
+#H TYP=FUL$AUT=M. S. Basunia$CIT=NDS 108, 633 (2007)$CUT=1-Nov-2006$      
+#  Others: 1969LEZW (AG,semi), 1964Va20 (AG,scin), 1962Wa28, 1960Vo05,    
+#  1955St04.                                                              
+#  1997CH19: Source: Separated 225AC from 229TH; Detector:                
+#  Si(Au) ALPHA-detector, HPGe G-detector; Measured: EA, IA, EG, IG,      
+#  ALPHA-G COIN.                                                          
+#  1997CH53: Source: Separated 225AC from 229TH; Detector:                
+#  Si(Au)-ALPHA-detector, Measured: EA.                                   
+#A E         From 1997CH19. ALPHAS 6849-, 6772-, 6541-, and 6422-keV      
+#A reported in 1967Dz02 were not confirmed in 1997CH19,1997CH53,          
+#A and 1969LeZW. These ALPHAS are assumed to be due to contaminants       
+#A and they are not listed here.                                          
+#A IA        From 1997CH19, except otherwise noted. In 1997CH19, IA per   
+#A 100 217AT decays is reported, assuming the absence of G-feeding from   
+#A higher-lying unknown levels.                                           
+#A HF        R0(213BI)=1.550 8, average of R0(212PB)=1.5408 9 and         
+#A R0(214PO)=1.559 8 (1998AK04).                                          
+#G E         From 1997CH19. GAMMA's 140-, 375-, and 455-keV, not          
+#G placed in the level scheme, are reported in 1964VA20. These are not    
+#G confirmed by 1997CH19 and 1969LEZW. The reported 218G in 1969LEZW      
+#G is not also confirmed by 1997CH19. These |g could arise due to         
+#G summing effect or remnant of random coincidence peaks (1997CH19).      
+#G These |g are not listed here.                                          
+#G RI        From 1997CH19, absolute photon intensity per 100 217AT       
+#G decays.                                                                
+#L E         From a least squares fit to the G-ray energies. The 465-keV  
+#L level in 213BI, reported earlier in 1969DZ02 feeding through 6609-keV  
+#L ALPHA from 217AT, is not confirmed by 1997CH53, instead the 6609A is   
+#L assigned to 221RA (1997CH53).                                          
+#L J         From adopted levels.                                         
+#P 0.0         9/2-              32.3 MS   4              7201.3    12    
+AT217 BI213 alpha 7.2013 0.032299999999999995 0.99993
++A alpha 7.0668999999999995 0.9990000000000001
++A alpha 6.8138000000000005 3.5999999999999997E-4
++A alpha 6.4847 2.1E-4
++A alpha 6.322 5.0E-5
++A alpha 6.037 2.0E-5
+

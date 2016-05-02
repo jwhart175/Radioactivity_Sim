@@ -1,0 +1,56 @@
+#205BI    205PO EC DECAY                1972AL25                  04NDS    200404
+#  205PO EC DECAY                1972AL25                  04NDS    200404
+#H TYP=FUL$AUT=F.G. KONDEV$CIT=NDS 101, 521 (2004)$CUT=1-Feb-2004$        
+#  Mass-separated source; Detectors: NAI(TL), two GE(LI), 2 mm thick      
+#  SI(LI) with energy resolution of about 4 KEV, a double focusing        
+#  magnetic spectrometer; Measured: G, GG coin, NAI G(T), CE.             
+#  Others: 1969Al10, 1969Ho37, 1970DaZM, 1971Sh22, 1983He09, 1986Be07.    
+#E $The total energy realized in EC+B+ decay of 205PO is calculated       
+#E using RADLST as                                                        
+#E 3604 KEV 109. This value is in a good agreement with                   
+#E QP * BR (205PO)=3552 KEV 21, thus suggesting that the decay scheme     
+#E is complete.                                                           
+#G E,RI$ From 1972Al25, unless otherwise specified.                       
+#G E(P),RI(P)$ From 1969Ho37.                                             
+#G E(Q),RI(Q)$ Tentatively assigned in 1972Al25.                          
+#G MR$ From EKC in 1972Al25, unless otherwise specified.                  
+#G M(w)$E2 admixtures should be expected.                                 
+#G                                                                        
+#G      x-ray                measured                                     
+#G                           intensity (1972Al25) a)                      
+#G      ------              --------------------                          
+#G      Bi-XKA1                 135 15                                    
+#G                                                                        
+#G a) For absolute intensity per 100 decays, multiply by 0.370 20.        
+#G                                                                        
+#L E$ From least-squares fit to EG.                                       
+#L J$ From adopted levels.                                                
+#L T$From 1972Al25, unless otherwise specified.                           
+#L E(A)$CONF=((P,H9/2,+1)(N,P1/2,-2)(N,F5/2,-2))                          
+#L E(B)$CONF=((P,F7/2,+1)(N,P1/2,-2)(N,F5/2,-2))                          
+#L E(C)$CONF=((P,S1/2,+1)(N,P1/2,-2)(N,F5/2,-2))                          
+#L E(D)$CONF=((P,D3/2,+1)(N,P1/2,-2)(N,F5/2,-2))                          
+#L E(E)$CONF=((P,D5/2,+1)(N,P1/2,-2)(N,F5/2,-2))                          
+#P 0.0          5/2-             1.74 H    8               3.553E3  21    
++B beta+ 8.999999999999999E-5 0.0064
++B beta+ 0.8032999999999999 3.0E-5
++B beta+ 0.7667 0.006999999999999999
++B beta+ 0.7567999999999999 0.0012
++B beta+ 0.7004 0.013999999999999999
++B beta+ 0.6817000000000001 3.0E-4
++B beta+ 0.5963999999999999 9.299999999999999E-4
++B beta+ 0.5539 5.0E-5
++B beta+ 0.4945 2.0E-5
++B beta+ 0.48819999999999997 3.0E-4
++B beta+ 0.4919 4.0E-6
++B beta+ 0.3907 6.900000000000001E-4
++B beta+ 0.2751 6.2E-5
++B beta+ 7.920000000000001E-4 0.00156
++B beta+ 7.886999999999999E-4 0.00158
++B beta+ 7.879E-4 0.00159
++B beta+ 7.874E-4 0.00159
++B beta+ 7.840000000000001E-4 0.00161
++B beta+ 7.838000000000001E-4 0.00161
++B beta+ 7.802E-4 0.00164
++B beta+ 7.688E-4 0.0017000000000000001
+

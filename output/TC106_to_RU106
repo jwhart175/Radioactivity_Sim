@@ -1,0 +1,79 @@
+#106RU    106TC B- DECAY (35.6 S)       1980SU01,1984ST04         08NDS    200806
+#  106TC B- DECAY (35.6 S)       1980SU01,1984ST04         08NDS    200806
+#H TYP=FUL$AUT=D. DE FRENNE AND A. NEGRET$CIT=NDS 109, 943 (2008)$        
+#H CUT=1-May-2007$                                                        
+#  1980Su01: activity from {+239}Pu(n,F) E=th; on-line fast technetium    
+#  chem. Measured: E|g, I|g, |g|g. Deduced: {+106}Ru levels, J|p, log|    
+#  {Ift}. Ge(Li) detectors.                                               
+#  1984St04: activity from {+239}Pu(n,F) E=th; on-line fast technetium    
+#  chem. Ge(Li) detectors.Measured: |g|g, |g|g(|q). Deduced: Q/D mixing   
+#  ratios, J|p                                                            
+#  Others: 1965FeZZ, 1969ZiZZ, 1969WiZX, 1970HeZH, 1971KaZI, 1972Ho08,    
+#  1972Tr08, 1973Ka22, 1976KaYO                                           
+#B $log| {Ift} and normalization calculated with the assumption of no     
+#B |b feeding of the g.s.                                                 
+#G E$ From 1980Su01                                                       
+#G $For A{-2} and A{-4} coef from |g|g(|q) see 1984St04                   
+#G MR        Calculated from |g|g(|q) data (1984St04). For all the        
+#G measured |g|g(|q) correlations the second transition was always        
+#G chosen to be the 270|g (2+ to 0+) transition                           
+#L J         From adopted levels                                          
+#L $For calculated level energies (<1.5 MeV) based on                     
+#L collective model of Gneuss and Greiner see 1980Su01                    
+#L BAND(A)   GROUND-STATE BAND UP TO 4+                                   
+#L BAND(B)   POSSIBLE G-VIBRATIONAL BAND.                                 
+#L BAND(D)   POSSIBLE BETA-VIBRATIONAL BAND                               
+#P 0.0         (1,2)             35.6 S    6              6547      11    
+TC106 RU106 beta- 6.547 35.6 0.558
++G gamma 1.6431 0.013000000000000001
++G gamma 3.0315 0.009000000000000001
++G gamma 0.270096 1.0
++G gamma 0.4446 0.012
++G gamma 0.52222 0.134
++G gamma 0.79231 0.09300000000000001
++G gamma 0.7205499999999999 0.069
++G gamma 0.29919999999999997 0.003
++G gamma 0.37689999999999996 0.002
++G gamma 0.8215 0.018000000000000002
++G gamma 0.4015 0.002
++G gamma 0.6775 0.006999999999999999
++G gamma 1.1222 0.03
++G gamma 1.3922 0.006999999999999999
++G gamma 0.8961 0.011000000000000001
++G gamma 0.6828 0.006999999999999999
++G gamma 1.5043 0.021
++G gamma 1.6155 0.03
++G gamma 0.3537 0.006999999999999999
++G gamma 1.2488 0.01
++G gamma 1.9694 0.159
++G gamma 2.2393 0.244
++G gamma 1.2405 0.0015
++G gamma 1.8405 0.017
++G gamma 2.3628 0.004
++G gamma 1.7107999999999999 0.01
++G gamma 2.4313000000000002 0.045
++G gamma 2.7014 0.1
++G gamma 2.1536 0.006
++G gamma 2.9459 0.061
++G gamma 2.777 0.043
++G gamma 3.0471 0.05
++G gamma 1.6675 0.005
++G gamma 2.0689 0.004
++G gamma 2.2672 0.025
++G gamma 2.7893000000000003 0.141
++G gamma 3.0594 0.011000000000000001
++G gamma 2.9163 0.057999999999999996
++G gamma 3.1864 0.09
++G gamma 2.9892 0.011000000000000001
++G gamma 3.2595 0.049
++G gamma 1.4785 0.008
++G gamma 1.5897000000000001 0.005
++G gamma 2.5719000000000003 0.02
++G gamma 3.0939 0.011000000000000001
++G gamma 3.3642 0.018000000000000002
++G gamma 2.7585 0.017
++G gamma 3.2811 0.009000000000000001
++G gamma 3.551 0.022000000000000002
++G gamma 3.6604 0.006999999999999999
++G gamma 3.9301999999999997 0.006
+

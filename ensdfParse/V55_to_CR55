@@ -1,0 +1,17 @@
+# 55CR    55V B- DECAY                  1977NA17                  08NDS    200803
+#  55V B- DECAY                  1977NA17                  08NDS    200803
+#H TYP=FUL$AUT=HUO JUNDE$CIT=NDS 109, 787 (2008)$CUT=30-Apr-2007$         
+#  Source: 9BE(20 MEV)+48CA(enriched); plastic scintillator (FWHM=2.1 KEV 
+#  for 1332 KEV) and GELI; measured EG, RI, GG-coin, and BG.              
+#G RI        Evaluator normalized authors' values to TI(517.86G)=100.     
+#L J         From adopted levels.                                         
+#P 0.0         (7/2-)            6.54 S    15             5.98E+3   10    
+V55 CR55 beta- 5.98 6.54 1
++B beta- 2.612 0.008
++B beta- 2.477 0.642
++B beta- 2.453 0.035
++B beta- 2.3 0.195
++B beta- 2.137 0.040999999999999995
++B beta- 2.028 0.057
++B beta- 2.008 0.022000000000000002
+

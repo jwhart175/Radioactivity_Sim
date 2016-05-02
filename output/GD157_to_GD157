@@ -1,0 +1,24 @@
+#157GD    157GD IT DECAY (18 US)        1967BO05                  04NDS    200501
+#  157GD IT DECAY (18 US)        1967BO05                  04NDS    200501
+#H TYP=FUL$AUT=R. G. Helmer$CIT=NDS 103, 565 (2004)$CUT=1-Feb-2004$       
+#  Data are all from 1967Bo05, except as noted otherwise. Isomer was      
+#       produced by {+154}Sm(|a,n) reaction on enriched target.           
+#            |g singles and |g|g coincidences measured between |a         
+#       beam pulses with NaI and Ge detectors.                            
+#G RI        Uncertainties are not given directly in 1967Bo05, but        
+#G      deduced by evaluator from uncertainties given (1967Bo05) in       
+#G      transition intensities.                                           
+#G RI        I(XK)=273 {I60}.                                             
+#G M,MR      From {+157}Gd Adopted |g data.                               
+#L J         From the measured |g multipolarities, the expected band      
+#L      structure, and the systematics of the Nilsson levels,             
+#L      especially for the 11/2- isomeric state. All assignments agree    
+#L      with those of the {+157}Gd Adopted Levels.                        
+#L           Bandhead is at 63 keV.                                       
+#L           Bandhead is at 425 keV.                                      
+#L BAND(A)   3/2[521] band                                                
+#L BAND(B)   5/2[642] band                                                
+#L BAND(C)   11/2[505] bandhead                                           
+#P   425        11/2-            18.5 US   23                             
+GD157 GD157 IT 0.0 1.85E-5 0.625
+

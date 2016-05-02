@@ -1,0 +1,53 @@
+# 93ZR    93Y B- DECAY                  1973TA15                  11NDS    201105
+#  93Y B- DECAY                  1973TA15                  11NDS    201105
+#H TYP=FUL$AUT=CORAL M. BAGLIN$CIT=NDS 112, 1163 (2011)$CUT=15-Dec-2010$  
+#  Is norm. procedure the best possible?                                  
+#  Others: 1972Oh06, 1972Oh03, 1971Ho15, 1969Ar06, 1968Po06, 1959Kn38.    
+#  1973Ta15: GELI; measured EG, IG, GG coin.                              
+#  1972Oh06: GE(LI), SI(LI), plastic, anthracene detectors;               
+#  measured EG, IG, CEK(267G), GG coin, 679G-267G(|q). See also 1972Oh03. 
+#  1971Ho15: GE(LI) and NAI detectors; measured EG, IG, GG coin.          
+#  1969Ar06: GELI; measured EG, IG, GG coin.                              
+#  1968Po06: GELI; measured EG, IG.                                       
+#  1959Kn38: B spectrometer, NAI; measured EB, EG,                        
+#  I(267CEK)/IB, IG/IB, GG coin.                                          
+#  A TOTAL ENERGY RELEASE OF 2896 39 IS CALCULATED FOR THIS DECAY SCHEME  
+#  USING THE ^RADLST CODE, IN GOOD AGREEMENT WITH Q=2895 10.              
+#B           B- spectrum measured by 1959Kn38.                            
+#G E,RI(A)   From 1973Ta15.                                               
+#G RI        Weighted average of data from 1973Ta15 and 1968Po06,         
+#G normalized so TI(276G)=1000 (assuming CC(267G)=0.025).                 
+#G E(B),RI(B)$From 1973Ta15; G not reported by other authors.             
+#G E(D),RI(D)$From 1971Ho15; G not reported by other authors.             
+#L E         FROM LEAST-SQUARESS FIT TO EG.                               
+#L J,T       From Adopted Levels.                                         
+#L E(B)      Observed by 1973Ta15 only.                                   
+#P      0.0    1/2-              10.18 H   8              2895      10    
+Y93 ZR93 beta- 2.895 36648.0 0.0076
++G gamma 0.287 0.1
++G gamma 0.3415 0.059000000000000004
++G gamma 1.1847 0.026000000000000002
++G gamma 2.605 0.015
++G gamma 0.6802 0.877
++G gamma 0.9471 2.79
++G gamma 1.1585 0.04
++G gamma 1.4254 0.326
++G gamma 1.1835 0.064
++G gamma 1.4505 0.436
++G gamma 1.2033 0.14300000000000002
++G gamma 1.4701 0.087
++G gamma 0.9622999999999999 0.016
++G gamma 1.6427 0.069
++G gamma 0.971 0.009000000000000001
++G gamma 1.6517 0.031
++G gamma 0.0 0.031
++G gamma 0.7143999999999999 0.023
++G gamma 1.2374 0.039
++G gamma 1.9178 2.06
++G gamma 2.1846 0.209
++G gamma 0.273 0.095
++G gamma 0.9877 0.013999999999999999
++G gamma 2.1908000000000003 0.225
++G gamma 0.0 0.009000000000000001
++G gamma 2.4738 0.015
+

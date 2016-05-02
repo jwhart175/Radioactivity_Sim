@@ -1,0 +1,23 @@
+#167RE    171IR A DECAY                 1996PA01,1992SC16,1982DE1100NDS    200008
+#  171IR A DECAY                 1996PA01,1992SC16,1982DE1100NDS    200008
+#H TYP=FUL$AUT=Coral M. Baglin$CIT=NDS 90, 431 (2000)$CUT=5-Jul-2000$     
+#  Others: 1967SI02, 1978CA11, 1978SC26.                                  
+#  1996PA01: sources from heavy-ion fusion-evaporation reactions; recoil  
+#  mass separator, double-sided SI strip detector (FWHM LE 20 KEV);       
+#  measured EA, parent T1/2 and %A.                                       
+#  1992SC16: source from 141PR(36AR,xn), E=175-204 MEV;                   
+#  measured |a excit, EA, IA, EG, IG, I(XK),                              
+#  |a-(XK) coin, AG coin, |a(T); deduced |a branching; SI and Ge          
+#  detectors.                                                             
+#  1982DE11: sources from 63CU bombardments of Ag, CD, In, Sn; measured EA
+#  (silicon surface-barrier detector); HE-jet transport.                  
+#  T(171IR)=1.46 S 9 from the weighted average (limitation of statistical 
+#  weights method) of 1.3 S 2 (1996PA01), 1.7 S 4 (1978CA11), 1.4 S 2     
+#  (1978CA11), 1.6 S 1 (1978SC26), 1.0 S 3 (1967SI02).                    
+#A HF        If R0=1.56 1 (based on R0 for 166OS, 168OS, 166PT, 168PT in  
+#A 1998AK04), T(171IR)=1.46 S 9, %A(171IR)=58 11 (1996PA01).              
+#G E,M       From 1992SC16.                                               
+#P 0.0          (11/2-)          1.46 S    9              6159       3    
+IR171 RE167 alpha 6.159 1.46 0.58
++A alpha 5.92 1.0
+

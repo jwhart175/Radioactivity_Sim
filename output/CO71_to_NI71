@@ -1,0 +1,63 @@
+# 71NI    71CO B- DECAY (80 MS)         2010RAZY,2009ST07,2004SA5911NDS    201012
+#  71CO B- DECAY (80 MS)         2010RAZY,2009ST07,2004SA5911NDS    201012
+#H TYP=FUL$AUT=KHALIFEH ABUSALEEM, BALRAJ SINGH$CIT=NDS 112, 133 (2011)$  
+#H CUT=30-Nov-2010$                                                       
+#  2010RaZY (also 2005Ma95, 2008RaZV conference reports): 71CO produced by
+#  fragmentation of 86KR beam at 140 MEV/nucleon with a 9BE target at     
+#  ^NSCL facility followed by A1900 fragment separator. The ions were     
+#  implanted in double-sided silicon strip (^DSSD) detectors for fragment 
+#  |b detection. ^Se^GA gamma-detector array containing 16 HPGe detectors 
+#  was used for E|g, I|g, |g|g, |b|g coin and isotopic half-life          
+#  measurements. Detailed shell-model calculations using ^NR78 residual   
+#  interaction                                                            
+#  Copy of paper by M.M. Rajabali et al. (submitted to Phys. Rev. C       
+#  Nov 7, 2010) obtained by the evaluators from the first author on       
+#  Nov 8, 2010                                                            
+#  2009St07: {+71}Co beam produced through {+238}U(p,X) reaction with     
+#  E(p)=30 MeV at the LISOL facility. The |g rays were detected           
+#  using three high-purity germanium detectors. The |b particles were     
+#  detected with four plastic |DE detectors. The decay scheme for {+71}Co 
+#  to {+71}Ni was taken by 2009St07 from November 2007 Sanibel Island     
+#  conference report and by priv comm (references 9 and 22 in 2009St07).  
+#  2005GaZR: Measured E|g, half-life. Five |g rays reported at 251, 280,  
+#  568, 736 and 772 keV. No level scheme was proposed                     
+#  2004Sa59: {+71}Co produced from fragmentation of {+86}Kr beam in charge
+#  state 36{++}. The reaction products analyzed by LISE2000 spectrometer. 
+#  Measured E|b, E|g, |b|g coin, isotopic half-life. See also 2002MaZN    
+#  thesis. Four |g rays were reported at 253, 281, 566 and 774 keV;       
+#  and levels were proposed at 281 (or 253), 489 (or 461), 1055           
+#  (or 1027) and 1308 with J|p=(7/2+), (1/2-), (5/2-) and (5/2-),         
+#  respectively, based on shell-model considerations and comparisons      
+#  with {+69}Ni level scheme                                              
+#  The level scheme given here is from 2010RaZY, which is primarily based 
+#  on a |g|g cascade observed in coincidence and two |g rays from (5/2-)  
+#  levels feeding the 1/2- isomer in analogy with the decay scheme of     
+#  {+69}Co to {+69}Ni proposed in 1999Mu17. Other scenarios for the       
+#  placement of 566 and 774 |g rays have been considered in 2010RaZY but  
+#  ruled out on the basis of unacceptable transition rates and/or lack    
+#  of |g|g coincidence correlations                                       
+#  2010RaZY mention an additional experiment at NSCL (reference 40 in     
+#  2010RaZY) dealing with an on-line spectroscopy for {+71}Ni in a        
+#  knockout reaction on {+73}Cu beam and probably {+9}Be target, where    
+#  281-, 566- and 813-keV |g rays were seen, none of these in coincidence 
+#  mode. This observation confirms the placement of these |g rays in      
+#  {+71}Co                                                                
+#  2009St07 list five |g rays at 252, 281, 566, 774 and 813               
+#  with levels at 281, (7/2+); 499, (1/2-); 813, (5/2+); 1065, (5/2-);    
+#  and 1273, (5/2-) from a priv comm (reference 22 in 2009St07). The 281, 
+#  566 and 774 |g rays were also seen by 2009St07, depicted in spectral   
+#  figure 5 of the paper.                                                 
+#  The decay scheme given here is considered as incomplete by the         
+#  evaluators, thus no attempt has been made to normalize the decay scheme
+#  to obtain absolute emission intensities, |b feedings and LOGFT values. 
+#  However, 2010RaZY list |b feedings and  limits for three levels        
+#G E,RI$ From 2010RaZY, unless otherwise stated                           
+#G E(X)$ Not observed in |g|g coincidence measurements                    
+#G E(Y)$ Ordering of the 252-813 |g cascade is interchangeable            
+#G E(Z)$ Placement proposed in 2010RaZY in analogy with the decay scheme  
+#G of {+69}Co to {+69}Ni as proposed in 1999Mu17                          
+#L J$ Assignments from 2010RaZY based on shell-model predictions          
+#L based on shell-model predictions                                       
+#P 0.0           (7/2-)           80 MS    3              11.33E3   92    
+CO71 NI71 beta- 11.33 0.0 1.0
+

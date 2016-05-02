@@ -1,0 +1,56 @@
+#101TC    101MO B- DECAY (14.61 M)      1993HA42,1975WR01,1972CO16ENSDF    200610
+#  101MO B- DECAY (14.61 M)      1993HA42,1975WR01,1972CO16ENSDF    200610
+#H TYP=ERR$AUT=J. Tuli$DAT=12-Jul-2012$                                   
+#H  COM=NT changed to NR, it was 1 and moved 11 to DCC for 80.92G from TI$
+#H TYP=FUL$AUT=JEAN BLACHOT$CIT=ENSDF$CUT=1-Jul-2006$                     
+#  Many E|g measurements. The main are: 1993Ha42, 1975Wr01,               
+#  1972Co16, 1972Co17, 1973Al16, 1974HeYW                                 
+#  |g|g coin: 1972Co17, 1974WrZY semi-semi. Others: 1956Ma72, 1966Cr13    
+#G E$Weighted average of:1972Co17, 1974HeYW and 1975Wr01, unless otherwise
+#G noted. For E|g>1340, the values of 1972Co17 are not included (lower)   
+#G RI$From 1993Ha42 who have weighted his work with 1972Co16, 1973Al16,   
+#G 1974HeYW, 1975Wr01                                                     
+#G E(B)      From ce spectra (1972Co16) s, as for I(ce)                   
+#G           1972Co16: I(ce) data are normalized to I(ce(K) 192|g)=248    
+#G which is deduced from |a(K)(192|g)=0.248 (M2 theory)                   
+#P 0.0         1/2+              14.61 M   3              2824      24    
+MO101 TC101 beta- 2.824 876.5999999999999 1.0
++G gamma 0.4224 9.469200000000001E-4
++G gamma 0.009317 0.02106897
++G gamma 0.006281 0.005426579999999999
++G gamma 0.015606 1.340256E-5
++B beta- 1.079 0.128
++G gamma 0.19191999999999998 0.1821
++B beta- 1.041 0.0086
++B beta- 0.992 0.003
++B beta- 0.942 0.0026
++B beta- 0.933 5.0E-4
++B beta- 0.893 0.09300000000000001
++B beta- 0.889 0.003
++B beta- 0.886 0.0045000000000000005
++B beta- 0.864 0.0017000000000000001
++B beta- 0.845 8.0E-4
++B beta- 0.765 0.0103
++B beta- 0.7 0.075
++B beta- 0.658 0.0045000000000000005
++B beta- 0.57 0.066
++B beta- 0.449 0.0155
++B beta- 0.441 0.0192
++B beta- 0.439 0.024
++B beta- 0.428 0.006
++B beta- 0.414 0.0049
++B beta- 0.372 0.0196
++B beta- 0.359 0.033
++B beta- 0.358 0.0059
++B beta- 0.321 0.026099999999999998
++B beta- 0.295 0.15
++B beta- 0.279 0.0092
++B beta- 0.261 0.20600000000000002
++B beta- 0.257 0.0276
++B beta- 0.229 0.0219
++B beta- 0.195 0.0036
++B beta- 0.188 0.0073
++B beta- 0.114 0.0062
++B beta- 0.076 0.0087
++B beta- 0.071 0.0031
+

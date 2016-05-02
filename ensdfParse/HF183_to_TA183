@@ -1,0 +1,28 @@
+#183TA    183HF B- DECAY                1969MC08,1967MO13                  199107
+#  183HF B- DECAY                1969MC08,1967MO13                  199107
+#H TYP=FUL$AUT=R.B. FIRESTONE$CIT=NDS 65,589 (1992)$CUT=22-Dec-1992$      
+#H TYP=UPD$AUT=R. Firestone$CUT=22-Dec-1992$                              
+#  Level scheme is from 1969Mc08, BETA energies and half-life of          
+#  73 level from 1967Mo13.                                                
+#L J$From adopted levels                                                  
+#G M$From XK intensity and intensity balance through 73, 143 and          
+#G 573 levels. The multipolarities given                                  
+#G within square brackets are weakly confirmed by                         
+#G intensity balance.                                                     
+#G RI        For DRI(absolute) combine 8.1% in quadrature with            
+#G DRI(relative), except as noted.                                        
+#N     1.01   8              1.00   1.0                                   
+#N NR$normalized assuming no B- feeding to the ground state.              
+#N No BETAS to levels below 459 KEV were observed by 1967Mo13 or          
+#N 1969Mc08. The sum of transition                                        
+#N intensities to the ground state is normalized to 100.                  
+#P        0.0  (3/2-)              1.067 H 17                  2009 19    
++B beta- 0.557 0.25
++B beta- 0.443 0.005600000000000001
++B beta- 0.394 0.68
++B beta- 0.353 0.0015
++B beta- 0.326 0.0017000000000000001
++B beta- 0.279 0.003
++B beta- 0.138 0.032
++B beta- 0.062 7.000000000000001E-4
+

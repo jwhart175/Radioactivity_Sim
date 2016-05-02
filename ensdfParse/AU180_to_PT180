@@ -1,0 +1,43 @@
+#180PT    180AU EC DECAY                1999DA18,1990DE04         15NDS    201506
+#  180AU EC DECAY                1999DA18,1990DE04         15NDS    201506
+#H TYP=FUL$AUT=E.A. MCCUTCHAN$CIT=NDS 126, 151 (2015)$CUT=1-Feb-2015$     
+#  1999Da18: {+180}Au activity produced in {+149}Sm({+35}Cl,4n),          
+#  E({+35}Cl)=170 MeV. Measured E|g, I|g, E(ce), I(ce), |g|g, |g|g(|q),   
+#  and (ce)-|g coincidences using the CAESAR array consisting of 6        
+#  Compton-Suppressed HPGe detectors and a superconducting electron       
+#  spectrometer operated in Lens mode with a cooled Si(Li) detector.      
+#  1998Br33: {+180}Au activity produced in {+149}Sm({+35}Cl,4n),          
+#  E({+35}Cl)=168 MeV. Measured E|g, I|g, |g|g(|q,H,t) using GASP array   
+#  consisting of 40 Compton-suppressed HPGe detectors; deduced g-factor   
+#  of first 2+ state using implantation decay technique                   
+#  1990De04: {+180}Au activity produced by 200-MeV protons on targets of  
+#  Pt-B alloy. Channel selection using magnet and electrostatic           
+#  separation. Measured E|g, I|g, and |g|g coincidences using four Ge     
+#  detectors.                                                             
+#  1977Hu05: {+180}Au activity produced by 600-MeV protons on Pb          
+#  targets. Measured E|g, I|g, |b|g coin with Ge(Li) detectors and a      
+#  scintillator.                                                          
+#  The decay scheme is incomplete, as the g.s. feeding is not known and   
+#  the highest observed level energy of |?1.5 MeV is significantly        
+#  smaller than the Q value of |?8.8 MeV. Thus, the I|g normalization     
+#  and |b feedings are not included in this evaluation.                   
+#L E$From a least-squares fit to E|g's by evaluator                       
+#L J$From the Adopted Levels                                              
+#L E(A)$GS BAND.                                                          
+#L E(B)$K|p=0+ band                                                       
+#L E(C)$K|p=2+ |g-band                                                    
+#G E,RI$From weighted average of data from 1999Da18 and 1990De04, except  
+#G as noted. Uncertainties of 0.2 to 0.5 keV assumed for E|g's from       
+#G 1999Da18. Values from 1977Hu05 are included in the comments when       
+#G available.                                                             
+#G M$From the Adopted Gammas, except where noted.                         
+#G E(A,B),RI(A,C)$From 1999Da18.                                          
+#G E(D),RI(D)$From 1990De04, not observed in 1999Da18.                    
+#G M(a)$From |a(K)exp, |a(L)exp (1999Da18)                                
+#G $|a(K), |a(L), |a(M), and A{-22}/A{-0}, A{-44}/A{-0} values are from   
+#G 1999Da18.                                                              
+#G E(f)$Observed only in 1977Hu05                                         
+#G MR$From |g|g(|q) in 1999Da18.                                          
+#  CC$FROM BrIcc v2.3a (30-Jun-2013) 2008Ki07, "Frozen Orbitals" appr.    
+#P 0.0                            8.4 S     6              8841     23    
+

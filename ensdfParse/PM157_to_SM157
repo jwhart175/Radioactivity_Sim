@@ -1,0 +1,91 @@
+#157SM    157PM B- DECAY                1994WIZZ,1997GR09,1996GR2004NDS    200501
+#  157PM B- DECAY                1994WIZZ,1997GR09,1996GR2004NDS    200501
+#H TYP=FUL$AUT=R. G. Helmer$CIT=NDS 103, 565 (2004)$CUT=1-Feb-2004$       
+#  {+157}Pm produced by spontaneous fission of {+252}Cf (1994WiZZ) and    
+#       neutron-induced fission of {+235}U (1992Sh32), both with          
+#       isotope separation.  |g singles (1994WiZZ,1992Sh32) and |g|g      
+#       coincidences (1994WiZZ) measured, and scheme given by 1994WiZZ.   
+#B IB        The |b- intensity distribution, as a function of the         
+#B      excitation energy, has been reported (1997Gr09) from total        
+#B      absorption |g spectra (TAGS), independent of the placements of    
+#B      |g-rays in the scheme. These results are shown, in part, as       
+#B      pseudolevels with no depopulating |g rays; these levels have a    
+#B      total |b- feeding of 20%. Since |g's from these levels will       
+#B      populate the lower lying levels, the I{-|b-} computed from        
+#B      intensity balances for known |g rays will not be accurate,        
+#B      especially for the values of a few percent or less. The           
+#B      energies of the pseudolevels (1997Gr09) are chosen, often         
+#B      equally spaced, to represent the levels in an energy range, and   
+#B      do not represent actual levels.  Where the pseudolevels are       
+#B      equally spaced, this range is half of the distance to the         
+#B      adjacent levels; and where a pseudolevel is between discrete      
+#B      levels, the range is between these levels. log {Ift}'s are not    
+#B      given for the pseudolevels since they may represent the feeding   
+#B      of several actual levels.                                         
+#B IB        The I|b- values to the levels which are depopulated by       
+#B      |g's, are from a combination of the TAGS results and the          
+#B      intensity balances.  Due to the incompleteness of the |g-ray      
+#B      portion of the decay scheme, no uncertainties of given for        
+#B      I{-|b-} or the log {Ift}'s.                                       
+#G E,RI      From 1994WiZZ.  Other: 1992Sh32 report 30 |g's with          
+#G      energy uncertainties of 0.1 to 0.3 keV and intensities which      
+#G      differ from those given here by as much as a factor of 2.         
+#G RI        I{-K|a} = 78 {I4} and I{-K|b} = 19.5 {I12} (1992Sh32).       
+#G M         From 1994WiZZ and based on information not available to      
+#G      evaluator.                                                        
+#L           The lowest log {Ift} value is 5.6 which suggests (1998Si17)  
+#L      that this is an allowed |b- transition; however, in a more        
+#L      complete decay scheme, this value might be increased              
+#L      significantly.  Since this |b- branch is to a level with          
+#L      J|p=(3/2-), the log {Ift} values suggest J|p=(1/2,3/2,5/2)-       
+#L      for {+157}Pm, which agrees with the (5/2-) assignment based on    
+#L      the analogy with {+153}Pm (1990Ja11).                             
+#L E         From least-squares fit to |g energies.                       
+#L J         From 1994WiZZ and based on expected band structure and       
+#L      Nilsson states. For {+159}Gd, also with N=95, the review of       
+#L      1990Ja11 lists the lowest energy Nilsson states as 5/2[521] at    
+#L      0 keV, 5/2[642] at 67 keV, 5/2[523] at 146 keV, 1/2[521] at 507   
+#L      keV, 11/2[505] at 682 keV, and 3/2[651]+3/2[402] at 744 keV.      
+#L J(R)      Band assignment assumes |p=+.                                
+#L BAND(A)   3/2[521] band.                                               
+#L BAND(B)   5/2[642] band.                                               
+#L BAND(C)   5/2[523] band.                                               
+#L BAND(D)   Possible 3/2[651] band.                                      
+#L BAND(E)   3/2[532] band.                                               
+#P     0        (5/2-)           10.56 S   10             4.36E3    10    
++B beta- 1.85 0.06
++B beta- 1.84 0.068
++G gamma 0.16061 0.25
++B beta- 1.81 0.045
++B beta- 1.75 0.125
++B beta- 1.71 0.035
++B beta- 1.65 0.005
++B beta- 1.62 0.008
++B beta- 1.59 0.009000000000000001
++B beta- 1.54 0.008
++B beta- 1.52 0.009000000000000001
++B beta- 1.36 0.02
++B beta- 1.31 0.023
++B beta- 1.28 0.013999999999999999
++B beta- 1.25 0.11
++B beta- 1.23 0.016
++B beta- 1.18 0.017
++B beta- 1.14 0.015
++B beta- 1.13 0.019
++B beta- 1.08 0.011000000000000001
++B beta- 1.04 0.01
++B beta- 0.99 0.009000000000000001
++B beta- 0.95 0.01
++B beta- 0.9 0.009000000000000001
++B beta- 0.86 0.009000000000000001
++B beta- 0.81 0.013999999999999999
++B beta- 0.77 0.01
++B beta- 0.72 0.009000000000000001
++B beta- 0.68 0.006
++B beta- 0.63 0.026000000000000002
++B beta- 0.59 0.004
++B beta- 0.55 0.004
++B beta- 0.51 0.004
++B beta- 0.46 0.004
++B beta- 0.42 0.002
+

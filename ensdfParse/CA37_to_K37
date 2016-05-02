@@ -1,0 +1,88 @@
+# 37K     37CA EC DECAY (181.1 MS)      1997KA10,1991GA23,1995TR0312NDS    201203
+#  37CA EC DECAY (181.1 MS)      1997KA10,1991GA23,1995TR0312NDS    201203
+#H TYP=FUL$AUT=JOHN CAMERON, JUN CHEN AND BALRAJ SINGH, NINEL NICA$       
+#H CIT=NDS 113, 365 (2012)$CUT=15-Jan-2012$                               
+#  1997KA10 (ALSO 1991GA23): USED MASS-SEPARATED 37CA BEAM AND STUDIED 37K
+#  LEVELS BY DETECTING DELAYED PROTONS IN COINCIDENCE WITH GAMMA-RAYS IN  
+#  36AR; DEDUCED ^B(^GT) VALUES ASSUMING WIDTH=WIDTHP                     
+#  1997TR05,1995TR03: FOUND HIGH WIDTHG/WIDTHP VALUES AND CORRECTED FOR   
+#  ^B(^GT) VALUES OF P-UNBOUND LOW-LYING LEVELS IN 37K; MEASURED T1/2'S   
+#  (1995TR03)                                                             
+#  OTHERS: 1995GA03, 1990GA17, 1987AD05, 1974SE11, 1966HA22,              
+#  1966PO12, 1964HA42, 1964RE08, 1960WA04, 1958SU60                       
+#E LOGFT$Deduced by evaluators from the experimental ^B(^GT) values       
+#E from 1997KA10 using ^B(^GT)=(6140 10)/{Ift}, equation listed in        
+#E reference 11 of 1997Ka10 for pure ^Gamow-^Teller transitions.          
+#E IB$Deduced by evaluators from the {Ift} values., unless otherwise      
+#E stated. The Fermi function {If} was calculated using ^LOGFT code at    
+#E ^NNDC, ^BNL. Partial half-lives were then converted to |b feedings.    
+#E IB(b)$From 1991GA23 only.                                              
+#G E(B)$FROM 1995TR03                                                     
+#G RI(A)$FROM EC+B+ BRANCHING RATIOS (1995TR03)                           
+#L E$FROM 1997KA10, EXCEPT WHEN NOTED OTHERWISE. Two LEVELS REPORTED      
+#L IN THE PREVIOUS WORK (1991GA23) BUT NOT OBSERVED IN                    
+#L 1997KA10 have been EXCLUDED here: 5446 and 5465                        
+#L J$FROM ^Adopted ^Levels, ^Gammas DATASET                               
+#L E(a)$FROM 1995TR03 BASED ON MEASURED EG                                
+#L E(b)$From 1997Ka10 only.                                               
+#L T(C)$FROM ^Adopted ^Levels, ^Gammas DATASET                            
+#L T(D)$MEAN LIFETIME TAU IN FS: 2.2 2 (1995TR03)                         
+#L T(E)$MEAN LIFETIME TAU IN FS: 140 40 (1995TR03)                        
+#P 0.0          3/2+             181.1 MS  10             11664.5   8     
++B beta+ 0.50095 0.05
++B beta+ 4.41909 0.021400000000000002
++B beta+ 3.73563 0.079
++B beta+ 3.49389 0.045
++B beta+ 3.3045999999999998 0.033
++B beta+ 3.198 0.032
++B beta+ 3.1911 0.00398
++B beta+ 3.0241 8.799999999999999E-4
++B beta+ 2.9144 0.0108
++B beta+ 2.8744 0.0134
++B beta+ 2.6185 0.004
++B beta+ 2.6023 0.467
++B beta+ 2.568 0.0604
++B beta+ 2.4684 0.005699999999999999
++B beta+ 2.4514 2.8000000000000003E-4
++B beta+ 2.419 0.00106
++B beta+ 2.402 0.00333
++B beta+ 2.3918000000000004 2.1999999999999998E-4
++B beta+ 2.3482 4.0E-4
++B beta+ 2.3211999999999997 0.00147
++B beta+ 2.2779000000000003 6.2E-5
++B beta+ 2.2408 3.9E-4
++B beta+ 2.1705 0.00166
++B beta+ 2.1307 0.006
++B beta+ 2.1149 0.0034000000000000002
++B beta+ 2.0928 0.00381
++B beta+ 2.0044 7.6E-5
++B beta+ 1.9801 0.0011899999999999999
++B beta+ 1.9354 7.8E-4
++B beta+ 1.9276 0.0014000000000000002
++B beta+ 1.8737000000000001 1.4000000000000001E-4
++B beta+ 1.8432 1.0999999999999999E-4
++B beta+ 1.8054000000000001 1.6E-4
++B beta+ 1.7783 9.900000000000001E-5
++B beta+ 1.7375999999999998 1.3299999999999998E-4
++B beta+ 1.6950999999999998 4.6E-5
++B beta+ 1.6652 0.00136
++B beta+ 1.6184 0.00214
++B beta+ 1.5645 0.00134
++B beta+ 1.5371 3.4E-4
++B beta+ 1.4746 0.00158
++B beta+ 1.4248599999999998 0.00217
++B beta+ 1.3922 4.3E-4
++B beta+ 1.3482 0.00104
++B beta+ 1.3351 2.1999999999999998E-4
++B beta+ 1.266 0.00166
++B beta+ 1.2527000000000001 0.00115
++B beta+ 1.1605999999999999 4.0E-4
++B beta+ 1.0448 8.999999999999999E-5
++B beta+ 1.0255 1.5E-4
++B beta+ 0.9954 3.4E-5
++B beta+ 0.9715 2.8999999999999997E-5
++B beta+ 0.9448 5.0E-5
++B beta+ 0.9266 4.3E-5
++B beta+ 0.8893 3.5000000000000004E-5
++B beta+ 0.8669 2.3E-5
+

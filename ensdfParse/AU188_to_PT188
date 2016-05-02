@@ -1,0 +1,41 @@
+#188PT    188AU EC DECAY (8.84 M)       1978COYZ,1972FI12         02NDS    200204
+#  188AU EC DECAY (8.84 M)       1978COYZ,1972FI12         02NDS    200204
+#H TYP=FUL$AUT=BALRAJ SINGH$CIT=NDS 95, 387 (2002)$CUT=26-Feb-2002$       
+#  Others: 1972HUZL, 1971HU02, 1970JO02, 1969NA10, 1984DAZJ               
+#  1978COYZ and 1972FI12 reported G, GG, CE and GG(T)                     
+#  measurements. Main decay scheme is from 1978COYZ                       
+#  Q- measurement: 1984DAZJ                                               
+#  The decay scheme has not been normalized since                         
+#  EC+B+ feeding to 188PT GS is not known and a                           
+#  large number of transitions remain unplaced                            
+#G M$From CE data using 266G (mult=E2) for normalization                  
+#G E(A)$Assigned in the level scheme by evaluator on the basis of         
+#G level energy differences                                               
+#G E(B)$Reported by 1972FI12 only. Treated here as uncertain              
+#G E,RI$From 1978COYZ, unless otherwise stated. The uncertainties quoted  
+#G by 1978COYZ on some of the G rays are LT 0.05 KEV. These have been     
+#G increased to 0.05 KEV                                                  
+#G CC$1972FI12 gave ICE(L3) for selected transitions. The                 
+#G evaluator notes from the sample spectrum shown by 1972FI12 that        
+#G L1, L2, and L3 lines are not resolved. Authors may have                
+#G obtained L3 intensities by using a magnetic spectrograph. In           
+#G a similar table given by 1972HUZL, these L3 intensities were           
+#G incorrectly labeled as total L-shell intensities                       
+#E           LOGFT of 7.5 (lowest known value in neighboring              
+#E nuclides, 186RE, 188RE, 190AU) implies EC+B+                           
+#E branch of 2.5% to g.s. This gives I(EC+B+)(first 2+ level)/            
+#E I(EC+B+)(GS)=10. This ratio is 0.30 (186RE B-), 0.27 (186RE EC),       
+#E 0.39 (188RE B-), 0.75 (190AU EC), 0.50 (ALAGA's rule). Unplaced        
+#E GAMMA intensity in 188PT is insufficient to explain this discrepancy   
+#L           1975HO03 and 1970DU09 reported measurements of BETA          
+#L strength functions using total absorption G-ray spectrometer           
+#L           1971HU02 proposed levels at 1844 and 1647 KEV which are      
+#L not confirmed by 1972FI12. These have been omitted                     
+#L E$From least-squares fit to EG's                                       
+#L J$From adopted levels                                                  
+#L T$From CEG(T) (1972FI12)                                               
+#N                        1.0                                             
+#N                                                                     1  
+#P    0.0        1(-)             8.84 M   6               5.45E3   10    
++G gamma 0.2655 1.0
+

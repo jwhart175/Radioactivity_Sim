@@ -1,0 +1,27 @@
+# 83SE    83AS B- DECAY                 1975KR08,1982ME01,1984LIZW15NDS    201503
+#  83AS B- DECAY                 1975KR08,1982ME01,1984LIZW15NDS    201503
+#H TYP=FUL$AUT=E.A. MCCUTCHAN$CIT=NDS 125, 201 (2015)$CUT=31-Dec-2014$    
+#  1975Kr08: {+83}As activity from thermal neutron induced fission of     
+#  {+235}U and {+233}U followed by chemical separation.  Measured E|g,    
+#  I|g, |g|g using two Ge(Li) detectors.                                  
+#  1982Me01,1984LiZW: {+83}As activity from fission products followed by  
+#  chemical separation. Measured E|g, I|g, |g|g, |g|g(t) using Ge(Li)     
+#  detectors. 1984LiZW is a thesis describing in more detail the results  
+#  presented in 1982Me01.                                                 
+#  Others: 1989WaZV, 1974KrZG, 1968De19.                                  
+#  The decay scheme is incomplete and/or there are problems with the      
+#  decay scheme normalization (see comment on I|g normalization. For      
+#  this reason, |b-feedings and log {Ift} values are not derived for      
+#  this dataset.                                                          
+#G E,RI$From 1984LiZW, except where noted.                                
+#G E(a),RI(a)$From 1975Kr08.                                              
+#L E$From a least-squares fit to E|g, by evaluator.                       
+#L J,T$From the Adopted Levels.                                           
+#  NR        If I|b(g.s.)=0 and |SI(|g+ce) to {+83}Se(g.s.) is 30% {I6}   
+#  (weighted average of 36% {I8} (1968De19) and 23% {I9} (1974KrZG)).     
+#  I|b(g.s.) assumed 0 since |DJ|>2.                                      
+#  IG%(734G)=34.0 34 (1989WaZV). USING THIS VALUE AND THE DECAY  SCHEME,  
+#  EVALUATOR DEDUCED SUMOF TI TO 83SE(GS)= 24% 4.                         
+#  CC$FROM BrIcc v2.3 (29-Mar-2013) 2008Ki07, "Frozen Orbitals" appr.     
+#P 0.0          (5/2-)            13.4 S    4              5671     4     
+

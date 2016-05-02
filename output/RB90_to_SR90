@@ -1,0 +1,213 @@
+# 90SR    90RB B- DECAY (158 S)         1981TA05                  97NDS    199801
+#  90RB B- DECAY (158 S)         1981TA05                  97NDS    199801
+#H TYP=FUL$AUT=E. BROWNE$CIT=NDS 82, 379 (1997)$CUT=1-May-1997$           
+#  1981Ta05: From 235U(N,F). Mass separation of 90KR. NAI and GELI.       
+#  Measured EG, IG, GG coin, GG(THETA). The 158-s and 258-s 90RB          
+#  activities were distinguished by varying collection and observation    
+#  times.                                                                 
+#  1977Hu03: From 235U(N,F). Mass separation. Measured T1/2, EG, IG,      
+#  GG coin, EB.                                                           
+#  1997Gr09: from 252CF. On-line mass separation and measurement of G rays
+#  using a total absorption G-ray spectrometer to determine B-            
+#  distributions of decay intensities of fission products. Detector       
+#  consisted of a large NAI scintillator with a deep axial well for the   
+#  radioactive source and for a SI(LI) detector to measure                
+#  BG coincidences.                                                       
+#  Others: 1964Jo02, 1967Zh01, 1972Eh02, 1973Si12, 1973Cl02, 1974Gr29,    
+#  1976Wo05, 1978St02, 1978Wu04, 1978Wo15, 1980De02                       
+#  All data are from 1981Ta05, except as noted.                           
+#L           For results of GG correlations see 90RB B- decay (258 S).    
+#L T$For excited states from BG(T) (1991Ma05).                            
+#G E,RI$From 1981Ta05.                                                    
+#G M,MR$From adopted JPI's and GG(THETA) (1981Ta05).                      
+#B           B- branches are from TI imbalance at each level.             
+#B Values from 1997Gr09 (total absorption G-ray spectrometer) for excited 
+#B levels are in reasonable agreement with those deduced from transition- 
+#B intensity balances. However, that from transition-intensity balance to 
+#B the 831-KEV level is about a factor of two (on a relative scale) larger
+#B than values obtain by 1997Gr09 for other excited levels. In addition,  
+#B these authors found no B- population to levels above 5300 KEV.         
+#B These results disagree with the G-rays measured by 1981Ta05 and placed 
+#B on the decay scheme deexciting levels up to 5623 keV.                  
+#B 1997Gr09 placed fictitious levels at about 2700, 2800, 2900, 3000,     
+#B 3100, 3200, 3650, 3850, and 4950 KEV to interpret their data.          
+#B E(A)      From 1977Hu03.                                               
+#P 0           0-                158 S     5              6587      8     
+RB90 SR90 beta- 6.587 158.0 1.0
++G gamma 1.4304000000000001 0.0126
++G gamma 2.1197 0.019
++G gamma 3.664 0.021
++G gamma 4.0617 0.06
++G gamma 4.2783999999999995 0.013000000000000001
++G gamma 4.6351 0.006
++G gamma 4.9348 0.0089
++G gamma 5.0077 0.0059
++G gamma 5.0702 0.036000000000000004
++G gamma 5.2995 0.0043
++G gamma 0.83169 10.0
++G gamma 1.0607 2.39
++G gamma 1.89228 0.14400000000000002
++G gamma 0.3145 0.0022
++G gamma 1.37536 0.045
++G gamma 1.6656099999999998 0.054000000000000006
++G gamma 1.73893 0.0058
++G gamma 1.8423 0.006
++G gamma 0.7207 0.0034000000000000002
++G gamma 1.27177 0.0098
++G gamma 1.1405 0.0163
++G gamma 1.489 0.0077
++G gamma 0.8863 0.016
++G gamma 1.1769 0.01
++G gamma 0.9853999999999999 0.0059
++G gamma 3.6274 0.032
++G gamma 1.0271 0.005
++G gamma 1.4567 0.0095
++G gamma 1.7472999999999999 0.0095
++G gamma 2.2981 0.013999999999999999
++G gamma 1.5221 0.0096
++G gamma 0.8925 0.006999999999999999
++G gamma 0.99785 0.114
++G gamma 0.7521 0.0177
++G gamma 2.2451999999999996 0.016
++G gamma 0.7651 4.0E-4
++G gamma 1.0039 0.0028000000000000004
++G gamma 0.7392000000000001 0.0126
++G gamma 1.4383 0.008
++G gamma 1.5478 0.016
++G gamma 2.6889000000000003 0.031
++G gamma 2.9243 0.018000000000000002
++G gamma 3.9584 0.02
++G gamma 4.7902 0.016
++G gamma 4.919 0.0192
++G gamma 1.5903 0.035
++G gamma 3.0813 0.039
++G gamma 1.4855999999999998 0.017
++G gamma 1.0386300000000002 0.078
++G gamma 1.8040999999999998 0.152
++G gamma 2.1481999999999997 0.055
++G gamma 2.9806999999999997 0.024
++G gamma 1.8707 0.019
++G gamma 3.36188 0.244
++G gamma 5.6001 0.0083
++G gamma 0.1968 0.024
++G gamma 1.6689 0.038
++G gamma 2.2397 0.040999999999999995
+
+# 90SR    90RB B- DECAY (258 S)         1981TA05                  97NDS    199801
+#  90RB B- DECAY (258 S)         1981TA05                  97NDS    199801
+#H TYP=FUL$AUT=E. BROWNE$CIT=NDS 82, 379 (1997)$CUT=1-May-1997$           
+#  1981Ta05: From 235U(N,F). Mass separation of 90KR. NAI and GELI.       
+#  Measured EG, IG, GG coin, GG(THETA). The 158-s and 258-s 90RB          
+#  activities were distinguished by varying collection and observation    
+#  times.                                                                 
+#  1977Hu03: From 235U(N,F). Mass separation. Measured T1/2, EG, IG,      
+#  GG coin, EB.                                                           
+#  1997Gr09: from 252CF. On-line mass separation and measurement of G rays
+#  using a total absorption G-ray spectrometer to determine B-            
+#  distributions of decay intensities of fission products. Detector       
+#  consisted of a large NAI scintillator with a deep axial well for the   
+#  radioactive source and for a SI(LI) detector to measure                
+#  BG coincidences.                                                       
+#  Others: 1964Jo02, 1967Zh01, 1972Eh02, 1973Si12, 1973Cl02, 1974Gr29,    
+#  1976Wo05, 1978St02, 1978Wu04, 1978Wo15, 1980De02.                      
+#  All data are from 1981Ta05, except as noted.                           
+#B           B- branches are from TI balance at each level.               
+#B Values measured with a total absorption G-ray spectrometer (1997Gr09)  
+#B are also shown with individual levels.                                 
+#B 1997Gr09 found an excess of B- population to levels above              
+#B 4394 KEV, and a deficit for levels below 1994 KEV, compared to those   
+#B values deduced from transition-intensity balances. The most dramatic   
+#B example is the B- population to the 831-KEV level: 15%, from           
+#B transition-intensity balance; 1.8% from the total absorption G-ray     
+#B spectrometer measurement (1997Gr09). These authors proposed            
+#B a fictitious level at about 3900 KEV with a B- population of 1.64%     
+#B in order to interpret their data.                                      
+#L                                                                        
+#L Results from GG correlation measurements (1981Ta05).                   
+#L   The 831 keV transition is assumed to be 2+ to 0+.                    
+#L   For additional data, see 1981Ta05.                                   
+#L                                                                        
+#L Level   Cascade            A2         A4       J        MR             
+#L -----   -------         ---------  --------    -     -------           
+#L  1892   1060-831        -0.105 16  0.083 18    2     +0.50 3           
+#L  2207   1375-831        -0.089 13  0.051 15    3(a)  -0.02 6           
+#L                                                2     +0.464 21         
+#L  2497   1665-831         0.23 3    0.02 3      3     +0.53 +18-11      
+#L                                                2     +0.03 4           
+#L  2571   1738-831        -0.17 7    0.11 8      3     -0.12 12          
+#L                                                2     +0.64 18          
+#L                                                1     -0.06 8           
+#L  2971   2139-831         0.23 12   1.28 14     0     E2                
+#L                                                                        
+#L  a) Poor fit, but accepted on the 99% confidence level.                
+#L                                                                        
+#L T         For excited states from BG(T) (1991Ma05).                    
+#G RI        For unplaced transitions possibly belonging to 258 s decay,  
+#G see 90RB B- decay (158 S).                                             
+#G M,MR$From GG(THETA) (1981Ta05), T of level, and placement in the       
+#G decay scheme.                                                          
+#B           B-branches are from TI balance at each level.                
+#P 106.90    3 3-                258 S     4              6587       8    
+RB90 SR90 beta- 6.587 258.0 0.0966
++G gamma 0.83169 10.0
++G gamma 1.0607 0.81
++G gamma 1.89228 0.049
++G gamma 0.3145 0.08800000000000001
++G gamma 1.37536 1.77
++G gamma 1.6656099999999998 0.51
++G gamma 1.6961600000000001 0.175
++G gamma 1.73893 0.2
++G gamma 0.7207 0.057
++G gamma 1.27177 0.16399999999999998
++G gamma 1.1405 0.094
++G gamma 1.489 0.037000000000000005
++G gamma 0.8863 6.2E-4
++G gamma 1.1769 3.9E-4
++G gamma 0.9524400000000001 0.179
++G gamma 1.24284 0.322
++G gamma 2.6178000000000003 0.065
++G gamma 0.9853999999999999 0.0085
++G gamma 1.0867 0.0074
++G gamma 1.3772 0.24
++G gamma 2.75268 1.22
++G gamma 3.6274 0.1
++G gamma 1.0271 0.013000000000000001
++G gamma 1.4567 0.025
++G gamma 1.7472999999999999 0.025
++G gamma 2.2981 0.036000000000000004
++G gamma 1.1092 0.013999999999999999
++G gamma 2.3815 0.018000000000000002
++G gamma 0.7521 1.23E-4
++G gamma 0.7651 0.009000000000000001
++G gamma 1.0039 0.006
++G gamma 0.7798999999999999 0.028999999999999998
++G gamma 1.7645 0.01
++G gamma 2.1283000000000003 0.552
++G gamma 2.4429000000000003 0.027999999999999997
++G gamma 0.7392000000000001 7.099999999999999E-4
++G gamma 1.4383 4.4999999999999996E-5
++G gamma 1.0219 0.008
++G gamma 1.3916 0.046
++G gamma 1.4601 0.02
++G gamma 1.9031 0.013999999999999999
++G gamma 2.5378000000000003 0.018000000000000002
++G gamma 1.3022 0.02
++G gamma 3.9722 0.038
++G gamma 0.4423 0.012
++G gamma 1.4252 0.028999999999999998
++G gamma 2.3112 0.031
++G gamma 1.2985 0.021
++G gamma 4.115600000000001 0.037000000000000005
++G gamma 1.5769000000000002 0.012
++G gamma 3.3708 0.042
++G gamma 2.5439000000000003 0.035
++G gamma 4.2095 0.096
++G gamma 3.0321 0.046
++G gamma 1.6589 0.046
++G gamma 3.5385999999999997 0.051
++G gamma 4.599399999999999 0.049
++G gamma 4.726100000000001 0.012
++G gamma 0.3958 0.008
++G gamma 1.6862000000000001 0.013000000000000001
++G gamma 2.2009000000000003 0.051
+

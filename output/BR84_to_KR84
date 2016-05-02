@@ -1,0 +1,96 @@
+# 84KR    84BR B- DECAY (31.76 M)       1972HI03,1970HA21,1980SA1009NDS    200910
+#  84BR B- DECAY (31.76 M)       1972HI03,1970HA21,1980SA1009NDS    200910
+#H TYP=FUL$AUT=J.K. Tuli, A. Luca, S. Juutinen, and B. Singh$             
+#H CIT=NDS 110,2815 (2009)$CUT=30-Sep-2009$                               
+#  1972Hi03: Measured EG, RI, GG; CHEMICAL SEPARATION OF 84BR ACTIVITY,   
+#  GG COIN WITH GELI AND NAI(TL) DETECTORS. A TOTAL OF 51 G RAYS          
+#  REPORTED. LEVEL SCHEME IS EXTENDED FROM THAT PROPOSED IN 1970HA21.     
+#  INTENSITY DETECTION THRESHOLD IS |?0.04 RELATIVE TO 100 FOR 882G       
+#  1970Ha21: Measured EG, RI, GG, B, BG COIN; GELI, NAI(TL), magnetic     
+#  spectrometer, anthracene crystal. Deduced Q value=4650 30.             
+#  A TOTAL OF 32 G RAYS REPORTED PLACED AMONGST 15 EXCITED STATES.        
+#  INTENSITY DETECTION THRESHOLD IS |?0.1 RELATIVE TO 100 FOR 882G        
+#  1980Sa10: Measured GG(THETA).                                          
+#  1973Jo02: measured total-absorption |g spectra, deduced |b strength    
+#  functions using mass-separated fission products at OSIRIS facility.    
+#  The |b spectrum has two intense peaks, one below 1 MeV and the other   
+#  at about 2 MeV. Weak feedings continue up to about 4 MeV. These        
+#  data are further analyzed by 1983Be56                                  
+#  Other: 1957Jo21.                                                       
+#  1972Ej01, 1970Ko20: calculated LOGFT values                            
+#  A detailed decay scheme proposed by 1970Ha21 was further augmented     
+#  by 1972Hi03                                                            
+#  The |g|g coin information is from 1972Hi03 and 1970Ha21                
+#  Total decay energy deposit of 4640 keV {I190} calculated by RADLIST    
+#  code is in agreement with expected value of 4629 keV {I15}             
+#G CC$ FROM BrIcc v2.2 (31-Mar-2008) 2008Ki07, "Frozen Orbitals" appr.    
+#G $ The 1289|g (I|g=0.4), 1970|g (I|g=0.6) and 2304|g (I|g=0.6) reported 
+#G by 1970Ha21 were not seen by 1972Hi03 with upper limits of 0.04, 0.15  
+#G and 0.1, respectively. The 1289|g was placed in 1970Ha21 from a        
+#G 2171, (0)+ level; other two |g rays were unplaced.                     
+#G $ GG directional-correlation coefficients are from 1980Sa10.           
+#G J sequence, MR FOR THE FIRST G RAY IS from the evaluators' analysis.   
+#G Large-MR solutions for implied E1+M2 and E2+M3 transitions             
+#G have been discounted                                                   
+#G E,RI$ From 1972Hi03. Corresponding values from 1970Ha21 are in         
+#G good agreement but are somewhat less precise and are not as            
+#G complete. Also no energy uncertainties are quoted by                   
+#G 1970Ha21. For this reason all |g-ray data are taken from 1972Hi03.     
+#G The data from 1970Ha21 are given under document records                
+#G M,MR$ From GG(THETA) (1980Sa10). Parity from adopted DPI.              
+#G E(X)$ This |g ray reported only by 1972Hi03                            
+#L $ A 2171, (0)+ level proposed by 1970Ha21 has been omitted here, the   
+#L deexciting |g ray of 1289 keV has not been seen by 1972Hi03 and        
+#L the level itself has not been confirmed in any other study.            
+#L E$ FROM LEAST-SQUARES FIT TO EG'S                                      
+#L J$ From adopted levels                                                 
+#L J(A)$ FROM GG(THETA) analysis                                          
+#P 0           2-                31.76 M   8              4629      15    
+BR84 KR84 beta- 4.629 1905.6000000000001 0.416
++G gamma 0.6887000000000001 0.0022
++G gamma 1.7795999999999998 0.0015
++G gamma 0.8816 1.0
++G gamma 1.0159 0.14800000000000002
++G gamma 1.8976 0.35
++G gamma 1.2133 0.062
++G gamma 0.4477 0.001
++G gamma 1.4638 0.047
++G gamma 1.6076 0.0095
++G gamma 1.7412 0.039
++G gamma 2.6229 0.0072
++G gamma 0.3547 0.0073
++G gamma 0.6048 0.042
++G gamma 0.8022 0.14400000000000002
++G gamma 1.8187 0.0058
++G gamma 1.8775 0.027000000000000003
++G gamma 2.7586999999999997 0.011699999999999999
++G gamma 0.382 0.013500000000000002
++G gamma 0.7365 0.031
++G gamma 0.9873 0.019
++G gamma 1.185 0.0026
++G gamma 2.2007 0.027999999999999997
++G gamma 2.4840999999999998 0.16
++G gamma 3.3658 0.069
++G gamma 1.5780999999999998 0.016
++G gamma 2.5936999999999997 0.0033
++G gamma 0.2302 0.0073
++G gamma 0.3398 0.0017000000000000001
++G gamma 0.9475 0.0085
++G gamma 1.0057 0.011000000000000001
++G gamma 1.0826 0.0034000000000000002
++G gamma 1.8077999999999999 0.001
++G gamma 2.8241 0.027000000000000003
++G gamma 2.9886999999999997 0.0042
++G gamma 1.1191 0.0034000000000000002
++G gamma 1.2555 0.0011
++G gamma 1.5347 0.0024
++G gamma 0.5614 0.002
++G gamma 1.438 0.0015
++G gamma 2.0296 0.05
++G gamma 3.0454 0.06
++G gamma 3.9275 0.163
++G gamma 3.2020999999999997 0.005
++G gamma 4.0846 0.0066
++G gamma 3.2353 0.049
++G gamma 2.0942 0.0051
+

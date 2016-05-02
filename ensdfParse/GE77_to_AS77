@@ -1,0 +1,133 @@
+# 77AS    77GE B- DECAY (11.211 H)      1974LEYO,2012ME04         12NDS    201206
+#  77GE B- DECAY (11.211 H)      1974LEYO,2012ME04         12NDS    201206
+#H TYP=FUL$AUT=BALRAJ SINGH, NINEL NICA$CIT=NDS 113, 1115 (2012)$         
+#H CUT=30-Mar-2012$                                                       
+#  1974LeYO (also 1976LeZU): measured EG, IG, GG and GG(THETA)            
+#  2012Me04: measured E|g, I|g                                            
+#  Others:                                                                
+#  1979ChZQ, 1977ChYV: measured E|g, I|g, |g|g                            
+#  1971Yt01 (also 1971PoZQ thesis): measured E|g, I|g. Total of 153       
+#  |g rays reported, but 15 of these have not been confirmed in other     
+#  studies                                                                
+#  1968Do05: measured E|g, I|g; energies of seven low-energy |g rays      
+#  measured with curved-crystal spectrometer. Total of 82 |g rays reported
+#  1968Ng02: measured E|g, I|g, |g|g. Total of 66 |g rays reported        
+#  1968Ma26: measured E|g, I|g                                            
+#  1967Ma13 (same group as 1968Ma26): measured E|g, I|g with a pair       
+#  spectrometer. Total of 46 gamma rays reported above 1.19 MeV           
+#  1952Sm13: measured E|b, I|b                                            
+#  GG(T): 1989Mo14, 1970Dr09, 1969Az04; deduced level half-life           
+#  GG(THETA): 1975Ch32, 1974Gu30, 1973Ch42, 1971Lo14, 1965Va12            
+#  GG(THETA,H,T), g factors: 1990Mo23, 1990Mo23, 1989Mo14                 
+#  GG(lin pol,THETA): 1963Ma37                                            
+#  Total decay energy of 2693 keV {I42} deduced (by RADLIST code) from    
+#  proposed decay scheme is in agreement with the expected value of       
+#  2702.5 keV {I18}, indicating that decay scheme is fairly complete      
+#B $ Measured: EB, IB values: EB=710, IB=23; EB=1379, IB=35; EB=2196,     
+#B IB=42 (1952Sm13)                                                       
+#B IB$ From |g-ray intensity balance, assuming no |b feeding to GS.       
+#G $ The following G rays of energy (intensity) reported by 1971Yt01      
+#G only have been omitted: 408.5 (0.06), 901.6 (0.07), 1202.9 (0.04),     
+#G 1285.3 (0.05), 1378.0 (0.03), 1457.5 (0.03), 1488.6 (0.03),            
+#G 1607.5 (0.02), 1613.7 (0.017), 1671.4 (0.02), 1676.6 (0.016),          
+#G 1867.1 (0.024), 2325.4 (0.006), 2373.9 (<0.005), 2391.1 (<0.005)       
+#G E,RI$ Unweighted averages of values from 2012Me04 and 1974LeYO, unless 
+#G otherwise stated. The uncertainties are assigned based on data in      
+#G 2012Me04. The uncertainties quoted by 1974LeYO are generally too low to
+#G be realistic, these appear to be statistical only. There is overall    
+#G good agreement between the |g-ray energies and intensities in the two  
+#G studies: 1974LeYO and 2012Me04. The measured values from the two       
+#G studies are listed under "document" records in the ENSDF file.         
+#G $ Values of A2 and A4 are from 1974LeYO. The evaluators have           
+#G reanalyzed part of the datsea of 1974LeYO. In a few cases results are  
+#G compared with GG(THETA) data from 1975Ch32 and 1974Gu30                
+#G M,MR$ From |g|g(|q) data in 1974LeYO, parities are deduced from        
+#G comparison with RUL. Same values are given in Adopted Gammas           
+#G E(A),RI(A)$ From 2012Me04                                              
+#G E(B)$ From curved-crystal data (1968Do05). Corresponding values from   
+#G 2012Me04 and 1974LeYO are in good agreement                            
+#G E(F)$ Unweighted average of values from 2012Me04, 1974LeYO and         
+#G curved-crystal data from 1968Do05                                      
+#G E(K,M),RI(K)$ From 1974LeYO, |g not reported in 2012Me04               
+#G RI(L)$ From 1974LeYO                                                   
+#L E$ From least-squares fit to E|g data. Reduced |h{+2}=1.4. Seven       
+#L gamma-ray energies are fitted poorly, but most of these are doublets   
+#L J$ From Adopted Levels                                                 
+#L J(D)$A2 and A4 values for relevant cascades in GG(THETA) data used     
+#L in conjunction with other arguments for spin assignment                
+#P    0.0      7/2+               11.211 H 3              2702.5    18    
+GE77 AS77 beta- 2.7025 0.0 1.0
++B beta- 1.05413 0.0040999999999999995
++B beta- 1.04447 0.040999999999999995
++B beta- 1.01115 0.017
++B beta- 0.91218 0.16
++B beta- 0.86077 0.0079
++B beta- 0.8393200000000001 0.214
++B beta- 0.83813 0.0021
++B beta- 0.76855 0.0040999999999999995
++B beta- 0.72693 0.003
++B beta- 0.7205499999999999 0.0028699999999999997
++B beta- 0.64319 0.0013
++B beta- 0.59511 0.00172
++B beta- 0.58393 0.192
++B beta- 0.57874 0.0015
++B beta- 0.5698200000000001 8.0E-4
++B beta- 0.5435599999999999 3.0E-5
++B beta- 0.52586 0.0043
++B beta- 0.51458 0.0019
++B beta- 0.51232 4.9E-4
++B beta- 0.49139 8.0E-4
++B beta- 0.49097 0.019299999999999998
++B beta- 0.46498 0.048
++B beta- 0.43419 0.0187
++B beta- 0.42963 0.0034000000000000002
++B beta- 0.42019 0.075
++B beta- 0.41452999999999995 0.0195
++B beta- 0.3467 7.4E-4
++B beta- 0.24866 0.0264
++B beta- 0.23708 0.08070000000000001
++B beta- 0.19382 0.0232
++B beta- 0.16171000000000002 7.000000000000001E-5
++B beta- 0.10919 0.023700000000000002
++B beta- 0.10484 0.0108
++B beta- 0.08109000000000001 0.0017000000000000001
++B beta- 0.0685 2.6E-4
++B beta- 0.05274 0.00255
++B beta- 0.04347 0.00108
+
+# 77AS    77GE B- DECAY (53.7 S)        2000KE08,1970ME20,1970IM0112NDS    201206
+#  77GE B- DECAY (53.7 S)        2000KE08,1970ME20,1970IM0112NDS    201206
+#H TYP=FUL$AUT=BALRAJ SINGH, NINEL NICA$CIT=NDS 113, 1115 (2012)$         
+#H CUT=30-Mar-2012$                                                       
+#  2000Ke08: measured EG, IG                                              
+#  1970Me20: measured EG, IG, GG                                          
+#  1970Im01 (also 1969Im02): measured E|g, I|g, |g|g, T{-1/2}             
+#  1994KeZZ is superseded by 2000Ke08                                     
+#  Others (|g, T{-1/2}): 1965Va12, 1962We08, 1957Ly49                     
+#  Total decay energy of 2319 keV {I112} deduced (by RADLIST code) from   
+#  proposed decay scheme is in agreement with the expected value of       
+#  2318 keV {I57}, indicating that decay scheme is well established       
+#B           B and BG data: 1955Bo36, 1954Bu94                            
+#B           IB(264.7 level)=0.007 4 gives LOGFT=8.7 3, which             
+#B is too low for DJ=2, DPI=no. Apparent weak B- feeding                  
+#B is probably due to                                                     
+#B undetected weak GAMMA rays feeding this level                          
+#B IB$ From RI(215G)/IB=0.265 27 (1970Im01) and |g-ray intensity balance  
+#B at each level                                                          
+#G E,RI$From 2000Ke08, except as noted                                    
+#G E(A)$From 1970Me20                                                     
+#G RI(B)$From 1970Me20, normalized to IG=100 of 614G                      
+#G (IG=0.21 3 in 1970Me20)                                                
+#G E(D)$ In 2000Ke08, the line is strongly contaminated by decays of      
+#G other Ge isotopes.                                                     
+#L J$From Adopted Levels                                                  
+#P 159.70    10 1/2-             53.7 S    6              2702.5    18    
+GE77 AS77 beta- 2.7025 53.7 0.81
++B beta- 1.21175 0.58
++B beta- 1.11939 0.0026
++B beta- 1.1095599999999999 0.22
++B beta- 0.9736699999999999 4.3E-4
++B beta- 0.92188 0.00111
++B beta- 0.47058 0.0037
++B beta- 0.43922000000000005 0.0023
+

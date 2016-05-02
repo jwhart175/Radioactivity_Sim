@@ -1,0 +1,28 @@
+# 68CO    68FE B- DECAY                 2012LI02                  12NDS    201206
+#  68FE B- DECAY                 2012LI02                  12NDS    201206
+#H TYP=FUL$AUT=E.A. McCutchan$CIT=NDS 113, 1735 (2012)$CUT=1-Mar-2012$    
+#  {+68}Fe activity produced in the fragmentation of a {+86}Kr beam on a  
+#  {+9}Be target with E({+86}Kr)=130 MeV/nucleon. Fragments were          
+#  separated in the A1900 at NSCL and identified based on energy loss     
+#  and time of flight. Measured E|b, |b(t) using double-sided silicon     
+#  strip detector and E|g, I|g using the SeGA array consisting of 16      
+#  HPGe detectors.                                                        
+#  Other: 1999So20                                                        
+#L E$From a least-squares fit to E|g, by evaluator                        
+#B LOGFT$Calculated assuming x=0                                          
+#B IB$From absolute |g-ray intensities and total measured |b decays.      
+#P 0.0          0+                188 MS    4              8.78E+3  71    
++B beta- 4.1 0.31
++B beta- 4.08 0.32
++B beta- 4.0 0.01
++B beta- 3.91 0.04
++B beta- 3.89 0.015
++B beta- 3.82 0.03
++B beta- 3.76 0.02
++B beta- 3.62 0.11
++B beta- 3.6 0.1
++B beta- 3.48 0.04
++B beta- 3.41 0.004
++B beta- 3.32 0.013999999999999999
++B beta- 3.21 0.018000000000000002
+

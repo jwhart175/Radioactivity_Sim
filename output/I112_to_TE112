@@ -1,0 +1,18 @@
+#112TE    112I EC DECAY                 1977KI11                  15NDS    201412
+#  112I EC DECAY                 1977KI11                  15NDS    201412
+#H TYP=FUL$AUT=S. LALKOVSKI, F.G. KONDEV$CIT=NDS 124, 157 (2015)$         
+#H CUT=1-Aug-2014$                                                        
+#  1977KI11: Facility: GSI; Source: mass-separated 112I from              
+#  58NI(58NI,AP) and 58NI(63CU, 2AN); Beam: E(58NI)=290 MEV; Targets:     
+#  3 mg/cm{+2} 58NI and 63CU; Detectors: GSI Fragment separator, mylar    
+#  tape, one plastic scintillator, one Ge(Li), one X-ray detector, one    
+#  telescope; measured: |b, |g, X-rays, EG, T                             
+#L E$From a least-squares fit to EG                                       
+#L J$From the adopted levels                                              
+#G E$From 1977KI11                                                        
+#                                                                         
+#  The decay scheme is incomplete (Q+_=10504 13 KEV)                      
+#N                       1.0     AP                                       
+#P 0.0          (1+)             3.34 S     8             10504     13    
+I112 TE112 beta+ 10.504 3.34 1.0
+

@@ -1,0 +1,54 @@
+# 88SR    88RB B- DECAY                 2002MI07,1976BU05         14NDS    201401
+#  88RB B- DECAY                 2002MI07,1976BU05         14NDS    201401
+#H TYP=FUL$AUT=E.A. McCutchan and A.A. Sonzogni$CIT=NDS 115, 135 (2014)$  
+#H CUT=1-Nov-2013$                                                        
+#  2002Mi07: {+88}Rb activity from neutron capture on {+87}Rb. Measured   
+#  E|g, I|g, and |b-|g coincidence using 4|p|b counter and a single HPGe  
+#  detector.                                                              
+#  1976Bu05: {+88}Rb activity from {+235}U(n,F) and subsequent            
+#  mass-separation and gas-chromatographic-isolation.  Measured E|g,      
+#  I|g, and |g|g using two coaxial Ge(Li) detectors (FWHM=2.5 keV), a     
+#  Compton-suppressed Ge(Li) detector, and a planar Ge(Li) low-energy     
+#  photon spectrometer.                                                   
+#  1979He01:  Precision measurements of E|g by applying cascade           
+#  cross-over relations using Ge(Li) detector.                            
+#  1976Wo05: {+88}Rb activity from mass separated fission products.       
+#  Measured absolute I|b and I|g using Ge(Li) detector and plastic        
+#  scintillator.                                                          
+#  Others: 2003Su38, 1974Er08, 1972Ra13, 1971Pr01, 1970Ka28, 1969He16,    
+#  1969Ly01, 1969Ra05. 1976Bu05 showed that additional |g's observed by   
+#  1974Er08 and 1972Ra13 are not due to {+88}Rb.                          
+#  |b spectrum: 1969Ly01, 1969Ra05, 1955Th01, 1951Bu02.                   
+#  |b|g directional correlation and |b|g(CP)- correlation: 1968He06.      
+#  Theoretical investigations of {+88}Rb |b{+-} decay: 1978Sz01,          
+#  1971Ve05, 1970Be55, 1968He06.                                          
+#G E$From 1976Bu05, except where noted.                                   
+#G RI$From 2002Mi07, except where noted.                                  
+#G M$From |g|g(|q), except where noted. Parity from adopted |D|p.         
+#G MR$From |g|g(|q) in 1970Ka28, except where noted.                      
+#G E(A)$From 1979He01.                                                    
+#G E(B)$Not observed in |b{+-} decay but |g is known from other           
+#G experiments. E from adopted gammas.                                    
+#G RI(B)$Deduced from adopted branching ratio.                            
+#G RI(Y)$From 1976Bu05                                                    
+#G M(a),MR(b)$From the Adopted Gammas.                                    
+#L E$From a least-squares fit to E|g by evaluators                        
+#L J$From the Adopted Levels.                                             
+#B IB$From an intensity balance at each level                             
+#  CC$ FROM BrIcc v2.2b (20-Jan-2009) 2008Ki07, "Frozen Orbitals" appr.   
+#P 0.0          2-                17.773 M  11             5312.4   11    
++B beta- 2.3711599999999997 0.7651
++B beta- 1.49521 0.0493
++B beta- 1.06933 0.1359
++B beta- 0.84327 0.01038
++B beta- 0.72004 1.6E-4
++B beta- 0.70316 3.0E-5
++B beta- 0.6527000000000001 5.0E-5
++B beta- 0.47428 1.37E-4
++B beta- 0.39296 3.0E-4
++B beta- 0.31338 0.00254
++B beta- 0.27258 0.02319
++B beta- 0.18331999999999998 0.00178
++B beta- 0.14525 0.0040100000000000005
++B beta- 0.14259 0.00726
+

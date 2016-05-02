@@ -1,0 +1,64 @@
+# 86ZR    86NB EC DECAY (88 S)          1985WA10                  15NDS    201412
+#  86NB EC DECAY (88 S)          1985WA10                  15NDS    201412
+#H TYP=FUL$AUT=ALEXANDRU NEGRET, BALRAJ SINGH$CIT=NDS 124, 1 (2015)$      
+#H CUT=30-Nov-2014$                                                       
+#  The activities studied by 1985WA10 and 1994SH07 may be composed        
+#  of at least two isomers of 86NB: one of the isomers is the known       
+#  88-s activity (JPI=(6+)), the other may be a low-spin isomer           
+#  which may feed low-spin states in 86ZR. Since the 56-s isomer has      
+#  not been confirmed in more recent studies of 1997TA10 (2000DOZV)       
+#  and 2005Ka39, evaluators assume that the main activity is from         
+#  88-s, (6+) {+86}Nb decay, although, contribution from a possible       
+#  isomer in {+86}Nb is possible                                          
+#  1985Wa10: Source produced by {+58}Ni({+32}S,3pn|g).                    
+#  Measured E|g, I|g, (x ray)|g(t)), |g|g(t), |b|g(t).                    
+#  1994Sh07 report another {+86}Nb |e decay (56.3 s). Source produced by  
+#  {+54}Fe({+35}Cl,2pn|g), E=103 MeV; (x ray)|g coin gated on the 752, 914
+#  and 1003 keV |g rays and decay curve.                                  
+#  Others: 1977Ko05, 1982De43, 1974Vo03.                                  
+#  Comments from 2000DOZV indicate studies of 86NB decay to 86ZR are in   
+#  progress. Some preliminary conclusions are listed in this note.        
+#  Among which the author suggests observing 50 additional transitions    
+#  in this decay, some of these populate high spin states such as         
+#  3272, 6-; 3424 and 3647, both 7-; 3298 and 3533, both 8+. Although     
+#  details of this study are not available, it would seem, however,       
+#  that the level scheme is much more complex than that proposed by       
+#  1985WA10. For this reason, %EC+%B+ feedings and associated LOGFT       
+#  values (as given by 1985WA10) were not reproduced here. In addition    
+#  there is still a large gap between the Q-value and the top             
+#  excitation energy known from the study of 1985WA10. Contribution       
+#  from possible different isomers of 86NB (although only one is          
+#  firmly established so far, but at least one other low-spin             
+#  isomer is also expected) would further complicate the issue.           
+#  The decay scheme is incomplete since many transitions remain unobserved
+#  or unreported. No normalization can be meaningfully done.              
+#G RI(A)$Contamination intensity subtracted.                              
+#G E(X)$Questionable |g is omitted in Adopted dataset                     
+#L E$From least-squares fit to EG values                                  
+#L J$From Adopted Levels                                                  
+#P  0          (6+)              88 S      1              8836       7    
++G gamma 0.75174 1.0
++G gamma 0.67001 0.152
++G gamma 1.4216600000000001 0.023
++G gamma 0.9148099999999999 0.799
++G gamma 0.37533999999999995 0.006
++G gamma 0.62011 0.078
++G gamma 1.2903 0.021
++G gamma 0.30184 0.006999999999999999
++G gamma 0.6772 0.025
++G gamma 0.92196 0.062
++G gamma 1.59198 0.006999999999999999
++G gamma 1.00324 0.382
++G gamma 1.0394 0.065
++G gamma 0.31125 0.013999999999999999
++G gamma 0.9875700000000001 0.052000000000000005
++G gamma 0.35972000000000004 0.017
++G gamma 1.3631300000000002 0.09300000000000001
++G gamma 0.22463999999999998 0.005
++G gamma 0.5845199999999999 0.1
++G gamma 1.58775 0.09
++G gamma 0.16334 0.003
++G gamma 0.38813 0.055
++G gamma 0.74776 0.066
++G gamma 1.7511400000000001 0.042
+

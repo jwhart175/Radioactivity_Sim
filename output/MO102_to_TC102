@@ -1,0 +1,27 @@
+#102TC    102MO B- DECAY                1980DE06                  09NDS    200908
+#  102MO B- DECAY                1980DE06                  09NDS    200908
+#H TYP=FUL$AUT=D. DE FRENNE$CIT=NDS 110, 1745 (2009)$CUT=31-Dec-2008$     
+#  Assignment: chemical and mass separation of fission                    
+#  fragments from {+235}U(n,F) and U(|g,F).                               
+#  Measured: T{-1/2}, E|g, I|g, |g|g-coin.                                
+#  Other: 1976Ki11                                                        
+#B IB        The intensities of the |b-branches were calculated from      
+#B I(|g+ce)-imbalances at each level, with M1 internal conversion         
+#B taken into account. M1 was chosen  for nuclear structure reasons and   
+#B and also looking to intensity balances. However as the multipolarities 
+#B have not been measured experimentally no absolute intensities are given
+#G M         The assumption of M1 multipolarity for all |g-rays           
+#G is extensively discussed by 1980De06                                   
+#G E(A)      The sequence of these |g-rays may be reversed.               
+#L J         From adopted levels                                          
+#P 0           0+                11.3 M    2              1008      22    
+MO102 TC102 beta- 1.008 678.0 0.038
++G gamma 0.21166 1.0
++G gamma 0.22383 0.38
++G gamma 0.04285 0.006500000000000001
++G gamma 0.2666 0.022000000000000002
++G gamma 0.09323999999999999 0.027000000000000003
++G gamma 0.13602 0.061
++G gamma 0.14819 0.99
++G gamma 0.3599 0.07
+

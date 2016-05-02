@@ -1,0 +1,28 @@
+#156PM    156ND B- DECAY                2007SH05,1989OKZX         12NDS    201210
+#  156ND B- DECAY                2007SH05,1989OKZX         12NDS    201210
+#H TYP=FUL$AUT=C. W. REICH$CIT=NDS 113, 2537 (2012)$CUT=1-Mar-2012$       
+#  DATA SET UPDATED (JULY, 2011) BY CW REICH TO INCLUDE NEW Q VALUE AND   
+#   THE RESULTS FROM THE STUDY BY 2007SH05.                               
+#  Unless otherwise noted, all the data are from 2007Sh05.                
+#  2007Sh05: 156ND produced by thermal-neutron induced fission of 235U,   
+#   followed by on-line isotope separation. |g's detected using a HPGe    
+#   detector and a short coaxial detector. Conversion electrons detected  
+#   using a cooled Si(Li) detector. Measured EG, RI, |b|g coin,           
+#   |b(ce) coin, |g|g coin and (ce)|g coin. Report three excited states   
+#   in addition to an isomeric state in 156PM and T values for the g.s.   
+#   and the isomer.                                                       
+#  2004SuZY: same authors as 2007Sh05. Contains information regarding     
+#   the isomer at 150.3 keV, which subsequently appeared in 2007Sh05.     
+#  1987Gr12: 156ND produced by spontaneous fission of 252CF, followed by  
+#   isotope separation. |g's measured with Ge detectors. Two |g's (84     
+#   and 150) reported, but with no RI values.                             
+#  1989OkZX: Summary in a laboratory progress report. Thermal-neutron     
+#   induced fission of 235U, followed by isotope separation.              
+#G E(Q)      G also reported by 1989OkZX.                                 
+#G RI        Where 1989OkZX report the same |g's as 2007Sh05, the RI      
+#G  values are generally quite different.                                 
+#G RI        I(K|a| x ray)=1100 {I160}, I(K|b| x ray)=270 {I40}, relative 
+#G  to I{-|g}=100 for the 150.3|g (1989OkZX).                             
+#P    0         0+                 5.26 S  20             3.69E+3   20    
+ND156 PM156 beta- 3.69 0.0 1.0
+

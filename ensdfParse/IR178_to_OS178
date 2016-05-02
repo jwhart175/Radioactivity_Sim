@@ -1,0 +1,27 @@
+#178OS    178IR EC DECAY                1994KI01                  09NDS    200907
+#  178IR EC DECAY                1994KI01                  09NDS    200907
+#H TYP=FUL$AUT=E. Achterberg, O.A. Capurro, G.V. Marti$                   
+#H CIT=NDS 110, 1473 (2009)$CUT=31-May-2008$                              
+#                                                                         
+#  {+178}Ir activity produced by {+164}Er({+19}^F,5n), E=110 MeV. Measured
+#  E|g, I|g, |g|g coin, |g|g(|q), G-ce coin, Ice. Detectors: ^CAESAR      
+#  array of six Compton-suppressed HPGe detectors.                        
+#  Superconducting solenoid electron spectrometer. Determined angular     
+#  correlation and conversion coefficients. Deduced |g-ray                
+#  multipolarities and level spins and parities.                          
+#G           No absolute intensity normalization is provided because the  
+#G |e decay to the g.s. is unknown, and because the 1994Ki01 authors      
+#G restricted their study to |g-ray data relevant to the g.s., quasi-|b,  
+#G quasi-|g, and odd-parity octupole states. Their experimental           
+#G |? 2 MeV |g-ray energy cutoff could miss a significant fraction of     
+#G the |e decay intensity.                                                
+#G M(F)      Multipolarity assumed by the evaluators based on the J|p     
+#G values of the initial and final levels.                                
+#G E         Uncertainties estimated by evaluators, based on the average  
+#G fit of |g ray cascades to the respective cross-over transitions.       
+#L BAND(A)   K|p=0+ GS (yrast) rotational band                            
+#L BAND(B)   K|p=0+ Quasi-|b band                                         
+#L BAND(D)   K|p=2+ Quasi-|g band                                         
+#P 0.0                            12 S     2              7294      26    
+IR178 OS178 beta+ 7.294 0.0 1.0
+

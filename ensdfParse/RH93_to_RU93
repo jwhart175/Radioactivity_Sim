@@ -1,0 +1,47 @@
+# 93RU    93RH EC DECAY                 2004DE40                  11NDS    201105
+#  93RH EC DECAY                 2004DE40                  11NDS    201105
+#H TYP=FUL$AUT=CORAL M. BAGLIN$CIT=NDS 112, 1163 (2011)$CUT=15-Dec-2010$  
+#  2004DE40: 93RH source from 58NI(40AR{+11+},P4N), E=171 MEV AT TARGET   
+#  FACE (AFTER DEGRADATION OF 250 MEV BEAM USING Ta foils); 99.93% 58NI   
+#  TARGET; RECOILS WERE stopped and neutralized in 500 mbar of purified Ar
+#  GAS BEFORE BEING ionized selectively (according to Z) using two dye    
+#  lasers tuned to the resonant atomic transitions of Rh TO ENHANCE       
+#  ionization, and thus extraction; laser-ionized nuclei guided           
+#  towards the ^LISOL mass separator by a sextupole ion guide, THEN       
+#  IMPLANTED ONTO MOVABLE TAPE; |b-SENSITIVE PLASTIC DE DETECTORS; 2 HPGe 
+#  DETECTORS; measured EG, IG, GG COIN, |b|g coin, IB, isotope ^T{-1/2}   
+#  No evidence (NEITHER THE ^IT NOR ANY |b-delayed |g EVENTS) was found   
+#  by 2004De40 for the presence of the known (1976DE37) ^T{-1/2}=10.8 S,  
+#  1/2- isomer IN 93RU.                                                   
+#E TI         ABSOLUTE INTENSITY DETERMINED BY 2004DE40 FROM I(G+-) AFTER 
+#E CORRECTION FOR CONTRIBUTION FROM DECAY OF THE 93RU ISOBAR.  All I(G+-) 
+#E not associated with G events visible in the |g-ray spectra were        
+#E attributed to the GS branch.  Consequently, this branch may be         
+#E overestimated because it will incorporate branching to states          
+#E whose deexciting G-RAYS are too weak or too energetic (>4 MEV) to      
+#E have been detected in this experiment.  Also, the existence of such    
+#E transitions may result in an under-estimation of branching to          
+#E some excited states.                                                   
+#E LOGFT     Values should probably be regarded as lower limits because   
+#E the large Q value                                                      
+#E suggests the possibility of significant unobserved feeding to highly   
+#E excited states which subsequently decay to low-lying levels. Weakly    
+#E populated states and branching to states producing |g-rays outside the 
+#E 4 MEV |g-energy range may be wrongly attributed to ground-state decay. 
+#E A further consequence may be that apparently-forbidden |b decays may   
+#E result from G transitions from higher-lying levels fed by allowed EC   
+#E transitions.                                                           
+#G M         FROM Adopted Gammas.                                         
+#L           2004DE40 conclude that many of the low-lying 93RU states     
+#L populated in 93RH EC decay can be understood as belonging to           
+#L |p(p{-1/2},g{-9/2}){+-6} |ng{-9/2}{+-1} configurations.                
+#L E         From least-squares fit to EG.                                
+#L J         FROM Adopted Levels.                                         
+#P 0.0          (9/2+)            11.9 S   7              8203.0     6    
++B beta+ 8.626E-4 0.00111
++B beta+ 3.3707 8.0E-5
++B beta+ 2.7084 0.3
++B beta+ 2.692 0.31
++B beta+ 2.5773 0.3
++B beta+ 2.4745999999999997 0.33
+

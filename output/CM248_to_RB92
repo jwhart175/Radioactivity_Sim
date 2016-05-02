@@ -1,0 +1,25 @@
+# 92RB    248CM SF DECAY                2012UR01                  12NDS    201210
+#  248CM SF DECAY                2012UR01                  12NDS    201210
+#H TYP=FUL$AUT=CORAL M. BAGLIN$CIT=NDS 113, 2187 (2012)$CUT=15-Sep-2012$  
+#  Dataset includes prompt G rays from 252CF SF decay and delayed G       
+#  rays from 235U(N,G) E=thermal.                                         
+#  248CM SF decay: ^EUROGAM2 array of anti-Compton spectrometers with four
+#  ^LEPS detectors attached; triple-coincidences using 900 NS window and  
+#  high-fold coincidences using 300 NS window; measured EG,               
+#  IG, GG COIN, GG(|q).                                                   
+#  252CF SF decay: Gammasphere detector array; measured GGG coin data     
+#  (900 NS time window) and GG(t); searched for isomers and measured      
+#  half-lives.                                                            
+#  Compared observed level structure with large-scale shell               
+#  model calculations and with known structure of 94RB.                   
+#G E,RI      From 248CM SF decay.                                         
+#L E         From least-squares fit to EG data.                           
+#L J         Authors' suggested values.                                   
+#L T         Measured in 252CF SF decay using Gammasphere array (2012Ur01)
+#L J(A)      Interpreted (2012UR01) as |p-|n configuration involving      
+#L high-j (|n 1h{-11/2}) and (|p 1g{-9/2}) orbitals.                      
+#P  0            0+              3.48E+5 Y 6                              
+CM248 RB92 SF 0.0 1.09818042624E13 1.0
++G gamma 0.1422 1.45
++G gamma 0.142 1.45
+

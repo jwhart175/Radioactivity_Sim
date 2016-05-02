@@ -1,0 +1,99 @@
+#181PT    185HG A DECAY (49.1 S)        1976GRZC                  05NDS    200601
+#  185HG A DECAY (49.1 S)        1976GRZC                  05NDS    200601
+#H TYP=FUL$AUT=S. -C. WU$CIT=NDS 106, 367 (2005)$CUT=31-Aug-2005$         
+#  1976GrZC: Source prepared in ISOLDE II at CERN; Ge detector            
+#  for X-ray and |g's; surface barrier detector for |a's;                 
+#  measured E|a, I|a, |a|g-coin.                                          
+#  Others: 1953Ra02, 1963Ka17, 1968De01, 1970Ha18, 1978Ha30, 1970Ma24,    
+#  1977Ij01, 1979Ha10, 1980ToZZ, 2002An15.                                
+#  The level scheme has been analyzed by evaluator on the basis           
+#  of the systematics of the 1/2[521] rotational band, and on reported    
+#  coincidence data.                                                      
+#L E         Based on E|g.                                                
+#L J         From adopted levels.                                         
+#G E         From 1976GrZC; uncertainty unstated by authors, but E|g      
+#G values match rounded-off values from the Adopted Gammas data set.      
+#G M         From adopted gammas.                                         
+#A IA        Deduced by evaluator from I|a(g.s.)/I|a(94)=24 {I2}          
+#A (1970Ha18). Other data: 25 (1976GrZC); I|a(g.s.):I|a(94)=96 {I1}:4     
+#A {I1} (1980ToZZ). |DI|a=0.3 was calculated by evaluator using the       
+#A error-propagation method of 1988Br07 and the constraint that           
+#A I|a(g.s.)+I|a(94)=100                                                  
+#A HF        If r{-0}=1.508 (based on r{-0}({+180}Pt) and r{-0}({+182}Pt) 
+#A from 1998Ak04).                                                        
+#L E(A)      The expected energy pattern for the 1/2[521] rotational band 
+#L is for the 3/2- and 5/2- members to lie close together, significantly  
+#L above the 1/2- bandhead, decoupling parameter a=+0.79;                 
+#L thus, the 15-keV 3/2- level option proposed by 1976GrZC seems unlikely.
+#N                        0.06    1                                       
+#N BR        0.055 {I7} (1970Ha18) from absolute |a, K x ray, and         
+#N |g{+|+} counting. No correction for internal conversion electrons      
+#N was made, which may have increased this value. However, an upper       
+#N limit of 0.07 can be set by requiring HF|>1 for the 5653|a.            
+#N Branching was not corrected for a possible contribution to the K x-ray 
+#N intensity due to 46% |e decay from {+185}Hg(21 s) reported by 1982Bo27.
+#N The evaluator adopts %|a=6 {I1}.                                       
+#P 0.0          1/2-             49.1 S    10             5774      5     
++A alpha 5.653 0.96
++A alpha 5.569 0.04
+
+#181PT    185HG A DECAY (21.6 S)        1976GRZC                  05NDS    200601
+#  185HG A DECAY (21.6 S)        1976GRZC                  05NDS    200601
+#H TYP=FUL$AUT=S. -C. WU$CIT=NDS 106, 367 (2005)$CUT=31-Aug-2005$         
+#  1976GrZC: Source prepared in ISOLDE II at CERN; Ge detector            
+#  for X-ray and |g's; surface barrier detector for |a's;                 
+#  measured E|a, I|a, |a|g-coin.                                          
+#  Others: 1970Ha18, 1980ToZZ                                             
+#  The parent level excitation energy is from {+185}Hg adopted levels.    
+#L E         From measured E|a, assuming Q(|a)=5774 {I5} and              
+#L E({+185}Hg,13/2+)=99.3 {I5}, unless noted otherwise.                   
+#L J         From adopted levels.                                         
+#A E,IA      From 1980ToZZ, except as noted.                              
+#A HF        If r{-0}=1.508 (based on r{-0}({+180}Pt) and r{-0}({+182}Pt) 
+#A from 1998Ak04), and if I(5430|a) is negligibly small.                  
+#G E         From 1976GrZC; uncertainty unstated by authors, but data     
+#G agree within 1.6 keV with values in adopted gammas.                    
+#G M,MR      From adopted gammas.                                         
+#G E(A)      E|g is a little high for this placement (E|g=159.4 {I1}      
+#G expected). However, there is no evidence of an |a feeding the 542,     
+#G (15/2+) level so there is no reason to suppose that the observed 161|g 
+#G includes any contribution from the known 160.8|g which connects that   
+#G level to the observed 381, (13/2+) level.                              
+#N                        0.0003 AP                                       
+#N BR$from experimental %5372|a:%|e+%|b{++}:%IT=0.006:14:14 (1976GrZC)    
+#N and I(5372|a)|?0.8 I|a(total) (1980ToZZ);                              
+#N branching|?1/(0.006*0.8+14+14)=0.00027.                                
+#P 99.3       5   13/2+             21.6 S 15             5774      5     
++A alpha 5.408 0.2
++A alpha 5.372 0.8
+
+#181PT    185HG A DECAY (21.6 S)        1976GRZC                  05NDS    200601
+#  185HG A DECAY (21.6 S)        1976GRZC                  05NDS    200601
+#H TYP=FUL$AUT=S. -C. WU$CIT=NDS 106, 367 (2005)$CUT=31-Aug-2005$         
+#  1976GrZC: Source prepared in ISOLDE II at CERN; Ge detector            
+#  for X-ray and |g's; surface barrier detector for |a's;                 
+#  measured E|a, I|a, |a|g-coin.                                          
+#  Others: 1970Ha18, 1980ToZZ                                             
+#  The parent level excitation energy is from {+185}Hg adopted levels.    
+#L E         From measured E|a, assuming Q(|a)=5774 {I5} and              
+#L E({+185}Hg,13/2+)=99.3 {I5}, unless noted otherwise.                   
+#L J         From adopted levels.                                         
+#A E,IA      From 1980ToZZ, except as noted.                              
+#A HF        If r{-0}=1.508 (based on r{-0}({+180}Pt) and r{-0}({+182}Pt) 
+#A from 1998Ak04), and if I(5430|a) is negligibly small.                  
+#G E         From 1976GrZC; uncertainty unstated by authors, but data     
+#G agree within 1.6 keV with values in adopted gammas.                    
+#G M,MR      From adopted gammas.                                         
+#G E(A)      E|g is a little high for this placement (E|g=159.4 {I1}      
+#G expected). However, there is no evidence of an |a feeding the 542,     
+#G (15/2+) level so there is no reason to suppose that the observed 161|g 
+#G includes any contribution from the known 160.8|g which connects that   
+#G level to the observed 381, (13/2+) level.                              
+#N                        0.0003 AP                                       
+#N BR$from experimental %5372|a:%|e+%|b{++}:%IT=0.006:14:14 (1976GrZC)    
+#N and I(5372|a)|?0.8 I|a(total) (1980ToZZ);                              
+#N branching|?1/(0.006*0.8+14+14)=0.00027.                                
+#P 99.3       5   13/2+             21.6 S 15             5774      5     
++A alpha 5.408 0.2
++A alpha 5.372 0.8
+

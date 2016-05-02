@@ -1,0 +1,72 @@
+# 44SC    44TI EC DECAY (59.1 Y)        1991We08,1990Sc08,1988Al2711NDS    201109
+#  44TI EC DECAY (59.1 Y)        1991We08,1990Sc08,1988Al2711NDS    201109
+#H TYP=FUL$AUT=JUN CHEN, BALRAJ SINGH AND JOHN A. CAMERON$                
+#H CIT=NDS 112, 2357 (2011)$CUT=31-Jul-2011$                              
+#  Evaluated by E. Browne (LBNL), October 1998. Some revisions were done  
+#  by the present evaluators                                              
+#  This decay-data evaluation was done under the collaboration which      
+#  includes evaluators at:                                                
+#  Laboratoire Primaire des Rayonnments Ionisants (LPRI) in France;       
+#  Physikalisch-Technische Bundesanstalt (PTB) in Germany;                
+#  Royal Naval College in the United Kingdom;                             
+#  V.G. Kholopin Radium Institute (KRI) in Russia; and                    
+#  Brookhaven National Laboratory (BNL),                                  
+#  Lawrence Berkeley National Laboratory (LBNL) and                       
+#  Idaho National Engineering and Environmental Laboratory (INEEL)        
+#  in the United States.                                                  
+#  This evaluation was reviewed and                                       
+#  accepted by evaluators in the collaboration described above.           
+#  The evaluator applied the Limitation of Relative Statistical Weights   
+#  (LWM) method (1988WoZO) for averaging numbers throughout this          
+#  evaluation. To avoid overestimating precision because of possible data 
+#  correlation, the uncertainty assigned to the average was always equal  
+#  or greater than the smallest uncertainty of the values used to         
+#  calculate the average.                                                 
+#  1991We08: Experiment performed at the Brookhaven National Laboratory.  
+#  A LEPS-type Ge detector for detecting |g-rays. Measured E|g, I|g.      
+#  Deduced high precision transition energies.                            
+#  1990Sc08: Measured |g-emission rate. Deduced photo emission            
+#  probabilities. Ge(Li) detectors                                        
+#  1988Al27: {+44}Ti activity produced by the {+45}Sc(p,2n) reaction at   
+#  the Brookhaven National Laboratory. Measured E|g, I|g, |g|g-coin.      
+#  Deduced levels, branchings, T{-1/2} using delayed coincidence method.  
+#  LEPS detector and Ge(Li) detectors.                                    
+#  1967Ri06: Measurement performed at the Brookhaven National Laboratory. 
+#  Measured E|g, I|g, |g|g-correlation, X|g-coin. Deduced levels,         
+#  |g-branchings, internal conversion coefficients, T{-1/2} using delayed 
+#  coincidence method.                                                    
+#  1963Kl06: {+44}Ti activity produced by the {+45}Sc(d,3n) reaction.     
+#  Measurement performed at the University of Colorado. Measured E|g,     
+#  I|g, |g|g-coin. Deduced levels, |g-branchings, conversion coefficients,
+#  T{-1/2} using delayed coincidence method.                              
+#  2007Dr05: Measured E|g, I|g, |g|g-coin. Deduced conversion             
+#  coefficients and penetration parameter.                                
+#  Others:                                                                
+#  T{-1/2} of {+44}Ti: 2006Ah10, 2001Ha21, 2000Go15, 1999Wi01, 1998Ah03,  
+#  1998Go05, 1998No06, 1997No06, 1996Me22, 1990Al11, 1983Fr27, 1965Mo07,  
+#  1965Wi05                                                               
+#  T{-1/2} and isotopic assignment: 1954Sh30, 1957Hu90, 1959Cy90.         
+#  |g: 1973Gr28, 1959Cy90, 1957Hu90                                       
+#  |g|g(|q): 1968Gl02, 1962Th12                                           
+#  |g|g(t): 1975Gu24                                                      
+#  |g|g(|q,t): 1971Ha38, 1973Ha61, 1974Co20, 1974Re12, 1974Si09           
+#  Preparation of {+44}Ti radioactive target: 1999La11                    
+#  The total average radiation energy of 268 keV 3 (which includes        
+#  all the radiations emitted by {+44}Ti), calculated with the computer   
+#  program RADLST, agrees very well with Q(|e)=267.8 keV {I19} (2011AuZZ) 
+#  and confirms the quality and completeness of the {+44}Ti decay scheme. 
+#E $Subshell ratios are theoretical values from 1998Sc28.                 
+#E $The logft systematic trend of second-forbidden transitions            
+#E suggests logft >10.6 (1998Si17) for the 0+ to 2+ |e transition to      
+#E {+44}Sc ground state. This limit corresponds to I|e<0.04%.             
+#G E$ From 1991We08, relative to 53.1604 keV 10, 79.6139 keV 26,          
+#G and 80.9971 keV 14 for the g-ray energies of {+133}Ba, unless otherwise
+#G specified.                                                             
+#G CC$Interpolated theoretical values from 1976Ba63.                      
+#L E$ From least-squares fit to E|g data                                  
+#L J$ From Adopted Levels                                                 
+#P 0            0+               59.1 Y    3              267.8     19    
+TI44 SC44 beta+ 0.26780000000000004 1.8650133100800002E9 1.0
++B beta+ 0.0 0.05
++B beta+ 8.91E-4 9.309E-4
+

@@ -1,0 +1,44 @@
+# 95SR    96RB B-N DECAY                1985GR15,1982KR11         10NDS    201010
+#  96RB B-N DECAY                1985GR15,1982KR11         10NDS    201010
+#H TYP=FUL$AUT=S. K. Basu, G. Mukherjee, A. A. Sonzogni$                  
+#H CIT=NDS 111, 2555 (2010)$CUT=30-Jun-2009$                              
+#  1980ReZQ, 1977Re05 measured |b{+-}'s and |b(t) and neutrons; electron  
+#  multiplier, moderated {+3}He                                           
+#  1979Ri09 measured |b{+-}'s and n's and n(t); |b{+-}n detector (scin,   
+#  BF{-3})                                                                
+#  1981En05 measured |b{+-}'s (Si) and n's and n(t) (BF{-3})              
+#  1981Ho07 measured |g's (Ge(Li)) and neutrons (moderated {+3}He)        
+#  1982Kr11 measured |g's and |g|g-coin and |b|g-coin (Ge(Li)) and        
+#  n|g-coin ({+3}He,Ge(Li))                                               
+#  1985Gr15 measured neutrons; gas-filled pc's                            
+#  All data are from 1982Kr11; results from 1981Ho07 are consistent       
+#  except as noted. Others: 1989GoZY, 1986GoZV, and 1986ClZW.   See also  
+#  1989BRZI                                                               
+#G E,RI$From 1982Kr11                                                     
+#G RI(A)$I|g(329|g)=4.4, I|g(565|g)=1.8, I|g(681|g)=8.2, and              
+#G I|g(769|g)=5.1 (1981Ho07) are discrepant                               
+#G E(B)$Not reported by 1981Ho07                                          
+#L E,J,T$From the adopted levels                                          
+#L E(A)$Not reported by 1981Ho07                                          
+#DNE$From 1985Gr15                                                        
+#DN$<E(n)> =435 {I43} (electron multiplier), 417 {I181} (Si), and 432     
+#DN{I32} (revision of 1977Re06) (1981Re12). Other: 445 (1982Kr11)         
+#DN$1981Ho07 apparently observed only 49% {I5} of the delayed neutrons    
+#DNIP(A)$Not reported by 1981Ho07                                         
+#DN                            {U{TV}Relative Neutron Intensities}        
+#DN{U (1985Gr15)}                                                         
+#DN{U   E{-n}    }    {UI{-n}(%)}  |\  {U    E{-n}     }   {UI{-n}(%) }   
+#DN  |\  {U     E{-n}     }  {UI{-n}(%)}                                  
+#DN 8.0-11.6   0.4 {I2}  |\   83.5-106.8   5.7 {I3}                       
+#DN   |\  367.2-470.0   8.5 {I5}                                          
+#DN11.6-19.0   1.3 {I2}  |\  106.8-136.7   6.4 {I4}                       
+#DN   |\  470.0-601.7   7.5 {I4}                                          
+#DN19.0-31.1   2.4 {I3}  |\  136.7-175.6   8.8 {I4}                       
+#DN   |\  601.7-770.2   6.3 {I4}                                          
+#DN31.1-45.0   2.8 {I3}  |\  175.6-224.1   9.8 {I4}                       
+#DN   |\  770.2-985.9   4.2 {I2}                                          
+#DN45.0-65.2   4.6 {I4}  |\  224.1-286.8  11.1 {I5}                       
+#DN   |\  985.9-1262.0  2.8 {I4}                                          
+#DN65.2-83.5   5.0 {I3}  |\  268.8-367.2  12.4 {I7}                       
+#P 0.0          2(-)              203 MS    3              5870     26    
+

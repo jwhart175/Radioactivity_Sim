@@ -1,0 +1,105 @@
+#152DY    152HO EC DECAY (161.8 S)      1989GA11                  13NDS    201311
+#  152HO EC DECAY (161.8 S)      1989GA11                  13NDS    201311
+#H TYP=FUL$AUT=M. J. MARTIN$CIT=NDS 114, 1497 (2013)$CUT=31-Aug-2013$     
+#G CC$ FROM BrIcc v2.3 (9-Dec-2011) 2008Ki07, "Frozen Orbitals" appr.     
+#  1989Ga11: measured |g, ce, |g|g, |gX; Ge detectors for |g,             
+#  mag spect with Si(Li) detector for ce                                  
+#  1982Ba75: measured |g, ce                                              
+#  1979To09: measured |g                                                  
+#E           Since it is probable that the levels shown are fed by        
+#E additional gammas from unobserved higher levels, the I(|e+|b{++})      
+#E calculated from intensity balance are upper limits and the log| {Ift}  
+#E are thus lower limits.                                                 
+#G E$From 1989Ga11                                                        
+#G RI$From 1989Ga11. 1989Ga11 measured I|g, but quoted "total             
+#G transition intensities" in level scheme. The evaluator has deduced     
+#G I|g, based on the multipolarities given in 1989Ga11.                   
+#G M         From 1989Ga11; based on ce data, measurements not given      
+#L           The proposed decay scheme is from 1989Ga11; it disagrees     
+#L with the earlier decay scheme proposed by 1982Ba75. 1989Ga11 suggest   
+#L that this is only a partial decay scheme, that the allowed |e decay    
+#L proceeds through unobserved 4 quasiparticle states above 3.5 MeV       
+#L excitation. log| {Ift} for such a transition would be >4.3.            
+#L           Q(|e)=6.27 {I9} MeV from total |g-absorption spectroscopy    
+#L (1993Al03)                                                             
+#L E$FROM A LEAST-SQUARES FIT TO THE EG DATA. THE AUTHORS GIVE NO         
+#L UNCERTAINTIES SO THE OUTPUT IS BASED ON THE ASSUMPTION THAT THE        
+#L UNCERTAINTIES ARE THE SAME FOR EACH TRANSITION                         
+#L J$From adopted levels                                                  
+#P 0.0         2-                161.8 S   3              6519      14    
++B beta+ 2.2354000000000003 0.32
++B beta+ 1.9473 0.07
++B beta+ 1.9033 0.061
++B beta+ 1.9067 0.1
++B beta+ 1.8439 0.01
++B beta+ 1.8417999999999999 0.055
++B beta+ 1.7275 0.017
++B beta+ 1.6822000000000001 0.024
++B beta+ 1.6612 0.011000000000000001
+
+#152DY    152HO EC DECAY (50.0 S)                                 13NDS    201311
+#  152HO EC DECAY (50.0 S)                                 13NDS    201311
+#H TYP=FUL$AUT=M. J. MARTIN$CIT=NDS 114, 1497 (2013)$CUT=31-Aug-2013$     
+#  1990Sa32: measured |g, |g|g, |gX/|g|g|+; Ge detectors                  
+#  1989Ga11: measured |g, ce, |g|g, |gX; Ge detectors for |g,             
+#  mag spect with Si(Li) detector for ce                                  
+#  1985Sc09: Q value deduced from |g|g and |gX coin measurements          
+#  1982Ba75: measured |g, ce                                              
+#  1979To09: measured t, |g, |g|g, |gX, I|g/I|a; Ge(Li) detectors         
+#  1974Sc19: measured |g                                                  
+#  1974La32, 1974La28: measured E|g, T{-1/2}                              
+#  The decay scheme is that proposed by 1989Ga11 and confirmed            
+#  BY 1990SA32. 1982BA75 REPORT MANY MORE TRANSITIONS AND PROPOSE         
+#  SOME ADDITIONAL LEVELS; HOWEVER, NO COINCIDENCE WORK WAS DONE,         
+#  AND SEVERAL GAMMA PLACEMENTS HAVE BEEN SHOWN BY THE LATER WORKS        
+#  TO be INCORRECT. THESE ARE NOTED                                       
+#E $ON THE BASIS OF JPI, THERE SHOULD be NO MEASURABLE FEEDING TO         
+#E LEVELS BELOW 2437 APART FROM THE 7- 2343 LEVEL, FOR WHICH              
+#E LOGF1UT>8.5 REQUIRES A FEEDING OF <0.3%. FEEDING TO THAT LEVEL OF      
+#E 3.2% 6 AND OF 3.1% 10 TO THE 6+ 2071 LEVEL PROBABLY RESULT FROM        
+#E TRANSITIONS FROM ADDITIONAL UNKNOWN LEVELS AT HIGHER ENERGIES          
+#E TI$FROM AN INTENSITY BALANCE AT EACH LEVEL                             
+#G $THE UNPLACED TRANSITIONS ARE FROM 1982BA75 AND HAVE NOT BEEN          
+#G REPORTED BY OTHER AUTHORS, EITHER IN DECAY OR IN (HI,XNG). SOME        
+#G OF THESE MAY NOT BELONG TO 152HO DECAY. 1989GA11 CONFIRM THE           
+#G ASSIGNMENT OF ONLY 23 OF THE 65 TRANSITIONS REPORTED BY 1982BA75.      
+#G IN CASES WHERE 1983BA75 HAVE PROPOSED PLACEMENTS, THESE ARE            
+#G GIVEN IN COMMENTS                                                      
+#G E$VALUES WITH UNCERTAINTIES ARE WEIGHTED AVERAGES FROM 1990SA32        
+#G AND 1982BA75. VALUES GIVEN WITHOUT UNCERTAINTIES ARE FROM              
+#G 1989GA11. DATA OF THESE AUTHORS AGREE WITH THE WEIGHTED AVERAGES       
+#G WITHIN 0.3 KEV.                                                        
+#G RI$WEIGHTED AVERAGES FROM 1990SA32, 1989GA11, AND 1982BA75             
+#G NORMALIZED TO IG(614G)=100. FOR THE DATA OF 1989GA11, QUOTED           
+#G WITHOUT UNCERTAINTIES, THE EVALUATOR HAS ASSIGNED UNCERTAINTIES        
+#G OF 10% OR 0.2, WHICHEVER IS LARGER                                     
+#G M$BOTH 1989GA11 AND 1982BA75 GIVE MULT ASSIGNMENTS BASED ON EKC,       
+#G BUT NO DATA ARE GIVEN BY 1989GA11, AND 1982BA75 GIVE DATA ONLY         
+#G IN GRAPHICAL FORM. THE MULTS ADOPTED HERE ARE THOSE OF 1989GA11.       
+#G THEY AGREE WITH THOSE OF 1982BA75, EXCEPT AS NOTED                     
+#G E(A)      Weighted average includes also measurements by 1979To09 and  
+#G 1974Sc19.                                                              
+#G E(B),RI(B)$REPORTED ONLY BY 1989GA11. THE EVALUATOR HAS ASSIGNED       
+#G AN UNCERTAINTY OF 0.5 KEV TO THE ENERGIES AS INPUT TO THE              
+#G LEAST-SQUARES ADJUSTMENT FOR THE LEVEL ENERGIES                        
+#G E(F),RI(F)$REPORTED ONLY BY 1982BA75                                   
+#L           Q(|e)=6333 MeV {I100} from total |g-absorption spectroscopy  
+#L (1993Al03). THE VALUE FROM 2012WA38 IS 6519 14                         
+#L E$FROM A LEAST-SQUARES FIT TO THE EG DATA. FOR THE LEAST-SQUARES       
+#L CALCULATION, EG DATA QUOTED TO THE NEAREST TENTH OF A KEV BUT WITH     
+#L NO UNCERTAINTY, ARE ASSIGNED DE=0.5 KEV, AND VALUES QUOTED TO          
+#L THE NEAREST KEV ARE ASSIGNED DE=1 KEV                                  
+#L J         From adopted levels                                          
+#P  160      1   9+                50.0 S  4              6519      14    
++B beta+ 1.4590999999999998 0.05
++B beta+ 1.3368 0.05
++B beta+ 1.326 0.05
++B beta+ 1.2439 0.05
++B beta+ 1.1328 0.04
++B beta+ 1.1222999999999999 0.04
++B beta+ 1.122 0.04
++B beta+ 1.1172 0.04
++B beta+ 1.0974000000000002 0.04
++B beta+ 1.0899 0.04
++B beta+ 0.9582 0.006
+

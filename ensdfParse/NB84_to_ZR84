@@ -1,0 +1,33 @@
+# 84ZR    84NB EC DECAY                 2003DO01                  09NDS    200910
+#  84NB EC DECAY                 2003DO01                  09NDS    200910
+#H TYP=FUL$AUT=T. Kibedi and J. Timar$                                    
+#H CIT=NDS 110,2815 (2009)$CUT=30-Sep-2009$                               
+#  2003Do01: {+58}Ni({+32}S,np|a|g) at 94 MeV, FMA recoil                 
+#  separator. Measured E|g, I|g, |g|g, |b|g  and |b|g|g coin.             
+#  Deduced |e+|b{++} feedings and log {Ift} values.                       
+#  1977Ko05: isotope produced by {+58}Ni({+32}S,np|a|g). Only two         
+#  gamma rays of 540.0 and 722.8 keV reported                             
+#  1996SH27: MEASURED BG COIN, DEDUCED Q(EC)                              
+#  1995ShZX is superseded by 1996Sh27                                     
+#  CC$ FROM BrIcc v2.2b (20-Jan-2009) 2008Ki07, "Frozen Orbitals" appr.   
+#E TI,LOGFT$Since delayed-p emission is possible, and due to a large gap  
+#E of |? 7 MeV between the highest known populated level and Q(|e)        
+#E value, the |e+|b{++} feedings and associated LOGFT values should be    
+#E considered as approximate and only as upper limits for feedings and    
+#E lower limits for LOGFT values.                                         
+#P 0           (1+,2+,3+)        9.8 S     9               10200    SY    
++B beta+ 4.09 0.39
++G gamma 0.54 0.885
++B beta+ 3.81 0.35
++G gamma 0.5794 0.3009
++G gamma 1.1196 0.11505000000000001
++B beta+ 3.74 0.044000000000000004
++G gamma 0.704 0.04425
++B beta+ 3.74 0.059000000000000004
++G gamma 0.723 0.059295
++B beta+ 3.58 0.1
++G gamma 0.4562 0.06726
++G gamma 1.0364 0.05398499999999999
++B beta+ 3.39 0.08199999999999999
++G gamma 1.4267 0.08230500000000002
+

@@ -1,0 +1,45 @@
+#157GD    157TB EC DECAY                1983BE42                  04NDS    200501
+#  157TB EC DECAY                1983BE42                  04NDS    200501
+#H TYP=FUL$AUT=R. G. Helmer$CIT=NDS 103, 565 (2004)$CUT=1-Feb-2004$       
+#  {+157}Tb produced by {+156}Dy(n,|g) and {+157}Dy decay,                
+#       {+156}Gd(|a,3n), and spallation of Ta target with chemical and    
+#       isotope separation.  |g- and x-rays measured with NaI, Si(Li),    
+#       and Ge detectors, and Auger electrons with proportional           
+#       counters.                                                         
+#  Experimental methods:                                                  
+#  1960Na12: Produced by {+156}Dy(n,|g) reaction on enriched (13.8%)      
+#       sample with isotopic and chemical separation.  Deduced T{-1/2}    
+#       from K x-ray emission rate from sample of known mass.             
+#  1962Bh05: Produced by {+156}Dy(n,|g) reaction on enriched (13.8%)      
+#       sample with chemical separation.  |g- and X-rays measured with    
+#       NaI detectors.  L/K capture ratio measured.                       
+#  1963Iw04: Produced by {+156}Gd(|a,3n) reaction on enriched (97.01%)    
+#       sample with chemical separation.  After the decay of the {+157}Dy 
+#       activity, the {+157}Tb was separated.  The X rays were measured   
+#       to determine the decay rate, and thereby the T{-1/2}.             
+#  1964Fu03: {+157}Tb produced as in 1963Iw04.  |g- and X-rays were       
+#       measured with NaI detectors.                                      
+#  1964Gr14: Produced by spallation of Ta with 660-MeV protons.  ce       
+#       measured in magnetic spectrometer.   From relative {+157}Dy and   
+#       {+157}Tb decay rates, T{-1/2} was determined.                     
+#  1967Na08: Produced by {+156}Dy(n,|g) reaction on enriched sample       
+#       with chemistry and isotope separation.  K and L X rays            
+#       measured on NaI detector.                                         
+#  1983Be42: Produced by spallation of Ta target with 600-MeV p followed  
+#       by isotope separation.  T{-1/2} determined from decay rate  and   
+#       known sample mass.  X rays measured with Si(Li) and Ge            
+#       detectors and Auger e- with proportional counter; coincidences    
+#       measured.                                                         
+#  1992Ra18: From measured ratio of L and K x ray intensities, deduce     
+#       Q{-|e}=60.0 keV and there is no L capture to 54 level.            
+#E E         Values computed from Q{-|e}=60.1 {I3} keV from mass          
+#E      evaluation 2003Au03. This value is smaller than earlier values,   
+#E      especially measurements of 62.9 {I7} (1983Be42) and 62.2 {I6}     
+#E      (1985Vo09), and 62.8 {I7} from earlier mass evaluation 1985Wa02.  
+#G TI        From |e branch intensity (1983Be42).                         
+#L J         From {+157}Gd Adopted Levels.                                
+#P    0        3/2+                 71 Y   7              60.1      3     
+TB157 GD157 beta+ 0.0601 0.0 1.0
++B beta+ 1.56E-4 0.00618
++G gamma 0.0545 8.4E-5
+

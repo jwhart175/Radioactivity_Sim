@@ -1,0 +1,26 @@
+#166LU    166HF EC DECAY                1974DE09                  08NDS    200804
+#  166HF EC DECAY                1974DE09                  08NDS    200804
+#H TYP=FUL$AUT=CORAL M. BAGLIN$CIT=NDS 109, 1103 (2008)$CUT=1-Mar-2008$   
+#G           GG coin: (78.8G)(LU X-RAY, 298.8G, 407.9G) semi-semi         
+#G (1974DE09)                                                             
+#G           I(LU K X-RAY)=208 128 if IG(78.76G)=100.                     
+#G E         FROM 1974DE09, EXCEPT AS NOTED.                              
+#G TI,RI     From 1974DE09.                                               
+#L E         FROM LEAST-SQUARES FIT TO EG.                                
+#L J,T       From Adopted Levels                                          
+#P 0.0         0+                6.77 M    30             2160      40    
++B beta+ 0.978 0.00639
++B beta+ 0.504 0.008020000000000001
++B beta+ 0.497 0.00803
++G gamma 0.07876000000000001 0.436
++G gamma 0.09305 0.03488
++B beta+ 0.463 0.008078
++B beta+ 0.373 0.008168
++G gamma 0.3551 0.011335999999999999
++B beta+ 0.347 0.008184
++G gamma 0.29877 0.013951999999999999
++G gamma 0.37760000000000005 0.042728
++B beta+ 0.332 0.008192
++G gamma 0.40791000000000005 0.04796
++G gamma 0.48305000000000003 0.0436
+

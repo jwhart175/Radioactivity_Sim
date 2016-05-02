@@ -1,0 +1,102 @@
+# 48CA    48K B- DECAY                  1981HUZT,1975MU08         06NDS    200607
+#  48K B- DECAY                  1981HUZT,1975MU08         06NDS    200607
+#H TYP=FUL$AUT=T. W. Burrows$CIT=NDS 107, 1747 (2006)$CUT=14-Apr-2006$    
+#  1975MU08 MEASURED G'S, B-'S, BG-COINCIDENCES. ASSIGNMENT OF G'S        
+#  OTHER THAN THE 3832G BASED ON T1/2 AGREEMENT AND THAT THESE G'S        
+#  DO NOT BELONG TO 16N.                                                  
+#  1981HUZT MEASURED G'S, G(T), AND GG(T) (GELI) AND B-'S (SCINT).        
+#  OTHER: SEE 1993BU04.                                                   
+#  ALL INFORMATION FOR THE BOUND STATES IS FROM 1975MU08, EXCEPT AS NOTED,
+#  AND ALL INFORMATION FOR THE UNBOUND STATES (SN=9945 4) IS FROM         
+#  1981HUZT.                                                              
+#B IB(A)     FROM 1981HUZT.                                               
+#B IB(B),LOGFT(D)$IB, LOG FT (TO 7401)=11.62, 5.5;                        
+#B IB, LOGFT (TO 7302)=35.15, 5.1; IB, LOGFT (TO 6895)=9.16, 5.8;         
+#B IB, LOGFT (TO 6685)=5.60, 6.1; IB(TO 6614)=20.38; IB,                  
+#B LOGFT (TO 5370)=0.38, 7.7; IB, LOGFT (TO 4612)=1.15, 7.5;              
+#B AND IB<0.3, LOGFT>8.1 (TO 4507) (1981HUZT) DISCREPANT.                 
+#B LOGFT(E)  LOGF1UT>8.5.                                                 
+#B IB(F)     FROM SINGLES MEASUREMENT (1975MU08).                         
+#G E         DERIVED BY 1985AL14 FROM ENERGY LEVEL DIFFERENCES GIVEN BY   
+#G 1975MU08, EXCEPT AS NOTED.                                             
+#G M,MR,CC,E(L)$FROM THE Adopted Gammas.                                  
+#G RATIOS.                                                                
+#G E(G),RI(H)$FROM ^L.^G. Multhauf (PRIV.COMM. to 1978DE17). PLACEMENT    
+#G FROM 7407 SUGGESTED BY 1981HUZT. IG=123 8 FOR DOUBLET SUITABLY         
+#G DIVIDED ASSUMING IG=42 FROM 7407 (BASED ON NET FEEDING TO 7407 AND     
+#G BRANCHING RATIOS OF 1981HUZT).                                         
+#G E(A),RI(B)$FROM 1981HUZT. NOT REPORTED BY 1975MU08. EG CALCULATED BY   
+#G THE EVALUATOR FROM EXCITATION ENERGIES; IG AND I(G+CE), FROM BRANCHING 
+#G RATIOS OF 1981HUZT AND LEVEL FEEDINGS.                                 
+#G RI(D),TI(E)$FROM THE ADOPTED BRANCHING RATIOS AND NET FEEDING TO LEVEL 
+#G TI(1)     FROM IG(452G) LT 2.5 AND ADOPTED BRANCHING RATIO.            
+#G RI(F)     IG(1316G):IG(2073G):IG(2178G)=80%:15%:5% AND                 
+#G IG(675G)/IG(4507G)=2.70 (1981HUZT) DISCREPANT.                         
+#G RI(2)     FROM IG(755G)=1.8 AND ADOPTED BRANCHING RATIO.               
+#G RI(I)     FROM IG(1538G)=189 11 AND BRANCHING RATIOS OF 1981HUZT.      
+#G RI(J)     FROM IG(7301G)=31 8 AND BRANCHING RATIOS OF 1981HUZT.        
+#G RI(K)     FROM IG(2789G)=207 12 AND BRANCHING RATIOS OF 1981HUZT.      
+#G RI(0)     FROM IG(8390G)=4.9 AND ADOPTED BRANCHING RATIO.              
+#L E         FROM LEAST-SQUARES FIT TO EG'S WHERE DE(LEVEL) IS GIVEN.     
+#L OTHERS FROM 1981HUZT.                                                  
+#L J,T       FROM Adopted Levels, EXCEPT AS NOTED.                        
+#L E(A)      EXISTENCE SUGGESTED BY 1981HUZT.                             
+#L E(D),J(E)$UNRESOLVED DOUBLET CORRESPONDING TO ADOPTED 9292, 1-, AND    
+#L 9295, 2+.                                                              
+#L J(B)      SUGGESTED BY 1981HUZT.                                       
+#L E(F),J(G)$UNRESOLVED DOUBLET CORRESPONDING TO ADOPTED 10065, (4)+, AND 
+#L 10080, (3)-.                                                           
+#P    0.0      (2-)                6.8 S     2            12090     24    
+K48 CA48 beta- 12.09 0.0 1.0
++B beta- 5.762 0.01
++B beta- 3.867 0.062
++B beta- 3.653 0.0015
++G gamma 0.452 0.0019500000000000001
++B beta- 3.545 0.01
++B beta- 3.536 0.022000000000000002
++B beta- 3.484 0.096
++B beta- 3.165 0.0014000000000000002
++G gamma 0.6484 2.34E-4
++G gamma 0.755 0.0014039999999999999
++B beta- 3.112 0.038
++G gamma 0.757 0.00936
++B beta- 2.502 0.11599999999999999
++B beta- 2.467 0.156
++B beta- 2.364 0.20800000000000002
++B beta- 2.166 0.024
++G gamma 1.932 1.248E-4
++G gamma 2.689 1.248E-4
++B beta- 2.117 0.225
++G gamma 2.894 0.008502000000000001
++G gamma 3.569 0.010608
++G gamma 7.4 0.0021060000000000002
++B beta- 2.114 0.033
++G gamma 0.79311 0.03276
++B beta- 1.992 0.0078000000000000005
++B beta- 1.636 0.0038
++G gamma 8.39 0.0038220000000000003
++B beta- 1.599 0.015
++G gamma 4.635 0.012948000000000001
++G gamma 8.466 0.0020280000000000003
++B beta- 1.568 0.005600000000000001
++G gamma 4.247 0.0010919999999999999
++G gamma 4.699 0.0028079999999999997
++G gamma 8.53 0.001716
++B beta- 1.358 0.0011
++G gamma 8.966 0.0010919999999999999
++B beta- 1.197 0.0046
++G gamma 9.3 0.004602
++B beta- 0.873 8.0E-4
++B beta- 0.83 8.0E-4
++B beta- 0.809 2.0E-4
++B beta- 0.782 0.0022
++B beta- 0.754 6.0E-4
++B beta- 0.741 0.0015
++B beta- 0.701 2.0E-4
++B beta- 0.69 4.0E-4
++B beta- 0.583 0.0019
++B beta- 0.561 4.0E-4
++B beta- 0.487 6.0E-4
++B beta- 0.447 8.0E-4
++B beta- 0.397 8.0E-4
+

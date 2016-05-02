@@ -1,0 +1,63 @@
+#103MO    103NB B- DECAY                1984SH03,1993LI28         09NDS    200910
+#  103NB B- DECAY                1984SH03,1993LI28         09NDS    200910
+#H TYP=FUL$AUT=D. DE FRENNE$CIT=NDS 110, 2081 (2009)$CUT=1-Mar-2009$      
+#  1984Sh03: assignment based on mass separation and charge identification
+#  of fission fragments in {+235}U(n,F). Measured: E|g, I|g, |g|g and     
+#  (K| x ray)|g, |g|g(|q). Deduced: {+103}Nb T{-1/2}, {+103}Mo levels     
+#  (1984Sh03)                                                             
+#  1993Li28, 1990LiZT: assignment based on mass separation and charge     
+#  identification of fission fragments in {+235}U(n,F). Measured: E|g,    
+#  I|g, |b|g(t). Deduced: {+103}Nb levels T{-1/2} and Q.                  
+#  1987Gr18: online mass separator LOHENGRIN, measured |g|b, Q(|b{+-}),   
+#  E|b, others: 1976Ah06, 1976KaYO, 1978Be51, 1981SeZW                    
+#G           For |g|g(|q) results, see 1984Sh03                           
+#G RI$No normalization possible as |b branch to g.s. is unknown           
+#G M$Mult suggested from level scheme. D+Q assumed M1+E2 but all values   
+#G are tentative as no unambiguous J|p values could be given              
+#L $The transitional quadrupole moment Q{-t} were obtained from |g half-  
+#L life measurements                                                      
+#L J$From adopted levels.                                                 
+#L T$From delayed |b-|g measurements (1993Li28).                          
+#L           For calculation of deformation parameters see 1993Li28       
+#P 0.0         (5/2+)            1.5 S     2              5530      30    
+NB103 MO103 beta- 5.53 1.5 1.0
++G gamma 0.10256100000000001 1.0
++G gamma 0.1385 0.135
++G gamma 0.24109999999999998 0.069
++G gamma 0.244 0.011000000000000001
++G gamma 0.3465 0.059000000000000004
++G gamma 0.11276 0.008100000000000001
++G gamma 0.25118 0.019
++G gamma 0.1921 0.0054
++G gamma 0.3307 0.008
++G gamma 0.215 0.0054
++G gamma 0.3534 0.05
++G gamma 0.4562 0.08800000000000001
++G gamma 0.1433 0.013000000000000001
++G gamma 0.3872 0.006999999999999999
++G gamma 0.49 0.009000000000000001
++G gamma 0.42360000000000003 0.026000000000000002
++G gamma 0.5261 0.043
++G gamma 0.5385 0.34
++G gamma 0.6411 0.55
++G gamma 0.4462 0.008100000000000001
++G gamma 0.585 0.019
++G gamma 0.6875 0.026000000000000002
++G gamma 0.2368 0.016
++G gamma 0.45130000000000003 0.009399999999999999
++G gamma 0.5903999999999999 0.018000000000000002
++G gamma 0.5051 0.078
++G gamma 0.6436000000000001 0.032
++G gamma 0.7463 0.11599999999999999
++G gamma 0.44089999999999996 0.016
++G gamma 0.8645 0.02
++G gamma 0.9671000000000001 0.063
++G gamma 0.5722 0.039
++G gamma 0.7873 0.006999999999999999
++G gamma 0.9255 0.022000000000000002
++G gamma 1.028 0.023
++G gamma 0.7297 0.022000000000000002
++G gamma 0.9451 0.006999999999999999
++G gamma 1.083 0.02
++G gamma 1.1856 0.012
+

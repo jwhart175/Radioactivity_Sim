@@ -1,0 +1,29 @@
+# 43CA    43K B- DECAY (22.3 H)         1988WA28,1972WA20         15NDS    201506
+#  43K B- DECAY (22.3 H)         1988WA28,1972WA20         15NDS    201506
+#H TYP=FUL$AUT=BALRAJ SINGH AND JUN CHEN{+#}$CIT=NDS 126, 1 (2015)$       
+#H CUT=31-Mar-2015$                                                       
+#  1988Wa28: {+43}K was produced via the {+44}Ca(t,|a) reaction with      
+#  tritons of 3.2 MeV from the Brookhaven National Laboratory Van de      
+#  Graaff accelerator. |g-rays were detected by a Ge(Li) detector.        
+#  Measured E|g, I|g, |b{+-} spectra. Deduced levels, |b{+-} and |g       
+#  branching ratios. Shell-model calculations                             
+#  1972Wa20: measured E|g, I|g, T{-1/2}                                   
+#  Others:                                                                
+#  |g: 1970La11, 1969Ta07, 1968Ch12, 1967Cl05, 1959Be72, 1957Ba07,        
+#  1955Ne01, 1954Li42                                                     
+#  |b: 1959Be72, 1954Li42, 1949Ov01                                       
+#  |g|g: 1957Ba07, 1959Be72                                               
+#  |b|g: 1959Be72                                                         
+#  |b|g(t): 1970Ho26                                                      
+#  |g|g(|q), |b|g(|q): 1957Li39                                           
+#  T{-1/2} and isotopic assignment: 1972Em01, 1963Ho17, 1954An25,         
+#  1954Li42, 1954Co70, 1949Ov01                                           
+#  1949Ov01: OVERSTREET ET AL., PHYS REV 75, 231 (1949)                   
+#G E,RI$From 1988Wa28                                                     
+#G E(A)$Recoil correction removed from E|g=372.762 (1988Wa28)             
+#G M,MR$From Adopted Gammas                                               
+#L E$From least-squares fit to E|g data                                   
+#L J$From Adopted Levels                                                  
+#P  0           3/2+             22.3 H    1              1833.4    5     
+K43 CA43 beta- 1.8334000000000001 80280.0 1.0
+

@@ -1,0 +1,102 @@
+# 72GE    72AS EC DECAY                 1968CA20,1971RE05         10NDS    201002
+#  72AS EC DECAY                 1968CA20,1971RE05         10NDS    201002
+#H TYP=FUL$AUT=D. Abriola(a), A.A. Sonzogni$CIT=NDS 111,1 (2010)$         
+#H CUT=1-May-2009$                                                        
+#  Compton-suppressed |g's, NaI-Ge(Li) coincidences (1968Ca20)            
+#  |g singles, Ge(Li)-Ge(Li) coincidences, Ice (1971Re05), |b{++}         
+#  spectral shapes from 1950Me55, 1968Vi05.                               
+#  The decay scheme is based on 1968Ca20 and 1971Re05.                    
+#  Others: 1947Mi11, 1948Mc31, 1950Ho26, 1956Br88, 1965He08, 1967Vi07     
+#  and 1973ScZW                                                           
+#G E,RI$Average of values in 1968Ca20 and 1971Re05, except where noted.   
+#G E(G)$Observed by 1968Ca20 only                                         
+#L E$From least-squares fit to E|g.                                       
+#L $E(4041 level): observed by 1968Ca20 only                              
+#  CC$ FROM BrIcc v2.2a (13-Jul-2008) 2008Ki07, "Frozen Orbitals" appr.   
+#P 0           2-                26.0 H    1              4356      4     
+AS72 GE72 beta+ 4.356 93600.0 0.81
++G gamma 0.91189 7.599999999999999E-4
++G gamma 2.8638000000000003 1.4000000000000001E-4
++G gamma 2.8979 3.0E-4
++G gamma 3.067 7.000000000000001E-5
++G gamma 3.2205 8.999999999999999E-5
++G gamma 3.2751 5.0E-5
++G gamma 0.1425 1.7999999999999998E-4
++G gamma 0.83399 1.0
++G gamma 0.6299199999999999 0.09960000000000001
++G gamma 0.7726000000000001 1.3E-4
++G gamma 1.464 0.01393
++G gamma 0.8942599999999999 0.00975
++G gamma 0.60092 0.00396
++G gamma 1.23082 8.9E-4
++G gamma 0.9386 7.000000000000001E-4
++G gamma 1.5682 0.00165
++G gamma 1.7109 0.00312
++G gamma 2.4021999999999997 2.0E-4
++G gamma 0.99985 3.1E-4
++G gamma 0.11254 3.37E-4
++G gamma 0.78644 0.005639999999999999
++G gamma 1.05075 0.01238
++G gamma 1.68072 0.00147
++G gamma 2.5151999999999997 4.0E-4
++G gamma 1.92023 9.0E-4
++G gamma 1.4759 0.00637
++G gamma 2.1059 0.008
++G gamma 2.2485 0.0039700000000000004
++G gamma 2.94007 0.00374
++G gamma 0.42845 8.699999999999999E-4
++G gamma 0.4796 2.8000000000000003E-4
++G gamma 0.8787999999999999 2.1999999999999998E-4
++G gamma 1.21514 0.00262
++G gamma 2.1095900000000003 0.00334
++G gamma 2.1165 3.5000000000000005E-4
++G gamma 2.95 6.0E-5
++G gamma 0.9706 2.1999999999999998E-4
++G gamma 1.5717 2.4E-4
++G gamma 2.20172 0.00609
++G gamma 1.0292999999999999 3.13E-4
++G gamma 2.40286 0.00127
++G gamma 3.0941 0.00133
++G gamma 1.5968 3.0E-4
++G gamma 1.8611 2.5E-4
++G gamma 2.491 3.65E-4
++G gamma 3.33785 2.0E-4
++G gamma 0.9394 8.0E-5
++G gamma 1.2768 5.0E-4
++G gamma 2.50786 0.00406
++G gamma 0.90522 3.7E-4
++G gamma 2.5853 9.5E-4
++G gamma 0.9407000000000001 2.6E-4
++G gamma 1.3904400000000001 0.003
++G gamma 1.9911500000000002 0.0044
++G gamma 2.62146 0.00486
++G gamma 1.1484 1.5E-4
++G gamma 2.0864000000000003 1.7999999999999998E-4
++G gamma 2.7167 1.5E-4
++G gamma 2.8599 2.4E-4
++G gamma 3.5504000000000002 2.58E-4
++G gamma 2.7851 1.7999999999999998E-4
++G gamma 1.939 1.0E-4
++G gamma 2.8331999999999997 1.0999999999999999E-4
++G gamma 1.1630999999999998 1.7E-4
++G gamma 2.2141599999999997 3.8199999999999996E-4
++G gamma 2.84396 7.3E-4
++G gamma 1.1938499999999999 0.00106
++G gamma 2.33972 4.5900000000000004E-4
++G gamma 3.11204 8.0E-4
++G gamma 3.8034 0.00126
++G gamma 2.9818000000000002 1.6E-4
++G gamma 3.8721 6.6E-5
++G gamma 1.58125 3.1E-4
++G gamma 3.1499099999999998 8.3E-4
++G gamma 0.9502 7.000000000000001E-5
++G gamma 1.5227 1.6E-4
++G gamma 2.52183 5.8E-4
++G gamma 3.1612 1.0E-4
++G gamma 3.3045 8.999999999999999E-5
++G gamma 3.995 7.099999999999999E-4
++G gamma 2.5776 2.3E-4
++G gamma 3.2066999999999997 8.0E-5
++G gamma 3.256 3.0E-5
++G gamma 3.3991 4.0E-5
+

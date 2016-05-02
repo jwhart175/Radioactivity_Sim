@@ -1,0 +1,30 @@
+#239BK    243ES A DECAY                 1973ES02,1989HA27,2010AN0814NDS    201411
+#  243ES A DECAY                 1973ES02,1989HA27,2010AN0814NDS    201411
+#H TYP=FUL$AUT=E. BROWNE, J. K. TULI$CIT=NDS 122, 293 (2014)$             
+#H CUT=30-Jun-2013$                                                       
+#  Decay scheme based on ALPHA-particle measurements and using            
+#  QA (243ES)=8072 10 (2012WA38)                                          
+#  2010AN08, 2006An13:                                                    
+#  {+243}Es source obtained from {+247}Md |a decay                        
+#  {+247}Md was produced via {+209}Bi({+40}Ar,2n). {+40}Ar beam with E=187
+#  and 198 MeV from the UNILAC bombarded a 0.450 |mg/cm{+2} metallic      
+#  {+209}Bi target evaporated on a 40 |mg/cm{+2} Carbon backing.          
+#  The target was covered with a 10 |mg/cm{+2} Carbon foil. The           
+#  experiments were performed at the velocity filter SHIP at GSI.         
+#  Measured: |a, |g, (recoil)|a, half-lives, |a decay branching ratios.   
+#  Detection system: at the focal plane of SHIP two time-of-flight        
+#  detectors, an array of position-sensitive Si detectors and a Ge clover 
+#  detector consisting of four Ge crystals were placed.                   
+#  HIVAP code was used to predict the cross sections                      
+#  reported in 1989HA27. Theoretical calculations: Woods-Saxon potential  
+#A E,IA$From 2010An08, unless otherwise specified.                        
+#A IA$Renormalized by evaluators to intensities per 100                   
+#A alpha-particle decays.                                                 
+#A HF$Using R0(239BK)=1.49, average of R0(238CM)=1.490 20, and            
+#A R0(238CF)=1.495 12 (1998AK04).                                         
+#P 0             (7/2+,3/2-)     23 S      3              8072      10    
++A alpha 7.85 0.146
++A alpha 7.939 0.11
++A alpha 7.893 0.71
++A alpha 7.745 0.038
+

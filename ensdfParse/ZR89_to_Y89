@@ -1,0 +1,51 @@
+# 89Y     89ZR EC DECAY (78.41 H)       1969RO02,1968HI12,1979BA4613NDS    201302
+#  89ZR EC DECAY (78.41 H)       1969RO02,1968HI12,1979BA4613NDS    201302
+#H TYP=FUL$AUT=BALRAJ SINGH$CIT=NDS 114, 1 (2013)$CUT=20-Oct-2012$        
+#  1969Ro02 (also 1969HaZP), 1968Hi12, 1971Ar18: measured G spectra.      
+#  1979Ba46: measured G, XK, G+-                                          
+#  Others:                                                                
+#  G: 1969Cl11, 1969GuZV, 1968Dr02, 1964Va03, 1964Aw02, 1962Ho10,         
+#  1961Mo12, 1953Sh48, 1951Go42                                           
+#  CE: 1985HaZI, 1984HaZC                                                 
+#  B+: 1964Va03, 1960Ha26, 1953Sh48, 1951Hy24                             
+#  EC: 1957Ku57, 1953Sh48, 1951Go42                                       
+#  EC/B+: 1964Va03, 1961Mo12                                              
+#  T1/2 and assignment: 1984Sk01, 1964Va03, 1961Ra06, 1960Ha26, 1953Sh48, 
+#  1953Ka11, 1951Sh24, 1951Hy24, 1951Go42, 1940Du05, 1940Sa08             
+#  Production of 89ZR: 1997La20                                           
+#  Change in T1/2 with chemical environment: 1979Au09, 1973Le13, 1970Ga03 
+#  Energy balance: total decay energy of 2833 keV {I6} deduced            
+#  (using RADLIST code) from proposed decay scheme is in agreement with   
+#  the expected value of 2833 keV {I3}, indicating that the decay scheme  
+#  is complete                                                            
+#G E$Weighted average from 1969Ro02 and 1968Hi12.                         
+#G RI$Weighted average from 1979Ba46, 1971Ar18, 1969Ro02 and 1968Hi12.    
+#G           IE/IB+=3.63 6, I(XK)/I(909G)=0.498 19,                       
+#G I(ECK)/IB+=3.16 7, 2.89 34 (measured ratios from 1979Ba46)             
+#L J$From Adopted Levels                                                  
+#P      0.0    9/2+              78.41 H   12             2833.0    28    
+ZR89 Y89 beta+ 2.833 282276.0 1
++B beta+ 0.3955 0.2274
++B beta+ 8.677E-4 0.00108
++B beta+ 8.633E-4 0.00111
++G gamma 1.6573 0.001059728
++B beta+ 8.615000000000001E-4 0.00113
+
+# 89Y     89ZR EC DECAY (4.161 M)       1969RO02,1964VA03,1971AR1813NDS    201302
+#  89ZR EC DECAY (4.161 M)       1969RO02,1964VA03,1971AR1813NDS    201302
+#H TYP=FUL$AUT=BALRAJ SINGH$CIT=NDS 114, 1 (2013)$CUT=20-Oct-2012$        
+#  1969Ro02, 1971Ar18: measured G, T1/2                                   
+#  1964Va03: measured G, EC/B+                                            
+#  Others:                                                                
+#  T1/2 and assignment: 1992KaZM, 1953Sh48, 1953Ka11, 1940Du05            
+#  B+,G: 1953Sh48                                                         
+#  Energy balance: total decay energy of 214 keV {I5} deduced             
+#  (using RADLIST code) from proposed decay scheme is in agreement with   
+#  the expected value of 213 keV {I4}, indicating that the decay scheme   
+#  is complete                                                            
+#L J$From Adopted Levels                                                  
+#P   587.83  9 1/2-              4.161 M   10             2833.0    28    
+ZR89 Y89 beta+ 2.833 249.65999999999997 0.0623
++B beta+ 8.576E-4 0.00116
++B beta+ 1.074 0.02
+

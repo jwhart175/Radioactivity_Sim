@@ -1,0 +1,128 @@
+# 99RH    99PD EC DECAY                 1969PH01                  11NDS    201102
+#  99PD EC DECAY                 1969PH01                  11NDS    201102
+#H TYP=FUL$AUT=E. BROWNE, J. K. TULI$CIT=NDS 112, 275 (2011)$             
+#H CUT=1-Nov-2009$                                                        
+#  Measured: |g, |b{++}, |b|g (1969Ph01), |g, ce (1972Ga21). Other:       
+#  1970An01                                                               
+#  |b singles and coincidence spectra measured by 1969Ph01.               
+#  EC feedings are from G-ray transition intensity balances,              
+#  unless indicated otherwise.                                            
+#G CC$ FROM BrIcc v2.2 (31-Mar-2008) 2008KiAA, "Frozen Orbitals" appr.    
+#G           Modified by E. Browne (June 16, 2010). BRICC, GABS.          
+#G Recalculated NR.                                                       
+#G           1972Ga21: Ge(Li), magnetic spectrometer. Measured Ice.       
+#G M         |a(K)exp normalized to |a(K)exp(212-keV |g in                
+#G {+121}Te)=0.0842 {I14} (1972Ga21)                                      
+#L J,T       From Adopted Levels                                          
+#P 0.0         (5/2)+            21.4 M    2              3393      8     
+PD99 RH99 beta+ 3.393 1284.0 0.73
++G gamma 0.136 1.0
++G gamma 0.4273 0.027000000000000003
++G gamma 0.2636 0.209
++G gamma 0.3998 0.049
++G gamma 0.3867 0.039
++G gamma 0.6504 0.018000000000000002
++G gamma 0.7866000000000001 0.046
++G gamma 0.4103 0.018000000000000002
++G gamma 0.6734 0.095
++G gamma 0.8098 0.027999999999999997
++G gamma 0.8176 0.015
++G gamma 0.954 0.0024
++G gamma 0.236 0.0023
++G gamma 0.6461 0.008100000000000001
++G gamma 0.9108999999999999 0.0039000000000000003
++G gamma 1.0465 0.006
++G gamma 0.2933 0.018000000000000002
++G gamma 0.7027 0.0033
++G gamma 0.74 0.0023
++G gamma 0.9671000000000001 0.013000000000000001
++G gamma 1.1656 0.0103
++G gamma 1.3022 0.0032
++G gamma 0.6531 0.035
++G gamma 1.0637999999999999 0.001
++G gamma 1.0996 0.013999999999999999
++G gamma 1.5281 0.0039000000000000003
++G gamma 0.368 0.002
++G gamma 0.6848 0.0018
++G gamma 1.0717 0.012199999999999999
++G gamma 1.3356 0.064
++G gamma 1.4712 0.0031
++G gamma 0.8865 0.0046
++G gamma 1.298 0.0011
++G gamma 1.5595999999999999 0.0022
++G gamma 1.6973 0.0076
++G gamma 1.3509 0.0024
++G gamma 1.6140999999999999 0.0066
++G gamma 1.0951 0.0033
++G gamma 1.5048 0.0074
++G gamma 1.9047 0.009000000000000001
++G gamma 1.0221 0.0038
++G gamma 1.84 0.0026
++G gamma 0.5241 0.0046
++G gamma 0.6848 0.0018
++G gamma 1.2010999999999998 0.0015
++G gamma 1.5876 0.0017000000000000001
++G gamma 1.8516 0.0062
++G gamma 1.2195 0.0040999999999999995
++G gamma 1.1244 0.0031
++G gamma 1.6805 0.0085
++G gamma 1.9434 0.0037
++G gamma 0.6527999999999999 0.02
++G gamma 1.0134 0.02
++G gamma 1.7176 0.0088
++G gamma 1.7541 0.0018
++G gamma 1.9825 8.0E-4
++G gamma 2.182 0.0040999999999999995
++G gamma 0.6624 0.0053
++G gamma 1.325 0.0115
++G gamma 1.735 0.0013
++G gamma 1.9990999999999999 0.0106
++G gamma 1.1572 0.0091
++G gamma 1.3916 0.0018
++G gamma 1.8042 0.0024
++G gamma 1.8796 0.0023
++G gamma 2.1424000000000003 0.005699999999999999
++G gamma 2.2782 0.0026
++G gamma 0.627 0.0039000000000000003
++G gamma 0.8523 0.0042
++G gamma 1.5151 0.0027
++G gamma 1.9247999999999998 0.006500000000000001
++G gamma 2.1884 0.0028000000000000004
++G gamma 2.3245999999999998 0.0075
++G gamma 2.1545 0.0023
++G gamma 2.4175999999999997 3.5000000000000005E-4
++G gamma 2.5508 4.0E-4
++G gamma 1.2742 0.0019
++G gamma 1.7895999999999999 0.0029
++G gamma 2.4391 0.0012
++G gamma 2.5745 4.0E-4
++G gamma 1.5408 0.0021
++G gamma 2.2462 0.011399999999999999
++G gamma 2.5086999999999997 0.0016
++G gamma 0.7672 0.003
++G gamma 1.8636 0.0025
++G gamma 2.2733000000000003 0.0048
++G gamma 2.5363 0.008
++G gamma 2.6712 1.4000000000000001E-4
++G gamma 0.7187 0.0059
++G gamma 1.231 0.01
++G gamma 1.3916 0.0018
++G gamma 2.5578000000000003 0.0026
++G gamma 2.6949 0.0019
++G gamma 1.962 0.0011
++G gamma 2.3731 0.0011
++G gamma 2.6336 0.0013
++G gamma 2.394 6.0E-4
++G gamma 2.6614 5.600000000000001E-4
++G gamma 2.796 0.0012
++G gamma 0.7585 0.0022
++G gamma 0.8865 0.0046
++G gamma 1.4222000000000001 0.0022
++G gamma 1.4294 0.0027
++G gamma 1.7895999999999999 0.0029
++G gamma 2.4926999999999997 3.0E-4
++G gamma 2.893 7.000000000000001E-5
++G gamma 1.8796 0.0023
++G gamma 2.8473 0.0021
++G gamma 2.982 1.4000000000000001E-4
+

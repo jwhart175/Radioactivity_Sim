@@ -1,0 +1,36 @@
+#156TM    156YB EC DECAY                1983ML01,1999KAZV         12NDS    201210
+#  156YB EC DECAY                1983ML01,1999KAZV         12NDS    201210
+#H TYP=FUL$AUT=C. W. REICH$CIT=NDS 113, 2537 (2012)$CUT=1-Mar-2012$       
+#  DATA SET UPGRADED (MARCH, 2012) BY CW REICH TO INCLUDE EC+B+ DATA      
+#  FROM 2011ES03 AND RELATED COMMENTS.                                    
+#  DATA SET UPGRADED (SEPTEMBER, 2011) BY CW REICH TO INCLUDE NEW QP      
+#   VALUE AND CC VALUES.                                                  
+#  2011Es03: Source material produced in the {+103}Ru({+58}Ni,|ap)        
+#   reaction. Used total-absorption |g spectroscopy to deduce EC+B+       
+#   feeding intensities to the 115.2 and 317.5 levels.                    
+#  1983Ml01: Source material from 147SM(16O,7N) with E(16O)=141 MeV.      
+#   Enriched (98% 147SM) target, followed by isotope separation. |a's     
+#   studied using a Si(Au) detector and |g's using a Ge detector. Same    
+#   authors as 1982To14.                                                  
+#  1999KaZV: Source material produced from high-energy proton spallation  
+#   on a tungsten target, followed by on-line isotope separation.         
+#   Measured G, GG, CE. Report two |g's, one of which is new.             
+#  1982To14: Produced from 147SM(16O,7N), followed by isotope separation. 
+#   |g's measured with Ge detectors and |a's with Si(Au) detectors.       
+#   One |g, and its EKC, reported. Same authors as 1983Ml01.              
+#E           No levels above 317.5 keV are reported in the 156TM decay    
+#E   using conventional Ge detector-based |g spectroscopy. From           
+#E   total-absorption |g spectroscopy, 2011Es03 report intensities of     
+#E   the EC+B+ transitions feeding the 115.2 and 317.5 levels. These      
+#E   data give values for these transitions that differ considerably      
+#E   from those inferred from the Ge-based spectroscopy, which is not     
+#E   unexpected since the level scheme deduced from spectroscopy of this  
+#E   sort is expected to be quite incomplete in situations such as this.  
+#E   These authors report that (25|+3)% of the decays of 156YB involve    
+#E   EC+B+ transitions to levels above 320 keV in 156TM.                  
+#G RI        Relative values as reported by 1999KaZV.                     
+#L J         From adopted values.                                         
+#P    0         0+                26.1 S   7               3574     13    
++B beta+ 8.189E-4 0.0013
++B beta+ 1.1008 0.09
+

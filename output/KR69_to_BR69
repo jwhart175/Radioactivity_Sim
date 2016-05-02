@@ -1,0 +1,36 @@
+# 69BR    69KR EC DECAY (28 MS)         2014DE41,2011Ro47                  201504
+#  69KR EC DECAY (28 MS)         2014DE41,2011Ro47                  201504
+#H TYP=FUL$AUT=C.D. NESARAJA$CIT=ENSDF$CUT=31-Mar-2015$                   
+#  2014De41: {+69}Kr isotope produced in the fragmentation of             
+#  70 MeV/nucleon {+78}Kr beam with Be target at NSCL. Fragments          
+#  selected with the A1900 separator and purified before being implanted  
+#  onto double-sided silicon strip detector (DSSD) at the NSCL Beta       
+#  Counting System (BCS) for |b and proton detection. BCS was surrounded  
+#  by 16 Segmented Germanium Array (SeGA) for detection of prompt and |b  
+#  delayed gamma with a photopeak efficiency of 7% at 1 MeV. Three PIN    
+#  detectors were used to measure beam loss for particle identification.  
+#  Measured E(p), E|g, |bp correlations, (|b-delayed proton)|g-coin,      
+#  I(|e+|b{++}), T{-1/2}{+69}Kr                                           
+#  2011Ro47: {+69}Kr isotope produced in the fragmentation of             
+#  70 MeV/nucleon {+78}Kr beam with Ni target. Fragments selected with    
+#  the LISE3 separator at GANIL and identified by time-of-flight and      
+#  energy loss. Measured E(p), E|b, E|g, |bp correlations, {+69}Kr        
+#  half-life using set of four Si detectors (an energy loss |DE detector, 
+#  a degrade, DSSD and Si(Li)) for particles surrounded by four HPGe      
+#  Clover detectors, three EXOGAM  and one mini-clover Ge detector for    
+#  |g rays.                                                               
+#  1997Xu01: |b-delayed proton decay of {+69}Kr. {+69}Kr produced by      
+#  {+40}Ca({+32}S,3n) reaction using a E({+32}S)=170 MeV beam incident    
+#  on a natural calcium target. Measured T{-1/2} and delayed proton       
+#  emission by pulsed-beam technique and |DE-E telescope and Si(Au)       
+#  surface barrier detectors                                              
+#E TI(A)$Combined value for g.s. and 0+X level from analysis of |b-delayed
+#E proton spectrum of {+69}Kr in 2014De41 with two closely-spaced states  
+#E decaying by protons. The analysis of the doublet peak was supported    
+#E by shell model calculations.                                           
+#L E,J$From 2014De41 with the level ordering based on results             
+#L in 2014De41, 2011Ro18, and {Ipf}- shell model calculation.             
+#L For J|p, see also Adopted Levels for arguments                         
+#P  0           (5/2-)           28 MS     1              13680     SY    
+KR69 BR69 beta+ 13.68 0.028 1.0
+

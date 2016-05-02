@@ -1,0 +1,53 @@
+#227TH    231U A DECAY                  1997MU08                  01NDS    200110
+#  231U A DECAY                  1997MU08                  01NDS    200110
+#H TYP=FUL$AUT=E. BROWNE$CIT=NDS 93, 920 (2001)$CUT=1-May-2001$           
+#  Coexistence of reflection-symmetric (singlet rotational bands) and     
+#  reflection-asymmetric (parity doublet rotational bands) shapes is      
+#  expected in 227TH. 1997MU08 interpreted the low-lying levels of 227TH  
+#  in terms of a KPI=1/2+- parity doublet, and a KPI=3/2+ rotational      
+#  band coupled to the JPI=3/2+ member of the parity doublet by the       
+#  CORIOLIS interaction.                                                  
+#  A mass-separated source of 231U was produced by 232TH(A,5N), E=53 MEV. 
+#  Measured EA, IA, |a-|g coin, EG, RI, ICE, |a-|e coin.                  
+#  Determined G-ray multipolarities.                                      
+#  Detectors: ion-implanted SI, for ALPHA particles. Hyperpure germanium, 
+#  for G rays, and a cooled pin (semiconductor) detector for              
+#  conversion electrons (1997MU08). Other: 1994LI12.                      
+#  QA x BR=0.223 56 agrees well with the total average radiation energy   
+#  of 0.223, calculated by evaluator (using ^RADLST). This agreement      
+#  confirms the consistency of the decay scheme.                          
+#G M(F)$From adopted gammas                                               
+#A E,IA$From 1997MU08, unless otherwise specified.                        
+#G M(G)$Multipolarity confirmed by G-ray transition intensity             
+#G balance, and by comparison with measured XK intensity.                 
+#G E(K)$1995LI04 proposed a 142-KEV level deexcited by 64.3- and          
+#G 74.7-KEV G rays. This assignment, however, is inconsistent with the    
+#G observation of these G rays in coincidence with 5370-5425 KEV          
+#G ALPHA particles (1997MU08).                                            
+#A IA(H)$From G-ray transition intensity balance.                         
+#L E$Deduced by evaluator from a least-squares fit to G-ray energies.     
+#L J$JPI assignments are based on G-ray multipolarities and               
+#L rotational structure.                                                  
+#L BAND(A)   KPI=1/2+ PARITY DOUBLET ROTATIONAL BAND                      
+#L BAND(a)   KPI=1/2- PARITY DOUBLET ROTATIONAL BAND                      
+#L BAND(D)   KPI=3/2+ ROTATIONAL BAND                                     
+#A HF$Using R0(227TH)=1.530, average of R0(226TH)=1.531 5 and             
+#A R0(228TH)=1.5289 5 (1998AK04).                                         
+#P 0.0           (5/2-)          4.2 D     1              5577      3     
+U231 TH227 alpha 5.577 362880.00000000006 4E-5
++A alpha 5.48 0.006999999999999999
++A alpha 5.471 0.27899999999999997
++A alpha 5.456 0.423
++A alpha 5.443 0.006
++A alpha 5.408 0.003
++A alpha 5.404 0.21100000000000002
++A alpha 5.394 0.015
++A alpha 5.383 0.054000000000000006
++A alpha 5.355 0.0067
++A alpha 5.299 0.0039000000000000003
++A alpha 5.283 0.003
++A alpha 5.255 5.0E-4
++A alpha 5.252 0.002
++A alpha 5.196 0.0077
++A alpha 5.167 0.0022
+

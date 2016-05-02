@@ -1,0 +1,44 @@
+#212FR    216AC A DECAY (440 US)        2000HE17,1970TO18         05NDS    200503
+#  216AC A DECAY (440 US)        2000HE17,1970TO18         05NDS    200503
+#H TYP=FUL$AUT=E. BROWNE$CIT=NDS 104, 427 (2005)$CUT=1-Jan-2004$          
+#  These data set have been significantly modified (E.Browne,May 4,2004). 
+#A $Other: 1968Va18                                                       
+#A HF$R0(212FR)=1.504, average of R0(214RA)=1.554 9, R0(212RA)=1.466 6,   
+#A R0(212RN)=1.541 5, and R0(210RN)=1.4552 21 (1998AK04).                 
+#A E$Measured values of 1970To18 corrected for calibration change         
+#A (+1.8 KEV, see 1991Ry01).                                              
+#A HF$R0(212FR)=1.504 8                                                   
+#L $216AC level: E=GS; JPI=(1-) from Adopted Levels.                      
+#L Activity produced by 209BI(12C,5N), T=440 US 16 (2000He17).            
+#L T,J$From 212FR adopted levels                                          
+#P 0            (1-)             440 US    16             9235      6     
++A alpha 9.064 0.9
++A alpha 8.992 0.1
+
+#212FR    216AC A DECAY (441 US)        2000HE17,2003HE06         05NDS    200503
+#  216AC A DECAY (441 US)        2000HE17,2003HE06         05NDS    200503
+#H TYP=FUL$AUT=E. BROWNE$CIT=NDS 104, 427 (2005)$CUT=1-Jan-2004$          
+#  1970TO18                                                               
+#  These data set have been significantly modified (E.Browne,May 4,2004). 
+#A $Other: 1968Va18                                                       
+#A IA$ From 1970TO18.                                                     
+#A E$Measured values of 1970To18 corrected for calibration change         
+#A (+1.8 KEV, see 1991Ry01), unless otherwise specified.                  
+#A HF$R0(212FR)=1.504, average of R0(214RA)=1.554 9, R0(212RA)=1.466 6,   
+#A R0(212RN)=1.541 5, and R0(210RN)=1.4552 21 (1998AK04).                 
+#G E$From 2000HE17, unless otherwise specified.                           
+#G E(A)$From 2003HE06. Seen in coincidence with |a particles.             
+#L $216AC level: E=47 11 KEV from alpha-particle energy difference for    
+#L the decay to GS from 216AC(441 US) and 216AC(440 US),                  
+#L corrected for recoil.                                                  
+#L $216AC half-life: Weighted average of 443 US 7 and 432 US 17           
+#L (2000HE17). Other value: 330 US 20 (1970TO18).                         
+#L $216AC Q-value: From 2003AU03.                                         
+#L $216AC spin: JPI=(9-), from Adopted Levels.                            
+#L T,J$From Adopted Levels.                                               
+#P 47        11 (9-)             441 US    7              9235      6     
++A alpha 9.108 0.462
++A alpha 9.03 0.496
++A alpha 8.273 0.025
++A alpha 8.198 0.017
+

@@ -1,0 +1,21 @@
+#142PM    142SM EC DECAY                1969AR24,1972DE23         11NDS    201108
+#  142SM EC DECAY                1969AR24,1972DE23         11NDS    201108
+#H TYP=FUL$AUT=T.D. Johnson, D. Symochko(a), M. Fadil(b), and J.K. Tuli$  
+#H CIT=NDS 112, 1949 (2011)$CUT=1-Jun-2010$                               
+#  Measured: GAMMA (1969Ar24,1972De23), B+ (1960Ma27), XK, G+- (1991Fi03) 
+#  1969Ar24 studied 142SM+142PM EC decay, and only those G's were         
+#  attributed to 142SM decay which were not seen by 1973Ra01 in           
+#  142PM EC decay. 1991Fi03 did not see any G's in this decay. From G+-   
+#  IB+ LT 5% (1991Fi03)                                                   
+#  Others: 1970HA29, 1970HAYJ                                             
+#G CC$ FROM BrIcc v2.2 (31-Mar-2008) 2008KiAA, "Frozen Orbitals" appr.    
+#G RI        Relative to I(1576G in 142PM EC decay)=100                   
+#L J         Adopted values                                               
+#P 0.0         0+                72.49 M   5              2.17E+3   3     
+SM142 PM142 beta+ 2.17 4349.4 1.0
++G gamma 0.849 7.920000000000001E-4
++G gamma 1.243 0.00264
++G gamma 1.345 0.00132
++B beta+ 0.521 0.07400000000000001
++G gamma 0.679 9.9E-4
+

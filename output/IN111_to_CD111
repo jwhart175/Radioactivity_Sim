@@ -1,0 +1,29 @@
+#111CD    111IN EC DECAY                                          09NDS    200905
+#  111IN EC DECAY                                          09NDS    200905
+#H TYP=FUL$AUT=Jean Blachot$CIT=NDS 110, 1239 (2009)$CUT=1-Feb-2008$      
+#  1999BeZS: evaluation by V. P. Chechev, April 1998 including some       
+#       general comments from previous evaluation (1996Bl12).             
+#       This evaluation was done as part of a collaboration of evaluators 
+#       from Laboratoire National Henri Becquerel (LNHB) in France;       
+#       Physikalisch-Technische Bundesanstalt (PTB) in Germany; HMS       
+#       Sultan and AEA Technology in the United Kingdom; Khlopin Radium   
+#       Institute (KRI) in Russia; Centro de Investigaciones              
+#       Energeticas, Medioambientales, y Tecnologicas (CIEMAT) and        
+#       Universidad Nacional a Distancia (UNED) in Spain; and Brookhaven  
+#       National Laboratory (BNL), Lawrence Berkeley National Laboratory  
+#       (LBNL), and Idaho National Engineering and Environmental          
+#       Laboratory (INEEL) in the United States.                          
+#  Other reference: 1968Da24                                              
+#E           Limits on the |e branches to the levels at 0 and 245 keV     
+#E can be deduced from the log {Ift} systematics of 1998Si17.  The        
+#E transitions to these levels are 4{+th} and 2{+nd} forbidden with       
+#E expected log {Ift}'s of >22 and >10.6, respectively.  The              
+#E corresponding I{-|e} limits are <1.0x10{+-14}% and <5x10{+-4}%,        
+#E respectively.                                                          
+#G E         From weighted average of values from 1951Mc61, 1966Sp04,     
+#G      1974HeYW, and 1975Sh29, except 150-keV |g which is from 1975Sh29. 
+#P 0.0         9/2+              2.8047 D  4              862       5     
+IN111 CD111 beta+ 0.862 242326.08 1.00
++G gamma 0.15081 3.0E-5
++G gamma 0.17128 0.9065000000000001
+

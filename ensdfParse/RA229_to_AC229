@@ -1,0 +1,22 @@
+#229AC    229RA B- DECAY                1997Ya05,1975We23         08NDS    200810
+#  229RA B- DECAY                1997Ya05,1975We23         08NDS    200810
+#H TYP=FUL$AUT=E. BROWNE, J. K. TULI$CIT=NDS 109, 2657 (2008)$            
+#H CUT=1-Jun-2008$                                                        
+#  1997Yu02                                                               
+#  1997Ya05, 1997Yu02: Measured G rays in singles and GG COIN,            
+#  GG(T), and XG(T). Detectors: hyperpure germanium.                      
+#  1975We23: Measured B- particles, end-point energies, BG COIN.          
+#  Modified by E. Browne (July 17, 2008)                                  
+#G E(X)$Measured in coincidence with AC XKA1 (1997Ya05,1977Yu02).         
+#L E$Deduced by evaluators from least-squares fit to G-ray energies.      
+#L E(F)$From BETA energy and the Q- value of 1810 30.                     
+#L J$From Adopted Levels.                                                 
+#L BAND(A)$3/2[651] BAND                                                  
+#L BAND(B)$1/2[530] BAND                                                  
+#L BAND(C)$1/2[400] BAND                                                  
+#L BAND(D)$3/2[402] BAND                                                  
+#L BAND(E)$5/2[532] BAND                                                  
+#P  0.0         5/2(+)             4.0 M   2               1810     30    
++B beta- 0.62 0.95
++B beta- 0.357 0.05
+

@@ -1,0 +1,36 @@
+#111RU    111TC B- DECAY                1998PF01                  09NDS    200905
+#  111TC B- DECAY                1998PF01                  09NDS    200905
+#H TYP=FUL$AUT=Jean Blachot$CIT=NDS 110, 1239 (2009)$CUT=1-Feb-2008$      
+#  The experiment was performed using on-line mass separation             
+#  of products of proton-induced fission of uranium                       
+#  at the IGISOL facility in Jyvaskyla. The mass separated                
+#  beam was collected on a tape. Long-lived activities                    
+#  were removed at regular intervals. The collection                      
+#  point was viewed by a |DE-E plastic telescope for the detection        
+#  of |b-particles and two Ge-detectors. The |b-|g and                    
+#  |g-|g coincidence events were recorded. Since {+111}Tc has             
+#  Q(|b{+-})={ 7.48 MeV {I8}}, the highest value of the separated         
+#  A=111 isobars, |g rays were assigned to its decay by gating            
+#  on the high-energy part of the |b-spectrum.                            
+#  Preliminary data on 111TC B- decay were given by 1992PEZX and 1988PE13.
+#P 0.0          (7/2+,9/2+)      290 MS    20             7450      80    
+TC111 RU111 beta- 7.45 0.29 1.0
++G gamma 0.1502 0.93
++G gamma 0.063 0.03
++G gamma 0.21280000000000002 0.01
++G gamma 0.2797 0.37
++G gamma 0.1039 0.134
++G gamma 0.2056 0.07200000000000001
++G gamma 0.2185 0.057999999999999996
++G gamma 0.3688 1.0
++G gamma 0.1726 0.02
++G gamma 0.3921 0.027999999999999997
++G gamma 0.5428 0.21
++G gamma 0.571 0.077
++G gamma 0.6165 0.017
++G gamma 0.6742999999999999 0.012
++G gamma 0.7132000000000001 0.028999999999999998
++G gamma 1.0263 0.095
++G gamma 0.8982 0.015
++G gamma 1.4352 0.15
+

@@ -1,0 +1,17 @@
+#138XE    139I B-N DECAY                1981HO07                  03NDS    200305
+#  139I B-N DECAY                1981HO07                  03NDS    200305
+#H TYP=FUL$AUT=A.A. Sonzogni$CIT=NDS 98, 515 (2003)$CUT=1-Dec-2002$       
+#  1981Ho07: measured |g and n                                            
+#  1974Ru07: measured neutrons. Spectra extends up to at least 1600 KEV   
+#  Other: 1975As04.                                                       
+#G $All data are from 1981Ho07. 1985Ro13 observed a total of nine         
+#G gammas in this decay but they do not list them                         
+#G RI        Relative intensity assuming RI(571G 139XE)=100               
+#L E,J$From 138XE adopted levels                                          
+#P 0.0         (7/2+)            2.280 S   11             3204      48    
+I139 XE138 neutron&beta- 3.204 2.28 0.100
++G gamma 0.5888 0.5672
++G gamma 0.48360000000000003 0.17120000000000002
++G gamma 0.8752000000000001 0.0456
++G gamma 1.464 0.0032000000000000006
+

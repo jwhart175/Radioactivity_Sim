@@ -1,0 +1,54 @@
+# 69ZN    69CU B- DECAY                 1985RU05,1966VA12         14NDS    201401
+#  69CU B- DECAY                 1985RU05,1966VA12         14NDS    201401
+#H TYP=FUL$AUT=C.D. NESARAJA$CIT=NDS 115, 1 (2014)$CUT=31-Jul-2013$       
+#  1985Ru05: {+69}Cu produced by irradiation of W target with             
+#  11.5 MeV/nucleon {+76}Se beam followed by on-line mass separation.     
+#  Measured E|g, I|g, T{-1/2}, |b|g coincidences using 4|p plastic |b     
+#  and Ge detectors.                                                      
+#  1966Va12: {+69}Cu produced by photonuclear reactions on enriched Zn    
+#  Measured |b-|g, |g-|g coincidence with NaI(Tl), Ge(Li) detector with   
+#  5.5 keV resolution at 1 MeV and < 10 % efficiency and a plastic        
+#  scintillator (4|p beta spectrometer)                                   
+#B IB$From intensity balance at each level                                
+#G E$From 1985Ru05. Transitions with E|g =84, 110, 2026, 2170, and 2400   
+#G reported by 1966Va12 were not seen by 1985Ru05                         
+#G The evaluator has not included E|g=3210 from Table 6 (1985Ru05)        
+#G as the energy is larger than Q(|b-)                                    
+#G RI$Relative intensity (1985Ru05)                                       
+#L E$From least squares fit to E|g data.                                  
+#L J$From adopted levels.                                                 
+#P 0.0         3/2-              2.85 M    15             2681.4    17    
+CU69 ZN69 beta- 2.6814 171.0 0.0234
++G gamma 0.1672 0.011000000000000001
++G gamma 0.434 0.04
++G gamma 1.205 0.05
++G gamma 1.5942 0.04
++G gamma 0.5312 2.55
++G gamma 0.8344 5.6
++G gamma 0.1734 0.11
++G gamma 0.4763 0.08
++G gamma 1.0075 10.0
++G gamma 0.1734 0.02
++G gamma 0.3463 0.04
++G gamma 0.6494 0.89
++G gamma 1.1807 0.98
++G gamma 0.4174 0.07
++G gamma 1.2518 0.18
++G gamma 0.1782 0.015
++G gamma 0.4218 0.06
++G gamma 0.5949 1.12
++G gamma 0.8982 0.28
++G gamma 1.4298 1.46
++G gamma 1.4583 0.012
++G gamma 1.6332 0.018000000000000002
++G gamma 0.6474 0.05
++G gamma 0.8207000000000001 0.04
++G gamma 0.9934 0.49
++G gamma 1.2966 0.1
++G gamma 1.8286 0.11
++G gamma 1.3619 0.02
++G gamma 1.894 0.008
++G gamma 0.8518 0.06
++G gamma 1.5015999999999998 0.12
++G gamma 2.033 0.017
+

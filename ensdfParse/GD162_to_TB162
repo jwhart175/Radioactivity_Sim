@@ -1,0 +1,93 @@
+#162TB  XY162GD B- DECAY                                                         
+#XY162GD B- DECAY                                                         
+#XZ163DY(T,A)                                                             
+#N                                                                     6  
+#L   0          1-                7.60 M   15                         A   
+#L %B-=100 $ XREF=+                                                       
+#L T         unweighted average of 7.43 MIN 4 (1965Sc24) and 7.76 MIN 10  
+#L (1977Ka08). Others: 7.48 M 3 (1965Sc24), 8.0 M 5 (1966Fu08),           
+#L 7.75 M 31 (1966Sc24), 7.5 M 10 (1967Gu03), and 7.6 M 2 (1968Ka10).     
+#L See 1951Bu25, 1960Wi10, and 1962Ta12 for half-life measurements        
+#L related to nuclide identification.                                     
+#L J         configuration based on pickup of a 3/2[411] proton from      
+#L  163DY, whose GS has CONF=(|n 5/2[523]).                               
+#L J         LOGFT=4.95 of the B- transition to the 2- level at 1148 keV  
+#L in 162DY indicates an allowed-unhindered B transition, which indicates 
+#L a |n 5/2[523]|)|p 7/2[523] |b transition. This uniquely establishes    
+#L the gs configuration assignment and establishes the 1148-keV level in  
+#L 162DY as having CONF=(|p 7/2[523])-(|p 3/2[411]). See the 162DY        
+#L Adopted Levels and 1995Be02 for further discussion.                    
+#L  39.10    9  2-                                                    A   
+#L XREF=+                                                                 
+#L J         from an M1 component in the G to the 1- GS, the (t,|a)       
+#L  cross section and the rotational-band spacing.                        
+#G  39.0     2  100       M1+(E2)                                         
+#G M         from intensity balance at 39 level in 162GD B- decay,        
+#G transition is primarily M1 (1970Ch02); x/G intensity ratio and         
+#G ^L x-ray energy are consistent with this.                              
+#L   97      1  3-                                                    A   
+#L XREF=Z                                                                 
+#L J         FROM POPULATION IN (t,|a) AND EXPECTED BAND STRUCTURE.       
+#L  176      1  4-                                                    A   
+#L XREF=Z                                                                 
+#L J         FROM POPULATION IN (t,|a) AND EXPECTED BAND STRUCTURE.       
+#L  216      1  4-                                                    B   
+#L XREF=Z                                                                 
+#L J         CONFIGURATION IS THE |S=0 COUPLING OF THE |p 3/2[411] AND    
+#L  |n 5/2[523] Nilsson ORBITALS, THE |S=1 COUPLING OF WHICH IS ASSIGNED  
+#L  TO THE GS. THE SYSTEMATICS OF 1998Ja07 SUGGESTS A                     
+#L   Gallagher-Moszkowski SPLITTING OF 82 keV, COMPARED TO THE OBSERVED   
+#L   VALUE OF 216 keV.                                                    
+#L  267      2  5-                                                    A   
+#L XREF=Z                                                                 
+#L J         FROM POPULATION IN (t,|a) AND EXPECTED BAND STRUCTURE.       
+#L  310      1  5-                                                    B   
+#L XREF=Z                                                                 
+#L J         FROM POPULATION IN (t,|a) AND EXPECTED BAND STRUCTURE.       
+#L 341.41    9 (0-,1)                                                     
+#L XREF=Y                                                                 
+#L J         LOGFT=5.9 in B- decay from the 162GD GS.                     
+#G 302.30    15  58    9                                                  
+#G 341.42    10 100    9                                                  
+#L 442.11    8  1+                                                    C   
+#L XREF=Y                                                                 
+#L J         allowed-unhindered (LOGFT=4.4) B- transition from the 0+     
+#L  162GD GS. This also uniquely establishes that this level has          
+#L  CONF=(|n 5/2[523])-(|p 7/2[523]).                                     
+#G 403.00    8   85    4 [E1]                    0.00808                  
+#G 442.12    8  100      [E1]                    0.00651                  
+#                                                                         
+
+#162TB    162GD B- DECAY                1982GE07,1970CH02         07NDS    200708
+#  162GD B- DECAY                1982GE07,1970CH02         07NDS    200708
+#H TYP=FUL$AUT=C. W. Reich$CIT=NDS 108,1807 (2007)$CUT=1-Mar-2007$        
+#  DATA SET UPDATED (JANUARY, 2005) BY CW REICH TO INCLUDE NEW Q VALUES   
+#   AND REVISED COMMENTS                                                  
+#  1967Wa05: 162GD from double-neutron capture in enriched (94%) 160GD    
+#       with radiochemistry.  G's measured with NAI(TL) detectors.        
+#  1970Ch02: 162GD from double-neutron capture in enriched (94.8%) 160GD  
+#       with radiochemistry.  G's measured with Ge and Si(Li) detectors   
+#       and B's with Si(Li) detector.  GX and GB coincidences measured.   
+#  1982Ge07: 162GD from 252CF spontaneous fission with radiochemistry.    
+#       G's measured with Ge detector.                                    
+#B E         From 1970Ch02.                                               
+#B IB        From evaluator's assumption that 100% of the decays          
+#B  depopulate the levels at 341 and 442 keV (that is, no B- feeding of   
+#B  the ground state and the 39 level) and no G feeding of the 341-keV    
+#B  level. From LOGFT GE 5.9 for the gs-to-gs B- transition (1973Ra10),   
+#B  IB-(0) LE 13%; and from LOGF1T GE 8.5 for the B- transition to the 2- 
+#B  at 39 keV (1973Ra10), IB-(39) LE 0.15%.                               
+#G           Data are from 1982Ge07, unless otherwise noted. Others:      
+#G 1970Ch02, 1967Wa05.                                                    
+#L           Decay scheme is from 1982Ge07 and is similar to those of     
+#L 1970Ch02 and 1967Wa05.                                                 
+#L           The consistency of the scheme is supported by the fact that  
+#L  the sum of the energies of the radiations is 1395 keV 56, which       
+#L  agrees with the Q value of 1390 40.                                   
+#L E         From least-squares fit to G energies.                        
+#L J         From 162TB Adopted Levels. Rotational-band and Nilsson       
+#L configuration assignments are given there.                             
+#P   0          0+                8.4 M    2                1390    40    
++B beta- 0.362 0.045
++B beta- 0.322 0.955
+

@@ -1,0 +1,24 @@
+#158DY    158TB B- DECAY                1986GO25,1970PA01         04NDS    200403
+#  158TB B- DECAY                1986GO25,1970PA01         04NDS    200403
+#H TYP=FUL$AUT=R. G. Helmer$CIT=NDS 101, 325 (2004)$CUT=1-Oct-2003$       
+#  {+158}Tb has been produced by Gd(p,n) reaction with chemical           
+#       separation and by {+156}Dy(n,|g){+157}Dy(|e){+157}Tb(n,|g).       
+#       E{-|g} and I{-|g} data are given by 1962Bh05, 1965Sc10,           
+#       1968Sc04, 1970Pa01, 1986Go25, 1987Br33; level half-life by        
+#       1966Fu03; and |b- energies by 1985Vo03.                           
+#B IB        From %|b-=16.6 {I7} and |g intensity balances.               
+#G           1968Sc04 report |g's of 236, 619, 720, and 930 keV which     
+#G      have not been confirmed and, therefore, are not included here.    
+#G E         From 1986Go25 (1987Br33 has same values).                    
+#G RI        From 1986Go25 normalized to I{-|g}(944)=100 in |e+|b+ decay. 
+#G RI        I(Kx)=10.04 {I18}.                                           
+#G M         From {+158}Dy Adopted |g's. In this decay, 1962Bh05 and      
+#G      1965Sc10 give ce data which imply 98 |g is E2.                    
+#L J         From {+158}Dy Adopted Levels.                                
+#L T         From this decay mode only, see {+158}Dy Adopted Levels       
+#L      for all measurements.                                             
+#P   0         3-                180 Y     11             936.7     24    
+TB158 DY158 beta- 0.9367000000000001 5.680243584E9 1.0
++B beta- 0.842 0.155
++B beta- 0.63 0.011000000000000001
+

@@ -1,0 +1,85 @@
+# 92TC    92RU EC DECAY                 1976DE07                  12NDS    201210
+#  92RU EC DECAY                 1976DE07                  12NDS    201210
+#H TYP=FUL$AUT=CORAL M. BAGLIN$CIT=NDS 113, 2187 (2012)$CUT=15-Sep-2012$  
+#  Others: 1972AR24, 1972DE09                                             
+#G E,RI      From 1976DE07, unless noted otherwise.                       
+#G M         From Adopted Gammas, except as noted.                        
+#G E(A)      Weighted average of data from 1976DE07 and 1972AR24.         
+#G E(C)      Authors omitted G from level scheme but indicate that two    
+#G (unstated) placements are possible.  BASED ON ENERGY SUMS, THE 664G    
+#G MAY DEEXCITE THE 2107 LEVEL AND/OR THE 2771 LEVEL, AND THE 1395G MAY   
+#G DEEXCITE THE 2107 LEVEL.                                               
+#L           The decay scheme is that established by 1976DE07 on          
+#L the basis of GG coin, intensity balances and energy sums, and the      
+#L results of (P,NG) data obtained by the same authors. This supersedes   
+#L earlier level schemes (1972AR24 or from (P,NG)) devised without        
+#L knowledge of the existence of the 47-KEV and 56-KEV transitions.       
+#L Unplaced IG=8%, so deduced LOGFT and JPI for weakly fed levels         
+#L may be unreliable.                                                     
+#L E         From least-squares fit to EG.                                
+#L J         From Adopted Levels.                                         
+#P  0.0         0+                3.65 M    5             4624       5    
++G gamma 0.4365 0.004416
++G gamma 0.5701 0.00624
++G gamma 0.6183 0.0034559999999999994
++G gamma 0.6636 0.004896
++G gamma 0.828 0.004704
++G gamma 0.8391000000000001 0.0032640000000000004
++G gamma 0.9588 0.003744
++G gamma 0.968 0.00384
++G gamma 1.0242 0.0054719999999999994
++G gamma 1.0640999999999998 0.004031999999999999
++G gamma 1.1187 0.0024
++G gamma 1.3949 0.004896
++G gamma 1.4601 0.0063360000000000005
++G gamma 1.8825 0.00192
++G gamma 1.9005999999999998 0.003744
++G gamma 1.9285 0.001824
++G gamma 2.3023000000000002 0.01056
++G gamma 0.05634 0.08832
++G gamma 0.04746 0.2784
++G gamma 0.3068 0.0031680000000000002
++B beta+ 0.6193 0.0045000000000000005
++G gamma 0.1346 0.65472
++B beta+ 1.3057999999999998 0.04
++G gamma 0.4507 0.06816
++G gamma 0.585 0.005856
++B beta+ 1.0954000000000002 0.04
++G gamma 0.867 0.11424
++G gamma 0.9102 0.032448
++B beta+ 0.9649 0.002
++G gamma 0.6347999999999999 0.002784
++G gamma 1.2196 0.06048
++G gamma 1.2689000000000001 0.0034559999999999994
++G gamma 1.4036 0.016319999999999998
++B beta+ 0.8032 0.003
++G gamma 0.945 0.026879999999999998
++B beta+ 0.6626000000000001 0.0042
++G gamma 1.6047 0.03648
++G gamma 1.7385 0.0032640000000000004
++B beta+ 0.5688 0.0053
++G gamma 0.4104 0.017952000000000003
++G gamma 0.5942999999999999 0.005856
++G gamma 0.9036000000000001 0.007871999999999999
++G gamma 0.9472 0.026879999999999998
++G gamma 1.2290999999999999 0.0336
++G gamma 1.6796 0.09215999999999999
++G gamma 1.814 0.00192
++B beta+ 0.5354 0.005699999999999999
++G gamma 0.9742999999999999 0.0031680000000000002
++G gamma 2.0597 0.03456
++G gamma 2.1943 0.008063999999999998
++G gamma 2.2413000000000003 0.0025919999999999997
++B beta+ 0.36810000000000004 0.0075
++G gamma 1.5175999999999998 0.0192
++G gamma 2.4275 0.006816
++B beta+ 0.2667 0.0083
++G gamma 0.6563 0.00192
++G gamma 1.5607 0.007488
++G gamma 2.4711999999999996 0.0020159999999999996
++G gamma 2.5193000000000003 8.639999999999999E-4
++B beta+ 0.248 0.0083
++G gamma 0.9381 0.0024
++G gamma 2.9974000000000003 8.639999999999999E-4
++G gamma 3.133 9.6E-4
+

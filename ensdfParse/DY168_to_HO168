@@ -1,0 +1,24 @@
+#168HO    168DY B- DECAY                1990CH37                  10NDS    201008
+#  168DY B- DECAY                1990CH37                  10NDS    201008
+#H TYP=FUL$AUT=CORAL M. BAGLIN$CIT=NDS 111, 1807 (2010)$CUT=15-Jun-2010$  
+#  OTHER: 1982GE04.                                                       
+#  1990CH37: Sources from 170ER bombardments of natural tungsten, mass    
+#  separation; E(170ER)=8.5 MEV/nucleon. Measured EB, IB, EG,             
+#  IG (plastic, silicon, planar hyperpure germanium detectors),           
+#  BG coin, GG coin, BG(T), GG(T).                                        
+#B IB        B- feedings are from intensity imbalance at each             
+#B level assuming no GS feeding (DJ=3).                                   
+#G E,RI      FROM 1990CH37.                                               
+#G M         From RI/RI(x ray) in coincidence spectra, EXCEPT AS NOTED.   
+#G           XK data; I(x ray) per 100 168DY decays.                      
+#G                     E(x ray)       I(x ray)                            
+#G         HO XKA2   46.6          12.2 14                                
+#G         HO XKA1   47.5          21.3 23                                
+#L E         FROM LEAST-SQUARES FIT TO EG.                                
+#L J         FROM Adopted Levels.                                         
+#P  0.0         0+               8.7 M     3              1.50E3    14    
+DY168 HO168 beta- 1.5 522.0 1.0
++B beta- 0.465 0.09
++B beta- 0.462 0.33
++B beta- 0.286 0.61
+

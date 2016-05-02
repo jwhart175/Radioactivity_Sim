@@ -1,0 +1,60 @@
+#243AM    243PU B- DECAY                1969FR01,1969HO10         14NDS    201408
+#  243PU B- DECAY                1969FR01,1969HO10         14NDS    201408
+#H TYP=FUL$AUT=C.D. Nesaraja, E.A. McCutchan$CIT=NDS 121, 695 (2014)$     
+#H CUT=30-Sep-2013$                                                       
+#  1977Dr07: {+242}Pu targets were irradiated with neutrons at a fast     
+#  pulsed reactor followed by radiochemical separation. |b decay of       
+#  {+243}Pu detected with a |b scintillation counter. Measured T{-1/2}    
+#  and |b energy.                                                         
+#  1969Fr01: {+242}Pu targets were irradiated with neutrons at the        
+#  Argonne CP-5 reactor at two separate irradiations out of which one     
+#  was followed by chemically and mass separation to identify the weak    
+#  and high energy |g-rays. |g- singles and |g|g coincidence were         
+#  measured using 2 cm{+3} Ge(Li) and NaI(Tl) detectors. Conversion       
+#  electrons were measured with a Si(Li) detector with FWHM=2.8 keV for   
+#  the 155.8 keV {+243}Cm electron line                                   
+#  1969Ho10: {+242}Pu targets were irradiated with neutrons at the Los    
+#  Alamos Omega West Reactor. Measured conversion electrons, X-ray,       
+#  |g's, |b's, |g|b coincidence with Si(Li) and Ge(Li) detector, and Kr-  
+#  and Xe filled Reuter-Stokes proportional counters. Determined          
+#  T{-1/2}({+243}Pu)                                                      
+#  1953En08: Enriched {+242}Pu irradiated at the Argonne Heavy Water      
+#  Reactor followed by chemical separation. Gamma and beta spectrums and  
+#  |b|g coincidence measured with scintillation spectrometers.            
+#  CC$FROM BrIcc v2.3a (30-Jun-2013) 2008Ki07, "Frozen Orbitals" appr.    
+#B IB$I|b's have been deduced from intensity balance at each level,       
+#B except where noted otherwise.                                          
+#G E$From 1969Fr01 and 1969Ho10. Other measurements: 1953En08, 1956St48.  
+#G E(F),RI(F)$From 1969Fr01                                               
+#G E(H),RI(H)$From 1969Ho10.                                              
+#G E(A),RI(A)$Weighted average from 1969Fr01 and 1969Ho10                 
+#G M$Deduced from CE measurements of 1969Ho10. Multipolarities in square  
+#G brackets are from the level scheme; they were not determined           
+#G experimentally.                                                        
+#G           GG coincidences:                                             
+#G                 (84G)(XK,322.2,356.4,381.7,388.9,423.2 G's) (1969Fr01),
+#G                 (84G)(CE 356.5,381.6 G's) (1969Ho10).                  
+#G                                                                        
+#G           X-RAYS:                                                      
+#G                  I(XK) relative to I(84G)=100                          
+#G                  --------------------------------                      
+#G      E(x ray)       1969Fr01        1969Ho10                           
+#G     ---------     ----------      ----------                           
+#G      102.0 2        0.65 6          0.64 6           XKA2+101.3G       
+#G      106.4 2        0.90 9          0.82 8           XKA1              
+#G      119.8 3        0.38 5          0.30 3           XKB1P             
+#G      123.9 3        0.12 2          0.11 2           XKB2P             
+#G                                                                        
+#G                                                                        
+#L J$From adopted levels.                                                 
+#P 0.0          7/2+              4.956 H   3              579      3     
++B beta- 0.1717 0.6
++B beta- 0.15772999999999998 0.08900000000000001
++B beta- 0.14408 0.21
++B beta- 0.14006 0.013000000000000001
++B beta- 0.13591 0.05
++B beta- 0.125 0.034
++B beta- 0.045689999999999995 2.0E-5
++B beta- 0.02953 0.0126
++B beta- 0.01183 2.8000000000000003E-4
+

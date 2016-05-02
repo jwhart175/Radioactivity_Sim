@@ -1,0 +1,144 @@
+#156DY    156HO EC DECAY (56 M)         1976GR20,2002CA49         12NDS    201210
+#  156HO EC DECAY (56 M)         1976GR20,2002CA49         12NDS    201210
+#H TYP=FUL$AUT=C. W. REICH$CIT=NDS 113, 2537 (2012)$CUT=1-Mar-2012$       
+#  DATA SET UPDATED (JANUARY, 2012) BY CW REICH TO INCLUDE CC DATA FROM   
+#   BRICC, REVISED QP VALUE, AND PROPOSED 0+ LEVEL, TOGETHER WITH         
+#   REVISED COMMENTS.                                                     
+#  DATA SET FURTHER REVISED DURING PRE-REVIEW PROCESS BY CW REICH TO      
+#   INCLUDE NEW DATA FROM 2002Ca49.                                       
+#  DATA SET UPDATED (JUNE, 2002) BY CW REICH TO INCLUDE NEW Q(EC) VALUE,  
+#   REVISED G BRANCHING FROM 2+, 828.7 LEVEL, REMOVAL OF EC BRANCH        
+#   DATA, REVISED COMMENTS AND SOME JPI'S AND BAND ASSIGNMENTS, ETC.      
+#  G data are primarily from 2002Ca49. Electron data are primarily        
+#   from 1976Gr20. Other studies include 1957Mi67, 1960Gr24, 1961Ba32,    
+#   1966GrZX, 1966La11, 1970ScZO, and 1975IwZY.                           
+#  2008VaZU: (Many of the same authors as 2003KaZP and 1999KaZV.) 156HO   
+#   isotopes produced from p-induced spallation of a W target followed    
+#   by isotope separation using the ^YASNAPP-2 facility. Focus is on 0+   
+#   states in 160DY, but propose the existence of a 0+ state at           
+#   1377.8 keV in 156DY.                                                  
+#  2003KaZP: (Many of the same authors as 2008VaZU and 1999KaZV.) 156HO   
+#   isotopes produced from p-induced spallation of a W target followed    
+#   by isotope separation using the ^YASNAPP-2 facility. Focus is on the  
+#   decay of the 7.6-min, 9+ 156HO isomer, but propose the existence of   
+#   a 0+ state at 1377.80 keV in 156DY.                                   
+#  2002Ca49: 156HO, from 156ER EC decay. 156ER produced via the           
+#   148SM(12C,4N) reaction, E(12C)=73 MeV. Enriched (96%) target. Recoil  
+#   products collected on a movable tape and transported to a shielded    
+#   detector area for study. |g radiation studies using 3                 
+#  Compton-suppressed segmented ^YRAST Ball "clover" HPGE detectors and   
+#   one ^LEPS detector. Measured EG, RI, GG.                              
+#  1976Gr20: 156HO from spallation with 660-MeV p on Ta target. Chemical  
+#   and isotopic separation. Measured G singles and GG COIN using Ge      
+#   detectors, CE in magnetic spectrometer, and GB+ coincidences.         
+#  1970Mo39: Measured half-life of 2+ level from 138-G coincidences.      
+#  1966Ab02: 156HO from DY(P,XN) reaction with E(P)=64 MeV and isotope    
+#   separation. Half-life of 2+ level measured by 138-G coincidences.     
+#  Experimental methods:                                                  
+#  1957Mi67:  156HO PRODUCED BY 156DY(P,N) REACTION WITH EP LE 22 MEV ON  
+#   ENRICHED TARGET.  CHEMICAL SEPARATION. CE MEASURED IN MAGNETIC        
+#   SPECTROGRAPH.                                                         
+#  1960Gr24: 156HO from spallation with 660-MeV P on Ta target and chemica
+#   separation. CE measured in magnetic spectrograph. Report 4 G's.       
+#  1961Ba32: 156HO from spallation with 660-MeV P on Ta target and chemica
+#   separation. CE measured in magnetic spectrograph. Report 4 G's.       
+#  1966La11: 156HO from DY(P,XN) and HO(P,XN)ER reactions, followed by    
+#   decay of 156ER. G's measured with NaI and Ge detectors and            
+#   CE's measured with Si(Au) detector. Report 3 G's.                     
+#  1970ScZO: 156HO from 159TB(A,7N) reaction. Measured G singles and GG   
+#   coincidences with Ge detectors. No tables, only level scheme shown.   
+#   Report AP 16 levels and suggest parent is 9+ isomer.                  
+#  1975IwZY: 156HO from 147SM(12C,3N)156ER(EC)156HO. Note in lab report.  
+#   Report 22 G's in scheme and 28 unplaced; no RI.                       
+#  There is also a thesis by Koldewijn, 1977, Univ. of Amsterdam.         
+#E E         From experimental E|b+ (1976Gr20). 2002KaZR also report      
+#E  positron branches having end-point energies of 680 10 and 1540 30,    
+#E  with relative intensities of 0.08 and 1, respectively.                
+#E           With a Q(|e) value of AP 5 MeV and no levels reported        
+#E  above 3 MeV, it is likely that the decay scheme is incomplete. Thus,  
+#E  beta-transition intensities computed from TI balances may be          
+#E  unreliable, especially for the weaker branches. The evaluator has     
+#E  not listed beta-transition data for this decay scheme.                
+#G           Data on the unplaced |g's are from 1976Gr20. 2002Ca49 do     
+#G  not show any unplaced |g's.                                           
+#G           A number of |g's reported by 1976Gr20 originate from         
+#G  levels whose existence has not been confirmed by 2002Ca49. Those      
+#G  |g's from levels below 2982 keV that have not been placed             
+#G  elsewhere in the level scheme are listed as unplaced without comment. 
+#G  |g's from levels above this energy that may be placed elsewhere are   
+#G  indicated by appropriate comments.                                    
+#G           The EG and RI values for the |g's reported by 1976Gr20       
+#G  and 2002Ca49 differ somewhat. Where the placement of a |g by          
+#G  these authors differs, the evaluator has adopted that of 2002Ca49     
+#G  and has made an association of the |g from 1976Gr20 with that of      
+#G  2002Ca49.                                                             
+#G E,RI      RI values are quoted relative to RI(137.8 G)=100. The RI data
+#G  from 2002Ca49 are based on the analysis of coincidence spectra. These 
+#G  authors list upper limits on RI values for many |g's that they do     
+#G  not observe but which might be expected to occur based on JPI         
+#G  considerations. In most instances, these are not given here.          
+#G RI        Values from 2002Ca49, unless noted otherwise.                
+#G E(F)      Nominal value from level-energy difference.                  
+#G E(G)      Transition previously reported but not in |e decay.          
+#G E(H)      Transition previously placed from a level below 2982 keV     
+#G  whose existence was not confirmed by 2002Ca49.                        
+#G M         From the 156DY Adopted Gamma Radiations data set. Where a    
+#G  reasonable association of a |g from 2002Ca49 can be made with one     
+#G  from 1976Gr20, the evaluator has assigned the mult from 1976Gr20.     
+#G CC        Values for |g's with E0 components are discussed in the      
+#G  {+156}Dy Adopted |g Radiations data set.                              
+#G TI        Computed by 1976Gr20 from ce intensities.                    
+#L           Several levels reported by 1976Gr20 have not been confirmed  
+#L  by 2002Ca49. These include: 1219.21; 1293.33; 1518.82; 1529.44;       
+#L  1801.43; 2006.63; 2169.08; 2216.83; 2476.42; 2514.06; 2637.83;        
+#L  2661.2; 2803.05; 2933.51. Also, the data of 2002Ca49 do not support   
+#L  the existence of levels above 2982 keV. Previously proposed levels in 
+#L  this region include: 2992.31; 3071.76; 3161.64; 3177.36; 3308.9;      
+#L  3404.72; 3430.14; 3444.92; 3501.7; 3646.53; 3675.0.                   
+#L           A number of levels not previously reported in |e decay       
+#L  have been proposed by 2002Ca49. These are included here but are not   
+#L  specifically pointed out.                                             
+#L E         From least-squares fit to |g energies.                       
+#L J         From the {+156}Dy Adopted Levels, Gammas data set.           
+#L BAND(A)     KPI=0+, g.s. band.                                         
+#L BAND(B)     First excited KPI=0+ band.                                 
+#L BAND(C)     KPI=2+ |g-vibrational band.                                
+#L  (See the comment on this conf assignment in the Adopted Levels data   
+#L   set.)                                                                
+#L BAND(D)     KPI=0- band.                                               
+#P    0         4-                56 M     1              5.05E+3    6    
++G gamma 0.1378 0.52
+
+#156DY    156HO EC DECAY (7.6 M)                                  12NDS    201210
+#  156HO EC DECAY (7.6 M)                                  12NDS    201210
+#H TYP=FUL$AUT=C. W. REICH$CIT=NDS 113, 2537 (2012)$CUT=1-Mar-2012$       
+#  DATA SET REVISED (JANUARY, 2012) BY CW REICH TO INCLUDE THE DATA OF    
+#   2003KaZP AND TO MODIFY THIS DATA SET ACCORDINGLY.                     
+#  The level scheme is that proposed by 1999KaZV.                         
+#  2003KaZP: Many of the same authors as 1999KaZV. Experimental           
+#   conditions similar to those of 1999KaZV. Provide data on the the      
+#   |g's deexciting the 8+ level at 2787 keV, as well as for the 366,     
+#   445 and 508 |g's. These are the data used in this data set.           
+#  1999KaZV: Source produced by high-energy proton-induced spallation on  
+#   W targets using the on-line isotope-separator facility ^YASNAPP-2.    
+#   Measured |g radiation, ICC and GG coincidences. Data are presented    
+#   in the form of a level scheme only.                                   
+#  1976IwZZ: Source produced in the 160DY(P,5N) reaction, EP=52 MeV.      
+#   Source material contained both the isomer and the 156HO g.s.          
+#   |g's studied using a 40 cm{+3} GeLI detector. For the isomer,         
+#   report T and two |g's deexciting the 2787 level in 156DY.             
+#G RI        Unless noted otherwise, the values are those reported by     
+#G  2003KaZP.                                                             
+#G RI        Note that the |g branching of the 2787 level reported by     
+#G  2003KaZP is significantly different from that reported by             
+#G  1999KaZV. This leads to significant intensity imbalances at the       
+#G  1215, 8+, and 770, 6+, levels.                                        
+#G RI(R)     Deduced by the evaluator from intensity-balance              
+#G  considerations in the level scheme. 2003KaZP do not report RI values  
+#G  for these |g's.                                                       
+#L E         Calculated from a least-squares fit to the listed EG values. 
+#L J         From the adopted values.                                     
+#L BAND(A)   Member of the g.s. band.                                     
+#L BAND(B)   Bandhead of a KPI=8+ band. Conf=|n5/2[523]+|n11/2[505].      
+#P 52.4+X    AP  9+                7.6 M    3              5.05E+3   6    
+

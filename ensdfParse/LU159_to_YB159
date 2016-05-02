@@ -1,0 +1,18 @@
+#159YB    159LU EC DECAY                1980AL14                  12NDS    201201
+#  159LU EC DECAY                1980AL14                  12NDS    201201
+#H TYP=FUL$AUT=C. W. Reich$CIT=NDS 113, 157 (2012)$CUT=31-Dec-2010$       
+#  DATA SET UPDATED (AUGUST, 2010) BY CW REICH TO INCLUDE NEW QP VALUE    
+#   AND MODIFIED COMMENTS.                                                
+#  Produced by spallation with 1-GeV protons on W target and mass         
+#   separation. G's measured with Ge detector and |a's with Si.           
+#  1995Ve05 measured the end-point energy of the positron                 
+#   spectrum, but indicate only that the value is consistent,             
+#   to within the 100 keV uncertainty, with the known value.              
+#G E         1980AlZN, by the same authors as 1980Al14, report two        
+#G  additional G's with energies of 225.60 and 292.83 and with            
+#G  IG=12 and 23, respectively. Evaluator assumes that the information    
+#G  in 1980Al14 represents the authors' final assessment.                 
+#P   0                           12.1 S    10             6127      42    
+LU159 YB159 beta+ 6.127 12.1 1.0
++G gamma 0.15050999999999998 1.0
+

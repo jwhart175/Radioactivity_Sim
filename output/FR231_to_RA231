@@ -1,0 +1,32 @@
+#231RA    231FR B- DECAY                2001FR05                  13NDS    201306
+#  231FR B- DECAY                2001FR05                  13NDS    201306
+#H TYP=FUL$AUT=E. BROWNE, J. K. TULI$CIT=NDS 114, 751 (2013)$             
+#H CUT=24-May-2013$                                                       
+#  New conversion coefficients (BRICC) (August 9, 2012).                  
+#  Calculated NR using new conversion coefficients (August 9, 2012).      
+#  Recalculated B- feedings and logfts (August 10, 2012, April 3, 2012)   
+#  231FR was produced by spallation of 1 GeV proton beam on uranium       
+#  targets. The activity was mass-separated at ^CERN ^ISOLDE on-line      
+#  separator, deposited on a magnetic tape, and then radiations           
+#  counted at two stations. Measured G-ray singles, B- G coincidences,    
+#  GG coincidences, conversion electrons singles and in coincidence       
+#  with G rays. Detectors: Hyperpure germanium for G rays, plastic        
+#  scintillators for B- particles, and a cooled Si(Li) with a magnetic    
+#  mini-orange filter for conversion electrons. Additional measurements   
+#  were done with the ^OSIRIS fission product separator in Sweden.        
+#  Others: 1985HI02.                                                      
+#B IB$Deduced by evaluator from G-ray transition intensity balance.       
+#G E(A)$Tentatively assigned to 231RA.                                    
+#G E(B)$Possible doublet.                                                 
+#G E(C)$Possible multiplet.                                               
+#L E$Deduced by evaluator from a least-squares fit to G-ray energies.     
+#L T$Measured with Advanced Time Delayed BGG(t) method.                   
+#L BAND(A)   5/2[622]                                                     
+#L BAND(B)   1/2[631]                                                     
+#L BAND(C)   5/2[572]                                                     
+#L BAND(D)   5/2[633]                                                     
+#L BAND(E)   3/2[631]                                                     
+#L BAND(F)   1/2[501]                                                     
+#P 0.0          (1/2+)           17.6 S    6              3848      28    
+FR231 RA231 beta- 3.848 17.6 0.0253
+

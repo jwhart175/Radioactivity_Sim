@@ -1,0 +1,42 @@
+#179TA    179W EC DECAY (37.05 M)       1969KO18,1968HA39,1969BI1009NDS    200902
+#  179W EC DECAY (37.05 M)       1969KO18,1968HA39,1969BI1009NDS    200902
+#H TYP=FUL$AUT=Coral M. BAGLIN$CIT=NDS 110, 265 (2009)$CUT=15-Nov-2008$   
+#  1969Ko18: Measured EG, IG, GG coin, Ice. Detectors: Ge(Li), Si(Li).    
+#  1968Ha39: Measured EG, Ice. Detector: magnetic spectrograph.           
+#  1969Bi10: Measured EG, G(T). Detector: Ge(Li).                         
+#G RI        From 1969Ko18.                                               
+#L J         FROM Adopted Levels.                                         
+#L BAND(A)   7/2[404] GS BAND.                                            
+#L BAND(B)   9/2[514] BAND MEMBER.                                        
+#P 0.0          7/2-             37.05 M   16             1063      16    
+W179 TA179 beta+ 1.063 2223.0 1.0
++G gamma 0.030699999999999998 1.0
++G gamma 0.13390000000000002 0.0059
+
+#179TA    179W EC DECAY (6.40 M)        1969KO18,1969BI10         09NDS    200902
+#  179W EC DECAY (6.40 M)        1969KO18,1969BI10         09NDS    200902
+#H TYP=FUL$AUT=Coral M. BAGLIN$CIT=NDS 110, 265 (2009)$CUT=15-Nov-2008$   
+#  1969Ko18: measured EG, IG, GG coin, Ice. Detectors: Ge(Li), Si(Li).    
+#  1969Bi10: measured EG, IG, G(T). Detector: Ge(Li).                     
+#  THE LEVEL SCHEME IS THAT OF 1969KO18 AFTER THE ELIMINATION OF AN       
+#  UNOBSERVED 8.7G (TI |<34 14) CONNECTING THE 750 AND 742 LEVELS.        
+#  1969KO18 PROPOSED THIS G TO ACHIEVE INTENSITY BALANCE AT THE 742 LEVEL 
+#  BECAUSE THEY BELIEVED THAT LEVEL TO BE THE 5/2 MEMBER OF THE 1/2[541]  
+#  BAND TO WHICH THERE SHOULD BE AT MOST A NEGLIGIBLE EC BRANCH FROM THE  
+#  1/2- PARENT.                                                           
+#E TI(G)     Because the 7.4 KEV transition is unobserved, TI to          
+#E this level is given as an upper limit. TI(520+527 levels)=0.07% 5.     
+#G E,RI      From 1969Ko18. IG from singles spectrum, except as noted.    
+#G M,MR      FROM Adopted Gammas, EXCEPT AS NOTED.                        
+#G ELC VALUES QUOTED FROM 1969KO18 WERE NORMALIZED ASSUMING KC(M3)=6.45   
+#G FOR THE 221.5G IN 179W.                                                
+#G RI(E)     Deduced by evaluator BY SCALING IG FROM spectrum gated by    
+#G 282G in 1969KO18 BY 0.85 (BASED ON I(239G):I(282G)=100:85 IN SINGLES   
+#G SPECTRUM).                                                             
+#L J         FROM Adopted Levels.                                         
+#L BAND(A)   7/2[404] GS BAND.                                            
+#L BAND(B)   5/2[402] BAND.                                               
+#L BAND(D)   1/2[411] BAND.                                               
+#P 221.91    3  1/2-             6.40 M    7              1063      16    
+W179 TA179 beta+ 1.063 384.0 1.0
+

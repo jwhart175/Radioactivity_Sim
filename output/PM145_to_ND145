@@ -1,0 +1,17 @@
+#145ND    145PM EC DECAY                1974TO04,1959BR65         09NDS    200902
+#  145PM EC DECAY                1974TO04,1959BR65         09NDS    200902
+#H TYP=FUL$AUT=E. BROWNE, J. K. TULI$CIT=NDS 110, 507 (2009)$             
+#H CUT=1-Oct-2008$                                                        
+#  Modified by E. Browne (April 15, 2008).                                
+#  Measured: EG, RI, XK, (XK) G-coin (1974To04,1959Br65), G(T)            
+#  (1959Br65,1967My01,1970Ka36)                                           
+#  I(XK)/I(67G+72G)=23.8 7 (1959Br65), XL/XK=0.161 16 (1972Ni16);         
+#  I(XK)/I(67G+72G)=23.3 20 (1971Ge11)                                    
+#G CC$ FROM BrIcc v2.2 (31-Mar-2008) 2008KiAA, "Frozen Orbitals" appr.    
+#L J         Adopted values                                               
+#L T         Quoted by 1970Ka36 (see 1967My01). See also 1959Br65         
+#P 0.0         5/2+              17.7 Y    4              163.4     22    
+PM145 ND145 beta+ 0.16340000000000002 5.5855728576E8 0.022
++G gamma 0.06720000000000001 0.31
++G gamma 0.0724 1.0
+

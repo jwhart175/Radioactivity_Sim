@@ -1,0 +1,21 @@
+#253FM    253MD EC DECAY                2011AN13                  13NDS    201309
+#  253MD EC DECAY                2011AN13                  13NDS    201309
+#H TYP=FUL$AUT=E. BROWNE, J. K. TULI$CIT=NDS 114, 1041 (2013)$            
+#H CUT=1-Mar-2012$                                                        
+#  {+253}Md produced from the |e/|b{++} decay of {+253}No.                
+#  {+253}No produced by {+207}Pb({+48}Ca,2n) E({+48}Ca)=218.4 MeV from    
+#  ECR-ion source of the UNILAC at GSI. Target={+207}Pb of thickness 418  
+#  |mg/cm{+2} enriched to 98.9% evaporated on a 40 |mg/cm{+2} carbon      
+#  backing. Evaporation residues (ERs) separated by velocity filter SHIP, 
+#  implantation events detected by position-sensitive 16-strip PIPS       
+#  detector in the focal plane of SHIP. |g-rays detected using a four     
+#  crystal Ge-clover detector, calibrated with {+133}Ba and {+152}Eu with 
+#  estimated accuracy of |+0.3 keV. Measured E|g, I|g, (ce)|g coin,       
+#  |g|g coin, (x ray)|g coin.                                             
+#  The tentative partial decay scheme is proposed by 2011An13             
+#L BAND(A)$ |n1/2[620]                                                    
+#L BAND(B)$ |n3/2[622]                                                    
+#L BAND(C)$ |n7/2[613]                                                    
+#P 0            7/2-              6 M      +12-3          1825      31    
+MD253 FM253 beta+ 1.825 0.0 1.0
+

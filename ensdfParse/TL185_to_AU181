@@ -1,0 +1,29 @@
+#181AU    185TL A DECAY (1.93 S)        1980SC09,1976TO06,1980TOZZ05NDS    200601
+#  185TL A DECAY (1.93 S)        1980SC09,1976TO06,1980TOZZ05NDS    200601
+#H TYP=FUL$AUT=S. -C. WU$CIT=NDS 106, 367 (2005)$CUT=31-Aug-2005$         
+#  Source of parent %|a=0.10 {I3} in 91Nuclear Data Sheets not stated; I  
+#  can find no source for this datum, so have deleted it (cmb; 4/99).     
+#  Sources produced by mass separation of products following              
+#  {+142}Nd({+48}Ti,p4n), E=5.1 MeV/nucleon (1980Sc09) or                 
+#  {+180}W({+14}N,9n), E=168 MeV (1976To06).                              
+#G E         Association of these gammas with a specific nuclide          
+#G is uncertain at present.                                               
+#L E         It is unclear which levels in {+181}Au are fed by |a decay   
+#L from the 454-keV (9/2-) isomer of {+185}Tl. Based on systematics of    
+#L 9/2- isomer |a decays from heavier odd-A Tl isotopes, the strongest    
+#L branch is expected to feed the lowest-energy 9/2- level in {+181}Au.   
+#L The level fed by the 6010|a (35 keV {I6} below the latter level) could 
+#L be the (3/2-) g.s. or an unobserved 5/2- level which forms the g.s. in 
+#L neighboring odd-A Au isotopes.                                         
+#L In this case, the 35+x level would be the (9/2-) state.                
+#A IA        From 1980ToZZ.                                               
+#A $If r{-0}=1.505 {I20} (based on r{-0}({+180}Pt)=1.512 11 and           
+#A r{-0}({+182}Hg)=1.50 2 from 1998Ak04), T{-1/2}({+185}Tl)=1.93 s {I8},  
+#A Q(|a)=5744 {I50} (based on E|a=5976 {I4} to {+181}Au(90 {I50})         
+#A from {+185}Tl(454.8 {I15})), then HF(5976|a) between 1 and 4           
+#A implies %|a({+185}Tl) is of the order of 2 {I1}. However, the Q(|a)    
+#A assumed here differs from Q(|a)=5690 {I50} (2003Au03).                 
+#P 454.8     15 (9/2-)           1.93 S     8             5690      50    
++A alpha 6.01 0.18
++A alpha 5.976 0.82
+

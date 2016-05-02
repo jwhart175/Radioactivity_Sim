@@ -1,0 +1,41 @@
+#168W     168RE EC DECAY                1992ME10                  10NDS    201008
+#  168RE EC DECAY                1992ME10                  10NDS    201008
+#H TYP=FUL$AUT=CORAL M. BAGLIN$CIT=NDS 111, 1807 (2010)$CUT=15-Jun-2010$  
+#  The tentative decay scheme and all data are from 1992Me10.             
+#  THE largest EC+B+ IMBALANCE OCCURS AT THE 6+ 1042 LEVEL, BUT           
+#  SIGNIFICANT IMBALANCE OCCURS AT 4+ AND 8+ STATES AS WELL, AND          
+#  IMPLIED LOGFT VALUES TO PI=(-) LEVELS ARE LOWER THAN EXPECTED FOR      
+#  FIRST-FORBIDDEN TRANSITIONS.  IT IS CONCEIVABLE THAT THE 168RE PARENT  
+#  HAS TWO ISOMERIC STATES WITH SIMILAR HALF-LIFE, RESULTING IN MIXED     
+#  PARENTAGE FOR THE REPORTED DECAY, BUT THERE IS NO SUPPORTING EVIDENCE  
+#  FOR THIS AT PRESENT.  GIVEN THE LARGE Q VALUE FOR THIS DECAY,          
+#  IT IS ALSO LIKELY THAT THE PRESENT DECAY SCHEME IS INCOMPLETE;         
+#  1992ME10 REPORT NO EG VALUES ABOVE 1568 KEV for any nuclide in         
+#  their experiment, so there may exist HIGHER ENERGY TRANSITIONS THAT    
+#  WERE UNDETECTED IN THATR STUDY.  FURTHER EXPERIMENTAL INFORMATION      
+#  CONCERNING THIS DECAY IS NEEDED.                                       
+#  1992ME10: sources from 141PR(32S,5N), E(32S) AP 178-190 MEV, helium-jet
+#  transport; monoisotopic 141PR targets; measured excitation             
+#  functions, EG, IG (GELI, Ge GX detectors), GG coin, GX coin.           
+#E TI        FROM TI IMBALANCE AT EACH LEVEL.                             
+#G RI        Arbitrary units relative to RI(363.2G)=100.                  
+#G M         From Adopted Gammas.                                         
+#L E         FROM LEAST-SQUARES FIT TO EG.                                
+#L J         FROM Adopted Levels.                                         
+#L BAND(A)   KPI=0+ GS band.                                              
+#P  0.0         (7+)             4.4 S     1              9100      30    
++B beta+ 3.466 0.126
++B beta+ 3.237 0.25
++B beta+ 3.202 0.04
++B beta+ 3.125 0.038
++B beta+ 3.003 0.044000000000000004
++B beta+ 2.983 0.036000000000000004
++B beta+ 2.979 0.052000000000000005
++B beta+ 2.972 0.084
++B beta+ 2.926 0.018000000000000002
++B beta+ 2.896 0.057999999999999996
++B beta+ 2.862 0.043
++B beta+ 2.68 0.013999999999999999
++B beta+ 2.581 0.037000000000000005
++B beta+ 2.557 0.017
+

@@ -1,0 +1,21 @@
+# 98SR    248CM SF DECAY                1991HO16,1996SM04,2001UR0103NDS    200305
+#  248CM SF DECAY                1991HO16,1996SM04,2001UR0103NDS    200305
+#H TYP=FUL$AUT=BALRAJ SINGH, ZHIQIANG HU$CIT=NDS 98, 335 (2003)$          
+#H CUT=31-Jan-2003$                                                       
+#  1991Ho16: Measured E|g, I|g, |g|g                                      
+#  1996Sm04, 2001Ur01: Measured E|g, I|g, |g|g,                           
+#  lifetimes by Doppler-profile method using eurogam-2 array              
+#  Others: 1972Ho08, 1970Jo20                                             
+#G E$From 1991Ho16, unless otherwise stated.                              
+#G RI$From 1991Ho16. Uncertainty is stated as 10% for strong and 25% for  
+#G weak transitions                                                       
+#L E$From E|g's, assuming |D(E|g)=0.3 keV for each |g ray                 
+#L J$From adopted levels                                                  
+#L T$From Doppler-profile method (1996Sm04). Uncertainty is               
+#L calculated (evaluators) by combining in quadrature statistical         
+#L (|?12%) and 10% in stopping powers quoted by 1996Sm04                  
+#L BAND(A)$ GS BAND.                                                      
+#L Q(intrinsic)={ 3.40 {i15}} (2001Ur01). Other: { 3.17 {i20}} (1996Sm04).
+#L Q{-0} deduced from lifetime data for 8+, 10+ and 12+ states            
+#P 0            0+               3.48E+5 Y 6                              
+

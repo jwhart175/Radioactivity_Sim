@@ -1,0 +1,20 @@
+#112RH    252CF SF DECAY                2004LU03,2013Li23         15NDS    201412
+#  252CF SF DECAY                2004LU03,2013Li23         15NDS    201412
+#H TYP=FUL$AUT=S. LALKOVSKI, F.G. KONDEV$CIT=NDS 124, 157 (2015)$         
+#H CUT=1-Aug-2014$                                                        
+#  2004Lu03,2013Li23, : Source: 62 |mCi 252CF, placed between 10 mg/cm{+2}
+#  thick FE foils; Detectors: ^GAMMASPHERE array consisting of 102        
+#  Compton-suppressed Ge detectors; Measured |g|g, |g|g|g, E|g, I|g;      
+#  Deduced: 112RH level scheme                                            
+#  Others: 1972HO08, 1971HO29, 1974CLZX, 1970Jo20, 1969WIZX               
+#L E$From least-squares fit to EG                                         
+#L J$From 2004Lu03 and 2013Li23                                           
+#L BAND(A)$|pg{-9/2}~#|nh{-11/2}, |a=1 rotational band                    
+#L BAND(a)$member of |pg{-9/2}~#|nh{-11/2}, |a=0 rotational band          
+#L BAND(B)$ rotational band built on the (9-) state at Y+557.8 KEV        
+#G E,RI$From 2004LU03, unless otherwise noted                             
+#G E(b)$From 2013Li23. Uncertainties were estimated by the evaluators     
+#G M$From the intensity imbalances and ICC in 2004LU03                    
+#P  0           0+                2.645 Y  8                              
+CF252 RH112 SF 0.0 0.0 0.03086
+

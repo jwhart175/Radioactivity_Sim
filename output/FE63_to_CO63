@@ -1,0 +1,34 @@
+# 63CO    63FE B- DECAY                 1985RU05                  ENSDF    200906
+#  63FE B- DECAY                 1985RU05                  ENSDF    200906
+#H TYP=FUL$AUT=HUO JUNDE, YANG DONG, HUO MEIRONG,$CIT=ENSDF$              
+#H CUT=28-Aug-2008$                                                       
+#H TYP=FUL$AUT=BAI ERJUN, HUO JUNDE$CIT=NDS 92, 147 (2001)$CUT=1-Mar-1999$
+#  {+63}Fe from W({+82}Se,X), E=11.5 MeV/U, E|g, I|g, |b|g, |g|g          
+#  coincidence                                                            
+#B           I|b(g.s.): from comparison of |b singles and |b|g coin       
+#B spectra (1985Ru05). The evaluator assigns                              
+#B an uncertainty of 34% based on value given by the same group in        
+#B 1983Ru06                                                               
+#L J         From adopted levels.                                         
+#P 0.0         (5/2-)            6.1 S     6              6.06E+3   19    
+FE63 CO63 beta- 6.06 6.1 0.14
++G gamma 0.35719999999999996 0.005
++G gamma 0.36860000000000004 0.01
++G gamma 0.4176 0.005
++G gamma 1.1005 0.009000000000000001
++G gamma 1.543 0.013999999999999999
++G gamma 2.154 0.039
++G gamma 0.9947999999999999 1.0
++G gamma 0.43210000000000004 0.044000000000000004
++G gamma 1.4272 0.33
++G gamma 0.49960000000000004 0.013999999999999999
++G gamma 1.4946 0.08
++G gamma 0.1497 0.0022
++G gamma 0.582 0.015
++G gamma 0.4613 0.006999999999999999
++G gamma 0.8937999999999999 0.013000000000000001
++G gamma 1.299 0.08800000000000001
++G gamma 1.7993 0.025
++G gamma 2.796 0.008
++G gamma 2.427 0.015
+

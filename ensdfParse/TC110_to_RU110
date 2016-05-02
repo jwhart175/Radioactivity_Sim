@@ -1,0 +1,65 @@
+#110RU    110TC B- DECAY                2000WA07,1990Ay02         12NDS    201206
+#  110TC B- DECAY                2000WA07,1990Ay02         12NDS    201206
+#H TYP=FUL$AUT=G. G~URDAL and F.G. KONDEV$CIT=NDS 113, 1315 (2012)$       
+#H CUT=1-Aug-2011$                                                        
+#G CC$ FROM BrIcc v2.2 (31-Mar-2008) 2008KiAA, "Frozen Orbitals" appr.    
+#  2000Wa07: Source : {+110}Tc was produced by proton                     
+#  induced-fission of {+238}U and was extracted using online-mass         
+#  separation technique at Jyvaskyla. A moving tape, 2 plastic            
+#  scintillators, 3 Ge detectors and one ^LEPS detector were used.        
+#  Measured: |b|g, |g|g. Deduced: E|g, I|g, J|p                           
+#  1990Ay02: {+110}Tc was produced by proton induced-fission of {+238}U   
+#  and was extracted using online-mass  separation technique at Jyvaskyla.
+#  The intensity of the separated {+110}Tc beam was 200 |mC. A moving tape
+#  was used to transport the mass-separated beam. Gamma-rays were         
+#  detected using 25~% and 20~% Ge detectors. The X-rays and the          
+#  low-energy |g-rays were detected by using 1.4 cm{+3} Ge detector. The  
+#  |b-rays were observed with a telescope system consisting of a 300      
+#  mm{+2}, 500 |mm thick surface barrier |DE detector and a 6 cm thick,   
+#  7.5 cm in diameter ^N^E102 plastic E-detector. ELLI spectrometer was   
+#  used to measure the internal conversion electrons                      
+#  Others: 2000WA14, 1995SC24, 1990AL43, 1991JO11, 1990Al43, 1988ALZY,    
+#  1978FR16, 1976MAYL, 1976TR02, 1975FE12, 1973TRZM, 1969WIZX             
+#B IB$From intensity balances and the level scheme by the evaluators.     
+#B Since the decay scheme suffers from pandemonium, values should be      
+#B considered as tentative.                                               
+#B LOGFT$Since the decay scheme is incomplete (pandemonium), the values   
+#B are tentative                                                          
+#G E,RI$From 2000Wa07, unless otherwise stated.                           
+#G M$From {+110}Ru adopted gammas                                         
+#L E$From a least-square fit to E{-|g}.                                   
+#L J$From adopted levels                                                  
+#P 0.0          (2,3+)            0.900 S  13             9039      13    
++B beta- 4.0249 0.233
++G gamma 0.2407 0.7659999999999999
++B beta- 3.8474 0.183
++B beta- 3.8233 0.03
++B beta- 3.7294 0.085
++B beta- 3.6222 0.0104
++B beta- 3.4731 0.05
++B beta- 3.3491 0.02
++B beta- 3.2804 0.013000000000000001
++B beta- 3.2703 0.047
++B beta- 3.2403000000000004 0.01
++B beta- 3.1949 0.0161
++B beta- 3.1828000000000003 0.0222
++B beta- 3.1641999999999997 0.013000000000000001
++B beta- 3.162 0.043
++B beta- 3.1437 0.0291
++B beta- 3.116 0.0077
++B beta- 3.1114 0.034
++B beta- 3.0866 0.0067
++B beta- 3.0570999999999997 0.0092
++B beta- 3.0228 0.006
++B beta- 3.0089 0.015300000000000001
++B beta- 2.9868 0.0069
++B beta- 2.9837 0.0040999999999999995
++B beta- 2.9493 0.0123
++B beta- 2.9203 0.0034000000000000002
++B beta- 2.9099 0.0075
++B beta- 2.7331999999999996 0.0038
++B beta- 2.703 0.0245
++B beta- 2.6965 0.0077
++B beta- 2.6713 0.0292
++B beta- 2.6620999999999997 0.0123
+

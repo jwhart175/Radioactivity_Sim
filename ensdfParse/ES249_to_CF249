@@ -1,0 +1,70 @@
+#249CF    249ES EC DECAY                1976AH07                  11NDS    201108
+#  249ES EC DECAY                1976AH07                  11NDS    201108
+#H TYP=FUL$AUT=KHALIFEH ABUSALEEM$CIT=NDS 112, 2129 (2011)$               
+#H CUT=31-Dec-2010$                                                       
+#  Mass-separated sources, G's GELI, CE SILI                              
+#E           Q+=1450 SY, estimated DQ+=30 (1995Au04)                      
+#E           JPI(249ES)=7/2+                                              
+#G CC$ FROM BrIcc v2.2a (13-Jul-2008) 2008Ki07, "Frozen Orbitals" appr.   
+#G           I(XK)=81.8 50 (XKA2=24.4 15, XKA1=38.0 23, XKB=18.2 8)       
+#G (1976Ah07); from the adopted decay scheme: I(XK)(from CEK)=10.6 8,     
+#G I(XK)(from EC to excited states)=52.5 27,                              
+#G I(XK)(from EC to g.s.)=18.7 57                                         
+#G           The authors normalized the CE and G spectra through          
+#G comparison with 137CS and 203HG standards, CC used not stated.         
+#G M,MR      From 1976Ah07, based on conversion coefficients and CE ratios
+#G M(A)      For analysis of anomalous M2 conversion coefficients, see    
+#G 1993Li52                                                               
+#L E         From least-squares fit to EG                                 
+#L J         From adopted levels. Band assignments are from 1976Ah07.     
+#L BAND(A)   9/2-[734] BAND                                               
+#L BAND(B)   5/2+[622] BAND                                               
+#L BAND(C)   7/2+[624] BAND                                               
+#L BAND(D)   7/2+[613] BAND                                               
+#L BAND(E)   KPI=5/2-; GAMMA VIBRATIONAL BAND BUILT ON 9/2[734]           
+#L BAND(F)   9/2+[615] ^Nilsson state                                     
+#L BAND(G)   KPI=7/2-; THREE-QUASIPARTICLE STATE                          
+#L CONF=((P,7/2(633))(P,3/2(521))(N,3/2(622)))                            
+#P 0            7/2+              102.2 M   6               1450    SY    
++G gamma 1.0005 2.02E-4
++G gamma 1.0214 1.01E-4
++B beta+ 0.222 2.3999999999999997E-5
++B beta+ 7.038E-4 0.09
++B beta+ 7.391E-4 0.001
++B beta+ 7.359E-4 0.01
++B beta+ 7.304000000000001E-4 0.05
++B beta+ 7.276E-4 0.07
++G gamma 0.44310000000000005 3.1309999999999997E-4
++B beta+ 7.273E-4 0.07
++G gamma 0.37010000000000004 0.0014140000000000003
++G gamma 0.4337 6.261999999999999E-4
++G gamma 0.6253 0.001313
++G gamma 0.6683 0.002424
++B beta+ 6.929999999999999E-4 0.0022
++G gamma 0.6092000000000001 3.03E-4
++G gamma 0.664 1.01E-4
++G gamma 0.707 3.03E-4
++B beta+ 6.87E-4 0.0022
++G gamma 0.7663 0.00101
++G gamma 0.84 9.797E-4
++G gamma 0.9026000000000001 1.8179999999999997E-4
++B beta+ 6.760000000000001E-4 0.0023
++G gamma 0.5073 4.04E-4
++G gamma 0.7663 0.00101
++G gamma 0.8205 1.01E-4
++G gamma 0.8627999999999999 1.8179999999999997E-4
++G gamma 0.9454 0.002424
++G gamma 1.0079 0.007372999999999999
++B beta+ 6.44E-4 0.002
++G gamma 1.1373 1.01E-4
++G gamma 1.1998 1.616E-4
++B beta+ 4.6E-4 0.0038
++B beta+ 4.1E-4 0.0040999999999999995
++G gamma 1.0932 3.1309999999999997E-4
++G gamma 1.238 2.323E-4
++B beta+ 3.5E-4 0.0045000000000000005
++G gamma 1.2050999999999998 3.03E-4
++G gamma 1.2678 6.06E-5
++B beta+ 2.2E-4 0.0054
++G gamma 1.3043 3.8379999999999995E-4
+

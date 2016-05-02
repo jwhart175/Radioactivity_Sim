@@ -1,0 +1,47 @@
+#138PR    138ND EC DECAY                1981ABZV                  03NDS    200305
+#  138ND EC DECAY                1981ABZV                  03NDS    200305
+#H TYP=FUL$AUT=A.A. Sonzogni$CIT=NDS 98, 515 (2003)$CUT=1-Dec-2002$       
+#  Measured: GAMMA, CE (1971Af05,1981AbZV,1987BaZC)                       
+#  Others: 1974Bu03, 1980ZhZZ                                             
+#E           B+ LE 2.5%, EC/B+ GE 40, Q+ LT 1750 KEV (1974BaZU)           
+#G           EG, RI, EKC, ELC from 1981AbZV                               
+#G E(B)$From 1987BaZC. Placed in level scheme by evaluator based on       
+#G energy differences                                                     
+#G M(C)$From 1987BaZC                                                     
+#G RI        Normalized to 100 for the 789G in 1.45-min                   
+#G 138PR decay (ND-PR source in equilibrium)                              
+#G M         Multipolarities are based on CE data.                        
+#G I(CE) are normalized to                                                
+#G EKC(789G in PR decay)=0.00297 (E2, theory)                             
+#G MR$From 1987BaZC, based on L-subshell ratios.                          
+#G           I(XKA1+XKA2 Pr)=2350 250; I(XKB1P Pr)=380 40;                
+#G I(XKB2P Pr)=80 15                                                      
+#L E$From least-squares fit to EG.                                        
+#L J,T         Adopted values                                             
+#P 0.0         0+                5.04 H    9              1.1E+3    SY    
+ND138 PR138 beta+ 1.1 18144.0 1.0
++B beta+ 8.345000000000001E-4 0.0012
++G gamma 0.19421000000000002 0.0025440000000000003
++G gamma 0.1995 0.005496
++B beta+ 8.419E-4 0.0012
++G gamma 0.12614 0.001104
++G gamma 0.32576 0.02928
++G gamma 0.13273 0.0017519999999999999
++G gamma 0.32689999999999997 2.4E-4
++B beta+ 8.38E-4 0.00126
++G gamma 0.0626 2.88E-4
++B beta+ 8.37E-4 0.00127
++G gamma 0.1163 8.640000000000001E-4
++B beta+ 8.34E-4 0.0012900000000000001
++G gamma 0.21413 7.2E-4
++G gamma 0.21531 0.00288
++G gamma 0.34164999999999995 0.004128
++G gamma 0.541 4.0800000000000005E-4
++B beta+ 8.33E-4 0.0013
++G gamma 0.234 2.1600000000000002E-4
++B beta+ 8.29E-4 0.00133
++G gamma 0.168 1.44E-4
++G gamma 0.2843 3.84E-4
++B beta+ 8.3E-4 0.00135
++G gamma 0.1785 2.88E-4
+

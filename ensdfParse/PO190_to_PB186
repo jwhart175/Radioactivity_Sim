@@ -1,0 +1,25 @@
+#186PB    190PO A DECAY                 2000AN14,1997BA25,1996BA3503NDS    200306
+#  190PO A DECAY                 2000AN14,1997BA25,1996BA3503NDS    200306
+#H TYP=FUL$AUT=CORAL M. BAGLIN$CIT=NDS 99, 1 (2003)$CUT=4-Apr-2003$       
+#  OTHERS: 2001AN07, 1999AN22, 1997AN09, 1988QUZZ.                        
+#  2001AN07, 2000AN14; 190PO SOURCE FROM 142ND(52CR,4n), E=255 MEV;       
+#  measured EA, IA, (|a)(ce) coin, |a-X COIN, |a|g coin, ^T{-1/2}(190PO); 
+#  deduced triplet structure of 0+ states with spherical, oblate and      
+#  prolate shapes.                                                        
+#  ^T{-1/2}(190PO)=2.45 MS 5 FROM 2000AN14 AND 2001AN07.  OTHERS: 2.5 MS 3
+#  (1999AN22), 2.0 MS +5-10 (1997Ba25). 1.9 MS +6-4 (1997An09),           
+#  2.0 MS +5-10 (1996Ba35); 10 MS +47-4 (1988QuZZ) MAY NOT BELONG         
+#  TO 190PO.                                                              
+#  QA(190PO)=7699 6 BASED ON ADOPTED EA=7537 6.                           
+#A HF        R0(186PB)=1.510 2 for HF(to GS)=1.0.                         
+#G E,M       Transition inferred from |a-ce coin data. AUTHORS DO NOT SHOW
+#G SPECTRUM OR GIVE MEASURED ce ENERGY, BUT SHOW TRANSITIONS FEEDING G.S. 
+#G E0 MULTIPOLARITY INFERRED BY AUTHORS FROM OBSERVATION OF ce ONLY.      
+#L E         FROM DIFFERENCE IN EA OBSERVED FOR TRANSITIONS TO GS AND     
+#L TO EXCITED STATES.                                                     
+#P 0.0          0+               2.45 MS   5              7699      6     
+PO190 PB186 alpha 7.699 0.0024500000000000004 1.00
++A alpha 7.537 0.9640000000000001
++A alpha 7.012 0.033
++A alpha 6.896 0.003
+

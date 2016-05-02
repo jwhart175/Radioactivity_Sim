@@ -1,0 +1,30 @@
+#127SN    127SN IT DECAY (4.52 US)      2000Pi03,2004Ga24         11NDS    201108
+#  127SN IT DECAY (4.52 US)      2000Pi03,2004Ga24         11NDS    201108
+#H TYP=FUL$AUT=A. HASHIZUME$CIT=NDS 112, 1647 (2011)$CUT=1-Oct-2009$      
+#  2004Ga24: {+235}U(n,F) E=th, on-line mass separation; |g, |b,          
+#  |g|g coin, |b|g coin                                                   
+#  2000Pi03: {+233}U(n,F),{+239}Pu(n,F), E=th, on-line mass separation;   
+#   |g, ce, |g|g coin,|g-ce coin, ce-ce coin                              
+#  An unknown excited state with half-life of 3.1 |ms {I9} has been       
+#  proposed by 1980De35 from |b|g(t) results for 715|g and 1094|g,        
+#  which have equal delayed intensities.                                  
+#  The decay scheme is proposed at first by 2000Pi03. The detail of decay 
+#  scheme including the 16.52 keV isomeric transition and 5 other |g-rays 
+#  is reported by 2004Ga24.                                               
+#L E         From adopted level                                           
+#L J         Spin and parity were estimated by analogy to {+123}Sn isomer.
+#L T         |g(t) from {+127}Sn produced by {+9}Be({+238}U,F) and        
+#L {+9}Be({+136}Xe,X) (2008Lo07); |g(t) from {+127}Sn produced by         
+#L by {+233}U(n,F) and {+239}Pu(n,F) (2000Pi03)); from |b|g(t) delayed    
+#L coincidence (2004Ga24): for the 4.52 |ms isomer                        
+#G E         Proposed by (2004Ga24)                                       
+#G RI        From 1.04 s {+127}In decay (2004Ga24), unless otherwise noted
+#G CC$Theoretical conversion coefficients are calculated using BrIcc code 
+#G for the multipolarity indicated.                                       
+#G E$Isomeric transition from the 1818(19/2+) level to the 1810(15/2+)    
+#G level is not directly measured.                                        
+#G           The cascade 184.8-979.1-646.34|g's were not reported by      
+#G 2000Pi03                                                               
+#P   1826.67 16 (19/2+)          4.52 US   15                             
+SN127 SN127 IT 0.0 4.52E-6 1.0
+

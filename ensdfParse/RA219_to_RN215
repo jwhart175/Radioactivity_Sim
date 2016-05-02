@@ -1,0 +1,46 @@
+#215RN    219RA A DECAY (10 MS)         1987EL02,1970VA13,1994SH0213NDS    201312
+#  219RA A DECAY (10 MS)         1987EL02,1970VA13,1994SH0213NDS    201312
+#H TYP=FUL$AUT=S.K. Basu, G. Mukherjee, B. Singh, S. Bhattacharya, A. De$ 
+#H AUT=D. Mondal$                                                         
+#H CIT=NDS 114, 2023 (2013)$CUT=23-SEP-2013$                              
+#  1994Sh02: {+219}Ra activity was produced as the daughter nuclide of    
+#  {+223}Th through the {+208}Pb({+18}O,3n){+223}Th reaction. Measured    
+#  E|a, I|a, |a|g coin from a source in equilibrium with {+223}Th.        
+#  Detectors:  Semiconductor, Ge(Li) detector.                            
+#  1987El02: {+219}Ra activity was produced as descendant of {+223}Th.    
+#  Measured E|a, E|g, I|g, Ice, |a|g coin, |a-ce coin. Detectors: semi,   
+#  Ge(Li), Si(Li). Assignment of |a-particle groups to {+219}Ra has been  
+#  based on the agreement with E|a from 1970Va13, and on the observation  
+#  of Rn K| x ray in coincidence with |a particles.                       
+#  Because of the decay scheme normalization, evaluators interpreted      
+#  absolute |g-ray transition intensities reported by authors as          
+#  absolute I(|g+ce) (photons plus conversion electrons) intensities.     
+#  1970Va13: {+219}Ra activity was produced by {+208}Pb({+16}O,|an), and  
+#  identified by excitation functions, cross bombardment, and genetic     
+#  relationship to its |a-decay daughter nucleus {+215}Rn. Measured E|a,  
+#  I|a.  Semiconductor detector.                                          
+#  1969Ha32: {+219}Ra activity was produced as descendant of {+227}U,     
+#  {+223}Th, and identified by its genetic relationship to its |a-decay   
+#  daughter nucleus {+215}Rn. Measured E|a, I|a. Semiconductor detector.  
+#A IA(X)$Deduced by evaluators from |g-ray transition intensity balance.  
+#A HF$Using r{-0}({+215}Rn)=1.5595 {I60}, interpolated value deduced from 
+#A r{-0}({+214}Rn)=1.563 {I4}, and r{-0}({+216}Rn)=1.556 {I8} (1998Ak04). 
+#G $See 1989Ha26 for |a|g(|q).                                            
+#G E,TI$From 1987El02, unless otherwise specified.                        
+#G TI$Absolute transition intensity measured relative to %I(|g+ce)=66.2   
+#G {I15} for 316|g. This value resulted from a precise measurement of     
+#G the |a-particle abundance that populates the 316 level (1987El02).     
+#L $1994Sh02 interpreted the level structure in {+215}Rn in terms of      
+#L both the reflection asymmetric model and the shell model.              
+#L E(A)$Member of configuration=|ng{-9/2}{+2}~#|ni{-11/2}                 
+#L E(B)$Configuration=|ng{-9/2}{+2}~#|nj{-15/2}                           
+#L E(C)$Member of configuration=|ng{-9/2}{+3}                             
+#L J,T$From Adopted Levels.                                               
+#L E$From least squares fit to |g-ray energies of 1987El02.               
+#P 0.0          (7/2)+            10 MS     3              8138     3     
++A alpha 7.988 0.305
++A alpha 7.78 0.005
++A alpha 7.706 0.009000000000000001
++A alpha 7.678 0.662
++A alpha 7.198 0.024
+

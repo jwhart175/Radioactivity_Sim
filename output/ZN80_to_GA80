@@ -1,0 +1,75 @@
+# 80GA    80ZN B- DECAY (0.54 S)        2014LI32,1987WI13,1986EK01ENSDF    201408
+#  80ZN B- DECAY (0.54 S)        2014LI32,1987WI13,1986EK01ENSDF    201408
+#H TYP=FUL$AUT=BALRAJ SINGH$CIT=ENSDF$CUT=31-AUG-2014$                    
+#H TYP=FUL$AUT=BALRAJ SINGH$CIT=NDS 105, 223 (2005)$CUT=22-Jun-2005$      
+#  2014Li32: {+80}Zn isotope produced in U(p,F),E=1 GeV; and in U(n,F),   
+#  E=fast neutrons from a proton beam hitting a neutron converter.        
+#  Resonant laser ionization was used to produce pure Zn ion beam, then   
+#  accelerated to 40 keV at ISOLDE-CERN facility. Measured E|g, I|g, |b   
+#  particles, |g|g-coin, level half-life by |b|g(t). For |g rays, two HPGe
+#  detectors and two LaBr{-3}(Ce) crystals were used; and for |b          
+#  particles, a plastic scintillator was used. Deduced levels, J,|p, level
+#  half-life, multipolarity, beta feedings, log| {Ift} values.            
+#  1987Wi13 (also 1986Gi07): {+80}Zn produced by mass separation of A=80  
+#  fission fragments from {+235}U(n,F). Measured E|g, I|g, |g|g, |b|g,    
+#  T{-1/2} and Q(|b{+-}) value. A total of 28 |g rays reported by         
+#  1987Wi13, two of which were unplaced. The 0.55-s activity was          
+#  assigned to {+80}Zn and not to an isomer of {+80}Ga, based on several  
+#  strong arguments given by 1987Wi13. The |g spectrum was heavily        
+#  contributed by impurities from decays of {+80}Ga, {+80}Ge and {+80}As  
+#  1986Ek01: {+80}Zn produced by mass separation of fission fragments     
+#  from {+235}U(n,F). Measured E|g, I|g, |g|g, |b|g, T{-1/2} and          
+#  Q(|b{+-}). A total of 13 |g rays were reported, nine of which were     
+#  assigned in a decay scheme; four of the |g rays were tentative.        
+#  The |g spectrum was contributed by A=80 isobaric activities            
+#  1981Ru07, 1981Ho24: thermo-chromatographic technique used to identify  
+#  the isotope produced in neutron-induced fission of {+235}U             
+#  Others: 1988BaZX (yield measurement), 1988Kr08 (theory),               
+#  1991Kr15 (T{-1/2} and %|b{+-}n measurement)                            
+#  Theory: 2005Ni02                                                       
+#B IB,LOGFT$In evaluator's opinion, all values should be considered as    
+#B approximate since in the present level scheme there is a gap of about  
+#B 4.2 MeV between the Q(|b{+-}) value and the highest known level in     
+#B {+80}Ga at 3380 keV. There may be additional unobserved transitions    
+#B which could affect the quoted |b feedings and associated log| {Ift}    
+#B values, especially those for weakly fed levels                         
+#B $ Q(|b{+-}) value deduced from several |b-gated singles |g-ray         
+#B spectra (1987Wi13) and |b|g (1986Ek01)                                 
+#G $Following tentative |g rays with E|g(I|g) reported by 1986Ek01 are    
+#G omitted here for lack of confirmation in later studies: 123.0 {I3}     
+#G (4.3 {I15}), 527.8 {I3} (12.7 {I20}), 758.2 {I3} (12.3 {I30}).         
+#G 1987Wi13 reported I|g<12 for 123.0|g, and 5.6 for 527.8|g but with     
+#G probable assignment to {+80}Ga decay                                   
+#G E,RI$From 2014Li32. Data from 1987Wi13 and 1986Ek01 are generally      
+#G consistent but are less complete. The source purity, in the form of    
+#G extracted {+80}Zn bean, is the best in 2014Li32 of all the studies.    
+#G For this reason all |g-ray data are adopted from this paper, even      
+#G though some of the E|g values are given to a higher precision          
+#G in 1987Wi13. In 2014Li32, strong |g transitions were measured using    
+#G singles |g spectra and weaker lines from |g|g-coin spectra.            
+#G Statistical and peak fitting uncertainties are assigned                
+#G E(X)$From 2014Li32 only                                                
+#L $Levels of 1863 and 2478 keV in 1986Ek01, and 312, 387 and 486 keV     
+#L in 1987Wi13 have been omitted. The |g rays associated with these       
+#L levels have been reassigned to other levels in 2014Li32 based on       
+#L their extensive |g|g-coin data. Levels at 685, 712, 889, 964, 1171,    
+#L 1334, 1427, 1503, 2070 and 2655 keV proposed in 1987Wi13 and 1986Ek01  
+#L have been confirmed by 2014Li32, but all pushed upwards by 22.5 keV,   
+#L based on discovery of {+80}Ga isomer by 2013Ve13                       
+#L E$From least-squares fit to E|g data, reduced |h{+2}=0.76              
+#L J$From Adopted Levels, unless otherwise stated                         
+#L J(B)$From allowed LOGFT value from 0+ parent                           
+#L T(A)$From Adopted Levels                                               
+#L $The level scheme is from 2014Li32, based on previous level schemes    
+#L proposed by 1987Wi13 and 1986Ek01 from about 25 |g rays, except that   
+#L a large number of weak |g rays are identified by 2014Li32 from         
+#L extensive |g|g-coin data, and that most levels in 1987Wi13 and         
+#L 1986Ek01 are now higher by 22.5 keV, the location of 1.3-s isomer      
+#L proposed by 2013Ve03 and its energy by 2014Li32.                       
+#L $Levels at 1863 and 2478 keV in 1986Ek01, and 312, 386 and 485 keV in  
+#L 1987Wi13 are omitted here since no evidence was found for such levels  
+#L in the extensive |g|g-coin data of 2014Li32. The |g rays from these    
+#L levels are now assigned to other levels                                
+#P    0          0+               0.54 S   2              7575      4     
+ZN80 GA80 beta- 7.575 0.0 0.416
+

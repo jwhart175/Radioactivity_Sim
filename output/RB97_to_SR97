@@ -1,0 +1,45 @@
+# 97SR    97RB B- DECAY                 1990LH02                  10NDS    201004
+#  97RB B- DECAY                 1990LH02                  10NDS    201004
+#H TYP=FUL$AUT=N. NICA$CIT=NDS 111, 525 (2010)$CUT=19-Nov-2009$           
+#  1990Lh02: measured EG, IG, GG(T)                                       
+#  1983Kr11: measured EG, IG, ICE, GG, BG(T)                              
+#  1990Bu01: measured BGG(T)                                              
+#  1992Pr03: measured B- endpoint with achromatic magnetic                
+#  sector field filter with ^GE(^HP) B- detector                          
+#  Other: 1975Gu03                                                        
+#  1990Mo15, 1984Ha58, 1984Kr03, 1984Kr06, 1984Kr07: BETA-decay           
+#  strength function calculations                                         
+#  The level scheme is that proposed by 1983Kr11 and modified             
+#  by 1990Lh02                                                            
+#B IB$Calculated from intensity balance on the proposed level             
+#B scheme. The intensity of the ground-state BETA group was deduced by    
+#B 1983Kr11 from a filiation measurement assuming the absolute intensity  
+#B of I(743G 97NB)=0.928 and %B-N=25.2. (correcting for the adopted       
+#B RI (0.9306 15) and %B-N (25.5 9) does not alter the deduced IB(GS).)   
+#B IB(D),LOGFT(D)$The LOGFT value is in disagreement with the spin        
+#B assignment. The LOGFT value suggests J=1/2, 3/2, 5/2. However,         
+#B since the BETA group is weak, the available decay energy is high       
+#B (suggesting possible unknown higher levels), and there is enough       
+#B intensity in unplaced gammas which might feed this level, the B-       
+#B group can be considered questionable.                                  
+#B IB(E),LOGFT(E)$IB=1.21 18, LOGFT=6.58 7 IF PLACEMENT OF 768.7G TO      
+#B THIS LEVEL IS CONFIRMED                                                
+#G E,RI$From 1990Lh02                                                     
+#G M$Deduced from ECC and EKC (measured intensity balance and             
+#G I(XK)/IG, respectively, in coincidence spectra) (1990Lh02); and from   
+#G I(CE)/IG from simultaneously recorded spectra, using transitions of    
+#G known multipolarity of A=96 to 98 isotopes for internal calibration    
+#G (1983Kr11). SOME MULT. and MR VALUES, NOTED IN TABLE, ARE FROM ADOPTED 
+#G GAMMAS                                                                 
+#G M(F),MR(F)$FROM ADOPTED GAMMAS                                         
+#L E$From least squares fit to EG                                         
+#L J$From 97SR adopted levels                                             
+#L T$From 1990Bu01, except where otherwise noted.                         
+#L BAND(A)$ Band based on 5/2+, |a=+1/2                                   
+#L BAND(a)$ Band based on 3/2+, |a=-1/2                                   
+#L BAND(C)$ Band based on 3/2-, |a=-1/2                                   
+#L BAND(c)$ Band based on 5/2-, |a=+1/2                                   
+#P 0.0         3/2+              169.1 MS  6              10432     28    
+RB97 SR97 beta- 10.432 0.1691 1.0
++G gamma 0.1671 10.0
+

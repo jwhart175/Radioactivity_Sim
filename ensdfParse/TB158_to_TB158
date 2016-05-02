@@ -1,0 +1,24 @@
+#158TB    158TB IT DECAY (10.7 S)       1965SC11,1965BR21,1958GO7804NDS    200403
+#  158TB IT DECAY (10.7 S)       1965SC11,1965BR21,1958GO7804NDS    200403
+#H TYP=FUL$AUT=R. G. Helmer$CIT=NDS 101, 325 (2004)$CUT=1-Oct-2003$       
+#  Activity has been produced by {+159}Tb(|g,n) and {+159}Tb(n,2n)        
+#       reactions.                                                        
+#G M         From {+158}Tb Adopted Gammas.                                
+#L E         From |g energy.                                              
+#L J         From {+158}Tb Adopted Levels.                                
+#P 110.3     12 0-               10.70 S   17                             
+TB158 TB158 IT 0.0 10.7 1.0
+
+#158TB    158TB IT DECAY (0.40 MS)      1984BU30                  04NDS    200403
+#  158TB IT DECAY (0.40 MS)      1984BU30                  04NDS    200403
+#H TYP=FUL$AUT=R. G. Helmer$CIT=NDS 101, 325 (2004)$CUT=1-Oct-2003$       
+#  Activity produced by {+159}Tb(|g,n) with bremsstrahlung source         
+#       (1961Kr01,1967Hi08,1968Ga17) and by {+154}Sm({+7}Li,3n)           
+#       with E=27 MeV (1984Bu30).                                         
+#G E         From 1984Bu30, no uncertainties given.                       
+#G RI        From 1984Bu30, no uncertainties given; other: 1968Ga17.      
+#G M         From {+158}Tb Adopted Gammas or J|p assignments.             
+#L J         From {+158}Tb Adopted Levels.                                
+#L T         From 1961Kr01.                                               
+#P 388.4       7-                0.40 MS   4                              
+

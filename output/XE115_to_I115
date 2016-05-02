@@ -1,0 +1,36 @@
+#115I     115XE EC DECAY (18 S)         1969HA03                  12NDS    201210
+#  115XE EC DECAY (18 S)         1969HA03                  12NDS    201210
+#H TYP=FUL$AUT=JEAN BLACHOT$CIT=NDS 113, 2391 (2012)$CUT=1-Sep-2012$      
+#  Others: 1971Ho07, 1972Ho18, 1973LiZB                                   
+#  115XE source: cerium(P,SPALL) E=600 MEV, on-line MS                    
+#  See 1972Ho18 for B+/delayed-p ratio data via 115XE decay               
+#  BETA-delayed p branching from 116CS GS (3.9 S or 0.7 S):               
+#  %B+P=0.36 8 (1978Da07); (p)(55,107,318,580,590G)-coin                  
+#  observed. Other: p/B+=0.66 13 for 3.9 S 116CS (1977Bo28,1975Bo11)      
+#P 0.0         (5/2+)            18 S      4              7680      30    
+XE115 I115 beta+ 7.68 18.0 1.0
++G gamma 0.0567 0.8
++G gamma 0.5074 0.15
++G gamma 0.5647000000000001 0.24600000000000002
++G gamma 0.5769 0.59
++G gamma 0.6335 0.15
++G gamma 0.7318 0.373
++G gamma 0.10579999999999999 0.46299999999999997
++G gamma 0.2037 0.6920000000000001
++G gamma 0.3135 0.35200000000000004
++G gamma 0.3202 0.264
++G gamma 0.4107 1.04
++G gamma 0.3426 0.17600000000000002
++G gamma 0.517 1.0
++G gamma 0.3579 0.191
++G gamma 0.7012999999999999 0.13
++G gamma 0.37460000000000004 0.247
++G gamma 0.6217999999999999 0.867
++G gamma 0.3852 0.042
++G gamma 0.3935 0.1
++G gamma 0.7286 0.37200000000000005
++G gamma 0.4098 0.1
++G gamma 0.7968999999999999 0.245
++G gamma 0.8501000000000001 0.166
++G gamma 0.8939 0.102
+

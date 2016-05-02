@@ -1,0 +1,31 @@
+# 70CU    70CU IT DECAY (33 S)          2004VA08,2004VA07         04NDS    200412
+#  70CU IT DECAY (33 S)          2004VA08,2004VA07         04NDS    200412
+#H TYP=FUL$AUT=J. K. Tuli$CIT=NDS 103, 389 (2004)$CUT=16-Jan-2004$        
+#  2004Va08: Measured G, T1/2 with                                        
+#  two high-purity Ge detectors positioned opposite each other,           
+#  surrounding a plastic |DE scintillator.                                
+#  2004Va07: Resonant laser-ionization measurement combined with BG       
+#  coin studies; high-resolution mass spectroscopy. Three B- decaying     
+#  isomers identified                                                     
+#  2002We03: Measured half-lives and magnetic moments of three            
+#  isomers of 70CU by in-laser spectroscopy.                              
+#L T$From 2002We03, 2004VA08                                              
+#P 101.1     3  (3-)              33 S     2                              
+CU70 CU70 IT 0.0 0.0 1
+
+# 70CU    70CU IT DECAY (6.6 S)         2004VA08,2004VA07,2002WE0304NDS    200412
+#  70CU IT DECAY (6.6 S)         2004VA08,2004VA07,2002WE0304NDS    200412
+#H TYP=FUL$AUT=J. K. Tuli$CIT=NDS 103, 389 (2004)$CUT=16-Jan-2004$        
+#  All data are taken from 2004Va08, unless stated otherwise.             
+#  2004Va08: Measured G, T1/2 with                                        
+#  two high-purity Ge detectors positioned opposite each other,           
+#  surrounding a plastic |DE scintillator.                                
+#  2004Va07: Resonant laser-ionization measurement combined with BG       
+#  coin studies; high-resolution mass spectroscopy. Three B- decaying     
+#  isomers identified                                                     
+#  2002We03: Measured magnetic moments and half-lives of three isomers    
+#  of {+70}Cu by in-laser spectroscopy.                                   
+#L T$From 2002We03                                                        
+#P 242.6     5  1+                6.6 S    2                              
+CU70 CU70 IT 0.0 0.0 1
+

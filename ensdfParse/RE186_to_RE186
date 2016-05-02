@@ -1,0 +1,76 @@
+#186RE    186RE IT DECAY (2.0E+5 Y)     1972SE06                  03NDS    200306
+#  186RE IT DECAY (2.0E+5 Y)     1972SE06                  03NDS    200306
+#H TYP=FUL$AUT=CORAL M. BAGLIN$CIT=NDS 99, 1 (2003)$CUT=4-Apr-2003$       
+#  1972SE06: sources from 185RE(N,G), chemically purified and aged 0, 4   
+#  or 20 years; 4-year old source thicknesses 0.25 and AP 0.025 mg/cm{+2};
+#  three GELI detector systems (8 cc, 0.5 cc with FWHM=330 EV at 14 KEV,  
+#  20 cc detectors), windowless SILI detector with FWHM AP 1 KEV at 130   
+#  KEV; MEASURED ^T{-1/2}, EG, IG, E(ce), I(ce), X-RAY INTENSITIES FOR    
+#  ISOMER, AND G AND X-RAY INTENSITIES FOR 186RE(3.7183 D) decay.         
+#            The decay scheme is that of 1972Se06. A possible, unobserved 
+#  E=3 7 E5 transition connecting the isomer to the known (3)- 146 level, 
+#  postulated in 1988Fi06 to explain a small excess in K X-RAY intensity, 
+#  has not been adopted; 1972Se06 concluded that the observed I(XK)       
+#  could be explained adequately on the basis of conversion of the 99G    
+#  alone.                                                                 
+#G E         From adopted gammas, unless noted otherwise.                 
+#G RI        From 1972Se06, relative to I(137G, 186OS)=10.0 1, except as  
+#G noted.                                                                 
+#G M,MR      From adopted gammas, except as noted.                        
+#G M(B)      L2/L3 AP 0.6, L1<<L2 from authors' analysis of RE XLA and    
+#G XLB intensity data; L/M AP 1 from I(CE) excess (cf. relative I(CE)     
+#G in (N,G)) near 40ce(M) and 59ce(L) peaks (1972Se06). E5 theory         
+#G (1978Ba45) is consistent, giving L1:L2:L3:M=0.6:30:31:54 at 43 KEV and 
+#G 0.1:44:40:52 at 57 KEV. M5 theory gives L/M AP 1 but L2/L3 AP 0.01;    
+#G also, no 8- level is known or expected in adjacent odd-odd isotopes.   
+#G Multipolarities with L LT 5 are eliminated because the reduced         
+#G transition probability would be less than 6x10{+-6}.                   
+#G E(D)      EG GE 11, based on the existence of excess XLB               
+#G intensity; also, this |g (feeding the 99 level) presumably deexcites   
+#G a state for which E(level) LE 186, otherwise an M2 G to the known (6)- 
+#G 186 level would dominate the isomer's decay. Further, 1972Se06         
+#G attribute to the L and M lines of this transition the observed I(CE)   
+#G excess (cf. relative I(CE) in (N,G)) near the 40ce(M) and              
+#G 59ce(L) peak, respectively), implying EG AP 49 and EG AP 50 KEV.       
+#G Since 1972Se06 appear to easily resolve peaks which are 7 KEV apart,   
+#G the evaluator adopts EG=50 7.                                          
+#G                                                                        
+#G Comparison of measured and calculated X-RAY intensities relative to I(1
+#G 37|g)=9.47:                                                            
+#G                                                                        
+#G  Radiation          1972Se06       Gammas      Difference     Calculate
+#G d                                                                      
+#G                                  40+59+99                     E|g=50 7 
+#G   RE XLA       14.9 1       17.4 8        -2.5 8           |? 6.2 3    
+#G   RE XLB       23.6 2       17.1 6         6.5 6           |? 7.7 8    
+#G   RE XLG        3.6 3       3.52 12        0.1 3           |? 1.4 2    
+#G   RE XKA1    |    0.66 6       0.47 2        0.19 6            0.0     
+#G   RE XKA2        0.28 11  |    0.27 1        0.01 11           0.0     
+#G   RE XKB1       0.33 2       0.157 9       0.17 2  |          0.0      
+#G   RE XKB2     |? 0.04 3       0.043 2       0.00 4            0.0      
+#G                                                                        
+#G           In the above table, the data of 1972Se06 (which were quoted  
+#G relative to I(137G, 186OS)=10.0 1 in TABLE 4 of 1972Se06) have been    
+#G scaled by the evaluator so I(137G) equals the adopted value of 9.47%.  
+#G The resulting intensities were then corrected for unresolved           
+#G contributions from W XKB2 and OS XKB1 lines to RE XKB1 and RE XKB2,    
+#G respectively, and from W and OS XL to RE XL lines using calculated     
+#G intensities for the impurities. It should be noted that uncertainties  
+#G from 1972Se06 are statistical only, and that their I(x) data for W and 
+#G OS lines from a source with negligible 2E+5 Y RE content are in only   
+#G fair agreement with later measurements and with theory; consequently,  
+#G the uncertainties given above may be unrealistically small. The column 
+#G labeled "Gammas" refers to calculated X-RAY intensity expected due to  
+#G the 40-, 59- and 99-KEV transitions; 1972Se06 deduces a much lower,    
+#G possibly misprinted value for I(XLA). The column labeled "Difference"  
+#G contains the I(x ray) difference between the second and third columns; 
+#G this represents the experimental X-RAY intensity associated with the   
+#G unobserved isomeric transition. The last column gives calculated       
+#G L X-RAY intensities for a 50-KEV E5 transition (based on theoretical   
+#G conversion coefficients from 1978Ba45).  If the postulated AP 3-KEV    
+#G transition from the isomeric level were to exist, it would be          
+#G accompanied by an 87G and a 146G which would increase I(XK) but have   
+#G only a minor effect on I(XL).  The discrepancy between observed and    
+#G calculated XLA intensity is not understood.                            
+#P 149        7  (8+)             2.0E+5 Y                                
+

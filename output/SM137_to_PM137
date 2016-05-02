@@ -1,0 +1,36 @@
+#137PM    137SM EC DECAY (45 S)         1986RE11,1989BRZM         07NDS    200709
+#  137SM EC DECAY (45 S)         1986RE11,1989BRZM         07NDS    200709
+#H TYP=FUL$AUT=E. BROWNE, J. K. TULI$CIT=NDS 108,2173 (2007)$             
+#H CUT=1-Oct-2006$                                                        
+#  Modified by E. Browne (Ran BRICC for new conversion coefficients       
+#  December 12, 2006)                                                     
+#  Measured: G, GG, XG (1986Re11,1985BrZX), G (1983AlZO)                  
+#  Decay scheme is from 1989BrZM, 1986Re11.                               
+#  1989BrZM: measured G, CE, GG(T), GCE(T). In a private communication    
+#  the authors have indicated new work giving a detailed level scheme.    
+#E E         EB+=4880 70 gives Q(EC)=5900 70 (1995Ve08).                  
+#E Other value: EB+=5640 200 (1983AlZP).                                  
+#G E,RI$Unless noted otherwise,                                           
+#G EG, IG are from 1986Re11 where both are given. Where only EG energies  
+#G are given values are from 1989BrZM.                                    
+#G           Unplaced G rays are from 1983AlZO. RI values are             
+#G normalized to I(380G)=100                                              
+#G E(A)$From 1983AlZO, RI=82. 1986Re11 state that this transition from    
+#G in-beam work was not seen in 137SM EC decay. Intensity suggested by    
+#G 1983AlZO seems too large from the 15/2- state if it was seen at all in 
+#G the 9/2- 137SM EC decay.                                               
+#G M$From 1989BrZM based on EKC (value given only for 163.7G).            
+#L J         Adopted values                                               
+#P 0.0         (9/2-)            45 S      1              6054      40    
+SM137 PM137 beta+ 6.054 45.0 1.0
++G gamma 0.169 0.13
++G gamma 0.19290000000000002 0.17
++G gamma 0.16369999999999998 0.85
++G gamma 0.1804 0.13
++G gamma 0.21669999999999998 0.36
++G gamma 0.3805 1.0
++G gamma 0.559 0.28
++G gamma 0.5312 0.37
++G gamma 0.4083 0.4
++G gamma 0.188 0.32
+

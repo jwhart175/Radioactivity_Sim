@@ -1,0 +1,27 @@
+#133BA    133BA IT DECAY                1965TH05,1980VYZZ,1980MI1311NDS    201104
+#  133BA IT DECAY                1965TH05,1980VYZZ,1980MI1311NDS    201104
+#H TYP=FUL$AUT=YU. KHAZOV AND A. RODIONOV, F.G. KONDEV$                   
+#H CIT=NDS 112, 855 (2011)$CUT=31-Oct-2010$                               
+#  1980Mi13: {+133m}Ba decay [from {+133}Cs(p,n)]; measured |g, |g|g(t);  
+#  deduced levels, T{-1/2}, |a(exp). Cyclotron, chemical and              
+#  mass separations, Ge detectors                                         
+#  1980VyZZ: {+133m}Ba decay [from Gd(p,X) E=660 MeV]; measured |g, ce;   
+#  deduced transitions, subshell ratios. Synchrocyclotron,                
+#  chemical and mass separations                                          
+#  1965Th05: {+133m}Ba decay [from {+nat}Cs(d,2n) E=20 MeV]; measured ce, 
+#  |g, ce|g(t), ce-ce(t); deduced levels, T{-1/2}, subshell               
+#  ratios, |a(exp). Cyclotron, chemical separation, magnetic lens and     
+#  iron-free spectrometers, NaI(Tl) detector                              
+#  1980AnZG: {+133m}Ba decay [from Cs(p,n)]; measured E|g, I|g, isomer    
+#  T{-1/2}. Cyclotron, chemical procedure                                 
+#  Others: 1966Ha23, 1979An06, 1981An17, 2011Gr01                         
+#G CC$ FROM BrIcc v2.2 (31-Mar-2008) 2008KiAA, "Frozen Orbitals" appr.    
+#G E$From 1980VyZZ, except as noted                                       
+#G M$From EKC and sub-shell ratios, except as noted                       
+#L E,T,J$From 'adopted levels'                                            
+#P 288.252    9 11/2-            38.93 H   10                             
+BA133 BA133 IT 0.0 140148.0 0.1769
++G gamma 0.012327 0.0801
++G gamma 0.27592500000000003 1.0
++G gamma 0.288 1.8E-5
+

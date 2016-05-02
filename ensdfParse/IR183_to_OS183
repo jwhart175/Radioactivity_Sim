@@ -1,0 +1,70 @@
+#183OS    183IR EC DECAY                1988RO13                           199809
+#  183IR EC DECAY                1988RO13                           199809
+#H TYP=ERR$AUT=J. TULI$COM=CHANGED P-CARD JPI,T TO ADOPTED$               
+#H TYP=FUL$AUT=R.B. FIRESTONE$CIT=NDS 65,589 (1992)$CUT=22-Dec-1992$      
+#H TYP=UPD$AUT=R. Firestone$CUT=22-Dec-1992$                              
+#  Source produced by bombardment of PT-B alloy target with 200 MEV p     
+#  and 280 MEV 3HE. Isocele mass separator, hyperpure Ge detectors for    
+#  GAMMA spectroscopy, magnetic spectrometer and SI(LI) detector for      
+#  electron measurements.                                                 
+#  Other measurements: 1975La22, 1961Di04, 1961La05                       
+#G RI(D)$From coincidence analysis, assumed to be approximate by the      
+#G evaluator.                                                             
+#G TI(C)$Inferred from coincidence intensities, 50% uncertainty assumed   
+#G by the evaluator for calculation of MR.                                
+#G RI$15% uncertainty estimated by authors, except where noted.           
+#G M$From CE intensities normalized to the 102.2G assuming E2. The        
+#G 102.2G is determined as E2 from the L1:L2:L3 subshell ratios.          
+#G The indicated CE intensities are normalized to the same relative scale 
+#G as the gammas. The authors suggest that approximately 15%              
+#G uncertainty should be assigned to the CE intensities. The evaluator    
+#G has doubled this uncertainty for transitions with E>500 KEV when       
+#G calculating mixing ratios.                                             
+#G M(F)$K conversion coefficient for doublet requires both components to  
+#G have indicated admixture.                                              
+#G M(G)$Possible E1 assignment ruled out by level parities.               
+#G M(H)$Conversion coefficient too large for M1,E1, or E2. Possible E0    
+#G admixture.                                                             
+#E TI$Calculated from decay scheme intensity balances. About 20% of the   
+#E transition intensity is unplaced, suggesting that the weaker feedings  
+#E are unreliable.                                                        
+#P 0.0          5/2-             58 M      6              3.19E3    10    
++B beta+ 0.9 0.0017000000000000001
++B beta+ 0.9 0.02
++B beta+ 0.8 0.0024
++B beta+ 0.8 0.0018
++B beta+ 0.8 0.0043
++B beta+ 0.8 0.0045000000000000005
++B beta+ 0.8 9.8E-4
++B beta+ 0.8 0.0014000000000000002
++B beta+ 0.8 0.0024
++B beta+ 0.7 0.002
++B beta+ 0.7 0.0013
++B beta+ 0.7 0.0018
++B beta+ 0.7 0.0021
++B beta+ 0.7 6.3E-4
++B beta+ 0.7 0.0010299999999999999
++B beta+ 0.7 0.00127
++B beta+ 0.7 4.0E-4
++B beta+ 0.7 5.8E-4
++B beta+ 0.6 9.3E-5
++B beta+ 0.6 3.4E-4
++B beta+ 0.6 3.5999999999999997E-4
++B beta+ 0.6 8.3E-4
++B beta+ 0.6 8.2E-4
++B beta+ 0.6 2.9E-4
++B beta+ 0.6 3.7E-4
++B beta+ 0.6 4.0E-4
++B beta+ 0.6 3.4E-4
++B beta+ 0.5 7.1E-5
++B beta+ 0.5 2.5E-4
++B beta+ 0.5 3.5000000000000005E-4
++B beta+ 0.46 5.0E-5
++B beta+ 0.43 1.9E-5
++B beta+ 0.41 1.8E-5
++B beta+ 0.39 6.3E-5
++B beta+ 0.133 4.800000000000001E-7
++B beta+ 0.129 3.0E-7
++B beta+ 0.102 3.29E-7
++B beta+ 0.048 9.2E-10
+

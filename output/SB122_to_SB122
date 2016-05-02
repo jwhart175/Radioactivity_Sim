@@ -1,0 +1,18 @@
+#122SB    122SB IT DECAY (4.191 M)      1963DE05                  07NDS    200704
+#  122SB IT DECAY (4.191 M)      1963DE05                  07NDS    200704
+#H TYP=FUL$AUT=T. TAMURA$CIT=NDS 108, 455 (2007)$CUT=30-Sep-2006$         
+#  1963De05, 1962De20: {+121}Sb(n,|g); scin |g, XK, (|g)(XK)(t),          
+#  proportional counter ce                                                
+#  1962En04: 123SB(|g,n), E|g=26 MeV; scin |g, |g|g(t)                    
+#  1977Co18: 122SN(d,2n); determined G-FACTOR                             
+#G E         From {+121}Sb(n,|g), except for 26.0867|g                    
+#G RI        From cascade relation; I|g imbalances at 61.4- and 137.4-keV 
+#G levels indicate incompleteness of experimental information             
+#L $Level scheme is that proposed by 1963De05                             
+#L E         From {+121}Sb(n,|g)                                          
+#P 163.5591  22(8)-              4.191 M   3                              
+SB122 SB122 IT 0.0 251.45999999999998 0.191
++G gamma 0.061412999999999995 2.9
++G gamma 0.0760595 1.22
++G gamma 0.0260867 1.72E-4
+

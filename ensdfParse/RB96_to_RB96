@@ -1,0 +1,61 @@
+# 96RB    96RB IT DECAY                 2005PI13,1999GE01         08NDS    200810
+#  96RB IT DECAY                 2005PI13,1999GE01         08NDS    200810
+#H TYP=FUL$AUT=D. Abriola(a), A.A. Sonzogni$CIT=NDS 109, 2501 (2008)$     
+#H CUT=1-Apr-2008$                                                        
+#  All information taken from 2005Pi13, unless stated otherwise.          
+#  {+96}Rb isotope produced {+241}Pu(n,f) reaction                        
+#  E=THERMAL.  Measured E|g, I|g, |g|g, ce-|g coin, lifetimes using two   
+#  different setups installed at the focal plane of the Lohengrin mass    
+#  spectrometer that was used to separate fission fragments (FFs).  The   
+#  first consisted of a gas detector to detect FFs, behind which were     
+#  two adjacent Si(Li) detectors for ce and x-rays, while |g rays were    
+#  detected by two Ge detectors placed perpendicular to the beam. In the  
+#  second setup, the FFs were detected in an ionization chamber. |g rays  
+#  deexciting isomeric states were detected by Clover Ge detector and     
+#  three single Ge crystals of the Miniball array.                        
+#G E$From table I of 2005PI13, unless otherwise stated.                   
+#G M$From comparison of measured |a(K)exp's with theory.                  
+#L $Level scheme given in figure 9 of 1999Ge01 is superseded by that in   
+#L figure 4 of 2005PI13. Several cascades in 1999Ge01 have been           
+#L reordered in 2005PI13                                                  
+#L E$From least-squares fit to E|g's.                                     
+#L $Low-lying states are expected to result from coupling of |pf{-5/2}    
+#L orbital with one of three possible neutron states                      
+#L |ns{-1/2}, |nd{-3/2}, or |ng{-7/2}                                     
+#L BAND(A)$|p3/2[431]~#|n3/2[541], KPI=3-, |a=0. |b>0.28, rotational      
+#L band proposed for this nuclide based upon intense M1 transitions       
+#L within the group and E2 crossover transitions.                         
+#L BAND(a)$|p3/2[431]~#|n3/2[541], KPI=3-, |a=1. |b>0.28, rotational      
+#L band proposed for this nuclide based upon intense M1 transitions       
+#L within the group and E2 crossover transitions.                         
+#L J$From Adopted Levels                                                  
+#P 1134.6    11(10-)             2.00 US   10                             
+RB96 RB96 IT 0.0 2.0E-6 1
++G gamma 0.0593 0.17
++G gamma 0.0895 0.08
++G gamma 0.14880000000000002 0.07
++G gamma 0.038 0.07
++G gamma 0.126 0.07
++G gamma 0.1854 0.12
++G gamma 0.038 0.07
++G gamma 0.1661 0.07
++G gamma 0.2763 0.05
++G gamma 0.4024 0.03
++G gamma 0.4616 0.48
++G gamma 0.0928 0.37
++G gamma 0.329 0.07
++G gamma 0.3668 0.1
++G gamma 0.3692 0.13
++G gamma 0.4055 0.04
++G gamma 0.4952 0.05
++G gamma 0.5545 0.05
++G gamma 0.1168 0.36
++G gamma 0.2099 0.16
++G gamma 0.1235 0.36
++G gamma 0.2403 0.42
++G gamma 0.1776 0.12
++G gamma 0.301 0.17
++G gamma 0.122 0.32
++G gamma 0.3 0.68
++G gamma 0.04 0.036000000000000004
+

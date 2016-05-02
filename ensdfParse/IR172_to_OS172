@@ -1,0 +1,44 @@
+#172OS    172IR EC DECAY (4.4 S)        1992SC16,1992BO21         95NDS    199509
+#  172IR EC DECAY (4.4 S)        1992SC16,1992BO21         95NDS    199509
+#H TYP=FUL$AUT=BALRAJ SINGH$CIT=NDS 75,199 (1995)$CUT=31-May-1995$        
+#  1992Sc16: measured a, G, AG, GG, T1/2.                                 
+#  Sources: 141PR(36AR,5n) E=234 MEV. Recoil products collected with a    
+#  helium jet system                                                      
+#  1992Bo21: measured G, GG. Sources: 144SM(32S,P3N) E=210 MEV.           
+#  Recoil products stopped in helium and transported on lead chloride     
+#  aerosols                                                               
+#  172IR (4.4 S) decays by EC+B+ (98%) and ALPHA (2%) (1992Sc16)          
+#  1992Bo21 report T1/2=2.9 S 3 for both activities from 228G(T)          
+#G E$Weighted averages from 1992Sc16 and 1992Bo21. For intensities        
+#G see 172IR EC decay (2.0 S)                                             
+#G M$From 172IR EC decay (2.0 S)                                          
+#P  0            (3+)              4.4 S   3                9840    SY    
+
+#172OS    172IR EC DECAY (2.0 S)        1992SC16,1994DA02         95NDS    199509
+#  172IR EC DECAY (2.0 S)        1992SC16,1994DA02         95NDS    199509
+#H TYP=FUL$AUT=BALRAJ SINGH$CIT=NDS 75,199 (1995)$CUT=31-May-1995$        
+#  1992Sc16: measured a, G, AG, GG, T1/2.                                 
+#  Sources: 141PR(36AR,5n) E=234 MEV. Recoil products collected with a    
+#  helium jet system. Only four gammas reported                           
+#  1994Da02: measured G, GG, GG(THETA), CE, CE G coin. Source from        
+#  144SM(31P,3n) E=150 MEV                                                
+#  172IR (2.0 S) decays by EC+B+ (77%) and ALPHA (23%) (1992Sc16)         
+#G           Normalization of level scheme for absolute GAMMA-ray         
+#G intensities is not possible since the                                  
+#G GAMMA-ray intensities are most likely mixed for the 4.4-s and          
+#G 2.0-s activities. However, the 2.0-s activity populates several        
+#G high-spin levels (J=6-8) and the 4.4-s activity seems to populate      
+#G only the low-spin levels (J LE 4). LOGFT values are not deduced        
+#G due to lack of knowledge of independent intensities from two isomers   
+#G E,RI$From 1994Da02. RI's for many GAMMA rays are probably              
+#G mixed, contributed by the 2.0-s and 4.4-s activities                   
+#G M$From CE data (1994Da02), unless otherwise stated                     
+#G M(A)$From G(THETA) or GG(THETA) in (HI,XNG)                            
+#G CC(B)$Deduced from EKC (1994Da02)                                      
+#L BAND(A)$ GS BAND (YRAST)                                               
+#L BAND(D)$ KPI=0+ BETA BAND                                              
+#L BAND(E)$ KPI=2+ GAMMA BAND                                             
+#L BAND(F)$ (ALPHA=1,PI=-)                                                
+#L BAND(G)$ (ALPHA=0,PI=-)                                                
+#P  139      10 (7+)               2.0 S   1               9840     SY    
+

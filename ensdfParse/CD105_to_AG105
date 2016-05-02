@@ -1,0 +1,40 @@
+#105AG    105CD EC DECAY                1976JA05                  05NDS    200511
+#  105CD EC DECAY                1976JA05                  05NDS    200511
+#H TYP=FUL$AUT=D. DE FRENNE AND E. JACOBS$CIT=NDS 105, 775 (2005)$        
+#H CUT=1-Sep-2004$                                                        
+#  1976JA05:105CD from 106CD(n,2n); measured EG, IG, GG; AG deduced       
+#  levels, EB+, IB+, IEC, J, PI. Enriched target (82.09%), GE(LI)         
+#  detectors, Compton suppression.                                        
+#  Decay scheme is given as constructed by 1976Ja05                       
+#G           The |g|g-coin results, shown on the drawing, are             
+#G taken from 1976Ja05                                                    
+#L J         From adopted levels                                          
+#L E         Calculated by the authors based on measured gamma energies.  
+#E TI        Calculated from I(|g+ce)-imbalance at each level.            
+#E Uncertain |g-transitions were not taken into account in this           
+#E calculation                                                            
+#G E         From 1976Ja05, unless noted otherwise. Others:               
+#G 1979De28, 1974Bu15                                                     
+#G RI        From 1976Ja05, normalized to I|g(961.84)=1000                
+#G M         Unless noted otherwise, multipolarity was assumed            
+#G in accordance to adopted J|p. Where M1, E2 or E1 is                    
+#G possible, M1 is taken                                                  
+#G CC        Calculated from 1968Ha53 for the corresponding               
+#G multipolarity. Only |a's|>1% are given                                 
+#G E(Q)      The presence of this transition is in some doubt             
+#G (1976Ja05)                                                             
+#P 0.0          5/2+             55.5 M    4              2738      4     
+CD105 AG105 beta+ 2.738 3330.0 1.0
++B beta+ 0.7543 0.273
++B beta+ 0.37489999999999996 5.4999999999999995E-5
++B beta+ 0.3272 9.6E-4
++B beta+ 0.311 0.22
++B beta+ 0.303 0.22
++B beta+ 0.249 0.22
++B beta+ 0.216 0.22
++B beta+ 0.179 0.22
++B beta+ 0.154 0.22
++B beta+ 0.141 0.22
++B beta+ 0.13 0.22
++G gamma 1.2895999999999999 2.814E-4
+

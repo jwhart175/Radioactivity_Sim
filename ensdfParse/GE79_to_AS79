@@ -1,0 +1,49 @@
+# 79AS    79GE B- DECAY (18.98 S)       1981HO24                  02NDS    200206
+#  79GE B- DECAY (18.98 S)       1981HO24                  02NDS    200206
+#H TYP=FUL$AUT=BALRAJ SINGH$CIT=NDS 96, 1 (2002)$CUT=15-May-2002$         
+#  Measured G, GG, CE. See also 1980HOZN for detailed data                
+#  Others: 1981AL20, 1977AL17, 1975AL11, 1974GR29, 1972MAWL, 1970OSZZ.    
+#  All references are from the same laboratory                            
+#G E,RI$From 1980HOZN                                                     
+#L E$From least-squares fit to EG's                                       
+#L J$See adopted levels                                                   
+#P   0.0         (1/2)-           18.98 S  3               4148     89    
++B beta- 1.829 0.6
++B beta- 1.78 0.0078000000000000005
++B beta- 1.775 0.22399999999999998
++B beta- 1.538 0.0265
++B beta- 1.152 0.0129
++B beta- 1.115 0.00332
++B beta- 1.107 0.121
++B beta- 0.936 0.0092
+
+# 79AS    79GE B- DECAY (39.0 S)        1981HO24                  02NDS    200206
+#  79GE B- DECAY (39.0 S)        1981HO24                  02NDS    200206
+#H TYP=FUL$AUT=BALRAJ SINGH$CIT=NDS 96, 1 (2002)$CUT=15-May-2002$         
+#  Measured G, GG. See also 1980HOZN for detailed data                    
+#  Others: 1981AL20, 1981ALZW, 1979BO26, 1977AL17, 1975AL11, 1974KRZG,    
+#  1973KRZN, 1972DE43, 1972MAWL, 1970VA31, 1970KA04, 1967FR16             
+#G           EG's and RI's from 1980HOZN, unless stated otherwise         
+#B           From measurement of B- strength functions 1975AL11           
+#B deduced that 30% of the B- emission goes to levels above 250 KEV while 
+#B 13% is connected with levels above the pairing gap.                    
+#B These values do not agree with those obtained by 1981HO24              
+#G           GG data are from 1981HO24                                    
+#G E(A),RI(A)$Reported by 1973KRZN and 1970VA31. EG and RI from 1970VA31  
+#G E(B),RI(B)$Assignment to 39.0-s activity is uncertain                  
+#L E$From least-squares fit to EG's                                       
+#L J$See adopted levels                                                   
+#P  186.0       (7/2+)           39.0 S    10             4148      89    
++B beta- 1.919 0.09
++B beta- 1.867 0.01
++B beta- 1.807 0.12
++B beta- 1.612 0.078
++B beta- 1.546 0.10099999999999999
++B beta- 1.497 0.019
++B beta- 1.431 0.09699999999999999
++B beta- 1.203 0.027999999999999997
++B beta- 1.2 0.063
++B beta- 1.14 0.022000000000000002
++B beta- 1.014 0.3
++B beta- 0.979 0.10300000000000001
+

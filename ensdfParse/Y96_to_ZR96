@@ -1,0 +1,186 @@
+# 96ZR    96Y B- DECAY (5.34 S)         1990MA03,1988MA01,1990MA4508NDS    200810
+#  96Y B- DECAY (5.34 S)         1990MA03,1988MA01,1990MA4508NDS    200810
+#H TYP=FUL$AUT=D. Abriola(a), A.A. Sonzogni$CIT=NDS 109, 2501 (2008)$     
+#H CUT=1-Apr-2008$                                                        
+#  1975Kh05: measured ce spectra, T.                                      
+#  1975Sa15: studied both g.s. and isomeric decay of 96Y; measured E|g,   
+#  I|g, |g|g coin, E|b, T.                                                
+#  1988Ma01: E|g, I|g, ce spectra, I|g(t), |g|g coin, |g-ce coin, and     
+#  |g|g(|q)                                                               
+#  1990Ma03: measured E|g, I|g, I|g(t), |g|g(t) coin, ce-|g coin, |b|g    
+#  coin, ce spectra                                                       
+#  Other: 1988MaYY                                                        
+#  1990Ma45: measured T using |b|g delayed coin.                          
+#L E$From a least-squares fit to E|g data                                 
+#L J$From Adopted Levels                                                  
+#L T$From 1990Ma45                                                        
+#G E$From 1990Ma03, except where noted otherwise                          
+#G E(B)$From 1988Ma01                                                     
+#G E(C),RI(A)$From |g|g or ce-|g coincidence                              
+#G RI(D)$Mixed with a first-or second-escape peak from transitions of     
+#G higher energy; intensity of the impurity line was subtracted           
+#G M,MR$From adopted gammas                                               
+#B IB$From intensity balance at each level (1990Ma03)                     
+#P 0.0         0-                5.34 S    5              7096      23    
+Y96 ZR96 beta- 7.096 5.34 1.0
++G gamma 1.7504000000000002 0.0235
++G gamma 0.14665299999999998 7.520000000000001E-4
++G gamma 1.8974000000000002 1.41E-4
++G gamma 0.3287 5.1935E-4
++G gamma 0.4753 0.00188
++G gamma 0.6444 7.050000000000001E-4
++G gamma 2.2256 0.0032195
++G gamma 0.7717 1.5040000000000002E-4
++G gamma 0.9185 7.520000000000001E-4
++G gamma 0.4695 0.0017155
++G gamma 0.6999 1.786E-4
++G gamma 1.175 4.465E-4
++G gamma 1.315 7.755E-5
++G gamma 1.462 6.815E-5
++G gamma 3.2129000000000003 6.815E-5
++G gamma 0.7812 4.7E-4
++G gamma 1.2252 5.64E-5
++G gamma 1.6996 2.82E-4
++G gamma 1.6120999999999999 1.8800000000000003E-5
++G gamma 3.701 1.175E-4
++G gamma 2.274 5.170000000000001E-5
++G gamma 1.3324 1.2925E-4
++G gamma 4.5123999999999995 1.1045000000000001E-4
++G gamma 4.7374 1.0575000000000001E-4
++G gamma 1.6258 2.35E-4
++G gamma 1.9121 8.225E-5
++G gamma 2.94 1.41E-4
++G gamma 3.0869 1.0575000000000001E-4
++G gamma 3.2574 8.460000000000001E-5
++G gamma 4.8392 2.3735E-4
++G gamma 1.9563 3.525E-5
++G gamma 4.8951 3.1490000000000006E-4
++G gamma 4.914 9.164999999999999E-5
++G gamma 4.929 2.2090000000000003E-4
++G gamma 3.6151999999999997 3.29E-5
++G gamma 5.2283 1.2925E-4
++G gamma 5.2718 1.4335000000000001E-4
++G gamma 3.7308000000000003 1.4570000000000002E-4
++G gamma 3.8266 1.316E-4
++G gamma 3.8617 2.82E-4
++G gamma 5.4425 1.0104999999999999E-4
++G gamma 5.502 1.2220000000000002E-4
++G gamma 5.5386999999999995 1.0575000000000001E-4
++G gamma 5.551399999999999 4.465E-4
++G gamma 3.9922 4.465E-5
++G gamma 5.5737 6.110000000000001E-5
++G gamma 5.6013 3.3840000000000004E-4
++G gamma 4.0442 3.995E-5
++G gamma 4.0712 3.29E-5
++G gamma 4.1196 1.0340000000000002E-4
++G gamma 5.7189 2.4205000000000006E-4
++G gamma 4.159800000000001 2.1150000000000002E-5
++G gamma 5.7829 3.7600000000000006E-5
++G gamma 5.8043000000000005 8.93E-5
++G gamma 5.838100000000001 6.345000000000001E-5
++G gamma 5.847300000000001 1.4805E-4
++G gamma 4.1629 1.363E-4
++G gamma 4.3342 2.5850000000000005E-5
++G gamma 5.914899999999999 1.316E-4
++G gamma 5.934399999999999 2.8670000000000003E-4
++G gamma 4.5626999999999995 2.1150000000000002E-5
++G gamma 6.1416 3.525E-5
++G gamma 6.2314 8.225E-5
+
+# 96ZR    96Y B- DECAY (9.6 S)          1987STZX                  08NDS    200810
+#  96Y B- DECAY (9.6 S)          1987STZX                  08NDS    200810
+#H TYP=FUL$AUT=D. Abriola(a), A.A. Sonzogni$CIT=NDS 109, 2501 (2008)$     
+#H CUT=1-Apr-2008$                                                        
+#  1995HaZT,1997RaZZ: SF of {+252}Cf; measured E|g, I|g, |g|g|g coin      
+#  data at the |g-sphere; experimental details not available              
+#  1991OhZZ,1990OhZZ,1990Oh02: measured T{-1/2} by |b|g|g coin            
+#  1987StZX,1987St12,1988StZS: measured E|g, I|g, |g|g coin, |g|g(|q)     
+#  1975Sa15: studied both g.s. and isomeric decay of {+96}Y; measured     
+#  E|g, I|g, |g|g coin, E|b, T{-1/2}.                                     
+#  1975Kl11: identification of {+96}Y decay with T{-1/2}=9.6 s {I3} from  
+#  chemical separation of fission products; measured E|g, I|g, |g|g coin. 
+#  Decay scheme is from 1987StZX. This decay scheme and that of           
+#  1995HaZT, 1997RaZZ are very similar, except for the differences        
+#  pointed out in comments.                                               
+#L E$From 1987StZX, unless indicated otherwise                            
+#L E(B)$From 1995HaZT, 1997RaZZ; not reported by 1987StZX                 
+#L J$From Adopted Levels; supporting arguments mainly from |g|g(|q) in    
+#L 1988StZS are given in comments                                         
+#G E$From energy difference of initial and final levels of 1987StZX,      
+#G unless indicated otherwise. Some E|g from 1987StZX are not consistent  
+#G with their level energies                                              
+#G RI$From 1987StZX, unless indicated otherwise. Uncertainty not given by 
+#G authors                                                                
+#G M,MR$From adopted gammas                                               
+#G E(A)$Measured with a curved-crystal diffraction spectrometer           
+#G (1979Bo26).                                                            
+#B IB$From 1987StZX. These are not the same as the I|b obtained from I|g  
+#B normalization=0.0880 and the I|g balance. However, if I(|g+ce)(1582)   
+#B is neglected, one obtains an I|g normalization=0.0893 and if the I|b   
+#B thus obtained to the eleven levels from 4235 to 5900 keV are           
+#B arbitrarily renormalized to add up to 100, one obtains the I|b from    
+#B 1987StZX which are higher by about 13.8%.                              
+#P 1140      30(8+)              9.6 S     2              7096      23    
+Y96 ZR96 beta- 7.096 9.6 1.0
++G gamma 1.7506 0.88
++G gamma 0.14665299999999998 0.34056
++G gamma 1.8976 0.05016
++G gamma 0.3286 0.00528
++G gamma 0.4756 0.030799999999999998
++G gamma 0.6437 0.01496
++G gamma 2.2262 0.055439999999999996
++G gamma 0.884 0.007039999999999999
++G gamma 0.6314500000000001 0.07479999999999999
++G gamma 0.9602 0.039599999999999996
++G gamma 1.1072 0.48135999999999995
++G gamma 0.2248 0.0035199999999999997
++G gamma 1.185 0.034319999999999996
++G gamma 1.2229 0.26752
++G gamma 1.2794 0.01232
++G gamma 0.13290000000000002 0.008799999999999999
++G gamma 0.1894 0.0035199999999999997
++G gamma 0.2273 0.014079999999999999
++G gamma 0.1737 0.02112
++G gamma 0.36310000000000003 0.22527999999999998
++G gamma 0.401 0.00264
++G gamma 0.626 0.007039999999999999
++G gamma 1.8515 0.00528
++G gamma 0.289 0.008799999999999999
++G gamma 0.4627 0.004399999999999999
++G gamma 0.6521 0.01496
++G gamma 0.69 0.011439999999999999
++G gamma 0.9148 0.5895999999999999
++G gamma 0.8047000000000001 0.01584
++G gamma 1.0064 0.011439999999999999
++G gamma 0.7515 0.007039999999999999
++G gamma 1.1145999999999998 0.017599999999999998
++G gamma 0.489 0.00968
++G gamma 0.778 0.011439999999999999
++G gamma 1.179 0.00264
++G gamma 0.15469999999999998 0.004399999999999999
++G gamma 0.6172000000000001 0.55
++G gamma 0.9062 0.2024
++G gamma 0.3354 0.00264
++G gamma 1.7127000000000001 0.004399999999999999
++G gamma 0.455 0.0035199999999999997
++G gamma 0.9792000000000001 0.036079999999999994
++G gamma 0.5226000000000001 0.030799999999999998
++G gamma 0.7191000000000001 0.00792
++G gamma 0.5174 0.01056
++G gamma 0.3147 0.00616
++G gamma 0.6767000000000001 0.0035199999999999997
++G gamma 0.8049 0.01232
++G gamma 1.5829000000000002 0.01584
++G gamma 0.7283 0.008799999999999999
++G gamma 0.8458 0.00616
++G gamma 1.463 0.004399999999999999
++G gamma 0.44139999999999996 0.0035199999999999997
++G gamma 0.6007 0.004399999999999999
++G gamma 0.7505 0.004399999999999999
++G gamma 0.7561 0.00968
++G gamma 1.1180999999999999 0.013199999999999998
++G gamma 1.2463 0.00792
++G gamma 1.7353 0.01056
++G gamma 1.2394 0.00792
++G gamma 1.5103 0.00616
+

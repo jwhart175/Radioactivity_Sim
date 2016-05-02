@@ -1,0 +1,162 @@
+# 81KR    81RB EC DECAY (30.5 M)        1977LI14                  08NDS    200810
+#  81RB EC DECAY (30.5 M)        1977LI14                  08NDS    200810
+#H TYP=FUL$AUT=CORAL M. BAGLIN$CIT=NDS 109, 2257 (2008)$CUT=15-Aug-2008$  
+#  Others: 1956Do52, 1969Ha03, 1981FrZY.                                  
+#  Only 1981FrZY and 1977Li14 report the decay                            
+#  of the 30.5-min isomer of 81RB; others report the 4.571-h decay alone. 
+#  The assignment to one or other isomer was made by 1977Li14 on the      
+#  basis of half-lives of the G's and coincidence                         
+#  measurements. However, while 1977Li14 found numerous G's belonging to  
+#  the 30.5-min decay, 1981FrZY found only the 49.6G following the        
+#  30.5-min half-life. Consequently, this decay scheme                    
+#  probably should be accepted with caution.                              
+#G           EKC from B spectra of 1977Li14, normalized so                
+#G EKC(446.15 transition)=0.00273 20 (adopted from (P,NG))                
+#G           1977Li14: EG, IG, GG-coin, and internal conversion           
+#G measurement; GELI (FWHM=2.5 KEV at 1.33 MEV), B spectrometer.          
+#G           1981FrZY: singles and coin spectra, measured with GELI       
+#G (FWHM=2.5-3.5 KEV at 1.33 MEV) and SI(LI), timing FWHM AP 12 NS.       
+#G E,RI      From 1977Li14.  ON THIS INTENSITY SCALE, I(G+-)=1810 100     
+#G AND I(86.6G, 81RB)=4630 200 (1977Li14).                                
+#G E(B)      From 81RB EC decay (4.572 H) data OF 1977LI14.               
+#L E         FROM LEAST-SQUARES FIT TO EG.                                
+#L J         FROM Adopted Levels.                                         
+#N 0.047     12          0.024    6 41.67                                 
+RB81 KR81 beta+ 2.239 16459.2 0.024
+#N NR,BR     NR=0.047 +8-12, branching=0.024 6 from I(G+-)=1810 100       
+#N (1977Li14) and I(86.6G, 81RB)=4630 200 (1977Li14) with CC(87G)=17.7 and
+#N CC(50G)=1.3 +6-4.                                                      
+#N 0.0011    4                      1.0                                   
+#P 86.31     7 9/2+              30.5 M    3              2239      6     
++G gamma 1.087 0.004794
++G gamma 1.136 0.0016920000000000001
++G gamma 1.297 0.0029609999999999997
++B beta+ 8.742E-4 0.001047
++B beta+ 0.5706 0.0036
++G gamma 0.1904 0.005687
++G gamma 0.2662 4.7000000000000004E-5
++G gamma 0.4569 0.003478
++G gamma 0.49939999999999996 0.01175
++G gamma 0.5488999999999999 0.042300000000000004
++G gamma 0.44630000000000003 0.00846
++B beta+ 0.5484 0.0038
++G gamma 0.6822999999999999 0.01974
++G gamma 0.7321 0.00846
++B beta+ 0.2502 0.008
++G gamma 0.8242 0.00611
++G gamma 0.8737999999999999 0.003619
++B beta+ 0.18980000000000002 0.0085
++G gamma 0.885 0.015369
++B beta+ 0.164 0.0086
++G gamma 0.9324 0.015369
++G gamma 0.9816 0.011702999999999998
++G gamma 0.4655 0.00846
++G gamma 1.0144 0.004841000000000001
++G gamma 0.3683 0.004324
++G gamma 0.4633 0.00846
++G gamma 0.5515 0.0023499999999999997
++B beta+ 0.144 0.0086
++B beta+ 8.758E-4 0.0010294
++G gamma 1.6332 0.0028200000000000005
++G gamma 1.6827 0.006157
++B beta+ 8.74E-4 0.0010447
++G gamma 1.6384 0.005076000000000001
++G gamma 1.6879000000000002 0.0042769999999999996
++B beta+ 8.74E-4 0.001045
++G gamma 0.6436000000000001 0.04606
++G gamma 0.7292000000000001 0.01316
++G gamma 0.7619 0.00376
++G gamma 1.011 0.0014100000000000002
++G gamma 1.1945999999999999 0.044649999999999995
++G gamma 1.2869000000000002 0.002773
++G gamma 1.6944000000000001 0.007332
++G gamma 1.7435 0.022748
++B beta+ 8.735E-4 0.0010484000000000001
++G gamma 1.732 4.7E-4
++G gamma 1.7818 0.002209
++B beta+ 8.732E-4 0.0010513
++G gamma 1.853 4.2300000000000004E-4
++G gamma 1.9025999999999998 0.001927
+
+# 81KR    81RB EC DECAY (30.5 M)        1977LI14                  08NDS    200810
+#  81RB EC DECAY (30.5 M)        1977LI14                  08NDS    200810
+#H TYP=FUL$AUT=CORAL M. BAGLIN$CIT=NDS 109, 2257 (2008)$CUT=15-Aug-2008$  
+#  Others: 1956Do52, 1969Ha03, 1981FrZY.                                  
+#  Only 1981FrZY and 1977Li14 report the decay                            
+#  of the 30.5-min isomer of 81RB; others report the 4.571-h decay alone. 
+#  The assignment to one or other isomer was made by 1977Li14 on the      
+#  basis of half-lives of the G's and coincidence                         
+#  measurements. However, while 1977Li14 found numerous G's belonging to  
+#  the 30.5-min decay, 1981FrZY found only the 49.6G following the        
+#  30.5-min half-life. Consequently, this decay scheme                    
+#  probably should be accepted with caution.                              
+#G           EKC from B spectra of 1977Li14, normalized so                
+#G EKC(446.15 transition)=0.00273 20 (adopted from (P,NG))                
+#G           1977Li14: EG, IG, GG-coin, and internal conversion           
+#G measurement; GELI (FWHM=2.5 KEV at 1.33 MEV), B spectrometer.          
+#G           1981FrZY: singles and coin spectra, measured with GELI       
+#G (FWHM=2.5-3.5 KEV at 1.33 MEV) and SI(LI), timing FWHM AP 12 NS.       
+#G E,RI      From 1977Li14.  ON THIS INTENSITY SCALE, I(G+-)=1810 100     
+#G AND I(86.6G, 81RB)=4630 200 (1977Li14).                                
+#G E(B)      From 81RB EC decay (4.572 H) data OF 1977LI14.               
+#L E         FROM LEAST-SQUARES FIT TO EG.                                
+#L J         FROM Adopted Levels.                                         
+#N 0.047     12          0.024    6 41.67                                 
+RB81 KR81 beta+ 2.239 16459.2 0.024
+#N NR,BR     NR=0.047 +8-12, branching=0.024 6 from I(G+-)=1810 100       
+#N (1977Li14) and I(86.6G, 81RB)=4630 200 (1977Li14) with CC(87G)=17.7 and
+#N CC(50G)=1.3 +6-4.                                                      
+#N 0.0011    4                      1.0                                   
+#P 86.31     7 9/2+              30.5 M    3              2239      6     
++G gamma 1.087 0.004794
++G gamma 1.136 0.0016920000000000001
++G gamma 1.297 0.0029609999999999997
++B beta+ 8.742E-4 0.001047
++B beta+ 0.5706 0.0036
++G gamma 0.1904 0.005687
++G gamma 0.2662 4.7000000000000004E-5
++G gamma 0.4569 0.003478
++G gamma 0.49939999999999996 0.01175
++G gamma 0.5488999999999999 0.042300000000000004
++G gamma 0.44630000000000003 0.00846
++B beta+ 0.5484 0.0038
++G gamma 0.6822999999999999 0.01974
++G gamma 0.7321 0.00846
++B beta+ 0.2502 0.008
++G gamma 0.8242 0.00611
++G gamma 0.8737999999999999 0.003619
++B beta+ 0.18980000000000002 0.0085
++G gamma 0.885 0.015369
++B beta+ 0.164 0.0086
++G gamma 0.9324 0.015369
++G gamma 0.9816 0.011702999999999998
++G gamma 0.4655 0.00846
++G gamma 1.0144 0.004841000000000001
++G gamma 0.3683 0.004324
++G gamma 0.4633 0.00846
++G gamma 0.5515 0.0023499999999999997
++B beta+ 0.144 0.0086
++B beta+ 8.758E-4 0.0010294
++G gamma 1.6332 0.0028200000000000005
++G gamma 1.6827 0.006157
++B beta+ 8.74E-4 0.0010447
++G gamma 1.6384 0.005076000000000001
++G gamma 1.6879000000000002 0.0042769999999999996
++B beta+ 8.74E-4 0.001045
++G gamma 0.6436000000000001 0.04606
++G gamma 0.7292000000000001 0.01316
++G gamma 0.7619 0.00376
++G gamma 1.011 0.0014100000000000002
++G gamma 1.1945999999999999 0.044649999999999995
++G gamma 1.2869000000000002 0.002773
++G gamma 1.6944000000000001 0.007332
++G gamma 1.7435 0.022748
++B beta+ 8.735E-4 0.0010484000000000001
++G gamma 1.732 4.7E-4
++G gamma 1.7818 0.002209
++B beta+ 8.732E-4 0.0010513
++G gamma 1.853 4.2300000000000004E-4
++G gamma 1.9025999999999998 0.001927
++G gamma 0.9266 0.2
++G gamma 1.1585 0.11
+

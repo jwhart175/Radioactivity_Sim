@@ -1,0 +1,18 @@
+#211RN    211FR EC DECAY                1972KEZB                  13NDS    201306
+#  211FR EC DECAY                1972KEZB                  13NDS    201306
+#H TYP=FUL$AUT=T.D. Johnson, Y.J. Chen, S. Enkhbold, G. Khalil, B. Yang$  
+#H CIT=NDS 114, 231 (2013)$CUT=28-FEB-2013$                               
+#G CC$ FROM BrIcc v2.3 (9-Dec-2011) 2008Ki07, "Frozen Orbitals" appr.     
+#  Q(EC) adopted from 2012Wa38. LOGFT values omitted due to poor          
+#  knowledge of EC feedings. For example EC+B+ feeding to 5/2- level      
+#  at 540 is AP 9% (from the level scheme) giving LOGFT AP 6.3, which     
+#  is too large for DJ=2, no B transition                                 
+#  Q(EC) from 2012Wa38.  EC/B- unknown. EC branchings to individual       
+#  levels are poorly known and thus not given here.                       
+#  The decay scheme suggested by 1972KeZB is based on coincidence data    
+#  and analogy with 209AT EC decay.                                       
+#L J$From Adopted Levels                                                  
+#L J(A)$Based on analogy with 209AT EC decay to 209PO (1972KeZB).         
+#P 0.0         9/2-               3.10 M   2              4615      14    
+FR211 RN211 beta+ 4.615 0.0 0.2
+

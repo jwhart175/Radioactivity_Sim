@@ -1,0 +1,24 @@
+#166IR C  PARENT JPI: UNHINDERED (HF<4) A DECAY TO (2-) 166IR.                   
+#  PARENT JPI: UNHINDERED (HF<4) A DECAY TO (2-) 166IR.                   
+#A HF        IF R0=1.56 1, ESTIMATED FROM R0(164OS)=1.554 17 (1998AK04),  
+#A R0(166OS)=1.5638 12 (THIS EVALUATION), R0(168PT) AP 1.55;              
+#A R0(166PT) NOT KNOWN; QA=7170 10 (FROM EA=7001 10);                     
+#A ^T{-1/2}=0.29 MS +5-4 FROM COMBINATION OF p(t) AND |a(t) DATA          
+#A (2004KE06).                                                            
+#L J         FROM Adopted Levels.                                         
+#P 0.0          (2-)             0.29 MS   +5-4           7170      10    
+AU170 IR166 alpha 7.17 2.9E-4 0.11
++A alpha 7.001 1.0
+
+#166IR C  PARENT JPI: UNHINDERED (HF<4) A DECAY TO (9+) 166IR.                   
+#  PARENT JPI: UNHINDERED (HF<4) A DECAY TO (9+) 166IR.                   
+#A HF        IF R0=1.56 1, ESTIMATED FROM R0(164OS)=1.554 17 (1998AK04),  
+#A R0(166OS)=1.5638 12 (THIS EVALUATION), R0(168PT) AP 1.55;              
+#A R0(166PT) NOT KNOWN; QA=7170 10 (FROM EA=7001 10 FOR GS TO GS DECAY);  
+#A ^T{-1/2}=0.62 MS +5-4 FROM COMBINATION OF p(t) AND |a(t) DATA          
+#A (2004KE06) (OTHER VALUE: 0.57 MS +31-15 (2002MA61)).                   
+#L J         FROM Adopted Levels.                                         
+#P 275       12 (9+)             0.62 MS   +5-4           7170      10    
+AU170 IR166 alpha 7.17 6.2E-4 0.42
++A alpha 7.107 1.0
+

@@ -1,0 +1,30 @@
+#240CM    244CF A DECAY (19.4 M)        1967SI08,1967FI04         08NDS    200810
+#  244CF A DECAY (19.4 M)        1967SI08,1967FI04         08NDS    200810
+#H TYP=FUL$AUT=BALRAJ SINGH, E. BROWNE$CIT=NDS 109, 2439 (2008)$          
+#H CUT=31-Jul-2008$                                                       
+#  The data set is adapted from evaluation by 1998Ak04                    
+#  1967Si08, 1967Fi04, 1956Ch43: Measured E|a, I|a, T{-1/2}.              
+#  Others: 2002Sh02, 1996Ma72, 1991NoZZ                                   
+#  T{-1/2}({+244}Cf)=19.4 min {I6}, measured by 1967Si08, is adopted in   
+#  2003Ak04. Other measurement: T{-1/2}=20.4 min {I16} (1967Fi04).        
+#                                                                         
+#  1973Ta30 estimate T{-1/2}(|e decay)=6|*10{+3} s from gross |b-decay    
+#  calculations. This partial half-life gives %|e({+244}Cf)=19.           
+#  1997Mo25 estimate T{-1/2}(|b{++}) > 100 s.                             
+#                                                                         
+#A E         Recommended by 1991Ry01 from energies measured by 1967Si08,  
+#A 1967Fi04 and 1956Ch43.                                                 
+#A IA        |a intensity per 100 |a decays, given as recommended         
+#A by 1991Ry01 from the intensity ratio of I|a(7209|a)/I|a(7174|a)=3.3    
+#A {I0}, measured by 1967Si08. The increased uncertainty, following       
+#A evaluation by 1991Ry01, reflects probable contributions from other     
+#A sources.                                                               
+#A HF        r{-0}({+240}Cm)=1.495 {I12} is calculated from               
+#A HF(7209|a)=1.0, if %|a=70 {I20}. For T{-1/2}({+244}Cf)=20.4 min {I16}  
+#A and %|a=70 {I20}, the computations give r{-0}({+240}Cm)=1.493 {I20}.   
+#L BAND(A)   K=0+ GS BAND.                                                
+#P 0.0          0+                 19.4 M    6            7328.9    18    
+CF244 CM240 alpha 7.3289 0.0 0.70
++A alpha 7.209 0.75
++A alpha 7.174 0.25
+

@@ -1,0 +1,38 @@
+#140BA    252CF SF DECAY                1997ZH25,1993BU12,1992ZH4207NDS    200707
+#  252CF SF DECAY                1997ZH25,1993BU12,1992ZH4207NDS    200707
+#H TYP=FUL$AUT=N. NICA$CIT=NDS 108,1287 (2007)$CUT=1-Feb-2006$            
+#  1997Zh25,1999HaZV: measured |g|g at Gammasphere with 20                
+#  Compton-suppressed Ge detectors, and |g|g|g with 36 detectors          
+#  respectively                                                           
+#  1993Bu12,1992Zh42: measured |g, |g|g                                   
+#  1971Ch44,1970WiZN: measured |g                                         
+#  Z and A identification from multiparameter coincidences                
+#  The data for this data set are from 1997Zh25; same level               
+#  scheme is reproduced in 1999HaZV                                       
+#L BAND(A)$GS BAND                                                        
+#L BAND(B)$OCTUPOLE BAND                                                  
+#L J$From 1997Zh25, who assumed the assignments of 1986Ro16 and 1993Bu12, 
+#L plus statement on regular |g-transition spacings                       
+#G DE        |DE{_|g} taken by evaluator as 0.3 keV, 0.4 keV, and 0.5 keV 
+#G for I(|g)|>10, 10|>I(|g)|>1, and 1|>I(|g)|>0.1 respectively            
+#G RI        0.52 |g/100 fissions in 1970WiZN                             
+#P 0            0+               2.645 Y   8                              
+CF252 BA140 SF 0.0 8.346802377600001E7 1.0
++G gamma 0.6023999999999999 1.0
++G gamma 0.5281 0.52
++G gamma 0.5297000000000001 0.18
++G gamma 0.6726 0.032
++G gamma 1.2005 0.12
++G gamma 0.4919 0.008
++G gamma 1.0215 0.002
++G gamma 0.808 0.071
++G gamma 0.2545 0.003
++G gamma 0.5709 0.028999999999999998
++G gamma 1.0625 0.013999999999999999
++G gamma 0.5739 0.015
++G gamma 0.8286 0.024
++G gamma 0.9154 0.013999999999999999
++G gamma 0.3856 0.005
++G gamma 0.719 0.006
++G gamma 0.7617 0.005
+

@@ -1,0 +1,24 @@
+#220TH    224U A DECAY                  2014LO10                  ENSDF    201412
+#  224U A DECAY                  2014LO10                  ENSDF    201412
+#H TYP=FUL$AUT=E. BROWNE, J. K. TULI$CIT=ENSDF$CUT=30-Nov-2014$           
+#  Compiled (unevaluated) dataset from 2014Lo10:                          
+#  Eur Phys J A 50, 132 (2014)                                            
+#  Compiled by J.C. Batchelder (ORNL/ORAU) and C.D. Nesaraja (ORNL),      
+#  October 27, 2014                                                       
+#  Edited by B. Singh (McMaster), Oct 27, 2014                            
+#  {+224}U produced using the fusion evaporation reaction                 
+#  {+206}Pb({+22}Ne,4n), with 119 MeV {+22}Ne beam produced at FLNR       
+#  facility (Dubna). Evaporation residue (ER) was separated using SHELS   
+#  separator and then passed through a TOF system and implanted into a    
+#  DSSD in front of a HPGe. Position and time-correlated |a decays were   
+#  used to identify ER.                                                   
+#  Measured E|a, I|a, E|g, I|g, |a|g-coin, (ER)|a-coin and T{-1/2} of     
+#  {+224}U g.s.                                                           
+#  Cross section with lower limit of 600 nb {I100} was obtained.          
+#A HF$From 2014Lo10 using Preston's spin independent equation             
+#A IA$Deduced by compilers using I(8095|a)/I(8479|a)=0.035 {I8} measured  
+#A in 2014Lo10                                                            
+#P 0.0           0+              396 US    17               8633    8     
++A alpha 8.479 0.966
++A alpha 8.095 0.034
+

@@ -1,0 +1,28 @@
+#223TH    227U A DECAY                  1991HO05                  01NDS    200110
+#  227U A DECAY                  1991HO05                  01NDS    200110
+#H TYP=FUL$AUT=E. BROWNE$CIT=NDS 93, 846 (2001)$CUT=1-May-2001$           
+#  CALCULATED NEW ALPHA HINDRANCE FACTORS.  VALUES DIFFER FROM            
+#  THOSE GIVEN BY 1991HO05.  E. BROWNE. FEBRUARY 2000.                    
+#  {+227}U activity was produced by {+208}Pb({+22}Ne,3n), E=110 Mev, and  
+#  identified by Th XK and by the expected reaction cross section.        
+#  Others: 231PA(P,5N), E=34-54 MEV, activity identified by excitation    
+#  functions (1969HA32); 232TH(A,9N), E=150 MEV, activity identified by   
+#  chemical separation of U, reaction yields, and systematics of          
+#  ALPHA-particle energies (1952ME13).                                    
+#  Measured EG, RI, AG coin, ACE coin, EA, IA. Deduced G-ray              
+#  multipolarities. Detectors: high-purity germanium, SI(LI),             
+#  surface barrier SI.                                                    
+#L E         Deduced by evaluator from G-ray energies using 1-KEV         
+#L uncertainties for values reported by 1991HO05.                         
+#L J$Spin and parity assignments are based on G-ray multipolarities,      
+#L and on the similarity of the level structure, G-ray decay pattern, and 
+#L relative ALPHA-decay hindrance factors in the isotone 221RA.           
+#A HF$Using R0(223TH)=1.523, average of R0(222TH)=1.522 22 and            
+#A R0(224TH)=1.524 9 (1998AK04). 1991HO05 used R0=1.552, therefore        
+#A their hindrance factors differ from those presented here.              
+#P 0.0                (3/2+)      1.1 M    1               7211     14    
++A alpha 7.06 0.2
++A alpha 6.905 0.14
++A alpha 6.86 0.5
++A alpha 6.74 0.16
+

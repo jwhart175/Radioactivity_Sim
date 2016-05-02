@@ -1,0 +1,630 @@
+# 76GE  XA76GA B- DECAY (32.6 S)                                                 
+#XA76GA B- DECAY (32.6 S)                                                 
+#XB74GE(T,P)                                                              
+#XC74GE(18O,16O)                                                          
+#XD76GE(N,N')                                                             
+#XE76GE(N,N'G)                                                            
+#XF76GE(P,P'), (POL P,P')                                                 
+#XG76GE(POL D,D')                                                         
+#XH76GE(A,A')                                                             
+#XI76GE(16O,16O'), (18O,18O')                                             
+#XJCOULOMB EXCITATION                                                     
+#XK80SE(D,6LI)                                                            
+#  Other studies:                                                         
+#  76GE BB decay (to 76SE) through neutrino-less or 2-neutrino decay:     
+#  76GE BB decay (experimental): 1994Ba15, 1993Be14,                      
+#  1992Re03 (also 1991Tr07,1987Fi05, 1984Fo06),                           
+#  1992Be20 (also 1992Ba25), 1991Mo28 (also                               
+#  1991Mo27,1991Mo23,1988Mo35,1985Hu01,1983Le27), 1991Ca34 (also          
+#  1987Ca21,1986Ca07), 1991Av04 (also 1991Av01,1990Mi23,1987Av05,         
+#  1987Av01,1986Av03,1985Av02,1983Av01,1979Av01,1978Pi07), 1991Hy01 (also 
+#  1993Hy02, 1984El01), 1990Bu15, 1990Va18, 1988Ok01 (also                
+#  1987Ej01,1986Ka33,1986Ej01), 1986Zd01 (also 1985Zd01), 1984Si08,       
+#  1984Fi16 (also 1984Be48,1983Be65,1982Be20, 1973Fi01,1970Fi09,          
+#  1967Fi14), 1952Fr23                                                    
+#  76GE BB decay (compilations and analysis): 1993Kl01, 1992Wu07,         
+#  1991Kl04, 1988Ca03                                                     
+#  76GE BB decay (theoretical): 1994Ci05, 1994Fa04, 1994Kr05, 1994St04,   
+#  1994Su03, 1993Su12, 1993Su02, 1993St17, 1993St05, 1993Wu02, 1993Mu08,  
+#  1993Kr20, 1993Kr15, 1993Hi07, 1993Ch07, 1993Ch34, 1993Bu19, 1993Bu01,  
+#  1992St10, 1992St07, 1992Su11, 1992Pa07, 1991Wu07, 1991Su14, 1991Su07,  
+#  1991Mu10, 1991Ha24, 1991Fa13, 1991Fa01, 1991Ci02, 1991Bi09, 1990Su03,  
+#  1990Sh02, 1990Pi03, 1990Hi07, 1990Hi06, 1990Fa13, 1990Ci06, 1990Ba60,  
+#  1989Le28, 1989En02, 1989Ba05, 1989Al34, 1988Ye02, 1988Vo07, 1988To10,  
+#  1988Si03, 1988Mu03, 1988Mo26, 1988Ku31, 1988En04, 1988En02, 1988Do06,  
+#  1988Al34, 1987To16, 1987Ci05, 1986Vo11, 1986To03, 1986Gr23, 1986Fa07,  
+#  1985Vo11, 1985To13, 1985Gr11, 1985Gr03, 1985Do13, 1985Bo08, 1984Kl07,  
+#  1983Ha13, 1983Do12, 1982Za05, 1981Ha21, 1970BoZC                       
+#  76GE(E,E) E=225 MEV: 1990Kh03. Other: 1983Em01                         
+#  76GE(G,A) E=18-25 MEV: 1990An13, measured emission of ALPHA's in GDR   
+#  region                                                                 
+#  Giant dipole resonances in (G,XN): 1976Ca06                            
+#  76GE(P,P'G): 1983Ra02, measured SIGMA                                  
+#  Mass measurement: 1977De20, 1976De21, 1964Ba03, 1963Ri07               
+#  Mass difference (76GE-76SE): 1991Hy01 (also                            
+#  1993Hy02,1985El01,1984El01,1984ElZY)                                   
+#  76GE(PI+,PI-) E=164 MEV: 1993Ka40, 1986Fa07, calculated SIGMA(THETA)   
+#  76GE(32S,32S) E=3.4-7 MEV/nucleon: 1982Gu19, measured fission SIGMA    
+#  76GE(32S,32S) E=158.3 MEV: 1984Sc28, calculated ratio of elastic to    
+#  RUTHERFORD SIGMA's                                                     
+#  Nuclear structure calculations (level, moments, syst etc.):            
+#  1994An08, 1994Jo03, 1994Li18, 1993Ch07, 1992Er02, 1992Hs02, 1992Bu05,  
+#  1991Pe09, 1988Ra35, 1988Do08, 1987Fo17,                                
+#  1986Ta04, 1986Jo03, 1985Na12, 1984We04, 1984Ba28, 1983Ta03, 1983Gi06,  
+#  1983Du04, 1982Le17, 1982Ko10, 1982Ah06, 1981We09, 1980Sh23, 1980Ko22,  
+#  1978De12, 1976La06                                                     
+#  OTHER THEORY REFERENCES: 1990Gu11, 1989Gu04, 1980Ba56, 1979Re10,       
+#  1978Re09, 1977Bo43, 1976Iw04, 1972Le06, 1967Kr02                       
+#G E$From 76GA B-, unless seen in (N,N'G) only                            
+#G M,MR$From G(THETA) in (N,N'G). RUL for E2 and M2 restricts to E2 and   
+#G M1+E2 for mult=Q and D+Q, respectively                                 
+#G RI$Photon branching ratios, primarily from 76GA B- decay               
+#L E$For levels populated in G-ray studies, E(level)'s are                
+#L from least-squares fit to EG's. In other cases values are averages     
+#L from different reaction studies. In (P,P') and (A,A'), values for      
+#L similar levels differ systematically (higher by 12 KEV to 45 KEV       
+#L in the 3700-4600 range). Values from (P,P') are adopted here           
+#L (since many more levels are reported in (P,P') than in (A,A')),        
+#L although, it is difficult to know as to which dataset is more accurate 
+#L J$LOGFT values from 76GA decay have not been used in                   
+#L assigning JPI's since JPI(76GA g.s.)=(3-) is only tentative.           
+#L Moreover, several G-ray placements remain uncertain. For levels        
+#L above AP 3000, values are given in parentheses when available          
+#L only from L(P,P') and/or L(T,P) due to following reasons:              
+#L 1. The agreement of SIGMA(THETA) fits to DWBA is not good over the     
+#L whole angular range. 2. The correspondence between levels in           
+#L different reactions is not unique due to large level density           
+#L and large uncertainties in E(level) from particle reactions            
+#L T$From DSA in (N,N'G) (1990DoZU,1984KoZN) for levels above 2 MEV, below
+#L this values are from BE2 in COUL. EX.                                  
+#L see 1982AuZW also for measurement of GAMOW-TELLER strength for         
+#L double B- decaying nuclei                                              
+#G E(B)$From (N,N'G) only                                                 
+#G E(D)$Placement suggested by the evaluator                              
+#L J(A)$Possible B- feeding from (2+,3+) (see 76GA B- decay). Since       
+#L the level scheme is not well established, the JPI assignment is        
+#L considered as tentative                                                
+#N                                                                     6  
+#L    0.0       0+                STABLE                                  
+#L XREF=+$                                                                
+#L           J=0 is consistent with microwave absorption measurement      
+#L (1949To09)                                                             
+#L T$from BB decay studies, T1/2 GT 6.0E+23 Y 33 (1992Re03) for           
+#L 0+ to 0+ transition of 2038.6 KEV. T1/2 GT 1.40E+23 Y 65               
+#L (1992Re03) for decay to first 2+ state in 76SE (1479.5 transition).    
+#L $1990Va18 give T1/2(0 neutrino decay) GT 1.3E+24 Y, T1/2(2 neutrino    
+#L decay)=9E+20 Y 1, T1/2(0 neutrino, ^B (^Majoron) decay) GT 1E+22 Y.    
+#L T1/2(2 neutrino decay)=1.42E+21 Y 13 (1994Ba15).                       
+#L See references quoted above for other experimental T1/2 values and     
+#L theoretical calculations of 76GE BB decay                              
+#L  562.93   3  2+                18.2 PS  2                              
+#L XREF=+$                                                                
+#L J$L(T,P)=2                                                             
+#L MOMM1=+0.838 46 (1989RA17,1984PA20)                                    
+#L MOMM1$from G(THETA,H) in COUL. EX. (1984Pa20). Others: +0.668 78       
+#L (G(THETA,H) in COUL. EX.,1987La20); +0.56 12                           
+#L (IMPAC,1969He11,1974Hu01,1977Fa07)                                     
+#L MOME2=-0.19 6 (1989RA17,1980LE16)                                      
+#L MOME2$reorientation effect in COUL. EX. (1980Le16). A value of         
+#L -0.03 6 is also given by 1980Le16 for destructive interference. Others:
+#L 1972Gr37, 1969Si15                                                     
+#L           B2(POL P,P')=0.25 1 (1993Mo05). See also other values in     
+#L (P,P')                                                                 
+#L           B2(POL D,D')=0.197 10 (1985Se05)                             
+#L           B2(A,A')=0.265 (1988Ba70), deduced from |b{-2}R=1.313        
+#L           B2((16O,16O'),(18O,18O'))=0.26 (COULOMB), 0.23 (nuclear)     
+#L (1976Co04)                                                             
+#L           B2(coul.ex.)=0.267 (1980Le24)                                
+#L T$from BE2 in COUL. EX. (1980Le16)                                     
+#G  562.93   3  100        E2                                             
+#G BE2W=29 1                                                              
+#L 1108.44   4  2+                8.0 PS   15                             
+#L XREF=ABEFHJK$                                                          
+#L J$L(T,P)=2                                                             
+#L T$from BE2 in COUL. EX.                                                
+#L           B2(POL P,P')=0.058 (1993Mo05,1986MoZR). See (P,P') for       
+#L other values                                                           
+#L           B2(A,A')=-0.057 (1988Ba70)                                   
+#L           B2(coul.ex.)=0.047 (1980Le24)                                
+#G  545.51   3  100    2   E2+M1    +3.5   15                             
+#G BE2W=42 9   $ BM1W=8E-4 4                                              
+#G MR$other: +1.2 +3-1 ((N,N'G),1987Do14)                                 
+#G 1108.41   8   68    7   E2                                             
+#G BE2W=0.90 22                                                           
+#L 1410.08   5  4+                 1.8 PS  4                              
+#L XREF=ABEFHJK$                                                          
+#L J$L(T,P)=4                                                             
+#L T$from BE2 in COUL. EX.                                                
+#L           B4(POL P,P')=0.064 11, 0.024 6, 0.020 20, 0.001              
+#L (1993Mo05,1986MoZR), 0.02 ((P,P'),1983Ra32)                            
+#G  847.15   5  100        E2                                             
+#G BE2W=38 9                                                              
+#L 1539.46   6   3(+)                                                     
+#L XREF=AEF$                                                              
+#L J$spin from 976G(THETA) in (N,N'G). Parity from large MR(Q/D)          
+#G  431.0    5  100    7                                                  
+#G  976.50   5   50    2   D+Q                                            
+#G           MR(Q/D)=+2.0 +5-3 or +0.75 +15-10 from (N,N'G)               
+#L 1911.07   11  0+                0.8 PS  GT                             
+#L XREF=ABEFHJK(*)$                                                       
+#L J$L(T,P)=0                                                             
+#L T$from BE2 in COUL. EX.                                                
+#G 1348.13   13  100                                                      
+#G BE2W LT 7.4                                                            
+#L 2019.87   10  (4+)                                                     
+#L XREF=ABEFK(*)$                                                         
+#L J$L(T,P)=L(P,P')=(4)                                                   
+#G  911.40   10  100                                                      
+#L 2204.9    4  (1,2+)            0.010 PS 4                              
+#L XREF=E$                                                                
+#L J$G to 0+                                                              
+#G 1097.4    5                                                            
+#G 2203.8    5                                                            
+#L 2284.22   24 (3)-                                                      
+#L XREF=AF$                                                               
+#L J$L(P,P')=3                                                            
+#G 1175.7    5  100                                                       
+#L 2456      5                                                            
+#L XREF=F$                                                                
+#L 2478.2    5  (1,2+)                                                    
+#L XREF=E$                                                                
+#L J$G to 0+                                                              
+#G 1915      1                                                            
+#G 2478.2    5                                                            
+#L 2503.6    4  2+                0.24 PS  +55-10                         
+#L XREF=BEF$                                                              
+#L J$L(T,P)=2                                                             
+#G 1395.1    5   100                                                      
+#G 2503.6    5    43                                                      
+#G BE2W=0.4 3                                                             
+#L 2554      5                                                           ?
+#L XREF=F$                                                                
+#L 2591.10   16 (1+,2+)                                                   
+#L XREF=AE$                                                               
+#L J$G's to 0+ and 3(+)                                                   
+#G 1051.7    2  95     14                                                 
+#G 1482.5    3 100     15                                                 
++G gamma 1.4825 1.0
+#G 2591.0    4  55     10                                                 
+#L 2624      5                                                           ?
+#L XREF=F$                                                                
+#L 2654.51   21 (LE 4)                                                    
+#L XREF=AE$                                                               
+#L J$G to 2+ suggests 0+,1,2,3,4+. JPI=0+,1+ suggested (1984KoZN)         
+#L from (N,N'G) excitation functions                                      
+#G 1546.0    4  100    20                                                 
+#G 2091.9    4   42    10                                                 
+#L 2692.40   8   3-               0.28 PS  +15-8                          
+#L XREF=ABEFH$                                                            
+#L J$L(T,P)=L(A,A')=3                                                     
+#L           B3(POL P,P')=0.15 1 (1993Mo05,1986MoZR). See also other      
+#L values in (P,P')                                                       
+#L           B3(A,A')=0.11 (1988Ba70)                                     
+#G 1282.9    4   13    LT                                             &   
+#G           If E1, BE1W LT 0.00003                                       
+#G 1583.9    5    9    3                                                  
+#G           If E1, BE1W=0.00025 13                                       
+#G 2129.46   8  100    3                                                  
+#G           If E1, BE1W=0.00011 5                                        
+#G 2691.6    4    7    2                                                  
+#G BE3W=700 350                                                           
+#G RI$this value is suspect since ^G{-3}(W.U.)=9.4 (P,P');                
+#G 11.7 (A,A') suggests RI AP 0.1. This GAMMA ray was reported in 76GA    
+#G B- decay only, where it may have been contributed mainly               
+#G by a sum line                                                          
+#L 2733.4    7   4+               0.17 PS  +18-8                          
+#L XREF=BEFH(*)$                                                          
+#L J$L(T,P)=L(P,P')=4                                                     
+#G 1194.0    5                                                            
+#L 2747.76   8   (1 TO 4)         0.33 PS  +33-12                         
+#L XREF=AEFH(*)$                                                          
+#L J$G's to 2+ and 3(+) suggest JPI=1+,2,3,4+. Excitation function        
+#L analysis in (N,N'G) supports 2+,4+                                     
+#G 1208.02   13  28    2                                                  
+#G 1639.30   10 100    3                                                  
+#G 2185.20   17   9    1                                                  
+#L 2768.76   14  2+                                                       
+#L XREF=ABEFH$                                                            
+#L J$L(T,P)=L(A,A')=2                                                     
+#G 1358.9    6   24    8                                                  
+#G 1660.30   14 100    7                                                  
+#L 2841.57   13  2+               0.028 PS 8                              
+#L XREF=ABEF$                                                             
+#L J$L(T,P)=L(P,P')=2                                                     
+#G 1732.70   25 100    9                                                  
+#G 2278.80   17  61    5                                                  
+#L 2897.7    5   0+                                                       
+#L XREF=BEF$                                                              
+#L J$L(T,P)=0                                                             
+#G 2334.7    5 100                                                        
++G gamma 2.3346999999999998 1.0
+#L 2919.79   7  (1,2+)            0.21 PS  +10-6                          
+#L XREF=AE$                                                               
+#L J$G to 0+                                                              
+#G 1811.10   12   9.2  6                                                  
+#G 2356.88   12  27    2                                                  
+#G 2919.85   10 100    4                                                  
+#G BE2W=0.5 2                                                             
+#L 2921      5   3-                                                       
+#L XREF=FH$                                                               
+#L J$L(A,A')=L(P,P')=3                                                    
+#L           2921 level is treated as different from 2920 level since an  
+#L intense GS transition from 2920 level is inconsistent with L(A,A')=3   
+#L for a 2921 group                                                       
+#L 2962.2       (5)-                                                      
+#L XREF=BEFH$                                                             
+#L J$L(T,P)=5 and L(A,A')=(5). But L(P,P')=3 suggests 3-                  
+#L 2994      5   4+                                                       
+#L XREF=BFH$                                                              
+#L J$L(T,P)=L(A,A')=4                                                     
+#L 3007.8    4  (1,2+)            0.026 PS +28-13                         
+#L XREF=E$                                                                
+#L J$G to 0+                                                              
+#G 1898.3    5  100                                                       
+#G 3008.6    5  100                                                       
+#G           If E2, BE2W=2.3 +23-11                                       
+#L 3041.0    6  (2+)              0.23 PS  +35-10                         
+#L XREF=BEF$                                                              
+#L J$L(T,P)=2                                                             
+#G 1130.2    5                                                            
+#G 2477.7    5                                                            
+#L 3052.5    7  (1 TO 5)          0.030 PS +14-10                         
+#L XREF=EF$                                                               
+#L J$G to 3(+) suggests 1+,2,3,4,5+                                       
+#G 1513.1    5  100                                                       
+#L 3071      5                                                            
+#L XREF=F$                                                                
+#L 3090      5                                                           ?
+#L XREF=F$                                                                
+#L 3131.8    7  (LE 4)                                                    
+#L XREF=EF$                                                               
+#L J$G to 2+ suggests 0+,1,2,3,4+                                         
+#G 2023.3    5  100                                                       
+#L 3141.51   7   2+               0.06 PS  +7-4                           
+#L XREF=ABEF(3150)$                                                       
+#L J$L(T,P)=L(P,P')=2                                                     
+#G 1230.2    5                                                        B   
+#G 2578.55   9   53    2                                                  
+#G 3141.40   10 100    5                                                  
+#G BE2W=1.1 +22-6                                                         
+#L 3166      5                                                            
+#L XREF=F$                                                                
+#L 3182.21   6  (2+)              0.25 PS  +35-11                         
+#L XREF=AB(*)EF(*)$                                                       
+#L J$L(P,P')=2+5 for a 3195 group; L(P,T)=(2,3)                           
+#G 1642.80   15  22    2                                                  
+#G 2073.75   7  100    3                                                  
+#G 2619.20   10  53    2                                                  
+#L 3195      5  (4-,5-,6-)                                                
+#L XREF=B(*)F(*)$                                                         
+#L J$L(P,P')=2+5 for a 3195 5 group                                       
+#L 3224      5                                                            
+#L XREF=F$                                                                
+#L 3231.8    4   4+                                                       
+#L XREF=ABF(3240)H$                                                       
+#L J$L(T,P)=L(A,A')=4                                                     
+#G 2668.8    4   100                                                  D  ?
+#L 3268      5  (4+)                                                      
+#L XREF=FH$                                                               
+#L J$L(A,A')=(4). But L(P,P')=(5) suggests 4-,5-,6-                       
+#L 3312.33   12  3-                                                       
+#L XREF=AB(*)F(*)H$                                                       
+#L J$L(A,A')=3. Also L(P,P')=0+3 for a doublet. L(T,P)=0,1 and            
+#L 3,4 also indicates a doublet with JPI=0+ or 1- and 3- or 4+            
+#G 1902.2    2   31    3                                                  
+#G 2203.86   16 100    8                                                  
+#L 3317      5  (0+)                                                      
+#L XREF=B(*)F(*)$                                                         
+#L J$L(P,P')=0+3 for a doublet and L(T,P)=0,1 and 3,4 for a doublet.      
+#L L=3 component is associated with 3312 level                            
+#L 3322.85   7  (2+,3,4+)         0.16 PS  +14-6                          
+#L XREF=AE$                                                               
+#L J$G's to 2+ and 4+. Excitation function analysis in (N,N'G)            
+#L suggests 2+                                                            
+#G 1912.7    1   26    2                                                  
+#G 2214.36   8  100    3                                                  
+#G 2759.95   14  49    3                                                  
+#L 3334.7    3   (2+)                                                    ?
+#L XREF=A$                                                                
+#L J$G's to 0+ and 4+                                                     
+#G 1924.6    3  100    14                                                ?
+#G 3334.6    5   97    21                                                ?
+#L 3349      5                                                            
+#L XREF=F$                                                                
+#L 3391      5  (4+,5-)                                                   
+#L XREF=FH$                                                               
+#L J$L(P,P')=5 but L(T,P)=(4)                                             
+#L 3409.19   19 (1 TO 4)                                              A   
+#L XREF=AF(3402)$                                                         
+#G  661.4    2  100                                                      ?
+#L 3420.4    5  (1,2+)                                                    
+#L XREF=E$                                                                
+#L J$G to 0+                                                              
+#G 3420.3    5  100                                                       
+#L 3439      5                                                            
+#L XREF=F$                                                                
+#L 3453      5  (3+,4+,5+)                                                
+#L XREF=F$                                                                
+#L J$L(P,P')=4                                                            
+#L 3477.65   17 (1 TO 4)                                              A   
+#L XREF=AB$                                                               
+#L J$L(T,P)=1 or 0 (and L>1)                                              
+#L indicates 1- or 0+ for one of the components in a possible doublet     
+#G  335.9    5  100    25                                                ?
+#G 2369.8    6    5    2                                                 ?
+#G 2914.6    2   14    2                                                 ?
+#L 3484.1    9   3-                                                       
+#L XREF=EFH$                                                              
+#L J$L(A,A')=3                                                            
+#G 2074      1                                                            
+#G 2921      1                                                            
+#L 3506      5                                                            
+#L XREF=F$                                                                
+#L 3533      5                                                            
+#L XREF=F$                                                                
+#L 3545      5  2+                                                        
+#L XREF=BFH$                                                              
+#L J$L(A,A')=2. But L(T,P)=0,1 and 3,4 suggests 0+ or 1- and              
+#L 3- or 4+ for a doublet                                                 
+#L 3585      5  (2)+                                                      
+#L XREF=FH$                                                               
+#L J$L(A,A')=(2) and L(P,P')=2                                            
+#L 3606      5                                                            
+#L XREF=F$                                                                
+#L 3632.75   10 (2+)                                                      
+#L XREF=A$                                                                
+#L J$G's to 0+ and (4+)                                                   
+#G 1612.7    3   49    7                                                  
+#G 1721.9    7   16    5                                                  
+#G 2524.0    2   86    6                                                  
+#G 3069.90   13 100    6                                                  
+#L 3640      5  (4-,5-,6-)                                                
+#L XREF=B(*3648)FH(*)$                                                    
+#L J$L(P,P')=5. But L(T,P)=(2) for 3648 suggests 2+                       
+#L 3658      5                                                            
+#L XREF=B(*3648)FH(*)$                                                    
+#L 3691      5                                                            
+#L XREF=F$                                                                
+#L 3721      5   (5)-                                                     
+#L XREF=BFH$                                                              
+#L J$L(A,A')=(5) and L(P,P')=5                                            
+#L 3748      5   2+                                                       
+#L XREF=FH$                                                               
+#L J$L(A,A')=2                                                            
+#L 3788      5                                                            
+#L XREF=B(*)F$                                                            
+#L 3805      5                                                            
+#L XREF=B(*)F$                                                            
+#L 3815      5                                                            
+#L XREF=F$                                                                
+#L 3848      5                                                            
+#L XREF=F$                                                                
+#L 3868      5                                                            
+#L XREF=F$                                                                
+#L 3883      5                                                            
+#L XREF=B(*)FH(3871)$                                                     
+#L 3887.05   19 (3-)                                                      
+#L XREF=AB(*)F(3904)H(3893)$                                              
+#L J$L(A,A')=L(P,P')=3                                                    
+#G 2347.40   25  55    6                                                  
+#G 2476.60   40  27    6                                                  
+#G 2779.1    4  100    10                                                 
+#G 3325.2    12  14    7                                                  
+#L 3951.89   7  (1,2+)                                                    
+#L XREF=A$                                                                
+#L J$G to 0+                                                              
+#G 1259.9    5    7    2                                                  
+#G 2040.70   25   8    2                                                  
+#G 2843.50   9   38    2                                                  
+#G 3388.75   12  67    4                                                  
+#G 3951.70   14 100    8                                                  
+#L 3972      5  (4+)                                                      
+#L XREF=FH(3952)$                                                         
+#L J$L(A,A')=(4)                                                          
+#L 3997      5  4+                                                        
+#L XREF=FH(3978)$                                                         
+#L J$L(A,A')=L(P,P')=4                                                    
+#L 4026      5                                                           ?
+#L XREF=F$                                                                
+#L 4056      5                                                            
+#L XREF=F$                                                                
+#L 4073      5                                                            
+#L XREF=FH(4052)$                                                         
+#L 4099      5  5-                                                        
+#L XREF=FH(4073)$                                                         
+#L 4122.3    4  (1,2+)                                                   ?
+#L XREF=AF$                                                               
+#L J$G to 0+                                                              
+#G 3559.5    4  100    8                                                 ?
+#G 4121.8    5   43    6                                                 ?
+#L 4153      5                                                            
+#L XREF=FH(4126)$                                                         
+#L J$L(P,P')=4 suggests 3+,4+,5+ but L(A,A')=(1) suggests 1-              
+#L 4192.85   12 (2+,3,4+)                                                ?
+#L XREF=AF$                                                               
+#L J$G's to 4+, (1,2+)                                                    
+#G 1273.05   10  100   6                                                 ?
+#G 2782.70   40   84   7                                                 ?
+#L 4209      5   3-                                                       
+#L XREF=FH(4180)$                                                         
+#L J$L(A,A')=L(P,P')=3                                                    
+#L 4239.40   15 (1 TO 4)                                              A   
+#L XREF=AF$                                                               
+#G  927.05   10  100   6                                                 ?
+#G 3130.7    6    23   5                                                 ?
+#L 4249      5   4+                                                       
+#L XREF=FH(4220)$                                                         
+#L J$L(A,A')=4                                                            
+#L 4272      5                                                            
+#L XREF=F$                                                                
+#L 4326.5    2   (1 TO 4)                                             A   
+#L XREF=AF$                                                               
+#G 1014.2    2    31   5                                                 ?
+#G FL=3312.33                                                             
+#G 1634.0    2   100   5                                                 ?
+#L 4363.5    2    4+                                                      
+#L XREF=AFH(4332)$                                                        
+#L J$L(A,A')=L(P,P')=4                                                    
+#G  885.83   10  100   8                                                 ?
+#G 1443.9    5    20   5                                                 ?
+#L 4399      5  (3+,4+,5+)                                                
+#L XREF=FH(4367)$                                                         
+#L J$L(P,P')=4                                                            
+#L 4426      10                                                           
+#L XREF=FH(4402)$                                                         
+#L 4444      10 (3+,4+,5+)                                                
+#L XREF=F$                                                                
+#L J$L(P,P')=(4)                                                          
+#L 4476.5    2  (LE 4)                                                   ?
+#L XREF=AF(4468)$                                                         
+#L J$G to 2+ suggests 0+,1,2,3,4+                                         
+#G  843.8    2  100    10                                                ?
+#G 3913.3    5   11    3                                                 ?
+#L 4488      10   3-                                                      
+#L XREF=FH(4453)$                                                         
+#L J$L(A,A')=3                                                            
+#L 4536      10  (3+,4+,5+)                                               
+#L XREF=FH(4500)$                                                         
+#L J$L(P,P')=4. L(A,A')=(3,4) suggests a doublet with 3- and 4+           
+#L 4570      10                                                           
+#L XREF=FH(4530)$                                                         
+#L J$L(A,A')=(3,5) suggests a doublet with 3- and 5-                      
+#L 4611      10  (3-)                                                     
+#L XREF=FH(4570)$                                                         
+#L J$L(A,A')=(3)                                                          
+#L 4659      10  (5-)                                                     
+#L XREF=FH(4615)$                                                         
+#L J$L(A,A')=(5)                                                          
+#L 4698      10                                                           
+#L XREF=F$                                                                
+#L 4719.9    2  (2,3,4)                                                   
+#L XREF=A$                                                                
+#L J$G's to (2+), (4+)                                                    
+#G 1310.6    3   75    13                                                ?
+#G 1878.3    2   98    11                                                 
+#G 2435.6    3  100    13                                                 
+#L 4736      10                                                           
+#L XREF=F$                                                                
+#L 4767      10                                                           
+#L XREF=F$                                                                
+#L 4784.1    3  (1 TO 4)                                              A  ?
+#L XREF=A$                                                                
+#G 1461.2    3   74    15                                                ?
+#G 3675.60   45 100    11                                                ?
+#L 4812.5    2  (2+,3,4+)                                                ?
+#L XREF=AF(*)$                                                            
+#L J$G's to 4+ and (1,2+)                                                 
+#G 1892.7    2  100    7                                                 ?
+#G 3402.4    3   33    5                                                 ?
+#L 4814.8    3  (1 TO 4)                                              A  ?
+#L XREF=AF(*)$                                                            
+#G 1182.1    3  100    15                                                ?
+#G 1502.3    5   96    13                                                ?
+#G FL=3312.33                                                             
+#L 4839      10 (3+,4+,5+)                                                
+#L XREF=F$                                                                
+#L J$L(P,P')=(4)                                                          
+#L 4868      10                                                           
+#L XREF=F$                                                                
+#L 4939      10                                                           
+#L XREF=F$                                                                
+#L 5122.48   14 (1 TO 4)                                              A   
+#L XREF=A$                                                                
+#G 1489.6    4   34    10                                                 
+#G 1940.30   14 100    7                                                  
+#G 1980.4    5   32    6                                                  
+#L 5276      10                                                           
+#L XREF=F$                                                                
+#L 5522.6    2   (1 TO 4)                                             A   
+#L XREF=A$                                                                
+#G 1282.9    4   81    LT                                             &  ?
+#G 2680.9    3   92    10                                                 
+#G 2868.1    2  100    14                                                 
+#L 5663.37   15 (2+)                                                      
+#L XREF=A$                                                                
+#L J$G's to 0+ and 4+                                                     
+#G 2481.1    4   50    10                                                 
+#G 2970.90   15 100    12                                                 
+#G 3752.10   50  42    9                                                  
+#G 4253.3    5   57    9                                                  
+#L 5749.9    4  (1 TO 4)                                              A  ?
+#L XREF=A$                                                                
+#G 2981.2    4  100    20                                                ?
+#G 3465.5    4   68    13                                                ?
+#L 5883.0    3  (1 TO 4)                                              A  ?
+#L XREF=A$                                                                
+#G 2700.5    4   94    16                                                ?
+#G 3190.6    3  100    13                                                ?
+#L 6021.1    3  (1 TO 4)                                              A  ?
+#L XREF=A$                                                                
+#G 3328.7    8  100    30                                                ?
+#G 3366.5    3   73    14                                                ?
+#G 3736.90   45  80    20                                                ?
+#L 6065.2    4  (1 TO 4)                                              A  ?
+#L XREF=A$                                                                
+#G 2882.9    9   47    16                                                ?
+#G 3145.3    4  100    20                                                ?
+#                                                                         
+
+# 76GE    76GA B- DECAY (32.6 S)        1971CA39                  95NDS    199503
+#  76GA B- DECAY (32.6 S)        1971CA39                  95NDS    199503
+#H TYP=ERR$AUT=J. TULI$COM=CHANGED P-CARD JPI TO ADOPTED$                 
+#H TYP=FUL$AUT=BALRAJ SINGH$CIT=NDS 74,63 (1995)$CUT=22-Dec-1994$         
+#  See 1985Ta01 for T1/2 of 76GA isotope                                  
+#  Measured G. The level scheme is from RITZ-combination.                 
+#  No GG are reported                                                     
+#  Other: 1972MaWL                                                        
+#  T1/2 and source production: 1985Ta01, 1981Ru07, 1974Gr29,              
+#  1970OsZZ, 1966Se04, 1961Ta08                                           
+#  GB-: 1977Al17                                                          
+#  B-strength functions: 1975Al11. B- systematics (1983Be56)              
+#L J$From adopted levels                                                  
+#G M$From adopted gammas                                                  
+#L E$From least-squares fit to EG's                                       
+#B           All LOGFT values are considered as tentative since           
+#B the level scheme is not considered as well established. These LOGFT    
+#B values cannot be used for definitive JPI assignments for 76GE levels   
+#G E(A)$Placement suggested by the evaluator                              
+#P  0.0         (2+,3+)            32.6 S  6               7010     90    
++B beta- 2.83 0.142
++B beta- 2.56 0.10099999999999999
++B beta- 2.42 0.006
++B beta- 2.35 0.105
++B beta- 2.17 0.002
++B beta- 2.12 0.0055000000000000005
++B beta- 1.85 0.0123
++B beta- 1.81 0.002
++B beta- 1.8 0.0059
++B beta- 1.77 0.068
++B beta- 1.76 0.0075
++B beta- 1.72 0.0048
++B beta- 1.69 0.10300000000000001
++B beta- 1.58 0.02
++B beta- 1.56 0.062
++B beta- 1.54 0.0016
++B beta- 1.5 0.0018
++B beta- 1.49 0.036000000000000004
++B beta- 1.49 0.0039000000000000003
++B beta- 1.45 0.0046
++B beta- 1.42 0.05
++B beta- 1.34 0.0044
++B beta- 1.22 0.015600000000000001
++B beta- 1.19 0.09300000000000001
++B beta- 1.11 0.0084
++B beta- 1.08 0.022099999999999998
++B beta- 1.06 0.0085
++B beta- 1.02 0.015
++B beta- 1.0 0.0158
++B beta- 0.94 0.0127
++B beta- 0.83 0.01
++B beta- 0.8 0.0078000000000000005
++B beta- 0.79 0.0053
++B beta- 0.79 0.01
++B beta- 0.65 0.011000000000000001
++B beta- 0.47 0.0096
++B beta- 0.41 0.0098
++B beta- 0.37 0.0034000000000000002
++B beta- 0.31 0.0040999999999999995
++B beta- 0.26 0.005
++B beta- 0.24 0.0044
+

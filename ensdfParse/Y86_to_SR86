@@ -1,0 +1,109 @@
+# 86SR    86Y EC DECAY (14.74 H)        1970RA06                  15NDS    201412
+#  86Y EC DECAY (14.74 H)        1970RA06                  15NDS    201412
+#H TYP=FUL$AUT=ALEXANDRU NEGRET, BALRAJ SINGH$CIT=NDS 124, 1 (2015)$      
+#H CUT=30-Nov-2014$                                                       
+#  1970RA06 (also 1969RA08): Measured EG, RI, GG using NaI and Ge(Li)     
+#  detectors and CE with a B-ray spectrometer.                            
+#  GG(THETA): 1984AK02, 1975BE59, 1970AR03, 1962YA01                      
+#  1969AR25: measured EG, IG. About 85 GAMMA rays reported. Strong        
+#  GAMMA rays agree in energy and intensity with those from 1970RA06.     
+#  A large number of weak lines listed below remain unconfirmed           
+#  1965VA02: measured G, CE, EB, IB, BG, GG, B-shape                      
+#  1962YA01: B and shape factor                                           
+#  T1/2(86Y): 1972EM01, 1951CA46, 1951HY24                                
+#G $Following weak transitions were reported by 1969AR25 only:            
+#G 118.7 5 (0.25 9), 241.7 5 (1.01 16), 815.5 15 (1.5 5), 909.7 5 (2.0 5),
+#G 928 1 (1.6 4), 1064 1 (0.9 4), 1390 2 (0.3), 1460 1 (0.3),             
+#G 1603 2 (0.5), 1661 2 (0.5 2), 1782 1 (0.1), 1940 3 (0.15 5),           
+#G 2043 2 (0.1), 2058 2 (0.37 13), 2130 2 (0.15 7), 2164 2 (0.10 5),      
+#G 2190 3 (0.10 3), 2228 3 (LE 0.1), 2298 2 (0.1), 2314 3 (0.4 3),        
+#G 2617 2 (0.20 8), 2859 3 (0.3 1), 3025 5 (0.09), 3795 5 (0.10 3),       
+#G 3868 5 (0.15), 3888 5 (0.37), 3918 5 (0.56). These have not been       
+#G placed in a level scheme and are omitted here, since not confirmed     
+#G by 1970RA06                                                            
+#G MR$Spin sequences and MR values deduced from evaluator's (in 1988MU14) 
+#G analysis. Large-MR solutions have                                      
+#G not been considered for E1+M2 and E2+M3 transitions.                   
+#G           EKC deduced from conversion spectra if mult(1077G)=E2.       
+#G EKC(1077G) from internal/external conversion spectra.                  
+#G E(A)$Uncertainty increased by evaluator from 20 EV to 0.1 KEV.         
+#G M,MR$From CE data of 1970RA06 and GG(THETA) data of                    
+#G 1984AK02 and 1970AR03, except as noted otherwise.                      
+#G M(B)$EKC allows M1 or E2, adopted DJPI excludes M1.                    
+#G RI(D)$Very weak                                                        
+#G E(E)$From level-energy difference                                      
+#G E(F)$Assignment to 86Y EC decay is uncertain                           
+#G RI(C)$From GG coin                                                     
+#L J$From Adopted Levels                                                  
+#N 0.825      4          1         1                                      
+Y86 SR86 beta+ 1.7762 1610668.8 1
+#N NR$SUMOF (TI of G rays to GS)=100. Direct feeding to GS                
+#N is highly forbidden.                                                   
+#N                                                                     3  
+#P 0.0          4-               14.74 H    2              5240     14    
++B beta+ 8.633E-4 0.00113
++B beta+ 1.4367999999999999 0.06
++B beta+ 1.0776 0.05
++B beta+ 0.8833 0.0016
++B beta+ 0.7677999999999999 0.0022
++B beta+ 0.695 0.0028000000000000004
++B beta+ 0.6811 0.0029
++B beta+ 0.6289 0.0034000000000000002
++B beta+ 0.5886 0.0039000000000000003
++B beta+ 0.5354 0.0045000000000000005
++B beta+ 0.5094 0.0049
++B beta+ 0.4522 0.005699999999999999
++B beta+ 0.4056 0.0064
++B beta+ 0.3941 0.006500000000000001
++B beta+ 0.3747 0.0068000000000000005
++B beta+ 0.2524 0.008100000000000001
++B beta+ 0.2346 0.0083
++B beta+ 0.2008 0.0085
++B beta+ 0.19690000000000002 0.0085
++B beta+ 0.173 0.0086
++B beta+ 0.15580000000000002 0.0086
++B beta+ 0.1326 0.0086
++B beta+ 0.1255 0.0087
++B beta+ 0.1143 0.0087
++B beta+ 8.732E-4 0.0010402
++B beta+ 8.731E-4 0.0010415
++B beta+ 8.723E-4 0.0010477
++B beta+ 8.7E-4 0.00106
+
+# 86SR C  86Y (48 M) decays primarily (99.3%) through IT DECAY                   
+#  86Y (48 M) decays primarily (99.3%) through IT DECAY                   
+#  1962KI04: measured T1/2 and ^IT transitions                            
+#G RI$Coincidence intensities were observed to be                         
+#G equal to within 10%.                                                   
+#L J,T$From Adopted Levels                                                
+#N 1.00        1.00       0.0069 4 144.93                                 
+#N BR$deduced from RI(98.6G)/RI(208.2G in 86Y)=0.0035 2                   
+#N                                 1.0                                 3  
+#P 218.3     2 (8+)              47.4 M    4              5240      14    
++G gamma 1.0766 1.0
++G gamma 1.1531 1.0
++G gamma 0.6272000000000001 1.0
++G gamma 0.0986 0.48
+
+# 86SR C  86Y (48 M) decays primarily (99.3%) through IT DECAY                   
+#  86Y (48 M) decays primarily (99.3%) through IT DECAY                   
+#  1962KI04: measured T1/2 and ^IT transitions                            
+#G RI$Coincidence intensities were observed to be                         
+#G equal to within 10%.                                                   
+#L J,T$From Adopted Levels                                                
+#N 1.00        1.00       0.0069 4 144.93                                 
+#N BR$deduced from RI(98.6G)/RI(208.2G in 86Y)=0.0035 2                   
+#N                                 1.0                                 3  
+#P 218.3     2 (8+)              47.4 M    4              5240      14    
++G gamma 1.0766 1.0
++G gamma 1.1531 1.0
++G gamma 0.6272000000000001 1.0
++G gamma 0.0986 0.48
++G gamma 1.07664 0.261
++G gamma 1.153 0.26
++G gamma 0.6277200000000001 0.25
++G gamma 1.7530999999999999 0.115
++G gamma 1.12554 0.081
++G gamma 0.22668000000000002 0.07200000000000001
++G gamma 0.12983 0.079
+

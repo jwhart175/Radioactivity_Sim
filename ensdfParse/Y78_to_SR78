@@ -1,0 +1,31 @@
+# 78SR    78Y EC DECAY (53 MS)          2001GA24,2002FA13         09NDS    200910
+#  78Y EC DECAY (53 MS)          2001GA24,2002FA13         09NDS    200910
+#H TYP=FUL$AUT=AMEENAH R. FARHAN, BALRAJ SINGH$CIT=NDS 110, 1917 (2009)$  
+#H CUT=30-Jun-2009$                                                       
+#  2001Ga24 (also 1998Lo17,1999Lo07): {+92}Mo{++37}, 60 MeV/A on Ni       
+#  target, fragments separated by LISE3 separator. Measured |b{++}(t), Si 
+#  strip detectors.                                                       
+#  2001KI13, 2002FA13, 2007WeZX: 112SN IONS, 1 GEV/^A, ON Be TARGET,      
+#  FRAGMENTS ISOTOPICALLY SEPARATED. Si STACK DETECTORS.                  
+#  1998Uu01: {+40}Ca({+40}Ca,pn), E={ 125 MeV}. Measured                  
+#  |b{++}, |g, |b{++}|g(t), T{-1/2}                                       
+#  1992Ye04: {+58}Ni(92Mo,X),E=70 MeV/nucleon; measured fragment mass,    
+#  charge. A1200 beam analysis device.                                    
+#P 0           (0+)              53 MS     8              10650     SY    
+
+# 78SR    78Y EC DECAY (5.8 S)          1998UU01                  09NDS    200910
+#  78Y EC DECAY (5.8 S)          1998UU01                  09NDS    200910
+#H TYP=FUL$AUT=AMEENAH R. FARHAN, BALRAJ SINGH$CIT=NDS 110, 1917 (2009)$  
+#H CUT=30-Jun-2009$                                                       
+#  1998Uu01: {+40}Ca({+40}Ca,pn), E={ 125 MeV}. Measured                  
+#  |b{++}, |g, |b{++}|g(t), T{-1/2}                                       
+#  2001KI13, 2002FA13, 2007WeZX: 112SN IONS, 1 GEV/nucleon, ON Be TARGET, 
+#  FRAGMENTS ISOTOPICALLY SEPARATED. Si STACK DETECTORS.                  
+#  The decay scheme is not known well, the normalizations and log {Ift}   
+#  values are only approximate.                                           
+#L J$ FROM 'ADOPTED LEVELS'                                               
+#P 0+X         (5+)              5.8 S     6              10650     SY    
++G gamma 0.279 1.0
++G gamma 0.504 0.9
++G gamma 0.713 0.4
+

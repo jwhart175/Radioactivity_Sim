@@ -1,0 +1,69 @@
+# 92MO    92TC EC DECAY                 1985BE12,1976DE07,1968KOZY12NDS    201210
+#  92TC EC DECAY                 1985BE12,1976DE07,1968KOZY12NDS    201210
+#H TYP=FUL$AUT=CORAL M. BAGLIN$CIT=NDS 113, 2187 (2012)$CUT=15-Sep-2012$  
+#G CC$ FROM BrIcc v2.2b (20-Jan-2009) 2008Ki07, "Frozen Orbitals" appr.   
+#  Others: 1964LO02, 1964VA05, 1966DI01, 1971CO08, 1973GI04, 1974IA01.    
+#  The decay scheme for E(level)<2800 KEV is based on that                
+#  of 1964VA05. It incorporates GG-coin data of 1964VA05                  
+#  (148,329,773,1510 G rays in prompt coin) and accounts for all known    
+#  lines with IG GE 2%. No significant EC+B+ branch to the 2612-KEV 6+    
+#  level of 92MO is indicated (I(EC+B+)=3% 6, LOGFT GE 6.5),              
+#  whereas the 2760-KEV 8+ state of 92MO is strongly fed                  
+#  (I(EC+B+)=89% 6, LOGFT=5.4), so JPI(92TC GS) is probably               
+#  not 7+. B+ feeding to some level(s) other than the 190-ns 8+ level     
+#  must occur because 1985BE12 observe |g{+|+} in prompt coin with 773G   
+#  and 1509G. Also, a number of weak G's have been assigned to 92TC       
+#  by 1968KOZY, 1976DE07 (fig 1) and 1985BE12. 1968KOZY propose several   
+#  levels with E>2800 KEV on the basis of pairs of weak G rays whose      
+#  energy difference matches a known level-energy difference but, in the  
+#  absence of coin data, the evaluator has                                
+#  retained only those levels deexcited by pairs of G rays whose EG       
+#  and IG are confirmed by the data of 1985BE12. Total unplaced IG=5%.    
+#E IB        1964VA05 deduce I(B+)=92% 12 from                            
+#E I(|g{+|+})/I(1509G).                                                   
+#E E(D)      From 1964VA05. Other: 4100 200 (1974IA01).                   
+#G           1968KOZY report, but 1985BE12 do not confirm, G rays with    
+#G the following EG: 1337.1 13, 1596.0 10, 1785.9 13, 2511.5 13,          
+#G 3134.3 15, 4085.5 15, 4135.9 15, and 2873.4 15,                        
+#G 3911.9 15, 4037.6 22, 4577.3 15; 1985BE12 report RI LE 0.02            
+#G for the latter four G rays. The evaluator considers assignment of      
+#G these lines to 92TC EC+B+ decay to be doubtful.                        
+#G E         E(85G) from 1968KOZY. Other EG from 1985BE12 (DE=0.3-0.6     
+#G KEV), unless indicated otherwise; evaluator assigns DE=0.3 KEV for     
+#G strongest three G rays. Except for the 1590.9G, 2516.8G and            
+#G 2645.2G, all lines with EG<3200 reported in 1985BE12 are confirmed     
+#G in spectrum of fig. 1 from 1976DE07.                                   
+#G RI        From 1985BE12, unless noted otherwise. Relative to           
+#G I(773G)=100                                                            
+#G M,MR      From Adopted Gammas.                                         
+#G RI(A)     Weighted average of data from 1976DE07 and 1985BE12.         
+#G RI(F)     From 1976DE07. Datum from 1968KOZY inconsistent.             
+#L J         From Adopted Levels.                                         
+#L T(C)      From weighted average of 1.51 NS 8 (1973GI04) and 1.54 NS 5  
+#L (1971CO08) from 330G-148G(T). Other: 1.50 NS 15 (1968KOZY)             
+#L from BG(T).                                                            
+#L T(B)      From (EB>300)-773G(T) data of 1964LO02. Other: >50 NS,       
+#L from 1964VA05.                                                         
+#P 0.0          (8)+             4.25 M    15               7885     5    
++G gamma 1.5679 0.00199714
++G gamma 1.5909 0.002396568
++G gamma 1.7022 0.0018972829999999998
++G gamma 2.5168000000000004 9.9857E-4
++G gamma 2.6452 0.00299571
++G gamma 2.881 6.989990000000001E-4
++G gamma 2.8995 0.001597712
++G gamma 3.0234 0.005392278
++G gamma 3.1285 0.004793136
++G gamma 3.218 0.001198284
++G gamma 4.028 0.0016975690000000001
++G gamma 4.370100000000001 6.989990000000001E-4
++G gamma 1.5095999999999998 1.0085557
++G gamma 0.773 0.99857
++G gamma 0.2437 0.13280981
++G gamma 0.085 0.12082696999999999
++G gamma 0.32930000000000004 0.79785743
++B beta+ 8.089E-4 0.0015
++G gamma 0.148 0.7089847
++B beta+ 1.8808 0.05
++B beta+ 0.8666 0.0024
+

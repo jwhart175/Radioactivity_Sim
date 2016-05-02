@@ -1,0 +1,23 @@
+#115RH    252CF SF DECAY                2011LI29                  12NDS    201210
+#  252CF SF DECAY                2011LI29                  12NDS    201210
+#H TYP=FUL$AUT=JEAN BLACHOT$CIT=NDS 113, 2391 (2012)$CUT=1-Sep-2012$      
+#  {+252}Cf source placed between two 10 mg/cm{+2} iron foils to stop     
+#  fission fragments and surrounded by a plastic ball to absorb |b-rays   
+#  and conversion electrons. Gamma rays detected by the Gammasphere array 
+#  at Lawrence Berkeley National Laboratory. {+115}Rh events identified   
+#  by relative intensities and coincidences with transitions of the       
+#  complementary fragments {+133-135}I. Data analyzed with                
+#  RADWARE software package. Measured E|g, I|g, |g|g coincidence.         
+#  Deduced levels, J, |p, and branching ratios. Comparison with rigid     
+#  triaxial rotor plus particle (RTRP) model. Systematics of odd-A        
+#  Rh isotopes discussed.                                                 
+#L E$ From least-squares fit to E|g data                                  
+#L J$ Assignments based on systematics as well as yrast nature of         
+#L population of states                                                   
+#L BAND(A)$ Band built on 7/2+,|a=-1/2                                    
+#L BAND(a)$ Band built on 7/2+,|a=+1/2                                    
+#L BAND(B)$ Yrare band based on 11/2+,|a=-1/2                             
+#L BAND(b)$ Yrare band based on 11/2+,|a=+1/2                             
+#P  0           0+                2.645 Y  8                              
+CF252 RH115 SF 0.0 0.0 1.0
+

@@ -1,0 +1,14 @@
+#132TE    132TE IT DECAY (3.70 US)      1979SI18,2001GE07         05NDS    200504
+#  132TE IT DECAY (3.70 US)      1979SI18,2001GE07         05NDS    200504
+#H TYP=FUL$AUT=YU. KHAZOV, A.A. RODIONOV AND S. SAKHAROV, BALRAJ SINGH$   
+#H CIT=NDS 104, 497 (2005)$CUT=10-Feb-2005$                               
+#  1979SI18: MEASURED EG, IG, GG(T)                                       
+#  2001GE07: MEASURED DELAYED EG, IG, CE, (FRAGMENT)G, GG, (CE)G COIN     
+#  Both isomers (3.70-|ms and 28.1-|ms) are fed directly in fission.      
+#G RI,TI$ From level scheme, unless otherwise stated                      
+#G E$ Unweighted average of 1979Si18 and 2001Ge07. Uncertainties are      
+#G assumed by the evaluators                                              
+#L J$ FROM ADOPTED LEVELS                                                 
+#P 2722.4       (10+)            3.70 US    9                             
+TE132 TE132 IT 0.0 3.7E-6 1.0
+

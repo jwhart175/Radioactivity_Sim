@@ -1,0 +1,40 @@
+# 91KR    91BR B- DECAY                 1989GR03,1990WOZZ         13NDS    201310
+#  91BR B- DECAY                 1989GR03,1990WOZZ         13NDS    201310
+#H TYP=FUL$AUT=Coral M. Baglin$CIT=NDS 114, 1293 (2013)$CUT=1-Sep-2013$   
+#  Others: 1965Pa14, 1969Ca03, 1974Gr29, 1975Al11, 1975Kr17, 1992GrZX.    
+#  1989Gr03: mass-separated fission products from U(n,F); HPGe G          
+#  detector, DE-E plastic scin telescope B detector; measured EG          
+#  (singles and B-gated spectra), B endpoint energies for                 
+#  numerous G-gated B spectra.                                            
+#  1989Gr03 do not construct a level scheme, but provide data from which  
+#  a partial level scheme can be deduced; they report no IG data, and     
+#  report EG for only those lines included in gates used for their        
+#  B endpoint energy measurements.                                        
+#            Fast-chem: 1975Kr17, 1965Pa14. Mass-separation of fission    
+#  products: 1969Ca03, 1974Gr29, 1989Gr03, 1992GrZX.                      
+#B           1989Gr03 measured B- endpoint energies for                   
+#B B- decay to 13 levels (from Fermi-Kurie analysis of G-gated B          
+#B spectra;  details are given in comments for relevant levels). From     
+#B these data, 1989Gr03 deduce Q(|b-)=9790 100. 1992GrZX report           
+#B Q(|b-)=9805 50, also from GB coin.                                     
+#B           B-decay strength function measured by 1975Al11.              
+#B E         Values given without parentheses are measured                
+#B B- endpoint energies from BG coin (1989Gr03).                          
+#G E         From 1989Gr03; uncertainty unstated by authors.              
+#G Eleven more lines with EG>2500 are identified in the                   
+#G spectra of fig. 1 in 1989Gr03, but specific EG data are not            
+#G given by the authors.                                                  
+#G E(A),RI(A)$Tentatively assigned to 91BR B- decay by 1975Kr17;          
+#G however, the 144G from the first excited state is absent in 1975Kr17,  
+#G casting serious doubt on the nuclidic assignment suggested there.      
+#G ADDITIONALLY, NONE OF THESE GAMMAS IS KNOWN FROM ANY OTHER STUDY OF    
+#G 91KR.                                                                  
+#G E(B)      From 1990WoZZ; uncertainty unstated by authors.              
+#L E         From least-squares fit to EG assigning equal weight          
+#L to all data.                                                           
+#L J,T(F)    FROM Adopted Levels.                                         
+#L T(E)      From 1990WoZZ; uncertainty and details of measurement        
+#L unstated by authors.                                                   
+#P 0.0                           0.543 S   4              9867       4    
+BR91 KR91 beta- 9.867 0.543 1.0
+

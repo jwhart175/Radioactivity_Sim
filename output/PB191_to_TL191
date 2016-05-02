@@ -1,0 +1,22 @@
+#191TL    191PB EC DECAY (2.18 M)       1981MI11                  07NDS    200710
+#  191PB EC DECAY (2.18 M)       1981MI11                  07NDS    200710
+#H TYP=FUL$AUT=V.R. Vanin et al.$CUT=1-Dec-2006$CIT=NDS 108, 2393 (2007)$ 
+#                                                                         
+#  Activity produced from {+48}Ti (E=235 MeV) on targets of {+150}Sm.     
+#  Activity assigned to {+191}Pb on the basis of |g rays observed in      
+#  coincidence with Tl X-rays between known levels of {+191}Tl.           
+#  Mass-separated source.                                                 
+#G RI(F)     Not resolved in singles spectrum. I|g is from |g|g coin.     
+#L J         From adopted levels.                                         
+#L E         E(lev) from least-squares adjustment to E|g. |DE for levels  
+#L above the 5.22-min isomer at 299 keV do not include |DE=7 keV from     
+#L {+195}Bi g.s. |a decay (183 s).                                        
+#L E(A)      Possible member of 9/2[505] rotational band.                 
+#L E(B)      Possible member of 13/2[606] rotational band.                
+#L E(D)      Possible member of K|p=(7/2-) rotational band.               
+#L This band not confirmed in later work.                                 
+#L E(E)      Possible member of K|p=(3/2+) rotational band.               
+#L This band not confirmed in later work.                                 
+#P 0.0+X        (13/2+)          2.18 M     8             6040      40    
+PB191 TL191 beta+ 6.04 130.8 1.0
+

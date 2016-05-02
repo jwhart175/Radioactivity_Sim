@@ -1,0 +1,26 @@
+#113RH    252CF SF DECAY                2004LU03                  10NDS    201006
+#  252CF SF DECAY                2004LU03                  10NDS    201006
+#H TYP=FUL$AUT=Jean Blachot$CIT=NDS 111, 1471 (2010)$CUT=1-May-2009$      
+#  Measured E|g, I|g, |g|g using GAMMASPHERE array of 102                 
+#  Compton-suppressed Ge detectors.                                       
+#  First mass assignment from fragment-G coin,                            
+#  1970Jo20. Z assignment of 304G from (^K x-ray)G coin, 1972Ho08.        
+#  Cascade assignment from half-lives, 1970Jo20                           
+#  154.6G and 304G seen by 1970JO20 and 1972HO08 could belong to          
+#  an other nuclide.                                                      
+#L E$ From least-squares fit to E|g's, assuming |D(E|g)=0.1 keV;          
+#L stated by 2004Lu03 as systematic error. Minimum uncertainty            
+#L in level energy is assigned as 1 keV                                   
+#L BAND(A)$ GS band, |a=-1/2                                              
+#L BAND(a)$ GS band, |a=+1/2                                              
+#L BAND(B)$ 11/2+ band, |a=-1/2                                           
+#L BAND(b)$ 13/2+ band, |a=+1/2                                           
+#L BAND(C)$ 21/2+ band, |a=+1/2                                           
+#L BAND(c)$ 23/2+ band, |a=-1/2                                           
+#L BAND(D)$ 3/2+ BAND                                                     
+#L BAND(E)$ |p1/2[431] band, |a=-1/2                                      
+#L BAND(e)$ |p1/2[431] band, |a=+1/2                                      
+#L BAND(F)$ |p1/2[301] band                                               
+#P  0           0+                2.645 Y  8                              
+CF252 RH113 SF 0.0 0.0 1.0
+

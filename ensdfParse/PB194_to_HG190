@@ -1,0 +1,17 @@
+#190HG    194PB A DECAY (12.0 M)                                  03NDS    200306
+#  194PB A DECAY (12.0 M)                                  03NDS    200306
+#H TYP=FUL$AUT=BALRAJ SINGH$CIT=NDS 99, 275 (2003)$CUT=30-Apr-2003$       
+#  The measured half-lives are T{-1/2}({+194}Pb)=12.0 min {I5} (1987El09),
+#  11 min {I2} (1960Ju01). T{-1/2}=12.0 min {I5} is adopted in 1996Br26   
+#  and here.                                                              
+#                                                                         
+#  |a decay branch of 7.3|*10{+-6}% {I29}, determined by 1987El09 and     
+#  adopted by 1996Br26, is used in calculations.                          
+#                                                                         
+#  Q(|a)({+194}Pb)=4738 {I20}, calculated from E|a=4640 {I20}, is         
+#  recommended by 1995Au04.                                               
+#A HF        r{-0}({+190}Hg)=1.432 {I23} is calculated by requiring       
+#A HF(4640|a)=1.0.                                                        
+#P 0.0          0+               12.0 M    5              4738      20    
+PB194 HG190 alpha 4.738 720.0 7.3E-8
+

@@ -1,0 +1,88 @@
+#112CD    112AG B- DECAY (3.130 H)      1972WA03,1970MA45,1968LI1315NDS    201412
+#  112AG B- DECAY (3.130 H)      1972WA03,1970MA45,1968LI1315NDS    201412
+#H TYP=FUL$AUT=S. LALKOVSKI, F.G. KONDEV$CIT=NDS 124, 157 (2015)$         
+#H CUT=1-Aug-2014$                                                        
+#  1972WA03: Facility: ^INS (New Zealand) Van de Graaff accelerator;      
+#  Sources: produced in 112CD(N,P) and 115IN(N,A) reactions. Neutrons     
+#  generated in 3H(D,N) reaction. Natural CD and In targets. Chemically   
+#  separated activity; Detectors: one GE(LI), two NAI(TL); Measured: EG,  
+#  IG, G-G, G-G(THETA) coinc.; Deduced: 112CD levels, JPI, MR, BR, LOGFT. 
+#  1970MA45: Facility: McMaster University reactor; Source: chemically    
+#  separated 112PD from 300 mg  U{-3}O{-8} irradiated with 2.5x10{+13}    
+#  N.cm{+-2}.sec{+-1}; Detectors: two GE(LI) and one NAI(TL);             
+#  Measured: |g, |g-|g coinc., E|g, I|g; Deduced: 112CD level scheme, J|p 
+#  1968LI13: Facility: ^IKO (Amsterdam) synchrotron; Source: chemically   
+#  separated 112AG from Th+D reaction with E(D)=25 MEV. 112AG in          
+#  equilibrium with 112PD; Detectors: one Ge(LI); Measured: G, I|g, E|g;  
+#  Deduced: 112CD level scheme, J|p                                       
+#  1962In01: Facility: Osaka University cyclotron; Source: chemically     
+#  separated 112AG produced in 114CD(D,A) reaction with E(D)=11 MEV;      
+#  Detectors: |b-spectrometer, Geiger-Muller counter, two NAI(Tl);        
+#  Measured: |b, |g, |b-|g, |g-|g, G-G(THETA) coinc., EB, IB, IG, EG;     
+#  Deduced: 112CD level scheme, JPI, LOGFT                                
+#  Others: 2011GA10, 2009Gr10, 1970Ma45, 1969Sa09, 1957Je07               
+#L E$From a least-squares fit to E|g                                      
+#L J$From the adopted levels                                              
+#L E(A)$Unresolved doublet in 1972WA03 and 1970MA45                       
+#G E,RI,M,MR$From adopted gammas, unless otherwise stated                 
+#G E(A),RI(A)$From 1968Li13. It is not reported in                        
+#G 1972Wa03, but the placement is consistent with the adopted levels,     
+#G gammas                                                                 
+#G RI(D)$From 1972Wa03                                                    
+#G RI(B)$From 1970MA45                                                    
+#G RI(C)$From adopted gammas branching ratios and RI for the strongest    
+#G transition that depopulates the level                                  
+#G CC$FROM BrIcc v2.3a (30-Jun-2013) 2008Ki07, "Frozen Orbitals" appr.    
+#G MR$IF NO VALUE GIVEN IT WAS ASSUMED MR=0.00 FOR E2/M1,                 
+#G MR=1.00 FOR E3/M2 AND MR=0.10 FOR THE OTHER MULTIPOLARITIES            
+#P 0.0         2(-)              3.130 H   8              3992.1    25    
+AG112 CD112 beta- 3.9920999999999998 11268.0 0.425
++G gamma 0.1479 3.0E-4
++G gamma 0.1595 3.0E-4
++G gamma 0.2783 8.0E-4
++G gamma 0.3423 4.0E-4
++G gamma 0.5288999999999999 4.0E-4
++G gamma 0.5698 0.001
++G gamma 0.5854 9.0E-4
++G gamma 0.6628999999999999 0.001
++G gamma 1.0637 0.0018
++G gamma 1.0707 8.0E-4
++G gamma 1.462 2.0E-4
++G gamma 1.5039 0.0038
++G gamma 1.6837 0.001
++G gamma 1.9092 0.001
++G gamma 2.33 1.0E-4
++G gamma 2.3624 9.0E-4
++G gamma 2.5766999999999998 8.0E-4
++G gamma 2.8035 2.0E-4
++G gamma 2.839 3.0E-4
++G gamma 2.884 4.0E-4
++G gamma 2.9212 3.0E-4
++G gamma 3.091 1.0E-4
++G gamma 3.113 1.0E-4
++G gamma 3.178 1.0E-4
++G gamma 3.244 1.0E-4
++G gamma 3.375 3.0E-4
++B beta- 3.94 0.54
++G gamma 0.6175170000000001 1.0
++G gamma 0.4025 9.7E-4
++G gamma 0.5587000000000001 3.0E-4
++G gamma 1.25356 0.0087
++G gamma 0.6928200000000001 0.027999999999999997
++G gamma 1.38768 0.125
++G gamma 0.75214 9.0E-4
++G gamma 1.447 7.9E-4
++G gamma 0.226 4.0E-4
++G gamma 0.7624099999999999 0.0013700000000000001
++G gamma 0.91872 0.0018
++G gamma 1.00681 0.0027
++G gamma 2.0565 0.013999999999999999
++G gamma 2.7657 1.35E-4
++G gamma 0.9571000000000001 2.0E-4
++G gamma 2.9617 4.0E-4
++G gamma 2.61402 3.9E-5
++G gamma 3.23135 1.0E-4
++G gamma 2.776 3.0E-4
++G gamma 3.393 1.0E-4
++G gamma 2.8527 4.0E-4
+

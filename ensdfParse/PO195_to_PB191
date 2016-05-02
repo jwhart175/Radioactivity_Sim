@@ -1,0 +1,24 @@
+#191PB    195PO A DECAY (4.64 S)        2002VA13,1993WA04,1967SI0907NDS    200710
+#  195PO A DECAY (4.64 S)        2002VA13,1993WA04,1967SI0907NDS    200710
+#H TYP=FUL$AUT=V.R. Vanin et al.$CUT=1-Dec-2006$CIT=NDS 108, 2393 (2007)$ 
+#            Q(|a) from 2003Au03, T from 1993Wa04,                        
+#  %|a estimated from systematics (1980Sc26).                             
+#A IA$From 2002Va13                                                       
+#P 0.0         (3/2-)            4.64 S    9              6746      3     
+PO195 PB191 alpha 6.746 4.64 0.75
++A alpha 6.606 0.998
++A alpha 6.03 0.0017000000000000001
+
+#191PB    195PO A DECAY (1.92 S)        2002VA13,1993WA04,1967SI0907NDS    200710
+#  195PO A DECAY (1.92 S)        2002VA13,1993WA04,1967SI0907NDS    200710
+#H TYP=FUL$AUT=V.R. Vanin et al.$CUT=1-Dec-2006$CIT=NDS 108, 2393 (2007)$ 
+#            Q(|a) from 2003Au03, T from 1993Wa04,                        
+#  %|a estimated from systematics (1980Sc26).                             
+#            E(ex)=110 {I50} keV from ^AME2003 (2003Au02)                 
+#G CC(Z)$Experimental value from 2002Va13                                 
+#A IA$From 2002Va13                                                       
+#P 110       AP (13/2+)          1.92 S    2              6746      3     
+PO195 PB191 alpha 6.746 1.92 0.9
++A alpha 6.699 0.998
++A alpha 6.05 0.002
+

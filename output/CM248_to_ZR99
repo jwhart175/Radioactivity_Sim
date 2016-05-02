@@ -1,0 +1,28 @@
+# 99ZR    248CM SF DECAY                2001UR01,2003UR01         11NDS    201102
+#  248CM SF DECAY                2001UR01,2003UR01         11NDS    201102
+#H TYP=FUL$AUT=E. BROWNE, J. K. TULI$CIT=NDS 112, 275 (2011)$             
+#H CUT=1-Nov-2009$                                                        
+#  Other: 1997Ur02.                                                       
+#  Compiled (unevaluated) dataset from 2000Ur01:                          
+#  Nucl Phys A689, 605 (2001); and 2003Ur01: Eur Phys J A16, 11 (2003)    
+#  Compiled by: G. Reed and B. Singh  (McMaster) May 28, 2001;            
+#  updated by B. Singh, March 19, 2003 to include data from 2003Ur01      
+#  Measured E|g, I|g, |g|g, |g|g(|q), g|g(|q)(DCO) and linear             
+#  polarization using EUROGAM-2 spectrometer comprised of 52 large        
+#  Ge detectors in anti-Compton shields including 24 four-crystal         
+#  (CLOVER) detectors and 4 LEPS detectors.                               
+#G $For the geometry of the detectors used, DCO(calculated)=0.89          
+#G for |DJ=2, Q; 1.09 for |DJ=1, dipole and 0.81 for |DJ=0, dipole.       
+#G POL(calculated)=+0.14 for |DJ=2, E2; +0.09 for |DJ=1, E1; -0.09        
+#G for |DJ=1, M1; -0.25 for |DJ=0, E1 and +0.25 for |DJ=0, M1             
+#G E(A)$From Figure 5 in 2001Ur01                                         
+#G E(B)$Expected from |g|g coincidence. E|g from                          
+#G level-energy difference                                                
+#L E$ Deduced by evaluators from least-squares fit to |g-ray              
+#L energies assuming |D(E|g)={ 0.3 keV} for each |g ray.                  
+#L J         From Adopted Levels.  Some JPI assignments may be different  
+#L from those given in 2001Ur01 or 2003Ur01.                              
+#L BAND(E)$ 9/2+ band (2003Ur01)                                          
+#P  0           0+                3.48E5 Y 6                              
+CM248 ZR99 SF 0.0 0.0 1.0
+

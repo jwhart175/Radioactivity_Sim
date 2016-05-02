@@ -1,0 +1,70 @@
+#135TE    135SB B- DECAY (1.679 S)      1989HO08,1979KR03         08NDS    200803
+#  135SB B- DECAY (1.679 S)      1989HO08,1979KR03         08NDS    200803
+#H TYP=FUL$AUT=BALRAJ SINGH, ALEXANDER A. RODIONOV and YURI L. KHAZOV$    
+#H CIT=NDS 109, 517 (2008)$CUT=22-Jan-2008$                               
+#  1989HO08: measured EG, IG, GG                                          
+#  1979KR03 (also 1976KR18): measured delayed neutron spectrum.           
+#  Other B-N studies:                                                     
+#  1966TO02, 1968TO19, 1968TO18, 1974SH18, 1974FR09, 1976LU02, 1976KR18,  
+#  1977RU04, 1978CR03, 1979KR03, 1980LU04, 1981HO07, 1993RU01. See        
+#  1975IZ03, 1977RU10, 1982RU01, 1984MA39, 1989BRZI, 2002Pf04 for         
+#  systematics, reviews and compilations                                  
+#  Total decay energy of 6733 KEV 360 calculated (by ^RADLIST code)       
+#  from level scheme is lower than the expected value of 8120 KEV 50      
+#B $ Experimental BETA strength function measurements:                    
+#B 1974SH18, 1975AL11, 1979KR03, and 1989HO08                             
+#B IB(A)$From total intensity of neutron transitions from this level      
+#B as reported by 1979KR03 multiplied by a normalization factor of        
+#B AP 0.015 based on total neutron feeding of 38% (1989HO08) to excited   
+#B states in 134TE, 62% to 134TE GS and %B-N=17.6. It is assumed that     
+#B the level does not have significant GAMMA-decay mode (no line seen     
+#B with RI>0.5% from unbound levels (1979KR03))                           
+#B IB$An additional 11% of BETA intensity is accounted for                
+#B by the neutron decay of (as yet undefined) unbound                     
+#B levels to 134TE g.s. 8% GAMMA decay of neutron-unbound                 
+#B levels (1979KR03) most likely feeds excited states in 135TE            
+#B IB(Z)$LOGFT>5.9 expected for a DJ=0, DPI=yes transition suggests       
+#B a lower (<40%) IB                                                      
+#G E$From 1989HO08                                                        
+#G RI$From 1989HO08. 1979KR03 estimate that total GAMMA-ray               
+#G intensity from neutron-unbound levels is at least 8% of the decay      
+#G of 135SB                                                               
+#G E(A)$Observed in coincidence measurements only                         
+#G E(B)$From 1979KR03. RI(3292G+3406G)/IB AP 0.04 (1979KR03)              
+#L J$From 'adopted levels', unless otherwise stated                       
+#L J(A)$From the best agreement between neutron-branching                 
+#L ratios and optical-model transmission coefficient ratios (1979KR03)    
+#L E(A)$From 1979KR03 (also 1976KR18), decays by neutrons to populate     
+#L level in 134TE. Relative neutron intensities are given under comments. 
+#L Neutron intensity/100 decays of 135SB can be obtained by a             
+#L multiplicative factor of AP 0.015, based on 38% (1989HO08) of total    
+#L neutron intensity to excited states in 134TE, 62% to GS of 134TE       
+#L and %B-N=17.6                                                          
+#P 0.0          (7/2+)           1.679 S   15             8120      50    
++B beta- 3.654 0.47
++B beta- 3.123 0.045
++B beta- 3.08 0.006999999999999999
++B beta- 3.067 0.045
++B beta- 3.004 0.055999999999999994
++B beta- 2.974 0.049
++B beta- 2.874 0.037000000000000005
++B beta- 2.852 0.005
++B beta- 2.788 0.013999999999999999
++G gamma 0.7539 4.969999999999999E-4
++B beta- 2.702 0.0084
++B beta- 2.619 0.0067
++B beta- 2.551 0.0027
++B beta- 2.536 0.012
++B beta- 2.533 0.0013
++B beta- 2.499 0.013999999999999999
++B beta- 2.442 0.023
++B beta- 2.426 0.005
++B beta- 2.181 0.013000000000000001
++B beta- 1.26 0.004
++B beta- 1.078 0.005
++B beta- 0.995 0.011000000000000001
++B beta- 0.831 0.006
++B beta- 0.799 0.022000000000000002
++B beta- 0.758 0.005
++B beta- 0.727 0.013000000000000001
+

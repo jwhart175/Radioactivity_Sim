@@ -1,0 +1,42 @@
+# 39AR    39CL B- DECAY (55.6 M)        1987WA12                  06NDS    200602
+#  39CL B- DECAY (55.6 M)        1987WA12                  06NDS    200602
+#H TYP=FUL$AUT=BALRAJ SINGH AND JOHN A. CAMERON$CIT=NDS 107, 225 (2006)$  
+#H CUT=20-Nov-2005$                                                       
+#  1987WA12: MEASURED EG, IG USING COMPTON-SUPPRESSION.                   
+#  SOURCE PRODUCED IN 37CL(T,P) E=3.1 MEV                                 
+#  SPECTROMETER                                                           
+#  1976FA10: MEASURED BG(THETA,CIRC POL)                                  
+#  1972EN01: MEASURED EG, IG, GG, T1/2(39CL ISOTOPE)                      
+#  1956PE38: MEASURED EG, CE, GG, B, BG, T1/2(39CL ISOTOPE)               
+#  OTHERS: ISOTOPIC IDENTIFICATION AND T1/2:                              
+#  1952RU23, 1950HA77, 1949HA53                                           
+#  Earlier reports of possible {+39}Cl identification: 1. A 1.1 h         
+#  activity reported by King et al. (Phys Rev 55, 1118(A) (1939))         
+#  in {+36}S(|a,p) E=16 MeV reaction.                                     
+#  2. D.R. Miller, Ph.D. thesis, UCRL-142 (1948)                          
+#G $ ^A(circ pol)=ASYMMETRY COEFFICIENT OF CIRCULARLY POLARIZED BG(THETA) 
+#G E(A),RI(A)$ G NOT SEEN BY 1987WA12; UPPER INTENSITY LIMIT QUOTED.      
+#G EG FROM LEVEL-ENERGY DIFFERENCE                                        
+#L J$ FROM 'ADOPTED LEVELS'                                               
+#L E(A)$ NOT POPULATED IN THIS DECAY; UPPER LIMIT OF B- FEEDING GIVEN.    
+#L ENERGY IS FROM 'ADOPTED LEVELS'                                        
+#L T$ DELAYED COINCIDENCE METHOD (1956PE38)                               
+#P 0            3/2+             55.6 M    2              3442       5    
+CL39 AR39 beta- 3.442 3336.0 1.0
++B beta- 1.5304 0.071
++B beta- 0.9087000000000001 0.045
++B beta- 0.7915 0.83
++B beta- 0.5277999999999999 1.2E-4
++B beta- 0.4172 1.1000000000000001E-5
++B beta- 0.4101 0.0255
++B beta- 0.37739999999999996 8.0E-5
++B beta- 0.3568 2.1E-5
++B beta- 0.3474 0.022400000000000003
++B beta- 0.3387 1.6E-5
++B beta- 0.2931 2.1E-5
++B beta- 0.285 1.1000000000000001E-5
++B beta- 0.2419 2.7000000000000002E-5
++B beta- 0.21180000000000002 0.0058
++B beta- 0.16469999999999999 2.7E-4
++B beta- 0.0446 3.8E-5
+

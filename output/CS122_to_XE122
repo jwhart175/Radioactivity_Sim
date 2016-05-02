@@ -1,0 +1,160 @@
+#122XE    122CS EC DECAY (21.18 S)      1977GE03                  07NDS    200704
+#  122CS EC DECAY (21.18 S)      1977GE03                  07NDS    200704
+#H TYP=FUL$AUT=T. TAMURA$CIT=NDS 108, 455 (2007)$CUT=30-Sep-2006$         
+#  The decay scheme is that proposed by 1977Ge03 on the basis of          
+#  |g|g-coincidence and E|g sums. See also {+122}Cs |b{++} decay          
+#  (3.70 min).                                                            
+#  1977Ge03: La(p,spallation) E(p)=600 MeV, MS; semi |g, ce,              
+#  |g|g-coincidence ceg-coincidence                                       
+#  Others: |g, |b{++} (1975We23); |g (1972Dr06,1969NeZY); |g|g(|q)        
+#  (1979Si11); |b{++}|g-coincidence (1976DaYR)                            
+#G RI        Relative to I(331.1|g)=100                                   
+#G M         From |a(K)exp. See {+122}Cs |b{++} decay (3.70 min)          
+#G E(E)$^A{-2}=+0.2 {I2}, ^A{-4}=+1.1 {I4} from (331.1|g)(817.9|g)(|q)    
+#G (1979Si11)                                                             
+#L E         E(levels) are based on a least-squares fit to the            
+#L E(|g's) of 1977Ge03 (evaluator)                                        
+#E $Evaluator notes that the apparent %(|e+|b{++})=0.29 to 828 (J=4+)     
+#E with log{Ift}=7.3 (|DJ=3, |D|p=no) and %(|e+|b{++})=0.010 to           
+#E 1214 (J=(3)+) with log{Ift}=6.6 (|DJ=2, |D|p=no) might be too strong.  
+#P 0.0         1+                21.18 S   19             7220      30    
+CS122 XE122 beta+ 7.22 21.18 0.475
++G gamma 0.8221 0.0013
++G gamma 0.8279 0.002
++G gamma 0.8405 0.004
++G gamma 0.9454 0.003
++G gamma 1.1484 0.002
++G gamma 1.177 0.0015
++G gamma 1.4413 4.0E-4
++G gamma 1.4572 0.0022
++G gamma 1.46 0.0019
++G gamma 1.4866 0.0051
++G gamma 1.8111 0.0046
++G gamma 1.8360999999999998 0.004
++G gamma 1.8898 0.0046
++G gamma 2.1625 0.004
++G gamma 0.3311 1.0
++G gamma 0.49710000000000004 0.021
++G gamma 0.512 0.08800000000000001
++G gamma 0.843 0.04
++G gamma 0.8179 0.065
++G gamma 0.371 0.006
++G gamma 0.3856 0.003
++G gamma 0.8829 0.017
++G gamma 0.6665 0.006
++G gamma 1.1636 0.0079
++G gamma 1.4955 0.013000000000000001
++G gamma 0.8731 0.0036
++G gamma 1.3852 0.0146
++G gamma 1.0389000000000002 0.0053
++G gamma 1.5509000000000002 0.0021
++G gamma 0.8511 0.0014000000000000002
++G gamma 1.2225 0.0036
++G gamma 1.2368 0.0034000000000000002
++G gamma 1.7344000000000002 0.011000000000000001
++G gamma 1.4215 0.0013
++G gamma 1.933 0.009300000000000001
++G gamma 1.194 5.0E-4
++G gamma 1.515 0.0027
++G gamma 2.0113 0.0079
++G gamma 0.6482 0.006
++G gamma 1.0359 0.012
++G gamma 2.1991 0.011000000000000001
++G gamma 0.76 7.000000000000001E-4
++G gamma 1.4282000000000001 0.0034000000000000002
++G gamma 1.799 0.0079
+
+#122XE    122CS EC DECAY (3.70 M)       1977GE03                  07NDS    200704
+#  122CS EC DECAY (3.70 M)       1977GE03                  07NDS    200704
+#H TYP=FUL$AUT=T. TAMURA$CIT=NDS 108, 455 (2007)$CUT=30-Sep-2006$         
+#  The decay scheme is that proposed by 1977Ge03 on the basis of          
+#  |g|g-coincidence and E|g sums; Evaluator added 2564.4-keV level to     
+#  displace 1097.8-keV |g from 2872.3-keV                                 
+#  level. The decay scheme accounts for %I(|e+|b{++})=80 and is           
+#  incomplete in view of Q{-|e}-E(highest level)>4200 keV.                
+#  See also {+122}Cs |b{++} decay (21.18 s)                               
+#  1977Ge03: La(p,spallation) E(p)=600 MeV, MS; semi |g, ce,              
+#  |g|g-coincidence, ce|g-coincidence                                     
+#  Others: G ray: (1972Dr06,1969DrZY,1969NeZY)                            
+#E $Evaluator notes that the apparent %(|e+|b{++})=22.3 to 1467 (J=6+)    
+#E and %(|e+|b{++})=8.9 to 2056 (J=(6)+) with log| {If{+1u}t}=8.1 for     
+#E both cases might be too strong.                                        
+#E There occur also imbalances at 828(J=4+), 843(J=(2)+) and              
+#E 1744(J=(5)+) levels summing up to 20%.                                 
+#E These feeding problems indicate the incompleteness                     
+#E of the decay scheme in view of Q{-|e}-E(highest level)>4200 keV.       
+#L E(L)      The level was added to place 1097.8|g referring to           
+#L adopted levels (evaluator)                                             
+#L J         From adopted levels                                          
+#G E         From 1977Ge03                                                
+#G RI        Relative to I(331.1|g)=100                                   
+#G M$From adopted levels; values of |a(K)exp quoted from this data set    
+#G are normalized to |a(K)(331 |g)=0.025 (E2 theory)                      
+#G MR$ FROM ADOPTED GAMMAS                                                
+#G CC        MR=1 is assumed for all E2,M1 transitions with unknown MR    
+#G value                                                                  
+#E IB,LOGFT  Approximate value                                            
+#P 140       308(-)              3.70 M    11             7220      30    
+CS122 XE122 beta+ 7.22 222.0 0.935
++G gamma 0.2781 0.013000000000000001
++G gamma 0.2804 0.02
++G gamma 0.459 0.006999999999999999
++G gamma 0.467 0.008
++G gamma 0.7383 0.006999999999999999
++G gamma 0.7814 0.013000000000000001
++G gamma 0.7975 0.008
++G gamma 0.8154 0.026000000000000002
++G gamma 0.8282999999999999 0.006999999999999999
++G gamma 0.9218999999999999 0.008
++G gamma 0.9712000000000001 0.015
++G gamma 1.0246 0.01
++G gamma 1.0588 0.01
++G gamma 1.0888 0.04
++G gamma 1.1235 0.01
++G gamma 1.1265999999999998 0.009000000000000001
++G gamma 1.1648 0.013999999999999999
++G gamma 1.202 0.011000000000000001
++G gamma 1.334 0.006999999999999999
++G gamma 1.4115 0.006999999999999999
++G gamma 1.46 0.046
++G gamma 1.4955 0.035
++G gamma 1.5615 0.011000000000000001
++G gamma 1.5726 0.011000000000000001
++G gamma 1.5888 0.008
++G gamma 1.634 0.01
++G gamma 1.6845999999999999 0.019
++G gamma 1.6975 0.01
++G gamma 1.7659 0.011000000000000001
++G gamma 2.0521 0.027000000000000003
++G gamma 2.1021 0.025
++G gamma 2.1622 0.006
++G gamma 2.173 0.005
++G gamma 2.2084 0.005
++G gamma 2.2245999999999997 0.009000000000000001
++G gamma 0.3311 1.0
++G gamma 0.49710000000000004 0.85
++G gamma 0.512 0.086
++G gamma 0.843 0.039
++G gamma 0.371 0.026000000000000002
++G gamma 0.3856 0.008
++G gamma 0.8829 0.075
++G gamma 0.5601 0.031
++G gamma 0.574 0.06
++G gamma 0.6385 0.67
++G gamma 0.30760000000000004 0.016
++G gamma 0.371 0.011000000000000001
++G gamma 0.5601 0.121
++G gamma 0.9459 0.045
++G gamma 0.5895 0.025
++G gamma 0.6541 0.08
++G gamma 1.2281 0.008
++G gamma 0.7506 0.12
++G gamma 0.6846 0.05
++G gamma 0.9942000000000001 0.021
++G gamma 1.0977999999999999 0.125
++G gamma 0.7905 0.018000000000000002
++G gamma 1.3800999999999999 0.038
++G gamma 1.4057 0.09300000000000001
++G gamma 0.813 0.015
++G gamma 1.2980999999999998 0.05
+

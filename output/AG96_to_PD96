@@ -1,0 +1,78 @@
+# 96PD    96AG EC DECAY (4.40 S)        2003BA39,1997SC30         08NDS    200810
+#  96AG EC DECAY (4.40 S)        2003BA39,1997SC30         08NDS    200810
+#H TYP=FUL$AUT=D. Abriola(a), A.A. Sonzogni$CIT=NDS 109, 2501 (2008)$     
+#H CUT=1-Apr-2008$                                                        
+#  2003Ba39: {+96}Ag produced by {+60}Ni({+40}Ca,p3n) E=4.35              
+#  MeV/nucleon;  separated by GSI online separator. Measured E|g, I|g,    
+#  |g|g, |b, |b|g, |b|g|g, delayed protons, x rays, p|g coin using three  
+#  different systems: 1) plastic scintillator combined with Ge array (15  
+#  detectors: two clovers and one Euroball cluster) for |b|g and |b|g|g   
+#  measurement. 2) Large NaI detector for total absorption spectrum       
+#  (~TAS) combined with a Ge detector and two Si detectors for |b|g,      
+#  |bp, p|g and x|g events. 3) Two Si detector |DE-E telescopes for       
+#  delayed protons (FWHM=80 keV)                                          
+#  1997Sc30: {+96}Ag produced by {+60}Ni({+40}Ca,p3n) E=4.1 MeV/nucleon.  
+#  Measured E|g, I|g, |g|g, x|g, Ep, Ip, p|g coin using Ge and Si(Li)     
+#  detectors.                                                             
+#  All data from 2003Ba39.                                                
+#E TI$From Total Absorption Spectrometer (~TAS, 2003BA39).                
+#E A large fraction of                                                    
+#E |b{++} and |e feeding proceeds to high-lying states as indicated by    
+#E total absorption spectrum.  Logft values calculated assuming Y=0.      
+#G E(A)$Seen in coin with annihilation radiation and and possibly with    
+#G low-lying yrast transitions, but placement is not proposed.            
+#L E$From least-squares fit to E|g's                                      
+#L E(B)$Level is likely fed by (2+) isomer, TI and LOGFT values were not  
+#L calculated.                                                            
+#L J$From Adopted Levels.                                                 
+#  CC$ FROM BrIcc v2.2a (13-Jul-2008) 2008Ki07, "Frozen Orbitals" appr.   
+#                                                                         
+#P 0.0+X       (8)+              4.40 S    6              1.17E+4   SY    
+AG96 PD96 beta+ 11.7 4.4 1.151
++G gamma 0.7062 0.013000000000000001
++G gamma 1.6957 0.01
++G gamma 2.8531 0.021
++G gamma 1.4153 0.795
++G gamma 0.6837000000000001 0.795
++G gamma 0.9761 0.032
++G gamma 0.3252 0.7559999999999999
++G gamma 0.1062 0.272
++G gamma 0.2246 0.02
++G gamma 0.5496 0.026000000000000002
++G gamma 0.6534 0.059000000000000004
++G gamma 0.7597999999999999 0.046
++G gamma 1.3005 0.048
++G gamma 1.253 0.05
++G gamma 1.5265 0.012
++G gamma 2.1801999999999997 0.013999999999999999
++G gamma 1.4987000000000001 0.052000000000000005
++G gamma 2.0991999999999997 0.005
+
+# 96PD    96AG EC DECAY (6.9 S)         2003BA39,1997SC30         08NDS    200810
+#  96AG EC DECAY (6.9 S)         2003BA39,1997SC30         08NDS    200810
+#H TYP=FUL$AUT=D. Abriola(a), A.A. Sonzogni$CIT=NDS 109, 2501 (2008)$     
+#H CUT=1-Apr-2008$                                                        
+#  2003Ba39: {+96}Ag produced by {+60}Ni({+40}Ca,p3n) E=4.35              
+#  MeV/nucleon;  separated by GSI online separator. Measured E|g, I|g,    
+#  |g|g, |b, |b|g, |b|g|g, delayed protons, x rays, p|g coin using three  
+#  different systems: 1. plastic scintillator combined with Ge array (15  
+#  detectors: two clovers and one Euroball cluster) for |b|g and |b|g|g   
+#  measurement. 2. Large NaI detector for total absorption spectrum       
+#  (TAS) combined with a Ge detector and two Si detectors for |b|g, |bp,  
+#  p|g and x|g events. 3. Two Si detector |DE-E telescopes for delayed    
+#  protons (FWHM=80 keV).                                                 
+#  1997Sc30: {+96}Ag produced by {+60}Ni({+40}Ca,p3n) E=4.1 MeV/nucleon.  
+#  Measured E|g, I|g, |g|g, x|g, Ep, Ip, p|g coin using Ge and Si(Li)     
+#  detectors.                                                             
+#G M$From Adopted Gammas.                                                 
+#E TI$From Total Absorption Spectrometer (~TAS, 2003BA39).  A large       
+#E fraction of |b{++} and |e feeding proceeds to high-lying states as     
+#E indicated by total absorption spectrum.  Logft values calculated       
+#E assuming Y=0.                                                          
+#  BR$%|ep={ 18 {I5}} (2003Ba39)                                          
+#L J$From Adopted Levels.                                                 
+#  CC$ FROM BrIcc v2.2a (13-Jul-2008) 2008Ki07, "Frozen Orbitals" appr.   
+#                                                                         
+#P 0.0+Y       (2+)              6.9 S     6              1.17E+4   SY    
+AG96 PD96 beta+ 11.7 6.9 1
+

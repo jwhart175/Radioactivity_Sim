@@ -1,0 +1,31 @@
+#194AU    194AU IT DECAY (600 MS)       1977PA20                  06NDS    200606
+#  194AU IT DECAY (600 MS)       1977PA20                  06NDS    200606
+#H TYP=FUL$AUT=BALRAJ SINGH$CIT=NDS 107, 1531 (2006)$CUT=15-Apr-2006$     
+#  |g, |g(t) and ce data in {+194}Pt(p,n|g) and {+195}Pt(p,2n|g) reactions
+#  Others: 1975Ya14, 1982Ne05, 1980RoZN                                   
+#G           1980RoZN report |g's at 10.9, 56.3 and 80.9, not seen by     
+#G 1977Pa20, 1975Ya14 or 1982Ne05. These have been omitted                
+#G M,MR$From ce data, normalized to ce(L) data for 128.6|g from {+194}Au  
+#G IT decay (420 ms). The 128.6|g treated as E2 with |a(L)=1.08           
+#L E         From {+193}Ir(|a,3n|g)                                       
+#L J         See adopted levels                                           
+#P  107.4    5  (5+)              600 MS   8                              
+AU194 AU194 IT 0.0 0.0 1.0
++G gamma 0.0 1.0
+
+#194AU    194AU IT DECAY (420 MS)       1977PA20                  06NDS    200606
+#  194AU IT DECAY (420 MS)       1977PA20                  06NDS    200606
+#H TYP=FUL$AUT=BALRAJ SINGH$CIT=NDS 107, 1531 (2006)$CUT=15-Apr-2006$     
+#  Others: 1975Ya14, 1982Ne05, 1980RoZN, 1953He57                         
+#G M,MR$From ce data, normalized to ce(L) for 128.6|g treated as E2       
+#G with |a(L)=1.08. The E2 assignment to 128.6|g based on |a(L)exp=1.12   
+#G {I8} determined relative to a known E2 356.0|g from {+133}Ba           
+#G E(A)      See {+194}Au IT decay (600 ms) for mult, |d and I|g          
+#L E         From {+193}Ir(|a,3n|g)                                       
+#L J         See adopted levels                                           
+#L T         From |g(t) (1977Pa20), unless otherwise stated               
+#P  475.8    9  (11-)              420 MS  10                             
+AU194 AU194 IT 0.0 0.0 1.0
++G gamma 0.0 1.01
++G gamma 0.0 1.0
+

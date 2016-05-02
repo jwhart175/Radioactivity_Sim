@@ -1,0 +1,218 @@
+#151GD    151TB EC DECAY (17.609 H)     1986BUZX                  09NDS    200901
+#  151TB EC DECAY (17.609 H)     1986BUZX                  09NDS    200901
+#H TYP=FUL$AUT=BALRAJ SINGH$CIT=NDS 110, 1 (2009)$CUT=20-Nov-2008$        
+#  1987BaZB REPORT SUBSHELL DATA FOR 108.1G AND 287.35G                   
+#  G, GG measurements with germanium detectors. Unless noted              
+#  otherwise, the transition placements are from GG data                  
+#  Other main references: 1982Ba51, 1975Ha18, 1971Go27                    
+#  G-ray data: 1986BuZX, 1982Ba51, 1975Ha18, 1971Go27. Others: 1984Gr15,  
+#  1984Sc18, 1975SpZU, 1973St22, 1972Fl09, 1970Ch09, 1967Vi05, 1963Mi04,  
+#  1962St26, 1960To10, 1958Ba46, 1958To33, 1957Mi67                       
+#  GG data: 1986BuZX, 1984Sc18, 1982Ba51, 1975Ha18, 1971Go27, 1970GrZZ    
+#  GG(THETA) data: 1979Va14, 1972Va27. Both are from the same laboratory  
+#  GG(T) data: 1969BoZR                                                   
+#  G(THETA,TEMP) data: 1985Fi06, 1983Pr04                                 
+#  GG(THETA,H) data: 1977VaZJ, 1976Ba26, 1975AfZZ, 1972Af04. Others:      
+#  1976Ba59, 1977GrZF                                                     
+#  G(CE) data: 1978Al15, 1967Vi05                                         
+#  G(CE)(T) data: 1972Af03, 1971VaZV, 1970Mo14, 1969Ba64                  
+#  CE data: 1987BaZB, 1982Ba51, 1975Ha18, 1975Ku12, 1971Go27, 1967Vi05,   
+#  1967Ko15, 1962Ha24, 1961St15, 1960Fr06, 1958An38, 1957Mi67             
+#  ce-ce data: 1971Go27                                                   
+#  (ce)(ce)(T) data: 1971VaZV, 1970Mo14, 1969Ba64                         
+#  B+ data and CE B+ data: 1977Cr05                                       
+#  Production and T1/2 of 151TB: 1984Gr15, 1971Go27, 1970Ch09, 1963Mi11,  
+#  1960To10. Others: 1973St22, 1972Fl09, 1967Ko15, 1962St26, 1961St15,    
+#  1960To05, 1960Fr06, 1958An38, 1958Ba46, 1958To33, 1957Mi67, 1953Ra02   
+#  Q(EC) measurement: 1984Sc18, 1977Cr05, 1971Go27                        
+#G                                                                        
+#G              GG(THETA) data (from 1979Va14. Other: 1972Va27)           
+#G                                                                        
+#G             G - G cascade      A2          A4                          
+#G            -------------------------------------------                 
+#G              180 - 287      +0.22 2      +0.02 4                       
+#G              180 - 395      -0.08 5      -0.05 10                      
+#G            180-(287)-108    -0.209 14    -0.02 3                       
+#G              192 - 287      -0.06 3      -0.01 5                       
+#G              192 - 395      +0.04 4      -0.02 10                      
+#G            192-(287)-108    +0.08 4      +0.03 8                       
+#G              252 - 192      -0.15 3       0.00 6                       
+#G              252 - 479      +0.156 12    -0.01 3                       
+#G              252 - 587      -0.070 11    -0.00 2                       
+#G              287 - 108      -0.342 13    +0.02 2                       
+#G            380-(416)-287    +0.11 10      0.0 2                        
+#G              416 - 287      +0.05 6                                    
+#G              444 - 287      -0.168 14    -0.01 3                       
+#G              444 - 395      +0.10 7      +0.01 14                      
+#G            444-(287)-108    +0.16 2      -0.01 4                       
+#G              467 - 108      +0.24 10     -0.03 18                      
+#G              479 - 108      +0.040 11    +0.03 3                       
+#G              605 - 479      +0.17 3      +0.04 5                       
+#G              605 - 587      -0.067 16     0.00 4                       
+#G              617 - 180      +0.04 4      +0.02 9                       
+#G            617-(180)-287    +0.012 16    -0.02 3                       
+#G              617 - 467       0.00 4       0.00 13                      
+#G              692 - 287      +0.06 6                                    
+#G            692-(287)-108    -0.05 4      +0.02 10                      
+#G              704 - 108      +0.05 2      +0.01 4                       
+#G                                                                        
+#G                                                                        
+#G             Experimental conversion coefficients for transitions       
+#G below 750 KEV deduced from CE data of 1982Ba51, 1975Ha18, 1971Go27,    
+#G 1967Ko15,                                                              
+#G 1967Vi05, 1962Ha24, 1961St15, 1960Fr06, 1958An38. The data for subshell
+#G s are                                                                  
+#G given in the following table and for transitions above 750 KEV in the  
+#G main G table. A reference is quoted when CE data taken from one or two 
+#G sources. The data for ^N and ^O shells are from 1967Ko15               
+#G                                                                        
+#G    EG       EKC     ELC     EMC    reference other shells              
+#G   ---------------------------------------------------------------------
+#G   108.1     1.21 12                 0.11 3              ENC=0.03 1     
+#G                                                         EOC+=0.006 2   
+#G   139.9     0.47 12                            1971Go27                
+#G   148.9     1.1 2                              1967Ko15                
+#G   160.8     0.37 8      0.06 3      0.015 8                            
+#G   180.2     0.34 3      0.05 2      0.011 5             ENC=0.004 2    
+#G                                                         EOC+=0.0003 2  
+#G   191.9     0.30 3      0.048 8     0.010 5                            
+#G   240.4     0.081 11                           1982Ba51                
+#G   248.3     0.16 5                             1971Go27                
+#G   251.9                 0.022 5     0.0044 11           ENC=0.0012 6   
+#G                                                         EOC+=0.00025 12
+#G   263.7     0.11 3                                                     
+#G   287.4     0.094 9     0.014 1     0.004 1             ENC=0.0006 2   
+#G   318.6     0.066 16    0.017 8     0.004 2                            
+#G   354.2     0.06 3                             1982Ba51,1971Go27       
+#G   368.9     0.28 10                            1971Go27                
+#G   380.3     0.0077 8                                                   
+#G   385.1     0.050 10                                                   
+#G   395.4     0.022 2     0.004 1                                        
+#G   401.9     0.05 4                             1982Ba51                
+#G   405.7     0.06 3                             1982Ba51                
+#G   416.4     0.035 4     0.006 2                                        
+#G   426.4     0.040 5     0.008 2                                        
+#G   443.9     0.029 1     0.0046 11   0.0012 6   also 1975Ku12           
+#G   451.7     0.018 10                           1982Ba51                
+#G   467.5     0.021 7                            1982Ba51,1971Go27       
+#G   476.5     0.024 3                            1982Ba51                
+#G   479.3     0.014 2     0.0025 8    0.006 3                            
+#G   499+500   0.020 2                                                    
+#G   508.2     0.03 2                             1982Ba51,1971Go27       
+#G   512+513   0.020 5                                                    
+#G   534.7     0.006 2                            1982Ba51                
+#G   562.5     0.019 4                            1982Ba51                
+#G   572.5     0.008 4                            1982Ba51                
+#G   579+580   0.005 2                            1982Ba51                
+#G   587.5     0.010 2     0.0015 5    0.0006 3                           
+#G   604.7     0.0031 6                                                   
+#G   616.5     0.0032 6    0.0008 4                                       
+#G   620.6     0.0050 13                          1982Ba51                
+#G   657+659   0.005 2                            1982Ba51                
+#G   671.9     0.014 5                            1982Ba51,1971Go27       
+#G   692.1     0.008 3                                                    
+#G   703.7     0.0090 12   0.0019 9                                       
+#G   727.4     0.007 2                            1982Ba51                
+#G   731.2     0.0048 6    0.007 3     0.0019 9                           
+#G                                                                        
+#G                                                                        
+#G                                                                        
+#G           Experimental conversion coefficients for subshells.          
+#G    Main CE data used is from 1967Ko15. See above table                 
+#G    for other CE data                                                   
+#G                                                                        
+#G   EG      EL1C  EL2C  EL3C  EM1C EM2C EM3C                             
+#G  ----------------------------------------------------------------------
+#G  108.1    0.20 3    0.20 3    0.20 3    0.04 1   0.04 1   0.04 1       
+#G  148.9    0.33 11                                                      
+#G  180.2    0.047 12  0.006 2   0.0015 5  0.013 4                        
+#G  191.9    0.042 10  0.0038 10 0.0008 2                                 
+#G  251.9    0.017 4   0.0016 5  0.0004 2  0.004 2                        
+#G  287.4    0.011 2   0.0009 3  0.0004 2  0.0032 8                       
+#G  395.1    0.0024 8  0.0010 5  0.0006 3                                 
+#G  426.7    0.005 2                                                      
+#G  443.9    0.0029 7                                                     
+#G  479.3    0.0019 6                                                     
+#G  703.7    0.0012 6                                                     
+#G  731.2    0.0006 3                                                     
+#G                                                                        
+#G                                                                        
+#G           The following transitions reported in some of the            
+#G references have been discarded for lack of confirmation:               
+#G 1971Go27: 103.8, 118.2, 217.0, 222.0, 255.4, 258.1, 267.0, 348,        
+#G 378, 413.9, 440.2, 773.2, 901.9, 1069.0, 1133.8, 1360.0, 1593.0.       
+#G 1967Ko15, 1967Vi05: 181.7, 206.6, 344                                  
+#G E,RI      From 1986BuZX. Authors quote statistical uncertainties.      
+#G In some cases the evaluator has rounded the energy                     
+#G values and increased uncertainty to a minimum of 0.010 KEV. An         
+#G additional uncertainty of 3% has been added in quadrature to RI's.     
+#G Values agree well with other main references. Severe                   
+#G disagreements between 1986BuZX and 1982Ba51 are noted                  
+#G M,MR      Unless otherwise stated values are from CE data. Sign of     
+#G MR is from GG(THETA). GG(THETA) data of 1979Va14 have been reanalyzed  
+#G by the evaluator using authors' quoted A2 and A4 coefficients          
+#G CC        Theoretical values corresponding to assigned mult and        
+#G MR deduced from ECC's, subshell data and GG(THETA). The CE data        
+#G data have been normalized to the 251.86G treated as M1 (KC=0.132).     
+#G ECC's have been deduced (evaluator) by using RI's from 1986BuZX and    
+#G ICE's from unweighted av of available values. ECC is assigned an       
+#G uncertainty of 25 to 50% when no error is quoted on ICE by the         
+#G authors. For mult=M1,E2; ICC value overlaps both multipolarities       
+#G E(A)      Poor fit to the decay scheme                                 
+#G E(B)      Reported by 1982Ba51 only                                    
+#G E(D)      Reported by 1986BuZX only                                    
+#G E(E)      1986BuZX propose this as a part of a complex line. The       
+#G authors obtain EG and RI from GG data. Uncertainty of 0.5 KEV to EG    
+#G and 20% to RI assigned by the evaluator                                
+#G E(F)      Placement by energy fit only (1986BuZX)                      
+#G E(G)      From 1986BuZX only. EG and RI from GG data. Uncertainty of   
+#G 0.5 KEV to EG and 20% to RI assigned by the evaluator                  
+#L           The following levels suggested by 1982Ba51 and/or            
+#L 1975Ha18 have been discarded for lack of confirmation by GG            
+#L data of 1986BuZX; the transitions connected with these levels          
+#L have been placed from other levels: 1124, 1232, 1265, 1676, 1687, 1740,
+#L 1745, 1798, 1937, 1975 and 2195                                        
+#L E         From least-squares fit to EG's. Normalized |h{+2}=2.6        
+#L is somewhat higher than the critical value of 1.2                      
+#L J         See 'adopted levels' except when stated otherwise            
+#P    0.0      1/2(+)             17.609 H 14              2565     4     
++B beta+ 7.21E-4 0.0027900000000000004
++B beta+ 0.664 0.18
++G gamma 0.28735700000000003 0.283
++B beta+ 0.523 0.18
++B beta+ 0.526 0.18
++B beta+ 0.443 0.18
++B beta+ 0.438 0.18
++B beta+ 0.34 0.18
++B beta+ 0.328 0.18
++B beta+ 0.299 0.18
++B beta+ 0.295 0.18
++B beta+ 0.265 0.18
++B beta+ 0.234 0.18
++B beta+ 0.218 0.18
++B beta+ 0.187 0.18
++B beta+ 0.172 0.18
+
+#151GD    151TB EC DECAY (25 S)         1978AL15                  09NDS    200901
+#  151TB EC DECAY (25 S)         1978AL15                  09NDS    200901
+#H TYP=FUL$AUT=BALRAJ SINGH$CIT=NDS 110, 1 (2009)$CUT=20-Nov-2008$        
+#  The decay of the 151TB isomeric state was identified by observing five 
+#  G rays which belong to 151GD and are not seen in the EC decay of the   
+#  ground state of 151TB: 326.1, 379.7, 504.4, 522.4 and 830.5 KEV. On    
+#  this basis 1978Al15 propose possible EC feeding to three states: at    
+#  705.8, 902.1 and 1210 KEV. However, the 705-KEV level is known to have 
+#  a very strong decay branch to the ground state (see 151GD 'adopted     
+#  gammas'). 1978Al15 do not observe this strong G ray, only the much     
+#  weaker 326G. Therefore, the evaluator suggests that the 326G does not  
+#  belong to 151TB EC decay (25 S)                                        
+#G RI        Intensity per 100 decay of 151DY                             
+#L J         See 'adopted levels'                                         
+#P 99.56     6 (11/2-)           25 S      3                 2565   4     
++B beta+ 0.57397 0.0014000000000000002
++G gamma 0.3797 0.95654
++B beta+ 0.3442 2.0E-4
++G gamma 0.5224 0.22984
++B beta+ 0.20858000000000002 6.2E-5
++G gamma 0.5045 0.07774
++G gamma 0.8305 0.5002399999999999
+

@@ -1,0 +1,30 @@
+#147BA    248CM SF DECAY                1996JO14                  09NDS    200902
+#  248CM SF DECAY                1996JO14                  09NDS    200902
+#H TYP=FUL$AUT=N. NICA$CIT=NDS 110,749 (2009)$CUT=14-Nov-2008$            
+#  Measured GGG, EG, IG, DCO ratios, linear polarization                  
+#  with ^EUROGAM2. 52 COMPTON-shielded ^Ge                                
+#  detectors and 4 ^LEPS detectors. G-rays assigned by X-RAY coincidence  
+#  and coincidence with gammas from ^Zr isotopes (1996Jo14).              
+#G M$From angular correlation, internal conversion, and GAMMA polarization
+#G measurements (1996Jo14). Quadrupoles were assigned E2 by rotational    
+#G band character, and dipoles were assigned E1 or M1 by polarization     
+#G measurements and level scheme considerations.                          
+#G RI$Relative intensities; uncertainty ranges from 10% for intense       
+#G transitions to 30% for weak transitions.                               
+#L J$From 1996Jo14 and Adopted Values                                     
+#L BAND(A)$ROTATIONAL BAND                                                
+#P 0.0          0+               3.48E+5 Y 6                              
+CM248 BA147 SF 0.0 1.09818042624E13 0.0839
++G gamma 0.0757 0.21
++G gamma 0.1856 0.24
++G gamma 0.1693 0.32
++G gamma 0.0814 0.11
++G gamma 0.1746 0.06
++G gamma 0.2505 1.0
++G gamma 0.0907 0.42
++G gamma 0.29369999999999996 0.12
++G gamma 0.2399 0.66
++G gamma 0.2701 0.09
++G gamma 0.37660000000000005 0.57
++G gamma 0.49060000000000004 0.46
+

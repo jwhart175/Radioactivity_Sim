@@ -1,0 +1,213 @@
+#119TE    119I EC DECAY                 1990MA55                  09NDS    200910
+#  119I EC DECAY                 1990MA55                  09NDS    200910
+#H TYP=FUL$AUT=D. M. SYMOCHKO, E. BROWNE, J. K. TULI$                     
+#H CIT=NDS 110,2945 (2009)$CUT=1-Dec-2008$                                
+#  Modified by D.M. Symochko. BRICC.                                      
+#  1990Ma55: {+92}Mo({+32}S,3p2n){+119}Cs, E({+32}S)=175 MeV, on-line     
+#  mass separation; semi |g, ce, |g|g, |gce coin; Si(Li) with mini-orange 
+#  filter for ce measurements                                             
+#  1970Sp03: La(p,spallation) E(p)=3 GeV, mass separation, chem;          
+#  semi |g, |g|g                                                          
+#  1968Se05: semi |g, |g|g                                                
+#  Others: |b-strength function (1965An05,1975Ho03); |g, |b{++}, |g|b{++} 
+#  (1969La33)                                                             
+#  The decay scheme is that proposed by 1990Ma55 on the basis of          
+#  |g|g and E|g sums                                                      
+#E           I(|g{+|+})/I(257.5|g)=0.80 {I8} (1970Sp03), 0.49 {I1}        
+#E (1968Se05); %|b{++}=51 (1965An05), 19 {I7} (1975Ho03)                  
+#E IE        Values are from transition intensity balance.                
+#E IE,IB,TI$Intensity per 100 decays.                                     
+#G CC$ FROM BrIcc v2.2a (13-Jul-2008) 2008Ki07, "Frozen Orbitals" appr.   
+#G E         From 1990Ma55                                                
+#G CC        |a(K)exp are normalized to |a(K)(257.5|g)=0.0464 {I18}, as   
+#G determined from mult=M1+E2 with |d=+0.17 {I6} from (|a,2n|g)           
+#G M         From |a(K)exp, subshell ratio (1990Ma55), except as noted    
+#G MR        From adopted levels                                          
+#G E(A),RI(A)$From coincidence spectra                                    
+#G CC(B)     |a(K)exp have a value larger than the theoretical range      
+#G for M1+E2 multipolarities. This suggests E0 contribution.              
+#L E         E(levels) are based on a least-squares fit by the            
+#L evaluators to the E(|g's)                                              
+#L J,T       From adopted levels                                          
+#P 0.0         5/2+              19.1 M    4              3.42E+3   3     
+I119 TE119 beta+ 3.42 1146.0 1.00
++B beta+ 8.154E-4 0.00145
++G gamma 0.25751999999999997 0.863
++B beta+ 1.005 0.0034000000000000002
++G gamma 0.06309000000000001 0.0106149
++B beta+ 0.976 0.00359
++G gamma 0.03995 0.0011909400000000001
++B beta+ 0.958 0.0037099999999999998
++G gamma 0.20695 0.0030204999999999997
++B beta+ 0.924 0.00624
++G gamma 0.2402 0.0053506
++B beta+ 0.893 0.00416
++G gamma 0.29960000000000003 6.041000000000001E-4
++G gamma 0.55724 0.0176052
++B beta+ 0.868 0.00436
++G gamma 0.0785 1.1219E-4
++G gamma 0.31539999999999996 0.0025027
++G gamma 0.37839999999999996 0.0039698
++G gamma 0.63586 0.026753
++B beta+ 0.832 0.0046300000000000004
++G gamma 0.16018000000000002 6.2136E-4
++G gamma 0.19334 4.4876E-4
++G gamma 0.301 2.6753E-4
++G gamma 0.34076 0.0023301000000000003
++B beta+ 0.821 0.00473
++G gamma 0.30895 9.147799999999999E-4
++G gamma 0.34882 0.0037972
++G gamma 0.41152999999999995 4.315E-4
++G gamma 0.7076699999999999 0.0021575
++B beta+ 0.817 0.0047599999999999995
++G gamma 0.36357 0.0013980600000000002
++G gamma 0.40351 0.0032794
++G gamma 0.4668 1.8123E-4
++G gamma 0.7241000000000001 6.904000000000001E-4
++B beta+ 0.792 0.00496
++G gamma 0.275 2.9342E-4
++G gamma 0.38275 6.3862E-4
++G gamma 0.48210000000000003 2.4164000000000002E-4
++B beta+ 0.783 0.00503
++G gamma 0.2988 1.7260000000000002E-4
++B beta+ 0.773 0.00512
++G gamma 0.55589 0.0018986
++G gamma 0.8132699999999999 0.003452
++B beta+ 0.752 0.0053
++G gamma 0.5572 0.0010356
++G gamma 0.62 7.767000000000001E-4
++B beta+ 0.723 0.005540000000000001
++G gamma 0.2531 0.0010356
++G gamma 0.3321 3.4520000000000004E-4
++G gamma 0.52873 8.63E-4
++G gamma 0.5687000000000001 0.0019849
++G gamma 0.6317 0.0063862
++G gamma 0.889 0.00101834
++B beta+ 0.718 0.00559
++G gamma 0.29493 9.147799999999999E-4
++G gamma 0.40693 0.00111327
++G gamma 0.6437999999999999 0.0020712
++G gamma 0.70674 0.009751899999999999
++G gamma 0.9642000000000001 0.0010356
++G gamma 0.28 6.904E-5
++G gamma 0.44681 8.888899999999999E-4
++G gamma 0.6835399999999999 0.0018123
++G gamma 0.74652 0.0015534000000000001
++G gamma 1.00397 0.0050917
++B beta+ 0.684 0.00588
++G gamma 0.60376 5.178E-4
++B beta+ 0.621 0.00642
++G gamma 0.38959 8.4574E-4
++G gamma 0.4442 1.8123E-4
++G gamma 0.45238999999999996 5.178E-4
++G gamma 0.47776 4.8328000000000005E-4
++G gamma 0.6124400000000001 0.0016397
++G gamma 0.7531100000000001 0.0012944999999999999
++G gamma 0.7931 0.00107875
++G gamma 0.85594 7.1629E-4
++G gamma 1.1137000000000001 5.5232E-4
++B beta+ 0.617 0.00645
++G gamma 0.4929 3.4520000000000004E-4
++G gamma 0.66123 2.2438E-4
++G gamma 0.9013 1.6397E-4
++B beta+ 0.595 0.00664
++G gamma 0.71677 5.005400000000001E-4
++G gamma 0.86441 6.6451E-4
++G gamma 0.9272 1.1219E-4
++B beta+ 0.585 0.00672
++G gamma 0.93964 0.00138943
++G gamma 1.1970999999999998 1.8986E-4
++B beta+ 0.58 0.00676
++G gamma 0.6962999999999999 3.4520000000000004E-4
++G gamma 0.8772000000000001 0.0016397
++B beta+ 0.579 0.006770000000000001
++G gamma 0.4938 3.4520000000000004E-4
++G gamma 1.2015 1.2082000000000001E-4
++B beta+ 0.578 0.0067800000000000004
++G gamma 0.6632 2.0712E-4
++G gamma 0.86997 3.8835000000000003E-4
++G gamma 1.0501099999999999 4.1424E-4
++B beta+ 0.503 0.00735
++G gamma 0.48419999999999996 2.589E-4
++G gamma 1.1159000000000001 6.904000000000001E-4
++B beta+ 0.502 0.00736
++G gamma 0.7218 1.8986E-4
++G gamma 1.0853 1.8123E-4
++G gamma 1.188 2.589E-4
++G gamma 1.4458 2.9342E-4
++B beta+ 0.47 0.00757
++G gamma 0.9557 4.9191E-4
++G gamma 1.1525 2.3301E-4
++G gamma 1.2554 3.2794E-4
++B beta+ 0.44 0.00776
++G gamma 0.4146 1.6397E-4
++G gamma 0.5245 2.589E-4
++G gamma 0.8202999999999999 1.8986E-4
++B beta+ 0.433 0.00779
++G gamma 0.4172 2.6753E-4
++G gamma 0.52615 6.472499999999999E-4
++G gamma 0.5665 2.7616E-4
++G gamma 0.6534 2.4164000000000002E-4
++G gamma 0.80662 8.2848E-4
++G gamma 0.8229 4.6602E-4
++G gamma 0.8609 3.1068E-4
++G gamma 0.97337 0.004660200000000001
++G gamma 1.21004 0.001726
++G gamma 1.2730599999999999 0.00138943
++G gamma 1.5302799999999999 5.005400000000001E-4
++B beta+ 0.432 0.0078000000000000005
++G gamma 0.6600499999999999 9.493E-5
++G gamma 1.3037 7.767E-5
++G gamma 1.6242 1.0356E-4
++B beta+ 0.391 0.00801
++G gamma 1.3745999999999998 2.8479E-4
++G gamma 1.632 2.5027000000000003E-4
++B beta+ 0.388 0.00803
++G gamma 0.7099 8.63E-4
++G gamma 0.78511 5.4369E-4
++G gamma 0.8609 3.1068E-4
++G gamma 0.967 8.63E-4
++G gamma 1.0385 7.6807E-4
++G gamma 1.1173 2.589E-4
++G gamma 1.35372 0.0019849
++G gamma 1.6741 3.0205000000000005E-4
++B beta+ 0.369 0.008110000000000001
++G gamma 0.6155 2.6753E-4
++G gamma 0.7255 2.9342E-4
++G gamma 0.8402999999999999 1.9848999999999998E-4
++G gamma 1.7290999999999999 3.3657E-4
++B beta+ 0.345 0.008199999999999999
++G gamma 0.735 2.4164000000000002E-4
++G gamma 1.1033 5.005400000000001E-4
++G gamma 1.41851 0.00121683
++G gamma 1.4815 2.9342E-4
++B beta+ 0.341 0.00822
++G gamma 0.946 1.8986E-4
++G gamma 0.9575 4.0561E-4
++G gamma 1.1990999999999998 2.589E-4
++G gamma 1.2779 1.8123E-4
++G gamma 1.36693 4.315E-4
++G gamma 1.51425 0.0013808000000000002
++G gamma 1.5772 2.3301E-4
++B beta+ 0.299 0.00835
++G gamma 1.6642000000000001 1.6397E-4
++G gamma 1.767 1.4671E-4
++B beta+ 0.217 0.00849
++G gamma 1.0744 1.3808E-4
++G gamma 1.37066 6.127299999999999E-4
++G gamma 1.7182 2.5027000000000003E-4
++G gamma 1.8212000000000002 1.8123E-4
++B beta+ 0.193 0.00851
++G gamma 1.217 1.9848999999999998E-4
++G gamma 1.382 1.6397E-4
++G gamma 1.4365 2.5027000000000003E-4
++G gamma 1.4703 3.3657E-4
++G gamma 1.54881 8.716300000000001E-4
++G gamma 1.7853299999999999 7.421799999999999E-4
++B beta+ 0.181 0.00852
++G gamma 1.4441 2.7616E-4
++G gamma 1.4774 1.3808E-4
++G gamma 1.5564 1.2082000000000001E-4
++G gamma 1.7918 9.493E-5
++G gamma 1.8551 1.2082000000000001E-4
+

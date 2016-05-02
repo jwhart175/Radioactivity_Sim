@@ -1,0 +1,35 @@
+#142XE    248CM SF DECAY                1996Be06,1990Mo18,2003Ur0211NDS    201108
+#  248CM SF DECAY                1996Be06,1990Mo18,2003Ur0211NDS    201108
+#H TYP=FUL$AUT=T.D. Johnson, D. Symochko(a), M. Fadil(b), and J.K. Tuli$  
+#H CIT=NDS 112, 1949 (2011)$CUT=1-Jun-2010$                               
+#  1996Be06: Eurogam-1 array with 5 low-energy photon spectrometers       
+#  (LEPS) and 45 Compton suppressed Ge detectors.                         
+#  Measured |g|g|g, X|g|g. Observed coincidence with transitions in       
+#  Mo isotopes (1996Be06). 1996Be06 have extended level scheme of         
+#  1990Mo18.                                                              
+#  2003Ur02: Eurogam-2 array of anti-Compton Ge detectors.                
+#  Measured E|g, |g|g. Octupole band observed.                            
+#  2009Go09: Gammasphere array. Measured g factor of the first 2+ state   
+#  by the method of correlation attenuations in randomly oriented         
+#  magnetic fields (IPAC).                                                
+#G CC$ FROM BrIcc v2.2a (13-Jul-2008) 2008Ki07, "Frozen Orbitals" appr.   
+#G RI$Intensity in coincidence with 287.1|g. Average of values from       
+#G 1996Be06 and 1990Mo18. Minimum 10% uncertainty assumed by the          
+#G evaluators.                                                            
+#G E$Values with uncertainties are from 1990Mo18. Values without          
+#G uncertainties are from 1996Be06                                        
+#G unless otherwise noted. 0.5-keV uncertainty assumed for calculation    
+#G of level energies.                                                     
+#G $Angular distribution coefficients for the 707.2 and 540.5 transitions 
+#G from a summed correlation with several GS band transitions             
+#G E(C)$From 2003Ur02.                                                    
+#L E$From least-squares fit to E|g.                                       
+#L J$From adopted levels                                                  
+#G M$From angular correlations and linear polarization measurements       
+#G when available (2003Ur02)                                              
+#L BAND(A)$GS BAND                                                        
+#L BAND(B)$OCTUPOLE BAND                                                  
+#L BAND(D)$POSSIBLE ROTATIONAL BAND                                       
+#P 0.0          0+               3.48E+5 Y 6                              
+CM248 XE142 SF 0.0 1.09818042624E13 1
+

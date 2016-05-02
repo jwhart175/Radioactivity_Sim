@@ -1,0 +1,25 @@
+#114SN    114IN B- DECAY                                          12NDS    201203
+#  114IN B- DECAY                                          12NDS    201203
+#H TYP=FUL$AUT=Jean Blachot$CIT=NDS 113, 515 (2012)$CUT=1-Jan-2012$       
+#  2009Wa22: Precise measurement of |b-asymmetry parameter.               
+#  {+114}In source obtained from IT decay of 49.5-d {+114m}In.            
+#  Measured |b(|q,H,t); deduced |b-asymmetry parameter.                   
+#  Low-temperature nuclear orientation method combined with               
+#  analysis by GEANT4 simulation code.                                    
+#  {+114}In sample was implanted in Fe foil, then cooled to milli-kelvin  
+#  temperatures in a strong magnetic hyperfine field induced by a         
+#  superconducting split-coil magnet. The |b particles were detected with 
+#  two planar HPGe detectors placed at 0|' and 90|' to the magnetic field.
+#  The |g rays were observed with two large volume HPGe detectors         
+#  1969Co04: |g, semi ; |b, |b shape factor s                             
+#  (1961Da01,1961Ni02,1964An12,1964Da16,1973Bo43);                        
+#  bremsstrahlung endpoint (1969Ko29)                                     
+#  See also {+114}In |e decay                                             
+#G E$From 1969Co04, 1974HeYW                                              
+#L T,J$From adopted levels                                                
+#P  0.0         1+                 71.9 S       1         1988.6    6     
+IN114 SN114 beta- 1.9886 0.0 0.9950
++B beta-8.481E-4 0.00121
++B beta-0.7787200000000001 0.08
++G gamma 1.2998299999999998 0.0013999999999999998
+

@@ -1,0 +1,111 @@
+#142SM    142EU EC DECAY (2.34 S)       1991FI03,1975KE08         11NDS    201108
+#  142EU EC DECAY (2.34 S)       1991FI03,1975KE08         11NDS    201108
+#H TYP=FUL$AUT=T.D. Johnson, D. Symochko(a), M. Fadil(b), and J.K. Tuli$  
+#H CIT=NDS 112, 1949 (2011)$CUT=1-Jun-2010$                               
+#  Measured: |g, |b{++} (1975Ke08); others: 1973VaYZ, 1987FiZW            
+#  Decay scheme is given by 1991Fi03 based on earlier work of 1975Ke08.   
+#  1991Fi03 obtained source in {+142}Gd decay and measured x-ray, |g,     
+#  |g(t). From two component fit to 768|g(t), assuming                    
+#  T{-1/2}({+142}Gd)=70.2 s {I6}, they determined T{-1/2}({+142}Eu        
+#  g.s.)=2.34 s {I12}. I(|e+|b{++}) values of 1991Fi03 determined from    
+#  I|b{++}/I(768|g)=8.8 {I6} (1991Fi03) are given. Other:                 
+#  I|b{++}/I(768|g)=8.4 {I11} (1975Ke08)                                  
+#E           E|b+=7000 {I300} (1975Ke08), 6651 {I30} (1994Po26)           
+#G CC$ FROM BrIcc v2.2b (20-Jan-2009) 2008Ki07, "Frozen Orbitals" appr.   
+#L E$From least-squares fit to E|g.                                       
+#L J         Adopted values                                               
+#P 0.0         1+                2.34 S    12             7670      30    
+EU142 SM142 beta+ 7.67 2.34 1.0
++B beta+ 8.320999999999999E-4 0.0012900000000000001
++B beta+ 3.083 5.0E-4
++G gamma 0.7681 0.102
++B beta+ 2.715 6.900000000000001E-4
++G gamma 0.683 0.004182
++B beta+ 2.389 9.6E-4
++G gamma 0.8897999999999999 0.010608
++G gamma 1.6579000000000002 0.017543999999999997
++B beta+ 2.291 0.00107
++G gamma 1.2874 0.011628000000000001
++G gamma 2.0558 0.004488000000000001
++B beta+ 2.103 0.00131
++G gamma 1.4054 0.004079999999999999
++B beta+ 2.047 0.0014000000000000002
++G gamma 2.3537 0.005304
++B beta+ 1.962 0.00155
++G gamma 2.3739 0.007649999999999999
++B beta+ 1.953 0.00157
++G gamma 1.6713 0.012851999999999999
++B beta+ 1.922 0.0016200000000000001
++G gamma 0.8644 8.567999999999999E-4
++G gamma 1.7541 0.014891999999999999
++B beta+ 1.883 0.0017000000000000001
++G gamma 2.2636999999999996 0.004998
++B beta+ 1.645 0.00229
++G gamma 2.4196999999999997 0.0024479999999999997
+
+#142SM    142EU EC DECAY (1.223 M)      1975KE08                  11NDS    201108
+#  142EU EC DECAY (1.223 M)      1975KE08                  11NDS    201108
+#H TYP=FUL$AUT=T.D. Johnson, D. Symochko(a), M. Fadil(b), and J.K. Tuli$  
+#H CIT=NDS 112, 1949 (2011)$CUT=1-Jun-2010$                               
+#  Measured: |g, |g|g, X|g, ce, |b{++}, |b|g(t) (1975Ke08)                
+#  Other measurements: 1987FiZW, 1983Al06, 1973VaYZ, 1972Ha23, 1966Ma15,  
+#  1966At04                                                               
+#  Decay scheme is from 1975Ke08                                          
+#  The level feedings have been deduced from I|g                          
+#  balance, assuming no |e decay to g.s. and no IT decay                  
+#  T{-1/2} from total |g absorption (1993Al03)                            
+#  E(parent)=520 {I50} (1997Au04) based on                                
+#  Q(|e)({+142}Eu 8-)=8150 {I60}, Q(|e)({+142}Eu,1+)=7670 {I30}           
+#  (1994Po26). Others: Q(|e)({+142}Eu 8-)=8175 {I50} (1983Al06), 7480     
+#  {I100} (1993Al03) Q(|e)({+142}Eu,1+)=8000 {I300} (1975Ke08)            
+#G CC$ FROM BrIcc v2.2b (20-Jan-2009) 2008Ki07, "Frozen Orbitals" appr.   
+#G M         |a(K)exp were normalized to |a(K)(768|g)=0.0037 (E2)         
+#L J         Adopted values                                               
+#P 0.0+X       8-                1.223 M   8              7670      30    
+EU142 SM142 beta+ 7.67 73.38000000000001 1.0
++G gamma 0.8326 0.0042
++G gamma 1.212 0.004699999999999999
++G gamma 1.7285 0.002
++G gamma 0.768 1.0
++G gamma 1.0161 0.11
++G gamma 1.0232999999999999 0.92
++G gamma 0.5566 0.866
++G gamma 0.5637000000000001 0.083
++B beta+ 1.572 0.00251
++G gamma 0.5807 0.0044
++B beta+ 2.187 0.0012
++G gamma 0.6287 0.040999999999999995
++B beta+ 2.136 0.00242
++G gamma 0.54 0.05
++B beta+ 1.932 0.00161
++G gamma 0.2009 0.011000000000000001
++G gamma 0.7412000000000001 0.017
++B beta+ 1.838 0.0018
++G gamma 0.848 0.004
++B beta+ 1.788 0.00191
++G gamma 0.9064 0.005
++G gamma 0.9542999999999999 0.0058
++B beta+ 1.738 0.00203
++G gamma 0.2738 0.012
++G gamma 0.4744 0.0075
++B beta+ 1.71 0.00211
++G gamma 1.151 0.0034999999999999996
++G gamma 1.1987999999999999 0.0039000000000000003
++B beta+ 1.624 0.0023499999999999997
++G gamma 1.3419 0.0298
++B beta+ 1.557 0.00256
++G gamma 0.8867 0.0069
++G gamma 1.4267999999999998 0.0078000000000000005
++B beta+ 1.518 0.0027
++G gamma 1.6521 0.0029
++G gamma 1.7001 0.0083
++G gamma 1.7245 0.0012
++B beta+ 1.391 0.00318
++G gamma 1.8386 0.0044
++B beta+ 1.327 0.0034599999999999995
++G gamma 0.982 0.0024
++G gamma 1.889 0.0015
++G gamma 1.9376 0.0051
++B beta+ 1.282 0.00367
++G gamma 2.2584 0.0064
+

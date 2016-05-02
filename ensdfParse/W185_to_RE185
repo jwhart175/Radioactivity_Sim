@@ -1,0 +1,26 @@
+#185RE    185W B- DECAY                 1972Ca27                  05NDS    200601
+#  185W B- DECAY                 1972Ca27                  05NDS    200601
+#H TYP=FUL$AUT=S. -C. WU$CIT=NDS 106, 619 (2005)$CUT=1-Nov-2005$          
+#  MODIFIED BY E. BROWNE (SEPT. 1993).                                    
+#  For measurements of K-shell auto-ionization (electron shakeoff)        
+#  probabilities, see 1972Ca27 and 1974Ha12.                              
+#  For calculations of auto-ionization probabilities of K and L atomic    
+#  shells, see: 1968Ca29, 1972Ca27, 1972La07, 1972La09, 1972Mo26,         
+#  1975La20, 1977Is05, 1981Mu14, and 1983Mu10.                            
+#  For measurements of internal bremmstrahlung, see: 1976Na26, 1976Pr02,  
+#  1980Ve06, and 1989Ba35.                                                
+#L J$From adopted levels                                                  
+#G                                                                        
+#G           x-ray intensities relative to 100 for 125|g.                 
+#G                                                                        
+#G      x ray       Intensity      Detector       Reference               
+#G      -----       ---------      --------       ---------               
+#G      K| x ray        275            scin          1958Bi39             
+#G      K|a| x ray       214 {I10}         Ge(Li)        1972Ca27         
+#G                                                                        
+#B           E|b{+-}(average)=144 keV {I7} |b{+-} calorimeter (1956Sh37). 
+#P 0.0         3/2-              75.1 D    3               432.5    9     
++B beta- 0.1269 0.99928
++B beta- 0.09709999999999999 7.199999999999999E-4
++G gamma 0.125358 1.92E-4
+

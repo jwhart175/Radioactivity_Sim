@@ -1,0 +1,65 @@
+#180OS    180IR EC DECAY                1994KI01,1992BO19,1973HAVR15NDS    201506
+#  180IR EC DECAY                1994KI01,1992BO19,1973HAVR15NDS    201506
+#H TYP=FUL$AUT=E.A. MCCUTCHAN$CIT=NDS 126, 151 (2015)$CUT=1-Feb-2015$     
+#  1994Ki01: {+180}Ir activity produced by {+166}Er({+19}F,5n),           
+#  E({+19}F)=108 MeV. Measured E|g, I|g, |g|g coin, |g|g(|q), I(ce), and  
+#  ce-|g coin using CAESAR array consisting of 6 Compton-suppressed HPGe  
+#  detectors and a superconducting solenoid electron spectrometer         
+#  operated in lens mode.                                                 
+#  1992Bo19: {+180}Ir activity produced by {+148}Nd({+36}Ar,p3n),         
+#  E({+36}Ar)=240 MeV. Measured E|g, I|g, |g|g coin, E x-ray, I x-ray,    
+#  |g-x-ray coin using two Ge detectors.                                  
+#  1973HaVR: {+180}Ir activity produced by {+169}Tm({+16}O,5n),           
+#  E({+16}O)=125 MeV. Measured E|g, I|g, |g|g coin using Ge(Li)           
+#  detectors.                                                             
+#  A total energy release of 6430 keV {I160} for this decay scheme is     
+#  calculated by the RADLST code, in agreement with the Q value of 6382   
+#  keV {I27}. However, due to the large Q value and the experimental      
+#  |?2 MeV |g-ray energy cut-off, the decay scheme is considered to be    
+#  incomplete.                                                            
+#L E$From a least-squares fit to E|g's by evaluator.                      
+#L J$From the Adopted Levels                                              
+#L BAND(C)$GS BAND                                                        
+#L BAND(D)$K|p=0+ BAND                                                    
+#L BAND(B)$K|p=2+ |g-vibrational band                                     
+#G E$Weighted average of values from 1994Ki01, 1992Bo19, and 1973HaVR,    
+#G uncertainties for 1994Ki01 assumed similar to those of 1992Bo19.       
+#G RI$Weighted average of values from 1994Ki01, 1992Bo19, and 1973HaVR,   
+#G except where noted.                                                    
+#G M$From conversion electron data in 1994Ki01, except where noted        
+#G E(B),RI(B)$From 1992Bo19                                               
+#G E(K),RI(K)$From 1994Ki01.                                              
+#G CC(L)$From sum of |a(K)exp, |a(L)exp, and |a(M)exp.                    
+#E TI$From an intensity balance at each level.                            
+#E LOGFT$Due to the large Q value (6.4 MeV) of the decay and the          
+#E experimental |?2 MeV |g-ray energy cut-off, the decay scheme is        
+#E considered incomplete. The log {Ift} values should therefore be        
+#E considered lower limits.                                               
+#L $1992Bo19 propose a 8+, 1256 level (depopulated by a 461.7|g) and a    
+#L 7-, 1862 level (depopulated by 257.6|g, 604.5|g, and 1066.6|g) which   
+#L are not observed by 1994Ki01. All depopulating |g's (with the          
+#L exception of the 1066.6|g) are given alternate placements in           
+#L 1994Ki01. As the direct population of 7- and 8+ states from a (4,5)    
+#L parent is unlikely, the level scheme of 1994Ki01 is adopted here.      
+#G $1973HaVR observe tentative unplaced transitions of 846.0 {I5} with    
+#G I|g=5.8 {I6}, 1014.0 {I5} with I|g=2.6 {I3}, and 1330.3 {I5} with      
+#G I|g=10.4 {I6}. These transitions are not observed by 1994Ki01 or       
+#G 1992Bo19, and thus, not included in the adopted gammas.                
+#G MR$From |g|g(|q) in 1994Ki01.                                          
+#  MODIFIED BY E. BROWNE (NOVEMBER 1993).                                 
+#  CC$FROM BrIcc v2.3a (30-Jun-2013) 2008Ki07, "Frozen Orbitals" appr.    
+#P 0.0          (5+)              1.5 M     1              6384     27    
++B beta+ 0.214 0.00813
++B beta+ 2.252 0.00261
++B beta+ 2.073 0.0030399999999999997
++B beta+ 2.056 0.00308
++B beta+ 2.038 0.00313
++B beta+ 1.967 0.00332
++B beta+ 1.954 0.00336
++B beta+ 1.887 0.00356
++B beta+ 1.805 0.00381
++B beta+ 1.803 0.00382
++B beta+ 1.791 0.00386
++B beta+ 1.741 0.00402
++B beta+ 1.74 0.00402
+

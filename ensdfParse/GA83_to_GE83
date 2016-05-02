@@ -1,0 +1,39 @@
+# 83GE    83GA B- DECAY (308.1 MS)      2010WI03,2006PE20         15NDS    201503
+#  83GA B- DECAY (308.1 MS)      2010WI03,2006PE20         15NDS    201503
+#H TYP=FUL$AUT=E.A. MCCUTCHAN$CIT=NDS 125, 201 (2015)$CUT=31-Dec-2014$    
+#  2010Wi03 (also 2009Gr06, 2008WiZZ): {+83}Ga isotope produced in        
+#  proton induced fission of {+238}U with E(p)=54 MeV.  Fission products  
+#  passed through charge exchange cell, separated in the high-resolution  
+#  injector magnet and re-accelerated to 225 MeV.  Identification based   
+#  on time-of-flight and energy loss. Measured E|g, I|g, |g|g and |b|g    
+#  coincidences using four HPGe clover detectors and two plastic          
+#  scintillator detectors.                                                
+#  2006Pe20 (also 2007Ib01,2004Ve14,2004PeZW thesis,2003Pe18): {+83}Ga    
+#  isotope produced by fast neutron fission of {+238}U. Fission products  
+#  ionized and magnetically mass separated. Measured E|g, I|g, |g|g and   
+#  |b|g coincidences using two large volume HPGe detectors and a 4|p      
+#  plastic scintillator.                                                  
+#  Level scheme is that of 2010Wi03. 2006Pe20 report two |g rays          
+#  belonging to the decay of {+83}Ga into {+83}Ge with energies of 867.4  
+#  {I8} and 1238.2 {I5} keV. 2010Wi03 use |g|g coincidence data to show   
+#  that the 867.4-keV |g-ray belongs to {+82}Ge, populated in the         
+#  |b{+-}n decay of {+83}Ga.                                              
+#  The decay scheme is very incomplete evidenced by the gap of nearly 10  
+#  MeV between the highest energy level observed and the decay Q value.   
+#  The total energy release of 2.3 MeV {I14} as calculated by the code    
+#  RADLST is substantially smaller than the Q value of 11.7 MeV.          
+#G E$From 2010Wi03                                                        
+#G RI$From 2010Wi03, normalized to I|g(1348|g)=100. The 1348|g is         
+#G observed in {+82}Ge following the |b{+-}n decay of {+83}Ga.            
+#L E$From E|g.                                                            
+#L J$From the Adopted Levels.                                             
+#B IB$From an intensity balance at each level, by evaluator.  Should be   
+#B considered upper limits, as the decay scheme is highly incomplete.     
+#B LOGFT$Should be considered lower limits, as the decay scheme is        
+#B highly incomplete.                                                     
+#P 0.0                            308.1 MS  10             11719    4     
++B beta- 5.4992 0.34
++B beta- 5.379899999999999 0.0043
++B beta- 4.994 0.006500000000000001
++B beta- 4.9009 0.019
+

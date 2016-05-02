@@ -1,0 +1,123 @@
+#188OS    188RE B- DECAY (17.0040 H)    2001SC23,1984ZH08,1975SV0102NDS    200204
+#  188RE B- DECAY (17.0040 H)    2001SC23,1984ZH08,1975SV0102NDS    200204
+#H TYP=ERR$AUT=BALRAJ SINGH$DAT=1-Nov-2005$COM=fixed typo$                
+#H TYP=FUL$AUT=BALRAJ SINGH$CIT=NDS 95, 387 (2002)$CUT=26-Feb-2002$       
+#  2001SC23: Measured gamma-ray and x ray emission probabilities          
+#  using 4|p|b-|g coin method and liquid scintillation counting           
+#  2002UN02, 2002ZI01: Measured T1/2 by 4|p|g ionization chamber          
+#  counting, and 188W/188RE source standardization by 4|p|b liquid        
+#  scintillation counting                                                 
+#  1984Zh08 (also 1983Zh10): Measured E|g, I|g, |g|g                      
+#  1975Sv01 (also 1975SvZZ): Measured E|g, I|g, |g|g                      
+#  2000Mi03: Measured gamma-ray emission probabilities for 7 gamma rays   
+#  and relative intensities for about 20 |g rays using 4|p|b-|g           
+#  coin method                                                            
+#  2000Sh48: Measured E|g, I|g, gg coin                                   
+#  Others:                                                                
+#  |g: 1988BeYH, 1974Be75, 1969Ya02, 1967Be59, 1972Sh13, 1970St03,        
+#  1969GuZW, 1966Ma41, 1966Ba29, 1966El11, 1965Dz03, 1965Vi01, 1964Bu10,  
+#  1963Ma08, 1963Sc05, 1962Wa20, 1962Li15, 1960Mal3, 1960Ar01, 1959Ha07,  
+#  1957Ma16, 1956Po37, 1956Jo05, 1955Ry53, 1953Mc39, 1952Ri01, 1948Co23,  
+#  1946He04                                                               
+#  |g|g: 1969Ya02, 1966Ba29, 1966Ma41, 1964Bu10, 1962Wa20, 1960Ar01,      
+#  1956Po37, 1956Jo05                                                     
+#  |g|g(|q): 1960Ar01, 1960Ma19, 1959Ki44, 1956Wi39, 1956Po13, 1972RaYO,  
+#  1974PrZA.                                                              
+#  |g|g(|q,H), g factor: 1967Mu05, 1967Ke01, 1962Le17, 1961Ka09, 1972Ge15.
+#  |g(|q,H,T), Q: 1983Oe01, 1981Oe01, 1981Er01.                           
+#  ce: main references: 1966Ba29, 1966Er03, 1965Ma44, 1964Bu10, 1959Ki44, 
+#  1958Ni04, 1956Jo05. Others: 1974Ba50, 1974Be75, 1960Bo38, 1968Bo01,    
+#  1966El11, 1964Th02, 1964He19, 1962Fo15, 1956Po37, 1952Ri01, 1948Co23.  
+#  Pair conversion data (magnetic spectrometer): 1974Be75, 1985AlZJ.      
+#  T{-1/2}({+188}Re g.s.): 2001Sc23, 1994Co02 (also 1992Un01), 1989Ab18,  
+#  1984Zh08, 1971Mi16, 1965El08, 1958Gu09, 1954Dz19, 1953Fl07, 1951Li19,  
+#  1951Li07, 1947Go01, 1937Po04.                                          
+#  Production of {+188}Re: see above references for T{-1/2} and the       
+#  following: 1947He01, 1947Se33, 1940Fa01, 1939Si05, 1935Am01, 1935Ku03. 
+#  I(e+-)/I|g values from 1974Be75 are given relative to that for 1610|g  
+#  as 1.09x10{+-4} assumed as E2 (theoretical value from 1979Sc31).       
+#B $|b-: main references: 1970An08 (also 1968An11), 1970Tr01, 1969Va17,   
+#B 1965Ma44, 1964Bu10, 1956Jo05. Others: 1969An24, 1968An07, 1963Bo28,    
+#B 1958Ni04, 1956Po37, 1954Dz19, 1952Ri01, 1949Be60, 1947Go01             
+#B $ |b- spectral shape: 1970An08, 1970Tr01, 1969Va17, 1969An24,          
+#B 1968An11, 1965Ma44, 1963Ba54, 1971VaZF, 1975RaYS                       
+#B $(|b-)(ce) coin: 1974Ba50                                              
+#B $|b|g coin: 1970Tr01, 1969Va17, 1956Po37, 1952Ri01                     
+#B $|b|g(t): 1968Ma14, 1963Fo02, 1962Ba14, 1955Su64                       
+#B $|b(|q), polarized source: 1970Br09                                    
+#B $|b|g(|q): 1971Ma43, 1970Tr01, 1970Br09 (also 1970BrZW),               
+#B 1965Gr26, 1964Pe19, 1963Wy01                                           
+#B $|b- (polarization): 1967Tr10, 1965Ka06                                
+#  Theoretical calculations related to |b- transitions: 1982Bo26,         
+#  1980Bo20, 1979Mi17, 1976Pr17, 1975BoYK, 1974Og01, 1970Bo14, 1970Be11,  
+#  1968Bo31, 1964Du03.                                                    
+#  In averaging E|g's and T{-1/2}, the method of the limitation           
+#  of relative statistical weights (LWM) (1988WoZO) was applied (by the   
+#  evaluator), where the uncertainty assigned to the average was always   
+#  equal or greater than the smallest uncertainty of the values used to   
+#  obtain the average.                                                    
+#G           The following G's with EG(RI) have been discarded for lack   
+#G of confirmation in more recent measurements (1975SV01,1984ZH08):       
+#G           1966EL11 (photoelectron spectrum): 156.1, 208.7(2.2),        
+#G 211.3(14), 220.1(3.2), 288.5(1.2), 375.2(0.8), 444.2(6.4),             
+#G 480.0(5.5), 497.3(10), 516.9(4.7), 607.2(9.5), 652.3(5.9), 664.2(5.2), 
+#G 789.4(3.4), 1117.2(0.7), 1595.3(7.0). The 211.3 and 288.5 were         
+#G reported by 1965MA44 also                                              
+#G           1969YA02 (^Ge detector spectrum):                            
+#G 297.4(1.7), 641.0(1.2), 794.3(0.8), 880.8                              
+#G (1.6), 963.4(1.3), 967.5(1.8), 1170.9(1.1), 1231.0(0.5), 1368.5(1.1).  
+#G           1967BE59 (^Ge detector spectrum): 1231.0, 1368.5,            
+#G 1732.4(1.0)                                                            
+#G E$Unless otherwise stated, values are weighted averages from           
+#G 1975SV01 and 1984ZH08 if CHI**2/n-1 LE 1, unweighted average otherwise.
+#G RI$Unweighted averages from 2001SC23 and 2000MI03 when values are      
+#G available from 2000MI03, otherwise values are from 2001SC23. Values    
+#G adopted from 2000SH48, 1984ZH08 and 1975SV01 have been multiplied by a 
+#G factor of 1.08 to normalize to RI(478G)=108.1. Values available from   
+#G 2000SH48, 1984ZH08 and 1975SV01 are in general agreement with those    
+#G from 2001SC23, but these values are either are less precise or         
+#G given without uncertainties. 1984ZH08 quote uncertainties, but in many 
+#G cases are unrealistically low.                                         
+#G E(A)$Weighted average of 155.032 12 (1963MA08), 155.04 20 (1963SC05),  
+#G 155.045 4 (1972SH13), 155.04 2 (1975SV01), and 155.035 6 (1984ZH08).   
+#G Other: 154.87 5 (1955RY53)                                             
+#G E(B)$Weighted average of 478.033 35 (1972SH13),                        
+#G 477.96 3 (1975SV01), and 478.008 8 (1984ZH08)                          
+#G RI(D)$Unweighted average of 2000SH48, 1984ZH08 and 1975SV01.           
+#G G not reported by 2001SC23                                             
+#G RI(F)$Unweighted average of 2000SH48 and 1984ZH08.                     
+#G G not reported by 2001SC23                                             
+#G RI(E)$1149.7 and 1150.5 are unresolved. Total intensity=3.56 8         
+#G (2001SC23). Individual intensities given by 1984ZH08 and 1975SV01      
+#G suggest equal intensities for the two components                       
+#G E(G),RI(G)$G reported by 2000SH48 only                                 
+#G M,MR$From CE data in 188RE B- and 188IR EC decay, except where         
+#G indicated.                                                             
+#G CC(X)$Theoretical pair production conversion coefficient (1979SC31).   
+#G Experimental values from 1974BE75 are given under comments             
+#G CC$Calculated values from 1978Ro22.                                    
+#L E$From least-squares fit to EG's                                       
+#L J$From adopted levels                                                  
+#P 0           1-                17.0040 H 22             2120.4    4     
+RE188 OS188 beta- 2.1204 61214.4 0.01
++G gamma 0.32293 0.0168
++G gamma 0.47799200000000003 1.081
++G gamma 0.632983 1.374
++G gamma 0.931345 0.597
++G gamma 0.51488 0.0058
++G gamma 0.8269 0.006999999999999999
++G gamma 1.1497 0.0178
++G gamma 1.30486 0.0028000000000000004
++G gamma 0.6237999999999999 0.0023
++G gamma 0.0 0.00105
++G gamma 1.3024 0.0059
++G gamma 0.672535 0.12140000000000001
++G gamma 0.82947 0.445
++G gamma 0.8450700000000001 0.0076500000000000005
++G gamma 1.0714000000000001 6.2E-4
++G gamma 1.6104 0.10949999999999999
++G gamma 1.0176699999999999 0.016399999999999998
++G gamma 1.17457 0.0194
++G gamma 1.65249 0.0033
++G gamma 1.30803 0.0718
+

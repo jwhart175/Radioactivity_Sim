@@ -1,0 +1,15 @@
+# 50CR    50V B- DECAY (1.4E+17 Y)      1989SI07                  11NDS    201012
+#  50V B- DECAY (1.4E+17 Y)      1989SI07                  11NDS    201012
+#H TYP=FUL$AUT=ZOLTAN ELEKES AND JANOS TIMAR, BALRAJ SINGH$               
+#H CIT=NDS 112, 1 (2011)$CUT=20-Oct-2010$                                 
+#  Measured 783|g and deduced T{-1/2}(|b{+-}); three large intrinsic      
+#  Ge's in a salt mine; 337.5 g of natural V, 1109 h and a background     
+#  run of 4206 h; corrections were made for Th and U contaminants.        
+#  1984Al18 looked for but did not observe the 783|g.                     
+#G E,M$ From the Adopted Gammas.                                          
+#L E,J$ From the Adopted Levels.                                          
+#P 0.0         6+                1.4E+17 Y +4-3           1037.9    3     
+V50 CR50 beta- 1.0379 4.417967232E24 0.17
++B beta-8.925E-4 9.168999999999999E-4
++G gamma 0.7832899999999999 0.9997
+

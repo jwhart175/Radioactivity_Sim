@@ -1,0 +1,89 @@
+#156EU    156SM B- DECAY                1966HA26,1968AN09         12NDS    201210
+#  156SM B- DECAY                1966HA26,1968AN09         12NDS    201210
+#H TYP=FUL$AUT=C. W. REICH$CIT=NDS 113, 2537 (2012)$CUT=1-Mar-2012$       
+#  DATA SET UPDATED (AUGUST, 2011) BY CW REICH TO GIVE NEW QP AND CC      
+#   VALUES.                                                               
+#  DATA SET UPDATED (FEB.,2001) BY CW REICH. REVISED Q-VALUE, NEW         
+#   COMMENTS WERE INCLUDED, EXISTING COMMENTS WERE REARRANGED AND         
+#  REWORDED, TYPOS AND AN INCORRECT Keyno WERE CORRECTED. A NEW LEVEL WAS 
+#  ADDED, INCORPORATING A PREVIOUSLY UNPLACED G.                          
+#  156SM HAS BEEN PRODUCED AS A PRODUCT OF n-INDUCED FISSION OF 235U, U   
+#   AND 239PU, |a-INDUCED FISSION OF 238U AND THE (D,A) REACTION ON       
+#   158GD.                                                                
+#  THE DECAY-SCHEME DATA ARE PRIMARILY THOSE OF 1966Ha26. THE             
+#   EXCITED-STATE HALF-LIVES ARE THOSE REPORTED BY 1968An09. OTHERS:      
+#   1963Gu04; 1969Gr32.                                                   
+#  EXPERIMENTAL METHODS:                                                  
+#  1966Ha26: 156SM FROM n-INDUCED FISSION OF 239PU, FOLLOWED BY CHEMICAL  
+#   SEPARATION. |g's MEASURED USING PROPORTIONAL COUNTERS, Ge AND         
+#   NaI(Tl) DETECTORS. CE AND B- MEASURED IN A 6-GAP ORANGE-TYPE          
+#   MAGNETIC SPECTROMETER. B- ALSO MEASURED IN AN ANTHRACENE CRYSTAL.     
+#   MEASURED EG,RI,GG,CE,CEG,BG AND CEB. DEDUCED CEK, MULTIPOLARITIES     
+#   FOR SEVERAL TRANSITIONS.                                              
+#  1968An09: 156SM FROM U FISSION PRODUCTS, FOLLOWED BY CHEMICAL          
+#   SEPARATION. MEASURED LEVEL HALF-LIVES USING PLASTIC AND NaI(Tl)       
+#   DETECTORS.                                                            
+#  The 0+ GS of 156EU and the nature of the 0+|)0+ B- transitions         
+#   connecting the 156EU GS with the ground states of 156SM and 156GD     
+#   have been discussed by 1965Wi08.                                      
+#  1963Gu04: 156SM from n-induced fission of natural U with chemical      
+#       separation. NaI detectors for G singles and GG and GG(THETA)      
+#       coincidences; plastic scintillators for B singles and BG          
+#       coincidences.                                                     
+#  1965CaZZ: Measured 156EU half-life.                                    
+#  1965Wi08: See 1966Ha26 for same data in more complete form.            
+#  1966Da19: Measured 156EU half-life. 156EU from 235U(N,F), 238U(A,F),   
+#       and 158GD(D,A) reactions with chemical separation. Proportional   
+#       counters.                                                         
+#  1969Gr32: 156SM from fission of U with chemical and isotopic separation
+#       G measured with Ge detectors.                                     
+#  1971Ba28: Measured 156EU half-life. 156EU from 238U(P,F) with chemical 
+#       separation. Proportional counter.                                 
+#  1972Em01: Measured 156EU half-life. 156EU from 155EU(N,G). Well-type   
+#       scintillation detector.                                           
+#  1981Ch07: From G(THETA) in B- decay of oriented 156EU nuclei, deduce   
+#       ground-state spin to be 1.                                        
+#  1981Ek03: Measured 156EU ground-state spin by atomic-beam, magnetic    
+#       resonance.                                                        
+#B           E(|b{+-}) are from 1966Ha26. Other: 1963Gu04.                
+#B           I(|b{+-}) are from |g intensity balances, with I|b{+-}(125)  
+#B set to 0; 1966Ha26 give similar values. Calculation gives 6% {I2}      
+#B feeding to the 125 level, but, for 0+ to 2-, one expects (1973Ra10)    
+#B LOGF1T |>8.5 or I|b{+-}|<0.1%.                                         
+#G           Coincidence results are shown in the drawing (1966Ha26).     
+#G E         From 1966Ha26 and based on |g and ce data. Others: 1963Gr04, 
+#G 1965Wi08 (same authors as 1966Ha26), and 1969Gr32. For more precise    
+#G values, see the {+153}Eu(3n,|g) data.                                  
+#G RI        From 1966Ha26, from evaluator's combination of results from  
+#G Ge and NaI detectors and proportional counters. Others: 1963Gu04,      
+#G 1969Gr32.                                                              
+#G RI        I(XK)=10 3 (1966HA26).                                       
+#G M         From {+156}Eu Adopted |g radiations and based on the ce data 
+#G following this decay (1966Ha26) and the {+153}Eu(3n,|g) reaction.      
+#G M         Normalization of the CE spectrum and the G-ray spectrum to   
+#G  deduce conversion coefficients for the G transitions was done using   
+#G  the theoretical value, KC=0.062, for the 165.8, E1 G. The EKC value   
+#G  for this G was measured relative to that of the 123, E2 G in 154EU    
+#G  decay, for which the theoretical value, KC=0.65, was used (1966Ha26). 
+#G M(X)      Value from the 153EU(3N,G) reaction. It is included to help  
+#G  obtain an intensity balance in the level scheme.                      
+#G CC        Computed from the more precise E|g values in the             
+#G   {+156}Eu Adopted |g radiations data set.                             
+#L E         From least-squares fit to |g energies.                       
+#L J         J|p and band assignments are from {+156}Eu Adopted Levels,   
+#L  and are similar to those proposed by 1966Ha26.                        
+#L T         From 1968An09 for excited states.                            
+#L BAND(A)   KPI=0+, g.s. band. CONF=|p5/2[413]-|n5/2[642].               
+#L BAND(B)   KPI=1- band. CONF=|p5/2[413]-|n3/2[521].                     
+#L BAND(C)   KPI=1+ bandhead. CONF=|p5/2[532]-|n3/2[521].                 
+#L  1966Ha26 assign the CONF |p7/2[523]-|n 5/2[523] to this state.        
+#L  1991Ba06, in order to account for the relatively low LOGFT value of   
+#L  the B- transition to this level, assume that this latter CONF         
+#L  is present only as an admixture.                                      
+#L BAND(D)   KPI=0- bandhead. CONF=|p5/2[532]-|n5/2[642].                 
+#P    0         0+                9.4 H    2               722      8     
++B beta- 0.232 2.0E-4
++B beta- 0.22340000000000002 0.48
++B beta- 0.136 0.005
++B beta- 0.1277 0.44
+

@@ -1,0 +1,14 @@
+# 26NE    26F B- DECAY                  1999RE16                  98NP     200906
+#  26F B- DECAY                  1999RE16                  98NP     200906
+#H TYP=FUL$AUT=M.S. BASUNIA$CUT=1-APR-2009$CIT=ENSDF$                     
+#H TYP=FUL$AUT=P.M. ENDT, J. BLACHOT, R.B. FIRESTONE, and J. ZIPKIN$      
+#H CIT=NP A633, 1 (1998)$CUT=1-Jan-2000$                                  
+#  1999Re16: 26F was produced by TA(36S,X), E(36S)=2.8 GEV; Magnetic      
+#  Spectrometer (^LISE3); nuclides were identified by ^TOF and energy     
+#  loss in Si; 6 Si and 4 HPGe and 42 3HE proportional counters;          
+#  Measured: EG, RI, BG COIN, T, B-N.                                     
+#L E$From a least square adjustment to the G-ray energy.                  
+#L J,T$From adopted levels.                                               
+#P 0            (1+)              9.7 MS   7              17.79E3   17    
+F26 NE26 beta- 17.79 0.0 1.0
+

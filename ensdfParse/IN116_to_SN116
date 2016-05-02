@@ -1,0 +1,99 @@
+#116SN    116IN B- DECAY (14.10 S)      1973OK07                  10NDS    201004
+#  116IN B- DECAY (14.10 S)      1973OK07                  10NDS    201004
+#H TYP=FUL$AUT=Jean Blachot$CIT=NDS 111, 717 (2010)$CUT=1-Dec-2009$       
+#  Measured G(semi) 1973OK07                                              
+#  J(1759)=0 from GG(THETA), J(2546)=(0)                                  
+#B E(D)$From (1954BO39) scin. Others: 1936GA01, 1940LA07                  
+#G M$From adopted levels, gammas                                          
+#L $98.7% branching to GS (1962FE10)                                      
+#P 0.0            1+               14.10 S    3           3278      4     
+IN116 SN116 beta- 3.278 0.0 0.99977
++B beta-8.525000000000001E-4 0.00117
++B beta-0.137 0.04
++B beta-0.077 0.04
++G gamma 0.4633 0.0025480000000000004
++B beta-0.056 0.04
++G gamma 0.8187000000000001 1.43E-4
++G gamma 2.1123000000000003 2.08E-4
++B beta-0.041 0.04
++G gamma 0.9321 1.3E-4
++G gamma 2.2255 5.59E-5
++B beta-0.036 0.04
++G gamma 1.2526 3.12E-4
++B beta-0.023 0.03
++G gamma 1.3564 1.04E-4
++G gamma 2.6498000000000004 1.1699999999999998E-5
++B beta-0.019 0.03
++G gamma 1.4970999999999999 1.56E-4
+
+#116SN    116IN B- DECAY (54.29 M)      2006KR04                  10NDS    201004
+#  116IN B- DECAY (54.29 M)      2006KR04                  10NDS    201004
+#H TYP=FUL$AUT=Jean Blachot$CIT=NDS 111, 717 (2010)$CUT=1-Dec-2009$       
+#  2006KR04: Measured E|g, I|g using a high purity Ge detector, Decay     
+#  scheme based on earlier works                                          
+#  1970RA41, 1974AR13: Measured G(semi), BETA, GG, GG(THETA), CE(s)       
+#  Others: 1974HEYW, 1975YA08, 1995WU09, 1950SL87, 1965VE05, 1967FE03,    
+#  1972PL03, 1960ST13, 1974CH59, 1975CA10, 1974CH59, 1956SC19, 1962CR03,  
+#  1974GA05, 1975YA08                                                     
+#  (EKC=CEK(1972PL03)/IG(1970RA41), normalized to KC=(1293G,E2)=0.00065)  
+#G M$Based on GG(THETA) and EKC measurements                              
+#G E$From 2006KR04, except where noted otherwise, and for the unplaced    
+#G G's and for 1507G which are reported only by 1974AR13                  
+#G RI$From 2006KR04                                                       
+#G E(A)$Not confirmed by 2006KR04                                         
+#P 127.267   6 5+                54.29 M   17             3278      4     
++G gamma 0.1165 5.0032E-4
++G gamma 0.1626 7.038400000000001E-4
++G gamma 0.1965 5.0032E-4
++G gamma 0.2724 7.971199999999999E-4
++G gamma 0.3452 2.968E-4
++G gamma 0.4585 7.038400000000001E-4
++G gamma 0.4749 1.696E-4
++G gamma 0.5001 2.968E-4
++G gamma 0.6391 2.968E-4
++G gamma 0.736 2.968E-5
++G gamma 1.2541 3.9855999999999995E-4
++G gamma 1.29356 0.848
++G gamma 0.46320999999999996 0.007250400000000001
++G gamma 0.3554 0.00730128
++G gamma 0.81868 0.121264
++G gamma 2.11229 0.150944
++G gamma 0.93183 8.988799999999999E-4
++G gamma 2.22539 4.664E-4
++G gamma 0.9726 0.0049608
++G gamma 2.26569 3.0528E-5
++G gamma 0.09973 2.3744E-4
++G gamma 1.0725 1.6111999999999998E-4
++B beta-0.014 0.03
++G gamma 0.12465000000000001 1.0175999999999999E-4
++G gamma 0.16572 1.3568E-4
++G gamma 0.27862 0.00129744
++G gamma 1.09728 0.58512
++B beta- 0.29560000000000003 0.325
++G gamma 0.13829 0.0369728
++G gamma 0.16340000000000002 1.5263999999999998E-4
++G gamma 0.26303 0.0012550399999999998
++G gamma 0.30373 0.00120416
++G gamma 0.4169 0.272208
++G gamma 1.23549 5.0879999999999994E-5
++G gamma 1.35636 7.886399999999998E-5
++B beta- 0.1904 0.10300000000000001
++G gamma 0.27196 3.816E-4
++G gamma 0.41023000000000004 6.0208E-4
++G gamma 0.43518 2.2896E-4
++G gamma 0.53503 3.392E-4
++G gamma 0.6889299999999999 0.00166208
++G gamma 1.50759 0.099216
++B beta- 0.1041 0.0282
++G gamma 0.24498 3.3071999999999995E-4
++G gamma 0.6551699999999999 0.0012296
++G gamma 0.6798500000000001 2.0351999999999998E-4
++G gamma 0.77912 0.00246768
++G gamma 1.7525 0.0235744
++B beta- 0.0875 0.0024
++G gamma 0.56755 5.4272E-4
++G gamma 0.70597 0.00160272
++G gamma 0.7307 6.784E-4
++G gamma 0.83068 2.8832E-4
++G gamma 1.80343 8.904E-5
+

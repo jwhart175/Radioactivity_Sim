@@ -1,0 +1,78 @@
+# 95RU    95RH EC DECAY (5.02 M)        1981GR20,1979ZY03,1975WE0310NDS    201010
+#  95RH EC DECAY (5.02 M)        1981GR20,1979ZY03,1975WE0310NDS    201010
+#H TYP=FUL$AUT=S. K. Basu, G. Mukherjee, A. A. Sonzogni$                  
+#H CIT=NDS 111, 2555 (2010)$CUT=30-Jun-2009$                              
+#  1975We03: Measured |g's, |b{++}'s, |g|g-coin, |b|g-coin, |g(t);        
+#  Ge(Li), scin.                                                          
+#  1981Gr20,1979Zy03: see 1.96-min {+95}Rh |e decay for experimental      
+#  details                                                                
+#E $See 1981Gr20 for the deduced |b-strength function                     
+#E TI$From gamma intensity balance at each level.                         
+#G E,RI$From 1975We03, except as noted                                    
+#G M,MR$From the adopted gammas                                           
+#G E(A)$Assigned to 1926 state by 1981Gr20                                
+#G E(B),RI(D)$From 1981Gr20. It is unclear to the evaluator whether the   
+#G upper limit on I|g was estimated from the |g spectra or based on       
+#G theoretical grounds for the |b-strength function calculation           
+#G E(E)$Assigned to 2156 state by 1981Gr20                                
+#G E(F)$Tentatively assigned to a 3356 state by 1975We03                  
+#G E(G)$Not assigned by 1981Gr20                                          
+#G E(H),RI(I)$From 1979Zy03. Not reported by 1975We03                     
+#G E(J)$Assigned only to the 2691 state by 1981Gr20                       
+#G E(K)$Assigned to a 3473 state by 1981Gr20                              
+#L $The decay scheme is based on coincidence data (1975We03). States      
+#L proposed by 1981Gr20 were tentatively adopted by the evaluator if      
+#L they are connected by at least two |g's and not in contradiction to    
+#L the coincidence measurements of 1975We03.                              
+#L J,T$From the adopted levels                                            
+#  CC$ FROM BrIcc v2.2a (13-Jul-2008) 2008Ki07, "Frozen Orbitals" appr.   
+#P 0.0          9/2+              5.02 M    10             5112     12    
++B beta+ 8.39E-4 0.0013
++B beta+ 1.4272 0.07
++B beta+ 1.2347000000000001 0.07
++B beta+ 1.1681 0.06
++B beta+ 1.1544 0.06
++B beta+ 0.9685 0.0021
++B beta+ 0.8804 0.0026
++B beta+ 0.8627 0.0028000000000000004
++B beta+ 0.8211 0.0031
++B beta+ 0.8156 0.0031
++B beta+ 0.8114 0.0031
++B beta+ 0.7373 0.0037
++B beta+ 0.6202000000000001 0.0049
++B beta+ 0.6181 0.0049
++B beta+ 0.5258999999999999 0.006
++B beta+ 0.45480000000000004 0.0068000000000000005
++B beta+ 0.4108 0.0072
++B beta+ 0.24230000000000002 0.0084
++B beta+ 0.1972 0.0085
++B beta+ 0.1839 0.0085
++B beta+ 0.1638 0.0086
++B beta+ 0.15930000000000002 0.0086
++B beta+ 0.1441 0.0086
++B beta+ 8.658E-4 0.0010858
++B beta+ 8.657000000000001E-4 0.0010861
+
+# 95RU    95RH EC DECAY (1.96 M)        1981GR20,1979ZY03,1975WE0310NDS    201010
+#  95RH EC DECAY (1.96 M)        1981GR20,1979ZY03,1975WE0310NDS    201010
+#H TYP=FUL$AUT=S. K. Basu, G. Mukherjee, A. A. Sonzogni$                  
+#H CIT=NDS 111, 2555 (2010)$CUT=30-Jun-2009$                              
+#  1975We03: Measured |g's, |b{++}'s, |g|g-coin, |b|g-coin, |g(t);        
+#  Ge(Li), scin.                                                          
+#  1981Gr20 and 1979Zy03 measured |g's; Ge(Li)                            
+#E $See 1981Gr20 for the deduced |b-strength functions                    
+#G E,RI$From 1975We03, except as noted. I|g relative to I|g({+95}Rh       
+#G 543|g)=100                                                             
+#G RI(A)$%I|g(783|g)=3.8 and %I|g(2821|g)=3.4 (1981Gr20) are discrepant   
+#G with %I|g(787|g)=8.1 {I35} and %I|g(2821|g)=0.8 {I4} derived from the  
+#G present normalization and the I|g's of 1975We03                        
+#G E(B)$2821|g, 3757|g, 4208|g, 4242|g, and 4336|g placed as deexciting   
+#G 3604, 4540, 4990, 5025, and 5119 states, respectively, by 1981Gr20     
+#G E(D),RI(E)$From 1979Zy03. Not reported by 1975We03.                    
+#L J,T$From the adopted levels                                            
+#P 543.3     3  (1/2)-            1.96 M    4              5112     12    
++B beta+ 8.649E-4 0.0010928
++B beta+ 1.7577 0.08
++B beta+ 0.6417 0.004699999999999999
++B beta+ 0.543 0.0058
+

@@ -1,0 +1,41 @@
+# 26MG    26AL EC DECAY (7.17E+5 Y)     1972SA02                  98NP     200004
+#  26AL EC DECAY (7.17E+5 Y)     1972SA02                  98NP     200004
+#H TYP=FUL$AUT=P. M. ENDT, J.BLACHOT, R.B. FIRESTONE, and J.ZIPKIN$       
+#H CIT=NP A633, 1 (1998)$CUT=1-Jan-2000$                                  
+#  Evaluated by Shiu-Chin Wu and E. Browne (March 1997).                  
+#  This decay-data evaluation was done under the                          
+#  collaboration which includes evaluators at Laboratoire Primaire des    
+#  Rayonnments Ionisants (LPRI) in France; Physikalisch-Technische        
+#  Bundesanstalt (PTB) in Germany; Imperial College in the United         
+#  Kingdom; and Brookhaven National Laboratory (BNL), Lawrence Berkeley   
+#  National Laboratory (LBNL) and Idaho National Engineering Laboratory   
+#  (INEL) in the United States. This evaluation was reviewed and          
+#  accepted by each evaluator in this collaboration.                      
+#  Evaluators applied the limitation of relative statistical weight (lwm) 
+#  method (1988WoZZ) for averaging numbers throughout this evaluation.    
+#  To avoid overestimating precision because of possible data             
+#  correlation, the uncertainty assigned to the average was always equal  
+#  or greater than the smallest uncertainty of the values used to         
+#  calculate the average.                                                 
+#  T{-1/2}=7.17E5 y 24 is a weighted average (c**2/n-1=0.64) of           
+#  7.16E5 y 32 (1972Sa02), 7.05E5 y 24 (1983NoZZ), 7.02E5 y 56 (1983MiZZ) 
+#  and 7.80E5 y 50 (1983Th04). The uncertainty of 0.24E5 y is the minimum 
+#  uncertainty of the experimental input values.                          
+#L E         Deduced by evaluator from a least-squared fit to |g-ray      
+#L energies.                                                              
+#G E,RI      From 1972Sa02                                                
+#E           From I(|g+ce) intensity balance at each level.               
+#P 0.0         5+                7.17E+5 Y 24             4004.14   6     
++B beta+ 0.5432899999999999 0.8173
++G gamma 1.80865 0.9976
++G gamma 1.1296700000000002 0.025
++G gamma 2.938 0.0024
+
+# 26MG    26AL EC DECAY (6.3452 S)      1990EN08                  98NP     200004
+#  26AL EC DECAY (6.3452 S)      1990EN08                  98NP     200004
+#H TYP=FUL$AUT=P. M. ENDT, J.BLACHOT, R.B. FIRESTONE, and J.ZIPKIN$       
+#H CIT=NP A633, 1 (1998)$CUT=1-Jan-2000$                                  
+#P 228.305   13 0+               6.3452 S  19             4004.14   6     
+AL26 MG26 beta+ 4.00414 6.3452 1.0
++B beta+ 9.146E-4 8.0E-4
+

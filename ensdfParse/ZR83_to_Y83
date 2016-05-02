@@ -1,0 +1,55 @@
+# 83Y     83ZR EC DECAY                 1992BU10,1987RA06         15NDS    201503
+#  83ZR EC DECAY                 1992BU10,1987RA06         15NDS    201503
+#H TYP=FUL$AUT=E.A. MCCUTCHAN$CIT=NDS 125, 201 (2015)$CUT=31-Dec-2014$    
+#  1992Bu10, 1987Ra06: {+83}Zr activity produced in the                   
+#  {+nat}Mo({+3}He,X) reaction with E({+3}He)=280 MeV followed by mass    
+#  separation. Measured E|g, I|g, |g|g, |g|g(t), |b|g coin,               
+#  1982De36: {+83}Zr activity produced in the {+54}Fe({+32}S,2pn)         
+#  reaction with E({+32}S)=100-160 MeV followed by separation in a |b     
+#  recoil time of flight mass spectrometer. Measured E|b, I|b, E|g, I|g,  
+#  x-rays, |b|g, |g|g, |g-x-ray coincidences, |g(t) using a Ge(Li)        
+#  detector, a thick plastic scintillator, and an x-ray detector.         
+#  Others: 1982Li17, 1981SaZO                                             
+#  A total energy release of 6300 keV {I300} is calculated for this       
+#  decay scheme using the RADLST code, in good agreement with the Q       
+#  value of 6294 keV {I20}.                                               
+#E TI$Derived from an intensity imbalance at each level.                  
+#G E,RI$From 1992Bu10, except where noted.                                
+#G E(d)$From 1982De36.                                                    
+#G RI(D)$I|g deduced from |g|g coincidence data.                          
+#G E(n),RI(m)$From 1987Ra06. Authors do not provide uncertainties.        
+#G However, since 1992Bu10 are from the same set up and similar authors,  
+#G the evaluator assumes the uncertainties are comparable and takes       
+#G |DE|g=0.3 keV and |DI|g=10%.                                           
+#L $1992Bu10 and 1987Ra06 report a level at 483.9 keV deexcited by a      
+#L 324.6-keV |g ray to the 97.1 level, obviously a mistake. |g|g-coin     
+#L data in 1987Ra06 show the 324.6 and 97.1 |g rays to be in              
+#L coincidence. Therefore, the 324.6 |g ray deexcites the 422.0 level.    
+#L E$From a least-squares fit to E|g, by evaluator.                       
+#L J$From the Adopted Levels.                                             
+#L T$From the Adopted Levels, except where noted.                         
+#  CC$FROM BrIcc v2.3 (29-Mar-2013) 2008Ki07, "Frozen Orbitals" appr.     
+#P 0.0          (1/2-)            42 S      2              6294     20    
++B beta+ 1.2987 0.05
++B beta+ 2.4148 0.07
++B beta+ 2.3959 0.06
++B beta+ 2.3879 0.07
++B beta+ 2.3747 0.07
++B beta+ 2.364 0.07
++B beta+ 2.2841 0.06
++B beta+ 2.2407 0.07
++B beta+ 2.2335 0.07
++B beta+ 2.1854 0.07
++B beta+ 2.1717 0.07
++B beta+ 2.1713 0.07
++B beta+ 2.1705 0.05
++B beta+ 2.1342 0.07
++B beta+ 2.0957 0.07
++B beta+ 2.0315 0.07
++B beta+ 2.0185999999999997 0.07
++B beta+ 1.8422 0.06
++B beta+ 1.5054 0.05
++B beta+ 1.4452 0.05
++B beta+ 1.4198 0.05
++B beta+ 1.3615 0.05
+

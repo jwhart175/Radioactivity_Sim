@@ -1,0 +1,45 @@
+#187TL    191BI A DECAY (12.4 S)        1985CO06,1974LE02,1972GA2709NDS    200905
+#  191BI A DECAY (12.4 S)        1985CO06,1974LE02,1972GA2709NDS    200905
+#H TYP=FUL$AUT=M. S. Basunia$CIT=NDS 110, 999 (2009)$CUT=1-Nov-2008$      
+#  Others: 2003Ke04, 1998Kr23, 1967Tr06, 1966SiZZ, 2000Sc46 (studied ALPHA
+#  decay anisotropy).                                                     
+#  ALPHA activity assigned to 191BI on the basis of measured excitation   
+#  functions for 159TB(40AR,8N) (1972Ga27,1974Le02); 181TA(20NE,10N),     
+#  203TL(3HE,15N) (1974Le02); 109AG(84KR,2N) (1972Ga27). |a               
+#  activity assigned to 191BI on the basis of the known low-lying level   
+#  structure of the odd-mass TL isotopes (1985Co06).                      
+#  1998Kr23: 191BI sources from mass separated products from 1 GEV proton 
+#  bombardment of ThC{-2} targets; oriented by implantation at low        
+#  temperature into magnetized Fe foil; measured |a spectra at 14 DEG,    
+#  51 DEG, 90 DEG (using Si ^PIN diodes, FWHM 20 or 32 KEV at 6 MEV)      
+#  for ^T=1.4 ^K and ^T<100 mK; measured G spectra at 0 DEG, 90 DEG,      
+#  180 DEG to orientation axis; determined anisotropies for 6638A and     
+#  6310A; deduced directional distribution coefficients and L=2 and L=4   
+#  mixing ratios for 9/2 to 9/2 |a transition.                            
+#A IA        From 1985Co06, renormalized so |S(IA)=100.                   
+#A HF        From R0=1.49 3, average of R0(186HG)=1.462 25 and R0(188PB)= 
+#A 1.511 8 (1998Ak04), %A(191BI)=51 10 and ^T{-1/2}(191BI)=12.4 S 3       
+#L T,J       From adopted levels.                                         
+#P 0.0         (9/2-)            12.4 S    3              6778      3     
+BI191 TL187 alpha 6.778 12.4 0.51
++A alpha 6.639 0.028999999999999998
++A alpha 6.309 0.971
+
+#187TL    191BI A DECAY (125 MS)        2003KE04,1985CO06,1981LE2309NDS    200905
+#  191BI A DECAY (125 MS)        2003KE04,1985CO06,1981LE2309NDS    200905
+#H TYP=FUL$AUT=M. S. Basunia$CIT=NDS 110, 999 (2009)$CUT=1-Nov-2008$      
+#  Parent energy from energy difference for EA to 187TL(1/2+) from 191BI  
+#  GS and 191BI isomer.                                                   
+#  Others: 1974Le02, 1972Ga27, 1966SiZZ.                                  
+#  ALPHA activity assigned to 191BI on the basis of measured threshold    
+#  energies and yields for 141PR(56FE,A2N) and for 56FE on natural CE     
+#  (1981Le23).                                                            
+#A HF        From R0=1.49 3, average of R0(186HG)=1.462 25 and R0(188PB)= 
+#A 1.511 8 (1998Ak04), %A(191BI)=68 5 (1985Co06), ^T{-1/2}(191BI)=125 MS  
+#A (1981Le23), and E(191BI)=241 7 (from energy difference for |a's        
+#A feeding 187TL(1/2+) from 191BI(GS) and 191BI(125 MS isomer).           
+#L J,T       From adopted levels.                                         
+#P 241       4 (1/2+)            125 MS    13             6778      3     
+BI191 TL187 alpha 6.778 0.125 0.68
++A alpha 6.871 1.0
+

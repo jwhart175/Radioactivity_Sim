@@ -1,0 +1,14 @@
+#146TB    146DY EC DECAY                1987ZU02                  97NDS    199712
+#  146DY EC DECAY                1987ZU02                  97NDS    199712
+#H TYP=FUL$AUT=L. K. PEKER AND J. K. TULI$CIT=NDS 82, 187 (1997)$         
+#H CUT=30-SEP-1997$                                                       
+#  Measured: G, GG, XK, XKG, CE (1987Zu02), GAMMA (1981Al23,1982No08),    
+#  XKA1, XKB2 (1981Al23)                                                  
+#G RI        Authors present only values of I(G+CE) (1987Zu02)            
+#G M         From measured EKC (not given) (1987Zu02)                     
+#G TI        SUMOF TI listed in (1987Zu02) is 97% of total observed TI    
+#L E$From least-squares fit to EG                                         
+#P 0.0         0+                29 S      3              5.16E+3   10    
+DY146 TB146 beta+ 5.16 29.0 1.0
++B beta+ 5.16 0.0
+

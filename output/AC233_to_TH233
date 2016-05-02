@@ -1,0 +1,15 @@
+#233TH    233AC B- DECAY (145 S)        1986GI08                  05NDS    200507
+#  233AC B- DECAY (145 S)        1986GI08                  05NDS    200507
+#H TYP=FUL$AUT=BALRAJ SINGH, JAGDISH K. TULI$CIT=NDS 105, 109 (2005)$     
+#H CUT=30-Apr-2005$                                                       
+#  The decay scheme given is as constructed by 1986Gi08.                  
+#  No |b branch to the 3/2-,1/2[501] state at 586 keV in {+233}Th was     
+#  observed and an upper limit of 0.5% was set by 1986Gi08.               
+#G E,RI$ From measurements of 1986Gi08.                                   
+#G M$ From 'adopted gammas'.                                              
+#L J$ From 'adopted levels'.                                              
+#P 0.0         (1/2+)             145 S    10             2770      SY    
+AC233 TH233 beta- 2.77 0.0 0.94
++G gamma 0.5227999999999999 0.6
++G gamma 0.5396 0.4
+

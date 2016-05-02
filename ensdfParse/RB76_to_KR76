@@ -1,0 +1,34 @@
+# 76KR    76RB EC DECAY (36.5 S)        1984MO22,1985PI08         95NDS    199503
+#  76RB EC DECAY (36.5 S)        1984MO22,1985PI08         95NDS    199503
+#H TYP=FUL$AUT=BALRAJ SINGH$CIT=NDS 74,63 (1995)$CUT=22-Dec-1994$         
+#  1984Mo22 (also 1982Mo10): measured G, GG, B+G, mass-separated          
+#  source                                                                 
+#  1985Pi08: measured G, GG                                               
+#  Others:                                                                
+#  G,GG: 1975Bo52, 1975We23                                               
+#  GG(THETA): 1978LiZU                                                    
+#  Q(EC): 1993Al03 (by total GAMMA absorption), 1983Li11 (B+G),           
+#  1982Mo10 (B+)                                                          
+#  76RB production and T1/2(76RB): 1993Al03, 1979No07, 1979Lu07,          
+#  1979De43, 1975Ra03, 1975Bo52, 1974DeXQ, 1972Ve02, 1969Ch18             
+#  B+G: 1983Li11, 1976DaYR, 1975We23                                      
+#G           The following G's with energy (intensity) reported only by   
+#G 1975We23 are discarded since these are not confirmed in any            
+#G of the later studies: 64 (2.3), 244 (2.3), 254 (2.0), 869 (2.2),       
+#G 937 (2.5)                                                              
+#G E,RI$Weighted average of values from 1984Mo22 and 1985Pi08. The two    
+#G sets of data are in good agreement with each other                     
+#L E$From least-squares fit to EG's                                       
+#G E(A)$Reported by 1984Mo22 only                                         
+#G E(B)$From 1985Pi08 only                                                
+#G           Q(EC)=8250 150 (1993Al03), 8094 162 (1983Li11),              
+#G 8063 44 (1982Mo10). The adopted Q(EC)=8500 13 (1993Au05). See 1993Au08 
+#G (page 261) for discussion of this discrepancy                          
+#N 0.461     25  1.0       1.0      1.0                                   
+#N NR$SUMOF (TI of G's to GS)=100, assumed no feeding to g.s. The         
+#N feeding to GS is expected to be small from LOGFT GT 6 for 0+           
+#N (76KR GS) to 1- (76BR GS) and LOGFT GT 8.9 for 1- (76BR GS)            
+#N to 0+ (76SE GS)                                                        
+#N                                                                     3  
+#P   0.0        1(-)               36.5 S  6               8500     13    
+

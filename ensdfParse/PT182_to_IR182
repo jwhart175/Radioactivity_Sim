@@ -1,0 +1,139 @@
+#182IR    182PT EC DECAY (2.67 M)       2007HO20,1995SA42         ENSDF    201507
+#  182PT EC DECAY (2.67 M)       2007HO20,1995SA42         ENSDF    201507
+#H TYP=FUL$AUT=BALRAJ SINGH$CIT=ENSDF$CUT=15-JUL-2015$                    
+#H TYP=FUL$AUT=BALRAJ SINGH AND JOEL C. ROEDIGER$CIT=NDS 111, 2081 (2010)$
+#H CUT=15-Jul-2010$                                                       
+#  2007Ho20: Measured E|g, I|g, ce, |g(ce) using a Si(Li) detector and an 
+#  HPGe detector. The ce data were measured using a magnetic spectrometer 
+#  and a Si(Li) detector. The source of {+182}Pt obtained from            
+#  successive decay of mass-separated {+182}Hg isotope formed in          
+#  Pb(p,X), 1 GeV protons, CERN-PS booster facility. 2000Ro41 from        
+#  the same group report multipolarity assignments for 21 transitions     
+#  from 17.8 to 123.4 keV, consistent with those in 2007Ho20              
+#  1995Sa42: Measured E|g, I|g, |g|g, |g|g(t) using a planar HPGe,        
+#  x-ray detector and two coaxial HPGe detectors                          
+#  1999Sa40: Conversion electron measurements for four transitions        
+#  2007Ho20, 1995Sa42 and 1999Sa40 are from the same group.               
+#  Others:                                                                
+#  1975Ho03: measured |b strength function; population of levels          
+#  indicated from 800 keV to |?3 MeV                                      
+#  1970FiZZ: measured E|g, I|g for four |g rays at 136.0, 146.0,          
+#  186.0 and 210.0. All are reported by 1995Sa42, except that 210|g       
+#  is very weak in 1995Sa42                                               
+#  All data are from 2007Ho20, unless indicated otherwise                 
+#E TI$ Deduced by the evaluators from I|g+ce intensity balance. The       
+#E 2007Ho20 list |e+|b{++} feedings and associated log| {Ift} values only 
+#E some of the levels. Comparison of the two sets shows small deviations, 
+#E but the agreement is within the quoted uncertainties                   
+#E TI(Y)$ Too high to be realistic for |DJ involved in |b decay           
+#G $ All |g rays assigned in the level scheme were seen in |g|g coin      
+#G data of 1995Sa42.                                                      
+#G $ When |d is given as approximate, 50% arbitrary uncertainty in this   
+#G value is assumed by the evaluators in deducing total conversion        
+#G coefficient                                                            
+#G E$|D(E|g) assigned as 0.2 keV for I|g>5 and E|g>500; and 0.3 keV       
+#G or 1 keV for others, based on a general statement by 1995Sa42.         
+#G 1995Sa42 state that weak |g rays (I|g<0.5) that were observed          
+#G only in coin with Ir x rays were not listed in their paper, but        
+#G several weak (I|g<0.5) |g rays are given by 2007Ho20.                  
+#G RI,TI$ Intensities quoted by 2007Ho20 are divided by a factor of 10.   
+#G M$From ce data. Unless otherwise noted, the K conversion coefficients  
+#G above 185 keV are from |g and Si(Li) ce singles spectra.               
+#G The conversion coefficients below 185 keV are from |g and singles ce   
+#G spectra with a spectrograph. The subshell ratios are from |g and       
+#G spectrograph ce singles spectra. The |g ray and ce intensities were    
+#G normalized to well-known stretched E2 transitions in {+182}Ir.         
+#G M(a)$ Subshell ratios are from singles electron spectra.               
+#G M(e)$ The conversion coefficients are based on (ce)|g and |g|g         
+#G coincidence spectra.                                                   
+#G E(X),RI(X)$386.5, 387 and 388.1 are unresolved, divided intensity given
+#G MR$ Deduced by the evaluators from ce data of 2007Ho20. For many       
+#G transitions 2007Ho20 give pure M1 multipolarity, the evaluators deduce 
+#G upper limits of mixing ratios in such cases.                           
+#G CC$Theoretical values FROM BrIcc v2.3b (16-Dec-2014) 2008Ki07,         
+#G "Frozen Orbitals" approximation. IF NO VALUE of |d(E2/M1) GIVEN IT WAS 
+#G as 1.00.                                                               
+#L E$ From least-squares fit to E|g data.                                 
+#L J$ From Adopted Levels                                                 
+#L BAND(A)$ K|p=1+, |p1/2[541]+|n1/2[521].                                
+#L Mainly K=1, but mixed with K=0 partner of p1/2[541]-|n1/2[521] and K=1 
+#L and K=2 members of configuration=|p3/2[532]~#|n1/2[521]                
+#L BAND(B)$ K|p=0+, |p1/2[541]-|n1/2[521].                                
+#L Mainly K=0, but mixed with K=1 partner of p1/2[541]-|n1/2[521] and K=1 
+#L and K=2 members of configuration=|p3/2[532]~#|n1/2[521]                
+#L BAND(C)$ K|p=4+, |p1/2[541]+|n7/2[514].                                
+#L Mainly K=4, but mixed with K=3 partner of p1/2[541]-|n7/2[514] and     
+#L weak admixture of configuration=|p3/2[532]~#|n7/2[514]                 
+#L BAND(D)$ K|p=3+, |p1/2[541]-|n7/2[514].                                
+#L Mainly K=3, but mixed with K=3 partner of p1/2[541]-|n7/2[514] and     
+#L weak admixture of configuration=|p3/2[532]~#|n7/2[514]                 
+#P  0           0+                 2.67 M  12             2883      25    
++G gamma 0.3045 5.904E-4
++G gamma 0.3485 7.708E-4
++G gamma 0.3865 4.92E-4
++G gamma 0.39130000000000004 0.0010988
++G gamma 0.4132 9.511999999999999E-4
++G gamma 0.4175 7.38E-4
++G gamma 0.4238 4.428000000000001E-4
++G gamma 0.4259 9.511999999999999E-4
++G gamma 0.45080000000000003 4.2640000000000006E-4
++G gamma 0.4522 7.216E-4
++G gamma 0.5202 0.001394
++G gamma 0.575 0.001148
++G gamma 0.5837 9.84E-4
++G gamma 0.09509999999999999 9.511999999999999E-4
++G gamma 0.0649 0.001148
++B beta+ 7.95E-4 0.00155
++B beta+ 0.767 0.00755
++G gamma 0.1196 0.0010332000000000002
++B beta+ 0.758 0.00757
++B beta+ 0.756 0.00758
++B beta+ 0.751 0.00759
++G gamma 0.0441 0.0013284000000000002
++G gamma 0.1723 0.0011152
++B beta+ 0.731 0.007633
++G gamma 0.11009999999999999 0.0013284000000000002
++G gamma 0.1688 0.001066
++G gamma 0.24680000000000002 0.0010824
++G gamma 0.2667 0.001312
++B beta+ 0.719 0.00766
++B beta+ 0.691 0.007715
++G gamma 0.2298 7.544000000000001E-4
++G gamma 0.37410000000000004 0.0010004
++G gamma 0.3821 4.92E-4
++B beta+ 0.678 0.0077410000000000005
++G gamma 0.11090000000000001 4.1E-4
++B beta+ 0.644 0.007801
++G gamma 0.157 3.608E-4
++G gamma 0.6151 8.364000000000001E-4
++B beta+ 0.642 0.0078049999999999994
++G gamma 0.18480000000000002 0.001066
++G gamma 0.3533 6.56E-4
++G gamma 0.5492999999999999 8.2E-4
++B beta+ 0.564 0.00792
++G gamma 0.4683 0.001066
++G gamma 0.5232 0.0015088000000000002
++B beta+ 0.552 0.007934
++G gamma 0.5936 0.001558
++B beta+ 0.469 0.008017
++G gamma 0.5272 0.0012464
++G gamma 0.7135 6.232E-4
++B beta+ 0.446 0.008033
++G gamma 0.577 0.0014596000000000001
++B beta+ 0.438 0.008038
++G gamma 0.3398 0.0012464
++G gamma 0.387 0.001148
++G gamma 0.6202000000000001 0.0012792
++G gamma 0.7186 0.0010988
++G gamma 0.7427 7.216E-4
++G gamma 0.808 7.544000000000001E-4
++G gamma 0.8122 0.0010988
++B beta+ 0.403 0.008058
++G gamma 0.2419 8.692000000000001E-4
++G gamma 0.6427 0.0013612
++G gamma 0.8342999999999999 0.0012792
++B beta+ 0.393 0.008062
++G gamma 0.9246 0.0010824
++B beta+ 0.345 0.008079
++G gamma 1.2811 9.84E-4
+

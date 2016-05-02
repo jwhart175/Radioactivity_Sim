@@ -1,0 +1,23 @@
+#179IR    179PT EC DECAY                1993ME13,2000RO41         09NDS    200902
+#  179PT EC DECAY                1993ME13,2000RO41         09NDS    200902
+#H TYP=FUL$AUT=Coral M. BAGLIN$CIT=NDS 110, 265 (2009)$CUT=15-Nov-2008$   
+#  2000RO41: MEASURED E(ce), I(ce) using HIGH-RESOLUTION MAGNETIC         
+#  SPECTROGRAPH.  SOURCE: DESCENDANT OF 183HG SOURCE.                     
+#  1993ME13: measured EG, IG, GG coin, K| x ray-|g coin, G(t).            
+#E           Since Q(|e) is large (=5814), and decay is only              
+#E observed to populate levels with E LE 502 keV, the decay scheme is     
+#E probably incomplete, and the deduced EC+B+ feeding and LOGFT values    
+#E may be unreliable. Also, significant IG remains unplaced.              
+#E LOGFT     THESE VALUES PROBABLY DO NOT CONSTITUTE A RELIABLE           
+#E ARGUMENT FOR LEVEL JPI BECAUSE THE THREE UNPLACED TRANSITIONS          
+#E HAVE SIGNIFICANT INTENSITY.  NOTE THAT LOGFT=5.0 AND 5.4, RESPECTIVELY,
+#E TO THE 193 AND 272 LEVELS WHICH HAVE OPPOSITE PARITY; THIS             
+#E INCONSISTENCY COULD BE REMOVED, HOWEVER, IF THE 1565.4G FED THE        
+#E 272 LEVEL.  PLACEMENT OF THE 203.3G AND 915.3G MAY SIGNIFICANTLY       
+#E CHANGE LOGFT VALUES TO OTHER LEVELS, ALSO.                             
+#G E,RI      FROM 1993ME13.                                               
+#L J         FROM Adopted Levels.                                         
+#L BAND(Z)   POSSIBLE 1/2[541] BAND MEMBER.                               
+#P 0.0          1/2-             21.2 S    4              5814      14    
+PT179 IR179 beta+ 5.814 21.2 0.165
+

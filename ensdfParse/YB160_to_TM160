@@ -1,0 +1,28 @@
+#160TM    160YB EC DECAY (4.8 M)        1978AD03                  05NDS    200509
+#  160YB EC DECAY (4.8 M)        1978AD03                  05NDS    200509
+#H TYP=FUL$AUT=C. W. Reich$CIT=NDS 105, 557 (2005)$CUT=1-Jun-2005$        
+#  DATA SET UPDATED (OCTOBER, 2004) BY CW REICH TO INCLUDE NEW QP VALUE,  
+#   RECALCULATED LOGFT VALUES, JPI VALUE, AND RELATED COMMENTS.           
+#  Source produced in 660-MEV proton spallation of TA and Hf targets      
+#  followed by mass separation. Measured EG, IG, ECE, ICE, prompt         
+#  and delayed GG, GCE. Plastic, GE(LI) detectors, magnetic lens B        
+#  spectrometer.                                                          
+#G M         From relative RI and ICE values, normalized so that          
+#G L1C+L2C=8.8 for the 42 GAMMA. Mult(42G) is based on the CC deduced     
+#G from an intensity balance at the 42 level and is confirmed by the      
+#G L1:L2:L3 ratio.                                                        
+#G E(A)      Assignment to 160YB decay uncertain.                         
+#G RI        I(XKA1)=129 9, relative to RI(173.7G)=100                    
+#L J         From adopted values                                          
+#P 0.0          0+               4.8 M      2             2130      40    
+YB160 TM160 beta+ 2.13 288.0 1.0
++B beta+ 1.464 0.0038
++B beta+ 0.508 0.008
++B beta+ 0.465 0.00808
++B beta+ 0.432 0.00812
++G gamma 0.17374 0.42
++B beta+ 0.413 0.00814
++B beta+ 0.291 0.008239999999999999
++B beta+ 0.268 0.008239999999999999
++B beta+ 0.242 0.00825
+

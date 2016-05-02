@@ -1,0 +1,21 @@
+#115PD    115RH B- DECAY                2010KU19,1988AY01         12NDS    201210
+#  115RH B- DECAY                2010KU19,1988AY01         12NDS    201210
+#H TYP=FUL$AUT=JEAN BLACHOT$CIT=NDS 113, 2391 (2012)$CUT=1-Sep-2012$      
+#  1988AY01: Activity: 238U(P,F) EP=20 MEV, mass separator IGISOL         
+#  Measured: G, GG, BCE, T1/2, GE(LI), SI(LI)                             
+#  The GS BETA branching was measured to be weak. The JPI of the levels   
+#  0 and 89 is (5/2+) and (11/2-) from adopted levels. 1988Ay01 suggest   
+#  (1/2,3/2) for the J of g.s.                                            
+#  The experimental data don't allow to derive valuable |b branchings.    
+#  {+115}Rh isotope obtained as daughter of {+115}Ru |b{+-} decay.        
+#  Measured E|g, I|g, |g|g at the Penning trap                            
+#  station at the IGISOL facility in Jyvaskyla                            
+#  EG=48.8 (1972ChYZ) via 252CF(SF) (fragment)(fragment)                  
+#  (XK)G-coin, not seen in 115RH B- decay                                 
+#  The level is as given by 2010Ku19                                      
+#L E$From least-squares fit to |g energies.                               
+#L T$From adopted levels                                                  
+#L J,T$From adopted levels                                                
+#P 0.0         (7/2+)            0.99 S    5              6197      15    
+RH115 PD115 beta- 6.197 0.99 1.0
+

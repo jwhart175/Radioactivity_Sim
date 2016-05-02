@@ -1,0 +1,20 @@
+#198BI    202AT A DECAY (184 S)         1992HU04,1975BAYJ,1961LA0209NDS    200910
+#  202AT A DECAY (184 S)         1992HU04,1975BAYJ,1961LA0209NDS    200910
+#H TYP=FUL$AUT=Huang Xiaolong$CIT=NDS 110, 2533 (2009)$CUT=1-Jun-2008$    
+#  Sources produced by {+197}Au({+12}C,7n) (1961La02) and                 
+#  {+187}Re({+20}Ne,5n) (1967Tr06).                                       
+#A HF        r{-0}=1.485 {I5}                                             
+#P 0           (2+,3+)           184 S     1              6353.7    14    
+AT202 BI198 alpha 6.3537 184.0 0.37
++A alpha 6.2277 0.998
++A alpha 6.07 0.002
++A alpha 5.929 4.0E-4
+
+#198BI    202AT A DECAY (0.46 S)        1992HU04                  09NDS    200910
+#  202AT A DECAY (0.46 S)        1992HU04                  09NDS    200910
+#H TYP=FUL$AUT=Huang Xiaolong$CIT=NDS 110, 2533 (2009)$CUT=1-Jun-2008$    
+#  1992Hu04: measured E|a, I|a and |a(t).                                 
+#P 391.7+X   2 (10-)             0.46 S    5              6353.7    14    
+AT202 BI198 alpha 6.3537 0.46 0.00096
++A alpha 6.227 1.0
+

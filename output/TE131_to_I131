@@ -1,0 +1,342 @@
+#131I     131TE B- DECAY (25.0 M)       1975JA03,1971MA04         06NDS    200612
+#  131TE B- DECAY (25.0 M)       1975JA03,1971MA04         06NDS    200612
+#H TYP=FUL$AUT=YU. KHAZOV, I. MITROPOLSKY, A. RODIONOV$                   
+#H CIT=NDS 107, 2715 (2006)$CUT=17-Jul-2006$                              
+#  1975Ja03: {+131}Te(|b{+-}); measured E|g, I|g, |g|g coincidences,      
+#  {+131}I deduced levels, J, |p, log| {Ift}. Ge(Li) detectors. Compton   
+#  suppressed spectrometer                                                
+#  1971Ma04: {+131}Te(|b{+-}); measured E|g, I|g, |g|g, |g|g-delayed      
+#  coin , {+131}I deduced levels, J, |p, T{-1/2}, log| {Ift}. Ge(Li)      
+#  detectors, plastic scintillators                                       
+#  1967Ah01: {+131}Te(|b{+-}); measured E|g, I|g, |g(|q), {+131}I deduced 
+#  A2, A4, J                                                              
+#  1963De10: {+131}Te(|b{+-}); measured E|g, I|g, |b{+-} and |b|g and     
+#  |g|g coin, {+131}I deduced levels, J, |p, log| {Ift}. NaI(Tl)          
+#  detectors, |b-spectrometer                                             
+#  1961Be20: {+131}Te(|b{+-}); measured E|g, I|g, |b{+-} spectrum and     
+#  |b|g and |g|g coincidences, {+131}I deduced levels, J, |p, log| {Ift}. 
+#   NaI(Tl) detectors, |b-spectrometer                                    
+#  Others: 1961Fe05, 1965Wa11                                             
+#  The decay scheme and all data are from 1975Ja03, unless indicated      
+#  otherwise; the coincidence data are from 1971Ma04.                     
+#B IB        From net |g feeding of each level                            
+#G M,MR      From adopted gammas                                          
+#G E$An uncertainty of 10 eV for calibration should be added quadratically
+#G RI$An uncertainty of 2% for absolute efficiency calibration            
+#G should be added quadratically                                          
+#G RI(J)     Authors report 0.02 {I7} which may be a misprint             
+#L E$From a least-squares fit to E|g                                      
+#L J         From adopted levels                                          
+#P 0.0         3/2+              25.0 M    1              2234.9    22    
+TE131 I131 beta- 2.2349 1500.0 0.0688
++G gamma 0.2675 6.0E-4
++G gamma 1.7652 9.0E-4
++G gamma 1.9730999999999999 3.0E-4
++G gamma 0.14971600000000002 10.0
++G gamma 0.342945 0.102
++G gamma 0.49266000000000004 0.7020000000000001
++G gamma 0.10940000000000001 0.009000000000000001
++G gamma 0.452323 2.645
++G gamma 0.602039 0.609
++G gamma 0.85221 0.0064
++G gamma 0.27468 0.001
++G gamma 0.38405900000000004 0.13
++G gamma 0.727 0.068
++G gamma 0.4033 0.001
++G gamma 0.8560800000000001 0.019
++G gamma 1.00576 0.002
++G gamma 0.22157 0.0048
++G gamma 0.49623 0.005
++G gamma 0.6055499999999999 0.017
++G gamma 0.948542 0.32799999999999996
++G gamma 1.09825 0.025
++G gamma 0.1412 0.0040999999999999995
++G gamma 0.29475 7.000000000000001E-4
++G gamma 0.54488 0.062
++G gamma 0.65426 0.222
++G gamma 0.99725 0.485
++G gamma 1.14696 0.72
++G gamma 0.2968 0.001
++G gamma 0.99926 0.004
++G gamma 1.1489 0.009000000000000001
++G gamma 0.15109999999999998 0.025
++G gamma 0.6961900000000001 0.026000000000000002
++G gamma 0.80557 0.002
++G gamma 1.14851 0.016
++G gamma 1.29798 7.000000000000001E-4
++G gamma 0.4697 0.0022
++G gamma 0.7444 0.0011
++G gamma 0.8538300000000001 0.013999999999999999
++G gamma 0.27817000000000003 0.0143
++G gamma 0.28017000000000003 0.0025
++G gamma 0.42132 0.0060999999999999995
++G gamma 0.5504 0.004
++G gamma 0.5749 0.0045000000000000005
++G gamma 0.825 0.004
++G gamma 0.934483 0.127
++G gamma 1.2774400000000001 0.0171
++G gamma 1.42714 0.015300000000000001
++G gamma 0.29708999999999997 0.0062
++G gamma 0.4383 0.001
++G gamma 0.56733 0.0149
++G gamma 0.84199 0.028999999999999998
++G gamma 0.95139 0.048
++G gamma 1.2943399999999998 0.07
++G gamma 0.35148 0.0034000000000000002
++G gamma 0.35358 0.0028000000000000004
++G gamma 0.40236 0.001
++G gamma 0.49485 0.011000000000000001
++G gamma 0.89854 0.02
++G gamma 1.00796 0.11599999999999999
++G gamma 1.35091 0.0088
++G gamma 1.5006199999999998 0.0167
++G gamma 1.1847 8.0E-4
++G gamma 1.52773 0.0083
++G gamma 0.88115 0.0037
++G gamma 1.1558 6.0E-4
++G gamma 1.2652 7.000000000000001E-4
++G gamma 0.29994 0.005699999999999999
++G gamma 0.7027 0.0011
++G gamma 1.1983 8.0E-4
++G gamma 1.3080999999999998 0.001
++G gamma 1.65097 0.0018
++G gamma 1.80068 5.0E-4
++G gamma 1.0355 4.0E-4
++G gamma 1.548 1.3E-4
++G gamma 1.8911 4.0E-4
++G gamma 2.0408 0.001
++G gamma 1.0668 9.0E-4
++G gamma 1.5799400000000001 0.0012
++G gamma 1.9236 5.0E-4
++G gamma 2.0728 9.0E-4
+
+#131I     131TE B- DECAY (33.25 H)      1975JA03,1967BE48         06NDS    200612
+#  131TE B- DECAY (33.25 H)      1975JA03,1967BE48         06NDS    200612
+#H TYP=FUL$AUT=YU. KHAZOV, I. MITROPOLSKY, A. RODIONOV$                   
+#H CIT=NDS 107, 2715 (2006)$CUT=17-Jul-2006$                              
+#  1976De43: {+131m}Te(|b{+-}); measured |g|g(|q), and ce, {+131}I        
+#  deduced levels, J, |p. Ge(Li) and Si(Li) detectors                     
+#  1975Ja03: {+131}Te(|b{+-}); measured E|g, I|g, |g|g coincidences,      
+#  {+131}I deduced levels, J, |p, log| {Ift}. Ge(Li) detectors            
+#  1975Lh01: {+131m}Te(|b{+-}); measured |g|g(|q), I|g(|q,t), deduced     
+#  {+131}I levels, J, |p, |d. Ge(Li) detectors, nuclear orientation       
+#  1975Lu01: {+131m}Te(|b{+-}); measured E|g, I|g, |g|g(|q), {+131}I      
+#  deduced levels, J, |p, |d. Ge(Li) detectors                            
+#  1974Fu13: {+131m}Te(|b{+-}); measured E|g, |g(t), isomeric branching.  
+#  Ge(Li) detector                                                        
+#  1967BE48: {+131m}Te(B-); MEASURED CE, 131I DEDUCED LEVELS, J, PI, ECC. 
+#  Six gap orange and PI|62 iron free spectrometers                       
+#  1965De22: {+131m}Te(|b{+-}); measured E|g, I|g, |b{+-}|g and |g|g      
+#  coincidences, |b{+-}|g(t), ce, {+131}I deduced levels, J, |p, T{-1/2}, 
+#  E{-|b{+-}},I{-|b{+-}}, log| {Ift}. NaI(Tl), Ge(Li), anthracene and     
+#  |b-spectrometers                                                       
+#  1961Be20: E|g, I|g, |b{+-} spectrum, |b{+-}|g and |g|g coincidences    
+#  and internal conversion data                                           
+#  Isomeric branching=25.9% {I5} (2002Re30). Others: 22.2% {I16}          
+#  (1975Ja03), 18% {I2} (1974Fu13), 18% (1965De22)                        
+#  The decay scheme and all data are from 1975Ja03, unless indicated      
+#  otherwise. The J-assignments are summarized in comments. See 1975Lu01  
+#  and 1975Lh01 for details                                               
+#B IB        From net |g feeding of each level. The conversion of many    
+#B low-energy |g's is not included. These, however, contribute            
+#B |<or|?30% to depopulation of level feeding.                            
+#G M         From adopted gammas; supporting arguments from this data set 
+#G are given in comments                                                  
+#G M(A)      From ce data of 1967Be48, 1965De22 or 1961Be20               
+#G M(B)      From |g(|q) and |DJ|p of initial and final levels            
+#G E(D)      Possibly a doublet                                           
+#L E         From a least-squares fit to E|g data                         
+#L J         From adopted levels; supporting arguments from this data set 
+#L are indicated in comments                                              
+#P 182.265   1811/2-             33.25 H   25             2234.9    22    
+TE131 I131 beta- 2.2349 119700.0 0.0504
++G gamma 0.052590000000000005 0.0014000000000000002
++G gamma 0.055799999999999995 7.000000000000001E-4
++G gamma 0.060840000000000005 0.0015
++G gamma 0.0632 0.0011
++G gamma 0.06695000000000001 0.006
++G gamma 0.095 0.001
++G gamma 0.0964 0.0015
++G gamma 0.1237 0.001
++G gamma 0.1252 0.0022
++G gamma 0.1305 0.018000000000000002
++G gamma 0.13219999999999998 0.0012
++G gamma 0.172 0.003
++G gamma 0.21030000000000001 0.004
++G gamma 0.3237 0.004
++G gamma 0.5068 0.023
++G gamma 0.6572 0.008
++G gamma 0.14971 1.31
++G gamma 0.34292 0.02
++G gamma 0.49265 0.02
++G gamma 0.10940000000000001 0.009000000000000001
++G gamma 0.45230000000000004 0.4
++G gamma 0.60209 0.08
++G gamma 0.77367 9.86
++G gamma 0.07856999999999999 0.004
++G gamma 0.7025 0.10099999999999999
++G gamma 0.85221 5.33
++G gamma 0.4033 0.008
++G gamma 0.85605 0.16
++G gamma 1.0057 0.019
++G gamma 0.0541 3.0E-4
++G gamma 0.2075 0.01
++G gamma 0.91 0.85
++G gamma 1.05969 0.4
++G gamma 0.2968 0.013000000000000001
++G gamma 0.5467000000000001 0.01
++G gamma 0.9992000000000001 0.044000000000000004
++G gamma 0.6819 0.008
++G gamma 1.1342 0.002
++G gamma 0.25544 0.08
++G gamma 0.30947 0.09699999999999999
++G gamma 0.46292 0.47
++G gamma 0.5414 0.028999999999999998
++G gamma 0.7131000000000001 0.37
++G gamma 1.1655 0.036000000000000004
++G gamma 1.31516 0.18
++G gamma 1.2278 0.002
++G gamma 1.3768 0.011000000000000001
++G gamma 0.8016 0.005
++G gamma 1.2542 0.006999999999999999
++G gamma 1.4036 0.003
++G gamma 0.69562 0.10300000000000001
++G gamma 0.7741 0.14
++G gamma 1.54775 0.018000000000000002
++G gamma 0.78249 2.01
++G gamma 0.7442000000000001 0.41
++G gamma 0.82278 1.58
++G gamma 0.8489 0.01
++G gamma 0.0983 0.0034999999999999996
++G gamma 0.2692 0.027999999999999997
++G gamma 0.3312 0.008
++G gamma 0.3623 0.02
++G gamma 0.5862999999999999 0.51
++G gamma 0.79375 3.58
++G gamma 0.8723 0.026000000000000002
++G gamma 1.4965 0.015
++G gamma 1.64601 0.32
++G gamma 0.051 0.0016
++G gamma 0.14930000000000002 0.02
++G gamma 0.6373 0.008
++G gamma 0.8449 0.04
++G gamma 0.9234 0.03
++G gamma 1.6967999999999999 0.004
++G gamma 0.9877999999999999 0.04
++G gamma 0.1512 0.02
++G gamma 0.20063 1.95
++G gamma 0.24093 1.96
++G gamma 1.0236 0.016
++G gamma 1.0278 0.002
++G gamma 1.8800999999999999 0.016
++G gamma 0.1261 0.0015
++G gamma 0.5727000000000001 0.011000000000000001
++G gamma 0.7387999999999999 0.017
++G gamma 0.8816 0.009000000000000001
++G gamma 1.0354 0.027000000000000003
++G gamma 1.1140999999999999 0.003
++G gamma 1.8877000000000002 0.35
++G gamma 0.10206 2.05
++G gamma 0.1376 0.02
++G gamma 0.25317 0.168
++G gamma 0.30269999999999997 0.01
++G gamma 0.34292 0.1
++G gamma 0.3513 0.054000000000000006
++G gamma 1.1254600000000001 2.95
++G gamma 0.03683 0.0031
++G gamma 0.1274 0.006
++G gamma 0.22769999999999999 0.004
++G gamma 0.27856000000000003 0.46
++G gamma 0.6093999999999999 0.036000000000000004
++G gamma 0.8651 0.05
++G gamma 1.0723 0.006
++G gamma 1.1509 0.17
++G gamma 1.9241 0.001
++G gamma 0.13486 0.183
++G gamma 0.33544 0.035
++G gamma 0.3758 0.003
++G gamma 0.93 0.005
++G gamma 1.3337999999999999 0.013999999999999999
++G gamma 1.93615 0.019
++G gamma 0.1772 0.017
++G gamma 0.2119 0.003
++G gamma 0.3778 0.01
++G gamma 0.08114 1.05
++G gamma 0.1 0.019
++G gamma 0.18311000000000002 0.04
++G gamma 0.2832 0.1
++G gamma 0.33426999999999996 2.47
++G gamma 0.3574 0.005
++G gamma 0.38389999999999996 0.052000000000000005
++G gamma 0.43239999999999995 0.171
++G gamma 0.6650499999999999 1.12
++G gamma 0.92062 0.31
++G gamma 1.12796 0.25
++G gamma 1.2066 2.52
++G gamma 1.8306 0.002
++G gamma 1.9803 0.008
++G gamma 0.06505 0.0021
++G gamma 0.1016 0.044000000000000004
++G gamma 0.1135 0.003
++G gamma 0.2034 0.005
++G gamma 0.3039 0.01
++G gamma 0.3547 0.059000000000000004
++G gamma 0.3778 0.01
++G gamma 0.597 0.013000000000000001
++G gamma 0.6859 0.04
++G gamma 0.85221 0.1
++G gamma 0.9412699999999999 0.20199999999999999
++G gamma 0.9951 0.023
++G gamma 1.1488900000000002 0.39
++G gamma 1.2278 0.002
++G gamma 2.00094 0.52
++G gamma 0.07919 0.033
++G gamma 0.08643 0.038
++G gamma 0.1119 0.008
++G gamma 0.21398 0.11
++G gamma 0.36498 0.31
++G gamma 1.23732 0.17
++G gamma 0.062380000000000005 0.009399999999999999
++G gamma 0.4174 0.07200000000000001
++G gamma 0.749 0.004
++G gamma 1.0036 0.006999999999999999
++G gamma 1.211 0.016
++G gamma 0.1033 0.012
++G gamma 0.18225 0.19
++G gamma 0.18975999999999998 0.13
++G gamma 0.46816 0.081
++G gamma 0.5581 0.006
++G gamma 1.3406 0.026000000000000002
++G gamma 0.105 0.006999999999999999
++G gamma 0.18813 0.055
++G gamma 0.2323 0.024
++G gamma 0.2692 0.027999999999999997
++G gamma 0.2814 0.009000000000000001
++G gamma 1.1083 0.006
++G gamma 1.1627 0.006999999999999999
++G gamma 1.3162 0.025
++G gamma 1.39483 0.027999999999999997
++G gamma 2.16854 0.09
++G gamma 0.15966 0.033
++G gamma 0.1697 0.008
++G gamma 0.19052000000000002 0.03
++G gamma 0.235 0.004
++G gamma 0.5247999999999999 0.035
++G gamma 1.3183 0.01
++G gamma 0.3793 0.005
++G gamma 0.5307000000000001 0.027000000000000003
++G gamma 0.5798 0.02
++G gamma 0.07332 0.0069
++G gamma 0.23065 0.05
++G gamma 0.26139999999999997 0.004
++G gamma 0.2672 0.004
++G gamma 0.3535 0.02
++G gamma 1.1814 0.003
++G gamma 1.3896 0.004
++G gamma 0.1559 0.01
++G gamma 0.2903 0.02
++G gamma 0.3459 0.025
++G gamma 2.2706500000000003 0.099
++G gamma 0.4082 0.016
++G gamma 2.3327 7.000000000000001E-4
+

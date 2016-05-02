@@ -1,0 +1,28 @@
+# 64GA    64GE EC DECAY (63.7 S)        1974RO16                  07NDS    200703
+#  64GE EC DECAY (63.7 S)        1974RO16                  07NDS    200703
+#H TYP=FUL$AUT=BALRAJ SINGH$CIT=NDS 108, 197 (2007)$CUT=31-Dec-2006$      
+#  1974RO16: Source from 64ZN(3HE,3N) E=50 MEV and chemical separation.   
+#  Measured G and T1/2 of 64GE. See also 1972Ro13 from the same group     
+#  Others:                                                                
+#  1993Wi03: measured summed spectra                                      
+#  1973Da01: source from 54FE(12C,2N) E=36 MEV. Measured G,               
+#  GB+ coin, T1/2 of 64GE. Only one G ray at 426.9 3 reported             
+#  1972De09, 1972Cr02: search for 64GE isotope using                      
+#  64ZN(3HE,3N) reaction not successful                                   
+#E $ (427G)B+ coin study (1973Da01) gives E(B+)=2960 250 implying         
+#E Q(EC)=4410 250                                                         
+#E TI,LOGFT$ VALUES SHOULD BE CONSIDERED AS LIMITS ONLY SINCE THERE       
+#E THERE IS A LARGE GAP OF ABOUT 3.7 MEV BETWEEN Q(EC) VALUE AND          
+#E HIGHEST KNOWN LEVEL AT 817 KEV                                         
+#L J$From adopted levels for GS and 42.8 level, from LOGFT=4.8 to 5.1     
+#L for levels above 42.8 KEV                                              
+#P   0.0        0+               63.7 S    25             4480      30    
++B beta+ 0.6242000000000001 0.0017000000000000001
++B beta+ 1.57 1.6E-4
++G gamma 0.12819999999999998 0.107
++B beta+ 1.509 1.7999999999999998E-4
++G gamma 0.427 0.374
++B beta+ 1.367 2.3E-4
++G gamma 0.6671 0.16899999999999998
++B beta+ 1.253 3.0E-4
+

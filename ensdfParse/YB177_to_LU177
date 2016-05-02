@@ -1,0 +1,56 @@
+#177LU    177YB B- DECAY                1995Ya21                  03NDS    200305
+#  177YB B- DECAY                1995Ya21                  03NDS    200305
+#H TYP=FUL$AUT=F.G. KONDEV$CIT=NDS 98, 801 (2003)$CUT=1-Aug-2002$         
+#  1995Ya21: Source produced following neutron irradiation. Target:       
+#  YB{-2}O{-3} powder, enriched to 97.8% in 176YB. Detectors: 31% and 33% 
+#  HPGe detectors, 32% GELI detector and a planar HPGe detector, 4PI gas  
+#  flow B- counter. Measured: G-ray singles, GG coin, EG, IG, GG(THETA),  
+#  B- decay branch to the 177LU G.S.                                      
+#  Other: 1949Mc41, 1955De18, 1956Mi47, 1963Li05, 1964Ew04, 1964Jo03,     
+#  1965Sc01, 1966He01, 1970Br38, 1972Ag05, 1972Be85, 1974Iv02, 1974Kr12.  
+#L E$From least-squares fit to the G ray energies given in 1995Ya21.      
+#L J,T$ From adopted levels. Additional details are given with some       
+#L levels.                                                                
+#L E(A)$ PI 7/2[404] (g{-7/2}).                                           
+#L E(B)$ PI 9/2[514] (h{-11/2}).                                          
+#L E(C)$ PI 5/2[402] (d{-5/2}).                                           
+#L E(E)$ KPI=9/2-:CONF=PI 7/2[404], NU 7/2[514], NU 9/2[624].             
+#L E(G)$ KPI=11/2+:CONF=PI 9/2[514], NU 7/2[514], NU 9/2[624]             
+#L E(H)$ KPI=7/2+:CONF=PI 9/2[514], NU 7/2[514], NU 9/2[624]              
+#G E,RI,M,MR$ From 1995Ya21, unless otherwise specified.                  
+#P 0.0         (9/2+)            1.911 H   3              1399.2    20    
+YB177 LU177 beta- 1.3992 6879.6 1.0
++B beta- 0.49663999999999997 0.54
++B beta- 0.44652 0.086
++G gamma 0.1216 0.03481
++B beta- 0.4348 0.21
++G gamma 0.15030000000000002 0.20473
++B beta- 0.38683 0.0053
++G gamma 0.14730000000000001 0.0018290000000000001
++B beta- 0.37881 0.022000000000000002
++G gamma 0.1386 0.014159999999999999
++B beta- 0.31889 7.000000000000001E-5
++B beta- 0.32055 1.4000000000000001E-4
++G gamma 0.1625 6.49E-4
++G gamma 0.3005 6.49E-5
++B beta- 0.31216000000000005 2.8000000000000003E-4
++G gamma 0.3366 6.49E-5
++G gamma 0.458 4.3069999999999995E-4
++B beta- 0.27601 1.6E-4
++B beta- 0.2311 1.7999999999999998E-4
++B beta- 0.10034 0.0079
++G gamma 0.7605 6.49E-4
++G gamma 0.8992 0.006962
++G gamma 1.0492000000000001 1.7699999999999997E-4
++B beta- 0.06902 0.013500000000000002
++B beta- 0.06433 3.7999999999999997E-4
++B beta- 0.04524 0.077
++G gamma 0.7793 0.0011209999999999998
++G gamma 0.7903 8.849999999999998E-5
++G gamma 0.9418 0.010797
++G gamma 0.962 1.888E-4
++G gamma 1.0805 0.059
++B beta- 0.04363 7.5E-4
++B beta- 0.042159999999999996 0.040999999999999995
++B beta- 0.01591 5.099999999999999E-4
+

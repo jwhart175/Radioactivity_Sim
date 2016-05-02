@@ -1,0 +1,21 @@
+#110IN    110SN EC DECAY                1956ME94                  12NDS    201206
+#  110SN EC DECAY                1956ME94                  12NDS    201206
+#H TYP=FUL$AUT=G. G~URDAL and F.G. KONDEV$CIT=NDS 113, 1315 (2012)$       
+#H CUT=1-Aug-2011$                                                        
+#G CC$ FROM BrIcc v2.2 (31-Mar-2008) 2008KiAA, "Frozen Orbitals" appr.    
+#  1956Me94: {+110}Sn source was produced by bombarding a cadmium target, 
+#  enriched in {+108}Cd, with alpha particles at E|a=30 MeV.              
+#  A magnetic-lens-beta-ray spectrometer with a scintillation counter     
+#  and continuous recording pulse-height analyzer was used.               
+#  Measured: E|g, ce                                                      
+#  Other: 2009Ra17, 2005Gy02, 1973Ka45                                    
+#L E,J,T$From adopted levels, unless otherwise stated                     
+#G E,M,MR$From adopted gammas                                             
+#E LOGFT$Several |b-decay transitions between |n(1g7/2) and |p(1g9/2) in  
+#E this mass region have small log| {Ift} (for example, 4.1 in {+112}In   
+#E |b{++} decay). However, log| {Ift}=3.44 7 (if I|e=100%) for {+110}Sn   
+#E |e decay is unusually small                                            
+#P 0.0         0+                4.154 H   4              631       18    
+SN110 IN110 beta+ 0.631 14954.4 1.0
++G gamma 0.280459 0.97059
+

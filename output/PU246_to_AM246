@@ -1,0 +1,21 @@
+#246AM    246PU B- DECAY                1971MU05                  11NDS    201108
+#  246PU B- DECAY                1971MU05                  11NDS    201108
+#H TYP=FUL$AUT=E. BROWNE, J. K. TULI$CIT=NDS 112, 1833 (2011)$            
+#H CUT=1-Jan-2011$                                                        
+#  Modified by E. Browne (BRICC, GTOL, LOGFT) (Feb. 10, 2011).            
+#B           From F-K plot of |b{+-} spectrum in coin with 44|g           
+#B I|b(150)/I|b(330)=2.7 (1956Ho23).                                      
+#B IB        From intensity balance in the level scheme.                  
+#G CC$ FROM BrIcc v2.2 (31-Mar-2008) 2008KiAA, "Frozen Orbitals" appr.    
+#G E,RI      From 1971Mu05                                                
+#G M(A)      E1 assignment is based on intensity                          
+#G balance considerations                                                 
+#L           x=30 {I10}; calculated value for the energy difference of    
+#L configuration=((|p 5/2[642])+(|n 9/2[734])) and configuration=((|p     
+#L 5/2[642])-(|n 9/2[734])), the expected configurations of {+246}Am (7-) 
+#L g.s. and {+246}Am 2(-) isomeric state (1984So03), respectively.        
+#L E         From least squares fit to E|g.                               
+#L J         From adopted levels                                          
+#P  0.0          0+              10.84 D   2              401       14    
+PU246 AM246 beta- 0.401 936575.9999999999 1.0
+

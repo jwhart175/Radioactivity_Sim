@@ -1,0 +1,18 @@
+# 25NE    25F B- DECAY                  2005PA74,1999RE16         09NDS    200908
+#  25F B- DECAY                  2005PA74,1999RE16         09NDS    200908
+#H TYP=FUL$AUT=R.B. FIRESTONE$CIT=NDS 110, 1691 (2009)$CUT=1-Feb-2008$    
+#  1999Re16: Produced by Ta({+36}S,x), E({+36}S)=2.8 GeV. Magnetic        
+#  spectrometer (LISE3). Measured TOF, E|DE in Si, |b|g coincidence.      
+#  2005Pa74: Produced by Be({+48}Ca,x), E({+48}Ca)=140 MeV/A. Fragment    
+#  separator, double sided Si microstrip detector, segmented Ge array.    
+#  Measured TOF, E|g, I|g, |g|g- and |b|g-coincidence.                    
+#B IB$2005Pa74 report 6(5)% feeding to the 1703 level and 20(20)% feeding 
+#B to the GS.  This is inconsistent with the intensity balance through    
+#B the 1703 level, which is expected to be fed by allowed beta decay,     
+#B and inconsistent with any second forbidden beta feeding to the GS.     
+#G E,RI$From 1999Re16 except as noted                                     
+#G E(A)$From 2005Pa74, 5-keV uncertainty assumed by the evaluator.        
+#G RI(B)$Estimated by the evaluator from the |g-ray spectrum (2005Pa74).  
+#P 0            5/2+             80 MS     9              1.338E4   10    
+F25 NE25 beta- 13.38 0.08 1.0
+

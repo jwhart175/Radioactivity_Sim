@@ -1,0 +1,22 @@
+# 52FE    52CO EC DECAY                 1997HA04                  15NDS    201509
+#  52CO EC DECAY                 1997HA04                  15NDS    201509
+#H TYP=FUL$AUT=YANG DONG, HUO JUNDE$CIT=NDS 128, 185 (2015)$              
+#H CUT=10-Jul-2015$                                                       
+#  Source produced by {+40}Ca({+14}N,2n) E=62 MeV.                        
+#  HPGe detectors and scin; measured E|g, I|g.                            
+#  The proposed decay scheme was intensity unbalance at each level.       
+#  The authors explained that the source may contain an expected but yet  
+#  unobserved 2+ isomer of {+52}Co and the intensity of the 1942|g,       
+#  which appears as a doublet with the 1944 |g-ray from {+50m}Mn.         
+#  See also 1990MiZK, 1995HaZS.                                           
+#  According to the intensity and placement of |g-ray, and intensity      
+#  balance of a level, I(EC+B+)'s feeding to 2385 and 5655 level          
+#  are obtained by evaluators.                                            
+#L J,T$From adopted levels.                                               
+#P 0           (6+)               104 MS   7                 14340  SY    
++G gamma 0.8494299999999999 0.9998
++B beta+ 2.0581 0.0
++G gamma 1.53527 0.689862
++G gamma 1.9417 0.459908
++G gamma 1.32895 0.629874
+

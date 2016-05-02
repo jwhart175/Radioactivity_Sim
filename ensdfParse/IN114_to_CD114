@@ -1,0 +1,36 @@
+#114CD    114IN EC DECAY (71.9 S)       1969CO04                  12NDS    201203
+#  114IN EC DECAY (71.9 S)       1969CO04                  12NDS    201203
+#H TYP=FUL$AUT=Jean Blachot$CIT=NDS 113, 515 (2012)$CUT=1-Jan-2012$       
+#  Measured: T{-1/2} (1968Ko25,1956Gr35,1956Br87,1937La05), |b{++} s      
+#  (1957Dz64), |g Ge(Li) (1969Co04)                                       
+#  See also {+114}In |b{+-} decay (71.9 s)                                
+#G E         From 1969Co04, 1974HeYW.                                     
+#G RI        From 1969Co04                                                
+#L J         From adopted levels                                          
+#P 0.0         1+                71.9 S    1              1447.2    9     
+IN114 CD114 beta+ 1.4472 71.9 0.0050
++B beta+ 0.19669999999999999 3.4E-5
++G gamma 0.55843 0.13440000000000002
++B beta+ 8.586E-4 0.0011305999999999998
++G gamma 0.5758 0.00784
++B beta+ 8.457E-4 0.00123
++G gamma 0.7477999999999999 3.64E-4
+
+#114CD    114IN EC DECAY (49.51 D)      1969CO04                  12NDS    201203
+#  114IN EC DECAY (49.51 D)      1969CO04                  12NDS    201203
+#H TYP=ERR$AUT=J. Tuli$DAT=11-Jul-2014$COM=corrected NR to agree with PN$ 
+#H TYP=FUL$AUT=Jean Blachot$CIT=NDS 113, 515 (2012)$CUT=1-Jan-2012$       
+#  Measured: E|g, I|g (1969Co04); |e (1956Gr35); ce (1967El02); double ce 
+#  (1962Ba43,1964Kl02,1966Gr24,1969Vu02); polarization of ce              
+#  (1961Sp09,1965Ka06,1966Lo01,1966Va06,1970Va03)                         
+#  |g|g(|q) (1967Fr03,1970Mu11); X|g (1970Mu11)                           
+#  Other measurements: 1956Ke48, 1957Gr75, 1957Ho64, 1961Da01, 1964An12,  
+#  1966Bl10, 1967Ra16, 1974Va07                                           
+#  For the %(|e+|b{++}) and branching see {+114}In adopted levels         
+#  See also {+114}In IT decay, {+114}In |e decay (71.9 s), {+114}In       
+#  |b{+-} decay (71.9 s)                                                  
+#G E         From 1969Co04, 1974HeYW                                      
+#P 190.2682  8 5+                49.51 D   1              1447.2    9     
+IN114 CD114 beta+ 1.4472 4277664.0 0.0325
++B beta+ 8.164E-4 0.0014000000000000002
+

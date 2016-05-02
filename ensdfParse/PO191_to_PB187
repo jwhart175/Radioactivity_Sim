@@ -1,0 +1,38 @@
+#187PB    191PO A DECAY (93 MS)         2002AN19,1999AN36,1999AN1009NDS    200905
+#  191PO A DECAY (93 MS)         2002AN19,1999AN36,1999AN1009NDS    200905
+#H TYP=FUL$AUT=M. S. Basunia$CIT=NDS 110, 999 (2009)$CUT=1-Nov-2008$      
+#  Other: 2001HU21, 2001UU01                                              
+#  2002AN19: 191PO from 142ND(52CR,3n) (99.8% 142ND),                     
+#  E=236 1 MeV; ^RITU separator for fusion-evaporation residue, position  
+#  sensitive silicon strip detector, gas detector, HPGe detectors of      
+#  Jurosphere array; Measured: EA, IA, ALPHA-G COIN, ALPHA-ALPHA COIN, EG.
+#  1999AN10, 1999AN36: 191PO FROM 36AR BOMBARDMENT OF 67.1% ENRICHED      
+#  160DY, E=175-193 MEV (5 ENERGIES); PULSED BEAM, GAS-FILLED RECOIL      
+#  SEPARATOR (^RITU), POSITION SENSITIVE SI DETECTOR, HPGe DETECTOR;      
+#  MEASURED EXCIT, EA, IA, EG, IG, |a-|a CORRELATIONS, AG COIN,           
+#  ALPHA-X COIN.                                                          
+#  1997BA25: 191PO FROM 96MO(96MO,N), E=404 MEV; 94.5% ENRICHED 96MO      
+#  TARGET; RECOIL NUCLEI IMPLANTED IN DOUBLE-SIDED Si STRIP DETECTOR      
+#  AFTER IDENTIFICATION USING FRAGMENT MASS ANALYZER AND GAS-FILLED       
+#  PARALLEL-GRID AVALANCHE COUNTER; MEASURED EA, ALPHA(T),                
+#  RECOIL-ALPHA(T).                                                       
+#  PARENT T=93 MS 3 FROM 7376A(T) (2002AN19).                             
+#A E$2002An19 searched for crossover ALPHA decay from 191PO (JPI=13/2+)   
+#A to the 187PB (JPI=3/2-), but did not find any evidence. An upperlimit  
+#A of hindrance factor GE 80 20 is calculated for an expected             
+#A crossover 7374A.                                                       
+#A E,IA      From 2002An19                                                
+#A HF        From R0=1.526 22, average of R0(186PB)=1.54 2 and R0(188PB)= 
+#A 1.511 8 (1998AK04), T=93 MS 3 FOR 40 15 LEVEL OF 191PO,                
+#A QA(191PO)=7501 11, and %A(191PO)=100 FROM SYSTEMATICS. The calculated  
+#A hindrance factor here is larger by a factor of |J2.9 than that reported
+#A in 2002An19, which is probably arises due to the difference of R0 value
+#A used in this calculation.                                              
+#L E         From 2002An19                                                
+#P 40        15 (13/2+)          93 MS     3              7501      11    
++A alpha 7.376 0.47600000000000003
++A alpha 6.909 0.039
++A alpha 6.888 0.38
++A alpha 6.815 0.1
++A alpha 6.79 0.005
+

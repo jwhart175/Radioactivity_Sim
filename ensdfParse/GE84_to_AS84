@@ -1,0 +1,28 @@
+# 84AS    84GE B- DECAY                 1991OM01,2009LEZZ         09NDS    200910
+#  84GE B- DECAY                 1991OM01,2009LEZZ         09NDS    200910
+#H TYP=FUL$AUT=A.A. Sonzogni, M. Fadil, and B. Pfeiffer$                  
+#H CIT=NDS 110,2815 (2009)$CUT=30-Sep-2009$                               
+#  1991OM01: mass separated fission fragments, measured B, G, BG          
+#  2009LEZZ: U(|g,F), E=50 MeV, fission fragments were mass separated and 
+#  implanted on a tape system, measured |g, |b|g.  It states that         
+#  details of this work are to be discussed in a forthcoming paper.       
+#  2009LeZZ is now published as Phys. Rev. C 80, 044308 (2009).           
+#  The data in the published version are identical to those in preprint.  
+#  2008LeZV is superseded by 2009LeZZ                                     
+#  2008WiZZ: 235U(p,F), fission fragments implanted into a moving tape    
+#  collector, measured G, GB using four Ge clover detectors and two       
+#  plastic scintillators.                                                 
+#G RI$From 2009LEZZ, normalized to 100 for 247.8G from 84GA B-N decay to  
+#G 83GE                                                                   
+#L $Level scheme is based on the one from Figure 2 in 2008WiZZ            
+#G E(C)$From 2008WiZZ                                                     
+#L E$From least-squares fit to EG                                         
+#G E(B)$Observed only by 2009LEZZ                                         
+#L J$From Adopted Levels                                                  
+#P 0.0         0+                0.954 S   14             7705      4     
+GE84 AS84 beta- 7.705 0.954 1
++G gamma 0.386 0.06466
++G gamma 0.0999 0.09638
++G gamma 0.0427 0.09881999999999999
++G gamma 0.2424 0.11224
+

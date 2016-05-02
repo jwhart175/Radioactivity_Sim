@@ -1,0 +1,166 @@
+#125SB    125SN B- DECAY (9.64 D)       1980VE04,1971MA01         11NDS    201102
+#  125SN B- DECAY (9.64 D)       1980VE04,1971MA01         11NDS    201102
+#H TYP=FUL$AUT=J. KATAKURA$CIT=NDS 112, 495 (2011)$CUT=1-Jan-2010$        
+#  The decay scheme is that proposed by 1980Ve04 and 1971Ma01, but        
+#  2227 level was only reported by 1971Ma01                               
+#  1980Ve04: {+124}Sn(n,|g){+125}Sn, semi |g, scin-semi |g|g(|q),         
+#  |g|g-coin                                                              
+#  1979Gr01: semi |g                                                      
+#  1971Ma01: {+124}Sn(d,p){+125}Sn chem, semi |g, NaI(Tl)-Ge(Li)          
+#  |g|g-coin, |g|g(|q)                                                    
+#  1950Ha58,1950Ke11: mag spect |b                                        
+#  1966Au02: semi |g, scin |b, |g|g(|q)                                   
+#  1967Wi13: semi |g, |g|g-coin                                           
+#  1974Ga03: semi-semi, |g|g(|q), (pol |g)|g(|q)                          
+#  Others: 1957Bu40, 1966De12, 1971ArZX                                   
+#G CC$ FROM BrIcc v2.2 (31-Mar-2008) 2008KiAA, "Frozen Orbitals" appr.    
+#G E         From 1980Ve04, unless otherwise noted. There may be          
+#G systematic error because the energies in the region where the          
+#G precise |g's (2000He14) are adopted show systematic differences of     
+#G about 0.4 keV.                                                         
+#G E(A)$1980Ve04 report E|g=258.25 {I10} with I|g=0.20 {I1} for           
+#G a transition doubly placed from the 1349 and 2240 levels. The          
+#G transition is not included in the least squares adjustment. That       
+#G adjustment gives expected energies of 260.14 {I5} and 257.84 {I5} for  
+#G placements from the 1349 and 2240 levels, respectively.                
+#G                                                                        
+#G                    |g|g(|q) data                                       
+#G                                                                        
+#G ------------------------------------------------------------           
+#G    cascade           A{-2}              A{-4}            ref           
+#G ------------------------------------------------------------           
+#G   469 - 1087     -0.054 {I14}      -0.002 {I2}         1980Ve04        
+#G                  -0.065 {I16}      +0.009 {I24}        1974Ga03        
+#G  1087 - 332      +0.02 {I2}        +0.03 {I3}          1980Ve04        
+#G                  +0.042 {I5}       -0.009 {I20}        1979Gr01        
+#G   351 - 469      -0.154 {I11}      -0.14 {I16}         1980Ve04        
+#G                  +0.12 {I1}        +0.000 {I12}        1979Gr01        
+#G   800 - 1089     +0.14 {I3}        -0.1 {I5}           1980Ve04        
+#G                  +0.203 {I22}      -0.02 {I4}          1979Gr01        
+#G   893 - 1089     +0.10 {I5}        -0.10 {I8}          1980Ve04        
+#G   822 - 1067     +0.159 {I9}       -0.006 {I14}        1980Ve04        
+#G                  +0.199 {I22}      -0.00 {I3}          1979Gr01        
+#G  1017 - 332      -0.19 {I4}        +0.026 {I20}        1980Ve04        
+#G   915 - 1067     +0.119 {I4}       +0.017 {I6}         1980Ve04        
+#G                  +0.213 {I15}      +0.01 {I3}          1979Gr01        
+#G  1151 - 1089     +0.27 {I5}        -0.109 {I10}        1980Ve04        
+#G  1173 - 1067     +0.33 {I7}        -0.11 {I10}         1980Ve04        
+#G  1221 - 1067     +0.26 {I5}        +0.15 {I8}          1980Ve04        
+#G   469 - 1419     +0.095 {I18}      +0.08 {I3}          1980Ve04        
+#G 469-(1087)-332   -0.039 {I14}      +0.024 {I17}        1980Ve04        
+#G                  -0.021 {I8}       -0.005 {I13}        1979Gr01        
+#G ------------------------------------------------------------           
+#G                                                                        
+#G E(A)      From table 7 of 2000He14, but not included in their table of 
+#G recommended values.                                                    
+#G E(B)      Only reported in 1980Ve04                                    
+#G E(C)      Only reported in 1971Ma01                                    
+#G RI        From 1980Ve04.                                               
+#L J         From adopted levels                                          
+#L E         From a least-squares fit (by evaluators) to E|g's            
+#P 0.0         11/2-             9.64 D    3              2357      3     
+SN125 SB125 beta- 2.357 832896.0 0.097
++G gamma 0.2347 0.0036
++G gamma 0.398 5.0E-5
++G gamma 0.48719999999999997 0.0013
++G gamma 0.92143 0.0085
++G gamma 1.2913 5.0E-4
++G gamma 2.0383 3.0E-4
++G gamma 0.3321 0.145
++G gamma 1.0671 1.0
++G gamma 1.08915 0.473
++G gamma 0.25825 0.0021
++G gamma 0.28245 0.0019
++G gamma 1.0174 0.033
++G gamma 1.34942 0.0060999999999999995
++G gamma 1.0877000000000001 0.12300000000000001
++G gamma 1.4197 0.050199999999999995
++G gamma 0.5243 0.001
++G gamma 1.25935 0.0032
++G gamma 1.5914000000000001 0.0026
++G gamma 0.3866 5.0E-4
++G gamma 1.8066900000000001 0.015300000000000001
++G gamma 0.46985000000000005 0.153
++G gamma 0.80028 0.11
++G gamma 0.82248 0.441
++G gamma 1.5573 4.2E-4
++G gamma 1.8898840000000001 0.0076
++G gamma 0.563 0.0016
++G gamma 0.8934 0.03
++G gamma 0.91555 0.426
++G gamma 1.9825 3.3E-4
++G gamma 0.6526000000000001 0.0042
++G gamma 0.912 7.000000000000001E-4
++G gamma 0.93463 0.0215
++G gamma 2.002134 0.198
++G gamma 0.3113 9.0E-4
++G gamma 1.1114000000000002 0.0014000000000000002
++G gamma 2.201002 0.004
++G gamma 1.1375 3.0E-4
++G gamma 2.227 2.0E-4
++G gamma 0.25825 0.0021
++G gamma 0.35095 0.027200000000000002
++G gamma 0.43413 0.0025
++G gamma 0.8905 9.0E-4
++G gamma 1.15123 0.0118
++G gamma 1.1733 0.0187
++G gamma 0.2706 0.011000000000000001
++G gamma 0.3635 3.0E-4
++G gamma 0.9035 0.0013
++G gamma 1.16384 0.0032
++G gamma 0.684 0.0011
++G gamma 1.18615 9.0E-4
++G gamma 1.2084000000000001 8.0E-4
++G gamma 2.275748 0.018799999999999997
++G gamma 0.2862 6.0E-4
++G gamma 1.1987 0.0016
++G gamma 1.2208800000000002 0.0276
+
+#125SB    125SN B- DECAY (9.52 M)       2006KR04,1968BA04,1968BE0911NDS    201102
+#  125SN B- DECAY (9.52 M)       2006KR04,1968BA04,1968BE0911NDS    201102
+#H TYP=FUL$AUT=J. KATAKURA$CIT=NDS 112, 495 (2011)$CUT=1-Jan-2010$        
+#  2006Kr04: {+124}Sn(n,|g){+125}Sn |b{+-},                               
+#  Measured E|g, I|g using a high purity Ge detector.                     
+#  1968Ba04: {+124}Sn(n,|g){+125}Sn |b{+-}, semi |g, semi-scin |g|g-coin  
+#  1968Be09: {+124}Sn(n,|g){+125}Sn |b{+-}, semi |g, semi-scin |g|g-coin  
+#  1971Ka05: {+124}Sn(n,|g){+125}Sn |b{+-}, semi |g, semi-scin |g|g-coin, 
+#  scin-scin |b|g(t), NaI-NaI |g|g(|q), semi ce                           
+#  The decay scheme is a composite of those proposed by 1968Ba04,         
+#  1968Be09, and 1971Ka05                                                 
+#G CC$ FROM BrIcc v2.2a (13-Jul-2008) 2008Ki07, "Frozen Orbitals" appr.   
+#G E         From 2006Kr04, unless otherwise noted                        
+#G E(A),RI(A)$From 1968Ba04. Not observable in 2006Kr04 due to            
+#G interference from {+116m}In.                                           
+#G RI        Relative to I(331.9|g)=100. From 2006Kr04,                   
+#G unless otherwise noted                                                 
+#L E         From a least-squares fit to E|g's by evaluators              
+#L J$from adopted levels                                                  
+#P 27.50     143/2+              9.52 M    5              2357      3     
+SN125 SB125 beta- 2.357 571.1999999999999 0.973
++G gamma 1.6331099999999998 1.6E-4
++G gamma 0.33194 1.0
++G gamma 0.31095999999999996 4.5E-4
++G gamma 0.6429600000000001 0.00156
++G gamma 0.27856000000000003 2.3E-4
++G gamma 0.58961 0.00194
++G gamma 1.01757 8.699999999999999E-4
++G gamma 1.34937 1.7E-4
++G gamma 0.8408300000000001 7.199999999999999E-4
++G gamma 1.1517 3.2E-4
++G gamma 1.48377 0.00178
++G gamma 0.7795 1.4000000000000001E-4
++G gamma 1.0577699999999999 1.8999999999999998E-4
++G gamma 1.3686099999999999 0.00104
++G gamma 0.38652 0.001
++G gamma 1.09327 3.5999999999999997E-4
++G gamma 1.4040599999999999 0.00699
++G gamma 1.73607 3.1E-4
++G gamma 0.43002999999999997 1.2E-4
++G gamma 1.58196 1.0E-4
++G gamma 1.9136600000000001 1.8999999999999998E-4
++G gamma 1.02546 1.3E-4
++G gamma 1.3044200000000001 1.2E-4
++G gamma 1.61538 0.00111
++G gamma 1.9475 1.4000000000000001E-4
++G gamma 2.113 2.0E-5
+

@@ -1,0 +1,24 @@
+#168TA    168W EC DECAY                 1990ME12                  10NDS    201008
+#  168W EC DECAY                 1990ME12                  10NDS    201008
+#H TYP=FUL$AUT=CORAL M. BAGLIN$CIT=NDS 111, 1807 (2010)$CUT=15-Jun-2010$  
+#  The decay scheme and all data are from 1990Me12.                       
+#  NO MULTIPOLARITIES ARE KNOWN BUT, PROVIDED %EC+B+ TO 179 LEVEL IS >2,  
+#  LOGFT<5.9 AND THE TRANSITION IS ALLOWED; GIVEN THE RELATIVE STRENGTH OF
+#  THE 178G, THIS CONDITION IS SATISFIED AND JPI=1+ CAN BE ASSIGNED       
+#  TO THE 178 LEVEL.  PROVIDED %EC+B+ TO THE 352 LEVEL IS >1.4, THIS      
+#  BRANCH WILL BE ALLOWED ALSO; THIS CONDITION IS SATISFIED EVEN IF THE   
+#  TWO DEEXCITING GAMMAS HAVE NEGLIGIBLE CONVERSION, PROVIDED NONE OF     
+#  THE UNPLACED TRANSITIONS FEEDS THE 352 LEVEL.  THIS MAY NOT BE A VALID 
+#  ASSUMPTION, SO THE ASSIGNMENT OF 1+ TO THIS LEVEL IS HIGHLY TENTATIVE. 
+#  1990ME12: Sources from 136BA(36AR,4N), E(36AR)=165-205 MEV, helium-jet 
+#  transport; 93% target enrichment; measured excitation                  
+#  functions, EG, IG (GELI and Ge GX detectors), GG coin.                 
+#E TI        FROM TI IMBALANCE AT EACH LEVEL.                             
+#G RI        Arbitrary units relative to I(178.5G)=100.                   
+#G E(A)      COINCIDENT WITH 178.5G.                                      
+#L E         FROM LEAST-SQUARES FIT TO EG.                                
+#L J         FROM Adopted Levels.                                         
+#P  0.0         0+               50.9 S    19             3500      30    
++B beta+ 1.039 0.21
++B beta+ 0.961 0.006
+

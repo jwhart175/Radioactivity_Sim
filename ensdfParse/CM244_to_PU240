@@ -1,0 +1,81 @@
+#240PU    244CM A DECAY (18.11 Y)       2002DA21,1998YA17,1972SC0108NDS    200810
+#  244CM A DECAY (18.11 Y)       2002DA21,1998YA17,1972SC0108NDS    200810
+#H TYP=ERR$AUT=BALRAJ SINGH$DAT=5-May-2009$COM=Fixed typo in RI(152G)$    
+#H TYP=FUL$AUT=BALRAJ SINGH, E. BROWNE$CIT=NDS 109, 2439 (2008)$          
+#H CUT=31-Jul-2008$                                                       
+#  The data set is adapted from evaluations by 2006BeZL (also 2006Ch34)   
+#  and 1998Ak04.                                                          
+#  MAIN REFERENCES: 2002Da21, 1998Ya17, 1998Ga19, 1997Ka59,               
+#  1996Sa24, 1996Bu50, 1987Go21, 1972Sc01, 1971Gr17, 1966Ba07,            
+#  1963Bj03, 1963Dz07, 1960As11.                                          
+#  COMPILATIONS AND EVALUATIONS: 2006BeZL (DDEP evaluation, also 2006Ch34 
+#  by the same author), 2000Ho27, 1998Ak04, 1989Ho24,                     
+#  1991Ry01 (also 1979Ry03 by the same author), 1986LoZT.                 
+#  OTHERS: 1995Jo23, 1992FR04, 1991Sh06, 1991Jo07, 1990Pe03, 1987Ko14,    
+#  1986Ag04, 1984Sh32, 1984Hi09, 1984Gl03, 1984BUZJ, 1979Be58,            
+#  1974Ah02, 1972Ke29, 1972Ko04, 1971Bb10, 1970TO08, 1969ScZZ, 1968DU06,  
+#  1968Be26, 1964Ma55, 1962Iv01, 1960BE25, 1958Wh09, 1956HU96, 1956SM18   
+#  Others: 2003Ue02, 1999Pa55, 1996Bo19, 1995Us03, 1995Bb16, 1994Us01,    
+#  1994St21, 1994Jo01, 1994Al38, 1993Pa29, 1992Us03, 1992Us02, 1992Ga19,  
+#  1992Co10, 1990Po14, 1990Ba55, 1990An33, 1970By01, 1969Ba57,            
+#  1968By01                                                               
+#  1991Sh06: |g spectrum for mixed {+243}Cm and {+244}Cm sources.         
+#  1990Pe03: Measured detailed subshell ce spectrum for                   
+#  42.8 and 98.8 transitions and deduced conversion coefficients. The     
+#  |g-ray energies and intensities of five transitions were also measured.
+#  1974Ah02: measured ce data for 42.8 transition                         
+#  1972Sc01 (also 1971BeYT,1969ScZZ): Measured g rays with                
+#  emphasis on g.s. band transitions.                                     
+#  Measurement of ternary |a and triton emission in {+244}Cm SF decay:    
+#  Vermote et al., Nucl. Phys. A 806, 1 (2008). Emission probability for  
+#  long-range |a particles (LRA)/SF event=0.00316 {I9}.                   
+#  Emission probability for triton emission per SF event=0.000198 {I24}   
+#A E$From 1966Ba07, 1963Dz07 and 1960As11, unless otherwise noted.        
+#A A few values are also given by 1998Ga19, 1992Fr04 and 1971Gr17         
+#A IA$ Unless otherwise stated, the values are from the DDEP              
+#A evaluation (2006BeZL) based on measurements of 2002Da21, 1998Ya17,     
+#A 1998Ga19, 1997Ka59, 1996Sa24, 1996Bu50, 1984BuZJ, 1966Ba07, 1963Dz07,  
+#A 1960As11, 1956Hu96.                                                    
+#A E(A)$From 1971Gr17, with values adjusted as recommended by 1991Ry01    
+#A and 1998Ak04.                                                          
+#A HF$From 1998Ak04, with r{-0}({+240}Pu)=1.4979 {I7}                     
+#G $ There seems no detailed |g-ray study published in the                
+#G open literature. Three main |g rays of 42.8, 98.8 and                  
+#G 152.6 keV were measured precisely by 1972Sc01. Higher energy           
+#G gamma rays were reported in two separate compilations:                 
+#G 1978LeZA reported results from a 1967 priv. comm. from                 
+#G C.M. Lederer and 1970Sc39 reported gamma-ray data from                 
+#G 1969ScZZ conference paper by Schmorak et al. Five gamma                
+#G rays from 42.8 to 554.5 keV were reported by 1990Pe03                  
+#G with energies and intensities.                                         
+#G $ 916|g was neither seen by 1969ScZZ nor reported by                   
+#G 1978LeZA. Upper limit of intensity: <0.4 (1969ScZZ)                    
+#G E$ FROM 1978LEZA COMPILATION (WHO QUOTED PRIV COMM FROM                
+#G ^C.^M. ^Lederer IN 1967), UNLESS OTHERWISE STATED. OTHERS:             
+#G 1990Pe03, 1969SCZZ (CONFERENCE PAPER, results quoted in 1970Sc39       
+#G evaluation), 1963BJ03, 1956SM18, 1956Hu96                              
+#G E(A)$ FROM 1972SC01.                                                   
+#G RI$From weighted average of values from 1978LeZA and 1969ScZZ,         
+#G unless otherwise noted.                                                
+#G E(X)$ G NOT SEEN BY 1969SCZZ, UPPER INTENSITY LIMIT GIVEN              
+#G MOST OF THE G RAYS.                                                    
+#G M$From 'adopted gammas', unless otherwise noted.                       
+#L J$From 'adopted levels'.                                               
+#P 0.0         0+                18.11 Y   3              5901.74   5     
++A alpha 5.80477 0.769
++A alpha 5.76264 0.231
++G gamma 0.042824 2.635E-4
++A alpha 5.664 2.0400000000000003E-4
++A alpha 5.513 3.52E-5
++A alpha 5.315 4.0000000000000003E-7
++A alpha 5.215 5.6E-7
++G gamma 0.5545 8.5E-7
++G gamma 0.5972000000000001 5.185E-7
++A alpha 5.16664 4.0E-8
++G gamma 0.5069 8.5E-8
++A alpha 4.96 1.49E-6
++A alpha 4.92 5.0E-7
++G gamma 0.7586 1.3685E-7
++G gamma 0.8575 5.61E-8
++G gamma 0.9001 1.275E-8
+

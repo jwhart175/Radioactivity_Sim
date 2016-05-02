@@ -1,0 +1,20 @@
+#209FR    213AC A DECAY                 1968VA04,2000HE17         15NDS    201506
+#  213AC A DECAY                 1968VA04,2000HE17         15NDS    201506
+#H TYP=FUL$AUT=J. CHEN {+#} AND F.G. KONDEV$CIT=NDS 126, 373 (2015)$      
+#H CUT=30-Sep-2013$                                                       
+#  1968VA04: 213AC activities were produced by the 197AU(20NE,6N),        
+#  209BI(12C,8N) and 203TL(16O,8N) reactions at beam energies of 99 MEV   
+#  20NE, 118 MEV 12C, and 112 and 135 MEV 16O from the Berkeley heavy-ion 
+#  linear accelerator (^HILAC). |a particles were detected by a Si(Au)    
+#  surface-barrier detector. Measured single E|a, |a(t).                  
+#  2000HE17: 213AC activities were produced using various heavy-ion       
+#  reactions at GSI. Reaction products were separated by a velocity       
+#  filter (^SHIP). 16-strip position-sensitive silicon detector was       
+#  used to implant the recoils and correlate subsequent |a decay          
+#  events. Measured single E|a, |a(t).                                    
+#A HF$R0(209FR)=1.471 11, weighted average of R0(208RN)=1.466 8 and       
+#A R0(210RA)=1.492 16, both deduced by using HF=1                         
+#P 0.0          9/2-             738 MS    16             7501      6     
+AC213 FR209 alpha 7.501 0.738 1.0
++A alpha 7.36 1.0
+

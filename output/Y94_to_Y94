@@ -1,0 +1,16 @@
+# 94Y     94Y IT DECAY                  1999GE01                  06NDS    200609
+#  94Y IT DECAY                  1999GE01                  06NDS    200609
+#H TYP=FUL$AUT=D. Abriola(a), A.A. Sonzogni$CIT=NDS 107, 2423 (2006)$     
+#H CUT=1-Jan-2006$                                                        
+#  1999GE01: 241PU(N,F), E=thermal; measured EG, IG(T), deduced isomer    
+#  decay scheme.  Others: 1977SEZJ, 1976SEZN                              
+#L J$From adopted levels                                                  
+#L E$From least squares fit to EG assuming |D EG=1 keV                    
+#G M$From reduced G transition rates, compared with shell-model analysis  
+#G and comparisons with nearby nuclei                                     
+#P 1202.3      (5+)              1.35 US   2              0               
+Y94 Y94 IT 0.0 1.35E-6 1.0
++G gamma 0.4322 0.85
++G gamma 0.7699 0.85
++G gamma 1.2024000000000001 0.15
+

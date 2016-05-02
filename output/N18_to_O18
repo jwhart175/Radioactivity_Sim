@@ -1,0 +1,45 @@
+# 18O     18N B- DECAY                                            95NP     199607
+#  18N B- DECAY                                            95NP     199607
+#H TYP=FUL$AUT=TILLEY, WELLER, CHEVES, CHASTELER$CIT=NP A595, 1 (1995)$   
+#H CUT=31-OCT-1994$                                                       
+#  Branchings to GAMMA decaying levels are from 1982Ol01.                 
+#  Branchings to ALPHA deacying levels are from 1989Zh04.                 
+#  Branchings to neutron decaying levels are from 1994Sc01.               
+#  12.2% 6 of the BETA decay branching ratios has been measured to feed   
+#  ALPHA emitting states 1989Zh04. 14.3% 20 has been measured to feed     
+#  neutron decaying states 1991Re02. The BETA branchings of GAMMA decaying
+#  states (1982Ol01) have been renormalized to take these delayed particle
+#  branchings into account.                                               
+#B IB$Branchings do not add up to 100% since neutron decaying levels      
+#B below 9.00 MEV were not measured by 1994Sc01 and there is a missing    
+#B 12.1% to neutron decaying levels not listed.                           
+#P 0           1-                624 MS    12             13899     20    
+N18 O18 beta- 13.899 0.624 0.735
++G gamma 1.981933 0.98
++G gamma 1.572 0.0064
++G gamma 1.651564 0.605
++G gamma 3.63331 0.0018
++G gamma 1.93819 0.0449
++G gamma 3.9200999999999997 0.006500000000000001
++G gamma 0.5352380000000001 0.0285
++G gamma 0.821708 0.606
++G gamma 0.90137 0.0042
++G gamma 2.47303 0.204
++G gamma 4.45493 0.0085
++G gamma 1.17733 0.0042
++G gamma 1.5434 0.001
++G gamma 3.1145 0.0092
++G gamma 1.07477 0.008
++G gamma 1.60958 0.0085
++G gamma 3.5477 0.020099999999999996
++G gamma 6.19707 0.013999999999999999
++G gamma 1.8939300000000001 0.0037
++G gamma 2.42967 0.0141
++G gamma 4.366 0.0084
++G gamma 0.68224 0.0034999999999999996
++G gamma 1.35025 0.013999999999999999
++G gamma 2.42478 0.1753
++G gamma 2.6729600000000002 0.0163
++G gamma 3.31513 0.0063
++G gamma 5.7885 0.0358
+

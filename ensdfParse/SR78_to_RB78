@@ -1,0 +1,27 @@
+# 78RB    78SR EC DECAY (160 S)         1997MU02,1992GR09         09NDS    200910
+#  78SR EC DECAY (160 S)         1997MU02,1992GR09         09NDS    200910
+#H TYP=FUL$AUT=AMEENAH R. FARHAN, BALRAJ SINGH$CIT=NDS 110, 1917 (2009)$  
+#H CUT=30-Jun-2009$                                                       
+#  1997Mu02: The {+78}Sr isotope produced in {+54}Fe({+28}Si,2p2n)        
+#  reaction. Measured E|g, I|g, |g|g, K| x ray, isotopic half-life,       
+#  two Ge detectors. The |g|g coincidence spectra obtained with gates     
+#  on 46.8|g and 103.5|g                                                  
+#  1992Gr09: Measured E|g, I|g, isotopic half-life                        
+#  1982Li17: Measured E|g, x rays, isotopic half-life. Four |g rays       
+#  reported at 46.9, 87.0, 243.5 and 268.3                                
+#  The level scheme is proposed only by 1997Mu02 from their |g|g data     
+#  Total decay energy of 1231 keV {I20} calculated (by RADLIST code)      
+#  from level scheme is much lower than the expected value of             
+#  3762 keV {I11}. The decay scheme is not known well                     
+#G E,RI$ FROM 1992GR09 UNLESS OTHERWISE STATED. The gamma-ray energies    
+#G listed by 1997Mu02 are in agreement with those from 1992Gr09, but      
+#G consistently lower by about 0.2-0.3 KEV.                               
+#G Numerical values of intensities were not listed by 1997Mu02, these     
+#G were shown only in terms of width of arrows in the decay scheme drawing
+#G E(A),RI(A)$ FROM 1997MU02 ONLY. INTENSITY ESTIMATED BY THE EVALUATORS  
+#G FROM width OF ARROWS IN FIGURE 3 OF 1997MU02                           
+#L E$ From least-squares fit to E|g's, assuming |D(E|g)=0.2 KEV for each  
+#L |g ray, reduced |h{+2}=0.66                                            
+#L J(B)$ POSSIBLE allowed or first forbidden |e+|b{++} feeding from 0+    
+#P   0.0         0+                160 S   8                 3762   11    
+

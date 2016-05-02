@@ -1,0 +1,62 @@
+#132TE C  See also 132SB B- DECAY (2.79 M+4.10 M) dataset from 2004HU08          
+#  See also 132SB B- DECAY (2.79 M+4.10 M) dataset from 2004HU08          
+#  and 2004HUZX                                                           
+#  OTHERS:                                                                
+#  1999FO01: MEASURED Q- FROM BG DATA                                     
+#  1977AL09, 1975AL11: MEASURED BETA SPECTRA, DEDUCED Q-, BETA-STRENGTH   
+#  FUNCTIONS                                                              
+#  1975BA36: MEASURED T1/2, EG, IG                                        
+#  1974MEZP, 1974GR29, 1974FO06, 1972NA10: ISOTOPIC T1/2                  
+#  1973JO02: TOTAL ABSORPTION GAMMA SPECTRA, DEDUCED BETA-STRENGTH        
+#  FUNCTIONS                                                              
+#  1973ER18 (ALSO 1970ERZZ): T1/2, EG, IG, GG                             
+#  OTHER T1/2(132SB): 1956Po07, 1956Pa20, 1939Ab02                        
+#B E$ FROM BG COIN (1977AL09)                                             
+#G RI$ |DI|g: based on the statement that uncertainties are 5% for        
+#G I|g>15, 10% for 15|>I|g>2 and 20% or 0.2 units, whichever is           
+#G the larger for I|g|<2 (1974Ke08)                                       
+#G E(A)$ FROM 1979BO26 (CURVED-CRYSTAL SPECTROMETER MEASUREMENT)          
+#G E(X)$ PLACED ELSEWHERE IN THE LEVEL SCHEME GIVEN IN 2004HUZX           
+#G (preprint from AUTHORS OF 2004HU08) AND THEIR GG COIN DATA             
+#L E(A)$ LEVEL NOT SUPPORTED BY 2004HU08 AND 2004HUZX.                    
+#L ALL GAMMA RAYS ARE PLACED ELSEWHERE BASED ON GG COIN DATA.             
+#L THIS LEVEL IS NOT LISTED IN "ADOPTED LEVELS"                           
+#L J$ FROM ADOPTED LEVELS                                                 
+#P 0.0          (4+)             2.79 M    7              5509      14    
+SB132 TE132 beta- 5.509 167.4 0.99
+
+#132TE4CL ARE POPULATED IN 132TE IT DECAY (3.70 US)                              
+#L ARE POPULATED IN 132TE IT DECAY (3.70 US)                              
+#P10.0          (4+)             2.79 M    7              5509      14    
+SB132 TE132 IT 0.0 167.4 1.0
+
+#132TE C  See also 132SB B- DECAY (2.79 M+4.10 M) dataset from 2004HU08          
+#  See also 132SB B- DECAY (2.79 M+4.10 M) dataset from 2004HU08          
+#  and 2004HUZX                                                           
+#  OTHERS:                                                                
+#  1986FO02: MEASURED G FACTOR BY GG(THETA,H,T)                           
+#  1979SI18: BG(T)                                                        
+#  ISOTOPIC T1/2: 1975BA36, 1974MEZP, 1970ERZZ, 1974FO06, 1972NA10,       
+#  1966ST25                                                               
+#  G: 1970ERZZ, 1979MEZO                                                  
+#G RI$ |DI|g: based on the statement that uncertainties are 10% for       
+#G I|g>10 and 20% or 1 unit, whichever is the larger, for I|g|<10         
+#G (1974Ke08)                                                             
+#G M$ From ce data (1973Mc09); data normalized to 527, M4 transition      
+#G in {+135}Xe                                                            
+#G E(A),RI(A)$ From 1979Si18                                              
+#G E(B)$ VALUE FROM 1979BO26 (CURVED-CRYSTAL SPECTROMETER MEASUREMENT)    
+#G E(X)$ PLACED ELSEWHERE IN THE LEVEL SCHEME GIVEN IN 2004HUZX           
+#G (preprint from AUTHORS OF 2004HU08) AND THEIR GG COIN DATA             
+#L E(A)$ LEVEL NOT SUPPORTED BY 2004HU08 AND 2004HUZX.                    
+#L ALL GAMMA RAYS ARE PLACED ELSEWHERE BASED ON GG COIN DATA.             
+#L THIS LEVEL IS NOT LISTED IN "ADOPTED LEVELS"                           
+#L J$ FROM ADOPTED LEVELS                                                 
+#P  0+X         (8-)             4.10 M    5              5509      14    
+SB132 TE132 beta- 5.509 245.99999999999997 1.0
++G gamma 0.293 0.04
++G gamma 1.7637 0.04
++G gamma 1.8545999999999998 0.02
++G gamma 2.664 0.04
++G gamma 0.9739 1.0
+

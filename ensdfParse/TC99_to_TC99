@@ -1,0 +1,32 @@
+# 99TC    99TC IT DECAY (6.0067 H)                                11NDS    201102
+#  99TC IT DECAY (6.0067 H)                                11NDS    201102
+#H TYP=FUL$AUT=E. BROWNE, J. K. TULI$CIT=NDS 112, 275 (2011)$             
+#H CUT=1-Nov-2009$                                                        
+#  Modified by E. Browne (May 3, 2010; BRICC)                             
+#  The {+99}Tc isomeric state decays mainly via the 2.17-keV E3           
+#  transition which is highly converted. The decay constant               
+#  depends slightly on the electronic environment of the                  
+#  nucleus. Experimentally studied dependence on                          
+#  chemical state: 1980Ma03, 1972Ni07, 1953Ba41;                          
+#  temperature: 1972Ni07, 1958Be92; pressure (1972Ma27);                  
+#  external electric field: 1970Le25;                                     
+#  a theoretical study of these effects together with a review            
+#  of the experimental results is reported by 1977Do07.                   
+#  See 2004BeZR for evaluated decay data.                                 
+#  For calculation of atomic electron densities and changes in            
+#  |a caused by the chemical and ionization state see 1981Hi03.           
+#  The influence of the chemical environment on the conversion            
+#  electron spectrum has been investigated by 1983Dr15 and 1982Ge01,      
+#  the influence on I(K|a| x ray), I(K|b| x ray) by 1981Yo08.             
+#  T{-1/2} affected by strong radiation (1993Bi15)                        
+#  T{-1/2} for source implanted in Sn and Pb (2000Ko54),                  
+#  chemical influence on E(ce) (1996FiZW)                                 
+#  Others: T{-1/2} 1939Se04, 1950Gl04; T{-1/2} (environment effect):      
+#  1960Po04, 1998Ko72.                                                    
+#  ce 1951Me18, 1951Mi21, 1952Mi38,                                       
+#  1952Sc27, 1956La40, 1958Ch08, 1995Dr08.                                
+#P   142.6832111/2-              6.0067 H  5                              
+TC99 TC99 IT 0.0 21624.120000000003 0.999963
++G gamma 0.140511 0.89
++G gamma 0.14263 2.2250000000000001E-4
+

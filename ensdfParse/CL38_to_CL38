@@ -1,0 +1,13 @@
+# 38CL    38CL IT DECAY (715 MS)        1972BR53,1974GR48,1962KI0908NDS    200802
+#  38CL IT DECAY (715 MS)        1972BR53,1974GR48,1962KI0908NDS    200802
+#H TYP=FUL$AUT=JOHN A. CAMERON AND BALRAJ SINGH$CIT=NDS 109, 1 (2008)$    
+#H CUT=26-Nov-2007$                                                       
+#  1972BR53: MEASURED T1/2                                                
+#  1974GR48, 1962KI09: MEASURED EG, CE, T1/2                              
+#  1954SC37: MEASURED T1/2                                                
+#  Total decay energy deposit of 671 keV calculated by RADLIST            
+#  code is in agreement with the expected value                           
+#L J$ FROM 'ADOPTED LEVELS'                                               
+#P 671.361    8 5-               715 MS    3                              
+CL38 CL38 IT 0.0 0.715 1.0
+

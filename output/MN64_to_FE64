@@ -1,0 +1,38 @@
+# 64FE    64MN B- DECAY (90 MS)         1999HA05,2000HAZL         07NDS    200703
+#  64MN B- DECAY (90 MS)         1999HA05,2000HAZL         07NDS    200703
+#H TYP=FUL$AUT=BALRAJ SINGH$CIT=NDS 108, 197 (2007)$CUT=31-Dec-2006$      
+#  1999Ha05, 2000HaZL: Measured E|g, I|g, |g|g, isotopic T1/2             
+#  LEVEL SCHEME FROM 2000HAZL, ONLY THE FIRST 2+ LEVEL IS                 
+#  DISCUSSED IN 1999HA05                                                  
+#  1999SO20: 746G REPORTED FROM 64MN DECAY                                
+#  2002MaZN: 696 {I1} and 747 {I1} |g rays reported by 2002MaZN           
+#  2005GaZR: measured isotopic half-life                                  
+#B IB$ FROM INTENSITY BALANCE (EVALUATOR), THESE VALUES ARE CONSIDERED    
+#B AS TENTATIVE SINCE DETAILS OF FEEDING TO GS ARE NOT KNOWN AND THERE    
+#B IS A LARGE GAP OF ABOUT 8 MEV BETWEEN Q VALUE AND THE HIGHEST LEVEL    
+#B AT 4227 KEV. ALL FEEDINGS AND ASSOCIATED LOGFT VALUES ARE THUS GIVEN   
+#B AS APPROXIMATE VALUES                                                  
+#B LOGFT$ DEDUCED BY THE EVALUATOR USING '^LOGFT' CODE. THE VALUES        
+#B LISTED BY 2000HAZL ARE SOMEWHAT DIFFERENT                              
+#G E,RI$ FROM LEVEL SCHEME FIGURE 5.1 OF 2000HAZL, UNLESS OTHERWISE       
+#G STATED. AS PER E-MAIL (MARCH 9, 2006) FROM AUTHOR OF 2000HAZL,         
+#G CORRESPONDING VALUES LISTED IN FIGURE 5.3 ARE PRELIMINARY              
+#G E(A)$ ASSIGNMENT TO 64MN DECAY IS UNCERTAIN, COULD ALSO BELONG TO      
+#G THE DECAY OF DAUGHTER ACTIVITY (64FE) OR GRAND-DAUGHTER (64CO)         
+#G E(X)$ 2006Ho20 mention that 746|g also seen independently by           
+#G I. Matea (Ph.D. thesis, University de Caen (2003); ref. 15 in 2006Ho20)
+#G E(M),RI(M)$ |g identified (by 2006Ho20) from a spectrum obtained from  
+#G the measurement by 1999Ha05. Intensity estimated by the evaluator      
+#G from this spectrum                                                     
+#L E$ FROM LEAST-SQUARES FIT TO EG'S, ASSUMING 1 KEV UNCERTAINTY FOR      
+#L EACH G RAY                                                             
+#L J$ THE B FEEDINGS AND ASSOCIATED (ALLOWED) LOGFT VALUES FROM (1+)      
+#L PARENT STATE AND G TO GS SUGGEST 1+,2+ FOR 1444, 1853, 2117, 3307 AND  
+#L 4227 LEVELS. THE B FEEDINGS AND ASSOCIATED LOGFT VALUES SUGGEST        
+#L 0+,1+,2+ FOR 3093 AND 3317 LEVELS. HOWEVER, IN THE OPINION OF THE      
+#L EVALUATOR, ALL B FEEDINGS AND LOGFT VALUES SHOULD BE CONSIDERED AS     
+#L ONLY THE APPROXIMATE VALUES, THUS FIRM JPI ASSIGNMENTS CANNOT BE MADE. 
+#L THE ASSIGNMENTS GIVEN HERE ARE THE SAME AS IN adopted levels           
+#P 0               (1+)           90 MS    4              12.15E3   38    
+MN64 FE64 beta- 12.15 0.0 1.0
+

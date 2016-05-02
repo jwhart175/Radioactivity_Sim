@@ -1,0 +1,50 @@
+#231TH    231AC B- DECAY                1999AA03,1986GI08         13NDS    201306
+#  231AC B- DECAY                1999AA03,1986GI08         13NDS    201306
+#H TYP=FUL$AUT=E. BROWNE, J. K. TULI$CIT=NDS 114, 751 (2013)$             
+#H CUT=24-May-2013$                                                       
+#  Modified by E. Browne (June 2001).                                     
+#  Modified by E. Browne (September 14, 2012) BRICC, GTOL, LOGFT, RADLST  
+#  1999AA03: 231AC was produced by spallation of 1-GEV protons on a       
+#  231TH target, and subsequently mass separated in the ISOLDE mass       
+#  separator. Measured EG, RI, BG(T), BGG(T). Deduced levels half-lives,  
+#  detectors: hyperpure germanium for G rays, plastic scintillator        
+#  for B-.                                                                
+#  1986GI08: 231AC was produced by bombarding targets of natural tungsten 
+#  with 2.7-GEV 238U ions, and subsequently mass separated. Measured EG,  
+#  RI, BG coin. Deduced G-ray multipolarities from x- and G-ray data.     
+#  Detectors: hyperpure germanium for G rays, plastic scintillator        
+#  for B-.                                                                
+#  A total Th XK intensity of 45.6% 27 (relative to RI(282G)=39.0% 16),   
+#  deduced by evaluator using the computer program ^RADLST and the        
+#  G-ray data presented here, compares with an experimental value of      
+#  37.0% 16 (1985HI02). A total average radiation energy of 2065 KEV 74,  
+#  deduced by evaluator using the computer program ^RADLST, compares      
+#  with Q-=1945 KEV 13 from mass tables (2012Wa38). These results         
+#  reflect the consistency of the decay scheme.                           
+#  T=15 M 1, EB=2100 KEV 100 (1960TA19).                                  
+#  Measured G rays at 85-, 185-, and very weak and uncertain              
+#  transitions at 280-, 390-, and 710 keV.  The disagreement in the       
+#  half-life value and in the intensity of the 280-keV G ray              
+#  (the strongest from 231AC) suggest that this activity is not           
+#  231AC. It may be due to telurium (1999AA03,1973CH24).                  
+#G CC$ FROM BrIcc v2.2 (31-Mar-2008) 2008KiAA, "Frozen Orbitals" appr.    
+#G E,RI$Weighted average (lwm) of values from 1999AA03, 1986GI08,         
+#G 1985HI02, and 1973CH24.                                                
+#G TI        From G-ray transition intensity balance                      
+#G M$From conversion coefficients deduced from coincident X-RAY           
+#G intensities, unless otherwise specified (1986GI08).                    
+#G CC$Values for [M1+E2] use MR=1.0, unless otherwise specified.          
+#L           1973CH24 placed the 396.9-, 503.5-, and 528.1-KEV G rays     
+#L deexciting levels at 713- and 820 KEV. 1999AA03, however, has          
+#L interpreted these transitions as due to sum peaks in the G-ray         
+#L spectrum. Therefore, the existence of such levels could                
+#L not be confirmed.                                                      
+#L J         From adopted levels                                          
+#L E$Deduced by evaluator from a least-squares fit to G-ray energies.     
+#L T$From BG(T) and BGG(T), unless otherwise specified (1999AA03).        
+#P 0              1/2+           7.5 M     1              1945      13    
+AC231 TH231 beta- 1.945 450.0 0.39
++G gamma 0.28246 1.0
++G gamma 0.30705 0.785
++G gamma 0.36893 0.392
+

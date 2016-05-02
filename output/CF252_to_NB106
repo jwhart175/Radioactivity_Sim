@@ -1,0 +1,20 @@
+#106NB    252CF SF DECAY                2014LU07                  ENSDF    201507
+#  252CF SF DECAY                2014LU07                  ENSDF    201507
+#H TYP=FUL$AUT=BALRAJ SINGH$CIT=ENSDF$CUT=20-JUL-2015$                    
+#  2014Lu07: {+252}Cf source of 62 |mCi was used. Measured E|g, I|g,      
+#  |g|g-coin in double-gated spectra with |g rays from complementary      
+#  fission fragments. Gamma rays were detected by Gammasphere array at    
+#  LBNL. Comparison with projected shell-model (PSM) calculations         
+#G E,RI$ Based on a general statement in 2014Lu07 that energy and         
+#G intensity uncertainties are 0.1-0.3 keV and 3-10%, respectively,       
+#G evaluator assigns as follows: 0.1 keV and 3% for I|g>20, 0.2 keV and   
+#G 5% for I|g=10-20, and 0.3 keV and 10% for I|g<10                       
+#L J$The assignments are proposed by 2014Lu07, based on possible          
+#L 2-qp states from potential-energy surface (PES) and projected          
+#L shell model (PSM) calculations                                         
+#L BAND(A)$|p1/2[431]~#|n5/2[532],K|p=2-,|a=0.                            
+#L Configuration proposed by 2014Lu07                                     
+#L BAND(a)$|p1/2[431]~#|n5/2[532],K|p=2-,|a=1                             
+#P  0           0+                 2.645 Y 8                              
+CF252 NB106 SF 0.0 0.0 1.0
+

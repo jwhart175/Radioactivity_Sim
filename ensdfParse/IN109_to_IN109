@@ -1,0 +1,29 @@
+#109IN    109IN IT DECAY (1.34 M)                                 06NDS    200602
+#  109IN IT DECAY (1.34 M)                                 06NDS    200602
+#H TYP=FUL$AUT=JEAN BLACHOT$CIT=NDS 107, 355 (2006)$CUT=1-Aug-2005$       
+#L J$From adopted levels                                                  
+#P 650.1     3 1/2-              1.34 M    7                              
+IN109 IN109 IT 0.0 80.4 1.0
++G gamma 0.6501 0.937
+
+#109IN    109IN IT DECAY (0.209 S)      1994BYZZ                  06NDS    200602
+#  109IN IT DECAY (0.209 S)      1994BYZZ                  06NDS    200602
+#H TYP=FUL$AUT=JEAN BLACHOT$CIT=NDS 107, 355 (2006)$CUT=1-Aug-2005$       
+#  FIXED T1/2 for isomer to adopted value - 8/2/96 JKT                    
+#  The decay scheme is from 1994ByZZ. Others: 1966We01, 1965Al15.         
+#  |g|g-coin 1963Po10, 1965De15, 1969Ya05.                                
+#  |g|g-sum spectrum results of 1966We01 show the presence of a peak with 
+#  energy { 2110 {i20}}. This peak corresponds to the energy sum of       
+#  { 1435 {i20}} + { 680 {i15}}={ 2120 {i50}} and to the sum of           
+#  { 405 {i15}} + { 680 {i15}} + { 1035 {i30}}={ 2120 {i40}} (see         
+#  1966We01).                                                             
+#G M$From adopted gammas                                                  
+#G E,RI$From 1994ByZZ                                                     
+#L T$From adopted levels                                                  
+#P 2101      1  (19/2+)          0.209 S   6                              
+IN109 IN109 IT 0.0 0.209 1.0
++G gamma 1.0252999999999999 0.25
++G gamma 0.4022 0.21
++G gamma 1.4275 0.75
++G gamma 0.6735 1.0
+

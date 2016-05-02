@@ -1,0 +1,52 @@
+#155SM    155PM B- DECAY                1982GR13,1997GR09         05NDS    200501
+#  155PM B- DECAY                1982GR13,1997GR09         05NDS    200501
+#H TYP=FUL$AUT=C. W. REICH$CIT=NDS 104, 1 (2005)$CUT=1-Jun-2004$          
+#  DATA SET UPDATED (DECEMBER, 2002) BY CW REICH TO INCLUDE BETA-FEEDING  
+#   AND RELATED DATA, TOGETHER WITH EXPANDED AND REVISED COMMENTS.        
+#  Production: nuclide obtained as a product of spontaneous fission of    
+#  252CF. 1982Gr13 carried out rapid chemical separation using            
+#  high-performance liquid chromatography and assigned this activity to   
+#  155PM based on observation of the grow-in of the 22.3-min 155SM        
+#  daughter activity and the agreement between the measured G-ray         
+#  energies and those measured by 1982Sc03 in the 154SM(N,G) reaction.    
+#  1988GrZY used on-line isotope separation and assigned this activity to 
+#  155PM based on its presence in the mass-155 peak and the observation   
+#  of the appropriate K X-RAYS.                                           
+#  From analysis of total-absorption |g-ray spectra, 1997Gr09 deduce      
+#   |b feeding intensities to the excited states of 155SM. These authors  
+#   state that these data are consistent with those from their measured   
+#   |g spectra, but these latter data remain unpublished.                 
+#B IB        From total-absorption |g-ray spectroscopy (1997Gr09).        
+#B IB        1997Gr09 REPORT THE FOLLOWING |b FEEDING INTENSITIES TO      
+#B  REGIONS OF EXCITATION WHERE NO SPECIFIC LEVELS ARE AS YET IDENTIFIED: 
+#B  BETWEEN 1020 AND 1106, 0.42%; BETWEEN 1168 AND 1328, 1.77%;           
+#B  AND, ABOVE 1362, 6.9%. THESE VALUES ARE NOT INCLUDED IN THE LISTING   
+#B  OF |b INTENSITIES ASSOCIATED WITH THE IDENTIFIED LEVELS.              
+#B IB(S)     FROM IB=40.7|+2.1% FOR THE SUMMED INTENSITY TO THE FOUR      
+#B  LOWEST STATES IN 155SM (1995Gr19).                                    
+#G E,RI      From 1982Gr13.                                               
+#G M,MR      Reported by 1982Sc03 from 154SM(N,G)                         
+#L E(Q)      "pseudo-level" INTRODUCED TO ACCOUNT FOR B- FEEDING TO THIS  
+#L  REGION OF EXCITATION, WHERE NO INDIVIDUAL LEVELS ARE REPORTED. SEE    
+#L  THE COMMENT ON THE IB VALUES. EXCEPT FOR THE HIGHEST SUCH "level",    
+#L  THE LISTED VALUE REPRESENTS THE CENTROID OF THE REGION TO WHICH THE   
+#L  FEEDING TAKES PLACE. SINCE THIS DOES NOT CORRESPOND TO ANY SPECIFIC   
+#L  ACTUAL LEVEL, IT IS NOT INCLUDED IN THE Adopted Levels.               
+#L J         FROM THE Adopted Values. FOR THE EXCITED STATES REPORTED IN  
+#L  TOTAL-ABSORPTION |g SPECTROSCOPY (1997Gr09), THE JPI VALUES ARE THOSE 
+#L  FOR THE LEVELS PRESUMED TO CORRESPOND TO PREVIOUSLY ESTABLISHED ONES. 
+#P 0.0          5/2-               41.5 S  2                3220    30    
++B beta- 1.262 0.013500000000000002
++B beta- 1.251 0.0084
++B beta- 1.092 0.0091
++B beta- 1.039 0.0027
++B beta- 1.02 0.0060999999999999995
++B beta- 0.966 0.2706
++B beta- 0.947 0.0643
++B beta- 0.91 0.00161
++B beta- 0.903 0.026600000000000002
++B beta- 0.898 0.0015
++B beta- 0.883 0.0017299999999999998
++B beta- 0.791 0.0025
++B beta- 0.706 0.0294
+

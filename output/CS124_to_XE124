@@ -1,0 +1,191 @@
+#124XE    124CS EC DECAY                1988WA33,1983WE07,1977CH2108NDS    200807
+#  124CS EC DECAY                1988WA33,1983WE07,1977CH2108NDS    200807
+#H TYP=FUL$AUT=J. KATAKURA, Z.D. WU$CIT=NDS 109, 1655 (2008)$             
+#H CUT=1-Apr-2008$                                                        
+#  The decay scheme is that proposed by 1988Wa33 on the basis of          
+#  E|g sums and |g|g coin                                                 
+#  1988Wa33: {+92}Mo({+32}S,X), on-line mass; semi;                       
+#  mini-orange electron spectrometer Ice;                                 
+#  measured E|g, I|g, |g|g coin, Ice                                      
+#  1983We07: La,Ce({+3}He,xn), on-line mass, semi; measured E|g, I|g      
+#  1977Ch21: La(p,spallation) E(p)=600 MeV, on-line mass, semi; measured  
+#  E|g, I|g, |g|g coin                                                    
+#  1996Os04: measured Q(|e) value from |b|g coin as 5910 keV {I30}        
+#  1979Si11: {+124}Xe(p,n) enriched target, semi; measured |g|g(|q)       
+#  1978Dr01: {+124}Xe(p,n) enriched target, on-line mass, semi; measured  
+#  E|g, I|g                                                               
+#G                                                                        
+#G               |g|g(|q) data from 1979Si11                              
+#G                                                                        
+#G     cascade |g-ray energies            A{-2}                A{-4}      
+#G            (keV)                                                       
+#G  --------------------------------------------------------------------- 
+#G           493 - 354                -0.16 {I4}            0.32 {I5}     
+#G           915 - 354                 0.23 {I12}           1.14 {I18}    
+#G          1336 - 354                 0.10 {I20}           1.0 {I3}      
+#G  --------------------------------------------------------------------- 
+#G                                                                        
+#G                                                                        
+#G            X(E0/E2) values from 1988Wa33                               
+#G                                                                        
+#G     Level energy    Electron energy   Gamma energy     X(E0/E2)        
+#G        (keV)             (keV)           (keV)                         
+#G  --------------------------------------------------------------------- 
+#G       1268              1268             914         |< 0.015 {I5}*    
+#G       1268              1268             422         |< 0.004 {I1}*    
+#G       1689              1689            1335          < 0.1            
+#G       1689              1689             843          < 0.1            
+#G       2374              2374            2020          < 2              
+#G       2374              2374            1528          < 5              
+#G       2374              2374             744          < 0.4            
+#G  --------------------------------------------------------------------- 
+#G   * Possible E0 admixture in the 1274 keV transition that cannot be    
+#G     resolved from 1268 keV transition in the conversion electron       
+#G     spectrum.                                                          
+#G                                                                        
+#L E         From a least-squares fit to E|g's                            
+#L J         From adopted levels                                          
+#G E,RI      Average of data of 1988Wa33, 1983We07, 1977Ch21,             
+#G unless otherwise noted; weak |g's with intensity                       
+#G lower than 0.1 in 1988Wa33 are assigned by the evaluators as           
+#G |DE|g of 0.5 and |DI|g of 50%.                                         
+#G E(A)      Questionable |g's observed in 1983We07                       
+#G E(B)      From 1983We07                                                
+#G M,MR      From |g|g(|q) and |a(K)exp                                   
+#G $         |a(K)exp from 1988Wa33, unless otherwise noted. Values are   
+#G renormalized by evaluator to |a(K)(E2)=0.0207 for 354|g.               
+#G TI(M)$Calculated by Ice(E0)=Ice(K)(E0)|*(1+0.125) for a correction of  
+#G higher shell contribution.                                             
+#G $         864, 1003, 1269 and 1425 |g's observed in 1983We07 and       
+#G 1977Ch21 are attributed to coincidence summing in 1988Wa33             
+#P 0.0         1+                30.8 S    5              5929      9     
+CS124 XE124 beta+ 5.929 30.8 0.47
++G gamma 0.05385 0.0042
++G gamma 0.0582 0.0123
++G gamma 0.0649 0.0015
++G gamma 0.07479999999999999 0.0015
++G gamma 0.0895 0.031
++G gamma 0.09655 0.0305
++G gamma 0.1118 5.0E-4
++G gamma 0.1695 0.0034000000000000002
++G gamma 0.18897999999999998 0.016
++G gamma 0.21164 0.033
++G gamma 0.2703 0.0062
++G gamma 0.33126 0.003
++G gamma 0.34742 0.001
++G gamma 0.38827 0.001
++G gamma 0.54018 0.003
++G gamma 0.55269 0.001
++G gamma 0.59889 0.001
++G gamma 0.6358400000000001 0.001
++G gamma 0.6675399999999999 0.002
++G gamma 0.6961900000000001 0.002
++G gamma 0.74771 0.002
++G gamma 0.75836 0.001
++G gamma 0.7768999999999999 4.0E-4
++G gamma 0.78032 0.004
++G gamma 0.82738 0.002
++G gamma 0.8711 0.001
++G gamma 0.8797999999999999 0.0017000000000000001
++G gamma 0.90642 0.001
++G gamma 0.91151 0.002
++G gamma 0.957 3.0E-4
++G gamma 0.9910599999999999 0.004
++G gamma 1.02 0.0013
++G gamma 1.0261099999999999 0.001
++G gamma 1.0735999999999999 7.000000000000001E-4
++G gamma 1.07771 0.001
++G gamma 1.143 0.001
++G gamma 1.217 0.001
++G gamma 1.22703 0.001
++G gamma 1.2915 8.0E-4
++G gamma 1.31036 0.001
++G gamma 1.3175 4.0E-4
++G gamma 1.3548099999999998 0.001
++G gamma 1.41367 0.001
++G gamma 1.41948 0.001
++G gamma 1.44352 0.002
++G gamma 1.4488800000000002 0.002
++G gamma 1.5283900000000001 0.001
++G gamma 1.53851 0.001
++G gamma 1.5529000000000002 0.002
++G gamma 1.655 0.001
++G gamma 1.66553 0.004
++G gamma 1.70082 0.001
++G gamma 1.7592999999999999 8.0E-4
++G gamma 1.8065799999999999 0.002
++G gamma 1.82949 0.001
++G gamma 1.96513 0.001
++G gamma 2.0014000000000003 2.0E-4
++G gamma 2.1034 4.0E-4
++G gamma 2.1176999999999997 2.0E-4
++G gamma 2.126 0.02
++G gamma 2.18567 0.0012
++G gamma 2.2508000000000004 4.0E-4
++G gamma 2.324 2.0E-4
++G gamma 2.4058699999999997 0.0012
++G gamma 2.467 1.0E-4
++G gamma 2.5686 6.0E-4
++G gamma 2.6 9.0E-4
++G gamma 2.6369000000000002 1.0E-4
++G gamma 2.7444 6.0E-4
++G gamma 2.776 2.0E-4
++G gamma 2.8371999999999997 1.0E-4
++G gamma 2.8613000000000004 6.0E-4
++G gamma 2.9065 2.0E-4
++G gamma 2.9088000000000003 2.0E-4
++G gamma 2.9577 2.0E-4
++G gamma 2.9885 7.000000000000001E-4
++G gamma 3.0279000000000003 2.0E-4
++G gamma 3.1013 3.0E-4
++G gamma 3.1092 1.0E-4
++G gamma 3.1471999999999998 2.0E-4
++G gamma 3.4093 1.0E-4
++G gamma 0.35401 1.0
++G gamma 0.49255 0.09
++G gamma 0.84658 0.029900000000000003
++G gamma 0.5248400000000001 0.0091
++G gamma 0.3692 0.0029
++G gamma 0.40153 0.0031
++G gamma 0.8936799999999999 0.0040999999999999995
++G gamma 0.42244 0.0108
++G gamma 0.91484 0.1
++G gamma 0.36006 0.003
++G gamma 0.74954 0.0048
++G gamma 0.78198 0.0049
++G gamma 1.27436 0.0113
++G gamma 1.62849 0.0222
++G gamma 0.84351 0.002
++G gamma 1.33575 0.0127
++G gamma 1.0999400000000001 0.0021
++G gamma 1.13201 0.0042
++G gamma 1.624 0.002
++G gamma 1.9785899999999998 0.0028000000000000004
++G gamma 1.32644 0.001
++G gamma 1.35863 0.0032
++G gamma 1.85153 0.006999999999999999
++G gamma 0.7446 0.001
++G gamma 1.52745 0.001
++G gamma 2.01964 0.015600000000000001
++G gamma 2.38207 0.0034000000000000002
++G gamma 1.27201 0.0029
++G gamma 1.64029 0.002
++G gamma 1.67332 8.0E-4
++G gamma 2.1654 0.0216
++G gamma 2.51919 0.0029
++G gamma 1.68943 0.013999999999999999
++G gamma 2.18175 0.001
++G gamma 1.489 3.0E-4
++G gamma 1.50979 0.001
++G gamma 2.7591300000000003 0.001
++G gamma 1.5438399999999999 0.002
++G gamma 2.4457 3.0E-4
++G gamma 2.7998000000000003 2.0E-4
++G gamma 1.1356199999999999 0.001
++G gamma 1.9795 5.0E-4
++G gamma 2.47152 0.0016
++G gamma 2.8258 1.0E-4
++G gamma 1.9534 2.0E-4
++G gamma 2.31326 0.0029
++G gamma 3.0503 3.0E-4
+

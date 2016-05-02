@@ -1,0 +1,25 @@
+#223PA    227NP A DECAY                 1990NI05,1990AN19,1994YE0801NDS    200110
+#  227NP A DECAY                 1990NI05,1990AN19,1994YE0801NDS    200110
+#H TYP=FUL$AUT=E. BROWNE$CIT=NDS 93, 846 (2001)$CUT=1-May-2001$           
+#  ADDED N RECORD (TWB. 19990323)                                         
+#  MODIFIED BY E. BROWNE (FEBRUARY 2000)                                  
+#  1990NI05: 227NP activity was produced by 209BI(22NE,4N), E=121 MEV, and
+#  identified by mass separation and by detection of ALPHA particles with 
+#  EA=8010 KEV from 223PA, the daughter nucleus. No spontaneous fission   
+#  activity was observed. Measured EA. Detector: semi.                    
+#  1990AN19, 1994YE08: 227NP activity was produced by 209BI(22NE,4N),     
+#  E=106-115 MEV, separated using the recoil separator ^VASSILISSA, and   
+#  identified by detection of ALPHA particles with EA=8.00 15 MEV and     
+#  EA=8.20 15 MEV from 223PA, its daughter nucleus. Measured EA.          
+#  Detector: semi.                                                        
+#  The 1-min spontaneous fission activity (T=60 S 5 (1966KU13), T=51 S 15 
+#  (1976SOZT)), previously assigned to 228NP or 227NP, probably belongs to
+#  228NP.                                                                 
+#            AN ELECTRON CAPTURE DELAYED FISSION ACTIVITY WITH T=1.07 M 3 
+#  HAS BEEN OBSERVED AND ASSIGNED TO 228NP ON THE BASIS OF CHEMICAL       
+#  SEPARATION OF NEPTUNIUM, AND ON THE IDENTIFICATION OF DAUGHTER NUCLEI  
+#  WHICH BELONG TO THE ELECTRON CAPTURE DECAY CHAIN (1990HAZY).           
+#A E         From 1990NI05                                                
+#P 0.0                            0.51 S   6              7816      14    
+NP227 PA223 alpha 7.816 0.0 1.0
+

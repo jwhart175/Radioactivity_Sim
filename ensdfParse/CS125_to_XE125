@@ -1,0 +1,68 @@
+#125XE    125CS EC DECAY                1972JH01                  11NDS    201102
+#  125CS EC DECAY                1972JH01                  11NDS    201102
+#H TYP=FUL$AUT=J. KATAKURA$CIT=NDS 112, 495 (2011)$CUT=1-Jan-2010$        
+#  1993Al03: Total |g absorption; deduced Q                               
+#  1987Fr10: ce({+3}He,X), on-line ms, ce|g(t); deduced T{-1/2}           
+#  1975We23: La(p,spallation) on-line ms, |b|g-coin; deduced Q            
+#  1972Jh01: I(|a,NX), semi |g; proposed level scheme on the basis of     
+#  E|g sums                                                               
+#E $         E|b+ from 1975We23                                           
+#G E         Uncertainty is not given by authors (1972Jh01).              
+#G 1 keV is assigned to the placed |g's by the evaluators.                
+#G E(W)      Weak |g ray; no intensity was given (1972Jh01)               
+#L J         Spin and parity values are those given under adopted         
+#L levels                                                                 
+#L E         From least-squares fit to E|g's by evaluators                
+#P 0.0         1/2(+)            46.7 M    1              3104      8     
+CS125 XE125 beta+ 3.104 2802.0 1.0
++G gamma 0.335 0.02046
++G gamma 0.654 0.00434
++G gamma 0.78 0.00217
++G gamma 0.808 7.75E-4
++G gamma 0.865 0.0030380000000000003
++G gamma 0.922 0.008369999999999999
++G gamma 0.995 0.00527
++G gamma 1.06 0.0018290000000000001
++G gamma 1.228 0.00155
++G gamma 1.783 0.00217
++G gamma 1.825 0.00124
++G gamma 1.855 0.0018599999999999999
++G gamma 2.116 0.008060000000000001
++G gamma 2.201 0.00124
++G gamma 2.269 0.00124
++G gamma 2.623 4.6499999999999997E-4
++G gamma 2.726 4.6499999999999997E-4
++B beta+ 7.059999999999999E-4 0.00227
++B beta+ 0.9358 0.0042
++G gamma 0.112 0.08618
++B beta+ 0.8849 0.0046
++G gamma 0.412 0.0527
++G gamma 0.526 0.24552
++B beta+ 0.6982999999999999 0.006
++G gamma 0.428 0.01581
++G gamma 0.54 0.031
++B beta+ 0.6915 0.0060999999999999995
++G gamma 0.6 0.031
++G gamma 0.712 0.035339999999999996
++B beta+ 0.6146 0.0067
++G gamma 1.2 0.0018599999999999999
++G gamma 1.311 0.00217
++B beta+ 0.3502 0.008199999999999999
++G gamma 1.212 0.00341
++G gamma 1.326 9.299999999999999E-4
++B beta+ 0.3443 0.008199999999999999
++G gamma 1.468 0.002635
++G gamma 1.579 0.0027900000000000004
++B beta+ 0.2333 0.0084
++G gamma 1.158 0.00434
++G gamma 1.698 0.0027900000000000004
++B beta+ 0.1814 0.0084
++G gamma 2.044 6.2E-4
++G gamma 2.154 0.0018599999999999999
++B beta+ 8.491999999999999E-4 0.0011844
++G gamma 2.414 4.6499999999999997E-4
++G gamma 2.523 0.00124
++B beta+ 8.436E-4 0.00122
++G gamma 2.431 6.2E-4
++G gamma 2.545 2.48E-4
+

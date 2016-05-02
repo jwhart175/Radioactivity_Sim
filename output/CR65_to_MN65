@@ -1,0 +1,29 @@
+# 65MN    65CR B- DECAY                 2005GA01,2003SO21         10NDS    201009
+#  65CR B- DECAY                 2005GA01,2003SO21         10NDS    201009
+#H TYP=FUL$AUT=E. BROWNE, J. K. TULI$CIT=NDS 111, 2425 (2010)$            
+#H CUT=1-Aug-2009$                                                        
+#  1999SO20,1999LE67                                                      
+#  Compiled (unevaluated) dataset from 2005Ga01:                          
+#  Eur Phys J A 23, 41 (2005); 2003So21: Nuc Phys A 719, 193c (2003);     
+#  1999So20: Nuc Phys A 660, 3 (1999); Nucl Phys A 669, 351 (2000).       
+#  Includes 1999Le67: Nuc Phys A 654, 683c (1999).                        
+#  All papers are by the same group.                                      
+#  Compiled by J. Roediger and B. Singh (McMaster) July 14, 2005          
+#  All the data are from 2005Ga01, unless otherwise stated.               
+#  {+65}Cr produced in fragmentation of {+76}Ge{+30+} beam on a {+58}Ni   
+#  target.  LISE3 achromatic spectrometer used to separate fragments;     
+#  magnetic rigidity was tuned to optimize transmission of {+62}V         
+#  {+64}Cr fragments.  Transmitted nuclei were identified by three        
+#  consecutive Si detectors where two served for energy loss and          
+#  time-of-flight measurements whereas the last determined their residual 
+#  energies.                                                              
+#  Measured E|g, I|g, I|b, |g|g, |b|g coin, |g(t), lifetimes with four Ge 
+#  detectors placed around a thick Si telescope.  Half-lives determined by
+#  fitting procedure involving five parameters: half-lives of mother,     
+#  daughter and grand-daughter nuclei, the |b-efficiency and the          
+#  background rate over the 1 s collecting time.                          
+#  Others: 2005GaZR, 2002MaZN.                                            
+#G E(A)$Uncertain assignment                                              
+#P 0.0          (1/2-)            27 MS    3              12880     SY    
+CR65 MN65 beta- 12.88 0.0 1.0
+

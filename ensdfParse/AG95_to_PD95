@@ -1,0 +1,36 @@
+# 95PD    95AG EC DECAY                 2005HA45                  10NDS    201010
+#  95AG EC DECAY                 2005HA45                  10NDS    201010
+#H TYP=FUL$AUT=S. K. Basu, G. Mukherjee, A. A. Sonzogni$                  
+#H CIT=NDS 111, 2555 (2010)$CUT=30-Jun-2009$                              
+#  {+95}Ag isotope produced in {+58}Ni({+40}Ca,p2n) reaction at E=3.9     
+#  MeV/nucleon.  Reaction products stopped in hot C catcher inside a      
+#  ^FEBIAD-^B2C ion source.  Mass separation. Measured E|g, I|g, |g|g,    
+#  |b-|g coin, |b-|g(t) coin with 13 Ge crystals in close geometry (one   
+#  ^CLUSTER, one ^CLOVER, one 60% single HPGe and a ^LEPS).               
+#E IE$From |g intensity balance, assuming I(EC+BP) to GS AP 25; as a      
+#E result, these values are all approximate.                              
+#E LOGFT$Approximate values from IE                                       
+#G RI$Determined from |b-|g coin spectrum.  Summing corrections not       
+#G taken into account.                                                    
+#G E(X)$Coin only with 511-keV annihilation radiation peak.               
+#L E$From least-squares fit to E|g's                                      
+#L J$Adopted from 2003Ma24, unless stated otherwise.                      
+#L J(Y)$From their strong |g deexcitation to 9/2+ ground state of 95Pd    
+#L (2005Ha45)                                                             
+#P 0.0          (9/2+)            1.74 S    13             9865     SY    
++B beta+ 2.25 2.7E-4
++B beta+ 4.15 0.0
++B beta+ 3.53 0.0
++B beta+ 3.32 0.0
++B beta+ 3.27 0.0
++B beta+ 3.18 0.0
++B beta+ 3.16 0.0
++B beta+ 3.04 0.0
++B beta+ 3.03 0.0
++B beta+ 2.97 0.0
++B beta+ 2.93 0.0
++B beta+ 2.89 0.0
++B beta+ 2.83 0.0
++B beta+ 2.81 0.0
++B beta+ 2.71 0.0
+

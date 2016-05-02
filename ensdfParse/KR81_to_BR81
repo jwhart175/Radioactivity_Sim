@@ -1,0 +1,80 @@
+# 81BR    81KR EC DECAY (2.29E5 Y)      1988AX01                  08NDS    200810
+#  81KR EC DECAY (2.29E5 Y)      1988AX01                  08NDS    200810
+#H TYP=FUL$AUT=CORAL M. BAGLIN$CIT=NDS 109, 2257 (2008)$CUT=15-Aug-2008$  
+#  Others: 1974Ch40, 1972ScYQ.                                            
+#  1988Ax01: 81KR from 81RB (4.576 H) decay; ^Ge, NAI                     
+#  and proportional counters;                                             
+#  measured I(276G), I(Br x rays), G-x ray coin, M/L capture ratio.       
+#  1972ScYQ, 1974Ch11: 81KR from 80KR(N,G), enriched target. Measured with
+#  GE(LI) and SI(LI) (1972ScYQ), or proportional counter (1974Ch40).      
+#G E         From 1972ScYQ                                                
+#L E         FROM EG.                                                     
+#L J         FROM Adopted Levels.                                         
+#N 0.00298   20          1.0       1.0                                    
+KR81 BR81 beta+ 0.0 3436.8 1.0
+#N NR        0.00298 20 from measured EC branching to 276 level=0.30% 2   
+#N (1988Ax01) and adopted CC(276G). This conflicts with NR=0.036 4 implied
+#N by measured I(276G)/I(K X-RAY, Br)=0.068 8 (1972ScYQ), assuming        
+#N fluorescence yield (Br)=0.618 19,                                      
+#N K-capture to total-capture ratio=0.847, CC=0.0112.                     
+#N                                                                     3  
+#P 0           7/2+              2.29E5 Y  11             280.8     5     
++B beta+ 8.4731E-4 0.0012
++G gamma 0.27599 0.00298
+
+# 81BR    81KR EC DECAY (13.10 S)       1987LO06,1987DA06         08NDS    200810
+#  81KR EC DECAY (13.10 S)       1987LO06,1987DA06         08NDS    200810
+#H TYP=FUL$AUT=CORAL M. BAGLIN$CIT=NDS 109, 2257 (2008)$CUT=15-Aug-2008$  
+#  Other: 1992Na21                                                        
+#  1987Da06: high purity 81KR (13 S) from 81RB-81KR (13 S) generator in   
+#  plastic scintillator cell; COMPTON suppressed SI(LI).                  
+#  1987Lo06: mass separated 81KR from 81RB (4.6 H) decay, SI(LI) (240 EV  
+#  resolution) and pilot ^B scintillator.                                 
+#  Other: 1980Be44 (superseded by 1987Lo06):                              
+#  81KR (13 S) produced by (P,N), E=22 MEV, mass-separated, measured with 
+#  SI(LI) (energy resolution 250 EV for 12.65-KEV KR (XKA)) surrounded by 
+#  pilot ^B scintillator.                                                 
+#L J         FROM Adopted Levels.                                         
+#N                       2.47E-05  4.05E+04                               
+KR81 BR81 beta+ 0.2808 7.2265321152E12 2.47E-05
+#N BR        From measured IE.                                            
+#N                                                                        
+#P 190.64    4 1/2-              13.10 S   3              280.8     5     
++B beta+ 6.9E-4 0.0031
+
+# 81BR    81KR EC DECAY (13.10 S)       1987LO06,1987DA06         08NDS    200810
+#  81KR EC DECAY (13.10 S)       1987LO06,1987DA06         08NDS    200810
+#H TYP=FUL$AUT=CORAL M. BAGLIN$CIT=NDS 109, 2257 (2008)$CUT=15-Aug-2008$  
+#  Other: 1992Na21                                                        
+#  1987Da06: high purity 81KR (13 S) from 81RB-81KR (13 S) generator in   
+#  plastic scintillator cell; COMPTON suppressed SI(LI).                  
+#  1987Lo06: mass separated 81KR from 81RB (4.6 H) decay, SI(LI) (240 EV  
+#  resolution) and pilot ^B scintillator.                                 
+#  Other: 1980Be44 (superseded by 1987Lo06):                              
+#  81KR (13 S) produced by (P,N), E=22 MEV, mass-separated, measured with 
+#  SI(LI) (energy resolution 250 EV for 12.65-KEV KR (XKA)) surrounded by 
+#  pilot ^B scintillator.                                                 
+#L J         FROM Adopted Levels.                                         
+#N                       2.47E-05  4.05E+04                               
+KR81 BR81 beta+ 0.2808 7.2265321152E12 2.47E-05
+#N BR        From measured IE.                                            
+#N                                                                        
+#P 190.64    4 1/2-              13.10 S   3              280.8     5     
++B beta+ 6.9E-4 0.0031
++G gamma 0.276 1.0
++G gamma 0.2605 0.13
++G gamma 0.5381 0.26
++G gamma 0.2902 0.13
++G gamma 0.5672999999999999 0.06
++G gamma 0.6502 0.18
++G gamma 0.49169999999999997 0.06
++G gamma 0.767 0.23
++G gamma 0.2902 0.06
++G gamma 0.5516 0.06
++G gamma 0.8282 0.18
++G gamma 0.5614 0.1
++G gamma 0.456 0.03
++G gamma 0.7482000000000001 0.09
++G gamma 0.6766 0.03
++G gamma 0.7896 0.2
+

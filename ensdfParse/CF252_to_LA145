@@ -1,0 +1,25 @@
+#145LA    252CF SF DECAY                1999ZH05,2001HA14         09NDS    200902
+#  252CF SF DECAY                1999ZH05,2001HA14         09NDS    200902
+#H TYP=FUL$AUT=E. BROWNE, J. K. TULI$CIT=NDS 110, 507 (2009)$             
+#H CUT=1-Oct-2008$                                                        
+#  Modified by E. Browne (January 25, 2008)                               
+#  Compiled (unevaluated) dataset from 1999Zh05: Phys Rev C59, 1316       
+#  (1999), and 2001Ha14: Acta Phys Pol B32, 957 (2001).                   
+#  Includes 1999Ha10 or 1999Ha18: Acta Phys Sloveca 49, 31 (1999) and     
+#  1999Zh08: Chin. Phys Lett 16, 169 (1999)                               
+#  Compiled by: J. Chenkin, B. Singh  (McMaster) June 11, 1999.           
+#  Updated by: C.T. Malcolmson and B. Singh (McMaster) May 30, 2001.      
+#  Measured E|g, I|g, |g|g using GAMMASPHERE array with 72 Compton-       
+#  suppressed Ge detectors. Others: 1999Ha10, 1999Zh08.                   
+#G E(A)$ From Table I of 1999Zh05. The value given in figures             
+#G (1999Zh05,2001Ha14) is slightly different                              
+#L E$Deduced by evaluators from least-squares fit to E|g's, assuming      
+#L |D(E|g)=0.3 keV for each |g ray.                                       
+#L J         From Adopted Levels                                          
+#L BAND(A)$Rotational band based on (11/2-)                               
+#L BAND(B)$Rotational band based on (25/2+)                               
+#L BAND(C)$(5/2+) GS rotational band, |a=+1/2                             
+#L BAND(c)$(5/2+) GS rotational band, |a=-1/2                             
+#L BAND(D)$(15/2-) rotational band                                        
+#P 0            0+               2.645 Y   8                              
+

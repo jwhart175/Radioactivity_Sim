@@ -1,0 +1,16 @@
+# 49TI    49V EC DECAY                  1983HU03,1983BA08,1972KR1208NDS    200809
+#  49V EC DECAY                  1983HU03,1983BA08,1972KR1208NDS    200809
+#H TYP=FUL$AUT=T. W. Burrows{+a}$CIT=NDS 109, 1879 (2008)$CUT=14-Jul-2008$
+#  1983HU03 MEASURED ^I(^KX) (2PI pc,NAI) AND T1/2 (NaI(Tl); AP 600 D)    
+#  WITH 55FE (T1/2=1007 D) AS A STANDARD.                                 
+#  OTHERS: SEE 1995BU23                                                   
+#E           1972KR12 MEASURED L/K RATIO                                  
+#E           1983BA08 MEASURED INNER BREMSSTRAHLUNG; NAI                  
+#N                        1.0      1.                                     
+#P 0.0         7/2-              330 D      15            601.9     8     
+V49 TI49 beta+ 0.6019 2.8512E7 1.0
++G gamma 1.5425 1.0
++G gamma 0.9632999999999999 0.7
++G gamma 0.7847999999999999 0.36
++G gamma 1.092 0.14
+

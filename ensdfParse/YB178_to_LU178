@@ -1,0 +1,19 @@
+#178LU    178YB B- DECAY                1973OR03                  09NDS    200907
+#  178YB B- DECAY                1973OR03                  09NDS    200907
+#H TYP=FUL$AUT=E. Achterberg, O.A. Capurro, G.V. Marti$                   
+#H CIT=NDS 110, 1473 (2009)$CUT=31-May-2008$                              
+#  1973Or03: {+178}Yb sources for the |b decay studies were prepared by   
+#  {+176}Yb(t,p), E(T)=12 MeV, target enriched to 97.8%. Chemical         
+#  separation, Ge(Li), NaI(Tl) and anthracene scintillator detectors.     
+#  Measured E|g, I|g, E|b, |g|g and |b|g coincidences. T measured for the 
+#  {+178}Yb g.s. decay. A preliminary report of this work was made in     
+#  Bull. Am. Phys. Soc. 15, 523, ^DF10 (1970).                            
+#G M         Multipolarities suggested in 1973Or03.                       
+#P 0.0         0+                74 M      3              645       10    
+YB178 LU178 beta- 0.645 4440.0 1.0
++B beta- 0.2011 0.85
++G gamma 0.0424 0.067
++B beta- 0.0705 0.15
++G gamma 0.3484 0.64
++G gamma 0.39080000000000004 1.0
+

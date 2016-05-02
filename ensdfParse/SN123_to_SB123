@@ -1,0 +1,49 @@
+#123SB    123SN B- DECAY (129.2 D)      1974RA03                  04NDS    200410
+#  123SN B- DECAY (129.2 D)      1974RA03                  04NDS    200410
+#H TYP=FUL$AUT=S. Ohya$CIT=NDS 102, 547 (2004)$CUT=1-Nov-2003$            
+#            THE DECAY SCHEME IS THAT PROPOSED BY 1974RA03 AND IS         
+#  BASED ON ENERGY SUMS AND GG-COIN                                       
+#  OTHER: 1966AU04: SCIN GG-COIN, BG-COIN                                 
+#L E         E(levels) are based on a least-squares fit to E|g's.         
+#L J$From Adopted Levels.                                                 
+#P 0.0         11/2-             129.2 D   4              1403.6    29    
+SN123 SB123 beta- 1.4036 1.1162879999999998E7 1.0
++B beta- 0.5258999999999999 0.9937
++G gamma 0.16033 1.9319999999999998E-5
++B beta- 0.11001999999999999 3.1E-4
++G gamma 1.03023 3.102E-4
++B beta- 0.09078 0.006
++G gamma 1.08864 0.006
++B beta- 0.06167 2.2000000000000003E-5
++G gamma 1.021 1.926E-5
++G gamma 1.18123 2.94E-6
++B beta- 0.03818 1.4E-6
++G gamma 1.1005 8.4E-7
++G gamma 1.2609000000000001 5.399999999999999E-7
++B beta- 0.017070000000000002 9.8E-6
++G gamma 1.17706 2.2799999999999998E-6
++G gamma 1.33744 7.56E-6
+
+#123SB    123SN B- DECAY (40.06 M)      1977TI03,1974RA03         04NDS    200410
+#  123SN B- DECAY (40.06 M)      1977TI03,1974RA03         04NDS    200410
+#H TYP=FUL$AUT=S. Ohya$CIT=NDS 102, 547 (2004)$CUT=1-Nov-2003$            
+#  THE DECAY SCHEME INCLUDES THE RESULTS OF E(G)'S, I(G)'S OF 1974RA03    
+#  AND 1977TI03.                                                          
+#  OTHERS: 1968BA04: GG-COIN; 1949DU15: BG-COIN; 1963SC12: BG(T);         
+#  1970SI21: BG(T)                                                        
+#L E$ E(LEVELS) ARE BASED ON A LEAST-SQUARES FIT TO THE E(G)'S.           
+#G E,RI$CALCULATED FROM THE WEIGHTED AVERAGE OF 1974RA03 AND 1977TI03,    
+#G UNLESS NOTED OTHERWISE.                                                
+#G E(A)$REPORTED ONLY BY 1977TI03.                                        
+#L J$ From Adopted Levels.                                                
+#P 24.6      4 3/2+              40.06 M   1              1403.6    29    
+SN123 SB123 beta- 1.4036 2403.6000000000004 1.00
++B beta- 0.4591 0.9992
++G gamma 0.16032 0.857
++B beta- 0.3008 5.5E-4
++G gamma 0.38139999999999996 4.1993E-4
++G gamma 0.5418 1.9711E-4
++B beta- 0.2336 1.7E-4
++G gamma 0.1709 6.856000000000001E-5
++G gamma 0.5525 1.0284E-4
+

@@ -1,0 +1,16 @@
+#194TL2C  CE-G, T1/2(isotope), A DECAY. See also 1987ElZY from the same authors  
+#  CE-G, T1/2(isotope), A DECAY. See also 1987ElZY from the same authors  
+#  Others: 1982Hi04, 1978AtZZ, 1976WeZM, 1960Ju01, 1960An03. Only the     
+#  204G was reported in earlier studies (1984Hi04,1978AtZZ,1960Ju01)      
+#G M,MR      From CE data (1987El09,1987ElZY)                             
+#G E(A)      Energy and intensity from GG only                            
+#G E(B)      Tentative placement suggested by the evaluator on the basis  
+#G of energy sums, not included in deducing G-ray intensity balance       
+#L E$ From least-squares fit to EG's                                      
+#L J$ From adopted levels                                                 
+#P  0.0         0+                10.7 M   6              2.62E3    14    
+PB194 TL194 alpha 2.62 0.0 1.0
++G gamma 0.0 1.0
++G gamma 0.0 1.16
++G gamma 1.51945 1.01
+

@@ -1,0 +1,39 @@
+# 36K     36CA EC DECAY (101.2 MS)      2001LO11,1997TR05         12NDS    201201
+#  36CA EC DECAY (101.2 MS)      2001LO11,1997TR05         12NDS    201201
+#H TYP=FUL$AUT=NINEL NICA, JOHN CAMERON AND BALRAJ SINGH$                 
+#H CIT=NDS 113, 1 (2012)$CUT=31-Dec-2011$                                 
+#  1997Tr05, 1995Tr02, 1995Ga16: {+36}Ca from {+9}Be({+40}Ca,X)]          
+#  E=300 MeV/nucleon; measured |b-delayed E(p), I(p), E|g, I|g, |b|g coin,
+#  |b|gp coin, T{1/2}. Comparison with {Isd}-shell model calculations     
+#  2001Lo11: {+36}Ca beam from fragmentation of {+40}Ca beam at           
+#  95 MeV/nucleon by nickel target using LISE3 spectrometer at GANIL.     
+#  Measured E|g, E|b, |b-delayed proton spectra; deduced log ft,          
+#  ^B(^GT). 36K deduced IAS proton decay features.                        
+#  Comparison with shell model predictions.                               
+#  2007Do17: measured half-life and delayed proton spectra                
+#  Others: 1981Ay01, 2007Do17                                             
+#  36CA also decays to 35AR by ECP (51.2% 10).                            
+#  Theoretical calculations: 1990Br26, 1984Mu25                           
+#L E$BASED ON 1993AU07 AND 1995AU04, THE SP=1666 8                        
+#L WAS PRESUMABLY USED TO CALCULATE THE ^E(level) AND THEIR               
+#L UNCERTAINTIES BY 2001LO11, 1997TR05, AND 1995GA16 FOR THE UNBOUND      
+#L LEVELS LISTED IN THE TABLE (3364 TO 6794). HOWEVER NEITHER SP NOR THE  
+#L PROTON ENERGIES LEADING TO LEVELS IN 35AR, FROM WHICH ^E(level)'s COULD
+#L BE CALCULATED, ARE CONSISTENTLY GIVEN BY THE REFERENCES                
+#L MENTIONED ABOVE. CONSEQUENTLY THE MORE PRECISE SP=1658.9 8 (2011AUZZ)  
+#L IS USED HERE TO RECALCULATE ^E(level) AS FOLLOWS:                      
+#L ^E(level){-recalculated}=^E(level)-1666+1658.9                         
+#L E(A)$ From 2001Lo11 only                                               
+#P 0            0+               101.2 MS  20             10966     40    
+CA36 K36 beta+ 10.966 0.1012 1
++B beta+ 4.206 0.14300000000000002
++B beta+ 3.956 0.31
++B beta+ 3.093 0.10300000000000001
++B beta+ 2.638 0.38
++B beta+ 2.556 0.026000000000000002
++B beta+ 2.454 0.012
++B beta+ 2.168 0.006
++B beta+ 1.92 0.009000000000000001
++B beta+ 1.836 0.022000000000000002
++B beta+ 1.421 0.005
+

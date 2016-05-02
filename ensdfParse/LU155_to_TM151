@@ -1,0 +1,66 @@
+#151TM    155LU A DECAY (68 MS)         1997DA07,1996PA01,1991TO0809NDS    200901
+#  155LU A DECAY (68 MS)         1997DA07,1996PA01,1991TO0809NDS    200901
+#H TYP=FUL$AUT=BALRAJ SINGH$CIT=NDS 110, 1 (2009)$CUT=20-Nov-2008$        
+#  Other major references: 1993Li34, 1989Ho12, 1979Ho10                   
+#  Others: 1965Ma14, 1981HoZM, 1982Du15                                   
+#  Source produced by bombarding a number of targets in the ZR-Sn, FE-MO, 
+#  and V-NI region with 58NI, 92MO, 107AG beams. Using a velocity filter, 
+#  and implantation method with position-time correlation technique they  
+#  performed isotope identification, half-life and ALPHA branching ratio  
+#  measurements.                                                          
+#  EA=5655 5 (1996Pa01), 5648 5 (1993Li34), 5648 5 (1991To08), 5647 5     
+#  (1989Ho12), 5656 6 (1981HoZM)                                          
+#  T1/2=70 MS 1 (1996Pa01), 66 MS 7 (1991To08), 70 MS 6                   
+#  (1979Ho10,1989Ho12). Weighted average=70 MS 1                          
+#  1996Bu35: calculated T1/2                                              
+#P  0            11/2-           68 MS     1              5802.7    26    
+LU155 TM151 alpha 5.8027 0.068 0.90
+
+#151TM    155LU A DECAY (138 MS)        1991TO08,1989HO12,1993LI3409NDS    200901
+#  155LU A DECAY (138 MS)        1991TO08,1989HO12,1993LI3409NDS    200901
+#H TYP=FUL$AUT=BALRAJ SINGH$CIT=NDS 110, 1 (2009)$CUT=20-Nov-2008$        
+#  1997DA07: measured T1/2, |a branching ratio                            
+#  1996Pa01: measured EA, T1/2                                            
+#  1991To08 (also 1991To09): source produced by 94MO(64ZN,x) and          
+#  96MO(64ZN,x) reactions followed by mass separation. Measured ALPHA     
+#  1989Ho12: source produced by 102PD(58NI,X) reaction and mass           
+#  separation. Measured ALPHA                                             
+#  T1/2 for 5579 ALPHA group=140 MS 20 (1991To08,1991To09), 136 MS 9      
+#  (1996Pa01)                                                             
+#  EA=5584 5 (1996Pa01), 5579 5 (1993Li34,1991To08), 5575 10 (1989Ho12)   
+#  See 1993To07 for discussion of the assignment of low spin              
+#  (s{-1/2},d{-3/2}) to the GS and high spin (h{-11/2}) to the isomer at  
+#  AP 21 KEV in 155LU. In some earlier papers (see 1991To08 for example)  
+#  reverse ordering had been suggested                                    
+#  1996Bu35: calculated T1/2                                              
+#P  20       6   1/2+               138 MS 8               5802.7   26    
+
+#151TM    155LU A DECAY (2.69 MS)       1981HOZM,1993LI34,1996PA0109NDS    200901
+#  155LU A DECAY (2.69 MS)       1981HOZM,1993LI34,1996PA0109NDS    200901
+#H TYP=FUL$AUT=BALRAJ SINGH$CIT=NDS 110, 1 (2009)$CUT=20-Nov-2008$        
+#  1981HoZM: produced by bombarding a number of proton rich elements in   
+#  the region of ZR-Sn, FE-MO and V-NI with 58NI, 92MO and 107AG beams.   
+#  Isotopic identification: on the basis of cross-bombardment and lack of 
+#  correlation with any daughter ALPHA lines in the position-time         
+#  correlation technique.                                                 
+#  1993Li34: source produced in 102PD(58NI,X) reaction and                
+#  recoil-separator used to study the fragments                           
+#  The energy of the parent state is deduced from the 7379 ALPHA group    
+#  and 5648 ALPHA group, assuming that the 7379 ALPHA group proceeds      
+#  to the 11/2- g.s. The energy of this state would be higher by AP 50    
+#  KEV if the ALPHA decay proceeds to the s{-1/2} state in 151TM          
+#  1996Pa01: measured EA, T1/2                                            
+#  1996Bu35: calculated T1/2                                              
+#  JPI=25/2- for the ALPHA decaying state is from 1989Ho12.               
+#  The absence of ALPHA decay to other high-spin states involving         
+#  lesser L-transfer (than L=6 or 12 involved in decay to GS or s{-1/2}   
+#  state) is not explained                                                
+#  EA=7408 10 (1981HoZM), 7379 15 (1993Li34), 7390 5 (1996Pa01)           
+#  T1/2=2.60 MS 7 (1981HoZM), 2.71 MS 3 (1996Pa01)                        
+#A E$Assuming ALPHA branching ratio 100% and S-WAVE transition,           
+#A the reduced |G{-|a} shows a large (AP 1E+5) hindrance. If one          
+#A assumes an angular momentum change of 10+-2, one obtains a reduced     
+#A |G{-|a} of the order of 1, thereby suggesting that the parent          
+#A state is a high-spin isomer.                                           
+#P 1781      2  (25/2-)          2.69 MS   3              5802.7    26    
+

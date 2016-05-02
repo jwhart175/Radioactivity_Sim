@@ -1,0 +1,30 @@
+#158TA    162RE A DECAY (107 MS)        1997DA07                  04NDS    200403
+#  162RE A DECAY (107 MS)        1997DA07                  04NDS    200403
+#H TYP=FUL$AUT=R. G. Helmer$CIT=NDS 101, 325 (2004)$CUT=1-Oct-2003$       
+#  1997Da07: Produced by {+92}Mo({+78}Kr,pxn) at 357 and 384 MeV          
+#       with separation in Fragment Mass Analyzer and implanted in        
+#       silicon strip detector.  Particles emitted were time and          
+#       position correlated.                                              
+#P    0         (2-)              107 MS   13             6270      50    
+RE162 TA158 alpha 6.27 0.0 0.97
++A alpha 6.086 1.0
+
+#158TA    162RE A DECAY (77 MS)         1997DA07,1996PA01,1979HO1004NDS    200403
+#  162RE A DECAY (77 MS)         1997DA07,1996PA01,1979HO1004NDS    200403
+#H TYP=FUL$AUT=R. G. Helmer$CIT=NDS 101, 325 (2004)$CUT=1-Oct-2003$       
+#  1979Ho10, 1981HoZM: Produced by {+107}Ag({+58}Ni,3n) reaction with     
+#       |a's measured with Si detector following a velocity selector.     
+#  1996Pa01: Produced by {+112}Sn({+58}Ni,x) or other reactions and       
+#       separated in recoil mass separator.  |a's measured in silicon     
+#       strip detector with parent-daughter correlation.                  
+#  1997Da07: Produced by {+92}Mo({+78}Kr,pxn) at 357 and 384 MeV          
+#       with separation in Fragment Mass Analyzer and implanted in        
+#       silicon strip detector.  Particles emitted were time and          
+#       position correlated.                                              
+#            The assignment of this |a branch to an isomeric level is     
+#       from 1997Da07.  The energy of the isomer was deduced (1997Da07)   
+#       from the |a energies from the decay of isomers of {+166}Ir.       
+#P    173    13 (9+)             77 MS     9              6270      50    
+RE162 TA158 alpha 6.27 0.077 0.91
++A alpha 6.119 1.0
+

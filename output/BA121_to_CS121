@@ -1,0 +1,82 @@
+#121CS    121BA EC DECAY                1974KA31,1985ICZZ,1988SE0810NDS    201006
+#  121BA EC DECAY                1974KA31,1985ICZZ,1988SE0810NDS    201006
+#H TYP=FUL$AUT=S. OHYA$CIT=NDS 111, 1619 (2010)$CUT=20-Jan-2009$          
+#  1974Ka31: Zr({+32}S,xn), E=180 MeV; on-line ms                         
+#  delayed-proton emission following |e+|b{++} decay of {+121}Ba          
+#  was measured. I(delayed p)/I(|b{++})=0.37/1.8|*10{+3}. No |g-ray       
+#  measurement was made.                                                  
+#  1985IcZZ,1988Se08: {+nat}Mo({+32}S,X), E=165 MeV; on-line mass         
+#  separation; proposed a decay scheme, but                               
+#  the order of the 98.2- and 110.6-keV gammas, also                      
+#  the order of the 99.2- and 111.6-keV gammas are not certain            
+#  1996Os04:measured Q+_ =6.34 MeV {I16} with pure Ge detectors           
+#L J,T       From adopted levels                                          
+#G E,RI$From 1985IcZZ                                                     
+#N                       1.0                                              
+#N                                                                     5  
+#P 0.0         5/2(+)            29.7 S    15             6.36E+3   14    
+BA121 CS121 beta+ 6.36 29.7 1.0
++G gamma 0.0685 1.0
++G gamma 0.09820000000000001 1.0
++G gamma 0.21080000000000002 0.07400000000000001
++G gamma 0.2455 0.63
++G gamma 0.2759 0.54
++G gamma 0.521 0.14400000000000002
++G gamma 0.4169 1.0
++G gamma 0.3039 0.4
++G gamma 0.5802 0.284
++G gamma 0.5702 0.12
++G gamma 0.32739999999999997 0.308
++G gamma 0.6309 0.24
++G gamma 0.347 0.303
++G gamma 0.6745 0.42
++G gamma 0.666 0.311
++G gamma 0.9942000000000001 0.11599999999999999
++G gamma 0.36019999999999996 0.253
++G gamma 0.708 0.27399999999999997
++G gamma 0.1884 0.025
++G gamma 0.2175 0.03
++G gamma 0.367 0.4
++G gamma 0.727 0.99
++G gamma 0.5875 0.17
++G gamma 0.24880000000000002 0.043
++G gamma 0.466 0.040999999999999995
++G gamma 0.366 0.401
++G gamma 0.7332000000000001 0.261
++G gamma 0.2809 0.177
++G gamma 0.5306000000000001 0.068
++G gamma 0.3579 0.125
++G gamma 0.5801000000000001 0.284
++G gamma 0.3135 0.12300000000000001
++G gamma 0.35 0.163
++G gamma 0.708 0.27399999999999997
++G gamma 0.3434 0.027999999999999997
++G gamma 0.667 0.311
++G gamma 0.406 0.08900000000000001
++G gamma 0.757 0.34
++G gamma 0.3747 0.21
++G gamma 0.3944 0.092
++G gamma 0.803 0.35
++G gamma 0.399 0.038
++G gamma 0.774 0.61
++G gamma 0.7571 0.34
++G gamma 0.848 0.267
++G gamma 0.427 0.033
++G gamma 0.895 0.516
++G gamma 0.8388 0.175
++G gamma 1.0095 0.16399999999999998
++G gamma 1.0971 0.127
++G gamma 1.1893 0.081
++G gamma 1.284 0.07
++G gamma 0.2858 1.0
++G gamma 0.4713 2.08
++G gamma 0.6149 0.9
++G gamma 0.7262000000000001 0.99
++G gamma 0.8164 0.7
++G gamma 0.894 0.52
++G gamma 0.9682999999999999 0.39
++G gamma 1.0438 0.20600000000000002
++G gamma 1.12 0.122
++G gamma 1.204 0.076
++G gamma 1.372 0.039
+

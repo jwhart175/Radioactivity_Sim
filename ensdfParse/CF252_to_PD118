@@ -1,0 +1,27 @@
+#118PD    252CF SF DECAY                2001ZH05                  ENSDF    200612
+#  252CF SF DECAY                2001ZH05                  ENSDF    200612
+#H TYP=FUL$AUT=BALRAJ SINGH$CUT=25-DEC-2006$CIT=ENSDF$                    
+#  2001Zh05 (also 2002Ha46): Measured E|g, I|g and |g|g using GAMMASPHERE 
+#  spectrometer, comprised of 72 Compton-suppressed Ge detectors.         
+#  According to a comment made by 2006StZW, the data from {+252}Cf SF     
+#  decay have been reanalyzed (reference 20 in 2006StZW) by the same      
+#  group as 2001Zh05, and the revised level scheme is in agreement with   
+#  that from 238U(A,FG). But the evaluator does not have access to the    
+#  re-analyzed level scheme, thus only the data from 2001Zh05 are         
+#  presented here.                                                        
+#G E(X)$ |g not reported by 2006StZW in 238U(A,FG) study                  
+#G E(Y)$ 539.3-412.5-470.6-681.5 cascade in 2001Zh05 is defined           
+#G as follows by 2006StZW in 238U(A,FG) study: 411.2-539.3 cascade with   
+#G 468.6|g and 680.0|g feeding this cascade in parallel. However,         
+#G the ordering of the 539.3-411.2 cascade is not uniquely determined     
+#G by 2006StZW.                                                           
+#L E$ From least-squares fit to E|g's, assuming |D(E|g)=0.3 keV for       
+#L each |g ray.                                                           
+#L E(D)$ 2006StZW assign this level to a side band                        
+#L E(E)$ 4+ and 5+ members of the |g band are defined at 1462 and         
+#L 1855 keV, respectively by 2006StZW in 238U(A,FG) study                 
+#L BAND(A)$ Yrast band                                                    
+#L BAND(B)$ |g band                                                       
+#P   0.0       0+                  2.645 Y 8                              
+CF252 PD118 SF 0.0 0.0 0.03092
+

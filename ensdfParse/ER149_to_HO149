@@ -1,0 +1,169 @@
+#149HO    149ER EC DECAY (4 S)          1989FI01                  04NDS    200406
+#  149ER EC DECAY (4 S)          1989FI01                  04NDS    200406
+#H TYP=FUL$AUT=BALRAJ SINGH$CIT=NDS 102, 1 (2004)$CUT=20-Apr-2004$        
+#  Mass separated source produced by 94MO(58NI,n2p) E=259 MEV.            
+#  Measured G, x, B+p, B+ in singles and various coincidence modes        
+#E TI$ There is a gap of about 3 MEV between Q value and last known level 
+#E at 5090, and the gamma rays are known up to 1797 level only.           
+#E This suggests that the level scheme is incomplete, and most likely     
+#E there are additional levels and associated |g transitions populated by 
+#E the decay of 4-s 149ER. For this reason, all feedings and associated   
+#E LOGFT values should be treated as approximate.                         
+#E TI(A)$From proton intensity. Feeding does not include possible         
+#E GAMMA-ray deexcitation of the level                                    
+#G M$From adopted gammas                                                  
+#L E(A)$Level decays by proton emission to 148DY, GAMMA deexcitation      
+#L is not known. Level energy is from 1989Fi01 but adjusted in            
+#L accordance with SP=1118 (2003Au03); 1989Fi01 use SP=1400. The          
+#L energy uncertainty is AP 50 KEV                                        
+#L J$From adopted levels unless otherwise stated                          
+#L J(A)$Possible allowed EC decay from (1/2+)                             
+#P 0.0          (1/2+)              4 S    2                7950    30    
++B beta+ 0.9552999999999999 0.006
++B beta+ 2.35 0.0014099999999999998
++B beta+ 1.439 0.00377
++B beta+ 1.343 0.00419
++B beta+ 1.229 0.004739999999999999
++B beta+ 1.119 0.0053
++B beta+ 0.894 0.0064800000000000005
+
+#149HO    149ER EC DECAY (8.9 S)        1989FI01                  04NDS    200406
+#  149ER EC DECAY (8.9 S)        1989FI01                  04NDS    200406
+#H TYP=FUL$AUT=BALRAJ SINGH$CIT=NDS 102, 1 (2004)$CUT=20-Apr-2004$        
+#  1989Fi01 (also 1985To11): mass separated sources produced by           
+#  94MO(58NI,n2p) E=259 MEV (1989Fi01) and 144SM(12C,7N) E=135 MEV        
+#  (1985To11). Measured G, x, B+p, B+ in singles and various coincidence  
+#  modes. The 8.9 S and 4 S activities are mixed                          
+#  Other: 1984ScZU (also 1985ZuZW). Three G's reported at 171.0, 343.7 and
+#  436.6                                                                  
+#E TI$ Deduced from gamma-intensity balance at each level. There          
+#E is a gap of about 3 MEV between Q value and last known level           
+#E at 5098.7, which allows the possibility that there may be              
+#E additional levels and associated |g transitions populated by           
+#E 149ER decay. For this reason, weak feedings (<0.5% or so) should       
+#E be treated as upper limits and associated LOGFT values as              
+#E lower limits                                                           
+#G           Observed HO X-RAY intensities (relative to 100 for 1171G):   
+#G I(XKA1)=137 4, I(XKA2)=242 5, I(XKB2)=70 15, I(XKB1)=21 2 (1989Fi01).  
+#G A systematic uncertainty of 15% should be added to the statistical     
+#G uncertainty given here, as stated by 1989Fi01                          
+#G           I(EC)=510 40, I(B+)=550 140 (1989Fi01) relative to 100       
+#G for 1171G. Total EC is from XK intensity and B+ is from G+- intensity  
+#G           I(delayed protons from 8.9 S and 4 S isomers)=5.2 6          
+#G (1989Fi01) relative to 100 for 1171G. 1989Fi01 estimate that 63% 7     
+#G of the protons are from the decay of the 4-s isomer and 37% 7 proton   
+#G intensity is associated with 8.9-s isomer                              
+#G           From singles and delayed proton intensities,                 
+#G EC/B+=0.83 4 (1989Fi01) for delayed proton decay                       
+#G RI(A)$From GG coin                                                     
+#G RI(B)$From XG coin                                                     
+#G E(C)$ Transition uncertain since a possible 514 line is masked         
+#G by intense G+- line. Intensity quoted here is an upper limit (1989Fi01)
+#G E(D)$ Coin with 344G is inconsistent with this placement               
+#G RI(E)$contribution from 149HO EC decay subtracted by 1989Fi01          
+#G E(F)$ Coin with 171G, 344G, 437G is inconsistent with this placement   
+#G E(G)$ Possible coin with 172G is inconsistent with this placement      
+#L J$ ALL VALUES ARE CONSISTENT WITH THOSE IN ADOPTED LEVELS              
+#L J(A)$Probable allowed or first-forbidden |e+|b{++} feeding from        
+#L (11/2-) parent suggests 9/2, 11/2, 13/2                                
+#L J(B)$Probable allowed or first-forbidden |e+|b{++} feeding from        
+#L (11/2-) parent and G to 7/2+ suggest 9/2, 11/2+. JPI=(9/2-)            
+#L is supported by expected dominance of h{-11/2} proton to h{-9/2}       
+#L neutron component in the BETA transitions (1989Fi01)                   
+#L J(D)$From adopted levels                                               
+#L J(E)$This JPI is inconsistent with LOGFT=6.2-6.4 from (11/2-). Low     
+#L LOGFT value may be due to unobserved GAMMA transitions from higher     
+#L levels                                                                 
+#P  741.8    4  (11/2-)            8.9 S   2               7950     30    
++B beta+ 0.862 0.00664
++B beta+ 3.562 5.0E-4
++B beta+ 3.291 6.1E-4
++B beta+ 3.018 0.00146
++B beta+ 3.0 7.8E-4
++B beta+ 2.994 7.8E-4
++B beta+ 2.95 8.100000000000001E-4
++B beta+ 2.9 8.500000000000001E-4
++B beta+ 2.884 8.6E-4
++B beta+ 2.829 9.0E-4
++B beta+ 2.818 9.1E-4
++B beta+ 2.815 9.1E-4
++B beta+ 2.795 9.299999999999999E-4
++B beta+ 2.772 9.5E-4
++B beta+ 2.745 9.7E-4
++B beta+ 2.731 9.8E-4
++B beta+ 2.717 0.001
++B beta+ 2.687 0.0010199999999999999
++B beta+ 2.607 0.0011
++B beta+ 2.571 0.00114
++B beta+ 2.542 0.00117
++B beta+ 2.535 0.0011799999999999998
++B beta+ 2.521 0.0011899999999999999
++B beta+ 2.506 0.00121
++B beta+ 2.5 0.00122
++B beta+ 2.498 0.00122
++B beta+ 2.479 0.00124
++B beta+ 2.465 0.00126
++B beta+ 2.455 0.00127
++B beta+ 2.453 0.00127
++B beta+ 2.451 0.00128
++B beta+ 2.431 0.0013
++B beta+ 2.425 0.00131
++B beta+ 2.393 0.00135
++B beta+ 2.383 0.00136
++B beta+ 2.372 0.0013800000000000002
++B beta+ 2.369 0.0013800000000000002
++B beta+ 2.363 0.0013900000000000002
++B beta+ 2.331 0.0014399999999999999
++B beta+ 2.326 0.0014399999999999999
++B beta+ 2.318 0.00145
++B beta+ 2.306 0.00147
++B beta+ 2.285 0.0015
++B beta+ 2.268 0.00153
++B beta+ 2.225 0.0016
++B beta+ 2.216 0.00161
++B beta+ 2.203 0.0016300000000000002
++B beta+ 2.18 0.00167
++B beta+ 2.174 0.00168
++B beta+ 2.164 0.0017100000000000001
++B beta+ 2.162 0.0017100000000000001
++B beta+ 2.15 0.0017299999999999998
++B beta+ 2.144 0.0017399999999999998
++B beta+ 2.137 0.0017499999999999998
++B beta+ 2.135 0.0017599999999999998
++B beta+ 2.133 0.0017599999999999998
++B beta+ 2.131 0.0017699999999999999
++B beta+ 2.11 0.0018
++B beta+ 2.105 0.00181
++B beta+ 2.075 0.00187
++B beta+ 2.051 0.00192
++B beta+ 2.027 0.00197
++B beta+ 2.01 0.00201
++B beta+ 1.99 0.0020499999999999997
++B beta+ 1.981 0.00207
++B beta+ 1.975 0.00208
++B beta+ 1.882 0.0023
++B beta+ 1.762 0.00263
++B beta+ 1.746 0.00268
++B beta+ 1.72 0.0027600000000000003
++B beta+ 1.665 0.00293
++B beta+ 1.649 0.00298
++B beta+ 1.627 0.00306
++B beta+ 1.557 0.00331
++B beta+ 1.488 0.00357
++B beta+ 1.475 0.00362
++B beta+ 1.466 0.00366
++B beta+ 1.463 0.00368
++B beta+ 1.412 0.0038900000000000002
++B beta+ 1.382 0.00402
++B beta+ 1.379 0.004030000000000001
++B beta+ 1.369 0.004079999999999999
++B beta+ 1.366 0.00409
++B beta+ 1.361 0.00411
++B beta+ 1.354 0.00414
++B beta+ 1.344 0.00419
++B beta+ 1.341 0.0042
++B beta+ 1.321 0.0043
++B beta+ 1.288 0.00445
++B beta+ 1.275 0.00452
++B beta+ 1.171 0.00503
+

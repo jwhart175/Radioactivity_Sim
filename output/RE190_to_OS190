@@ -1,0 +1,124 @@
+#190OS    190RE B- DECAY (3.1 M)        1974YA02                  03NDS    200306
+#  190RE B- DECAY (3.1 M)        1974YA02                  03NDS    200306
+#H TYP=FUL$AUT=BALRAJ SINGH$CIT=NDS 99, 275 (2003)$CUT=30-Apr-2003$       
+#  1974Ya02 (also 1974YaZU,1972Da07): Measured |g, |g|g, T{-1/2}.         
+#  Others:                                                                
+#  |g: 1972Ru06, 1969Ha44 (also 1970HaYG), 1964Fl02, 1955At21             
+#  |g|g: 1969Ha44 (also 1970HaYG)                                         
+#  |b{+-}: 1969Ha44 (also 1970HaYG), 1955At21                             
+#  T{-1/2} ({+190}Re): 1969Ha44 (also 1970HaYG), 1973DeWI,                
+#  1964Fl02, 1962Ba60, 1955At21                                           
+#  See also {+190}Re |b{+-} decay (3.2 h) for 28 unplaced |g              
+#  rays belonging to either or both the 3.1-min and 3.2-h isomers of      
+#  {+190}Re                                                               
+#G E$Weighted averages (1974Ya02) when possible from {+190}Ir |e decay    
+#G (11.78 d) and {+190}Re |b{+-} decay (3.2 h and 3.1 min).               
+#G 28 unplaced weak |g rays, from 100 keV to 2.1 MeV,                     
+#G belonging to {+190}Re (3.1 min) and/or {+190}Re (3.2 h) are given under
+#G {+190}Re |b{+-} decay (3.2 h)                                          
+#G RI$From decomposition (evaluator) of the combined intensities          
+#G given by 1974Ya02 for 3.2 h and 3.1 activities in equilibrium. See     
+#G also comments with {+190}Re |b{+-} decay (3.2 h). I|g's reported for   
+#G intense transitions only by 1969Ha44 agree well with the values given  
+#G here                                                                   
+#G M,MR$From {+190}Ir |e decay (11.78 d)                                  
+#G RI(A)$From intensity balance at 187 level. This value                  
+#G agrees with 113 {I14} by 1969Ha44, but disagrees with 172 {I25}        
+#G obtained from 310 {I22} (1974Ya02) combined for 3.2-h {+190}Re and     
+#G 3.1-min {+190}Re in equilibrium. The value from 1974Ya02 is probably   
+#G in error since it implies a |b{+-} feeding of |?28% to 187 level, too  
+#G high to be explained by the |b{+-} spectrum given by 1969Ha44 which    
+#G essentially indicates only one |b{+-} group (to 1387 level)            
+#G RI(D)$Corrected for a 4.6% contribution from the decay of the          
+#G 3.2-h {+190}Re isomer.                                                 
+#G E(F),RI(F)$|g ray reported in {+190}Ir |e decay (12 d) (1974Ya02). I|g 
+#G deduced from branching ratios in {+190}Ir |e decay                     
+#L E$From least-squares fit to E|g's                                      
+#L J$From adopted levels                                                  
+#P 0           (2)-              3.1 M     3              3.14E+3   21    
+RE190 OS190 beta- 3.14 186.0 0.44
++G gamma 0.18668 1.1
++G gamma 0.36108999999999997 0.33
++G gamma 0.37124 0.49
++G gamma 0.5579500000000001 0.64
++G gamma 0.20790999999999998 0.023
++G gamma 0.5692999999999999 0.57
++G gamma 0.1993 0.006
++G gamma 0.39736 0.18
++G gamma 0.40722 0.126
++G gamma 0.7685700000000001 0.061
++G gamma 0.20790999999999998 0.003
++G gamma 0.40722 0.22
++G gamma 0.60514 0.37
++G gamma 0.43162 0.38
++G gamma 0.82899 0.52
++G gamma 1.4375 0.015
++G gamma 1.4477 0.0052
++G gamma 1.8093 0.004
++G gamma 1.3971 0.0034999999999999996
++G gamma 1.5964 0.0033
++G gamma 1.7945 0.012
++G gamma 2.1655 0.0013
+
+#190OS    190RE B- DECAY (3.2 H)        1974YA02                  03NDS    200306
+#  190RE B- DECAY (3.2 H)        1974YA02                  03NDS    200306
+#H TYP=FUL$AUT=BALRAJ SINGH$CIT=NDS 99, 275 (2003)$CUT=30-Apr-2003$       
+#  1974Ya02 (also 1974YaZU,1972Da07): Measured |g, |g|g, T{-1/2}.         
+#  Others:                                                                
+#  |g: 1972Ru06, 1972KaYS, 1964Fl02                                       
+#  |b{+-}: 1964Fl02                                                       
+#  T{-1/2} ({+190}Re): 1974Ya02, 1973DeWI, 1972Ru06, 1962Ba60             
+#G E$Weighted averages (1974Ya02) when possible from {+190}Ir |e decay    
+#G (11.78 d) and {+190}Re |b{+-} decay (3.2 h and 3.1 min)                
+#G RI$From decomposition (evaluator) of the combined intensities          
+#G given by 1974Ya02 for the 3.2 h and 3.1 min activities in equilibrium. 
+#G The unplaced |g's belong to {+190}Re (3.1 min) and/or {+190}Re (3.2 h) 
+#G M,MR$From {+190}Ir |e decay (11.78 d)                                  
+#G RI(A)$From intensity balance. Combined intensity (3.2-h                
+#G and 3.1-min in equilibrium) is measured as 310 {I22} (1974Ya02).       
+#G From level schemes the combined intensity should be 248 {I7}.          
+#G See also comment with 187|g in {+190}Re |b{+-} decay (3.1 min)         
+#G RI(B)$Total I|g=13.5 {I8}. I|g divided on the basis of branching       
+#G ratio from {+190}Ir |e decay (11.78 d)                                 
+#G RI(D)$Deduced from intensity balance at 1387 level and                 
+#G branching ratios from {+190}Ir |e decay                                
+#G E(F),RI(F)$|g ray reported in {+190}Ir |e decay (1974Ya02). I|g deduced
+#G from branching ratios in {+190}Ir |e decay                             
+#L E$From least-squares fit to E|g's                                      
+#L J$From adopted levels                                                  
+#P 210       50 (6-)             3.2 H     2              3.14E+3   21    
+RE190 OS190 beta- 3.14 11520.0 0.37
++G gamma 0.18668 1.38
++G gamma 0.36108999999999997 0.6
++G gamma 0.37124 0.51
++G gamma 0.5579500000000001 0.71
++G gamma 0.20790999999999998 0.02
++G gamma 0.5692999999999999 0.68
++G gamma 0.1993 0.013999999999999999
++G gamma 0.39736 0.31
++G gamma 0.40722 0.22
++G gamma 0.7685700000000001 0.109
++G gamma 0.50255 0.168
++G gamma 0.20790999999999998 0.006999999999999999
++G gamma 0.40722 0.41
++G gamma 0.60514 0.74
++G gamma 0.44781 0.14300000000000002
++G gamma 0.6560199999999999 0.053
++G gamma 0.22381 0.027999999999999997
++G gamma 0.43162 0.02
++G gamma 0.82899 0.026000000000000002
++G gamma 0.24230000000000002 0.0070999999999999995
++G gamma 0.28293 0.111
++G gamma 0.49076 0.17300000000000001
++G gamma 0.69004 0.07
++G gamma 0.5587000000000001 0.27
++G gamma 0.4778 0.021
++G gamma 0.51855 0.332
++G gamma 0.72622 0.022099999999999998
++G gamma 0.9522999999999999 0.008100000000000001
++G gamma 0.32181 0.038
++G gamma 0.39017 0.24
++G gamma 0.37939999999999996 0.036000000000000004
++G gamma 0.3946 0.023
++G gamma 1.0109 0.03
+

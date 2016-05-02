@@ -1,0 +1,41 @@
+#189RE    189W B- DECAY                 1997YA03,1997MI27         03NDS    200309
+#  189W B- DECAY                 1997YA03,1997MI27         03NDS    200309
+#H TYP=FUL$AUT=S. -C. WU, H. NIU$CIT=NDS 100, 1 (2003)$CUT=31-May-2003$   
+#  1997Ya03: 14.7 MeV neutrons irradiating 2-5 g of natural Os target     
+#  for 20-30 minutes. Chemical separation of Re.  Measured E|g, I|g.      
+#  Determined {+189}W half-life. HPGe detector.                           
+#  1997Mi27: {+188}W irradiated by the reactor neutrons.                  
+#  Measured E|g, I|g. Determined {+189}W half-life. Ge(Li) detector.      
+#  2002Mi40: {+189}W produced by {+192}Os(n,|a) reaction. Target: 35 mg   
+#  of Os metal, enriched to 99.9%. Measured E|g, I|g.                     
+#  Determined {+189}W half-life. Ge detector.                             
+#  Other: 1965Ka07                                                        
+#  The decay scheme is based on the |g-ray data and the                   
+#  reaction data of 1997Ya03, 1977Hi06 and 1976Hi08                       
+#G E,RI$From 1997Ya03, unless otherwise specified.                        
+#G E(A)$Weighted average of values from 1997Ya03, 1997Mi27 and 2002Mi40.  
+#G E(B)$From 1997Ya03, however, not observed in 1997Mi27 or 2002Mi40.     
+#P 0           (3/2-)               10.7 M    5               2.5E3 2     
++G gamma 0.1261 0.095
++G gamma 0.1438 0.051
++G gamma 0.1778 0.184
++G gamma 0.21059999999999998 0.086
++G gamma 0.2297 0.114
++G gamma 0.4039 0.067
++G gamma 0.4214 1.008
++G gamma 0.5473 0.27699999999999997
++G gamma 0.6686 0.109
++G gamma 0.7506 0.067
++G gamma 0.7863 0.027000000000000003
++G gamma 0.8471000000000001 0.04
++G gamma 0.8641 0.126
++G gamma 0.8717 0.032
++G gamma 0.9575 0.083
++G gamma 0.9742999999999999 0.113
++G gamma 1.0014 0.040999999999999995
++G gamma 1.1853 0.044000000000000004
++G gamma 1.4188 0.045
++G gamma 1.4662 0.023
++G gamma 0.26039999999999996 1.0
++G gamma 0.222 0.065
+

@@ -1,0 +1,52 @@
+#158W   XB162OS A DECAY (2.05 MS)                                                
+#XB162OS A DECAY (2.05 MS)                                                
+#XC102PD(58NI,2NG)                                                        
+#L   0          0+               1.25 MS   21                             
+#L %A=100                                                                 
+#L XREF=ABC                                                               
+#L T$ Weighted average of 0.9 ms {I3} (1989Ho12), 0.9 ms {I+4-3}          
+#L (1996Pa01), and 1.5 ms {I2} (2000Ma95) all from {+158}W |a decay.      
+#L %A        From gross beta theory (1973Ta30), T{-1/2}(|e+|b+) |?        
+#L       2 seconds, so %|e+%|b+ |? 0.05.  Similarly, 1997Mo25             
+#L       give 0.33 s which would correspond to %|e+%|b+ |? 0.3.           
+#L  1888     8  (8+)             0.143 MS  19                             
+#L %A=? $ %IT=?                                                           
+#L XREF=C                                                                 
+#L E         From 2000Ma95 based on |a decay of this level with           
+#L      E{-|a}=8286 {I7} and the assumption that this |a branch           
+#L      populates the daughter ground state.  This level was earlier      
+#L      proposed by 1989Ho12 with only slightly different energies.       
+#L J         Proposed by 1989Ho12 and 2000Ma95.                           
+#L T         Weighted average of 0.16 ms {I5} (1996Pa01) and 0.14 ms {I2} 
+#L      (2000Ma95); other: 0.01 ms < T{-1/2} < 1 ms (1989Ho12).           
+#                                                                         
+#  159RE P DECAY (21 US)         2006JO10                  ENSDF    200612
+#H TYP=FUL$AUT=BALRAJ SINGH$CUT=15-DEC-2006$CIT=ENSDF$                    
+#  2006Jo10: {+159}Re isotope produced and identified in                  
+#  {+106}Cd({+58}Ni,p4n) reaction at E=300 MeV. The reaction products     
+#  were separated by the gas-filled recoil separator RITU at Jyvaskyla    
+#  facility, and implanted into double-sided silicon strip detectors      
+#  (DSSD) of the GREAT spectrometer.                                      
+#  Measured |a, protons, |a and proton correlations with the implanted    
+#  nuclei, (recoil)|a coin. The {+159}Re nuclide was identified through   
+#  correlations with 6445 keV {I3} |a peak from 1.5 ms {I2} activity of   
+#  {+158}W produced as daughter of proton decay of {+159}Re. Deduced      
+#  half-life of {+159}Re isomer. The ground state is not yet identified.  
+#P 0+X           (11/2-)         21 US     4                1816    20    
+
+#158W     162OS A DECAY (2.05 MS)       1996BI01,2000MA95,1989HO12ENSDF    200612
+#  162OS A DECAY (2.05 MS)       1996BI01,2000MA95,1989HO12ENSDF    200612
+#H TYP=FUL$AUT=BALRAJ SINGH$CUT=15-DEC-2006$CIT=ENSDF$                    
+#H TYP=FMT$AUT=J. Tuli$DAT=19-Apr-2005$COM=fixed fmt/typo$                
+#H TYP=FUL$AUT=R. G. Helmer$CIT=NDS 101, 325 (2004)$CUT=1-Oct-2003$       
+#  1989Ho12: produced by {+106}Cd({+58}Ni,2n).                            
+#  1996Bi07: produced by {+92}Mo({+78}Kr,x) at 357 and 384 MeV and        
+#       products separated in fragment mass analyzer and counted in       
+#       silicon strip detector.                                           
+#  2000Ma95: produced by {+106}Cd({+58}Ni,x) at 270 MeV and products      
+#       separated in fragment mass analyzer and counted in silicon        
+#       strip detector.                                                   
+#P    0         0+               2.05 MS   10             6767      3     
+OS162 W158 alpha 6.767 0.0020499999999999997 1.0
++A alpha 6.602 1.0
+

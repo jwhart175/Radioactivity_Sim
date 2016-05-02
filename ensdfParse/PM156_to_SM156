@@ -1,0 +1,135 @@
+#156SM    156PM B- DECAY (26.70 S)      1990HE11                  12NDS    201210
+#  156PM B- DECAY (26.70 S)      1990HE11                  12NDS    201210
+#H TYP=FUL$AUT=C. W. REICH$CIT=NDS 113, 2537 (2012)$CUT=1-Mar-2012$       
+#  DATA SET REVISED (AUGUST, 2011) BY CW REICH TO INCLUDE REVISED QP, E,  
+#   AND JPI VALUES FOR THE GS AND RECOMPUTED CC VALUES.                   
+#  {+156}Pm has been produced by thermal-neutron induced fission of       
+#  {+235}U (1986Ma12,1986Ok01,1990He11) and spontaneous fission of        
+#  {+252}Cf (1987Gr12), all with isotope separation. All data reported    
+#  here are from 1990He11 or computed by the evaluator. For shorter lists 
+#  of |g's, see 1986Ma12, 1986Ok01, and 1987Gr12.                         
+#  1990He11: 156SM, from thermal-neutron fission of 235U followed by      
+#   isotope separation. Source material collected on a movable tape and   
+#   transported to a counting station. Measured multiscaled |g singles    
+#   using a large-volume coaxial Ge detector and a ^LEPS detector.        
+#   Measured simultaneously low-energy |g's and ce's using the ^LEPS and  
+#   an ion-implanted Si detector. System geometry was calibrated using    
+#   |g's of known multipolarities from the 124IN decay. Measured GG and   
+#   BG(T) coincidences using a small plastic detector and various Ge      
+#   detectors. Report EG, RI, Q-, T values for two excited states. The    
+#   ce data are not reported in 1990He11, but some of the deduced         
+#   multipolarities are given there.                                      
+#  Experimental methods (other):                                          
+#  1986Ma12: 156PM produced by thermal-neutron induced fission of 235U    
+#       with isotope separation.  |g's measured with Ge detectors.        
+#  1986Ok01: 156PM produced by thermal-neutron induced fission of 235U    
+#       with isotope separation.  |g's measured with Ge detectors.        
+#  1987Gr12: 156PM produced by spontaneous fission of 252CF with          
+#       isotope separation.  |g's measured with Ge detectors.             
+#B           The I|b{+-} values have all been computed from the           
+#B  |g-transition intensity balances and therefore are accurate only      
+#B  insofar as this decay scheme is correct and complete. There are 3     
+#B  unplaced |g rays with intensities of |?0.6% and, since the weakest    
+#B  reported |g's have intensities of 0.3%, it is reasonable to expect    
+#B  that there are unobserved |g rays with intensites of 0.2% and less.   
+#B  With a Q value of 5150 keV and the high spin (J=4) of the parent,     
+#B  it is expected that many levels above that at 2699 keV will be        
+#B  populated, albeit weakly. Therefore, a minimum uncertainty of 0.4%    
+#B  has been assigned to each I|b{+-} by the evaluator.                   
+#B           1995Gr19, using total-absorption |g spectroscopy, deduce     
+#B  that the |b branching to the ground and first excited states is       
+#B  1.8% 17. These authors point out that their data do not provide       
+#B  evidence for a nonzero |b- branch to the first excited state.         
+#B           The I|b{+-} to the 803 and 1009 levels have been set to zero 
+#B  because the adopted J|p requires that these transitions be negligibly 
+#B  weak. The values deduced from the intensity balance are 2.0% {I3} and 
+#B  2.1% {I8}, respectively.                                              
+#G E,RI      From 1990He11. Others: 1986Ok01, 1987Gr12.                   
+#G M         Based on I|g and Ice data normalized using transitions of    
+#G  known multipolarity in the {+124}In decay. Multipolarities deduced    
+#G  from the J|p assignments are omitted if |a<0.01.                      
+#L           The level energies are from a least-squares fit to the |g    
+#L  energies. There are several cases in which the deduced level-energy   
+#L  difference differs from the corresponding |g energy by more than 2    
+#L  or 3 times the quoted uncertainty. It is thus reasonable to assume,   
+#L  for specific |g lines, that there are doublets and/or that the        
+#L  uncertainties are underestimated, possibly due to difficulties in the 
+#L  spectral analysis.                                                    
+#L E(G)      Suggested member of a band by 1990He11. From LOGFT           
+#L  considerations, these authors suggest that |p for the J=3 level is    
+#L  most likely the same as that of the 156PM g.s., which these authors   
+#L  propose to be negative. 2011So05, however, indicate that this LOGFT   
+#L  argument may not be a strong one in this case. Based on the expected  
+#L  nucleonic configurations, the evaluator prefers |p=+ for the          
+#L  156PM g.s. The sole decay mode of the 2609 level is to a 4+ level,    
+#L  consistent with JPI=4-, which is the value listed by 1990He11. In     
+#L  that case this and the J=3 level would not be members of the same     
+#L  band.                                                                 
+#L E(H)      Suggested member of a band by 1990He11. From LOGFT           
+#L  considerations, these authors indicate that |p for the J=3 level is   
+#L  most likely the same as that of the 156PM g.s., which they propose    
+#L  to be negative. However, the evaluator has preferred |p=+ for the     
+#L  156PM g.s. The sole decay mode of the 2616 level is to a 4+ level,    
+#L  consistent with JPI=4-, which is the value listed by 1990He11. In     
+#L  that case this and the J=3 level would not be members of the same     
+#L  band.                                                                 
+#L J         From the adopted values. These are generally those proposed  
+#L  by 1990He11. Where there are differences, these are noted.            
+#L BAND(A)   KPI=0+ ground-state band                                     
+#L BAND(B)   Probable KPI=1- octupole band.                               
+#L  This band likely contains a significant component of                  
+#L    |n5/2[642]-|n3/2[521].                                              
+#L BAND(D)   Possible 3- member of the KPI=0- octupole band.              
+#L  This suggestion is supported by the observation that the |g branching 
+#L  from this level to the 2+ and 4+ members of the GS band agrees well   
+#L  with the Alaga-rule expectations for DK=0 dipole transitions.         
+#L BAND(E)   KPI=5- bandhead, conf=|n5/2[642]+|n5/2[523].                 
+#L  This is the dominant conf. See the discussion regarding the 5- state  
+#L  at 1515 keV regarding possible configuration mixing between these two 
+#L  5- states.                                                            
+#L BAND(F)   KPI=5- bandhead, conf=|p5/2[532]+|p5/2[413].                 
+#L  The preferential B- feeding of this state relative to the 1397, 5-,   
+#L  state suggests that it is predominantly two-proton, rather than       
+#L  two-neutron, in character. These two 5- states are, however, most     
+#L  likely mixed to some extent. Evidence for such mixing, which is       
+#L  frequently observed between two-proton and two-neutron bands with     
+#L  the same KPI values, is evidenced by the existence (albeit with a     
+#L  sizeable hindrance factor) of the 117-keV M1 transition connecting    
+#L  them and the possible, but much weaker, B- feeding of this level.     
+#L BAND(J)   Probable KPI=4+ bandhead.                                    
+#P    0          4(+)            26.70 S   10             5150      33    
++B beta- 1.947 0.034
++B beta- 1.805 0.036000000000000004
++B beta- 1.738 0.017
++B beta- 1.697 0.025
++B beta- 1.629 0.006
++B beta- 1.564 0.031
++B beta- 1.513 0.114
++B beta- 1.51 0.23
++B beta- 1.466 0.018000000000000002
++B beta- 1.407 0.01
++B beta- 1.271 0.019
++B beta- 1.195 0.077
++B beta- 1.165 0.042
++B beta- 1.131 0.018000000000000002
++B beta- 1.067 0.01
++B beta- 1.05 0.08199999999999999
++B beta- 1.047 0.165
++B beta- 1.009 0.01
++B beta- 1.006 0.008
++B beta- 0.968 0.004
+
+#156SM    156PM B- DECAY (LT 5 S)       2007SH05                  12NDS    201210
+#  156PM B- DECAY (LT 5 S)       2007SH05                  12NDS    201210
+#H TYP=FUL$AUT=C. W. REICH$CIT=NDS 113, 2537 (2012)$CUT=1-Mar-2012$       
+#  NEW DATA SET PREPARED (AUGUST, 2011) BY CW REICH                       
+#  Unless noted otherwise, the values are those reported by 2007Sh05.     
+#  Activity proposed by 2007Sh05 from analysis of the decay of the |g's   
+#   and ce's from the B- decay of isotope-separated 156ND sources.        
+#   |g's detected using a HPGe detector and a short coaxial detector.     
+#   Measured EG for several |g's, GG, T .                                 
+#  The decay scheme should be regarded as only fragmentary. Other than    
+#   T no B- decay properties are listed.                                  
+#G E(X)      |g in coincidence with the 727.6 and 803.5 |g's.             
+#P   150.3    1 1(+)                 5 S   LT                5150   33    
+

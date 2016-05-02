@@ -1,0 +1,42 @@
+#216FR    220AC A DECAY                 1997SH09                  07NDS    200705
+#  220AC A DECAY                 1997SH09                  07NDS    200705
+#H TYP=ERR$AUT=J. Tuli$DAT=15-Jul-2011$COM=corrected N record$            
+#H TYP=FUL$AUT=S. -C. WU$CIT=NDS 108, 1057 (2007)$CUT=1-Mar-2007$         
+#A $All data are from 1997Sh09, unless otherwise noted                    
+#A HF        r{-0}({+216}Fr)=1.556 {I6}, unweighted average of            
+#A r{-0}({+214}Rn)=1.563 {I4}, r{-0}({+216}Rn)=1.554 {I6},                
+#A r{-0}({+216}Ra)=1.566 {I9}, r{-0}({+218}Ra)=1.539 {I9}                 
+#G $All data are from 1997Sh09                                            
+#G RI        I|g per 1000 |a's                                            
+#G M         The method of |a measurements is not given                   
+#L $1997Sh09: measured: E|a, I|a, E|g, I|g, ce, |a|g, |a(ce), |g(ce).     
+#L Source: {+224}Pa + {+220}Ac in secular equilibrium produced by         
+#L {+209}Bi({+18}O,2n). Ge, Ge(Li), Si(Li) detectors.                     
+#L $1971EpZY: measured: |a, |a|g, |g|g, |a|g(t)                           
+#L $1970Bo13: measured: |a                                                
+#L E         From least squares fit to E|g                                
+#L J         Assignments of J|p and configuration are those suggested     
+#L by 1997Sh09. The J|p assignments are based on |g multipolarities, on   
+#L HF in |a decay, and on proposed configuration assignments;             
+#L all levels have been assigned negative parity.                         
+#L BAND(A)   CONF=((P,H9/2,+5,9/2-)(N,G9/2,+3,9/2+))                      
+#L BAND(B)   CONF=((P,H9/2,+4,0)(P,F7/2,+1,7/2-)(N,G9/2,+3,9/2+))         
+#L BAND(C)   CONF=((P,H9/2,+5,9/2-)(N,G9/2,+2,0)(N,I11/2,+1,11/2+))       
+#P 0                             26.4 MS    2             8348      4     
+AC220 FR216 alpha 8.348 0.0264 1.0
++A alpha 8.194 0.04
++A alpha 8.063 0.02
++A alpha 8.055 0.04
++A alpha 8.006 0.03
++A alpha 7.971 0.04
++A alpha 7.944 0.02
++A alpha 7.855 0.26
++A alpha 7.85 0.05
++A alpha 7.792 0.1
++A alpha 7.709 0.11
++A alpha 7.67 0.08
++A alpha 7.664 0.04
++A alpha 7.652 0.09
++A alpha 7.635 0.04
++A alpha 7.622 0.04
+

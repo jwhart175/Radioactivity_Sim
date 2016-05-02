@@ -1,0 +1,28 @@
+#146CE    252CF SF DECAY                1988PHZY,1995ZHZY         97NDS    199712
+#  252CF SF DECAY                1988PHZY,1995ZHZY         97NDS    199712
+#H TYP=FMT$AUT=J. TULI$DAT=22-JUL-1999$COM=ADDED P RECORD$                
+#H TYP=FUL$AUT=L. K. PEKER AND J. K. TULI$CIT=NDS 82, 187 (1997)$         
+#H CUT=30-SEP-1997$                                                       
+#  Measured: G, GG (1995Zh39,1995ZhZY,1988PhZY,1970Wi16,1972Ho08),        
+#  G(T) (1972Ho08,1974JaYY), GG(THETA) (1988PhZY)                         
+#G E,RI$EG from 1995ZhZY, RI from 1988PhZY                                
+#L E$From least-squares fit to EG                                         
+#L BAND(A)   GROUND-STATE BAND                                            
+#L BAND(B)   OCTUPOLE VIBRATIONAL BAND                                    
+#P 0            0+               2.645 Y   8                              
+CF252 CE146 SF 0.0 8.346802377600001E7 1.0
++G gamma 0.4096 1.0
++G gamma 0.7022 0.122
++G gamma 0.5028 0.419
++G gamma 0.5147999999999999 0.188
++G gamma 0.3675 0.031
++G gamma 0.3795 0.141
++G gamma 0.18519999999999998 0.025
++G gamma 0.5652 0.113
++G gamma 0.2822 0.075
++G gamma 0.4678 0.044000000000000004
++G gamma 0.3325 0.019
++G gamma 0.6147999999999999 0.027999999999999997
++G gamma 0.21109999999999998 0.037000000000000005
++G gamma 0.543 0.034
+

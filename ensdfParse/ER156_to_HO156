@@ -1,0 +1,88 @@
+#156HO    156ER EC DECAY                1999KAZV,2003KAZQ         12NDS    201210
+#  156ER EC DECAY                1999KAZV,2003KAZQ         12NDS    201210
+#H TYP=FUL$AUT=C. W. REICH$CIT=NDS 113, 2537 (2012)$CUT=1-Mar-2012$       
+#  DATA SET UPDATED (DECEMBER, 2011) BY CW REICH TO INCLUDE NEW QP        
+#   VALUE, NEW DATA FROM 2003KaZQ, REVISED JPI VALUES, AND CC VALUES      
+#   FROM BRICC.                                                           
+#  2003KaZQ: This represents a published version of the material          
+#  contained in the private communication of 2002KaZL.                    
+#  2002KaZL: Private communication to the evaluator from V. ^G.           
+#   Kalinnikov (August, 2002). This information represents a further      
+#   analysis of the data of 1999KaZV. They extend, and in some instances  
+#   change, the conclusions of this earlier study.                        
+#  1999KaZV: 156ER from high-energy proton-induced spallation on a ^W     
+#   target. Isotope-separated samples. Measured EG, RI, CE, GG.           
+#   Report EG, RI, I{_e}, multipolarities, JPI and Q(|e).                 
+#  1995KaZS: Using isotope-separated 156HO sources, report T for the      
+#   52-keV isomeric state.                                                
+#  1982Vy06: 156ER from proton-induced spallation on a TA target.         
+#   E(P)=660 MeV. Chemical and isotope separation, |g's measured using    
+#   Ge(Li) detectors. CE measured using a magnetic spectrometer and       
+#   spectrograph. Measured G-CE coin. Three RI values are identical to    
+#   those in 1975Al26, so evaluator assumes that they were not            
+#   remeasured.                                                           
+#  1975Al26: 156ER from proton-induced spallation on a TA target.         
+#   E(P)=660 MeV. Chemical and isotope separation  |g's measured using    
+#   Ge(Li) detectors. CE measured using a magnetic spectrometer. Report   
+#   EG, RI, I(CE), and deduced multipolarities.                           
+#  1978Sc10: 156ER from proton-induced spallation on a TA target.         
+#   E(P)=660 MeV. Isotope separation. Measured half-lives by Kx-CE coin   
+#   using a NaI(Tl) detector and a magnetic spectrometer.                 
+#  Others: 1981BuZJ, 1975Gr44, 1965Zh02.                                  
+#  Other experiments:                                                     
+#  1965Zh02: 156ER from proton-induced spallation of Ta target with       
+#    E(P)=660 MeV and chemical separation. Magnetic CE spectrometers      
+#    and scintillation G detectors. Deduce T(156ER) LT 12 MIN.            
+#  1969Ek01: 156HO(?) from 165HO(P,PXN) at E(P)=100 MeV and DY(P,XN) at   
+#    E(P)=85 MeV. Spin measured for a 55-min activity by atomic-beam      
+#    magnetic resonance. The evaluator assumes that this activity was not 
+#    156ER.                                                               
+#  1975Gr44: Summary of work at laboratory with reference to 1975Al26.    
+#  1981BuZJ: Conference abstract; report RI, I(CE), and multipolarities.  
+#    Same data are reported in 1982Vy06.                                  
+#  The level scheme is primarily that proposed by 2003KaZQ, together      
+#   with the placement of several |g's unplaced in previous studies. It   
+#   is in most instances similar to that of 1999KaZV. Where there are     
+#   differences, these are pointed out. The placement of several |g's     
+#   is that from the earlier studies.                                     
+#  2007KaZT discuss allowed-unhindered ("spin-flip") |e transitions       
+#  involving 156HO, 158HO, and 160HO and, using nuclear-model             
+#  considerations, configuration assignments for several of the low-lying 
+#  bandheads in these nuclides.                                           
+#  From the 511-keV photon intensity, the total I|b{++}=0.21% {I10}       
+#   (1982Vy06).                                                           
+#  The intensities of the EC+B+ branches are computed from intensity-     
+#   balance considerations and should be regarded as questionable in      
+#   some instances. For example, the small LOGFT value for the            
+#   transition to the 52.37, 1- level, together with the absence of       
+#   a |g deexciting the 251.1 level, suggest that there are intensity     
+#   imbalances in the proposed level scheme. Nonetheless, because of the  
+#   strong population of the 1+ level at 117.58 kev in EC decay, the      
+#   LOGFT value of the feeding transition is most probably AP 4.5,        
+#   indicating an allowed-unhindered transition.                          
+#G E,RI      From 2003KaZQ, unless noted otherwise.                       
+#G E(W)      |g reported by 2003KaZQ, but not explicitly placed by them.  
+#G  Placement is that of the evaluator.                                   
+#G M,MR      From CE data of 1975Al26, unless noted otherwise.            
+#L E         Computed from the listed |g-ray energies.                    
+#L E(Y)      New level introduced by 2003KaZQ, but no properties other    
+#L  than the level energy are given.                                      
+#L J         From the adopted values.                                     
+#L BAND(A)     KPI=4- Bandhead. Probable conf=|p5/2[402]+|n3/2[521].      
+#L  The |S=1 coupling of these two orbitals lies below the |S=0           
+#L  coupling, in agreement with the expectations of 1958Ga27.             
+#L BAND(B)     KPI=1- Bandhead. Probable conf=|p5/2[402]-|n3/2[521].      
+#L  The |S=0 coupling of these two orbitals lies above the |S=1           
+#L  coupling, in agreement with the expectations of 1958Ga27.             
+#L BAND(C)     KPI=2- Bandhead. Probable conf=|p7/2[404]-|n3/2[521].      
+#L BAND(D)     KPI=1+ Bandhead. Conf=|p7/2[523]-|n5/2[523].               
+#P    0         0+                19.5 M   10               1260    65    
++B beta+ 8.283E-4 0.00132
++B beta+ 8.279E-4 0.00132
++B beta+ 8.276E-4 0.00132
++B beta+ 8.264E-4 0.0013
++B beta+ 8.257E-4 0.0013
++B beta+ 8.250999999999999E-4 0.0013
++B beta+ 8.227E-4 0.0013
++B beta+ 8.209E-4 0.0013
+

@@ -1,0 +1,43 @@
+#166GD    166GD IT DECAY (950 NS)       2014PA55                  ENSDF    201501
+#  166GD IT DECAY (950 NS)       2014PA55                  ENSDF    201501
+#H TYP=FUL$AUT=BALRAJ SINGH$CIT=ENSDF$CUT=25-JAN-2015$                    
+#  2014Pa55: {+166}Gd produced in {+9}Be({+238}U,F),E=345 MeV/nucleon     
+#  reaction at the Radioactive Ion Beam Factory (RIBF) at RIKEN           
+#  accelerator laboratory. Nuclei were separated in terms of              
+#  mass-to-charge (A/q) ratio and atomic number Z using BigRIPS and       
+#  ZeroDegree spectrometers. Ions of {+166}Gd were implanted in a         
+#  copper passive stopper, and the gamma rays from the isomer were        
+#  detected using Euroball-RIKEN Cluster array (EURICA) consisting of     
+#  84 HPGe crystals in a 4|p configuration. Measured E|g, I|g, |g|g-coin, 
+#  (ion implants)|g correlations, delayed-gamma-ray spectroscopy, isomer  
+#  half-life. Deduced levels, J, |p, multipolarity. Comparison with       
+#  potential energy surface calculations including |b{-6} deformation     
+#G E(X),RI(X)$The |g ray seen in |g|g-coin spectrum, not in (ion)|g       
+#G correlated spectrum. Intensity is obtained from transition intensity   
+#G balances at relevant levels and theoretical internal conversion        
+#G coefficients                                                           
+#G E(W)$Weak |g ray. This |g ray does not belong to lower-mass isotopes   
+#G with one, two or three electrons (H-, He- or Li-like) as shown by the  
+#G known |g-ray data for these isotopes                                   
+#G M$As implied from transition intensity balances and |DJ|p. These are   
+#G not given explicitly in 2014Pa55.                                      
+#G M(Y)$Dominant M1 according to e-mail reply of Jan 22, 2015 from one    
+#G of the authors (Z. Podolyak) of 2014Pa55, and that small E2 admixture  
+#G is possible                                                            
+#G CC$Value overlaps M1 and E2 when |d(E2/M1) is not given for            
+#G mult=(M1(+E2))                                                         
+#L E$From least-squares fit to E|g data                                   
+#L J$As proposed by 2014Pa55 based on systematics of even-even nuclides   
+#L for low-lying levels and potential-energy surface calculations for     
+#L higher levels above 1 MeV, supported by multipolarities obtained from  
+#L intensity balances.                                                    
+#L BAND(A)$The g.s. band.                                                 
+#L Calculations suggest |b{-2}=0.296, |b{-4}=0.015, |b{-6}=-0.020 for     
+#L ground state                                                           
+#L BAND(B)$|g-vibrational band.                                           
+#L The 2+ bandhead is expected at |?1190 keV                              
+#L BAND(C)$|p3/2[411]~#|p5/2[413],K|p=(4+).                               
+#L Calculations suggest |b{-2}=0.299, |b{-4}=0.017, |b{-6}=-0.022 for     
+#L 4+ bandhead                                                            
+#P  1601.5   11 (6-)              950 NS   60                             
+

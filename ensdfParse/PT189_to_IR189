@@ -1,0 +1,64 @@
+#189IR    189PT EC DECAY                1972HE05                  03NDS    200309
+#  189PT EC DECAY                1972HE05                  03NDS    200309
+#H TYP=FUL$AUT=S. -C. WU, H. NIU$CIT=NDS 100, 1 (2003)$CUT=31-May-2003$   
+#  Others: 1980Be27, 1972Ba21, 1971Pl08, 1970Pl06, 1970Ba56, 1969Pl06,    
+#  1964Le07, 1964Kr03, 1962Kr04, 1962Ha24, 1962Gr27, 1961Kr02, 1960Ma28.  
+#  Decay scheme as in 1972He05.                                           
+#G $A{-2}U{-2} from 1980Be27 defined by                                   
+#G W(|q)=|S{-K}B{-K}A{-K}U{-K}P{-K}(cos|q),                               
+#G where B{-K} is related to the magnetic field                           
+#G E,RI$From 1972He05                                                     
+#G M$From conversion electron data of 1972He05 and 1972Ba21, except where 
+#G noted                                                                  
+#G MR$Magnitudes of |d's are from conversion electron data.               
+#G Signs are from low temperature |g(|q) data (1980Be27)                  
+#G RI(E)$Corrected for {+188}Ir contamination                             
+#G RI(F)$I|g(tot)=87 {I4}, intensity divided assuming intensity balance   
+#G through the 113.8 level.                                               
+#G MR(A)$From 1980Be27                                                    
+#G MR(B)$From 1983Fa11                                                    
+#L J$From adopted levels                                                  
+#L T(B)$From 1972Ba21                                                     
+#L T(C)$From 1970Ba56                                                     
+#E E$1971Pl08 report two positron components with endpoint energies of    
+#E 885 {I10} and 479 {I20}, respectively, and                             
+#E I|b{++}(885)/I|b{++}(479)=11 {I2}. These cannot be ascribed directly   
+#E to known levels and are probably composite.                            
+#P 0.0         3/2-              10.87 H   12             1971      14    
++B beta+ 2.0999999999999998E-4 0.005699999999999999
++B beta+ 0.443 0.008036
++B beta+ 0.402 0.008059
++B beta+ 0.365 0.008073
++B beta+ 0.303 0.008087
++B beta+ 8.083E-4 0.00145
++B beta+ 8.078E-4 0.00145
++B beta+ 8.074E-4 0.00146
++B beta+ 8.064E-4 0.00146
++B beta+ 8.054E-4 0.00147
++B beta+ 8.047999999999999E-4 0.00147
++B beta+ 8.044E-4 0.00148
++B beta+ 8.035E-4 0.00148
++B beta+ 8.035E-4 0.00148
++B beta+ 8.033000000000001E-4 0.00149
++B beta+ 8.03E-4 0.00149
++B beta+ 8.023E-4 0.00149
++B beta+ 7.984E-4 0.0015199999999999999
++B beta+ 7.957E-4 0.00154
++B beta+ 7.95E-4 0.00155
++B beta+ 7.934999999999999E-4 0.00156
++B beta+ 7.897E-4 0.001
++B beta+ 7.878E-4 0.0
++B beta+ 7.792E-4 0.05
++B beta+ 7.774E-4 0.06
++B beta+ 7.765999999999999E-4 0.07
++B beta+ 7.737000000000001E-4 0.09
++B beta+ 7.735999999999999E-4 0.09
++B beta+ 7.687000000000001E-4 0.03
++B beta+ 7.650000000000001E-4 0.0017000000000000001
++B beta+ 7.63E-4 0.0017000000000000001
++B beta+ 7.55E-4 0.0018
++B beta+ 7.51E-4 0.0018
++B beta+ 7.35E-4 0.0019
++B beta+ 6.7E-4 0.002
++B beta+ 6.2E-4 0.0028399999999999996
+

@@ -1,0 +1,64 @@
+#  7LI    11BE B-A DECAY                1971Al07,1981Al03,1982Mi08         201404
+#  11BE B-A DECAY                1971Al07,1981Al03,1982Mi08         201404
+#H TYP=UPD$AUT=G. Sheu and J. Kelley$CUT=22-January-2014$CIT=ENSDF$       
+#H COM=Updated data set since last full evaluation$                       
+#  1971Al07: {+11}Be |b-decay activity was produced in the                
+#  {+9}Be(t,p){+11}Be reaction by bombarding 50 |mg/cm{+2} targets with   
+#  3.0-MeV tritons. Ge(Li) and NaI(Tl) detectors and Si detectors were    
+#  used to measure |g-rays and |a-particles. Eight |g-ray transitions and 
+#  T{-1/2}=13.6 s {I6} were measured. In general, the decay intensities   
+#  to {+11}B levels are deduced by balancing the observed |g-ray          
+#  transitions and |g-decay branching ratios (BRs) with the observed rate 
+#  of |b-rays. The strongest {+11}B transition is the 2125-keV |g ray from
+#  the first excited state to the ground state, which is directly fed and 
+#  fed from higher-lying states.                                          
+#  The delayed |a-particle spectrum was also measured. The interpretation 
+#  of this spectrum was complicated because the produced {+11}Be activity 
+#  was implanted into the target, and the observed energy                 
+#  depended on implantation depth, {+11}B parent level, emission angle    
+#  etc.. Analysis of the spectrum appeared most consistent with emission  
+#  from {+11}B*(9870). Two other potential |a-emitting states at          
+#  {+11}B*(10250,10380) were unfavored.                                   
+#  The delayed |a BR of 3.0% {I7} from {+11}B*(9870) to {+7}Li{-g.s.} was 
+#  deduced, based on an analysis that found an intensity of 33% {I3} for  
+#  the 2125-keV |g ray. Observed delayed |a-particles were not found in   
+#  coincidence with 478-keV |g-rays from the first excited state of       
+#  {+7}Li, but |a-particle emission to the {+7}Li*(478) level             
+#  could not be excluded because the relatively thick targets could       
+#  absorb the alphas before they reached the detector.                    
+#  An upper limit of |< 5% feeding to the excited state was suggested.    
+#  1981Al03: {+11}Be |b-delayed particle decays were measured using the   
+#  {+9}Be(t,p){+11}Be at E{-t}=3.4 MeV. The study was focused on          
+#  measuring the |b-delayed |a-particle branch. Thin {+9}Be foils         
+#  contained in a Helium-jet system permitted the capture of produced     
+#  activity in the He cell; the activity was then deposited on a counting 
+#  tape. The activity was transported to a counting area where Si and     
+#  NaI(Tl) detectors were used to measure delayed particles and |g-rays.  
+#  |a particles and corresponding {+7}Li recoils ions were observed       
+#  both in singles and in coincidence with 478 keV |g-rays.               
+#  The |a-particle energy spectrum was unambiguously assigned to decay    
+#  from  {+11}B*(9870). The charged-particle spectrum observed            
+#  in coincidence with E{-|g}=485 keV {I10} provided evidence that some   
+#  small branching takes place from {+11}B*(9875) to the first            
+#  excited {+7}Li*(478) state; the BR for this decay is 12.6% {I12}. It is
+#  then concluded that the BR of {+11}B*(9875) to {+7}Li{-g.s.} is 87.4%  
+#  {I12}. Compared with the well known E{-|g}=2125 keV intensity (I=0.33  
+#  {I3}) and various cascades observed in the {+11}Be(|b{+-}) decay       
+#  scheme, the BR of 2.9% {I4} to {+11}B*(9875) was deduced.              
+#  1982Mi08: {+11}Be |b-decay |g-ray activities were studied in the       
+#  {+9}Be(t,p){+11}Be reaction by bombarding a {+9}Be foil with 3.0-MeV   
+#  tritons. Ge(Li) and NaI(Tl) detectors and Pilot-B scintillation crystal
+#  were used to measure singles |g-ray, |g-|g coincidence and |b spectra  
+#  and |b-|g coincidences, respectively.                                  
+#  The intensity of 2125-keV |g-decay of 0.370 {I25} was deduced.         
+#  Authors adopted the value of 0.355 {I18}, which is the average         
+#  of their value and the previous value of 0.33 {I3} (1971Al07).         
+#  Comments: By normalizing the I{-|a}/I{-2125|g} of (1981Al03) to the    
+#  2125-keV |g-decay intensity=0.355 {I18} from (1982Mi08) a more precise 
+#  value of the |b-delayed |a-decay intensity, I{-|a}=0.031 {I4}, was     
+#  obtained. In (1981Al02) {+11}B*(9875) was found to decay with BR of    
+#  87.4% {I12} and 12.6% {I12} to {+7}Li*(0,478), respectively.           
+#P 0           1/2+              13.76 S   7              2845.15   61    
+BE11 LI 7 alpha 2.8451500000000003 13.76 0.031
++G gamma 0.4776 0.1258062
+

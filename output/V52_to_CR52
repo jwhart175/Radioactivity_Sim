@@ -1,0 +1,17 @@
+# 52CR    52V B- DECAY (3.743 M)        1977YA08                  15NDS    201509
+#  52V B- DECAY (3.743 M)        1977YA08                  15NDS    201509
+#H TYP=FUL$AUT=YANG DONG, HUO JUNDE$CIT=NDS 128, 185 (2015)$              
+#H CUT=10-Jul-2015$                                                       
+#  1977Ya08: chemically separated sources from {+51}V(n,|g),              
+#  measured E|g, I|g, a Compton suppression spectrometer system,          
+#  several large volume Ge(Li).                                           
+#  1976Ar13: measured E|g, I|g, Ge(Li).                                   
+#  1971Ok03: measured E|g, I|g, |g|g-coin, Ge(Li).                        
+#  Decay scheme from 1977Ya08.                                            
+#G           E|g, I|g from 1977Ya08, except as noted.                     
+#G M,MR      From adopted gammas.                                         
+#L J         From adopted levels.                                         
+#P 0.0         3+                  3.743 M 5              3974.5    9     
+V52 CR52 beta- 3.9745 0.0 1.00
++G gamma 1.43406 1.0
+

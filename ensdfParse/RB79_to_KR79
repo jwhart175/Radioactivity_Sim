@@ -1,0 +1,69 @@
+# 79KR    79RB EC DECAY (22.9 M)        1978LI28                  02NDS    200206
+#  79RB EC DECAY (22.9 M)        1978LI28                  02NDS    200206
+#H TYP=FUL$AUT=BALRAJ SINGH$CIT=NDS 96, 1 (2002)$CUT=15-May-2002$         
+#  Measured G, GG, GG(T), CE                                              
+#  Level scheme is from 1978LI28 which is based on earlier                
+#  schemes proposed by 1971LI02 (11 levels) and 1972BR31 (17 levels).     
+#  The 922, 935, 951, 987, 1046, 1628, 1680 and 2060 levels               
+#  suggested by 1972BR31 and 935 and 1089 levels suggested by 1971LI02    
+#  have been discarded since these are not confirmed by more              
+#  detailed work of 1978LI28. A large number of GAMMA rays remain         
+#  unplaced.                                                              
+#  Others:                                                                
+#  1972BR31: G, GG, GG(T), BG, Q(EC) data. 47 G rays reported             
+#  and a level scheme is proposed with 17 levels. But the levels          
+#  proposed at 922, 935, 951, 987, 1046, 1628, 1680 and 2060              
+#  have not been confirmed in the more detailed work of 1978LI28          
+#  1971LI02: G, GG, BG, T1/2, Q(EC) data. 45 G rays were                  
+#  reported and a level scheme proposed with 11 levels but levels         
+#  proposed at 935 and 1089 have not been confirmed by 1978LI28           
+#  1993AL03: Q(EC) measurement by total GAMMA absorption method           
+#  1981HA37: GG(THETA,H,T) technique for determination of                 
+#  quadrupole-coupling constants                                          
+#  1975WE23: B, BG, Q(EC) data                                            
+#  1975BU10: G, GG(T) data                                                
+#  1968TO05: G, T1/2 data. 19 G rays reported                             
+#  1961CH16: G, T1/2                                                      
+#  1957CH31: G, T1/2, identification of 79RB isotope                      
+#E           Q(EC) data: 3650 70 (1993AL03,total GAMMA absorption);       
+#E 3770 290 (1975WE23,B+G); 3726 60 (1972BR31,B+G); 3520 45 (1971LI02,B+G)
+#L E$From least-squares fit to EG's                                       
+#L J$See adopted levels                                                   
+#G M$From CE data. 129.7G with E3 mult. ^and KC=2.10 used for             
+#G normalization of CE data                                               
+#G E(A)$G reported by 1972BR31 or 1971LI02; treated by the evaluator as   
+#G questionable since it is not reported in more complete work of 1978LI28
+#G E(B),RI(B)$Reported by 1972BR31 and 1971LI02, value is taken from      
+#G 1972BR31                                                               
+#G E(D),RI(D)$From GG                                                     
+#P  0.0          5/2+             22.9 M   5               3645.6   76    
++B beta+ 1.199 0.0015
++B beta+ 1.118 7.3E-4
++B beta+ 1.11 7.5E-4
++B beta+ 1.109 7.5E-4
++B beta+ 1.094 7.8E-4
++B beta+ 1.043 8.799999999999999E-4
++B beta+ 1.0 9.9E-4
++B beta+ 0.992 0.0010119999999999999
++B beta+ 0.969 0.0010730000000000002
++B beta+ 0.931 0.001192
++B beta+ 0.883 0.001361
++B beta+ 0.873 0.0014030000000000002
++B beta+ 0.866 0.001429
++G gamma 0.6881 0.231
++B beta+ 0.859 0.001458
++B beta+ 0.83 0.0015890000000000001
++B beta+ 0.759 0.001971
++B beta+ 0.687 0.00247
++B beta+ 0.681 0.00252
++B beta+ 0.657 0.0027300000000000002
++B beta+ 0.581 0.0034899999999999996
++B beta+ 0.524 0.0042
++B beta+ 0.503 0.0044800000000000005
++B beta+ 0.444 0.00536
++B beta+ 0.401 0.00603
++B beta+ 0.355 0.00674
++B beta+ 0.229 0.00825
++B beta+ 0.118 0.008723999999999999
++B beta+ 8.757E-4 0.0010299999999999999
+

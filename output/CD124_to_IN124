@@ -1,0 +1,102 @@
+#124IN  XA124CD B- DECAY                                                         
+#XA124CD B- DECAY                                                         
+#XB124SN(T,3HE)                                                           
+#L E         For |g-connecting levels from a least-squares fit to the     
+#L adopted E|g's. Others from (t,{+3}He)                                  
+#G E,RI      From {+124}Cd |b{+-} decay                                   
+#G M         From |a(K)exp in {+124}Cd |b{+-} decay                       
+#N                                                                     6  
+CD124 IN124 beta- 3.84 0.166 1.0
+#L 0.0         (1)+              3.12 S    9                              
+#L XREF=AB                                                                
+#L %B-=100                                                                
+#L $<r{+2}>{+1/2}=4.665 fm {i6} (2004An14, evaluation)                    
+#L J         from systematics in even A In isotopes,                      
+#L log| {Ift}=5.14 to 3214.4-keV 2+ state in {+124}Sn                     
+#L T         weighted average of 3.3 s {I3} (|g multiscaling) (1983Ta02), 
+#L 3.09 s {I10} (|g multiscaling) (1986Go10) and 3.2 s {I3}               
+#L (|g multiscaling) (1974Fo23); others: 3.6 s {I10} (1964Ka20)           
+#L MOMM1=+4.043 11$MOME2=+0.614 68                                        
+#L MOMM1 $ from collinear fast-beam LASER spectroscopy                    
+#L (1989Ra17). 1987Eb02 gave measurement. See also 2005St24 compilation.  
+#L MOME2 $ from collinear fast-beam LASER spectroscopy                    
+#L (1989Ra17). 1987Eb02 gave measurement. Sternheimer correction was      
+#L included. See also 2005St24 compilation.                               
+#L CONF=((P,G9/2)(N,D3/2)) (1979FO10)                                     
+#L 36.53     4 (1,2)+                                                     
+#L XREF=A                                                                 
+#L J         (M1) |g to (1)+; E1 |g from (2)-                             
+#G 36.50     5 100       (M1)                    9.42                     
++G gamma 0.0365 1.0
+#G KC=8.13 12$LC=1.046 16$MC=0.203 3$NC+=0.0399 6                         
+#G NC=0.0371 6$OC=0.00272 4                                               
+#L 50        LT(8-)              3.7 S     2                           M1 
+#L %B-=100                                                                
+#L E         Q(|b{+-}) difference of the 3.11-s and 3.7-s {+124}In isomers
+#L (1987Sp09); systematics of odd-odd In isotopes strongly supports       
+#L E(level) above the ground state. Other: 190 {I220} (1978Al18)          
+#L J         J|p=7,8,9 was proposed by 1987Eb02 from collinear fast-beam  
+#L LASER spectroscopy; systematics of odd-odd In isotopes strongly        
+#L support 8-                                                             
+#L T         from |g multiscaling (1986Go10); other: 2.4 s {I3} (1974Fo23)
+#L MOMM1=+3.888 9 $MOME2=+0.664 9                                         
+#L MOMM1 $ from collinear fast-beam LASER spectroscopy                    
+#L (1987Eb02,1989Ra17). 1987Eb02 gave measurement. Evaluation of          
+#L hyperfine structure was made under assumption of J=8.                  
+#L See also 2005St24 compilation.                                         
+#L MOME2 $ from collinear fast-beam LASER spectroscopy                    
+#L (1987Eb02,1989Ra17). 1987Eb02 gave measurement. Sternheimer correction 
+#L was included. Evaluation of hyperfine structure was made under         
+#L assumption of J=8. See also 2005St24 compilation.                      
+#L CONF=((P,G9/2)(N,H11/2)) (1979FO10).                                   
+#L 122       15                                                           
+#L XREF=B                                                                 
+#L 179.88    4 (2)-                                                       
+#L XREF=AB                                                                
+#L J         E1 |g to (1)+                                                
+#G 143.33    5 26      3 E1                      0.0626                   
++G gamma 0.14333 0.26
+#G KC=0.0544 8$LC=0.00668 10$MC=0.001288 18$NC+=0.000248 4                
+#G NC=0.000233 4$OC=1.561E-5 22                                           
+#G 179.91    5 100     10E1                       0.0330                  
++G gamma 0.17991 1.0
+#G KC=0.0287 4$LC=0.00349 5$MC=0.000674 10$NC+=0.0001303 19               
+#G NC=0.0001220 18$OC=8.36E-6 12                                          
+#L 242.68    1 (1)+              50 NS     6                              
+#L XREF=A                                                                 
+#L J         E1 |g to (2)-                                                
+#L T         from |b|g(t) in {+124}Cd |b{+-} decay (1974Fo23)             
+#G 62.80     10100       E1                      0.646                    
++G gamma 0.0628 1.0
+#G BE1W=1.33E-5 16                                                        
+#G KC=0.557 9$LC=0.0727 11$MC=0.01400 21$NC+=0.00264 4                    
+#G NC=0.00249 4$OC=0.0001498 22                                           
+#L 365       20                                                           
+#L XREF=B                                                                 
+#L           Broad peak in (t,{+3}He)                                     
+#L 555       20                                                           
+#L XREF=B                                                                 
+#                                                                         
+
+#124IN    124CD B- DECAY                1974FO23                  08NDS    200807
+#  124CD B- DECAY                1974FO23                  08NDS    200807
+#H TYP=FUL$AUT=J. KATAKURA, Z.D. WU$CIT=NDS 109, 1655 (2008)$             
+#H CUT=1-Apr-2008$                                                        
+#  The decay scheme is that proposed by 1974Fo23 on the basis of          
+#  E|g sums and |g|g coin.                                                
+#  1974Fo23: U(n,F), on-line ms, chem sep; semi |g, ce, |g|g coin,        
+#  |b|g delayed coin                                                      
+#L E         From a least-squares fit to E|g's                            
+#L J         From adopted levels                                          
+#G E,RI      From 1974Fo23                                                
+#G RI        Relative to I(180|g)=50                                      
+#G $         I(K|a| x ray)=32 {I5}, I(K|b| x ray)=5.8 {I8} (1974Fo23)     
+#G EKC       from Ice(K)/I|g, unless otherwise noted                      
+#G M         From |a(K)exp in 1974Fo23                                    
+#P 0.0         0+                1.25 S    2              4170      40    
+CD124 IN124 beta- 4.17 1.25 1.40
++G gamma 0.0365 0.046
++G gamma 0.14333 0.129
++G gamma 0.17991 0.5
++G gamma 0.0628 0.23
+

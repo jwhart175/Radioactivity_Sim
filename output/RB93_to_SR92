@@ -1,0 +1,31 @@
+# 92SR    93RB B-N DECAY                1982KR11,1985GR15         12NDS    201210
+#  93RB B-N DECAY                1982KR11,1985GR15         12NDS    201210
+#H TYP=FUL$AUT=CORAL M. BAGLIN$CIT=NDS 113, 2187 (2012)$CUT=15-Sep-2012$  
+#  K-.L. KRATZ ET AL, PROC. INTL. WORKSHOP ON GROSS                       
+#  PROPERTIES OF NUCLEI AND NUCLEAR EXCITATIONS V, TH DARMSTADT (1977),   
+#  AED-CONF-77-017-035 IS ORIGINAL REPORT OF DATA MENTIONED IN 1980KR11.  
+#  CAN'T GET COPY AND CAN'T GET KEYNO WITHOUT ONE.                        
+#  Others: 1980KR07, 1981HO07.                                            
+#  1985GR15: ^TRISTAN ^ISOL facility; gas-filled proton recoil            
+#  proportional counters, pulse-shape discrimination (FWHM AP 2-11        
+#  KEV for E(n)<200 KEV); measured B- delayed n energy spectrum,          
+#  E(n)=14 to |?1300.                                                     
+#  1982KR11: ^OSTIS mass separator; measured n-|g, BG, GG                 
+#  coincidences. Assumed I(953G)=3.78% 25 in 92SR B- decay (cf.           
+#  value of 3.52% 24 adopted here).                                       
+#  1981HO07: OSIRIS mass separator; measured EG, IG, I(n).                
+#  1980KR07: 3HE ionization chamber; measured B- delayed-neutron          
+#  spectrum. Deduced ^S(n).                                               
+#G CC$ FROM BrIcc v2.2b (20-Jan-2009) 2008Ki07, "Frozen Orbitals" appr.   
+#G E,RI      From 1982KR11; uncertainties not stated by authors.          
+#G M,MR      From Adopted Gammas.                                         
+#L E         From 1982KR11; uncertainties not stated by authors.          
+#L J         From Adopted Levels.                                         
+#P 0.0         5/2-               5.84 S   2              2176       9    
+RB93 SR92 neutron&beta- 2.176 0.0 0.995
++G gamma 0.8147000000000001 1.0
++G gamma 0.5698 0.031
++G gamma 0.3935 0.013999999999999999
++G gamma 0.9635 0.017
++G gamma 1.7783 0.005
+

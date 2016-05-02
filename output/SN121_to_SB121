@@ -1,0 +1,20 @@
+#121SB    121SN B- DECAY (27.03 H)      1968ER03,1968SN01         10NDS    201006
+#  121SN B- DECAY (27.03 H)      1968ER03,1968SN01         10NDS    201006
+#H TYP=FUL$AUT=S. OHYA$CIT=NDS 111, 1619 (2010)$CUT=20-Jan-2009$          
+#  1968Er03: methane-flow 2|p |b proportional detectors                   
+#  1968Sn01: scin 4|p |b|g-coincidence |b spectra                         
+#P 0.0          3/2+             27.03 H   4              390.6     21    
+SN121 SB121 beta- 0.3906 97308.0 1.0
+
+#121SB    121SN B- DECAY (43.9 Y)       1968SN01,1978HU07,1982HA3110NDS    201006
+#  121SN B- DECAY (43.9 Y)       1968SN01,1978HU07,1982HA3110NDS    201006
+#H TYP=FUL$AUT=S. OHYA$CIT=NDS 111, 1619 (2010)$CUT=20-Jan-2009$          
+#  1968Sn01: semi |g, scin 4|p |b|g-coincidence |b spectra                
+#  1978Hu07: semi, scin 4|p |b|g-coincidence, deduced                     
+#  I(|b{+-})/I(IT). I(L x ray)                                            
+#  1984Ha09: Si(Li), deduced I(37.15|g)/I(K x ray)                        
+#  2002Re18: Ge detector, |g(t) deduced T{-1/2}                           
+#L E,J       From adopted levels                                          
+#P 6.30      8  11/2-            43.9 Y    5              390.6     21    
+SN121 SB121 beta- 0.3906 1.38534829632E9 1.0
+

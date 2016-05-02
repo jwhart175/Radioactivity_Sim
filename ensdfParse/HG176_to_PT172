@@ -1,0 +1,26 @@
+#172PT    176HG A DECAY                 1999PO09,1996PA01         ENSDF    201004
+#  176HG A DECAY                 1999PO09,1996PA01         ENSDF    201004
+#H TYP=FUL$AUT=TIBOR KIBEDI AND CORAL M. BAGLIN$CUT=15-Mar-2010$          
+#H CIT=ENSDF$                                                             
+#H TYP=UPD$AUT=Y. AKOVALI$CIT=NDS 84, 1 (1998)$CUT=1-Jan-1997$            
+#H COM=ONLY A'S UPDATED$                                                  
+#  OTHERS: 1983SC24, 1984SCZQ.                                            
+#  1983SC24: 176HG PRODUCED USING RB(92MO,X), IDENTIFICATION BASED        
+#  ON EA SYSTEMATICS FOR EVEN-EVEN HG ISOTOPES; MEASURED EA.              
+#  T1/2(176HG)=21.6 MS 9, WEIGHTED AVERAGE OF 21 MS 4 (1999PO09),         
+#  20 MS 2 (2002RO17), 22 MS 1 (2004GOZZ; MISPRINTED AS 22 S 1 IN         
+#  TABLE 5.1).  OTHERS: 18 MS 10 (1996Pa01),  34 MS +18-9 (1983Sc24 and   
+#  1984SCZQ).                                                             
+#  %A        94 12 FROM 1999PO09.  CONSISTENT WITH BRANCHING IMPLIED BY   
+#  theoretical partial BETA half-life calculations.  The Moller-Nix       
+#  calculations (1997Mo25) give T1/2(B+)=0.65 S; the gross B-decay theory 
+#  calculations of 1973Ta30 give T1/2(B+) AP 2 S. These partial           
+#  half-lives and the total half-life of 21.6 MS 9 yield %B+=3.3 and      
+#  %B+ AP 1, respectively.                                                
+#                                                                         
+#A HF        R0(172PT)=1.541 7 is deduced assuming HF(6747A)=1.0 AND      
+#A QA=6908 5 from ADOPTED EA=6751 5.                                      
+#P 0.0          0+               21.6 MS    9             6908      5     
+HG176 PT172 alpha 6.908 0.0216 0.94
++A alpha 6.751 1.0
+

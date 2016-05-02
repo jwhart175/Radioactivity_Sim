@@ -1,0 +1,15 @@
+#119SN    119SB EC DECAY                1957OL05                  09NDS    200910
+#  119SB EC DECAY                1957OL05                  09NDS    200910
+#H TYP=FUL$AUT=D. M. SYMOCHKO, E. BROWNE, J. K. TULI$                     
+#H CIT=NDS 110,2945 (2009)$CUT=1-Dec-2008$                                
+#  Modified by E. Browne (Nov. 24, 2008)                                  
+#  1957OL05: activity: daughter from SB(D,XN) and Sn(A,XN); scin          
+#  Measured G, B, CE, G(T), GX(T)                                         
+#G CC$ FROM BrIcc v2.2 (31-Mar-2008) 2008KiAA, "Frozen Orbitals" appr.    
+#G E,M,MR    From Adopted Gammas                                          
+#G RI        From TI=100 and CC=5.06 8.                                   
+#L L,J       From Adopted Levels                                          
+#P 0           5/2+              38.19 H   22             591       8     
+SB119 SN119 beta+ 0.591 137484.0 1.0
++G gamma 0.023870000000000002 0.165
+

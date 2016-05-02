@@ -1,0 +1,55 @@
+# 38AR    38K EC DECAY (7.636 M)        1976MA14,1968KA15         08NDS    200802
+#  38K EC DECAY (7.636 M)        1976MA14,1968KA15         08NDS    200802
+#H TYP=FUL$AUT=JOHN A. CAMERON AND BALRAJ SINGH$CIT=NDS 109, 1 (2008)$    
+#H CUT=26-Nov-2007$                                                       
+#  1976MA14: MEASURED IG, DEDUCED LOGFT VALUES                            
+#  1974FA08: MEASURED BG(CIRC POL)                                        
+#  1970RE13, 1967VA27, 1965EB01, 1964PH02: MEASURED HALF-LIFE             
+#  1968KA15: MEASURED EG, T1/2                                            
+#  1968PH02: HYPERFINE STRUCTURE, NMR                                     
+#  1956GR07: MEASURED B+, T1/2                                            
+#  OTHERS: 1964PH02; ^Nucl. ^Phys. 41, 364 (1963); 1960Ja12;              
+#  ^Phys. ^Rev. 84, 847 (1951); 1948Pe03; ^Phys. ^Rev. 72, 639 (1947);    
+#  1937Ri01; 1937Hu01.                                                    
+#  1970ASZV (THESIS): MEASURED HALF-LIFE, EG, IG                          
+#  Total decay energy deposit of 5918 keV {I2} calculated by RADLIST      
+#  code is in agreement with the expected value of 5914 keV               
+#E TI(X)$ LIMITS (1976MA14) FROM G-RAY DATA                               
+#G E$ FROM 1968KA15, UNLESS OTHERWISE STATED                              
+#G RI$From |e+|b{++} branchings to each level and decay scheme.           
+#L J$ FROM 'ADOPTED LEVELS'                                               
+#L E(X)$ FROM 'ADOPTED LEVELS'                                            
+#P 0            3+               7.636 M   18             5913.86   29    
+K38 AR38 beta+ 5.91386 458.16 1
++B beta+ 2.29281 0.001
++B beta+ 1.2120799999999998 0.9933299999999999
++B beta+ 0.454 9.2E-5
++B beta+ 0.39877999999999997 0.00133
++B beta+ 0.13362000000000002 2.5E-4
++B beta+ 8.996E-4 8.757E-4
++B beta+ 8.993E-4 8.778E-4
+
+# 38AR    38K EC DECAY (924.0 MS)       2000BB01,1983KO22,1978TH0208NDS    200802
+#  38K EC DECAY (924.0 MS)       2000BB01,1983KO22,1978TH0208NDS    200802
+#H TYP=FUL$AUT=JOHN A. CAMERON AND BALRAJ SINGH$CIT=NDS 109, 1 (2008)$    
+#H CUT=26-Nov-2007$                                                       
+#  2005GO11, 2003TR01, 2000GO54: MEASURED EB, (RECOIL)B, DEDUCED          
+#  B(NU) CORRELATIONS                                                     
+#  2005SA44: MASS ANALYSIS                                                
+#  2000BB01: MEASURED POSITRON SPECTRUM, T1/2                             
+#  1998DI15: MEASURED B SPECTRUM, (RECOIL)B COIN                          
+#  1998HA36: MEASURED POSITRON YIELD                                      
+#  1997BE35: MEASURED OPTICAL ISOTOPE SHIFTS, MEAN SQUARE RADII           
+#  1994HA43, 1993KO22: MEASURED B-DELAYED G SPECTRA, DEDUCED LIMITS       
+#  1984CH22, 1981CH34: MEASURED FERMI B DECAY T1/2                        
+#  1978TH02: MEASURED B SPECTRUM, T1/2                                    
+#  1976WI08, 1975SQ01, 1972HA82: MEASURED T1/2                            
+#  OTHERS: 1967VA27, 1962GO13, 1961JA22, 1960JA12, 1960LI05, 1957CL23,    
+#  1954KL36; ^Nucl. ^Phys. 7, 296 (1958); ^Phys. ^Rev, 92, 1076 (1953)    
+#  NO G RAYS WERE DETECTED (1962GO13)                                     
+#  Total decay energy deposit of 6045 keV calculated by RADLIST           
+#  code is in agreement with the expected value                           
+#P 130.4      3 0+               924.0 MS  5              5913.86   29    
+K38 AR38 beta+ 5.91386 0.924 1.0
++B beta+ 8.988000000000001E-4 8.823E-4
+

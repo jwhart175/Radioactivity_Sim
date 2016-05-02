@@ -1,0 +1,21 @@
+#124SB    124SB IT DECAY (93 S)         1962VA18,1969ME04         08NDS    200807
+#  124SB IT DECAY (93 S)         1962VA18,1969ME04         08NDS    200807
+#H TYP=FUL$AUT=J. KATAKURA, Z.D. WU$CIT=NDS 109, 1655 (2008)$             
+#H CUT=1-Apr-2008$                                                        
+#  1962Va18: measured E|g, ce                                             
+#  1969Me04: {+123}Sb(n,|g), fission; measured E|g, I|g, |g|g coin.       
+#L J,T       From adopted levels                                          
+#P 10.86       5+                93 S      5                              
++G gamma 0.01086 4.57E-5
+
+#124SB    124SB IT DECAY (20.2 M)       1962VA18                  08NDS    200807
+#  124SB IT DECAY (20.2 M)       1962VA18                  08NDS    200807
+#H TYP=FUL$AUT=J. KATAKURA, Z.D. WU$CIT=NDS 109, 1655 (2008)$             
+#H CUT=1-Apr-2008$                                                        
+#  1962Va18: measured E|g, ce                                             
+#L E,J,T     From adopted levels                                          
+#P 36.84       (8)-              20.2 M    2                              
+SB124 SB124 IT 0.0 1212.0 1.0
++G gamma 0.010863 4.57E-5
++G gamma 0.02598 3.37E-5
+

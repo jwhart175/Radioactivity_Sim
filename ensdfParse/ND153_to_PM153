@@ -1,0 +1,80 @@
+#153PM    153ND B- DECAY                1996TA26,1997GR09,1993ZHZW06NDS    200602
+#  153ND B- DECAY                1996TA26,1997GR09,1993ZHZW06NDS    200602
+#H TYP=FUL$AUT=R. G. Helmer {+*}$CIT=NDS 107, 507 (2006)$CUT=31-Dec-2005$ 
+#  Sources produced as fission products in {+235}U(n,f) (1979PiZP,        
+#       1992TaZn, 1996Ta26) and in {+252}Cf(SF) (1993ZhZW, 1996GrZZ,      
+#       1996GrZY, 1993Gr17,1987Gr12 all by same group).                   
+#  Decay scheme is from 1996Ta26, |g data are from 1996Ta26 and           
+#       1993ZhZW, and added |b- branches from 1997Gr09.  Although not     
+#       stated explicitly, it appears that the placements of all |g's     
+#       in 1996Ta26 are supported by |g|g coincidences; the |g|g          
+#       coincidences shown in the scheme are reported by 1993ZhZW.        
+#B LOGFT     The uncertainties do not take into account the               
+#B      incompleteness of the decay scheme.                               
+#B IB        Total absorption |g-ray spectrometer measurements give       
+#B      the sum of the I{-|b-} to levels below 250 keV as 71.5% {I19}     
+#B      (1997Gr09).  This result is used to determine I{-|b-}(0).         
+#B IB        From total absorption |g-ray spectrometer (TAGS) spectra,    
+#B      the |b- decay intensity as a function of the excitation energy    
+#B      has been deduced (1997Gr09) independent of the |g-ray intensity   
+#B      balances.  These data imply |b- decay to new levels in several    
+#B      energy regions where there are no levels from the |g-ray data.    
+#B      For the levels with depopulating |b's, the I{-|b-} are from       
+#B      |g-ray intensity balances, but if the TAGS results differ         
+#B      significantly, they are noted in a comment.                       
+#G           The unplaced |g's are all from 1993ZhZW; the failure of      
+#G      1996Ta26 to report them may suggest they do not belong to         
+#G      this decay.                                                       
+#G E         From weighted average of data of 1996Ta26 (115 |g's) and     
+#G      1993ZhZW (70 |g's).  (The weighting is complicated by fact that   
+#G      many reported uncertainties are given to only one digit and is    
+#G      1 or 2).                                                          
+#G RI        From 1996Ta26; other: 1993ZhZW. Where values from 1996Ta26   
+#G      and 1993ZhZW are grossly different, this is noted.                
+#G M,MR      From 1996Ta26, except those in [ ] are from the J|p's.       
+#G           I(XK|a)=58 {I6} and I(XK|b)=14.7 {I14}.                      
+#L           The pseudolevels included in the TAGS data analysis          
+#L      (1997Gr09), but not shown in the decay scheme (with the |b-       
+#L      intensity in %) are: 1400 (0.21), 1500 (0.23), 1600 (0.31),       
+#L      1800 (1.6), 2100 (0.45), 2200 (0.72), 2300 (0.64), 2400           
+#L      (0.41), 2500 (0.31), 2600 (0.22), 2700 (0.102), and 2800 (0.055). 
+#L E         from least-squares fit to |g energies.                       
+#L J         from {+153}Pm Adopted Levels and based on assignments from   
+#L      charged particle reactions. For band structure, also see          
+#L      Adopted Levels.                                                   
+#L T         From 1996Ta26.                                               
+#P   0          (3/2)-           31.6 S    10             3336      25    
++B beta- 1.375 0.67
++B beta- 1.36 0.012
++B beta- 1.345 0.03
++B beta- 1.326 0.003
++B beta- 1.232 2.0E-4
++B beta- 1.168 0.002
++B beta- 1.142 0.05
++B beta- 1.106 0.0034000000000000002
++B beta- 1.052 0.0032
++B beta- 1.022 0.011200000000000002
++B beta- 0.912 0.0062
++B beta- 0.91 0.003
++B beta- 0.868 0.0058
++B beta- 0.867 0.0052
++B beta- 0.846 0.0011
++B beta- 0.839 0.0048
++B beta- 0.828 0.0048
++B beta- 0.823 0.005
++B beta- 0.817 0.0045000000000000005
++B beta- 0.803 0.003
++B beta- 0.786 0.014199999999999999
++B beta- 0.594 0.0043
++B beta- 0.575 0.0032
++B beta- 0.554 0.0011
++B beta- 0.549 0.005
++B beta- 0.543 0.0040999999999999995
++B beta- 0.485 0.011699999999999999
++B beta- 0.48 0.034
++B beta- 0.477 0.0218
++B beta- 0.476 0.0029
++B beta- 0.466 0.0079
++B beta- 0.465 0.003
++B beta- 0.454 0.0034000000000000002
+

@@ -1,0 +1,96 @@
+#166RE3C  A DECAY (811 MS) DATA SET.                                             
+#  A DECAY (811 MS) DATA SET.                                             
+#  ADOPTED LOW-SPIN PARENT ^T{-1/2}: 0.87 S +18-12 FROM 5815A(T)          
+#  (2002RO17). IT IS UNCLEAR WHETHER ANY OTHER OBSERVED |a FROM 170IR     
+#  ALSO ORIGINATES FROM THE LOW-SPIN ISOMER. EA=6045 10 AND               
+#  EA=6030 10 (1978SC26) EACH HAS A COMPATIBLE ^T{-1/2}, BUT THE          
+#  5815A, THE ONLY |a FROM LOW-SPIN 170IR REPORTED BY 2002RO17 OR         
+#  2004GOZZ, WAS ABSENT IN THE STUDY BY 1978SC26. EA=6027 5 (1982DE11)    
+#  MAY BE THE SAME LINE THAT 1978SC26 REPORTED, BUT ^T{-1/2} WAS NOT      
+#  MEASURED.  THE EVALUATOR CONSIDERS THE 6045A, 6030A AND 6027A TO       
+#  BE OF UNCERTAIN PARENTAGE.                                             
+#A HF        R0=1.5602 23, THE UNWEIGHTED  AVERAGE OF R0(166W)=1.555 9 AND
+#A R0(166OS)=1.565 3 (FROM THIS EVALUATION), AND R0(164W)=1.563 11 AND    
+#A R0(168OS)=1.558 8 FROM 1998AK04.                                       
+#P 0.0          (3-)             0.87 S    +18-12         6110      SY    
+IR170 RE166 alpha 6.11 0.87 0.052
++A alpha 5.815 1.0
+
+#166RE    170IR A DECAY (811 MS)        2007HA45,2004GOZZ,1996PA0108NDS    200804
+#  170IR A DECAY (811 MS)        2007HA45,2004GOZZ,1996PA0108NDS    200804
+#H TYP=FUL$AUT=CORAL M. BAGLIN$CIT=NDS 109, 1103 (2008)$CUT=1-Mar-2008$   
+#  OTHERS: 1977CA23, 1978CA11, 1978SC26, 1982DE11, 2002RO17               
+#  1996PA01: 170IR produced in 354 MEV 70GE bombardment of 106CD;         
+#  measured EA, parent-daughter |a correlations.                          
+#  2002RO17: 170IR PRODUCED BY |a DECAY OF 174AU; SI STRIP DETECTOR;      
+#  MEASURED EA, PARENT-DAUGHTER |a CORRELATIONS, ^T{-1/2} FOR 170IR.      
+#  2004GOZZ: 170IR FROM |a DECAY OF 174AU PRODUCED BY 92MO(84SR,PN) AT    
+#  E=390, 395 MEV; FRAGMENT MASS ANALYZER AND DOUBLE-SIDED SI STRIP       
+#  DETECTOR (FOR RECOILS AND DECAY |a PARTICLES) SURROUNDED BY 4 Ge       
+#  DETECTORS AND A LOW-ENERGY PHOTON SPECTROMETER; RECOIL DECAY TAGGING   
+#  TECHNIQUE; MEASURED EA, IA, RECOIL-|a-G COIN, |a(t), PARENT-DAUGHTER   
+#  |a CORRELATIONS.                                                       
+#  2007HA45: 170IR SOURCE FROM 112SN(60NI,PN), E(60NI)=266 MEV;           
+#  93% ENRICHED, SELF-SUPPORTING TARGET; ^JUROGAM SPECTROMETER            
+#  (43 ^EUROGAM TYPE COMPTON-SUPPRESSED HPGE DETECTORS) FOR PROMPT-|g     
+#  DETECTION; FUSION-EVAPORATION PRODUCTS SELECTED USING ^RITU GAS-FILLED 
+#  RECOIL SEPARATOR AND ^GREAT SPECTROMETER (2 DOUBLE-SIDED SI STRIP      
+#  DETECTORS, A MULTIWIRE PROPORTIONAL AVALANCHE COUNTER AND AN ARRAY OF  
+#  28 SI ^PIN DIODE DETECTORS); Ge DETECTOR NEAR ^RITU FOCAL PLANE TO     
+#  DETECT ISOMERIC G DECAY; MEASURED EG, EA, |a-|g COIN, GG COIN,         
+#  |a-RECOIL CORRELATED GG COIN; IG AND IA NOT ENUMERATED.                
+#                                                                         
+#  {U Summary of 170IR |a DECAY data (for both isomers):}                 
+#                                                                         
+#   EA      %A(Ir)  Half-life          Reference(s)      Correlation(s)   
+#                                                                         
+#  5815 10  5.2 17  0.87 S +18-12  ^L   2002RO17          174AU(6538A)    
+#  5815 5   -       -              ^L   2004GOZZ          174AU(6547A)    
+#                                                                         
+#  5951 10  -       0.83 S +6-5    ^H   2007HA45          -               
+#                                                                         
+#  6045 10  -       0.8 S 2        ?   1977SCYH          -                
+#  6030 10  -       1.05 S 15      ?   1978SC26          -                
+#  6027 5   -       -              ?   1982DE11          -                
+#                                                                         
+#  6010 10  -       1.1 S 2        ^H?  1977CA23,1978CA11 -               
+#  6003 10  -       -              ^H   1996PA01          166RE(5515A)    
+#  6007 10  -       0.802 S +30-28 ^H   2007HA45          -               
+#                                                                         
+#  6053 10  -       0.826 S +30-28 ^H   2007HA45          -               
+#                                                                         
+#  6083 11  36 10   0.83 S 30      ^H?  1996PA01          -               
+#  6082     -       0.43 S 5       ?   2002RO17          174AU(6544|a#)   
+#  6088 5   39 6    0.82 S 3       ^H?  2004GOZZ          174AU(6433A,    
+#                                                        6471A, 6618A)    
+#                                                                         
+#  6121? 10 -       0.80 S 6       ^H   2007HA45          -               
+#                                                                         
+#  # CONSISTENT WITH 2004GOZZ IF THIS IS ASSUMED TO BE THE SUM PEAK FROM  
+#  6471A(174AU)-153ce(170IR) COIN.                                        
+#  L - ASSOCIATED WITH LOW-SPIN 170IR DECAY.                              
+#  H - ASSOCIATED WITH HIGH-SPIN 170IR DECAY.                             
+#                                                                         
+#  PARENT ^T{-1/2}: 811 MS 18 IS THE AUTHORS' RECOMMENDED VALUE           
+#  FROM 2007HA45, BASED ON THE FOLLOWING |a(t) DATA:                      
+#  802 MS +30-28 (6007A), 826 MS +30-28 (6053A), 830 MS +58-53 (5951A),   
+#  801 MS +63-57 (6121A).  OTHERS: 0.43 S 5 (2002RO17, 6082A),            
+#  0.83 S 30 (1996PA01, 6083A), 0.82 S 3 FROM 6088A(T)                    
+#  (2004GOZZ; FROM TABLE 5.1, BUT NOTE THAT FIG. 6.7 SHOWS                
+#  0.82 S 2).  THE RESULT FROM 2002RO17 IS INCONSISTENT AND THE REASON    
+#  FOR THIS IS NOT UNDERSTOOD.  0.8 S 2 (1977SCYH, 6045A), 1.05 S 15      
+#  (1978SC26, 6030A) AND 1.1 S 2 (1977CA23 AND 1978CA11, 6010A) ARE       
+#  REPORTED FOR LINES WHOSE PARENTAGE THE EVALUATOR CONSIDERS TO BE       
+#  UNCLEAR.                                                               
+#A IA        NOT GIVEN IN 2007HA45; HOWEVER, FROM FIG. 5(b), THE 6007A    
+#A AND 6053A ARE OF COMPARABLE STRENGTH AND ARE BY FAR THE STRONGEST      
+#A OF THE FOUR PEAKS OBSERVED.  IT APPEARS UNLIKELY, THEREFORE, THAT ANY  
+#A BRANCH IS UNHINDERED.                                                  
+#A HF        R0=1.5602 23, THE UNWEIGHTED AVERAGE OF R0(166W)=1.555 9 AND 
+#A R0(166OS)=1.565 3 (FROM THIS EVALUATION), AND R0(164W)=1.563 11 AND    
+#A R0(168OS)=1.558 8 FROM 1998AK04.                                       
+#G E         FROM 2007HA45; UNCERTAINTY UNSTATED BY AUTHORS.              
+#L E         FROM LEAST-SQUARES FIT TO EG.                                
+#P 0.0+X        (8+)             811 MS    18             6110      SY    
+IR170 RE166 alpha 6.11 0.811 0.38
+

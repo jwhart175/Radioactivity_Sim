@@ -1,0 +1,240 @@
+# 57FE    57CO EC DECAY                 1991BAZS,1997HEZZ         98NDS    199812
+#  57CO EC DECAY                 1991BAZS,1997HEZZ         98NDS    199812
+#H TYP=FUL$AUT=M. R. BHAT$CIT=NDS 85, 415 (1998)$CUT=24-Sep-1998$         
+#  1997Dr06: show the importance of including final state interaction     
+#  (fsi) in the calculation of double-to-single ratio of K-electron       
+#  ejection in internal conversion, by leading to a better agreement with 
+#  experimental data for the 122-keV |g.                                  
+#  1996Me11,1995Me11,1994MeZZ,1993MeZY: measured spectra of ce from       
+#  E|g=122 and { 136 keV} to determine their conversion coefficients      
+#  1995Ch70: review/evaluation of {+57}Co decay data                      
+#  1995Ah04: measured T{-1/2} of 14.4-keV level using electronic timing   
+#  1992ScZZ: measurement of emission probability for 14.4|g.              
+#  1991BaZS: evaluation and recommended values by the iaea Coordinated    
+#  Research Project on x-ray and |g-ray Standards for Detector            
+#  Calibration. Recommended values from this evaluation are used as       
+#  indicated.                                                             
+#  1990Si03: measured K-capture probability to the 136 level as           
+#  { 0.89 {i4}}                                                           
+#  1989Ba34: measured internal bremsstrahlung spectrum and compared it    
+#  with Martin and Glauber theory                                         
+#  1987Ko38: measured relative intensities and energies of the KLL, KLM,  
+#  and kmm Auger electrons using an electrostatic spectrometer and        
+#  observed the intensity ratios: KLL:KLM:km(1-3)M(1-3):K conversion      
+#  (14 keV)=4.0 {i6}:1.0 {i1}:0.05 {i2}:3.0 {i3}. Also KLM:KLL=0.24 {i5}  
+#  and kmm:KLL={ 0.012 {i5}}.                                             
+#  1986Ca08,1991CaZZ: I(K|a)/I(K|b)=0.134 {i3} (experiment); 0.1343       
+#  (theory)                                                               
+#  1994Bu26: I(K|a)/I(K|b)={ 0.1210 {i24}} (experiment); 0.1208 (theory)  
+#  1971Ko19: measured E|g, I|g, Ge(Li) detector                           
+#  Others: 1981VyZZ, 1981KhZY, and 1970Ra51                               
+#G                                                                        
+#G                Emission probabilities of x-rays (1991BaZS)             
+#G                                                                        
+#G $----------------------------------------------------------------------
+#G $        X-ray                E(keV)              I(x-ray)             
+#G $----------------------------------------------------------------------
+#G $        Fe K|a                6.40                { 51.0 {I7}}        
+#G $        Fe K|b                7.06                 { 6.9 {I1}}        
+#G $----------------------------------------------------------------------
+#G                                                                        
+#L E         From a least-squares fit to the E|g data                     
+#L J         From adopted levels. Results deduced from |g(|q,H,T),        
+#L |g|g(|q), and |a's are consistent                                      
+#G           See 1970Ra51 for summary of conversion-electron              
+#G ratio measurements (spectrometer, ce) from 1954Al06, 1955Co31,         
+#G 1957Be45, 1960Ew04, and 1967Ha06. The ratios have also been measured   
+#G by 1971Po05 (spectrometer, ce). These data were used in the present    
+#G evaluation as noted below. See 1996Me11 for the ratio of the           
+#G intensities of conversion electrons for 122 and 136-keV gammas and     
+#G their conversion coefficients. However, the M,|d of these two gammas   
+#G derived from the 1996Me11 data are not supported by other              
+#G measurements. See the comments on M,|d for these two gammas. Other:    
+#G see 1981HaZY                                                           
+#G           14.4|g summary: E|g: from the difference in energies of the  
+#G 122|g and 136|g in 1991BaZS which are from the evaluation in 1978He21. 
+#G See 1967Be65, 1965Be41, 1976Bo16, 1972He42, and 1971Po05 for           
+#G individual measurements. E(ce): E(ce(K))=7.289 {i8}                    
+#G (1967Ha06,spectrometer); 7.300 {i6} (1963Th04,pc). E(ce(M1))=14.3134   
+#G {i2} ("metallic"), 14.3122 {i2} ("oxide"); E(ce(N1))=14.4017 {i2}      
+#G ("metallic"), 14.4005 {i2} ("oxide") (1971Po05, spectrometer).         
+#G |a: extrapolated from 1976Ba63                                         
+#G           122|g and 136|g summary: |d(122|g): weighted av of           
+#G |g(|q,H,T) (Ge(Li)): +{ 0.120 {i2}} (1972Fo05), +{ 0.116 {i1}}         
+#G (1973Sc15), +0.1195 {i10} (1975Co22); and |g|g(|q) (Ge(Li)): +0.120    
+#G {i4} (1972Kr15). Others: 1972Vi09, 1972Ni01. |d(136|g): zero, since it 
+#G is Q (1969Sp05).                                                       
+#G           |a(exp),|a(K)exp(122|g,136|g): from 1967Ha06 (spectrometer,  
+#G ce/pe). 1967Mu20 has been excluded from consideration since the ce(K)  
+#G were not completely separated and there appeared to be no separation   
+#G of the higher shell electrons (1985HaZA). Other: 1981HaZY.             
+#G K/L+(122|g,136|g): unweighted av of 1954Al06, 1957Be45, 1965Mo22,      
+#G 1967Ha06.                                                              
+#G           I(K| x ray)/I(14.4|g)=5.58 {i30} (scin,pc; x/|g. 1963Mu02)   
+#G and 5.57 (scin, 1966Su11) are in good agreement with 5.85 {i17} from   
+#G the adopted decay scheme                                               
+#G           Coincidences are from 1965Ki03 (Ge(Li),fast-slow coin)       
+#G E         Weighted averages of Ge(Li) measurements by 1965Ki03,        
+#G 1965Sp06, and 1971Ko19, except as noted.                               
+#G RI        Per 100 parent decays. I|g are from 1971Ko19 normalized to   
+#G I|g(14.4)+I|g(136)={ 19.84 {i17}}, except as stated otherwise.         
+#G           NOTE TYPO ERROR 1972Ma06 HAS NOTHING TO DO WITH A=57.        
+#E IE        From |g-ray intensity balance at each level                  
+#N 1.0                   1.0       1.0                                    
+CO57 FE57 beta+ 2.691 85.4 1.0
+#N           I|g(14.4), I|g(122), I|g(136) are as recommended by 1991BaZS;
+#N for |a(14.4), a higher value of 8.56 {i26} extrapolated from 1976Ba63  
+#N has been adopted. 1991BaZS point out that |a(14.4)=8.18 {i11}          
+#N (1985HaZA) is too low and recommend a higher value. 1992ScZZ whose     
+#N I|g(14.4) has been adopted in 1991BaZS, also point out the need for    
+#N the higher theoretical |a(14.4). |SI|g(1+|a)={ 99.7 {i28}}.            
+#N                                                                     3  
+#G M,MR      From adopted gammas                                          
+#G CC        From the evaluation by 1985HaZA, unless indicated otherwise  
+#G E(A)      Recommended energies from 1997HeZZ                           
+#G RI(D)     Recommended by 1991BaZS                                      
+#P 0.0         7/2-              271.74 D  6              836.0     4     
++G gamma 0.014412900000000001 0.0916
++G gamma 0.12206064999999999 0.856
++G gamma 0.13647356 0.10679999999999999
++G gamma 0.2304 4.0E-6
++G gamma 0.35233 3.0E-5
++G gamma 0.3668 1.1999999999999999E-5
++B beta+ 8.877000000000001E-4 9.5E-4
++G gamma 0.33969 3.7000000000000005E-5
++G gamma 0.57009 1.5800000000000002E-4
++G gamma 0.69241 0.00149
++G gamma 0.70654 5.0E-5
+
+# 57FE    57CO EC DECAY                 1991BAZS,1997HEZZ         98NDS    199812
+#  57CO EC DECAY                 1991BAZS,1997HEZZ         98NDS    199812
+#H TYP=FUL$AUT=M. R. BHAT$CIT=NDS 85, 415 (1998)$CUT=24-Sep-1998$         
+#  1997Dr06: show the importance of including final state interaction     
+#  (fsi) in the calculation of double-to-single ratio of K-electron       
+#  ejection in internal conversion, by leading to a better agreement with 
+#  experimental data for the 122-keV |g.                                  
+#  1996Me11,1995Me11,1994MeZZ,1993MeZY: measured spectra of ce from       
+#  E|g=122 and { 136 keV} to determine their conversion coefficients      
+#  1995Ch70: review/evaluation of {+57}Co decay data                      
+#  1995Ah04: measured T{-1/2} of 14.4-keV level using electronic timing   
+#  1992ScZZ: measurement of emission probability for 14.4|g.              
+#  1991BaZS: evaluation and recommended values by the iaea Coordinated    
+#  Research Project on x-ray and |g-ray Standards for Detector            
+#  Calibration. Recommended values from this evaluation are used as       
+#  indicated.                                                             
+#  1990Si03: measured K-capture probability to the 136 level as           
+#  { 0.89 {i4}}                                                           
+#  1989Ba34: measured internal bremsstrahlung spectrum and compared it    
+#  with Martin and Glauber theory                                         
+#  1987Ko38: measured relative intensities and energies of the KLL, KLM,  
+#  and kmm Auger electrons using an electrostatic spectrometer and        
+#  observed the intensity ratios: KLL:KLM:km(1-3)M(1-3):K conversion      
+#  (14 keV)=4.0 {i6}:1.0 {i1}:0.05 {i2}:3.0 {i3}. Also KLM:KLL=0.24 {i5}  
+#  and kmm:KLL={ 0.012 {i5}}.                                             
+#  1986Ca08,1991CaZZ: I(K|a)/I(K|b)=0.134 {i3} (experiment); 0.1343       
+#  (theory)                                                               
+#  1994Bu26: I(K|a)/I(K|b)={ 0.1210 {i24}} (experiment); 0.1208 (theory)  
+#  1971Ko19: measured E|g, I|g, Ge(Li) detector                           
+#  Others: 1981VyZZ, 1981KhZY, and 1970Ra51                               
+#G                                                                        
+#G                Emission probabilities of x-rays (1991BaZS)             
+#G                                                                        
+#G $----------------------------------------------------------------------
+#G $        X-ray                E(keV)              I(x-ray)             
+#G $----------------------------------------------------------------------
+#G $        Fe K|a                6.40                { 51.0 {I7}}        
+#G $        Fe K|b                7.06                 { 6.9 {I1}}        
+#G $----------------------------------------------------------------------
+#G                                                                        
+#L E         From a least-squares fit to the E|g data                     
+#L J         From adopted levels. Results deduced from |g(|q,H,T),        
+#L |g|g(|q), and |a's are consistent                                      
+#G           See 1970Ra51 for summary of conversion-electron              
+#G ratio measurements (spectrometer, ce) from 1954Al06, 1955Co31,         
+#G 1957Be45, 1960Ew04, and 1967Ha06. The ratios have also been measured   
+#G by 1971Po05 (spectrometer, ce). These data were used in the present    
+#G evaluation as noted below. See 1996Me11 for the ratio of the           
+#G intensities of conversion electrons for 122 and 136-keV gammas and     
+#G their conversion coefficients. However, the M,|d of these two gammas   
+#G derived from the 1996Me11 data are not supported by other              
+#G measurements. See the comments on M,|d for these two gammas. Other:    
+#G see 1981HaZY                                                           
+#G           14.4|g summary: E|g: from the difference in energies of the  
+#G 122|g and 136|g in 1991BaZS which are from the evaluation in 1978He21. 
+#G See 1967Be65, 1965Be41, 1976Bo16, 1972He42, and 1971Po05 for           
+#G individual measurements. E(ce): E(ce(K))=7.289 {i8}                    
+#G (1967Ha06,spectrometer); 7.300 {i6} (1963Th04,pc). E(ce(M1))=14.3134   
+#G {i2} ("metallic"), 14.3122 {i2} ("oxide"); E(ce(N1))=14.4017 {i2}      
+#G ("metallic"), 14.4005 {i2} ("oxide") (1971Po05, spectrometer).         
+#G |a: extrapolated from 1976Ba63                                         
+#G           122|g and 136|g summary: |d(122|g): weighted av of           
+#G |g(|q,H,T) (Ge(Li)): +{ 0.120 {i2}} (1972Fo05), +{ 0.116 {i1}}         
+#G (1973Sc15), +0.1195 {i10} (1975Co22); and |g|g(|q) (Ge(Li)): +0.120    
+#G {i4} (1972Kr15). Others: 1972Vi09, 1972Ni01. |d(136|g): zero, since it 
+#G is Q (1969Sp05).                                                       
+#G           |a(exp),|a(K)exp(122|g,136|g): from 1967Ha06 (spectrometer,  
+#G ce/pe). 1967Mu20 has been excluded from consideration since the ce(K)  
+#G were not completely separated and there appeared to be no separation   
+#G of the higher shell electrons (1985HaZA). Other: 1981HaZY.             
+#G K/L+(122|g,136|g): unweighted av of 1954Al06, 1957Be45, 1965Mo22,      
+#G 1967Ha06.                                                              
+#G           I(K| x ray)/I(14.4|g)=5.58 {i30} (scin,pc; x/|g. 1963Mu02)   
+#G and 5.57 (scin, 1966Su11) are in good agreement with 5.85 {i17} from   
+#G the adopted decay scheme                                               
+#G           Coincidences are from 1965Ki03 (Ge(Li),fast-slow coin)       
+#G E         Weighted averages of Ge(Li) measurements by 1965Ki03,        
+#G 1965Sp06, and 1971Ko19, except as noted.                               
+#G RI        Per 100 parent decays. I|g are from 1971Ko19 normalized to   
+#G I|g(14.4)+I|g(136)={ 19.84 {i17}}, except as stated otherwise.         
+#G           NOTE TYPO ERROR 1972Ma06 HAS NOTHING TO DO WITH A=57.        
+#E IE        From |g-ray intensity balance at each level                  
+#N 1.0                   1.0       1.0                                    
+CO57 FE57 beta+ 2.691 85.4 1.0
+#N           I|g(14.4), I|g(122), I|g(136) are as recommended by 1991BaZS;
+#N for |a(14.4), a higher value of 8.56 {i26} extrapolated from 1976Ba63  
+#N has been adopted. 1991BaZS point out that |a(14.4)=8.18 {i11}          
+#N (1985HaZA) is too low and recommend a higher value. 1992ScZZ whose     
+#N I|g(14.4) has been adopted in 1991BaZS, also point out the need for    
+#N the higher theoretical |a(14.4). |SI|g(1+|a)={ 99.7 {i28}}.            
+#N                                                                     3  
+#G M,MR      From adopted gammas                                          
+#G CC        From the evaluation by 1985HaZA, unless indicated otherwise  
+#G E(A)      Recommended energies from 1997HeZZ                           
+#G RI(D)     Recommended by 1991BaZS                                      
+#P 0.0         7/2-              271.74 D  6              836.0     4     
++G gamma 0.014412900000000001 0.0916
++G gamma 0.12206064999999999 0.856
++G gamma 0.13647356 0.10679999999999999
++G gamma 0.2304 4.0E-6
++G gamma 0.35233 3.0E-5
++G gamma 0.3668 1.1999999999999999E-5
++B beta+ 8.877000000000001E-4 9.5E-4
++G gamma 0.33969 3.7000000000000005E-5
++G gamma 0.57009 1.5800000000000002E-4
++G gamma 0.69241 0.00149
++G gamma 0.70654 5.0E-5
++G gamma 0.1221 0.126
++G gamma 0.1365 1.0
++G gamma 0.2302 0.08800000000000001
++G gamma 0.3523 1.0
++G gamma 0.36669999999999997 0.172
++G gamma 0.3397 0.040999999999999995
++G gamma 0.692 1.0
++G gamma 0.7064 0.027999999999999997
++G gamma 0.8707 1.0
++G gamma 0.9927999999999999 0.467
++G gamma 1.0613 1.0
++G gamma 0.8984 1.0
++G gamma 1.2506 0.048
++G gamma 1.265 0.027000000000000003
++G gamma 0.6504 1.0
++G gamma 0.9901 0.43
++G gamma 1.3427 0.395
++G gamma 0.9208 0.134
++G gamma 1.2605 0.43
++G gamma 1.6120999999999999 1.0
++G gamma 1.6272 0.09
++G gamma 1.0189 0.32899999999999996
++G gamma 1.3585999999999998 0.129
++G gamma 1.7252 1.0
+

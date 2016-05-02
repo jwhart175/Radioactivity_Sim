@@ -1,0 +1,26 @@
+#115IN    115CD B- DECAY (44.56 D)      1973SE06,1975BO29,1978HE0812NDS    201210
+#  115CD B- DECAY (44.56 D)      1973SE06,1975BO29,1978HE0812NDS    201210
+#H TYP=FUL$AUT=JEAN BLACHOT$CIT=NDS 113, 2391 (2012)$CUT=1-Sep-2012$      
+#  Others: 1959Jo31, 1963Sh14, 1963Va06, 1963Hu06, 1964Bo19, 1964Ra03,    
+#  1965Sa13, 1966Gr14, 1968Mo09, 1969MoZS, 1973Is03, 1974HeYW             
+#  %B-=100; %IT=0, IG(E5)/IG(934G) LE 1E-5 (1973Se06)                     
+#  GG(THETA): 1963Va06, 1964Pa18, 1973St13, 1973Ko23, 1973Se06, 1975Bo29  
+#G           EG,IG measurements are from 1978He08, except as noted;       
+#G I(CEK) from 1973Is03                                                   
+#G           EKC=CEK/IG normalized to KC(336G)=0.866 (M4 theory)          
+#G M$Deduced from EKC                                                     
+#G M(B)$From adopted gammas                                               
+#L T,J$From adopted levels, except as noted                               
+#L BAND(A)   1/2(431) BAND; A=12.9, a=-1.92. E(5/2)=1017 KEV,             
+#L E(9/2)=1272 KEV. Calculations by 1975Di12                              
+#L indicate a potential energy                                            
+#L minimum at prolate B2 AP 0.2 for 1/2[431] orbital.                     
+#P 181.0     5 11/2-             44.56 D   24             1448.7    17    
+CD115 IN115 beta- 1.4487 3849984.0 0.0020
++G gamma 0.933838 10.0
++G gamma 0.1363 2.0E-6
++G gamma 0.4805 4.0E-5
++G gamma 0.5447000000000001 3.0E-4
++G gamma 0.3536 6.0E-4
++G gamma 0.5447000000000001 1.0E-4
+

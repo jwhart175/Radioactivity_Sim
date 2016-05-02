@@ -1,0 +1,42 @@
+#247ES    251MD A DECAY                 2006CH52,2005HE27         15NDS    201503
+#  251MD A DECAY                 2006CH52,2005HE27         15NDS    201503
+#H TYP=FUL$AUT=C. D. NESARAJA$CIT=NDS 125, 395 (2015)$CUT=31-Mar-2014$    
+#  2006Ch52: {+251}Md isotope produced                                    
+#  in |a decay of {+255}Lr isotope. Parent nuclide produced by            
+#  {+209}Bi({+48}Ca,2n) reaction, in two separate                         
+#  experiments conducted at JYFL and GANIL. In both experiments, an       
+#  incident beam energy of E|?217 MeV was used. Recoil products           
+#  separated from the primary beam in each.                               
+#  JYFL: Measured recoil products, E|a, I|a, and tof using a              
+#  Multi-Wire Proportional Counter gas detector, two double-sided Si      
+#  strip detectors (DSSSD) and a "box" of 28 pin-diodes surrounding the   
+#  two DSSSDs.                                                            
+#  GANIL: Measured recoiled products, E|g, I|g, E|a, I|a, ce, and tof     
+#  using a "galotte" detector (mylar foil and micro-channel plate         
+#  detector), a DSSSD, four cooled Si detectors (BEST) and four segmented 
+#  Ge detectors (EXOGAM).                                                 
+#  Theoretical calculations using Hartree-Fock-Bogoliubov (HFB) with      
+#  Skyrme were performed to interpret the experimental results            
+#  2005He27: {+251}Md produced from |a decay of                           
+#  {+255}Lr. {+255}Lr produced by the {+209}Bi({+48}Ca,2n) reaction       
+#  with beam energy E=4.55-4.65 MeV/nucleon.                              
+#  Evaporation residues were separated from the primary beam by velocity  
+#  filter SHIP at GSI facility. Measured (fragments)-|a coin, |a-|g coin, 
+#  prompt and delayed |g-rays, and K x-rays.                              
+#  |g-rays were detected with a 'Clover' detector and a position          
+#  sensitive (PIPS) detector was used to measure the |a decay.            
+#A $|a line at 7590 {I5} in the |a spectrum in 2006Ch52 is assigned to a  
+#A sum line with an intensity of 13 {I3} relative to 87 {I3} for 7550|a.  
+#A This line was not clear if it was present in the work of 2005He27      
+#A E$Energies from JYFL experiment in 2006Ch52, which had better          
+#A resolution.                                                            
+#A HF$r{-0}({+247}Es)=1.476 20, estimated by the evaluator from the       
+#A r{-0} systematics given in 1998Ak04.                                   
+#G E$From |a-|g coincidences in 2005He27 with higher precision            
+#G RI$From 2005He27                                                       
+#P 0.0         (7/2-)            4.27 M    26             7963      4     
+MD251 ES247 alpha 7.963 256.2 0.10
++A alpha 7.55 1.0
++G gamma 0.2427 0.16
++G gamma 0.29369999999999996 1.0
+

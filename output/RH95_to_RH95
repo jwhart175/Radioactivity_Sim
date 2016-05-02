@@ -1,0 +1,31 @@
+# 95RH    95RH IT DECAY (1.96 M)        1975WE03                  10NDS    201010
+#  95RH IT DECAY (1.96 M)        1975WE03                  10NDS    201010
+#H TYP=FUL$AUT=S. K. Basu, G. Mukherjee, A. A. Sonzogni$                  
+#H CIT=NDS 111, 2555 (2010)$CUT=30-Jun-2009$                              
+#  Measured |g's, |b{++}'s, |g|g-coin, |b|g-coin, |g(t); Ge(Li), scin.    
+#  Assignment of |g's to {+95}Rh decay was made based on their            
+#  half-lives, excitation function and appropriate reduction in their     
+#  intensities relative to those of other Rh isotopes when a natural Ru   
+#  target was used                                                        
+#  The strong 543|g was interpreted as an isomeric transition by          
+#  1975We03  because it is not in coincidence with any |b or |g-ray in    
+#  the decay of {+95}Rh to {+95}Ru                                        
+#  CC$ FROM BrIcc v2.2a (13-Jul-2008) 2008Ki07, "Frozen Orbitals" appr.   
+#L J,T$From the adopted levels                                            
+#P 543.3     3 (1/2)-            1.96 M    4                              
+RH95 RH95 IT 0.0 117.6 1.0
+
+# 95RH    95RH IT DECAY (18.8 NS)       1994Ro08                  10NDS    201010
+#  95RH IT DECAY (18.8 NS)       1994Ro08                  10NDS    201010
+#H TYP=FUL$AUT=S. K. Basu, G. Mukherjee, A. A. Sonzogni$                  
+#H CIT=NDS 111, 2555 (2010)$CUT=30-Jun-2009$                              
+#  E(40Ca) = 180 MEV, measured E|g, IG,G(q) GG-coin using 58NI+ 40CA      
+#  reaction with ^NORDBALL array, consisting of 15 HPGe (BGO shielded)    
+#  at 79 DEG, 101 DEG and 143 DEG; particle identification using neutron  
+#  wall with 11 liquid  scintillators and Si ball with 21 detectors.      
+#  CC$ FROM BrIcc v2.2a (13-Jul-2008) 2008Ki07, "Frozen Orbitals" appr.   
+#G M$From the adopted levels                                              
+#L J,T$From the adopted levels                                            
+#P 2236      3 (17/2-)           18.8 NS   10                             
+RH95 RH95 IT 0.0 1.88E-8 1.0
+

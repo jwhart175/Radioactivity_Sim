@@ -1,0 +1,16 @@
+# 78AS    78GE B- DECAY (88 M)          1972FE10,1965KV01,1965FR0409NDS    200910
+#  78GE B- DECAY (88 M)          1972FE10,1965KV01,1965FR0409NDS    200910
+#H TYP=FUL$AUT=AMEENAH R. FARHAN, BALRAJ SINGH$CIT=NDS 110, 1917 (2009)$  
+#H CUT=30-Jun-2009$                                                       
+#  1972FE10: MEASURED EG, IG                                              
+#  1965KV01 AND 1965FR04: FROM 238U(N,F); MEASURED T, EG, BG.             
+#  Total decay energy of 955 keV {I10} calculated (by RADLIST code)       
+#  from level scheme is the same as the expected value of 955 keV {I10}   
+#B           BETA AND BG DATA ARE REPORTED BY 1965KV01 AND 1965FR04       
+#G E,RI$FROM 1972FE10                                                     
+#L J$From ADOPTED LEVELS.                                                 
+#P    0.0        0+              88 M      1              955       10    
+GE78 AS78 beta- 0.955 5280.0 1.0
++B beta- 0.22740000000000002 0.96
++B beta- 0.22080000000000002 0.04
+

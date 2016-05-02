@@ -1,0 +1,93 @@
+#106PD    106AG EC DECAY (23.96 M)      1976SAYX,1967RA11,1974HEYW08NDS    200806
+#  106AG EC DECAY (23.96 M)      1976SAYX,1967RA11,1974HEYW08NDS    200806
+#H TYP=FUL$AUT=D. DE FRENNE AND A. NEGRET$CIT=NDS 109, 943 (2008)$        
+#H CUT=1-May-2007$                                                        
+#  1976SaYX: measured: E|g, I|g. Deduced: {+106}Pd levels, log| {Ift}     
+#  Others: 1953Be42, 1961Sa07, 1967St10, 1971Bb07                         
+#G E,RI      From semi |g-singles analysis (1976SaYX), unless otherwise   
+#G noted                                                                  
+#G E(A)      From level energy differences                                
+#G           |g|g from 1967Ra11 semi-scin spectra                         
+#G E(H)      From 1974HeYW (semi)                                         
+#L J         From adopted levels                                          
+#P 0.0         1+                23.96 M   4              2965      3     
+AG106 PD106 beta+ 2.965 1437.6000000000001 1.0
++B beta+ 0.868 0.526
++B beta+ 0.6361 0.065
++G gamma 0.5119 0.17031599999999997
++G gamma 0.61619 0.0014193
++G gamma 1.12798 7.220999999999999E-4
++G gamma 0.62195 0.0031622999999999994
++G gamma 0.7171000000000001 1.1703E-5
++B beta+ 0.361 0.13
++G gamma 0.42860000000000004 7.719E-5
++G gamma 0.43428 2.241E-5
++G gamma 1.0503099999999999 0.0016683000000000002
++G gamma 1.5622 1.7181E-4
++B beta+ 0.175 0.13
++G gamma 0.5784 6.474E-5
++G gamma 1.1945 3.984E-4
++G gamma 1.3976 2.988E-5
++G gamma 1.9095 1.1952E-5
++G gamma 0.43923 5.7270000000000006E-5
++G gamma 0.87346 0.001992
++G gamma 1.4895999999999998 1.494E-5
++G gamma 0.6802 3.237E-5
++G gamma 1.109 4.2329999999999996E-5
++G gamma 1.1145 6.225E-5
++G gamma 1.73 1.245E-5
++G gamma 2.2426999999999997 7.967999999999999E-6
++G gamma 0.7156 7.221000000000001E-6
++G gamma 1.766 2.49E-5
++G gamma 1.1807 5.4779999999999994E-5
++G gamma 1.797 8.217000000000001E-5
++G gamma 2.3093000000000004 6.9719999999999995E-6
++G gamma 1.9275 8.466E-6
++G gamma 2.4386 4.730999999999999E-6
++G gamma 1.9886 2.988E-6
++G gamma 1.4988 6.9719999999999995E-6
++G gamma 2.1138000000000003 4.482E-6
++G gamma 1.5723 9.461999999999999E-7
++G gamma 2.1934 2.49E-5
++G gamma 2.7049000000000003 8.466E-6
++G gamma 2.3165999999999998 2.49E-6
++G gamma 2.3659 3.4859999999999997E-6
+
+#106PD    106AG EC DECAY (8.28 D)       1973IN08,1975SC38,1977TI0108NDS    200806
+#  106AG EC DECAY (8.28 D)       1973IN08,1975SC38,1977TI0108NDS    200806
+#H TYP=FUL$AUT=D. DE FRENNE AND A. NEGRET$CIT=NDS 109, 943 (2008)$        
+#H CUT=1-May-2007$                                                        
+#  1973In08: activity from {+103}Rh(|a,n) E=14 MeV, chem. Measured: E|g,  
+#  I|g, ce deduced: {+106}Pd levels, J|p, mult                            
+#  1975Sc38: activity from {+106}Pd(d,2n) E=20 MeV, natural target;       
+#  measured: I|g(|q) polarized nuclei oriented at low T. Deduced:         
+#  {+106}Pd levels, J|p, |d                                               
+#  1977Ti01: activity from {+107}Ag(|g,n) E=30 MeV bremsstrahlung, natural
+#  target. Measured: I|g, |g|g(|q). Deduced: |d                           
+#  Others: 1950Me86, 1955Al44, 1960Ro12, 1963Sm06, 1967Ra11, 1967St10,    
+#  1967Te03, 1967Ba33, 1967Vr06, 1968Mo02, 1968Ta01, 1968We16, 1971Az02,  
+#  1974HeYW, 1975Sh28, 1975Si13                                           
+#  |g|g mainly from 1977Ti01 semi-semi spectra.                           
+#  Others: 1960Ro12, 1967Ba33, 1967Ra11, 1971Az02                         
+#  Q(|e)=3053 {I3} deduced from L/K capture ratios to 2952 and 2757       
+#  states (1978Ge01)                                                      
+#E           |b{++} unobserved (<0.1%) 1953Be42 (scin)                    
+#G E,RI      Taken from 1973In08, except where noted otherwise            
+#G           |a(K)exp=ce(K)/I|g normalized to |a(K)(511.8|g)=0.00484 7 (E2
+#G theory). I(ce(K)) data are primarily from 1973In08 (s), otherwise from 
+#G 1964Sc15 (s); I(ce(L)) data are from 1987KrZQ.                         
+#G Others: 1955Al44, 1961Sm04, 1963Sm06, 1975Sh28, 1978Sh25               
+#G M         From |a(K)exp, K:L1:L2:L3, |g(|q) or |g|g(|q) data           
+#G MR        From |g(|q) or |g|g(|q) data                                 
+#L J         From adopted levels                                          
+#P 89.66     7 6+                8.28 D    2              2965      3     
+AG106 PD106 beta+ 2.965 715391.9999999999 1.0
++G gamma 0.069 0.005174300000000001
++G gamma 0.0703 0.0091208
++G gamma 0.08009999999999999 0.0034203
++G gamma 0.0832 7.893E-4
++G gamma 1.9091 1.3155E-4
++G gamma 2.0773 2.1925E-5
++G gamma 0.67964 0.006402099999999999
++G gamma 0.6804199999999999 0.015435200000000003
+

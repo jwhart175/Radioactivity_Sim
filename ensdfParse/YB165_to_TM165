@@ -1,0 +1,63 @@
+#165TM    165YB EC DECAY (9.9 M)        1978AD06,1973TA18         06NDS    200606
+#  165YB EC DECAY (9.9 M)        1978AD06,1973TA18         06NDS    200606
+#H TYP=FUL$AUT=ASHOK K. JAIN AND ANWESHA GHOSH, BALRAJ SINGH$             
+#H CIT=NDS 107, 1075 (2006)$CUT=15-Apr-2006$                              
+#  1978AD06 (also 1985AD12): MEASURED EG, IG, GG, CE, GG(T).              
+#  SOME REVISIONS IN THE LEVEL SCHEME are PROPOSED BY 1985AD12            
+#  1973TA18: MEASURED EG, IG, GG. A TOTAL OF 118 GAMMA RAYS REPORTED      
+#  WITH PLACEMENTS PROPOSED FOR 73 GAMMA RAYS AMONGST 37 EXCITED STATES,  
+#  MOST OF WHICH ARE CONFIRMED BY 1978AD06                                
+#  OTHERS:                                                                
+#  1980ALZE: MEASURED LIFETIMES BY CE(T)                                  
+#  1968TA05: MEASURED T1/2(165YB ISOTOPE), EB, EG, IG, CE, XG, XG(T),     
+#  GG(T), XGCE(T). The conversion electron measurements were made using   
+#  ^Si(^Li) detector. THE WORK IS BY THE SAME AUTHOR AS THE FIRST         
+#  AUTHOR IN 1973TA18                                                     
+#  165YB ISOTOPE T1/2: 1972CH23, 1969DeZZ, 1967PA04 (ALSO 1964PA07),      
+#  1961St05                                                               
+#G E,RI$ FROM 1978AD06                                                    
+#G E(A)$ Assignment to 165YB decay is uncertain                           
+#G E(B)$ PLACEMENT FROM 1985AD12                                          
+#G E(D)$ PLACEMENT PROPOSED BY 1978AD06 IS EXCLUDED BY 1985AD12           
+#G E(X)$ 1090.28+1090.54 ARE UNRESOLVED                                   
+#G $ THE FOLLOWING GAMMA RAYS WITH EG (RI RELATIVE TO 100 FOR 80.11G)     
+#G WERE REPORTED BY 1973TA18 ONLY:                                        
+#G 282.5 5 (WEAK), 292.2 5 (0.04), 427.0 5 (0.06), 589.3 7 (WEAK),        
+#G 675.1 1 (0.13), 736.8 5 (0.09), 920.0 10 (0.04), 944.0 10 (0.06),      
+#G 963 1 (0.05), 976.8 10 (0.04), 1100.6 10 (0.1), 1253.2 10 (0.01),      
+#G 1306 1 (0.04). PLACEMENTS WERE PROPOSED FOR ONLY THE 589.3 AND         
+#G 1100.6 GAMMA RAYS, BUT THE CORRESPONDING LEVELS HAVE NOT BEEN          
+#G CONFIRMED BY 1978AD06                                                  
+#G M$ FROM CE DATA. THE EKC'S were normalized to KC(68.86G)=1.89 for E2.  
+#G ELECTRON INTENSITIES GIVEN BY 1978AD06 FOR 21 TRANSITIONS              
+#G ARE NORMALIZED TO GAMMA-RAY INTENSITIES AND ASSUMING THAT              
+#G 68.86G IS PURE E2 FROM L-SUBSHELL RATIOS MEASURED BY 1978AD06          
+#L $ THE FOLLOWING LEVELS PROPOSED BY 1973TA18 ARE NOT CONFIRMED          
+#L BY 1978AD06 AND ARE OMITTED HERE: 369.8, 609.5, 1424.8;                
+#L TENTATIVE LEVELS AT 950.0, 1100.5, 1129.1, 1352.6.                     
+#L $ A 1790.4 LEVEL PROPOSED IN 1978AD06 IS EXCLUDED IN THE               
+#L REANALYSIS BY 1985AD12                                                 
+#L J$ From 'adopted levels'                                               
+#L T$ From ce-ce(t) and/or ce-|g(t) (1980AlZE), unless otherwise stated   
+#L T(A)$ From |g|g(t) (1978Ad06)                                          
+#L E(B)$ LEVEL PROPOSED BY 1985AD12                                       
+#P 0.0         5/2-              9.9 M     3              2649      28    
++G gamma 0.2085 1.53E-4
++B beta+ 7.000000000000001E-5 0.006730000000000001
++B beta+ 0.666 0.00759
++B beta+ 0.345 0.008212
++B beta+ 0.332 0.008221000000000001
++B beta+ 0.291 0.008239999999999999
++B beta+ 0.28 0.008244
++B beta+ 0.185 0.008254000000000001
++B beta+ 8.254E-4 0.00133
++B beta+ 8.253000000000001E-4 0.00134
++B beta+ 8.252E-4 0.00134
++B beta+ 8.250999999999999E-4 0.00134
++B beta+ 8.248E-4 0.00134
++B beta+ 8.238999999999999E-4 0.00135
++B beta+ 8.227E-4 0.00136
++B beta+ 8.225E-4 0.00136
++B beta+ 8.223E-4 0.00136
++B beta+ 8.174E-4 0.0014000000000000002
+

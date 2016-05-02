@@ -1,0 +1,22 @@
+#115AG    252CF SF DECAY                2002HW06                  12NDS    201210
+#  252CF SF DECAY                2002HW06                  12NDS    201210
+#H TYP=FUL$AUT=JEAN BLACHOT$CIT=NDS 113, 2391 (2012)$CUT=1-Sep-2012$      
+#  Measured E|g, I|g, |g|g, using GAMMASPHERE                             
+#  array with 102 Compton-suppressed Ge detectors                         
+#G RI$Uncertainty assigned as 5% for strong transitions (I|g>5) and       
+#G 30% for weak transitions (I|g<5) from a general comment in 2002Hw06.   
+#L E$From least-squares fit to E|g's, assuming                            
+#L |D(E|g)=0.3 keV for each |g ray                                        
+#L T$From adopted levels                                                  
+#L J$From band assignments                                                
+#L BAND(A)$ |p7/2[413] band                                               
+#L BAND(B)$ Band based on (13/2-).                                        
+#L This band may be the yrast portion of 1/2[301], Coriolis mixed with    
+#L the 3/2[301] band.                                                     
+#L Negative parity for the highest three members is from figure 4         
+#L of 2002Hw06, not given in authors' table II                            
+#L BAND(C)$ Band based on (17/2-).                                        
+#L This band may be the yrast portion of K=2 |g band built on 13/2- band  
+#L BAND(D)$ POSSIBLY |p5/2[422] band                                      
+#P  0.0          0+                2.645 Y 8                              
+

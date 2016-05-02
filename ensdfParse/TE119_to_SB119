@@ -1,0 +1,158 @@
+#119SB    119TE EC DECAY (16.05 H)      1975DU04                  09NDS    200910
+#  119TE EC DECAY (16.05 H)      1975DU04                  09NDS    200910
+#H TYP=FUL$AUT=D. M. SYMOCHKO, E. BROWNE, J. K. TULI$                     
+#H CIT=NDS 110,2945 (2009)$CUT=1-Dec-2008$                                
+#  Modified by E. Browne. Decay scheme normalized again (more realistic   
+#  uncertainties).  New conversion coefficients from BRICC. (12/12/2008)  
+#  1975DU04: Sn(A,XN) E=54 MEV; mass separation; semi, scin G, GG, XG(T)  
+#  1975ME23: 120TE(G,N); semi G, GG                                       
+#  1967GR14: 116SN(A,N) E<18 MEV; chem; semi, scin G, CE, GG, GG(THETA)   
+#  Others: 1967BE04, 1960KO12                                             
+#  The decay scheme is that proposed by 1975DU04                          
+#G CC$ FROM BrIcc v2.2 (31-Mar-2008) 2008KiAA, "Frozen Orbitals" appr.    
+#G E         From 1975DU04, except as noted                               
+#G E(A),RI(A)$From 1975ME23. Intensity normalized to the strongest G's    
+#G from each level                                                        
+#G E(B)      Expected transitions which may be obscured by the            
+#G intense 644G (1975DU04)                                                
+#G E(C)      Expected transitions which may be obscured by the            
+#G 1048G from 4.7 D 119TE EC decay (1975DU04)                             
+#G RI        Relative to I(644.01G)=100                                   
+#G M         From EKC by 1967GR14, unless otherwise noted                 
+#G MR        From adopted levels                                          
+#L E         E(levels) are based on a least-squares fit by the            
+#L evaluators to the E(G's)                                               
+#L T         From adopted levels                                          
+#P 0.0         1/2+              16.05 H   5              2293.0    20    
+TE119 SB119 beta+ 2.293 57780.0 1.0
++G gamma 0.7948 5.887E-4
++G gamma 1.7007 2.523E-4
++G gamma 0.27044999999999997 0.0011774
++B beta+ 8.51E-4 0.0011799999999999998
++G gamma 0.64401 0.841
++B beta+ 0.2854 0.0083
++G gamma 0.4295 8.410000000000001E-4
++G gamma 0.69985 0.10091999999999998
++B beta+ 0.2612 0.0084
++G gamma 0.6277200000000001 1.4297E-4
++G gamma 0.68321 0.0010933
++G gamma 1.32738 8.409999999999998E-5
++B beta+ 8.542999999999999E-4 0.00115
++G gamma 0.6945 9.251E-4
++G gamma 1.3387 0.0022707
++B beta+ 8.542E-4 0.00115
++G gamma 0.7132000000000001 5.887E-4
++G gamma 0.7693 0.0010933
++G gamma 1.41319 0.010933
++B beta+ 8.536E-4 0.00116
++G gamma 0.14936000000000002 2.8594E-4
++G gamma 0.78776 0.0026911999999999995
++G gamma 0.84357 0.0029434999999999995
++G gamma 1.21687 4.2049999999999996E-6
++G gamma 1.4873599999999998 8.409999999999999E-6
++B beta+ 8.529E-4 0.00116
++G gamma 1.10557 0.0055506
++G gamma 1.4795 3.3639999999999994E-4
++G gamma 1.7496500000000001 0.039527
++B beta+ 8.486E-4 0.0011899999999999999
++G gamma 1.1213 0.0020184
++G gamma 1.1770399999999999 0.0071484999999999995
++G gamma 1.8213 3.3639999999999994E-4
++B beta+ 8.465E-4 0.00121
++G gamma 1.8753 4.2050000000000003E-4
+
+#119SB    119TE EC DECAY (4.70 D)       1977YA03                  09NDS    200910
+#  119TE EC DECAY (4.70 D)       1977YA03                  09NDS    200910
+#H TYP=FUL$AUT=D. M. SYMOCHKO, E. BROWNE, J. K. TULI$                     
+#H CIT=NDS 110,2945 (2009)$CUT=1-Dec-2008$                                
+#  Modified by E. Browne. Decay scheme normalized again (more realistic   
+#  uncertainties).  New conversion coefficients from BRICC. (12/12/2008)  
+#  1977YA03: 118SN(A,3N) E(A)=44 MEV, chem; semi G, GG, GG(THETA);        
+#  mag spect CE                                                           
+#  1975DU04: Sn(A,XN) E(A)=54 MEV, mass separation; semi, scin G, GG,     
+#  GX(T)                                                                  
+#  1967GR14: 116SN(A,N) E<18 MEV; chem; semi, scin G, CE, GG, GG(THETA)   
+#  Others: G(1977BE52,1969GA08,1967SI14,1967KA22,1963KA04,1960KO12);      
+#          CE (1969GA08,1967SI14,1963SV01,1960KO12,1982SA22);             
+#          GG(THETA) (1982SA22,1967BE47,1967BE04,1967SI14);               
+#          GG (1967GR14,1967KA22,1963KA04,1960KO12);                      
+#          GB+ (1963KA04);                                                
+#          GCE (1963SV01);                                                
+#          B+ (1960KO12)                                                  
+#  The decay scheme is that proposed by 1977YA03, except as noted.        
+#  It is similar to those proposed by 1975DU04, 1967BE04, 1967GR14        
+#G CC$ FROM BrIcc v2.2 (31-Mar-2008) 2008KiAA, "Frozen Orbitals" appr.    
+#G E         From CE data of 1977YA03, except as noted                    
+#G E(A)      From 1975DU04                                                
+#G E(C)      From 1975DU04. Assigned as double-escape or sum peak         
+#G in 1977YA03                                                            
+#G MR(D)$Value recommended in 1980Kr22.                                   
+#G RI        Relative to I(153.59G)=100                                   
+#G M         From EKC and CE ratios. The EKC are based on relative IG     
+#G and ICE(K) intensities normalized to KC(270.53G)=0.0358, which is the  
+#G theoretical value based on the multipolarity from the experimental     
+#G L-subshell ratio                                                       
+#L E         Deduced by evaluators from a least-squares fit               
+#L to G-ray energies.                                                     
+#L J,T       From Adopted Levels                                          
+#P 260.96    5 11/2-             4.70 D    4              2293.0    20    
+TE119 SB119 beta+ 2.293 406080.00000000006 1.0
++G gamma 0.18411000000000002 2.6440000000000003E-4
++G gamma 0.19054 3.305E-4
++G gamma 0.20117 1.3220000000000001E-4
++G gamma 0.3697 3.305E-4
++G gamma 0.7603 4.627000000000001E-4
++G gamma 1.0663 9.915E-4
++G gamma 1.3919000000000001 3.305E-4
++G gamma 1.40743 0.001322
++G gamma 1.7007999999999999 1.983E-4
++G gamma 2.1263 2.6440000000000003E-4
++G gamma 2.2256 2.6440000000000003E-4
++G gamma 2.242 6.610000000000001E-5
++G gamma 2.3604000000000003 6.61E-4
++B beta+ 8.445E-4 0.00123
++G gamma 0.27053 0.279603
++B beta+ 0.5859 0.0079
++G gamma 0.70033 0.004627
++G gamma 0.9709099999999999 0.0023135
++G gamma 0.77791 6.61E-4
++G gamma 1.04844 0.031860200000000005
++G gamma 0.16434 0.012955600000000001
++G gamma 0.24178 5.949E-4
++G gamma 0.94221 0.050830900000000005
++G gamma 1.21273 0.661
++G gamma 0.97929 0.0300755
++G gamma 1.2496500000000001 0.00173182
++B beta+ 0.25680000000000003 0.0084
++G gamma 0.11662 0.0044948
++G gamma 0.15359 0.661
++G gamma 0.39542 0.003305
++G gamma 1.09575 0.0223418
++G gamma 1.36639 0.010642100000000002
++B beta+ 0.0829 0.0085
++G gamma 1.13675 0.07647770000000001
++B beta+ 8.554000000000001E-4 0.00114
++G gamma 0.9176 8.593E-4
++G gamma 1.0813499999999998 0.015930100000000003
++G gamma 1.859 0.0013881
++B beta+ 8.447E-4 0.00122
++G gamma 0.8188 0.0010576000000000001
++G gamma 0.85968 0.0015864
++G gamma 0.97637 0.027100999999999997
++G gamma 1.0132 0.016525
++G gamma 1.25564 1.5203000000000002E-4
++G gamma 1.9554500000000001 2.6440000000000003E-4
++B beta+ 8.394E-4 0.00126
++G gamma 0.87146 0.0038338
++G gamma 0.9126000000000001 0.0623984
++B beta+ 8.346E-4 0.0013
++G gamma 2.0132 0.0031728
++B beta+ 8.34E-4 0.00131
++G gamma 0.95282 8.593E-4
++G gamma 1.1112 1.1237000000000002E-4
++G gamma 1.31201 0.0012228500000000002
++G gamma 2.08957 0.04679880000000001
++B beta+ 8.209999999999999E-4 0.0014099999999999998
++G gamma 0.9728 9.915E-4
++G gamma 1.0132 0.008593
+

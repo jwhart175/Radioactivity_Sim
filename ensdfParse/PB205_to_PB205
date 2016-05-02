@@ -1,0 +1,22 @@
+#205PB    205PB IT DECAY (5.55 MS)      1976Li09,1971Ma59         04NDS    200404
+#  205PB IT DECAY (5.55 MS)      1976Li09,1971Ma59         04NDS    200404
+#H TYP=FUL$AUT=F.G. KONDEV$CIT=NDS 101, 521 (2004)$CUT=1-Feb-2004$        
+#  1976Li09: Produced using 204HG(A,3NG); E(A)=40-MEV; Target: 204HG,     
+#  enriched up to 99.7%; Measured: EG, IG, GG coin, G(T), G(THETA),       
+#  conversion electrons, G-FACTOR, MOMM1.                                 
+#  1971Ma59: Produced using 204HG(A,3NG); E(A)=41-MEV; Target: liquid     
+#  204HG enriched up to 80%; Detectors: GE(LI); Measured: EG, IG,         
+#  G(T), G-FACTOR, MOMM1                                                  
+#  Others: 1960Be19, 1960Ve04, 1973Sa22, 1977Go15.                        
+#G E,RI$From 1976Li09 unless otherwise specified. |DE|g                   
+#G estimated by the evaluator.                                            
+#G TI$From 1971Ma59                                                       
+#G M$ From adopted gammas.                                                
+#L E$ From a least squares fit to EG.                                     
+#L J$ From adopted levels.                                                
+#L E(A)$CONF=((N,F5/2,-1)(N,P1/2,-2))                                     
+#L E(B)$CONF=((N,F5/2,-2)(N,P1/2,-1))                                     
+#L E(B)$CONF=((N,F5/2,-1)(N,P1/2,-1)(N,F5/2,-1))                          
+#L E(C)$CONF=((N,I13/2,-1)(N,P1/2,-2))                                    
+#P    1013.85 3 13/2+            5.55 MS    2                             
+

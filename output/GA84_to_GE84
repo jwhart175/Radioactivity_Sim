@@ -1,0 +1,69 @@
+# 84GE    84GA B- DECAY (0.085 S)       2009LEZZ                  09NDS    200910
+#  84GA B- DECAY (0.085 S)       2009LEZZ                  09NDS    200910
+#H TYP=FUL$AUT=A.A. Sonzogni, M. Fadil, and B. Pfeiffer$                  
+#H CIT=NDS 110,2815 (2009)$CUT=30-Sep-2009$                               
+#  2009LeZZ: U(|g,F), E=50 MeV, fission fragments were mass separated and 
+#  implanted on a tape system, measured |g, |b|g.  The authors of this    
+#  work propose two levels for 84GA on the basis of the gamma             
+#  intensities in 84GE B- and 84GA B-N decays.                            
+#  2009LeZZ is now published as Phys. Rev. C 80, 044308 (2009).           
+#  The data in the published version are identical to those in preprint.  
+#  2008LeZV is superseded by 2009LeZZ                                     
+#B IB,LOGFT$First order estimated value, assuming that the GS is fed      
+#B with IB =100%                                                          
+#P 0.0         (0-)              0.085 S   10             13690     SY    
+GA84 GE84 beta- 13.69 0.085 1.0
+
+# 84GE    84GA B- DECAY: MIXED SOURCE   2009LEZZ,2009GR06,2008WIZZ09NDS    200910
+#  84GA B- DECAY: MIXED SOURCE   2009LEZZ,2009GR06,2008WIZZ09NDS    200910
+#H TYP=FUL$AUT=A.A. Sonzogni, M. Fadil, and B. Pfeiffer$                  
+#H CIT=NDS 110,2815 (2009)$CUT=30-Sep-2009$                               
+#  2009LEZZ: U(|g,F), E=50 MeV, fission fragments were mass separated and 
+#  implanted on a tape system, measured |g, |b|g.  The authors of this    
+#  work propose two levels for 84GA on the basis of the gamma             
+#  intensities in 84GE B- and 84GA B-N decays, see the other two B-       
+#  DECAY datasets.                                                        
+#  2009LeZZ is now published as Phys. Rev. C 80, 044308 (2009).           
+#  The data in the published version are identical to those in preprint.  
+#  2008LeZV is superseded by 2009LeZZ                                     
+#  2009GR06: 238U(p,F), E=54 MeV, fission fragments decay studied using   
+#  ORNL's Low-energy Radioactive Ion Beam Spectroscopy Station. Measured  
+#  G, GB.  Published gamma ray spectra looks far cleaner and with higher  
+#  statistics than the corresponding one in 2009LEZZ.                     
+#  2008WiZZ: 235U(p,F), fission fragments implanted into a moving tape    
+#  collector, measured G, GB using four Ge clover detectors and two       
+#  plastic scintillators.                                                 
+#  2003PE18: {+84}Ga isotope produced by neutron-induced fission of       
+#  {+238}U followed by mass separation (ISOL method). Measured E|g,       
+#  |g|g, |b|g coin.  In this article, a |g-ray of 820 keV was             
+#  tentatively attributed to the 2+ to 0+ transition in 84GE.  The        
+#  half-life of this gamma ray was measured to be 65 MS 36,  which is in  
+#  agreement with the 85 MS 10 adopted value.  However, in 2006PE20, a    
+#  later article by the same authors of 2003PE18,  it is said that "no    
+#  new |g-line was found as a candidate to the 2+ to 0+ in 84GE because   
+#  of low statistics".  As a result, the earlier 2003PE18 result is not   
+#  adopted.  The works of 2008WiZZ, 2009GR06 AND 2009LEZZ put the 2+      
+#  energy at 624 keV.                                                     
+#P10.0         (0-)              0.085 S   10             13690     SY    
+GA84 GE84 beta- 13.69 0.085 1.0
+
+# 84GE    84GA B- DECAY (LT 0.085 S)    2009LEZZ                  09NDS    200910
+#  84GA B- DECAY (LT 0.085 S)    2009LEZZ                  09NDS    200910
+#H TYP=FUL$AUT=A.A. Sonzogni, M. Fadil, and B. Pfeiffer$                  
+#H CIT=NDS 110,2815 (2009)$CUT=30-Sep-2009$                               
+#  2009LEZZ: U(|g,F), E=50 MeV, fission fragments were mass separated and 
+#  implanted on a tape system, measured |g, |b|g.  The authors of this    
+#  work propose two levels for 84GA on the basis of the gamma             
+#  intensities in 84GE B- and 84GA B-N decays.                            
+#  2009LeZZ is now published as Phys. Rev. C 80, 044308 (2009).           
+#  The data in the published version are identical to those in preprint.  
+#  2008LeZV is superseded by 2009LeZZ                                     
+#G E,RI$From 2009LEZZ. Intensities are normalized to 100 for 247.8G from  
+#G 84GA B-N decay to 83GE                                                 
+#B IB,LOGFT$First order estimated values, assuming that most the decay    
+#B feeds the 1670 level                                                   
+#P 0.0+X       (3-,4-)           0.085 S   LT             13690     SY    
+GA84 GE84 beta- 13.69 0.085 1.0
++G gamma 0.6243 0.38
++G gamma 1.0460999999999998 0.42
+

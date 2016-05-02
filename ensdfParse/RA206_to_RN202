@@ -1,0 +1,29 @@
+#202RN    206RA A DECAY                 1996LE09,1987HE10,1967VA2208NDS    200803
+#  206RA A DECAY                 1996LE09,1987HE10,1967VA2208NDS    200803
+#H TYP=FUL$AUT=S. ZHU and F.G. KONDEV$CIT=NDS 109, 699 (2008)$            
+#H CUT=1-May-2007$                                                        
+#  1996LE09: 206RA was produced in 175LU(35CL,4N) at 157 MEV and 166 MEV. 
+#  The 175LU target has a thickness of 320 UG/CM2. At 157 MEV, the cross  
+#  section is the highest, 1.7 UB. 206RA was also produced in             
+#  171YB(40AR,5N) at 204 MEV with 1.7 UB cross section. The residues of   
+#  206RA were separated by the gas-filled recoil separator (^RITU) and    
+#  identified on the basis of spatial and time correlations between       
+#  the parent (206RA) and the daughter (202RN).                           
+#  1987HE10: 206RA was produced in the reactions 171YB(40AR,5N),          
+#  159TB(51V,4N) and 154SM(58FE,6N) with thin targets (200-850 UG/CM2).   
+#  The residues were separated by the velocity filter ^SHIP, then passed  
+#  two large-area time-of-flight detectors and were finally implanted     
+#  into an array of seven position-sensitive surface-barrier detectors,   
+#  where ALPHA decay was registered. The 206RA were                       
+#  identified by the spatial and time correlations between                
+#  the parent (206RA) and the daughter (202RN).                           
+#  1967VA22: 206RA was produced via 197AU(19F,10N) and 206PB(12C,12N).    
+#  The mass-number assignment of 206RA were made on the basis of          
+#  excitation functions. SI(AU) surface-barrier detectors were used in    
+#  the measurements. Measured EA, T(A).                                   
+#A HF$R0(202RN)=1.529 4 deduced with HF(7269A)=1.                         
+#L E,J,T$From adopted levels.                                             
+#P 0.0         0+                0.24 S    2              7415      4     
+RA206 RN202 alpha 7.415 0.24 1.00
++A alpha 7.269 1.0
+

@@ -1,0 +1,205 @@
+#129I     129TE B- DECAY (69.6 M)       1976MA35                  14NDS    201408
+#  129TE B- DECAY (69.6 M)       1976MA35                  14NDS    201408
+#H TYP=FUL$AUT=JANOS TIMAR AND ZOLTAN ELEKES, BALRAJ SINGH$               
+#H CIT=NDS 121, 143 (2014)$CUT=31-May-2014$                               
+#  1976Ma35: 105 mg enriched {+128}Te (99.5%) was irradiated at the Pool  
+#  Type Reactor, Livermore. Measured E|g, I|g, |g|g-coincidences using    
+#  two Ge(Li) detectors.                                                  
+#  Others:                                                                
+#  1974De15: E|g, I|g, |g|g, |g|g(|q) measurements. {+129}Te source       
+#  produced by (n,|g) reaction in the BR2 reactor at Mol, Belgium.        
+#  Two Ge(Li) and one NaI(Tl) detectors used for |g-ray measurements.     
+#  The |g|g(|q) data were obtained using two Ge(Li) detectors             
+#  1973Si14: |g(temp,|q) measurements on oriented                         
+#  nuclei. 20 mg enriched {+128}Te irradiated with neutrons.              
+#  {+3}He-{+4}He dilution refrigerator was used to perform the nuclear    
+#  orientation measurements; the temperature of the radioactive source was
+#  kept between 14 mK and 50 mK. Two Ge(Li) detected the |g rays at 0 and 
+#  90 degrees with respect to the magnetic field.                         
+#  1969Di01: 100 mg enriched {+130}Te (99.5%) used in (n,2n) reaction at  
+#  Livermore 14 MeV neutron generator. 200 mg enriched {+128}Te (99.46%)  
+#  irradiated at Livermore pool-type reactor. The |g radiation was        
+#  detected by 6 cm{+3} and 20 cm{+3} Ge(Li) detectors. Coincidence       
+#  measurements were performed with two NaI(Tl) detectors.                
+#  1968Go34, 1956Gr10: |b and ce measurements                             
+#  1964De10: 3 mg of enriched {+129}Te (97%) irradiated with neutrons in  
+#  the Apsara reactor, and 10 mg of enriched {+128}Te in the DIDO reactor,
+#  Harwell. NaI(Tl) used for detecting |g rays and determining relative   
+#  intensities. Resolution was 8.5% at 662 keV. For |g|g coincidence, two 
+#  NaI(Tl) were used. Beta spectrum of {+129m}Te isomer was studied with  
+#  Siegbahn-Slatis spectrometer. Beta spectrum of short-lived activity    
+#  was studied with 4|p scintillation |b ray spectrometer using plastic   
+#  phosphors. The |b|g coincidences were measured. The log {Ift} values   
+#  were deduced.                                                          
+#  Other |g-ray measurements: 1968Bu21, 1967Be03, 1965Hu08, 1965Bo12,     
+#  1964Ra04, 1963Ra11, 1956Gr10, 1955St94, 1955Ma54, 1955Da37             
+#  Other |g|g(|q) measurements: 1969Sa22, 1969Ma33, 1969Ma47, 1967Va37,   
+#  1965Gu07, 1964Ka09, 1963Ra11                                           
+#G RI(A)$From |g|g-coin.                                                  
+#G RI(B)$From I(|g)/I(551.50|g+551.98|g) in |g|g-coin, and                
+#G I(551.50|g+551.98|g)=0.064 {I6} in singles.                            
+#G RI(C)$1976Ma35 missed the data. Estimated from I(1022|g)/I(1050|g)     
+#G in {+129}Te |b{+-} decay (33.6 d).                                     
+#G M,MR$From low-temperature nuclear orientation |g(temp,|q) (1973Si14),  
+#G unless otherwise stated                                                
+#G CC$For [M1+E2] |g rays with no MR value, CC overlaps M1 and E2         
+#L E$From least-squares fit to E|g data                                   
+#L J,T$From Adopted Levels unless otherwise stated                        
+#L J(A)$Assignment also from |g(temp,|q) data (1973Si14)                  
+#P 0.0         3/2+              69.6 M    3              1502      3     
+TE129 I129 beta- 1.502 4176.0 1.0
++B beta- 0.5466 0.89
++G gamma 0.027809999999999998 0.16323999999999997
++B beta- 0.439 0.005600000000000001
++G gamma 0.25062 0.0038269
++G gamma 0.27843 0.0056672
++B beta- 0.352 0.09300000000000001
++G gamma 0.20896 0.0018017999999999999
++G gamma 0.4596 0.077
++G gamma 0.48739 0.014167999999999998
++B beta- 0.3226 0.00252
++G gamma 0.28126 0.0016478
++G gamma 0.53183 8.778E-4
++B beta- 0.2551 7.0E-6
++G gamma 0.2422 1.5400000000000002E-8
++G gamma 0.7017599999999999 4.62E-7
++G gamma 0.72957 1.232E-5
++G gamma 0.28138 1.54E-6
++G gamma 0.7409600000000001 3.7422E-4
++G gamma 0.76877 4.235E-5
++B beta- 0.21669999999999998 0.00213
++G gamma 0.27037 4.62E-5
++G gamma 0.34254 8.47E-5
++G gamma 0.5515 3.542E-5
++G gamma 0.8021 0.0019173
++G gamma 0.82993 6.391E-5
++G gamma 0.817 6.160000000000001E-7
++B beta- 0.1377 9.1E-5
++G gamma 0.5600499999999999 6.083E-5
++G gamma 0.76901 7.160999999999999E-6
++G gamma 1.01943 2.233E-5
++G gamma 1.02243 6.93E-6
++G gamma 1.05021 6.93E-6
++B beta- 0.1157 0.0088
++G gamma 0.2817 1.5399999999999998E-5
++G gamma 0.34288 4.927999999999999E-4
++G gamma 0.38208 6.16E-6
++G gamma 0.55198 1.386E-5
++G gamma 0.62434 9.702E-4
++G gamma 0.83328 4.543E-4
++G gamma 1.08385 0.004928
++G gamma 1.1116400000000002 0.0019096
++B beta- 0.0877 6.6E-6
++G gamma 0.9182899999999999 6.16E-6
++G gamma 1.1688 4.62E-7
++B beta- 0.0835 5.500000000000001E-6
++G gamma 0.7225 2.31E-6
++G gamma 0.93157 2.079E-6
++G gamma 1.1819600000000001 1.155E-6
++B beta- 0.06761 3.9E-4
++G gamma 0.21066 1.309E-5
++G gamma 0.41587999999999997 6.16E-6
++G gamma 0.49193000000000003 1.155E-5
++G gamma 0.7011000000000001 1.309E-5
++G gamma 0.77354 2.31E-6
++G gamma 0.98227 1.6015999999999998E-4
++G gamma 1.23282 7.469E-5
++G gamma 1.2606300000000001 1.1164999999999999E-4
++B beta- 0.05809 3.3E-4
++G gamma 0.46204 2.31E-6
++G gamma 0.73262 1.309E-5
++G gamma 0.8046 2.1560000000000004E-4
++G gamma 1.01357 1.309E-5
++G gamma 1.2641600000000002 8.162E-5
++G gamma 1.2915 2.7720000000000003E-6
+
+#129I     129TE B- DECAY (33.6 D)       1976MA35                  14NDS    201408
+#  129TE B- DECAY (33.6 D)       1976MA35                  14NDS    201408
+#H TYP=FUL$AUT=JANOS TIMAR AND ZOLTAN ELEKES, BALRAJ SINGH$               
+#H CIT=NDS 121, 143 (2014)$CUT=31-May-2014$                               
+#  1976Ma35: 105 mg enriched {+128}Te (99.5%) was irradiated at the Pool  
+#  Type Reactor, Livermore. Measured E|g, I|g, |g|g-coincidences using    
+#  two Ge(Li) detectors.                                                  
+#  Others:                                                                
+#  1973Si14: low-temperature nuclear orientation measurements. 20 mg      
+#  enriched {+128}Te irradiated with neutrons. {+3}He-{+4}He dilution     
+#  refrigerator was used; the temperature of the radioactive source was   
+#  kept between 14 mK and 50 mK. Two Ge(Li) detected the G rays at 0 and  
+#  90 degrees with respect to the magnetic field.                         
+#  1969Di01: 100 mg enriched {+130}Te (99.5%) used in (n,2n) reaction at  
+#  Livermore 14 MeV neutron generator. 200 mg enriched {+128}Te (99.46%)  
+#  irradiated at Livermore pool-type reactor. |g radiation was detected   
+#  by 6 cm{+3} and 20 cm{+3} Ge(Li) detectors. Coincidence measurements   
+#  were performed with two NaI(Tl) detectors.                             
+#  1968Go34, 1956Gr10: |b and ce measurements                             
+#  1964De10: 3 mg of enriched {+129}Te (97%) irradiated with neutrons in  
+#  the Apsara reactor and 10 mg of enriched {+128}Te in the DIDO reactor, 
+#  Harwell. NaI(Tl) used for detecting |g rays and determining relative   
+#  intensities. Resolution was 8.5% at 662 keV. For |g|g coincidence, two 
+#  NaI(Tl) were used. Beta spectrum of {+129m}Te was studied with         
+#  Siegbahn-Slatis spectrometer. Beta spectrum of short-lived activity    
+#  was studied with 4|p scintillation |b ray spectrometer using plastic   
+#  phosphors. |b|g coincidences were measured. The log {Ift} values       
+#  were deduced                                                           
+#  Other |g-ray measurements: 1967Be03, 1965Hu08, 1965Bo12, 1964Ra04,     
+#  1963Ra11                                                               
+#  Other |g|g(|q) measurements: 1974Ro32, 1965Gu07, 1964Ka09, 1963Ra11    
+#G RI(A)$From I(250|g)/I(278|g) in {+129}Te |b{+-} decay (69.6 min).      
+#G RI(B)$From I(209|g)/I(460|g)/I(487|g) in {+129}Te |b{+-} decay (69.6   
+#G min).                                                                  
+#G RI(D)$From |g|g-coin.                                                  
+#G M,MR$From Adopted Gammas, mainly based on low-temperature nuclear      
+#G orientation measurements by 1973Si14                                   
+#G CC$For [M1+E2] |g rays with no MR value, CC overlaps M1 and E2         
+#L E$From least-squares fit to E|g data                                   
+#L J,T$From Adopted Levels                                                
+#P 105.51    3 11/2-             33.6 D    1              1502      3     
+TE129 I129 beta- 1.502 2903040.0000000005 0.36
++B beta- 0.609 0.32
++G gamma 0.25062 1.0919999999999999E-5
++G gamma 0.27843 1.6119999999999998E-5
++G gamma 0.20896 7.799999999999999E-7
++G gamma 0.4596 3.3799999999999995E-5
++G gamma 0.48739 6.5000000000000004E-6
++B beta- 0.30989999999999995 0.03
++G gamma 0.6958799999999999 0.08307
++B beta- 0.2964 0.006999999999999999
++G gamma 0.2422 1.82E-5
++G gamma 0.7017 6.89E-4
++G gamma 0.72957 0.019370000000000002
++B beta- 0.29619999999999996 2.8000000000000003E-4
++G gamma 0.28138 2.6000000000000005E-6
++G gamma 0.49034 6.5000000000000004E-6
++G gamma 0.7409600000000001 7.539999999999999E-4
++G gamma 0.76877 7.8E-5
++B beta- 0.26730000000000004 8.999999999999999E-5
++G gamma 0.0761 8.84E-6
++G gamma 0.1153 7.54E-6
++G gamma 0.35748 3.900000000000001E-6
++G gamma 0.81704 0.002522
++G gamma 0.84481 9.49E-4
++B beta- 0.19140000000000001 3.7E-4
++G gamma 0.28144 1.43E-5
++G gamma 0.32064 1.6899999999999997E-5
++G gamma 0.5628200000000001 1.3000000000000001E-5
++G gamma 0.7717999999999999 8.190000000000001E-6
++G gamma 1.02243 4.8100000000000004E-4
++G gamma 1.05021 4.94E-4
++B beta- 0.1368 4.8E-6
++G gamma 0.7166 6.5000000000000004E-6
++G gamma 0.9245 1.69E-6
++G gamma 1.176 2.6000000000000005E-6
++G gamma 1.20359 6.5000000000000004E-6
++B beta- 0.1095 2.2000000000000003E-5
++G gamma 0.55243 7.800000000000002E-6
++G gamma 0.7946 1.5600000000000003E-5
++G gamma 1.00365 1.95E-5
++G gamma 1.2541300000000002 1.17E-5
++G gamma 1.28196 5.98E-6
++B beta- 0.05668 0.0015
++G gamma 0.55665 0.003276
++G gamma 0.67184 6.89E-4
++G gamma 0.70552 1.43E-4
++G gamma 1.37375 7.41E-6
++G gamma 1.40136 9.620000000000001E-5
+

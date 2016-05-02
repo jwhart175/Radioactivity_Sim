@@ -1,0 +1,14 @@
+# 67FE    67FE IT DECAY                 2003SA02                  05NDS    200512
+#  67FE IT DECAY                 2003SA02                  05NDS    200512
+#H TYP=FUL$AUT=HUO JUNDE, HUANG XIAOLONG, J.K. TULI$                      
+#H CIT=NDS 106, 159 (2005)$CUT=1-Apr-2005$                                
+#  2003SA02: fragmentation of E=61.6 MEV/^A 76GE{++30} on 9BE,            
+#  separation in ^LISE3 spectrometer. Measured G,G(T)                     
+#  1998GR14: FRAGMENTATION OF E=60.3 MEV/^A 86KR{++34} ON {+nat}Ni.       
+#  Authors had assigned T1/2=43 US 30 to 367 level WITH 367G AS M2        
+#G M$Estimated from measured G(T), and observed retardation with          
+#G respect to neighboring nuclei.                                         
+#P 387         (1/2-)            75 US     21                             
++G gamma 0.367 1.0
++G gamma 0.387 0.12
+

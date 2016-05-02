@@ -1,0 +1,31 @@
+# 32S     32CL EC DECAY (298 MS)        1973DE08,1968AR03         11NDS    201109
+#  32CL EC DECAY (298 MS)        1973DE08,1968AR03         11NDS    201109
+#H TYP=FUL$AUT=CHRISTIAN OUELLET, BALRAJ SINGH$CIT=NDS 112, 2199 (2011)$  
+#H CUT=24-Aug-2011$                                                       
+#  Others: 1979Ho27, 1971Go18                                             
+#  1979HO27: 32CL from 32S(P,N) with 20 MEV protons from the ^University  
+#  of ^Jyvaskyla ^MC-20 cyclotron. Natural targets. Si detector for       
+#  particle spectra and ^Ge for |g-rays. Measured proton and |a           
+#  branching and energy.                                                  
+#  1973DE08: 32CL from 32S(P,N) with 27 MEV protons from the ^University  
+#  of ^Colorado cyclotron. Ge detector for measuring |g-rays.             
+#  1968AR03: 32CL from 32S(P,N) with 25 MEV protons from the ^UCLA sector 
+#  focused cyclotron. Rabbit system for target transfer to counting area. 
+#  Ge detector for E|g, I|g, magnetic spectrometer for |b-rays. Natural   
+#  sulfur targets. Kurie plot, T{-1/2}.                                   
+#  Others: 1966AN01, 1971GO18, 1969ST14.                                  
+#  From RADLIST code, deduced energy balance=11897 keV {I410} as compared 
+#  to 12680 keV {I1} from Q value                                         
+#E E$ From 1968AR03                                                       
+#E IE(Z)$ From 1973DE08, except for GS feeding.                           
+#G E,RI$ From 1973DE08                                                    
+#L E$ From 1973DE08 for levels below 7195 KEV from 1979HO27 for levels    
+#L above.                                                                 
+#L J$ From Adopted Levels                                                 
+#L E(A)$ Decays primarily by delayed |a to {+28}Si see 1979HO27 for       
+#L branching ratios                                                       
+#L E(B)$ Decays primarily by delayed protons to {+31}^P see 1979HO27      
+#L for branching ratios                                                   
+#P 0           1+                298 MS    1              12680.4   9     
+CL32 S32 beta+ 12.680399999999999 0.298 1.0
+

@@ -1,0 +1,20 @@
+#159LU    163TA A DECAY                 1986RU05,1992HA10,1985LI1412NDS    201201
+#  163TA A DECAY                 1986RU05,1992HA10,1985LI1412NDS    201201
+#H TYP=FUL$AUT=C. W. Reich$CIT=NDS 113, 157 (2012)$CUT=31-Dec-2010$       
+#  DATA SET UPDATED (APRIL, 2010) BY CW REICH TO INCLUDE NEW Q VALUE,     
+#   REVISED EA VALUE AND MODIFIED COMMENTS.                               
+#  1985Li14: produced by {+175}Lu({+3}He,15n) with E=280 MeV and mass     
+#       separation. Si and Ge detectors.                                  
+#  1992Ha10, 1987HaZO: produced by Ca({+127}I,xn), |a excitation          
+#       functions measured for six |a groups from E({+127}I) of 540 to    
+#       711 MeV. |a's measured in Si detector and G's in Ge detector.     
+#  1986Ru05, 1988MeZY: produced by {+133}Cs({+36}Ar,6n), E=218, 234,      
+#       and 255 MeV. He-jet. Measured |a's and |a(t) with Si detector     
+#       and G's and x-rays with Ge detector. Mass identification          
+#       from excitation functions. G's reported by 1985Li14 were          
+#       obscured by radiations from other activities.                     
+#  1983Sc18: EA=4625 {I15} line assigned to {+164}Ta decay actually       
+#       belongs to {+163}Ta decay.                                        
+#P   0                           10.6 S    18             4749      5     
+TA163 LU159 alpha 4.749 10.6 0.002
+

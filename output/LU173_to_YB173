@@ -1,0 +1,37 @@
+#173YB    173LU EC DECAY                1992AD08                  95NDS    199509
+#  173LU EC DECAY                1992AD08                  95NDS    199509
+#H TYP=FUL$AUT=V. S. SHIRLEY$CIT=NDS 75,377 (1995)$CUT=1-Oct-1993$        
+#  The decay scheme and all data are from 1992Ad08, except where          
+#  noted. Sources from spallation of tantalum by 660-MEV                  
+#  protons, chemical, mass separations; measured EG, IG                   
+#  (high-purity germanium detector, FWHM=500 EV at 122 KEV;               
+#  anti-COMPTON spect), ECE, ICE (SILI detector, FWHM=1.5                 
+#  KEV at 150 KEV), differential-integral coin (GELI-NAI).                
+#  Reference citations are given with data from other sources.            
+#  Others: 1957Bo61, 1957Go78, 1958Dz96, 1958Go85, 1959Bi11, 1959Di44,    
+#  1960Ro14, 1960Wi06, 1961Be34, 1961Va36, 1963Ba28, 1966Ja16, 1979Dz02,  
+#  1984Se08.                                                              
+#L           See 173YB adopted levels for magnetic moments                
+#L from G-FACTORS measured in 173LU EC decay (1983Ca28).                  
+#L T$Adopted values.                                                      
+#E           GS feeding is from X-RAY intensity data (1992Ad08);          
+#E excited-state feedings, from intensity imbalance at each               
+#E level.                                                                 
+#G M$From EKC (1970BaYI,1976KaYW) except where noted. The photon and      
+#G intensity scales were normalized through KC=0.0214 (E1                 
+#G theory) for 272.1G.                                                    
+#L E(A)$5/2[512] band member.                                             
+#L E(B)$7/2[633] band member.                                             
+#G MR(A)$EKC (1992Ad08).                                                  
+#G MR(B)$Nuclear orientation (1992KrZU); CE data give erratic             
+#G results.                                                               
+#G $XK data (1992Ad08); intensities relative to RI(272.1G)=100.0.         
+#G                          E(x ray)    I(x ray)    from decay scheme     
+#G      YB XKA2          51.354     231.0 5      207 6                    
+#G      YB XKA1          52.389     365.0 8      364 10                   
+#G      YB XKB1P         59.4       105.3 26     151 5 (XKB1P + XKB2P)    
+#G      YB XKB2P         61.0       27.6 10                               
+#G                                                                        
+#P  0.0         7/2+             1.37 Y    1              670.8     17    
+LU173 YB173 beta+ 0.6708 4.323296505600001E7 1.0
+

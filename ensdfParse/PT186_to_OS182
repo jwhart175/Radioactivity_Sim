@@ -1,0 +1,24 @@
+#182OS    186PT A DECAY (2.08 H)        1963GR08                  ENSDF    201507
+#  186PT A DECAY (2.08 H)        1963GR08                  ENSDF    201507
+#H TYP=FUL$AUT=BALRAJ SINGH$CIT=ENSDF$CUT=15-JUL-2015$                    
+#H TYP=FUL$AUT=BALRAJ SINGH AND JOEL C. ROEDIGER$CIT=NDS 111, 2081 (2010)$
+#H CUT=15-Jul-2010$                                                       
+#  The data listed here are essentially from 2003Ba44 (Nuclear Data       
+#  Sheets for A=186)                                                      
+#  T{-1/2}({+186}Pt)=2.08 h {I5} used here is the unweighted average of   
+#  the measured half-lives: 2.5 h {I5} (1955Sm42), 2.2 h {I2} (1963Gr08), 
+#  2.0 h {I1} (1972Fi12) and 2.10 h {I5} (1991Be25).                      
+#                                                                         
+#  |a decay branching of 0.00010% {I4} is calculated from r{-0}=1.50 {I2}.
+#  %|a|?0.00014% was deduced by 1963Gr08 by assuming that neighboring     
+#  mass nuclei were produced in equal quantities. The branching was       
+#  estimated by 1963Gr08 to be correct within a factor of 2.              
+#  The radius parameter is calculated to be r{-0}=1.518, r{-0}=1.574 and  
+#  r{-0}=1.485 for %|a=0.00014, %|a=0.00028 and %|a=0.00007, respectively.
+#  %|a=0.00010 {I4} is obtained from the estimated r{-0}. The value given 
+#  here is from 2003Ba44 evaluation for A=186.                            
+#                                                                         
+#A HF$r{-0}({+182}Os)=1.50 {I2} is estimated from local r{-0} trend.      
+#P 0.0          0+               2.08 H    5              4320      18    
+PT186 OS182 alpha 4.32 7488.0 1.4E-6
+

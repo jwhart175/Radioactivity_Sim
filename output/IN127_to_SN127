@@ -1,0 +1,169 @@
+#127SN    127IN B- DECAY (1.09 S)       2004GA24                  11NDS    201108
+#  127IN B- DECAY (1.09 S)       2004GA24                  11NDS    201108
+#H TYP=FUL$AUT=A. HASHIZUME$CIT=NDS 112, 1647 (2011)$CUT=1-Oct-2009$      
+#  2004Ga24: {+235}U(n,F) E=th, on-line mass separation; |g, |b,          
+#  |g|g coin, |b|g coin                                                   
+#  1980De35: {+235}U(n,F) E=th, on-line mass separation; |g, |b, ce,      
+#  |g|g coin, |b|g coin                                                   
+#  1986Go10: {+235}U(n,F) E=th, on-line mass separation; |g, |b, |g(t)    
+#  Others: 1975DeZU, 1978Al18, 1979DeZR                                   
+#  The decay scheme is that proposed by 2004Ga24. Because of the large    
+#  difference between the |b-decay Q-value and the reported maximum       
+#  level energy, evaluator considers that the decay scheme is not yet     
+#  complete.                                                              
+#L E         From a least-squares fit to E(|g's)                          
+#L J         From adopted levels                                          
+#L           Configurations are from (2004Ga24)                           
+#B IB        From intensity balance of |g transitions. Values are,        
+#B however, still tentative. It is because unobserved |g's from higher    
+#B levels.                                                                
+#B E         From 1978Al18                                                
+#G E         From 2004Ga24                                                
+#G E(U)$ |g assigned either to 1.09-s or 3.65-s {+127}In by (1980De35).   
+#G There is also possible contribution from 1.04-s {+127}In (evaluator).  
+#G However, these |g's were not reported by 2004Ga24                      
+#G RI        From 2004Ga24. Relative to I|g(1597|g)=100                   
+#G CC$Theoretical conversion coefficients are calculated using BrIcc code 
+#G for the multipolarity indicated.                                       
+#G M         From |a(K)exp (1980De35) and from K/L(1980De35)              
+#G M         The multipolarities in brackets were assumed by evaluator    
+#G to obtain transition intensities, and not used for spin and parity     
+#G determination.                                                         
+#P 0.0         (9/2+)            1.09 S    1              6510      30    
+IN127 SN127 beta- 6.51 1.09 0.64
++G gamma 0.2709 0.002
++G gamma 0.5233 0.001
++G gamma 0.977 0.003
++G gamma 0.98 0.002
++G gamma 1.4365999999999999 0.006
++G gamma 1.771 0.002
++G gamma 2.511 0.01
++G gamma 0.2527 0.0039000000000000003
++G gamma 0.64634 0.145
++G gamma 0.805 0.133
++G gamma 0.14402 0.0013
++G gamma 0.6964 0.0027
++G gamma 0.9489 0.01
++G gamma 0.31761 0.0027
++G gamma 0.96361 0.078
++G gamma 0.24375 0.0084
++G gamma 1.04854 0.11900000000000001
++G gamma 0.9758 7.000000000000001E-4
++G gamma 1.2284000000000002 6.0E-4
++G gamma 1.0737999999999999 5.0E-4
++G gamma 1.32647 0.0101
++G gamma 0.5026 0.0018
++G gamma 0.5921000000000001 0.0025
++G gamma 0.74607 0.012
++G gamma 0.90967 0.0072
++G gamma 1.5557 0.023700000000000002
++G gamma 0.54914 0.005
++G gamma 0.63907 0.06
++G gamma 0.79276 0.037000000000000005
++G gamma 0.9563200000000001 0.10099999999999999
++G gamma 1.5974300000000001 1.0
++G gamma 1.6025999999999998 0.005
++G gamma 0.5652999999999999 0.001
++G gamma 0.8088 0.006
++G gamma 0.9725 4.7E-4
++G gamma 1.6187 0.0028000000000000004
++G gamma 0.6491 0.0032
++G gamma 0.7489 0.0023
++G gamma 0.8926499999999999 0.0191
++G gamma 1.6973 0.006
++G gamma 0.35363 0.0102
++G gamma 0.5779 0.0036
++G gamma 0.85594 0.0194
++G gamma 0.9459 0.0066
++G gamma 1.0996 0.0097
++G gamma 1.2628 7.000000000000001E-4
++G gamma 1.9041 0.0046
++G gamma 0.3217 0.0010199999999999999
++G gamma 0.42156 0.00155
++G gamma 0.4683 0.023399999999999997
++G gamma 0.9705 0.004699999999999999
++G gamma 1.07054 0.0089
++G gamma 1.21404 0.0184
++G gamma 0.4244 0.006
++G gamma 0.48719999999999997 0.0023
++G gamma 0.8097000000000001 0.0013
++G gamma 0.9894 0.0038
++G gamma 1.0883399999999999 0.0026
++G gamma 0.74 1.0999999999999999E-4
++G gamma 0.8403999999999999 0.00123
++G gamma 1.111 9.0E-4
++G gamma 1.38907 0.011899999999999999
++G gamma 1.6327 0.0036
++G gamma 1.7962 5.0E-4
++G gamma 1.1332 4.5E-4
++G gamma 1.4113 0.0014000000000000002
++G gamma 1.8186 0.001
++G gamma 2.4646999999999997 0.009300000000000001
++G gamma 1.184 2.7E-4
++G gamma 1.7053 7.000000000000001E-4
++G gamma 2.5151999999999997 0.0045000000000000005
++G gamma 1.7378 0.0014000000000000002
++G gamma 1.8275 2.7E-4
++G gamma 1.9814 0.005699999999999999
++G gamma 2.1452 5.600000000000001E-4
++G gamma 1.7688 5.0E-4
++G gamma 1.8584 3.0E-4
++G gamma 2.1757 7.8E-4
+
+#127SN    127IN B- DECAY (3.67 S)       2004Ga24,1980DE35         11NDS    201108
+#  127IN B- DECAY (3.67 S)       2004Ga24,1980DE35         11NDS    201108
+#H TYP=FUL$AUT=A. HASHIZUME$CIT=NDS 112, 1647 (2011)$CUT=1-Oct-2009$      
+#  2004Ga24: {+235}U(n,F) E=th, on-line mass separation; |g, |b,          
+#  |g|g coin, |b|g coin                                                   
+#  1980De35: {+235}U(n,F) E=th, on-line mass separation; |g, |b, ce,      
+#  |g|g coin, |b|g coin                                                   
+#  1986Go10: {+235}U(n,F) E=th, on-line mass separation; |g, |b, |g(t)    
+#  Others: 1975DeZU, 1978Al18                                             
+#  The decay scheme is that proposed by 2004Ga24. Because of the large    
+#  difference between the |b-decay Q-value and the reported maximum       
+#  level energy, evaluator considers that the decay scheme is not yet     
+#  complete.                                                              
+#L E         From a least-squares fit to E(|g's)                          
+#L J         From adopted levels                                          
+#L           Configuration from 2004Ga24                                  
+#B IB        From intensity balance of transitions. Values are, however,  
+#B    still tentative. It is because unobserved |g's from higher levels.  
+#B E         From 1978Al18                                                
+#B IB        Absolute intensity per 100 decays                            
+#G CC$Theoretical conversion coefficients are calculated using BrIcc code 
+#G for the multipolarity indicated.                                       
+#G E,RI      For unplaced transitions that could belong to 3.67-s,        
+#G 1.09-s, and/or 1.04-s, |b{+-} decay, see 1.09-s |b{+-} decay           
+#G M         The multipolarities in brackets were assumed by evaluator    
+#G to obtain transition intensities, and are not used for spin and        
+#G parity determination. For the estimation of J|p, see adopted files.    
+#G E(A),RI(A)$From the drawing of decay scheme (1980De35); weak, no       
+#G intensity is given. Not reported by 2004Ga24.                          
+#P 420       65(1/2-)            3.67 S    4              6510      30    
+IN127 SN127 beta- 6.51 3.67 0.40
++G gamma 0.2527 1.0
++G gamma 0.64634 3.2E-4
++G gamma 0.805 0.0027
++G gamma 0.14402 0.0027
++G gamma 0.6964 0.0069
++G gamma 0.9489 0.027000000000000003
++G gamma 0.31761 3.2E-4
++G gamma 0.96361 0.009000000000000001
++G gamma 0.8328300000000001 0.053
++G gamma 1.0856199999999998 0.066
++G gamma 0.9758 0.013000000000000001
++G gamma 1.2284000000000002 0.011000000000000001
++G gamma 1.0737999999999999 2.7E-4
++G gamma 1.32647 0.0054
++G gamma 1.8148 0.0060999999999999995
++G gamma 1.1697 0.012
++G gamma 2.6285 0.0070999999999999995
++G gamma 1.513 0.0043
++G gamma 2.0019 0.005699999999999999
++G gamma 2.2428000000000003 0.0096
++G gamma 2.3695 0.0095
++G gamma 3.07562 0.096
++G gamma 3.3282 0.036000000000000004
++G gamma 3.1398 0.034
++G gamma 3.3066999999999998 0.0062
+

@@ -1,0 +1,20 @@
+#151DY    151HO EC DECAY (47.2 S)       1997ALZY                  09NDS    200901
+#  151HO EC DECAY (47.2 S)       1997ALZY                  09NDS    200901
+#H TYP=FUL$AUT=BALRAJ SINGH$CIT=NDS 110, 1 (2009)$CUT=20-Nov-2008$        
+#  1997ALZY: 151HO SOURCE PRODUCED BY 97MO(58NI,N3P)                      
+#  REACTION AT 5 MEV/NUCLEON FOLLOWED BY ON-LINE MASS SEPARATION AT ^GSI  
+#  FACILITY. MEASURED EG, IG, GG, GX COIN USING ^Ge DETECTORS AND CE USING
+#  MINIORANGE SPECTROMETER. FULL DETAILS OF THIS STUDY ARE NOT AVAILABLE. 
+#  THE AUTHORS STATE THAT RESULTS ARE PRELIMINARY                         
+#  Theory: 2008Al09, calculated log {Ift} values                          
+#G M$ FROM CE DATA OF 1997ALZY, BUT NO DETAILS ARE AVAILABLE              
+#G E(A)$ 1990.2 LISTED IN FIGURE 2 OF 1997ALZY DOES NOT FIT BETWEEN THE   
+#G LEVELS SHOWN. THE EVALUATOR CONSIDERS THIS VALUE AS MISPRINT AND       
+#G ADOPTS 1999.2, INSTEAD, WHICH AGREES WELL WITH THE ENERGY DIFFERENCE   
+#L E$ From least-squares fit to EG's, assuming |D(E|g)=0.5 KEV FOR EACH |G
+#L E(A)$ Possible member of f{-7/2}{+3} multiplet                         
+#L J$ From 1997AlZY based on their assigned multipolarities for           
+#L selected transitions and probable EC feedings from (1/2+)              
+#P 41.0      2 (1/2+)            47.2 S    13             5127      12    
++G gamma 0.9204 1.0
+

@@ -1,0 +1,15 @@
+#142CE    142PR EC DECAY                1968RA04                  11NDS    201108
+#  142PR EC DECAY                1968RA04                  11NDS    201108
+#H TYP=FUL$AUT=T.D. Johnson, D. Symochko(a), M. Fadil(b), and J.K. Tuli$  
+#H CIT=NDS 112, 1949 (2011)$CUT=1-Jun-2010$                               
+#  Measured: |g semi (1968Ra04), branching (from the ratio of accumulated 
+#  {+142}Ce and {+142}Nd nuclei) (1966Cr02)                               
+#  Decay scheme is that of 1968Ra04                                       
+#  |e/|b{+-}=1.64|*10{+-4} {I8} from {+142}Ce/{+142}Nd accumulated in the 
+#  {+142}Pr decay (1966Cr02)                                              
+#G CC$ FROM BrIcc v2.2b (20-Jan-2009) 2008Ki07, "Frozen Orbitals" appr.   
+#L J         Adopted values                                               
+#P 0.0         2-                19.12 H   4              745.8     24    
+PR142 CE142 beta+ 0.7457999999999999 68832.0 0.1346
++G gamma 0.642 1.0
+

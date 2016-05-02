@@ -1,0 +1,20 @@
+# 93SR    94RB B-N DECAY                1982KR11,1985GR15         11NDS    201105
+#  94RB B-N DECAY                1982KR11,1985GR15         11NDS    201105
+#H TYP=FUL$AUT=CORAL M. BAGLIN$CIT=NDS 112, 1163 (2011)$CUT=15-Dec-2010$  
+#  Others: 1981Ho07, 1980RE03, 1977Re06, 1977Ru09.                        
+#  <E{-n}>: 413 (1980RE03; see also 1977Re06). Neutron spectra: see       
+#  1977Ru09, 1980Re03 and 1985Gr15.                                       
+#  1985Gr15: ^TRISTAN ^ISOL facility; gas-filled proton recoil            
+#  proportional counters, pulse-shape discrimination (FWHM AP 2-11        
+#  KEV for EN<200 KEV); measured B- delayed n energy spectrum,            
+#  EN=8 to AP 1300.                                                       
+#  1982Kr11: ^OSTIS mass separator; measured n|g coin, BG coin, GG coin,  
+#  I(n).                                                                  
+#  1981Ho07: ^OSIRIS mass separator; measured EG, IG, I(n).               
+#G E,RI      From 1982Kr11; uncertainty not stated by authors.            
+#G M         From Adopted Gammas.                                         
+#L E         From 1982Kr11; uncertainty not stated by authors.            
+#L J         FROM Adopted Levels.                                         
+#P 0.0          3(-)             2.702 S   5              3462      11    
+RB94 SR93 neutron&beta- 3.462 2.702 0.1018
+

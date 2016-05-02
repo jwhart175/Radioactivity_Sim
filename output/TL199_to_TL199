@@ -1,0 +1,15 @@
+#199TL    199TL IT DECAY (28.4 MS)      1963DI10                  07NDS    200703
+#  199TL IT DECAY (28.4 MS)      1963DI10                  07NDS    200703
+#H TYP=FUL$AUT=BALRAJ SINGH$CIT=NDS 108, 79 (2007)$CUT=15-Oct-2006$       
+#  1963Di10: Produced by 197AU(A,2N), E(A)=22 MEV, in-beam measurements,  
+#  magnetic spectrometer                                                  
+#  Others: 1963De28, 1965Gr04, 1967Co20, 1977KoZH, 1977Go15               
+#G E$ From 1963Di10, unless otherwise noted                               
+#G E(A)$From 1967Co20                                                     
+#G RI$ Calculated from CE intensities (1963Di10) and adopted KC           
+#L E,J$From 'adopted levels'                                              
+#P 749.8     4  9/2-             28.4 MS   2                              
+TL199 TL199 IT 0.0 0.028399999999999998 1.0
++G gamma 0.367 1.16
++G gamma 0.0 1.03
+

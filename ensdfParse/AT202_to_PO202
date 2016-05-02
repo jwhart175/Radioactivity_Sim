@@ -1,0 +1,27 @@
+#202PO    202AT EC DECAY                1998BI06                  08NDS    200803
+#  202AT EC DECAY                1998BI06                  08NDS    200803
+#H TYP=FUL$AUT=S. ZHU and F.G. KONDEV$CIT=NDS 109, 699 (2008)$            
+#H CUT=1-May-2007$                                                        
+#  1998BI06: 202AT produced by on-line separation following bombardment of
+#  natural Rhenium target with 20NE beam; E(20NE)=200 MEV. Detectors:     
+#  Two HPGe for G rays, one ^LEPS for X rays; one cooled Si(Li)           
+#  (4mm thick) for conversion electrons.                                  
+#  Measured: G(t), X(t), ce(t), GG(t), GX(t),                             
+#  |gce(t) and Xce(t).                                                    
+#  Others: 1992HU04, 1970DAZM, 1969MOZW.                                  
+#  EC+B+ from 10- state in 202AT was proposed in 1990LHZX because of the  
+#  observation of the 912.5 KEV 6 transition depopulating the 11- state in
+#  202PO. It is not clear to the evaluator whether the population of the  
+#  11- state in 202PO is a result of direct production in spallation of   
+#  238U or in 202AT EC decay. No EC+B+ branch from the 10- state in 202AT 
+#  was observed in 1998BI06 and 1992HU04.                                 
+#  According to 1992Hu04 at least 73% of the total EC decay comes from    
+#  the (7+) isomer, the rest is due to the (2+,3+) GS decay (184 S).      
+#G M$From EKC and ELC data of 1998Bi06, except for the normalizing        
+#G 443G, 571G and 677G transitions, as noted.                             
+#G MR$Deduced from EKC.                                                   
+#G E,RI$From 1998BI06.                                                    
+#L E$From a least-square fit to EG                                        
+#L J,T$From adopted levels.                                               
+#P10            (2,3)+           184 S     1              7333      32    
+

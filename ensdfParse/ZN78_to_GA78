@@ -1,0 +1,26 @@
+# 78GA D  CALCULATED B- DECAY T:2007MA09, 2005BO19, 2005NI02, 1999EN03.          
+#  CALCULATED B- DECAY T:2007MA09, 2005BO19, 2005NI02, 1999EN03.          
+#  THE DECAY SCHEME IS FROM THE DETAIL STUDY OF 1980WO08. 1977AL17        
+#  DERIVE Q(B-)=6010 180 FROM NINE BG MEASUREMENTS. 1972MAWL, REPORT      
+#  12 G'S ONLY. ALL TRANSITIONS WITH IG LT 0.1 IG(225G) WERE ALSO         
+#  ALSO REPORTED BY 1972MAWL.                                             
+#  Total decay energy of 6717 keV {I175} calculated (by RADLIST code)     
+#  from level scheme is somewhat higher than the expected value of        
+#  6360 keV {I90}                                                         
+#G E(B),RI(B)$ FROM GG                                                    
+#L E$FROM LEAST-SQUARES FIT to EG'S                                       
+#L J$From 'ADOPTED LEVELS'                                                
+#P  0.0         0+               1.47 S    15             6222.7    27    
+ZN78 GA78 beta- 6.2227 1.47 1.0
++B beta- 2.4206 0.38
++B beta- 2.3734 0.013999999999999999
++B beta- 2.3626 0.159
++B beta- 2.3377 0.066
++B beta- 2.2933000000000003 0.012
++B beta- 1.9329 0.122
++B beta- 1.769 0.17600000000000002
++B beta- 1.5526 0.036000000000000004
++B beta- 1.468 0.015
++B beta- 1.1845 0.03
++B beta- 1.1231 0.071
+

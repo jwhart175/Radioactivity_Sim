@@ -1,0 +1,25 @@
+# 30AL    30MG B- DECAY                 2008HI05,1984GU19         10NDS    201009
+#  30MG B- DECAY                 2008HI05,1984GU19         10NDS    201009
+#H TYP=FUL$AUT=M. SHAMSUZZOHA BASUNIA$CIT=NDS 111, 2331 (2010)$           
+#H CUT=30-Jun-2010$                                                       
+#  Other: 1979DE02                                                        
+#  2008HI05: 30MG produced in reaction 9BE(48CA,X), E=140 MeV/u at ^NSCL; 
+#  ^A1900 fragment separator; Particles implanted in double-sided silicon 
+#  strip detector, segmented array of 12 Ge detectors; Measured: EG, RI,  
+#  B-GG COIN, deduced level scheme.                                       
+#  1984GU19: 30MG was produced in the fragmentation of iridium target by  
+#  10 GeV protons from the ^CERN synchrotron, recoiled fragments were     
+#  thermalized, ionized and mass-separated; Ge(Li) detector, Measured: EG,
+#  B-GG COIN, absolute RI. The sum of the IB was only 73% (1984Gu19).     
+#  The decay scheme of 1984Gu19 and 2008HI05 is the same, 2008Hi05 reports
+#  the additional 2413 keV level. 2165G was reported by 1979De02 without  
+#  placement, however the 2170G is placed from 2413 keV level by 2008Hi05.
+#B IB$From G-ray intensity balance by the evaluator.                      
+#G E$Weighted average of 2008Hi05 and 1984Gu19, except otherwise noted.   
+#G E(A),RI$From 2008Hi05                                                  
+#L E         From a least square fit to the G-ray energies                
+#L J         From adopted levels.                                         
+#P 0.0         0+                335 MS    17             6962      16    
+MG30 AL30 beta- 6.962 0.335 0.74
++G gamma 2.1689000000000003 0.03
+

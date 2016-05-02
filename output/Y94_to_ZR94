@@ -1,0 +1,81 @@
+# 94ZR    94Y B- DECAY                  1976SI11                  06NDS    200609
+#  94Y B- DECAY                  1976SI11                  06NDS    200609
+#H TYP=FUL$AUT=D. Abriola(a), A.A. Sonzogni$CIT=NDS 107, 2423 (2006)$     
+#H CUT=1-Jan-2006$                                                        
+#L J,T$From adopted levels.                                               
+#G $1976Si11: Ge(Li), FWHM=2.0 keV at 1332 keV. Measured E|g, I|g.        
+#G $1975Ca13: deduced absolute intensity of 919.2|g.                      
+#G $1973Si43: Ge(Li), FWHM=2.1 keV at 1332 keV. Measured E|g, I|g, |g|g.  
+#G Plastic scin, measured |b-spectra, |b|g.                               
+#G $1972Ho03: Ge(Li), FWHM=5.4 keV at 1332 keV. Measured E|g, I|g.        
+#G $1971Ca34: Ge(Li), FWHM=4 keV. NaI(Tl). Measured E|g, I|g, |g|g.       
+#G Magnetic spectrometer, measured |b-spectra.                            
+#G $Other measurements: 1966Fi04, 1959Kn38.                               
+#G $The decay scheme of 1976Si11 is adopted. It is based on the |g|g      
+#G measurements of 1971Ca34. Levels based on the |g-ray energies alone    
+#G are denoted as questionable.                                           
+#G E,RI$From 1976Si11.                                                    
+#G E(A)$Measured by 1979Bo26 using a curved-crystal spectrometer.         
+#G E(B)$Placed from the 3219 level by 1976Si11 but excitation function    
+#G in (n,n'|g) indicates deexcitation of a lower-excited level.           
+#B $av E|b=1.78 MeV {I7} measured with Si-Li detector system (1982Al01).  
+#B IB$Deduced from intensity balance assuming I|g normalization=0.56 {I3} 
+#G M,MR$From 94ZR(N,N'G) (1978GL04)                                       
+#G                                                                        
+#P 0.0         2-                18.7 M    1              4918      7     
+Y94 ZR94 beta- 4.918 1122.0 0.56
++G gamma 1.3844 5.0E-4
++G gamma 1.5879 6.0E-4
++G gamma 1.63 6.0E-4
++G gamma 1.9405999999999999 7.000000000000001E-4
++G gamma 2.3487 6.0E-4
++G gamma 3.1903 3.2E-4
++G gamma 3.2644 0.0011
++G gamma 3.4773 4.0E-4
++G gamma 3.5415 2.0E-4
++G gamma 3.5998 3.0E-4
++G gamma 3.6665 2.0E-4
++G gamma 3.7952 2.0E-4
++G gamma 0.91874 1.0
++G gamma 0.38160000000000005 0.036000000000000004
++G gamma 0.5509 0.08800000000000001
++G gamma 0.7526 0.025
++G gamma 1.6714 0.044000000000000004
++G gamma 0.588 0.003
++G gamma 1.1389 0.107
++G gamma 1.2326 0.0059
++G gamma 1.4119000000000002 0.0014000000000000002
++G gamma 0.3082 0.001
++G gamma 0.6947000000000001 0.0034000000000000002
++G gamma 1.0665 0.0011
++G gamma 1.4474 0.0045000000000000005
++G gamma 1.9275 7.000000000000001E-4
++G gamma 2.8463000000000003 0.0066
++G gamma 1.2366 0.0023
++G gamma 1.9892999999999998 7.000000000000001E-4
++G gamma 2.9084 8.0E-4
++G gamma 0.8875 0.0014000000000000002
++G gamma 1.0018 0.0011
++G gamma 2.1406 0.017
++G gamma 1.1618 0.0124
++G gamma 2.3005 0.0032
++G gamma 1.3037999999999998 8.0E-4
++G gamma 1.8916 0.0069
++G gamma 2.4421 0.0025
++G gamma 2.2553 6.0E-4
++G gamma 2.8059000000000003 6.0E-4
++G gamma 1.9045999999999998 6.0E-4
++G gamma 2.492 0.0038
++G gamma 2.6624 5.0E-4
++G gamma 4.0020999999999995 2.0E-4
++G gamma 4.0523 1.0E-4
++G gamma 4.0984 4.0E-4
++G gamma 2.5273000000000003 0.0036
++G gamma 2.8987 0.0018
++G gamma 2.5662 0.0011
++G gamma 3.3186999999999998 9.0E-4
++G gamma 2.9666 2.0E-4
++G gamma 3.7188000000000003 1.5E-4
++G gamma 2.9984 3.0E-4
++G gamma 3.7509 2.0E-4
+

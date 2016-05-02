@@ -1,0 +1,42 @@
+#251NO    255RF A DECAY (1.68 S)        2006HE27,2001HE35         13NDS    201309
+#  255RF A DECAY (1.68 S)        2006HE27,2001HE35         13NDS    201309
+#H TYP=FUL$AUT=E. BROWNE, J. K. TULI$CIT=NDS 114, 1041 (2013)$            
+#H CUT=1-Jan-2012$                                                        
+#  2006He27: {+255}Rf isotope produced by the {+207}Pb({+50}Ti,2n)        
+#  reaction at E=4.85 MeV/nucleon.                                        
+#  Reaction products were separated from the primary                      
+#  beam by the SHIP velocity filter at GSI facility and implanted into a  
+#  position-sensitive 16-strip PIPS detector.                             
+#  Measured E|g, I|g, |g|g, |a-|g coin, ce, lifetimes with a 'clover'     
+#  HPGe detector (composite of four Ge crystals).                         
+#  All data are from 2006He27, unless otherwise stated                    
+#A E$ Although several weak |a groups have been reported in 2006He27 and  
+#A in earlier studies (2001He35,1997He29), the fine structure of          
+#A |a particle decay of {+255}Rf remains tentative for the following      
+#A reasons: 1. |a energies can populate levels from which the transitions 
+#A are highly converted and the electron lines can sum up with the        
+#A |a lines; 2. some |a-particles  escape the stop detector. Their energy 
+#A loss in the stop detector produces a tail of the |a line towards lower 
+#A energies 3. radiation damage of the detectors                          
+#A gives rise to statistical fluctuations in the |a spectrum. See 2006He27
+#A for greater details. Some weak |a groups are individually discussed.   
+#A Weak lines at 8692, 8773, 8797, 8831 and 8897 are all assigned by      
+#A 2001He35 as sum lines (|a+ce).                                         
+#A E$ Three types of uncertainties are combined in quadrature:            
+#A statistical uncertainty of 4-8 keV; systematic uncertainty of 15 keV   
+#A from calibration methods/standards; uncertainty of 3 keV due to        
+#A reproducibility of an |a peak energy.                                  
+#A E(X)$ Tentative |a group (2006He27)                                    
+#G M$ From ce data (2006He27)                                             
+#L J$ J|p's and configurations assigned by 2006He27 are based on          
+#L comparisons of decay pattern of {+255}Rf with those of neighboring     
+#L nuclides                                                               
+#L BAND(A)$ 7/2[624] band.                                                
+#P 0.0          (9/2-)            1.68 S   9              9055      4     
+RF255 NO251 alpha 9.055 0.0 0.42
++A alpha 8.575 0.01
++A alpha 8.646 0.015
++A alpha 8.678 0.03
++A alpha 8.906 0.025
++A alpha 8.716 0.92
+

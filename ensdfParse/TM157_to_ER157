@@ -1,0 +1,119 @@
+#157ER    157TM EC DECAY                1977AG01,1983BE17         04NDS    200501
+#  157TM EC DECAY                1977AG01,1983BE17         04NDS    200501
+#H TYP=FUL$AUT=R. G. Helmer$CIT=NDS 103, 565 (2004)$CUT=1-Feb-2004$       
+#  Data and decay scheme are from 1977Ag01 with additions from 1983Be17.  
+#       Other measurements of |g data are 1974Pu03 and 1976La03. For      
+#       these studies, the {+157}Tm was produced by the Er(p,xn)          
+#       reaction and p spallation of Ta, and chemical or isotope          
+#       separation has been used.                                         
+#  This decay scheme should be considered tentative, especially           
+#       in regard to all the spin and parity assignments and I{-|e+|b+}   
+#       values. In this regard, it is interesting to note that the        
+#       third strongest |g is not placed in the scheme.                   
+#  Some data from 1977Ag01 also appear in 1976AgZX and some data of       
+#       1976La also appear in 1975LaZU, 1975ZuZY, and 1976PoZV.           
+#  Experimental methods:                                                  
+#  1969Ek01: Measured J of {+157}Er by atomic-beam, magnetic-resonance    
+#       method.                                                           
+#  1974Pu03: produced by Er(p,xn) reactions with isotope separation       
+#       Measured |g decay to determine {+157}Tm half-life.                
+#  1975LaZU, 1975ZuZY: laboratory report and abstract, see 1976La03.      
+#  1976AgZU: lab report; no data; refers to 1974Pu03.                     
+#  1976AgZX: conference report, see 1976Ag01.                             
+#  1976La03: produced by spallation of Ta target with 660 MeV p with      
+#       isotope or chemical separation.  Measured |g singles with Ge      
+#       detectors. {+157}Tm half-life determined from decay of x-ray      
+#       intensity.  13 |g's reported.                                     
+#  1976PoZV: preprint, see 1976La01.                                      
+#  1977Ag01: produced by Er(p,xn) reaction followed by isotope separation.
+#       Measured |g singles and |g|g coincidences with Ge detectors.      
+#       ce measured with Si(Li) detector.  The |g and ce data were        
+#       normalized by means of transitions from the decay of the          
+#       {+157}Er and {+157}Ho daughters, but the values used are not      
+#       given.                                                            
+#  1979Al33: abstract; reports T{-1/2} of 10-keV level.                   
+#  1983Be17: produced by Er(p,xn) reaction with E{-p}=200 MeV and         
+#       followed by isotope separation.  ce-ce and ce-|g delayed          
+#       coincidences used to measure level lifetimes.  ce measured in     
+#       magnetic spectrometer and all |g's above 500 keV in plastic       
+#       scintillator.  ce measured for |g's as low as 10 keV.             
+#  1984Ek01: measured J of {+157}Tm by atomic-beam, magnetic-resonance    
+#       method.                                                           
+#  1991AlZY: abstract; measured Q(|e) from total absorption |g-ray        
+#       spectrometer, TAGS, data.                                         
+#  1993Al03: measured T{-1/2}(Tm) and Q(|e) from total absorption         
+#      |g-ray spectrometer data.                                          
+#  1994Po26: measured Q(|e) from E{-|b+} with Ge detector.                
+#  1995Ve05: measured Q(|e) from E{-|b+} with Ge detector.                
+#            Based on an assumption of no |e+|b+ feeding of the levels    
+#       at 0, 10, and 36, a |g-intensity normalization factor of |?       
+#       0.093 was deduced. Then, the |e+|b+ feeding intensities were      
+#       computed from |g transition intensity balances. Since this        
+#       normalization factor is only an upper limit, the |e+|b+           
+#       feeding, and the associated log {Ift} values are given only in    
+#       the following table and the uncertainties should not be taken     
+#       seriously:                                                        
+#                                                                         
+#  E(level)  %I(|e+|b{++})     log {Ift}    %I(|b{++})   av E|b           
+#  ________  _________    _____     ______   _______                      
+#     0.00    |&0                             1637                        
+#    10.30    |&0                             1633                        
+#    36.17    |&0                             1621                        
+#   110.38     18 {I4}       5.8 {I1}     11       1586                   
+#   206.10      2.7 {I9}     6.6 {I1}      1.6     1542                   
+#   241.53     14 {I2}       5.9 {I1}      8       1526                   
+#   357.90      8.9 {I11}    6.0 {I1}      4.8     1472                   
+#   360.60      3.8 {I7}     6.4 {I1}      2.1     1471                   
+#   367.63      2.5 {I15}    6.5 {I3}      1.4     1468                   
+#   381.01      8.2 {I11}    6.1 {I1}      4.4     1461                   
+#   455.00      9.2 {I3}     6.0 {I1}      4.8     1428                   
+#   559.23      7.1 {I15}    6.1 {I1}      3.5     1380                   
+#   608.10      1.4 {I2}     6.8 {I1}      0.7     1357                   
+#   685.41      5.8 {I9}     6.1 {I1}      2.7     1322                   
+#   689.20      3.5 {I5}     6.3 {I1}      1.6     1320                   
+#   753.06     10.6 {I10}    5.8 {I1}      1.8     1291                   
+#   799.68      3.1 {I5}     6.3 {I1}      1.4     1270                   
+#                                                                         
+#G           The |g|g coincidences in the decay scheme drawing are from   
+#G      1977Ag01.                                                         
+#G E,RI      From 1977Ag01 unless noted as from 1983Be17. Others:         
+#G      1974Pu03 (8 |g's reported) and 1976La03 (14 |g's).                
+#G E         The authors (1977Ag01) do not report the values and the      
+#G      uncertainties in a consistent form, so the evaluator has had to   
+#G      add trailing zeros to many values. This often adds an error of    
+#G      |? 0.05 keV.                                                      
+#G M         Assigned originally by author (1977Ag01) from |a{-K}(exp)    
+#G      values which are based on I{-|g} and I{-ce} data normalized to    
+#G      give the theoretical |a{-K} value for an E1 transition of 326.6   
+#G      keV in {+157}Tb.  Some assignments of the authors have been       
+#G      made more explicit by the evaluator.                              
+#G E(R)      Reported in ce spectrum (1983Be17) only.                     
+#G TI(R)     Values assigned by evaluator to cause intensity balances     
+#G      for the levels at 10 and 35 keV with no |e feeding. The ratio     
+#G      I{-|g+ce}(25)/I{-|g+ce}(36) was determined to approximate the     
+#G      BM1W values of 1983Be17. Any |e feeding would increase these      
+#G      I{-|g+ce} values, and at the same time reduce the normalization   
+#G      factor for the I{-|g} values.                                     
+#L E         From least-squares fit to |g energies. The reduced-|h{+2}    
+#L      value for this fit is 3.3 which implies, as noted for the |g      
+#L      energies, that the |g energy uncertainties are underestimated.    
+#L      The evaluator has increased the computed uncertainties in the     
+#L      level energies by a factor of 2.0 for the levels where the        
+#L      major discrepancies are, namely, 10, 36, 206, 241, 367, and       
+#L      799 keV.                                                          
+#L J         Based on |g multipolarities; many of these J|p assignments   
+#L      have not been adopted.  Where they differ from these assignments, 
+#L      the assignments for the Adopted Levels are noted.                 
+#L J         The J|p are so poorly determined that the evaluator has      
+#L      not included any band assignments. The bandheads suggested by     
+#L      1977Ag01: 0 keV, mixture of 3/2[521] and 3/2[532]; 10 keV,        
+#L      mixture of 3/2[532] and 3/2[521]; and 35 keV, 1/2[530].           
+#L      It is suggested (1977Ag01) that the 205 level is also 3/2-        
+#L      with a mixture of 3/2[521], 3/2[532] and 3/2,1/2[530]. It is      
+#L      conjectured that the 110 level is 5/2- with mixtures of these     
+#L      configurations. Then, it is deduced that the parent is 7/2+[404]  
+#L      or 5/2+[402], but this conflicts with the measured spin of 1/2.   
+#L T         From 1983Be17 from ce|g(t) measurements with magnetic        
+#L      spectrometer.                                                     
+#P    0          1/2+             3.63 M   9               4710     40    
+

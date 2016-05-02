@@ -1,0 +1,36 @@
+#107TC    107MO B- DECAY                1986OHZZ                  08NDS    200805
+#  107MO B- DECAY                1986OHZZ                  08NDS    200805
+#H TYP=FUL$AUT=Jean Blachot$CIT=NDS 109, 1383 (2008)$CUT=1-Mar-2008$      
+#  Source from 239PU(N,F) E=TH; rapid molybdenum chem (1977TI02)          
+#  Activity: 239PU(N,F) E=TH. On-line separator JOSEF (1986OHZZ).         
+#  Assignments based on G-decay rates in successive semi                  
+#  G-singles spectra and genetics                                         
+#  The decay scheme is preliminary and incomplete. Only the 65 and 137    
+#  levels are seen in the 252CF decay (1998HW04)                          
+#  Others: 1972TR08, 1976KAYO, 1977TI02                                   
+#  Measured: G, GG, CE, G(T) (1986OHZZ)                                   
+#  Measured: BG (1989GR23)                                                
+#G CC$Experimental values based on intensity balances in GG.              
+#G M$From ALPHA(exp)                                                      
+#P 0.0          (5/2+)           3.5 S     5              6450      SY    
+MO107 TC107 beta- 6.45 3.5 1.0
++G gamma 0.06570000000000001 0.92
++G gamma 0.0717 0.233
++G gamma 0.4003 1.0
++G gamma 0.4658 0.03
++G gamma 0.3585 0.275
++G gamma 0.43010000000000004 0.13
++G gamma 0.053700000000000005 0.037000000000000005
++G gamma 0.0833 0.068
++G gamma 0.4119 0.08
++G gamma 0.48360000000000003 0.41600000000000004
++G gamma 0.5494 0.08
++G gamma 0.3013 0.19
++G gamma 0.3548 0.096
++G gamma 0.38439999999999996 0.5760000000000001
++G gamma 0.7135 0.02
++G gamma 0.785 0.272
++G gamma 0.8785 0.035
++G gamma 0.9093 0.038
++G gamma 1.3089000000000002 0.115
+

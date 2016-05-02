@@ -1,0 +1,48 @@
+#144PR    144CE B- DECAY                1960GE05,1984DA13         01NDS    200108
+#  144CE B- DECAY                1960GE05,1984DA13         01NDS    200108
+#H TYP=FUL$AUT=A.A. Sonzogni$CIT=NDS 93, 599 (2001)$CUT=1-Dec-2000$       
+#  Measured G, x ray (1984DA13) HPGe; CE (1960GE05,1969GE01) s;           
+#  G, XG (1970AN15) semi, semi-scin; x ray, GAMMA (1976CH33) semi;        
+#  BG (1956PU24,1957PA51,1959FR54,1960SA22,1962FO04,1963FU16);            
+#  GG (1959FR54,1960SA22,1961GE09,1962FO04,1963AZ02,1963IW02,1969MA24)    
+#  Measured EB=315.6 15, IB=76%, shape not statistical (1966DA04) s.      
+#  For other BETA measurements see 1954CO60, 1954EM09, 1956PU24, 1957PA51,
+#  1958HI76, 1959FR54, 1959SE57, 1960SA22, 1963FU16 or see 1967RA40.      
+#G E,RI$From 1984DA13 HPGE                                                
+#  For BG(THETA) see 1963CO18, 1963CR11, 1964AZ02, 1965CO19, 1965RE13,    
+#  1968DA12                                                               
+#  For BG(circular polarization) see 1963CO18, 1963KN05, 1968DA12         
+#  For B-CE(transverse polarization) see 1962BI05, 1963SI10               
+#  Other measurements: 1969GU15, 1970FA03, 1970PO09, 1971SA20, 1976RA22;  
+#  see also references cited in 1967RA40                                  
+#  Decay scheme is as given by 1960GE05. Many other transitions have      
+#  been suggested to belong to this decay (see 1967RA40); however,        
+#  these assignments seem very doubtful and are not confirmed in the semi 
+#  spectrum of 1970AN15, 1976CH33                                         
+#G $X-RAYS (1984DA13):                                                    
+#G                E(x ray)     I(x ray)    identification                 
+#G                       (IG(133G)=100.0 10)                              
+#G                 5.012 50    5.4 9       PR XLA1 + XLA2                 
+#G                 5.486 50    5.3 9       PR XLB1 + XLB3+XLB4            
+#G                 5.851 50    1.6 3       PR XLB215                      
+#G                 6.297 50    0.8 2       PR XLG1                        
+#G                 6.594 50    0.6 2       PR XLG2 + XLG3                 
+#G                35.547 10   20.0 10      PR XKA2                        
+#G                36.026 10   37.0 18      PR XKA1                        
+#G                40.739 20   13 8         PR XKB1'                       
+#G                41.778 10    2.93 23     PR XKB2'                       
+#G                                                                        
+#L J,T$From adopted levels                                                
+#P 0.0         0+                284.91 D  5              318.7     8     
+CE144 PR144 beta- 0.3187 2.4616224E7 1.0
++B beta- 0.0911 0.765
++G gamma 0.05903 9.7592E-6
++B beta- 0.06609999999999999 0.039
++G gamma 0.08012000000000001 0.0136407
++G gamma 0.040979999999999996 0.0025728799999999996
++G gamma 0.099961 3.9924000000000003E-4
++B beta- 0.0502 0.196
++G gamma 0.033568 0.0019962
++G gamma 0.053395000000000005 9.981E-4
++G gamma 0.133515 0.1109
+

@@ -1,0 +1,64 @@
+# 40AR    40CL B- DECAY (1.35 M)        1972KL06,1970KE12         04NDS    200408
+#  40CL B- DECAY (1.35 M)        1972KL06,1970KE12         04NDS    200408
+#H TYP=FUL$AUT=JOHN A. CAMERON AND BALRAJ SINGH$CIT=NDS 102, 293 (2004)$  
+#H CUT=10-May-2004$                                                       
+#  1972KL06 (ALSO 1973KL02,1981HUZT): MEASURED EG, IG, GG, T1/2           
+#  1970KE12: MEASURED EG, IG, GG, T1/2                                    
+#  1989MI03: MEASURED BG COIN                                             
+#  1968HU07, 1965GR03, 1956MO39: MEASURED EG, IG, T1/2                    
+#  Thesis (M.S.) by E.L. Robinson (Purdue, 1958). E|g, I|g data and       
+#  level scheme from this work are quoted by 1970Ke12. This thesis was    
+#  not available to the present evaluators                                
+#G E,RI$From 1972Kl06, unless otherwise stated                            
+#G E(A)$ FROM 1981HUZT ONLY, INTENSITY IS NOT AVAILABLE                   
+#G E(B,D),RI(B)$ WEIGHTED AVERAGE FROM 1972KL06 AND 1970KE12              
+#G E(E)$ PLACEMENT QUESTIONED BY 1983BI08 BASED ON THEIR (A,PG) STUDY     
+#G RI(Y)$ FROM 1972KL06, OBTAINED IN INDIRECT METHOD.                     
+#G OTHER: 5 3 IN 1970KE12                                                 
+#G RI(Z)$ FROM B FEEDING QUOTED BY 1981HUZT                               
+#L E(A)$ LEVEL CONSIDERED AS IMPROBABLE BASED ON RESULTS OF (A,PG)        
+#L STUDY OF 1983BI08                                                      
+#L E(B)$ LEVEL CONSIDERED AS IMPROBABLE SINCE THE DECAY MODE IS           
+#L VERY DIFFERENT FROM THAT IN (A,PG) (1983BI08) FROM A LEVEL NEAR        
+#L THE SAME ENERGY                                                        
+#L J$ FROM ADOPTED LEVELS                                                 
+#L E(C)$ FROM 1981HUZT ONLY                                               
+#P 0            2-               1.35 M    2              7480      30    
+CL40 AR40 beta- 7.48 81.0 1.0
++B beta- 3.5 0.09
++B beta- 2.774 0.04
++B beta- 2.253 0.017
++B beta- 2.085 0.0068000000000000005
++B beta- 1.919 0.021
++B beta- 1.771 0.0091
++B beta- 1.689 0.046
++B beta- 1.573 0.055
++B beta- 1.562 0.0016
++B beta- 1.494 0.138
++B beta- 1.448 0.0024
++B beta- 1.389 0.27
++B beta- 1.377 0.0016
++B beta- 1.361 0.0024
++B beta- 1.302 0.0024
++B beta- 1.263 0.226
++B beta- 1.254 0.0017000000000000001
++B beta- 1.179 0.0040999999999999995
++B beta- 1.164 0.0049
++B beta- 0.975 0.0089
++B beta- 0.926 0.021
++B beta- 0.907 0.0016
++B beta- 0.865 0.0016
++B beta- 0.767 0.0089
++B beta- 0.758 8.0E-4
++B beta- 0.717 8.0E-4
++B beta- 0.642 0.052000000000000005
++B beta- 0.631 0.006500000000000001
++B beta- 0.61 4.1E-4
++B beta- 0.563 0.0032
++B beta- 0.527 4.0E-4
++B beta- 0.494 4.1E-4
++B beta- 0.464 0.0032
++B beta- 0.436 0.0026
++B beta- 0.376 0.0016
++B beta- 0.301 0.0049
+

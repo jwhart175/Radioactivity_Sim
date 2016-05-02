@@ -1,0 +1,65 @@
+#181W     181RE EC DECAY (19.9 H)       1971DA02,1960Ha18         05NDS    200601
+#  181RE EC DECAY (19.9 H)       1971DA02,1960Ha18         05NDS    200601
+#H TYP=FUL$AUT=S. -C. WU$CIT=NDS 106, 367 (2005)$CUT=31-Aug-2005$         
+#  1971Da02: {+181}Re from {+181}Ta({+3}He,3n), {+181}Ta(|a,4n);          
+#  Natural targets; Ge(Li) detectors; measured E|g, I|g, |g|g-coin;       
+#  deduced log| {Ift}, {+181}W levels, J|p, ICC, |g-multipolarity.        
+#  1960Ha18: {+181}Re from {+182}W(p,2n); enriched target;                
+#  conversion electrons measured; multipolarities assigned.               
+#  Decay scheme as given by 1971Da02, except where noted.                 
+#G E$From 1971Da02.                                                       
+#G Energy errors reported to range from |+0.2 keV below                   
+#G 200 keV to |+0.5 keV at 1500 keV. Errors apportioned by the authors.   
+#G RI$Intensities for transitions below 200 keV are from 1960Ha18,        
+#G and for transitions above 200 keV from 1971Da02, except where noted.   
+#G RI$Intensity uncertainty assigned by evaluator according to 1971Da02,  
+#G which stated relative uncertainties range from 0.5%                    
+#G for the strongest transitions to 50% for the weakest.                  
+#G M$From subshell ratios of 1960Ha18 and Ice/I|g ratios                  
+#G normalizing the data of Ice data of 1960Ha18 to the I|g data           
+#G of 1971Da02 assuming the 365.5-keV |g is M2.                           
+#G MR$Weighted average from 1971Da02 Ice data (assuming 30%               
+#G uncertainty) and 1960Ha18 Ice data (assuming 25% uncertainty),         
+#G except where noted. See footnote on the multipolarities.               
+#G RI(A)$Transition not observed by 1960Ha18                              
+#G RI(B)$Intensity divided by evaluator assuming pure multipolarity.      
+#G RI(D)$Intensity divided by 1971Da02                                    
+#G RI(E)$Intensity of the 72- and 73-keV |g's was divided by evaluator    
+#G in order to balance intensity out of the 458-keV level.                
+#G M(M)$Conversion electron data (1971Da02) are consistent with           
+#G a large M2 admixture but T{-1/2} of the level must then be             
+#G >20 ns. Evaluator has assumed an unrecognized impurity                 
+#G and a probable E1 assignment. M1 and E2 are ruled out by the data.     
+#L E$From least square fit to E|g's by evaluator.                         
+#L J$From adopted levels.                                                 
+#L E(L)$|g intensity deexciting this level must be balanced by            
+#L unobserved |g intensity feeding the level.                             
+#N    0.074   6              1.00   1.0                                   
+#N NR$normalized assuming the sum I|g+ce(g.s.)=100.                       
+#P 0.0           5/2+              19.9 H     7            1743     13    
++B beta+ 0.1782 4.0E-5
++B beta+ 8.146E-4 0.0014099999999999998
++B beta+ 8.142000000000001E-4 0.0014099999999999998
++B beta+ 8.139E-4 0.0014099999999999998
++B beta+ 8.137999999999999E-4 0.0014099999999999998
++B beta+ 8.133E-4 0.0014199999999999998
++B beta+ 8.129E-4 0.0014199999999999998
++B beta+ 8.116E-4 0.0014299999999999998
++B beta+ 8.113E-4 0.0014299999999999998
++B beta+ 8.101E-4 0.0014399999999999999
++B beta+ 8.084E-4 0.00145
++B beta+ 8.044E-4 0.00148
++B beta+ 8.03E-4 0.00149
++B beta+ 8.024E-4 0.0015
++B beta+ 7.926999999999999E-4 0.0015
++B beta+ 7.875E-4 0.0016
++B beta+ 7.852E-4 0.0016
++B beta+ 7.777E-4 0.0016
++B beta+ 7.737000000000001E-4 0.0017000000000000001
++B beta+ 7.72E-4 0.001724
++B beta+ 7.700000000000001E-4 0.0017410000000000001
++B beta+ 7.59E-4 0.00182
++B beta+ 7.53E-4 0.0018599999999999999
++B beta+ 7.43E-4 0.00193
++B beta+ 7.289999999999999E-4 0.0020399999999999997
+

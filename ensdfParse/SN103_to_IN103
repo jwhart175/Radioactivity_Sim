@@ -1,0 +1,23 @@
+#103IN    103SN EC DECAY (7.0 S)        2005KA34,2005KA48         09NDS    200910
+#  103SN EC DECAY (7.0 S)        2005KA34,2005KA48         09NDS    200910
+#H TYP=FUL$AUT=D. DE FRENNE$CIT=NDS 110, 2081 (2009)$CUT=1-Mar-2009$      
+#  2005Ka34,2005Ka48: {+103}Sn isotope produced in {+50}Cr({+58}Ni,|an)   
+#  reaction at E=5 MeV/nucleon Ion-beam facility at GSI, recoil mass      
+#  separator. Measured E|g, I|g, |g|g, |b|g, |b|g|g using an array of     
+#  three Silicon detectors, 17 Ge crystals. Total absorption |b spectrum, 
+#  delayed proton decay                                                   
+#  All data are from 2005Ka34. The Total absorption spectrum in 2005Ka34  
+#  shows that the decay scheme is highly incomplete. Large number of      
+#  additional levels must be populated between 3.5 and 7.5 MeV.           
+#G E(E)$In coin with 351|g                                                
+#E TI$From total absorption spectrum (TAS) (2005Ka34). The TAS data       
+#E shows no direct population of the ground state of {+103}In.            
+#L E$From least-squares fit to E|g's by the evaluator                     
+#P 0           (5/2+)            7.0 S     2              7640      70    
++B beta+ 2.283 0.021
++B beta+ 2.113 0.005
++B beta+ 2.04 0.005
++B beta+ 1.738 0.05
++B beta+ 1.517 0.07
++B beta+ 1.431 0.009000000000000001
+

@@ -1,0 +1,86 @@
+#148LA    148BA B- DECAY                1984CH02                  14NDS    201404
+#  148BA B- DECAY                1984CH02                  14NDS    201404
+#H TYP=FUL$AUT=N. NICA$CIT=NDS 117, 1 (2014)$CUT=1-Oct-2013$              
+#  Measured: EG, RI, ICE, GG coin, GGT coin, T1/2, XK                     
+#  B- branchings to various levels as given by 1984CH02 are given in      
+#  comments. More work needs to be done to get better estimates of these  
+#  values.                                                                
+#  THE LEVEL SCHEME IS INCOMPLETE                                         
+#B IB$From net G transition intensities at each level as                  
+#B estimated by 1984CH02                                                  
+#G CC$ FROM BrIcc v2.2b (20-Jan-2009) 2008Ki07, "Frozen Orbitals" appr.   
+#G RI        Relative intensity deduced from singles spectra              
+#G M         From EKC                                                     
+#G E(A)      Deduced from coincidence spectra. The evaluator has assumed  
+#G |DE|g=0.2 KEV.                                                         
+#G RI(A)     Deduced from coincidence spectra                             
+#L E         From a least-squares fit to EG data                          
+#L J         From adopted levels                                          
+#P 0.0         0+                0.612 S   17             5110      60    
+BA148 LA148 beta- 5.11 0.612 0.292
++G gamma 0.2567 0.026000000000000002
++G gamma 0.4269 0.024
++G gamma 0.87299 0.018000000000000002
++G gamma 0.04722 0.032
++G gamma 0.05608 1.0
++G gamma 0.06148 0.078
++G gamma 0.04844 0.057
++G gamma 0.053810000000000004 0.098
++G gamma 0.10987000000000001 0.023
++G gamma 0.0722 0.066
++G gamma 0.08644 0.069
++G gamma 0.13353 0.133
++G gamma 0.04443 0.006999999999999999
++G gamma 0.0985 0.099
++G gamma 0.10732 0.015
++G gamma 0.04965 0.005
++G gamma 0.09809999999999999 0.026000000000000002
++G gamma 0.11273000000000001 0.015
++G gamma 0.16868 0.046
++G gamma 0.046299999999999994 0.002
++G gamma 0.14548 0.06
++G gamma 0.05852 0.011000000000000001
++G gamma 0.08402 0.061
++G gamma 0.15641999999999998 0.05
++G gamma 0.21830000000000002 0.012
++G gamma 0.09658 0.02
++G gamma 0.12095 0.03
++G gamma 0.17455 0.028999999999999998
++G gamma 0.09240000000000001 0.026000000000000002
++G gamma 0.12738 0.016
++G gamma 0.15339 0.012
++G gamma 0.17706 0.024
++G gamma 0.20513 0.02
++G gamma 0.23037 0.006999999999999999
++G gamma 0.30779 0.033
++G gamma 0.21496 0.08
++G gamma 0.23562 0.036000000000000004
++G gamma 0.25937 0.055
++G gamma 0.31276 0.032
++G gamma 0.24666 0.040999999999999995
++G gamma 0.3451 0.008
++G gamma 0.27025 0.05
++G gamma 0.31762999999999997 0.022000000000000002
++G gamma 0.41064999999999996 0.052000000000000005
++G gamma 0.41578 0.12300000000000001
++G gamma 0.21295 0.025
++G gamma 0.39030000000000004 0.016
++G gamma 0.44427999999999995 0.087
++G gamma 0.3693 0.005
++G gamma 0.40446 0.022000000000000002
++G gamma 0.4766 0.021
++G gamma 0.185 0.012
++G gamma 0.32363 0.026000000000000002
++G gamma 0.60733 0.059000000000000004
++G gamma 0.6611 0.008
++G gamma 0.5696 0.015
++G gamma 0.6002000000000001 0.022000000000000002
++G gamma 0.7208 0.021
++G gamma 0.7746000000000001 0.006
++G gamma 0.75715 0.013999999999999999
++G gamma 1.0112 0.019
++G gamma 1.173 0.012
++G gamma 0.5352 0.006999999999999999
++G gamma 1.11882 0.039
++G gamma 1.1963 0.016
+

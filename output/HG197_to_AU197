@@ -1,0 +1,59 @@
+#197AU    197HG EC DECAY (64.14 H)      1992DA14,1994DA29         05NDS    200503
+#  197HG EC DECAY (64.14 H)      1992DA14,1994DA29         05NDS    200503
+#H TYP=ERR$AUT=J. Tuli$DAT=10-Nov-15$COM=Fixed typo in keynumber$         
+#H TYP=FUL$AUT=HUANG XIAOLONG, ZHOU CHUNMEI$CIT=NDS 104, 283 (2005)$      
+#H CUT=1-Jan-2002$                                                        
+#  Sources produced by {+197}Au(p,n) (1963Ti02,1972Wi21) and              
+#  {+197}Au(d,2n) (1943Fr01,1941Sh08).                                    
+#  1992Da14: measured K-electron capture probability                      
+#  Pk(268.7 level)=0.746 {I33} and Pk(77.3 level)=0.774 {I36}.            
+#  1994Da29: measured accurate K x-ray and |g-ray intensities in |e decay 
+#  branching to different states of {+197}Au. Branching to g.s. is found  
+#  to be <2%.                                                             
+#E           For the calculated log| {Ift} using interacting boson-fermion
+#E model, see 1988Na03.                                                   
+#E IE        From |g intensity imbalance, except for the g.s.             
+#E IE(I)     From 1994Da29                                                
+#L           For the calculated levels, using interacting boson-fermion   
+#L model, see 1988Na03.                                                   
+#L E         From decay scheme and E|g's,                                 
+#L using least-squares fit to data.                                       
+#L J,T       From adopted levels                                          
+#G                                                                        
+#G             K  x-ray  Intensities   (1995Da32)                         
+#G $-----------------------------------------------------                 
+#G                                                                        
+#G $  Radiations          E,keV             Intensities a                 
+#G $ ------------        ----------         -------------                 
+#G $    XKA1         68.8                  100                            
+#G $    XKA2         67.0                  59.21 41                       
+#G $    XKB1         77.9                  34.1 10                        
+#G $    XKB2         80.2                  9.77 11                        
+#G                                                                        
+#G $ a  Relative intensity                                                
+#G                                                                        
+#P 0.0         1/2-              64.14 H   5              600       3     
+HG197 AU197 beta+ 0.6 230904.0 0.187
++G gamma 0.077351 1.0
++G gamma 0.26871 0.0021
+
+#197AU    197HG EC DECAY (23.8 H)       1993CH44,1970PL05         05NDS    200503
+#  197HG EC DECAY (23.8 H)       1993CH44,1970PL05         05NDS    200503
+#H TYP=FUL$AUT=HUANG XIAOLONG, ZHOU CHUNMEI$CIT=NDS 104, 283 (2005)$      
+#H CUT=1-Jan-2002$                                                        
+#  Sources produced by {+197}Au(p,n) (1963Ti02), {+197}Au(d,2n)           
+#  (1941Sh08,1943Fr01), and |a's on Pt (1970Pl05)                         
+#E IE        From |g intensity imbalance                                  
+#G E,RI,CC$From 1970Pl05, except as noted                                 
+#G RI        Relative intensity normalized to I|g(279|g)=100              
+#G M         Based on |a(K)exp, K/L, L-subshell ratio data, except as     
+#G noted                                                                  
+#L E         From decay scheme and E|g's,                                 
+#L using least-squares fit to data.                                       
+#L J,T       From adopted levels                                          
+#P 298.93      13/2+             23.8 H    1              600       3     
+HG197 AU197 beta+ 0.6 85680.0 0.709
++G gamma 0.07734999999999999 0.004699999999999999
++G gamma 0.2018 0.0146
++G gamma 0.4091 0.0015
+

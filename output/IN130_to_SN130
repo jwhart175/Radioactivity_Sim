@@ -1,0 +1,59 @@
+#130SN    130IN B- DECAY (0.29 S)       1981FO02                  01NDS    200107
+#  130IN B- DECAY (0.29 S)       1981FO02                  01NDS    200107
+#H TYP=FUL$AUT=BALRAJ SINGH$CIT=NDS 93, 33 (2001)$CUT=11-May-2001$        
+#  1981FO02: measured EG, IG, CE, GG, BG(T), T1/2 (130IN)                 
+#  Others:                                                                
+#  1973KE12 (also 1973KE26): measured EG, IG, EB, BG, T1/2.               
+#  Four GAMMA rays were reported and a Q-=7300 400                        
+#  1990ST13, 1987SP09, 1985FO03: measured EB, BG                          
+#  1993RU01, 1986WA17 (also 1986REZU,1986REZS), 1983SH07,                 
+#  1981EN05, 1980LU04, 1977RU09, 1976LU02: measured T1/2(130IN), %B-N     
+#L E$From least-squares adjustment to EG's                                
+#L J         From adopted levels                                          
+#L T$BG(T) or GG(T) (1981FO02)                                            
+#G RI(A)$From GG. Total RI(952.59)=21.3 10                                
+#B           EB, IB, BG measurements: 1985FO03, 1987SP09, 1990ST13        
+#G M$From EKC                                                             
+#P 0.0          1(-)             0.29 S    2              10249     38    
+IN130 SN130 beta- 10.249 0.29 0.79
+
+#130SN    130IN B- DECAY (0.54 S):(10-) 1981FO02                  01NDS    200107
+#  130IN B- DECAY (0.54 S):(10-) 1981FO02                  01NDS    200107
+#H TYP=FUL$AUT=BALRAJ SINGH$CIT=NDS 93, 33 (2001)$CUT=11-May-2001$        
+#  1981FO02: measured EG, IG, CE, GG, BG(T), T1/2 (130IN)                 
+#  Others:                                                                
+#  1973KE12 (also 1973KE26): measured EG, IG, EB, BG, T1/2                
+#  1990ST13, 1987SP09, 1985FO03: measured EB, IB, BG                      
+#  1993RU01, 1986WA17 (also 1986REZU,1986REZS), 1983SH07,                 
+#  1981EN05, 1980LU04, 1977RU09, 1976LU02: measured T1/2(130IN), %B-N     
+#L E$From least-squares adjustment to EG's                                
+#L J         From adopted levels                                          
+#L T$BG(T) or GG(T) (1981FO02)                                            
+#G M         From EKC                                                     
+#G E(A)      May possibly be due to low-spin isomer                       
+#B           EB- measurements: 1985FO03, 1987SP09, 1990ST13               
+#P 50        50 (10-)            0.54 S    1              10249     38    
+IN130 SN130 beta- 10.249 0.54 0.84
+
+#130SN    130IN B- DECAY (0.54 S):(5+)  1981FO02                  01NDS    200107
+#  130IN B- DECAY (0.54 S):(5+)  1981FO02                  01NDS    200107
+#H TYP=FUL$AUT=BALRAJ SINGH$CIT=NDS 93, 33 (2001)$CUT=11-May-2001$        
+#  1981FO02: measured EG, IG, CE, GG, BG(T), T1/2 (130IN)                 
+#  Others:                                                                
+#  1973KE12 (also 1973KE26): measured EG, IG, EB, BG, T1/2                
+#  1990ST13, 1987SP09, 1985FO03: measured EB, IB, BG                      
+#  1993RU01, 1986WA17 (also 1986REZU,1986REZS), 1983SH07,                 
+#  1981EN05, 1980LU04, 1977RU09, 1976LU02: measured T1/2(130IN), %B-N     
+#L E$From least-squares adjustment to EG's                                
+#L J         From adopted levels                                          
+#L T$BG(T) (1981FO02)                                                     
+#B           EB- measurements: 1985FO03, 1987SP09, 1990ST13               
+#G M         From EKC                                                     
+#G E(A)      May possibly be due to high-spin isomer                      
+#P 400       60(5+)              0.54 S    1              10249     38    
+IN130 SN130 beta- 10.249 0.54 0.86
++G gamma 0.08923 0.22699999999999998
++G gamma 0.13796 0.115
++G gamma 0.1298 0.09300000000000001
++G gamma 3.0036 0.011000000000000001
+

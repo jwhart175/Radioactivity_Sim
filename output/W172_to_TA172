@@ -1,0 +1,49 @@
+#172TA    172W EC DECAY (6.6 M)         1990ME12                  ENSDF    201512
+#  172W EC DECAY (6.6 M)         1990ME12                  ENSDF    201512
+#H TYP=FUL$AUT=BALRAJ SINGH$CIT=ENSDF$CUT=08-DEC-2015$                    
+#H TYP=FUL$AUT=BALRAJ SINGH$CIT=NDS 75,199 (1995)$CUT=31-May-1995$        
+#  1990Me12: {+172}W produced by {+136}Ba({+40}Ar,4n). Measured T{-1/2},  
+#  E|g, I|g, |g|g coin                                                    
+#  Others:                                                                
+#  1986Sz06: {+172}W produced by {+165}Ho({+14}N,7n) E=117 MeV. Measured  
+#  T{-1/2}, E|g, I|g. Three |g rays of 424, 547, and 631 keV were assigned
+#  to {+172}W decay. This work confirmed only two |g rays out of 38 |g    
+#  rays reported by 1974CaZR. Some of the other |g rays were assigned to  
+#  {+173}W decay by 1986Sz06. Absolute (per 100 decays of the parent)     
+#  |g-ray intensities are given for a few |g rays. These values cannot    
+#  be considered as reliable since the measured half-life of {+172}W      
+#  decay is reported by 1986Sz06 as 8.0 min {I4}, closer to the adopted   
+#  half-life of 7.6 min {I2} for the decay of {+173}W                     
+#  1974CaZR (also thesis by 1974CaZI): isotope produced by                
+#  {+176}Hf({+3}He,7n) E=72 MeV. Measured T{-1/2}, E|g, I|g,              
+#  |g|g, |g|g(t), ce, anti-Compton spectrometer. 1974CaZR assigned 38     
+#  |g rays to {+172}W decay, but 1986Sz06 confirmed only three |g rays    
+#  of 424, 547 and 631 which belonged to {+172}W decay. 1986Sz06 pointed  
+#  out that many |g rays reported by 1974CaZR actually belonged to        
+#  {+173}W decay. Similar conclusions were drawn by 1990Me12. However,    
+#  1990Me12 reported many new |g rays. The following |g rays              
+#  with E|g(I|g) reported by 1974CaZR are omitted here:                   
+#  35.9 (142), 83.5 (6.9), 109.3 (23), 130.2 (100), 145.2 (17),           
+#  153.8 (37), 166.1 (15), 169.1 (9.2), 174.9 (77), 191.8 (3.3),          
+#  197.2 (13), 240.7 (12), 278.5 (2.7), 324.4 (26), 367.1 (3.9),          
+#  393.1 (6.5), 406.1 (3.5), 414.5 (9.9), 425.2 (6.5), 457.6 (367),       
+#  493.1 (13), 576.3 (3.7), 623.6 (102), 636.0 (19), 677.6 (10),          
+#  770.8 (15)                                                             
+#  1970DeZF: measured E|g, |g|g, |g|g(t), ce                              
+#  1969Ar22: {+172}W produced by Re(p,X) E=660 MeV. No |g rays reported   
+#G E,RI$From 1990Me12. For comparison, intensities of |g rays             
+#G are given under comments. The intensities given by 1974CaZR are        
+#G normalized to 100 for a 130.2|g, which does not seem to belong to      
+#G {+172}W decay. Normalization relative to 423|g suggests that I|g values
+#G from 1974CaZR should be multiplied by |?1.8 for normalization of data  
+#G between 1990Me12 and 1974CaZR. I|g(423|g)/I|g(547|g)=1.05 (1986Sz06)   
+#G disagrees with 2.7 from 1990Me12. The 547|g was not reported by        
+#G 1974CaZR                                                               
+#G RI(A)$Intensity is not given due to the presence of a contaminant      
+#G activity                                                               
+#G M$From Adopted Gammas                                                  
+#L E$From least-squares fit to E|g values                                 
+#L J,T$From Adopted Levels                                                
+#P 0.0         0+                6.6 M     9              2230      40    
+W172 TA172 beta+ 2.23 396.0 1.0
+

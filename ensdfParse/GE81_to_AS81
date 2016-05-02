@@ -1,0 +1,77 @@
+# 81AS8C  excited in B- DECAY AND IN (T,A).                                      
+#  excited in B- DECAY AND IN (T,A).                                      
+#B           From G-gated B endpoint measurements, 1981Al20 determine Q(B)
+#B values of 6220 130 and 6930 280 for GS and isomeric state B- decay,    
+#B respectively. These imply E(isomeric state, 81GE)=710 310,             
+#B consistent with its identification as the 679 level of 81GE. Assuming  
+#B E(isomer)=679, the weighted average Q is 6230 120 for 81GE GS B-       
+#B decay, as quoted in 2003Au03.                                          
+#B           Measured average EB=1580 150 (1990Ru05).                     
+#G           Measured average EG=2000 222 (1990Ru05).                     
+#G E,RI      All data for unplaced G rays and all uncertainties are from  
+#G 1980HoZN; other data are from 1981Ho24, except as noted.               
+#G M         From EKC (1981Ho24).                                         
+#G E(A)      RI from drawing in 1981Ho24; EG from table 11 of 1980HoZN.   
+#G RI=11.0 20 for multiplet (1980HoZN, both isomers combined).            
+#G E(C)      RI from drawing in 1981Ho24; EG from table 11 in 1980HoZN.   
+#G RI=5.0 5 for doublet (1980HoZN).                                       
+#G E(D)      RI from drawing in 1981Ho24; EG from table 11 in 1980HoZN.   
+#G RI=6.8 6 for doublet (1980HoZN).                                       
+#L E         FROM LEAST-SQUARES FIT TO EG.                                
+#L J         FROM Adopted Levels.                                         
+#N 0.73      28           1.       1.                                     
+#N NR        APPROXIMATE VALUE FROM SUMOF (TI to GS)=73% 27, deduced      
+#N assuming LOGFT>5.9 to GS, which implies IB(GS)<54%.                    
+#N                                                                     3  
+#P 679.14     4(1/2+)            7.6 S                    6242       4    
++G gamma 0.4631 0.01387
++G gamma 0.6091 0.01387
++G gamma 1.0385 0.01241
++G gamma 1.0565 0.03066
++G gamma 1.0955 0.0219
++G gamma 1.2258 0.02993
++G gamma 1.2389000000000001 0.01752
++G gamma 1.2561 0.00803
++G gamma 1.2974 0.02044
++G gamma 1.4357 0.032850000000000004
++G gamma 1.6865 0.00803
++G gamma 2.7548000000000004 0.032850000000000004
++B beta- 3.1715 0.54
++B beta- 3.1264000000000003 0.07
++B beta- 3.0305999999999997 0.12
++G gamma 0.1973 0.11972
++G gamma 0.24284 0.00511
++B beta- 2.8121 0.08
++G gamma 0.7377400000000001 0.10219999999999999
++B beta- 2.8035 0.049
++G gamma 0.46798 0.02482
++G gamma 0.6658999999999999 0.0219
++G gamma 0.77126 0.04452999999999999
++B beta- 2.2647 0.034
++G gamma 1.0057 0.01168
++G gamma 1.8698 0.0219
++B beta- 1.785 0.048
++G gamma 2.1039 0.019710000000000002
++G gamma 2.5265 0.02847
++B beta- 1.7610999999999999 0.06
++G gamma 1.8698 0.0146
++G gamma 2.1743200000000003 0.06278
++B beta- 1.6531 0.1
++G gamma 2.3774 0.02482
++G gamma 2.8002 0.041609999999999994
++G gamma 2.8458 0.02044
++G gamma 3.1366 0.01241
++B beta- 1.6247 0.1
++G gamma 2.3313 0.032850000000000004
++G gamma 2.4366 0.0073
++G gamma 2.8590999999999998 0.0073
++G gamma 2.9046999999999996 0.01314
++G gamma 3.1951 0.038689999999999995
++B beta- 1.5417 0.018000000000000002
++G gamma 0.45630000000000004 0.01752
++B beta- 1.4636 0.011000000000000001
++G gamma 3.1951 0.01095
++B beta- 1.4484000000000001 0.061
++G gamma 3.4695 0.02117
++G gamma 3.5627 0.039420000000000004
+

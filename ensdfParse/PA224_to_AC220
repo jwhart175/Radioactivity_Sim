@@ -1,0 +1,62 @@
+#220AC    224PA A DECAY                 1996LI05                  11NDS    201104
+#  224PA A DECAY                 1996LI05                  11NDS    201104
+#H TYP=FUL$AUT=E. BROWNE, J. K. TULI$CIT=NDS 112, 1115 (2011)$            
+#H CUT=31-Oct-2010$                                                       
+#  Modified by E. Browne (Jan. 11, 2011) ICC's from BRICC.                
+#  New and consistent interpretation of the decay scheme. G-ray           
+#  transition-intensity balance reproduced alpha-particle intensities.    
+#A E,IA      From 1996Li05, unless otherwise noted                        
+#A HF        r{-0}({+220}Ac)=1.530 {I20}                                  
+#A IA(A)$1987FuZT reported one |a group with E|a=7408 and I|a=17% {I2}    
+#G CC$ FROM BrIcc v2.2 (31-Mar-2008) 2008KiAA, "Frozen Orbitals" appr.    
+#G           All |g-ray data are from 1996Li05                            
+#G RI        I|g per 1000|a                                               
+#G M         Based on |a(K)exp and |a(L)exp and K/L ratios, values not    
+#G given.                                                                 
+#G E(X)      Possible doublet.                                            
+#L           1996Li05: measured |a, |g, ce, |a|g, (|a)(ce), (|a)(|g)(ce)  
+#L           1990An19: measured |a                                        
+#L           1987FuZT: measured |a, time correlated |a|a                  
+#L           The decay scheme is that proposed by 1996Li05, and is based  
+#L on |g, |a, |a|g and (|a)(ce) measurements.                             
+#L           1987FuZT also measured E|a and                               
+#L I|a and the results, although in general agreement with those from     
+#L 1996Li05, show some discrepancies. In particular, 1987FuZT reported an 
+#L |a group with E|a=7528 keV which feeds a 28-keV level. This |a group   
+#L was not seen in 1996Li05.                                              
+#L           Evaluators have significantly modified the decay scheme by   
+#L introducing a 28-keV level, as suggested in 1987FuZT.                  
+#L Thus, the 28-keV G ray reported in 1996Li05 is probably a              
+#L doublet. The individual intensities have been adjusted to produce a    
+#L more consistent transition-intensity balance in the decay scheme,      
+#L and to reproduce the experimental alpha-particle intensities.          
+#L The multipolarity of the 40.7-keV G ray has been reported as M1        
+#L in 1996Li05.  Evaluators, however, have assigned an M1+3%E2            
+#L multipolarity to the G ray for consistency in the decay-scheme         
+#L transition intensity balance, since its conversion coefficient is      
+#L very sensitive to an E2 admixture. Using this interpretation, the      
+#L sum of the G-ray transition intensities to the GS and 13-keV           
+#L is 116 (13)%.                                                          
+#L           1990An19 observed two |a groups with E|a=7460 (25%) and      
+#L 7555 (75%) which they were interpreted to belong to                    
+#L a parent of {+220}Ac.                                                  
+#L These results are in disagreement with those reported in 1996Li05.     
+#L E         From least squares fit to |g-ray energies.                   
+#L J         Proposed by 1996Li05, based on |g-ray multipolarities,       
+#L |a hindrance factors, and shell model expectations.                    
+#P 0            (5-)              0.79 S   6              7694      5     
+PA224 AC220 alpha 7.694 0.0 1.00
++A alpha 7.528 0.028999999999999998
++A alpha 7.488 0.7
++A alpha 7.449 0.04
++A alpha 7.444 0.025
++A alpha 7.408 0.04
++A alpha 7.405 0.12
++A alpha 7.375 0.025
++A alpha 7.326 0.015
++A alpha 7.297 0.02
++A alpha 7.249 0.001
++A alpha 7.226 0.001
++A alpha 7.205 0.002
++A alpha 7.151 5.0E-4
+

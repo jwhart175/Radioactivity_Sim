@@ -1,0 +1,33 @@
+#104NB    104ZR B- DECAY                1983SHZX,1986PE04         07NDS    200709
+#  104ZR B- DECAY                1983SHZX,1986PE04         07NDS    200709
+#H TYP=FUL$AUT=JEAN BLACHOT$CIT=NDS 108,2035 (2007)$CUT=30-Mar-2007$      
+#  Measured: G, GG semi; T1/2 via growth-decay curve (G in 104NB)         
+#  (1980SCZZ,1983SHZX)                                                    
+#  1980SCZZ: fast chem from 239PU(N,F),                                   
+#  and on-line MS LOHENGRIN, from 235U(N,F)                               
+#  1983SHZX: on-line MS JOSEF                                             
+#  The level scheme is from 1983SHZX with a complement from 1986PE04.     
+#  1989WAZV have measured the absolute RI of 100G using the known         
+#  fission yields.                                                        
+#G E,RI$From 1983SHZX                                                     
+#G E(A)$Seen also by 1980SCZZ.                                            
+#G E(B)$Seen only by 1980SCZZ.                                            
+#G DE$Uncertainty of 0.2 KEV assigned by evaluator from comparison of     
+#G values of 1983SHZX and 1980SCZZ                                        
+#P 0.0         0+                1.2 S     3              5880      SY    
+ZR104 NB104 beta- 5.88 1.2 1.0
++G gamma 0.445 0.054900000000000004
++G gamma 0.5047 0.054900000000000004
++G gamma 0.037399999999999996 0.017079999999999998
++G gamma 0.1009 0.061
++G gamma 0.1409 0.01464
++G gamma 0.213 0.03233
++G gamma 0.2419 0.01647
++G gamma 0.2506 0.00976
++G gamma 0.0611 0.01403
++G gamma 0.2742 0.005489999999999999
++G gamma 0.2105 0.021959999999999997
++G gamma 0.0499 0.005489999999999999
++G gamma 0.2024 0.017689999999999997
++G gamma 0.2637 0.041479999999999996
+

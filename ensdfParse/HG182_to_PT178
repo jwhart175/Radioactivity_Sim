@@ -1,0 +1,32 @@
+#178PT    182HG A DECAY                 1995BI12,1993WA03,1979HA1009NDS    200907
+#  182HG A DECAY                 1995BI12,1993WA03,1979HA1009NDS    200907
+#H TYP=FUL$AUT=E. Achterberg, O.A. Capurro, G.V. Marti$                   
+#H CIT=NDS 110, 1473 (2009)$CUT=31-May-2008$                              
+#  MODIFIED BY E. BROWNE (AUG. 1993).                                     
+#  1995Bi12: activity produced by protons on Th; E=1 GeV.                 
+#  Alpha decays studied at the ^LISOL and ^GSI separator. Measured        
+#  E|a, |a-X coin, |a-e{+-} coin, and |a-|g coin.                         
+#  1993Wa03: activity produced by {+147}Sm({+40}Ar,5n), E=180 MeV.        
+#  Measured E|a, I|a (not reported), |a|g coin, (|a)(ce) coin, |a|g(t),   
+#  (|a)(ce)(t). Detectors: semi, germanium hyperpure, plastic             
+#  scintillator. Measured T{-1/2}.                                        
+#  1979Ha10: activity produced by protons on Pb; E=600 MeV. Measured      
+#  E|a, I|a, |a|g coin. Detectors: semi, Ge(Li).                          
+#  Others: 1986Ke03, 1969Ha03, 1968De01.                                  
+#  %|a=15.2 {I8} was determined from a comparison of |a-particle          
+#  intensities of {+182}Hg and its daughter nucleus {+178}Pt in the same  
+#  spectrum (1980Sc09). %|a=9 {I2} was determined from a comparison of K| 
+#  x ray and |a-particle intensities (1970Ha18). This method is less      
+#  precise because the decay scheme of {+182}Hg is not well known, and    
+#  therefore, the contribution of x-rays due to internal conversion       
+#  cannot be accurately calculated.                                       
+#A E,IA      From 1979Ha10.                                               
+#G RI        Relative intensities from 1993Wa03.                          
+#G E         From 1979Ha10, unless otherwise specified.                   
+#L E,J       From adopted levels                                          
+#P 0.0         0+                10.83 S   6              5997      5     
+HG182 PT178 alpha 5.997 10.83 0.152
++A alpha 5.867 0.99
++A alpha 5.7 0.005699999999999999
++A alpha 5.455 0.0024
+

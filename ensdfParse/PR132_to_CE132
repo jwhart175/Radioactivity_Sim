@@ -1,0 +1,154 @@
+#132CE    132PR EC DECAY (1.6 M)        1998GA43                  05NDS    200504
+#  132PR EC DECAY (1.6 M)        1998GA43                  05NDS    200504
+#H TYP=FUL$AUT=YU. KHAZOV, A.A. RODIONOV AND S. SAKHAROV, BALRAJ SINGH$   
+#H CIT=NDS 104, 497 (2005)$CUT=10-Feb-2005$                               
+#  THE ACTIVITY IS PROBABLY CONTRIBUTED BY TWO ISOMERS, ALTHOUGH, ONLY    
+#  ONE ACTIVITY OF 1.6 M 3 WITH JPI=(2)+ HAS BEEN IDENTIFIED. LOW-LYING   
+#  HIGH-SPIN LEVELS ARE KNOWN FROM IN-BEAM G-RAY STUDIES, ONE OF WHICH    
+#  COULD BE AN ISOMER.                                                    
+#  1998Ga43: {+132}Pr was produced in 117SN(19F,4n) reaction at E=75 MEV. 
+#  Measured  E|g, |g branching ratios, |g|g and |g|g(|q) with OSIRIS cube 
+#  spectrometer. Comparisons with detailed interacting-boson-model        
+#  calculations.                                                          
+#  1990Ko25 (also 1987Ko24): {+132}Pr produced in                         
+#  {+92}Mo({+46}Ti,n5p) E=250 MeV followed by mass separation.            
+#  1987Ko24 used {+112}Sn({+28}Si,X) reaction at E=190, 220 MeV.          
+#  Measured E|g, I|g, |g|g. A total of 17 |g rays reported with 10        
+#  excited states. Possible feedings of 5+ and 6+ states seem to due to   
+#  contribution from two isomers: a low spin and a high-spin.             
+#  1988Ba42: {+96}Mo({+40}Ca,X) at E=250 MeV. Measured E|g, |g|g.         
+#  A total of 15 |g rays reported with 9 excited states. Numerical        
+#  values of intensities were not given. Four of these |g rays were       
+#  not reported by 1998Ga43 or 1990Ko25.                                  
+#  1974Ar27 (also 1974La32): {+132}Pr produced in Ta(p,X) E=660 MeV.      
+#  Measured T{-1/2} of {+132}Pr nuclide; E|g of three |g rays with three  
+#  levels proposed.                                                       
+#  1964PeZY: T{-1/2} and identification                                   
+#G E$ From 1998Ga43. The uncertainties are assigned as follows            
+#G from a communication from one of the authors (^A. ^Gade) of            
+#G 1998Ga43 on June 13, 2003 in response to enquiry by ^B. ^Singh:        
+#G 0.1 keV for E|g up to 2400, 0.3 keV for 2400-3000, and 0.5 keV         
+#G above 3000; 0.3 keV for many of the weak transitions (<10% branching)  
+#G RI$ Relative branching ratios. Relative gamma-ray intensities          
+#G are available for only 17 |g rays from 1990Ko25 and are given          
+#G here under comments. Relative intensities from 1998Ga43 are            
+#G not available as communicated by one of the authors (A. Gade)          
+#G on June 13, 2003 in response to enquiry by B. Singh                    
+#G M,MR$ FROM GG(THETA)                                                   
+#G E(X)$ From 1988Ba42 only; treated as questionable by the evaluators    
+#L E$ From least-squares fit to E|g's.                                    
+#L J$ FROM ADOPTED LEVELS, UNLESS OTHERWISE STATED.                       
+#L ASSIGNMENTS PROPOSED BY 1998GA43 ARE GIVEN UNDER COMMENTS WHEN NOT     
+#L SUPPORTED BY STRONG ARGUMENTS                                          
+#L J(G)$ FROM GG(THETA) MEASUREMENTS                                      
+#L BAND(A)$ The g.s. band                                                 
+#L BAND(B)$ Possible |g band                                              
+#L BAND(C)$ Possible |b band                                              
+#P 0.0          (2)+             1.6 M     3              7260      60    
++G gamma 0.32539999999999997 1.0
++G gamma 0.4968 1.0
++G gamma 0.8222 0.75
++G gamma 0.5335 1.0
++G gamma 0.3363 1.0
++G gamma 0.8331000000000001 0.52
++G gamma 0.3773 0.31
++G gamma 0.8741 1.0
++G gamma 0.5253 0.42
++G gamma 0.562 1.0
++G gamma 1.0587 0.1
++G gamma 0.29769999999999996 0.14
++G gamma 0.3387 0.46
++G gamma 0.6748999999999999 1.0
++G gamma 1.1716 0.35
++G gamma 1.4972 0.037000000000000005
++G gamma 0.6842999999999999 1.0
++G gamma 0.2719 0.094
++G gamma 0.7971 0.27
++G gamma 1.3888 1.0
++G gamma 0.2376 0.086
++G gamma 0.5352 0.16699999999999998
++G gamma 0.5762999999999999 0.07200000000000001
++G gamma 0.8757999999999999 0.026000000000000002
++G gamma 0.9125 1.0
++G gamma 1.4093 0.7
++G gamma 0.9495 0.48
++G gamma 0.9863999999999999 0.028999999999999998
++G gamma 1.483 1.0
++G gamma 0.6153 1.0
++G gamma 1.0639 0.46
++G gamma 1.1005999999999998 0.11800000000000001
++G gamma 1.5974000000000002 1.0
++G gamma 0.43489999999999995 1.0
++G gamma 0.7512000000000001 1.0
++G gamma 1.6710999999999998 1.0
++G gamma 1.1799000000000002 1.0
++G gamma 1.191 1.0
++G gamma 1.238 0.14
++G gamma 1.2747 1.0
++G gamma 1.8203 1.0
++G gamma 1.844 1.0
++G gamma 1.3304 1.0
++G gamma 1.9703 1.0
++G gamma 1.4715 1.0
++G gamma 0.7986 1.0
++G gamma 0.7089 1.0
++G gamma 2.0539 1.0
++G gamma 0.7238 1.0
++G gamma 1.5919 1.0
++G gamma 2.1391999999999998 1.0
++G gamma 1.2835 0.29
++G gamma 1.6608 1.0
++G gamma 0.7741 0.038
++G gamma 0.8528 0.096
++G gamma 1.0115 0.034
++G gamma 1.1245999999999998 0.031
++G gamma 1.3092000000000001 1.0
++G gamma 1.6499000000000001 0.21
++G gamma 1.6865 0.39
++G gamma 2.1834000000000002 0.18
++G gamma 0.6317 0.042
++G gamma 1.3547 0.113
++G gamma 1.7317 0.48
++G gamma 2.2289 1.0
++G gamma 2.2371999999999996 1.0
++G gamma 1.3782999999999999 0.78
++G gamma 2.2525 1.0
++G gamma 2.2809 1.0
++G gamma 2.3193 1.0
++G gamma 1.451 1.0
++G gamma 1.52 1.0
++G gamma 1.0846 1.0
++G gamma 2.4332 1.0
++G gamma 1.903 1.0
++G gamma 1.967 1.0
++G gamma 2.5104 1.0
++G gamma 1.4735 1.0
++G gamma 2.0053 1.0
++G gamma 1.7085 1.0
++G gamma 2.6321 1.0
++G gamma 2.6574 1.0
++G gamma 1.0374 0.083
++G gamma 1.2532999999999999 0.092
++G gamma 2.1292 1.0
++G gamma 2.2115 1.0
++G gamma 2.8205 1.0
++G gamma 2.9909 1.0
++G gamma 2.4586 1.0
++G gamma 2.4729 1.0
++G gamma 2.5104 1.0
++G gamma 2.5195 1.0
++G gamma 2.2133000000000003 1.0
++G gamma 2.1665 1.0
++G gamma 2.2979000000000003 1.0
++G gamma 2.8796999999999997 1.0
++G gamma 2.0658000000000003 1.0
++G gamma 1.8933 1.0
++G gamma 1.9314 1.0
++G gamma 2.1290999999999998 1.0
++G gamma 2.3386 1.0
++G gamma 2.6151 1.0
++G gamma 2.4168000000000003 1.0
++G gamma 2.6969000000000003 1.0
++G gamma 3.0061999999999998 1.0
++G gamma 2.8179000000000003 1.0
+

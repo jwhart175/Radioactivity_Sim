@@ -1,0 +1,1301 @@
+#164ER  XI164HO B- DECAY (29 M)                                                  
+#XI164HO B- DECAY (29 M)                                                  
+#XC150ND(18O,4NG)                                                         
+#XJ160GD(9BE,5NG)                                                         
+#XD162DY(A,2NG)                                                           
+#XK164ER(G,G')                                                            
+#XE164ER(N,N'G)                                                           
+#XF164ER(D,D')                                                            
+#XGCOULOMB EXCITATION                                                     
+#XH166ER(P,T)                                                             
+#  Other reactions:                                                       
+#  162DY(58NI,56FE): 1996DE17. Measured transfer probability              
+#  164DY(N,N) E=low: 1997KN01                                             
+#  164DY(G,G): MOSSBAUER: 1968MU01, 1967MU11. Measured G FACTOR           
+#  Hyperfine structure, isotope shifts, etc: 2000AS04,                    
+#  1993KR22, 1990JI07, 1987OK03, 1987AH03, 1986CH07, 1985NE09, 1985BE34,  
+#  1967CA21, 1965VO02                                                     
+#  Theoretical structure calculations: 2001GA02, 2000GR33, 2000SH36,      
+#  1999XU04, 1999GE09                                                     
+#  MASS MEASUREMENT: 1972BA08, 1963DE30                                   
+#G E,RI$Weighted averages of all available data. Most values              
+#G for low-spin (J LE 6) are from 164TM EC decay and for high-spin        
+#G (J>6) are from in-beam G-ray studies. For J=1 states values            
+#G are generally from (G,G')                                              
+#G E(A)$Weak G ray from 164TM EC decay (2.0 M) only, branching            
+#G is not available                                                       
+#G M$From CE data in 164TM EC decay and (A,2NG)                           
+#L           ^A: |n5/2[642], |a=+1/2                                      
+#L           ^B: |n5/2[642], |a=-1/2                                      
+#L           ^E: |n5/2[523], |a=+1/2                                      
+#L           ^F: |n5/2[523], |a=-1/2                                      
+#L E$From least-squares fit to EG's                                       
+#L J$For high-spin (J>6) levels, populated mostly in in-beam              
+#L reactions ((18O,4NG), (9BE,5NG) and (A,2NG)), the assignments          
+#L are based on G(THETA) and CE data in (A,2NG); G(THETA) and G(lin pol)  
+#L in (9BE,5NG); and band associations from GG coin data in all these     
+#L reactions. All |DJ=2 transitions are assumed as stretched E2's         
+#L and |DJ=1, mixed transitions as M1+E2 since within the experimental    
+#L GG coin timing resolution, there is no evidence for long-lived states. 
+#L In heavy-ion fusion reactions, spins are assumed to be in              
+#L ascending order as the excitation energy increases                     
+#L J(K)$Population in (G,G')                                              
+#L BAND(A)$ K|p=0+ GS band.                                               
+#L BAND(B)$ K|p=2+ |g band.                                               
+#L BAND(D)$ K|p=0+, |b band.                                              
+#L BAND(I)$ Band ^AB, based on 12+                                        
+#L BAND(C)$ Band ^AE, |a=1                                                
+#L BAND(c)$ ^AF band, |a=0                                                
+#L BAND(E)$ (7-)(^AE) band, |a=0.                                         
+#L Band based on 12+ isomer.                                              
+#L BAND(e)$ (7-)(^AF) band, |a=1                                          
+#L Band based on 12+ isomer.                                              
+#L BAND(G)$ Band based on 7-, |a=1                                        
+#L BAND(g)$ Band based on 7-, |a=0                                        
+#L BAND(F)$ Band based on (8), |a=0.                                      
+#L BAND(H)$ PROBABLE KPI=0- BAND.                                         
+#L Band proposed by 1984FI07                                              
+#N                                                                     6  
+#L 0.0         0+                 STABLE                              A   
+#L XREF=ABCDEFGHIJK                                                       
+#L 91.38     2 2+                1.47 NS   3                          A   
+#L XREF=ABCDEFGHIJK                                                       
+#L MOMM1=0.697 15 (1989RA17,1968MU01)                                     
+#L MOME2<0 (1989RA17,1981HU02)                                            
+#L BE2=5.48 4 (1977RO27)                                                  
+#L MOMM1$ MOSSBAUER EFFECT (1968MU01). OTHER: 0.686 16 (TRANSIENT-FIELD   
+#L INTEGRAL ^PAC METHOD,1996BR09)                                         
+#L MOME2$ REORIENTATION METHOD (1981HU02)                                 
+#L J$E2 |g to 0+                                                          
+#L T         from 164HO B- decay and 164TM EC decay.                      
+#L MOMM1$Mossbauer effect.                                                
+#G 91.40     3 100       E2                         4.20                  
++G gamma 0.09140000000000001 1.0
+#G KC=   1.34   $LC=   2.18   $MC=  0.530   $NC+=  0.146  $               
+#G BE2W=218 7                                                             
+#L 299.43    3 4+                86 PS     9                          A   
+#L XREF=ABCDEFGH                                                          
+#L MOMM1=1.364 80 (1996BR09)                                              
+#L MOMM1$ TRANSIENT-FIELD INTEGRAL ^PAC METHOD                            
+#L BE4=0.014 +43-14 (1977RO27)                                            
+#L J$stretched E2 |g to 2+                                                
+#L T         microwave beam pulsing method (1968BE29).                    
+#G 208.08    3 100        E2                       0.223                  
++G gamma 0.20808000000000001 1.0
+#G KC=  0.146   $LC= 0.0592   $MC= 0.0140   $NC+=0.00385  $               
+#G BE2W=258 26                                                            
+#L 614.37    5 6+                                                     A   
+#L XREF=BCDEFGH                                                           
+#L MOMM1=1.884 90 (1996BR09)                                              
+#L MOMM1$ TRANSIENT-FIELD INTEGRAL ^PAC METHOD                            
+#L J$stretched E2 G to 4+; band member                                    
+#G 314.97    4 100       E2                       0.0600                  
++G gamma 0.31497 1.0
+#G KC= 0.0443   $LC= 0.0121   $MC=0.00281   $                             
+#L 860.25    3 2+                1.9 PS    2                          B   
+#L XREF=ACDEFGH                                                           
+#L MOMM1=0.808 60 (1996BR09)                                              
+#L MOME2=2.39 26 (1989RA17,1983HU01)                                      
+#L BE2=0.148 6 (1982RO07)                                                 
+#L MOMM1$ TRANSIENT-FIELD INTEGRAL ^PAC METHOD                            
+#L MOME2$REORIENTATION METHOD IN Coulomb excitation (1983HU01)            
+#L J$E2 G to 0+                                                           
+#L T         from BE2 (1982RO07)                                          
+#G 561.5     3 3.0     5 E2                       0.0124                  
++G gamma 0.5615 0.03
+#G KC= 0.0099   $LC=0.00186   $                                           
+#G BE2W=1.7 2                                                             
+#G 768.92    4 100     4 E2                                               
++G gamma 0.7689199999999999 1.0
+#G BE2W=11.4 12                                                           
+#G 860.29    4 84      3 E2                                               
++G gamma 0.86029 0.84
+#G BE2W=5.2 6                                                             
+#L 946.40    5  3+                                                    B   
+#L XREF=ABCDE$                                                            
+#L J$M1+E2 G to 2+; E2 to 4+                                              
+#G 86.24     12           M1+E2                                           
+#G 646.94    7 21      3   E2                                             
++G gamma 0.6469400000000001 0.21
+#G 855.01    7 100     9 E2+M1      -2.8    7                             
++G gamma 0.8550099999999999 1.0
+#G M,MR$from (A,2NG).                                                     
+#L 1024.59   7 8+                2.59 PS   14                         A   
+#L XREF=BCDEGJ$                                                           
+#L MOMM1=2.72 13 (1996BR09)                                               
+#L MOMM1$ TRANSIENT-FIELD INTEGRAL ^PAC METHOD                            
+#L J$E2 G to 6+                                                           
+#L T$DOPPLER-broadened line shape in COULOMB excitation.                  
+#G 410.22    7 100       E2                       0.0280                  
++G gamma 0.41022000000000003 1.0
+#G KC= 0.0217   $LC=0.00487   $MC=0.00112   $                             
+#G BE2W=343 17                                                            
+#L 1058.48   8 4+                                                     B   
+#L XREF=ABCDEFG$                                                          
+#L J$DJ=(0), M1+E2 G to 4+; E2 G to 2+                                    
+#G 198.4     3                                                        A   
+#G 758.85    9 100     7  E2+M1      -2.4   22                            
++G gamma 0.75885 1.0
+#G MR$from CE and G(THETA) in (A,2NG)                                     
+#G 967.8     3  48     12 E2                                              
+#L 1197.46   6 5+                                                     B   
+#L XREF=BCDEJ$                                                            
+#L J$E2 G's to 4+ and 6+                                                  
+#G 251.0     2  5.1    5                                                  
+#G 583.21    10 18.8   12 E2                      0.0113                  
+#G KC= 0.0091   $LC=0.00167   $                                           
+#G 898.05    6 100     5 E2                                               
++G gamma 0.8980499999999999 1.0
+#L 1246.04   5 0+                                                     D   
+#L XREF=AEH(1248)$                                                        
+#L J$E0 transition to 0+                                                  
+#G 385.3     7 0.8     4 E2                       0.0333                  
++G gamma 0.38530000000000003 0.008
+#G KC= 0.0256   $LC=0.00599   $MC=0.00138   $                             
+#G 1154.66   5 100     3  E2                                              
++G gamma 1.15466 1.0
+#G 1246.1    4            E0                               0.65     12    
+#L 1314.56   4  2+                                                    D   
+#L XREF=ADEFGH(1308)$                                                     
+#L J$E2 G to 0+                                                           
+#G 68.49     14            (E2)                     13.3                  
+#G KC=   2.07   $LC=    8.6   $MC=   2.07   $NC+=  0.563  $               
+#G  368.2    3                                                        A  ?
+#G FL=946.40                                                              
+#G  454.6    1  2.2    11 E2                                              
+#G 1015.15   7 26      LT (E2)                                        *   
++G gamma 1.01515 0.26
+#G 1223.14   5 100     3  M1+E2+E0                                        
++G gamma 1.2231400000000001 1.0
+#G           |r{+2}(E0)=0.0053 27 (review by 1999WO07)                    
+#G 1314.3    2  56     3  E2                                              
+#L 1358.68   12 6+                                                    B   
+#L XREF=BCDEGJ$                                                           
+#L J$E2 G's to 4+ and 6+                                                  
+#G 300.0     3  65     15 E2                      0.0693                  
+#G KC= 0.0507   $LC= 0.0143   $MC=0.00335   $                             
+#G 744.1     2 100     30 E2(+M1)                                         
++G gamma 0.7441 1.0
+#G MR        -1.9 +16-11 or >7 from (A,2NG).                              
+#G 1059.3    10 40     5  E2                                              
+#L 1386.73   4  1-                                                    H   
+#L XREF=AEFK$                                                             
+#L J$E1 G to 0+                                                           
+#G  140.6    2                                                        A   
+#G  526.3    4                                                        A  ?
+#G 1295.36   5 100     3  E1                                              
++G gamma 1.2953599999999998 1.0
+#G 1386.69   5 66      4 E1                                               
++G gamma 1.38669 0.66
+#L 1416.56   5  0+                                                        
+#L XREF=AEH$                                                              
+#L J$E0 transition to 0+                                                  
+#G  170.6    3           (E0)                                         A   
+#G 1325.17   5 100     3 E2                                               
++G gamma 1.3251700000000002 1.0
+#G 1416.6    1           E0                                               
+#L 1433.97   5  3-                                                    H   
+#L XREF=AEFG$                                                             
+#L BE3=0.15 3                                                             
+#L J$E1 G's to 2+ and 4+                                                  
+#G 120.0     3 20      6                                                  
++G gamma 0.12 0.2
+#G E$from (N,N'G) only                                                    
+#G  574.2    4                                                        A   
+#G 1134.60   5 57      5 E1                                               
++G gamma 1.1345999999999998 0.57
+#G 1342.59   7 100     5 E1                                               
++G gamma 1.34259 1.0
+#L 1469.7    3  4+                                                    D   
+#L XREF=ADEF$                                                             
+#L J$E0 admixture in G to 4+                                              
+#G 855                                                                   ?
+#G 1170.2    3  100    20 M1+E2+E0                                        
+#G 1378.5    4   20    20                                                 
+#L 1483.70   4  2+                                                        
+#L XREF=AEFG$                                                             
+#L J$E2 G to 0+                                                           
+#G  168.9    3                                                        A   
+#G  237.6    3                                                        A   
+#G  623.5    4                                                        A   
+#G 1184.30   5 100     12 E2                                              
++G gamma 1.1843 1.0
+#G 1392.48   5 81      4 M1+E2+E0                                         
++G gamma 1.39248 0.81
+#G E$level-energy difference=1392.31                                      
+#G           |r{+2}(E0)=0.09 5 (review by 1999WO07)                       
+#G 1483.2    3 46      19 E2                                              
++G gamma 1.4832 0.46
+#L 1494.8    5                                                            
+#L XREF=ADE$                                                              
+#L J$G's to 2+ and 3+                                                     
+#G  547.9    4                                                        A   
+#G 634.6     5                                                            
+#L 1507.6    10                                                          ?
+#L XREF=D$                                                                
+#G 1208.2      100                                                        
++G gamma 1.2082 1.0
+#L 1518.06   11 10+               1.00 PS   5                         A   
+#L XREF=CDGJ$                                                             
+#L MOMM1=3.18 34 (1996BR09)                                               
+#L MOMM1$ TRANSIENT-FIELD INTEGRAL ^PAC METHOD                            
+#L T$DOPPLER-broadened line shape in COULOMB excitation.                  
+#G 493.46    10100       E2                       0.0171                  
++G gamma 0.49345999999999995 1.0
+#G KC= 0.0136   $LC=0.00272   $                                           
+#G BE2W=358 20                                                            
+#L 1545.06   10 7+                                                    B   
+#L XREF=BCDJ$                                                             
+#L J$M1+E2 G to 6+                                                        
+#G 347.2     2 48      20                                                 
++G gamma 0.3472 0.48
+#G 520.3     5 28      6 M1+E2                                            
++G gamma 0.5203 0.28
+#G 930.5     4 100     13 M1+E2    -2.4     3                             
++G gamma 0.9305 1.0
+#G MR        from (A,2NG).                                                
+#L 1555.3    3 (5)-                                                   H   
+#L XREF=DE$                                                               
+#L J$E1 G to 6+                                                           
+#G 358.0     5 30      10                                                 
++G gamma 0.358 0.3
+#G 941.0     5 40      12 E1                                              
++G gamma 0.941 0.4
+#G 1255.5    5 100     20                                                 
++G gamma 1.2555 1.0
+#L 1568.67   14(3-)                                                       
+#L XREF=AEFG$                                                             
+#L BE3=0.09 3                                                             
+#L J$G's to 2+ and 4+; probable E3 excitation in (D,D')                   
+#G 1268.4    5 41      16                                                 
++G gamma 1.2684000000000002 0.41
+#G 1477.1    4 100     25                                                 
++G gamma 1.4770999999999999 1.0
+#L 1577.83   6  1-                                                        
+#L XREF=AEH$                                                              
+#L J$E1 G to 2+; G to 0+                                                  
+#G  190.6    3                                                        A   
+#G  331.0    3                                                        A   
+#G 1486.27   17 100    10 E1                                              
+#G 1577.72   8  26.2   16 (E1)                                            
+#L 1610.3    3  (4-,5-)                                                   
+#L XREF=BD$                                                               
+#L J$G's to 3+ and 4+; (E1) G from (5+)                                   
+#G 551.5     5  16     3                                                  
+#G 663.9     2 100     6                                                  
++G gamma 0.6638999999999999 1.0
+#L 1631.5    5                                                            
+#L XREF=AEF$                                                              
+#L J$G to 4+; (5-) proposed in (D,D')                                     
+#G  136.1    2                                                        A  ?
+#G  572.9    4                                                        A  ?
+#G  685.0    4                                                        A  ?
+#G 1017.2       10     LT                                                 
+#G 1332.0    5 100     40                                                 
++G gamma 1.332 1.0
+#L 1640.2    5                                                            
+#L XREF=E$                                                                
+#L J$G to 4+                                                              
+#G 582.0     5 100     20                                                 
++G gamma 0.582 1.0
+#G 1339.5    1037      24                                                 
++G gamma 1.3395 0.37
+#L 1664.18   7 (5)-              0.08 NS   LT                         C   
+#L XREF=BCDEJ$                                                            
+#L T$GG(T) (1973CH28) in 164TM EC decay (5.1 M).                          
+#L J$E1 G to 6+, G to 4+                                                  
+#G 1049.86   9  42     2 E1                                               
+#G BE1W GT 0.6E-6                                                         
+#G 1364.68   9 100     6                                                  
++G gamma 1.3646800000000001 1.0
+#L 1683.39   9  (5+)                                                      
+#L XREF=B                                                                 
+#L J$G's to 3+ and 5+; possible allowed or first-forbidden B-             
+#L transition from 6(-)                                                   
+#G 73.0      3  73     12 (E1)                    0.75                    
+#G 486.00    8  27     8                                                  
+#G 624.6     2  100    12                                                 
+#G 736.9     2  88     27                                                 
+#L 1702.1    5                                                            
+#L XREF=DH(*)$                                                            
+#L J$G to 2+                                                              
+#G 841.9     5 100                                                        
++G gamma 0.8419 1.0
+#L 1702.20   4  0+                                                        
+#L XREF=AEH(*)$                                                           
+#L J$E0 transition to 0+                                                  
+#G 218.5     3  3.8    13                                                 
+#G 315.44    6 11.9    6   E1                     0.0164                  
++G gamma 0.31544 0.11900000000000001
+#G KC= 0.0138   $LC=0.00199   $                                           
+#G 387.7        0.6    LT                                                ?
+#G 456.4     2           E0                                0.14     3     
+#G 842.06    5 36      2  E2                                              
++G gamma 0.8420599999999999 0.36
+#G 1610.71   5 100     3 E2                                               
++G gamma 1.61071 1.0
+#G 1702.1    4            E0                               0.057    13    
+#L 1706.6    5 (6)+                                                   D   
+#L XREF=DEH(*)$                                                           
+#L J$M1 G to 6+                                                           
+#G 1092.4    8 100     35M1                                               
++G gamma 1.0924 1.0
+#G 1407      1 57      30                                                 
++G gamma 1.407 0.57
+#L 1715.5    3                                                           ?
+#L XREF=A                                                                 
+#L J$E1 G from (1); G to 3+                                               
+#G  137.7    2                                                            
+#G  768.7                                                                 
+#G  854.9                                                                 
+#L 1726.1    10                                                          ?
+#L XREF=D$                                                                
+#G 1111.7                                                                 
+#L 1741.6    3                                                            
+#L XREF=E$                                                                
+#G 881.0     4 100     28                                                 
++G gamma 0.881 1.0
+#G 1442.4    5 87      22                                                 
++G gamma 1.4424000000000001 0.87
+#G 1651.5    1065      22                                                 
++G gamma 1.6515 0.65
+#L 1744.48   6 (6)-              0.22 NS   3                          c   
+#L XREF=BCDEJ$                                                            
+#L J$E1 G to 5+, G to 6+                                                  
+#L T$from GG(T) (1973CH28) in 164TM EC decay.                             
+#G 80.27     9 13.4    14E2                         6.96                  
++G gamma 0.08027 0.134
+#G KC=   1.71   $LC=   4.01   $MC=   0.97   $NC+=  0.266  $               
+#G BE2W=200 30                                                            
+#G 199.4     2  2.8    10                                                 
+#G 385.59    14 5.7    4                                                  
+#G 547.08    7 100     5 E1                                               
++G gamma 0.54708 1.0
+#G BE1W=0.43E-5 16                                                        
+#G 1130.06   10 6.9    6                                                  
+#L 1744.84   12 8+                                                    B   
+#L XREF=CDGJ$                                                             
+#L J$E2 G to 6+, G to 8+                                                  
+#G 386.6     4 100     40E2                       0.0330                  
++G gamma 0.3866 1.0
+#G KC= 0.0254   $LC=0.00593   $MC=0.00137   $                             
+#G 720.1     2 77      45E2                                               
++G gamma 0.7201000000000001 0.77
+#L 1763.8    4 (7)-                                                   H   
+#L XREF=BD$                                                               
+#L J$E1 G to 6+                                                           
+#G 1149.4    4 100       E1                                               
++G gamma 1.1494000000000002 1.0
+#L 1765.86   4  0+                                                        
+#L XREF=AE$                                                               
+#L J$E0 transition to 0+                                                  
+#G 451.3        0.6    LT                                                ?
+#G 519.76    21           E0                                0.39    13    
+#G 905.70    5 32      2  E2                                              
++G gamma 0.9057000000000001 0.32
+#G 1674.34   5 100     3 E2                                               
++G gamma 1.67434 1.0
+#G 1765.8    4            E0                                0.32    6     
+#L 1788.35   6  2+                                                        
+#L XREF=AE$                                                               
+#L J$E0 admixture in G to 2+                                              
+#G 474.2     2  4.7    16 M1+E2+E0                                        
+#G 729.3     4  7.8    16                                                 
+#G 1489.15   11100     11 E2                                              
++G gamma 1.4891500000000002 1.0
+#G 1696.86   6  61     3  M1+E2+E0                                        
+#G 1788.4    4 9.4     16                                                 
++G gamma 1.7884 0.094
+#L 1798.4    4 (5)-                                                       
+#L XREF=BDEF$                                                             
+#L J$DJ=1, E1 G to 6+                                                     
+#G 1184.3    5 65        E1                                               
++G gamma 1.1843 0.65
+#G RI$other: 233 in (A,2NG)                                               
+#G 1498.6    6 100                                                        
++G gamma 1.4986 1.0
+#L 1806      1                                                            
+#L XREF=D$                                                                
+#L J$G to 4+                                                              
+#G 748         100                                                        
++G gamma 0.748 1.0
+#L 1813.9    2 (6)-                                                       
+#L XREF=D$                                                                
+#L J$|DJ=1, E1 G to 5+                                                    
+#G 616.3     5 100        E1                                              
++G gamma 0.6163 1.0
+#L 1833.41   4  2+                                                        
+#L XREF=AE$                                                               
+#L J$E0 admixture in G to 2+                                              
+#G 973.4     4 9       3                                                  
++G gamma 0.9733999999999999 0.09
+#G 1533.93   5 64      3 E2                                               
++G gamma 1.53393 0.64
+#G 1742.09   5 100     3  M1+E2+E0                                        
++G gamma 1.74209 1.0
+#G 1833.35   16 48     6 E2                                               
+#L 1841.7    4  (0+)                                                     ?
+#L XREF=A$                                                                
+#L J$possible E0 transition to 0+                                         
+#G 358.0     4 100     30 E2                      0.0411                  
++G gamma 0.358 1.0
+#G KC= 0.0312   $LC=0.00769   $MC=0.00178   $                             
+#G 1750.2    6 30      10                                                 
++G gamma 1.7502 0.3
+#G 1841.6                 (E0)                                           ?
+#L 1845.49   7  7-                                                    C   
+#L XREF=BCDEJ$                                                            
+#L J$E1 G's to 8+ and 6+                                                  
+#G 101.0        0.25   LT                                                ?
+#G FL=1744.48                                                             
+#G 820.78    11 32.3   15 E1(+M2)                                         
+#G 1231.13   7 100     5 E1                                               
++G gamma 1.23113 1.0
+#L 1861.5    2 (0,1,2)+                                                  ?
+#L XREF=A$                                                                
+#L J$E2 G to 2+. Possible BETA feeding from 1+                            
+#G 377.77    2420      10                                                 
++G gamma 0.37777 0.2
+#G 546.9     3 100     20 E2                      0.0132                  
++G gamma 0.5468999999999999 1.0
+#G KC= 0.0106   $LC=0.00201   $                                           
+#L 1875.2    1  1                                                     K   
+#L XREF=AEK$                                                              
+#G  159.93   3  40     10 E1                                              
+#G E,RI,M$from 164TM EC decay (2.0 M) only                                
+#G 305.9     4 40      10                                                ?
++G gamma 0.30589999999999995 0.4
+#G 1015.15   7 240     LT                                             *   
++G gamma 1.01515 2.4
+#G FL=860.25                                                              
+#G 1783.6    2 100     10                                                 
++G gamma 1.7835999999999999 1.0
+#G 1873.5    5 90      10                                                ?
++G gamma 1.8735 0.9
+#L 1911.26   7  2+                                                        
+#L XREF=AE$                                                               
+#L J$E0 admixture in G to 2+                                              
+#G 524.52    9  15     3 E1                                               
+#G 666.5     3   8     LT (E2)                                        *   
+#G E$level-energy difference=665.2                                        
+#G 1819.78   9 100     5  E2+M1+E0                                        
++G gamma 1.81978 1.0
+#G 1910.92   9 12      1                                                 ?
++G gamma 1.9109200000000002 0.12
+#L 1929      1                                                            
+#L XREF=D$                                                                
+#L J$G to 5+                                                              
+#G 732         100                                                        
++G gamma 0.732 1.0
+#L 1953.92   6  2+                                                        
+#L XREF=AEF$                                                              
+#L J$E0 admixture in G to 2+                                              
+#G 1093.4    5  7      3 E2                                               
+#G 1654.9    4  7      3 E2                                               
+#G 1862.52   5 100     5  E2+M1+E0                                        
++G gamma 1.86252 1.0
+#L 1960.5    3                                                            
+#L XREF=A                                                                 
+#G  383.0    4                                                            
+#G  465.3    4                                                            
+#G  574.2    4                                                            
+#G 1015.15   7                                                        *   
+#G 1661.2    4                                                            
+#G 1869.3    10                                                       *   
+#L 1964.29   12(8-)                                                   c   
+#L XREF=CDJ$                                                              
+#G 118.7     2 70      30                                                 
++G gamma 0.1187 0.7
+#G 219.9     2 100     40                                                 
++G gamma 0.2199 1.0
+#G FL=1744.48                                                             
+#L 1969.6    6 (2+,3-,4+)                                                 
+#L XREF=EF$                                                               
+#L J$G's to 2+ and 4+; population in (D,D')                               
+#G 1671.5    1060      20                                                 
++G gamma 1.6715 0.6
+#G 1877.5    7 100     25                                                 
++G gamma 1.8775 1.0
+#L 1977.12   9  (9)+                                                  B   
+#L XREF=CDJ$                                                              
+#L J$DJ=2, E2 G to 7+                                                     
+#G 431.95    7 100     8 E2                       0.0243                  
++G gamma 0.43195 1.0
+#G KC= 0.0190   $LC=0.00412   $MC=0.00095   $                             
+#G 952.60    7 51      6                                                  
++G gamma 0.9526 0.51
+#L 1984.98   6 7-                23.0 NS   12                         G   
+#L XREF=BCDJ$                                                             
+#L J$M1 G to 8+, LOGFT=4.95 from 6(-)                                     
+#L T         weighted average of 22.7 NS 17, 23.3 NS 16 in                
+#L 164TM EC decay (5.1 M) and 21.6 NS 15 in in-beam study (see (A,2NG))   
+#G 139.44    8  32.5   12 E2                        0.88                  
+#G KC=  0.459   $LC=  0.323   $MC= 0.0774   $NC+= 0.0216  $               
+#G BE2W=1.1 2                                                             
+#G 240.49    3 100     5 M1                        0.247                  
++G gamma 0.24049 1.0
+#G KC=  0.208   $LC= 0.0308   $MC=0.00680   $NC+=0.00193  $               
+#G FL=1744.48   $                                                         
+#G BM1W=0.37E-4 8                                                         
+#G 626.4     8  0.6    4                                                  
+#G 960.4     3 2.8     6                                                  
++G gamma 0.9604 0.027999999999999997
+#G 1370.73   10 12.2   12                                                 
+#L 2002.6    4 (2 TO 5)                                                   
+#L XREF=EF$                                                               
+#L J$G's to 4+ and 3-, and population in (D,D') suggest 2+,3-,4+,5-.      
+#G 568.4     5 100     30                                                 
++G gamma 0.5684 1.0
+#G 1703.5    7 39      20                                                 
++G gamma 1.7035 0.39
+#L 2005.4    4 8+                                                         
+#L XREF=D$                                                                
+#L J$E0 admixture in G to 8+                                              
+#G 298.7     5                                                            
+#G 980.8     5           E2+M1+E0                                         
+#G 1391                                                                  ?
+#L 2018.0    10                                                           
+#L XREF=D$                                                                
+#L J$G to 6+                                                              
+#G 1403.6      100                                                        
++G gamma 1.4036 1.0
+#L 2022.50   8                                                            
+#L XREF=AE$                                                               
+#G 589.0     6 133     42                                                ?
++G gamma 0.589 1.33
+#G E$from (N,N'G) only                                                    
+#G 635.10    25 114    LT                                             *   
+#G 2022.55   8 100     14                                                 
++G gamma 2.02255 1.0
+#L 2025.77   6 (2+)                                                       
+#L XREF=AE$                                                               
+#L J$G's to 0+ and 2+.                                                    
+#G 711.2     4 4       1                                                 ?
++G gamma 0.7112 0.04
+#G 780.1     4  4      1                                                  
+#G 1165.45   5 100     5 E2                                               
++G gamma 1.16545 1.0
+#G 1934.96   15 22     LT (E2)                                        *   
+#G E$level-energy difference=1934.38                                      
+#G 2026      1  15     7                                                 ?
+#G E$from (N,N'G) only                                                    
+#L 2032.1    2                                                           ?
+#L XREF=A$                                                                
+#G 786.06    14 100                                                      ?
+#L 2035.4    2   1                                                    K   
+#L XREF=AEFK$                                                             
+#G 721.1     7 18      9                                                 ?
++G gamma 0.7211000000000001 0.18
+#G 1943.5    4  59     14                                                 
+#G 2035.60   23 100    18                                                 
+#L 2046      2                                                            
+#L XREF=D$                                                                
+#G 1747      2 100                                                        
++G gamma 1.747 1.0
+#L 2054.6    10(9)-                                                   H   
+#L XREF=D$                                                                
+#L J$E1 G to 8+                                                           
+#G 1030.0      100                                                        
++G gamma 1.03 1.0
+#L 2068.9    6 (8)+                                                   D   
+#L XREF=D$                                                                
+#L J$E2+M1 G to 8+, G to 6+                                               
+#G 1044.3      100        E2+M1                                           
++G gamma 1.0443 1.0
+#G 1454.5     7 40                                                        
+#L 2069.4    2                                                            
+#L XREF=AEF                                                               
+#G  635.10   25 107    LT                                             *   
+#G 1978.0    2  100    7                                                  
+#L 2082.1    5                                                            
+#L XREF=D$                                                                
+#L J$G to 7+                                                              
+#G 537.0     5 100                                                        
++G gamma 0.537 1.0
+#L 2082.79   13 12+               0.69 PS   12                        A   
+#L XREF=CDGJ$                                                             
+#L T$from DOPPLER-broadened line shape in COULOMB excitation.             
+#L J$|DJ=2, E2 G to 10+                                                   
+#G 564.73    6 100        E2                      0.0122                  
++G gamma 0.5647300000000001 1.0
+#G KC= 0.0098   $LC=0.00183   $                                           
+#G BE2W=265 70                                                            
+#L 2090.96   11(8-)                                                   F   
+#L XREF=CDJ$                                                              
+#G 277.0     1 30      AP                                                 
++G gamma 0.277 0.3
+#G 346.1     1 25      8                                                  
++G gamma 0.3461 0.25
+#G FL=1744.84                                                             
+#G 546.0     1 100     20                                                 
++G gamma 0.546 1.0
+#L 2093.6    1                                                           ?
+#L XREF=D$                                                                
+#G 1069.0    1 100                                                        
++G gamma 1.069 1.0
+#L 2108.54   11(9)-                                                   C   
+#L XREF=CDJ$                                                              
+#L J$E1 G to 8+                                                           
+#G 1083.95   9 100       E1                                               
++G gamma 1.08395 1.0
+#L 2144      1                                                            
+#L XREF=D$                                                                
+#G 1842      2 100                                                        
++G gamma 1.842 1.0
+#L 2151      1                                                            
+#L XREF=D$                                                                
+#G 1537      1 100                                                        
++G gamma 1.537 1.0
+#L 2163.5    1 (8-)                                                   g   
+#L XREF=BCDJ$                                                             
+#G 178.48    6 100                                                        
++G gamma 0.17848 1.0
+#L 2168.2    3                                                            
+#L XREF=A$                                                                
+#G 142.3     3 100     43                                                 
++G gamma 0.1423 1.0
+#G 1110.5    8 43      29                                                ?
++G gamma 1.1105 0.43
+#G 1869.3    1043      29                                                 
++G gamma 1.8693 0.43
+#L 2173.06   5 0+                                                         
+#L XREF=AE$                                                               
+#L J$E0 transition to 0+                                                  
+#G 298.09    21 8      2                                                  
+#G 339.4       1       LT                                                 
++G gamma 0.3394 0.01
+#G 407.0     1           E0                                 0.07    1     
+#G 595.17    5  62     2  E1                                              
+#G 689.63    6 15      2 E2                                               
++G gamma 0.68963 0.15
+#G E$level-energy difference=689.36                                       
+#G 858.3       2       LT                                                 
++G gamma 0.8583 0.02
+#G 926.6     4            E0                                0.5     1     
+#G 1312.25   14 55     11 E2                                              
+#G E$level-energy difference=1312.80                                      
+#G 2081.54   14 100    5  E2                                              
+#G 2172.5    4           E0                                 1.5     4     
+#L 2184.26   12(10)+                                                  B   
+#L XREF=CDGJ$                                                             
+#L J$M1+E2 G to (10)+, E2 G to 8+                                         
+#G 439.43    8 100     12E2                       0.0232                  
++G gamma 0.43943 1.0
+#G KC= 0.0182   $LC=0.00390   $MC=0.00089   $                             
+#G FL=1744.84                                                             
+#G 666.2     1 62      30M1+E2      1.3     19     0.012 3                
++G gamma 0.6662 0.62
+#G KC=  0.010  3$LC= 0.0015  3$                                           
+#G M,MR$EKC in (A,2NG)                                                    
+#L 2240.2    6                                                           ?
+#L XREF=D$                                                                
+#G 235                                                                   ?
+#G FL=2005.4                                                              
+#G 722         100                                                       ?
++G gamma 0.722 1.0
+#L 2254.64   12                                                           
+#L XREF=AE$                                                               
+#G 1955.20   11 100                                                       
+#L 2261.23   13(10-)                                                  c   
+#L XREF=CDJ$                                                              
+#G 152.70    1217      7                                                  
++G gamma 0.1527 0.17
+#G 296.93    7 100     6                                                  
++G gamma 0.29693 1.0
+#L 2278.33   6  2+                                                        
+#L XREF=A$                                                                
+#L J$E0 admixture in G to 2+                                              
+#G  318.6    3                                                            
+#G 794.6      5 12      4M1+E2+E0                                         
+#G 844.7     1 12      AP                                                 
++G gamma 0.8447 0.12
+#G E$level-energy difference=844.35                                       
+#G 963.9     3 21      4 M1+E2+E0                                        ?
++G gamma 0.9639 0.21
+#G 1417.96   8  100    8 E2                                               
+#G 2186.4    4  21     4  M1+E2+E0                                        
+#G 2278.09   12 46     5 (E2)                                             
+#L 2279      1                                                            
+#L XREF=DF(2288)$                                                         
+#G 534       1 100                                                        
++G gamma 0.534 1.0
+#G FL=1744.84                                                             
+#L 2337        (3-)                                                       
+#L XREF=F$                                                                
+#L J$probable E3 excitation in (D,D')                                     
+#L 2337.3    1  (9-)                                                  K   
+#L XREF=D$                                                                
+#G 1312.7    1 100                                                        
++G gamma 1.3127 1.0
+#L 2356      2                                                            
+#L XREF=D$                                                                
+#G 1742      2 100                                                        
++G gamma 1.742 1.0
+#L 2363.20   13(9-)                                                   G   
+#L XREF=CDJ$                                                              
+#G 199.75    9 100                                                        
++G gamma 0.19975 1.0
+#L 2370.5    3                                                            
+#L XREF=B$                                                                
+#G 385.51    25100                                                        
++G gamma 0.38550999999999996 1.0
+#L 2404      1   1                                                    K   
+#L XREF=K                                                                 
+#G 2313         183    53                                                 
+#G 2404         100                                                       
+#L 2408.2    2 (11)-                                                  C   
+#L XREF=CDJ$                                                              
+#L J$E1 G to 10+                                                          
+#G 890.1     1 100       E1                                               
++G gamma 0.8901 1.0
+#L 2416      1   1                                                    K   
+#L XREF=K                                                                 
+#G 2325          83    20                                                 
+#G 2416         100                                                       
+#L 2421.09   12(10)-                                                  F   
+#L XREF=CDJ$                                                              
+#L J$E1 G to (9)+                                                         
+#G 330.2     1  45     7                                                  
+#G 443.9     1 100     10 E1                                              
++G gamma 0.44389999999999996 1.0
+#L 2444.51   6  (2+)                                                      
+#L XREF=A$                                                                
+#L J$(E1) G's to 1- and (3-)                                              
+#G  484.0    4                                                            
+#G  729.3    4  7      1                                                  
+#G 875.43    19 7      1  (E1)                                            
+#G 1057.81   5 100     4  (E1)                                            
++G gamma 1.05781 1.0
+#G 1584.0    4  5.8    15                                                 
+#G 2353.0    2  26     LT                                             *  ?
+#L 2448.1    5                                                            
+#L XREF=D$                                                                
+#G 1423.5    5  100                                                       
+#L 2462.7    2 10+                                                    D   
+#L XREF=D$                                                                
+#L J$E0 admixture in G to 10+                                             
+#G 944.6     1 100       E2+M1+E0                                         
++G gamma 0.9446 1.0
+#L 2470      1                                                        H   
+#L XREF=D$                                                                
+#G 952          100                                                       
+#L 2479.44   11(11)+                                                  B   
+#L XREF=CDJ$                                                              
+#L J$E2 G to (9)+                                                         
+#G 502.33    6 100       E2                       0.0164                  
++G gamma 0.5023299999999999 1.0
+#G KC= 0.0130   $LC=0.00258   $                                           
+#G 961.3       24                                                        ?
++G gamma 0.9612999999999999 0.24
+#G E$from (A,2NG) only                                                    
+#L 2483      2                                                            
+#L XREF=D$                                                                
+#G 1869      2 100                                                        
++G gamma 1.869 1.0
+#L 2519.2    3 (12+)                                                  I   
+#L XREF=CDJ$                                                              
+#L J$E2 G to 10+, M1(+E2) G to 12+                                        
+#G 279                                                                   ?
+#G 334.4     4  81     33                                                 
+#G 436.5     5 100     15 M1(+E2)  0.35    LT                             
++G gamma 0.4365 1.0
+#G FL=2082.79                                                             
+#G M,MR$EKC in (A,2NG)                                                    
+#G 1001.2    5  67        E2                                              
+#L 2541.0    2                                                            
+#L XREF=A$                                                                
+#G 666.5     3  50     LT                                             *   
+#G 775.47    22 70     20                                                ?
+#G 2449.3    2 100     10                                                 
++G gamma 2.4493 1.0
+#L 2577      1   1                                                    K   
+#L XREF=K                                                                 
+#G 2486         148    28                                                 
+#G 2577         100                                                       
+#L 2583.3    2 (10-)                                                  g   
+#L XREF=CDJ$                                                              
+#G 220.1     1 100     25                                                 
++G gamma 0.2201 1.0
+#G 419.9     6 8       AP                                                ?
++G gamma 0.4199 0.08
+#L 2592      1                                                            
+#L XREF=D$                                                                
+#G 1567      1 100                                                        
++G gamma 1.567 1.0
+#L 2631.19   15(12-)                                                  c   
+#L XREF=CDJ$                                                              
+#G 369.96    6 100                                                        
++G gamma 0.36995999999999996 1.0
+#L 2640      1   1                                                    K   
+#L XREF=K                                                                 
+#G 2549          71    7                                                  
+#G 2640         100                                                       
+#L 2702.56   15 14+                                                   A   
+#L XREF=CDGJ$                                                             
+#G 619.76    11100                                                        
++G gamma 0.61976 1.0
+#G FL=2082.79                                                             
+#L 2733.3    5 (12+)                                                  B   
+#L XREF=CGJ$                                                              
+#G 549.0     4 100                                                        
++G gamma 0.549 1.0
+#L 2747      1  1                                                     K   
+#L XREF=K                                                                 
+#G 2656          46    20                                                 
+#G 2747         100                                                       
+#L 2762      1  1                                                     K   
+#L XREF=K                                                                 
+#G 2671          93    20                                                 
+#G 2762         100                                                       
+#L 2800.41   15(12-)                                                  F   
+#L XREF=CJ$                                                               
+#G 379.32    7 100                                                        
++G gamma 0.37932 1.0
+#L 2815.2    2  13-                                                   C   
+#L XREF=CDJ$                                                              
+#L J$DJ=1, E1(+M2) G to 12+                                               
+#G 407.1     4 50      25                                                 
++G gamma 0.4071 0.5
+#G 732.4     1 100     16 E1(+M2)   -0.040    26                          
++G gamma 0.7323999999999999 1.0
+#G FL=2082.79                                                             
+#G M,MR$from G(THETA,lin pol) in (9BE,5NG)                                
+#L 2822.1    3 (11-)                                                  G   
+#L XREF=CDJ$                                                              
+#G 239.0     3 100     25                                                 
++G gamma 0.239 1.0
+#G 458.5     4 100     50                                                 
++G gamma 0.4585 1.0
+#L 2823.3    3                                                           ?
+#L XREF=A$                                                                
+#G 753.4     4 60      20                                                 
++G gamma 0.7534 0.6
+#G FL=2069.4                                                              
+#G 797.9     3 100     20                                                 
++G gamma 0.7978999999999999 1.0
+#G  862.7    4                                                            
+#G 1876.9    7 100     40                                                 
++G gamma 1.8769 1.0
+#L 2874.8    2  (14+)                                                 I   
+#L XREF=CGJ$                                                              
+#L J$stretched quadrupole G to 12+                                        
+#G 355.7     4 23      13                                                 
++G gamma 0.3557 0.23
+#G 791.98    7 100     7                                                  
++G gamma 0.79198 1.0
+#G FL=2082.79                                                             
+#L 2933      1  1                                                     K   
+#L XREF=K                                                                 
+#G 2842         132    26                                                 
+#G 2933         100                                                       
+#L 2966      1  1                                                     K   
+#L XREF=K                                                                 
+#G 2875         194    35                                                 
+#G 2966         100                                                       
+#L 3018      1  1                                                     K   
+#L XREF=K                                                                 
+#G 3018         100                                                       
+#L 3027.2    5 (13+)                                                  B   
+#L XREF=CJ$                                                               
+#G 547.8     4 100                                                        
++G gamma 0.5478 1.0
+#L 3028.8    2                                                            
+#L XREF=A$                                                                
+#G 1460.20   16100     13                                                 
++G gamma 1.4602 1.0
+#G 1714.1    2 52      3                                                  
++G gamma 1.7141 0.52
+#G 1969.6    5 27      7                                                  
++G gamma 1.9696 0.27
+#L 3066.6    4 (14-)                                                  c   
+#L XREF=CJ$                                                               
+#G 435.4     3 100                                                        
++G gamma 0.43539999999999995 1.0
+#L 3078.9    5 (12-)                                                  g   
+#L XREF=CDJ$                                                              
+#G 256.8     4 100                                                        
++G gamma 0.25680000000000003 1.0
+#G FL=2822.1                                                              
+#G 496                                                                    
+#L 3133      1  1                                                     K   
+#L XREF=K                                                                 
+#G 3042          47    14                                                 
+#G 3133         100                                                       
+#L 3179      1  1                                                     K   
+#L XREF=K                                                                 
+#G 3088          40    11                                                 
+#G 3179         100                                                       
+#L 3220      1  1                                                     K   
+#L XREF=K                                                                 
+#G 3129         154    27                                                 
+#G 3220         100                                                       
+#L 3244.3    3 (14-)                                                  F   
+#L XREF=CJ$                                                               
+#G 443.9     2 100                                                        
++G gamma 0.44389999999999996 1.0
+#L 3263.1    2 16+                                                    I   
+#L XREF=CDGJ$                                                             
+#L J$DJ=2, E2 G to 14+                                                    
+#G 388.4     3 22      7                                                  
++G gamma 0.38839999999999997 0.22
+#G 560.50    11100     10 E2                      0.0125                  
++G gamma 0.5605 1.0
+#G KC= 0.0100   $LC=0.00187   $                                           
+#L 3267.0    6 (14+)                                                  B   
+#L XREF=CGJ$                                                              
+#G 533.7     3 100                                                    *   
++G gamma 0.5337000000000001 1.0
+#L 3281.0    2 (15-)                                                  C   
+#L XREF=CJ$                                                               
+#G 465.8     1 100     14                                                 
++G gamma 0.4658 1.0
+#G 578.4     6 48      25                                                 
++G gamma 0.5784 0.48
+#L 3302.9    3 (5-,6-,7-)                                                 
+#L XREF=B                                                                 
+#G 1139.5    3  100    10                                                 
+#G 1317.6    10  26    16                                                 
+#L 3351.8    5 (13-)                                                  G   
+#L XREF=CJ$                                                               
+#G 273.2        83                                                        
+#G 529.7     4 100                                                        
++G gamma 0.5297000000000001 1.0
+#G FL=2822.1                                                              
+#L 3376.1    11  (12+)             170 NS  GE                         E   
+#L XREF=C                                                                 
+#G 554                                                                    
+#G FL=2822.1                                                              
+#L 3408.1    3                                                            
+#L XREF=A$                                                                
+#G 1840.8    7 33      16                                                 
++G gamma 1.8408 0.33
+#G 1974.5    5 100     17                                                 
++G gamma 1.9745 1.0
+#G 3108.2    4 42      9                                                  
++G gamma 3.1081999999999996 0.42
+#G 3315.6    5 50      8                                                 ?
++G gamma 3.3156 0.5
+#L 3411.2    4 (16+)                                                  A   
+#L XREF=CGJ$                                                              
+#G 708.6     3 100                                                        
++G gamma 0.7086 1.0
+#L 3458      1  1                                                     K   
+#L XREF=K                                                                 
+#G 3367         2.9E2  12                                                 
+#G 3458         100                                                       
+#L 3518.6    6 (15+)                                                  B   
+#L XREF=CJ$                                                               
+#G 491.4     4 100                                                        
++G gamma 0.4914 1.0
+#L 3534.60   7  (2+)                                                     ?
+#L XREF=A                                                                 
+#L J$(E2) G to 0+                                                         
+#G 1361.53   5  100    5  (E2)                                            
+#G 1623.9    3   71    9                                                 ?
+#G 2052.5    5   36    LT                                             *  ?
+#L 3541      1  1,2                                                   K   
+#L XREF=K                                                                 
+#G 3541         100                                                       
+#L 3544.1    13 (13+)                                                 e   
+#L XREF=C                                                                 
+#G 168                                                                    
+#L 3551      1  1                                                     K   
+#L XREF=K                                                                 
+#G 3460          58    24                                                 
+#G 3551         100                                                       
+#L 3559.6    5 (16-)                                                  c   
+#L XREF=CJ$                                                               
+#G 493.0     3 100                                                        
++G gamma 0.493 1.0
+#L 3602      1  1                                                     K   
+#L XREF=K                                                                 
+#G 3511          46    15                                                 
+#G 3602         100                                                       
+#L 3629.65   10 2+                                                        
+#L XREF=A$                                                                
+#L J$E2 G to 0+                                                           
+#G 1350.9    5 7       4                                                  
++G gamma 1.3509 0.07
+#G FL=2278.33                                                             
+#G 2052.5    5 7       LT                                             *  ?
++G gamma 2.0525 0.07
+#G 2383.61   9 100     5  E2                                              
++G gamma 2.38361 1.0
+#G 2570.9    5  10     1                                                  
+#L 3733.1    13 (14+)                                                 E   
+#L XREF=C                                                                 
+#G 189                                                                    
+#G FL=3544.1                                                              
+#G 357                                                                    
+#L 3752      1  1                                                     K   
+#L XREF=K                                                                 
+#G 3752         100                                                       
+#L 3760.0    4 (16-)                                                  F   
+#L XREF=CJ$                                                               
+#G 515.7     3 100                                                        
++G gamma 0.5157 1.0
+#L 3768.20   11(1+,2+)                                                    
+#L XREF=A$                                                                
+#L J$(E2) G to 2+, G to 0+                                                
+#G 1894.4    4  50     12                                                 
+#G E$level-energy difference=1892.9                                       
+#G 1934.96   15 312    LT (E2)                                        *   
+#G 2353.0    2  225    LT                                             *  ?
+#G FL=1416.56                                                             
+#G 2521.77   14 100    12                                                 
+#G FL=1246.04                                                             
+#L 3768.6    2 (18+)                                                  I   
+#L XREF=CDJ$                                                              
+#G 505.50    6 100                                                        
++G gamma 0.5055 1.0
+#L 3800.7    6 (16+)                                                  B   
+#L XREF=CJ$                                                               
+#G 533.7     3 100                                                    *   
++G gamma 0.5337000000000001 1.0
+#L 3804.9    5 (17-)                                                  C   
+#L XREF=CJ$                                                               
+#G 523.9     4 100                                                        
++G gamma 0.5239 1.0
+#L 3941.2    15 (15+)                                                 e   
+#L XREF=C                                                                 
+#G 208                                                                    
+#G 397                                                                    
+#G FL=3544.1                                                              
+#L 3944      1  1                                                     K   
+#L XREF=K                                                                 
+#G 3944         100                                                       
+#L 4017.8    7 (17+)                                                  B   
+#L XREF=CJ$                                                               
+#G 499.2     4 100                                                        
++G gamma 0.4992 1.0
+#L 4105.6    7 (18-)                                                  c   
+#L XREF=CJ$                                                               
+#G 546.0     5 100                                                        
++G gamma 0.546 1.0
+#L 4121.2    5 (18+)                                                  A   
+#L XREF=CGJ$                                                              
+#G 710.0     3 100                                                        
++G gamma 0.71 1.0
+#L 4167.9    15 (16+)                                                 E   
+#L XREF=C                                                                 
+#G 227                                                                    
+#G FL=3941.2                                                              
+#G 435                                                                    
+#L 4344.4    6 (18-)                                                  F   
+#L XREF=CJ$                                                               
+#G 584.4     4 100                                                        
++G gamma 0.5844 1.0
+#L 4345.7    4 (20+)                                                  I   
+#L XREF=CJ$                                                               
+#G 577.1     3 100                                                        
++G gamma 0.5771000000000001 1.0
+#G FL=3768.6                                                              
+#L 4364.3    8 (18+)                                                  B   
+#L XREF=C$                                                                
+#G 563.6     5 100                                                        
++G gamma 0.5636 1.0
+#L 4384.9    5 (19-)                                                  C   
+#L XREF=CJ$                                                               
+#G 580.0     2 100                                                        
++G gamma 0.58 1.0
+#L 4411.6    16 (17+)                                                 e   
+#L XREF=C                                                                 
+#G 244                                                                    
+#G 470                                                                    
+#G FL=3941.2                                                              
+#L 4590.0    8 (19+)                                                  B   
+#L XREF=CJ$                                                               
+#G 572.2     2 100                                                        
++G gamma 0.5722 1.0
+#L 4671.7    16 (18+)                                                 E   
+#L XREF=C                                                                 
+#G 260                                                                    
+#G 504                                                                    
+#L 4702.0    8 (20-)                                                  c   
+#L XREF=CJ$                                                               
+#G 596.4     3 100                                                        
++G gamma 0.5963999999999999 1.0
+#L 4868.4    6 (20+)                                                  A   
+#L XREF=CJ$                                                               
+#G 747.2     4 100                                                        
++G gamma 0.7472000000000001 1.0
+#L 4946.7    17 (19+)                                                 e   
+#L XREF=C                                                                 
+#G 275                                                                    
+#G 535                                                                    
+#L 4987.3    12(20-)                                                  F   
+#L XREF=J                                                                 
+#G 642.9        100                                                       
+#G FL=4344.4                                                              
+#L 5000.1    6 (22+)                                                  I   
+#L XREF=CJ$                                                               
+#G 654.4     4 100                                                        
++G gamma 0.6544 1.0
+#G FL=4345.7                                                              
+#L 5018.2    7 (21-)                                                  C   
+#L XREF=CJ$                                                               
+#G 633.3     4 100                                                        
++G gamma 0.6333 1.0
+#L 5230.5    9 (21+)                                                  B   
+#L XREF=C$                                                                
+#G 640.5     4 100                                                        
++G gamma 0.6405 1.0
+#L 5236.6    18 (20+)                                                 E   
+#L XREF=C                                                                 
+#G 290                                                                    
+#G 565                                                                    
+#L 5349.9    9 (22-)                                                  c   
+#L XREF=CJ$                                                               
+#G 647.9     4 100                                                        
++G gamma 0.6479 1.0
+#L 5539.9    18 (21+)                                                 e   
+#L XREF=C                                                                 
+#G 303                                                                    
+#G 593                                                                    
+#L 5651.5    8 (22+)                                                  A   
+#L XREF=C$                                                                
+#G 783.1     4 100                                                        
++G gamma 0.7831 1.0
+#L 5678      2 (22-)                                                  F   
+#L XREF=J                                                                 
+#G 691          100                                                      ?
+#L 5704.1    11(23-)                                                  C   
+#L XREF=CJ$                                                               
+#G 685.9     8 100                                                        
++G gamma 0.6859 1.0
+#L 5729.1    8 (24+)                                                  I   
+#L XREF=CJ$                                                               
+#G 729.0     5 100                                                        
++G gamma 0.729 1.0
+#L  5856.2   19 (22+)                                                 E   
+#L XREF=C                                                                 
+#G 316                                                                    
+#G 620                                                                    
+#L     6052.913(24-)                                                  c   
+#L XREF=CJ$                                                               
+#G 703                                                                    
+#L     6185.019(23+)                                                  e   
+#L XREF=C$                                                                
+#G 329                                                                    
+#G 645                                                                    
+#L     6442.115(25-)                                                  C   
+#L XREF=C$                                                                
+#G 738                                                                    
+#L     6525.220(24+)                                                  E   
+#L XREF=C$                                                                
+#G 340                                                                    
+#G 669                                                                    
+#L     6529.113(26+)                                                  I   
+#L XREF=C$                                                                
+#G 800                                                                    
+#L     6814.917(26-)                                                  c   
+#L XREF=C$                                                                
+#G 762                                                                    
+#L     6876.920(25+)                                                  e   
+#L XREF=C$                                                                
+#G 352                                                                    
+#G FL=6525.2                                                              
+#G 692                                                                    
+#L     7238.118(27-)                                                  C   
+#L XREF=C$                                                                
+#G 796                                                                    
+#L     7239.521(26+)                                                  E   
+#L XREF=C$                                                                
+#G 362                                                                    
+#G 714                                                                    
+#G FL=6525.2                                                              
+#L     7399.116(28+)                                                  I   
+#L XREF=C$                                                                
+#G 870                                                                    
+#G FL=6529.1                                                              
+#L     7613.121(27+)                                                  e   
+#L XREF=C$                                                                
+#G 373                                                                    
+#G FL=7239.5                                                              
+#G 737                                                                    
+#L     7640.920(28-)                                                  c   
+#L XREF=C$                                                                
+#G 826                                                                    
+#L     7997.822(28+)                                                  E   
+#L XREF=C$                                                                
+#G 385                                                                    
+#G 758                                                                    
+#G FL=7239.5                                                              
+#L     8095.121(29-)                                                  C   
+#L XREF=C$                                                                
+#G 857                                                                    
+#G FL=7238.1                                                              
+#L     8338.119(30+)                                                  I   
+#L XREF=C$                                                                
+#G 939                                                                    
+#L     8395.122(29+)                                                  e   
+#L XREF=C$                                                                
+#G 397                                                                    
+#G 782                                                                    
+#L     8533.922(30-)                                                  c   
+#L XREF=C$                                                                
+#G 893                                                                    
+#L     8802.423(30+)                                                  E   
+#L XREF=C$                                                                
+#G 407                                                                    
+#G 805                                                                    
+#L     9016.123(31-)                                                  C   
+#L XREF=C$                                                                
+#G 921                                                                    
+#L     9224.124(31+)                                                  e   
+#L XREF=C$                                                                
+#G 829                                                                    
+#L     9342.122(32+)                                                  I   
+#L XREF=C$                                                                
+#G 1004                                                                   
+#L     9491.924(32-)                                                  c   
+#L XREF=C$                                                                
+#G 958                                                                    
+#L     9657.425(32+)                                                  E   
+#L XREF=C$                                                                
+#G 855                                                                    
+#L    10001.125(33-)                                                  C   
+#L XREF=C$                                                                
+#G 985                                                                    
+#L    10410.124(34+)                                                  I   
+#L XREF=C$                                                                
+#G 1068                                                                   
+#L      10515 3(34-)                                                  c   
+#L XREF=C$                                                                
+#G 1023                                                                   
+#L      11049 3(35-)                                                  C   
+#L XREF=C$                                                                
+#G 1048                                                                   
+#L      11549 3(36+)                                                  I   
+#L XREF=C$                                                                
+#G 1139                                                                   
+#                                                                         
+
+#164ER    164HO B- DECAY (29 M)         1973KAZW,1966JO07,1954BR96NDS01    200107
+#  164HO B- DECAY (29 M)         1973KAZW,1966JO07,1954BR96NDS01    200107
+#H TYP=FUL$AUT=BALRAJ SINGH$CIT=NDS 93, 243 (2001)$CUT=15-May-2001$       
+#  T1/2: 1972KA19, 1972DR04, 1966JO07. Others: 1966SE07, 1961WE02,        
+#  1954HA19, 1954BR96, 1950WI13, 1950WA12, 1938PO05                       
+#  G, k-x ray: 1973KAZW, 1972DR04, 1968DA23, 1966JO07. Others:            
+#  1972KA19, 1971PA02, 1966SE07, 1957MI67, 1954BR96                       
+#  B-, B+, BG coin: 1966SE07, 1954BR96. Others: 1966JO07, 1950WI13        
+#  I(B+)/I(B-)<5E-4 (1954BR96)                                            
+#  BG(T): 1970MO39, 1968SE02, 1963FO02, 1954BR96                          
+#  GG: 1973KAZW, 1966SE07, 1954BR96.                                      
+#  CE: 1966JO07, 1957MI67, 1954BR96                                       
+#  I(EC) (73 level in 164DY)/I(B-) to 91 level=1.49 11 (calculated        
+#  by 1974BU30 from data of 1973KAZW)                                     
+#  ^X-ray and G-ray intensities:                                          
+#  I(XKA1, HO)=1000 (1973KAZW), 655 (1972DR04)                            
+#  I(XKA1, DY)=1280 25 (1973KAZW), 1356 (1972DR04)                        
+#  I(XKA1, ER)=76 2 (1973KAZW), 76 (1972DR04)                             
+#  I(73G in 164DY)=91 6 (1973KAZW), 81 (1972DR04)                         
+#  I(91G in 164ER)=127 8, 103 (1972DR04)                                  
+#L J$From adopted levels                                                  
+#B IB$From %B-=40 5 and I(B-) (to 91 level)/I(B-)=0.31                    
+#B from I(CE)(91G)/I(B-)=25.1 (1966JO07) and CC(91G)=4.2                  
+#P 0           1+                29 M      1               962.8    23    
++B beta-7.659E-4 0.01
++B beta- 0.2867 0.12
++G gamma 0.09139 0.057
+

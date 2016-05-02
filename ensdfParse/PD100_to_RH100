@@ -1,0 +1,38 @@
+#100RH    100PD EC DECAY (3.63 D)       1992SI11,1965EV05,1977KAXX08NDS    200802
+#  100PD EC DECAY (3.63 D)       1992SI11,1965EV05,1977KAXX08NDS    200802
+#H TYP=FUL$AUT=BALRAJ SINGH$CIT=NDS 109, 297 (2008)$CUT=26-Dec-2007$      
+#  1992Si11: measured G, GG                                               
+#  G, CE: 1965Ev05, 1977KaXX, 1964Ro20, 1964An07, 1970An30, 1974Si18,     
+#  1974Ko23, 1964Ko04, 1953Ma64. 1977KaXX mention CE measurements with a  
+#  high resolution magnetic spectrometer (0.1% in momentum), but no       
+#  detailed results about subshell ratios and conversion coefficients are 
+#  available                                                              
+#  CE G coin: 1965Ev05                                                    
+#  GG(THETA): 1971Re06, 1965Ev05, 1965Ma34                                
+#  GG(THETA,H,T): 1971Re06, 1965Ma34, 1966Ma54. Others (dealing           
+#  mainly with hyperfine studies and electric quadrupole interaction      
+#  studies): 1993Kr26, 1993Kh11, 1993Kh10, 1990Kl05, 1990De32, 1987Bh06,  
+#  1987Kl04, 1987Li19, 1986Va19, 1986Ho17, 1985Me17, 1983Tr17, 1982Ar21,  
+#  1979Vi12, 1975Kr15, 1975Kr13, 1973Ha61, 1971KiZL, 1970Ko14, 1970Re10,  
+#  1966Ma64, 1966Ma54                                                     
+#  GG(T): 1979En03, 1971Re06, 1965Ma34, 1965Ev05                          
+#  T1/2 of 100PD: 1968Pa24. Others: 1972Ch13, 1964An07, 1964Ro20, 1948Li03
+#  1995Sc50: cross section for production of 100PD in 50CR(58NI,^X)       
+#  reaction                                                               
+#  Calculated B+/EC ratio: 1988Su16                                       
+#  Total decay energy deposit of 352 keV {I30} calculated by RADLIST      
+#  code is in agreement with expected value of 358 keV {I21}              
+#G E,RI$From 1992Si11                                                     
+#G CC$The experimental conversion coefficients from 1970An30 are          
+#G relative to the 84G treated as M1 with KC=0.492                        
+#L J$From 'adopted levels'                                                
+#P  0.0         0+                  3.63 D 9               358      21    
++B beta+ 8.547E-4 0.01
++B beta+ 8.19E-4 0.0014000000000000002
++B beta+ 8.498E-4 0.0
++B beta+ 8.449999999999999E-4 0.0012
++B beta+ 8.449999999999999E-4 0.0012
++G gamma 0.0155 6.24E-4
++B beta+ 8.43E-4 0.0012
++B beta+ 8.43E-4 0.0012
+

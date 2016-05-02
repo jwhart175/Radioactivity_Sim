@@ -1,0 +1,15 @@
+#133TE    248CM SF DECAY                2001BH06                  11NDS    201104
+#  248CM SF DECAY                2001BH06                  11NDS    201104
+#H TYP=FUL$AUT=YU. KHAZOV AND A. RODIONOV, F.G. KONDEV$                   
+#H CIT=NDS 112, 855 (2011)$CUT=31-Oct-2010$                               
+#  2001Bh06: {+248}Cm(SF); measured E|g, I|g, |g|g. {+133}Te; deduced     
+#  levels, J|p, configurations. GAMMASPHERE array.                        
+#G E$From fig. 2 of 2001Bh06                                              
+#L E$From a least-squares fit to E|g's, |DE|g=1 keV assumed by evaluators 
+#L J,T$From 'adopted levels'                                              
+#L $Configurations from shell-model calculations by 2001Bh06              
+#L BAND(A)$ Multiplet of CONF=|p(g{-7/2}{+2})|n(h{-11/2}{+-1}).           
+#L BAND(B)$ Multiplet of CONF=|p(g{-7/2}h{-11/2})|n(h{-11/2}{+-1}).       
+#P  0.0         0+               3.40E+5 Y 4                              
+CM248 TE133 SF 0.0 1.0729348992E13 0.0839
+

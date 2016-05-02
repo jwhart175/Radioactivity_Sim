@@ -1,0 +1,96 @@
+# 91Y     91SR B- DECAY                 1977HO12,1973HA11,1969KN0113NDS    201310
+#  91SR B- DECAY                 1977HO12,1973HA11,1969KN0113NDS    201310
+#H TYP=FUL$AUT=Coral M. Baglin$CIT=NDS 114, 1293 (2013)$CUT=1-Sep-2013$   
+#  Others: 1953Am08, 1980De02, 1983Ia02, 2001NA43 (750G AND 1024G ONLY).  
+#  1977Ho12: GE(LI), FWHM=2 to 3 KEV at 1333; NAI(TL); measured EG, RI,   
+#  GG coin, GG(|q), conversion electron spectra (SI(LI)                   
+#  detector).                                                             
+#  973Ha11: measured B- spectrum, conversion electrons with magnetic      
+#  spectrometer.                                                          
+#B E         From KURIE plot analysis of B- spectrum (1953Am08), except as
+#B noted.                                                                 
+#G CC$ FROM BrIcc v2.2b (20-Jan-2009) 2008Ki07, "Frozen Orbitals" appr.   
+#G E         From 1977Ho12, if not indicated otherwise.                   
+#G RI        From 1977Ho12.                                               
+#G M         From EKC, if not indicated otherwise.                        
+#G E(A,B,D)  From 1969Kn01. These values are used by 1977Ho12 as secondary
+#G standards.                                                             
+#G E(A),RI(A)$Singles spectrum shows only one peak with RI=33 2.          
+#G Data for the components of this multiplet                              
+#G are derived from coincidence measurements.                             
+#G M(D),MR(D)$A2=+0.20 2, A4=+0.10 5 for 620G-926G(|q) (1977Ho12). This   
+#G allows MR=+0.05 7 and -1.81 +23-27 for 5/2-5/2-1/2 cascade;            
+#G EKC is consistent with both of these solutions.                        
+#L           The decay scheme is from 1977Ho12. A very doubtful level near
+#L 2379 KEV, deexcited by tentative 2378.6G, 1453G and 1073.3G,           
+#L was suggested in 1977Ho12 but not included in their decay              
+#L scheme, so it is not adopted here.  Note that decay scheme appears to  
+#L be incomplete, since Q |* BR=2699 5 cf. total energy release of 2346 47
+#L based on decay scheme.                                                 
+#L E         FROM LEAST-SQUARES FIT TO EG.                                
+#L J,T       From Adopted Levels.                                         
+#P 0.0         5/2+              9.65 H    6              2699      5     
+SR91 Y91 beta- 2.699 34740.0 1.0
++B beta- 1.1282 0.28600000000000003
++B beta- 0.8198 0.034
++G gamma 0.6528999999999999 0.08040000000000001
++G gamma 0.2726 0.0026130000000000003
++G gamma 0.9258 0.038525000000000004
++B beta- 0.5772 0.006500000000000001
++G gamma 0.2612 0.004489000000000001
++G gamma 0.5338999999999999 7.705E-4
++G gamma 0.6313 0.005561
++B beta- 0.5246000000000001 0.251
++G gamma 0.1185 7.37E-4
++G gamma 0.37989999999999996 0.001474
++G gamma 0.6523 0.029815000000000005
++G gamma 0.7497999999999999 0.23684500000000003
++G gamma 1.3053 1.675E-4
++B beta- 0.451 0.00191
++G gamma 0.8208 0.001608
++G gamma 1.4738 0.001675
++B beta- 0.4198 0.0183
++G gamma 0.35910000000000003 5.025E-4
++G gamma 0.6201 0.017755
++G gamma 0.8929 7.034999999999999E-4
++G gamma 1.5459 6.7E-4
++B beta- 0.4053 0.348
++G gamma 0.2747 0.0103515
++G gamma 0.393 5.025E-4
++G gamma 0.653 0.0036850000000000003
++G gamma 1.0243 0.335
++B beta- 0.2402 0.0037199999999999998
++G gamma 0.5067 4.3550000000000007E-4
++G gamma 0.7936 6.365E-4
++G gamma 1.0546 0.0022445000000000004
++G gamma 1.3274000000000001 4.02E-4
++B beta- 0.2067 0.0208
++G gamma 0.4865 8.04E-4
++G gamma 0.5207999999999999 3.35E-4
++G gamma 0.5931000000000001 9.38E-4
++G gamma 0.7614 0.005762000000000001
++G gamma 0.8797 0.001876
++G gamma 1.1408 0.001273
++G gamma 1.4134 0.009815500000000001
++B beta- 0.1829 6.7E-4
++G gamma 0.8237000000000001 6.7E-4
++B beta- 0.15419999999999998 0.0148
++G gamma 0.6267999999999999 4.3550000000000007E-4
++G gamma 0.6608999999999999 0.001005
++G gamma 0.9013 9.38E-4
++G gamma 1.2809000000000001 0.0093465
++G gamma 1.5535999999999999 1.675E-4
++G gamma 1.6514000000000002 0.0029145000000000004
++B beta- 0.12819999999999998 0.0023799999999999997
++G gamma 0.9739 4.02E-4
++G gamma 1.3535 2.345E-4
++G gamma 1.6268 1.34E-4
++G gamma 1.724 0.001608
++B beta- 0.083 1.6E-4
++G gamma 1.4864000000000002 1.34E-4
++G gamma 2.4123 4.355E-5
++B beta- 0.0339 4.7E-4
++G gamma 0.9922000000000001 4.3550000000000007E-4
++G gamma 1.646 3.0149999999999998E-5
++G gamma 2.016 4.02E-5
+

@@ -1,0 +1,33 @@
+#170ER    170TM EC DECAY                1990EGZY,1986VE01,1985ME1802NDS    200211
+#  170TM EC DECAY                1990EGZY,1986VE01,1985ME1802NDS    200211
+#H TYP=FUL$AUT=CORAL M. BAGLIN$CIT=NDS 96, 611 (2002)$CUT=15-Aug-2002$    
+#  Can't obtain copy of 1968CrZY for %IE information.                     
+#  Others: 1988KUZM, 1969HA20, 1969NE02, 1968CRZY.                        
+#  170TM sources typically are produced by 169TM(N,G).                    
+#  See also 170TM B- decay.                                               
+#G           I(XK Er) data: 0.089% 5 (1990EGZY);                          
+#G I(XK Er)/I(84G Yb)=0.0344 14 (1970MO07), 0.0362 7                      
+#G (1985ME18), 0.0470 9 (1986VE01) which, combined with adopted           
+#G I(84G)=2.48% 6, gives I(XK Er)=0.085% 3, 0.090% 2,                     
+#G 0.119% 2, respectively; I(K{-|a1} x ray)=0.061% 2 (1988KUZM) [so       
+#G I(XK)=0.122% 4 if I(K|a{-1}| x ray)/I(XK)=0.509].                      
+#G Others: 1969HA20, 1969NE02. Source of discrepancy between data is      
+#G unclear.                                                               
+#L E         FROM MEASURED EG.                                            
+#L J         FROM ADOPTED LEVELS.                                         
+#G RI        IG relative to I(84G, YB)=100.                               
+#N 18.92                 0.00131 10 763.36                                
+#N NR$from branching and I(79G)=0.00347% 19 (the latter from              
+#N I(79G)/I(84G YB)=0.00140 7 and adopted I(84G)=2.48% 6).                
+#N BR        based on I(XK ER), assuming |w{-K}=0.947,                    
+#N I(|e)=0.0297% 19 to 79 level (see comment on branch to 79 level),      
+#N and KC(79G), CC(79G), |eK(g.s.) and |eK(79 level) from theory.         
+#N I(XK Er) data are discrepant (see general comment on these data);      
+#N the average from 1970MO07, 1985ME18, 1986VE01, 1988KUZM and 1990EGZY is
+#N 0.102% 8, and the evaluator adopts this in preference to the mass      
+#N spectrometric determination of 1968CRZY (0.144% 3) for which the       
+#N measurement details are not known.                                     
+#N Others: 1969HA20, 1969NE02.                                            
+#N                                                                     3  
+#P 0.0          1-               128.6 D   3              314.4     18    
+

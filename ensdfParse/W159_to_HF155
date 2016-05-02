@@ -1,0 +1,41 @@
+#155HF  XZ159W A DECAY                                                           
+#XZ159W A DECAY                                                           
+#L 0.0                             0.89 S  12                             
+#L %EC+%B+=100  $ XREF=+                                                  
+#L J         FROM SYSTEMATICS, 2003Au02 SUGGEST JPI=7/2-.                 
+#L T         from 1981Ho10, 1981HoZM                                      
+#L %A        From systematics, 2003Au03 report QA=5020 500. For QA        
+#L ranging from 5500 to 4500, ALPHA systematics gives %A values           
+#L ranging from AP 3 to 3.E-8. 1981HoZM report %A AP 0.06, for QA=4900.   
+#                                                                         
+#  156TA P DECAY (144 MS)        1992PA05,1996PA01         05NDS    200501
+#H TYP=FUL$AUT=C. W. REICH$CIT=NDS 104, 1 (2005)$CUT=1-Jun-2004$          
+#  NEW DATA SET PREPARED (DECEMBER, 2003) BY CW REICH.                    
+#  DATA ARE FROM 2003Re20 AND ARE BASED ON THE STUDIES OF 1992Pa05 AND    
+#   1996Pa01.                                                             
+#  1992PA05: NUCLIDE PRODUCED USING THE 106CD(58NI,p3n) REACTION,         
+#   E(58NI)=300 MEV. RECOIL PRODUCTS SEPARATED IN A RECOIL MASS           
+#   SEPARATOR AND ANALYZED USING A DOUBLE-SIDED Si STRIP DETECTOR         
+#   (FWHM LT AP 20 keV). MEASURED CORRELATION OF DECAY PRODUCTS, T1/2,    
+#   E(p), AND PROTON BRANCHING FRACTION.                                  
+#  1996Pa01: NUCLIDE PRODUCED IN HEAVY-ION FUSION REACTIONS               
+#   INITIATED BY 58NI AND 70GE BOMBARDMENT OF 102PD, 106CD AND 112SN      
+#   TARGETS, WITH BOMBARDING ENERGIES RANGING FROM 290 MEV TO 354 MEV.    
+#   REACTION PRODUCTS SEPARATED IN A RECOIL MASS SEPARATOR AND ANALYZED   
+#   USING A DOUBLE-SIDED Si STRIP DETECTOR. MEASURED CORRELATION OF       
+#   DECAY PRODUCTS, T1/2, E(p) AND PROTON BRANCHING FRACTION.             
+#P 0.0          (2-)               144 MS  24             1014      5     
+
+#155HF    159W A DECAY                  1996PA01,1981HO10         05NDS    200501
+#  159W A DECAY                  1996PA01,1981HO10         05NDS    200501
+#H TYP=FUL$AUT=C. W. REICH$CIT=NDS 104, 1 (2005)$CUT=1-Jun-2004$          
+#  DATA SET RE-DONE (NOVEMBER, 2003) BY CW REICH                          
+#  1996Pa01: SOURCE MATERIAL PRODUCED IN HEAVY-ION FUSION REACTIONS       
+#   FOLLOWED BY SEPARATION IN A RECOIL MASS SEPARATOR AND ANALYSIS        
+#   USING A DOUBLE-SIDED Si STRIP DETECTOR.                               
+#  1981HOZM: Sources produced in heavy-ion induced reactions followed by  
+#  velocity separation and implantation into position-sensitive           
+#  SI detector array                                                      
+#P 0.0                             8.2 MS   7             6450      4     
++A alpha 6.295 1.0
+

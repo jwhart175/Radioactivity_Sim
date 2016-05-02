@@ -1,0 +1,39 @@
+# 94Y     94SR B- DECAY                 1984FU12                  06NDS    200609
+#  94SR B- DECAY                 1984FU12                  06NDS    200609
+#H TYP=FUL$AUT=D. Abriola(a), A.A. Sonzogni$CIT=NDS 107, 2423 (2006)$     
+#H CUT=1-Jan-2006$                                                        
+#  1984Fu12: from decay of mass-separated {+94}Rb. Measured |g, |g|g,     
+#  Ge(Li) detectors, FWHM=2.1 keV and FWHM=2.0 keV at 1.33 MeV, |b-HPGe.  
+#  1984Fu12 supersedes 1982Fu17.                                          
+#  1973Gr14: fast chemical separation. Measured |g, |g|g, Ge(Li),         
+#  FWHM=2.1 keV at 1.33 MeV. All |g's with I|g>1.0 are also seen by       
+#  1973Gr14 and support the results of 1984Fu12.                          
+#G E,RI$From 1984Fu12.                                                    
+#G E(A)$Observed only in coincidence experiment.                          
+#L E$From least-squares fit to |g energies                                
+#L J,T$From adopted levels.                                               
+#B $av E|b=0.91 MeV {I3}  measured with a SI-LI detector system           
+#B (1982Al01).                                                            
+#B IB$From intensity balance.                                             
+#B IB(B)$From analysis of |b-spectra (1984Fu12). The value I|b(g.s.)|?    
+#B 15% found by 1971MaXM is in conflict with the first-forbidden unique   
+#B character of the transition.                                           
+#P 0.0         0+                75.3 S    2              3508      8     
+SR94 Y94 beta- 3.508 75.3 0.942
++G gamma 0.6217 0.0208
++G gamma 0.1021 7.000000000000001E-5
++G gamma 0.7238 0.0255
++G gamma 0.9068999999999999 0.0040999999999999995
++G gamma 0.5207999999999999 0.0016
++G gamma 0.7039 0.0226
++G gamma 0.806 0.018600000000000002
++G gamma 1.4277 1.0
++G gamma 0.5301 0.002
++G gamma 0.7547 0.0013
++G gamma 1.5607 6.8E-4
++G gamma 2.1824 0.0060999999999999995
++G gamma 1.6492 6.7E-4
++G gamma 1.7512999999999999 5.3E-4
++G gamma 2.063 4.0E-4
++G gamma 2.2460999999999998 4.5E-4
+

@@ -1,0 +1,104 @@
+# 81RB    81SR EC DECAY                 1980HO28                  08NDS    200810
+#  81SR EC DECAY                 1980HO28                  08NDS    200810
+#H TYP=FUL$AUT=CORAL M. BAGLIN$CIT=NDS 109, 2257 (2008)$CUT=15-Aug-2008$  
+#  Others: 1982Th03, 1981FrZY, 1977LIZP, 1973Br32, 1971Do01.              
+#  1973Br32: GELI and GELI-NAI detectors, chemically separated            
+#  source; measured EG, IG, GG coin, G-G+- coin, GG(T), EB, B+-G coin.    
+#  1980Ho28: chemically separated source; measured EG, IG, T;             
+#  low-energy photon spectrometer                                         
+#  (FWHM=550 EV at 122 KEV) and GELI (FWHM=2.5 KEV at 1.33 MEV).          
+#  1981FrZY: single and coincidence spectra, measured with GELI           
+#  (FWHM=2.5-3.5 KEV at 1.33 MEV) and SILI, timing FWHM=12 NS.            
+#  Source not chemically separated.                                       
+#E E         Measured B+ endpoint energy + 1022 (1973Br32).               
+#L           Decay schemes of 1973Br32 and 1981FrZY are based on RITZ     
+#L combination principle, intensity balances, and coincidence             
+#L measurements. The 1980Ho28 scheme is based only on the                 
+#L RITZ principle and intensity balances. Different authors               
+#L propose significantly different decay schemes. The adopted scheme is   
+#L essentially that of 1980Ho28 with the addition of levels at 1061 KEV   
+#L and 1218 KEV (proposed in 1981FrZY) and the GG-coin data from 1973Br32 
+#L and 1981FrZY. Levels at 497, 819, 866, 1344 and                        
+#L 1600, proposed by 1973Br32, are not adopted because G rays deexciting  
+#L them are either placed differently or are unobserved by 1980Ho28 or    
+#L 1981FrZY.                                                              
+#L E         From least-squares fit to EG, omitting 1554G, 1382G,         
+#L 1252G and 978G.                                                        
+#L J         FROM Adopted Levels.                                         
+#L E(D)      From 1981FrZY decay scheme only; based on GG-coin data.      
+#G RI,E      From 1980Ho28, if not noted otherwise. RI data from 1980Ho28 
+#G and 1973Br32 are in reasonable agreement, whereas data from 1981FrZY   
+#G frequently disagree significantly with those from 1980Ho28. 14         
+#G relatively weak G rays (EG=98 1, 172.0 5, 177.6 5, 237.5 10, 314 1,    
+#G 319 1, 496.5 10, 517 1, 545.2 5, 586.2 10, 819.2 10, 1034.8 8, 1344 1, 
+#G 1620 2) reported in 1973Br32 are absent in the higher resolution and   
+#G statistically superior spectra of 1980Ho28 and are, consequently,      
+#G omitted here; so is EG=97.6 5 from 1982Th03. EG=507.0, 516.4, 543.3,   
+#G 589.1, 975.1? from 1981FrZY are also absent in 1980Ho28; the 507G is   
+#G retained here because it is observable only in coin spectra            
+#G (unmeasured by 1980Ho28), the others are omitted because they are only 
+#G tentatively assigned to 81RB or are presumed by 1981FrZY               
+#G to be identical to G rays from 1973Br32 which are not adopted here.    
+#G E(A)      EG at least 3|s from least-squares adjusted value; datum     
+#G omitted from least-squares level energy adjustment. G could be         
+#G complex or misplaced.                                                  
+#G E(D),RI(D)$From 1981FrZY; not reported by 1980Ho28. Observable only in 
+#G GG coin spectra owing to proximity of strong G+- peak.                 
+#G E(G)      A 487G placed from a 487 level in 1980Ho28 (as in (A,2NG)) is
+#G placed from a 1061 level in 1981FrZY based on observed coincidence with
+#G 421G and 574G, both of which deexcite the 574 level. Since             
+#G several G rays can be placed feeding a 487 level, and                  
+#G the 1061 level deexcites to a level absent in (A,2NG), the evaluator   
+#G retains both 487 and 1061 levels, assuming the 487G to be a doublet    
+#G in 81SR EC decay. The quoted EG applies to that doublet. Intensity     
+#G balance at the 486 level requires I(486G) GE 5.9 4 from that level,    
+#G whereas RI(doublet)=7.3 5. Thus, I(486G) from 486 level could range    
+#G from 5.5 to 7.8 so the evaluator assigns 6.7 11, leaving 0.6 12        
+#G for I(486G) from the 1061 level.                                       
+#N 0.175     21          1.0       1.                                     
+#N NR        From intensity balances and measured I(G+-)=245 20 if        
+#N RI(443G)=24.2 18 (1973Br32), assuming theoretical IB+/I(EC+B+) ratios. 
+#N                                                                     3  
+#P 0           1/2-              22.3 M    4              3927       9    
++G gamma 0.154 1.0
++G gamma 0.159 0.013000000000000001
++G gamma 0.245 0.43
++G gamma 0.148 0.09
++G gamma 0.348 0.34
++G gamma 0.217 0.122
++G gamma 0.463 0.04
++G gamma 0.333 0.021
++G gamma 0.487 0.081
++G gamma 0.459 0.32
++G gamma 0.612 0.11
++G gamma 0.329 0.01
++G gamma 0.477 0.11199999999999999
++G gamma 0.623 1.16
++G gamma 0.394 0.028999999999999998
++G gamma 0.582 0.01
++G gamma 0.301 0.16
++G gamma 0.76 0.32
++G gamma 0.278 0.19
++G gamma 0.553 0.32
++G gamma 0.901 0.02
++G gamma 0.326 0.057999999999999996
++G gamma 0.949 0.17
++G gamma 0.562 0.11
++G gamma 0.871 0.027999999999999997
++G gamma 0.503 0.016
++G gamma 0.804 0.16
++G gamma 0.477 0.11199999999999999
++G gamma 0.875 0.57
++G gamma 0.323 0.026000000000000002
++G gamma 0.826 0.3
++G gamma 0.787 0.071
++G gamma 1.065 0.18
++G gamma 0.336 0.011000000000000001
++G gamma 0.932 0.08
++G gamma 1.211 0.13
++G gamma 0.879 0.03
++G gamma 0.837 0.04
++G gamma 1.024 0.16
++G gamma 0.719 0.032
++G gamma 1.157 0.022000000000000002
+

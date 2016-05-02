@@ -1,0 +1,35 @@
+# 56SC    56SC IT DECAY (290 NS)        2010CR02                  ENSDF    201111
+#  56SC IT DECAY (290 NS)        2010CR02                  ENSDF    201111
+#H TYP=FUL$AUT=BALRAJ SINGH$CIT=ENSDF$CUT=31-OCT-2011$                    
+#H TYP=FUL$AUT=HUO JUNDE, HUO SU, YANG DONG$CIT=NDS 112, 1513 (2011)$     
+#H CUT=29-Oct-2009$                                                       
+#  2010Cr02: E=130 MeV/nucleon; measured E|g, I|g, |g|g, and half-lives   
+#  using 16 detectors from the Segmented Germanium Array (SeGA) and BCS   
+#  detectors at the National Superconducting Cyclotron Laboratory (NSCL). 
+#  E=130 MeV/nucleon {+76}Ge{+30+} beam provided by the K500 and K1200    
+#  cyclotrons at NSCL at Michigan State University. Isotopes separated    
+#  with A1900 fragment separator. Time-of-flight technique. Fully stripped
+#  secondary fragments were sent to NSCL Beta Counting System (BCS).      
+#  System of three Si PIN detectors, a double-sided silicon strip detector
+#  and six single sided silicon strip detectors. Detected |g rays using   
+#  16 Ge detectors of the Segmented Germanium array. Measured half-life of
+#  {+56m}Sc by fitting the (implant correlated) isomeric transition decay 
+#  curve to a single exponential function with a constant background      
+#  2004Li75: {+9}Be({+86}Kr{+34+},X) E=140 MeV/nucleon.  Measured E|g,    
+#  I|g using a double-sided Si microstrip detector (DSSD) and the MSU     
+#  segmented Germanium Array (SeGA).  Identity of particle from energy    
+#  loss and time of flight from a PIN detector, the NSCL |b calorimeter,  
+#  and scintillator.  The SeGA array was arranged around the |b counting  
+#  system and comprised six Ge detectors, A1900 fragment separator.       
+#G $ Assignment of observed transitions to feed the 26-ms g.s. was        
+#G determined in 2010Cr02 from a half-life curve of |b-decay events       
+#G correlated with the {+56}Sc implants as well as with one of the five   
+#G prompt |g rays from the decay of the 290-ns isomer. Deduced half-life  
+#G was 30 ms {I5} in agreement with the half-life of lower-spin {+56}Sc   
+#G state.                                                                 
+#L E$ From least-squares fit to the E|g's                                 
+#L J$ Tentative assignments based on (1+) for g.s. and E2 assignment      
+#L to 187.8|g (2010Cr02)                                                  
+#P 774.9      3 (4+)             290 NS    30                             
+SC56 SC56 IT 0.0 2.9E-7 1.0
+

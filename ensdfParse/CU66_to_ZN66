@@ -1,0 +1,33 @@
+# 66ZN    66CU B- DECAY                 1993MI13                  10NDS    201004
+#  66CU B- DECAY                 1993MI13                  10NDS    201004
+#H TYP=FUL$AUT=E. BROWNE, J. K. TULI$CIT=NDS 111, 1093 (2010)$            
+#H CUT=3-Mar-2009$                                                        
+#  Modified by E. Browne (BRICC) (June 11, 2009)                          
+#  1993Mi13: E|g, I|g, |b-|g coincidences                                 
+#  1969Ca07: E|g, I|g, |g|g coincidences, and |g|g(|q), |q=90|',          
+#  135|', 180|'; Ge(Li), NaI.                                             
+#  1951Fr19: E|g, I|g, E|b{+-}, I|b{+-}, and |b-|g coincidences;          
+#  scintillators and |b-ray lens spectrometer.                            
+#  1951Ro22: E|g, I|g, E|b{+-}, I|b{+-}, and |b-|g coincidences           
+#  1969Ha46: E|g, I|g, |g|g coincidences, and |g|g(|q); Ge(Li), NaI.      
+#  1953En06: |b-|g delayed coincidences. Others:                          
+#  1958Ho90, 1960Sc06, and 1964Ma05.                                      
+#B E         From |b{+-} endpoint energy measurements (1951Fr19)          
+#B IB        From |g-ray intensity imbalance at each level (1993Mi13)     
+#G E         From 1969Ca07.                                               
+#G RI        From 1993Mi13                                                
+#G M,MR      From adopted gammas                                          
+#L E         From least-squares fit to E|g data.                          
+#L J         From adopted levels. Supporting arguments from this data     
+#L set are indicated.                                                     
+#P 0.0         1+                5.120 M   14             2640.9    10    
+CU66 ZN66 beta- 2.6409000000000002 307.2 1.0
++B beta- 1.1120999999999999 0.9077
++B beta- 0.6281 0.0901
++G gamma 1.0392000000000001 0.0923
++B beta- 0.2662 0.0022
++G gamma 0.833 0.00219674
++G gamma 1.8722 4.615E-6
++B beta- 0.0792 3.7000000000000005E-5
++G gamma 1.3325 3.692E-5
+

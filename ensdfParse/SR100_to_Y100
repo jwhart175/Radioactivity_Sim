@@ -1,0 +1,71 @@
+#100Y     100SR B- DECAY (202 MS)       1987WO07                  08NDS    200802
+#  100SR B- DECAY (202 MS)       1987WO07                  08NDS    200802
+#H TYP=FUL$AUT=BALRAJ SINGH$CIT=NDS 109, 297 (2008)$CUT=26-Dec-2007$      
+#  1987Wo07 (also 1986Pe04,1986Wo01): Measured G, GG, CE, BG. 100SR       
+#  isotope obtained from mass separation of fission fragments from        
+#  235U(N,F).                                                             
+#  Others:                                                                
+#  G, GG: 1985Mu07                                                        
+#  B: 1985IaZZ                                                            
+#  BG: 1984Pa19                                                           
+#  |b|g|g(t): 1990Ma08                                                    
+#  T1/2 and production of 100SR isotope: 1986Wo01, 1986Wa17,              
+#  1983Mu19, 1978Ko29                                                     
+#  Total decay energy deposit of 8041 keV {I611} calculated by RADLIST    
+#  code is in general agreement with expected value of 7504 keV {I16}     
+#B IB$As suggested by 1987Wo07, unobserved transitions can affect         
+#B the values of B- feedings that are weak. B- feedings that are AP 1%    
+#B or less and corresponding LOGFT values are given as approximate        
+#B $ Q-=7075 100 (1988GrZX). Others: 7090 150 (1984Pa19, same             
+#B group as 1988GrZX), 7520 140 (1985IaZZ)                                
+#G $ The following G rays with energy(intensity) reported                 
+#G by 1985Mu07 have been discarded: 78(1.5), 94, 117, 125(2.2),           
+#G 174.0(4.3), 234, 299, 354, 452.5(0.7), 763.0(1.5), 770.0(3.0), 869,    
+#G 1060.0(0.72). 1987Wo07 state that peaks corresponding to some of these 
+#G energies appear in the GG spectra because of COMPTON scattering effects
+#G $ %B-N=0.73 3 (1986Wa17)                                               
+#G RI$Values from 1985Mu07 are given under comments for some of the       
+#G G rays that differ significantly from those in 1987Wo07. The           
+#G discrepancy may be due to problems in the detector efficiency curve,   
+#G especially at low energies                                             
+#G E(A),RI(A)$From GG data (1987Wo07)                                     
+#G E(B),RI(B)$From average of G and GG data (1987Wo07)                    
+#G RI(E)$1985Mu07 give 5.8                                                
+#L $ The decay scheme is from GG data of 1987Wo07. It represents a        
+#L significant improvement over the earlier decay scheme from 1985Mu07    
+#L $ The following levels proposed by 1985Mu07 have been                  
+#L discarded: 250.1, 260.4, 452.6 and 1125.7. The G-rays associated with  
+#L these levels have either been reassigned or have not been seen         
+#L (1987Wo07)                                                             
+#L E$From least-squares fit to EG's                                       
+#L J$ From 'adopted levels' based on LOGFT value from 0+ parent state     
+#L T(T)$From BGG(T) (1990Ma08)                                            
+#P    0.0       0+                202 MS   3               7504     16    
++B beta- 3.4294000000000002 0.07
++B beta- 3.4243 0.44
++B beta- 3.3928000000000003 0.037000000000000005
++B beta- 3.3817 0.036000000000000004
++B beta- 3.3466 0.009000000000000001
++B beta- 3.3355 0.034
++B beta- 3.2802 0.01
++B beta- 3.2580999999999998 0.0018
++B beta- 3.2483 0.011000000000000001
++B beta- 3.1965 0.0012
++B beta- 3.0929 0.0025
++B beta- 3.0759000000000003 0.009899999999999999
++B beta- 3.0556 0.0028000000000000004
++B beta- 3.0305999999999997 0.0018
++B beta- 3.0203 0.0033
++B beta- 3.0149 0.0048
++B beta- 3.0145999999999997 0.009399999999999999
++B beta- 2.96 0.41
++G gamma 0.96385 0.22
++B beta- 2.9257 0.0015
++B beta- 2.8771999999999998 0.0017000000000000001
++B beta- 2.8756999999999997 0.0045000000000000005
++B beta- 2.7836 0.011000000000000001
++B beta- 2.7651 0.027999999999999997
++B beta- 2.7599 0.0027
++B beta- 2.7491999999999996 0.005
++B beta- 2.6105 0.0059
+

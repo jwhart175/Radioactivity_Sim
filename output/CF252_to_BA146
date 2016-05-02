@@ -1,0 +1,86 @@
+#146BA    252CF SF DECAY                1997UR01                  97NDS    199712
+#  252CF SF DECAY                1997UR01                  97NDS    199712
+#H TYP=FMT$AUT=J. TULI$DAT=22-JUL-1999$COM=ADDED P RECORD$                
+#H TYP=FUL$AUT=L. K. PEKER AND J. K. TULI$CIT=NDS 82, 187 (1997)$         
+#H CUT=30-SEP-1997$                                                       
+#  Measured: G, GG, GG(THETA), GGG(THETA), linear polarization,           
+#  DCO ratios, ^EUROGAM2 array                                            
+#  (1997Ur01); G, GG, GG(THETA) (1988PhZY); G, GG (1995Zh34);             
+#  G(T) (1974JaYY,1974ClZX). Fission yield (1996Te04).                    
+#  Others: 1969WiZX,1970WiZN,1971Ch44,1972Ho08,1977YoZM                   
+#  Decay scheme is as given by 1997Ur01. They have confirmed and extended 
+#  the GS band proposed by 1995Zh34. The band built on the 3- octupole    
+#  state by 1995Zh34 has also been confirmed.                             
+#  See adopted levels for the level scheme.                               
+#L J$Based on linear polarization, directional-polarization correlation,  
+#L DCO ratio measurements and band structure.                             
+#L BAND(D)   GS BAND                                                      
+#L BAND(E)   OCTUPOLE BAND                                                
+#L BAND(F)   SIDE BAND 1                                                  
+#L BAND(G)   SIDE BAND 2                                                  
+#L BAND(H)   SIDE BAND 3                                                  
+#L BAND(I)   SIDE BAND 4                                                  
+#L BAND(J)   SIDE BAND 5                                                  
+#L E$From least-squares fit to EG                                         
+#P 0            0+               2.645 Y   8                              
+CF252 BA146 SF 0.0 8.346802377600001E7 1.0
++G gamma 0.18109999999999998 1.0
++G gamma 0.3327 1.02
++G gamma 0.3075 0.15
++G gamma 0.6401 0.12
++G gamma 0.4447 0.52
++G gamma 0.2034 0.21
++G gamma 0.5109 0.19
++G gamma 0.3246 0.26
++G gamma 0.39089999999999997 0.02
++G gamma 0.5242 0.31
++G gamma 0.29510000000000003 0.004
++G gamma 0.4285 0.19
++G gamma 0.8501000000000001 0.013999999999999999
++G gamma 0.9163 0.026000000000000002
++G gamma 0.9863 0.025
++G gamma 1.016 0.004
++G gamma 0.6802999999999999 0.006999999999999999
++G gamma 1.0712000000000002 0.006
++G gamma 0.2745 0.002
++G gamma 0.5694 0.14
++G gamma 0.1456 0.006
++G gamma 0.21569999999999998 0.03
++G gamma 0.6079 0.03
++G gamma 0.7413 0.004
++G gamma 1.072 0.004
++G gamma 1.1385999999999998 0.005
++G gamma 0.2465 0.025
++G gamma 0.7087 0.06
++G gamma 0.842 0.006999999999999999
++G gamma 0.73 0.008
++G gamma 0.8641 0.008
++G gamma 0.515 0.08
++G gamma 0.2529 0.003
++G gamma 0.8674 0.013000000000000001
++G gamma 1.0007000000000001 0.003
++G gamma 0.1982 0.006
++G gamma 0.29869999999999997 0.06
++G gamma 0.4138 0.008
++G gamma 0.6652 0.018000000000000002
++G gamma 0.9605 0.005
++G gamma 0.32480000000000003 0.06
++G gamma 0.4642 0.012
++G gamma 0.7385 0.008
++G gamma 0.3167 0.008
++G gamma 0.7527 0.006999999999999999
++G gamma 0.5802999999999999 0.07
++G gamma 0.3603 0.01
++G gamma 0.4015 0.040999999999999995
++G gamma 0.5837 0.04
++G gamma 0.4228 0.022000000000000002
++G gamma 0.6461 0.016
++G gamma 0.4235 0.004
++G gamma 0.5602999999999999 0.04
++G gamma 0.5071 0.005
++G gamma 0.5137999999999999 0.015
++G gamma 0.5758 0.005
++G gamma 0.6475 0.01
++G gamma 0.5444 0.016
++G gamma 0.6195 0.006
+

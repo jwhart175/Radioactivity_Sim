@@ -1,0 +1,137 @@
+#100PD    100AG EC DECAY (2.01 M)       1983RA10,1980HA20,1995BA2508NDS    200802
+#  100AG EC DECAY (2.01 M)       1983RA10,1980HA20,1995BA2508NDS    200802
+#H TYP=FUL$AUT=BALRAJ SINGH$CIT=NDS 109, 297 (2008)$CUT=26-Dec-2007$      
+#  1983Ra10: 100AG produced by 92MO(12C,3N) E=80 MEV and 102PD(P,3N)      
+#  E=39 MEV. Measured G, GG, XG, B+G, GG(THETA), CE, T1/2                 
+#  1980Ha20: G, GG, B+G data. The results are in general agreement with   
+#  those from 1983Ra10, but the authors had difficulty in separating      
+#  G-ray intensities between the two isomers                              
+#  1995Ba25: EC/B+ by total absorption GAMMA-ray spectrum, deduced        
+#  BETA-strength functions in the 0-6750 energy range                     
+#  1995Sc50: cross section for production of 100AG in 50CR(58NI,^X)       
+#  reaction                                                               
+#  Others: 1980Wi20, 1980VeZN, 1971In03, 1970Hn03, 1967Ba26, 1967Do06,    
+#  1966Bu05. In the earlier studies of 100AG decay                        
+#  (1967Ba26,1966Bu05,1967Do06) the T1/2 was given as 8 M                 
+#  Total decay energy deposit of 6244 keV {I112} calculated by RADLIST    
+#  code is lower than the expected value of 7080 keV {I80}. Total         
+#  absorption measurement suggest that a significant fraction of |e and   
+#  |b{++} feeding is missing in the level scheme.                         
+#E           B+, (B+)(G) data: 1983Ra10, 1980Ha20, 1980VeZN               
+#E           Q(EC) from (B+)(G): 7.17E+3 25 (1983Ra10), 7.0E+3 2          
+#E (1980Ha20), 7.08E+3 9 (1980VeZN). From singles B+ spectrum, 1980Ha20   
+#E obtained B+(endpoint)=5.4E+3 2 indicating little direct B+ feeding to  
+#E GS                                                                     
+#E           A large fraction (AP 30%) of EC,B+ feeding proceeds          
+#E to levels above 3500 AS suggested by total absorption data of 1995Ba25.
+#E Precise energies and decay mode of these levels are not yet known      
+#G E,RI$From 1983Ra10, unless otherwise stated                            
+#G M$From 'adopted gammas' and from CE data (1983Ra10) normalized         
+#G to 750G treated as E2                                                  
+#L E$From least-squares fit to EG's                                       
+#L J$From 'adopted levels'.                                               
+#L E(A)$A pseudo-level is introduced (evaluator) based on EC, B+ feeding  
+#L reported by 1995Ba25. This level is not included in 'adopted levels'   
+#P 0.0         (5)+              2.01 M    9              7080      80    
++G gamma 0.3483 0.007904
++G gamma 1.639 0.003952
++B beta+ 8.42E-4 0.0012
++G gamma 0.6657000000000001 0.988
++B beta+ 2.138 0.02
++G gamma 0.7507999999999999 0.7805199999999999
++G gamma 0.9223 0.012844
++G gamma 1.5879 0.008892
++B beta+ 1.894 0.038
++G gamma 1.2605 0.051376
++B beta+ 1.832 0.059000000000000004
++G gamma 0.6399 0.08200400000000001
++B beta+ 1.768 0.055999999999999994
++G gamma 0.7733 0.24206
++B beta+ 1.726 0.049
++G gamma 0.2225 0.011856
++G gamma 0.3529 0.0101764
++G gamma 0.8625 0.035568
++B beta+ 1.692 0.024
++G gamma 1.6856 0.07014799999999999
++B beta+ 1.635 0.017
++G gamma 0.1905 0.0043472
++G gamma 0.2806 0.08200400000000001
++G gamma 1.0539 0.137332
++B beta+ 1.606 0.031
++G gamma 1.1158 0.033592
++B beta+ 1.563 0.003
++G gamma 1.956 0.00494
++B beta+ 1.536 0.0036
++B beta+ 1.529 0.042
++G gamma 1.278 0.046436000000000005
++B beta+ 1.469 0.028999999999999998
++G gamma 1.4053 0.032603999999999994
++B beta+ 1.442 0.028999999999999998
++G gamma 0.5288999999999999 0.01976
++G gamma 0.9532999999999999 9.88E-4
++G gamma 2.2140999999999997 0.011856
++B beta+ 1.423 0.14
++G gamma 0.4502 0.173888
++G gamma 0.5695 0.00741
++G gamma 0.7309 0.075088
++G gamma 1.5037 0.112632
++B beta+ 1.348 0.048
++G gamma 0.6096 0.030628000000000002
++G gamma 0.8903 0.025688
++B beta+ 1.275 0.006
++G gamma 0.614 0.001976
++G gamma 1.8197 0.00494
++B beta+ 1.239 0.013999999999999999
++G gamma 0.9607 0.016796
++B beta+ 1.091 0.025
++B beta+ 1.002 0.005
++G gamma 1.7675999999999998 0.006916
++B beta+ 0.976 0.027000000000000003
++B beta+ 0.861 0.02
++B beta+ 0.747 0.017
++B beta+ 0.635 0.013999999999999999
++B beta+ 0.523 0.009000000000000001
++B beta+ 0.413 0.0040999999999999995
++B beta+ 0.304 0.0014000000000000002
++B beta+ 0.196 2.0E-4
++B beta+ 8.629999999999999E-4 0.0011
++B beta+ 8.621E-4 0.0011
++B beta+ 8.600999999999999E-4 0.0011
++B beta+ 8.56E-4 0.00116
+
+#100PD    100AG EC DECAY (2.24 M)       1983RA10                  08NDS    200802
+#  100AG EC DECAY (2.24 M)       1983RA10                  08NDS    200802
+#H TYP=FUL$AUT=BALRAJ SINGH$CIT=NDS 109, 297 (2008)$CUT=26-Dec-2007$      
+#  Source produced in 92MO(12C,P3N) at E AP 80 MEV and 102PD(P,3N) at     
+#  E=39 MEV. Measured G, GG, XG, B+G, GG(T)                               
+#  Other: 1980Ha20, G, GG, B+G data                                       
+#  The level scheme is not considered as well established                 
+#  as that for the decay of 100AG GS                                      
+#  Total decay energy deposit of 6196 keV {I670} calculated by RADLIST    
+#  code is lower than the expected value of 7096 keV {I80}.               
+#L E$From least-squares fit to EG's                                       
+#L J$From 'adopted levels'                                                
+#P 15.5         (2)+             2.24 M    13             7080      80    
++G gamma 1.2055 0.047299999999999995
++G gamma 1.6399000000000001 0.02408
++B beta+ 2.507 0.29
++G gamma 0.6657000000000001 0.86
++B beta+ 2.145 0.15
++G gamma 0.7507999999999999 0.258
++B beta+ 2.094 0.08199999999999999
++G gamma 1.5235999999999998 0.086
++B beta+ 2.063 0.12
++G gamma 0.9223 0.07224
++G gamma 1.5879 0.05332
++B beta+ 1.695 0.136
++G gamma 1.6939000000000002 0.14706000000000002
++B beta+ 1.613 0.08
++G gamma 1.1158 0.09459999999999999
++B beta+ 1.571 0.004
++G gamma 1.956 0.01978
++B beta+ 1.494 0.1
++G gamma 2.1181 0.1118
++B beta+ 1.282 0.05
++G gamma 0.6141 0.01806
++G gamma 1.8197 0.041280000000000004
+

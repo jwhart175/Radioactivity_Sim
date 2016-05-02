@@ -1,0 +1,31 @@
+#120CS    120BA EC DECAY                1992XU04                  02NDS    200209
+#  120BA EC DECAY                1992XU04                  02NDS    200209
+#H TYP=FUL$AUT=K. KITAO, Y. TENDOW AND A. HASHIZUME$                      
+#H CIT=NDS 96, 241 (2002)$CUT=1-Dec-2001$                                 
+#  1992XU04: 106CD(16O,2N) E=78 MEV, 80% ENRICHED TARGET, ON-LINE MASS    
+#  SEPARATION; G, B+; GG, BG, GX COIN; BG(T), GG(T); Q, T                 
+#  1977BO02: SOURCE FROM 96RU(32S,X) E=190 MEV, ON-LINE MASS SEPARATION;  
+#  G, B+                                                                  
+#  THE DECAY SCHEME IS THAT PROPOSED BY 1992XU04                          
+#L E         FROM LEAST-SQUARES FIT TO THE E(G'S) BY EVALUATORS           
+#L J         FROM ADOPTED LEVELS                                          
+#L J(B)      (1+) FOR EITHER LEVEL                                        
+#  Q+=5000 300 DEDUCED FROM EB'S (1992XU04):                              
+#            EB(TO 269L)=3690 FROM (B+)(269.9G) COIN                      
+#            EB(TO 319L)=3590 FROM (B+)(126.4G+139.7G) COIN               
+#            EB(TO 345L)=3640 FROM (B+)(152.4G+165.7G) COIN               
+#G E         FROM 1992XU04, UNLESS OTHERWISE NOTED                        
+#G RI        RELATIVE TO I(179G)=100                                      
+#G TI        MULT=^D,E2 ASSUMED FOR ALL G'S EXCEPT FOR 76.9G              
+#G CC        FROM CC=[CC(E1)+CC(E2)]/2, UNLESS OTHERWISE NOTED            
+#G E(A)      FROM 1977BO02                                                
+#E TI        THESE BRANCHINGS ARE TENTATIVE BECAUSE THE UNCERTAINTY       
+#E IN THE DECAY SCHEME ARISING FROM PROBABLE FEEDINGS TO HIGHER           
+#E UNOBSERVED LEVELS                                                      
+#N 0.47      4 0.47    4 1.0       1.0                                    
+#N NR        NO GS B FEEDING ASSUMED                                      
+#N                                                                    C3  
+#N TI PER 100 PARENT DECAYS, ASSUMED MULT=^D,E2 EXCEPT                    
+#N FOR 76.9G (MULT=D)                                                     
+#P 0.0         0+                24 S      2              5.00E3    30    
+

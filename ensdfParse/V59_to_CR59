@@ -1,0 +1,13 @@
+# 59CR    59V B- DECAY                  1999SO20                  02NDS    200204
+#  59V B- DECAY                  1999SO20                  02NDS    200204
+#H TYP=FUL$AUT=Coral M. BAGLIN$CIT=NDS 95, 215 (2002)$CUT=8-Feb-2002$     
+#  1999SO20: source from 58NI(86KR,X), E(86KR)=60.4 MEV/nucleon;          
+#  doubly achromatic spectrometer ^LISE3; measured B(T), EG               
+#L E         From measured EG.                                            
+#L J         From adopted levels.                                         
+#G           No RI data are available. However, based on the spectrum     
+#G in fig. 3 of 1999SO20, the 208G and the 102G appear to have            
+#G comparable intensities.                                                
+#P 0.0          (5/2-,3/2-)      75 MS     7              9.94E3    41    
+V59 CR59 beta- 9.94 0.075 1.0
+

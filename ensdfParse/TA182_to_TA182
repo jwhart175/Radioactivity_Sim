@@ -1,0 +1,28 @@
+#182TA    182TA IT DECAY (283 MS)       1968CL06                  ENSDF    201507
+#  182TA IT DECAY (283 MS)       1968CL06                  ENSDF    201507
+#H TYP=FUL$AUT=BALRAJ SINGH$CIT=ENSDF$CUT=15-JUL-2015$                    
+#H TYP=FUL$AUT=BALRAJ SINGH AND JOEL C. ROEDIGER$CIT=NDS 111, 2081 (2010)$
+#H CUT=15-Jul-2010$                                                       
+#L J$From Adopted Levels                                                  
+#P 16.263        5+                 283 MS  3                             
++G gamma 0.016273 2.32E-5
+
+#182TA    182TA IT DECAY (15.84 M)      1986SE14,1971HE13         ENSDF    201507
+#  182TA IT DECAY (15.84 M)      1986SE14,1971HE13         ENSDF    201507
+#H TYP=FUL$AUT=BALRAJ SINGH$CIT=ENSDF$CUT=15-JUL-2015$                    
+#H TYP=FUL$AUT=BALRAJ SINGH AND JOEL C. ROEDIGER$CIT=NDS 111, 2081 (2010)$
+#H CUT=15-Jul-2010$                                                       
+#  1986Se14: measured I|g                                                 
+#  1971He13: measured E|g, I|g                                            
+#  1966Bi10: measured E|g, I|g, ce                                        
+#  1947Se33: identification and T{-1/2} measurement                       
+#  Others: 1968Ho11, 1967Fe03, 1961Su01                                   
+#G M$From ce data and subshell ratios from 1966Bi10.                      
+#G E(A),M(A)$From Adopted Gammas                                          
+#G RI$From 1971He13. For |DI|g(absolute) combine 5.2% in quadrature       
+#G with |DI|g(rel), except as noted. Values from 1986Se14 do not give     
+#G an acceptable intensity balance at 334.6 and 163.0 levels              
+#L J$From Adopted Levels                                                  
+#L T(B)$From (ce)(ce(t) (1968Ho11)                                        
+#P   519.587 25 10-              15.84 M   10                             
+

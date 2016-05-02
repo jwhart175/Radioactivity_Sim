@@ -1,0 +1,52 @@
+#231PA    231U EC DECAY                 1996LE01,1994BR36         13NDS    201306
+#  231U EC DECAY                 1996LE01,1994BR36         13NDS    201306
+#H TYP=FUL$AUT=E. BROWNE, J. K. TULI$CIT=NDS 114, 751 (2013)$             
+#H CUT=24-May-2013$                                                       
+#  Modified by E. Browne (Sept. 27, 2012) BRICC, GTOL, RADLST             
+#  1996LE01: {+231}U activity produced by {+232}Th(|a,5n), E=52 MeV and   
+#  mass separated. Measured EG, RI. Detector: Hyperpure Ge. Main source   
+#  contaminant was {+231}Th, produced by {+232}Th(|a,|a'n).               
+#  1994BR36: {+231}U activity was produced via the electron capture decay 
+#  of {+231}Np, which was formed in the {+233}U(p,3n) reaction with 49-MeV
+#  protons. The recoiling reaction products ({+231}Np) were chemically    
+#  separated from their {+231}U daughter nuclei. Measured                 
+#  EG, RI, ECE, ICE,                                                      
+#  |g|g coin. Determined conversion coefficients, deduced |g-ray          
+#  multipolarities. Detectors: Hyperpure Ge for |g rays; pin for          
+#  conversion electrons. Main source contaminants were {+237}U and        
+#  {+117m}Sn. Others: 2009So02, 2006Sa35.                                 
+#G E(A),RI(A)$From 1994BR36                                               
+#G E(B),RI(B)$From 1996LE01                                               
+#G E(D)$From Adopted Gammas                                               
+#G RI(E)$From 1996LE01, energy not reported.                              
+#G M(F),MR(F)$From {+231}Th |b{+-} Decay (1975HO14)                       
+#G RI(G)$From Adopted Gammas, not seen in {+231}U EC Decay.               
+#G           Experimental PA XK intensities: 17.5% 10 (XKA2), 28.1% 16    
+#G (XKA1), and 11.8% 6 (XKB) compare with 17.85% 8 (XKA2), 28.73% 12      
+#G (XKB), respectively, calculated by evaluators (using the computer      
+#G program ^RADLST) from |g-ray intensities, K-conversion coefficients    
+#G and K-electron capture probabilities presented here, using a           
+#G K-fluorescence yield of 0.970 4 (1996SC06). This agreement shows that  
+#G most |g rays with energies greater than 112.6 keV (the K-binding       
+#G in Pa) have accurate intensities and correct multipolarities, and that 
+#G K-electron capture probabilities are also correct.                     
+#G           Q-=381.6 keV 20 from mass tables (2012Wa38) compares with a  
+#G total average radiation energy of 350 keV, calculated by evaluators    
+#G using the computer program radlst. The small discrepancy between these 
+#G values is probably due to low-energy |g rays (i.e., 9.2-, 17.2-, and   
+#G 19.1-keV transitions) not included in the calculation because their    
+#G intensities are unknown. These results support the consistency and     
+#G completeness of the decay scheme.                                      
+#G CC$Conversion coefficients for [M1+E2] multipolarities are for MR=1.0. 
+#L E$Deduced by evaluators from a least-squares fit to |g-ray energies.   
+#L T$From Adopted Gammas.                                                 
+#P 0.0             (5/2-)        4.2 D     1              381.6     20    
+U231 PA231 beta+ 0.38160000000000005 362880.00000000006 1.0
++B beta+ 6.303E-4 0.05
++B beta+ 6.25E-4 0.0027
++B beta+ 6.08E-4 0.0028000000000000004
++B beta+ 4.88E-4 0.0036
++B beta+ 4.62E-4 0.003
++B beta+ 6.78E-4 0.04
++B beta+ 6.12E-4 0.0
+

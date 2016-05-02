@@ -1,0 +1,110 @@
+#110PD    110RH B- DECAY (3.35 S)       1988AY02                  12NDS    201206
+#  110RH B- DECAY (3.35 S)       1988AY02                  12NDS    201206
+#H TYP=FUL$AUT=G. G~URDAL and F.G. KONDEV$CIT=NDS 113, 1315 (2012)$       
+#H CUT=1-Aug-2011$                                                        
+#G CC$ FROM BrIcc v2.2 (31-Mar-2008) 2008KiAA, "Frozen Orbitals" appr.    
+#  Source: {+238}U(P,F), E(P) = 20 MeV. IGISOL on-line mass separator     
+#  facility was used to separate the parent {+110}Rh nucleus.             
+#  The {+110}Rh production rate was |?2|*10{+3}  ions/|mC.                
+#  The ion beams of the separated activities were implanted on a 6 mm     
+#  wide moving tape. The |g-rays were detected by  25% and 23% coaxial    
+#  Ge detectors. A 1.4 cm{+3} planar Ge detector was used to detect the   
+#  low-energy |g-rays. The conversion electrons were detected by a 3 mm   
+#  thick, LN-cooled Si(Li) detector. |b-rays were detected with a 1       
+#  mm thick NE102 plastic  |DE detector in a combination with a 6.0 cm    
+#  long and 7.5 cm in diameter NEE102 plastic scintillator.               
+#  Measured: E|g, I|g, GG, BG, CE. Deduced: Levels, Mult., JPI            
+#  Other: 1972PIZQ                                                        
+#L E$From least-squares fit to  E|g                                       
+#L J$From adopted levels                                                  
+#G E$From 1988AY02. |DE|g = 0.3 keV, as stated by the authors             
+#G RI$From 1988AY02, combination of both {+110}Rh |b- (3.35 S) (J|p=(1+)) 
+#G and {+110}Rh |b- (28.0 S) (J|p=(6+)) decays                            
+#G M$From adopted gammas                                                  
+#B $Since the decay scheme is incomplete, no IB- and LOGFT values were    
+#B calculated                                                             
+#P 0.0         (1+)              3.35 S    12             5505      18    
++G gamma 0.3738 0.53
++G gamma 0.4397 0.07897
++G gamma 0.8137000000000001 0.02915
++G gamma 0.5726 0.011660000000000002
++G gamma 0.357 0.01272
++G gamma 0.7967000000000001 0.03975
++G gamma 0.8405 0.008480000000000001
++G gamma 1.2144000000000001 0.005830000000000001
+
+#110PD    110RH B- DECAY (28.0 S)       1999LH01,1988AY02         12NDS    201206
+#  110RH B- DECAY (28.0 S)       1999LH01,1988AY02         12NDS    201206
+#H TYP=FUL$AUT=G. G~URDAL and F.G. KONDEV$CIT=NDS 113, 1315 (2012)$       
+#H CUT=1-Aug-2011$                                                        
+#G CC$ FROM BrIcc v2.3 (9-Dec-2011) 2008Ki07, "Frozen Orbitals" appr.     
+#  1999Lh01: Source: {+238}U(p,F), E(p) = 25 MeV. The parent {+110}Rh was 
+#  mass separated on-line at the IGISOL facility.                         
+#  The ion beams of the separated activities were implanted on a          
+#  moving tape.  The |g-rays were detected by four Ge detectors of the    
+#  EUROGAM phase-1 type. They were positioned in a plane around the       
+#  collection spot at a distance of 10cm and at angles of 80|', 110|' and 
+#  155|' with respect to each other. The beta-rays were detected by two   
+#  0.9mm thick plastic scintillator detectors positioned at one on each   
+#  side of the source. Measured: E|g, |g|g, |b|gt. Deduced:               
+#  {+110}Pd levels, J|p                                                   
+#  1988AY02: Source: {+238}U(P,F), E(P) = 20 MeV. IGISOL on-line mass     
+#  separator facility was used to separate the parent {+110}Rh nucleus.   
+#  The {+110}Rh production rate was |?2|*10{+3}  ions/|mC.                
+#  The ion beams of the separated activities were implanted on a 6 mm     
+#  wide moving tape. The |g-rays were detected by  25% and 23% coaxial    
+#  Ge detectors. A 1.4 cm{+3} planar Ge detector was used to detect the   
+#  low-energy |g-rays. The conversion electrons were detected by a 3 mm   
+#  thick, LN-cooled Si(Li) detector. |b-rays were detected with a 1       
+#  mm thick NE102 plastic  |DE detector in a combination with a 6.0 cm    
+#  long and 7.5 cm in diameter NEE102 plastic scintillator.               
+#  Measured: E|g, I|g, GG, BG, CE. Deduced: Levels, Mult., JPI            
+#  Others: 2000WA14, 1973FrYO, 1970PI01 and 1970WA28                      
+#L E$From least-squares fit to  E|g                                       
+#L J$From adopted levels                                                  
+#G E,RI$From 1999LH01                                                     
+#G E(a)$ Observed in 1999LH01, but not in 1988AY02                        
+#G M$From adopted gammas                                                  
+#B IB,LOGFT$From intensity balances and the level scheme by the evaluators
+#B LOGFT$Since the energy of the isomeric level is not known and the decay
+#B scheme is incomplete, the values are approximate                       
+#G MR$ IF NO VALUE GIVEN IT WAS ASSUMED MR=0.00 FOR E2/M1,                
+#G MR=1.00 FOR E3/M2 AND  MR=0.10 FOR THE OTHER MULTIPOLARITIES           
+#P 0.0+Y        (6+)               28.0 S    13             5505    18    
++G gamma 0.3738 0.89
++G gamma 0.4398 0.29281
++G gamma 0.8136 0.10235
++G gamma 0.5468999999999999 0.38270000000000004
++G gamma 0.2916 0.0178
++G gamma 0.3986 0.19757999999999998
++G gamma 0.8382000000000001 0.21271
++G gamma 0.4778 0.07209
++G gamma 0.5846 0.13527999999999998
++G gamma 0.6533 0.16287000000000001
++B beta-1.6935 0.06
++G gamma 0.5019 0.03204
++G gamma 0.6877000000000001 0.29014
++G gamma 0.9792000000000001 0.028480000000000002
++G gamma 1.0865 0.0623
++B beta- 1.4975999999999998 0.009000000000000001
++G gamma 0.5888 0.036489999999999995
++B beta- 1.3684 0.034
++G gamma 1.0485 0.06942
++G gamma 1.34 0.02492
++G gamma 1.0495 0.014240000000000001
++B beta- 1.1195 0.22899999999999998
++G gamma 0.8035 0.00979
++G gamma 0.8905 0.08900000000000001
++G gamma 1.2165 0.01958
++G gamma 1.3921 0.08277000000000001
++G gamma 1.5792 0.00979
++G gamma 1.8695 0.0178
++B beta- 1.1128 0.45
++G gamma 0.5444 0.06052
++G gamma 0.8176 0.0178
++G gamma 0.9045 0.17355
++G gamma 1.2309 0.07209
++G gamma 1.4065999999999999 0.04183
++G gamma 1.5936 0.0356
++G gamma 1.8840999999999999 0.04539
+

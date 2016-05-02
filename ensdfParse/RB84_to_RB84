@@ -1,0 +1,19 @@
+# 84RB    84RB IT DECAY                 1984LA02,1982Gr07         09NDS    200910
+#  84RB IT DECAY                 1984LA02,1982Gr07         09NDS    200910
+#H TYP=FUL$AUT=F.G. Kondev$CIT=NDS 110,2815 (2009)$CUT=30-Sep-2009$       
+#  1984La02: GE(LI), FWHM=1.9 KEV at 1.33 MEV. Hyper-pure Ge              
+#  detector, FWHM=400 EV at 6.4 KEV. NAI(TL). Measured RI, XG.            
+#  Deduced EKC.                                                           
+#  1982Gr07: GE(LI), FWHM=2.0 KEV at 1.33 MEV. Ge detector,               
+#  FWHM=700 EV at 122 KEV. Measured EG, RI.                               
+#  Others: 1979Er03, 1976Sl07, 1970Pa09, 1969Kn05, 1967Cl05, 1958Co67.    
+#G CC$ FROM BrIcc v2.2 (31-Mar-2008) 2008Ki07, "Frozen Orbitals" appr.    
+#G $(215G)(248G)(THETA): A2=-0.13 4 (1958Co67) is consistent with 6-3-2   
+#G spin sequence                                                          
+#G E$From 1982Gr07. Others: 1970Pa09 and 1967Cl05.                        
+#L E$From a least-squares fit to E|g, unless otherwise stated             
+#L J$From deduced transition multipolarities using EKC and |g|g(|q)       
+#P   463.59   8 6-               20.26 M   4                              
+RB84 RB84 IT 0.0 1215.6000000000001 1.0
++G gamma 0.24802000000000002 0.63
+

@@ -1,0 +1,26 @@
+# 80KR    80BR B- DECAY (17.68 M)       1969KA06,1967RA12,1970DO0205NDS    200508
+#  80BR B- DECAY (17.68 M)       1969KA06,1967RA12,1970DO0205NDS    200508
+#H TYP=FUL$AUT=BALRAJ SINGH$CIT=NDS 105, 223 (2005)$CUT=22-Jun-2005$      
+#  1969Ka06: |g, |g|g, |b, |b|g, T{-1/2} data                             
+#  1967Ra12: |g, |g|g, |g|g(|q) data                                      
+#  1970Do02: |g data                                                      
+#  Other measurements:                                                    
+#  |g: 1968Da24, 1962Tr03, 1956La24, 1953Sc71                             
+#  |b{+-}: 1956La24, 1954La34, 1954La39, 1953La36, 1952La20, 1951La08     
+#  T{-1/2}: 1984Ke14 (methodology), 1972Co26, 1968Re04, 1957Ki21,         
+#  1939Se03, 1937Sn02, 1935Am01                                           
+#  Analysis of log| {Ift} values (theoretical): 1969Ha48, 1969Ba58        
+#  Others (dealing with production of {+80}Br): 1947Se33, 1936Al01        
+#B IB$From decay scheme. Feeding to {+80}Kr g.s. calculated from          
+#B I|b{+-}/I|b{++} and I|g(616|g)/I|b{++} ratios                          
+#G E$Weighted average of 1970Do02, 1969Ka06, 1967Ra12                     
+#G RI$Average of 1969Ka06 and 1967Ra12                                    
+#G E(A)$Reported by 1967Ra12 only. Assignment to {+80}Kr uncertain        
+#G E(B)$Reported by 1970Do02 only. Assignment to {+80}Kr uncertain        
+#L J$From 'adopted levels'                                                
+#P  0           1+                17.68 M  2               2003.0   24    
++B beta- 0.804 0.85
++B beta- 0.5244 0.062
++B beta- 0.25314 0.0031
++B beta- 0.22763 0.0019
+

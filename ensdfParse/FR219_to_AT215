@@ -1,0 +1,39 @@
+#215AT    219FR A DECAY (20 MS)         1993LI07,1968BA73,1966GR0713NDS    201312
+#  219FR A DECAY (20 MS)         1993LI07,1968BA73,1966GR0713NDS    201312
+#H TYP=FUL$AUT=S.K. Basu, G. Mukherjee, B. Singh, S. Bhattacharya, A. De$ 
+#H AUT=D. Mondal$                                                         
+#H CIT=NDS 114, 2023 (2013)$CUT=23-SEP-2013$                              
+#  1993Li07: {+219}Fr activity was produced as descendant of a            
+#  mass-separated source of {+223}Ac. Measured E|a, I|a, E|g, I|g, |a|g   
+#  coin. Detectors: Ge(Li) for |g rays, Si(Li) for |a particles.          
+#  1968Ba73: descendant of {+227}Pa. Measured E|a, I|a. Detector:         
+#  magnetic spectrograph.                                                 
+#  1966Gr07: descendant of {+227}Pa. Measured E|a, I|a, E|g, |a|g coin.   
+#  Detectors: semi, scint.                                                
+#  1982Bo04: {+219}Fr source produced by spallation of 5-GeV protons on   
+#  targets of U and Th. Measured E|a, I|a. Detectors: semi.               
+#  Other: 1982Bo04                                                        
+#A E,IA$From 1968Ba73, unless otherwise specified.                        
+#A HF$Using r{-0}({+215}At)=1.5575 {I80}, interpolated value deduced from 
+#A r{-0}({+214}Po)=1.559 {I8}, and r{-0}({+216}Rn)=1.556 {I8} (1998Ak04). 
+#G $ Measured intensity of K{-|a}+K{-|b} x rays=0.22 {I3}                 
+#G CC$ FROM BrIcc v2.2a (13-Jul-2008) 2008Ki07, "Frozen Orbitals" appr.   
+#G E,RI$From 1993Li07. Other: 1968Gr07.                                   
+#G M$From K| x ray/I|g ratios in coincidence with individual |a-particle  
+#G groups (1993Li07).                                                     
+#L E$Deduced by evaluators from a least-squares fit to |g-ray energies.   
+#L J,T$From Adopted Levels.                                               
+#L $Shell-model configuration assignments are based on predicted level    
+#L energies, and on those assigned in {+214}Po and {+216}Rn.              
+#L E(A)$ Member of configuration=|ph{-9/2}{+3}~#|ng{-9/2}{+4}             
+#L E(B)$ Member of configuration=|ph{-9/2}{+2}~#|pf{-7/2}~#|ng{-9/2}{+4}  
+#L E(C)$ Member of configuration=|ph{-9/2}{+2}~#|pi{-13/2}~#|ng{-9/2}{+4} 
+#P 0.0          9/2-              20 MS     2              7448.5   18    
++A alpha 7.3123000000000005 0.988
++A alpha 7.1457 0.0025
++A alpha 6.9673 0.006
++A alpha 6.956600000000001 2.0E-4
++A alpha 6.8462 5.0E-4
++A alpha 6.802899999999999 0.0025
++A alpha 6.744 3.0E-4
+

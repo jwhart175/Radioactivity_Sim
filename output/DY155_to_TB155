@@ -1,0 +1,339 @@
+#155TB    155DY EC DECAY                1980AB17                  05NDS    200501
+#  155DY EC DECAY                1980AB17                  05NDS    200501
+#H TYP=FUL$AUT=C. W. REICH$CIT=NDS 104, 1 (2005)$CUT=1-Jun-2004$          
+#  DATA SET UPDATED (AUGUST, 2003) BY CW REICH TO INCLUDE MANY NEW,       
+#   ALBEIT UNPLACED, GAMMAS, MENTION OF SEVERAL NEW PROPOSED, BUT NOT     
+#   ADOPTED LEVELS, AND REVISED MR VALUES FOR SEVERAL GAMMAS.             
+#  The decay scheme presented here is based largely on the data of        
+#  1980Ab17. This same information is also given in 1980AbZZ. Other       
+#  references: 1977Al30, 1973Ba06, 1972Ha41, 1969Ju02, 1967Bl12, 1963Pe13.
+#  1980Ab17: 155DY source material obtained through chemical and isotopic 
+#  separation of reaction products from 660-MEV proton spallation on a    
+#  Ta target. Measured EG, RI using a GELI detector. Measured ECE, ICE    
+#  using constant uniform-field B spectrographs, with the electrons       
+#  being recorded in photographic plates. A SILI detector was also used   
+#  to detect conversion electrons.                                        
+#  1980Bu04: MEASURE B+ SPECTRA OF CHEMICALLY AND ISOTOPICALLY PURIFIED   
+#   155DY SOURCES, USING AN IRON-FREE B-RAY SPECTROMETER HAVING A         
+#   TOROIDAL MAGNETIC FIELD. MAXIMUM TRANSMISSION WAS AP 20%, AND THE     
+#   RESOLUTION WAS AP 1.1%.                                               
+#  1996AdZW MEASURE THE G SPECTRA FROM THE 155DY DECAY USING A VARIETY    
+#   OF Ge DETECTORS. SOURCE MATERIAL WAS PRODUCED VIA 660-MEV PROTON      
+#   BOMBARDMENT OF A TARGET, FOLLOWED BY CHEMICAL AND ISOTOPE SEPARATION. 
+#   A NUMBER OF PREVIOUSLY UNREPORTED WEAK G'S WERE OBSERVED, BUT NOT     
+#   PLACED IN THE DECAY SCHEME.                                           
+#  1984SHZN AND 1996KrZY USE LOW-TEMPERATURE NUCLEAR ORIENTATION OF       
+#   CHEMICALLY AND ISOTOPICALLY SEPARATED 155DY SAMPLES EMBEDDED IN A     
+#   Gd MATRIX TO DEDUCE MIXING RATIOS FOR A NUMBER OF THE 155TB G RAYS.   
+#  1998AdZX MEASURE GG COINCIDENCES USING HPGE DETECTORS. THESE AUTHORS   
+#   REPORT THE FOLLOWING NEW LEVELS (WITH JPI VALUES IN PARENTHESES):     
+#   614 (3/2+,5/2,7/2-); 726 (5/2+,7/2,9/2-); 937; 940 (5/2+,7/2,9/2-);   
+#   1086; 1316; 1709; 1722; AND 1773. THEY LIST SEVERAL G'S CONNECTING    
+#   THESE LEVELS AS WELL AS PREVIOUSLY REPORTED LEVELS. THESE LEVELS AND  
+#   G'S ARE GIVEN TO ONLY THE NEAREST KEV; AND NO MULTIPOLARITIES ARE     
+#   GIVEN. ASSOCIATION OF SOME OF THESE G'S AND SOME OF THE LISTED LEVELS 
+#   WITH PREVIOUSLY ESTABLISHED LEVELS IS PROBLEMATIC. OTHER THAN THIS    
+#   COMMENT, THE EVALUATOR HAS NOT INCLUDED THIS INFORMATION IN THIS      
+#   DATA SET.                                                             
+#G           The ICE values of 1980Ab17 are reported to have uncertainties
+#G LE 20%. These uncertainties are generally not listed explicitly in     
+#G this evaluation but they have been taken into account in the           
+#G calculation of the RI, MR and CC values that are based on these        
+#G CE data.                                                               
+#G RI        Listed values are those of 1980Ab17, normalized to           
+#G RI(226.9G)=100, unless noted otherwise.                                
+#G E(Z)      EG AND RI ARE FROM 1996AdZW.                                 
+#G RI        I(TB K x rays)=179, relative to RI(226.9G)=100 (1967Bl12)    
+#G M         Unless noted otherwise, the listed values are those deduced  
+#G  by 1980Ab17 from comparison of measured conversion coefficients and   
+#G  L-subshell ratios with theoretical values. The normalization of the   
+#G  RI and ICE data was done by requiring that EKC=0.0287 (the theoretical
+#G  value for E1) for the 226.9 G. Mult=E1 for this G is established by   
+#G  the measured L-subshell ratios (see, for example, 1980Ab17).          
+#G M(Q),MR(Q)$The EKC values deduced by 1980Ab17 for a number of the G    
+#G transitions seem disturbingly large. They lead to rather large M2/E1   
+#G mixing ratios for some low-energy (below AP 800 KEV) transitions for   
+#G which DPI=yes and, in some instances, imply pure M2 transitions which  
+#G compete favorably with higher-energy transitions of lower              
+#G multipole order. The reason for these large EKC values, if they are    
+#G indeed incorrect, is not clear; they appear in many instances to be    
+#G associated with small values of ICE(K). The existence of large values  
+#G of EKC has also been used by 1980Ab17 to infer the presence of E0      
+#G components in transitions for which DPI=no. In some instances, the     
+#G interpretation of M2 rather than E0 in a transition seems to have      
+#G been based largely on whether or not a parity change was involved.     
+#G Thus, these admixtures, and the deduced mults, are determined from     
+#G considerations other that of EKC alone. The evaluator has used the     
+#G mults and MR values from these EKC data, but has generally avoided     
+#G using them in adopting JPI values for the associated levels.           
+#G CC        For mixed transitions involving no parity change and for     
+#G  which MR is not known, the listed value was calculated assuming MR=1. 
+#G CC(P)     Computed by the evaluator from the EKC value reported by     
+#G 1980Ab17, assuming ECC=EKC+1.33LC and KC/LC=6.7, this latter ratio     
+#G representing a reasonable average between those of M1 and E2 and E0    
+#G transitions in this energy region.                                     
+#G MR        Unless otherwise indicated, the listed values are those      
+#G calculated by the evaluator from the L-subshell ratios reported by     
+#G 1980Ab17.                                                              
+#G MR        IN THE LOW-TEMPERATURE NUCLEAR ORIENTATION STUDIES OF        
+#G  1984ShZN AND 1996KrZY, SOME MR VALUES ARE SHOWN WITH MINUS SIGNS AND  
+#G  SOME WITHOUT A SIGN. THE EVALUATOR HAS ASSUMED THAT THESE LATTER      
+#G  SHOULD BE POSITIVE AND HAS LISTED THEM, WHERE AN MR VALUE IS          
+#G  ADOPTED, WITH A POSITIVE SIGN.                                        
+#G E(J)      G shown as questionably placed by 1980Ab17. Several problems 
+#G are presented by this transition. 1980Ab17 report ICE(K)=0.0016, which 
+#G gives mult=E1, inconsistent with the indicated placement in the decay  
+#G scheme. 1972Ha41, however, state that this transition is E2, based on  
+#G their measured L-subshell ratios (these data are not shown in their    
+#G paper); however, mult=E2, together with the adopted RI, would lead to  
+#G ICE(K)=0.0062. 1971Wi24 report a G transition deexciting to the GS from
+#G this level, although it is weaker, relative to the 269.3 G, by a       
+#G factor of AP 4 than the RI value of the 334.9 G given by 1980Ab17 (the 
+#G one listed here). The energy fit is also not particularly good. No     
+#G resolution of these difficulties is apparent at this time. It may be   
+#G that the 334.963 peak reported by 1980Ab17 is complex, with only a     
+#G small portion of it being the GS transition, but this is merely        
+#G speculation at this time.                                              
+#L E         COMPUTED FROM A LEAST-SQUARES FIT TO THE LISTED EG VALUES.   
+#L J         From adopted values                                          
+#L BAND(A)   MEMBER OF THE 3/2[411] BAND                                  
+#L BAND(B)   MEMBER OF THE 5/2(532) BAND.                                 
+#L this band is strongly CORIOLIS mixed with other h11/2-related          
+#L NILSSON orbitals.                                                      
+#L BAND(C)   MEMBER OF THE 5/2[413] BAND                                  
+#L BAND(D)   BANDHEAD OF 5/2[402]                                         
+#L BAND(N)   PROBABLE 7/2[404] BANDHEAD                                   
+#P 0.0          3/2-              9.9 H    2              2094.5    19    
+DY155 TB155 beta+ 2.0945 0.0 0.684
++G gamma 0.0 1.7999999999999998E-4
++G gamma 0.248645 0.00157
++G gamma 0.27681 5.600000000000001E-4
++G gamma 0.37772 7.199999999999999E-4
++G gamma 0.42185 6.3E-4
++G gamma 0.44144 5.8E-4
++G gamma 0.53312 3.1E-4
++G gamma 0.534 3.0E-4
++G gamma 0.54224 8.6E-4
++G gamma 0.55944 4.7E-4
++G gamma 0.59914 3.4E-4
++G gamma 0.61483 4.3E-4
++G gamma 0.6566900000000001 0.00191
++G gamma 0.66162 8.0E-4
++G gamma 0.6664 8.0E-4
++G gamma 0.66902 9.5E-4
++G gamma 0.6763899999999999 5.8E-4
++G gamma 0.7011499999999999 8.3E-4
++G gamma 0.71249 6.7E-4
++G gamma 0.7211900000000001 0.00415
++G gamma 0.73912 1.4000000000000001E-4
++G gamma 0.75899 6.900000000000001E-4
++G gamma 0.7654 5.4E-4
++G gamma 0.78219 0.0015199999999999999
++G gamma 0.78461 0.00123
++G gamma 0.80828 0.0013700000000000001
++G gamma 0.85478 7.4E-4
++G gamma 0.8753 3.7E-4
++G gamma 0.9254 2.0E-4
++G gamma 0.9381900000000001 0.0017299999999999998
++G gamma 0.94999 8.0E-4
++G gamma 0.99418 8.3E-4
++G gamma 1.00996 4.3E-4
++G gamma 1.14344 7.9E-4
++G gamma 1.17259 7.199999999999999E-4
++G gamma 1.28908 1.4000000000000001E-4
++G gamma 1.402 1.6E-4
++G gamma 1.4045 2.0E-4
++G gamma 1.5577999999999999 8.999999999999999E-5
++G gamma 1.56291 0.00121
++G gamma 1.6064 0.00911
++G gamma 1.61052 5.4000000000000005E-5
++G gamma 1.6478199999999998 1.51E-4
++G gamma 1.6781 1.0E-4
++G gamma 1.6916 1.4000000000000001E-4
++G gamma 1.7455999999999998 1.73E-4
++G gamma 0.065459 0.0268
++G gamma 0.09032599999999999 0.015600000000000001
++G gamma 0.155765 0.0030299999999999997
++G gamma 0.071157 6.4E-4
++G gamma 0.161443 0.0168
++G gamma 0.226918 1.0
++G gamma 0.023129999999999998 3.7999999999999997E-4
++G gamma 0.184564 0.0493
++G gamma 0.021005 2.1E-4
++G gamma 0.115268 0.0014199999999999998
++G gamma 0.205583 0.00521
++G gamma 0.27105599999999996 0.0177
++G gamma 0.118304 0.0014099999999999998
++G gamma 0.208583 3.5999999999999997E-4
++G gamma 0.06702899999999999 5.8E-4
++G gamma 0.1613 0.00107
++G gamma 0.063781 2.6E-4
++G gamma 0.08483 3.2E-4
++G gamma 0.107925 7.000000000000001E-4
++G gamma 0.17893 2.8000000000000003E-4
++G gamma 0.269358 0.00252
++G gamma 0.334963 0.00179
++G gamma 0.131946 3.0E-4
++G gamma 0.19568000000000002 3.1E-4
++G gamma 0.21685 0.0019
++G gamma 0.31118 4.8E-4
++G gamma 0.46695 2.8000000000000003E-4
++G gamma 0.34267000000000003 7.000000000000001E-4
++G gamma 0.43315 0.0104
++G gamma 0.49861700000000003 0.0256
++G gamma 0.35247 2.0E-4
++G gamma 0.50844 0.0174
++G gamma 0.452248 0.00234
++G gamma 0.51762 0.00111
++G gamma 0.29489 7.000000000000001E-4
++G gamma 0.317947 0.0030399999999999997
++G gamma 0.32227 4.0E-4
++G gamma 0.48415800000000003 0.015600000000000001
++G gamma 0.549643 0.013999999999999999
++G gamma 0.134552 1.8999999999999998E-4
++G gamma 0.15337 6.7E-4
++G gamma 0.40196 5.099999999999999E-4
++G gamma 0.42502999999999996 8.9E-4
++G gamma 0.49622000000000005 0.0021
++G gamma 0.5864400000000001 0.0023899999999999998
++G gamma 0.58816 7.599999999999999E-4
++G gamma 0.67838 0.00291
++G gamma 0.7439 0.002
++G gamma 0.695138 0.00309
++G gamma 0.7607 0.00128
++G gamma 0.264621 0.0021
++G gamma 0.65392 0.0017599999999999998
++G gamma 0.70587 3.1E-4
++G gamma 0.79644 8.4E-4
++G gamma 0.8617400000000001 6.1E-4
++G gamma 0.382772 0.00264
++G gamma 0.641072 0.0183
++G gamma 0.664173 0.032799999999999996
++G gamma 0.8256 0.0019
++G gamma 0.89113 0.0086
++G gamma 0.35687 2.1E-4
++G gamma 0.43956 6.7E-4
++G gamma 0.6324 2.0E-4
++G gamma 0.72346 0.00146
++G gamma 0.81198 0.0059
++G gamma 0.83516 0.0037
++G gamma 0.9967 0.00396
++G gamma 1.06209 0.00565
++G gamma 0.84153 0.004079999999999999
++G gamma 1.0030299999999999 0.0023899999999999998
++G gamma 1.0681800000000001 0.0084
++G gamma 0.80287 2.5E-4
++G gamma 0.84578 7.000000000000001E-4
++G gamma 0.8489800000000001 0.0026
++G gamma 1.12011 0.00109
++G gamma 0.39454 4.1E-4
++G gamma 0.8204 4.7E-4
++G gamma 0.83848 0.00188
++G gamma 0.88442 8.799999999999999E-4
++G gamma 0.905515 0.0358
++G gamma 0.928535 0.0105
++G gamma 0.9996799999999999 0.0356
++G gamma 1.09 0.041100000000000005
++G gamma 1.15547 0.0305
++G gamma 0.44583999999999996 3.2E-4
++G gamma 0.98182 0.00307
++G gamma 1.1000999999999999 0.0032600000000000003
++G gamma 0.40357 0.0030399999999999997
++G gamma 0.7452000000000001 0.005
++G gamma 0.75007 0.00124
++G gamma 0.97887 5.899999999999999E-4
++G gamma 1.024 3.9E-4
++G gamma 1.295 0.00262
++G gamma 1.117 0.00596
++G gamma 1.20187 5.2E-4
++G gamma 1.3863699999999999 0.0015459999999999998
++G gamma 1.45183 0.0024
++G gamma 0.4088 1.4000000000000001E-4
++G gamma 0.97236 0.0011899999999999999
++G gamma 1.22152 8.799999999999999E-4
++G gamma 1.2426300000000001 0.0012900000000000001
++G gamma 1.26569 2.1999999999999998E-4
++G gamma 1.33683 0.00716
++G gamma 1.42719 0.00604
++G gamma 1.49261 0.00836
++G gamma 0.570449 0.0027900000000000004
++G gamma 0.8782300000000001 5.899999999999999E-4
++G gamma 1.0897999999999999 0.041100000000000005
++G gamma 1.0937000000000001 5.3E-4
++G gamma 1.30405 0.00254
++G gamma 1.36777 0.01171
++G gamma 1.38882 0.00148
++G gamma 1.41208 0.00104
++G gamma 1.5735599999999998 0.0014399999999999999
++G gamma 0.91247 0.0032
++G gamma 1.4295 3.2E-4
++G gamma 1.65605 3.7999999999999997E-4
++G gamma 0.59622 6.2E-4
++G gamma 0.6029500000000001 3.5000000000000005E-4
++G gamma 0.7735700000000001 0.00148
++G gamma 0.9209400000000001 0.00158
++G gamma 1.01289 0.00435
++G gamma 1.1152 0.00596
++G gamma 1.16622 0.02473
++G gamma 1.1981400000000002 4.3E-4
++G gamma 1.32985 2.9E-4
++G gamma 1.39383 0.00384
++G gamma 1.41493 0.00362
++G gamma 1.43797 0.00417
++G gamma 1.50927 0.00365
++G gamma 1.59957 0.00388
++G gamma 1.6649800000000001 0.0127
++G gamma 0.6884 1.2E-4
++G gamma 0.9405159999999999 0.00445
++G gamma 1.0982 0.0032600000000000003
++G gamma 1.23234 6.6E-4
++G gamma 1.25124 0.013819999999999999
++G gamma 1.28332 3.32E-4
++G gamma 1.47922 0.00793
++G gamma 1.59452 8.0E-4
++G gamma 1.6847999999999999 0.0016300000000000002
++G gamma 1.75045 4.21E-4
++G gamma 0.5371 1.2E-4
++G gamma 0.72524 0.0028299999999999996
++G gamma 1.05 2.5E-4
++G gamma 1.459 4.5E-4
++G gamma 1.52251 4.5E-4
++G gamma 1.54378 1.53E-4
++G gamma 1.56704 2.9E-4
++G gamma 1.63787 0.0012
++G gamma 1.72802 6.0E-4
++G gamma 1.7936400000000001 7.000000000000001E-4
++G gamma 0.7676000000000001 5.4E-4
++G gamma 0.94424 5.0E-4
++G gamma 1.18405 3.5000000000000005E-4
++G gamma 1.60914 2.6E-4
++G gamma 1.7695999999999998 3.1E-5
++G gamma 1.59004 4.1E-4
++G gamma 1.7953 2.1E-4
++G gamma 0.60994 0.00116
++G gamma 1.2130999999999998 4.8E-4
++G gamma 1.31628 0.00229
++G gamma 1.3483900000000002 9.1E-4
++G gamma 1.35685 3.5999999999999997E-4
++G gamma 1.54873 7.900000000000001E-5
++G gamma 1.7100799999999998 1.8800000000000002E-4
++G gamma 1.86617 1.77E-4
++G gamma 0.9624400000000001 8.699999999999999E-4
++G gamma 1.6419000000000001 1.05E-4
++G gamma 1.71309 2.59E-4
++G gamma 1.8035999999999999 2.11E-4
++G gamma 1.869 5.999999999999999E-6
++G gamma 0.45905 0.00159
++G gamma 1.5779 1.0999999999999999E-4
++G gamma 1.8462 5.9E-5
++G gamma 0.6185900000000001 0.00146
++G gamma 1.7581 3.7000000000000005E-5
++G gamma 1.9136 7.0E-6
++G gamma 0.28981 3.2E-4
++G gamma 0.46206 5.2E-4
++G gamma 1.8892200000000001 3.17E-4
++G gamma 1.95476 2.0299999999999997E-4
++G gamma 0.8719 4.3999999999999996E-4
++G gamma 1.7648599999999999 1.0E-4
++G gamma 1.83555 1.43E-4
+

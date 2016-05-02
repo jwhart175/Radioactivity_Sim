@@ -1,0 +1,70 @@
+#143PM    143SM EC DECAY (8.75 M)       1974FIZF,1973MCZZ         12NDS    201203
+#  143SM EC DECAY (8.75 M)       1974FIZF,1973MCZZ         12NDS    201203
+#H TYP=FUL$AUT=E. BROWNE, J. K. TULI$CIT=NDS 113, 715 (2012)$             
+#H CUT=31-May-2011$                                                       
+#  Measured: |g rays (1974FiZF,1972De23,1970De29,1969He10),               
+#  |g|g coin (1974FiZF,1972De23,1968Bl12),                                
+#  |g(t) (1968He05), |b{++} (1983Al06,1972De23,1966Be21)                  
+#E E(B)$Measured: E|b+=2415 {I30} (1983Al06). Others: 2439 {I40}          
+#E (1995Ve05), 2470 {I30} (1966Be21), 2440 {I250} (1972De23).             
+#E E|b+=2890 {I250} and 1900 {I250} in 1972De23 seem incorrect.           
+#E           |eK/|b{++}=0.98 {I9} (1966Be21). Others: 1.27 {I11}          
+#E (1972Ev01), 0.92 {I9} (1970Bi02)                                       
+#E           I(|g{+|+})/I(1056|g)=46 {I5} (1970De29); other: 39 (1966Be21)
+#G E(A)      Observed only in 1970De29                                    
+#G E,RI      From 1974FiZF. Uncertainties in I|g are statistical only     
+#L E$From least-squares fit to G-ray energies                             
+#L J         From Adopted Levels                                          
+#P 0.0         3/2+              8.75 M    6              3443      4     
+SM143 PM143 beta+ 3.443 525.0 1.0
++B beta+ 8.108999999999999E-4 0.00145
++B beta+ 1.0929 0.09
++G gamma 0.27218000000000003 0.003824
++B beta+ 0.969 0.005
++G gamma 1.0565799999999999 0.0239
++B beta+ 0.6166 0.006999999999999999
++G gamma 1.1731800000000001 0.0052341
++B beta+ 0.565 0.006999999999999999
++G gamma 1.40306 0.0043976
++B beta+ 0.4636 0.008
++G gamma 0.45811 4.541E-4
++G gamma 1.24295 0.0027485000000000005
++G gamma 1.51498 0.008293300000000002
++B beta+ 0.4144 0.008
++G gamma 1.34181 3.585E-4
++B beta+ 0.371 0.008
++G gamma 1.75345 1.195E-4
++B beta+ 0.30989999999999995 0.008
++G gamma 1.54487 6.453E-4
++G gamma 1.81678 3.107E-4
++B beta+ 0.2821 0.008
++G gamma 0.79749 1.912E-4
++G gamma 1.85408 1.4340000000000002E-4
++B beta+ 0.26580000000000004 0.008
++G gamma 1.80864 1.673E-5
++G gamma 2.0808299999999997 1.6729999999999997E-4
++B beta+ 8.396E-4 0.00123
++G gamma 2.00887 1.912E-4
++B beta+ 8.389E-4 0.00125
++G gamma 2.17195 1.912E-4
++G gamma 2.4442 9.56E-5
++B beta+ 8.373E-4 0.00126
++G gamma 2.1928400000000003 4.78E-5
++B beta+ 8.370999999999999E-4 0.00126
++G gamma 2.3421999999999996 7.170000000000001E-5
++G gamma 2.61315 4.541E-4
++B beta+ 8.349999999999999E-4 0.00127
++G gamma 2.4595 4.78E-5
++B beta+ 8.327E-4 0.0012900000000000001
++G gamma 2.6334 7.170000000000001E-5
++G gamma 2.904 1.673E-5
+
+#143PM CG RI        Relative to RI(754G)=100 with 143SM IT DECAY.                
+#G RI        Relative to RI(754G)=100 with 143SM IT DECAY.                
+#G M         From Adopted Gammas                                          
+#L J         From Adopted Levels                                          
+#P 753.99    1611/2-             66 S      2              3443      4     
+SM143 PM143 IT 0.0 66.0 0.0024
++G gamma 0.689 0.8184
++G gamma 0.963 0.15996
+

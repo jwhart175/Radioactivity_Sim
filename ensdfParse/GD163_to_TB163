@@ -1,0 +1,19 @@
+#163TB    163GD B- DECAY (68 S)         1982GE07                  10NDS    201005
+#  163GD B- DECAY (68 S)         1982GE07                  10NDS    201005
+#H TYP=FUL$AUT=C. W. REICH, BALRAJ SINGH$CIT=NDS 111, 1211 (2010)$        
+#H CUT=12-Apr-2010$                                                       
+#  DATA SET UPDATED (JANUARY, 2009) BY CW REICH TO INCLUDE NEW Q- VALUE.  
+#  1982Ge07: {+163}Gd formed by {+252}Cf SF decay and separated by        
+#  chemistry. Measured E|g, I|g. Tentative decay scheme is proposed       
+#  (evaluators) based on first few levels in (t,|a)                       
+#G E(A)$Tentative placement (evaluators) based on a level at 344 in (t,|a)
+#G E(B),RI(B)$This |g ray may have a contribution from an impurity        
+#G (evaluators) since decay time of { 181 s {I9}} (1982Ge07) is larger by 
+#G a factor of |?3 from weighted average T{-1/2}=68 s {I3} deduced from   
+#G ten other |g rays                                                      
+#G E(C)$Tentative placement (1992Ga15) based on a level at 373 in (t,|a)  
+#L E(A)$From (t,|a)                                                       
+#L J$From adopted levels                                                  
+#P 0.0         (5/2-,7/2+)       68 S       3             3170      70    
++G gamma 0.214 0.115
+

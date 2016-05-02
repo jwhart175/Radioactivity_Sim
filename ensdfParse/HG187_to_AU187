@@ -1,0 +1,68 @@
+#187AU    187HG EC DECAY (1.9 M)        1998RU04,1994RUZX,1978BO0509NDS    200905
+#  187HG EC DECAY (1.9 M)        1998RU04,1994RUZX,1978BO0509NDS    200905
+#H TYP=ERR$AUT=M. S. Basunia$DAT=7-Nov-2013$COM=Corrected parent          
+#H half-life$                                                             
+#H TYP=FUL$AUT=M. S. Basunia$CIT=NDS 110, 999 (2009)$CUT=1-Nov-2008$      
+#  Other references: 1995Ru07, 1988Pa15, 1988Ko22, 1986Be07, 1983Be48,    
+#  1975Ho03, and 1970Du09.                                                
+#  1998Ru04,1994RuZX,1995Ru07: Mass separated {+187}Hg{+g} were obtained  
+#  from the {+187}Tl{+m,g} decay produced through {+176}Hf({+19}F,8n);    
+#  Detector: Ge(Li), Se(Li); Measured: E|g, I|g, |a(K)exp, |g|g t,        
+#  ce-|g-t, |g-x-t, and ce-x-t.                                           
+#  1978Bo05: On line mass separated {+187}Hg from Au(p,xn)Hg; Detector:   
+#  Ge(Li), Si(Li); Measured E|g, I|g, |a, |g|g coin, ce-|g coin, |g-ce-t, 
+#  deduced levels, J, |p, mult. Decay scheme includes both the metastable 
+#  (1.9 min) and ground (2.4 min) states decay data together.             
+#  1988Pa15,1988Ko22: Mass-separated {+187}Hg{+g} produced from           
+#  {+180}W({+14}N,7n), E=160 MeV, 187Tl |b{++} decay; {+187}Hg{+m} from   
+#  {+180}W({+12}C,5n), E=120 MeV; Measured: |g|g(t), |g-x-t, |g-ce-t,     
+#  ce-x-t.                                                                
+#  1986Be07,1983Be48: {+187}Hg produced from Au(p,xn), measured level     
+#  T{-1/2} by ce-ce(t), |g-ce(t).                                         
+#  1975Ho03, 1970Du09: Measured total absorption spectrum of {+187}Hg |e  
+#  decay. The spectrum (Fig. 3 of 1975Ho03) indicates level population    
+#  in the {+187}Hg |e Decay upto |?4500 keV. 1970Du09 shows the total     
+#  absorption of the {+187}Hg decay upto |?3000 keV (Fig. 8e - 1970Du09). 
+#P 0.0             3/2(-)        1.9 M     3               4890     30    
++G gamma 0.7002999999999999 0.151
++G gamma 1.5831 0.015
++G gamma 1.6078 0.018000000000000002
++G gamma 1.7443 0.081
+
+#187AU    187HG EC DECAY (2.4 M)        1998RU04,1994RUZX,1978BO0509NDS    200905
+#  187HG EC DECAY (2.4 M)        1998RU04,1994RUZX,1978BO0509NDS    200905
+#H TYP=ERR$AUT=M. S. Basunia$DAT=7-Nov-2013$COM=Corrected parent          
+#H half-life$                                                             
+#H TYP=FUL$AUT=M. S. Basunia$CIT=NDS 110, 999 (2009)$CUT=1-Nov-2008$      
+#  Other references: 1995Ru07, 1988Pa15, 1988Ko22, 1986Be07, 1983Be48,    
+#  1975Ho03, and 1970Du09.                                                
+#  1998Ru04,1994RuZX,1995Ru07: Mass separated {+187}Hg{+g} were obtained  
+#  from the {+187}Tl{+m,g} decay produced through {+176}Hf({+19}F,8n);    
+#  Detector: Ge(Li), Se(Li); Measured: E|g, I|g, |a(K)exp, |g|g t,        
+#  ce-|g-t, |g-x-t, and ce-x-t.                                           
+#  1978Bo05: On line mass separated {+187}Hg from Au(p,xn)Hg; Detector:   
+#  Ge(Li), Si(Li); Measured E|g, I|g, |a, |g|g coin, ce-|g coin, |g-ce-t, 
+#  deduced levels, J, |p, mult.                                           
+#  1988Pa15,1988Ko22: Mass-separated {+187}Hg{+g} produced from           
+#  {+180}W({+14}N,7n), E=160 MeV, 187Tl |b{++} decay; {+187}Hg{+m} from   
+#  {+180}W({+12}C,5n), E=120 MeV; Measured: |g|g(t), |g-x-t, |g-ce-t,     
+#  ce-x-t.                                                                
+#  1986Be07,1983Be48: {+187}Hg produced from Au(p,xn), measured level     
+#  T{-1/2} by ce-ce(t), |g-ce(t).                                         
+#  1975Ho03, 1970Du09: Measured total absorption spectrum of {+187}Hg |e  
+#  decay. The spectrum (Fig. 3 of 1975Ho03) indicates level population    
+#  in the {+187}Hg |e Decay upto |?4500 keV. 1970Du09 shows the total     
+#  absorption of the {+187}Hg decay upto |?3000 keV (Fig. 8e - 1970Du09). 
+#P 0.0+X            13/2(+)      2.4 M     3                   4890 30    
++G gamma 0.3426 0.006500000000000001
++G gamma 0.6141 0.017
++G gamma 0.6217999999999999 0.017
++G gamma 0.6508999999999999 0.023
++G gamma 0.5695 0.012
++G gamma 0.542 0.008
++G gamma 1.1425 0.008
++G gamma 1.2772000000000001 0.004
++G gamma 0.9961 0.006999999999999999
++G gamma 1.435 0.004
++G gamma 1.4610999999999998 0.006
+

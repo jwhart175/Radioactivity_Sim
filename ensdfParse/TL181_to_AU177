@@ -1,0 +1,34 @@
+#177AU    181TL A DECAY (1.4 MS)        1998TO14                  03NDS    200305
+#  181TL A DECAY (1.4 MS)        1998TO14                  03NDS    200305
+#H TYP=FUL$AUT=F.G. KONDEV$CIT=NDS 98, 801 (2003)$CUT=1-Aug-2002$         
+#  1998To14: Source produced using the 90ZR(92MO,P) and                   
+#  92ZR(92MO,P2N) reactions. Projectile: 92MO, E=420 MeV.                 
+#  Targets: 90ZR, 1.05 MG/CM2 thick and 92ZR, 0.51 MG/CM2 thick.          
+#  Detectors: Argonne Fragment Mass Analyzer, Parallel Grid               
+#  Avalanche Counter, 40x40 strips Double-sided Silicon Strip Detector.   
+#  Measured: time correlated EA, IA, T , recoil-EA coin and               
+#  EA(parent)-EA(daughter) correlations. The typical beam intensity was   
+#  2 particle nA.                                                         
+#  Others: 1984SCZQ.                                                      
+#L J,T$From adopted levels.                                               
+#A E$From 1998TO14.                                                       
+#P 0.0+X                         1.4 MS    5              6600      SY    
+TL181 AU177 alpha 6.6 0.0014 1.0
+
+#177AU    181TL A DECAY (3.2 S)         1998TO14                  03NDS    200305
+#  181TL A DECAY (3.2 S)         1998TO14                  03NDS    200305
+#H TYP=FUL$AUT=F.G. KONDEV$CIT=NDS 98, 801 (2003)$CUT=1-Aug-2002$         
+#  1998To14: Source produced using the 90ZR(92MO,P) and                   
+#  92ZR(92MO,P2N) reactions. Projectile: 92MO, E=420 MeV.                 
+#  Targets: 90ZR, 1.05 MG/CM2 thick and 92ZR, 0.51 MG/CM2 thick.          
+#  Detectors: Argonne Fragment Mass Analyzer, Parallel Grid               
+#  Avalanche Counter, 40x40 strips Double-sided Silicon Strip Detector.   
+#  Measured: time correlated EA, IA, T , recoil-EA coin and               
+#  EA(parent)-EA(daughter) correlations. The typical beam intensity was   
+#  2 particle nA.                                                         
+#  Others: 1996TO01, 1993BOZK, 1992BlZW, 1992BoZO.                        
+#L E,J,T$From adopted levels.                                             
+#A E$From 1998TO14.                                                       
+#P 0.0+Y                         3.2 S     3              6600      SY    
+TL181 AU177 alpha 6.6 3.2 1.0
+

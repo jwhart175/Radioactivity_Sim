@@ -1,0 +1,46 @@
+#136SM    136EU EC DECAY                1989VI04                  02NDS    200206
+#  136EU EC DECAY                1989VI04                  02NDS    200206
+#H TYP=FUL$AUT=A.A. Sonzogni$CIT=NDS 95, 837 (2002)$CUT=1-Feb-2002$       
+#  Activity from (46TI,PN) E=192 MEV. Measured: B+p, XK, G, XG, GG, G+-,  
+#  G(T)                                                                   
+#  Others: 1988BEYG, 1987KE05, 1986MLZZ                                   
+#  1987KEZY also performed triaxial and interacting-boson model           
+#  calculations for 136,138,140SM                                         
+#  From strong feeding of 2+ and 8+ levels in EC decay authors conclude   
+#  that the decay is due to both a high- and a low-spin isomer.           
+#  T1/2(255.1G)=3.7 S 3, T1/2(431.7G)=3.3 S 3.                            
+#E TI,LOGFT$Authors values based upon I(G+-), I(XK) measurements and      
+#E estimated Q(EC)=10.4 MEV. To correct I(XK) due to internal conversion  
+#E G's of unknown multipolarity were assumed M1.                          
+#G M$From adopted G's                                                     
+#L E$From least-squares fit to EG                                         
+#L J$From adopted levels                                                  
+#P1X           (7+)              3.3 S     3              1.04E+4   CA    
+EU136 SM136 beta+ 10.4 3.3 1.0
++G gamma 0.10909999999999999 0.01
++G gamma 0.21180000000000002 0.025
++G gamma 0.234 0.004
++G gamma 0.284 0.003
++G gamma 0.384 0.004
++G gamma 0.54 0.009000000000000001
++G gamma 0.544 0.03
++G gamma 0.5839 0.07
++G gamma 0.5927 0.07
++G gamma 0.6606000000000001 0.03
++G gamma 0.6685 0.04
++G gamma 0.696 0.04
++G gamma 0.815 0.04
++G gamma 1.001 0.1
++G gamma 0.2551 1.0
++G gamma 0.4317 0.34
++G gamma 0.458 0.2
++G gamma 0.713 0.17
++G gamma 0.4573 0.03
++G gamma 0.4835 0.03
++G gamma 0.5347000000000001 0.1
++G gamma 0.3201 0.02
++G gamma 0.778 0.17
++G gamma 1.236 0.03
++G gamma 1.4909000000000001 0.03
++G gamma 0.5756 0.07
+

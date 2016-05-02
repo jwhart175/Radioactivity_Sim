@@ -1,0 +1,37 @@
+# 68ZN    68GA EC DECAY                 1999BEZQ,1999BEZS         12NDS    201206
+#  68GA EC DECAY                 1999BEZQ,1999BEZS         12NDS    201206
+#H TYP=FUL$AUT=E.A. McCutchan$CIT=NDS 113, 1735 (2012)$CUT=1-Mar-2012$    
+#  1994Vo15: {+68}Ga activity in equilibrium with the parent {+68}Ge.     
+#  Measured E|g, I|g, |g|g, and |g|g(|q) using high energy resolution     
+#  array (HERA) consisting of 20 Compton suppressed Ge detectors and a    
+#  4|p, 40 element BGO inner ball.                                        
+#  1994Sc44: {+68}Ga activity in equilibrium with the parent {+68}Ge.     
+#  Measured E|g, I|g, Ex, Ix, |b-|g coincidence using Si(Li), Ge(Li),     
+#  HPGe detectors; deduced |g-emission probability.                       
+#  1973La01: Source preparation method not given. Measured E|g, I|g, and  
+#  |g|g(|q) using NaI(Tl) and Ge(Li) detectors.                           
+#  1972Sl03: {+68}Ga activity prepared from {+68}Zn(p,n) and              
+#  {+69}Ga(p,2n) reactions. Measured E|g, I|g, E|b+, and Ice using        
+#  double focusing |b spectrometer and Ge(Li) detector.                   
+#  1968Ca15: {+68}Ga activity prepared from the parent activity of        
+#  {+68}Ge by chemical separation. Measured E|g, I|g, |g|g-coin, and      
+#  |g|g(|q) using NaI(Tl) and Ge(Li) detectors.                           
+#  {+68}Ga decay scheme is mainly from 1994Vo15.                          
+#  Others: 2001Ko07,1996Sk03,1996Vo10, 1993Os06, 1992Os07, 1991Ka35,      
+#  1984Sc35, 1969Va16, 1967Ta01, 1965He08, 1965Ba36, 1963Ta03, 1962Ko01,  
+#  1960Ra06, 1959Ho85, 1959Ra04.                                          
+#L E$From a least-squares fit to E|g's, by evaluator.                     
+#L J,T$From the Adopted Levels.                                           
+#G E,RI$Values recommended by 1999BeZQ and 1999BeZS, except where noted.  
+#G M,CC$From the Adopted Gammas, except as noted.                         
+#G E(c)$From 1994Vo15.                                                    
+#G MR$From |g|g(|q) in 1994Vo15                                           
+#E TI$From I(|g+ce) imbalance at each level.                              
+#  CC$ FROM BrIcc v2.2b (20-Jan-2009) 2008Ki07, "Frozen Orbitals" appr.   
+#P 0.0          1+                67.71 M   8              2921.1   12    
++B beta+ 0.83602 0.8772
++B beta+ 0.35258999999999996 0.011899999999999999
++B beta+ 0.10753 2.58E-6
++B beta+ 8.838E-4 9.862E-4
++B beta+ 8.824999999999999E-4 9.975000000000001E-4
+

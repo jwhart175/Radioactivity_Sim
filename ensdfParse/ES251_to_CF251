@@ -1,0 +1,19 @@
+#251CF    251ES EC DECAY                1970AH01,2005AH09         13NDS    201309
+#  251ES EC DECAY                1970AH01,2005AH09         13NDS    201309
+#H TYP=FUL$AUT=E. BROWNE, J. K. TULI$CIT=NDS 114, 1041 (2013)$            
+#H CUT=1-Jan-2012$                                                        
+#G CC$ FROM BrIcc v2.2 (31-Mar-2008) 2008KiAA, "Frozen Orbitals" appr.    
+#  Production: {+249}Bk(|a,xn) and {+249}Bk({+3}He,xn), ion               
+#  chem. Measured: E|g, I|g, |g|g, (Ge(Li), NaI(Tl)) (1970Ah01)           
+#  2005Ah09: decay product of {+251}Fm. Measured ce, Si(Li), FWHM=1 at    
+#  100 keV; |g, Ge(Li).                                                   
+#P 0             3/2-            33 H      1               377       2    
++B beta+ 6.102E-4 0.0027
++G gamma 0.08120000000000001 5.0E-5
++G gamma 0.0715 8.999999999999999E-5
++G gamma 0.1298 0.0084
++G gamma 0.15280000000000002 0.0053
++G gamma 0.1776 0.013000000000000001
++B beta+ 3.01E-4 0.00486
++G gamma 0.16369999999999998 0.56
+

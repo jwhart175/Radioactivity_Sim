@@ -1,0 +1,60 @@
+#185W     185TA B- DECAY                1970MA60,1969KU07         05NDS    200601
+#  185TA B- DECAY                1970MA60,1969KU07         05NDS    200601
+#H TYP=FUL$AUT=S. -C. WU$CIT=NDS 106, 619 (2005)$CUT=1-Nov-2005$          
+#  MODIFIED BY E. BROWNE (SEPTEMBER 1993).                                
+#  1970Ma60: Radioactivity {+185}Ta produced by {+186}W(|g,p); enriched   
+#  target; Ge(Li) detectors; measured E|g, I|g, I(ce).                    
+#  1969Ku07: Radioactivity of {+185}Ta produced by W(|g,p);               
+#  Ge(Li) and Si(Li) detectors; measured E|g, I|g, I(ce), E|b, ICC,       
+#  |b|g-delay, X|g-delay.                                                 
+#  Others: 1955Po26, 1960Mo04.                                            
+#L E         From a least-squares fit to |g-ray energies of               
+#L 1970Ma60 and 1969Ku07, unless otherwise specified.                     
+#L J         From adopted levels.                                         
+#G E         Weighted average, with |h{+2} minimization, from 1970Ma60 and
+#G 1969Ku07, unless otherwise specified. Values for E|g>300 keV are       
+#G from 1969Ku07.                                                         
+#G RI$From a statistical analysis of |g-ray intensities from 1970Ma60     
+#G and 1969Ku07, unless otherwise specified. The scales                   
+#G for the linearly related intensities from both studies have been       
+#G adjusted using the methods of Tepel (1980TeZW) and Lederer (1982LeZJ). 
+#G After a statistical analysis, data uncertainties have been increased   
+#G when needed for minimizing |h{+2}. Calculations have been done         
+#G using the computer program GAMUT (1984FiZU).                           
+#G Intensities for E|g>300 keV are from 1969Ku07.                         
+#G M         From ce data of 1969Ku07. Transitions from {+203}Tl,         
+#G {+170}Yb, {+57}Fe, and {+180}W were used for normalizing ce and photon 
+#G intensities.                                                           
+#G MR$Deduced from conversion coefficients (1969Ku07)                     
+#G E(P)      |g ray not observed. E|g is from {+185}W IT decay (1.67 min).
+#G TI(Q)     From intensity balance at 93.3 level, and                    
+#G I(|g+ce)(69.7|g)/I(|g+ce)(93.3|g)=2.8 {I10} deduced from intensity     
+#G balance at 93.3 level in {+185}W IT decay (1.67 min).                  
+#G E(B,F),RI(B)$From 1969Ku07.                                            
+#G E(D,E),RI(D)$From 1970Ma60.                                            
+#G E(K)      Multiply placed; however, I|g component from 93.30 level     
+#G (deduced from I(|g+ce)) is negligible.                                 
+#L T(H)      From |b-|g delayed coincidence (1969Ku07).                   
+#L E(I)      From {+185}W IT decay (1.67 min).                            
+#P 0.0         (7/2+)            49.4 M    15             1994      14    
++G gamma 0.5805 0.005397000000000001
++G gamma 0.5887 0.007967
++G gamma 0.913 0.0012079
++G gamma 1.122 2.056E-5
++G gamma 1.138 7.71E-5
++G gamma 1.147 7.71E-5
++G gamma 0.023600000000000003 0.0012850000000000001
++G gamma 0.0425 5.14E-4
++B beta- 0.669 0.27
++B beta- 0.663 0.0055000000000000005
++G gamma 0.09459999999999999 1.5934E-4
++G gamma 0.12204999999999999 1.542E-4
++B beta- 0.639 0.68
++G gamma 0.15030000000000002 0.0012336
++B beta- 0.577 0.019
++B beta- 0.415 0.017
++B beta- 0.307 0.005600000000000001
++G gamma 0.965 8.995E-4
++G gamma 0.993 0.002313
++G gamma 1.059 0.002313
+

@@ -1,0 +1,63 @@
+#127IN    127CD B- DECAY                2009Ar04,1986HO24         11NDS    201108
+#  127CD B- DECAY                2009Ar04,1986HO24         11NDS    201108
+#H TYP=FUL$AUT=A. HASHIZUME$CIT=NDS 112, 1647 (2011)$CUT=1-Oct-2009$      
+#  2009Ar04: Source from RILIS(ISOLDE Resonance Ionization Laser Ion      
+#  Source), |g, |g|g coin                                                 
+#  1986Ho24: Source from {+235}U(n,F), on-line mass separation; |g,       
+#  |g|g coin                                                              
+#  Decay scheme is that proposed by 1986Ho24, two levels are added        
+#  by 2009Ar04.                                                           
+#L E$From least-squares fit to E(|g's) (by evaluator); same as adopted    
+#L levels                                                                 
+#L E(D)$Levels reported both by 2009Ar04 and 1996Ho25                     
+#L J         From adopted levels                                          
+#G E         From 1986Ho24, unless otherwise noted                        
+#G E(A)      From 2009Ar04                                                
+#G E(B)      Questionable line (1986Ma42). Assignment to {+127}In is      
+#G uncertain                                                              
+#G E(C)      Assigned by 2009Ar04                                         
+#P 0.0         (3/2+)            0.37 S    7              8.47E3     6    
+CD127 IN127 beta- 8.47 0.37 1.0
++G gamma 0.12212999999999999 0.002988
++G gamma 0.2043 0.006889000000000001
++G gamma 0.339 0.005229
++G gamma 0.38880000000000003 0.006889000000000001
++G gamma 0.688 0.01079
++G gamma 0.863 0.005395
++G gamma 1.1602000000000001 0.008051
++G gamma 1.3725 0.00664
++G gamma 1.6628 0.0027389999999999997
++G gamma 1.686 0.009130000000000001
++G gamma 1.7846 0.0083
++G gamma 1.856 0.012035
++G gamma 1.8680999999999999 0.004067
++G gamma 1.9076 0.0038179999999999998
++G gamma 2.0624000000000002 0.0045650000000000005
++G gamma 2.1936 0.004233
++G gamma 2.25 0.0027389999999999997
++G gamma 2.266 0.00249
++G gamma 2.3390999999999997 0.03237
++G gamma 2.443 0.002573
++G gamma 2.4823000000000004 0.0039840000000000006
++G gamma 2.535 0.0030710000000000004
++G gamma 2.6379 0.0022410000000000004
++G gamma 2.9413 0.014525000000000001
++G gamma 3.1089 0.007387
++G gamma 3.5211 0.00332
++G gamma 0.5236000000000001 0.05146
++G gamma 1.067 0.05063000000000001
++G gamma 1.20227 0.04482
++G gamma 0.16898 0.012450000000000001
++G gamma 1.23507 0.083
++G gamma 0.36819999999999997 0.007221
++G gamma 0.6567000000000001 0.004482000000000001
++G gamma 0.37627999999999995 0.0747
++G gamma 1.7447000000000001 0.00498
++G gamma 2.6774 0.00996
++G gamma 1.7554 0.00498
++G gamma 1.1453 0.0070550000000000005
++G gamma 1.6228 0.014110000000000001
++G gamma 1.2406 0.02241
++G gamma 1.2825 0.02573
++G gamma 1.978 0.0083
+

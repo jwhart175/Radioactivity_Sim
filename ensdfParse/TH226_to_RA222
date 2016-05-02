@@ -1,0 +1,65 @@
+#222RA    226TH A DECAY                                           11NDS    201111
+#  226TH A DECAY                                           11NDS    201111
+#H TYP=FUL$AUT=Sukhjeet Singh, A. K. Jain, Jagdish K. Tuli$               
+#H CIT=NDS 112,2851 (2011)$CUT=31-Mar-2011$                               
+#A $ See 1986Ch36, 1980Ka41, 1979Po23 for theoretical calculations of     
+#A |a-decay probabilities.                                                
+#A $  See 2010WA31, 2009WA01, 2009DE32, 2009NI06 and 2006XU08 for         
+#A calculation of branching ratio and half-lives.                         
+#A 2007PE30, 2006XU04, 2005SH42, 2003BA64, 2002BA60, 2002DU16 for         
+#A calculations of half-lives                                             
+#A See 2005BU38,199DE51, 1996DE19 for calculation of alpha decay width.   
+#A E$ The energies of |a's to the g.s. and to the 111-keV level           
+#A are given as recommended by 1991Ry01 from E|a measurements of          
+#A 1956As38 and 1975VaZD. The energies measured by 1956As38 are increased 
+#A 4.6 keV, the E|a(0) and E|a(111 level) measured by 1975VaZD are        
+#A decreased 0.4 keV and 6.1 keV, respectively, by 1991Ry01 because of    
+#A changes in calibration energies. All other E|a's are calculated by the 
+#A evaluator from E|a(g.s.) and E(level).                                 
+#A IA        Deduced from level scheme, except for I|a(to g.s.) and       
+#A I|a(to 111 level), as indicated.                                       
+#A HF        HF(|a to g.s.)=1.0 gives r{-0}({+222}Ra)=1.5382 {I5}.        
+#A T{-1/2}({+226}Th)=30.57 min {I10}, measured by 1987Mi10, and           
+#A Q(|a)({+226}Th)=6450.9 {I22} of 1993Au05, 2011AuZZ                     
+#A are used in calculations. See                                          
+#A 1990Bu30 for a semiclassical calculation of nuclear radius and         
+#A for systematics of T{-1/2}(|a) and r{-0} values. See also 1977Ba70.    
+#A E(S)      |a has not been observed.                                    
+#G           |g|g: see 1976Ku08, 1956As38.                                
+#G           |a|g: see 1963Le17, 1969Pe17, 1969Br10.                      
+#G           |a|g(|q): see 1971He19, 1954St02.                            
+#G E         From 1976Ku08. Other measurements: 1974Va28, 1969Br10,       
+#G 1956Sm88, 1956As38.                                                    
+#G RI        From 1976Ku08. Relative photon intensities were normalized by
+#G 1976Ku08 to I(324|g of {+222}Ra |a decay)=2.77% (taken from 1969Pe17)  
+#G to obtain intensities per 100 |a decays.                               
+#G E(S)      This |g was not observed in {+226}Th |a decay; its energy is 
+#G the adopted value from {+222}Fr |b{+-} decay.                          
+#G RI(S)     From relative branching deexciting the level, as measured    
+#G in {+222}Fr |b{+-} decay.                                              
+#G RI(E)     I|g(783|g)/I|g(707|g)=0.98 {I9} was measured in {+222}Fr     
+#G |b{+-} decay.                                                          
+#L           |a|g(t):                                                     
+#L                (6234|a)(ce 111|g)(t)   T{-1/2}(111 level)=0.52 ns {I4} 
+#L 5                                                                      
+#L                (|a)(240|g)(t)          T{-1/2}(242 level)<1.2 ns       
+#L                (|a)(190|g)(t)          T{-1/2}(301 level)<1.4 ns       
+#L                                                                        
+#P 0.0          0+                 30.57 M 10             6450.9    22    
++A alpha 6.3368 0.755
++A alpha 6.234 0.228
++A alpha 6.099 0.0126
++A alpha 6.04 0.00187
++A alpha 6.028 0.0020599999999999998
++A alpha 5.874 2.3E-6
++G gamma 0.1723 2.0E-6
++A alpha 5.442 3.4E-6
++G gamma 0.6718999999999999 2.8E-6
++G gamma 0.8027000000000001 6.0E-7
++A alpha 5.333 1.7E-6
++G gamma 0.7075 6.0E-7
++G gamma 0.7233999999999999 2.0E-8
++G gamma 0.783 9.000000000000001E-7
++G gamma 0.9137000000000001 1.0000000000000001E-7
++G gamma 1.025 4.0E-8
+

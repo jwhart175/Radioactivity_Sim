@@ -1,0 +1,68 @@
+#162TM C  2001AlZU STUDIED THE 162YB EC DECAY USING A CONSTANT-FIELD             
+#  2001AlZU STUDIED THE 162YB EC DECAY USING A CONSTANT-FIELD             
+#   MAGNETIC |b SPECTROGRAPH. THEY REPORT ce LINES FROM PREVIOUSLY        
+#   UNREPORTED G'S WITH ENERGIES OF 66.93, 223.4, 245.7, 408.2, 415.8     
+#   AND 672.5 KEV BUT PROVIDE NO OTHER INFORMATION ABOUT THESE G'S.       
+#  Experimental methods:                                                  
+#  1969Pa16:  Produced by 169TM(P,8N) and ER(A,XN) reactions and isotope  
+#       separation.  G singles and GG coincidences measured with Ge       
+#       detectors and CE spectra measured with Si detector.               
+#  1972Ch23:  Produced by 164ER(A,6N) reaction and isotope separation.  G 
+#       singles and GG coincidences measured with Ge detectors.           
+#  1972Go34:  Produced by (3HE,XN) reactions on enriched (76%) 164ER and  
+#       (95%) 166ER.  G and CE singles and GG and GE- coincidences        
+#       measured with Ge and Si(Li) detectors.  Level lifetime measured   
+#       by XG coincidences with NaI(Tl) and Ge detectors.                 
+#  1975St12:  Produced by spallation of Ta target with 660-MeV P followed 
+#       chemical and isotopic separation.  G singles and GG coincidences  
+#       measured with Ge detectors, CE singles measured with magnetic     
+#       spectrographs, and GB+ coincidences measured with NaI(Tl) and     
+#       Si(Li) detectors.                                                 
+#  1980AdZV:  Abstract; see 1982Ad03 for published version.               
+#  1981AdZW:  Abstract; see 1982Ad03 for published version.               
+#  1982Ad03:  Produced by spallation of Ta and Hf targets with 660-MeV P  
+#       with chemical and isotope separations.  G and CE singles and GG   
+#       and GE- coincidences measured with Ge G detectors and Si(Li),     
+#       magnetic spectrographs and spectometers for CE detectors.         
+#  1989So01:  Theoretical calculation of LOGFT for 0+ to 1+ B+ transition.
+#E TI        Values are from G-intensity balances and RI normalization    
+#E and assume the decay scheme given is complete. The values of           
+#E less than 1% may not be meaningful since there are unplaced            
+#E G's with intensities of up to 0.4%.                                    
+#G           Data are from 1982Ad03 except as otherwise noted.            
+#G E         The uncertainties may be underestimated since the fit of the 
+#G level energies has a reduced-CHI**2 value of 2.6.                      
+#G RI        I(K x)=250 18                                                
+#G M         From 1982Ad03 and based on L subshell ratios and EKC values. 
+#G For G's of 44, 118, and 163 keV, the same assignments are made         
+#G by 1969Pa16, 1972Ch23, 1972Go34, and 1975St12.                         
+#G MR        From 1982Ad03 with similar values given by 1975St12 and      
+#G 1972Go34.                                                              
+#L           Coincidence information in the plot is from 1982Ad03.        
+#L E         Computed from least-squares fit to the G energies. The       
+#L uncertainties may be underestimated since the reduced-CHI**2           
+#L value is 2.6.                                                          
+#L J         From 162TM Adopted Levels, but determined primarily from     
+#L this study.                                                            
+#L T         For the excited levels from data from this decay mode only.  
+#L See 162TM Adopted Levels for a summary of all such data.               
+#L T         Data in 1977AnZG are taken to be a preliminary version of dat
+#L      in 1978Sc10.                                                      
+#L BAND(A)   KPI=1- band.  CONF=(|n 3/2[521])-(|p 1/2[411])               
+#L BAND(B)   KPI=1+ band.  CONF=(|p 7/2[523])-(|n 5/2[523])               
+#P    0         0+                18.87 M  19              1650     30    
++B beta+ 0.30089 7.000000000000001E-4
++B beta+ 0.22863999999999998 0.0011
++G gamma 0.16335 0.4
++B beta+ 8.245E-4 0.00134
++B beta+ 8.2E-4 0.0013800000000000002
++B beta+ 8.198999999999999E-4 0.0013800000000000002
++B beta+ 8.197E-4 0.0013800000000000002
++B beta+ 8.194E-4 0.0013800000000000002
++B beta+ 8.192000000000001E-4 0.0013800000000000002
++B beta+ 8.19E-4 0.0013800000000000002
++B beta+ 8.188E-4 0.0013900000000000002
++B beta+ 8.184E-4 0.0013900000000000002
++B beta+ 8.174E-4 0.0014000000000000002
++B beta+ 8.162E-4 0.0014000000000000002
+

@@ -1,0 +1,31 @@
+# 84KR    84RB EC DECAY                 1982GR07,1970GO44,1971BO0109NDS    200910
+#  84RB EC DECAY                 1982GR07,1970GO44,1971BO0109NDS    200910
+#H TYP=FUL$AUT=J.K. Tuli, A. Luca, S. Juutinen, and B. Singh$             
+#H CIT=NDS 110,2815 (2009)$CUT=30-Sep-2009$                               
+#  1982Gr07: Ge(Li), FWHM=2.0 keV at 1.33 MeV. Measured E|g, I|g.         
+#  1979Gr01: Ge(Li). E|g precision measurement making use of              
+#  cascade-crossover relationships.                                       
+#  1970Go44: Ge(Li), CsI, NaI. Measured |b|g, X|g. Deduced |e/|b{++}.     
+#  1971Bo01: magnetic spectrometer. Measured |b{++} spectra.              
+#  See also 1966He11, 1971Ge10, 1958Ko92, 1967Vr07.                       
+#  Measurements of special observables:                                   
+#  |b|g directional correlation: 1971Ma43, 1969De21, 1965Si09             
+#  |b|g circular-polarization correlation: 1973Sc02, 1963Bo20             
+#  |b{++} endpoint energy and spectrum shape factor: 1980HuZS,            
+#  1971Bo01, 1964La03, 1958Be81.                                          
+#  Extraction of matrix elements and theoretical analysis are             
+#  reported by 1980HuZS, 1973Sc02, 1971De02, 1971Ma43, and 1965Si10.      
+#  The |g|g(|q) measurement of 1965Ro06 disagrees with other              
+#  experiments (see {+83}Kr(n,|g) and {+84}Br |b{+-} decay (31.76 min))   
+#  and was therefore not adopted by the evaluators.                       
+#G CC$ FROM BrIcc v2.2 (31-Mar-2008) 2008Ki07, "Frozen Orbitals" appr.    
+#G E$From recommended standard energies (1995HeZZ)                        
+#G RI        From 1982Gr07. Others: 1966He11, 1971Ge10.                   
+#L E$ FROM LEAST-SQUARES FIT TO EG'S                                      
+#L J$ FROM ADOPTED LEVELS                                                 
+#P 0           2-                32.82 D    7             2686.3    27    
+RB84 KR84 beta+ 2.6863 2835648.0 0.717
++G gamma 0.8816041 1.0
++G gamma 1.0161580000000001 0.00506
++G gamma 1.897751 0.010700000000000001
+

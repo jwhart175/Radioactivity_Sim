@@ -1,0 +1,43 @@
+#119I     119XE EC DECAY                1976BE61                  09NDS    200910
+#  119XE EC DECAY                1976BE61                  09NDS    200910
+#H TYP=FUL$AUT=D. M. SYMOCHKO, E. BROWNE, J. K. TULI$                     
+#H CIT=NDS 110,2945 (2009)$CUT=1-Dec-2008$                                
+#  Revised by E. Browne (March 2009)                                      
+#  1976BE61: mass separated 119XE sources produced by 1-GEV p on tin;     
+#  semi G rays. Others: 1969HA03, 1965AN05 mass separated source,         
+#  measured B+,G rays, CE/G: see 1975PEZG                                 
+#  BETA-strength function: (SUMOF I(B+))/(SUMOF IG)=18 6                  
+#  measured total absorption G spectra, scin. (1975HO03).                 
+#  Decay scheme proposed that by 1976BE61, except for the level at        
+#  536.5 KEV.                                                             
+#G CC$ FROM BrIcc v2.2 (31-Mar-2008) 2008KiAA, "Frozen Orbitals" appr.    
+#G E         From 1976BE61                                                
+#G M,MR      From (HI,XNG)                                                
+#G E(A)      Unplaced in 1976BE61, placed by evaluators on the basis      
+#G of (HI,XNG) data                                                       
+#G RI        Relative to I(232G)=100                                      
+#G RI(B)     Weak (1976BE61)                                              
+#L E$Deduced by evaluators from least-squares fit to G-ray energies.      
+#L E(D)      Introduced by evaluators on the basis of (HI,XNG) data       
+#L J,T       From adopted levels                                          
+#P 0.0         (5/2+)            5.8 M     3              4.97E+3   3     
+XE119 I119 beta+ 4.97 348.0 1.0
++G gamma 0.1466 0.08
++G gamma 0.2777 0.03
++G gamma 0.2948 0.08
++G gamma 0.693 0.12
++G gamma 0.091 0.16
++G gamma 0.1 0.95
++G gamma 0.1417 0.11
++G gamma 0.2318 1.0
++G gamma 0.2082 0.6
++G gamma 0.308 0.11
++G gamma 0.0873 0.43
++G gamma 0.22080000000000002 0.03
++G gamma 0.3205 0.12
++G gamma 0.4615 0.91
++G gamma 0.4377 0.13
++G gamma 0.5365 0.09
++G gamma 0.096 0.38
++G gamma 0.2357 0.1
+

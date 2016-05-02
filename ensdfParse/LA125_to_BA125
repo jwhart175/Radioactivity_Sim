@@ -1,0 +1,43 @@
+#125BA    125LA EC DECAY                2002SH01,1989IIZZ         11NDS    201102
+#  125LA EC DECAY                2002SH01,1989IIZZ         11NDS    201102
+#H TYP=FUL$AUT=J. KATAKURA$CIT=NDS 112, 495 (2011)$CUT=1-Jan-2010$        
+#  2002Sh01: {+nat}Mo({+32}S.pxn), on-line mass, measured E|g, I|g, |b|g, 
+#  x-|g coin, |g|g coin, ce, |a, level lifetimes                          
+#  1998Ko66: {+92}Mo({+36}Ar,3pxn), on-line mass, measured Q, |b{++}|g    
+#  coin                                                                   
+#  1992Ic02: On-line mass, semi |g, measured T{-1/2}                      
+#  1989IiZZ: Mo({+32}S,pxn) E=160 MeV, on-line mass, measured E|g,        
+#  |g|g-coin, |b|g(t).                                                    
+#  1978Bo32: {+96}Ru+{+32}S, {+98}Ru+{+32}S, E=190 MeV, on-line mass,     
+#  semi |g, scin |b{++}                                                   
+#  1987GeZY: {+94}Mo+{+35}Cl, {+96}Mo+{+35}Cl, on-line mass               
+#  The decay scheme is that proposed by 1989IiZZ on the basis of energy   
+#  sums and |g|g coin. The decay scheme is incomplete.                    
+#  1998Ko66 measured Q value as                                           
+#  5.95 MeV {I7} from |b{++}|g coin.                                      
+#G E$From 2002Sh01, unless otherwise noted                                
+#G E(A)      From 1978Bo32                                                
+#G E(B)      From 1989IiZZ                                                
+#G E(C)      Given in spectrum figure of 2002Sh01                         
+#G RI        From 2002Sh01 relative to I(282)=100                         
+#G M         From measured |a(K)exp (2002Sh01) normalized to              
+#G |a(K)(E2 theory) for the 230 keV 2+ to 0+ transition in {+124}Ba,      
+#G unless otherwise noted.                                                
+#L J         From adopted levels                                          
+#L E         From a least squares fit by evaluator to E|g's assuming 1 keV
+#L uncertainty for |g's with no uncertainty reported.                     
+#P 0.0         (3/2+)            64.8 S    12             5909      28    
+LA125 BA125 beta+ 5.909 64.8 1.0
++G gamma 0.0436 0.264
++G gamma 0.0676 2.088
++G gamma 0.0987 0.785
++G gamma 0.1685 0.61
++G gamma 0.1935 0.373
++G gamma 0.2373 0.41600000000000004
++G gamma 0.134 0.252
++G gamma 0.2328 0.059000000000000004
++G gamma 0.0884 0.091
++G gamma 0.2819 1.0
++G gamma 0.21630000000000002 0.153
++G gamma 0.38489999999999996 0.063
+

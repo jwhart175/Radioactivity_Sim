@@ -1,0 +1,13 @@
+# 94NB    94NB IT DECAY (6.263 M)       1972DE67,1962KI08         06NDS    200609
+#  94NB IT DECAY (6.263 M)       1972DE67,1962KI08         06NDS    200609
+#H TYP=FUL$AUT=D. Abriola(a), A.A. Sonzogni$CIT=NDS 107, 2423 (2006)$     
+#H CUT=1-Jan-2006$                                                        
+#L $1972De67: Si(Li), FWHM=290 eV at 6.4 keV. Measured E|g.               
+#L $1962Ki08: NaI. Measured I(K| x ray), I|g, |g|g.                       
+#L J,T$From adopted levels.                                               
+#G E$From 1972De67.                                                       
+#G M$From |a(K)exp.                                                       
+#P 40.892    123+                6.263 M   4                              
+NB94 NB94 IT 0.0 375.78 0.000735
++G gamma 0.04094 1.0
+

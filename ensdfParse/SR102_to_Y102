@@ -1,0 +1,45 @@
+#102Y     102SR B- DECAY                1986HI02                  09NDS    200908
+#  102SR B- DECAY                1986HI02                  09NDS    200908
+#H TYP=FUL$AUT=D. DE FRENNE$CIT=NDS 110, 1745 (2009)$CUT=31-Dec-2008$     
+#  Mass assignment from mass-separated A=102 source from {+235}U(n,F).    
+#  Z assignment from yield, systematics, T{-1/2} and level scheme.        
+#  Measured: E|g, I|g, |g|g, T{-1/2}. Deduced: {+102}Y levels, log|       
+#  {Ift}, J|p. Structure information in relation with this work can be    
+#  found in 1986Pe04                                                      
+#B           From |g-ray transition intensity balance. M1 multipolarity   
+#B assumed for all low-energy |g rays, except the 93|g for which E2 was   
+#B assumed because otherwise negative level feeding. As a consequence of  
+#B that assumption the logft values are only approximate values and should
+#B be treated as such                                                     
+#B |?3% of {+102}Sr decay unobserved                                      
+#L J         log| {Ift}<4.5 suggests J|p-1+                               
+#L $LOGFT due to the incompleteness of the decay scheme due to the large  
+#L ^Q value all LOGFT values should be considered as lower limits         
+#P 0.0         0+                69 MS     6              8810      70    
+SR102 Y102 beta- 8.81 0.069 1.0
++G gamma 0.8144 0.02809
++G gamma 0.09389 0.13409000000000001
++G gamma 0.11445999999999999 0.02491
++G gamma 0.20815999999999998 0.07897
++G gamma 0.03558 0.0053
++G gamma 0.15015 0.1802
++G gamma 0.24380000000000002 0.53
++G gamma 0.06789 0.07897
++G gamma 0.1034 0.00954
++G gamma 0.21791999999999997 0.0371
++G gamma 0.31160000000000004 0.014310000000000003
++G gamma 0.18615 0.0371
++G gamma 0.25395 0.12614
++G gamma 0.4042 0.005830000000000001
++G gamma 0.49839999999999995 0.008480000000000001
++G gamma 0.4372 0.010069999999999999
++G gamma 0.6551 0.01908
++G gamma 0.8045 0.020139999999999998
++G gamma 0.8503999999999999 0.03551
++G gamma 1.036 0.0742
++G gamma 1.104 0.1007
++G gamma 1.1918 0.0901
++G gamma 1.3780999999999999 0.03445
++G gamma 1.4455 0.03233
++G gamma 1.6894 0.0159
+

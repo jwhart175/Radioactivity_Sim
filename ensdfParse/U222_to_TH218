@@ -1,0 +1,14 @@
+#218TH    222U A DECAY (1.0 US)         1983HI12                  06NDS    200602
+#  222U A DECAY (1.0 US)         1983HI12                  06NDS    200602
+#H TYP=FUL$AUT=ASHOK K. JAIN, BALRAJ SINGH$CIT=NDS 107, 1027 (2006)$      
+#H CUT=25-Jan-2006$                                                       
+#  An ALPHA group at 12.08 MEV was observed by 1983Hi12. This ALPHA was   
+#  interpreted as the superposition of ALPHAS from 222U and the           
+#  short-lived daughter 218TH. One or both ALPHA particles were           
+#  presumed to leave the detector before they deposited their full        
+#  energy; EA from 222U decay, therefore, could not be determined.        
+#  The QA value of 9500 100, obtained by 2003Au03 from systematics,       
+#  yields EA(to GS in 218TH)=9330 100.                                    
+#P 0.0          0+                 1.0 US  +10-4          9500      SY    
+U222 TH218 alpha 9.5 0.0 1.0
+

@@ -1,0 +1,65 @@
+#184TL    188BI A DECAY (265 MS)        2003AN26,1997WA05,1980SC0910NDS    201002
+#  188BI A DECAY (265 MS)        2003AN26,1997WA05,1980SC0910NDS    201002
+#H TYP=FUL$AUT=CORAL M. BAGLIN$CIT=NDS 111,275 (2010)$CUT=1-Oct-2009$     
+#  OTHER: 2006AN04.                                                       
+#  2003AN26: SOURCES FROM 142ND(52CR,P5N) AND 142ND(50CR,P3N), E=380-480  
+#  MEV; 99.8% 142ND TARGET; SEPARATED EVAPORATION RESIDUES IMPLANTED      
+#  INTO 16-STRIP POSITION SENSITIVE SI DETECTOR (FWHM AP 18 KEV);         
+#  FOUR-FOLD SEGMENTED Clover Ge DETECTOR; MEASURED EA, IA, EG, PROMPT    
+#  AND DELAYED (0-5 US) |a-G AND |a-X COIN, RECOIL-|a COIN.               
+#  SEE ALSO 2006AN04 (SOURCES FROM |a DECAY OF {+192}At PRODUCED IN THE   
+#  144SM(51V,3N) REACTION AT 230 MEV).                                    
+#  1997WA05: SOURCES FROM 96MO(95MO,X), E=418 MEV; ISOTOPICALLY           
+#  ENRICHED TARGET; FRAGMENT MASS ANALYZER, PARALLEL GRID AVALANCHE       
+#  COUNTER, DOUBLE-SIDED SI STRIP DETECTOR; MEASURED EA, |a(t).           
+#  1980Sc09 identified 188BI by assigning an ALPHA particle group         
+#  detected in a mass-separated sample obtained from the reaction         
+#  107AG(84KR,3N)188BI at E=4.60 MEV/nucleon. ALPHA decay systematics     
+#  also were used in assigning ALPHA groups to nuclei of a specific       
+#  atomic number.                                                         
+#  Other (from the same laboratory as 1980Sc09): 1984ScZQ. Reaction:      
+#  100MO(92MO,p3n) E=437 MEV, measured |a-recoil(t). Two                  
+#  isomers identified.                                                    
+#A HF        R0=1.498 5, UNWEIGHTED AVERAGE OF R0(182HG)=1.50 2           
+#A (1998AK04), R0(184HG)=1.494 4 and R0(184PB)=1.486 10 (THIS EVALUATION),
+#A AND R0(186PB)=1.510 2 (2003BA44).                                      
+#A IA        Relative intensity (2003AN26) RENORMALIZED SO SUMOF IA = 100.
+#G E         FROM 2003AN26.                                               
+#L E         FROM LEAST-SQUARES FIT TO EG, EXCEPT AS NOTED.               
+#L J         FROM Adopted Levels.                                         
+#P 0.0+X        (10-)            265 MS    10             7255       7    
++A alpha 7.302 0.033
++A alpha 7.232 0.040999999999999995
++A alpha 6.995 0.013999999999999999
++A alpha 6.813 0.912
+
+#184TL    188BI A DECAY (60 MS)         2003AN26,1997WA05,1980SC0910NDS    201002
+#  188BI A DECAY (60 MS)         2003AN26,1997WA05,1980SC0910NDS    201002
+#H TYP=FUL$AUT=CORAL M. BAGLIN$CIT=NDS 111,275 (2010)$CUT=1-Oct-2009$     
+#  OTHER: 2006AN04.                                                       
+#  2003AN26: SOURCES FROM 142ND(52CR,P5N) AND 142ND(50CR,P3N), E=380-480  
+#  MEV; 99.8% 142ND TARGET; SEPARATED EVAPORATION RESIDUES IMPLANTED      
+#  INTO 16-STRIP POSITION SENSITIVE SI DETECTOR (FWHM AP 18 KEV);         
+#  FOUR-FOLD SEGMENTED Clover Ge DETECTOR; MEASURED EA, IA, EG, PROMPT    
+#  AND DELAYED (0-5 US) |a-G AND |a-X COIN, RECOIL-|a COIN.               
+#  SEE ALSO 2006AN04 (SOURCES FROM |a DECAY OF {+192}At PRODUCED IN THE   
+#  144SM(51V,3N) REACTION AT 230 MEV).                                    
+#  1997WA05: SOURCES FROM 96MO(95MO,X), E=418 MEV; ISOTOPICALLY           
+#  ENRICHED TARGET; FRAGMENT MASS ANALYZER, PARALLEL GRID AVALANCHE       
+#  COUNTER, DOUBLE-SIDED SI STRIP DETECTOR; MEASURED EA, |a(t).           
+#  PARENT ^T{-1/2}: VALUE ADOPTED BY 2003AN26 BASED ON THEIR |a(t)        
+#  MEASUREMENTS: 60 MS 3 (6992|a, STRONGEST GROUP), 80 MS 20 (6889|a))    
+#  AND 64 MS 5 (7106|a).                                                  
+#A HF        IF R0=1.498 5, UNWEIGHTED AVERAGE OF R0(182HG)=1.50 2        
+#A (1998AK04), R0(184HG)=1.494 4 and R0(184PB)=1.486 10 (THIS EVALUATION) 
+#A AND R0(186PB)=1.510 2 (2003BA44).                                      
+#A E         FROM 2003AN26.                                               
+#A IA        Relative intensity (2003AN26) NORMALIZED SO SUMOF IA = 100.  
+#G E         FROM 2003AN26.                                               
+#L E         FROM EG.                                                     
+#L J         FROM Adopted Levels.                                         
+#P 0.0+Y       (3+)              60 MS      3             7255       7    
++A alpha 7.106 0.020499999999999997
++A alpha 6.992 0.977
++A alpha 6.889 0.0033
+

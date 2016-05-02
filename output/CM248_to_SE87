@@ -1,0 +1,25 @@
+# 87SE    248CM SF DECAY                2013RZ02                  15NDS    201510
+#  248CM SF DECAY                2013RZ02                  15NDS    201510
+#H TYP=FUL$AUT=T.D. Johnson and W.D. Kulp(a)$CIT=NDS 129, 1 (2015)$       
+#H CUT=27-Jul-2015$                                                       
+#  {+248}Cm SF decay: EUROGAM2 array of 52 large GE detectors with        
+#  anti-Compton shields and 24 CLOVERs.                                   
+#  Measured triple coincidences, E|g,                                     
+#  I|g, |g|g coin, |g|g(|q).                                              
+#  Transitions in {+87}Se were identified using mass correlations with    
+#  the probable {+158}Sm fission partner.                                 
+#  Compared observed level structure with large-scale shell               
+#  model calculations and with known structure of N=53 isotones.          
+#L E$        From least-squares fit to E|g data.                          
+#L J$        Authors' suggested values from systematics                   
+#L    and comparisons with shell model calculations                       
+#L           Structure interpreted (2013Rz02) as dominating               
+#L  of  3|nd{-5/2+} and protons in f{-5/2-} and p{-3/2-}.                 
+#L  The level ordering is argued to be due to deformation.                
+#G CC$FROM BrIcc v2.3a (30-Jun-2013) 2008Ki07, "Frozen Orbitals" appr.    
+#P  0            0+              3.48E+5 Y 6                              
+CM248 SE87 SF 0.0 1.09818042624E13 1.0
++G gamma 0.09190000000000001 1.0
++G gamma 0.7446 0.17
++G gamma 0.8862000000000001 0.34
+

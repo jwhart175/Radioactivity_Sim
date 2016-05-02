@@ -1,0 +1,49 @@
+#182TA    182HF B- DECAY (8.90E+6 Y)    2004AH10,1971HE13         ENSDF    201507
+#  182HF B- DECAY (8.90E+6 Y)    2004AH10,1971HE13         ENSDF    201507
+#H TYP=FUL$AUT=BALRAJ SINGH$CIT=ENSDF$CUT=15-JUL-2015$                    
+#H TYP=FUL$AUT=BALRAJ SINGH AND JOEL C. ROEDIGER$CIT=NDS 111, 2081 (2010)$
+#H CUT=15-Jul-2010$                                                       
+#  2004Ah10: {+182}Hf source was the one originally produced by           
+#  1971He13. measured E|g, I|g, |g|g with a 25% Ge detector and           
+#  a low energy photon spectrometer (LEPS).                               
+#  1971He13: {+182}Hf sources produced by irradiation of natural Hf and   
+#  enriched {+180}Hf with neutrons followed by chemical separation after  
+#  a waiting period of about two years. One sample was also               
+#  mass separated. Measured E|g, I|g, |g|g using                          
+#  Ge(Li) and NaI(Tl) detectors                                           
+#G E$From 2004Ah10. Corresponding values from 1971He13 are in             
+#G agreement but somewhat less precise.                                   
+#G RI$ From 2004Ah10 who measured absolute intensities (photons/100       
+#G decays of the parent) were measured by two methods. The first          
+#G involved a counting arrangement with low absolute efficiencies and the 
+#G other is to use a system where one can measure and account for         
+#G the summing effect. Corresponding values from 1971He13 are in          
+#G agreement but somewhat less precise.                                   
+#G M,MR$From Adopted Gammas                                               
+#L E$From least-squares fit to E|g data                                   
+#L J$From Adopted Levels                                                  
+#P 0.0          0+               8.90E+6 Y 9              381       6     
++B beta- 0.0329 1.0
+
+#182TA    182HF B- DECAY (61.5 M)       1974WA14                  ENSDF    201507
+#  182HF B- DECAY (61.5 M)       1974WA14                  ENSDF    201507
+#H TYP=FUL$AUT=BALRAJ SINGH$CIT=ENSDF$CUT=15-JUL-2015$                    
+#H TYP=FUL$AUT=BALRAJ SINGH AND JOEL C. ROEDIGER$CIT=NDS 111, 2081 (2010)$
+#H CUT=15-Jul-2010$                                                       
+#  1974Wa14 (also 1971Wa09): the 61.5 min activity of {+182}Hf produced   
+#  by irradiation of natural and enriched {+186}W targets with 50 and 200 
+#  MeV protons followed by chemical and mass separation. Measured         
+#  E|g, I|g, |g|g, |b, |b|g coin with Ge(Li) detectors and plastic        
+#  scintillators.                                                         
+#  The decay scheme of 1974Wa14 has been supplemented by the evaluators   
+#  with information from (n,|g) thermal.                                  
+#G M$From Adopted Gammas, unless otherwise stated                         
+#G M(A)$Inferred from intensity balance                                   
+#G RI(W)$In equilibrium with {+182}Ta IT decay (15.84 min)                
+#L E$From least-squares fit to E|g data                                   
+#L J$From Adopted Levels                                                  
+#P 1172.90   19 (8-)                61.5 M 15                381    6     
++B beta- 0.2958 0.099
++B beta- 0.1288 0.43
++B beta- 0.0593 0.016
+

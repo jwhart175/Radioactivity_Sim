@@ -1,0 +1,16 @@
+#230NP    234AM A DECAY                                           12NDS    201209
+#  234AM A DECAY                                           12NDS    201209
+#H TYP=FUL$AUT=E. BROWNE, J. K. TULI$CIT=NDS 113, 2113 (2012)$            
+#H CUT=1-May-2012$                                                        
+#  Slightly modified by E. Browne (June 1, 2012)                          
+#  2004SA05: 233U(6LI,5N), E=51.0 MEV. Measured ALPHA, X-ray; Si, Ge      
+#  detectors                                                              
+#  An ALPHA BRANCH                                                        
+#  6460A, %A=0.039 12  from 234AM was reported by 1990Ha02 and 1974ARYU;  
+#  however, not seen by  2004SA05. An upper limit of 0.04%                
+#  is given by 2004SA05; also reported in: 2002AS08, 2003NA10             
+#  Calculated half-life, QA: 2011Sa40                                     
+#  Cluster decay: 22NE clusters (2011Sh13).                               
+#P 0.0                           2.32 M    8              6872      SY    
+AM234 NP230 alpha 6.872 139.2 0.0004
+

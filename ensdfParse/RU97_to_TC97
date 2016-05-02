@@ -1,0 +1,43 @@
+# 97TC    97RU EC DECAY                 1974HU05,1971PH02,1970CO0210NDS    201004
+#  97RU EC DECAY                 1974HU05,1971PH02,1970CO0210NDS    201004
+#H TYP=FUL$AUT=N. NICA$CIT=NDS 111, 525 (2010)$CUT=19-Nov-2009$           
+#E TI$Calculated from TI balance in the level scheme.                     
+#E $1958Ka95 measured the relative intensities of 91-d 97TC XK and        
+#E 2.8-d 97RU XK and deduced the following branching in 97RU decay:       
+#E 0.0171 % 2 to 91-d 97TC isomeric state and 99.9829 % 2 to 97TC GS.     
+#G           1974Hu05: measured: EG, IG, GG; GE(LI) detector              
+#G           1971Ph02: measured EG, IG, ICE, CC, GG. For G: GE(LI)-NA(TL) 
+#G anticompton spec, for CE: SI(LI) detector                              
+#G           1970Co02: measured EG, IG, GG; GE(LI) detector               
+#G           1977Be33: measured GG(THETA); NA(TL) and GE(LI) detectors    
+#G           1977Kr03: measured GG(THETA); NA(TL) and GE(LI) detectors    
+#G           1976Ba39: measured G(THETA,H,TEMP) from oriented nuclei      
+#G           1976Be34: measured (570G)(215G)(T)                           
+#G           1974Be24: measured ICE, (CE)(CE)T                            
+#G           1973Ch26: measured XG(T)                                     
+#G           1970Ho01: measured EG, IG, GG; prod: 96RU(TH n,G), chem;     
+#G detector GE(LI) with FWHM=3.3 KEV at 1332 KEV                          
+#G           1969Gr04: measured EG, IG, CC, GG; prod: from 97AG, 97PD     
+#G decay; detector: GE(LI) for G SI(LI) for CE. CC calibration 137BA      
+#G KC(89.4G)=0.0894                                                       
+#G E,RI$Weighted averages of measurements by 1974Hu05, 1971Ph02 and       
+#G 1970Co02, unless otherwise noted.                                      
+#G M,MR$SAME AS ADOPTED GAMMAS                                            
+#G E(A),RI(A)$From 1974Hu05                                               
+#L           Level scheme is that proposed by 1969Gr04 with levels added  
+#L by subsequent researchers.                                             
+#L J,T(B)$From adopted levels                                             
+#P    0.0        5/2+             2.83 D   23             1108      9     
+RU97 TC97 beta+ 1.108 0.0 1.0
++B beta+ 8.618E-4 0.0011200000000000001
++B beta+ 8.66E-4 0.0010863000000000001
++B beta+ 8.652999999999999E-4 0.0010915999999999999
++B beta+ 8.625000000000001E-4 0.00111
++B beta+ 8.61E-4 0.0011200000000000001
++B beta+ 8.568E-4 0.00115
++B beta+ 8.525000000000001E-4 0.0011899999999999999
++B beta+ 8.405E-4 0.0012
++G gamma 0.96965 7.96266E-6
++B beta+ 8.34E-4 0.001337
++G gamma 0.89808 1.7980200000000001E-6
+

@@ -1,0 +1,69 @@
+#231TH    235U A DECAY                  2005GA36,2004DA24         13NDS    201306
+#  235U A DECAY                  2005GA36,2004DA24         13NDS    201306
+#H TYP=FUL$AUT=E. BROWNE, J. K. TULI$CIT=NDS 114, 751 (2013)$             
+#H CUT=24-May-2013$                                                       
+#  MODIFIED A HINDRANCE FACTORS (E. BROWNE, JULY 2000).                   
+#  New reference (1999Yu01) included (E. Browne, July 2000).              
+#  Modified by E. Browne (June 2001)                                      
+#  Modified by E. Browne (September 4, 2012) BRICC (2002Ba85).            
+#  2004Da24: 235U mass-separated source. Alpha spectrum was measured      
+#  with a Passivated Implanted Planar Silicon (PIPS) detector.            
+#  Alpha-particle energies are relative to 5156.6- and 5105.5 keV         
+#  for 239PU alpha particles.                                             
+#  2005Ga36: Two 235U sources were used for these measurements.           
+#  One was electroplated on a foil, and the other was produced            
+#  by vacuum sublimation. A magnetic field was applied to these           
+#  sources to bend the trajectories of conversion electrons thus          
+#  avoiding coincidence summing with alpha particles. Alpha spectrum      
+#  was measured with a silicon-implanted detector.                        
+#  Alpha-particle energies are relative to 4722.4- and 4774.6 keV         
+#  for 234U, 4445- and 4494 keV for 236U alpha particles.                 
+#A E,IA$Weighted average of values from 2005Ga36 and 2004Da24, unless     
+#A otherwise specified. Others: 2008Po06, 2005Po02, 2004Va12, 1975Va11,   
+#A 1971Ar48. Evaluators have included the effect of normalizing           
+#A the total alpha decay emission probability to 100% in the              
+#A uncertainties of the individual alpha-particle emission probabilities. 
+#A HF        Using R0(231TH)=1.524, average of R0(230TH)=1.5216 5         
+#A and R0(232TH)=1.527 3 (1998AK04).                                      
+#A E(R)      From 1991RY01                                                
+#A IA(B)$From G-ray transition intensity balance                          
+#G CC$ FROM BrIcc v2.2 (31-Mar-2008) 2008KiAA, "Frozen Orbitals" appr.    
+#G XL studied (1975VA11,1990PO14).                                        
+#G           XK=11.8% 2, calculated by evaluators from decay scheme using 
+#G program RADLST.                                                        
+#G           For coincidence results see 1974TE03, 1975VA11, 1999YU01;    
+#G AG(THETA) (1958FI10).                                                  
+#G E         Weighted average of values reported in 1971Cl03, 1974Te03,   
+#G 1975Va11, 1977Ba72, and 1984He12, and recommended in 2010BeZQ,         
+#G unless otherwise specified.                                            
+#G RI        Weighted average of values reported in 1971Cl03, 1971KrZH,   
+#G 1974Te03, 1975Va11, 1982Va04, 1983BaZZ, 1983Ol01, 1984He12,            
+#G 1992Li05, and 1996Ru11, and recommended in 2010BeZQ,                   
+#G unless otherwise specified.                                            
+#G E(A),RI(A)$From 1977BA72.                                              
+#G E(B),RI(B)$From 1975VA11.                                              
+#G E(C),RI(C)$From 1974Te03                                               
+#G M$From adopted gammas                                                  
+#G E(X)      Unobserved but expected G ray.                               
+#L J         From adopted levels                                          
+#L T         From 1959ST49                                                
+#P 0           7/2-              703.8E+6 Y 5             4678.2    7     
+U235 TH231 alpha 4.6781999999999995 2.220975241344E16 1.0
++A alpha 4.5973999999999995 0.04769999999999999
++A alpha 4.556100000000001 0.0382
++A alpha 4.5025 0.0128
++A alpha 4.4385 0.0024
++A alpha 4.414899999999999 0.030899999999999997
++A alpha 4.3953999999999995 0.5772999999999999
++A alpha 4.3643 0.1892
++A alpha 4.3229 0.0352
++A alpha 4.295 8.999999999999999E-5
++A alpha 4.2829 0.0011
++A alpha 4.2661999999999995 0.0022
++A alpha 4.248 7.000000000000001E-4
++A alpha 4.219 0.009000000000000001
++A alpha 4.2158 0.0601
++A alpha 4.153 0.00297
++A alpha 4.0806 1.6E-4
++A alpha 3.976 7.000000000000001E-5
+

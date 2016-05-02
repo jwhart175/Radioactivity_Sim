@@ -1,0 +1,120 @@
+#249BK    253ES A DECAY (20.47 D)       2005AH03                  11NDS    201108
+#  253ES A DECAY (20.47 D)       2005AH03                  11NDS    201108
+#H TYP=FUL$AUT=KHALIFEH ABUSALEEM$CIT=NDS 112, 2129 (2011)$               
+#H CUT=31-Dec-2010$                                                       
+#  2005Ah03: measured: E|g, I|g, |a|g coin. Two different LEPS detectors, 
+#  two Ge detectors (25% and 110%) and a Si detector.  |g|g measurements  
+#  were separately performed with two Ge(Li) detectors and Gammasphere.   
+#  All data are from 2005Ah03, unless otherwise stated.                   
+#A E,IA$ From 1975Ah01, unless otherwise noted. Assigned to               
+#A levels in 2005Ah03 based on similar level energy and spin-parity.      
+#A E(A),IA(A)$ From 1972Bb24                                              
+#A E(B),IA(B)$ Deduced based on level-energy difference and               
+#A |g-intensity balance.                                                  
+#A E(Z),IA(Z)$ From 2005Ah03; energies and intensities are deduced by the 
+#A authors from level energy differences and |g-intensity balance,        
+#A respectively.                                                          
+#A HF$ r{-0}=1.4950 fm {I10}                                              
+#G $ ----------------------------------------------                       
+#G $   The Bk x-ray intensities (2005Ah03):                               
+#G $  E(x ray)  I(x ray)    Bk x ray                                      
+#G $ 107.17 {I1}     9.3|*10{+-3} {I3}    K{-|a2}                         
+#G $ 112.10 {I1}     1.5|*10{+-2} {I1}    K{-|a1}                         
+#G $ 125.42 {I2}     1.86|*10{+-3} {I15}  K{-|b3}                         
+#G $ 126.57 {I2}     3.61|*10{+-3} {I20}  K{-|b1}                         
+#G $ 127.36 {I5}     1.96|*10{+-4} {I20}  K{-|b5}                         
+#G $ 130.24 {I2}     1.47|*10{+-3} {I12}  K{-|b2}+K{-|b4}                 
+#G $ 131.30 {I2}     4.5|*10{+-4} {I4}    KO{-2,3}                        
+#G $ ----------------------------------------------                       
+#G E,RI$ From |g-ray singles data of 2005Ah03, unless otherwise stated.   
+#G Absolute intensities deduced from measurements of |a-particle rate of  
+#G thin {+253}Es source with Si and Ge detectors.                         
+#G E(X),RI(X)$ Transition observed in |g|g coin measurements only.        
+#G I|g<1|*10{+-6} per {+253}Es |a-decay estimated by the authors, unless  
+#G stated otherwise.  Energies for these weak |g rays determined with     
+#G respect to energies of stronger |g rays measured in |g-ray singles     
+#G spectra and that also have |DE|g<0.2 keV.  |DE|g=1.0 keV assigned to   
+#G these |g rays by the authors.                                          
+#G M,MR$ From {+253}Es |a-decay based on subshell ratios and              
+#G conversion coefficients from electron data of 1965Ho13 and |g data of  
+#G 1971HoZQ.                                                              
+#L E$ From least-squares fit to E|g's (by evaluator), unless stated       
+#L otherwise.                                                             
+#L J$ Spin and parity assignments to high-lying levels deduced by         
+#L 2005Ah03 from deexcitation patterns of the levels to members of lower  
+#L rotational bands and, |a-decay hindrance factors or available          
+#L configurations, respectively, unless stated otherwise.                 
+#L BAND(A)$ 7/2[633]                                                      
+#L BAND(B)$ 3/2[521]                                                      
+#L BAND(C)$ 5/2[642]                                                      
+#L BAND(D)$ 9/2[624]                                                      
+#L BAND(E)$ {7/2[633]~#1-}9/2- vibrational band                           
+#L BAND(F)$ {7/2[633]~#0-}7/2- vibrational band                           
+#L BAND(G)$ {7/2[633]~#1-}5/2- vibrational band                           
+#L BAND(H)$ {7/2[633]~#2-}3/2- vibrational band                           
+#L BAND(I)$ 1/2[400]                                                      
+#L BAND(J)$ 1/2[530].                                                     
+#L Value of rotational constant (~h{+2}/2{iJ}=4.840 keV) from 2005Ah03    
+#L indicates Coriolis mixing of 1/2[530], K{+|p}=1/2-, and other negative 
+#L parity bands present                                                   
+#L BAND(K)$ K{+|p}=1/2-.                                                  
+#L Value of rotational constant (~h{+2}/2{iJ}=7.84 keV) from 2005Ah03     
+#L indicates Coriolis mixing of 1/2[530], K{+|p}=1/2-, and other negative 
+#L parity bands present                                                   
+#L BAND(L)$ Possible 3/2[651] band                                        
+#P 0.0          7/2+              20.47 D   3             6739.16   5     
++A alpha 6.633 0.899
++A alpha 6.624 0.008
++A alpha 6.5905 0.066
++A alpha 6.552 0.0070999999999999995
++A alpha 6.54 0.0085
++A alpha 6.498 0.0026
++A alpha 6.48 8.500000000000001E-4
++A alpha 6.432 6.1E-4
++A alpha 6.408 1.3E-4
++A alpha 6.354 8.2E-5
++A alpha 6.325 4.0E-6
++A alpha 6.266 8.0E-6
++A alpha 6.262 3.29E-6
++A alpha 6.25 4.5E-4
++A alpha 6.23 1.2E-6
++A alpha 6.217 1.5E-5
++A alpha 6.211 3.9E-4
++A alpha 6.167 9.0E-8
++A alpha 6.166 1.5E-4
++A alpha 6.143 2.3600000000000002E-7
++A alpha 6.122 7.8E-6
++A alpha 6.1 3.4E-5
++A alpha 6.084 2.5E-6
++A alpha 6.071 5.0E-7
++A alpha 6.046 4.0E-6
++A alpha 6.037 2.9E-6
++A alpha 6.02 4.0E-8
++A alpha 6.019 1.8000000000000001E-6
++A alpha 6.001 5.6999999999999994E-8
++A alpha 5.99 5.0E-9
++A alpha 5.983 8.0E-8
++A alpha 5.974 6.0E-7
++A alpha 5.971 3.0000000000000004E-8
++A alpha 5.942 6.000000000000001E-8
++A alpha 5.94 6.600000000000001E-8
++A alpha 5.944 1.4999999999999998E-6
++A alpha 5.935 4.0000000000000003E-7
++A alpha 5.933 3.6E-8
++A alpha 5.921 1.06E-6
++A alpha 5.877 3.3E-7
++A alpha 5.876 3.5E-8
++A alpha 5.81 4.0E-8
++A alpha 5.747 3.0E-7
++A alpha 5.736 6.000000000000001E-8
++A alpha 5.716 6.7E-7
++A alpha 5.713 3.9E-8
++A alpha 5.661 1.3E-7
++A alpha 5.594 7.4E-8
++A alpha 5.575 6.9E-8
++A alpha 5.517 3.0000000000000004E-8
++A alpha 5.507 1.8E-8
++A alpha 5.5 5.4E-8
++A alpha 5.429 8.800000000000001E-8
++A alpha 5.424 9.0E-9
+

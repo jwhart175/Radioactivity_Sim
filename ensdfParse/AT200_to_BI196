@@ -1,0 +1,40 @@
+#196BI C  1974Ho27: 232TH(p,spallation)204FR A DECAY, E(P)=600 MEV.              
+#  1974Ho27: 232TH(p,spallation)204FR A DECAY, E(P)=600 MEV.              
+#  1967Tr06: 185RE,187RE(20NE,XN), x=5,7; E(20NE)=100-200 MEV.            
+#  1963Ho18: 197AU(12C,9N), E(12C)=60-125 MEV.                            
+#L E,J$From 196BI adopted levels                                          
+#P 0            (3+)             43 S      1               6596.4   14    
++A alpha 6.464600000000001 1.0
+
+#196BI C  1974Ho27: 232TH(p,spallation)204FR A DECAY, E(P)=600 MEV.              
+#  1974Ho27: 232TH(p,spallation)204FR A DECAY, E(P)=600 MEV.              
+#A HF        R0=1.500 5 (1967Tr06). HF from 1987Va09.                     
+#A IA        From 1975BaYJ.                                               
+#G TI        Relative to 100 for 1049.4G in 196PB from 196BI EC+B+ decay  
+#G (240 S+308 S).                                                         
+#P 104           (7+)            47 S      1               6596.4   14    
++A alpha 6.575 0.0083
++A alpha 6.4118 0.99
++A alpha 6.306 0.0017000000000000001
+
+#196BI    200AT A DECAY (3.5 S)         1992HU04,1987VA09,1967TR0607NDS    200706
+#  200AT A DECAY (3.5 S)         1992HU04,1987VA09,1967TR0607NDS    200706
+#H TYP=FUL$AUT=Huang Xiaolong$CIT=NDS 108, 1093 (2007)$CUT=1-Jan-2006$    
+#  JPI=(10-), T=3.5 S isomer.                                             
+#  The decay scheme is from 1992Hu04.                                     
+#  2005Uu02: 141Pr(63,65Cu, xnypz|a), 170Yb(36Ar, xnypz|a),E=278-293MeV,  
+#  measured E|a,T1/2.                                                     
+#  1992Hu04: source prepared by natural RE(20NE,XN) E<245 MEV. Mass       
+#  separated with ^LISOL facility. Measured EG, IG, X-RAY, CE, EA, IA,    
+#  AG(t).                                                                 
+#  1987Va09: measured EG, IG (Ge detectors, FWHM=2.0 KEV at 1332 KEV,     
+#  FWHM=580 EV at 122 KEV), E(CE),ICE (SI(LI), FWHM=2.5 KEV at 624 KEV),  
+#  GG coin, CEG coin, triparameter coin.                                  
+#  1967Tr06: sources from 185RE,187RE(20NE,XN), x=5,7; E(20NE)=100-200    
+#  MEV. Measured ^T{-1/2}, EA.                                            
+#A HF        R0=1.500 5 (1967Tr06).                                       
+#G TI        Relative to 100 for 1049.4G in 196PB from 196BI EC+B+ decay  
+#G (240 S+308 S).                                                         
+#P 335        4 (10-)            3.5 S     2               6596.4   14    
++A alpha 6.536899999999999 1.0
+

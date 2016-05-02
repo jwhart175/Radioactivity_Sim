@@ -1,0 +1,132 @@
+# 66GA    66GE EC DECAY                 1970DE39                  10NDS    201004
+#  66GE EC DECAY                 1970DE39                  10NDS    201004
+#H TYP=FUL$AUT=E. BROWNE, J. K. TULI$CIT=NDS 111, 1093 (2010)$            
+#H CUT=3-Mar-2009$                                                        
+#  Modified by E. Browne (June 17, 2009) New BRICC, GTOL, LOGFT.          
+#  1970De39: measured: E|g, I|g, Ice, E|b+, |g|g, and |b{++}|g            
+#  coincidences; Ge(Li) and Si(Li) detectors.                             
+#  1969Ba31: measured: E|g, I|g, |g|g and |b{++}|g coincidences, T{-1/2}. 
+#  1969Bo21: measured: E|g, I|g, |g|g coincidences, T{-1/2}.              
+#  1969Sa08: measured: E|g, I|g, E|b+, |g|g and |b{++}|g coincidences.    
+#  Others: 1960Ri10, 1970Dz02, 1970Dz06, 1968Vr01.                        
+#  The decay scheme is from 1970De39, |g|g coincidence data are from      
+#  1969Ba31, 1969Bo21, 1969Sa08, and 1970De39. Other: 1968Vr01.           
+#  Conversion electron data are from 1970De39. T{-1/2} of {+66}Ga excited 
+#  states have been measured from delayed-|g|g coincidences by 1969Ba31,  
+#  1969Bo21, 1970De39.                                                    
+#  1975Ro25: Measured EG, RI, delayed GG COIN, T.                         
+#E           |b{++}|g coincidence data, |b{++} endpoint energies are from 
+#E 1970De39. Others: 1969Ba31, 1969Sa08.                                  
+#E IB,IE     From theoretical I|b{++}/I|e ratios and I(|e+|b{++}) from    
+#E I(|g+ce) imbalance at each level.                                      
+#G CC$ FROM BrIcc v2.2 (31-Mar-2008) 2008KiAA, "Frozen Orbitals" appr.    
+#G Removed mult. from 59.39 gamma.                                        
+#G           Reported |g|g coincidences inconsistent with decay scheme of 
+#G 1970De39: (109|g)(471|g) in 1969Ba31, (44|g)(382|g), (66|g)(316|g),    
+#G (109|g)(316|g), and (190|g)(471|g) in 1969Sa08.                        
+#G           |a(K)exp and |a(L)exp are from 1970De39.                     
+#G E         From 1970De39. Inconsistencies between E|g sums suggest      
+#G uncertainties may be underestimated typically by a factor of 2.        
+#G RI        Relative intensity from 1970De39.                            
+#G M,MR      From Adopted Gammas, unless otherwise specified.             
+#G M(X)      From measured internal-conversion coefficients.              
+#G CC(A)     Average of M1 and E1 values with an uncertainty large        
+#G enough to cover both of them.                                          
+#L E         Deduced by evaluators from least-squares fit to G-ray        
+#L energies.                                                              
+#L J         From Adopted Levels.                                         
+#P 0.0         0+                2.26 H    5              2100      30    
+GE66 GA66 beta+ 2.1 8135.999999999999 0.283
++G gamma 0.038579999999999996 0.003
++G gamma 0.03997 0.013000000000000001
++G gamma 0.0554 0.003
++G gamma 0.5298999999999999 0.003
++G gamma 0.72364 0.003
++G gamma 1.0595999999999999 5.0E-4
++G gamma 1.0948 0.0019
++G gamma 1.2503 5.0E-4
++G gamma 1.3295 0.003
++G gamma 1.5362 4.0E-4
++G gamma 1.5484 3.0E-4
++G gamma 0.04389 1.03
++G gamma 0.02243 0.055999999999999994
++G gamma 0.04283 0.04
++G gamma 0.06512000000000001 0.254
++G gamma 0.10884999999999999 0.374
++G gamma 0.05339 0.011000000000000001
++G gamma 0.09634000000000001 0.006999999999999999
++G gamma 0.07162 0.006
++G gamma 0.12517 0.011000000000000001
++G gamma 0.19019999999999998 0.203
++G gamma 0.23402 0.003
++G gamma 0.18203 0.20199999999999999
++G gamma 0.22593000000000002 0.006999999999999999
++G gamma 0.29123000000000004 0.009000000000000001
++G gamma 0.09094 0.013999999999999999
++G gamma 0.14779 0.046
++G gamma 0.27297000000000005 0.374
++G gamma 0.31555 0.028999999999999998
++G gamma 0.33805 0.31
++G gamma 0.38185 1.0
++G gamma 0.15474000000000002 0.011000000000000001
++G gamma 0.24571 0.192
++G gamma 0.30251999999999996 0.08900000000000001
++G gamma 0.42783 0.019
++G gamma 0.47062 0.264
++G gamma 0.49263 0.022000000000000002
++G gamma 0.53674 0.21899999999999997
++G gamma 0.55501 0.004
++G gamma 0.61946 0.003
++G gamma 0.6648 0.003
++G gamma 0.04184 0.005
++G gamma 0.16947 0.006
++G gamma 0.32380000000000003 0.005
++G gamma 0.41528 0.015
++G gamma 0.472 0.11599999999999999
++G gamma 0.59714 0.009000000000000001
++G gamma 0.63974 0.021
++G gamma 0.6621900000000001 0.004
++G gamma 0.70594 0.152
++G gamma 0.2011 0.003
++G gamma 0.48411000000000004 0.003
++G gamma 0.7573099999999999 0.023
++G gamma 0.7992 8.0E-4
++G gamma 0.8218 0.001
++G gamma 0.86582 0.009000000000000001
++G gamma 0.74012 0.002
++G gamma 0.8124 8.0E-4
++G gamma 0.86582 0.009000000000000001
++G gamma 0.90789 0.0013
++G gamma 0.93026 0.001
++G gamma 0.9749099999999999 9.0E-4
++G gamma 0.61946 0.003
++G gamma 0.89206 0.002
++G gamma 0.93568 0.0015
++G gamma 0.1961 0.002
++G gamma 0.9959 0.0022
++G gamma 0.3705 0.002
++G gamma 1.0105 6.0E-4
++G gamma 0.7823 0.002
++G gamma 1.12042 0.001
++G gamma 1.10126 0.0053
++G gamma 1.14413 0.0012
++G gamma 0.91938 0.0051
++G gamma 1.16583 0.008
++G gamma 1.22188 0.015700000000000002
++G gamma 1.3473499999999998 0.0023
++G gamma 1.41254 0.013000000000000001
++G gamma 1.4566 0.003
++G gamma 0.55501 0.004
++G gamma 1.0203 5.0E-4
++G gamma 1.1747400000000001 0.0043
++G gamma 1.265 0.0028000000000000004
++G gamma 1.32254 0.0158
++G gamma 1.4904300000000001 0.004
++G gamma 1.51287 0.024
++G gamma 1.3396 5.0E-4
++G gamma 1.5078 0.006
++G gamma 1.3874000000000002 5.0E-4
++G gamma 1.4786 7.000000000000001E-4
++G gamma 1.6602000000000001 0.0016
++G gamma 1.7695 0.0034000000000000002
+

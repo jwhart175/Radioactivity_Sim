@@ -1,0 +1,27 @@
+#148EU    148EU IT DECAY                1981PI10                  14NDS    201404
+#  148EU IT DECAY                1981PI10                  14NDS    201404
+#H TYP=FUL$AUT=N. NICA$CIT=NDS 117, 1 (2014)$CUT=1-Oct-2013$              
+#  Production: SM(P,XNG) E=17-31 MEV                                      
+#  Measured: EG, RI, G(THETA), GG coin, G excitation functions, ICE, G(T) 
+#  Decay scheme is from 1981PI10                                          
+#G M         From conversion electron data; EKC were normalized to that   
+#G of 347G in 149EU assumed to be M2                                      
+#G RI        Relative intensity                                           
+#L E         From a least-squares fit to the EG data                      
+#L J         From adopted levels; supported by G(THETA), G excitation     
+#L functions, and ICE from this data set                                  
+#L T         T LT 1.5 NS for excited states other than the isomer         
+#G CC$FROM BrIcc v2.3a (30-Jun-2013) 2008Ki07, "Frozen Orbitals" appr.    
+#G MR$IF NO VALUE GIVEN IT WAS ASSUMED MR=1.00 FOR E2/M1,                 
+#G MR=1.00 FOR E3/M2 AND MR=0.10 FOR THE OTHER MULTIPOLARITIES            
+#P 720.4     3 9+                162 NS    8                              
+EU148 EU148 IT 0.0 1.62E-7 1.0
++G gamma 0.2328 0.6188
++G gamma 0.3122 0.2584
++G gamma 0.2063 0.0047599999999999995
++G gamma 0.2857 0.01972
++G gamma 0.19 0.0068000000000000005
++G gamma 0.3962 0.2924
++G gamma 0.4756 0.68
++G gamma 0.2019 0.0068000000000000005
+

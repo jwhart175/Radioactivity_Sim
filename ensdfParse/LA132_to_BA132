@@ -1,0 +1,127 @@
+#132BA C  SEE ALSO 132LA EC DECAY (4.8 H+24.3 M)                                 
+#  SEE ALSO 132LA EC DECAY (4.8 H+24.3 M)                                 
+#  1975WIZJ, 1974WIZW: MEASURED EG, IG                                    
+#  1996KU01, 2002GA01: MEASURED EG, IG, GG, GG(THETA) FOR MIXED           
+#  ACTIVITIES FROM 4.8-H AND 24.3-MIN ISOMERS                             
+#  OTHERS:                                                                
+#  1971AM06: EG, IG, GG, CE                                               
+#  1968AB02 (ALSO 1969ABZX): EG, IG, GG, GCE, CE                          
+#  1968AL17: BG COIN                                                      
+#  1967FR02 (ALSO 1964FR05): EG, IG, GG, EB, IB, CE, BG                   
+#  1965GE03: G                                                            
+#  1963LA03: T1/2, G, ^La FRACTION, MIXED ACTIVITY                        
+#  1960GR16: T1/2, G                                                      
+#  1960WA03: T1/2, B                                                      
+#  1951GR14: T1/2, B, G                                                   
+#E $ I|b(3600):I|b(3200):I|b(2620)=75 {I15}:100 {I20}:100 {I25}           
+#E (1967Fr02)                                                             
+#G E,RI$ FROM 1975WIZJ, UNLESS OTHERWISE STATED                           
+#G E(X)$ |g not reported by 1996Ku01                                      
+#G E(Y)$ UNPLACED G FROM 1975WIZJ ONLY; FROM DECAY OF EITHER OF THE TWO   
+#G ISOMERS (4.8 H AND/OR 24.3 M). A TOTAL OF ABOUT 8 UNITS OF             
+#G INTENSITY ARE CONTAINED IN THESE G RAYS                                
+#G E(K,L)$ From 1996Ku01 only, 0.2 keV uncertainty assumed for            
+#G the purpose of least-squares fit to obtain level energies              
+#G RI(L)$ DEDUCED FROM BRANCHING RATIOS GIVEN BY 1996KU01 and             
+#G relative intensities from 1975WiZJ                                     
+#G M$ From ce data and |a(exp) of 1971Am06 and 1967Fr02, unless           
+#G otherwise stated. See also 1981HaZY. Conversion coefficients           
+#G are deduced relative to the ce data for 464.6|g, E2 and 663.07|g, E2   
+#G and are from 1971Am06, unless otherwise stated                         
+#G M(M),MR(M)$ FROM GG(THETA) and DJPI (2002GA01)                         
+#G M(D)$ FROM GG(THETA) (1996KU01,2002GA01) AND DJPI                      
+#L E$ From least-squares fit to E|g's, assuming |D(E|g)=0.2 KEV           
+#L when not stated                                                        
+#L E(Z)$ Level proposed by 1996Ku01                                       
+#L E(B)$ 1996KU01 PROPOSE THREE LEVELS NEAR 3562 WHEREAS ONLY             
+#L ONE LEVEL WAS SUGGESTED IN EARLIER STUDIES                             
+#L E(D)$ DOUBLET PROPOSED AT 2046 BY 1996KU01; ONLY ONE LEVEL             
+#L WAS PROPOSED IN EARLIER STUDIES                                        
+#L J$ FROM ADOPTED LEVELS                                                 
+#L BAND(A)$ GS band                                                       
+#P   0         2-                4.8 H     2                4690    40    
++B beta+ 1.665 0.092
++B beta+ 1.454 0.14
++B beta+ 1.191 0.11
++B beta+ 1.154 0.008
++B beta+ 0.986 9.0E-4
++B beta+ 0.971 0.004
++B beta+ 0.891 0.006999999999999999
++G gamma 0.21819999999999998 1.3680000000000001E-5
++B beta+ 0.75 0.004
++B beta+ 0.737 0.009000000000000001
++B beta+ 0.729 0.0019
++B beta+ 0.719 0.008
++B beta+ 0.582 0.013999999999999999
++B beta+ 0.496 0.02
++G gamma 0.8387 9.88E-4
++B beta+ 0.37 0.001
++B beta+ 0.338 0.001
++B beta+ 0.238 0.008435
++B beta+ 0.211 0.008454
++B beta+ 8.476E-4 0.0011887
++B beta+ 8.474E-4 0.0011899999999999999
++B beta+ 8.47E-4 0.0011899999999999999
++B beta+ 8.47E-4 0.0011899999999999999
++B beta+ 8.465E-4 0.0011899999999999999
++B beta+ 8.462E-4 0.0012
++B beta+ 8.453E-4 0.0012
+
+#132BA2C  132LA EC DECAY (24.3 M)                                                
+#  132LA EC DECAY (24.3 M)                                                
+#  1996KU01, 2002GA01: MEASURED EG, IG, GG, GG(THETA) FOR MIXED           
+#  ACTIVITIES FROM 4.8-H AND 24.3-MIN ISOMERS                             
+#  1975WIZJ (also 1974WIZW): MEASURED EG, IG                              
+#G $ |g|g(|q) data given under comments are from 2002Ga01.                
+#G These values are given as asymmetry ratio                              
+#G R=yield(at 90|')/yield(at 180|')                                       
+#G E,RI$From 1996Ku01, unless otherwise stated. Corresponding             
+#G values from 1975WiZJ, if reported, are given under comments.           
+#G 1975WiZJ reported |g rays in the range 305.9-4006.4 keV.               
+#G It should be pointed out that correspondence between the               
+#G set of transitions reported by 1996Ku01 and 1975WiZJ                   
+#G is not very satisfactory. Some of the gamma rays marked as             
+#G 'new' by 1996Ku01 do exist at matching energy in the tabular           
+#G data of 1975WiZJ                                                       
+#G M,MR$From |g|g(|q) data of 2002Ga01                                    
+#G RI$ As stated by 1996Ku01, uncertainties are |?10%                     
+#G when not given in authors' table 1.                                    
+#G E(X)$|g from 2002Ga01; not seen by 1996Ku01                            
+#G E(Z)$ From 1975WiZJ; NOT REPORTED BY 1996KU01. TENTATIVE PLACEMENT     
+#G AS GS TRANSITION PROPOSED BY THE EVALUATORS                            
+#L E$From least-squares fit to E|g's, assuming |D(E|g)=0.2 keV for        
+#L each |g ray. About 15 |g rays are poorly fitted                        
+#L if |D(E|g)=0.1 keV is assumed.                                         
+#L BAND(A)$ GS band                                                       
+#P1  0         2-                4.8 H     2                4690    40    
+
+#132BA C  SEE ALSO 132LA EC DECAY (4.8 H+24.3 M)                                 
+#  SEE ALSO 132LA EC DECAY (4.8 H+24.3 M)                                 
+#  1975WIZJ, 1974WIZW: MEASURED EG, IG, GG                                
+#  1996KU01, 2002GA01: MEASURED EG, IG, GG, GG(THETA)                     
+#  1971AM06: MEASURED EG, IG, CE, GG                                      
+#  OTHERS:                                                                
+#  1972HA41: EG, CE                                                       
+#  1969GE11: T1/2, EG, IG, CE                                             
+#G E$ FROM 1975WIZJ, UNLESS OTHERWISE STATED                              
+#G RI$ From 1971Am06, except as noted                                     
+#G E(N)$ From 1972Ha41                                                    
+#G E(K,L)$ |g from 1996Ku01 only. For least-squares fit                   
+#G of level scheme |D(E|g)=0.2 keV is assumed                             
+#G RI(L,P)$ DEDUCED FROM BRANCHING RATIOS OF 1996KU01 AND                 
+#G RELATIVE INTENSITIES FROM 1971AM06                                     
+#G RI(A)$ FROM 1975WIZJ                                                   
+#G E(W),RI(W)$ EG FROM 1996KU01, RI from 1975WiZJ                         
+#G M(M),MR(M)$ FROM GG(THETA) (2002GA01)                                  
+#G M(D)$ FROM GG(THETA) (1996KU01,2002GA01) AND DJPI                      
+#L E$ From least-squares fit to E|g's, assuming |D(E|g)=0.2 KEV           
+#L when not stated                                                        
+#L E(Z)$ Level proposed by 1996Ku01                                       
+#L J$ FROM ADOPTED LEVELS                                                 
+#L BAND(A)$ GS band                                                       
+#P 188.20    11 6-               24.3 M    5              4690      40    
++B beta+ 8.451999999999999E-4 0.0012
++B beta+ 0.83 0.00538
++B beta+ 0.788 0.00569
++B beta+ 0.702 0.00635
+

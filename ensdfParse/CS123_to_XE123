@@ -1,0 +1,119 @@
+#123XE    123CS EC DECAY                1981MA01,1981SO06         04NDS    200410
+#  123CS EC DECAY                1981MA01,1981SO06         04NDS    200410
+#H TYP=FUL$AUT=S. Ohya$CIT=NDS 102, 547 (2004)$CUT=1-Nov-2003$            
+#  1981MA01: LA(P,SPALL) E=600 MEV, ON-LINE MS, SEMI G, G-CE, COIN,       
+#  GG-COIN.                                                               
+#  1981SO06: 124XE(P,2N) E=33MEV, SEMI G, GG-COIN, EB+.                   
+#  1987FR10: ON-LINE MS, MAGNETIC SPECTROMETER, PLASTIC, G-CE COIN.       
+#  1977KOYL: LA(P,SPALL) E=635 MEV, SEMI G GG(T).                         
+#  1975WE23: LA(P,SPALL) BA(EC), ON-LINE MS, CHEM, SCIN-GE(LI),           
+#  SI(LI)-NAI(TL), BG-COIN, E(B+), GE(LI); G-RAYS IN COINCIDENCE          
+#  WITH B+ WERE MEASURED.                                                 
+#  1966DA09: IN(14N,XN) CHEM; SEMI G, CE; SCIN E(B+).                     
+#  DECAY SCHEME IS THAT PROPOSED BY 1981MA01 and 1981St06 ON THE BASIS    
+#  OF EG SUMS AND GG-COIN. There are major differences in the two         
+#  level schemes. The level scheme is incomplete. LOGFT values are        
+#  tentative since there is a gap of about 3 MeV between Q value and      
+#  the highest populated level at 1453.                                   
+#L J$ FROM ADOPTED LEVELS                                                 
+#G E$Weighted average of 1981MA01 and 1981St06, unless noted otherwise.   
+#G RI$From 1981MA01,unless noted otherwise. The RI values are quite       
+#G different between 1981MA01 and 1981So06, especially for week E|g's.    
+#L E         E(levels) are based on a least-squares fit to                
+#L E|g's.                                                                 
+#G E(A)$From 1981MA08                                                     
+#G E(B),RI(B)$From 1981St06, RI RELATIVE TO 1000 for 97.39 |g.            
+#G E(D),RI(D)$From electron spectrum by 1981MA01                          
+#G E(C),RI(C)$From 1981MA08;multiply-placed |g with intensity not divided 
+#G E(E),RI(C)$From 1981St06;multiply-placed |g with intensity not divided 
+#G           EKC VALUES ARE FROM 1981MA01 NORMALIZED TO KC(THEORY) FOR    
+#G THE 322.4 E2 TRANSITION IN 120CS DECAY.                                
+#G MR$FROM THE QUOTED CE DATA.                                            
+#G           IXK/IG(97G)=1.6 3 (1981MA01)                                 
+#G CC$FOR MIXED M1,E2, WHERE MR IS NOT GIVEN, VALUES CORRESPOND TO        
+#G MR=1; UNCERTAINTIES WERE CHOSEN TO COVER M1, E2 THEORY VALUES.         
+#G The values are theoretical values calculated using HSICC code from     
+#G Brookhaven.                                                            
+#P 0.0         1/2+              5.88 M    3               4205     15    
++G gamma 0.1915 0.0013620000000000001
++G gamma 0.2342 0.0010215
++G gamma 0.2861 0.0018160000000000001
++G gamma 0.2945 9.080000000000001E-4
++G gamma 0.3535 0.001135
++G gamma 0.3614 0.002497
++G gamma 0.4471 0.001135
++G gamma 0.48469999999999996 0.006583
++G gamma 0.5531 6.810000000000001E-4
++G gamma 0.5736 0.00227
++G gamma 0.6267 0.001135
++G gamma 0.6357999999999999 6.810000000000001E-4
++G gamma 0.7231000000000001 0.001135
++G gamma 1.189 0.0036320000000000002
++G gamma 1.2558 0.002497
++B beta+ 1.4445 0.22
++B beta+ 1.399 0.18
++G gamma 0.09739 0.22700000000000004
++B beta+ 1.3600999999999999 0.047
++G gamma 0.08338 0.04086
++G gamma 0.18077000000000001 0.0063560000000000005
++B beta+ 1.327 0.017
++G gamma 0.07126 0.004994
++G gamma 0.252 0.004994
++B beta+ 1.3014000000000001 0.01
++G gamma 0.20959999999999998 0.002043
++G gamma 0.30710000000000004 0.038590000000000006
++B beta+ 1.241 0.005
++G gamma 0.3401 0.0031780000000000003
++G gamma 0.4372 0.003859
++B beta+ 1.2385 0.021
++G gamma 0.26180000000000003 0.021565000000000004
++G gamma 0.3453 0.002497
++G gamma 0.44260000000000005 0.006583
++B beta+ 1.1723 0.0062
++G gamma 0.3337 0.00227
++G gamma 0.405 0.0036320000000000002
++G gamma 0.4884 0.003405
++B beta+ 1.1673 0.08199999999999999
++G gamma 0.3445 0.007718
++G gamma 0.4992 0.014074
++G gamma 0.5966 0.10101500000000002
++B beta+ 1.1607 0.033
++G gamma 0.304 0.00681
++G gamma 0.43 0.002497
++G gamma 0.5136000000000001 0.01589
++G gamma 0.6111 0.03178
++B beta+ 1.1225999999999998 0.0076
++G gamma 0.6937000000000001 0.012939
++B beta+ 1.1005 0.037000000000000005
++G gamma 0.1303 9.080000000000001E-4
++G gamma 0.4343 0.010669
++G gamma 0.6442 0.0227
++G gamma 0.7415 0.02951
++B beta+ 1.0514000000000001 0.016
++G gamma 0.15480000000000002 6.810000000000001E-4
++G gamma 0.2376 0.0010215
++G gamma 0.2518 8.626E-4
++G gamma 0.405 0.002497
++G gamma 0.541 0.004086
++G gamma 0.6678 0.010215
++G gamma 0.7507999999999999 0.007945
++G gamma 0.8485 0.0018160000000000001
++G gamma 0.6103 0.0029510000000000005
++B beta+ 1.0197 0.0017000000000000001
++B beta+ 0.9672000000000001 0.0031
++G gamma 0.7251000000000001 0.002043
++G gamma 0.9347000000000001 0.00227
++B beta+ 0.9246 0.0089
++G gamma 0.278 0.002497
++G gamma 0.819 0.0027240000000000003
++G gamma 0.945 0.004313
++G gamma 1.1253 0.008399
++B beta+ 0.8575 0.023
++G gamma 1.1762000000000001 0.02043
++G gamma 1.2732 0.03178
++B beta+ 0.7762 0.0062
++G gamma 0.7112 0.00454
++G gamma 0.8418 0.003405
++G gamma 1.3559 0.00681
++G gamma 1.453 0.002497
+

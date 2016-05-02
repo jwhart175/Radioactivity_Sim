@@ -1,0 +1,27 @@
+#133TE    252CF SF DECAY                2002HW03,2004HW02         11NDS    201104
+#  252CF SF DECAY                2002HW03,2004HW02         11NDS    201104
+#H TYP=FUL$AUT=YU. KHAZOV AND A. RODIONOV, F.G. KONDEV$                   
+#H CIT=NDS 112, 855 (2011)$CUT=31-Oct-2010$                               
+#  2002Hw03, 2004Hw02: {+252}Cf(SF); measured E|g, I|g, |g|g-coin,        
+#  T{-1/2}. {+133}Te; deduced levels, J|p, possible configurations.       
+#  GAMMASPHERE array with                                                 
+#  102 Compton-suppressed Ge detectors. Comparison with shell model       
+#  Others: 2003Ha49, 2005Hw06 (the same group)                            
+#  The {+133}Te level scheme is based on relative intensities and         
+#  coincidences of the observed |g-transitions (2002Hw03).                
+#  Level configurations are proposed by 2002Hw03.                         
+#G E,RI$From 2002Hw03; |DE|g=0.3 keV for I|g>10 and 0.5 keV for the       
+#G others are assumed by the evaluators.                                  
+#L E$From a least-squares fit to E|g's                                    
+#L J$From systematics in Te isotopes. Configuration assignment is mostly  
+#L based on shell-model calculations (2002Hw02).                          
+#L BAND(A)$ Multiplet of |p(g{-7/2}{+2})~#|n(h{-11/2}{+-1}) configuration 
+#L BAND(B)$ Multiplet of |p(g{-7/2}d{-5/2})~#|n(h{-11/2}{+-1})            
+#L configuration                                                          
+#L BAND(C)$Multiplet of |p(g{-7/2}{+2})~#|n((h{-11/2}{+-2})(f{-7/2}{++1}))
+#L  configuration                                                         
+#L BAND(D)$ Multiplet of |p(g{-7/2}h{-11/2})~#|n(h{-11/2}{+-1})           
+#L configuration                                                          
+#P  0            0+               2.645 Y  8                              
+CF252 TE133 SF 0.0 0.0 0.03092
+

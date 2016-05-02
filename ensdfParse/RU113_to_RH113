@@ -1,0 +1,127 @@
+#113RH    113RU B- DECAY (0.80 S)       2002KU18,2007KU23         10NDS    201006
+#  113RU B- DECAY (0.80 S)       2002KU18,2007KU23         10NDS    201006
+#H TYP=FUL$AUT=Jean Blachot$CIT=NDS 111, 1471 (2010)$CUT=1-May-2009$      
+#  2002Ku18: Measured E|g, I|g, |g|g, |b|g coin, lifetimes by |b|g(t)     
+#  using a LEGe-detector and a 37% Ge-detector operated with two plastic  
+#  scintillators and in anti-coincidence with a BGO shield.               
+#  2007Ku23: Re-interpretation of the |b feedings                         
+#  All data are from 2002Ku18, except for intensities of some of the |g   
+#  rays, |b feedings and associated log {Ift} values. Revised division    
+#  (amongst two activities of {+113}Ru) of |g-ray intensities and |b      
+#  feedings are from 2007Ku23 and e-mail reply of Oct 15, 2007 from the   
+#  first author of 2007Ku23 to the evaluator.The questionable and unplaced
+#   |g rays are    not listed in this e-mail reply                        
+#  The 578, 785, 786 and 834 levels and deexciting |g rays have been      
+#  removed by 2007Ku23 and associated with only the decay of the 0.51-s   
+#  isomer.                                                                
+#B IB$From 2007Ku23                                                       
+#B IB(E)$Deduced  from intensity balance                                  
+#G E(B)$The unplaced |g belongs to the decay of either or both the        
+#G isomers                                                                
+#G RI(X)$Intensity divided based on |b feeding proposed by 2007Ku23.      
+#G Value is different in authors' earlier work (figure 1 of 2002Ku18)     
+#L E$From least-squares fit to E|g's                                      
+#L E(A)$Level not shown in figure 1 of 2002Ku18                           
+#L T$From centroid-shift method in |b|g(t)                                
+#P 0           (1/2+)            0.80 S    5              6480      50    
+RU113 RH113 beta- 6.48 0.8 1
++G gamma 0.181 0.0071200000000000005
++G gamma 0.226 0.0071200000000000005
++G gamma 0.247 0.00534
++G gamma 0.2747 0.00801
++G gamma 0.401 0.00979
++G gamma 0.4229 0.02047
++G gamma 0.9062 0.0071200000000000005
++G gamma 1.123 0.00801
++G gamma 1.1804000000000001 0.01246
++G gamma 1.1945999999999999 0.02314
++G gamma 1.6612 0.00534
++G gamma 0.2117 0.00979
++G gamma 0.2632 0.6995399999999999
++G gamma 0.0881 0.0801
++G gamma 0.3512 0.07209
++G gamma 0.3376 0.13083
++G gamma 0.6005 0.01157
++G gamma 0.5601 0.04539
++G gamma 0.36719999999999997 0.02581
++G gamma 0.7049 0.00801
++G gamma 0.6267999999999999 0.02047
++G gamma 0.7151000000000001 0.05162
++G gamma 0.6577999999999999 0.022250000000000002
++G gamma 0.7459 0.02136
++G gamma 1.0087000000000002 0.02581
++G gamma 0.6828 0.00623
++G gamma 0.7709 0.01068
++G gamma 0.7094 0.02403
++G gamma 0.7978 0.02047
++G gamma 1.0612000000000001 0.022250000000000002
++G gamma 1.1122 0.00445
++G gamma 1.4643 0.00623
++G gamma 1.1339000000000001 0.00979
++G gamma 1.4484000000000001 0.0071200000000000005
++G gamma 1.6457 0.02403
++G gamma 1.5937999999999999 0.02136
++G gamma 1.6147 0.01246
++G gamma 1.7702 0.02403
++G gamma 1.8580999999999999 0.03026
++G gamma 1.911 0.00979
++G gamma 2.1218000000000004 0.00623
++G gamma 0.2464 0.00267
++G gamma 1.2233 0.01513
++G gamma 1.3676 0.02581
++G gamma 1.8408 0.02581
++G gamma 1.9276 0.04005
++G gamma 2.191 0.02581
++G gamma 1.1608 0.00623
++G gamma 1.2130999999999998 0.01157
++G gamma 1.8697000000000001 0.02047
++G gamma 1.9578 0.03204
++G gamma 1.2266 0.03293
++G gamma 1.9363 0.00623
++G gamma 2.0239000000000003 0.00801
++G gamma 2.0345 0.0071200000000000005
++G gamma 2.2971 0.01513
++G gamma 0.4034 0.02136
++G gamma 1.5489000000000002 0.01513
++G gamma 2.1736 0.00445
++G gamma 2.3604000000000003 0.01602
++G gamma 2.324 0.00267
+
+#113RH    113RU B- DECAY (0.51 S)       2002KU18,2007KU23         10NDS    201006
+#  113RU B- DECAY (0.51 S)       2002KU18,2007KU23         10NDS    201006
+#H TYP=FUL$AUT=Jean Blachot$CIT=NDS 111, 1471 (2010)$CUT=1-May-2009$      
+#  2002Ku18: Measured E|g, I|g, |g|g, |b|g coin, |b|g(t) using a          
+#  LEGe-detector and a 37% Ge-detector operated with two plastic          
+#  scintillators and in anti-coincidence with a BGO shield.               
+#  Measured E|g, |g|g coin, I|b using EUROGAM2 array and IGISOL mass      
+#  separator.  These data are re-interpreted by 2007Ku23                  
+#  All data are from 2002Ku18, except for intensities of some             
+#  of the |g rays, |b feedings and associated log {Ift} values.           
+#  Revised division (amongst two activities of {+113}Ru) of |g-ray        
+#  intensities and |b feedings are from 2007Ku23 and e-mail reply of      
+#  Oct 15, 2007 from the first author of 2007Ku23. The questionable       
+#  and unplaced |g rays are not listed in this e-mail reply               
+#B IB$ From 2007Ku23                                                      
+#G RI(Y)$ Intensity divided based on |b feeding proposed by 2007Ku23.     
+#G Value is different in authors' earlier work (figure 2 of 2002Ku18)     
+#G RI(X)$ 2007Ku23 assign all intensity with the decay of 0.51-s activity 
+#G E(B)$The unplaced |g belongs to the decay of either or both            
+#G the isomers                                                            
+#L E$From least-squares fit to E|g's                                      
+#L T$From centroid-shift in |b|g(t)                                       
+#P  120      AP (7/2-)           0.51 S    3              6480      50    
++B beta- 2.874 0.157
++B beta- 2.849 0.024
++B beta- 2.807 0.013999999999999999
++B beta- 2.763 0.013999999999999999
++B beta- 2.698 0.128
++B beta- 2.6 0.024
++B beta- 2.599 0.08900000000000001
++B beta- 2.576 0.12300000000000001
++B beta- 2.398 0.045
++B beta- 2.244 0.006999999999999999
++B beta- 2.094 0.065
++B beta- 1.991 0.036000000000000004
++B beta- 1.844 0.135
++B beta- 1.82 0.139
+

@@ -1,0 +1,16 @@
+#121TE    121TE IT DECAY                1971ED03,1972KA61,1975ME2310NDS    201006
+#  121TE IT DECAY                1971ED03,1972KA61,1975ME2310NDS    201006
+#H TYP=FUL$AUT=S. OHYA$CIT=NDS 111, 1619 (2010)$CUT=20-Jan-2009$          
+#  1971Ed03: {+123}Sb(p,3n), magnetic spectrometer, ce-ce(|q), ce|g(|q)   
+#  1972Ka61: {+120}Te(n,|g), magnetic spectrometer, ce                    
+#  1975Me23: {+120}Te(n,|g), semi |g                                      
+#  Others: 1950Ka04, 1956Go23, 1963Sc12, 1964Ch08, 1968Ma52               
+#  See also {+121}Te |e decay (154 d)                                     
+#G E         From 1975Me23. An additional uncertainty of 10 eV should be  
+#G added in quadrature to the quoted uncertainties to allow for           
+#G uncertainties in calibration                                           
+#L J,T(A)$From adopted levels                                             
+#P 293.974   2211/2-             164.2 D   8                              
+TE121 TE121 IT 0.0 1.4186879999999998E7 0.886
++G gamma 0.212189 0.92
+

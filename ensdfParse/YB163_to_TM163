@@ -1,0 +1,57 @@
+#163TM    163YB EC DECAY (11.05 M)      1975AD09                  10NDS    201005
+#  163YB EC DECAY (11.05 M)      1975AD09                  10NDS    201005
+#H TYP=FUL$AUT=C. W. REICH, BALRAJ SINGH$CIT=NDS 111, 1211 (2010)$        
+#H CUT=12-Apr-2010$                                                       
+#  1975Ad09 (and 1985Ad12): {+163}Yb isotope obtained by bombardment of   
+#  tantalum by a 660-MeV proton beam followed by chemical separation.     
+#  Measured |g, ce, prompt and delayed |g|g coin, |b|g coin. 1985Ad12     
+#  reanalyzed data                                                        
+#  Others:                                                                
+#  Identification and T{-1/2} of {+163}Yb: 1967Pa20, 1968GrZX, 1970DeZF,  
+#  1972Ch23                                                               
+#  |g: 1970DeZF (about 40 |g rays reported)                               
+#  The decay scheme and all data, except as noted, are from 1975Ad09 as   
+#  modified by 1985Ad12. The major modifications were: new                
+#  levels at 175 and 254, removal of levels at 224 and 288, introduction  
+#  of 5/2[402] and 3/2[411] bands, and changes in spins and parities      
+#  of the 137, 498, and 559 levels.                                       
+#E $Intensity balance gives apparent %|e+|b{++} feeding of                
+#E 1.9 {I7} for 174.59, (9/2)- level, whereas none is expected from       
+#E 3/2- parent state. Also at 86.9 level, there is a negative intensity   
+#E balance of -4.8 {I24}. These discrepancies are most likely due to      
+#E missing or incorrect placements                                        
+#E LOGFT,TI$All values are considered as approximate since many           
+#E |g rays remain unplaced and |e, |b{++} feeding of g.s. and 13.5 level  
+#E are not known                                                          
+#G $|?13% of the total transition intensity is                            
+#G unplaced                                                               
+#G $|a(K)exp: normalized via theoretical |a(K)(104|g,M1)=2.16             
+#G from {+163}Tm decay                                                    
+#G TI$From |SIce, except as noted                                         
+#G M,MR$From |a(exp)'s and subshell ratios. |d's derived by the evaluators
+#G E(A)$Questionable assignment                                           
+#L $Bands: from 1977Fo08 and 1975Ad09. Modified and extended by           
+#L 1985Ad12, based on a reanalysis of data and systematics of odd Tm      
+#L nuclides (A=161 to 169). See the adopted levels for parameter values.  
+#L $See 1985Ad12 for structure of nonrotational states (independent       
+#L quasiparticles and quasiparticle-phonon model)                         
+#L E$From least-squares fit to E|g's                                      
+#L J$From adopted levels                                                  
+#L T$From 1980AlZE (ce|g(t) and |g|g(t)), unless otherwise stated         
+#L BAND(B)$ |p1/2[411] band.                                              
+#L From configuration of g.s. and agreement with neighboring odd Tm       
+#L nuclides.                                                              
+#L BAND(C)$ |p7/2[523] band.                                              
+#L From comparison with neighboring odd-A Tm nuclides.                    
+#L BAND(G)$ |p1/2[541] band (?).                                          
+#L BAND(Z)$ |p5/2[402] band.                                              
+#L BAND(Y)$ Probable |p3/2[411] band.                                     
+#N 0.24      6  0.24   6   1.       1.                                    
+#N NR,NT$|SI(|g+ce)(to g.s.+13.5)=100-I(|e+|b)(g.s.+13.5) where           
+#N I(|e+|b)(g.s.+13.5)=19 {I19} based on log| {Ift}>5.9 expected          
+#N for first-forbidden transitions. The normalization is considered as    
+#N approximate since many transitions (with as much as 15% of the         
+#N total intensity) are still unplaced                                    
+#N                                                                     3  
+#P 0.0          3/2-             11.05 M   25             3431      17    
+

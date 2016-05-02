@@ -1,0 +1,65 @@
+#184PB2CG ABSENCE OF G-|a COIN IN 188PO A DECAY.                                 
+#G ABSENCE OF G-|a COIN IN 188PO A DECAY.                                 
+#L 701.5       (2+)                                                   A   
+#L XREF=A                                                                 
+#G     701.5    100                                                       
+#L 938.9       (4+)                                                   A   
+#L XREF=A                                                                 
+#G     237.4    100                                                       
+#L 1261.6      (6+)                                                   A   
+#L XREF=A                                                                 
+#G     322.7    100                                                       
+#L 1663.4      (8+)                                                   A   
+#L XREF=A                                                                 
+#G     401.8    100                                                       
+#                                                                         
+#  185BI P DECAY                 2004AN07,2001PO05,1996DA0610NDS    201002
+#H TYP=FUL$AUT=CORAL M. BAGLIN$CIT=NDS 111,275 (2010)$CUT=1-Oct-2009$     
+#  Sources produced by 95MO(92MO,pn) AT E=410 MEV (1996DA06), E=420 MEV   
+#  (2001PO05) OR BY 93NB(95MO,3N) E=380-480 MEV (2004AN07).               
+#            185BI PARENT SP=-1607 16 BASED ON MEASURED EP=1598 16 (cf.   
+#  SP=-1544 SY (UNCERTAINTY OF 52 KEV) IN 2009AUZZ) if the 1/2+           
+#  state of 185BI is the GROUND STATE.  IN 187BI, THE h{-9/2} ORBITAL LIES
+#  ABOUT 100 KEV BELOW THE s{-1/2} ORBITAL; HOWEVER, THE ORDER OF         
+#  THESE ORBITALS IN 185BI HAS NOT BEEN ESTABLISHED (SEE 2001PO05 FOR     
+#  FURTHER DISCUSSION).                                                   
+#            ^T{-1/2}(185BI)=49 US 7 IS WEIGHTED AVERAGE OF 50 US 8 FROM  
+#  2001PO05 AND 44 US 16 FROM 1996DA06.                                   
+#            JPI(185BI)=(1/2+) BASED ON L=0 p EMISSION TO 0+ 184PB GROUND 
+#  STATE.                                                                 
+#P  0+X          1/2+               49 US   7                 1544  SY    
+
+#184PB    188PO A DECAY                 2003VA16,1999AN52         10NDS    201002
+#  188PO A DECAY                 2003VA16,1999AN52         10NDS    201002
+#H TYP=FUL$AUT=CORAL M. BAGLIN$CIT=NDS 111,275 (2010)$CUT=1-Oct-2009$     
+#  2003VA16: 188PO SOURCES FROM 142ND(50CR,4N), E=5.04 MEV/NUCLEON        
+#  (MID-TARGET); 99.8% 142ND TARGET; RECOILS SEPARATED BY VELOCITY        
+#  FILTER ^SHIP AND IMPLANTED INTO 16-STRIP POSITION-SENSITIVE SI         
+#  DETECTOR; SIX SI DETECTORS (FOR ce) AND FOUR-FOLD SEGMENTED Clover     
+#  DETECTOR; MEASURED EG, EA, IA, |a-G COIN, PARENT ^T{-1/2}.             
+#  SUPERSEDES 2002VAZZ.                                                   
+#  1999AN52: SOURCE FROM 142ND(52CR,6N), E=288, 294 MEV; MEASURED         
+#  EA, IA, |a-ce COIN, ^T{-1/2}(184PB), RECOIL-|a-|a CORRELATIONS.        
+#  2002VAZZ: 188PO FROM 142ND(50CR,4N); MEASURED EA, ^T{-1/2}(184PB).     
+#  PARENT ^T{-1/2}=0.28 MS 3 (2003VA16; SUPERSEDES 0.30 MS 5 FROM         
+#  2002VAZZ); OTHER VALUES: 0.40 MS +20-15                                
+#  AND 0.20 MS +27-8 (1999AN52).  PARENT QA=8082 13 FROM                  
+#  MEASURED EA=7910 13 FOR GS TO GS TRANSITION. %A(188PO) AP 100          
+#  (ONLY |a DECAY OBSERVED; SEE ALSO COMMENT ON |a BRANCHING).            
+#A IA        FROM 2003VA16.                                               
+#A HF        R0=1.486 10 IF HF=1 FOR 7911A TO GS AND %A AP 100 FOR 188PO. 
+#A HOWEVER, HF TO 577 LEVEL IS THEN VERY MUCH LESS THAN 1.0; HF GE 1      
+#A IMPLIES IA LE 2% TO 577 LEVEL, VERY DIFFERENT FROM MEASURED IA=35% 20. 
+#A ALSO, R0 IS A LITTLE LOWER THAN EXPECTED FROM SYSTEMATICS              
+#A (R0(190PB)=1.511 6, R0(188PB)=1.511 6 (1998AK04): R0(186PB)=1.510 2    
+#A (2003BA44)).  IT SHOULD BE NOTED THAT, FROM                            
+#A SYSTEMATICS FOR even-^A PB ISOTOPES, THREE LOW-LYING 0+                
+#A STATES ARE EXPECTED IN 184PB AND THEIR STRUCTURES                      
+#A MAY BE STRONGLY INTERMIXED; ALSO, THE UPPER TWO STATES MAY HAVE        
+#A COMPARABLE ENERGIES, IN WHICH CASE ALPHAS FEEDING THEM MAY NOT HAVE    
+#A BEEN RESOLVED IN THE EXPERIMENTS OF 1999AN52 AND 2003VA16.             
+#L J         FROM Adopted Levels.                                         
+#P 0            0+               0.28 MS   5              8082      13    
++A alpha 7.911 0.8
++A alpha 7.353 0.2
+

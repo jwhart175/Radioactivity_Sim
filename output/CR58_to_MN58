@@ -1,0 +1,26 @@
+# 58MN    58CR B- DECAY (7.0 S)         1988BO06                  10NDS    201004
+#  58CR B- DECAY (7.0 S)         1988BO06                  10NDS    201004
+#H TYP=FUL$AUT=CAROLINE D. NESARAJA, SCOTT D. GERAEDTS AND BALRAJ SINGH$  
+#H CIT=NDS 111, 897 (2010)$CUT=12-Jan-2010$                               
+#  1988Bo06 (also 1985Bo49) : E=11.5 MEV/nucleon, source produced by      
+#  W(76GE,X), followed by on-line mass separation. Measured EG, IG, GG,   
+#  BG coin, T1/2                                                          
+#  The decay scheme is considered as incomplete by                        
+#  the evaluators for two reasons: 1. feeding to GS is unknown,           
+#  2. highest populated level is at 810 keV while Q value is 4.1 MeV,     
+#  there may be several missing transitions.                              
+#  Note that in the 1997 NDS (1997Bh02), the excited states were          
+#  shifted upwards due to interpretation of results in (t,{+3}He)         
+#  reaction.                                                              
+#  2007Li72: calculated neutrino energy loss by |e decay                  
+#G M$ From 'adopted gammas'                                               
+#L E$ From EG's                                                           
+#L J$ From 'adopted levels'                                               
+#P 0.0         0+                7.0 S     3              4.07E+3   21    
+CR58 MN58 beta- 4.07 7.0 1.0
++G gamma 0.2895 0.25
++G gamma 0.174 0.015
++G gamma 0.6829 1.08
++G gamma 0.126 1.0
++G gamma 0.5204 0.21
+

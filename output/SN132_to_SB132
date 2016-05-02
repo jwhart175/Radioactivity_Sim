@@ -1,0 +1,43 @@
+#132SB2C  TO DEDUCE ISOMERS FROM 242CF SF DECAY. THE AUTHORS OBSERVED            
+#  TO DEDUCE ISOMERS FROM 242CF SF DECAY. THE AUTHORS OBSERVED            
+#  91G AND 163G IN COIN FORMING A CASCADE FROM A 102-NS ISOMER.           
+#G $ GG(THETA) WERE MEASURED BY 1995MA02 FOR THE FOLLOWING CASCADES,      
+#G BUT THE VALUES OF A2 AND A4 COEFFICIENTS WERE NOT QUOTED:              
+#G 340-86; 549-529; 993-86; 247-549; 247-652; 247-993; 247-1078;          
+#G 899-340; 1240-86. RESULTS WERE INTERPRETED FOR JPI AND MR VALUES       
+#G ASSUMING JPI(132SB GS)=4+ AND 3+                                       
+#G E,RI$ FROM 1989ST06                                                    
+#G E(A)$ Tentative |g in coincidence with gate on 246.87|g (1989St06)     
+#G M$ FROM CE DATA (1995MA02,1972KE20). IN 1995MA02, G AND CE SPECTRA     
+#G WERE MEASURED SIMULTANEOUSLY. IN 1972KE20, CE DATA WERE NORMALIZED     
+#G TO 527, M4 TRANSITION IN 135XE. THE ASSIGNMENTS GIVEN IN               
+#G PARENTHESES ARE BASED ON SIGNIFICANT MR(Q/D) RATIOS WHICH FROM RUL     
+#G ARE MOST LIKELY M1+E2 RATHER THAN E1+M2                                
+#G MR$ FROM GG(THETA) (1995MA02), BASED ON JPI=4+ FOR 132SB GS            
+#G M(B)$ FROM INTENSITY BALANCE (1989ST06) IN 94-135-92-163 CASCADE.      
+#G THE ORDERING OF THE 94-135 MAY BE REVERSED WITHOUT AFFECTING           
+#G THE MULTIPOLARITY ASSIGNMENT                                           
+#L E$ FROM LEAST-SQUARES FIT TO EG'S                                      
+#L J$ From adopted levels. The assignments are essentially suggested by   
+#L 1989St06 on the basis of 1+ for 1325 and 2268 levels (from             
+#L log| {Ift} values); (4)+ for {+132}Sb g.s.; multipolarity of           
+#L of transitions; and |g|g(|q) data from 1995Ma02.                       
+#L Other J|p choices are possible if J|p({+132}Sb g.s.)=3+.               
+#L Comparison with shell-model calculations is also used in               
+#L assigning J|p's.                                                       
+#L T$ FROM BG(T) (1995MA02)                                               
+#L J(A)$ PREFERRED CHOICE (1989ST06). LESS LIKELY CHOICE IS GIVEN         
+#L UNDER COMMENTS                                                         
+#L E(H)$ Possible member of configuration=|pg{-7/2}|nh{-11/2}{+-1}        
+#L E(D)$ Possible member of configuration=|pg{-7/2}|nd{-3/2}{+-1}         
+#L E(T)$ Possible member of configuration=|pd{-5/2}|nd{-3/2}{+-1}         
+#P 0.0          0+               39.7 S    8              3119      9     
+SN132 SB132 SF 0.0 39.7 0.488
++G gamma 0.34053 1.0
++G gamma 0.65231 0.055
++G gamma 0.99266 0.75
++G gamma 1.0783 0.051
++G gamma 0.24687 0.86
++G gamma 0.89904 0.91
++G gamma 1.23963 0.198
+

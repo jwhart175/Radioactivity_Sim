@@ -1,0 +1,202 @@
+#111AG    111PD B- DECAY (23.4 M)       1977KR14,1969BE11,1969SC1209NDS    200905
+#  111PD B- DECAY (23.4 M)       1977KR14,1969BE11,1969SC1209NDS    200905
+#H TYP=FUL$AUT=Jean Blachot$CIT=NDS 110, 1239 (2009)$CUT=1-Feb-2008$      
+#  1987Ze04 propose two levels at 568.5 and 568.8 instead of 568.8        
+#  based on coincidence                                                   
+#  Measured: |g, |g|g(1977Kr14, 1969Be11, 1969Sc12)                       
+#G E,RI$E|g, I|g are from 1977Kr14, unless otherwise indicated            
+#G E(A),RI(A)$From 1969Be11                                               
+#G E(B)$From 1977Kr14 (5.5-h {+111}Pd decay)                              
+#G RI(D)$From branching in (3HE,PNG), one expects IG(509G from            
+#G 568.5)=24 13, and IG(509G from 568.8)=23 7, nearly twice the observed  
+#G intensity                                                              
+#L BAND(F)   (K=1/2(431)) BAND IN ANALOGY WITH SIMILAR CONFIGURATIONS     
+#L populated in {+107}In-{+119}In. A=18.7, a=-1.5 calc from               
+#L 1/2,3/2,7/2 E(levels). Other interpretation given by 1977Gl06.         
+#P 0.0         5/2+              23.4 M    2              2217      11    
+PD111 AG111 beta- 2.217 1404.0 0.0087
++G gamma 0.414 0.03
++G gamma 1.246 0.004
++G gamma 1.348 0.02
++G gamma 1.395 0.005
++G gamma 1.549 0.006
++G gamma 1.8632 0.003
++G gamma 0.05982 0.63
++G gamma 0.07043 0.9
++G gamma 0.2898 0.122
++G gamma 0.087 0.018000000000000002
++G gamma 0.3168 0.024
++G gamma 0.37668 0.53
++G gamma 0.1014 0.006
++G gamma 0.3912 0.031
++G gamma 0.4048 0.1
++G gamma 0.1694 0.04
++G gamma 0.4155 0.08800000000000001
++G gamma 0.4858 0.031
++G gamma 0.279 0.012
++G gamma 0.5091 0.25
++G gamma 0.4385 0.057999999999999996
++G gamma 0.5091 0.25
++G gamma 0.2022 0.012
++G gamma 0.2303 0.027999999999999997
++G gamma 0.4767 0.069
++G gamma 0.547 0.44
++G gamma 0.3522 0.006999999999999999
++G gamma 0.6417 0.02
++G gamma 0.5526 0.019
++G gamma 0.6232000000000001 0.33
++G gamma 0.1418 5.0E-4
++G gamma 0.58 1.0
++G gamma 0.6504 0.66
++G gamma 0.418 0.005
++G gamma 0.5193 0.012
++G gamma 0.8085 0.0014000000000000002
++G gamma 0.166 0.015
++G gamma 0.7457 0.017
++G gamma 0.8165 0.009000000000000001
++G gamma 0.49410000000000004 0.01
++G gamma 0.6573 0.027999999999999997
++G gamma 0.6854 0.06
++G gamma 0.773 0.005
++G gamma 1.0023 0.073
++G gamma 0.4789 0.023
++G gamma 0.5164 0.031
++G gamma 0.9555 0.045
++G gamma 0.5407000000000001 0.031
++G gamma 0.7098 0.15
++G gamma 1.0266 0.01
++G gamma 0.7426 0.02
++G gamma 1.0597999999999999 0.015
++G gamma 0.624 0.02
++G gamma 0.7938 0.021
++G gamma 0.6113 0.021
++G gamma 0.635 0.025
++G gamma 0.7755 0.05
++G gamma 0.8038 0.040999999999999995
++G gamma 0.89 0.005
++G gamma 1.1204 0.16
++G gamma 0.6031 0.027000000000000003
++G gamma 0.6417 0.05
++G gamma 0.833 0.01
++G gamma 0.9214 0.028999999999999998
++G gamma 0.9372999999999999 0.008
++G gamma 1.506 0.001
++G gamma 0.30839999999999995 0.011000000000000001
++G gamma 0.8085 0.031
++G gamma 0.8357 0.32
++G gamma 0.95 0.01
++G gamma 1.3885 0.64
++G gamma 1.459 0.67
++G gamma 1.3112000000000001 0.009000000000000001
++G gamma 1.5429000000000002 0.026000000000000002
++G gamma 1.015 0.01
++G gamma 1.053 0.005
++G gamma 1.0671 0.015
++G gamma 1.2697 0.01
++G gamma 1.022 0.008
++G gamma 1.098 0.008
++G gamma 1.5745 0.031
++G gamma 1.6442999999999999 0.023
+
+#111AG    111PD B- DECAY (5.5 H)        1977KR14,1969BE11,1969SC1209NDS    200905
+#  111PD B- DECAY (5.5 H)        1977KR14,1969BE11,1969SC1209NDS    200905
+#H TYP=ERR$AUT=J. Tuli$DAT=11-Jul-2014$COM=corrected NR to agree with PN$ 
+#H TYP=FUL$AUT=Jean Blachot$CIT=NDS 110, 1239 (2009)$CUT=1-Feb-2008$      
+#  Measured: |g, |g|g(1977Kr14,1969Be11,1969Sc12)                         
+#  |g angular correlations (1988Br31)                                     
+#G E,RI$E|g,I|g are from 1977Kr14, except as noted                        
+#G E(D),RI(D)$From 1969Be11                                               
+#L BAND(F)   1/2+(431) BAND.                                              
+#L For J=1/2,5/2 members, see 23-min {+111}Pd |b{+-} decay                
+#P 172.2       11/2-             5.5 H     1              2217      11    
+PD111 AG111 beta- 2.217 19800.0 0.077
++G gamma 0.4442 0.063
++G gamma 0.5193 0.055999999999999994
++G gamma 0.716 0.02
++G gamma 0.8085 0.03
++G gamma 1.076 0.02
++G gamma 1.27 0.02
++G gamma 1.309 0.03
++G gamma 2.0641 0.013999999999999999
++G gamma 2.086 0.02
++G gamma 0.059770000000000004 0.048
++G gamma 0.07044 3.78
++G gamma 0.2898 0.52
++G gamma 0.087 0.014499999999999999
++G gamma 0.31689999999999996 0.018500000000000003
++G gamma 0.3767 0.44
++G gamma 0.1018 0.14
++G gamma 0.39130000000000004 2.7
++G gamma 0.1691 0.22
++G gamma 0.4155 0.81
++G gamma 0.4859 0.26
++G gamma 0.5526 0.012
++G gamma 0.6232000000000001 0.2
++G gamma 0.575 1.59
++G gamma 0.6456000000000001 0.05
++G gamma 0.58 1.0
++G gamma 0.418 0.027000000000000003
++G gamma 0.5193 0.019
++G gamma 0.8085 0.0034999999999999996
++G gamma 0.1187 0.05
++G gamma 0.6942 1.0
++G gamma 0.4545 0.56
++G gamma 0.5561 0.14
++G gamma 0.166 0.05
++G gamma 0.7456 0.063
++G gamma 0.817 0.05
++G gamma 0.4135 0.89
++G gamma 0.8282999999999999 0.027999999999999997
++G gamma 0.5953999999999999 0.063
++G gamma 0.6327999999999999 1.78
++G gamma 0.894 0.03
++G gamma 0.30810000000000004 0.07
++G gamma 0.7622000000000001 0.63
++G gamma 0.8627999999999999 0.075
++G gamma 1.0225 0.07
++G gamma 0.4545 0.13
++G gamma 1.029 0.023
++G gamma 0.4393 0.121
++G gamma 0.477 0.02
++G gamma 0.6175 0.035
++G gamma 0.6547000000000001 0.075
++G gamma 0.5834 0.13
++G gamma 0.5256000000000001 0.65
++G gamma 0.7038 0.33
++G gamma 0.5522 0.14
++G gamma 0.7189 0.09
++G gamma 0.8821 0.107
++G gamma 1.0012 0.05
++G gamma 0.72482 0.14
++G gamma 1.0985 0.06
++G gamma 1.6513 0.36
++G gamma 1.7219 0.17
++G gamma 0.272 0.083
++G gamma 0.3579 0.21
++G gamma 0.6685 0.49
++G gamma 0.7978 0.51
++G gamma 0.9447000000000001 0.065
++G gamma 0.9752000000000001 0.08
++G gamma 0.9963 0.13
++G gamma 1.1159000000000001 0.55
++G gamma 1.6910999999999998 0.64
++G gamma 0.753 0.06
++G gamma 0.8821 0.107
++G gamma 1.2001 0.16
++G gamma 1.2225 0.045
++G gamma 1.7752000000000001 0.23
++G gamma 1.088 0.1
++G gamma 1.1396 0.03
++G gamma 1.905 0.04
++G gamma 0.8282999999999999 0.059000000000000004
++G gamma 1.1633 0.17
++G gamma 1.2825 0.52
++G gamma 0.9162 0.05
++G gamma 1.0452000000000001 0.05
++G gamma 1.939 0.05
++G gamma 1.0634000000000001 0.07
++G gamma 1.381 0.02
++G gamma 1.1424 0.06
++G gamma 1.418 0.03
++G gamma 1.9707999999999999 0.31
+

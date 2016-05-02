@@ -1,0 +1,26 @@
+#134SB    134SN B- DECAY                2005SH23                  ENSDF    201103
+#  134SN B- DECAY                2005SH23                  ENSDF    201103
+#H TYP=FUL$AUT=K. Abu Saleem, Z. Wu, S. Chaudhury, D, Bernard, E. Browne$ 
+#H CIT=ENSDF$CUT=31-Jan-2011$                                             
+#H TYP=FUL$AUT=A.A. Sonzogni$CIT=NDS 103, 1 (2004)$CUT=31-Jul-2004$       
+#  {+134}Sn isotope produced in UC{-2}(n,f) reaction following bombardment
+#  of a W rod with proton pulses at E=1.4 GeV.  Sn isotopes ionized by    
+#  resonance ionization laser ion source (RILIS) and separated using the  
+#  ISOLDE general purpose mass separator (GPS).                           
+#  Measured E|g, I|g, |g|g, |b|g coin, |g(t), |g|g(t) with five large Ge  
+#  detectors.                                                             
+#B LOGFT$ Deduced by evaluators                                           
+#B IB(Y)$Followed by emission of B- delayed neutrons.                     
+#L E$ Deduced by evaluators from least-squares fit to |g-ray energies.    
+#L J$ All assignments changed to same as in Adopted dataset and           
+#L placed in parentheses (Singh)                                          
+#L J$ Assignments based on assumption that E2 transitions will be weak or 
+#L nonexistent in {+134}Sb due to small collective enhancement,           
+#L unless otherwise stated.                                               
+#L J(X)$From log| {Ift} and |g rays to JPI=2- and JPI=1- levels only.     
+#L E(Y)$Multiplet de-excited by emission of B- delayed neutrons           
+#L (1990Fo03).                                                            
+#L BAND(A)$ YRAST CASCADE                                                 
+#P 0.0          0+                1.050 S  11             7.84E3    15    
+SN134 SB134 beta- 7.84 0.0 0.06
+

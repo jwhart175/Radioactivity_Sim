@@ -1,0 +1,21 @@
+#147CE    252CF SF DECAY                1999SA58                  09NDS    200902
+#  252CF SF DECAY                1999SA58                  09NDS    200902
+#H TYP=FUL$AUT=N. NICA$CIT=NDS 110,749 (2009)$CUT=14-Nov-2008$            
+#  1999SA58: measured EG, GGG using the Gammasphere array of 72 Compton   
+#  suppressed Ge detectors. No IG's and |DE|g's are reported              
+#  Other: 1995BU38                                                        
+#L E$From least-squares fit to EG's assuming |DE|g=1.0 KEV                
+#L J$From 1997HO11; these assignments differ from                         
+#L those in in Adopted Levels (see Adopted Levels dataset for             
+#L explanations)                                                          
+#L BAND(A)$ BAND 1                                                        
+#L (yrast band built on |ni{-13/2} state (1999SA58))                      
+#L BAND(B)$ Cascade 2                                                     
+#L BAND(C)$ Cascade 3                                                     
+#L BAND(D)$ Cascade 4                                                     
+#L (2190 level and 566G are common with those in 238U(12C,FG) dataset     
+#L (2006VE04), while all the other levels and G's are different)          
+#G E$From 1999SA58                                                        
+#P 0            0+               2.645 Y   8                              
+CF252 CE147 SF 0.0 8.346802377600001E7 1.0
+

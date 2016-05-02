@@ -1,0 +1,17 @@
+#119AG    119PD B- DECAY (0.92 S)       1991PE04                  09NDS    200910
+#  119PD B- DECAY (0.92 S)       1991PE04                  09NDS    200910
+#H TYP=FUL$AUT=D. M. SYMOCHKO, E. BROWNE, J. K. TULI$                     
+#H CIT=NDS 110,2945 (2009)$CUT=1-Dec-2008$                                
+#  {+238}U(p,f) E=20 MeV, on-line mass; measured |g, |b|g, |g|g, |gX      
+#  Decay scheme is that proposed by 1991Pe04. Authors were unable to      
+#  determine the energies of the (7/2+) and (1/2-) isomers in             
+#  the {+119}Ag daughter nucleus.                                         
+#G RI$Relative to I(129.9|g)=100                                          
+#L J         From Adopted Levels.                                         
+#P 0.0       GE(7/2+)            0.92 S    8              7023      SY    
+PD119 AG119 beta- 7.023 0.92 1.0
++G gamma 0.12990000000000002 1.0
++G gamma 0.25660000000000005 0.63
++G gamma 0.0699 0.12
++G gamma 0.3261 0.52
+

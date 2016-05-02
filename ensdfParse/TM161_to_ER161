@@ -1,0 +1,76 @@
+#161ER    161TM EC DECAY                1975AD08,1980AB18         11NDS    201111
+#  161TM EC DECAY                1975AD08,1980AB18         11NDS    201111
+#H TYP=FUL$AUT=C. W. Reich$CIT=NDS 112,2497 (2011)$CUT=1-Jun-2011$        
+#  DATA SET REVISED (APRIL, 2011) BY CW REICH TO INCLUDE RESPONSE TO      
+#   COMMENTS FROM THE REVIEWER.                                           
+#  Data and decay scheme are primarily from 1975Ad08 and secondarily from 
+#  1980Ab18. Both produced {+161}Tm by spallation of Ta target with       
+#  660-MeV p and chemical separation; 1980Ab18 also did isotope           
+#  separation. Both measured |g singles for 73 |g's with Ge detectors     
+#  and ce's in magnetic spectrographs. 1975Ad08 measured |g|g             
+#  coincidences as well as |b{++} spectra with a SiLi detector. |g data   
+#  of 1980Ab18 are the same as those of 1975Ad08.                         
+#  Other experimental results are:                                        
+#  MEASURED CE (1959Ha09,1964Ab11),                                       
+#  PARENT T1/2 (1960Bu27,1963Gr14,1963Ra15), LEVEL T1/2                   
+#  (1972AnZL,1974BuZM,1975Bu10,1975VaYW,1979AlZU,1980Ab22,1980FrZQ,       
+#  1981AbZU,1983Be17), MR (1991AbZZ),                                     
+#  TOTAL-ABSORPTION |g spectra (1982By03,1993Al03).                       
+#  REPORTS BY SAME AUTHORS AS 1975Ad08 (1974StYR,1975AdZH).               
+#  The |b{++} end-point is 1800 {I100} keV (1975Ad08). It is suggested    
+#   that these decays are to levels from 143 to 267 keV. This datum       
+#   gives Q(|e)=3000 {I200} keV.                                          
+#  No values are listed for the intensities of the |e transitions,        
+#   because of the problems in obtaining reliable intensity balances in   
+#   the decay scheme. From the intensities of the |g's deexciting the     
+#   266 and 2004 levels, it seems clear that, at least, these two are     
+#   directly populated. The large number of unplaced |g's, including 75   
+#   above 1 MeV, suggests that most of the |e decay will be to higher     
+#   lying states than what would be calculated from intensity balances    
+#   in the current decay scheme. This argument is supported by the        
+#   beta-strength function measurements of 1982By03, which indicate that  
+#   AP 22% of the decays are to levels below 400 keV, compared to the     
+#   61% calculated from the present decay scheme.                         
+#G           Data and decay scheme are primarily from 1975Ad08 and        
+#G secondarily from 1980Ab18.                                             
+#G E,RI      Values are from 1975Ad08. (Values in 1980Ab18 are            
+#G      identical.)                                                       
+#G RI        Values from 1975Ad08 and 1980Ab18 are quoted as photons per  
+#G  10{+4} decays, based on the requirement that the sum of the |g+ce     
+#G  intensities to the g.s. be 100%. Because of the likely                
+#G  incompleteness of the decay scheme, the evaluator regards this        
+#G  normalization is approximate. In any event, the listed values can be  
+#G  regarded as relative ones.                                            
+#G MR        From 1975Ad08 and 1980Ab18 and based on L subshell ratios,   
+#G  K/L ratios, and |a(K)exp. Normalization of the ce and |g data is      
+#G  based on |a(K)(143)=0.42 for a pure E2 transition.                    
+#G CC        Uncertainties are based on uncertainties in |d estimated by  
+#G evaluator for the purpose of this calculation. These |D|d are not      
+#G reported here.                                                         
+#L E         From least-squares fit to the |g-ray energies.               
+#L J         From {+161}Er Adopted Levels.                                
+#L T         Values for excited levels are from measurements made         
+#L following {+161}Tm |e decay. For other values,                         
+#L see {+161}Er Adopted Levels.                                           
+#L           Levels are 3/2(0), 5/2(59), 7/2(143), 9/2(249), and          
+#L      11/2(388).                                                        
+#L           Levels are 5/2(172), 7/2(266), and 9/2(390).                 
+#L           Levels are  5/2(212), 7/2(217), 9/2(189), 11/2(296), and     
+#L      13/2(267).                                                        
+#L           Level is 3/2(369).                                           
+#L           Level is 11/2(396).                                          
+#L           Levels are 3/2(463), 5/2(496), and 7/2(590).                 
+#L           Level is 3/2(724).                                           
+#L           Level is 5/2(843).                                           
+#L                                                                        
+#L BAND(A)   3/2[521] band                                                
+#L BAND(B)   5/2[523] band                                                
+#L BAND(C)   Mixed positive-parity band.                                  
+#L BAND(D)   bandhead of 3/2[651], with an admixture of 3/2[402]          
+#L BAND(E)   bandhead of 11/2[505]                                        
+#L BAND(F)   3/2(402) band with an admixture of 3/2[651]                  
+#L BAND(H)   bandhead of 3/2[532]                                         
+#L BAND(I)   bandhead of 5/2[512]                                         
+#L BAND(K)   probable KPI=9/2+ bandhead                                   
+#P   0          7/2+              30.2 M   8               3310     24    
+

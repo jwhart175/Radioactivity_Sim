@@ -1,0 +1,387 @@
+# 93SR    93RB B- DECAY                 1977BI01                  11NDS    201105
+#  93RB B- DECAY                 1977BI01                  11NDS    201105
+#H TYP=FUL$AUT=CORAL M. BAGLIN$CIT=NDS 112, 1163 (2011)$CUT=15-Dec-2010$  
+#  Others: 1970MaZC, 1972Am01, 1972Mc04, 1974Ac04, 1975Br03, 1978St02,    
+#  1978Wo15, 1978Wu04, 1979Bo26, 1980De02, 1983Ia02, 1986Ka20, 1988Al42,  
+#  1988GrZX, 1992Pr03, 1996GR20, 1996GrZZ, 1996GrZY, 2004SA69.            
+#  2004SA69: 93RB FROM 235U(N,F); ^KUR-^ISOL ON-LINE SEPARATOR; BaF{-2}   
+#  DETECTORS (+90|', +135|', -135|'); 30-KEV 93RB IONS                    
+#  IMPLANTED IN FE FOIL; 0.2 TESLA MAGNETIC FIELD; MEASURED               
+#  ^T{-1/2}(213 LEVEL), g-factor(213 LEVEL) USING ^TDPAC.                 
+#  1996GR20, 1997Gr09: total absorption |g spectrometer (^TAGS)           
+#  (NaI(Tl) well detector with Si e-detector in well) operated in singles 
+#  or in 4|p|g-|b coin mode, summed-EG resolution AP 5%; deduced B-       
+#  feeding to GS (1996Gr20; SUPERSEDES 1996GRZZ), B- feeding to           
+#  excited states (1997GR09; SUPERSEDES 1996GrZY).                        
+#  1979Bo26: curved crystal spectrometer; measured EG for two lines.      
+#  1977Bi01: GELI; measured EG, IG (243 lines), GG coin.                  
+#  1975Br03: GELI; measured EG, IG (69 lines), EB, IB, GG coin, BG coin.  
+#  1974Ac04: GELI and Si(Li); measured EG, IG (45 lines), GG coin,        
+#  EKC (relative to 85KR(304G) and 85RB(151G)).                           
+#  The adopted decay scheme is essentially that of 1977Bi01. For          
+#  E(level)<4100, it is supported by GG-coin information. The             
+#  schemes proposed by 1977Bi01 and 1975Br03 are in excellent agreement;  
+#  however, of the 19 levels proposed in 1974Ac04, only 7 are common      
+#  to the scheme of 1977Bi01. Total unplaced IG is AP 0.40% in 1977Bi01.  
+#  For the decay scheme of 1977Bi01, negative B- feeding of 2460, 2774,   
+#  2886 levels is implied by IG imbalance. Also, the distribution of      
+#  B- strength implied by their decay scheme differs from that indicated  
+#  by the ^TAGS data of 1997Gr09, in that their scheme significantly      
+#  overestimates B- strength to E(level)=0.2-2.2 MEV, underestimates it   
+#  to E(level)=2.9-3.6 MEV, 4.1-4.4 MEV and AP 5.2 MEV, and grossly       
+#  overestimates it to E(level) GE 5.4 MEV.                               
+#  From their total G absorption measurements, 1988Al42 drew conclusions  
+#  which were qualitatively similar to those of 1997Gr09 concerning the   
+#  B- strength distribution.                                              
+#  Consequently, the evaluator has modified the scheme from 1977Bi01, as  
+#  follows: (i) the placement is indicated as tentative for all gammas    
+#  (except the 4645G) deexciting levels which have E>5500 (presumably,    
+#  all of these are misplaced since each individual IG exceeds the total  
+#  B- branching to the relevant level and no gammas are placed so they    
+#  feed these levels); (ii) gammas deexciting these levels in             
+#  1977Bi01 have been relocated by the evaluator whenever possible (based 
+#  on EG alone) - this affects 981.1G, 1359.9G, 1533.8G, 1753.6G, 1983.2G,
+#  3585.4G, 4004.5G; (iii) when calculating intensity balance, all IG     
+#  (except I(4645G)) originating from E(level)>5500 have been ignored     
+#  (total IG=4.9%); (iv) a new level (or group of levels) has been        
+#  introduced at AP 4250 KEV and at AP 5200 KEV, although no unique       
+#  assignment of gammas to the level(s) can be suggested at this time;    
+#  (v) the previously unplaced 405G has been placed from the 3603 level,  
+#  and the 1992G (from the 5396 level in 1977Bi01) has been relocated     
+#  deexciting the 4038 level (based on EG and intensity balance at the    
+#  5396 level); (vi) placement of the 4271G from the 5414 level is shown  
+#  as tentative, based on intensity balance at the 5414 level cf. IB from 
+#  ^TAGS.                                                                 
+#  These changes result in a scheme which does not imply negative B-      
+#  feeding to any level and which marginally improves agreement between   
+#  B- feeding deduced from intensity balance and from the                 
+#  ^TAGS data of 1997Gr09; however, the major discrepancies in B-         
+#  strength distribution persist. It appears to be necessary to introduce 
+#  a number of additional levels between 2900 and 3600 KEV; transitions   
+#  between these levels and ones below 2200 KEV may conceivably eliminate 
+#  much of the feeding to E(level)<2200 implied by the present decay      
+#  scheme. However, the observation of BG coin at the 433, 1143 and       
+#  1385 levels (1978St02) appears to establish that significant B- feeding
+#  to those levels does indeed occur.                                     
+#B           <E{-|b}>=2630 30 (1990Ru05), 2590 140 (1982Al01)             
+#B cf. 2229 160 CALCULATED BY THE EVALUATOR FOR THE DECAY SCHEME PRESENTED
+#B HERE USING THE CODE ^RADLST.                                           
+#B IB,LOGFT  From TI imbalance, except as noted. Independent IB values    
+#B (uncertainty unstated) are available, as a function of excitation      
+#B energy, from the total absorption GAMMA spectrometry data of 1997Gr09  
+#B and, after being scaled to achieve consistency with adopted IB(GS)     
+#B (4% reduction required), these are given in comments.                  
+#B Where the latter values significantly exceed                           
+#B those based on intensity balance, they possibly indicate the existence 
+#B of an additional level (or levels) at comparable energy(ies);          
+#B relatively low values may indicate incorrect placement of gammas       
+#B from the relevant level and/or failure of the level scheme to account  
+#B for gammas directly feeding the level (presumably the former for       
+#B E(level)>5390, and the latter for low-lying levels).                   
+#B IB(B),LOGFT(B)$Level may also deexcite via n emission, in which case   
+#B IB would be higher (by 1.39% 7 at most) and LOGFT correspondingly      
+#B lower.                                                                 
+#B E(F)      B END-POINT ENERGY; WEIGHTED AVERAGE OF 7450 40 (2001KO07),  
+#B 7456 15 (1992PR03), 7488 15 (from Blonnigen, quoted by 1992Pr03),      
+#B 7455 35 (1988GrZX), 7486 15 (1980De02, TABLE 1), 7560 120 (1978Wo15),  
+#B 7410 100 (1978St02), 7440 30 (1978Wu04), 7440 30 (1983Ia02), 7550 150  
+#B (1970MaZC).                                                            
+#B IB(G)     From 4|p|g-|b data, 1996Gr20 obtain 32.6% 24.                
+#B 1975Br03 report 42% 4, based on I(432G, 93SR)/I(590G, 93Y) in          
+#B source at saturation and %I(590G) (values unstated), without allowance 
+#B for %B-N=1.39 7 or for their decay scheme in which IG(432)/(|S TI to   
+#B GS) is AP 103% of that in 1977Bi01 (corrected IB(GS)=39% 4). 1974Ac04  
+#B report 59% 3, based on saturation values for |S(RI to 93SR GS)/        
+#B |S(RI to 93Y GS) and authors' decay schemes, assuming                  
+#B IB(GS, 93Y)=0 and %B-N(93RB)=1.7. Compared with the adopted decay      
+#B schemes, the ratio from 1974Ac04 is a factor of 1.34 low;              
+#B consequently, |S(IB to excited states of 93SR)=39% 3                   
+#B implied in 1974Ac04 is an underestimate (probably 52% 4, leading to    
+#B IB(GS)=46% 4, consistent with datum from 1975Br03, but not 1996Gr20).  
+#B The evaluator adopts the weighted average of data from 1996Gr20 and    
+#B 1975Br03 (after the revisions above), assuming adopted %B-N=1.39 7.    
+#B IB(O)     From ^TAGS (1997Gr09); may represent feeding to one level    
+#B or to several levels of undetermined energy, lying within a            
+#B typically AP 100 KEV wide energy bin centered at the level energy      
+#B indicated.                                                             
+#G           1977Bi01 observe more than three times as many G rays as     
+#G 1975Br03 or 1974Ac04 and resolve five multiplets reported as single    
+#G lines in prior studies. The evaluator, therefore, omits G rays reported
+#G by 1974Ac04 alone (EG=1380.1, 1597.1, 2456.1, 2946.85, 2999.0,         
+#G 4879.0, 5135.7, 5269.9).                                               
+#G           EKC data are from 1974Ac04.                                  
+#G           <E{-|g}>=1920 100 (1990Ru05) cf.                             
+#G 2257 25 CALCULATED USING THE CODE ^RADLST FOR THE DECAY SCHEME         
+#G PRESENTED HERE.                                                        
+#G E,RI      From 1977Bi01, except as noted. Data from 1977Bi01 and       
+#G 1975Br03 are typically in excellent agreement. However, those from     
+#G 1974Ac04 show systematic differences; EG tends to be higher than in    
+#G 1977Bi01 and RI is usually low, sometimes by a factor of at least two. 
+#G M,MR      From EKC.                                                    
+#G E(A),RI(A)$Also observed in studies other than 1977Bi01.               
+#G M(H)      1986Ka20 report I(XK)/(I(219G)+I(432G))=0.0063 22 in spectrum
+#G gated by 710G (after correction for I(XK) arising from 213 transition).
+#G Based on mult(213G), DPI is the same for the 219 and 432 transitions.  
+#G This ratio is consistent with mult=M1 or E2                            
+#G for both transitions and rules out                                     
+#G mult=E1. However, 1974Ac04 report EKC(219G)<0.010 and EKC(432G)<0.0015,
+#G both of which indicate mult=E1. The evaluator adopts                   
+#G the conclusions of 1986Ka20.                                           
+#G E(I)      EG also approximates that required for a 5396 to 4992        
+#G transition.                                                            
+#L E         FROM LEAST-SQUARES FIT TO EG, OMITTING LINES WITH            
+#L UNCERTAIN PLACEMENT, EXCEPT WHEN ALL LINES DEEXCITING LEVEL ARE        
+#L UNCERTAIN.                                                             
+#L J         FROM Adopted Levels.                                         
+#L E(K)      Intensity balance implies %IB=-0.23 5 to this level          
+#L if the decay scheme of 1977Bi01 is assumed.                            
+#L E(L)      Intensity balance implies %IB=-0.38 8 to this level          
+#L if the decay scheme of 1977Bi01 is assumed.                            
+#L E(M)      Intensity balance implies %IB=-0.20 11 to this level         
+#L if the decay scheme of 1977Bi01 is assumed.                            
+#L E(N)      Not a discrete level and, consequently, not included in      
+#L Adopted Levels.  E is the centroid of an energy bin of                 
+#L typically AP 100 KEV width which encompasses a level or levels fed     
+#L in B- decay with the summed IB indicated; from total absorption        
+#L |g spectroscopy (1997Gr09). Neither specific level energies nor        
+#L deexcitation |g energies are presently known.                          
+#P 0           5/2-              5.84 S    2              7465      9     
+RB93 SR93 beta- 7.465 5.84 1.0
++G gamma 2.037 7.877999999999999E-4
++G gamma 2.4516999999999998 0.0018786
++G gamma 3.1292 0.0010099999999999998
++G gamma 4.89 3.03E-4
++G gamma 4.9718 3.8379999999999995E-4
++G gamma 4.9968 5.857999999999999E-4
++G gamma 5.1546 2.626E-4
++G gamma 5.1648000000000005 2.222E-4
++G gamma 5.409 4.6459999999999996E-4
++B beta- 3.4155 0.35
++B beta- 3.307 0.015
++B beta- 3.2068000000000003 0.063
++G gamma 0.21916 0.031916
++G gamma 0.43261 0.20199999999999999
++B beta- 2.9398 0.006
++G gamma 0.98605 0.078982
++B beta- 2.8643 0.018000000000000002
++G gamma 0.7099500000000001 0.062215999999999994
++G gamma 0.92904 0.0049288
++B beta- 2.8615 0.012
++G gamma 0.9347000000000001 0.0037167999999999997
++G gamma 1.14818 0.017776
++B beta- 2.8181 0.0052
++G gamma 1.2383 0.017169999999999998
++B beta- 2.7471 0.032
++G gamma 1.38521 0.066256
++B beta- 2.6776 0.005
++G gamma 1.09671 0.004646
++B beta- 2.6614 0.01
++G gamma 1.3496700000000001 0.0016362
++G gamma 1.56291 0.011715999999999999
++B beta- 2.5568 0.0063
++G gamma 0.79365 0.012524
++G gamma 1.5662 6.867999999999999E-4
++B beta- 2.543 0.015
++G gamma 0.82241 0.0019593999999999996
++G gamma 1.8085 0.032521999999999995
++B beta- 2.5135 0.0031
++G gamma 1.4370999999999998 0.004848
++B beta- 2.4936 0.008
++G gamma 0.76836 0.0013331999999999999
++B beta- 2.4286 0.0076
++G gamma 1.0594000000000001 7.474000000000001E-4
++B beta- 2.4246 0.0074
++G gamma 0.9056000000000001 7.675999999999999E-4
++B beta- 2.394 0.0016
++B beta- 2.3826 0.0044
++G gamma 1.0351 7.675999999999999E-4
++G gamma 1.1301199999999998 0.002222
++G gamma 1.287 0.0012928
++B beta- 2.3094 0.005600000000000001
++G gamma 1.0547 6.867999999999999E-4
++G gamma 1.1503800000000002 0.0053934
++G gamma 1.30692 0.0013331999999999999
++G gamma 2.2928 0.006201399999999999
++B beta- 2.2968 0.0037
++G gamma 1.33297 0.012322
++G gamma 1.8865999999999998 0.0016766
++B beta- 2.2811999999999997 0.0018
++G gamma 1.36536 0.0037773999999999998
++G gamma 1.919 0.0012523999999999999
++G gamma 0.16340000000000002 0.0013331999999999999
++G gamma 2.0239000000000003 0.001414
++G gamma 1.4732 6.261999999999999E-4
++G gamma 2.0268800000000002 0.0026866
++G gamma 1.3156400000000001 0.004383399999999999
++G gamma 1.4053699999999998 0.0011514
++B beta- 2.1512 0.0044
++G gamma 1.4790999999999999 7.07E-4
++G gamma 1.6352 0.004343
++B beta- 2.0953000000000004 4.0E-4
++G gamma 2.5237 0.002828
++G gamma 0.90108 0.0012725999999999998
++G gamma 0.9909 0.001313
++G gamma 2.5575 0.0014341999999999998
++G gamma 1.3887 0.002626
++B beta- 2.0736999999999997 0.0026
++B beta- 2.0319000000000003 0.005
++B beta- 1.9786 0.0105
++G gamma 2.76648 0.004625799999999999
++B beta- 1.8738 4.0E-4
++G gamma 1.81276 0.0028886
++B beta- 1.857 0.0017000000000000001
++G gamma 0.7764 6.06E-4
++G gamma 1.11577 0.0010908
++G gamma 1.4527 5.857999999999999E-4
++B beta- 1.8457999999999999 0.0021
++G gamma 2.2702 0.0063226
++B beta- 1.7747 0.005600000000000001
++G gamma 1.8416 9.494E-4
++G gamma 2.2561999999999998 8.08E-4
++G gamma 2.41822 0.0038582
++B beta- 1.6794 0.0067
++B beta- 1.6696 0.0040999999999999995
++G gamma 1.1643599999999998 0.0010504
++G gamma 1.1670999999999998 5.252E-4
++G gamma 1.578 0.0017776
++G gamma 1.7535999999999998 0.0010908
++B beta- 1.5904 0.0059
++B beta- 1.5834000000000001 0.037200000000000004
++G gamma 1.5311 7.474000000000001E-4
++G gamma 1.8927 0.0020199999999999997
++G gamma 1.9339000000000002 0.0029896000000000002
++G gamma 2.66108 0.0035956
++B beta- 1.5624 0.0373
++G gamma 0.86774 8.484E-4
++G gamma 1.97828 0.009292
++G gamma 2.86134 0.012928
++B beta- 1.5533 0.016200000000000003
++B beta- 1.553 0.052000000000000005
++G gamma 0.9811 0.0015149999999999999
++G gamma 1.5158 0.0010908
++G gamma 1.9564000000000001 0.0020199999999999997
++G gamma 1.9978 6.867999999999999E-4
++G gamma 2.0874 0.0020199999999999997
++B beta- 1.5485 0.0182
++G gamma 1.8311 0.0024038
++G gamma 2.06836 0.0016563999999999997
++G gamma 2.6381 0.0032522000000000002
++G gamma 2.734 6.867999999999999E-4
++G gamma 2.8904 0.0047469999999999995
++G gamma 3.8767 0.0024441999999999997
++B beta- 1.5419 0.055999999999999994
++G gamma 1.12 8.484E-4
++G gamma 2.3275 0.0013331999999999999
++G gamma 3.8905 0.002424
++B beta- 1.5209000000000001 0.0219
++G gamma 3.5025999999999997 0.006262
++G gamma 3.7216 0.0017573999999999999
++B beta- 1.5112 0.022400000000000003
++G gamma 0.35174 7.675999999999999E-4
++G gamma 0.72199 5.857999999999999E-4
++G gamma 1.49485 0.0026663999999999998
++G gamma 1.66216 0.004241999999999999
++G gamma 1.90094 0.005353
++G gamma 2.8125999999999998 0.0012523999999999999
++G gamma 3.9541999999999997 4.444E-4
++B beta- 1.4813 0.0085
++G gamma 2.1475999999999997 0.0033532
++G gamma 2.8753 0.001212
++G gamma 3.5854 0.0012322
++B beta- 1.4716 0.0215
++G gamma 1.9832 8.08E-4
++G gamma 1.9918 0.0019391999999999999
++G gamma 2.7999 0.0017573999999999999
++B beta- 1.4697 0.0023
++G gamma 1.6909 7.07E-4
++G gamma 2.262 0.0016362
++B beta- 1.4432 0.0209
++G gamma 0.4738 3.232E-4
++G gamma 1.7457 0.0013938
++G gamma 1.138 0.0023431999999999997
++G gamma 2.7731999999999997 0.001414
++B beta-1.3296 0.03
++G gamma 1.2049 5.857999999999999E-4
++G gamma 2.5500599999999998 0.0031107999999999995
++G gamma 2.6526199999999998 0.0036157999999999997
++G gamma 4.461399999999999 8.888E-4
++B beta-1.2702 0.03
++G gamma 3.3666 0.002626
++B beta-1.2474 0.03
++G gamma 1.8035999999999999 0.0027673999999999997
++G gamma 2.2584 0.0030299999999999997
++B beta-1.2150999999999998 0.03
++G gamma 0.6026 0.0020402
++G gamma 0.8312 7.271999999999999E-4
++G gamma 1.838 0.005454
++G gamma 1.8829 0.0011918
++B beta-1.1949 0.03
++G gamma 0.91091 0.0016563999999999997
++G gamma 3.5720500000000004 0.0034542
++G gamma 4.281899999999999 0.0019593999999999996
++B beta-1.1502999999999999 0.03
++G gamma 1.5338 0.0016362
++G gamma 2.334 7.474000000000001E-4
++G gamma 3.6424000000000003 0.0011311999999999997
++B beta-1.1145999999999998 0.03
++G gamma 2.0438199999999997 0.003535
++G gamma 2.35945 0.0037773999999999998
++G gamma 2.6201999999999996 9.695999999999999E-4
++G gamma 3.1041 8.281999999999999E-4
++G gamma 3.1330999999999998 0.0010301999999999998
++G gamma 3.7704 0.0020603999999999996
++B beta-1.0569000000000002 0.03
++G gamma 1.2024000000000001 5.454E-4
++G gamma 3.2116 0.0012928
++G gamma 3.8487 0.0012322
++G gamma 4.0045 9.09E-4
++B beta-1.0202 0.03
++G gamma 1.0776 5.252E-4
++G gamma 1.20855 0.0017978
++G gamma 1.2227000000000001 8.08E-4
++G gamma 2.9581 0.0018786
++B beta-1.0104 0.03
++B beta- 0.837 0.0103
++G gamma 1.50777 0.0027471999999999996
++G gamma 2.60238 0.0040602
++G gamma 2.6141 0.0014948000000000001
++G gamma 3.8219000000000003 0.0011311999999999997
++G gamma 4.242100000000001 8.888E-4
++B beta- 0.832 0.0031
++G gamma 2.6248 0.0010706
++G gamma 4.1566 0.001111
++G gamma 5.3967 3.4339999999999994E-4
++B beta- 0.8236 0.0019
++B beta- 0.7373 3.7E-4
++G gamma 3.5471999999999997 0.001616
++B beta- 0.7237 7.5E-4
++G gamma 2.3983000000000003 0.001414
++G gamma 3.1721 0.0022421999999999997
++G gamma 3.338 0.0015755999999999997
++G gamma 4.645 5.049999999999999E-4
++B beta- 0.658 3.3E-4
++G gamma 1.4396 0.0010504
++G gamma 1.9081 0.0011311999999999997
++G gamma 4.627 0.0011918
++B beta- 0.557 2.7E-4
++G gamma 2.377 0.0015755999999999997
++G gamma 3.2264 0.0035147999999999998
++G gamma 4.615399999999999 5.049999999999999E-4
++B beta- 0.5144 2.1999999999999998E-4
++G gamma 2.2062 0.0021008
++G gamma 4.9475 8.08E-4
++B beta- 0.4427 1.8999999999999998E-4
++G gamma 3.4869 7.877999999999999E-4
++G gamma 3.7066 8.484E-4
++G gamma 3.9417 0.001313
++G gamma 4.481199999999999 6.867999999999999E-4
++G gamma 4.875100000000001 0.0020402
++B beta- 0.43760000000000004 1.8999999999999998E-4
++B beta- 0.4355 1.8999999999999998E-4
++G gamma 2.6742 0.0012322
++B beta- 0.2562 3.7999999999999997E-4
++G gamma 2.9036 0.0026057999999999997
++G gamma 4.2509 5.655999999999999E-4
++G gamma 4.387899999999999 0.0013533999999999998
++G gamma 4.8994 5.655999999999999E-4
+

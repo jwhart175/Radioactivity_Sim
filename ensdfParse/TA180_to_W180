@@ -1,0 +1,21 @@
+#180W     180TA B- DECAY                1980RY01,1962GA07         15NDS    201506
+#  180TA B- DECAY                1980RY01,1962GA07         15NDS    201506
+#H TYP=FUL$AUT=E.A. MCCUTCHAN$CIT=NDS 126, 151 (2015)$CUT=1-Feb-2015$     
+#  1980Ry01: {+180}Ta activity from Ta(n,2n) with E(n)=14 MeV. Measured   
+#  E|g, I|g, |b-|g, and |g-x-ray coincidences using Ge(Li) and LEPS       
+#  detectors and a 4|p|b proportional counter.                            
+#  1962Ga07: {+180}Ta activity from {+180}Hf(d,2n) with E(d)=11 MeV.      
+#  Measured E|g, I|g, Ice, |b|g coincidences.                             
+#  Others: 1974HeYW, 1965Hu02, 1963De21, 1962Fo05, 1951Br87               
+#  A total energy release of 105 keV {I15} is calculated for this decay   
+#  scheme using the RADLST code, in good agreement with the effective Q   
+#  value of 105 keV {I21}.                                                
+#G E$From 1974HeYW.                                                       
+#G RI$From 1974HeYW, relative to I|g(93.4|g with |e)=100.                 
+#L E$From E|g.                                                            
+#L J$From the Adopted Levels.                                             
+#  CC$FROM BrIcc v2.3a (30-Jun-2013) 2008Ki07, "Frozen Orbitals" appr.    
+#P 0.0          1+                8.154 H   6              702      3     
++B beta- 0.22080000000000002 0.10400000000000001
++B beta- 0.1837 0.036000000000000004
+

@@ -1,0 +1,26 @@
+#110MO    110NB B- DECAY                2011WA26                  12NDS    201206
+#  110NB B- DECAY                2011WA26                  12NDS    201206
+#H TYP=FUL$AUT=G. G~URDAL and F.G. KONDEV$CIT=NDS 113, 1315 (2012)$       
+#H CUT=1-Aug-2011$                                                        
+#  {+110}Nb nuclei were produced in a reaction involving the {+238}U beams
+#  at E=345 MeV/A incident on a 3 mm thick Be target at RIKEN. A total of 
+#  5.210{+4} {+110}Nb ions were produced. The reaction products were      
+#  separated using the BigRIPS spectrometer and subsequently implanted on 
+#  a stack of nine DSSD that were used to detect |b{+-} particles and     
+#  conversion electrons. Gamma rays were detected using four              
+#  Compton-suppressed Ge clover detectors placed in a close geometry      
+#  around the DSSD's.                                                     
+#L E$From a least-squares fit to E|g                                      
+#L J$From the assigned band structures and systematics. The assignments   
+#L are tentative                                                          
+#L BAND(A)$KP=0+, GS band                                                 
+#L BAND(B)$|g vibrational band                                            
+#G E,RI$From 2011Wa26                                                     
+#G M$From the observed band structures. The assignments are tentative     
+#B IB$Since the decay  scheme is incomplete (pandemonium),                
+#B the quoted values should be considered as tentative                    
+#B $Since the decay scheme is incomplete (pandemonium),                   
+#B no LOGFT values were deduced                                           
+#P 0.0         (5)                   82 MS 4              1.23E+4   3     
+NB110 MO110 beta- 12.3 0.0 0.41
+

@@ -1,0 +1,27 @@
+# 38CL    38S B- DECAY (170.3 M)        1986WA22,1972VI11,1971EN0108NDS    200802
+#  38S B- DECAY (170.3 M)        1986WA22,1972VI11,1971EN0108NDS    200802
+#H TYP=FUL$AUT=JOHN A. CAMERON AND BALRAJ SINGH$CIT=NDS 109, 1 (2008)$    
+#H CUT=26-Nov-2007$                                                       
+#  1986WA22: MEASURED EG, IG. SHELL-MODEL CALCULATIONS                    
+#  1972VI11, 1971EN01, 1958NE10: MEASURED EG, IG, T1/2, EB, GG, BG COIN   
+#  Total decay energy deposit of 2937 keV {I88} calculated by RADLIST     
+#  code is in agreement with the expected value of 2937 keV {I7}          
+#G RI$ FROM 1986WA22, WEIGHTED AVERAGES OF VALUES FROM 1986WA22, 1972VI11 
+#G AND 1971EN01. THESE VALUES ARE VERY NEARLY THE SAME AS MEASURED BY     
+#G 1986WA22                                                               
+#G E(A),RI(A)$ From 'adopted gammas', |g intensity is below the           
+#G detection threshold in studies of 1986Wa22 and 1972Vi11. E|g           
+#G not used in least-squares fitting procedure                            
+#L J$ FROM 'ADOPTED LEVELS'                                               
+#L E$ FROM EG'S. THE 1784.8 AND 1981.2 LEVELS WERE NOT REPORTED BY        
+#L 1986WA22;                                                              
+#L RI(1029.6G FROM 1784.8 LEVEL)<0.04, AND                                
+#L RI(1980.9G FROM 1981.2 LEVEL)<0.06                                     
+#P 0            0+               170.3 M   7              2937       7    
+S38 CL38 beta- 2.937 10218.0 1.0
++B beta- 1.2912000000000001 0.13
++B beta- 0.48210000000000003 0.0017000000000000001
++B beta- 0.4585 0.024399999999999998
++B beta- 0.3727 0.83
++B beta- 0.0549 0.0138
+

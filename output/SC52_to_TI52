@@ -1,0 +1,41 @@
+# 52TI    52SC B- DECAY                 1985HU03,2009ZH23         15NDS    201509
+#  52SC B- DECAY                 1985HU03,2009ZH23         15NDS    201509
+#H TYP=FUL$AUT=YANG DONG, HUO JUNDE$CIT=NDS 128, 185 (2015)$              
+#H CUT=10-Jul-2015$                                                       
+#  1985Hu03: Sources: produced by the fragmentation of a U target with    
+#  600 MeV proton beam, on-line mass separation, measured E|g, I|g,       
+#  |b|g-coin, Ge(Li).                                                     
+#  2009Zh23: {+52}Sc produced in {+9}Be({+48}Ca,X) E=172 MeV, separated   
+#  using the Fragment Mass Analyzer. |g's were detected using the         
+#  Gammasphere array, consisting of 101 Compton-suppressed HPGe           
+#  detectors. Measured E|g, (fragment)|g coin.                            
+#  All data are from 1985Hu03, except as noted.                           
+#B IB        Calculated from the |g-intensity balance at each level.      
+#G E(A)$From 2009Zh23.                                                    
+#L E$From least-squares fit to E|g's.                                     
+#L J,T       From adopted levels.                                         
+#P 0.0          3(+)             8.2 S     2              9.30E3    14    
+SC52 TI52 beta- 9.3 8.2 0.976
++B beta- 7.04 0.242
++G gamma 1.0497 1.0
++G gamma 1.2145 0.12
++G gamma 2.2651999999999997 0.016
++G gamma 1.2679 0.4
++G gamma 1.3819000000000001 0.11
++G gamma 2.0934 0.033
++B beta- 4.59 0.078
++G gamma 1.0323 0.14
++G gamma 1.135 0.07
++G gamma 1.491 0.03
++G gamma 2.872 0.039
++G gamma 3.923 0.009000000000000001
++G gamma 1.7582 0.040999999999999995
++G gamma 2.9722 0.026000000000000002
++G gamma 1.646 0.019
++G gamma 1.9684000000000001 0.017
++G gamma 1.025 0.035
++G gamma 1.1280999999999999 0.055
++G gamma 2.4688000000000003 0.08
++G gamma 3.7371999999999996 0.021
++G gamma 1.9684000000000001 0.017
+

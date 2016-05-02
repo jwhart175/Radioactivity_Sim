@@ -1,0 +1,21 @@
+#166TA    166W EC DECAY                 1989HI04                  08NDS    200804
+#  166W EC DECAY                 1989HI04                  08NDS    200804
+#H TYP=FUL$AUT=CORAL M. BAGLIN$CIT=NDS 109, 1103 (2008)$CUT=1-Mar-2008$   
+#G           GG coin (TA XK)(125.8G, 395.9G).                             
+#G M(A)      From intensity balance assuming no EC+B+ feeding             
+#G to 298.3 level                                                         
+#L J         From Adopted Levels.                                         
+#P 0.0         0+                19.2 S    6              4206      30    
+W166 TA166 beta+ 4.206 19.2 0.99965
++B beta+ 0.284 0.00821
++G gamma 0.1258 0.32899999999999996
++B beta+ 1.382 0.00493
++G gamma 0.1725 0.019082000000000002
++B beta+ 1.304 0.00527
++G gamma 0.2246 0.025662000000000004
++B beta+ 1.28 0.005370000000000001
++G gamma 0.0458 0.004606
++G gamma 0.09770000000000001 0.006251
++G gamma 0.2701 0.007566999999999999
++G gamma 0.3959 0.017766
+

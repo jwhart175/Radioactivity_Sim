@@ -1,0 +1,148 @@
+# 77ZN    77CU B- DECAY (467.9 MS)      2009IL01,2009PA35         12NDS    201206
+#  77CU B- DECAY (467.9 MS)      2009IL01,2009PA35         12NDS    201206
+#H TYP=FUL$AUT=BALRAJ SINGH, NINEL NICA$CIT=NDS 113, 1115 (2012)$         
+#H CUT=30-Mar-2012$                                                       
+#  2009Il01, 2009Wi03: {+77}Cu isotope produced in the reaction           
+#  {+238}U(p,F) with a 50 MeV beam provided by the HRIBF facility at      
+#  ORNL, RIB facility. The radioactive beams were extracted and mass      
+#  separated. Detected decay products with a Micro-channel plate detector,
+#  an ionization chamber and a moving tape collector.                     
+#  In one experiment, the Cu ions were accelerated to 225 MeV and         
+#  measured |b-delayed neutron emission probabilities.                    
+#  In a second experiment, the low-energy ions (200 keV) were sent to     
+#  Low-energy Radioactive Ion Beam Spectroscopy Station (LeRIBSS).        
+#  Measured E|g, I|g, |b, |g|g, |b|g coin,  absolute branching ratios in  
+#  {+77}Cu |b decay and  772.4-keV (1/2-) isomer in {+77}Zn, half-life of 
+#  {+77}Cu g.s. using two plastic |b-detectors and |g-rays with four      
+#  clover Ge detectors. 2009Gr06 is from the same group as 2009Wi03       
+#  2009Pa35: {+77}Cu produced in the fission of uranium (target=uranium   
+#  carbide) by spallation neutrons which were produced by 1 GeV protons   
+#  hitting a tantalum target. The {+77}Cu nuclei were selected by         
+#  Resonant Ionization Laser Ion Source (RILIS) and General Purpose       
+#  mass separator (GPS) at the CERN-ISOLDE facility. The separated        
+#  {+77}Cu nuclei at a typical energy of 60 keV were implanted on a tape  
+#  surrounded by three E-|DE plastic detectors for |b-particle detection  
+#  and two HPGe detectors. Measured |g, |b, |b|g coin, |b|b coin,         
+#  |g|g coin and delayed-neutron events. The neutrons were detected with  
+#  the Mainz neutron long counter. Major contribution to |g-ray and       
+#  |b spectra are from {+77}Ga decay as indicated by a comparison of      
+#  'laser-on' and 'laser-off' spectra. In both the spectra, lines from    
+#  {+77}Ga are quite prominent. The decay scheme of {+77}Ga is poorly     
+#  known. By subtraction procedures, 2009Pa35 obtained a spectrum         
+#  which mainly contained lines from {+77}Cu activity. In the presence    
+#  of the impurities, singles |b spectrum could not be obtained, thus     
+#  no information could be obtained for |b feeding to the ground state    
+#  and the 772-keV isomeric state                                         
+#  All data are from 2009Il01, unless otherwise stated. The level         
+#  schemes are proposed by 2009Il01 and 2009Pa35, more complete           
+#  in the former work, thus adopted here                                  
+#  Total decay energy of 7231 keV {I320} deduced (by RADLIST code) from   
+#  proposed decay scheme is much lower than the expected value of         
+#  10490 keV {I500}, indicating that decay scheme is incomplete           
+#B IB,LOGFT$ The |b feedings are from |g-ray intensity balance at each    
+#B level, unless otherwise stated. All |b feedings are considered as      
+#B upper limits and associated log| {Ift} values as lower limits since    
+#B some |g rays may be below the detection limit of this experiment.      
+#G $ Values of relative |g-ray intensities from |b-delayed neutron decay  
+#G to {+76}Zn from 2009Il01 are: 100.2 {I9} for 598.56 {I5} |g to first   
+#G 2+ level and 2.89 {I11} for 697.72 {I8} |g to first 4+ level in        
+#G {+76}Zn. Corresponding value in 2009Pa35 is 89 {I3} for 598.3 {I3} |g  
+#G E,RI$ From 2009Il01. Values from 2009Pa35 are in general agreement     
+#G but less precise                                                       
+#G E(D)$ Assigned to {+77}Cu decay based on half-life. It could not       
+#G be placed in the level scheme due to lack of |g|g coin data            
+#G E(X)$ Transition without strong coincidence evidence and/or other      
+#G linking transitions                                                    
+#L J,T$ From Adopted Levels, based on systematics, decay pattern          
+#L and |b feedings                                                        
+#L E$ From least-square fit to E|g data. Due to poor fit                  
+#L in the level scheme, 2118.8|g from 2235 level was not included in      
+#L the fitting procedure                                                  
+#P 0.0          5/2-             467.9 MS  21             10.49E3   50    
+CU77 ZN77 beta- 10.49 0.4679 1
++G gamma 1.795 0.00191
++G gamma 2.063 0.003438
++G gamma 2.0856999999999997 0.0030560000000000006
++G gamma 2.3105 0.002101
++G gamma 2.9893 0.0030560000000000006
++G gamma 3.1332 0.0030560000000000006
++B beta- 4.92 0.08
++B beta- 4.87 0.019
++G gamma 0.11472 0.07735500000000001
++B beta- 4.54 0.06
++G gamma 0.77243 0.108297
++B beta- 4.53 0.008199999999999999
++B beta- 4.37 0.0034999999999999996
++G gamma 1.0158 0.003438
++B beta- 4.32 0.0018
++G gamma 1.1204 0.001719
++B beta- 4.3 0.019
++G gamma 0.50525 0.191
++G gamma 1.2776800000000001 0.071243
++B beta- 4.29 0.024
++G gamma 1.2848 0.023111000000000003
++B beta- 4.25 0.01
++G gamma 0.59133 0.06035600000000001
++B beta- 4.23 0.039
++G gamma 1.40907 0.065704
++B beta- 4.22 0.009000000000000001
++G gamma 1.4277 0.018909
++B beta- 4.12 0.0045000000000000005
++B beta- 4.01 0.0104
++B beta- 3.9 0.006
++G gamma 0.80511 0.036099
++B beta- 3.87 0.005699999999999999
++B beta- 3.83 0.07200000000000001
++G gamma 0.8714500000000001 0.012033
++G gamma 0.95769 0.06914200000000001
++G gamma 2.1188000000000002 0.00382
++G gamma 2.2343 0.0024830000000000004
++B beta- 3.76 0.0066
++G gamma 2.2656 0.006494
++B beta- 3.69 0.006500000000000001
++G gamma 2.5271999999999997 0.006303
++B beta- 3.68 0.0105
++B beta- 3.67 0.0036
++G gamma 2.4594 0.003629
++B beta- 3.63 0.0169
++G gamma 1.2903399999999998 0.016617
++B beta- 3.52 0.043
++G gamma 0.6372899999999999 0.013752
++G gamma 1.5948 0.01337
++G gamma 2.7579000000000002 0.0024830000000000004
++B beta- 3.51 0.0034999999999999996
++G gamma 1.528 0.003438
++B beta- 3.46 0.013500000000000002
++G gamma 1.72341 0.013179000000000001
++B beta- 3.42 0.0226
++G gamma 1.8055 0.013752
++G gamma 2.9676 0.00191
++B beta- 3.41 0.0023
++G gamma 1.8174000000000001 0.0022919999999999998
++B beta- 3.39 0.0219
++G gamma 1.0566 0.00382
++G gamma 3.1391 0.004202
++B beta- 3.36 0.051
++G gamma 1.9268699999999999 0.041065000000000004
++B beta- 3.27 0.0189
++G gamma 2.1094 0.006303
++G gamma 3.3872 0.0024830000000000004
++B beta- 3.25 0.0155
++G gamma 2.0178 0.002865
++G gamma 2.1416999999999997 0.0022919999999999998
++B beta- 3.11 0.009000000000000001
++B beta- 3.1 0.03
++G gamma 1.6611600000000002 0.019864000000000003
++G gamma 2.3350999999999997 0.003629
++G gamma 2.4666 0.0022919999999999998
++G gamma 3.7436 0.004202
++B beta- 3.06 0.0219
++G gamma 2.3966 0.006876
++B beta- 2.81 0.011699999999999999
++G gamma 4.3342 0.010505
++B beta- 2.71 0.0044
++G gamma 4.417 0.004392999999999999
++B beta- 2.68 0.0154
++G gamma 3.178 0.003629
++G gamma 4.605300000000001 0.0026739999999999997
+

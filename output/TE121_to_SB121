@@ -1,0 +1,38 @@
+#121SB    121TE EC DECAY (19.17 D)      1975ME23                  10NDS    201006
+#  121TE EC DECAY (19.17 D)      1975ME23                  10NDS    201006
+#H TYP=FUL$AUT=S. OHYA$CIT=NDS 111, 1619 (2010)$CUT=20-Jan-2009$          
+#  1975Me23: Compton suppression spectrometer semi |g                     
+#  Others: scin |g, |g|g, magnetic spectrograph ce (1964Ch08);            
+#  semi |g (1971Au03)                                                     
+#L E         E(levels) are based on a least-squares fit to                
+#L E|g's from 1975Me23                                                    
+#L J,T$From adopted levels                                                
+#G E         From 1975Me23. The evaluators have added 10 eV in quadrature 
+#G to the quoted uncertainties to allow for uncertainties in energy       
+#G calibration                                                            
+#G RI        From 1975Me23. The evaluators have added 2% in quadrature    
+#G to the quoted uncertainties to allow for uncertainties in              
+#G efficiency calibration                                                 
+#P 0.0         1/2+              19.17 D   4              1054      26    
+TE121 SB121 beta+ 1.054 1656288.0000000002 0.0804
+
+#121SB    121TE EC DECAY (164.2 D)      1975ME23                  10NDS    201006
+#  121TE EC DECAY (164.2 D)      1975ME23                  10NDS    201006
+#H TYP=FUL$AUT=S. OHYA$CIT=NDS 111, 1619 (2010)$CUT=20-Jan-2009$          
+#  1975Me23: Compton suppression spectrometer semi |g                     
+#  Others: scin |g, |g|g, magnetic spectrograph ce (1964Ch08);            
+#  semi |g (1971Au03)                                                     
+#  See also {+121}Te IT decay (164.2 d)                                   
+#L E         E(levels) are based on a least-squares fit to                
+#L E|g's from 1975Me23                                                    
+#L J         From adopted levels                                          
+#G E         From 1975Me23. The evaluators have added 10 eV in quadrature 
+#G to the quoted uncertainties to allow for uncertainties in              
+#G calibration                                                            
+#G RI        From 1975Me23. The evaluators have added 2% in quadrature    
+#G to the quoted uncertainties to allow for uncertainties in              
+#G efficiency calibration                                                 
+#P 293.991   2211/2-             164.2 D   8              1054      26    
+TE121 SB121 beta+ 1.054 1.4186879999999998E7 0.700
++G gamma 0.037138 0.11800000000000001
+

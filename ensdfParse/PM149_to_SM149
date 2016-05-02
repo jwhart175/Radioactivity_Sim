@@ -1,0 +1,61 @@
+#149SM    149PM B- DECAY (53.08 H)      1982ME10                  04NDS    200406
+#  149PM B- DECAY (53.08 H)      1982ME10                  04NDS    200406
+#H TYP=MOD$AUT=BALRAJ SINGH$CIT=ENSDF$DAT=12-OCT-2015$                    
+#H COM=BETA FEEDING FOR 22.5 LEVEL CHANGED TO 0 FROM <48%, REVISED COMMENT
+#H FOR 22.5. NO NEW REFERENCE FOR 149SM DECAY. ADDED COMMENTS FOR NEW DATA
+#H TYP=FUL$AUT=BALRAJ SINGH$CIT=NDS 102, 1 (2004)$CUT=20-Apr-2004$        
+#  Between 2004 and 2015, no new reference for {+149}Pm decay to {+149}Sm 
+#  seems to have appeared, however, precise energy and multipole mixing   
+#  ratio of the 22.0-keV gamma ray determined from the decay of {+149}Eu  
+#  to {+149}Sm in the work of 2011Ni01 and 2011In04 are commented here.   
+#  Measured |g, |g|g. Mass separated source and Compton                   
+#  suppression spectrometer used for this study                           
+#  Others: 1976MiZJ, 1972Ho08, 1972De67, 1971Ba28, 1970Ch09, 1969Gr32,    
+#  1966Mc11, 1963Ho15, 1960Ch15, 1960Ar05, 1960Bu06, 1960Sc08             
+#  |g|g: 1976MiZJ, 1966Mc11, 1960Ar05, 1960Sc08                           
+#  |g|g(|q): 1976MiZJ (semi-scin system). Reanalysis by 1980Mi07          
+#  |g(|q,T): 1984Pr04, 1960Ch15                                           
+#  |g|g(t): 1965Cu01, 1960Ma27                                            
+#  ce: 1960Ar05, 1960Sc08, 1952Ru10                                       
+#  References prior to 1960 dealing mainly with production and            
+#  identification of {+149}Pm: 1954Fi29, 1952Ki25, 1952Ru10, 1951Ko01,    
+#  1949Ma02, 1947Ma28, 1947In06, 1946Bo25, 1941La01                       
+#  Following |g rays [E|g(I|g)] seen by 1976MiZJ have been omitted        
+#  by (evaluator) for lack of confirmation: 64.1(0.0033); 239.5(0.19);    
+#  278.6(0.0066); 487.0(0.33); 553.4(0.0165); 556.2(0.0033); 605.0(0.01); 
+#  920.0; 925.6. A level proposed at 836.8 from 278.6|g and 487.0|g has   
+#  also been omitted. It may be pointed out that the source material      
+#  used by 1976MiZJ contained several impurities                          
+#  |b{+-} and |g|b{+-}: 1978Re01, 1960Sc08, 1960Ar05, 1960Ch15            
+#  |b|g(|q): 1980Mi07, 1979Ra11, 1977Mi17                                 
+#  |b{+-} shape: 1978Re01                                                 
+#  |b|g(t): 1968Ak02, 1960Ch15                                            
+#  The statement "in-beam |g-ray" includes ({+3}He,4n|g), (|a,n|g) and    
+#  (|a,3n|g) reactions                                                    
+#B IB$From intensity balance at each level                                
+#B IB(A)$Total |b feeding is 95.9 {I3} for 0+22.5 levels. Feeding for     
+#B the g.s. is estimated as >50% implying <46% for 22.5 level             
+#G RI$3% uncertainty added (evaluator) in quadrature to uncertainties     
+#G given by 1982Me10                                                      
+#G M,MR$Generally from ce data in {+149}Eu decay and |g(|q)               
+#G data in in-beam |g-ray. See adopted gammas also                        
+#G E(A)$Uncertainty estimated by evaluator                                
+#L J$From Adopted Levels                                                  
+#L E$From least-squares fit to E|g values                                 
+#P   0.0        7/2+               53.08 H 5              1071      4     
++B beta- 0.36910000000000004 0.9590000000000001
++B beta-0.36 0.15
++B beta-0.259 0.15
++G gamma 0.28595 0.031
++B beta-0.256 0.15
++B beta-0.231 0.14
++B beta-0.156 0.13
++B beta-0.144 0.13
++B beta-0.129 0.13
++B beta-0.119 0.13
++B beta-0.08 0.12
++B beta-0.066 0.12
++B beta-0.066 0.12
++B beta-0.065 0.12
++B beta-0.051 0.11
+

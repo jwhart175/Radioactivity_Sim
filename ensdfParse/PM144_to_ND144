@@ -1,0 +1,34 @@
+#144ND    144PM EC DECAY                1975AV01,1999RO18         01NDS    200108
+#  144PM EC DECAY                1975AV01,1999RO18         01NDS    200108
+#H TYP=FUL$AUT=A.A. Sonzogni$CIT=NDS 93, 599 (2001)$CUT=1-Dec-2000$       
+#  Adopted information: CE from 1975AV01, GG(THETA) from 1999RO18         
+#  (Gammasphere experiment)                                               
+#  1998ZA03: Using Gammasphere array, determined an upper limit of        
+#  7.4E-6% for the |b{++} decay to 697 keV 2+ state; |b{++}               
+#  decay to higher lying levels is not energetically possible, and        
+#  the decay to 0+ GS is highly hindered due to |Dl=5.                    
+#  Others: 1973RA10, 1990BEZG, 1994HI05, 1996RO13                         
+#L J$From adopted levels                                                  
+#G E$From 1973RA10                                                        
+#G RI$From 1996RO13, unless noted otherwise                               
+#G M$From GG(THETA) and CE values                                         
+#G MR$From GG(THETA) 1999RO18                                             
+#P 0.0         5-                363 D     14             2331.7    22    
++G gamma 0.69649 0.9948999999999999
++G gamma 0.61801 0.9849509999999999
++G gamma 0.81414 0.005471950000000001
++G gamma 1.5106 1.2933699999999998E-6
++B beta+ 8.394E-4 0.0012472
++G gamma 0.47678 0.437756
++B beta+ 8.2968E-4 0.0013
++G gamma 0.30169999999999997 0.0017908199999999998
++G gamma 0.5824 0.00189031
++G gamma 0.7785700000000001 0.01502299
++G gamma 1.3965999999999998 4.87501E-6
++B beta+ 7.983E-4 0.00155
++G gamma 1.413 4.27807E-5
++B beta+ 7.934E-4 0.00159
++G gamma 0.694 0.005471950000000001
++G gamma 0.8901 3.8801099999999995E-4
++G gamma 1.5081 1.9898000000000004E-6
+

@@ -1,0 +1,26 @@
+# 58CR    58V B- DECAY (191 MS)         2003MA02                  10NDS    201004
+#  58V B- DECAY (191 MS)         2003MA02                  10NDS    201004
+#H TYP=FUL$AUT=CAROLINE D. NESARAJA, SCOTT D. GERAEDTS AND BALRAJ SINGH$  
+#H CIT=NDS 111, 897 (2010)$CUT=12-Jan-2010$                               
+#  2003Ma02 (also 2001Pr13,2001Pr05): {+58}V obtained from fragmentation  
+#  of the primary beam of {+86}Kr{+14+} at E=140 MeV/nucleon in a thick   
+#  Be target followed by separation of fragment isotopes based on atomic  
+#  mass and atomic number. Measured E|g, I|g, |g|g, |b|g, isotopic        
+#  half-life using six Ge detectors from the MSU Segmented Ge detector    
+#  array.                                                                 
+#  {+58}V Half-life measurements: 1998Am04, 1998So03                      
+#  {+58}V Isotopic identification: 1994Se12, 1990Tu01                     
+#  The decay scheme is considered as incomplete by the evaluators.        
+#  The |b feedings to 4+ levels are not possible from (1+) parent         
+#  state                                                                  
+#B IB(X)$ Apparent |b feedings. For (1+) parent state, the direct         
+#B feeding of 4+ states is not possible                                   
+#G RI$I|g/100 decays were deduced (by 2003Ma02) from the number of        
+#G observed |g rays, the |g-ray efficiency curve and the number of        
+#G {+58}V implants correlated with |b decays                              
+#G E(X)$ Placement proposed by evaluators based on results of other       
+#G reactions. This |g was not placed in level scheme by 2003Ma02          
+#L J$ From 'adopted levels'                                               
+#P 0            (1+)             191 MS    10             11.63E+3  32    
+V58 CR58 beta- 11.63 0.191 1
+

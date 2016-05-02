@@ -1,0 +1,52 @@
+# 95AG    95AG IT DECAY (LT 500 MS)     2003DO09                  10NDS    201010
+#  95AG IT DECAY (LT 500 MS)     2003DO09                  10NDS    201010
+#H TYP=FUL$AUT=S. K. Basu, G. Mukherjee, A. A. Sonzogni$                  
+#H CIT=NDS 111, 2555 (2010)$CUT=30-Jun-2009$                              
+#  {+95}Ag isomers produced in {+58}Ni({+40}Ca,p2n|g) reaction at 3.94    
+#  MeV/^A, and separated by GSI on-line mass separator. Measured E|g,     
+#  I|g, |g|g, |b|g|g coin and lifetimes using an array of 13 Ge crystals  
+#  (a Cluster of 7 crystals, a Clover of 4 crystals, a single Ge          
+#  detector and a ^LEPS detector). The positrons were measured with a     
+#  plastic scintillator.                                                  
+#  RI$From TI=100 and M|g                                                 
+#L T$Deduced from intensity distribution of |g-ray versus time as         
+#L measured in grow-in mode                                               
+#  CC$ FROM BrIcc v2.2b (20-Jan-2009) 2008Ki07, "Frozen Orbitals" appr.   
+#                                                                         
+#P 344.2     3  (1/2-)            500 MS    LT                            
+AG95 AG95 IT 0.0 0.0 1
+
+# 95AG    95AG IT DECAY (LT 16 MS)      2003DO09                  10NDS    201010
+#  95AG IT DECAY (LT 16 MS)      2003DO09                  10NDS    201010
+#H TYP=FUL$AUT=S. K. Basu, G. Mukherjee, A. A. Sonzogni$                  
+#H CIT=NDS 111, 2555 (2010)$CUT=30-Jun-2009$                              
+#  {+95}Ag isomers produced in {+58}Ni({+40}Ca,p2n|g) reaction at 3.94    
+#  MeV/^A, and separated by GSI on-line mass separator. Measured E|g,     
+#  I|g, |g|g, |b|g|g coin and lifetimes using an array of 13 Ge crystals  
+#  (a Cluster of 7 crystals, a Clover of 4 crystals, a single Ge          
+#  detector and a ^LEPS detector). The positrons were measured with a     
+#  plastic scintillator.                                                  
+#L T$Deduced from intensity distribution of |g-ray versus time as         
+#L measured in grow-in mode                                               
+#  CC$ FROM BrIcc v2.2b (20-Jan-2009) 2008Ki07, "Frozen Orbitals" appr.   
+#                                                                         
+#P 2531.41   19 (23/2+)           16 MS     LT                            
+AG95 AG95 IT 0.0 0.0 0.86
+
+# 95AG    95AG IT DECAY (LT 40 MS)      2003DO09                  10NDS    201010
+#  95AG IT DECAY (LT 40 MS)      2003DO09                  10NDS    201010
+#H TYP=FUL$AUT=S. K. Basu, G. Mukherjee, A. A. Sonzogni$                  
+#H CIT=NDS 111, 2555 (2010)$CUT=30-Jun-2009$                              
+#  {+95}Ag isomers produced in {+58}Ni({+40}Ca,p2n|g) reaction at 3.94    
+#  MeV/^A, and separated by GSI on-line mass separator. Measured E|g,     
+#  I|g, |g|g, |b|g|g coin and lifetimes using an array of 13 Ge crystals  
+#  (a Cluster of 7 crystals, a Clover of 4 crystals, a single Ge          
+#  detector and a ^LEPS detector). The positrons were measured with a     
+#  plastic scintillator.                                                  
+#L T$Deduced from intensity distribution of |g-ray versus time as         
+#L measured in grow-in mode                                               
+#  CC$ FROM BrIcc v2.2b (20-Jan-2009) 2008Ki07, "Frozen Orbitals" appr.   
+#                                                                         
+#P 4860.03   24 (37/2+)           40 MS     LT                            
+AG95 AG95 IT 0.0 0.0 0.82
+

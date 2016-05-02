@@ -1,0 +1,41 @@
+#186OS    186RE B- DECAY (3.7183 D)     2000WO02,1994SC39,1972SE0603NDS    200306
+#  186RE B- DECAY (3.7183 D)     2000WO02,1994SC39,1972SE0603NDS    200306
+#H TYP=FUL$AUT=CORAL M. BAGLIN$CIT=NDS 99, 1 (2003)$CUT=4-Apr-2003$       
+#  Others: 2000MI03, 1991Co17, 1991Go23, 1972FO22, 1969La11, 1969Sc11,    
+#  1969Va17, 1968Bo01, 1968Bo38, 1968An11, 1968Ma14, 1966Er03, 1964Ma36,  
+#  1964Ro19, 1963Fo02, 1963Ma08 (see also 1962Li15), 1962Ba14,            
+#  1961Bo08, 1956Jo05, 1956Po28, 1947Go01.                                
+#B           Q(|b-)=1069.5 9 (1995Au04).                                  
+#B E         From 1956Po28 (magnetic spectrometer, measured singles and   
+#B BG coin B- spectra). Data from other studies are indicated in comments.
+#B IB        From intensity balance in level scheme.                      
+#B IB(A)     cf. other [IB(GS), IB(137 level)]=[76.6 15, 23.4 15]         
+#B (1956Po28, based on measured TI(137)/IB(total)), [78 4, 22 4]          
+#B (1964Ma36).                                                            
+#G $ Summary of experimental I(X-RAY) (%) compared with calculated values:
+#G                                                                        
+#G Radiation       1972Se06   1991Co17  1991Go23  1994Sc39    Calculated  
+#G  OS XL                                    3.1 3       3.00 5           
+#G  OS XLA    1.70 1                                     1.22 3           
+#G  OS XLB    1.49 1                                     1.43 3           
+#G  OS XKA2    1.05 5              1.20 3    1.12 3      1.15 1           
+#G  OS XKA1    2.08 4              2.05 5    1.95 4      1.98 1           
+#G  OS XKA                2.87 6                         3.13 2           
+#G  OS XKB2    0.18 2              0.180 5   0.185 4     0.186 5          
+#G  OS XKB1                        0.70 2    0.633 14    0.663 11         
+#G  OS 137|g        10.0 1     9.45 16   10.0 1    9.39 9     [9.47 3]    
+#G                                                                        
+#G E         From 1972Fo22, unless noted otherwise.                       
+#G RI        Data from 1972Fo22, scaled so I(137G)=9.47% (instead         
+#G of 9.2 9); exceptions are noted.                                       
+#G M,MR      From adopted gammas, except as noted.                        
+#G RI(B)     |g not observed in decay; RI calculated by evaluator from    
+#G IG(773) (1972Fo22) and adopted branching ratios.                       
+#P 0.0           1-              3.7183 D  11                1069.5  9    
++B beta-7.838000000000001E-4 0.0016300000000000002
++B beta- 0.30610000000000004 0.21539999999999998
++G gamma 0.2969 5.72771E-7
++B beta- 0.0849 6.25E-4
++G gamma 0.3334 6.700339999999999E-7
++B beta- 0.0484 2.6E-7
+

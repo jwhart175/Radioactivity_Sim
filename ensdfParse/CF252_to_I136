@@ -1,0 +1,23 @@
+#136I     252CF SF DECAY                1974CLZX,1971HO29,1970WA0502NDS    200206
+#  252CF SF DECAY                1974CLZX,1971HO29,1970WA0502NDS    200206
+#H TYP=FUL$AUT=A.A. Sonzogni$CIT=NDS 95, 837 (2002)$CUT=1-Feb-2002$       
+#  See 248CM SF decay (1997BH06) for a far more recent data               
+#  set.                                                                   
+#  1970JO20: measured fragments (semi) and GG                             
+#  1970WA05: measured fragments (semi), x rays (SILI), and CE             
+#  1971HO29,1972HO08: measured X(SILI)-G(GELI) coincidences               
+#  1974CLZX: measured fragments (semi), x rays (SILI), and GG             
+#L J         From adopted levels                                          
+#G           All data from 1974CLZX, except as noted.                     
+#G RI        Photons per 100 fissions                                     
+#G M(E),MR   From adopted gammas                                          
+#G TI,RI(D)  From CEK, KC, and CC (evaluator)                             
+#G E(B)      From 1971HO29                                                
+#G RI(C)     From 1970JO20 who assigned the 59.9G (T=132 NS) to A=134,    
+#G probably 134I                                                          
+#G M(F)      From CEK/RI (evaluator)                                      
+#G CC(G)     From ECC in B- decay                                         
+#P 0            0+               2.645 Y   8                              
++G gamma 0.2606 0.00209
++G gamma 0.2883 0.0054800000000000005
+

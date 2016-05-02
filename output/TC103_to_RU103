@@ -1,0 +1,91 @@
+#103RU    103TC B- DECAY                1979NI05                  09NDS    200910
+#  103TC B- DECAY                1979NI05                  09NDS    200910
+#H TYP=FUL$AUT=D. DE FRENNE$CIT=NDS 110, 2081 (2009)$CUT=1-Mar-2009$      
+#  Others: 1975Ba60, 1972Tr08, 1970HeZU                                   
+#  {+103}Tc activity from {+104}Ru(|g,p) measured: E|g, I|g, |g|g, E|b,   
+#  I|b; deduced: log| {Ift}, {+103}Ru levels, J|p. Enriched isotope.      
+#B IB        Calculated by evaluator from I(|g+ce) imbalance at each      
+#B level                                                                  
+#B IB(B)     log| {Ift} too small for |DJ=2, |D|p=no,  no explanation if  
+#B J|p values of level is correct.                                        
+#G RI(A)     Intensity of the members of a doublet obtained from          
+#G coincidence spectra                                                    
+#G CC$Calculated assuming M1 multipolarity, unless                        
+#G noted otherwise. Only |a's>1% are given and this is done only with the 
+#G goal of calculating approximate logft values.  These multipolarities   
+#G are not adopted in the Adopted Levels, Gammas data set                 
+#L E         Calculated from observed gammas                              
+#L J         From adopted levels                                          
+#P 0.0         5/2+              54.2 S    8              2662      10    
+TC103 RU103 beta- 2.662 54.2 0.175
++G gamma 0.239 0.0034999999999999996
++G gamma 0.5331 0.0031
++G gamma 0.5836 0.0013
++G gamma 0.6007 0.0024
++G gamma 0.6076 0.0018
++G gamma 0.625 0.004699999999999999
++G gamma 0.6523 0.0016
++G gamma 0.7414 0.0026
++G gamma 0.785 0.0026
++G gamma 0.8307 0.0023
++G gamma 0.952 0.0016
++G gamma 0.9552 0.0058
++G gamma 1.0427 0.0040999999999999995
++G gamma 1.181 0.0018
++G gamma 1.2333 0.0033
++G gamma 1.312 0.0013
++G gamma 1.315 9.0E-4
++G gamma 0.13319999999999999 0.021
++G gamma 0.136079 0.95
++G gamma 0.17431 0.16
++G gamma 0.2104 0.18
++G gamma 0.213 0.0087
++G gamma 0.2948 0.005
++G gamma 0.172 0.0038
++G gamma 0.2104 0.39
++G gamma 0.34355 0.231
++G gamma 0.346377 1.0
++G gamma 0.19030000000000002 0.0032
++G gamma 0.2686 0.008
++G gamma 0.4016 0.039
++G gamma 0.232 0.0058
++G gamma 0.2701 0.034
++G gamma 0.4032 0.12
++G gamma 0.43210000000000004 0.0031
++G gamma 0.2876 0.037000000000000005
++G gamma 0.36510000000000004 0.024
++G gamma 0.5012 0.139
++G gamma 0.555 0.0037
++G gamma 0.3886 0.127
++G gamma 0.5597000000000001 0.012
++G gamma 0.5629 0.4
++G gamma 0.24530000000000002 0.0025
++G gamma 0.378 0.0059
++G gamma 0.418 0.002
++G gamma 0.4561 0.0059
++G gamma 0.5891000000000001 0.0058
++G gamma 0.5921000000000001 0.006
++G gamma 0.16090000000000002 0.0034999999999999996
++G gamma 0.31525 0.0088
++G gamma 0.4873 0.009399999999999999
++G gamma 0.5255 0.0039000000000000003
++G gamma 0.6585 0.016
++G gamma 0.6612 0.018000000000000002
++G gamma 0.36869999999999997 0.011000000000000001
++G gamma 0.37060000000000004 0.008199999999999999
++G gamma 0.4283 0.011000000000000001
++G gamma 0.6386000000000001 0.016
++G gamma 0.772 0.005
++G gamma 0.7747999999999999 0.03
++G gamma 0.7692 0.03
++G gamma 0.9024 0.035
++G gamma 0.9053 0.02
++G gamma 0.8046 0.013000000000000001
++G gamma 0.9378 0.028999999999999998
++G gamma 0.9404 0.0026
++G gamma 0.6612 0.022000000000000002
++G gamma 0.8519 0.0124
++G gamma 0.9294 0.0077
++G gamma 1.0627 0.0083
++G gamma 1.0655999999999999 0.0075
+

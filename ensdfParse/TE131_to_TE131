@@ -1,0 +1,63 @@
+#131TE    131TE IT DECAY (33.25 H)      1975JA03,2002Re30         06NDS    200612
+#  131TE IT DECAY (33.25 H)      1975JA03,2002Re30         06NDS    200612
+#H TYP=FUL$AUT=YU. KHAZOV, I. MITROPOLSKY, A. RODIONOV$                   
+#H CIT=NDS 107, 2715 (2006)$CUT=17-Jul-2006$                              
+#  2002Re30: {+131m}Te(IT), {+131g}Te(|b{+-}) E=th; measured E|g, I|g(t), 
+#  {+131m,g}Te deduced T{-1/2}, IT branching ratio, |s(m)/(|s(m)+|s(g)).  
+#  HPGe detectors                                                         
+#  1975Ja03: {+131m}Te(IT) [from Te(n,|g) E=reactor]; measured |g,        
+#  |g|g coin. Ge(Li). 25-min {+131}Te in transient equilibrium with 30-h  
+#  {+131}Te. Others: 1965De22 and 1974Fu13                                
+#  1961Be20: {+131m}Te(IT), measured |g, ce, |b, |g|g, |b|g; {+131}Te(IT) 
+#   deduced branching. Magnetic lens spectrometer, NaI(Tl), Pb-radiator   
+#  1957Al35: {+131m}Te(IT), measured ce; magnetic spectrograph            
+#  1955He88: {+131}Te |b{+-} [from {+130}Te(d,p) E=11.5 MeV,              
+#  {+130}Te(n,|g) E=th]; measured ce, E|b, I|b; {+131}Te(IT) deduced      
+#  E(IT), K/L+M, branching. Magnetic lens spectrometer, Pb-, U-radiators, 
+#  NaI(Tl), anthracene                                                    
+#G E$From 1975Ja03. Others: 181.7 {I2} from ce(K) and 182.1 {I2}          
+#G from ce(L) (1957Al35)                                                  
+#G RI        From I(|g+ce) and |a                                         
+#L J,T       From the adopted levels                                      
+#P 182.258   1811/2-             33.25 H   25                             
+TE131 TE131 IT 0.0 119700.0 0.259
++G gamma 0.18225 0.0383
+
+#131TE    131TE IT DECAY (93 MS)        1998FOZY,1998Zh09         06NDS    200612
+#  131TE IT DECAY (93 MS)        1998FOZY,1998Zh09         06NDS    200612
+#H TYP=FUL$AUT=YU. KHAZOV, I. MITROPOLSKY, A. RODIONOV$                   
+#H CIT=NDS 107, 2715 (2006)$CUT=17-Jul-2006$                              
+#  1998FoZY: {+233,235,238}U(n,F){+131}Te E=th; measured |g, |b, ce,      
+#  T{-1/2} and various coincidences. OSIRIS mass separator                
+#  1998Zh09: {+130}Te({+64}Ni,{+63}Ni) E=275 MeV; measured                
+#  |g({+63}Ni)|g|g prompt and delayed coin deduced {+131}Te levels,       
+#  T{-1/2}. Tandem, multidetector (40 Ge detectors), pulsed beam (200 ns  
+#  between pulses) and off-beam measurements                              
+#  Comments to experimental results of 1998FoZY were communicated per     
+#  e-mail reply (to enquiry by Yu. Khazov) by one of the authors of       
+#  (B. Fogelberg) (Dec. 07/2004)                                          
+#  1998FoZY found 360.3, 564.7 and 832.73 mutually coincident |g's, |a(K) 
+#  equal to 0.08(2), 0.006(2) and 0.0025(8), respectively, and deduced    
+#  that 360.3 keV is M2+E3 or E3 (not M1 as suggested in 1998Zh09), 564.7 
+#  and 832.7 are both M1 or E2. As far as M4 cross-over transition        
+#  between 1940 and 1015 levels was not seen the spin of 13/2 is more     
+#  reliable for 1015.9 state but not 15/2 as in 1998Zh09. The maximum     
+#  spin difference between 1940 keV and 182 keV, J|p=11/2- levels is 7    
+#  units. The highest spin of the expected level at about 2 MeV           
+#  excitation is 23/2+ for supposed Configuration=|nh{+2}{-11/2}~#(7{+-}  
+#  {+130}Te                                                               
+#  core). Due to above reasons the level scheme                           
+#  suggested in 1998Zh09 was not used but the level scheme of 1998FoZY    
+#  was adopted                                                            
+#G E$From 1998FoZY                                                        
+#G $|DE|g's were assumed (by evaluators) as 0.2 keV                       
+#G E(A),M(A)$From adopted levels, gammas                                  
+#G $|a(K)exp values from e-mail of B. Fogelberg (see in general comments) 
+#L E$From least-squares fit to E|g's                                      
+#L E,T(A)$From adopted levels, gammas                                     
+#P 1940.0     4(23/2+)           93 MS     12                             
++G gamma 0.18225 1.0
++G gamma 0.8327 1.0
++G gamma 0.5647000000000001 0.99
++G gamma 0.3603 0.9
+

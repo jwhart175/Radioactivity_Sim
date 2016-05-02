@@ -1,0 +1,40 @@
+#179PT    183HG A DECAY                 1979HA10,1980SC09,1992BOZO09NDS    200902
+#  183HG A DECAY                 1979HA10,1980SC09,1992BOZO09NDS    200902
+#H TYP=FUL$AUT=Coral M. BAGLIN$CIT=NDS 110, 265 (2009)$CUT=15-Nov-2008$   
+#  Others: 1970HA18                                                       
+#            ^T{-1/2}(183HG)=9.4 S 7 is the weighted average of 8.8 S 5   
+#  (1970HA18), 12 S 2 (1984MA41) and 10.7 S 8 (1992BOZO) (unweighted      
+#  average is 10.5 S 9).                                                  
+#A E         Measured value from 1979HA10 minus 1.0 KEV (the correction   
+#A recommended by 1991RY01 for EA from 1979HA10), except as noted.        
+#A IA        Relative IA from 1979HA10, normalized so IA(total)=100.      
+#A HF        Calculated by evaluator using R0=1.517 5 (the unweighted     
+#A average of R0(178PT)=1.522 5 AND R0(180PT)=1.512 11 from 1998AK04),    
+#A and assuming T(183HG)=9.4 S 7 and %|a(183HG)=0.117 20 (1979HA10).      
+#A If, instead, %|a=0.255 15 (1980SC09) were                              
+#A assumed, HF would be 0.8, 7.1, 8.5, 22 to the 0, 71, 87, 241 levels,   
+#A respectively, whereas HF AP 2 is expected for the GS transition.       
+#A It should be noted that %|a from 1980SC09 is based on                  
+#A parent-daughter relationships, a method which might be expected to     
+#A be more reliable than the comparison of IA and I(XK) used by           
+#A 1970HA18 and 1979HA10; HOWEVER, 1980SC09 HAD                           
+#A to apply a significant correction to the daughter IA data because the  
+#A range of the recoils exceeded their implantation depth.                
+#A E(B)      1979HA10 report a 5835A+5820A doublet based on AG coin       
+#A spectra, consistent with EA=5830 15 and IA=9.4 17 reported by 1970HA18 
+#A for unresolved doublet. EA=5832 8, recommended by 1991RY01 for the     
+#A |a group feeding the 71-KEV level of 179PT, is not adopted because     
+#A it apparently overlooks the fact that data from 1970HA18 are for the   
+#A doublet.                                                               
+#G E         From 1979HA10.                                               
+#G TI        Intensity per 100 parent |a decays (from IA).                
+#L E         FROM EG.                                                     
+#L J         FROM Adopted Levels.                                         
+#L BAND(A)   1/2[521] GS BAND.                                            
+#P 0.0           1/2-               9.4 S  7              6039      4     
+HG183 PT179 alpha 6.039 0.0 0.117
++A alpha 5.904 0.91
++A alpha 5.834 0.052000000000000005
++A alpha 5.819 0.037000000000000005
++A alpha 5.669 0.003
+

@@ -1,0 +1,29 @@
+#130BA    130BA IT DECAY (9.4 MS)       1969WAZX,1966BR14,1999DEZZ01NDS    200107
+#  130BA IT DECAY (9.4 MS)       1969WAZX,1966BR14,1999DEZZ01NDS    200107
+#H TYP=FUL$AUT=BALRAJ SINGH$CIT=NDS 93, 33 (2001)$CUT=11-May-2001$        
+#  1969WAZX: 124SN(12C,6N) E=90 MEV; 122SN(12C,4N) E=62 MEV;              
+#  measured isomer T1/2 by pulsed beam and EKC's                          
+#  1966BR14, 1969RO23: 122SN(12C,4N) E=65 MEV. Measured T1/2 of isomer    
+#  And conversion electrons, pulsed beam                                  
+#  1999DEZZ: 133CS(d,5n) E=45 MEV. Measured isomer T1/2 from              
+#  time decay of four main GAMMA rays with a pulsed deuteron beam         
+#L J$From adopted levels                                                  
+#G E,RI$From 1969WAZX                                                     
+#G M$From EKC's of 1969WAZX and 1969RO23 normalized to                    
+#G KC(357.2)=0.217 (E2 theory)                                            
+#P 2476.2    7 8-                9.4 MS    4                              
+BA130 BA130 IT 0.0 0.0094 0.965
++G gamma 0.35719999999999996 1.0
++G gamma 0.5445 0.85
++G gamma 0.5511 0.02
++G gamma 0.9083 0.01
++G gamma 0.4525 0.03
++G gamma 1.004 0.05
++G gamma 0.6911 0.76
++G gamma 0.4203 0.03
++G gamma 0.6525 0.07
++G gamma 0.8029 0.09
++G gamma 0.0803 0.067
++G gamma 0.4631 0.13
++G gamma 0.883 0.66
+

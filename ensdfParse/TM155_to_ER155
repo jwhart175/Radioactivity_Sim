@@ -1,0 +1,78 @@
+#155ER    155TM EC DECAY (21.6 S)       1991TO08,1977AG01         05NDS    200501
+#  155TM EC DECAY (21.6 S)       1991TO08,1977AG01         05NDS    200501
+#H TYP=FMT$AUT=J. Tuli$DAT=19-Apr-2005$COM=fixed fmt/typo$                
+#H TYP=FUL$AUT=C. W. REICH$CIT=NDS 104, 1 (2005)$CUT=1-Jun-2004$          
+#  DATA SET UPDATED (OCTOBER, 2003) BY CW REICH TO INCLUDE A NEW QP VALUE,
+#  NEW NR VALUE, REVISED JPI VALUE FOR THE 226 LEVEL AND NEW COMMENTS.    
+#  1991To08: sources with mass 155 were produced in the 95MO+64ZN         
+#  reaction, followed by mass separation and transport to detection       
+#  systems. SI particle DE-E telescope, plastic scintillator, HPGE and    
+#  ^Ge detectors. Measured EA, EG, RI, GG, GX, AG, G(T).                  
+#  1977Ag01: source produced by the (P,XN) reaction in natural ER,        
+#  followed by on-line mass separation. Measured G and CE spectra and G-G 
+#  coincidences.                                                          
+#  THE LEVEL SCHEME IS PROBABLY INCOMPLETE AND THUS NO DEDUCED EC+B+      
+#   INTENSITIES ARE LISTED, AS THEY MAY BE LARGER THAN THE TRUE ONES.     
+#   HOWEVER, A NR VALUE IS GIVEN, BASED ON THE SUMMED G+CE FEEDING OF     
+#   THE GS; AND THIS HAS BEEN USED TO COMPUTE A %|a VALUE FOR THE         
+#   21.6 S ACTIVITY IN 155TM. TO THE EXTENT THAT SOME OF THE UNPLACED     
+#   |g's FEED THE GS, THIS %|a VALUE MAY BE LARGER THAT THE TRUE          
+#   ONE (see THE COMMENT ON THIS VALUE IN THE 155TM Adopted Levels,       
+#   Gammas Data Set).                                                     
+#G           In addition to the G's listed here, 1977Ag01 report |g's     
+#G with energies of 171.6, 323.5, 433.4, 497.0 and, presumably, 507       
+#G that are not shown here. Comparison of the RI data of 1991To08 (which  
+#G involve the 45-s 155TM activity only) with those of 1977Ag01 indicates 
+#G that these G's are not associated with the decay of the activity       
+#G under consideration here (the 21.6-s activity).                        
+#G E         The |g's listed as unplaced are those reported by 1977Ag01.  
+#G Since the sources used in this study contained both 155TM activities,  
+#G some of these |g's may in fact be associated with the other (the       
+#G 45-s) 155TM activity.                                                  
+#G E,RI      Unless otherwise indicated, the values given here are from   
+#G 1977Ag01.                                                              
+#G E(D),RI(D)$From 1991To08                                               
+#G           The CE intensities were normalized to those of the G rays    
+#G using the value of EKC for the 202.4 G in 155DY (from the 155HO EC     
+#G decay). This procedure introduces an additional error of 20% in the    
+#G values of the conversion coefficients (1977Ag01).                      
+#G M         The listed assignments are derived from a comparison of      
+#G EKC with theoretical values                                            
+#G E(A)      Assignment of this transition to the 155TM EC decay is       
+#G uncertain                                                              
+#G RI(B)     Value derived from the difference of the RI values of        
+#G 1977Ag01 (composite source) and 1991To08 (45-s activity only). The two 
+#G intensity scales were normalized to the RI(323.5G) value of 1977Ag01   
+#G before carrying out the subtraction.                                   
+#L J         From Adopted Values                                          
+#L E(E)      From 1991To08                                                
+#L E(C)      Population of this level in the decay of 21.6-s 155TM was    
+#L inferred by the evaluator from the observation of an excess of G       
+#L intensity, in the composite (21.6-s + 45-s activities) spectrum of     
+#L 1977Ag01 compared with the pure 45-s spectrum of 1991To08, in one or   
+#L more of the G transitions known to deexcite this level.                
+#P 0.0          11/2-             21.6 S   2                5580    14    
+
+#155ER    155TM EC DECAY (45 S)         1991TO08                  05NDS    200501
+#  155TM EC DECAY (45 S)         1991TO08                  05NDS    200501
+#H TYP=FUL$AUT=C. W. REICH$CIT=NDS 104, 1 (2005)$CUT=1-Jun-2004$          
+#  DATA SET MODIFIED (OCTOBER, 2003) TO INCLUDE REVISED JPI ASSIGNMENT    
+#   AND APLHA BRANCHING RATIO FOR THE 155TM PARENT.                       
+#  1991To08: sources with mass 155 were produced in the 95MO+64ZN         
+#  reaction, followed by mass separation and transport to detection       
+#  systems. SI particle DE-E telescope, plastic scintillator, HPGE and    
+#  ^Ge detectors. Measured EA, EG, RI, GG, GX, AG, G(T).                  
+#G           The CE-related data are from 1977Ag01 (whose study included  
+#G gammas from the decay of both 155TM activities). For a discussion of   
+#G this information, see the 155TM EC decay (21.6 S) data set.            
+#G M         The listed assignments are derived from a comparison of      
+#G the EKC data of 1977Ag01 with the theoretical values, normalized to    
+#G KC(202G from the 155HO EC decay)=0.28                                  
+#G E         A number of gammas from the 155TM decay are reported         
+#G by 1977Ag01 that are not placed in their 155ER level scheme (see the   
+#G 155TM EC decay (21.6 2) data set for a listing). Since the sources     
+#G used by these authors contained both activities, some of these         
+#G gammas may in fact be associated with this (the 45-s) 155TM activity.  
+#L J         From adopted values                                          
+#P     41     6  1/2+               45 S   3                5580    14    
+

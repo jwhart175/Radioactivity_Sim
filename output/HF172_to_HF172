@@ -1,0 +1,21 @@
+#172HF    172HF IT DECAY (163 NS)       1994WA07                  95NDS    199509
+#  172HF IT DECAY (163 NS)       1994WA07                  95NDS    199509
+#H TYP=FMT$AUT=J. TULI$DAT=19-JUN-2001$COM=CHANGED DSID$                  
+#H TYP=FUL$AUT=BALRAJ SINGH$CIT=NDS 75,199 (1995)$CUT=31-May-1995$        
+#  160GD(16O,4NG) E=75 MEV. Measured delayed G, GG                        
+#  Level schemes from the decay of the 163-ns and 4.8-ns isomers are      
+#  established in this study                                              
+#L J$From adopted levels                                                  
+#L E$From least-squares fit to EG's, assuming 0.2 KEV uncertainty         
+#L for EG's                                                               
+#L T$From adopted levels                                                  
+#G RI$For delayed (out-of-beam) GAMMA rays in coincidence with 214G       
+#G M(B)$From adopted gammas                                               
+#G RI(A)$From GG with 319.1G                                              
+#G           The level scheme is not normalized for GAMMA-ray             
+#G intensities per 100 parent decays. 1994Wa07 give RI(per 100            
+#G decays)=76.4 for 127.7G from 163-ns decay and 55.3 for 1056G from      
+#G 4.8-ns decay                                                           
+#P 2005.8    4  (8-)                163 NS 3                              
+HF172 HF172 IT 0.0 0.0 1.0
+

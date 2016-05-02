@@ -1,0 +1,43 @@
+#102ZR    252CF SF DECAY                                          09NDS    200908
+#  252CF SF DECAY                                          09NDS    200908
+#H TYP=FUL$AUT=D. DE FRENNE$CIT=NDS 110, 1745 (2009)$CUT=31-Dec-2008$     
+#  2008Li45: Experiment performed at LBNL. Measured E|g, I|g, |g|g,       
+#  |g|g(|q) using GAMMASPHERE array of 102 HPGe detectors with Compton    
+#  suppression.                                                           
+#  1997Ha64,1995HaZZ: {+252}Cf, {+242}Pu(SF): measured: SF-decay data,    
+#  E|g, I|g. Deduced: {+102}Zr levels, J|p, band structure                
+#  1991Ho16,1990Ho12: {+248}Cm SF. Measured: E|g, I|g, |g|g. Deduced:     
+#  {+102}Zr levels, J|p.                                                  
+#  1995Du10: {+248}Cm SF. Measured: E|g, |g|g|g using eurogam. Deduced:   
+#  {+102}Zr levels J|p, neutron pairing strength                          
+#  1971Ch44: measured: fragment kinetic energies, E|g, I|g;               
+#  (fission)|g-, (fission)x-ray-, |g|g- and (K| x ray)|g-coin.            
+#  1971Ch44 gives also intensities per fission and K x-ray per fission    
+#  The results of 1980ChZM are based on {+254}Cf SF decay.                
+#  Others: 1970Ch11, 1970Wa05, 1971Ho29, 1972Ho08, 1972Wi15, 1974ClZX.    
+#G E,RI$ From 2008Li45 they state that the uncertainty ranges from 5% for 
+#G strong transitions to 30% for weak transitions. The evaluator assign   
+#G as follows: 5% for I|g>5, 15% for I|g=2-5 and 30% for I|g<2.           
+#L E$ From least-squares fit to E|g's (by evaluator) using uncertainty    
+#L of 0.3 keV for each |g ray                                             
+#L J$From |g|g, |g|g(|q), observed band structure and systematics,        
+#L values the same as the adopted ones                                    
+#L T         From Doppler-profile method (1996Sm04), unless otherwise     
+#L specified                                                              
+#L of 0.3 keV for each |g ray.                                            
+#L $Band from 2008Li45                                                    
+#L BAND(A)$  g.s. band                                                    
+#L BAND(B)$ |n5/2[532]~#|n3/2[411]                                        
+#L BAND(C)$ |n5/2[532]~#5/2[413]                                          
+#L BAND(D)$ Band based on (8+)                                            
+#L BAND(E)$ |DJ=1 band based on 7.                                        
+#L Possible configurations=|n9/2[404]~#|n5/2[532] or                      
+#L |n9/2[514]~#|n5/2[413] for 7-; |n9/2[404]~#|n5/2[413] or               
+#L |n9/2[514]~#|n5/2[532] for 7+                                          
+#L BAND(F)$ |n3/2[411]~#|n5/2[413]                                        
+#L BAND(G)$ |n9/2[404]~#|n3/2[411].                                       
+#L Alternate configuration=|n9/2[514]~#|n3/2[541]                         
+#L BAND(H)$ Band based on (2+)                                            
+#P 0.0             0+            2.645 Y   8                              
+CF252 ZR102 SF 0.0 8.346802377600001E7 1.0
+

@@ -1,0 +1,30 @@
+# 97SR    252CF SF DECAY                2003HW03,1974CLZX         10NDS    201004
+#  252CF SF DECAY                2003HW03,1974CLZX         10NDS    201004
+#H TYP=FUL$AUT=N. NICA$CIT=NDS 111, 525 (2010)$CUT=19-Nov-2009$           
+#  ALSO 235U(N,FG), E=TH: 1980MoZJ, 1970Gr38. 1970Gr38 observed an isomer 
+#  with T=0.47 8 US and assigned it to either 96SR or 97SR. No G rays     
+#  were observed associated with this T (100 KEV<EG<260 KEV).             
+#  2003HW03: measured EG, IG, GGG using the Gammasphere array             
+#  comprised of 102 Compton-suppressed Ge detectors                       
+#  1974CLZX: MEASURED EG, IG, GF(T), XG, GG; isomeric levels have been    
+#  studied by observing the K X-RAYS and G rays from the isomeric decay   
+#  in coincidence.                                                        
+#  2006HW01: AS 2003HW03 (BUT USING 72 Compton-suppressed Ge detectors) TO
+#  STUDY ISOMERIC LEVELS; T1/2'S DETERMINED BY GGG METHOD (SUPERSEDE      
+#  2005HW01)                                                              
+#  OTHERS: 2004HW02, 1974SU04                                             
+#G E$FROM 1974CLZX FOR G'S BELOW 830 LEVEL, EXCEPT FOR 522G               
+#G (FROM 2003HW03); FROM 2003HW03 FOR G'S OF |n9/2[404] ISOMER BAND ABOVE 
+#G THIS LEVEL                                                             
+#G RI$RELATIVE INTENSITIES FROM 1974CLZX FOR G'S BELOW 830 LEVEL.         
+#G 2003HW03 REPORT BRANCHING RATIOS FOR G'S OF |n9/2[404] ISOMER BAND     
+#G (SEE TABLE COMMENTS)                                                   
+#L E$From least-squares fit to E|g's                                      
+#L J$FROM ADOPTED LEVELS BELOW 830 ISOMER EXCLUSIVELY (SEE TABLE          
+#L COMMENT FOR JPI OF ISOMER); JPI'S OF LEVELS ABOVE ISOMER WERE ADOPTED  
+#L BY 2003HW03 BASED ON BAND STRUCTURE                                    
+#L T(z)$FROM ADOPTED LEVELS                                               
+#L BAND(D)$|n9/2[404] ISOMER BAND                                         
+#P 0            0+               2.645 Y   8                              
+CF252 SR97 SF 0.0 8.346802377600001E7 1.0
+

@@ -1,0 +1,28 @@
+#101SR    101RB B- DECAY                1995LH04,1992BA28         ENSDF    200610
+#  101RB B- DECAY                1995LH04,1992BA28         ENSDF    200610
+#H TYP=ERR$AUT=J. Tuli$DAT=14-Dec-2007$COM=Fixed typos noted by PNPI group
+#H TYP=FUL$AUT=JEAN BLACHOT$CIT=ENSDF$CUT=1-Jul-2006$                     
+#  Mass separated from fission products at ISOLDE (CERN)                  
+#  (1995Lh04,1992Ba28)                                                    
+#  Measured: |g, |g|g, pn branching (1995Lh04), |b|g coin (1992Ba28)      
+#  The level scheme is as given by 1995Lh04.                              
+#  1995Lh04 adopt a Pn of 28% 4 and a |b branching of 72%                 
+#L J$From log| {Ift} and syst. The authors suggest also assignment to     
+#L Nilsson orbitals and strong deformation.                               
+#L T$From 1995Lh04, except for the g.s.                                   
+#P 0.0         (3/2+)            0.032 S   4              11.81E+3  11    
+RB101 SR101 beta- 11.81 0.032 1.0
++G gamma 0.1345 0.027000000000000003
++G gamma 0.16090000000000002 0.0171
++G gamma 0.11159999999999999 0.126
++G gamma 0.2712 0.45
++B beta- 5.327 0.18
++G gamma 0.2516 0.1395
++G gamma 0.36310000000000003 0.0603
++B beta- 5.327 0.04
++B beta- 5.216 0.03
++G gamma 0.2327 0.0342
++B beta- 4.848 0.17
++G gamma 1.0917999999999999 0.117
++G gamma 1.3629 0.063
+

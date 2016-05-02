@@ -1,0 +1,21 @@
+#158YB    162HF A DECAY                                           04NDS    200403
+#  162HF A DECAY                                           04NDS    200403
+#H TYP=FUL$AUT=R. G. Helmer$CIT=NDS 101, 325 (2004)$CUT=1-Oct-2003$       
+#  T{-1/2}({+162}Hf)=39.8 s {I4}, measured by 1995Hi12, is used in R0     
+#       calculations.  The value of 39.4 {I9} is weighted average of      
+#       37.6 {I8} and 39.8 {I4}.                                          
+#                                                                         
+#  %|a({+162}Hf)=0.0063 {I14} was determined by 1992Ha10 and %A=0.008     
+#       {I1} by 1995Hi12. The |a branching of %|a=0.0087 {I+17-37},       
+#       previously determined by 1982Sc15, was adopted by 1991He13.       
+#       %|a({+162}Hf)=0.0063 {I14} is used here.                          
+#                                                                         
+#  Q{-|a}({+162}Hf)=4417 {I6} is from 1995Au04.                           
+#A HF        r{-0}({+158}Yb)=1.570 {I13} is calculated from HF(4308|a)=1.0
+#A      The R0 radius parameter calculated using the |a branchings of     
+#A      0.0063 {I14}, 0.008 {I1}, and their unweighted average of 0.007   
+#A      {I1}, are R0=1.570 {I13}, 1.584, and 1.576 {I13}, respectively.   
+#A      Analogy to Yb and Dy isotones would suggest R0(158)=1.53 {I2}.    
+#P 0.0          0+               39.4 S    9              4417      6     
+HF162 YB158 alpha 4.417 39.4 6.3E-5
+

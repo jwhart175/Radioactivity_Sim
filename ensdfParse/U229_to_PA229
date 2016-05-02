@@ -1,0 +1,30 @@
+#229PA    229U EC DECAY                 1982AH08,1989AHZZ         08NDS    200810
+#  229U EC DECAY                 1982AH08,1989AHZZ         08NDS    200810
+#H TYP=FUL$AUT=E. BROWNE, J. K. TULI$CIT=NDS 109, 2657 (2008)$            
+#H CUT=1-Jun-2008$                                                        
+#            Twelve of the nineteen observed                              
+#  G-ray transitions have not been placed in the decay scheme.            
+#  Thus, the decay scheme is incomplete, and the evaluators               
+#  have not deduced neither absolute photon                               
+#  intensities nor EC branchings.                                         
+#G E         Measurements by 1982Ah08, 1989AhZZ.                          
+#G RI        From 1989AhZZ. Photon intensities are relative to            
+#G I(PA KX-RAYS)=100.                                                     
+#G M,MR      Determined by 1982Ah08 from  CE measurements (data           
+#G not given).                                                            
+#L J         Adopted values.                                              
+#L E$Deduced by evaluators from least-squares fit to G-ray energies.      
+#L E         There is no clear evidence of a parity doublet within        
+#L 0.2 keV from 229PA GS as proposed in 1982Ah08. An alternative          
+#L explanation is given rather than assuming the existence of a           
+#L 0.22-keV level (1991Gr13). Evaluators have adjusted by 11.6 keV        
+#L (from 1994Le22) all level energies in 1982Ah08.  A half-life of        
+#L 0.42 (3) US was measured using delayed coincidences between            
+#L protactinium X-K and 80-400-ev electrons (1982Ah08).                   
+#L BAND(A)$1/2-[530]                                                      
+#L BAND(B)$5/2+[642]                                                      
+#L BAND(C)$3/2+[651]                                                      
+#L BAND(D)$5/2-[523] + 5/2-[512]                                          
+#P 0.0         (3/2+)            58 M      3              1305      14    
+U229 PA229 beta+ 1.305 3480.0 0.80
+

@@ -1,0 +1,49 @@
+# 46TI    46SC B- DECAY                 1978HE21                  00NDS    200102
+#  46SC B- DECAY                 1978HE21                  00NDS    200102
+#H TYP=UPD$AUT=R. Helmer$CIT=ENSDF$CUT=01-JAN-2000$DAT=15-FEB-2001$       
+#H COM=Update of decay data                                               
+#H TYP=FUL$AUT=S. -C. WU$CIT=NDS 91, 1 (2000)$CUT=15-Jul-2000$            
+#G $|g energy measurements:                                               
+#G           Ge(Li) detector (1978He21).                                  
+#G           Bent-crystal spectrometer (1972Ga37).                        
+#G $|a measurements:                                                      
+#G           Iron-free double-focusing magnetic spectrometer (1962Fr13).  
+#G           High-resolution |b spectrometer (1954Ke28).                  
+#G           Thin-lens magnetic spectrometer (1954St08 and 1950Mo62).     
+#  (889|g)(1120|g)(|q): A{-2}=+0.1003 {I18}, A{-4}=+0.0103 {I26} from     
+#  1967Ga13, 1966Mi03, 1964Ha12, 1964Ge06, 1963Si06, 1962La11, 1956Be75.  
+#  |b|g circular-polarization correlation measured by scattering of |g's  
+#  in magnetized iron; asymmetry parameter A=0.13 {I2} (1966Mi03). For    
+#  summary of 15 previous measurements, see 1966Mi03.                     
+#G $|g's measured with Be+BF{-3} photo-neutron detector                   
+#G (1980Fu07,1949Fl05).                                                   
+#B $|b energy measurements:                                               
+#B $      Liquid scin plus 2 NaI detectors, |b|g|g triple coin (1969Pr11) 
+#B           Double lens magnetic spectrometer (1956Wo09).                
+#B           Semi-circular |b spectrometer (1953Yo03).                    
+#  Plastic plus NaI detector system (1976Kl04); measured |g|g(t) by       
+#  centroid shift. For summary of 9 previous T{-1/2} measurements of 889  
+#  level, see 1976Kl04.                                                   
+#  Plastic scintillators (1970Be61,1963Le15); measured |b|g(t).           
+#  NaI detector (1963Ak01); resonant scattering of |g's vs source         
+#  temperature to measure T{-1/2}.                                        
+#            An independent evaluation of this decay was carried out      
+#       by R. G. Helmer as part of the international Decay Data           
+#       Evaluation Project.  Since the results are very similar to those  
+#       given in this data set, they are included in this comment, rather 
+#       than replacing the data set.  From the analysis of 5 half-life    
+#       values by three different methods (1985ZiZY 1992Ra08) ,           
+#       a result of 83.788 d {I22} is obtained.  The intensities          
+#       of the 889- and 1120-keV |g rays are deduced to be 99.9833 {I5}   
+#       and 99.986 {I+4-36}, respectivively.  The |g-ray energies can     
+#       be replaced by 889.271 {I2} and 1120.537 {I3} from the            
+#       2000He14 evaluation.  The details of this evaluation will be      
+#       published by M.-M. Be in a report from the Laboratoire National   
+#       Henri Becquerel.                                                  
+#L J         Based on |g|g(|q) and |g multipolarities.                    
+#G E         From 1978He21.                                               
+#G M         From |a measurements (all references).                       
+#N    1.0      1.0         1.0     1.0                                    
+#N                                                                     4  
+#P    0.0                4+      83.79 D   4                2366.7  7     
+

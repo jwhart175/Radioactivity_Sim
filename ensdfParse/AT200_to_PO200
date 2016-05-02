@@ -1,0 +1,24 @@
+#200PO    200AT EC DECAY (43 S+47 S)    1998Bi06,1992Hu04         07NDS    200707
+#  200AT EC DECAY (43 S+47 S)    1998Bi06,1992Hu04         07NDS    200707
+#H TYP=FUL$AUT=F.G. KONDEV, S. LALKOVSKI$CIT=NDS 108,1471 (2007)$         
+#H CUT=1-Aug-2006$                                                        
+#  1998Bi06: mass separated source produced using nat RE(20NE,XNG)        
+#  reaction at E(20NE)=200 MEV; Detectors: HPGE, ^LEPS, SI(LI); Measured: 
+#  EG, IG, CE, G, X and CE singles, GG(T), GX(T), GCE(T) and XCE(G);      
+#  Other: 1995Bi17                                                        
+#  1992Hu04: mass separated source was produced using nat RE(20NE,XNG)    
+#  reaction; Detectors: GE(LI), SI(LI), surface barrier detectors;        
+#  Measured: EG, IG, CE, EA, IA, G-ray singles                            
+#  The data of 1998Bi08 and 1992Hu04 are consistent with each other,      
+#  except that the level reported at 1842 KEV in 1992Hu04 was not         
+#  confirmed in 1998Bi08                                                  
+#G E,RI$From 1998Bi06, unless otherwise specified. RI are a mixture       
+#G of the 200AT GS (JPI=(3+)) and 200AT isomer (JPI=(7+)) EC decay        
+#G intensities and hence no unambiguous normalization of the decay scheme 
+#G can be achieved                                                        
+#G M$From EKC and ELC in 1998Bi06                                         
+#G M(a)$From adopted gammas                                               
+#L E$From least-squares fit to EG                                         
+#L J$From adopted gammas                                                  
+#P10            (3+)             43 S      1              7967      28    
+

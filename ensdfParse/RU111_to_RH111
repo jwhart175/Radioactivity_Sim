@@ -1,0 +1,60 @@
+#111RH    111RU B- DECAY                1998LH02                  09NDS    200905
+#  111RU B- DECAY                1998LH02                  09NDS    200905
+#H TYP=FUL$AUT=Jean Blachot$CIT=NDS 110, 1239 (2009)$CUT=1-Feb-2008$      
+#  The previous data have been kept in comments                           
+#  1998LH02: 249CF(N,F), CHEMICALLY SEPARATED, G, GG, T, BG(T).           
+#  PRELIMINARY RESULTS:                                                   
+#  1992PEZX: 238U(P,F), E=20 MEV, ON-LINE ISOTOPE SEPARATOR IGISOL        
+#  MEASURED: G, GG, G(T), CE, GELI, Ge, SILI, ^ELLI SPECTROMETER          
+#  1990RO13: 249CF(N,F), CHEMICALLY SEPARATED, G, GG,  T                  
+#  1990RO13 HAVE POSTULATED A INTRUDER BAND FOR LEVELS AT 395,            
+#  440, 568, and 663 KEV. THEY FIT A=19.77 KEV, B=-1.701                  
+#  1991SHZX: 252CF SF, CHEMICALLY SEPARATED, REPORT 4 GAMMAS              
+#  THE LEVEL SCHEME IS  as GIVEN BY 1998LH02. They have                   
+#  added the 568, 732                                                     
+#  860, 960, 977, 1018, 1039, 1096, 1160, 1349, 2127, 2215 levels to the  
+#  level scheme of 1992PEZX.                                              
+#G M$From 1992PEZX. DIFFERENT METHODS WERE USED: SIMULTANEOUS MEASUREMENT 
+#G OF CONVERSION ELECTRONS AND GAMMAS AND ALSO ELECTRON INTENSITY         
+#G  FROM THE K-ALPHA X-RAY COINCIDENT SPECTRUM.                           
+#G E,RI$ From 1998LH02                                                    
+#G E(A)$ Tentative placement from 1998LH02                                
+#L T$ From BG(T) 1998LH02                                                 
+#P 0.0         (5/2+)            2.12 S    7              5.69E+3   8     
+RU111 RH111 beta- 5.69 2.12 1.0
++B beta- 2.062 0.5
++B beta- 1.961 0.001
++G gamma 0.2114 0.12375
++B beta- 1.918 0.005
++G gamma 0.30360000000000004 0.165
++B beta- 1.88 0.001
++G gamma 0.0787 0.04455
++G gamma 0.382 0.054450000000000005
++B beta- 1.874 0.005
++B beta- 2.20789 0.016
++G gamma 0.09129999999999999 0.010065
++G gamma 0.395 0.0231
++B beta- 1.852 0.001
++G gamma 0.0455 8.25E-4
++B beta- 1.827 0.001
++G gamma 0.1891 0.023925000000000002
++B beta- 1.792 0.01
++B beta- 1.761 0.001
++B beta- 1.746 0.008
++B beta- 1.738 0.0034999999999999996
++B beta- 1.713 0.0038
++B beta- 1.653 0.004
++B beta- 1.605 0.0051
++B beta- 1.597 0.0045000000000000005
++B beta- 1.578 0.004
++B beta- 1.568 0.011899999999999999
++B beta- 1.56 0.086
++G gamma 1.0546 0.02112
++B beta- 1.54 0.0013
++B beta- 1.511 0.0048
++B beta- 1.421 0.0149
++B beta- 1.162 0.127
++B beta- 1.099 0.147
++B beta- 1.055 0.053
++B beta- 1.014 0.021
+

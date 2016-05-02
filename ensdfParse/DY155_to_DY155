@@ -1,0 +1,45 @@
+#155DY    155DY IT DECAY (6 US)                                   05NDS    200501
+#  155DY IT DECAY (6 US)                                   05NDS    200501
+#H TYP=FUL$AUT=C. W. REICH$CIT=NDS 104, 1 (2005)$CUT=1-Jun-2004$          
+#  1970Bo02: the source was produced in the 155GD(3HE,3NG) reaction, using
+#  a pulsed beam. Measured EG, RI, ICE, delayed G, delayed CE. The        
+#  activity was assigned to 155DY by comparison of the measured EG        
+#  with known values reported in the 155HO EC decay.                      
+#  Although 1970Bo02 correctly associated the isomeric state with the     
+#  11/2[505] NILSSON orbital, they did not propose ^a decay scheme for    
+#  it. The decay scheme shown here is that worked up by the evaluator     
+#  and relies heavily on the level-scheme information obtained from the   
+#  155HO EC decay.                                                        
+#G           The G-ray properties are those as given in the               
+#G 155HO EC decay data set.                                               
+#G                                                                        
+#G $    Relative G-ray intensities from decay of 6-US 155DY (1970Bo02)    
+#G $   --------------------------------------------------------------     
+#G $       EG(KEV)       RI               EG(KEV)       RI                
+#G $       -------     -------            -------     -------             
+#G $        37        9     5              88         2.4 12              
+#G $        47*       37    20             103         9   2              
+#G $        68        1.4  10             139        21   3               
+#G $        79        9.5  20             147        16   2               
+#G $   -------------                                                      
+#G $   * RI value includes a contribution from K x rays                   
+#G                                                                        
+#G RI        The relative RI values for the G's deexciting a given level  
+#G are those observed in the 155HO EC decay. The RI values of the G's     
+#G deexciting a given level, relative to those deexciting other levels,   
+#G have been adjusted to provide a suitable intensity balance at each     
+#G level.                                                                 
+#G RI        The G intensity scale has been chosen so that the sum of the 
+#G TI values of the transitions deexciting the 6-US isomer is 100%. Note  
+#G that these values depend significantly on the TI value of the 9.1 G.   
+#G This value, relative to those of the other transitions deexciting the  
+#G isomer, was chosen to reproduce the relative RI values of the 138      
+#G and the 147 (and 79) G's. It is much smaller than what would be        
+#G expected from the CE data of 1979Al31 and 1979Ab18 on the EC decay     
+#G of 155HO. See the discussion under the 9.1 G in the 155HO EC decay     
+#G data set.                                                              
+#L E,J       From adopted values                                          
+#L T         From adopted values, unless noted otherwise                  
+#P 234.33     311/2-               6 US    1                              
+DY155 DY155 IT 0.0 0.0 1.0
+

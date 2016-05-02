@@ -1,0 +1,24 @@
+#100NB    100NB IT DECAY (13 US)        1999GE01,1986LHZX,1980MOZJ08NDS    200802
+#  100NB IT DECAY (13 US)        1999GE01,1986LHZX,1980MOZJ08NDS    200802
+#H TYP=FUL$AUT=BALRAJ SINGH$CIT=NDS 109, 297 (2008)$CUT=26-Dec-2007$      
+#  1999GE01: MEASURED G, CE, G(CE), T1/2 USING ^Ge AND ^Si DETECTORS,     
+#  TIME CORRELATION BETWEEN FISSION FRAGMENTS AND G RAYS OR CONVERSION    
+#  ELECTRONS. THE 100NB ISOMER PRODUCED IN THERMAL NEUTRON FISSION OF     
+#  241PU FOLLOWED BY MASS/CHARGE SEPARATION AT WITH ^LOHENGRIN            
+#  SPECTROMETER AT ^ILL FACILITY.                                         
+#  1986LhZX: Measured prompt and delayed |g rays from fission.            
+#  1980MoZJ: Measured half-life of the isomer and |g intensities          
+#  Total decay energy deposit of 380 keV calculated by RADLIST            
+#  code is in general agreement with expected value of 421 keV            
+#G E,RI$ FROM 1999GE01, UNLESS OTHERWISE STATED                           
+#G E(X)$ G REPORTED BY 1986LHZX AND 1980MOZJ ONLY, NOT CONFIRMED          
+#G BY 1999GE01. IT IS TREATED AS QUESTIONABLE (BY THE EVALUATOR)          
+#G AND NOT LISTED IN 'ADOPTED LEVELS'                                     
+#G RI(Y)$ FROM 1980MOZJ                                                   
+#G M$ FROM EKC VALUES OF 1999GE01                                         
+#L E(X)$ LEVEL REPORTED BY 1986LHZX AND 1980MOZJ ONLY, NOT CONFIRMED      
+#L BY 1999GE01. IT IS TREATED AS QUESTIONABLE (BY THE EVALUATOR)          
+#L AND NOT LISTED IN 'ADOPTED GAMMAS'                                     
+#L J$ From 'adopted levels'                                               
+#P 420.7+X       (8-)              13 US   1                              
+

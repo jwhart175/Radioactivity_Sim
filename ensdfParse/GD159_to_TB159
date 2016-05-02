@@ -1,0 +1,81 @@
+#159TB    159GD B- DECAY (18.479 H)                               12NDS    201201
+#  159GD B- DECAY (18.479 H)                               12NDS    201201
+#H TYP=FUL$AUT=C. W. Reich$CIT=NDS 113, 157 (2012)$CUT=31-Dec-2010$       
+#  DATA SET UPDATED (JANUARY, 2011) BY CW REICH TO INCLUDE NEW QP VALUE,  
+#   NEW CC VALUES, R~~~~~~~~~~~~ECALCULATED IB AND LOGFT VALUES.          
+#  The decay scheme is that of 1965Fu14, which is similar to those of     
+#       1968Hi03, 1969Br05, 1985Da31, and 1995Mo08.                       
+#  The following quantities have been measured: EG and                    
+#       IG (1958Ma53,1958Ni29,1962Su04,1964Ew04,1964Pe07,1965Fu14,        
+#       \1972De67,1975SeZD); T1/2 of levels (1961Go32,1963Go28,           
+#       \1967Ko17,1967Ma33,1969Be54); G multipolarities and |d            
+#       (1958Ma53,1958Ni29,1962Su04,1964No08,1964Pe07,1975SeZD);          
+#       and EB- and IB- (1958Ma53,1962Ta12,1975BaXG).                     
+#  Searches for parity nonconservation have been carried out              
+#       (1970Pr13,1971Kr19,1971Li15,1972Li11) by measurements of G(THETA) 
+#       and circular polarization of 363 G.                               
+#  Experimental methods:                                                  
+#  Sources made by 158TB(n,G), unless noted otherwise.                    
+#  1958Ma53: Measured B- and ce in magnetic spectrometer and G with       
+#       NaI(Tl). Report ce for 6 G's, one K/L ratio, GG coin.,            
+#       B-G coin.                                                         
+#  1958Ni29: Similar measurements. Report ce for 4 G's, two K/L           
+#       ratios, and 5 IG's.                                               
+#  1961Go32: Measured B-G coin. Report T1/2(362).                         
+#  1961Va36: Measured B-G coin. Report T1/2(363).                         
+#  1962Su04: Measured G singles and GG(THETA). Report 5 EG's and          
+#       IG's, and |d(79,228).                                             
+#  1962Ta12: Source from 160GD(G,n). Measured B-G coin.                   
+#       Report B- endpoints and B- intensity ratio.                       
+#  1963Go28: Measured GG(t). Report T1/2(136).                            
+#  1964No08: Measured ce in magnetic spectrometer. Report |d(58).         
+#  1964Pe07: G's measured by G singles and by external conversion.        
+#       Report 6 EG's and IG's, and one |a{-K}(exp).                      
+#  1965Fu14: Report 12 IG's.                                              
+#  1967Ko17: Report T1/2(363).                                            
+#  1967Ma33: Report T1/2(363).                                            
+#  1968Hi03: G's measured on crystal spectrometer and Ge detectors.       
+#       Report 16 EG's and 17 IG's.                                       
+#  1969Be54: Measured B-G coin. Report T1/2(364).                         
+#  1969Br05: Reports same 17 G's as 1968Hi03.                             
+#  1970Pr13: Measured G(363,THETA) for oriented nuclei to search for      
+#       parity nonconservation. Report |m.                                
+#  1971Kr19: Measured G(363,THETA) from oriented nuclei. Report           
+#       |m, |d(226,348,363).                                              
+#  1972De67: Measured EG(58).                                             
+#  1972Li11: Measured circular polarization of 363 G in search for        
+#       parity nonconservation.                                           
+#  1975BaXG: Report EB-, IB-, EG, and IG.                                 
+#  1975SeZD: Report 4 EG's and IG's and 2 |a{-K}(exp).                    
+#  1985Da31: Report 22 EG and IG.                                         
+#  1994MoZZ: Measured E and RI for 21 G's. Replaced by 1995Mo08.          
+#  1995Mo08: Measured precise E and RI for 21 G's.                        
+#B E         The measured values from 1975BaXG are about 11 keV lower     
+#B      than those from the Q- value; they are not given.                 
+#B IB        From G(363) emission probability (2001Ma01) and G            
+#B      intensity balances. The measured values of 1975BaXG are           
+#B      given in comments.                                                
+#G E         From 1995Mo08.                                               
+#G RI        Weighted average of values of 1968Hi03, 1969Br05, 1985Da31,  
+#G      1994St05, 1995Mo08, and 2001Ma01.                                 
+#G M,MR      From 159TB Adopted G radiations. See 159TB Adopted           
+#G      G radiations for limits on M2 mixing in E1 transitions            
+#G      from 363 level.                                                   
+#L E         From least-squares fit to the G energies.                    
+#L J         From 159TB Adopted Levels; also see Adopted Levels           
+#L      for band assignments.                                             
+#L T         From measurements from 159GD B- decay only; see              
+#L      159TB Adopted Levels for all measurements.                        
+#P   0         3/2-                18.479 H 4              970.5    7     
++G gamma 0.47984 2.4266800000000003E-6
++B beta- 0.32689999999999997 0.586
++B beta- 0.30410000000000004 0.28800000000000003
++B beta- 0.2839 8.0E-5
++B beta- 0.19440000000000002 0.00315
++B beta- 0.1889 0.1219
++B beta- 0.11381999999999999 6.35E-4
++B beta- 0.10181 3.01E-4
++B beta- 0.08379 3.87E-5
++B beta- 0.0304 1.6199999999999998E-4
++B beta- 0.02051 1.1000000000000001E-5
+

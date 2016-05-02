@@ -1,0 +1,21 @@
+#160SM2C   160SM LEVELS EXCITED IN THE 252CF SF DECAY. MEASURED GG AND GGG COIN  
+#   160SM LEVELS EXCITED IN THE 252CF SF DECAY. MEASURED GG AND GGG COIN  
+#   USING AN ARRAY OF 20 Compton-suppressed Ge DETECTORS. GGG COIN        
+#   MEASURED USING 36 Ge DETECTORS IN AN EARLY IMPLEMENTATION OF          
+#   Gammasphere. XG AND XX COIN ALSO MEASURED USING TWO X-RAY DETECTORS   
+#   (FWHM=280 eV AT 14 keV) AND THREE Ge DETECTORS. REPORT EG, RI AND     
+#   MEMBERS OF THE GS (YRAST) BAND UP THROUGH THE 14+ LEVEL.              
+#  THE DATA FROM THE TWO STUDIES ARE ESSENTIALLY THE SAME, THE ONLY       
+#   DIFFERENCES BEING THE EG VALUES (AND, THUS, THE LEVEL ENERGIES).      
+#G E         FROM 1997Do20. THESE VALUES DIFFER SOMEWHAT (WITHIN 0.2 T0   
+#G  0.4 keV) FROM THOSE OF 1995ZH15.                                      
+#G RI        FROM 1995ZH15. 1997Do20 DO NOT REPORT RI VALUES.             
+#L E         COMPUTED FROM THE LISTED EG VALUES.                          
+#L J         Values assigned by 1995Zh15, based on considerations of      
+#L rotational-band structure and the deexcitation characteristics of      
+#L the highly excited, high-spin, states produced in the                  
+#L spontaneous-fission process.                                           
+#L BAND(A)   GS (YRAST) BAND.                                             
+#P 0            0+               2.645 Y   8                              
+CF252 SM160 SF 0.0 8.346802377600001E7 1.0
+

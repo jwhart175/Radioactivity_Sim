@@ -1,0 +1,32 @@
+#187TL    187PB EC DECAY (15.2 S)       1981MI12                  09NDS    200905
+#  187PB EC DECAY (15.2 S)       1981MI12                  09NDS    200905
+#H TYP=MOD$AUT=M. S. Basunia$DAT=17-Apr-2015$COM=187PB parent level energy
+#H changed from 33 keV {I13} to 0.0 for consistency with 187PB Adopted    
+#H Levels.                                                                
+#H TYP=FUL$AUT=M. S. Basunia$CIT=NDS 110, 999 (2009)$CUT=1-Nov-2008$      
+#  The decay scheme is based on that of 1981Mi12.                         
+#G E         From measurements by 1981Mi12 (semi).                        
+#G RI        Relative photon intensity measured by 1981Mi12.              
+#G E(X)      Half-lives were not determined for these unplaced gammas;    
+#G therefore, they could not be assigned to a specific isomer's decay.    
+#L E         From least-squares adjustment of E|g.                        
+#L J         From adopted levels                                          
+#P 0.0          (3/2-)             15.2 S  3              7464      12    
+
+#187TL    187PB EC DECAY (18.3 S)       1981MI12                  09NDS    200905
+#  187PB EC DECAY (18.3 S)       1981MI12                  09NDS    200905
+#H TYP=MOD$AUT=M. S. Basunia$DAT=17-Apr-2015$COM=187PB parent level energy
+#H changed from 0.0 to 33 keV {I13} for consistency with 187PB Adopted    
+#H Levels.                                                                
+#H TYP=FUL$AUT=M. S. Basunia$CIT=NDS 110, 999 (2009)$CUT=1-Nov-2008$      
+#G E         Measurement of 1981Mi12 (semi).                              
+#G RI        Relative photon intensity measured by 1981Mi12.              
+#G M,MR      From adopted gammas.                                         
+#G E(X)      Half-lives were not determined for these unplaced gammas;    
+#G therefore, they could not be assigned to a specific isomer's decay.    
+#L E$From least-squares adjustment of E|g holding 334-keV level energy    
+#L fixed. For absolute level uncertainty, a |DE=4 keV for the 334-keV     
+#L level should be considered in propagation.                             
+#L J,T       From adopted levels.                                         
+#P 33        13 (13/2+)            18.3 S  3              7464      12    
+

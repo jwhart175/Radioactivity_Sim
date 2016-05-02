@@ -1,0 +1,21 @@
+#252FM    256NO A DECAY                                           05NDS    200601
+#  256NO A DECAY                                           05NDS    200601
+#H TYP=FUL$AUT=N. NICA$CIT=NDS 106, 813 (2005)$CUT=21-Mar-2005$           
+#  Q(|a)({+256}No)=8581 {I5} is recommended by 2003Au03.                  
+#  T{-1/2}({+256}No)=2.91 s {I5}, measured by 1990Ho03, is adopted.       
+#  Earlier measurements: T{-1/2}=3.3 s {I2} (1967Gh01), 3.7 s {I5}        
+#  (1968Fl05), 6 s {I2} (1967Dr02), 8.2 s {I10} (1966Ku15), |?8 s         
+#  (1964Do10).                                                            
+#                                                                         
+#                                                                         
+#A E         From 1990Ho03. Other measurements:                           
+#A 1967Fl05, 1967Gh01, 1968Fl05, 1977Be36                                 
+#A IA        Intensity per 100 |a decays, measured by 1990Ho03.           
+#A HF        r{-0}({+252}Fm)=1.4765 {I19} is calculated from              
+#A HF(8448|a)=1.0.                                                        
+#L BAND(A)   K=0+ GS BAND.                                                
+#P 0.0                           2.91 S    5              8581      5     
+NO256 FM252 alpha 8.581 2.91 0.9950
++A alpha 8.448 0.87
++A alpha 8.402 0.13
+

@@ -1,0 +1,27 @@
+#145PM    145SM EC DECAY                1977RO29,1983VO10         09NDS    200902
+#  145SM EC DECAY                1977RO29,1983VO10         09NDS    200902
+#H TYP=FUL$AUT=E. BROWNE, J. K. TULI$CIT=NDS 110, 507 (2009)$             
+#H CUT=1-Oct-2008$                                                        
+#  Others: 1970Be65, 1981BeYJ, 1988Ta03                                   
+#E IE        ECK(61)=0.828 20, ECK(61)/ECL(61)=0.162 18 (1981BeYJ);       
+#E ECK(g.s.)/ECK(61)=0.08 2, EC(L+M+N)(61)/ECK(61)=0.20 2,                
+#E EC(L+M+N)(493)/ECK(493)=0.6 1 (1959Br65);                              
+#E ECK(493)/ECK(61)=0.428 29 (1983Vo10); see also 1991Pl01                
+#E           For internal bremsstrahlung spectra see 1959Br65, 1977Ro29   
+#E           I(XK)=133.3% 19 (1991Pl01). Other: 134% 4 (1991ChZZ)         
+#E           I(CE)=81.1% 21 (1991ChZZ)                                    
+#G CC$ FROM BrIcc v2.2 (31-Mar-2008) 2008KiAA, "Frozen Orbitals" appr.    
+#G           Measured KLL Auger spectrum (2000KOZR), see reference for    
+#G KLL component energy, intensities.                                     
+#G KL1L2 Auger transition intensity ratio ({+3}P{-0}/{+1}P{-1})=0.45 1    
+#G (2000KOZQ) agrees well with theoretical value (2000KOZQ). Deduced      
+#G K atomic level width from 61.2G CE line (2000KOZO)                     
+#G RI        From 1983Vo10; 1977Ro29 did not observe the 120.8G reported  
+#G by 1970Be65                                                            
+#G E         From 1983Vo10 except 431G which is from 1977Ro29.            
+#P 0.0         7/2-              340 D     3              620        3    
+SM145 PM145 beta+ 0.62 2.9376E7 0.1215
++G gamma 0.0612265 1.0
++G gamma 0.43139999999999995 4.2999999999999995E-6
++G gamma 0.49255 2.7E-4
+

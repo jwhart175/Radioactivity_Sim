@@ -1,0 +1,96 @@
+#157HO    157ER EC DECAY                1978BRYV,1977ANYX,1979AL3304NDS    200501
+#  157ER EC DECAY                1978BRYV,1977ANYX,1979AL3304NDS    200501
+#H TYP=ERR$AUT=J. TULI$DAT=16-Jul-2007$COM=Fixed typo in comment$         
+#H TYP=FUL$AUT=R. G. Helmer$CIT=NDS 103, 565 (2004)$CUT=1-Feb-2004$       
+#  The decay scheme is primarily that of 1978BrYV (a private              
+#       communication) and is based on the |g data of 1977AnYX            
+#       (a thesis) and some level information from the                    
+#       ({+3}He,d) and (|a,t) reaction data of 1977Pa23.                  
+#  This decay scheme is very tentative. There are several                 
+#       inconsistencies including some between the J|p and multipolarity  
+#       assignments as well as with some spin and band assignments        
+#       from the reaction data of 1977Pa23. Also, the                     
+#       decay scheme of 1979DzZZ, deduced from |gce coincidence data, is  
+#       quite different, but the latter information is not complete       
+#       enough to use here.                                               
+#  For these studies, {+157}Er has been produced by the reactions         
+#      Ho(p,xn), Dy({+3}He,xn), {+149}Sm({+12}C,4n),                      
+#      {+141}Pr({+20}Ne,4n){+157}Tm followed by |e decay, and             
+#      spallation of Ta. Some studies used chemical or isotope separation.
+#      |g singles, |g|g coincidences, |gce coincidences, and              
+#      and lifetimes have been measured.                                  
+#  Experimental methods:                                                  
+#  1965Zh02: produced by spallation of Ta target with 660 MeV p.          
+#       |g's measured with NaI detector.  Half-life of {+157}Er           
+#       determined from grow-in of {+157}Dy.                              
+#  1966La11: produced by Ho(p,xn) reaction with isotope separation.       
+#       |g's measured with NaI detector.  6 |g's and half-life reported.  
+#  1970LiZL: Conference report of J measurements; see 1969Ek01.           
+#  1973AnYC: Progress report, describes methods used in 1977AnYX.         
+#  1975AlYW: Conference abstract, report T{-1/2}, E{-|g}, I{-|g},         
+#       E{-|b+} and multipolarities.                                      
+#  1975Gr44: Review of laboratory program; gives T{-1/2} and level        
+#       lifetime.                                                         
+#  1977AnZU: Abstract; see 1977AnYX for complete measurement results.     
+#  1977AnYX: produced by {+149}Sm({+12}C,4n) on enriched (97.7%)          
+#       target.  |g singles and |g|g coincidences were measured with Ge   
+#       detectors.  About 100 |g's reported.  Decay scheme only includes  
+#       14 |g's and has been replaced by that of 1978BrYV.                
+#  1977BoYR: produced by Dy({+3}He,xn) with E({+3}He)=80 MeV followed by  
+#       isotope separation.  Measured |g singles, |g|g coincidences.      
+#  1978BrYV: private communication from D. S. Brenner to C. W. Reich,     
+#       which consisted of a decay scheme drawing.  This scheme replaces  
+#       that of 1977AnYX and it includes 41 |g's.  It uses the |g data    
+#       from 1977AnYX and to some extent makes use of the levels          
+#       proposed by 1977Pa23 from ({+3}He,d) and (|a,t) studies.          
+#  1979Al33: produced by spallation of Ta target with 660 MeV p beam.     
+#       Lifetimes determined from ce|g(t) coincidences.                   
+#  1979DzZZ: studied by ce|g coincidences; gives some results.            
+#  1984GrZL: produced by decay of {+157}Tm from {+141}Pr({+20}Ne,4n)      
+#       followed by chemical separation of Er.  |g's measured.            
+#       T{-1/2} determined, 25 |g's observed                              
+#  1987AlZP: Abstract, report |d(83).                                     
+#E TI        Values are from |g intensity balances, with uncertain        
+#E      |g's omitted. Due to the tentative nature of the decay scheme,    
+#E      only values over 2% and to levels above 155 keV are given.        
+#E      Values for lower energy levels are not meaningful since the |g    
+#E      transitions from the 91- and 177-keV have not been seen. These    
+#E      calculated values are not in conflict with the |g-intensity       
+#E      normalization (1984GrZL). The total ec+|b+ intensity              
+#E      given is 42%.                                                     
+#G E         From 1977AnYX unless noted as from 1975AlYW, 1977BoYR, or    
+#G      1984GrZL; these latter three articles list only a few |g's.       
+#G RI        From 1977AnYX unless noted as from 1975AlYW or               
+#G      1984GrZL.                                                         
+#G M         From {+157}Ho Adopted |g radiations, but primarily from      
+#G      this |e decay (1975AlYW, 1977BoYR), where no supporting data      
+#G      are given by the authors.                                         
+#G MR        From {+157}Ho Adopted |g radiations.                         
+#G E(R),RI(RU)$From 1975AlYW only.                                        
+#G E(S)      From 1977BoYR only.                                          
+#G E(T),RI(T)$From 1984GrZL only.                                         
+#G E(U)      From 1975AlYW and 1977BoYR.                                  
+#G RI(V)     Weak (1977AnYX).                                             
+#L E         From least-squares fit to |g energies, with uncertain |g's   
+#L      omitted.                                                          
+#L J         From {+157}Ho Adopted Levels; significantly different        
+#L      assignments by 1978BrYV are noted.                                
+#L T         Values are from {+157}Er |e decay only; measured by |b|g(t). 
+#L           Level is 5/2+ (53)                                           
+#L           Level is 7/2+ (66)                                           
+#L           Levels are 3/2+ (91) and 5/2+ (150)                          
+#L           Level is 5/2- (391)                                          
+#L           Level is 3/2- (527)                                          
+#L           Level is 5/2+ (549)                                          
+#L BAND(A)   7/2[523] band                                                
+#L BAND(B)   5/2[402] bandhead                                            
+#L BAND(C)   7/2[404] bandhead                                            
+#L BAND(D)   3/2[411] band                                                
+#L BAND(E)   5/2[532] bandhead                     .                      
+#L BAND(G)   K|p=3/2- band from K-2 |g-vibration built on 7/2- g.s.       
+#L BAND(H)   5/2[413] bandhead                                            
+#P    0         3/2-               18.65 M 10                  3410 40    
++B beta+ 8.298E-4 0.00131
++B beta+ 1.027 0.005699999999999999
++B beta+ 0.929 0.00631
+

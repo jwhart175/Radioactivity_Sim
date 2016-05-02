@@ -1,0 +1,26 @@
+#210PB    214PO A DECAY                 1976KU08,1971GR17,1961RY0214NDS    201408
+#  214PO A DECAY                 1976KU08,1971GR17,1961RY0214NDS    201408
+#H TYP=FUL$AUT=M. SHAMSUZZOHA BASUNIA$CIT=NDS 121, 561 (2014)$            
+#H CUT=31-Mar-2014$                                                       
+#  T1/2(214PO)=163.6 US 3 from 2013Be31. Other: 164.3 US 20 (2009WU02)    
+#  1976KU08: 214PO was produced from the decay chain of 230U. Measured    
+#  G-ray energies using two Ge(Li) detectors. Deduced level scheme from   
+#  G-G COIN measurements.                                                 
+#  1971Gr17: Measured EA=7686.73 keV {I6}                                 
+#  1961Ry02: Measured EA=7686.0 keV {I8}                                  
+#                                                                         
+#A IA        ALPHA intensity per 100 ALPHA decays.                        
+#A HF        R0(210PB)=1.5396 1 has been computed from HF(7686.82A)=1.0.  
+#A Other: 1.5394 6 (1998Ak04) computed using T1/2(214PO)=164.3 US 20.     
+#G           RI normalization: RI(324.22G in 218RN)=3200 100 in relative  
+#G units given here; its absolute intensity was measured by 1969Pe17 to   
+#G be 2.77% 8. The normalization factor used here is                      
+#G (2.77 8)/(3200 100)=0.00087 4.                                         
+#G E$From 1976Ku08.  Other measurements: 1963Le17.                        
+#G RI$Relative photon intensity (1976Ku08).                               
+#P 0.0         0+                163.6 US  3              7833.46   6     
+PO214 PB210 alpha 7.83346 1.636E-4 1.0
++A alpha 7.68682 0.9998950000000001
++A alpha 6.9022 1.04E-4
++A alpha 6.6098 6.0E-7
+

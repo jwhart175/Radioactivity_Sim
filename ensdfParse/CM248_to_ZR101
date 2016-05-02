@@ -1,0 +1,71 @@
+#101ZR    248CM SF DECAY                2004UR06                  ENSDF    200610
+#  248CM SF DECAY                2004UR06                  ENSDF    200610
+#H TYP=ERR$AUT=J. Tuli$DAT=14-Dec-2007$COM=Fixed typos noted by PNPI group
+#H TYP=FUL$AUT=JEAN BLACHOT$CIT=ENSDF$CUT=1-Jul-2006$                     
+#  2004Ur06: Measured E|g, I|g, |g|g, |g|g(|q) with the Eurogam-2         
+#  multidetector array                                                    
+#  1990Ho12:  6.5|*10{+4} fissions/s. Argonne Notre Dame |g facility      
+#  10 Bi-germanate-suppressed Ge detectors, 2 Leps, 1 array of 50 Bi-Ge   
+#  scin used as a multiplicity filter. They select only fission           
+#  fragments with an average |g multiplicity of |?10. The assignment is   
+#  mainly based on coin with complementary Ba isotopes.                   
+#  {+252}Cf SF decay: 1974ClZX, 1973TaZG. Others: 1970Jo20, 1970HoZJ,     
+#  1971Ho29                                                               
+#  All data are from 2004Ur06, unless otherwise noted                     
+#G M$From |g|g(|q), mult=Q implies |DJ=2, mult=D implies |DJ=1            
+#L E$From least-squares fit to E|g's, assuming |D(E|g)=0.3 keV for        
+#L each |g ray                                                            
+#L J$As given by the authors.                                             
+#L BAND(A)$GS, |n3/2[411] BAND                                            
+#L BAND(B)$|n9/2[404], KPI=9/2+ ISOMER BAND. Q{-0}=3.6 {I4}, |b{-2}=0.38  
+#L {I4}                                                                   
+#L BAND(C)$|n5/2[532] BAND                                                
+#P 0           0+                3.48E+5 Y 6                              
++G gamma 0.0916 0.039599999999999996
++G gamma 0.1184 0.015600000000000001
++G gamma 0.2166 0.12
++G gamma 0.1336 0.12
++G gamma 0.2317 0.0492
++G gamma 0.0891 0.0016799999999999999
++G gamma 0.1043 0.12
++G gamma 0.2228 0.011279999999999998
++G gamma 0.1764 0.10559999999999999
++G gamma 0.31 0.12
++G gamma 0.1466 0.12
++G gamma 0.2357 0.0192
++G gamma 0.251 0.0324
++G gamma 0.1432 0.012
++G gamma 0.2023 0.036
++G gamma 0.37860000000000005 0.12
++G gamma 0.15209999999999999 0.12
++G gamma 0.2115 0.0084
++G gamma 0.29869999999999997 0.1092
++G gamma 0.239 0.006
++G gamma 0.2485 0.05399999999999999
++G gamma 0.45 0.12
++G gamma 0.2496 0.12
++G gamma 0.4018 0.114
++G gamma 0.32230000000000003 0.015600000000000001
++G gamma 0.33130000000000004 0.0204
++G gamma 0.4743 0.08879999999999999
++G gamma 0.5337999999999999 0.0348
++G gamma 0.621 0.0072
++G gamma 0.71 0.12
++G gamma 0.8437 0.0648
++G gamma 0.17809999999999998 0.0408
++G gamma 0.428 0.12
++G gamma 0.2621 0.062400000000000004
++G gamma 0.5105 0.12
++G gamma 0.25980000000000003 0.12
++G gamma 0.4825 0.0504
++G gamma 0.3842 0.0408
++G gamma 0.5624 0.12
++G gamma 0.31610000000000005 0.024
++G gamma 0.5782999999999999 0.12
++G gamma 0.1854 0.031200000000000002
++G gamma 0.5695 0.12
++G gamma 0.29560000000000003 0.12
++G gamma 0.5555 0.045599999999999995
++G gamma 0.33130000000000004 0.12
++G gamma 0.627 0.03
+

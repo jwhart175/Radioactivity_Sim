@@ -1,0 +1,141 @@
+#192PT    192AU EC DECAY                2008MC04,1972FI12,1966NY0112NDS    201209
+#  192AU EC DECAY                2008MC04,1972FI12,1966NY0112NDS    201209
+#H TYP=FUL$AUT=Coral M. Baglin$CIT=NDS 113, 1871 (2012)$CUT=15-Jun-2012$  
+#  Others: 1949WI08, 1953EW01, 1954GI04, 1957BR53, 1957HU89, 1962MA18,    
+#  1970ER09, 1970PL09, 1975VIZK, 1979KA28.                                
+#  2008MC04: 192AU from the reaction 186W(11B,5N) at E=60 MEV; ^YRAST ball
+#  ARRAY (9 COMPTON-SUPPRESSED SEGMENTED HPGe DETECTORS);                 
+#  RECORDED G SPECTRA using (beam on)-(beam off) cycles of 4 h;           
+#  measured EG (40-2800 KEV), IG, GG-coin; ^IBA-1 calculations            
+#  including configuration mixing.                                        
+#  1972FI12: sources from 192HG decay, chemistry; measured EG, IG         
+#  (GELI), ECE, ICE (SILI, unenumerated), CEG coin, GG coin.              
+#  1970PL09: sources from 192HG decay, chemistry; measured EG, IG         
+#  (GELI, FWHM=2.3 KEV at 661 KEV).                                       
+#  1966NY01: sources from PT(P,XN), E(P)=60 MEV; measured ECE, ICE        
+#  (mag spect, resolution=0.10-0.15%), EB+, IB+ (double-focusing          
+#  mag spect); supersedes 1965NY01. See 1966NY01 for additional CE peaks  
+#  which probably belong to 192PT, but for which a definite nuclidic      
+#  assignment was not possible.                                           
+#  The decay scheme is based on that proposed by 2008MC04; additional data
+#  from 1966NY01, 1970PL09 and 1972FI12 are included. More than 95% of the
+#  G-ray intensity has been placed.                                       
+#E           EC+B+ feedings to excited states are from intensity imbalance
+#E at each level; GS feeding was determined from absolute intensity of    
+#E 316.5G (see comment with IG normalization).                            
+#G CC$ FROM BrIcc v2.2b (20-Jan-2009) 2008Ki07, "Frozen Orbitals" appr.   
+#G E         FROM 2008MC04, EXCEPT AS NOTED; DATA FROM 1966NY01,          
+#G 1970PL09 and 1972FI12 ARE TYPICALLY IN GOOD AGREEMENT BUT LESS PRECISE.
+#G RI        From 2008MC04, except where noted; values are                
+#G relative to RI=100 1 for 316.5G.                                       
+#G M,MR      From EKC, except where noted.                                
+#G           EKC: from IG listed here and ICE in 1966NY01. The IG and ICE 
+#G scales were normalized assuming KC(316.5G)=0.0535 8 (E2 theory),       
+#G KC(468.1G)=0.0212 3 (E2 theory) and KC(612.5G)=0.01179 17              
+#G (E2 theory). This leads to normalization factors of 0.0482 22,         
+#G 0.044 4 and 0.040 3, respectively; the value used was 0.042 6,         
+#G the weighted average with its uncertainty expanded to include the      
+#G highest precision datum.                                               
+#G RI(GHIK)  From 1970PL09.                                               
+#G E(FN)     From 1966NY01 (seen in CE spectrum only).                    
+#G E(HO)     Uncertainty GT 1 KEV because of resolution problems.         
+#G E(KLM),M(KLMP),MR(MP)$From Adopted Gammas.                             
+#G E(I)      From 1966NY01.                                               
+#G E(B),RI(BO)$From 1970PL09; peak is very broad.                         
+#G M(N)      From intense CE line (assumed to be K line) and              
+#G absence of corresponding photon peak.                                  
+#G E(S)      G is not observed by 2008Mc04; only an intensity limit       
+#G is given and G is not included in Adopted Levels, Gammas.              
+#L           THE following levels for 192PT proposed earlier              
+#L were not confirmed by 2008Mc04: 1133, 1182, 1189, 1278, 1308, 1353,    
+#L 1514, 1823, 1883, 2200, 2464, 2757, 2909, 3146, 3360.                  
+#L E         From least-squares fit to EG.                                
+#L J,T       Adopted values.                                              
+#L E(Q),J(Q) Data from 192AU and 192IR decays uniquely determine          
+#L JPI to be 3-. However, the following suggest a 2+ level also           
+#L at about the same energy: EKC=0.0031 8 for 1378G is more               
+#L consistent with E2 than E3, and LOGFT=8.2 for the EC                   
+#L branch to 1378 level is far too low for a second-forbidden             
+#L transition (LOGFT GT 11 expected); in addition, systematics, which     
+#L show energies for third 2+ levels smoothly increasing in               
+#L 190PT, 194PT, and 196PT, predict a third 2+ level in 192PT             
+#L at 1360 40 KEV.                                                        
+#P 0.0          1-               4.94 H    9              3516      16    
+AU192 PT192 beta+ 3.516 17784.0 1.00
++B beta+ 0.29224 0.07
++B beta+ 1.1259000000000001 0.02
++B beta+ 0.9847 0.0069
++B beta+ 0.8533 0.0073
++B beta+ 0.7774 0.0075
++B beta+ 0.7202999999999999 0.0079
++B beta+ 0.5968 0.0078000000000000005
++B beta+ 0.5942000000000001 0.0078000000000000005
++B beta+ 0.5166000000000001 0.0079
++B beta+ 0.5141 0.0079
++B beta+ 0.5042 0.0079
++B beta+ 0.4898 0.0079
++B beta+ 0.44260000000000005 0.008
++B beta+ 0.42969999999999997 0.008
++B beta+ 0.4065 0.008
++B beta+ 0.3901 0.008
++B beta+ 0.358 0.008
++B beta+ 0.3464 0.008
++B beta+ 0.3343 0.008
++B beta+ 0.296 0.008
++B beta+ 0.2896 0.008
++B beta+ 0.2532 0.008
++B beta+ 8.064E-4 0.00146
++B beta+ 8.063E-4 0.00146
++B beta+ 8.062000000000001E-4 0.00146
++B beta+ 8.058E-4 0.00146
++B beta+ 8.057E-4 0.00146
++B beta+ 8.056E-4 0.00147
++B beta+ 8.055E-4 0.00147
++B beta+ 8.054E-4 0.00147
++B beta+ 8.053E-4 0.00147
++B beta+ 8.051E-4 0.00147
++B beta+ 8.047999999999999E-4 0.00147
++B beta+ 8.045E-4 0.00147
++B beta+ 8.045E-4 0.00147
++B beta+ 8.042E-4 0.00148
++B beta+ 8.037E-4 0.00148
++B beta+ 8.033000000000001E-4 0.00148
++B beta+ 8.03E-4 0.00149
++B beta+ 8.024E-4 0.00149
++B beta+ 8.018999999999999E-4 0.00149
++B beta+ 8.018E-4 0.00149
++B beta+ 8.015E-4 0.0015
++B beta+ 7.763E-4 0.00168
++B beta+ 8.008999999999999E-4 0.0015
++B beta+ 8.005E-4 0.0015
++B beta+ 8.002E-4 0.00151
++B beta+ 8.002E-4 0.00151
++B beta+ 7.997E-4 0.00151
++B beta+ 7.991000000000001E-4 0.00151
++B beta+ 7.987E-4 0.0015199999999999999
++B beta+ 7.984E-4 0.0015199999999999999
++B beta+ 7.983E-4 0.0015199999999999999
++B beta+ 7.976999999999999E-4 0.0015199999999999999
++B beta+ 7.972E-4 0.00153
++B beta+ 7.972E-4 0.00153
++B beta+ 7.969E-4 0.00153
++B beta+ 7.964E-4 0.00153
++B beta+ 7.962000000000001E-4 0.00153
++B beta+ 7.959000000000001E-4 0.00154
++B beta+ 7.955E-4 0.00154
++B beta+ 7.929E-4 0.00156
++B beta+ 7.909000000000001E-4 0.00157
++B beta+ 7.9E-4 0.00158
++B beta+ 7.880000000000001E-4 0.00159
++B beta+ 7.880000000000001E-4 0.0015
++B beta+ 7.867E-4 0.0016
++B beta+ 7.867E-4 0.0016
++B beta+ 7.844999999999999E-4 0.0016
++B beta+ 7.803E-4 0.0016
++B beta+ 7.8E-4 0.0016
++B beta+ 7.793E-4 0.0016
++B beta+ 7.722E-4 0.0017000000000000001
++B beta+ 7.717000000000001E-4 0.0017000000000000001
++B beta+ 7.56E-4 0.00183
++B beta+ 7.5E-4 0.00188
+

@@ -1,0 +1,129 @@
+#131TE    131SB B- DECAY                1975HN01,1971BL04         06NDS    200612
+#  131SB B- DECAY                1975HN01,1971BL04         06NDS    200612
+#H TYP=FUL$AUT=YU. KHAZOV, I. MITROPOLSKY, A. RODIONOV$                   
+#H CIT=NDS 107, 2715 (2006)$CUT=17-Jul-2006$                              
+#  1971Bl04: {+131}Sb(|b{+-}) T{-1/2}=23 min [from {+235}U(n,F)];         
+#  measured |g's in 100-3700 keV energy range, |g|g-coin; Ge(Li)          
+#  1975Hn01,1974GnZZ: {+131}Sb(|b{+-}) T{-1/2}=23 min [from {+235}U(n,F)];
+#   measured |g's in 20-4000 keV energy range, |g|g-coin. Ge(Li)          
+#  The decay scheme was based on {+131}Sb(|b{+-}) data of 1971Bl04 and    
+#  1975Hn01, and (d,p) data of 2003To08                                   
+#B $1973Jo02 deduced |b-strength function from total-absorption |g-spectra
+#B E(A)$From 1977Lu06 (|b|g coin; Si, Ge(Li)). E|b(to 1876) is the        
+#B weighted average of 1.30 MeV {I10} and 1.32 MeV {I12}                  
+#B IB$From net |g feeding of each level                                   
+#G E$Weighted average from 1975Hn01 and 1971Bl04 when available,          
+#G except as noted. 1971Bl04 did not measure transitions below 276 keV    
+#G TI$From total feeding to 182 level of 6.5% {I9} and %IT=25.9 {I5}      
+#G RI$From 1975Hn01, except as noted                                      
+#G E(A),M(B) From the adopted gammas                                      
+#G RI(D)     From I(|g+ce), |a, and I|g normalization                     
+#G E(E),RI(F)$Exhibits complex T{-1/2} (1975Hn01)                         
+#G E(I)      Not reported by 1971Bl04                                     
+#G E,RI(M)$From 1971Bl04. Not reported by 1975Hn01                        
+#G E(O)$Placed as deexciting 2399 by 1975Hn01 and deexciting 2662 by      
+#G 1971Bl04                                                               
+#G E(Q)      Placed as deexciting 2226 and 2335 by 1975Hn01               
+#L $The levels at 1036, 1467 and 1853 suggested in 1971Bl04 are not       
+#L adopted as they are missing in reaction data and are not obtained in   
+#L coincidences. 1975Hn01 suggested level at 2759 based on comparison to  
+#L available reaction data; however, L(d,p)=1 for 2752 seems inconsistent 
+#L with the deduced feedings of this level, and the level is not included 
+#L too. The level at 2017 is adopted as it suggested in 1975Hn01 and      
+#L 2003To08                                                               
+#L E$From least-squares fit to E|g's                                      
+#L J$From (d,p) data 2003To08. See 1971Bl04 and 1975Hn01 for other        
+#L suggested spin and parity assignments based on log| {Ift}'s, |g        
+#L excitation and deexcitation, and systematics                           
+#P 0.0         (7/2+)            23.03 M   4              3221      21    
++G gamma 0.43381000000000003 0.039093
++G gamma 0.6578999999999999 0.073005
++G gamma 0.8546 0.03297
++G gamma 0.9915 0.014129999999999998
++G gamma 1.2490999999999999 0.005181
++G gamma 1.36029 0.00942
++G gamma 1.51718 0.012246
++G gamma 1.5442 0.008948999999999999
++G gamma 1.5735 0.010362
++G gamma 1.9157 0.009891
++G gamma 1.9658 0.012717000000000001
++G gamma 1.9846 0.004239
++G gamma 2.031 0.002355
++G gamma 2.115 0.001884
++G gamma 2.1496 0.005651999999999999
++G gamma 2.1673 0.0032969999999999996
++G gamma 2.3545 0.0032969999999999996
++G gamma 0.18225 6.4527E-4
++B beta-1.2479 0.07
++G gamma 0.29569999999999996 0.032499
++B beta-1.2069 0.05
++G gamma 0.6423 0.23549999999999996
++G gamma 0.1346 0.025434000000000002
++B beta-1.0455999999999999 0.07
++G gamma 0.3013 0.024021
++G gamma 0.94341 0.4709999999999999
++B beta- 0.8581 0.019
++G gamma 0.27426 0.024492
++G gamma 1.0504 0.006593999999999999
++B beta- 0.7872 0.028999999999999998
++G gamma 0.911 0.007064999999999999
++G gamma 1.2074 0.040977
++B beta- 0.76 0.053
++G gamma 0.32380000000000003 0.012246
++G gamma 0.6256499999999999 0.024492
++G gamma 1.2675699999999999 0.029672999999999998
++B beta- 0.701 0.013999999999999999
++G gamma 1.3989 0.013659
++B beta- 0.6691 0.016
++G gamma 1.4703 0.015542999999999998
++B beta- 0.611 0.027000000000000003
++G gamma 0.8249099999999999 0.026375999999999997
++B beta- 0.581 0.042
++G gamma 0.7263 0.040977
++B beta- 0.5581 0.025
++G gamma 1.7218 0.024492
++B beta- 0.49110000000000004 0.29
++G gamma 0.669 0.019311
++G gamma 0.9330900000000001 0.26376
++G gamma 1.23376 0.023079000000000002
++B beta- 0.43160000000000004 0.006999999999999999
++G gamma 2.0165 0.006593999999999999
++B beta- 0.4102 0.086
++G gamma 1.1236300000000001 0.089019
++B beta- 0.36310000000000003 0.027999999999999997
++G gamma 0.4567 0.014129999999999998
++G gamma 1.538 0.00471
++G gamma 2.1792 0.022607999999999996
++B beta- 0.3442 0.011000000000000001
++G gamma 0.15990000000000001 0.00471
++G gamma 0.95859 0.006123
++G gamma 1.2847 0.005181
++B beta- 0.2999 0.019
++G gamma 0.866 0.00471
++G gamma 1.2847 0.005181
++G gamma 1.392 0.008007
++G gamma 1.559 0.004239
++G gamma 2.33503 0.01884
++B beta- 0.2749 0.027999999999999997
++G gamma 1.1919000000000002 0.010362
++G gamma 1.4550999999999998 0.00471
++G gamma 1.7561 0.011303999999999998
++G gamma 2.3986 0.011303999999999998
++B beta- 0.2368 0.028999999999999998
++G gamma 0.61978 0.016014
++G gamma 1.5535 0.005651999999999999
++G gamma 1.85431 0.04239
++G gamma 2.4963 0.006593999999999999
++B beta- 0.21559999999999999 0.025
++G gamma 1.6088 0.014129999999999998
++G gamma 2.2554000000000003 0.007064999999999999
++G gamma 2.5513000000000003 0.003768
++B beta- 0.198 0.028999999999999998
++G gamma 1.3317999999999999 0.008478
++G gamma 1.8212000000000002 0.012246
++G gamma 1.9564000000000001 0.008007
++B beta- 0.1747 0.023
++G gamma 0.3262 0.012246
++G gamma 1.1919000000000002 0.010362
++G gamma 2.6623 0.010832999999999999
+

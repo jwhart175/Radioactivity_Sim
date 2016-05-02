@@ -1,0 +1,29 @@
+# 77RB    77SR EC DECAY (9.0 S)         1983LI11                  12NDS    201206
+#  77SR EC DECAY (9.0 S)         1983LI11                  12NDS    201206
+#H TYP=FUL$AUT=BALRAJ SINGH, NINEL NICA$CIT=NDS 113, 1115 (2012)$         
+#H CUT=30-Mar-2012$                                                       
+#  1983LI11: the isotope produced by 40CA(40CA,2PN) at                    
+#  E(40CA)=110-130 MEV. MEASURED EG, IG, GG                               
+#  Others: 1986Ho22, 1976Ha29, 1974No08, 1976FaZW, 1976AlYV, 1976ScZK     
+#  Analysis of BETA-strength functions: 1984Ha58                          
+#  Total decay energy of 6993 keV {I223} deduced (by RADLIST code) from   
+#  proposed decay scheme is in agreement with the expected value of       
+#  7027 keV {I8}, indicating that decay scheme is fairly complete inspite 
+#  of large Q value of 7 MeV and highest level of 1541 keV                
+#  populated in this decay.                                               
+#E TI$ From |g-ray intensity balance, assuming EC+B+ feeding              
+#E to GS LT 6% AS                                                         
+#E expected for a possible first-forbidden non-unique transition          
+#G M,MR$From Adopted Gammas                                               
+#L E$From least-squares fit to EG data                                    
+#L J,T$From Adopted Levels.                                               
+#P    0.0        5/2(+)          9.0 S     2              7027      8     
+SR77 RB77 beta+ 7.027 9.0 1
++B beta+ 0.5524 0.0038
++B beta+ 2.8023000000000002 0.09
++B beta+ 2.7317 0.09
++B beta+ 2.7306999999999997 0.09
++B beta+ 2.6527 0.09
++B beta+ 2.4189000000000003 0.02
++B beta+ 2.1955999999999998 0.02
+

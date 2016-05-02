@@ -1,0 +1,20 @@
+# 34S     34P B- DECAY (12.43 S)        1973GO33                  12NDS    201206
+#  34P B- DECAY (12.43 S)        1973GO33                  12NDS    201206
+#H TYP=FUL$AUT=NINEL NICA, BALRAJ SINGH$CIT=NDS 113, 1563 (2012)$         
+#H CUT=28-May-2012$                                                       
+#  1973GO33: 34P PRODUCED BY THE REACTION 18O(18O,NP) E=42 MEV. USED      
+#  GELI DETECTOR AND MEASURED BG-coin, EG, IG, T1/2, IB                   
+#  1971WA04: 34P PRODUCED BY THE REACTION 34S(N,P) E=14.8 MEV. USED GELI  
+#  AND NAI(TL) DETECTORS FOR G RAYS AND PLASTIC DETECTOR FOR B RAYS.      
+#  MEASURED T1/2, EG, IG, EB, IB                                          
+#  OTHER: 1946BL01                                                        
+#  Energy balance: total decay energy of 5386 keV {I102} deduced          
+#  (using RADLIST code) from proposed decay scheme is in agreement with   
+#  the expected value of 5383 keV {I1}, indicating that decay scheme is   
+#  complete                                                               
+#G E,M,MR$From Adopted Gammas                                             
+#G RI$From 1973Go33.                                                      
+#L E,J$From Adopted Levels                                                
+#P 0.0         1+                 12.43 S  10             5382.96   81    
+P34 S34 beta- 5.38296 0.0 1.0
+

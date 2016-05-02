@@ -1,0 +1,38 @@
+# 71ZN    71CU B- DECAY (19.4 S)        1983RU06                  11NDS    201012
+#  71CU B- DECAY (19.4 S)        1983RU06                  11NDS    201012
+#H TYP=FUL$AUT=KHALIFEH ABUSALEEM, BALRAJ SINGH$CIT=NDS 112, 133 (2011)$  
+#H CUT=30-Nov-2010$                                                       
+#  1983Ru06: {+71}Cu produced by W({+72}Ge,X) at E=9 MeV/nucleon from     
+#  UNILAC at GSI facility. The reaction products were stopped in a        
+#  30 mg/cm{+2} graphite catcher in FEBIAD-E ion source of the on-line    
+#  mass separator. Measured E|g, I|g, |g|g, |g|b, |b, isotopic half-life  
+#  using two Ge(Li) detectors at |q=180|' and a plastic scintillator      
+#  1999Pr10: {+71}Cu from fragmentation of {+76}Ge beam with              
+#  Be target at NSCL facility. Measured E|g, |g|g, isotopic half-life.    
+#  A 1298|g was seen in coin with 490|g and seven |g rays were shown      
+#  in a spectrum between 1150 and 1660 keV. The authors stated that       
+#  there were discrepancies between their data and those from 1983Ru06,   
+#  but details of this study are not yet available.                       
+#  The decay scheme given here from 1983Ru06 is considered incomplete     
+#  in view of a gap of about 2.2 MeV between Q value and the highest level
+#  at 2377 keV, where additional levels and |g rays could be present.     
+#  Moreover, some |g-ray spectra shown by 1999Pr10 show additional        
+#  transitions assigned to this decay, albeit, unplaced at present.       
+#B IB,LOGFT$ As explained above in the header comments of the dataset,    
+#B the decay scheme is incomplete, thus all |b feedings are considered as 
+#B upper limits and associated log {Ift} values as lower limits.          
+#B $The |g-ray intensity balance at 674.7 level gives negative |b feeding 
+#B of -5.5% {I25}                                                         
+#G $ All |g's were observed in coincidence with |b's                      
+#G E(D),RI(D)$ Unresolved doublet, the second component belongs to        
+#G {+71}Zn decay. 1983Ru06 probably divided the intensity amongst the two 
+#G components                                                             
+#L E$ From a least-squares fit to E|g data                                
+#L J,T$ From Adopted Levels                                               
+#P 0.0          3/2(-)           19.4 S    16             4617.8    31    
++B beta- 1.9233 0.18
++B beta- 1.8249000000000002 0.55
++B beta- 1.1997 0.076
++B beta- 1.1687 0.15
++B beta- 0.9228999999999999 0.11
+

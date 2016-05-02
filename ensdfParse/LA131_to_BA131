@@ -1,0 +1,172 @@
+#131BA    131LA EC DECAY                1979EN06                  06NDS    200612
+#  131LA EC DECAY                1979EN06                  06NDS    200612
+#H TYP=FUL$AUT=YU. KHAZOV, I. MITROPOLSKY, A. RODIONOV$                   
+#H CIT=NDS 107, 2715 (2006)$CUT=17-Jul-2006$                              
+#  1979En06: {+131}La |e decay (59 min) [from (p,X) reaction with various 
+#  targets, E=660 MeV]; measured |g, |g|g coin, ce, deduced levels, J|p.  
+#  Mass-separator, synchrocyclotron, Ge(Li), Si(Li) detectors             
+#  1972Ha41: {+131}La |e decay [from {+133}Cs(|a,6n) reaction, E=80 MeV]; 
+#  measured Ece, Ice, deduced levels, |g-multipolarities, J|p. Chemical   
+#  separation, permanent-magnet, semi-focusing spectrograph with 0.5 keV  
+#  FWHM at 150 keV                                                        
+#  1960Cr01: {+131}La |e decay [from {+130}Ba(d,n) reaction, E=11.5 MeV]; 
+#  measured |b{++}, ce, |g, |g|g coin, T{-1/2}, deduced levels, |b{++}    
+#  branching (3 branches, only). Chemical separation, magnetic lens,      
+#  scintillation spectrometers                                            
+#  Others: 1983AbZX, 1980VyZZ, 1991Bo34                                   
+#E TI$Level populations (%) by |e+|b{++} decay were computed (by          
+#E evaluators) using the total intensities of |g's                        
+#G $|a(K)exp of 1979En06 is normalized to |a(K)(108|g)=0.681 (by          
+#G evaluators)                                                            
+#G E,RI      From 1980VyZZ, 1979En06                                      
+#G M,MR      From ce data of 1972Ha41, 1979En06, and 1983AbZX             
+#G E(A)      From 1983AbZX, I|g not given                                 
+#G RI(B)     I|g(177|g)/I|g(285|g)=0.0122 {I12},                          
+#G I|g(209|g)/I|g(316|g)=0.288 {I15}, and I|g(526|g)/I|g(418|g)=0.486     
+#G {I15} are discrepant with 0.39 {I6}, 0.62, and 0.0066 {I10} from       
+#G ({+13}C,4n|g), ({+12}C,3n|g)                                           
+#L           The decay scheme is that of 1979En06 and based on            
+#L coincidence data and energy sums                                       
+#L E$From least-squares fit to E|g                                        
+#P 0.0          3/2+             59 M      2               2915     28    
++G gamma 0.098197 3.65E-4
++G gamma 0.10722 0.00425
++G gamma 0.35431999999999997 0.0015249999999999999
++G gamma 0.41620999999999997 0.0055000000000000005
++G gamma 0.44892000000000004 0.00106
++G gamma 0.64703 4.575E-4
++G gamma 0.66108 0.00188
++G gamma 0.69462 2.9E-4
++G gamma 0.76893 6.075E-4
++G gamma 0.94413 2.075E-4
++G gamma 1.10593 2.5749999999999997E-4
++G gamma 1.1293 1.625E-4
++G gamma 1.22774 2.375E-4
++G gamma 1.35148 4.3749999999999995E-4
++G gamma 1.35599 2.9749999999999997E-4
++G gamma 1.3896400000000002 6.25E-4
++G gamma 1.45505 2.1999999999999998E-4
++G gamma 1.5001099999999998 0.00125
++G gamma 1.56041 2.525E-4
++G gamma 1.56422 2.425E-4
++G gamma 1.57019 1.975E-4
++G gamma 1.58224 3.95E-4
++G gamma 1.5910499999999999 2.15E-4
++G gamma 1.6645999999999999 1.8999999999999998E-4
++G gamma 1.7176 3.75E-4
++G gamma 1.7543900000000001 3.85E-4
++G gamma 1.77121 1.55E-4
++G gamma 1.79324 4.3249999999999994E-4
++G gamma 1.8497999999999999 2.625E-4
++G gamma 1.94722 4.175E-4
++G gamma 2.1641999999999997 3.5000000000000005E-4
++G gamma 2.1723000000000003 3.5000000000000005E-4
++G gamma 2.2069 2.425E-4
++G gamma 2.21551 2.4E-4
++G gamma 2.2386 1.575E-4
++G gamma 2.2639 7.75E-5
++B beta+ 7.3E-4 0.0027
++B beta+ 0.851 0.00522
++G gamma 0.108081 0.25
++B beta+ 0.802 0.00559
++G gamma 0.177186 0.0015249999999999999
++G gamma 0.285246 0.124
++B beta+ 0.722 0.00619
++G gamma 0.208509 0.03025
++G gamma 0.316575 0.008725
++B beta+ 0.708 0.0063
++G gamma 0.079918 0.008025
++G gamma 0.257087 0.034275
++G gamma 0.365162 0.16925
++B beta+ 0.686 0.0064600000000000005
++G gamma 0.16068700000000002 0.018025
++G gamma 0.209269 0.0032
++G gamma 0.240593 0.01375
++G gamma 0.417783 0.1795
++G gamma 0.525851 0.08725
++B beta+ 0.615 0.00697
++G gamma 0.43483 7.5E-4
++B beta+ 0.607 0.007019999999999999
++G gamma 0.24509999999999998 0.003125
++G gamma 0.2764 3.0E-4
++G gamma 0.453659 0.05875
++G gamma 0.561785 0.011000000000000001
++B beta+ 0.599 0.00707
++G gamma 0.17604 2.75E-4
++G gamma 0.192929 0.001225
++G gamma 0.7185 1.5E-4
++B beta+ 0.529 0.0075
++G gamma 0.15782 6.850000000000001E-4
++G gamma 0.4029 0.00875
++G gamma 0.43433 0.0065249999999999996
++G gamma 0.611407 0.007775
++G gamma 0.71953 0.001725
++B beta+ 0.529 0.00751
++G gamma 0.15990000000000001 7.75E-4
++G gamma 0.353479 0.009399999999999999
++G gamma 0.59408 0.014375
++G gamma 0.77119 4.5E-4
++G gamma 0.8792000000000001 0.0017599999999999998
++B beta+ 0.458 0.00787
++G gamma 0.5848099999999999 6.575E-4
++G gamma 0.6646299999999999 0.0014874999999999999
++G gamma 0.84186 0.0023499999999999997
++B beta+ 0.427 0.008
++G gamma 0.4133 0.0023499999999999997
++G gamma 0.65763 0.002555
++G gamma 0.8661380000000001 0.010475000000000002
++G gamma 0.974204 0.0064
++B beta+ 0.417 0.00804
++G gamma 0.628402 0.0016375
++G gamma 0.83786 4.3E-4
++G gamma 1.15423 3.2E-4
++B beta+ 0.338 0.00828
++G gamma 0.9274 3.2250000000000003E-4
++G gamma 0.95889 2.525E-4
++G gamma 1.1358499999999998 8.0E-4
++G gamma 1.24372 2.075E-4
++B beta+ 0.298 0.008357
++G gamma 0.3175 0.0027500000000000003
++G gamma 0.72919 8.0E-5
++G gamma 1.29154 0.0010199999999999999
++B beta+ 0.278 0.00839
++G gamma 1.158 1.3E-4
++G gamma 1.36747 6.5E-4
++G gamma 1.47598 4.5E-4
++B beta+ 0.197 0.008461
++G gamma 0.93303 4.3749999999999995E-4
++G gamma 0.96972 3.2250000000000003E-4
++G gamma 1.17803 0.0029249999999999996
++G gamma 1.2094500000000001 2.775E-4
++G gamma 1.38605 5.25E-4
++G gamma 1.49465 6.675E-4
++B beta+ 0.189 0.008465
++G gamma 1.4207 2.0E-4
++G gamma 1.6965599999999998 3.5249999999999995E-4
++G gamma 1.87365 3.5499999999999996E-4
++B beta+ 8.454000000000001E-4 0.0012
++G gamma 1.6996 8.749999999999999E-4
++G gamma 1.7794 1.5E-4
++G gamma 1.95716 4.575E-4
++G gamma 2.06494 8.750000000000001E-5
++B beta+ 8.444E-4 0.00121
++G gamma 1.21285 2.25E-4
++G gamma 1.4436600000000002 5.025E-4
++G gamma 1.60153 7.75E-5
++G gamma 2.05524 1.7250000000000002E-4
++B beta+ 8.43E-4 0.00122
++G gamma 0.70038 2.7E-4
++G gamma 1.3157999999999999 8.25E-5
++G gamma 2.08744 3.75E-4
++G gamma 2.19558 1.625E-4
++B beta+ 8.425E-4 0.00122
++G gamma 1.29681 2.45E-4
++G gamma 1.9064 2.3E-4
++G gamma 1.95448 3.7E-4
++G gamma 2.27123 1.65E-4
++B beta+ 8.41E-4 0.00124
++G gamma 1.82341 0.0014249999999999998
++G gamma 1.8590799999999998 1.7999999999999998E-4
++G gamma 2.0676 3.75E-5
++G gamma 2.1003000000000003 2.0E-4
+

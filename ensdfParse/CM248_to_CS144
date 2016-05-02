@@ -1,0 +1,30 @@
+#144CS    248CM SF DECAY                2009RZ02                  ENSDF    201005
+#  248CM SF DECAY                2009RZ02                  ENSDF    201005
+#H TYP=FUL$AUT=BALRAJ SINGH$CIT=ENSDF$CUT=30-APR-2010$                    
+#  Includes {+235}U(n,F) and {+242}Am(n,F)                                
+#  Measured E|g, I|g, |g|g, |g|g(|q), ce, ce(|g) coin, ce(fragment) coin, 
+#  |g(fragment) coin, half-lives by delayed timing method using EUROGAM2  
+#  and Gammasphere arrays for prompt |g rays from {+248}Cm SF decay.      
+#  Delayed |g rays following induced fission of {+235}U and {+242}Am were 
+#  measured using the Lohengrin mass spectrometer at the ILL reactor in   
+#  Grenoble. Comparisons with quasiparticle rotor model and deformed model
+#  calculations                                                           
+#  The 42.8 and 92.2 levels and associated |g rays are from delayed       
+#  |g-ray study in {+235}U(n,F). The prompt 108-115-263-404-474-535-565 |g
+#  cascade is from {+248}Cm SF decay                                      
+#  Level scheme is established through double gating of |g rays in the    
+#  cascade                                                                
+#G E(B)$ From delayed |g-ray study in {+235}U(n,F)                        
+#G E(D)$ From prompt |g study in {+248}Cm SF decay. Identification of     
+#G |g rays in {+144}Cs is based on coincidence with known |g rays from    
+#G complementary fission fragments of {+101}Nb and {+103}Nb               
+#G M(X)$ |DJ=1, D+Q transition from (114.6|g)(107.9|g)(|q);               
+#G intensity balance supports M1+E2                                       
+#G M(Y)$ |DJ=2, Q transition from (404.7|g)(263.3|g)(|q)                  
+#L E$From E|g's, assuming |D(E|g)=0.3 keV (evaluator)                     
+#L E(B)$ Possible member of |p3/2[422]~#|n5/2[523] multiplet.             
+#L Level observed in {+235}U(n,F)                                         
+#L E(D)$ Level observed in prompt |g study of {+248}Cm SF decay           
+#L BAND(A)$ Band based on (6-) (?)                                        
+#P  0           0+               3.48E5 Y  6                              
+

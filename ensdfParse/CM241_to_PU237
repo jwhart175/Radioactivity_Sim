@@ -1,0 +1,30 @@
+#237PU CA IA        ALPHA intensity per 100 A DECAYS (1975Ah05).                 
+#A IA        ALPHA intensity per 100 A DECAYS (1975Ah05).                 
+#A Measurements of 1967Ba42 are noted for comparison.                     
+#A HF        R0(237PU)=1.498 2, average of R0(236PU)=1.4949 18 and        
+#A R0(238PU)=1.5013 10 (1998AK04).                                        
+#A E(R)      Recommended in 1991Ry01 from EA's in 1967Ba42,               
+#A 1971Bb10 and 1975Ah05. The original energies of 1967Ba42, 1971Bb10 and 
+#A 1975Ah05 have been adjusted by +0.6, +0.4 and -0.3 KEV, respectively,  
+#A due to changes in calibration energies (1991Ry01).                     
+#L E         Deduced by evaluator from QA=6185.2 6 (241CM), EA, and       
+#L feeding level energy, except otherwise noted.                          
+#L J         From adopted levels, except otherwise noted.                 
+#L E(A)      7/2[743] band; rotational const.= 5.3 keV.                   
+#L E(B)      1/2[631] band; rotational const.= 6.224 keV; decoupling      
+#L parameter = -0.4696.                                                   
+#L E(C)      3/2[631] band; rotational const.= 6.76 keV.                  
+#P 0.0         1/2+              32.8 D    2              6185.2    6     
+CM241 PU237 alpha 6.1852 2833919.9999999995 0.010
++A alpha 6.0809 0.0015
++A alpha 6.036 0.0012
++A alpha 5.978 0.0028000000000000004
++A alpha 5.939 0.6890000000000001
++A alpha 5.9272 0.18100000000000002
++A alpha 5.914 0.0012
++A alpha 5.8847 0.11800000000000001
++A alpha 5.863 0.0014000000000000002
++A alpha 5.785 7.000000000000001E-4
++A alpha 5.719 8.0E-4
++A alpha 5.687 0.0022
+

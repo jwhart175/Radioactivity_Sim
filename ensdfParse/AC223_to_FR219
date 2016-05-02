@@ -1,0 +1,68 @@
+#219FR    223AC A DECAY                 1990LI33,1991LI19         01NDS    200110
+#  223AC A DECAY                 1990LI33,1991LI19         01NDS    200110
+#H TYP=FUL$AUT=E. BROWNE$CIT=NDS 93, 802 (2001)$CUT=1-May-2001$           
+#  Mass-separated 223AC source. Measured EG, RI, conversion electrons,    
+#  EA, IA, AG, ACE. Detectors: high-purity germanium, SI(LI),             
+#  semi (1991LI19). The 223AC decay scheme presented here is based on     
+#  these measurements, and on the ALPHA-particle data of 1969LEZW,        
+#  1963SU10, and 1968BA73. The feeding abundances, deduced from G-ray     
+#  transition intensity balance at each level using the experimental      
+#  absolute G-ray intensities of 1991LI19, agree reasonably well with the 
+#  measured ALPHA-particle abundances. The total FR XK intensity of 2.7   
+#  2%, deduced by the evaluator using the G-ray data presented here, also 
+#  agrees with the measured value of 2.90 5% (1991LI19). Both agreements  
+#  confirm the quality of the data and the correctness of the decay       
+#  scheme.                                                                
+#L E         Deduced by evaluator from a least-squares fit to G-ray       
+#L energies.                                                              
+#L J         From adopted levels.                                         
+#G E,RI$From 1991LI19. Detectors: high-purity germanium. Others: 1969LEZW,
+#G 1963SU10.                                                              
+#G M         From 1991LI19, deduced from conversion electron data, and    
+#G often inferred from G-ray transition intensity balances.               
+#G E(W)$Uncertain G ray                                                   
+#A E,IA      From 1969LEZW, 1968BA73 (detector: magnetic spectrometer),   
+#A unless otherwise specified.                                            
+#A HF$Using R0(219FR)=1.540, average of R0(218RN)=1.5446 19,              
+#A R0(220RN)=1.5419 6, R0(218RA)=1.539 8, and R0(220RA)=1.536 5           
+#A (1998AK04).                                                            
+#A E(A),IA(A)$From 1969LEZW, recommended by 1991RY01. 1991RY01 increased  
+#A original EA values by 0.7 KEV to correct for an energy change in the   
+#A 211BI standard.                                                        
+#L BAND(A)   KPI=1/2- PARITY DOUBLET BAND. 1/2[541]                       
+#L BAND(B)   KPI=1/2+ PARITY DOUBLET BAND. 1/2[411]                       
+#L BAND(D)   KPI=3/2- PARITY DOUBLET BAND. 3/2[532]                       
+#L BAND(E)   KPI=3/2+ PARITY DOUBLET BAND. 3/2[402]                       
+#L BAND(F)   KPI=5/2- PARITY DOUBLET BAND. 5/2[512]                       
+#L BAND(G)   KPI=5/2+ PARITY DOUBLET BAND. 5/2[402]                       
+#P 0.0               (5/2-)      2.10 M    5               6783.1   9     
++A alpha 6.6616 0.318
++A alpha 6.6467 0.446
++A alpha 6.606 0.01
++A alpha 6.5818 0.003
++A alpha 6.5637 0.13699999999999998
++A alpha 6.5283999999999995 0.031
++A alpha 6.5232 0.006
++A alpha 6.473 0.031
++A alpha 6.4547 6.0E-4
++A alpha 6.448600000000001 0.002
++A alpha 6.3968 0.0013
++A alpha 6.3605 0.0022
++A alpha 6.3418 5.0E-4
++A alpha 6.3325 0.0014000000000000002
++A alpha 6.325699999999999 0.003
++A alpha 6.292800000000001 0.004699999999999999
++A alpha 6.2936000000000005 6.0E-4
++A alpha 6.2813 5.0E-4
++A alpha 6.2358 9.0E-4
++A alpha 6.2234 6.0E-5
++A alpha 6.2059 3.0E-4
++A alpha 6.1777 0.0095
++A alpha 6.163 5.0E-4
++A alpha 6.1402 3.0E-4
++A alpha 6.1349 0.0012
++A alpha 6.0827 3.0E-4
++A alpha 6.023 1.0E-4
++A alpha 5.9668 3.0E-4
++A alpha 5.892 1.0E-4
+

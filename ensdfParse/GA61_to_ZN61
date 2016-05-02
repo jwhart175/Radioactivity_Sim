@@ -1,0 +1,65 @@
+# 61ZN    61GA EC DECAY (167 MS)        1999OI01,2002WE07         15NDS    201503
+#  61GA EC DECAY (167 MS)        1999OI01,2002WE07         15NDS    201503
+#H TYP=FUL$AUT=KAZIMIERZ ZUBER, BALRAJ SINGH$CIT=NDS 125, 1 (2015)$       
+#H CUT=25-Jan-2015$                                                       
+#  1999Oi01: {+61}Ga source produced in fusion-evaporation reaction using 
+#  a 121-MeV {+36}Ar beam from the heavy-ion accelerator UNILAC at GSI    
+#  and 1.9 mg/cm{+2} natural Si-target. Evaporation residues were stopped 
+#  in FEBIAD-B2-C ion source and mass separated by on-line mass           
+#  separator. Using two Ge detectors, cylindrical plastic                 
+#  scintillator for detection positrons and 2 mm thick plastic            
+#  scintillator in front of Ge detectors. Measured |b-gated               
+#  |g spectrum, E|g, I|g, I|b, |g(t),|b(t).                               
+#  2002We07: isotopes were produced in spallation reactions induced by a  
+#  pulsed beam of 1.4 GeV protons from the CERN PS-booster and impinging  
+#  on a zirconium oxide target (8 g/cm{+2} of Zr). Ionization of Ga atoms 
+#  was performed using the Resonance Ionization Laser Ion Source          
+#  (RILIS). Ions are accelerated by a 60 kV voltage and mass separated    
+#  using the high-resolution mass separator (HRS). Measured |b(t), |b|g   
+#  coin, half-life, deduced Q(|e) and S(p). Beta Gamow-Teller strength    
+#  calculations in large-scale shell-model using the Strasbourg code      
+#  ANTOINE and the effective interaction KB3G.                            
+#  Others:                                                                
+#  2014Ro14: measured half-life of {+61}Ga g.s.                           
+#  1993Wi18: Using the A1200 (achromatic projectile fragment              
+#  separator) radioactive beam facility at the NSCL of Michigan State     
+#  University. The radioactive isotopes was produced by fragmentation of  
+#  E=75 MeV/nucleon {+78}Kr beam by 98% enriched {+58}Ni target a thin    
+#  (3 mg/cm{+2}) aluminum backing. Using Si detector telescope and |b     
+#  segmented plastic scintillator, measured half-life.                    
+#  From RADLIST code, deduced total decay energy is 9236 keV {I98}        
+#  agrees with 9210 keV {I40} from Q(|e) value.                           
+#E $Experimental and theoretical ^Gamow-^Teller (^B(^GT)) strengths       
+#E listed here are from 2002We07                                          
+#G E,RI$ From 2002We07 unless otherwise stated                            
+#G E(B)$ From 1999Oi01. The corresponding value in 2002We07 is given      
+#G without uncertainty                                                    
+#G E(A),RI(A)$ 2002We07 quote energy from high-spin studies by 1982Sm01   
+#G and 1984Th07. This |g not observed in 2002We07, only an upper limit of 
+#G intensity is given                                                     
+#G M,MR$From Adopted Gammas                                               
+#L $Note that in 1999-NDS (1999Bh04), 88.2, 418.3, and 756.0 levels       
+#L were erroneously assigned half-lives of <430 ms, 0.14 s {I7} and       
+#L <130 ms, respectively. These half-lives in 1999Oi01 simply refer to    
+#L the half-life of the decaying {+61}Ga isotope                          
+#L E$From a least-squares fit to the E|g data                             
+#L J$From Adopted Levels                                                  
+#P 0.0         3/2-              167 MS    3              9210      40    
+GA61 ZN61 beta+ 9.21 0.167 1
++B beta+ 0.4699 0.003
++B beta+ 3.879 1.0E-5
++B beta+ 3.835 1.0E-5
++B beta+ 3.818 1.0E-5
++G gamma 0.2955 3.7999999999999997E-4
++G gamma 0.33 7.599999999999999E-4
++G gamma 0.4184 0.01368
++B beta+ 3.672 1.0E-5
++G gamma 0.3375 3.7999999999999997E-4
++G gamma 0.633 1.8999999999999998E-4
++B beta+ 3.506 1.0E-5
++G gamma 0.52 0.00171
++G gamma 0.85 0.00114
++G gamma 0.938 0.00399
++B beta+ 3.416 1.0E-5
++G gamma 1.362 9.499999999999999E-5
+

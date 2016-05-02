@@ -1,0 +1,71 @@
+#136PM    136SM EC DECAY                1989VI04                  02NDS    200206
+#  136SM EC DECAY                1989VI04                  02NDS    200206
+#H TYP=FUL$AUT=A.A. Sonzogni$CIT=NDS 95, 837 (2002)$CUT=1-Feb-2002$       
+#  1989VI04: from 92MO(46TI,xnyp) E=192 MEV. Measured G, XK, XG, GG, G+-  
+#  1988KE03: measured G, GG, XG, G(T). T1/2(136PM)=47 S 2. All the G's    
+#  seen by 1988KE04 are also seen by 1989VI04.                            
+#  1982AL07: produced by W,TA(P,X) EP=1 MEV. Mass separator. Measured     
+#  G's, XK's, G(T), X(T)                                                  
+#E $The IB values were not measured, most G rays have unknown             
+#E multipolarities and the energy of the levels are not known. As a       
+#E consequence, the LOGFT values can be very uncertain.                   
+#E TI,LOGFT,IB,IE$Calculated assuming x=0, no side-feeding, and G         
+#E multipolarities=[M1,E2] when unknown.                                  
+#L J,T$From adopted levels                                                
+#P 0.0         0+                47 S      2              4.5E+3     5    
+SM136 PM136 beta+ 4.5 47.0 1.0
++G gamma 0.09 0.00612
++G gamma 0.0911 0.00216
++G gamma 0.1002 0.0028799999999999997
++G gamma 0.1355 7.199999999999999E-4
++G gamma 0.2704 0.0064800000000000005
++G gamma 0.3505 0.00756
++G gamma 1.26 0.0072
++B beta+ 1.58 0.01
++B beta+ 1.53 0.47
++G gamma 0.1144 0.36
++B beta+ 1.52 0.013000000000000001
++G gamma 0.12340000000000001 0.0216
++G gamma 0.22119999999999998 0.0054
++B beta+ 1.45 0.033
++G gamma 0.1633 0.0054
++G gamma 0.1724 0.00828
++G gamma 0.2868 0.0432
++B beta+ 1.44 0.016
++G gamma 0.185 0.00684
++G gamma 0.2993 0.0216
++B beta+ 1.44 0.006
++G gamma 0.1832 0.00756
++G gamma 0.192 0.0064800000000000005
++G gamma 0.30660000000000004 0.0057599999999999995
++B beta+ 1.43 0.003
++G gamma 0.192 0.0032400000000000003
++G gamma 0.2007 0.00252
++B beta+ 1.38 0.005
++G gamma 0.1161 0.00396
++G gamma 0.2993 0.0072
++G gamma 0.42260000000000003 0.00864
++B beta+ 1.38 0.034
++G gamma 0.1288 0.00216
++G gamma 0.1406 0.0036
++G gamma 0.2069 0.0054
++G gamma 0.31360000000000005 0.046799999999999994
++B beta+ 1.36 0.033
++G gamma 0.17 0.00216
++G gamma 0.1861 0.00216
++G gamma 0.371 0.0064800000000000005
++G gamma 0.4853 0.0504
++B beta+ 1.32 0.013000000000000001
++G gamma 0.1349 0.00504
++G gamma 0.1414 0.00432
++G gamma 0.2763 0.0028799999999999997
++G gamma 0.4487 0.00972
++B beta+ 1.21 0.018000000000000002
++G gamma 0.38 0.0072
++G gamma 0.5156000000000001 0.0014399999999999999
++G gamma 0.8024 0.0252
++B beta+ 1.18 0.036000000000000004
++G gamma 0.377 0.009
++G gamma 0.5555 0.0064800000000000005
++G gamma 0.7477 0.05399999999999999
+

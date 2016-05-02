@@ -1,0 +1,45 @@
+#172TM    172ER B- DECAY (49.3 H)       1976MEZC,1972BA01         ENSDF    201512
+#  172ER B- DECAY (49.3 H)       1976MEZC,1972BA01         ENSDF    201512
+#H TYP=FUL$AUT=BALRAJ SINGH$CIT=ENSDF$CUT=08-DEC-2015$                    
+#H TYP=FUL$AUT=BALRAJ SINGH$CIT=NDS 75,199 (1995)$CUT=31-May-1995$        
+#  {+172}Er isotope produced by double neutron capture in enriched        
+#  {+170}Er                                                               
+#  1976MeZC (also 1974MeZS,1974LaZQ): measured |g, |g|g. See also         
+#  1978LeZA for data from 1976MeZC                                        
+#  1974LaZQ: ion exchange for source separation. Measured |g, |g|g        
+#  1972Ba01: ion exchange for source separation. Measured |g, |g|g, ce.   
+#  ce data with double-focusing spectrometers                             
+#  Others:                                                                
+#  |g: 1967Cl05, 1965Ha24, 1962Gu03, 1961He10, 1961Ba02, 1961Or01,        
+#  1961Ha42, 1960Ew07                                                     
+#  |b{+-}, |b|g: 1965Ha24, 1962Gu03, 1961Or01, 1961He10                   
+#  ce: 1965Ha24, 1961He10                                                 
+#  |g|g: 1962Gu03, 1961Or01, 1961He10, 1961Ha42                           
+#  |b|g(t): 1968Ha08                                                      
+#  |gce: 1965Ha24                                                         
+#  |g|g(|q): 1989KrZS. Details of this work are not yet available         
+#  T{-1/2}({+172}Er): 1962Gu03, 1961Or01, 1961Ha42, 1956Ne08              
+#  The decay scheme is from 1976MeZC (see also 1978LeZA)                  
+#G E,RI$From 1976MeZC (data also quoted by 1978LeZA)                      
+#G M,MR$From ce data (1972Ba01). Data normalized to ce(K)(68|g)=63.2, 68|g
+#G assigned as M1 from L-subshell ratios. The |a(exp) values are deduced  
+#G (evaluator) from Ice data (1972Ba01 or 1965Ha24) and I|g data          
+#G (1976MeZC,1978LeZA). Uncertainties on |a(exp) values are based on a    
+#G general statement in 1972Ba01 that uncertainties on Ice values         
+#G are |<20%                                                              
+#G E(A)$Assignment to {+172}Er decay is uncertain (1976MeZC)              
+#G CC$FROM BrIcc v2.3b (16-Dec-2014) 2008Ki07, "Frozen Orbitals" appr.    
+#G When no |d value given, value overlaps listed multipolarities          
+#L E$From least-squares fit to E|g values                                 
+#L J,T$From Adopted Levels                                                
+#L $Band assignments are from 1972Ba01 and 1976MeZC                       
+#L BAND(A)$|p1/2[411]~#|n5/2[512],K|p=2-                                  
+#L BAND(B)$|p1/2[411]~#|n1/2[521],K|p=1-                                  
+#L BAND(D)$|p1/2[411]~#|n1/2[521],K|p=0-                                  
+#N 0.421     15            1.0        1.0                                 
+#N NR$|S(I(|g+ce) to g.s.)=96.5 {I35}. |b{+-} feeding of g.s. is unknown  
+#N but it is assumed as <7% from expected log| {If{+1u}t}>8.5 for a 0+ to 
+#N 2- |b transition                                                       
+#N                                                                     3  
+#P      0           0+              49.3 H    5           891       5     
+

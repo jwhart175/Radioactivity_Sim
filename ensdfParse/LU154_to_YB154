@@ -1,0 +1,61 @@
+#154YB    154LU EC DECAY                1988VI02                  09NDS    200910
+#  154LU EC DECAY                1988VI02                  09NDS    200910
+#H TYP=FUL$AUT=C. W. Reich$CIT=NDS 110, 2257 (2009)$CUT=1-May-2008$       
+#  DATA SET UPDATED (FEBRUARY, 2007) BY CW REICH TO INCLUDE REVISED QP    
+#   VALUE, RECALCULATED ICC VALUES, REVISED COMMENTS                      
+#  1988Vi02: Produced by Mo({+64}Zn,x) with E=285 MeV.                    
+#       The studies were done on-line at the OASIS facility. The          
+#       products were mass-separated and the A=154 mass fraction was      
+#       transported to a counting area, collected on a tape and           
+#       transported (within 65 ms) for spectroscopic study. A |DE-E       
+#       particle telescope and a variety of Ge detectors were used to     
+#       record coincidences. In addition, |g singles, |g(t), K x-ray      
+#       and annihilation radiation were measured.                         
+#  Data are from 1988Vi02, unless otherwise noted. Others: 1984HaZD,      
+#       1981Ho10.                                                         
+#  |a emission following this |e decay has been reported from levels      
+#       between 3 and 6 MeV with I{-|a}=0.03% (1988Vi02). Similarly,      
+#       proton emission has been reported from levels between 6.5 and     
+#       9 MeV, with I{-p}=0.06% (1988Vi02).                               
+#  Since Q(|e) |? 10 MeV and only a few |g's are reported and placed,     
+#       the proposed decay scheme is clearly incomplete. Thus, it is      
+#       not possible to quote reliable intensities for the |e+|b+         
+#       transitions from these data.                                      
+#  Experimental methods:                                                  
+#  1981Ho10:  Produced by bombardment of targets with {+58}Ni or          
+#       {+107}Ag ions with energies of 4.4-5.9 MeV/mass unit. Products    
+#       separated in velocity selector and |a measured with Si detector.  
+#       {+154}Lu identified by growth and decay characteristic of         
+#       its daughter.                                                     
+#  1984HaZD:  Produced by bombardment of targets of {+96}Mo and           
+#       {+96}Ru with 250-260 MeV {+58}Ni and {+60}Ni ions. |g and X       
+#       rays measured with Ge detectors.  Q values were determined        
+#       from Kx/|b+ ratios.                                               
+#E TI        1988Vi02 show these values as upper limits only, since the   
+#E      decay scheme is only fragmentary and, as a result, much of the    
+#E      strength of the observed deexciting |g's may be from the          
+#E      feeding of their parent levels by the |g decay of higher-lying,   
+#E      but unreported, excited states.                                   
+#E TI(D)     1988Vi02 report significant |e+|b+ feeding from {+154}Lu     
+#E      to these two levels and from this conclude that J|p for the       
+#E      {+154}Lu parent is (7+). They also indicate that this |e+|b+      
+#E      feeding pattern suggests a similar structure for these two final  
+#E      states. The odd proton and odd neutron in the {+154}Lu parent     
+#E      state are in the |p h{-11/2} and |n f{-7/2} orbitals,             
+#E      respectively. The implied low log{Ift} values indicate strong     
+#E      Gamow-Teller transitions, which in this case would be             
+#E      |p h{-11/2}|)|n h{-9/2}. It is now believed, however, that        
+#E      the configurations of the two {+154}Yb final states are quite     
+#E      different (see the discussion in the {+106}Cd({+54}Fe,|a2p|g)     
+#E      data set, as well as those in the original studies (1993Zh10      
+#E      and 1996Zh09)). Only one of these states, the (8+) level, can     
+#E      be fed by a strong Gamow-Teller transition. The transition to     
+#E      the (6+) level would be |p h{-11/2}|) |n f{-7/2}. It will be      
+#E      much weaker (and, possibly, may not take place).                  
+#L J         From the systematics of the even-even N=84 nuclides in       
+#L      this mass region (1988Vi02)                                       
+#L J(B)      Configuration=((|p,h{-11/2}{+6})(|n,f{-7/2}{+2}))            
+#L J(C)      Configuration=((|p,h{-11/2}{+6})(|n,h{-9/2})(|n,f{-7/2}))    
+#L BAND(A)   yrast sequence of positive-parity levels                     
+#P    59     9  (9+)             1.12 S    8                10370   SY    
+

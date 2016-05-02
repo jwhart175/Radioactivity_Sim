@@ -1,0 +1,47 @@
+#202AT    206FR A DECAY                 1967VA20,1981RI04,1992HU0408NDS    200803
+#  206FR A DECAY                 1967VA20,1981RI04,1992HU0408NDS    200803
+#H TYP=FUL$AUT=S. ZHU and F.G. KONDEV$CIT=NDS 109, 699 (2008)$            
+#H CUT=1-May-2007$                                                        
+#  Experimental methods:                                                  
+#  1967Va20: Produced by 197AU(16O,7N) reaction.  Recoil products were    
+#       transferred by He jet and the ALPHAs measured with Si detector.   
+#  1981Ri04: Produced by IR(20NE,X) reaction and isotope separated.       
+#       ALPHA's were measured with Si detector and G's with Ge detector.  
+#  1992HU04: Produced by {+nat}IR(20NE,xN) and 181TA(32S,2P5N) reactionsr,
+#  and separated with Leuven Isotope Separator On-Line (^LISOL)           
+#  facility. The E|a=6792 keV was determined as doublet decaying from     
+#  206FR (2+,3+) state to 202AT (2+,3+) state and from 206FR (7+) state   
+#  to 202AT (7+) state based on the                                       
+#  analysis of the difference of intensity ratio for 202AT E|a{-1}=6135   
+#  keV to E|a{-2}=6228 keV with different production method. The |a{-1} is
+#  stronger than |a{-2} with direct production, almost same as |a{-2}     
+#  via 206FR |a decay, and absent via 202RN B decay.                      
+#A HF$R0(202AT)=1.505 8, unweighted average of 1.504 3 (200PO), 1.492     
+#A 7 (202PO), 1.527 8 (202RN) and 1.495 14 (204RN).                       
+#L J,T$From adopted levels.                                               
+#P 0            (2+,3+)          16 S       AP            6923      4     
+FR206 AT202 alpha 6.923 16.0 0.84
++A alpha 6.792 1.0
+
+#202AT    206FR A DECAY (16 S)          1967VA20,1981RI04,1992HU0408NDS    200803
+#  206FR A DECAY (16 S)          1967VA20,1981RI04,1992HU0408NDS    200803
+#H TYP=FUL$AUT=S. ZHU and F.G. KONDEV$CIT=NDS 109, 699 (2008)$            
+#H CUT=1-May-2007$                                                        
+#A HF$R0(202AT)=1.505 8, unweighted average of 1.504 3 (200PO), 1.492     
+#A 7 (202PO), 1.527 8 (202RN) and 1.495 14 (204RN).                       
+#L J,T$From adopted levels.                                               
+#P 0+X          (7+)             16 S      AP             6923      4     
++A alpha 6.79 1.0
+
+#202AT    206FR A DECAY (0.7 S)         1981RI04,1992HU04         08NDS    200803
+#  206FR A DECAY (0.7 S)         1981RI04,1992HU04         08NDS    200803
+#H TYP=FUL$AUT=S. ZHU and F.G. KONDEV$CIT=NDS 109, 699 (2008)$            
+#H CUT=1-May-2007$                                                        
+#A HF$R0(202AT)=1.505 8, unweighted average of 1.504 3 (200PO), 1.492     
+#A 7 (202PO), 1.527 8 (202RN) and 1.495 14 (204RN).                       
+#L E,J,T$From adopted levels.                                             
+#P 531+X        (10-)            0.7 S     1              6923      4     
+FR206 AT202 alpha 6.923 0.7 0.05
++A alpha 6.93 1.0
++G gamma 0.3917 1.0
+

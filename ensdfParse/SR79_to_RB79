@@ -1,0 +1,43 @@
+# 79RB    79SR EC DECAY (2.25 M)        1982DE36,1981LI12         02NDS    200206
+#  79SR EC DECAY (2.25 M)        1982DE36,1981LI12         02NDS    200206
+#H TYP=FUL$AUT=BALRAJ SINGH$CIT=NDS 96, 1 (2002)$CUT=15-May-2002$         
+#  1982DE36: measured G, GG, XG, BG, T1/2(79SR), XG(T),                   
+#  B(mass) coin, absolute IG, Q value                                     
+#  1981LI12: G, GG, XG, BG, T1/2(79SR), XG(T), Q value                    
+#  Levels are reported up to 652 only even though Q(EC) is                
+#  5143. It is possible that G rays of RI LT 3% are still unobserved,     
+#  thus the B+ feedings and LOGFT values are considered tentative         
+#  Others:                                                                
+#  1981FRZY: measured BG, T1/2(79SR), 39 G rays reported                  
+#  1980DE13: measured G, GG, BG, Q value                                  
+#  1973BOXS: measured G, T1/2(79SR)                                       
+#  1972LA32: measured G, T1/2(79SR)                                       
+#  1971DO01: measured G, T1/2(79SR). The 1.9 M activity with              
+#  3 G rays was assigned incorrectly to 79RB decay. The results agree     
+#  with 79SR decay                                                        
+#  1971BI10: measured G, T1/2(79SR). The activity was probably            
+#  incorrectly assigned to 79SR since T1/2=8.1 M and energies of 7 G rays 
+#  disagree with other studies                                            
+#L E$From least-squares fit to EG's                                       
+#G E$Weighted average of 1982DE36 and 1981LI12                            
+#G RI$From 1982DE36, unless otherwise stated. Values from 1981LI12 agree  
+#G well                                                                   
+#L J$See adopted levels                                                   
+#L T$From XG(T) (1982DE36,1981LI12)                                       
+#G E(A)$Reported by 1982DE36 only                                         
+#E TI,LOGFT$Due to a large gap of AP 4.7 MEV between the                  
+#E highest (known) populated level at 652 and Q(EC)=5320, the             
+#E EC+B+ feedings and associated LOGFT values are considered only         
+#E as approximate values. There may be additional levels populated above  
+#E 652, which have not been seen as yet                                   
+#P  0.0          3/2(-)           2.25 M   10              5320     11    
++B beta+ 8.757E-4 0.0010299999999999999
++B beta+ 1.974 1.7E-4
++B beta+ 1.955 1.7E-4
++B beta+ 1.904 1.8999999999999998E-4
++B beta+ 1.89 1.8999999999999998E-4
++B beta+ 1.837 2.1E-4
++B beta+ 1.802 2.1999999999999998E-4
++B beta+ 1.799 2.1999999999999998E-4
++B beta+ 1.756 2.3E-4
+

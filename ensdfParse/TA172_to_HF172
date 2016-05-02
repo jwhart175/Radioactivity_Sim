@@ -1,0 +1,63 @@
+#172HF    172TA EC DECAY (36.8 M)       1973CA10                  95NDS    199509
+#  172TA EC DECAY (36.8 M)       1973CA10                  95NDS    199509
+#H TYP=FMT$AUT=J. Tuli$DAT=19-Apr-2005$COM=fixed fmt/typo$                
+#H TYP=FUL$AUT=BALRAJ SINGH$CIT=NDS 75,199 (1995)$CUT=31-May-1995$        
+#  172TA produced by 175LU(3HE,6N) E=63 MEV. Measured T1/2, G, CE,        
+#  GG, B+G, XG(T). See also an erratum to 1973Ca10 (as a priv comm        
+#  from one of the authors of 1973Ca10) for revised GAMMA-ray energies of 
+#  427G and 749G and assignment of 409.2G and 636.26G to impurities       
+#  Earlier work:                                                          
+#  Source production: 181TA(p,^X) (1972Ch45); GD(20NE,^X) (1971Na28);     
+#  HF(p,^X) (1964Ab08)                                                    
+#  G: 1971Na28 (four GAMMA rays reported), 1969Ar22, 1964Ab08             
+#  GG(T): 1967Ab06, 1964Ab08                                              
+#  T1/2(172TA isotope): 1972Ch45, 1971Na28, 1969Ar22, 1964Ab08, 1961Bu13  
+#  The level scheme of 172HF from 172TA EC decay is not considered        
+#  as well established for the following reasons:                         
+#  1. Many GAMMA rays (about 38) are as yet unassigned in the level       
+#  scheme. Total unassigned intensity is AP 13%                           
+#  2. Additional levels are likely to be populated between the energy     
+#  gap 1791 and 2450.                                                     
+#  3. GAMMA-ray intensity balances are inconsistent with expected         
+#  feedings (from DJPI) for several levels                                
+#L E$From least-squares fit to EG's                                       
+#L J$From adopted levels.                                                 
+#E IE,LOGFT$Values are considered as approximate since a GAMMA-ray        
+#E intensity of AP 13% associated with unplaced GAMMA rays has not been   
+#E accounted for and many levels have feedings which are inconsistent     
+#E with DJPI's                                                            
+#G CC(A)$Total ECC deduced from EKC. EKC value multiplied by 1.23         
+#G to include contribution from higher shells. The ICE(K) for these       
+#G lines is expected to be contributed mainly by the E0 component         
+#G TI(B)$Relative transition intensity deduced from ICE(K). ICE(K)        
+#G multiplied by 1.23 to include contribution from higher shells          
+#G           409.2 (E0) and 636.26G reported by 1973Ca10 are omitted since
+#G according to erratum to 1973Ca10, these belong to 194TL decay. 194TL   
+#G was formed from the gold foil surrounding the target. However,         
+#G there is no 409.2 E0 transition known in 194TL decay. This line        
+#G must be some other impurity in the electron spectrum of 1973Ca10       
+#G           RI(G+-)=56 14 (1973Ca10) relative to 100 for 214G            
+#G refers, most likely, to the positron intensity, as suggested by the    
+#G GAMMA-ray spectrum given by 1973Ca10. The deduced positron intensity   
+#G from the present level scheme is consistent with this value            
+#G M$CE data are normalized to KC=0.140 for 214G; mult=E2 from            
+#G G(THETA) in (HI,XNG) and RUL (for quadrupole transitions)              
+#L BAND(A)$ (PI=+,ALPHA=0) GS BAND                                        
+#L BAND(B)$ KPI=0+ B-BAND                                                 
+#L BAND(D)$ KPI=2+ G-BAND                                                 
+#L BAND(E)$ KPI=0+ BAND                                                   
+#N 0.55      5  0.55   5  1.0       1.0                                   
+#N NR$SUMOF((TI of G's to GS)=100, with the following assumptions:        
+#N 1. No direct EC,B+ feeding is assumed for 95, 309, 628, 871, 1295,     
+#N and 1336 levels. The coincidence data (G(G+-)) (1973Ca10) are          
+#N consistent with no feeding of the first two levels, whereas,           
+#N DJPI=3 rules out feeding of the last four levels. The in-out           
+#N intensity balance does suggest feeding of the last five levels,        
+#N but the apparent feedings can be accounted for by the unplaced         
+#N GAMMA intensity of AP 24 units, which might populate these levels      
+#N 2. To account for a large in-out intensity imbalance (AP -20%),        
+#N RI(95G) is assumed as 38.7 15 instead of RI=32.3 (1973Ca10)            
+#N                                                                     3  
+#P 0.0            (3+)              36.8 M    3           4.92E3    18    
++G gamma 0.21409999999999998 0.00122
+

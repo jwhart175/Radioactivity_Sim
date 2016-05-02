@@ -1,0 +1,22 @@
+#126CD    126AG B- DECAY                1998KRZW,2000KA48         02NDS    200301
+#  126AG B- DECAY                1998KRZW,2000KA48         02NDS    200301
+#H TYP=FUL$AUT=J. KATAKURA AND K. KITAO$CIT=NDS 97, 765 (2002)$           
+#H CUT=5-Apr-2002$                                                        
+#  2000KA48,1998KAZM,1998KRZW: 238U(P,F) RESONANCE IONIZATION laser       
+#  ION SOURCE, MASS SPECTROMETER, Ge, PLASTIC scintillator, GG, BG        
+#G E           UNCERTAINTIES ARE NOT REPORTED. EVALUATORS ASSUMED 1 KEV   
+#G UNCERTAINTIES FOR ALL G RAYS.                                          
+#L           DECAY SCHEME IS THAT PROPOSED BY 1998KRZW                    
+#L J         FROM ADOPTED LEVELS                                          
+#L E         FROM A LEAST-SQUARES FIT TO E(G'S)                           
+#P  0                            107 MS    12             11314     SY    
+AG126 CD126 beta- 11.314 0.107 1.0
++G gamma 0.652 1.0
++G gamma 0.815 0.6
++G gamma 0.963 0.04
++G gamma 1.615 0.04
++G gamma 0.402 0.45
++G gamma 0.827 0.08
++G gamma 0.546 0.03
++G gamma 0.857 0.03
+

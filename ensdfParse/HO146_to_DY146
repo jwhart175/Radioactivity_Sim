@@ -1,0 +1,33 @@
+#146DY    146HO EC DECAY (3.9 S)        1982GU07,1992DE23         97NDS    199712
+#  146HO EC DECAY (3.9 S)        1982GU07,1992DE23         97NDS    199712
+#H TYP=ERR$AUT=T. BURROWS$COM=ADDED AV ENERGIES$DAT=16-FEB-2000$          
+#H TYP=ERR$AUT=J. TULI$COM=CHANGED P-CARD JPI TO ADOPTED$                 
+#H TYP=FUL$AUT=L. K. PEKER AND J. K. TULI$CIT=NDS 82, 187 (1997)$         
+#H CUT=30-SEP-1997$                                                       
+#  Measured: G, GG, G(T)                                                  
+#L J         Adopted values                                               
+#  Level scheme is as given by 1982Gu07 with addition of levels at        
+#  2636, 2987, and 3161 by 1992De23                                       
+#  If EC feeding is calculated assuming no EC decay to GS 0+,             
+#  SUMOF IG(GS)=100 gives EC-branches as 21% 6 to 2936, 10+ and 28% 6     
+#  to 2809, 7- levels. There is large uncertainty in other IG values      
+#  which lead to net feedings with large uncertainties that overlap zero. 
+#  No normalization has therefore been assigned.                          
+#  Delayed protons were observed with E(av) AP 4.1 MEV and E(P)=          
+#  2.4 to 6.3 MEV (1988NiZX), see also 1988ToZW                           
+#G E,RI$IG values and EG with uncertainties are from 1982Gu07; other EG   
+#G are from 1992De23.                                                     
+#L E$From least-squares fit to EG. Where uncertainty is not known it is   
+#L assumed to be 1 KEV                                                    
+#P 0           (10+)             3.9 S     8               10.60E+3 SY    
++G gamma 0.6829 1.0
++G gamma 0.9252999999999999 0.69
++G gamma 1.1 0.13
++G gamma 0.499 0.13
++G gamma 0.6737000000000001 0.55
++G gamma 0.2372 0.52
++G gamma 0.2897 0.29
++B beta+ 3.071 0.35
++G gamma 0.127 0.01
++G gamma 0.4165 0.2
+

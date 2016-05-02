@@ -1,0 +1,59 @@
+#135PM    135SM EC DECAY (10.3 S)       1989VI04                  08NDS    200803
+#  135SM EC DECAY (10.3 S)       1989VI04                  08NDS    200803
+#H TYP=FUL$AUT=BALRAJ SINGH, ALEXANDER A. RODIONOV and YURI L. KHAZOV$    
+#H CIT=NDS 109, 517 (2008)$CUT=22-Jan-2008$                               
+#  1989VI04: 135SM produced by 92MO(46TI,2PN) E=192 MEV followed by       
+#  on-line mass separation. Measured PM x rays, delayed protons,          
+#  |g rays, |g|g coin, (x ray)|g coin, |g(|b{++}) coin, p(x ray) coin,    
+#  p|g coin, isotopic half-life.                                          
+#  1977BO02: measured T1/2 and delayed protons, deduced BETA strength     
+#  functions. Isotope identified by x rays and delayed protons            
+#  1989VI04 proposed population of two isomers of JPI=(3/2,5/2+) and      
+#  (9/2-,11/2-) from the decay of 135SM, with the level scheme of         
+#  135PM based mainly on the decay of the high-spin isomer. But a         
+#  single low-spin activity is suggested by the following arguments:      
+#  1. High-spin assignments made by 1989VI04 to low                       
+#  lying levels populated by 135SM decay were based,                      
+#  presumably, on the identification of one common GAMMA ray at 286 KEV   
+#  in 135SM decay and in high-spin studies on 135PM (1987BE22,1988WA01).  
+#  From GG evidence, 1989VI04 proposed that 286G deexcites a level at     
+#  341 KEV. Three other GAMMA rays at 160, 237 and 341 KEV also deexcited 
+#  this level. In the in-beam GAMMA study (1987BE22,1988WA01) there is    
+#  no evidence in the GG spectra (figure 3 in 1987BE22 and figure 1       
+#  in 1988WA01) for the existence of either the strong 237G or the        
+#  weaker (but likely to be seen by 1988WA01 and 1987BE22) 341G. It should
+#  also be noted that EG=285.9 2 (1989VI04) in 135SM decay does not agree 
+#  with 286.8 1 (1987BE22) in in-beam study, although 1988WA01 report     
+#  286.2 2. The GAMMA-ray energies reported by 1988WA01 are               
+#  systematically lower by AP 1 KEV as compared to those in 1987BE22.     
+#  Based on the GG evidence and GAMMA-ray energies, the evaluators        
+#  suggest that either the placement of 286G is incorrect in 135SM        
+#  decay (1989VI04) or that it is independent of the 286 GAMMA            
+#  seen in the in-beam studies.                                           
+#  2. In high-spin studies, the low lying states in 135SM                 
+#  are proposed as 3/2+ and 7/2+ from band structures and cranked         
+#  shell-model calculations (1987MU12,1989MUZR,1996MUZZ). From these      
+#  studies, there seems no evidence for a long-lived 9/2- or 11/2- isomer 
+#  in 135SM. A low-lying level 9/2- level is proposed with                
+#  T1/2=7 NS to 35 NS.                                                    
+#  3. 1989VI04 report a single half-life for delayed protons,             
+#  GAMMA rays (assigned to 135SM decay) and x rays, indicating the        
+#  existence of only one 10.3 S 135SM activity. The 77 GAMMA displayed    
+#  a second component, in coin with PM x rays, with T1/2=2.4 S 9. The     
+#  origin of this GAMMA ray is not clear. 1989VI04 speculated that this   
+#  transition may be associated with the decay of low-spin isomer in 135SM
+#  The level scheme has not been normalized for IG/100 decays of the      
+#  parent, since the level scheme is considered incomplete in view of     
+#  lack of knowledge about BETA feeding to 135PM GS, large                
+#  Q value of 7200 KEV; known level population only up to 1314; and no    
+#  data for multipolarity of low energy transitions.                      
+#  LOGFT values were calculated by 1989VI04 as lower limits, but          
+#  in the evaluators' opinion, sufficient data are lacking for            
+#  such calculations with the available level scheme                      
+#  Total decay energy of 3150 KEV 250 calculated (by ^RADLIST code)       
+#  from level scheme is much lower than the expected value of 7120 KEV 170
+#L E$ From least-squares fit to E|g's.                                    
+#L E(A)$Levels in the range 4000-7000 (1989VI04) fed (IB AP 0.02%) by     
+#L 135SM BETA decay which deexcite by delayed protons                     
+#P  0.0         (3/2+,5/2+)        10.3 S  5               7.12E3   17    
+

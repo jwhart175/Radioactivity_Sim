@@ -1,0 +1,112 @@
+# 91SR    91RB B- DECAY                 1976GL02,1997GR09         13NDS    201310
+#  91RB B- DECAY                 1976GL02,1997GR09         13NDS    201310
+#H TYP=FUL$AUT=Coral M. Baglin$CIT=NDS 114, 1293 (2013)$CUT=1-Sep-2013$   
+#  Others: 1970MA53, 1973CL02, 1974AC01, 1978WO15, 1979BO26, 1980DE02,    
+#  1983IA02, 1992PR03, 1996GR20, 2006HAZZ, 2011TA26 (^TAGS SPECTRUM;      
+#  NO DETAILS GIVEN).                                                     
+#  1997GR09: total absorption |g spectrometer (^TAGS) (NaI(Tl) well       
+#  detector with Si electron detector in well) operated in singles        
+#  or in 4|p|g-|b coin mode, summed-EG resolution AP 5%; deduced |b       
+#  feeding to (GS + 94 level) (from 4|p|g-|b coin data), |b feeding       
+#  to excited states (from summed-EG spectrum); see also 1996GR20.        
+#  1976GL02: on-line separation of fission products. GE(LI) detectors,    
+#  FWHM=2.5 KEV at 1332 KEV. GE(LI) low-energy photon                     
+#  spectrometer, FWHM=0.5 KEV at 122 KEV.                                 
+#  Measured EG, RI, GG, G(T).                                             
+#  The decay scheme is that of 1976GL02 with the omission of              
+#  a 5289 level deexcited by 3224.4G and 3346.2G. ^TAGS data              
+#  indicate that the intensities of the latter gammas are far             
+#  too great for those placements to be correct. Note that the            
+#  latter data also indicate AP 10.8% |b- feeding to as yet               
+#  unknown levels (primarily in the energy ranges of 2.9-4.1              
+#  MEV and 4.6-5.5 MEV); since the total unplaced IG is AP 2.6%,          
+#  this suggests that some of the gammas in the adopted scheme            
+#  are incorrectly placed.                                                
+#B           B-decay strength function measured by 1975AL11.              
+#B           Average EB: 1560 30 (1990RU05), 1360 70 (1982AL01).          
+#B E         Based on Q-=5907 9 (2012WA38). Q- values deduced from        
+#B measured B- endpoint energies are as follows: 5860 10                  
+#B (1992PR03), 5850 20 (1983IA02), 5857 8 (1980DE02), 5760 40 (1978WO15;  
+#B revision of 5680 40 from BG coin (6 gates) in 1973CL02). OTHER Q-:     
+#B 5880 50 (2001KO07); 2006HAZZ (VALUE UNSTATED).                         
+#B IB        From intensity balance at each level, except as noted;       
+#B for uncertainly placed lines, the full measured IG is assumed.         
+#B %IB values deduced from ^TAGS data are given in comments for           
+#B comparison; for most established levels these |b feedings agree well,  
+#B the notable exceptions being for the 439 and 1482 levels, and probably 
+#B the 93 level. Note that ^TAGS data also indicate a total %IB=10.8 to   
+#B currently unknown levels.                                              
+#B IB(F)     From ^TAGS (1997GR09); may represent feeding to one level or 
+#B to several levels of undetermined energy, lying within a typically     
+#B AP 100 KEV wide energy bin centered on the level energy indicated.     
+#B IB(H)     1976GL02 deduce IB=5 5 based on relative IG for 91KR and 91RB
+#B decay chain activities in decay equilibrium with 91SR growing in,      
+#B assuming %IB(91Y GS)=30.8; the evaluator revises this to IB=2 5        
+#B based on adopted %IB(91Y GS)=28.6. Other %IB(GS): <6 from direct       
+#B measurement (dependent on assumed |b counter threshold energy)         
+#B (1976WO05); 1997GR09 estimate that, of their measured IB(GS+94)=17.4   
+#B 39, IB AP 6.2 feeds the g.s. IB(GS)=60 10 (1974AC01) appears to be     
+#B erroneous.                                                             
+#G CC$ FROM BrIcc v2.2b (20-Jan-2009) 2008Ki07, "Frozen Orbitals" appr.   
+#G           Average EG: 2335 33 (1990RU05).                              
+#G           EKC data are from 1974AC01, if not stated otherwise. ICE     
+#G spectrum lines are normalized to well-known K conversion lines         
+#G (556G(91Y), 304G(85KR), and 151G(85RB)).                               
+#G E         FROM 1976GL02, EXCEPT AS NOTED.                              
+#G M,MR      From EKC.                                                    
+#G E(A)      From curved-crystal spectrometer measurement (1979BO26).     
+#G E(B)      Transition identified only in coincidence.                   
+#G E(C)      Transition tentatively placed by the evaluator.              
+#G RI(D)     From GG coin (1976GL02).                                     
+#G E(G)      Placed by 1976GL02 from a tentative 5289.2 level; however,   
+#G ^TAGS data from 1997GR09 show that IG is far too large for that        
+#G placement to be correct.                                               
+#L E         From least-squares fit to EG, omitting the 1024G             
+#L and including tentatively-placed gammas only when there is             
+#L no definitely-placed GAMMA deexciting the same level.                  
+#L J,T(A)    From Adopted Levels.                                         
+#L T(B)      Weighted average of 94 NS 5 (1993WO07), 87.5 NS 30           
+#L (1976GL02), 88 NS 3 (1970MA07), 91 NS 3 (1970MA53). Other T: 90 NS 10  
+#L (1974AC01).                                                            
+#L E(E)      Not a discrete level. E is the centroid of an energy bin     
+#L of typically AP 100 KEV width which encompasses a level or levels      
+#L fed in B- decay with the summed IB indicated under "|b- radiations";   
+#L from total absorption |g spectroscopy (1997GR09).                      
+#L Neither specific level energies nor deexcitation |g energies           
+#L are known at present. Not included in Adopted Levels.                  
+#P 0.0         3/2(-)            58.2 S    3              5907      9     
+RB91 SR91 beta- 5.907 58.2 1.0
++B beta- 2.664 0.02
++B beta- 2.6188000000000002 0.24
++G gamma 0.093628 0.33799999999999997
++B beta- 2.4520999999999997 0.023
++B beta- 2.1616 0.018000000000000002
++B beta- 2.0707 0.017
++B beta- 1.9498 0.011000000000000001
++B beta- 1.8257999999999999 0.0073
++B beta- 1.7409000000000001 0.0108
++B beta- 1.7285 0.035
++B beta- 1.6702000000000001 0.054000000000000006
++B beta- 1.625 0.0019
++B beta- 1.5877000000000001 0.0036
++B beta-1.3868 0.03
++B beta- 1.0524 0.028900000000000002
++B beta- 1.0379 0.0046
++B beta-1.014 0.03
++B beta- 0.9218 0.0084
++B beta- 0.8989 0.11599999999999999
++B beta- 0.8786 0.0213
++B beta- 0.8602000000000001 0.0103
++B beta- 0.8311000000000001 0.008199999999999999
++B beta- 0.7212999999999999 0.068
++B beta- 0.6708 0.0126
++B beta- 0.6477999999999999 0.0034000000000000002
++B beta- 0.6437999999999999 0.0034000000000000002
++B beta- 0.6416000000000001 0.0038
++B beta- 0.6364 0.0226
++B beta- 0.6083 0.008199999999999999
++B beta- 0.5946 0.0063
++B beta- 0.58 0.0032
++B beta- 0.5524 0.0034999999999999996
++B beta- 0.4039 0.002
+

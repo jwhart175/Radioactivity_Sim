@@ -1,0 +1,20 @@
+#112SB    112SB IT DECAY (0.56 US)      1976KE07,1976KA19,1982MA2915NDS    201412
+#  112SB IT DECAY (0.56 US)      1976KE07,1976KA19,1982MA2915NDS    201412
+#H TYP=FUL$AUT=S. LALKOVSKI, F.G. KONDEV$CIT=NDS 124, 157 (2015)$         
+#H CUT=1-Aug-2014$                                                        
+#  1976KE07: Facility: Natuurkunding Laboratorium van de Vrije            
+#  Universiteit, Amsterdam; Beam: E(P)= 17MEV; Measured: |g(t) and |m;    
+#  Deduced: T and |m                                                      
+#  1976KA19: Facility: ^IKO cyclotron, Amsterdam; Beam: E(3HE)=72 MEV;    
+#  Detectors: electron spectrometer; Measured: E(ce), Ice; Deduced:       
+#  112SB level scheme, EKC/ELC ratio, |g-ray mult., J|p, T                
+#  1982MA29: Facility: Stony Brook ^FN Tandem; Beam: E(12C)= 50 MEV,      
+#  pulsed. Pulse width FWHM = 5 ns and 2 US repetition time; Target:      
+#  0.8 mg/cm{+2} Rh foil; Detectors: NaI(Tl); Measured: |g, |g(THETA,t),  
+#  I|g, E|g; Deduced: MOME2                                               
+#L E$From a least-squares fit to EG                                       
+#L J$From the adopted levels                                              
+#G E,RI$From the adopted levels                                           
+#P 826.8     6 (8-)              536 NS    22                             
+SB112 SB112 IT 0.0 5.36E-7 1
+

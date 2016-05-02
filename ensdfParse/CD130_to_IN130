@@ -1,0 +1,50 @@
+#130IN    130CD B- DECAY (162 MS)       2003DI06                  ENSDF    200806
+#  130CD B- DECAY (162 MS)       2003DI06                  ENSDF    200806
+#H TYP=FUL$AUT=BALRAJ SINGH$CUT=31-MAY-2008$CIT=ENSDF$                    
+#H TYP=FUL$AUT=BALRAJ SINGH$CIT=NDS 93, 33 (2001)$CUT=11-May-2001$        
+#  2003Di06 (also 2003DiZW): Measured E|g, I|g, |g|g, |b|g coin, half-life
+#  using four large HPGe detectors and |DE-E |b telescopes. {+130}Cd      
+#  isotope produced by 1 GeV proton beam impinging on a Ta or W rod       
+#  in close proximity to the UC{-x}-C target. Fast neutrons               
+#  induce fission while the proton-rich isobaric spallation products      
+#  are suppressed. A resonance-ionization laser ion source                
+#  used to achieve chemical sensitivity for elements of                   
+#  of high ionization potentials. The data for gamma-ray energies,        
+#  intensities and |b feedings were obtained from 2003DiZW (priv. comm.   
+#  from authors of 2003Di06, November 27, 2003)                           
+#  2000Ka48 (also 2004KaZR): {+130}Cd isotope tentatively identified      
+#  in {+238}U(p,F) reaction E=1 GeV, followed by separation with a        
+#  chemically selective LASER ion source. Measured |g rays.               
+#B IB,LOGFT$ From 2003DiZW. The total |b feedings                         
+#B add to |?84% which does not include 3.6% from neutron emission; however
+#B about 12% feeding still remains unaccounted (evaluator's note)         
+#B IB(A)$From |g-ray intensity only; does not include possible            
+#B contribution due to emission of delayed neutrons from the              
+#B neutron-unbound level                                                  
+#G ${+130}Cd decays by |b{+-}n also with %|b{+-}n=3.6 {I10}; a |g ray at  
+#G 315.3 {I4} (I|g=3.3 {I6} relative to 100 for 1669.2|g) has been        
+#G assigned to {+130}Cd |b{+-}n decay to {+129}In                         
+#G $ A 1395-keV tentative |g ray reported by 2000Ka48 has not been        
+#G confirmed in the work of 2003Di06, thus it is omitted here.            
+#G E,RI$From 2003DiZW. The authors mention                                
+#G that they have indication for two additional gamma rays above 5 MeV,   
+#G but these are considered as tentative since these were seen only       
+#G in one of three detectors                                              
+#G RI(A)$Uncertainty is large since the line is unresolved from           
+#G a peak in {+130}In decay                                               
+#L E$From least-squares fit to E|g's                                      
+#L E(N)$Neutron-unbound state; however |g decay is favored over the       
+#L emission of low-energy neutrons due to angular-momentum considerations 
+#L J$ From 'adopted levels'.                                              
+#P  0           0+                162 MS   7               8.34E+3  16    
++B beta- 3.776 0.05
++B beta- 3.222 0.006999999999999999
++B beta- 2.985 0.057999999999999996
++B beta- 2.771 0.7020000000000001
++B beta- 2.55 0.001
++B beta- 1.686 0.01
++B beta- 1.58 0.003
++B beta- 1.36 0.006
++B beta- 1.314 0.004
++B beta- 1.223 0.009000000000000001
+

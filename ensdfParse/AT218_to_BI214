@@ -1,0 +1,18 @@
+#214BI    218AT A DECAY                                           09NDS    200902
+#  218AT A DECAY                                           09NDS    200902
+#H TYP=FUL$AUT=S. -C. WU{+a}$CIT=NDS 110, 681 (2009)$CUT=1-Nov-2007$      
+#  E(|a to 53-keV level in {+214}Bi)=6693 {I3} yields Q(|a)=6871 {I3};    
+#  E(|a to g.s.)=6756 {I5} gives Q(|a)=6882 {I5}.                         
+#A E         Recommended by 1991Ry01 from the measurements of 1963Wa29.   
+#A The original energies are decreased by 1 keV due to a change in        
+#A calibration energy.                                                    
+#A IA        From 1963Wa29. Earlier measurements: 1958Wa16.               
+#A HF        r{-0}({+214}Bi)=1.548 {I5}, unweighted average of            
+#A r{-0}({+212}Pb)=1.5408 {I9},  r{-0}({+214}Pb)=1.5379 {I7},             
+#A r{-0}({+214}Po)=1.559 {I8},  r{-0}({+216}Po)=1.5555 {I2} (1998Ak04)    
+#P 0.0                             1.5 S   3              6874      3     
+AT218 BI214 alpha 6.874 0.0 0.999
++A alpha 6.756 0.036000000000000004
++A alpha 6.693 0.9
++A alpha 6.653 0.064
+

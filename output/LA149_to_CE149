@@ -1,0 +1,41 @@
+#149CE    149LA B- DECAY (1.05 S)       2002SY01                  04NDS    200406
+#  149LA B- DECAY (1.05 S)       2002SY01                  04NDS    200406
+#H TYP=FUL$AUT=BALRAJ SINGH$CIT=NDS 102, 1 (2004)$CUT=20-Apr-2004$        
+#  2002Sy01: Measured E|g, I|g, |g|g using two Compton suppressed         
+#  NORDBALL Ge spectrometers, and a high-purity X-ray detector (LEP)      
+#  for low-energy photons. Also 2002SyZY                                  
+#  2002SYZY: PRIV COMM (OCT 18, 2002)                                     
+#  2003SY01 (SAME GROUP AS 2002SY01): MEASURED BGG(T), DEDUCED            
+#  HALF-LIFE OF 133.5 LEVEL AND INTRINSIC ELECTRIC DIPOLE MOMENTS         
+#  2003SY01: PHYS REV C68, 024304 (2003)                                  
+#  OTHERS:                                                                
+#  1987MAZY: T1/2, 8 G RAYS REPORTED                                      
+#  T1/2 AND PRODUCTION OF 149LA: 1993RU01, 1986WA17, 1986REZU,            
+#  1979EN02                                                               
+#B IB$Deduced by the evaluator from intensity balance,                    
+#B using theoretical conversion coefficients for assumed multipolarity    
+#B assignments. Values given by 2002Sy01 and some of the revised          
+#B values (2002SyZY) are given under comments, when different.            
+#B Since there is a gap of about 4 MeV between Q value and the last       
+#B known populated level at 1868.8, there remains the likelihood of       
+#B missing transitions and levels above 1868.8. Thus all I|b's,           
+#B especially weak feedings (<5% or so), should be treated as upper       
+#B limits; and associated Log {Ift} values as lower limits.               
+#B LOGFT$ Lower limits for listed I|b values                              
+#G RI$From |g|g coin spectra unless otherwise stated                      
+#G E(A)$From |g|g coin                                                    
+#G RI(B)$From singles |g spectra                                          
+#G RI(C)$From average of singles |g and |g|g coin spectra                 
+#G M,MR$ Estimated from I(x ray)/IG (2002Sy01). Most                      
+#G assignments are assumed from proposed |D(JPI);                         
+#G MULT=^D,E2 implies dipole or E2 since no long-lived                    
+#G levels have been reported by 2002Sy01                                  
+#L E$ FROM LEAST-SQUARES FIT TO EG'S                                      
+#L J$ FROM ADOPTED LEVELS                                                 
+#L T$ FROM BGG(T) (2003SY01)                                              
+#L BAND(A)$ KPI=3/2- BAND                                                 
+#L BAND(D)$ DECOUPLED BAND                                                
+#L BAND(B)$ KPI=3/2- BAND                                                 
+#P 0.0          (3/2,5/2)        1.05 S    3              5900      SY    
+LA149 CE149 beta- 5.9 1.05 0.135
+

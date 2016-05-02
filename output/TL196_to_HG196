@@ -1,0 +1,19 @@
+#196HG    196TL EC DECAY (1.84 H)       1960JU01,1968PE13,1973BEYM07NDS    200706
+#  196TL EC DECAY (1.84 H)       1960JU01,1968PE13,1973BEYM07NDS    200706
+#H TYP=FUL$AUT=Huang Xiaolong$CIT=NDS 108, 1093 (2007)$CUT=1-Jan-2006$    
+#  Source prepared by TL(P,XN)196PB(EC)196TL, E(P)=45-115 MEV, mass       
+#  separator (1960Ju01); PB,U(p,spallation products), E(P)=3 GEV, scin,   
+#  semi, mass separator (1968Pe13); TH(p,spallation products),            
+#  E(P)=600 MEV, semi, scin, isotope separator (1973BeYM).                
+#  The decay scheme is primarily that of 1973BeYM.                        
+#L E         From least-squares fit to EG's                               
+#L J         From adopted levels                                          
+#G E,RI      From 1973BeYM except where noted otherwise.                  
+#G E(A)      Uncertainty estimated by evaluators                          
+#G E(B)      Reported by 1968Pe13                                         
+#G E(D)      Not given in table 7 of 1973BeYM, but shown in decay scheme. 
+#G M         EKC of 1973BeYM are normalized to 0.027 for the 426G, for    
+#G mult=E2.                                                               
+#P    0.0       2-               1.84 H    3              4330      12    
+TL196 HG196 beta+ 4.33 6624.0 1.0
+

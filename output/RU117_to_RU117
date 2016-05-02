@@ -1,0 +1,31 @@
+#117RU    117RU IT DECAY (2.487 US)     2012KA36,2012LAZT,2007TO23ENSDF    201507
+#  117RU IT DECAY (2.487 US)     2012KA36,2012LAZT,2007TO23ENSDF    201507
+#H TYP=FUL$AUT=BALRAJ SINGH$CIT=ENSDF$CUT=31-JUL-2015$                    
+#  Isomer produced in {+9}Be({+238}U,F),E=345 MeV/nucleon reaction        
+#  2012Ka36: {+238}U beam at E=345 MeV/nucleon provided by the RIBF       
+#  accelerator complex at RIKEN facility. Fission fragments were separated
+#  and analyzed by BigRIPS separator, transported to focal plane of       
+#  ZeroDegree spectrometer and finally implanted in an aluminum stopper.  
+#  Particle identification was achieved by |DE-tof-B|r method.            
+#  Delayed gamma rays from microsecond isomers were detected by three     
+#  clover-type HPGe detectors. Measured E|g, I|g, |g|g-coin, isomer       
+#  half-life. Deduced levels                                              
+#  2012LaZT: {+9}Be(({+238}U,F)=750 MeV/nucleon; target=1 g/cm{+2} of     
+#  {+9}Be; Detectors: FRS, comprising four dipole magnets,                
+#  multiwire chambers, scintillator detectors, ionization chamber at      
+#  GSI. RISING multidetector array consisting of 105 HPGe                 
+#  detectors arranged in 15 Cluster detectors; Measured: E|g, I|g, |g(t), 
+#  isomer half-life; deduced J|p, single-particle configurations. Only    
+#  the 184-keV |g reported in this work                                   
+#  2007To23, 2006ToZW: isomer in {+117}Ru observed in fragmentation       
+#  of 120 MeV/nucleon {+136}Xe beam and using Beta Counting System at     
+#  NSCL-MSU facility. Only one |g ray at 184.4 keV {I2} (2006ToZW)        
+#  is observed, and its decay curve gives T{-1/2}=1.4 |ms {I6}            
+#G E,RI$From 2012Ka36.                                                    
+#G M(Y)$From 2012Ka36, based on consideration of Weisskopf estimates and  
+#G intensity balances. See also 2012LaZT for possible E1 assignment       
+#G for 184-keV transition; 2006ToZW propose E2                            
+#G E(X)$ Reverse ordering of the 82.5-102.9 |g cascade is also possible   
+#P 185.0     4                   2.487 US  +58-55                         
+RU117 RU117 IT 0.0 2.487E-6 0.67
+

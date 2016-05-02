@@ -1,0 +1,18 @@
+# 56V     56TI B- DECAY                 2003MA56,1998AM04,1996DO2311NDS    201105
+#  56TI B- DECAY                 2003MA56,1998AM04,1996DO2311NDS    201105
+#H TYP=FUL$AUT=HUO JUNDE, HUO SU, YANG DONG$CIT=NDS 112, 1513 (2011)$     
+#H CUT=29-Oct-2009$                                                       
+#  2003Ma56: {+56}Ti isotope produced in {+9}Be({+86}Kr{+34+},X)          
+#  at E=140 MeV/nucleon; A1900 fragment separator. Measured E|g,          
+#  I|g, |g|g, |b|g, |b|g(t), lifetime using a double-sided                
+#  Si microstrip detector (DSSD) and Segmented Germanium Array (SeGA).    
+#  The SeGA array was arranged around the |b counting system.             
+#  1998Am04: {+56}Ti isotope produced in {+9}Be({+86}Kr{+34+},X)          
+#  at E=500 MeV/nucleon; FRS fragment separator by a combination          
+#  of B|r, Z and TOF techniques, measured lifetime.                       
+#  1996Do23: {+56}Ti isotope produced in {+9}Be({+65}Cu{+26+},X)          
+#  at E=64.5 MeV/nucleon; identification of particle from energy loss     
+#  and TOF, measured |b-ray singles and |b|g coincidences.                
+#P 0.0          0+               0.200 S   5              7.14E+3   28    
+TI56 V56 beta- 7.14 0.2 1.0
+

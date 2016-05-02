@@ -1,0 +1,42 @@
+#239AM    243BK A DECAY                 1966AH02,1991RY01         14NDS    201411
+#  243BK A DECAY                 1966AH02,1991RY01         14NDS    201411
+#H TYP=FUL$AUT=E. BROWNE, J. K. TULI$CIT=NDS 122, 293 (2014)$             
+#H CUT=30-Jun-2013$                                                       
+#  Recalculated HF.Remove comment on favored alpha (E.Browne,March 2002). 
+#  New HF's differ about 20% from old values. Don't know why!(E. Browne). 
+#  AG: 1956CH77, 1966AH02                                                 
+#  XK: RI=8 3                                                             
+#  2013NI13: calculated branching ratios to three rotational bands.       
+#  OTHERS: 2011ZH36, 2010NI02                                             
+#A E         From 1966AH02 (semi) recalibrated by 1991RY01                
+#A IA        From 1966AH02. Intensity per 100 ALPHA decays                
+#A HF        Using R0(239AM)=1.496, average of R0(238PU)=1.5013 10,       
+#A R0(240PU)=1.4979 7, R0(238CM)=1.490 20, and R0(240CM)=1.495 12         
+#A (1998AK04). HF values are approximate because of the imprecise value   
+#A of AP 0.15% for the alpha-particle branching.                          
+#G CC$ FROM BrIcc v2.2 (31-Mar-2008) 2008KiAA, "Frozen Orbitals" appr.    
+#G E         From 1966AH02 (AG-semi), 1956CH77 (AG-scin)                  
+#G RI        Photon intensity per 100 ALPHA decays (1966AH02,1956CH77)    
+#G M(A)      Multipolarity is E1 or E2 from relative photon and XK        
+#G intensities. However, the ratio of reduced transition probabilities    
+#G suggests E1 multipolarity.                                             
+#L J         From adopted levels                                          
+#L BAND(A)$GS ROTATIONAL BAND.  CALCULATED |a BRANCHING=29.8% (2013NI13)  
+#L BAND(B)$ROTATIONAL BAND BUILT ON 187 LEVEL.                            
+#L CALCULATED |a BRANCHING=52.8% (2013NI13)                               
+#L BAND(C)$FAVORED ROTATIONAL BAND BUILT ON 557 LEVEL                     
+#L  CALCULATED |a BRANCHING=17.5% (2013NI13)                              
+#P 0.0         (3/2-)            4.5 H     2              6874      4     
+BK243 AM239 alpha 6.874 16200.0 0.0015
++A alpha 6.761 0.154
++A alpha 6.721 0.125
++A alpha 6.669 0.012
++A alpha 6.608 0.006999999999999999
++A alpha 6.577 0.256
++A alpha 6.545 0.19399999999999998
++A alpha 6.505 0.069
++A alpha 6.449 0.006999999999999999
++A alpha 6.397 0.002
++A alpha 6.213 0.136
++A alpha 6.185 0.039
+

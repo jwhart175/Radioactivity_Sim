@@ -1,0 +1,38 @@
+#140CS    252CF SF DECAY                1974CLZX,1998HW04         07NDS    200707
+#  252CF SF DECAY                1974CLZX,1998HW04         07NDS    200707
+#H TYP=FUL$AUT=N. NICA$CIT=NDS 108,1287 (2007)$CUT=1-Feb-2006$            
+#  1998Hw04: measured |g|g|g and higher with                              
+#  Gammasphere, 72 Compton-suppressed Ge detectors. Assignment            
+#  based on Cs-Tc SF pairs and 80.1|g observed in {+140}Xe                
+#  |b decay.                                                              
+#  1974ClZX: measured |g, |g|g, |g(t)                                     
+#  1970Wa05: measured ce, ce(t)                                           
+#  Others: 1971Ho29, 1972ChYZ                                             
+#  Z and A identification from multiparameter coincidences.               
+#  There is no overlap between the Levels and Gammas reported by          
+#  1998Hw04 and the previous references in this data set, except          
+#  presumably for 79.4|g from 1998Hw04. Slightly lower energy unplaced |g 
+#  consistent with this value within uncertainty was previously reported. 
+#L E$Fit on levels: |DE|g=1 keV was assumed for the |g's reported with    
+#L no uncertainty                                                         
+#L E$From 1974ClZX, except where noted                                    
+#L J$From Adopted Levels                                                  
+#L T$From 1974ClZX, except where noted otherwise                          
+#G RI$Note that reported absolute values of Ice(K)(78|g,118|g)            
+#G (1970Wa05) result in I|g values which are probably                     
+#G inconsistent with absolute                                             
+#G values for I(103|g) and I(51|g) reported in 1974ClZX.                  
+#G For example, I(118|g)=0.0176/fission (derived from ce(K)=0.0088        
+#G assuming |a(K)(M1)|?0.5, whereas I(103|g)=0.00093/fission, {Ii.e.}     
+#G I(118|g)/I(103|g)|?19)                                                 
+#L E(A)$From 1998Hw04                                                     
+#G E(B)$From 1998Hw04                                                     
+#G E(C)$Multiply placed; no intensity given                               
+#L BAND(D)$Band ^A                                                        
+#L BAND(E)$Band ^B                                                        
+#P 0            0+               2.645 Y   8                              
++G gamma 0.013900000000000001 3.2E-4
++G gamma 0.0507 0.00243
++G gamma 0.103 9.299999999999999E-4
++G gamma 0.0844 0.0025
+

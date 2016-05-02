@@ -1,0 +1,141 @@
+#122SN    122IN B- DECAY (1.5 S)        1979FO10                  07NDS    200704
+#  122IN B- DECAY (1.5 S)        1979FO10                  07NDS    200704
+#H TYP=FUL$AUT=T. TAMURA$CIT=NDS 108, 455 (2007)$CUT=30-Sep-2006$         
+#  235U(N,F) E=TH, on-line mass separation, chem; semi |g, ce; |g|g-coin  
+#  Other: |b|g-coin (1978Al18)                                            
+#  Decay scheme is that proposed by 1979Fo10                              
+#L E         E(levels) are based on a least-squares fit to E|g's          
+#L of 1979Fo10 (evaluator)                                                
+#L J         From adopted levels                                          
+#G E,RI      From 1979Fo10                                                
+#G M,MR      From adopted gammas                                          
+#P 0.0         1+                1.5 S     3              6370      50    
+IN122 SN122 beta- 6.37 1.5 1.0
++B beta- 5.34 0.16
++G gamma 1.14028 1.0
++G gamma 0.0 0.017
++G gamma 1.01312 0.092
++G gamma 2.15374 0.0034999999999999996
++G gamma 1.2749000000000001 0.009000000000000001
++G gamma 2.41548 0.019
++G gamma 1.3521500000000002 0.015
++G gamma 1.3897 0.062
++G gamma 2.7346 0.009000000000000001
++G gamma 1.63496 0.018000000000000002
++G gamma 2.7756999999999996 0.008
++G gamma 1.8306 0.006999999999999999
++B beta- 3.57 0.02
++G gamma 2.06562 0.068
++G gamma 2.40823 0.015
++G gamma 3.5828 0.004
++G gamma 3.8196999999999997 0.009000000000000001
++B beta- 2.55 0.031
++G gamma 2.7591300000000003 0.106
++G gamma 4.004 0.004
++G gamma 2.966 0.0045000000000000005
++G gamma 4.1067 0.005
++G gamma 2.9757 0.028999999999999998
++G gamma 3.039 0.004
+
+#122SN    122IN B- DECAY (10.3 S)       1979CH10,1979FO10,1988RA0907NDS    200704
+#  122IN B- DECAY (10.3 S)       1979CH10,1979FO10,1988RA0907NDS    200704
+#H TYP=FUL$AUT=T. TAMURA$CIT=NDS 108, 455 (2007)$CUT=30-Sep-2006$         
+#  1979Ch10: used cross-bombarding technique in source preparation        
+#  for the identification of low- and high-spin isomers; {+238}U(p,f),    
+#  E(p) was not given (also see 1977ChZO), on-line mass separation;       
+#  {+124}Sn(d,|a), enriched target; semi |g, |g|g-coin, |g|g-delayed coin.
+#  1979Fo10: {+235}U(n,f) E=TH, on-line mass separation; on-line chem;    
+#  semi |g, ce, |g|g-coin, |b|g- and |g|g-delayed coin;                   
+#  proposed decay scheme                                                  
+#  Other: 1977ChZO ({+238}U(p,f) E(p)=100 MeV)                            
+#  The decay scheme is that proposed by 1988Ra09 on the basis of          
+#  energy sums and of |g|g-coin in 1979Fo10 and 1979Ch10.                 
+#L J         FROM ADOPTED LEVELS                                          
+#G E         From 1988Ra09, unless noted otherwise; 1988Ra09 reported the 
+#G upper limits for the strong |g's observed from 1.5-s isomer: E|g=2065.6
+#G (<0.10) from 3206 level and E|g=2759.1 (<0.20) from 3899.6 level       
+#G E         Unplaced |g's are observed as either 10.3-s or 10.8-s        
+#G parent state (1988Ra09)                                                
+#G RI$From 1988Ra09, unless noted otherwise; the DRI's are calculated from
+#G table of 1988Ra09 by multiplying a factor 1.15 to the |DI|g for the    
+#G mixed source data (10.3-s (83%) and 10.8-s (17%)), unless otherwise    
+#G noted; see 1988Ra09 for the information on RI and DRI for unplaced     
+#G |g's                                                                   
+#G RI(D)$DRI is subject to dividing error for 10.3-s and 10.8-s isomers   
+#G M,MR      From adopted gammas, unless noted otherwise                  
+#B E         log {Ift} |? 6.5 for some 2+ levels are too low for the      
+#B J|p change from parent state 5+. The situation may be caused from      
+#B 2 reasons: 1) lack of exact knowledge of dividing relevant |g's among  
+#B 10.3-s and 10.8-s isomers in the analysis of mixed source;             
+#B 2) these 2+ levels possibly be fed by either undetected or unassigned  
+#B |g's from unobserved high-lying levels because Q|b{+-}=6370 keV        
+#P 40        60 5+               10.3 S    6              6370      50    
+IN122 SN122 beta- 6.37 10.3 0.9804
++G gamma 1.14055 1.0
++G gamma 1.0015800000000001 0.517
++G gamma 1.0133400000000001 0.107
++G gamma 2.1536500000000003 0.003
++G gamma 0.0 0.061
++G gamma 1.10566 7.000000000000001E-4
++G gamma 1.19058 0.209
++G gamma 0.16348 0.002
++G gamma 0.26179 0.0085
++G gamma 1.2750599999999999 0.0049
++G gamma 2.41562 0.0111
++G gamma 0.2464 0.005
++G gamma 1.3521500000000002 0.0208
++G gamma 0.3097 0.022799999999999997
++G gamma 1.59401 0.0040999999999999995
++G gamma 2.7345 0.0036
++G gamma 0.3605 0.0018
++G gamma 1.63473 0.008199999999999999
++G gamma 2.77555 0.0025
++G gamma 0.64259 0.0049
++G gamma 0.8195399999999999 0.078
++G gamma 0.83135 0.055999999999999994
++G gamma 0.75076 0.0085
++G gamma 1.9416600000000002 0.0317
++G gamma 2.0656 0.001
++G gamma 0.0 0.0037
++G gamma 0.0 0.0039000000000000003
++G gamma 0.0 0.0359
++G gamma 0.0 0.0083
++G gamma 1.08 0.0085
++G gamma 1.0916700000000001 0.079
++G gamma 2.09323 0.0327
++G gamma 0.0 0.0178
++G gamma 0.0 0.0053
++G gamma 0.0 0.0138
++G gamma 0.0 0.132
++G gamma 1.05992 0.0277
++G gamma 1.1636099999999998 0.157
++G gamma 2.1650500000000004 0.0044
++G gamma 0.0 9.0E-4
++G gamma 2.2308499999999998 0.0022
++G gamma 0.0 0.0026
++G gamma 1.0714000000000001 0.0028000000000000004
++G gamma 1.2964 0.0040999999999999995
++G gamma 1.485 0.0023
++G gamma 2.4861999999999997 0.0025
++G gamma 1.2548 0.005699999999999999
++G gamma 1.34 0.0026
++G gamma 1.5164900000000001 0.0106
++G gamma 1.5278399999999999 0.003
++G gamma 2.52963 0.0045000000000000005
++G gamma 1.3679000000000001 6.0E-4
++G gamma 2.6422800000000004 0.0037
++G gamma 1.69854 0.0158
++G gamma 2.7004200000000003 0.004
++G gamma 0.79446 0.0069
++G gamma 1.4677 0.0013
++G gamma 1.5462 0.001
++G gamma 1.6304400000000001 0.0038
++G gamma 1.3892200000000001 0.0045000000000000005
++G gamma 1.5508199999999999 0.004699999999999999
++G gamma 1.74017 0.0141
++G gamma 2.7415 0.0152
++G gamma 2.7591 0.002
++G gamma 1.3931 0.0011
++G gamma 1.5394 0.0011
++G gamma 1.8063 9.0E-4
+

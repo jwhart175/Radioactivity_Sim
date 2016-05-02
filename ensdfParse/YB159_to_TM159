@@ -1,0 +1,33 @@
+#159TM    159YB EC DECAY                1992TL01,1995ADZS         12NDS    201201
+#  159YB EC DECAY                1992TL01,1995ADZS         12NDS    201201
+#H TYP=FUL$AUT=C. W. Reich$CIT=NDS 113, 157 (2012)$CUT=31-Dec-2010$       
+#  DATA SET UPDATED (AUGUST, 2010) BY CW REICH TO INCLUDE NEW QP VALUE,   
+#   REVISED ICC VALUES, MODIFIED COMMENTS AND BAND NOTATION.              
+#  All of the data are from 1992Tl01, unless otherwise noted. 159YB       
+#       was produced by spallation of W target with 660-MeV protons with  
+#       mass separation. Measured G singles, GG and GG(t)                 
+#       coincidences. 1995AdZS measured G and ce singles and ce-G         
+#       coincidences; and 1995AdZU report unplaced G's above 1650 keV.    
+#       Others: 1980Al14 report 12 G's; 1991TlZZ is by same authors       
+#       as 1992Tl01.                                                      
+#E TI        The I(|e+B+) values were computed assuming the intensities   
+#E      of the branches to the levels at 0, 53, and 62 keV are zero,      
+#E      thus, they are upper limits. These calculations also ignore the   
+#E      incompleteness of the decay scheme as exemplified by the large    
+#E      number of unplaced G rays. Due to these ambiguities, only         
+#E      values > 5% are quoted.                                           
+#G RI        The intensities of the |e+B+ branches to the 0, 53, and 77   
+#G      levels are unknown, hence no useful normalization of the G-ray    
+#G      intensities can be determined.                                    
+#G M         From |a{-K}(exp) and L{-1,2}/L{-3} ratios (1995AdZS) or      
+#G      JPI assignments in 159TM Adopted Levels.                          
+#G MR        From L{-1,2}/L{-3} ratio (1995AdZS).                         
+#G E(R),RI(R)$From 1995AdZU                                               
+#L J         From 159TM Adopted Levels.                                   
+#L BAND(A)   KPI=5/2+, |p5/2[402] band.                                   
+#L BAND(B)   KPI=1/2+, |p1/2[411] band.                                   
+#L BAND(C)   KPI=7/2+, |p7/2[404] band.                                   
+#L BAND(E)   KPI=7/2-, |p7/2[523] bandhead.                               
+#L BAND(G)   KPI=3/2+, |p3/2[411] bandhead.                               
+#P   0          5/2(-)           1.67 M    9                 4729   33    
+

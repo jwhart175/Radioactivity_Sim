@@ -1,0 +1,83 @@
+#154PM    154ND B- DECAY                1993GRZZ,1995GR19,1997GR0909NDS    200910
+#  154ND B- DECAY                1993GRZZ,1995GR19,1997GR0909NDS    200910
+#H TYP=FUL$AUT=C. W. Reich$CIT=NDS 110, 2257 (2009)$CUT=1-May-2008$       
+#  The decay scheme, E|g, I|g are from 1993GrZZ and the measured I|b-     
+#    data are from 1995Gr19 and 1997Gr09 (all by the same authors),       
+#    unless otherwise noted. Other: 1985Ka17. Activity also               
+#    identified by 1974Bu09. Earlier articles by the same authors as      
+#    1993GrZZ are 1990An31, 1988GrZY, 1987Gr12, 1986GrZW, and 1986GrZZ.   
+#  This decay scheme is given here with its lowest level shown as         
+#    being at 0 keV. However, this level may be an isomer, as             
+#    discussed in the {+154}Pm Adopted Levels.                            
+#  Experimental methods:                                                  
+#  1974Bu09: Produced by {+235}U(th n,f), followed by chemical separation.
+#    Established parentage.                                               
+#  1985Ka17: Produced by {+235}U(th n,f), followed by isotope separation. 
+#    Parentage of {+154}Pm (1.7 min) established; and 19 |g's reported.   
+#  1986GrZW, 1993GrZZ: Produced by spontaneous fission of {+252}Cf,       
+#    followed by isotope separation. |g's measured with Ge detectors.     
+#    50 |g's reported. (Both references are private communications.)      
+#  1987Gr12: Produced by spontaneous fission of {+252}Cf, followed by     
+#    isotope separation. Parent half-life and 13 |g energies reported.    
+#  1990An31: Produced by spontaneous fission of {+252}Cf, followed by     
+#    isotope separation. Level scheme is shown.                           
+#  1995Gr19, 1997Gr09: Produced by spontaneous fission of {+252}Cf,       
+#    followed by isotope separation. Deduced I|b- to excited states       
+#    and ground state from total absorption |g spectra.                   
+#B           The I|b- to the excited levels have been deduced,            
+#B      independently of the |g data, from the total absorption |g        
+#B      spectrometer, TAGS, data of 1997Gr09. When necessary, new         
+#B      levels, called "pseudolevels", and associated decay |g's are      
+#B      included in the analysis. Since the resolution of the TAGS        
+#B      system is typically 50-100 keV, the intensity assigned to a       
+#B      pseudolevel may thus represent the |b- feeding to a single        
+#B      level or to a group of levels in that region.                     
+#B IB        Values are from |g intensity balances, except those          
+#B      for the 0- and 79-keV levels, which are from measurements of      
+#B      1995Gr19. The I|b- values from the TAGS data (1997Gr09) are       
+#B      generally in excellent agreement with those from the intensity    
+#B      balances. The TAGS value is given in a comment if it differs      
+#B      by more than 10%.  Since the scheme is not complete, values       
+#B      less than 0.2% are not given, except in comments. Values for      
+#B      levels at 50, 68, and 105 keV are assumed to be 0.                
+#B IB        The pseudolevels and the associated I|b- from the TAGS       
+#B      data analysis are 1270 keV, 0.4%; 1470, 0.6; 1550, 0.8%; 1800,    
+#B      0.3%; and 1900, 0.3%.                                             
+#G E         From 1993GrZZ.                                               
+#G RI        From 1993GrZZ. Values have not been corrected for            
+#G      coincidence summing, which in the worst cases could be as         
+#G      large as 30%.                                                     
+#G M         From {+154}Pm adopted |g radiations. Based on data of        
+#G      1993GrZZ, from |a{-K}(exp), from IKx/I|g ratio or from            
+#G      |a(exp) based on intensity balances from |g|g coincidence         
+#G      spectra.                                                          
+#G E(R)      Existence and placement of |g is questionable.               
+#L E         From least-squares fit to |g energies, with questionable     
+#L      |g's omitted.                                                     
+#L J         Authors' assignments, most of which are not shown in         
+#L      the Adopted Levels. Assignments are based on the adopted          
+#L      J|p of (1+) for the 151-keV level and the |g multipolarities      
+#L      given here.                                                       
+#L E(M)      This is the 1.73-min level and it is probably an             
+#L      excited state.                                                    
+#P   0         0+                25.9 S    2               2.81E3   12    
++B beta- 1.078 0.054000000000000006
++B beta- 1.041 0.11900000000000001
++B beta- 1.009 0.253
++B beta- 0.995 0.114
++B beta- 0.993 0.0064
++B beta- 0.989 0.0076
++B beta- 0.967 0.011000000000000001
++B beta- 0.849 0.0027
++B beta- 0.792 0.0028000000000000004
++B beta- 0.77 0.0022
++B beta- 0.704 0.037000000000000005
++B beta- 0.696 0.205
++B beta- 0.671 0.053
++B beta- 0.609 0.05
++B beta- 0.604 0.037000000000000005
++B beta- 0.542 0.022000000000000002
++B beta- 0.463 0.019
++B beta- 0.351 0.0034000000000000002
++B beta- 0.34 0.0034000000000000002
+

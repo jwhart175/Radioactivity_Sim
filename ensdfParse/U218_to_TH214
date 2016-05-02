@@ -1,0 +1,29 @@
+#214TH    218U A DECAY (0.51 MS)        2005Le42                  09NDS    200906
+#  218U A DECAY (0.51 MS)        2005Le42                  09NDS    200906
+#H TYP=FUL$AUT=BALRAJ SINGH$CUT=14-MAY-2009$CIT=ENSDF$                    
+#H TYP=FUL$AUT=S. -C. WU{+a}$CIT=NDS 110, 681 (2009)$CUT=1-Nov-2007$      
+#  Q-$from E|a=8612 {I9} (2005Le42). Other: 8786 {I25} (2009AuZZ,2003Au03)
+#  T{-1/2}({+218g}U)=0.51 ms {I+17-10}, measured by 2005Le42,             
+#  is used in calculations for r{-0} parameter.                           
+#  Other: T{-1/2}({+218g}U)=1.5 ms {I+73-7} by 1992An04.                  
+#  The partial half-life for {+218}U |b{++} decay was                     
+#  calculated by 1997Mo25 as 16.6433 s which gives %|b{++}=0.003.         
+#  2005Le42,2007Le14: Radioactivity {+218}U(|a) from {+182}W({+40}Ar,xn); 
+#  measured E|a, T{-1/2}.                                                 
+#A HF$r{-0}({+214}Th)=1.512 {17} is calculated from HF(8625|a)=1.0.       
+#P 0.0         0+                0.51 MS   +17-10         8773      9     
+U218 TH214 alpha 8.773 5.1E-4 1.0
+
+#214TH    218U A DECAY (0.56 MS)        2007LE14                  09NDS    200906
+#  218U A DECAY (0.56 MS)        2007LE14                  09NDS    200906
+#H TYP=FUL$AUT=BALRAJ SINGH$CUT=14-MAY-2009$CIT=ENSDF$                    
+#H TYP=FUL$AUT=S. -C. WU{+a}$CIT=NDS 110, 681 (2009)$CUT=1-Nov-2007$      
+#  Q-$from E|a=8612 {I9} (2005Le42). Other: 8786 {I25} (2009AuZZ,2003Au03)
+#  2007Le14 (also 2005Le42): {+218}U produced using the reaction          
+#  {+182}W({+40}Ar,|a4n), with 130 MeV {+40}Ar beam produced at Jyvaskyla 
+#  facility and separated using RITU gas-filled separator. The GREAT      
+#  spectrometer used for particle spectra. FWHM=23-30 keV.                
+#  Measured E|a, I|a, T{-1/2}                                             
+#P 2105        (8+)              0.56 MS   +26-14         8773      9     
+U218 TH214 alpha 8.773 5.600000000000001E-4 1
+

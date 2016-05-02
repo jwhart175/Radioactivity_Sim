@@ -1,0 +1,22 @@
+#190RE    190W B- DECAY (30.0 M)        1976HA39                  03NDS    200306
+#  190W B- DECAY (30.0 M)        1976HA39                  03NDS    200306
+#H TYP=FUL$AUT=BALRAJ SINGH$CIT=NDS 99, 275 (2003)$CUT=30-Apr-2003$       
+#  1976Ha39: |g, |b|g coin, x ray and T{-1/2} measurements. Source        
+#  produced by {+190}Os(n,2pn) E=25-200 MeV and {+192}Os(p,3p) E=92 MeV   
+#  reactions. Isotope identified by chemical separation and milking of    
+#  3.1-min {+190}Re                                                       
+#B           Feeding to g.s. is expected to be <0.6% (from log| {If{+1u}t}
+#B >8.5) if J|p({+190}Re g.s.)=2-                                         
+#G M$From intensity balance, assuming 157|g and 162|g are in a cascade.   
+#G However, deduced I(K vacancies)=118 {I12} disagrees with measured      
+#G value of 77 {I7} (1976Ha39)                                            
+#L E$Based on observed (950|b)(157|g) coin. The 157|g-162|g cascade is    
+#L based on intensity balance with known |g rays from 3.1-min {+190}Re    
+#L decay in equilibrium. Also Q(|b{+-}) deduced from the proposed cascade 
+#L agrees well with that deduced from mass calculations                   
+#L J$See adopted levels                                                   
+#P 0.0         0+                30.0 M    15             1270      70    
+W190 RE190 beta- 1.27 1800.0 1.0
++G gamma 0.1621 0.11
++G gamma 0.1576 0.39
+

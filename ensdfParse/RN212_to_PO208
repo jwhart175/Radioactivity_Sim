@@ -1,0 +1,11 @@
+#208PO    212RN A DECAY                 1971GO35                  07NDS    200707
+#  212RN A DECAY                 1971GO35                  07NDS    200707
+#H TYP=FUL$AUT=M. J. MARTIN$CIT=NDS 108,1583 (2007)$CUT=1-Jun-2007$       
+#  BR$       IA=100%                                                      
+#A HF$       REQUIREMENT OF HF(6264 ALPHA)=1.0 YIELDS R0(208PO)=1.4343 24 
+#L E,J$      FROM 208PO ADOPTED LEVELS                                    
+#P 0.0          0+               23.9 M    12             6385.0    26    
+RN212 PO208 alpha 6.385 1434.0 1.00
++A alpha 6.264 0.9995
++A alpha 5.583 5.0E-4
+

@@ -1,0 +1,29 @@
+#134SB    135SN B-N DECAY               2005SH23,2002SH08         ENSDF    201103
+#  135SN B-N DECAY               2005SH23,2002SH08         ENSDF    201103
+#H TYP=FUL$AUT=K. Abu Saleem, Z. Wu, S. Chaudhury, D, Bernard, E. Browne$ 
+#H CIT=ENSDF$CUT=31-Jan-2011$                                             
+#H TYP=FUL$AUT=A.A. Sonzogni$CIT=NDS 103, 1 (2004)$CUT=31-Jul-2004$       
+#  All information is from 2005Sh23, unless stated otherwise.             
+#  2005Sh23, 2005Sh53: {+135}Sn isotope produced in the UC{-2}(n,f)       
+#  reaction following bombardment of a W rod with a proton-pulsed beam    
+#  at E=1.4 GeV. The Sn isotopes were ionized by resonance laser          
+#  ion source (RILIS) and separated using the ISOLDE general purpose mass 
+#  separator (GPS). Measured E|g, I|g, |g|g, |b|g coin, |g(t), |g|g(t)    
+#  with five large Ge detectors.  Yields of spallation-produced Cs nuclei 
+#  were lowered by several orders of magnitude when using                 
+#  the neutron converter.                                                 
+#  2002Sh08: Measured E|g, I|g, |g|g, lifetimes, delayed neutron          
+#  probability using high-efficiency Mainz neutron long counter with      
+#  3-ring concentric array of 50 {+3}He proportional counters, |b         
+#  detector, and Pb-shielded Ge detectors.                                
+#G E$2005Sh23 quote energies to nearest keV with an uncertainty of        
+#G 0.5 keV, the evaluators have added a zero in the first decimal place   
+#G RI$ values quoted in 2005Sh23 are relative to I|g of 282|g in {+135}Sb.
+#L E$ Deduced by evaluators from least-squares fit to E|g's.              
+#L J$ All assignments changed to same as in Adopted dataset and           
+#L placed in parentheses (Singh)                                          
+#L J$ Assignments based on the assumption that E2 transitions are weak or 
+#L nonexistent in {+134}Sb due to small collective enhancement.           
+#L BAND(A)$ YRAST CASCADE BASED ON JPI=1- LEVEL                           
+#P 0.0          7/2-              530 MS   20             5300      SY    
+

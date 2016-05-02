@@ -1,0 +1,21 @@
+# 97SR    98RB B-N DECAY (114 MS)       1986WA17,1980SC13,1974RO1510NDS    201004
+#  98RB B-N DECAY (114 MS)       1986WA17,1980SC13,1974RO1510NDS    201004
+#H TYP=FUL$AUT=N. NICA$CIT=NDS 111, 525 (2010)$CUT=19-Nov-2009$           
+#G           Measured %B-N, T1/2. Others: 1993RU01, 1987PFZX, 1983RE10,   
+#G 1981RE05, 1981EN05, 1979RI09, 1979PE01, 1979PE17, 1976RU01, 1971TR02   
+#G           The source contains 96-MS isomer also but it is assumed      
+#G here (on the basis of T1/2 of 167G in 97SR) that B-N decay is mainly   
+#G from the 114-MS isomer.                                                
+#G           Neutron spectrum: 1989GOZY, 1981RE12                         
+#G           COMPILATION AND EVALUATION OF %B-N: 1993RU01, 1984MA39,      
+#G 1983EN03, 1982RU01, 1981JO01, 1979RUZQ, 1975IZ03,                      
+#G 1981BJ01 (RENORMALIZED VALUE OF 1974RO15)                              
+#G           CALCULATION OF %B-N AND T1/2: 1986RAZG, 1984KOYR, 1983LY06,  
+#G 1983LY03, 1983LY01                                                     
+#L E$FROM 1980SC13                                                        
+#G E,RI$From 1980SC13. RI is relative to 100 for 144.6G (in 98SR) from    
+#G 98RB B- decay                                                          
+#G M$FROM 97SR ADOPTED LEVELS, GAMMAS                                     
+#L J$From adopted levels                                                  
+#P  0.0          (0,1)              114 MS 5               6500     50    
+

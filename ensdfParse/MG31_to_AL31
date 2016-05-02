@@ -1,0 +1,44 @@
+# 31AL    31MG B- DECAY (236 MS)        2005MA86,1993KL02,1984GU1913NDS    201303
+#  31MG B- DECAY (236 MS)        2005MA86,1993KL02,1984GU1913NDS    201303
+#H TYP=FUL$AUT=CHRISTIAN OUELLET AND BALRAJ SINGH$CIT=NDS 114, 209 (2013)$
+#H CUT=15-Feb-2013$                                                       
+#  2005MA86: 31MG from ^Be(36S,^X) E(36S)=77.5 MEV/u, ^GANIL, measured    
+#  E|g, I|g, |b|g coin, |b|g|g coin, isotopic half-life                   
+#  2005Ma86 was considered with the inclusion an Erratum                  
+#  published in Phys Rev C 76, 059902(E) (2007)                           
+#  1993Kl02: 31MG from ^U(p,^X) E(p)=600 MEV,                             
+#  target=^Uranium carbide, ^ISOLDE2 at ^CERN, measured E|g, I|g, |g|g,   
+#  n|g, |b|g|g, n|b|g, |b|g coin, |b|g(t)                                 
+#  1984Gu19: 31MG from ^Ir(p,^X) E(p)=10 GEV, CERN, measured              
+#  E|g, I|g, |b|g coin, |b|g|g coin, 31MG half-life. Other                
+#  papers from the same group are 1984La03 measured %B-N                  
+#  and 1979DE02 who measured 5 |g ray energies and intensities.           
+#  Other related papers including first detection of 31MG: 1977BU11       
+#G RI$ 2005Ma86 list the values as I(|g+ce), but no multipolarities       
+#G are assigned. The conversion coefficients are however expected         
+#G to be insignificant; thus, I(ce) values are negligible.                
+#G RI(A)$ Used value from Erratum (September 2007) by 2005Ma86 in         
+#G weighted average. Value was incorrect in the original paper by         
+#G 2005Ma86.                                                              
+#L J$ From Adopted Levels                                                 
+#P 0            1/2(+)           236 MS    20             11833     21    
+MG31 AL31 beta- 11.833 0.236 1
++B beta- 5.185 0.055
++G gamma 0.9467000000000001 0.38493
++B beta- 4.856 0.11199999999999999
++G gamma 0.6658999999999999 0.14805
++G gamma 1.6128 0.47
++B beta- 4.052 0.301
++G gamma 1.6262 0.32006999999999997
++B beta- 3.956 0.138
++G gamma 1.8202 0.047939999999999997
++G gamma 2.4874 0.01927
++G gamma 3.4328000000000003 0.04699999999999999
++B beta- 3.863 0.11900000000000001
++B beta- 3.606 0.132
++B beta- 3.399 0.087
++B beta- 3.361 0.016
++B beta- 3.277 0.011000000000000001
++B beta- 3.16 0.036000000000000004
++B beta- 3.11 0.03
+

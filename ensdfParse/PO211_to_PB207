@@ -1,0 +1,25 @@
+#207PB    211PO A DECAY (0.516 S)       1975JA04,2001Ch66         11NDS    201102
+#  211PO A DECAY (0.516 S)       1975JA04,2001Ch66         11NDS    201102
+#H TYP=FUL$AUT=F.G. KONDEV, S. LALKOVSKI$CIT=NDS 112, 707 (2011)$         
+#H CUT=1-Aug-2010$                                                        
+#G CC$ FROM BrIcc v2.2 (31-Mar-2008) 2008KiAA, "Frozen Orbitals" appr.    
+#  1975JA04: Facility: LBL; Source: 211PO as daughter of 211AT, obtained  
+#  from 209BI(|a,2n) reaction, E(A)=27 MeV; Detectors: one planar Ge(Li)  
+#  (FWHM=2.3 keV at 1332 keV), one coaxial Ge(Li) (FWHM=2.5 keV at 1332   
+#  keV), one Si(Li) (FWHM=2.2 keV for 975 keV), one Au-Si surface barrier 
+#  detector (FWHM=16 keV at 4.8 MeV); Measured: |a-|g coin., E(A), E(|g), 
+#  conversion electrons; Deduced: level scheme                            
+#  2001Ch66: 211PO source was produced by milking chemically separated    
+#  211AT, produced using the 209BI(A,2N) reaction, with |a energies not   
+#  higher than 28 MeV; Detectors: 70 CM3 coaxial Ge(Li) (FWHM=2.7 keV at  
+#  1332 keV); Measured EG, IG; Deduced: IA                                
+#  Others: 1985LA17, 1982BO04, 1978YA04, 1972AS11, 1970VA13, 1969GO23,    
+#  1969HA32, 1967DA10, 1962Wa18, 1954SP32, 1954MI70, 1951NE02             
+#P    0.0        9/2+            0.516 S   3              7594.5    5     
+PO211 PB207 alpha 7.5945 0.516 1.0
++A alpha 7.4503 0.9891599999999999
++A alpha 6.8915 0.0054600000000000004
++A alpha 6.5683 0.005370000000000001
++G gamma 0.8977999999999999 0.005510499999999999
++A alpha 5.848199999999999 8.1E-6
+

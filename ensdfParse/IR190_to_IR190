@@ -1,0 +1,30 @@
+#190IR    190IR IT DECAY (1.120 H)      1964HA06,1996GA30         03NDS    200306
+#  190IR IT DECAY (1.120 H)      1964HA06,1996GA30         03NDS    200306
+#H TYP=FUL$AUT=BALRAJ SINGH$CIT=NDS 99, 275 (2003)$CUT=30-Apr-2003$       
+#  1964Ha06: source from {+190}Os(p,n) E=12-22 MeV and chemical           
+#  purification. Measured ce with a magnetic spectrograph                 
+#  1996GA30: measured half-life                                           
+#  Isomer ratio measurements: 1987Re05, 1972Ze02, 1967Fl14                
+#G           I(L{-|a} x ray)(Ir)=14.0% {I7}, I(L{-|b} x ray)(Ir)=4.3%     
+#G {I2} (1987Re05)                                                        
+#L J$From adopted levels                                                  
+#P 26.1      1 (1-)              1.120 H   3                              
+
+#190IR    190IR IT DECAY (3.087 H)      1996GA30,1964HA06         03NDS    200306
+#  190IR IT DECAY (3.087 H)      1996GA30,1964HA06         03NDS    200306
+#H TYP=FUL$AUT=BALRAJ SINGH$CIT=NDS 99, 275 (2003)$CUT=30-Apr-2003$       
+#  1996GA30: measured EG, IG, CE, (CE)(CE) coin, CEG coin, half-life      
+#  1964Ha06: source from {+190}Os(p,n) and chemical purification. Measured
+#  ce with a magnetic spectrograph                                        
+#  The 3.2-h isomer decays 5.6% through IT decay and                      
+#  94.4% through |e decay                                                 
+#  Isomer ratio measurements: 1987Re05, 1984He15, 1975AvZM, 1972Ze02,     
+#  1972Qa01, 1970Bo22, 1967Fl14, 1963Gr22                                 
+#  Others (T{-1/2} and production): 1970Bo22, 1963Gr22, 1955At32, 1950Ch11
+#G           I(K|a{-1}| x ray)(Os)=47% {I7}, I(K|a{-2}| x ray)(Os)=27%    
+#G {I4} (1987Re05)                                                        
+#G E,RI,M$From 1996GA30 UNLESS OTHERWISE STATED                           
+#L $The level scheme is from 1996GA30                                     
+#L J$From adopted levels                                                  
+#P     376.4   (11)-             3.087 H   12                             
+

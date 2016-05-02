@@ -1,0 +1,71 @@
+#168HF    168TA EC DECAY                2007MC08,1989HI04,1976LE1410NDS    201008
+#  168TA EC DECAY                2007MC08,1989HI04,1976LE1410NDS    201008
+#H TYP=FUL$AUT=CORAL M. BAGLIN$CIT=NDS 111, 1807 (2010)$CUT=15-Jun-2010$  
+#  DATASET UPDATED (B. SINGH, APR 30,2001) TO INCLUDE REVISED Q- VALUE    
+#  DEDUCED FROM NEW MASS MEASUREMENTS FOR 168TA AND 168HF BY 2000RA23.    
+#  LOGFT VALUES ARE DEDUCED USING THE MEASURED Q- VALUE. UNCERTAINTY      
+#  OF 906.6G CHANGED FROM 9.5 KEV TO MORE REALISTIC VALUE OF 1.0 KEV.     
+#  2007MC08: 168TA produced in reaction 159TB(16O,7n) USING a 130 MEV     
+#  beam provided by the Yale ^ESTU accelerator; Yrast Ball ARRAY (eight   
+#  Compton-suppressed Clover HPGe detectors); measured EG, IG, GG COIN,   
+#  GG(|q); comparisons with geometric collective models.                  
+#  Significant contributions from 168LU EC decay to                       
+#  168YB and 166LU EC decay to 166YB were also present in G spectra.      
+#  1989HI04: sources from 133CS(40AR,5N) (E(40AR)=205 MEV,                
+#  helium-jet transport); measured EG, IG, GG coin.                       
+#  1976LE14: sources from 159TB(16O,7N) (E(16O)=130 MEV, TB foil,         
+#  thermalization and transport of recoil products);                      
+#  measured EG, IG (GELI), 2-parameter GG coin.                           
+#  The decay scheme is from 2007MC08.                                     
+#  Apparent feedings of 0.71% 17 to 755.4 (6+) and 2.1% 3 to 941.6        
+#  (0+) levels indicate probable missing G-ray intensity                  
+#  (Q+=6970 KEV) and/or other problems.                                   
+#E TI        EC feedings are from intensity imbalance at each             
+#E level and assume negligible GS feeding.  Values should probably be     
+#E considered as upper limits since a large difference of 4.5 MeV exists  
+#E between THE Q value and highest known level at 2353 and this leaves the
+#E possibility of missed G rays from possible levels above 2353.          
+#E LOGFT     Deduced by evaluator. Values should probably be considered as
+#E lower limits.                                                          
+#G E,RI      FROM 2007MC08.                                               
+#G M,MR      FROM GG(|q) (2007MC08), EXCEPT AS NOTED.                     
+#G E(A),RI(A)$ FROM 1989HI04.  NOT OBSERVED BY 2007MC08.                  
+#G M(B)      FROM Adopted Gammas.                                         
+#G E(J)      1411.4G+1413.5G and 1673.0G+1675.5G form doublets.           
+#G Each |g-ray intensity may contain an unresolved contribution from its  
+#G second component.                                                      
+#L E         From least-squares fit to EG.                                
+#L J         FROM Adopted Levels.                                         
+#L BAND(A)   KPI=0+ GS band.                                              
+#L BAND(B)   KPI=(2+) G-vibration band.                                   
+#L BAND(C)   KPI=(0+) B-vibration band.                                   
+#P 0.0          (2-,3+)          2.0 M     1              6970      40    
++B beta+ 7.790000000000001E-4 0.00167
++B beta+ 2.669 0.26
++B beta+ 2.545 0.065
++B beta+ 2.371 0.0055000000000000005
++B beta+ 2.315 0.062
++B beta+ 2.284 0.016
++B beta+ 2.242 0.037000000000000005
++B beta+ 2.229 0.062
++B beta+ 2.182 0.024
++B beta+ 2.124 0.018000000000000002
++B beta+ 2.082 0.035
++B beta+ 2.076 0.0059
++B beta+ 2.069 0.013600000000000001
++B beta+ 2.066 0.017
++B beta+ 2.064 0.034
++B beta+ 2.025 0.0064
++B beta+ 1.999 0.011699999999999999
++B beta+ 1.992 0.02
++B beta+ 1.969 0.0158
++B beta+ 1.956 0.0069
++B beta+ 1.944 0.0078000000000000005
++B beta+ 1.915 0.009399999999999999
++B beta+ 1.885 0.0039000000000000003
++B beta+ 1.884 0.011000000000000001
++B beta+ 1.807 0.0021
++B beta+ 1.769 4.9E-4
++B beta+ 1.741 0.004
++B beta+ 1.629 0.0022
+

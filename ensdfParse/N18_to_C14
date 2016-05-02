@@ -1,0 +1,53 @@
+# 14C     18N B-A DECAY                 1989Zh04,1993Bu21,2007Bu01         201404
+#  18N B-A DECAY                 1989Zh04,1993Bu21,2007Bu01         201404
+#H TYP=UPD$AUT=C.G. Sheu, J. Kelley$CUT=09-December-2013$CIT=ENSDF$       
+#H COM=Updated data set since last full evaluation$                       
+#  1989Zh04: A thick Ta target was bombarded by a 35 MeV/A {+22}Ne beam   
+#  to produce {+18}N ions that were selected by the Reaction Products Mass
+#  Separator (RPMS). The {+18}N ions were implanted into a telescope      
+#  comprised of five Si detectors that was situated in the focal plane    
+#  of the RPMS. An implantation period of 1.2 s was used for collecting   
+#  activity; this was followed by a 1.3 s counting period. The |b-decay   
+#  products were detected with essentially 100% efficiency. The apparatus 
+#  was calibrated using |b-delayed |a-particle emissions groups from      
+#  {+11}Be and {+8}Li nuclei.                                             
+#  Two strong groups are observed in the |a-particle spectrum, resulting  
+#  from decays of the {+18}O*(7616,8038) states with J|p=1{+-}{-3} and    
+#  1{+-}{-4}, respectively.  A broad peak near 3 MeV (E{-x}=9 MeV, |G{-|a}
+#  |? 500 keV) is also observed but the origin was unclear. 1987Aj02      
+#  suggests there may be 6 unresolved |a-particle emitting groups in this 
+#  region. The |b-decay branching ratios to {+18}O*(7616,8038) are found  
+#  as 6.8% {I5} and 1.8% {I2} assuming |G{-|a}/|G=1.0 for these states.   
+#  The branching ratio |> 3.6% {I2} was deduced for the broad structure.  
+#  A total |b-delayed |a-decay branching ratio of (12.2 {I6})% is deduced.
+#  1993Bu21, 2007Bu01: A thick target was bombarded by a 500 MeV proton   
+#  beam to produce {+18}N ions that were selected by the TISOL separator. 
+#  The resulting {+18}N{+16}O molecular beam was implanted in a 10        
+#  |mg/cm{+2} carbon foil. After a 1.0 s collection time, the             
+#  catcher foil was rotated to a position between two Si surface barrier  
+#  detectors. About a hundred times the yield of 1989Zh04 was obtained.   
+#  T{-1/2}=620 ms {I8} was measured for the activity, which is consistent 
+#  with the {+18}N lifetime.                                              
+#  The observed |a-spectrum was calibrated at the E{-|a}=1.081 and 1.409  
+#  MeV peaks (from {+18}O*(7616,8038)) and analyzed with the R-matrix     
+#  approach. The full range of the |a-particle spectrum was roughly double
+#  that of 1989Zh04 and additional |a-groups were observed at higher      
+#  energies. In the analysis the branching ratios are normalized          
+#  to 12.2% from 1989Zh04 (6.8% {I5}, 1.8% {I2} and 3.6% {I2}).           
+#  Comments:                                                              
+#  The work of 2007Bu01 resolves the |a-spectrum at E{-|a}=1.5-5.5 MeV    
+#  into seven states that show a distinct interference pattern. Treatment 
+#  in the E{-|a} |? 2.2 MeV region is different; 1989Zh04 assume a        
+#  multi-component group while 2007Bu01 assume a single broad state as    
+#  indicated by 1993Re03.                                                 
+#  The R-matrix analysis of the superior data set in 2007Bu01 is          
+#  preferred, but the normalization of branching ratios in 2007Bu01 to    
+#  12.2% from 1989Zh04 is surprising, since 2007Bu01 observed many groups 
+#  that had not been observed in 1989Zh04. By chance both analyses have   
+#  deduced the same branching ratio for the strongest E{-|a}=1.081 MeV    
+#  group; this normalization is accepted and the analysis in 2007Bu01 is  
+#  adopted with the total |b-delayed |a-decay branching ratio of          
+#  (12.2 {I14})%.                                                         
+#P 0           1-                619 MS     2             7668      19    
+N18 C14 alpha 7.668 0.619 0.122
+

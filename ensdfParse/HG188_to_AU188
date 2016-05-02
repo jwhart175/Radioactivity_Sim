@@ -1,0 +1,38 @@
+#188AU    188HG EC DECAY (3.25 M)       1985AB03                  02NDS    200204
+#  188HG EC DECAY (3.25 M)       1985AB03                  02NDS    200204
+#H TYP=FUL$AUT=BALRAJ SINGH$CIT=NDS 95, 387 (2002)$CUT=26-Feb-2002$       
+#  1985AB03: Mass separated source from 197AU(P,XN) reaction at 200 MEV.  
+#  Measured G, GG, CE, G x, CE CE(T), CE G(T). Magnetic spectrometer used 
+#  for CE data for G's below 350 KEV. See also 1975HO03, 1972HUZL,        
+#  1971JOZK, 1970DU09 from the same laboratory                            
+#  B+ singles data: 1984DAZJ                                              
+#  Others: 1984DAZJ, 1978COYZ, 1971HU02, 1960AL20, 1960PO07               
+#L           The decay scheme has been normalized, assuming EC+B+ feeding 
+#L to GS as LT 3%, based on LOGFT GT 5.9 for a 0+ to 1- BETA transition.  
+#L 1985AB03 deduce I(EC+B+)(GS)=17% 12 which gives LOGFT=5.1 5, too low   
+#L for a 0+ to 1- transition. A large number of G rays are still unplaced.
+#L From BETA strength function measurements, 1975HO03 and 1970DU09        
+#L estimated that GT 98% of the integrated G intensity is below 600 KEV,  
+#L implying that the main EC feedings proceed to levels in 188AU below    
+#L 600 KEV                                                                
+#E           B strength function measurements: 1975HO03, 1970DU09         
+#G M$From CE data. The CE data are normalized to 266G as E2 from          
+#G 188AU EC decay. The uncertainties are not available, but probably      
+#G about 10% for strong lines and AP 25% for weak and unresolved lines    
+#L E$From least-squares fit to EG's                                       
+#L J$From adopted levels                                                  
+#L T$From GCE(T) and (CE)(CE)(T)                                          
+#E           Since a large number of transitions are unplaced, feedings   
+#E to levels are considered uncertain, except for the 82.7 which seems    
+#E to obtain a large EC feeding. The LOGFT values for all the levels,     
+#E except for the 82.7 level should also be considered as tentative       
+#N  0.044    2 0.044   2 1.0       1.0                                    
+#N NR$from I(EC+B+)(GS) LT 3% (for LOGFT GT 5.9 for a 0+ to 1- BETA       
+#N transition). 1985AB03 deduce I(EC+B+)(GS)=17% 12 which gives           
+#N LOGFT=5.1 5, lower than expected for such a transition. The            
+#N uncertainty on the normalization factor takes into account the         
+#N intensity of a number of unplaced transitions                          
+#N BR$%EC+%B+=99.999963 8, %A=3.7E-5 8                                    
+#N                                                                     3  
+#P   0           0+              3.25 M    15              2.14E3   10    
+

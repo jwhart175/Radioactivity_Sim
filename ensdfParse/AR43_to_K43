@@ -1,0 +1,65 @@
+# 43K     43AR B- DECAY (5.37 M)        1978HU10                  15NDS    201506
+#  43AR B- DECAY (5.37 M)        1978HU10                  15NDS    201506
+#H TYP=FUL$AUT=BALRAJ SINGH AND JUN CHEN{+#}$CIT=NDS 126, 1 (2015)$       
+#H CUT=31-Mar-2015$                                                       
+#  1978Hu10: {+43}Ar isotopes were produced in the spallation reaction    
+#  {+50}V(p,6pxn) with the proton beam from the 600 MeV external beam of  
+#  the CERN synchrocyclotron bombarding a vanadium carbide target.        
+#  Argon nuclides were separated in the ISOLDE on-line mass separator.    
+#  |g-rays were detected in Ge(Li) detectors. Measured E|g, I|g, |g|g.    
+#  Deduced levels, branching ratios. See also 1970Hu11.                   
+#  Others:                                                                
+#  1969La16: E|g, T{-1/2}                                                 
+#  1969Ha03: T{-1/2}                                                      
+#  All data from 1978Hu10 unless otherwise noted.                         
+#  The decay scheme is considered incomplete in view of no uncertainties  
+#  available on |g-ray intensities. Thus all |b feedings and log| {Ift}   
+#  values are considered as approximate. In Adopted dataset, log| {Ift}   
+#  have been used but the J|p based on these are considered as tentative  
+#B IB(A)$Estimated (by 1978Hu10) from a comparison of the observed        
+#B {+43}Ar-{+43}K (parent-daughter) activities with those expected from   
+#B series decay                                                           
+#G E(B)$In coin with 1758|g                                               
+#G E(C)$In coin with 587|g                                                
+#G M(D),MR(D)$From Adopted Gammas                                         
+#G E(F)$Level-energy difference=975.4 {I1}                                
+#G E(G)$Level-energy difference=1865.6 {I1}                               
+#G E(H)$Level-energy difference=1079.3 {I2}                               
+#G E(I)$Level-energy difference=1235.0 {I2}                               
+#G E(J)$Poor fit. Level-energy difference=2288.6 {I2}                     
+#G E(K)$Placement (evaluator) based on 1560-1310 |g|g coin                
+#L E$From least-squares fit to E|g data.                                  
+#L Since the quoted |D(E|g) result in a poor fit, these were              
+#L increased to 0.2 keV for strong |g-rays and 0.3 keV for weak           
+#L |g-rays (I|g<1%) in the least-squares adjustment                       
+#L J$From Adopted Levels                                                  
+#L $No evidence was found by 1978Hu10 for a 2892.7 level                  
+#L proposed by 1970Hu11                                                   
+#L E(A)$Level proposed (evaluators) based on (|a,p|g) and                 
+#L 1560-1311 coin in 1978Hu10. But the adopted J|p=(9/2) is inconsistent  
+#L with the log| {Ift}=7.8 from 5/2(-) parent.                            
+#L J(X)$log| {Ift}=5.1 allowed decay from 5/2(-) parent is inconsistent   
+#L with parity=+                                                          
+#P 0            5/2(-)           5.37 M    6              4566      5     
+AR43 K43 beta- 4.566 322.2 1.0
++B beta- 2.0591999999999997 0.3
++B beta- 1.7857 0.001
++B beta- 1.6999000000000002 0.013999999999999999
++B beta- 1.585 0.16
++B beta- 1.5198 0.009000000000000001
++B beta- 1.4729 0.015
++B beta- 1.327 0.0037
++B beta- 1.3077999999999999 0.0029
++B beta- 1.1565 0.0032
++B beta- 1.0081 0.16
++B beta- 1.0026 0.0039000000000000003
++B beta- 0.929 0.19
++B beta- 0.5988 0.011000000000000001
++B beta- 0.5053 0.01
++B beta- 0.4849 0.055
++B beta- 0.4481 0.0038
++B beta- 0.42069999999999996 0.035
++B beta- 0.3544 0.015
++B beta- 0.3383 0.0028000000000000004
++B beta- 0.30939999999999995 0.004699999999999999
+

@@ -1,0 +1,47 @@
+#110XE  XA114BA A DECAY (0.43 S)                                                 
+#XA114BA A DECAY (0.43 S)                                                 
+#XB58NI(54FE,2NG)                                                         
+#N                                                                     6  
+#L  0.0          0+               93 MS    3                          A   
+#L %A=64 35 (2002Ma19)$ %EC+%B+=36 35$ %ECP=?                             
+#L %A$from 2002Ma19, deduced by assuming %A({+114}Ba)=0.9 3 and           
+#L %A({+106}Te)=100                                                       
+#L XREF=AB                                                                
+#L T$From recoil-|a(t) in 2007Sa36.  Others:                              
+#L 110 MS +30-20 (from the least-squares fit of the theoretical time      
+#L distribution to the experimental data) and 100 MS +30-20 (using        
+#L grow-in and decay pattern) in 2005Ja03 (note that a value of 105 MS    
+#L +35-25 was adopted in 2005Ja03) and 160 MS +290-60 (from the analysis  
+#L of time correlations between {+114}Ba and {+110}Xe-{+106}Te |a-decay   
+#L events) in 2002Ma19                                                    
+#L $E|a=3717 19 (2007Sa36), 3737 30 (1981SC17) and 3730 30 (2002MA19)     
+#L 469.70    20(2+)                                                   A   
+#L XREF=B                                                                 
+#G 469.7     2 100       [E2]                                             
++G gamma 0.4697 1.0
+#L 1113.1    4 (4+)                                                   A   
+#L XREF=B                                                                 
+#G 643.4     3 100       [E2]                                             
++G gamma 0.6434 1.0
+#L 1889.7    7 (6+)                                                   A   
+#L XREF=B                                                                 
+#G 776.6     6 100       [E2]                                             
++G gamma 0.7766000000000001 1.0
+#                                                                         
+
+#110XE    114BA A DECAY (0.43 S)        2002MA19,1997JA12         12NDS    201206
+#  114BA A DECAY (0.43 S)        2002MA19,1997JA12         12NDS    201206
+#H TYP=FUL$AUT=G. G~URDAL and F.G. KONDEV$CIT=NDS 113, 1315 (2012)$       
+#H CUT=1-Aug-2011$                                                        
+#  2002Ma19: Parent {+114}Ba was produced through the {+58}Ni({+58}Ni,2n) 
+#  reaction at the GSI online mass separator. {+58}Ni beam energy was     
+#  varied between 222 MeV and 248 MeV. Highly enriched {+58}Ni target     
+#  thicknesses ranged from 2.0 mg/cm{+2} to 3.8 mg/cm{+2}. |a particles   
+#  were detected using E-|DE telescopes consisting of two silicon         
+#  surface-barrier detectors. Measured: E|a, %|a, T{-1/2}                 
+#  Others: 2005Ja03, 2003Mb01, 2003Ro08, 2001Ro35, 1995Gu10, 1995Gu01,    
+#  1981Sc17                                                               
+#P  0            0+                0.43 S  +30-15         3534      42    
+BA114 XE110 alpha 3.534 0.0 0.009
++A alpha 3.41 1.0
+

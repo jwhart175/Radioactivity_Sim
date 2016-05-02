@@ -1,0 +1,121 @@
+#136CE    136PR EC DECAY                1973BU11,1971KE07,1968ZH0402NDS    200206
+#  136PR EC DECAY                1973BU11,1971KE07,1968ZH0402NDS    200206
+#H TYP=FUL$AUT=A.A. Sonzogni$CIT=NDS 95, 837 (2002)$CUT=1-Feb-2002$       
+#  1968ZH04: measured G, B+, ce (spect)                                   
+#  1971KE07: measured X-RAYS (NAI), G, GG, BG, ce                         
+#  1973BU11: measured G, GG, ce                                           
+#  With the exception of the 3233 level (from 1971KE07), the decay scheme 
+#  is as proposed by 1973BU11. All levels proposed by 1973BU11 were also  
+#  suggested by 1971KE07 except for the 1076, 2828, 2942, 2992, 3011,     
+#  3201, and 4200 levels. The scheme was constructed on the basis of      
+#  energy and intensity imbalance and GG coincidences. Others: see        
+#  1979PE02                                                               
+#L J         From adopted levels. Generally consistent with assignments   
+#L of 1973BU11, except as noted in comments or footnotes                  
+#L J(A)      1973BU11 give 2+ based on G's to 0+ and 4+ but G to 4+ is not
+#L shown                                                                  
+#L J(B)      1973BU11 give (3,4+) based on G's to 2+ and 4+; however, no G
+#L to 4+ is shown and J=1,2,3 from LOGFT                                  
+#L J(C)      1973BU11 give (3,4) based on G's to 2+ and 4+; however, no G 
+#L to 4+ is shown and J=1,2,3 from LOGFT. No JPI adopted by evaluator due 
+#L to uncertainty in G placements                                         
+#E           EC/B+=0.65 1 from XK/G+- (1971KE07) compares well with       
+#E 0.70 5 from the decay scheme                                           
+#E           BG-coincidences from 1971KE07                                
+#G E         From 1971KE07, except as noted. Data of 1973BU11 are         
+#G consistent but less precise, except as noted in comments               
+#G RI        From 1973BU11, except as noted. Data of 1971KE07 are         
+#G consistent but less precise, except as noted in comments. 1973BU11 note
+#G that there are problems in some of the RI's of 1971KE07 (EG>1 MEV)     
+#G caused by sum peaks and single- and double-escape peaks                
+#N 0.524     19           1.        1.                                    
+#N NR        from SUMOF RI(1+CC) (to GS)=100                              
+#N                                                                     5  
+#E IB(D)     <0.001                                                       
+#E E(E)      EB=1330 50 originally assigned to 136PM EC decay by 1968ZH04 
+#E may correspond to these transitions                                    
+#E E(F)      From 1971KE07                                                
+#E E(B)$From G.D. Alkhazov, {Iet al}. (priv.comm. to 1985Wa04). Other     
+#E E|b+: 3000 75 (1971KE07), 2970 50 (1968ZH04)                           
+#E TI(A)     |DI(EC+B+) corrected for |D(RI-normalization),               
+#E DRI(GS) correlation                                                    
+#G           Coincidences from 1971KE07                                   
+#G           EKC,K/L: from 1973BU11. EKC normalized to                    
+#G KC(552.2G)=0.00694 (E2 theory). Others:                                
+#G EKC(540G,1092G)=0.0079 10, 0.0014 3; K/L(552.2G)=7.0 9 (1968ZH04)      
+#G M         From EKC, except for 552G result from K/L. Evaluator's       
+#G note: EKC and K/L insufficient to exclude other multipolarities. See   
+#G adopted gammas for final recommended values                            
+#G E(E)      Observed only by 1973BU11                                    
+#G E(A)      Assigned by 1973BU11 to A=136 chain but isotope not          
+#G identified                                                             
+#G E(I)      Assigned by 1973BU11 to A=136 chain. Transition with similar 
+#G energy assigned to 136ND EC decay (evaluator)                          
+#G E(H)      From 1973BU11                                                
+#G E(F)      Observed only by 1971KE07; see also following footnote       
+#G E(B)      These gammas decay with T1/2 consistent with 136PR decay but 
+#G are not observed in coincidence with other gammas and do not           
+#G correspond to a GS transition from a known level (1971KE07)            
+#G RI(D)     From 1971KE07                                                
+#P 0.0         2+                13.1 M    1              5126      18    
++G gamma 0.5521 1.0
++G gamma 0.5403 0.09
++G gamma 1.0937999999999999 0.03
++G gamma 0.7623 1.0
++G gamma 0.4614 0.04
++G gamma 1.0028 0.03
++G gamma 0.6643 0.35
++G gamma 0.8998999999999999 0.25
++G gamma 0.32880000000000004 0.13
++G gamma 1.0524 0.4
++G gamma 0.44639999999999996 0.22
++G gamma 0.741 0.04
++G gamma 0.6233 0.31
++G gamma 0.7757999999999999 0.21
++G gamma 0.1056 0.4
++G gamma 0.193 0.02
++G gamma 0.7218 0.2
++G gamma 0.9709 0.09
++G gamma 0.445 0.02
++G gamma 0.6652 0.35
++G gamma 0.857 0.02
++G gamma 0.911 0.02
++G gamma 0.8402999999999999 0.25
++G gamma 0.2537 0.12
++G gamma 0.41 0.02
++G gamma 0.9625 0.02
++G gamma 0.425 0.02
++G gamma 0.495 0.02
++G gamma 1.0727 0.33
++G gamma 0.6321 0.25
++G gamma 1.012 0.02
++G gamma 0.4719 0.18
++G gamma 0.568 0.02
++G gamma 0.761 0.13
++G gamma 0.547 0.02
++G gamma 0.164 0.02
++G gamma 0.9361 0.07
++G gamma 0.976 0.02
++G gamma 0.536 0.04
++G gamma 0.5507000000000001 0.02
++G gamma 0.64 0.02
++G gamma 0.186 0.12
++G gamma 0.194 0.04
++G gamma 0.6897000000000001 0.06
++G gamma 0.5048 0.1
++G gamma 0.2881 0.25
++G gamma 0.5437000000000001 0.04
++G gamma 0.37989999999999996 0.3
++G gamma 0.706 0.02
++G gamma 0.4365 0.23
++G gamma 0.4865 0.05
++G gamma 0.515 0.02
++G gamma 0.525 0.02
++G gamma 0.189 0.02
++G gamma 0.158 0.02
++G gamma 0.201 0.02
++G gamma 0.169 0.02
++G gamma 0.384 0.02
++G gamma 0.234 0.02
++G gamma 0.293 0.02
+

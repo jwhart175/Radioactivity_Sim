@@ -1,0 +1,26 @@
+#102IN    102SN EC DECAY                2006KA16,2005KA47         09NDS    200908
+#  102SN EC DECAY                2006KA16,2005KA47         09NDS    200908
+#H TYP=FUL$AUT=D. DE FRENNE$CIT=NDS 110, 1745 (2009)$CUT=31-Dec-2008$     
+#  All data are from 2006Ka16, unless noted otherwise                     
+#  {+102}Sn isotope produced in {+50}Cr({+58}Ni),|a2n)                    
+#  reaction at E=284-302 MeV, ion-beam facility at GSI, recoil mass       
+#  separator. Measured E|g, I|g, |g|g, |b|g, |b|g|g using an array of     
+#  one cluster, two clovers and two smaller Ge detectors surrounding the  
+#  Silicon detectors for |b detection. Total absorption |b spectrum (TAS) 
+#E TI$From total absorption spectra (TAS) (2005Ka47,2006Ka16)             
+#E $Total beta intensity adds up to 83% which means that 17% is missing   
+#E This might be due to the missing intensity between the highest observed
+#E level at 2200 keV and the Q value at 5.78E3 keV. So these results      
+#E might be incomplete and unreliable                                     
+#G E(A)$Transition introduced to reproduce the TAS spectrum               
+#G E(X)$|g seen in coin, but not assigned in the level scheme             
+#L E(A)$ Pseudo-level introduced to reproduce the TAS spectrum            
+#L J$From Adopted Levels                                                  
+#P 0             0+              3.8 S     2              5.78E3    7     
++B beta+ 1.578 0.04
++B beta+ 1.46 0.11
++B beta+ 1.448 0.39
++B beta+ 1.326 0.12
++B beta+ 1.279 0.07
++B beta+ 1.143 0.09699999999999999
+

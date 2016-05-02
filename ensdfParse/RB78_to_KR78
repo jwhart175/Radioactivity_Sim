@@ -1,0 +1,141 @@
+# 78KR4C  BE POPULATED FROM 78RB EC DECAY, MAINLY FROM 4(-) ISOMER AND LESS SO   
+#  BE POPULATED FROM 78RB EC DECAY, MAINLY FROM 4(-) ISOMER AND LESS SO   
+#  FROM 0(+) ISOMER. HOWEVER, NO SEPARATE DECAY DATA WERE LISTED BY       
+#  1999SU02                                                               
+#  Others:                                                                
+#  1979He18: T1/2 measurement                                             
+#  1979ReZW: B+ radiation is studied from this activity alone by          
+#  waiting 45 M after bombardment of 78KR target by protons               
+#  1974Sa32: measured GG(THETA) for two cascades: 664-455 and 562-455     
+#  1973Br32, 1972LiZL, 1972No14                                           
+#  All data given here are from 1981Ba40 unless otherwise stated.         
+#  Measured conversion coefficients are from 1995Gi13                     
+#  Two activities (5.74 MIN and 17.66 MIN) of 78RB were                   
+#  identified by most of the authors, but only 1981Ba40 and               
+#  1972No14 proposed separate decay schemes.                              
+#  Total decay energy of 6937 keV {I130} calculated (by RADLIST code)     
+#  from level scheme is somewhat lower than the expected value of         
+#  7243 keV {I8}                                                          
+#E IB(B)$1979ReZW deduce this from singles B+ spectrum                    
+#E TI$Because of the large Q value and the probable large number of       
+#E unobserved transitions, EC+B+ branches with intensities less than      
+#E a few percent should be considered tentative                           
+#G $ Intensity of annihilation radiation=274 {I3} (1981Ba40),             
+#G relative to 100 for 455|g                                              
+#G M$ From measured EKC values of 1995Gi13, some of the EKC values        
+#G are measured in the decay of 5.74-min isomer of 78RB                   
+#L E$From least-squares fit to EG's                                       
+#L J$ From 'adopted levels'                                               
+#L J(A),T(A)$ JPI from (562G)(455G)(THETA) (1974SA32).                    
+#L T=7.62 PS 21 (1995Gi13) measured by DSAM in (p,p'|g) reaction;         
+#L this half-life used in deducing |r{+2} value for E0 transition         
+#P    0.0       0(+)             17.66 M   3              7243      8     
+RB78 KR78 beta+ 7.243 1059.6 1
++B beta+ 2.9085 0.08
++B beta+ 2.6864 0.024
++B beta+ 2.4129 0.02
++B beta+ 2.3495 0.032
++B beta+ 2.0471 0.0026
++B beta+ 1.9341 0.0049
++B beta+ 1.8251 0.006999999999999999
++B beta+ 1.822 0.013600000000000001
++B beta+ 1.7247999999999999 0.023700000000000002
++B beta+ 1.6939000000000002 0.0054
++B beta+ 1.6627 0.009000000000000001
++B beta+ 1.6231 0.01
++B beta+ 1.5151 0.0092
++B beta+ 1.4629 0.0046
++B beta+ 1.3502 0.015700000000000002
++B beta+ 1.2526 0.149
++B beta+ 1.2047999999999999 0.065
++B beta+ 1.1879000000000002 0.0254
++B beta+ 1.1471 0.0359
++B beta+ 1.0689000000000002 0.027000000000000003
++B beta+ 1.0391 0.159
++B beta+ 1.0185 0.03
++B beta+ 0.9859 0.02
++B beta+ 0.9708 0.033
++B beta+ 0.9481 0.026000000000000002
++B beta+ 0.8962 0.0052
++B beta+ 0.7955 0.0059
++B beta+ 0.5287000000000001 0.004
++B beta+ 0.5064 0.0024
++B beta+ 0.4537 0.0034999999999999996
++B beta+ 0.4485 0.0044
++B beta+ 0.4353 0.0016
++B beta+ 0.4259 0.0022
++B beta+ 0.38689999999999997 0.0017000000000000001
++B beta+ 0.371 8.0E-4
++B beta+ 0.3018 0.0013
++B beta+ 0.29560000000000003 3.0E-4
++B beta+ 0.2852 4.9E-4
++B beta+ 0.2774 2.4E-4
+
+# 78KR4C  BE POPULATED FROM 78RB EC DECAY, MAINLY FROM 4(-) ISOMER AND LESS SO   
+#  BE POPULATED FROM 78RB EC DECAY, MAINLY FROM 4(-) ISOMER AND LESS SO   
+#  FROM 0(+) ISOMER. HOWEVER, NO SEPARATE DECAY DATA WERE LISTED BY       
+#  1999SU02                                                               
+#  Others: 1979He18, 1975We23, 1974Sa32, 1973Ba03, 1973Br32, 1972No14,    
+#  1972LiZL, 1972Ar10, 1971Do01, 1969Ch18, 1968To05.                      
+#  In the high-spin study of 1984Hi08, main activity formed               
+#  was 5.74-M 78RB as suggested by RI(455)/RI(664)=100/48.5 and non-      
+#  observation of 562|g                                                   
+#  Two activities (5.74 MIN and 17.66 MIN) of 78RB were                   
+#  identified by most of the authors, but only 1981Ba40 and               
+#  1972No14 proposed separate decay schemes.                              
+#  A 4.2-min isomer suggested by 1971Do01 was proven to be nonexistent    
+#  by 1972De54                                                            
+#  All data given here are from 1981Ba40 unless otherwise stated.         
+#  Measured conversion coefficients are from 1995Gi13                     
+#  Total decay energy of 6616 keV {I50} calculated (by RADLIST code)      
+#  from level scheme agrees with the expected value of 6619 keV {I150}    
+#E $ B+ radiation studied 1981Ba40, 1979ReZW, 1976DaYR, 1975BaWR          
+#E and 1975We23.                                                          
+#E TI$Because of the large Q value, and the consequent likelihood         
+#E of a large number of unobserved transitions, the feedings with         
+#E intensity less than a few percent should be considered tentative       
+#G $ Intensity of annihilation radiation=197 {I3} (1981Ba40),             
+#G relative to 100 for 455|g                                              
+#G M$ From measured EKC values of 1995Gi13, some of the EKC values        
+#G are measured in the decay of 17.66-min activity of 78RB                
+#L E$From least-squares fit to EG's. The doubly-placed 1852.55|g from     
+#L 2999 level was omitted from the fitting procedure as its inclusion     
+#L resulted in a normalized |h{+2}=3.6                                    
+#L J$From 'adopted levels'                                                
+#L E(A)$ IF J(4008)=1, POPULATION OF THIS LEVEL FROM 4(-) PARENT STATE IS 
+#L SUSPECT (EVALUATORS)                                                   
+#P  111.19   22 4(-)             5.74 M    3              7243      8     
+RB78 KR78 beta+ 7.243 344.40000000000003 0.91
++B beta+ 2.4172 0.13
++B beta+ 2.4046 0.006
++B beta+ 2.2014 0.054000000000000006
++B beta+ 2.1143 0.0138
++B beta+ 2.1007 0.0089
++B beta+ 2.0525 0.040999999999999995
++B beta+ 2.0087 0.0084
++B beta+ 1.8785 0.009300000000000001
++B beta+ 1.8754000000000002 0.0043
++B beta+ 1.847 0.0215
++B beta+ 1.7994 0.031200000000000002
++B beta+ 1.7924 0.0189
++B beta+ 1.7781 0.0016
++B beta+ 1.7470999999999999 9.6E-4
++B beta+ 1.7158 0.0138
++B beta+ 1.6659000000000002 0.026600000000000002
++B beta+ 1.6315 0.0429
++B beta+ 1.6247 0.12
++B beta+ 1.5684 0.008100000000000001
++B beta+ 1.5158 0.0019
++B beta+ 1.5126 0.023799999999999998
++B beta+ 1.4815 0.0068000000000000005
++B beta+ 1.4779 0.021400000000000002
++B beta+ 1.4622 0.0277
++B beta+ 1.4357 0.0446
++B beta+ 1.4014000000000002 0.0231
++B beta+ 1.341 0.0098
++B beta+ 1.1959000000000002 0.0335
++B beta+ 1.1695 0.028900000000000002
++B beta+ 1.1584 0.005699999999999999
++B beta+ 1.1465 0.08800000000000001
++B beta+ 1.0375999999999999 0.0017000000000000001
+

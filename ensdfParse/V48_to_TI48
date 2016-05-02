@@ -1,0 +1,75 @@
+# 48TI    48V EC DECAY                                            06NDS    200607
+#  48V EC DECAY                                            06NDS    200607
+#H TYP=FUL$AUT=T. W. Burrows$CIT=NDS 107, 1747 (2006)$CUT=14-Apr-2006$    
+#  1957VA08: MEASURED CE'S AND B+'s; MAG SPECT.                           
+#  1967KO01,1967KO10: MEASURED G's AND GGG-COIN (NAI,GELI), CE's AND B+'s 
+#  (MAG SPECT, PC), AND BG-COIN.                                          
+#  1973BA02: MEASURED G'S. SEE ALSO 48TI(P,P'G),(A,A'G),(35CL,35CL'G).    
+#  1974ME15: MEASURED B+'S; MAG SPECT, Geiger-Mueller COUNTERS.           
+#  1975AL23: MEASURED G'S, X-RAYS, XG-COIN, AND G(T); SILI, GELI.         
+#  1979Gr01: MEASURED G's. 198AU STANDARD.                                
+#  1990ME15: MEASURED G'S.                                                
+#  2005TRZZ: MEASURED G'S; HPGe.                                          
+#  B-983G CIRCULAR POLARIZATION ASYMMETRY PARAMETER=-0.081 3 (1971PI05).  
+#  SEE 1971PI05 FOR A SUMMARY OF EARLIER MEASUREMENTS.                    
+#  OTHERS: SEE 1993BU04.                                                  
+#E           BG COINCIDENCE INFORMATION IS FROM 1967KO10.                 
+#E           P{-K}|w{-K}=0.2005 30 (1975AL23).                            
+#E E         FROM 1974ME15, EXCEPT AS NOTED.                              
+#E IB,IE     FROM I(EC+B+) AND THEORETICAL EC/B+ RATIOS, EXCEPT AS NOTED. 
+#E TI,IE(A)  FROM IG IMBALANCE AT EACH LEVEL.                             
+#E IB(B),LOGFT(D)$IB+(TO 2421)/IB+(TO 2296)=0.0019 6 (1974ME15) WOULD     
+#E RESULT IN LOGFT(to 2421)=8.5 2 WHICH IS INCONSISTENT WITH THE EXPECTED 
+#E VALUE OF GT 12.8.                                                      
+#E IB(E),LOGFT(F)$IB+(to 983)/IB+(to 2296)=0.00170 24 (1974ME15) WOULD    
+#E RESULT IN LOGFT(to 983)=10.9 1 WHICH IS INCONSISTENT WITH THE EXPECTED 
+#E VALUE OF GT 12.8.                                                      
+#E IB(0),IE(1),TI(2)$UPPER LIMIT WITH 90% CONFIDENCE LEVEL HAS BEEN       
+#E ESTIMATED BY THE EVALUATOR FOR ^I(|e+|b{++})(TO 2421)=-0.010 13 AND    
+#E ^I(|e+|b{++})(TO 984)=-0.6 3, RESPECTIVELY (FROM GAMMA-RAY TRANSITION  
+#E INTENSITY BALANCE).                                                    
+#G           GG COINCIDENCE INFORMATION IS FROM 1967KO01 AND 1967KO10.    
+#G E$Weighted averages of the following, except as noted:                 
+#G {U 1979Gr01 }    {U 1990Me15  }  {U 2005TrZZ  }                        
+#G   {U       Average       }                                             
+#G                803.25 {I8}     802.85 {I3}     802.90 {I13} (external) 
+#G  928.327 {I5}     928.327 {I9}    928.34 {I6}     928.327 {I5}         
+#G  944.132 {I5}     944.125 {I7}    944.135 {I12}   944.130 {I4}         
+#G  983.521 {I7}     983.526 {I5}    983.526 {I5}    983.525 {I4}         
+#G 1312.096 {I6}    1312.090 {I12}  1312.115 {I5}   1312.106 {I8}         
+#G  (external)                                                            
+#G               1437.35 {I7}    1437.529 {I15}  1437.52 {I4} (external)  
+#G 2240.395 {I8}    2240.398 {I10}  2240.396 {I16}  2240.396 {I6}         
+#G               2375.1 {I5}     2375.20 {I4}    2375.20 {I4}             
+#G               2421.8 {I5}     2420.93 {I4}    2420.94 {I7} (external)  
+#G RI        FROM 2005TRZZ, EXCEPT AS NOTED. RI'S FROM 1990ME15 ARE IN    
+#G GOOD AGREEMENT                                                         
+#G M,MR,CC   FROM THE Adopted Gammas                                      
+#G $ECC: FROM ICE(929G)/IB+=0.050E-3 25 (1967KO01),                       
+#G ICE(944G)/IB+=0.207E-3 12 (1967KO01), ICE(984G)/IB+=2.40E-3 12         
+#G (WEIGHTED AV OF 2.54E-3 12 (1967KO01) AND 2.3E-3 1 (1957VA08)),        
+#G ICE(1312G)/IB+=1.15E-3 3 (WEIGHTED AV OF 1.17E-3 6 (1967KO01) AND      
+#G 1.14E-3 4 (1957VA08)), AND ICE(2240G)/IB+=0.00706E-3 35 (1957VA08)     
+#G ASSUMING IB+=49.9% 8 FROM THE PRESENT DECAY SCHEME AND USING THE IG    
+#G FROM 2005TRZZ.                                                         
+#G RI(B)     RI(803G):RI(928G):RI(2241G)=4.0 2:26.3 4:69.7 5 (1973BA02).  
+#G E(C),RI(C)$NOT OBSERVED BY 2005TRZZ. RI(938G)<0.01; RI(1063G)<0.06.    
+#G E(1),RI(2)$FROM THE Adopted Gammas. RI FROM ADOPTED BRANCHING RATIOS   
+#G AND RI(2375G)=0.087 3.                                                 
+#G E(3),RI(4)$FROM 1990ME15. EG DISCREPANT WITH 1063.13 4 FROM DECAY      
+#G SCHEME. RI DISCREPANT WITH ADOPTED RI(1064G)/RI(2375G)=0.082 17.       
+#G CC(5)     EXCLUDING INTERNAL PAIR FORMATION, CC(1312)=5.84E-5 16 AND   
+#G CC(2240)=2.16E-5 3                                                     
+#L J,T       FROM THE Adopted Levels.                                     
+#P    0.0                4+      15.9735 D 25             4012.3    24    
++B beta+ 0.8786 0.0023
++G gamma 0.983525 0.9998
++B beta+ 0.2903 4.99
++B beta+ 0.2372 2.0E-5
++B beta+ 8.927000000000001E-4 9.151E-4
++B beta+ 8.927000000000001E-4 9.152E-4
++B beta+ 8.925E-4 9.170000000000001E-4
++G gamma 0.938 7.09858E-6
++G gamma 1.0639 4.999E-5
++G gamma 2.3752 8.698259999999999E-5
+

@@ -1,0 +1,81 @@
+#183PT    183AU EC DECAY                1989RO21,1984MA41                  199107
+#  183AU EC DECAY                1989RO21,1984MA41                  199107
+#H TYP=FMT$AUT=J. Tuli$DAT=15-Dec-2004$COM=Corrected M E2 G's with DMR>0$ 
+#H TYP=ERR$AUT=J. TULI$COM=CHANGED P-CARD JPI TO ADOPTED$                 
+#H TYP=ERR$AUT=J. TULI$COM=FIXED FORMAT ERRORS 1/97$                      
+#H TYP=FUL$AUT=R.B. FIRESTONE$CIT=NDS 65,589 (1992)$CUT=22-Dec-1992$      
+#H TYP=UPD$AUT=R. Firestone$CUT=22-Dec-1992$                              
+#  The decay scheme was derived by 1989Ro21 on the basis of GG-coincidence
+#  data and conversion electron data. Significant unplaced transition     
+#  intensity and the lack of level data above 2 MEV, suggest that the     
+#  decay scheme is incomplete.                                            
+#E TI$Calculated from intensity balance. Significant unplaced intensity   
+#E casts doubt on the weaker branchings and the derived LOGFT values.     
+#G RI(D)$From coincidence data                                            
+#G M$For EG LT 220 from 1984Ma41, otherwise from 1989Ro21. Normalized to  
+#G 160G in 183AU. For transitions with E>300 KEV the electron intensities 
+#G are on the same scale as the gammas. Relative electron intensities     
+#G have AP 15% uncertainties.                                             
+#N    0.059   7  0.059  7  0.9964 6  1.00                                 
+#N NR$calculated assuming SUMOF IG(GS+34.5)=95 5 and 34.5 feeding is <10%.
+#N The feeding to the 34.5 level is assumed to be similar to the          
+#N allowed decay to the 3/2- and 5/2- components of the 1/2[521] band in  
+#N in 183PT. Note that the unplaced intensity is consistent with no       
+#N net feeding to the lower-lying levels.                                 
+#P 0.0          (5/2)-              42.0 S 12                 5610  SY    
++B beta+ 2.0 0.05
++B beta+ 2.0 0.040999999999999995
++B beta+ 1.95 0.005699999999999999
++B beta+ 1.94 0.022000000000000002
++B beta+ 1.93 0.01
++B beta+ 1.91 0.01
++B beta+ 1.91 0.018000000000000002
++B beta+ 1.9 0.015
++B beta+ 1.8 0.0045000000000000005
++B beta+ 1.8 0.0043
++B beta+ 1.8 0.0025
++B beta+ 1.8 0.00178
++B beta+ 1.8 0.005
++B beta+ 1.8 0.011899999999999999
++B beta+ 1.8 0.0020599999999999998
++B beta+ 1.8 0.0063
++B beta+ 1.8 0.0077
++B beta+ 1.8 0.0103
++B beta+ 1.8 0.0123
++B beta+ 1.7 0.0053
++B beta+ 1.7 0.0088
++B beta+ 1.7 0.0043
++B beta+ 1.7 0.0033
++B beta+ 1.7 0.0028000000000000004
++B beta+ 1.7 0.0058
++B beta+ 1.7 0.0014000000000000002
++B beta+ 1.7 0.0051
++B beta+ 1.7 0.0028000000000000004
++B beta+ 1.7 4.0E-4
++B beta+ 1.7 0.0044
++B beta+ 1.6 0.0021
++B beta+ 1.6 0.00217
++B beta+ 1.6 9.8E-4
++B beta+ 1.6 0.00169
++B beta+ 1.6 0.0025
++B beta+ 1.6 0.00233
++B beta+ 1.6 8.6E-4
++B beta+ 1.6 0.004
++B beta+ 1.6 0.00179
++B beta+ 1.3 6.7E-4
++B beta+ 1.3 0.00146
++B beta+ 1.2 0.0018
++B beta+ 1.2 0.00167
++B beta+ 1.2 0.0055000000000000005
++B beta+ 1.2 0.00127
++B beta+ 1.2 0.009899999999999999
++B beta+ 1.2 0.0028000000000000004
++B beta+ 1.2 0.0068000000000000005
++B beta+ 1.2 0.0067
++B beta+ 1.2 0.0076
++B beta+ 1.2 0.0034999999999999996
++B beta+ 1.2 0.018600000000000002
++B beta+ 1.2 0.0074
++B beta+ 1.2 0.005699999999999999
++B beta+ 1.2 8.2E-4
+

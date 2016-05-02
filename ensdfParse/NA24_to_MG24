@@ -1,0 +1,21 @@
+# 24MG    24NA B- DECAY (14.997 H)                                07NDS    200710
+#  24NA B- DECAY (14.997 H)                                07NDS    200710
+#H TYP=FUL$AUT=R.B. FIRESTONE$CIT=NDS 108, 2319 (2007)$CUT=3-Oct-2006$    
+#  Source production by {+23}Na(n,|g). many authors.                      
+#G E$From 1995HeZZ and 1972Ra21                                           
+#G RI$From 1985LoZT and 1972Ra21, except as noted                         
+#L E,J$From adopted levels                                                
+#P 0            4+                14.997 H 12             5515.45    8    
+NA24 MG24 beta- 5.5154499999999995 0.0 1.0
++B beta-0.004 0.04
++B beta-1.865 0.03
++B beta-0.554 0.03
+
+# 24MG    24NA B- DECAY (20.20 MS)      1956DR11,1980HE08         07NDS    200710
+#  24NA B- DECAY (20.20 MS)      1956DR11,1980HE08         07NDS    200710
+#H TYP=FUL$AUT=R.B. FIRESTONE$CIT=NDS 108, 2319 (2007)$CUT=3-Oct-2006$    
+#L E,J$From adopted levels                                                
+#P 472.207    9 1+               20.20 MS  7              5513.6     6    
+NA24 MG24 beta- 5.5136 0.0202 0.0005
++B beta-0.0892 0.22
+

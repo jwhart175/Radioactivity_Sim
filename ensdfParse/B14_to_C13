@@ -1,0 +1,26 @@
+# 13C     14B B-N DECAY                 1993ReZX                           201310
+#  14B B-N DECAY                 1993ReZX                           201310
+#H TYP=UPD$AUT=J. Kelley, C.G. Sheu$CUT=28-August-2013$                   
+#H COM=Updated data set since last full evaluation$                       
+#  1993ReZX: Spallation products from 800 MeV proton bombardment of a     
+#  {+232}Th target were captured by a transport line with a mass-to-charge
+#  filter and transferred to the TOFI spectrometer at LAMPF. The          
+#  beamline was separately tuned to transport a number of different       
+#  nuclides. The neutrons were detected in a polyethylene moderated {+3}He
+#  counter, and standard techniques were implemented. The |b-delayed      
+#  neutron probabilities were deduced from analysis of the number of      
+#  implanted ions (per beam pulse) and the rate of |b-delayed neutrons    
+#  detected in the zero-threshold counter.                                
+#  An associated conference report indicates the |b-delayed neutron       
+#  probability P{-n}=(6.1 {I3})% and T{-1/2} = 12.4 ms {I3} (the          
+#  International conference on nuclear data for science and technology:   
+#  nuclear data for the twenty-first century, Gatlinburg, TN (United      
+#  States), 9-13 May 1994).                                               
+#  Results presented in (1993ReZX) analyzed the data measured in the      
+#  polyethylene moderated {+3}He counter and deduced a general value for  
+#  the energy of neutrons emitted from the decay; E{-n}=1.38 MeV          
+#  {I+86-65}. The value E{-n}=1.3 MeV {I3} is published in the 1994       
+#  conference report.                                                     
+#P 0           2-                12.6 MS   6              12470     21    
+B14 C13 neutron&beta- 12.47 0.0126 0.061
+

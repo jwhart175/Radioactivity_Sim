@@ -1,0 +1,16 @@
+# 52V     52TI B- DECAY (1.7 M)         1967MO11                  15NDS    201509
+#  52TI B- DECAY (1.7 M)         1967MO11                  15NDS    201509
+#H TYP=FUL$AUT=YANG DONG, HUO JUNDE$CIT=NDS 128, 185 (2015)$              
+#H CUT=10-Jul-2015$                                                       
+#  Source from {+50}Ti(t,p) reaction, measured a low energy |g-ray        
+#  spectrum with a thin NaI crystal with barylium window, measured |g-ray 
+#  spectrum around the energy of 125 keV with a 2 cm{+3} Ge(Li) detector, 
+#  |g|g-coin.                                                             
+#G E         From adopted |g's.                                           
+#G RI        From I(|g+ce)=100.                                           
+#G CC        From Brlcc.                                                  
+#L J         From adopted levels.                                         
+#P 0.0         0+                1.7 M     1              1975      7     
+TI52 V52 beta- 1.975 102.0 1.0
++G gamma 0.12445300000000001 0.917
+

@@ -1,0 +1,83 @@
+#193IR    193OS B- DECAY                2002MA18,1972PR04,1970BE0606NDS    200602
+#  193OS B- DECAY                2002MA18,1972PR04,1970BE0606NDS    200602
+#H TYP=FUL$AUT=E. Achterberg, G.V. Marti, V.R. Vanin, et al.$             
+#H CIT=NDS 107, 1 (2006)$CUT=30-Sep-2005$                                 
+#  1972Pr04, 1970Be06, 1969Pr02, 1958Na15: measured G, CE, B, GG, BG,     
+#  (CE)(CE)(T)                                                            
+#  1984Gh01, 1973Kr05: measured GG(THETA), G(THETA,H,TEMP)                
+#  The decay scheme shown is from 1972Pr04.                               
+#  Other contributing references are:                                     
+#  G: 1971Lu08, 1970Ra37                                                  
+#  CE: 1970Ba56, 1970Be06, 1969Co08                                       
+#  CE: 1970Ba56, 1969Co08                                                 
+#  GG(T), BG(T), B(CE)(T): 1973Il02, 1972Be85, 1969Ba28,                  
+#  1969Li13, 1969Va36, 1968Av02                                           
+#  GG(THETA,H,TEMP): 1985Be03                                             
+#  Others: 1972De67, 1971Bb09, 1968Av01, 1968Av02, 1968Pl03, 1968Ra24,    
+#  1967Ag06, 1967Pe03, 1960Fe03, 1958Du76, 1954De04, 1953Co13.            
+#B           B- feedings are from intensity imbalance at each             
+#B level.                                                                 
+#B           Others: EB: 1968Pl03, 1967Ag06, 1958Du76, 1954De04; BG:      
+#B 1969Pr02, 1968Pl03, 1967Ag06, 1960Fe03, 1958Du76                       
+#G           Experimental ICE from 1972Pr04, 1970Be06, 1970Ba56, and      
+#G 1969Co08. Other: 1968Pl03 (not included in the evaluation; ICE         
+#G uncertainties were not reported)                                       
+#G                                                                        
+#G                                E(X-ray)      I(X-ray) *                
+#G                   ----------    ----------                             
+#G IR XKA2       63.28 5         98 9                                     
+#G IR XKA1       64.90 5        160 16                                    
+#G IR XKB1P      73.58 10        33 5                                     
+#G IR XKB2P      75.63 5         13 2                                     
+#G                                                                        
+#G           * I(K x ray),                                                
+#G relative to RI=100 for 460.5G (1972Pr04)                               
+#G E         Weighted average (^LWM) of values from 1972Pr04              
+#G (measured EG, E(CE)),1970Be06, and 1971Lu08, unless otherwise          
+#G noted. The most comprehensive list of G rays is given in 1972Pr04.     
+#G RI        Weighted average (^LWM) of 1972Pr04, 1970Be06, and           
+#G 2002Ma18 (using the data taken from the coincidence experiment),       
+#G unless otherwise noted                                                 
+#G M         Definite and probable assignments are from ICC measurements  
+#G when MR was determined, otherwise from adopted gammas, unless noted    
+#G MR        From 1984Gh01. Based on a combined analysis of angular       
+#G correlation and nuclear orientation data, using MR(138.9G)=-0.329 12.  
+#G Exceptions are noted.                                                  
+#G MR        Signed values are from 1984Gh01 and unsigned ones from       
+#G ICC data; exceptions are noted. 1984Gh01 performed a combined          
+#G analysis of angular correlation and nuclear orientation data, using    
+#G MR(138.9G)=0.329 12 from ICC. The ICE data have been normalized        
+#G by the evaluator at the theoretical KC for the 138.9G; their average   
+#G (LWM) was used to deduce ICC using the adopted IG, and were            
+#G simultaneously fitted to MR following 1980Ry04 algorithm; experimental 
+#G uncertainties in %M1 or %E2 for the transitions deduced pure in view   
+#G of the experimental ICC are reported in the Comments.                  
+#G CC        The uncertainties given with the theoretical CC's are due    
+#G to DMR and/or DE. There is an additional 3% uncertainty attributed to  
+#G theoretical calculations.                                              
+#G E(A),RI(A)$From 1972Pr04; seen in coincidence spectra only.            
+#G E(H),RI(H)$From 1972Pr04.                                              
+#G E(B)      Energies from 1972Pr04, 1971Lu08, and 1970Be06 are marginally
+#G consistent, therefore the weighted average (^LWM) and its external     
+#G uncertainty has been adopted. Energies for all transitions             
+#G below 142 keV are either discrepant or marginally consistent;          
+#G thus, their adopted uncertainties have been increased.                 
+#G E(F)      DE(559.26G-557.36G)=1.9 1  (1967Me12).                       
+#G From analysis of complex G-line obtained with GE(LI)                   
+#G detector using I(557G)/I(559G)=3.0 6                                   
+#G RI(E)     At the limit of detection.                                   
+#G RI(C)     G-ray intensities from 1972Pr04 and 1970Be06 are marginally  
+#G consistent, therefore a weighted average (^LWM) and its external       
+#G uncertainty has been adopted. Intensities for all transitions at       
+#G energies below 142 keV are either discrepant or marginally consistent; 
+#G thus, their adopted uncertainties have been increased.                 
+#G M(D)      From G(THETA,H,TEMP) (1973Kr05,1984Gh01)                     
+#L E,J,T(M)  From adopted levels                                          
+#L T         Best values from B-decay unless otherwise noted;             
+#L adopted values are given under Comments when different                 
+#L E(L)      Level proposed by the evaluators: G 667.7 in 193OS decay     
+#L agrees with G 667.97 in (NN,G) and (D,NG), and G 668.04 in             
+#L (N,N'G) from 860.9 level.                                              
+#P 0.0          3/2-             30.11 H   1              1141.2    23    
+OS193 IR193 beta- 1.1412 108396.0 0.0388
+

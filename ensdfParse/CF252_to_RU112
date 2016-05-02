@@ -1,0 +1,125 @@
+#112RU    252CF SF DECAY                2009LU18,2009ZH24,2013SN0115NDS    201412
+#  252CF SF DECAY                2009LU18,2009ZH24,2013SN0115NDS    201412
+#H TYP=FUL$AUT=S. LALKOVSKI, F.G. KONDEV$CIT=NDS 124, 157 (2015)$         
+#H CUT=1-Aug-2014$                                                        
+#  2009LU18,2009ZH24: Facility: ^LBNL; Source: 62 |mCi 252CF placed       
+#  between two FE foils of 10 mg/cm{+2} thickness; Detectors:             
+#  ^GAMMASPHERE; Measured: |g-|g-|g coin., |g|g(|q), E|g, I|g; Deduced:   
+#  level scheme; Also, from the same group: 2010HA16, 2009LU01, 2009ZH50, 
+#  2007GO21, 2007CHZZ, 2006CH07, 2004HA19, 2002HA46, 1997HA64, 1995LU10   
+#  2013SN01: Facility: ^ANL; Source: 230 |mCi 252CF, covered with 240     
+#  |mg/cm{+2} of Au, on a Pt backing of thickness of 440 mg/cm{+2};       
+#  Detectors: ^GAMMASPHERE and ^HERCULES array of 64 fast-plastic         
+#  detectors; Measured: |g-|g-|g coin., E|g, I|g and T (using ^DSAM)      
+#  Others: 2004Sm04, 2005Sm08, 1974JaZN, 1974JaYY, 1970Ch11               
+#L E$From least-squares fit to E|g's                                      
+#L J$From 2009Lu18 and 2009Zh24 based on |g|g(|q)                         
+#L for selected cascades and the observed band structures.                
+#L BAND(F)$ Possible two-phonon |g-vibrational band,|a=0                  
+#L BAND(f)$ Possible two-phonon |g-vibrational band,|a=1                  
+#L BAND(B)$ K|p=0+, GS band                                               
+#L BAND(C)$ K|p=2+,|g-vibrational band,|a=0                               
+#L BAND(c)$ K|p=2+,|g-vibrational band,|a=1                               
+#L BAND(D)$ likely K|p=6- band (|a=1). The assignment is tentative.       
+#L BAND(d)$ likely K|p=6- band (|a=0). The assignment is tentative.       
+#L BAND(E)$ K|p=4-,|n1/2[411]~#|n7/2[523] band, |a=1                      
+#L BAND(e)$ K|p=4-,|n1/2[411]~#|n7/2[523] band, |a=0                      
+#L BAND(A)$ |g-ray cascade built on the top of the 2392 keV level         
+#G E,RI$From 2009Lu18 and 2009ZH24, unless otherwise noted. |DE|g's were  
+#G assigned by the evaluators. The RI values quoted from 2013Sn01 have    
+#G uncertainties of 3 % for the strong transitions up to 40 % for the     
+#G weak ones                                                              
+#P 0.0         0+                2.645 Y   8                              
+CF252 RU112 SF 0.0 8.346802377600001E7 0.03092
++G gamma 0.2368 1.0
++G gamma 0.2868 1.0
++G gamma 0.5236000000000001 0.9179999999999999
++G gamma 0.4082 1.0
++G gamma 0.224 0.35100000000000003
++G gamma 0.5108 1.0
++G gamma 0.2332 0.055999999999999994
++G gamma 0.3356 0.22899999999999998
++G gamma 0.4572 1.0
++G gamma 0.7441 0.036000000000000004
++G gamma 0.5447000000000001 1.0
++G gamma 0.2547 0.057
++G gamma 0.4878 1.0
++G gamma 0.5905 0.069
++G gamma 0.6663 0.154
++G gamma 0.89 1.0
++G gamma 0.3348 0.026000000000000002
++G gamma 0.3803 0.012
++G gamma 0.5892999999999999 1.0
++G gamma 0.2359 1.0
++G gamma 0.6688999999999999 0.055999999999999994
++G gamma 0.9021 0.222
++G gamma 0.65 1.0
++G gamma 0.2708 0.040999999999999995
++G gamma 0.6057 1.0
++G gamma 0.542 1.0
++G gamma 0.7205 0.125
++G gamma 0.975 0.63
++G gamma 1.0144 0.33299999999999996
++G gamma 1.2475 1.0
++G gamma 1.3502 0.16699999999999998
++G gamma 0.5897 0.387
++G gamma 1.0225 1.0
++G gamma 1.3583 0.33
++G gamma 1.1672 0.2
++G gamma 1.5029000000000001 1.0
++G gamma 0.22690000000000002 0.067
++G gamma 0.2351 0.092
++G gamma 0.6601 0.135
++G gamma 0.9949 0.42
++G gamma 1.0406 1.0
++G gamma 0.5819 1.0
++G gamma 0.9957999999999999 0.68
++G gamma 0.6932999999999999 1.0
++G gamma 0.331 0.121
++G gamma 0.7641 0.34
++G gamma 1.0988 1.0
++G gamma 1.1445999999999998 0.4
++G gamma 1.1565999999999999 1.0
++G gamma 0.259 0.12300000000000001
++G gamma 0.3414 0.127
++G gamma 0.486 0.048
++G gamma 0.9191 0.17
++G gamma 1.2995999999999999 1.0
++G gamma 0.6936 1.0
++G gamma 0.723 1.0
++G gamma 0.4263 0.1
++G gamma 0.7331 0.042
++G gamma 1.0041 0.11800000000000001
++G gamma 1.3845999999999998 1.0
++G gamma 0.2825 0.24
++G gamma 0.9307000000000001 0.07
++G gamma 0.932 0.035
++G gamma 0.2551 1.002
++G gamma 0.34 0.045
++G gamma 1.0588 1.0
++G gamma 0.6779 1.0
++G gamma 0.7701 1.0
++G gamma 0.3048 0.11
++G gamma 0.5872999999999999 1.0
++G gamma 1.237 0.4
++G gamma 0.26480000000000004 0.09300000000000001
++G gamma 0.5197999999999999 1.0
++G gamma 0.8307 0.23
++G gamma 1.2545 0.35
++G gamma 0.7563 1.0
++G gamma 0.7632000000000001 1.0
++G gamma 0.2856 0.174
++G gamma 0.5506 1.0
++G gamma 0.3443 0.14
++G gamma 0.649 1.0
++G gamma 0.6199 1.0
++G gamma 0.3317 0.14800000000000002
++G gamma 0.6174 1.0
++G gamma 1.1488 0.26
++G gamma 0.3478 0.17
++G gamma 0.692 1.0
++G gamma 0.8372999999999999 1.0
++G gamma 0.43010000000000004 0.2
++G gamma 0.9366 1.0
++G gamma 0.8754 1.0
+

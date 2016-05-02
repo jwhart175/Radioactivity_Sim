@@ -1,0 +1,49 @@
+#169RE C  2012PO01: CALCULATION OF 173IR A DECAY HALF-LIFE.                      
+#  2012PO01: CALCULATION OF 173IR A DECAY HALF-LIFE.                      
+#  Parent JPI has not been established; however, based on energy          
+#  systematics of orbitals in neighboring IR isotopes, the 3/2[402] and   
+#  5/2[402] orbitals are expected at very low excitation in 173IR,        
+#  PROBABLY below the 5/2- 1/2[541] state which forms the GS for 175IR    
+#  through 185IR (1992SC16).                                              
+#  Parent T=9.3 S 6 from unweighted average of 9.8 S 14                   
+#  (1992SC16), 8.1 S 3 (1992BO21) AND 10 S 1 (2004GOZZ). THE WEIGHTED     
+#  AVERAGE OF THESE DATA IS 8.4 S 4.                                      
+#  PARENT JPI: FROM 2001KO44.                                             
+#A HF        R0=1.556 20 (based on R0 for 168W (1.56 2) and 170OS         
+#A (1.553 14) in 1998AK04).                                               
+#L J,T       From Adopted Levels.                                         
+#P 0.0          (1/2+,3/2+)      9.3 S      6             5716      10    
+IR173 RE169 alpha 5.716 9.3 0.04
++A alpha 5.418 1.0
+
+#169RE2C  2012PO01 (CALCULATION OF 173IR A DECAY HALF-LIFE).                     
+#  2012PO01 (CALCULATION OF 173IR A DECAY HALF-LIFE).                     
+#  1967SI02: sources from 162ER(19F,8n) E=185 MEV with 14.1% 162ER target,
+#  164ER(19F,10N) E=145-175 MEV with 35.1% 164ER target; helium-jet       
+#  transport, Au-Si surface barrier detectors; measured EA, IA, parent    
+#  ^T{-1/2}.                                                              
+#  1982DE11: sources from 63CU bombardments of indium and tin             
+#  (E(63CU)=245-300 MEV, helium-jet transport); enriched                  
+#  targets; measured EA, IA (surface-barrier detector).                   
+#  1986KE03: sources from 90ZR bombardments of yttrium, zirconium         
+#  and molybdenum (E(90ZR)=321-390 MEV; velocity-filter,                  
+#  evaporation-residue separation); enriched targets; measured            
+#  EA, IA, %A(173IR) (silicon surface-barrier detectors, FWHM=25, 50 KEV).
+#  1992SC16: source from 141PR(36AR,xn), E=175-204 MEV;                   
+#  measured |a excit, EA, IA, EG, IG, I(XK),                              
+#  |a-(XK) coin, AG coin, |a(T); deduced |a branching; Si and Ge          
+#  detectors.                                                             
+#  1996PA01: sources from heavy-ion fusion-evaporation reactions; recoil  
+#  mass separator, double-sided SI strip detector (FWHM LE 20 KEV);       
+#  measured EA, parent ^T{-1/2} and %A.                                   
+#  Parent T=2.16 S 4 from weighted average of 2.20 S 5 (1992SC16),        
+#  2.4 S 9 (1996PA01) AND 2.11 S 5 (2004GOZZ).                            
+#A HF        R0=1.556 20 (based on R0 for 168W (1.56 2) and 170OS         
+#A (1.553 14) in 1998AK04), assuming E(parent)=226 9 (2012AU07)           
+#G RI        Photon intensity (1992SC16), relative to I(RE XK)=41 3.      
+#L E         FROM EG.                                                     
+#L J         From Adopted Levels.                                         
+#P 0.0+X       (11/2-)           2.16 S    4              5716      10    
+IR173 RE169 alpha 5.716 2.16 0.110
++A alpha 5.672 1.0
+

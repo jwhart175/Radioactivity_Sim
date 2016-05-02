@@ -1,0 +1,35 @@
+# 19N     20C B-N DECAY                 1989Le16,2003Yo02                  201308
+#  20C B-N DECAY                 1989Le16,2003Yo02                  201308
+#H TYP=UPD$AUT=J. Kelley and J. Shuman$CUT=11-JUNE-2013$CIT=ENSDF$        
+#H COM=Updated data set since last full evaluation$                       
+#H CIT=NP A496, 477 (1989), NP A513, 1 (1990), PR C67, 014316 (2003).$    
+#  1989Le16,1990Mu06: 20C particles were filtered using magnetic analysis 
+#  in the ^LISE spectrometer and identified with energy loss and ToF      
+#  measurements. The fragments were implanted in a SI detector surrounded 
+#  by a plastic scintillator for |b-ray detection. The target was placed  
+#  inside a 4|p neutron detector that had a neutron energy threshold of   
+#  350keV. The 20C T1/2 reported in this work was 16 MS +14 -7 and PN= 50 
+#  30 was determined; values of T1/2=14 MS +6-5 and PN=72 14, which are   
+#  apparently revised, were published in (1990Mu06).                      
+#  2003Yo02: 20C ions were produced at the ^RIKEN/^RIPS facility and      
+#  implanted a plastic scintillator detector. An array of 13 liquid       
+#  scintillator detectors surrounded the implantation target. Following   
+#  implantation, |b and |b+n coincidence counting were carried            
+#  out for 100 MS (to permit decay of daughter & grandaughter activity).  
+#  Standard pulse shape analysis was used to identify high-energy         
+#  neutrons, while for 50 KEV LE E{-eq} LE 200 KEV the time of flight     
+#  information was used to separate neutrons and |g rays. Analysis of the 
+#  1n- and 2n- coincidence events yielded values of ^P{-1n}= 65 +19-18 and
+#  ^P{-2n} LT 18.6. T1/2=21.8 MS +15.0-7.4 was also measured.             
+#  In summary, T1/2=14 MS +6-5 (1990Mu06) appears most reliable. In       
+#  (2003Yo02), limited statistics on 20C were obtained since it was a     
+#  contaminant to their beams of interest. The measured ^P{-1n} and       
+#  ^P{-2n} values are consistent with the PN values deduced in            
+#  (1989Le16,1990Mu06), hence ^P{-1n}=65 +19-18 and ^P{-2n} LT 18.6 are   
+#  accepted; this implies %|b-0n AP 35 20. No information on              
+#  neutron-emission energies is given, but ^P{-1n}= 65 +19-18 implies that
+#  19N{-g.s.} will be fed (by some decay path) in a significant fraction  
+#  of decays.                                                             
+#P 0           0+                14 MS     +6-5           1363E1    25    
+C20 N19 neutron&beta- 13.63 0.014 1.53846
+

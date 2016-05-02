@@ -1,0 +1,17 @@
+# 89ZR    89ZR IT DECAY (4.161 M)       1964VA03,1969RO02,1971AR1813NDS    201302
+#  89ZR IT DECAY (4.161 M)       1964VA03,1969RO02,1971AR1813NDS    201302
+#H TYP=FUL$AUT=BALRAJ SINGH$CIT=NDS 114, 1 (2013)$CUT=20-Oct-2012$        
+#  Others: 1992KaZM, 1968Dr02, 1963Ma44, 1953Sh48 (also 1951Sh89),        
+#  1953Ka11, 1940Du05                                                     
+#  Cross section for production: 2008At01                                 
+#  %IT=93.77 12, %EC+B+=6.23 12                                           
+#  Energy balance: total decay energy of 551.5 keV {I15} deduced          
+#  (using RADLIST code) from proposed decay scheme is in agreement with   
+#  the expected value of 551.4 keV {I9}, indicating that the decay scheme 
+#  is complete                                                            
+#G           EC/B+(1507 level in 89Y)=3.76 19 (1964Va03)                  
+#L J,T$From Adopted Levels                                                
+#P   587.8   1 1/2-              4.161 M   10                             
+ZR89 ZR89 IT 0.0 249.65999999999997 0.9377
++G gamma 0.5878 0.9556999999999999
+

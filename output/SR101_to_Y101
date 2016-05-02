@@ -1,0 +1,113 @@
+#101Y     101SR B- DECAY                1988PE11,1983WO10         ENSDF    200610
+#  101SR B- DECAY                1988PE11,1983WO10         ENSDF    200610
+#H TYP=FUL$AUT=JEAN BLACHOT$CIT=ENSDF$CUT=1-Jul-2006$                     
+#  Activity: on-line mass separation (TRISTAN)                            
+#  Measured: |g, |g|g, |g(t)                                              
+#B IB$Due to the large Q value and the incompleteness of the decay        
+#B scheme, only branches >1% are included                                 
+#G E,RI$From 1988Pe11, more complete data than 1983Wo10 (same group)      
+#L J$As given by 1988Pe11 from log| {Ift} values and assuming only        
+#L M1, E1 or E2 |g decays. They also use model considerations.            
+#L E$From a least-squares fit to the |g data.                             
+#L BAND(A)$ 5/2[422] BAND. A=18.3 KEV                                     
+#L BAND(B)$ 3/2[301] BAND. A=16.0 KEV                                     
+#L BAND(C)$ 5/2[303] BAND. A=22.3 KEV. THE BANDHEAD WAS PREVIOUSLY        
+#L assigned to 590 level (1983Wo10) because of contamination problem (511)
+#L BAND(D)$ 1/2[301] BAND. A=20.8                                         
+#L BAND(E)$ 1/2[431] BAND. ONLY THE BANDHEAD IS TENTATIVELY ASSIGNED.     
+#P 0.0         (5/2-)            118 MS    3              9505      80    
+SR101 Y101 beta- 9.505 0.118 0.017
++G gamma 0.12834 10.0
++G gamma 0.16335 1.91
++G gamma 0.29172000000000003 0.33
++G gamma 0.20263 0.182
++G gamma 0.36597 0.057
++G gamma 0.51073 4.7
++G gamma 0.07970000000000001 0.82
++G gamma 0.46214 1.45
++G gamma 0.5903999999999999 1.8
++G gamma 0.15599000000000002 0.38
++G gamma 0.53839 0.10099999999999999
++G gamma 0.6666 1.44
++G gamma 0.12397 0.66
++G gamma 0.20392 0.055999999999999994
++G gamma 0.42284 0.318
++G gamma 0.58613 0.146
++G gamma 0.71425 0.31
++G gamma 0.15599000000000002 0.057999999999999996
++G gamma 0.23188999999999999 0.095
++G gamma 0.69433 0.244
++G gamma 0.82239 0.2
++G gamma 0.15843000000000002 0.182
++G gamma 0.28273000000000004 0.05
++G gamma 0.37989 0.56
++G gamma 0.40637 0.18
++G gamma 0.48585 0.287
++G gamma 0.29852 0.091
++G gamma 0.8847999999999999 0.054000000000000006
++G gamma 0.31287 0.158
++G gamma 0.36057 0.075
++G gamma 0.43698000000000004 0.322
++G gamma 0.51636 0.10300000000000001
++G gamma 0.83324 0.23
++G gamma 0.99653 2.09
++G gamma 1.12482 6.05
++G gamma 0.68103 0.131
++G gamma 1.0629000000000002 0.28
++G gamma 1.1913699999999998 0.23399999999999999
++G gamma 0.70051 0.129
++G gamma 1.21128 3.39
++G gamma 0.7065499999999999 0.138
++G gamma 1.23345 0.32
++G gamma 0.9671000000000001 0.13
++G gamma 1.13049 0.23
++G gamma 1.0054 0.09
++G gamma 1.16957 0.97
++G gamma 1.29761 0.86
++G gamma 1.11939 0.25
++G gamma 1.28269 0.43
++G gamma 1.4110999999999998 0.076
++G gamma 1.2899200000000002 0.12
++G gamma 1.4181 0.040999999999999995
++G gamma 0.81259 0.17
++G gamma 0.88858 0.37
++G gamma 0.968 0.07
++G gamma 1.38948 0.14
++G gamma 1.51812 0.087
++G gamma 0.38777 0.73
++G gamma 0.45158 0.10400000000000001
++G gamma 0.47407 2.09
++G gamma 0.6885 0.16
++G gamma 0.7951 0.086
++G gamma 1.09497 0.29
++G gamma 1.1744400000000002 0.64
++G gamma 1.68532 1.33
++G gamma 0.35168 0.39
++G gamma 0.46476999999999996 0.39
++G gamma 0.55101 0.71
++G gamma 1.25131 0.19
++G gamma 1.634 0.5
++G gamma 1.7621 0.13
++G gamma 0.5741 0.09
++G gamma 1.2050999999999998 0.084
++G gamma 1.5805 0.052000000000000005
++G gamma 1.6688 0.25
++G gamma 1.5355 0.15
++G gamma 1.9944000000000002 0.15
++G gamma 2.3691 0.11
++G gamma 2.5326999999999997 0.94
++G gamma 2.6609000000000003 1.54
++G gamma 1.46381 0.08800000000000001
++G gamma 2.0084 0.11599999999999999
++G gamma 2.6754000000000002 0.061
++G gamma 2.3876999999999997 0.38
++G gamma 2.5519000000000003 0.085
++G gamma 1.396 0.29
++G gamma 1.5683900000000002 0.78
++G gamma 2.0281 0.14
++G gamma 2.1028000000000002 0.2
++G gamma 2.4018 0.06
++G gamma 2.5654 0.91
++G gamma 1.01055 0.134
++G gamma 2.1056 0.38
+

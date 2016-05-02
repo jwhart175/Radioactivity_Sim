@@ -1,0 +1,169 @@
+#134CE    134PR EC DECAY (17 M)         1973AR13,1978KOYT         04NDS    200410
+#  134PR EC DECAY (17 M)         1973AR13,1978KOYT         04NDS    200410
+#H TYP=FUL$AUT=A.A. Sonzogni$CIT=NDS 103, 1 (2004)$CUT=31-Jul-2004$       
+#  Preliminary data from 1978KoYT and 1973Ar13                            
+#L E$From least-squares fit to EG                                         
+#L J$From Adopted Levels                                                  
+#G E$From 1978KoYT                                                        
+#G RI$From 1973Ar13; intensities suitably divided                         
+#G M,MR$From Adopted Gammas                                               
+#E LOGFT$Approximate values obtained from IG                              
+#P 0.0+X       2-                17 M      2              6320      40    
+PR134 CE134 beta+ 6.32 1020.0 1.0
++G gamma 0.2068 0.00402
++G gamma 0.392 0.00536
++G gamma 0.4804 0.01742
++G gamma 0.6857000000000001 0.0134
++G gamma 0.7945 0.00536
++G gamma 1.0 0.0134
++G gamma 1.2133 0.0067
++G gamma 2.233 0.020100000000000003
++G gamma 2.331 0.028140000000000005
++G gamma 0.4092 0.8710000000000001
++B beta+ 6.9E-4 0.0031
++G gamma 0.556 0.13132000000000002
++G gamma 0.9655 0.13132000000000002
++B beta+ 2.248 8.3E-4
++G gamma 0.6396000000000001 0.02144
++G gamma 0.4172 0.0134
++G gamma 0.9739 0.048240000000000005
++B beta+ 1.984 0.00114
++G gamma 0.5941000000000001 0.00268
++G gamma 0.6776 0.0067
++G gamma 1.2339 0.00134
++G gamma 0.8095 0.00536
++G gamma 1.3657000000000001 0.014740000000000001
++B beta+ 1.787 0.00147
++G gamma 0.1692 9.38E-4
++G gamma 0.4294 0.00402
++G gamma 0.7632000000000001 0.00804
++G gamma 0.8466 0.00536
++G gamma 1.4946 0.0536
++B beta+ 1.603 0.00189
++G gamma 1.5799 0.046900000000000004
++B beta+ 1.543 0.0020599999999999998
++G gamma 0.21530000000000002 0.01742
++G gamma 0.38430000000000003 0.00938
++G gamma 0.6444 0.00402
++G gamma 0.9787 0.01072
++G gamma 1.0620999999999998 9.38E-4
++G gamma 1.9042999999999999 0.09916
++B beta+ 1.503 0.00218
++G gamma 1.9641 0.014740000000000001
++B beta+ 1.352 0.00271
++G gamma 0.2313 0.0134
++G gamma 0.5181 0.04154000000000001
++G gamma 1.1625 0.0067
++G gamma 2.136 0.1072
++B beta+ 1.324 0.0028199999999999996
+
+#134CE    134PR EC DECAY: MIXED SOURCE  2000GA24                  04NDS    200410
+#  134PR EC DECAY: MIXED SOURCE  2000GA24                  04NDS    200410
+#H TYP=FUL$AUT=A.A. Sonzogni$CIT=NDS 103, 1 (2004)$CUT=31-Jul-2004$       
+#L J$As given by 2000GA24                                                 
+#L BAND(A)$Ground State band                                              
+#L BAND(B)$Quasi G-band                                                   
+#L BAND(C)$K=0 band                                                       
+#L BAND(D)$k=4 band                                                       
+#G RI$Photon branching ratios, DRI AP 20%, unless noted otherwise         
+#G MR$From GG(THETA)                                                      
+#P 0.0+X       2-                17 M      2              6320      40    
++G gamma 0.5562999999999999 1.0
++G gamma 0.9653999999999999 0.85
++G gamma 0.3341 0.113
++G gamma 0.4171 0.193
++G gamma 0.9733999999999999 1.0
++G gamma 0.5679 1.0
++G gamma 1.1242 0.82
++G gamma 0.5947 0.29
++G gamma 0.6779 1.0
++G gamma 1.2343 0.12
++G gamma 0.1685 0.075
++G gamma 0.4294 0.55
++G gamma 0.7632000000000001 1.0
++G gamma 0.8463999999999999 0.48
++G gamma 1.4027 0.09
++G gamma 0.21530000000000002 1.0
++G gamma 0.38389999999999996 0.52
++G gamma 0.6446000000000001 0.17
++G gamma 0.9786 0.58
++G gamma 0.6675 1.0
++G gamma 1.0014 0.57
++G gamma 0.2537 0.035
++G gamma 0.44060000000000005 0.025
++G gamma 0.6602 1.0
++G gamma 1.255 0.052000000000000005
++G gamma 0.3342 1.0
++G gamma 0.5495 0.076
++G gamma 0.7179 0.032
++G gamma 1.3128 0.065
++G gamma 0.4643 0.022000000000000002
++G gamma 0.7179 0.95
++G gamma 0.9047999999999999 1.0
+
+#134CE    134PR EC DECAY (11 M)         1973AR13,1978KOYT         04NDS    200410
+#  134PR EC DECAY (11 M)         1973AR13,1978KOYT         04NDS    200410
+#H TYP=FUL$AUT=A.A. Sonzogni$CIT=NDS 103, 1 (2004)$CUT=31-Jul-2004$       
+#  Preliminary data from 1978KoYT and 1973Ar13                            
+#L E$From least-squares fit to EG                                         
+#L J$From adopted levels                                                  
+#G E$From 1978KoYT                                                        
+#G RI$From 1973Ar13; intensities suitably divided                         
+#E LOGFT$Approximate values from IG and taking Y=0                        
+#P 0.0+Y       (6-)              11 M      AP             6320      40    
+PR134 CE134 beta+ 6.32 660.0 1.0
++G gamma 0.2068 0.007649999999999999
++G gamma 0.392 0.0102
++G gamma 0.4804 0.03315
++G gamma 0.6857000000000001 0.0255
++G gamma 0.7945 0.0102
++G gamma 1.0 0.0255
++G gamma 1.2133 0.01275
++G gamma 2.233 0.03825
++G gamma 2.331 0.05354999999999999
++G gamma 0.4092 0.8925
++G gamma 0.556 0.10709999999999999
++G gamma 0.9655 0.10964999999999998
++G gamma 0.6396000000000001 0.5966999999999999
++B beta+ 1.245 0.00318
++G gamma 0.4172 0.03825
++G gamma 0.9739 0.153
++G gamma 0.1889 0.035699999999999996
++B beta+ 1.928 0.0024
++G gamma 0.5941000000000001 0.03825
++G gamma 0.6776 0.11729999999999999
++G gamma 1.2339 0.0255
++B beta+ 1.698 0.00166
++G gamma 0.1692 0.0102
++G gamma 0.4294 0.05354999999999999
++G gamma 0.7632000000000001 0.0969
++G gamma 0.8466 0.06119999999999999
++B beta+ 1.656 0.00331
++G gamma 0.8141 0.028050000000000002
++B beta+ 1.579 0.00362
++G gamma 0.21530000000000002 0.21419999999999997
++G gamma 0.38439999999999996 0.10709999999999999
++G gamma 0.6444 0.03825
++G gamma 0.9787 0.12494999999999999
++G gamma 1.0620999999999998 0.0102
++B beta+ 1.562 0.002
++G gamma 0.6672 0.06375
++G gamma 1.1254000000000002 0.10709999999999999
++B beta+ 1.481 0.00406
++G gamma 1.1967999999999999 0.030599999999999995
++B beta+ 1.417 0.00247
++G gamma 0.18430000000000002 0.04845
++G gamma 0.30910000000000004 0.0969
++G gamma 0.3318 0.1887
++G gamma 0.7862 0.0255
++B beta+ 1.383 0.0025900000000000003
++G gamma 0.3342 0.18614999999999998
++G gamma 0.718 0.028050000000000002
++G gamma 1.312 0.04335
++B beta+ 1.331 0.0028000000000000004
++G gamma 0.299 0.01275
++G gamma 0.4467 0.0102
++B beta+ 1.33 0.0028000000000000004
++G gamma 0.2935 0.030599999999999995
++B beta+ 1.278 0.0030299999999999997
+

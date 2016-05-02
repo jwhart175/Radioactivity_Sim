@@ -1,0 +1,41 @@
+#149HO    153TM A DECAY (1.48 S)        1988TO13                  04NDS    200406
+#  153TM A DECAY (1.48 S)        1988TO13                  04NDS    200406
+#H TYP=FUL$AUT=BALRAJ SINGH$CIT=NDS 102, 1 (2004)$CUT=20-Apr-2004$        
+#  Sources produced in 92MO(64ZN,3p) reaction using                       
+#  enriched 92MO foil target, followed by mass separation                 
+#  Other references: 1991To12, 1989Wo02, 1989KaYU, 1989Ko02, 1988ScZV,    
+#  1982Bo04, 1982De11, 1981HOZM, 1979Be52, 1979Ho10, 1978AfZZ, 1977Ha48,  
+#  1964Ma45                                                               
+#A IA$IA(4586)/IA(5103+5096)=(4.5 5)E-5,                                  
+#A IA(4902)/IA(5103+5096)=(1.8 4)E-5 (1988To13)                           
+#A E(B)$1988To13 suggest that this peak is a doublet, with                
+#A components from both the 1.48- and 2.5-s isomers; although             
+#A transitions from 2.5-s, (1/2+) parent would be favored in view of      
+#A low L value involved rather than much higher L value implied           
+#A 1.48-s, (11/2-) parent.                                                
+#L J$From adopted levels                                                  
+#P 0.0         (11/2-)           1.48 S    1              5248.1    15    
++A alpha 5.103 1.0
++A alpha 4.902 1.8E-5
++A alpha 4.586 4.4999999999999996E-5
+
+#149HO    153TM A DECAY (2.5 S)         1988TO13                  04NDS    200406
+#  153TM A DECAY (2.5 S)         1988TO13                  04NDS    200406
+#H TYP=FUL$AUT=BALRAJ SINGH$CIT=NDS 102, 1 (2004)$CUT=20-Apr-2004$        
+#  Sources produced in 92MO(64ZN,3p) reaction using                       
+#  enriched 92MO foil target, followed by mass separation                 
+#  Other references: 1991To12, 1989Wo02, 1989KaYU, 1989Ko02, 1988ScZV,    
+#  1982Bo04, 1982De11, 1979Be52, 1979Ho10, 1977Ha48                       
+#A IA$IA(4586)/IA(5103+5096)=(4.5 5)E-5,                                  
+#A IA(4902)/IA(5103+5096)=(1.8 4)E-5 (1988To13)                           
+#A E(B)$1988To13 suggest that this peak is a doublet, with                
+#A components from both the 1.48- and 2.5-s isomers; although             
+#A transitions from 2.5-s, (1/2+) parent would be favored in view of      
+#A low L value involved rather than much higher L value implied           
+#A 1.48-s, (11/2-) parent.                                                
+#L J$From adopted levels                                                  
+#P 43.2      2 (1/2+)            2.5 S     2              5248.1    15    
++A alpha 5.096 1.0
++A alpha 4.902 1.8E-5
++A alpha 4.586 4.4999999999999996E-5
+

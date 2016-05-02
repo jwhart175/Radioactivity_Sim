@@ -1,0 +1,381 @@
+# 59FE  XA59MN B- DECAY                                                          
+#XA59MN B- DECAY                                                          
+#XB48CA(15N,3NPG), (18O,3NAG)                                             
+#XC57FE(T,P)                                                              
+#XD58FE(N,G), (POL N,G) E=THERMAL                                         
+#XE58FE(N,G) E=RES                                                        
+#XF58FE(D,P), (POL D,P)                                                   
+#XG58FE(D,PG)                                                             
+#XH60NI(14C,15O)                                                          
+#XI59CO(N,P)                                                              
+#Q 1565.0    4 6581.01 1112126   3 -7980.4 5     2012WA38                 
+#Q Note: Current evaluation has used the following Q record               
+#Q 1565.2    6 6580.90 20 12045  30              1995AU04                 
+#N                                                                     6  
+#L 0.0         3/2-              44.495 D  9                          A   
+#L %B-=100$MOMM1=-0.3358 4$                                               
+#L XREF=ABCDEFGH                                                          
+#L MOMM1     from |b-NMR on oriented nuclei (1996OH02).                   
+#L Other: 0.29 3 from low-temperature nuclear orientation (1989RA17).     
+#L J         3/2 from atomic beam (1965DO11); L(D,P)=1.                   
+#L 287.021   19 1/2-                                                      
+#L XREF=ACDEFG                                                            
+#L J         (POL D,P), L(D,P)=1.                                         
+#G  287.03   2 100        [M1,E2]                                         
++G gamma 0.28702999999999995 1.0
+#L 472.74     8 5/2-                                                      
+#L XREF=ABCDEFG                                                           
+#L J         (POL D,P), L(D,P)=3.                                         
+#G  472.71    8 100       (M1+E2)                                         
+#G E         weighted average from B- decay and                           
+#G 48CA(15N,3NPG), (18O,3NAG).                                            
+#G           MR(^D,Q)=-0.02 4 or -3.8 6 from (18O,3NAG)                   
+#L 570.86    4 (5/2)-                                                     
+#L XREF=ABCDEFG                                                           
+#L J         L(T,P)=2; ^D+Q G from 7/2-. Conflicts                        
+#L with L(D,P)=1, but |s(|q) poorly fitted in (D,P). Also inconsistent    
+#L with primary G from 1/2+ in (N,G) E=thermal,                           
+#L but EG of primary is AP 2 KEV too high, so G may be misplaced.         
+#G  570.81    5 100       (M1+E2)                                         
+#G E         weighted average from B- decay, (N,G) E=thermal and          
+#G 48CA(15N,3NPG), (18O,3NAG).                                            
+#G           MR(^D,Q)=+0.15 to +2.1 from (18O,3NAG).                      
+#L 613.04    16                                                          ?
+#L XREF=DF                                                                
+#G  613.1     3 100                                                      ?
+#L 642.8      3                                                          ?
+#L XREF=DF                                                                
+#G 642.9     3 100                                                       ?
++G gamma 0.6429 1.0
+#L 726.41    5 3/2-                                                       
+#L XREF=ACDEFGH                                                           
+#L J         (POL D,P), L(D,P)=1.                                         
+#G 439.42    5 3.73    22                                             D   
++G gamma 0.43942000000000003 0.0373
+#G 726.6     5 100                                                    D   
++G gamma 0.7266 1.0
+#L 1023.14   10 7/2-                                                      
+#L XREF=ABCEF                                                             
+#L J         L(D,P)=3; L(T,P)=4 for 1/2- target.                          
+#G  452.31   11 73      5 (M1+E2)                                     B   
+#G           MR(^D,Q)=+0.19 to +2.0 from (18O,3NAG).                      
+#G  550.4       9       4                                             B   
+#G  1023.07  17 100     5                                             B   
+#L 1077.79   121/2-,3/2-                                                  
+#L XREF=ADF                                                               
+#L J         L(D,P)=1.                                                    
+#G  465.0    2 100                                                        
++G gamma 0.465 1.0
+#L 1162.08   4 3/2-                                                       
+#L XREF=ACDEF                                                             
+#L J         L(D,P)=1; J NE 1/2 from (POL N,G).                           
+#G  591.20   3 100      4                                                 
++G gamma 0.5912000000000001 1.0
+#G  689.0    3 3.1      9                                             E   
++G gamma 0.689 0.031
+#G  875.10   7 29.1     3                                             E   
++G gamma 0.8751 0.29100000000000004
+#G  1162.17  8 14.7    12                                                 
++G gamma 1.1621700000000001 0.147
+#L 1211.33   11 1/2-                                                      
+#L XREF=CDEFGH                                                            
+#L J         (POL D,P), L(D,P)=1.                                         
+#G  1211.22  11 100                                                       
+#L 1517.23   179/2+              145 PS    25                             
+#L XREF=BCF                                                               
+#L J         L(D,P)=4; L(T,P)=5 for 1/2- target.                          
+#G  494.09   13100        (E1)                                        B   
++G gamma 0.49409 1.0
+#G BE1W=2.6E-5 4 $                                                        
+#L 1569.90   8 5/2-                                                       
+#L XREF=ACDF                                                              
+#L J         L(D,P)=3; L(T,P)=2. Inconsistent with primary G from 1/2+    
+#L in (N,G) E=thermal, but EG of primary is 2 KEV too low, so G may       
+#L be misplaced.                                                          
+#G  1569.88  8 100                                                        
++G gamma 1.5698800000000002 1.0
+#L 1648      105/2+                                                       
+#L XREF=CFH                                                               
+#L J         (POL D,P), L(D,P)=2.                                         
+#L 1749.78   143/2-,5/2-                                                  
+#L XREF=ACDEF                                                             
+#L J         L(T,P)=2.                                                    
+#G  537.4    7 50      25                                                 
++G gamma 0.5374 0.5
+#G  1749.5   3 100     13                                                 
++G gamma 1.7495 1.0
+#L 1918.90   5 3/2,5/2+                                                   
+#L XREF=ACDEFH                                                            
+#L J         J NE 1/2 from (POL N,G); primary G from 1/2+ in              
+#L (N,G) E=thermal.                                                       
+#G  756.92   124.4     5                                                  
++G gamma 0.7569199999999999 0.044000000000000004
+#G  841.24   1213.5    11                                                 
++G gamma 0.84124 0.135
+#G  1192.50  5 12.8    7                                                  
++G gamma 1.1925 0.128
+#G  1918.71  8 100     3                                                  
++G gamma 1.9187100000000001 1.0
+#L 1961.96   6 1/2-                                                       
+#L XREF=ACDEF                                                             
+#L J         L(T,P)=0 for 1/2- target.                                    
+#G  1235.54  4 100     4                                                  
++G gamma 1.2355399999999999 1.0
+#G  1348.4   3 10      3                                                  
++G gamma 1.3484 0.1
+#G  1961.92  1836      8                                                  
++G gamma 1.96192 0.36
+#L 2161.9    9 1/2,3/2,5/2+                                               
+#L XREF=DF                                                                
+#L J         primary G from 1/2+ in (N,G) E=thermal.                      
+#G 1548.8    8 100                                                        
++G gamma 1.5488 1.0
+#L 2277.9    4                                                            
+#L XREF=DF                                                                
+#G  1551.7   10100     50                                                 
++G gamma 1.5517 1.0
+#G  2279.3   8 83      33                                                 
++G gamma 2.2793 0.83
+#L 2312.24   22(13/2+)           4.7 PS    6                              
+#L XREF=B                                                                 
+#L J         G(|q) and reaction systematics in (18O,3NAG); Q G to 9/2+.   
+#G  795.00   15100        (E2)                                        B   
++G gamma 0.795 1.0
+#G BE2W=28 4 $                                                            
+#L 2322.4     6 1/2,3/2,5/2+                                              
+#L XREF=DF                                                                
+#L J         primary G from 1/2+ in (N,G) E=thermal.                      
+#G  2322.4   6 100                                                        
++G gamma 2.3224 1.0
+#L 2348.2    4  (1/2,3/2,5/2-)                                            
+#L XREF=D                                                                 
+#L E         must differ from (7/2)- level excited in (D,P); otherwise,   
+#L mult(1137G) to 1/2- would be M3 and transition could not compete       
+#L with the [E2] 2349G observed in B- decay.                              
+#L J         G to 1/2-.                                                   
+#G  1136.9   3  100                                                       
+#L 2349.0    9 (7/2)-                                                     
+#L XREF=AF                                                                
+#L J         L(D,P)=3, (POL D,P) for E=2345 10 level. See comment on      
+#L 2348 level.                                                            
+#G  2348.9   9  100                                                       
+#G E         from 59MN B- decay.                                          
+#L 2390      10                                                           
+#L XREF=F                                                                 
+#L 2447.27   6 (3/2)                                                      
+#L XREF=ADF                                                               
+#L J         primary G from 1/2+ in (N,G) E=thermal; J NE 1/2 from        
+#L (POL N,G); strong 2160G to 1/2- 287.                                   
+#G  697.19   1618.2    22                                                 
++G gamma 0.6971900000000001 0.182
+#G  1719.9   7 31      6                                                  
++G gamma 1.7199 0.31
+#G  2160.20  6 100     3                                                  
++G gamma 2.1601999999999997 1.0
+#G  2447.8   2 10.8    9                                                  
++G gamma 2.4478 0.10800000000000001
+#L 2493.8    4  (7/2-,9/2-)                                               
+#L XREF=CD                                                                
+#L J         L(T,P)=(4) for 1/2- target.                                  
+#G  2494.3   8 100                                                        
++G gamma 2.4943 1.0
+#L 2569.9    6 3/2-                                                       
+#L XREF=CD                                                                
+#L J         L(T,P)=2: primary G from 1/2+ in (N,G) E=thermal.            
+#G  1956.8   5 100                                                        
++G gamma 1.9567999999999999 1.0
+#L 2735      10                                                           
+#L XREF=F                                                                 
+#L 2756.9     7 1/2,3/2,5/2+                                              
+#L XREF=CDF                                                               
+#L J         primary G from 1/2+ in (N,G) E=thermal.                      
+#G  1544.8   9 100                                                        
++G gamma 1.5448 1.0
+#L 2810.27   161/2-                                                       
+#L XREF=CDF                                                               
+#L J         L(T,P)=0 for 1/2- target; L(D,P)=1.                          
+#G  1062.1   5 17      5                                                  
++G gamma 1.0620999999999998 0.17
+#G  1598.79  16100     7                                                  
++G gamma 1.59879 1.0
+#G  1730.3   8 19      7                                                  
++G gamma 1.7303 0.19
+#G  2084.0   3 32      3                                                  
++G gamma 2.084 0.32
+#L 2856      101/2-                                                       
+#L XREF=CF                                                                
+#L J         L(T,P)=0 for 1/2- target; L(D,P)=1.                          
+#L 2947      103/2-,5/2-                                                  
+#L XREF=CF                                                                
+#L J         L(T,P)=2.                                                    
+#L 2990      10                                                          ?
+#L XREF=F                                                                 
+#L 3020      10                                                          ?
+#L XREF=F                                                                 
+#L 3070.6    4 3/2-                                                       
+#L XREF=CDF                                                               
+#L J         L(T,P)=2 for 1/2- target; primary G from 1/2+ in (N,G)       
+#L E=thermal.                                                             
+#G  2428.6   1060      20                                                 
++G gamma 2.4286 0.6
+#G  3070.4   4 100     30                                                 
++G gamma 3.0704000000000002 1.0
+#L 3104.4    3 3/2-                                                       
+#L XREF=CDF                                                               
+#L J         L(T,P)=2 for 1/2- target; primary G from 1/2+ in (N,G)       
+#L E=thermal.                                                             
+#G  610.7    2 100     14                                                 
++G gamma 0.6107 1.0
+#G  826.9    4 20      6                                                  
++G gamma 0.8269 0.2
+#G  2533.2   3 69      6                                                  
++G gamma 2.5332 0.69
+#L 3159.67   163/2-                                                       
+#L XREF=CDF                                                               
+#L J         L(T,P)=2 for 1/2- target; primary G from 1/2+ in (N,G)       
+#L E=thermal.                                                             
+#G  2872.57  15100                                                        
++G gamma 2.87257 1.0
+#L 3169      10                                                           
+#L XREF=F                                                                 
+#L 3194      10                                                           
+#L XREF=F                                                                 
+#L 3225      AP1/2+,3/2+                                                  
+#L XREF=C                                                                 
+#L J         L(T,P)=1 for 1/2- target.                                    
+#L 3239.6     3 1/2,3/2,5/2+                                              
+#L XREF=DF                                                                
+#L J         primary G from 1/2+ in (N,G) E=thermal.                      
+#G  3239.5   3 100                                                        
++G gamma 3.2395 1.0
+#L 3280      10 3/2-,5/2-                                                 
+#L XREF=CF                                                                
+#L J         L(T,P)=2+(4) for 1/2- target.                                
+#L 3311      10                                                           
+#L XREF=F                                                                 
+#L 3384.3     7 3/2-                                                      
+#L XREF=CDF                                                               
+#L J         L(T,P)=2 for 1/2- target; primary G from 1/2+ in (N,G)       
+#L E=thermal.                                                             
+#G  627.3    3 100     20                                                 
++G gamma 0.6273 1.0
+#G  3097.9   9 70      20                                                 
++G gamma 3.0979 0.7
+#L 3452      10                                                           
+#L XREF=F                                                                 
+#L 3543      AP3/2-,5/2-                                                  
+#L XREF=C                                                                 
+#L J         L(T,P)=2 for JPI=1/2- target.                                
+#L 3559.7    7                   0.4 PS    GT                            ?
+#L XREF=B                                                                 
+#L E         3559.6 6 or 4985.2 9 depending on whether 1247G feeds 3737   
+#L or 2312 level.                                                         
+#G  1247.4   6 100                                                    B  ?
++G gamma 1.2474 1.0
+#L 3565      10                                                           
+#L XREF=F                                                                 
+#L 3600      10                                                           
+#L XREF=F                                                                 
+#L 3639      10                                                           
+#L XREF=F                                                                 
+#L 3668      10                                                           
+#L XREF=F                                                                 
+#L 3734      10                                                           
+#L XREF=F                                                                 
+#L 3737.8    7  (15/2)           0.3 PS    LT                             
+#L XREF=B                                                                 
+#L J         (15N,3NPG), (18O,3NAG) reaction systematics.                 
+#G  1425.5   6 100        (D)                                         B   
++G gamma 1.4255 1.0
+#L 3824      10                                                           
+#L XREF=F                                                                 
+#L 3872      10                                                           
+#L XREF=F                                                                 
+#L 3921      10                                                           
+#L XREF=F                                                                 
+#L 3989      10                                                           
+#L XREF=F                                                                 
+#L 4045      10                                                           
+#L XREF=F                                                                 
+#L 4083      10                                                           
+#L XREF=F                                                                 
+#L 4124      10                                                           
+#L XREF=F                                                                 
+#L 4159      10                                                           
+#L XREF=F                                                                 
+#L 4181      10                                                           
+#L XREF=F                                                                 
+#L 4224      10                                                           
+#L XREF=F                                                                 
+#L 4277      10                                                           
+#L XREF=F                                                                 
+#L 4377      10                                                           
+#L XREF=F                                                                 
+#L 4409      10                                                           
+#L XREF=F                                                                 
+#L 4423      10                                                           
+#L XREF=F                                                                 
+#L 4516      10                                                           
+#L XREF=F                                                                 
+#L 4541      10                                                           
+#L XREF=F                                                                 
+#L 4580      10                                                           
+#L XREF=F                                                                 
+#L 4629      10                                                           
+#L XREF=F                                                                 
+#L 4650      10                                                           
+#L XREF=F                                                                 
+#L 4660      10                                                           
+#L XREF=F                                                                 
+#L 4686      10                                                           
+#L XREF=F                                                                 
+#L 4770      10                                                          ?
+#L XREF=F                                                                 
+#L 4830      10                                                          ?
+#L XREF=F                                                                 
+#L 4870      10                                                          ?
+#L XREF=F                                                                 
+#L 4985.2    9                   0.4 PS    GT                            ?
+#L XREF=B                                                                 
+#L E         3559.6 6 or 4985.2 9 depending on whether 1247G feeds 3737   
+#L or 2312 level.                                                         
+#G  1247.4   6 100                                                    B  ?
++G gamma 1.2474 1.0
+#                                                                         
+
+# 59FE    59MN B- DECAY                 2001OI02,1977PA18         02NDS    200204
+#  59MN B- DECAY                 2001OI02,1977PA18         02NDS    200204
+#H TYP=FUL$AUT=Coral M. BAGLIN$CIT=NDS 95, 215 (2002)$CUT=8-Feb-2002$     
+#  2001OI02: source from 1 GEV pulsed proton spallation of Nb, mass       
+#  separation; B telescope (planar Ge + scin), coaxial Ge; measured       
+#  EG, IG, IB(total), IB(T), BG coin.                                     
+#  1977PA18: sources from 48CA(13C,pn), E=26 MEV; GELI and scintillation  
+#  detectors, enriched target (96.8%), coin resolving time=30 NS;         
+#  measured G(T), EG, IG, GG coin, BG coin.                               
+#L E         From least-squares adjustment of EG.                         
+#L J         From adopted levels.                                         
+#B IB        B- branching obtained from IG imbalance at each level        
+#B and total IB measured by 2001OI02.                                     
+#B E         Values given without parentheses are measured EB (1977PA18). 
+#G E,RI      From 2001OI02, except as noted. 2001OI02 quote RI relative   
+#G to I(726G)=100 10; the uncertainties given here are those reported in  
+#G 2001OI02 combined in quadrature with the 10% uncertainty in I(726G).   
+#G M         From adopted gammas.                                         
+#G RI(A)     From 1977PA18; relative to I(726G)=100.                      
+#G E(B),RI(B)$EG is rounded value from adopted gammas; RI is based on     
+#G RI for strongest G observed to deexcite the same level and adopted     
+#G branching from that level. G not seen in decay.                        
+#G RI(D)     Adopted I(453G):I(1023G)=73 6:100 6 cf. 0.38 25:0.21 16 here.
+#G E(E)      Observed by 2001OI02; assignment to 59MN B- decay is likely  
+#G since that was the only activity produced for A=59.                    
+#N 0.31       4          1.0       1.0                                    
+#N NR        from SUMOF (TI to GS)=77% 8. The latter is based on          
+#N IB(total)=316.5 5 relative to I(726G)=100 10 (2001OI02)                
+#N and SUMOF (TI to GS)=245 7 relative to I(726G)=100.                    
+#N 1977PA18 estimate a 51% GS branch, based on NILSSON model              
+#N and on the observed feeding of the 5/2-                                
+#N 473-KEV level, assuming the latter to be the second member of a K=3/2  
+#N band based on the G.S.                                                 
+#N                                                                     3  
+#P 0.0         (5/2)-            4.59 S    5              5185      29    
+

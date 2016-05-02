@@ -1,0 +1,91 @@
+#217RN    221RA A DECAY                                           03NDS    200309
+#  221RA A DECAY                                           03NDS    200309
+#H TYP=FUL$AUT=Y. A. AKOVALI$CIT=NDS 100, 141 (2003)$CUT=26-Jun-2003$     
+#                                                                         
+#  T({+221}Ra)=28 s {I2} was measured by 1958To25, and adopted in         
+#  1990Ak05.                                                              
+#                                                                         
+#  Q{-|a}=6884 {I5} was recommended by 1995Au04. The latest measurement,  
+#  E{-|a}(to g.s.)=6754, yields Q{-|a}=6878.                              
+#                                                                         
+#  (|a)(|g) coincidences were taken by 1961Ru06, 1989Ac01, 1995Ch74 and   
+#  1997Li12, and (|a)(ce) coincidences by 1989Ac01.                       
+#                                                                         
+#  The main decay scheme was first constructed by 1961Ru06, and           
+#  confirmed by 1989Ac01 and 1997Li12. Additional transitions were        
+#  observed and placed by 1997Li12 in the decay scheme with additional    
+#  levels. The decay scheme is presented here as built by 1997Li12.       
+#                                                                         
+#G           (|a)(ce)(t):                                                 
+#G  (|a)(L 93|g)(t): T(93-KEV level)=4.0 ns {I4}           (1989Ac01)     
+#G  (|a)(ce lines of other |g's) were prompt; therefore,                  
+#G                   T(all other levels) LE 1.5 ns     (1989Ac01)         
+#G                                                                        
+#G           I(XKA+XKB)(Rn)/I(149.2G)=62 8/100  (1997Li17)                
+#G                                                                        
+#A E         Except where noted, measurements of 1997Li12 are given.      
+#A Calibration energies were not given; therefore, no adjustment for      
+#A E{-|a}'s has been made. If the energies were calibrated at             
+#A E{-|a}(g.s.)=6754, as measured by 1961Ru06, then they should be        
+#A increased by 7 KEV due to increase in calibration energies used by     
+#A 1961Ru06. No uncertainties were given by 1997Li12. Resolution          
+#A was 21 KEV. Other measurements: 1951Me10, 1961Ru06. The energies of    
+#A 1961Ru06 are quoted with an increased value by 7 KEV from their        
+#A original energies, as recommended by 1991Ry01.                         
+#A IA        Alpha intensity per 100 alpha decays, measured by 1997Li02,  
+#A See also a comment for 6573|a. Uncertainties are assigned by the       
+#A evaluator (no uncertainties were given in 1997Li02). Other             
+#A measurement: 1961Ru06.                                                 
+#A HF        r{-0}({+217}Rn)=1.550 9, average of                          
+#A r{-0}({+216}Rn)=1.556 6 and r{-0}({+218}Rn)=1.5446 19 (1998Ak04),      
+#A is used in calculations.                                               
+#G E         From 1997Li12. Other measurements: 1961Ru06, 1989Ac01. Of    
+#G additional four questionable |g's reported by 1961Ru06, the gammas     
+#G seen by 1961Ru06 at 219 KEV {I10} with I=0.1%, at 293 KEV with I=0.6%, 
+#G and at 415 {I10} KEV with I=0.5%, may possible be the 207.9|g,         
+#G 289.1|g, and 420.6|g, respectively. The 320-KEV gamma, however, was    
+#G not confirmed by 1989Ac01 and by 1997Li12, therefore, is not given     
+#G here.                                                                  
+#G RI        Relative photon intensities normalized at 149.2|g to 100.    
+#G Measurements of 1997Li12 are adopted. The intensities measured by      
+#G 1989Ac01 and by 1961Ru06, re-normalized by the evaluator to            
+#G I(149.2|g)=100, are quoted with each transition for comparison.        
+#G M(A)      From ce data of 1989Ac01.                                    
+#G M(L)      Deduced by 1997Li12 from intensity balances.                 
+#L T         Excited levels' half-lives were determined by 1989Ac01       
+#L from (|a)(ce)(t) data.                                                 
+#P 0.0         5/2+                28 S    2               6884     5     
++G gamma 0.1421 6.25E-5
++A alpha 6.754 0.32
++A alpha 6.667 0.015
++G gamma 0.0889 0.009375
++A alpha 6.662 0.23
++G gamma 0.09301999999999999 0.04125
++A alpha 6.607 0.38
++G gamma 0.1492 0.125
++A alpha 6.579 0.055999999999999994
++G gamma 0.0854 1.875E-4
++G gamma 0.1743 0.02125
++A alpha 6.581 0.03
++A alpha 6.526 0.003
++G gamma 0.086 5.0E-5
++A alpha 6.463 5.0E-4
++A alpha 6.39 0.001
++G gamma 0.1403 5.0E-5
++G gamma 0.22569999999999998 2.5E-4
++A alpha 6.382 0.004
++G gamma 0.2079 7.5E-4
++G gamma 0.2329 2.5E-4
++G gamma 0.2891 8.749999999999999E-4
++G gamma 0.3822 3.75E-4
++A alpha 6.287 5.0E-4
++G gamma 0.4745 4.3749999999999995E-4
++A alpha 6.195 0.002
++G gamma 0.3952 3.75E-4
++G gamma 0.42060000000000003 8.749999999999999E-4
++G gamma 0.4765 5.0E-4
++A alpha 6.147 5.0E-4
++G gamma 0.44430000000000003 2.5E-4
++G gamma 0.4697 1.875E-4
++G gamma 0.5257999999999999 1.875E-4
+

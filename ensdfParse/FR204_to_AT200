@@ -1,0 +1,37 @@
+#200AT    204FR A DECAY (1.9 S)         1992HU04                  07NDS    200707
+#  204FR A DECAY (1.9 S)         1992HU04                  07NDS    200707
+#H TYP=FUL$AUT=F.G. KONDEV, S. LALKOVSKI$CIT=NDS 108,1471 (2007)$         
+#H CUT=1-Aug-2006$                                                        
+#A HF$Using R0(200AT)=1.516 8 weighted average of 1.533 4 (204RA),        
+#A 1.527 8 (206RA), 1.516 7 (202RN) and 1.504 3 (204RN) from 1998Ak04     
+#A E,IA$From 1992Hu04                                                     
+#G E$From 1992Hu04                                                        
+#L E,J,T$From adopted levels                                              
+#P 0            (3+)             1.9 S     5              7171.3    25    
++A alpha 7.031 0.9940000000000001
++A alpha 6.916 0.006
+
+#200AT    204FR A DECAY (1.6 S)         1992HU04                  07NDS    200707
+#  204FR A DECAY (1.6 S)         1992HU04                  07NDS    200707
+#H TYP=FUL$AUT=F.G. KONDEV, S. LALKOVSKI$CIT=NDS 108,1471 (2007)$         
+#H CUT=1-Aug-2006$                                                        
+#A HF$Using R0(200AT)=1.516 8 weighted average of 1.533 4 (204RA),        
+#A 1.527 8 (206RA), 1.516 7 (202RN) and 1.504 3 (204RN) from 1998Ak04     
+#A E,IA$From 1992Hu04                                                     
+#L E,J,T$From adopted levels                                              
+#P 47        11 (7+)             1.6 S     +5-3           7171.3    25    
++A alpha 7.077 0.006999999999999999
++A alpha 6.969 0.993
+
+#200AT    204FR A DECAY (0.8 S)         1992HU04,2005Uu02         07NDS    200707
+#  204FR A DECAY (0.8 S)         1992HU04,2005Uu02         07NDS    200707
+#H TYP=FUL$AUT=F.G. KONDEV, S. LALKOVSKI$CIT=NDS 108,1471 (2007)$         
+#H CUT=1-Aug-2006$                                                        
+#A HF$Using R0(200AT)=1.516 8 weighted average of 1.533 4 (204RA),        
+#A 1.527 8 (206RA), 1.516 7 (202RN) and 1.504 3 (204RN) from 1998Ak04     
+#A E,IA$From 1992Hu04                                                     
+#G E$From 1992Hu04                                                        
+#L E,J,T$From adopted levels                                              
+#P 316       10 (10-)              0.8 S    2             7171.3    25    
++A alpha 7.013 1.0
+

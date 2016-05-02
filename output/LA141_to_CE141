@@ -1,0 +1,46 @@
+#141CE    141LA B- DECAY                1977TAZZ                  14NDS    201411
+#  141LA B- DECAY                1977TAZZ                  14NDS    201411
+#H TYP=FUL$AUT=N. NICA$CIT=NDS 122, 1 (2014)$CUT=1-Jan-2012$              
+#  Measured: G, GG (1977TAZZ), B (1959SC36,1951DU19)                      
+#  Decay scheme is from 1977TAZZ                                          
+#B           Level feedings were derived from intensity imbalance         
+#B for each level and I(1354G)=1.64% 7 (1981GE04)                         
+#B           E(B)=2430 30, IB AP 95% (1951DU19); 2500 100, IB AP 98%      
+#B (1959SC36)                                                             
+#L E$FROM LEAST-SQUARES FIT TO EG'S                                       
+#L J         Adopted values                                               
+#G CC$FROM BrIcc v2.3a (30-Jun-2013) 2008Ki07, "Frozen Orbitals" appr.    
+#G MR$IF NO VALUE GIVEN IT WAS ASSUMED MR=1.00 FOR E2/M1,                 
+#G MR=1.00 FOR E3/M2 AND MR=0.10 FOR THE OTHER MULTIPOLARITIES            
+#P 0.0         (7/2+)            3.92 H    3              2501      4     
+LA141 CE141 beta- 2.501 14112.0 0.00164
++G gamma 0.5618 0.006
++G gamma 0.66206 0.158
++G gamma 0.4749 0.004
++G gamma 1.35452 10.0
++G gamma 1.3687 0.03
++G gamma 0.8348 0.012
++G gamma 1.497 0.111
++G gamma 0.964 0.009000000000000001
++G gamma 0.3246 0.008
++G gamma 1.6933 0.45
++G gamma 1.739 0.095
++G gamma 0.5899 0.006
++G gamma 1.9437 0.02
++G gamma 2.0302000000000002 0.031
++G gamma 0.6949 0.006999999999999999
++G gamma 2.0492 0.013999999999999999
++G gamma 2.1711 0.124
++G gamma 0.435 0.004
++G gamma 0.5471 0.006
++G gamma 0.6768 0.008
++G gamma 1.5121 0.055999999999999994
++G gamma 2.1739 0.1
++G gamma 0.5811000000000001 0.006999999999999999
++G gamma 0.7104 0.019
++G gamma 0.853 0.019
++G gamma 2.2073 0.048
++G gamma 1.6048 0.052000000000000005
++G gamma 2.267 0.252
++G gamma 2.3289 0.003
+

@@ -1,0 +1,24 @@
+#146SM    146PM B- DECAY                1966BU03,1968TA09,1970AV0397NDS    199712
+#  146PM B- DECAY                1966BU03,1968TA09,1970AV0397NDS    199712
+#H TYP=FUL$AUT=L. K. PEKER AND J. K. TULI$CIT=NDS 82, 187 (1997)$         
+#H CUT=30-SEP-1997$                                                       
+#  %B-=34.0 13, see also 146PM EC decay                                   
+#  Measured: B- (1974Sc06,1963Pa21,1960Fu05),                             
+#  GAMMA (1974Sc06,1970Av03,1968Ta09,1967Bu12,1966Bu03,1960Fu05), CE      
+#  (1981Or03), GG(1968Ta09,1963Pa21,1960Fu05),                            
+#  GG(THETA) (1966Bu03), G(T) (1963Pa21), BG (1963Pa21), BG(THETA)        
+#  (1974Dr08), B-shape factor (1974Sc06)                                  
+#  Decay scheme is that proposed by 1968Ta09                              
+#G E         From 1974Sc06                                                
+#G RI        Weighted average of RI from 1966Bu03, 1968Ta09, 1970Av03     
+#G assuming I(453.9G,146ND)=100                                           
+#G           EKC, ELC, EMC from absolute measurements (1981Or03)          
+#L E$From least-squares fit to EG                                         
+#L J         Adopted values                                               
+#P 0.0         3-                5.53 Y    5              1542       3    
+PM146 SM146 beta- 1.542 1.7450970566400003E8 0.340
++B beta- 0.25980000000000003 0.31
++G gamma 0.74724 0.999799
++B beta- 0.0435 0.021
++G gamma 0.63325 0.063327
+

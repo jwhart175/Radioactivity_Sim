@@ -1,0 +1,11 @@
+#113PD    113PD IT DECAY                1993PE11,1992PEZX         10NDS    201006
+#  113PD IT DECAY                1993PE11,1992PEZX         10NDS    201006
+#H TYP=FUL$AUT=Jean Blachot$CIT=NDS 111, 1471 (2010)$CUT=1-May-2009$      
+#  Activity: {+238}U(p,f), E={ 20 MeV}, on-line isotope separator IGISOL  
+#  Measured: |g, |g|g, |g(t), ce, Ge(Li), Ge, Si(Li), elli spectrometer   
+#  CC$ FROM BrIcc v2.2b (20-Jan-2009) 2008Ki07, "Frozen Orbitals" appr.   
+#G M$Simultaneous measurement of |g and ce.                               
+#P 81.3        (9/2-)            0.3 S     1                              
+PD113 PD113 IT 0.0 0.3 1.0
++G gamma 0.08109999999999999 0.069
+

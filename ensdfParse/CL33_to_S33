@@ -1,0 +1,118 @@
+# 33S     33CL EC DECAY (2.511 S)       1980WI13                  11NDS    201105
+#  33CL EC DECAY (2.511 S)       1980WI13                  11NDS    201105
+#H TYP=ERR$AUT=BALRAJ SINGH$DAT=23-Sep-2013$COM=Corrected normalization$  
+#H TYP=FUL$AUT=JUN CHEN AND BALRAJ SINGH$CIT=NDS 112, 1393 (2011)$        
+#H CUT=31-Mar-2011$                                                       
+#  1980Wi13: {+33}Cl produced by {+32}(d,n){+33}Cl reaction with 11.0 MeV 
+#  deuterons on natural sulphur target. Ge(Li) detector. Measured E|g,    
+#  I|g. Deduced levels, I|b.                                              
+#  1987Bo21: Measured E|g from {+33}Ar |b{++} decay product.              
+#  Half-life measurements: 1958Mu05, 1960Ja12, 1970Sc16, 1972Es02,        
+#  1973Ta04, 1977Az01. Others: 1940-Hoag: Phys Rev 57, 937; 1941Wh02;     
+#  1948Sc20; 1951Bo56; 1954Ty33; 1960Wa04; 1962Va27; 1970Ba65             
+#  Older |g ray measurements: 1953Meyerhof: Phys Rev 93, 949;             
+#  1953Nahmias: Compt Rendu 236, 2399                                     
+#  |b measurements: 1941Wh02; 1951Bo56; 1953Nahmias:                      
+#  Compt Rendu 236, 2399; 1960Wa04; 1962Va27                              
+#G E$ Values with uncertainties from 1987Bo21 and others are from         
+#G level difference.                                                      
+#G RI$ From 1980Wi13.                                                     
+#G M,MR$ From Adopted Gammas                                              
+#L E(A)$ From E|g in 1987Bo21                                             
+#L J$ From Adopted Levels.                                                
+#N 0.0044     7          1.0       1.0                                    
+CL33 S33 beta+ 0.2485 0.0 1.0
+#N                                                                     3  
+#N NR$From summed |g intensity to GS=1.42 19                              
+#P 0           3/2+              2.511 S   3              5582.59   44    
++B beta+ 2.0964899999999997 0.9851000000000001
++B beta+ 1.68811 0.0048
++G gamma 0.8403999999999999 0.005236000000000001
++B beta+ 1.14853 0.0046
++G gamma 1.125 6.159999999999999E-5
++G gamma 1.9673 0.004584800000000001
++B beta+ 0.98524 3.5000000000000005E-4
++G gamma 1.472 2.552E-4
++G gamma 2.312 1.0164000000000001E-4
++B beta+ 0.72761 0.0043
++G gamma 2.026 6.776E-5
++G gamma 2.8676999999999997 0.0044
++B beta+ 0.29858999999999997 7.6E-7
++G gamma 1.519 2.288E-5
++G gamma 3.832 5.28E-6
++B beta+ 0.25495 5.0E-7
++G gamma 3.094 1.32E-5
++G gamma 3.935 4.180000000000001E-6
++B beta+ 0.20578 2.8E-7
++G gamma 3.212 5.72E-6
++G gamma 4.053 4.84E-6
++B beta+ 0.1684 1.0999999999999999E-7
++G gamma 4.144 2.5520000000000003E-6
++B beta+ 0.07579999999999999 1.5999999999999998E-8
++G gamma 2.409 1.584E-5
++G gamma 4.375 4.356E-6
++B beta+ 0.0564 6.7000000000000004E-9
++G gamma 3.584 3.96E-6
++G gamma 4.424 2.948E-6
++G gamma 3.905 2.9920000000000007E-6
++G gamma 4.746 3.74E-6
+
+# 33S     33CL EC DECAY (2.511 S)       1980WI13                  11NDS    201105
+#  33CL EC DECAY (2.511 S)       1980WI13                  11NDS    201105
+#H TYP=ERR$AUT=BALRAJ SINGH$DAT=23-Sep-2013$COM=Corrected normalization$  
+#H TYP=FUL$AUT=JUN CHEN AND BALRAJ SINGH$CIT=NDS 112, 1393 (2011)$        
+#H CUT=31-Mar-2011$                                                       
+#  1980Wi13: {+33}Cl produced by {+32}(d,n){+33}Cl reaction with 11.0 MeV 
+#  deuterons on natural sulphur target. Ge(Li) detector. Measured E|g,    
+#  I|g. Deduced levels, I|b.                                              
+#  1987Bo21: Measured E|g from {+33}Ar |b{++} decay product.              
+#  Half-life measurements: 1958Mu05, 1960Ja12, 1970Sc16, 1972Es02,        
+#  1973Ta04, 1977Az01. Others: 1940-Hoag: Phys Rev 57, 937; 1941Wh02;     
+#  1948Sc20; 1951Bo56; 1954Ty33; 1960Wa04; 1962Va27; 1970Ba65             
+#  Older |g ray measurements: 1953Meyerhof: Phys Rev 93, 949;             
+#  1953Nahmias: Compt Rendu 236, 2399                                     
+#  |b measurements: 1941Wh02; 1951Bo56; 1953Nahmias:                      
+#  Compt Rendu 236, 2399; 1960Wa04; 1962Va27                              
+#G E$ Values with uncertainties from 1987Bo21 and others are from         
+#G level difference.                                                      
+#G RI$ From 1980Wi13.                                                     
+#G M,MR$ From Adopted Gammas                                              
+#L E(A)$ From E|g in 1987Bo21                                             
+#L J$ From Adopted Levels.                                                
+#N 0.0044     7          1.0       1.0                                    
+CL33 S33 beta+ 0.2485 0.0 1.0
+#N                                                                     3  
+#N NR$From summed |g intensity to GS=1.42 19                              
+#P 0           3/2+              2.511 S   3              5582.59   44    
++B beta+ 2.0964899999999997 0.9851000000000001
++B beta+ 1.68811 0.0048
++G gamma 0.8403999999999999 0.005236000000000001
++B beta+ 1.14853 0.0046
++G gamma 1.125 6.159999999999999E-5
++G gamma 1.9673 0.004584800000000001
++B beta+ 0.98524 3.5000000000000005E-4
++G gamma 1.472 2.552E-4
++G gamma 2.312 1.0164000000000001E-4
++B beta+ 0.72761 0.0043
++G gamma 2.026 6.776E-5
++G gamma 2.8676999999999997 0.0044
++B beta+ 0.29858999999999997 7.6E-7
++G gamma 1.519 2.288E-5
++G gamma 3.832 5.28E-6
++B beta+ 0.25495 5.0E-7
++G gamma 3.094 1.32E-5
++G gamma 3.935 4.180000000000001E-6
++B beta+ 0.20578 2.8E-7
++G gamma 3.212 5.72E-6
++G gamma 4.053 4.84E-6
++B beta+ 0.1684 1.0999999999999999E-7
++G gamma 4.144 2.5520000000000003E-6
++B beta+ 0.07579999999999999 1.5999999999999998E-8
++G gamma 2.409 1.584E-5
++G gamma 4.375 4.356E-6
++B beta+ 0.0564 6.7000000000000004E-9
++G gamma 3.584 3.96E-6
++G gamma 4.424 2.948E-6
++G gamma 3.905 2.9920000000000007E-6
++G gamma 4.746 3.74E-6
+

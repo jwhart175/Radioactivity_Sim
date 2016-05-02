@@ -1,0 +1,52 @@
+#186PT    186AU EC DECAY (10.7 M)       1972FI12,1985VA07         03NDS    200306
+#  186AU EC DECAY (10.7 M)       1972FI12,1985VA07         03NDS    200306
+#H TYP=FUL$AUT=CORAL M. BAGLIN$CIT=NDS 99, 1 (2003)$CUT=4-Apr-2003$       
+#  Others: 1970Jo02, 1995AnZZ, 1996St12.                                  
+#  1985Va07: measured low-temperature nuclear orientation;                
+#  deduced multipolarity, MR from |g(|q,H,^T) data; revised               
+#  level scheme.                                                          
+#  1972Fi12: measured EG, IG, I(ce), GG coin, CE-|g coin.                 
+#  1970Jo02: measured I(ce), E(ce).                                       
+#  The decay scheme is essentially that of 1985Va07.                      
+#G M,MR      From measured EKC (1972Fi12, assuming 192G is E2) and        
+#G G(|q,H,^T) (1985Va07). The multipolarity of the 192G is established    
+#G from conversion electron subshell ratios (1970Jo02).                   
+#G TI        From I(CEK) in 1972Fi12 and ce(K)/ce(total) from E0 theory,  
+#G except as noted.                                                       
+#G RI,E      From 1972Fi12, unless noted otherwise.                       
+#G RI(X),TI(X),M(X)$For the 607 doublet, EKC=0.10 3 (1972Fi12), consistent
+#G with a large E0 component. The 607 CEK is coincident with the 192G,    
+#G but the 607G is not (1972Fi12). The CEK intensity from 1972Fi12 (0.84  
+#G 12 for doublet) has been divided assuming that the 607 transition from 
+#G the 799 level is pure E0 (i.e., that none of the observed I(607G)      
+#G deexcites that level); the CEK component from the 607 level was        
+#G deduced from I(607.2G) and KC(E2 theory) and, from the remaining CEK,  
+#G ce(total) for the 799 to 192 transition was calculated using E0 theory.
+#G It should be noted, however, that 607 KEV gammas are reported from     
+#G both the 607 and the 799 levels in (A,6NG). Mult=(E0+M1+E2)            
+#G (rather than pure E0) is assigned to the 799 to 192 transition.        
+#G RI(A)     IG(799.9G+800.4G)=2.1 2; based on adopted branching,         
+#G essentially all the intensity is attributable to the 799.9G.           
+#L E         From least-squares adjustment of EG.                         
+#P 0.0          3-                   10.7 M 5               6.12E3  14    
++B beta+ 7.87E-4 0.0016
++B beta+ 2.227 0.0029
++B beta+ 2.088 0.0032
++B beta+ 2.034 0.0034000000000000002
++B beta+ 1.946 0.0036
++B beta+ 1.873 0.0038
++B beta+ 1.857 0.0039000000000000003
++B beta+ 1.773 0.0042
++B beta+ 1.751 0.0042
++B beta+ 1.648 0.0060999999999999995
++B beta+ 1.667 0.0045000000000000005
++B beta+ 1.662 0.0045000000000000005
++B beta+ 1.574 0.0048
++B beta+ 1.564 0.0049
++B beta+ 1.546 0.0049
++B beta+ 1.482 0.0052
++B beta+ 1.471 0.0052
++B beta+ 1.444 0.0053
++B beta+ 1.326 0.0058
++B beta+ 1.3 0.0059
+

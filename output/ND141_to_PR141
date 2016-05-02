@@ -1,0 +1,33 @@
+#141PR    141ND EC DECAY (2.49 H)       1973BU21                  14NDS    201411
+#  141ND EC DECAY (2.49 H)       1973BU21                  14NDS    201411
+#H TYP=FUL$AUT=N. NICA$CIT=NDS 122, 1 (2014)$CUT=1-Jan-2012$              
+#  Measured: G, GG, CE, B+                                                
+#  (1973BU21,1974HEYW,1969HE10,1968DA14,1968BE28,1963AL11)                
+#  Except where noted otherwise, the presented data are from 1973BU21     
+#E           I(XK)=11120 430, I(G+-)=628 24                               
+#E           EC(K)/B+=31.5 32 was derived from I(XK)/I(G+-) (1973BU21);   
+#E Others: 30.4 23 (1972EV01), 28 1 (1970BI02), 22 8 (1968BE28), 32 3     
+#E (1966GR05)                                                             
+#E           E(B+) to g.s.=802 3 (1976GAZI). Others: 794 8 (1973BU21),    
+#E 790 20 (1963BI19)                                                      
+#G           EKC were normalized to EKC(145G)=0.376 (141CE B- decay)      
+#L J         Adopted values                                               
+#G CC$FROM BrIcc v2.3a (30-Jun-2013) 2008Ki07, "Frozen Orbitals" appr.    
+#P 0.0         3/2+              2.49 H    3              1823.0    28    
+ND141 PR141 beta+ 1.823 8964.0 0.0080
++G gamma 0.14545 0.3
++G gamma 0.9817 0.0273
++G gamma 1.12691 1.0
++G gamma 1.1473 0.384
++G gamma 1.29264 0.575
++G gamma 1.2986 0.159
++G gamma 1.28958 0.0123
++G gamma 1.4345999999999999 0.006999999999999999
++G gamma 1.306 4.0E-4
++G gamma 1.3106 5.0E-4
++G gamma 1.4561199999999999 0.001
++G gamma 1.4350999999999998 0.001
++G gamma 1.58017 0.0076
++G gamma 1.60835 0.023
++G gamma 1.65704 0.0012
+

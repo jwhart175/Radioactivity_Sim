@@ -1,0 +1,32 @@
+# 13C     17N B-A DECAY                 1994Do08                           201404
+#  17N B-A DECAY                 1994Do08                           201404
+#H TYP=UPD$AUT=C.G. Sheu, J. Kelley$CUT=21-January-2014$CIT=ENSDF         
+#H COM=Updated data set since last full evaluation$                       
+#  1994Do08: A thick target was bombarded by 600 MeV protons to produce   
+#  {+17}N ions that were selected by the TISOL separator. The {+17}N      
+#  beam was implanted into a thin carbon-foil collector. Thin surface     
+#  barrier detector pairs counted the decay |a particles in coincidence   
+#  with {+13}C recoils.                                                   
+#  T{-1/2}=3.92 s {I44} was observed which is in good agreement of 4.173  
+#  s {I4} (1993Ti07: weighted average of 1976Oh05: 4174 ms {I4}, 1972Al42:
+#  4169 ms {I8} and 1965Do13: 4160 ms {I31}). The |a spectrum was         
+#  reasonably fitted with a K-matrix parametrization using the            
+#  known resonances at {+17}O*(7.985 and 8.204 MeV). Although two         
+#  states are sufficient to fit the |a-spectrum, the possibility of decay 
+#  from the broad {+17}O*(7.56) state cannot be entirely discounted.      
+#  A small contamination of {+18}N in the beam was used to make a         
+#  relative normalization of the {+17}N and {+18}N activities; then using 
+#  the lifetimes and {+18}N decay results from (1989Zh04), the            
+#  absolute |b|a branching of {+17}N was determined to be                 
+#  (2.5 {I4}) x 10{+-5}. The |b|a branching intensities to                
+#  {+17}O*(7.985, 8.204) were found to be (1.5 {I3}) x 10{+-5} and        
+#  (9.8 {I20}) x 10{+-6}, respectively. An upper limit of delayed |a decay
+#  intensity from {+17}O*(7.56), < 6.9 x 10{+-7}, is deduced; though the  
+#  small |G{-|a}/|G=0.0002 for this state corresponds to a rather large I 
+#  < 3.5% beta-decay intensity to this state that could be observed in    
+#  other decay channels. Another possible level at {+17}O*(8.18) could    
+#  influence the |b|a decay, but the best fit in this experiment showed a 
+#  minimal and excludable effect.                                         
+#P 0           1/2-              4.173 S   4              2320      15    
+N17 C13 alpha 2.32 4.173 2.5E-5
+

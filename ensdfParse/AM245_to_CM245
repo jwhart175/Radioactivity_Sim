@@ -1,0 +1,25 @@
+#245CM    245AM B- DECAY                1967BU09                  11NDS    201102
+#  245AM B- DECAY                1967BU09                  11NDS    201102
+#H TYP=FUL$AUT=E. BROWNE, J. K. TULI$CIT=NDS 112, 447 (2011)$             
+#H CUT=1-Jun-2010$                                                        
+#  Modified by E. Browne (August 23, 2010) BRICC.                         
+#B IB        Deduced from decay scheme.                                   
+#G CC$ FROM BrIcc v2.2 (31-Mar-2008) 2008KiAA, "Frozen Orbitals" appr.    
+#G           |g|g: see 1955Br02.                                          
+#G E         For E|g|>240 keV, E|g's from 1967Bu09, 1968WaZZ (semi);      
+#G for E|g<240 keV, from 1955Br02 (|g|g-scin).                            
+#G See also |g rays seen in {+245}Bk and {+249}Cf decays.                 
+#G RI        Relative photon intensities normalized to 100 for 252.72|g,  
+#G reported in 1967Bu09.                                                  
+#G M         Multipolarities in square brackets were not determined       
+#G in {+245}Am |b{+-} decay; they are from {+245}Bk |e decay and {+249}Cf 
+#G |a decay                                                               
+#L E,J       From adopted levels.                                         
+#P 0.0         (5/2)+            2.05 H    1              895       3     
+AM245 CM245 beta- 0.895 7379.999999999999 1.0
++B beta- 0.2806 0.78
++B beta- 0.2541 0.008
++B beta- 0.1926 0.15
++G gamma 0.198 3.2940000000000004E-4
++B beta- 0.1782 0.066
+

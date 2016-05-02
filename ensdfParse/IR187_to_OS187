@@ -1,0 +1,46 @@
+#187OS    187IR EC DECAY                1972AH05,1971MA24,1976BAYI09NDS    200905
+#  187IR EC DECAY                1972AH05,1971MA24,1976BAYI09NDS    200905
+#H TYP=FUL$AUT=M. S. Basunia$CIT=NDS 110, 999 (2009)$CUT=1-Nov-2008$      
+#G E         Weighted average of 1971Ma24 and 1976BaYI.                   
+#G RI        Weighted average of 1971Ma24, 1972Ah05 (20% uncertainty      
+#G assumed by the evaluator), and 1976BaYI. RI for the low G-rays are     
+#G by the evaluator based on the total BETA feeding to the G.S. and 9.8   
+#G level (estimated from an indirect measurement by 1972Ah05).            
+#G RI(A)$In (N,G) the 401G only is assigned as deexciting the 502 level.  
+#G The branching ratio in (N,G) was the same as in 187IR EC decay,        
+#G consistent with little or no 401G intensity from the 987 level.        
+#G RI(B)$The 323G is not analyzed in (N,G) or (P,NG) despite              
+#G the fact that the other transitions deexciting the 333 level           
+#G are strongly populated. Its intensity from the 333 level is presumed   
+#G negligible with respect to the second placement from the 987 level.    
+#G RI(C)$IG(654.3)=29.0 17. The intensity has been divided                
+#G using the M1+E2 mixing ratio for the combined transition and           
+#G assuming that the component deexciting the 987 level is E2.            
+#G M$From conversion electron intensities. The electron intensities are   
+#G renormalized to the GAMMA-ray scale by the evaluator. CE data is       
+#G multiplied by 4.8 and 0.144 for the 1971Ma24 and 1962Ha24 data,        
+#G respectively. Both normalizations assume E2 multipolarity for the      
+#G 187.4G. For E>187 KEV, CE data from 1962Ha24 are given. For the CE     
+#G data of 1962Ha24, 20% uncertainty has been assumed for all but         
+#G approximate values where 50% uncertainty has been assumed.             
+#L E         From a least-squares adjustment to the G-ray energies.       
+#L J         From adopted levels.                                         
+#L T         From G-CE coincidence measurements (1971Ma24).               
+#P 0.0         3/2+                10.5 H  3                1502     6    
++B beta+ 0.2354 1.8E-5
++B beta+ 0.231 2.0E-4
++B beta+ 0.2019 4.4000000000000006E-5
++B beta+ 0.2016 8.7E-5
++B beta+ 8.098E-4 0.0014448
++B beta+ 7.917E-4 0.00157
++B beta+ 8.047999999999999E-4 0.00148
++B beta+ 8.028E-4 0.00149
++B beta+ 8.025E-4 0.00149
++B beta+ 8.005E-4 0.00151
++B beta+ 7.989000000000001E-4 0.0015199999999999999
++B beta+ 7.984E-4 0.0015199999999999999
++B beta+ 7.87E-4 0.00161
++B beta+ 7.865E-4 0.00161
++B beta+ 7.825E-4 0.00164
++B beta+ 7.693999999999999E-4 0.0017000000000000001
+

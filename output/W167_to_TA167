@@ -1,0 +1,22 @@
+#167TA    167W EC DECAY                 1989ME02                  ENSDF    201306
+#  167W EC DECAY                 1989ME02                  ENSDF    201306
+#H TYP=FUL$AUT=CORAL M. BAGLIN$CIT=ENSDF$CUT=23-May-2013$CIT=ENSDF$       
+#H TYP=FUL$AUT=Coral M. Baglin$CIT=NDS 90, 431 (2000)$CUT=5-Jul-2000$     
+#  Others: 1987ES08 (see also 1989BR19); 1992HEZV.                        
+#  The decay scheme is based on that of 1989ME02. No EC branch to the     
+#  167TA GS is known but, if it exceeded 7.2%, it would be an allowed     
+#  branch; also, provided it were <84%, the branch to the 289 level (which
+#  has the same parity as the GS) would be allowed. Thus, 167W(GS),       
+#  167TA(GS) and 167TA(289 level) must have the same parity. 1989ME02     
+#  assumed JPI=5/2- for the 167W parent, based on systematics; this is    
+#  not adopted here because JPI(167TA GS)=(3/2+) is favored in a (HI,XNG) 
+#  study by 1992TH02. In view of the likelihood of GS EC+B+ feeding, the  
+#  decay scheme has not been normalized.                                  
+#G           All gammas reported by 1989ME02 are in coincidence with      
+#G XK(Ta) and G+-.                                                        
+#L J         From Adopted Levels.                                         
+#G E,RI      From 1989ME02.                                               
+#G M,MR      From EKC (1989ME02).                                         
+#P 0.0          (+)              19.9 S    5              6250      30    
+W167 TA167 beta+ 6.25 19.9 1.0
+

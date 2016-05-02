@@ -1,0 +1,18 @@
+#117PD    117PD IT DECAY                1990PE10,1991PE10         ENSDF    201101
+#  117PD IT DECAY                1990PE10,1991PE10         ENSDF    201101
+#H TYP=FUL$AUT=JEAN BLACHOT$CIT=ENSDF$CUT=1-Mar-2009$                     
+#  1990PE10: 238U(P,F) E=28 MEV. On-line mass separator.                  
+#  Measured: G, GG, Ge, (1990PE10,1991PE04,1991PE10). All references are  
+#  from the same group. ce with electron spectrometer (1991Pe10). EKC     
+#  relative to the 135 KEV, M1 in 117CD (EKC=0.172)                       
+#  CC$ FROM BrIcc v2.2b (20-Jan-2009) 2008Ki07, "Frozen Orbitals" appr.   
+#G E,RI$From 1991PE10                                                     
+#L J$From adopted levels                                                  
+#P 203.2     3 (11/2-)           19.1 MS   7                              
+PD117 PD117 IT 0.0 0.019100000000000002 1.0
++G gamma 0.0346 0.10800000000000001
++G gamma 0.09709999999999999 0.035
++G gamma 0.1318 0.02
++G gamma 0.0715 0.004
++G gamma 0.1686 0.5920000000000001
+

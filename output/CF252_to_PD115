@@ -1,0 +1,22 @@
+#115PD    252CF SF DECAY                2005FO09,2000ZH04         12NDS    201210
+#  252CF SF DECAY                2005FO09,2000ZH04         12NDS    201210
+#H TYP=FUL$AUT=JEAN BLACHOT$CIT=NDS 113, 2391 (2012)$CUT=1-Sep-2012$      
+#  Prompt |g rays from heavy-ion induced fission.                         
+#  2000ZH04: Measured E|g, I|g, |g|g|g using GAMMASPHERE array with 72    
+#  Compton-suppressed Ge detectors                                        
+#  2005FO09: Measured E|g, I|g, |g|g|g of prompt |g rays from {+252}Cf SF 
+#  decay, using GAMMASPHERE array with 102 Compton-suppresses Ge          
+#  detectors. Both are  the same group                                    
+#  The level scheme is as given by 2005Fo09                               
+#  2005Fo09  placed the 11/2- level at 177.3 keV                          
+#G E$|DE not given in the paper, estimated 0.3 by evaluator               
+#G E(D)$From Adopted Levels                                               
+#L E$FROM LEAST-SQUARES FIT  TO EG'S                                      
+#L J$From syst. and band assignments, (1/2+) occurs as a low-lying        
+#L excited state in odd-Pd nuclides, ^A<115                               
+#L BAND(A)$|nh{-11/2}, |a=-1/2 band                                       
+#L BAND(B)$Band 2, only given by 2000ZH04                                 
+#L BAND(C)$Band 3, only given by 2000ZH04                                 
+#P 0.0         0+                2.645 Y   8                              
+CF252 PD115 SF 0.0 8.346802377600001E7 1.0
+

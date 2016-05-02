@@ -1,0 +1,16 @@
+#148BA    252CF SF DECAY                1998ZHZH,1997HA64,1995ZH3914NDS    201404
+#  252CF SF DECAY                1998ZHZH,1997HA64,1995ZH3914NDS    201404
+#H TYP=FUL$AUT=N. NICA$CIT=NDS 117, 1 (2014)$CUT=1-Oct-2013$              
+#  1998ZHZH,1997HA64,1995ZH39: measured EG, RI, X-RAY X-RAY coin,         
+#  |gX-ray coin, GG(THETA), GGG(THETA)                                    
+#  All data are from 1998ZHZH and 1997HA64                                
+#G RI        Relative intensity                                           
+#L J         From adopted levels; supporting assignments from this data   
+#L set based on GG(THETA), GGG(THETA), and systematics are given in the   
+#L table comments                                                         
+#P 0.0         0+                2.645 Y   8                              
++G gamma 0.2814 1.0
++G gamma 0.385 0.8
++G gamma 0.457 0.28
++G gamma 0.5033 0.11
+

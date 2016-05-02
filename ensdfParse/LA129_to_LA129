@@ -1,0 +1,14 @@
+#129LA    129LA IT DECAY (0.56 S)       1969AL05                  14NDS    201408
+#  129LA IT DECAY (0.56 S)       1969AL05                  14NDS    201408
+#H TYP=FUL$AUT=JANOS TIMAR AND ZOLTAN ELEKES, BALRAJ SINGH$               
+#H CIT=NDS 121, 143 (2014)$CUT=31-May-2014$                               
+#  1969Al05: source from {+121}Sb({+12}C,4n), {+118,119,120}Sn({+14}N,xn),
+#  {+115}In({+18}O,4n), E=50-110 MeV; excitation function, semi |g, scin  
+#  |g, semi ce, HI-|g(t), HI-ce(t).                                       
+#  Others: 1970Co05, 1973Le09, 1992He03.                                  
+#L E,J,T$From Adopted Levels                                              
+#G E$From Adopted Gammas; 54.4-keV |g reported by 1970Co05 belongs        
+#G to the {+73}Ge IT decay (T{-1/2}=0.54 s) (1973Le09).                   
+#P 172.33    20 (11/2-)          0.56 S    5                              
+LA129 LA129 IT 0.0 0.56 1.0
+

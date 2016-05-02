@@ -1,0 +1,16 @@
+#209AC    213PA A DECAY                 2000HE17,1996AN21         15NDS    201506
+#  213PA A DECAY                 2000HE17,1996AN21         15NDS    201506
+#H TYP=ERR$AUT=J. Tuli$DAT=7-Jul-2015$COM=Fixed typo in T1/2(209AC)$      
+#H TYP=FUL$AUT=J. CHEN {+#} AND F.G. KONDEV$CIT=NDS 126, 373 (2015)$      
+#H CUT=30-Sep-2013$                                                       
+#  2000HE17: 213PA activities were produced by 170ER(50TI,7N) with        
+#  E=215-235 MEV 50TI beams from the ^UNILAC accelerator at GSI. Reaction 
+#  products were separated by the velocity filter ^SHIP. Measured E|a, T. 
+#  1996AN21,1995NI05: 213PA activities were produced by 170ER(51V,8N).    
+#  Measured E|a, I|a, T.                                                  
+#A HF$R0(209AC)=1.51 3, taken from the known value for the 208RA, N=120   
+#A isotone, which is deduced from HF(7802|a)=1                            
+#P 0.0         (9/2-)            5.3 MS    +40-16         8390      50    
+PA213 AC209 alpha 8.39 0.0053 1.0
++A alpha 8.236 1.0
+

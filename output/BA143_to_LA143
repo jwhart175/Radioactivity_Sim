@@ -1,0 +1,234 @@
+#143LA    143BA B- DECAY                1988FA03                  12NDS    201203
+#  143BA B- DECAY                1988FA03                  12NDS    201203
+#H TYP=FUL$AUT=E. BROWNE, J. K. TULI$CIT=NDS 113, 715 (2012)$             
+#H CUT=31-May-2011$                                                       
+#  Measured: |g (1988Fa03,1985Ra20,1984So18,1979Sc11,1979Bo26,            
+#  \1978Pa01), |g|g (1988Fa03,1979Sc11,1978Pa01), ce                      
+#  (1988Fa03,1985Ra20,1979Sc11), |g(t) (1979Sc11), |b|g                   
+#  (1981De25,1979Ke02,1978Pa01), |g|g(|q) (1988Fa03)                      
+#  Level scheme is that of 1988Fa03                                       
+#  1985Ra20 report that in |b{+-} decay of {+143}Ba from {+143}Cs+{+143}Ba
+#  source and from {+143}Ba source the ratio                              
+#  R=I|g({+143}Cs+{+143}Ba)/I|g({+143}Ba) is different for |g's from      
+#  different levels of {+143}La. Assuming R=1.0 for |g from 211 level,    
+#  authors find R=1.00 {I5} for |g from 291.6 level, R=1.28 {I5} for 925  
+#  level, R=1.36 {I8} for 1010 level and R=1.46 {I7} for 1408 level. This 
+#  may mean that in {+143}Ba there exist two |b{+-} decaying isomeric     
+#  states with similar T{-1/2}. Both of them may be produced directly in  
+#  fission, but only the lower spin isomer (J|p=5/2-) may be produced in  
+#  the |b{+-} decay of 3/2+ {+143}Cs                                      
+#  1997Gr09: measured I|b using total absorption |g-ray spectrometer      
+#  (TAGS) . The following pseudo-levels (with their I|b) were introduced: 
+#  1860 (0.55%), 2090 (1.22%), 2150 (1.40%), 2600 (0.88%), 2700 (0.64%),  
+#  2800 (0.30%), 2900 (0.32%), 3000 (0.23%), 3100 (0.18%), 3200 (0.21%),  
+#  3300 (0.13%), 3400 (0.19%), 3500 (0.10%), 3600 (0.02%), 3700 (0.01%),  
+#  3800 (0.01%), 3900 (0.01%), 4000 (0.004%)                              
+#B IB$From TAGS measurement of 1997Gr09, unless given otherwise. There is 
+#B 3.3% |b{+-} feeding of the levels above 2533 level as per the TAGS     
+#B results. Upper limit for |b{+-} feeding to {+143}La g.s. is 7.5% {I10} 
+#B (1988Fa03)                                                             
+#G CC$ FROM BrIcc v2.2 (31-Mar-2008) 2008KiAA, "Frozen Orbitals" appr.    
+#G           |a(K)exp were normalized to |a(K)(E2) for 199.3|g in         
+#G {+144}Cs |b{+-} decay (1985Ra20), |a(L)exp(29.9|g) to |a(K)(E2) for    
+#G 117.1|g in {+143}Cs |b-decay (1979Sc11) and |a(K)=0.11 for 211|g       
+#G (1988Fa03)                                                             
+#G E,RI      From 1988Fa03, except where noted otherwise                  
+#G RI        For normalization of I|g see also 1983Re11                   
+#L J$From adopted levels                                                  
+#P 0.0         5/2-              14.5 S    3              4234      10    
+BA143 LA143 beta- 4.234 14.5 0.0249
++G gamma 0.4214 0.018000000000000002
++G gamma 0.5589 0.024
++G gamma 0.6082000000000001 0.009000000000000001
++G gamma 0.6498999999999999 0.021
++G gamma 0.7232000000000001 0.027999999999999997
++G gamma 0.7391 0.057999999999999996
++G gamma 0.78291 0.037000000000000005
++G gamma 0.8348 0.033
++G gamma 0.9304 0.009000000000000001
++G gamma 0.9528 0.016
++G gamma 0.959 0.016
++G gamma 1.4567 0.027999999999999997
++G gamma 1.4846 0.01
++G gamma 1.6451 0.07
++G gamma 2.2112 0.03
++G gamma 2.2588000000000004 0.02
++G gamma 2.2776 0.08
++G gamma 2.3869000000000002 0.09
++G gamma 2.4998 0.024
++G gamma 0.02985 0.04
++G gamma 0.17851 1.21
++G gamma 0.20835 0.43
++G gamma 0.18162 0.306
++G gamma 0.211475 10.0
++G gamma 0.26147000000000004 0.67
++G gamma 0.29128699999999996 3.25
++G gamma 0.13369999999999999 0.008
++G gamma 0.42485 0.19
++G gamma 0.2504 0.027000000000000003
++G gamma 0.43215 0.124
++G gamma 0.4622 0.038
++G gamma 0.1746 0.053
++G gamma 0.25439 0.97
++G gamma 0.2575 0.055
++G gamma 0.43599 0.72
++G gamma 0.46587 0.56
++G gamma 0.17689 0.485
++G gamma 0.21769999999999998 0.039
++G gamma 0.3519 0.051
++G gamma 0.43119999999999997 1.11
++G gamma 0.6136900000000001 0.313
++G gamma 0.64277 0.43
++G gamma 0.63712 0.114
++G gamma 0.667 0.337
++G gamma 0.2335 0.024
++G gamma 0.40811000000000003 0.16
++G gamma 0.4883 0.039
++G gamma 0.4909 0.006
++G gamma 0.66938 0.34600000000000003
++G gamma 0.6994 0.055999999999999994
++G gamma 0.36481 0.135
++G gamma 0.6192300000000001 0.348
++G gamma 0.6215 0.121
++G gamma 0.8007000000000001 0.33
++G gamma 0.8304 0.047
++G gamma 0.8540099999999999 0.74
++G gamma 0.8841100000000001 0.15
++G gamma 0.28134 0.11199999999999999
++G gamma 0.45905 0.11900000000000001
++G gamma 0.6337 0.40700000000000003
++G gamma 0.71341 0.18
++G gamma 0.89518 1.64
++G gamma 0.92504 2.0
++G gamma 0.7447 0.073
++G gamma 0.7479 0.054000000000000006
++G gamma 0.5074 0.021
++G gamma 0.548 0.061
++G gamma 0.6816 0.10400000000000001
++G gamma 0.9730700000000001 0.27
++B beta- 3.24 0.3907
++G gamma 0.31087 0.14800000000000002
++G gamma 0.36756 0.8370000000000001
++G gamma 0.54441 0.48700000000000004
++G gamma 0.71897 1.75
++G gamma 0.79879 6.25
++G gamma 0.8028 0.05
++G gamma 0.98045 4.64
++G gamma 1.01029 3.83
++G gamma 0.3565 0.019
++G gamma 0.8482000000000001 0.037000000000000005
++G gamma 1.0554000000000001 0.044000000000000004
++G gamma 0.6015 0.17800000000000002
++G gamma 0.85588 0.28800000000000003
++G gamma 0.8590800000000001 0.51
++G gamma 1.03756 0.242
++G gamma 1.0673599999999999 0.28300000000000003
++G gamma 0.64407 0.107
++G gamma 0.8192999999999999 0.055
++G gamma 1.1102 0.171
++G gamma 0.5724 0.043
++G gamma 1.0032999999999999 0.019
++G gamma 0.7595 0.057999999999999996
++G gamma 1.0139 0.114
++G gamma 1.0165 0.026000000000000002
++G gamma 0.31880000000000003 0.013000000000000001
++G gamma 0.827 0.076
++G gamma 0.9997 0.063
++G gamma 1.0802 0.040999999999999995
++G gamma 1.0825 0.044000000000000004
++G gamma 1.2612 0.135
++G gamma 1.2912000000000001 0.82
++G gamma 0.4723 0.01
++G gamma 0.6038 0.079
++G gamma 0.6598999999999999 0.061
++G gamma 0.8405 0.022000000000000002
++G gamma 1.0913 0.017
++G gamma 0.8997999999999999 0.01
++G gamma 1.1539000000000001 0.062
++G gamma 1.1568 0.01
++G gamma 0.29761000000000004 0.159
++G gamma 0.397676 0.585
++G gamma 0.43475 0.102
++G gamma 0.48286 0.303
++G gamma 0.57717 0.38
++G gamma 0.7416 0.073
++G gamma 0.7647999999999999 0.64
++G gamma 0.9418 0.02
++G gamma 1.1166500000000001 0.785
++G gamma 1.19638 2.74
++G gamma 1.3776 0.10400000000000001
++G gamma 0.8062 0.09
++G gamma 1.2395999999999998 0.01
++G gamma 1.4485 0.012
++G gamma 0.38730000000000003 0.013999999999999999
++G gamma 0.5251 0.031
++G gamma 0.8309 0.028999999999999998
++G gamma 1.2067 0.031
++G gamma 1.2918 0.037000000000000005
++G gamma 1.2949000000000002 0.76
++G gamma 0.9168999999999999 0.022000000000000002
++G gamma 1.1345999999999998 0.006999999999999999
++G gamma 1.2681 0.015
++G gamma 0.45480000000000004 0.032
++G gamma 0.7349 0.039
++G gamma 0.8981 0.064
++G gamma 0.5955 0.040999999999999995
++G gamma 0.6852999999999999 0.035
++G gamma 1.2784 0.025
++G gamma 1.1717 0.03
++G gamma 1.4247999999999998 0.008
++G gamma 1.604 0.040999999999999995
++G gamma 0.64749 0.081
++G gamma 1.3331 0.012
++G gamma 0.6954 0.025
++G gamma 1.3006 0.01
++G gamma 1.5508 0.036000000000000004
++G gamma 0.8906000000000001 0.021
++G gamma 1.0332000000000001 0.04
++G gamma 1.3405 0.037000000000000005
++G gamma 1.6914 0.005
++G gamma 1.5275 0.016
++G gamma 2.016 0.12
++G gamma 2.2236 0.05
++G gamma 0.7328 0.046
++G gamma 0.8837999999999999 0.04
++G gamma 0.9891 0.031
++G gamma 1.0005 0.026000000000000002
++G gamma 1.0660999999999998 0.07
++G gamma 1.3188 0.042
++G gamma 1.3653 0.16899999999999998
++G gamma 1.4081 0.27
++G gamma 1.5912 0.04
++G gamma 1.6252 0.042
++G gamma 2.0007 0.15
++G gamma 2.2624 0.05
++G gamma 1.2855 0.017
++G gamma 1.3224 0.034
++G gamma 1.296 0.040999999999999995
++G gamma 1.3328 0.106
++G gamma 1.4766 0.044000000000000004
++G gamma 1.6401 0.01
++G gamma 1.6654 0.02
++G gamma 2.307 0.03
++G gamma 1.3534000000000002 0.019
++G gamma 1.4029 0.076
++G gamma 1.4430999999999998 0.223
++G gamma 1.4969000000000001 0.024
++G gamma 1.658 0.027000000000000003
++G gamma 1.6837 0.04
++G gamma 2.1158 0.04
++G gamma 2.2971999999999997 0.2
++G gamma 2.3268 0.05
++G gamma 1.3739000000000001 0.012
++G gamma 1.4219000000000002 0.06
++G gamma 1.4627999999999999 0.092
++G gamma 1.5164000000000002 0.026000000000000002
++G gamma 2.0561 0.39
++G gamma 2.1355 0.04
++G gamma 2.3473 0.28
++G gamma 2.1599 0.05
++G gamma 2.163 0.05
++G gamma 1.3117 0.009000000000000001
++G gamma 1.6799000000000002 0.024
++G gamma 1.6491900000000002 0.41
+

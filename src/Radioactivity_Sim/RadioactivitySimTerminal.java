@@ -130,6 +130,161 @@ public class RadioactivitySimTerminal extends JFrame {
         });
     }
 
+    private boolean pvTestNumeric(int index,String test){
+    	//tests whether the character at the supplied index is a number
+    	boolean answer = false;
+    	if(index<test.length()){
+    		if(index>=0){
+    			if(test.substring(index,index+1).compareTo("0")==0){
+    				answer = true;
+    			} else if(test.substring(index,index+1).compareTo("1")==0){
+    				answer = true;
+    			} else if(test.substring(index,index+1).compareTo("2")==0){
+    				answer = true;
+    			} else if(test.substring(index,index+1).compareTo("3")==0){
+    				answer = true;
+    			} else if(test.substring(index,index+1).compareTo("4")==0){
+    				answer = true;
+    			} else if(test.substring(index,index+1).compareTo("5")==0){
+    				answer = true;
+    			} else if(test.substring(index,index+1).compareTo("6")==0){
+    				answer = true;
+    			} else if(test.substring(index,index+1).compareTo("7")==0){
+    				answer = true;
+    			} else if(test.substring(index,index+1).compareTo("8")==0){
+    				answer = true;
+    			} else if(test.substring(index,index+1).compareTo("9")==0){
+    				answer = true;
+    			}
+    		}
+    	}
+    	return answer;
+    }
+
+    private boolean pvContainsNumber(String test){
+    	//tests whether a string contains a number
+    	boolean answer = false;
+    	for(int x = 0; x<test.length(); x++){
+			if(test.substring(x,x+1).compareTo("0")==0){
+				answer = true;
+				break;
+			} else if(test.substring(x,x+1).compareTo("1")==0){
+				answer = true;
+				break;
+			} else if(test.substring(x,x+1).compareTo("2")==0){
+				answer = true;
+				break;
+			} else if(test.substring(x,x+1).compareTo("3")==0){
+				answer = true;
+				break;
+			} else if(test.substring(x,x+1).compareTo("4")==0){
+				answer = true;
+				break;
+			} else if(test.substring(x,x+1).compareTo("5")==0){
+				answer = true;
+				break;
+			} else if(test.substring(x,x+1).compareTo("6")==0){
+				answer = true;
+				break;
+			} else if(test.substring(x,x+1).compareTo("7")==0){
+				answer = true;
+				break;
+			} else if(test.substring(x,x+1).compareTo("8")==0){
+				answer = true;
+				break;
+			} else if(test.substring(x,x+1).compareTo("9")==0){
+				answer = true;
+				break;
+			}
+    	}
+    	return answer;
+    }
+
+    private String pvExtractNumber(String input){
+    	//extracts a number from the input string as a substring
+    	int startIndex = 0, endIndex = 0;
+    	//find startIndex:
+    	for(int x = 0; x<input.length(); x++){
+    		if(input.substring(x,x+1).compareTo("0")==0){
+				startIndex = x;
+				break;
+			} else if(input.substring(x,x+1).compareTo("1")==0){
+				startIndex = x;
+				break;
+			} else if(input.substring(x,x+1).compareTo("2")==0){
+				startIndex = x;
+				break;
+			} else if(input.substring(x,x+1).compareTo("3")==0){
+				startIndex = x;
+				break;
+			} else if(input.substring(x,x+1).compareTo("4")==0){
+				startIndex = x;
+				break;
+			} else if(input.substring(x,x+1).compareTo("5")==0){
+				startIndex = x;
+				break;
+			} else if(input.substring(x,x+1).compareTo("6")==0){
+				startIndex = x;
+				break;
+			} else if(input.substring(x,x+1).compareTo("7")==0){
+				startIndex = x;
+				break;
+			} else if(input.substring(x,x+1).compareTo("8")==0){
+				startIndex = x;
+				break;
+			} else if(input.substring(x,x+1).compareTo("9")==0){
+				startIndex = x;
+				break;
+			}
+    	}
+    	//find endIndex
+    	for(int x = startIndex; x<input.length(); x++){
+    		boolean noPass = true;
+    		if(input.substring(x,x+1).compareTo(".")==0){
+    			noPass = false;
+			} else if(input.substring(x,x+1).compareTo("-")==0){
+				noPass = false;
+			} else if(input.substring(x,x+1).compareTo("+")==0){
+				noPass = false;
+			} else if(input.substring(x,x+1).compareTo("e")==0){
+				noPass = false;
+			} else if(input.substring(x,x+1).compareTo("E")==0){
+				noPass = false;
+			} else if(input.substring(x,x+1).compareTo("0")==0){
+				noPass = false;
+			} else if(input.substring(x,x+1).compareTo("1")==0){
+				noPass = false;
+			} else if(input.substring(x,x+1).compareTo("2")==0){
+				noPass = false;
+			} else if(input.substring(x,x+1).compareTo("3")==0){
+				noPass = false;
+			} else if(input.substring(x,x+1).compareTo("4")==0){
+				noPass = false;
+			} else if(input.substring(x,x+1).compareTo("5")==0){
+				noPass = false;
+			} else if(input.substring(x,x+1).compareTo("6")==0){
+				noPass = false;
+			} else if(input.substring(x,x+1).compareTo("7")==0){
+				noPass = false;
+			} else if(input.substring(x,x+1).compareTo("8")==0){
+				noPass = false;
+			} else if(input.substring(x,x+1).compareTo("9")==0){
+				noPass = false;
+			}
+    		if(noPass){
+				endIndex = x;
+				break;
+			} else if (x == input.length()-1){
+				endIndex = input.length();
+			}
+    	}
+    	if(endIndex>startIndex){
+    		return input.substring(startIndex,endIndex);
+    	} else {
+    		return input;
+    	}
+    }
+
     private StringBuilder pvAddCommands(String[] splits) {
     	//handles the "add" type commands
     	StringBuilder currentText = new StringBuilder();
@@ -371,8 +526,8 @@ public class RadioactivitySimTerminal extends JFrame {
     		currentText.append(">: read batch <File>" + System.getProperty("line.separator"));
     		currentText.append("This command opens the specified file and attempts to execute the commands stored therein." + System.getProperty("line.separator"));
     		currentText.append(System.getProperty("line.separator"));
-    		currentText.append(">: reformat <beta, gamma, or alpha> <File>" + System.getProperty("line.separator"));
-    		currentText.append("This command opens the specified file and attempts to reformat the data therein to match input file format (helper function to reformat data from nudat website)." + System.getProperty("line.separator"));
+    		currentText.append(">: reformat ensdf <endsfDir> <outDir>" + System.getProperty("line.separator"));
+    		currentText.append("This command opens the ensdf files in the specified directory and attempts to reformat the data therein to match input file format (helper function to reformat data from nudat website)." + System.getProperty("line.separator"));
     		currentText.append(System.getProperty("line.separator"));
     		currentText.append(">: set inputDir <Directory>" + System.getProperty("line.separator"));
     		currentText.append("This command sets the directory from which the program will read future input files." + System.getProperty("line.separator"));
@@ -473,125 +628,329 @@ public class RadioactivitySimTerminal extends JFrame {
 		}
 	    if(splits[0].length()==8){
 	    	if(splits[0].compareTo("reformat")==0){
-	    		if(splits[1].compareTo("beta")==0){
-		    		try {
-		    			String input = pvReadData(splits[2]);
-		    	    	String[] commandParse = input.split(System.getProperty("line.separator"));
-		    	    	double value = 0;
-		    	    	double energy = 0;
-		    	    	double nothing = 0;
-		    	    	double intensity = 0;
-		    	    	currentText.append("The reformatted data is: " + System.getProperty("line.separator"));
-		    	    	for(int x = 0; x < commandParse.length; x++) {
-		    	    		String[] lineParse = commandParse[x].split("\t");
-		    	    		energy = 0;
-		    	    		intensity = 0;
-		    	    		nothing = 0;
-		    	    		for(int y = 0; y < lineParse.length; y++) {
-		    	    			String[] wordParse = lineParse[y].split(" ");
-		    	    			value = 0;
-		    	    			for(int z = 0; z < wordParse.length; z++) {
-		    	    				try{
-			    	    				if(Double.valueOf(wordParse[z])>0){
-			    	    					value = Double.valueOf(wordParse[z]);
-			    	    					break;
+	    		if (splits[1].compareTo("ensdf")==0){
+	    			String inputData = "";
+	    			File input = new File(splits[2]);
+					File[] Files = input.listFiles();
+
+	    			String outFile = "";
+	    			if(splits.length==4) {
+	    				outFile = splits[3];
+	    			}
+	    			for(int z = 0; z < Files.length; z++){
+						try {
+							inputData = pvReadData(Files[z].getCanonicalPath());
+						} catch (IOException e) {
+							currentText.append("Failed to open file!  Cannot read that file!" + System.getProperty("line.separator"));
+						}
+		    			try {
+		    				StringBuilder fileOut = new StringBuilder();
+		    				String[] commandParse = inputData.split(System.getProperty("line.separator"));
+			    	    	currentText.append("The reformatted data is: " + System.getProperty("line.separator"));
+			    	    	boolean newDecay = false;
+			    	    	boolean detectP = false;
+			    	    	boolean detectN = false;
+			    	    	boolean detectParts = false;
+			    	    	boolean checkBetaSupplement = false;
+			    	    	String photonI = "1";
+			    	    	String startN = "",endN = "",type = "",betaE = "", betaI = "", hl = "";
+			    	    	String[] p = new String[1],e = new String[1];
+			    	    	for(int x = 0; x < commandParse.length; x++) {
+			    	    		if(newDecay==false){
+			    	    			if(commandParse[x].length()>=10&(commandParse[x].substring(6,7).compareTo("C")!=0|commandParse[x].substring(6,7).compareTo("c")!=0)){
+			    	    				for(int y = 0; y < (commandParse[x].length()-9) ;y++){
+				    	    				if(commandParse[x].substring(y,y+7).compareTo("A DECAY")==0){
+				    	    					newDecay = true;
+				    	    					detectParts = false;
+				    	    					type = "alpha";
+				    	    					fileOut = new StringBuilder();
+				    	    					fileOut.append("#" + commandParse[x].substring(0,commandParse[x].length())+ System.getProperty("line.separator"));
+				    	    					break;
+				    	    				} else if(commandParse[x].substring(y,y+8).compareTo("B- DECAY")==0){
+				    	    					newDecay = true;
+				    	    					detectParts = false;
+				    	    					type = "beta-";
+				    	    					fileOut = new StringBuilder();
+				    	    					fileOut.append("#" + commandParse[x].substring(0,commandParse[x].length())+ System.getProperty("line.separator"));
+				    	    					break;
+				    	    				} else if(commandParse[x].substring(y,y+8).compareTo("IT DECAY")==0){
+				    	    					newDecay = true;
+				    	    					detectParts = false;
+				    	    					type = "IT";
+				    	    					fileOut = new StringBuilder();
+				    	    					fileOut.append("#" + commandParse[x].substring(0,commandParse[x].length())+ System.getProperty("line.separator"));
+				    	    					break;
+				    	    				} else if(commandParse[x].substring(y,y+8).compareTo("SF DECAY")==0){
+				    	    					newDecay = true;
+				    	    					detectParts = false;
+				    	    					type = "SF";
+				    	    					fileOut = new StringBuilder();
+				    	    					fileOut.append("#" + commandParse[x].substring(0,commandParse[x].length())+ System.getProperty("line.separator"));
+				    	    					break;
+				    	    				} else if(commandParse[x].substring(y,y+8).compareTo("EC DECAY")==0){
+				    	    					newDecay = true;
+				    	    					detectParts = false;
+				    	    					type = "beta+";
+				    	    					fileOut = new StringBuilder();
+				    	    					fileOut.append("#" + commandParse[x].substring(0,commandParse[x].length())+ System.getProperty("line.separator"));
+				    	    					break;
+				    	    				} else if(commandParse[x].substring(y,y+9).compareTo("B-N DECAY")==0){
+				    	    					newDecay = true;
+				    	    					detectParts = false;
+				    	    					type = "neutron&beta-";
+				    	    					fileOut = new StringBuilder();
+				    	    					fileOut.append("#" + commandParse[x].substring(0,commandParse[x].length())+ System.getProperty("line.separator"));
+				    	    					break;
+				    	    				}
+				    	    			}
+			    	    			}
+			    	    		}
+			    	    		if(newDecay){
+			    	    			if(commandParse[x].length()>=14){
+			    	    				if(commandParse[x].substring(0,1).compareTo(" ")==0){
+				    	    				if(commandParse[x].substring(4,5).compareTo(" ")==0){
+					    	    				endN = commandParse[x].substring(3,4) + commandParse[x].substring(1,3);
+					    	    			} else {
+					    	    				endN = commandParse[x].substring(3,5) + commandParse[x].substring(1,3);
+					    	    			}
+			    	    				} else {
+			    	    					if(commandParse[x].substring(4,5).compareTo(" ")==0){
+					    	    				endN = commandParse[x].substring(3,4) + commandParse[x].substring(0,3);
+					    	    			} else {
+					    	    				endN = commandParse[x].substring(3,5) + commandParse[x].substring(0,3);
+					    	    			}
 			    	    				}
-		    	    				} catch (Exception e) {
-		    	    					//currentText.append("Fatiled to parse double!");
-		    	    				}
-		    	    			}
-		    	    			if(value>0&energy==0){
-	    	    					energy = value/1000.0;
-	    	    				} else if (value>0&nothing==0){
-	    	    					nothing = value;
-	    	    				} else if(value>0&intensity==0){
-	    	    					intensity = value/100.0;
-	    	    					break;
-	    	    				}
-		    	    		}
-		    	    		currentText.append("+B beta- " + energy + " " + intensity + System.getProperty("line.separator"));
-		    	    	}
-		    		} catch (Exception e) {
-		    			currentText.append("Failed to open file = " + splits[2] + " cannot read that file!" + System.getProperty("line.separator"));
-		    		}
-	    		} else if (splits[1].compareTo("gamma")==0){
-	    			try {
-	    				String input = pvReadData(splits[2]);
-		    	    	String[] commandParse = input.split(System.getProperty("line.separator"));
-		    	    	double value = 0;
-		    	    	double energy = 0;
-		    	    	double intensity = 0;
-		    	    	currentText.append("The reformatted data is: " + System.getProperty("line.separator"));
-		    	    	for(int x = 0; x < commandParse.length; x++) {
-		    	    		String[] lineParse = commandParse[x].split("\t");
-		    	    		energy = 0;
-		    	    		intensity = 0;
-		    	    		for(int y = 0; y < lineParse.length; y++) {
-		    	    			String[] wordParse = lineParse[y].split(" ");
-		    	    			value = 0;
-		    	    			for(int z = 0; z < wordParse.length; z++) {
-		    	    				try{
-			    	    				if(Double.valueOf(wordParse[z])>0){
-			    	    					value = Double.valueOf(wordParse[z]);
-			    	    					break;
+			    	    				String[] sN = commandParse[x].substring(9,19).split(" ",5);
+			    	    				if(sN[0].length()<=5){
+				    	    				if(pvTestNumeric(0,sN[0])&(pvTestNumeric(2,sN[0])==false)){
+				    	    					startN = sN[0].substring(1,sN[0].length()) + sN[0].substring(0,1);
+						    	    			detectP = true;
+				    	    				}
+				    	    				if(pvTestNumeric(1,sN[0])&(pvTestNumeric(2,sN[0])==false)){
+				    	    					startN = sN[0].substring(2,sN[0].length()) + sN[0].substring(0,2);
+						    	    			detectP = true;
+				    	    				}
+				    	    				if(pvTestNumeric(2,sN[0])&(pvTestNumeric(3,sN[0])==false)){
+				    	    					startN = sN[0].substring(3,sN[0].length()) + sN[0].substring(0,3);
+						    	    			detectP = true;
+				    	    				}
 			    	    				}
-		    	    				} catch (Exception e) {
-		    	    					//currentText.append("Fatiled to parse double!");
-		    	    				}
-		    	    			}
-		    	    			if(value>0&energy==0){
-	    	    					energy = value/1000.0;
-	    	    				} else if(value>0&intensity==0){
-	    	    					intensity = value/100.0;
-	    	    					break;
-	    	    				}
-		    	    		}
-		    	    		currentText.append("+G gamma " + energy + " " + intensity + System.getProperty("line.separator"));
-		    	    	}
-		    		} catch (Exception e) {
-		    			currentText.append("Failed to open file = " + splits[2] + " cannot read that file!" + System.getProperty("line.separator"));
-		    		}
-	    		} else if (splits[1].compareTo("alpha")==0){
-	    			try {
-	    				String input = pvReadData(splits[2]);
-		    	    	String[] commandParse = input.split(System.getProperty("line.separator"));
-		    	    	double value = 0;
-		    	    	double energy = 0;
-		    	    	double nothing = 0;
-		    	    	double intensity = 0;
-		    	    	currentText.append("The reformatted data is: " + System.getProperty("line.separator"));
-		    	    	for(int x = 0; x < commandParse.length; x++) {
-		    	    		String[] lineParse = commandParse[x].split("\t");
-		    	    		energy = 0;
-		    	    		intensity = 0;
-		    	    		nothing = 0;
-		    	    		for(int y = 0; y < lineParse.length; y++) {
-		    	    			String[] wordParse = lineParse[y].split(" ");
-		    	    			value = 0;
-		    	    			for(int z = 0; z < wordParse.length; z++) {
-		    	    				try{
-			    	    				if(Double.valueOf(wordParse[z])>0){
-			    	    					value = Double.valueOf(wordParse[z]);
-			    	    					break;
+			    	    				newDecay=false;
+			    	    			}
+			    	    		}
+			    	    		if(detectP){
+			    	    			if(commandParse[x].length()>=74){
+		    	    					if(commandParse[x].substring(6,7).compareTo("C")!=0|commandParse[x].substring(6,7).compareTo("c")!=0){
+		    	    						fileOut.append("#" + commandParse[x].substring(7,commandParse[x].length())+ System.getProperty("line.separator"));
+		    	    					}
+			    	    				if(commandParse[x].substring(7,8).compareTo("P")==0){
+				    	    				hl = commandParse[x].substring(39,49);
+				    	    				e = commandParse[x].substring(64,74).split(" ",2);
+				    	    				if(type.compareTo("IT")==0|type.compareTo("SF")==0){
+				    	    					e[0]="0";
+				    	    				}
+				    	    				detectP=false;
+			    	    					detectN=true;
 			    	    				}
-		    	    				} catch (Exception e) {
-		    	    					//currentText.append("Fatiled to parse double!");
-		    	    				}
-		    	    			}
-		    	    			if(value>0&energy==0){
-	    	    					energy = value/1000.0;
-	    	    				} else if (value>0&nothing==0){
-	    	    					nothing = value;
-	    	    				} else if(value>0&intensity==0){
-	    	    					intensity = value/100.0;
-	    	    					break;
-	    	    				}
-		    	    		}
-		    	    		currentText.append("+A alpha " + energy + " " + intensity + System.getProperty("line.separator"));
-		    	    	}
-		    		} catch (Exception e) {
-		    			currentText.append("Failed to open file = " + splits[2] + " cannot read that file!" + System.getProperty("line.separator"));
-		    		}
+			    	    			}
+			    	    		}
+			    	    		if(detectN){
+			    	    			if(commandParse[x].length()>=19){
+			    	    				if(commandParse[x].substring(7,8).compareTo("N")==0){
+			    	    					photonI = commandParse[x].substring(9,19);
+			    	    					if(pvContainsNumber(photonI)){
+			    	    						photonI = pvExtractNumber(photonI);
+			    	    					} else {
+			    	    						photonI = "1";
+			    	    					}
+				    	    				p = commandParse[x].substring(31,39).split(" ",2);
+				    	    				double halfLife = 0;
+				    	    				String[] hls = hl.split(" ");
+				    	    				if(pvContainsNumber(hl)){
+				    	    					hl = pvExtractNumber(hl);
+				    	    				}
+				    	    				if(hls.length>=2){
+					    	    				if(hls[1].compareTo("NS")==0){
+					    	    					halfLife = Double.valueOf(hl)/1000000000.0;
+					    	    				} else if(hls[1].compareTo("US")==0){
+					    	    					halfLife = Double.valueOf(hl)/1000000.0;
+					    	    				} else if(hls[1].compareTo("MS")==0){
+					    	    					halfLife = Double.valueOf(hl)/1000.0;
+					    	    				} else if(hls[1].compareTo("S")==0){
+					    	    					halfLife = Double.valueOf(hl);
+					    	    				} else if(hls[1].compareTo("M")==0){
+					    	    					halfLife = Double.valueOf(hl)*60.0;
+					    	    				} else if(hls[1].compareTo("H")==0){
+					    	    					halfLife = Double.valueOf(hl)*3600.0;
+					    	    				} else if(hls[1].compareTo("D")==0){
+					    	    					halfLife = Double.valueOf(hl)*24.0*3600.0;
+					    	    				} else if(hls[1].compareTo("Y")==0){
+					    	    					halfLife = Double.valueOf(hl)*365.242*24.0*3600.0;
+					    	    				}
+				    	    				}
+				    	    				if(pvContainsNumber(e[0])&pvContainsNumber(p[0])){
+				    	    					fileOut.append(startN + " " + endN + " " + type + " " + (Double.valueOf(pvExtractNumber(e[0]))/1000.0) + " " + halfLife + " " + pvExtractNumber(p[0]) + System.getProperty("line.separator"));
+				    	    				}
+				    	    				detectN=false;
+				    	    				detectParts=true;
+				    	    			}
+			    	    			}
+			    	    		}
+			    	    		if(detectParts){
+			    	    			if(type.compareTo("alpha")==0){
+			    	    				if(commandParse[x].length()>=28){
+			    	    					if(commandParse[x].substring(6,7).compareTo(" ")==0){
+			    	    						if(commandParse[x].substring(7,8).compareTo("A")==0){
+			    	    							if(commandParse[x].substring(8,9).compareTo(" ")==0){
+			    	    								boolean go = false;
+			    	    								String alphaE = commandParse[x].substring(9,19);
+					    	    						if(pvContainsNumber(alphaE)){
+							    	    					alphaE = pvExtractNumber(alphaE);
+							    	    					go = true;
+					    	    						} else {
+					    	    							go = false;
+					    	    						}
+							    	    				String alphaI = commandParse[x].substring(21,29);
+							    	    				if(pvContainsNumber(alphaI)){
+							    	    					alphaI = pvExtractNumber(alphaI);
+							    	    				} else {
+							    	    					go = false;
+							    	    				}
+
+							    	    				if(go){
+							    	    					fileOut.append("+A alpha " + (Double.valueOf(alphaE)/1000.0) + " " + (Double.valueOf(alphaI)/100.0) + System.getProperty("line.separator"));
+							    	    				}
+			    	    							}
+			    	    						}
+					    	    			}
+			    	    				}
+			    	    			}
+			    	    			if(type.compareTo("beta-")==0|type.compareTo("neutron&beta-")==0){
+			    	    				if(commandParse[x].length()>=28){
+			    	    					if(commandParse[x].substring(6,7).compareTo(" ")==0){
+			    	    						if(commandParse[x].substring(7,8).compareTo("B")==0){
+			    	    							if(checkBetaSupplement){
+			    	    								if(commandParse[x].substring(5,6).compareTo("S")==0|commandParse[x].substring(5,6).compareTo("s")==0){
+						    	    						String energy = commandParse[x].substring(9,24);
+						    	    						double bE = 0;
+						    	    						if(pvContainsNumber(energy)){
+						    	    							bE = Double.valueOf(pvExtractNumber(energy))/1000.0;
+							    	    						if(pvContainsNumber(betaI)){
+							    	    							fileOut.append("+B beta- " + bE + " " + (Double.valueOf(pvExtractNumber(betaI))/100.0) + System.getProperty("line.separator"));
+							    	    						}
+						    	    						}
+						    	    						checkBetaSupplement = false;
+						    	    					} else {
+						    	    						checkBetaSupplement = false;
+						    	    						if((pvContainsNumber(betaE)&pvContainsNumber(betaI))){
+						    	    							fileOut.append("+B beta-" + (Double.valueOf(pvExtractNumber(betaE))/1000.0) + " " + (Double.valueOf(pvExtractNumber(betaI))/100.0) + System.getProperty("line.separator"));
+							    	    					}
+
+						    	    					}
+						    	    				} else if(commandParse[x].substring(8,9).compareTo(" ")==0){
+						    	    					betaE = commandParse[x].substring(9,19);
+					    	    						if(pvContainsNumber(betaE)){
+							    	    					betaE = pvExtractNumber(betaE);
+					    	    						}
+							    	    				betaI = commandParse[x].substring(21,29);
+							    	    				if(pvContainsNumber(betaI)){
+							    	    					betaI = pvExtractNumber(betaI);
+							    	    					checkBetaSupplement = true;
+							    	    				} else {
+							    	    					checkBetaSupplement = false;
+							    	    				}
+							    	    			}
+			    	    						}
+			    	    					}
+			    	    				}
+			    	    			}
+			    	    			if(type.compareTo("beta+")==0){
+			    	    				if(commandParse[x].length()>=28){
+			    	    					if(commandParse[x].substring(6,7).compareTo(" ")==0){
+			    	    						if(commandParse[x].substring(7,8).compareTo("E")==0){
+			    	    							if(checkBetaSupplement){
+						    	    					if(commandParse[x].substring(5,6).compareTo("S")==0|commandParse[x].substring(5,6).compareTo("s")==0){
+						    	    						String energy = commandParse[x].substring(9,24);
+						    	    						double bE = 0;
+						    	    						if(pvContainsNumber(energy)){
+						    	    							bE = Double.valueOf(pvExtractNumber(energy))/1000.0;
+							    	    						if(pvContainsNumber(betaI)){
+							    	    							fileOut.append("+B beta+ " + bE + " " + (Double.valueOf(pvExtractNumber(betaI))/100.0) + System.getProperty("line.separator"));
+							    	    						}
+						    	    						}
+						    	    						checkBetaSupplement = false;
+						    	    					} else {
+						    	    						checkBetaSupplement = false;
+						    	    						if((pvContainsNumber(betaE)&pvContainsNumber(betaI))){
+						    	    							fileOut.append("+B beta+ " + (Double.valueOf(pvExtractNumber(betaE))/1000.0) + " " + (Double.valueOf(pvExtractNumber(betaI))/100.0) + System.getProperty("line.separator"));
+							    	    					}
+
+						    	    					}
+						    	    				} else if(commandParse[x].substring(8,9).compareTo(" ")==0){
+					    	    						betaE = commandParse[x].substring(9,19);
+					    	    						if(pvContainsNumber(betaE)){
+							    	    					betaE = pvExtractNumber(betaE);
+					    	    						}
+							    	    				betaI = commandParse[x].substring(21,29);
+							    	    				if(pvContainsNumber(betaI)){
+							    	    					betaI = pvExtractNumber(betaI);
+							    	    					checkBetaSupplement = true;
+							    	    				} else {
+							    	    					checkBetaSupplement = false;
+							    	    				}
+							    	    			}
+			    	    						}
+			    	    					}
+			    	    				}
+			    	    			}
+			    	    			if(commandParse[x].length()>=28){
+			    	    				if(commandParse[x].substring(5,7).compareTo("  ")==0){
+				    	    				if(commandParse[x].substring(7,8).compareTo("G")==0){
+				    	    					if(commandParse[x].substring(8,9).compareTo(" ")==0){
+				    	    						if(commandParse[x].substring(21,22).compareTo(" ")==0){
+				    	    							// nothing
+				    	    						} else {
+							    	    				String gammaE = commandParse[x].substring(9,19);
+							    	    				String gammaI = commandParse[x].substring(21,29);
+							    	    				boolean go = false;
+					    	    						if(pvContainsNumber(gammaE)){
+							    	    					gammaE = pvExtractNumber(gammaE);
+							    	    					go = true;
+					    	    						} else {
+					    	    							go = false;
+					    	    						}
+							    	    				if(pvContainsNumber(gammaI)){
+							    	    					gammaI = pvExtractNumber(gammaI);
+							    	    				} else {
+							    	    					go = false;
+							    	    				}
+							    	    				if(go){
+							    	    					fileOut.append("+G gamma " + (Double.valueOf((gammaE))/1000.0) + " " + (Double.valueOf((gammaI))*Double.valueOf(photonI)/100.0) + System.getProperty("line.separator"));
+							    	    				}
+
+				    	    						}
+				    	    					}
+				    	    				}
+				    	    			}
+			    	    			}
+			    	    			if(commandParse[x].length()>=3){
+			    	    				if(commandParse[x].substring(0,3).compareTo("   ")==0){
+			    	    					currentText.append(fileOut.toString());
+			    	    					pvScrivener.puOpenNewFile(outFile+startN+"_to_"+endN);
+			    	    			    	int fNum = pvScrivener.puGetNumFiles();
+			    	    			    	pvScrivener.puAppendStringToFile(fNum-1, fileOut.toString());
+			    	    			    	pvScrivener.puCloseFile(fNum-1);
+				    	    				detectParts = false;
+				    	    			}
+			    	    			}
+			    	    		}
+			    	    	}
+		    			} catch (Exception e) {
+			    			currentText.append("Failed to parse file = " + splits[2] + " cannot read those files!" + System.getProperty("line.separator"));
+			    			currentText.append(e.getClass() + " Occurred!" + System.getProperty("line.separator"));
+							currentText.append(e.getCause() + System.getProperty("line.separator"));
+		    			}
+	    			}
 	    		}
 	    	}
 	    }

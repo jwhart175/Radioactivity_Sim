@@ -1,0 +1,15 @@
+# 82GE    83GA B-N DECAY                2010WI03                  ENSDF    201102
+#  83GA B-N DECAY                2010WI03                  ENSDF    201102
+#H TYP=FUL$AUT=D. Symochko, S. Nafee, J. Tuli$CIT=ENSDF$CUT=31-Jan-2011$  
+#H TYP=FUL$AUT=J. K. Tuli$CIT=NDS 98, 209 (2003)$CUT=15-Jan-2003$         
+#  {+83}Ga from {+238}U(p,F), E=54 MeV; products were accelerated         
+#  to 225 MeV in the ORNL Tandem. Measured E|g, I|g, |g|g,                
+#  (fragment)|g coin (ion-tagged |g-ray spectra), |b|g(ion) coin,         
+#  |bn|g coin using an array composed of four Ge clover and two plastic   
+#  scintillator detectors.                                                
+#  Earlier work: 2006Pe20 (also 2003Pe18)                                 
+#L E$From least-squares fit to E|g's.                                     
+#L J$ From Adopted Levels                                                 
+#P 0            5/2-             308.1 MS  10             8087      3     
+GA83 GE82 neutron&beta- 8.087 0.30810000000000004 0.284
+

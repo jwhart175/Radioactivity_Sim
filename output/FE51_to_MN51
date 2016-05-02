@@ -1,0 +1,21 @@
+# 51MN    51FE EC DECAY                 1989HO13,1984AY01         06NDS    200608
+#  51FE EC DECAY                 1989HO13,1984AY01         06NDS    200608
+#H TYP=FUL$AUT=Huang Xiaolong$CIT=NDS 107, 2131 (2006)$CUT=1-May-2005$    
+#  Others: 1984Ay01                                                       
+#  1989Ho13: measured T{-1/2}, I|b, and E|g. Shell-model calculation.     
+#  1984Ay01: measured T{-1/2}, I|b.                                       
+#  1976HoZE: measured T{-1/2}, I|b.                                       
+#  {+51}Fe source produced generally by {+50}Cr({+3}He,2n).               
+#L E         From 1989Ho13.                                               
+#L J,T       From adopted levels.                                         
+#E TI        I(|e+|b{++}) from 1989Ho13. Authors data are normalized to   
+#E I|b(237)=5.0% {I13} from 1984Ay01.                                     
+#G RI        Relative intensity renormalized to I|g(237|g)=100 {I26}.     
+#G Values from I|b and authors' decay scheme (I|g not given by 1989Ho13). 
+#G M,MR      From adopted |g radiations                                   
+#N 0.050                 1.0       1.0                                    
+#N NR        From %I|g(237|g)=5.0 {I13} (1984Ay01)                        
+#N 0.050                           1.0                                    
+#P 0.0          5/2-             305 MS    5              8019      15    
+FE51 MN51 beta+ 8.019 0.305 1.0
+

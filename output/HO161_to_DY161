@@ -1,0 +1,93 @@
+#161DY    161HO EC DECAY                1984VY01                  11NDS    201111
+#  161HO EC DECAY                1984VY01                  11NDS    201111
+#H TYP=FUL$AUT=C. W. Reich$CIT=NDS 112,2497 (2011)$CUT=1-Jun-2011$        
+#  DATA SET UPDATED (NOVEMBER, 2009) BY CW REICH TO INCLUDE REVISED QP    
+#  VALUE, CC VALUES FROM BRICC AND SLIGHTLY MODIFIED COMMENTS.            
+#  DATA SET UPDATED (SEPT.-NOV.,1999) BY CW REICH TO INCLUDE ECK VALUES   
+#   OF 1993Mu17, NEW Q+ VALUE AND RECALCULATED EC-RELATED INFORMATION     
+#   AND NEW LEVEL ENERGY FOR 366.9 LEVEL AND QUESTIONABLE ASSIGNMENT      
+#   FOR 84.86 G FEEDING IT. THE MR DATA HAVE BEEN EXTENSIVELY RE-DONE.    
+#  Experimental methods:                                                  
+#  1950Wi13: 161HO from TB(A,X) and DY(P,X). Half-life measured.          
+#  1954Ha01: 161HO from ER(P,X) with chemistry to obtain 161ER, followed  
+#       by its decay (Handley and Olson).                                 
+#  1954HaAB: 161HO from (P,X) reactions with chemistry to obtain 161ER    
+#       followed by its decay. Half-life measured (Handley).              
+#  1959Ha09: 161HO from 162ER(P,2N) reaction and EC decay of 161TM and    
+#    161ER. CE studied in magnetic spectrographs.                         
+#  1961Ab04: 161HO from 660-MeV p spallation of tantalum target with      
+#       chemical separation of 161ER followed by its decay. CE's measured 
+#       in magnetic spectrograph.                                         
+#  1961Ba32: 161HO from p spallation of Ta target with chemistry. CE's    
+#       measured in lens spectrometer. Only one line observed.            
+#  1961Bj02: 161HO from ER(P,XN)161TM reaction followed by decay with     
+#       chemical and isotope separation.                                  
+#  1963Ra15: Measured p-induced cross sections; report 161HO half-life.   
+#  1964Ma10: Measured p-induced cross sections; report several G lines.   
+#  1964Bu09: Measured J of 161HO ground state by atomic-beam, magnetic    
+#       resonance.                                                        
+#  1965AB04: 161HO from 660-MeV p spallation of TA target with chemical   
+#  separation. CE's studied in magnetic spectrograph with source          
+#  containing Er, Ho, and their daughters. G spectra measured             
+#  with NaI detector and Ho sample. EKC values were normalized to         
+#  the theoretical E2 value for the 175 G, whose multipolarity was        
+#  established from L subshell ratios.                                    
+#  1965St08: 161HO from 75-MeV p bombardment of Ho target with chemical   
+#       separation of 161ER followed by its decay. CE studied in          
+#       magnetic spectrometer.                                            
+#  1967HaAA: P. G. Hansen talk reported by 1984Vy01.                      
+#  1969Ve05: 161HO from ER(D,XN)TM reaction with E(D)=52 MeV and          
+#    decay of 161TM and 161ER. Level half-life measured with NaI          
+#    detectors.                                                           
+#  1973BuZR: Conference abstract. 161HO from 660-MeV p spallation of Ta   
+#       target with chemical and isotope separation to provide source of  
+#       161ER and 161HO. G spectra measured.                              
+#  1975Gr44: Summary of laboratory program. No experimental details.      
+#  1975VaYX: Half-lives of 44 and 103 levels in JINR-D6-8846 (1975).      
+#       Have not seen copy, but values were given elsewhere. Are these    
+#       data related to 1978AlZC?                                         
+#  1978AlZC: Half-lives of several levels; probably 161HO EC decay.       
+#  1981GrZV: Conference abstract. Report G multipolarities and level      
+#       half-lives; the latter are assumed to be calculated. The          
+#       evaluator assumes that the G data are superseded by 1984Vy01.     
+#  1983VyZV: Conference abstract; see 1984Vy01 for published version.     
+#  1984VY01: 161HO from 660-MeV p spallation of a Ta target with chemical 
+#  and isotopic separation. G's were measured with Ge detectors           
+#  and CE with magnetic spectrometers. X-G coincidences were              
+#  measured.                                                              
+#  1986SoAA: Tallies LOGFT values for allowed, unhindered beta decays.    
+#  1987BaZB: deduce MR values for 25.6 and 77.4 gammas from L-subshell    
+#  ratios measured using a magnetic BETA spectrograph.                    
+#G           Data are from 1984Vy01, unless noted otherwise.              
+#G E,RI      From 1984Vy01. Others: 1965Ab04, 1965St08.                   
+#G RI        I(K x ray)=242E+1 17                                         
+#G M,MR      From the Adopted Gammas data set. The data types are ICC,    
+#G L- and M-SUBSHELL ratios, G(THETA), and GG(THETA). See the Adopted     
+#G Gammas data set for comments on specific cases.                        
+#G TI(W)     Computed by evaluator from electron intensities (1984Vy01)   
+#G and conversion coefficients.                                           
+#L           Data are from 1984Vy01, unless noted otherwise. Level        
+#L structure is also known from the B- decay of 161TB and reaction        
+#L studies.                                                               
+#L E         From least-squares fit to G energies.                        
+#L J         From Adopted Levels. In this data set, the values are based  
+#L on the G multipolarities, G decay modes, and band-structure            
+#L considerations.                                                        
+#L T         Information given here is only from this decay mode. See     
+#L Adopted Levels for results from all decay modes.                       
+#L           Levels are 5/2(0), 7/2(43), 9/2(100), and 11/2(184).         
+#L           Levels are 5/2(25), 7/2(103), 9/2(200), and 11/2(320).       
+#L           Levels are 3/2(74), 5/2(131), 7/2(212), and 9/2(314).        
+#L           Levels are 1/2(366) and 5/2(451).                            
+#L           Level is 5/2(790).                                           
+#L BAND(A)   GROUND-STATE BAND. CONF=5/2[642]                             
+#L BAND(B)   5/2[523] band                                                
+#L BAND(C)   3/2[521] band                                                
+#L BAND(D)   1/2[521] band                                                
+#L BAND(F)   BANDHEAD OF THE 5/2[512] BAND.                               
+#P  0          7/2-              2.48 H    5              858.3     22    
+HO161 DY161 beta+ 0.8583 8928.0 1.0
++G gamma 0.252 5.0E-5
++G gamma 0.7282000000000001 2.5E-4
++G gamma 0.10305 1.0
+

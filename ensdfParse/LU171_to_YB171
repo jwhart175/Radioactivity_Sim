@@ -1,0 +1,91 @@
+#171YB    171LU EC DECAY (8.24 D)       1981BA52,1984AD02,1985KR0702NDS    200209
+#  171LU EC DECAY (8.24 D)       1981BA52,1984AD02,1985KR0702NDS    200209
+#H TYP=FUL$AUT=CORAL M. BAGLIN$CIT=NDS 96,399 (2002)$CUT=5-Aug-2002$      
+#  1981BA52: sources from spallation of tantalum by protons               
+#  (E(P)=660 MEV), chemical, mass separation; measured EG, IG             
+#  (two GELI, FWHM=550 EV at 122 KEV, FWHM=2.0 KEV at 1332 KEV),          
+#  ECE, ICE (SILI, mag spect), CEG coin.                                  
+#  1984AD02: sources from spallation of tantalum by protons               
+#  (E(P)=660 MEV), chemical, mass separation; additional sources          
+#  from 169TM(A,2N), E(A)=30 MEV; measured EG, IG (GELI,                  
+#  FWHM=0.8 KEV at 122 KEV; GELI anti-compt spect, FWHM=2.3 KEV           
+#  at 1332 KEV; NAI).                                                     
+#  1985KR07: sources from spallation of tantalum by protons               
+#  (E(P)=10 GEV), chemical, mass separation; measured EG, IG              
+#  of polarized samples (171LU oriented) (GELI, FWHM=0.55 KEV             
+#  at 122 KEV, FWHM=2.9 KEV at 1332 KEV), G-ray directional               
+#  distributions; used semi-microscopic quasi-phonon model                
+#  (including CORIOLIS mixing) to interpret level structure.              
+#  The decay scheme and level interpretation are from 1985KR07;           
+#  transition data are mainly from 1981BA52 and 1984AD02.                 
+#  Others: 1957BO61, 1957GR01, 1957MI65, 1957MI67, 1958KE88,              
+#  1958LE25, 1959HA09, 1960DZ02, 1960IO01, 1960IO02, 1960PL03,            
+#  1960WI16, 1961AN05, 1961DZ06, 1962VA17, 1963RA14, 1965BA10, 1965KA17,  
+#  1965VI02, 1966GI03, 1966KA11, 1968LO10, 1969BA38, 1969GI07, 1971AKZS,  
+#  1971BA34, 1972BA50, 1974BA56, 1974BO55, 1975AR15, 1975AR26, 1976KR04,  
+#  1977BO32, 1977GOZU, 1977SE05, 1977VYZW, 1977VYZX, 1977VYZZ, 1980EGZX,  
+#  1981BY04, 1983ARZV, 1983KR18, 1987BAZB, 1989GOZU, 2000LA11.            
+#G           See 1982AR22 for L AUGER spectrum.                           
+#G           EKC values are from 1984AD02, corrected for small            
+#G differences between their data and RI adopted here, except where       
+#G noted. Qualifiers ( LT, GT, AP ) are from 1981BA52.                    
+#E           See 1977BO32 and 1981BY04 for measurement of EB+, IB+.       
+#E           EC+B+ feedings are from intensity imbalance at each          
+#E level (GS feeding not expected because DJ=3).                          
+#L E         From least-squares adjustment of EG, omitting doubly-placed  
+#L lines and the 862.4G and 925.8G, neither of which fits its             
+#L placement well.                                                        
+#G E         Weighted average from 1984AD02 and 1981BA52, except as noted.
+#G RI        From combined statistical analysis of intensity values in    
+#G 1981BA52, 1983ARZV and 1984AD02 (for EG below 110 KEV) and in          
+#G 1981BA52 and 1984AD02 (for higher-energy transitions), except          
+#G where noted.                                                           
+#G M         From EKC, except where noted; the photon and CE intensity    
+#G scales were normalized through KC=0.00227 (E1 theory) for              
+#G 739.8G. This normalization gives EKC AP KC(theory) for                 
+#G 91.4G, 109.3G and 163.8G, all with known multipolarity.                
+#G MR        Magnitudes from EKC and/or CE subshell ratios, except        
+#G where noted; signs from nuclear orientation (1985KR07), EXCEPT AS      
+#G NOTED.                                                                 
+#L BAND(A)   1/2[521] band.                                               
+#L BAND(B)   7/2[633] band.                                               
+#L BAND(C)   5/2[512] band.                                               
+#L BAND(D)   7/2[514] band.                                               
+#L BAND(E)   3/2[521] band (+ G-vibration).                               
+#L BAND(H)   3/2[651] band (probable).                                    
+#L BAND(I)   7/2[503] band.                                               
+#G E(A)      From 1980EGZX; transition seen in CE spectrum only.          
+#G M(F)      From CE subshell ratios.                                     
+#G E(X)      EG fits placement poorly; datum excluded from least-squares  
+#G adjustment when calculating level energies.                            
+#G E(Y)      Weighted average from 1980EGZX, 1981BA52 and 1984AD02.       
+#G E(Z)      From 1984AD02.                                               
+#G           RI(XK) (relative to RI(739.8G)=100.0 21) (1981BA52)          
+#G                            E(X-RAY)       I(X-RAY)                     
+#G                            --------       --------                     
+#G           YB XKA2      51.354         72.3 14                          
+#G           YB XKA1      52.389         126.5 23                         
+#G           YB XKB1P     59.3           40.6 8                           
+#G           YB XKB2P     61.0           10.44 22                         
+#G                                                                        
+#P 0.0          7/2+             8.24 D    3              1479.6    20    
+LU171 YB171 beta+ 1.4795999999999998 711936.0 1.0
++B beta+ 0.17966 7.000000000000001E-5
++B beta+ 8.234000000000001E-4 0.0013532
++B beta+ 8.231E-4 0.0013564
++B beta+ 8.227E-4 0.0013594
++B beta+ 8.216E-4 0.0013683999999999999
++B beta+ 8.002E-4 0.0015
++B beta+ 7.986E-4 0.0015
++B beta+ 8.0964E-4 0.0014000000000000002
++B beta+ 7.621E-4 0.0018
++B beta+ 8.043E-4 0.00149
++B beta+ 8.037E-4 0.0015
++B beta+ 8.035E-4 0.0015
++B beta+ 8.028E-4 0.0015
++B beta+ 8.008E-4 0.0015199999999999999
++B beta+ 7.973E-4 0.00154
++B beta+ 7.909000000000001E-4 0.00159
++B beta+ 7.892E-4 0.0016
++B beta+ 7.836999999999999E-4 0.00164
+

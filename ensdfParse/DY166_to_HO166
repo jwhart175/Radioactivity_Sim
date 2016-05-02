@@ -1,0 +1,33 @@
+#166HO    166DY B- DECAY                1979BA40,1967MO05         08NDS    200804
+#  166DY B- DECAY                1979BA40,1967MO05         08NDS    200804
+#H TYP=FUL$AUT=CORAL M. BAGLIN$CIT=NDS 109, 1103 (2008)$CUT=1-Mar-2008$   
+#  The values of the angular correlation coefficients for                 
+#  the 28.23G-54.239G cascade are A2=-0.242 15, A4=+0.031 34; these are in
+#  agreement with a 1(^D)2(Q)0 spin sequence for the cascade (1979BA40).  
+#B           EB measured by 1949KE22, 1950BU30, 1960HE09, 1960GE12,       
+#B 1962GU03.                                                              
+#B IB        From intensity balance, unless otherwise noted.              
+#G E         From 1967MO05, unless otherwise noted.                       
+#G RI        From 1979BA40 for EG<100. Other IG are from 1964BR10         
+#G normalized to RI(82G)=100 with authors' DRI(82G)=20% added in          
+#G quadrature to the uncertainties for EG>100. Measured RI are            
+#G I(28.23G):I(54.24G):I(82.47G)=8.2 6:5.9 9:100 (1979BA40);              
+#G I(82.47G):I(290.66G):I(343.51G):I(371.75G):I(425.99G)=100 20:0.12 LT:  
+#G 0.4 1:3.8 3:4.2 3 (1964BR10); I(290.66G):I(343.51G):I(371.75G):        
+#G I(425.99G)=0.097 16:0.43 9:3.4 5:(4.2 6) (1967MO05).                   
+#G           B- G COIN, G-G coin: 1960GE04, 1960HE09, 1960RU05, 1962GU03. 
+#L E         FROM LEAST-SQUARES FIT TO EG.                                
+#L J         FROM Adopted Levels.                                         
+#P 0.0         0+                81.6 H    1               486.8    10    
++B beta- 0.14622 0.04
++B beta- 0.14126 0.05
++G gamma 0.054238999999999996 0.008142000000000002
++B beta- 0.11843000000000001 0.97
++G gamma 0.08247 0.138
++B beta- 0.02987 1.6E-4
++G gamma 0.29066000000000003 1.3800000000000002E-4
++B beta- 0.0156 0.011699999999999999
++G gamma 0.34351 5.520000000000001E-4
++G gamma 0.37175 0.0052439999999999995
++G gamma 0.42599000000000004 0.005796000000000001
+

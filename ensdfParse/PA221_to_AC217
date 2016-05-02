@@ -1,0 +1,23 @@
+#217AC    221PA A DECAY                                           03NDS    200309
+#  221PA A DECAY                                           03NDS    200309
+#H TYP=FUL$AUT=Y. A. AKOVALI$CIT=NDS 100, 141 (2003)$CUT=26-Jun-2003$     
+#  Q{-|a}({+221}Pa)=9242 {I30}+E(level in {+217}Ac fed by 9075|a).        
+#  Q{-|a}=9248 {I50} was recommended by 1995Au04; Q{-|a}=9252 {I52} from  
+#  mass excesses recommended by 1997AU04, and QA=9248 54 from the         
+#  updated recommendations by G. Audi, et al., posted at                  
+#  http://csnwww.in2p3.fr/AMDC/masstables/Ame1995/mass_rmd.mas95.         
+#A HF        r{-0}({+217}Ac)=1.560 22 is used in calculations.            
+#A           From 224U and 222Th alpha decays,                            
+#A r0(220Th)=1.527 30 and r0(218Ra)=1.539 8, with an average of           
+#A r0(219Ac)=1.533 32 from 223Pa decay. From 220Th and 222Th a decays,    
+#A (216Ra)=1.566 9, and r0(218Ra)=1.539 8 (Dr0=0.027 12).                 
+#A I expect that r0 parameter for Ac will decrease going from             
+#A N=128 to N=130 about the same amount as that for r0 of Ra.             
+#A r0(219Ac)+ 0.027 12=1.533 32 + 0.027 12= 1.560 34.                     
+#A The uncertainty can actually be reduced by arguing that r0(219Ac)      
+#A should be less that r0(216Ra)=1.566 9 and probably not less that       
+#A r0(210Pb)=1.5394 from 214Po alpha decay: r0(217AC)=1.560 +15-22        
+#P 0.0         9/2-              5.9 US    17             9248      54    
+PA221 AC217 alpha 9.248 5.9E-6 1.0
++A alpha 9.075 1.0
+

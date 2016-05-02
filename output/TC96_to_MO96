@@ -1,0 +1,100 @@
+# 96MO    96TC EC DECAY (4.28 D)        1971BA59,1970AN03         08NDS    200810
+#  96TC EC DECAY (4.28 D)        1971BA59,1970AN03         08NDS    200810
+#H TYP=FUL$AUT=D. Abriola(a), A.A. Sonzogni$CIT=NDS 109, 2501 (2008)$     
+#H CUT=1-Apr-2008$                                                        
+#  The decay scheme is from 1971Ba59.                                     
+#L J$Adopted values                                                       
+#  Measured |g, |g|g(|q) (1971Ba59,1971Ba52); ce (1970An03); see also     
+#  1974Ga14, 1969Ag05, 1968Ag02                                           
+#G M$|a(K)exp were normalized to |a(K)(E2) for 778|g                      
+#G MR$From |g|g(|q) (1971Ba59) if the 778.2 and 849.9 transitions are     
+#G E2; |d(849.9) from |g|g(|q) in 1974Be03                                
+#G RI(A)$Deduced from intensity balance and |g-branching if I|e=0.        
+#G M(B)$From angular distribution of |g from oriented nuclei (1975Sa18).  
+#E TI$Deduced from intensity balance.                                     
+#  1999MA54: measured |g|g(|q), MR for oriented 96TC nuclei.              
+#  CC$ FROM BrIcc v2.2 (31-Mar-2008) 2008KiAA, "Frozen Orbitals" appr.    
+#P 0           7+                4.28 D    7              2973      5     
+TC96 MO96 beta+ 2.973 369792.0 0.9976
++G gamma 0.77822 1.0
++G gamma 0.7195 0.002
++G gamma 1.49772 9.299999999999999E-4
++G gamma 0.8477 1.8999999999999998E-4
++G gamma 1.6257000000000001 1.0E-5
++G gamma 0.8498600000000001 0.978
++G gamma 0.24159999999999998 8.0E-4
++G gamma 0.3718 7.000000000000001E-4
++G gamma 1.0913 0.011000000000000001
++G gamma 0.3501 2.0E-4
++G gamma 0.3525 2.0E-4
++G gamma 0.481 8.0E-4
++G gamma 1.2001700000000002 0.0037
++G gamma 0.3499 7.000000000000001E-4
++G gamma 0.5912999999999999 0.0011
++G gamma 0.7215 0.0012
++G gamma 1.44114 5.4E-4
++G gamma 0.2194 4.0E-4
++G gamma 0.46004 0.0043
++G gamma 0.5688799999999999 0.0092
++G gamma 0.8125399999999999 0.8220000000000001
++G gamma 0.31427 0.024399999999999998
++G gamma 0.3165 0.013999999999999999
++G gamma 0.5357799999999999 0.0040999999999999995
++G gamma 0.8854 0.001
++G gamma 1.12685 0.152
++G gamma 0.12029999999999999 4.0E-4
++G gamma 0.43471 0.0075
+
+# 96MO    96TC EC DECAY (51.5 M)        1971BA59                  08NDS    200810
+#  96TC EC DECAY (51.5 M)        1971BA59                  08NDS    200810
+#H TYP=FUL$AUT=D. Abriola(a), A.A. Sonzogni$CIT=NDS 109, 2501 (2008)$     
+#H CUT=1-Apr-2008$                                                        
+#  Measured: |g (1987AgZZ,1971Ba59)                                       
+#L J$Adopted values                                                       
+#G E$From 1971Ba59                                                        
+#G RI$From 1987AgZZ except where noted                                    
+#G E(A)$Observed only in 1987AgZZ                                         
+#E TI$From intensity imbalance                                            
+#G M,MR$From Adopted Gammas                                               
+#P 34.23     4 4+                51.5 M    10             2973      5     
+TC96 MO96 beta+ 2.973 3090.0 0.937
++G gamma 0.2698 9.0E-4
++G gamma 0.5444 9.0E-4
++G gamma 0.6473 0.003
++G gamma 1.124 6.0E-4
++G gamma 1.1733 0.001
++G gamma 0.77822 1.0
++G gamma 0.7195499999999999 0.158
++G gamma 1.4976500000000001 0.064
++G gamma 0.8476 0.062
++G gamma 1.6258 0.0066
++G gamma 0.84985 0.152
++G gamma 0.2414 0.004
++G gamma 0.3715 0.0014000000000000002
++G gamma 1.0913 0.0318
++G gamma 0.35032 0.0304
++G gamma 0.3525 0.0301
++G gamma 0.4807 0.166
++G gamma 1.20015 0.575
++G gamma 1.3174000000000001 9.0E-4
++G gamma 1.6205999999999998 6.0E-4
++G gamma 0.2185 3.0E-4
++G gamma 0.46 0.0015
++G gamma 0.5688 0.0014000000000000002
++G gamma 0.8102999999999999 0.001
++G gamma 0.853 0.0025
++G gamma 1.7025 0.001
++G gamma 0.37489999999999996 0.0027
++G gamma 0.6159 0.0359
++G gamma 0.9663999999999999 0.0242
++G gamma 0.9685 0.043
++G gamma 1.0965799999999999 0.0382
++G gamma 1.8155999999999999 0.021
++G gamma 0.9832000000000001 0.0011
++G gamma 0.9857 0.001
++G gamma 1.8462 0.0024
++G gamma 1.1075 2.0E-4
++G gamma 1.1098 2.0E-4
++G gamma 1.2378 0.0068000000000000005
++G gamma 1.9570999999999998 0.005
+

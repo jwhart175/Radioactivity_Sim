@@ -1,0 +1,70 @@
+#155PM    155ND B- DECAY                1993GRZP,1997GR09         05NDS    200501
+#  155ND B- DECAY                1993GRZP,1997GR09         05NDS    200501
+#H TYP=FUL$AUT=C. W. REICH$CIT=NDS 104, 1 (2005)$CUT=1-Jun-2004$          
+#  DATA SET MODIFIED (DECEMBER, 2002) BY CW REICH TO INCLUDE BETA-FEEDING 
+#   DATA AND RELATED INFORMATION.                                         
+#  Production: produced in the neutron-induced fission of 235U            
+#  (1986Ok08,1990Ok04) and in the spontaneous fission of 252CF            
+#  (1993GrZP,1990An31). All of these studies utilized on-line isotope     
+#  separation in the preparation of the source material.                  
+#  The decay scheme is that proposed by 1993GrZP and is based on          
+#  measurements of EG, RI, GG and XKG using a variety of Ge and GELI      
+#  detectors.                                                             
+#  1996Gr20 use total-absorption |g spectroscopy to deduce the |b feeding 
+#   intensity to the GS and the first two excited states. They report     
+#   9.6|+3.2% for this intensity.                                         
+#  From analysis of total-absorption |g ray spectra, 1997Gr09 deduce      
+#   |b feeding intensities to the excited states of 155PM.                
+#  In the 235U-based work, G rays having EG=67.5, 180.7, 418.9 and 955.1  
+#  are reported. The RI values reported for these |g's are in             
+#  reasonably good agreement with those of 1993GrZP.                      
+#  Others: 1986Ok09, 1986Ok08, 1987Gr12, 1988GrZY.                        
+#B IB        THE IB- VALUES ARE FROM THE TOTAL-ABSORPTION |g SPECTROSCOPY 
+#B  DATA OF 1997Gr09. THESE DIFFER FROM THE VALUES DEDUCED FROM INTENSITY 
+#B  BALANCES WITHIN THE DECAY SCHEME, SINCE THESE LATTER VALUES ARE MOST  
+#B  LIKELY SYSTEMATICALLY SKEWED BY THE NONOBSERVATION OF A NUMBER OF G   
+#B  TRANSITIONS.                                                          
+#B IB        1997Gr09 REPORT THE FOLLOWING |b FEEDING INTENSITIES TO      
+#B  REGIONS OF EXCITATION WHERE NO SPECIFIC LEVELS ARE AS YET IDENTIFIED: 
+#B  BETWEEN 1432.4 AND 1876.0, 4.71%; BETWEEN 1976.0 AND 2244.4, 8.84%;   
+#B  BETWEEN 2244.4 AND 2311.3, 2.25%; AND, ABOVE 2673.6, 4.52%.           
+#B IB(S)     FROM IB=9.6|+3.2% FOR THE SUMMED INTENSITY TO THE THREE      
+#B  LOWEST STATES IN 155PM.                                               
+#G $1986Ok09 report I(PM XKA)=229 34 and I(PM XKB)=41 7, relative to      
+#G RI(180.5G)=100. 1993GrZP report I(PM XK)=220 22, also relative to      
+#G RI(180.5G)=100.                                                        
+#G M         From EKC, as determined from the ratios of I(XK) and RI in   
+#G the GG coincidence spectra.                                            
+#L E         Listed values were calculated from a least-squares fit of    
+#L the G-ray energies                                                     
+#L E(Q)      "pseudo-level" INTRODUCED TO ACCOUNT FOR B- FEEDING TO THIS  
+#L  REGION OF EXCITATION, WHERE NO INDIVIDUAL LEVELS ARE REPORTED. SEE    
+#L  THE COMMENT ON THE IB VALUES. EXCEPT FOR THE HIGHEST SUCH "level",    
+#L  THE LISTED VALUE REPRESENTS THE CENTROID OF THE REGION TO WHICH THE   
+#L  FEEDING TAKES PLACE. SINCE THIS DOES NOT CORRESPOND TO ANY SPECIFIC   
+#L  ACTUAL LEVEL, IT IS NOT INCLUDED IN THE Adopted Levels.               
+#L J         From adopted values.                                         
+#P  0.0                             8.9 S  2               4.22E+3  15    
++B beta- 1.425 0.0104
++B beta- 1.342 0.156
++B beta- 1.34 0.031400000000000004
++B beta- 1.322 0.02
++B beta- 1.306 0.0264
++B beta- 1.292 0.006999999999999999
++B beta- 1.29 0.025
++B beta- 1.269 0.004699999999999999
++B beta- 1.262 0.0034999999999999996
++B beta- 1.243 0.0068000000000000005
++B beta- 1.24 0.0077
++B beta- 1.163 0.015300000000000001
++B beta- 1.142 0.11199999999999999
++B beta- 1.123 0.0332
++B beta- 0.709 0.0116
++B beta- 0.707 0.0147
++B beta- 0.693 0.0352
++B beta- 0.658 0.0212
++B beta- 0.657 0.0203
++B beta- 0.654 0.01
++B beta- 0.606 0.0364
++B beta- 0.569 0.0149
+

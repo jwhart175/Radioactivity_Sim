@@ -1,0 +1,36 @@
+# 54TI    54SC B- DECAY                 2010CR02                  14NDS    201408
+#  54SC B- DECAY                 2010CR02                  14NDS    201408
+#H TYP=FUL$AUT=YANG DONG, HUO JUNDE$CIT=NDS 121, 1 (2014)$CUT=20-Jun-2014$
+#  2010Cr02: {+54}Sc isotope produced in Be({+76}Ge{+30+},X)              
+#  fragmentation reaction at E=130 MeV/nucleon, A1900 fragment separator. 
+#  Time-of-flight technique. Fully stripped secondary fragments were sent 
+#  to NSCL Beta Counting System (BCS). System of three Si PIN detectors,  
+#  a double-sided silicon strip detector and six single sided silicon     
+#  strip detectors. Detected |g rays using 16 Ge detectors of the         
+#  Segmented Germanium array. Measured half-life of {+54}Sc by            
+#  fitting the decay curves to a single exponential function              
+#  with a constant background.                                            
+#  2004Li75: {+54}Sc isotope produced in {+9}Be({+86}Kr{+34+},X)          
+#  fragmentation reaction at E=140 MeV/nucleon, A1900 fragment separator. 
+#  Measured E|g, I|g, |g|g, |b|g, |b|g(t), lifetime using a double-sided  
+#  Si microstrip detector (DSSD) and the MSU segmented Germanium Array    
+#  (SeGA).  Identity of particle from energy loss and time of flight from 
+#  a PIN detector, the NSCL |b calorimeter, and scintillator.  The SeGA   
+#  array was arranged around the |b counting system and comprised six Ge  
+#  detectors. See also 2002Ja16.                                          
+#  {+54}Sc SOURCE FROM BE(65CU,XG) E=64.5 MEV/NUCLEON, MEASURED EG,IG     
+#  BG-COIN, SEE 1998SO03.                                                 
+#  ALL DATA FROM 2010Cr02, except as noted.                               
+#  In the decay scheme of 2010Cr02, IB sums to 84 {I9}, missing IB        
+#  is suggestive of a neutron-branching contribution of 16 {I9}.          
+#L E$ From least-squares fit to E|g's. Reduced |h{+2}=7.8, larger than    
+#L critical |h{+2}=3.8                                                    
+#P 0            (3)+             526 MS    15             1.200E4   38    
+SC54 TI54 beta- 12.0 0.526 1
++B beta- 4.67 0.21
++B beta- 4.18 0.33
++B beta- 4.17 0.1
++B beta- 3.93 0.06
++B beta- 3.76 0.07
++B beta- 3.7 0.07
+

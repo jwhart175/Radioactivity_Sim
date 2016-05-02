@@ -1,0 +1,19 @@
+#193BI    197AT A DECAY (0.388 S)       1999Sm07,1986Co12         06NDS    200602
+#  197AT A DECAY (0.388 S)       1999Sm07,1986Co12         06NDS    200602
+#H TYP=FUL$AUT=E. Achterberg, G.V. Marti, V.R. Vanin, et al.$             
+#H CIT=NDS 107, 1 (2006)$CUT=30-Sep-2005$                                 
+#  Sources from {+185,187}Re({+20}Ne,xn) (E({+20}Ne)=100-200 MeV          
+#  (1967Tr06), E({+20}Ne)|<240 MeV (1986Co12)); helium-jet transport;     
+#  measured E|a, I|a (silicon surface-barrier detectors).                 
+#P 0.0         (9/2-)            0.388 S   6              7100      50    
+AT197 BI193 alpha 7.1 0.388 1.00
++A alpha 6.959 1.0
+
+#193BI    197AT A DECAY (2.0 S)         1999Sm07,1986Co12         06NDS    200602
+#  197AT A DECAY (2.0 S)         1999Sm07,1986Co12         06NDS    200602
+#H TYP=FUL$AUT=E. Achterberg, G.V. Marti, V.R. Vanin, et al.$             
+#H CIT=NDS 107, 1 (2006)$CUT=30-Sep-2005$                                 
+#P 52        10 (1/2+)           2.0 S     2              7100      50    
+AT197 BI193 alpha 7.1 2.0 1.00
++A alpha 6.705 1.0
+

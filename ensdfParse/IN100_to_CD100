@@ -1,0 +1,66 @@
+#100CD    100IN EC DECAY (5.9 S)        2002PL03                  08NDS    201003
+#  100IN EC DECAY (5.9 S)        2002PL03                  08NDS    201003
+#H TYP=FUL$AUT=BALRAJ SINGH$CIT=ENSDF$CUT=25-MAR-2010$                    
+#H TYP=FUL$AUT=BALRAJ SINGH$CIT=NDS 109, 297 (2008)$CUT=26-Dec-2007$      
+#  2002Pl03 (also 2003Pl02): {+100}In produced by {+50}Cr({+58}Ni,3p5n)   
+#  E=5.6 MeV/nucleon at GSI facility followed by mass separation.         
+#  Measured E|g, I|g, |g|g, |b|g|g, lifetimes in high-resolution          
+#  experiment using a HPGe detector, an EUROBALL-type cluster, a          
+#  superclover from the VEGA array, and a low-energy photon               
+#  spectrometer, and in a total-absorption experiment (TAS) using a large 
+#  NaI(Tl) crystal, ancillary detectors, two Si detectors and             
+#  one Ge detector.                                                       
+#  Identification and production of {+100}In:                             
+#  1996Ch32 (also 1996Ch26,1997Mi07,1997Le36): {+58}Ni({+50}Cr,3p5n)      
+#  E=5.3 MeV/nucleon at GANIL facility.                                   
+#  1995Sz01: {+50}Cr({+58}Ni,3p5n) E=5.6 MeV/nucleon followed by mass     
+#  separation                                                             
+#  1995Sc33: {+9}Be({+124}Xe,X) E=1095 MeV/nucleon                        
+#  Total decay energy deposit of 6893 keV {I152} calculated by RADLIST    
+#  code is lower than the expected value of 10080 keV {I230}. Total       
+#  absorption measurement suggest that a significant fraction of |g-ray   
+#  intensity is missing in the level scheme.                              
+#E TI$From total absorption spectrum (2002Pl03). Apparent feedings        
+#E from |g-intensity balances are given under comments                    
+#G E(X)$ Poor fit; level-energy difference=659.2                          
+#L J$From 'adopted levels'                                                
+#L E$From least-squares fit to E|g's, 658.2|g not used in the fitting     
+#L procedure since it gives a high |h{+2}=4.2.                            
+#L E(B)$ Pseudo-level suggested from TAS data in 200 keV intervals.       
+#L This group is not included in the 'adopted levels'.                    
+#L BAND(A)$ GS Yrast band                                                 
+#P  0           (6+,7+)          5.9 S     2               9.86E3   18    
++B beta+ 3.684 0.009899999999999999
++B beta+ 3.296 0.009000000000000001
++B beta+ 3.176 0.009000000000000001
++B beta+ 3.152 0.03
++B beta+ 2.975 0.013000000000000001
++B beta+ 2.932 0.013000000000000001
++B beta+ 2.633 0.018000000000000002
++B beta+ 2.616 0.018000000000000002
++B beta+ 2.42 0.009000000000000001
++B beta+ 2.33 0.0203
++B beta+ 2.23 0.0287
++B beta+ 2.13 0.0275
++B beta+ 2.04 0.0167
++B beta+ 1.94 0.0362
++B beta+ 1.85 0.0391
++B beta+ 1.75 0.0373
++B beta+ 1.66 0.0333
++B beta+ 1.56 0.045
++B beta+ 1.47 0.0391
++B beta+ 1.38 0.09300000000000001
++B beta+ 1.28 0.10400000000000001
++B beta+ 1.19 0.106
++B beta+ 1.1 0.067
++B beta+ 1.0 0.049
++B beta+ 0.91 0.022000000000000002
++B beta+ 0.82 0.009000000000000001
++B beta+ 0.73 0.0033
++B beta+ 0.64 0.0026
++B beta+ 0.55 8.0E-4
++B beta+ 0.46 2.1E-4
++B beta+ 0.38 7.000000000000001E-5
++B beta+ 0.29 2.0E-5
++B beta+ 0.2 4.0E-6
+

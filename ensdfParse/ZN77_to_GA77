@@ -1,0 +1,72 @@
+# 77GA    77ZN B- DECAY (2.08 S)        1986EK01                  12NDS    201206
+#  77ZN B- DECAY (2.08 S)        1986EK01                  12NDS    201206
+#H TYP=FUL$AUT=BALRAJ SINGH, NINEL NICA$CIT=NDS 113, 1115 (2012)$         
+#H CUT=30-Mar-2012$                                                       
+#  1986Ek01 (also 1981Ru07, 1977Al17): measured EG, IG, GG, GG(T), BG     
+#  77ZN isotope produced as a fission fragment                            
+#  Theoretical work dealing with |b{+-} strength functions: 1983Be56,     
+#  1984Ha32, 1984XuZZ, 1984Ha58                                           
+#  Total decay energy of 7487 keV {I233} deduced (by RADLIST code) from   
+#  proposed decay scheme is in agreement with the expected value of       
+#  7203 keV {I3}, indicating that decay scheme is fairly complete         
+#B IB$From |g-ray intensity balance at each level, unless otherwise stated
+#G M$From CE data. However, details of such data are not available.       
+#G When internal conversion is expected to be significant and no DJPI     
+#G information is available, multipolarity is assumed as ^D,E2, based     
+#G on general occurrence of such transitions.                             
+#G E(A)$Placement suggested by the evaluators on the basis of GG          
+#G (1986Ek01)                                                             
+#G E(B)$ Somewhat poor fit in the level scheme                            
+#G E(D)$ For least-squares fit, uncertainty increased by a factor of 2    
+#G E(F)$ For least-squares fit, uncertainty increased by a factor of 3    
+#L E$ From least-squares fit to EG data. Reduced |h{+2}=2.2.              
+#L Uncertainties of five |g-ray energies were increased by a factor of    
+#L 2 or 3 to get an acceptable fit                                        
+#L T$From GG(T) (1986Ek01)                                                
+#L J$From ^Adopted ^Levels. For levels above 200, LOGFT values restrict   
+#L J to 5/2, 7/2 or 9/2, assuming 7/2+ for 77ZN g.s. J=9/2 is not         
+#L likely for levels that decay to GS of JPI=3/2(-)                       
+#P     0.0      (7/2+)           2.08 S    5              7203.1    31    
+ZN77 GA77 beta- 7.2031 2.08 1.0
++B beta- 3.3159 0.05
++B beta- 3.2376 0.023
++B beta- 3.2232 0.062
++B beta- 3.0849 0.03
++B beta- 3.0108 0.081
++B beta- 2.8907 0.018000000000000002
++B beta- 2.7725999999999997 0.023
++B beta- 2.7154000000000003 0.017
++B beta- 2.6919 0.019
++B beta- 2.6332 0.0169
++B beta- 2.5978000000000003 0.006999999999999999
++B beta- 2.5784000000000002 0.0132
++B beta- 2.4418 0.0096
++B beta- 2.4249 0.095
++B beta- 2.4123 0.018000000000000002
++B beta- 2.4052 0.0222
++B beta- 2.3592 0.013999999999999999
++B beta- 2.3296 0.053
++B beta- 2.3294 0.027999999999999997
++B beta- 2.2764 0.122
++B beta- 2.2709 0.0146
++B beta- 2.1845 0.0059
++B beta- 2.1743 0.034
++B beta- 2.1700999999999997 0.0292
++B beta- 2.1566 0.0264
++B beta- 2.1369000000000002 0.0053
++B beta- 2.0046 0.08900000000000001
++B beta- 1.9529 0.065
++B beta- 1.9418 0.0039000000000000003
++B beta- 1.9257 0.0022
++B beta- 1.7415999999999998 0.0079
++B beta- 1.7297 0.048
++B beta- 1.6033 0.0124
++B beta- 1.4036 0.002
+
+# 77GA    77ZN B- DECAY (1.05 S)        1986EK01,2009PA35,2009IL0112NDS    201206
+#  77ZN B- DECAY (1.05 S)        1986EK01,2009PA35,2009IL0112NDS    201206
+#H TYP=FUL$AUT=BALRAJ SINGH, NINEL NICA$CIT=NDS 113, 1115 (2012)$         
+#H CUT=30-Mar-2012$                                                       
+#  The details of the |b decay of this isomer are not known               
+#P  772.43   2   (1/2-)          1.05 S    10             7203.1    31    
+

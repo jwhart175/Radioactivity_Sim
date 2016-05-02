@@ -1,0 +1,62 @@
+# 62CU    62ZN EC DECAY (9.193 H)       1974JO11,1967AN01         12NDS    201205
+#  62ZN EC DECAY (9.193 H)       1974JO11,1967AN01         12NDS    201205
+#H TYP=FUL$AUT=ALAN L. NICHOLS, BALRAJ SINGH, JAGDISH K. TULI$            
+#H CIT=NDS 113, 973 (2012)$CUT=15-Apr-2012$                               
+#  1982GR10: 62ZN from CU(P,2N), E=15-70 MEV, GELI singles                
+#  1975RO25: 62ZN from CU(P,2N), E=25 MEV, T by delayed coincidences      
+#  1974JO11: 62ZN from CU(P,2N), E=25 MEV, GELI singles and GG            
+#  coincidences                                                           
+#  1974WA09: 62ZN from NI(A,2N), E not stated, GELI singles, deduced IB+  
+#  1973GI01: 62ZN from CU(P,2N), E=25 MEV, GELI singles                   
+#  1970BOZE: 62ZN from NI(A,ZN), E=27 MEV, GG(THETA), G-FACTOR for 41     
+#  level                                                                  
+#  1969HO01: 62ZN from NI(3HE,N), E LT 10 MEV, GG coincidences, GELI      
+#  1967AN01: 62ZN from CU(P,2N), GELI for G singles, B spectrometer for   
+#  conversion electrons and positrons                                     
+#  1974JO11 point out that there is no need for the 1142 level            
+#  proposed by 1973GI01 since the 1142G is in coincidence with the 247G.  
+#  Other experiments show that 1142 level does exist, but appropriate     
+#  decay G rays (1977CH04) are not observed in any studies of 62ZN decay  
+#  - concluded that feeding of the 1142 level by 62ZN decay is            
+#  negligible.                                                            
+#  Total decay energy of 1622 keV {I78} deduced (by RADLIST code) from    
+#  proposed decay scheme is in agreement with the expected value of       
+#  1619.5 keV {I7}, indicating that decay scheme is complete              
+#G           EKC in comments are from 1969HO01, calculated from ICE of    
+#G 1967AN01 and IG of 1969HO01, normalized to 0.59 and 0.0058             
+#G for the 41- and 597-KEV transitions                                    
+#G E,RI$ From 1974JO11                                                    
+#G M$ From 1969HO01, based on EKC, except as noted                        
+#L E$ From least-squares fit to EG data                                   
+#L J$From Adopted Levels                                                  
+#P 0.0         0+                9.193 H   15             1619.5    7     
+ZN62 CU62 beta+ 1.6195 33094.799999999996 0.26
++G gamma 1.3213 5.0E-5
++G gamma 0.040850000000000004 0.98
++G gamma 0.20267 4.2E-4
++G gamma 0.24336000000000002 0.09699999999999999
++G gamma 0.24694999999999998 0.073
++G gamma 0.38531 6.7E-4
++G gamma 0.26043 0.052000000000000005
++G gamma 0.30488 0.0111
++G gamma 0.5076 0.57
++G gamma 0.54835 0.59
++G gamma 0.3496 0.0173
++G gamma 0.39403 0.086
++G gamma 0.6575 5.0E-5
++G gamma 0.48917 6.1E-4
++G gamma 0.6277999999999999 3.0E-5
++G gamma 0.67184 1.7E-4
++G gamma 0.91544 5.899999999999999E-4
++G gamma 1.2215 5.7999999999999994E-5
++G gamma 0.73123 8.800000000000001E-5
++G gamma 0.79203 3.4E-4
++G gamma 0.8814 5.600000000000001E-4
++G gamma 1.14191 0.00133
++G gamma 1.1862000000000001 1.5E-4
++G gamma 1.3891 4.5E-4
++G gamma 1.4297 0.00106
++G gamma 0.82759 1.15E-4
++G gamma 1.4850999999999999 2.0E-5
++G gamma 1.5259 2.1999999999999998E-4
+

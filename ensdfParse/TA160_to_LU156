@@ -1,0 +1,45 @@
+#156LU    160TA A DECAY (1.7 S)         1996PA01                  12NDS    201210
+#  160TA A DECAY (1.7 S)         1996PA01                  12NDS    201210
+#H TYP=FUL$AUT=C. W. REICH$CIT=NDS 113, 2537 (2012)$CUT=1-Mar-2012$       
+#  DATA SET UPDATED (SEPTEMBER, 2011) BY CW. REICH TO INCLUDE NEW QP      
+#   VALUE.                                                                
+#  The evaluator has assumed that this activity is different from the     
+#   previously established 1.55-S 160TA activity. This is based on the    
+#   observation that the study of 1996Pa01 shows two |a activities in     
+#   160TA, which having a distinct |a group which correlates with a       
+#   different 156LU |a group, although with comparable half-lives. Since  
+#   the E(ALPHA) value associated with this activity implies a QA value   
+#   close to that given by 2011AuZZ, the evaluator has assumed that this  
+#   activity corresponds to the 160TA GS (or at least that it lies below  
+#   the 1.55-S activity).                                                 
+#  1996Pa01: Source material produced in 58NI+102PD reactions. Reaction   
+#   products separated using a recoil mass separator and detected in a    
+#   double-sided Si-strip detector. Measured T and E(ALPHA).              
+#P    X        (2)-                1.7 S   4               5451     5     
++A alpha 5.315 1.0
+
+#156LU    160TA A DECAY (1.55 S)        1996PA01,1979HO10         12NDS    201210
+#  160TA A DECAY (1.55 S)        1996PA01,1979HO10         12NDS    201210
+#H TYP=FUL$AUT=C. W. REICH$CIT=NDS 113, 2537 (2012)$CUT=1-Mar-2012$       
+#  DATA SET UPDATED (SEPTEMBER, 2011) BY CW. REICH TO INCLUDE NEW QA      
+#   VALUE.                                                                
+#  1996Pa01: Source material produced in 58NI+102PD reactions. Reaction   
+#   products separated using a recoil mass separator and detected in a    
+#   double-sided Si-strip detector. Measured T and E(ALPHA).              
+#  1979Ho10: Source material produced in 58NI reactions on various        
+#   targets. Reaction products separated with velocity selector and       
+#   |a-counted in a position-sensitive Si detector to define decay        
+#   chains. Report E(ALPHA) and I(ALPHA).                                 
+#  Other studies: 1986Ru05, 130BA(35CL,5NG), E(35CL)=200 MeV. (Results    
+#   also reported in 1988MeZY); 1981HoZM (report results from 1979Ho10).  
+#  Experimental methods:                                                  
+#  1981HoZM report the results given in 1979Ho10                          
+#  1986Ru05: Samples produced by the 130BA(35CL,5N) reaction with         
+#   E(35CL)=200 MeV. |a's and |g's measured.                              
+#  1988MeZY report the results given in 1986Ru05                          
+#  1996Pa01 also report an |a transition with E(ALPHA)=5313 5 and         
+#   T=1.7 S 2 from 160TA. The evaluator has assumed that this corresponds 
+#   to a separate activity in 160TA.                                      
+#P    Y         9+               1.55 S    4               5451     5     
++A alpha 5.412 1.0
+

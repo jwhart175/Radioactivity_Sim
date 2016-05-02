@@ -1,0 +1,67 @@
+#213AC    217PA A DECAY (3.6 MS)        2002HE29,2000HE17,1968VA1807NDS    200704
+#  217PA A DECAY (3.6 MS)        2002HE29,2000HE17,1968VA1807NDS    200704
+#H TYP=FUL$AUT=M. S. Basunia$CIT=NDS 108, 633 (2007)$CUT=1-Nov-2006$      
+#  Others: 1998IK01, 1996AN21, 1979SC09, and 2005YeZZ.                    
+#  2002HE29: 217PA produced through 181TA(40AR,4n)217TH, Target: 99.988%  
+#  natural tantalum; E=182 MeV; Detector: 16-strip ^PIPS-detector,        
+#  Ge-^Clover detector of 4 crystals; Measured: EA, IA, ALPHA-ALPHA       
+#  coincidences.                                                          
+#  2000HE17: 217PA produced through 170ER(51V,4n)217TH; E=214-286 MeV;    
+#  Detector: 16-strip ^PIPS-detector, a HPGe detector; Measured: EA, IA.  
+#  1968VA18: 217PA produced through 206PB(20NE,p8n)217PA and              
+#  208TL(20NE,11n)217PA; Detector: Semi; Measured: EA.                    
+#  1998IK01: 217PA produced through 194PT(28SI,p4n)217PA; E=163-MeV and   
+#  175-MeV; Detector: double sided position sensitive strip detector;     
+#  Measured: EA, T.                                                       
+#  1996AN21: 217PA from 170ER(51V,4n)217PA; E=28-87 MeV; Detector: ^ER    
+#  are separated in flight, 16-strip ^PIPS detector, a HPGe detector;     
+#  Measured: EA, T.                                                       
+#  1979SC09: 181Ta(40AR,4n)217PA; E=165-202 MeV; Measured: EA, T.         
+#  2005YeZZ: 217PA from 181TA(40AR,4n)217PA; Detector: array              
+#  of silicon strip, 7 HPGe, time-of-flight detectors; Measured EA.       
+#A HF        Using R0(213AC)=1.47 9, average of R0(212RA)=1.466 6 and     
+#A R0(214TH)=1.46 +4-9 (considered 0.09 uncertainty in averaging by the   
+#A evaluator) (1998AK04).                                                 
+#A IA        From 2002HE29.                                               
+#G E         From level energy difference, expected in 2002HE29.          
+#L E         Deduced by the evaluator using the EA and QA values.         
+#P 0.0                           3.6 MS    8                8489    4     
++A alpha 8.336 0.99
++A alpha 7.873 0.004
++A alpha 7.728 0.003
++A alpha 7.71 0.003
+
+#213AC    217PA A DECAY (1.2 MS)        2002HE29,2000HE17,1998IK0107NDS    200704
+#  217PA A DECAY (1.2 MS)        2002HE29,2000HE17,1998IK0107NDS    200704
+#H TYP=ERR$AUT=M. S. Basunia$DAT=08-Jul-2014$COM=Corrected                
+#H |a intensity and recalculated hindrance factor (HF)$                   
+#H TYP=FUL$AUT=M. S. Basunia$CIT=NDS 108, 633 (2007)$CUT=1-Nov-2006$      
+#  Others: 1996An21, 1979Sc09.                                            
+#  2002He29: {+217}Pa produced through {+181}Ta({+40}Ar,4n){+217}Th,      
+#  Target: 99.988% natural tantalum; E=182 MeV; Detector: 16-strip        
+#  PIPS-detector, Ge-Clover detector of 4 crystals; Measured: E|a, I|a,   
+#  |a-|a coincidences.                                                    
+#  2000He17: {+217}Pa produced through {+170}Er({+51}V,4n){+217}Th;       
+#  E=214-286 MeV; Detector: 16-strip PIPS-detector, a HPGe detector;      
+#  Measured: E|a, I|a.                                                    
+#  1998Ik01: {+217}Pa produced through {+194}Pt({+28}Si,p4n){+217}Pa;     
+#  E=163-MeV and 175-MeV; Detector: double sided position sensitive strip 
+#  detector; Measured: E|a, T{-1/2}.                                      
+#  1996An21: {+217}Pa from {+170}Er({+51}V,4n){+217}Pa; E=28-87 MeV;      
+#  Detector: ER are separated in flight, 16-strip PIPS detector, a HPGe   
+#  detector; Measured: E|a, T{-1/2}.                                      
+#  1979Sc09: 181Ta({+40}Ar,4n){+217}Pa; E=165-202 MeV; Measured: E|a,     
+#  T{-1/2}.                                                               
+#A HF        Using r{-0}({+213}Ac)=1.47 {I9}, average of                  
+#A r{-0}({+212}Ra)=1.466 {I6} and r{-0}({+214}Th)=1.46 {I+4-9}            
+#A (considered 0.09 uncertainty in averaging by the evaluator) (1998Ak04).
+#A E,IA      From 2002He29.                                               
+#G E         From level energy difference, expected in 2002He29.          
+#L E         From adopted levels, except noted otherwise.                 
+#P 1857.0    12                  1.2 MS    2                8489    4     
++A alpha 10.157 0.72
++A alpha 9.697 0.02
++A alpha 9.552 0.09
++A alpha 9.533 0.06
++A alpha 8.306 0.11
+

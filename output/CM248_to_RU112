@@ -1,0 +1,28 @@
+#112RU    248CM SF DECAY                1994SH26,2012Sm02         15NDS    201412
+#  248CM SF DECAY                1994SH26,2012Sm02         15NDS    201412
+#H TYP=FUL$AUT=S. LALKOVSKI, F.G. KONDEV$CIT=NDS 124, 157 (2015)$         
+#H CUT=1-Aug-2014$                                                        
+#  1994Sh26: Source: ~2 |mCi {+248}Cm in a KCl pellet; Detectors:         
+#  EUROGAM array; Measured: |g-|g-|g, |g|g(|q), E|g, I|g; 2x10{+9}        
+#  triple-|g coincidence events; Deduced: level scheme;                   
+#  Other from the same group: 2003Du25                                    
+#  2012Sm02: Source: 5 mg {+248}Cm oxide in a KCl pellet; Detectors:      
+#  EUROGAM-2 array; Measured: triple-|g and higher coincidences, E|g,     
+#  I|g, Doppler-broadened lineshapes; 2.5x10{+9} triple-|g and higher     
+#  coincidence events; Deduced: level lifetimes                           
+#L E$From least-squares fit to E|g's                                      
+#L J$From the deduced |g-ray transition multipolarities and the apparent  
+#L band structures                                                        
+#L T$From 2012Sm02 using Doppler-broadened lineshape technique            
+#L BAND(A)$ K|p=0+, GS band                                               
+#L BAND(B)$ K|p=2+,|g-vibrational band, |a=0                              
+#L BAND(C)$ K|p=2+,|g-vibrational band, |a=1                              
+#G E,RI$From 1994Sh26, unless otherwise stated. E|g are from the reported 
+#G level energy differences with |DE|g=0.2 keV. |DI|g=20% for I|g < 10 and
+#G |DI|g=3 % for I|g > 10                                                 
+#G E(a)$From 2012Sm02; |DE|g=0.5 keV were estimated by the evaluators     
+#G M$From angular correlation measurements in 1994Sh26 and the apparent   
+#G band structures                                                        
+#P 0.0         0+                3.48E+5 Y 6                              
+CM248 RU112 SF 0.0 1.09818042624E13 1.0
+

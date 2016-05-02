@@ -1,0 +1,32 @@
+#154ER    154TM EC DECAY (8.1 S)        1997TO12                  09NDS    200910
+#  154TM EC DECAY (8.1 S)        1997TO12                  09NDS    200910
+#H TYP=FUL$AUT=C. W. Reich$CIT=NDS 110, 2257 (2009)$CUT=1-May-2008$       
+#  DATA SET UPDATED (MARCH, 2007) BY CW REICH TO INCLUDE NEW ICC VALUES,  
+#   REVISED COMMENTS                                                      
+#  1997To12: Source material produced by ({+64}Zn,3pxn) on {+92}Mo and    
+#   {+94}Mo, followed by isotope separation. Coincidences among |a, |b+,  
+#   and |g with Si, Ge, and plastic scintillation detectors.              
+#G M         From {+154}Er Adopted |g radiations.                         
+#L J         From {+154}Er Adopted Levels.                                
+#P    0         (2-)             8.1 S     3              8183      15    
+
+#154ER    154TM EC DECAY (3.30 S)       1997TO12,1973BOVZ,1984TOZT09NDS    200910
+#  154TM EC DECAY (3.30 S)       1997TO12,1973BOVZ,1984TOZT09NDS    200910
+#H TYP=FUL$AUT=C. W. Reich$CIT=NDS 110, 2257 (2009)$CUT=1-May-2008$       
+#  DATA SET UPDATED (MARCH, 2007) BY CW REICH TO INCLUDE RECALCULATED     
+#   ICC VALUES AND REVISED COMMENTS.                                      
+#  1984ToZT:  Produced by ({+16}O,xn) or ({+16}O,pxn) on {+144}Sm         
+#       followed by isotope separation.  Measured T{-1/2}.                
+#  1997To12:  Produced by ({+64}Zn,3pxn) on {+92}Mo and {+94}Mo           
+#       followed by isotope separation.  Coincidences among |a, |b+,      
+#       and |g with Si, Ge, and plastic scintillation detectors.          
+#  Other: 1973BoVZ. Abstract only.                                        
+#E TI,LOGFT  Values calculated assuming that these levels are not fed     
+#E  significantly by |g's from higher levels. Since the decay scheme is   
+#E   clearly incomplete, the listed feeding intensities may be larger     
+#E   than the actual values.                                              
+#G E,RI      From 1997To12; other E|g: from 1973BoVZ.                     
+#G M         From {+154}Er Adopted |g radiations.                         
+#L J         From Adopted Levels.                                         
+#P    0+X      (9+)              3.30 S    7              8183      15    
+

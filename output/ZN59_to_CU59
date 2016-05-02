@@ -1,0 +1,112 @@
+# 59CU    59ZN EC DECAY                 1981HO19,1984AR12         02NDS    200204
+#  59ZN EC DECAY                 1981HO19,1984AR12         02NDS    200204
+#H TYP=FUL$AUT=Coral M. BAGLIN$CIT=NDS 95, 215 (2002)$CUT=8-Feb-2002$     
+#  Other: 1981AR13.                                                       
+#  1981HO19: production: 58NI(3HE,2N), E=25 MEV. Measured EP and I(p) for 
+#  B-delayed protons, EG, IG, p(T); GE(LI) and SI detectors, 98% 58NI     
+#  target.                                                                
+#  1984AR12, 1981AR13: production and identification: 58NI(3HE,2N), E AP  
+#  20 MEV, mass separation. Measured EB, EG, IG, B(T), I(B-delayed        
+#  protons); high purity Ge detectors and SI(AU) DE-E telescope; FWHM=15  
+#  KEV for delayed protons.                                               
+#L E         For bound levels: from EG. For unbound levels (E>3418):      
+#L from EP(lab) (1981HO19) and SP=3417.5 9 (1995AU04). Data from          
+#L 1981HO19 are in excellent agreement with those from 58NI(P,G)          
+#L and 58NI(3HE,DP) studies.                                              
+#L J         From adopted levels.                                         
+#G E         From 1984AR12.                                               
+#G RI        Absolute RI (%) from 1984AR12.                               
+#G M,MR      From adopted gammas.                                         
+#E E         Measured E(B+)=8100 100 (1981AR13,1984AR12).                 
+#E TI        For bound levels: from IG imbalance. For unbound levels:     
+#E from measured proton intensities of 1981HO19 renormalized so total     
+#E I(p)=0.10% 3 (adopted value) combined with WIDTHP/WIDTH, assuming      
+#E WIDTHP/WIDTH=1, except when data are available from                    
+#E 58NI(3HE,DP) (1976GA19).                                               
+#L E(A)      Level not reported in 58NI(3HE,DP) reaction (1976GA19).      
+#L E(D)      Correspondence of this level to the 5923 level of 1976GA19   
+#L is not certain.                                                        
+#L E(E)      From 1984AR12 (fig. 4); IB quoted as 0.003%. Source of data  
+#L unclear, so evaluator has indicated existence of level as tentative.   
+#N 1.0                   1.0       1.0                                    
+#N NR        from I(491G)/IB(total)=4.8% 6                                
+#N (measured in planar HPGe detector which detected both B and G) and     
+#N I(B+-p)=0.10% 3 (1984AR12) and intensity imbalance at 491 and 914      
+#N levels. Other I(491G): 5% 2 (1981HO19) from measured                   
+#N intensity relative to G+- radiation                                    
+#N (allowing 10% correction for annihilation in flight).                  
+#N                                                                     3  
+#P 0.0         3/2-              182.0 MS  18             9.09E+3    4    
+ZN59 CU59 beta+ 9.09 0.182 1.0
++G gamma 0.0 1.0
++G gamma 0.0 1.0
++G gamma 0.0 1.0
++G gamma 0.0 1.0
++G gamma 0.0 1.0
++G gamma 0.0 1.0
++G gamma 0.0 1.0
++G gamma 0.0 1.0
++G gamma 1.358 0.03
++G gamma 1.649 0.01
++G gamma 1.826 0.01
++G gamma 1.83 0.01
++G gamma 2.149 0.12
++G gamma 2.336 0.07
++G gamma 2.555 0.07
++G gamma 2.94 0.07
++G gamma 2.946 0.04
++G gamma 2.998 0.01
++G gamma 3.276 0.01
++G gamma 4.35 0.04
++G gamma 4.773 0.18
++G gamma 5.264 0.35
++G gamma 1.4 0.02
++G gamma 1.691 0.02
++G gamma 1.868 0.04
++G gamma 2.176 0.1
++G gamma 2.282 0.07
++G gamma 2.982 0.66
++G gamma 5.306 0.09
++G gamma 2.418 0.03
++G gamma 2.514 0.1
++G gamma 2.726 0.02
++G gamma 2.733 0.02
++G gamma 3.118 0.12
++G gamma 3.176 0.05
++G gamma 3.454 0.23
++G gamma 4.528 0.14
++G gamma 4.951 0.18
++G gamma 5.444 0.11
++G gamma 1.904 0.04
++G gamma 2.367 0.05
++G gamma 2.44 0.03
++G gamma 2.458 0.05
++G gamma 3.158 0.15
++G gamma 3.216 0.16
++G gamma 3.494 0.06
++G gamma 3.617 0.09
++G gamma 4.083 0.03
++G gamma 4.568 0.04
++G gamma 4.991 0.3
++G gamma 1.437 0.11
++G gamma 2.578 0.03
++G gamma 2.692 0.01
++G gamma 2.904 0.02
++G gamma 2.911 0.11
++G gamma 2.956 0.19
++G gamma 3.632 0.04
++G gamma 4.221 0.02
++G gamma 5.62 0.47
++G gamma 0.0 0.04
++G gamma 0.0 0.05
++G gamma 0.0 0.06
++G gamma 0.0 0.09
++G gamma 0.0 0.1
++G gamma 0.0 0.08
++G gamma 0.0 0.18
++G gamma 0.0 0.19
++G gamma 0.0 0.12
++G gamma 0.0 1.0
++G gamma 0.0 1.0
++G gamma 0.0 0.05
+

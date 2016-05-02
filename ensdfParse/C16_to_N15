@@ -1,0 +1,35 @@
+# 15N     16C B-N DECAY                 1976AL02,1983GA03,2001GR06         201305
+#  16C B-N DECAY                 1976AL02,1983GA03,2001GR06         201305
+#H TYP=UPD$AUT=J. Kelley$CUT=24-January-2013$                             
+#H COM=Updated data set since last full evaluation$                       
+#  Data on 16C |b-n decay to 15N are derived from 3 articles, each        
+#  providing improvement.                                                 
+#  1976AL02: 16C nuclei were created using the 14C(18O,16O)16C and        
+#  11B(7LI,2p) 16C reactions. Delayed neutrons, from 16C decay in the     
+#  target, were deteted in 1 3HE proportional counters. A paraffin        
+#  moderator was used, along with beam chopping, to measure T1/2=747 MS 8.
+#  The bare 3HE counter was used to measure the delayed neutron energy    
+#  spectrum; two groups were observed with E{-n}=790 KEV 30 and E{-n}=1720
+#  KEV 50. The ratio of intensities is I{-0.79}/I{-1.72}=5.4+-0.7. No     
+#  evidence was found for delayed |g-rays.                                
+#  1983GA03: The 14C(t,p)16C reaction produced 16C nuclei in the target.  
+#  Three planar ^HPGe detectors were configured to detect |g-rays, a thin 
+#  plastic scintillator counted |b-rays and a stilbene crystal counted    
+#  neutrons. The 120 KEV |g-ray transition to the ground state is         
+#  observed, with I(120 KEV)=(0.68 +9 -11)%, while limits of LT 0.1% are  
+#  placed on other transitions. Hence |b-1n AP (99.32 +11 -9)%.           
+#  2001GR06: ^A beam of 16C is produced by fragmentation reactions and    
+#  implanted in a ^NE102 scintillator block. The implantation detector    
+#  was surrounded by ^TONNERRE, a neutron array that covered 45% of 4PI,  
+#  and decay neutron were evaluated by their time-of-flight for the 1.2 m 
+#  transit. A branch corresponding to E{-n}=3.29 MEV was observed and     
+#  identified with a half life that correlates with 16C decay. The 3HE    
+#  counter of 1976AL02 would have been insensitive to the I=(1.0+-0.2)%   
+#  branch for this decay path.                                            
+#  In summary, absolute intensities are deduced for 16C decay to neutron  
+#  stable levels in 16N (1983GA03: I(16N^*(120) AP 0.7%), a weak branch   
+#  to 16N^*(6.00) is deduced in (2001GR06: I(16N^*(6.00) -> n+15N)=1.0%,  
+#  and the ratio I{-0.79}/I{-1.72}=5.4+-7 is found in (1976AL02).         
+#P 0           0+                0.747 S   8              5521.4    49    
+C16 N15 neutron&beta- 5.5214 0.747 0.9930
+

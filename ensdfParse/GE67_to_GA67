@@ -1,0 +1,92 @@
+# 67GA    67GE EC DECAY                 1969ZO05,1969VR01,1969BA0705NDS    200512
+#  67GE EC DECAY                 1969ZO05,1969VR01,1969BA0705NDS    200512
+#H TYP=FUL$AUT=HUO JUNDE, HUANG XIAOLONG, J.K. TULI$                      
+#H CIT=NDS 106, 159 (2005)$CUT=1-Apr-2005$                                
+#  1969Zo05: E|g, I|g, |g|g coincidences                                  
+#  1969Vr01: E|g, I|g                                                     
+#  1969Ba07: E|g, I|g, |g|g coincidences, T{-1/2}, ce spectrum, |b{++}    
+#  spectra and Fermi-Kurie analysis                                       
+#  Decay scheme is based on 1969Zo05. See 1959Ri35, 1964Va23, and         
+#  1969Ba07 for |b{++} measurements.                                      
+#L E         From a least-squares fit to the E|g data                     
+#L J         From adopted levels                                          
+#E IB,IE     From I(|g+ce) imbalance at each level                        
+#G E         From 1969Zo05                                                
+#G RI        Relative intensity from 1969Zo05                             
+#G M,MR      From adopted levels                                          
+#P 0           1/2-              18.9 M    3              4222       5    
+GE67 GA67 beta+ 4.222 1134.0 1.0
++G gamma 1.3175999999999999 7.840000000000001E-4
++G gamma 1.6688 1.274E-4
++G gamma 2.6688 3.479E-4
++G gamma 3.1231 6.86E-4
++G gamma 3.1441999999999997 1.3230000000000002E-4
++G gamma 3.3078000000000003 1.764E-4
++G gamma 3.3619 2.009E-4
++G gamma 3.6124 5.88E-5
++G gamma 0.16701 0.8428
++B beta+ 8.682E-4 0.00111
++G gamma 0.3595 0.0147
++G gamma 0.4686 0.0012740000000000002
++G gamma 0.6611 0.0030380000000000003
++G gamma 0.8282999999999999 0.029890000000000003
++B beta+ 1.3679000000000001 0.04
++G gamma 0.5512 8.33E-4
++G gamma 0.7442000000000001 6.86E-4
++G gamma 0.9112 0.03087
++G gamma 0.2533 0.0032340000000000003
++G gamma 0.9148 0.030380000000000004
++G gamma 1.0813 0.01029
++B beta+ 1.0562 0.04
++G gamma 1.203 1.274E-4
++B beta+ 0.9382 0.0
++G gamma 1.1965 2.842E-4
++B beta+ 0.882 0.0
++G gamma 0.5574 5.88E-4
++G gamma 0.7287 0.023520000000000003
++G gamma 0.8118 0.00784
++G gamma 1.2806 0.0037730000000000003
++G gamma 1.4727999999999999 0.049
++G gamma 1.6395 0.00637
++B beta+ 0.72 0.001
++G gamma 0.7282000000000001 0.00441
++G gamma 0.8985 0.009555000000000001
++G gamma 0.9813 0.01127
++G gamma 1.4507 0.006566000000000001
++G gamma 1.643 0.00882
++G gamma 1.8094000000000001 0.013229999999999999
++B beta+ 0.6818 0.001
++G gamma 1.9762 0.001372
++B beta+ 0.605 0.002
++G gamma 2.5265999999999997 0.002058
++B beta+ 0.5305 0.002
++G gamma 1.7082 4.41E-4
++G gamma 1.7908 6.370000000000001E-4
++G gamma 2.453 1.568E-4
++B beta+ 0.2895 0.006
++G gamma 2.5636 0.002254
++G gamma 2.7306 9.31E-4
++B beta+ 0.2499 0.006999999999999999
++G gamma 2.0795 2.1559999999999998E-4
++G gamma 3.1628000000000003 0.001127
++B beta+ 0.2029 0.008
++G gamma 2.144 5.88E-4
++G gamma 2.3959 6.86E-4
++G gamma 2.8655999999999997 0.001029
++G gamma 3.0583 0.001911
++G gamma 3.2255 2.891E-4
++B beta+ 8.827E-4 9.9E-4
++G gamma 3.0422 3.43E-4
++G gamma 3.4015 0.0015190000000000002
++B beta+ 8.826000000000001E-4 9.9E-4
++G gamma 3.4657 8.33E-5
++G gamma 3.6314 5.88E-5
++B beta+ 8.822E-4 9.9E-4
++G gamma 1.68 1.127E-4
++G gamma 1.8447 2.45E-4
++G gamma 3.6555999999999997 4.41E-5
++B beta+ 8.813E-4 0.001
++G gamma 3.3688000000000002 1.764E-4
++G gamma 3.727 1.274E-4
++B beta+ 8.811E-4 0.001
+

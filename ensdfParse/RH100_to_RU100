@@ -1,0 +1,112 @@
+#100RU    100RH EC DECAY (20.8 H)       1995KEZZ,1996GI04,1969BE6908NDS    200802
+#  100RH EC DECAY (20.8 H)       1995KEZZ,1996GI04,1969BE6908NDS    200802
+#H TYP=FUL$AUT=BALRAJ SINGH$CIT=NDS 109, 297 (2008)$CUT=26-Dec-2007$      
+#  1995KeZZ: G, GG, half-life data                                        
+#  1996Gi04: CE data, G data for selected transitions                     
+#  1969Be69: G, GG data                                                   
+#  1974Ko23 (also 1974Ko05 from the same group): CE data for              
+#  mainly the E0 transitions. G data for selected transitions             
+#  1978Ba29: GG(THETA) data using germanium and NAI detectors.            
+#  G data for selected transitions                                        
+#  Others: 1977BhZV, 1969An11, 1968Ka04, 1966Au06, 1964Ko04,              
+#  1964An13, 1962Ba17, 1953Ma64, 1950Su29, 1948Li03                       
+#  G data: 1995KeZZ, 1969Be69, 1996Gi04, 1978Ba29, 1974Ko23.              
+#  Others: 1977BhZV, 1969An11, 1968Ka04, 1964Ko04, 1964An13, 1962Ba17     
+#  GG data: 1995KeZZ, 1969Be69, 1978Ba29. Others: 1977BhZV, 1969An11,     
+#  1968Ka04, 1964Ko04, 1962Ba17                                           
+#  GG(THETA) data: 1978Ba29, 1991Pr08. Others (using NAI                  
+#  detectors): 1968Ka04, 1964Ko04                                         
+#  CE data: 1996Gi04, 1974Ko23 (also 1974Ko05), 1964Ko04.                 
+#  Others: 1964An13, 1953Ma64                                             
+#  (CE)(G): 1968Ka04                                                      
+#  GG(THETA,H,T): 1966Au06                                                
+#  B+ data: 1953Ma64. Others: 1964An13, 1948Li03                          
+#  T1/2(100RH GS): 1995KeZZ, 1953Ma64. Others: 1964An13, 1964Ko04,        
+#  1950Su29, 1948Li03                                                     
+#  Total decay energy deposit of 3640 keV {I24} calculated by RADLIST     
+#  code is in agreement with expected value of 3635 keV {I18}             
+#E           Branching to 2167 level <0.07%                               
+#E E$From 1953Ma64 from analysis of FERMI plot in five components.        
+#E The components to GS and 540 level seem to agree with G-ray data       
+#E whereas three others at EB(IB)=1260 10(0.62%), 540 25 (0.18%),         
+#E 150 30 (0.003%) are probably incorrect. The relative branching         
+#E to GS and 540 level is also not very accurately determined             
+#G E,RI$From 1995KeZZ. RI's given by 1995KeZZ are renormalized            
+#G (by evaluator) so that RI(539G)=100.                                   
+#G M$From CE data normalized to the 540G treated as E2 (KC=0.00373).      
+#G Most assignments are consistent with those in 'adopted gammas'.        
+#G M(A)$From 'adopted gammas'. CE data for other transitions normalized   
+#G to this transition treated as E2 (KC=0.00373)                          
+#G E(E),TI(E)$Transition observed in CE data only (1974Ko23)              
+#G RI(B)$Uncertainty of <1% quoted by 1995KeZZ seems too low to be        
+#G realistic. A minimum uncertainty of 1% is assigned (by evaluator)      
+#G for branching ratio given in 'adopted gammas'                          
+#G           The 218G (RI=0.03 1, 1978Ba29) and 2395.7G (RI=0.13 8,       
+#G 1969Be69) are omitted since these are not confirmed by 1995KeZZ        
+#G and 1996Gi04. RI(218G) LT 0.0025 (1996Gi04), RI(2396G) LT 0.0012       
+#G (1995KeZZ)                                                             
+#L J(A)$From GG(THETA)                                                    
+#L E$From least-squares fit to EG's. The uncertainty of the doublet       
+#L at 1207.50 3 was assumed as 0.3 KEV in the fitting procedure.          
+#L Normalized |h{+2} is 1.8, somewhat larger than the critical            
+#L value of 1.4                                                           
+#L J$From 'adopted levels', unless otherwise stated.                      
+#P   0.0        1-                 20.8 H  1               3635     18    
++B beta+ 0.10821 0.0
++B beta+ 1.174 0.0013
++G gamma 0.539512 0.806
++B beta+ 0.924 0.00243
++B beta+ 0.656 0.00458
++B beta+ 0.552 0.00573
++B beta+ 0.385 0.00753
++B beta+ 0.324 0.008020000000000001
++B beta+ 0.25 0.008409999999999999
++B beta+ 0.229 0.00848
++B beta+ 0.168 0.008611
++B beta+ 8.655000000000001E-4 0.00108
++B beta+ 0.068 0.008658
++B beta+ 8.657000000000001E-4 0.00108
++B beta+ 8.657000000000001E-4 0.00108
++B beta+ 8.656E-4 0.00108
++B beta+ 8.655000000000001E-4 0.00108
++B beta+ 8.652999999999999E-4 0.00109
++B beta+ 8.650999999999999E-4 0.00109
++B beta+ 8.650999999999999E-4 0.00109
++B beta+ 8.646E-4 0.00109
++B beta+ 8.645E-4 0.00109
++B beta+ 8.642999999999999E-4 0.00109
++B beta+ 8.634E-4 0.0011
++B beta+ 8.632E-4 0.0011
++B beta+ 8.617000000000001E-4 0.00111
++B beta+ 8.615000000000001E-4 0.00111
++B beta+ 8.615000000000001E-4 0.0011200000000000001
++B beta+ 8.539999999999999E-4 0.02
++B beta+ 8.46E-4 0.0012
+
+#100RU    100RH EC DECAY (4.6 M)        1980BA59,1978KI07,1974SI1808NDS    200802
+#  100RH EC DECAY (4.6 M)        1980BA59,1978KI07,1974SI1808NDS    200802
+#H TYP=FUL$AUT=BALRAJ SINGH$CIT=NDS 109, 297 (2008)$CUT=26-Dec-2007$      
+#  1980Ba59, 1978Ki07, 1974Si18: Measured G.                              
+#  Others: 1986Du04, 1982MaZP                                             
+#  %IT decay AP 98.3, %EC decay AP 1.7 (1980Ba59)                         
+#  T1/2(100RH isomer): 1974Si18                                           
+#  Total decay energy deposit of 70 keV calculated by RADLIST             
+#  code is in agreement with expected value of 64 keV                     
+#E TI,LOGFT$ Due to poor knowledge of (|e+|b{++})/^IT ratio, the feedings 
+#E and LOGFT values are given as approximate values                       
+#E $ 1362 level: from G intensity balance, %EC+B+=-0.027 14.              
+#E This non-physical result may be due to poor knowledge of G-ray         
+#E intensities from the decay of the 4.6 M 100RH                          
+#G E$From 1980Ba59, |D(E|g) not given by the authors, 0.5 KEV assumed     
+#G by the evaluator for fitting purpose.                                  
+#G M$ From 'adopted gammas'.                                              
+#G E(E)$ Placement from 'adopted gammas'                                  
+#G E(C)$ 2000GE01 POINT OUT THAT A GAMMA RAY CLOSE TO THIS ENERGY IN      
+#G (A,2NG) EXPERIMENT SHOWS COINCIDENCE IN 687G GATE, SUGGESTING THAT     
+#G 1536G MAY BE FROM A LEVEL NEAR 2762 KEV                                
+#L E$From least-squares fit to EG's, assuming |D(E|g)=0.5 KEV for         
+#L each |g ray                                                            
+#L J$From 'adopted levels'                                                
+#P 105       AP (5+)               4.6 M   2               3635     18    
++B beta+ 8.38E-4 0.0013
+

@@ -1,0 +1,177 @@
+# 94MO    94TC EC DECAY (293 M)         1969BA09                  06NDS    200609
+#  94TC EC DECAY (293 M)         1969BA09                  06NDS    200609
+#H TYP=FUL$AUT=D. Abriola(a), A.A. Sonzogni$CIT=NDS 107, 2423 (2006)$     
+#H CUT=1-Jan-2006$                                                        
+#  1969Ba09: Ge(Li), FWHM=3.1 keV and 2.4 keV at 1.33 MeV. NaI. Measured  
+#  E|g, I|g, |g|g.                                                        
+#  1979Ka22: Ge(Li), FWHM=1.9 keV at 1.33 MeV. NaI(Tl). Measured          
+#  |g|g(|q).                                                              
+#  1977Be38: Ge(Li), FWHM=3 keV at 1.17 MeV. NaI(Tl). Measured |g|g(|q),  
+#  |g|g(pol) correlation.                                                 
+#  1977Be19: Ge(Li). Measured |g(|q,H,t) from low-temperature oriented    
+#  nuclei. Deduced mult., |d.                                             
+#  1968Ar06: Ge(Li), NaI(Tl). Measured E|g, I|g, |g|g.                    
+#  1971Br54: Ge(Li), NaI(Tl). Measured X|g coin.                          
+#  Other: 1968Ka25.                                                       
+#  The decay scheme is based mainly on 1969Ba09 with the following        
+#  modifications:                                                         
+#  In accordance with (|a,2n|g), the 532 and 449 |g's have been placed    
+#  deexciting the 2956 and 2873 levels, respectively, instead of          
+#  introducing new levels at 2106 keV and 3614 keV. The 1509|g could      
+#  then not be placed in the level scheme.                                
+#L J$From adopted levels.                                                 
+#G M,MR$From adopted gammas                                               
+#G E,RI$From 1969Ba09.                                                    
+#L E$From least-squares fit to EG                                         
+#P 0.0         7+                293 M     1              4256      4     
+TC94 MO94 beta+ 4.256 17580.0 0.999
++G gamma 1.5092999999999999 0.0068000000000000005
++G gamma 0.87105 1.0
++G gamma 0.7026699999999999 0.997
++G gamma 0.84974 0.958
++G gamma 0.4492 0.033
++G gamma 0.083 0.0049
++G gamma 0.5321 0.0235
++G gamma 0.7423 0.0121
++G gamma 1.5920999999999998 0.0225
++G gamma 0.9161 0.076
++G gamma 1.7655999999999998 0.0029
+
+# 94MO    94TC EC DECAY: MIXED SOURCE   2003FR02                  06NDS    200609
+#  94TC EC DECAY: MIXED SOURCE   2003FR02                  06NDS    200609
+#H TYP=FUL$AUT=D. Abriola(a), A.A. Sonzogni$CIT=NDS 107, 2423 (2006)$     
+#H CUT=1-Jan-2006$                                                        
+#  Measured E|g, I|g, |g|g, |g|g(|q) using the OSIRIS cube coincidence    
+#  spectrometer comprised of eight HPGe detectors, of which six were      
+#  Compton-suppressed.                                                    
+#G E,RI$From a combination of four experiments: (|g,|g'), {+94}Tc |e      
+#G decay, (|a,n|g), and (n,n'|g)                                          
+#G M,MR$From a combination of three experiments: {+94}Tc |e decay,        
+#G (|a,n|g), and (n,n'|g)                                                 
+#L E$From least-squares fit to E|g                                        
+#P 0.0         7+                293 M     1              4256      4     
+TC94 MO94 beta+ 4.256 17580.0 1.0
++G gamma 0.87109 1.0
++G gamma 0.70263 1.0
++G gamma 0.9931 1.0
++G gamma 1.8642999999999998 0.10300000000000001
++G gamma 1.1962000000000002 1.0
++G gamma 2.0674 0.151
++G gamma 0.721 1.0
++G gamma 1.4237 0.133
++G gamma 0.3257 0.0060999999999999995
++G gamma 0.5287000000000001 0.0072
++G gamma 1.5218 1.0
++G gamma 2.3931 0.11109999999999999
++G gamma 0.8497 1.0
++G gamma 0.4664 0.573
++G gamma 0.6696 0.319
++G gamma 0.9601000000000001 0.81
++G gamma 1.6627 1.0
++G gamma 1.0368 1.0
++G gamma 0.672 0.03
++G gamma 0.8755 0.244
++G gamma 0.9982000000000001 0.0444
++G gamma 1.8688 1.0
++G gamma 2.7399 0.654
++G gamma 0.8026 0.262
++G gamma 1.0055 1.0
++G gamma 1.9989000000000001 0.131
++G gamma 2.87 0.17300000000000001
++G gamma 0.449 1.0
++G gamma 0.5321 1.0
++G gamma 0.8981 0.23
++G gamma 1.1011 1.0
++G gamma 1.3916 0.63
++G gamma 2.0943 0.369
++G gamma 1.0611 0.0116
++G gamma 1.2643 0.183
++G gamma 2.2576 0.0429
++G gamma 3.1285 1.0
++G gamma 0.358 0.16699999999999998
++G gamma 2.2922 1.0
++G gamma 0.2934 0.794
++G gamma 0.7422000000000001 0.294
++G gamma 1.592 1.0
++G gamma 1.4673 0.48
++G gamma 1.758 1.0
++G gamma 2.4608000000000003 0.07400000000000001
++G gamma 0.9162 1.0
++G gamma 2.5765 1.0
++G gamma 3.4475 0.051
++G gamma 1.7704000000000002 0.49
++G gamma 2.6407 0.516
++G gamma 3.5116 1.0
++G gamma 1.67 0.561
++G gamma 2.6632 1.0
++G gamma 3.534 0.051
++G gamma 1.3999000000000001 0.55
++G gamma 1.9285 1.0
++G gamma 3.7923 0.778
++G gamma 1.4990999999999999 0.794
++G gamma 1.8249000000000002 0.258
++G gamma 2.0279000000000003 0.223
++G gamma 3.021 1.0
++G gamma 3.8916 0.174
+
+# 94MO    94TC EC DECAY (52.0 M)        1969BA09,1986AGZX         06NDS    200609
+#  94TC EC DECAY (52.0 M)        1969BA09,1986AGZX         06NDS    200609
+#H TYP=FUL$AUT=D. Abriola(a), A.A. Sonzogni$CIT=NDS 107, 2423 (2006)$     
+#H CUT=1-Jan-2006$                                                        
+#  1969Ba09: Ge(Li), FWHM=3.1 keV and 2.4 keV at 1.33 MeV. NaI.           
+#  Measured E|g, I|g, |g|g.                                               
+#  1968Ar06: Ge(Li), NaI. Measured E|g, I|g, |g|g, |g|g(|q).              
+#  1986AgZX: report 39 gammas based on their |g, |g|g measurements.       
+#  Their decay scheme is not available.                                   
+#  The level scheme is from 1969Ba09. |g's seen by 1986AgZX but not       
+#  placed in decay scheme by 1969Ba09 are reported as unplaced.           
+#L J$From adopted levels                                                  
+#G M,MR$From adopted gammas                                               
+#G E,RI$From 1969Ba09. Unplaced |g's are from 1986AgZX.                   
+#G E(C)$From 1968Ba09, not seen by 1986AgZX                               
+#G E(D),RI(D)$From 1986AgZX. Placement from (n,n'|g).                     
+#G E(B)$Not placed by 1969Ba09 but placement is known from (n,n'|g).      
+#P 76        3 (2)+              52.0 M    10             4256      4     
+TC94 MO94 beta+ 4.256 3120.0 0.942
++G gamma 0.8751 0.0084
++G gamma 0.9982000000000001 0.0023
++G gamma 1.0222 0.0029
++G gamma 1.0372000000000001 4.7E-4
++G gamma 1.3574000000000002 0.002
++G gamma 1.499 6.2E-4
++G gamma 1.6701 3.7E-4
++G gamma 1.7579 0.0016
++G gamma 1.7699 2.0E-4
++G gamma 2.0275 2.5E-4
++G gamma 2.2575 5.600000000000001E-4
++G gamma 2.6641 7.000000000000001E-4
++G gamma 2.8699 2.1999999999999998E-4
++G gamma 3.0656 1.2E-4
++G gamma 3.0858000000000003 1.7E-4
++G gamma 3.4008000000000003 5.0E-5
++G gamma 3.447 5.0E-5
++G gamma 3.6406 7.000000000000001E-5
++G gamma 4.1362 7.000000000000001E-5
++G gamma 0.87105 1.0
++G gamma 0.99319 0.0235
++G gamma 1.864 0.0025
++G gamma 1.1964000000000001 0.008
++G gamma 2.0674 9.0E-4
++G gamma 1.5221 0.048
++G gamma 2.3931999999999998 0.005
++G gamma 1.8686800000000001 0.061
++G gamma 2.7401 0.0374
++G gamma 1.0058 0.0016
++G gamma 1.1013 4.5E-4
++G gamma 1.2649000000000001 0.0023
++G gamma 3.1290999999999998 0.0147
++G gamma 2.2922 5.3E-4
++G gamma 2.5298000000000003 0.0033
++G gamma 2.5772 0.0013
++G gamma 2.6416 3.7E-4
++G gamma 3.5125 6.0E-4
++G gamma 1.9287999999999998 9.0E-4
++G gamma 3.7931 5.0E-4
++G gamma 3.0216 8.0E-4
++G gamma 3.8926999999999996 1.6E-4
+

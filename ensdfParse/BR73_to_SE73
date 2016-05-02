@@ -1,0 +1,64 @@
+# 73SE    73BR EC DECAY (3.4 M)         1987HE21,1970MU02         04NDS    200403
+#  73BR EC DECAY (3.4 M)         1987HE21,1970MU02         04NDS    200403
+#H TYP=FUL$AUT=BALRAJ SINGH$CIT=NDS 101, 193 (2004)$CUT=12-May-2003$      
+#  1987He21: produced {+73}Br using the reaction {+60}Ni({+16}O,p2n),     
+#  E=60 MeV, mass separation. Measured |g(t), E|g, I|g, Ice, and |g|g,    
+#  |b|g, |gce coin.                                                       
+#  1970Mu02: produced {+73}Br using the reaction {+59}Co({+16}O,2n), E=64 
+#  MeV, chemical separation. Measured E|g, I|g, |g(t).                    
+#E E$Measured endpoint energy of all |b{++}: 3640 {I140} (1987He21).      
+#E Others: 3.7 MeV {I5} (1970Mu02), and 3.6 MeV {I4} (1974Ro11).          
+#E TI,LOGFT$Values considered as approximate since a large gap            
+#E of about 3 MeV exists between Q(|e)=4680 and the highest known         
+#E populated level at 1619                                                
+#G $I(|g{+|+})=506 {I18} relative to I|g(65|g)=100 (1987He21). Other: 574 
+#G {I40} (1970Mu02).                                                      
+#G $E|g=861.7 {I3} (I|g=3 {I1}) reported by 1970Mu02 is omitted here      
+#G since 1987He21 report T{-1/2}=84 s for this |g ray                     
+#G E,RI$From 1987He21. Values from 1970Mu02 are in good agreement.        
+#G M$From |a(K)exp (1987He21), except as noted. |a(K) normalized to       
+#G |a(K)exp(67|g) assumed as M1                                           
+#L           A search for an isomeric level with T{-1/2}>1 ms in {+73}Br  
+#L gave a negative result (1970Mu02)                                      
+#P 0           1/2-              3.4 M     3              4.68E+3   13    
+BR73 SE73 beta+ 4.68 204.0 1.0
++B beta+ 1.655 0.21
++B beta+ 1.624 0.155
++G gamma 0.065 0.37
++G gamma 0.1256 0.07547999999999999
++G gamma 0.1662 0.00481
++G gamma 0.1926 0.00111
++G gamma 0.2494 0.00333
++G gamma 0.3747 0.022199999999999998
++B beta+ 1.464 0.17
++G gamma 0.2752 0.02701
++G gamma 0.3359 0.10433999999999999
++G gamma 0.4009 0.059570000000000005
++B beta+ 1.398 0.013999999999999999
++G gamma 0.54 0.018869999999999998
++B beta+ 1.362 0.037000000000000005
++G gamma 0.4898 0.010360000000000001
++G gamma 0.5506 0.00666
++G gamma 0.6153 0.020720000000000002
++B beta+ 1.291 0.12
++G gamma 0.3639 0.00777
++G gamma 0.39039999999999997 0.00888
++G gamma 0.639 0.010360000000000001
++G gamma 0.6998 0.09139
++G gamma 0.7647 0.0074
++B beta+ 1.221 0.131
++G gamma 0.54 0.018869999999999998
++G gamma 0.7888 0.00888
++G gamma 0.8493999999999999 0.05846
++G gamma 0.9143 0.05143
++B beta+ 1.182 0.087
++G gamma 0.5952999999999999 0.00185
++G gamma 0.8707 0.012580000000000001
++G gamma 0.9314 0.05846
++G gamma 0.9962000000000001 0.018869999999999998
++B beta+ 0.935 0.013999999999999999
++G gamma 0.9847 0.0037
++G gamma 1.4602 0.01184
++B beta+ 0.904 0.0049
++G gamma 1.5288 0.005549999999999999
+

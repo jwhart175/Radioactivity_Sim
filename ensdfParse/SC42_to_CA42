@@ -1,0 +1,36 @@
+# 42CA    42SC EC DECAY (680.8 MS)      1985DA04,1997KO65,1976WI0801NDS    200103
+#  42SC EC DECAY (680.8 MS)      1985DA04,1997KO65,1976WI0801NDS    200103
+#H TYP=FUL$AUT=BALRAJ SINGH AND JOHN A. CAMERON$CIT=NDS 92, 1 (2001)$     
+#H CUT=31-Dec-2000$                                                       
+#  42SC decays mainly (>99%) through B+ decay                             
+#  G: 1985DA04, 1980SA32, 1971KE14, 1971GA17, 1957CL40                    
+#  B+: 1961JA22, 1957CL40, 1955MO83                                       
+#  BG(THETA): 1974HAYC, 1973KEZI                                          
+#  T1/2(42SC GS): 1997KO65, 1976WI08 (also 1972HA82), 1965FR08,           
+#  1965NE02, 1962JA05, 1961JA22, 1960JA12, 1957CL40, 1955MO83             
+#L J$From adopted levels                                                  
+#G E,M$From adopted gammas                                                
+#P 0            0+               680.8 MS  3              6425.84   13    
+SC42 CA42 beta+ 6.42584 0.6808 1.0
++B beta+ 2.51022 0.9989530000000001
++B beta+ 1.61656 7.400000000000001E-5
+
+# 42CA    42SC EC DECAY (62.0 S)        1978BE61,1974WI14,1969GA2701NDS    200103
+#  42SC EC DECAY (62.0 S)        1978BE61,1974WI14,1969GA2701NDS    200103
+#H TYP=FUL$AUT=BALRAJ SINGH AND JOHN A. CAMERON$CIT=NDS 92, 1 (2001)$     
+#H CUT=31-Dec-2000$                                                       
+#  42SC decays mainly (>99%) through B+ decay                             
+#  G: 1969GA27, 1965NE02, 1963RO10                                        
+#  B+: 1965NE02, 1963RO10                                                 
+#  B+G: 1969ME12, 1965NE02                                                
+#  BG(T): 1969ME12                                                        
+#  T1/2(42SC isomer): 1978BE61, 1974WI14, 1965NE02, 1963RO10              
+#  42SC isomer beam production in 12C(40CA,42SC)10B: 1994UZ01, 1994KE07   
+#L J$From adopted levels                                                  
+#G M,MR,E(B)$From adopted gammas                                          
+#G E(A)$From 1969GA27                                                     
+#G RI$From level scheme using adopted BR and assuming RI(437G)=100        
+#P 616.28     6  (7+)            62.0 S    3              6425.84   13    
+SC42 CA42 beta+ 6.42584 62.0 1.0
++B beta+ 1.264 0.99336
+

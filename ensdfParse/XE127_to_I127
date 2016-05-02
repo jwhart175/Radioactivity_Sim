@@ -1,0 +1,24 @@
+#127I     127XE EC DECAY (36.4 D)       1967GE10,1968SC14,1977GE1011NDS    201108
+#  127XE EC DECAY (36.4 D)       1967GE10,1968SC14,1977GE1011NDS    201108
+#H TYP=FUL$AUT=A. HASHIZUME$CIT=NDS 112, 1647 (2011)$CUT=1-Oct-2009$      
+#  1967Ge10: {+126}Xe(n,|g) mass separation, magnetic spectrometer ce,    
+#  semi |g, |g|g(t), |g|g(|q)                                             
+#  1974Co05: {+127}I(p,n), semi |g, absolute photon intensity measurement 
+#  1977Ge10: {+126}Xe(n,|g), semi |g, absolute photon intensity           
+#  measurement                                                            
+#  Others: |g|g(|q): 1964Jh02, 1966Le09, 1970Le16                         
+#  The level scheme is that proposed by 1967Ge10 and 1968Sc14             
+#L E         From a least-squares fit to E(|g's)                          
+#L J,T       From adopted levels                                          
+#G E         1977Ge10                                                     
+#G RI        I|g's are relative to I(202.86|g)=100 (1977Ge10)             
+#G CC$Theoretical conversion coefficients are calculated using BrIcc code 
+#G for the multipolarity indicated.                                       
+#G M         From L1:L2:L3                                                
+#G MR        From adopted levels, gammas                                  
+#G           I(K| x ray)/I(0.2029|g)=1.17 {I7} (1958Fo48)                 
+#P 0.0         1/2+              36.4 D    1              662.3     20    
+XE127 I127 beta+ 0.6623 3144959.9999999995 1.0
++B beta+ 8.418E-4 0.0012441000000000002
++B beta+ 8.303000000000001E-4 0.00133
+

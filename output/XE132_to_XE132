@@ -1,0 +1,18 @@
+#132XE    132XE IT DECAY (8.39 MS)      1967BR12,1974HA50         05NDS    200504
+#  132XE IT DECAY (8.39 MS)      1967BR12,1974HA50         05NDS    200504
+#H TYP=FUL$AUT=YU. KHAZOV, A.A. RODIONOV AND S. SAKHAROV, BALRAJ SINGH$   
+#H CIT=NDS 104, 497 (2005)$CUT=10-Feb-2005$                               
+#  1967Br12, 1968BrZY: {+130}Te(|a,2n|g); measured E|g,                   
+#  I|g, ce, |g|g, T{-1/2}                                                 
+#  1974Ha50: {+130}Te(|a,2n|g), E=37 MeV; measured |g(t) with mechanical  
+#  chopper, deduced T{-1/2}.                                              
+#  Others: 1965De15, 1968HaZT, 1977Go15, 1982BoZN. In 1965De15,           
+#  the isomer was incorrectly assigned to {+125}Xe                        
+#G E$ From (A,2NG) DATASET, WHICH ARE FROM 1986LI23, 1983BA64 AND         
+#G 1971KE13                                                               
+#G RI$ From 1967Br12.                                                     
+#G M$ FROM ADOPTED GAMMAS, UNLESS OTHERWISE STATED                        
+#L J$ From adopted levels                                                 
+#P   2752.16 22 (10+)            8.39 MS   11                             
+XE132 XE132 IT 0.0 0.00839 1
+

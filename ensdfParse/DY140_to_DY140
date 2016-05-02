@@ -1,0 +1,18 @@
+#140DY    140DY IT DECAY (7 US)         2002KR04,2002CU01         07NDS    200707
+#  140DY IT DECAY (7 US)         2002KR04,2002CU01         07NDS    200707
+#H TYP=FUL$AUT=N. NICA$CIT=NDS 108,1287 (2007)$CUT=1-Feb-2006$            
+#  2002Kr04,2003Kr22: 92MO(54FE,A2NG)                                     
+#  E=315 MeV. Measured E|g, I|g, |g|g, |g(t) following A=140              
+#  selection using ORNL's Recoil Mass Spectrometer; |g information        
+#  obtained using 4 Clover Ge detectors (4 detectors in each Clover)      
+#  plus one Ge for |gX-coin, all of them operated without escape          
+#  suppression. Production |s=20 |mb                                      
+#  2002Cu01: E=245 MeV. Measured E|g, |g|g, |g(t) using 7 Ge detectors    
+#  following A=140 selection in Argonne's Fragment Mass Analyzer          
+#  The data are from 2002Kr04, unless noted otherwise                     
+#L E$From least-squares fit to E|g                                        
+#L J$From cascade pattern and systematics of N=74 nuclides                
+#L BAND(A)$ GS rotational band.                                           
+#P 2166.1    5 (8-)              7.0 US    5                              
+DY140 DY140 IT 0.0 7.0E-6 1.0
+

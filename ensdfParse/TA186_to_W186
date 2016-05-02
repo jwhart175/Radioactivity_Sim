@@ -1,0 +1,80 @@
+#186W     186TA B- DECAY                1973GU02                  03NDS    200306
+#  186TA B- DECAY                1973GU02                  03NDS    200306
+#H TYP=FUL$AUT=CORAL M. BAGLIN$CIT=NDS 99, 1 (2003)$CUT=4-Apr-2003$       
+#  Other references: 1969Mo16, 1970Pa16, 1975Ka11, 1975Sz02               
+#  1973Gu02: sources produced by 186W(N,P) using 97.2% 186W target,       
+#  E(N)=14.8 MEV. GE(LI) and SI(LI) detectors.                            
+#  The decay scheme is based on that of 1973Gu02. However, the evaluator  
+#  has made several modifications in order to improve consistency with    
+#  adopted level and GAMMA properties; in particular, some placements     
+#  proposed in 1973Gu02 have become untenable in the light of more precise
+#  EG data from sources other than B- decay, and some RI data from        
+#  1973Gu02 imply branching which is inconsistent with adopted branching. 
+#  Significant problems remain, especially above 1300 KEV; new decay      
+#  measurements with a purer source and much higher precision EG data     
+#  and extensive coincidence information would probably solve many of     
+#  these. Currently, almost-degenerate energy doublets must be proposed   
+#  at 1322, 1463, 1607 and 1628 KEV because B- decay and (N,N'G) studies  
+#  each report these levels but cannot agree on the gammas which deexcite 
+#  them. Such a density of close doublets seems unlikely.                 
+#B E         Measured |b endpoint energies are as follows:                
+#B 2620 60, 2240 60, 1740 100 (complex) (1969Mo16);                       
+#B 3100 150 (5%), 2500 100 (32%), 2100 100 (49%), 1500 200 (14%)          
+#B (1970Pa16). The strongest group (2240B of 1969Mo16, 2100B of 1970Pa16) 
+#B populates primarily the 1661 level; each of the other groups           
+#B presumably feeds a cluster of levels.                                  
+#B IB        From intensity imbalance at level.                           
+#B 1970Pa16 and 1969Mo16 report no observable |b branches to the          
+#B GS or to excited states below AP 600 KEV. However, the intensity       
+#B balance at the 122 level implies IB=16 11, so                          
+#B the evaluator shows feeding of this level as tentative. Note that      
+#B weak branches should be accepted with caution in view of uncertainties 
+#B concerning placements for a number of the weaker gammas.               
+#G M,MR      From adopted gammas, except where noted.                     
+#G E(A)      Assignment to 186TA B- decay is uncertain.                   
+#G RI(B)     Weak (1973Gu02).                                             
+#G RI(C)     May contain contribution from summing.                       
+#G E(X),RI(X)$EG correct for expected (1045 level to GS) transition.      
+#G However, a branch with this intensity should also have been            
+#G observable in (N,N'G) and is not reported there; also, this branching, 
+#G combined with measured BE3(1045 level), would imply T AP 0.7 NS for    
+#G that level.                                                            
+#G E(Y),RI(Y)$1973Gu02 place the 402G from the 1284 level, based only on  
+#G EG; however, IG=1.5 5 is far too intense for consistency with          
+#G branching in (N,N'G) or with nonobservance of such a branch in COULOMB 
+#G excitation. From adopted branching, I(402G) AP 0.03 from 1284 level is 
+#G expected.                                                              
+#G RI(Z)$I(546G) AP 0.20 based on I(1284G) and adopted branching; measured
+#G RI=1.0 2 is inconsistent with the latter, and EG is lower than         
+#G the adopted value (547.41), suggesting that line is complex in         
+#G 1973Gu02.                                                              
+#L J         From adopted levels.                                         
+#L T         From 1975Ka11, delayed coin.                                 
+#L E(W)      Existence of level is questioned in (N,N'G) by 1978Av05      
+#L because strongest gammas deexciting it were either absent or           
+#L differently placed in an (N,N'G) study which was expected to excite    
+#L all levels below E AP 1200 for which J=1 to 4.                         
+#L BAND(A)   KPI=0+ GS BAND.                                              
+#L BAND(B)   K=2 |g BAND.                                                 
+#L Note that identity of J=4 member differs in adopted levels.            
+#L BAND(C)   POSSIBLE K=0 |b BAND.                                        
+#L Note that suggested assignment of 1006 level as the J=2 member of this 
+#L band has not been adopted.                                             
+#L BAND(D)   POSSIBLE KPI=2- BAND.                                        
+#P 0.0          (2-,3-)          10.5 M    3                3900    60    
++B beta- 1.532 0.16
++B beta- 1.194 0.009000000000000001
++B beta- 1.138 0.019
++B beta- 1.135 0.016
++B beta- 1.121 0.1
++B beta- 1.066 0.035
++B beta- 1.016 0.005600000000000001
++B beta- 1.01 0.003
++B beta- 0.999 0.023
++B beta- 0.912 0.039
++B beta- 0.874 0.025
++B beta- 0.865 0.0115
++B beta- 0.851 0.58
++B beta- 0.633 0.009000000000000001
++B beta- 0.59 0.023
+

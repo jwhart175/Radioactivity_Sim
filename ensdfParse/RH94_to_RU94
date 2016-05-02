@@ -1,0 +1,88 @@
+# 94RU    94RH EC DECAY (70.6 S)        1980OX01                  06NDS    200609
+#  94RH EC DECAY (70.6 S)        1980OX01                  06NDS    200609
+#H TYP=FUL$AUT=D. Abriola(a), A.A. Sonzogni$CIT=NDS 107, 2423 (2006)$     
+#H CUT=1-Jan-2006$                                                        
+#  Source produced by {+96}Ru(p,3n) reaction. Enriched target. E=40       
+#  MeV. Ge(Li) detectors, FWHM=2.4 keV and 1.9 keV at 1.3 MeV. Hyperpure  
+#  germanium x-ray spectrometer, FWHM=0.22 keV at 14 keV. Measured E|g,   
+#  I|g, |g|g.                                                             
+#L J,T$From adopted levels.                                               
+#G M$From adopted levels                                                  
+#G RI(A)$It is not determined to which isomer |g belongs. Intensity       
+#G given as if |g is completely due to 70.6 s decay.                      
+#E TI,T$Deduced from intensity balance. Approximate values due to         
+#E incompleteness of decay scheme.                                        
+#P 0.0         (4+)              70.6 S    6              9.6E+3    4     
+RH94 RU94 beta+ 9.6 70.6 1.0
++G gamma 1.1107 0.028999999999999998
++G gamma 1.5397 0.0433
++G gamma 1.8043 0.022000000000000002
++G gamma 1.9025 0.022000000000000002
++G gamma 2.1245 0.015
++G gamma 2.6315999999999997 0.013999999999999999
++G gamma 2.6778000000000004 0.013999999999999999
++G gamma 2.7786 0.011000000000000001
++G gamma 3.0077 0.01
++G gamma 3.2103 0.013000000000000001
++G gamma 3.256 0.02
++G gamma 1.4307 1.0
++B beta+ 8.638E-4 0.0011
++G gamma 0.7562000000000001 0.51
++B beta+ 3.35 8.2E-5
++G gamma 0.3117 0.12
++B beta+ 2.99 1.13E-4
++G gamma 1.0725 0.307
++B beta+ 2.83 1.3E-4
++G gamma 0.1264 0.045
++G gamma 0.43810000000000004 0.071
++B beta+ 2.83 1.3E-4
++G gamma 0.49260000000000004 0.042
++B beta+ 2.77 1.4000000000000001E-4
++G gamma 0.5529 0.019
++B beta+ 2.53 1.7999999999999998E-4
++G gamma 1.0680999999999998 0.047
++B beta+ 2.5 1.7999999999999998E-4
+
+# 94RU    94RH EC DECAY (25.8 S)        1980OX01                  06NDS    200609
+#  94RH EC DECAY (25.8 S)        1980OX01                  06NDS    200609
+#H TYP=FUL$AUT=D. Abriola(a), A.A. Sonzogni$CIT=NDS 107, 2423 (2006)$     
+#H CUT=1-Jan-2006$                                                        
+#L J,T$From adopted levels.                                               
+#  1980Ox01: isotope produced by {+96}Ru(p,3n) reaction. Enriched         
+#  target. E=40 MeV. Ge(Li) detectors, FWHM=2.4 keV and 1.9 keV at 1.3    
+#  MeV. Hyperpure germanium x-ray spectrometer, FWHM=0.22 keV at 14 keV.  
+#  Measured E|g, I|g, |g|g.                                               
+#  1980No06: isotope produced by {+58}Ni({+40}Ca,n3p). Enriched target.   
+#  E=135 MeV and 160 MeV. Ge(Li) detectors, FWHM=2 keV to 3 keV at 1.33   
+#  MeV. Measured E|g, I|g, |g|g.                                          
+#  All quoted information is from 1980Ox01. The 1980No06 data, though     
+#  less precise, agree with 1980Ox01 within the uncertainty limits.       
+#G M$From adopted gammas.                                                 
+#G RI(A)$It is not determined to which isomer |g belongs. Intensity       
+#G given as if |g is completely due to 25.8-s decay.                      
+#E LOGFT$Approximate values obtained assuming x=0.                        
+#E TI,T$Deduced from intensity balance. Approximate values due to         
+#E incompleteness of decay scheme.                                        
+#E TI(B)$Feeding negligible since transition is third forbidden.          
+#E Unplaced |g transitions account for missing intensity.                 
+#P X+0.0       (8+)              25.8 S    2              9.6E+3    4     
+RH94 RU94 beta+ 9.6 25.8 1.0
++G gamma 2.0995 0.019
++G gamma 2.1245 0.011000000000000001
++G gamma 2.6315999999999997 0.01
++G gamma 2.7786 0.008
++G gamma 2.966 0.009000000000000001
++G gamma 3.0077 0.006999999999999999
++G gamma 3.2103 0.009000000000000001
++G gamma 3.256 0.013999999999999999
++G gamma 1.4307 1.0
++G gamma 0.7562000000000001 1.0
++G gamma 0.3117 0.973
++G gamma 0.1264 0.0085
++G gamma 0.43810000000000004 0.0275
++B beta+ 2.47 1.8999999999999998E-4
++G gamma 0.1461 0.75
++B beta+ 2.77 1.4000000000000001E-4
++G gamma 1.0334 0.017
++B beta+ 2.76 1.4000000000000001E-4
+

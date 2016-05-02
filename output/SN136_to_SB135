@@ -1,0 +1,20 @@
+#135SB    136SN B-N DECAY (250 MS)      2002SH08,2007MA40         08NDS    200803
+#  136SN B-N DECAY (250 MS)      2002SH08,2007MA40         08NDS    200803
+#H TYP=FUL$AUT=BALRAJ SINGH, ALEXANDER A. RODIONOV and YURI L. KHAZOV$    
+#H CIT=NDS 109, 517 (2008)$CUT=22-Jan-2008$                               
+#  2002Sh08: Measured E|g, I|g, |g|g, lifetimes, delayed neutron          
+#  probability using high-efficiency Mainz neutron long counter with      
+#  3-ring concentric array of 50 {+3}He proportional counters, |b         
+#  detector, and Pb-shielded Ge detectors. No |g rays were seen from      
+#  {+136}Sn |b{+-}n decay                                                 
+#  2007Ma40: High purity {+136}Sn beam extracted at ISOLDE facility.      
+#  Measured |b, |g, |g|g coin, |b|g|g(t) using five detectors: three fast 
+#  timing scintillators (LaBr{-3}(Ce) and BaF{-2}) and two large-volume Ge
+#  detectors. Advanced time-delay (ATD) method used to measure            
+#  lifetimes. 2007Ma40 is a conference paper and the authors state        
+#  that analysis is still in progress.                                    
+#  The level scheme and |g rays are from 2007Ma40.                        
+#L J$ from 'adopted levels'.                                              
+#P         0    0+               250 MS    30             5130      SY    
+SN136 SB135 neutron&beta- 5.13 0.25 1.0
+

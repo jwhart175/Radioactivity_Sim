@@ -1,0 +1,83 @@
+#211AT    215FR A DECAY (86 NS)         1974NO02,1970BO13         13NDS    201306
+#  215FR A DECAY (86 NS)         1974NO02,1970BO13         13NDS    201306
+#H TYP=FUL$AUT=B. SINGH, S. SINGH, H.X. Nguyen and M. Patial$             
+#H CIT=NDS 114, 231 (2013)$CUT=28-FEB-2013$                               
+#A HF$ r{-0}({+211}At=1.5365 {I55}; interpolated value deduced from       
+#A R0(210PO)=1.532 6, R0(212RN)=1.541 5 (1998Ak04).                       
+#P 0.0           9/2-            86 NS     5              9540      7     
+FR215 AT211 alpha 9.54 8.6E-8 1.0
++A alpha 9.36 1.0
+
+#211AT    215FR A DECAY:PROMPT:835 KEV  1984SC25                  13NDS    201306
+#  215FR A DECAY:PROMPT:835 KEV  1984SC25                  13NDS    201306
+#H TYP=FUL$AUT=B. SINGH, S. SINGH, H.X. Nguyen and M. Patial$             
+#H CIT=NDS 114, 231 (2013)$CUT=28-FEB-2013$                               
+#  1984Sc25: observed alpha from 208PB(11B,4N) E=66 MEV.                  
+#  Target: >99% enriched {+208}Pb.                                        
+#  Measured E|g, I|g, E|a, |g|g- coin, |g|g(t), pulsed-beam,              
+#  |g(|q). Deduced |a-particle branches.                                  
+#A E$ Long-range |a particle group from 835-keV level in {+215}Fr.        
+#A IA$ From |a|g-coin and relative to the total number                    
+#A of |a particles in the spectrum.                                       
+#P  835.5    1   (13/2)+                                  9540      7     
++A alpha 10.16 1.0
+
+#211AT    215FR A DECAY:PROMPT:1121 KEV 1984SC25,1984DE16         13NDS    201306
+#  215FR A DECAY:PROMPT:1121 KEV 1984SC25,1984DE16         13NDS    201306
+#H TYP=FUL$AUT=B. SINGH, S. SINGH, H.X. Nguyen and M. Patial$             
+#H CIT=NDS 114, 231 (2013)$CUT=28-FEB-2013$                               
+#  Includes 1121 and 1149 levels in {+215}Fr                              
+#  1984Sc25: observed alpha from 208PB(11B,4N) E=66 MEV.                  
+#  Target: >99% enriched {+208}Pb.                                        
+#  Measured E|g, I|g, E|a, |g|g- and |g|a coin, |g|g(t), pulsed-beam,     
+#  |g(|q). Deduced |a-particle branches.                                  
+#  1984De16: observed alpha from {+208}Pb({+11}B,4n) E=58,62 MeV.         
+#  E|g, I|g, E|a, ce, |g|g- and |g|a coin, |g|g(t), g factors.            
+#  Deduced |a-particle branches                                           
+#A E$ Long-range |a particle group from 1121-keV level in {+215}Fr.       
+#A IA$ From |a|g-coin and relative to the total number                    
+#A of |a particles in the spectrum.                                       
+#P  1121.5   1   (17/2)-                                  9540      7     
+FR215 AT211 alpha 9.54 0.0 0.009
++A alpha 10.483 1.0
+
+#211AT    215FR A DECAY:PROMPT:1440 KEV 1984SC25,1984DE16         13NDS    201306
+#  215FR A DECAY:PROMPT:1440 KEV 1984SC25,1984DE16         13NDS    201306
+#H TYP=FUL$AUT=B. SINGH, S. SINGH, H.X. Nguyen and M. Patial$             
+#H CIT=NDS 114, 231 (2013)$CUT=28-FEB-2013$                               
+#  1984Sc25: observed alpha from 208PB(11B,4N) E=66 MEV.                  
+#  Target: >99% enriched {+208}Pb.                                        
+#  Measured E|g, I|g, E|a, |g|g- and |g|a coin, |g|g(t), pulsed-beam,     
+#  |g(|q). Deduced |a-particle branches.                                  
+#  1984De16: observed alpha from {+208}Pb({+11}B,4n) E=58,62 MeV.         
+#  E|g, I|g, E|a, ce, |g|g- and |g|a coin, |g|g(t), g factors.            
+#  Deduced |a-particle branches                                           
+#A E$ Long-range |a particle group from 1440-keV level in {+215}Fr.       
+#A IA$ From |a|g-coin and relative to the total number                    
+#A of |a particles in the spectrum.                                       
+#A HF$ r{-0}({+211}At=1.5365 {I55}; interpolated value deduced from       
+#A R0(210PO)=1.532 6, R0(212RN)=1.541 5 (1998Ak04).                       
+#P  1440.0   1   (19/2)-           4 NS    2              9540      7     
+FR215 AT211 alpha 9.54 0.0 0.047
++A alpha 10.779 1.0
+
+#211AT    215FR A DECAY:PROMPT:1573 KEV 1984SC25,1984DE16         13NDS    201306
+#  215FR A DECAY:PROMPT:1573 KEV 1984SC25,1984DE16         13NDS    201306
+#H TYP=FUL$AUT=B. SINGH, S. SINGH, H.X. Nguyen and M. Patial$             
+#H CIT=NDS 114, 231 (2013)$CUT=28-FEB-2013$                               
+#  1984Sc25: observed alpha from 208PB(11B,4N) E=66 MEV.                  
+#  Target: >99% enriched {+208}Pb.                                        
+#  Measured E|g, I|g, E|a, |g|g- and |g|a coin, |g|g(t), pulsed-beam,     
+#  |g(|q). Deduced |a-particle branches.                                  
+#  1984De16: observed alpha from {+208}Pb({+11}B,4n) E=58,62 MeV.         
+#  E|g, I|g, E|a, ce, |g|g- and |g|a coin, |g|g(t), g factors.            
+#  Deduced |a-particle branches                                           
+#A E$ Long-range |a particle group from 1573-keV level in {+215}Fr.       
+#A IA$ From |a|g-coin and relative to the total number                    
+#A of |a particles in the spectrum.                                       
+#A HF$ r{-0}({+211}At=1.5365 {I55}; interpolated value deduced from       
+#A R0(210PO)=1.532 6, R0(212RN)=1.541 5 (1998Ak04).                       
+#P  1573.1   2   (23/2)-           3.5 NS  14             9540      7     
+FR215 AT211 alpha 9.54 0.0 0.041
++A alpha 10.913 1.0
+

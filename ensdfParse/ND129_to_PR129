@@ -1,0 +1,33 @@
+#129PR    129ND EC DECAY:MIXED          1997GI07,2010XU12         14NDS    201408
+#  129ND EC DECAY:MIXED          1997GI07,2010XU12         14NDS    201408
+#H TYP=FUL$AUT=JANOS TIMAR AND ZOLTAN ELEKES, BALRAJ SINGH$               
+#H CIT=NDS 121, 143 (2014)$CUT=31-May-2014$                               
+#  1997Gi07: {+129}Nd activity produced in bombardment of {+92}Mo and     
+#  {+94}Mo targets by E=210, 255 MeV {+40}Ca beam at Grenoble, IGISOL     
+#  technique to identify A=129 isotopes. Measured E|g, I|g, I|b,          
+#  |g|g(t) and (x ray)(|g)(t), half-life of {+129}Nd g.s.                 
+#  This work is a short note; complete details of the                     
+#  level scheme are not available.                                        
+#  2010Xu12: {+129}Nd formed in {+96}Ru({+36}Ar,3p) at 220 MeV            
+#  and {+92}Mo({+40}Ca,3p) at 173 MeV; tape transport system, measured    
+#  E|g, I|g, |g|g, (x ray)|g coin, (proton)|g coin, decay curves for      
+#  half-life determination                                                
+#G RI(A)$346.6|g is a doublet with separate intensities given in 1997Gi07,
+#G but the authors did not specify these intensities with levels. The     
+#G evaluators have arbitrarily assigned higher intensity to the decay of  
+#G the low-lying level                                                    
+#G E(B)$G ALSO REPORTED IN 2010XU12 WITH THE SAME ENERGY AS IN 1997GI07.  
+#G NO INTENSITY IS GIVEN                                                  
+#G E(D)$From 2010Xu12, in coin with 134.0|g, both assigned to the decay   
+#G of 2.6-s activity                                                      
+#G E(E)$2010XU12 ASSIGN THIS G TO 2.6-S ACTIVITY OF 129ND, AND IN COIN    
+#G WITH A 399.0G                                                          
+#G E(F)$Poor fit, level-energy difference=883.9                           
+#L E$From least-squares fit to E|g data. Due to poor fit, the 882|g was   
+#L omitted in this procedure                                              
+#L E(X)$Level proposed by 1997Gi07 to be an isomer but no half-life data  
+#L are available                                                          
+#L J,T$From Adopted Levels                                                
+#L BAND(A)$GS band                                                        
+#P1 0           (5/2+)             6.7 S   4                7460    SY    
+

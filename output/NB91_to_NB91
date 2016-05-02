@@ -1,0 +1,40 @@
+# 91NB    91NB IT DECAY (60.86 D)       1993HI09,1987LA18,1986WA3413NDS    201310
+#  91NB IT DECAY (60.86 D)       1993HI09,1987LA18,1986WA3413NDS    201310
+#H TYP=FUL$AUT=Coral M. Baglin$CIT=NDS 114, 1293 (2013)$CUT=1-Sep-2013$   
+#  Others: 1970He03, 1955Ha23, 1954On06, 1951Pr20, 1951Ov01, 1950Ja01.    
+#  1993Hi09: measured EKC for ^IT, IG, I(XK), IG+-.                       
+#  1987La18: GE(LI), HPGE detector, SI(LI). Measured RI, I(XK).           
+#  Deduced EKC.                                                           
+#  1986Wa34: GE(LI). Measured EG, RI, CE.                                 
+#  1970He03: GE(LI). Measured EG, IG.                                     
+#  1955Ha23: scin. Measured RI, XG.                                       
+#  1951Ov01: magnetic spectrometer, NAI. Measured CE, ECC.                
+#L E         FROM EG.                                                     
+#L J         From Adopted Levels.                                         
+#P   104.60  5 1/2-              60.86 D   22                             
+NB91 NB91 IT 0.0 5258304.0 0.00594
++G gamma 0.10462 1.0
+
+# 91NB    91NB IT DECAY (3.76 US)       1976BR14                  13NDS    201310
+#  91NB IT DECAY (3.76 US)       1976BR14                  13NDS    201310
+#H TYP=FUL$AUT=Coral M. Baglin$CIT=NDS 114, 1293 (2013)$CUT=1-Sep-2013$   
+#G CC$ FROM BrIcc v2.2b (20-Jan-2009) 2008Ki07, "Frozen Orbitals" appr.   
+#G           Isomer produced by 88SR(6LI,3NG), E=34 MEV.                  
+#G GE(LI), FWHM=2.5 KEV to 3.0 KEV. SI(LI), FWHM=180 EV.                  
+#G RI        Intensity integrated over 0 DEG, 45 DEG and 90 DEG, if not   
+#G indicated otherwise.                                                   
+#G E(C)      Not observed. Energy taken from adopted G-radiations.        
+#G RI(A)     Doublet.                                                     
+#G RI(A,B)   Intensity at THETA=90 DEG.                                   
+#G M,MR      From Adopted Gammas.                                         
+#L E         FROM LEAST-SQUARES FIT TO EG.                                
+#L J,T       From Adopted Levels.                                         
+#P   2034.42 20(17/2-)           3.76 US   12                             
+NB91 NB91 IT 0.0 3.7599999999999996E-6 1.085
++G gamma 1.0826 0.01
++G gamma 0.6035 0.012
++G gamma 1.7906 0.335
++G gamma 0.1941 0.31
++G gamma 1.9846 0.5770000000000001
++G gamma 0.0501 0.06
+

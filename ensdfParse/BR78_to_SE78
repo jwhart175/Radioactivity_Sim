@@ -1,0 +1,37 @@
+# 78SE    78BR EC DECAY (6.45 M)        1973HI01,1972LE30,1970PA2909NDS    200910
+#  78BR EC DECAY (6.45 M)        1973HI01,1972LE30,1970PA2909NDS    200910
+#H TYP=FUL$AUT=AMEENAH R. FARHAN, BALRAJ SINGH$CIT=NDS 110, 1917 (2009)$  
+#H CUT=30-Jun-2009$                                                       
+#  1973HI01: MEASURED G, IG, T1/2                                         
+#  1972LE30: MEASURED G, IG                                               
+#  1970PA29: MEASURED G, IG, GG-COIN                                      
+#  OTHERS: 1970DO02, 1962VA27, 1961RI02, 1960PI06                         
+#  Total decay energy of 3575 keV {I11} calculated (by RADLIST code)      
+#  from level scheme agrees with the expected value of 3574 keV {I4}      
+#G RI$WEIGHTED AVERAGES FROM 1973HI01, 1972LE30 AND 1970DO02 UNLESS       
+#G OTHERWISE STATED. 1970PA29 DID NOT QUOTE UNCERTAINTIES                 
+#G E(A)$WEIGHTED AVERAGES FROM THE RESULTS OF 1973HI01, 1972LE30,         
+#G 1970PA29 AND 1970DO02.                                                 
+#G E(B)$REPORTED BY 1973HI01 ONLY                                         
+#G E(D)$WEIGHTED AVERAGES FROM 1973HI01, 1972LE30 AND 1970DO02            
+#G E(E)$E AND RI ARE FROM 1973HI01. REPORTED BY 1972LE30 and              
+#G 1970DO02 ALSO.                                                         
+#L E$FROM LEAST-SQUARES FITTING TO EG'S                                   
+#L J$SEE ADOPTED LEVELS                                                   
+#P    0.0        1+              6.45 M    4              3574      4     
+BR78 SE78 beta+ 3.574 387.0 1
++B beta+ 1.1427 0.809
++B beta+ 0.8573999999999999 0.115
++B beta+ 0.542 4.7E-4
++B beta+ 0.4578 3.2E-4
++B beta+ 0.3441 4.6E-5
++B beta+ 0.242 7.1E-6
++B beta+ 0.101 4.8E-8
++B beta+ 0.0988 1.2999999999999998E-6
++B beta+ 8.787E-4 0.001015
++B beta+ 8.784E-4 0.001017
++B beta+ 8.774E-4 0.0010249
++B beta+ 8.767E-4 0.0010306
++B beta+ 8.759E-4 0.0010369
++B beta+ 8.732E-4 0.00105
+

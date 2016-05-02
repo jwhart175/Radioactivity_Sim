@@ -1,0 +1,200 @@
+#131SB    131SN B- DECAY (56.0 S+58.4 S)1981HU09,1988STZQ,1995ST2806NDS    200612
+#  131SN B- DECAY (56.0 S+58.4 S)1981HU09,1988STZQ,1995ST2806NDS    200612
+#H TYP=FUL$AUT=YU. KHAZOV, I. MITROPOLSKY, A. RODIONOV$                   
+#H CIT=NDS 107, 2715 (2006)$CUT=17-Jul-2006$                              
+#  1979Bo26 measured E|g's; curved crystal spectrometer                   
+#  1981Hu09 measured |g's, |g(t), and |g|g coin; isotope                  
+#  separation, Ge(Li), HPGe                                               
+#  1988StZQ measured: |g's, ce's from 131SN (11/2-) isomer decay;         
+#  few experimental details are given; methods of separate observation    
+#  of 131SN isomer decay aren't clear                                     
+#  1993BlZZ,1981ScZL,1981ScZT,1977Sc14,1977He24: measured |g's, |g(t),    
+#  |g|g and fragment-|g(t). Ge(Li); LOHENGRIN, gas-jet                    
+#  1995Me16,1999Fo01: measured |b|g coin, deduced Q(|b{+-}), mass excess, 
+#  OSIRIS, HPGe                                                           
+#  1995St28: measured |g's, |g|g coin from 131SN (3/2+) g.s. decay;       
+#  TRISTAN; few experimental details are given; methods of separate       
+#  observation of 131SN g.s. decay aren't clear. Attribution of the decay 
+#  spectrum to the (3/2+) 131SN isomer decay is based on the depopulation 
+#  to low-spin 131SB levels.                                              
+#  All data and the decay scheme are from 1981Hu09, except as noted.      
+#  1988StZQ did not present information for states above 2 MeV or         
+#  detailed |g-deexcitation information for some of the low-spin positive 
+#  parity states. See 1976Au03 for additional references                  
+#  From the discrepancies in the I|g's from 1981Hu09 and 1981ScZT and the 
+#  I(|g+ce)'s from 1988StZQ and I(|g)'s from 1995St28                     
+#  it is possible that the 56.0 s and 58.4 s 131SN isomers were           
+#  produced in different mixtures by these groups. However, there         
+#  are many other cases where the data are in good agreement              
+#B           1973Jo02 deduced |b-strength function from total-absorption  
+#B |g spectra                                                             
+#B IB$Intensities are calculated by evaluators from net |g feeding        
+#B of each level and have only the approximate                            
+#B values because of the level scheme is incomplete.                      
+#G E,RI      From 1981Hu09, except as noted; I|g's from 1995St28 are      
+#G renormalized to I|g(798.5)=86                                          
+#G TI        From 1988StZQ. From comparison of the intensities for        
+#G transitions feeding and deexciting the 1676 state in fig. 4 of         
+#G 1988StZQ, the authors have apparently given I(|g+ce) in fig. 4         
+#G (evaluators)                                                           
+#G E(A)      From 1988StZQ; not reported by 1981Hu09, 1981ScZT, 1995St28  
+#G RI(B)     From I(|g+ce) and adopted |a (evaluators)                    
+#G E(D)      82|g placed as deexciting 1758 by 1981Hu09 and 1813 by       
+#G 1988StZQ. 191|g placed as deexciting 1867 by 1981Hu09 and 1917 by      
+#G 1981ScZT and 1988StZQ. 208|g placed as deexciting 3269 by 1981Hu09 and 
+#G 2022 by 1988StZQ. 410|g placed as deexciting 2086 by 1981Hu09 and 2454 
+#G by 1981ScZT. 2186|g placed as deexciting 2985 by 1981Hu09 and 3412 by  
+#G 1981ScZT.                                                              
+#G E(E)      Placed above the 1676 level based on T{-1/2}(1676) (1981Hu09)
+#G RI(F),TI(G)$I(|g+ce)(82)=14.13 (1988StZQ) is discrepant.               
+#G I(|g+ce)(191)=4.21 (1988StZQ) and I|g(191)=4.2 (1981ScZT) are          
+#G discrepant. I(|g+ce)(304)=17.40 (1988StZQ) is discrepant, but          
+#G I|g(304)=27.1 (1981ScZT) agrees. I|g(447)=1.5 (1981ScZT) is            
+#G discrepant. I|g(1182)=1.9 (1981ScZT) is discrepant.                    
+#G I(|g+ce)(1229)=20.2 (1988StZQ) is discrepant, but I|g(1229)=28.3       
+#G (1981ScZT) agrees. I|g(2978)=12.5 (1981ScZT) is discrepant             
+#G E(H)      Also reported by 1977Sc14 or 1981ScZT but not by 1988StZQ    
+#G E(I),RI(J)$From 1981ScZT; not reported by 1981Hu09 or 1988StZQ. 1676|g 
+#G may be sum peak (1226|g+450|g)                                         
+#G E(K)      From 1979Bo26. Assigned by the evaluators based on agreement 
+#G with 208.25 {I30}, 217.15 {I13}, 223.70 {I25}, and 682.4 {I3}          
+#G (1981Hu09)                                                             
+#G E(L)      Unplaced by 1981Hu09. Placement from 1988StZQ                
+#G E(M)      Also reported by 1988StZQ but not by 1977Sc14 or 1981ScZT    
+#G E(N)      Unplaced by 1981Hu09. Placement from 1981ScZT                
+#G E(Z)$1995St28 only                                                     
+#G E(Y)$Placement from 1995St28                                           
+#L J(B)      From systematics of low-spin positive parity states in       
+#L odd-mass Sb isotopes (1988StZQ)                                        
+#L J(D)      1981ScZT propose 7/2+, (9/2+) and (7/2)+, 9/2+, respectively 
+#L (1988StZQ)                                                             
+#L E(G)      From 1988StZQ                                                
+#L J(H)      From |g deexcitation and probable membership in              
+#L ({+130}Sn 7-)~#(|p g{-7/2}) multiplet (1988StZQ)                       
+#L (1988StZQ). Alternate placement of 1/2+ at 2392 by 1981ScZT            
+#L E(K)      From 1981ScZT                                                
+#L J(L)      Proposed by 1981ScZT; no details given                       
+#L J(M)      From |g deexcitation pattern assuming mult.=D,Q (evaluators) 
+#L J(N)      Proposed by 1988StZQ; no details given                       
+#L E(O)      1981Hu09 suggest that this state is directly populated in    
+#L 56.0 s |b{+-} decay                                                    
+#L E(R)$ Populated in 56.0 s 3/2+ 131SN |b-decay (2004Fo06, |b-|g-coin)   
+#L E(Q)$Populated in 58.4 s 11/2- 131SN |b-decay (2004Fo06, |b-|g-coin)   
+#L E(X)$Directly populated in 58.4 s 11/2- {+131}Sn |b{+-} decay          
+#L from I|b{+-} and |DJ|p                                                 
+#L E(P)      Built only on the basis of energy sums and intensity         
+#L relations (1981Hu09)                                                   
+#B E(S)$From |b-|g-coin; 2004Fo06                                         
+#L BAND(A)   Configuration =({+130}Sn 2+)~#(|p,g{-7/2})                   
+#L (1988StZQ)                                                             
+#L BAND(F)   Configuration =({+130}Sn 7-)~#(|p,g{-7/2})                   
+#L (1988StZQ)                                                             
+#P10.0         (3/2+)            56.0 S    5              4674      11    
+SN131 SB131 beta- 4.674 56.0 1.0
++G gamma 0.1978 0.024
++G gamma 0.2032 0.01
++G gamma 0.2139 0.026000000000000002
++G gamma 0.6922999999999999 0.040999999999999995
++G gamma 0.8152999999999999 0.044000000000000004
++G gamma 1.0369000000000002 0.006999999999999999
++G gamma 1.2363 0.040999999999999995
++G gamma 1.3757000000000001 0.013000000000000001
++G gamma 1.8904 0.013999999999999999
++G gamma 1.9425999999999999 0.016
++G gamma 1.9512 0.015
++G gamma 2.0928 0.023
++G gamma 2.1215 0.012
++G gamma 2.1504000000000003 0.026000000000000002
++G gamma 2.722 0.016
++G gamma 2.8339000000000003 0.01
++B beta- 3.892 0.51
++G gamma 0.7985 0.86
++G gamma 1.1416 0.1
++G gamma 0.4045 0.0046
++G gamma 1.2026 0.15
++B beta- 3.42 0.11699999999999999
++G gamma 1.22603 1.0
++G gamma 0.43060000000000004 0.01
++G gamma 1.22923 0.3
++G gamma 0.2784 0.03
++G gamma 0.6826599999999999 0.031
++G gamma 1.48112 0.12
++G gamma 0.45003 0.9
++G gamma 1.676 0.025
++G gamma 0.04983 0.011000000000000001
++G gamma 0.05435 0.037000000000000005
++G gamma 0.5046 0.028999999999999998
++G gamma 0.08229 0.21
++G gamma 0.5839 0.027999999999999997
++G gamma 0.08229 0.21
++G gamma 0.3317 0.008
++G gamma 0.5835 0.052000000000000005
++G gamma 0.18583000000000002 0.027999999999999997
++G gamma 0.1088 0.01
++G gamma 0.643 0.005
++G gamma 0.669 0.005
++G gamma 1.8725999999999998 0.013000000000000001
++G gamma 0.24043 0.065
++G gamma 0.7011000000000001 0.018000000000000002
++G gamma 1.93105 0.092
++G gamma 0.06382 0.0032
++G gamma 0.30433 0.32
++G gamma 0.1846 0.027999999999999997
++G gamma 1.2049 0.07
++G gamma 2.0034 0.012
++G gamma 0.1022 2.9E-4
++G gamma 0.0629 0.015
++G gamma 0.285 0.03
++G gamma 0.3674 0.076
++G gamma 0.1559 0.013999999999999999
++G gamma 0.7935 0.037000000000000005
++G gamma 1.0719 0.02
++G gamma 1.4758 0.016
++G gamma 2.2742199999999997 0.042
++G gamma 0.3881 0.016
++G gamma 0.5203 0.016
++G gamma 0.911 0.021
++G gamma 1.2507000000000001 0.012
++G gamma 1.5936 0.028999999999999998
++G gamma 2.3922 9.5E-4
++G gamma 1.4196 0.0032
++G gamma 2.561 0.0029
++G gamma 0.9046000000000001 0.01
++G gamma 1.1824000000000001 0.042
++G gamma 2.66321 0.028999999999999998
++G gamma 0.8850800000000001 0.08900000000000001
++G gamma 1.1887 0.019
++G gamma 1.6397 0.016
++G gamma 0.9997999999999999 0.043
++G gamma 0.5463 0.02
++G gamma 1.0659 0.011000000000000001
++G gamma 1.7366 0.003
++G gamma 2.1395399999999998 0.026000000000000002
++G gamma 1.0221 0.04
++B beta- 1.734 0.2
++G gamma 1.4964000000000002 0.022000000000000002
++G gamma 2.17959 0.048
++G gamma 2.9777 0.012
++G gamma 0.8985 0.013999999999999999
++G gamma 2.1864 0.04
++B beta- 1.519 0.018000000000000002
++G gamma 2.264 0.004
++G gamma 1.2026 0.04
++G gamma 1.1412 0.025
++B beta- 1.519 0.096
++G gamma 1.3916099999999998 0.022000000000000002
++G gamma 2.032 0.02
++B beta- 1.491 0.15
++G gamma 2.4705 0.033
++G gamma 3.2675 0.033
++G gamma 1.3916099999999998 0.022000000000000002
++G gamma 0.3832 0.013000000000000001
++G gamma 2.56893 0.006999999999999999
++G gamma 3.367 0.017
++G gamma 1.7365 0.01
++G gamma 2.1864 0.04
++G gamma 2.6144000000000003 0.026000000000000002
++G gamma 3.4123 0.01
++G gamma 3.539 0.006999999999999999
++G gamma 3.5686 0.009000000000000001
+

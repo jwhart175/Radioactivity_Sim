@@ -1,0 +1,243 @@
+# 93RB    93KR B- DECAY                 1977BI01                  11NDS    201105
+#  93KR B- DECAY                 1977BI01                  11NDS    201105
+#H TYP=FUL$AUT=CORAL M. BAGLIN$CIT=NDS 112, 1163 (2011)$CUT=15-Dec-2010$  
+#  Others: 1972Am01, 1972Mc04, 1973Cl02, 1974Ac04, 1975Br03, 1979Bo26,    
+#  1986Si20, 1988GrZX.                                                    
+#  1979Bo26: curved crystal spectrometer; measured EG for three           
+#  lines.                                                                 
+#  1977Bi01: GELI, low energy photon spectrometer for EG=0-350            
+#  KEV; measured EG, IG (217 lines), GG coin.                             
+#  1975Br03: GELI; measured EG, IG (47 lines), EB, IB, GG coin,           
+#  BG coin.                                                               
+#  1974Ac04: GELI and Si(Li); measured EG, IG (84 lines), GG coin,        
+#  EKC (relative to 85KR(304G) and 85RB(151G)).                           
+#  The adopted decay scheme is that of 1977Bi01; for                      
+#  E(level)<3050, it is supported by extensive coin information. The      
+#  schemes proposed by 1977Bi01 and 1975Br03 are in excellent agreement;  
+#  however, of the 25 levels proposed in 1974Ac04, only 13 are common     
+#  to the scheme of 1977Bi01. Placed G rays whose EG deviates             
+#  significantly from the least-squares adjusted value are noted.         
+#  Approximately 5.6% of IG remains unplaced, and IB=-0.36 18 is          
+#  indicated for 1642 level, so decay scheme must be regarded as          
+#  incomplete.                                                            
+#B           <E{-|b}>=2700 210 (1982Al01) cf. 2768 145 calculated using   
+#B the ^RADLST code for the decay scheme adopted here.                    
+#B IB        FROM INTENSITY BALANCE, EXCEPT AS NOTED.  AN INTENSITY OF    
+#B OF 0.5IG+-0.5IG IS ASSIGNED FOR THE THREE TRANSITIONS (1596G, 1298G,   
+#B 1097G) WHICH FIT THEIR PLACEMENTS POORLY.                              
+#B IB(D)     5.0% 5 (1975Br03), 0% 5 (1974Ac04). The 1975Br03 datum is    
+#B based on I(324G, 93RB)/I(590G, 93Y) in source at saturation and        
+#B %I(590G) (value unstated), and does not allow for adopted              
+#B %B-N(93KR)=2.01 16 (IB(GS) becomes 3.0% 5 after that correction). The  
+#B 1974Ac04 datum is based on saturation values for |S(RI to 93RB GS),    
+#B |S(RI to 93Y GS) and authors' decay schemes, assuming                  
+#B IB(GS, 93Y)=0 and %B-N(93KR)=2.6. Compared with decay schemes adopted  
+#B from 1977Bi01, the schemes in 1974Ac04 include 93% and 95%,            
+#B respectively, of total IG to GS for 93Y and 93RB; consequently,        
+#B |S(IB to excited states of 93SR)=97% 5 implied in 1974Ac04 should      
+#B probably be reduced to 95% 5, resulting in IB(GS)=3% 5. Since the      
+#B precision of the 1975Br03 datum (IB(GS)=3.0% 5, after above revision)  
+#B appears to be unrealistically high, the evaluator adopts IB(GS)=1.5%   
+#B 15. (LOGF1UT>8.5 implies IB(GS)<11%).                                  
+#G           1977Bi01 report many more G rays than 1975Br03 or            
+#G 1974Ac04 and resolve ten multiplets reported as single lines in        
+#G prior studies. The evaluator, therefore, omits G rays reported         
+#G in 1974Ac04 alone (EG=427.63, 658.50, 763.9, 802.3, 1077.4, 1209.1,    
+#G 1750.1, 2626.3, 3171.0), but retains those G's which                   
+#G lie outside the energy range of 1977Bi01 (EG=4128.1, 4369.1, 4672.2).  
+#G The 507G in 1974Ac04 and 1975Br03 is due to summing (1977Bi01).        
+#G           EKC data are from 1974Ac04.                                  
+#G E,RI      From 1977Bi01. The highest precision EG data are from        
+#G 1977Bi01 and 1974Ac04; agreement is excellent for low EG but, for EG   
+#G above AP 1700, data from 1974Ac04 tend to be higher than those from    
+#G 1977Bi01. RI data from 1977Bi01 and 1975Br03 are, with a few           
+#G exceptions, in good agreement; except for EG<1000, those from 1974Ac04 
+#G are, typically, low relative to those of 1977Bi01 (some by a factor of 
+#G AP 2). The distribution of IG between members of the 253-KEV doublet   
+#G varies greatly among authors.                                          
+#G E(A),RI(A)$Observed in 1977Bi01 and at least one other decay study.    
+#G E(B),RI(B)$From 1974Ac04 only.                                         
+#G E(S)      Other EG: 820.47 2 (1974Ac04).                               
+#G M,MR      Based on EKC.                                                
+#G E(E)      Assigned by 1974Ac04 to deexcite a 3656 level which evaluator
+#G does not adopt; only two G's deexcite this 3656 level, and their energy
+#G consistency is not good.                                               
+#G E(F)      EG is also correct for a transition connecting the 3494      
+#G and 1880 levels.                                                       
+#G M(G)      EKC for doublet consistent only with mult.=M1(+E2) for both  
+#G components or with mult.=E2 for one component and mult.=E1 for the     
+#G other. Since components connect levels having the same PI (based on    
+#G EKC for 182G and 323G), the former alternative is dictated; in this    
+#G case, 1974Ac04 deduce (0.0108 LE EKC(252.5) LE 0.0142) and             
+#G (0.0108 LE EKC(253.4) LE 0.0137).                                      
+#G E(H)      EG at least 3|s from least-squares adjusted value.           
+#G E(I)      Probably same G as 2548.0G in 1977Bi01.                      
+#L E         From least-squares fit to EG, omitting 1596G                 
+#L (4|s from expected value), and 1097G, 1238G (3|s from expected EG).    
+#L J         FROM Adopted Levels.                                         
+#P 0             1/2+            1.286 S   10             8485       8    
+KR93 RB93 beta- 8.485 1.286 0.0241
++G gamma 0.05711 0.107
++G gamma 0.07057 0.64
++G gamma 0.32389 10.0
++G gamma 0.5670499999999999 0.069
++G gamma 0.52959 0.204
++G gamma 0.84412 0.233
++G gamma 1.08342 0.33799999999999997
++G gamma 1.09714 0.053
++G gamma 1.35024 0.31
++G gamma 0.73724 0.022000000000000002
++G gamma 1.0517 0.031
++G gamma 1.29054 0.099
++G gamma 1.23876 0.46
++G gamma 1.29608 0.78
++G gamma 1.30951 0.043
++G gamma 1.38792 0.56
++G gamma 1.6410799999999999 0.6
++G gamma 1.1360999999999999 0.032
++G gamma 1.36477 0.28300000000000003
++G gamma 1.4217899999999999 0.4
++G gamma 0.29288 0.0375
++G gamma 1.5258900000000002 0.08900000000000001
++G gamma 1.8500999999999999 0.04
++G gamma 0.23926 0.066
++G gamma 1.6271 0.82
++G gamma 0.4015 0.019
++G gamma 1.69784 0.58
++G gamma 1.71078 0.20800000000000002
++G gamma 1.6850699999999998 0.22699999999999998
++G gamma 1.74249 0.53
++G gamma 0.73372 0.364
++G gamma 0.48044 0.036000000000000004
++G gamma 1.66274 0.17
++G gamma 1.70445 0.105
++G gamma 1.94354 0.19699999999999998
++G gamma 1.9570999999999998 0.145
++G gamma 0.64318 0.038
++G gamma 0.72268 0.113
++G gamma 1.7796800000000002 0.23800000000000002
++G gamma 1.96183 0.74
++G gamma 2.0188699999999997 0.58
++G gamma 0.39901 0.049
++G gamma 0.64478 0.11199999999999999
++G gamma 1.04657 0.05
++G gamma 1.78896 0.13
++G gamma 2.3424 0.073
++G gamma 0.9760800000000001 0.294
++G gamma 2.4114400000000002 0.128
++G gamma 0.8950499999999999 0.07200000000000001
++G gamma 2.2392 0.07400000000000001
++G gamma 1.1262999999999999 0.027999999999999997
++G gamma 1.99441 0.10800000000000001
++G gamma 2.4911999999999996 0.19
++G gamma 2.54802 0.258
++G gamma 0.19106 0.032
++G gamma 0.57016 0.494
++G gamma 0.68651 0.055999999999999994
++G gamma 0.8915 0.013000000000000001
++G gamma 1.21498 0.73
++G gamma 1.50576 0.93
++G gamma 2.03526 0.75
++G gamma 2.5319000000000003 0.054000000000000006
++G gamma 1.3134400000000002 0.122
++G gamma 1.36026 0.094
++G gamma 1.65187 0.287
++G gamma 2.678 0.109
++G gamma 0.85266 0.039
++G gamma 1.7134 0.128
++G gamma 2.5572600000000003 0.243
++G gamma 2.73914 0.21100000000000002
++G gamma 2.79656 0.15
++G gamma 1.2355 0.055
++G gamma 1.55632 0.10300000000000001
++G gamma 1.6819000000000002 0.04
++G gamma 1.6874 0.06
++G gamma 2.4242600000000003 0.07200000000000001
++G gamma 0.51978 0.04
++G gamma 1.0005 0.019
++G gamma 1.0545499999999999 0.044000000000000004
++G gamma 1.5766 0.037000000000000005
++G gamma 2.9985 0.26
++G gamma 1.9297 0.132
++G gamma 3.0265 0.07200000000000001
++G gamma 1.13917 0.08
++G gamma 1.6663 0.034
++G gamma 1.74528 0.172
++G gamma 1.50841 0.09
++G gamma 2.8526 0.079
++G gamma 3.1054 0.122
++G gamma 3.3588 0.05
++G gamma 1.8223 0.07
++G gamma 1.8237999999999999 0.14
++G gamma 3.4644 0.13
++G gamma 1.3827 0.078
++G gamma 1.5868900000000001 0.35100000000000003
++G gamma 1.8626800000000001 0.11
++G gamma 1.9892999999999998 0.11699999999999999
++G gamma 3.3072 0.042
++G gamma 2.9135 0.086
++G gamma 3.4671999999999996 0.11
++G gamma 2.08824 0.113
++G gamma 3.4533 0.084
++G gamma 0.55541 0.043
++G gamma 2.16 0.027999999999999997
++G gamma 3.2948000000000004 0.086
++G gamma 0.31672 0.1
++G gamma 0.7707 0.057
++G gamma 1.7858 0.051
++G gamma 1.8400999999999998 0.11
++G gamma 2.7005 0.091
++G gamma 3.2299 0.061
++G gamma 1.4713 0.157
++G gamma 1.7948 0.36
++G gamma 2.5174000000000003 0.032
++G gamma 1.6169 0.027999999999999997
++G gamma 1.7983 0.07400000000000001
++G gamma 3.2203000000000004 0.07200000000000001
++G gamma 3.3039 0.044000000000000004
++G gamma 1.8037100000000001 0.092
++G gamma 2.8385 0.075
++G gamma 1.15709 0.131
++G gamma 2.2354000000000003 0.03
++G gamma 3.8870999999999998 0.053
++G gamma 2.8266199999999997 0.081
++G gamma 3.2811 0.033
++G gamma 3.4824 0.049
++G gamma 1.44564 0.084
++G gamma 3.2853000000000003 0.073
++G gamma 3.4126999999999996 0.057999999999999996
++G gamma 3.6459 0.09699999999999999
++G gamma 0.61651 0.042
++G gamma 2.66349 0.212
++G gamma 3.0005 0.14
++G gamma 3.3796999999999997 0.07
++G gamma 0.898 0.018000000000000002
++G gamma 2.9446 0.073
++G gamma 3.0147 0.13
++G gamma 2.08262 0.12300000000000001
++G gamma 2.3083 0.031
++G gamma 2.366 0.053
++G gamma 3.2503 0.065
++G gamma 3.6492 0.127
++G gamma 3.776 0.061
++G gamma 0.25483 0.29
++G gamma 1.05871 0.128
++G gamma 2.3685 0.057
++G gamma 3.6346999999999996 0.079
++G gamma 3.6555 0.057
++G gamma 2.60665 0.295
++G gamma 2.7201999999999997 0.083
++G gamma 3.1508000000000003 0.087
++G gamma 3.356 0.09
++G gamma 3.7958000000000003 0.016
++G gamma 0.57873 0.035
++G gamma 3.2145 0.08900000000000001
++G gamma 2.1793 0.04
++G gamma 3.1968 0.06
++G gamma 3.4451 0.027000000000000003
++G gamma 1.0806 0.017
++G gamma 2.52147 0.196
++G gamma 2.9483200000000003 0.251
++G gamma 3.2607 0.036000000000000004
++G gamma 3.4606999999999997 0.29
+

@@ -1,0 +1,31 @@
+#212RA    216TH A DECAY (26.0 MS)       2000HE17                  05NDS    200503
+#  216TH A DECAY (26.0 MS)       2000HE17                  05NDS    200503
+#H TYP=FUL$AUT=E. BROWNE$CIT=NDS 104, 427 (2005)$CUT=1-Jan-2004$          
+#  Modified by E. Browne (May 11, 2004)                                   
+#  T1/2(216TH)=26.0 ms 15, weighted average (^LWM) of 22.0 ms +16-14      
+#  (2000Ni02), 27.0 ms 3, 30 ms 3 (2000He17), and                         
+#  28 ms 2 (1968Va18).                                                    
+#  %A(216TH)=100. EC decay branch for 216TH was estimated by 1997Ar04     
+#  as AP 0.01% from the gross BETA-decay theory of 1973Ta30.              
+#  NO CALCULATION FOR T1/2(EC) OF 216TH IS GIVEN IN 1997MoZW.             
+#  The partial half-life for 216TH B+ decay was                           
+#  calculated by 1997Mo25 as >100 S which gives %B+<0.028.                
+#  QA(216TH)=8071 8 is recommended by 1995Au04.                           
+#A HF        R0(212RA)=1.47 from HF(7921A)=1.0.                           
+#A IA        From 2000HE17                                                
+#P 0.0          0+               26.0 MS   15             8071      6     
+TH216 RA212 alpha 8.071 0.026 1.0
++A alpha 7.922 0.9945999999999999
++A alpha 7.302 0.0054
+
+#212RA    216TH A DECAY (180 US)        1983HI08                  05NDS    200503
+#  216TH A DECAY (180 US)        1983HI08                  05NDS    200503
+#H TYP=FUL$AUT=E. BROWNE$CIT=NDS 104, 427 (2005)$CUT=1-Jan-2004$          
+#A           Assignment: 178HF,179HF,180HF(40AR,XN), 94ZR,96ZR(124SN,xn), 
+#A 181TA(40AR,p4n) (1983Hi08)                                             
+#A           216TH parent: E(level)=2028 22; JPI=(8+,11-)                 
+#A HF$R0(212RA)=1.47                                                      
+#L $216TH level: T=140 US 5 (2000He17)                                    
+#P 2028      22 (8+,11-)         180 US    40             8071      6     
++A alpha 9.912 1.0
+

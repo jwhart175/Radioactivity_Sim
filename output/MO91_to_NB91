@@ -1,0 +1,72 @@
+# 91NB    91MO EC DECAY (15.49 M)       1976DE37                  13NDS    201310
+#  91MO EC DECAY (15.49 M)       1976DE37                  13NDS    201310
+#H TYP=FUL$AUT=Coral M. Baglin$CIT=NDS 114, 1293 (2013)$CUT=1-Sep-2013$   
+#  Others: 1956Sm96, 1970De34, 1970He03, 1976Fi14, 1993Os06, 2001KO07.    
+#  1976De37: GE(LI) anti-COMPTON spectrometer. The extended               
+#  version of this work is reported in 1975DeZX.                          
+#  1970He03: GE(LI) detectors; measured EG, IG.                           
+#  1976Fi14: 4PI CaF{-2}(Eu) scin; NAI(TL). Measured I(XK) and            
+#  IB+. Deduced I(ECK)/IB+.                                               
+#E E(B)      From B+ endpoint energy of 3413 23 (1993Os06,2001Ko07).      
+#E Other B+ endpoint energy: 3440 30 (1956Sm96).                          
+#G CC$ FROM BrIcc v2.2b (20-Jan-2009) 2008Ki07, "Frozen Orbitals" appr.   
+#G E         Weighted average from 1976De37 and 1970He03, except as       
+#G noted. G's of 1970He03 which are not seen by 1976De37 (RI<1 in         
+#G 1976De37) are not adopted. The energies measured by 1970De34 are       
+#G systematically lower by AP 1 KEV.                                      
+#G RI        From 1976De37. The values from 1970He03 are less precise but 
+#G agree with 1976De37 within the uncertainty limits, except as noted.    
+#G M,MR      From Adopted Gammas.                                         
+#G E(A)      From 1976De37.                                               
+#L J,T       From Adopted Levels.                                         
+#P 0.0         9/2+              15.49 M   1              4430       7    
+MO91 NB91 beta+ 4.43 929.4 0.00329
++G gamma 1.0823 0.063
++G gamma 1.5815 0.687
++G gamma 1.6373 1.0
++G gamma 1.7404000000000002 0.040999999999999995
++G gamma 2.5308 0.013000000000000001
++G gamma 1.0509000000000002 0.016
++G gamma 2.6319 0.359
++G gamma 1.1562999999999999 0.011000000000000001
++G gamma 1.6058 0.031
++G gamma 2.792 0.03
++G gamma 1.4472 0.038
++G gamma 3.0285 0.258
++G gamma 3.1492 0.16699999999999998
++G gamma 3.1878 0.016
++G gamma 3.8376 0.009000000000000001
++G gamma 3.8867 0.006999999999999999
++G gamma 3.9166999999999996 0.005
++G gamma 4.1806 0.006
+
+# 91NB    91MO EC DECAY (64.6 S)        1976DE37                  13NDS    201310
+#  91MO EC DECAY (64.6 S)        1976DE37                  13NDS    201310
+#H TYP=FUL$AUT=Coral M. Baglin$CIT=NDS 114, 1293 (2013)$CUT=1-Sep-2013$   
+#  Others: 1956Sm96, 1970He03, 1970De34, 1973Ni04.                        
+#E E         Values given without parentheses are based on                
+#E B+ endpoint energies of 3990 50, 2780 100 and 2480 100                 
+#E reported by 1956Sm96.                                                  
+#G CC$ FROM BrIcc v2.2b (20-Jan-2009) 2008Ki07, "Frozen Orbitals" appr.   
+#G           1976De37: GE(LI) anti-COMPTON spectrometer. An extended      
+#G report of this work is available from 1975DeZX.                        
+#G           1970He03: GE(LI) detectors; measured EG, IG.                 
+#G           1956Sm96: scin. Measured G-spectra, GG, B singles and        
+#G coincidence spectra.                                                   
+#G E         Weighted average from 1976De37 and 1970He03, if not indicated
+#G otherwise. The 253.4G of 1970He03, not seen by 1976De37                
+#G (RI<0.15), is not adopted. The energies measured by 1970De34           
+#G are systematically lower by AP 1 KEV.                                  
+#G RI        From 1976De37. The values from 1970He03 are less precise but 
+#G agree with 1976De37 within the uncertainty limits.                     
+#G M         From Adopted Gammas.                                         
+#G E(A)      From 1970He03.                                               
+#G E(B)      From 1976De37.                                               
+#L J,T       From Adopted Levels.                                         
+#P 652.9     1  1/2-             64.6 S    6              4430       7    
+MO91 NB91 beta+ 4.43 64.6 0.96
++G gamma 1.2081099999999998 0.38799999999999996
++G gamma 0.4259 0.0034999999999999996
++G gamma 1.508 0.504
++G gamma 2.2407 0.0151
+

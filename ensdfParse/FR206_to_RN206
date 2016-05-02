@@ -1,0 +1,21 @@
+#206RN    206FR EC DECAY                1981RI02                  08NDS    200805
+#  206FR EC DECAY                1981RI02                  08NDS    200805
+#H TYP=FUL$AUT=F.G. KONDEV$CIT=NDS 109, 1527 (2008)$CUT=31-Jan-2008$      
+#  1981Ri02:  206FR PRODUCED BY IR(20NE,XN) REACTION ON NATURAL TARGET    
+#  WITH E(20NE) AP 115 MEV FOLLOWED BY ISOTOPE SEPARATION.  GE(LI)        
+#  AND SI(LI) DETECTORS WERE USED TO MEASURE G AND CE SPECTRA, AND        
+#  GG COINCIDENCES.                                                       
+#  The decay scheme involves decay of two states in 206FR ((2+,3+)        
+#  and (7+)). This is confirmed by the B++EC feedings to low spin         
+#  2+ and 4+ levels, as well as to high-spin 6+ and 8+ states.            
+#  The large Q value in the B++EC decay of 206FR suggests that many other 
+#  states, yet unobserved, are populated. The B++EC feedings and          
+#  corresponding LOGFT values could not be determined unambiguously       
+#L E$From a least-squares fit to EG                                       
+#L J,T$From adopted levels                                                
+#G E,RI$From 1981Ri02                                                     
+#G M$From adopted levels. Specific results from CE measurements in        
+#G 1981Ri02 are also presented                                            
+#P1   0         (2+,3+)          16 S      AP             7760      SY    
++G gamma 0.5752999999999999 1.0
+

@@ -1,0 +1,40 @@
+#110TC    110MO B- DECAY                1994LH02,2004WA03         12NDS    201206
+#  110MO B- DECAY                1994LH02,2004WA03         12NDS    201206
+#H TYP=FUL$AUT=G. G~URDAL and F.G. KONDEV$CIT=NDS 113, 1315 (2012)$       
+#H CUT=1-Aug-2011$                                                        
+#G CC$ FROM BrIcc v2.2 (31-Mar-2008) 2008KiAA, "Frozen Orbitals" appr.    
+#  1994LH02: Source produced via {+232}Th(P,F) reaction.                  
+#  Detection system : IGISOL on-line mass separator, collecting tape,     
+#  one plastic scintillator, one |g-X Ge and one large Ge detectors.      
+#  Production rate of {+110}Mo was around 4 atoms/s (quoted by 2004Wa03). 
+#  Measured: |b|g, |g|g, |b|g(t), T1/2, CE.                               
+#  2004WA03: Source produced via 238U(P,F) reaction.                      
+#  Detection system : IGISOL on-line mass separator, collecting tape,     
+#  two plastic scintillators and three Ge detectors. Production rate of   
+#  {+110}Mo was 42 atoms/s. Measured: |b|g, |g|g, |b|g(t)                 
+#B IB$From intensity balances and the adopted level scheme by the         
+#B evaluators. However, the decay scheme suffers from pandemonium, thus   
+#B the quoted values should be considered as tentative                    
+#B LOGFT$Since the decay scheme is incomplete, due to pandemonium, the    
+#B values are tentative                                                   
+#L E$From a least-square fit to E{-|g}                                    
+#L J$From 2004WA03 and 1994LH02, unless otherwise noted.                  
+#L However, since the decay scheme is incomplete such assignments         
+#L should be considered as tentative.                                     
+#G E,RI$From 2004WA03                                                     
+#P 0               0+            0.296 S   17             6480      30    
+MO110 TC110 beta- 6.48 0.296 1.0
++G gamma 0.1421 1.0
++G gamma 0.13169999999999998 0.166
++G gamma 0.121 0.413
++G gamma 0.22340000000000002 0.21100000000000002
++G gamma 0.26289999999999997 0.08199999999999999
++G gamma 0.2036 0.02
++G gamma 0.3257 0.054000000000000006
++G gamma 0.4476 0.023
++G gamma 0.273 0.028999999999999998
++G gamma 0.4778 0.256
++G gamma 0.5983999999999999 0.39899999999999997
++G gamma 0.7411 0.08199999999999999
++G gamma 0.7667 0.065
+

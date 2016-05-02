@@ -1,0 +1,86 @@
+# 92RU6C  LEVELS; FOR SUCH ENERGIES, EC DECAY TO BOTH THE (6+) 2675 AND THE 3015 
+#  LEVELS; FOR SUCH ENERGIES, EC DECAY TO BOTH THE (6+) 2675 AND THE 3015 
+#  LEVELS APPEARS TO be ALLOWED.  However, it must be remembered that this
+#  decay scheme may be seriously incomplete (Q+ AP 11300, EG>4 MEV        
+#  UNDETECTED).                                                           
+#E TI        EC+B+ feeding to ground and excited states in 92RU was       
+#E deduced by 2004DE40 from I(G+-) AFTER CORRECTION FOR CONTRIBUTIONS     
+#E FROM OTHER A=92 NUCLIDES; this indicated branches to the GS and        
+#E first 2+ state of at least 25% and 5%, respectively, inconsistent with 
+#E the meaningful branches observed to (6+) AND (8+) states.              
+#E Additionally, two half-life components were observed in the time       
+#E behaviour of the 866G. Consequently, the authors concluded that their  
+#E 92RH source contained both high- and low-spin isomers and I(866G)      
+#E WAS APPORTIONED BETWEEN THEM BASED ON THE TWO-COMPONENT FIT TO ITS TIME
+#E BEHAVIOR.  All 511G events that could not be associated                
+#E with G events visible in the 92RH decay spectra were assigned by       
+#E 2004DE40 to the GS branch FROM THE LOW-SPIN ISOMER.  GIVEN THE LARGE Q+
+#E AND AN INABILITY TO OBSERVE EG>4 MEV, A NUMBER OF WEAK DECAY BRANCHES  
+#E MAY CONSEQUENTLY HAVE BEEN OVERLOOKED AND THE BRANCHINGS DEDUCED FOR   
+#E THE REPORTED LEVELS (ESPECIALLY THE GS BRANCH) WILL be CORRESPONDINGLY 
+#E UNCERTAIN AND ARE SHOWN HERE FOR COMPLETENESS ALONE.                   
+#E LOGFT     VALUES WERE CALCULATED ASSUMING DECAY IS FROM 92RH GS; SEE   
+#E ALSO THE GENERAL COMMENT ON TI.  2004DE40 CONSIDER THEM TO be          
+#E LOWER LIMITS, AT BEST.                                                 
+#G E,RI      FROM 2004DE40.                                               
+#G M         FROM Adopted Gammas.                                         
+#L E         FROM EG.                                                     
+#L J         FROM Adopted Levels.                                         
+#P 0+X          (|>6+)            4.66 S   25             11302      5    
++B beta+ 8.661E-4 0.0010853
++B beta+ 3.9785999999999997 0.05
++B beta+ 3.5773 0.05
++B beta+ 3.5277 0.05
++B beta+ 3.4975 0.05
+
+# 92RU    92RH EC DECAY (0.53 S)        2004DE40                  12NDS    201210
+#  92RH EC DECAY (0.53 S)        2004DE40                  12NDS    201210
+#H TYP=FUL$AUT=CORAL M. BAGLIN$CIT=NDS 113, 2187 (2012)$CUT=15-Sep-2012$  
+#  92RH source produced using the 58NI(36AR{+10+},pn) reaction and        
+#  E=120 MEV AT CENTER OF TARGET AFTER DEGRADATION OF 135 MeV BEAM BY Ta  
+#  degraders TO TAKE ADVANTAGE OF THE CROSS SECTION MAXIMUM OF 368 UB;    
+#  recoils from target were stopped and neutralized by 500 mbar           
+#  of purified Ar gas; REACTION PRODUCTS SELECTIVELY IONIZED ACCORDING    
+#  to Z, using two dye lasers tuned to the resonant atomic transitions    
+#  of Rh to strongly enhance ITS IONIZATION AND EXTRACTION;               
+#  laser-ionized nuclei guided towards the ^LISOL mass                    
+#  separator by a sextupole ion guide; 2 HPGe DETECTORS arranged in       
+#  compact configuration around |b-sensitive plastic |DE-E detectors      
+#  enclosing the tape station; measured EG (E<4 MEV), IG, GG COIN, |b|g   
+#  coin, ^T{-1/2}(92RH).                                                  
+#  THE DECAY SCHEME IS FROM 2004DE40.                                     
+#  A calculation of feeding to the observed levels based on I(G+-) AFTER  
+#  CORRECTION FOR CONTRIBUTIONS FROM OTHER A=92 NUCLIDES indicates feeding
+#  to the GS and FIRST 2+ state of 92RU AS WELL AS TO (6+) AND (8+) LEVELS
+#  IN  92RU.  Additionally, 2004DE40 find evidence for two half-life      
+#  components in the time behaviour of the 866G.  2004DE40 INTERPRET      
+#  this as evidence for the existence of both low-spin AND HIGH-SPIN      
+#  states in 92RH source.                                                 
+#E TI        EC+B+ feeding to ground and excited states in 92RU was       
+#E deduced by 2004DE40 from I(G+-) AFTER CORRECTION FOR CONTRIBUTIONS     
+#E FROM OTHER A=92 NUCLIDES; this indicated branches to the GS and        
+#E first 2+ state of at least 25% and 5%, respectively, inconsistent with 
+#E meaningful branches observed to (6+) AND (8+) states.                  
+#E Additionally, two half-life components were observed in the time       
+#E behaviour of the 866G. Consequently, the authors concluded that their  
+#E 92RH source contained both high- and low-spin isomers and I(866G)      
+#E WAS APPORTIONED BETWEEN THEM BASED ON THE TWO-COMPONENT FIT TO ITS TIME
+#E BEHAVIOR.  All 511G events that could not be associated                
+#E with G events visible in the 92RH decay spectra were assigned          
+#E to the GS branch FROM THE LOW-SPIN ISOMER.  GIVEN THE LARGE Q+ AND AN  
+#E INABILITY TO OBSERVE EG>4 MEV, A NUMBER OF WEAK DECAY BRANCHES MAY     
+#E CONSEQUENTLY HAVE BEEN OVERLOOKED AND THE IMBALANCE DEDUCED FOR THE    
+#E REPORTED LEVELS (ESPECIALLY THE GS BRANCH) WILL be CORRESPONDINGLY     
+#E UNCERTAIN AND ARE GIVEN HERE IN COMMENTS FOR COMPLETENESS ALONE.       
+#E           LOGFT VALUES COULD be CALCULATED ASSUMING DECAY IS FROM 92RH 
+#E GS, BUT 2004DE40 CONSIDER THOSE TO be LOWER LIMITS, AT BEST.           
+#E IN PARTICULAR, THE LOGFT=4.6 OBTAINED FOR THE GS BRANCH WOULD be       
+#E UNREALISTICALLY LOW FOR A DJ=2, DPI=NO BRANCH AND THE EVALUATOR        
+#E CONCLUDES THAT THE DECAY IS FAR TOO INCOMPLETE FOR SUCH A CALCULATION  
+#E TO be MEANINGFUL.  SEE ALSO THE GENERAL COMMENT ON TI.                 
+#G E,RI      FROM 2004DE40.                                               
+#G M         FROM Adopted Gammas.                                         
+#L E         FROM EG.                                                     
+#L J         FROM Adopted Levels.                                         
+#P 0+Y          (2+)              0.53 S   37              11302     5    
+

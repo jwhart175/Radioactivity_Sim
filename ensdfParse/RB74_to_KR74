@@ -1,0 +1,36 @@
+# 74KR    74RB EC DECAY (64.776 MS)     2003PI08                  06NDS    200607
+#  74RB EC DECAY (64.776 MS)     2003PI08                  06NDS    200607
+#H TYP=FUL$AUT=BALRAJ SINGH, AMEENAH R. FARHAN$CIT=NDS 107, 1923 (2006)$  
+#H CUT=30-Apr-2006$                                                       
+#  2003Pi08 (also 2002Zg01): {+74}Rb produced in Nb(p,X) E={ 500 MeV}     
+#  spallation reaction.                                                   
+#  The nuclei were ionized in a surface ionization source and mass        
+#  separated in the ISAC on-line separator. At the experimental           
+#  site, the {+74}Rb activity was implanted into a moving conducting      
+#  collector tape.                                                        
+#  Measured E|g, I|g, |g|g, ce, (ce)|b coin using two Si(Li) diodes       
+#  an HPGe detector in conjunction with two plastic scintillators for     
+#  for |b detection.                                                      
+#  T{-1/2} measurement: 2002Oi02, 2001Oi04, 2001Ba12, 2001Ga24, 1999Lo07, 
+#  1998Lo17, 1977Da04                                                     
+#  Survey and analysis of superallowed (0+ to 0+) |b decays including     
+#  that of {+74}Rb to {+74}Kr: 2005Ha27 (also 2005Ha65,2006Ha12),         
+#  2005Sa44                                                               
+#E TI,LOGFT$Deduced from |g intensities of 2003Pi08.                      
+#E TI(A)$Apparent feeding deduced from |g intensities. This               
+#E feeding is likely to be due to unobserved |g rays from                 
+#E high-lying J=1,0 states. From |DJ=2, d(|p)=no; no direct |b feeding    
+#E is expected.                                                           
+#G RI$ FROM TI IN 2003PI08 AND CC FOR EXPECTED MULT                       
+#G M$ FROM 'ADOPTED GAMMAS'                                               
+#L J$ FROM 'ADOPTED LEVELS'                                               
+#P 0.0           0+              64.776 MS 30              10416.8  45    
++B beta+ 4.4695 0.9932
++B beta+ 4.2441 0.0013800000000000002
++B beta+ 4.218 4.3E-4
++G gamma 0.053 3.8E-5
++B beta+ 3.8752 5.3E-4
++B beta+ 3.6536 5.2E-4
++B beta+ 3.6103 3.7999999999999997E-4
++B beta+ 2.387 1.2E-4
+

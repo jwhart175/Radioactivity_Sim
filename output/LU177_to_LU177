@@ -1,0 +1,36 @@
+#177LU    177LU IT DECAY (160.44 D)     1972CH48,1981HN03,1989Ma5603NDS    200305
+#  177LU IT DECAY (160.44 D)     1972CH48,1981HN03,1989Ma5603NDS    200305
+#H TYP=FUL$AUT=F.G. KONDEV$CIT=NDS 98, 801 (2003)$CUT=1-Aug-2002$         
+#  Other: 1988Zh06, 1975Mo14, 1970Ka39, 1969Ro37,                         
+#  1967Ha09, 1965Sy01, 1965Ma18, 1964Kr01, 1964Al04, 1964Bl16.            
+#  1964Al04, 1966Bo01, 1967Be34, 1967Ha09, 1969Hu06, 1970Ka39,            
+#  1971Gl09, 1972Bo55, 1974Kr12, 1990Bu31.                                
+#L E$ From least-squares fit to the G-ray energies given in 1989Ma56.     
+#L J$ From G(THETA), measured  electron conversion coefficients and the   
+#L apparent band structure with both cascade (DJ=1) and crossover (DJ=2)  
+#L transitions, unless otherwise specified.                               
+#L T$ From adopted levels.                                                
+#L E(A)$ PI 7/2[404] (g{-7/2}). The assignment                            
+#L is supported by the observed in-band properties, such as alignment     
+#L and g{-K}-g{-R} values ((g{-K}-g{-R})/Q{-0}=+0.0475 7,                 
+#L weighted average from values deduced from the 11/2+ to 17/2+ levels)   
+#L and systematics of similar structures in neighboring                   
+#L nuclei.                                                                
+#L E(B)$ KPI=23/2-: CONF=PI 7/2[404], NU 7/2[514], NU 9/2[624].           
+#G E$ From 1989Ma56.                                                      
+#G RI$Weighted average of values from 1981Hn03 and 1972Ch48, unless       
+#G otherwise specified.                                                   
+#G M$From G(THETA), measured  electron conversion coefficients and the    
+#G apparent band structure with both cascade (DJ=1) and crossover (DJ=2)  
+#G transitions, unless otherwise specified.                               
+#G MR$ From G(THETA) (1974Kr12).                                          
+#G                                                   x-ray data           
+#G      x-ray                measured                   deduced           
+#G                           intensity (1981Hn03)       intensity (RADLST)
+#G      ------              --------------------       -------------      
+#G      Lu-XKA2                 130 6                   86 4              
+#G      Lu-XKB1                 60 3                   49 2               
+#G                                                                        
+#P 970.1750  24  23/2-           160.44 D   6                             
+LU177 LU177 IT 0.0 1.3862016E7 1.0
+

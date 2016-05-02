@@ -1,0 +1,15 @@
+#150PR    252CF SF DECAY                2000HW03,2010HW03         13NDS    201306
+#  252CF SF DECAY                2000HW03,2010HW03         13NDS    201306
+#H TYP=FUL$AUT=S. K. Basu, A. A. Sonzogni$CIT=NDS 114, 435 (2013)$        
+#H CUT=1-Apr-2013$                                                        
+#  2010Hw03 state that cascades in coincidence with 96.0-keV transition   
+#  assigned to {+151}Pr in 2000Hw03 belong to {+150}Pr, instead, which    
+#  the authors state will be presented separately. Thus cascades          
+#  96.0-82.2-104.0-135.3 and 177.9-87.9-231.2-303.7-384.3- 460.9-528.5    
+#  in level scheme figure 1b of 2000Hw03 should belong to {+150}Pr.       
+#  1971Ho29 reports three gamma rays associated with {+150}Pr: 65.5, 74.2 
+#  and 109.3 keV. The last one was placed in the level scheme             
+#  following the adopted levels.                                          
+#P 0.0          0+                2.645 Y   8                             
+CF252 PR150 SF 0.0 0.0 1.0
+

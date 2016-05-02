@@ -1,0 +1,16 @@
+# 85SR    85SR IT DECAY (67.63 M)       1980ME06,1971VO06         14NDS    201408
+#  85SR IT DECAY (67.63 M)       1980ME06,1971VO06         14NDS    201408
+#H TYP=FUL$AUT=BALRAJ SINGH AND JUN CHEN$CIT=NDS 116, 1 (2014)$           
+#H CUT=31-Dec-2013$                                                       
+#  1980Me06: GELI detectors, measured G spectra.                          
+#  1971Vo06: SILI and GELI detectors, ICC spectrometer,                   
+#  measured conversion electron and G spectra, determined KC              
+#  and KC/(LC+MC).                                                        
+#G E,RI$From 1980Me06.                                                    
+#G $EKC values are from internal-conversion spectrometer data, normalized 
+#G to KC of several isotopes with known KC (1971Vo06).                    
+#G M,MR$From ce data in 1971Vo06                                          
+#L J$From Adopted Levels                                                  
+#P   238.78   4 1/2-             67.63 M   4                              
+SR85 SR85 IT 0.0 4057.7999999999997 0.866
+

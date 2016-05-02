@@ -1,0 +1,36 @@
+#103RH    103PD EC DECAY (16.991 D)                               09NDS    200910
+#  103PD EC DECAY (16.991 D)                               09NDS    200910
+#H TYP=FUL$AUT=D. DE FRENNE$CIT=NDS 110, 2081 (2009)$CUT=1-Mar-2009$      
+#  1969Gr13: {+103}Pd activity from {+102}Pd(n,|g), {+103}Rh(p,n),        
+#  {+103}Rh(d,2n). Measured: T{-1/2}, E|g, I|g, Ice, I-Auger. Deduced:    
+#  {+103}Rh levels, log| {Ift}, J|p, |a. Natural and enriched targets     
+#  1969Zo02: {+103}Pd activity from {+102}Rh(d,2n). Enriched target.      
+#  Measured: E|g, 7I|g, |g|g(|q), Ice, |a. Deduced: {+103}Rh levels, J|p  
+#  1976Ma37: {+103}Pd activity from {+102}Pd(n,|g). Enriched target.      
+#  Measured: E|g, I|g, X|g-coin. Deduced: {+103}Rh levels, log| {Ift},    
+#  J|p, |a, |d, B(E2), B(M1)                                              
+#  Others: 1954Ri09, 1955Sa16, 1955Av11, 1970NiZV, 1974HeYW               
+#G E,RI      From 1976Ma37, unless noted otherwise                        
+#G RI        IG(357G)/I(XK)=3.06 E-4 9 (1978Ne09), 2.99E-4 9 (1976Ma37);  
+#G OTHERS: 1954Ri09, 1955Sa16, 1955Av11, 1969Gr13                         
+#G           |a(K)exp=ce(K)(1969Gr13)/I|g(1976Ma37) normalized to         
+#G |a(K)exp(295|g)=0.0186 from {+103}Ru |b{+-} decay                      
+#G M$From 1976Ma37 if not noted otherwise                                 
+#L J         From adopted levels                                          
+#L E$Calculated from the given gammas using a least-squares procedure     
+#P 0.0         5/2+              16.991 D  19             543.1     8     
+PD103 RH103 beta+ 0.5431 1468022.4 1.0
++B beta+ 8.443000000000001E-4 0.001252
++G gamma 0.039748 6.83E-4
++G gamma 0.05329 2.7320000000000004E-7
++B beta+ 8.589E-4 0.0011382
++G gamma 0.29498 2.8003E-5
++B beta+ 8.476E-4 0.0012266
++G gamma 0.06240999999999999 1.03816E-5
++G gamma 0.31772 1.5026E-7
++G gamma 0.35745 2.2060899999999997E-4
++B beta+ 8.393000000000001E-4 0.0012900000000000001
++G gamma 0.24187999999999998 4.781E-9
++G gamma 0.44379 1.5026E-7
++G gamma 0.49707999999999997 3.9614000000000004E-5
+

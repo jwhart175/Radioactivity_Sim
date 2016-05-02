@@ -1,0 +1,32 @@
+# 47SC    47CA B- DECAY                 1987JU04,1969WO02,1966FR1407NDS    200705
+#  47CA B- DECAY                 1987JU04,1969WO02,1966FR1407NDS    200705
+#H TYP=FUL$AUT=T. W. BURROWS$CIT=NDS 108, 923 (2007)$CUT=20-Feb-2007$     
+#  1966Fr14 measured G's and BG-coincidences (SILI,GELI)                  
+#  1969Wo02 measured G's, GG-coin (NAI,GELI), and BG-coincidences         
+#  (SILI,GELI)                                                            
+#  Others: see 1995Bu05                                                   
+#B           1987Ju04 measured B's and BG-coincidences; BETA spectrometer,
+#B pc, NAI                                                                
+#B           Coincidences: from 1969Wo02 and 1968Fi04                     
+#B           See 1987Mi18 for calculations of ^GT matrix elements         
+#B IB        FROM INTENSITY BALANCE AT EACH STATE, EXCEPT AS NOTED.       
+#B E(A)      From 1987Ju04                                                
+#G           1969Wo02 did not observe (RI<2.E-5) the 1766 and 1836 gammas 
+#G suggested by 1968Fi04                                                  
+#G E         From 1969Wo02, except as noted                               
+#G M(A),MR(B),CC$FROM THE Adopted Gammas                                  
+#G RI(D)     From RI(41G)/RI(808G)=9.4E-4 9 (1969Wo02) and the decay      
+#G scheme                                                                 
+#G E(E)      From 1966Fr14                                                
+#G E(F)      From the Adopted Gammas; not observed in B- decay (evaluator)
+#G M(G),MR(H)$Mult from BG-CP(1297G) (1967Be20,1965Ma06) and DPI.         
+#G MR=-0.088 24 (1965Ma06) or +0.035 24 (1967Be20). Solutions with large  
+#G MR are also possible but considered unlikely.                          
+#L J,T(A)    From the Adopted Levels                                      
+#P 0.0          7/2-             4.536 D    3             1992.0    12    
+CA47 SC47 beta- 1.992 391910.39999999997 1
++B beta- 0.8189099999999999 0.27
++B beta- 0.49479 8.699999999999999E-4
++B beta- 0.24266 0.73
++B beta- 0.03127 3.7E-4
+

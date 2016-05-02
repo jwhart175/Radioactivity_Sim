@@ -1,0 +1,17 @@
+# 64MN    64MN IT DECAY (0.50 MS)       2005GAZR                  07NDS    200703
+#  64MN IT DECAY (0.50 MS)       2005GAZR                  07NDS    200703
+#H TYP=FUL$AUT=BALRAJ SINGH$CIT=NDS 108, 197 (2007)$CUT=31-Dec-2006$      
+#  2005GaZR: {+64}Mn produced in fragmentation of {+76}Ge{+30+} beam on a 
+#  {+58}Ni target. The LISE3 achromatic spectrometer used to separate     
+#  fragments. Transmitted nuclei were identified by three consecutive Si  
+#  detectors where two served for energy loss and time-of-flight          
+#  measurements while the last determined their residual energies.        
+#  Measured E(ce), ({+64}Mn fragment)(ce)(t), |g(ce) coin, Si and Ge      
+#  (Clover) detectors.                                                    
+#G E$ From ce spectrum                                                    
+#G M$ M2-E1 cascade is consistent with expected intensity of 135|g        
+#G in |g(ce) coin spectrum                                                
+#L J$ FROM adopted levels                                                 
+#P 175       10  (4+)             0.50 MS  5                              
+MN64 MN64 IT 0.0 0.0 1.0
+

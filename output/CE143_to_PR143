@@ -1,0 +1,85 @@
+#143PR    143CE B- DECAY                1989KU13                  12NDS    201203
+#  143CE B- DECAY                1989KU13                  12NDS    201203
+#H TYP=FUL$AUT=E. BROWNE, J. K. TULI$CIT=NDS 113, 715 (2012)$             
+#H CUT=31-May-2011$                                                       
+#  Measured: |g rays (1989Ku13,1982Ge03,1975Da20,1971Lu05);               
+#  |g|g coincidence (1975Da20,1971Lu05,1968Gr19);                         
+#  |g|g(|q) (1975Ch31,1974Ve07,1966Su06); |b|g                            
+#  (1977Ra18,1968Me01,1956Ma16); shape of |b{+-} (1977Ra18,1984Ve12); ce  
+#  (1967Ba23); |b|g(|q) (1968Ra31,1970Ra36); |b|g(|q,H)                   
+#  (1966Zm01,1964Ko15); |g|g(|q,H) (1974Ve07), |g|g(|q,H,t)               
+#  (1977Ne12). Others: 1966Ba17, 1966Ar14, 1965Ma43, 1964Si24, 1966Go20,  
+#  1963Ra07, 1963Gr38, 1983Ve11                                           
+#  Measured: E|b{+-}=540 {I30}, 738 {I13}, 950 {I30}, 1100 {I25} |b|g     
+#  (1968Me01); 1110 {I2} (statistical shape) |b|g (1977Ra18,1984Ve12).    
+#  Others: |?200 (6%), 500 {I30} (12%), 740 {I150} (5%), 1125 {I20} (40%),
+#  1400 {I20} (37%) (1956Ma16); see also 1952Ko27                         
+#  |b{+-} feeding was determined from balance of I|g for                  
+#  each level and I(293|g)=42.8% {I4} (1982Ge03)                          
+#G CC$ FROM BrIcc v2.2 (31-Mar-2008) 2008KiAA, "Frozen Orbitals" appr.    
+#G M         |a(K)exp were normalized to |a(K)(293|g)=0.0524 (M1+E2       
+#G |d=0.77 {I10}) with ce from 1971Ba40 and I|g from 1989Ku13; see also   
+#G 1967Ba23                                                               
+#G MR        Existing data on |g|g(|q) do not lead to unambiguous         
+#G conclusions on |d (see 1975Ch31,1974Ve07,1966Su06)                     
+#L J         Adopted values                                               
+#P 0.0         3/2-              33.039 H  6              1461.9    18    
+CE143 PR143 beta- 1.4619000000000002 118940.40000000001 0.428
++B beta- 1.4614 0.002
++B beta- 1.4 0.35
++G gamma 0.057356000000000004 0.27399999999999997
++B beta- 1.11 0.48200000000000004
++G gamma 0.293266 1.0
++G gamma 0.350619 0.0755
++B beta- 0.95 0.001
++G gamma 0.13974199999999998 0.0018
++G gamma 0.432999 0.0037099999999999998
++G gamma 0.49036799999999997 0.050499999999999996
++G gamma 0.55687 7.4E-4
++G gamma 0.61422 2.8000000000000003E-4
++B beta- 0.738 0.134
++G gamma 0.23155 0.048
++G gamma 0.37129 5.8E-4
++G gamma 0.664571 0.133
++G gamma 0.7219289999999999 0.126
++G gamma 0.38964 8.500000000000001E-4
++G gamma 0.6828200000000001 2.0E-4
++G gamma 0.72987 7.000000000000001E-5
++G gamma 0.7874 6.0E-5
++G gamma 0.3578 1.4E-5
++G gamma 0.49781 0.00104
++G gamma 0.79107 3.1E-4
++G gamma 0.1976 6.0E-5
++G gamma 0.44745 0.0014000000000000002
++G gamma 0.5872 0.00623
++G gamma 0.88046 0.0241
++G gamma 0.9378200000000001 6.1E-4
++G gamma 0.523 4.0E-5
++G gamma 0.9569 3.0E-5
++G gamma 1.0143 3.0E-5
++G gamma 0.12240000000000001 2.0E-4
++G gamma 0.2729 2.0E-4
++G gamma 0.3383 2.0E-5
++G gamma 0.44601999999999997 3.5000000000000005E-4
++G gamma 0.5699099999999999 1.2E-4
++G gamma 0.70959 2.0E-4
++G gamma 1.00285 0.0017599999999999998
++G gamma 1.06022 8.500000000000001E-4
++G gamma 0.41657 1.6E-4
++G gamma 0.8063400000000001 6.7E-4
++G gamma 0.43843 1.0E-4
++G gamma 0.67012 1.8999999999999998E-4
++G gamma 0.80998 7.3E-4
++G gamma 1.10325 0.0097
++G gamma 1.16058 5.6E-5
++G gamma 0.5945 5.0E-5
++G gamma 0.7677 7.400000000000001E-5
++G gamma 0.89147 1.8999999999999998E-4
++G gamma 1.03122 4.7E-4
++G gamma 1.32448 3.7000000000000005E-5
++G gamma 1.382 9.0E-6
++G gamma 0.6755 2.0E-5
++G gamma 0.9071 3.0E-5
++G gamma 1.04678 2.8000000000000003E-4
++G gamma 1.3400999999999998 7.2E-5
+

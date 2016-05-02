@@ -1,0 +1,79 @@
+#209PB    209TL B- DECAY                2000GR35,1998AR03,1989KO2615NDS    201506
+#  209TL B- DECAY                2000GR35,1998AR03,1989KO2615NDS    201506
+#H TYP=FUL$AUT=J. CHEN {+#} AND F.G. KONDEV$CIT=NDS 126, 373 (2015)$      
+#H CUT=30-Sep-2013$                                                       
+#  2000Gr35:{+209}Tl source was prepared from the decay of {+225}Ac at    
+#  JINR. |g-rays were detected with a 200 cm{+3} HPGe detector (FWHM=3.5  
+#  keV at E|g=1.33 MeV), a 60 cm{+3} Ge(Li) detector (FWHM=1.9 keV) and a 
+#  2 cm{+3} HPGe detector (FWHM=1.0 keV); |b-rays were detected with a    
+#  Si(Li) detector (FWHM=2.1 keV for the {+207}Bi K1063 line). Measured   
+#  E|g, I|g, |g|g-coin, I|b. Deduced levels, |g-branchings, |b-branchings,
+#  log {Ift}.                                                             
+#  1998Ar03, 1994Ar23 and 1993El08: {+209}Tl activities were produced from
+#  |a decays of {+213}Bi sources. |g-rays were detected with              
+#  spectrometers of a n-type HPGe detector of 17% relative efficiency and 
+#  a 30% p-type coaxial HPGe, FWHM=1.90 keV at 1.33 MeV. Measured E|g,    
+#  I|g, |g(t), |g|g-coin. Deduced levels, J|p, log {Ift}.                 
+#  1989Ko26: {+209}Tl was prepared from a {+229}Th sample                 
+#  following |a decays of {+213}Bi at the C.E.N. at Fontenay aux Roses.   
+#  |g-rays were detected with |g-spectrometers of a HPGe detector         
+#  (17%, FWHM=1.9 keV), a low-energy photon spectrometer (LEPS,           
+#  FWHM=190 eV at the Fe K{-|a} x-line, and a 8% Ge(Li) detector. Measured
+#  E|g, I|g, |g|g-coin. Deduced levels.                                   
+#  1981Di14: {+209}Tl was produced at ORNL. |g-rays were detected with a  
+#  90 cm{+3} Ge(Li) detector and a 200 cm{+3} HPGe detector. Measured E|g,
+#  I|g. Deduced levels, |g-branchings.                                    
+#  1980Da15: {+209}Tl activities were produced from the {+225}Ac source.  
+#  |g-rays were detected with a Ge(Li) detector. Measured E|g, I|g, |g(t).
+#  Deduced the decay-branching to the E=2032 level and T{-1/2} of the     
+#  E=2150 level.                                                          
+#  1977Vy02: {+209}Tl was produced at JINR. |g-rays were detected with    
+#  four Ge(Li) detectors and |b-rays were detected with a Si(Li) detector.
+#  Measured E|g, I|g. Deduced levels, branching ratios.                   
+#  1965Sa08: {+225}Ac sample. |g-rays were detected with scintillators.   
+#  Measured E|g, |g|g(t). Deduced levels, T{-1/2} from delayed            
+#  coincidence.                                                           
+#  1956St79: {+225}Ac sample. |b particles and |g-rays were detected      
+#  by scintillation detectors. Measured E|g, |b|g(t). Deduced levels,     
+#  T{-1/2}.                                                               
+#  1999GrZT: Measured E|g, I|g. Deduced levels, branching ratios.         
+#  2003ChZV: Measured E|g, I|g with HPGe detectors. Deduced levels,       
+#  branching ratios.                                                      
+#  Others: 1950Ha64, 1952Wa24, 1955Ma61, 1955St04, 1972Dz14, 1986He06,    
+#  1998MaZO, 2006Va23                                                     
+#G $XKA1=11.0 11, XKA2=6.5 7 (1972Dz14), relative to IG(465)=100          
+#G E(A),RI(A)$From 2000Gr35                                               
+#G E(B),RI(B)$From 1998Ar03                                               
+#G E(C)$The authors of 2000Gr35 state that these transitions may          
+#G belong to the decay of {+213}Bi nucleus rather than {+209}Tl.          
+#G E$ 2000Gr35 supersedes 1999GrZT. 1998Ar03 supersedes 1993El08 and      
+#G 1994Ar23                                                               
+#G RI$Normalized to IG(1567)=100.                                         
+#G M$From Adopted Gammas                                                  
+#B IB$From an intensity balance at each level, except for the             
+#B branch to the 2149 level, which is constrained by the                  
+#B condition SUMOF IB=100                                                 
+#L E$From a least-squares fit to |g-ray energies.                         
+#L J$From Adopted Levels                                                  
+#G CC$FROM BrIcc v2.3b (16-Dec-2014) 2008Ki07, "Frozen Orbitals" appr.    
+#G MR$IF NO VALUE GIVEN IT WAS ASSUMED MR=0.00 FOR E2/M1,                 
+#G MR=1.00 FOR E3/M2 AND MR=0.10 FOR THE OTHER MULTIPOLARITIES            
+#P 0.0           1/2+            2.162 M    7              3976     8     
++G gamma 0.4697 2.98989E-4
++G gamma 0.8605 0.002591238
++G gamma 0.89 0.001195956
++G gamma 0.9027999999999999 9.9663E-4
++G gamma 1.6610999999999998 9.9663E-4
++G gamma 1.6732 0.004783824
++G gamma 1.7817 3.9865200000000004E-4
++G gamma 2.0321 9.966300000000001E-6
++B beta- 0.7089 0.001
++B beta- 0.66 0.97
++B beta- 0.5911000000000001 0.0025
++B beta- 0.518 3.1E-4
++B beta- 0.5059 7.000000000000001E-4
++B beta- 0.3554 0.006999999999999999
++B beta- 0.2928 0.00644
++B beta- 0.18730000000000002 0.001
++B beta- 0.1778 0.00439
+

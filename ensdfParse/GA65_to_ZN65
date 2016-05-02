@@ -1,0 +1,155 @@
+# 65ZN    65GA EC DECAY                 1972DU03                  10NDS    201009
+#  65GA EC DECAY                 1972DU03                  10NDS    201009
+#H TYP=FUL$AUT=E. BROWNE, J. K. TULI$CIT=NDS 111, 2425 (2010)$            
+#H CUT=1-Aug-2009$                                                        
+#  1972Du03: {+64}Zn(d,n), E(d)=5 MeV; enriched {+64}Zn target and        
+#  mass-separated source; measured E|g, I|g and |g|g coincidences;        
+#  Ge(Li), Si(Li) and NaI                                                 
+#  1975Ch27: {+64}Zn(p,|g), E(p)=3 MeV, natural Zn target; measured E|g,  
+#  I|g and |g|g coincidences; Ge(Li) and NaI                              
+#  1972Nu02: {+64}Zn(p,|g){+65}Ga, E(p)=3.5 MeV; natural Zn target:       
+#  measured E|g, I|g and |g|g|+ coincidences; Ge(Li), NaI detectors.      
+#  1957Da07,1957Ma11: {+64}Zn(d,n), E(d)|?7 MeV; chemical separation;     
+#  measured E|g, I|g, |g|g and |b{++}|g coincidences, E|b+, I|b{++}, Ice  
+#  and T{-1/2} of {+65}Ga parent; magnetic spectrometer, scintillators    
+#  1975Ro25: {+64}Zn(d,n){+65}Ga, E(d)=5 MeV: measured delayed |b{++}|g,  
+#  ce|b+ and |g|g|+ coincidences; deduced {+65}Zn level lifetimes; E/|DE  
+#  telescope, Ge(Li), scintillators                                       
+#  1972Ba42: {+64}Zn(p,|g){+65}Ga, E(p)=3.8 MeV; enriched {+64}Zn target; 
+#  measured E|g, and I|g; Ge(Li)                                          
+#  1969Ba37: {+63}Cu(|a,2n){+65}Ga, E|a=25 MeV, evaporation separation;   
+#  measured Ice(K), Ice(L) and |a(K)/(|a(L)+|a(M)); |b spectrometer       
+#  1968Li05: measured E|g, I|g, |g|g coincidences and Ice(K)              
+#  1960Au03: measured E|g, I|g, prompt and delayed |g|g and |b{++}|g      
+#  coincidences                                                           
+#  1971Sh36: measured E|g, I|g and delayed |g|g coincidences              
+#  Others: 1953Cr15, 1970Ho13, 1971Dz03.                                  
+#  Note: unplaced |g's account for only 0.30% {I3} of the total |g        
+#  intensity.                                                             
+#                                                                         
+#  Measured |b{++} end-point energies from 1957Da07 are given below:      
+#                                                                         
+#         E(level)        E(|b{++})                                       
+#         --------        ------                                          
+#                                                                         
+#         0.0             2237 {I15}                                      
+#         115.1           2113 {I20}                                      
+#         866.9           1390 {I40}                                      
+#         1343.9          820 {I80}                                       
+#                                                                         
+#E IB        From I(|g+ce) imbalances at each level                       
+#E IE        From I(|g+ce) imbalances and theoretical |e/|b{++} ratios.   
+#G E         From 1972Du03, except as noted. |g placements are from       
+#G 1972Du03, 1975Ch27 and 1972Nu02.                                       
+#G E(E)      From adopted gammas                                          
+#G M,MR      From adopted gammas                                          
+#G RI        Relative intensity from 1972Du03, except as noted. Data from 
+#G 1975Ch27, 1972Nu02 are mostly in good agreement with 1972Du03          
+#G RI(B)     From 1975Ch27.                                               
+#L E         From a least-squares fit to E|g data.                        
+#L J         From adopted levels.                                         
+#P 0           3/2-              15.2 M    2              3254.9    9     
+GA65 ZN65 beta+ 3.2549 912.0 1.0
++G gamma 0.4795 2.1600000000000002E-4
++G gamma 1.2147000000000001 1.0800000000000001E-4
++G gamma 1.2478 4.8599999999999995E-5
++G gamma 1.368 7.02E-5
++G gamma 1.4089 3.186E-4
++G gamma 1.5025 9.719999999999999E-5
++G gamma 1.7401 1.3500000000000003E-4
++G gamma 1.8268 3.618E-4
++G gamma 1.8878 8.64E-5
++G gamma 2.0097 5.94E-5
++G gamma 2.0814 7.02E-5
++G gamma 2.0875 5.94E-5
++G gamma 2.1021 1.3500000000000003E-4
++G gamma 2.1637 1.4580000000000002E-4
++G gamma 2.2518000000000002 4.8599999999999995E-5
++G gamma 2.2898 7.02E-5
++G gamma 2.3430999999999997 1.188E-4
++G gamma 2.4043 2.4300000000000002E-4
++G gamma 2.4584 8.64E-5
++G gamma 2.4686 2.16E-5
++G gamma 2.526 3.24E-5
++G gamma 2.5708 4.32E-5
++G gamma 2.5839000000000003 1.944E-5
++G gamma 2.6275999999999997 2.322E-5
++G gamma 2.6357 4.8599999999999995E-5
++G gamma 2.6487 1.566E-5
++G gamma 2.6794000000000002 4.8599999999999995E-5
++G gamma 2.6856 1.944E-5
++G gamma 2.722 1.3500000000000001E-5
++G gamma 2.7924 4.8599999999999995E-5
++G gamma 2.8016 2.322E-5
++G gamma 2.8355 1.3500000000000003E-4
++G gamma 2.8531999999999997 1.3500000000000001E-5
++G gamma 2.8912 9.72E-6
++G gamma 2.9014 9.72E-6
++G gamma 2.9081 5.9400000000000016E-6
++G gamma 2.9411 5.9400000000000016E-6
++G gamma 2.9633000000000003 5.9400000000000016E-6
++G gamma 2.996 1.944E-5
++G gamma 3.0043 1.944E-5
++G gamma 3.0148 5.9400000000000016E-6
++G gamma 3.0256999999999996 1.242E-5
++G gamma 3.056 1.566E-5
++G gamma 3.1143 6.480000000000001E-6
++B beta+ 8.797000000000001E-4 0.0010199999999999999
++G gamma 0.05393 0.048600000000000004
++B beta+ 0.966 5.0E-4
++G gamma 0.061200000000000004 0.11394000000000001
++G gamma 0.11509 0.54
++B beta+ 0.9376 5.0E-4
++G gamma 0.092 0.003996
++G gamma 0.153 0.08856
++G gamma 0.2069 0.025380000000000003
++B beta+ 0.895 6.0E-4
++G gamma 0.6537000000000001 0.0075060000000000005
++G gamma 0.7148 0.0016200000000000001
++G gamma 0.7689 0.012690000000000002
++B beta+ 0.6377999999999999 0.0016
++G gamma 0.8647 4.536E-4
++B beta+ 0.5945 0.0019
++G gamma 0.6598999999999999 0.0012636000000000004
++G gamma 0.7517999999999999 0.08100000000000002
++G gamma 0.813 0.001134
++G gamma 0.8667999999999999 0.0012959999999999998
++B beta+ 0.5935 0.0019
++G gamma 0.7027 7.992E-4
++G gamma 0.7946 0.002646
++G gamma 0.8558 0.0017280000000000002
++G gamma 0.9097000000000001 0.005076000000000001
++B beta+ 0.5742999999999999 0.0021
++G gamma 0.9322 0.017928
++G gamma 0.9937 3.996E-4
++G gamma 1.0474 0.008964
++B beta+ 0.5127999999999999 0.0027
++G gamma 0.5748 2.7000000000000006E-4
++G gamma 1.137 0.0014526000000000003
++G gamma 1.2288 0.007128000000000001
++G gamma 1.2906 1.188E-4
++G gamma 1.3439 0.001998
++B beta+ 0.3822 0.004699999999999999
++G gamma 0.42219999999999996 5.562000000000001E-4
++G gamma 0.5601 8.100000000000001E-4
++G gamma 0.6027 6.642000000000001E-4
++G gamma 1.2629000000000001 7.614E-4
++G gamma 1.3547 0.007884
++G gamma 1.4159000000000002 0.002268
++G gamma 1.4698 6.642000000000001E-4
++B beta+ 0.3276 0.0058
++G gamma 1.524 4.8599999999999995E-5
++G gamma 1.5765 9.719999999999999E-5
++B beta+ 0.2817 0.0067
++G gamma 1.5877999999999999 4.8599999999999995E-5
++G gamma 1.8745999999999998 7.398000000000001E-4
++G gamma 1.9664000000000001 6.426E-4
++B beta+ 0.277 0.0068000000000000005
++G gamma 2.2121 0.0013338
++G gamma 2.3043 9.719999999999999E-5
++G gamma 2.3651999999999997 3.8879999999999996E-4
++G gamma 2.4196999999999997 3.24E-5
++G gamma 1.6854 1.8360000000000002E-4
++G gamma 2.4329 5.94E-5
++G gamma 2.5496 3.0240000000000003E-4
+

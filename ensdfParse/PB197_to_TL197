@@ -1,0 +1,96 @@
+#197TL    197PB EC DECAY (8 M)          1979COZI                  05NDS    200503
+#  197PB EC DECAY (8 M)          1979COZI                  05NDS    200503
+#H TYP=FUL$AUT=HUANG XIAOLONG, ZHOU CHUNMEI$CIT=NDS 104, 283 (2005)$      
+#H CUT=1-Jan-2002$                                                        
+#  Others: 1972Ho09, 1974Ne16, 1979Ra04, 1980Hi04.                        
+#  Sources produced by Re({+16}O,X) (1979CoZI,1989MeZZ),                  
+#  {+197}Au({+6}Li,xn)                                                    
+#  Measured E|g, I|g, |g|g-coin. and |a(K)exp with Ge(Li) and Si(Li),     
+#  respectively. Shell model analysis.                                    
+#  Source: E({+16}O)|?120 MeV on natural rhenium target for |?50 min;     
+#  on-line ms; mixed 8 min + 44 min activity                              
+#  close to equilibrium (1979CoZI)                                        
+#  Approximate level intensity balance obtained for partial               
+#  decay scheme; see drawings                                             
+#E IB,IE     From |b{++}/|e theoretical calculation and |g-ray            
+#E intensity imbalance, except I|e+I|b{++}(to g.s.)|?10 from systematics. 
+#E IE,IB     For absolute intensity per 100 decays, multiply by           
+#E 1.0                                                                    
+#G M         Deduced from |a(K)exp measurements                           
+#G MR        From |a(K)exp, except as noted.                              
+#G           |a(K)exp=ce(K)/I|g normalized to |a(K)(695.6|g)=0.0103 (E2   
+#G theory)                                                                
+#L E         Five tentative states in                                     
+#L 2-MeV region suggested by 1979CoZI                                     
+#L E         From decay scheme and                                        
+#L |g's by using least-squares fit to data                                
+#L J         From adopted levels                                          
+#P 0.0         3/2-              8 M       2              3592      17    
+PB197 TL197 beta+ 3.592 480.0 1.0
++B beta+ 1.1593 0.0178
++B beta+ 0.9877 0.009000000000000001
++B beta+ 0.822 0.0046
++B beta+ 0.6487 0.0029
++B beta+ 0.6043 0.0013
++B beta+ 0.5936 0.0014000000000000002
++B beta+ 0.4521 3.7999999999999997E-4
++B beta+ 0.4338 9.1E-4
++B beta+ 0.4268 3.7999999999999997E-4
++B beta+ 0.42169999999999996 6.8E-4
++B beta+ 0.3449 6.4E-5
++B beta+ 0.3428 2.8000000000000003E-4
++B beta+ 0.2914 3.1E-5
++B beta+ 7.991000000000001E-4 0.0015
++B beta+ 7.96E-4 0.00153
+
+#197TL    197PB EC DECAY (43 M)         1979COZI                  05NDS    200503
+#  197PB EC DECAY (43 M)         1979COZI                  05NDS    200503
+#H TYP=FUL$AUT=HUANG XIAOLONG, ZHOU CHUNMEI$CIT=NDS 104, 283 (2005)$      
+#H CUT=1-Jan-2002$                                                        
+#  Others: 1957An53, 1957An54, 1972Ho09, 1974Ne16, 1978Li10, 1980Hi04     
+#  Source: E({+16}O)|?120 MeV on natural rhenium target for |?50 min;     
+#  on-line ms; mixed 10-min + 44-min                                      
+#  activity close to equilibrium (1979CoZI)                               
+#  Approximate level I(|g+ce) balance obtained; see drawings              
+#E           I|b,I|e: from |b{++}/|e theoretical calculations and |g-ray  
+#E intensity imbalance.                                                   
+#G           E|g, I|g, |g|g-coin, I(ce) measured (1979CoZI) semi          
+#G RI        Relative intensity normalized to I|g(387.72|g)=100 {I9}      
+#G M         |a(K)exp=ce(K)/I|g normalized to |a(K)(695.6|g)=0.0103 (E2   
+#G theory)                                                                
+#G M         Deduced from |a(K)exp, except as noted                       
+#G MR        From |a(K)exp (1979CoZI), except as noted                    
+#L E         From decay scheme                                            
+#L and |g's by using least-squares fit to data                            
+#L           J|p,T{-1/2}: from adopted levels                             
+#L BAND(A)   REGULAR DIPOLE BAND 1. DJ=1 SEQUENCE POPULATED UP TO 17/2-   
+#P 319.31      13/2+             43 M      1              3592      17    
+PB197 TL197 beta+ 3.592 2580.0 1.0
++B beta+ 7.945E-4 0.00154
++B beta+ 1.0166 0.02
++B beta+ 0.8592000000000001 0.0074
++B beta+ 0.7236 0.0076
++B beta+ 0.6891 0.0077
++B beta+ 0.6407999999999999 0.0078000000000000005
++B beta+ 0.6143 0.0078000000000000005
++B beta+ 0.5414 0.0079
++B beta+ 0.5051 0.0079
++B beta+ 0.4392 0.0079
++B beta+ 0.42119999999999996 0.0079
++B beta+ 0.41919999999999996 0.0079
++B beta+ 0.4142 0.0079
++B beta+ 0.42160000000000003 0.0078000000000000005
++B beta+ 0.4042 0.0079
++B beta+ 0.4121 0.0078000000000000005
++B beta+ 0.3693 0.0079
++B beta+ 0.3419 0.0079
++B beta+ 0.32280000000000003 0.0079
++B beta+ 0.2853 0.0079
++B beta+ 0.2742 0.0079
++B beta+ 0.25630000000000003 0.0079
++B beta+ 7.99E-4 0.00151
++B beta+ 7.987E-4 0.00151
++B beta+ 7.982E-4 0.00151
++B beta+ 7.974E-4 0.0015199999999999999
++B beta+ 7.938E-4 0.00155
+

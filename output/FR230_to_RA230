@@ -1,0 +1,81 @@
+#230RA    230FR B- DECAY                1987KU04                  12NDS    201209
+#  230FR B- DECAY                1987KU04                  12NDS    201209
+#H TYP=FUL$AUT=E. BROWNE, J. K. TULI$CIT=NDS 113, 2113 (2012)$            
+#H CUT=1-May-2012$                                                        
+#  Modified by E. Browne (May 31, 2007).                                  
+#  The 230FR B- decay scheme is presented as given in                     
+#  1987Ku04 based on coincidence data and G-ray energy adjustments        
+#  between levels. Forty six G rays have not been placed in the decay     
+#  scheme. Although a number of them can be placed by considering         
+#  differences between G-ray energies (see table below), since            
+#  coincidence data are not available, such placements could not          
+#  be confirmed; thus these transitions have been left unplaced           
+#  in the decay scheme.                                                   
+#  The sum of photon intensities of unplaced transitions                  
+#  is 203 43 (relative to I(129.1G)=100) which amounts to                 
+#  22 5 percent of B- decay, when the normalization factor                
+#  of 0.114 is used.                                                      
+#  If J(230FR)=3, as suggested by 1987Ku04 (from apparent BETA            
+#  feedings to the 2+, 4+ states in 230RA), G-ray intensity imbalances    
+#  at 6+, 5+ (or 5-), and 1- levels suggest that these levels must        
+#  be populated by additional G rays from higher-energy levels. Besides   
+#  the unplaced G rays, some additional (not yet observed)                
+#  low-energy and highly converted G-ray transitions between rotational   
+#  band states could also affect the BETA feedings that the present       
+#  decay scheme yields.                                                   
+#  No B- delayed fission from 230FR decay (LT 3E-4%) (1990Me13).          
+#                                                                         
+#  Some examples of possible additional G-ray placements:                 
+#                                                                         
+#                   deexciting                    final                   
+#     E(new level)     E(G)        RI          level (state)              
+#     -----------   ---------   --------     ------------------           
+#      1512.9        633.3 2      5.2 5       879.8  (5- state)           
+#                   1326.1 3      2.3 4       186.5  (4+ state)           
+#      1802.0       1615.8 5      4.0 6       186.5  (4+ state)           
+#                   1744.4 5      4.2 4        57.4  (2+ state)           
+#      1817.4#      1049.2 3     10.2 7       710.9  (1- state)           
+#                   1106.5 3      4.3 5       768.4  (3- state)           
+#      1106.5#      1049.2 3     10.0 7        57.4  (2+ state)           
+#                   1106.5 3      4.3 5         0.0  (0+ GS)              
+#      1924.2       1545.4 5      6.9 7       379.0  (6+ state)           
+#                   1737.5 5      4.7 5       186.5  (4+ state)           
+#      1980.2       1601.3 5      2.3 4       379.0  (6+ state)           
+#                   1783.7 5      2.6 4       186.5  (4+ state)           
+#      2041.5       1330.2 5      1.8 5       710.9  (1- state)           
+#                   2041.5 5      3.1 3         0.0  (0+ GS)              
+#      2070.6       1883.9 5      3.8 6       186.5  (4+ state)           
+#                   2013.7 5      6.8 7        57.4  (2+ state)           
+#      2373.5a      1605.1 5      3.4 5       710.9  (1- state)           
+#                   1662.6 5      4.2 6       768.4  (3- state)           
+#      1662.6a      1605.1 5      3.4 5        57.4  (2+ state)           
+#                   1662.6 5      4.2 6         0.0  (0+ GS)              
+#                                                                         
+#            # alternative placements for the 1049.2- and 1106.5-KEV G's  
+#            a alternative placements for the 1605.1- and 1662.6-KEV G's  
+#                                                                         
+#  Delayed fission was searched by 1990Me13; an upper limit of 3E-6       
+#  for the delayed-fission probability was obtained.                      
+#B IB        Deduced from G-ray intensity balance at each level.          
+#B Only statistical uncertainties are given. A possible systematic        
+#B error due to the total intensity of G rays unplaced in the decay       
+#B scheme may be significant.  Thus no uncertainties associated with      
+#B LOGFT values are given here.                                           
+#G E         From 1986KuZL and 1987Ku04.                                  
+#G RI        Relative photon intensities are from 1986KuZL. Transition    
+#G intensities are shown in 1987Ku04 on their decay scheme.               
+#G M         Assumed from the level scheme; they were not                 
+#G determined experimentally.                                             
+#G M(M)      Branching ratios of G rays to the K=0 GS band                
+#G imply that any possible M1 admixture is small (M1 transitions          
+#G from a K=2 band to the K=0 band would be K forbidden). See             
+#G 1987Ku04 for comparison of experimental and theoretical                
+#G branching ratios.                                                      
+#L J         Assignments are those in 1987Ku04 from analogy to levels     
+#L in neighboring nuclei, and from G-ray transition decay pattern.        
+#L BAND(A)     GS BAND.                                                   
+#L BAND(B)     K=0 OCTUPOLE-VIBRATIONAL BAND.                             
+#L BAND(C)     K=2 GAMMA-VIBRATIONAL BAND.                                
+#P 0.0                           19.1 S    5              4983      32    
+FR230 RA230 beta- 4.983 19.1 0.114
+

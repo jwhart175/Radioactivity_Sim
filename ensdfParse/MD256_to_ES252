@@ -1,0 +1,66 @@
+#252ES    256MD A DECAY                 1993Mo18,2000Ah02         05NDS    200601
+#  256MD A DECAY                 1993Mo18,2000Ah02         05NDS    200601
+#H TYP=FUL$AUT=N. NICA$CIT=NDS 106, 813 (2005)$CUT=21-Mar-2005$           
+#  Q(|a)({+256}Md)=7856 {I16}, was deduced in this evaluation             
+#  assuming the 7733-keV |a decays to the {+252}Es g.s.                   
+#  T{-1/2}({+256}Md)=77 min {I2} is adopted from the measured             
+#  half-lives: 78.1 min {I18} (1993Mo18), 77 min {I5} (1971Ho16), 75 min  
+#  {I4} (1970Fi12).                                                       
+#  The |a branching for {+256}Md is adopted as 9.2% {I7} from the         
+#  average of branchings determined: 8.5% {I8} (1970Fi12), 9.9% {I5}      
+#  (1971Ho16). Later measurements by 1993Mo18 yielded 11% {I3}, in        
+#  agreement (within its uncertainty) with the earlier measurements.      
+#  A total number of 8 |a-ray energies were measured by 2000Ah02          
+#  (5), 1993Mo18 (7), 1971Ho16 (7) and 1970Fi12 (6).                      
+#  2000Ah02 and 1970Fi12 are in good agreement,                           
+#  and so are also 1993Mo18 and 1971Ho16. However in between the two      
+#  groups the measured E(|a) differ systematically from a few keV for     
+#  the lowest energies, and up to about 100 keV for the highest energies, 
+#  which is more than the reported uncertainties. 2000Ah02 show that the  
+#  discrepancies are due to differences in the calibration standards used 
+#  and by the fact that the |a spectra of 1993Mo18 were measured          
+#  over a large solid angle of |?30% of 4|p and hence they contained      
+#  large amounts of |a-electron sum counts, which distorted the spectral  
+#  shapes.                                                                
+#  2000Ah02 used 1991Ry01 recommended energies for |a-energy calibration  
+#  and were presumably less affected by distorting coincidence summing.   
+#  They also report 5 |g rays measured with Ge(Li) detector               
+#  in coincidence with the most intense                                   
+#  |a groups from {+256}Md decay, which are not placed in the level       
+#  scheme of {+252}Es. However, except for the |a-energy distorted        
+#  spectrum, 1993Mo18 contain more detailed information about the         
+#  |a decay of {+256}Md.                                                  
+#  The evaluator used the 2000Ah02 and 1993Mo18 |a data and               
+#  used the precisely measured |g rays to test the |a-deduced level       
+#  structure. The best match was obtained using linear regression between 
+#  three |a energies common to both sets (R{+2}=1.0000), and transforming 
+#  the |a energies of 1993Mo18 through the regression line into           
+#  2000Ah02-like values. The agreement is better than taking the average  
+#  of |a energies from 2000Ah02 and 1993Mo18, and much better then using  
+#  each set of |a energies alone.                                         
+#G $Es K x-rays measured by 2000Ah02: K|a{-1}| = 118.0 keV,               
+#G K|a{-2}| = 112.5 keV, K|b{-1}'| = 132.5 keV, K|b{-2}'| = 137.0 keV     
+#A E         E(|a) measured by 1993Mo18 and converted to                  
+#A the energy scale of 2000Ah02 by linear regression.                     
+#A Earlier measurements: 1971Ho16, 1970Fi12, 1965Si14.                    
+#A HF        r{-0}({+252}Es)=1.488 {I4} is used in calculations.          
+#A IA(P)     Weighted average from 2000Ah02 and 1993Mo18.                 
+#A IA(Q)     From 1993Mo18; I|a not measured by 2000Ah02.                 
+#A IA(R)     The sum of I|a for 7206|a and 7310|a from 1993Mo18 was       
+#A redistributed in between these two transitions using their             
+#A weighted ratio from 2000Ah02 and 1971Ho16.                             
+#G E         Measured by 2000Ah02 with a 25 cm{+3} Ge(Li) detector.       
+#G E(M)      Measured in coincidence with E(|a)=7142 keV.                 
+#G E(N)      Measured in coincidence with E(|a)=7206 keV.                 
+#L E         Calculated from E|a's by assuming that the 7733-keV |a       
+#L feeds the {+252}Es g.s.                                                
+#P 0.0          (1-)             77 M      2               7856     16    
++A alpha 7.733 0.01
++A alpha 7.642 0.04
++A alpha 7.578 0.015
++A alpha 7.503 0.025
++A alpha 7.429 0.045
++A alpha 7.31 0.03
++A alpha 7.206 0.64
++A alpha 7.142 0.2
+

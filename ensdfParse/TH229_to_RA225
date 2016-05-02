@@ -1,0 +1,82 @@
+#225RA    229TH A DECAY                                           09NDS    200905
+#  229TH A DECAY                                           09NDS    200905
+#H TYP=FUL$AUT=A. K. Jain (a), R. Raut (b), J. K. Tuli$                   
+#H CIT=NDS 110, 1409 (2009)$CUT=1-Dec-2008$                               
+#  2000Ga52: Studied |a decay of {+229}Th populating the levels of        
+#  {+225}Ra. It improves upon the results of same experiment reported     
+#  earlier in 1998Ga48. Two HPGe detectors were used. Normalization of    
+#  intensities is again relative to I(193|g). The earlier work of 1987He28
+#  has been supplemented and improved.                                    
+#G E$From 1970Tr04, 1987He28 and 2000Ga52. Other                          
+#G measurements: 1955St04, 1959Go87, 1960En09, 1981Di14, 1983Ra01.        
+#G RI$Relative photon intensity, measured by 2000Ga52 and 1987He28. Other 
+#G measurements: 1970Tr04, 1981Di14, 1983Ra01.                            
+#G M$From ce data of 1970Tr04 and from I|g, (|a)(ce) data of              
+#G 1987He28 and 2000Ga52. Multipolarities in brackets are from level      
+#G scheme; they were not determined experimentally.                       
+#G $ce intensities quoted here are from 1970Tr04; they have been          
+#G renormalized such that |a(K)exp(193|g)=2.033 (a multiplication factor  
+#G of 1.028 is used for Ice's listed by 1970Tr04).                        
+#G E(S),RI(T)$Multiply placed, intensities not divided                    
+#G           |a|g: 1970Tr04, 1987He28.                                    
+#G           |g|g, |gce, (ce)(ce): 1970Tr04, 1987He28.                    
+#G           |a|g(t):                                                     
+#G           (5054|a)(35-keV ce)(t): T{-1/2}(31.6 level)=2.1 ns {I5} (1985
+#G Is03),                                                                 
+#G           (4845|a)(15-25 keV ce)(t): T{-1/2}(25.4 level)=0.88 ns {I4} (
+#G 1985Is03).                                                             
+#G                                                                        
+#G           X rays (intensities relative to I|g(193|g)=4.3):             
+#G           I(K x rays)=49.3 {I20} (1987He28)                            
+#G           I(K x rays)=38.9 {I32} (1983Ra01)                            
+#G           I(L x rays)=90.0 {I24} (1983Ra01).                           
+#A E$From 1970Ba20, 1976BaZZ and 1987He28 except where otherwise noted.   
+#A Energies measured by 1970Ba20 have been increased by 0.5 keV, as       
+#A recommended by 1979Ry03, because of change in calibration energy.      
+#A Energies given by 1987He28 were calibrated with the strongest {+229}Th 
+#A |a group: E|a=4845 {I2}, given by 1970Ba20 as E|a=4844.7 {I12}. Other  
+#A measurements: 1959Go87, 1960En09, 1961Ko11.                            
+#A IA$From 1970Ba20, 1976BaZZ and 1987He28, unless otherwise noted. Other 
+#A measurements: 1959Go87, 1960En09, 1961Ko11.                            
+#A HF        r{-0}({+225}Ra)=1.5326 is used in calculations.              
+#A E(H)      |a was not observed by 1987He28.                             
+#L J         Based on transition multipolarities and 5/2+ assignment      
+#L for the 236.25-keV level (unhindered |a transition from {+229}Th).     
+#P  0.0         5/2+                7340 Y 160             5168.1   12    
++G gamma 0.1468 1.6416E-4
++A alpha 5.078 5.0E-4
++A alpha 5.053 0.066
++A alpha 5.047 0.002
++A alpha 5.036 0.0024
++A alpha 5.023 8.999999999999999E-5
++A alpha 5.009 9.0E-4
++G gamma 0.0378 3.283200000000001E-5
++A alpha 4.9785 0.0317
++A alpha 4.9675 0.059699999999999996
++A alpha 4.93 0.0016
++G gamma 0.0299 2.052E-5
++G gamma 0.09473000000000001 0.0026676
++A alpha 4.901 0.102
++A alpha 4.878 3.0E-4
++A alpha 4.865 3.0E-4
++A alpha 4.861 0.0028000000000000004
++A alpha 4.852 3.0E-4
++A alpha 4.8453 0.562
++A alpha 4.838 0.05
++A alpha 4.833 0.0029
++A alpha 4.8146 0.09300000000000001
++A alpha 4.809 0.0022
++A alpha 4.7978000000000005 0.015
++G gamma 0.03304 1.026E-4
++A alpha 4.761 0.01
++A alpha 4.754 5.0E-4
++A alpha 4.748 5.0E-5
++A alpha 4.737 1.0E-4
++A alpha 4.694 0.0012
++A alpha 4.69 0.0023
++A alpha 4.667 1.0E-5
++A alpha 4.608 5.0E-4
++A alpha 4.599 2.0E-4
++A alpha 4.484 3.0E-4
++A alpha 4.478 5.0E-5
+

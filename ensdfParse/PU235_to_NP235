@@ -1,0 +1,27 @@
+#235NP    235PU EC DECAY                1973JA03                  14NDS    201411
+#  235PU EC DECAY                1973JA03                  14NDS    201411
+#H TYP=FUL$AUT=E. BROWNE, J. K. TULI$CIT=NDS 122, 205 (2014)$             
+#H CUT=1-Feb-2014$                                                        
+#E           B+LT 0.01% from limit on G+- (1973JA03)                      
+#G CC$ FROM BrIcc v2.2 (31-Mar-2008) 2008KiAA, "Frozen Orbitals" appr.    
+#G           XKA1=34% 5, XKA2=22% 3, XKB=17% 3; XL=39% 5, calculated      
+#G by evaluator using the computer program RADLST.                        
+#G E         From 1973JA03. Others: 1996GU11, 1971KE22, 1971GO01.         
+#G           XK and XL intensities not reported by 1973JA03               
+#L           The levels at 756, 779 and 819 were suggested in 1973JA03    
+#L that they belong to the 3/2[521] rotational band; however, (3HE,D)     
+#L and (A,T) results suggest that this bandhead is at 565 KEV. Analogy    
+#L with 231TH B- decay suggests that the main EC branches should feed the 
+#L 3/2[651] and 3/2[532] rotational bands in 235NP, in addition to the    
+#L well established 5/2[642] and 5/2[523] rotational bands.               
+#L J$From adopted levels                                                  
+#P 0           (5/2+)            25.3 M    5              1139      21    
+PU235 NP235 beta+ 1.139 1518.0 0.99997
++B beta+ 7.549E-4 0.0018
++B beta+ 7.538E-4 0.00181
++B beta+ 7.532E-4 0.00182
++B beta+ 6.61E-4 0.00246
++B beta+ 6.490000000000001E-4 0.00254
++B beta+ 6.23E-4 0.00272
++B beta+ 4.3E-4 0.004
+

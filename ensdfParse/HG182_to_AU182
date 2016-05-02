@@ -1,0 +1,32 @@
+#182AU    182HG EC DECAY (10.83 S)      2001IB02                  ENSDF    201507
+#  182HG EC DECAY (10.83 S)      2001IB02                  ENSDF    201507
+#H TYP=FUL$AUT=BALRAJ SINGH$CIT=ENSDF$CUT=15-JUL-2015$                    
+#H TYP=FUL$AUT=BALRAJ SINGH AND JOEL C. ROEDIGER$CIT=NDS 111, 2081 (2010)$
+#H CUT=15-Jul-2010$                                                       
+#  2001Ib02: measured E|g, I|g, |g|g, ce, ce(|g)-coin, |g|g(t),           
+#  (ce)(|g)(t) using a Si(Li) electron detector, a coaxial HPGe detector, 
+#  a planar HPGe X-ray detector and a large Ge detector.                  
+#  Others: 1974Ca28, 1970FiZZ. All the ten |g rays from 103.5 to          
+#  542.9 keV reported by 1974Ca28 are confirmed by 2001Ib02               
+#  {+182}Hg |a decay has been studied by 1993Wa03 and three |a groups     
+#  deexciting to g.s.; 171, 2+ and 422, 0+ levels in {+178}Pt are         
+#  reported at 5867 {I5}, 5689 {I7}, 5446 {I7}                            
+#E TI,LOGFT$The values given here are considered by the evaluators as     
+#E apparent |e+|b{++} feedings due to a large energy gap of about 4 MeV   
+#E between the Q(|e) value and the uppermost known level at 543. The      
+#E associated log| {Ift} values should be considered as approximate. The  
+#E |e+|b{++} feedings quoted by 2001Ib02 in their table 2 are             
+#E consistently higher than the values given here since 2001Ib02 did not  
+#E take into account the 15% |a decay branch of {+182}Hg decay            
+#G M$From ce data (2001Ib02)                                              
+#G CC$FROM BrIcc v2.3b (16-Dec-2014) 2008Ki07, "Frozen Orbitals" appr.    
+#L E$From least-squares fit to E|g data                                   
+#L J$From adopted levels                                                  
+#P 0.0         0+                  10.83 S 6              4724      23    
++B beta+ 8.075E-4 0.00145
++B beta+ 1.626 0.00483
++B beta+ 1.612 0.00488
++B beta+ 1.531 0.0051600000000000005
++B beta+ 1.517 0.00521
++B beta+ 1.506 0.00525
+

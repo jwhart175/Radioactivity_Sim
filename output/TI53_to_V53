@@ -1,0 +1,16 @@
+# 53V     53TI B- DECAY                 1977PA01                  09NDS    200910
+#  53TI B- DECAY                 1977PA01                  09NDS    200910
+#H TYP=FUL$AUT=HUO JUNDE$CIT=NDS 110,2689 (2009)$CUT=31-Mar-2007$         
+#  {+53}Ti produced in {+48}Ca({+7}Li,pn) at E=14-20 MeV, measured        
+#  T{-1/2}, E|g, I|g, E|b, |g|g coin, |b|g coin.                          
+#L J         Adopted values                                               
+#P 0.0         (3/2)-            32.7 S    9              5.02E+3   10    
+TI53 V53 beta- 5.02 32.7 0.398
++G gamma 0.1276 1.15
++G gamma 0.2284 1.0
++B beta- 3.127 0.37
++G gamma 1.001 0.113
++B beta- 2.423 0.15
++B beta- 2.217 0.111
++G gamma 2.702 0.024
+

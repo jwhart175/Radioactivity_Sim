@@ -1,0 +1,193 @@
+#121XE    121CS EC DECAY (155 S)        1991GE02                  10NDS    201006
+#  121CS EC DECAY (155 S)        1991GE02                  10NDS    201006
+#H TYP=FUL$AUT=S. OHYA$CIT=NDS 111, 1619 (2010)$CUT=20-Jan-2009$          
+#  1991Ge02: La(p,spall) E=600 MeV, on-line ms; measured |g, |g|g,        
+#  |g|g(t). La({+3}He,spall) E=280 MeV on-line ms; measured ce with Si    
+#  detector with magnetic |b{++} shield, |b{++} with 4|p|b plastic scin.  
+#  Authors proposed level scheme in the mixed decays of {+121}Cs (155 s)  
+#  and {+121}Cs (122 s) and also showed selected levels in the decay of   
+#   {+121}Cs (122 s).                                                     
+#  1981So06: {+124}Xe(p,4n) E=52 MeV, E|g, I|g, |g|g, E|b{++}, I|b{++},   
+#  x/|g ratio, deduced decay scheme.                                      
+#  1984PaZZ: measured Q(|b{++})=5.21 MeV {I22} from shape-fitting         
+#  procedure (a different method from F-K analysis)                       
+#  1975We23: La(p,3pxn) E=600 MeV ms; measured |g in coincidence with     
+#  |b{++}                                                                 
+#  Decay scheme is from evaluator based on that in 1991Ge02.              
+#  Evaluator assumed no direct |e+|b{++} feeding from {+121}Cs |e         
+#  decay (155 s) to the levels at 179.44 keV and 196.081 keV which are    
+#  strongly fed from {+121}Cs 9/2(+) state, and also assumed no direct    
+#  |e+|b{++} feeding from {+121}Cs |e decay (122 s) to the levels at      
+#  153.95 keV, 239.74 keV, 264.5 keV, 427.12 keV and 449.85 keV which are 
+#  strongly fed from {+121}Cs 3/2(+) state. See {+121}Cs |e decay (122 s).
+#  The decay scheme of {+121}Cs g.s. |e+|b{++} decay is still tentative   
+#  due to similarity of half-lives of g.s. and the isomeric state         
+#L E         E(levels) are based on a least-squares fit to E(|g's)        
+#L J         From adopted levels                                          
+#L T         From |g|g(t)                                                 
+#G CC        Normalized to |a(K)exp=0.303 for 153.9|g (E2 theory)         
+#G RI$Evaluator has removed the contribution from {+121}Cs |e decay       
+#G (122 s). Evaluator assumed no direct |e+|b{++} feeding from {+121}Cs |e
+#G decay (155 s) to the levels at 179.44 keV and 196.081 keV which are    
+#G strongly fed from {+121}Cs 9/2(+) state, and also assumed no direct    
+#G |e+|b{++} feeding from {+121}Cs |e decay (122 s) to the levels at      
+#G 153.95 keV, 239.74 keV, 264.5 keV, 427.12 keV and 449.85 keV which are 
+#G strongly fed from {+121}Cs 3/2(+) state. See {+121}Cs |e decay (122 s) 
+#G           Unplaced |g's are not assigned to g.s. or                    
+#G isomeric state                                                         
+#P 0           3/2(+)              155 S   4              5372      18    
+CS121 XE121 beta+ 5.372 0.0 0.033
++G gamma 0.0593 0.04
++G gamma 0.3372 0.07
++G gamma 0.36169999999999997 0.06
++G gamma 0.44539999999999996 0.04
++G gamma 0.6467999999999999 0.12
++G gamma 0.6748 0.07
++G gamma 0.6905 0.08
++G gamma 0.7978999999999999 0.08
++G gamma 0.8419 0.07
++G gamma 0.8505 0.1
++G gamma 0.8672000000000001 0.06
++G gamma 0.8812000000000001 0.05
++G gamma 0.8916000000000001 0.07
++G gamma 0.9002 0.08
++G gamma 0.9054 0.04
++G gamma 0.9143 0.1
++G gamma 0.9226 0.07
++G gamma 0.9366 0.12
++G gamma 0.9492 0.08
++G gamma 0.9863 0.06
++G gamma 1.0603 0.08
++G gamma 1.0767 0.08
++G gamma 1.115 0.07
++G gamma 1.1402999999999999 0.3
++G gamma 1.1798 0.05
++G gamma 1.2552 0.06
++G gamma 1.2764000000000002 0.1
++G gamma 1.3962 0.07
++G gamma 1.4165 0.1
++G gamma 1.4327 0.4
++G gamma 1.458 0.08
++G gamma 1.4977 0.08
++G gamma 1.5110999999999999 0.08
++G gamma 0.1539 4.55
++G gamma 0.1794 0.81
++G gamma 0.196 0.74
++G gamma 0.0859 0.62
++G gamma 0.2732 0.05
++G gamma 0.32680000000000003 0.11
++G gamma 0.6822999999999999 0.07
++G gamma 0.3932 0.07
++G gamma 0.4566 0.1
++G gamma 0.5645 0.08
+
+#121XE    121CS EC DECAY (122 S)        1991GE02                  10NDS    201006
+#  121CS EC DECAY (122 S)        1991GE02                  10NDS    201006
+#H TYP=FUL$AUT=S. OHYA$CIT=NDS 111, 1619 (2010)$CUT=20-Jan-2009$          
+#  1991Ge02: La(p,spall) E=600 MeV, on-line ms; measured |g, |g|g,        
+#  |g|g(t). La({+3}He,spall) E=280 MeV on-line ms; measured ce with Si    
+#  detector with magnetic |b{++} shield, |b{++} with 4|p|b plastic scin.  
+#  Authors proposed level scheme in the mixed decays of {+121}Cs (155 s)  
+#  and {+121}Cs (122 s)                                                   
+#  1981So06: {+124}Xe(p,4n) E=52 MeV, E|g, I|g, |g|g, E|b{++}, I|b{++},   
+#  x/|g ratio, deduced decay scheme.                                      
+#  1984PaZZ: measured Q(|b{++})=5.21 MeV {I22} from shape-fitting         
+#  procedure (a different method from F-K analysis)                       
+#  1975We23: La(p,3pxn) E=600 MeV ms; measured |g in coincidence with     
+#  |b{++}                                                                 
+#  1996Os04:measured Q+_ =5.40 MeV {I4} with pure Ge detectors            
+#  Decay scheme is from evaluator based on that in 1991Ge02.              
+#  (155 s). Evaluator assumed no direct |e+|b{++} feeding from {+121}Cs |e
+#  decay (122 s) to the levels at 153.95 keV, 239.74 keV, 264.5 keV,      
+#  427.12 keV and 449.85 keV which are strongly fed from {+121}Cs 3/2(+), 
+#  and also assumed no direct |e+|b{++} feeding to the levels at          
+#  179.44 keV and 196.081 keV which are strongly fed from {+121}Cs        
+#  9/2(+) state. See {+121}Cs |e decay (155 s).                           
+#  The decay scheme of {+121}Cs |e decay (122 s) is still tentative due to
+#  similarity of half-lives of g.s.(155 s) and isomeric state (122 s)     
+#P 68.5      3 9/2(+)              122 S   3              5372      18    
+CS121 XE121 beta+ 5.372 0.0 0.0314
++G gamma 0.0593 0.04
++G gamma 0.3372 0.07
++G gamma 0.36169999999999997 0.06
++G gamma 0.44539999999999996 0.04
++G gamma 0.6467999999999999 0.12
++G gamma 0.6748 0.07
++G gamma 0.6905 0.08
++G gamma 0.7978999999999999 0.08
++G gamma 0.8419 0.07
++G gamma 0.8505 0.1
++G gamma 0.8672000000000001 0.06
++G gamma 0.8812000000000001 0.05
++G gamma 0.8916000000000001 0.07
++G gamma 0.9002 0.08
++G gamma 0.9054 0.04
++G gamma 0.9143 0.1
++G gamma 0.9226 0.07
++G gamma 0.9366 0.12
++G gamma 0.9492 0.08
++G gamma 0.9863 0.06
++G gamma 1.0603 0.08
++G gamma 1.0767 0.08
++G gamma 1.115 0.07
++G gamma 1.1402999999999999 0.3
++G gamma 1.1798 0.05
++G gamma 1.2552 0.06
++G gamma 1.2764000000000002 0.1
++G gamma 1.3962 0.07
++G gamma 1.4165 0.1
++G gamma 1.4327 0.4
++G gamma 1.458 0.08
++G gamma 1.4977 0.08
++G gamma 1.5110999999999999 0.08
++G gamma 0.1539 0.45
++G gamma 0.1794 11.59
++G gamma 0.196 9.26
++G gamma 0.0384 1.0
++G gamma 0.0551 0.03
++G gamma 0.0859 0.18
++G gamma 0.069 0.02
++G gamma 0.2345 1.8
++G gamma 0.4141 0.83
++G gamma 0.2732 0.04
++G gamma 0.2801 1.2
++G gamma 0.4597 4.6
++G gamma 0.2801 0.6
++G gamma 0.111 0.17
++G gamma 0.32089999999999996 1.0
++G gamma 0.3812 0.25
++G gamma 0.4123 0.17
++G gamma 0.4501 0.5
++G gamma 0.4229 0.07
++G gamma 0.465 0.12
++G gamma 0.4717 0.12
++G gamma 0.2559 0.27
++G gamma 0.491 0.2
++G gamma 0.247 0.11
++G gamma 0.2789 0.5
++G gamma 0.2917 0.1
++G gamma 0.5267000000000001 0.48
++G gamma 0.7062 0.54
++G gamma 0.32039999999999996 0.25
++G gamma 0.555 0.46
++G gamma 0.7345 0.2
++G gamma 0.665 0.16
++G gamma 0.4313 0.17
++G gamma 0.7011000000000001 0.08
++G gamma 0.48610000000000003 0.06
++G gamma 0.7201000000000001 0.13
++G gamma 0.7308 0.14
++G gamma 0.9101 0.17
++G gamma 0.4176 0.1
++G gamma 0.5488 0.08
++G gamma 0.5716 0.25
++G gamma 0.5846 0.11
++G gamma 0.46 0.15
++G gamma 0.7345 0.2
++G gamma 0.97 0.14
++G gamma 1.1639000000000002 0.15
++G gamma 1.3437000000000001 0.07
++G gamma 1.0052 0.11
++G gamma 1.2409000000000001 0.06
++G gamma 1.0355 0.09
+

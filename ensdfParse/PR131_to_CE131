@@ -1,0 +1,203 @@
+#131CE    131PR EC DECAY (1.51 M)       1996GI08,1983VIZU         06NDS    200612
+#  131PR EC DECAY (1.51 M)       1996GI08,1983VIZU         06NDS    200612
+#H TYP=FUL$AUT=YU. KHAZOV, I. MITROPOLSKY, A. RODIONOV$                   
+#H CIT=NDS 107, 2715 (2006)$CUT=17-Jul-2006$                              
+#  1996Gi08: {+131}Pr |e decay [from {+96}Mo({+40}Ca,2p3n), E=255 MeV].   
+#  Measured x, |g, |g|g(t), x|g(t), cex(t), ce|g(t), T{-1/2}. Mass-       
+#  separator, He-jet transport, magnetic electron spectrometer.           
+#  Comparison with Interacting Boson-Fermion Model calculations           
+#  1966NO05: 131CE [from 130BA(4HE,3N), E|?40 MeV and 130BA(3HE,2N),      
+#  E|?20 MeV]; measured x, |g, ce, |b{++} spectra deduced {+131}Ce        
+#  %|b{++}, T{-1/2}. Ge(Li), NaI(Tl), Si(Li) spectrometers, chemical      
+#  procedures                                                             
+#  1983ViZU, 1983AkZZ: {+131}Pr |e decay [from Ta(p,X), E=1000 MeV].      
+#  Measured |g, |g|g, T{-1/2}. Mass-separation                            
+#  Others: 1973De25, 1977Gi17                                             
+#G E$Weighted average from 1996Gi08 and 1983ViZU, except as noted         
+#G E(A)$The transition were introduced into level scheme using energy     
+#G relationship only                                                      
+#G RI$From 1996Gi08, except as noted                                      
+#G RI(B),E(B)$From 1983ViZU. I|g was multiplied by 4.4 to adjust to scale 
+#G of 1996Gi08                                                            
+#G           I(|g{+|+})|?850                                              
+#G M$From |a(exp)                                                         
+#L $The decay scheme is that of 1996Gi08, except as noted. It is built on 
+#L the basis of coincidence data, energy relationships and multipolarities
+#L of the transitions. The level energies in 1996Gi08 are lower           
+#L by 0.5 keV, on average, than the level energies calculated by GTOL code
+#L using E|g of 1996Gi08.  The level scheme of 1983ViZU is not as complete
+#L as of 1996Gi08 and contradicts it somewhat; evaluators have            
+#L excluded 440.56, 884.1 and 947.6 keV levels from 1983ViZU level scheme 
+#L so far as each of them was introduced by two transitions on the basis  
+#L of energy relationship only                                            
+#L E(A)$The level was introduced by 1983ViZU                              
+#L E$From least-squares fit to E|g's                                      
+#L J$From |g-mult.                                                        
+#P 0.0          (3/2+)           1.51 M    2              5.44E3     6    
+PR131 CE131 beta+ 5.44 90.6 1.00
++G gamma 0.1033 0.026000000000000002
++G gamma 0.1142 0.022000000000000002
++G gamma 0.1173 0.022000000000000002
++G gamma 0.15230000000000002 0.022000000000000002
++G gamma 0.2147 0.053
++G gamma 0.224 0.075
++G gamma 0.24409999999999998 0.136
++G gamma 0.2739 0.057
++G gamma 0.30760000000000004 0.066
++G gamma 0.3221 0.19
++G gamma 0.398 0.114
++G gamma 0.44060000000000005 0.67
++G gamma 0.4607 0.066
++G gamma 0.465 0.086
++G gamma 0.471 0.17
++G gamma 0.4995 0.084
++G gamma 0.5473 0.066
++G gamma 0.6093999999999999 0.24
++G gamma 0.65236 0.079
++G gamma 0.6775800000000001 0.33
++G gamma 0.6799 0.075
++G gamma 0.6906 0.03
++G gamma 0.7784 0.048
++G gamma 0.824 0.035
++G gamma 0.93 0.1
++G gamma 0.9444 0.044000000000000004
++G gamma 0.963 0.031
++G gamma 1.0074 0.04
++G gamma 1.0312999999999999 0.17600000000000002
++G gamma 1.0464 0.035
++G gamma 1.1558 0.084
++G gamma 1.1836 0.044000000000000004
++G gamma 1.189 0.057
++G gamma 1.4290999999999998 0.066
++G gamma 1.5427 0.075
++G gamma 1.585 0.07
++G gamma 1.7818 0.04
++G gamma 1.9277 0.04
++G gamma 1.9687999999999999 0.084
++G gamma 0.07284 2.1
++G gamma 0.25707 0.35
++G gamma 0.19337000000000001 0.24
++G gamma 0.26614 1.9
++G gamma 0.20673 0.7
++G gamma 0.27955 1.0
++G gamma 0.21256 1.0
++G gamma 0.28539 0.9
++G gamma 0.0586 0.14
++G gamma 0.25149 0.9
++G gamma 0.32436000000000004 1.0
++G gamma 0.38754 0.9
++G gamma 0.07939 0.25
++G gamma 0.29204 0.8
++G gamma 0.36469999999999997 0.48
++G gamma 0.1225 0.04
++G gamma 0.12819999999999998 0.12
++G gamma 0.33496 1.4
++G gamma 0.1261 0.09
++G gamma 0.33905 0.55
++G gamma 0.286 0.07
++G gamma 0.5432 0.07
++G gamma 0.18880000000000002 0.05
++G gamma 0.248 0.04
++G gamma 0.4413 0.8
++G gamma 0.4737 0.25
++G gamma 0.3155 0.198
++G gamma 0.1765 0.12
++G gamma 0.29955000000000004 0.08
++G gamma 0.30542 0.25
++G gamma 0.319 0.21
++G gamma 0.3765 0.03
++G gamma 0.5817899999999999 0.05
++G gamma 0.39130000000000004 0.04
++G gamma 0.3962 0.07
++G gamma 0.41076 0.03
++G gamma 0.6042000000000001 0.15
++G gamma 0.3962 0.07
++G gamma 0.27848 0.1
++G gamma 0.41076 0.03
++G gamma 0.42369999999999997 0.04
++G gamma 0.2912 0.4
++G gamma 0.4141 0.15
++G gamma 0.419 0.1
++G gamma 0.626 0.04
++G gamma 0.3167 0.14
++G gamma 0.44339999999999996 0.1
++G gamma 0.65576 0.13
++G gamma 0.729 0.12
++G gamma 0.37725 0.084
++G gamma 0.42045 0.39
++G gamma 0.505 0.05
++G gamma 0.7119 0.35
++G gamma 0.78539 0.05
++G gamma 0.2842 0.08800000000000001
++G gamma 0.5861799999999999 0.08
++G gamma 0.5997 0.18
++G gamma 0.661 0.04
++G gamma 0.6672 0.08
++G gamma 0.8737 0.2
++G gamma 0.6465 0.026000000000000002
++G gamma 0.76918 0.11
++G gamma 0.7743 0.1
++G gamma 0.7874 0.1
++G gamma 0.9802000000000001 0.25
++G gamma 1.117 0.066
++G gamma 0.4743 0.4
++G gamma 0.42815 0.52
++G gamma 0.8487 0.08800000000000001
++G gamma 1.2763 0.11900000000000001
++G gamma 1.6697 0.09699999999999999
++G gamma 1.9218 0.136
+
+#131CE    131PR EC DECAY (5.71 S)       1996GI08,1983VIZU         06NDS    200612
+#  131PR EC DECAY (5.71 S)       1996GI08,1983VIZU         06NDS    200612
+#H TYP=FUL$AUT=YU. KHAZOV, I. MITROPOLSKY, A. RODIONOV$                   
+#H CIT=NDS 107, 2715 (2006)$CUT=17-Jul-2006$                              
+#  1996Gi08,1993GeZZ: {+131}Pr |e decay [from 96MO(40CA,2p3n),            
+#  E=255 MeV]; measured x, |g, |g|g(t), x|g(t), cex(t), ce|g(t), T1/2.    
+#  Mass separator, He-jet transport, magnetic electron spectrometer.      
+#  Comparison with Interacting Boson-Fermion Model calculations           
+#  1983ViZU,1983AkZZ: {+132}Pr |e decay [from Ta(p,X), 1000 MeV];         
+#  measured |g, |g|g, T{-1/2}. Mass separation                            
+#  Others: 1973De25, 1966No05, 1977Gi17                                   
+#G E$Weighted average from 1996Gi08 and 1983ViZU when values are          
+#G available                                                              
+#G RI$From 1996Gi08, I|g's in level scheme, Fig. 4, differ somewhat from  
+#G tabular data                                                           
+#G E(A)$Measured by 1983ViZU in {+131}Pr |e decay (1.51 min) also         
+#G E(C)$Measured by 1983ViZU in {+131}Pr |e decay (1.51 min) only         
+#G RI(B)$From 1983ViZU. RI was multiplied by 4.4 to adjust to the scale   
+#G of 1996Gi08                                                            
+#G M$From from {+131}Ce IT decay (88 ns)                                  
+#L $The decay scheme is that of 1996Gi08, except as noted. It is built on 
+#L the basis of coincidence data, energy relationships and multipolarities
+#L of the transitions. The level scheme of 1983ViZU is not as complete    
+#L as of 1996Gi08 and contradicts it somewhat; evaluators have            
+#L excluded 440.56, 884.1 and 947.6 levels from 1983ViZU level scheme so  
+#L far as each of them was introduced by two transitions on the basis of  
+#L energy relationship only and was not placed in 1996Gi08 scheme         
+#L E$From least-squares fit to E|g's corresponding to reduced |h{+2}=0.4  
+#L J$From adopted levels                                                  
+#P      152.4 3 (11/2-)          5.71 S    14             5.44E3     6    
+PR131 CE131 beta+ 5.44 5.71 0.036
++G gamma 0.239 0.05
++G gamma 0.575 0.025
++G gamma 0.16197999999999999 1.9
++G gamma 0.119 0.05
++G gamma 0.13829 0.45
++G gamma 0.085 0.05
++G gamma 0.2032 0.04
++G gamma 0.22263 0.44
++G gamma 0.385 0.13
++G gamma 0.3865 0.08
++G gamma 0.405 0.02
++G gamma 0.4268 0.23
++G gamma 0.3005 0.05
++G gamma 0.43856 0.15
++G gamma 0.3364 0.12
++G gamma 0.4747 0.075
++G gamma 0.3865 0.05
++G gamma 0.5253 0.085
++G gamma 0.3024 0.05
++G gamma 0.7402000000000001 0.1
++G gamma 0.349 0.02
++G gamma 0.6011 0.1
+

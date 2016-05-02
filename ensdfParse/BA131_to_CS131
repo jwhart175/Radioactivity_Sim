@@ -1,0 +1,77 @@
+#131CS    131BA EC DECAY                2003Sa62,1990SU07         06NDS    200612
+#  131BA EC DECAY                2003Sa62,1990SU07         06NDS    200612
+#H TYP=FUL$AUT=YU. KHAZOV, I. MITROPOLSKY, A. RODIONOV$                   
+#H CIT=NDS 107, 2715 (2006)$CUT=17-Jul-2006$                              
+#  1976Ge14:{+131}Ba |e decay [from Pr(p,X) E=600-800 MeV, chemical       
+#  extraction, separator; energy correction by 1982KhZW]; measured |g,    
+#  |g|g coin deduced {+131}Cs levels. Ge(Li) detectors.                   
+#  1964Ho17: {+131}Ba |e decay; measured ce, xce-delay deduced {+131}Cs   
+#  levels, Ece, Ice, |d, T{-1/2}. Iron-free beta-ray spectrometer,        
+#  plastic scintillations                                                 
+#  1969Fe02: {+131}Ba |e decay; measured |g|g(|q), |g|g(90|',pol),        
+#  |g|g(|q,t), |g|g(|q,H), ce|g(|q), xce-delay deduced {+131}Cs levels,   
+#  J|p, T{-1/2}, |d, g-factor. Ge(Li), Si(Li), NaI(Tl) detectors          
+#  1980Kr17: {+131}Ba |e decay; measured |g|g(|q) deduced {+131}Cs        
+#  levels, J|p, |d. Ge(Li) detectors                                      
+#  1980VyZZ: {+131}Ba |e decay; measured |g, ce deduced {+131}Cs E|g,     
+#  I|g, Ice, |a(exp)                                                      
+#  1990Su07: {+131}Ba |e decay; measured |g, |g|g coin deduced {+131}Cs   
+#  levels, E|g, I|g                                                       
+#  1995Ku32: {+131}Ba |e decay; measured |g, x|g coin deduced {+131}Cs    
+#  E|g, I|g, K capture probabilities                                      
+#  2003Sa62: {+131}Ba |e decay; measured |g, ce deduced {+131}Cs levels,  
+#  J|p, E|g, I|g, Ice, |a(exp). HPGe detector, mini-orange electron       
+#  spectrometer                                                           
+#  Others: 1963Ke11, 1965Hi06, 1967Se03, 1969Kh09, 1970Ha45, 1970Ma21,    
+#  1972St20, 1972Dr02, 1975Mo12, 1977Sa20, 1978Vo11, 1978Va04, 1979Sh10,  
+#  1988Sa14, 1988Si02, 1999De49, 2000De13                                 
+#E TI        From net |g feeding of each level                            
+#G E$Weighted average from 1976Ge14 (corrected by 1982KhZW), 1980VyZZ,    
+#G 1990Su07, 1995Ku32 and 2003Sa62 when it is possible besides as noted   
+#G E,RI(B)$Reported by 2003Sa62 only                                      
+#G E(C)$From 1990Su07                                                     
+#G RI$Averaged from 1976Ge14, 1980VyZZ, 1988Ch44, 1990Me15, 1990Su07,     
+#G 1995Ku32 besides as noted                                              
+#G EKC$from 1978Vo11 and 1980VyZZ besides as noted. The values of |a(exp) 
+#G are normalized by evaluators (using BrIcc program) to |a{-K}=0.619,    
+#G for 123.8 keV, E2 transition between the levels with J|p=1/2+ and      
+#G J|p=5/2+                                                               
+#G M$From |a(exp) and |d                                                  
+#G MR        From |g|g(|q), except as noted                               
+#G $See 1978Vo11, 1975Mo12, 1970Ha45, 1999De49 for penetration parameters 
+#L $The decay scheme is based on the coincidence relations and Ritz       
+#L combination principle                                                  
+#L E$From least-squares fit to E|g's                                      
+#L J$From multipolarities and |g(|q) measurements                         
+#L $T{-1/2}(excited states) measured by |g|g(t), ce|g(t), xce(t)          
+#L E(A)$The level is introduced by 2003Sa62 because of |g energy          
+#L relations and available data on reactions                              
+#P 0.0         1/2+              11.50 D   6              1376      5     
+BA131 CS131 beta+ 1.376 993600.0 1.0
++B beta+ 8.338999999999999E-4 0.0013
++B beta+ 8.491E-4 0.0011794
++G gamma 0.08244199999999999 1.9199999999999998E-4
++B beta+ 8.488E-4 0.0011837
++B beta+ 8.477000000000001E-4 0.0011922
++B beta+ 8.454000000000001E-4 0.0012094
++B beta+ 8.449E-4 0.0012132
++B beta+ 8.443000000000001E-4 0.0012
++B beta+ 8.436E-4 0.00122
++B beta+ 8.419E-4 0.00123
++G gamma 0.78592 2.3999999999999997E-5
++G gamma 0.7958500000000001 7.2E-6
++G gamma 0.8409 1.92E-5
++G gamma 0.91965 9.12E-5
++B beta+ 8.370999999999999E-4 0.00127
++B beta+ 8.290999999999999E-4 0.00133
++G gamma 0.46268 4.8E-4
++B beta+ 8.288E-4 0.00133
++G gamma 0.79738 3.5999999999999997E-4
++G gamma 0.95461 3.3120000000000003E-4
++G gamma 1.037 4.8E-6
++G gamma 1.0464 9.264E-4
++B beta+ 8.087E-4 0.0014000000000000002
++B beta+ 7.57E-4 0.00187
++G gamma 0.7455700000000001 1.2960000000000001E-5
++G gamma 0.757 4.8E-6
+

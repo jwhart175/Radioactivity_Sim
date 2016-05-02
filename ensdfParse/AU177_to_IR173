@@ -1,0 +1,33 @@
+#173IR    177AU A DECAY                 2009AN14                  ENSDF    201511
+#  177AU A DECAY                 2009AN14                  ENSDF    201511
+#H TYP=FUL$AUT=J. Tuli$CIT=ENSDF$CUT=15-AUG-2015$                         
+#  1009An14 (referred also in 2014An10):                                  
+#  {+177}Au source from |a decay of {+181}Tl, which was produced in       
+#  {+144}Sm({+40}Ca,p2n) reaction at E=177-229 MeV.                       
+#  Measured Ea, I|a, |a|g coin, E|g, K| x ray and |g|g coin using a       
+#  large-volume fourfold segmented clover germanium detector, three       
+#  time-of-flight detectors, and 16-strip position-sensitive silicon strip
+#  detector (PSSD) at GSI facility.                                       
+#  1975CA06: Sources from 141PR(40CA,4N) (E(40CA)=180-290 MEV),           
+#  helium-jet transport; measured EA,IA. Perhaps includes isomer decay.   
+#  1996PA01: Measured ALPHA, T1/2. T1/2(177AU)=1300 MS 200                
+#  Others: 1968Si01, 1973Ga08, 1991Se01.                                  
+#P 0           (1/2+)            1.53 S    7              6298      4     
+AU177 IR173 alpha 6.298 1.53 0.40
+
+#173IR    177AU A DECAY (1.00 S)        2009AN14                  ENSDF    201511
+#  177AU A DECAY (1.00 S)        2009AN14                  ENSDF    201511
+#H TYP=FUL$AUT=J. Tuli$CIT=ENSDF$CUT=15-AUG-2015$                         
+#  2009An14 (also given in 2014An10):                                     
+#  {+177}Au source from |a decay of {+181}Tl, which was produced in       
+#  {+144}Sm({+40}Ca,p2n) reaction at E=177-229 MeV.                       
+#  Measured Ea, I|a, |a|g coin, E|g, K| x ray and |g|g coin using a       
+#  large-volume fourfold segmented clover germanium detector, three       
+#  time-of-flight detectors, and 16-strip position-sensitive silicon strip
+#  detector (PSSD) at GSI facility.                                       
+#  1975CA06: Sources from 141PR(40CA,4N) (E(40CA)=180-290 MEV),           
+#  helium-jet transport; measured EA,IA. Perhaps includes isomer decay.   
+#  1996PA01: Measured ALPHA, T1/2. T1/2(177AU)=1300 MS 200                
+#P 189       16  11/2-           1.00 S    20             6298      4     
+AU177 IR173 alpha 6.298 1.0 0.66
+

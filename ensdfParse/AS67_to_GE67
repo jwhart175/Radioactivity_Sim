@@ -1,0 +1,59 @@
+# 67GE    67AS EC DECAY                 1980MU12,1981MUZZ         05NDS    200512
+#  67AS EC DECAY                 1980MU12,1981MUZZ         05NDS    200512
+#H TYP=FUL$AUT=HUO JUNDE, HUANG XIAOLONG, J.K. TULI$                      
+#H CIT=NDS 106, 159 (2005)$CUT=1-Apr-2005$                                
+#  1980Mu12: {+67}As produced from {+58}Ni({+14}N,|an) reaction; E|g,     
+#  I|g, |g|g coincidences, |b{++}|g coincidences, T{-1/2}                 
+#  1981MuZZ: corrections to I|g, I|b{++} + I|e given in 1980Mu12          
+#L E         From a least-squares fit to the E|g data                     
+#L J         From adopted levels                                          
+#G E         From 1980Mu12                                                
+#G TI        Absolute transition intensities (1981MuZZ) calculated        
+#G assuming the g.s. feeding is zero                                      
+#G RI        Calculated from I(|g+ce)                                     
+#G M,MR      From adopted gammas                                          
+#E TI        Absolute transition intensities (1981MuZZ)                   
+#P 0           (5/2-)            42.5 S    12             6.01E3    10    
+AS67 GE67 beta+ 6.01 42.5 1.0
++G gamma 0.0182 0.00156
++B beta+ 8.806E-4 0.00101
++B beta+ 2.3 0.0
++G gamma 0.1044 0.0452
++G gamma 0.1227 0.192
++B beta+ 2.249 0.0
++G gamma 0.12079999999999999 0.09300000000000001
++G gamma 0.22540000000000002 0.015
++G gamma 0.24359999999999998 0.078
++B beta+ 2.19 0.0
++G gamma 0.589 0.02
++G gamma 0.6931 0.048
++B beta+ 1.964 0.0
++G gamma 0.6855 0.022000000000000002
++G gamma 0.7898999999999999 0.048
++G gamma 0.8081 0.062
++B beta+ 1.917 1.0E-4
++G gamma 0.7764 0.01
++G gamma 0.8974 0.031
++B beta+ 1.815 1.0E-4
++G gamma 1.1514000000000002 0.0058
++G gamma 1.2743 0.013000000000000001
++B beta+ 1.693 1.0E-4
++G gamma 1.0495999999999999 0.0029
++G gamma 1.1713 0.015
++G gamma 1.294 0.013999999999999999
++B beta+ 1.684 1.0E-4
++G gamma 0.633 0.025
++B beta+ 1.512 2.0E-4
++G gamma 1.576 0.0070999999999999995
++B beta+ 1.49 2.0E-4
++G gamma 0.248 0.015
++G gamma 1.657 0.0038
++B beta+ 1.394 2.0E-4
++G gamma 1.3852 0.0033
++B beta+ 1.301 3.0E-4
++G gamma 2.2182 0.039
++B beta+ 1.244 3.0E-4
++G gamma 2.1284 0.0038
++B beta+ 1.228 3.0E-4
++G gamma 2.28 0.0029
+

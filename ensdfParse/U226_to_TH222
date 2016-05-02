@@ -1,0 +1,29 @@
+#222TH    226U A DECAY                                            11NDS    201111
+#  226U A DECAY                                            11NDS    201111
+#H TYP=FUL$AUT=Sukhjeet Singh, A. K. Jain, Jagdish K. Tuli$               
+#H CIT=NDS 112,2851 (2011)$CUT=31-Mar-2011$                               
+#  T{-1/2}({+226}U)=0.20 s {I5} was measured by 1990An22,0.5 s {I2}       
+#  by 1973Vi10, 0.281 s {I9} by 2000He17, 0.260 s {I20} by 2001Ku07,      
+#  0.260 s {I10} by 1999GR28                                              
+#  See 2009NI06, 2009RO06, 2008SA40, 2007PE30, for calculations of alpha  
+#  decay half-lives.                                                      
+#  %|a({+226}U)=100 is adopted in 1996Ak02. From the gross |b{+-} decay   
+#  calculations of 1973Ta30, the |e decay branch is estimated to          
+#  be %|e<0.05.                                                           
+#  NO CALCULATION FOR T1/2(EC) OF 226U IS GIVEN IN 1997MoZW.              
+#  1997Mo25 calculated the partial half-life of {+226}U |b{++} decay      
+#  as >100 s.                                                             
+#                                                                         
+#  Q(|a)({+226}U)=7701 {I4} is recommended by 2003Au03, 2011AUZZ.         
+#A E,IA      Measurement by 2001Ku07. Others: 1999Gr28, 2000He17          
+#A HF        r{-0}({+222}Th)=1.628 {I23} is used in calculations.         
+#A The calculated radius parameters by using various half-lives           
+#A  are r{-0}=1.506 {I23} for T{-1/2}=0.5 s {I2}, r{-0}=1.548             
+#A {I20} for T{-1/2}=0.20 s {I5}, and r{-0}=1.543 {I22} for T{-1/2}=0.22  
+#A {I8} (the weighted average of 0.5 s {I2} and 0.20 s {I2}).             
+#L BAND(A)   K=0+ GS BAND.                                                
+#P 0.0          0+               0.35 S    15             7715      14    
+U226 TH222 alpha 7.715 0.35 1.0
++A alpha 7.566 0.85
++A alpha 7.387 0.15
+

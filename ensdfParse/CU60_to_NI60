@@ -1,0 +1,52 @@
+# 60NI    60CU EC DECAY                 1972VA19                  13NDS    201312
+#  60CU EC DECAY                 1972VA19                  13NDS    201312
+#H TYP=FUL$AUT=E. BROWNE, J. K. TULI$CIT=NDS 114, 1849 (2013)$            
+#H CUT=31-Dec-2012$                                                       
+#G CC$ FROM BrIcc v2.2 (31-Mar-2008) 2008KiAA, "Frozen Orbitals" appr.    
+#  Slightly modified by E. Browne (April 17, 2013). Rounded off log fts.  
+#  Ge(Li)-NaI Compton suppression and annihilation-|g coin. Measured      
+#  E|g, I|g (1972Va19).                                                   
+#  Measured |g(t), E|g, I|g with Ge(Li) (1982Gr10).                       
+#  Data are from 1972Va19, except as noted. The results of 1982Gr10 are in
+#  good agreement with those of 1972Va19.                                 
+#  Others: 1947Le07, 1954Nu26, 1969Ho22, 1969Ra07.                        
+#E           |e branches have been obtained from I(|g+ce) imbalance at    
+#E each level, assuming no direct |e feeding to the g.s.                  
+#E (2+ to 0+ transition)                                                  
+#G           Measured |g|g(|q) with NaI, 1966Sh12. Results:               
+#G             Correlation         A{-2}            A{-4}                 
+#G              1332-826        -{ 0.30 {I3}}       +{ 0.15 {I5}}         
+#G              1332-952        +{ 0.27 {I8}}       +{ 0.91 {I12}}        
+#G              1332-1035       -{ 0.03 {I8}}       +{ 0.03 {I12}}        
+#G              1332-1792       +{ 0.38 {I2}}       +{ 0.06 {I4}}         
+#G E(A)      Energy assumed for calibration.                              
+#G RI(B)     Only a part of I|g can be accounted for by this transition,  
+#G see 1972Va19.                                                          
+#G E(C),RI(C)$Unobserved transition, estimated upper limit for I|g.       
+#G M,MR      From |g|g correlations given above.                          
+#L J         See adopted levels.                                          
+#P 0.0         2+                23.7 M      4            6128.0    16    
+CU60 NI60 beta+ 6.128 1422.0 1.0
++B beta+ 1.7201 0.05
++B beta+ 1.3249000000000002 0.15
++B beta+ 1.1042 0.027999999999999997
++B beta+ 0.872 0.49
++B beta+ 0.8396 0.11599999999999999
++B beta+ 0.8049 0.045899999999999996
++B beta+ 0.748 0.0086
++B beta+ 0.5925 0.008
++B beta+ 0.5315 6.900000000000001E-4
++B beta+ 0.5076 0.0022
++B beta+ 0.4712 0.0015
++B beta+ 0.4656 0.0096
++B beta+ 0.44 0.011699999999999999
++B beta+ 0.3352 7.199999999999999E-4
++B beta+ 0.32839999999999997 2.7E-4
++B beta+ 0.2605 0.00185
++B beta+ 0.2424 1.2E-4
++B beta+ 0.237 7.099999999999999E-4
++B beta+ 0.22419999999999998 7.6E-5
++B beta+ 0.14830000000000002 1.3E-5
++B beta+ 0.11359999999999999 3.6000000000000003E-6
++B beta+ 0.11159999999999999 1.4E-5
+

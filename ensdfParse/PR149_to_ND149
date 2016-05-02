@@ -1,0 +1,97 @@
+#149ND    149PR B- DECAY (2.26 M)       1977PI06                  04NDS    200406
+#  149PR B- DECAY (2.26 M)       1977PI06                  04NDS    200406
+#H TYP=FUL$AUT=BALRAJ SINGH$CIT=NDS 102, 1 (2004)$CUT=20-Apr-2004$        
+#  1977PI06 (ALSO 1976ROYT): MEASURED G, GG.                              
+#  1997GR09, 1996GR20: TOTAL ABSORPTION GAMMA-RAY SPECTRA (^TAGS),        
+#  DEDUCED B FEEDINGS                                                     
+#  1995IK03: Q- VALUE FROM BG; Q-=3390 70                                 
+#  OTHERS:                                                                
+#  1977Pf01: G, most of the G rays are same as in 1977Pi06                
+#  1976Sk04: G, GG for intense transitions                                
+#  1974Bu09: G, T1/2                                                      
+#  1973Oh08: G, T1/2                                                      
+#  1967Va14: B, G (five intense G rays reported)                          
+#  1964Ho03: T1/2                                                         
+#  The level scheme as given here is incomplete as compared with the      
+#  ^TAGS data of 1997Gr09 (also 1996Gr20). For example 1997Gr09 obtain    
+#  55% |b feeding to levels above 920.7. For low-lying excited levels     
+#  (108.5-403.7), 1997Gr09 obtain total B feeding of 5.5%, whereas        
+#  the gamma-ray intensity balance in the proposed level scheme           
+#  gives about 50%                                                        
+#B IB,LOGFT$ B feedings are from G-intensity balance unless otherwise     
+#B stated. Above 920.7 level, all B feedings are from 1997Gr09.           
+#B For low-lying levels (<404) many B feedings deduced from the           
+#B G-ray intensity balance differ significantly from those deduced        
+#B from ^TAGS data of 1997Gr09. Since there are 29 unplaced G's with      
+#B total intensity of 15%, the decay scheme is very incomplete, thus      
+#B the true IB's are likely to be lower and the LOGFT's                   
+#B values higher than those tabulated. These uncertainties are also       
+#B increased by the fact that conversion coefficients for several         
+#B transitions are not known well due to uncertain MULT assignments.      
+#B IB(H)$IB increased to include contributions of weak G                  
+#B identified in (N,G) by 1976Pi04.                                       
+#G E(G)$Placed by evaluator                                               
+#G E(A)$From 1977Pi06 only                                                
+#G RI(B)$Corrected for weak contribution from 142BA B-                    
+#G RI(D)$Corrected for weak contribution from 149ND B-                    
+#G E(E)$GG data indicate an unresolved doublet.                           
+#G Intensity is split between two locations                               
+#G E(F)$GG data indicate a doublet. Energies                              
+#G given are from curved crystal data in (N,G) (1976Pi04)                 
+#G RI$1977Pi06 establish the absolute intensity of 138.46G                
+#G as 11 2 per 100 disintegrations, in agreement with 13 5 from 1967Va14. 
+#G M$ MULT=^D,E2 IMPLIES DIPOLE OR E2                                     
+#L E$From least-squares fit to EG's                                       
+#L J$From adopted values.                                                 
+#L E(A)$ PSEUDOLEVEL FROM BETA FEEDING DEDUCED FROM                       
+#L ^TAGS (TOTAL ABSORPTION GAMMA RAY SPECTRA) DATA (1997GR09).            
+#L UNCERTAINTY OF 50 KEV ASSIGNED BY THE EVALUATOR BASED ON               
+#L CHOICE OF 100 KEV BINS FOR THE ^TAG SPECTRUM OF 1997GR09               
+#P 0           (5/2+)            2.26 M     7             3320      80    
++B beta-0.013 0.33
++B beta- 1.32 0.0087
++B beta- 1.307 0.005600000000000001
++B beta- 1.294 0.02
++B beta- 1.251 0.027000000000000003
++B beta- 1.251 0.045
++B beta-0.012 0.05
++B beta- 1.225 0.011000000000000001
++B beta- 1.223 0.016
++B beta- 1.217 0.013999999999999999
++B beta- 1.202 0.023
++B beta- 1.169 0.013000000000000001
++B beta- 1.159 0.0097
++B beta- 1.152 0.021
++B beta- 1.148 0.0036
++B beta- 1.133 0.021
++B beta- 1.118 0.0078000000000000005
++B beta- 1.108 0.066
++B beta- 1.047 0.017
++B beta- 1.045 0.016
++B beta- 1.03 0.0045000000000000005
++B beta- 0.997 0.008
++B beta- 0.967 0.036000000000000004
++B beta- 0.949 0.052000000000000005
++B beta- 0.913 0.0087
++B beta- 0.868 0.011000000000000001
++B beta- 0.823 0.011000000000000001
++B beta- 0.779 0.013000000000000001
++B beta- 0.734 0.018000000000000002
++B beta- 0.69 0.013999999999999999
++B beta- 0.646 0.01
++B beta- 0.602 0.013000000000000001
++B beta- 0.559 0.016
++B beta- 0.516 0.0087
++B beta- 0.474 0.11800000000000001
++B beta- 0.432 0.127
++B beta- 0.39 0.034
++B beta- 0.35 0.036000000000000004
++B beta- 0.31 0.040999999999999995
++B beta- 0.27 0.032
++B beta- 0.232 0.016
++B beta- 0.195 0.01
++B beta- 0.159 0.005699999999999999
++B beta- 0.125 0.0018
++B beta- 0.092 8.500000000000001E-4
++B beta- 0.061 3.4E-4
+

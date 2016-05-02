@@ -1,0 +1,109 @@
+#204HG    204TL EC DECAY                                          10NDS    201002
+#  204TL EC DECAY                                          10NDS    201002
+#H TYP=FUL$AUT=C.J. CHIARA and F.G. KONDEV$CIT=NDS 111,141 (2010)$        
+#H CUT=1-Oct-2009$                                                        
+#  Measured CL/CK=0.42 5 (1961Jo12), 0.41 3 (1962Le05), 0.48 4 (1963Ro32),
+#  0.60 6 (1964Ch17), 0.55 5 (1966Kl02).                                  
+#  From Q value and EC decay theory, CL/CK=0.519 2.                       
+#  Ratio of CL and CK values from LOGFT.                                  
+#  Q+ deduced from measured CL/CK ratio: 410 +30-23 (1962Le05, with       
+#  correction by 1964Ch17), 313 +17-14 (1964Ch17), 324 +21-16 (1966Kl02). 
+#  Q+ from fit to internal bremsstrahlung spectrum: 376 20 (1956Ju07),    
+#  325 20 (1973La17), 357 15 for fit with Coulomb-free theory (1979Zi02). 
+#  End-point energy from internal bremsstrahlung spectrum:                
+#  310 10 (1962Bi04).                                                     
+#  Internal bremsstrahlung photons per 100 CK: 3.2E-3 5 (1973La17),       
+#  2.17E-3 26 (1979Zi02), 2.8E-3 2 (2003Ku28).                            
+#  Others: 1967Ha39, 1980La02.                                            
+#  $--------------------------------------------------                    
+#  $--------- Notes from the refs follow -------------                    
+#  $--------------------------------------------------                    
+#  1956Ju07: NaI (x2?); coinc between Hg K x-rays and gammas; end point   
+#  of 293(20) keV + Hg K electron BE = 376(20) keV.                       
+#                                                                         
+#  1961Jo12: NaI(204Tl) inner crystal fitted within well-type NaI(Tl) and 
+#  covered with NaI(Tl) lid; L x-rays and Augers absorbed in inner        
+#  crystal, some K's make it to outer; L/K capture ratio = 0.42(5), mean  
+#  value over several runs; K/beta- ratio = 0.0155(10).                   
+#                                                                         
+#  1962Bi04: 80mil thick, 1.5in diameter NaI with 5mil Be window for K    
+#  x rays, 50% resolution at 5.9 keV (? true for Tl measurement?);        
+#  1in x 1in NaI for IB detection, 10% resolution at 662 keV; end pt      
+#  of IB spectrum determined by coinc between 70.8-keV Hg x rays and IB   
+#  to be 310(10) keV.                                                     
+#                                                                         
+#  1962Le05 (auf Deutsch): NaI(204Tl), 0.26uCi of 204Tl put in lattice;   
+#  L/K capture ratio = 0.41(3); disintegration energy (Q value) derived   
+#  from L/K ratio, Q = 442+30-24 keV(*); EC/beta- ratio = 2.15(6)% (unc   
+#  quoted as 0.05% in text); K/beta- ratio = 1.53(5)%.                    
+#  [1964Ch17 point out that this work had a value 2x too big in their     
+#  equation, and that really Q = 410+30-23 keV.]                          
+#                                                                         
+#  1964Ch17: two NaI, w/absorbers to block Auger e-'s, to detect K- (only)
+#  or L- (only) x rays; measured L/K capture ratio = 0.60(6), 5.1% exp'tal
+#  unc, the rest from uncs in K fluor.yield and other parameters;         
+#  Q = 313+17-14 keV derived from L/K ratio.                              
+#  Two NaI for x rays and beta- activity on                               
+#  4pi-beta-gamma coinc apparatus to get K/beta- ratio = 0.0159(4), which 
+#  then gives EC/beta- = 0.0254(12). [Uses omegaK = 0.954(5).]            
+#                                                                         
+#  1966Kl02: NaI(204Tl) dets of 13 different shapes and sizes; measured   
+#  L/K ratio = 0.55(5); EC/beta- ratio = 2.29(6)%; K/beta- ratio =        
+#  1.48(15)%; Q = 324+21-16 keV. [Uses omegaK = 0.954.]                   
+#                                                                         
+#  1973La17: two (7.6cm)^2 NaI(Tl) dets; intensity of internal            
+#  bremsstrahlung in interval 103 keV to end point = 3.2(5)x10^-5         
+#  photons per K EC. [Uses a constant relativistic correction factor      
+#  R_1s, which is avg of value over range 110 keV to end pt.]             
+#  Derived Q = 385(20) keV for approx fit with R1s fixed, 325(20) when    
+#  fit to exact spectrum shape with R1s varying.                          
+#                                                                         
+#  1979Zi02: hi-res Ge(Li) with 0.125mm Be window for x rays,             
+#  (7.6cm)^2 NaI(Tl) det for IB spectrum; intensity of internal           
+#  bremsstrahlung in interval 103 to 307 keV = 2.17(26)x10^-5             
+#  photons per K EC, uncs are 7% from counting stats, 5% from source      
+#  intensity, 6% Ge(Li) eff, 4% NaI(Tl) eff and P/T ratios, and 3%        
+#  coinc eff; end-pt Km = 307(15) keV for full theory, 272(15) keV for    
+#  Coulomb-free theory; transition E (Qval?) = 392(15) keV for full       
+#  theory, 357(15) keV for Coulomb-free theory. [Q=Km+85]                 
+#                                                                         
+#  1980La02: 204Tl in solution; Ge(Li) to detect Hg K x rays following    
+#  K EC, FWHM = 2.1 keV at 1.33 MeV, 6.15% eff; 3mm Si(Li) with Be window 
+#  to study low-E photons; K EC/beta- ratio from Si(Li) = 1.17(7)%, from  
+#  Ge(Li) = 1.35(11)% ==> wtd avg 1.22(6)%; assuming K EC/tot EC = 0.592, 
+#  EC/beta- = 2.05(13)% and EC/(EC + beta-) = 2.01(13)%.                  
+#                                                                         
+#  1990Sc08: two Ge(Li)'s for Eg>100keV, FWHM=2.9 and 2.2 keV at 1.33MeV; 
+#  HPGe for 6keV to 2MeV, Be window, FWHM=1.86keV at 1.33MeV and 750eV at 
+#  5.9keV; planar Si(Li) for Eg<20keV, Be window, FWHM=205eV at 5.9keV;   
+#  proportional counter at atm pressure for 4pi-beta counting;            
+#  six single measurements, 20000s each; 2g of 204Tl.                     
+#  Ka2, E=68.9, P=0.474(20)%; Ka1, E=70.8, P=0.812(34)%; Kb1, E=80.1,     
+#  P=0.273(10)%; Kb2, E=82.5, P=0.081(3)% (P=photon emission prob.)       
+#  Total P=1.64(4)% (uncs added quadratically, not linearly=0.07!).       
+#  Uncs are 1sigma, from peak fitting, eff curves, activity determination,
+#  and correction factor added in quadrature.                             
+#                                                                         
+#  1995Da32: two large-volume (90cm^3) Gamma-X and one LEPS HPGe dets,    
+#  respective FWHM(eV) = 818, 653, 363 at 59.54 keV and 852, 698, 420     
+#  at 88.04 keV; K x ray intensities normalized to Ka1 are                
+#  Ka1, E=70.8, P==100; Ka2, E=68.9, P=59.33(41); Kb1, E=80.2,            
+#  P=34.24(31); Kb2, E=82.5, P=10.15(11).                                 
+#                                                                         
+#  2003Ku28: 204Tl produced by 203Tl(n,g) reaction in reactor...;         
+#  HPGe detector with 0.5 mm Be window for EC photons, 45% eff,           
+#  FWHM = 1.89 keV at 1.33 MeV; another HPGe detector with 0.5 mm Be      
+#  window for x rays, FWHM = 570 eV at 122 keV. [Comparison with "full"   
+#  theory of Zon and Rapoport with relativistic effects, Coulomb effects, 
+#  and generalized to any order forbiddenness (1968Zo01). However,        
+#  Coulomb-free version (Z -> 0) seems to work better.] Total IB prob     
+#  per K capture from interval 100 keV to end pt = 2.8(2)x10^-5 (average  
+#  of two measurements).                                                  
+#  $--------------------------------------------------                    
+#  $--------- End of notes from the refs -------------                    
+#  $--------------------------------------------------                    
+#G           No gammas detected. XK absolute intensities studied in       
+#G 4PI geometry. XKA2=0.47 2, XKA1=0.81 3, XKB1=0.273 10, XKB2=0.081 3    
+#G per 100 decays (1990Sc08).                                             
+#P 0.0          2-               3.783 Y   12              344.3    13    
+

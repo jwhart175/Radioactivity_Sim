@@ -1,0 +1,15 @@
+#167W  C  1979HA10: source from 175PT parent A DECAY; measured EA, IA            
+#  1979HA10: source from 175PT parent A DECAY; measured EA, IA            
+#  (silicon surface-barrier detector with FWHM AP 25 KEV).                
+#  1995HI02: source from 140CE(36AR,5n); measured EA, IA, EG, |a-|g coin, 
+#  %A(171OS).                                                             
+#L J         From adopted levels.                                         
+#A IA        From 1995HI02; uncertainty unstated by authors.              
+#A HF        If R0=1.56 2 (from R0(166W)=1.55 3 and R0(168W)=1.56 2       
+#A in 1998AK04), ^T{-1/2}(171OS)=8.3 S 2 (1995HI02), %A=1.80 21.          
+#G E         From 1995HI02; uncertainty unstated by authors.              
+#P 0.0          (5/2-)           8.3 S     2              5370      5     
+OS171 W167 alpha 5.37 8.3 0.0180
++A alpha 5.244 0.935
++A alpha 5.166 0.065
+

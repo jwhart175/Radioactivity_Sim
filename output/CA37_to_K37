@@ -1,0 +1,33 @@
+# 37K     37CA EC DECAY (181.1 MS)      1997KA10,1991GA23,1995TR0312NDS    201203
+#  37CA EC DECAY (181.1 MS)      1997KA10,1991GA23,1995TR0312NDS    201203
+#H TYP=FUL$AUT=JOHN CAMERON, JUN CHEN AND BALRAJ SINGH, NINEL NICA$       
+#H CIT=NDS 113, 365 (2012)$CUT=15-Jan-2012$                               
+#  1997KA10 (ALSO 1991GA23): USED MASS-SEPARATED 37CA BEAM AND STUDIED 37K
+#  LEVELS BY DETECTING DELAYED PROTONS IN COINCIDENCE WITH GAMMA-RAYS IN  
+#  36AR; DEDUCED ^B(^GT) VALUES ASSUMING WIDTH=WIDTHP                     
+#  1997TR05,1995TR03: FOUND HIGH WIDTHG/WIDTHP VALUES AND CORRECTED FOR   
+#  ^B(^GT) VALUES OF P-UNBOUND LOW-LYING LEVELS IN 37K; MEASURED T1/2'S   
+#  (1995TR03)                                                             
+#  OTHERS: 1995GA03, 1990GA17, 1987AD05, 1974SE11, 1966HA22,              
+#  1966PO12, 1964HA42, 1964RE08, 1960WA04, 1958SU60                       
+#E LOGFT$Deduced by evaluators from the experimental ^B(^GT) values       
+#E from 1997KA10 using ^B(^GT)=(6140 10)/{Ift}, equation listed in        
+#E reference 11 of 1997Ka10 for pure ^Gamow-^Teller transitions.          
+#E IB$Deduced by evaluators from the {Ift} values., unless otherwise      
+#E stated. The Fermi function {If} was calculated using ^LOGFT code at    
+#E ^NNDC, ^BNL. Partial half-lives were then converted to |b feedings.    
+#E IB(b)$From 1991GA23 only.                                              
+#G E(B)$FROM 1995TR03                                                     
+#G RI(A)$FROM EC+B+ BRANCHING RATIOS (1995TR03)                           
+#L E$FROM 1997KA10, EXCEPT WHEN NOTED OTHERWISE. Two LEVELS REPORTED      
+#L IN THE PREVIOUS WORK (1991GA23) BUT NOT OBSERVED IN                    
+#L 1997KA10 have been EXCLUDED here: 5446 and 5465                        
+#L J$FROM ^Adopted ^Levels, ^Gammas DATASET                               
+#L E(a)$FROM 1995TR03 BASED ON MEASURED EG                                
+#L E(b)$From 1997Ka10 only.                                               
+#L T(C)$FROM ^Adopted ^Levels, ^Gammas DATASET                            
+#L T(D)$MEAN LIFETIME TAU IN FS: 2.2 2 (1995TR03)                         
+#L T(E)$MEAN LIFETIME TAU IN FS: 140 40 (1995TR03)                        
+#P 0.0          3/2+             181.1 MS  10             11664.5   8     
+CA37 K37 beta+ 11.6645 0.18109999999999998 1.0
+

@@ -1,0 +1,28 @@
+#212BI    212PB B- DECAY                1969SC06,1984GE07         05NDS    200503
+#  212PB B- DECAY                1969SC06,1984GE07         05NDS    200503
+#H TYP=FUL$AUT=E. BROWNE$CIT=NDS 104, 427 (2005)$CUT=1-Jan-2004$          
+#  Modified by E. Browne (Jan. 28, 2004). Changed RI(415G), ICC, Mult.    
+#  Recalculated B- feedings, log ft's.                                    
+#B IB$From G+CE imbalance, based on measured absolute G-ray intensities.  
+#G $I(XK)/I(238.632G)=0.73 4 (1961Gi02); 0.76 8 (1982Sa36).               
+#G $I(XKA1):I(XKA2):I(XKB)=15.6 9: 11.0 6: 5.9 4 (1982Sa36)               
+#G $Others:  EG: 1970Da28, 1968An08, 1968Da21, 1964Wi11, 1960Be11, 1960Ka0
+#G        IG: 1982Sa36, 1978Av01, 1973Da38, 1968Da21, 1960Em01            
+#G        CE-data: 1978Av01, 1969Kr06, 1965Da07, 1957Ni11, 1956So24, 1955K
+#G e39                                                                    
+#G RI$Relative intensity from 1984Ge07. Others: 1992Li05, 1983Sc13,       
+#G 1983Va22.                                                              
+#G E(A)$From 1975SlZZ, observed with 212PB source and found to be         
+#G converted in BI.                                                       
+#L E$Deduced by evaluator from a least-squares fit to EG                  
+#L J$From adopted levels                                                  
+#L $GG: 1961Gi02, 1960Ro16, 1958De25                                      
+#L $GG(THETA): (300.087G)(115.183G)(THETA) agrees only with               
+#L 1(D)2(D)1 sequence if J(0.0 level)=1 and both 115.183G and 300.087G    
+#L are M1 (1960Ro16,1961Gi02).                                            
+#P 0.0          0+                10.64 H  1              569.9     19    
++B beta- 0.1717 0.11900000000000001
++B beta- 0.0935 0.831
++G gamma 0.238632 0.436
++B beta- 0.041100000000000005 0.0508
+

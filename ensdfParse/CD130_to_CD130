@@ -1,0 +1,22 @@
+#130CD    130CD IT DECAY (220 NS)       2007JU05                  ENSDF    200806
+#  130CD IT DECAY (220 NS)       2007JU05                  ENSDF    200806
+#H TYP=FUL$AUT=BALRAJ SINGH$CUT=31-MAY-2008$CIT=ENSDF$                    
+#  2007Ju05: two reactions were used at GSI facility.                     
+#  1. 6-proton knockout from {+136}Xe beam at 750 MeV/nucleon hitting a Be
+#  target. 2. Fission of {+238}U beam at 650 MeV/nucleon hitting a Be     
+#  target. GSI fragment separator FRS used to identify {+130}Cd fragments.
+#  Measured E|g, I|g, |g|g coin, |g|g(t) using array of 15 Ge cluster     
+#  detectors from EUROBALL array. Comparison with shell-model calculations
+#G E(A)$The order of the |g-rays in this cascade is unknown, it could     
+#G be 128-138 or 138-128                                                  
+#G $ Total conversion coefficients are from intensity balance,            
+#G assuming 1 keV uncertainty for E|g                                     
+#L E$ From E|g's, assuming 1 keV uncertainty for each E|g                 
+#L J$ As proposed by 2007Ju05 based on |pg{-9/2}{+2} configuration and    
+#L E2 assignment for two gamma rays at the top. The assignments are the   
+#L same in 'adopted levels'.                                              
+#L BAND(A)$ Yrast structure.                                              
+#L Configuration= pure |pg{-9/2}{+-2} for 2+ to 8+ states from            
+#L systematics of similar states in {+76}Ni and {+98}Cd.                  
+#P 2130      2  (8+)             220 NS    30                             
+

@@ -1,0 +1,1768 @@
+# 45SC    45TI EC DECAY                 1971ZU01,1966PO04         08NDS    200802
+#  45TI EC DECAY                 1971ZU01,1966PO04         08NDS    200802
+#H TYP=FUL$AUT=T. W. BURROWS$CIT=NDS 109, 171 (2008)$CUT=30-Oct-2007$     
+#  1966PO04 MEASURED CE'S AND B+'S (TOROIDAL FIELD SPECT) AND G'S         
+#  1971ZU01 MEASURED G'S                                                  
+#  1986BO06 MEASURED G'S AND INVESTIGATED NUCLEAR EXCITATION VIA          
+#  ANNIHILATION OF POSITRONS WITH ATOMIC ELECTRONS                        
+#  OTHERS: SEE 1992BU01                                                   
+#E TI,IE(A)  FROM INTENSITY IMBALANCE FOR EACH LEVEL                      
+#E BASED UPON THE RELATIVE RI DATA OF 1971ZU01 AND 1966PO04 AND THE       
+#E ABSOLUTE CEK(12.4G)=1.2% 3 (1966PO04)                                  
+#E IE(B),LOGFT(D)$FROM SELECTION RULES AND SYSTEMATICS, A 1f7/2 |) 2s1/2  
+#E SHOULD BE TWO TO THREE ORDERS OF MAGNITUDE LESS THAN A 1f/2 |) 1d3/2   
+#E BETA-TRANSITION ({Ii.e.}, 9.5 LE LOGFT(1801) LE 10.5 RELATIVE TO       
+#E LOGFT(975)=7.2); THEREFORE, 1801 STATE IS PRIMARILY POPULATED VIA      
+#E NUCLEAR EXCITATION IN ANNIHILATION OF POSITRONS WITH ATOMIC ELECTRONS  
+#E (1986BO06). 1971ZU01 ESTIMATED IE<2E-4                                 
+#G           %CEK: FROM COMPARISON OF THE ELECTRON LINE AREAS WITH THE B+ 
+#G SPECTRUM AREA (1966PO04)                                               
+#G E,RI      FROM 1971ZU01, EXCEPT AS NOTED.                              
+#G M,MR,CC   FROM THE 45SC Adopted Gammas                                 
+#G RI(A),E(B)$FROM 1966PO04                                               
+#G E(D),RI(E)$FROM 1986BO06. RI(1789G)=1.4E-3 2 AND RI(1801G)=1.0E-3 2    
+#G RELATIVE TO RI(1661G)=100. NOTE THAT RI(1801G)/RI(1789G)=0.71 18 IS    
+#G NOT CONSISTENT WITH THE ADOPTED VALUE OF 0.221 23                      
+#G E(1)      FROM THE 45SC Adopted Gammas                                 
+#L           ALL INFORMATION IS FROM THE Adopted Levels                   
+#P 0.0         7/2-              184.8 M   5              2062.1    5     
+TI45 SC45 beta+ 2.0621 11088.0 1.
++B beta+ 0.43893 0.848
++B beta+ 0.46301 3.0E-5
++G gamma 0.0124 2.8E-7
++B beta+ 0.27607 2.0E-5
++G gamma 0.364 5.7E-5
++G gamma 0.37710000000000005 5.200000000000001E-6
++B beta+ 0.2061 5.199999999999999E-6
++G gamma 0.1664 8.0E-8
++G gamma 0.53 1.1000000000000001E-5
++G gamma 0.543 9.0E-6
++B beta+ 0.13326 1.35E-4
++G gamma 0.7082 5.099999999999999E-5
++G gamma 0.7196 0.00154
++B beta+ 8.94E-4 9.036E-4
++G gamma 0.432 1.4E-5
++G gamma 0.9616 3.0E-5
++G gamma 0.974 5.7999999999999994E-5
++G gamma 1.2365 1.1800000000000001E-4
++B beta+ 8.937000000000001E-4 9.078E-4
++G gamma 0.6889 6.3E-5
++G gamma 1.0321 4.7999999999999994E-5
++G gamma 1.4081 8.500000000000001E-4
++B beta+ 8.93E-4 9.14E-4
++G gamma 0.425 1.37E-4
++G gamma 0.942 5.7E-5
++G gamma 1.6609 4.070000000000001E-4
++B beta+ 8.919E-4 9.228999999999999E-4
++G gamma 1.789 5.7E-7
++G gamma 1.801 4.1E-7
+
+# 45SC2C  45TI EC DECAY FOR DETAILS. SEE 1988KO19 AND 1989KO36 FOR THEORETICAL   
+#  45TI EC DECAY FOR DETAILS. SEE 1988KO19 AND 1989KO36 FOR THEORETICAL   
+#  CALCULATIONS                                                           
+#G           NOTE THAT RI(1801G)/RI(1789G)=0.71 18 IS DISCREPANT WITH THE 
+#G ADOPTED VALUE OF 0.221 23                                              
+#L J         FROM THE Adopted Levels                                      
+#N                                                                     5  
+#L 0.0         7/2-                                                       
+#L 12          3/2+                                                    M  
+#L 1661        9/2-                                                       
+#G 1661        100                                                        
+#L 1801        5/2+                                                       
+#L           SIGMA(RES) AP 1.2E+4 B 3. SIGMA(NONRES) AP 0.06 B 2          
+#G 1789        0.14    2                                                  
+#G 1801        0.10    2                                                  
+#                                                                         
+#  45SC(N,N'),(N,N'G)                                      08NDS    200802
+#H TYP=FUL$AUT=T. W. BURROWS$CIT=NDS 109, 171 (2008)$CUT=30-Oct-2007$     
+#  1969RO21: E=0.45-1.8 MEV. MEASURED G'S. HAUSER-FESHBACH                
+#  1971BA57: E=1.1-1.4 MEV. MEASURED EXCITATION FUNCTIONS, N'S (TOF,SCIN),
+#  G'S. HAUSER-FESHBACH                                                   
+#  1973RO26: E=1.41 AND 1.75 MEV. MEASURED G'S AND G(THETA)               
+#  1989GE09,1983EL03: FAST REACTOR SPECTRUM (THERMAL N'S SUPPRESSED BY CD 
+#  AND B{-4}C FILTERS; REACTOR G'S BY PB). TWO-TARGET DSAM                
+#  1993SM02: E=1.5-10 MEV. MEASURED SIGMA(THETA(C.M.)=20 DEG-160 DEG);    
+#  TOF. PRESENTED ANGLE-INTEGRATED RESULTS AVERAGED OVER AP 100 KEV       
+#G E         FROM 1971BA57 FOR E(LEVEL)<1.41 MEV, 1973RO26 FOR            
+#G 1.41 MEV<E(LEVEL)<1.7 MEV AND 1989GE09 FOR E(LEVEL)>1.7 MEV, EXCEPT AS 
+#G NOTED                                                                  
+#G RI        FROM 1969RO21, EXCEPT AS NOTED. RELATIVE PHOTON BRANCHING    
+#G RATIO FROM EACH LEVEL                                                  
+#G M         FROM G(THETA) (1973RO26). 364G(THETA) WAS USED AS AN INTERNAL
+#G STANDARD                                                               
+#G M(A)      FROM G(THETA) (1973RO26) AND COMPARISON TO RUL               
+#G RI(B)     FROM 1973RO26                                                
+#G E(D),RI(E)$EG FROM 1969RO21. RI'S WERE NOT GIVEN BY 1969RO21 DUE TO    
+#G LARGE STATISTICAL UNCERTAINTIES                                        
+#L J,E(A)    FROM THE Adopted Levels. CONTRIBUTING SPIN AND PARITY        
+#L ARGUMENTS FROM THESE DATA ARE GIVEN AS FOOTNOTES. 12.40-KEV LEVEL      
+#L ENERGY HELD FIXED IN LEAST-SQUARES ADJUSTMENT                          
+#L T         FROM TWO-TARGET DSAM (1989GE09); INCLUDES CORRECTIONS FOR    
+#L MODERATING ABILITY OF MATERIAL.                                        
+#L E(Z)      UNRESOLVED BY 1993SM02. ENERGIES OBSERVED WERE 0.0, 465 23,  
+#L 1017 34, 1250 20, 1432 23, AND 1691 25                                 
+#L J(B)      HAUSER-FESHBACH ANALYSIS (1971BA57,1969RO21) CONSISTENT WITH 
+#L ADOPTED JPI                                                            
+#L J(D)      FROM G(THETA) (1973RO26) AND E2 G TO 3/2+                    
+#L J(E)      FROM HAUSER-FESHBACH ANALYSIS (1971BA57,1969RO21). 1969RO21  
+#L NOTE THAT THE HAUSER-FESHBACH ANALYSIS IS NOT CONCLUSIVE               
+#N                                                                     6  
+#L 0.0         7/2-                                                       
+#L FLAG=Z                                                                 
+#L 12.40     5  3/2+                                                   M S
+#L FLAG=ZA                                                                
+#L      376.8 43/2-                                                       
+#L FLAG=ZB                                                                
+#G 363.8     5 100       (E1(+M2)) -0.01   8                              
+#G M,MR      FROM THE Adopted Gammas. E1 ASSUMED BY 1973RO26              
+#G 377.3     5   6                                                        
+#L      543.1 45/2+              0.38 PS   GT                             
+#L FLAG=ZB                                                                
+#G 530.6     5 100       D                                                
+#G 543.2     5  67       D                                                
+#L      720.3 55/2-              0.15 PS   10                             
+#L E         OTHER: 737 20 (1993SM02)                                     
+#L FLAG=B                                                                 
+#G 720.3     5 100                                                        
+#L      939.1 5 1/2+             0.97 PS   LT                             
+#L FLAG=Z                                                                 
+#G 926.7     5 100                                                        
+#L      974.7 5 7/2+             0.42 PS   GT                             
+#L FLAG=ZD                                                                
+#G 431.8     5 0       AP                                                ?
+#G           PLACED BY EVALUATOR BASED ON THE Adopted Gammas              
+#G 962       1  62       E2                                               
+#G FLAG=A                                                                 
+#G 974.8     5 100       D+Q                                              
+#L 1067.6    7 3/2-                                                      ?
+#L FLAG=Z                                                                 
+#G 347.3     5                                                           ?
+#G           NOT OBSERVED IN THE BACKGROUND BUT 1973RO26 CONSIDERED THE   
+#G ORIGIN AS UNCERTAIN.                                                   
+#L     1236.415 11/2-            0.12 PS   8                              
+#L FLAG=ZD                                                                
+#G 1235      2 100       E2                                               
+#G FLAG=A                                                                 
+#L 1303.18   153/2+                                                      S
+#L FLAG=ZA                                                                
+#L     1407.020 (7/2)-           0.28 PS   14                             
+#L FLAG=Z                                                                 
+#G 1407      2 100                                                        
+#L     1436.310 9/2+                                                      
+#L T GT 5.5 FS LT 62 FS                                                   
+#L FLAG=Z                                                                 
+#G 893       1                                                            
+#G 1437      2                                                            
+#L 1472.8    10(7/2+)                                                    ?
+#L FLAG=E                                                                 
+#G 752       1                                                           ?
+#G FLAG=DE                                                                
+#G 1474      2                                                           ?
+#G FLAG=DE                                                                
+#L 1556.2    5 (3/2)-                                                    S
+#L FLAG=AZ                                                                
+#L     1662.715 9/2-             0.13 PS   9                              
+#L FLAG=Z                                                                 
+#G 426       1   54                                                       
+#G FLAG=B                                                                 
+#G 1664      2  100                                                       
+#G FLAG=B                                                                 
+#L     1800     5/2+             0.045 PS  7                              
+#L FLAG=Z                                                                 
+#G 1788                                                                   
+#L     2094     5/2              0.021 PS  9                              
+#G 2094                                                                   
+#L     2223    5/2+,7/2+         0.069 PS  14                             
+#G 1503                                                                   
+#L     2304     (5/2-)           0.83 PS   83                             
+#G 2292                                                                   
+#L     2343    (7/2-)            0.046 PS  11                             
+#L T         SEE FOOTNOTE ON THE 2341 AND 2352 STATES IN THE Adopted      
+#L Levels                                                                 
+#G 2343                                                                   
+#L     2780    (1/2-,3/2,5/2)    0.069 PS  14                             
+#G 2403                                                                   
+#                                                                         
+#  45SC(P,P'),(D,D')                                       08NDS    200802
+#H TYP=FUL$AUT=T. W. BURROWS$CIT=NDS 109, 171 (2008)$CUT=30-Oct-2007$     
+#  1968HA31: ED=7.5 MEV. MEASURED SIGMA(THETA=22.5 DEG-157.5 DEG, 7.5 DEG 
+#  STEPS); MULTI-ANGLE SPECT. ABSOLUTE SIGMA(THETA) DETERMINED FROM THE   
+#  MEASURED TARGET THICKNESS AND EXPOSURE RATIOS                          
+#  1968PE10: EP=17.5 MEV. MEASURED SIGMA(THETA); SI. FWHM=25 KEV. DWBA.   
+#  1970BR03: EP=3.8 TO 6.4 MEV. THETA=90 DEG. Browne-Buechner SPECT. ALSO 
+#  MEASURED EG IN (P,P'G).                                                
+#  1971MA57: EP=49.75 MEV 10. MEASURED SIGMA(THETA); MAG SPECT,           
+#  ACOUSTIC-SPARK CHAMBER ALONG THE FOCAL PLANE. DE=20-30 KEV. DWBA       
+#  1974RU02: EP=5.200 TO 5.478 MEV, 7-KEV STEPS. MEASURED                 
+#  SIGMA(THETA=90 DEG,110 DEG,130 DEG,150 DEG); SI. COMPARISON TO         
+#  HAUSER-FESHBACH CALCULATIONS TO ELIMINATE SPIN UNCERTAINTIES. SEE ALSO 
+#  (P,P'G)                                                                
+#  1975DA16: EP=2, 2.5, 3, 3.5 MEV. MEASURED EP AND ^IP (SI).             
+#  1980BU08: EP=5.148 TO 5.425 MEV, 7.5-KEV STEPS. MEASURED SIGMA(THETA); 
+#  SI. COMPARISON TO HAUSER-FESHBACH CALCULATIONS TO ELIMINATE SPIN       
+#  UNCERTAINTIES. SEE ALSO (P,P'G) AND COULOMB EXCITATION                 
+#  OTHERS: SEE 1983BU21                                                   
+#L E         FROM 1970BR03, EXCEPT AS NOTED                               
+#L J         FROM HAUSER-FESHBACH ANALYSIS (1974RU02, E(LEVEL) LE 2033;   
+#L 1980BU08, E(LEVEL) GE 2095), EXCEPT AS NOTED. 1980BU08 ASSUMED         
+#L JPI OF 1662-KEV, 1801-KEV, AND 2032-KEV STATES TO BE 9/2-, 5/2+,       
+#L AND 11/2+, RESPECTIVELY, TO NORMALIZE THEORETICAL CROSS SECTIONS       
+#L S$LABEL=B*R                                                            
+#L L,S       FROM 1971MA57, EXCEPT AS NOTED. B*R FROM 1968PE10 AND        
+#L 1971MA57 ARE IN VERY GOOD AGREEMENT, EXCEPT AS NOTED                   
+#L E(A),L(B),S(D)$FROM 1968PE10                                           
+#L E(E)      FROM 1968HA31                                                
+#L E(F)      FROM 1971MA57                                                
+#L S(G)      SIGMA(THETA) WAS WEAK AND FLAT (1968PE10)                    
+#L E(H)      REPORTED BY 1971MA57 ONLY                                    
+#L L(I),S(J) L(D,D')=2 FROM SIMILARITY OF SHAPE TO L=2 TRANSFERS IN       
+#L EVEN-EVEN NUCLEI. B*R(1236)=0.25 AND B*R(1660)=0.16                    
+#L E(K)      FROM 1975DA16                                                
+#L E(L)      FROM (P,P'G) DATA OF 1980Bu08                                
+#L L(M),S(N) {TV} Unresolved multiplet in 1971Ma57.                       
+#L {U  Ex   }  {U L }  {U |bR }   |\   {U  Ex   }  {UL}  {U |bR }         
+#L 2128 {I30}   3   0.20   |\   3069 {I30}  3  0.19                       
+#L 2318 {I20}   2   0.27   |\   3184 {I30}  2  0.16                       
+#L 2607 {I30}  2+4  0.19   |\   4109 {I30}  3  0.31                       
+#L E(O)      SEE DISCUSSION IN THE Adopted Levels                         
+#L S(P)      SIGMA(THETA) WAS FLAT (1968PE10)                             
+#L S(Q)      SIGMA(THETA) WAS FORWARD PEAKED (1968PE10)                   
+#L E(R)      1970BR03 NOTED THAT THERE IS A GROUP OF STATES BETWEEN       
+#L 3724 KEV AND 3881 KEV                                                  
+#L E(S),L(T),S(U)$E=3431 20, L=3, B*R=0.57 AND E=4245 20, L=3, B*R=0.76   
+#L (1968PE10)                                                             
+#L 0.0                                                                    
+#L 14        20                                                           
+#L FLAG=A                                                                 
+#L 376       4  3/2-                             2        0.46            
+#L FLAG=E                                                                 
+#L 570       30 5/2+                             (2)                      
+#L FLAG=FG                                                                
+#L 720       4                                   2        0.37            
+#L FLAG=E                                                                 
+#L 940       30                                  3        0.09           ?
+#L FLAG=FH                                                                
+#L 1066      4  3/2-                             2        0.25            
+#L FLAG=E                                                                 
+#L 1236      4  11/2-                            2        0.61            
+#L FLAG=EIJ                                                               
+#L 1303      7  3/2+                                                      
+#L 1407      4  7/2-                                                      
+#L FLAG=EG                                                                
+#L 1425      6  7/2,9/2+                                                  
+#L FLAG=GK                                                                
+#L 1551      8  1/2-                             (4)                      
+#L FLAG=BK                                                                
+#L 1660      4  7/2-,9/2-                        2        0.36            
+#L FLAG=EIJ                                                               
+#L 1716      30                                  2+6,7,8  0.03           ?
+#L FLAG=FH                                                                
+#L 1805      7  5/2+                                                      
+#L 2033      7 11/2+                             (3,4)                    
+#L 2094.9    103/2-,5/2+                                                  
+#L FLAG=LMN                                                               
+#L 2107      7 15/2                                                       
+#L FLAG=MN                                                                
+#L 2152.1      (1/2-),1/2+                                                
+#L FLAG=LMNO                                                              
+#L 2227      7                                                            
+#L 2299      7 7/2-,9/2,11/2                                              
+#L FLAG=MNO                                                               
+#L 2340.8    6 7/2,9/2,11/2-                                              
+#L FLAG=LMN                                                               
+#L 2350.4    103/2                                                        
+#L FLAG=L                                                                 
+#L 2385      7                                                            
+#L 2506      30                                  (4,5)                    
+#L FLAG=FP                                                                
+#L 2562      7                                                            
+#L FLAG=P                                                                 
+#L 2596      7                                                            
+#L FLAG=MN                                                                
+#L 2634      7                                                            
+#L FLAG=MN                                                                
+#L 2700      7                                                            
+#L FLAG=Q                                                                 
+#L 2764      7                                   2        0.15            
+#L 2790      7                                                            
+#L 2943      7                                   3        0.35            
+#L 2990      7                                                            
+#L 3021      7                                                            
+#L FLAG=MN                                                                
+#L 3059      7                                                            
+#L FLAG=MN                                                                
+#L 3111      7                                   2        0.19            
+#L FLAG=BD                                                                
+#L 3156      7                                                            
+#L FLAG=MN                                                                
+#L 3206      7                                                            
+#L FLAG=MN                                                                
+#L 3224      7                                                            
+#L 3281      7                                   (1)      0.26            
+#L FLAG=BDQ                                                               
+#L 3329      7                                   3        0.41            
+#L FLAG=BDQ                                                               
+#L 3349      7                                   (1)      0.39            
+#L FLAG=BD                                                                
+#L 3392      7                                                            
+#L 3443      7                                   3        0.28            
+#L FLAG=STU                                                               
+#L 3498      7                                                            
+#L 3606      7                                   3        0.32            
+#L 3715      20                                  (2)      0.23            
+#L FLAG=ABDR                                                              
+#L 3763      30                                  3        0.24           ?
+#L FLAG=FHR                                                               
+#L 3890      30                                  3        0.27            
+#L FLAG=FQR                                                               
+#L 3914      7                                                            
+#L 3975      7                                   3        0.30            
+#L 4031      7                                   3        0.54            
+#L FLAG=BD                                                                
+#L 4072      7                                                            
+#L FLAG=MN                                                                
+#L 4129      7                                                            
+#L FLAG=MN                                                                
+#L 4299      30                                  2        0.22            
+#L FLAG=FSTU                                                              
+#L 4427      30                                  2        0.23           ?
+#L FLAG=FH                                                                
+#                                                                         
+#  45SC(P,P'G)                                             08NDS    200802
+#H TYP=FUL$AUT=T. W. BURROWS$CIT=NDS 109, 171 (2008)$CUT=30-Oct-2007$     
+#  1968CH25: E=2.5, 3.2, AND 3.6 MEV. MEASURED G'S AND GG-COINCIDENCES    
+#  (GELI,NAI)                                                             
+#  1970BL02: E=1.8 TO 4.5 MEV. MEASURED G'S, GG-COINCIDENCES (NAI,GELI),  
+#  PG-COINCIDENCES (SI), AND CE'S (SPECT)                                 
+#  1970EA02: E=3.0 AND 3.45 MEV. MEASURED G(THETA) AND GG(THETA) AND CE'S 
+#  (SPECT,SILI)                                                           
+#  1974RU02: E=5.0 MEV. MEASURED G'S AND PG-COINCIDENCES (SI,GELI). DSAM. 
+#  1975DA16: E=2, 2.5, 3, 3.5 MEV. MEASURED PROTONS (SI); G'S AND EXCIT   
+#  1980BU08: E=5.5 MEV. MEASURED G'S AND PG-COINCIDENCES (SI,GELI). DSAM, 
+#  RDM. SEE ALSO (P,P'),(D,D') AND COULOMB EXCITATION                     
+#  1983RA17: E=3, 4.5 MEV. MEASURED G'S. DSAM                             
+#  1985AV04: E=3.5-5.0 MEV. MEASURED G'S AND G(THETA). DSAM               
+#  OTHERS: SEE 1992BU01, COULOMB excitation (1979PA12 AND 1986TA14)       
+#  AND 1983BU21                                                           
+#G           1966JO04 COMPARED RI(12G) AND RI(XK) (E=1.2 AND 1.9 MEV; pc) 
+#G           UNPLACED G'S WITH EG=292.5, 1843.1, 2678.8, AND 2837.3       
+#G REPORTED BY 1968CH25 HAVE NOT BEEN CONFIRMED                           
+#G           PLACEMENT OF GAMMA'S ARE CONSIDERED UNCERTAIN IF NOT         
+#G CONFIRMED BY OTHER WORKS OR IF ALL AUTHORS HAVE NOTED THAT THE         
+#G PLACEMENT IS UNCERTAIN                                                 
+#G           COINCIDENCE DATA ARE FROM 1970EA02 AND 1968CH25              
+#G $EKC: FROM 1970EA02, EXCEPT AS NOTED. NORMALIZED TO EKC(662G;          
+#G 137BA) AND EKC(279G; 197AU) FROM 1966HA50). CORRECTED FOR ANGULAR      
+#G DISTRIBUTION EFFECTS, EXCEPT AS NOTED. THE EVALUATOR COULD NOT         
+#G RENORMALIZE SINCE 1970EA02 DID NOT DETAIL THEIR NORMALIZATION          
+#G PROCEDURE. HOWEVER, 1966HA50 CITE CC(662G; 137BA)=0.0915, BrIcc        
+#G (2005KiZT) YIELDS 0.09148, AND EKC(662G; 137BA)=0.09107 29 (2007KIZZ). 
+#G E,RI(A)   FROM 1975DA16, EXCEPT AS NOTED                               
+#G RI,E(B)   FROM 1980BU08, EXCEPT AS NOTED. RELATIVE PHOTON BRANCHING    
+#G RATIO FROM EACH STATE                                                  
+#G M,MR      FROM ECC AND EKC, EXCEPT AS NOTED.                           
+#G CC$LABEL=ECC                                                           
+#G CC        FROM 1970BL02, EXCEPT AS NOTED. RENORMALIZED BY EVALUATOR    
+#G RI(D)     FROM 1970BL02                                                
+#G RI(E)     FROM 1974RU02                                                
+#G E(F),RI(G)$FROM 1968CH25                                               
+#G E(H)      FROM 1985AV04                                                
+#G E(I)      SEE COMMENT ON THE ASSOCIATED STATE                          
+#G E(J)      SEE FOOTNOTE ON THE 2342 AND 2352 STATES IN THE Adopted      
+#G Levels.                                                                
+#G E(K)      FROM 1983RA17                                                
+#L E         FROM LEAST-SQUARES FIT TO EG'S, EXCEPT AS NOTED. TRANSITIONS 
+#L WITHOUT |DE{-|g}'S WERE NOT INCLUDED UNLESS THEY WERE THE ONLY         
+#L TRANSITIONS CONNECTING THE STATES                                      
+#L J         FROM THE Adopted Levels                                      
+#L T         {TV} Average of the following DSAM measurements, except as   
+#L  noted:                                                                
+#L  E{-x}     Adopted    1974Ru02   1980Bu08          1983Ra17 (ps)       
+#L         1985Av04                                                       
+#L {U    }  {U T{-1/2} (ps)  }  {U  (ps)  }  {U  (ps)  }  {U  Ep=3 MeV  } 
+#L   {U Ep=4.5 MeV }  {U   (ps)    }                                      
+#L  543  5.3 {I10}                            4.5 {I10}                   
+#L         6.9 {I+23-16}                 {TV}Weighted                     
+#L  720  0.193 {I22}      0.152 {I42}  0.152 {I42}  0.200 {I+36-23}       
+#L   0.228 {I+23-16}               {TV}Unweighted. 1974Ru02               
+#L {TV89}and 1980Bu08 assumed                                             
+#L {TV89}to be the same.                                                  
+#L  975  2.49 {I35}                           2.08 {I+47-34}              
+#L    3.16 {I+78-47}                {TV}Weighted                          
+#L 1068  0.45 {I16}                 0.76 {I35}   0.22 {I+7-5}             
+#L      0.38 {I+14-9}                 {TV}Unweighted                      
+#L 1237  1.60 {I34}       0.76 {I14}   2.4 {I19}    1.46 {I+31-24}        
+#L    1.81 {I+27-20}                {TV}Unweighted                        
+#L 1409  0.257 {I+23-18}            0.250 {I49}  0.270 {I+47-35}          
+#L   0.254 {I+31-24}               {TV}Weighted                           
+#L 1662  0.095 {I7}       0.076 {I21}  0.080 {I11}  0.100 {I+20-15}       
+#L   0.103 {I8}                    {TV}Weighted                           
+#L 2138  0.31 {I+9-7}                                                     
+#L                                        0.40 {I+17-12}                  
+#L    0.50 {I+18-12}  {TV}Weighted                                        
+#L 2290  0.21 {I7}                  0.17 {I4}                             
+#L                   0.250 {I25}                   {TV}Unweighted         
+#L                               0.51 {I17}                               
+#L 2342  0.026 {I11}                0.015 {I10}                0.036 {I2} 
+#L                     {TV}Unweighted                                     
+#L BAND(A)   KPI=3/2+ BAND.                                               
+#L BASED ON J(J+1) ENERGY DEPENDENCE AND ENHANCED BE2W'S (1985AV04)       
+#L BAND(B)   KPI=3/2- BAND.                                               
+#L BASED ON J(J+1) ENERGY DEPENDENCE AND ENHANCED BE2W'S (1985AV04)       
+#L T(D)      101 PS 28 (1980BU08; RDM) AND 3.5 PS 13 (1983RA17; DSAM.     
+#L WEIGHTED AV OF 2.8 PS +22-10 AT EP=3.0 MEV AND 6.2 PS +46-21 AT EP=4.5 
+#L MEV) WERE NOT ADOPTED SINCE THE VALUES ARE DISCREPANT WITH             
+#L T1/2=43.3 PS 23 FROM THE UNWEIGHTED AV BE2UP=0.0071 4 OF SEVEN BE2UP   
+#L VALUES RANGING FROM 0.0060 10 TO 0.0086 17 IN COUL. ex. NOTE ALSO THAT 
+#L THE T1/2 FROM 1983RA17 WOULD RESULT IN BE2W(377G)=1.8E+2 7 WHICH, WHILE
+#L WITHIN THE RUL FOR A=45-90, SEEMS LARGE COMPARED TO THE SYSTEMATICS OF 
+#L THE A=45-67 REGION WHERE ONLY 21 TRANSITIONS OUT OF 375 EXCEED 32 W.U. 
+#L (1979EN04). OTHER: >1.1 PS (1974RU02; DSAM). ALSO, T1/2(543)=105 PS 28 
+#L (1980BU08; RDM) IS DISCREPANT WITH DSA MEASUREMENTS IN (P,P'G) AND     
+#L (A,PG), BE1UP in COULOMB EXCITATION, AND WIDTH IN (G,G)                
+#L T(E)      FROM 1983RA17 (DSAM; EP=4.5 MEV). T1/2(940) GT 2.6 PS AT     
+#L EP=3.0 MEV AND GT 7.7 PS AT EP=4.5 MEV                                 
+#L BAND(F)   KPI=1/2+ BAND?                                               
+#L BASED ON J(J+1) ENERGY DEPENDENCE AND ENHANCED BE2W'S (1985AV04)       
+#L E(G)      {TV} Weighted average of the following data (held fixed in   
+#L  the least-squares adjustment):                                        
+#L {U Adopted  }  {U1970Bl02 }  {U1970Ea02 }  {U1974Ru02}  {U1975Da16}    
+#L  939.5  {I3}    939.1 {I9}    939.5 {I7}    939.3 {I5}   939.5 {I4}    
+#L 1068.2  {I5}   1068.4 {I10}  1069.3 {I8}   1069.2 {I5}  1067.6 {I3}    
+#L 1302.7  {I7}   1302.7 {I10}  1300.3 {I12}  1303.3 {I5}  1302.7 {I6}    
+#L 1662.36 {I24}  1661.8 {I7}              1662.0 {I5}  1662.6 {I3}       
+#L T(H)      FROM 1985AV04 (DSAM)                                         
+#L T(I)      FROM 1980BU08 (DSAM)                                         
+#L T(K)      SEE FOOTNOTE ON THE  2342 AND 2352 STATES IN THE Adopted     
+#L Levels.                                                                
+#N                                                                     6  
+#L 0.0         7/2-                                                       
+#L 12.46     14 3/2+             0.305 S   17                          M  
+#L T         FROM 1964HO14 (EP=2.7 MEV. G(T),NAI)                         
+#L FLAG=A                                                                 
+#G 13        1 100        (M2)                                            
+#G E         FROM 1964HO14 (EP=2.7 MEV. G(T),NAI)                         
+#G EKC=413 37 (1966JO04)                                                  
+#L 376.59    19 3/2-                                                      
+#L FLAG=BD                                                                
+#G 364.35    33 100       (E1(+M2))-0.01   8     5.09E-4                  
+#G M,CC      FROM THE ADOPTED G'S. ASSUMED BY THE EVALUATOR TO NORMALIZE  
+#G CC. 1970BL02 USED CC=0.00045                                           
+#G EKC=5.3E-4 14                                                          
+#G FLAG=D                                                                 
+#G 376.94    49   8.8  4  E2                     2.7E-4 7                 
+#G EKC AP 0.002                                                           
+#G EKC$NOT CORRECTED FOR ANISOTROPY.                                      
+#G FLAG=D                                                                 
+#L 543.06    14 5/2+               5.3 PS  10                             
+#L T         101 PS 28 (1980BU08; RDM) NOT ADOPTED SINCE THE VALUE IS     
+#L DISCREPANT WITH DSAM IN (P,P'G) AND (A,PG), BE1|^ IN COUL. EX., AND    
+#L WIDTH IN (G,G). OTHER: >0.55 PS (1980BU08; DSAM)                       
+#L FLAG=A                                                                 
+#G 166.0     7    1.0  LE                                                ?
+#G FLAG=A                                                                 
+#G 530.66    17 100       M1(+E2)  -0.04   +4-51 3.1E-4 6              C  
+#G EKC=3.7E-4 9                                                           
+#G FLAG=D                                                                 
+#G 543.09    23  72.0  15 E1                     1.6E-4 5              C  
+#G EKC=2.9E-4 10                                                          
+#G FLAG=D                                                                 
+#L 720.43    13 5/2-             193 FS    22                             
+#L FLAG=B                                                                 
+#G 720.34    15 100       M1(+E2)                                         
+#G M         FROM EKC AND COUL. EX. (1970EA02).                           
+#G MR        0 LE MR LE 1.0 OR -0.1 LE MR LE 0.0 FROM EKC AND COUL. EX.   
+#G (1970EA02)                                                             
+#G EKC=1.4E-4 3                                                           
+#G FLAG=D                                                                 
+#L 939.5      3 1/2+             2.6 PS    GT                             
+#L FLAG=EFG                                                               
+#G 563.7     8   83    24                                                 
+#G FLAG=A                                                                 
+#G 926.83    42 100    27                                             @   
+#G FLAG=A                                                                 
+#L 974.54    11 7/2+             2.49 PS   35                             
+#L FLAG=A                                                                 
+#G 431.71    23  17.6  10 M1+E2    1.12    18    8.1E-4 29             C  
+#G 962.02    14  54.0  20                                                 
+#G 974.39    14 100                                                       
+#G FLAG=D                                                                 
+#L 1068.2    5 3/2-              0.45 PS   16                             
+#L FLAG=G                                                                 
+#G 347.36    33  25    6                                                  
+#G RI        RI(348G)/RI(691G)=0.47 (1980BU08) DISCREPANT                 
+#G FLAG=D                                                                 
+#G 691.11    49 100                                                       
+#G FLAG=D                                                                 
+#L 1236.90   15 11/2-            1.60 PS   34                             
+#G 1237.13   18 100                                                   @   
+#G FLAG=A                                                                 
+#L 1302.7    7 3/2+              2.3 PS    +8-5                           
+#L T         OTHER: GT 5.5 PS (1980BU08)                                  
+#L FLAG=EFG                                                               
+#G 760.2     7 100                                                     C  
+#G 926.83    42 45                                                    @   
+#G 1289.6    8  16                                                     C  
+#G RI        OTHER AUTHORS GIVE RI(760G)/RI(1290G) AP 1. 1983RA17 DID NOT 
+#G CONSIDER THE 1290G IN THEIR DSAM MEASUREMENTS                          
+#L 1409.12   23 (7/2)-           257 FS    +23-18                         
+#L T         OTHER: 0.6 PS 3 (1974RU02; DSAM)                             
+#L FLAG=B                                                                 
+#G 688.9     5   11                                                       
+#G 1032.79   39   3.1  2                                              @   
+#G RI        RI(1033G)/RI(1409G)=0.07 (1980BU08) DISCREPANT               
+#G FLAG=E                                                                 
+#G 1409.08   42 100    6                                                  
+#G FLAG=E                                                                 
+#L 1433.85   19 9/2+             1.9 PS    13                             
+#L FLAG=AI                                                                
+#G 197.53    29   4                                                       
+#G 459.19    25  25                              9.9E-4 23                
+#G 889.8     6  100                                                    C  
+#G 1056.7    10   5.8  17                                                ?
+#G FLAG=FG                                                                
+#G 1433.6    6   11                                                       
+#L 1555.8    7 (3/2)-                                                     
+#G 487.6     7  100                                                       
+#L 1662.36   24 9/2-             95 FS     7                              
+#L FLAG=BG                                                                
+#G 253.76    45  13    6                                                  
+#G FLAG=A                                                                 
+#G 425.40    48  19    4                                                  
+#G FLAG=A                                                                 
+#G 942.0     6   14    8                                                  
+#G FLAG=A                                                                 
+#G 1661.9    10 100    13                                                 
+#G FLAG=A                                                                 
+#L 1800.3    4 5/2+              76 FS     +12-7                          
+#L T         CONSISTENT WITH DATA FROM (A,PG), (N,N'G), AND (P,G). OTHER: 
+#L 8 FS 7 (1980BU08; DSAM)                                                
+#L FLAG=EF                                                                
+#G 497.7         31                                                      ?
+#G FLAG=B                                                                 
+#G 733.3          8                                                       
+#G FLAG=B                                                                 
+#G 1080.9         8                                                       
+#G FLAG=B                                                                 
+#G FL=720.43                                                              
+#G 1257.17   49  62                                                       
+#G 1424.5        23                                                       
+#G FLAG=B                                                                 
+#G 1788.1    6  100                                                       
+#G 1800.1    6   26                                                       
+#L 1935.5    10                  32 FS     +16-11                         
+#L FLAG=H                                                                 
+#G 1935.5    10 100                                                       
+#G FLAG=FG                                                                
+#L 1935.6                        61 FS     +22-16                        ?
+#L           STATE AND ASSOCIATED GAMMAS REPORTED ONLY BY 1985AV04        
+#L FLAG=H                                                                 
+#G 1559                                                                  ?
+#G FLAG=HI                                                                
+#L 2030.83   22 11/2+            0.48 PS   17                             
+#L T         FROM 0.37 PS 19 FOR 597.9G AND 0.66 PS 25 FOR 1056.9G        
+#L FLAG=AI                                                                
+#G 597.4     5  100    50                                                 
+#G FLAG=A                                                                 
+#G 794.15    47  10    3                                                  
+#G FLAG=A                                                                 
+#G 1056.14   23  85    11                                                 
+#G FLAG=A                                                                 
+#L 2091.1    9 5/2               7.6 FS    LT                             
+#L T         CONSISTENT WITH DATA FROM (P,G), (A,PG), AND (N,N'G).        
+#L OTHER: 62 FS 14 (1980BU08; DSAM)                                       
+#L FLAG=E                                                                 
+#G 1026.2       17                                                        
+#G FLAG=B                                                                 
+#G FL=1068.2                                                              
+#G 1717.4       13                                                        
+#G FLAG=B                                                                 
+#G FL=376.59                                                              
+#G 2091.0    9 100                                                        
+#G FLAG=B                                                                 
+#L 2106.5      15/2-             1.4 PS    GT                             
+#L FLAG=H                                                                 
+#G 869.6       100                                                        
+#G FLAG=B                                                                 
+#L 2138.5      3/2-,5/2          0.31 PS   +9-7                           
+#L T         SEE COMMENT ON 2138G                                         
+#G 2138.4                                                                 
+#G           2139G ASSIGNED TO 2151 STATE BY 1983RA17; HOWEVER,           
+#G T1/2 (1983RA17) IS INCONSISTENT WITH T1/2(2151) IN (P,G) BUT IS        
+#G CONSISTENT WITH T1/2 (1985AV04) FOR THE 2138 STATE                     
+#G FLAG=H                                                                 
+#L 2152.1                                                                ?
+#L           STATE AND ASSOCIATED GAMMAS REPORTED ONLY BY 1980BU08.       
+#G 596.4       100                                                       ?
+#G FLAG=BI                                                                
+#G 1084.0       52                                                       ?
+#G FLAG=BI                                                                
+#G 1608.8       98                                                       ?
+#G FLAG=BI                                                                
+#L 2220.1    13 (3/2-,5/2)                                                
+#L           STATE AND ASSOCIATED GAMMAS OBSERVED ONLY BY 1975DA16 IN     
+#L (P,P'G). 2208G FROM THE 2220 STATE PROBABLY CORRESPONDS TO 2209G       
+#L OBSERVED BY 1972EK02 IN (P,G)                                          
+#G 2207.6    13 100    22                                                 
+#G FLAG=AI                                                                
+#G 2220.6    18  48    22                                                ?
+#G FLAG=AI                                                                
+#L 2224.2      5/2+,7/2+         0.42 PS   18                             
+#L T         FROM 0.35 PS 17 FOR 1504.0G AND 0.52 PS 31 FOR 1681.2G       
+#L FLAG=I                                                                 
+#G 790.7         56                                                       
+#G FLAG=B                                                                 
+#G 920.8         26                                                       
+#G FLAG=B                                                                 
+#G 1504.0       100                                                       
+#G FLAG=B                                                                 
+#G 1681.2        74                                                       
+#G FLAG=B                                                                 
+#G 2212                                                                  ?
+#G           MAY CORRESPOND TO 2208G ASSIGNED TO 2220 STATE BY 1975DA16   
+#G FLAG=H                                                                 
+#G 2224                                                                  ?
+#G           MAY CORRESPOND TO 2221G ASSIGNED TO 2220 STATE BY 1975DA16   
+#G FLAG=H                                                                 
+#L 2289.8    7 (7/2-,9/2)        0.21 PS   7                              
+#G 1049.2    10  82                                                    ?  
+#G           ORIGINALLY ASSIGNED TO THE 2352 STATE BASED ON COINCIDENCE   
+#G WITH AN AP 1260G AND PREVIOUSLY KNOWN STATE AT 2351. 1985AV04 ALSO     
+#G ASSIGNED A 1049G TO THE 2352 STATE ALONG WITH A 1055G TO THE 2290      
+#G STATE. EVALUATOR BELIEVES THAT THERE IS ONLY ONE GAMMA AND IT SHOULD   
+#G BE ASSIGNED TO THE 2290 STATE.                                         
+#G FLAG=BF                                                                
+#G 1316.0    5   58    11                                                ?
+#G FLAG=A                                                                 
+#G 2289.7    7  100    13                                                 
+#G FLAG=A                                                                 
+#L 2305.11   17 (5/2-)                                                    
+#G 641.08    47  25    8                                                  
+#G FLAG=A                                                                 
+#G 1237.13   18 100    49                                             @   
+#G FLAG=A                                                                 
+#L 2321.5    10 3/2-,5/2,7/2+    45 FS     +11-7                          
+#L FLAG=H                                                                 
+#G 2308.8    13 100    15                                                 
+#G FLAG=A                                                                 
+#G 2321.7    14  44    15                                                 
+#G FLAG=A                                                                 
+#L 2341.7    10 (7/2-)           26 FS     11                             
+#L FLAG=K                                                                 
+#G 931.34    32 154    LE                                             &  ?
+#G FLAG=A                                                                 
+#G 2341.6    10 100    16                                                 
+#G FLAG=AJ                                                                
+#L 2351.7    10 3/2-,5/2         194 FS    56                             
+#L FLAG=IK                                                                
+#G 796.4         59                                                       
+#G FLAG=BJ                                                                
+#G 1631.0    15 100    20                                                 
+#G FLAG=FGJ                                                               
+#G 2350.4    10   5.4  11                                                ?
+#G FLAG=FGJ                                                               
+#L 2531.1      (1/2+,3/2,5/2)    21 FS     5                              
+#L FLAG=E                                                                 
+#G 1988                                                                   
+#G FLAG=K                                                                 
+#L 2592.2    4 3/2-,5/2,7/2-     10 FS     5                              
+#L FLAG=E                                                                 
+#G 1032.79   39   35   LE                                             @  ?
+#G FLAG=A                                                                 
+#G FL=1555.8                                                              
+#G 1524.48   43   61   18                                                 
+#G FLAG=A                                                                 
+#G 1869.7    15   17   13                                                 
+#G FLAG=A                                                                 
+#G 2212.7    13  100   22                                                 
+#G FLAG=A                                                                 
+#G 2590                                                                  ?
+#G           MAY CORRESPOND TO 2590G ASSIGNED TO 2601 STATE BY 1972EK02 IN
+#G (P,G)                                                                  
+#G FLAG=K                                                                 
+#L 2778.7      (1/2-,3/2,5/2)    20 FS     LT                             
+#L FLAG=E                                                                 
+#G 2402                                                                   
+#G FLAG=K                                                                 
+#L 3022.7    3 1/2-,3/2-                                                 ?
+#G 803.5     6  100    38                                                ?
+#G FLAG=A                                                                 
+#G 931.34    32 562    LE                                             &  ?
+#G FLAG=A                                                                 
+#                                                                         
+#  45SC(3HE,3HEG) E=38 MEV       2007LA23                  08NDS    200802
+#H TYP=FUL$AUT=T. W. BURROWS$CIT=NDS 109, 171 (2008)$CUT=30-Oct-2007$     
+#  MEASURED 3HE-G COINCIDENCES WITH THE ^CACTUS MULTI-DETECTOR ARRAY (8   
+#  SI (DE/E) PARTICLE TELESCOPES AT 45 DEG RELATIVE TO THE BEAM. 28       
+#  COLLIMATED NAI G-DETECTORS (TOTAL EFFICIENCE AP 15%) SURROUNDED THE    
+#  TARGET AND PARTICLE DETECTORS). 3HE-G COINCIDENCES WERE SORTED INTO    
+#  E(3HE)-EG MATRICES BY GATING ON THE 3HE PARTICLE. G-SPECTRA UNFOLDED   
+#  USING THE KNOWN RESPONSE FUNCTION OF THE ^CACTUS ARRAY. A SUBTRACTION  
+#  METHOD WAS USED TO OBTAIN G-SPECTRA CONTAINING ONLY THE FIRST G'S IN A 
+#  CASCADE. DEDUCED LEVEL DENSITIES UP TO AP 7.5 MEV.                     
+#                                                                         
+#  COULOMB EXCITATION                                      08NDS    200802
+#H TYP=FUL$AUT=T. W. BURROWS$CIT=NDS 109, 171 (2008)$CUT=30-Oct-2007$     
+#  Includes:  (P,P'G)      (A,A'G)       (14N,14N'G)  (35CL,35CL'G)       
+#           (3HE,3HE'G)  (12C,12C'G)    (16O,16O'G)                       
+#  1967AF03: E(12C)=36.8 MEV; E(14N)=43.3 MEV; AND E(16O)=48.6 MEV.       
+#  MEASURED THICK-TARGET EXCITATION FUNCTIONS (THETA=42 DEG); NAI         
+#  1967BL17: EA=2.6 AND 3.0 MEV; E(16O)=15 MEV; AND E(35CL)=14-30 MEV.    
+#  MEASURED THICK-TARGET EXCITATION FUNCTIONS, EKC, G'S, AND G(T); pc, NAI
+#  1967IM01: E(14N)=11.5 MEV. MEASURED G'S; NAI                           
+#  1969GO09: E(16O)=25 MEV AND E(35CL)=40 MEV. MEASURED THICK-TARGET      
+#  EXCITATION FUNCTIONS (0 DEG,AP 3PI; 0 DEG,55 DEG,90 DEG)               
+#  1970BL02: EA=3-5 MEV. MEASURED G'S                                     
+#  1970EA02: EA=3-6 MEV. MEASURED THICK-TARGET EXCITATION FUNCTIONS       
+#  (55 DEG) AND G(THETA)                                                  
+#  1979PA12: EP=2.5 TO 3.5 MEV; EA=4 TO 5 MEV. MEASURED THICK-TARGET      
+#  EXCITATION FUNCTIONS (55 DEG) AND G(THETA=0 DEG,90 DEG)                
+#  1980Bu08: EP=1-3 MEV; E(3HE)=5.5-8.0 MEV; and EA=2.75-5.7 MEV.         
+#  MEASURED THICK-TARGET EXCITATION FUNCTIONS (55 DEG). SEE ALSO          
+#  (P,P'),(D,D') AND (P,P'G)                                              
+#  1986TA14: EP=2-4 MEV. MEASURED G'S, THICK-TARGET YIELDS, G EXCITATION  
+#  FUNCTIONS, AND G(THETA=0 DEG-90 DEG, 5 ANGLES).                        
+#  OTHERS: SEE 1992BU01                                                   
+#G E,RI      FROM 1986TA14 (DE(G) NOT GIVEN), EXCEPT AS NOTED             
+#G RI        % PHOTON BRANCHING RATIO FROM EACH STATE                     
+#G M         FROM G(THETA) AND COULOMB EXCITATION (1986TA14), EXCEPT AS   
+#G NOTED                                                                  
+#G M(A),MR   FROM G(THETA) (1986TA14), EXCEPT AS NOTED                    
+#G E(B),RI(D)$FROM 1967BL17                                               
+#G RI(E)     WEIGHTED AVERAGE OF RI(364)/RI(376)=10.5 12 (1986TA14), 10.3 
+#G 3 (1969GO09), AND 10.8 5 (1967BL17)                                    
+#G M(F)      FROM G(THETA) AND COULOMB EXCITATION (1979PA12)              
+#G RI(G)     UNWEIGHTED AVERAGE OF                                        
+#G RI(431):RI(962):RI(974)=11.6 12:30.8 16:57.6 13 (1986TA14) AND         
+#G 15 1:25 1:60 1 (1979PA12)                                              
+#G RI(H)     UNWEIGHTED AVERAGE OF RI(347)/RI(691)=21.8 10/78.2 10        
+#G (1986TA14) AND 32 1/68 1 (1979PA12)                                    
+#G MR(I)     FROM G(THETA) (1979PA12)                                     
+#G E(J)      LOOKED FOR BUT NOT OBSERVED BY 1986TA14                      
+#G RI(K)     UNWEIGHTED AVERAGE OF RI(425)/RI(1662)=24.9 20/76.1 18       
+#G (1986TA14) AND 30 1/70 1 (1979PA12)                                    
+#L E         FROM 1986TA14 (DE(G) NOT GIVEN) EXCEPT FOR 12-KEV STATE      
+#L J         FROM COULOMB EXCITATION OF LEVEL AND G(THETA), EXCEPT AS     
+#L NOTED                                                                  
+#L T         CALCULATED BY EVALUATOR FROM THE ADOPTED BE|l|^ VALUES AND   
+#L THE ADOPTED GAMMA AND LEVEL PROPERTIES, EXCEPT AS NOTED                
+#L S$LABEL=BE|l|^                                                         
+#L S         {TV} BE2|^'s are the unweighted averages of the following    
+#L  data (10{+-3}e{+2}barn{+2}), except as noted:                         
+#L {U Ex }  {U1986Ta14}  {U1980Bu08}  {U1979Pa12}  {U1970Ea02}            
+#L   {U1970Bl02}  {U1969Go09}  {U1967Im01}  {U1967Bl17}  {U1967Af03}      
+#L  377   6.6 {I6}                7.0 {I6}     8.5 {I6}                   
+#L               7.0 {I7}     8.6 {I17}    6.0 {I10}    6.2 {I12}         
+#L  720  14.0 {I14}     8.1 {I7}     6.5 {I5}     9.7 {I7}    5.5 {I5}    
+#L      8.1 {I20}                        5.6 {I11}                        
+#L 1237             28 {I4}      12.0 {I9}    19.0 {I25}  15.0 {I25}      
+#L    33 {I10}                          9.3 {I19}                         
+#L {TV}1980Bu08 normalized to BE2|^(377)=0.0072 {I5} from the 1977        
+#L  {INuclear Data Sheets} evaluation (1977Be63).                         
+#L J(A),E(1)$FROM THE Adopted Levels                                      
+#L T(B),S(D) T1/2 FROM 1967BL17 (BE3UP<0.0001). MEASURED DECAY FOR AP 60  
+#L S.                                                                     
+#L S(E)      FROM 1986TA14. BE3UP(543)=1.62E-16 13 AND BE2UP(974)=0.0087 7
+#L (1979PA12) NOT ADOPTED. SEE 1983BU21 AND 1986TA14                      
+#L T(F),S(G) NOT ADOPTED SINCE 1986TA14 NOTE THAT THE COMPOUND            
+#L CONTRIBUTION TO THE EXCITATION FUNCTION IS AP 50%                      
+#L S(H)      BE2UP'S FROM 1979PA12. BE2UP(1068)<0.0090 (1970EA02).        
+#L T(I),S(J) IF J(1409)=7/2                                               
+#N                                                                     7  
+#L 0.0         7/2-                                                       
+#L FLAG=A                                                                 
+#L 12.40     5 3/2+              0.32 S    1                           M  
+#L FLAG=ABD1                                                              
+#G 12.4        100       M1,Q                                             
+#G M         FROM UPPER LIMIT ON BE3UP (1967BL17). NE E1 FROM EKC.        
+#G MR        MR>1.60 IF M1+E2; MR=8.8E-3 41 IF M2+E3 FROM EKC.            
+#G EKC=580 120 (1967BL17)                                                 
+#G EKC       FROM I(K X-RAY)/I(12.4G)=27.3 28                             
+#G FLAG=BD                                                                
+#L 376.7     233/2-              43.3 PS   23             0.0071    4     
+#G 364.3        91.26  19 D+Q      -1.2    +11-15                         
+#G MR        OTHER: -0.34 LE MR LE 0.00 OR MR GE +4.00 FROM G(THETA)      
+#G (1970EA02)                                                             
+#G FLAG=AE                                                                
+#G 376.7         8.74  19E2                                               
+#G FLAG=EF                                                                
+#L 543.08    17 5/2+             6.0 PS    9              1.4E-6    2     
+#L FLAG=AE                                                                
+#G 166.4        0.4    2                                                  
+#G 530.7       58.2    4 D+Q       -0.8    6                              
+#G FLAG=A                                                                 
+#G 543.1       41.3    5 E1+M2     +1.2    +13-7                          
+#L 720.48    145/2-              0.50 PS   36             0.0082    12    
+#G 708.3         0.7   3 D+Q       +1.2    +14-5                          
+#G FLAG=A                                                                 
+#G 720.5        99.3   5  M1+E2    +0.18   3                              
+#G MR        +1.0 4 (1986TA14) EXCLUDED BY ADOPTED T1/2 AND BE2UP         
+#G FLAG=I                                                                 
+#L 938.68    15 1/2+                                                      
+#G 563.0        17.6   12                                                 
+#G 926.7        82.4   10                                                 
+#L 974.44    10 7/2+             0.36 PS   4              7.5E-6    8     
+#L FLAG=E                                                                 
+#G 431.2       13.3    17 D+Q      -0.8    +4-9                           
+#G MR        OTHER: -0.17 2 (1979PA12)                                    
+#G FLAG=AG                                                                
+#G 962.1       27.9    29                                                 
+#G FLAG=G                                                                 
+#G 974.4       58.8    12E1+M2     -0.32   +6-11                          
+#G FLAG=G                                                                 
+#L 1067.73   30     3/2-         147 FS    34             0.0042    4     
+#L FLAG=FGH                                                               
+#G 347.4       27      5                                                  
+#G FLAG=H                                                                 
+#G 691.1       73      5 M1+E2     0.050   1                              
+#G FLAG=FHI                                                               
+#L 1237.14   2111/2-             1.47 PS   30             0.020     4     
+#L FLAG=FG                                                                
+#G 1237.1      100       E2(+M3)                                          
+#G MR        0 OR -0.10 5. OTHER: 0 FROM G(THETA) (1970EA02)              
+#L 1409.20   20-                 2.2 PS    4              0.0036    3     
+#L FLAG=FGHIJ                                                             
+#G 689.0        6.6    10                                                 
+#G 1032.6       4.4    4                                                  
+#G 1409.2      89.4    4 M1+E2     -2.62   62                             
+#G MR        OTHER: -0.06 5 OR -3.3 +3-8 (1986TA14)                       
+#G FLAG=FI                                                                
+#L 1662.15   25 9/2-             77 FS     13             0.0090    8     
+#L FLAG=FGH                                                               
+#G 253                                                                   ?
+#G FLAG=J                                                                 
+#G 425.0       27.3    26                                                 
+#G FLAG=K                                                                 
+#G 942                                                                   ?
+#G FLAG=J                                                                 
+#G 1662.2      72.7    31                                                 
+#G FLAG=K                                                                 
+#                                                                         
+#  46TI(D,3HE)                   1979DO12,1971OH02         08NDS    200802
+#H TYP=FUL$AUT=T. W. BURROWS$CIT=NDS 109, 171 (2008)$CUT=30-Oct-2007$     
+#  710H02: E=19.5 MEV. MEASURED SIGMA(THETA); SPLIT-POLE MAG SPECT,       
+#  POSITION-SENSITIVE DETECTORS. FWHM=20 KEV. DWBA                        
+#  1979DO12,1972MA33: E=52 MEV. MEASURED SIGMA(THETA). FWHM=100-115 KEV.  
+#  DWBA                                                                   
+#L E,L       FROM 1971OH02 FOR E(LEVEL)<2 MEV AND 1979DO12 FOR E(LEVEL)>2 
+#L MEV                                                                    
+#L J         ASSUMED TO CALCULATE C2S. SEE 1979DO12 FOR SUMMARY OF        
+#L PROTON-HOLE CONFIGURATIONS.                                            
+#L S$LABEL=C2S                                                            
+#L S         FROM 1979DO12, EXCEPT AS NOTED. N=2.95                       
+#L J(A),S(B) 1979DO12 CONCLUDED THAT THE 1D3/2 HOLE STRENGTH IS           
+#L CONCENTRATED IN THE 12-KEV, 3/2+ STATE. THIS IS IN CONTRAST TO THE     
+#L ASSIGNMENT OF TRANSITIONS TO THE 1304- AND 1799-KEV STATES AS PROBABLE 
+#L 1D{-3/2} PROTON PICKUP BY 1971OH02 AND THE RESULTANT CONCLUSION THAT   
+#L THE 1D{-3/2} PROTON HOLE STRENGTH IS NOT CONCENTRATED ON THE 12-KEV    
+#L STATE.                                                                 
+#L E(D),S(E) STATE REPORTED ONLY BY 1971OH02                              
+#L J(F),S(G) 1971OH02 FAVORED 3/2+; 1979DO12, 5/2+. SEE FOOTNOTE ON JPI   
+#L AND C2S FOR 12-KEV STATE                                               
+#L 0.0         7/2-                              3        1.8       4     
+#L 12        3 3/2+                              2        3.4       7  M  
+#L FLAG=AB                                                                
+#L 381       5 3/2-                              1        0.12      3     
+#L 543       7 5/2+                              2        0.12      3     
+#L 726       105/2-                              3        0.32      7     
+#L 943       5 1/2+                              0        1.5       3     
+#L 1067      7 3/2-                              1        0.07      2     
+#L 1235      10                                                           
+#L FLAG=D                                                                 
+#L 1304      5                                   2                        
+#L S         0.90 18 (1979DO12), 0.56 (1971OH02) IF JPI=3/2+; 0.62 13     
+#L (1979DO12), 0.35 (1971OH02) IF JPI=5/2+                                
+#L FLAG=FG                                                                
+#L 1417      10                                  (3)                      
+#L S         C2S=0.25 IF JPI=5/2- (1971OH02; N=3.0). HOWEVER, ADOPTED     
+#L JPI=(7/2)-                                                             
+#L FLAG=DE                                                                
+#L 1556      7  1/2-                             1        0.04      1     
+#L 1799      5 5/2+                              2        0.26      1     
+#L S         0.56 IF JPI=3/2+, 0.39 IF JPI=5/2+ (1971OH02)                
+#L FLAG=FG                                                                
+#L 2.29E+3      3/2-                             1        0.04      1     
+#L 2.91E+3      5/2+                             2        0.98      20    
+#L 3.48E+3      5/2+                             2        0.40      LE    
+#L 3.73E+3      5/2+                             2        0.93      19    
+#L 3.98E+3           5/2+                        2        0.31      7     
+#L 4.16E+3                                                                
+#L 4.34E+3           5/2+                        2        0.39      7     
+#L 4.75E+3                                                                
+#L 5.34E+3                                                                
+#L 5.66E+3           5/2+                        2        0.41      LE    
+#L 6.39E+3           5/2+                        2        0.30      6     
+#L 6.75E+3           5/2+                        2        0.30      LE    
+#L 7.65E+3                                                                
+#                                                                         
+#  47TI(D,A)                     1964BJ01                  08NDS    200802
+#H TYP=FUL$AUT=T. W. BURROWS$CIT=NDS 109, 171 (2008)$CUT=30-Oct-2007$     
+#  TARGET JPI=5/2-. E=3.4 MEV. ENERGY SPREAD AP 0.1%. MAG                 
+#  SPECT (ENERGY RESOLUTION AP 0.4% FOR A'S). THETA=145.5 DEG. ALL STATES 
+#  EXCEPT 1784 WERE OBSERVED UNDER TWO DIFFERENT BOMBARDING CONDITIONS.   
+#  THE 1784-KEV STATE WAS OBSERVED ONLY UNDER ONE BOMBARDING CONDITION.   
+#  DE(LEVEL) FROM WEIGHTED MEAN OF (P,P') AND (D,A)                       
+#L 0.0                                                                    
+#L 373       3                                                            
+#L 537       3                                                            
+#L 717       4                                                            
+#L 963       5                                                            
+#L 1062      5                                                            
+#L 1228      5                                                            
+#L 1293      5                                                            
+#L 1394      5                                                            
+#L 1784      8                                                           ?
+#L 1931      12                                                           
+#L 2000      12                                                           
+#L 2084      12                                                           
+#L 2140      12                                                           
+#L 2213      12                                                           
+#                                                                         
+#  48TI(P,A) E=10,12 MEV         1965PL01,1964YN04         08NDS    200802
+#H TYP=FUL$AUT=T. W. BURROWS$CIT=NDS 109, 171 (2008)$CUT=30-Oct-2007$     
+#  1964YN04: E AP 12 MEV. MEASURED SIGMA(THETA=30 DEG,45 DEG,60 DEG);     
+#  BROAD-RANGE MAG SPECT                                                  
+#  1965PL01: E=10 MEV. MEASURED SIGMA(THETA=45 DEG,60 DEG,125 DEG);       
+#  BROAD-RANGE MAG SPECT                                                  
+#  OTHERS: SEE 1983BU21                                                   
+#L E         FROM 1964YN04 FOR E(LEVEL)<2 MEV AND 1965PL01 FOR E(LEVEL)>2 
+#L MEV. THE STATES BELOW 2 MEV WERE ALSO OBSERVED BY 1965PL01, EXCEPT AS  
+#L NOTED                                                                  
+#L E(A)      NOT OBSERVED BY 1965PL01                                     
+#L 0.0                                                                    
+#L 13        2                                                         M  
+#L 376       3                                                            
+#L 542       3                                                            
+#L FLAG=A                                                                 
+#L 720       3                                                            
+#L FLAG=A                                                                 
+#L 940       4                                                            
+#L FLAG=A                                                                 
+#L 973       4                                                            
+#L 1067      4                                                            
+#L 1239      4                                                            
+#L 1303      4                                                            
+#L 1410      4                                                            
+#L FLAG=A                                                                 
+#L 1434      4                                                            
+#L FLAG=A                                                                 
+#L 1664      4                                                            
+#L FLAG=A                                                                 
+#L 2303      15                                                          ?
+#L 2342      15                                                           
+#L 2967      15                                                           
+#                                                                         
+#  48TI(P,A) E=40.35 MEV         1982AB03                  08NDS    200802
+#H TYP=FUL$AUT=T. W. BURROWS$CIT=NDS 109, 171 (2008)$CUT=30-Oct-2007$     
+#  MEASURED SIGMA(THETA=15 DEG-75 DEG, 10 DEG INTERVALS); SEMI.           
+#  FWHM=70-80 KEV. DWBA                                                   
+#  AS NOTED BY 1981BO37, THE NUMBER OF STATES EXCITED IS MUCH FEWER THAN  
+#  THAT OBSERVED IN SINGLE-PARTICLE PICKUP REACTIONS. 1982AB03 SUGGEST    
+#  THAT THIS BEHAVIOR MIGHT BE DUE TO THE COHERENCE PROPERTY OF THE (P,A) 
+#  REACTION WHERE CANCELLATION OF AMPLITUDES CAN OCCUR.                   
+#L           CONFIGURATION: SEE 1982AB03 FOR THE CONFIGURATIONS OF THE    
+#L COMPOUND NUCLEUS, THE TRANSFERRED NUCLEONS, AND THE EXCITED STATE IN   
+#L {+45}SC. FOR THE SHELL-MODEL CALCULATIONS ALL POSSIBLE CONFIGURATIONS  
+#L OF TRANSFERRED NUCLEONS WERE USED.                                     
+#L J         FROM DWBA                                                    
+#L S$LABEL=SIGMA(EXP)/SIGMA(THEORY)                                       
+#L S         FIRST OR ONLY VALUE IS A ZERO-ORDER CALCULATION ASSUMING     
+#L SIMPLE CONFIGURATIONS (OVERALL NORMALIZATION OF 2.46+7 FOR THE GS).    
+#L SECOND VALUE IS A SHELL-MODEL WAVE FUNCTION CALCULATION (OVERALL       
+#L NORMALIZATION OF 4.13E+7 WAS USED FOR THE GS)                          
+#L E(A)      UNRESOLVED DOUBLET IN SPECTRUM. A LINEAR COMBINATION OF      
+#L ANGULAR DISTRIBUTIONS WAS USED TO FIT THE EXPERIMENTAL SIGMA(THETA)    
+#L J(B)      1982AB03 NOTED THAT IT WOULD BE REASONABLE TO EXPECT THAT    
+#L SIGMA(EXP)/SIGMA(THEORY) COULD BE BROUGHT INTO LINE WITH THE OTHER     
+#L VALUES IF 2P3/2 AND 1F5/2 PROTON COMPONENTS WERE INCLUDED IN THE WAVE  
+#L FUNCTIONS                                                              
+#L 0.0         7/2-                                       1.0,1.0         
+#L FLAG=A                                                                 
+#L 12          3/2+                                       0.7          M  
+#L FLAG=A                                                                 
+#L 940         1/2+                                       1.9             
+#L 1240        11/2-                                      1.6,0.3         
+#L 1780        5/2+                                       0.3             
+#L CONF      NOT A PURE D{-5/2} HOLE STATE                                
+#L 2090        15/2-                                      0.4,0.6         
+#L 2740        5/2-                                       (102),6.2       
+#L FLAG=B                                                                 
+#L 2950        5/2+                                       0.33            
+#L 3690        19/2-                                      1.1,0.7         
+#L FLAG=A                                                                 
+#L 3710        3/2-                                       5.5,2.1         
+#L FLAG=AB                                                                
+#L 6680        7/2-                                       1.4             
+#L           IAS(45CA GS)                                                 
+#                                                                         
+#  48TI(POL P,A) E=79.2 MEV      1981BO37                  08NDS    200802
+#H TYP=FUL$AUT=T. W. BURROWS$CIT=NDS 109, 171 (2008)$CUT=30-Oct-2007$     
+#  MEASURED SIGMA(THETA) AND ANALYZING POWER; QDDM MAG SPECT, LOCAL PLANE 
+#  DETECTOR (WIRE HELIX, SCIN). FWHM=80-100 KEV. TYPICAL POLARIZATION=0.75
+#L S         RELATIVE CLUSTER SPECTROSCOPIC FACTORS                       
+#L J(A)      DISCREPANCY BETWEEN CALCULATED AND EXPERIMENTAL ANALYZING    
+#L POWERS MAY REFLECT THE PRESENCE OF THE 12-KEV STATE.                   
+#L J(B)      FROM THE Adopted Levels                                      
+#L J(D)      ASSUMED IN CALCULATION OF CLUSTER SPECTROSCOPIC FACTOR       
+#L S(E)      IF JPI=11/2-                                                 
+#L E(F),J(G) OBTAINED BY PEAK-FITTING. SINCE THE ANALYZING POWERS WERE    
+#L OF OPPOSITE SIGN, A VERY DRAMATIC EFFECT WAS OBSERVED WITH SPIN        
+#L REVERSAL. THIS EFFECT CONFIRMED THE PRESENCE OF THE DOUBLET AND AIDED  
+#L IN LOCATING THE PEAK CENTROIDS. JPI(4.61 MEV)=13/2- APPEARED TO BE THE 
+#L MOST LIKELY, BUT JPI=15/2+ COULD NOT BE RULED OUT.                     
+#L JPI(4.69 MEV)=13/2+,15/2- PRODUCED AN ADEQUATE REPRESENTATION OF THE   
+#L DATA                                                                   
+#L 0.0         7/2-                                       0.40            
+#L FLAG=AD                                                                
+#L 12          3/2+                                                    M ?
+#L FLAG=AB                                                                
+#L 940       30 1/2+                                                      
+#L FLAG=B                                                                 
+#L 1240      3011/2-                                      0.07            
+#L FLAG=D                                                                 
+#L 2110      3015/2-                                      0.03      LE    
+#L           NOT STRONGLY EXCITED IN CONTRAST TO 43SC. THIS MAY           
+#L REFLECT SIGNIFICANT FRAGMENTATION OF THE CONF=((N,F7/2,+2)(P,F7/2))    
+#L PICKUP STRENGTH TO 15/2- STATES IN 45SC.                               
+#L FLAG=D                                                                 
+#L 2960      30(9/2+,11/2-)                               (0.10)          
+#L J         DWBA WITH JPI=9/2+ REPRESENTED THE DATA WELL, BUT RECOGNITION
+#L OF POSSIBLE FORWARD-ANGLE CONTRIBUTIONS FROM LOW-SPIN STATES ALSO      
+#L SUGGESTED JPI=11/2- AS A POSSIBLE ASSIGNMENT                           
+#L FLAG=E                                                                 
+#L 3690      3019/2-                                      1.0             
+#L FLAG=D                                                                 
+#L 4610      30(13/2-,15/2+)                              (0.24)          
+#L S         if JPI=13/2-                                                 
+#L FLAG=FG                                                                
+#L 4690      30(13/2+,15/2-)                              (0.16)          
+#L S         if JPI=15/2-                                                 
+#L FLAG=FG                                                                
+#L 4950      30(17/2+)                                    (0.19)          
+#L J         NEARLY FLAT SIGMA(THETA) TO 35 DEG. JPI=17/2+ REPRODUCED     
+#L SIGMA(THETA) AND GAVE THE CORRECT QUALITATIVE REPRESENTATION OF THE    
+#L ANALYZING POWER. JPI=19/2- WAS THOUGHT TO BE UNLIKELY DUE TO THE STRONG
+#L EXCITATION OF THE 3.69-MEV STATE, BUT COULD NOT BE RULED OUT ON THE    
+#L BASIS OF MODEL-INDEPENDENT ARGUMENTS                                   
+#L S         0.19 if JPI=19/2-                                            
+#L 5200      30(11/2-,13/2+)                              (0.24)          
+#L FLAG=E                                                                 
+#L 5420      30 23/2-                                                     
+#L J         JPI=21/2,23/2- FROM 28SI(19F,2PG), 30SI(18O,P2NG),...        
+#L (1975BI09). IN BACK-ANGLE SPECTRA THIS WAS THE SECOND STRONGEST LINE.  
+#L TWO-STEP REACTION CALCULATION WITH A 2+ INELASTIC EXCITATION AND A     
+#L JPI=19/2- THREE-NUCLEON TRANSFER SHOWED PREFERENCE FOR JPI=23/2-       
+#L FLAG=B                                                                 
+#                                                                         
+#  TI(MU-,XNG)                   1973EV02                  08NDS    200802
+#H TYP=FUL$AUT=T. W. BURROWS$CIT=NDS 109, 171 (2008)$CUT=30-Oct-2007$     
+#  MUONS AT REST. MEASURED SEPARATE X-RAY AND GAMMA SPECTRA BASED ON TIME 
+#  DELAY. COUNTER TELESCOPE TO DETECT STOPPED MUON. TOTAL                 
+#  PRODUCTION=5.2% 14                                                     
+#L J,E(A)    FROM THE Adopted Levels. ENERGY HELD FIXED IN THE            
+#L LEAST-SQUARES ADJUSTMENT                                               
+#N 1.0                                                                    
+#N                                                                    C4  
+#N RI PER 100 MU- CAPTURES                                                
+#L 0.0          7/2-                                                      
+#L 12.40     5  3/2+                                                   M  
+#L FLAG=A                                                                 
+#L     376.6313 3/2-                                                      
+#G 364.23    13 2.8    6                                                  
+#L      719.9 4 5/2-                                                      
+#G 719.9     4  2      1                                                  
+#                                                                         
+#  ADOPTED LEVELS, GAMMAS                                  08NDS    200802
+#H TYP=FUL$AUT=T. W. BURROWS$CIT=NDS 109, 171 (2008)$CUT=30-Oct-2007$     
+#Q -7129     8 9531.9  128482.1  20-6296.1 9     2012WA38                 
+#Q Note: Current evaluation has used the following Q record               
+#Q -7126     17 9528.6 128478.6  20-6292.9 10    2003AU03                 
+#G           SEE (HI,XNG) AND (A,NG) FOR UNPLACED GAMMAS                  
+#G E,RI      FROM (A,NG), EXCEPT AS NOTED                                 
+#G M,MR      FROM G(THETA) OR NG(Q) IN (A,NG) AND COMPARISON TO RUL,      
+#G EXCEPT AS NOTED                                                        
+#G E(A),RI(B)$FROM (P,NG). 289.5G DEDUCED FROM EG(TO 40)-3.3 3.           
+#G M(D)      ^D,E2 OR ^D,Q FROM COMPARISON TO RUL. DPI=YES FROM DECAY     
+#G SCHEME                                                                 
+#G M(E),MR(F)$FROM COMPARISON TO RUL                                      
+#G E(G)      {TV} Weighted averages of the following:                     
+#G {U Adopted  }  {U({+24}Mg,2pn|g)}  {U  (p,n|g)  }  {U (|a,n|g) }       
+#G    {U (HI,xn|g) }                                                      
+#G  414.36 {I18}    414.0 {I2}     414.45 {I10}                           
+#G                          {TV}External                                  
+#G  482.61 {I14}    482.4 {I2}                 482.9 {I2}    482.56 {I15} 
+#G   {TV}External                                                         
+#G  707.47 {I16}    706.9 {I3}                 707.5 {I2}    707.7 {I2}   
+#G     {TV}External                                                       
+#G  897.27 {I12}    897.2 {I2}                 897.5 {I2}    897.1 {I2}   
+#G     {TV}Internal                                                       
+#G 1137.8 {I2}     1138.2 {I2}                1137.9 {I2}   1137.8 {I2}   
+#G     {TV}Internal                                                       
+#G 1225.94 {I21}   1225.8 {I2}    1227 {I1}      1227 {I1}     1226.6 {I7}
+#G     {TV}External                                                       
+#G E(H),RI(I)$FROM (HI,XNG)                                               
+#G M(J)      ^D+Q OR ^D(+Q) FROM G(THETA) OR NG(THETA) IN (A,NG). DPI=YES 
+#G FROM DECAY SCHEME                                                      
+#G M(K)      DJ=1 ^D+Q TRANSITION FROM DCO IN (18O,3NG)                   
+#G RI(L)     UNWEIGHTED AV OF                                             
+#G RI(483G):RI(897G):RI(1188G):RI(1226G)=13.6 5:15.1 2:2.0 1:0.81 3 FROM  
+#G (24MG,2PNG), 47 4:36.9 23:10 4:6.4 19 FROM (P,NG),                     
+#G 40 2:42 2:8.5 10:9.5 10 FROM (A,NG), AND                               
+#G 86 11:100 9:11.9 21:10.6 21                                            
+#G M(M),MR(N)$FROM G(THETA) AND LINEAR POLARIZATION IN (A,NG)             
+#G M(O)      ^D,E2 FROM COMPARISON TO RUL. DJPI=2,NO FROM DECAY SCHEME    
+#G E(P),RI(Q)$FROM (18O,3NG)                                              
+#G M(R)      ^D FROM COMPARISON TO RUL. DPI=NO FROM LEVEL SCHEME          
+#G M(S)      DJ=0 ^D OR DJ=2 Q TRANSITION FROM DCO IN (18O,3NG)           
+#G E(T),RI(U)$FROM (24MG,2PNG)                                            
+#G RI(V)     BRANCHING RATIOS IN (18O,3NG) AND (A,NG) ARE DISCREPANT      
+#G MR(W)     FROM G(THETA) IN (HI,XNG)                                    
+#G M(X)      DJ=1 ^D TRANSITION FROM DCO IN (18O,3NG)                     
+#G M(Y)      ^D+Q FROM G(THETA) IN (HI,XNG). NE E1+M2 FROM MR AND         
+#G COMPARISON TO RUL.                                                     
+#G RI(Z)     BRANCHING RATIOS IN (18O,3NG) ARE DISCREPANT                 
+#G M(1)      Q FROM DCO IN (18O,3NG). NE M2 FROM COMPARISON TO RUL        
+#G E(2)      FROM COMPARISON OF THE RI'S OF THE SEQUENTIALLY EMITTED G'S, 
+#G 1818 AND 743 KEV, 1998BE29 IN (18O,3NG) CONCLUDED THAT THE PREVIOUS    
+#G ORDERING BY 1978FO09 IN (HI,XNG) SHOULD BE INVERTED. THIS CONCLUSION IS
+#G SUPPORTED BY THE EXISTENCE OF THE 1330G CROSSOVER.                     
+#L E         FROM LEAST-SQUARES FIT TO EG ASSUMING DE(G)=1 KEV WHEN NOT   
+#L GIVEN, EXCEPT AS NOTED. EG DEDUCED FROM EG(TO 40)-3.3 3 IN (P,NG)      
+#L EXCLUDED FROM LEAST-SQUARES ANALYSIS                                   
+#L J         FROM ANGULAR MOMENTUM TRANSFER IN (P,D),(D,T),(3HE,A),       
+#L EXCEPT AS NOTED                                                        
+#L T         FROM DSAM IN (A,NG), EXCEPT AS NOTED                         
+#L BAND(A)   BAND BASED ON f{-7/2} ORBITAL, ALPHA=-1/2                    
+#L (2006BE07). IDENTIFIED AS MEMBERS OF A PI=- GAMMA CASCADE BY 1998BE29. 
+#L 1998BE29 EXTENDED NEGATIVE PARITY STATES GIVEN IN 1992BU01 FROM 7144   
+#L KEV TO 12499 KEV                                                       
+#L T(B)      {TV} From |g(t) in (|a,n|g) and |g(t) in (p,n|g),            
+#L  respectively. Other T{-1/2}'s:                                        
+#L            (HI,xn|g)      (|a,n|g),(p,n|g)    (|a,n|g)                 
+#L             (p,n|g)                                                    
+#L {U E{-x}}  {U   RDM    }  {Un|g(t) }  {U    |g(t)     }                
+#L   {U    |g(t)   }  {U   |g(t)   }  {U DSAM  }                          
+#L  40  12.3 ns {I9}             11.9 ns {I7}    11.85 ns {I42}           
+#L   11.5 ns {I15}                                                        
+#L 330   1.19 ns {I7}  1.2 ns                                             
+#L                                           >693 fs                      
+#L BAND(D)   BAND BASED ON d{-3/2} ORBITAL, ALPHA=-1/2                    
+#L (1998BE29,2004BE20,2006BE07).  1998BE29 EXTENDED THE BAND LABELED AS   
+#L KPI=3/2+ IN 1992BU01 FROM 2476 KEV TO 5639 KEV. FURTHER EXTENDED BY    
+#L 2004BE20 TO 7340. CONFIRMED BY 2006BE07 THROUGH 5639.                  
+#L T(E)      FROM RDM IN (HI,XNG). OTHERS: T1/2(744)|>1 PS AND            
+#L T1/2(1227) GE 1.5 PS FROM DSAM IN (P,N|g)                              
+#L BAND(F)   BAND BASED ON d{-3/2} ORBITAL, ALPHA=+1/2                    
+#L (1998BE29,2004BE20,2006BE07).  1998BE29 EXTENDED THE BAND LABELED AS   
+#L KPI=3/2+ IN 1992BU01 FROM 2476 KEV TO 5639 KEV. FURTHER EXTENDED BY    
+#L 2004BE20 TO 7340. CONFIRMED BY 2006BE07 THROUGH 5639.                  
+#L J(G)      FROM G(THETA), G EXCIT, AND LINEAR POLARIZATION IN (A,NG)    
+#L T(H)      FROM DSAM IN (P,NG). OTHER DSAM IN (P,NG):                   
+#L T1/2(1354)=0.103 PS 24, T1/2(1468)=464 FS +114-89, T1/2(1521)=55 FS 9  
+#L BAND(I)   BAND BASED ON f{-7/2} ORBITAL, ALPHA=+1/2                    
+#L (2006BE07). IDENTIFIED AS MEMBERS OF A PI=- GAMMA CASCADE BY 1998BE29. 
+#L 1998BE29 EXTENDED NEGATIVE PARITY STATES GIVEN IN 1992BU01 FROM 7144   
+#L KEV TO 12499 KEV                                                       
+#L BAND(J)   KPI=1/2+ BAND                                                
+#L (1984KA05)                                                             
+#L J(K)      G TO 1/2+                                                    
+#L T(L)      FROM DSAM IN (18O,3NG)                                       
+#L BAND(M),J(N)$(13/2+) INTRUDER BAND                                     
+#L (2004BE20).                                                            
+#L BASED ON THE RELATIVELY HIGH BETA AP 0.45 REACHED FOR THIS NEW BAND,   
+#L EXTENDED SHELL MODEL CALCULATIONS, AND RESEMBLANCE TO THE ISPIN=0      
+#L GS BAND IN 46V (1999OL01).                                             
+#L E(O)      ISOBARIC ANALOG STATES OF 45SC GS, 12.4?, AND 938?           
+#L E(P)      WEAKLY EXCITED OR NOT OBSERVED IN 44CA(P,PI-), 45SC(P,N)     
+#L BAND(Q)   PI=- G CASCADE                                               
+#L (1998BE29). MAY BE MEMBERS OF THE BAND BASED ON f{-7/2} ORBITAL,       
+#L ALPHA=+1/2 (EVALUATOR). 1998BE29 EXTENDED NEGATIVE PARITY STATES GIVEN 
+#L IN 1992BU01 FROM 7144 KEV TO 12499 KEV                                 
+#XA45V B+ DECAY                                                           
+#XB(HI,XNG)                                                               
+#XH24MG(24MG,2PNG) E=83 MEV                                               
+#XI30SI(18O,3NG)                                                          
+#XC42CA(A,NG)                                                             
+#XG44CA(POL P,PI-), 45SC(P,N)                                             
+#XD45SC(P,N),(P,NG)                                                       
+#XE45SC(3HE,T) E=24.6 MEV IAR                                             
+#XF46TI(P,D),(D,T),(3HE,A)                                                
+#XJ44TI(N,G) E=TH                                                         
+#N                                                                     6  
+#L 0.0         7/2-              184.8 M   5                              
+#L XREF=ABCDEFGHI                                                         
+#L J         J=7/2 FROM AB (1976FU06,1966CO19); PI=- FROM L=3 IN          
+#L (P,D),(D,T),(3HE,A)                                                    
+#L T         FROM 1966PO04 (CHEM; pc 10 T1/2).                            
+#L MOMM1=0.095 2$MOME2=0.015 15 (2005ST24,1966CO19)                       
+#L MOMM1,MOME2$AB. POLARIZATION CORRECTION FOR MOME2. MOMM1/MOME2>0.      
+#L {+47,49}Ti STANDARDS.                                                  
+#L %EC+%B+=100$ISPIN=1/2                                                  
+#L FLAG=A                                                                 
+#L 36.53     153/2-              3.0 US    2                              
+#L XREF=BCDFHI                                                            
+#L J         E2(+M1) G TO 7/2- AND ^D,E2 G FROM 1/2+, 1565                
+#L T         WEIGHTED AV OF 2.9 US 3 FROM RDM IN (HI,XNG) AND 3.1 US 3    
+#L FROM G(T) IN (P,NG)                                                    
+#G 36.69     21100       (E2)                    16.6   5                 
+#G KC=14.7 4$LC=1.73 5$MC=0.213 6$NC+=0.00799 21                          
+#G NC=0.00799 21                                                          
+#G M,MR      E2(+M1), >0.33 FROM COMPARISON TO RUL AND ECC IN (P,NG).     
+#G DJPI=2, NO FROM LEVEL SCHEME                                           
+#G BE2W=30 24                                                             
+#L 39.39     235/2-              11.29 NS  9                              
+#L XREF=ABCDHI                                                            
+#L J         5/2 FROM G(THETA) IN (A,NG). ^D,E2 G FROM 9/2-, 1353         
+#L MOMM1=-0.133 10 (2005ST24,1977BR15)                                    
+#L MOMM1     DPAD. OTHER: -0.08 3 (1977ST12,DPAD)                         
+#L FLAG=B                                                                 
+#G 40.15     30100       (M1(+E2)) 0.000   25    0.223  10                
+#G BM1W=0.00246 7                                                         
+#G KC=0.201 9$LC=0.0190 9$MC=0.00242 11$NC+=0.000126 5                    
+#G NC=0.000126 5                                                          
+#G M,MR      FROM G(THETA) IN (A,NG) AND COMPARISON TO RUL. DPI=NO FROM   
+#G DECAY SCHEME                                                           
+#G FLAG=AB                                                                
+#L 329.30    153/2+              1.099 NS  13                             
+#L XREF=BCDFHI                                                            
+#L J         L=2 IN (P,D),(D,T),(3HE,A). SHAPE OF SIGMA(THETA) IN         
+#L (3HE,A) IDENTICAL TO THAT FOR GS, 3/2+ OF 39CA                         
+#L MOMM1=+1.05 24 (1989RA17,1977BU10,1975HA47)                            
+#L MOMM1     ^IPAD, RECALCULATED BY 1977BU10. 2005ST24 CITE A ROUNDED-OFF 
+#L VALUE OF +1.1 3                                                        
+#L           CONFIGURATION: CALCULATION BY 1977LA12 INDICATES THAT A      
+#L CONTRIBUTION OF F7/2 NUCLEONS IS REQUIRED TO REPRODUCE MOMM1.          
+#L FLAG=BD                                                                
+#G 289.5     3 0.55    25(E1,M2)                                          
+#G BE1W<1.1E-7 5$BM2W<6 3                                                 
+#G CC=0.0036 25$KC=0.0032 23$LC=0.00030 21$MC=4.E-5 3$NC+=2.0E-6 15       
+#G NC=2.0E-6 15                                                           
+#G FLAG=ABD                                                               
+#G 292.77    5 100.00  25E1(+M2)   0.032   LE                             
+#G M         FROM ECC IN (HI,XNG)                                         
+#G BE1W=1.927E-5 25$BM2W LE 1.055 14                                      
+#G CC=1.08E-3 2$KC=0.000978 14$LC=8.76E-5 13$MC=1.118E-5 16$NC+=6.01E-7 9 
+#G NC=6.01E-7 9                                                           
+#G M         FROM G(Q) AND ECC IN (HI,XNG)                                
+#G FLAG=ABF                                                               
+#L 743.88    175/2+              10.5 PS   17                             
+#L XREF=BCDHI                                                             
+#L J         FROM G(THETA) IN (A,NG) AND M1+E2 G TO 3/2+                  
+#L FLAG=EF                                                                
+#G 414.36    18100.0   16M1+E2     +0.40   3                              
+#G M         FROM G(THETA) AND NG(THETA) IN (A,NG) AND ECC IN (HI,XNG)    
+#G MR        FROM G(THETA) AND NG(THETA) IN (A,NG)                        
+#G BM1W=0.023 4$BE2W=58 12                                                
+#G CC=7.27E-4 22$KC=0.000660 20$LC=5.95E-5 18$MC=7.60E-6 23$NC+=4.09E-7 12
+#G NC=4.09E-7 12                                                          
+#G FLAG=BG                                                                
+#G 703.9     112.8     6 (E1)                                             
+#G BE1W=3.7E-6 10                                                         
+#G CC=0.0001100 16$KC=9.96E-5 15$LC=8.89E-6 13$MC=1.137E-6 17             
+#G NC+=6.16E-8 9                                                          
+#G NC=6.16E-8 9                                                           
+#G FLAG=ABD                                                               
+#G 707.47    167.8     14(E1+M2)   +0.06   +5-4                           
+#G BE1W=1.01E-5 25$BM2W=0.3 +6-3                                          
+#G CC=1.10E-4 4$KC=0.000100 4$LC=8.9E-6 3$MC=1.14E-6 4$NC+=6.17E-8 20     
+#G NC=6.17E-8 20                                                          
+#G FLAG=GHJ                                                               
+#G 744         0.22    11(E1,M2)                                          
+#G BE1W<2.4E-7 14$BM2W<2.0 12                                             
+#G CC=0.00026 17$KC=0.00024 15$LC=2.1E-5 14$MC=2.7E-6 17$NC+=1.5E-7 10    
+#G NC=1.5E-7 10                                                           
+#G FLAG=ABDK                                                              
+#L 1226.50   157/2+              2.8 PS    6                              
+#L XREF=BCDHI                                                             
+#L FLAG=DEG                                                               
+#G 482.61    14 98.1   32M1+E2     +0.28   3                              
+#G BM1W=0.028 7$BE2W=25 8                                                 
+#G CC=4.57E-4 11$KC=0.000415 10$LC=3.73E-5 9$MC=4.77E-6 11$NC+=2.58E-7 6  
+#G NC=2.58E-7 6                                                           
+#G FLAG=GKLMN                                                             
+#G 897.27    12100.0   57E2(+M3)   0.0011  LE                             
+#G BE2W=16 4$BM3W LE 1.7E+2 4                                             
+#G CC=0.0001590 23$KC=0.0001442 21$LC=1.292E-5 18$MC=1.652E-6 24          
+#G NC+=8.93E-8 13                                                         
+#G NC=8.93E-8 13                                                          
+#G FLAG=FGLM                                                              
+#G 1188.03   35 17.6   25(E1(+M2)) 0.00    6                              
+#G E         WEIGHTED AV OF 1185.8 2 FROM (24MG,2PNG), 1188.61 20 FROM    
+#G (HI,XNG), 1187 1 FROM (P,NG), AND 1187.9 3 FROM (A,NG). 1188.03 35 IS  
+#G THE MEAN OF 1188.13 35 (^LWM) AND 1187.92 26 (^RT) WITH DE(G) FROM ^RT 
+#G FL=39.39                                                               
+#G BE1W=8.7E-6 23$BM2W<0.10 3                                             
+#G CC=8.55E-5 13$KC=3.48E-5 6$LC=3.10E-6 6$MC=3.96E-7 7$NC+=4.72E-5 8     
+#G NC=2.15E-8 4$IPC=4.72E-5 8                                             
+#G FLAG=JL                                                                
+#G 1225.94   21 13.8   38(E1+M2)   -0.34   6                              
+#G BE1W=5.6E-6 20$BM2W=2.0 10                                             
+#G FL=0.0                                                                 
+#G CC=1.10E-4 2$KC=4.1E-5 3$LC=3.7E-6 3$MC=4.7E-7 4$NC+=6.4E-5 3          
+#G NC=2.56E-8 18$IPC=6.4E-5 3                                             
+#G FLAG=GJL                                                               
+#L 1353.49   189/2-              0.103 PS  9                              
+#L XREF=CDFHI                                                             
+#L J         FROM G(THETA) IN (P,NG) AND M1+E2 G TO 7/2-                  
+#L FLAG=HI                                                                
+#G 1314.0    107.8     8 (E2)                                             
+#G BE2W=10.7 15                                                           
+#G CC=9.68E-5 14$KC=5.87E-5 9$LC=5.24E-6 8$MC=6.71E-7 10$NC+=3.22E-5 6    
+#G NC=3.64E-8 6$IPC=3.22E-5 5                                             
+#G FLAG=ABO                                                               
+#G 1353.6    2 100.0   8 M1+E2     -0.39   10                             
+#G BM1W=0.069 8$BE2W=16 7                                                 
+#G CC=8.45E-5 18$KC=4.80E-5 9$LC=4.28E-6 8$MC=5.48E-7 10$NC+=3.16E-5 9    
+#G NC=2.98E-8 6$IPC=3.16E-5 9                                             
+#G MR        weighted av of -0.51 {I+8-18} from (|a,n|g) and -0.34 {i12}  
+#G from (p,n|g); |g(|q)                                                   
+#G FLAG=BM                                                                
+#L 1468.24   1411/2-             0.48 PS   7                              
+#L XREF=BCDFHI                                                            
+#L FLAG=AGH                                                               
+#G 114           1       (M1)                    0.01339                  
+#G BM1W=0.31 5                                                            
+#G KC=0.01212 17$LC=0.001115 16$MC=0.0001424 20$NC+=7.58E-6 11            
+#G NC=7.58E-6 11                                                          
+#G FLAG=PQR                                                               
+#G 1468.14   15100       E2(+M3)   0.0005  LE                             
+#G BE2W=18 3$BM3W LE 14.6 22                                              
+#G CC=0.0001280 18$KC=4.65E-5 7$LC=4.15E-6 6$MC=5.30E-7 8$NC+=7.64E-5 11  
+#G NC=2.88E-8 4$IPC=7.64E-5 11                                            
+#G FLAG=HQ                                                                
+#L 1521.7    6 3/2- TO 9/2-      48 FS     11                             
+#L J         3/2- TO 11/2- FROM ^D,E2 G TO 7/2-. NE 9/2,11/2- IF ^D,E2 G  
+#L TO 3/2-; NE 9/2+,11/2- IF ^D,E2 G TO 5/2-                              
+#L XREF=CD                                                                
+#L FLAG=H                                                                 
+#G 1484      1 1.0E2   5 D,E2                                         &  ?
+#G FL=39.39                                                               
+#G FLAG=ABE                                                               
+#G 1484      1 1.0E2   5 D,E2                                         &  ?
+#G FL=36.53                                                               
+#G FLAG=ABE                                                               
+#G 1521      1 7.E1    5 D,E2                                             
+#G FLAG=ABE                                                               
+#L 1565.4     71/2+              2.8 PS    GT                             
+#L XREF=CF                                                                
+#L FLAG=J                                                                 
+#G 1236      1 100.0   23D,E2                                             
+#G BM1W<0.0036$BE2W<6.4                                                   
+#G FLAG=E                                                                 
+#G 1528      1 14.9    23(E1)                                             
+#G BE1W<7.0E-6                                                            
+#G CC=0.000309 5$KC=2.27E-5 4$LC=2.02E-6 3$MC=2.58E-7 4$NC+=0.000284 4    
+#G NC=1.404E-8 20$IPC=0.000284 4                                          
+#G FLAG=D                                                                 
+#L 1799.0    15(1/2- TO 7/2-)    0.32 PS   +22-8                          
+#L XREF=CDF                                                               
+#L FLAG=H                                                                 
+#G 1761      2 100       D,E2                                         &  ?
+#G FL=39.39                                                               
+#G FLAG=ABE                                                               
+#G 1761      2 100       D,E2                                         &  ?
+#G FL=36.53                                                               
+#G FLAG=ABE                                                               
+#L 1881.76   199/2+              0.68 PS   +6-5                           
+#L XREF=BCDHI                                                             
+#L J         FROM G(THETA) IN (A,NG) AND E2 G TO 5/2+                     
+#L T         WEIGHTED AVE(INT.) OF 0.69 PS 7 FROM DSAM IN (18O,3NG),      
+#L 0.69 PS 14 FROM DSAM IN (A,NG), 0.62 PS +21-14 FROM DSAM IN (P,NG),    
+#L AND 1.1 PS 6 FROM RDM IN (HI,XNG)                                      
+#L FLAG=F                                                                 
+#G 655.2     2 35.6    5 M1+E2     +0.27   +12-7                          
+#G BM1W=0.028 3$BE2W=13 11                                                
+#G CC=2.27E-4 11$KC=0.000206 10$LC=1.84E-5 9$MC=2.36E-6 12$NC+=1.28E-7 6  
+#G NC=1.28E-7 6                                                           
+#G FLAG=HIK                                                               
+#G 1137.8    2 100.0   14E2(+M3)   0.00028 LE                             
+#G BE2W=33 7$BM3W LE 14 3                                                 
+#G CC=9.18E-5 13$KC=8.09E-5 12$LC=7.24E-6 11$MC=9.26E-7 13$NC+=2.68E-6 4  
+#G NC=5.02E-8 7$IPC=2.63E-6 4                                             
+#G FLAG=GIS                                                               
+#L 1958.2     43/2+              0.83 PS   14                             
+#L XREF=CDF                                                               
+#L J         3/2,5/2 FROM ANISOTROPY OF 1214G, NE 5/2 FROM G(THETA) AND   
+#L NG(THETA) IN (A,NG). M1+E2 G TO 5/2+                                   
+#L FLAG=J                                                                 
+#G 1214.3    3 100     5 M1+E2                                            
+#G CC=8.0E-5 9$KC=6.4E-5 7$LC=5.7E-6 6$MC=7.3E-7 8$NC+=9.7E-6 18          
+#G NC=4.0E-8 4$IPC=9.6E-6 18                                              
+#G MR        +{ 0.47 {I+29-14}} or +{ 3.7 {I+77-16}}                      
+#G 1920      1 18      5 (E1,M2)                                          
+#G BE1W<1.4E-5 5$BM2W<18 6                                                
+#G CC=0.00038 22$KC=3.0E-5 14$LC=2.6E-6 13$MC=3.4E-7 16$NC+=0.00035 24    
+#G NC=1.8E-8 9$IPC=0.00035 24                                             
+#G FLAG=D                                                                 
+#L 2014.7    6 3/2- TO 9/2-      32 FS     9                              
+#L J         3/2- TO 11/2- FROM ^D,E2 G TO 7/2-. NE 9/2,11/2- IF ^D,E2 G  
+#L TO 3/2-; NE 9/2+,11/2- IF ^D,E2 G TO 5/2-                              
+#L XREF=CD                                                                
+#L FLAG=H                                                                 
+#G 1976      1 100.0   19D,E2                                         &  ?
+#G FL=39.39                                                               
+#G FLAG=ABE                                                               
+#G 1976      1 100.0   19D,E2                                         &  ?
+#G FL=36.53                                                               
+#G FLAG=ABE                                                               
+#G 2016      1 88.7    19D,E2                                             
+#G FLAG=ABE                                                               
+#L 2258.2     65/2+              0.194 PS  35                             
+#L J         5/2 FROM NG(THETA) IN (A,NG); M1+E2 G TO 5/2+                
+#L XREF=CDF                                                               
+#L FLAG=J                                                                 
+#G 301       1 6       4 (E2)                                             
+#G BE2W=4.E+3 3                                                           
+#G CC=0.00501 10$KC=0.00454 9$LC=0.000413 8$MC=5.26E-5 10$NC+=2.77E-6 6   
+#G NC=2.77E-6 6                                                           
+#G FLAG=EO                                                                
+#G 691.0     154       3 (E2)                                             
+#G BE2W=4.E+1 4                                                           
+#G CC=0.000323 5$KC=0.000293 5$LC=2.63E-5 4$MC=3.36E-6 6$NC+=1.81E-7 3    
+#G NC=1.81E-7 3                                                           
+#G FLAG=O                                                                 
+#G 1514      1 74      8 M1+E2     +1.4    +3-5                           
+#G BM1W=0.0044 16$BE2W=10 3                                               
+#G CC=1.31E-4 7$KC=4.18E-5 13$LC=3.73E-6 12$MC=4.77E-7 15$NC+=8.5E-5 6    
+#G NC=2.60E-8 8$IPC=8.5E-5 6                                              
+#G 1929      1 100     8 M1+E2     +0.42   +6-10                          
+#G BM1W=0.0073 16$BE2W=0.9 3                                              
+#G CC=2.58E-4 5$KC=2.54E-5 4$LC=2.26E-6 4$MC=2.90E-7 5$NC+=0.000230 5     
+#G NC=1.578E-8 24$IPC=0.000230 5                                          
+#L 2432.1    153/2 TO 11/2                                                
+#L J         G TO 7/2-                                                    
+#L XREF=D                                                                 
+#G 2394      3 25      13                                             &  ?
+#G FL=36.53                                                               
+#G FLAG=AB                                                                
+#G 2394      3 25      13                                             &  ?
+#G FL=39.39                                                               
+#G FLAG=AB                                                                
+#G 2432      2 100     13                                                 
+#G FLAG=AB                                                                
+#L 2474.58   21 11/2+            0.39 PS   6                              
+#L XREF=CHI                                                               
+#L J         7/2,11/2 FROM G(THETA) AND NG(THETA) IN (A,NG); DJ=2 E2(+M3) 
+#L G TO 7/2+.                                                             
+#L T         WEIGHTED AV OF 0.45 PS 9 FROM DSAM IN (A,NG) AND 0.35 PS 7   
+#L FROM DSAM IN (18O,3NG)                                                 
+#L FLAG=D                                                                 
+#G 592.5     2 33.6    5 M1+E2     +0.09   5                              
+#G BM1W=0.068 11$BE2W=4 +5-4                                              
+#G CC=2.69E-4 5$KC=0.000244 5$LC=2.19E-5 4$MC=2.80E-6 5$NC+=1.52E-7 3     
+#G NC=1.52E-7 3                                                           
+#G FLAG=KTUV                                                              
+#G 1248.2    2 100.0   10E2(+M3)   0.00032 LE                             
+#G BE2W=38 6$BM3W LE 17 3                                                 
+#G CC=9.00E-5 13$KC=6.57E-5 10$LC=5.87E-6 9$MC=7.51E-7 11$NC+=1.77E-5 3   
+#G NC=4.07E-8 6$IPC=1.77E-5 3                                             
+#G FLAG=STUV                                                              
+#L 2500      205/2-,7/2-                                                  
+#L XREF=F                                                                 
+#L 2531.4    121/2,3/2,5/2(+)                                             
+#L XREF=C                                                                 
+#L FLAG=K                                                                 
+#G 966       1 100                                                        
+#L 2656.66   18 13/2-            0.17 PS   LT                             
+#L XREF=BCHI                                                              
+#L J         13/2 FROM G(THETA) IN (HI,XNG). M1+E2 G TO 11/2-             
+#L FLAG=IL                                                                
+#G 1188.61   20100.0   14 M1+E2    -2.6    5                              
+#G CC=8.61E-5 16$KC=7.15E-5 13$LC=6.39E-6 12$MC=8.18E-7 15$NC+=7.31E-6 18 
+#G NC=4.44E-8 8$IPC=7.27E-6 18                                            
+#G FLAG=HUVWXY                                                            
+#G 1303.5    3   8.4   4 (E2)                                             
+#G CC=9.55E-5 14$KC=5.97E-5 9$LC=5.34E-6 8$MC=6.82E-7 10$NC+=2.97E-5 5    
+#G NC=3.71E-8 6$IPC=2.97E-5 5                                             
+#G FLAG=OTU                                                               
+#L 2849.4    121/2,3/2,5/2(+)                                             
+#L XREF=C                                                                 
+#L FLAG=K                                                                 
+#G 1284      1 100                                                        
+#L 2890      20(3/2+,5/2+)                                                
+#L XREF=F                                                                 
+#L 2911.6     67/2+              0.36 PS   8                              
+#L J         5/2+,7/2+ FROM ^D,E2 G TO 3/2+, 1958, AND M1+E2 G TO 9/2+;   
+#L NE 5/2 FROM NG(THETA) IN (A,NG)                                        
+#L XREF=C                                                                 
+#L FLAG=J                                                                 
+#G 954       1 50      20(E2)                                             
+#G BE2W=48 24                                                             
+#G CC=0.0001360 20$KC=0.0001235 18$LC=1.106E-5 16$MC=1.414E-6 21          
+#G NC+=7.65E-8 11                                                         
+#G NC=7.65E-8 11                                                          
+#G FLAG=O                                                                 
+#G 1030      1 67      13M1+E2                                            
+#G CC=0.000100 14$KC=9.0E-5 12$LC=8.1E-6 11$MC=1.03E-6 14$NC+=5.6E-8 8    
+#G NC=5.6E-8 8                                                            
+#G MR        +0.32 +21-11 OR >4.9                                         
+#G 2167      1 100     22M1+E2                                            
+#G CC=0.00038 4$KC=2.14E-5 8$LC=1.90E-6 7$MC=2.43E-7 9$NC+=0.00036 4      
+#G NC=1.33E-8 5$IPC=0.00036 4                                             
+#G MR        +0.52 +29-16 OR +2.8 10                                      
+#L 2932.9     9 (13/2+)                                                   
+#L XREF=I                                                                 
+#L FLAG=MN                                                                
+#G 458                                                                    
+#G FLAG=P                                                                 
+#L 3000      20(3/2+,5/2+)                                                
+#L XREF=F                                                                 
+#L 3015.37   18 15/2-            0.55 PS   14                             
+#L J         15/2 FROM G(THETA) IN (HI,XNG); PI=- FROM M1+E2 G TO 13/2-   
+#L XREF=BCHI                                                              
+#L FLAG=AL                                                                
+#G 358.97    1525.4    19 M1+E2    -2.6    3                              
+#G BM1W=0.023 8$BE2W=3.2E+3 9                                             
+#G CC=0.00242 7$KC=0.00220 6$LC=0.000199 6$MC=2.54E-5 7$NC+=1.35E-6 4     
+#G NC=1.35E-6 4                                                           
+#G FLAG=HIWXY                                                             
+#G 1546.90   15100     7 (E2)                                             
+#G BE2W=10 3                                                              
+#G CC=1.52E-4$KC=4.18E-5 6$LC=3.73E-6 6$MC=4.77E-7 7$NC+=0.0001064 15     
+#G NC=2.59E-8 4$IPC=0.0001064 15                                          
+#G FLAG=HIOS                                                              
+#L 3080      20(3/2+,5/2+)                                                
+#L XREF=F                                                                 
+#L 3156.0    11                                                           
+#L XREF=C                                                                 
+#G 2412      1 100                                                        
+#L 3200      20                                                           
+#L XREF=F                                                                 
+#L 3400      20(3/2+,5/2+)                                                
+#L XREF=F                                                                 
+#L 3447.31   2313/2+             0.180 PS  21                             
+#L J         ^D,E2 G TO 11/2+ AND DJ=0 ^D OR DJ=2 E2 TO 9/2+; MEMBER OF   
+#L BAND BASED ON d{-3/2} ORBITAL                                          
+#L XREF=HI                                                                
+#L FLAG=FL                                                                
+#G 972.6     2  72.2   16D,E2                                             
+#G FLAG=TUZ                                                               
+#G 1565.7    2 100.0   11(E2)                                             
+#G BE2W=20.4 24                                                           
+#G CC=0.0001590 23$KC=4.08E-5 6$LC=3.64E-6 5$MC=4.65E-7 7$NC+=0.0001142 16
+#G NC=2.53E-8 4$IPC=0.0001142 16                                          
+#G FLAG=OSTUZ                                                             
+#L 3540      203/2+,5/2+                                                  
+#L XREF=F                                                                 
+#L 3601.87   21 17/2-            0.90 PS   7                              
+#L J         DJ=1 M1+E2 G TO 15/2- AND DJ=2 E2 G TO 13/2-                 
+#L XREF=BHI                                                               
+#L FLAG=IL                                                                
+#G 586.41    15 100    5  M1+E2    -2.3    1                              
+#G BM1W=0.0170 22$BE2W=7.1E+2 8                                           
+#G CC=4.85E-4 8$KC=0.000440 7$LC=3.96E-5 7$MC=5.06E-6 8$NC+=2.72E-7 5     
+#G NC=2.72E-7 5                                                           
+#G FLAG=HUWXYZ                                                            
+#G 945.1     2   13.2  3 E2                                               
+#G BE2W=10.2 10                                                           
+#G CC=0.0001390 20$KC=0.0001264 18$LC=1.132E-5 16$MC=1.448E-6 21          
+#G NC+=7.83E-8 11                                                         
+#G NC=7.83E-8 11                                                          
+#G FLAG=STU1                                                              
+#L 3830      201/2+                                                       
+#L XREF=F                                                                 
+#L 3922.45   2515/2+             0.312 PS  21                             
+#L J         ^D G TO 13/2+ AND DJ=0 ^D OR DJ=E2 G TO 11/2+. MEMBER OF     
+#L BAND BASED ON d{-3/2} ORBITAL                                          
+#L XREF=HI                                                                
+#L FLAG=DL                                                                
+#G 475.2     2 20.3    6 (M1)                                             
+#G BM1W=0.111 9                                                           
+#G CC=1.66E-4 3$KC=0.000391 6$LC=3.51E-5 5$MC=4.49E-6 7$NC+=2.43E-7 4     
+#G NC=2.43E-7 4                                                           
+#G FLAG=RTUZ                                                              
+#G 1447.8    2 100.0   6 (E2)                                             
+#G BE2W=24.9 17                                                           
+#G CC=1.22E-4 2$KC=4.78E-5 7$LC=4.27E-6 6$MC=5.46E-7 8$NC+=6.94E-5 10     
+#G NC=2.97E-8 5$IPC=6.94E-5 10                                            
+#G FLAG=EOSTUZ                                                            
+#L 3937.6    11(11/2 TO 15/2)                                             
+#L XREF=C                                                                 
+#L J         FROM G EXCIT IN (A,NG)                                       
+#G 1463      1 100                                                        
+#L 4344.9     319/2-             0.104 PS  14                             
+#L J         DJ=1 M1 G TO 17/2- AND ^D,E2 G TO 15/2-. MEMBER OF BAND BASED
+#L ON f{-7/2} ORBITAL                                                     
+#L XREF=GHI                                                               
+#L FLAG=AL                                                                
+#G 742.8     2 100.0   13M1                                               
+#G BM1W=0.51 7                                                            
+#G CC=0.0001660 24$KC=0.0001510 22$LC=1.351E-5 19$MC=1.729E-6 25          
+#G NC+=9.39E-8 14                                                         
+#G NC=9.39E-8 14                                                          
+#G FLAG=ETUX                                                              
+#G 1330.1    3   1.43  13(E2)                                             
+#G BE2W=1.9 4                                                             
+#G CC=9.91E-5 14$KC=5.72E-5 8$LC=5.11E-6 8$MC=6.53E-7 10$NC+=3.61E-5 6    
+#G NC=3.55E-8 5$IPC=3.61E-5 6                                             
+#G FLAG=EOTU                                                              
+#L 4723      7 (7/2)-                                                     
+#L XREF=EF                                                                
+#L E         UNWEIGHTED AV OF 4716 6 FROM (P,D),(D,T),(3HE,A) AND         
+#L 4730 7 FROM (3HE,T)                                                    
+#L J         5/2-,7/2- FROM L=3 IN (P,D),(D,T),(3HE,A). IAS(45SC GS)      
+#L ISPIN=3/2                                                              
+#L FLAG=O                                                                 
+#L 4810      203/2+,5/2+                                                  
+#L XREF=F                                                                 
+#L ISPIN=3/2                                                              
+#L FLAG=O                                                                 
+#L 4855.2     9 (17/2+)          0.35 PS   5                              
+#L XREF=I                                                                 
+#L FLAG=LM                                                                
+#G 933                   D,E2                                             
+#G FLAG=PQ                                                                
+#G 1922                                                                   
+#G FLAG=PQ                                                                
+#L 5030      20(3/2+,5/2+)                                                
+#L XREF=F                                                                 
+#L 5180      201/2-,3/2-                                                  
+#L XREF=F                                                                 
+#L 5239.9     3(17/2+)           0.07 PS   6                              
+#L J         G'S TO 15/2+ AND 13/2+. MEMBER OF BAND BASED ON d{-3/2}      
+#L ORBITAL                                                                
+#L XREF=HI                                                                
+#L FLAG=FL                                                                
+#G 1317.5    2  53.6   12                                                 
+#G FLAG=TU                                                                
+#G 1792.5    2  100.0  14 [E2]                                            
+#G BE2W=3.E+1 3                                                           
+#G CC=2.49E-4 4$KC=3.13E-5 5$LC=2.79E-6 4$MC=3.57E-7 5$NC+=0.000214 3     
+#G NC=1.94E-8 3$IPC=0.000214 3                                            
+#G FL=3447.31                                                             
+#G FLAG=TU                                                                
+#L 5330      203/2+,5/2+                                                  
+#L XREF=F                                                                 
+#L 5540      20                                                           
+#L XREF=F                                                                 
+#L 5640.9     419/2+             0.19 PS   6                              
+#L J         ^D G TO (17/2+) AND DJ=0 ^D OR DJ=2 E2 G TO 15/2+. MEMBER OF 
+#L BAND BASED ON d{-3/2} ORBITAL                                          
+#L XREF=HI                                                                
+#L FLAG=DL                                                                
+#G 401.3     3  14.0   6 (M1)                                             
+#G BM1W=0.22 7                                                            
+#G CC=6.29E-4 9$KC=0.000570 8$LC=5.13E-5 8$MC=6.57E-6 10$NC+=3.55E-7 5    
+#G NC=3.55E-7 5                                                           
+#G FLAG=ERTUZ                                                             
+#G 1717.7    5  100    2 (E2)                                             
+#G BE2W=18 6                                                              
+#G CC=2.18E-4 3$KC=3.40E-5 5$LC=3.03E-6 5$MC=3.87E-7 6$NC+=0.000180 3     
+#G NC=2.11E-8 3$IPC=0.000180 3                                            
+#G FLAG=EOSTUZ                                                            
+#L 5760      201/2+                                                       
+#L XREF=F                                                                 
+#L ISPIN=3/2                                                              
+#L FLAG=O                                                                 
+#L 6006.7     9                                                           
+#L XREF=I                                                                 
+#G 2084                                                                   
+#G FLAG=P                                                                 
+#L 6163.0     5 23/2-            0.35 PS   4                              
+#L J         DJ=2 E2 G TO 19/2-. MEMBER OF BAND BASED ON f{-7/2} ORBITAL  
+#L XREF=BGHI                                                              
+#L FLAG=ALP                                                               
+#G 1818.0    4 100       E2                                               
+#G BE2W=8.6 10                                                            
+#G CC=0.000260 4$KC=3.05E-5 5$LC=2.71E-6 4$MC=3.47E-7 5$NC+=0.000226 4    
+#G NC=1.89E-8 3$IPC=0.000226 4                                            
+#G FLAG=QST12                                                             
+#L 6459.9     8 (21/2+)                                                   
+#L XREF=I                                                                 
+#L FLAG=MN                                                                
+#G 453                                                                    
+#G FLAG=P                                                                 
+#G 819                                                                    
+#G FLAG=P                                                                 
+#L 6757.9     7 (21/2+)                                                   
+#L J         G'S TO (17/2+) AND 19/2+. MEMBER OF BAND BASED ON d{-3/2}    
+#L ORBITAL                                                                
+#L XREF=I                                                                 
+#L FLAG=F                                                                 
+#G 1117                                                                   
+#G FLAG=P                                                                 
+#G 1518                                                                   
+#G FLAG=P                                                                 
+#L 7143.4     6 27/2-            10.4 PS   14                             
+#L XREF=BGHI                                                              
+#L J         DJ=2 E2 G TO 23/2-. MEMBER OF BAND BASED ON f{-7/2} ORBITAL  
+#L FLAG=ALP                                                               
+#G 980.45    25100       E2                                               
+#G BE2W=6.3 9                                                             
+#G CC=0.0001270 18$KC=0.0001154 17$LC=1.033E-5 15$MC=1.321E-6 19          
+#G NC+=7.15E-8 10                                                         
+#G NC=7.15E-8 10                                                          
+#G FLAG=HQS1                                                              
+#L 7342.0     8 (23/2+)                                                   
+#L J         G'S TO (21/2+) AND 19/2+. MEMBER OF BAND BASED ON d{-3/2}    
+#L ORBITAL                                                                
+#L XREF=I                                                                 
+#L FLAG=D                                                                 
+#G 584                                                                    
+#G FLAG=P                                                                 
+#G 1701                                                                   
+#G FLAG=P                                                                 
+#L 7830.7     8                                                           
+#L XREF=I                                                                 
+#G 1073                                                                   
+#G FLAG=P                                                                 
+#G 2190                                                                   
+#G FLAG=P                                                                 
+#L 8289.2     8 (25/2+)                                                   
+#L XREF=I                                                                 
+#L FLAG=MN                                                                
+#G 459                                                                    
+#G FLAG=P                                                                 
+#G 947                                                                    
+#G FLAG=P                                                                 
+#G 1829                                                                   
+#G FLAG=P                                                                 
+#L 9643.5    12                   0.07 PS  LT                             
+#L XREF=I                                                                 
+#L FLAG=L                                                                 
+#G 2500        100       D,E2                                             
+#G FLAG=EPQ                                                               
+#L 10153.5   12(25/2-)            0.07 PS  LT                             
+#L J         DJ=1 (^D) TO 27/2-. POSSIBLE MEMBER OF BAND BASED ON f{-7/2} 
+#L ORBITAL                                                                
+#L XREF=I                                                                 
+#L FLAG=LQ                                                                
+#G 3010        100       (D)                                              
+#G FLAG=PQX                                                               
+#L 10795.3   13 (29/2+)                                                   
+#L XREF=I                                                                 
+#L FLAG=MN                                                                
+#G 2506                                                                   
+#G FLAG=P                                                                 
+#L 12498.6   16(29/2-)            0.07 PS  LT                             
+#L J         ^D,E2 G TO (25/2-). POSSIBLE MEMBER OF BAND BASED ON f{-7/2} 
+#L ORBITAL                                                                
+#L XREF=I                                                                 
+#L FLAG=BLPQ                                                              
+#G 2345                  D,E2                                             
+#G FLAG=EP                                                                
+#L 13030.4   17 (33/2+)                                                   
+#L XREF=I                                                                 
+#L FLAG=MN                                                                
+#G 2235                                                                   
+#G FLAG=P                                                                 
+#                                                                         
+#  45V B+ DECAY                  1982HO11                  08NDS    200802
+#H TYP=FUL$AUT=T. W. BURROWS$CIT=NDS 109, 171 (2008)$CUT=30-Oct-2007$     
+#  MEASURED G'S; HELIUM-JET TRANSPORT SYSTEM. OTHERS: 1992BU01            
+#E IB,TI,LOGFT$VALUES ARE DEPENDENT ON THE THEORETICAL ASSUMPTIONS USED   
+#E BY 1982HO11 TO OBTAIN THE NORMALIZATION. THE EVALUATOR ESTIMATES THAT  
+#E THESE ASSUMPTIONS MAY LEAD AT MOST TO A FACTOR OF TWO DIFFERENCE IN THE
+#E FEEDING OF THE 40-KEV STATE. SUCH A DIFFERENCE WOULD CHANGE THE        
+#E LOGFT'S BY AP 0.3                                                      
+#G           COMPARISON TO NEIGHBORING NUCLEI INDICATED THAT THE          
+#G BRANCHING TO EXCITED STATES WAS EXPECTED TO BE SMALL. WITHIN           
+#G THE ACCURACY OF THE MEASUREMENTS OF 1982HO11, NO OTHER G'S COULD BE    
+#G ASSIGNED TO 45TI IN THE DECAY OF 45V                                   
+#L J         FROM THE Adopted Levels                                      
+#P 0.0          7/2-             547 MS    6              7126      17    
+TI45 SC45 beta+ 7.126 0.547 1
++B beta+ 2.854 0.956
++B beta+ 2.8343000000000003 0.043
++G gamma 0.040100000000000004 0.035
+

@@ -1,0 +1,45 @@
+# 99RU    99TC B- DECAY (2.111E+5 Y)    1973LE10,1974EN02         11NDS    201102
+#  99TC B- DECAY (2.111E+5 Y)    1973LE10,1974EN02         11NDS    201102
+#H TYP=FUL$AUT=E. BROWNE, J. K. TULI$CIT=NDS 112, 275 (2011)$             
+#H CUT=1-Nov-2009$                                                        
+#  Measured: |g (1974En02,1973Le10), ce (1973Le10,1974En02), |b, |b|g,    
+#  |b|g(t) (1974En02)                                                     
+#B           Shape factor of the second-forbidden |b(g.s.) (1974Re11)     
+#B IB        From absolute I|g (1973Le10).                                
+#G CC$ FROM BrIcc v2.2 (31-Mar-2008) 2008KiAA, "Frozen Orbitals" appr.    
+#G CC$Modified by E. Browne, BRICC (May 18, 2010).                        
+#G           Internal bremsstrahlung measured by 1983Gu07, 1984El11, and  
+#G 2000Ke02.                                                              
+#G           Measurements of K-shell autoionization probability:          
+#G 0.000352 {I20} (1980La02), 0.00039 {I3} (1974Ha12), 0.000389 {I16}     
+#G (1972Wa32)                                                             
+#G E         From 1974En02.                                               
+#G M,MR      From Adopted G Rays.                                         
+#L J         Adopted values                                               
+#L T         From |b|g(t) (1974En02).                                     
+#P 0           9/2+              2.111E+5 Y12             293.5     14    
+TC99 RU99 beta- 0.2935 6.661663447680001E12 1.0
++G gamma 0.0895 6.5E-6
+
+# 99RU    99TC B- DECAY (6.0067 H)      1980AL02                  11NDS    201102
+#  99TC B- DECAY (6.0067 H)      1980AL02                  11NDS    201102
+#H TYP=FUL$AUT=E. BROWNE, J. K. TULI$CIT=NDS 112, 275 (2011)$             
+#H CUT=1-Nov-2009$                                                        
+#  Measured: |g, |b (1980Al02), |g (1972De26,1970Jo24)                    
+#B IB$Modified by E. Browne (May 18, 2010). BRICC, GTOL, LOGFT.           
+#G CC$ FROM BrIcc v2.2 (31-Mar-2008) 2008KiAA, "Frozen Orbitals" appr.    
+#G RI        |g's per 100 decays through this branch.                     
+#G M,MR      From Adopted G rays                                          
+#G TI        I(|g+ce) per 100 decays through this branch.                 
+#G CC(A)     Average of pure M1 and E2.                                   
+#G           Measured RU XK intensity ratios: XKA2/XKA1=0.5253 18,        
+#G XKB1/XKA1=0.1612 27, XKB/XKA=0.1714 13 (2007Ya02).                     
+#L J         Adopted values.                                              
+#P 142.6832  111/2-              6.0067 H  5              293.2     14    
+TC99 RU99 beta- 0.2932 21624.120000000003 3.7E-5
++B beta- 0.1522 1.0E-5
++B beta- 0.1019 2.6E-5
++B beta- 0.03 1.1E-6
++G gamma 0.2328 0.0023
++G gamma 0.32239999999999996 0.0262
+

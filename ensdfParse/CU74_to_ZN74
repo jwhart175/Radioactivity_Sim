@@ -1,0 +1,62 @@
+# 74ZN    74CU B- DECAY (1.63 S)        2005VA19,1989WI11         06NDS    200607
+#  74CU B- DECAY (1.63 S)        2005VA19,1989WI11         06NDS    200607
+#H TYP=FUL$AUT=BALRAJ SINGH, AMEENAH R. FARHAN$CIT=NDS 107, 1923 (2006)$  
+#H CUT=30-Apr-2006$                                                       
+#  2005VA19 (ALSO THESIS: 2002VAZX): 74CU PRODUCED BY 238U(N,F)           
+#  AND 238U(P,F) AT ^ISOLDE FACILITY, MEASURED EG, IG, GG, BG,            
+#  TIMING OF BG AND GG COIN SPECTRA                                       
+#  1989Wi11: Measured |g, |g|g, T{-1/2}                                   
+#  1991Kr15: Measured isotopic half-life from timing of delayed neutrons  
+#  from the decay of {+74}Cu                                              
+#  Other: 1987LuZX only three |g's, 606, 812, 1138 keV were reported.     
+#B IB$ 2005VA19 STATE THAT ALL LOGFT VALUES SHOULD BE CONSIDERED          
+#B AS LOWER LIMITS. CORRESPONDINGLY, ALL THE BETA FEEDINGS SHOULD         
+#B BE CONSIDERED AS UPPER LIMITS. LARGE ENERGY GAP OF ABOUT 4 MEV         
+#B BETWEEN Q-=9700 AND THE HIGHEST ENERGY LEVEL POPULATED AT 5628         
+#B LEAVES THE POSSIBILITY THAT THERE MAY BE ADDITIONAL UNOBSERVED         
+#B GAMMA-RAY TRANSITIONS FROM HIGHER LEVELS.                              
+#G $ GG COIN INFORMATION IS FROM 2005VA19 and 1998Wi11                    
+#G E,RI$ WEIGHTED AVERAGES OF VALUES FROM 2005VA19 AND 1989WI11           
+#G E(A),RI(A)$ G FROM 2005VA19 ONLY                                       
+#G E(B)$ PLACEMENT FROM 2005VA19; UNPLACED IN 1989WI11                    
+#G E(D)$ G FROM 1989WI11 ONLY, NOT CONFIRMED BY 2005VA19                  
+#G E(E)$ PLACED FROM A 2616 LEVEL IN 1989WI11                             
+#G E(F)$ PLACED FROM 1670 LEVEL IN 1989WI11                               
+#G E(H)$ PLACED FROM AN 1164 LEVEL IN 1989WI11                            
+#L $ NO 1164 AND 2616 LEVELS FROM 1989WI11 REPORTED IN 2005VA19.          
+#L 558G FROM 1164 LEVEL PLACED FROM 2658 LEVEL; 517.2G FROM 2616          
+#L NOT REPORTED BY 2005VA19; 2010.5G FROM 2616 PLACED FROM 4563 LEVEL     
+#L J$ FROM 'ADOPTED LEVELS'                                               
+#P 0.0         (1+,3+)           1.63 S    5               9700     50    
++G gamma 0.5053 0.006880000000000001
++G gamma 0.5172 0.0051600000000000005
++B beta- 4.239 0.3
++B beta- 3.844 0.052000000000000005
++G gamma 0.81261 0.13072
++B beta- 3.721 0.064
++G gamma 1.06435 0.1591
++B beta- 3.664 0.01
++B beta- 3.512 0.027000000000000003
++B beta- 3.489 0.036000000000000004
++B beta- 3.389 0.009000000000000001
++B beta- 3.292 0.075
++G gamma 0.45255 0.03526
++B beta- 3.241 0.01
++B beta- 3.221 0.009000000000000001
++B beta- 3.167 0.14300000000000002
++G gamma 1.13879 0.14878
++B beta- 3.12 0.083
++G gamma 1.486 0.018920000000000003
++B beta- 3.089 0.049
++G gamma 1.2989000000000002 0.01118
++G gamma 1.551 0.01118
++G gamma 2.3633 0.037840000000000006
++B beta- 3.081 0.009000000000000001
++B beta- 3.043 0.02
++B beta- 3.041 0.011000000000000001
++B beta- 2.796 0.01
++B beta- 2.314 0.033
++B beta- 2.169 0.02
++B beta- 2.152 0.022000000000000002
++B beta- 1.798 0.008
+

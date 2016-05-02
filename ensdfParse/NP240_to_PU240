@@ -1,0 +1,109 @@
+#240PU    240NP B- DECAY (61.9 M)       1982PA23                  08NDS    200810
+#  240NP B- DECAY (61.9 M)       1982PA23                  08NDS    200810
+#H TYP=FUL$AUT=BALRAJ SINGH, E. BROWNE$CIT=NDS 109, 2439 (2008)$          
+#H CUT=31-Jul-2008$                                                       
+#  1982PA23: MEASURED EG, IG, GG                                          
+#  Other: 1967Wa27.                                                       
+#B IB$ The |b feedings are poorly known for most levels since the         
+#B multipolarities and mixing ratios of |g-ray transitions are not        
+#B well established, thus all feedings, except that for 1309 keV level    
+#B are treated as uncertain and given mostly without uncertainties.       
+#B From K|p assignments, only the strong feeding to the topmost level at  
+#B 1309 keV is definite with |DK=0. All other feedings are less likely    
+#B since these involve a high degree of K-forbiddenness with |DK=2 to 5.  
+#B Apparent large intensity imbalances for some of the levels suggests    
+#B that the decay scheme is incomplete.                                   
+#B $ The LOGFT VALUES FOR 1076, (4+) AND 1308, (5-) LEVELS are DISCUSSED  
+#B BY 2006SA35 IN TERMS OF INTRINSIC STATES AND K-FORBIDDEN TRANSITIONS   
+#G M(A)      Intensity balance is consistent with mult=E1,E2 or M1.       
+#G Adopted J|p values rule out mult=E1.                                   
+#G M(B)      From adopted |g's.                                           
+#G M(D)      Intensity balance is consistent with mult=E1,E2 or M1.       
+#G Adopted J|p values rule out mult=M1,E2.                                
+#G RI(F)$ Deduced from I(|g+ce) intensity balance.                        
+#G E(X)$ Placement from 1177 level proposed by the evaluators to seek     
+#G some intensity balance at 1030 keV. 1982Pa23 proposed placement from   
+#G only the 1309 keV level. The |DK=4 involved for a transition from      
+#G 1309-keV level to 1161-keV level suggests placement by 1982Pa23 is     
+#G less likely                                                            
+#L J         From 'adopted levels'                                        
+#L BAND(A)$ K|p=0+, g.s. band                                             
+#L BAND(B)$ K|p=0- band                                                   
+#L BAND(C)$ K|p=1- band                                                   
+#L BAND(D)$ K|p=3+ band.                                                  
+#L Configuration=|n5/2[622]~#|n1/2[631]                                   
+#L BAND(E)$ K|p=2+ band                                                   
+#P 0.0          (5+)             61.9 M     2             2188      15    
++G gamma 0.0428 0.0012
++G gamma 0.0989 0.0524
++B beta- 0.6641 0.03
++B beta- 0.4985 0.01
++B beta- 0.488 0.05
++B beta- 0.4053 0.013000000000000001
++B beta- 0.373 0.013000000000000001
++B beta- 0.3783 0.05
++B beta- 0.3757 0.1
++B beta- 0.36119999999999997 0.005
++G gamma 1.0335 0.0015
++B beta- 0.3466 0.17
++B beta- 0.3297 0.05
++B beta- 0.32389999999999997 0.09
++G gamma 0.1399 0.0026
++G gamma 0.1754 0.051
++B beta- 0.30369999999999997 0.003
++G gamma 0.9382 0.0018
++G gamma 1.0905 8.0E-4
++B beta- 0.2762 0.79
+
+#240PU    240NP B- DECAY (7.22 M)       1970SC12,1981HS02         08NDS    200810
+#  240NP B- DECAY (7.22 M)       1970SC12,1981HS02         08NDS    200810
+#H TYP=FUL$AUT=BALRAJ SINGH, E. BROWNE$CIT=NDS 109, 2439 (2008)$          
+#H CUT=31-Jul-2008$                                                       
+#  |b{+-}, ce data from 1959Bu20, 1964As11. Other |b{+-} intensities from 
+#  intensity balance                                                      
+#  1970SC12, 1970SC39: GG(THETA) MEASUREMENTS                             
+#  EB MEASUREMENT: 1959BU20                                               
+#G E(D)$From {+244}Cm |a decay (1972Sc01)                                 
+#G M$From adopted |g's, unless otherwise noted.                           
+#G E,RI$Weighted average of 1970Sc12, 1981Hs02, unless otherwise noted.   
+#L J$From 'adopted levels'                                                
+#L J(A)$ |g|g(|q) consistent with J=0 (1970Sc12).                         
+#L J(B)$ |g|g(|q) data are consistent only with J=2 (1970Sc12).           
+#P 0+X          (1+)             7.22 M    2               2188     15    
++B beta- 0.7902 0.1
++B beta- 0.7729 0.42
++B beta- 0.7332000000000001 0.015
++B beta- 0.5522 0.31
++B beta- 0.5058 0.001
++B beta- 0.4502 0.025
++B beta- 0.43510000000000004 0.038
++B beta- 0.42069999999999996 0.013999999999999999
++B beta- 0.4128 0.0126
++B beta- 0.3638 0.001
++B beta- 0.3483 0.0018
++B beta- 0.3461 1.4000000000000001E-4
++B beta- 0.3145 2.8000000000000003E-4
++B beta- 0.308 1.0E-4
++B beta- 0.2789 3.4E-4
++B beta- 0.247 0.002
++B beta- 0.2373 0.0036
++B beta- 0.22 0.0058
++B beta- 0.2069 0.0016
++B beta- 0.2022 0.023
++B beta- 0.1956 0.0031
++B beta- 0.17909999999999998 7.000000000000001E-4
++B beta- 0.1705 0.0026
++B beta- 0.1451 8.4E-4
++B beta- 0.1242 5.0E-5
++B beta- 0.1176 4.1E-4
++B beta- 0.1139 3.0E-4
++G gamma 1.1592 6.0E-5
++G gamma 1.2105 1.5E-4
++G gamma 1.7652 7.000000000000001E-5
++G gamma 1.8079 2.0E-5
++B beta- 0.08009999999999999 1.3E-4
++G gamma 1.8749 1.2E-4
++B beta- 0.0693 5.5E-4
++B beta- 0.0571 8.0E-5
++B beta- 0.023399999999999997 3.8E-5
+

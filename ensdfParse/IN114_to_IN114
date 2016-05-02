@@ -1,0 +1,29 @@
+#114IN    114IN IT DECAY (49.51 D)      1969CO04,1994CO02         12NDS    201203
+#  114IN IT DECAY (49.51 D)      1969CO04,1994CO02         12NDS    201203
+#H TYP=FUL$AUT=Jean Blachot$CIT=NDS 113, 515 (2012)$CUT=1-Jan-2012$       
+#  Measured: E|g, I|g (1969Co04); |e (1956Gr35); ce (1967El02); double ce 
+#  (1962Ba43,1964Kl02,1966Gr24,1969Vu02); polarization of ce              
+#  (1961Sp09,1965Ka06,1966Lo01,1966Va06,1970Va03); I|g(190|g) (1994Co02,  
+#  value revised in Priv. Comm. from F. Schima, May 1995)                 
+#  |g|g(|q) (1967Fr03,1970Mu11); X|g (1970Mu11)                           
+#  Other measurements: 1956Ke48, 1957Gr75, 1957Ho64, 1961Da01, 1964An12,  
+#  1966Bl10, 1967Ra16, 1974Va07                                           
+#  See also {+114}In |e decay (49.51 d)                                   
+#G E$From 1974HeYW                                                        
+#P 190.2682  8 5+                49.51 D   1                              
+IN114 IN114 IT 0.0 4277664.0 0.9675
++G gamma 0.19027000000000002 0.160826604
+
+#114IN    114IN IT DECAY (43.1 MS)                                12NDS    201203
+#  114IN IT DECAY (43.1 MS)                                12NDS    201203
+#H TYP=FUL$AUT=Jean Blachot$CIT=NDS 113, 515 (2012)$CUT=1-Jan-2012$       
+#  Activity produced from: In(|g,|g') E=9.7 MeV (1958Du80);               
+#  Cd(p,|g) E=10 MeV (1967Iv04); In(n,|g) E=th (1968Al08); In(n,|g)       
+#  E=14 MeV (1968Ko25)                                                    
+#  Other measurements: 1956Le46, 1957Le20, 1959Ca13, 1959Gl56, 1960Mo19,  
+#  1972Br53                                                               
+#L J,T$From Adopted levels                                                
+#P 501.948   3 8-                43.1 MS   6                              
+IN114 IN114 IT 0.0 0.0431 1.0
++G gamma 0.311652 0.8985
+

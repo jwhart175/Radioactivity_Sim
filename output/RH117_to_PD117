@@ -1,0 +1,14 @@
+#117PD    117RH B- DECAY                1991PE10                  ENSDF    201101
+#  117RH B- DECAY                1991PE10                  ENSDF    201101
+#H TYP=FUL$AUT=JEAN BLACHOT$CIT=ENSDF$CUT=1-Mar-2009$                     
+#  1991PE10 238U(P,F) E=28 MEV. On-line mass separator.                   
+#  Measured: G, GG, CE, Ge, electron spectrometer.                        
+#  CC$ FROM BrIcc v2.2b (20-Jan-2009) 2008Ki07, "Frozen Orbitals" appr.   
+#G M$From adopted levels based on IT decay.                               
+#L J$From adopted levels                                                  
+#P 0.0         (7/2+)            0.44 S    4              7.5E+3    5     
+RH117 PD117 beta- 7.5 0.44 1.0
++G gamma 0.0346 0.10800000000000001
++G gamma 0.09709999999999999 0.11
++G gamma 0.1318 0.33
+

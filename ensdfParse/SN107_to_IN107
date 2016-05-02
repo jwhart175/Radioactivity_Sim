@@ -1,0 +1,20 @@
+#107IN    107SN EC DECAY (2.90 M)       1976HS01,1976BUZF         08NDS    200805
+#  107SN EC DECAY (2.90 M)       1976HS01,1976BUZF         08NDS    200805
+#H TYP=FUL$AUT=Jean Blachot$CIT=NDS 109, 1383 (2008)$CUT=1-Mar-2008$      
+#  Others: 1972RI16, 1976VAYY                                             
+#  Partial decay scheme; level intensity balance not determined           
+#G           Except as noted, EG, IG are from semi G-singles (1976BUZF),  
+#G with sources from 106CD(A,3N), 106CD(3HE,2N)                           
+#G DE        Uncertainties 0.5 to 2 KEV (1976BUZF)                        
+#G DRI       Uncertainties 10% to 30% (1976BUZF)                          
+#G           Placement based on GG-coin via (D,NG) for E(levels) LT 2 MEV 
+#G E(A)      From 1976HS01; DE and RI not given                           
+#G in partial study of G spectrum of mixed 106SN, 107SN source            
+#G produced by 30-MEV 3HE on 106CD                                        
+#L E(B)      Tentative from EG fits                                       
+#L J         From adopted levels                                          
+#P 0.0         (5/2+)            2.90 M    5              4980      80    
+SN107 IN107 beta+ 4.98 174.0 1.0
++G gamma 1.936 0.015
++G gamma 1.911 0.049
+

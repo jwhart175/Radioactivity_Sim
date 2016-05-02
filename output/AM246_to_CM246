@@ -1,0 +1,90 @@
+#246CM    246AM B- DECAY (39 M)         2008RO21,1968FI03         11NDS    201108
+#  246AM B- DECAY (39 M)         2008RO21,1968FI03         11NDS    201108
+#H TYP=FUL$AUT=E. BROWNE, J. K. TULI$CIT=NDS 112, 1833 (2011)$            
+#H CUT=1-Jan-2011$                                                        
+#  Modified by E. Browne (2/22/2011)                                      
+#  Compiled (unevaluated) dataset from 2008Ro21:                          
+#  Phys Rev C 78, 034308 (2008)                                           
+#  Compiled by S. Geraedts and B. Singh (McMaster); Sep 17, 2008          
+#  {+246}Am produced in the reaction {+244}Pu(|a,pn) with a 42-MeV        
+#  beam produced by the ATLAS facility at Argonne. Measured E|g, I|g,     
+#  |g|g-coin, conversion electrons using two Clover HPGe detectors        
+#  a focal plane detector and a double-sided silicon strip detector.      
+#G M$ The high-energy (interband) transitions have probable E1            
+#G multipolarity based on observed low XK intensity of LT 1.6%            
+#G E,RI      From 1968Fi03, renormalized by 1971Mu05, unless              
+#G otherwise specified.                                                   
+#G M         From Adopted Gammas                                          
+#G E(A)      From 2008Ro21                                                
+#L E$Deduced by evaluators from least-squares fit to G-ray energies,      
+#L assuming an uncertainty of 0.3 keV for G rays from 2008Ro21.           
+#L BAND(A)$ K|p=0+ GS ROTATIONAL BAND                                     
+#L BAND(B)$ K|p=2- OCTUPOLE VIBRATIONAL BAND                              
+#L E(C)$ K|p=8- isomer                                                    
+#P 0            7-               39 M      3              2376      18    
+AM246 CM246 beta- 2.376 2340.0 1.0
+
+#246CM    246AM B- DECAY (25.0 M)       1976MU03                  11NDS    201108
+#  246AM B- DECAY (25.0 M)       1976MU03                  11NDS    201108
+#H TYP=FUL$AUT=E. BROWNE, J. K. TULI$CIT=NDS 112, 1833 (2011)$            
+#H CUT=1-Jan-2011$                                                        
+#  Modified by E. Browne.  Theoretical ICC (also in comments) are from    
+#  (March 1, 2011). New level energies from GTOL.                         
+#  CC$ FROM BrIcc v2.2 (31-Mar-2008) 2008KiAA, "Frozen Orbitals" appr.    
+#  1976Mu03: from {+246}Pu |b{+-} decay produced by                       
+#  {+244}Pu(n,|g){+245}Pu(n,|g); Pu, Am chem. Measured E|g, I|g, |g|g,    
+#  Ge(Li); Ice, Si(Li). Earlier study by same authors: 1971Mu05           
+#  Others: 1966Or01, 1965St10, 1956Sm85                                   
+#B IB        From level scheme intensity balance; the uncertainties       
+#B do not include a systematic contribution from unplaced G rays.         
+#B E(B)      The F-K plot of |b-spectrum from {+246}Pu+{+246}Am           
+#B equilibrium source shows three groups: 2.10 MeV {I7%}, 1.60 MeV {I14}% 
+#B and 1.31 MeV {I79}% (1956Sm85).                                        
+#B IB(A)     I|b(g.s.+43 level)|?7 (1956Sm85); division of intensity      
+#B from comparison with {+250}Bk (J|p=2-) |b-decay                        
+#G E,RI      From 1976Mu03                                                
+#G M         From I(ce)/I|g in 1976Mu03, 1966Or01. 1976Mu02 normalized to 
+#G the theoretical |a(K)(E1) for 1036, 1062 and 1079 G rays. 1966Or01     
+#G normalized to |a(K)exp(799|g,E1)=0.00524                               
+#G E(B),TI(B)$I(|g+ce) deduced from coincidence measurements. E|g from    
+#G E(level) difference                                                    
+#G E(F)      G-ray placement suggested in 1989Sc26                        
+#G on basis of good energy fit.                                           
+#G M(J)      From Adopted Gammas.                                         
+#G M(D)      From Adopted Gammas. |a(K)exp used for normalization of |g-  
+#G and ce-spectra                                                         
+#G M(E)      |a(K)exp=0.009 {I2} for the 1123+1124 peak (1976Mu03);       
+#G |a(K)exp=0.007 {I2} (1966Or01). Theory: |a(K)(E2)=0.0083,              
+#G |a(K)(E1)=0.0020, |a(K)(M1)=0.0316. |a(K)exp indicates that both G ray 
+#G are predominantly E2.                                                  
+#G M(G)      |a(K)exp=0.050 {I10} for the 505.61+507.10 multiplet         
+#G (1976Mu03); theory: |a(K)(E1)=0.015, |a(K)(E2)=0.0326,                 
+#G |a(K)(M1)=0.270.                                                       
+#G M(H)      |a(K)exp=0.0045 {I14} for the 1529.00+1530.7 doublet         
+#G (1976Mu03). Theory: |a(K)(E1)=0.00175, |a(K)(E2)=0.00486,              
+#G |a(K)(M1)=0.0138. The 1529.00|g (I|g=9.0 {I4}) can be either E1 or E2, 
+#G not M1. If the 1529.00|g is E2, the 1530.7|g (I|g=1.0 {I2}) may be E1, 
+#G E2 or M1. If the 1529.00|g is E1, then the 1539.7|g must be M1         
+#G M(I)      |a(K)exp=0.17 {I6} for the 554.4+554.68 doublet (1976Mu03).  
+#G Theory: |a(K)(M1)=0.210, |a(K)(E2)=0.0277. Both G rays may be M1       
+#G (|a(K)(doublet)=0.23, within the uncertainty of |a(K)exp), but both    
+#G G rays cannot be E2 (|a(K)(doublet)=0.042).                            
+#L E$Deduced by evaluators from least squares fit to G-ray energies.      
+#L J         From adopted levels                                          
+#L E(M)      Level suggested in 1989Sc26                                  
+#L BAND(A)   GS ROTATIONAL BAND                                           
+#L BAND(B)   KPI=2- OCTUPOLE VIBRATIONAL BAND                             
+#L BAND(C)   KPI=1- OCTUPOLE VIBRATIONAL BAND                             
+#L BAND(D)   KPI=2+ G VIBRATIONAL BAND                                    
+#L BAND(E)   KPI=0+ BAND                                                  
+#L BAND(F)   KPI=0- BAND                                                  
+#L BAND(G)   SECOND KPI=0+ BAND                                           
+#L BAND(H)   SECOND KPI=1- BAND                                           
+#L BAND(I)   KPI=1+ BAND                                                  
+#L BAND(J)   KPI=3- OCTUPOLE VIBRATIONAL BAND HEAD                        
+#L BAND(K)   SECOND KPI=2- BAND                                           
+#L BAND(L)   THIRD KPI=1- BAND                                            
+#L BAND(N)   SECOND KPI=1+ BAND                                           
+#P 0+X         2(-)              25.0 M    2              2376      18    
+AM246 CM246 beta- 2.376 1500.0 0.0248
+

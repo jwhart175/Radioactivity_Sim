@@ -1,0 +1,65 @@
+#184IR C  1988BE16: 184PT SOURCE FROM EC DECAY OF 184AU OBTAINED FROM ON-LINE    
+#  1988BE16: 184PT SOURCE FROM EC DECAY OF 184AU OBTAINED FROM ON-LINE    
+#  MASS SEPARATED PRODUCTS OF Pt(p,xn) REACTION AT EP=200 MEV; PLANAR     
+#  HPGe (FWHM=0.6 KEV AT 122 KEV) FOR EG=8-450, 2 COAX HPGe (FWHM=1.9 KEV 
+#  AT 1300) FOR EG<1500 AND EG<2000; COAX GELI (FWHM=2.1 KEV) FOR EG<1100;
+#  semi-circular magnetic spectrometer for E(ce)=10-400 KEV and COOLED    
+#  SI(LI) FOR HIGHER ENERGY ce; MEASURED EG, IG, I(ce), GG COIN,          
+#  X-|g(t), GG(t).  TWO-QUASIPARTICLE PLUS ROTOR MODEL CALCULATIONS.      
+#  1996OM01: MEASURED ce-ce COIN; DEDUCED ^T{-1/2} (2 LEVELS).            
+#E TI        About 10-15% of the transition intensity is unplaced. This   
+#E makes the weaker intensity branches very doubtful. The uncertainties   
+#E reflect only the statistical error in the adopted intensities.         
+#E Branchings to levels with JPI=2+ or J GE 3 have been set to zero       
+#E although, in some cases, an apparent net feeding exists.               
+#G M,MR      From ce data (1988Be16), assuming 50% uncertainty in         
+#G approximate values and 20% uncertainty in all other values. For        
+#G unresolved conversion electron intensities, some multipolarities could 
+#G be assigned by comparing multiplet ce intensities with                 
+#G the resolved GAMMA intensities.                                        
+#G E         FROM 1988BE16. Uncertainty <0.1 KEV below 300 KEV and <0.3   
+#G KEV above 300 KEV.                                                     
+#G RI        FROM 1988BE16. Uncertainty AP 10%. For weak transitions,     
+#G the evaluator has limited the minimum uncertainty to 0.1 units         
+#G on the relative intensity scale.                                       
+#G TI(B)     Calculated by the evaluator from the intensity balance.      
+#L E         FROM LEAST-SQUARES FIT TO EG.                                
+#L J         From Adopted Levels.                                         
+#L T         FROM 1987BRZR, EXCEPT AS NOTED.                              
+#L E(A)      The existence of the 11.6, 18.4, and 499.3 levels is based on
+#L coincidences between the transitions deexciting the 499.3 level and    
+#L those deexciting well established higher-lying levels.                 
+#L However, the intensity feeding the 499.3 level greatly exceeds the     
+#L intensity deexciting that level.  The feeding through the 499.3 level  
+#L could be balanced by a 66.7G, CREATING ONLY A VERY SLIGHT intensity    
+#L imbalance at the 432.5 level.  ALTERNATIVELY, THE 499 LEVEL MAY        
+#L deexcite via low energy transitions to levels directly feeding the GS. 
+#L It would be unusual to have weakly fed low-J levels above the          
+#L higher-spin 184IR ground state, and LOW-LYING higher-J levels should   
+#L have been observed in the reaction data.                               
+#L E(C)      The 942.6 level has some excess feeding from higher          
+#L levels.                                                                
+#L T(T)      From 1987BrZR.                                               
+#P 0.0          0+                  17.3 M 2                  2280  30    
++B beta+ 0.474 2.8000000000000003E-4
++B beta+ 0.428 4.2E-4
++B beta+ 0.391 2.1E-4
++B beta+ 0.368 6.1000000000000005E-5
++B beta+ 0.366 1.8999999999999998E-4
++B beta+ 0.359 1.2E-4
++B beta+ 0.357 6.0E-5
++B beta+ 0.355 7.000000000000001E-5
++B beta+ 0.306 3.6E-5
++B beta+ 0.289 2.0E-5
++B beta+ 8.086E-4 0.0014399999999999999
++B beta+ 8.085E-4 0.0014399999999999999
++B beta+ 8.081000000000001E-4 0.00145
++B beta+ 0.179 0.008079
++B beta+ 8.078E-4 0.00145
++B beta+ 8.077E-4 0.00145
++B beta+ 8.075E-4 0.00145
++B beta+ 8.058999999999999E-4 0.00147
++B beta+ 8.056E-4 0.00147
++B beta+ 8.043E-4 0.00148
++B beta+ 8.032E-4 0.00149
+

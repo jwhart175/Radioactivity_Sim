@@ -1,0 +1,15 @@
+#122IN    122CD B- DECAY (5.24 S)       1973SC19                  07NDS    200704
+#  122CD B- DECAY (5.24 S)       1973SC19                  07NDS    200704
+#H TYP=FUL$AUT=T. TAMURA$CIT=NDS 108, 455 (2007)$CUT=30-Sep-2006$         
+#  Sn(p,3pxn) E(p)=600 MeV, on-line MS; semi, plastic |g, |b{+-},         
+#  |b|g-coin, T{-1/2}                                                     
+#  Since Q{-|b}=2.9 MeV, the decay                                        
+#  scheme is probably incomplete.                                         
+#B $|b-branchings and log {Ift} are approximate values.                   
+#G           1973Sc19 reported three |g's with                            
+#G energy of 854.5-, 1013.2- and 1274.7-keV, but the evaluator assumes    
+#G those belong to {+122}In 1.5-s decay                                   
+#P  0.0        0+                5.24 S    3              2850      70    
+CD122 IN122 beta- 2.85 5.24 1.
++B beta- 1.177 1.0
+

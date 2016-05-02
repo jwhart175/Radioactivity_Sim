@@ -1,0 +1,48 @@
+#142CS    252CF SF DECAY                2010LI14,2009RZ02         11NDS    201108
+#  252CF SF DECAY                2010LI14,2009RZ02         11NDS    201108
+#H TYP=FUL$AUT=T.D. Johnson, D. Symochko(a), M. Fadil(b), and J.K. Tuli$  
+#H CIT=NDS 112, 1949 (2011)$CUT=1-Jun-2010$                               
+#  2010Li14: Gammasphere detector array. Measured E|g, |g|g, |g|g(|q).    
+#  2009Rz02: Includes {+252}Cf SF decay, {+248}Cm SF decay and            
+#  {+235}U(n,F). The data from SF fission of {+248}Cm and {+252}Cf        
+#  obtained with the Eurogam-2 and Gammasphere detector arrays,           
+#  respectively. LEPSs were used to measure low-energy |g's. Measured     
+#  E|g, I|g, |g|g, |g|g(|q), half-lives by delayed timing method.         
+#  Presence of nanosecond isomer was confirmed with  measurements of      
+#  delayed |g rays following induced fission of {+235}U carried with      
+#  the LOHENGRIN mass spectrometer.                                       
+#  Other: 1998Hw04.                                                       
+#  218-408-548-702 and 618-387-503 cascades previously assigned to        
+#  {+139}Cs (1998Hw04) are reconfirmed as belonging to {+142}Cs           
+#  (2010Li14,2009Rz02).                                                   
+#  Level scheme is that of 2010Li14; E(level) and E|g are taken from      
+#  authors' level scheme, except |g's - 25.3-, 26.4- and 9195-keV         
+#  which are seen only in 2009Rz02.                                       
+#  J|p are based on |g|g(|q) measurements and band assignments.           
+#G RI$From 2009Rz02.                                                      
+#G                                                                        
+#G $                Angular Correlation Measurements                      
+#G $                  (Measurements by 2010Li14)                          
+#G $                                                                      
+#G $     Transitions                   A2                 A4              
+#G $  --------------------        ------------        -----------         
+#G $  (218.3|g)(96.9|g)(|q)            0.11 {I2}            -0.02 {I3}    
+#G $  (544.9|g)(404.8|g)(|q)           0.104 {I16}           0.001 {I24}  
+#G $  (408.6|g)(218.3|g)(|q)           0.086 {I19}          -0.032 {I29}  
+#G $  (544.9|g)(404.8|g)(|q)           0.104 {I16}           0.001 {I24}  
+#G $  (548.8|g)(408.6|g)(|q)           0.093 {I25}          -0.010 {I39}  
+#G $  (618.8|g)(408.6|g)(|q)          -0.078 {I38}          -0.022 {I59}  
+#G $  (715.8|g)(404.8|g)(|q)          -0.052 {I30}          -0.003 {I45}  
+#G $  -----------------------------------------------------------         
+#G M$From |g|g(|q) measurements and angular correlations from             
+#G 2010Li14.  A value A2 = 0.102, A4 = 0 implies E2 to E2, whereas        
+#G A2 = -0.071, A4 = 0 corresponds to E1 to E2 (from 2010Li14)            
+#L E$From least-squares fit to E|g's, assuming |D(E|g)=0.3 keV            
+#L BAND(A)$ Band based on 96+x                                            
+#L BAND(B)$ Band based on 11-ns isomer                                    
+#L BAND(C)$ Band based on 1150+x                                          
+#L BAND(D)$ Band based on 1793+x                                          
+#L BAND(E)$ Band based on 1073+x                                          
+#P 0.0          0+               2.645 Y   8                              
+CF252 CS142 SF 0.0 8.346802377600001E7 1.0
+

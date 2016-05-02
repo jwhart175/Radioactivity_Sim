@@ -1,0 +1,93 @@
+# 32CL    32AR EC DECAY (98 MS)         2008BH08,1985BJ01,1993SC1611NDS    201109
+#  32AR EC DECAY (98 MS)         2008BH08,1985BJ01,1993SC1611NDS    201109
+#H TYP=FUL$AUT=CHRISTIAN OUELLET, BALRAJ SINGH$CIT=NDS 112, 2199 (2011)$  
+#H CUT=24-Aug-2011$                                                       
+#  2008Bh08: {+32}Ar produced in the reaction {+9}Be({+36}Ar,X) with a    
+#  100 MeV/nucleon beam at NSCL. A1200 fragment separator.                
+#  53.28 MeV/nucleon {+32}Ar beam implanted in a P/N silicon detector.    
+#  Measured E|g, I|g, delayed protons, p|g coin using HPGe detectors      
+#  (3 four-fold segmented clovers and 2 monolithic crystals) and          
+#  silicon detectors. The {Ift} value of T=2, superallowed transition     
+#  from 0+ parent state of {+32}Ar to 0+ excited state at 5246 keV in     
+#  {+32}Cl was determined.                                                
+#  Absolute intensities of proton groups measured from the determination  
+#  of total number of implanted {+32}Ar ions and detector efficiencies.   
+#  S(p)({+32}Cl)=1581.3 {I6} (2008Bh08), from energy of the IAS at 5046.4 
+#  keV in {+32}Cl and E(c.m.)=3465.0 {I4} (from ISOLDE data yet to be     
+#  published) for total kinetic energy of                                 
+#  proton group and {+31}S level energy in the superallowed decay.        
+#  2003Au03 give S(p)({+32}Cl)=1574 {I7}                                  
+#  From this experiment 2008Bh08 deduced isospin symmetry breaking        
+#  correction in {+32}Ar decay |d{-C}{+exp}=2.1% {I8}.                    
+#  2008Bh08 use some of the results from ISOLDE experiment (reference 10  
+#  in their paper) which are expected to appear in a future publication   
+#  2006BoZZ is from the same group as 2008Bh08                            
+#  1985BJ01: E=600 MEV protons on ^CaO target producing 32AR through      
+#  spallation. Mass separated through ^ISOLDE-^I. Measured half-life,     
+#  ^Ep, E|g, ^Ip, I|g, p|b|g coincidences, branching ratio. Proton        
+#  energies measured using silicon detectors; germanium detector for      
+#  |g-rays.                                                               
+#  1993SC16: E=600 MEV protons on ^Ca^O target producing 32AR through     
+#  spallation. Mass separated through ^ISOLDE-^II. Measured ^Ep and ^Ip   
+#  using ^Si detector.                                                    
+#  Others:                                                                
+#  2007DoZX: Measured proton energies and intensities of 19 groups        
+#  at GANIL facility, p|g coin. The protons range from 594.1 to 6056      
+#  keV. Most of these groups are in agreement with those from 2008Bh08    
+#  and earlier studies. However, one severe discrepancy is noted that     
+#  1203.7-keV proton group is shown to be in coin with a 2230-keV |g ray  
+#  (presumably corresponding to known 2236|g in {+31}S), but in 2008Bh08, 
+#  this proton group was observed strongly in coin with 1248|g from the   
+#  first excited state of {+31}S. Moreover the deduced level excitation   
+#  energy quoted by 2007DoZX as 6295 for the 1203.7 proton group seems    
+#  to be in error if this group is in coin with 2236|g. In view of        
+#  the lack of sufficient details in 2007DoZX and noted inconsistencies,  
+#  the evaluators feel that it is premature to consider data from         
+#  2007DoZX for current evaluation.                                       
+#  1999Ad10, 2000Ga61: measured proton spectra, p|b coin.                 
+#  Same group as 2008Bh08                                                 
+#  2001AdZZ from authors of 1999Ad10                                      
+#  1977Ha29: {+32}Ar formed in 600-MeV proton bombardment of vanadium     
+#  target at CERN-ISOLDE facility. Measured delayed protons, half-life    
+#  1998Gl01: calculated recoil spectra                                    
+#  1984Mu25: calculated |b strength functions                             
+#  From RADLIST code, deduced energy balance=9274 keV {I320} as compared  
+#  to 11135 keV {I2} from Q value; about 1.5 MeV energy is missing        
+#E TI$ From weighted average of proton branches from 2008Bh08, 1985Bj01   
+#E and 1993Sc16, and appropriate normalizations so that the feedings      
+#E listed here are per 100 decays of {+32}Ar                              
+#G E(A),RI(A)$ FROM 2008Bh08                                              
+#G E(B),RI(B)$ FROM 1985BJ01                                              
+#L E$ Mostly from 2008Bh08, based on SP=1581.3 6 (2008Bh08) which         
+#L is about the same as 1581.1 6 in 2011AuZZ                              
+#L J$ From ^Adopted ^Levels. JPI=1+ is from LOGFT value from 0+ parent    
+#L state indicative of allowed transition, but not 0+ to 0+               
+#L T$ |G from 1993Sc16, deduced from measured peak shape and calculated   
+#L recoil broadening                                                      
+#P 0.0         0+                98 MS     2              11134.7   20    
+AR32 CL32 beta+ 11.1347 0.098 1
++B beta+ 4.8366999999999996 0.07
++B beta+ 4.2566999999999995 0.57
++B beta+ 3.7407 0.0034999999999999996
++B beta+ 2.9696 0.0368
++B beta+ 2.8146 0.0814
++B beta+ 2.7752 0.009000000000000001
++B beta+ 2.6419 0.00117
++B beta+ 2.4668 5.3E-4
++B beta+ 2.34419 0.22690000000000002
++B beta+ 2.2192 0.00115
++B beta+ 2.158 0.008100000000000001
++B beta+ 2.0273 0.00231
++B beta+ 1.9792 0.006
++B beta+ 1.8485 0.00146
++B beta+ 1.7535 0.0011
++B beta+ 1.6235 4.9E-4
++B beta+ 1.5892 6.8E-4
++B beta+ 1.5223 0.00127
++B beta+ 1.239 0.00125
++B beta+ 1.1739000000000002 4.0E-4
++B beta+ 1.1549 7.000000000000001E-5
++B beta+ 1.1071 4.6E-4
++B beta+ 0.9882000000000001 7.5E-4
++B beta+ 0.8365 1.0999999999999999E-4
+

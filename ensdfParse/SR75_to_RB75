@@ -1,0 +1,18 @@
+# 75RB    75SR EC DECAY (88 MS)         2003HU01                  13NDS    201309
+#  75SR EC DECAY (88 MS)         2003HU01                  13NDS    201309
+#H TYP=FUL$AUT=ALEXANDRU NEGRET, BALRAJ SINGH$CIT=NDS 114, 841 (2013)$    
+#H CUT=30-Jun-2013$                                                       
+#  2003HU01: 75SR produced by spallation in a Nb foil using pulsed        
+#  1 GeV and 1.4 GeV beam from the PS Booster and mass separated          
+#  at ISOLDE (CERN). Average yield 5.4 ions/s (21 h measurement).         
+#  The SrF+ beam was implanted in a moving tape. Used a plastic           
+#  scintillator to detect B particles, HPGe detectors for gammas and      
+#  Si detectors for protons. Measured Q-, B-delayed gamma and proton      
+#  intensities, T1/2.                                                     
+#L J,T$ From Adopted Levels, unless otherwise stated                      
+#P 0           (3/2-)            88 MS     3              1.060E4   22    
+SR75 RB75 beta+ 10.6 0.088 1
++B beta+ 2.3337 0.09
++B beta+ 4.56 0.01
++B beta+ 4.49 0.01
+

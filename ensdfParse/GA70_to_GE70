@@ -1,0 +1,32 @@
+# 70GE    70GA B- DECAY                                           04NDS    200412
+#  70GA B- DECAY                                           04NDS    200412
+#H TYP=FUL$AUT=J. K. Tuli$CIT=NDS 103, 389 (2004)$CUT=16-Jan-2004$        
+#  1977Sc10: produced from 69GA(D,P) and 71GA(D,T) reactions; natural     
+#  target; NAI(TL), GE(LI), plastic scintillator, 4PI geometry; measured  
+#  IB-, EG, RI, T1/2, F-K plot analysis.                                  
+#  1975Bu07: obtained from deuteron bombardment of natural Ga target;     
+#  GE(LI) detector, measured EG, RI, T1/2.                                
+#  1958Ke20: source from 69GA(N,G) reaction; NAI(TL) detector;            
+#  measured T1/2 of 1215 level with BG delayed coincidence.               
+#  1957Bu41: produced from 69GA(N,G) reaction in an enriched target;      
+#  NAI(TL) detector, plastic scintillator and BETA spectrometer, measured 
+#  EG, RI, GG(THETA), BG coin, T1/2.                                      
+#  1958Al01: source from neutron capture in enriched target; BETA         
+#  spectrometer used for BETA conversion electron coin measurements;      
+#  measured IB-, CE B- coin, T1/2 of 1215 level with B- conversion        
+#  electron coin.                                                         
+#B E$From measurements of 1957Bu41, more precise values can be computed   
+#B from Q- and ^E(level)                                                  
+#B IB        From 1977Sc10                                                
+#G E         From 1977Sc10                                                
+#G RI,TI     Absolute intensity                                           
+#G M,MR      From adopted G's                                             
+#L J         From adopted levels                                          
+#P 0.0         1+                21.14 M   3              1653.0    16    
+GA70 GE70 beta- 1.653 1268.4 0.9959
++B beta- 0.6498999999999999 0.9891
++B beta- 0.2041 0.0036
++G gamma 1.0392000000000001 0.00652665
++B beta- 0.1378 0.0032
++G gamma 0.17617 0.00291189
+

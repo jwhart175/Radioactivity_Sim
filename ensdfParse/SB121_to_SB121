@@ -1,0 +1,29 @@
+#121SB    121SB IT DECAY (179 US)       2008JO03,2008KO03         10NDS    201006
+#  121SB IT DECAY (179 US)       2008JO03,2008KO03         10NDS    201006
+#H TYP=FUL$AUT=S. OHYA$CIT=NDS 111, 1619 (2010)$CUT=20-Jan-2009$          
+#  2008Jo03: The 179-|ms isomer of {+123}Sb produced in reaction          
+#  {+27}Al({+178}Hf,X), E=1150 MeV, Measured  E|g, I|g, |g|g, |g|g(|q),   
+#  GAMMASPHERE array of 101 Compton-suppressed HPGe detectors. Pulsed     
+#  beam with short pulses of |?0.5 ns width and separated by 82.5 ns.     
+#  2008Ko03: {+120}SN({+10}B,X|g), E=55 MeV, Measured E|g, I|g, |g|g,     
+#  OSIRIS-II array of 12 Compton-suppression HPGe detectors, 48 element   
+#  BGO multiplicity filter                                                
+#G E$From 2008Jo03, except where noted otherwise.                         
+#G RI$From 2008Jo03: Intensity is normalized to 100 for 909.8|g in the    
+#G rotational band. Normalized ratio of intensities in the rotational     
+#G band to those in the single-particle structure is 0.7 {I1}             
+#G TI$LABEL=RI                                                            
+#G TI$From 2008Jo03: Intensity is normalized to 100 for 286.8|g in        
+#G single-particle structure. Normalized ratio of intensities in the      
+#G rotational band to those in the single-particle structure is 0.7 {I1}  
+#G $|a(exp) deduced by 2008Jo03 from intensity balances assuming M1 for   
+#G 323|g, 348|g and 998|g and E2 for 682|g and 292|g                      
+#L E$From least-squares fit to E|g's                                      
+#G MR$From |g|g(|q) of 2008Jo03, except where noted otherwise.            
+#L J$Based on |g|g(|q), multipolarities and analogy with band structures  
+#L in odd Sb isotopes, unless where noted otherwise.                      
+#L J(C,D,E)$From adopted levels                                           
+#L BAND(A,D)$Band based on 9/2+.                                          
+#L BAND(B,E)$Band based on 11/2-.                                         
+#P 2721.5+X     (25/2)           179 US    6                              
+

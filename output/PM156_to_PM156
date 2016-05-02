@@ -1,0 +1,20 @@
+#156PM    156PM IT DECAY (LT 5 S)       2007SH05                  12NDS    201210
+#  156PM IT DECAY (LT 5 S)       2007SH05                  12NDS    201210
+#H TYP=FUL$AUT=C. W. REICH$CIT=NDS 113, 2537 (2012)$CUT=1-Mar-2012$       
+#  NEW DATA SET PREPARED (JULY, 2011) BY CW REICH.                        
+#  Unless noted otherwise, the values are those reported by 2007Sh05.     
+#  Isomer proposed by 2007Sh05 from analysis of the decay of the |g's     
+#   and ce's from the B- decay of isotope-separated 156ND sources.        
+#   |g's detected using a HPGe detector and a short coaxial detector.     
+#   Conversion electrons detected using a cooled Si(Li) detector.         
+#   Measured EG, RI, ICE, M, T .                                          
+#G M         From EKC, ELC                                                
+#L J         From the adopted values.                                     
+#L BAND(A)   Probable |p5/2[532]+|n3/2[521] bandhead.                     
+#L  2007Sh05 report a different neutron orbital for this configuration.   
+#L  See the discussion in the 156ND B- Decay data set.                    
+#L BAND(B)   Probable |p5/2[532]-|n3/2[521] bandhead.                     
+#L  See the comment on the conf for the g.s.                              
+#P   150.3    1 1(+)                 5 S   LT                             
+PM156 PM156 IT 0.0 0.0 1.0
+

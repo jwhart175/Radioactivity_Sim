@@ -1,0 +1,54 @@
+# 61NI    61CU EC DECAY (3.339 H)       1978ME10,1988SA26         15NDS    201503
+#  61CU EC DECAY (3.339 H)       1978ME10,1988SA26         15NDS    201503
+#H TYP=FUL$AUT=KAZIMIERZ ZUBER, BALRAJ SINGH$CIT=NDS 125, 1 (2015)$       
+#H CUT=25-Jan-2015$                                                       
+#  1978Me10: chemical separation. Measured E|g, I|g, by Ge(Li), Compton   
+#  suppression.                                                           
+#  1988Sa26: measured E|g, I|g by Ge(Li). Confirmed the presence of       
+#  215.6, 625.5, 947.3, 1014.4 and 701.1 |g rays. But presence of 190.8,  
+#  276.7, 443.5, 629.9, 820.9 and 1089 |g rays was not confirmed.         
+#  Source produced by {+59}Co(|a,2n) (1988Sa26,1967Be12,1967Bo01),        
+#  {+60}Ni(d,n) (1967Sc02), and {+63}Cu(|g,2n) (1969Ri04).                
+#  Decay scheme is from |g|g coin results of 1967Wa04 and energy sums.    
+#  Others: 1967Be12, 1967Bo01, 1967Sc02, 1967Wa04, 1969Ri04,              
+#  1971VoZX, 1977Wa03.                                                    
+#  Pre-1960 studies of x ray, |b and |g rays from {+61}Cu decay: 1938Al02,
+#  1945Br02, 1948Co08, 1949Bo16, 1949Hu21, 1950Co05, 1950Ow03, 1950Bo34,  
+#  1953En06, 1956Nu02, 1957Ku57, 1958Bu07                                 
+#  All data are from 1978Me10, except as noted.                           
+#  From RADLIST code, deduced total decay energy is 2063 keV {I81}        
+#  as compared to 2238 keV {I1} from Q(|e) value. It suggests that the    
+#  decay scheme is reasonably complete                                    
+#E TI$From I(|g+ce) imbalance at each level except g.s.                   
+#G E,RI$From 1978Me10 unless otherwise stated. Uncertainties of five      
+#G |g-ray energies quoted in 1978Me10 are unrealistically small.          
+#G Evaluators assign a minimum energy uncertainty of 0.010 keV, while     
+#G uncertainty listed in 1978Me10 is given under comments                 
+#G E(E)$From 1988Sa26.                                                    
+#G M,MR$From Adopted Gammas.                                              
+#L E$From least-squares fit to E|g data. Reduced |h{+2}=1.8 is            
+#L below the critical |h{+2}                                              
+#L J$From Adopted Levels.                                                 
+#P 0.0         3/2-              3.339 H   8              2237.5    10    
++B beta+ 0.5238200000000001 0.51
++B beta+ 0.49383 0.023
++B beta+ 0.3989 0.055
++B beta+ 0.23845 0.026000000000000002
++B beta+ 0.13277 3.3E-4
++B beta+ 0.08874 9.000000000000001E-7
++G gamma 0.9474 9.76E-5
++G gamma 1.0148 1.0491999999999999E-4
++G gamma 0.4435 3.6599999999999995E-5
++B beta+ 8.863E-4 9.678E-4
++G gamma 0.1175 1.098E-4
++B beta+ 8.867E-4 9.685000000000001E-4
++B beta+ 8.867E-4 9.692E-4
++B beta+ 8.857E-4 9.774E-4
++G gamma 0.545 5.856E-5
++B beta+ 8.851E-4 9.822E-4
++G gamma 1.0891099999999998 6.1E-6
++B beta+ 8.817E-4 0.0010114
++G gamma 2.12 9.76E-5
++B beta+ 8.743E-4 0.00107
++G gamma 1.8407 1.7080000000000002E-5
+

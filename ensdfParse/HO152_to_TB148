@@ -1,0 +1,24 @@
+#148TB    152HO A DECAY (161.8 S)                                 14NDS    201404
+#  152HO A DECAY (161.8 S)                                 14NDS    201404
+#H TYP=FUL$AUT=N. NICA$CIT=NDS 117, 1 (2014)$CUT=1-Oct-2013$              
+#  Measured: EA (1977HA48,1974PEZS,1973BOXL,1970TO16,1967HA34,1963MA17),  
+#  ALPHA-G coin (1987LIZT), branching (1977HA48,1974SC19,1963MA17)        
+#P 0.0         2-                161.8 S   3              4507.3    13    
+HO152 TB148 alpha 4.5073 161.8 0.12
++A alpha 4.386 1.0
++A alpha 4.281 0.002
++A alpha 4.215 0.002
++A alpha 4.199 0.002
++A alpha 4.115 0.002
+
+#148TB    152HO A DECAY (50.0 S)                                  14NDS    201404
+#  152HO A DECAY (50.0 S)                                  14NDS    201404
+#H TYP=FUL$AUT=N. NICA$CIT=NDS 117, 1 (2014)$CUT=1-Oct-2013$              
+#  Measured: EA (1973BOXL,1970TO16,1963MA17), ALPHA-G coin (1987LIZT)     
+#  BRANCHING (1979TO09,1978TOZZ,1974SC19,1963MA17)                        
+#P 160       1 9+                50.0 S    4              4507.3    13    
+HO152 TB148 alpha 4.5073 50.0 0.108
++A alpha 4.454 1.0
++A alpha 4.225 0.002
++A alpha 4.149 0.002
+

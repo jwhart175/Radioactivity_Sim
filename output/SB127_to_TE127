@@ -1,0 +1,70 @@
+#127TE    127SB B- DECAY (3.85 D)       1967RA13,1967TA05         11NDS    201108
+#  127SB B- DECAY (3.85 D)       1967RA13,1967TA05         11NDS    201108
+#H TYP=FUL$AUT=A. HASHIZUME$CIT=NDS 112, 1647 (2011)$CUT=1-Oct-2009$      
+#  1967Ra13: {+235}U(n,F),{+128}Te(|g,p) chem; semi |g, scin-semi |b|g-,  
+#  |g|g-coin                                                              
+#  1967Ta05: {+128}Te(|g,p) chem; semi |b, |g, scin |b|g-coin             
+#  1972Kr15: {+235}U(n,F) chem; nuclear orientation |g(|q)                
+#  1974So03: {+235}U(n,F) chem; semi |g|g(|q), ce|g(t)                    
+#  1985De04: U(n,F) chem; semi, NaI(Tl), |g|g(|q)                         
+#  The decay scheme is basically that constructed by 1967Ra13 but with    
+#  the addition of three transitions (456|g, 624|g, 1155|g) as proposed   
+#  by 1967Ta05. See also {+127}Te IT decay (106.1 d)                      
+#L E         From a least-squares fit to E(|g's)                          
+#L J         From adopted levels                                          
+#G E         From 1967Ra13, except as noted                               
+#G CC$Theoretical conversion coefficients are calculated using BrIcc code 
+#G for the multipolarity and mixing ratio indicated.                      
+#G M         From |g(|q) (1972Kr15) and |g|g(|q) (1974So03,1985De04).     
+#G The J|p's of initial and final levels of transitions are determined    
+#G independently by (pol d,p) as shown in adopted levels. The             
+#G assignments of transition multipolarities by |g(|q) and |g|g(|q) also  
+#G support the results (evaluator).                                       
+#G MR        From |g|g(|q) (1985De04), unless otherwise noted             
+#B IB(A)     Measured value (1967Ta05)                                    
+#G E(B)      Reported in 1967Ta05 only                                    
+#G E(D)      From 1967Ta05                                                
+#G E(E),RI(E)$From |g|g coin (1967Ra13)                                   
+#P 0.0          7/2+             3.85 D    5              1581      5     
+SB127 TE127 beta- 1.581 332640.0 0.368
++G gamma 0.7459 0.004
++G gamma 0.0611 0.039
++B beta- 1.493 0.02
++B beta- 1.244 0.017
++G gamma 0.2524 0.231
++B beta- 1.104 0.23399999999999999
++G gamma 0.4121 0.10400000000000001
++G gamma 0.473 0.701
++G gamma 0.441 0.019
++G gamma 0.5028 0.021
++G gamma 0.2908 0.055
++G gamma 0.5433 0.08
++B beta- 0.89 0.358
++G gamma 0.624 0.0018
++G gamma 0.6857000000000001 1.0
++G gamma 0.7637 0.002
++G gamma 0.2804 0.018000000000000002
++G gamma 0.31 0.006999999999999999
++G gamma 0.7222000000000001 0.051
++G gamma 0.7837000000000001 0.41100000000000003
++G gamma 0.15430000000000002 0.004
++G gamma 0.4451 0.11800000000000001
++G gamma 0.6985 0.099
++G gamma 0.2933 0.008
++G gamma 0.451 0.005
++G gamma 0.5842 0.009000000000000001
++G gamma 0.9244 0.013999999999999999
++G gamma 0.39180000000000004 0.026000000000000002
++G gamma 0.6035 0.121
++G gamma 0.456 0.003
++G gamma 0.6377999999999999 0.012
++G gamma 0.6675 0.02
++G gamma 1.1416 0.01
++G gamma 0.6523 0.01
++G gamma 0.6822999999999999 0.015
++G gamma 1.1552 0.0011
++G gamma 0.817 0.011000000000000001
++G gamma 1.2903 0.01
++G gamma 0.8206 0.006
++G gamma 1.3779000000000001 0.002
+

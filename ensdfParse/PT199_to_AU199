@@ -1,0 +1,60 @@
+#199AU    199PT B- DECAY (30.8 M)       2004MI09,1969OK02,1974HEYW07NDS    200703
+#  199PT B- DECAY (30.8 M)       2004MI09,1969OK02,1974HEYW07NDS    200703
+#H TYP=FUL$AUT=BALRAJ SINGH$CIT=NDS 108, 79 (2007)$CUT=15-Oct-2006$       
+#  2004MI09: MEASURED IG, EMISSION PROBABILITY OF 543G                    
+#  1974HeYW: Measured EG, IG                                              
+#  1970Ba37: Measured EG, IG, ICE                                         
+#  1969Ok02: Measured EG, IG, ICE, GG, GG(THETA)                          
+#  1967Ba45: Measured EG, IG, ICE, BG, GG, B(CE), B(CE)(T),               
+#  (CE)(CE)(T), (CE)G(T)                                                  
+#  1966Pr05: Measured EG, IG, ICE, GG(THETA), GG(T)                       
+#  1965BL18: Measured EG, IG                                              
+#  1964JO09: MEASURED GG, BG,  BG(T)                                      
+#  1956LE44: MEASURED GG, BG                                              
+#B           Four B groups resolved (EB=1690 50, IB=63%; EB=1380 50,      
+#B IB AP 4%; EB=1140 50, IB=14%; EB=900 50, IB=18%) (1964Jo09).           
+#B Also: 1956Le44. However, except for the 1690-KEV B, the B's are        
+#B significant admixtures of decays to several levels.                    
+#G E$ From 1974HeYW, unless otherwise noted                               
+#G RI$ From 2004Mi09 unless otherwise stated. Weighted average of         
+#G values from 1974HeYW and 1969Ok02 are in good agreement with           
+#G those in 2004Mi09 for most of the gamma rays, but the values           
+#G from 2004Mi09 are adopted here due to the higher precision in this work
+#G M$ Deduced from EKC or ELC ratios for most G's                         
+#G (1967Ba45,1970Ba37,1969Ok02,1966Pr05) and from GG(THETA) of 1969Ok02.  
+#G 1967Ba45 normalized EKC to KC(185.79G)=0.197 assuming pure E2          
+#G transition (adopted KC(185.79G)=0.205). 1970Ba37 normalized EKC to     
+#G KC(542.98G)=0.059 7 assuming pure M1 transition (adopted value         
+#G KC(542.98G)=0.047 16). However, this normalization gives good          
+#G agreement with theoretical KC for other pure transitions: 185.79G      
+#G (E2 from K/L), 191.69G (E1 from EKC of 1967Ba45). 1969Ok02 used        
+#G other standard sources for calibration.                                
+#G E(A)$ Interference from 197AU and K X-RAYS                             
+#G E(B)$ Main placement from 792 level established from coin. Possible    
+#G placement from 968 level supported only by energy fit; however,        
+#G (N,G) high resolution data do not support the placement from 968       
+#G level. Therefore, all the intensity is assigned to placement from      
+#G the 792 level                                                          
+#G E(D)$ From 1967Ba45                                                    
+#G E(F)$ From 1969Ok02                                                    
+#G E(G),RI(G)$ |g reported by 1967Ba45 only                               
+#L E$ FROM LEAST-SQUARES FIT TO EG'S                                      
+#L J$ From 'adopted levels'.                                              
+#L T$ From BG(T), GG(T) (1967Ba45), unless otherwise noted                
+#P    0.0       5/2-               30.8 M  4              1703      3     
++B beta- 0.6133 0.7070000000000001
++B beta- 0.5676 0.013000000000000001
++B beta- 0.4829 0.032799999999999996
++B beta- 0.4803 0.0154
++B beta- 0.412 0.0037
++B beta- 0.3926 0.1201
++B beta- 0.31810000000000005 0.0636
++B beta- 0.2964 0.0426
++B beta- 0.2876 8.4E-4
++B beta- 0.231 0.010369999999999999
++B beta- 0.1946 6.900000000000001E-4
++B beta- 0.1827 7.7E-4
++B beta- 0.16369999999999998 8.6E-4
++B beta- 0.13319999999999999 9.3E-5
++B beta- 0.08622 3.2099999999999994E-4
+

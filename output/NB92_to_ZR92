@@ -1,0 +1,45 @@
+# 92ZR    92NB EC DECAY (3.47E+7 Y)     1978NE04,1977MA45         12NDS    201210
+#  92NB EC DECAY (3.47E+7 Y)     1978NE04,1977MA45         12NDS    201210
+#H TYP=FUL$AUT=CORAL M. BAGLIN$CIT=NDS 113, 2187 (2012)$CUT=15-Sep-2012$  
+#  Others: 1972KNZY, 1974AP03                                             
+#  1978NE04: 93NB(n,2n)92NB GS; chem.                                     
+#  The decay of 92NB GS was measured |?1 year after irradiation           
+#  by detecting the 561G-934G cascade.                                    
+#  1977MA45: Mo(n,p) E=th; chem; measured 650 days after irradiation.     
+#G RI(A)$I(935G):I(561G)=0.210 17:0.282 36 (1977MA45). Although           
+#G it is not clear from authors' text, it appears that this ratio has not 
+#G been corrected for detector efficiency; 1978NE04 assume                
+#G IG AP 100% for each G.                                                 
+#G E         From 1978NE04; no uncertainties are stated.                  
+#G M         From Adopted Gammas.                                         
+#L E         FROM EG.                                                     
+#L J         FROM Adopted Levels.                                         
+#P 0.0         7+                3.47E+7 Y 24             2005.9    18    
+NB92 ZR92 beta+ 2.0059 1.09502473536E15 0.354
++G gamma 0.9345 2.1
++G gamma 0.5611 2.82
+
+# 92ZR CG MR(B)     From Adopted Gammas.  913G-934G(|q) in EC DECAY IMPLIES      
+#G MR(B)     From Adopted Gammas.  913G-934G(|q) in EC DECAY IMPLIES      
+#G MR=+0.044 17 FROM A2=+0.217 13, A4=-0.001 19 (1962BU16) AND MR=-0.01 3 
+#G from A2=+0.255 24, A4=-0.032 38 (1978CO01), assuming J(1847            
+#G level)=2 (from Adopted Levels). Data allow J=2,3,4 but not 0 or 1;     
+#G mult(913G)=^D+Q. Other: 1959WE30.                                      
+#G RI(E)     Weighted average of 1.92 10 (1962BU16) and 1.69 9            
+#G (1972EI01). Other: 1.8 (1959WE30).                                     
+#G RI(F)     Weighted average of 0.84 10 (1959WE30), 0.90 5               
+#G (1962BU16) and 0.79 8 (1972EI01).                                      
+#G E(H)      From 1985HE18.                                               
+#G RI(J)     From I(1132G)/I(934G) and I(1132G)/I(912G), after            
+#G correction for self absorption and internal conversion (1985HE18).     
+#G Uncertainty not stated.                                                
+#L E         FROM LEAST-SQUARES FIT TO EG.                                
+#L J         FROM Adopted Levels.                                         
+#P 135.5     4 (2)+              10.15 D   2              2005.9    18    
+NB92 ZR92 beta+ 2.0059 876960.0000000001 0.9915
++G gamma 0.93444 1.0
++G gamma 0.449 3.3E-5
++G gamma 0.561 4.4999999999999996E-5
++G gamma 0.9126000000000001 0.018000000000000002
++G gamma 1.8475 0.0086
+

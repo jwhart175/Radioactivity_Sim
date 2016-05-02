@@ -1,0 +1,44 @@
+#210PO    210AT EC DECAY (8.1 H)        1972JA12                  14NDS    201408
+#  210AT EC DECAY (8.1 H)        1972JA12                  14NDS    201408
+#H TYP=FUL$AUT=M. SHAMSUZZOHA BASUNIA$CIT=NDS 121, 561 (2014)$            
+#H CUT=31-Mar-2014$                                                       
+#  1972Ja12: Measured EG and RI by Ge(Li) detector and conversion         
+#  electron by Si(Li) detector.                                           
+#E IE        Deduced by evaluator from TI balance at each level.          
+#G M,MR      From Adopted Gammas.                                         
+#G Measured values of EKC, K/L, and L-subshell ratios are consistent with 
+#G adopted multipolarities.                                               
+#G           EKC=CEK/IG normalized to KC(1181G,E2)=0.0043 (theory).       
+#G           I(CE) intensities are normalized to I(CEK, 1181G)=0.43.      
+#G           I(CE): 1954Mi70, 1958Ho71, 1968Pr03, 1972Ja12.               
+#G           CEG-,GG-coin: 1954Mi70, 1958Ho71, 1963Sc15, 1972Ja12.        
+#G           GG(T): 1963Fu02, 1972Ja12, 1973Na21, 1973Be30, 1976Ha56.     
+#G           GG(THETA): 1954Mi70, 1963Sc15.                               
+#G           AUGER electrons: 1982Ba67, 1986Ba60.                         
+#G           No G+- (LT 5%) scin (1953Ho49).                              
+#G CC$FROM BrIcc v2.3 (29-Mar-2013) 2008Ki07, "Frozen Orbitals" appr.     
+#G MR$IF NO VALUE GIVEN IT WAS ASSUMED MR=1.00 FOR E2/M1,                 
+#G MR=1.00 FOR E3/M2 AND  MR=0.10 FOR THE OTHER MULTIPOLARITIES           
+#L E$Deduced by evaluator from a least-squares fit to G-ray energies.     
+#L J,T       From Adopted Levels, except otherwise noted.                 
+#L E(B)      CONF=((P,1H9/2) (P,1I13/2)) mixed with                       
+#L CONF=((208PB 5-) (P,1H9/2,2,0)).                                       
+#L And the split in (A,T) strengths between the 5- levels                 
+#P 0.0         (5)+              8.1 H     4              3981      8     
+AT210 PO210 beta+ 3.981 29160.0 0.99825
++B beta+ 0.684 9.0E-4
++B beta+ 0.31 8.1E-6
++B beta+ 0.285 2.8E-6
++B beta+ 0.276 8.000000000000001E-7
++B beta+ 0.032 2.38E-9
++B beta+ 7.0E-4 0.19
++B beta+ 7.0E-4 0.2
++B beta+ 7.0E-4 0.21
++B beta+ 7.0E-4 0.22
++B beta+ 7.0E-4 0.22
++B beta+ 0.0 0.05
++B beta+ 0.0 0.04
++B beta+ 0.0 0.07
++B beta+ 0.0 0.06
++B beta+ 0.0 0.05
+

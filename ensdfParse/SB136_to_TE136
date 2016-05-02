@@ -1,0 +1,50 @@
+#136TE    136SB B- DECAY                1997HO15                  02NDS    200206
+#  136SB B- DECAY                1997HO15                  02NDS    200206
+#H TYP=FUL$AUT=A.A. Sonzogni$CIT=NDS 95, 837 (2002)$CUT=1-Feb-2002$       
+#  Source: 235U(N,F), OSIRIS fission product mass separator. Measured G,  
+#  GG, BG. Two Ge detectors, G identification based on characteristic     
+#  T1/2. Decay scheme built on coincidence relations.                     
+#L J$From Adopted Levels.                                                 
+#L E$From least-squares fit to E|g's                                      
+#G M$From adopted G's                                                     
+#P 0            1-               0.923 S   14             9.83E+3   30    
++G gamma 1.7755999999999998 0.00468
++G gamma 2.5955 0.00666
++G gamma 2.7219 0.0045
++G gamma 2.727 0.00342
++G gamma 2.7399 0.00594
++G gamma 2.9153000000000002 0.00216
++G gamma 3.2035 0.0028799999999999997
++B beta- 4.46 0.62
++B beta- 4.17 0.07400000000000001
++G gamma 0.60662 0.18
++B beta- 3.97 0.004
++G gamma 0.4245 0.00486
++B beta- 3.72 0.015
++G gamma 0.96172 0.030780000000000002
++B beta- 3.56 0.013000000000000001
++G gamma 1.298 0.0072
++G gamma 1.9045999999999998 0.00522
++B beta- 3.5 0.032
++G gamma 0.465 0.0036
++G gamma 1.42656 0.009
++G gamma 2.0335 0.020340000000000004
++B beta- 3.5 0.016
++G gamma 1.4373699999999998 0.01854
++B beta- 3.49 0.012
++G gamma 2.0608 0.01188
++B beta- 3.42 0.015
++G gamma 1.6049200000000001 0.015479999999999999
++B beta- 3.25 0.013000000000000001
++G gamma 1.00479 0.0126
++B beta- 3.22 0.006999999999999999
++G gamma 2.0264 0.007019999999999999
++B beta- 3.14 0.008
++G gamma 2.1944 0.00828
++B beta- 3.13 0.003
++G gamma 0.777 0.0028799999999999997
++B beta- 2.77 0.003
++G gamma 2.9766 0.0028799999999999997
++B beta- 2.71 0.003
++G gamma 3.1078 0.0028799999999999997
+

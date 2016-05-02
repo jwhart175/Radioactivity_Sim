@@ -1,0 +1,51 @@
+#108PD    108AG EC DECAY (2.382 M)      1973SI02                  ENSDF    200810
+#  108AG EC DECAY (2.382 M)      1973SI02                  ENSDF    200810
+#H TYP=FUL$AUT=Jean Blachot$CIT=ENSDF$CUT=1-Jul-2008$                     
+#H TYP=FUL$AUT=Jean Blachot$CIT=NDS 91, 135 (2000)$CUT=1-Jun-2000$        
+#  %|e+%|b{++}={ 2.85 {i20}}                                              
+#  See also {+108}Ag |b{+-} decay ({ 2.382 min})                          
+#  The decay scheme is that proposed by 1973Si02 on the basis of          
+#  energy fits and extensive |g|g coin studies                            
+#E TI        From I(|g+ce)-imbalance at each level                        
+#G E         From 1973Si02, except for the 434|g. Others: 1971Jo07,       
+#G 1971Ok01, 1971Si07                                                     
+#G RI        From 1973Si02. Others: 1971Jo07, 1971Ok01, 1971Si07          
+#L $ |g|g(|q): 1) (619|g)(434|g)(|q) (1971Ok01,1973Si02),                 
+#L       2) (880|g)(434|g)(|q) (1973Si02),                                
+#L       3) (1007|g)(434|g)(|q) (1971Ok01,1973Si02).                      
+#L           Data from cascade 1) are consistent with the spin            
+#L sequence J(d,Q)2(Q)0 only for J(1053 level)=0. Data from               
+#L cascade 2) are consistent with the spin sequence J(d,Q)2(Q)0           
+#L only for J(1314 level)=0. Data from cascade 3) are consistent with     
+#L the spin sequence J(d,Q)2(Q)0 only for J(1441 level)=2. Data of        
+#L 1973Si02 yield |d(1007|g)=+{ 7 {I+9-3}}, whereas data of 1971Ok01 yield
+#L |d=-0.27. 1973Si02 suggest that the discrepancy may be due to random   
+#L summing of |g{+|+} radiation contributing to the 1007 peak in the work 
+#L of 1971Ok01 since these authors used large NaI detectors. We adopt     
+#L the value from 1973Si02.                                               
+#P 0.0           1+              2.382 M   11             1922      5     
+AG108 PD108 beta+ 1.922 142.92000000000002 0.0285
++B beta+ 0.398 0.0028000000000000004
++B beta+ 0.209 2.6E-5
+
+#108PD    108AG EC DECAY (438 Y)                                  ENSDF    200810
+#  108AG EC DECAY (438 Y)                                  ENSDF    200810
+#H TYP=FUL$AUT=Jean Blachot$CIT=ENSDF$CUT=1-Jul-2008$                     
+#H TYP=FUL$AUT=Jean Blachot$CIT=NDS 91, 135 (2000)$CUT=1-Jun-2000         
+#G RI$From 1971Ha17. Others: 1966Ki03, 1968Kr04, 1974HeYW, 1978MeZZ       
+#G M$From |g|g(|q), (pol |g)(|q) (1973Be08) |DJ, |D|p=2, no for the 614   
+#G and 723 transitions. From Ice of 1966Ki03 and adopted I|g, |a(K)exp    
+#G values normalized to |a(K)(434|g)=0.00789 (E2 theory) yield mult.=M1,  
+#G E2 or M1+E2 for the 614 and 723|g's.                                   
+#L J$From |g|g(|q), (pol |g)(|q), except for J|p(434 level) which is the  
+#L adopted value                                                          
+#L $|g|g(|q), (pol |g)(|q): from (723|g)(614|g)(|q), (723|g)(434|g)(|q),  
+#L (614|g)(434|g)(|q), (723|g)(614|g)(434|g)(|q), and pol(723|g),         
+#L pol(614|g) data, 1973Be08 determine J|p(1771 level)=6+ and J|p(1048    
+#L level)=4+ given that J|p(434 level)=2+. Other: 1966Ki03                
+#P 109.466   7 6+                438 Y     9              1922      5     
+AG108 PD108 beta+ 1.922 1.38219260544E10 0.913
++G gamma 0.433937 0.991
++G gamma 0.6142759999999999 0.984063
++G gamma 0.7229070000000001 0.9949640000000001
+

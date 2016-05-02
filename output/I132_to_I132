@@ -1,0 +1,92 @@
+#132I   XB132I IT DECAY (1.387 H)                                                
+#XB132I IT DECAY (1.387 H)                                                
+#N                                                                     6  
+I132 I132 IT 0.0 0.0 1.0
+#L 0.0          4+               2.295 H   13                             
+#L %B-=100 $                                                              
+#L MOMM1=3.088 7 (1960WH06,1962WH11,1989RA17)                             
+#L MOME2=0.08 1 (1960WH06,1989RA17)                                       
+#L XREF=AB                                                                
+#L J$ atomic beam (1960Ga12,1959Sh64); E2-M1 |g cascade from 1+           
+#L T$ unweighted average of 2.259 h {I8} (1954Em27), 2.30 h {I5}          
+#L (1955Wa35), 2.292 h {I7} (1958Ke26), 2.34 h {I2} (1965An05),           
+#L 2.2846 h {I4} (1966Ma56). Others: 1965Si17, 1962Wi14, 1957Aa04,        
+#L 1939Ab02, 1939Ha13.                                                    
+#L $ 1939Ha13: Hahn and Strassmann: Naturwissenschaften 31, 201 (1939)    
+#L T$ Other: 1961Ne15 (priv. comm.)                                       
+#L MOMM1,MOME2$ atomic beam (1960WH06,1962WH11); signs of MOMM1 and       
+#L MOME2 are opposite.  MOME2 RECALCULATED BY 2001STZZ BASED ON REVISED   
+#L MOME2=0.689 15 (2000Ha64) FOR 127I GS                                  
+#L   22      11 (5+)                                                     ?
+#L XREF=B$                                                                
+#L J$ E3 |g from (8-); systematics                                        
+#G 22        11                                                          S
+#L   49.72   1  3+               7.14 NS   14                             
+#L XREF=A$                                                                
+#L MOME2=0.20 7 (1979OO01,1989RA17)                                       
+#L J$ M1 |g to 4+; E2 |g from 1+                                          
+#L T$ GG(T) (1981Yo02). Others: 2.94 NS 11  (1999DA03), 0.93 NS 4         
+#L (1969HO42), 0.96 NS 4 (1966GO23)                                       
+#L MOMM1$ G=+0.74 10 WAS OBTAINED USING ^IPAC (1969SI06) AND              
+#L T1/2=0.951 ns {I22}, WHICH GIVES MOMM1=+2.24 30 (ALSO ADOPTED          
+#L BY 1989RA17). HOWEVER, GG(T) AND GG(THETA,T) MEASUREMENTS OF           
+#L 1981YO02 CAST DOUBT ON THIS VALUE, SINCE 1981YO02 OBTAIN               
+#L T1/2=7.14 NS 14 AND PERTURBATION COEFFICIENT OF 0.41 9 FOR THE         
+#L 228-49 CASCADE AS OPPOSED TO UNPERTURBED CORRELATION ASSUMED           
+#L BY 1969SI06.                                                           
+#L MOME2$ from IPAC (1979Oo01). MOME2 RECALCULATED BY 2001STZZ BASED      
+#L ON REVISED MOME2=0.689 15 (2000Ha64) FOR 127I GS                       
+#G 49.72     1  100       M1                       5.71                   
+#G BM1W=0.00374 12                                                        
+#G KC=4.90 15$LC=0.645 20$MC=0.129 4                                      
+#L  120      20(8-)              1.387 H   15                          M  
+#L XREF=B$                                                                
+#L %B-=14 2  $ %IT=86 2 (1974DI03)                                        
+#L E$ from difference in Q- values for {+132}I isomers                    
+#L J$ from systematics of 8- levels in neighboring nuclei                 
+#L T$ weighted average of 1.385 h {I17} (1976La14) and 1.393 h            
+#L {I28} (1974Di03,1973Di14)                                              
+#L $ %IT: obtained by 1974Di03 from relative intensities of pairs         
+#L of |g-rays from decay of only isomer and from decay of both isomer and 
+#L ground state                                                           
+#G 98.0      10 100        E3                      21.6                   
+#G FL=22                                                                  
+#G BE3W=1.00E-4 8                                                         
+#G KC=6.97 21$LC=11.5 4$MC=2.54 8$NC+=0.598 18                            
+#G CC        E3 CC(THEORY)'S MULT. BY 0.975 10 (Cf. 1990NE01)             
+#L   161.52   7 2+               3.57 NS   7                              
+#L XREF=A$                                                                
+#L J$ M1+E2 |g from 1+; M1+E2 |g to 3+                                    
+#L T$ from 1981Yo02. Other: 0.55 NS 4 (1999Da03),                         
+#L although, slope in authors' figure 1b seems to correspond to 1.14 ns   
+#L T$ from {+132}Te |b{+-} decay                                          
+#G 111.76    8  100        M1+E2    0.58   10      0.71  5                
+#G BM1W=0.00193 19 $ BE2W=34 9                                            
+#G KC=0.57 2$LC=0.116 14$MC=0.024 3$NC+=0.0056 7                          
+#L   277.86   6 1+               1.42 NS   2                              
+#L XREF=A$                                                                
+#L MOMM1=+1.88 11 (1979OO01,1989RA17)                                     
+#L MOME2=(-)0.148 6 (1979OO01,1989RA17)                                   
+#L J$ log| {Ift}=4.7 from 0+                                              
+#L T$ from 1981Yo02. Others: 1.42 ns {I5} (1966Go23), 1.41 ns {I7}        
+#L (1969Ho42)                                                             
+#L MOMM1,MOME2$ ^TDPAC (1979Oo01). MOME2 RECALCULATED BY 2001STZZ         
+#L BASED ON REVISED MOME2=0.689 15 (2000Ha64) FOR 127I                    
+#G 116.30    8 2.23    6  M1+E2     0.60   9       0.64  4                
++G gamma 0.1163 0.0223
+#G BM1W=0.000142 14 $ BE2W=2.4 6                                          
+#G KC=0.509 19$LC=0.102 11$MC=0.0210 22$NC+=0.0050 5                      
+#G 228.16    6 100     2  E2                      0.100                   
++G gamma 0.22816 1.0
+#G BE2W=14.2 5                                                            
+#G KC=0.0807 25$LC=0.0152 5$MC=0.00311 10$NC+=0.00073 2                   
+#                                                                         
+
+#132I     132I IT DECAY (1.387 H)       1974DI03                  05NDS    200504
+#  132I IT DECAY (1.387 H)       1974DI03                  05NDS    200504
+#H TYP=FUL$AUT=YU. KHAZOV, A.A. RODIONOV AND S. SAKHAROV, BALRAJ SINGH$   
+#H CIT=NDS 104, 497 (2005)$CUT=10-Feb-2005$                               
+#G RI$ Relative to I|g(599.8)=100 in {+132}Xe                             
+#P 120       20(8-)              1.387 H   15                             
+I132 I132 IT 0.0 4993.2 0.150
+

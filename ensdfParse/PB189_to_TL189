@@ -1,0 +1,127 @@
+#189TL    189PB EC DECAY (39 S)         2009SA09                  ENSDF    201102
+#  189PB EC DECAY (39 S)         2009SA09                  ENSDF    201102
+#H TYP=FUL$AUT=T.D. Johnson, D. Choudhury, H.Pai, B. Singh$CIT=ENSDF$     
+#H CUT=28-FEB-2011$                                                       
+#G CC$ FROM BrIcc v2.2b (20-Jan-2009) 2008Ki07, "Frozen Orbitals" appr.   
+#  Tentative level scheme according to 2009Sa09                           
+#  {+189}Pb source was formed in U(p,X) reaction (UC{-x} target) with a   
+#  beam energy of 1.4 GeV. {+189}Pb was also excited using a laser beam   
+#  at resonant frequencies from RILIS at the ISOLDE facility at CERN.     
+#  Two experiments were performed:                                        
+#  1. Measured |b|g coin using 4|p |b plastic scintillator and three Ge   
+#  detectors (one planar HPGe and two Ge detectors). The |g rays in       
+#  {+189}Pb were also identified in hyperfine laser spectroscopy from     
+#  low-lying levels.                                                      
+#  2. Measured E|g, I|g, |g|g coin using two HPGe detectors with Be       
+#  window. Hyperfine laser spectroscopy was also carried out.             
+#  Comparison with rotor plus particle model calculations.                
+#  2009Sa09 state (reference 35 in the paper) that measurements of        
+#  isotope shift, magnetic moment and |a decay of {+189}Pb to {+185}Hg    
+#  will be presented elsewhere.                                           
+#G E$General uncertainty is quoted by 2009Sa09 as 0.2 keV for I|g>3 and   
+#G 0.4 keV for weaker lines. Uncertainty of 1 keV is assigned by the      
+#G evaluators when E|g quoted to nearest keV.                             
+#G RI$General uncertainty is quoted by 2009Sa09 as 15%                    
+#G RI(A)$From hyperfine spectrum in laser spectroscopy. Doublet, one      
+#G component from the decay of the high-spin isomer and the other from    
+#G the decay of the low-spin isomer of {+189}Pb                           
+#L $ Expected configurations are from 2009Sa09 based on axial-rotor       
+#L coupled to one quasiparticle (Hartree-Fock+BCS) calculations for       
+#L oblate and prolate deformations                                        
+#L E$From least-squares fit to E|g data                                   
+#L J$ From Adopted Levels                                                 
+#P 0            (3/2-)            39 S      8              6720     40    
+
+#189TL    189PB EC DECAY (50 S)         2009SA09                  ENSDF    201102
+#  189PB EC DECAY (50 S)         2009SA09                  ENSDF    201102
+#H TYP=FUL$AUT=T.D. Johnson, D. Choudhury, H.Pai, B. Singh$CIT=ENSDF$     
+#H CUT=28-FEB-2011$                                                       
+#  {+189}Pb source was formed in U(p,X) reaction (UC{-x} target) with a   
+#  beam energy of 1.4 GeV. {+189}Pb was also excited using a laser beam   
+#  at resonant frequencies from RILIS at the ISOLDE facility at CERN.     
+#  Two experiments were performed:                                        
+#  1. Measured |b|g coin using 4|p |b plastic scintillator and three Ge   
+#  detectors (one planar HPGe and two Ge detectors). The |g rays in       
+#  in {+189}Pb were also identified in hyperfine laser spectroscopy       
+#  from low-lying levels.                                                 
+#  2. Measured E|g, I|g, |g|g coin using two HPGe detectors with Be       
+#  window. The hyperfine laser spectroscopy was also carried out          
+#  for some of the strong |g rays                                         
+#  Comparison with rotor plus particle model calculations.                
+#  2009Sa09 state (reference 35 in the paper) that measurements of        
+#  isotope shift, magnetic moment and |a decay of {+189}Pb to {+185}Hg    
+#  will be presented elsewhere.                                           
+#  Decay of the high-spin isomer                                          
+#E $ The beta feedings and associated log {Ift} values have been deduced  
+#E by the evaluators. The feedings given by 2009Sa09 are given under      
+#E comments                                                               
+#E $ Since this decay has a Q value of over { 5 MeV} and the only         
+#E observed levels are below 2.5 MeV, the scheme is                       
+#E incomplete.  Therefore, the |e intensities are upper limits and        
+#E log{Ift} values are lower limits.                                      
+#G $ All the unplaced |g rays are arbitrarily assigned to the decay of the
+#G high-spin isomer.                                                      
+#G E$ General uncertainty is quoted by 2009Sa09 as 0.2 keV for I|g>3      
+#G and 0.4 keV for weaker lines. Uncertainty of 1 keV is assigned         
+#G by the evaluators when E|g quoted to nearest keV.                      
+#G RI$ General uncertainty is quoted by 2009Sa09 as 15%                   
+#G E(A)$ The |g ray mixed with a line from daughter activity              
+#G RI(B)$ From hyperfine spectrum in laser spectroscopy. Doublet, one     
+#G component from the decay of the high-spin isomer and the other from    
+#G the decay of the low-spin isomer of {+189}Pb                           
+#G E(D),RI(D)$ From |g|g coin data                                        
+#G CC$ FROM BrIcc v2.2b (20-Jan-2009) 2008Ki07, "Frozen Orbitals" appr.   
+#L $ Expected configurations and bands are from 2009Sa09 based on         
+#L axial-rotor coupled to one quasiparticle (Hartree-Fock+BCS)            
+#L calculations for oblate and prolate deformations                       
+#L E$ From least-squares fit to E|g data using 281-keV level as fixed.    
+#L Uncertainty of 7 keV in this energy is not reflected in the            
+#L uncertainties of other level energies                                  
+#L J$ From Adopted Levels                                                 
+#L BAND(J)$ |p13/2[606] (oblate)                                          
+#L BAND(K)$ |p9/2[505] (oblate)                                           
+#L BAND(G)$ |p7/2[514] (oblate)                                           
+#L BAND(H)$ |p11/2[505] (prolate)                                         
+#L BAND(I)$ |p1/2[541] (prolate)                                          
+#P   40      30 (13/2+)          50 S      3              6720      40    
+PB189 TL189 beta+ 6.72 50.0 1
++B beta+ 2.296 0.07
++B beta+ 2.151 0.059000000000000004
++B beta+ 2.13 0.021
++B beta+ 2.05 0.008
++B beta+ 2.094 0.052000000000000005
++B beta+ 2.075 0.05
++B beta+ 2.038 0.019
++B beta+ 1.993 0.024
++B beta+ 1.99 0.015
++B beta+ 1.964 0.013999999999999999
++B beta+ 1.955 0.022000000000000002
++B beta+ 1.931 0.0014000000000000002
++B beta+ 1.929 0.015
++B beta+ 1.917 0.013000000000000001
++B beta+ 1.898 0.012
++B beta+ 1.892 0.018000000000000002
++B beta+ 1.889 0.005699999999999999
++B beta+ 1.861 0.0084
++B beta+ 1.794 0.0019
++B beta+ 1.798 0.0048
++B beta+ 1.746 0.0034999999999999996
++B beta+ 1.794 0.0066
++B beta+ 1.784 0.0032
++B beta+ 1.77 0.008199999999999999
++B beta+ 1.762 0.004699999999999999
++B beta+ 1.708 7.9E-4
++B beta+ 1.748 0.0059
++B beta+ 1.746 0.0029
++B beta+ 1.741 0.0079
++B beta+ 1.733 0.0032
++B beta+ 1.703 0.004699999999999999
++B beta+ 1.702 0.0025
++B beta+ 1.687 0.0025
++B beta+ 1.682 0.0027
++B beta+ 1.674 0.0022
++B beta+ 1.606 0.004
++B beta+ 1.601 0.009399999999999999
++B beta+ 1.588 0.001
++B beta+ 1.495 0.001
+

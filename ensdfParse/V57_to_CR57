@@ -1,0 +1,35 @@
+# 57CR    57V B- DECAY (350 MS)         2003MA02                  ENSDF    201004
+#  57V B- DECAY (350 MS)         2003MA02                  ENSDF    201004
+#H TYP=FUL$AUT=BALRAJ SINGH$CUT=12-APR-2010$CIT=ENSDF$                    
+#  2003Ma02: {+57}V obtained from fragmentation of the primary beam of    
+#  {+86}Kr{+14++} at E=140 MeV/nucleon in a thick Be target followed by   
+#  separation of fragment isotopes based on atomic mass and atomic number.
+#  Measured E|g, I|g, |g|g, |b|g using six Ge detectors from the NSCL     
+#  SeGA array                                                             
+#  Placement of |g rays is from energy sums, no |b|g|g coincidence events 
+#  were detected in 2003Ma02                                              
+#  1998So03: {+57}V activity produced by the fragmentation of 64.5        
+#  MeV/nucleon {+65}Cu beam impinging on a {+9}Be target and subsequent   
+#  mass separation using the lise3 spectrometer. Measured T{-1/2} from    
+#  |b{+-} singles and |b-|g coincidence decay curves. Three |g rays       
+#  were detected at 267 {I4}, 700 {I50} and 900 {I50} keV with            
+#  intensities of 60, 30, and 30%, QRPA calculations                      
+#  1998Am04: T{-1/2} measurement and production of {+57}V                 
+#  1990Tu01: {+57}V production                                            
+#B IB,LOGFT$ Apparent |b feedings, thus log {Ift} values should be        
+#B considered (by the evaluator) as lower limits only, thus no            
+#B uncertainties in log {Ift} values are listed                           
+#G RI$I|g/100 decays were deduced (by 2003Ma02) from the number of        
+#G observed |g rays, the |g-ray efficiency curve and the number of        
+#G {+57}V implants correlated with |b decays                              
+#G E(A)$ In {+14}C({+48}Ca,|an|g), a 1581 level was shown to decay by     
+#G 639.1|g and 1313.8|g. In |b{+-} decay,                                 
+#L E$From least-squares fit to E|g's                                      
+#P    0         (7/2-)           350 MS    10             8.34E3    23    
+V57 CR57 beta- 8.34 0.35 1
++B beta- 3.753 0.21
++B beta- 3.622 0.47
++B beta- 3.414 0.2
++B beta- 3.292 0.09
++B beta- 2.978 0.03
+

@@ -1,0 +1,138 @@
+#186OS    186IR EC DECAY (16.64 H)      1978SP05,1973HO38,1972FO2203NDS    200306
+#  186IR EC DECAY (16.64 H)      1978SP05,1973HO38,1972FO2203NDS    200306
+#H TYP=FUL$AUT=CORAL M. BAGLIN$CIT=NDS 99, 1 (2003)$CUT=4-Apr-2003$       
+#  Others: 2002LAZY, 1982Al11, 1981Sp06, 1974Ya03, 1969Su05, 1964Ha06,    
+#  1963Em02.                                                              
+#  The evaluator has retained the decay scheme constructed by 1978Sp05,   
+#  but has added to it several |g placements proposed only in earlier     
+#  studies, viz., the tentative 3414 level of 1973Ho38, the               
+#  143.2G, 160.1G (placed by 1969Su05), the 215.5G (placed by             
+#  1972Fo22) and the 2835.2G and 3132.2G (placed by 1973Ho38).            
+#E E         Measured value from 1963Em02 is shown for 869 level. 1963Em02
+#E also report B+ endpoint energies of 1370 50 and AP 1000; presumably    
+#E each of these represents feeding to a cluster levels.                  
+#E IB        |S I(|b+)=3% 1 based on |g-G+- coin (1963Em02). 1963Em02     
+#E also measured IB/I(297 CEK)=0.46 12 and 0.12 3 for the 1940 and        
+#E 1370 branches, respectively, implying %I(|b+)=1.9 5 and 0.50 13        
+#E (based on adopted I(297K)=4.2%).                                       
+#G           EKC data: calculated by evaluator from indicated IG          
+#G combined with I(CEK) from 1963Em02, unless indicated otherwise.        
+#G Data are normalized as indicated in 1973Ho38, to give best overall     
+#G agreement with KC for several pure E2 transitions. Uncertainties in    
+#G I(ce) are seldom given by 1963Em02 and never by 1964Ha06; see 1969Su05 
+#G for those authors' estimates of plausible uncertainties in EKC based on
+#G the number of significant figures quoted for the relevant ICE data.    
+#G The ICE scale of 1964Ha06 was normalized to that of 1963Em02 at        
+#G L3(137). EKC determined by 1978Sp05 (method of normalization not       
+#G reported) are enumerated for selected transitions only; see fig. 3 of  
+#G 1978Sp05 for plot of data for additional transitions.                  
+#G M         From measured conversion coefficient data, unless indicated  
+#G to the contrary.                                                       
+#G MR        From 1981Sp06, unless noted otherwise; deduced from          
+#G G(|q,H,^T).                                                            
+#G E         From CE data of 1963Em02 if E LE 1800, from 1973Ho38 for     
+#G E>1800; exceptions are noted.                                          
+#G RI        From 1973Ho38, except as noted; normalized so I(137G)=10.7.  
+#G RI data reported in 1973Ho38 supersede those from 1969Su05 (1973Ho38). 
+#G E(W)      Placement given in table 1 of 1978Sp05.                      
+#G RI(X)     From 1978Sp05 based on GG coincidence data; |DI{-|g}=30%.    
+#G RI(Y)     From 1969Su05, scaled so I(137G)=10.7 11. This normalization 
+#G effects a 14% reduction in conversion coefficient values given in      
+#G 1969Su05, as recommended by 1973Ho38.                                  
+#G E(Z),RI(Z)$From 1972Fo22. RI normalized so IG(137)=10.7 7.             
+#L BAND(A)   KPI=0+ GS BAND (1978Sp05).                                   
+#L BAND(B)   KPI=2+ |g BAND (1978Sp05).                                   
+#L BAND(C)   POSSIBLE KPI=0+ |b BAND (1978Sp05).                          
+#L BAND(D)   POSSIBLE KPI=4+ |g|g BAND (1978Sp05).                        
+#P 0.0          5+                  16.64 H 3                 3831  20    
++B beta+ 1.073 0.01
++B beta+ 0.879 0.0274
++B beta+ 0.79 0.0043
++B beta+ 0.699 0.0022
++B beta+ 0.665 0.0017000000000000001
++B beta+ 0.618 7.099999999999999E-4
++B beta+ 0.617 1.2E-4
++B beta+ 0.604 0.0031
++B beta+ 0.574 8.100000000000001E-4
++B beta+ 0.546 4.0E-4
++B beta+ 0.544 7.4E-4
++B beta+ 0.511 1.0E-4
++B beta+ 0.479 2.1E-4
++B beta+ 0.463 3.9E-4
++B beta+ 0.418 8.0E-5
++B beta+ 0.392 1.7E-5
++B beta+ 0.367 1.49E-4
++B beta+ 0.356 1.7E-4
++B beta+ 0.345 4.8E-4
++B beta+ 0.322 7.2E-5
++B beta+ 0.283 1.0E-5
++B beta+ 8.108999999999999E-4 0.0014330999999999999
++B beta+ 8.093E-4 0.0014399999999999999
++B beta+ 8.087999999999999E-4 0.0014527000000000001
++B beta+ 8.087E-4 0.0014533999999999999
++B beta+ 8.085E-4 0.0014548
++B beta+ 8.078E-4 0.0014599
++B beta+ 8.058999999999999E-4 0.001473
++B beta+ 8.016E-4 0.001505
++B beta+ 8.010000000000001E-4 0.00151
++B beta+ 7.905E-4 0.0015
++B beta+ 7.897E-4 0.0015
++B beta+ 7.879E-4 0.0016
++B beta+ 7.865999999999999E-4 0.0016
+
+#186OS    186IR EC DECAY (1.90 H)       1975YA10                  03NDS    200306
+#  186IR EC DECAY (1.90 H)       1975YA10                  03NDS    200306
+#H TYP=FUL$AUT=CORAL M. BAGLIN$CIT=NDS 99, 1 (2003)$CUT=4-Apr-2003$       
+#  Other references: 1990Ed01, 1970FiZZ, 1970ZaZV, 1962Bo22, 1955Sm42.    
+#  The level scheme is based on that of 1975Ya10, with the addition of    
+#  several weak |g branches which are unobserved in this decay but known  
+#  from adopted levels, gammas (viz., 143G, 160G, 282G, 303G, 1343G). The 
+#  evaluator has also added a tentative 1453 level deexcited by the 685G  
+#  (unplaced by 1975Ya10), and a tentative 1623 level to accommodate one  
+#  component of the 713G (now believed to be a doublet),                  
+#  all consistent with adopted levels, gammas.                            
+#E E,IB      Measured B+ endpoint energies [intensities] are reported     
+#E by 1962Bo22 as 3400 [1], 2600 [20], 1930 [44], 1300 [12], 800 [22].    
+#E Presumably, the strong 1930 KEV branch feeds the 767 and 910 levels,   
+#E and the 2600 KEV group feeds the 137 level (expected endpoint          
+#E energies 2040, 1900 and 2670, respectively). The very                  
+#E weak 3400 KEV group implies Q GE 4422, cf. adopted Q=3831 (1995Au01);  
+#E it is unclear whether this represents an impurity or first forbidden   
+#E unique GS feeding with very large analysis uncertainty.                
+#E LOGFT     Calculated assuming negligible excitation energy for         
+#E 186IR parent level (expected E<1.5; see 186IR, adopted levels),        
+#E and allowing 5% uncertainty in %EC+B+.                                 
+#G M,MR      From adopted gammas.                                         
+#G RI(A)     |g of similar energy present in 186IR EC decay (16.64 H);    
+#G intensity of Ir (1.90 H) component determined by decay                 
+#G analysis (1975Ya10).                                                   
+#G E(D),RI(D)$EG from adopted gammas (for known doublet); transition not  
+#G observed in this decay. RI<11 deduced by evaluator assuming adopted    
+#G branching for parent level.                                            
+#G E(E),RI(E)$In 186IR EC decay (16.64 H), the 713G is a doublet; the     
+#G observed 713G-773G and 713G-767G coin in 186IR EC decay                
+#G (1.90 H) implies that it is a doublet here also. From I(570G) and      
+#G adopted branching, I(713G)=29 10 is expected from the 1480 level       
+#G (cf. IG(doublet)=35 3), leaving I(713G)=6 10 to be placed from the     
+#G 1623 level, known from other reaction or decay studies.                
+#G E(F)      Placement of a 1046G from the 1480 level has not been        
+#G confirmed in 186IR EC decay (16.64 H) or (A,2NG) studies, even         
+#G though its IG should have been within their detection ranges; the      
+#G evaluator, therefore, shows it as tentative here.                      
+#L E(G)      Level (known from (A,2NG)) introduced by evaluator to        
+#L accommodate 685.13G.                                                   
+#P 0.0+X        2-               1.90 H    5                 3831   20    
++B beta+ 7.700000000000001E-4 0.0017000000000000001
++B beta+ 1.206 0.00605
++B beta+ 1.063 0.00751
++B beta+ 0.924 0.0070799999999999995
++B beta+ 0.861 0.00728
++B beta+ 0.791 0.007890000000000001
++B beta+ 0.672 0.007974
++B beta+ 0.621 0.007838000000000001
++B beta+ 0.609 0.007858
++B beta+ 0.539 0.007958
++B beta+ 0.533 0.007965
++B beta+ 0.489 0.008013
++B beta+ 0.447 0.008048
+

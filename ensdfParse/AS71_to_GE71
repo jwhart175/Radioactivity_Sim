@@ -1,0 +1,109 @@
+# 71GE    71AS EC DECAY (65.30 H)       1990ME01,1972VA17,1971MU1411NDS    201012
+#  71AS EC DECAY (65.30 H)       1990ME01,1972VA17,1971MU1411NDS    201012
+#H TYP=FUL$AUT=KHALIFEH ABUSALEEM, BALRAJ SINGH$CIT=NDS 112, 133 (2011)$  
+#H CUT=30-Nov-2010$                                                       
+#G CC$ FROM BrIcc v2.2b (20-Jan-2009) 2008Ki07, "Frozen Orbitals" appr.   
+#  1990Me01: measured EG, IG, GG, ISOTOPIC HALF-LIFE                      
+#  1972Va17: EG, RI, GG. A total of 14 levels reported. Results are in    
+#  agreement with those from 1990Me01                                     
+#  1971Mu14: EG, RI, GG, isotopic T1/2. A total of 18 levels reported.    
+#  Results are in agreement with those from 1990Me01                      
+#  1993Ha08: measured |g(|q) for oriented nuclei at low temperature,      
+#  deduced mixing ratios. Comparisons with interacting boson-fermion      
+#  model calculations                                                     
+#  1987Br24: G(THETA) with low temperature nuclear orientation; deduced   
+#  mult, MR; sign convention for MR not specified                         
+#  1967Vi06: measured EG, IG. A total of 17 |g rays were reported and     
+#  15 were placed amongst 8 levels, three of them tentative. The 279, 1315
+#  and 1495 levels were not confirmed in later studies.                   
+#  Others:                                                                
+#  2005Se14: measured |b(|q) and |g(|q) using oriented nuclei at low      
+#  temperature, deduced isospin mixing in the ground state of {+71}As.    
+#  2004Br44: theoretical calculations of |b decay rates and levels        
+#  using interacting boson-fermion model                                  
+#  1993Fe03: calculated LOGFT values for three transitions using          
+#  dynamical collective model                                             
+#  Earlier references for production, decay and T{-1/2} of {+71}As:       
+#  1959Re24, 1957Be46, 1955Gr08, 1954Th36, 1953St31, 1952Bracker          
+#  (Nature 169, 364), 1950Me55, 1950Ho26, 1948Mc31,                       
+#  1941Sagne (Phys Rev 59, 904), 1939Sagne (Phys Rev 55, 31)              
+#E $ SMALL NEGATIVE FEEDINGS OF -0.16 5 FOR 747 LEVEL AND -0.038 12 FOR   
+#E 831 LEVEL ARE FOUND FROM THE IN-OUT INTENSITY BALANCE. EITHER SOME     
+#E OF THE FEEDING G RAYS ARE MISPLACED OR THEIR INTENSITIES ARE           
+#E OVERESTIMATED                                                          
+#E E(A)$Calculated from EB+=815 10 (1955Gr08), 813 10 (1954Th36) and 800  
+#E 20 (1953St31).                                                         
+#G $ 1972VA17 reported 73 |g rays with 43 placed amongst 14 levels.       
+#G All the levels are in agreement with those from 1990Me01, however,     
+#G placements of some of the |g rays differ. Following |g rays reported   
+#G by 1972Va17 have not been confirmed in 1990Me01: 480.4 (I|g=0.019),    
+#G 814.0 (I|g=0.046), 911.4 (I|g=0.010), 1238.3 (I|g=0.0063),             
+#G 1460.8 (I|g=0.093), 1593.1 (I|g=0.0057), 1730.4 (I|g=0.0021),          
+#G 1848.0 (I|g=0.0029). Five of these are unplaced in level scheme        
+#G proposed by 1972Va17. It is possible that most of these lines are      
+#G contributed by background or impurities.                               
+#G $ 1971Mu14 reported 45 |g rays placed amongst 18 levels. All levels    
+#G and placements are in agreement with those from 1990Me01               
+#G $ A2, A4 and ^U{-2}^A{-2} coefficients are from 1993Ha08               
+#G E,RI$ From 1990Me01                                                    
+#G M,MR      From Adopted Gammas                                          
+#G M(E)      From G(THETA) by 1987Br24 AND 1993HA08                       
+#G RI$ Uncertainties shown are                                            
+#G statistical only. Authors specify that additional 2% (arising from     
+#G uncertainty in overall shape of detector efficiency curve) should be   
+#G added in quadrature to obtain absolute uncertainty.                    
+#G RI(A)     Intensity derived from coincidence gate                      
+#G E(D)      Assignment to 71AS decay is tentative                        
+#G MR(F)$ FROM G(THETA) DATA OF ORIENTED NUCLEI (1993HA08)                
+#L E$ From least-squares fit to EG's. Fit to the original |g-ray data     
+#L gave an unacceptable normalized |h{+2}=6 with 16 |g rays outside       
+#L three standard deviations. The evaluators have increased the           
+#L uncertainties so that the minimum uncertainty is 0.02 keV. In addition 
+#L three of the weak and poorly fitted |g rays (331.48, 674.33, 765.89)   
+#L were left out of the fitting procedure. With these adjustments,        
+#L |h{+2}=2.7 with  eight |g rays deviating by three or four |s's         
+#L J$ From Adopted Levels; supporting arguments from this data            
+#L set are indicated in comments                                          
+#L J(A)$ 5/2 from G(THETA) (1987Br24)                                     
+#L J(B)$ 3/2 from G(THETA) (1987Br24)                                     
+#P    0.0        5/2-             65.30 H    7               2013   4     
++B beta+ 8.76E-4 0.00104
++G gamma 0.174954 0.824
++B beta+ 0.352 0.0058
++B beta+ 0.3679 0.008
++B beta+ 0.21280000000000002 0.008100000000000001
++B beta+ 0.2022 0.008199999999999999
++B beta+ 0.175 0.0084
++B beta+ 0.1253 0.0087
++B beta+ 0.0831 0.00879
++B beta+ 8.812E-4 9.993E-4
++B beta+ 8.810000000000001E-4 0.001002
++G gamma 0.8392999999999999 1.1536E-5
++B beta+ 8.781E-4 0.0010265
++B beta+ 8.809E-4 0.001003
++B beta+ 8.809E-4 0.001003
++B beta+ 8.808E-4 0.0010040000000000001
++B beta+ 8.806E-4 0.0010055
++B beta+ 8.805E-4 0.0010057
++G gamma 1.12374 2.9663999999999996E-5
++B beta+ 8.802E-4 0.0010083
++B beta+ 8.798E-4 0.0010114
++G gamma 1.2022599999999999 1.4831999999999998E-5
++G gamma 1.379 9.064E-6
++B beta+ 8.797000000000001E-4 0.0010127
++B beta+ 8.796E-4 0.0010134
++B beta+ 8.793999999999999E-4 0.0010149
++B beta+ 8.79E-4 0.0010184
++B beta+ 8.784999999999999E-4 0.0010225
++B beta+ 8.78E-4 0.0010263
++B beta+ 8.776000000000001E-4 0.0010297000000000001
++G gamma 1.2181600000000001 2.4719999999999997E-5
++G gamma 1.24356 1.7304E-5
++B beta+ 8.752E-4 0.00105
++B beta+ 8.738E-4 0.00106
++G gamma 1.2022599999999999 9.6408E-5
++G gamma 1.61712 2.0352799999999997E-4
++B beta+ 8.732999999999999E-4 0.00106
++B beta+ 8.728000000000001E-4 0.00106
++B beta+ 8.502999999999999E-4 0.0012
+

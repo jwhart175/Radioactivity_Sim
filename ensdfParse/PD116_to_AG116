@@ -1,0 +1,30 @@
+#116AG    116PD B- DECAY                1989KO22,1987AYZW,1986ROZN10NDS    201004
+#  116PD B- DECAY                1989KO22,1987AYZW,1986ROZN10NDS    201004
+#H TYP=FUL$AUT=Jean Blachot$CIT=NDS 111, 717 (2010)$CUT=1-Dec-2009$       
+#  Activity: 249CF(N,F), chem. (1986ROZN), 238U(P,F) IGISOL               
+#  (1987AYZW,1989KO22)                                                    
+#  Measured: G(semi), GG(semi), BG(scin)                                  
+#  (1975BRYN,1986ROZN,1987AYZW,1989KO22)                                  
+#  1987AYZW compare the calculated BETA strength for a pure GAMOW         
+#  TELLER (NU g{-7/2}) to (PI g{-9/2}) transition with the measured one.  
+#  The experimental strength is considerably hindered, only 5.5% of the   
+#  theoretical value.                                                     
+#  The level scheme is almost similar in the three papers. 1987AYZW agree 
+#  with 1986ROZN and suggest a level at 569, but no RI are given.         
+#  1989KO22 find a 292G in coin with the 101G and suggest a level at 508. 
+#  1990FO07 have measured the IG of 114.7 GAMMA and the Q-.               
+#B IB$The IB given by 1987AYZW are in agreement with those derived from   
+#B TI (1986ROZN)                                                          
+#G E,RI$From 1989KO22, 1986ROZN give only I(G+CE).                        
+#G M$From the intensity ratio of the G's and the K-x rays observed in     
+#G the spectrum gated by the 101G, EKC(115G) LT 0.14, consistent only     
+#G with E1. EKC(115G)=0.093 then was used by the authors to normalize     
+#G IG, I(ce) scales.                                                      
+#L T$From adopted levels                                                  
+#P   0           0+                11.8 S    4            2.61E+3   3     
+PD116 AG116 beta- 2.61 0.0 1.0
++G gamma 0.091 0.07777
++B beta- 1.014 0.79
++B beta- 0.885 0.21
++B beta- 0.833 0.01
+

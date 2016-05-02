@@ -1,0 +1,42 @@
+#192TL    196BI A DECAY: LOW SPIN       1991VA04                  12NDS    201209
+#  196BI A DECAY: LOW SPIN       1991VA04                  12NDS    201209
+#H TYP=FUL$AUT=Coral M. Baglin$CIT=NDS 113, 1871 (2012)$CUT=15-Jun-2012$  
+#  PARENT T, JPI FROM 07NDS.                                              
+#  1991VA04: mass separated sources (^LISOL facility) from RE(16O,XN)     
+#  (E<180 MEV), 181TA(20NE,XN) (E<240 MEV) and 182W(20NE,XN) (E<240 MEV); 
+#  measured singles spectra for |a, x, |g; ^HP Ge (FWHM=2 KEV at 1332) and
+#  low energy Ge (FWHM=0.58 KEV at 122 KEV) detectors, ^PIPS-type |a      
+#  detectors (FWHM=11-17 KEV at 5486 KEV); determined EA, IA, EG,         
+#  T and parent T and %|a.                                                
+#  CALCULATIONS USING COULOMB AND PROXIMITY POTENTIAL MODEL: ^T{-1/2},    
+#  AND ^HF FOR |a DECAY FROM (3+) 196BI (2011SA10).                       
+#A HF        If R0=1.468 21, UNWEIGHTED AVERAGE OF R0(192PB)=1.513 3 (this
+#A evaluation), R0(192HG)=1.43 3 (extrapolated from R0 in 1998AK04 for    
+#A lower-mass even-^A Hg isotopes), AND R0(190HG)=1.432 23 AND            
+#A R0(194PB)=1.496 3 (1998AK04).                                          
+#L J,T       From Adopted Levels.                                         
+#P 0.0          (3+)             5.13 M    20             5438      40    
+BI196 TL192 alpha 5.438 307.8 1.0
+
+#192TL    196BI A DECAY: HIGH SPIN      1991VA04                  12NDS    201209
+#  196BI A DECAY: HIGH SPIN      1991VA04                  12NDS    201209
+#H TYP=FUL$AUT=Coral M. Baglin$CIT=NDS 113, 1871 (2012)$CUT=15-Jun-2012$  
+#  PARENT E, T, JPI from 07NDS.                                           
+#  1991VA04: mass separated sources (^LISOL facility) from RE(16O,XN)     
+#  (E<180 MEV), 181TA(20NE,XN) (E<240 MEV) and 182W(20NE,XN) (E<240 MEV); 
+#  measured singles spectra for |a, X, G; ^HP Ge (FWHM=2 KEV at 1332) and 
+#  low energy Ge (FWHM=0.58 KEV at 122 KEV) detectors, ^PIPS-type |a      
+#  detectors (FWHM=11-17 KEV at 5486 KEV); measured EA, IA, ^T{-1/2},     
+#  and parent T and %|a.                                                  
+#  CALCULATIONS USING COULOMB AND PROXIMITY POTENTIAL MODEL: ^T{-1/2},    
+#  AND ^HF FOR |a DECAY FROM (10-) 196BI (2011SA10).                      
+#A HF        If R0=1.468 21, UNWEIGHTED AVERAGE OF R0(192PB)=1.513 3 (this
+#A evaluation), R0(192HG)=1.43 3 (extrapolated from R0 in 1998AK04 for    
+#A lower-mass even-^A Hg isotopes), AND R0(190HG)=1.432 23 AND            
+#A R0(194PB)=1.496 3 (1998AK04).                                          
+#G E(Z)      FROM LEVEL SCHEME IN FIG. 2 OF 1991VA04. VALUE MAY HAVE BEEN 
+#G TAKEN FROM THE LITERATURE; THE G SPECTRUM IS NOT PRESENTED BY 1991VA04.
+#L J,T       From Adopted Levels, except as noted.                        
+#P 271        5 (10-)            4.00 M    5              5438      40    
+BI196 TL192 alpha 5.438 240.0 1.0
+

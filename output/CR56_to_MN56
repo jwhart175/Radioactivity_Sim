@@ -1,0 +1,14 @@
+# 56MN    56CR B- DECAY                 1960DR03                  11NDS    201105
+#  56CR B- DECAY                 1960DR03                  11NDS    201105
+#H TYP=FUL$AUT=HUO JUNDE, HUO SU, YANG DONG$CIT=NDS 112, 1513 (2011)$     
+#H CUT=29-Oct-2009$                                                       
+#  Sources produced by {+54}Cr(t,p) E=2.7-2.9 MeV; measured E|g, |g|g and 
+#  |b|g with NaI(Tl). Measured Q(|b{+-})|?1.6 MeV.                        
+#G RI        Relative photon intensities from intensity balance.          
+#L E         From E|g by using least-squares adjustment procedure.        
+#L J         From adopted levels.                                         
+#P 0.0         0+                5.94 M    10             1628.5    20    
+CR56 MN56 beta- 1.6285 356.40000000000003 1.0
++G gamma 0.026 0.446
++G gamma 0.083 0.953
+

@@ -1,0 +1,66 @@
+#229RA    229FR B- DECAY                1999FR33                  08NDS    200810
+#  229FR B- DECAY                1999FR33                  08NDS    200810
+#H TYP=FUL$AUT=E. BROWNE, J. K. TULI$CIT=NDS 109, 2657 (2008)$            
+#H CUT=1-Jun-2008$                                                        
+#  OTHER: 1992BO05                                                        
+#  229FR activity produced by spallation of 1-GeV protons on an uranium   
+#  target. Source was produced and mass separated at the ^ISOLDE-PSB      
+#  mass separator and deposited on to a moving tape.  Measured B-, G-ray  
+#  singles and BG COIN, BGG COIN, and |b|g|g|g COIN. Detectors: plastic   
+#  scintillator for B- particles; high-purity germanium for G rays.       
+#  Measured conversion electrons in singles and G-electron coincidence    
+#  experiments. Detectors: A magnetic spectrometer coupled to a Si(Li)    
+#  cooled detector for conversion electrons;high-purity germanium         
+#  for G rays. Measured conversion coefficients, deduced G-ray            
+#  multipolarities. Measured BGG(t) triple coincidences, determined       
+#  levels half-life.                                                      
+#B IB$Deduced by evaluators from G-ray transition intensity balance to    
+#B levels in 229RA. Total B- feeding to levels above 213 keV is           
+#B 92% 3. The remaining 8%  2 feeds mostly the 142.7-(1/2+),              
+#B 168.8-(3/2+), and 213.0-keV(3/2+) levels. Evaluators have considered   
+#B very imprecise and inconsistent with G-ray data the individual values  
+#B deduced for the B- feeding to each of these levels.                    
+#G M,MR$From measured conversion coefficients.                            
+#L E$Deduced by evaluators from least-squares fit to G-ray energies.      
+#L J$Spin and parity assignments are based on G-ray multipolarities and   
+#L on rotational structure.  Because of the high octupole components in   
+#L the wave functions of low-energy states, rotational levels are seen    
+#L with partners of the same K angular momentum projection and opposite   
+#L parities ("parity doublets.") This interpretation has been confirmed   
+#L by the enhanced E1 G-ray transition probabilities between parity       
+#L pair states.                                                           
+#L BAND(A)   KPI=1/2- PARITY DOUBLET BAND. 1/2[501]                       
+#L BAND(a)   KPI=1/2+ PARITY DOUBLET BAND. 1/2[631]                       
+#L BAND(B)   KPI=3/2+ PARITY DOUBLET BAND. 3/2[631]                       
+#L BAND(b)   KPI=3/2- PARITY DOUBLET BAND. 3/2[761]                       
+#L BAND(D)   KPI=5/2+ PARITY DOUBLET BAND. 5/2[633]                       
+#L BAND(d)   KPI=5/2- PARITY DOUBLET BAND. 5/2[752]                       
+#P 0.0         (1/2+)            50.2 S    4              3250      40    
+FR229 RA229 beta- 3.25 50.2 1.0
++B beta- 1.041 0.57
++B beta- 1.032 0.004
++B beta- 1.025 0.09300000000000001
++B beta- 1.015 0.0051
++B beta- 1.011 0.0051
++B beta- 1.006 0.009000000000000001
++B beta- 1.005 0.0034999999999999996
++B beta- 0.991 0.0083
++B beta- 0.963 0.009000000000000001
++B beta- 0.926 0.0052
++B beta- 0.918 0.0021
++B beta- 0.901 0.0028000000000000004
++B beta- 0.892 0.0078000000000000005
++B beta- 0.877 0.0036
++B beta- 0.85 0.0073
++B beta- 0.806 0.0084
++B beta- 0.69 0.0042
++B beta- 0.683 0.0049
++B beta- 0.668 0.0033
++B beta- 0.655 0.012
++B beta- 0.649 0.07200000000000001
++B beta- 0.644 0.018000000000000002
++B beta- 0.634 0.0362
++B beta- 0.574 0.0108
++B beta- 0.539 0.0062
++B beta- 0.529 0.02
+

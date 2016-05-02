@@ -1,0 +1,24 @@
+#206AT    210FR A DECAY                 2005KU06                  08NDS    200805
+#  210FR A DECAY                 2005KU06                  08NDS    200805
+#H TYP=FUL$AUT=F.G. KONDEV$CIT=NDS 109, 1527 (2008)$CUT=31-Jan-2008$      
+#  210FR is produced in 209BI(12C,7N)214AC reaction at E(12C)=7.1 and     
+#  9.1 MEV per nucleon and subsequent A-decay of 214AC. Detectors:        
+#  Velocity filter ^SHIP. Residues were implanted into                    
+#  position-sensitive 16-strip ^PIPS Si-detector. A Ge Clover was placed  
+#  behind Si detector; Measured: EG, EA, IG, IA, AG coin                  
+#A E$From 2005Ku06                                                        
+#A IA$Extracted from |a-|g coin data. Values do not include corrections   
+#A for conversion electrons summing effects                               
+#G E,RI$From 2005Ku06                                                     
+#L E$From a least-squares fit to EG                                       
+#P 0.0          6+                3.18 M   6              6672      5     
++A alpha 6.545 0.9987
++A alpha 6.42 3.0E-4
++A alpha 6.409 1.4000000000000001E-4
++A alpha 6.4 3.4E-4
++A alpha 6.348 4.1E-5
++A alpha 6.227 1.0E-4
++A alpha 6.212 2.1999999999999998E-4
++A alpha 6.112 1.7E-5
++A alpha 5.9 1.0E-4
+

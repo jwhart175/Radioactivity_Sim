@@ -1,0 +1,238 @@
+#166YB3C  THESE DATA ARE A BYPRODUCT OF A STUDY OF 168TA EC DECAY FOR WHICH      
+#  THESE DATA ARE A BYPRODUCT OF A STUDY OF 168TA EC DECAY FOR WHICH      
+#  THE SOURCE WAS PRODUCED USING 130-MEV 16O BOMBARDMENT OF 159TB;        
+#  THE 166LU COMPONENT MAY BE A MIXTURE OF ALL THREE ISOMERS, BUT         
+#  THE 6- ISOMER'S PRESENCE IS CONFIRMED BY THE OBSERVATION OF THE 997G   
+#  WHICH IS KNOWN FROM THAT DECAY BUT NOT FROM THE 0- OR 3(-) ISOMER      
+#  DECAYS.                                                                
+#E IE,LOGFT  The total intensity of G rays not placed in the decay        
+#E scheme is 14%; CONSEQUENTLY, IE AND LOGFT values are given FOR ONLY    
+#E THE STRONGEST BRANCHES, AND THE VALUES FOR THE 2233 LEVEL ALONE CAN BE 
+#E CONSIDERED TO BE RELIABLE.                                             
+#E E         E(B+) to the 2233-KEV level has been measured as             
+#E 2225 KEV 160.                                                          
+#G           1974DE09 pointed out that the following G rays definitely    
+#G belong to 166LU decay but could not be assigned with sufficient        
+#G certainty to one of the three activities. The intensity given for      
+#G these lines is normalized to the ground-state decay values of 166LU.   
+#G $ EG         RI       EG         RI                                    
+#G -----------------   -----------------                                  
+#G 308.8 6     0.6 3   1389.8 6    1.2 6                                  
+#G 312.9 4     0.8 4   1548.2 6    0.5 3                                  
+#G 401.7 3     1.1 3   1594.5 6    0.6 3                                  
+#G 416.1 5     0.6 3   1620.2 6    0.6 3                                  
+#G 549.6 6     0.8 4   1654.0 6    0.8 4                                  
+#G 612.1 6     1.6 4   1693.9 6    0.6 3                                  
+#G 671.6 4     1.5 4   1809.3 6    0.6 3                                  
+#G 697.3 6     0.9 3   1888.1 6    0.6 3                                  
+#G 735.2 6     0.9 3   2149.2 6    0.6 3                                  
+#G 769.4 8     0.4 2   2259.0 6    1.0 3                                  
+#G 915.9 6     0.7 4   2262.8 6    1.0 3                                  
+#G 942.6 6     0.9 4   2362.6 10   1.0 3                                  
+#G 948.0 6     1.0 4   2448.5 6    1.2 3                                  
+#G 962.1 6     0.8 4   2481.5 6    0.5 3                                  
+#G 1011.6 6    0.9 4   2489.6 6    0.5 3                                  
+#G 1171.0 6    1.0 4   2547.5 6    0.5 2                                  
+#G 1316.6 10   0.6 3   2762.5 5    0.4 2                                  
+#G                                                                        
+#G           CONVERSION COEFFICIENT DATA FROM 1974DE09 normalized so      
+#G EKC(337.5G)=0.0383=KC(E2 theory).                                      
+#G M         From Adopted Gammas, unless otherwise noted.                 
+#L E         FROM LEAST-SQUARES FIT TO EG.                                
+#L J         From Adopted Levels.                                         
+#P 0.          6-                2.65 M    10             5570      30    
+LU166 YB166 beta+ 5.57 159.0 1.0
++G gamma 0.09953000000000001 0.004554
++G gamma 0.16 0.0024839999999999997
++G gamma 0.1918 0.004967999999999999
++G gamma 0.19554 0.008694
++G gamma 0.26816 0.00828
++G gamma 0.31937 0.007659
++G gamma 0.35396 0.0053820000000000005
++G gamma 0.37739999999999996 0.0037259999999999997
++G gamma 0.4676 0.0037259999999999997
++G gamma 0.48719999999999997 0.00621
++G gamma 0.5239 0.0051335999999999994
++G gamma 0.6481 0.00414
++G gamma 0.7609 0.0024839999999999997
++G gamma 0.975 0.003312
++G gamma 1.0212 0.005589
++G gamma 1.1852 0.00828
++G gamma 1.1869 0.00414
++G gamma 1.2015 0.00414
++G gamma 1.2342 0.008694
++G gamma 1.2617 0.003312
++G gamma 1.3019 0.006624
++G gamma 1.306 0.004967999999999999
++G gamma 1.3108 0.0053820000000000005
++G gamma 1.3494000000000002 0.003312
++G gamma 1.398 0.007451999999999999
++G gamma 1.5050999999999999 0.007451999999999999
++G gamma 1.6402999999999999 0.0037259999999999997
++G gamma 1.6454000000000002 0.0028979999999999995
++G gamma 1.7203 0.0024839999999999997
++G gamma 0.10238 0.25461
++B beta+ 7.48E-4 0.00191
++G gamma 0.22812000000000002 0.78039
++B beta+ 1.885 0.00441
++G gamma 0.3375 0.414
++G gamma 0.70882 0.011591999999999998
++G gamma 0.93679 0.05795999999999999
++G gamma 0.43028 0.050508
++B beta+ 1.762 0.00307
++G gamma 0.4942 0.0024839999999999997
++G gamma 0.8322 0.06085799999999999
++G gamma 1.06028 0.013248
++B beta+ 1.513 0.00577
++G gamma 0.28887 0.019333799999999998
++G gamma 0.6599299999999999 0.03726
++G gamma 0.99738 0.181746
++G gamma 0.8144600000000001 0.06831
++G gamma 1.1511 0.004554
++B beta+ 1.458 0.00418
++G gamma 0.83757 0.027738
++G gamma 1.1747999999999998 0.044712
++G gamma 0.9015 0.00414
++G gamma 1.2400499999999999 0.013661999999999999
++G gamma 0.28887 0.019333799999999998
++G gamma 0.45386000000000004 0.015939
++G gamma 0.5777 0.040986
++G gamma 1.35435 0.017388
++G gamma 1.5822 0.0024839999999999997
++B beta+ 1.376 0.00453
++G gamma 0.39702 0.014903999999999999
++G gamma 0.6253 0.00414
++G gamma 1.0563 0.021113999999999997
++B beta+ 1.276 0.00498
++G gamma 0.2194 0.003312
++G gamma 1.1223800000000002 0.040986
++G gamma 1.4596300000000002 0.07948799999999999
++G gamma 0.33089999999999997 0.004554
++G gamma 0.71439 0.00621
++G gamma 1.1445 0.004967999999999999
++G gamma 0.4904 0.004554
++G gamma 1.1511 0.004554
++G gamma 1.4872999999999998 0.010764000000000001
++G gamma 0.7352000000000001 0.0037259999999999997
++G gamma 1.1652 0.00414
++G gamma 0.07492 0.009108
++G gamma 0.24853 0.048852
++G gamma 0.29484 0.003933
++G gamma 0.36008999999999997 0.036432
++G gamma 0.38297000000000003 0.03105
++G gamma 0.53764 0.0828
++G gamma 1.1972 0.005795999999999999
++B beta+ 1.246 0.00512
++G gamma 0.139 0.00414
++G gamma 0.2124 0.011591999999999998
++G gamma 0.2722 0.01656
++G gamma 0.3867 0.0028979999999999995
++G gamma 0.47474 0.027738
++G gamma 0.6293200000000001 0.07079400000000001
++G gamma 0.79411 0.030222
++G gamma 1.62663 0.009521999999999997
++G gamma 0.0932 0.00207
++G gamma 0.86056 0.03312
++G gamma 1.29071 0.09894599999999999
++G gamma 0.33089999999999997 0.004554
++G gamma 0.44580000000000003 0.0021942
++G gamma 0.5342 0.0053820000000000005
++G gamma 1.6858499999999998 0.004967999999999999
++G gamma 0.20865 0.037674
++G gamma 1.06734 0.025667999999999996
++G gamma 1.4973299999999998 0.007451999999999999
++B beta+ 1.171 0.0054800000000000005
++G gamma 0.06756999999999999 0.040158
++G gamma 0.27441000000000004 0.101016
++G gamma 0.27627999999999997 0.13827599999999998
++G gamma 0.36795 0.317538
+
+#166YB    166LU EC DECAY (1.41 M)       1974DE09                  08NDS    200804
+#  166LU EC DECAY (1.41 M)       1974DE09                  08NDS    200804
+#H TYP=FUL$AUT=CORAL M. BAGLIN$CIT=NDS 109, 1103 (2008)$CUT=1-Mar-2008$   
+#E IE,LOGFT  The total intensity of G rays not placed in the decay        
+#E scheme is 7%; CONSEQUENTLY, IE AND LOGFT values are SHOWN FOR ONLY     
+#E THE STRONGEST BRANCHES, AND THE VALUES FOR THE 2029 LEVEL ALONE        
+#E CAN BE CONSIDERED TO BE RELIABLE.                                      
+#G M,MR      From Adopted Gammas.                                         
+#L E         FROM LEAST-SQUARES FIT TO EG.                                
+#L J         From Adopted Levels.                                         
+#P 34.37     22 3(-)             1.41 M    10             5570      30    
+LU166 YB166 beta+ 5.57 84.6 0.58
++G gamma 0.407 0.0076
++G gamma 0.4704 0.0095
++G gamma 0.581 0.0209
++G gamma 0.6253 0.0114
++G gamma 0.6809 0.0114
++G gamma 0.7019 0.0171
++G gamma 0.7471 0.0076
++G gamma 1.0238 0.0114
++G gamma 1.8013 0.0171
++G gamma 1.974 0.0114
++G gamma 0.10238 0.21660000000000001
++G gamma 0.22813 0.2622
++B beta+ 1.046 0.0060799999999999995
++G gamma 0.8300599999999999 0.17670000000000002
++G gamma 0.93235 0.13870000000000002
++B beta+ 1.656 0.0034200000000000003
++G gamma 0.70882 0.024700000000000003
++G gamma 0.93679 0.1425
++G gamma 0.8324900000000001 0.0456
++G gamma 1.06028 0.0095
++B beta+ 1.606 0.0036
++G gamma 0.15249000000000001 0.024700000000000003
++G gamma 0.9846 0.038
++G gamma 0.345 0.0076
++G gamma 1.0547 0.0152
++G gamma 1.28345 0.0665
++B beta+ 1.479 0.00409
++G gamma 0.4122 0.0209
++G gamma 1.3494000000000002 0.0095
++G gamma 0.46429000000000004 0.013300000000000001
++G gamma 0.5709299999999999 0.055099999999999996
++G gamma 0.5685 0.013300000000000001
++G gamma 1.27692 0.0209
++G gamma 1.5049000000000001 0.0209
++G gamma 1.35435 0.0171
++G gamma 1.5822 0.0038
++B beta+ 1.417 0.00435
++G gamma 0.70508 0.076
++G gamma 0.81192 0.1691
++B beta+ 1.283 0.0049499999999999995
++G gamma 0.28507 0.19
++G gamma 0.345 0.0076
++G gamma 0.42125999999999997 0.0361
++G gamma 0.52601 0.0513
++G gamma 0.6432 0.0608
++G gamma 0.8664 0.0209
++G gamma 1.6987 0.0228
+
+#166YB    166LU EC DECAY (2.12 M)       1974DE09                  08NDS    200804
+#  166LU EC DECAY (2.12 M)       1974DE09                  08NDS    200804
+#H TYP=FUL$AUT=CORAL M. BAGLIN$CIT=NDS 109, 1103 (2008)$CUT=1-Mar-2008$   
+#G E,RI      FROM 1974DE09.                                               
+#G M         From Adopted Gammas.                                         
+#L E         FROM LEAST-SQUARES FIT TO EG.                                
+#L J         From Adopted Levels.                                         
+#P 43.0       4 0-               2.12 M    10             5570      30    
++B beta+ 1.154 0.005560000000000001
++G gamma 0.10238 0.10949999999999999
++G gamma 0.22812000000000002 0.042
++B beta+ 2.093 0.0022
++G gamma 1.2566400000000002 0.15
++G gamma 1.35879 0.132
++B beta+ 1.463 0.00416
++G gamma 1.4271800000000001 0.22649999999999998
++G gamma 1.52973 0.10949999999999999
++G gamma 1.2494 0.015
++G gamma 1.4775 0.026999999999999996
++G gamma 1.5794000000000001 0.0105
++B beta+ 1.385 0.00449
++G gamma 1.8204 0.009
++G gamma 1.9232 0.024
++B beta+ 1.206 0.0053100000000000005
++G gamma 0.518 0.0105
++G gamma 1.99625 0.033
++G gamma 2.0986 0.15899999999999997
++B beta+ 1.126 0.00569
+

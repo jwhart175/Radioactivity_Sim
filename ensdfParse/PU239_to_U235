@@ -1,0 +1,117 @@
+#235U     239PU A DECAY                 1993SC22                  14NDS    201411
+#  239PU A DECAY                 1993SC22                  14NDS    201411
+#H TYP=FUL$AUT=E. BROWNE, J. K. TULI$CIT=NDS 122, 205 (2014)$             
+#H CUT=1-Feb-2014$                                                        
+#  Modified by E. Browne, BRICC conversion coefficients, IA from G-ray    
+#  transition-intensity balances, new alpha hindrance factors             
+#  (Dec. 11, 2013).                                                       
+#  The decay scheme is given as presented in 1993Sc22.                    
+#  For coincidence measurements information see 1971Ar47.                 
+#A HF$Using r{-0}({+235}U)=1.5122, average of r{-0}({+234}U)=1.5075       
+#A and r{-0}({+236}U)=1.5168 (1998Ak04).                                  
+#A           Others: 2013Fe03, 2012Ni16,1996Vi07, 1996Ra09,               
+#A 1996Pa22, 1996Ga19, 1996Co28, 1996Bu50, 1996Bo19, 1995Bo32, 1994Ra27,  
+#A 1994Sa63, 1993Ya17, 1993Ha30, 1992Ma04, 1992Ga25.                      
+#A E$From 1968Ba25, 1971Ar47, 1981AhZV, unless otherwise                  
+#A specified (E|a values in parentheses have been calculated from Q(|a)   
+#A and level energies). Other: 1999Sa15.                                  
+#A E(R)$Evaluated alpha-particle energies from 1991Ry01.                  
+#A IA(X)$From 1993Ga28: values are combined results from measurements     
+#A at CIEMAT (Spain) and IRMN (Belgium).                                  
+#A IA        From 1976BaZZ and 1971Ar47, unless otherwise specified.      
+#G CC$ FROM BrIcc v2.2 (31-Mar-2008) 2008KiAA, "Frozen Orbitals" appr.    
+#G           K|a{-2}| x ray={ 0.00417% {I4}}, K|a{-1}| x                  
+#G ray={ 0.00652% {I9}}, K|b{-1}'| x ray={ 0.002387% {I17}}, K|b{-2}'| x  
+#G ray={ 0.000216% {I15}}, L{-{Sl}} x ray={ 0.0996% {I11}}, L{-|a} x      
+#G ray={ 1.649% {I18}}, L{-|c} x ray={ 0.0566% {I10}}, L{-|b} x           
+#G ray={ 2.30% {I2}}, L{-|g} x ray={ 0.568% {I6}}, L| x ray={ 4.67% {I5}} 
+#G (1992Bl07,1994Mo36).                                                   
+#G           L{-{Sl}} x ray={ 0.1016% {I17}}, L{-|a} x                    
+#G ray={ 1.648% {I36}}, L{-|c} x ray={ 0.0544% {I9}}, L{-|b} x            
+#G ray={ 2.28% {I5}}, L{-|g} x ray={ 0.579% {I14}}, L| x                  
+#G ray={ 4.66% {I6}} (1994Le37).                                          
+#G           K|a{-2}| x ray={ 0.00422% {I1}}, K|a{-1}| x                  
+#G ray={ 0.00676% {I2}} (1976GuZN); L| x ray={ 6.7% {I10}} (1966Ah02).    
+#G           |g rays at 313.5 and { 1057.3 keV} were reported in 1971GuZY 
+#G but not in 1976GuZN                                                    
+#G E$E|g from (n,|g) (1979Al03) above { 600 keV} are                      
+#G |?{ 0.1 keV} systematically higher than E|g from 1976GuZN.             
+#G Some |DE of multiply placed |g rays have been estimated by evaluators  
+#G on the basis of (n,|g) results.                                        
+#G E$From 1968Cl02, 1971GuZY, 1976GuZN, 1982He02, 1992Bl07.               
+#G RI$From 1976GuZN, unless otherwise                                     
+#G specified. Other measurements: 1966Ah02, 1966Ho09, 1968Cl02, 1971GuZY, 
+#G 1981UmZZ, 1982He02, 1984Iw02, 1992Ba08, 1997Bu23, 1992Co10, 1997Ko52.  
+#G RI(L)$From 1986LoZT                                                    
+#G M,MR$From ce data in 1965Tr03 and adopted I|g, unless otherwise        
+#G specified. Some |d were deduced from |g-ray intensity balances using   
+#G experimental |a-particle intensities.                                  
+#G M(M)      From (n,|g) results in 1979Al03                              
+#G M(I)      From intensity balance                                       
+#G M(C)$From Coul. ex.                                                    
+#G E(E)      |g placed more than once in the decay scheme                 
+#G RI(X)     Absolute |g-ray intensity measurement (1994Mo36).            
+#G E(Y)      From (1994Mo36).                                             
+#G E(Q)      Assignment to {+239}Pu |a decay is uncertain.                
+#L E$From a least-squares fit to |g-ray energies from {+239}Pu |a decay.  
+#P 0            1/2+             24110 Y   30             5244.50   21    
++G gamma 0.01422 5.4999999999999995E-5
++G gamma 0.040409999999999995 1.6199999999999997E-6
++A alpha 5.1567 3.0E-4
++A alpha 5.1565900000000005 0.7077
++A alpha 5.1443 0.1711
++A alpha 5.111 2.0E-4
++G gamma 0.04621 7.21E-7
++A alpha 5.1055 0.11939999999999999
++A alpha 5.076 7.8E-4
++G gamma 0.03004 2.17E-6
++A alpha 5.054 4.7E-4
++A alpha 5.028 8.999999999999999E-5
++A alpha 5.006 1.7E-4
++A alpha 4.987 1.3E-4
++G gamma 0.04193 1.46E-6
++A alpha 4.96 7.000000000000001E-5
++A alpha 4.934 6.0E-5
++G gamma 0.09614 3.79E-7
++A alpha 4.912 2.3999999999999997E-5
++A alpha 4.871 7.0E-6
++A alpha 4.866 1.9E-5
++A alpha 4.828 2.3999999999999997E-5
++A alpha 4.824 2.1999999999999998E-7
++A alpha 4.795 1.1999999999999999E-5
++A alpha 4.769 1.5E-5
++A alpha 4.749 5.999999999999999E-6
++A alpha 4.736 5.1000000000000006E-5
++A alpha 4.7185 4.0000000000000003E-7
++A alpha 4.691 5.0E-6
++A alpha 4.655 2.8E-8
++A alpha 4.632 7.0E-6
++A alpha 4.559 1.2000000000000002E-7
++A alpha 4.534 2.82E-8
++A alpha 4.5296 3.19E-8
++A alpha 4.51 8.000000000000001E-7
++A alpha 4.503 5.3700000000000004E-8
++A alpha 4.497 3.0E-10
++G gamma 0.62478 4.37E-9
++A alpha 4.4674 6.9E-8
++A alpha 4.4647 1.15E-7
++A alpha 4.4485 2.13E-8
++A alpha 4.419 3.3E-9
++A alpha 4.408 9.999999999999999E-10
++A alpha 4.38 2.5E-7
++A alpha 4.4003000000000005 1.03E-7
++A alpha 4.392 7.07E-9
++A alpha 4.39 1.0E-8
++A alpha 4.3645 8.3E-10
++A alpha 4.349 3.0E-9
++A alpha 4.327 2.3E-9
++A alpha 4.326 4.1799999999999995E-10
++A alpha 4.306 9.999999999999999E-10
++A alpha 4.28 1.9E-9
++A alpha 4.2045 6.100000000000001E-10
++A alpha 4.202 4.0E-10
++A alpha 4.187 7.600000000000001E-10
++A alpha 4.181 5.6E-10
++A alpha 4.117 9.3E-10
++A alpha 4.059 2.1E-10
+

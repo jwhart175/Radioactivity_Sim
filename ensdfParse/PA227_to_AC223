@@ -1,0 +1,62 @@
+#223AC    227PA A DECAY                 1989AH05,1990SH15,1963SU1001NDS    200110
+#  227PA A DECAY                 1989AH05,1990SH15,1963SU1001NDS    200110
+#H TYP=FUL$AUT=E. BROWNE$CIT=NDS 93, 846 (2001)$CUT=1-May-2001$           
+#  MODIFIED BY E. BROWNE (FEB.2000). MOST REFERENCES TO 1990SH16 HAVE BEEN
+#  CHANGED TO 1990SH15.  THERE SHOULD BE ONLY ONE REFERENCE TO 1990SH16.  
+#  RECALCULATED ALPHA HINDRANCE FACTORS USING R0 VALUES FROM 1998AK04.    
+#  Mass-separated sources. Measured EG, RI, ICE, AG coin, ACE coin.       
+#  Detectors: GE(LI), SI(LI), plastic scin, SI (1989AH05,1990SH15).       
+#  Other: 1963SU10.                                                       
+#  Measured ACE(T), deduced level half-lives (1989AH05).                  
+#  See 1999SC17, 1997SC16 for measured IA(THETA) for oriented 227PA       
+#  nuclei. Others: 1996ST14, 1994BE30, 1992WO14.                          
+#L J$Parity doublet rotational band assignments are from 1990SH16,        
+#L 1990SH15, 1989AH05, and 1990JA11. Spin and parity assignments are      
+#L based on rotational structure and G-ray multipolarities.               
+#L J$Although octupole deformations are small in this region, nuclear     
+#L states are no longer fully characterized by single Nilsson orbitals.   
+#L This terminology, however, is used throughout this evaluation to       
+#L label states rather than to accurately describe their nature.          
+#L E$Deduced by evaluator from a least-squares fit to G-ray energies.     
+#L BAND(A)   5/2(523) PARITY DOUBLET ROTATIONAL BAND.                     
+#L BAND(B)   5/2(642) PARITY DOUBLET ROTATIONAL BAND.                     
+#L BAND(D)   3/2(532) PARITY DOUBLET ROTATIONAL BAND.                     
+#L BAND(E)   3/2(651) PARITY DOUBLET ROTATIONAL BAND.                     
+#L J(G)      From adopted levels.                                         
+#L T         From 1989AH05.                                               
+#L E(K)      Reported by 1990SH15 only.                                   
+#L E(L)      Reported by 1989AH05 only.                                   
+#G E(A)      From 1989AH05.                                               
+#G E(B)      From 1990SH15.                                               
+#G E(H),RI(H),M(H)$From 1990SH15. Placement in the decay scheme is        
+#G considered uncertain by evaluator. Multipolarity is from CE data.      
+#G RI        From 1989AH05, unless otherwise specified. Authors           
+#G claim all G rays with                                                  
+#G absolute intensities GT 0.2 (per 100 ALPHAS) have been observed.       
+#G           Experimental relative XK intensity=22 3 (1990SH15) agrees    
+#G with a value of 18 4 deduced by evaluator from the decay scheme. All   
+#G of the XK intensity originates from atomic vacancies created by the    
+#G 110-, 125-, and 130-KEV transitions.                                   
+#A E,IA$Intensities are per 100 ALPHA decays of 227PA (1958HI78,1963SU10).
+#A Data for EA GE 6376 MEV have been                                      
+#A evaluated by 1991RY01, and recommended values are presented here.      
+#A Fractional uncertainties in IA are 2.5% (1958HI78). Energies have been 
+#A adjusted by 5.8 KEV because of a change in the calibrating             
+#A ALPHA-particle energies of 211BI (1991RY01).                           
+#A HF        Using R0(223AC)=1.529, average of R0(222RA)=1.5383 8,        
+#A R0(224RA)=1.5332 8, R0(222TH)=1.522 22, and R0(224TH)=1.524 9          
+#A (1998AK04).                                                            
+#A           Transition-intensity balance for each level using            
+#A G-ray data and the decay scheme of 1990SH15 could not reproduce        
+#A most of the measured ALPHA-particle intensities.                       
+#P 0.0                (5/2-)     38.3 M    3              6580.0    21    
++A alpha 6.4658 0.502
++A alpha 6.4238 0.11699999999999999
++A alpha 6.4158 0.151
++A alpha 6.4017 0.094
++A alpha 6.376 0.026000000000000002
++A alpha 6.3567 0.079
++A alpha 6.336 0.006999999999999999
++A alpha 6.326 0.004
++A alpha 6.299 0.008
+

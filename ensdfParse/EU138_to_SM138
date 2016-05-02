@@ -1,0 +1,43 @@
+#138SM    138EU EC DECAY                1986RE11                  03NDS    200305
+#  138EU EC DECAY                1986RE11                  03NDS    200305
+#H TYP=FUL$AUT=A.A. Sonzogni$CIT=NDS 98, 515 (2003)$CUT=1-Dec-2002$       
+#  Measured: G, GG, XKG,                                                  
+#  others: 1988BeYG, 1987Pl05, 1985Ch25, 1977Bo02, 1982No15, 1986MlZX     
+#  From LOGFT AP 5.2 to 6+ and AP 5.5 to 8+, derived from intensity       
+#  imbalance by 1986Re11, JPI(138EU, GS)                                  
+#  is suggested to be 7+ which is in conflict with its MOMM1              
+#  measurement (1989SiZV). The decay scheme seems to be incomplete and,   
+#  therefore, BETA feedings are unreliable.                               
+#G E$From 1986RE11                                                        
+#G RI$From 1986RE11, mean |DI|g=10%                                       
+#G M$From adopted gammas                                                  
+#L E$From least-squares fit to E|g                                        
+#L J,T$From adopted levels                                                
+#L BAND(A)$GS BAND                                                        
+#L BAND(B)$G-VIBRATIONAL BAND                                             
+#P 0.0         (6-)              12.1 S    6              9231      SY    
+EU138 SM138 beta+ 9.231 12.1 1.0
++G gamma 0.3477 10.0
++G gamma 0.399 2.25
++G gamma 0.7456 1.1
++G gamma 0.5445 5.5
++G gamma 0.338 1.4
++G gamma 0.7372000000000001 1.9
++G gamma 0.5075 0.5
++G gamma 0.6528999999999999 1.5
++G gamma 0.6856 4.1
++G gamma 0.5712999999999999 1.0
++G gamma 0.911 0.3
++G gamma 0.6487999999999999 2.1
++G gamma 0.8411000000000001 0.25
++G gamma 0.4415 0.85
++G gamma 0.6982 0.5
++G gamma 0.7062 0.7
++G gamma 0.8389 0.6
++G gamma 0.6023999999999999 0.35
++G gamma 0.7751 1.25
++G gamma 0.7681 1.8
++G gamma 0.9318 0.5
++G gamma 0.8278 0.5
++G gamma 0.8509 0.45
+

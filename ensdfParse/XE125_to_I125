@@ -1,0 +1,87 @@
+#125I     125XE EC DECAY                1980BO32,1981BO25         11NDS    201102
+#  125XE EC DECAY                1980BO32,1981BO25         11NDS    201102
+#H TYP=FUL$AUT=J. KATAKURA$CIT=NDS 112, 495 (2011)$CUT=1-Jan-2010$        
+#  1980Bo32: ce(p,X) ms; semi |g; iron-free spectrometer Ice; I|g-coin    
+#  1981Bo25: Spectrometer Ice                                             
+#  1967Ge10: {+124}Xe(n,|g) ms; semi |g; air-core spectrometer Ice;       
+#  |g|g(|q)                                                               
+#  1969Lu09: semi |g, |g|g-coin, |b|g-coin                                
+#  1970Lu13: semi |g, |g|g-coin, |g|g(|q)                                 
+#  Others: 1966Ge13, 1967Ho04                                             
+#  The level scheme is that proposed by 1980Bo32                          
+#E $         |SI|b{++}=0.3% {I1} from I|g|+ (1969Lu09)                    
+#G CC$ FROM BrIcc v2.2 (31-Mar-2008) 2008KiAA, "Frozen Orbitals" appr.    
+#G E         From 1980Bo32. Reported uncertainties seem to be too low.    
+#G E(A),RI(A)$1980Bo32 report E|g=635.824 {I18} with I|g=0.430 {I9} doubly
+#G  placed from the 1007 and 1089 levels. The intensity was divided by    
+#G the evaluators using |g|g data of 1969Lu09.                            
+#G RI        I|g's are relative to I(188.43|g)=100 from 1980Bo32,         
+#G unless noted otherwise                                                 
+#G $I(ce) measured |a normalized to |a(243|g)(K,E2)=0.0653                
+#G (1981Bo25), and |a(74.857|g)(K,E2)=2.99 (1980Bo32)                     
+#G M         From |a(K)exp with normalization of |a(K)(243|g)=0.0653      
+#G (E2 theory) (1981Bo25), L-subshell ratios and |g|g(|q) (1967Ge10)      
+#G MR        From L-subshell ratios and |g|g(|q) (1967Ge10), unless       
+#G otherwise indicated                                                    
+#L E         E(levels) are based on a least-squares fit to                
+#L E|g's by evaluators                                                    
+#L J         Spin and parity values are those given under adopted         
+#L levels                                                                 
+#P 0.0         1/2(+)            16.9 H    2              1644.5    22    
+XE125 I125 beta+ 1.6445 60839.99999999999 1.0
++G gamma 0.178485 7.1016E-4
++G gamma 0.37613 1.5602000000000001E-4
++G gamma 0.43101999999999996 1.9906E-4
++G gamma 1.326 5.918000000000001E-6
++G gamma 1.38515 2.959E-5
++G gamma 0.113551 0.0047882
++B beta+ 8.012000000000001E-4 0.0015562999999999998
++G gamma 0.074875 0.0011836000000000001
++G gamma 0.188418 0.538
++B beta+ 0.20279 0.06
++G gamma 0.054968 0.067788
++G gamma 0.24337799999999998 0.29966600000000004
++B beta+ 0.17875 0.07
++G gamma 0.25836000000000003 1.3450000000000002E-4
++G gamma 0.372081 0.00170546
++B beta+ 8.524E-4 0.00116
++G gamma 0.210418 7.478200000000002E-4
++G gamma 0.34022 1.9906E-4
++G gamma 0.453796 0.0466984
++B beta+ 8.523E-4 0.001164
++G gamma 0.55369 3.0666000000000005E-4
++G gamma 0.635382 0.0011836000000000001
++G gamma 0.7641699999999999 7.532E-5
++G gamma 0.81902 2.4210000000000003E-4
++G gamma 1.007431 0.00160862
++B beta+ 8.468E-4 0.0012064999999999999
++G gamma 0.89442 1.6140000000000002E-4
++B beta+ 8.451E-4 0.0012194
++G gamma 0.6361100000000001 0.0011298
++G gamma 0.7179 1.3450000000000002E-4
++G gamma 0.846511 0.011082800000000002
++G gamma 0.90151 0.005778120000000001
++G gamma 1.0898599999999998 6.5098E-4
++B beta+ 8.449E-4 0.0012208
++G gamma 0.727096 5.4876E-4
++G gamma 0.8091799999999999 6.994E-5
++G gamma 0.937494 0.0015064000000000002
++G gamma 0.9924299999999999 0.00101682
++G gamma 1.180838 0.006832600000000001
++B beta+ 8.4198E-4 0.0012
++G gamma 1.0205499999999998 2.3672E-4
++G gamma 1.07554 6.133200000000001E-4
++B beta+ 8.38E-4 0.00127
++G gamma 1.13823 0.0029912800000000007
++G gamma 1.19323 6.6174E-4
++G gamma 1.381 1.5064000000000002E-5
++B beta+ 8.272E-4 0.00135
++G gamma 1.0708499999999999 1.7754E-4
++G gamma 1.19967 3.9812000000000004E-5
++G gamma 1.2543499999999999 1.614E-5
++G gamma 1.4427 6.994E-5
++B beta+ 8.156E-4 0.0014399999999999999
++G gamma 1.10871 2.5824E-5
++G gamma 1.31891 1.1298000000000001E-5
++G gamma 1.5624 1.0760000000000002E-5
+

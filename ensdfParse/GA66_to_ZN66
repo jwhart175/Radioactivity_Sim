@@ -1,0 +1,241 @@
+# 66ZN    66GA EC DECAY                 2004BEZR,2002BA38         10NDS    201004
+#  66GA EC DECAY                 2004BEZR,2002BA38         10NDS    201004
+#H TYP=FUL$AUT=E. BROWNE, J. K. TULI$CIT=NDS 111, 1093 (2010)$            
+#H CUT=3-Mar-2009$                                                        
+#  Modified by E. Browne (June 2, 2009). New BRICC, etc..                 
+#  2004BeZR: Data evaluated by E. Browne for the Decay Data Evaluation    
+#  Project (^DDEP). A detailed description of the evaluation procedures   
+#  used is given in www.nucleide.org/DDEP_WG/^DDEPdata.htm.               
+#  2002Ba38: Reports a combination of G-ray intensity measurements from   
+#  two laboratories: The Lawrence Berkeley National Laboratory (USA), and 
+#  the Budapest Neutron Center (Hungary).                                 
+#  Berkeley measurement: Activity produced by 66ZN(P,N), E=17.5 MeV       
+#  using a GT 99% pure natural zinc target. Detector: Hyper-pure Ge.      
+#  The relative detector efficiency was calibrated with sources of 56CO,  
+#  152EU, 154EU, and 228TH. Absolute detector efficiency was determined   
+#  using sources of 60CO, 137CS, and a 13C(238PU) source, which provided  
+#  a 6129-keV G ray produced via the 13C(A,N)16O reaction.                
+#  Budapest measurement: Activity produced by 66ZN(P,N), E=14.5 MeV,      
+#  using a target of 99.0 % 1 enriched 66ZN. Detector: hyper-pure Ge      
+#  with a Compton-suppression system. The detector efficiency was         
+#  calibrated with sources of 133BA and 152EU, as well as using capture   
+#  G rays from the 35CL(N,G) reaction.                                    
+#  2000Ra36: G-ray activity measured with a large hyper-pure              
+#  Compton-suppressed Ge detector. Its efficiency was calibrated using    
+#  the following sources: 22NA, 54MN, 57CO, 60CO, 88Y, 133BA, 137CS,      
+#  152EU, 207BI, 241AM, 226RA, and 228TH. Also using capture G rays from  
+#  the 12C(N,G) and 14N(N,G) reactions.                                   
+#  1994En02: Activity produced by 63CU(A,N), E=18 MeV using a target      
+#  of high-purity natural copper. Detector: GELI with a                   
+#  Compton-suppression shield. Detector efficiency was internally         
+#  calibrated with the strongest G rays from 66GA decay.                  
+#  1960Sc06: E|g, I|g, |g|g coincidences, |g|g(|q), E|b+, I|b{++},        
+#  |b{++}|g coincidences, and internal conversion; magnetic spectrometer, 
+#  scintillators                                                          
+#  Others: 1953Ma01, 1966Ac02, 1966Co05, 1966Fr13, 1966Wi13, 1967Ca12,    
+#  1967Va13, 1967Vr03, 1969St08, 1970Ph01, 1971Ca14, 1972GeZF, 1975Mc07,  
+#  and 1993Al15.                                                          
+#  1963Ca03: |b{++} spectrum, analyzed shape of g.s. transition;          
+#  magnetic spectrometer, proportional counters, scintillators            
+#  1952Mu35: E|g, I|g, |g|g coincidences, E|b+, and I|b{++}; magnetic     
+#  spectrometer, lead radiator, scintillators                             
+#  1950La55: E|g, I|g, E|b+, I|b{++}, |b{++}|g coincidences, and Auger    
+#  electrons; magnetic spectrometer, gas counters, uranium radiator       
+#E           Analysis of the {+66}Ga |b{++} spectrum has established that 
+#E the g.s. transition has a non-statistical shape (1963Ca03).            
+#E IB,IE     From I(|e+|b{++}) and theoretical |e/|b{++} ratios, except   
+#E for the g.s.                                                           
+#G RI        The relative intensities of the strongest G rays are values  
+#G recommended in 2004BeZR and 2002Ba38. These are weighted averages of   
+#G results from Berkeley, Budapest, and from those reported in 2000Ra36.  
+#G The relative intensities of weaker G rays are weighted averages of     
+#G values reported in 1970Ph01, 1971Ca14, and 1994En02.                   
+#G Relative G-ray intensities in 1970Ph01 have been corrected             
+#G for a systematic inaccuracy in the detector efficiency calibration     
+#G above 1050 keV. Correction factor                                      
+#G f=1.116 - 0.155 EG (MeV) + 0.0397 EG (MeV) X EG (MeV) (2002Ba38).      
+#G Uncertainties in RI are statistical values given by authors.           
+#G MR(P)     From GG(THETA) in 66GA EC decay (2002Ga20).                  
+#G E(Q)      From 2000He14. These values are based on a revised energy    
+#G scale that uses the new adjusted fundamental constants and wave        
+#G lengths deduced from an updated value of the lattice spacing of Si     
+#G crystals [Cohen and Taylor 1987Co39]. Helmer and van der Leun          
+#G (2000He14) fitted the adjusted G-ray energies of 66GA to a level       
+#G scheme and deduced their recommended values from level-energy          
+#G differences.                                                           
+#G E         G rays with precise energies are from 2000He14. Those with   
+#G less precise energies are from 1993Al15 and 1994En02, but adjusted     
+#G to those in 2000He14 using a least-squares procedure (2004BeZR).       
+#G The difference between these two energy scales has been used           
+#G as a systematic adjustment, and applied to the the energies            
+#G given here.  Thus, the uncertainties in the G-ray energies presented   
+#G in this evaluation are just statistical, as reported by authors.       
+#L J,T$From Adopted Levels.                                               
+#P 0.0         0+                9.49 H    3              5175      3     
+GA66 ZN66 beta+ 5.175 34164.0 1.0
++G gamma 0.1719 1.036E-4
++G gamma 3.7248 2.4050000000000002E-5
++G gamma 3.8063000000000002 2.442E-5
++G gamma 3.8275 7.03E-5
++B beta+ 1.9041 0.51
++G gamma 1.03922 0.37
++G gamma 0.8335324000000001 0.058941
++G gamma 1.87274 2.294E-4
++B beta+ 0.7816000000000001 0.003
++G gamma 0.49959 4.8100000000000004E-5
++G gamma 1.333112 0.0117475
++G gamma 0.90739 2.183E-4
++G gamma 1.740904 2.8600999999999995E-4
++G gamma 2.7800949999999998 0.0012358
++B beta+ 0.5752999999999999 5.3E-5
++G gamma 0.95393 9.990000000000001E-6
++G gamma 1.7874400000000001 8.88E-5
++G gamma 1.0653050000000002 2.3310000000000002E-5
++G gamma 1.8988230000000001 0.0038887
++G gamma 1.2322639999999998 0.004995
++G gamma 2.065778 3.108E-4
++G gamma 2.173319 8.436E-4
++G gamma 3.2124989999999998 1.8500000000000002E-5
++B beta+ 0.3971 0.037000000000000005
++G gamma 0.29081049999999997 4.921000000000001E-4
++G gamma 0.44873 0.001073
++G gamma 0.856527 0.0011137
++G gamma 1.356104 0.0035519999999999996
++G gamma 2.189616 0.053354
++G gamma 3.2288 0.0151034
++G gamma 0.551284 6.993E-5
++G gamma 1.4586620000000001 9.657E-4
++G gamma 2.2921709999999997 1.7020000000000002E-4
++G gamma 3.331351 2.257E-4
++B beta+ 0.3311 0.006999999999999999
++G gamma 0.442873 1.554E-4
++G gamma 0.600788 1.3505E-4
++G gamma 1.008588 5.920000000000001E-4
++G gamma 1.5081579999999999 0.0055389
++G gamma 2.3416729999999997 3.182E-5
++G gamma 3.3808499999999997 0.014652
++B beta+ 0.31110000000000004 2.0E-5
++G gamma 1.55462 1.85E-4
++B beta+ 0.30889999999999995 0.0016
++G gamma 0.494336 5.624E-5
++G gamma 1.0600509999999999 1.554E-4
++G gamma 1.5596269999999999 2.183E-4
++G gamma 2.393129 0.0023495
++G gamma 3.432309 0.0028749
++G gamma 0.6805599999999999 1.48E-5
++G gamma 1.63446 3.515E-5
++G gamma 2.4679699999999998 8.436000000000001E-5
++G gamma 2.49242 2.2199999999999998E-4
++G gamma 0.7496799999999999 1.369E-5
++G gamma 0.7962100000000001 2.9230000000000003E-5
++G gamma 1.70359 5.5499999999999994E-5
++G gamma 2.53709 5.18E-5
++G gamma 1.79794 1.887E-5
++G gamma 2.63144 2.96E-5
++B beta+ 0.1792 4.1E-6
++G gamma 0.80013 9.990000000000001E-6
++G gamma 2.69892 3.7000000000000005E-5
++G gamma 3.7380999999999998 1.3838E-4
++G gamma 2.71373 6.290000000000001E-5
++B beta+ 0.157 0.009399999999999999
++G gamma 0.28387 3.5890000000000004E-5
++G gamma 0.410178 6.548999999999999E-4
++G gamma 0.459683 8.768999999999999E-4
++G gamma 0.562241 6.623E-5
++G gamma 0.5785399999999999 5.883E-4
++G gamma 0.68608 0.0025197
++G gamma 0.853038 7.585000000000001E-4
++G gamma 1.0109569999999999 2.701E-4
++G gamma 1.4187539999999998 0.0061309
++G gamma 1.918329 0.0198616
++G gamma 2.7518350000000003 0.22680999999999998
++G gamma 3.791004 0.0108817
++B beta+ 0.1429 7.3E-7
++G gamma 2.7857 2.96E-5
++B beta+ 0.1189 1.6E-7
++G gamma 2.0096279999999997 3.071E-5
++G gamma 2.84313 1.6649999999999998E-5
++G gamma 0.34776999999999997 1.776E-5
++G gamma 0.55428 4.5140000000000005E-5
++G gamma 0.653568 1.3319999999999998E-5
++G gamma 0.6585700000000001 7.510999999999999E-5
++G gamma 0.705031 3.774E-5
++G gamma 0.857093 1.4800000000000002E-4
++G gamma 0.8733920000000001 1.7020000000000002E-4
++G gamma 0.980934 4.847E-4
++G gamma 1.147896 7.844E-4
++G gamma 1.305807 3.959E-5
++G gamma 1.713602 2.442E-4
++G gamma 2.213181 0.0013097999999999999
++G gamma 3.0466840000000004 5.698E-4
++G gamma 4.085853 0.0127465
++B beta+ 8.839000000000001E-4 9.8E-4
++G gamma 0.412916 3.367E-5
++G gamma 0.55713 6.142E-5
++G gamma 0.71897 9.915999999999999E-5
++G gamma 0.76364 8.88E-5
++G gamma 0.8629260000000001 1.517E-4
++G gamma 0.86793 4.329E-5
++G gamma 0.914388 2.701E-4
++G gamma 0.9638920000000001 1.443E-4
++G gamma 1.0664500000000001 2.368E-5
++G gamma 1.08275 1.3246E-4
++G gamma 1.190287 0.0012764999999999999
++G gamma 1.35725 0.001628
++G gamma 1.5151620000000001 6.178999999999999E-5
++G gamma 2.4225250000000003 0.0188145
++G gamma 3.256021 9.398E-4
++G gamma 4.295187 0.038110000000000005
++B beta+ 8.835E-4 9.8E-4
++G gamma 0.375398 2.1459999999999998E-5
++G gamma 0.6702509999999999 4.07E-5
++G gamma 0.70836 8.658E-5
++G gamma 0.72317 3.441E-5
++G gamma 0.885 1.887E-5
++G gamma 0.92968 4.551E-5
++G gamma 0.95412 4.477E-5
++G gamma 1.129923 1.3579E-4
++G gamma 1.23248 5.55E-4
++G gamma 1.248779 9.990000000000001E-6
++G gamma 1.35632 0.001221
++G gamma 1.523279 5.476E-5
++G gamma 2.088985 1.147E-4
++G gamma 2.588553 2.627E-4
++G gamma 3.42204 0.008561800000000001
++G gamma 4.461202 0.008362
++B beta+ 8.83E-4 9.9E-4
++G gamma 1.10653 1.221E-5
++G gamma 1.4093499999999999 1.591E-5
++G gamma 2.2658400000000003 1.369E-5
++B beta+ 8.822E-4 9.9E-4
++G gamma 2.8028000000000004 1.48E-5
++B beta+ 8.819E-4 0.001
++G gamma 1.0150810000000001 1.221E-4
++G gamma 1.13547 4.736E-5
++G gamma 1.2745 6.993E-5
++G gamma 1.29895 3.811E-5
++G gamma 1.42525 6.030999999999999E-5
++G gamma 1.577308 3.9960000000000004E-5
++G gamma 1.8681050000000001 2.701E-4
++G gamma 2.0260160000000003 2.59E-5
++G gamma 2.433807 7.437E-5
++G gamma 2.933358 0.0021311999999999998
++G gamma 3.76685 0.0014911000000000002
++G gamma 4.806006999999999 0.018611
++B beta+ 8.806E-4 0.00101
++G gamma 1.46897 1.369E-5
++G gamma 2.97708 2.294E-4
++G gamma 3.8105900000000004 9.176E-5
++B beta+ 8.799E-4 0.00101
++G gamma 1.19532 9.250000000000001E-6
++G gamma 1.4336300000000002 1.8500000000000002E-5
++G gamma 1.5346 5.92E-5
++G gamma 1.9279600000000001 2.2570000000000002E-5
++G gamma 2.0858600000000003 2.22E-5
++G gamma 2.99321 3.145E-4
++G gamma 4.86587 2.7749999999999997E-5
++B beta+ 8.796E-4 0.0010199999999999999
++G gamma 3.0854 1.961E-5
++B beta+ 8.77E-4 0.00104
++G gamma 5.0056 1.221E-5
+

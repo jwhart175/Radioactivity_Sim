@@ -1,0 +1,28 @@
+# 76RB    76SR EC DECAY (8.9 S)         1993AD12,1992GR09         95NDS    199503
+#  76SR EC DECAY (8.9 S)         1993AD12,1992GR09         95NDS    199503
+#H TYP=FUL$AUT=BALRAJ SINGH$CIT=NDS 74,63 (1995)$CUT=22-Dec-1994$         
+#  1993Ad12: measured G, GG                                               
+#  1992Gr09: measured G                                                   
+#  Source of 76SR produced by ^Nb(p,x) E=600 MEV                          
+#  followed by mass separation (1993Ad12,1992Gr09)                        
+#G E,RI$From 1993Ad12 unless otherwise stated. 1992Gr09 report 5 G's at   
+#G 102, 375, 414, 477, and 1174                                           
+#L E$From least squares fit to EG's                                       
+#L J$From adopted levels                                                  
+#E           The EC,B+ feedings are given as upper limits only since      
+#E it is possible that additional higher energy levels are populated      
+#E in this decay which would reduce the feedings given here               
+#G E(B)$Unresolved from strong G+- line                                   
+#G E(D),RI(D)$G reported by 1992Gr09 only. 1993Ad12 point out that 1174G  
+#G from 76SR EC decay could not be confirmed due to the presence of a     
+#G 1174.0G from 76RB EC decay and a background 1173.2G from 60CO. The GG  
+#G data of 1993Ad12 were limited to energy range of 1100                  
+#G M(E)$Intensity balance at 101 level gives ICC LT 0.6 which implies     
+#G MR(E2/M1) LT 1. However, G(THETA) and intensity balance in (HI,XNG)    
+#G are consistent with mult=dipole                                        
+#P  0.0          0+                 8.9 S  3               6090     SY    
++B beta+ 2.116 0.67
++B beta+ 2.097 0.045
++B beta+ 1.872 0.25
++B beta+ 1.732 0.11
+

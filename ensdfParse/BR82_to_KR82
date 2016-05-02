@@ -1,0 +1,123 @@
+# 82KR    82BR B- DECAY (35.282 H)      1994GO12,1983ME08         03NDS    200305
+#  82BR B- DECAY (35.282 H)      1994GO12,1983ME08         03NDS    200305
+#H TYP=FUL$AUT=J. K. Tuli$CIT=NDS 98, 209 (2003)$CUT=15-Jan-2003$         
+#  1994GO12: Measured G (HPGE, FWHM=1.8 at 1332), XK (SILI, FWHM=0.18 at  
+#  5.96), CE (s, FWHM=1.8 at 624.5), GG, GG(THETA)                        
+#  1983Me08: Measured EG, RI, GG, GELI                                    
+#  1979Gr01: Precision measurement of EG, GELI                            
+#  1977Ge12: Precision measurement of RI, GELI                            
+#  1977CA26: Measured anisotropy of G's emitted by oriented nuclei.       
+#            DEDUCED MR                                                   
+#  1958Be81, 1956Wa24: Measured CE, S.                                    
+#  Deduced ECC.                                                           
+#  Others: 1980So06, 1971Ge07, 1970Me02, 1969Li14.                        
+#B IB$FROM INTENSITY IMBALANCE                                            
+#G $For summary of their and previous GG(THETA) measurements see 1994GO12 
+#G $Measured E(XK(ALPHA))=12.6, I(X RAY)=0.370 12; E(XK(BETA))=14.2       
+#G I(X RAY)=0.052 8 (1994GO12)                                            
+#G E$From 1983Me08, unless noted otherwise. The agreement of              
+#G 1983Me08 with the precision measurements of 1979Gr01 and 1977Ge12      
+#G is excellent. Values also consistent with                              
+#G curved-crystal measurement of 1972Ga37.                                
+#G RI$FROM 1994GO12. THEIR VALUES ARE, IN GENERAL, GOOD AGREEMENT WITH    
+#G those of 1980SO06, 1983ME08                                            
+#G M$From CE and GG(THETA) MEASUREMENTS (1994GO12)                        
+#G MR$FROM 1994GO12.                                                      
+#G TI        Deduced from intensity balance.                              
+#G E(A)      From 1979Gr01.                                               
+#G E(C)$FROM 1994GO12. 214.8G, 1395.2G NOT SEEN BY OTHERS.                
+#G UNCERTAINTY ASSUMED BY EVALUATOR                                       
+#L E$FROM LEAST-SQUARES FIT TO EG                                         
+#L J$FROM ADOPTED LEVELS                                                  
+#P 0           5-                35.282 H  7              3092.6    15    
+BR82 KR82 beta- 3.0926 127015.19999999998 1.0
++G gamma 0.2803 2.4186E-4
++G gamma 0.4703 3.9197999999999994E-4
++G gamma 0.9321 1.1675999999999999E-4
++G gamma 0.776517 0.834
++B beta- 0.62791 0.006999999999999999
++G gamma 0.698374 0.282726
++G gamma 1.4748800000000002 0.16596599999999997
++B beta- 0.47408999999999996 0.009000000000000001
++G gamma 1.0440019999999999 0.282726
++B beta- 0.41501 1.0E-4
++G gamma 1.1801 0.00107586
++G gamma 1.9567999999999999 3.7529999999999996E-4
++B beta- 0.37792000000000003 0.001
++G gamma 0.1374 9.0072E-4
++G gamma 0.27348 0.008006399999999999
++G gamma 0.619106 0.43534799999999996
++G gamma 1.317473 0.267714
++B beta- 0.3241 2.3E-4
++G gamma 0.21480000000000002 1.0842E-4
++G gamma 1.3951 1.1675999999999999E-4
++G gamma 0.3329 1.5011999999999998E-4
++G gamma 0.6063 0.012259799999999998
++G gamma 0.95202 0.0036696000000000003
++G gamma 1.65037 0.007506
++B beta-0.221 0.06
++G gamma 1.0729000000000002 7.505999999999999E-4
++B beta-0.174 0.06
++G gamma 0.12929 1.4178E-4
++G gamma 0.5995 1.6680000000000002E-4
++G gamma 0.73564 6.755400000000001E-4
++G gamma 1.0812899999999999 0.0065886
++G gamma 1.77966 0.00111756
++B beta-0.17161 0.06
++G gamma 0.09219 0.0072558
++G gamma 0.10089000000000001 6.755400000000001E-4
++G gamma 0.22147999999999998 0.022601399999999997
++G gamma 0.554348 0.710568
++G gamma 0.827828 0.240192
++G gamma 1.174 6.8388E-4
++G gamma 1.8716 4.920599999999999E-4
++B beta-0.13778 0.05
++G gamma 0.17980000000000002 1.6680000000000002E-4
++G gamma 0.40116 8.9238E-4
++G gamma 0.7341 8.340000000000001E-5
++G gamma 1.00759 0.0127602
++B beta- 0.04735 8.999999999999999E-5
++G gamma 1.0999 9.174E-5
+
+# 82KR    82BR B- DECAY (6.13 M)        1983ME08                  03NDS    200305
+#  82BR B- DECAY (6.13 M)        1983ME08                  03NDS    200305
+#H TYP=FUL$AUT=J. K. Tuli$CIT=NDS 98, 209 (2003)$CUT=15-Jan-2003$         
+#B IB$From intensity imbalance.                                           
+#G           1983Me08: GE(LI), measured EG, RI, GG.                       
+#G           Other: 1970Ra38.                                             
+#L J         From adopted levels.                                         
+#L E$From least-squares fit to EG                                         
+#P 45.9492   102-                6.13 M    5              3092.6    15    
+BR82 KR82 beta- 3.0926 367.8 0.024
++G gamma 1.1734 2.16E-6
++B beta- 1.3414000000000001 0.021
++B beta- 0.971 0.0022
++G gamma 0.77652 0.10800000000000001
++B beta- 0.6487 4.9E-4
++G gamma 0.69837 0.014147999999999999
++G gamma 1.4748800000000002 0.0082512
++B beta- 0.6582 1.4E-5
++G gamma 0.7112 7.344000000000001E-4
++B beta- 0.4347 5.6E-5
++G gamma 1.18027 0.0016416
++G gamma 1.95675 6.912E-4
++B beta- 0.37589999999999996 3.0E-5
++G gamma 0.61909 9.72E-4
++G gamma 1.31744 4.644E-4
++B beta- 0.3648 5.0E-7
++G gamma 1.3951 2.16E-5
++B beta- 0.21830000000000002 5.3E-6
++G gamma 1.70319 1.188E-4
++G gamma 2.4796 1.0044E-4
++B beta- 0.192 2.1E-5
++G gamma 1.07299 8.532E-4
++G gamma 1.771 3.24E-5
++B beta- 0.21159999999999998 4.7E-6
++G gamma 0.7356 1.404E-5
++G gamma 1.0812899999999999 1.8360000000000002E-4
++B beta- 0.1517 1.11E-5
++G gamma 1.1685 1.5120000000000002E-4
++G gamma 1.18095 1.0800000000000001E-4
++G gamma 1.8795 1.728E-4
++G gamma 2.656 3.0240000000000002E-5
+

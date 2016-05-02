@@ -1,0 +1,62 @@
+#251FM    255NO A DECAY                 2011AS03,2006HE20         13NDS    201309
+#  255NO A DECAY                 2011AS03,2006HE20         13NDS    201309
+#H TYP=FUL$AUT=E. BROWNE, J. K. TULI$CIT=NDS 114, 1041 (2013)$            
+#H CUT=1-Jan-2012$                                                        
+#  2011As03: {+255}No produced by the {+248}Cm({+12}C,5n) reaction with   
+#  E({+12}C)=77 MeV from the 20-MeV tandem accelerator at Japan Atomic    
+#  Energy Agency (JAEA). Reaction products were thermalized in He gas and 
+#  deposited onto a polyethylene terephthalate. Two Si PIN photodiode     
+#  detectors for detecting |a-particles (6 for |a fine structure          
+#  measurements) and two Ge detectors behind the Si detectors for         
+#  detecting |g rays. Measured E|g, I|g, |a|g-coin, |a|g|g-coin, |a fine  
+#  structure. Deduced levels, J, |p, T{-1/2}.                             
+#                                                                         
+#  2006He20: {+255}No produced in the following reactions:                
+#  {+208}Pb({+48}Ca,n)  E=4.45 MeV/nucleon; {+238}U({+22}Ne,5n)           
+#  E=5.2 MeV/nucleon; {+209}Bi({+48}Ca,2n){+255}Lr E=4.55 MeV/nucleon,    
+#  followed by |e decay to {+255}No. Residues separated by SHIP velocity  
+#  filter and implanted into PIPS (stop) detector at GSI facility.        
+#  Measured |a, |g, |g|g coin, |a|g coin. Alpha particles measured with   
+#  a PIPS detector, |g rays measured with a 'Clover' detector consisting  
+#  of four Ge crystals. Prompt and delayed |a|g, |a|g|g coin.             
+#  Main contaminant: {+254}No.                                            
+#  Others: 2008An16, 2006Ni10, 2004Fo08, 2004Mo14, 2004Mo27, 2004Mo40,    
+#  2004Mo43, 2003Gi05, 1971Di03, 1971BeYR, 1970Es02.                      
+#A IA$ Intensities are per 100 |a decays of {+255}No. The                 
+#A evaluators have multiplied the relative |a intensities                 
+#A by a factor of 0.297, deduced in 2011As03 from the analysis of         
+#A the {+255}No decay chain.                                              
+#A HF        Calculated by evaluators using R0=1.4708, average of         
+#A R0(250FM)=1.465 7 and R0(252FM)=1.4765 (19) (1998Ak04).                
+#G E$Weighted average of values in 2011As03 and 2006He20.                 
+#G RI$From 2011As03                                                       
+#L E$From a least-squares fit to gamma-ray energies                       
+#L E(A)$ Level energy deduced from relative energies of the E|a from      
+#L the excited state and E|a to the g.s. It should be noted that          
+#L difference in the relative |a energies in the spectrum is known        
+#L to a better precision than the difference obtained from absolute       
+#L values of |a energies (priv comm from the first author Feb 7, 2011).   
+#L No |g rays have been reported                                          
+#L E(X)$ Intense L-x rays in coin with |a particles suggests              
+#L that the level decays by highly converted low-energy |g rays.          
+#L J$ As assigned in 2011As03 based on systematics of spin values in      
+#L neighboring nuclides, |g-ray multipolarities, |a-decay hindrance       
+#L factors and rotational-band structure.                                 
+#L T$ From |a|g(t), unless otherwise noted.                               
+#L BAND(B)$ ROTATIONAL BAND |n9/2[734]                                    
+#L BAND(C)$ ROTATIONAL BAND |n5/2[622]                                    
+#L BAND(D)$ ROTATIONAL BAND |n1/2[631]                                    
+#L BAND(E)$ ROTATIONAL BAND |n1/2[620]                                    
+#P 0.0         1/2+              3.52 M    21             8428      3     
+NO255 FM251 alpha 8.428 211.2 0.30
++A alpha 8.296 0.012
++A alpha 8.233 0.069
++A alpha 8.1 0.297
++A alpha 8.057 0.10300000000000001
++A alpha 8.001 0.068
++A alpha 7.909 0.166
++A alpha 7.842 0.043
++A alpha 7.748 0.184
++A alpha 7.726 0.027000000000000003
++A alpha 7.702 0.027000000000000003
+

@@ -1,0 +1,94 @@
+# 88KR    88BR B- DECAY                 1986SK02,1980HO03         14NDS    201401
+#  88BR B- DECAY                 1986SK02,1980HO03         14NDS    201401
+#H TYP=FUL$AUT=E.A. McCutchan and A.A. Sonzogni$CIT=NDS 115, 135 (2014)$  
+#H CUT=1-Nov-2013$                                                        
+#  1986Sk02: {+88}Br activity produced in {+235}U(p,F), E(n)=thermal and  
+#  separated using fast chemical methods. Measured E|g, I|g, |g|g, |g(t)  
+#  using HPGe detector and Ge(Li) detectors.  Generally, the decay        
+#  scheme of 1986Sk02 is adopted; however, some |g's mismatch the level   
+#  energy difference by several standard deviations. These |g's are       
+#  denoted as questionable by the evaluators and not included in the      
+#  adopted gammas.                                                        
+#  1980Ho03:  {+88}Br activity produced in {+235}U(p,F), E(n)=thermal     
+#  and separated by the OSIRIS mass separator. Measured E|g, I|g, |g|g    
+#  with two Ge(Li) detectors and I(n) with 30 parallel coupled {+3}He     
+#  detectors.                                                             
+#  Others: 2011Ta26, 1983Me17, 1977Pf01, 1976Sl04, 1975Hu02               
+#  A total energy release of 7900 keV {I400} is calculated by the code    
+#  RADLST, which can be compared to the decay Q value of 8975 keV {I4}.   
+#  Note that about 6% absolute intensity is unplaced in the decay scheme. 
+#B IB$From gamma ray intensity balance                                    
+#G E$1986Sk02 report |DE<0.1 keV for E<4000 keV and |DE<0.3 keV for       
+#G E>4000 keV. These uncertainties are underestimated as indicated by     
+#G the energy sum relations. Therefore, the energies of 1980Ho03 are      
+#G adopted whenever possible. For the energies of 1986Sk02, |DE has been  
+#G increased to |DE=0.1 keV for E<2000 keV, |DE=0.3 keV for E<4000 keV,   
+#G |DE=0.5 keV for E>4000 keV.                                            
+#G E,RI$From 1986Sk02, except where noted.                                
+#G E(D,E)$Probably misplaced by 1986Sk02 since |g does not fit into the   
+#G level scheme.                                                          
+#G E(H)$Placed by 1980Ho03 since level is known from (t,p).               
+#G M$From the Adopted Gammas.                                             
+#G E(a)$From 1980Ho03                                                     
+#L E$From a least-squares-fit to E|g by evaluators.                       
+#L J$From the Adopted Levels.                                             
+#  CC$FROM BrIcc v2.3a (30-Jun-2013) 2008Ki07, "Frozen Orbitals" appr.    
+#P 0.0          (2-)              16.34 S   8              8975     4     
++B beta- 4.1531 0.11
++B beta- 3.7789 0.087
++B beta- 3.3912 0.054000000000000006
++B beta- 3.3553 0.013999999999999999
++B beta- 3.0823 0.031
++B beta- 3.0213 0.027999999999999997
++B beta- 3.0077 0.0040999999999999995
++B beta- 2.9165 0.0024
++B beta- 2.8817 0.0271
++B beta- 2.8718000000000004 0.0147
++B beta- 2.8072 0.0054
++B beta- 2.7861 0.0189
++B beta- 2.7635 0.024700000000000003
++B beta- 2.7373000000000003 0.0154
++B beta- 2.7294 0.0359
++B beta- 2.6814 0.010700000000000001
++B beta- 2.6483000000000003 0.0028000000000000004
++B beta- 2.6241 0.013300000000000001
++B beta- 2.6045 0.0059
++B beta- 2.5428 0.0044
++B beta- 2.5406999999999997 0.0036
++B beta- 2.538 0.0016
++B beta- 2.5281 0.0127
++B beta- 2.51 0.0235
++B beta- 2.36 0.0194
++B beta- 2.3306999999999998 0.0079
++B beta- 2.1966 0.003
++B beta- 2.1715 0.005699999999999999
++B beta- 2.0903 0.0124
++B beta- 2.0810999999999997 0.0029
++B beta- 1.9498 0.0060999999999999995
++B beta- 1.9484000000000001 0.032799999999999996
++B beta- 1.9321 0.0161
++B beta- 1.8788 0.055999999999999994
++B beta- 1.7749000000000001 0.047
++B beta- 1.745 0.0206
++B beta- 1.7287000000000001 0.0169
++B beta- 1.7044000000000001 0.0058
++B beta- 1.6958 0.0085
++B beta- 1.6084 0.011899999999999999
++B beta- 1.5275 0.0039000000000000003
++B beta- 1.5005 0.0181
++B beta- 1.4968 0.0021
++B beta- 1.4377 0.0078000000000000005
++B beta- 1.4061 0.0019
++B beta- 1.3904 6.0E-4
++B beta- 1.3005 0.008100000000000001
++B beta- 1.273 0.009399999999999999
++B beta- 1.2708 0.008100000000000001
++B beta- 1.2655999999999998 0.0102
++B beta- 1.2438 0.0011
++B beta- 1.2263 0.0076
++B beta- 1.1502999999999999 0.0104
++B beta- 1.0055 0.0044
++B beta- 0.9217000000000001 0.001
++B beta- 0.9032 0.0043
++B beta- 0.7913 0.0027500000000000003
+

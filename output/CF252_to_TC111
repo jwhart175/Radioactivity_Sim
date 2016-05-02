@@ -1,0 +1,17 @@
+#111TC    252CF SF DECAY                2006LU12                  09NDS    200905
+#  252CF SF DECAY                2006LU12                  09NDS    200905
+#H TYP=FUL$AUT=Jean Blachot$CIT=NDS 110, 1239 (2009)$CUT=1-Feb-2008$      
+#  Measured E|g, I|g, |g|g using Gammasphere array composed of 102        
+#  Compton-suppressed Ge detectors.                                       
+#L E$From least-squares fit to E|g's; |DE|g=0.3 keV assumed for           
+#L each transition.                                                       
+#L J$ As proposed by 2006Lu12 based on band assignment,                   
+#L systematics and model predictions. The assignments are the same        
+#L in 'adopted levels', except that parentheses have been added           
+#L due to lack of strong arguments.                                       
+#L BAND(A)$ |a=+1/2                                                       
+#L BAND(a)$ |a=-1/2                                                       
+#L BAND(B)$ K+2, satellite band                                           
+#P 0.0         0+                2.645 Y   8                              
+CF252 TC111 SF 0.0 8.346802377600001E7 1.0
+

@@ -1,0 +1,24 @@
+#178RE    178OS EC DECAY                1972BE89,1970AR15         09NDS    200907
+#  178OS EC DECAY                1972BE89,1970AR15         09NDS    200907
+#H TYP=FUL$AUT=E. Achterberg, O.A. Capurro, G.V. Marti$                   
+#H CIT=NDS 110, 1473 (2009)$CUT=31-May-2008$                              
+#  Measured E|g, I|g. Detectors: Ge(Li), scin. |g rays reported by        
+#  1970Ar15 may belong to {+178}Os or {+179}Os. No decay scheme has been  
+#  proposed.                                                              
+#G RI        Average from 1972Be89 and 1970Ar15.                          
+#G E         From 1970Ar15, unless otherwise specified.                   
+#G E(A)      Reported by 1970Ar15 only.                                   
+#G E(B)      Reported by 1972Be89 only.                                   
+#P 0.0         0+                5.0 M     4              2110      30    
+OS178 RE178 beta+ 2.11 300.0 1.0
++G gamma 0.32 0.05
++G gamma 0.3508 0.3
++G gamma 0.413 0.3
++G gamma 0.5331 0.61
++G gamma 0.548 0.17
++G gamma 0.5518 0.425
++G gamma 0.5946 1.0
++G gamma 0.685 0.9
++G gamma 0.745 0.4
++G gamma 0.9687 1.38
+

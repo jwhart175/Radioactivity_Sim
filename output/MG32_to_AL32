@@ -1,0 +1,30 @@
+# 32AL    32MG B- DECAY (86 MS)         2004GR08,1984GU19         11NDS    201109
+#  32MG B- DECAY (86 MS)         2004GR08,1984GU19         11NDS    201109
+#H TYP=FUL$AUT=CHRISTIAN OUELLET, BALRAJ SINGH$CIT=NDS 112, 2199 (2011)$  
+#H CUT=24-Aug-2011$                                                       
+#  2004Gr08: source of {+32}Mg from fragmentation of {+36}S beam          
+#  with Be target at GANIL. Measured E|g, I|g, |g|g, delayed neutrons     
+#  1984La03, 1984Gu19: {+32}Mg produced by Ir(p,X) at 10 GeV proton       
+#  energy at CERN-ISOLDE facility. Measured E|g, I|g, |b|g|g, |bn coin,   
+#  isotopic half-life                                                     
+#  Others:                                                                
+#  1999YoZW: {+32}Mg from {+9}Be,{+181}Ta({+48}Ca,X) E=70 MeV/nucleon,    
+#  measured half-life and delayed neutron probability                     
+#  1993Kl02: source of {+32}Mg from U(p,X) at 600 MeV. Measured           
+#  E|g, |g|g. Three |g rays of 735.5, 2466.9 and 2765.3 keV               
+#  with coincidence relationship between 735|g and 2467|g established     
+#  1979De02: two observed |g rays of 731 {I2} (I|g=36 15) and 2750 {I5}   
+#  (I|g=100) possibly were from decay of {+32}Mg                          
+#  All data are from 2004Gr08, unless otherwise stated                    
+#  From RADLIST code, deduced energy balance=9207 keV {I84} as compared   
+#  to 9592 keV {I96} from Q value and branching of 94.5% for population   
+#  of levels in {+32}Al by |b{+-} decay                                   
+#B IB$ From 2004Gr08                                                      
+#G E(A)$ From 1984Gu19. Corresponding value in 2004Gr08 is in             
+#G agreement but less precisely quoted                                    
+#L E$ From least-squares fit to E|g's, assuming 1 keV uncertainty when    
+#L not stated                                                             
+#L J$ From Adopted Levels                                                 
+#P 0           0+                86 MS     5              10150     90    
+MG32 AL32 beta- 10.15 0.086 1.0
+

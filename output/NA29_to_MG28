@@ -1,0 +1,19 @@
+# 28MG    29NA B-N DECAY                1987BA46                  13NDS    201310
+#  29NA B-N DECAY                1987BA46                  13NDS    201310
+#H TYP=FUL$AUT=M. Shamsuzzoha Basunia$CIT=NDS 114, 1189 (2013)$           
+#H CUT=1-Apr-2013$                                                        
+#  Other: 1984Gu19                                                        
+#  1987Ba46: 29NA was produced by bombarding a uranium carbide target with
+#  a proton beam, E=600 MeV, from the ^CERN synchrocyclotron; Na atoms    
+#  were ionized and mass separated; a thin cylindrical B detector, an     
+#  HPGe, 2 BaF{-2} detectors, 2 plastic scintillators for neutron         
+#  detection; Measured: EG, RI, B-G COIN, GG COIN, neutron energy by      
+#  time-of-flight, intensity of neutron emission.                         
+#G E,RI$From 1987Ba46. RI: relative to RI(2560.2G)=100 in 29MG            
+#L E$From a least-squares fit to G-ray energies.                          
+#L J,T$From Adopted Levels.                                               
+#P 0.0         3/2+              44.1 MS   9              9627      8     
+NA29 MG28 neutron&beta- 9.627 0.0441 1.0
++G gamma 1.474 0.184
++G gamma 2.3898 0.006
+

@@ -1,0 +1,50 @@
+# 62FE    62MN B- DECAY (92 MS)                                   12NDS    201205
+#  62MN B- DECAY (92 MS)                                   12NDS    201205
+#H TYP=FUL$AUT=ALAN L. NICHOLS, BALRAJ SINGH, JAGDISH K. TULI$            
+#H CIT=NDS 113, 973 (2012)$CUT=15-Apr-2012$                               
+#  The decay scheme is from D. Pauwels et al. (U. Leuven), priv. comm.    
+#  received by the evaluators on March 29, 2012. Experiments performed at 
+#  CERN-ISOLDE facility using RILIS ion source. An 815-keV |g is seen     
+#  clearly in coincidence with the 877-keV |g ray. These data are still   
+#  undergoing analysis, however, the 1692 level is firmly assigned.       
+#  The decay scheme is incomplete                                         
+#L J$From Adopted Levels                                                  
+#P 0+X          (1+)              92 MS    13             10697.1   38    
+MN62 FE62 beta- 10.6971 0.0 1.0
+
+# 62FE    62MN B- DECAY (671 MS)        2010HO13,1983RU06         12NDS    201205
+#  62MN B- DECAY (671 MS)        2010HO13,1983RU06         12NDS    201205
+#H TYP=FUL$AUT=ALAN L. NICHOLS, BALRAJ SINGH, JAGDISH K. TULI$            
+#H CIT=NDS 113, 973 (2012)$CUT=15-Apr-2012$                               
+#  2010Ho13: {+62}Mn formed in {+238}U({+64}Ni,X) reaction at             
+#  E=430 MeV beam provided by ATLAS facility at Argonne. Target=          
+#  55 mg/cm{+2}. Measured E|g, I|g, |g|g, |g|g(|q) using                  
+#  GAMMASPHERE array of 100 Compton-suppressed HPGe detectors.            
+#  Comparisons made with shell-model calculations using {Ipf} and {Ipfg}  
+#  basis space. Comparison with level structures of {+54}Fe, {+56}Fe,     
+#  {+58}Fe, {+60}Fe, and {+64}Fe                                          
+#  1983Ru06: 62MN produced in the reaction: W(76GE,X) at E=9 MeV/nucleon. 
+#  EG, RI, BG- and GG-coin. measurements were made; only one activity     
+#  with half-life of 880 ms {I150} reported with proposed J|p=3+          
+#  Data are from 2010Ho13, unless otherwise stated                        
+#  There is no evidence of any contribution from (1+), 92-ms activity     
+#  in the data presented by 2010Ho13, thus the evaluators assume that     
+#  that only the 671-ms isomer contributes to this decay scheme           
+#  Total decay energy of 11666 keV {I362} deduced (by RADLIST code) from  
+#  proposed decay scheme is in agreement with the expected value of       
+#  10697 keV {I4}, indicating that decay scheme is fairly complete        
+#B IB$ Deduced by the evaluators from intensity balance at each level,    
+#B and should be treated as approximate values since there may be missing 
+#B gamma transitions from possible levels above 4.1 MeV. Note that there  
+#B is (non-physical) negative |b feeding of -11 {I4} to the 877.3 level   
+#B LOGFT$ Values are considered as tentative since there may be some      
+#B missing |g transitions from possible levels above 4.1 MeV. No J|p      
+#B assignments are made based on these log {Ift} values.                  
+#G E,RI$ From 2010Ho13                                                    
+#G M$ From Adopted Gammas. Several multipolarities are assigned in        
+#G 2010Ho13 which seem implied simply on initial and final J|p values     
+#L E$From least-squares fit to E|g data                                   
+#L J$From Adopted Levels                                                  
+#P 0+Y          (4+)              671 MS   5              10697.1   38    
+MN62 FE62 beta- 10.6971 0.0 1.0
+

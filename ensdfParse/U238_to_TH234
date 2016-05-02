@@ -1,0 +1,17 @@
+#234TH CA IA        ALPHA intensities per 100 238U A DECAYS,                     
+#A IA        ALPHA intensities per 100 238U A DECAYS,                     
+#A deduced from G-ray transition intensities. IA's were                   
+#A measured by 1959Ko58. Although I(4198A) and I(4151A) of                
+#A 1959Ko58 are in good agreement with the values given here,             
+#A I(4038) is not.                                                        
+#A HF        HF(4198A)=1.0 yields R0(234TH)=1.535 2.                      
+#G RI        From 1984Ro21.                                               
+#L E,J       Adopted values.                                              
+#P 0.0         0+                4.468E+9 Y3              4269.7    29    
+U238 TH234 alpha 4.269699999999999 1.409962685184E17 1.0
++A alpha 4.198 0.79
++A alpha 4.151 0.209
++G gamma 0.04955 6.4E-4
++A alpha 4.038 7.8E-4
++G gamma 0.1135 1.0200000000000001E-4
+

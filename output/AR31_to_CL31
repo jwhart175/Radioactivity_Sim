@@ -1,0 +1,70 @@
+# 31CL    31AR EC DECAY (14.4 MS)       2000FY01,1998AX02         13NDS    201303
+#  31AR EC DECAY (14.4 MS)       2000FY01,1998AX02         13NDS    201303
+#H TYP=FUL$AUT=CHRISTIAN OUELLET AND BALRAJ SINGH$CIT=NDS 114, 209 (2013)$
+#H CUT=15-Feb-2013$                                                       
+#  Most studies deal with measurement of delayed protons following        
+#  |e+|b{++} decay. No |g-rays are observed in the decay of               
+#  {+31}Ar to {+31}Cl since the first excited state is                    
+#  unbound towards proton emission.                                       
+#  2009WR03: in the analysis of 30S(P,G)31CL reaction rates they refer    
+#  to two resonances in 31CL at 461 15 and 1462 5, apparently from beta   
+#  decay experiments of 1998AX01. It should be noted however that         
+#  the so-called first excited state at 754 (resonance at 461) is         
+#  non-existent in the most recent work from the authors of 1998AX01.     
+#  Although a level is expected from mirror arguments.                    
+#  2000FY01: 31AR from 1 GEV protons bombarding ^Ca^O target.             
+#  Measured protons, |bp and |bpp coin, pp energy correlations.           
+#  15 p-i-n diodes, a double sided Si strip and surface barrier detector  
+#  used to distinguish p from |b and measure protons, p|b, |bpp coin. A   
+#  ^HPGe was also used for |g-ray detection. 1999Fy01 from the same group 
+#  measured upper limit of delayed three-proton decay mode. See also      
+#  2002Bo29, 2002Fy01 and 1999Th09                                        
+#  1998Ax02 (from same group as 2000Fy01): measured E(p), I(p), |bp coin, 
+#  |b2p coin, |b|g coin.  See 2000Fy01 for details                        
+#  1998Ax01 (from same group as 2000Fy01): mainly on measurement of       
+#  two-proton emission from 31AR decay; three proton groups reported. See 
+#  2000Fy01 for details. 1998Mu06 is a conference report from the         
+#  same group.                                                            
+#  1992Ba01:{+36}Ar({+58}Ni,X) 85 MeV/nucleon at GANIL; LISE spectrometer 
+#  selected out the {+31}Ar which was implanted in a Si detector.         
+#  Additional Si telescopes allowed measurement of |bp and |bpp coin.     
+#  Other papers by the same group: 1987Bo36, 1991Bo32. It appears         
+#  that there is an energy shift of as much as 400 keV between the        
+#  spectra of 1992Ba01 and 2000Fy01, the former being higher. A proton    
+#  peak at 9260 keV reported in 1992Ba01 possibly corresponds to          
+#  8860 keV group in 2000Fy01                                             
+#  1990Bo24: 31AR produced by 600-MEV protons bombarding ^Ca^O target.    
+#  Mass separation measured E(p) and |bp coin and pp coin. No evidence    
+#  found for two-proton decay                                             
+#  All data given here are from 2000Fy01, unless otherwise stated.        
+#  MEASURED (LAB) PROTON ENERGIES AND RELATIVE (100 FOR 2084 KEV GROUP    
+#  FROM 2444 LEVEL IN 31CL) PROTON BRANCHES DEEXCITING 31CL LEVELS FROM   
+#  2000FY01 ARE GIVEN UNDER                                               
+#  COMMENTS. ABSOLUTE BRANCHES CAN ^be OBTAINED USING A MULTIPLICATIVE    
+#  FACTOR OF 0.26 3. THIS NORMALIZATION FACTOR IS FROM WEIGHTED           
+#  AVERAGED ABSOLUTE INTENSITY OF 29% 3 FOR 2008+2084 UNRESOLVED          
+#  GROUP MEASURED BY 1992BA01 AND 1991BO32                                
+#E TI$ From 2000Fy01, deduced from summed proton branches, normalization  
+#E factor of 0.26 3 is used to convert relative intensities to            
+#E absolute intensities. The evaluators have added 10% in quadrature to   
+#E the uncertainties for feedings to 2444 level since 2000Fy01            
+#E did not seem to account for the uncertainty in the normalization       
+#E factor of 0.29 3 from 1992Ba01 and 1991Bo32. It should be noted that   
+#E 15% 8 of the delayed-proton decay branch is still unaccounted for.     
+#L E$ Values given in 2000Fy01 based on Ep(c.m.)+S(p)({+31}Cl), where     
+#L S(p)=290 {I50} (2003Au03) was used. These values have been adjusted by 
+#L the evaluators using S(p)=282.8 {I44} (IMME analysis and IAS,2011SaZM).
+#L Other S(p) values: 284 {I7} (2009Wr03,IMME analysis), 300 {I50}        
+#L (2012Ba38). 1998Ax02 (from the same experimental group                 
+#L as 2000Fy01) proposed many additional levels based on their observed   
+#L proton branches, but 2000Fy01 state that several assignments in        
+#L 1998Ax02 of proton groups to corresponding levels in {+31}Cl were      
+#L incorrect since the two-proton branches were not appropriately         
+#L considered. Some proton branches (446, 754, 844, 974, 4466 and 4624    
+#L keV) listed in table 3 of 1998Ax02 were not reported by 2000Fy01.      
+#L The evaluators assume that data in 2000Fy01 supersede those            
+#L in 1998Ax02.                                                           
+#L J$ From Adopted Levels                                                 
+#P 0           5/2+              14.4 MS   6              18.49E3   10    
+AR31 CL31 beta+ 18.49 0.0144 1.0
+

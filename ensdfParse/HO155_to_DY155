@@ -1,0 +1,29 @@
+#155DY    155HO EC DECAY                1979AB18,1979AL31         05NDS    200501
+#  155HO EC DECAY                1979AB18,1979AL31         05NDS    200501
+#H TYP=FUL$AUT=C. W. REICH$CIT=NDS 104, 1 (2005)$CUT=1-Jun-2004$          
+#  DATA SET MODIFIED (SEPTEMBER, 2003) BY CW REICH TO INCLUDE ADDITIONAL  
+#   COMMENTS AND MODIFY SOME JPI VALUES                                   
+#  Other references: 1972To07, 1972Ki21, 1970To17, 1967Av03               
+#G           1979Ab18 STATE THAT THE INTENSITY OF THE UNPLACED            
+#G  TRANSITIONS IS NOT MORE THAN 12% OF THE 155HO DECAYS.                 
+#G           1979Al31 state that the errors in the ICE values are no more 
+#G than 20%.                                                              
+#G           Normalization of the electron intensity scale, relative to   
+#G that of the |g rays, was accomplished by requiring that EKC=0.0256     
+#G for the prominent 240.19 G, which is the theoretical value for an E1   
+#G transition. An E1 multipolarity for this transition has been           
+#G established from the L-subshell ratios, as measured by, for example,   
+#G 1979Ab18.                                                              
+#G E,RI      From 1979Ab18                                                
+#G RI        I(DY XKA1)=306 30 (1979Ab18).                                
+#G M         Deduced from the EKC data of 1979Ab18, unless noted otherwise
+#G MR        Calculated from the measured L-subshell ratios of 1979Al31,  
+#G unless otherwise noted                                                 
+#G CC        For mixed transitions for which MR is not known, the listed  
+#G value was calculated assuming MR=1                                     
+#L E         Listed values obtained from a least-squares fit to the       
+#L G-ray energies.                                                        
+#L J         FROM ADOPTED VALUES.                                         
+#P 0.0         5/2+               48 M      2             3120      22    
++G gamma 0.24019 0.125
+

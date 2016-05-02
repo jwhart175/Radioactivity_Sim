@@ -1,0 +1,75 @@
+#148TB    148DY EC DECAY                1985ZUZX                  14NDS    201404
+#  148DY EC DECAY                1985ZUZX                  14NDS    201404
+#H TYP=FUL$AUT=N. NICA$CIT=NDS 117, 1 (2014)$CUT=1-Oct-2013$              
+#  Measured: G, CE (1985ZUZX,1985KL05,1975GR35,1975TO03,1974LA32,1974LA28,
+#  \1974GrYZ); G, GG, XKG (1988TO03,1985ZUZX,1985KL05); EC/B+             
+#  (1985SC09,1981SP03,1981SC21); G, BETA, X-RAYS, GAMOW-TELLER RESONANCE  
+#  (TOTAL ABSORPTION SPECTROMETER, 2004AL35;                              
+#  SEE ALSO 2007ESZX,2004ALZY,2003NAZV,2001ALZY)                          
+#  Decay scheme is from 1985ZUZX. SHOWN ALSO IN TABLES ARE DATA FROM      
+#  2004AL35 (TOTAL ABSORPTION SPECTROMETER)                               
+#E           EC/B+=22.2 20, Q+=2680 30 (1985SC09). Others: EC/B+=21.7 39, 
+#E Q+=2652 KEV +65-50 (1981SC21); EC/B+=14.7 27, Q+=2800 60 (1981SP03)    
+#E $^I(EC+B+) AND LOGFT DATA FROM 2004AL35 ARE GIVEN IN COMMENTS IN THE   
+#E TABLE BELOW, TOGETHER WITH SAME DATA FROM 1985KL05 FOR COMPARISON      
+#G RI        I(178.5G+950.6G+1247.3G) AP 2.5% of I(620G) (1988TO03)       
+#G M         From adopted gammas; supported by EKC whose values and       
+#G normalization are not given by authors (1985ZUZX). These are considered
+#G to be tentative especially since there are inconsistencies between JPI 
+#G deduced from LOGFT and multipolarities of G transitions.               
+#L J         Adopted values. Supporting arguments from this data set and  
+#L the assignments by 1985ZUZX are given in comments. Some JPI assignments
+#L by 1985ZUZX are not supported by LOGFT values.                         
+#G CC$FROM BrIcc v2.3a (30-Jun-2013) 2008Ki07, "Frozen Orbitals" appr.    
+#G MR$IF NO VALUE GIVEN IT WAS ASSUMED MR=1.00 FOR E2/M1,                 
+#G MR=1.00 FOR E3/M2 AND MR=0.10 FOR THE OTHER MULTIPOLARITIES            
+#P 0.0         0+                3.3 M     2              2678      10    
+DY148 TB148 beta+ 2.678 198.0 1.0
++B beta+ 0.1925 0.0083
++G gamma 0.10940000000000001 4.8195000000000003E-4
++B beta+ 0.6998 0.0072
++G gamma 0.17830000000000001 0.00520506
++B beta+ 0.6692 0.0073
++G gamma 0.0858 3.8556E-4
++B beta+ 0.6616000000000001 0.0074
++G gamma 0.1023 2.8917E-4
++B beta+ 0.6237 0.0075
++G gamma 0.3396 3.8556E-4
++G gamma 0.442 0.00125307
++G gamma 0.62024 0.9639
++B beta+ 0.474 0.008
++G gamma 0.4621 0.00106029
++G gamma 0.6577999999999999 0.00163863
++B beta+ 0.4575 0.008
++G gamma 0.1369 0.00125307
++G gamma 0.6162000000000001 9.639E-5
++G gamma 0.7948999999999999 0.00202419
++B beta+ 0.3973 0.008100000000000001
++G gamma 0.156 9.639E-5
++G gamma 0.772 9.639E-5
++G gamma 0.9508 0.0038556000000000003
++B beta+ 0.329 0.008199999999999999
++G gamma 0.627 6.7473E-4
++G gamma 1.0689000000000002 7.7112E-4
++G gamma 1.2472 0.0144585
++B beta+ 0.1981 0.0083
++G gamma 1.097 9.639E-5
++G gamma 1.2769000000000001 0.00183141
++B beta+ 8.328E-4 0.0012854
++G gamma 1.3327 0.0014458499999999998
++B beta+ 8.328E-4 0.0012889
++G gamma 1.0854000000000001 3.8556E-4
++G gamma 1.1875 2.8917E-4
++G gamma 1.366 1.9278E-4
++B beta+ 8.327E-4 0.0012909000000000002
++G gamma 0.6919 0.00163863
++G gamma 0.8471000000000001 7.7112E-4
++G gamma 1.6429 9.639E-5
++B beta+ 8.302E-4 0.00131
++G gamma 1.547 9.639E-5
++G gamma 1.6502000000000001 3.8556E-4
++B beta+ 8.274E-4 0.00133
++G gamma 0.89 0.00240975
++G gamma 1.0459 0.0027953099999999996
++G gamma 1.8400999999999998 5.7834E-4
+

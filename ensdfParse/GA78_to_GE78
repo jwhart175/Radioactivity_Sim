@@ -1,0 +1,40 @@
+# 78GE    78GA B- DECAY (5.09 S)        1980LE22,1993CH05         09NDS    200910
+#  78GA B- DECAY (5.09 S)        1980LE22,1993CH05         09NDS    200910
+#H TYP=FUL$AUT=AMEENAH R. FARHAN, BALRAJ SINGH$CIT=NDS 110, 1917 (2009)$  
+#H CUT=30-Jun-2009$                                                       
+#  1980LE22: MEASURED G, GG, T.                                           
+#  1993CH05: MEASURED BGG(T), FAST TIMING TECHNIQUE.                      
+#  OTHERS: 1977AL17, 1977GAZK, 1972MAWL                                   
+#  THE DECAY SCHEME AND GAMMAS ARE FROM THE DETAILED STUDY OF 1980LE22.   
+#  ONLY 10 LEVELS HAVE BEEN REPORTED BY 1993CH05.                         
+#  Data are from 1980Le22 unless otherwise stated                         
+#  Total decay energy of 8238 keV {I310} calculated (by RADLIST code)     
+#  from level scheme is consistent with the expected value of             
+#  8156 keV {I5}                                                          
+#G E(A),RI(A,B)$FROM GG.                                                  
+#G M$ FROM BE2 VALUES AND SYSTEMATIC TRENDS IN THIS REGION (1993CH05)     
+#L E$FROM LEAST-SQUARES FIT to E|g's                                      
+#L J$From 'ADOPTED LEVELS'.                                               
+#L T$FROM BGG(T) (1993CH05).                                              
+#P    0.0       (3+)             5.09 S    5              8156      4     
+GA78 GE78 beta- 8.156 5.09 1
++B beta- 3.4741 0.12
++B beta- 3.1985 0.071
++B beta- 3.0236 0.01
++B beta- 3.0120999999999998 0.06
++B beta- 2.976 0.043
++B beta- 2.8796999999999997 0.028999999999999998
++B beta- 2.6483000000000003 0.063
++B beta- 2.5903 0.047
++B beta- 2.4802 0.134
++B beta- 2.4606 0.043
++B beta- 2.3873 0.046
++B beta- 2.3409 0.027999999999999997
++B beta- 2.2596 0.132
++B beta- 2.1290999999999998 0.03
++B beta- 1.9849 0.019
++B beta- 1.7935999999999999 0.052000000000000005
++B beta- 1.7038 0.032
++B beta- 1.6993 0.027999999999999997
++B beta- 1.3160999999999998 0.013999999999999999
+

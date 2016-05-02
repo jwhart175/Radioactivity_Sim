@@ -1,0 +1,26 @@
+# 84SE    85AS B-N DECAY                1993RU01,1975KR08,1979KR0309NDS    200910
+#  85AS B-N DECAY                1993RU01,1975KR08,1979KR0309NDS    200910
+#H TYP=FUL$AUT=A.A. Sonzogni, M. Fadil, and B. Pfeiffer$                  
+#H CIT=NDS 110,2815 (2009)$CUT=30-Sep-2009$                               
+#  1993Ru01: measured half-life and delayed neutron emission              
+#  probability from mass-separated fission produced activity              
+#  1975Kr08: fast chemical separation of fission products. {+3}He         
+#  counters. Ge(Li) detectors. Neutron spectra measured by 1979Kr03       
+#  1979Kr03: fast chemical separation of fission products. {+3}He         
+#  counters, FWHM=12 keV for thermal neutrons and E=20 keV at 1 MeV.      
+#  Ge(Li) detectors.                                                      
+#  Other measurements: 1991Kr15, 1991Om01, 1991Om02, 1978Cr03,            
+#  1973Kr06, 1968To18, 1968To19, 1967De01, 1966To02                       
+#  Analysis and evaluation of %B-N data: 2002Pf04, 1993Ru01, 1989BrZI,    
+#  1982Ru01, 1977Ru10, 1975Iz03                                           
+#G E(A)$Tentative placement by 1975Kr08 was confirmed in later |b{+-}     
+#G decay study                                                            
+#L E$Deduced from E|g                                                     
+#P 0           (3/2-)            2.021 S   12             4687      4     
+AS85 SE84 neutron&beta- 4.687 2.021 0.65
++G gamma 1.4550999999999998 1.0
++G gamma 0.6671 0.42200000000000004
++G gamma 0.5775 0.06
++G gamma 1.2446 0.04
++G gamma 1.8437000000000001 0.031
+

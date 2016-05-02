@@ -1,0 +1,86 @@
+#101ZR    101Y B- DECAY                 1995LH01,1983WO10         ENSDF    200610
+#  101Y B- DECAY                 1995LH01,1983WO10         ENSDF    200610
+#H TYP=FUL$AUT=JEAN BLACHOT$CIT=ENSDF$CUT=1-Jul-2006$                     
+#  Activity: on-line MS TRISTAN (1983Wo10), JOSEF (1987Oh01), ISOLDE      
+#  (1995Lh01)                                                             
+#  Measured: G, GG, G(T), BG(T)                                           
+#  Level scheme is from 1995Lh01                                          
+#  1995Lh01 have derived an inertial parameter of 19.4 KEV for the 3/2    
+#  g.s. band and 15.3 KEV for the 5/2- band. 1983Wo10 previously          
+#  assigned this band as the [422] NILSSON state, now 1995Lh01 assign it  
+#  as the [532].                                                          
+#G E,RI$From 1995Lh01                                                     
+#G E(C)$Seen only in coincidences                                         
+#G E(D)$Not seen in the projection of coincidence events                  
+#L BAND(A)$THE KPI=3/2+ GS BAND COULD BE THE 3/2 [411]  NILSSON STATE     
+#L BAND(B)$THE KPI=5/2- BAND COULD BE THE 5/2 [532]  NILSSON STATE        
+#P 0.0         (5/2+)            0.45 S    2              8545      90    
+Y101 ZR101 beta- 8.545 0.45 1.0
++G gamma 0.5517000000000001 0.0036
++G gamma 0.6119 0.0048
++G gamma 0.6243 0.0036
++G gamma 0.8467 0.0045
++G gamma 0.8558 0.0045
++G gamma 0.9544 0.003
++G gamma 1.2481 0.0045
++G gamma 0.09820999999999999 0.3
++G gamma 0.11856 0.0363
++G gamma 0.21668 0.3
++G gamma 0.13366999999999998 0.3
++G gamma 0.23191 0.135
++G gamma 0.08935 0.042
++G gamma 0.10443000000000001 0.3
++G gamma 0.22297 0.018299999999999997
++G gamma 0.08744 0.135
++G gamma 0.17643999999999999 0.27599999999999997
++G gamma 0.30998000000000003 0.0078000000000000005
++G gamma 0.14664 0.3
++G gamma 0.2362 0.003
++G gamma 0.25118 0.0027
++G gamma 0.57547 0.015
++G gamma 0.6732 0.013499999999999998
++G gamma 0.423 0.0018
++G gamma 0.52732 0.0195
++G gamma 0.6459 0.0027
++G gamma 0.74402 0.0066
++G gamma 0.66139 0.0432
++G gamma 0.7594500000000001 0.09
++G gamma 0.37810000000000005 0.0015
++G gamma 0.55492 0.018299999999999997
++G gamma 0.5711 0.0036
++G gamma 0.6884 0.0186
++G gamma 0.7865 0.0048
++G gamma 0.48744 0.0108
++G gamma 0.5772 0.0036
++G gamma 0.5921000000000001 0.0072
++G gamma 0.7101000000000001 0.0018
++G gamma 0.80829 0.0066
++G gamma 0.5963999999999999 0.0027
++G gamma 0.72957 0.0186
++G gamma 0.82777 0.0078000000000000005
++G gamma 0.37749 0.0024
++G gamma 0.524 0.0027
++G gamma 0.7467 0.0042
++G gamma 0.64859 0.0243
++G gamma 0.7822 0.0042
++G gamma 0.88036 0.023399999999999997
++G gamma 0.4942 0.0036
++G gamma 0.67067 0.0042
++G gamma 0.8045 0.0033
++G gamma 0.7273 0.0045
++G gamma 0.8608 0.0033
++G gamma 0.9586 0.0042
++G gamma 0.9402 0.008100000000000001
++G gamma 1.0813 0.0051
++G gamma 1.2978900000000002 0.018
++G gamma 1.167 0.0138
++G gamma 1.30026 0.0891
++G gamma 1.3985999999999998 0.0174
++G gamma 1.2977 0.015299999999999998
++G gamma 1.4327999999999999 0.0045
++G gamma 1.5299500000000001 0.013499999999999998
++G gamma 1.9255 0.0147
++G gamma 2.02306 0.0339
++G gamma 1.9847000000000001 0.009
++G gamma 2.0828 0.0039000000000000003
+

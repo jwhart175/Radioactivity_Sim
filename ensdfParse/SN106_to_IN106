@@ -1,0 +1,25 @@
+#106IN    106SN EC DECAY (115 S)        1988BA10,1978VA20         08NDS    200806
+#  106SN EC DECAY (115 S)        1988BA10,1978VA20         08NDS    200806
+#H TYP=FUL$AUT=D. DE FRENNE AND A. NEGRET$CIT=NDS 109, 943 (2008)$        
+#H CUT=1-May-2007$                                                        
+#  1978Va20: {+96}Ru({+16}O,2p4n). Measured: E|g, I, |g|g, |gX. Deduced:  
+#  {+106}In levels, log| {Ift}, J|p                                       
+#  1988Ba10: mass separated activity from {+58}Ni({+58}Ni,6p4n).          
+#  Measured: E|g, I|g |g|g, ce. Deduced {+106}In levels, log| {Ift}, J|p  
+#  Mini-orange spectrometer and several Ge(Li) detectors                  
+#  Others: 1974HsZY, 1975Bu26, 1979Pl06, 1981Bu20                         
+#E $As EC decay energy is 318E+1 KEV and highest detected G only 1.9 MEV  
+#E it might be that the decay scheme is incomplete and therefore the      
+#E results on LOGFT an upper limit.                                       
+#  No details were given as to the G and CE intensity scales              
+#L           Decay scheme from 1988Ba10                                   
+#L J         From adopted levels                                          
+#G E         From 1978Va20                                                
+#G RI        From 1988Ba10. Other: 1978Va20                               
+#G CC        Conversion data from 1988Ba10                                
+#G M         Based on |a(K)exp and |a(L)exp (1988Ba10)                    
+#E IE        From 1988Ba10                                                
+#N 0.29        1.0       1.0       1.0                                    
+#N NR        based on |S((I(|g+ce)) to 28.5)=100                          
+#P 0.0         0+                115 S     5              318E+1    5     
+

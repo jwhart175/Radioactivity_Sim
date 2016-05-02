@@ -1,0 +1,80 @@
+#146BA    146CS B- DECAY                1980SC16                  97NDS    199712
+#  146CS B- DECAY                1980SC16                  97NDS    199712
+#H TYP=ERR$AUT=T. Burrows$COM=added PN record$                            
+#H TYP=FUL$AUT=L. K. PEKER AND J. K. TULI$CIT=NDS 82, 187 (1997)$         
+#H CUT=30-SEP-1997$                                                       
+#  ADDED PN RECORD (TWB. 19990323)                                        
+#  Measured: G, GG, GG(THETA) (1980Sc16,1979Sc24), G(1978BlZY),           
+#  delayed neutrons (1981En05,1979RuZT,1974Ro15), B- (1981Ke07,1981De25), 
+#  BG(1988GrZX,1986Gr11,1982Pa24), BGG(T) (1990Ma25)                      
+#G E(A)      Observed only by 1978BlZY                                    
+#G M,MR      From GG(THETA) and level scheme (1980Sc16)                   
+#B           Measured EB=9300 900, 8100 100 (1981De25); for B- component  
+#B observed in BG see 1982Pa24, 1986Gr11;                                 
+#B Q-=9310 60 (1988GrZX). Others: 9290 75 (1986Gr11),                     
+#B 9340 100 (1981Ke07,1982Pa24)                                           
+#  Contrary to the data on B- population deduced by evaluator             
+#  from balance of IG and presented on the adopted level scheme,          
+#  1982Pa24 from their data on BG conclude that major parts of            
+#  B- populate the levels with E GT 2350 KEV and that there is no B- to   
+#  the 2+, 181-KEV level. For details on EB observed in BG see            
+#  1982Pa24.                                                              
+#L J         Adopted values                                               
+#L J(B)$J deduced from GG(THETA)                                          
+#L T         From 1990Ma25                                                
+#P 0.0         1-                0.321 S   2              9367      37    
+CS146 BA146 beta- 9.367 0.321 1.0
++G gamma 0.7719 0.013999999999999999
++G gamma 0.7955 0.012
++G gamma 0.8088 0.01
++G gamma 0.8168 0.017
++G gamma 0.8211 0.012
++G gamma 0.8472999999999999 0.006999999999999999
++G gamma 0.8616 0.005
++G gamma 0.8679 0.013000000000000001
++G gamma 0.8934099999999999 0.024
++G gamma 0.91715 0.02
++G gamma 0.9441 0.015
++G gamma 1.1288900000000002 0.018000000000000002
++G gamma 1.1587 0.023
++G gamma 1.2178 0.009000000000000001
++G gamma 1.3003 0.009000000000000001
++G gamma 1.4513 0.011000000000000001
++G gamma 1.45634 0.013999999999999999
++G gamma 1.4879 0.02
++G gamma 1.50194 0.023
++G gamma 1.5462 0.003
++G gamma 1.5977999999999999 0.04
++G gamma 1.6565 0.032
++G gamma 1.813 0.013999999999999999
++G gamma 1.981 0.013999999999999999
++G gamma 1.9834 0.009000000000000001
++G gamma 1.9955999999999998 0.005
++G gamma 2.0277 0.008
++G gamma 2.1628000000000003 0.009000000000000001
++G gamma 2.188 0.006
++G gamma 2.344 0.024
++G gamma 2.444 0.013000000000000001
++G gamma 2.567 0.008
++G gamma 0.18102000000000001 1.0
++G gamma 0.33238 0.113
++G gamma 0.55776 0.161
++G gamma 0.73897 0.053
++G gamma 0.3073 0.048
++G gamma 0.64006 0.051
++G gamma 0.8714700000000001 0.027000000000000003
++G gamma 0.93403 0.031
++G gamma 1.11525 0.024
++G gamma 1.07531 0.011000000000000001
++G gamma 1.2561099999999998 0.019
++G gamma 0.7453 0.01
++G gamma 0.82797 0.016
++G gamma 1.0526 0.008
++G gamma 1.38517 0.024
++G gamma 1.5668 0.027999999999999997
++G gamma 0.97668 0.011000000000000001
++G gamma 1.53343 0.01
++G gamma 1.7158 0.027999999999999997
++G gamma 1.7872999999999999 0.012
++G gamma 1.9685 0.040999999999999995
+

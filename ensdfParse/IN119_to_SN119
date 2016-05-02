@@ -1,0 +1,29 @@
+#119SN    119IN B- DECAY (2.4 M)        1973RA17                  09NDS    200910
+#  119IN B- DECAY (2.4 M)        1973RA17                  09NDS    200910
+#H TYP=FUL$AUT=D. M. SYMOCHKO, E. BROWNE, J. K. TULI$                     
+#H CIT=NDS 110,2945 (2009)$CUT=1-Dec-2008$                                
+#  Modified by E. Browne, Nov. 21, 2008                                   
+#  1973RA17: 120SN(G,P) E LT 35 MEV and E LT 150 MEV;                     
+#  122SN(N,A) E=14 MEV; semi G                                            
+#  1976FO02: 235U(N,F) E=TH, on-line mass separation; semi G, CE, GG,     
+#  GG(T)                                                                  
+#  1972JA31: 120SN(G,P) E LT 25 MEV; semi G, GG                           
+#  Others: 1976SC30 semi                                                  
+#G CC$ FROM BrIcc v2.2 (31-Mar-2008) 2008KiAA, "Frozen Orbitals" appr.    
+#G           G rays with EG=943.5 10 (IG=0.093) and 1275.5 10 (IG=0.19 9) 
+#G reported by 1972JA31 were not confirmed by 1973RA17                    
+#G E,RI      From 1973RA17, unless otherwise noted                        
+#G M,MR      From Adopted Gammas                                          
+#G E(A)      Not observed but expected since isomer is fed                
+#G RI(C)     Intensity excludes contribution from decay of 89-KEV level   
+#L J,T       From Adopted Levels                                          
+#P 0           9/2+              2.4 M     1              2363       8    
+IN119 SN119 beta- 2.363 144.0 1.0
++G gamma 0.023871 0.15180000000000002
++B beta- 0.909 0.065
++B beta- 0.594 0.93
++G gamma 0.69747 0.004508000000000001
++G gamma 0.76314 0.92
++B beta- 0.372 0.0042
++G gamma 1.2148599999999998 0.0042320000000000005
+

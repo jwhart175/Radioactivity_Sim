@@ -1,0 +1,36 @@
+#126IN    126CD B- DECAY                1978GA18                  02NDS    200301
+#  126CD B- DECAY                1978GA18                  02NDS    200301
+#H TYP=FUL$AUT=J. KATAKURA AND K. KITAO$CIT=NDS 97, 765 (2002)$           
+#H CUT=5-Apr-2002$                                                        
+#  1975Al11: on-line mass separation, measured total absorption g         
+#  spectra, deduced b strength functions.                                 
+#  1978Ga18: U(N,F) on-line mass separation, semi G, GG                   
+#  1987Sp09: on-line mass separation. Observed BG. B observed with        
+#  hyperpure Ge.                                                          
+#  1986GO10: U(N,F) on-line mass separation, semi G, B                    
+#  The decay scheme is that proposed by 1978Ga18 and is based on EG sums  
+#  and GG-coin. LOGFT value for the B- decay to the 688-KEV level         
+#  is larger than 3.9 which is much smaller than LOGFT value              
+#  in this mass region. If the 260-KEV level is fed by B- decay, spin     
+#  of this level is 1 or 2. Even if the 260-KEV G were E2 or M2, IG would 
+#  increase only by 20%. This value is not large enough to increase LOGFT 
+#  value for the 688-KEV level to normal value. The                       
+#  proposed level scheme, therefore, is thought to be still not complete  
+#  and the evaluators give relative IG.                                   
+#G E         FROM 1978GA18                                                
+#L J         Spin and parity values are those given under adopted         
+#L levels.                                                                
+#P 0.0         0+                0.515 S   17             5486      36    
+CD126 IN126 beta- 5.486 0.515 0.79
++G gamma 0.65308 0.012
++G gamma 0.26009 1.0
++G gamma 0.5554 0.048
++G gamma 0.2774 0.006
++G gamma 0.32530000000000003 0.006
++G gamma 0.5856 0.009000000000000001
++G gamma 0.36582 0.023
++G gamma 0.06293 0.016
++G gamma 0.1028 0.012
++G gamma 0.42811 0.8370000000000001
++G gamma 0.68823 0.059000000000000004
+

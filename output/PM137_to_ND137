@@ -1,0 +1,118 @@
+#137ND    137PM EC DECAY                1975NO08                  07NDS    200709
+#  137PM EC DECAY                1975NO08                  07NDS    200709
+#H TYP=FUL$AUT=E. BROWNE, J. K. TULI$CIT=NDS 108,2173 (2007)$             
+#H CUT=1-Oct-2006$                                                        
+#  Modified by E. Browne (January 9, 2007)                                
+#  Measured: G rays, GG COIN, conversion electrons (1975NO08)             
+#  Others: 1973VAYZ, 1973HAWA, 1973WEZK                                   
+#  Decay scheme is that proposed by 1975NO08                              
+#  Decay scheme normalization and EC feedings have been determined        
+#  by the assumption of no EC decay to levels below 520 KEV.              
+#  The presence of many unplaced G rays suggests,                         
+#  however, that these feedings are not accurate, and often               
+#  inconsistent with assigned levels spin and parity in 1975No08.         
+#E E         EB+=4132 +150-115 (1983AL06)                                 
+#G           EKC normalized so that KC=0.01 (M1,theory) for 581G from     
+#G 137ND EC decay                                                         
+#G E(A)      From decay scheme in 1975No08.                               
+#L J         From Adopted Levels                                          
+#L E$Deduced by evaluators from a least-squares fit to G-ray energies.    
+#P 0.0         11/2-             2.4 M     1              5507      17    
+PM137 ND137 beta+ 5.507 144.0 0.37
++G gamma 0.087 0.16399999999999998
++G gamma 0.213 0.01
++G gamma 0.22019999999999998 0.01
++G gamma 0.2931 0.01
++G gamma 0.3251 0.083
++G gamma 0.3403 0.013000000000000001
++G gamma 0.3795 0.013000000000000001
++G gamma 0.41910000000000003 0.01
++G gamma 0.4592 0.054000000000000006
++G gamma 0.4637 0.01
++G gamma 0.5869 0.018000000000000002
++G gamma 0.5915 0.01
++G gamma 0.6116 0.01
++G gamma 0.6457 0.019
++G gamma 0.6692 0.01
++G gamma 0.6727000000000001 0.011000000000000001
++G gamma 0.6954 0.01
++G gamma 0.7035 0.01
++G gamma 0.7128 0.02
++G gamma 0.7142999999999999 0.011000000000000001
++G gamma 0.7229 0.015
++G gamma 0.7491 0.01
++G gamma 0.7888 0.024
++G gamma 0.818 0.01
++G gamma 0.829 0.01
++G gamma 0.8368 0.027999999999999997
++G gamma 0.854 0.01
++G gamma 0.871 0.01
++G gamma 0.88 0.01
++G gamma 0.895 0.01
++G gamma 0.9212 0.019
++G gamma 0.939 0.01
++G gamma 0.946 0.01
++G gamma 0.968 0.01
++G gamma 0.977 0.01
++G gamma 0.991 0.01
++G gamma 1.0137 0.02
++G gamma 1.028 0.01
++G gamma 1.038 0.01
++G gamma 1.09 0.012
++G gamma 1.1236 0.011000000000000001
++G gamma 1.136 0.012
++G gamma 1.141 0.01
++G gamma 1.145 0.01
++G gamma 1.153 0.01
++G gamma 1.171 0.01
++G gamma 1.201 0.01
++G gamma 1.2789000000000001 0.016
++G gamma 1.381 0.01
++G gamma 1.409 0.01
++G gamma 1.461 0.01
++G gamma 1.468 0.01
++G gamma 1.518 0.012
++G gamma 1.551 0.01
++G gamma 1.605 0.01
++G gamma 0.10859999999999999 1.0
++G gamma 0.1605 0.047
++G gamma 0.2687 0.242
++G gamma 0.1775 1.151
++G gamma 0.286 0.45899999999999996
++G gamma 0.2336 0.845
++G gamma 0.3285 0.094
++G gamma 0.506 0.2
++G gamma 0.5292 0.071
++G gamma 0.5488 0.113
++G gamma 0.5656 0.07400000000000001
++G gamma 0.5656 0.07400000000000001
++G gamma 0.7433 0.019
++G gamma 0.4573 0.121
++G gamma 0.6908 0.083
++G gamma 0.581 0.38
++G gamma 0.3977 0.034
++G gamma 0.7595 0.031
++G gamma 0.4106 0.2
++G gamma 0.5337999999999999 0.14800000000000002
++G gamma 0.6586000000000001 0.015
++G gamma 1.0922 0.127
++G gamma 0.414 0.062
++G gamma 0.19290000000000002 0.016
++G gamma 0.3892 0.084
++G gamma 0.5251 0.04
++G gamma 0.7986 0.013999999999999999
++G gamma 0.923 0.068
++G gamma 1.0475999999999999 0.02
++G gamma 1.0647 0.027999999999999997
++G gamma 1.2847 0.193
++G gamma 1.1899000000000002 0.033
++G gamma 0.4707 0.10400000000000001
++G gamma 0.995 0.012
++G gamma 0.5337999999999999 0.14800000000000002
++G gamma 0.3523 0.037000000000000005
++G gamma 0.735 0.01
++G gamma 0.8217000000000001 0.022000000000000002
++G gamma 0.37060000000000004 0.083
++G gamma 0.434 0.019
++G gamma 1.2935 0.03
+

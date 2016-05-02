@@ -1,0 +1,83 @@
+#120I     120XE EC DECAY                1974MU10                  02NDS    200209
+#  120XE EC DECAY                1974MU10                  02NDS    200209
+#H TYP=FUL$AUT=K. KITAO, Y. TENDOW AND A. HASHIZUME$                      
+#H CIT=NDS 96, 241 (2002)$CUT=1-Dec-2001$                                 
+#  1974MU10: ^Ce(p,5pxn|g) E=600 MEV, on-line mass separation; semi G, CE,
+#  GG, GG(T), (CE)(G)(T).                                                 
+#  The decay scheme, EG and RI values are the same as given in the        
+#  previous evaluation (1987HA32); however, mult and MR values for        
+#  some G's have changed                                                  
+#  and recalculated values based on revised spin-parity assignments       
+#  are given.                                                             
+#L E         From a least-squares fit to E(G's) by the evaluators         
+#L J         From adopted levels                                          
+#L T         From GG(T) (1974MU10), unless otherwise noted                
+#E IB        %IB=3 1 (1975HO03)                                           
+#G E         From 1974MU10                                                
+#G CC        All ELC and EKC are renormalized to LC(E1)=1.21 for 25.1G    
+#G M,MR      From EKC and/or ELC                                          
+#N 0.088      81.0       1.0                                              
+#N NR        based on assumption of no decay to 120I GS, since            
+#N I(EC+B+)(GS) LT 0.1% for LOGF1UT GT 8.5.                               
+#N                                                                     3  
+#P 0.0         0+                40 M      1              1960      40    
++G gamma 0.5253 0.09699999999999999
++G gamma 0.5604 2.97
++G gamma 0.7637999999999999 0.057999999999999996
++G gamma 0.1686 0.49
++G gamma 0.2763 0.32
++G gamma 0.3343 0.22
++G gamma 0.6107 0.04
++G gamma 0.3664 0.14
++G gamma 0.7006 0.05
++G gamma 0.39239999999999997 0.08
++G gamma 0.7587 0.05
++G gamma 0.41960000000000003 0.05
++G gamma 0.812 0.05
++G gamma 0.44639999999999996 0.04
++G gamma 0.8661 0.04
++G gamma 0.475 0.02
++G gamma 0.9211 0.02
++G gamma 0.496 0.02
++G gamma 0.971 0.02
++G gamma 0.08070000000000001 0.55
++G gamma 0.1269 0.13
++G gamma 0.1832 0.04
++G gamma 0.1238 1.0
++G gamma 0.1439 0.16
++G gamma 0.1077 0.35
++G gamma 0.1995 0.21
++G gamma 0.2029 0.13
++G gamma 0.15880000000000002 0.32
++G gamma 0.38839999999999997 0.22
++G gamma 0.1119 0.12
++G gamma 0.2452 0.12
++G gamma 0.06509999999999999 0.2
++G gamma 0.5654 0.49
++G gamma 0.11309999999999999 0.62
++G gamma 0.178 0.06
++G gamma 0.571 0.19
++G gamma 0.3835 0.07
++G gamma 0.634 0.14
++G gamma 0.31839999999999996 0.54
++G gamma 0.2343 0.29
++G gamma 0.553 0.63
++G gamma 0.7138 0.16
++G gamma 0.3545 0.32
++G gamma 0.5891000000000001 0.14
++G gamma 0.31310000000000004 0.21
++G gamma 0.6677000000000001 0.46
++G gamma 0.8116 0.13
++G gamma 0.4063 0.2
++G gamma 0.7195 0.18
++G gamma 0.2455 0.13
++G gamma 0.6521 0.26
++G gamma 0.212 0.09
++G gamma 0.8972 0.06
++G gamma 0.9919 0.02
++G gamma 0.846 0.06
++G gamma 1.0911 0.12
++G gamma 0.8717999999999999 0.2
++G gamma 1.0672000000000001 0.11
++G gamma 0.5057 0.09
+

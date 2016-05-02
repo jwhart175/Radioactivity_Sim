@@ -1,0 +1,41 @@
+#131XE    131I B- DECAY                                           06NDS    200612
+#  131I B- DECAY                                           06NDS    200612
+#H TYP=FUL$AUT=YU. KHAZOV, I. MITROPOLSKY, A. RODIONOV$                   
+#H CIT=NDS 107, 2715 (2006)$CUT=17-Jul-2006$                              
+#  1974Me21, 1989Ch45: {+131}I(|b-) (T{-1/2}=8 d); measured E(|g), I(|g), 
+#  |g|g. Ge(Li) anti-Compton, HPGe and Si(Li) detectors                   
+#  1960Jo11, 1972Kr07, 1974Ko02, 1975Ko15: {+131}I(|b-) decay             
+#  (T{-1/2}=8 d); measured |g(|q). Nuclear orientation study              
+#  1971Gf01, 1972Be90, 1976Ba42: {+131}I(|b-) decay (T{-1/2}=8 d);        
+#  measured |g|g(|q).                                                     
+#  The level scheme is as given by 1974Me21                               
+#B IB        From net |g feeding of each level                            
+#G E         From 1990Me15                                                
+#G RI        Weighted average of 1990Me15, 1989Ch45, 1980VyZZ             
+#G MR        From |g|g(|q) and |g(|q) as adopted by 1977Kr13. Phase       
+#G convention changed to the standard for Nuclear Data Sheets by the      
+#G evaluators                                                             
+#G           |a(K)exp: from I(ce) measurements of 1962Wo09 normalized to  
+#G |a(K)(284.3, E2)=0.0408                                                
+#L E$From least-squares fit to E|g's                                      
+#P 0.0         7/2+              8.0252 D   6             970.8     6     
+I131 XE131 beta- 0.9708 693377.28 0.815
++G gamma 0.080185 0.0321
++G gamma 0.16393000000000002 2.59E-4
++G gamma 0.177214 0.0033
++G gamma 0.28430500000000003 0.0751
++G gamma 0.36448899999999995 1.0
++G gamma 0.404814 6.7E-4
++G gamma 0.23218 3.9E-5
++G gamma 0.272498 7.07E-4
++G gamma 0.2958 2.2000000000000003E-5
++G gamma 0.636989 0.08779999999999999
++G gamma 0.3024 5.7999999999999994E-5
++G gamma 0.325789 0.00335
++G gamma 0.503004 0.00441
++G gamma 0.0859 1.1E-6
++G gamma 0.31808800000000004 9.5E-4
++G gamma 0.3584 2.0E-4
++G gamma 0.642719 0.00266
++G gamma 0.722911 0.0217
+

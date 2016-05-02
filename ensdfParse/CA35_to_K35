@@ -1,0 +1,34 @@
+# 35K     35CA EC DECAY (25.7 MS)       1999TR04                  11NDS    201111
+#  35CA EC DECAY (25.7 MS)       1999TR04                  11NDS    201111
+#H TYP=FUL$AUT=JUN CHEN, JOHN CAMERON AND BALRAJ SINGH$                   
+#H CIT=NDS 112,2715 (2011)$CUT=20-Oct-2011$                               
+#  Populated levels decay by delayed-p or delayed-2p emission.            
+#  1999Tr04, 1998Le45: {+35}Ca (98% purity, 0.3 ions/s) beam produced by  
+#  fragmentation of a 95 MeV/nucleon {+40}Ca{+20+} beam of 400 enA on a   
+#  rotating 500 |mm natural Ni target at GANIL, and implanted into a 500  
+#  |mm silicon detector for detecting |bp and |b2p decays. Two silicon    
+#  counters for detecting |b-rays and three Ge detectors and two NaI      
+#  detectors for detecting |g-rays. Measured |bp|g-coin, Ep, Ip, T{-1/2}. 
+#  Deduced levels.                                                        
+#  Other: 1985Ay01                                                        
+#E TI(X)$Additional unresolved feeding was observed to the following      
+#E energy regions. No log {Ift} values are deduced for these feedings and 
+#E pseudo levels                                                          
+#E TI$     Range        Feeding(%)  Decay mode                            
+#E    4141-4901    5.4 {I9}      p0                                       
+#E    5210-5779    2.2 {I3}      p1                                       
+#E    5338-6097    1.0 {I4}      p2                                       
+#E    5921-6681    2.0 {I7}      p3                                       
+#E    6245-6931    1.09 {I17}    p0                                       
+#E    7427-8205    1.1 {I2}      p0                                       
+#L E$ From E{-c.m.}+S(p) where S(p)=84.49 {I61} from 2011AuZZ and         
+#L E{-c.m.} deduced from E{-p}(lab) for transitions to the ground         
+#L state of {+35}Ar (p0 mode), similar for p1, p2 and p3 modes.           
+#L E(X)$ Pseudo level deduced by the evaluator from the energy range      
+#L in the table of additional unresolved feeding.                         
+#L J$ From Adopted Levels. For excited states J|p's are not given but     
+#L from allowed log {Ift} values these will be restricted to 1/2+,3/2+    
+#L if parent J|p=1/2+ for {+35}Ca                                         
+#P 0            (1/2+)           25.7 MS   2              15961     SY    
+CA35 K35 beta+ 15.961 0.0257 1.0
+

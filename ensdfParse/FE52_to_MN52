@@ -1,0 +1,33 @@
+# 52MN    52FE EC DECAY (8.275 H)       1990ME15                  15NDS    201509
+#  52FE EC DECAY (8.275 H)       1990ME15                  15NDS    201509
+#H TYP=FUL$AUT=YANG DONG, HUO JUNDE$CIT=NDS 128, 185 (2015)$              
+#H CUT=10-Jul-2015$                                                       
+#  Source from mass separation and/or chemical purification,              
+#  measured E|g, I|g with the automated multi-spectrometer |g-ray         
+#  counting facility. Sources were counted individually and in            
+#  combination on several different calibrated spectrometer systems       
+#  utilized various detectors ranging from small (X-ray) detectors        
+#  to large volume high-purity Ge detectors.                              
+#  See also {+52}Mn IT decay (21.1 min)                                   
+#  See also {+52}Mn |e decay (21.1 min)                                   
+#  See also 1977Ya08.                                                     
+#G RI        I(1434|g)=1000 in {+52}Cr.                                   
+#L J         From adopted levels.                                         
+#P 0.0          0+               8.275 H    8              2375     6     
++G gamma 0.377748 0.016433100000000003
++B beta+ 8.874999999999999E-4 9.58E-4
++G gamma 0.16868799999999998 0.9917520000000001
++B beta+ 0.34 0.00392
+
+# 52MN    52FE EC DECAY (45.9 S)        1979GE02                  15NDS    201509
+#  52FE EC DECAY (45.9 S)        1979GE02                  15NDS    201509
+#H TYP=FUL$AUT=YANG DONG, HUO JUNDE$CIT=NDS 128, 185 (2015)$              
+#H CUT=10-Jul-2015$                                                       
+#  Source produced in {+40}Ca({+14}N,pn), measured |g-ray singles and     
+#  |g|g-coin, Ge(Li) detectors.                                           
+#  Others: 1977KaZV, 1975Ge01, 1978GeZZ.                                  
+#L J         From adopted levels.                                         
+#P 6958.0     4 12+              45.9 S    6              2375      6     
++B beta+ 8.893E-4 9.4E-4
++G gamma 0.9295 1.0
+

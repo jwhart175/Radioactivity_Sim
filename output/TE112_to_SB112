@@ -1,0 +1,53 @@
+#112SB    112TE EC DECAY                1976WI11,1975WIZX         15NDS    201412
+#  112TE EC DECAY                1976WI11,1975WIZX         15NDS    201412
+#H TYP=FUL$AUT=S. LALKOVSKI, F.G. KONDEV$CIT=NDS 124, 157 (2015)$         
+#H CUT=1-Aug-2014$                                                        
+#  1975WiZX: Facility: ^AVF cyclotron at Vrije Universiteit,              
+#  Amsterdam; Source: mass-separated 112TE from 112SN(3HE,3n) reaction at 
+#  E(3HE)=35-40; Target: 35 mg/cm{+2} thick target enriched to 87.51% in  
+#  112SN; Detectors: four coaxial Ge(Li), one planar Ge(Li) and one ^LEPS,
+#  active and passive anti-Compton shielding; Measured: |g, |g-|g, |g(t), 
+#  E|g, I|g; Deduced: 112SN level scheme, T, J|p, LOGFT; Other:           
+#  from the same collaboration: 1976WI10                                  
+#L E$From a least-squares fit to EG                                       
+#L J$From the adopted levels                                              
+#G E,RI$From 1975WIZX                                                     
+#P 0.0         0+                2.0 M     2              4032      20    
+TE112 SB112 beta+ 4.032 120.0 1.0
++G gamma 0.0386 0.16
++G gamma 0.0521 0.05
++G gamma 0.07 0.05
++G gamma 0.1674 0.07
++G gamma 0.2742 0.05
++G gamma 0.2804 0.03
++G gamma 0.35769999999999996 0.06
++G gamma 0.5844 0.08
++G gamma 0.5985 0.06
++G gamma 0.6904 0.1
++G gamma 0.6985 0.12
++G gamma 0.743 0.11
++G gamma 0.7973 0.24
++G gamma 0.8074 0.09
++G gamma 0.8201 0.17
++G gamma 0.8819 0.1
++G gamma 0.9248 0.11
++G gamma 0.9284 0.11
++G gamma 0.9712999999999999 0.23
++G gamma 1.2824 0.17
++G gamma 1.2872000000000001 0.1
++G gamma 1.5026 0.15
++G gamma 1.6576 0.14
++G gamma 1.9637 0.17
++G gamma 0.1042 0.27
++G gamma 0.13290000000000002 0.23
++G gamma 0.2364 0.09
++G gamma 0.0599 0.045
++G gamma 0.29619999999999996 0.86
++G gamma 0.3509 0.36
++G gamma 0.3727 1.0
++G gamma 0.4189 0.57
++G gamma 0.4769 0.14
++G gamma 0.6119 0.043
++G gamma 0.7147 0.024
++G gamma 0.494 0.3
+

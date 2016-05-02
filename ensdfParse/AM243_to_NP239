@@ -1,0 +1,60 @@
+#239NP    243AM A DECAY                 1992GA01,1996WO05,1996SA2314NDS    201411
+#  243AM A DECAY                 1992GA01,1996WO05,1996SA2314NDS    201411
+#H TYP=FUL$AUT=E. BROWNE, J. K. TULI$CIT=NDS 122, 293 (2014)$             
+#H CUT=30-Jun-2013$                                                       
+#  Others: 1986LOZT, 1964BA26, 1975PA04                                   
+#  Modified by E. Browne. August 9, 2013. New conversion coeffs. BRICC.   
+#  AG, ACE: 1968VA09 (semi-semi), 1969EN02 (semi-semi), 1963LE17          
+#  (semi-scin).                                                           
+#  AG(THETA): 1962SI12, 1963FL01, 1967FA01, 1967HU03.                     
+#  AG(THETA,H): deduced effective hyperfine field (1970AN13).             
+#A E$Deduced from values in 2002Da21 (s), 1996Sa24 (s), and 1964BA26 (s), 
+#A recommended in 2010BeZQ, unless otherwise specified.                   
+#A Other: 1968BA25 (s).                                                   
+#A E(R)$From 1991RY01                                                     
+#A IA$From 1964BA26, unless otherwise specified. Other measurements:      
+#A 1956HU96 (s), 1968VA09 (semi). DIA based on differences between        
+#A 1964BA26 and 1956HU96                                                  
+#A IA$Deduced from values in 2002Da21, 1996Da24, 1992Ga01, 1964Ba26,      
+#A 1956Hu96, and 1955St98, recommended in 2010BeZQ.                       
+#A HF        Using R0(239NP)=1.505, average of R0(238U)=1.5143 9,         
+#A R0(240U)=1.5062 10, R0(238PU)=1.5013 10, and R0(240PU)=1.4979 7        
+#A (1998AK04).                                                            
+#G CC$ FROM BrIcc v2.2 (31-Mar-2008) 2008KiAA, "Frozen Orbitals" appr.    
+#G           I(XL)=41% 5 (AG pc, 1969AL14).                               
+#G           From decay scheme (Using program ^RADLST), I(XL)=18.8% 7,    
+#G and I(XK)=0.0195% 10. The value I(XK)=13.5% reported by 1977ST35 is    
+#G clearly in error; 1972AH02 did not observe any XK in spite of having   
+#G a better spectrum.                                                     
+#G E         From 1975PA04 (semi), 1972AH02 (semi), 1969EN02 (AG, ACE     
+#G semi), unless otherwise noted. Other measurements: 1957AS84, 1960AS02, 
+#G 1963LE17, 1966LE13, 1967CH12, 1968VA09, 1969AL14.                      
+#G E(H)$From 1982AH04 equilibrium 243AM source; semi                      
+#G RI$From 1986LOZT, 1982AH04, 1975PA04, 1972AH02, 1968VA09. IG           
+#G normalized to 100 for 74.67G.                                          
+#G E(A)      From 239U B- decay. Transition was observed in 1966LE13 in   
+#G AG coincidence spectrum and placed in level scheme. The measured       
+#G energy was not given in 1966LE13.                                      
+#L E$Deduced by evaluator from a least-squares fit to G-ray energies,     
+#L unless otherwise specified.                                            
+#L E(X)$From alpha particle energy.                                       
+#L J         From adopted levels, unless stated otherwise                 
+#P 0.0         5/2-              7364 Y    22             5438.8    10    
+AM243 NP239 alpha 5.4388000000000005 2.323850764032E11 1.0
++A alpha 5.349399999999999 0.0024
++A alpha 5.321 0.00192
++A alpha 5.2753000000000005 0.8674
++A alpha 5.2333 0.11460000000000001
++A alpha 5.181 0.01383
++A alpha 5.113 8.0E-5
++A alpha 5.088 5.4999999999999995E-5
++A alpha 5.035 3.0E-5
++A alpha 5.029 4.0E-5
++A alpha 5.008 1.6E-5
++A alpha 4.997 1.6E-5
++A alpha 4.946 3.4E-6
++A alpha 4.93 1.8000000000000001E-6
++A alpha 4.919 8.5E-7
++A alpha 4.695 1.7E-5
++G gamma 0.66224 1.1424E-5
+

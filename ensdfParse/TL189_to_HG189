@@ -1,0 +1,27 @@
+#189HG    189TL EC DECAY (2.3 M)        1974HA10,1976HA25,1985AB0303NDS    200309
+#  189TL EC DECAY (2.3 M)        1974HA10,1976HA25,1985AB0303NDS    200309
+#H TYP=ERR$DAT=25-Feb-11$COM=corrected parent record                      
+#H TYP=FUL$AUT=S. -C. WU, H. NIU$CIT=NDS 100, 1 (2003)$CUT=31-May-2003$   
+#  Substantial additional data in 1976GoZE have not been included         
+#  here at the request (1980WoZN)                                         
+#G E,RI$From 1974Ha10, except as noted                                    
+#G E(A),M(A)$From 1985Ab03                                                
+#P      0       (1/2+)             2.3 M        2            5.18E3 20    
++G gamma 0.3337 1.0
++G gamma 0.451 0.49
++G gamma 0.5223 0.27
++G gamma 0.9422 0.69
+
+#189HG    189TL EC DECAY (1.4 M)        1972VA12,1974HA10,1976HA2503NDS    200309
+#  189TL EC DECAY (1.4 M)        1972VA12,1974HA10,1976HA2503NDS    200309
+#H TYP=FUL$AUT=S. -C. WU, H. NIU$CIT=NDS 100, 1 (2003)$CUT=31-May-2003$   
+#  Substantial additional data in 1976GoZE have not been included         
+#  here at the request (1980WoZN)                                         
+#G E,RI$From 1974Ha10                                                     
+#P      257.713  9/2-              1.4 M        1            5.18E3 20    
++G gamma 0.21559999999999999 1.0
++G gamma 0.2284 0.56
++G gamma 0.3175 1.11
++G gamma 0.335 0.7
++G gamma 0.4452 0.15
+

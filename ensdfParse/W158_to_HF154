@@ -1,0 +1,27 @@
+#154HF    158W A DECAY (1.25 MS)        2000Ma95,1996PA01,1989HO1209NDS    200910
+#  158W A DECAY (1.25 MS)        2000Ma95,1996PA01,1989HO1209NDS    200910
+#H TYP=FUL$AUT=C. W. Reich$CIT=NDS 110, 2257 (2009)$CUT=1-May-2008$       
+#   DATA SET UPDATED (FEBRUARY, 2007) BY CW REICH TO INCLUDE NEW T        
+#   VALUE AND NEW QA VALUE. SOME INFORMATION WAS ADDED (NOVEMBER, 2008)   
+#   DURING THE RESPONSE TO THE REVIEW'S COMMENTS.                         
+#  Production: 58NI bombardment of 106CD using the velocity filter ^SHIP  
+#  (1989Ho12); 290-MEV 58NI ions on isotopically enriched 102PD target at 
+#  the ^Daresbury ^Recoil ^Mass ^Separator (1996Pa01); 58NI bombardment   
+#  of 102PD, involving mass separation (2000Ma95).                        
+#P      0         0+              1.25 MS  21              6613     3     
++A alpha 6.445 1.0
+
+#154HF    158W A DECAY (0.143 MS)       2000Ma95,1996PA01,1989HO1209NDS    200910
+#  158W A DECAY (0.143 MS)       2000Ma95,1996PA01,1989HO1209NDS    200910
+#H TYP=FUL$AUT=C. W. Reich$CIT=NDS 110, 2257 (2009)$CUT=1-May-2008$       
+#   DATA SET UPDATED (FEBRUARY, 2007) BY CW REICH TO INCLUDE NEW T        
+#   VALUE, NEW QA VALUE AND NEW VALUE FOR E(8+). SOME INFORMATION WAS     
+#   ADDED (NOVEMBER, 2008) DURING THE RESPONSE TO THE REVIEWER'S          
+#   COMMENTS.                                                             
+#  Production: 58NI bombardment of 106CD using the velocity filter ^SHIP  
+#  (1989Ho12); 290-MEV 58NI ions on isotopically enriched 102PD target at 
+#  the ^Daresbury ^Recoil ^Mass ^Separator (1996Pa01). 58NI bombardment   
+#  of 102PD, involving mass separation (2000Ma95).                        
+#P   1888    8   (8+)            0.143 MS  19              6613     3     
++A alpha 8.286 1.0
+

@@ -1,0 +1,32 @@
+# 63MN    63CR B- DECAY:129 MS          2005GA01,1999SO20,1999LE67ENSDF    200906
+#  63CR B- DECAY:129 MS          2005GA01,1999SO20,1999LE67ENSDF    200906
+#H TYP=FUL$AUT=HUO JUNDE, YANG DONG, HUO MEIRONG,$CIT=ENSDF$              
+#H CUT=28-Aug-2008$                                                       
+#  2005Ga01, 2003So21, 2001So07, 1999So20, AND 1999Le67 are               
+#  from the same group.                                                   
+#  {+63}Cr produced in fragmentation of {+76}Ge{+30+} beam on a {+58}Ni   
+#  target.  LISE3 achromatic spectrometer used to separate fragments;     
+#  magnetic rigidity was tuned to optimize transmission of {+62}V         
+#  {+64}Cr fragments.  Transmitted nuclei were identified by three        
+#  consecutive Si detectors where two served for energy loss and          
+#  time-of-flight measurements while the last determined their residual   
+#  energies.                                                              
+#  Measured E|g, I|g, I|b, |g|g, |b|g coin, |g(t), lifetimes with four Ge 
+#  detectors placed around a thick Si telescope.  Half-lives determined by
+#  fitting procedure involving five parameters: half-lives of mother,     
+#  daughter and grand-daughter nuclei, the |b-efficiency and the          
+#  background rate over the counting time.                                
+#  All data are from 2005Ga01, unless otherwise stated.                   
+#G E$Due to weak statistics, no |g|g coincidences established amongst any 
+#G of the observed |g rays.                                               
+#G E$Uncertainties assigned by compilers on basis of standard |DE{-|g}=2  
+#G keV used for all other transitions observed in |b-decay studies from   
+#G 2005Ga01.                                                              
+#L E$No decay scheme could be established by 2005Ga01 as only half of the 
+#L intensity of the entire |b-decay of {+63}Cr was observed through |g    
+#L rays. The authors attribute this to either a lack of                   
+#L statistics or to a high direct |b-feeding to the ground state of       
+#L {+63}Mn.                                                               
+#P 0.0            1/2-            129 MS   2              10820     SY    
+CR63 MN63 beta- 10.82 0.0 1.0
+

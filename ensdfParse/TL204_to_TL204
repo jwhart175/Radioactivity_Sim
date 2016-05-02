@@ -1,0 +1,33 @@
+#204TL    204TL IT DECAY (61.7 US)      1975UY01,1972MA59,1958DU8010NDS    201002
+#  204TL IT DECAY (61.7 US)      1975UY01,1972MA59,1958DU8010NDS    201002
+#H TYP=FUL$AUT=C.J. CHIARA and F.G. KONDEV$CIT=NDS 111,141 (2010)$        
+#H CUT=1-Oct-2009$                                                        
+#  1975Uy01: isomer populated by 205TL(G,NG'); 0.84-g/cm{+2}              
+#  natural TL oxide between 0.1-mm NI foils; 24- to 32-MEV bremsstrahlung 
+#  photons; GE(LI) detector with 2.7-KEV resolution at 662 KEV; data      
+#  collected in 16 ^15-|ms intervals for G(T) measurement.                
+#  1972Ma59: isomer populated by 204HG(D,2NG); thick liquid 204HG target; 
+#  E(D)=15 MEV; 2-|ms beam pulses at 250-|ms intervals, data collected    
+#  during 17- to 180-|ms interval after beam pulse; GE(LI) detector.      
+#  Time-differential perturbed angular distribution method.               
+#  1966MoZZ: isomer populated by pulsed irradiation of natural TL target  
+#  with 14.3-MEV N's; 4.5-cm diameter cylindrical TL target.              
+#  1958Du80: isomer populated by 205TL(G,NG'); 2.06-g/cm{+2}              
+#  natural TL target; x-ray beam from 22-MEV betatron, 1-|ms pulses at    
+#  180 Hz; NAI(TL) detectors for G(T) and GG-coin measurements.           
+#G CC$ FROM BrIcc v2.2 (31-Mar-2008) 2008KiAA, "Frozen Orbitals" appr.    
+#G E$From 1975Uy01; others: 1958Du80, 1962Eu01. 1958Du80 confirm the      
+#G coin between 414.1G and 689.9G, but the ordering was not determined.   
+#G RI$From 1958Du80 ----- was originally I(414)/I(690)=1.14...  --------  
+#G M$From analogy with 198TL, 202TL. Consistent with A2>0 (values not     
+#G specified) for 414.1G and 689.9G in G(THETA) by 1972Ma59.              
+#G M(A)$1958Du80 placed an upper limit of 0.2 on the ratio of total       
+#G number of conversion electrons from the 414.1- and 689.9-keV           
+#G transitions, as determined by x-ray yield, to the 414.1G intensity,    
+#G i.e. [^N{-e}(689.9)+^N{-e}(414.1)]/^N{-|g}(414.1) LE 0.2. This limit is
+#G consistent with the ICC's for the assigned multipolarities.            
+#L E$From a least-squares fit to EG, unless otherwise specified           
+#L J$From adopted levels.                                                 
+#L J$By analogy with 198TL, 202TL. Consistent with G(THETA) in 1972Ma59.  
+#P     1103.9 3(7)+              61.7 US   10                             
+

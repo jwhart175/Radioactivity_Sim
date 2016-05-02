@@ -1,0 +1,19 @@
+# 81SE    81SE IT DECAY (57.28 M)       1971NA18                  08NDS    200810
+#  81SE IT DECAY (57.28 M)       1971NA18                  08NDS    200810
+#H TYP=FUL$AUT=CORAL M. BAGLIN$CIT=NDS 109, 2257 (2008)$CUT=15-Aug-2008$  
+#  Others: 1949Be59, 1952Ru10, 1955Dr43, 1968Ra35, 1969Zo06,              
+#  1971Do09, 1972De43, 1974Ch11, 1975Kr08.                                
+#G E         Weighted average of 103.1 1 (1969Zo06), 103.0 2 (1971Do09),  
+#G 102.89 10 (1971Ra07), 103.0 2 (1974Ch11), 102.9 2 (1975Kr08),          
+#G 103.3 2 (1967Pr06).                                                    
+#G M         From EKC, ELC (1971Na18).                                    
+#G MR(A)     From EKC (1971Na18), ABS(MR)=0.178 15; however, this         
+#G exceeds RUL. Evaluator assumes EKC datum is too large and adopts       
+#G MR<0.0057 based on BM4W<30. ELC from 1971Na18 gives                    
+#G ABS(MR)=0.15 +6-10.                                                    
+#L E         FROM EG.                                                     
+#L J,T       FROM Adopted Levels.                                         
+#P   103.00   6 7/2+             57.28 M   2                              
+SE81 SE81 IT 0.0 3436.8 0.99949
++G gamma 0.10301 0.128
+

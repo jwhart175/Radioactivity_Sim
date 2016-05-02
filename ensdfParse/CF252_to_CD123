@@ -1,0 +1,13 @@
+#123CD    252CF SF DECAY                2002HW01                  04NDS    200410
+#  252CF SF DECAY                2002HW01                  04NDS    200410
+#H TYP=FUL$AUT=S. Ohya$CIT=NDS 102, 547 (2004)$CUT=1-Nov-2003$            
+#  Measured EG, IG, GG using Gammasphere array with 102                   
+#  Compton-suppressed HPGe detectors. G-rays assigned by coin with        
+#  G-rays from fission-fragment pair Sn isotopes. No energy uncertainties 
+#  and I|g given by authors.                                              
+#L E$From least square fit assuming uncertainties of 0.3 keV for each     
+#L G-ray.                                                                 
+#L E(A),J,T$From Adopted Levels.                                          
+#P   0.0        0+                2.645 Y  8                              
++G gamma 0.7872 1.0
+

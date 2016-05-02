@@ -1,0 +1,83 @@
+# 85SE    85AS B- DECAY (2.021 S)       1991OM02                  14NDS    201408
+#  85AS B- DECAY (2.021 S)       1991OM02                  14NDS    201408
+#H TYP=FUL$AUT=BALRAJ SINGH AND JUN CHEN$CIT=NDS 116, 1 (2014)$           
+#H CUT=31-Dec-2013$                                                       
+#  1991Om02: {+85}As from thermal neutron fission of {+235}U followed     
+#  by mass separation, measured E|g, I|g, |g|g coin. 1991Om01 (same group 
+#  as 1991Om02) measured isotopic half-life, delayed neutron decay and    
+#  absolute intensities of two |g rays                                    
+#  2012Ku06: {+85}As from thermal neutron fission of {+235}U followed     
+#  by mass/charge separation using Lohengrin separator at Grenoble.       
+#  Measured E|g, I|g, |g|g and |b|g coin using three |b scintillators and 
+#  three Ge detectors (two clovers and a coaxial detector)                
+#  Others:                                                                
+#  1979Kr03: 3HE ionization chambers, measured delayed neutron spectra.   
+#  FWHM=12 KEV for thermal neutrons and 20 KEV for 1 MEV neutrons.        
+#  Source of 85AS prepared by fission followed by chemical separation     
+#  1975Kr08: 3HE counters, measured G spectra                             
+#  in coincidence with delayed neutrons. No neutron spectra reported.     
+#  Source of 85AS prepared by fission followed by chemical separation     
+#  See also 85AS B-N decay dataset                                        
+#  1983Sk05: production of {+85}As in fission of {+235}U and {+239}Pu     
+#  Others: 1983Sk05, 1982Re10, 1967De01, 1966To02                         
+#  Level scheme in 2012Ku06 is in agreement with that from 1991Om02,      
+#  except for the addition of a new level at 2779.9 keV. In 2012Ku06,     
+#  gamma-ray intensities are not given.                                   
+#  Theoretical calculations: 2007Na28, 2005Bo19                           
+#B $The |b strength functions were deduced by 1979Kr03 based on           
+#B delayed neutron spectra. 1991Om02, however, point out that these       
+#B strengths are probably incorrect due to disagreements in the population
+#B of first 2+ and 4+ states in {+84}Se in the two works and thus         
+#B indicating problems with assignment of neutron groups by 1979Kr03 to   
+#B level scheme of {+85}As |b{+-}-n decay to {+84}Se.                     
+#B IB$ Deduced by the evaluators from intensity balance and using         
+#B normalization factor of 0.0397 as suggested by 1991Om02. These         
+#B are consistently higher by |?16% from those given by 1991Om02          
+#B in their figure 2                                                      
+#G RI(A)$0.60 10 from 1991OM01                                            
+#G RI(B)$4.0 7 from 1991OM01                                              
+#G $The following |g rays have been reported by 1975Kr08 only where       
+#G the source of {+85}As was prepared by chemical separation. These       
+#G have not been confirmed in mass-separated sources studied by 1991Om02, 
+#G thus have been omitted: 694.3 {I5} (I|g=1.3 {I4}), 1111.5 {I5}         
+#G (I|g=12 {I4}), 3345.0 {I5} (I|g=1.7 {I2}), 3749.4 {I7} (I|g=2.7 {I4}). 
+#G These intensities are relative to 100 for 1455|g from {+84}As to       
+#G {+84}Se decay                                                          
+#G $  ------------------------------------------------------------------- 
+#G $Intensities of |g rays from {+85}As decay to {+84}Se by |b{+-}-n mode 
+#G $            (From 1991Om02)                                           
+#G $     Energy       Relative intensity (100 for 1114.9|g)               
+#G $   667.0 {I10}       6.7 {I7}  (first 4+ to first 2+ in {+84}Se)      
+#G $  1454.6 {I10}       94 {I9}   (first 2+ to g.s. in {+84}Se)          
+#G $                                                                      
+#G $  Note: I|g(1115)/I|g(1455)=1.76 {I25} in 2012Ku06 as compared to     
+#G $  1.07 {I15} in 1991Om02.                                             
+#G $  ------------------------------------------------------------------- 
+#G RI(X)$UPPER LIMIT of intensity (1991Om02)                              
+#G E(Y),RI(Y)$MISSING IN TABLE 1 OF 1991OM02, VALUES ARE FROM LEVEL-SCHEME
+#G FIGURE, UNCERTAINTIES ESTIMATED BY THE EVALUATORS IN COMPARISON WITH   
+#G OTHER G RAYS                                                           
+#G E(K)$The |g transition is from 2012Ku06                                
+#L E$ From least-squares fit to E|g data, assuming 0.5 keV uncertainty    
+#L when not given                                                         
+#L J$From Adopted Levels                                                  
+#L E(Z)$Deduced from neutron transitions to 84SE levels                   
+#L in 85AS B-N decay (1979Kr03) and level energies of 84SE, using         
+#L SN(85SE)=4537 3 (2012Wa38).                                            
+#L This level decays to {+84}Se through delayed neutron emission.         
+#L This level has not been included in ^Adopted ^Levels due to its        
+#L uncertain nature as suggested by the disagreement of population        
+#L intensity of first 2+ and 4+ states in {+84}Se from delayed            
+#L neutron decay. From the absolute intensities of 667.0|g and            
+#L 1454.6|g in 1991Om02, only |?4% of the total decay populates these     
+#L states whereas data of 1979Kr03 suggested a much stronger population,  
+#L indicating some incorrect assignments of the neutron groups in         
+#L in 1979Kr03.                                                           
+#L E(K)$Level from 2012Ku06 only                                          
+#L J(Z)$AS PROPOSED BY 1979KR03 BASED ON ALLOWED LOGFT VALUE FROM         
+#L (3/2-) AND EXPECTED L TRANSFER                                         
+#P 0.0         (3/2-)            2.021 S   12             9224      4     
+AS85 SE85 beta- 9.224 2.021 0.040
++G gamma 0.4619 0.151
++G gamma 4.0497 0.159
+

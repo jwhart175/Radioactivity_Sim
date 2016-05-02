@@ -1,0 +1,26 @@
+#103RH    103RH IT DECAY (56.114 M)                               09NDS    200910
+#  103RH IT DECAY (56.114 M)                               09NDS    200910
+#H TYP=FUL$AUT=D. DE FRENNE$CIT=NDS 110, 2081 (2009)$CUT=1-Mar-2009$      
+#  1981Va11: RADIOACTIVITY {+57}Co, {+103}Ru, {+103m}Rh, {+103}Pd,        
+#  {+109}Cd; measured T1/2 Photon counting method, NaI(Tl), Si(Li)        
+#  detectors                                                              
+#  1969Ra18: 103RU [from 102Ru(n,|g)]; measured E|g, I|g, |g|g-coin. 103RH
+#  deduced levels. Enriched target, curved-crystal, Ge(Li) spectrometers. 
+#  1975CZ03: RADIOACTIVITY {+103m}Rh; measured I(ce), I|g; deduced ICC.   
+#  1981VA22: RADIOACTIVITY {+103m}Rh; measured K X-ray emission           
+#  probability. Calibrated Si(Li) detectors.                              
+#  There is a problem with the level scheme in the sense that if the value
+#  for the relative intensity of the 39.755 |g is correct and the BRICC   
+#  value is correct, the absolute intensity of the 39.755 |g does not     
+#  yield 100% but 96%. There might be a problem with BRICC for such high  
+#  conversion.                                                            
+#G E         From 1969Ra18                                                
+#G RI        I(K| x ray)/100 {+103}Rh IT decays=6.76 {I5} (1975Cz03),     
+#G 6.97 {I28} (1974Sa15),                                                 
+#G 7.03 {I44} (1973In07), 7.00 {I35} (1967Br04), 8.43 {I13} (1981Va22);   
+#G others: 1954De35, 1967VuZZ; predicted I(K| x ray)=7.7 {I2} (1977KoYM)  
+#L J         From adopted levels                                          
+#P 39.754    6 7/2+              56.114 M   20                            
+RH103 RH103 IT 0.0 3366.8399999999997 1.0
++G gamma 0.039755000000000006 6.84E-4
+

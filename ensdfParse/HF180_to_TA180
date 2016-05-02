@@ -1,0 +1,21 @@
+#180TA    180HF B- DECAY (5.53 H)       1985KE02,1992KE04         15NDS    201506
+#  180HF B- DECAY (5.53 H)       1985KE02,1992KE04         15NDS    201506
+#H TYP=FUL$AUT=E.A. MCCUTCHAN$CIT=NDS 126, 151 (2015)$CUT=1-Feb-2015$     
+#  1985Ke02: {+180m}Hf activity from thermal neutrons on {+179}Hf.        
+#  Measured E|g, I|g, |g|g using Ge(Li) detector surrounded by 4|pNaI     
+#  array used as a veto for high multiplicity |g cascades from {+180m}Hf  
+#  IT decay.                                                              
+#  1992Ke04: Similar experimental setup as 1985Ke02. Included a Si        
+#  surface-barrier detector for measuring E|b, I|b and for vetoing        
+#  conversion electrons from {+180m}Hf IT decay.                          
+#  A total energy release of 0.68 keV {I21} is calculated for this decay  
+#  scheme using the RADLST code, in agreement with the effective Q value  
+#  of 0.9 keV {I3}.                                                       
+#L E,J,T$From the Adopted Levels.                                         
+#G M$From the Adopted Gammas.                                             
+#G E$From 1985Ke02                                                        
+#  CC$ FROM BrIcc v2.2b (20-Jan-2009) 2008Ki07, "Frozen Orbitals" appr.   
+#P 1141.552  15 8-                5.53 H    2              -846     3     
++B beta-8.0845E-4 0.0014000000000000002
++B beta- 0.03093 2.3E-4
+

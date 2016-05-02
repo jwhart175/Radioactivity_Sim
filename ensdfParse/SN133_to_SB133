@@ -1,0 +1,115 @@
+#133SB    133SN B- DECAY (1.46 S)       1983BL16,1999SA31         11NDS    201104
+#  133SN B- DECAY (1.46 S)       1983BL16,1999SA31         11NDS    201104
+#H TYP=FUL$AUT=YU. KHAZOV AND A. RODIONOV, F.G. KONDEV$                   
+#H CIT=NDS 112, 855 (2011)$CUT=31-Oct-2010$                               
+#  1999Sa31: {+133}Sn(|b{+-}) [from {+235}U(n,F)]; measured E|g, I|g,     
+#  |g|g-coin, |b|g|g(t), T{-1/2}; deduced log| {Ift},                     
+#  levels, J|p. OSIRIS-ISOL on-line mass-separator, Compton suppressed Ge 
+#  detectors, plastic scintillator, BaF{-2} crystal, comparison with      
+#  shell-model predictions.                                               
+#  1983Bl16: {+133}Sn(|b{+-}) [from on-line mass separation]; measured    
+#  E|g, I|g, |g|g-, |b|g-coin. {+133}Sb; deduced levels, J|p,             
+#  I{-|b}, log| {Ift}, |g-branching. Shell model.                         
+#  The decay scheme is based mainly on |g|g-coincidence measurements of   
+#  1999Sa31. For an identification, {+133}Sb |g-ray spectra were recorded 
+#  as a function of time following beam collection. The 2707.8-keV,       
+#  3249.8-keV, 3449.8-keV, 4555.6-keV, and 5922.6-keV levels, introduced  
+#  in 1983Bl16, were not suggested by 1999Sa31.                           
+#  Others: 1973Bo42, 1978Si05, 1998Sa22                                   
+#G E,RI$From 1999Sa31, except as noted                                    
+#G E(A)$These transitions are assumed to feed the ground state (1999Sa31) 
+#G E(B),RI(B)$ From 1983Bl16                                              
+#L E$From a least-squares fit to E|g's. 3838.46- and 3838.46-keV |g's,    
+#L depopulating the 4801.49-keV level, contribute 47% to |h{+2}           
+#L J$From adopted levels                                                  
+#B IB$From intensity balance                                              
+#B LOGFT$Calculated using the LOGFT code. Values slightly differ from     
+#B those in 1999Sa31                                                      
+#P  0.0           7/2-             1.46 S  3               8095     34    
++B beta- 3.649 0.85
++B beta- 3.194 0.115
++B beta- 2.476 0.0018
++B beta- 1.841 6.4E-5
++B beta- 1.744 1.7999999999999998E-4
++B beta- 1.671 1.5E-4
++B beta- 1.658 4.7999999999999994E-5
++B beta- 1.656 3.7E-4
++B beta- 1.642 7.900000000000001E-5
++B beta- 1.62 6.0E-5
++B beta- 1.619 2.0E-5
++B beta- 1.618 2.1999999999999998E-4
++B beta- 1.612 2.6E-4
++B beta- 1.504 1.8999999999999998E-4
++B beta- 1.488 1.7E-4
++B beta- 1.458 6.0E-5
++B beta- 1.451 6.6E-5
++B beta- 1.387 1.3E-4
++B beta- 1.38 9.2E-4
++B beta- 1.367 3.6E-5
++B beta- 1.335 1.3E-4
++B beta- 1.333 6.5E-4
++B beta- 1.317 1.2E-4
++B beta- 1.287 2.5E-4
++B beta- 1.269 2.1999999999999998E-4
++B beta- 1.232 4.2E-4
++B beta- 1.229 0.00136
++B beta- 1.217 0.0052
++B beta- 1.209 3.1E-4
++B beta- 1.198 1.01E-4
++B beta- 1.158 9.1E-4
++B beta- 1.146 2.1999999999999998E-4
++B beta- 1.112 0.00107
++B beta- 1.095 1.3E-4
++B beta- 1.091 4.7999999999999994E-5
++B beta- 1.063 0.00122
++B beta- 1.062 3.5999999999999997E-4
++B beta- 1.058 1.0800000000000001E-4
++B beta- 1.027 0.0023
++B beta- 1.012 4.7999999999999994E-5
++B beta- 1.007 5.899999999999999E-4
++B beta- 1.003 0.006999999999999999
++B beta- 0.988 0.0013700000000000001
++B beta- 0.97 1.7E-4
++B beta- 0.943 1.6E-4
++B beta- 0.94 5.2E-5
++B beta- 0.921 1.6E-4
++B beta- 0.901 6.0E-5
++B beta- 0.898 4.7999999999999994E-5
++B beta- 0.894 5.3E-5
++B beta- 0.879 4.9E-4
++B beta- 0.861 0.00105
++B beta- 0.858 1.3E-4
++B beta- 0.854 1.2E-4
++B beta- 0.844 2.1999999999999998E-4
++B beta- 0.839 4.7E-4
++B beta- 0.836 6.0E-5
++B beta- 0.798 2.1999999999999998E-4
++B beta- 0.795 5.5E-4
++B beta- 0.791 4.9E-5
++B beta- 0.783 8.0E-4
++B beta- 0.779 2.5E-4
++B beta- 0.774 9.5E-4
++B beta- 0.769 5.600000000000001E-4
++B beta- 0.764 2.8999999999999997E-5
++B beta- 0.748 3.2E-4
++B beta- 0.735 6.1000000000000005E-5
++B beta- 0.717 1.1000000000000001E-5
++B beta- 0.712 4.3E-4
++B beta- 0.706 3.5000000000000005E-4
++B beta- 0.696 1.3E-4
++B beta- 0.683 7.199999999999999E-4
++B beta- 0.678 4.9E-5
++B beta- 0.668 2.6E-4
++B beta- 0.661 8.800000000000001E-5
++B beta- 0.64 1.0E-4
++B beta- 0.625 9.7E-5
++B beta- 0.62 1.7E-4
++B beta- 0.602 8.2E-5
++B beta- 0.599 1.0800000000000001E-4
++B beta- 0.595 6.7E-5
++B beta- 0.568 2.8E-5
++B beta- 0.511 1.8E-5
++B beta- 0.483 3.2E-5
++B beta- 0.473 1.9E-5
++B beta- 0.407 3.8E-5
+

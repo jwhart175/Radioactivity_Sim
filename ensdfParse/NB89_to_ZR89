@@ -1,0 +1,150 @@
+# 89ZR    89NB EC DECAY (2.03 H)        1974VO08,1969HAZP         13NDS    201302
+#  89NB EC DECAY (2.03 H)        1974VO08,1969HAZP         13NDS    201302
+#H TYP=FUL$AUT=BALRAJ SINGH$CIT=NDS 114, 1 (2013)$CUT=20-Oct-2012$        
+#  1974Vo08 (also 1971Ar16, one author common in two papers):             
+#  measured EG, IG, GG                                                    
+#  1969HaZP (also 1970HaZH): measured EG, IG, T1/2, E(endpoint),          
+#  I(G+-). A total of 46 GAMMA rays and a detailed level scheme reported  
+#  1997Hi06: measured MOMM1 by NMR on oriented nuclei and G(THETA,H,T)    
+#  of 920G, 1259G, 1627G, 1833G, 2960G and 3093G                          
+#  Others: 1984HaZC (K-, L- conversion lines for 1448, 1465,              
+#  1511, 1581, 1627 GAMMA rays), 1966Ha45, 1966Hy02, 1964Bu11, 1955Ma13,  
+#  1954Di16                                                               
+#  Energy balance: total decay energy of 4220 keV {I379} deduced          
+#  (using RADLIST code) from proposed decay scheme is in agreement with   
+#  the expected value of 4226 keV {I27}, indicating that the decay scheme 
+#  is complete                                                            
+#G           The following GAMMA rays of EG(IG) reported by 1971Ar16 only 
+#G have been omitted since these are not confirmed by 1974Vo08:           
+#G 1520 (1.1), 1540 (1), 1744 (4.3), 1866.5 (10),                         
+#G 1884.3 (19), 2111 (5), 2417 (4), 2429 (2), 2444 (4.5), 2465 (3.8),     
+#G 2481 (3.2), 2510 (4.6), 2518 (2.0), 2624 (4.2), 2656 (4.6), 2675 (3),  
+#G 2802 (5), 2816 (6), 3058 (3), 3911 (8), 3917 (5)                       
+#G E,RI$From 1974Vo08, unless otherwise stated                            
+#G M$From 1972PhZS, unless otherwise stated                               
+#L           The level scheme is from 1974Vo08 and 1969HaZP               
+#L E$From least-squares fit to EG data                                    
+#L J,T$From Adopted Levels                                                
+#P      0.0    (9/2+)            2.03 H    7              4226      27    
+NB89 ZR89 beta+ 4.226 7307.999999999999 1
++G gamma 0.361 8.750000000000001E-4
++G gamma 1.412 1.7500000000000003E-4
++G gamma 2.714 3.5000000000000005E-4
++B beta+ 0.391 0.006
++G gamma 0.588 0.011200000000000002
++G gamma 0.5074 0.0077
++B beta+ 1.453 5.5E-4
++G gamma 0.3557 0.00238
++G gamma 0.8631 0.004550000000000001
++B beta+ 0.801 0.00497
++G gamma 1.5114 0.019250000000000003
++G gamma 0.5324 0.00525
++G gamma 1.6272 0.035
++G gamma 0.206 6.65E-4
++G gamma 1.8334000000000001 0.03255
++B beta+ 0.75 0.0028199999999999996
++G gamma 2.1010999999999997 0.00595
++B beta+ 0.485 0.005719999999999999
++G gamma 0.617 4.2E-4
++G gamma 2.1281999999999996 0.005600000000000001
++B beta+ 0.473 0.00588
++G gamma 2.132 0.0012950000000000004
++B beta+ 0.471 0.0059
++G gamma 2.2215 0.0012250000000000002
++B beta+ 0.432 0.00643
++G gamma 0.787 3.5000000000000005E-4
++G gamma 0.8455 7.700000000000002E-4
++G gamma 2.297 0.0011200000000000001
++B beta+ 0.399 0.006860000000000001
++G gamma 2.3886 5.250000000000001E-4
++B beta+ 0.359 0.00733
++G gamma 0.7386 0.002205
++G gamma 1.0605 0.002625
++G gamma 2.5723000000000003 0.026600000000000002
++B beta+ 0.279 0.00809
++G gamma 2.6121 0.002975
++G gamma 2.73 6.65E-4
++B beta+ 0.262 0.00822
++G gamma 0.6242000000000001 9.100000000000001E-4
++G gamma 0.9205 0.01435
++G gamma 1.127 0.021
++G gamma 1.2425 0.00238
++G gamma 1.303 0.0031500000000000005
++G gamma 2.7535 0.004550000000000001
++B beta+ 0.201 0.00853
++G gamma 1.3775 7.000000000000001E-4
++G gamma 2.8895999999999997 0.0019950000000000002
++B beta+ 0.143 0.008665
++G gamma 2.9258 0.0018200000000000002
++B beta+ 0.128 0.008683
++G gamma 0.2292 0.0014000000000000002
++G gamma 0.3475 4.5500000000000006E-4
++G gamma 1.3323 0.01225
++G gamma 1.4477 0.00385
++G gamma 2.9600999999999997 0.0175
++B beta+ 0.113 0.008694
++G gamma 2.981 4.5500000000000006E-4
++B beta+ 0.104 0.008699
++G gamma 0.794 4.2E-4
++G gamma 3.0162 0.0021000000000000003
++B beta+ 8.703999999999999E-4 0.00105
++G gamma 0.4808 0.0014000000000000002
++G gamma 0.52 8.4E-4
++G gamma 0.964 0.0010500000000000002
++G gamma 0.992 9.100000000000001E-4
++G gamma 1.259 0.01225
++G gamma 1.4647999999999999 0.00875
++G gamma 1.5808 0.00525
++G gamma 1.6412 0.00196
++G gamma 3.0927 0.030450000000000005
++B beta+ 8.707000000000001E-4 0.0010551
++G gamma 3.1412 2.1E-4
++B beta+ 8.706E-4 0.0010563
++G gamma 3.2809 3.5000000000000005E-4
++B beta+ 8.701E-4 0.00106
++G gamma 3.4669 4.2E-4
++B beta+ 8.692E-4 0.00106
++G gamma 0.757 8.750000000000001E-4
++G gamma 3.5126999999999997 6.300000000000001E-4
++B beta+ 8.688E-4 0.00107
++G gamma 3.531 3.1500000000000007E-4
++B beta+ 8.687E-4 0.00107
++G gamma 3.534 1.7500000000000003E-4
++B beta+ 8.687E-4 0.00107
++G gamma 3.5572 5.250000000000001E-4
++B beta+ 8.685E-4 0.00107
++G gamma 1.948 6.65E-4
++G gamma 3.5758 0.00196
++B beta+ 8.682999999999999E-4 0.00107
++G gamma 3.837 6.300000000000001E-4
++B beta+ 8.644E-4 0.0011
++G gamma 3.907 8.750000000000001E-5
++B beta+ 8.621E-4 0.0011
++G gamma 3.931 3.5000000000000005E-4
++B beta+ 8.611E-4 0.0011
++G gamma 3.948 5.25E-5
++B beta+ 8.602999999999999E-4 0.0011
++G gamma 3.9655 1.05E-4
+
+# 89ZR    89NB EC DECAY (66 M)          1974VO08                  13NDS    201302
+#  89NB EC DECAY (66 M)          1974VO08                  13NDS    201302
+#H TYP=FUL$AUT=BALRAJ SINGH$CIT=NDS 114, 1 (2013)$CUT=20-Oct-2012$        
+#  Others: 1969HaZP, 1966Ha45, 1964Bu11, 1955Ma13, 1954Di16               
+#  1969HaZX IS SAME AS 1969HaZP                                           
+#  1974Vo08: measured G, GG                                               
+#  Energy balance: total decay energy of 4242 keV {I182} deduced          
+#  (using RADLIST code) from proposed decay scheme is in agreement with   
+#  the expected value of 4204 keV {I34}, indicating that the decay scheme 
+#  is complete                                                            
+#E E$From 1970HaZH: BETA spectrometer.                                    
+#L J,T$From Adopted Levels                                                
+#P   35      LT (1/2)-            66 M     2              4226      27    
+NB89 ZR89 beta+ 4.226 0.0 1
++B beta+ 8.592999999999999E-4 0.0011
++G gamma 0.588 0.9556999999999999
++B beta+ 1.215 8.0E-4
++G gamma 0.5074 0.812345
++B beta+ 0.978 0.00154
++G gamma 0.7696000000000001 0.062120499999999995
++G gamma 1.2775 0.0152912
+

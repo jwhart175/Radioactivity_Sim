@@ -1,0 +1,62 @@
+# 95ZR    95Y B- DECAY                  1983NI09,1973CA26         10NDS    201010
+#  95Y B- DECAY                  1983NI09,1973CA26         10NDS    201010
+#H TYP=FUL$AUT=S. K. Basu, G. Mukherjee, A. A. Sonzogni$                  
+#H CIT=NDS 111, 2555 (2010)$CUT=30-Jun-2009$                              
+#  1973Ca26: measured |g's and |g(t) (Ge(Li)) and |g|g-coin (NaI)         
+#  1983Ni09: measured |g's (Ge(Li)) and %I|g(953|g) (4|p|b-anthracene,    
+#  Ge(Li)). Decay followed for |?10 T's                                   
+#  The decay scheme is a composite of those proposed by 1983Ni09 and      
+#  1973Ca26.                                                              
+#B $<E{-|b}>=1.52 MeV {i7} (1982Al01. Si(Li), Ge(Li)) is in fair          
+#B agreement 1429 keV {i8} from the present decay scheme.                 
+#B $See 1973Jo02 for |b strength function deduced from total |g-ray       
+#B absorption method                                                      
+#B LOGFT(A)$log| {If{+1u}t}|>8.5                                          
+#G $Coincidence data are from 1973Ca26                                    
+#G RI$From 1983Ni09, except as noted                                      
+#G E(A)$From 1983Ni09. Not observed by 1973Ca26                           
+#G E(D)$From 1983Ni09. Others: 1618.5 {I8}, 1721.4 {I6}, 1892.8 {I5},     
+#G 1925.5 {I8}, 1955.9 {I8}, 2498.1 {I10}, 2760.0 {I10}, 3129.8 {I10},    
+#G 3250.2 {I10}, 3577.0 {I10}, 3684.0 {I15}, 3886.9 {I5}, and 4068 {I3}   
+#G from 1973Ca26                                                          
+#G E(E)$Unresolved by 1973Ca26                                            
+#G E(F)$Placement suggested by evaluator based on (n,|g) E=thermal        
+#L J$From the adopted levels                                              
+#G E         {TV}Unweighted averages of the following E{-|g}'s, except    
+#G  as noted:                                                             
+#G {U Adopted  }  {U 1983Ni09 }  {U 1973Ca26 }  |\  {U Adopted }          
+#G {U 1983Ni09 }  {U 1973Ca26 }  |\  {U Adopted }  {U 1983Ni09 }  {U 197  
+#G 3Ca26  }                                                               
+#G 396.2 {I6}       395.6 {I3}    396.8 {I3}    |\   1293.6 {I4}          
+#G  1293.3 {I3}  1294.0 {I5}  |\  1855.2 {I8}     1854.4 {I3}  1856.0 {I8}
+#G 432.0 {I4}       431.7 {I3}    432.4 {I2}    |\   1309.9 {I6}          
+#G  1309.3 {I3}  1310.5 {I5}  |\  1904.0 {I5}     1903.6 {I3}  1904.5 {I8}
+#G 569.1 {I1}       569.0 {I3}    569.2 {I4}    |\   1324.0 {I3}          
+#G  1323.7 {I1}  1324.3 {I3}  |\  1940.3 {I5}     1940.0 {I3}  1940.6 {I5}
+#G 580.3 {I3}       580.0 {I3}    580.5 {I4}    |\   1356.8 {I4}          
+#G  1356.4 {I3}  1357.2 {I5}  |\  2175.6 {I4}     2175.2 {I3}  2176.0 {I5}
+#G 632.3 {I2}       632.1 {I3}    632.5 {I3}    |\   1408.2 {I13}         
+#G  1406.9 {I3} 1409.5 {I8}  |\  2295.5 {I4}     2295.1 {I3}  2295.9 {I6} 
+#G 954.0 {I2}       953.8 {I1}    954.2 {I2}    |\   1418.4 {I4}          
+#G  1418.1 {I3}  1418.8 {I5}  |\  2372.5 {I8}     2371.7 {I3}  2373.3 {I8}
+#G 1002.1 {I1}     1002.0 {I4}    1002.2 {I3}   |\   1511.5 {I4}          
+#G  1511.1 {I3}  1511.9 {I5}  |\  2632.4 {I7}     2631.7 {I3}  2633.0 {I8}
+#G 1048.4 {I2}     1048.2 {I3}    1048.5 {I4}   |\   1631.0 {I8}          
+#G  1630.3 {I3}  1631.8 {I5}  |\  3451.4 {I7}     3450.7 {I5}  3452.0{I12}
+#G 1173.8 {I3}     1173.5 {I3}    1174.0 {I4}   |\   1683.0 {I7}          
+#G  1682.3 {I3}  1683.7 {I5}  |\  3926.0 {I20}    3928.0 {I5}  3924   {I2}
+#G 1213.9 {I4}     1214.2 {I5}    1213.5 {I5}   |\   1805.6 {I3}          
+#G  1805.3 {I3}  1805.9 {I5}                                              
+#P 0.0          1/2-              10.3 M    1              4450     7     
++B beta- 1.936 0.64
++B beta- 0.819 0.0379
++B beta- 0.478 0.09699999999999999
++B beta- 0.427 0.0354
++B beta- 0.341 0.0097
++B beta- 0.29 0.07400000000000001
++B beta- 0.286 0.053
++B beta- 0.246 0.0062
++B beta- 0.169 2.1999999999999998E-4
++B beta- 0.154 1.6E-4
++B beta- 0.104 0.002
+

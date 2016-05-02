@@ -1,0 +1,71 @@
+#100NB    100ZR B- DECAY (7.1 S)        2007RI01,1982VOZP         08NDS    200802
+#  100ZR B- DECAY (7.1 S)        2007RI01,1982VOZP         08NDS    200802
+#H TYP=FUL$AUT=BALRAJ SINGH$CIT=NDS 109, 297 (2008)$CUT=26-Dec-2007$      
+#  2007RI01: Isotopically separated 30-keV beam of {+100}Zr produced      
+#  in U(p,F) reaction at E(p)=30 MeV using ion-guide isotope separator    
+#  on-line (IGISOL) facility at JYFL. The fission fragments were          
+#  accelerated to 30 keV and mass separated by a 55|' dipole magnet.      
+#  The separated beam was injected into a gas-filled radio frequency      
+#  quadrupole cooler and buncher (RFQ).                                   
+#  Measured E|g, I|g, |g|g, |b|g coin, |x|g coin using a planar           
+#  plastic scintillator for |b particles, a large Ge detector and a       
+#  planar low-energy Ge detector for x rays and low-energy |g rays.       
+#  Atomic mass measurements of {+100}Zr and {+100}Nb were made with a     
+#  Penning-trap method using JYFLTRAP. The photon intensities and         
+#  uncertainties on gamma-ray energies and intensities were supplied      
+#  as e-mail reply by S. Rinta-Antila on January 30, 2007 (2007RiZZ)      
+#  1982VOZP: Measured G, GG, BG                                           
+#  Others:                                                                
+#  G: 1989WaZV, 1986LhZX, 1979Bo26, 1977Pf01, 1976Ah06                    
+#  BG: 1984Pa19, 1978St02                                                 
+#  GG(T): 1989Lh01                                                        
+#  T1/2 of 100ZR isotope: 1976Ah06, 1977Pf01, 1972Tr08, 1970Ei02, 1969WiZX
+#  Total decay energy deposit of 3437 keV {I147} calculated by RADLIST    
+#  code is in agreement with expected value of 3426 keV {I23}             
+#B $ Calculation of B- strength function: 1981Al25                        
+#B E$From BG (1982VoZP). Others: 1984Pa19, 1978St02                       
+#G E$ From 2007RI01, unless otherwise stated. The uncertainties are       
+#G from 2007RiZZ. Corresponding values from 1982VoZP are in agreement and 
+#G are given under comments                                               
+#G RI$ From 2007RiZZ. Corresponding values from 1982VoZP are in general   
+#G agreement and are given under comments.                                
+#G TI$ Deduced from photon intensities supplied by 2007RiZZ.              
+#G The values given by 2007RI01 are given under comments                  
+#G $ The |g|g and |b|g coincidence information is from 1982VoZP;          
+#G |g|g coin information is also from 2007RiZZ                            
+#G $ The following G rays of energy (intensity) assigned to               
+#G the decay of 100ZR by 1977Pf01 have been omitted due to lack of        
+#G confirmation in the works of 1982VoZP and 2007RI01: 336.0(0.6),        
+#G 440.9(1.3), 749.4(0.6), 1257.4(1.6), 1654.4(2.2), 2436.0(2.2). Except  
+#G for 336 and 749 |g rays, all others are possibly from the decay of     
+#G 100NB. Further 197.0|g from 1977Pf01 and 695.0|g from 1986LhZX are     
+#G also omitted as explained below.                                       
+#G $ A 197.0G with RI(197G)/RI(504G)=0.01 assigned to 100ZR B- by         
+#G 1977Pf01 is probably from an impurity line. From GG data, 1982VoZP     
+#G deduce RI(197G)/RI(504G) LT 0.003. This |g is not confirmed by         
+#G 2007RI01, thus omitted here.                                           
+#G $ A 695.0|g (IG=1.3) (1986LhZX) has not been confirmed by 2007RI01.    
+#G With the intensity given by 1986LhZX, it should have been seen by      
+#G 2007RI01. This |g ray is also omitted here                             
+#G RI$Photon intensities per 100 decays of 100ZR (2007RI01,1982VoZP). The 
+#G absolute intensity of the 504G (from 1981DeYV) was used by 1982VoZP to 
+#G deduce the normalization factor. The 100ZR and 100NB isotopes were     
+#G assumed to be in transient equilibrium.                                
+#G E(B)$From 2007RI01 only                                                
+#L $ A tentative 695 level decaying by uncertain |g rays: 197.0 (IG<0.1)  
+#L (1977Pf01) and 695.0 (IG=1.3) (1986LhZX) is not confirmed by           
+#L 2007RI01, both |g rays were not seen. This level is omitted here.      
+#L E$ From least-squares fit to E|g's. Normalized |h{+2}=0.8              
+#L J$From 'adopted levels'                                                
+#L J(A)$ 2+,3+ less likely from LOGFT=6.0-6.8 from 0+, but |b feeding     
+#L is quite weak which could be affected by weak unobserved |g-ray        
+#L feeding from higher levels.                                            
+#P  0.0          0+                7.1 S   4                3426    23    
++B beta- 1.465 0.45
++B beta- 1.275 0.19
++B beta- 1.241 0.017
++B beta- 1.229 0.008
++B beta- 1.226 0.33
++B beta- 1.155 0.0012
++B beta- 1.132 0.0074
+

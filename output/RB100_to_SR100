@@ -1,0 +1,43 @@
+#100SR    100RB B- DECAY (51 MS)        2001LH02                  08NDS    200802
+#  100RB B- DECAY (51 MS)        2001LH02                  08NDS    200802
+#H TYP=FUL$AUT=BALRAJ SINGH$CIT=NDS 109, 297 (2008)$CUT=26-Dec-2007$      
+#  2001Lh02: {+100}Rb isotope obtained from U(p,F) at 600 MeV followed    
+#  by mass separation at ISOLDE facility. Measured E|g, I|g, |g|g,        
+#  |g|g(t), |b|g coin. Earlier studies from the same laboratory:          
+#  1995Pf04, 1990Lh01, 1990Lh03                                           
+#  Others: 1986Wa17, 1982Kr11, 1980JuZY, 1979Az01, 1979Pe01, 1978Ko29     
+#  Isotopic identification and half-life measurements: 1986Wa17,          
+#  1979Pe01, 1978Ko29                                                     
+#  Q- measurement using BG: 1984Pa19, 1985IaZZ                            
+#  %B-N measurement: 1986Wa17, 1993Ru01                                   
+#  EG, IG: 1995Pf04, 1990Lh01, 1982Kr11, 1979Az01                         
+#  BCE(T): 1979Az01                                                       
+#  GG(T): 1995Pf04, 1990Lh01                                              
+#  Theoretical calculations of %B-N and %B-2N probability: 1983Ly06,      
+#  1983Ly03, 1983Ly01                                                     
+#  LEVEL SCHEME IS FROM 2001LH02. EARLIER LEVEL SCHEME FROM 1995PF04      
+#  AND 1990LH03 CONTAINED SEVEN EXCITED STATES UP TO 1779 KEV AND         
+#  GAMMA RAYS                                                             
+#  Total decay energy deposit of 12.20 MeV {I48} calculated by RADLIST    
+#  code is somewhat lower than the expected value of 13.13 MeV {I30}      
+#B IB,LOGFT$Deduced by the evaluator from intensity balance at            
+#B each level. These values should be considered only as approximate      
+#B since the level scheme seems incomplete in view of a large gap         
+#B of |?10 MeV between the highest (known) populated level at 3346        
+#B and Q(|b{+-})=13520. Also apparent |b{+-} feedings to levels of J|p=0+ 
+#B to 6+ and associated log| {Ift} values are mutually inconsistent with  
+#B J|p=(4-) or (3+) proposed by 2001Lh02 and 1995Pf04, respectively.      
+#B There is also the possibility of an isomer with spin 1 or 6 as         
+#B proposed in 2002Lh01 and 1995Pf04, respectively.                       
+#G E(A)$Possibly in coin with 129|g                                       
+#G E(B)$Since this |g is also placed in {+99}Nb, its appearance           
+#G in 129|g-gated spectrum might be due to accidental coin                
+#G E(C)$Since this |g is also placed in {+99}Zr and {+100}Zr, its         
+#G appearance in 129|g-gated spectrum might be due to accidental coin     
+#G E(D)$Possibly in coin with 162|g                                       
+#G RI(E)$about 25% of the intensity is contributed by {+100}Mo            
+#L E$From least-squares fit to E|g's                                      
+#L J$From 'adopted levels'                                                
+#P        0    (3+,4-)           51 MS     8              13128     SY    
+RB100 SR100 beta- 13.128 0.051 1.0
+

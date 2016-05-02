@@ -1,0 +1,17 @@
+# 55MN    55CR B- DECAY                 1970HI04,1970ZO02         08NDS    200803
+#  55CR B- DECAY                 1970HI04,1970ZO02         08NDS    200803
+#H TYP=FUL$AUT=HUO JUNDE$CIT=NDS 109, 787 (2008)$CUT=30-Apr-2007$         
+#  1970Hi04: source from 54CR(N,G); natural target; GELI (30 CM3),        
+#  resolution: 3.5 KEV at 1332 KEV; measured EG, RI, GG-coin.             
+#  1970Zo02: used three different techniques to measure I(B-) (absolute   
+#  intensities); GELI for G (FWHM: 2.6 KEV for 1332 KEV);                 
+#  a low background gas-flow 2PI proportional counter for B-,             
+#  with anticoincidence guard counter.                                    
+#  See also 1967Pr05 and 1969HiZZ.                                        
+#  Adopted EG, IG, and decay scheme are from 1970Hi04.                    
+#B           For B- endpoint energy measurements, see 1952Fl21, 1963Me06, 
+#B and 1965Ko09.                                                          
+#L J         From adopted levels                                          
+#P 0.0          3/2-             3.497 M   3              2603.1     4    
+CR55 MN55 beta- 2.6031 209.82 0.00037
+

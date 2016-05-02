@@ -1,0 +1,49 @@
+#164HF    164TA EC DECAY (14.2 S)       1989HI04                  NDS01    200107
+#  164TA EC DECAY (14.2 S)       1989HI04                  NDS01    200107
+#H TYP=FUL$AUT=BALRAJ SINGH$CIT=NDS 93, 243 (2001)$CUT=15-May-2001$       
+#  1989HI04 (also 1986RU05): Measured E|g, I|g, |g|g coin, T1/2           
+#  The assignment of G radiation to tantalum decays was                   
+#  performed by coincidence measurements with HF XK rays following        
+#  EC decay and/or internal conversion.                                   
+#  Others:                                                                
+#  1982EI03 (also 1989BR19): Measured E|g, I|g, T1/2                      
+#  1982LI17: Measured E|g, I|g, T1/2. Two |g rays reported at 210.7 and   
+#  376.5 KEV.                                                             
+#  1983SC18: Measured E|a, E|g, I|g, T1/2. Two |g rays reported at        
+#  211.05 (100) and 376.8 (25). E|a=4625 15                               
+#  1992HA10: Measured E|g, I|g, T1/2, E|a, I|a. Five |g rays              
+#  are reported with energies and intensities                             
+#G M$From adopted gammas                                                  
+#G E(A),RI(A)$Weighted averages of 1989HI04 and 1992HA10                  
+#L J         From adopted levels.                                         
+#E TI,LOGFT$All feedings and LOGFT values should be treated as            
+#E approximate since there is a gap of AP 6.8 MEV between the Q- value and
+#E highest level shown in the present decay scheme.                       
+#P 0           (3+)              14.2 S    3              8561      SY    
+TA164 HF164 beta+ 8.561 14.2 1.0
++B beta+ 6.8E-4 0.0032
++G gamma 0.2107 0.74
++B beta+ 3.383 0.0
++G gamma 0.37639999999999996 0.204
++B beta+ 3.203 0.0
++G gamma 0.4095 0.022000000000000002
++B beta+ 3.187 0.0
++G gamma 0.6052000000000001 0.141
++G gamma 0.816 0.084
++B beta+ 3.094 0.001
++G gamma 0.485 0.017
++G gamma 0.8617999999999999 0.10300000000000001
++B beta+ 2.972 0.001
++G gamma 0.6505 0.033
++B beta+ 2.894 0.001
++G gamma 0.765 0.019
++G gamma 1.142 0.07
++B beta+ 2.839 0.001
++G gamma 0.642 0.040999999999999995
++B beta+ 2.789 0.001
++G gamma 1.2755 0.024
++B beta+ 2.776 0.001
++G gamma 0.5415 0.024
++B beta+ 2.716 0.001
++G gamma 1.465 0.026000000000000002
+

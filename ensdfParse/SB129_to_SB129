@@ -1,0 +1,31 @@
+#129SB    129SB IT DECAY (17.7 M)       1987ST23,1987STZO,1982HU0914NDS    201408
+#  129SB IT DECAY (17.7 M)       1987ST23,1987STZO,1982HU0914NDS    201408
+#H TYP=FUL$AUT=JANOS TIMAR AND ZOLTAN ELEKES, BALRAJ SINGH$               
+#H CIT=NDS 121, 143 (2014)$CUT=31-May-2014$                               
+#  1987St23, 1987StZO: 235U(N,F) E=TH, on-line MS; semi, G, CE, GG-coin, T
+#  1982Hu09: 235U(N,F) E=TH, on-line MS; ^Ge G, GG-coin, T.               
+#  See also 129SN B- decay (6.9 M).                                       
+#G E$From 1987StZO                                                        
+#G RI$Deduced from TI=100 and CC.                                         
+#L $1982Hu09 report a 17-min isomer with excitation energy unknown.       
+#L 1987St23 assign the isomer to 1851 level.                              
+#L J,T$From Adopted Levels                                                
+#P 1851.29   10(19/2-)           17.7 M    1                              
+SB129 SB129 IT 0.0 1062.0 0.15
++G gamma 1.1285999999999998 1.0
++G gamma 0.72269 0.948
+
+#129SB    129SB IT DECAY (1.1 US)       2003GE04                  14NDS    201408
+#  129SB IT DECAY (1.1 US)       2003GE04                  14NDS    201408
+#H TYP=FUL$AUT=JANOS TIMAR AND ZOLTAN ELEKES, BALRAJ SINGH$               
+#H CIT=NDS 121, 143 (2014)$CUT=31-May-2014$                               
+#  2003Ge04 (also 1998GeZX): E(n)=thermal. Measured E|g, I|g, |g|g, |g(t) 
+#  using two large-volume Ge detectors and two cooled Si(Li) detectors    
+#  after separation by the LOHENGRIN spectrometer.                        
+#G E,M$From Adopted Gammas                                                
+#G RI$From Adopted Gammas for |g rays from the 1860.8 isomer; for         
+#G |g rays deduced from the level scheme                                  
+#L E,J,T$From Adopted Levels, unless otherwise stated                     
+#N                         1.0                                            
+#P 2139.4     3(23/2+)             1.1 US  1                              
+

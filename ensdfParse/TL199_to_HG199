@@ -1,0 +1,37 @@
+#199HG    199TL EC DECAY (7.42 H)       1975MA05,1960JU03,1962BA3707NDS    200703
+#  199TL EC DECAY (7.42 H)       1975MA05,1960JU03,1962BA3707NDS    200703
+#H TYP=FUL$AUT=BALRAJ SINGH$CIT=NDS 108, 79 (2007)$CUT=15-Oct-2006$       
+#  1975Ma05: prepared by 197AU(A,2N), MEASURED EG, IG                     
+#  1960Ju03: prepared by 85-MEV proton irradiation of thallium.           
+#  Chem separation of PB followed by mass-separator TL purification, CE   
+#  spectra, magnetic spectrometer                                         
+#  1962BA37: MEASURED G, GG, GG(T), GG(THETA)                             
+#  Others:                                                                
+#  G: 1951IS02                                                            
+#  CE: 1960JU03, 1953BE79                                                 
+#  GG: 1961GR29                                                           
+#  GG(T), GG(THETA,H,T): 1961GR29                                         
+#  (CE)(CE)(T): 1961RE12                                                  
+#E TI$Deduced from level scheme, unless otherwise noted                   
+#G           EKC (1975Ma05) given in the table were calculated from       
+#G ICE(K)(1960Ju03)/IG(1975Ma05) assuming that the 158.379G is E2 and     
+#G KC=0.30                                                                
+#G E,RI$ From 1975Ma05, unless otherwise noted                            
+#G RI(A)$ G line not seen. Estimated from CE spectra of 1960Ju03 based    
+#G on M1 assignment                                                       
+#G E(B)$ G seen in coincidence spectra only (1975Ma05)                    
+#G E(D)$ From 1960Ju03                                                    
+#G M(E),MR$ From 'adopted gammas', unless otherwise indicated             
+#G MR(F)$For possible penetration effect, see comment in 199AU B- decay   
+#L E$ From least-squares fit to E|g's                                     
+#L J$ From 'adopted levels'                                               
+#P    0.0       1/2+             7.42 H    8              1488      28    
++B beta+ 0.231 2.7E-4
++B beta+ 7.794E-4 0.0016
++B beta+ 7.993E-4 0.00151
++B beta+ 7.957999999999999E-4 0.00154
++B beta+ 7.683999999999999E-4 0.0017000000000000001
++B beta+ 7.946E-4 0.00154
++B beta+ 7.936999999999999E-4 0.00155
++B beta+ 7.843E-4 0.0016
+

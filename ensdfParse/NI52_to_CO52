@@ -1,0 +1,42 @@
+# 52CO    52NI EC DECAY                 2007DO17,2013SU07,1994FA0615NDS    201509
+#  52NI EC DECAY                 2007DO17,2013SU07,1994FA0615NDS    201509
+#H TYP=FUL$AUT=YANG DONG, HUO JUNDE$CIT=NDS 128, 185 (2015)$              
+#H CUT=10-Jul-2015$                                                       
+#  2007Do17: Fragmentation reaction used to produce {+52}Ni isotope,      
+#  primary beam: {+58}Ni{+26+} at 74.5 MeV/nucleon; target=natural Ni.    
+#  Fragment separator=ALPHA-LISE3. Fragment identification by energy      
+#  loss, residual energy and time-of-flight measurements using two        
+#  micro-channel plate (MCP) detectors and Si detectors. Double-sided     
+#  silicon-strip detectors (DSSSD) and a thick Si(Li) detector were       
+#  used to detect implanted events, charged particles and |b particles.   
+#  |g rays were detected by four Ge detectors. Coincidences measured      
+#  between charged particles and |g rays. T{-1/2} measured by time        
+#  correlation of implantation events due to {+52}Ni and subsequent       
+#  emission of protons and |g rays. A partil decay scheme of 52Ni was     
+#  established.                                                           
+#  2013Su07: produced by Ni({+58}Ni,X), E({+58}Ni)=68.6 MeV/nucleon,      
+#  natural Ni target: 147 |mg/cm{+2}. Measured |b-delayed protons,        
+#  (proton)|g-coin, E|g, I|g, time-of-flight, energy loss, T{-1/2} using  
+#  two plastic scintillator films, a thick silicon detector,              
+#  a double-sided silicon strip detector (DSSSD) and five segmented       
+#  clover detectors. Performed nucleosynthesis calculations of rapid      
+#  proton-capture process in an x-ray burst.                              
+#  1994Fa06: source produced by Ni({+58}Ni,X), E=68 MeV/nucleon, thick    
+#  natural nickel target, mass separation at GANIL. Implanted the {+52}Ni 
+#  in a silicon detector (150 |mm) in a microstrip gas counter.           
+#  Measured the half-life of {+52}Ni and the energies of |b-delayed       
+#  protons emitted during the decay of {+52}Ni. Two proton lines have     
+#  been observed at E(p)=1060 {I50} and 1340 {I60} keV with branching     
+#  ratios of 0.06 {I1} and 0.11 {I1}, respectively. Analyzed origin of    
+#  the two proton peaks: The proton line at 1340 keV is attributed to     
+#  two decays from an IAS (0+, ispin=2, mass excess=-31516 keV) and a 1+  
+#  level (22 keV below the IAS) of {+52}Co to the ground state of         
+#  {+51}Fe,respectively. The proton line at 1060 keV is also explained    
+#  by twodecays from the IAS to the first excited state in {+51}Fe and    
+#  other 1+ level (294 keV below the IAS) in {+52}Co to the ground state  
+#  of {+51}Fe, respectively. The IAS and two 1+ levels in {+52}Co are     
+#  populated from the ground state of {+52}Ni.                            
+#  All data are from 2007DO17, except as noted.                           
+#P 0             0+              40.8 MS   2              10520     SY    
++G gamma 2.4183000000000003 0.38
+

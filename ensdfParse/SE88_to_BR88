@@ -1,0 +1,38 @@
+# 88BR    88SE B- DECAY (1.53 S)        1980ZE04                  14NDS    201401
+#  88SE B- DECAY (1.53 S)        1980ZE04                  14NDS    201401
+#H TYP=FUL$AUT=E.A. McCutchan and A.A. Sonzogni$CIT=NDS 115, 135 (2014)$  
+#H CUT=1-Nov-2013$                                                        
+#  1980Ze04: {+88}Se activity produced in {+235}U(n,F) followed by fast   
+#  chemical separation. Measured E|g, I|g, and |g|g using  two Ge(Li)     
+#  detectors (FWHM=1.75 keV and 2.1 keV at 1.33 keV).                     
+#  Feeding to the g.s. is unknown. 1982Li09 reported a 20.5 % value,      
+#  while results from 1980Ze04 can be interpreted as showing a 38% g.s.   
+#  intensity. These values give log| {Ift} values of 5.6 and 5.3,         
+#  respectively. On the other hand, in its |b{+-} decay, {+88}Br has      
+#  log| {If{+1u}t}=9.9 to 2276-keV, J|p=0+ level and log|                 
+#  {If{+1u}t}=10.3 to 1643-keV, J|p=4+ level in {+88}Kr, which leads to   
+#  a J|p value of (2-) for {+88}Br, incompatible with the log| {Ift}      
+#  values for {+88}Se(g.s) to {+88}Br(g.s.) using the intensities from    
+#  1982Li09 and 1980Ze04. We have adopted a (2-) value, which will give   
+#  a g.s. intensity of |<3% assuming a log| {If{+1u}t}|>8.5.              
+#B IB$Approximate values, deduced from |g intensity balance               
+#B LOGFT$Approximate values deduced from I|b.                             
+#G E$From 1980Ze04. |DE reported by the authors to 0.3 keV for the        
+#G strongest and 0.5 keV for the weakest lines. Individual uncertainties  
+#G assigned by the evaluators.                                            
+#G RI$From 1980Ze04. |DI|g=10% reported by 1978ZeZZ.                      
+#G E(A)$Only seen in coincidence spectra.                                 
+#G RI(B)$Contribution from 1643.9|g ({+88}Kr) subtracted.                 
+#G RI(D)$Contribution from double-escape of 2925.2|g ({+86}Kr)            
+#G subtracted.                                                            
+#G M,MR$From the Adopted Gammas.                                          
+#L E$From a least-squares fit to E|g, by evaluators.                      
+#L J,T$From the Adopted Levels.                                           
+#  CC$FROM BrIcc v2.3a (30-Jun-2013) 2008Ki07, "Frozen Orbitals" appr.    
+#P 0.0          0+                1.53 S    6              6832     5     
++B beta- 2.989 0.061
++B beta- 2.9231 0.055
++B beta- 2.847 0.061
++B beta- 2.1999 0.4
++B beta- 1.5976 0.068
+

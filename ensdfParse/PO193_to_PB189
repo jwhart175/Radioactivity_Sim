@@ -1,0 +1,39 @@
+#189PB    193PO A DECAY (370 MS)        2002Va13,1993Wa04         ENSDF    201102
+#  193PO A DECAY (370 MS)        2002Va13,1993Wa04         ENSDF    201102
+#H TYP=FUL$AUT=T.D. Johnson, D. Choudhury, H. Pai, B. Singh$CIT=ENSDF$    
+#H CUT=28-FEB-2011$                                                       
+#  2002Va13: {+193}Po produced by {+166}Er({+32}S,5n) E{-lab}({+32}S) =   
+#  169 MeV; implanted into position sensitive silicon strip detector to   
+#  register the decayed |a-particles;  Ge detectors for |g and X-rays;    
+#  Silicon detectors for conversion electrons; E|a, E|g, E(ce), |a|g and  
+#  |a-ce coincidences measured.                                           
+#  1993Wa04: |a-sources {+193}Po produced by <240 MeV Ne on 2.1           
+#  mg/cm{+2} {+182}W target; LISOL separator; Silicon surface-barrier     
+#  detector and silicon PIPS-type detectors; E|a, T{-1/2} measured.       
+#  See also, 1995Mo14, 1981Le23, 1977De32                                 
+#L E,J$From 2002Va13                                                      
+#A IA,HF$From 2002Va13                                                    
+#P 0+X          (3/2-)            370 MS   +46-40          7093     4     
++A alpha 6.948 0.993
++A alpha 6.42 0.006999999999999999
+
+#189PB    193PO A DECAY (245 MS)        2002VA13,1993WA04         ENSDF    201102
+#  193PO A DECAY (245 MS)        2002VA13,1993WA04         ENSDF    201102
+#H TYP=FUL$AUT=T.D. Johnson, D. Choudhury, H. Pai, B. Singh$CIT=ENSDF$    
+#H CUT=28-FEB-2011$                                                       
+#  2002Va13: {+193}Po produced by {+166}Er({+32}S,5n); implanted into     
+#  position sensitive silicon strip detector to register the decayed      
+#  |a-particles;  Ge detectors for |g and X-rays; Silicon detectors for   
+#  conversion electrons; E|a, E|g, E(ce), |a|g and |a-ce coincidences     
+#  measured.                                                              
+#  1993Wa04: |a-sources {+193}Po produced by <240 MeV Ne on 2.1           
+#  mg/cm{+2} {+182}W target; LISOL separator; Silicon surface-barrier     
+#  detector and silicon PIPS-type detectors; E|a, T{-1/2} measured.       
+#  See also, 2005UU02, 1995Mo14, 1981Le23, 1967Si09.                      
+#L E,J$From 2002Va13                                                      
+#A IA,HF$From 2002Va13                                                    
+#  ADDED N RECORD (TWB. 19990323)                                         
+#P 0+Y          (13/2+)           245 MS    22             7093     4     
++A alpha 7.002 0.992
++A alpha 6.375 0.008
+

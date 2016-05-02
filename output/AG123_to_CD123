@@ -1,0 +1,14 @@
+#123CD    123AG B- DECAY                1989HU10                  04NDS    200410
+#  123AG B- DECAY                1989HU10                  04NDS    200410
+#H TYP=FUL$AUT=S. Ohya$CIT=NDS 102, 547 (2004)$CUT=1-Nov-2003$            
+#  1989HU10: U(N,F) FAST NEUTRON, ON-LINE MS, SEMI G, GG(T), G(T)         
+#  THE DECAY SCHEME IS THAT PROPOSED BY 1989HU10.                         
+#L E         E(levels) are based on a least-squares fit to E(|g's)        
+#G CC(L)$FOR MR=1; UNCERTAINTIES ARE CHOSEN TO COVER M1, E2 THEORY VALUES 
+#L J         From Adopted Levels                                          
+#P 0.0         (7/2+)            0.300 S   5              7.36E+3   21    
+AG123 CD123 beta- 7.36 0.3 0.913
++G gamma 0.11641 0.083
++G gamma 0.26387 0.39299999999999996
++G gamma 0.40979000000000004 0.145
+

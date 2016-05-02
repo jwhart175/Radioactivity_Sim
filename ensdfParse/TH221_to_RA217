@@ -1,0 +1,34 @@
+#217RA    221TH A DECAY                                           03NDS    200309
+#  221TH A DECAY                                           03NDS    200309
+#H TYP=FUL$AUT=Y. A. AKOVALI$CIT=NDS 100, 141 (2003)$CUT=26-Jun-2003$     
+#  The adopted half-life of the parent {+221}Th is the weighted           
+#  average of 1.68 ms {I6}, 1.8 ms {I3}, 1.9 ms {I1},                     
+#  2.0 ms +3-2 and 1.73 ms {I3}, measured by 1970TO07, 1970VA13,          
+#  1993ANZS, 2000HE17 and 2001KO07, respectively.                         
+#  Q{-|a}({+221}Th)=8628 {I5} is from the mass adjustments of 1995Au04;   
+#  E{-|a}=8470 {I5} gives QA=8626 {I5}.                                   
+#A           From the masses listed at http://csnwww.in2p3.fr/amdc/,      
+#A QA=8627 14.                                                            
+#A E         From measured energies, as listed for each alpha. Two        
+#A additional alpha groups, 8265 {I10} and 8375 {I10} |a's, were listed   
+#A by 1990An19, and one additional 8375 {I15} |a was listed by 1993AnZS.  
+#A These |a's are not given here because their assignments have not been  
+#A confirmed in later works.                                              
+#A IA        Unweighted average of intensities measured by 1970Va13,      
+#A 1970To07 and 2000He17. Relative intensities quoted here are            
+#A normalized such that the sum of alpha intensities is 100%. The         
+#A intensities given by 1990An19 and additional 1993AnZS are              
+#A re-normalized by the evaluator by excluding the |a's seen only by      
+#A them. Note that I{-|a}'s of 1970Va13 quoted here are those given in    
+#A their paper as their best values, and they are slightly different      
+#A than those listed in their Table IV.                                   
+#A HF        r{-0}({+217}Ra)=1.553 12, average of                         
+#A r{-0}({+216}Ra)=1.1.566 9 and r{-0}({+218}Ra)=1.539 8 (1998Ak04),      
+#A is used in calculations.                                               
+#L E         From |a energies.                                            
+#L J         Adopted values                                               
+#P  0.0        (7/2+)              1.73 MS 3               8628     5     
++A alpha 8.47 0.39
++A alpha 8.145 0.56
++A alpha 7.73 0.05
+

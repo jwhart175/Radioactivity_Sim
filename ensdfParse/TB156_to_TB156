@@ -1,0 +1,44 @@
+#156TB    156TB IT DECAY (24.4 H)       1970TO11                  12NDS    201210
+#  156TB IT DECAY (24.4 H)       1970TO11                  12NDS    201210
+#H TYP=FUL$AUT=C. W. REICH$CIT=NDS 113, 2537 (2012)$CUT=1-Mar-2012$       
+#  DATA SET MODIFIED (FEBRUARY, 2012) BY CW REICH TO CHANGE A CC VALUE    
+#   AND MODIFY THE Q VALUES.                                              
+#  1970To11 produced this activity by the {+157}Gd(p,2n) reaction on      
+#  enriched (93.7%) and natural (15.6%) targets with chemical separation. 
+#  ce measured in magnetic spectrometer. One |g reported. Existence of    
+#  this activity confirmed by 1975ViZP.                                   
+#G M         From {+156}Tb Adopted |g radiations.                         
+#L J         From {+156}Tb Adopted Levels.                                
+#L BAND(A)     KPI=3- Bandhead, conf=|p3/2[411]+|n3/2[521].               
+#L BAND(B)     KPI=4+ Bandhead, conf=|p3/2[411]-|n5/2[642].               
+#L BAND(C)     KPI=7- Bandhead, conf=|p3/2[411]+|n11/2[505].              
+#P   49.630+X   (7-)              24.4 H   10                             
+
+#156TB    156TB IT DECAY (5.3 H)        1970TO11,1957MI01,1955HA5212NDS    201210
+#  156TB IT DECAY (5.3 H)        1970TO11,1957MI01,1955HA5212NDS    201210
+#H TYP=FUL$AUT=C. W. REICH$CIT=NDS 113, 2537 (2012)$CUT=1-Mar-2012$       
+#  DATA SET UPDATED (FEBRUARY, 2012) BY CW REICH TO INCLUDE NEW CC VALUES 
+#  Data are from 1957Mi01, 1957Mi67, and 1970To11 for the |g ray and      
+#  1950Wi13, 1955Ha52, and 1970To11 for the half-life. Others: 1970Ag02;  
+#  1975ViZP.                                                              
+#  Experimental methods:                                                  
+#  1950Wi13: from 153EU(A,N), E(A)=19-38 MeV and GD(P,XN), E(P)=10 MEV.   
+#   B+ observed in spectrograph.                                          
+#  1955Ha52: from (P,XN) on enriched GD targets with chemical separation. 
+#   Half-life measured.                                                   
+#  1957Mi01: From (P,XN) with chemical separation. CE measured using      
+#   magnetic spectrometer. Report 88-keV G.                               
+#  1957Mi67: From (P,XN) with chemical separation.  CE measured using     
+#   magnetic spectrograph. Report 88-keV G.                               
+#  1970To11: From 157GD(P,2N) on enriched (93.7%) and natural (15.6%)     
+#   targets with chemical separation. CE measured using magnetic          
+#   spectrometer. Report half-life and multipolarity of 88-keV G.         
+#  OTHER:                                                                 
+#  1975ViZP: Produced by irradiation of GD target with chemical separation
+#       GG and XG coincidences measured.                                  
+#G M         From {+156}Tb Adopted |g radiations.                         
+#L J         From {+156}Tb Adopted Levels.                                
+#L BAND(A)     KPI=3- Bandhead, conf=|p3/2[411]+|n3/2[521].               
+#L BAND(D)     KPI=0+ Bandhead, conf=|p3/2[411]-|n3/2[402].               
+#P  88.4       (0+)               5.3 H    2                              
+

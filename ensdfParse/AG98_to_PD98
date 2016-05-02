@@ -1,0 +1,227 @@
+# 98PD    98AG EC DECAY (47.5 S)        2000HU17,2001HUZZ         03NDS    200305
+#  98AG EC DECAY (47.5 S)        2000HU17,2001HUZZ         03NDS    200305
+#H TYP=FUL$AUT=BALRAJ SINGH, ZHIQIANG HU$CIT=NDS 98, 335 (2003)$          
+#H CUT=31-Jan-2003$                                                       
+#  2000HU17, 2001HUZZ: {+98}Ag formed by {+61}Ni({+40}Ca,1p2n)            
+#  E=3.75 MeV/nucleon reaction. Measured E|g, I|g, |g|g, using a          
+#  cube-like array of six Euroball-cluster Ge detectors. Total absorption 
+#  gamma-ray spectrum (TAGS) measured with a large NaI detector. Also     
+#  measured half-life of {+98}Ag nuclide and Q value for decay.           
+#  Others:                                                                
+#  1982KU15: {+98}Ag formed by {+62}Ni({+40}Ca,p3n). Measured |g, |g|g.   
+#  A total of 24 |g rays reported, 16 of which were assigned amongst      
+#  11 levels                                                              
+#  1978HU11: {+98}Ag formed by {+92}Mo({+14}n,|a4n). Measured |g, |g|g.   
+#  Four strong |g rays reported                                           
+#  1980VeZN:  singles |b{++} data.                                        
+#  The level scheme is from 2001HUZZ. See experimental details in 2000HU17
+#E $From intensity balance, feeding to the 863 level is 3 7,              
+#E consistent with no feeding as expected from |DJ=(4). Apparent feeding  
+#E of 1.2 8 to 2773, (8+) level may be due to missing GAMMA-ray intensity 
+#E feeding this level                                                     
+#E LOGFT$Values are rounded off to nearest tenth. Overall uncertainty     
+#E is estimated as GE 0.1.                                                
+#G E,RI$From 2001HUZZ. See experimental details in 2000HU17               
+#G E(A)$1982KU15 misassigned this transition from 3441 level              
+#G E(X)$Poor fit. Energy from least-squares adjustment differs            
+#G by 0.3 to 1.0 KEV from the quoted EG. Fitted energy is given under     
+#G comments                                                               
+#G E(B)$ LEVEL-ENERGY DIFFERENCE=1550.16                                  
+#G E(C)$ LEVEL-ENERGY DIFFERENCE=717.15                                   
+#G E(D)$ LEVEL-ENERGY DIFFERENCE=1264.06                                  
+#G E(E)$ LEVEL-ENERGY DIFFERENCE=1521.06                                  
+#G E(F)$ LEVEL-ENERGY DIFFERENCE=1352.41                                  
+#G E(G)$ LEVEL-ENERGY DIFFERENCE=2428.0                                   
+#G E(H)$ LEVEL-ENERGY DIFFERENCE=1203.18                                  
+#G E(I)$ LEVEL-ENERGY DIFFERENCE=1189.98                                  
+#G E(J)$ LEVEL-ENERGY DIFFERENCE=755.05                                   
+#G E(K)$ LEVEL-ENERGY DIFFERENCE=1468.07                                  
+#G E(L)$ LEVEL-ENERGY DIFFERENCE=1995.36                                  
+#G E(M)$ LEVEL-ENERGY DIFFERENCE=2151.51                                  
+#G E(N)$ LEVEL-ENERGY DIFFERENCE=2270.31                                  
+#G E(O)$ LEVEL-ENERGY DIFFERENCE=2202.80                                  
+#G E(P)$ LEVEL-ENERGY DIFFERENCE=1258.04                                  
+#G E(Q)$ LEVEL-ENERGY DIFFERENCE=2779.09                                  
+#G E(R)$ LEVEL-ENERGY DIFFERENCE=1506.47                                  
+#L E$From least squares fit to E|g's. Some of the uncertainties on        
+#L E|g's may be underestimated, since about 17 quoted E|g's deviate       
+#L from the least-squares fitted value by 3 or more times the quoted      
+#L uncertainty. Another 35 E|g's deviate by 2 times the quoted            
+#L uncertainty.                                                           
+#L J$From adopted levels. The assignments are based on EC+B+              
+#L feedings from (6+) and |g decay modes. When no JPI is given,           
+#L LOGFT from (6+) suggests (5,6,7). See detailed comments in             
+#L adopted levels                                                         
+#P 0           (6+)              47.5 S    3              8200      70    
+AG98 PD98 beta+ 8.2 47.5 1.0
++B beta+ 0.266 0.00834
++B beta+ 2.617 1.0E-4
++B beta+ 2.412 2.0E-4
++B beta+ 2.342 2.0E-4
++B beta+ 2.256 2.0E-4
++B beta+ 2.199 3.0E-4
++B beta+ 2.124 3.0E-4
++B beta+ 2.099 3.0E-4
++B beta+ 2.098 3.0E-4
++B beta+ 2.048 3.0E-4
++B beta+ 2.027 3.0E-4
++B beta+ 2.024 3.0E-4
++B beta+ 2.019 4.0E-4
++B beta+ 1.914 4.0E-4
++B beta+ 1.911 4.0E-4
++B beta+ 1.905 4.0E-4
++B beta+ 1.879 4.0E-4
++B beta+ 1.872 4.0E-4
++B beta+ 1.86 5.0E-4
++B beta+ 1.856 5.0E-4
++B beta+ 1.833 5.0E-4
++B beta+ 1.811 5.0E-4
++B beta+ 1.751 5.0E-4
++B beta+ 1.75 5.0E-4
++B beta+ 1.749 5.0E-4
++B beta+ 1.736 6.0E-4
++B beta+ 1.725 6.0E-4
++B beta+ 1.706 6.0E-4
++B beta+ 1.683 6.0E-4
++B beta+ 1.653 6.0E-4
++B beta+ 1.639 7.000000000000001E-4
++B beta+ 1.63 7.000000000000001E-4
++B beta+ 1.615 7.000000000000001E-4
++B beta+ 1.579 7.000000000000001E-4
++B beta+ 1.564 7.000000000000001E-4
++B beta+ 1.558 8.0E-4
++B beta+ 1.555 8.0E-4
++B beta+ 1.553 8.0E-4
++B beta+ 1.528 8.0E-4
++B beta+ 1.511 8.0E-4
++B beta+ 1.492 9.0E-4
++B beta+ 1.486 9.0E-4
++B beta+ 1.475 9.0E-4
++B beta+ 1.465 9.0E-4
++B beta+ 1.458 9.0E-4
++B beta+ 1.456 9.0E-4
++B beta+ 1.453 9.0E-4
++B beta+ 1.445 9.0E-4
++B beta+ 1.418 0.001
++B beta+ 1.403 0.001
++B beta+ 1.399 0.001
++B beta+ 1.398 0.001
++B beta+ 1.392 0.001
++B beta+ 1.383 0.001
++B beta+ 1.377 0.0011
++B beta+ 1.37 0.0011
++B beta+ 1.364 0.0011
++B beta+ 1.356 0.0011
++B beta+ 1.337 0.0011
++B beta+ 1.317 0.0012
++B beta+ 1.311 0.0012
++B beta+ 1.308 0.0012
++B beta+ 1.305 0.0012
++B beta+ 1.294 0.0012
++B beta+ 1.291 0.0013
++B beta+ 1.286 0.0013
++B beta+ 1.276 0.0013
++B beta+ 1.266 0.0013
++B beta+ 1.259 0.0013
++B beta+ 1.251 0.0014000000000000002
++B beta+ 1.249 0.0014000000000000002
++B beta+ 1.248 0.0014000000000000002
++B beta+ 1.246 0.0014000000000000002
++B beta+ 1.233 0.0014000000000000002
++B beta+ 1.224 0.0014000000000000002
++B beta+ 1.207 0.0015
++B beta+ 1.2 0.0015
++B beta+ 1.197 0.0015
++B beta+ 1.188 0.0015
++B beta+ 1.187 0.0015
++B beta+ 1.18 0.0016
++B beta+ 1.161 0.0016
++B beta+ 1.157 0.0016
++B beta+ 1.156 0.0017000000000000001
++B beta+ 1.154 0.0017000000000000001
++B beta+ 1.143 0.0017000000000000001
++B beta+ 1.131 0.0017000000000000001
++B beta+ 1.118 0.0018
++B beta+ 1.106 0.0018
++B beta+ 1.088 0.0019
++B beta+ 1.083 0.0019
++B beta+ 1.062 0.002
++B beta+ 1.047 0.0021
++B beta+ 1.046 0.0021
++B beta+ 1.032 0.0022
++B beta+ 1.027 0.0022
++B beta+ 1.026 0.0022
++B beta+ 1.013 0.0022
++B beta+ 1.008 0.0023
++B beta+ 1.007 0.0023
++B beta+ 0.994 0.0023899999999999998
++B beta+ 0.971 0.00251
++B beta+ 0.952 0.00262
++B beta+ 0.948 0.00264
++B beta+ 0.947 0.00265
++B beta+ 0.915 0.0028399999999999996
++B beta+ 0.896 0.00297
++B beta+ 0.892 0.00299
++B beta+ 0.881 0.00307
++B beta+ 0.88 0.00307
++B beta+ 0.878 0.00309
++B beta+ 0.867 0.00316
++B beta+ 0.862 0.0032
++B beta+ 0.852 0.0032700000000000003
++B beta+ 0.846 0.00332
++B beta+ 0.844 0.00333
++B beta+ 0.836 0.0033900000000000002
++B beta+ 0.832 0.0034000000000000002
++B beta+ 0.814 0.0036
++B beta+ 0.793 0.0037
++B beta+ 0.785 0.0038
++B beta+ 0.776 0.0039000000000000003
++B beta+ 0.77 0.0039000000000000003
++B beta+ 0.758 0.004
++B beta+ 0.753 0.0040999999999999995
++B beta+ 0.745 0.0040999999999999995
++B beta+ 0.744 0.0042
++B beta+ 0.743 0.0042
++B beta+ 0.731 0.0043
++B beta+ 0.714 0.0044
++B beta+ 0.713 0.0044
++B beta+ 0.713 0.0044
++B beta+ 0.71 0.0045000000000000005
++B beta+ 0.709 0.0045000000000000005
++B beta+ 0.693 0.0046
++B beta+ 0.689 0.004699999999999999
++B beta+ 0.654 0.005
++B beta+ 0.653 0.005
++B beta+ 0.65 0.0051
++B beta+ 0.649 0.0051
++B beta+ 0.647 0.0051
++B beta+ 0.632 0.0053
++B beta+ 0.622 0.0054
++B beta+ 0.606 0.0055000000000000005
++B beta+ 0.604 0.0055000000000000005
++B beta+ 0.597 0.005600000000000001
++B beta+ 0.592 0.005699999999999999
++B beta+ 0.589 0.005699999999999999
++B beta+ 0.575 0.0059
++B beta+ 0.566 0.006
++B beta+ 0.551 0.0060999999999999995
++B beta+ 0.545 0.0062
++B beta+ 0.539 0.0062
++B beta+ 0.536 0.0063
++B beta+ 0.531 0.0063
++B beta+ 0.523 0.0064
++B beta+ 0.502 0.0066
++B beta+ 0.496 0.0067
++B beta+ 0.486 0.0068000000000000005
++B beta+ 0.48 0.0069
++B beta+ 0.475 0.0069
++B beta+ 0.461 0.006999999999999999
++B beta+ 0.46 0.0070999999999999995
++B beta+ 0.441 0.0072
++B beta+ 0.435 0.0073
++B beta+ 0.421 0.0074
++B beta+ 0.407 0.0075
++B beta+ 0.384 0.00771
++B beta+ 0.369 0.00782
++B beta+ 0.337 0.00804
+

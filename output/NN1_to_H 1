@@ -1,0 +1,37 @@
+#  1H     1NN B- DECAY (613.9 S)                                  05NDS    200601
+#  1NN B- DECAY (613.9 S)                                  05NDS    200601
+#H TYP=FUL$AUT=BALRAJ SINGH$CIT=NDS 106, 601 (2005)$CUT=31-Oct-2005$      
+#  Parameters for free neutron decay (see complete details in 2004Ei01):  
+#  g{-A}/g{-V}=-1.2695 {I29} (2004Ei01).                                  
+#  |b Asymmetry parameter (neutron spin, electron momentum)               
+#  A=-0.1173 {I13} (2004Ei01). In 2005Se01, -0.1189 {I7} is favored.      
+#  Antineutrino Asymmetry parameter (neutron spin, antineutrino momentum) 
+#  B=0.983 {I4} (2004Ei01).                                               
+#  Electron-antineutrino angular-correlation coefficient                  
+#  a=-0.103 {I4} (2004Ei01).                                              
+#  Triple correlation coefficient (component of neutron spin              
+#  perpendicular to the decay plane in |b decay)                          
+#  D=-0.0006 {I10} (2004Ei01).                                            
+#  Phase of g{-A} relative to g{-V}, |f{-AV}=180.08|' {I10} (2004Ei01).   
+#  Measurements:                                                          
+#  Limit on T (time-reversal) violation in free neutron decay: 2005Bo35,  
+#  2004So03 (polarized neutron), 2003So25 (measured electron and proton   
+#  energies, electron-proton coin), 2000Jo03 (polarized neutron)          
+#  Beta asymmetry parameter: 2002Ab14, 2000Re02, 1997Li01, 1997Ab32,      
+#  1995Sc20, 1991Er04, 1990Er10, 1989Do17, 1988Kl01, 1986Bo04, 1984Bo28,  
+#  1979Er08, 1975Kr18,  1971Er10, 1969Ch05                                
+#  g{-A}/g{-V} from measurement of Both P-odd correlations:               
+#  2001Mo41                                                               
+#  Antineutrino asymmetry parameter: 1998Se11, 1995Ku30, 1994Ku46,        
+#  1970Er10, 1970Er07, 1970Ch08, 1969Ch05, 1960Cl06                       
+#  Electron-antineutrino angular-correlation coefficient: 2005By03,       
+#  2004So03, 2002By02, 2000Da01, 1978St30, 1975Do19, 1967Gr32             
+#  Triple correlation coefficient: 1989Vo12, 1984Bo29, 1978Er06,          
+#  1976St24, 1974St09, 1974Er09, 1970Er08, 1960Cl06                       
+#  Proton-electron correlations from polarized neutron decay:             
+#  2000Jo03, 2000Li42                                                     
+#  Radiative decay mode, upper limit: 2005By04, 2002Be79                  
+#  Neutrino-antineutrino oscillation time, lower limit: 2002Ch48          
+#P 0.0           1/2+            613.9 S   6              782.347   1     
+NN1 H 1 beta- 0.782347 613.9 1.0
+

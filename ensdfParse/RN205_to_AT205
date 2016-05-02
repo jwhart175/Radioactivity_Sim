@@ -1,0 +1,13 @@
+#205AT    205RN EC DECAY                1975ZEZY                  04NDS    200404
+#  205RN EC DECAY                1975ZEZY                  04NDS    200404
+#H TYP=FUL$AUT=F.G. KONDEV$CIT=NDS 101, 521 (2004)$CUT=1-Feb-2004$        
+#  1975ZeZY: A mass separated source produced after the bombardment of a  
+#  thorium target with 660 MEV protons; Detectors: GELI for photons and   
+#  SILI for electrons; Measured: EG, IG, ICE(K), ICE(L).                  
+#  Others: 1973KeZP.                                                      
+#G E,RI$From 1975ZeZY. |DE|g =0.30 KEV is assumed by the evaluator.       
+#L E$From a least-squares fit to EG.                                      
+#L J$ From the measured CEK/CEL ratio and the observed strong EC+B+       
+#L feeding from the 205RN GS (JPI=5/2-), unless otherwise specified.      
+#P 0.0           5/2-            170 S     4               5260     50    
+

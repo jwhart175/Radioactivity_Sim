@@ -1,0 +1,18 @@
+#220RA    224TH A DECAY                 1970VA13,1961RU06         11NDS    201104
+#  224TH A DECAY                 1970VA13,1961RU06         11NDS    201104
+#H TYP=FUL$AUT=E. BROWNE, J. K. TULI$CIT=NDS 112, 1115 (2011)$            
+#H CUT=31-Oct-2010$                                                       
+#  Modified by E. Browne (Dec. 16, 2010).  BRICC, GTOL.                   
+#A E,IA      From 1961Ru06, unless otherwise noted                        
+#A IA(A)     From |g-ray transition intensity balance.                    
+#A HF        HF(7170|a)=1.00 yields r{-0}({+220}Ra)=1.536 {I6}            
+#G CC$ FROM BrIcc v2.2 (31-Mar-2008) 2008KiAA, "Frozen Orbitals" appr.    
+#G E,RI      From 1961Ru06. RI are photons per 100 |a decays.             
+#L E,J       From Adopted Levels                                          
+#P 0             0+              1.05 S    2              7298      6     
+TH224 RA220 alpha 7.298 1.05 1.0
++A alpha 7.17 0.79
++A alpha 7.0 0.19
++A alpha 6.77 0.012
++A alpha 6.7 0.003
+

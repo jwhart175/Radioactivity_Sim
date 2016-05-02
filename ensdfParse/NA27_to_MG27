@@ -1,0 +1,40 @@
+# 27MG    27NA B- DECAY                 1984GU19,1979DE02         11NDS    201108
+#  27NA B- DECAY                 1984GU19,1979DE02         11NDS    201108
+#H TYP=FUL$AUT=M. Shamsuzzoha Basunia$CIT=NDS 112, 1875 (2011)$           
+#H CUT=30-Nov-2010$                                                       
+#  1984GU19: 27NA was produced in the fragmentation of iridium target by  
+#  10 GeV protons from the ^CERN synchrotron. Recoiled fragments were     
+#  thermalized, ionized and mass-separated; Ge(Li) detector, Measured: EG,
+#  B-GG COIN, absolute RI.                                                
+#  1979DE02: 27NA was produced in the fragmentation of uranium target by  
+#  24 GeV protons from the ^CERN synchrotron. Recoil fragments were       
+#  thermalized, ionized and mass-separated; Ge(Li) detector, Measured: EG,
+#  absolute IG.                                                           
+#G E,RI$From 1984Gu19                                                     
+#L E$From a least-squares fit to G-ray energies.                          
+#L J$From Adopted Levels                                                  
+#P 0.0         5/2+              301 MS    6              9010      40    
++B beta- 3.774 0.858
++G gamma 0.98466 0.8740000000000001
++B beta- 3.422 0.113
++G gamma 1.698 0.118864
++B beta- 3.302 0.005
++G gamma 1.94 0.0046322
++B beta- 2.726 0.005
++B beta- 2.57 0.0074
++G gamma 1.7289 0.0032338
++G gamma 2.4423000000000004 0.0041952
++B beta- 2.538 0.0052
++G gamma 1.7927 0.0014858000000000002
++G gamma 2.506 0.0025345999999999997
++G gamma 3.4907 0.0012236
++B beta- 2.215 2.6E-4
++G gamma 2.4518 2.622E-4
++B beta- 2.018 0.0017000000000000001
++G gamma 2.6128 0.0017480000000000002
++B beta- 1.909 0.0016
++G gamma 1.6667 9.614000000000001E-4
++G gamma 2.8361 6.3802E-4
++B beta- 1.803 0.0018
++G gamma 4.0076 0.0018353999999999998
+

@@ -1,0 +1,59 @@
+#113PD    113RH B- DECAY                1993PE11                  10NDS    201006
+#  113RH B- DECAY                1993PE11                  10NDS    201006
+#H TYP=FUL$AUT=Jean Blachot$CIT=NDS 111, 1471 (2010)$CUT=1-May-2009$      
+#  Preliminary results given in 1992PeZX, same author                     
+#  Activity: {+238}U(p,f), E={ 20 MeV}, on-line isotope separator IGISOL  
+#  Measured: |g, |g|g, |g(t), ce, Ge(Li), Ge, Si(Li), elli spectrometer   
+#  Evaluator considers the level scheme as preliminary                    
+#  CC$ FROM BrIcc v2.2b (20-Jan-2009) 2008Ki07, "Frozen Orbitals" appr.   
+#G M$Simultaneous measurement of conversion electrons and gammas          
+#G M(A)$Electron and gamma intensities are deduced from single spectra    
+#G taken in separated runs. Normalized to the { 189.7 keV} transition     
+#G (M1)                                                                   
+#L E$From least-squares fit to G energies.                                
+#P 0.0         (7/2+)            2.80 S    12             5010      40    
+RH113 PD113 beta- 5.01 2.8 1.0
++G gamma 0.0849 0.022304
++G gamma 0.1194 0.00136
++G gamma 0.135 0.007616
++G gamma 0.3327 0.00544
++G gamma 0.543 0.010336000000000001
++G gamma 0.7491 0.0046240000000000005
++G gamma 0.9327000000000001 0.010336000000000001
++G gamma 0.98 0.00544
++G gamma 1.053 0.005168000000000001
++G gamma 0.0349 0.0032640000000000004
++G gamma 0.0813 0.018768000000000003
++G gamma 0.1168 0.026383999999999998
++G gamma 0.15180000000000002 0.020128000000000004
++G gamma 0.1375 0.021216
++G gamma 0.18969999999999998 0.12240000000000001
++G gamma 0.07970000000000001 0.007344000000000001
++G gamma 0.1004 0.001904
++G gamma 0.217 0.024752
++G gamma 0.2521 0.018496000000000002
++G gamma 0.0968 0.004896
++G gamma 0.15990000000000001 0.013056000000000002
++G gamma 0.197 0.002448
++G gamma 0.3489 0.272
++G gamma 0.12079999999999999 0.005984000000000001
++G gamma 0.221 0.011696
++G gamma 0.37310000000000004 0.004896
++G gamma 0.25789999999999996 0.007344000000000001
++G gamma 0.1571 0.015504000000000002
++G gamma 0.2196 0.028016000000000006
++G gamma 0.2367 0.002448
++G gamma 0.4093 0.11478400000000002
++G gamma 0.2655 0.007616
++G gamma 0.4547 0.007616
++G gamma 0.3108 0.0032640000000000004
++G gamma 0.3485 0.005712
++G gamma 0.5003 0.01496
++G gamma 0.3489 0.005712
++G gamma 0.5388 0.01904
++G gamma 0.35760000000000003 0.012240000000000003
++G gamma 0.3327 0.00544
++G gamma 0.609 0.018496000000000002
++G gamma 0.3391 0.00136
++G gamma 0.6711 0.006256
+

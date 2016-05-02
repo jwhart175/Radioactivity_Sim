@@ -1,0 +1,50 @@
+#178HF    178HF IT DECAY (4.0 S)        1980VA04,1989KI24         09NDS    200907
+#  178HF IT DECAY (4.0 S)        1980VA04,1989KI24         09NDS    200907
+#H TYP=FUL$AUT=E. Achterberg, O.A. Capurro, G.V. Marti$                   
+#H CIT=NDS 110, 1473 (2009)$CUT=31-May-2008$                              
+#  Most of the decay studies of {+178}Hf (4.0 s) were done with           
+#  radioactive sources of {+178}Lu (23.1 min), {+178}Hf (31 y), and       
+#  {+178}Ta (2.2 h).                                                      
+#  Measured E|g, I|g, ce, |g|g coin. Detectors: hyperpure germanium.      
+#  Ge(Li) anti-Compton, Si(Li) (1980Va04).                                
+#  Measured E|g, I|g, |g|g coin. Detectors: Ge(Li), scin (1968He10).      
+#  Measured E|g, I|g, Ice. Detectors: hyperpure germanium, magnetic       
+#  spectrometer (1989Ki24).                                               
+#G E,RI$Weighted averages of data from 1989Ki24, 1980Va04, 1976De20,      
+#G 1975Ka15, 1975Wa24, 1973Or03, and 1968He10.                            
+#G M         Consistent with |g|g(|q) results assuming a cascade          
+#G (8-) (8+) (6+) (4+) (2+) (0+) with |d(88.8|g)|?0 (1960De26).           
+#L E         From a least-squares fit to |g-ray energies.                 
+#L E(A)      K|p=0+ g.s. rotational band                                  
+#L E(B)      K|p=8- band                                                  
+#P  1147.423  5 8-               4.0 S     2                              
+
+#178HF    178HF IT DECAY (31 Y)         2003SM05,1980VA04,1976DE2009NDS    200907
+#  178HF IT DECAY (31 Y)         2003SM05,1980VA04,1976DE2009NDS    200907
+#H TYP=FUL$AUT=E. Achterberg, O.A. Capurro, G.V. Marti$                   
+#H CIT=NDS 110, 1473 (2009)$CUT=31-May-2008$                              
+#  1968He10: Measured E|g, I|g, |g|g coin. Detectors: Ge(Li), scin.       
+#  1976De20: Measured |g singles, ce spectra, |g|g, X|g and |e|g coin,    
+#  Detectors: Ge(Li) anti-Compton, scin, Si(Li). Provided |g intensities, 
+#  determined conversion coefficients.                                    
+#  1980Va04: Measured E|g, I|g, ce, |g|g coin.                            
+#  Detectors: Ge(Li) high purity, Ge(Li) anti-Compton, Si(Li).            
+#  Deduced reduced transitions probabilities ^B(^QL).                     
+#  1993Tl01: Measured |g|g(|q), detector: array of seven Ge(Li) detectors.
+#  Determined mixing ratios for several transitions in the K|p=8- isomeric
+#  band.                                                                  
+#  2003Sm05: Measured E|g, I|g, |g|g using an array of 20                 
+#  Compton-suppressed HPGe detectors.                                     
+#  Others: 1973He19                                                       
+#G E         Weighted averages of data from 2003Sm05, 1980Va04,           
+#G and 1968He10, unless noted otherwise                                   
+#G RI        Weighted averages of data from 2003Sm05, 1980Va04, 1976De20, 
+#G and 1968He10, unless noted otherwise                                   
+#G MR(X)     From |g|g(|q) (1993Tl01)                                     
+#L E         From a least-squares fit to |g-ray energies.                 
+#L BAND(A)   K|p=0+ g.s. rotational band                                  
+#L BAND(B)   K|p=8- isomeric band                                         
+#L BAND(C)   K|p=8{+-}{-2} band                                           
+#L BAND(D)   K|p=16+ isomeric band                                        
+#P  2445.69  11  16+               31 Y     1                             
+

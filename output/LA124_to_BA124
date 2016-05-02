@@ -1,0 +1,57 @@
+#124BA    124LA EC DECAY                1992ID01,1997AS05         08NDS    200807
+#  124LA EC DECAY                1992ID01,1997AS05         08NDS    200807
+#H TYP=FUL$AUT=J. KATAKURA, Z.D. WU$CIT=NDS 109, 1655 (2008)$             
+#H CUT=1-Apr-2008$                                                        
+#  The decay scheme is that proposed by 1992Id01. The decay scheme is from
+#  combined decay of high-spin (T{-1/2}=29 s {I1}) and low-spin           
+#  (T{-1/2}<1 s) states in {+124}La. |b branchings and log| {Ift} values  
+#  from high-spin state given in 1992Id01 are only                        
+#  approximate values and the sum represents 88% of total decay.          
+#  These values are not given here.                                       
+#  1992Id01: {+92}Mo({+35}Cl,2pn), {+92}Mo({+40}Ca,5p3n);                 
+#  E({+35}Cl)=5.4-6.5 MeV/nucleon, on-line ms, semi |g, ce, |g|g-coin     
+#  1997As05: {+92}Mo({+36}Ar,3pn); E=195 MeV, enriched {+92}Mo,           
+#  HPGe detectors, measured E|g, |g|g-coin,|g|g directional correlation.  
+#  1992Mo13: Mo({+35}Cl,2pxn); measured: |b|g(t)                          
+#L E         From a least-squares fit to E|g's                            
+#L J         From adopted levels, unless otherwise indicated.             
+#G E,RI      From 1992Id01                                                
+#G E(A)      From 1997As05                                                
+#G RI        Relative to I(230|g)=100.                                    
+#G CC        |a(K)exp are from Ice(K)/I|g normalized to |a(K)(E2)=0.00569 
+#G for 577|g (6+ to 4+).                                                  
+#G M         From |a(K)exp in 1992Id01, unless otherwise noted            
+#P10.0+X       (8-)              29.21 S   17             8.83E3    6     
+LA124 BA124 beta+ 8.83 29.21 1.0
++G gamma 0.2297 1.0
++G gamma 0.4215 0.91
++G gamma 0.9325 0.055
++G gamma 0.5766 0.6
++G gamma 0.4512 0.036000000000000004
++G gamma 0.6726 0.076
++G gamma 1.094 0.015
++G gamma 0.5333 0.045
++G gamma 0.685 0.017
++G gamma 0.6947000000000001 0.18
++G gamma 1.3825 0.025
++G gamma 0.3485 0.008
++G gamma 1.0335 0.182
++G gamma 0.9424 0.018000000000000002
++G gamma 1.039 0.035
++G gamma 1.615 0.028999999999999998
++G gamma 0.32539999999999997 0.02
++G gamma 0.4467 0.031
++G gamma 1.131 0.077
++G gamma 0.19290000000000002 0.057
++G gamma 0.62 0.02
++G gamma 0.3856 0.012
++G gamma 0.3452 0.013999999999999999
++G gamma 0.443 0.019
++G gamma 0.261 0.015
++G gamma 0.455 0.025
++G gamma 0.798 0.036000000000000004
++G gamma 1.493 0.03
++G gamma 0.834 0.051
++G gamma 1.173 0.035
++G gamma 1.867 0.05
+

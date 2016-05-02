@@ -1,0 +1,86 @@
+# 89SR    89RB B- DECAY (15.32 M)       1973HE01                  13NDS    201302
+#  89RB B- DECAY (15.32 M)       1973HE01                  13NDS    201302
+#H TYP=FUL$AUT=BALRAJ SINGH$CIT=NDS 114, 1 (2013)$CUT=20-Oct-2012$        
+#  1973He01 (also 1972HeZE): source produced by on-line isotope separation
+#  of fragments from {+235}U(n,F). Measured E|g, I|g, |g|g                
+#  Other studies:                                                         
+#  |b feedings to g.s. and excited states from total absorption           
+#  |g-ray spectrum (TAGS): 1997Gr09, 1996Gr20. 2008ShZT report ongoing    
+#  measurement of Q value and total |b spectrum, but no results are given 
+#  |g: 1973BlZH, 1972Po13, 1971UkZY, 1971MaXM, 1966Ki06, 1956Ok06. About  
+#  20 |g rays reported in these studies                                   
+#  |g|g: 1972Po13, 1966Ki06, 1956Ok06                                     
+#  |b, |b|g: 1993Ka09, 1980De02, 1978Wu04, 1976Wo05, 1971MaXM, 1966Ki06,  
+#  1956Ok06                                                               
+#  T{-1/2} and identification of {+89}Rb: 1972Eh02, 1969Ca03, 1961Wa14,   
+#  1956Ok06, 1940Gl05, 1940Ha10, Hahn et al., Naturwissenschaften         
+#  31, 249 (1943)                                                         
+#  |b strength function measurements: 1982Al01, 1973Jo02                  
+#  2011Ho11, 2011Ka28: calculated |b-delayed |g-ray spectra               
+#  THEORY AND SYST OF BETA STRENGTH FUNCTIONS: 1983Be56, 1982Ma02,        
+#  1979Pe12, 1979Kr10                                                     
+#  Energy balance: total decay energy of 4596 keV {I100} deduced          
+#  (using RADLIST code) from proposed decay scheme is in agreement with   
+#  the expected value of 4496 keV {I5}, indicating that the decay scheme  
+#  is complete                                                            
+#B           TAGS=total absorption |g-ray spectrum data                   
+#B (1997Gr09,1996Gr20)                                                    
+#G           A 427.5|g (I|g=0.42) reported only by 1972Po13 is omitted    
+#G E$From 1973He01, unless otherwise stated                               
+#G RI$From 1973He01                                                       
+#G E(A)$Weighted average from 1973He01, 1973BlZH, and 1971UkZY.           
+#G E(B)$Weighted average from 1973He01 and 1973BlZH.                      
+#L E$From least-squares fit to E|g data                                   
+#L J$From Adopted Levels                                                  
+#P        0    3/2-              15.32 M   10             4496.5    54    
+RB89 SR89 beta- 4.4965 919.2 1
++G gamma 1.5962 1.8869999999999998E-4
++G gamma 2.2313 2.5160000000000004E-4
++G gamma 2.668 1.2580000000000002E-4
++G gamma 2.6856 3.145E-4
++G gamma 2.8181 1.2580000000000002E-4
++G gamma 2.9479 1.8869999999999998E-4
++G gamma 3.0375 1.2580000000000002E-4
++G gamma 3.1416999999999997 5.661E-4
++G gamma 3.2636 1.8869999999999998E-4
++G gamma 3.7818 1.2580000000000002E-4
++B beta- 1.9846 0.188
++B beta- 1.4898 0.04
++G gamma 1.0319200000000002 0.629
++B beta- 1.282 0.0026
++B beta- 1.0592000000000001 0.0024
++B beta- 1.0275999999999998 0.0053
++B beta- 1.0042 0.005
++B beta- 0.9003 0.37
++B beta- 0.8209 4.0E-4
++B beta- 0.7663 0.033
++B beta- 0.7036 0.023799999999999998
++G gamma 0.6996 2.5160000000000004E-4
++B beta- 0.4709 0.35700000000000004
++G gamma 0.65777 0.10818799999999999
++G gamma 0.9477300000000001 0.10001100000000002
++B beta- 0.4383 1.8999999999999998E-4
++G gamma 0.596 2.5160000000000004E-4
++G gamma 3.3035 6.290000000000001E-5
++B beta- 0.3507 0.0165
++G gamma 0.2057 1.2580000000000002E-4
++G gamma 0.8011 1.8869999999999998E-4
++G gamma 1.0572000000000001 2.5160000000000004E-4
++B beta- 0.2916 8.799999999999999E-4
++G gamma 1.0814000000000001 2.5160000000000004E-4
++G gamma 1.6442 2.5160000000000004E-4
++G gamma 3.6518 3.7739999999999996E-4
++B beta- 0.2144 5.7E-4
++G gamma 1.1385 1.2580000000000002E-4
++G gamma 2.3728000000000002 1.2580000000000002E-4
++G gamma 3.8454 3.145E-4
++B beta- 0.213 0.0014000000000000002
++B beta- 0.16069999999999998 5.0E-4
++G gamma 1.9797 2.5160000000000004E-4
++G gamma 3.9891 1.8869999999999998E-4
++B beta- 0.1381 6.3E-4
++G gamma 0.822 3.145E-4
++G gamma 1.7702 1.2580000000000002E-4
++G gamma 2.1096999999999997 1.8869999999999998E-4
++B beta- 0.1226 8.2E-4
+

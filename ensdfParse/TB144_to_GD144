@@ -1,0 +1,45 @@
+#144GD    144TB EC DECAY (1 S)          1986RE11                  01NDS    200108
+#  144TB EC DECAY (1 S)          1986RE11                  01NDS    200108
+#H TYP=FUL$AUT=A.A. Sonzogni$CIT=NDS 93, 599 (2001)$CUT=1-Dec-2000$       
+#  Source: 35CL on 112SN, MS. Measured (XK)G                              
+#L J$Authors' assignments, also adopted values.                           
+#L E$From least-square fit                                                
+#P 0.0         1+                1 S       AP             9074      SY    
+TB144 GD144 beta+ 9.074 1.0 1.0
++G gamma 0.743 0.21
++G gamma 1.1334000000000002 0.0063
++G gamma 1.8764 0.0084
++G gamma 1.1439000000000001 0.0399
++G gamma 1.4835 0.0105
++G gamma 2.2265 0.0084
++G gamma 1.7190999999999999 0.0168
+
+#144GD    144TB EC DECAY (4.25 S)       1986RE11                  01NDS    200108
+#  144TB EC DECAY (4.25 S)       1986RE11                  01NDS    200108
+#H TYP=FUL$AUT=A.A. Sonzogni$CIT=NDS 93, 599 (2001)$CUT=1-Dec-2000$       
+#  Source: 35CL on 112SN, MS. Measured (XK)G, GG, GG(THETA)               
+#E $Authors' IE and LOGFT values are given.                               
+#G           Normalization factor from                                    
+#G TI(743G)=34% is 0.62 but it does not reproduce all the level feedings  
+#G given by the authors. Authors also give LOGFT.                         
+#L J$From adopted levels.                                                 
+#L E$From least-square fit                                                
+#P 396.9      5(6-)              4.25 S    15             9074      SY    
+TB144 GD144 beta+ 9.074 4.25 0.34
++G gamma 0.743 0.55
++G gamma 0.9592999999999999 0.225
++G gamma 1.0016 0.32
++G gamma 0.5581 0.22
++G gamma 0.6003 0.17
++G gamma 0.6282000000000001 0.034
++G gamma 0.6097 0.016
++G gamma 0.1397 0.027000000000000003
++G gamma 0.6979 0.063
++G gamma 0.1692 0.134
++G gamma 0.3152 0.09
++G gamma 0.4853 0.039
++G gamma 1.1174000000000002 0.005
++G gamma 0.4702 0.016
++G gamma 0.5735 0.016
++G gamma 0.7128 0.04
+

@@ -1,0 +1,42 @@
+# 31S     31CL EC DECAY (190 MS)        2011SAZM,2006KA11,1985AY0213NDS    201303
+#  31CL EC DECAY (190 MS)        2011SAZM,2006KA11,1985AY0213NDS    201303
+#H TYP=FUL$AUT=CHRISTIAN OUELLET AND BALRAJ SINGH$CIT=NDS 114, 209 (2013)$
+#H CUT=15-Feb-2013$                                                       
+#  2011SaZM: {+31}Cl produced in {+32}S(p,2n) E=40 MeV/nucleon reaction   
+#  and separated using MARS recoil spectrometer at Texas A&M University   
+#  accelerator facility. Measured E|g, I|g, |g|g, Ep, Ip; deduced decay   
+#  scheme, IAS in {+31}S and mass excess of {+31}Cl. See also articles by 
+#  Trache et al. in POS (NIC X), 163 (2009); 2012Tr08 and 2011SaZN        
+#  2011SaZM: Ph.D. thesis by A. Saastamoinen, Jyvaskyla (2011)            
+#  Conference articles from the same group as 2011SaZM: 2010SaZW,         
+#  2010SiZX                                                               
+#  2006KA11 (also 2005Ka46): E=40,45 MEV protons on ^Zn^S target producing
+#  31CL through fusion evaporation reaction 32S(p,2n) at ^IGISOL. Measured
+#  E|g, I|g, E(p), I(p), |b|g coin, proton spectra. Positrons detected    
+#  with ^ISOLDE ^Silicon ^Ball array of 36 ^Si detectors, |g-rays were    
+#  detected by an ^HPGe detector, protons by ^DSSSDs.                     
+#  1985AY02 (also 1983Ay02,1982Ay01): E=28-50 MEV protons from ^LBL       
+#  cyclotron on ^Zn^S target. Measured delayed protons, deduced LOGFT     
+#  values. Total of 8 proton branches reported                            
+#  1996OG01: reported two levels, and two proton branches                 
+#  In the opinion of evaluators, the decay scheme is incomplete and       
+#  the normalization factor is only approximate                           
+#E TI,LOGFT$ With the exception of feeding of ^IAS, all values should     
+#E be considered as approximate since the decay scheme is considered      
+#E incomplete                                                             
+#G E,RI$ From table 5.10 of 2011SaZM, unless otherwise stated             
+#G M,MR$ From Adopted Gammas                                              
+#L E$ From least-squares fit to E|g data, unless otherwise stated.        
+#L The 846.0|g from 3077 level and 1247.6|g from 1248.8 level fit poorly  
+#L in the decay scheme. In order to get an acceptable fit (with reduced   
+#L |h{+2} close to critical |h{+2} of 2.5), 846.0|g was not included in   
+#L the fitting procedure and uncertainty of 1247.6|g was increased to     
+#L 0.6 keV. Without these adjustments, reduced |h{+2}=9.4                 
+#L E(A)$ Excitation energy deduced by the evaluators from center of       
+#L mass frame proton energies taken from 2011SaZM and ^S(p)=6130.9 4      
+#L (2012Wa38,2011SaZM)                                                    
+#L E(B)$ Tentative level (2011SaZM)                                       
+#L J$ From Adopted Levels                                                 
+#P 0             3/2+            190 MS    1              11985.8   33    
+CL31 S31 beta+ 11.9858 0.19 0.62
+

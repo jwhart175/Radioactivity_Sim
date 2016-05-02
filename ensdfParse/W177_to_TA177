@@ -1,0 +1,32 @@
+#177TA    177W EC DECAY                 1972Ad12                  03NDS    200305
+#  177W EC DECAY                 1972Ad12                  03NDS    200305
+#H TYP=FUL$AUT=F.G. KONDEV$CIT=NDS 98, 801 (2003)$CUT=1-Aug-2002$         
+#  Mass separated source produced using the 181TA(P,5N) reaction.         
+#  Measured: EG, RI, CE, GG coin, EG coin, GG(T). Detectors: GE(LI),      
+#  SI(LI), magnetic spectrometer.                                         
+#  Others: 1965Ad02, 1967Hu02, 1968Be43, 1969Na18, 1969AdZY, 1970Ar15,    
+#  1972Ad07, 1973Be66.                                                    
+#L E$Deduced by the evaluator using a least-squares fit to the G ray      
+#L energies.                                                              
+#L J$From 1972Ad12, unless otherwise specified.                           
+#L T$From 1972Ad07, unless otherwise specified.                           
+#L E(A)$PI 7/2[404] (g{-7/2}).                                            
+#L E(B)$PI 5/2[402] (d{-5/2}).                                            
+#L E(F)$PI 1/2[541] (h{-9/2}).                                            
+#L E(G)$PI 1/2[411] (d{-3/2}).                                            
+#L E(H)$PI 3/2[411] (d{-5/2}).                                            
+#L E(M)$PI 3/2[532]? (h{-9/2}).                                           
+#L E(N)$PI 1/2[530]? (f{-7/2}).                                           
+#G E,RI$From 1972Ad12, unless otherwise specified.                        
+#G M,MR$From experimental conversion coefficients and subshell ratios,    
+#G unless otherwise specified.                                            
+#E TI$From G-ray transition intensity balances. Note that EC+B+ feeding   
+#E differs significantly from 1972Ad12.                                   
+#P  0.0            1/2-          132 M     2              2001      SY    
+W177 TA177 beta+ 2.001 7920.0 1.0
++G gamma 0.11565 0.465
++G gamma 0.18619999999999998 0.15
++B beta+ 4.81E-4 0.00382
++B beta+ 0.29 1.0999999999999999E-4
++B beta+ 0.239 1.69E-4
+

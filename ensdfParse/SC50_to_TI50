@@ -1,0 +1,48 @@
+# 50TI    50SC B- DECAY (102.5 S)       1984AL18,1970CO32,1970NO0411NDS    201012
+#  50SC B- DECAY (102.5 S)       1984AL18,1970CO32,1970NO0411NDS    201012
+#H TYP=FUL$AUT=ZOLTAN ELEKES AND JANOS TIMAR, BALRAJ SINGH$               
+#H CIT=NDS 112, 1 (2011)$CUT=20-Oct-2010$                                 
+#  1970Co32: measured |b|g(t); |b|g(t), scin.                             
+#  1970No04: measured |b|g(t); |b|g(t), scin.                             
+#  1984Al18: measured |g's (pneumatic transfer system), |b|g(t).          
+#  All data are from 1984Al18, except as noted. Others: 1973Gi03,         
+#  1970Wa29, 1969Wa24, 1968Ch11, 1964Sh14, 1963Ka16, and 1963Ch03.        
+#B IB(A)$Any other |g decay from energetically possible levels            
+#B estimated to be less than 2% (1984Al18).                               
+#G                  Precision Energy Measurements (1984Al18)              
+#G {U  Reference E|g|:   }   {U#|;}   {U|\E|g-E{-ref}|\}                  
+#G    {U    E|g     }                                                     
+#G  529.653 {I11} {+83}Rb     6    5.861 {I14}      523.792 {I18}         
+#G 1115.546 {I4}  {+65}Zn     9    5.578 {I3}      1121.124 {I5}          
+#G 1562.302 {I5}  {+110m}Ag   7    8.534 {I6}      1553.768 {I8}          
+#G |:  1979He19,1978MeZK                                                  
+#G |;  Number of runs                                                     
+#G M$ From Adopted Gammas                                                 
+#L E$From least-squares fit to E|g's (evaluator).                         
+#L J$ From Adopted Levels                                                 
+#P 0.0                 5+        102.5 S   5              6890      16    
+SC50 TI50 beta- 6.89 102.5 1.0
++B beta- 2.429 0.013000000000000001
++G gamma 1.553768 1.0
++B beta- 1.882 0.084
++G gamma 1.121124 0.995
++B beta- 1.628 0.884
++B beta- 1.171 0.0058
++B beta- 1.16 0.0034999999999999996
++B beta- 0.825 0.0158
++B beta- 0.595 0.00207
++B beta- 0.567 0.00145
++B beta- 0.404 0.00251
+
+# 50TI    50SC B- DECAY (0.35 S):?      1984AL18                  11NDS    201012
+#  50SC B- DECAY (0.35 S):?      1984AL18                  11NDS    201012
+#H TYP=FUL$AUT=ZOLTAN ELEKES AND JANOS TIMAR, BALRAJ SINGH$               
+#H CIT=NDS 112, 1 (2011)$CUT=20-Oct-2010$                                 
+#  Measured |g's (pneumatic transfer system), |b|g(t).                    
+#G E,M$From the Adopted Gammas.                                           
+#L E,J$From the Adopted Levels.                                           
+#P 256.895   10      2+,3+       0.35 S    4              6890      16    
+SC50 TI50 beta- 6.89 0.35 0.025
++B beta- 2.554 1.0
++G gamma 1.553768 1.0
+

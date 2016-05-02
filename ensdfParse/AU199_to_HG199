@@ -1,0 +1,50 @@
+#199HG    199AU B- DECAY (3.139 D)      1989CH45,1977DR06,1975BO0507NDS    200703
+#  199AU B- DECAY (3.139 D)      1989CH45,1977DR06,1975BO0507NDS    200703
+#H TYP=FUL$AUT=BALRAJ SINGH$CIT=NDS 108, 79 (2007)$CUT=15-Oct-2006$       
+#  BG(T), GG(T): 1974Do01, 1972Si42, 1971Si20, 1967Ba27,                  
+#  1966Ra28, 1964Li12, 1963Li08.                                          
+#  BG(THETA): 1975Ve14, 1965DEZZ, 1962Ge10, 1961El01                      
+#  (ELECTRON)G(THETA): 1968TH03, 1965TH03                                 
+#  B(CE,TRANSVERSE POL)(THETA): 1962BL05                                  
+#  BG(CIRC POL)(THETA): 1971VA15                                          
+#B $ EB, IB, SPECTRUM SHAPE: 1968Be06, 1966Le03, 1965Ke04, 1955Ha50,      
+#B 1952Be26, 1952De34                                                     
+#B IB$From TI balance at each level and measured                          
+#B IB(to GS)=6.5 13.                                                      
+#B $ B(LONGITUDINAL POLARIZATION): 1968BE06, 1965LO06                     
+#G           EG, IG: 1989Ch45, 1991Ma65, 1975Bo05, 1972De67, 1972Si42,    
+#G 1970Gr13, 1968Mu09, 1965Ke04, 1964Ka17, 1963Ha16, 1961Ha11, 1960De15,  
+#G 1958Av89, 1958Cr09, 1951Sh58, 1952Si47.                                
+#G           ICE, ICC and CE-ratios: 1977Dr06, 1974Do01, 1965Ke04,        
+#G 1964He19, 1960De17, 1960Na06, 1958Ba36, 1958Cr09, 1952De34, 1952Si47,  
+#G 1951Sh58, 1950Hi59                                                     
+#G           I(XK)=43.6 5 (1989Ch45), 48 2 (1963Ha16); I(XL)=36.9 6       
+#G (1989Ch45), 56 4 (1963Ha16). Measured I(XK) and XL subshell ratios     
+#G (1989Ch45). (I(x) relative to I(158G)=100)                             
+#G           1977Dr06 calculated the ICC for the transitions in this      
+#G decay using HARTREE-FOCK wave functions. They also analyzed their      
+#G experimental CE-ratios allowing for the nuclear structure effect       
+#G in the M1 component. Their deduced MR and LAMBDA are given below       
+#G in a footnote to the individual gammas.                                
+#G However, the experimental data can also be fitted                      
+#G without the penetration factor using the theoretical ICC of 1968Ha53.  
+#G E$From curved-crystal measurement of 1975Bo05, and as revised          
+#G in the recommended values of 2000He14. The curved crystal spectrometer 
+#G measurements have been adjusted for the change in 198AU calibration    
+#G standard (1980De40,2000He14).                                          
+#G RI$From 1989Ch45                                                       
+#G MR$Deduced from CEL- and CEM-subshell ratios of 1977Dr06               
+#G using theoretical values of 1968Ha53.                                  
+#G CC$Theoretical CC from 1968Ha53 for the multipolarity and MR           
+#G given.                                                                 
+#G MR(A),CC(A)$1977Dr06 analyzed the ICE subshell ratios including        
+#G nuclear penetration effects in the wave functions. The results:        
+#G 50 KEV G: MR=0.039 4, nuclear structure parameter LAMBDA=2.4 10;       
+#G 208 KEV G: MR=0.350 13, nuclear structure parameter LAMBDA=3.8 5       
+#L E$ From E|g's                                                          
+#L J$From 'adopted levels'                                                
+#P    0.0       3/2+               3.139 D 7               452.0    6     
++B beta- 0.13277 0.065
++B beta- 0.08229 0.72
++B beta- 0.06720999999999999 0.215
+

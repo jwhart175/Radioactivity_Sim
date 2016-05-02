@@ -1,0 +1,41 @@
+#218PO    218BI B- DECAY (33 S)         2004DE16                  06NDS    200602
+#  218BI B- DECAY (33 S)         2004DE16                  06NDS    200602
+#H TYP=FUL$AUT=ASHOK K. JAIN, BALRAJ SINGH$CIT=NDS 107, 1027 (2006)$      
+#H CUT=25-Jan-2006$                                                       
+#  2004DE16 (ALSO 2004FR14): 218BI PRODUCED IN SPALLATION REACTION WITH A 
+#  1.4-GEV PROTON BEAM ON A URANIUM CARBIDE TARGET AT ^ISOLDE FACILITY.   
+#  MEASURED EG, IG, GG, BGG COIN, T1/2 OF 218BI NUCLIDE                   
+#  OTHER: 1998PF02: 218BI NUCLIDE IDENTIFIED IN 9BE(238U,X)               
+#  E=1 GEV/NUCLEON.                                                       
+#B IB,LOGFT$ DEDUCED BY THE EVALUATORS FROM G-RAY INTENSITY BALANCE AT    
+#B EACH LEVEL. VALUES ARE CONSIDERED AS UPPER LIMITS SINCE THERE IS A     
+#B LARGE GAP BETWEEN Q VALUE AND THE LAST POPULATED LEVEL AT 2287. ALSO   
+#B THE UNCERTAINTIES ON G-RAY INTENSITIES ARE QUITE LARGE. VALUES GIVEN   
+#B BY 2004DE16 ARE IN GENERAL AGREEMENT WITH THOSE DEDUCED HERE.          
+#G M$ [^D,E2] REFERS TO ASSUMED M1,E1 OR E2 MULTIPOLARITY                 
+#G E(X)$ ORDERING OF THE CASCADE IS BASED ON SYSTEMATICS IN THIS          
+#G MASS REGION                                                            
+#L E$ FROM LEAST-SQUARES FIT TO EG'S                                      
+#L J$ FROM 'ADOPTED LEVELS'                                               
+#P 0                             33 S      1              4980      SY    
++G gamma 0.5097 0.9514
++B beta- 1.6 0.7
++G gamma 0.4255 0.6745
++B beta- 1.44 0.28
++G gamma 0.3857 0.71
++B beta- 1.32 0.54
++G gamma 0.263 0.4189
++B beta- 1.25 0.05
++G gamma 0.1745 0.0014199999999999998
++G gamma 0.437 0.028399999999999998
++B beta- 1.2 0.13
++G gamma 0.5378 0.0852
++G gamma 0.2871 0.0014199999999999998
++B beta- 1.14 0.07
++G gamma 0.4183 0.0426
++B beta- 1.12 0.07
++G gamma 0.1766 7.099999999999999E-4
++G gamma 0.4635 0.0426
++B beta- 1.02 0.08
++G gamma 0.7029 0.049699999999999994
+

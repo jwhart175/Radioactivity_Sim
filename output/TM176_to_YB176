@@ -1,0 +1,21 @@
+#176YB    176TM B- DECAY                1973DRZK,1975DRZT,1970TU0706NDS    200602
+#  176TM B- DECAY                1973DRZK,1975DRZT,1970TU0706NDS    200602
+#H TYP=FUL$AUT=M.S. BASUNIA$CIT=NDS 107, 791 (2006)$CUT=15-Sep-2005$      
+#  Other: 1967GU11                                                        
+#B           EB=4.2 MEV 1 (1961TA08); EB AP 4 MEV, weak IB (1970TU07).    
+#B BG coin data of 1967GU11 is partly due to 173ER and 28AL (1970TU07).   
+#B           Only sufficiently strong B- intensities, deduced from        
+#B decay-scheme transition intensity balances, are shown.                 
+#G E         Weighted average of 1973DRZK, 1975DRZT, and 1970TU07.        
+#G M,MR      From adopted gammas.                                         
+#G RI        Weighted average of 1975DRZT and 1970TU07.                   
+#G E(A)      G ray not observed (1970TU07).                               
+#G RI(R)     From 1973DRZK, 1975DRZT. RI=7.6 40 (1970TU07).               
+#L J         From adopted levels.                                         
+#L E         Deduced by evaluator from a least-squares fit to G-ray       
+#L energies from 1973DRZK, 1975DRZT, and 1970TU07. The decay scheme and   
+#L the G-ray coincidence data are from 1973DRZK, 1975DRZT.                
+#P 0.0         (4+)              1.9 M     1              4.12E+3   10    
+TM176 YB176 beta- 4.12 114.0 1.0
++G gamma 0.3897 0.025
+

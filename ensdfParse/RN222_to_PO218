@@ -1,0 +1,36 @@
+#218PO    222RN A DECAY (3.8235 D)      1958WA16,1956MA28,1971GR1706NDS    200602
+#  222RN A DECAY (3.8235 D)      1958WA16,1956MA28,1971GR1706NDS    200602
+#H TYP=FUL$AUT=ASHOK K. JAIN, BALRAJ SINGH$CIT=NDS 107, 1027 (2006)$      
+#H CUT=25-Jan-2006$                                                       
+#  THE RESULTS OF EVALUATION BY 1998AK04 ARE INCLUDED HERE, where         
+#  applicable                                                             
+#  1958WA16: MEASURED EA, IA                                              
+#  1956MA28: MEASURED EG                                                  
+#  1971GR17: MEASURED EA                                                  
+#  OTHERS:                                                                
+#  METHODOLOGY, PRODUCTION AND DETECTION OF 222RN: 2004DE03, 2004BL02,    
+#  2002BU09, 2000KH16, 1996PI10, 1996ES08, 1996DE41, 1995VA44,            
+#  1995NI19, 1994SE21, 1994HO29, 1993ZH30, 1993MA53, 1993HO10,            
+#  1992BA61, 1985SC22, 1984SC14, 1984BU16, 1983BU14                       
+#  1998MO14: EMISSION PROBABILITIES OF G RAYS FROM DAUGHTERS OF 222RN     
+#  1989PO03: MEASURED AG(THETA)                                           
+#  1987ER06: MEASURED A(X RAY) COIN, DEDUCED K-SHELL IONIZATION           
+#  PROBABILITY                                                            
+#  1996WI27, 1963BA62, 1953BA29, 1936BR05: MEASURED EA                    
+#  1968BI08: MEASURED AA(THETA)                                           
+#  T1/2(222RN ISOTOPE): 2004Sc04, 1972Bu33, 1958Sh69, 1956Ro31,           
+#  1956Ma64, 1951To25                                                     
+#  From (|a)(K x-ray) coin, K-shell ionization probability following      
+#  |a decay is deduced to be 3.75|*10{+-6} {I25} (1987Er06).              
+#  For theoretical calculations of |a-decay probabilities, see            
+#  1987Be43, 1986Ir01, 1992De44.                                          
+#A E$From 1958Wa16, except where indicated                                
+#A IA$From 1958Wa16.                                                      
+#A HF$r{-0}({+218}Po)=1.5487 {I2} (1998Ak04) from HF(5489.52|a)=1.0       
+#L J$ FROM 'ADOPTED LEVELS'                                               
+#P 0.0          0+               3.8235 D  3              5590.3    3     
+RN222 PO218 alpha 5.5903 330350.4 1
++A alpha 5.4894799999999995 0.9992
++A alpha 4.986 7.8E-4
++A alpha 4.826 5.0E-6
+

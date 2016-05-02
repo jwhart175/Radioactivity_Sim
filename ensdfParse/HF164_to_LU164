@@ -1,0 +1,21 @@
+#164LU    164HF EC DECAY (111 S)        1989HI04                  01NDS    200710
+#  164HF EC DECAY (111 S)        1989HI04                  01NDS    200710
+#H TYP=FUL$AUT=BALRAJ SINGH$CUT=30-SEP-2007$CIT=ENSDF$                    
+#  1989Hi04: Measured E|g, I|g, |g|g coin, T{-1/2}                        
+#  Others:                                                                
+#  1981Br30, 1989Br19: T{-1/2}                                            
+#  1992Ha10: Measured E|g, I|g of three |g rays                           
+#G           Coincidences with Lu K| x ray and 511 keV annihilation       
+#G quanta occur in all cases.                                             
+#  Available data are insufficient to deduce |e branchings                
+#  and log| {Ift} values                                                  
+#G E(A)$Observed in coincidence with 126.3|g.                             
+#G Assignment to {+164}Hf decay is uncertain                              
+#N                       1.0                                              
+#N           Sufficient data are lacking to determine I|g/100 decays      
+#N                                                                     5  
+#P 0           0+                111 S     8              2820      30    
++G gamma 0.1655 1.0
++G gamma 0.237 1.043
++G gamma 0.3991 0.5
+

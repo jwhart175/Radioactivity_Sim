@@ -1,0 +1,51 @@
+#135SB    135SN B- DECAY (530 MS)       2005SH36,2002SH08,2001KO4508NDS    200803
+#  135SN B- DECAY (530 MS)       2005SH36,2002SH08,2001KO4508NDS    200803
+#H TYP=FUL$AUT=BALRAJ SINGH, ALEXANDER A. RODIONOV and YURI L. KHAZOV$    
+#H CIT=NDS 109, 517 (2008)$CUT=22-Jan-2008$                               
+#  2005Sh36: {+135}Sn isotope produced in U(n,F) using UC{-2} target,     
+#  neutrons produced by 1.4 GeV protons bombarding a tungsten target. The 
+#  Sn isotopes selectively ionized using the Resonance Ionization Laser   
+#  Ion Source consisting of three Cu vapor pumped dye lasers. Mass        
+#  separation. Measured E|g, I|g, |g|g, |g(t). Data collected with        
+#  "laser-on" and "laser-off" to distinguish which peaks in |g spectra    
+#  belonged to decay of Sn isotopes and which were a result of decay of   
+#  surface ionized {+135}Cs. Shell-model calculations                     
+#  See also 2005Sh23 for {+135}Sn delayed neutron decay to {+134}Sb       
+#  2002Sh08 (also 2001Sh12): Measured E|g, I|g, |g|g, lifetimes, delayed  
+#  neutron probability using high-efficiency Mainz neutron long counter   
+#  with 3-ring concentric array of 50 {+3}He proportional counters, |b    
+#  detector and Pb-shielded Ge detectors. A total of 12 |g rays reported. 
+#  2001Ko45: Measured E|g and |g|g using two large and one small          
+#  low-energy Ge detectors in coincidence with |b rays recorded in a      
+#  thin plastic scintillator. Only three |g rays reported at 281.7,       
+#  732.4 and 923.4                                                        
+#  2007Ko66: {+135}Sn activity produced from fission of {+235}U by thermal
+#  neutrons followed by mass spectrometer OSIRIS at Studsvik facility.    
+#  Measured lifetime of the 282 level using |b|g|g(t) technique. Fast     
+#  response |b, BaF{-2} and Ge detectors were used. Comparison of         
+#  M1 and E2 transition probabilities of 282|g with shell-model           
+#  calculations                                                           
+#  2007Ko66: Eur Phys J A 32, 25 (2007); Korgul et al.                    
+#  All data are from 2005Sh36, unless otherwise stated                    
+#  Total decay energy of 7066 KEV 219 calculated (by ^RADLIST code)       
+#  from level scheme is lower than the expected value of 8910 KEV 410     
+#B IB,LOGFT$Values are considered as approximate for excited states       
+#B since a large gap of |?5.5 MeV between Q(|b{+-}) and the highest known 
+#B level at 3263 leaves the possibility of additional levels and          
+#B unobserved |g decays. The log {Ift} arguments used by 2005Sh36 for     
+#B some of the J|p assignments are not considered by the evaluators       
+#B as strong arguments.                                                   
+#G E$2005Sh36 list E|g to nearest keV. Since the uncertainty is           
+#G stated as 0.5 keV, the evaluators have added a decimal place           
+#G in E|g value                                                           
+#G E(A)$From 2001Ko45                                                     
+#G E(X)$ This |g is assumed by 2005Sh36 as a ground-state transition      
+#G since not observed in |g|g coincidence, no other transitions were      
+#G found by 2005Sh36 to populate a level of the same energy as E|g        
+#L E$From least-squares fit to E|g's, normalized |h{+2}=0.46              
+#L J$ From 'adopted levels'. 2005Sh36 tentatively assign more             
+#L restrictive values, assuming most transitions as M1 for this           
+#L near closed-shell nucleus.                                             
+#P         0   (7/2-)            530 MS    20             8910      SY    
+SN135 SB135 beta- 8.91 0.53 0.23
+

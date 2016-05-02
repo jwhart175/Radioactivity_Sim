@@ -1,0 +1,35 @@
+# 31SI    31AL B- DECAY (644 MS)        1973GO22,1979DE02         13NDS    201303
+#  31AL B- DECAY (644 MS)        1973GO22,1979DE02         13NDS    201303
+#H TYP=FUL$AUT=CHRISTIAN OUELLET AND BALRAJ SINGH$CIT=NDS 114, 209 (2013)$
+#H CUT=15-Feb-2013$                                                       
+#  1973GO22: 31AL from 18O(18O,|ap) and 15N(18O,2p|g), E(18O)=41 MEV,     
+#  ^Brookhaven, measured E|g, I|g, |b|g coin, |b-spectra, 31AL            
+#  half-life, level half-lives                                            
+#  1979De02: 31AL from the decay of 31MG produced in ^U(p,^X) E(p)=24     
+#  GEV, ^CERN, measured E|g, isotopic half-life, |b|g coin, |b|g|g coin   
+#  1980De26 from the same group produced the source using 600 MEV         
+#  protons, measured E|g, I|g, |bnn(t)                                    
+#B $ |b feedings cannot be obtained meaningfully from what the evaluators 
+#B consider as most likely an incomplete level scheme. There is a         
+#B significant gap of 5.7 MEV between the Q value and the last level      
+#B definitively populated in this decay. There is perhaps missing |g and  
+#B |b intensity in that unknown region. A total |g-absorption spectrum    
+#B could clear up any doubt about missing intensity.                      
+#G E$ From 1973Go22. It is unclear if 1979DE02 actually measured the      
+#G energies of the |g-rays they report, there is a confusing footnote     
+#G (in their table 7) saying the energies come from 1973GO22 but they     
+#G report slightly different values from those in 1973Go22                
+#G RI$ Relative I|g from weighted averages of data from 1979De02 and      
+#G 1973Go22, except as noted. There is significant disagreement between   
+#G the relative intensities reported  by 1973Go22 and 1979De02            
+#G M,MR$ From Adopted Gammas                                              
+#L E$ From least squares fit to E|g values                                
+#L J$ From Adopted Levels                                                 
+#P 0               5/2(+)        644 MS    25             7994      20    
++G gamma 0.7522000000000001 0.06324
++G gamma 1.6947 0.19958
++G gamma 0.6217999999999999 0.034
++G gamma 1.5645 0.05984000000000001
++G gamma 2.3167 0.24752000000000002
++G gamma 2.7876999999999996 0.012240000000000003
+

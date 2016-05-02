@@ -1,0 +1,46 @@
+#109RU    109TC B- DECAY                1989GR23,1990PEZY         06NDS    200602
+#  109TC B- DECAY                1989GR23,1990PEZY         06NDS    200602
+#H TYP=FUL$AUT=JEAN BLACHOT$CIT=NDS 107, 355 (2006)$CUT=1-Aug-2005$       
+#  1989Gr23: activity from {+239}Pu(n,f) on-line ms LOHENGRIN.            
+#  Measured |g, |b|g; deduced Q and main |b feedings.                     
+#  1990PeZY: activity from {+238}U(p,nF) on-line ms IGISOL. No level      
+#  scheme given. Measured |g only.                                        
+#  1990PeZY, authors in a private communication have supplemented the data
+#  of 1990PeZY and given a preliminary decay scheme.                      
+#  1990Al43: activity from {+239}Pu(n,f), radiochemical separation        
+#  1995Sc24: activity from {+239}Pu(n,f), radiochemical separation,       
+#  measured |b|g(t)                                                       
+#  1999Ge01: activity from {+241}Pu(n,f) on-line ms LOHENGRIN.            
+#  Measured |g, |g(t)                                                     
+#B E$From 1989Gr23                                                        
+#G E,RI$From 1990PeZY, unless otherwise noted.                            
+#G E(A)$Seen only by 1989Gr23                                             
+#G E(B)$Not seen by 1990PeZY. They do not find the coin between the       
+#G 138|g and the 195|g which is the basis for this level in 1989Gr23.     
+#L T$From 1995Sc24, unless otherwise noted                                
+#P 0.0          (5/2-)           0.86 S    8              5990      SY    
+TC109 RU109 beta- 5.99 0.86 1.0
++G gamma 0.0688 0.9
++G gamma 0.09620000000000001 0.93
++G gamma 0.0691 0.7
++G gamma 0.1379 0.5
++G gamma 0.1225 0.39
++G gamma 0.0985 0.14
++G gamma 0.1946 1.95
++G gamma 0.12869999999999998 1.0
++G gamma 0.1978 0.13
++G gamma 0.0584 0.09
++G gamma 0.1177 0.18
++G gamma 0.1869 0.29
++G gamma 0.2557 0.14
++G gamma 0.208 0.45
++G gamma 0.26730000000000004 0.12
++G gamma 0.3237 0.05
++G gamma 0.3767 0.4
++G gamma 0.44580000000000003 0.55
++G gamma 0.5146000000000001 0.6
++G gamma 0.49019999999999997 0.39
++G gamma 0.6279 0.19
++G gamma 0.5897 0.19
++G gamma 0.8041 0.22
+

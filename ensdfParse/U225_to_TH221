@@ -1,0 +1,14 @@
+#221TH    225U A DECAY                  2001KU07,2000HE17         07NDS    200705
+#  225U A DECAY                  2001KU07,2000HE17         07NDS    200705
+#H TYP=ERR$AUT=J. TULI$DAT=5-SEP-2012$ADDED DATA FROM 2000HE17$           
+#H TYP=FUL$AUT=Ashok Jain, Sukhjeet Singh, Suresh Kumar, Jagdish Tuli$    
+#H CIT=NDS 108, 883 (2007)$CUT=15-Jan-2007$                               
+#L $E, JPI FROM ADOPTED LEVELS                                            
+#A $EA, IA VALUES FROM 2001KU07. DECAY SCHEME FROM 2000HE17               
+#A HF        R0(221TH)=1.5525 is used in calculation.                     
+#P 0.0                           69 MS     15             8014      7     
+U225 TH221 alpha 8.014 0.069 1.0
++A alpha 7.867 0.83
++A alpha 7.82 0.15
++A alpha 7.63 0.02
+

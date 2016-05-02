@@ -1,0 +1,19 @@
+#177HG    181PB A DECAY                 1996To01                  03NDS    200305
+#  181PB A DECAY                 1996To01                  03NDS    200305
+#H TYP=FUL$AUT=F.G. KONDEV$CIT=NDS 98, 801 (2003)$CUT=1-Aug-2002$         
+#  1996To01: Source produced using the 90ZR(92MO,N) reaction.             
+#  Projectile: 92MO, E=400 MeV. Target: 90ZR, 1 MG/CM2 thick.             
+#  Detectors: Argonne Fragment Mass Analyzer, Parallel Grid Avalanche     
+#  Counter, 48x48 strips Double-sided Silicon Strip Detector. Measured:   
+#  time correlated EA, IA, T and recoil-EA coin. The typical              
+#  beam intensity was 1 particle nA.                                      
+#  Others: 1989To01 and 1986Ke03.                                         
+#L E,J,T$From adopted levels.                                             
+#A E$From 1996To01. Other values: 7044 KEV 15 in 1989To01 and             
+#A 7211 KEV 10 (EA=7052 KEV 10 when a correction for the recoil           
+#A contribution in applied) in 1986Ke03.                                  
+#A HF$Using R0(177HG)=1.52 1, the average value deduced from R0 values    
+#A for 176HG (N=96) and 178HG (N=98) (1998Ak04).                          
+#P 0.0+X       (13/2+)           45 MS     20             7203      15    
++A alpha 7.065 1.0
+

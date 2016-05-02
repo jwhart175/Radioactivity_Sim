@@ -1,0 +1,110 @@
+#149TB    149DY EC DECAY (4.20 M)       1993MEZX,1990SA32,1981ZUZZ04NDS    200406
+#  149DY EC DECAY (4.20 M)       1993MEZX,1990SA32,1981ZUZZ04NDS    200406
+#H TYP=FUL$AUT=BALRAJ SINGH$CIT=NDS 102, 1 (2004)$CUT=20-Apr-2004$        
+#  1993MeZX (also 1992MeZX,1990MeZY): G, GG, CE. Full details of this     
+#  work are not available. The authors give data for 113 transitions      
+#  but state that there are about 210 additional weaker transitions       
+#  (each with RI LT 0.2) which are not listed. The authors also           
+#  state that only about two-thirds of total levels populated are         
+#  given in this report.                                                  
+#  1990Sa32: G, GG, G(T), Q(EC) (from B+G). 76 GAMMA rays reported        
+#  1981ZuZZ: G, GG. 52 GAMMA rays reported                                
+#  1975To03: G, GG. 11 main GAMMA rays reported                           
+#  Others:                                                                
+#  2003LI42: FULLY-IONIZED ATOMS OF 149DY GS DETECTED BUT NO              
+#  HALF-LIFE MEASURED. PREDICTED T1/2=40 M, SINCE %EC=0                   
+#  G: 1978Ma19, 1974La28                                                  
+#  CE, G CE(T): 1978Ma19                                                  
+#  B: 1985Al30, 1985Al13. BETA branches reported to the following levels: 
+#  300 (2%), 700 (1%), 900 (2.7%), 1100 (1.3%), 1840 (85%),               
+#  2500 (3.1%), 2800 (2.1%), 3000 (1.9%), 3300 (0.7%)                     
+#  B+G coin: 1984Ve16                                                     
+#  Q(EC): 1993Al03 (total GAMMA absorption), 1991Ke11 (B+ spectra),       
+#  1990Sa32, 1984Al36, 1985Al30, 1985Al13                                 
+#  BETA-strength functions: 1985Al30 (also 1985Al13). Theory: 1984Al31    
+#  T1/2(149DY isotope): 1993Al03, 1975To03, 1974La28, 1973Bi06, 1959To27, 
+#  1958To27                                                               
+#E LOGFT$All values should be considered as approximate and lower         
+#E limits since a large number (AP 210) of weak unreported GAMMA          
+#E rays are not assigned in the level scheme                              
+#E LOGFT(F)$Too low for suggested JPI change. There may be other          
+#E GAMMA transitions deexciting this level                                
+#G E,RI$Weighted averages from 1993MeZX, 1990Sa32, 1981ZuZZ and 1975To03. 
+#G Only the most intense 11 GAMMA rays are reported by 1975To03. 1993MeZX 
+#G claim to have observed 320 transitions but give data for only 113.     
+#G 1990Sa32 and 1981ZuZZ report 76 and 52 GAMMA rays, respectively.       
+#G The intensity values from 1990Sa32, 1981ZuZZ and 1975To03 were         
+#G multiplied by 0.152 in order to normalize to those from 1993MeZX.      
+#G 1993MeZX do not give uncertainties. The evaluator has assigned an      
+#G uncertainty of 0.3 KEV to E|g and 7% to 25% on intensity (7% for       
+#G RI GE 1, 15% for RI=0.2 to 1.0, 25% for RI LT 0.2). The unreported     
+#G GAMMA rays are all weak, each with RI LT 0.2 (1993MeZX)                
+#G M$From 1993MeZX. The authors state that the assignments are from       
+#G CE data. But since details of these results are not available, these   
+#G assignments are treated as tentative by the evaluator                  
+#G           RI(G+-)=9.0 9 (1981ZuZZ). This gives a total B+ branch       
+#G of AP 4.5% which is consistent with the present level scheme           
+#G E(B),RI(B)$Reported by 1993MeZX only                                   
+#G E(D),RI(D)$Reported by 1990Sa32 only                                   
+#L E$From least-squares fit to EG's.                                      
+#L J$From adopted levels                                                  
+#L T(A)$ From (CE)G(T) (1978Ma19)                                         
+#L E(B)$ From 1990Sa32 only                                               
+#P 0           (7/2-)            4.20 M    14             3781      9     
++B beta+ 0.8046 0.00664
++B beta+ 1.1984000000000001 0.0
++B beta+ 1.0378 0.01
++B beta+ 0.9342999999999999 0.006
++B beta+ 0.9107000000000001 0.0060999999999999995
++B beta+ 0.9047999999999999 0.0062
++B beta+ 0.8732000000000001 0.0063
++B beta+ 0.8677 0.0064
++B beta+ 0.8661 0.0064
++B beta+ 0.8646 0.0064
++B beta+ 0.8531 0.0064
++B beta+ 0.8519 0.0064
++B beta+ 0.8158 0.0066
++B beta+ 0.808 0.0067
++B beta+ 0.8027000000000001 0.0067
++B beta+ 0.7552000000000001 0.0069
++B beta+ 0.7411 0.006999999999999999
++B beta+ 0.7126 0.0072
++B beta+ 0.7102999999999999 0.0072
++B beta+ 0.703 0.0072
++B beta+ 0.7028 0.0072
++B beta+ 0.6829 0.0073
++B beta+ 0.6731 0.0073
++B beta+ 0.6246 0.0075
++B beta+ 0.6075 0.0076
++B beta+ 0.6051 0.0076
++B beta+ 0.5893999999999999 0.0077
++B beta+ 0.5687000000000001 0.0077
++B beta+ 0.4853 0.008
++B beta+ 0.4718 0.008
++B beta+ 0.4689 0.008
++B beta+ 0.4505 0.008
++B beta+ 0.422 0.008100000000000001
++B beta+ 0.4065 0.008100000000000001
++B beta+ 0.4038 0.008100000000000001
++B beta+ 0.37310000000000004 0.008199999999999999
++B beta+ 0.3459 0.008199999999999999
++B beta+ 0.32380000000000003 0.008199999999999999
++B beta+ 0.32 0.008199999999999999
+
+#149TB    149DY EC DECAY (0.490 S)      1993KLZZ,1988BA02         04NDS    200406
+#  149DY EC DECAY (0.490 S)      1993KLZZ,1988BA02         04NDS    200406
+#H TYP=FUL$AUT=BALRAJ SINGH$CIT=NDS 102, 1 (2004)$CUT=20-Apr-2004$        
+#  1993KlZZ: Measured EG, IG, GG; ANALYZED ^Gamow-^Teller decay           
+#  1988BA02: Source produced by 90ZR(64ZN,N4P) and 89Y(64ZN,N3P);         
+#  measured EG, IG, decay characteristics.                                
+#  2003LI42: DECAY OF FULLY-IONIZED ATOM;                                 
+#  149DY ISOMER NUCLEI PRODUCED IN FRAGMENTATION OF 209BI PROJECTILE      
+#  AT 900 MEV/NUCLEON; SEPARATED WITH FRAGMENT SEPARATOR (^FRS) AND       
+#  STORED IN THE COOLER RING (^ESR) at ^GSI. MEASURED HALF-LIFE of fully  
+#  ionized {+149}Dy                                                       
+#G E,RI$From 1993KlZZ. Full details of this study are not available       
+#G M$From adopted gammas                                                  
+#L J$From adopted levels                                                  
+#P  2661.1   4  (27/2-)            0.490 S 15              3781     9     
++B beta+ 0.2818 0.0083
+

@@ -1,0 +1,44 @@
+#196TL    196PB EC DECAY (37 M)         1982HI04,1961SV01         07NDS    200706
+#  196PB EC DECAY (37 M)         1982HI04,1961SV01         07NDS    200706
+#H TYP=FUL$AUT=Huang Xiaolong$CIT=NDS 108, 1093 (2007)$CUT=1-Jan-2006$    
+#  Source prepared by 197AU(6LI,7n), E(6LI)=95 MEV (1982Hi04);            
+#  201TL(P,6N),203TL(P,8N) E(P)=120 MEV (1961Sv01).                       
+#  Measured EG, IR, GG-coincidence (1982Hi04); ICE (1961Sv01).            
+#  The decay scheme presented here was constructed by 1982Hi04. The       
+#  evaluators have noted some of the problems in the comments.            
+#L E         From least-squares fit to EG's                               
+#L J,T       From adopted levels.                                         
+#G E         From 1982Hi04 except where noted.                            
+#G DE=0.5 for EG LE 600 KEV; DE=0.8 for EG GE 800 KEV (1982Hi04)          
+#G RI        Relative photon intensity measured by 1982Hi04.              
+#G Transition intensities are relative to 253G in 1961Sv01.               
+#G M         Inferred from comparisons of the experimental conversion     
+#G ratios with theoretical values.                                        
+#G TI        Relative values from measured CE-intensities and theoretical 
+#G conversion coefficients for given multipolarity.                       
+#E IE        From intensity balance at each level                         
+#P 0.0         0+                37 M      3              2136      19    
+PB196 TL196 beta+ 2.136 2220.0 1
++B beta+ 7.974E-4 0.0015199999999999999
++G gamma 0.19169999999999998 0.11111
++G gamma 0.24 0.08130000000000001
++B beta+ 0.4335 0.0079
++B beta+ 0.4065 0.0079
++G gamma 0.113 0.00271
++G gamma 0.126 0.020596
++G gamma 0.175 0.007859
++G gamma 0.3665 0.11111
++B beta+ 0.35669999999999996 0.0079
++G gamma 0.127 0.002439
++G gamma 0.241 0.009485
++G gamma 0.30219999999999997 0.03794
++G gamma 0.49389999999999995 0.05691000000000001
++B beta+ 0.3004 0.0079
++G gamma 0.5021 0.26558000000000004
++G gamma 0.5152 0.01355
++G gamma 0.7552000000000001 0.01897
++B beta+ 0.18259999999999998 0.0079
++G gamma 0.701 0.01897
++G gamma 0.7141000000000001 0.00813
++G gamma 0.9541000000000001 0.040650000000000006
+

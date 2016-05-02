@@ -1,0 +1,26 @@
+#204FR    208AC A DECAY (95 MS)         1994LE05                  10NDS    201002
+#  208AC A DECAY (95 MS)         1994LE05                  10NDS    201002
+#H TYP=FUL$AUT=C.J. CHIARA and F.G. KONDEV$CIT=NDS 111,141 (2010)$        
+#H CUT=1-Oct-2009$                                                        
+#  Produced in fusion reaction of 40AR on 175LU at 5.2-5.6 MEV/^A;        
+#  position-sensitive detectors FWHM=30 KEV. Mother-daughter              
+#  relationships. Level in 204FR with T1/2=1.5 S +5-3 and EA=7038 6 to    
+#  the 204FR daughter (compare to 1.7 S 3 and 7031 5 of 1992Hu04).        
+#A HF$Using R0(204FR)=1.532 4 weighted average of 1.533 4 (202RN) and     
+#A 1.527 8 (204RN) from 1998Ak04                                          
+#L E,J,T$From adopted levels                                              
+#P 0.0         (3+)              95 MS     +24-16         7730      50    
+AC208 FR204 alpha 7.73 0.095 0.99
++A alpha 7.572 1.0
+
+#204FR    208AC A DECAY (25 MS)         1994LE05                  10NDS    201002
+#  208AC A DECAY (25 MS)         1994LE05                  10NDS    201002
+#H TYP=FUL$AUT=C.J. CHIARA and F.G. KONDEV$CIT=NDS 111,141 (2010)$        
+#H CUT=1-Oct-2009$                                                        
+#A HF$Using R0(204FR)=1.532 4 weighted average of 1.533 4 (202RN) and     
+#A 1.527 8 (204RN) from 1998Ak04                                          
+#L E,J,T$From adopted levels                                              
+#P 506       26(10-)             25 MS     +9-5           7730      50    
+AC208 FR204 alpha 7.73 0.025 0.90
++A alpha 7.758 1.0
+

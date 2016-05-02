@@ -1,0 +1,14 @@
+#145GD    145GD IT DECAY (85 S)         1975FI02,1970EP02         09NDS    200902
+#  145GD IT DECAY (85 S)         1975FI02,1970EP02         09NDS    200902
+#H TYP=FUL$AUT=E. BROWNE, J. K. TULI$CIT=NDS 110, 507 (2009)$             
+#H CUT=1-Oct-2008$                                                        
+#  %IT decay=94.3                                                         
+#  Measured: |g, |g|g, X|g, |g|g(t)                                       
+#  Other measurements: 1970SeZP, 1969Ja02                                 
+#G CC$ FROM BrIcc v2.2 (31-Mar-2008) 2008KiAA, "Frozen Orbitals" appr.    
+#L J         Adopted values                                               
+#P 749.1      211/2-             85 S      3                              
+GD145 GD145 IT 0.0 85.0 0.943
++G gamma 0.0273 0.047850000000000004
++G gamma 0.7213999999999999 0.87
+

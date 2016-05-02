@@ -1,0 +1,36 @@
+#142TB    142TB IT DECAY (303 MS)       2006TA08                  11NDS    201108
+#  142TB IT DECAY (303 MS)       2006TA08                  11NDS    201108
+#H TYP=FUL$AUT=T.D. Johnson, D. Symochko(a), M. Fadil(b), and J.K. Tuli$  
+#H CIT=NDS 112, 1949 (2011)$CUT=1-Jun-2010$                               
+#  {+142}Tb isotope formed by {+92}Mo({+54}Fe,n3p) reaction at 250 MeV.   
+#  The recoil products were separated in mass/charge ratio by recoil-mass 
+#  separator (RMS). Measured E|g, I|g, |g|g, conversion electrons using   
+#  two segmented Ge clover detectors for |g rays and Si(Li) conversion    
+#  electron spectrometer (BESCA) at Oak Ridge HRIBF.                      
+#  1991Fi03: measured G, GG, XG, ^Xp, T1/2.                               
+#G CC$ FROM BrIcc v2.2b (20-Jan-2009) 2008Ki07, "Frozen Orbitals" appr.   
+#G $Theoretical conversion coefficients are from BrIcc code               
+#P 279.8      4 5-                 303 MS  17                             
+TB142 TB142 IT 0.0 0.0 1.0
+
+#142TB    142TB IT DECAY (25 US)        2006TA08                  11NDS    201108
+#  142TB IT DECAY (25 US)        2006TA08                  11NDS    201108
+#H TYP=FUL$AUT=T.D. Johnson, D. Symochko(a), M. Fadil(b), and J.K. Tuli$  
+#H CIT=NDS 112, 1949 (2011)$CUT=1-Jun-2010$                               
+#  {+142}Tb isotope formed by {+92}Mo({+54}Fe,n3p) reaction at 250 MeV.   
+#  The recoil products were separated in mass/charge ratio by recoil-mass 
+#  separator (RMS). Measured E|g, I|g, |g|g, conversion electrons using   
+#  two segmented Ge Clover detectors for |g rays and Si(Li) conversion    
+#  electron spectrometer (BESCA) at Oak Ridge HRIBF.                      
+#  1989ZYZZ: Measured G, X                                                
+#  2001SC09: Using delayed coincidences (10-30 US time window),           
+#  established transitions feeding the isomer                             
+#  The evaluators note that this is a significant change for the level    
+#  scheme.  Earlier measurements (1989ZyZZ) placed the position of the    
+#  isomer at 621 keV.  The current measurement places this level at       
+#  652 keV.                                                               
+#G CC$ FROM BrIcc v2.2b (20-Jan-2009) 2008Ki07, "Frozen Orbitals" appr.   
+#G $Theoretical conversion coefficients are from BrIcc code               
+#P 652.1     6  8+                 25 US   1                              
+TB142 TB142 IT 0.0 0.0 1.0
+

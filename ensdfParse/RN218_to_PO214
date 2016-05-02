@@ -1,0 +1,12 @@
+#214PO    218RN A DECAY                                           09NDS    200902
+#  218RN A DECAY                                           09NDS    200902
+#H TYP=FUL$AUT=S. -C. WU{+a}$CIT=NDS 110, 681 (2009)$CUT=1-Nov-2007$      
+#  For calculated |a-decay rates, see for example, 1992De44               
+#  and 1977Ba70.                                                          
+#A HF        HF(7133|a)=1.0 yields r{-0}({+214}Po)=1.559 {I8} (1998Ak04). 
+#P 0.0          0+                 35 MS   5              7262.5    19    
+RN218 PO214 alpha 7.2625 0.0 1.0
++A alpha 7.1292 0.9987
++A alpha 6.5311 0.00127
++G gamma 0.6093099999999999 0.00124
+

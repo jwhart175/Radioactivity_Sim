@@ -1,0 +1,17 @@
+#111SB    111TE EC DECAY:26.2 S         2005SH24                  09NDS    200905
+#  111TE EC DECAY:26.2 S         2005SH24                  09NDS    200905
+#H TYP=FUL$AUT=Jean Blachot$CIT=NDS 110, 1239 (2009)$CUT=1-Feb-2008$      
+#  {+111}Te isotope produced in {+58}Ni({+56}Fe,2pn) reaction at E=225    
+#  MeV.  Reaction products separated in fragment mass analyzer (FMA).     
+#  Measured E|g, I|g, |g|g, |g(t), |g|g(t) with two large HPGe detectors  
+#  (45% and 65%) and two small Ge detectors (|?25%).  Two plastic         
+#  scintillators were used to veto 0|' |g|g events in same detector and to
+#  obtain 180|' |g|g coin data.                                           
+#G E(X)$ Energy of transition ambiguous in time-subtracted spectrum for   
+#G decay of {+111}Te.  |DE|g=1 keV assigned by 2005Sh24 because of strong 
+#G overlap of the 997 and 1032 transitions from |b+ decay of {+111}Sb.    
+#L E$ From least-squares fit to E|g's ; |DE|g=1 keV assumed               
+#L for each transition unless stated otherwise.                           
+#P 0.0          5/2+              26.2 S   6              7400      80    
+TE111 SB111 beta+ 7.4 0.0 1
+

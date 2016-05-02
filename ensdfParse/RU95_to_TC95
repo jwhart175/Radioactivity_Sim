@@ -1,0 +1,56 @@
+# 95TC    95RU EC DECAY                 2007SH35,1974KR02         10NDS    201010
+#  95RU EC DECAY                 2007SH35,1974KR02         10NDS    201010
+#H TYP=FUL$AUT=S. K. Basu, G. Mukherjee, A. A. Sonzogni$                  
+#H CIT=NDS 111, 2555 (2010)$CUT=30-Jun-2009$                              
+#  2007SH35: source produced by  {+92}Mo(|a,n) reaction at  E=17 MeV;     
+#  measured E|g, I|g, |g|g coin using HPGe detectors.  Results agree      
+#  well with 1974KR02, however, the gamma energy uncertainties from       
+#  2007SH35 are unrealistically small.  Levels reported by 2007SH35 and   
+#  not by 1974KR02 were incorporated.  Some weak gamma rays observed by   
+#  2007SH35 were not adopted.                                             
+#  1974Kr02: measured |g's and |g|g-coincidences; Ge(Li)                  
+#  1973Xe01: measured |g's and |g|g-coincidences; Ge(Li)                  
+#  1968Pi03: measured E|b's (scint), |b|g-coincidences (scint,Ge(Li)),    
+#  |g's (Ge(Li)), |g|g-coincidences (Ge(Li),NaI), and |g(t) (Ge(Li))      
+#E E(A)$From E|b=910 {I30} and 1200 {I30} (1968Pi03)                      
+#G M,MR,CC,E(A)$From the adopted gammas                                   
+#G RI(B)$From the strongest intensity for each state and the adopted      
+#G branching ratios                                                       
+#G E(D),RI(E)$From 1973Xe01. I|g renormalized by evaluator to             
+#G I|g(336|g)=70.8                                                        
+#G E(F)$Isotopic assignment in question                                   
+#G E(M)$From 2007SH35, |dE|g set as 0.25 keV, considerably larger than    
+#G the values quoted by 2007SH35.                                         
+#G RI(N)$From 2007SH35                                                    
+#L J,T$From adopted levels                                                
+#L E(C)$Level placed following 2007SH35                                   
+#L E$From least-squares fit to E|g                                        
+#  CC$ FROM BrIcc v2.2a (13-Jul-2008) 2008Ki07, "Frozen Orbitals" appr.   
+#P 0.0          5/2+              1.643 H   13             2565     12    
++B beta+ 7.880000000000001E-4 0.0017000000000000001
++B beta+ 0.5334 0.005699999999999999
++B beta+ 0.4053 0.0072
++B beta+ 0.262 0.0083
++B beta+ 0.2068 0.0085
++B beta+ 0.1666 0.0086
++B beta+ 0.1517 0.0086
++B beta+ 0.1248 0.0086
++B beta+ 8.67E-4 0.0010773
++B beta+ 8.67E-4 0.001078
++B beta+ 8.662E-4 0.0010846
++B beta+ 8.659E-4 0.0010871
++B beta+ 8.655000000000001E-4 0.0010898
++B beta+ 8.652800000000001E-4 0.001
++B beta+ 8.649E-4 0.00109
++B beta+ 8.644E-4 0.00109
++B beta+ 8.634E-4 0.0011
++B beta+ 8.616E-4 0.0011200000000000001
++B beta+ 8.596000000000001E-4 0.00113
++B beta+ 8.589E-4 0.00114
++B beta+ 8.584E-4 0.00114
++B beta+ 8.562999999999999E-4 0.00116
++B beta+ 8.555E-4 0.00116
++B beta+ 8.515E-4 0.0012
++B beta+ 8.510999999999999E-4 0.0012
++B beta+ 8.444E-4 0.0012
+

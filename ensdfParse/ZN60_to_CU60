@@ -1,0 +1,33 @@
+# 60CU    60ZN EC DECAY                 1969HO01,1972DU09         13NDS    201312
+#  60ZN EC DECAY                 1969HO01,1972DU09         13NDS    201312
+#H TYP=FUL$AUT=E. BROWNE, J. K. TULI$CIT=NDS 114, 1849 (2013)$            
+#H CUT=31-Dec-2012$                                                       
+#G CC$ FROM BrIcc v2.2 (31-Mar-2008) 2008KiAA, "Frozen Orbitals" appr.    
+#  Production: Ni({+3}He,n), E({+3}He)<10 MeV, chemical separation.       
+#  Measured |g(t) and |g|g with NaI, singles spectra with Ge(Li)          
+#  (1969Ho01).                                                            
+#  Production: Ni({+3}He,n), E({+3}He)=15 MeV, mass separation. Measured  
+#  |g(t) with NaI and singles spectra with Ge(Li) (1972Du09).             
+#  Production: Ni({+3}He,n), E({+3}He)=15 MeV, chemical separation.       
+#  Measured |g{+|+}|g(t) (1975Ro25).                                      
+#  Production: Ni(|a,xn), E(|a)={ 50 MeV}. On-line isotope separator.     
+#  Measured |b{++} spectra, |g singles, and |g(t) (1986Ka38).             
+#  The decay scheme is established from |g|g data from 1969Ho01.          
+#  Other: 1955Li39                                                        
+#G E         From 1969Ho01, except as noted.                              
+#G RI        Average of values from 1969Ho01 and 1972Du09.                
+#P 0           0+                2.38 M    5              4170.8    16    
+ZN60 CU60 beta+ 4.1708 142.79999999999998 1.0
++G gamma 0.5724 0.026239999999999996
++B beta+ 8.867E-4 9.6E-4
++G gamma 0.061399999999999996 0.256
++B beta+ 1.3924 0.0
++G gamma 0.2734 0.10880000000000001
++B beta+ 1.2626 0.0
++G gamma 0.36460000000000004 0.032
++B beta+ 1.2489000000000001 0.0
++G gamma 0.3344 0.08960000000000001
++G gamma 0.6703 0.64
++B beta+ 1.1049 0.0
++G gamma 0.947 0.01024
+

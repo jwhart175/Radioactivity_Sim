@@ -1,0 +1,31 @@
+#162HF    162TA EC DECAY                1992HA10,1986RU05,1985LI1407NDS    200708
+#  162TA EC DECAY                1992HA10,1986RU05,1985LI1407NDS    200708
+#H TYP=FUL$AUT=C. W. Reich$CIT=NDS 108,1807 (2007)$CUT=1-Mar-2007$        
+#  DATA SET UPDATED (APRIL, 2006) BY CW REICH TO INCLUDE NEW QP VALUE     
+#   AND BRICC-BASED CC VALUES.                                            
+#  1985Li14: sample produced in the {+175}Lu({+3}He,16n) reaction with    
+#  E(3HE)=280 MeV on a 15-g ^LuF{-3} powder target. Isotope separation    
+#  was used, with the activities collected on a moving tape-transport     
+#  system. G's measured using Ge and Si detectors. Reported T1/2, EG, RI. 
+#  1986Ru05: sample produced in the 133CS(36AR,7n) reaction at            
+#  E(36AR)=255, 234 and 218 MEV on a 3 mg/cm{+2}-thick ^CsCl target. The  
+#  reaction products were transported using a ^He-jet tape-transport      
+#  system. A Si surface-barrier detector and three Ge detectors were      
+#  used to study |a, x-ray and |g-ray spectra. Reported %A (and, hence,   
+#  %EC+%B+).                                                              
+#  1992Ha10: samples produced by bombarding a 1.1 mg/cm{+2}-thick target  
+#  of natural Ca, evaporated onto a 2.7 mg/cm{+2}-thick Mo foil, with a   
+#  711-MEV 127I beam. ^Mo foils were used to degrade the accelerated      
+#  ions before striking the target. A ^He-jet tape-transport system was   
+#  used to carry the reaction products to the detectors. A 300 mm{+2},    
+#  100 |mm-thick, surface-barrier detector and a GELI detector were used  
+#  to study the |a particles and |g rays. Reported T1/2, EA, EG, RI and   
+#  %A (and, hence, %EC+%B+) values. Preliminary data from these authors   
+#  are given by 1987HaZO.                                                 
+#G E,RI      From 1992Ha10                                                
+#L E         Computed from the listed EG values                           
+#L J         From adopted values                                          
+#L BAND(A)   KPI=0+ ground-state band                                     
+#P  0.0                            3.57 S  12             9390      50    
+TA162 HF162 beta+ 9.39 0.0 0.99926
+

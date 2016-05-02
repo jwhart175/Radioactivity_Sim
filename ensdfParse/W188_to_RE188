@@ -1,0 +1,28 @@
+#188RE    188W B- DECAY (69.78 D)       1972SH13                  02NDS    200204
+#  188W B- DECAY (69.78 D)       1972SH13                  02NDS    200204
+#H TYP=FUL$AUT=BALRAJ SINGH$CIT=NDS 95, 387 (2002)$CUT=26-Feb-2002$       
+#  1972SH13 (also 1972SH14,1964BU10): Measured EG, IG, B                  
+#  2002ZI01 (Also 2002UN02): Measured T1/2(188W isotope) and 188W/188RE   
+#  standardization                                                        
+#B E$From 1964BU10                                                        
+#L E$From least-squares fit to EG's                                       
+#L J$From adopted levels                                                  
+#G E(A)$Measured by curved-crystal spectrometer (1972SH13),               
+#G using 155.045G in 188OS for calibration.                               
+#G E(D)$Existence of this G ray (in 188W B- decay) is uncertain           
+#G M,MR$From CE data in 187RE(N,G) E=TH                                   
+#P 0           0+                69.78 D   5              349       3     
+W188 RE188 beta- 0.349 6028992.0 1.0
++B beta- 0.0997 0.99
++B beta- 0.0799 0.0015
++G gamma 0.06358 0.0010854
++B beta- 0.048299999999999996 6.7E-5
++G gamma 0.10585 1.206E-5
++G gamma 0.14178 6.432000000000001E-5
++B beta- 0.037399999999999996 8.7E-5
++G gamma 0.20786000000000002 8.04E-5
++B beta- 0.0149 0.0083
++G gamma 0.08531 2.412E-5
++G gamma 0.22709000000000001 0.0022110000000000003
++G gamma 0.29066899999999996 0.00402
+

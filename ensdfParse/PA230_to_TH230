@@ -1,0 +1,47 @@
+#230TH    230PA EC DECAY                1994AC02,1972VA24         12NDS    201209
+#  230PA EC DECAY                1994AC02,1972VA24         12NDS    201209
+#H TYP=FUL$AUT=E. BROWNE, J. K. TULI$CIT=NDS 113, 2113 (2012)$            
+#H CUT=1-May-2012$                                                        
+#  Done again by E. Browne (August 15, 2007).                             
+#  1994AC02: 230PA mass separated sources produced by 232TH(p,3n).        
+#  Measured EG, RI, conversion electrons. Detectors: Hyper pure           
+#  germanium detectors for G rays; magnetic iron-free orange              
+#  spectrometer. Measured GG(THETA,H) nuclear orientation.                
+#  1972VA24: 230PA mass separated sources produced by 232TH(p,3n).        
+#  Measured EG, RI, conversion electrons, GG COIN. Detectors:             
+#  GE(LI) and SI(LI) detectors for G- and X-rays. NaI(Tl) crystal and     
+#  GE(LI) for GG COIN. SI(AU) detector for conversion electrons.          
+#  The experimental ^Th (XKA1) x-ray intensity of 30.0% {I15} (1970Lo02)  
+#  agrees very well with 30.0% {I23}, calculated by evaluators from G-ray 
+#  intensities, theoretical conversion coefficients, and the              
+#  decay scheme using the RADLST computer code. Besides, the total        
+#  average radiation energy emitted per decay (1208 keV {I10}) agrees with
+#  1191 keV {I78}, calculated by evaluators using also the computer code  
+#  RADLST. These agreements suggest that decay scheme is accurate and     
+#  complete.                                                              
+#G E         From 1994Ac02, unless otherwise specified.                   
+#G RI        Weighted average of values from 1972Va24 and 1994Ac02.       
+#G M         From conversion electron data reported in 1972Va24,          
+#G using conversion coefficients normalized to                            
+#G ELC(121G, E2)=3.4 (theory), unless otherwise specified.                
+#G RI(A)     From 1994Ac02                                                
+#G MR(D)     From GG(THETA,H) in 1994Ac02.                                
+#G M(E)      From conversion electron data (1994Ac02).                    
+#L E         Deduced by evaluators from a least-squares fit to G-ray      
+#L energies.                                                              
+#P 0.0         (2-)              17.4 D    5              1310.5    28    
+PA230 TH230 beta+ 1.3105 1503359.9999999998 0.922
++B beta+ 7.689E-4 0.0017100000000000001
++B beta+ 7.513E-4 0.00183
++B beta+ 7.469E-4 0.0018599999999999999
++B beta+ 6.673E-4 0.002
++B beta+ 7.37E-4 0.00193
++B beta+ 7.225E-4 0.0020399999999999997
++B beta+ 7.139E-4 0.0021
++B beta+ 6.731E-4 0.04
++B beta+ 6.628E-4 0.06
++B beta+ 6.374E-4 0.03
++B beta+ 6.351E-4 0.04
++B beta+ 5.949999999999999E-4 0.0029
++B beta+ 5.55E-4 0.0032
+

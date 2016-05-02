@@ -1,0 +1,112 @@
+#125TE    125SB B- DECAY                1998SA55,1976WA13,1990ME1511NDS    201102
+#  125SB B- DECAY                1998SA55,1976WA13,1990ME1511NDS    201102
+#H TYP=FUL$AUT=J. KATAKURA$CIT=NDS 112, 495 (2011)$CUT=1-Jan-2010$        
+#  The decay scheme is from 1998Sa55,1999Sa73                             
+#  1998Sa55,1999Sa73: HPGe, |g; mini-orange spectrometer, Ice             
+#  1998Ro20: |g|g(|q), mixing ratio                                       
+#  1997De38: HPGe, |g|g(|q), mixing ratio                                 
+#  1993Fa02: HPGe |g                                                      
+#  1992De26: Plastic scin |b|g(t)                                         
+#  1992Sm02: Semi |g, 4|p|b-|g coin                                       
+#  1991Go22: Mini-orange spectrometer, Ice                                
+#  1990Me15: HPGe |g                                                      
+#  1990He05: HPGe |g                                                      
+#  1990Lo03: Semi |g, 4|p|b-|g coin                                       
+#  1984Iw03: Semi |g                                                      
+#  1983Si14: Semi |g, |g|g(|q)                                            
+#  1976Wa13: Compton-suppression spectrometer                             
+#  1972Sa08: Plastic scin |b|g(t)                                         
+#  1970Ma20: Mag spect |bce(t), (ce)(ce)(t)                               
+#  1968Ko08: Plastic scin |b|g-coin, |b|g(t)                              
+#  1966Ma49: Magnetic spectrograph ce                                     
+#  Others: semi |g: 1968In01, 1968St16, 1969Au09, 1970Na12, 1971Ma08,     
+#  1973Gu10, 1977Ar10, 1979Pr08, 1977Ge12, 1980Ro22, 1988RaZM 1992ScZZ;   
+#  magnetic spectrograph ce: 1959Na06; semi ce: 1970Na12;                 
+#  |g|g(|q): 1964In02, 1968In01, 1969Kn03, 1969Si05, 1970Ba69, 1970Cr07,  
+#  1970Wy01, 1971Ba44, 1971Ro17, 1971Wy02, 1972Ba12; oriented nuclei      
+#  |g(|q): 1968An05, 1968St16, 1971Kr11; liquid scin branching ratio:     
+#  1998Gr13; recommended standard: 1979He19, 2000He14                     
+#G CC$ FROM BrIcc v2.2 (31-Mar-2008) 2008KiAA, "Frozen Orbitals" appr.    
+#G                                                                        
+#G                    |g|g(|q) data                                       
+#G                                                                        
+#G ------------------------------------------------------------           
+#G    cascade           A{-2}              A{-4}            ref           
+#G ------------------------------------------------------------           
+#G   204 - 176      -0.471 {I11}                       1997De38           
+#G                  -0.405 {I12}       0.032 {I46}        1998Ro20        
+#G   321 - 176      -0.144 {I13}                       1997De38           
+#G                  -0.144 {I12}       0.00 {I1}          1998Ro20        
+#G   166 - 204      -0.41 {I2}         0.04 {I4}          1998Ro20        
+#G ------------------------------------------------------------           
+#G                                                                        
+#G E(A)      From 1990He05                                                
+#G E(B)      Values recommended by 2000He14                               
+#G E(C)      Given in table 7 of 2000He14 but not in their table of       
+#G recommended values                                                     
+#G E(D),RI(D)$Seen only by 1998Sa55                                       
+#G E(E)      From 1990Me15                                                
+#G E(F)      From 1983Si14. Uncertainty is not given by author.           
+#G 0.5 keV uncertainty is assumed by evaluator.                           
+#G RI        Weighted av from 1990Lo03, 1990He05, 1990Me15, 1992Sm02,     
+#G 1993Fa02 and 1998Sa55, unless otherwise noted                          
+#G M         From |a(exp) and |g|g(|q), unless otherwise noted            
+#G MR        From adopted gammas, unless otherwise indicated              
+#G CC        |a(K)exp and K/L from weighted av of Ice's                   
+#G (1966Ma49, 1991Go22 and 1998Sa55) and the adopted I(|g's) if           
+#G |a(K)(463.4|g)=0.008610(E2), unless otherwise noted. L1:L2:L3          
+#G values are from 1966Ma49                                               
+#L E         From a least-squares fit (by evaluators) to E|g's            
+#L J         From adopted levels                                          
+#P 0.0         7/2+              2.75856 Y 25             766.7     21    
+SB125 TE125 beta- 0.7667 8.7051626339328E7 1.0
++G gamma 0.05843 1.2432E-4
++G gamma 0.035489 0.04374879999999999
++B beta- 0.21547 0.136
++B beta- 0.1345 0.0718
++G gamma 0.176314 0.0684056
++B beta- 0.10697 2.22E-4
++G gamma 0.08102 5.032E-5
++G gamma 0.36656 7.992E-5
++G gamma 0.40195 6.216E-5
++B beta- 0.09334 5.2E-4
++G gamma 0.408065 0.00184408
++G gamma 0.44355500000000003 0.0030635999999999997
++B beta- 0.08694 0.40299999999999997
++G gamma 0.0198 2.0424E-4
++G gamma 0.42787400000000003 0.296
++G gamma 0.463365 0.104932
++B beta- 0.06748 0.01609
++G gamma 0.06185 2.072E-5
++G gamma 0.20413800000000001 0.0031672000000000002
++G gamma 0.380452 0.015167039999999998
++G gamma 0.48973 1.3616E-5
++G gamma 0.5031 3.848E-5
++G gamma 0.53862 1.3912E-5
++B beta- 0.03474 0.1788
++G gamma 0.110895 1.036E-5
++G gamma 0.17271899999999998 0.00191216
++G gamma 0.31495 4.0255999999999995E-5
++G gamma 0.49129 4.736E-5
++G gamma 0.6005969999999999 0.1764752
++B beta- 0.03302 0.0575
++G gamma 0.116955 0.00262552
++G gamma 0.178842 3.3743999999999994E-4
++G gamma 0.198654 1.27872E-4
++G gamma 0.32104000000000005 0.004155839999999999
++G gamma 0.49737 3.1968E-5
++G gamma 0.606713 0.04981679999999999
++B beta- 0.03003 5.5E-4
++G gamma 0.20932 4.4992E-4
++G gamma 0.33182 2.516E-5
++G gamma 0.6174 5.327999999999999E-5
++G gamma 0.6527999999999999 2.6639999999999996E-5
++B beta- 0.02491 0.13419999999999999
++G gamma 0.13281 8.584E-6
++G gamma 0.208077 0.0024775199999999995
++G gamma 0.22789099999999998 0.00131128
++G gamma 0.63595 0.11218399999999999
++G gamma 0.6714410000000001 0.01790504
++B beta- 0.009630000000000001 6.9E-7
++G gamma 0.6932999999999999 9.175999999999999E-7
+

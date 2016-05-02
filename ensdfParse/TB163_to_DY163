@@ -1,0 +1,50 @@
+#163DY    163TB B- DECAY (19.5 M)       1971KA22                  10NDS    201005
+#  163TB B- DECAY (19.5 M)       1971KA22                  10NDS    201005
+#H TYP=FUL$AUT=C. W. REICH, BALRAJ SINGH$CIT=NDS 111, 1211 (2010)$        
+#H CUT=12-Apr-2010$                                                       
+#  DATA SET UPDATED (FEBRUARY, 2009) BY CW REICH TO INCLUDE NEW QP VALUE, 
+#   BRICC ICC VALUES, REMOVAL OF PARENTHESES FROM SOME JPI VALUES, AND A  
+#   COMMENT ON THE MAKEUP OF THE 1/2+ STATE AT 884 KEV.                   
+#  1971Ka22 (also 1972Ka12): measured E|g, I|g, |g(t), |g|g-coin, E|b's,  
+#  I|b's, |b(t), |b|g coin                                                
+#  Others:                                                                
+#  1966Fu08: measured E|g, I|g, |g(t), |g|g coin, E|b's, |b(t), |b|g coin 
+#  1964Ma16: measured T{-1/2}, |g                                         
+#  1951Bu25: measured T{-1/2}                                             
+#  1975Fe13: calculated log| {Ift}                                        
+#B $E|b={ 1400 {I100}} (1966Fu08) to 250.9 level is not reported          
+#B by 1971Ka22 who suggest a possible contamination from {+162}Tb |b{+-}  
+#B in 1966Fu08                                                            
+#G M,MR$From adopted gammas                                               
+#G RI(D)$From |g|g                                                        
+#G E(G)$Assignment to {+163}Tb decay is uncertain                         
+#L $See adopted levels for band assignments                               
+#L J$From adopted levels                                                  
+#L E(A)$ PROBABLE BANDHEAD OF THE KPI=2- OCTUPOLE VIBRATION BUILT ON      
+#L  THE 5/2[523] GS ORBITAL. THE LOW LOGFT VALUE INDICATES THAT IT IS     
+#L  POPULATED VIA A |n5/2[523]|)|p7/2[523], {Iau}, B- TRANSITION,         
+#L  IMPLYING THAT THE DOMINANT CONFIGURATION IS                           
+#L |n5/2[523]-|p7/2[523]+|p3/2[411].                                      
+#L  THIS SITUATION IS PRESUMABLY SIMILAR TO THAT IN 162DY, WHERE THE      
+#L  KPI=2- OCTUPOLE VIBRATION OCCURS RELATIVELY LOW IN THE LEVEL SCHEME   
+#L  (1148.2 keV) AND HAS THESE TWO PROTON ORBITALS AS THE DOMINANT        
+#L  CONFIGURATION, WHICH IS WHAT IS EXPECTED FOR THE KPI=2- OCTUPOLE      
+#L  PHONON IN THIS MASS REGION.                                           
+#P 0.0         3/2+              19.5 M    3              1785      4     
++B beta- 0.4864 0.091
++B beta- 0.484 0.015
++B beta- 0.4641 0.039
++B beta- 0.45039999999999997 0.005
++B beta- 0.4352 0.003
++B beta- 0.357 0.114
++B beta- 0.3455 0.115
++B beta- 0.3396 0.0033
++B beta- 0.3088 0.045
++B beta- 0.299 0.348
++B beta- 0.2868 0.016
++B beta- 0.2793 0.154
++B beta- 0.2738 0.045
++B beta- 0.2324 0.013999999999999999
++B beta- 0.22290000000000001 0.016
++B beta- 0.1999 0.0025
+

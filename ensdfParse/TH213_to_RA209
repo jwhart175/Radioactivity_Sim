@@ -1,0 +1,19 @@
+#209RA    213TH A DECAY                 1968VA18,1980VE01         15NDS    201506
+#  213TH A DECAY                 1968VA18,1980VE01         15NDS    201506
+#H TYP=FUL$AUT=J. CHEN {+#} AND F.G. KONDEV$CIT=NDS 126, 373 (2015)$      
+#H CUT=30-Sep-2013$                                                       
+#  1968VA18: 213TH activities were produced by bombarding 166 MEV 16O     
+#  beam from the HILAC accelerator on a 206PB target. |a particles        
+#  were detected by a surface barrier detector. Measured E|a, I|a, |a(t). 
+#  Deduced T1/2 of 213TH.                                                 
+#  1980VE01: 213TH activities were produced by the 40AR+177HF reaction    
+#  with E(40AR)=170-200 MEV reaction products were separated by the       
+#  velocity filter ^SHIP at the ^GSI heavy ion accelerator ^UNILAC.       
+#  |a particles were detected by a surface-barrier silicon detector       
+#  (FWHM=20 KEV). Measured E|a, |a(t). Deduced T1/2 of 213TH.             
+#A HF$R0(209RA)=1.497 14, weighted average of                             
+#A R0(208RA)=1.510 27 and R0(210RA)=1.492 16, both deduced from HF=1      
+#P 0.0         (5/2-)            144 MS    21             7837      7     
+TH213 RA209 alpha 7.837 0.144 1.0
++A alpha 7.69 1.0
+

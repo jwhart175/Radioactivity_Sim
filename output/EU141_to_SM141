@@ -1,0 +1,98 @@
+#141SM    141EU EC DECAY (40.7 S)       1977DE25                  14NDS    201411
+#  141EU EC DECAY (40.7 S)       1977DE25                  14NDS    201411
+#H TYP=FUL$AUT=N. NICA$CIT=NDS 122, 1 (2014)$CUT=1-Jan-2012$              
+#  Measured: |g, |g|g, |b|g, K| x ray (1977De25,1989Gi06), |b{++}         
+#  (1983Al06), |g, ce (1973VaYZ)                                          
+#  Level scheme is that of 1977De25                                       
+#  Others: 1973WeZK, 1973HaWA                                             
+#  %|e+%|b{++}=73 {I5} to <2-keV levels of {+141}Sm (1989Gi06); 59 {I4}   
+#  in 1977De25                                                            
+#E           |e feedings were determined from the imbalance of I|g        
+#E feedings and                                                           
+#E measured %|e+%|b{++}=73 {I5} to 1.58 level (1989Gi06, assuming no      
+#E |e+|b{++} to g.s.)                                                     
+#E           EC/B+=0.22 2 and IG(394G)=9% 2 (1989GI06)                    
+#G CC$ FROM BrIcc v2.2b (20-Jan-2009) 2008Ki07, "Frozen Orbitals" appr.   
+#G M         From |a(K)exp                                                
+#L J         Adopted values                                               
+#P 0.0         5/2+              40.7 S    7              6008      14    
+EU141 SM141 beta+ 6.008 40.7 0.09
++G gamma 0.8174 0.009000000000000001
++G gamma 0.8829 0.081
++G gamma 0.99 0.016
++G gamma 0.9961 0.040999999999999995
++G gamma 1.052 0.022000000000000002
++G gamma 1.0534000000000001 0.01
++G gamma 1.6916 0.015
++G gamma 1.839 0.024
++G gamma 0.38289999999999996 0.33
++G gamma 0.3845 0.617
++G gamma 0.394 1.0
++G gamma 0.3956 0.182
++G gamma 0.3695 0.18
++G gamma 0.5931000000000001 0.32799999999999996
++G gamma 0.5947 0.046
++G gamma 0.2023 0.019
++G gamma 0.2135 0.013000000000000001
++G gamma 0.5962999999999999 0.055999999999999994
++G gamma 0.5979 0.136
++G gamma 0.2346 0.0063
++G gamma 0.43389999999999995 0.063
++G gamma 0.3544 0.016
++G gamma 0.7242000000000001 0.018000000000000002
++G gamma 0.3958 0.018000000000000002
++G gamma 0.606 0.035
++G gamma 0.6059 0.105
++G gamma 0.9997999999999999 0.027999999999999997
++G gamma 0.6878 0.021
++G gamma 0.699 0.021
++G gamma 1.0819 0.021
++G gamma 1.0836 0.009000000000000001
++G gamma 0.7649 0.024
++G gamma 0.776 0.03
++G gamma 0.7996 0.03
++G gamma 0.9762000000000001 0.019
++G gamma 0.9357000000000001 0.013999999999999999
++G gamma 1.2344000000000002 0.02
++G gamma 1.2454 0.032
++G gamma 1.3820999999999999 0.024
++G gamma 1.7662 0.045
++G gamma 0.8936000000000001 0.009000000000000001
++G gamma 1.3004 0.022000000000000002
++G gamma 1.5107000000000002 0.039
++G gamma 1.5607 0.01
++G gamma 1.3924 0.015
++G gamma 1.676 0.017
++G gamma 1.8266 0.026000000000000002
++G gamma 2.2216 0.019
++G gamma 1.7449000000000001 0.03
+
+#141SM    141EU EC DECAY (2.7 S)        1977DE25,1989GI06         14NDS    201411
+#  141EU EC DECAY (2.7 S)        1977DE25,1989GI06         14NDS    201411
+#H TYP=FUL$AUT=N. NICA$CIT=NDS 122, 1 (2014)$CUT=1-Jan-2012$              
+#  Measured: |g, K| x ray (1977De25,1989Gi06)                             
+#  Other: 1973VaYZ                                                        
+#  |e+|b{++} feedings were determined from balance of I|g for each level  
+#  and absolute I(1595|g)=0.4% deduced from measurement of growth and     
+#  decay of 196.6|g in daughter {+141}Sm activity                         
+#G CC$ FROM BrIcc v2.2b (20-Jan-2009) 2008Ki07, "Frozen Orbitals" appr.   
+#G RI        Relative to I|g(96.4|g)=100 in IT decay                      
+#G           I(395.6|g+394.0|g)=95 {I20}; I(395.6|g)/I(394.0|g)=0.182     
+#G {I15} from {+141}Eu g.s. |e decay                                      
+#L J         Adopted values                                               
+#P 96.45     7 11/2-             2.7 S     3              6008      14    
+EU141 SM141 beta+ 6.008 2.7 0.0581
++G gamma 0.8829 0.72
++G gamma 0.394 0.8
++G gamma 0.3956 0.15
++G gamma 0.3695 0.4
++G gamma 0.43389999999999995 0.57
++G gamma 0.6059 0.19
++G gamma 0.5187999999999999 0.59
++G gamma 0.8873 0.38
++G gamma 0.116 0.1
++G gamma 0.6356 0.06
++G gamma 0.8044 0.58
++G gamma 1.2257 0.02
++G gamma 1.5953 0.53
+

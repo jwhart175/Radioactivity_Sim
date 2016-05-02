@@ -1,0 +1,117 @@
+# 74SE    74BR EC DECAY (25.4 M)        1974SC28                  06NDS    200607
+#  74BR EC DECAY (25.4 M)        1974SC28                  06NDS    200607
+#H TYP=FUL$AUT=BALRAJ SINGH, AMEENAH R. FARHAN$CIT=NDS 107, 1923 (2006)$  
+#H CUT=30-Apr-2006$                                                       
+#  G, GG STUDY. THE SOURCE CONTAINED A SMALL MIXTURE OF 46-MIN 74BR       
+#  OTHER: 1974CO38. G, GG STUDY                                           
+#  GG(T): 1976RO08                                                        
+#  B+: 1960BU22                                                           
+#G E         FROM 1974SC28. VALUES FROM 1974CO38 DISAGREE BY SEVERAL keV  
+#G ABOVE 3 MeV.                                                           
+#G RI        WEIGHTED AVERAGES FROM 1974SC28 AND 1974CO38. VALUES         
+#G CORRECTED FOR SMALL CONTRIBUTION FROM 46-MIN 74BR                      
+#G E(B)      REPORTED BY 1974CO38 ONLY                                    
+#G E(A)      SEEN BY 1974SC28 ONLY                                        
+#G E(D)      REPORTED BY 1974CO38 ONLY. THE CORRECT ENERGY IS AP 3869.    
+#G THIS PEAK IS PROBABLY DUE TO SINGLE ESCAPE OF 4380G                    
+#G RI(F)     FROM 1974SC28. VALUE IN 1974CO38 LOW BY A FACTOR OF AP 2     
+#G RI(M)     1974CO38 GIVE 2.3 5                                          
+#L           THE 3112.3 LEVEL FROM 1974CO38 HAS BEEN DISCARDED            
+#L J         FROM 'ADOPTED LEVELS'                                        
+#L E         FROM LEAST SQUARES FIT TO EG'S                               
+#P    0.0      (0-)                25.4 M  3                6907    15    
++B beta+ 2.436 0.04
++G gamma 0.6347999999999999 0.6409999999999999
++B beta+ 2.33 0.038
++B beta+ 2.128 0.065
++B beta+ 1.853 0.028999999999999998
++B beta+ 1.832 0.006
++B beta+ 1.595 0.001
++B beta+ 1.182 0.17600000000000002
++B beta+ 1.046 0.07400000000000001
++B beta+ 1.007 0.084
++B beta+ 0.956 0.033
++B beta+ 0.931 0.102
++B beta+ 0.865 0.069
++B beta+ 0.845 0.046
++B beta+ 0.812 0.022000000000000002
++B beta+ 0.79 0.037000000000000005
++B beta+ 0.711 0.028999999999999998
++B beta+ 0.676 0.0131
++B beta+ 0.66 0.045
++B beta+ 0.611 0.0102
++B beta+ 0.589 0.0159
+
+# 74SE    74BR EC DECAY (46 M)          1972CO32,1970GO24         06NDS    200607
+#  74BR EC DECAY (46 M)          1972CO32,1970GO24         06NDS    200607
+#H TYP=FUL$AUT=BALRAJ SINGH, AMEENAH R. FARHAN$CIT=NDS 107, 1923 (2006)$  
+#H CUT=30-Apr-2006$                                                       
+#  LEVEL SCHEME IS FROM 1972CO32                                          
+#  OTHERS: 1984MA35, 1983PA10, 1981GA11, 1974RO14, 1974RO11, 1971ROZV,    
+#  1969LA15, 1968BE44, 1966BE17, 1957BE46, 1953HO53                       
+#            G: 1984MA35, 1974RO14, 1974RO11, 1972CO32, 1971ROZV,         
+#  1970GO24, 1969LA15, 1968BE44, 1966BE17, 1957BE46                       
+#            GG: 1972CO32, 1970GO24                                       
+#            G(THETA,TEMP): ORIENTATION OF 74BR: 1992BA68                 
+#            GG(THETA): 1972CO32                                          
+#            CE: 1984MA35, 1983PA10, 1972CO32, 1970GO24                   
+#            T of 74BR ISOTOPE: 1984MA35, 1981GA11, 1974RO11,             
+#  1972CO32, 1971ROZV, 1969LA15, 1968BE44, 1966BE17, 1957BE46, 1953HO53   
+#G E         AVERAGE FROM 1972CO32 and 1970GO24. WEAK G's ARE REPORTED    
+#G BY 1972CO32 ONLY                                                       
+#G RI        WEIGHTED AVERAGE OF 1972CO32 and 1970GO24. DATA OF 1984MA35  
+#G GIVEN FOR A FEW STRONG G-RAYS WERE ALSO CONSIDERED IN OBTAINING        
+#G WEIGHTED AVERAGE. UNLESS OTHERWISE STATED, G'S WITH IG LT 0.5 ARE FROM 
+#G 1972CO32                                                               
+#G E(A)      FROM 1972CO32 ONLY                                           
+#G E(B)      FROM 1970GO24 ONLY                                           
+#G E(D)      FROM 1974RO14 ONLY                                           
+#G E(F)      DOUBLET. ENERGY FROM GG (1972CO32)                           
+#G RI(G)     TOTAL INTENSITY=6.7 7                                        
+#G RI(H)     TOTAL INTENSITY=1.2 2                                        
+#G E(X)$ LEVEL-ENERGY DIFFERENCE=2484.2                                   
+#G E(Y)$ LEVEL-ENERGY DIFFERENCE=3228.9                                   
+#G E(Z)$ LEVEL-ENERGY DIFFERENCE=3298.7                                   
+#L J         FROM 'ADOPTED LEVELS'                                        
+#L E         FROM LEAST SQUARE FIT TO EG'S                                
+#P   13.8        4(+)              46 M    2               6907     15    
++B beta+ 2.445 0.11
++G gamma 0.6347999999999999 0.912
++B beta+ 2.142 0.09
++B beta+ 2.089 0.08
++B beta+ 1.871 0.018000000000000002
++B beta+ 1.838 0.067
++B beta+ 1.731 0.049
++B beta+ 1.685 0.006500000000000001
++B beta+ 1.646 0.0115
++B beta+ 1.615 0.040999999999999995
++B beta+ 1.513 0.078
++B beta+ 1.466 0.008199999999999999
++B beta+ 1.392 0.022000000000000002
++B beta+ 1.386 0.0053
++B beta+ 1.344 0.035
++B beta+ 1.307 0.0089
++B beta+ 1.269 0.045
++B beta+ 1.253 0.0109
++B beta+ 1.211 0.0078000000000000005
++B beta+ 1.188 0.023
++B beta+ 1.187 0.0069
++B beta+ 1.162 0.009399999999999999
++B beta+ 1.148 0.006500000000000001
++B beta+ 1.033 0.0054
++B beta+ 0.989 0.038
++B beta+ 0.944 0.016
++B beta+ 0.872 0.0072
++B beta+ 0.871 0.0052
++B beta+ 0.698 0.01
++B beta+ 0.638 0.022000000000000002
++B beta+ 0.613 0.024
++B beta+ 0.604 0.019
++B beta+ 0.576 0.0096
++B beta+ 0.573 0.018000000000000002
++B beta+ 0.57 0.038
++B beta+ 0.539 0.02
++B beta+ 0.522 0.008
++B beta+ 0.497 0.0036
++B beta+ 0.48 0.0086
+

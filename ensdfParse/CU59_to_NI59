@@ -1,0 +1,42 @@
+# 59NI    59CU EC DECAY                 1973VA03,1977SE02         02NDS    200204
+#  59CU EC DECAY                 1973VA03,1977SE02         02NDS    200204
+#H TYP=FUL$AUT=Coral M. BAGLIN$CIT=NDS 95, 215 (2002)$CUT=8-Feb-2002$     
+#  Others: 1968LU15, 1968VE15 (for summary of EG, IG scin data), 1956PR12,
+#  1956SC09, 1955LI38, 1955YU06.                                          
+#  Measured EG, IG, semi. 59CU produced from 58NI(P,G) using 99.9% 58NI   
+#  target (1973VA03,1977SE02).                                            
+#  1977SE02 propose a level at 1778.8 to accommodate an                   
+#  EG=1778.8 1 line which appears strongly in their spectrum (RI=0.87 2)  
+#  but is absent from the spectrum of 1973VA03; the evaluator assumes this
+#  is not a 59NI line (it could plausibly arise from 28AL B- decay).      
+#  Otherwise, agreement between 1973VA03 and 1977SE02 is excellent.       
+#E           EC+B+ branches are obtained from TI imbalance at each        
+#E level. Measured EC/B+ LT 5% (1955YU06).                                
+#L J,T       From adopted levels.                                         
+#G E,RI      Weighted average of data from 1973VA03 and 1977SE02.         
+#G M,MR      From adopted gammas.                                         
+#G E(A),RI(A)$Observation of a 1610G (RI=0.016 4) suggests population of  
+#G the 1948 level, which in turn implies that the observed 1950G          
+#G (RI=0.117 5) includes unresolved contributions from 1948-GS and        
+#G 2415-465 transitions. Assuming adopted 1948 level branching (viz.      
+#G I(1608G):I(1948G)=28 5:72 3), the evaluator deduces                    
+#G RI(1948-GS)=0.041 13 leaving RI(2415-465)=0.076 14. However, the       
+#G observed EG=1949.90 14 corresponds to that expected for the 2415-465   
+#G transition alone; also, branching from 2415 level is consistent with   
+#G that observed in (N,G) E=thermal only if the total observed I(1950G)   
+#G is assigned to the 2415-465 transition. The evaluator, therefore,      
+#G assumes that the 1950G is not a doublet, and the 1610G reported by     
+#G 1977SE02 alone is not the same as the 1608G known from other reactions 
+#G to deexcite a 1948 level.                                              
+#G E(B),RI(B)$Reported by 1977SE02 only. May not be a 59NI G ray.         
+#G E(D),RI(D)$Observation of 999G (RI=0.041 10) implies population of the 
+#G 1338 level whose 1338G-decay branch presumably contributes to the      
+#G observed 1349G (RI=1.425 25). Assuming adopted 1338 level branching    
+#G (viz. I(999G):I(1338G)=100 5:40.3 20), evaluator deduces               
+#G RI(1338-GS)=0.016 4 leaving RI(1680-339)=1.409 25.                     
+#N 1.0                   1.0       1.                                     
+#N NR        from measured I(annihilation radiation)=196 5 (1973VA03)     
+#N and theoretical B+/EC ratios.                                          
+#N                                                                     3  
+#P 0.0         3/2-              81.5 S    5              4799.6    9     
+

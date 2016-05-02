@@ -1,0 +1,30 @@
+#145BA    252CF SF DECAY                1999ZH31,2001HA14         09NDS    200902
+#  252CF SF DECAY                1999ZH31,2001HA14         09NDS    200902
+#H TYP=FUL$AUT=E. BROWNE, J. K. TULI$CIT=NDS 110, 507 (2009)$             
+#H CUT=1-Oct-2008$                                                        
+#  Modified by E. Browne (October 19, 2007)                               
+#  Compiled (unevaluated) dataset from 1999Zh31:                          
+#  Phys Rev C60, 051304 (1999) and 2001Ha14: Acta Phys Pol B32, 957 (2001)
+#  Compiled by: J. Chenkin and B. Singh  (McMaster) Jan 4, 2000.          
+#  Updated by: C.T. Malcolmson and B. Singh (McMaster) May 30, 2001.      
+#  Measured EG, RI, GG COIN, triple G-ray coincidences in fission         
+#  fragments produced from spontaneous fission of 252Cf.                  
+#  Detector: ^GAMMASPHERE, an array of 72 Compton-suppressed              
+#  germanium detectors.                                                   
+#  Others: 1995Zh34, 1996Te04, 1997Ha64.                                  
+#G RI$ From 2001Ha14. In a few cases these differ from those in           
+#G 1999Zh31                                                               
+#L E$Deduced by evaluators from least-squares fit to G-ray energies,      
+#L assuming |D(E|g)=0.3 keV for I|g>5 and 0.5 keV for I|g<5               
+#L J$From Adopted Levels                                                  
+#L BAND(A)$ Band based on 5/2- GS, |a=+1/2.                               
+#L Interpreted as negative parity members of S=-i band                    
+#L BAND(a)$ Band based on 5/2- GS, |a=-1/2.                               
+#L BAND(B)$ Band based on (11/2+).                                        
+#L Interpreted as positive parity members of S=-i band                    
+#L BAND(C)$ Band based on 13/2+.                                          
+#L Interpreted as positive parity members of S=+i band                    
+#L BAND(D)$ Band based on (19/2-).                                        
+#L Interpreted as negative parity members of S=+i band                    
+#P  0.0          0+               2.645 Y  8                              
+

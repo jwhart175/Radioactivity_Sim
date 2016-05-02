@@ -1,0 +1,13 @@
+# 82GE    248CM SF DECAY                2007RZ02                  ENSDF    201102
+#  248CM SF DECAY                2007RZ02                  ENSDF    201102
+#H TYP=FUL$AUT=D. Symochko, S. Nafee, J. Tuli$CIT=ENSDF$CUT=31-Jan-2011$  
+#  Measured E|g, I|g, |g|g coin, |g|g(|q) using EUROGAM2, ACS array       
+#  following the spontaneous fission of {+248}Cm.                         
+#L E$From E|g's, assuming 0.3 keV uncertainty.                            
+#P 0.0           0+              348E+3 Y  6                              
+CM248 GE82 SF 0.0 1.09818042624E13 1.0
++G gamma 1.3485 1.0
++G gamma 0.9385 0.6
++G gamma 0.646 0.15
++G gamma 0.9405 0.2
+

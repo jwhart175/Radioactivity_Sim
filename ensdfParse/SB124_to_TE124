@@ -1,0 +1,21 @@
+#124TE    124SB B- DECAY (93 S)         1969ME04                  08NDS    200807
+#  124SB B- DECAY (93 S)         1969ME04                  08NDS    200807
+#H TYP=FUL$AUT=J. KATAKURA, Z.D. WU$CIT=NDS 109, 1655 (2008)$             
+#H CUT=1-Apr-2008$                                                        
+#  1969Me04: {+123}Sb(n,|g); E|g, I|g; |g|g coin Compton-suppressed Ge    
+#  spectrometer                                                           
+#  The decay scheme is that proposed by 1969Me04                          
+#L E         E(levels) are based on a least-squares fit to                
+#L the E|g's (evaluators)                                                 
+#L J         From adopted levels                                          
+#G M,MR      From adopted gammas                                          
+#P 10.8627   8  5+               93 S      5              2904.3    15    
+SB124 TE124 beta- 2.9043 93.0 0.25
++G gamma 0.60272 1.0
++B beta- 0.6323 0.05
++G gamma 0.6458200000000001 1.0
++B beta- 0.4166 0.98
++G gamma 0.49839999999999995 0.98
++B beta- 0.1776 0.02
++G gamma 1.101 0.02
+

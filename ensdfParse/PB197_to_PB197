@@ -1,0 +1,19 @@
+#197PB    197PB IT DECAY (43 M)         1957AN53,1962JU05         05NDS    200503
+#  197PB IT DECAY (43 M)         1957AN53,1962JU05         05NDS    200503
+#H TYP=FUL$AUT=HUANG XIAOLONG, ZHOU CHUNMEI$CIT=NDS 104, 283 (2005)$      
+#H CUT=1-Jan-2002$                                                        
+#  Sources produced by {+203}Tl(p,7n) (1955An01,1957An53), protons on U   
+#  (1972Ho09), {+187}Re({+14}N,4n) (1974Ne16).                            
+#  Others: 1979Ra04, 1980Hi04                                             
+#  Identification: thallium(95-MeV p) chem, ms (1957An53)                 
+#G           Measured E|g, I(ce), ce|g coin (1962Ju05)                    
+#G E         From 1962Ju05.                                               
+#G RI        Relative intensity from I(|g+ce)=100 and |a.                 
+#L E         From decay scheme and |g's using least-squares fit to        
+#L data                                                                   
+#L J,T       From adopted levels.                                         
+#P     319.311113/2+             42.9 M    9                              
+PB197 PB197 IT 0.0 2574.0 0.19
++G gamma 0.0849 0.255
++G gamma 0.2344 0.0154
+

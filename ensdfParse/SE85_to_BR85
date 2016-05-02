@@ -1,0 +1,97 @@
+# 85BR    85SE B- DECAY (32.9 S)        1975HU02,1980ZE04,1977PF0114NDS    201505
+#  85SE B- DECAY (32.9 S)        1975HU02,1980ZE04,1977PF0114NDS    201505
+#H TYP=MOD$AUT=BALRAJ SINGH$CIT=ENSDF$CUT=08-MAY-2015$                    
+#H COM=JPI OF 1859.5 LEVEL ASSIGNED$                                      
+#H TYP=FUL$AUT=BALRAJ SINGH AND JUN CHEN$CIT=NDS 116, 1 (2014)$           
+#H CUT=31-Dec-2013$                                                       
+#  1975Hu02: radiochemical separation from fission products,              
+#  Ge(Li) detectors, measured |g rays                                     
+#  1980Ze04 (also 1978Ze08): Ge(Li) detectors, measured E|g, I|g, |g|g.   
+#  {+85}Se half-life measured in 1978Ze08                                 
+#  1977Pf01: fission product separation by LOHENGRIN, measured |g rays    
+#  1973Ta19, 1977Ki14: reported |g spectra, but with large uncertainties. 
+#  1975Al11: measured total absorption |g spectra, deduced |b strength    
+#  functions                                                              
+#  1978Be51: measured |b|g coin                                           
+#  1982Re10, 1982Re08, 1982Li09: production of {+85}Se and measurement    
+#  of |g rays from its decay                                              
+#  Theoretical calculations of G-T strengths: 2007Na28                    
+#G E$Weighted average from 1975Hu02, 1980Ze04 and 1977Pf01, unless        
+#G indicated otherwise.                                                   
+#G E(A,B)$|g from 1980Ze04 only.                                          
+#G E(C)$Weighted average from 1975Hu02 and 1980Ze04.                      
+#G E(E)$|g from 1975Hu02 only.                                            
+#G RI$From 1975Hu02.                                                      
+#G RI(A,B)$From 1980Ze04, |DI|g derived from measured counting and        
+#G background rates.                                                      
+#G RI(B)$|g seen in |g|g coin only.                                       
+#L E$From least squares fit to E|g data                                   
+#L J,T$From Adopted Levels                                                
+#P 0           (5/2)+            32.9 S    3              6162      4     
+SE85 BR85 beta- 6.162 32.9 1
++G gamma 3.1721999999999997 0.008280000000000001
++B beta-2.7969 0.02
++G gamma 0.3452 0.46
++G gamma 0.6098 0.02806
++G gamma 0.9562 0.04232
++G gamma 1.1912 0.00874
++B beta-2.6296999999999997 0.02
++G gamma 1.0820999999999998 0.024840000000000004
++G gamma 1.4272 0.07038
++B beta-2.1065 0.02
++G gamma 0.5973999999999999 0.013340000000000001
++G gamma 1.2079000000000002 0.044160000000000005
++G gamma 1.5528 0.008280000000000001
++B beta-2.0457 0.02
++G gamma 1.7245 0.027140000000000004
++B beta-1.963 0.02
++G gamma 1.4501 0.01794
++G gamma 1.7953 0.00874
++B beta-1.9283 0.02
++G gamma 0.4325 0.02346
++B beta-1.898 0.02
++G gamma 0.9879 0.01748
++G gamma 1.944 0.011040000000000001
++B beta-1.8574000000000002 0.02
++G gamma 0.9411 0.025300000000000003
++G gamma 1.2469000000000001 0.01564
++G gamma 1.3734000000000002 0.01518
++G gamma 2.4551 0.022080000000000002
++B beta-1.4461 0.02
++G gamma 3.0077 0.03036
++B beta-1.3471 0.02
++G gamma 2.5843000000000003 0.0184
++G gamma 3.5393000000000003 0.01288
++B beta-1.0948 0.01
++G gamma 1.701 0.02116
++G gamma 2.0911999999999997 0.006900000000000001
++B beta-1.0453 0.01
++B beta-1.0285 0.02
++G gamma 2.5502 0.0161
++G gamma 3.3966 0.07406
++G gamma 3.7414 0.006900000000000001
++B beta- 0.9608 0.017
++G gamma 2.0294 0.010120000000000002
++G gamma 3.4793000000000003 0.006900000000000001
++B beta- 0.8927 0.043
++G gamma 2.2456 0.0027600000000000003
++G gamma 2.4173 0.022080000000000002
++G gamma 2.5429 0.007360000000000001
++G gamma 3.6252 0.01058
++B beta- 0.8787999999999999 0.043
++G gamma 2.4469000000000003 0.0046
++G gamma 3.6559 0.038180000000000006
++B beta- 0.8656 0.073
++G gamma 2.304 0.005520000000000001
++G gamma 2.6015 0.014720000000000002
++G gamma 3.6838 0.023000000000000003
++B beta- 0.8237000000000001 0.039
++G gamma 2.5654 0.00966
++G gamma 3.7745 0.029440000000000004
++B beta- 0.799 0.011000000000000001
++B beta- 0.7406 0.013999999999999999
++G gamma 2.8719 0.00644
++G gamma 3.9548 0.00782
++B beta- 0.6441 0.0051
++G gamma 3.555 0.005060000000000001
+

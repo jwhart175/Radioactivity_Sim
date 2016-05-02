@@ -1,0 +1,18 @@
+#136TE    252CF SF DECAY                1993BU12                  02NDS    200206
+#  252CF SF DECAY                1993BU12                  02NDS    200206
+#H TYP=FUL$AUT=A.A. Sonzogni$CIT=NDS 95, 837 (2002)$CUT=1-Feb-2002$       
+#  Array of 20 Compton-suppressed Ge detectors. Measured G, GG            
+#  See 248CM SF decay for addition level information on 136TE             
+#  Other:                                                                 
+#  1999HW04: 252CF SF decay, measured yields, study fission dynamics      
+#L J$As given by authors, from G systematics of N=84                      
+#L nuclei.                                                                
+#L E$From least-square fit assuming |DE|g=1 keV                           
+#G RI$In coincidence with 607 keV G. |DI|g from 5% (low-spin states) to   
+#G 30% (high-spin)                                                        
+#P 0.0          0+               2.645 Y   8                              
++G gamma 0.4239 1.0
++G gamma 0.3524 0.51
++G gamma 0.7497 0.27
++G gamma 0.6603 0.14
+

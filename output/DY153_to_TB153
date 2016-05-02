@@ -1,0 +1,51 @@
+#153TB    153DY EC DECAY                1980AB19,1980AB21         06NDS    200602
+#  153DY EC DECAY                1980AB19,1980AB21         06NDS    200602
+#H TYP=FUL$AUT=R. G. Helmer {+*}$CIT=NDS 107, 507 (2006)$CUT=31-Dec-2005$ 
+#  Sources produced in 660-MeV proton spallation of Ta target             
+#       followed by chemical and mass separations (1980Ab19, 1978Gr13,    
+#       1977Al29, and 1977Al28), {+154}Gd({+3}He,4n) with chemical        
+#       separation (1977De05), and {+155}Gd(|a,6n) with chemical          
+#       separation (1972Ha41).  Measured E|g, I|g, Ice, and |g|g,         
+#       |g-ce, and |g-|b+ coincidences.                                   
+#  The decay scheme is from 1980Ab19 and is based on                      
+#       earlier work by 1978Gr13, 1977De05 and 1972Ha41.                  
+#       Other measurements: 1977Al29, 1977Al28, 1975ZuZZ.                 
+#E E         Measured values of E|b+ include 1069 keV {I10}, 886 keV      
+#E      {I2} and 427 keV {I22} by 1978Gr13; 980 keV {I40} and 670 keV     
+#E      {I20} by 1977De05.  1978Gr13 suggest that their observed          
+#E      branches populate levels at 80.8 keV (7/2+), 262.9 keV (9/2-)     
+#E      and 725.6 keV (9/2-) or 740.7 keV (7/2+), respectively, but       
+#E      but they must each represent branches to several levels.          
+#E IB        See 1978Gr13 for measured I(|b+)/I{-K}(254 |g) ratios.       
+#E      They decompose the |b+ spectrum into three components, but each   
+#E      of their components must represent several branches.              
+#E TI        From intensity balances at the excited levels and an         
+#E      assumed I{-(|e+|b+)}(0)=1.4% {I13}. The large number of unplaced  
+#E      |g's has not been taken into account, but they would move some    
+#E      of the |e intensity to higher levels and thereby reduce the       
+#E      average |b+ energy per decay.                                     
+#G           There are many differences between the E|g and I|g values    
+#G      of 1980Ab19, 1977De05, and 1975ZuZZ (and partially repeated in    
+#G      1977Al28).  Some of these differences are noted in comments       
+#G      associated with specific |g's, but there are also many cases      
+#G      where a |g is reported in only one paper or is reported as a      
+#G      singlet in one paper and as a doublet in another paper.           
+#G E         From 1980Ab19, unless noted otherwise; other: 1977De05. A    
+#G      comparison of the E|g with the level energy differences           
+#G      indicates that the E|g uncertainties are somewhat underestimated; 
+#G      for example, from about 280 such comparisons one expects about    
+#G      14 to be outside of 2 |s, but 26 are outside this value.          
+#G RI        From 1980Ab19, unless noted otherwise. Where the value of    
+#G      1977De05 or 1975ZuZZ differs significantly, this is noted;        
+#G      these sets of I|g were normalized at the 80.7 |g for |g's         
+#G      below 150 keV and separately at the 254.2 |g for |g's above       
+#G      150 keV.                                                          
+#G M         Listed values are those given by 1980Ab19 and were           
+#G      deduced from measured ce{-K} and I|g.                             
+#G MR        From 1977Al28                                                
+#L E         From least-squares fit to |g energies.                       
+#L J         From {+153}Tb Adopted Levels                                 
+#L T         From 1977Al29, unless otherwise noted.                       
+#P 0.0         7/2(-)            6.4 H     1              2170.5    19    
+DY153 TB153 beta+ 2.1705 23040.0 1.0
+

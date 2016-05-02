@@ -1,0 +1,15 @@
+#232RA    232FR B- DECAY                2004PE17,1990ME13         06NDS    200610
+#  232FR B- DECAY                2004PE17,1990ME13         06NDS    200610
+#H TYP=FUL$AUT=E. BROWNE$CIT=NDS 107, 2579 (2006)$CUT=1-Nov-2004$         
+#  Activity produced by bombarding a uranium target with                  
+#  1.4 GeV protons. Mass-separated activity. Isotope identification       
+#  based on half-life. Measured G rays, GG COIN. Detectors: ^Ge.          
+#  (2004PE17). Other: 1992Bo44.                                           
+#G RI$Deduced by evaluator from total transition intensities reported     
+#G on an absolute scale in 2004Pe17.                                      
+#G           1990Me13 observed Ra XL (EG=15 keV).                         
+#L E$Deduced by evaluator from a least-squares fit to G-ray energies      
+#L BAND(A)$ KPI=0+ BAND                                                   
+#P 0.0          (5)               5.5 S    6              5.71E03   70    
+FR232 RA232 beta- 5.71 0.0 1.0
+

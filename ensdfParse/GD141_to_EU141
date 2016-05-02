@@ -1,0 +1,106 @@
+#141EU    141GD EC DECAY (14 S)         1989GI06                  14NDS    201411
+#  141GD EC DECAY (14 S)         1989GI06                  14NDS    201411
+#H TYP=FUL$AUT=N. NICA$CIT=NDS 122, 1 (2014)$CUT=1-Jan-2012$              
+#  Measured: |g, |g|g, ce, X|g (1989Gi06,1988TuZY), |g                    
+#  (1986Re11,1988HaZL,1987Pl05), delayed protons (1986Wi15,1989Gi06)      
+#  Delayed proton emission probability=0.03% {I1} (1989Gi06),             
+#  E(p)=2200-4900 (1986Wi15,1984Ni03)                                     
+#  Absence of delayed proton-|g coin suggests low J of p-decaying states  
+#  and, therefore, low J for the parent |e decaying {+141}Gd (1988GiZV)   
+#  All authors measured |g-spectra in the mixture of high spin and low    
+#  spin {+141}Gd. In the recent more complete papers (1989Gi06,1988TuZY)  
+#  the reported |g spectra are more or less similar                       
+#  but are assigned to |e decaying 11/2- and 1/2+ {+141}Gd isomers        
+#  in very different ways. These authors also reported sharply different  
+#  values of T{-1/2} for low spin {+141}Gd isomer (T{-1/2}=1.3 s          
+#  (1988TuZY) and T{-1/2}=14 s (1989Gi06)). Evaluator adopted {+141}Gd |e 
+#  decay schemes and all data from 1989Gi06                               
+#E IE        From 1989Gi06, details are not given                         
+#G CC$ FROM BrIcc v2.2b (20-Jan-2009) 2008Ki07, "Frozen Orbitals" appr.   
+#L E$FROM LEAST-SQUARES FIT TO EG DATA                                    
+#P 0.0         1/2+              14 S      4              6701      23    
+GD141 EU141 beta+ 6.701 14.0 1.0
++B beta+ 1.5029000000000001 0.06
++G gamma 0.21580000000000002 0.5439
++B beta+ 2.514 9.1E-4
++G gamma 0.1206 0.0931
++G gamma 0.3362 0.17149999999999999
++B beta+ 2.457 9.6E-4
++G gamma 0.1731 0.0294
++G gamma 0.2933 0.0196
++B beta+ 2.375 0.00105
++G gamma 0.18969999999999998 0.0343
++G gamma 0.5258999999999999 0.17149999999999999
++B beta+ 2.367 0.00106
++G gamma 1.0726 0.0098
++G gamma 1.1927999999999999 0.0686
+
+#141EU    141GD EC DECAY (24.5 S)       1989GI06                  14NDS    201411
+#  141GD EC DECAY (24.5 S)       1989GI06                  14NDS    201411
+#H TYP=FUL$AUT=N. NICA$CIT=NDS 122, 1 (2014)$CUT=1-Jan-2012$              
+#  See comment in 14-s {+141}Gd |e decay                                  
+#  Measured: |g, |g|g, X|g, ce (1989Gi06,1988TuZY,1988HaZL),              
+#  |g (1986Re11,1988HaZL,1987Pl05)                                        
+#  All data are from 1989Gi06                                             
+#  Branching=0.89 {I2} (1989Gi06)                                         
+#G CC$ FROM BrIcc v2.2b (20-Jan-2009) 2008Ki07, "Frozen Orbitals" appr.   
+#L E$FROM LEAST-SQUARES FIT TO EG DATA (CHI**2 NORM=3.89 greater than     
+#L CHI**2 CRITICAL=2.18)                                                  
+#P 377.76    9 11/2-             24.5 S    5              6701      23    
+GD141 EU141 beta+ 6.701 24.5 0.89
++G gamma 0.4875 0.01872
++G gamma 0.5443 0.0078000000000000005
++G gamma 0.5575 0.039
++G gamma 0.7006 0.01248
++G gamma 0.7464 0.010920000000000001
++G gamma 0.8413999999999999 0.010920000000000001
++G gamma 0.8644 0.00936
++G gamma 1.0364 0.00624
++G gamma 1.0976 0.01872
++G gamma 1.1722000000000001 0.00936
++G gamma 1.3972 0.014039999999999999
++B beta+ 1.95 0.00167
++G gamma 0.0964 0.02028
++B beta+ 2.751 7.199999999999999E-4
++G gamma 0.22390000000000002 0.11231999999999999
++B beta+ 2.644 8.0E-4
++G gamma 0.3511 0.156
++B beta+ 2.584 8.500000000000001E-4
++G gamma 0.36119999999999997 0.06552
++G gamma 0.4576 0.014039999999999999
++G gamma 0.526 0.02964
++B beta+ 2.579 8.500000000000001E-4
++G gamma 0.5605 0.04212
++G gamma 0.657 0.00624
++B beta+ 2.484 9.4E-4
++G gamma 0.5749 0.08892
++B beta+ 2.477 9.4E-4
++G gamma 0.6528999999999999 0.03276
++B beta+ 2.44 9.8E-4
++G gamma 0.3892 0.021840000000000002
++G gamma 0.7407 0.028079999999999997
++B beta+ 2.399 0.0010199999999999999
++G gamma 0.4122 0.02028
++G gamma 0.7735 0.023399999999999997
++B beta+ 2.383 0.00104
++G gamma 0.30069999999999997 0.015600000000000001
++G gamma 0.4754 0.02028
++G gamma 0.8267 0.014039999999999999
++B beta+ 2.358 0.00107
++G gamma 0.6473 0.03588
++B beta+ 2.337 0.00109
++G gamma 0.59 0.02028
++G gamma 0.5996 0.01872
++B beta+ 2.299 0.00113
++G gamma 0.9762000000000001 0.014039999999999999
++G gamma 1.0726 0.00312
++B beta+ 2.287 0.00115
++G gamma 1.338 0.00936
++G gamma 1.348 0.00936
++B beta+ 1.946 0.00168
++G gamma 1.1485 0.0078000000000000005
++G gamma 1.164 0.0078000000000000005
++B beta+ 1.934 0.0017000000000000001
++G gamma 0.9722000000000001 0.015600000000000001
++G gamma 1.9228 0.00936
+

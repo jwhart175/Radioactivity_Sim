@@ -1,0 +1,69 @@
+# 50CR    50MN EC DECAY (283.19 MS)     1994HA43,2009HA12         11NDS    201012
+#  50MN EC DECAY (283.19 MS)     1994HA43,2009HA12         11NDS    201012
+#H TYP=FUL$AUT=ZOLTAN ELEKES AND JANOS TIMAR, BALRAJ SINGH$               
+#H CIT=NDS 112, 1 (2011)$CUT=20-Oct-2010$                                 
+#  Measured |g's, |g(t), and branching ratio to excited states; HPGe,     
+#  scin, gas counter, He-jet. Mixed {+50}Mn and {+50m}Mn and pure         
+#  {+50m}Mn samples. See also 1993HaZT                                    
+#  Several theoretical and systematic studies, e.g. 2009Ha12, have been   
+#  made on the super-allowed |b decay of {+50}Mn g.s. and isospin states. 
+#  Consult Nuclear Science References (NSR) database for these.           
+#E $See comment on Q(|b{+-}) in {+50}Cr Adopted Levels for Q(|e)          
+#E measurements. Others: 1992KoZV and 1992HaZU.                           
+#E TI$ From 2009Ha12 evaluation based on measurements in 1994Ha43         
+#E and 1993HaZT                                                           
+#G RI(A)$From the Adopted branching ratios and I(|e+|b+) to 3628          
+#G (evaluators).                                                          
+#G RI(B)$From I(|e+|b+) to state assuming no other deexciting |g's        
+#G (evaluators).                                                          
+#G E$From 1993HaZT, except as noted.                                      
+#G M$ From Adopted Gammas                                                 
+#L J$From the Adopted Levels, except as noted.                            
+#P 0.0         0+                283.19 MS 10             7634.45   7     
+MN50 CR50 beta+ 7.63445 0.28319 1.0
++B beta+ 3.104 0.99839
++G gamma 0.783 1.978E-8
++B beta+ 1.3406500000000001 5.600000000000001E-4
++G gamma 2.844 1.8999999999999998E-4
++G gamma 3.628 3.7999999999999997E-4
++B beta+ 1.2460799999999999 2.9999999999999997E-6
++G gamma 3.044 2.9999999999999997E-6
++B beta+ 0.69988 7.0E-6
++G gamma 4.215 7.0E-6
+
+# 50CR    50MN EC DECAY (1.75 M)        1972RA14                  11NDS    201012
+#  50MN EC DECAY (1.75 M)        1972RA14                  11NDS    201012
+#H TYP=FUL$AUT=ZOLTAN ELEKES AND JANOS TIMAR, BALRAJ SINGH$               
+#H CIT=NDS 112, 1 (2011)$CUT=20-Oct-2010$                                 
+#  Measured |g's. Other: 1974FiZI. Evaluators' note: 1976Au07 and         
+#  1984Al29 assigned states at 3595, 3875, and 3898 and associated        
+#  gammas observed by 1972Ra14 in (p,p'|g), but not in |b{++} decay, to   
+#  |b{++} decay. The evaluators consider this decay scheme to be          
+#  incomplete due to large number of energetically possible states above  
+#  3.8 MeV which might be fed.                                            
+#E $Coincidences shown on drawing are from 1962Su10 (scin).               
+#G $Coincidences shown on drawing are from 1962Su10 (scin).               
+#G M,MR,CC$From the Adopted Gammas.                                       
+#G E(A)$Possible but unobserved transition.                               
+#G E(B)$Also observed by 1973Mc11 (|DE{-|g}=2 keV).                       
+#G RI(D)$From intensity balancing at the 783 state. 103 {i4} measured     
+#G (corrected for small contribution from {+116}In 1097|g).               
+#G RI(E)$Corrected for small contribution from 1434.2+|g{+|+} summing.    
+#L J$From the Adopted Levels.                                             
+#P 225.28    9 5+                1.75 M    3              7634.45   7     
+MN50 CR50 beta+ 7.63445 105.0 1.0
++G gamma 1.7935 0.005
++G gamma 2.4044 0.0016
++G gamma 0.7833 1.0
++G gamma 1.098 0.985
++B beta+ 1.672 0.08
++G gamma 1.2824 0.33
++B beta+ 1.595 0.69
++G gamma 0.161 0.02
++G gamma 1.4433 0.69
++G gamma 2.541 0.01
++B beta+ 1.355 0.285
++G gamma 0.6615 0.25
++G gamma 1.9445 0.038
++G gamma 3.042 0.02
+

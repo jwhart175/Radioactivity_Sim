@@ -1,0 +1,31 @@
+# 40SC    40TI EC DECAY (53.3 MS)       1998BH12,1998LI46,1990DE4304NDS    200408
+#  40TI EC DECAY (53.3 MS)       1998BH12,1998LI46,1990DE4304NDS    200408
+#H TYP=FUL$AUT=JOHN A. CAMERON AND BALRAJ SINGH$CIT=NDS 102, 293 (2004)$  
+#H CUT=10-May-2004$                                                       
+#  {+40}Ti decays to {+39}Ca by |ep (|?100%).                             
+#  1998BH12 (ALSO 1998LE45,1997TR11), 1998LI46 (ALSO 2001LI56,1997LI25):  
+#  MEASURED EP, ^I(p), PG COIN, T1/2. 1998BH12 MEASURE p|b COIN ALSO      
+#  1990DE43: 40TI ISOTOPE IDENTIFIED AND FOUR PROTON GROUPS               
+#  2001GI01 (ALSO 2001GI02): FOUR MOST INTENSE PROTON GROUPS REPORTED.    
+#  ALSO MEASURED T1/2                                                     
+#E TI(A)$ WEIGHTED AVERAGE FROM 1998BH12, 1998LI46 AND 2001GI01           
+#E TI(B)$ FROM 1998LI46 ONLY                                              
+#L E$ DEDUCED FROM PROTON ENERGIES. SEE DETAILS IN 40TI ECP DECAY         
+#L FOR 39CA.                                                              
+#L J$ FOR EXCITED STATES, THE ASSIGNMENTS ARE FROM ALLOWED B DECAYS       
+#L FROM 0+ AS INDICATED BY LOGFT VALUES                                   
+#L S$LABEL=EP(LAB)                                                        
+#L S$ FROM 1998BH12, EXCEPT WHERE NOTED OTHERWISE. VALUES                 
+#L FROM 1998LI46 ARE IN GENERAL AGREEMENT BUT LESS PRECISE DUE TO POORER  
+#L RESOLUTION THAN IN 1998BH12, ALTHOUGH THE SOURCE PURITY IS CLAIMED     
+#L AS BETTER BY 1998LI46                                                  
+#L S(A)$ WEIGHTED AVERAGE FROM 1998BH12, 1998LI46 AND 2001GI01            
+#L S(B)$ FROM 1998LI46 ONLY                                               
+#L S(D)$ FROM 1998BH12 ONLY                                               
+#L S(E)$ THIS PROTON GROUP IS CONSIDERED AS SUSPECT BY THE EVALUATORS.    
+#L WITH ^I(P)=1.4 IN 1998BH12, THIS GROUP SHOULD HAVE BEEN SEEN BY        
+#L 1998LI46. IN ADDITION 1998BH12 DO NOT LIST, IN THEIR TABLE ^III,       
+#L A LEVEL AT 4904 IN 40SC CORRESPONDING TO THIS PROTON GROUP             
+#P 0            0+               53.3 MS   15             11.67E3   16    
+TI40 SC40 beta+ 11.67 0.0533 1.0
+

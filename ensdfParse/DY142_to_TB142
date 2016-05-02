@@ -1,0 +1,15 @@
+#142TB    142DY EC DECAY (2.3 S)        1991FI03                  11NDS    201108
+#  142DY EC DECAY (2.3 S)        1991FI03                  11NDS    201108
+#H TYP=FUL$AUT=T.D. Johnson, D. Symochko(a), M. Fadil(b), and J.K. Tuli$  
+#H CIT=NDS 112, 1949 (2011)$CUT=1-Jun-2010$                               
+#  1991Fi03: measured G, GG, XG, ^Xp, T1/2.                               
+#  Delayed proton emission probability 0.06 3 (1991Fi03).                 
+#  EP(av)=3.9 MEV (1988NiZX), see also 1986Wi15                           
+#E           EC/B+=0.111 5                                                
+#G CC$ FROM BrIcc v2.2b (20-Jan-2009) 2008Ki07, "Frozen Orbitals" appr.   
+#L J         Adopted values                                               
+#P 0.0         0+                2.3 S     3              6700      SY    
+DY142 TB142 beta+ 6.7 2.3 1.0
++B beta+ 3.264 5.0E-4
++G gamma 0.1819 0.043
+

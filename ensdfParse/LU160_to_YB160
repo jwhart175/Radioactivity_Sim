@@ -1,0 +1,38 @@
+#160YB    160LU EC DECAY (36.1 S+40 S)  1984AU13,1983GE08         05NDS    200509
+#  160LU EC DECAY (36.1 S+40 S)  1984AU13,1983GE08         05NDS    200509
+#H TYP=FUL$AUT=C. W. Reich$CIT=NDS 105, 557 (2005)$CUT=1-Jun-2005$        
+#  DATA SET UPDATED (OCTOBER, 2004) BY CW REICH TO INCLUDE NEW Q VALUES.  
+#  1984Au13: sources produced via the 144SM(19F,3N) reaction, E(19F)=85   
+#  MEV. Self-supporting SM targets (89% 144SM) of thickness 1 MG/CM2.     
+#  Recoils stopped in a second foil prior to counting. Measured           
+#  EG, RI, G(T), GG, ECE,ICE using GE(LI) detectors (efficiency AP 24%)   
+#  and a mini-orange spectrometer.                                        
+#  1983Ge08: sources produced via the 155GD(14N,9^n) and 151EU(16O,7^n)   
+#  reactions. Recoils collected and transported in HE-jet system for      
+#  study. Measured EG, IG, G(T), GG, GG(THETA), XK-G coincidences using   
+#  GE(LI) and ^LEPS detectors.                                            
+#  Other references: 1983ViZV, 1982Ga27, 1981Ga36, 1981RaZH, 1980Be39,    
+#  1979Al16.                                                              
+#G           1984Au13 report two activities in 160LU, with half-lives of  
+#G 36.2 S 3 and 40 S 1. In many cases it is not clear which activity      
+#G gives rise to a given G ray. Consequently, the decay scheme (which is  
+#G largely that of 1984Au13) represents in some sense an average of those 
+#G of these two activities.                                               
+#G           G rays with energies of 375.65 20 and 738.22 observed by     
+#G 1980Be39 are not reported by 1983Ge08 and 1984Au13.                    
+#G M(G)      Values based on GG(THETA) (1983Ge08) and EKC (1984Au13) data.
+#G M(H)      Values based on EKC data (1984Au13). These data generally do 
+#G not exclude an admixture of M1 in the dominant E2 component.           
+#L           1984Au13 report two activities in 160LU, with half-lives of  
+#L 36.2 S 3 and 40 S 1. In many cases it is not clear which level is      
+#L populated in the decay of a given activity. Consequently, the level    
+#L scheme (which is based largely on that of 1984Au13) represents in some 
+#L sense an average of that of these two activities.                      
+#L E         Level energies computed from a least-squares fit             
+#L involving the listed G-ray energy values.                              
+#L J         From adopted values                                          
+#L BAND(A)   GS BAND                                                      
+#L BAND(B)   G-VIBRATIONAL BAND                                           
+#P1   |>0.0                      36.1 S    3              7900      60    
+LU160 YB160 beta+ 7.9 36.1 1.0
+

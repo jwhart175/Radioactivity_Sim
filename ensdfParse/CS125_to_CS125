@@ -1,0 +1,20 @@
+#125CS    125CS IT DECAY (0.90 MS)      1998SU16                  11NDS    201102
+#  125CS IT DECAY (0.90 MS)      1998SU16                  11NDS    201102
+#H TYP=FUL$AUT=J. KATAKURA$CIT=NDS 112, 495 (2011)$CUT=1-Jan-2010$        
+#  1998Su16: {+110}Pd({+20}Ne,p4n) E=120 MeV, transistor reset            
+#  preamplifier Ge, measured T{-1/2}                                      
+#L J         From adopted levels                                          
+#G E         From adopted gammas                                          
+#G RI        The authors measured I|g but quote only total intensities.   
+#G The I|g values given here were deduced by the evaluators with mults as 
+#G assumed by the authors, mult=M1 for the 78 and 169 |g's and E2 for 86  
+#G 176 |g's, where these energies are those of the authors. The evaluators
+#G also assumes that the authors would have used |a values from           
+#G Hager-Seltzer.                                                         
+#G M,MR      From adopted gammas, unless otherwise noted.                 
+#P 266.0     11(11/2-)           0.90 MS   3                              
++G gamma 0.07709999999999999 0.265
++G gamma 0.0846 0.233
++G gamma 0.1683 0.75
++G gamma 0.176 0.56
+

@@ -1,0 +1,99 @@
+#162DY    162TB B- DECAY                1977KA08                  07NDS    200708
+#  162TB B- DECAY                1977KA08                  07NDS    200708
+#H TYP=FUL$AUT=C. W. Reich$CIT=NDS 108,1807 (2007)$CUT=1-Mar-2007$        
+#  DATA SET UPDATED (JANUARY, 2005) BY CW REICH TO INCLUDE NEW Q VALUES,  
+#   NEW LOGFT VALUES AND REVISED COMMENTS.                                
+#  Data and level scheme are based on 1977Ka08, unless otherwise noted.   
+#  For 1977Ka08, source produced by 163DY(G,P) on enriched (93.07%)       
+#  target. Report T1/2, EG and RI for 47 G's (Ge detectors), GG           
+#  coincidences (NaI and Ge detectors), and BG coincidences (plastic      
+#  detector).                                                             
+#  Other 162TB decay studies: 1965Sc24; 1966Fu08; 1966Sc24; 1967Gu03;     
+#  1969Cl11; and 1968Ka10.                                                
+#  162TB has been produced by the 163DY(G,P), 162DY(N,P), and             
+#  165HO(N,A) reactions.                                                  
+#  Experimental methods:                                                  
+#  1965Sc24: produced by 162DY(N,P) on enriched (91%) target.  NaI detecto
+#       Report T1/2 and EG and RI for 7 G's.                              
+#  1966FuZZ: Lab report; see 1966Fu08 for published version.              
+#  1966Fu08: produced by 163DY(G,P) on enriched (92.8%) target.  Ge       
+#       detector.  Report T1/2, EG and RI for 9 G's, and GG coincidences. 
+#  1966Sc24: produced by 162DY(N,P) on enriched (91.04%) target.  Report  
+#       T1/2, EG and RI for 10 G's (NaI and Ge detectors), and B- (plastic
+#       scintillator).                                                    
+#  1967Gu03: produced by 162DY(N,P) and 165HO(N,A) reactions on natural an
+#       enriched targets.  Report T1/2, EG and RI for 13 G's and K X (NaI 
+#       detectors), B- spectra (anthracene detector), GG and BG           
+#       coincidences.                                                     
+#  1968DeZZ: produced by 162DY(N,P) and 165HO(N,A); no measured data given
+#  1968Ka10: produced by 162DY(N,P) and 165HO(N,A) and enriched targets.  
+#       Report T1/2, EG and RI for 11 G's (Ge detectors), B- spectra      
+#       [Si(Li) detector], GG and BG coincidences.                        
+#  1968Se02: produced by 162DY(N,P) reaction.  Measured level half-life   
+#       by BG delayed coincidences with plastic detectors                 
+#  1969Cl11: Report EG for 8 G's.                                         
+#B IB        From G-intensity balances, unless otherwise noted; therefore,
+#B their accuracy depends on the completeness of the decay scheme.        
+#G E         From 1977Ka08. The only other values of comparable quality   
+#G are from 1969Cl11 for 8 G's.                                           
+#G RI        From 1977Ka08. There are no other data of comparable quality.
+#G RI        I(K x)=32E+1 11 (1967Gu03).                                  
+#G M,MR      Assignments and values are from the 162DY Adopted G          
+#G radiations and are based on the following: CE data from (N,G)          
+#G (1967Ba34), (A,2NG) (1982Fi15), and 162HO EC decay (1961Ha23,1961Jo10);
+#G G(THETA) following (A,2NG) (1982Fi15) and (N,N'G) (1977Ho11);          
+#G and GG(THETA) following (N,G) (1980Hu06) and                           
+#G Coulomb excitation (1972Do01).                                         
+#G CC        Values are computed for the more precise EG values in        
+#G 162DY Adopted G radiations.                                            
+#G E(Q)      From level energies.                                         
+#G E(R)      Nominal value from 162DY Adopted G radiations.               
+#G RI(R)     From 162DY Adopted G radiations.                             
+#G RI(S)     Doublet value decomposed to give intensity balance at        
+#G 265 level (1977Ka08).                                                  
+#G RI(T)     Doublet value decomposed from GG coincidence data.           
+#G MR(U)     See 162DY Adopted G radiations for limit on M2 mixing.       
+#L           The consistency of the scheme is supported by the fact       
+#L that the sum of the energies of the radiations is 2535 keV 52          
+#L which agrees with the Q value of 2510 40.                              
+#L E         From least-squares fit to the G energies.                    
+#L J         JPI and band assignments are from 162DY Adopted Levels.      
+#L Arguments are given there for each assignment.                         
+#L T         Data given here for excited states are only for experiments  
+#L from 162TB B- decay; see 162DY Adopted Levels for summary of           
+#L all level half-life measurements.                                      
+#L           Levels are 0+ (0), 2+ (80), 4+ (265)                         
+#L           Levels are 2+ (888), 3+ (962)                                
+#L           Levels are 2- (1148), 3- (1210)                              
+#L           Levels are 1- (1275), 3- (1357)                              
+#L           Level is 2+ (1453)                                           
+#L           Level is 2- (1691)                                           
+#L           Levels are 1+ (1745), 2+ (1782)                              
+#L BAND(A)   KPI=0+ ground-state band                                     
+#L BAND(B)   KPI=2+ G-vibrational band                                    
+#L BAND(C)   KPI=2- octupole-vibrational band.  Dominant                  
+#L  CONF=(|p 7/2[523])-(|p 3/2[411]), from LOGFT in B- decay.             
+#L BAND(E)   KPI=0- octupole band.                                        
+#L BAND(F)   KPI=0+ band                                                  
+#L BAND(J)   KPI=1- octupole-vibrational band.                            
+#L BAND(L)   KPI=1+ band.                                                 
+#P    0         1-                7.60 M   15              2510     40    
++B beta- 0.987 0.003
++B beta- 0.951 0.001
++B beta- 0.596 0.006
++G gamma 0.80753 0.428
++B beta- 0.562 0.003
++B beta- 0.486 0.98
++G gamma 0.26005 0.80036
++B beta- 0.433 0.0014000000000000002
++B beta- 0.399 6.0E-4
++B beta-0.004 0.25
++B beta- 0.267 0.0032
++B beta- 0.247 0.0017000000000000001
++B beta- 0.233 0.0014000000000000002
++B beta- 0.161 1.8999999999999998E-4
++B beta- 0.155 8.999999999999999E-5
++B beta- 0.111 5.4E-4
++B beta- 0.1 2.4E-4
++B beta- 0.037 2.7E-4
+

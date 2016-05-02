@@ -1,0 +1,124 @@
+#190OS    190IR EC DECAY (11.78 D)      1974YA02,1964HA06         03NDS    200306
+#  190IR EC DECAY (11.78 D)      1974YA02,1964HA06         03NDS    200306
+#H TYP=FUL$AUT=BALRAJ SINGH$CIT=NDS 99, 275 (2003)$CUT=30-Apr-2003$       
+#  1974Ya02 (also 1974YaZU): measured |g, |g|g, T{-1/2}.                  
+#  1964Ha06: measured ce                                                  
+#  Others:                                                                
+#  |g: 1969Ya03, 1969Sa18, 1969Ha44, 1967Sy02, 1960Ka14,                  
+#  1959Ni30, 1958Di44, 1955At32, 1954NiZZ, 1969TeZZ, 1947Go01             
+#  |g|g: 1969Ya03                                                         
+#  ce: 1969Ya03, 1969Sa18, 1967Sy02, 1966Sy01, 1960Ka14, 1959Ni30         
+#  |g|g(|q): 1974He08, 1971Kr01 (also 1970KrZW), 1969Ya03                 
+#  ce|g(|q), cece(|q): 1969Sa18, 1965Ya01, 1963Ya01, 1958Ca18             
+#  |g|g(|q,H): 1970Le04 (also 1970LeZZ)                                   
+#  |g(|q,T) (oriented nuclei): 1983Al15, 1980Mu07                         
+#  T{-1/2}({+190}Ir): 1975Ba35, 1969Sa18, 1963Gr22, 1960Ka14,             
+#  1955At32, 1950Ch11, 1947Go01, 1970Bo22, 1969TeZZ                       
+#  |b{++}: 1950Ch11                                                       
+#G           The A{-2} and A{-4} coefficients in |g|g(|q) are from        
+#G 1974He08, unless otherwise stated. The A{-2} coefficients              
+#G in |g(|q,T) are from 1983Al15                                          
+#G           The following weak transitions, reported by 1964Ha06 in ce   
+#G data are omitted for lack of confirmation in |g-ray data of 1974Ya02:  
+#G 90.5, 100.0, 137.8, 182.1, 402.4, 449.5, 462.5, 472.5,                 
+#G 772.2, 801.2, 833.2, 836.5, 925.5, 932.7, 1078.7, 1110.4,              
+#G 1130.7, 1184.4, 1233.7, 1313.8, 1329.3, 1338.8, 1390.9, 1402.6,        
+#G 1414.0, 1436.7, 1463.7, 1473.4, 1482.4, 1516.9, 1525.0,                
+#G 1534.5, 1543.4, 1584.2, 1605.6, 1677.3, 1685.1, 1700.1, 1710.9         
+#G           The following |g rays reported by 1969Ya03 are probably      
+#G due to impurities: 137.8, 147.0, 217.0, 272.0, 334.0, 344.0,           
+#G 375.2, 449.5, 482.5                                                    
+#G E,RI$From 1974Ya02, unless otherwise stated                            
+#G M$Assigned by the evaluator from |a(exp)'s taken from                  
+#G earlier Nuclear Data Sheets for A=190 (1982Le22) which were deduced    
+#G from I|g's of 1974Ya02 and Ice's of 1964Ha06. The normalization factor 
+#G was 0.0087 for E(ce)>500 keV and 0.0087+0.000013(500-E(ce)) for        
+#G E(ce)<500, established by fitting conversion data for 11 strong lines  
+#G of known multipolarity                                                 
+#G           Absolute K| x ray(Os) measurement: 1987Re05 (% K|a{-2}| x    
+#G ray=26.1 {I13}, % K|a{-1}| x ray=45.0 {I23})                           
+#L           Levels reported at 1781.7, 1886.8, 1963.9 by 1964Ha06        
+#L have been discarded for lack of confirmation by later studies.         
+#L The transitions reported with these levels have either not been        
+#L seen in |g-ray studies or have been assigned to different levels       
+#L E$From least-squares fit to E|g's                                      
+#L J$From adopted levels, unless otherwise stated                         
+#L J(A)$|g(|q) and/or |g|g(|q) results used in J|p assignment             
+#P 0            4-               11.78 D   10             1954      4     
+IR190 OS190 beta+ 1.954 1017791.9999999999 1.0
++G gamma 0.24819999999999998 0.0012084
++G gamma 0.3945 4.3320000000000007E-4
++G gamma 0.7311 3.6480000000000003E-4
++G gamma 0.18668 0.5244000000000001
++G gamma 0.36108999999999997 0.130188
++G gamma 0.37124 0.228
++G gamma 0.5579500000000001 0.30096
++G gamma 0.20790999999999998 0.011856
++G gamma 0.5692999999999999 0.285
++G gamma 0.1993 0.00228
++G gamma 0.39736 0.065436
++G gamma 0.40722 0.0456
++G gamma 0.7685700000000001 0.022115999999999997
++G gamma 0.50255 0.01254
++B beta+ 8.047999999999999E-4 0.00148
++G gamma 0.20790999999999998 0.0034200000000000003
++G gamma 0.40722 0.2394
++G gamma 0.60514 0.39899999999999997
++G gamma 0.44781 0.025536
++G gamma 0.6560199999999999 0.011628000000000001
++B beta+ 7.989000000000001E-4 0.0015199999999999999
++G gamma 0.22381 0.037392
++G gamma 0.43162 0.027360000000000002
++G gamma 0.82899 0.034656
++B beta+ 7.87E-4 0.00161
++G gamma 0.28293 0.004788000000000001
++G gamma 0.49076 0.0077976
++G gamma 0.69004 0.0028272
++B beta+ 7.818E-4 0.00164
++G gamma 0.6284 0.0075239999999999994
++B beta+ 7.616000000000001E-4 0.001
++G gamma 0.4778 0.01824
++G gamma 0.51855 0.33972
++G gamma 0.72622 0.03784800000000001
++G gamma 1.1238 3.1920000000000006E-4
++G gamma 1.4949000000000001 6.156E-4
++B beta+ 7.301E-4 0.0
++G gamma 0.753 2.508E-4
++G gamma 0.9522999999999999 9.804E-4
++G gamma 1.1507 3.42E-4
++G gamma 1.1604 2.9640000000000005E-4
++B beta+ 7.149999999999999E-4 0.0021
++G gamma 0.42619999999999997 2.508E-4
++G gamma 0.6681 5.244000000000001E-4
++G gamma 0.7091000000000001 7.296000000000001E-4
++B beta+ 5.9999999999999995E-5 0.0067
+
+#190OS    190IR EC DECAY (3.087 H)      1964HA06                  03NDS    200306
+#  190IR EC DECAY (3.087 H)      1964HA06                  03NDS    200306
+#H TYP=FUL$AUT=BALRAJ SINGH$CIT=NDS 99, 275 (2003)$CUT=30-Apr-2003$       
+#  1964Ha06: Measured ce data with a magnetic spectrometer                
+#  Others:                                                                
+#  |g: 1958Sc30, 1955At32, 1960Ka14, 1959Ni30, 1958Di44                   
+#  |g|g: 1955At32                                                         
+#  ce: 1959Ni30, 1958Di44                                                 
+#  T{-1/2} and production: 1996Ga30, 1970Bo22, 1963Gr22, 1950Ch11         
+#  |g(|q,H,T): 1987Be54                                                   
+#  Absolute K| x ray(Os) measurement: 1987Re05 (% K|a{-2}| x              
+#  ray=27 {I4}, % K|a{-1}| x ray=47 {I4}). Other: 1955At32                
+#  %EC branching: 1996GA30                                                
+#G           Ice's given under comments are from 1964Ha06, but            
+#G normalized (evaluator) to I(|g+ce)(187|g)=100                          
+#G E$From ce data. Uncertainty is estimated (evaluator)                   
+#G RI$100/(1+|a)                                                          
+#G M$From |a(exp)'s in {+190}Ir |e decay (11.78 d), unless otherwise noted
+#G E(A)$Weak |g reported by 1955At32 only                                 
+#G E(B)$Composite line in ce data (1964Ha06)                              
+#L J$From adopted levels                                                  
+#P 376.4     1 (11)-             3.087 H   12             1954      4     
+IR190 OS190 beta+ 1.954 11113.2 0.914
++G gamma 0.18669999999999998 0.7020000000000001
++G gamma 0.36119999999999997 0.9488
++G gamma 0.5025 0.9779000000000001
++B beta+ 6.69E-4 0.0
++G gamma 0.0389 8.100000000000001E-4
+

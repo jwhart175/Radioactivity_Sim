@@ -1,0 +1,82 @@
+# 35CL    35AR EC DECAY (1.7756 S)      1980WI13,1984AD01         11NDS    201111
+#  35AR EC DECAY (1.7756 S)      1980WI13,1984AD01         11NDS    201111
+#H TYP=FUL$AUT=JUN CHEN, JOHN CAMERON AND BALRAJ SINGH$                   
+#H CIT=NDS 112,2715 (2011)$CUT=20-Oct-2011$                               
+#  1980Wi13: {+35}Ar activity produced by {+35}Cl(p,n){+35}Ar reaction    
+#  with 11.0 MeV protons from the ONR-CIT tandem accelerator and targets  
+#  of LiCl and PbCl{-2} wrapped in 25 |mm Ta foil. A 100 cm{+3} Ge(Li)    
+#  detector for detecting |g-rays. Measured E|g, I|g. Deduced levels, I|b.
+#  1984Ad01: {+35}Ar activity produced by bombarding thick KCl targets    
+#  with 13 MeV proton beam from the University of Washington FN tandem    
+#  accelerator. A 28% Ge(Li) detector. Measured E|g, I|g. Deduced levels  
+#  I|b, |g-branchings.                                                    
+#  1960Wa04: {+35}Ar activity produced by {+35}Cl(p,n){+35}Ar reaction    
+#  with protons from the 60-inch cyclotron at Crocker Laboratory and the  
+#  Lawrence Radiation Laboratory. Measured E|g, I|g. Deduced log {Ift} for
+#  the transition to {+35}Cl ground state.                                
+#  1969Wi18,1969Fr09: {+35}Ar activity produced by {+35}Cl(p,n){+35}Ar    
+#  reaction with protons from the the Harwell tandem accelerator and      
+#  targets of 3.75 mg/cm{+2} KCl on 0.13 mm Au backings. Ge(Li) detector. 
+#  Measured E|g, I|g. Deduced levels, I|b.                                
+#  1971Ge04: {+35}Ar activity produced by {+35}Cl(p,n){+35}Ar reaction    
+#  with 10 MeV protons from the the Chalk River tandem accelerator and    
+#  targets of PbCl{-2}. Two coaxial Ge(Li) detectors. Measured E|g, I|g.  
+#  Deduced levels, I|b.                                                   
+#  1971De05: {+35}Ar activity produced by {+35}Cl(p,n){+35}Ar reaction.   
+#  A 25 cm{+3} Ge(Li) detector. Measured E|g,I|g. Deduced levels, I|b.    
+#  1977Az01: {+35}Ar activity produced by {+35}Cl(p,n){+35}Ar reaction    
+#  with protons from the McGill synchrocyclotron and targets of CCl{-4}   
+#  and LiCl. A 18% Ge(Li) detector. Measured E|g, I|g. Deduced I|b for    
+#  decay to the ground state of {+35}Cl.                                  
+#  1979Ha04: {+35}Ar activity produced by bombarding a 38 g/cm{+2}        
+#  vanadium target with 1 |mA of 600 MeV protons from the CERN            
+#  synchrocyclotron. Beam particles separated by the ISOLDE separator.    
+#  A Ge(Li) detector. Measured E|g, I|g. Deduced levels, I|b.             
+#  1985Da04: {+35}Ar activity produced by bombarding a NaCl target        
+#  with 9 MeV protons. A 28% Ge(Li) detector. Measured E|g, I|g. Deduced  
+#  levels, I|b.                                                           
+#  1956Ki29: {+35}Ar activity produced by {+35}Cl(p,n){+35}Ar reaction    
+#  with protons from the Brookhaven 60-inch cyclotron and targets of      
+#  CCl{-4}. NaI(Tl) crystal scintillation counter. Measured E|g, I|g.     
+#  Deduced levels, I|b.                                                   
+#  Others: 1965Ca04, 1988Ga02, 1991Mi18, 1991Na05, 1993Co07, 1996Kl04,    
+#  2006Ia05.                                                              
+#G E,RI$ From 1984Ad01, unless otherwise noted                            
+#G E(A),RI(A)$ From 1980Wi13                                              
+#L $ In 1971De05, |b feeding to a 3163 level was measured as <0.025%,     
+#L but this level has not been seen through |g-rays in any of the         
+#L later studies                                                          
+#L E$ From least-square fits to E|g's, unless otherwise noted             
+#L E(C)$ From 1980Wi13                                                    
+#L J$ From Adopted Levels                                                 
+#P        0    3/2+              1.7756 S  10                5966.1  7    
++B beta+ 2.28446 0.9815999999999999
++B beta+ 1.6912 0.0123
++G gamma 1.2193 0.013500000000000002
++B beta+ 1.4293 0.00248
++G gamma 0.544 2.0655E-5
++G gamma 1.763 0.0030510000000000003
++B beta+ 1.01036 3.0E-4
++G gamma 2.645 1.62E-5
++B beta+ 0.98752 0.0016300000000000002
++G gamma 0.9307000000000001 2.1195000000000003E-4
++G gamma 1.4747999999999999 1.3769999999999999E-4
++G gamma 2.6936999999999998 0.0014796000000000002
++B beta+ 0.84354 8.799999999999999E-4
++G gamma 1.239 8.1E-6
++G gamma 1.783 6.750000000000001E-6
++G gamma 3.0021 9.8415E-4
++B beta+ 0.42832 7.3E-5
++G gamma 2.699 4.455E-5
++G gamma 3.918 7.02E-5
++B beta+ 0.40667000000000003 6.9E-5
++G gamma 0.965 1.1745000000000001E-4
++G gamma 1.274 5.6699999999999996E-5
++G gamma 2.204 3.6450000000000005E-5
++G gamma 2.7485 6.4395E-5
++G gamma 3.968 1.431E-5
++B beta+ 0.13008 8.2E-7
++G gamma 1.931 2.8349999999999998E-5
++G gamma 2.861 1.3500000000000001E-5
++G gamma 4.624 4.7250000000000005E-6
+

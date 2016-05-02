@@ -1,0 +1,19 @@
+#125XE    125XE IT DECAY                1968WIZY,1968SC14         11NDS    201102
+#  125XE IT DECAY                1968WIZY,1968SC14         11NDS    201102
+#H TYP=FUL$AUT=J. KATAKURA$CIT=NDS 112, 495 (2011)$CUT=1-Jan-2010$        
+#G CC$ FROM BrIcc v2.2 (31-Mar-2008) 2008KiAA, "Frozen Orbitals" appr.    
+#  1968WiZY: semi |g, ce                                                  
+#  1968Sc14: {+122}Te(|a,n) chem, |g, K| x ray-|g coin; semi, scin        
+#G E         Weighted av from 1968WiZY and 1968Sc14                       
+#G $         The |a(K)exp were obtained from semi ce(K)/|g and normalized 
+#G to |a(K)exp(188.43|g)=0.116                                            
+#G from {+125}Xe |e decay (17.0 h) (1968WiZY), and from scin K| x ray/|g  
+#G in coin with cascading |g (1968Sc14)                                   
+#L E         From a least-squares fit to E|g's by evaluator               
+#L J         Spin and parity values are those given under adopted         
+#L levels                                                                 
+#P     252.61149/2(-)            56.9 S    9                              
+XE125 XE125 IT 0.0 56.9 1.0
++G gamma 0.1113 0.602
++G gamma 0.1414 0.19926200000000002
+

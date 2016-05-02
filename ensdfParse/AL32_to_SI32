@@ -1,0 +1,22 @@
+# 32SI    32AL B- DECAY (33.0 MS)       1986DU07,1984GU19,1982MU0811NDS    201109
+#  32AL B- DECAY (33.0 MS)       1986DU07,1984GU19,1982MU0811NDS    201109
+#H TYP=FUL$AUT=CHRISTIAN OUELLET, BALRAJ SINGH$CIT=NDS 112, 2199 (2011)$  
+#H CUT=24-Aug-2011$                                                       
+#  1986DU07: MEASURED EG, IG, ISOTOPIC T1/2                               
+#  1984GU19: MEASURED EG, IG, EB, IB                                      
+#  1982MU08: IDENTIFIED 32AL ISOTOPE AND MEASURED T1/2                    
+#  From RADLIST code, deduced energy balance=12847 keV {I487} as compared 
+#  to 12930 keV {I90} from Q value and branching of 99.3% for population  
+#  of levels in {+32}Al by |b{+-} decay                                   
+#B IB$ FROM 1984GU19 FOR GS, FROM INTENSITY BALANCE FOR OTHER STATES      
+#G E,RI$ FROM 1986DU07, UNLESS OTHERWISE STATED                           
+#L J$ From Adopted Levels                                                 
+#P 0           1+                33.0 MS   2              13020     90    
+AL32 SI32 beta- 13.02 0.033 1.0
++B beta- 6.235 0.85
++B beta- 5.277 0.047
++G gamma 1.9414 0.12
++B beta- 4.146 0.03
++B beta- 3.775 0.043
++B beta- 3.379 0.017
+

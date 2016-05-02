@@ -1,0 +1,23 @@
+#125TE    125TE IT DECAY                1976WA13                  11NDS    201102
+#  125TE IT DECAY                1976WA13                  11NDS    201102
+#H TYP=FUL$AUT=J. KATAKURA$CIT=NDS 112, 495 (2011)$CUT=1-Jan-2010$        
+#  1998Sa36,1999Sa73: HPGe, mini-orange spectrometer, Ice                 
+#  1976Wa13: Compton-suppression spectrometer, semi |g                    
+#  Measurements |a(K)exp, subshell ratio, |a(exp):                        
+#      ce, magnetic spectrometer: 1952Bo16, 1959Na06, 1972Ka61, 1972Br02, 
+#                                 1982Br16, 1989Da19                      
+#      X|g-coin: 1950Fr60, 1952Bo16, 1977So06, 1982Mu02                   
+#      (Auger E)(ce)-coin: 1970Ma51;                                      
+#  Mossbauer spectroscopy: 1972Si21, 1972VaYZ, 1973Bo21, 1973Ob06, 1974De4
+#  9,                                                                     
+#                        1974De49, 1977La01, 1977La03                     
+#G CC$ FROM BrIcc v2.2b (20-Jan-2009) 2008Ki07, "Frozen Orbitals" appr.   
+#G E         From 1976Wa13                                                
+#G RI        From I(|g+ce)=100 from each level and |a                     
+#L E         From a least-squares fit to E|g's by evaluator               
+#P    144.7759 11/2-             57.40 D   15                             
+TE125 TE125 IT 0.0 4959360.0 1.0
++G gamma 0.035504 0.073
++G gamma 0.109276 0.0028000000000000004
++G gamma 0.14478 3.9E-9
+

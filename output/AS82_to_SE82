@@ -1,0 +1,73 @@
+# 82SE    82AS B- DECAY (19.1 S)        1975KR08                  03NDS    200305
+#  82AS B- DECAY (19.1 S)        1975KR08                  03NDS    200305
+#H TYP=FUL$AUT=J. K. Tuli$CIT=NDS 98, 209 (2003)$CUT=15-Jan-2003$         
+#  1975Kr08: 82SE(N,P), fission products, chemical                        
+#  separation, 82AS activity from 82GE separation.                        
+#  GE(LI), FWHM=2.1 KEV to 2.8 KEV at 1.33 MEV. Measured EG,              
+#  RI, GG.                                                                
+#  1972DE43: 235U(n,F), measured EG, IG, G(T).                            
+#  Determined T1/2(82AS)=22.6 S 14 from 656G(T)                           
+#  1970Va31: 82SE(N,P), GE(LI) FWHM=3.5 KEV at 1.33 MEV,                  
+#  SI(LI), NAI(TL), and plastic scin.                                     
+#  Measured EB, IB, EG, RI, BG, GG coin.                                  
+#  Both 82AS isotopes WERE produced AND SOME OF THE TRANSITION ASSIGNMENTS
+#  COULD NOT BE RESOLVED.                                                 
+#G E         From 1975Kr08. Results of 1970Va31 are in good agreement but 
+#G have larger uncertainties. SOME OF THE UNPLACED G'S MAY BELONG TO THE  
+#G 13.6-S ISOMER.                                                         
+#G RI        From 82AS activity produced by decay of 82GE (SEPARATED FROM 
+#G FISSION OF ^U)(1975Kr08)                                               
+#G RI(A)     Deduced by the evaluator from 82AS activity produced as      
+#G direct fission product (1975Kr08). The fraction of 19.1-s 82AS in the  
+#G fission products was assumed to be 32% AS obtained from comparison of  
+#G 1970.9G.                                                               
+#P  0          (1+)              19.1 S    5              7.27E+3   20    
+AS82 SE82 beta- 7.27 19.1 0.142
++G gamma 0.1861 0.015
++G gamma 0.0 1.0
++G gamma 0.7552000000000001 0.12
++G gamma 1.0764 0.079
++G gamma 1.7313 0.271
++G gamma 1.0799 0.11199999999999999
++G gamma 3.6688 0.07
++G gamma 1.9709 0.105
+
+# 82SE    82AS B- DECAY (13.6 S)        1975KR08                  03NDS    200305
+#  82AS B- DECAY (13.6 S)        1975KR08                  03NDS    200305
+#H TYP=FUL$AUT=J. K. Tuli$CIT=NDS 98, 209 (2003)$CUT=15-Jan-2003$         
+#  1975Kr08: 82SE(N,P), fission product, chemical                         
+#  separation. Measured EG, IG,GG;                                        
+#  GE(LI), FWHM=2.1 KEV to 2.8 KEV at 1.33 MEV.                           
+#  1970Va31: 82SE(N,P). Measured EB, IB, EG, RI, BG, GG;                  
+#  GE(LI) FWHM=3.5 KEV at 1.33 MEV, SI(LI), NAI(TL), and plastic scin.    
+#  1970KA04: 82SE(N,P). Measured EG, IG, EB, GG, BG. Measured T1/2(82AS)= 
+#  13.7 S 8 from 342G(T)                                                  
+#  In all experiments both 82AS isotopes are produced. The G's            
+#  of the two decays are separated by 1975Kr08 by comparing the           
+#  relative intensities of sources produced by (N,P) and by               
+#  fission. Intensities are quoted as shown in the drawing                
+#  of 1975Kr08.                                                           
+#G E         From 1975Kr08. Results of 1970Va31 are in good agreement but 
+#G have larger uncertainties. See 82AS B- decay (19.1 S) for              
+#G unplaced G's.                                                          
+#G RI$From (N,P) measurement (1975Kr08). The intensities of the           
+#G 19.1-s decay have been subtracted by the evaluator assuming a          
+#G contribution of 50% 4 to the intensity of the 654.4G. This fraction    
+#G has been determined by 1975Kr08 from comparison of the intensities     
+#G in the different experiments. THE 19.1-S COMPONENT IS DETERMINED       
+#G BY 1975KR08 FROM 82GE DECAY MILKED FROM ^U FISSION.                    
+#P  0+X        (5-)              13.6 S    4              7.27E+3   20    
+AS82 SE82 beta- 7.27 13.6 1.44
++G gamma 0.0 0.5
++G gamma 1.0764 0.061
++G gamma 1.7313 0.193
++G gamma 1.0799 0.162
++G gamma 0.0 0.049
++G gamma 0.0 0.19
++G gamma 1.8954000000000002 0.27
++G gamma 0.0 0.4
++G gamma 0.0 0.092
++G gamma 0.0 0.02
++G gamma 1.718 0.02
++G gamma 1.5409000000000002 0.055999999999999994
+

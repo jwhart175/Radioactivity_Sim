@@ -1,0 +1,20 @@
+# 51CA    51K B- DECAY                  1983RAZR,1983LA23         06NDS    200608
+#  51K B- DECAY                  1983RAZR,1983LA23         06NDS    200608
+#H TYP=FUL$AUT=Huang Xiaolong$CIT=NDS 107, 2131 (2006)$CUT=1-May-2005$    
+#  1983RaZR: source produced by U(p,X) E=600 MeV; measured |b-delayed     
+#  neutron, |bn, |b|g, |b|gn. Shell-model calculations.                   
+#  1983La23: source produced by Ir(p,X) E=10 GeV; measured |b-delayed     
+#  neutron yield, emission probability, and T{-1/2}.                      
+#  See also 1986Ly02 and 1983Ly06.                                        
+#L           All data are from 1983RaZR, except as noted.                 
+#L E         |DE not given (1983RaZR).                                    
+#L J         From adopted levels.                                         
+#B           All data are from 1983RaZR, except as noted.                 
+#G           All data are from 1983RaZR; |DE and I|g are not given.       
+#G RI$Relative intensity normalized to I|g(3462|g)=100 {I15}. Values from 
+#G I|b.                                                                   
+#P 0.0         (1/2+,3/2+)       365 MS    5              1386E1    SY    
+K51 CA51 beta- 13.86 0.365 0.107
++G gamma 3.462 1.0
++G gamma 3.53 0.215
+

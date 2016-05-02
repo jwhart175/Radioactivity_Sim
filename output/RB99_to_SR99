@@ -1,0 +1,57 @@
+# 99SR    99RB B- DECAY                 1984PF01                  11NDS    201102
+#  99RB B- DECAY                 1984PF01                  11NDS    201102
+#H TYP=FUL$AUT=E. BROWNE, J. K. TULI$CIT=NDS 112, 275 (2011)$             
+#H CUT=1-Nov-2009$                                                        
+#  Measured: |g (1985PfZZ,1984Pf01,1989Lh01); |g|g(t) (1989Lh01)          
+#G           Only the main results of the experiment are reported         
+#G in 1984Pf01. Detailed data are from 1985PfZZ.                          
+#G           Decay of the first three excited states was also reported    
+#G in 1983Wo10. I|g deduced from the two experiments is different         
+#G probably due to the difficulty of subtracting contaminating lines      
+#G           The 90.6|g was also observed in {+100}Rb |b{+-}n decay       
+#G together with a 120.8|g which is probably not due to {+99}Sr           
+#G (1982Kr11).                                                            
+#G E         1985PfZZ estimate their uncertainties as 0.2 keV for the     
+#G lowest energies and 1 keV for the highest. Individual                  
+#G uncertainties have been assigned by the evaluator                      
+#L E         Most important levels are reported by 1984Pf01;              
+#L others are from 1985PfZZ.                                              
+#L J         From adopted values                                          
+#L BAND(B)   (NU 3/2(411)) BAND                                           
+#L BAND(C)   (NU 5/2(413)) BAND.                                          
+#L (NU 5/2(322)) in 2001Lh02.                                             
+#L BAND(D)   (NU 3/2(422)) BAND                                           
+#P 0           (5/2+)            54 MS     4              11.38E+3  11    
+RB99 SR99 beta- 11.38 0.054 1.0
++G gamma 0.09079999999999999 1.0
++G gamma 0.1252 0.4
++G gamma 0.216 0.13
++G gamma 0.161 0.06
++G gamma 0.287 0.04
++G gamma 0.331 0.13
++G gamma 0.4228 0.2
++G gamma 0.318 0.07
++G gamma 0.444 0.04
++G gamma 0.307 0.04
++G gamma 0.7637999999999999 0.08
++G gamma 0.8547 0.08
++G gamma 0.7777999999999999 0.03
++G gamma 0.9037999999999999 0.07
++G gamma 0.9937 0.03
++G gamma 0.9813999999999999 0.21
++G gamma 1.0715999999999999 0.26
++G gamma 0.6838 0.08
++G gamma 1.0157 0.04
++G gamma 1.1058 0.05
++G gamma 0.936 0.13
++G gamma 1.0608 0.09
++G gamma 1.151 0.03
++G gamma 1.573 0.02
++G gamma 1.664 0.03
++G gamma 1.455 0.01
++G gamma 1.5785 0.05
++G gamma 1.6685999999999999 0.05
++G gamma 1.881 0.03
++G gamma 1.972 0.06
++G gamma 2.23 0.05
+

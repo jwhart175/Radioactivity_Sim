@@ -1,0 +1,36 @@
+#173TA    173W EC DECAY                 1990ME12,1991KUZN         95NDS    199509
+#  173W EC DECAY                 1990ME12,1991KUZN         95NDS    199509
+#H TYP=FUL$AUT=V. S. SHIRLEY$CIT=NDS 75,377 (1995)$CUT=1-Oct-1993$        
+#  The decay scheme is from 1991KuZN; data are from both 1990Me12         
+#  and 1991KuZN. Agreement between the two studies of 173W decay          
+#  is poor, because 1991KuZN interchanged the order of the                
+#  130.2G-35.7G cascade from that used by 1990Me12. Justification         
+#  for the reversal seems reasonable.                                     
+#  1990Me12: sources from 138BA(40AR,5N), E(40AR)=165-205 MEV,            
+#  helium-jet transport; 99.8% target enrichment; measured                
+#  excitation functions, EG, IG (GELI, germanium GX detectors),           
+#  GG coin.                                                               
+#  1991KuZN: sources from 159TB(19F,5N); measured EG, IG, GG coin.        
+#  Authors report very few experimental details, but give                 
+#  plausible conclusions based on analysis of data.                       
+#  Others: 1963Sa14, 1971Na28, 1973CaYH, 1977An04, 1986Sz05.              
+#E           EC feedings are estimates from 1991KuZN.                     
+#G           Decay-scheme normalization not possible because of           
+#G incomplete G-ray intensity data.                                       
+#G E$From 1991KuZN except where noted. DE not reported, but               
+#G estimated by evaluator from precision of authors' energies.            
+#G RI$Arbitrary units relative to RI(457.7G)=100 (1990Me12).              
+#G M$From 1991KuZN except where noted; measurement details not            
+#G reported.                                                              
+#L E(A)$Member of 1/2[541] band.                                          
+#L E(B)$Member of 5/2[402] band.                                          
+#L E(C)$Member of 7/2[404] band.                                          
+#L E(D)$Member of 9/2[514] band.                                          
+#L E(E)$Member of 7/2[523] band.                                          
+#G E(A)$From 1990Me12.                                                    
+#L E(X)$x<10 keV (1991KuZN).                                              
+#P 0.0          5/2-             7.5 M     3              4.0E+3     3    
+W173 TA173 beta+ 4.0 450.0 1.0
++B beta+ 1.2 0.027999999999999997
++B beta+ 1.06 0.16
+

@@ -1,0 +1,37 @@
+#195PO    199RN A DECAY (0.31 S)        1984CA32,1982HI14         14NDS    201408
+#  199RN A DECAY (0.31 S)        1984CA32,1982HI14         14NDS    201408
+#H TYP=FUL$AUT=Huang Xiaolong and Kang Mengxiao$CIT=NDS 121, 395 (2014)$  
+#H CUT=1-Mar-2014$                                                        
+#  Sources produced usually by {+86}Kr({+116}Sn,3n) E=345-385 MeV         
+#  (1982Hi14), Th(p,X) E=600 MeV (1984Ca32).                              
+#  For evaluations, see 1991Ry01, 1988Sc02, and 1986BrZQ.                 
+#  For |a decay systematics, see 1983Po07.                                
+#  E|a and T{-1/2} measured (1984Ca32,1982Hi14,2005Uu02).                 
+#L E,J$From adopted levels                                                
+#N 1                       0.97  SY                                       
+#N BR$FROM 94NDS FOR A=199                                                
+#N BR        %|a, %|e, and %IT are not determined (1988Sc02).             
+#P 180       70(13/2+)           0.31 S     2             714E+1    5     
++A alpha 7.06 1.0
+
+#195PO    199RN A DECAY (0.31 S)        1984CA32,1982HI14         14NDS    201408
+#  199RN A DECAY (0.31 S)        1984CA32,1982HI14         14NDS    201408
+#H TYP=FUL$AUT=Huang Xiaolong and Kang Mengxiao$CIT=NDS 121, 395 (2014)$  
+#H CUT=1-Mar-2014$                                                        
+#  Sources produced usually by {+86}Kr({+116}Sn,3n) E=345-385 MeV         
+#  (1982Hi14), Th(p,X) E=600 MeV (1984Ca32).                              
+#  For evaluations, see 1991Ry01, 1988Sc02, and 1986BrZQ.                 
+#  For |a decay systematics, see 1983Po07.                                
+#  E|a and T{-1/2} measured (1984Ca32,1982Hi14,2005Uu02).                 
+#L E,J$From adopted levels                                                
+#N 1                       0.97  SY                                       
+#N BR$FROM 94NDS FOR A=199                                                
+#N BR        %|a, %|e, and %IT are not determined (1988Sc02).             
+#P 180       70(13/2+)           0.31 S     2             714E+1    5     
++A alpha 7.06 1.0
++G gamma 0.23 0.5
++G gamma 0.362 0.3
++G gamma 0.402 0.3
++G gamma 0.427 0.5
++G gamma 0.47 0.4
+

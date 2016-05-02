@@ -1,0 +1,35 @@
+# 32S     32P B- DECAY (14.268 D)       2002UN02,1994CO02,1979PR1411NDS    201109
+#  32P B- DECAY (14.268 D)       2002UN02,1994CO02,1979PR1411NDS    201109
+#H TYP=FUL$AUT=CHRISTIAN OUELLET, BALRAJ SINGH$CIT=NDS 112, 2199 (2011)$  
+#H CUT=24-Aug-2011$                                                       
+#  Half-life measurements: 2002Un02, 1994CO02, 1979PR14, 1977Mu07,        
+#  1977Be59, 1969La34, 1969Pe04, 1966Go16, 1961Ma46, 1959Ro51, 1958Da10,  
+#  1957An03, Bayly (Can J Research 28A, 520 (1956)), 1953Lo09, 1951Si25,  
+#  1948Kl28, Mulder (Physica 7, 849 (1940)), 1938Ca01,                    
+#  Capron (Physica 5, 882 (1938)); Newson (Phys Rev 51, 624 (1937));      
+#  Sizoo (Physica 3, 1053 (1936)); Preiswerk (Compt Rendu 201, 722        
+#  (1935)); Ambrosen (Z. Phys 91, 43 (1934))                              
+#  2000Ga56: measurement of effect on half-life by chiral molecular       
+#  solvents with right-handed and left-handed polarizations. The          
+#  authors report a maximum change of 1.52% in T{-1/2} with values        
+#  ranging from 14.28 d {I8} (standard value from literature used         
+#  as reference for sample in water) to 14.07 d {I8} for right handed     
+#  2-phenylbutyric acid. These measurements need to be verified           
+#  independently.                                                         
+#  |b-endpoint energy measurements: 2001Ko07, 1993Gr17, 1979Pr14,         
+#  1976Mo12, 1971Ze04, 1971Pe03, 1971Bo01, 1969Fl02, 1968Fi04, 1966Ca10,  
+#  1963Bo31, Fehrentz (Nucl Instr Meth 10, 185 (1961)), 1961Ni02,         
+#  1958Jo33, 1958Da10, 1957Ri41, 1956Po07, Antoneva (Izv Akad Nauk Fiz 18,
+#  93 (1954)), 1952Je12, Marshaw (Phys Rev 80, 288 (1950)), 1950Ag01,     
+#  1949La06, 1946Si09, Capron (Physica 5, 882 (1938)); Newson             
+#  (Phys Rev 51, 624 (1937)); Lyman (Phys Rev 51, 1 (1937))               
+#  Some recent references for standardization of {+32}P source and |b-:   
+#  2004Da06, 2003Dh02, 2001Ko07, 1996Wo08, 1994Sm08, 1994Co02, 1994Br45,  
+#  1993Gr17, 1991Sy01, 1989Ta08, 1988Na17, 1988Ch45.                      
+#  From RADLIST code, deduced energy balance=1710.6 keV {I2} as compared  
+#  to 1710.66 keV {I4} from Q value                                       
+#L J$ From Adopted Levels                                                 
+#P 0           1+                14.268 D  5              1710.66   4     
+P32 S32 beta- 1.71066 1232755.2 1.0
++B beta- 0.6950299999999999 1.0
+

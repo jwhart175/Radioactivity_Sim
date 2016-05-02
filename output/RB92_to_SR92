@@ -1,0 +1,77 @@
+# 92SR    92RB B- DECAY                 2006LH01,1980AL08,1972OL0312NDS    201210
+#  92RB B- DECAY                 2006LH01,1980AL08,1972OL0312NDS    201210
+#H TYP=FUL$AUT=CORAL M. BAGLIN$CIT=NDS 113, 2187 (2012)$CUT=15-Sep-2012$  
+#  Others: 2001KO07, 1992GRZX, 1992GR06, 1992PR03, 1991MA05, 1990RU05,    
+#  1988GRZX, 1983IA02, 1982AL01, 1980DE02, 1979BO26, 1978ST02, 1978WO15,  
+#  1970MAZC.                                                              
+#  1972OL03: EG, IG, GG coin.                                             
+#  1980AL08: GG coin, GG(|q).                                             
+#  2006LH01: %I(815G).                                                    
+#  2011TA26: SEGMENTED TOTAL ABSORPTION SPECTROMETER MEASUREMENTS TO      
+#  DETERMINE G CASCADE MULTIPLICITIES; NO DETAILS GIVEN.                  
+#B E         Measured average EB=3460 230 (1982AL01), 3770 150            
+#B (1990RU05) cf. 3638 28 CALCULATED FOR THE ADOPTED DECAY SCHEME USING   
+#B THE CODE ^RADLST.                                                      
+#B IB        FROM INTENSITY IMBALANCE AT EACH LEVEL.                      
+#B E(M)      Weighted average of 8111 15 (1980DE02),                      
+#B 8095 25 (1988GRZX), 8107 15 (1992PR03) and 8096 16 (1992GRZX).         
+#B Other Q(|b{+-}) measurements: 8100 50 (2001KO07), 8091 15 (Blonnigen,  
+#B unpublished datum quoted in 1992PR03), 8080 30 (1983IA02),             
+#B 7980 100 (1978ST02), 8080 160 (1978WO15), 8050 50 (1978WU04),          
+#B 8180 130 (1970MAZC).                                                   
+#G CC$ FROM BrIcc v2.2b (20-Jan-2009) 2008Ki07, "Frozen Orbitals" appr.   
+#G           Average EG=393 32 (1990RU05) cf. 208 10 CALCULATED           
+#G FOR THE ADOPTED DECAY SCHEME USING THE CODE ^RADLST.                   
+#G E,RI      From 1972OL03, unless indicated otherwise.                   
+#G M,MR      From GG(|q), assuming no G ray seen in                       
+#G coin spectrum has L>2, that |>10% Q admixture indicates                
+#G mult=M1+E2, and that J=2 states with significant branching to 0+ g.s.  
+#G have PI=+ (1980AL08).                                                  
+#G E(A)      From 1979BO26.                                               
+#G E(B),RI(B)$From 1980AL08.                                              
+#G MR(D)     MR(386G) in table 1 (summary of GG(|q) results) of 1980AL08  
+#G is a misprint; quoted MR is for 2007G.                                 
+#G M(E),MR(E)$394G-(570G)-815G(|q) gives MR=-1.1 11 for                   
+#G 2(^D,Q)2(Q,^D)2(Q)0+,                                                  
+#G 394G-1385G(|q) gives MR=+0.07 5 for 2(^D,Q)2(Q)0+ and                  
+#G 394G-570G(|q) gives MR=-0.04 +4-5 for 2(^D,Q)2(^D,Q)0 cascade.         
+#G Evaluator assumes mult=pure ^D for 394G.                               
+#G M(F),MR(F)$1273G-815G(|q) gives A2=+0.30 11, A4=+1.25 20               
+#G implying 0(Q)2(Q)0+ cascade.                                           
+#G M(G),MR(G)$704G-(570G)-815G(|q), 704G-1385G(|q) (A2=+0.40 14,          
+#G A4=+1.60 26) and 704G-570G(|q) imply 0(Q)2(Q,^D)2(Q)0+,                
+#G 0(Q)2(Q)0+ and 0(Q)2(^D,Q)2 cascades.                                  
+#G M(H),MR(H)$1326G-815G(|q) gives MR=-0.27 5 for 1(^D,Q)2(Q)0+           
+#G cascade.                                                               
+#G M(I),MR(I)$756G-(570G)-815G(|q), 756G-1385G(|q) and                    
+#G 756G-570G(|q) give MR=-0.10 12, -0.04 4 and -0.12 3 for                
+#G 1(Q,^D)2(Q,D)2(Q)0+, 1(Q,^D)2(Q)0+ and 1(Q,^D)2(Q)0+ cascades,         
+#G respectively. Evaluator adopts weighted average value, MR=-0.09 3.     
+#G M(J),MR(J)$1712G-815G(|q) has A2=+0.33 3, A4=+1.18 6                   
+#G indicating a 0(Q)2(Q)0+ cascade.                                       
+#G M(K),MR(K)$2007G-815G(|q) gives MR(^D,Q)<-0.53 for a 2(^D,Q)2(Q)0      
+#G cascade; however, J(2821 level)=1 also possible. Note that table 1     
+#G of 1980AL08 (summary of GG(|q) results) incorrectly ascribes this MR   
+#G to 386G (a J=0 to J=1 transition).                                     
+#G M(L),MR(L)$1239G-815G(|q) gives MR<-3.3 or >+11.8 for                  
+#G 2(Q,^D)2(Q)0+ cascade.                                                 
+#L           The decay scheme is that proposed by 1972OL03, and modified  
+#L by 1980AL08. 1980AL08 place one new G ray (1071.4G) and relocate       
+#L 1465G, 1239G on the basis of coincidence information, implying new     
+#L levels at 2054 and 2850 KEV. 1980AL08 find no evidence for the 2624?   
+#L KEV level proposed by 1972OL03, and thus leave the 97G unplaced; they  
+#L also confirm the 2088-level proposed tentatively by 1972OL03.          
+#L J         From Adopted Levels.                                         
+#L T         From BGG(t) (1991MA05), except as noted.                     
+#P 0.0         0-                4.48 S     3             8095       6    
+RB92 SR92 beta- 8.095 4.48 0.032
++G gamma 0.3935 0.038
++G gamma 0.9635 0.046
++G gamma 1.7783 0.011000000000000001
++G gamma 1.2389000000000001 0.011000000000000001
++G gamma 0.7036 0.013999999999999999
++G gamma 1.2734 0.03
++G gamma 0.756 0.034
++G gamma 1.3257999999999999 0.042
++G gamma 0.3861 0.0076
+

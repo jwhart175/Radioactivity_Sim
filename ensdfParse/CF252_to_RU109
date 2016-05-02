@@ -1,0 +1,29 @@
+#109RU    252CF SF DECAY                1998HW02,1995BU14,1973HO2206NDS    200602
+#  252CF SF DECAY                1998HW02,1995BU14,1973HO2206NDS    200602
+#H TYP=FUL$AUT=JEAN BLACHOT$CIT=NDS 107, 355 (2006)$CUT=1-Aug-2005$       
+#  1998Hw02: a {+252}Cf source was sandwiched between two Ni foils and    
+#  placed at the center of gammasphere with 72 Compton-suppressed Ge      
+#  detectors                                                              
+#  The identification of {+109}Ru is based on the known |g of the fission 
+#  partners                                                               
+#  1995Bu14: they have used two different coin experiment, detector array 
+#  gammasphere and a small setup with three Ge and two leps, triple       
+#  coin analysis                                                          
+#  1973Ho22: they proposed a decay scheme for {+109}Ru based on |g|g      
+#  measurements of radiations produced in {+252}Cf(SF). The transitions   
+#  were assigned to {+109}Ru mainly on the basis of previous work         
+#  (1972Ho08,1970WiZN) where the x rays and fission fragments were        
+#  measured in coincidence with the gammas. 1995Bu14 have shown that the  
+#  98, 74, 172, and 374 gammas were not correctly connected with the      
+#  ground state by 1973Ho22.                                              
+#G E$From 1998Hw02. No |DE|g given by authors, assumed to be 0.3 keV      
+#G M$From 1995Bu14. No detail is given by authors                         
+#L E$The level scheme is from 1998Hw02                                    
+#L J$J|p assigned on the basis of |g mult derived from |g|g(|q) and       
+#L systematics by 1995Bu14                                                
+#L BAND(A)$ BAND 1                                                        
+#L BAND(B)$ BAND 2                                                        
+#L BAND(C)$ BAND 3                                                        
+#L BAND(D)$ BAND 4                                                        
+#P 0            0+               2.645 Y   8                              
+

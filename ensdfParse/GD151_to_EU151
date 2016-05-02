@@ -1,0 +1,76 @@
+#151EU    151GD EC DECAY (123.9 D)                                09NDS    200901
+#  151GD EC DECAY (123.9 D)                                09NDS    200901
+#H TYP=FUL$AUT=BALRAJ SINGH$CIT=NDS 110, 1 (2009)$CUT=20-Nov-2008$        
+#  Main references: 1984Gr15, 1983Vo10, 1982BaZX (also 1996Vy02), 1970Fo02
+#  Others: 1969Ho30, 1968Gr25, 1967Gr29, 1966Ha23                         
+#  G: 1984Gr15, 1983Vo10, 1982BaZX, 1970Fo02, 1969Ho30. Others:           
+#  1977Dr04, 1970Ko30, 1970FoZZ, 1968Gr25, 1967Gr29, 1966Av05, 1966Ry02,  
+#  1965Fo14, 1963St13, 1961Be36, 1958Sh61, 1957Go72, 1957Bi90, 1950He18   
+#  GG: 1983Vo10, 1970Fo02, 1977Dr04. Others: 1963St13, 1958Sh61           
+#  CEG: 1982BaZX (also 1996Vy02)                                          
+#  (x)G: 1980Se01, 1977Ve01, 1973Ge06                                     
+#  CE: 1982BaZX, 1981Ar17, 1970An17, 1968Gr25, 1967Gr29, 1966Ha23,        
+#  1966Av05. Others: 1971MeZT, 1959Dz04, 1958An34, 1958Sh61, 1957Bi90     
+#  GG(THETA): 1985Be64. Data for 106-243 cascade                          
+#  GG(T): 1994Si11, 1969FaZY, 1963Ho09, 1961Be36                          
+#  (x)G(T): 1970Ko30, 1963Ho09, 1958Sh61                                  
+#  CEG(T): 1982BaZX, 1963Ki15, 1960Be27                                   
+#  (x)(CE)(T): 1970Ko30                                                   
+#  cece(T): 1970Ko30, 1969Ho30, 1964Be36, 1962Be25, 1962Be20              
+#  G(THETA): 1987Be33, low temperature nuclear orientation                
+#  T1/2(151GD isotope): 1984Gr15, 1983Vo10, 1958An34. Others:             
+#  1950He18, 1963Mi04                                                     
+#  K-shell EC probability: 1983Vo10, 1980Se01, 1973Ge06                   
+#  L-shell EC probability: 1983Ar23, 1982Ar22, 1977Ve01                   
+#G                                                                        
+#G             Experimental conversion coefficients deduced from          
+#G  CE data of mainly 1968Gr25. Other CE data: 1982BaZX, 1971MeZT,        
+#G  1967Gr29, 1966Ha23, 1966Av05, 1958Sh61, 1958An34                      
+#G                                                                        
+#G              EG     EKC    ELC     EMC   reference                     
+#G           -----------------------------------------------------        
+#G            106.6    1.0 2      0.7 2                                   
+#G            153.6    0.48 3     0.065 13    0.023 6   ELC, EMC          
+#G                                                      from 1967Gr29     
+#G            196.5    0.20 4     0.16 4                                  
+#G            238.9    0.16 2                                             
+#G            243.3    0.024 2    0.004 1     0.0091 23                   
+#G            260.5    0.12 3     0.02                                    
+#G            286.1    0.08 1     0.013 7     0.013                       
+#G            307.5    0.083 12   0.014 4     0.0044 11                   
+#G            328.3    0.014 3                                            
+#G            332.1    LT 0.033                                           
+#G            353.7    LT 0.01    0.0013 4                                
+#G                                                                        
+#G                                                                        
+#G E         Weighted average of 1983Vo10, 1982BaZX, 1970Fo02 and         
+#G 1968Gr25. Uncertainties in 1982BaZX have been rounded off to the       
+#G nearest hundredth of a KEV                                             
+#G RI        Weighted average of 1984Gr15, 1983Vo10, 1982BaZX, 1970Fo02,  
+#G 1969Ho30, 1968Gr25 and 1967Gr29. 1984Gr15 give RI's for 7 intense      
+#G transitions only                                                       
+#G M,MR      From CE data                                                 
+#G CC$ Theoretical values (from ^Br^Icc code) for assigned mult and MR.   
+#G For M1,E2 assignment MR=1 assumed. Experimental conversion             
+#G coefficients deduced by normalization to KC for 174.7G treated as M2   
+#G E(B)      From CE data of 1967Gr29                                     
+#G E(D)      From 1968Gr25 only                                           
+#G E(F)      Reported by 1983Vo10 only from GG                            
+#G E(H)      From 1982BaZX                                                
+#L J         From 'adopted levels'                                        
+#L E         From least-squares fit to EG's. Normalized |h{+2}=2.1        
+#P   0.0         7/2-              123.9 D 10              464.2    28    
++B beta+ 8.19E-4 0.0014000000000000002
++B beta+ 8.169999999999999E-4 0.0014000000000000002
++B beta+ 7.94E-4 0.00158
++B beta+ 7.94E-4 0.00158
++B beta+ 7.880000000000001E-4 0.0016200000000000001
++B beta+ 7.790000000000001E-4 0.00169
++B beta+ 7.72E-4 0.0017499999999999998
++B beta+ 9.4E-4 0.00198
++B beta+ 7.39E-4 0.00199
++B beta+ 7.379999999999999E-4 0.00199
++G gamma 0.1536 0.062
++B beta+ 6.680000000000001E-4 0.00251
++B beta+ 6.57E-4 0.0025900000000000003
+

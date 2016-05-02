@@ -1,0 +1,20 @@
+#131LA    131LA IT DECAY (170 US)       1973LE09,1973CO32         06NDS    200612
+#  131LA IT DECAY (170 US)       1973LE09,1973CO32         06NDS    200612
+#H TYP=FUL$AUT=YU. KHAZOV, I. MITROPOLSKY, A. RODIONOV$                   
+#H CIT=NDS 107, 2715 (2006)$CUT=17-Jul-2006$                              
+#  1973Co32, 1970Co05: {+123}Sb({+12}C,4n|g), 88 MeV; measured |g's,      
+#  x-rays, ce; deduced IT decay, levels, J|p, T{-1/2}. Pulsed beam        
+#  1973Le09: {+120}Sn({+14}N,3n|g), E=50, 53, 58 MeV;                     
+#  {+124}Te({+11}B,4n|g), E=50, 56 MeV; measured |g, |g|g(|q), deduced    
+#  levels, J|p, T{-1/2}                                                   
+#  1996Ge12: {+131}Ce |e decay [from {+94}Mo({+40}Ca,xpyn|g), E=255 MeV,  
+#  decay of {+131}Nd,{+131}Pr precursors]; measured E|g, I|g, |g|g, x|g.  
+#  He-jet transport, Ge, Si(Li) detectors                                 
+#G E,RI      From 1996Ge12, except as noted                               
+#P    304.4   3 11/2-            170 US     7                             
+LA131 LA131 IT 0.0 1.7E-4 1.0
++G gamma 0.026199999999999998 0.36450000000000005
++G gamma 0.1694 0.81
++G gamma 0.1955 0.04455
++G gamma 0.10890000000000001 0.10854000000000001
+

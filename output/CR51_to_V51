@@ -1,0 +1,114 @@
+# 51V     51CR EC DECAY                 2005Ya01,2000He14         06NDS    200608
+#  51CR EC DECAY                 2005Ya01,2000He14         06NDS    200608
+#H TYP=FUL$AUT=Huang Xiaolong$CIT=NDS 107, 2131 (2006)$CUT=1-May-2005$    
+#  Others: 1955Bu01, 1955Co56, 1963MeZZ, 1965Dh01, 1965Le24, 1969Dr01,    
+#  1970Ri11, 1973De60, 1973Wi10, 1980Sc07, 1984Fi10, 1985De50, 1986Ca08,  
+#  1991Ba11, 1994Ko34.                                                    
+#  Source generally produced by {+51}V(p,n) and {+50}Cr(n,|g).            
+#  2005Ya01: measured x-ray and |g emission probabilities, Si(Li).        
+#  1994Ko34: measured |g(x-ray)-coin, deduced x-ray emission              
+#  probabilities and |g emission probability.                             
+#  1991Ba11: measured |g|g-coin, deduced |g emission probability.         
+#  1984Fi10: absolute measurement of branching ratio for                  
+#  |e decay of {+51}Cr to {+51}V(320|g).                                  
+#  {+51}Cr yields were determined with calibrated                         
+#  4|p neutron counter (activation accuracy 1%). 320|g with               
+#  calibrated Ge(Li) detector (efficiency accuracy 1%). Deduced I|b.      
+#  1975Bo07: fractometer. E|g measured.                                   
+#  1980Sc07: |g-ray emission probability for {+51}Cr |e decay             
+#  to {+51}V (320|g) measured. The measurements were carried out          
+#  with a pressurized 4|p proportional counter for the x-radiation,       
+#  conversion and Auger electrons, and a NaI(Tl) detector for the         
+#  |g-radiation.                                                          
+#            An independent evaluation of this decay was carried out by   
+#       E. Schonfeld and R. G. Helmer as part of the international        
+#       Decay Data Evaluation Project(DDEP).  Since the results are very  
+#       similar, they are included in this comment, rather than           
+#       replacing the data set.  From the analysis of 21 half-life        
+#       values, a result of 27.703 d {I3} is obtained.  From 9 values,    
+#       the intensity of the 320-keV |g ray is deduced to be 9.87 {I5}.   
+#       The |g-ray energy reference of 1994HeZZ can be replaced with      
+#       2000He14 and the half-life reference of 1991UnZZ,1992Un01 can be  
+#       replaced by 2002Un02.  The details of this evaluation will be     
+#       published by M.-M. Be in a report from the Laboratoire National   
+#       Henri Becquerel.                                                  
+#G           X Rays(2005Ya01):                                            
+#G            E(X Ray)      I(X Ray)                                      
+#G             4.95         6.99 1                    XKA2                
+#G             4.95        13.37 1                    XKA1                
+#G             5.43         1.56 1                    XKB1                
+#G           I(K x-ray)=22.8% {I3} (1991BaZS)                             
+#L E         From E|g                                                     
+#L J         From adopted levels.                                         
+#E IE        From intensity imbalance                                     
+#G E         From 2000He14.                                               
+#G M,MR      From adopted |g radiations.                                  
+#N 1.0         1          1        1                                      
+CR51 V51 beta+ 2.4735 345.59999999999997 1.0
+#N                                                                     3  
+#P 0.0         7/2-              27.7010 D 11             752.58    24    
++G gamma 0.3200824 0.09910000000000001
+
+# 51V     51CR EC DECAY                 2005Ya01,2000He14         06NDS    200608
+#  51CR EC DECAY                 2005Ya01,2000He14         06NDS    200608
+#H TYP=FUL$AUT=Huang Xiaolong$CIT=NDS 107, 2131 (2006)$CUT=1-May-2005$    
+#  Others: 1955Bu01, 1955Co56, 1963MeZZ, 1965Dh01, 1965Le24, 1969Dr01,    
+#  1970Ri11, 1973De60, 1973Wi10, 1980Sc07, 1984Fi10, 1985De50, 1986Ca08,  
+#  1991Ba11, 1994Ko34.                                                    
+#  Source generally produced by {+51}V(p,n) and {+50}Cr(n,|g).            
+#  2005Ya01: measured x-ray and |g emission probabilities, Si(Li).        
+#  1994Ko34: measured |g(x-ray)-coin, deduced x-ray emission              
+#  probabilities and |g emission probability.                             
+#  1991Ba11: measured |g|g-coin, deduced |g emission probability.         
+#  1984Fi10: absolute measurement of branching ratio for                  
+#  |e decay of {+51}Cr to {+51}V(320|g).                                  
+#  {+51}Cr yields were determined with calibrated                         
+#  4|p neutron counter (activation accuracy 1%). 320|g with               
+#  calibrated Ge(Li) detector (efficiency accuracy 1%). Deduced I|b.      
+#  1975Bo07: fractometer. E|g measured.                                   
+#  1980Sc07: |g-ray emission probability for {+51}Cr |e decay             
+#  to {+51}V (320|g) measured. The measurements were carried out          
+#  with a pressurized 4|p proportional counter for the x-radiation,       
+#  conversion and Auger electrons, and a NaI(Tl) detector for the         
+#  |g-radiation.                                                          
+#            An independent evaluation of this decay was carried out by   
+#       E. Schonfeld and R. G. Helmer as part of the international        
+#       Decay Data Evaluation Project(DDEP).  Since the results are very  
+#       similar, they are included in this comment, rather than           
+#       replacing the data set.  From the analysis of 21 half-life        
+#       values, a result of 27.703 d {I3} is obtained.  From 9 values,    
+#       the intensity of the 320-keV |g ray is deduced to be 9.87 {I5}.   
+#       The |g-ray energy reference of 1994HeZZ can be replaced with      
+#       2000He14 and the half-life reference of 1991UnZZ,1992Un01 can be  
+#       replaced by 2002Un02.  The details of this evaluation will be     
+#       published by M.-M. Be in a report from the Laboratoire National   
+#       Henri Becquerel.                                                  
+#G           X Rays(2005Ya01):                                            
+#G            E(X Ray)      I(X Ray)                                      
+#G             4.95         6.99 1                    XKA2                
+#G             4.95        13.37 1                    XKA1                
+#G             5.43         1.56 1                    XKB1                
+#G           I(K x-ray)=22.8% {I3} (1991BaZS)                             
+#L E         From E|g                                                     
+#L J         From adopted levels.                                         
+#E IE        From intensity imbalance                                     
+#G E         From 2000He14.                                               
+#G M,MR      From adopted |g radiations.                                  
+#N 1.0         1          1        1                                      
+CR51 V51 beta+ 2.4735 345.59999999999997 1.0
+#N                                                                     3  
+#P 0.0         7/2-              27.7010 D 11             752.58    24    
++G gamma 0.3200824 0.09910000000000001
+CR51 V51 beta+ 0.75258 2393366.4000000004 1.0
++G gamma 0.31930000000000003 1.0
++G gamma 0.609 0.14
++G gamma 0.9282999999999999 0.86
++G gamma 1.6093 1.0
++G gamma 1.4927000000000001 0.25
++G gamma 1.8134000000000001 0.75
++G gamma 2.091 0.81
++G gamma 2.41 0.19
++G gamma 1.618 1.0
++G gamma 1.749 1.0
++G gamma 1.092 1.0
+

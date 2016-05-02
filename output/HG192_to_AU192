@@ -1,0 +1,31 @@
+#192AU    192HG EC DECAY                1963JA11,1968KI04         12NDS    201209
+#  192HG EC DECAY                1963JA11,1968KI04         12NDS    201209
+#H TYP=FUL$AUT=Coral M. Baglin$CIT=NDS 113, 1871 (2012)$CUT=15-Jun-2012$  
+#  Others: 1954GI04, 1961JA10, 1961JA25, 1962JA04, 1971HO04.              
+#  The decay scheme is from 1968KI04; see paper for more complete,        
+#  but less well established, alternative scheme which introduces         
+#  possible levels at 45.2, 92.9, 136.1 and 303.1 KEV. Data are from      
+#  1963JA11 (preliminary work by authors of 1968KI04) and 1968KI04,       
+#  except where noted. Sources from 197AU(P,6N); measured EG, ICE,        
+#  IG, GCE coin (GELI, FWHM=0.85 KEV at 88 KEV; mag spect).               
+#E           ^A B+ group, corresponding to 1870 KEV 70 for                
+#E 192HG-192AU decay energy, reported by 1975VIZK is not consistent with  
+#E adopted Q+ (764 22, 2011AUZZ).                                         
+#E IB        EC feedings are from intensity imbalance at each             
+#E level (no direct feeding to GS or 31.6 level assumed (see              
+#E comment with IG normalization)).                                       
+#G CC$ FROM BrIcc v2.2b (20-Jan-2009) 2008Ki07, "Frozen Orbitals" appr.   
+#G E         Uncertainties not reported (1963JA11,1968KI04), but estimated
+#G by evaluator from implied precision of authors' energies.              
+#G RI        IG relative to IG(157)=100; from 1968KI04, except as noted.  
+#G M         From EKC, ELC, and/or subshell ratios, except where noted.   
+#G The photon and CE intensity scales were normalized assuming            
+#G KC=1.642 (M1 theory) for 157.2G.                                       
+#G MR        From EKC, except as noted.                                   
+#G RI(A)     Seen in CE spectrum only.                                    
+#L J         From 192AU Adopted Levels.                                   
+#L T         From (CE)(CE)(T) (1971HO04), except as noted. Others:        
+#L 1961JA10, 1962JA04.                                                    
+#P 0.0          0+               4.85 H    20             764       22    
+HG192 AU192 beta+ 0.764 17460.0 0.072
+

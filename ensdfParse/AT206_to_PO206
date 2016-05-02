@@ -1,0 +1,39 @@
+#206PO    206AT EC DECAY                1977LI16,1982BR07         08NDS    200805
+#  206AT EC DECAY                1977LI16,1982BR07         08NDS    200805
+#H TYP=FUL$AUT=F.G. KONDEV$CIT=NDS 109, 1527 (2008)$CUT=31-Jan-2008$      
+#  UNCERTAINTY IN NR IS ABOUT 3%,ESTIMATED BY E. BROWNE FROM G-RAY        
+#  SPECTRUM OF 1977Li16. USED NR=0.985 25, TO AVOID CHANGING NUMBERS      
+#  BECAUSE OF ROUNDING (MAY 1998).                                        
+#  1977Li16: source produced in the 209BI(3HE,6N) reaction followed by    
+#  radiochemical separation of the astatine fraction; Detectors: GE(LI),  
+#  SI(LI); Measured: EG, IG, G singles, GG coincidence, IB, ECE, ICE      
+#  1982Br07: source produced in 660-MEV proton spallation of a thorium    
+#  target, followed by mass separation; Detectors: GE(LI) and SI(LI);     
+#  Measured: EG, IG, ECE, ICE.                                            
+#L E$From a least-squares fit to EG                                       
+#L E(Q)$Level reported only in 1982Br07                                   
+#L J$From adopted levels                                                  
+#G E,RI$From 1977Li16, unless otherwise specified. Values from 1982Br07   
+#G are given in the comments section                                      
+#G E(P)$From 1982Br07.                                                    
+#G M$From CE measurements in 1977Li16 and 1982Br07                        
+#E TI$Deduced from G-ray intensity balances using the 1977Li16 data.      
+#P 0.0         (5)+              30.6 M    8              5762      22    
+AT206 PO206 beta+ 5.762 1836.0 0.9910
++B beta+ 6.57E-4 0.00252
++B beta+ 1.603 0.005540000000000001
++B beta+ 1.4872999999999998 0.09
++B beta+ 1.4287999999999998 0.09
++B beta+ 1.425 0.09
++B beta+ 1.1725999999999999 0.013000000000000001
++B beta+ 1.1000999999999999 0.011000000000000001
++B beta+ 1.0125 0.0033
++B beta+ 0.9768 0.0012
++B beta+ 0.8294 0.0027
++B beta+ 0.6195 3.5999999999999997E-4
++B beta+ 0.5326000000000001 9.0E-4
++B beta+ 0.4113 1.4000000000000001E-4
++B beta+ 0.3381 3.6E-5
++B beta+ 7.892E-4 0.00157
++B beta+ 7.891E-4 0.00157
+

@@ -1,0 +1,33 @@
+#247CM    247AM B- DECAY                1967OR02,1968FI03         15NDS    201503
+#  247AM B- DECAY                1967OR02,1968FI03         15NDS    201503
+#H TYP=FUL$AUT=C. D. NESARAJA$CIT=NDS 125, 395 (2015)$CUT=31-Mar-2014$    
+#  1991Po17: Gamma emission of actinides isotopes                         
+#  1968Fi03: {+247}Am produced by 42-MeV |a on {+244}Pu at the Argonne    
+#  60-inch cyclotron. Chemical purification was followed by evaporation   
+#  on a quartz plate. Gammas were then measured with a Ge(Li) detector    
+#  through a thick copper detector to reduce |b-particle background.      
+#  1967Or02: {+247}Am produced by 28-MeV |a on {+244}Pu at the Los Alamos 
+#  variable-energy cyclotron. Chemical purification was followed by       
+#  evaporation on teflon film. Following |b decay of {+247}Am,            
+#  |g's were measured with a Ge(Li) detector and                          
+#  the electron spectrum was measured with a Si(Li) detector.             
+#B $I(|b)'s were deduced from intensity balance. Since the decay          
+#B scheme is incomplete, I(|b{+-})'s given should be taken as approximate.
+#G RI(A)$Relative photon intensity measured by 1991Po17.                  
+#G RI(S)$Calculated by the evaluator from adopted relative branching      
+#G M,MR$From Adopted Gammas                                               
+#G E(S)$Transition was not observed in {+247}Am |b{+-} decay; energy is   
+#G from Adopted Gammas                                                    
+#L E,J$From Adopted Level                                                 
+#G CC$FROM BrIcc v2.3a (30-Jun-2013) 2008Ki07, "Frozen Orbitals" appr.    
+#P 0.0         (5/2)             23.0 M    13             1620      SY    
+AM247 CM247 beta- 1.62 1380.0 1.0
++B beta- 0.522 0.06
++G gamma 0.06167 8.25E-4
++B beta- 0.465 0.31
++G gamma 0.1657 0.0010249999999999999
++G gamma 0.226 0.0575
++B beta- 0.443 0.63
++G gamma 0.05803 0.00525
++G gamma 0.285 0.25
+

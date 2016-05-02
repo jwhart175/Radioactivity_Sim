@@ -1,0 +1,25 @@
+#210RN    210FR EC DECAY (3.18 M)       1972KEYY                  14NDS    201408
+#  210FR EC DECAY (3.18 M)       1972KEYY                  14NDS    201408
+#H TYP=FUL$AUT=M. SHAMSUZZOHA BASUNIA$CIT=NDS 121, 561 (2014)$            
+#H CUT=31-Mar-2014$                                                       
+#  Source: 197AU(18O,5N) E=102 MEV.                                       
+#  Absolute RI was not determined because the decay scheme is incomplete. 
+#G           Measured EG, IG, GG-coin (semi).                             
+#G RI        Photon intensity relative to IG(644G)=100.                   
+#G M         From Adopted Gammas.                                         
+#G CC$FROM BrIcc v2.3a (30-Jun-2013) 2008Ki07, "Frozen Orbitals" appr.    
+#G MR$IF NO VALUE GIVEN IT WAS ASSUMED MR=1.00 FOR E2/M1,                 
+#G MR=1.00 FOR E3/M2 AND MR=0.10 FOR THE OTHER MULTIPOLARITIES            
+#L J         From Adopted Levels                                          
+#P 0.0         6+                3.18 M    6              6272      16    
+FR210 RN210 beta+ 6.272 190.8 0.4
++G gamma 0.42519999999999997 0.1
++G gamma 0.461 0.11
++G gamma 0.733 0.1
++G gamma 0.6437999999999999 1.0
++G gamma 0.8172 0.6
++G gamma 0.9007999999999999 0.3
++G gamma 0.12 0.025
++G gamma 0.2033 0.35
++G gamma 0.2562 0.11
+

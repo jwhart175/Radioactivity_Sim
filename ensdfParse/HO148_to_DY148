@@ -1,0 +1,119 @@
+#148DY    148HO EC DECAY (2.2 S)        1982NO08                  14NDS    201404
+#  148HO EC DECAY (2.2 S)        1982NO08                  14NDS    201404
+#H TYP=FUL$AUT=N. NICA$CIT=NDS 117, 1 (2014)$CUT=1-Oct-2013$              
+#  Measured: G, GG, G(T) (1988TO03,1982NO08)                              
+#E $Normalization is from 1982NO08; the basis is not given                
+#G $Normalization is from 1982NO08; the basis is not given                
+#G M         From adopted gammas                                          
+#L J         From adopted values                                          
+#P 0.0         (1+)              2.2 S     11             9860      80    
+HO148 DY148 beta+ 9.86 2.2 1.0
++B beta+ 8.271E-4 0.00133
++B beta+ 4.13 3.1E-4
++G gamma 1.6777 0.07400000000000001
+
+#148DY    148HO EC DECAY (9.59 S)       1988TO03,1989TA11,1996GA2414NDS    201404
+#  148HO EC DECAY (9.59 S)       1988TO03,1989TA11,1996GA2414NDS    201404
+#H TYP=FUL$AUT=N. NICA$CIT=NDS 117, 1 (2014)$CUT=1-Oct-2013$              
+#  Others: 1981GAZS, 1979TO01                                             
+#  Measured: G, GG, XK, delayed protons (1988TO03), G, GG, XG (1989TA11), 
+#  CE (1996GA24)                                                          
+#E           EC feeding was determined on the                             
+#E assumption of no EC decay to 148DY ground state. LOGFT values          
+#E calculated by setting parent level energy=0.0                          
+#G CC$ FROM BrIcc v2.2b (20-Jan-2009) 2008Ki07, "Frozen Orbitals" appr.   
+#G E         From 1989TA11, unless indicated otherwise                    
+#G E(A),RI(A)$Observed only in 1988TO03                                   
+#G RI        Relative intensity (1989TA11)                                
+#G M         From adopted gammas supported by CE data from this data set  
+#G M(B)      From CE data (1996GA24)                                      
+#L E         From a least-squares fit to EG data                          
+#L           Delayed proton emission probability=0.08% 1 (1988TO03)       
+#L J         Adopted values, supported by LOGFT values and G branchings   
+#L J(C)      From LOGFT values for EC decay from (5)-                     
+#P 0.0+X       (5-)              9.59 S     15            9860      80    
+HO148 DY148 beta+ 9.86 9.59 1.0
++G gamma 0.43539999999999995 0.006
++G gamma 0.5405 0.0046
++G gamma 0.7604 0.004699999999999999
++G gamma 0.9173 0.0032
++G gamma 0.9612 0.008
++G gamma 0.996 0.0045000000000000005
++G gamma 1.1764000000000001 0.011000000000000001
++G gamma 1.2022 0.0049
++G gamma 1.3918 0.0070999999999999995
++G gamma 1.5043 0.013000000000000001
++G gamma 1.6004 0.008
++G gamma 1.6778 0.174
++G gamma 0.0105 0.0051
++G gamma 1.6883 0.8247
++B beta+ 3.32 5.600000000000001E-4
++G gamma 0.6613 0.5893999999999999
++B beta+ 3.002 7.3E-4
++G gamma 0.7395 0.057300000000000004
++G gamma 0.75 0.0362
++B beta+ 2.965 7.5E-4
++G gamma 0.3045 0.015
++G gamma 0.3826 0.0276
++B beta+ 2.819 8.500000000000001E-4
++G gamma 0.3896 0.051100000000000007
++B beta+ 2.816 8.500000000000001E-4
++G gamma 0.0945 0.0044
++G gamma 0.1015 0.0011
++B beta+ 2.771 8.9E-4
++G gamma 0.5043 0.1862
++B beta+ 2.761 9.0E-4
++G gamma 0.1156 0.013000000000000001
++G gamma 0.542 0.0067
++G gamma 0.62 0.0279
++G gamma 1.2812999999999999 0.056600000000000004
++B beta+ 2.706 9.4E-4
++G gamma 0.5672999999999999 0.0116
++G gamma 1.307 0.0144
++B beta+ 2.694 9.5E-4
++G gamma 0.2615 0.0027
++G gamma 0.2822 0.002
++G gamma 0.37610000000000005 0.005699999999999999
++G gamma 0.7659 0.0206
++B beta+ 2.637 0.001
++G gamma 1.4834 0.026000000000000002
++B beta+ 2.61 0.0010299999999999999
++G gamma 1.5003 0.0546
++B beta+ 2.602 0.00104
++G gamma 0.1641 0.0037
++G gamma 0.42569999999999997 0.0042
++G gamma 0.93 0.0134
++B beta+ 2.559 0.00108
++G gamma 0.3536 0.0054
++G gamma 0.5837 0.004
++G gamma 0.9736 0.016399999999999998
++B beta+ 2.538 0.0011
++G gamma 1.6394000000000002 0.0216
++B beta+ 2.536 0.0011
++G gamma 0.6658 0.0106
++B beta+ 2.499 0.00114
++G gamma 1.3283 0.0079
++G gamma 1.4059000000000001 0.0282
++B beta+ 2.333 0.00135
++G gamma 1.101 0.0292
++G gamma 1.32 0.0254
++G gamma 1.8615 0.0118
++G gamma 1.9397 0.0462
++G gamma 2.6009 0.0075
++B beta+ 2.082 0.0017499999999999998
++G gamma 1.3973 0.0167
++G gamma 1.6615 0.0051
++G gamma 2.0434 0.0058
++B beta+ 2.033 0.00184
++G gamma 2.1102 0.011200000000000002
++B beta+ 2.002 0.00191
++G gamma 2.2845999999999997 0.015600000000000001
++G gamma 2.9458 0.0027
++B beta+ 1.92 0.00209
++G gamma 2.4124 0.0194
++G gamma 3.0734 0.0052
++B beta+ 1.861 0.00223
++G gamma 2.705 0.0123
++B beta+ 1.724 0.0026
++G gamma 2.2914 0.0173
+

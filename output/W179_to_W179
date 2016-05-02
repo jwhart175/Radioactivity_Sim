@@ -1,0 +1,15 @@
+#179W     179W IT DECAY (6.40 M)        1969KO18,1969BI10,1968HA3909NDS    200902
+#  179W IT DECAY (6.40 M)        1969KO18,1969BI10,1968HA3909NDS    200902
+#H TYP=FUL$AUT=Coral M. BAGLIN$CIT=NDS 110, 265 (2009)$CUT=15-Nov-2008$   
+#  1969KO18: measured EG, RI, GG coin, ICE, G(T). Detectors: GE(LI),      
+#  SI(LI).                                                                
+#  1969BI10: measured EG, IG. Detector: GE(LI).                           
+#  1968HA39: measured EG, ICE. Detector: magnetic spectrograph.           
+#G E,RI      From 1969KO18.                                               
+#L E         FROM LEAST-SQUARES FIT TO EG.                                
+#L J         FROM Adopted Levels.                                         
+#L BAND(Z)   7/2[514] GS BAND.                                            
+#L BAND(V)   1/2[521] BAND.                                               
+#P    221.91  3 1/2-             6.40 M    7                              
+W179 W179 IT 0.0 384.0 1.0
+

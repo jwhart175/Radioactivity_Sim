@@ -1,0 +1,17 @@
+#101Y     252CF SF DECAY                2005LU21                  ENSDF    200610
+#  252CF SF DECAY                2005LU21                  ENSDF    200610
+#H TYP=FUL$AUT=JEAN BLACHOT$CIT=ENSDF$CUT=1-Jul-2006$                     
+#  Measured E|g, I|g, |g|g, Gammasphere array with 102                    
+#  Compton-suppressed Ge detectors.                                       
+#G E$2005Lu21 state 0.1 keV as the systematic uncertainty in energy       
+#G determination.                                                         
+#G RI$Uncertainty varies from 3% for strong transitions to 20% for        
+#G weaker ones. When no intensity is listed, the peak has very small      
+#G intensity or overlapped by other transitions                           
+#G E(X)$From |b decay studies, not seen by 2005Lu21.                      
+#L E$From least-squares fit to E|g's                                      
+#L BAND(A)$ 5/2[422], |a=+1/2                                             
+#L BAND(a)$ 5/2[422], |a=-1/2                                             
+#L BAND(B)$ 3/2[301] BAND                                                 
+#P 0.0          0+                2.645 Y  8                              
+

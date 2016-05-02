@@ -1,0 +1,78 @@
+# 77KR    77RB EC DECAY (3.78 M)        1975BAWR,1975LI13,1975WE2312NDS    201206
+#  77RB EC DECAY (3.78 M)        1975BAWR,1975LI13,1975WE2312NDS    201206
+#H TYP=FUL$AUT=BALRAJ SINGH, NINEL NICA$CIT=NDS 113, 1115 (2012)$         
+#H CUT=30-Mar-2012$                                                       
+#  Main references: 1975BaWR, 1975Li13, 1975We23, 1975Bo52                
+#  1975We23 and 1975Bo52 report only intense G transitions                
+#  The level scheme is mainly from GG data of 1975BaWR and 1975Li13       
+#  Others: 1986Ho22, 1980DeZB, 1979SpZZ, 1976ScZK, 1976BaYW, 1974No08,    
+#  1972DiZK, 1972De40, 1972Ar02, 1971Do01                                 
+#  Total decay energy of 5385 keV {I505} deduced (by RADLIST code) from   
+#  proposed decay scheme is in agreement with the expected value of       
+#  5339 keV {I3}, indicating that decay scheme is well established        
+#E           B+ measurements: 1975BaWR, 1975Li13                          
+#E           B+G measurement: 1975We23, 1982Mo10                          
+#E           Q value from total GAMMA-absorption: 1993Al03                
+#E           Measured B+ endpoint energy: 3860 150 (1975Li13),            
+#E 3975 120 (1975BaWR) (both BETA+ singles measurements. These values     
+#E together with the adopted Q value do not show the strongest            
+#E BETA+ feeding to 66 level as given in the decay scheme. The            
+#E discrepancy could be due to errors in these E(BETA+) values or         
+#E in the BETA+ feeding to 66 level).                                     
+#E TI$ From |g-ray intensity balance, assuming <30% |b feeding to g.s.    
+#E based on log {Ift}>5.9 for first-forbidden transition                  
+#G E,RI$Weighted average of 1975BaWR, 1975Li13, 1975We23 and 1975Bo52. In 
+#G some cases uncertainties quoted by 1975BaWR are unrealistically low.   
+#G The evaluators have increased these to 0.1 KEV for EG and 5% for RI    
+#G M,MR$ From ^Adopted ^Gammas, unless otherwise stated or assumed for    
+#G the purpose of |g-ray intensity balance                                
+#G E(A)$G reported by 1975Li13 only.                                      
+#G E(B)$G reported by 1975BaWR only.                                      
+#G E(F)$Placed between 500 and 460 levels (1975Li13); however,            
+#G evaluators consider this placement unlikely from adopted JPI values of 
+#G 7/2- and 1/2- for 500 and 460 levels, respectively                     
+#G E(H),RI(H)$From GG data of 1975BaWR. A doublet is proposed             
+#G near this energy.                                                      
+#G E(J)$Placement from 1975Li13. GG data of 1975BaWR support main         
+#G placement with 2026 level                                              
+#L E$From least-squares fit to EG data                                    
+#L J$From Adopted Levels                                                  
+#L E(A)$From 1975Li13 only                                                
+#L E(B)$From 1975BaWR only                                                
+#P    0.0         3/2-            3.78 M   4              5339.0    24    
+RB77 KR77 beta+ 5.339 0.0 1.0
++B beta+ 8.761999999999999E-4 0.001031
++B beta+ 1.9839 0.02
++G gamma 0.06652 0.57
++B beta+ 1.9518 0.02
++B beta+ 1.9198 0.02
++B beta+ 1.8658 0.02
++B beta+ 1.7629000000000001 0.02
++B beta+ 1.7439 0.02
++B beta+ 1.7066 0.02
++B beta+ 1.6599000000000002 0.02
++B beta+ 1.6411 0.02
++B beta+ 1.6320999999999999 0.02
++B beta+ 1.6255 0.02
++B beta+ 1.6048 0.02
++B beta+ 1.5659 0.02
++B beta+ 1.5262 0.02
++B beta+ 1.4988 0.02
++B beta+ 1.4932 0.02
++B beta+ 1.4872 0.02
++B beta+ 1.4534 0.02
++B beta+ 1.4318 0.02
++B beta+ 1.3897 0.02
++B beta+ 1.3569 0.02
++B beta+ 1.2947 0.02
++B beta+ 1.2638 0.02
++B beta+ 1.1872 0.02
++B beta+ 1.1358 0.02
++B beta+ 1.1095 0.02
++B beta+ 1.0968 0.02
++B beta+ 1.0772 0.03
++B beta+ 1.0745 0.02
++B beta+ 1.0222 0.02
++B beta+ 0.6565 0.0027
++B beta+ 0.5732 0.0034999999999999996
+

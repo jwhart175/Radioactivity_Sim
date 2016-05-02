@@ -1,0 +1,29 @@
+#135I     248CM SF DECAY                2002SA02,1996ZH21         08NDS    200803
+#  248CM SF DECAY                2002SA02,1996ZH21         08NDS    200803
+#H TYP=FUL$AUT=BALRAJ SINGH, ALEXANDER A. RODIONOV and YURI L. KHAZOV$    
+#H CIT=NDS 109, 517 (2008)$CUT=22-Jan-2008$                               
+#  2002Sa02: Measured E|g, triple and higher-fold |g|g coin using         
+#  GAMMASPHERE array of Compton-suppressed Ge detectors                   
+#  1996ZH21, 1997Da15 (also 1997ZH14,1997BH06): measured EG, triple and   
+#  higher-fold GG coin using ^EUROGAM ^II array of 124 ^Ge detectors and  
+#  four ^LEPS detectors                                                   
+#  Both studies (2002Sa02 and 1996Zh21) are by the same group.            
+#  Other: 2005Ur01                                                        
+#  All data taken here are from 2002Sa02                                  
+#G E$Uncertainty of 0.2 keV is assigned for I|g>0.5 and                   
+#G 0.5 keV for I|g<0.5, based on a general comment by 2002Sa02            
+#G RI$Uncertainties are assigned as |? 20%, as suggested by 2002Sa02      
+#G E(X)$ This |g was not used in the fitting procedure since it is poorly 
+#G fitted.                                                                
+#G E(Z)$ Level-energy difference=948.7                                    
+#L E$From least-squares fit to E|g's. The 947.5|g from 5329.7 level       
+#L not used in the fitting procedure due to its poor fit.                 
+#L J$From shell-model predictions                                         
+#L E(A)$ From table II of 2002Sa02, not shown in authors' figure 2        
+#L E(G)$Member of |pg{-7/2}{+3} multiplet                                 
+#L E(H)$Member of |pg{-7/2}{+2}|ph{-11/2} multiplet                       
+#L E(F)$Member of |pg{-7/2}{+3}|nf{-7/2}|nh{-11/2}{+-1} multiplet         
+#L E(K)$Member of |pg{-7/2}{+3}|nf{-7/2}|nd{-3/2}{+-1} multiplet          
+#L E(Z)      Configuration=|p(g{-7/2}){+2}|pd{-5/2}                       
+#P 0            0+               3.48E+5 Y 6                              
+

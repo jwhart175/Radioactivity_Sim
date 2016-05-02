@@ -1,0 +1,24 @@
+# 80AS    80GE B- DECAY (29.5 S)        1981HO24,1972DE43,1991LE0905NDS    200508
+#  80GE B- DECAY (29.5 S)        1981HO24,1972DE43,1991LE0905NDS    200508
+#H TYP=FUL$AUT=BALRAJ SINGH$CIT=NDS 105, 223 (2005)$CUT=22-Jun-2005$      
+#            1981Ho24 (also 1980HoZN): measured |g, |g|g, T{-1/2}({+80}Ge)
+#            1972De43: measured |g, T{-1/2}({+80}Ge)                      
+#            1991Le09: mass separated source from {+238}U(p,F) and (d,F). 
+#  Measured |b, |b|g and yield                                            
+#            Others:                                                      
+#            Production and T{-1/2} of {+80}Ge: 1982FoZZ, 1981Gi17,       
+#  1981ZeZY, 1974KrZG, 1974Gr29, 1970OsZZ                                 
+#            |b{+-}, |b|g data: 1977Al17. Level scheme used by 1977Al17   
+#  was proposed by 1972MaWL                                               
+#            |b{+-} strength function (theory): 1981Al25                  
+#G E,RI$From 1981Ho24, unless otherwise stated                            
+#G E(B)$Reported by 1972De43 only, treated as uncertain (evaluator)       
+#L E$From least-squares fit to E|g's                                      
+#L J$From log| {Ift} values (from 0+)                                     
+#P    0         0+                29.5 S   4               2644     19    
++B beta- 1.1083 0.65
++B beta- 0.9832000000000001 0.27
++B beta- 0.7898 0.036000000000000004
++B beta- 0.6718999999999999 0.053
++B beta- 0.2646 0.0014000000000000002
+

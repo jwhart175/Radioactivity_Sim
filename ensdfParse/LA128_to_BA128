@@ -1,0 +1,114 @@
+#128BA    128LA EC DECAY (5.18 M)                                 15NDS    201510
+#  128LA EC DECAY (5.18 M)                                 15NDS    201510
+#H TYP=FUL$AUT=ZOLTAN ELEKES AND JANOS TIMAR$CIT=NDS 129, 191 (2015)$     
+#H CUT=28-Feb-2015$                                                       
+#  1977ZO02: 118SN(14N,4N) E=90 MEV, no chemical separation; measured EG, 
+#  RI, GG coincidence using Ge(Li), I(CE) using Si(Li), ICC; deduced      
+#  levels, LOGFT, J, PI.                                                  
+#  1997HA30: 115IN(16O,3N), E(16O)=61, 65, 69, 73 MEV, tape transport     
+#  system, HPGe; measured E(G), RI, GG coincidence, GG(THETA); excitation;
+#  deduced levels, LOGFT, J, PI.                                          
+#  2002Wo10:  116SN(16O,P3N), E(16O)=100 MEV,  tape transport system, 3   
+#  HPGe clover detectors; measured |g|g(|q), |g|g(|q)(lin pol) using 3    
+#  HPGe clover detectors; deduced Mult., MR, JPI                          
+#  2001As02: 94MO(36AR,XPYN) and {+nat}MO(36AR,XPYN), E(36AR)=195 MEV,    
+#  separated ^TIARA-^ISOL, tape transport system; measured |g|g(|q) using 
+#  5 n-type coaxial HPGe detectors; deduced Mult., MR, JPI                
+#E TI$Level feedings have been calculated by the evaluator assuming no    
+#E EC+B+ feeding to GS                                                    
+#G E$From 1977ZO02, unless otherwise noted                                
+#G RI$From 1997HA30, unless otherwise noted. Relative to I(284.10G)=100   
+#G E(A)$From 2002Wo10                                                     
+#G RI(B)$Deduced from branching given by 2002Wo10                         
+#G E(C)$From 1997HA30                                                     
+#G E(D)$Tentatively assigned to 128LA EC decay (1977ZO02). IG from        
+#G 1977ZO02                                                               
+#G M$From ECC in 1977ZO02 or from $(|g)(|g)(|q) (and (|g)(|g)(|q lin      
+#G pol)) in 2002Wo10, unless otherwise noted                              
+#L $The decay scheme is that proposed by 1977ZO02 on the basis of GG      
+#L coincidence and EG sums. However, levels at 2009.0, 2669.6, 2721.5 and 
+#L 3117.1, and their decay G's are those from 1997HA30. Levels at 943.0,  
+#L 1320.9, 1709.9 and 2218.9, and their decay G's are those from          
+#L 2002Wo10. The level at 2627.3 in 1977ZO02 is split into two levels at  
+#L 2625.7 and 2626.7 based on the decay scheme that was proposed by       
+#L 1997HA30                                                               
+#L E$From a least-squares fit to the E|g's                                
+#L J,T$From Adopted Levels                                                
+#G MR$IF NO VALUE GIVEN IT WAS ASSUMED MR=0.10 FOR E2/M1, MR=1.00 FOR     
+#G E3/M2 AND MR=0.10 FOR THE OTHER MULTIPOLARITIES                        
+#  CC$FROM BrIcc v2.3b (16-Dec-2014) 2008Ki07, "Frozen Orbitals" appr.    
+#P 0.0          (5+)              5.18 M    14             6.75E+3  5     
++B beta+ 7.99E-4 0.00156
++B beta+ 2.286 6.8E-4
++B beta+ 1.996 9.7E-4
++B beta+ 1.979 9.9E-4
++B beta+ 1.794 0.00126
++B beta+ 1.778 0.0012900000000000001
++B beta+ 1.743 0.00135
++B beta+ 1.732 0.0013700000000000001
++B beta+ 1.728 0.0013800000000000002
++B beta+ 1.681 0.00147
++B beta+ 1.617 0.00161
++B beta+ 1.609 0.0016300000000000002
++B beta+ 1.604 0.00164
++B beta+ 1.584 0.00169
++B beta+ 1.514 0.00188
++B beta+ 1.506 0.0019
++B beta+ 1.5 0.00192
++B beta+ 1.488 0.0019500000000000001
++B beta+ 1.477 0.00198
++B beta+ 1.451 0.0020599999999999998
++B beta+ 1.432 0.00212
++B beta+ 1.406 0.00221
++B beta+ 1.406 0.00221
++B beta+ 1.386 0.00228
++B beta+ 1.362 0.0023599999999999997
++B beta+ 1.351 0.00241
++B beta+ 1.303 0.0025900000000000003
++B beta+ 1.289 0.00265
++B beta+ 1.266 0.0027500000000000003
++B beta+ 1.244 0.0028399999999999996
++B beta+ 1.243 0.0028499999999999997
+
+#128BA    128LA EC DECAY (LT 1.4 M)     1997AS05                  15NDS    201510
+#  128LA EC DECAY (LT 1.4 M)     1997AS05                  15NDS    201510
+#H TYP=FUL$AUT=ZOLTAN ELEKES AND JANOS TIMAR$CIT=NDS 129, 191 (2015)$     
+#H CUT=28-Feb-2015$                                                       
+#  1997AS05: {+nat}Mo+{+36}Ar, E=195 MEV; La isomer from 128CE EC decay;  
+#  on-line mass separation; G, GG, GG(THETA), G(T); 5 HPGe detectors      
+#  1992SIZZ: 116SN(14N,2N); B(E2)                                         
+#E TI$From 1997AS05, unless otherwise noted. For intensity per 100        
+#E decays, multiply by 0.1444.                                            
+#G E$From 1997AS05, unless otherwise noted. Uncertainties are assumed by  
+#G evaluator                                                              
+#G E(A)$From 1992SIZZ. RI are calculated from relative B(E2)(378.5G)=100  
+#G (evaluator)                                                            
+#G E(B)$From Adopted Gammas                                               
+#G M$From GG(THETA) and decay scheme                                      
+#L $The decay scheme is on the basis results of GG-coincidence and EG     
+#L sums from 1997AS05. Levels at 763.3, 884.5, and 1321.6 are added on    
+#L the bases of results from 1992SIZZ                                     
+#L E$E(levels) are based on a least-squares fit to the E|g's              
+#L J,T$From Adopted Levels                                                
+#G MR$IF NO VALUE GIVEN IT WAS ASSUMED MR=0.10 FOR E2/M1, MR=1.00 FOR     
+#G E3/M2 AND MR=0.10 FOR THE OTHER MULTIPOLARITIES                        
+#  CC$FROM BrIcc v2.3b (16-Dec-2014) 2008Ki07, "Frozen Orbitals" appr.    
+#                                                                         
+#  GG-angular correlation coefficient                                     
+#                  to  0 - 2 - 0 spin sequences (1997AS05)                
+#  ------------------------------------------------------------           
+#    cascade (KEV)             A2                 A4                      
+#  -------------------------------------------------------------          
+#    658.5G  - 284.1G       0.326(21)         1.086(38)                   
+#    1426G   - 284.1G       0.43(11)          0.96(19)                    
+#    1934.8G - 284.1G       0.259(35)         1.042(62)                   
+#    2345G   - 284.1G       0.51(9)           1.21(15)                    
+#  -------------------------------------------------------------          
+#P 0.0+X        (1+,2-)           1.4 M     LT             6.75E+3  5     
++B beta+ 1.179 0.00315
++B beta+ 2.603 4.0E-4
++B beta+ 2.153 8.0E-4
++B beta+ 1.55 0.59
++B beta+ 1.49 0.05
++B beta+ 1.359 0.14
+

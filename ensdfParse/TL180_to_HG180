@@ -1,0 +1,39 @@
+#180HG    180TL EC DECAY (1.09 S)       2011EL07                  15NDS    201506
+#  180TL EC DECAY (1.09 S)       2011EL07                  15NDS    201506
+#H TYP=FUL$AUT=E.A. MCCUTCHAN$CIT=NDS 126, 151 (2015)$CUT=1-Feb-2015$     
+#  2011El07: {+180}Tl activity produced from spallation of UC{-x} with    
+#  E(p)=1.4 GeV and separated with resonant laser ionization technique    
+#  and the High Resolution Separator. Measured E|g, I|g, |g|g, E(ce),     
+#  I(ce) using a Miniball cluster detector (consisting of three HPGe      
+#  crystals) and two Si detectors.                                        
+#  Other: 2013El08, deduced asymmetric fission of excited levels          
+#  populated in {+180}Tl decay.                                           
+#  The decay scheme is most likely incomplete, as the highest observed    
+#  level is at only |?2.5 MeV compared with the large Q value for the     
+#  decay (10.99 MeV). A total energy release of 9.6 MeV {I3} is           
+#  calculated for this decay scheme using the RADLST code, compared with  
+#  the effective Q value of 10.3 keV {I4}.                                
+#L E$From a least-squares fit to E|g by evaluator.                        
+#L J$From the Adopted Levels                                              
+#G E$Uncertainties taken as 0.2 keV for I|g>1.5% and 0.5 keV for          
+#G I|g|<1.5% from a general statement by 2011El07.                        
+#G RI$Intensities relative to I|g(434|g)=100; values do not include a     
+#G correction for summing.                                                
+#G M$From the Adopted Gammas                                              
+#E TI$From an intensity balance at each level. Feedings are considered    
+#E to be upper limits given the large Q value of the decay (10.99 MeV)    
+#E and the highest observed level at only |?2.5 MeV.                      
+#  CC$FROM BrIcc v2.3a (30-Jun-2013) 2008Ki07, "Frozen Orbitals" appr.    
+#P 0.0          (5-)              1.09 S    1              10990    60    
++B beta+ 1.7 0.00416
++B beta+ 4.276 8.0E-4
++B beta+ 4.12 8.799999999999999E-4
++B beta+ 4.037 9.2E-4
++B beta+ 4.028 9.299999999999999E-4
++B beta+ 3.894 0.001
++B beta+ 3.818 0.00105
++B beta+ 3.755 0.00109
++B beta+ 3.734 0.00111
++B beta+ 3.648 0.00117
++B beta+ 3.493 0.0012900000000000001
+

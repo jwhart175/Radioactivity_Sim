@@ -1,0 +1,68 @@
+# 88MO    88TC EC DECAY (6.4 S)         1996OD01                  14NDS    201401
+#  88TC EC DECAY (6.4 S)         1996OD01                  14NDS    201401
+#H TYP=FUL$AUT=E.A. McCutchan and A.A. Sonzogni$CIT=NDS 115, 135 (2014)$  
+#H CUT=1-Nov-2013$                                                        
+#  {+88}Tc activity produced by {+58}Ni({+32}S,pn), E=100-105 MeV.        
+#  Measured E|g, I|g, |g|g and |g|b coincidences, and T{-1/2} using two   
+#  HPGe detectors and one LEPS detector. Channel selection performed      
+#  with a tape transport system and a rotation disk. Also 1993OdZY,       
+#  1995ShZX. Single and coincident |g ray spectra are published in        
+#  1993OdZY.                                                              
+#  Other: 1992We02, {+88}Tc activity produced by {+58}Ni({+36}Ar,|apn),   
+#  E=145 MeV. Measured E|g, I|g in coincidence with delayed 511 keV       
+#  annihilation radiation.  Observed transitions depopulating the yrast   
+#  8+ and 7- levels in {+88}Mo.  Experimental setup not optimized for a   
+#  |b-decay study and thus the results are not adopted here.              
+#  With a Q value of 11 MeV and levels populated only up to 2.6 MeV, it   
+#  is likely that the decay scheme is incomplete and Log {|ft} and        
+#  I(|e+|b{++}) values should be considered approximate.                  
+#E LOGFT$Approximate values, from I(|e+|b{++}) and assuming x=0.0         
+#G $The gamma intensities are obtained from a mixed source experiment,    
+#G assuming that the 6.4 s isomer only feeds the 2627 and the 2101        
+#G levels, while the 5.8 s isomer only feeds the 1655 and the 741         
+#G levels. Alternatively, the 6.4 s isomer could feed only the 2627       
+#G level, while the 5.8 s isomer could feed the 2101, 1655, and 741       
+#G levels. The mixed source intensities are 100 % (740.5|g), 44 % {I6}    
+#G (914.2|g), 6 % {I3} (445.9|g), 19 % {I4} (972.1|g)                     
+#G TI$From I(|e+|b{++}) values                                            
+#G M$From the Adopted Gammas                                              
+#L J,T$From the Adopted Levels                                            
+#  CC$ FROM BrIcc v2.2b (20-Jan-2009) 2008Ki07, "Frozen Orbitals" appr.   
+#P X            (5+,6+,7+)        6.4 S     8              1.101E4  15    
++B beta+ 0.778 0.00261
++B beta+ 3.22 7.5E-5
+
+# 88MO    88TC EC DECAY (5.8 S)         1996OD01                  14NDS    201401
+#  88TC EC DECAY (5.8 S)         1996OD01                  14NDS    201401
+#H TYP=FUL$AUT=E.A. McCutchan and A.A. Sonzogni$CIT=NDS 115, 135 (2014)$  
+#H CUT=1-Nov-2013$                                                        
+#  {+88}Tc activity produced by {+58}Ni({+32}S,pn), E=100-105 MeV.        
+#  Measured E|g, I|g, |g|g and |g|b coincidences, and T{-1/2} using two   
+#  HPGe detectors and one LEPS detector. Channel selection performed      
+#  with a tape transport system and a rotation disk. Also 1993OdZY,       
+#  1995ShZX. Single and coincident |g ray spectra are published in        
+#  1993OdZY.                                                              
+#  Other: 1992We02, {+88}Tc activity produced by {+58}Ni({+36}Ar,|apn),   
+#  E=145 MeV. Measured E|g, I|g in coincidence with delayed 511 keV       
+#  annihilation radiation.  Observed transitions depopulating the yrast   
+#  8+ and 7- levels in {+88}Mo.  Experimental setup not optimized for a   
+#  |b-decay study and thus the results are not adopted here.              
+#  With a Q value of 11 MeV and levels populated only up to 1.7 MeV, it   
+#  is likely that the decay scheme is incomplete and Log {|ft} and        
+#  I(|e+|b{++}) values should be considered approximate.                  
+#E LOGFT$Approximate values, from I(|e+|b{++}) and assuming y=0.0         
+#G $The gamma intensities are obtained from a mixed source experiment,    
+#G assuming that the 6.4 s isomer only feeds the 2627 and the 2101        
+#G levels, while the 5.8 s isomer only feeds the 1655 and the 741         
+#G levels. Alternatively, the 6.4 s isomer could feed only the 2627       
+#G level, while the 5.8 s isomer could feed the 2101, 1655, and 741       
+#G levels.  The mixed source intensities are 100 % (740.5|g), 44 % {I6}   
+#G (914.2|g), 6 % {I3} (445.9|g), 19 % {I4} (972.1|g)                     
+#G M$From the Adopted Gammas                                              
+#G TI$From I(|e+|b{++}) values                                            
+#L J,T$From the Adopted Levels                                            
+#  CC$FROM BrIcc v2.3a (30-Jun-2013) 2008Ki07, "Frozen Orbitals" appr.    
+#P Y            (2+,3+)           5.8 S     2              1.101E4  15    
++B beta+ 2.963 9.499999999999999E-5
++B beta+ 4.388 3.0E-5
+

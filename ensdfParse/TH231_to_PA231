@@ -1,0 +1,57 @@
+#231PA    231TH B- DECAY                1975HO14,1973BR12,1999CH1213NDS    201306
+#  231TH B- DECAY                1975HO14,1973BR12,1999CH1213NDS    201306
+#H TYP=FUL$AUT=E. BROWNE, J. K. TULI$CIT=NDS 114, 751 (2013)$             
+#H CUT=24-May-2013$                                                       
+#  Modified by E. Browne (Sept. 27, 2012) BRICC, LOGFT, RADLST.           
+#  Other measurements: 1973TE06, 1971KO48, 1971AR49                       
+#B IB$From G-ray transition intensity balance, unless stated otherwise.   
+#G CC$ FROM BrIcc v2.2 (31-Mar-2008) 2008KiAA, "Frozen Orbitals" appr.    
+#G           Experimental Pa XK intensities: 0.38 3 (XKA2),               
+#G 0.64 4 (XKA1), and 0.23 2 (XKB) (weighted averages of values from      
+#G 1999CH12 and 1973BR12) compare with 0.36 4 (XKA2), 0.58 7 (XKA1),      
+#G and 0.28 4 (XKB), respectively, calculated by evaluators (using the    
+#G computer program RADLST) from |g-ray intensities and K-conversion      
+#G coefficients presented here, and using a K-fluorescence yield of       
+#G 0.970 4 (1996SC06). This agreement shows that most |g rays with        
+#G energies greater than 112.6 keV (the K-binding energy in Pa) have      
+#G accurate intensities and correct multipolarities.                      
+#G           Q-=391.6 15 from mass tables (2012Wa38) compares with a      
+#G total average radiation energy of 377 keV, calculated by evaluators    
+#G using the computer program RADLST, and separately adding the           
+#G contribution (17 keV) from low-energy strongly converted |g-ray        
+#G transitions of 9.2-, 10.2-, 17.2-, 18.0-, and 19.1 keV. These results  
+#G support the consistency and completeness of the decay scheme.          
+#G E         From 1975HO14, unless otherwise specified.                   
+#G E(B)      From 1979BO30 curved cryst. |DE does not include a           
+#G systematic error (=2 x E-5 x EG) relative to an absolute standard.     
+#G M$Determined from |a(exp) using |a(L3)=50.9 for 58.6|g (E2) (1975HO14).
+#G M(D)$From CE intensity limits (1975HO14)                               
+#G RI$Weighted average (Limited Statistical Weight) of values from        
+#G 1999CH12, 1975HO14, 1973TE06, and 1973BR12,                            
+#G unless otherwise specified.                                            
+#G           See 1977BA72 for uncertain weak G rays at 26.55-, 29.30-,    
+#G 32.73-, 33.32-, 38.90-, 41.55-, 42.22-, 45.34-, 85.80-, 97.55-,        
+#G 106.85-, 173.0-, 224.1-, and 237.8 keV, observed by these authors      
+#G only.                                                                  
+#G CC$Values for [M1+E2] G rays assume MR=1.0, unless otherwise           
+#G specified.                                                             
+#L E$Deduced by evaluators from a least-squares fit to |g-ray energies.   
+#L J         From 1975HO14                                                
+#L T         From Adopted Levels                                          
+#P 0            5/2+             25.52 H   1               391.6    15    
++G gamma 0.17765999999999998 6.270000000000001E-7
++B beta- 0.1114 2.1999999999999998E-4
++B beta- 0.09309999999999999 0.0033
++B beta- 0.0873 0.0033
++B beta- 0.0853 0.32
++G gamma 0.02564 0.14124
++B beta- 0.08009999999999999 0.4
++B beta- 0.0798 0.12
++B beta- 0.0586 0.013000000000000001
++B beta- 0.0559 0.121
++B beta- 0.046 0.003
++B beta- 0.0378 0.026000000000000002
++B beta- 0.018699999999999998 7.8E-6
++B beta- 0.0181 6.5E-4
++B beta- 0.009800000000000001 3.0E-5
+

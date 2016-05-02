@@ -1,0 +1,38 @@
+# 61FE    61MN B- DECAY (0.709 S)       2013RA17,1985RU05         15NDS    201503
+#  61MN B- DECAY (0.709 S)       2013RA17,1985RU05         15NDS    201503
+#H TYP=FUL$AUT=KAZIMIERZ ZUBER, BALRAJ SINGH$CIT=NDS 125, 1 (2015)$       
+#H CUT=25-Jan-2015$                                                       
+#  2013Ra17: {+61}Mn produced in induced fission of uranium at ISOLDE-CERN
+#  facility. E(proton)=1.4 GeV beam impinged a UC{-x} target of thickness 
+#  45 g/cm{+2}. Reaction products where ionized by RILIS and              
+#  separated based on their A/Q ratio using a High-Resolution Separator.  
+#  {+61}Mn obtained in the reaction was implanted on an aluminized mylar  
+#  tape for the decay. Measured E|g, I|g, |g|g-coin, half-life using      
+#  three plastic |DE |b detectors and two MiniBall |g-detector clusters.  
+#  Deduced levels, J, |p, |b feeding intensities, log| {Ift}. Comparison  
+#  with {+59}Fe data, and with shell-model calculations.                  
+#  1985Ru05: first identification of {+61}Mn from fragmentation of {+82}Se
+#  beam at 11.5 MeV/nucleon on tungsten target using on-line mass         
+#  separator. Measured E|g, I|g, |b|g-, |g|g-coin, and T{-1/2} by Ge(Li)  
+#  and plastic scintillator. Three excited states at 207, 391 and 629 keV 
+#  were proposed through the observation of five |g rays                  
+#  1999Ha05: 1-GeV proton -induced spallation of uranium UC{-2} target    
+#  at ISOLDE-CERN facility. The laser ionized Mn isotopes were extracted  
+#  from the ion source and mass separated. Using tape systems measured    
+#  |b-delayed neutron multiscaling, E|g and |g|g coincidence. |b-delayed  
+#  neutron data were collected by multiscaling measurements using         
+#  Mainz 4|p He neutron counter.                                          
+#  All data are from 2013Ra17                                             
+#  From RADLIST code, deduced total decay energy is 5962 keV {I841}       
+#  as compared to Q(|b{+-})=7178 keV {I3}, which suggests that the decay  
+#  scheme is not known well                                               
+#G RI(A)$From |g|g-coin data; transition not seen in singles spectrum     
+#L E$From least-squares fit to E|g values. Reduced                        
+#L |h{+2}=2.1 is somewhat larger than critical |h{+2}=1.7                 
+#L J$From Adopted Levels. Most of the assignments are based on shell-model
+#L calculations using GXPF1A interaction corroborated                     
+#L by |b feedings and associated log| {Ift} values, and also comparison   
+#L with the decay scheme of {+59}Mn to {+59}Fe                            
+#P 0.0         (5/2-)            0.709 S   8              7178      3     
+MN61 FE61 beta- 7.178 0.709 1.0
+

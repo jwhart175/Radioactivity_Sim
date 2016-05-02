@@ -1,0 +1,22 @@
+#126XE    126I B- DECAY                 1977JA04,1998FO05         02NDS    200301
+#  126I B- DECAY                 1977JA04,1998FO05         02NDS    200301
+#H TYP=FUL$AUT=J. KATAKURA AND K. KITAO$CIT=NDS 97, 765 (2002)$           
+#H CUT=5-Apr-2002$                                                        
+#  Changed parent T1/2 to adopted value - JKT- 11/95                      
+#  1977Ja04: 127I(N,2N), COMPTON suppression spectrometer, semi G.        
+#  1976Sa28: 126TE(P,N) MASS SEPARATIONS; GG(THETA,H,T).                  
+#  1998FO05: 127I(N,2N); HPGe, SCIN, PC G, B, XK; 4PIBG, XG COIN          
+#  See also 126I EC decay.                                                
+#G E         From 1977Ja04. The evaluators have added 10 EV in            
+#G quadrature to the uncertainties of 1977Ja04 to account for             
+#G the uncertainty in calibration.                                        
+#G RI        FROM 1998FO05                                                
+#G M         GG(THETA) data from 1959Sa05, 1960As04, 1971Gr14,            
+#G and 1971Ta04                                                           
+#L J         Spin and parity values are those given under adopted         
+#L levels.                                                                
+#P 0.0           2-              12.93 D    5              1258      5    
++B beta-7.71E-4 0.00179
++B beta- 0.2925 0.33399999999999996
++B beta- 0.11120000000000001 0.0362
+

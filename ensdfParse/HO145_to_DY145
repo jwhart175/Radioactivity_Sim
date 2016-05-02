@@ -1,0 +1,33 @@
+#145DY    145HO EC DECAY                1989VI02                  09NDS    200902
+#  145HO EC DECAY                1989VI02                  09NDS    200902
+#H TYP=FUL$AUT=E. BROWNE, J. K. TULI$CIT=NDS 110, 507 (2009)$             
+#H CUT=1-Oct-2008$                                                        
+#  Measured: G, GG, XKG, G+-                                              
+#  IE(tot)/IB+=0.21 +14-6; IB+(from IG+-)/I(339.8G)=5.7 15                
+#  No delayed protons (no p-XK(DY), no p-G(144TB)) were observed          
+#  Because of very incomplete decay scheme IE, IB+, EAV are not given     
+#  XKA2/339.8G=0.68 5, XKA1/339.8G=1.20 10                                
+#G CC$ FROM BrIcc v2.2 (31-Mar-2008) 2008KiAA, "Frozen Orbitals" appr.    
+#P 0.0         (11/2-)           2.4 S     1              9110      SY    
+HO145 DY145 beta+ 9.11 2.4 1.0
++G gamma 0.24919999999999998 0.0075
++G gamma 0.31510000000000005 0.018
++G gamma 0.31660000000000005 0.012
++G gamma 0.0663 0.0225
++B beta+ 2.572 0.001
++G gamma 0.3398 0.15
++B beta+ 3.536 4.8E-4
++G gamma 0.31289999999999996 0.1425
++G gamma 0.5632999999999999 0.0225
++G gamma 0.30910000000000004 0.0375
++G gamma 0.3341 0.135
++G gamma 0.6221 0.0225
++B beta+ 3.385 5.3E-4
++G gamma 0.3876 0.0225
++G gamma 0.7005 0.03
++B beta+ 3.199 6.2E-4
++G gamma 0.4018 0.1275
++G gamma 0.5432 0.03
++G gamma 0.852 0.0075
++G gamma 0.4983 0.018
+

@@ -1,0 +1,18 @@
+#261RF    265SG A DECAY (14.4 S)        2012Ha05                  ENSDF    201508
+#  265SG A DECAY (14.4 S)        2012Ha05                  ENSDF    201508
+#H TYP=FUL$AUT=M. GUPTA$CIT=ENSDF$CUT=1-Aug-2015$                         
+#H TYP=FUL$AUT=M. GUPTA, THOMAS W. BURROWS$CIT=ENSDF$CUT=31-Dec-2008$     
+#H TYP=FUL$AUT=A.Artna-Cohen$CIT=NDS 88, 277 (1999)$CUT=31-Jul-1999$      
+#L $Both states in {+261}Rf are fed when                                  
+#L parent {+265}Sg is produced as an EVR.                                 
+#P X                             14.4 S    +37-25         9051      SY    
+SG265 RF261 alpha 9.051 14.4 1.0
+
+#261RF    265SG A DECAY (8.5 S)         2012Ha05                  ENSDF    201508
+#  265SG A DECAY (8.5 S)         2012Ha05                  ENSDF    201508
+#H TYP=FUL$AUT=M. GUPTA$CIT=ENSDF$CUT=1-Aug-2015$                         
+#H TYP=FUL$AUT=M. GUPTA, THOMAS W. BURROWS$CIT=ENSDF$CUT=31-Dec-2008$     
+#H TYP=FUL$AUT=A.Artna-Cohen$CIT=NDS 88, 277 (1999)$CUT=31-Jul-1999$      
+#P 152+X     71                  8.5 S     +26-16         9051      SY    
+SG265 RF261 alpha 9.051 8.5 1.0
+

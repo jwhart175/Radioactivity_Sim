@@ -1,0 +1,51 @@
+#127I     127TE B- DECAY (9.35 H)       1970AP02                  11NDS    201108
+#  127TE B- DECAY (9.35 H)       1970AP02                  11NDS    201108
+#H TYP=FUL$AUT=A. HASHIZUME$CIT=NDS 112, 1647 (2011)$CUT=1-Oct-2009$      
+#  1970Ap02: source {+126}Te(n,|g), semi |g, proportional counter |b      
+#  Others: 1956Kn20, 1965Au01, 1966Ne02, 1971Bu27                         
+#L E         From a least-squares fit to E(|g's)                          
+#L J,T       From adopted levels                                          
+#G E,RI      From 1970Ap02                                                
+#G CC$Theoretical conversion coefficients are calculated using BrIcc code 
+#G for the multipolarity and mixing ratio indicated.                      
+#G M,MR      From adopted levels, gammas                                  
+#P 0.0          3/2+             9.35 H    7              702        3    
+TE127 I127 beta- 0.702 33660.0 1.0
++B beta- 0.2278 0.9879000000000001
++G gamma 0.05763 2.9700000000000006E-4
++B beta- 0.153 2.7E-4
++G gamma 0.1452 3.2670000000000004E-5
++G gamma 0.2029 5.801400000000001E-4
++B beta- 0.09448999999999999 5.999999999999999E-6
++G gamma 0.1721 2.97E-6
++G gamma 0.375 2.97E-6
++B beta- 0.08072 0.011899999999999999
++G gamma 0.21509999999999999 3.870900000000001E-4
++G gamma 0.3603 0.0013464000000000002
++G gamma 0.4179 0.0099
++B beta- 0.02174 1.29E-6
++G gamma 0.6184 1.2870000000000001E-6
+
+#127I     127TE B- DECAY (106.1 D)      1970AP02                  11NDS    201108
+#  127TE B- DECAY (106.1 D)      1970AP02                  11NDS    201108
+#H TYP=FUL$AUT=A. HASHIZUME$CIT=NDS 112, 1647 (2011)$CUT=1-Oct-2009$      
+#  1970Ap02: source {+126}Te(n,|g), semi |g, proportional counter |b      
+#  Others: 1956Kn20, 1965Au01, 1966Ne02, 1971Bu27                         
+#  See also {+127}Te IT decay (106.1 d)                                   
+#L E         From a least-squares fit to E(|g's)                          
+#L J,T       From adopted levels                                          
+#G E,RI      From 1970Ap02                                                
+#G CC$Theoretical conversion coefficients are calculated using BrIcc code 
+#G for the multipolarity and mixing ratio indicated.                      
+#G M,MR      From adopted levels, gammas                                  
+#P 88.26      8 11/2-            106.1 D   7              702        3    
++B beta- 0.2559 1.0
++G gamma 0.05763 0.21200000000000002
++B beta- 0.053 3.6E-5
++G gamma 0.6286 3.6E-5
++B beta- 0.03719 0.00109
++G gamma 0.5932999999999999 9.6E-4
++G gamma 0.651 1.2E-4
++B beta- 0.01907 0.0052
++G gamma 0.6588999999999999 0.0052
+

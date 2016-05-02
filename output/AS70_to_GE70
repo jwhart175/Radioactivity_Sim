@@ -1,0 +1,92 @@
+# 70GE    70AS EC DECAY                 2002LI41,1968DE16         04NDS    200412
+#  70AS EC DECAY                 2002LI41,1968DE16         04NDS    200412
+#H TYP=FUL$AUT=J. K. Tuli$CIT=NDS 103, 389 (2004)$CUT=16-Jan-2004$        
+#  2002LI41: PRODUCED FROM 70GE(P,N), E=16 MEV. MEASURED G, GG, GG(T)     
+#  Ge DETECTORS.                                                          
+#  1992DE54: PRODUCED IN 56FE(16O,PN), MEASURED G(THETA), 7 GELI,         
+#  DEDUCED MR                                                             
+#  1968De16: produced from 70GE(D,2N); enriched target, chemical          
+#  separation; GE(LI) detectors; measured T1/2, EG, RI, GG coincidences.  
+#  1963Bo14: from 70GE(D,2N); natural and enriched targets, chemical      
+#  separation; NAI(TL) detector and BETA spectrometer; measured EG, RI,   
+#  GG coincidences, B+ spectrum, F-K plot analysis.                       
+#  Others: 1967Vi06, 1969Hi01                                             
+#  The decay scheme is from 2002Li41 based on earlier decay scheme of     
+#  1968De16.                                                              
+#E IE        From GAMMA intensity imbalance                               
+#G E(D),RI(D)$FROM COIN DATA                                              
+#G E(E)$Placement by 2002LI41                                             
+#G E(F)$NEW transition identified by 2002LI41                             
+#G E(G)$From 1968DE16, NOT REPORTED BY 2002LI41                           
+#G E$From 2002LI41, unless stated otherwise                               
+#G M,MR      From adopted G's. Values from 1992DE54 are given as          
+#G comments.                                                              
+#L J         From adopted levels                                          
+#L E$From least-squares fit to EG                                         
+#P 0.0         4+                52.6 M    3              6220      50    
+AS70 GE70 beta+ 6.22 3156.0 0.82
++G gamma 1.5078 0.0083
++G gamma 2.0956900000000003 7.000000000000001E-4
++G gamma 2.7815700000000003 0.0014000000000000002
++G gamma 3.12359 0.0014000000000000002
++G gamma 1.03949 1.0
++G gamma 0.17604 0.035
++G gamma 0.49208999999999997 0.0131
++G gamma 0.6682100000000001 0.26899999999999996
++G gamma 1.7076099999999999 0.213
++G gamma 0.44915 0.0017000000000000001
++G gamma 1.1136 0.251
++G gamma 0.45039999999999997 0.0016
++G gamma 0.9411 0.021
++G gamma 1.11728 0.034
++G gamma 2.15665 0.0058
++G gamma 0.29460000000000003 0.001
++G gamma 0.29788 0.0066
++G gamma 0.7436200000000001 0.27
++G gamma 1.41186 0.106
++G gamma 0.82724 0.0045000000000000005
++G gamma 1.49543 0.013999999999999999
++G gamma 1.5225499999999998 0.053
++G gamma 0.65315 0.006
++G gamma 1.09854 0.051
++G gamma 0.2399 0.0025
++G gamma 0.59511 0.22899999999999998
++G gamma 0.8897200000000001 0.032
++G gamma 0.8935 0.023
++G gamma 1.33876 0.11
++G gamma 2.0068699999999997 0.034
++G gamma 0.25246 0.033
++G gamma 0.49674 0.031
++G gamma 0.60734 0.053
++G gamma 0.90195 0.011899999999999999
++G gamma 0.90561 0.136
++G gamma 1.3509 0.005699999999999999
++G gamma 2.0191600000000003 0.20199999999999999
++G gamma 0.7602000000000001 0.003
++G gamma 1.58717 0.0039000000000000003
++G gamma 2.25516 0.0017000000000000001
++G gamma 1.21857 0.0019
++G gamma 2.3315900000000003 5.0E-4
++G gamma 0.9532999999999999 0.0053
++G gamma 1.03699 0.03
++G gamma 1.33158 0.004699999999999999
++G gamma 1.33528 0.0038
++G gamma 1.7805199999999999 0.047
++G gamma 2.44882 0.0036
++G gamma 1.41724 0.005
++G gamma 2.5317 3.0E-4
++G gamma 1.5232 0.011000000000000001
++G gamma 2.6361999999999997 0.0048
++G gamma 1.29524 0.0059
++G gamma 1.53929 0.0018
++G gamma 1.94421 0.0015
++G gamma 1.9483499999999998 0.0034999999999999996
++G gamma 1.19666 0.0032
++G gamma 2.41988 0.0012
++G gamma 2.42441 0.0014000000000000002
++G gamma 2.5218000000000003 3.4E-4
++G gamma 2.9680999999999997 7.000000000000001E-4
++G gamma 2.2193400000000003 0.002
++G gamma 1.8816700000000002 0.0084
++G gamma 2.3254200000000003 0.0018
+

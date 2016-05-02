@@ -1,0 +1,37 @@
+#216PO    216BI B- DECAY (2.25 M)       2000KU06                  07NDS    200705
+#  216BI B- DECAY (2.25 M)       2000KU06                  07NDS    200705
+#H TYP=FUL$AUT=S. -C. WU$CIT=NDS 108, 1057 (2007)$CUT=1-Mar-2007$         
+#  2000Ku06: {+216}Bi from {+232}Th(p, X), E=1 GeV;                       
+#  ISOLDE mass separator, tape transport; plastic detector, Ge detector;  
+#  Measured E|g, I|g, |g|g, T{-1/2} of {+216}Bi isotope.                  
+#  %|b{+-} feeding are not available, thus no log| {Ift} values are       
+#  calculated                                                             
+#L $The ground state of {+216}Bi mostly |b- decays to the 1551 level.     
+#L From the I|g and intensity balance, 2006Ku06 concluded the 1551 level  
+#L as a member of the yrast band resulting from the coupling              
+#L of the two protons at 1h{-9/2}. The energies of this band agree        
+#L with the systematics of even Po isotopes.                              
+#G M$From |g-intensity balance.                                           
+#L E$|D(E|g)=0.3 keV assumed in deducing level energies                   
+#L BAND(A)$ Yrast sequence.                                               
+#P         0    (6-,7-)          2.25 M    8              4090      11    
++G gamma 0.5497000000000001 1.0
++G gamma 0.4188 0.9309999999999999
++G gamma 0.3595 0.812
++G gamma 0.22340000000000002 0.732
++G gamma 0.14780000000000001 0.055999999999999994
++G gamma 0.2512 0.191
++G gamma 0.32239999999999996 0.037000000000000005
++G gamma 0.42869999999999997 0.017
++G gamma 0.4869 0.045
++G gamma 0.682 0.075
+
+#216PO    216BI B- DECAY (2.25 M+6.6 M) 1990RU02                  07NDS    200705
+#  216BI B- DECAY (2.25 M+6.6 M) 1990RU02                  07NDS    200705
+#H TYP=FUL$AUT=S. -C. WU$CIT=NDS 108, 1057 (2007)$CUT=1-Mar-2007$         
+#  1990Ru02: {+216}Bi from Th(p,X), E=200 MeV;                            
+#  measured E|g, I|g, |g|g-coin, X-ray spectra, |b-gating.                
+#L E         From E|g                                                     
+#G M$From adopted gammas                                                  
+#P1 0.0         (6-,7-)          2.25 M    8              4090      11    
+

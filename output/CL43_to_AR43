@@ -1,0 +1,32 @@
+# 43AR    43CL B- DECAY (3.13 S)        2006WI10,1998WIZX,1981HUZT15NDS    201506
+#  43CL B- DECAY (3.13 S)        2006WI10,1998WIZX,1981HUZT15NDS    201506
+#H TYP=FUL$AUT=BALRAJ SINGH AND JUN CHEN{+#}$CIT=NDS 126, 1 (2015)$       
+#H CUT=31-Mar-2015$                                                       
+#  2006Wi10: {+43}Cl isotope produced by fragmentation of a {+48}Ca beam  
+#  at 70 MeV/nucleon hitting a {+9}Be target. The fragments were          
+#  separated by A1200 fragment separator at NSCL, MSU facility.           
+#  Measured E|g, I|g, |g|g, |b, |b|g coin using two Ge detectors for      
+#  |g-rays and a plastic scintillator for |b-rays. Comparisons with       
+#  shell-model calculations                                               
+#  1998WiZX (also 1998WiZV): fragmentation of {+48}Ca beam                
+#  E({+48}Ca)=70 MeV/nucleon with a Be target. Measured |g, |g|g coin,    
+#  |b|g|g coin                                                            
+#  {+43}Cl identification and production: 1991Zh24 (also 1990Tu01),       
+#  1981Vo04, 1976Ka24.                                                    
+#  Evaluators consider the decay scheme to be incomplete in view of       
+#  several uncertain placements of |g transitions and unaccounted         
+#  28% {I10} |b feeding                                                   
+#B $There is a total of 28% {I10} unidentified |b feeding (2006Wi10).     
+#B Up to 8% can be associated with feeding to the ground state.           
+#B It is possible that some of the unidentified feeding is associated     
+#B with |b-delayed neutron decay of {+43}Cl                               
+#G E,RI$From 2006Wi10, unless otherwise stated                            
+#G E(A)$From 1981HuZT only                                                
+#G E(B)$From 1998WiZX only                                                
+#L E$From least-squares fit to E|g data.                                  
+#L J(D)$From Adopted Levels. 1998WiZX suggested 5/2- or 7/2-              
+#L J(E)$From shell-model prediction                                       
+#L J(F)$Allowed |b-decay from (1/2+) parent                               
+#P 0           (1/2+)            3.13 S    9              7.69E3    10    
+CL43 AR43 beta- 7.69 3.13 1.0
+

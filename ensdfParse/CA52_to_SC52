@@ -1,0 +1,25 @@
+# 52SC    52CA B- DECAY                 1985HU03                  15NDS    201509
+#  52CA B- DECAY                 1985HU03                  15NDS    201509
+#H TYP=FUL$AUT=YANG DONG, HUO JUNDE$CIT=NDS 128, 185 (2015)$              
+#H CUT=10-Jul-2015$                                                       
+#  Sources: produced by the fragmentation of a U target with 600-MeV      
+#  proton beam, on-line mass separation, measured E|g, I|g, |b|g coin,    
+#  Ge(Li) and |b telescope (0.5 mm scintillator sheet).                   
+#B IB        From |g(+ce) intensity balance at each level.                
+#G RI        Photon intensity relative to I|g=100 for the strongest       
+#G transition. Uncertainties deduced from authors' quoted                 
+#G uncertainties on I|b's                                                 
+#L J         Based on Logft values and shell model calculations.          
+#P 0.0          0+                4.6 S     3              5.90E3   14    
++B beta- 3.342 0.05
++G gamma 0.6752 0.624
++B beta- 2.87 0.868
++G gamma 0.9612 0.49920000000000003
++G gamma 1.6364 0.35568
++B beta- 2.327 0.11199999999999999
++G gamma 2.0704000000000002 0.11231999999999999
++B beta- 1.98 0.006
++G gamma 3.458 0.00624
++B beta- 1.588 0.013999999999999999
++G gamma 4.2655 0.013728
+

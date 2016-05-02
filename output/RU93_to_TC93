@@ -1,0 +1,107 @@
+# 93TC    93RU EC DECAY (59.7 S)        1976DE37                  11NDS    201105
+#  93RU EC DECAY (59.7 S)        1976DE37                  11NDS    201105
+#H TYP=FUL$AUT=CORAL M. BAGLIN$CIT=NDS 112, 1163 (2011)$CUT=15-Dec-2010$  
+#  Others: 1983Ay01, 1972Do04.                                            
+#  1976DE37: GE(LI) detectors; MEASURED EG, IG, GG COIN (time resolution  
+#  50 NS FWHM).                                                           
+#E TI        FROM TI IMBALANCE AT EACH LEVEL.                             
+#E TI(B)     %EC+%B+ TO (GS+393 level) IS 90.9 6. Because J differs by 4  
+#E for these levels, the feeding to one must be first forbidden unique    
+#E or higher; feeding to the other would then be allowed                  
+#E (E.G., for 393 level, I(EC+B+)<2.5% if LOGF1UT>8.5 and, for GS,        
+#E LOGFT<5.9 provided that I(EC+B+)>23%).  The observed feeding to the    
+#E (7/2+) 681 level with LOGFT=6.25 5 rules out an allowed transition to  
+#E the (1/2)- 393 level. Thus, JPI(93RU) GE 7/2+ and feeding              
+#E to the (1/2)- 393 level can be ignored.                                
+#G E,RI      FROM 1976DE37.                                               
+#G M,MR      FROM Adopted Gammas.                                         
+#G E(A)      Not coincident with any G or G+- (1976De37).                 
+#L E         FROM LEAST-SQUARES FIT TO EG.                                
+#L J         FROM Adopted Levels.                                         
+#L T         From FWHM=50 NS time resolution for GG coin (1976DE37).      
+#L E(A)      Intensity balance at this level is 0.013% 23.                
+#P        0    (9/2)+            59.7 S    6              6391       6    
+RU93 TC93 beta+ 6.391 59.7 0.0059
++G gamma 0.7894 0.102
++G gamma 1.969 0.111
++G gamma 2.3134 0.23
++G gamma 2.9021 0.11199999999999999
++G gamma 2.9295999999999998 0.1
++G gamma 3.1518 0.195
++G gamma 3.3318000000000003 0.37
++G gamma 3.4185 0.255
++G gamma 3.4344 0.10400000000000001
++G gamma 3.5093 0.11
++G gamma 0.6807000000000001 10.0
++G gamma 1.1941 0.63
++G gamma 1.0159 0.72
++G gamma 1.4349 1.23
++G gamma 1.8014000000000001 0.64
++G gamma 0.5612 0.204
++G gamma 1.2887 0.132
++G gamma 0.7259 0.14300000000000002
++G gamma 0.7112999999999999 0.092
++G gamma 2.2577 0.36
++G gamma 1.6587 0.053
++G gamma 2.3387 0.14
++G gamma 1.8095999999999999 0.034
++G gamma 1.9505 0.132
++G gamma 1.576 0.08900000000000001
++G gamma 2.7204 0.218
++G gamma 3.9147 0.53
++G gamma 3.4773 0.036000000000000004
++G gamma 4.1585 0.151
++G gamma 4.1873000000000005 0.146
++G gamma 4.3443000000000005 0.054000000000000006
++G gamma 4.3895 0.215
++G gamma 3.928 0.05
++G gamma 4.608899999999999 0.102
++G gamma 4.6189 0.141
++G gamma 2.3297 0.08199999999999999
++G gamma 3.2343 0.516
++G gamma 3.988 0.2
++G gamma 4.668100000000001 0.158
++G gamma 4.0801 0.035
++G gamma 4.759600000000001 0.006
++G gamma 4.0943000000000005 0.06
++G gamma 4.775 0.006
++G gamma 4.2572 0.040999999999999995
++G gamma 4.9375 0.018000000000000002
++G gamma 4.954899999999999 0.065
++G gamma 4.104100000000001 0.03
++G gamma 5.297899999999999 0.019
+
+# 93TC4C  FED (WEAKLY) BY 93RU EC DECAY (10.8 S). In the FWHM=20 KEV spectrum of 
+#  FED (WEAKLY) BY 93RU EC DECAY (10.8 S). In the FWHM=20 KEV spectrum of 
+#  fig. 1 of 1983AY01, at least SIX proton groups are evident. The        
+#  evaluator estimates EP values of 1.93, 2.07, 2.25, 2.48, 2.56 AND 2.65 
+#  MEV FOR THESE, IMPLYING 93TC LEVELS AT 6.04, 6.18, 6.36, 6.59, 6.67    
+#  AND 6.77 MEV, ONLY ONE OF WHICH IS OTHERWISE KNOWN.  1983AY01 MENTION  
+#  PROMINENT p GROUPS AT 2481 5, 2534 AND 2557 ONLY, AND CALCULATE E(93TC)
+#  FOR ONLY THE 2481P EMITTING LEVEL.  IF A 2534P EXISTS, IT IS UNRESOLVED
+#  FROM THE 2557P IN FIG. 1 AND COULD HARDLY BE DESCRIBED AS 'PROMINENT', 
+#  SO THIS EP MAY CONTAIN A TYPOGRAPHICAL ERROR.  IN VIEW OF THE          
+#  UNCERTAIN EP DATA, ONLY THE LEVEL EMITTING THE STRONGEST P GROUP       
+#  HAS BEEN ADOPTED.                                                      
+#E TI(A)     I(EC+B+)(GS+393 level)=9 25 from IB+(total)=195 25 (relative 
+#E to I(1396G)=100) and intensity imbalance for E(level)>393              
+#E assuming IE/IB from theory; thus, %(IE+IB+)=3 10 to (GS+393).          
+#E Since decay to JPI=1/2-,3/2- level at 1788 KEV is allowed,             
+#E decay to 9/2+ GS is at least first forbidden unique, so                
+#E (IE+IB+)(GS)<1.2% (from LOGFT>8.5),                                    
+#E leaving (IE+IB+)=2% 10 for 393 level.                                  
+#L E         FROM LEAST-SQUARES FIT TO EG, EXCEPT AS NOTED.               
+#L J         FROM Adopted Levels.                                         
+#G E,RI      FROM 1976DE37.  IG IS INTENSITY RELATIVE TO I(1396G)=100.    
+#G           1976De37 detect no additional G rays with EG LE 5000 and     
+#G T AP 10.8 S.                                                           
+#P   734.4   1 (1/2)-            10.8 S    3              6391       6    
+RU93 TC93 beta+ 6.391 10.8 0.494
++G gamma 1.0159 0.018000000000000002
++G gamma 1.1112 0.68
++G gamma 1.3962 1.0
++G gamma 0.6429 0.012
++G gamma 0.9282999999999999 0.043
++G gamma 1.023 0.018000000000000002
++G gamma 2.0391 0.239
+

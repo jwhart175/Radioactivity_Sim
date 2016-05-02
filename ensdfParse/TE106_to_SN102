@@ -1,0 +1,27 @@
+#102SN    106TE A DECAY                                           09NDS    200908
+#  106TE A DECAY                                           09NDS    200908
+#H TYP=FUL$AUT=D. DE FRENNE$CIT=NDS 110, 1745 (2009)$CUT=31-Dec-2008$     
+#  T{-1/2}({+106}Te)=60 |ms {I+30-10} was measured by 1981Sc17, 60 |ms    
+#  {I+40-20} by 1994Pa11. T{-1/2}({+106}Te)=60 |ms {I30} is used in       
+#  calculations here.                                                     
+#                                                                         
+#  %|a({+106}Te)=100. Any possible |e decay of {+106}Te is taken as       
+#  negligible; by using the gross |b-decay theory, 1973Ta30 calculated    
+#  T{-1/2}(|e decay)>0.1 s. This partial half-life yields %|e<0.06.       
+#                                                                         
+#  The calculations by P. Moller, J. R. Nix and                           
+#  k.-L. Kratz (1997Mo25) give T{-1/2}(|b{++})=1.58 s,                    
+#  T{-1/2}(|a)=2.19|*10{+-13} s.                                          
+#                                                                         
+#  The calculation of P. Mohr (2007Mo03) using  double-folding potentials 
+#  gives T{-1/2}({+106}Te)=8.66|*10{+-6} s.                               
+#                                                                         
+#  Q(|a)({+106}Te)=4290 {I9} is recommended by 2003Au03. The E(|a) value  
+#  of 4128 {I9}, measured by 1994Pa11, was used as input in their mass    
+#  adjustment.                                                            
+#A IA        |a intensity per 100 |a decays.                              
+#A HF        r{-0}({+102}Sn)=1.70 {I4} is computed from HF(4128|a)=1.0.   
+#P 0.0         0+                60 US     30             4290      9     
+TE106 SN102 alpha 4.29 6.0E-5 1.0
++A alpha 4.128 1.0
+

@@ -1,0 +1,24 @@
+#176RE    176OS EC DECAY                1970DEZF,1968KOZW         06NDS    200602
+#  176OS EC DECAY                1970DEZF,1968KOZW         06NDS    200602
+#H TYP=FUL$AUT=M.S. BASUNIA$CIT=NDS 107, 791 (2006)$CUT=15-Sep-2005$      
+#  1970DEZF, 1968KOZW: activity produced by 180W(3HE,7N), E=70 MEV.       
+#  Isotopic assignment was based on cross bombardment using targets of    
+#  182W and 184W. Measured EG, RI. Detectors: GE(LI).                     
+#  1970AR15: activity produced by bombardment of AU targets with 660-MEV  
+#  protons. Measured EG, RI. Detectors: GE(LI). Observed G rays were      
+#  assigned to the EC decay of 176OS or 177OS.                            
+#  1972BE89: activity produced by bombardment of HG targets with 1-GEV    
+#  protons. Measured EG, RI. Detectors: GE(LI). Observed G rays were      
+#  assigned to the EC decay of 176OS or 177OS.                            
+#  Decay scheme is preliminary, and based on G-ray energy differences     
+#  (1970DEZF,1968KOZW).                                                   
+#G E         From 1970DEZF, 1968KOZW. Assignment to 176OS is not certain. 
+#G RI        From 1970DEZF.                                               
+#P 0.0            0+             3.6 M     5              2960      40    
+OS176 RE176 beta+ 2.96 216.0 1.0
++G gamma 0.0815 0.36
++G gamma 0.7757999999999999 0.98
++G gamma 0.8572000000000001 0.69
++G gamma 1.2092 0.71
++G gamma 1.2909000000000002 1.0
+

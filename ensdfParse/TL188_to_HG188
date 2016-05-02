@@ -1,0 +1,58 @@
+#188HG    188TL EC DECAY (71 S)         1984CO17,1976BO04         02NDS    200204
+#  188TL EC DECAY (71 S)         1984CO17,1976BO04         02NDS    200204
+#H TYP=FMT$AUT=J. Tuli$DAT=19-APR-2005$COM=fixed fmt/typo$                
+#H TYP=FUL$AUT=BALRAJ SINGH$CIT=NDS 95, 387 (2002)$CUT=26-Feb-2002$       
+#  (7+) and (2-) isomers mixed                                            
+#  The main population is that of the (7+) isomer. From the level         
+#  scheme the population of the low spin-isomer (J=2-) is estimated       
+#  as less than 10%                                                       
+#  Others: 1970VA27, 1974PR13, 1976KEZO                                   
+#  1984CO17 (also 1978COYZ,1976HA25,1975HA27,1975BOYT,1974HA10 from the   
+#  same group) produced 188TL source by 181TA(16O,9N)                     
+#  reaction. Authors reported G, GG, CE, GCE measurements                 
+#  1976BO04 produced 188TL by 197AU(3HE,12N) E=207 MEV. Authors           
+#  reported G, GG, CE, GCE, GG(THETA) measurements                        
+#  1994JO13: measured lifetimes of second 0+ and 2+ states by BGG(T)      
+#G RI$For combined activity, however, contribution from the low-spin      
+#G isomer (JPI=2-) is probably less than 10%. Values are from 1984CO17,   
+#G unless otherwise stated                                                
+#G E$From 1984CO17, unless otherwise stated                               
+#L J$From adopted levels                                                  
+#E           1976KEZO reported E(B+)=3.3 MEV 3 for a branch to the        
+#E 1510-KEV level in 188HG, which gives Q(EC)=5.8 MEV 4                   
+#G M,MR$Deduced from CE data of 1984CO17 and 1976BO04.                    
+#G 592G assumed as pure E2 used for normalization                         
+#L E$From least-squares fit to EG's                                       
+#G E(A)$Reported by 1976BO04 only                                         
+#G E(B)$Reported by 1984CO17 only                                         
+#L E(D)$Level proposed by 1976BO04 only, not confirmed by 1984CO17.       
+#P1  0+X       (2-)              71 S      2              8.05E3    10    
+TL188 HG188 beta+ 8.05 71.0 1.0
++B beta+ 5.200000000000001E-4 0.004
++G gamma 0.4129 0.88
++B beta+ 3.019 0.0017000000000000001
++B beta+ 2.826 0.002
++B beta+ 2.742 0.0021
++B beta+ 2.647 0.0023
++B beta+ 2.532 0.0025
++B beta+ 2.506 0.0026
++B beta+ 2.409 0.0027
++B beta+ 2.383 0.0028000000000000004
++B beta+ 2.382 0.0028000000000000004
++B beta+ 2.329 0.0029
++B beta+ 2.321 0.0029
++B beta+ 2.32 0.0029
++B beta+ 2.293 0.003
++B beta+ 2.243 0.0031
++B beta+ 2.216 0.0032
++B beta+ 2.186 0.0033
++B beta+ 2.163 0.0033
++B beta+ 2.152 0.0033
++B beta+ 2.142 0.0034000000000000002
++B beta+ 2.117 0.0034000000000000002
++B beta+ 2.084 0.0034999999999999996
++B beta+ 2.071 0.0036
++B beta+ 2.061 0.0036
++B beta+ 2.053 0.0036
++B beta+ 2.017 0.0037
+

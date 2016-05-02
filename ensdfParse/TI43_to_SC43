@@ -1,0 +1,41 @@
+# 43SC    43TI EC DECAY (509 MS)        1987HO14                  15NDS    201506
+#  43TI EC DECAY (509 MS)        1987HO14                  15NDS    201506
+#H TYP=FUL$AUT=BALRAJ SINGH AND JUN CHEN{+#}$CIT=NDS 126, 1 (2015)$       
+#H CUT=31-Mar-2015$                                                       
+#  1987Ho14: {+43}Ti nuclides were produced by the {+40}Ca(|a,n) reaction 
+#  with an 18 MeV alpha beam from the MC-20 cyclotron of the University of
+#  Jyvaskyla. |b-rays were detected by a 500 |mm, 300 mm{+2} Si(Au)       
+#  surface-barrier detector and |g-rays by a 15.5% Ge detector. Measured  
+#  E|g, I|g, E(|b). Deduced levels,  |b- and |g-branchings, T{-1/2}.      
+#  Comparison with shell-model calculations                               
+#  Others:                                                                
+#  T{-1/2} and isotopic identification: 1967Al08, 1963Va37, 1961Ja22      
+#  (also 1960Ja12), 1954Ty33, 1948Sc20                                    
+#  |b{++}: 1969Va41 (also 1963Va37), 1961Ja22                             
+#  |g: 1971BlZH                                                           
+#E $There is an apparent |b{++} feeding of 0.11% {I6} to the 3/2-         
+#E at 472.7 giving an unrealistic log| {Ift}=6.3 for 7/2- to 3/2-.        
+#E This imbalance is due either to missing |g transitions to              
+#E the 472.7 level or to intensity problems in the |g-rays involved.      
+#E Due to the large difference between the Q-value and the energy of      
+#E highest populated level, this decay scheme seems incomplete.           
+#G M,MR$Multipolarities and mixing ratios from Adopted Gammas             
+#G RI(A)$Estimated (evaluators) from log| {If{+1u}t}>8.5 and I|g(2137|g)  
+#L E$From least-squares fit to E|g data                                   
+#L J$From Adopted Levels                                                  
+#L E(A)$Intensity balance gives apparent |b{++} feeding of 0.11% {I6}     
+#P  0           7/2-             509 MS    5              6867       7    
+TI43 SC43 beta+ 6.867 0.509 1.0
++B beta+ 8.941E-4 9.061E-4
++B beta+ 2.7266999999999997 0.05
++B beta+ 2.6635 0.04
++B beta+ 2.3128 0.05
++B beta+ 2.0385 0.04
++B beta+ 1.8084 0.04
++B beta+ 1.7695 0.04
++B beta+ 1.6127 0.04
++B beta+ 1.5900999999999998 0.04
++B beta+ 1.5309000000000001 0.04
++B beta+ 1.3865 0.04
++B beta+ 1.149 0.04
+

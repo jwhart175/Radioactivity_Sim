@@ -1,0 +1,47 @@
+#131LA    131CE EC DECAY (10.3 M)       1996GE12,1983VIZU         06NDS    200612
+#  131CE EC DECAY (10.3 M)       1996GE12,1983VIZU         06NDS    200612
+#H TYP=FUL$AUT=YU. KHAZOV, I. MITROPOLSKY, A. RODIONOV$                   
+#H CIT=NDS 107, 2715 (2006)$CUT=17-Jul-2006$                              
+#  1983ViZU, 1983AkZZ: {+131}Ce |e decay [from Ta(p,X), 1000 MeV];        
+#  measured |g, |g|g, T{-1/2}. Mass separation                            
+#  1996Ge12: {+131}Ce |e decay [from {+94}Mo({+40}Ca,xpyn|g), E=255 MeV,  
+#  decay of {+131}Nd,{+131}Pr precursors]; measured E|g, I|g, |g|g, x|g.  
+#  He-jet transport, Ge, Si(Li) detectors. |b-feeding, log| {Ift}         
+#  calculated; IBM calculations                                           
+#  1998Fo01: {+131}Ce from {+115}In({+20}Ne,xpyn|g), E=95 MeV;            
+#  measured |g, |g|g, x|g. Pulsed beam                                    
+#  Others: 1966No05, 1973De25                                             
+#G E,RI$Weighted average from 1983ViZU and 1996Ge12, except as noted      
+#G E(V)$The transition was introduced into level scheme using energy      
+#G relationship only                                                      
+#G M$From |a(exp) besides as noted                                        
+#G E(A),RI(A)$From 1983ViZU                                               
+#G E(C),RI(C)$From 1996Ge12                                               
+#G E(B)$|g was confirmed by 1998Fo01                                      
+#G E(D)      Doublet                                                      
+#L           The level scheme is that of 1983ViZU, 1996Ge12 and 1998Fo01. 
+#L ({+131}La is obtained also from 5.0-min {+131}Ce isomer and            
+#L percentage of population by each isotope is unknown)                   
+#L E$From least-squares fit to E|g's assuming |DE|g=0.5 by evaluators,    
+#L except as noted                                                        
+#L T(A)$From {+131}Ce |e decay (|g(t) 1983ViZU)                           
+#P 0.0          7/2+             10.3 M     3             4.05E3     4    
+CE131 LA131 beta+ 4.05 618.0 1.0
+
+#131LA    131CE EC DECAY (5.4 M)        1983VIZU,1998Fo01         06NDS    200612
+#  131CE EC DECAY (5.4 M)        1983VIZU,1998Fo01         06NDS    200612
+#H TYP=FUL$AUT=YU. KHAZOV, I. MITROPOLSKY, A. RODIONOV$                   
+#H CIT=NDS 107, 2715 (2006)$CUT=17-Jul-2006$                              
+#  1983ViZU, 1983AkZZ: {+131}Ce |e decay [from Ta(p,X), 1000 MeV];        
+#  measured |g, |g|g, T{-1/2}. Mass separation                            
+#  1998Fo01: {+131}Ce |e decay from {+115}In({+20}Ne,xpyn|g), E=95 MeV;   
+#  measured |g, |g|g, x|g. Pulsed beam                                    
+#  Others: 1966No05, 1973De25, 1996Ge12                                   
+#G E,RI$Mainly from I|g(t) of 5.0-min {+131}Ce decay (1983ViZU), except   
+#G as noted                                                               
+#L $The partial level scheme of {+131}La populated from 5.0-min {+131}Ce  
+#L isomer is that of 1983ViZU and 1998Fo01                                
+#L T$For all levels, except as noted T{-1/2}|<30 ns (1983ViZU)            
+#P      63.09 9(1/2+)            5.4 M     10             4.05E3     4    
+CE131 LA131 beta+ 4.05 324.0 1.0
+

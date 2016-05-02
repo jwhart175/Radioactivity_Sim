@@ -1,0 +1,52 @@
+#108PD    108RH B- DECAY (16.8 S)       1978FR16                  ENSDF    200810
+#  108RH B- DECAY (16.8 S)       1978FR16                  ENSDF    200810
+#H TYP=FUL$AUT=Jean Blachot$CIT=ENSDF$CUT=1-Jul-2008$                     
+#H TYP=FUL$AUT=Jean Blachot$CIT=NDS 91, 135 (2000)$CUT=1-Jun-2000$        
+#  Activity: chemical separation from fission products.                   
+#  Others: 1958Ba02, 1962Pi02, 1969WiZX, 1971Ri02, 1975Fe12               
+#  Measured: |g, |g|g, |b|g (1989Gr23)                                    
+#B IB$From I(|g+ce)-imbalance at each level                               
+#G E,RI$E|g, I|g are from 1978Fr16, except as noted. Internal conversion  
+#G is negligible.                                                         
+#G M,MR$From adopted gammas                                               
+#L J$From adopted levels                                                  
+#P 0.0          1+               16.8 S    5              4.51E+3   11    
+RH108 PD108 beta- 4.51 16.8 1.0
++B beta- 2.0 0.56
++B beta- 1.8 0.23
++G gamma 0.43410000000000004 0.43
++B beta- 1.5 0.063
++G gamma 0.4973 0.0516
++G gamma 0.9317000000000001 0.012469999999999998
++B beta- 1.5 0.15
++G gamma 0.6189 0.1505
+
+#108PD    108RH B- DECAY (6.0 M)        1984BH02,1969PI08         ENSDF    200810
+#  108RH B- DECAY (6.0 M)        1984BH02,1969PI08         ENSDF    200810
+#H TYP=FUL$AUT=Jean Blachot$CIT=ENSDF$CUT=1-Jul-2008$                     
+#H TYP=FUL$AUT=Jean Blachot$CIT=NDS 91, 135 (2000)$CUT=1-Jun-2000         
+#  1969Pi08 activity: Pd(n,p) E={ 14 MeV}. Measured: |g, |g|g, |g(t).     
+#  1984Bh02 activity: Pd(n,p) E={ 14 MeV}. Measured: |g, |g|g, |g(t).     
+#  The decay scheme is that proposed by 1984Bh02. The |g spectrum has     
+#  been studied to { 3500 keV}.                                           
+#B IB$From I(|g+ce)-imbalance at each level                               
+#G RI$From 1984Bh02. The 747, 1528, 1815 gammas given by 1969Pi08 are     
+#G not seen by 1984Bh02.                                                  
+#L J$Adopted values given.                                                
+#P 0.0+X       (5+)              6.0 M     3              4.51E+3   11    
+RH108 PD108 beta- 4.51 360.0 1.0
++G gamma 0.43760000000000004 0.05262000000000001
++G gamma 0.4342 0.877
++G gamma 0.49739999999999995 0.19294
++G gamma 0.9316 0.12278
++G gamma 0.6143 0.21048000000000003
++G gamma 0.4043 0.2631
++G gamma 0.9013 0.28064
++G gamma 0.7232999999999999 0.10524000000000001
++G gamma 0.9475 0.49112
++G gamma 1.2343 0.0877
++G gamma 2.1022 0.2631
++G gamma 0.3276 0.05262000000000001
++G gamma 0.5811000000000001 0.59636
++G gamma 1.0925 0.04385
+

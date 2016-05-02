@@ -1,0 +1,43 @@
+#127I     127TE B- DECAY (9.35 H)       1970AP02                  11NDS    201108
+#  127TE B- DECAY (9.35 H)       1970AP02                  11NDS    201108
+#H TYP=FUL$AUT=A. HASHIZUME$CIT=NDS 112, 1647 (2011)$CUT=1-Oct-2009$      
+#  1970Ap02: source {+126}Te(n,|g), semi |g, proportional counter |b      
+#  Others: 1956Kn20, 1965Au01, 1966Ne02, 1971Bu27                         
+#L E         From a least-squares fit to E(|g's)                          
+#L J,T       From adopted levels                                          
+#G E,RI      From 1970Ap02                                                
+#G CC$Theoretical conversion coefficients are calculated using BrIcc code 
+#G for the multipolarity and mixing ratio indicated.                      
+#G M,MR      From adopted levels, gammas                                  
+#P 0.0          3/2+             9.35 H    7              702        3    
+TE127 I127 beta- 0.702 33660.0 0.0099
++G gamma 0.05763 0.03
++G gamma 0.1452 0.0033
++G gamma 0.2029 0.058600000000000006
++G gamma 0.1721 3.0E-4
++G gamma 0.375 3.0E-4
++G gamma 0.21509999999999999 0.0391
++G gamma 0.3603 0.136
++G gamma 0.4179 1.0
++G gamma 0.6184 1.3E-4
+
+#127I     127TE B- DECAY (106.1 D)      1970AP02                  11NDS    201108
+#  127TE B- DECAY (106.1 D)      1970AP02                  11NDS    201108
+#H TYP=FUL$AUT=A. HASHIZUME$CIT=NDS 112, 1647 (2011)$CUT=1-Oct-2009$      
+#  1970Ap02: source {+126}Te(n,|g), semi |g, proportional counter |b      
+#  Others: 1956Kn20, 1965Au01, 1966Ne02, 1971Bu27                         
+#  See also {+127}Te IT decay (106.1 d)                                   
+#L E         From a least-squares fit to E(|g's)                          
+#L J,T       From adopted levels                                          
+#G E,RI      From 1970Ap02                                                
+#G CC$Theoretical conversion coefficients are calculated using BrIcc code 
+#G for the multipolarity and mixing ratio indicated.                      
+#G M,MR      From adopted levels, gammas                                  
+#P 88.26      8 11/2-            106.1 D   7              702        3    
+TE127 I127 beta- 0.702 9167039.999999998 1.0
++G gamma 0.05763 0.53
++G gamma 0.6286 8.999999999999999E-5
++G gamma 0.5932999999999999 0.0024
++G gamma 0.651 3.0E-4
++G gamma 0.6588999999999999 0.013000000000000001
+

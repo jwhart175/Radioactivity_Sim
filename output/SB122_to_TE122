@@ -1,0 +1,38 @@
+#122TE    122SB B- DECAY                1970LAZT,1975SEZC         07NDS    200704
+#  122SB B- DECAY                1970LAZT,1975SEZC         07NDS    200704
+#H TYP=FUL$AUT=T. TAMURA$CIT=NDS 108, 455 (2007)$CUT=30-Sep-2006$         
+#  1975SeZC: {+121}Sb(n,|g); semi |g                                      
+#  1970LaZT, 1967La18: {+121}Sb(n,|g); semi |g                            
+#  Others: |b{+-} (1968Hs02,1968Ao01,1955Fa33,1955Gl41), |g               
+#  (1968Ao01,1967Ar04,1965Ar12), |g|g(|q)(1955Gl41,1957Li35,1960As04,     
+#  (1966Au05,1966Jo06,1967Ko13,1967Mu10), |g|g(|q,H)                      
+#  (1971BeWS,1967Mu10,1967Bh06,1966Jo06,1966Au05), (|b)(circular polarized
+#  |g)(|q) (1960De23,1965Gr19), |b|g(|q)                                  
+#  (1965Ra03,1968Ao01,1950Ri06,1951Sh05,1959St43)                         
+#B           E|b{+-} and I|b{+-} are taken from 1968Hs02                  
+#B IB$%|b{+-} of {+122}Sb=97.6 {I9} is deduced using I|b{++}/I|b{+-}=     
+#B 6.46E-5 40 (1958Pe17), I|e/I|b{++}(to {+122}Sn g.s.)=264 {I7} (theory),
+#B I|b{+-} (to {+122}Te g.s.)/I|b{+-} (to {+122}Te 564-keV level)=        
+#B 27.0 {I2}/69.0 {I2} (1968Hs02) and I|g from                            
+#B {+122}Sb EC+B+ and |b{+-} decay (1975SeZC)                             
+#G E,RI      From 1975SeZC, unless noted otherwise                        
+#G M,MR      From adopted gammas                                          
+#G $(693|g)(564|g)(|q): ^A{-2}=+0.144 {I3}, ^A{-4}=+0.299 {I3}            
+#G                (weighted average is from 1966Au05,1966Jo06,1967Ko13)   
+#L           The decay scheme is that proposed by 1970LaZT                
+#L E         E(levels) are based on a least-squares fit to the            
+#L E(|g's) of 1975SeZC (evaluator)                                        
+#L J         From adopted levels                                          
+#P 0.0         2-                2.7238 D  2              1983.9    19    
+SB122 TE122 beta- 1.9839 235336.32 0.7242
++B beta- 1.98 0.261
++B beta- 1.414 0.6679999999999999
++G gamma 0.56424 1.0
++G gamma 0.615 1.6E-4
++B beta- 0.723 0.046
++G gamma 0.69265 0.0545
++G gamma 1.25693 0.0115
++G gamma 0.7933 2.3E-4
++G gamma 1.188 6.0E-5
++G gamma 1.7524000000000002 1.3E-4
+

@@ -1,0 +1,44 @@
+#152ER    152TM EC DECAY (8.0 S)        1987TO02                  13NDS    201311
+#  152TM EC DECAY (8.0 S)        1987TO02                  13NDS    201311
+#H TYP=FUL$AUT=M. J. MARTIN$CIT=NDS 114, 1497 (2013)$CUT=31-Aug-2013$     
+#G CC$ FROM BrIcc v2.3 (9-Dec-2011) 2008Ki07, "Frozen Orbitals" appr.     
+#  Measured: |g, |g|g, |b{++}|g (1987To02), |g, |g|g (1982No13)           
+#E TI(A)     Limit calculated from intensity balance assuming no |g       
+#E feeding from higher levels.                                            
+#G M         From adopted gammas                                          
+#L           1987To02 observed (808|g)(|b{++}) with E|b+|?4.0 MeV         
+#L indicating that there is strong feeding to level(s) at |?3.6 MeV       
+#L (given Q(|e)=8730 74).  It appears that decay goes primarily           
+#L via allowed decay(s) to level(s) with J|p=1-,2-,3- at                  
+#L |?3.6 MeV                                                              
+#L E         From 1987To02                                                
+#L J         From adopted levels, unless otherwise noted                  
+#P 0.0         (2)-              8.0 S     10             8720      70    
+TM152 ER152 beta+ 8.72 8.0 1.0
++B beta+ 0.8603 0.0066
++B beta+ 3.185 7.199999999999999E-4
++B beta+ 2.804 0.0018599999999999999
++B beta+ 2.843 9.6E-4
++B beta+ 2.752 0.00104
+
+#152ER    152TM EC DECAY (5.2 S)        1980LI18                  13NDS    201311
+#  152TM EC DECAY (5.2 S)        1980LI18                  13NDS    201311
+#H TYP=FUL$AUT=M. J. MARTIN$CIT=NDS 114, 1497 (2013)$CUT=31-Aug-2013$     
+#  Measured: E|g, I|g, |b{++}|g                                           
+#E TI(A)     1980Li18 estimate from the relative I|g that |?50% of        
+#E |e+|b{++} decay goes to the 8+ level. Additional feeding must then go  
+#E to the 6+ level (if J|p(parent)=7+), or to levels above the 8+ level,  
+#E namely to the 10+ level at 2948 keV (if J|p(parent)=9+). However,      
+#E from I|g(422.5|g), an I|b to the 6+ level =18 {I18}; and 1980Li18 do   
+#E not see the 764.4-keV |g from the 10+ level. No other levels with      
+#E suitable spins have been seen in (HI,xn|g) reaction.                   
+#E It is therefore likely that most, if not all, the decay goes           
+#E to the 8+ level.                                                       
+#G M         From adopted gammas                                          
+#L E$FROM A LEAST-SQUARES FIT TO THE EG DATA AND ROUNDED OFF BY THE       
+#L EVALUATOR TO ONE DECIMAL DIGIT                                         
+#L J         From adopted levels                                          
+#P  0+X        (9)+              5.2 S     6              8720      70    
+TM152 ER152 beta+ 8.72 5.2 1.0
++B beta+ 2.47 0.67
+

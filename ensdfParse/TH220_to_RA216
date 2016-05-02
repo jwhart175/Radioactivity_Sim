@@ -1,0 +1,15 @@
+#216RA    220TH A DECAY                                           07NDS    200705
+#  220TH A DECAY                                           07NDS    200705
+#H TYP=FUL$AUT=S. -C. WU$CIT=NDS 108, 1057 (2007)$CUT=1-Mar-2007$         
+#  T{-1/2}({+220}Th)=9.7 |ms {I6}, measured by 1973Ha32, is adopted by    
+#  1997Ar04 and used in calculations here. The half-life, T{-1/2}=12 |ms  
+#  {I+4-3}, measured by 1991An13, agrees with the one adopted here.       
+#                                                                         
+#  %|a({+220}Th)=100 from the |b decay branch of 2|*10{+-7}%, estimated by
+#  1997Ar04 from the gross |b-decay calculations of 1973Ta30.             
+#  The partial half-life of {+220}Th |b{++} decay has been                
+#  calculated by 1997Mo25 as >100 s.                                      
+#A HF$r{-0}({+216}Ra)=1.566 {I9} from HF(8790|a)=1.0 (1998Ak04)           
+#P 0.0          0+               9.7 US    6              8953      20    
+TH220 RA216 alpha 8.953 9.699999999999999E-6 1.0
+

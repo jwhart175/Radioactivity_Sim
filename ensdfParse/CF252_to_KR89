@@ -1,0 +1,22 @@
+# 89KR    252CF SF DECAY                2008HW03,1974CLZX         13NDS    201302
+#  252CF SF DECAY                2008HW03,1974CLZX         13NDS    201302
+#H TYP=FUL$AUT=BALRAJ SINGH$CIT=NDS 114, 1 (2013)$CUT=20-Oct-2012$        
+#  2008Hw03: Measured E|g, I|g, |g|g-coin using Gammasphere array of 101  
+#  HPGe detectors with Compton-suppression. The |g rays from Kr isotopes  
+#  were identified by gating on transitions in the fission partner Sm     
+#  isotopes.                                                              
+#  1974ClZX: isomeric levels of 252CF fission fragments.                  
+#  Measured XK, G                                                         
+#  All data are from 2008Hw03, unless otherwise stated                    
+#G $ All |g rays from levels above 28.6 keV were observed in coin         
+#G with fission partner Sm isotopes. The 11/2- --> 9/2+ -->5/2+           
+#G cascade in {+89}Kr is similar to the one observed in {+91}Sr.          
+#L E$ From E|g data, assuming uncertainty of 0.3 keV for each |g ray      
+#L J$ As proposed by 2008Hw03 based on comparison with a similar          
+#L |g|g cascade in {+91}Sr and (790.0|g)(953.9|g)(|q). The assignments    
+#L in Adopted Levels are given under parentheses.                         
+#L BAND(A)$ |g cascade based on 5/2+.                                     
+#L Possible configuration=|n2d{-5/2}~#({+90}Kr core states)               
+#P 0            0+               2.645 Y   8                              
+CF252 KR89 SF 0.0 8.346802377600001E7 5.3E-5
+

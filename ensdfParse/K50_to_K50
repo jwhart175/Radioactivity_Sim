@@ -1,0 +1,25 @@
+# 50K     50K IT DECAY (125 NS)         1999DAZQ,2010DA06,2009CR0311NDS    201012
+#  50K IT DECAY (125 NS)         1999DAZQ,2010DA06,2009CR0311NDS    201012
+#H TYP=FUL$AUT=ZOLTAN ELEKES AND JANOS TIMAR, BALRAJ SINGH$               
+#H CIT=NDS 112, 1 (2011)$CUT=20-Oct-2010$                                 
+#  2010Da06, 1999DaZQ:  Ni({+86}Kr,X) E={ 60.3 MeV/nucleon}. Measured     
+#  delayed E|g, I|g following decay of isomeric states using LISE         
+#  spectrometer at GANIL. Deduced J, |p, T{-1/2}, multipolarities         
+#  2009Cr03: 9BE(76GE,^X) E=130 MEV/nucleon. Fragments were separated     
+#  using ^A1900 ^FRS. Measured prompt |g rays using ^Se^Ga array of       
+#  Ge detectors. Three |g rays at 43.0, 128.4 and 172.1 keV were          
+#  reported from the decay of the isomer                                  
+#G E,RI$ From 1999DaZQ                                                    
+#G M$ ASSIGNMENT BY THE EVALUATORS BASED ON RUL                           
+#G M(B)$ M1 suggested by 1999DAZQ from comparison of the deduced          
+#G transition probabilities with Weisskopf estimates                      
+#G M(D)$ E2 suggested by 1999DAZQ from comparison of the deduced          
+#G transition probabilities with Weisskopf estimates                      
+#G E(A)$ Weak |g-ray                                                      
+#G E(E)$ Ordering of the 127-44 and 101-70 |g cascades can be reversed    
+#G as in 2009Cr03 for the former                                          
+#L J$ From Adopted Levels                                                 
+#P 171.4     4 (1:4)(-)          125 NS    40                             
++G gamma 0.1274 0.451
++G gamma 0.1714 0.55
+

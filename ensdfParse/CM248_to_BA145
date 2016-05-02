@@ -1,0 +1,47 @@
+#145BA    248CM SF DECAY                1996JO14                  09NDS    200902
+#  248CM SF DECAY                1996JO14                  09NDS    200902
+#H TYP=FUL$AUT=E. BROWNE, J. K. TULI$CIT=NDS 110, 507 (2009)$             
+#H CUT=1-Oct-2008$                                                        
+#  Modified by E. Browne (Oct. 16, 2007)                                  
+#  Measured triple G-ray coincidence with ^EUROGAM2, an array of 52       
+#  COMPTON-shielded ^Ge detectors and 4 ^LEPS detectors. G rays were      
+#  assigned to 145Ba by X-RAY coincidence and coincidence with G rays     
+#  from ZR isotopes (complementary fission fragments) (1996Jo14).         
+#G M$From angular correlation, internal conversion, and G-ray polarization
+#G measurements (1996Jo14). Quadrupole rays were assigned E2 by rotational
+#G band character, and dipoles, E1 or M1 by polarization                  
+#G measurements and level scheme considerations.                          
+#G MR$From DCO and G-ray polarization results.                            
+#G RI$Uncertainty varies from 10% for strong transitions to 30% for weak  
+#G ones.                                                                  
+#L E         Deduced by evaluator from least-squares fit                  
+#L to G-ray energies.                                                     
+#L J         From Adopted Levels                                          
+#L BAND(A)$GS ROTATIONAL BAND                                             
+#L BAND(B)$ROTATIONAL BAND                                                
+#P 0            0+               3.48E+5 Y 6                              
++G gamma 0.1645 0.9
++G gamma 0.2769 0.22
++G gamma 0.1854 0.77
++G gamma 0.35 0.61
++G gamma 0.2306 0.063
++G gamma 0.3949 0.21
++G gamma 0.1095 0.19
++G gamma 0.1546 0.87
++G gamma 0.17859999999999998 0.07
++G gamma 0.3643 0.12
++G gamma 0.2486 1.0
++G gamma 0.259 0.06
++G gamma 0.43760000000000004 0.12
++G gamma 0.1981 0.04
++G gamma 0.4568 0.1
++G gamma 0.3743 0.66
++G gamma 0.2958 0.03
++G gamma 0.49360000000000004 0.03
++G gamma 0.5273 0.021
++G gamma 0.2462 0.02
++G gamma 0.542 0.08
++G gamma 0.4783 0.42
++G gamma 0.5642 0.34
++G gamma 0.6399 0.06
+

@@ -1,0 +1,25 @@
+# 89KR    90BR B-N DECAY (1.92 S)       1981HO17                  13NDS    201302
+#  90BR B-N DECAY (1.92 S)       1981HO17                  13NDS    201302
+#H TYP=FUL$AUT=BALRAJ SINGH$CIT=NDS 114, 1 (2013)$CUT=20-Oct-2012$        
+#  1981Ho17: 235U(N,F), chem, AlBr+,                                      
+#  measured EG, IG, I(n), GG, NG coin                                     
+#  1997Gr20: delayed neutron spectrum measured in the range 48-1200 KEV   
+#  and relative intensities reported in different energy bins             
+#  Other B-N measurements: 1993Ru01, 1987PfZX, 1984Ew01, 1980Al15,        
+#  1978Kr15, 1977Sh01, 1976Ru01, 1975As04, 1974Kr21, 1974Cr06, 1972Sc48,  
+#  1971Ch38, 1959Pe28                                                     
+#  B-N COMPILATIONS AND EVALUATIONS: 1993Ru01, 1989BrZI, 1982Ru01,        
+#  1979RuZQ, 1977Ru10, 1975Iz03                                           
+#  B-N THEORY: 1977Sh10                                                   
+#  %B-N=25.2 9 (weighted average of 29.0 21 (1993Ru01), 24.3 30           
+#  (1987PfZX), 24.8 15 (1984Ew01), 24.6 17 (1980Al15), 18.9 39 (1978Kr15),
+#  22.6 31 (1975As04), 20 5 (1974Kr21), 30 7 (1972Sc48)).                 
+#  Others: 1976Ru01, 1974Cr06, 1971Ch38, 1959Pe28                         
+#P 0.0                           1.92 S    2              4464.2    40    
+BR90 KR89 neutron&beta- 4.4642 1.92 0.252
++G gamma 0.41148 0.1683
++G gamma 0.96274 0.054450000000000005
++G gamma 0.9913500000000001 0.01155
++G gamma 0.99793 0.014190000000000001
++G gamma 1.09785 0.039599999999999996
+

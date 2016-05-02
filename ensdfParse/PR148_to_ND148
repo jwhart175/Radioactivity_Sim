@@ -1,0 +1,174 @@
+#148ND    148PR B- DECAY (2.29 M)       1988KA14,1997GR09         14NDS    201404
+#  148PR B- DECAY (2.29 M)       1988KA14,1997GR09         14NDS    201404
+#H TYP=FUL$AUT=N. NICA$CIT=NDS 117, 1 (2014)$CUT=1-Oct-2013$              
+#  1997GR09,1996GR20: total absorption G-ray spectrometer (^TAGS) system  
+#  used to measure B-decay intensities, and the GS B- feeding when        
+#  operated in the 4PIG-B coin mode                                       
+#  Measured: G, GG                                                        
+#  (1988KA14,1986WA06,1986BUZV,1979TA17,1979IK06,1979BO26,1977RE11,       
+#  \1977BJ02,1976YA06,1976SK04) GG(THETA) (1988KA14,1979IK06), B, BG      
+#  (1986GR11,1979IK06,1978ST03,1976LOZT)                                  
+#  Level scheme is that of 1988KA14. ^TAGS data with a number of          
+#  pseudolevels with AP 25% B- feeding to them indicates that             
+#  the level scheme is not complete and has large uncertainties           
+#  associated with it.                                                    
+#B IB        From I(G+CE) imbalance at each level, unless indicated       
+#B otherwise.                                                             
+#B IB$^TAGS analysis gives the following pseudolevels and associated      
+#B IB (in %) in addition to the discrete levels listed. 2650 KEV { 1.18}; 
+#B 2750 KEV { 1.39}; 2850 KEV { 0.80}; 3200 KEV { 0.70}; 3300 KEV { 0.80};
+#B 3400 KEV { 1.39}; 3500 KEV { 1.61}; 3600 KEV { 0.86}; 3700 KEV { 0.75};
+#B 3800 KEV { 1.29}; 3900 KEV { 2.04}; 4000 KEV { 4.82}; 4100 KEV { 4.50};
+#B 4200 KEV { 1.82}; 4300 KEV { 0.96}; 4400 KEV { 0.32};                  
+#B 4500 KEV { 0.064}; 4600 KEV { 0.032}; 4700 KEV { 0.011}. The ^TAGS     
+#B spectrum is                                                            
+#B estimated to have AP 1.5% uncorrected contamination of 148PR(2.0 M).   
+#B Since the resolution of the ^TAGS system is typically 50-100 KEV,      
+#B the intensity assigned to a pseudolevel may represent B- feeding to    
+#B a single level or a group of levels. The same limitation applies to    
+#B the intensity assigned to a known level, since it could include        
+#B feeding to known or unknown levels in the resolution energy range.     
+#G CC$ FROM BrIcc v2.2b (20-Jan-2009) 2008Ki07, "Frozen Orbitals" appr.   
+#G M,MR      From adopted gammas; supported by GG(THETA) from this data   
+#G set                                                                    
+#G MR(A)     From GG(THETA) (1988KA14)                                    
+#G E,RI      From 1988KA14                                                
+#L E         From a least-squares fit to EG data                          
+#L J         Adopted values; supported by GG(THETA) from this data set    
+#P 0.0         1-                2.29 M    2              4872      15    
+PR148 ND148 beta- 4.872 137.4 1
++G gamma 0.999 0.004353999999999999
++G gamma 1.6585 0.0037319999999999996
++G gamma 1.6827999999999999 0.004353999999999999
++G gamma 2.1418000000000004 0.0037319999999999996
++G gamma 2.2225 0.0037319999999999996
++G gamma 2.9825999999999997 0.00622
++B beta- 2.0908 0.21899999999999997
++B beta- 1.9503 0.276
++G gamma 0.301702 0.622
++B beta- 1.7409000000000001 0.013000000000000001
++G gamma 0.45080000000000003 0.029234
++B beta- 1.6644 0.019
++G gamma 0.6151 0.024258
++B beta- 1.6262 0.042
++G gamma 0.2474 0.008086
++G gamma 0.6975 0.057846
++B beta- 1.6151 0.043
++G gamma 0.7212999999999999 0.037942
++G gamma 1.0232 0.056602
++B beta- 1.5466 0.025
++G gamma 0.41869999999999996 0.0018659999999999998
++G gamma 0.8692000000000001 0.041052
++G gamma 1.1712 0.010573999999999998
++B beta- 1.5106 0.042
++G gamma 0.4968 0.002488
++G gamma 0.9471 0.017415999999999997
++G gamma 1.2486 0.054736
++B beta- 1.3891 0.004
++G gamma 0.7593 0.002488
++G gamma 1.2099000000000002 0.016172
++B beta- 1.3872 0.01
++G gamma 0.4924 0.009952
++B beta- 1.3273 0.009300000000000001
++G gamma 0.6227 0.004976
++G gamma 1.3437000000000001 0.004353999999999999
++B beta- 1.3207 0.08800000000000001
++G gamma 0.6365 0.011196
++G gamma 0.66 0.017415999999999997
++G gamma 1.35823 0.06655399999999999
++B beta- 1.3099 0.026000000000000002
++G gamma 0.5122000000000001 0.00311
++G gamma 0.9337000000000001 0.0018659999999999998
++G gamma 1.3820999999999999 0.021147999999999997
++B beta- 1.1305999999999998 0.057
++G gamma 0.5624 0.00311
++G gamma 0.8252999999999999 0.016794
++G gamma 0.9031 0.013062
++G gamma 1.0505 0.0037319999999999996
++G gamma 1.1565 0.004976
++G gamma 1.7717 0.014927999999999999
++B beta- 1.081 0.005
++G gamma 0.5222 0.002488
++G gamma 1.8809 0.002488
++B beta- 1.0560999999999998 0.001
++G gamma 1.0655 0.004353999999999999
++B beta- 0.9792000000000001 0.018000000000000002
++G gamma 0.8944 0.004976
++G gamma 1.1574 0.013062
++B beta- 0.9677 0.037000000000000005
++G gamma 0.9184 0.002488
++G gamma 1.1827 0.00311
++G gamma 1.2607000000000002 0.008086
++G gamma 1.4098 0.001244
++G gamma 2.1296 0.022392
++B beta- 0.9163 0.009000000000000001
++G gamma 1.5218 0.008707999999999999
++B beta- 0.7435 0.040999999999999995
++G gamma 1.2712 0.004976
++G gamma 1.4185999999999999 0.004353999999999999
++G gamma 1.9071 0.010573999999999998
++G gamma 1.9319000000000002 0.00622
++G gamma 2.629 0.014927999999999999
++B beta- 0.6966 0.011000000000000001
++G gamma 0.8 0.0037319999999999996
++G gamma 2.7353 0.007463999999999999
++B beta- 0.6556000000000001 8.100000000000001E-4
++G gamma 2.1067 8.086E-4
+
+#148ND    148PR B- DECAY (2.01 M)       1979IK06,1986WA06         14NDS    201404
+#  148PR B- DECAY (2.01 M)       1979IK06,1986WA06         14NDS    201404
+#H TYP=FUL$AUT=N. NICA$CIT=NDS 117, 1 (2014)$CUT=1-Oct-2013$              
+#  Measured: G, GG (1979IK06,1986WA06,1984CH30,1976YA06); %B- OF THE      
+#  PARENT (2004KO05,2008KOZO)                                             
+#  1997GR09,1996GR20: total absorption G-ray spectrometer (^TAGS) system  
+#  used to measure B- decay intensities, and the GS B- feeding when       
+#  operated in the 4PIG-B coin mode                                       
+#  Level scheme is that of 1979IK06 with some modifications indicated by  
+#  1986WA06 and 1982DEYW. ^TAGS data with a number of pseudolevels with   
+#  AP 69% B- feeding to them indicates that the level scheme is not       
+#  complete and has large uncertainties associated with it.               
+#B $B-feeding was determined assuming no ground-state B decay             
+#B IB        From TI balance at each level                                
+#B IB$^TAGS analysis gives the following pseudolevels and associated      
+#B IB (in %) in addition to the discrete levels listed. 1600 KEV { 0.9};  
+#B 1950 KEV { 1.6}; 2050 KEV { 2.7}; 2150 KEV { 2.1};                     
+#B 2250 KEV { 2.1}; 2400 KEV { 20.3}; 2500 KEV { 5.2};                    
+#B 2600 KEV { 1.2}; 2700 KEV { 1.7}; 2800 KEV { 3.5}; 2900 KEV { 3.6};    
+#B 3000 KEV { 1.3}; 3100 KEV { 1.0}; 3200 KEV { 1.9}; 3300 KEV { 1.9};    
+#B 3400 KEV { 1.6}; 3500 KEV { 0.6};                                      
+#B 3600 KEV { 0.6}; 3700 KEV { 1.0}; 3800 KEV { 1.3}; 3900 KEV { 3.0};    
+#B 4000 KEV { 3.0}; 4100 KEV { 3.0}; 4200 KEV { 0.6}; 4300 KEV { 1.3};    
+#B 4400 KEV { 0.6}; 4500 KEV { 0.3};                                      
+#B 4600 KEV { 0.16}. A simultaneous analysis of the spectra of both 148CE 
+#B and 148PR 2.0 M decay was done, and the authors feel that in the       
+#B energy range from AP 750 KEV to AP 1300 KEV, there is some ambiguity   
+#B in the final results because of overlapping peaks. ^TAGS analysis      
+#B indicates that transitions to the pseudolevels above 1859 KEV account  
+#B for AP 68% of B- intensity in this decay. Since the resolution of      
+#B the ^TAGS system is typically 50-100 KEV,                              
+#B the intensity assigned to a pseudolevel may represent B- feeding       
+#B to a single level or a group of levels. The same limitation            
+#B applies to the intensity assigned to a known level, since it could     
+#B include feeding to known or unknown levels in the resolution energy    
+#B range.                                                                 
+#G CC$ FROM BrIcc v2.2b (20-Jan-2009) 2008Ki07, "Frozen Orbitals" appr.   
+#G           For some gammas part of the observed RI may belong to        
+#G 2.27-min 148PR B- decay                                                
+#G           For possible additional G's see 148PR B- decay (2.29 M)      
+#G E         From 1979IK06, unless indicated otherwise                    
+#G RI        Relative intensity (1979IK06)                                
+#L E$From a least-squares fit to EG data (LEVEL 1279 WAS HELD FIXED)      
+#L J         Adopted values                                               
+#P 76.8      2  4-               2.01 M    7              4872      15    
++G gamma 0.301702 0.95
++B beta- 1.7765 0.43
++G gamma 0.45080000000000003 0.5
++B beta- 1.6618 0.42
++G gamma 0.247 0.018000000000000002
++G gamma 0.69752 0.4
++B beta- 1.3434000000000001 0.016
++G gamma 0.935 0.016
++B beta- 1.2646 0.09
++G gamma 1.1062 0.040999999999999995
++G gamma 1.5567 0.049
+

@@ -1,0 +1,33 @@
+#112PD    252CF SF DECAY                1999BU32,1993AR05,1986MA2215NDS    201412
+#  252CF SF DECAY                1999BU32,1993AR05,1986MA2215NDS    201412
+#H TYP=FUL$AUT=S. LALKOVSKI, F.G. KONDEV$CIT=NDS 124, 157 (2015)$         
+#H CUT=1-Aug-2014$                                                        
+#  1999BU32, 1993AR05: Facility: Holifield Heavy Ion (HI) Research        
+#  Facility, Oak Ridge National Laboratory; Source: 0.1 |mg thick 252CF   
+#  source of 6 |mCi activity, placed behind a 250|mm thick ^Be window;    
+#  Detectors: Gammasphere array, 2.5 cm{+3} ^LEPS, 25% n-type Ge, 5 cm x 5
+#  cm liquid scintillator (^BC-501); Measured: |g-|g-|g coinc., ^X-rays,  
+#  ^HI-|g-N, E|g, |g(THETA), I|g ;Deduced: 112PD level scheme, band       
+#  structure, J|p                                                         
+#  1986MA22: Source: 252CF on 100 |mg/cm{+2} Ni foil; Detectors: one      
+#  Ge(Li), stopper consisting of 20 |mg/cm{+2} C foil, one surface barrier
+#  detector; Measured: ^HI-G coinc., ^HI-G(T), EG, RI; Deduced: T from    
+#  RDM                                                                    
+#  Others: 2002HA46, 1998JOZX, 1998SIZW, 1997HA64, 1993AR05, 1990DUZW,    
+#  1970CH11, 1971CH44                                                     
+#L E$From a least-squares fit to EG                                       
+#L J$From 1999BU32, based on angular correlation measurements and observed
+#L band structure                                                         
+#L BAND(A)$Member of DJ=2 ground-state band                               
+#L BAND(E)$Member of DJ=1 quasi-gamma band                                
+#L BAND(C)$Member of DJ=2 band based on (5-);                             
+#L CONF=|nh{-11/2}~#(g{-7/2}d{-5/2}), |a=1                                
+#L BAND(B)$Member of DJ=2 band based on (6-);                             
+#L CONF=|nh{-11/2}~#(g{-7/2}d{-5/2}), |a=0                                
+#L BAND(D)$Member of DJ=2 band based on (7-);                             
+#L CONF=|nh{-11/2}~#(s{-1/2}d{-3/2}), |a=1                                
+#G E,RI,M$From 1999BU32.                                                  
+#G DE{-|g}=0.3 for RI>10 and 0.5 for RI<10 set by the evaluators.         
+#P 0.0         0+                2.645 Y   8                              
+CF252 PD112 SF 0.0 8.346802377600001E7 0.03092
+

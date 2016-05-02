@@ -1,0 +1,39 @@
+#126TE    126I EC DECAY                 1977JA04,1998FO05         02NDS    200301
+#  126I EC DECAY                 1977JA04,1998FO05         02NDS    200301
+#H TYP=FUL$AUT=J. KATAKURA AND K. KITAO$CIT=NDS 97, 765 (2002)$           
+#H CUT=5-Apr-2002$                                                        
+#  1977Ja04: 127I(N,2N), COMPTON suppression spectrometer, semi G.        
+#  1998FO05: 127I(N,2N); HPGe, SCIN, GAS COUNTER G, B, XK; 4PIBG, XG COIN 
+#  Others: semi G: 1970Ga32, 1970Si05, 1971Mi20, 1971Zh01, 1972Ka20,      
+#  1975Ok04, 1976Gr04; magnetic spectrometer: 1970Ga32, 1971Zh01;         
+#  GG(THETA): 1971Ta04.                                                   
+#  The decay scheme is that proposed by 1977Ja04.                         
+#  Evaluators note that the 1396(0+), 1685(0+), 2601(0+) and              
+#  2051 states in 126TE in the decay proposed by 1971Zh01                 
+#  have not been confirmed by 1975Ok04, 1976Gr04 or 1977Ja04.             
+#  See also 126I B- decay.                                                
+#G                                                                        
+#G           GG(THETA) DATA                                               
+#G                                                                        
+#G             1971TA04                                                   
+#G   CASCADE          A2         A4                                       
+#G  -------------------------------------------------------------------   
+#G   754-666      +0.102 10   +0.34 3                                     
+#G  -------------------------------------------------------------------   
+#G                                                                        
+#G E         From 1977Ja04. The evaluators have added 10 EV in            
+#G quadrature to the uncertainties of 1977Ja04 to account for             
+#G the uncertainty in calibration.                                        
+#G RI        From 1977Ja04, UNLESS OTHERWISE NOTED                        
+#G RI(A)     FROM 1998FO05                                                
+#G M,MR      FROM ADOPTED LEVELS, GAMMAS                                  
+#G           I(G+-)/I(666G)=0.0587 7 (1977JA04)                           
+#L J         Spin and parity values are those given under adopted levels. 
+#P 0.0           2-              12.93 D    5              2155      4    
++B beta+ 0.5302 0.008100000000000001
++B beta+ 0.21680000000000002 0.00198
++G gamma 0.695 4.3679999999999995E-6
++B beta+ 8.383E-4 0.00127
++B beta+ 8.502999999999999E-4 0.0011826
++B beta+ 7.69E-4 0.001799
+

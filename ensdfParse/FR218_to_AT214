@@ -1,0 +1,90 @@
+#214AT    218FR A DECAY (1.0 MS)        1999Sh03                  09NDS    200902
+#  218FR A DECAY (1.0 MS)        1999Sh03                  09NDS    200902
+#H TYP=FUL$AUT=S. -C. WU{+a}$CIT=NDS 110, 681 (2009)$CUT=1-Nov-2007$      
+#  1999Sh03: Radioactivity of {+218}Fr produced from {+222}Ac decay       
+#  (following Th(p,X){+222}Ac);                                           
+#  ISOCELE Mass and chemical separation of source.                        
+#  measured E|a, E|g, |a|g-, |g|g-coin; deduced levels J|p, |a-branching. 
+#A E         Weighted average of values from 1999Sh03 and 1964Mc21,       
+#A except noted otherwise, original energies of 1964Mc21 are increased    
+#A by 26 keV due to calibration, as recommended by 1991Ry01.              
+#A Other measurements: 1951Me10, 1958To25, 1968Ha14.                      
+#A IA        From 1999Sh03.                                               
+#A HF        r{-0}({+214}At)=1.5647 {I8}, weighted average of             
+#A r{-0}({+212}Po)=1.5649 {I8},  r{-0}({+214}Po)=1.559 {I8},              
+#A r{-0}({+214}Rn)=1.563 {I84},  r{-0}({+216}Rn)=1.556 {I8} (1998Ak04)    
+#G E,RI$From 1999Sh03                                                     
+#L E$From least square fit to E|g's by evaluator,                         
+#L except the 494 keV level.                                              
+#P 0.0           1-              1.0 MS    6              8014.0    20    
+FR218 AT214 alpha 8.014 0.001 1.0
++A alpha 7.8665 0.92
++A alpha 7.728 0.015
++A alpha 7.57 0.05
++A alpha 7.533 0.005
++A alpha 7.382 0.01
+
+#214AT    218FR A DECAY (22.0 MS)       1999Sh03,1982Ew01         09NDS    200902
+#  218FR A DECAY (22.0 MS)       1999Sh03,1982Ew01         09NDS    200902
+#H TYP=FUL$AUT=S. -C. WU{+a}$CIT=NDS 110, 681 (2009)$CUT=1-Nov-2007$      
+#  1999Sh03: Radioactivity of {+218}Fr produced from {+222} Ac decay      
+#  (following Th(p,X){+222}Ac);                                           
+#  ISOCELE mass and chemical separation of source.                        
+#  measured E|a, E|g, |a|g-, |g|g-coin; deduced levels J|p, |a-branching. 
+#  1982Ew01: Radioactivity of {+218}Fr produced from {+238}U(p,15n6p),    
+#  ISOCELE isotope separator;                                             
+#  measured E|a, I|a, |a|a--coin, T{-1/2};                                
+#  deduced levels J|p, |a-branching.                                      
+#  The |a's from 22.0-ms state were found to be in coincidence with       
+#  {+214}At |a groups of the ground and the isomeric states. See 1982Ew01 
+#  for coincidence intensities of |a's with various {+214}At |a groups.   
+#A E$From 1982Ew01. The original energies are decreased by 2.0 keV, as    
+#A recommended by 1991Ry01, due to changes in the calibration energies.   
+#A 1999Sh03 observed fewer |a-peaks and adopted the energies              
+#A from 1982Ew01. Others: 1982Bo04, 1983Fa03.                             
+#A IA$From 1982Ew01. 1999Sh03 observed fewer |a-peaks and the intensities 
+#A presented are weighted averages whenever available.                    
+#A HF        r{-0}({+214}At)=1.5647 {I8}, weighted average of             
+#A r{-0}({+212}Po)=1.5649 {I8},  r{-0}({+214}Po)=1.559 {I8},              
+#A r{-0}({+214}Rn)=1.563 {I84},  r{-0}({+216}Rn)=1.556 {I8} (1998Ak04)    
+#A Since the |a branching from the 22.0-ms isomer is not known,           
+#A the values given here should be considered as lower limits.            
+#A E(A)$Coincident with only |a group from 558-ns {+214}At g.s ().        
+#A E(B)$Coincident with |a groups                                         
+#A from 558-ns and 265-ns states (1982Ew01).                              
+#A E(E)$Coincident with |a groups from 558-ns g.s. and the unresolved     
+#A |a groups above 8850 keV from {+214}At excited state(s) (1982Ew01).    
+#A E(D)$Coincident with |a groups from 558-ns, 760-ns, and unresolved     
+#A |a groups above 8850 keV from {+214}At excited state(s) (1982Ew01).    
+#A E(F)      Overlaps with 7317|a from {+219}Fr (1982Ew01).               
+#A IA(S)$Weighted average of values from 1999Sh03 and 1982Ew01.           
+#G E,RI$From 1999Sh03                                                     
+#G M$From the ratio to the K x ray to gamma intensity (1999Sh03),         
+#G experimental values not given.                                         
+#L E$From E|a and Q-value, except as noted.                               
+#L E(F)$From least square fit to E|g's by evaluator.                      
+#L Uncertainties for the 277.9, 343.0, 728.4 levels reflect the |DE's     
+#L of the |g's only.                                                      
+#P 86        8                   22.0 MS   5              8014.0    20    
+FR218 AT214 alpha 8.014 0.022 1.0
++A alpha 7.951 0.024
++A alpha 7.874 0.013999999999999999
++A alpha 7.809 0.016
++A alpha 7.769 0.011399999999999999
++A alpha 7.724 0.048
++A alpha 7.68 0.159
++A alpha 7.656 0.109
++A alpha 7.615 0.413
++A alpha 7.548 0.0076
++A alpha 7.505 0.009300000000000001
++A alpha 7.457 0.013000000000000001
++A alpha 7.397 0.033
++A alpha 7.331 0.0058
++A alpha 7.238 0.095
++A alpha 7.176 0.0089
++A alpha 7.104 0.0161
++A alpha 7.085 0.0033
++A alpha 6.995 3.7E-4
++A alpha 6.953 0.0051
++A alpha 6.835 4.0E-4
+

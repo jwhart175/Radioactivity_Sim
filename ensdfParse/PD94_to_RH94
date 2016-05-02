@@ -1,0 +1,22 @@
+# 94RH    94PD EC DECAY                 2005BAZO,2004BAZY,1982KU1506NDS    200609
+#  94PD EC DECAY                 2005BAZO,2004BAZY,1982KU1506NDS    200609
+#H TYP=FUL$AUT=D. Abriola(a), A.A. Sonzogni$CIT=NDS 107, 2423 (2006)$     
+#H CUT=1-Jan-2006$                                                        
+#  1982Ku15: 58NI(40CA,X) E=4.0 MeV/^A. Fusion products separated using   
+#  GSI on-line mass separator, silicon DE-E telescopes to detect delayed  
+#  p, Ge(li) detectors to measure X and GAMMA ray activities. Measured    
+#  T, relative IG, delayed proton branching ratio.                        
+#  2005BAZO,2004BAZY: 58NI(40CA,X) E=4.8 MeV/^A Fusion products separated 
+#  using GSI on-line mass separator, large NaI crystal and auxiliary      
+#  detectors for selecting B- and EC events and identifying B-delayed     
+#  protons                                                                
+#G E,RI$From 1982KU15 (relative intensities)                              
+#  Level Scheme from 2005BAZO                                             
+#L J,T$From adopted values                                                
+#P 0           0+                9.0 S     5              6588.0    SY    
+PD94 RH94 beta+ 6.588 9.0 1.0
++G gamma 0.7239 0.121
++G gamma 0.7978 0.071
++G gamma 0.0546 0.11
++G gamma 0.5582 1.0
+

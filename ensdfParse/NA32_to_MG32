@@ -1,0 +1,72 @@
+# 32MG    32NA B- DECAY (13.2 MS)       2007MA04,2008TR04,1993KL0211NDS    201109
+#  32NA B- DECAY (13.2 MS)       2007MA04,2008TR04,1993KL0211NDS    201109
+#H TYP=FUL$AUT=CHRISTIAN OUELLET, BALRAJ SINGH$CIT=NDS 112, 2199 (2011)$  
+#H CUT=24-Aug-2011$                                                       
+#  2007Ma04: Measured E|g, I|g, |g|g, |b|g|g coin using 8|p               
+#  array of 20 HPGe detectors. The |b particles were detected             
+#  with SCEPTAR, a nearly 4|p array (at ISAC-TRIUMF facility)             
+#  of 20 thick plastic scintillators. The {+32}Na beam produced           
+#  by Ta(p,X) at E=500 MeV.                                               
+#  2008Tr04: {+32}Na parent produced in reaction {9}Be({+48}Ca,X) with    
+#  E=140 MeV/nucleon beam provided by NSCL at Michigan University.        
+#  A1900 spectrometer. Products implanted in double-sided silicon         
+#  strip detector as part of Beta counting system. Measured half-lives    
+#  using time-of-flight. Measured E|g, I|g, |g|g using segmented          
+#  germanium array of 16 Ge detectors.                                    
+#  1993Kl02: measured E|g, I|g, |g|g, n|g                                 
+#  1984Gu19: measured E|g, I|g, |b|g|g coin. 1979De02 is earlier          
+#  work by the same group                                                 
+#  1984La03 (same group as 1984Gu19): measured T{-1/2} and %|b{+-}n       
+#  Others:                                                                
+#  2005Ma96, 2005MA81: Measured E|g, |g|g, |b|g|g, I|g, and lifetime      
+#  using an Advanced Time Delayed method. The |b particles were           
+#  detected with a thin plastic scintillator, |g-rays detected            
+#  with two large volume Ge detectors. The {+32}Na isotope produced       
+#  by 1.4 GeV proton induced reaction in UC{-x} graphite target           
+#  at ISOLDE facility.                                                    
+#  1998NoZW, 1999YoZW: T{-1/2}, |b{+-}n                                   
+#  1983De04, 1980De26, 1979De02, 1978De39, 1975Th08: measured Q value     
+#  1972Kl04 (also 1972RiZJ thesis): measured T{-1/2}, first               
+#  isotopic identification in U(p,X) reaction at E=24 GeV,                
+#  CERN-ISOLDE                                                            
+#  32% {I7} of the decay proceeds by delayed neutron emission;            
+#  24% {I7} by |b{+-}n and 8% {I2} by |b{+-}2n.                           
+#  From RADLIST code, deduced energy balance=12250 keV {I430} as compared 
+#  to 13410 keV {I1340} from Q value and branching of 68% {I7} for        
+#  population of levels in {+32}Mg by |b{+-} decay                        
+#B IB,LOGFT$All values are considered as upper limits since there may be  
+#B undetected feedings to possible levels between 5-20 MeV. Thus all      
+#B corresponding log| {Ift} values are also considered as lower limits    
+#G $ EG=239.5 12, IG=28 3 (1984Gu19) is assigned to the decay of          
+#G 32NA decay, apparently to feed 32MG, but in 1993Kl02 this |g is        
+#G is assigned to delayed one-neutron decay mode                          
+#G E,RI$ From 2007Ma04, unless otherwise stated. Values from 1984Gu19,    
+#G 1993Kl02 and 2008Tr04 are in agreement but generally less precise.     
+#G The spectral purity and statistics is better in 2007Ma04 than in       
+#G other studies. Some of the relative gamma-ray intensities in           
+#G 2008Tr04 are systematically higher as compared to those in             
+#G 2007Ma04 and 1993Kl02, for example, for 1436|g, I|g=15 {12} in         
+#G 2008Tr04 while it is near 10 in other three studies quoted above.      
+#G Other problematic intensities are for 485|g, 1232|g and 3935|g.        
+#G For this reason intensities from 2008Tr04 are not used here.           
+#G E(A)$ The |g ray from 2007Ma04 only, assignment to {+32}Na decay       
+#G is uncertain.                                                          
+#G E(B)$ The 1231.7|g was placed from a 2117 level by 1993Kl02.           
+#G Here the revised double placement from |g|g data of 2007Ma04           
+#G is adopted; 2117 level is no longer present in the revised level scheme
+#L $ A 2117 level proposed by 1993Kl02 is omitted here due to             
+#L the revised placement of the 1231.7|g                                  
+#L J$From Adopted Levels                                                  
+#P 0              (3-,4-)        13.2 MS   4              1.972E+4  12    
+NA32 MG32 beta- 19.72 0.0132 1
++B beta- 9.107 0.1
++B beta- 8.401 0.035
++G gamma 1.4361 0.05684
++B beta- 8.287 0.028999999999999998
++B beta- 8.136 0.047
++B beta- 8.048 0.228
++B beta- 7.794 0.02
++B beta- 7.187 0.026000000000000002
++B beta- 7.169 0.136
++G gamma 1.7827 0.052199999999999996
+

@@ -1,0 +1,20 @@
+#164RE    168IR A DECAY (125 MS)        1996PA01,1982DE11,1978CA11NDS01    200107
+#  168IR A DECAY (125 MS)        1996PA01,1982DE11,1978CA11NDS01    200107
+#H TYP=FUL$AUT=BALRAJ SINGH$CIT=NDS 93, 243 (2001)$CUT=15-May-2001$       
+#  168IR source from 112SN(58NI,^X) at E=297 MeV (1996PA01).              
+#  Sources from 108CD(63CU,3N) (E(63CU)=280-320 MEV, enriched             
+#  targets (67.84%), helium-jet transport); measured EA                   
+#  (silicon surface-barrier detector).                                    
+#P 0.0                            125 MS   40             6561      SY    
+IR168 RE164 alpha 6.561 0.0 1.0
+
+#164RE    168IR A DECAY (161 MS)        1996PA01                  NDS01    200107
+#  168IR A DECAY (161 MS)        1996PA01                  NDS01    200107
+#H TYP=FUL$AUT=BALRAJ SINGH$CIT=NDS 93, 243 (2001)$CUT=15-May-2001$       
+#  168IR source from 112SN(58NI,^X) at E=297 MeV (1996PA01).              
+#  The half-life of 161 MS 21 was not correlated with any daughter        
+#  activity but was correlated with the |a decay of 172AU.                
+#  T1/2=161 MS 21 is from 1996PA01.                                       
+#P 0.0+X                          161 MS   21             6561      SY    
+IR168 RE164 alpha 6.561 0.0 0.82
+

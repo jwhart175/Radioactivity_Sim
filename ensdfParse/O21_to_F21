@@ -1,0 +1,28 @@
+# 21F     21O B- DECAY                  1981AL07                  15NDS    201507
+#  21O B- DECAY                  1981AL07                  15NDS    201507
+#H TYP=FUL$AUT=R.B. FIRESTONE$CIT=NDS 127, 1 (2015)$CUT=15-Jan-2015$      
+#  {+21}O was produced by the {+9}Be({+18}O,2p|a) reaction,               
+#  E({+18}O)=80-110 MeV. He Jet Recoil Transfer. |g|g and |b|g            
+#  coincidence measurements.                                              
+#B IB$Calculated assuming no beta feeding to the g.s. I|b(g.s.)=0.4% from 
+#B shell model calculations of Chung and Wildenthal (unpublished)         
+#B reported in 1981Al07.                                                  
+#P 0.0         (5/2+)            3.42 S    10             8110      12    
+O21 F21 beta- 8.11 3.42 1.0
++G gamma 0.27992 0.147744
++B beta- 2.967 0.37200000000000005
++G gamma 1.4505 0.098496
++G gamma 1.73028 0.456
++B beta- 2.955 0.045
++G gamma 1.75474 0.113088
++B beta- 2.116 0.12300000000000001
++G gamma 1.7292 0.04104
++B beta- 2.088 0.29600000000000004
++G gamma 1.78716 0.14181600000000003
++B beta- 2.029 0.01
++B beta- 1.574 0.105
++G gamma 0.9332 0.057912
++G gamma 4.5722 0.047424
++B beta- 1.568 0.053
++G gamma 4.5835 0.052896
+

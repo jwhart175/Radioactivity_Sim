@@ -1,0 +1,29 @@
+#167ER    167TM EC DECAY                1968FU09,1979ARZU         00NDS    200008
+#  167TM EC DECAY                1968FU09,1979ARZU         00NDS    200008
+#H TYP=FUL$AUT=Coral M. Baglin$CIT=NDS 90, 431 (2000)$CUT=5-Jul-2000$     
+#  Others: 1955NE01, 1957GO78, 1957GR74, 1957MI01, 1958BE72, 1959HA09,    
+#  1960NA14, 1962DZ03, 1962GR23, 1962KO09, 1963AL32, 1965FU04, 1966JA16,  
+#  1982AR22, 1982BEYN, 1987BAZB, 1990MU05, 1991BE15, 1991MU15, 1996BEZY.  
+#  1968FU09: sources from 165HO(A,2N); measured EG, IG (GELI), delayed    
+#  (x ray)(CE) coin.                                                      
+#  1979ARZU: measured CE data (mag spect).                                
+#  The decay scheme and most data are from 1968FU09.                      
+#G           See 1982AR22 for L-AUGER spectrum.                           
+#G           I(ER XKA)=310, relative to RI=10.0 for 531.5G                
+#G (1960NA14) (after correction for absorption and assuming |w{-K}=0.949),
+#G compared with I(ER XKA)=466 from decay scheme.                         
+#E           EC feedings are from intensity imbalance at each             
+#E level; no feeding to GS is expected, because DJ=3.                     
+#L J         Adopted values.                                              
+#G E,RI      From 1968FU09, except as noted.                              
+#G E(A)      Rounded-off value from adopted gammas; transition is         
+#G expected, but has not been observed, in 167TM EC decay.                
+#G RI(A)     Negligible; if it is assumed that there is no EC             
+#G branch, the only feeding into the 281.6 level is from                  
+#G 250.2G (RI=0.014).                                                     
+#G M(B)      From XG and CEG coin (1965FU04).                             
+#P 0.0          1/2+             9.25 D    2              748.4     15    
++B beta+ 8.098E-4 0.00145
++B beta+ 8.058999999999999E-4 0.00148
++B beta+ 7.259E-4 0.0020599999999999998
+

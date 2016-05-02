@@ -1,0 +1,32 @@
+#180PT    184HG A DECAY                 1994WA23                  15NDS    201506
+#  184HG A DECAY                 1994WA23                  15NDS    201506
+#H TYP=FUL$AUT=E.A. MCCUTCHAN$CIT=NDS 126, 151 (2015)$CUT=1-Feb-2015$     
+#  {+184}Hg activity produced in {+148}Nd({+40}Ca,4n), E({+40}Ca)=200     
+#  MeV. Measured E|a, I|a, E(ce), |a-ce-t and |a-x-ray-t coincidences     
+#  using a PIPS detector for |a's, a LEPS detector for x-rays and a       
+#  plastic scintillator for ce's.                                         
+#  The absolute intensity of the 5535-keV |a was obtained by 1970Ha18 to  
+#  be 1.25% {I20} from their measurements of |a/K x-ray ratio. The        
+#  measured I(K| x-ray) was corrected by 1970Ha18 for K| x-ray's due to   
+#  conversion electrons.                                                  
+#  In agreement with this intensity, 1980Sc09 obtained I|a(5535|a)=1.11%  
+#  {I6} from comparison of the intensities of parent and daughter         
+#  activities in the same spectrum. The |a branchings used for the        
+#  daughter nuclei are not given in 1980Sc09. A 30% correction was        
+#  applied by 1980Sc09 to the daughter line for the escaped recoiled      
+#  nuclei.                                                                
+#  In deducing the total |a branching, I|a(5535|a)=1.25% {I20} is         
+#  adopted here and the 5380 and 5055 |a intensities are added to         
+#  I|a(5535|a). I|a(5380|a)/I|a(5535|a)=40 {I8}/9960 {I8}, as adopted in  
+#  1989Fi11, and I|a(5055|a)=0.0020% {I4}, measured by 1994Wa13, are      
+#  used.                                                                  
+#A E$From 1970Ha18, except where noted.                                   
+#A IA$|a intensities per 100 |a decays. They are deduced from the         
+#A intensity ratios given above.                                          
+#A HF$r{-0}({+180}Pt)=1.512 {I11} is calculated from HF(5535|a)=1.0.      
+#L E,J$From the Adopted Levels.                                           
+#P 0.0          0+                30.87 S   26             5662     4     
++A alpha 5.539 0.9944
++A alpha 5.38 0.004
++A alpha 5.055 0.0016
+

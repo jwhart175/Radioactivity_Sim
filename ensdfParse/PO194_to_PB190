@@ -1,0 +1,22 @@
+#190PB    194PO A DECAY (0.392 S)       1994WA13,1993WA04,1989DE1803NDS    200306
+#  194PO A DECAY (0.392 S)       1994WA13,1993WA04,1989DE1803NDS    200306
+#H TYP=FUL$AUT=BALRAJ SINGH$CIT=NDS 99, 275 (2003)$CUT=30-Apr-2003$       
+#  The measured half-lives are T{-1/2}({+194}Po)=0.392 s {I4} (1993Wa04), 
+#  0.41 s {I3} (1981Le23), 0.70 s {I10} (1977De32), 0.6 s {I2} (1967Si09).
+#  T{-1/2}=0.392 s {I4} is adopted in 1996Br26 and here.                  
+#                                                                         
+#  %|a=93 {I7} was obtained by M. Leino, ph.d. Thesis (1983), as quoted in
+#  1993Wa04 (ref.19).                                                     
+#                                                                         
+#  Q(|a)({+194}Po)=6987 {I3} is recommended by 1995Au04.                  
+#A IA        Intensities per 100 |a decays are deduced from               
+#A I|a(6843)/I|a(6194|a)=93/0.22, measured by 1994Wa13 (also              
+#A 1995Bi12), and from the expectation of I|a=0.05 {I5} (<0.10),          
+#A obtained from HF(unobserved 6085|a)>1. The uncertainties in I|a's are  
+#A obtained from the uncertainty calculated by 1994Wa13 for HF(6194|a).   
+#A HF        r{-0}({+190}Pb)=1.511 {I6} is calculated by requiring        
+#A HF(68432a)=1.0.                                                        
+#P 0.0          0+                 0.392 S   4              6987    3     
++A alpha 6.843 0.9971
++A alpha 6.194 0.0024
+

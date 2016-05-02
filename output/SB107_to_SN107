@@ -1,0 +1,16 @@
+#107SN    107SB EC DECAY                2002RE14                  08NDS    200805
+#  107SB EC DECAY                2002RE14                  08NDS    200805
+#H TYP=FUL$AUT=Jean Blachot$CIT=NDS 109, 1383 (2008)$CUT=1-Mar-2008$      
+#  2002RE14: Measured E|g, I|g, |g|g using 3 large-volume HPGe detectors. 
+#  Recoil products separated in mass and charge by Fragment Mass Analyzer 
+#  1997SH13: The {+107}Sb was produced by fusion evaporation reactions    
+#  induced by a 58NI beam on 50CR,52CR targets at GSI. On line mass       
+#  separator with a ^"FEBIAD-^E" ion source. Measured G.                  
+#  The level scheme is from 2002RE14                                      
+#E TI,LOGFT$Deduced by the evaluator from intensity balance and           
+#E the results of log| {Ift} code                                         
+#G E(A)$Already seen by by 1997SH13                                       
+#L E$From least-squares fit to E|g's                                      
+#P  0.0        (5/2+)            4.0 S     2              7.92E3    SY    
+SB107 SN107 beta+ 7.92 4.0 0.22
+

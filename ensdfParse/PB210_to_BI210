@@ -1,0 +1,41 @@
+#210BI    210PB B- DECAY                1981HE15,1990SC08,1990HI0314NDS    201408
+#  210PB B- DECAY                1981HE15,1990SC08,1990HI0314NDS    201408
+#H TYP=FUL$AUT=M. SHAMSUZZOHA BASUNIA$CIT=NDS 121, 561 (2014)$            
+#H CUT=31-Mar-2014$                                                       
+#  1981He15: Measured G-ray energies using HPGe detector.                 
+#  1990Sc08: Measured G-ray and ^X-ray emission probabilities using two   
+#  Ge(Li) and one Si(Li) detectors.                                       
+#  1990HI03: Measured the emission rate of 46.5 keV G ray using 2|p|a     
+#  spectrometer and HPGe detector (thin beryllium window).                
+#G           Absolute XL intensities measured with a high-purity germanium
+#G detector (1990Sc08).                                                   
+#G                                                                        
+#G                          210BI XL                                      
+#G                                                                        
+#G                                            Intensities                 
+#G   energy                           experimental        deduced by      
+#G   (KEV)                             (1990Sc08)     evaluator#(2003Br13)
+#G --------                           -----------        -----------      
+#G    9.42  XLL                      0.55 3              0.48 5           
+#G   10.80  XLA                      9.48 17             9.45 50          
+#G   11.68  XLC                      0.075 4             0.083 5          
+#G   12.6   XLB4+XLB6            2.55 7              2.33 30              
+#G   13.0   XLB1+XLB2+XLB15  6.59 33             5.66 27 (XLB1+XLB2)      
+#G   13.3   XLB3+XLB5            1.54 9              2.79 40              
+#G   13.6   XLB10                    0.23 1                               
+#G   15.2   XLG1                     0.682 27            0.75 5           
+#G   15.6   XLG2                     1.38 4              0.75 12          
+#G   16.2   XLG4                     0.30 2                               
+#G                                                                        
+#G $# using theoretical conversion coefficients for a pure M1 46.5G.      
+#G           Others: 1987Me17, 1971Fi04, 1971Ge11, 1969Fr07, 1958Cu91,    
+#G 1958To10, 1957Fi06, 1954Da23, 1935St05. See 1967Ha03 for measurements  
+#G of L-AUGER electrons with a magnetic spectrometer.                     
+#G CC$FROM BrIcc v2.3a (30-Jun-2013) 2008Ki07, "Frozen Orbitals" appr.    
+#G MR$IF NO VALUE GIVEN IT WAS ASSUMED MR=1.00 FOR E2/M1,                 
+#G MR=1.00 FOR E3/M2 AND MR=0.10 FOR THE OTHER MULTIPOLARITIES            
+#L J,T       From Adopted Levels.                                         
+#P 0.0                0+         22.20 Y   22             63.5      5     
++B beta- 0.01616 0.16
++B beta- 0.0041600000000000005 0.84
+

@@ -1,0 +1,83 @@
+#156SM    252CF SF DECAY                2009SI21,1995ZH15         12NDS    201210
+#  252CF SF DECAY                2009SI21,1995ZH15         12NDS    201210
+#H TYP=FUL$AUT=C. W. REICH$CIT=NDS 113, 2537 (2012)$CUT=1-Mar-2012$       
+#  DATA SET RE-DONE (AUGUST, 2011) BY CW REICH TO INCLUDE DATA FROM       
+#   2009Si21.                                                             
+#   THE DATA ARE PRIMARILY FROM THE STUDY BY 2009Si21, WITH ADDITIONAL    
+#   INFORMATION FROM 1995ZH15, 1997Do20, 1997Ha64, AND 1998Ga12. THE      
+#   MIDDLE TWO OF THESE LISTED PAPERS HAVE MANY AUTHORS IN COMMON. IN     
+#   ALL OF THESE STUDIES, 156SM IS ONLY ONE OF A NUMBER OF NUCLIDES       
+#   THAT WERE INVESTIGATED.                                               
+#  2009Si21: 156SM produced as a product of the SF of 252CF. Fission      
+#   fragments were detected using the Gammasphere array of                
+#   anti-Compton spectrometers at Argonne National Laboratory. Measured   
+#   EG, RI, T1/2, GG coin in various combinations of prompt and           
+#   delayed |g's. Report members of the GS band up through the 16+        
+#   member and a rotational band up through the (15-) member built on     
+#   the (5-) isomeric level. Comparison with the results of               
+#   quasiparticle-rotor model calculations.                               
+#  1995Zh15: GG AND GGG COINCIDENCES MEASURED USING AN ARRAY OF 20        
+#   Compton-suppressed Ge DETECTORS AND THE EARLY IMPLEMENTATION OF       
+#   Gammasphere, CONSISTING OF 36 Ge DETECTORS. XX AND XG COINCIDENCES    
+#   MEASURED USING TWO X-RAY DETECTORS, FWHM=280 eV AT 14 KEV, AND THREE  
+#   Ge DETECTORS. REPORT EG, RI, 156SM GS BAND UP TO 14+ LEVEL, TWO 5-    
+#    LEVELS AND ONE 6- LEVEL.                                             
+#  1997Do20: MEASURED GGG COINCIDENCES USING 72 LARGE-VOLUME              
+#   Compton-suppressed Ge DETECTORS IN THE Gammasphere ARRAY. XX, XG AND  
+#   GG COINCIDENCES MEASURED USING TWO HIGH-RESOLUTION ^LEPS DETECTORS    
+#   AND TWO LARGE-VOLUME Compton-suppressed Ge DETECTORS. REPORT EG AND   
+#   THE GS BAND UP THROUGH THE 14+ MEMBER.                                
+#  1997Ha64: EXPERIMENTAL METHODS LARGELY SIMILAR TO THOSE OF 1995Zh15.   
+#   REPORT EG AND GS BAND UP THROUGH THE 14+ MEMBER.                      
+#  1998Ga12: FISSION FRAGMENTS WERE DETECTED IN THE SAPhIR DETECTOR,      
+#   CONSISTING OF 48 PHOTOVOLTAIC CELLS, EACH HAVING AN ACTIVE AREA OF    
+#   3 CM2 AND A THICKNESS OF 500 MICRONS. |g's DETECTED USING THE         
+#   ^EUROGAM ^II ARRAY, COMPOSED OF 54 Compton-suppressed Ge detectors:   
+#   30 COAXIAL DETECTORS AT FORWARD AND BACKWARD ANGLES; AND 24           
+#   "clover" DETECTORS AROUND 90 DEG. PROMPT AND DELAYED |g's             
+#   (0 TO 1 US) FOLLOWING FISSION WERE DETECTED USING THE Ge DETECTORS    
+#   OF ^EUROGAM ^II. MEASURED FRAGMENT-FRAGMENT-G AND                     
+#   FRAGMENT-FRAGMENT-GGG COINCIDENCES. REPORT ONE ISOMERIC LEVEL WITH    
+#   TWO DEEXCITING |g's AND THE GS BAND UP THROUGH THE 12+ MEMBER,        
+#   TOGETHER WITH NUCLEAR-MODEL CALCULATIONS OF THE SPECTRUM OF           
+#   THE LOW-LYING TWO-QUASIPARTICLE STATES.                               
+#  1974ClZX: |g's and X's measured in coincidence with fission fragments  
+#   with Ge and Si detectors. Delay of the |g's was measured. Report      
+#   one |g and one half-life.                                             
+#  SOME EARLIER STUDIES (prior to 1974): 1970ChZH; 1970Jo20; 1970Wi16;    
+#  1972Ho08. FOR A BRIEF DESCRIPTION OF THE EXPERIMENTAL DETAILS, SEE     
+#  THE ENSDF FILE.                                                        
+#  Other experiments:                                                     
+#  1970ChZH: K x rays and |g's were measured with Ge detectors in coin.   
+#       with fission fragment detectors.  Lifetimes were measured from    
+#       Doppler shift in the |g spectra.  This reference has also been    
+#       known as 1970Ch33 and 1970ChYJ.  Report 3 |g's.                   
+#  1970Jo20:  |g's were measured with a Ge detector in coincidence with   
+#       the fragments counted in a Si detector.  Delay of the |g's was    
+#       measured.  Report 2 |g's.                                         
+#  1970Wi16:  Apparently the same methods and results as 1970ChZH.        
+#  1972Ho08:  G-X coincidences measured in Ge detectors.  Report 1 G.     
+#G E         From 2009Si21, unless noted otherwise.                       
+#G RI        Unless noted otherwise, from 2009Si21.                       
+#G RI(E)     1995Zh15 report RI(880)/RI(1147)=41/27. 1990He11, from       
+#G  156PM B- decay, report RI(880)/RI(1148)=0.507 25. 1998Ga12 REPORT     
+#G  that RI(880)/RI(1148)=0.87.                                           
+#L E         From a least-squares fit by the evaluator to the listed      
+#L  EG values.                                                            
+#L J         From the adopted values. (For the levels observed only in    
+#L  these studies, the values are from this source data set and are       
+#L  based on the decay properties of the levels together with the usual   
+#L  considerations of rotational-band properties in strongly deformed     
+#L  nuclei)                                                               
+#L BAND(A)   KPI=0+, g.s. band                                            
+#L BAND(B)   KPI=5- band, |a=1 branch.                                    
+#L  Probable conf is |n5/2[642]+|n5/2[523].                               
+#L  1998Ga12, from model considerations, propose this as the              
+#L  two-proton-quasiparticle state with conf=|p5/2[532]+|p5/2[413].       
+#L BAND(b)   KPI=5- band, |a=0 branch.                                    
+#L  See the comment on the |a=1 branch.                                   
+#L BAND(C)   KPI=5- band.                                                 
+#L  Probable conf is |p5/2[532]+|p5/2[413].                               
+#P 0            0+               2.645 Y   8                              
+CF252 SM156 SF 0.0 8.346802377600001E7 1.0
+

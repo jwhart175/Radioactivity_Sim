@@ -1,0 +1,179 @@
+#190HG    190TL EC DECAY (2.6 M)        1976BI09,1991KO03,1994DE2503NDS    200306
+#  190TL EC DECAY (2.6 M)        1976BI09,1991KO03,1994DE2503NDS    200306
+#H TYP=FUL$AUT=BALRAJ SINGH$CIT=NDS 99, 275 (2003)$CUT=30-Apr-2003$       
+#  1976Bi09 (also 1974Ha10): Measured |g, |g|g, ce, |b{++}, T{-1/2}.      
+#  1991Ko03: Measured E|g, I|g, |g|g, ce for part of the level scheme     
+#  related to the population of the excited 0+ band                       
+#  1994De25: Measured E|g, I|g, |g|g. Data for selected transitions       
+#  and levels                                                             
+#  1975Va20 (also 1970Va27): Measured |g, |g|g, ce, T{-1/2}. Source       
+#  produced by mass separation of products from spallation reaction on    
+#  Pb with 600 MeV protons, ce data  obtained with Si(Li) detector        
+#  See {+190}Tl |e decay (3.7 min) for most details of the |g-ray         
+#  and conversion electron data and the complete level scheme             
+#  The decay scheme seems incomplete (in the evaluator's opinion)         
+#  in view of the large gap of 5.1 MEV between Q value and the highest    
+#  established level. Feedings to different levels are thus               
+#  considered as poorly known, and given as limits only.                  
+#G E$Generally from 1976Bi09. Averages taken when values are also         
+#G available from 1994De25. Uncertainty of 0.2 keV for strong |g rays     
+#G (I|g|>5) and 0.3 keV for weaker and poorly resolved lines (evaluator). 
+#G RI$Uncertainty|>10% (1976Bi09). See other details in {+190}Tl |e       
+#G decay (3.7 min)                                                        
+#G M$From ce data (see {+190}Tl |e decay (3.7 min) for details)           
+#G RI(A)$|g with 2.6-min {+190}Tl decay or 3.7-min {+190}Tl decay. I|g    
+#G from a source containing |?90% of 3.7-min isomer and |?10% {I2}.6-min  
+#G isomer                                                                 
+#G E(D)$|g mainly belongs with 3.7-min isomer but a small fraction        
+#G may also be associated with the 2.6-min isomer                         
+#G E(F),RI(F)$From 1991Ko03. The |g ray belongs to the decay of           
+#G either or both the 3.7-min and 2.6-min isomers                         
+#G CC(M)$Deduced from EKC+1.2(EKC), see 190TL EC decay (3.7 M) for        
+#G EKC values                                                             
+#L J$From adopted levels                                                  
+#P   0+X        2(-)             2.6 M     3              7.09E3    14    
+TL190 HG190 beta+ 7.09 156.0 0.79
+
+#190HG    190TL EC DECAY (3.7 M)        1976BI09,1991KO03,1994DE2503NDS    200306
+#  190TL EC DECAY (3.7 M)        1976BI09,1991KO03,1994DE2503NDS    200306
+#H TYP=FUL$AUT=BALRAJ SINGH$CIT=NDS 99, 275 (2003)$CUT=30-Apr-2003$       
+#  1976Bi09 (also 1974Ha10): Measured: E|g, I|g, |g|g, ce, |b{++},        
+#  T{-1/2}. {+190}Tl source produced by mass separation of products from  
+#  Ta({+16}O,xn) E=143 MeV and W({+16}O,xn) E=124 MeV. The ce data        
+#  obtained with Si(Li) and |b{++} data with a plastic scintillator.      
+#  1991Ko03 (also 1990Zg01): Measured E|g, I|g, |g|g, ce for part of the  
+#  level scheme related to the population of the excited 0+ band          
+#  1994De25: Measured E|g, I|g, |g|g. Data for selected transitions       
+#  and (mostly for positive parity) levels                                
+#  1975Va20 (also 1970Va27): Measured |g, |g|g, ce, T{-1/2}. Source       
+#  produced by mass separation of products from spallation reaction on    
+#  Pb with 600 MeV protons, ce data  obtained with Si(Li) detector        
+#  The decay scheme seems incomplete (in the evaluator's opinion)         
+#  in view of the large gap of 4.3 MEV between Q value and the highest    
+#  established level. Feedings to different levels are thus               
+#  considered as poorly known, and given as limits only.                  
+#E           The 1099.9, 1558.8 and 1656.9 levels have an                 
+#E apparent |e,|b{++} feeding of 16% {I10}, 4.2% {I11}, 5.3% {I4}, 6.5%   
+#E {I10}, respectively. The spin values, however,                         
+#E do not permit such feeding. There must be additional |g                
+#E transitions feeding these levels                                       
+#E           The |e, |b{++} feedings are considered tentative. The present
+#E decay scheme suggests significant |b{++} component, whereas the        
+#E reported value is 2.6% {I26}-9 (1975Va20). It is possible that the |e  
+#E decay proceeds to higher unobserved levels. 1976Bi09 do not give the   
+#E intensity of the annihilation radiation but the presented |g-ray       
+#E spectrum shows that the intensity of the 511-keV line is |?10%         
+#G           I(K| x ray)=151 {I45} (1975Va20)                             
+#G           I(|b{++})(from |g{+|+})=2.6% {I26}-9                         
+#G RI$From 1976Bi09, unless otherwise stated. For comparison              
+#G of relative intensities available from 1975Va20, 1976Bi09, 1991Ko03,   
+#G and 1994De25 from a source of mixed (both isomers) activities, see     
+#G the table below. In adopted gammas, branching ratios have been         
+#G deduced by considering intensity data from all the four studies.       
+#G Intensity division among two isomers based on comparison               
+#G of spectra from two different sources, one (derived mainly from        
+#G {+190}Pb |e decay) for which I(2.6 min, 2-)/I(3.7-min, 7+)|?2 and the  
+#G other ({+190}Tl produced directly from HI reaction) where              
+#G I(2.6 min, 2-)/I(3.7-min, 7+)|?0.1. The I|g's given by 1975Va20 and    
+#G 1974Ha10 are for a source containing both isomers but with the main    
+#G contribution from the 3.7-min, (7+) isomer                             
+#G E$Generally from 1976Bi09. Averages taken when values are also         
+#G available from 1994De25. Uncertainty of 0.2 keV for strong |g rays     
+#G (I|g|>5) and 0.3 keV for weaker and poorly resolved lines (evaluator). 
+#G RI$Uncertainty|?10% (1976Bi09). The separate intensities for           
+#G for the two isomers obtained by 1976Bi09 from solutions of coupled     
+#G algebraic equations for data from two sources described above          
+#G M,MR$From |a(K)exp (1976Bi09,1975Va20). ce data are normalized to      
+#G 416.4|g treated as E2, |a(K)=0.0294. 1976Bi09 used |a(K)=0.030 for     
+#G 416.4|g. The uncertainties on |a(K)exp's and |a(L)exp's are not given  
+#G by 1976Bi09. The evaluator assumes 15% on |a(K)exp's and |a(L)exp's.   
+#G |a(K)exp's and |a(L)exp's deduced from 1975Va20 are based on Ice's and 
+#G I|g's given by 1975Va20 for a source containing both isomers. The      
+#G ce data are also available from 1991Ko03                               
+#G RI(A)$|g mainly from 2.6-min activity                                  
+#G RI(B)$|g with 3.7-min {+190}Tl and/or 2.6-min {+190}Tl I|g is from the 
+#G source containing |?90% of 3.7-min isomer and |?10% of 2.6-min isomer  
+#G E(D)$|g ray may occur in 2.6-min {+190}Tl decay also                   
+#G E(F),RI(F)$From 1991Ko03. The |g ray belongs to either or both         
+#G the isomers                                                            
+#G E(H),RI(H)$From 1994DE25 only. The |g ray belongs to either or both    
+#G the isomers. Uncertainty of 10% assigned to intensity (evaluator)      
+#G CC(M)$Deduced from EKC+1.2(EKC)                                        
+#G $ -------------------------------------------------------------------  
+#G $    Relative intensities from mixed (3.7 min+2.6 min) activities      
+#G $   E|g        I|g           I|g          I|g          I|g             
+#G $            1976Bi09     1991Ko03    1994De25    1975Va20             
+#G $              |+10%                                                   
+#G $   142.7                                0.22                          
+#G $   196.8      4.7                                 7.1 {I10}           
+#G $   240.1      3.7                                 4.6 {I8}            
+#G $   257.0      1.6                                                     
+#G $   292.6                  0.03 {I2}                                   
+#G $   305.3     16                                  15.8 {I11}           
+#G $   313.7      1.4                                                     
+#G $   346.5      1.3                                 2.0 {I10}           
+#G $   370.3      4.6                                 5.9 {I10}           
+#G $   390.1                                0.20                          
+#G $   403.7                  0.28 {I8}        0.20                       
+#G $   416.4    100         100 {I7}         100       100                
+#G $   428.1                                0.30                          
+#G $   437.6      1.0                                                     
+#G $   445.1      1.1                                 2.2 {I10}           
+#G $   458.7      1.0                       1.0       1.0 {I6}            
+#G $   466.1                                          2.0 {I10}           
+#G $   478.3      1.2                                                     
+#G $   492.1                                0.47                          
+#G $   506.0                                0.59                          
+#G $   514.5                                0.18                          
+#G $   516.8                                0.7       1.5 {I6}            
+#G $   529.5                  0.18 {I7}       <0.03                       
+#G $   534.7                  0.75 {I6}        0.40                       
+#G $   543.9      5.8                       5.4       5.3 {I10}           
+#G $   557.0      6.7                       5.7       7.7 {I11}           
+#G $   569.9                                0.30                          
+#G $   592.6                                0.40                          
+#G $   604.3                                1.7                           
+#G $   615.4      4.5                       3.6       3.9 {I9}            
+#G $   620.4                                0.10                          
+#G $   625.4     85.5        75 {I5}          81.7      71 {I3}           
+#G $   658.7                                0.73                          
+#G $   683.8      8.0                       6.3       7.7 {I8}            
+#G $   685.8                                0.60                          
+#G $   692.1      4.9         3.9 {I3}                   5.6 {I10}        
+#G $   731.1     38.3        31 {I2}          34.5      30.5 {I20}        
+#G $   736.8                  0.34 {I11}       0.40                       
+#G $   751.1      1.2                       1.20      5.0 {I25}           
+#G $   800.1                  1.63 {I14}                                  
+#G $   808.8                                0.79                          
+#G $   839.7     24.8                                22.0 {I18}           
+#G $   862.3                  0.42 {I3}        0.10                       
+#G $    Relative intensities from mixed (3.7 min+2.6 min) activities      
+#G $   E|g        I|g           I|g          I|g          I|g             
+#G $            1976Bi09     1991Ko03    1994De25    1975Va20             
+#G $              |+10%                                                   
+#G $   933.4      1.1         0.48 {I15}       0.46                       
+#G $  1030.9                  1.35 {I10}                                  
+#G $  1099.9      5.1                       4.0       4.5 {I11}           
+#G $  1121.3      1.3                       0.87                          
+#G $  1142.5      3.8         4.2 {I3}         4.0       4.8 {I12}        
+#G $  1154.9                  0.69 {I6}        0.44                       
+#G $  1159.7                                0.51                          
+#G $  1194.7      2.3                                                     
+#G $  1240.9      1.4                       0.61                          
+#G $  1276.7      1.4                                                     
+#G $  1300.8                                0.16                          
+#G $  1323.5      1.8                       1.7                           
+#G $  1348        0.8                                                     
+#G $  1434.7                                0.14                          
+#G $  1468.1                  0.38 {I3}        0.48                       
+#G $  1558.9      1.0         1.22 {I9}        1.2                        
+#G $  1571.2                  0.21 {I12}       0.34                       
+#G $ 1976Bi09 estimate that 90% of the activity is from 3.7-min activity  
+#G $  ------------------------------------------------------------------  
+#L E$From least-squares fit to E|g's                                      
+#L J$From adopted levels                                                  
+#L E(F)$From 1991Ko03                                                     
+#L E(H)$From 1994DE25                                                     
+#P   0+Y        7(+)             3.7 M     3              7.09E3    14    
+TL190 HG190 beta+ 7.09 222.0 0.912
+

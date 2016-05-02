@@ -1,0 +1,15 @@
+#180AU    184TL A DECAY                 1980SC09,1976TO06         15NDS    201506
+#  184TL A DECAY                 1980SC09,1976TO06         15NDS    201506
+#H TYP=FUL$AUT=E.A. MCCUTCHAN$CIT=NDS 126, 151 (2015)$CUT=1-Feb-2015$     
+#  1980Sc09: {+184}Tl activity from {+142}Nd({+48}Ti,p9n), E({+48}Ti)=278 
+#  MeV. Channel selection using FEBIAD and mass separation with GSI online
+#  facility. Measured E|a, I|a using surface barrier detector.            
+#  1976To06: {+184}Tl activity from {+180}W({+14}N,10n), E({+14}N)=168    
+#  MeV. Channel selection using UNISOR isotope separator. Measured E|a,   
+#  I|a, and T{-1/2}                                                       
+#A IA$From 1980Sc09                                                       
+#P 0.0                (2-)        10.1 S    5              6296     26    
++A alpha 5.987 0.4
++A alpha 6.066 0.06
++A alpha 6.161 0.54
+

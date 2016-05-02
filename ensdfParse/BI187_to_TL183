@@ -1,0 +1,26 @@
+#183TL CA E(A)      This |a is correlated with 5910A from 183HG A DECAY          
+#A E(A)      This |a is correlated with 5910A from 183HG A DECAY          
+#A (1999BA45) which occurs following 183TL EC decay to 183HG.             
+#P 0.0          (9/2-)               32 MS 3               7778     15    
++A alpha 7.612 0.08
++A alpha 7.367 0.037000000000000005
++A alpha 6.995 0.883
+
+#183TL    187BI A DECAY (0.29 MS)       1999BA45                  02NDS    200202
+#  187BI A DECAY (0.29 MS)       1999BA45                  02NDS    200202
+#H TYP=FUL$AUT=CORAL M. BAGLIN$CIT=NDS 95, 49 (2002)$CUT=1-Jan-2002$      
+#  ADDED BR TO N RECORD (TWB. 19930323)                                   
+#  1999BA45: source from 97MO(92MO,pn), E=420 MEV, 93% 97MO target;       
+#  recoils identified using fragment mass analyzer and gas-filled         
+#  parallel-grid avalanche counter, then implanted in double-sided        
+#  SI strip detector; measured EA, IA, recoil-|a(t).                      
+#  Other: 1984SCZQ.                                                       
+#L J         From adopted levels.                                         
+#A HF(A)     R0 cannot be estimated in the usual manner                   
+#A (R0(182HG)=1.50 2, R0(184HG)=1.491 14 (1998AK04), but R0(182PB) and    
+#A R0(184PB) are unknown). However, provided R0 does not exceed           
+#A 1.55, HF<4 for this |a decay.                                          
+#P 111       21 (1/2+)           0.29 MS   +9-5           7778      15    
+BI187 TL183 alpha 7.778 2.9E-4 0.50
++A alpha 7.721 1.0
+

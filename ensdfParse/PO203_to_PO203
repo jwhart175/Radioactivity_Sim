@@ -1,0 +1,14 @@
+#203PO    203PO IT DECAY (45 S)         1986FA04,1969MOZV,1976KO1305NDS    200507
+#  203PO IT DECAY (45 S)         1986FA04,1969MOZV,1976KO1305NDS    200507
+#H TYP=FUL$AUT=F.G. KONDEV$CIT=NDS 105, 1 (2005)$CUT=1-Mar-2005$          
+#G E$From 1986Fa04.                                                       
+#G E(a)$A week transition due to the presence of 2.1G that was inferred   
+#G by the observed delayed intensity and energy relations in 1986Fa04.    
+#L E,J$From adopted levels.                                               
+#L E(A)$CONF=((P,H9/2,+2,0+)(N,F5/2,-1))(NU{+-6}){-0+}                    
+#L E(B)$CONF=((P,H9/2,+2,0+)(N,P3/2,-1))(NU{+-6}){-0+}                    
+#L E(C)$CONF=((P,H9/2,+2,2+)(N,F5/2,-1))(NU{+-6}){-0+}                    
+#L E(D)$CONF=((P,H9/2,+2,0+)(N,I13/2,-1))(NU{+-6}){-0+}                   
+#P 641.80    2013/2+             45 S      2                              
+PO203 PO203 IT 0.0 45.0 1.0
+

@@ -1,0 +1,63 @@
+# 80GE    80GA B- DECAY (1.676 S)       1981HO24                  05NDS    200508
+#  80GA B- DECAY (1.676 S)       1981HO24                  05NDS    200508
+#H TYP=FUL$AUT=BALRAJ SINGH$CIT=NDS 105, 223 (2005)$CUT=22-Jun-2005$      
+#  1981Ho24: {+80}Ga obtained from mass separation of fission fragments.  
+#  Measured |g, |g|g. Some details are given by 1980HoZN                  
+#  Other measurements:                                                    
+#  BGG(T): 2005MAZW                                                       
+#  |b{+-}, |b|g data: 1986Ek01, 1981Al20                                  
+#  Absolute intensity data: 1981Ho07                                      
+#  T{-1/2}({+80}Ga): 1993Ru01, 1991Kr15, 1976Ru01, 1982FoZZ,              
+#  1981Gi17, 1974Gr29                                                     
+#  |b{+-} strength function: 1975Al11                                     
+#  Yield in {+238}U(d,F): 1991Le09                                        
+#  Theory and systematics: 1983Be56                                       
+#  |b{+-}n: 1993Ru01, 1991Kr15, 1987Wi13, 1986Wa17, 1981Ru07,             
+#  1980Lu04, 1977Ru09                                                     
+#B IB,LOGFT$ ALL VALUES SHOULD BE CONSIDERED AS APPROXIMATE SINCE         
+#B THERE IS ABOUT 4 MEV GAP BETWEEN THE Q-=10.4 MEV AND THE LAST KNOWN    
+#B POPULATED LEVEL AT 6155. THERE MIGHT BE ADDITIONAL UNOBSERVED          
+#B TRANSITIONS WHICH COULD AFFECT DIRECT FEEDINGS QUOTED HERE.            
+#B APPARENT POPULATION OF HIGH-SPIN STATES OF (6+) AND (8+) ALSO          
+#B SUGGESTS THAT EITHER THE DECAY SCHEME IS INCOMPLETE OR THERE IS        
+#B ANOTHER ISOMER CONTRIBUTING TO THIS DECAY                              
+#G E,RI$From 1981Ho24. The intensities are from 1980HoZN (a separate      
+#G report by 1981Ho24)                                                    
+#G E(A)$Poor fit in level scheme. A value of 3664.87 would fit better     
+#G E(B),RI(B)$From 1981Ho24. 1980HoZN give E|g=1558.9 {I4}, I|g=0.60 {I9} 
+#L E$From least-squares fit to E|g's                                      
+#L J$From 'adopted levels'                                                
+#P    0         (3)               1.676 S  14              10.38E3  12    
++B beta- 4.67 0.18
++B beta- 4.35 0.13
++B beta- 3.91 0.053
++B beta- 3.82 0.095
++B beta- 3.71 0.055
++B beta- 3.57 0.045
++B beta- 3.29 0.03
++B beta- 3.22 0.02
++B beta- 3.2 0.0159
++B beta- 3.01 0.045
++B beta- 3.01 0.0074
++B beta- 3.0 0.0105
++B beta- 2.97 0.0097
++B beta- 2.96 0.0092
++B beta- 2.88 0.018000000000000002
++B beta- 2.77 0.0046
++B beta- 2.74 0.0091
++B beta- 2.73 0.014499999999999999
++B beta- 2.71 0.012199999999999999
++B beta- 2.57 0.055999999999999994
++B beta- 2.53 0.0051
++B beta- 2.47 0.028999999999999998
++B beta- 2.31 0.0152
++B beta- 2.25 0.031
++B beta- 2.13 0.0060999999999999995
++B beta- 2.08 0.0088
++B beta- 2.02 0.0067
++B beta- 1.97 0.0075
++B beta- 1.96 0.0181
++B beta- 1.86 0.0196
++B beta- 1.74 0.0109
++B beta- 1.68 0.005600000000000001
+

@@ -1,0 +1,43 @@
+# 65CO    65FE B- DECAY:0.81 S          2009PA16                  10NDS    201009
+#  65FE B- DECAY:0.81 S          2009PA16                  10NDS    201009
+#H TYP=FUL$AUT=E. BROWNE, J. K. TULI$CIT=NDS 111, 2425 (2010)$            
+#H CUT=1-Aug-2009$                                                        
+#  Compiled (Unevaluated) dataset of 2009Pa16                             
+#  Phys Rev C 79, 044309 (2009). Includes some data received              
+#  from D. Pauwels in an email reply May 12, 2009                         
+#  Compiled by B. Karamy and B. Singh (McMaster), May 7, 2009             
+#  {+65}Fe produced by 30-MeV proton-induced fission reaction on {+238}U  
+#  Measured E|g, I|g, |b|g|g-coin, half-lives with plastic                
+#  scintillation |b detectors and MINIBALL |g detectors. The experiments  
+#  conducted at LISOL facility at CRC center in Belgium                   
+#  {+65}Fe decay also studied in deep inelastic                           
+#  reaction: {+238}U({+64}Ni,X) E=430 MeV. Measured delayed |g rays.      
+#B IB,LOGFT$ All |b feedings, which have been deduced by the evaluators,  
+#B should be considered upper limits. Thus, associated log| {Ift} values  
+#B are lower limits, due to possible missed |g rays.                      
+#G E,RI$ Values obtained from {+65}Fe decay in delayed spectrum from      
+#G deep inelastic reaction are given under comments. These values         
+#G were communicated to the evaluators                                    
+#G in an e-mail reply from D. Pauwels on May 12, 2009.                    
+#L E$ Deduced by evaluators from least-squares fit to E|g's.              
+#P 0           (1/2-)            0.81 S    5              8.29E3    24    
+FE65 CO65 beta- 8.29 0.81 0.599
+
+# 65CO    65FE B- DECAY:1.12 S          2009PA16                  10NDS    201009
+#  65FE B- DECAY:1.12 S          2009PA16                  10NDS    201009
+#H TYP=FUL$AUT=E. BROWNE, J. K. TULI$CIT=NDS 111, 2425 (2010)$            
+#H CUT=1-Aug-2009$                                                        
+#  Compiled (Unevaluated) dataset from 2009Pa16                           
+#  Phys Rev C 79, 044309 (2009)                                           
+#  Compiled by B. Karamy and B. Singh (McMaster), May 7. {I2009}          
+#  {+65}Fe produced by 30-MeV proton-induced fission reaction on {+238}U  
+#  Measured E|g, I|g, |b|g|g-coin, half-lives with |b plastic             
+#  scintillation detectors and MINIBALL |g detectors. The experiments     
+#  conducted at LISOL facility at CRC center in Belgium                   
+#B IB,LOGFT$ All |b feedings, which have been deduced by the evaluators,  
+#B should be considered upper limits. Thus, associated log| {Ift} values  
+#B are lower limits, due to possible missed |g rays.                      
+#L E$ Deduced by evaluators from least-squares fit to E|g's.              
+#P 402       5 (9/2+)            1.12 S    15             8.29E3    24    
+FE65 CO65 beta- 8.29 1.12 0.58
+

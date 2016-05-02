@@ -1,0 +1,63 @@
+# 75GA    75ZN B- DECAY (10.2 S)        1986EK01                  13NDS    201309
+#  75ZN B- DECAY (10.2 S)        1986EK01                  13NDS    201309
+#H TYP=FUL$AUT=ALEXANDRU NEGRET, BALRAJ SINGH$CIT=NDS 114, 841 (2013)$    
+#H CUT=30-Jun-2013$                                                       
+#  1986Ek01 (also 1977Al17,1974Gr29): Zn isotopes separated as fission    
+#  fragments at the OSIRIS ISOL facility (Studsvik). Measured G, GG,      
+#  G(T), BG following the decay of 75ZN. Planar HPGE, coaxial Ge,         
+#  scintillator and Si detectors used to detect |g and |b particles.      
+#  The |g multipolarities were deduced from the measured CC.              
+#  Others:                                                                
+#  1985MaZW (measured G, GG), 1974Ch22                                    
+#G M,MR$From CE data (1986Ek01). However, details of such data are        
+#G not available                                                          
+#G E(A)$Placed by evaluators from unassigned G rays based on energy       
+#G sums                                                                   
+#G E(B)$Does not agree well in the least-squares fitting                  
+#G TI(C)$From intensity balance at 22.5 level.                            
+#G CC$ FROM BrIcc v2.2 (31-Mar-2008) 2008Ki07, "Frozen Orbitals" appr.    
+#L J$ From Adopted Levels                                                 
+#L E$From least-squares fit to EG data                                    
+#L T$From GG(T), for excited states                                       
+#P    0.0      (7/2+)            10.2 S    2              5906      3     
+ZN75 GA75 beta- 5.906 10.2 1.0
++B beta- 2.6852 0.08
++B beta- 2.5987 0.063
++B beta- 2.5738000000000003 0.07200000000000001
++G gamma 0.22866999999999998 0.289
++B beta- 2.4749 0.073
++B beta- 2.3903000000000003 0.075
++B beta- 2.2567 0.02
++B beta- 2.0665999999999998 0.025
++B beta- 2.009 0.0033
++B beta- 1.9525 0.009000000000000001
++B beta- 1.9354 0.055999999999999994
++B beta- 1.8982 0.0184
++B beta- 1.882 0.0022
++B beta- 1.7806 0.0125
++B beta- 1.603 0.023
++B beta- 1.5915 0.033
++B beta- 1.5842 0.047
++B beta- 1.5378 0.0172
++B beta- 1.5165 0.067
++B beta- 1.5054 0.008
++B beta- 1.4723 0.0039000000000000003
++B beta- 1.4478 0.025
++B beta- 1.4444000000000001 0.0104
++B beta- 1.4273 0.037000000000000005
++B beta- 1.426 0.0113
++B beta- 1.4105 0.069
++B beta- 1.408 0.020499999999999997
++B beta- 1.3618 0.023
++B beta- 1.3605999999999998 0.0092
++B beta- 1.3254000000000001 0.02
++B beta- 1.3003 0.026000000000000002
++B beta- 1.2984 0.0101
++B beta- 1.2943 0.0143
++B beta- 1.277 0.0134
++B beta- 1.2572999999999999 0.0113
++B beta- 1.2364000000000002 0.0092
++B beta- 1.1857 0.016
++B beta- 1.1432 0.025
++B beta- 1.1365 0.005600000000000001
+

@@ -1,0 +1,19 @@
+#108MO    108NB B- DECAY                1996PE25                  ENSDF    200810
+#  108NB B- DECAY                1996PE25                  ENSDF    200810
+#H TYP=FUL$AUT=Jean Blachot$CIT=ENSDF$CUT=1-Jul-2008$                     
+#H TYP=FUL$AUT=Jean Blachot$CIT=NDS 91, 135 (2000)$CUT=1-Jun-2000$        
+#  Identified from {+238}U(p,f), E=20 MeV, on-line isotope separator      
+#  IGISOL                                                                 
+#  Measured: G, GG, BG. 30%                                               
+#  ultrapure Ge, Plastic Scintillator                                     
+#  The identification of {+108}Nb is based on the observation of the      
+#  known |g in {+108}Mo in coin with |b particles.                        
+#G E$No uncertainties are given in 1996Pe25. Values are identical to those
+#G of 1996Gu04 in SF decay (except E|g=586.1 there) where |DE|g=0.2 keV.  
+#P 0.0          (2+)             0.193 S   17             10607     SY    
+NB108 MO108 beta- 10.607 0.193 1.0
++B beta- 4.661 0.13
++B beta- 4.484 0.09
++B beta- 4.47309 0.25
++B beta- 4.379060000000001 0.53
+

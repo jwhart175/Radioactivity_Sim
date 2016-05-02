@@ -1,0 +1,18 @@
+#193PT    193PT IT DECAY (4.33 D)       1968SV01                  06NDS    200602
+#  193PT IT DECAY (4.33 D)       1968SV01                  06NDS    200602
+#H TYP=FUL$AUT=E. Achterberg, G.V. Marti, V.R. Vanin, et al.$             
+#H CIT=NDS 107, 1 (2006)$CUT=30-Sep-2005$                                 
+#  1968Sv01: sources from PT(P,XN), EP=35 MEV, chem; measured ECE,        
+#  ICE (mag spect)                                                        
+#  Others: 1953Sw20, 1954Co29, 1954Gi04, 1955Br41, 1957Ew34, 1960Ma28,    
+#  1961Kr02.                                                              
+#G E         Deduced from E(CE) measurements. Calibration: KL1L1 and      
+#G KL2L3 AUGER lines in PT, E(CEK) 316G in 192PT (E(CEK)=238.087 10),     
+#G ThC a line (E(ce)=24.509) and ThB f line (E(ce)=148.108).              
+#G TI        From intensity balance in level scheme.                      
+#G E(A),M(A),MR(B)$From 193AU EC decay (17.65 H)                          
+#L J         From adopted levels                                          
+#L T         From adopted levels, unless otherwise noted.                 
+#P 149.78     3 13/2+            4.33 D    3                              
+PT193 PT193 IT 0.0 374112.0 1.0
+

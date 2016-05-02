@@ -1,0 +1,66 @@
+#131SN    131IN B- DECAY (0.28 S)       2004Fo06,1984Fo03,1984Fo1906NDS    200612
+#  131IN B- DECAY (0.28 S)       2004Fo06,1984Fo03,1984Fo1906NDS    200612
+#H TYP=FUL$AUT=YU. KHAZOV, I. MITROPOLSKY, A. RODIONOV$                   
+#H CIT=NDS 107, 2715 (2006)$CUT=17-Jul-2006$                              
+#            1963Gr13,1966St25,1974Gr29,1981Hu09: measured T1/2           
+#            1984Fo19,1984Fo03: measured |b's, |b|g-coin, |g's,           
+#  |g(t), |g|g(t), and |g|g-coin; HPGe, Ge(Li), plastic                   
+#  scin, OSIRIS                                                           
+#            1995Me16,1999Fo01: measured |b{+-} decay energy,             
+#  |b|g-coin, Si(Li), HPGe, OSIRIS                                        
+#  2004Fo06:{+131}In isotopes produced continuously by fission in the     
+#  combined target and ion source of OSIRIS mass spectrometer.            
+#  Measured E|g, I|g, |g|g, E|b, I|b, |b|g-coin using two HPGe            
+#  spectrometers of 80% and 30% relative efficiencies,  and an HPGe diode 
+#  used as |b spectrometer.                                               
+#  All  data are from 2004Fo06, except as noted. Other: 1980De35          
+#  Coincidences shown on drawing are from 2004Fo06                        
+#G E(B)      Attributed solely to g.s. decay based on T{-1/2} (1984Fo19)  
+#G E(D)      Assumed to follow the g.s. decay (2004Fo06)                  
+#G E(E)$May belong to the decay of (1/2-) 0.35 s 131In isomer (2004Fo06)  
+#G $ The evaluators treat existence and placement of 2192|g as            
+#G questionable; in 2004Fo06 that transition is not confirmed             
+#L J,T       From the adopted levels                                      
+#L E(A)      1984Fo19 assumed that these states were populated by the     
+#L 0.28 s (9/2+) {+131}In |b{+-} decay for simplicity. Some of these      
+#L states may be populated in 0.32 s (21/2+) {+131}In |b{+-} decay        
+#L and, therefore, would not deexcite directly to the g.s.                
+#P 0.0         (9/2+)            0.28 S    3              9177      18    
+IN131 SN131 beta- 9.177 0.28 1.0
++G gamma 2.75 0.0011
++G gamma 4.4049 0.0017000000000000001
+
+#131SN C  See the 131IN B- DECAY (0.28 S) data set for experimental details. All 
+#  See the 131IN B- DECAY (0.28 S) data set for experimental details. All 
+#  data are from 2004Fo06, except as noted                                
+#  Coincidences shown on the drawing are from 2004Fo06                    
+#L           See footnote on states above 4 MeV in 0.28-s |b{+-} decay    
+#L J,T       From the adopted levels                                      
+#B IB,LOGFT  From net |g feeding of each level                            
+#P 302       32(1/2-)            0.35 S    5              9177      18    
+IN131 SN131 beta- 9.177 0.35 1.0
+
+#131SN    131IN B- DECAY (0.32 S)       2004Fo06,1984Fo03,1984Fo1906NDS    200612
+#  131IN B- DECAY (0.32 S)       2004Fo06,1984Fo03,1984Fo1906NDS    200612
+#H TYP=FUL$AUT=YU. KHAZOV, I. MITROPOLSKY, A. RODIONOV$                   
+#H CIT=NDS 107, 2715 (2006)$CUT=17-Jul-2006$                              
+#  See the {+131}In |b- decay 0.28 s data set for experimental details.   
+#  All data are from 2004Fo06, except as noted                            
+#  Coincidences shown on drawing are from 2004Fo06                        
+#B IB,LOGFT  From net |g feeding of each level                            
+#G           Relative intensities in delayed spectrum (gated 100-900 ns   
+#G after prompt |b|g events) are given in the comments (1984Fo19).        
+#G           I(Sn K|a)=31 {I6}; relative intensity in delayed spectrum    
+#G (1984Fo19)                                                             
+#G RI(A)$|b|g coincidence spectra showed that I|g's for the 158 and 173   
+#G approximately 0% and 35%, respectively, of the total intensities were  
+#G in prompt coincidences with the |b's (1984Fo19)                        
+#L J,T(A),E(B)$From the adopted levels                                    
+#L T$From |g|g(t) (1984Fo19), except as noted.                            
+#P 3764      88(21/2+)           0.32 S    6              9177      18    
+IN131 SN131 beta- 9.177 0.32 1.
++G gamma 0.1711 0.013000000000000001
++G gamma 4.446 0.032
++G gamma 2.0959 0.21899999999999997
++G gamma 2.3802 0.145
+

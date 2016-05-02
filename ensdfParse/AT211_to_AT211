@@ -1,0 +1,27 @@
+#211AT    211AT IT DECAY (4.23 US)      1971MA36                  13NDS    201306
+#  211AT IT DECAY (4.23 US)      1971MA36                  13NDS    201306
+#H TYP=FUL$AUT=B. SINGH, S. SINGH, H.X. Nguyen and M. Patial$             
+#H CIT=NDS 114, 231 (2013)$CUT=28-FEB-2013$                               
+#  1971Ma36: 204HG(11B,4NG), 208PB(7LI,4NG) E=41 MEV, and                 
+#  209BI(A,2NG) E=34 MEV. Measured: EG, IG, ICE, GG, excit (delayed and   
+#  in-beam); (beam)(G)(T); GG(T); (beam)(G)(THETA) (in beam); G(THETA,H,T)
+#  (with a liquid 204HG target). Comparison with shell-model calculations 
+#  2009Ba28: {+9}Be({+238}U,X) E=1 GeV/nucleon, {+211}At isomer populated 
+#  and separated in fragmentation reaction using FRS at GSI facility,     
+#  measured |g rays using RISING array of Ge detectors. Following |g rays 
+#  in spectral figure 2 of the paper: 204, 253, 435, 511, 689, 1067, 1535.
+#  All the |g rays are in agreement with those from 1971Ma36              
+#G CC$ FROM BrIcc v2.3 (9-Dec-2011) 2008Ki07, "Frozen Orbitals" appr.     
+#G RI$Values given are delayed photon intensities from the 4.2-US isomer. 
+#G The reaction for these intensities is not stated by 1971Ma36.          
+#G The authors also give prompt to delayed intensity ratios for           
+#G reactions with 34-MEV ALPHA and 41-MEV 7LI beams.                      
+#G CC$Adjusted by evaluator to give LC(253.5G)=0.0920 (theory, E2).       
+#L $ The level scheme proposed by 1971Ma36 is based on the                
+#L |g|g-coin data. Configurations are based on shell-model calculations   
+#L J$From Adopted Levels.                                                 
+#L E(A)$ Member of |ph{-9/2}{+3} configuration                            
+#P 4816.2       (39/2-)           4.23 US  7                              
++G gamma 1.0671 1.09
++G gamma 0.5112 1.05
+

@@ -1,0 +1,55 @@
+# 74GE    74AS EC DECAY (17.77 D)       1976HA61,1972VA14,1969HA2806NDS    200607
+#  74AS EC DECAY (17.77 D)       1976HA61,1972VA14,1969HA2806NDS    200607
+#H TYP=FUL$AUT=BALRAJ SINGH, AMEENAH R. FARHAN$CIT=NDS 107, 1923 (2006)$  
+#H CUT=30-Apr-2006$                                                       
+#  {+74}As decays 66% by |e+|b{++} and 34% by |b{+-}. See {+74}As |b{+-}  
+#  decay also                                                             
+#  Main references: 1976Ha61, 1972Va14, 1969Ha28, 1968Ku09. Others:       
+#  |b{++}: 1958Gr02, 1971Bo01, 1968Va13, 1965He08, 1957Sc23,              
+#  1951Jo06, 1950Me55, 1942El04, for theoretical computations see         
+#  1988Cr04, 1972Ma72, 1970Ko20, 1970Ko06, 1960Ko06                       
+#  |b{++} spectra shapes: 1971Bo01, 1971De02 (theoretical                 
+#  analysis of results in 1971Bo01 and 1969De21). Others: 1958Gr02,       
+#  1951Jo06                                                               
+#  (|b{++})(|g)(|q): 1969De21, 1971De02 (theory), 1966Ha06,               
+#  1964Si12                                                               
+#  (|b{++})(|g): 1983PuZX, 1972MoZD, 1969De21, 1966Ha06,                  
+#  1951Jo06                                                               
+#  (|b{++})(|g)(CP): 1983PuZX                                             
+#  |g and/or |g|g: 1976Ha61, 1972Va14, 1969Ha28, 1968Ku09.                
+#  Others: 1975Ca37, 1972MoZD, 1970CoZU, 1969GuZV, 1968Da24, 1967Vi06,    
+#  1966St14, 1962Ei02, 1960Ya02, 1959Lo60, 1959Gi53, 1959Ho87, 1958Gr02,  
+#  1951Jo06, 1941De01                                                     
+#  |g|g(|q): 1975Ca37, 1970CoZU, 1969Ha28, 1969Sc11, 1962Ei02, 1960Ya02   
+#  |g|g(|q,H,t): 1972BeWU                                                 
+#  |g(pol,|q,t): 1972Ka35                                                 
+#  ce: 1983Pa10, 1958Gr02. (ce)(|g)(t): 1959Ho87                          
+#  |e/|b{++} ratio at 596 level: 1992BeZE                                 
+#  T{-1/2} and production: 1976Ha61, 1972Em01, 1964St08,                  
+#  1962Ei02. Others: 1973ArZI, 1968Bo25, 1967Gl05, 1967De22, 1956Ru45,    
+#  1953Wa40, 1950Ho26, 1950Og11, 1950Me55, 1948Mo33, 1948Mc31, 1948Ho04,  
+#  1941De01, 1939Sa10, 1938Cu01                                           
+#G E         Weighted averages of values from 1972Va14, 1969Ha28 and      
+#G 1968Ku09                                                               
+#G RI        Weighted averages of values from 1976Ha61, 1972Va14,         
+#G 1969Ha28 and 1968Ku09                                                  
+#G           The normalization of the decay schemes has been              
+#G carried out by using relative intensities of 596|g, 635|g, 1204|g      
+#G and the following ratios of experimental (1958Gr02) relative I|b's:    
+#G I(1350|b{+-})/I(717|b{+-})=1.22 {I10} (1958Gr02),                      
+#G I(1534|b{++})/I(941|b{++})=0.133 {I28} (1958Gr02),                     
+#G I(1534|b{++})/I(717|b{+-})=0.24 {I5} (1958Gr02),                       
+#G I(1534|b{++}+941|b{++})I(596|g)=0.495 {I30} (1969Ha28). For feeding to 
+#G g.s. I|e/I|b{++}=0.82 (theory for 1U transition)                       
+#L E         From least-squares fit to E|g's                              
+#L J         From 'adopted levels'                                        
+#P    0.0       2-                 17.77 D 2              2562.5    17    
+AS74 GE74 beta+ 2.5625 0.0 0.66
++B beta+ 0.7011000000000001 0.03
++B beta+ 0.408 0.26
++G gamma 0.5958300000000001 0.9
++B beta+ 0.14759999999999998 1.6E-4
++B beta+ 8.787E-4 0.0010199999999999999
++B beta+ 8.786E-4 0.0010199999999999999
++B beta+ 8.807E-4 0.001
+

@@ -1,0 +1,44 @@
+#159EU    159SM B- DECAY                1987WI14                  12NDS    201201
+#  159SM B- DECAY                1987WI14                  12NDS    201201
+#H TYP=FUL$AUT=C. W. Reich$CIT=NDS 113, 157 (2012)$CUT=31-Dec-2010$       
+#  DATA SET UPDATED (MARCH, 2010) BY CW REICH TO INCLUDE RECALCULATED     
+#   ICC VALUES, QP VALUE, LOGFT AND AVG. EB VALUES, TOGETHER WITH         
+#   MODIFIED COMMENTS.                                                    
+#  159SM produced by thermal-neutron fission of 235U (1986Ma12) and       
+#   spontaneous fission of 252CF (1987Wi14). In both cases                
+#   identification was by mass separation and the genetic relation        
+#   to the 159EU daughter activity.                                       
+#  The G data and decay scheme are from 1987Wi14.                         
+#  Experimental methods:                                                  
+#  1986Ma12: produced by thermal-neutron fission of 235U with mass        
+#   separation in TRISTAN; report half-life and 2 G's (114, 190).         
+#  1987Gr12: same as 1987Wi14; report half-life.                          
+#  1987Wi14: produced by spontaneous fission of 252CF with mass           
+#   separation; report half-life and 16 G's and all in scheme.            
+#   Deduce IB- and some multipolarities and mixing ratios.                
+#  1990An31: repeat half-life from 1987Wi14.                              
+#B           With a Q value of 3805 keV and levels reported only to       
+#B  1052 keV, the scheme is not complete. The computed log{Ift}           
+#B  values may be lower than might otherwise be expected. The effect      
+#B  of higher-energy levels would be to reduce these IB- values and       
+#B  increase the log{Ift} values.                                         
+#B IB        From G intensity balances. Value for ground-state branch     
+#B      is assumed to be equal to that to the 75 level. Since the scheme  
+#B      is incomplete, no uncertainties are given.                        
+#G MR(S)     Authors argue that the M1 component is "asymptotically       
+#G      unhindered and intrinsically quite strong", so the transition     
+#G      is predominantly M1 (1987Wi14).                                   
+#L E         From least-squares fit to G energies.                        
+#L J         From 159EU Adopted Levels and based on the (t,|a)            
+#L      assignments of 1979Bu05, except that for the 1052 level, which    
+#L      is based on this decay. See the Adopted Levels for the band       
+#L      assignments.                                                      
+#P   0           5/2-            11.37 S   15               3805    65    
++B beta- 1.585 0.1
++B beta- 1.55 0.1
++B beta- 1.483 0.013000000000000001
++B beta- 1.498 0.21
++B beta- 1.468 0.23
++B beta- 1.432 0.023
++B beta- 1.103 0.321
+

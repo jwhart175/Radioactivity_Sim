@@ -1,0 +1,64 @@
+#111CD    111AG B- DECAY (7.45 D)       1971NA02,1975SH29,1976SHYW09NDS    200905
+#  111AG B- DECAY (7.45 D)       1971NA02,1975SH29,1976SHYW09NDS    200905
+#H TYP=ERR$AUT=Jean Blachot$DAT=11-Jun-2013$COM=corrected RI(245.4G)$     
+#H TYP=FUL$AUT=Jean Blachot$CIT=NDS 110, 1239 (2009)$CUT=1-Feb-2008$      
+#  Others: 1950Jo53, 1964Sa21, 1968Mc04, 1969Sc12, 1970Hn04, 1971LaZS,    
+#  1974HeYW, 1974ShZQ, 1974BuZU, 1975PuZZ                                 
+#G E$From 1975Sh29 and 1976ShYW, except where noted otherwise             
+#G M$|a(K)exp=ce(K)/I|g normalized to |a(K)(245|g)=0.0536 (E2 theory).    
+#G Rel I(ce) measurements of 1975Sh29, 1976ShYW are                       
+#G normalized to I(ce(K) 245|g)=1.0                                       
+#G RI$From sources as indicated.                                          
+#G M(D)$From adopted |g's                                                 
+#P 0.0         1/2-              7.45 D    1              1036.8    14    
+AG111 CD111 beta- 1.0368 643680.0 1.0
++B beta- 0.3604 0.92
++B beta- 0.2789 0.01
++G gamma 0.2454 0.012358000000000001
++B beta- 0.2235 0.071
++G gamma 0.09675 0.00115564
++G gamma 0.34213 0.0668
++B beta- 0.1402 2.1999999999999998E-4
++G gamma 0.2783 5.344E-6
++G gamma 0.37460000000000004 3.1395999999999996E-5
++G gamma 0.6203 1.09552E-4
++B beta- 0.0777 4.0E-5
++G gamma 0.5094 1.3359999999999999E-5
++G gamma 0.7546 2.6719999999999998E-5
++B beta- 0.0442 8.999999999999999E-5
++G gamma 0.5224 9.352E-6
++G gamma 0.6193 5.344E-6
++G gamma 0.8651 1.5363999999999997E-5
++B beta- 0.0436 1.3E-4
++G gamma 0.5243 2.0708E-5
++G gamma 0.622 6.012E-5
++G gamma 0.867 3.6072E-5
+
+#111CD    111AG B- DECAY (64.8 S)       1977KR14                  09NDS    200905
+#  111AG B- DECAY (64.8 S)       1977KR14                  09NDS    200905
+#H TYP=ERR$AUT=J. Tuli$DAT=11-Jul-2014$COM=corrected NR to agree with PN$ 
+#H TYP=FUL$AUT=Jean Blachot$CIT=NDS 110, 1239 (2009)$CUT=1-Feb-2008$      
+#  Others: 1969Be11, 1969Sc12, 1972MeZD                                   
+#  From a 23-min 111PD source. G-rays from 64.8-s 111AG daughter are      
+#  obscured by extensive 111AG G-spectrum. Proposed partial decay         
+#  scheme is based largely on other experiments.                          
+#G E(A)$From adopted G's                                                  
+#G RI$Relative to IG(580G,111AG)=100 via 23-min 111PD B- decay            
+#L T,J$From adopted levels                                                
+#P 59.85       7/2+              64.8 S    8              1036.8    14    
+AG111 CD111 beta- 1.0368 64.8 0.007
++B beta- 0.2883 0.0029
++G gamma 0.2454 0.754
++G gamma 0.09675 0.001079
++G gamma 0.34213 0.062400000000000004
++B beta- 0.22130000000000002 0.0012
++G gamma 0.17128 0.182
++B beta- 0.1461 0.0016
++G gamma 0.2783 0.011049999999999999
++G gamma 0.37475 0.052000000000000005
++G gamma 0.6201 0.182
++B beta- 0.1006 0.0014000000000000002
++G gamma 0.33616 0.0208
++G gamma 0.5069 0.065
++G gamma 0.7527 0.065
+

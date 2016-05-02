@@ -1,0 +1,46 @@
+# 86BR    86SE B- DECAY (14.3 S)        1980ZE04                  15NDS    201412
+#  86SE B- DECAY (14.3 S)        1980ZE04                  15NDS    201412
+#H TYP=FUL$AUT=ALEXANDRU NEGRET, BALRAJ SINGH$CIT=NDS 124, 1 (2015)$      
+#H CUT=30-Nov-2014$                                                       
+#  1980ZE04 (also 1978ZEZZ): Measured EG, IG, GG.                         
+#  1982LI09: measured absolute GAMMA branching                            
+#  Others: 1977PF01, 1975HU02, 1973TA19, 1960SA05                         
+#G $The decay scheme seems incomplete. Some problems occur with the 5.1   
+#G level: it has been assumed in this evaluation that the 5.1 level       
+#G decays completely by G decay to the GS in agreement with the fact      
+#G that only one half-life has been observed for the B- decay of 86BR     
+#G to 86KR and with the probable E1 or M1 nature of the 5.1G.             
+#G 1980ZE04 proposed JPI(GS)=(3-), JPI(5.1)=(1-,2-) based on the          
+#G lack of a GS transition from the 2446 level. However, a B- branch to   
+#G the 86KR GS seems to be established in 86BR B- decay, which limits     
+#G JPI(GS)=0,1,2-.                                                        
+#G E$Uncertainty of 0.3-0.5 KEV assigned (evaluators) based on            
+#G a general statement by 1980ZE04, that these are 0.3 KEV for strong     
+#G lines and 0.5 KEV for weaker lines                                     
+#G RI$AP 5% uncertainty is assigned by the evaluators.                    
+#G M$From Adopted Gammas                                                  
+#L J$From Adopted Levels.                                                 
+#P 0           0+                14.3 S    3              5129      4     
+SE86 BR86 beta- 5.129 14.3 0.43
++G gamma 0.048299999999999996 0.35700000000000004
++G gamma 0.15419999999999998 0.07
++G gamma 0.2075 0.18100000000000002
++G gamma 0.2932 0.024
++G gamma 0.2284 0.039
++G gamma 0.38239999999999996 0.17800000000000002
++G gamma 0.4305 0.023
++G gamma 0.4355 0.018000000000000002
++G gamma 0.6116 0.006999999999999999
++G gamma 0.749 0.025
++G gamma 0.8396 0.006999999999999999
++G gamma 0.9937999999999999 0.077
++G gamma 1.042 0.018000000000000002
++G gamma 1.0471 0.008
++G gamma 1.117 0.07
++G gamma 1.2758 0.051
++G gamma 1.399 0.133
++G gamma 2.0105999999999997 0.237
++G gamma 2.239 0.179
++G gamma 2.4411 1.0
++G gamma 2.66 0.502
+

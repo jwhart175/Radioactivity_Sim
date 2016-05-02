@@ -1,0 +1,25 @@
+#167LU    167HF EC DECAY                1973ME09                  00NDS    200008
+#  167HF EC DECAY                1973ME09                  00NDS    200008
+#H TYP=FUL$AUT=Coral M. Baglin$CIT=NDS 90, 431 (2000)$CUT=5-Jul-2000$     
+#  Others: 1969AR23, 1970AT01, 1987ES08, 1989BR19.                        
+#  Sources from 170YB(3HE,6N); YB oxide targets enriched to 67%           
+#  in 170YB; chemical separation; measured EG, IG, (COMPTON-suppression   
+#  GELI spectrometer (FWHM=1.9 KEV at 1332 KEV)), XK (surface-barrier     
+#  GELI detector (FWHM=0.8 KEV at 122 KEV)), ICE (SILI).                  
+#  The decay scheme is tentative, and most certainly very                 
+#  incomplete; only three G rays were observed, although                  
+#  Q+=4000 suggests there might be many more.                             
+#L J         Adopted values.                                              
+#G           RI(XK)=58 29, I(G+-)=60 30, relative to RI=100               
+#G for 315.2G.                                                            
+#E           1973ME09 estimate GT 65% EC+B+ branching to 315.2            
+#E level from RI(XK)=58 29 and I(G+-)=60 30, relative to RI=100           
+#E for 315.2G. Intensity imbalance at 139.9 level indicates very          
+#E little, if any, EC+B+ feeding of that level (1.4% 17).                 
+#L BAND(A)   |p 7/2[404] BAND.                                            
+#L BAND(F)   |p 7/2[523] BAND.                                            
+#P 0.0          (5/2)-           2.05 M    5              4000      SY    
+HF167 LU167 beta+ 4.0 122.99999999999999 1.00
++B beta+ 8.15E-4 0.0014000000000000002
++B beta+ 1.347 0.00481
+

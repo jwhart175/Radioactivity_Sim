@@ -1,0 +1,39 @@
+#127CE    127PR EC DECAY                1995OS03,1995GI12         11NDS    201108
+#  127PR EC DECAY                1995OS03,1995GI12         11NDS    201108
+#H TYP=FUL$AUT=A. HASHIZUME$CIT=NDS 112, 1647 (2011)$CUT=1-Oct-2009$      
+#  1995Os03: Source produced by {+94}Mo({+36}Ar,x) E=5.4 MeV/u, mass      
+#  separation; measured |g, |b-|g, |g-|g. 1994Se13 is the first report    
+#  of the same group.                                                     
+#  1995Gi12: Source produced by {+92}Mo,{+94}Mo({+40}Ca,X) E=210 MeV,     
+#  mass separation; measured |b-X, |b|g, |b|g|g, |g-X(t), |g|g(t)         
+#L E         From a least-squares fit to E{-|g}'s.  The energy            
+#L of the first (5/2+) state is 8.1 {I9} and this level is fixed for the  
+#L least-squares fit, 0.9 keV were added in quadratic form on the |DE     
+#L in band(B) and band(C) (evaluator).                                    
+#L E$1994Se13 and 1995Os03 report the 29.56 {I5} |g to be delayed more    
+#L than 10 |ms, being not coincide with other prompt |g's. On the other   
+#L hand, 1995Gi12 report the M1 28.8 |g coincides with several |g's,      
+#L and attributed this prompt |g from (3/2+) to (1/2+) level in band(A).  
+#L 1995Gi12 observe prompt |g's which coincide with the |b-rays from      
+#L {+127}Pr decay, and do not report any delayed |g.                      
+#L One of authors (T.Sekine) in 1995Os03 gave evaluator an e-mail at      
+#L 2 Sept.2010. He says that, after the 1995Os03 being reported, the      
+#L weak 28.8 |g is found resolved from 29.56 |g, and confirmed the 28.8   
+#L |g coincides with 674 |g and Ce K x ray. In 1997, B. Firestone proposed
+#L in ENSDF file on A=127 (added file in 1993Ki01) that the 29.56 |g      
+#L is the E1 transition from 11/2{+-} level (the head of band(C)) to      
+#L 5/2{++} level (the head of band(B)). Further, evaluator notes that     
+#L if 29.56 |g is E1 and is delayed more than 10 |ms, the order of        
+#L BE1/BE1W becomes equal or smaller than 10{+-7} and this order for      
+#L E1 transition is permissible from the examples in this mass region.    
+#L J,T$From adopted levels                                                
+#L BAND(A)$|p =+ band built on the ground (1/2+) state                    
+#L BAND(B)$|p =+ band built on the (5/2+) state                           
+#L BAND(C)$|p =- band built on the (7/2-) state                           
+#G E,RI$From 1995Os03, except as noted.                                   
+#G CC$Theoretical conversion coefficients are calculated using BrIcc code 
+#G for the multipolarity indicated.                                       
+#G E(A)$Observed by 1995Gi12 only                                         
+#G E(B)$Observed by 1995Os03 only                                         
+#P  0.0                              4.2 S  3             7.54E3    SY    
+

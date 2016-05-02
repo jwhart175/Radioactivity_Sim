@@ -1,0 +1,27 @@
+#139I     248CM SF DECAY                2002UR02                           200808
+#  248CM SF DECAY                2002UR02                           200808
+#H TYP=FUL$AUT=B. SINGH, P.K. JOSHI$CUT=15-AUG-2008$                      
+#  2002Ur02: Measured E|g, I|g, |g|g, |g|g(|q), |g|g(directional linear   
+#  polarization) using EUROGAM2 array of Compton-suppressed Ge detectors  
+#  at Strasbourg facility. K-shell conversion coefficient of 197.6|g      
+#  measured by triple |g coin using Ge and LEPS detectors and comparing   
+#  K-x-ray and |g-ray intensities. Identification of |g rays in {+139}I   
+#  nuclide was based on observed correlations between |g rays in {+139}I  
+#  and in complementary fission fragments of Tc isotopes of mass 105-107. 
+#G $ A{-2} and A{-4} coefficients are from |g|g(|q) data.                 
+#G M$ From |g|g(|q) and directional linear polarization measurements.     
+#G In |g|g(q) data, expected A{-2}=+0.10, A{-4}=-0.01 for quadrupole      
+#G (|DJ=2)-quadrupole (|DJ=2) cascade and A{-2}=-0.07 for quadrupole      
+#G (|DJ=2)-dipole (|DJ=1) cascade                                         
+#L E$From least-squares fit to E|g's, assuming |D(E|g)=0.3 keV            
+#L for each E|g quoted to nearest tenth of a keV and 1 keV otherwise      
+#L J$ As proposed by 2002Ur02 based on systematics for g.s. and 209.5     
+#L level and multipolarities of transitions from higher levels            
+#L together with band associations. All assignments in 'adopted levels'   
+#L are the same except that all are given in parentheses there since      
+#L the g.s. spin-parity is not based on solid arguments.                  
+#L BAND(A)$ GS band                                                       
+#L BAND(B)$ Band based on 9/2+                                            
+#P  0           0+                3.40E5 Y 4                              
+CM248 I139 SF 0.0 0.0 1.0
+

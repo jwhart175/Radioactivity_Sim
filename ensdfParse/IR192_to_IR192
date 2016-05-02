@@ -1,0 +1,46 @@
+#192IR    192IR IT DECAY (1.45 M)       1954MI85,1971GE11         12NDS    201209
+#  192IR IT DECAY (1.45 M)       1954MI85,1971GE11         12NDS    201209
+#H TYP=FUL$AUT=Coral M. Baglin$CIT=NDS 113, 1871 (2012)$CUT=15-Jun-2012$  
+#  Others: 1948Ho37, 1950Ca10, 1953We02, 1960He08, 1961Sc07, 1963Ke08,    
+#  1987Re05.                                                              
+#  1954Mi85: sources from neutron capture by 191IR; measured EG           
+#  (scin), E(ce), Ice (mag spect).                                        
+#  1971Ge11: sources from neutron capture by 191IR; measured              
+#  x-ray/|g-ray intensity ratios (Si(Li)).                                
+#  1987Re05: sources from 193IR(n,2n), E(n)=14.73 MEV; measured           
+#  x-ray spectrum; deduced %(Ir L{-|a} x ray)=8.0 12, %(Ir, L{-|b} x      
+#  ray)=11.6 6.                                                           
+#L E         FROM EG.                                                     
+#L J         From Adopted Levels.                                         
+#P 56.720     5 1-               1.45 M    5                              
+IR192 IR192 IT 0.0 87.0 0.999825
+
+#192IR    192IR IT DECAY (241 Y)        1959SC41,1977SCZU         12NDS    201209
+#  192IR IT DECAY (241 Y)        1959SC41,1977SCZU         12NDS    201209
+#H TYP=FUL$AUT=Coral M. Baglin$CIT=NDS 113, 1871 (2012)$CUT=15-Jun-2012$  
+#  NO EVIDENCE FOR "K/L LE 0.06 (1959Sc41)" PREVIOUSLY GIVEN IN NDS (CMB).
+#  OTHERS: 1963HA17, 1970HA32.                                            
+#  Data are combined from 1959Sc41 and 1977ScZU; sources from             
+#  neutron capture by 191IR; measured I(K| x ray), I(L| x ray), E(ce),    
+#  Ice (scin). Isomeric assignment based on parent-daughter relationship  
+#  to 192IR(73.829 D).                                                    
+#G M(A)      From EKC. Also, [I|g(K| x ray)/RI(192PT 316G) for            
+#G 192IR (241 Y)]/ [I|g(K| x ray)/RI(192PT 316G) for 192IR                
+#G (73.829 D)]|?1 (1959Sc41) and [RI(L| x ray)/RI(192PT 316G) for         
+#G 192IR (241 Y)]/ [I|g(L| x ray)/RI(192PT 316G) for 192IR                
+#G (73.829 D)]|?16 (1959Sc41); therefore, the 155 transition is mainly    
+#G converted in the L shell, as is typical for high electric              
+#G multipolarity.                                                         
+#L E(B),J(B)$1959Sc41 conclude that the 241 Y isomer's ^IT either feeds   
+#L the GS or is followed by radiation(s) with EG<30 KEV. The tentative    
+#L 6+ 12.98-keV and 6- 16.05-keV states (see Adopted Levels) would not    
+#L have been detected by 1959Sc41; the former would suggest J|p=11- for   
+#L the isomer, analogous to that for the {+190}Ir high-spin isomer. Also, 
+#L Nilsson model calculations (1997BaZV) predict low-lying 11- and 10+    
+#L states. The latter state and a low-lying 9+ state predicted by         
+#L interacting-boson fermion-fermion calculations (1991Ke10), however, do 
+#L not appear to be compatible with an E5 isomeric transition.            
+#L J         FROM Adopted Levels.                                         
+#P 168.14    12 (11-)            241 Y     9                              
+IR192 IR192 IT 0.0 7.6052150208E9 1.0
+

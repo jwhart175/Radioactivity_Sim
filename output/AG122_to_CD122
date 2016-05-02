@@ -1,0 +1,65 @@
+#122CD    122AG B- DECAY (0.529 S)      1978SH03                  07NDS    200704
+#  122AG B- DECAY (0.529 S)      1978SH03                  07NDS    200704
+#H TYP=FUL$AUT=T. TAMURA$CIT=NDS 108, 455 (2007)$CUT=30-Sep-2006$         
+#  Produced in {+235}U(n,f), on-line MS; semi |g, semi-semi |g|g-coin     
+#  Other: 1971Fo22                                                        
+#  The decay scheme is that proposed by 1978Sh03;                         
+#  Since Q{-|b}=9.5 MeV and the highest level studied is |?2 MeV, the     
+#  decay scheme is probably incomplete.                                   
+#L J         FROM ADOPTED LEVELS                                          
+#B $|b-branchings and log {Ift} are approximate values.                   
+#G E         From 1978Sh03                                                
+#G RI        Relative to I(569.45|g)=100                                  
+#P  0.0        (3+)              0.529 S   13             9500      SY    
+AG122 CD122 beta- 9.5 0.529 1.0
++G gamma 0.0 0.032
++G gamma 0.56945 1.0
++G gamma 0.7597 0.34
++G gamma 0.7984 0.13
++G gamma 1.3678 0.043
++G gamma 0.6502 0.21
+
+#122CD    122AG B- DECAY: MIXED SOURCE  1995ZA01                  07NDS    200704
+#  122AG B- DECAY: MIXED SOURCE  1995ZA01                  07NDS    200704
+#H TYP=FUL$AUT=T. TAMURA$CIT=NDS 108, 455 (2007)$CUT=30-Sep-2006$         
+#  1995Za01: {+235}U(n,f) on-line MS; {+122}Ag isomers without parent     
+#  discrimination; measured |g, |g|g-coin, |b|g|g-coin,                   
+#  |g|g(|q); deduced E(levels), T{-1/2}(569.5 level), J|p                 
+#  Excited states of {+122}Cd was studied using mass-separated but        
+#  isomer-mixed {+122}Ag source. Since the excited states cover wide      
+#  range of J|p from 0+ to (8+), the source probably includes low- and    
+#  high-spin isomers. Especially, the parent must feed 1705 (J=0(+)) and  
+#  1992 (J=0(+)) levels for |g|g(|q), and 2823 (J=(8+))                   
+#G E$From singles spectra, but restricted only those |g's establish       
+#G the coincidence relations in mixed source (1995Za01)                   
+#G RI$Relative to I(569.45|g)=100 from a mixed source                     
+#G M         From angular correlation (1995Za01)                          
+#L E         Least-squares fit to E|g's (evaluator)                       
+#L J         From adopted levels                                          
+#P X                                                      9500      SY    
+AG122 CD122 beta- 9.5 0.0 1.0
++G gamma 0.56945 1.0
++G gamma 0.7597 0.435
++G gamma 0.7984 0.115
++G gamma 1.3678 0.048
++G gamma 1.1352 0.134
++G gamma 1.3396 0.052000000000000005
++G gamma 0.6502 0.289
++G gamma 1.4224 0.018000000000000002
++G gamma 0.8488 0.152
++G gamma 0.868 0.042
++G gamma 1.6276 0.039
++G gamma 1.7462 0.024
++G gamma 0.4655 0.06
++G gamma 0.3246 0.04
++G gamma 0.5232 0.062
++G gamma 0.5568 0.07
++G gamma 2.0075 0.043
++G gamma 0.4664 0.066
++G gamma 0.6653 0.059000000000000004
++G gamma 0.6892 0.013999999999999999
++G gamma 0.8211 0.02
++G gamma 0.6454 0.05
++G gamma 0.884 0.042
++G gamma 0.6676 0.079
+

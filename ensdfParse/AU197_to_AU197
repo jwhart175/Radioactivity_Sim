@@ -1,0 +1,24 @@
+#197AU    197AU IT DECAY (7.73 S)                                 05NDS    200503
+#  197AU IT DECAY (7.73 S)                                 05NDS    200503
+#H TYP=FUL$AUT=HUANG XIAOLONG, ZHOU CHUNMEI$CIT=NDS 104, 283 (2005)$      
+#H CUT=1-Jan-2002$                                                        
+#  Sources produced by daughter {+197}Pt(94.4 min) (1965Ha15), daughter   
+#  {+197}Hg(23.8 h) (1965Ha15), {+197}Au(n,n')                            
+#  (1947Fr04,1966Sm01,1968Bo52), {+197}Au(|g,|g') (1973Fo15) and          
+#  {+198}Pt(|a,5n) (1984Ha12).                                            
+#  {+197}Au IT decay corresponds to 23.8-h {+197}Hg |e decay directly     
+#  to 7.8-s isomeric state                                                
+#G RI        From 1966Sm01, except as noted                               
+#G E,M,MR    From adopted |g radiations                                   
+#G           I|g-Branching ratio data are from 23.8-h {+197}Hg |e decay   
+#L E         From decay scheme and E|g's by using least-squares fit to    
+#L data                                                                   
+#L J,T       From adopted levels                                          
+#P     409.15 811/2-             7.73 S    6                              
+AU197 AU197 IT 0.0 7.73 1.0
++G gamma 0.077351 0.0029778
++G gamma 0.2016 0.011344
++G gamma 0.27901 0.709
++G gamma 0.13019999999999998 0.031196
++G gamma 0.4091 0.0010634999999999998
+

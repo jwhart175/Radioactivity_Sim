@@ -1,0 +1,39 @@
+# 85RB    85KR B- DECAY (10.739 Y)      1980ME06                  14NDS    201408
+#  85KR B- DECAY (10.739 Y)      1980ME06                  14NDS    201408
+#H TYP=FUL$AUT=BALRAJ SINGH AND JUN CHEN$CIT=NDS 116, 1 (2014)$           
+#H CUT=31-Dec-2013$                                                       
+#  1980ME06: Radiochemical separation from fission products,              
+#  GELI detectors, measured G spectra.                                    
+#  Others: 2002Un02, 2004Sc04, 1996Er06, 1994Va37, 1993Ca41, 1992Mo10,    
+#  1992Un01, 1987Da33                                                     
+#G M,MR$From Adopted Gammas                                               
+#L J,T$From Adopted Levels                                                
+#P 0.0         9/2+              10.739 Y  14              687.0    20    
+
+# 85RB    85KR B- DECAY (4.480 H)       1980ME06,1970WO08         14NDS    201408
+#  85KR B- DECAY (4.480 H)       1980ME06,1970WO08         14NDS    201408
+#H TYP=FUL$AUT=BALRAJ SINGH AND JUN CHEN$CIT=NDS 116, 1 (2014)$           
+#H CUT=31-Dec-2013$                                                       
+#  FIXED NR, IB(151 LEVEL) - JKT 4/27/91                                  
+#  1980Me06: Radiochemical separation from fission products,              
+#  Ge(Li) detectors, measured |g spectra.                                 
+#  1970Wo08: Measured E|g, I|g, T{-1/2}, I|b, I(ce), E|b, Q. Deduced ICC, 
+#  multipolarities. Ge(Li) detector                                       
+#  All data from 1980Me06 unless otherwise noted                          
+#  Others: 1972McZC, 1960Sp02, 1959Bu99, 1955Th01, 1954Be36, 1952Be55,    
+#  Bergstrom and Thulin: Phys Rev 79, 537 (1950)                          
+#G M,MR$From Adopted Gammas                                               
+#L E$From least-square fits to E|g data                                   
+#L J$From Adopted Levels                                                  
+#P 304.86     71/2-              4.480 H   8              687.0     20    
+KR85 RB85 beta- 0.687 16128.000000000002 0.788
++B beta- 0.29034 0.785
++G gamma 0.151195 0.954
++B beta- 0.23822 0.00311
++G gamma 0.12981 0.003816
++G gamma 0.28101 9.54E-6
++B beta- 0.07461 1.8999999999999998E-4
++G gamma 0.451 1.4309999999999998E-4
++G gamma 0.5806 9.54E-6
++G gamma 0.7316 9.54E-5
+

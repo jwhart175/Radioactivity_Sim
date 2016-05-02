@@ -1,0 +1,44 @@
+# 74BR    74KR EC DECAY (11.50 M)       1975SC07,1974CO38,1974RO1106NDS    200607
+#  74KR EC DECAY (11.50 M)       1975SC07,1974CO38,1974RO1106NDS    200607
+#H TYP=FUL$AUT=BALRAJ SINGH, AMEENAH R. FARHAN$CIT=NDS 107, 1923 (2006)$  
+#H CUT=30-Apr-2006$                                                       
+#  1975Sc07, 1974Co38, 1974Ro11: Measured E|g, I|g, |g|g, |g|b+ coin      
+#  2004Po08 (also 2004Co29,2003Ma69): Measured |b strength functions      
+#  using total absorption gamma spectrometer (^TAGS)                      
+#  The level scheme is mainly from 1975Sc07                               
+#  Others:                                                                
+#  |g's: 1973DaYM                                                         
+#  |g|b+: 1973HoYM, 1960Bu22, 1960Gr19                                    
+#  THEORY: 2001SA67, 2001SA50, 1998SA21                                   
+#E TI$ FROM TOTAL ABSORPTION SPECTROSCOPY, 2004PO08 OBTAIN                
+#E 11.4% 3 EC+B+ FEEDING TO POSSIBLE LEVELS BETWEEN 978 AND 3000.         
+#E THE FEEDING TO GS COULD NOT BE OBTAINED IN THIS EXPERIMENT.            
+#G E,RI      1975Sc07 report 57 |g's whereas 1974Co38 and 1974Ro11 report 
+#G only 26 intense |g's. The evaluators have taken weighted averages for  
+#G |g's reported in all three references                                  
+#G E(A)      Reported by 1975Sc07 only                                    
+#G E(B)      Reported by 1974Ro11 only. Treated here as uncertain         
+#G RI(C)     Large difference between values from 1975Sc07 and 1974Co38.  
+#G Value given here is unweighted average of the two                      
+#L E         From least-squares fit to E|g's                              
+#L J         From 'adopted levels'                                        
+#P    0.0       0+                11.50 M   11            2975      15    
+KR74 BR74 beta+ 2.975 0.0 1.0
++B beta+ 0.861 0.085
++B beta+ 0.832 0.0167
++B beta+ 0.824 0.1
++G gamma 0.0897 0.31
++B beta+ 0.804 0.006500000000000001
++B beta+ 0.783 0.013999999999999999
++B beta+ 0.768 0.25
++B beta+ 0.756 0.0159
++B beta+ 0.725 0.32
++B beta+ 0.687 0.0034000000000000002
++B beta+ 0.622 0.0060999999999999995
++B beta+ 0.588 0.02
++B beta+ 0.587 0.0019
++B beta+ 0.547 0.019
++B beta+ 0.489 0.002
++B beta+ 0.428 0.0039000000000000003
++B beta+ 0.424 0.0019
+

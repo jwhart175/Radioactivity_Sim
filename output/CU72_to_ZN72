@@ -1,0 +1,81 @@
+# 72ZN    72CU B- DECAY                 2006TH12                  10NDS    201002
+#  72CU B- DECAY                 2006TH12                  10NDS    201002
+#H TYP=FUL$AUT=D. Abriola(a), A.A. Sonzogni$CIT=NDS 111,1 (2010)$         
+#H CUT=1-May-2009$                                                        
+#  {+72}Cu isotope produced by induced fission of a {+238}U target via a  
+#  1-GeV proton beam at the CERN-ISOLDE facility.  The fission products   
+#  were selectively ionized and mass separated.                           
+#  Measured E|g, I|g, |g|g, |g|b coin with four plastic scintillators     
+#  for |b detection with three of them associated with the HPGe |g-ray    
+#  detectors.  Almost the same data were reported in thesis by 2002VaZX.  
+#  In table II, the following |g rays are from impurities as              
+#  communicated by J.-C. Thomas: 145.1 {I3} (from {+72}Zn decay); 264.6   
+#  {I1} (from {+75}Ge decay); 352.4 {I4} (from {+214}Pb background);      
+#  386.5 {I1}, 487.6 {I1} and 619.4 {I2} (from {+71}Zn isomer decay);     
+#  834.4 {I2} (from {+72}Ga decay); 1461.1 {I4} (from {+40}K              
+#  background); and 3355.0 {I7} (in coin with 653|g from {+72}Cu decay,   
+#  most likely a single-escape peak of 3865|g, its weak coin with 653|g   
+#  is probably accidental)                                                
+#  Other: 1983RU06, where 72ZN was produced by W(76GE,X) at  E=9          
+#  MeV/nucleon.                                                           
+#B IB$From intensity balance                                              
+#G E(X)$Placement from energy matching.                                   
+#G E(E)$Level-energy difference=2207.7                                    
+#G RI$Relative intensities deduced from areas of |b-gated |g peaks.       
+#L E$From least-squares fit to E|g's.                                     
+#P 0.0         (2)               6.63 S    3              8362      3     
+CU72 ZN72 beta- 8.362 6.63 0.79
++G gamma 0.6526799999999999 1.0
++G gamma 0.84675 0.114
++G gamma 0.8583 0.02
++G gamma 0.9599 0.0034000000000000002
++G gamma 1.0047000000000001 0.17300000000000001
++G gamma 1.6576 0.11699999999999999
++G gamma 1.4042999999999999 0.0038
++G gamma 2.169 0.015
++G gamma 0.5353 0.0064
++G gamma 1.54 0.068
++G gamma 0.9424 0.0034999999999999996
++G gamma 1.7893 0.0059
++G gamma 0.98824 0.019
++G gamma 1.1464 0.012
++G gamma 1.9930999999999999 0.07
++G gamma 0.5996 0.0032
++G gamma 0.6123 0.015
++G gamma 0.7161799999999999 0.0073
++G gamma 1.2515 0.076
++G gamma 1.4082999999999999 0.0074
++G gamma 2.2556 0.055999999999999994
++G gamma 2.4092 0.055999999999999994
++G gamma 1.6105 0.0031
++G gamma 2.54 0.011000000000000001
++G gamma 2.594 0.017
++G gamma 3.2463 0.006999999999999999
++G gamma 1.896 0.008
++G gamma 0.9286 0.0023
++G gamma 1.9173 0.013999999999999999
++G gamma 2.9219 0.016
++G gamma 0.7531 0.0043
++G gamma 1.016 0.049
++G gamma 1.469 0.0070999999999999995
++G gamma 2.0044 0.04
++G gamma 3.0089 0.036000000000000004
++G gamma 2.0405 0.013000000000000001
++G gamma 0.7987000000000001 0.018000000000000002
++G gamma 1.516 0.011000000000000001
++G gamma 2.0503 0.0055000000000000005
++G gamma 2.2066999999999997 0.016
++G gamma 3.0547 0.023
++G gamma 3.7069 0.022000000000000002
++G gamma 2.0949 0.012
++G gamma 3.1 0.033
++G gamma 3.2129000000000003 0.015
++G gamma 3.865 0.099
++G gamma 3.3484000000000003 0.031
++G gamma 3.4774000000000003 0.028999999999999998
++G gamma 2.5175 0.012
++G gamma 2.8592 0.028999999999999998
++G gamma 2.7698 0.011000000000000001
++G gamma 2.2365 0.024
++G gamma 3.9415999999999998 0.013999999999999999
+

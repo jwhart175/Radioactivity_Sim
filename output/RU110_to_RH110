@@ -1,0 +1,36 @@
+#110RH    110RU B- DECAY                1991JO11                  12NDS    201206
+#  110RU B- DECAY                1991JO11                  12NDS    201206
+#H TYP=FUL$AUT=G. G~URDAL and F.G. KONDEV$CIT=NDS 113, 1315 (2012)$       
+#H CUT=1-Aug-2011$                                                        
+#  Source: {+238}U(P,F), E = 20 MeV. The experiment was performed using   
+#  MC-20 cyclotron and the IGISOL on-line mass separator facility. The    
+#  production rate of the parent {+110}Ru was |?3|*10{+2} atoms/|mC.      
+#  The beta decay energies were determined with a |DE-E telescope detector
+#  system consisting of a 300 mm{+2}, 0.5 mm thick Si(Au) surface         
+#  barrier |DE detector and a 60 mm thick and 75 mm in diameter plastic   
+#  scintillator E detector. The gamma rays were detected by a 20% and a   
+#  25% coaxial Ge detectors and a 1.4cm{+3} planar Ge detector. The       
+#  conversion coefficients were measured using magnetic lens type         
+#  conversion electron spectrometer ^E^L^L^I. Measured: EB-,EG,RI,GG,BG,  
+#  CE, T1/2. Deduced: Levels, mult, JPI.                                  
+#B IB,LOGFT$From intensity balances and the adopted level scheme by the   
+#B evaluators. Values are tentative, since the level scheme is incomplete 
+#B (pandemonium)                                                          
+#L E$From least-square fit to  E{-|g}'s                                   
+#L J$From 1991JO11                                                        
+#G E,RI$From 1991Jo11                                                     
+#P 0.0         0+                12.04 S   17             2774      20    
+RU110 RH110 beta- 2.774 12.04 1.0
++G gamma 0.096 0.5
++B beta- 2.81 0.7
++G gamma 0.11220000000000001 10.0
++G gamma 0.054 0.16
++G gamma 0.1661 0.26
++G gamma 0.0882 0.09
++G gamma 0.1161 0.18
++G gamma 0.0854 0.09
++G gamma 0.1394 0.14
++G gamma 0.2516 0.21
++G gamma 0.4154 0.17
++G gamma 0.5548 0.08
+

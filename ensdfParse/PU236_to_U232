@@ -1,0 +1,43 @@
+#232U     236PU A DECAY                 1994AR08                  06NDS    200610
+#  236PU A DECAY                 1994AR08                  06NDS    200610
+#H TYP=FUL$AUT=E. BROWNE$CIT=NDS 107, 2579 (2006)$CUT=1-Nov-2004$         
+#  236PU source produced by 238U(P,3N)236NP(22.5 H), which decays to      
+#  236PU. Chemical separation of plutonium. Measured EG, RI, GG COIN      
+#  using Germanium detectors. Others: 1956Hu96, 1963Le17.                 
+#A E(X),IA(X)$Values recommended in 1991Ry01. Others: 1976BaZZ,           
+#A 1979Ry01, 1984Ry02.                                                    
+#G M$From Adopted Gammas                                                  
+#G RI$RI are per 100 decays of 236PU. Relative experimental values        
+#G normalized to an absolute scale from a decay scheme G-ray transition   
+#G intensity balance using IA(GS)=69.1 % 3 (1994Ar08).                    
+#L BAND(A)   KPI=0+ GS rotational band                                    
+#L BAND(B)   KPI=0- Octupole vibrational band                             
+#L BAND(D)   KPI=0+ Beta vibrational band                                 
+#L BAND(E)   KPI=2+ Gamma vibrational band                                
+#L BAND(J)   KPI=(0+) Two-phonon octupole vibrational band                
+#P 0.0          0+               2.858 Y   8              5867.07   8     
+PU236 U232 alpha 5.86707 9.01896453504E7 1.0
++A alpha 5.76753 0.691
++A alpha 5.72087 0.308
++A alpha 5.6137 0.0023
++G gamma 0.10895 2.25E-4
++A alpha 5.450399999999999 1.8500000000000002E-5
++G gamma 0.16609000000000002 7.35E-6
++A alpha 5.2361 1.3E-7
++G gamma 0.218 8.4E-8
++A alpha 5.214 2.5999999999999997E-6
++G gamma 0.51558 1.63E-6
++G gamma 0.5631900000000001 1.14E-6
++A alpha 5.087899999999999 5.8E-6
++G gamma 0.64387 2.25E-6
++A alpha 5.0455 1.3E-7
++A alpha 5.0335 2.4600000000000002E-8
++A alpha 4.9482 6.0E-9
++G gamma 0.677 9.5E-10
++A alpha 4.9154 1.2099999999999998E-7
++A alpha 4.856 1.3299999999999999E-7
++G gamma 0.364 1.0900000000000001E-7
++G gamma 0.8799 2.1E-8
++A alpha 4.8164 1.5299999999999998E-7
++G gamma 0.3385 7.2E-8
+

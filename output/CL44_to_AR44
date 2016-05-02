@@ -1,0 +1,24 @@
+# 44AR    44CL B- DECAY (0.56 S)        1999WIZX,2004MR01,1995SO0311NDS    201109
+#  44CL B- DECAY (0.56 S)        1999WIZX,2004MR01,1995SO0311NDS    201109
+#H TYP=FUL$AUT=JUN CHEN, BALRAJ SINGH AND JOHN A. CAMERON$                
+#H CIT=NDS 112, 2357 (2011)$CUT=31-Jul-2011$                              
+#  2004Mr01: {+44}Cl produced by E=60 MeV/nucleon {+48}Ca beam fragmented 
+#  on a Be target and selected by the spectrometer LISE3 at GANIL.        
+#  Isotopes implanted into a double-sided Si detector surrounded by two   
+#  coaxial HPGe and one EXOGRAM four-fold clover detector; two plastic    
+#  scintillators for detecting |b radiation. Measured E|g, I|g. Deduced   
+#  levels, branchings.                                                    
+#  1999WiZX: {+44}Cl produced by fragmentation of {+48}Ca beam at         
+#  70 MeV/nucleon with a Be target. Measured E|g, I|g, |g|g coin          
+#  and |b|g|g coin using Ge and Si detectors.                             
+#  1995So03: {+44}Cl identified in {+64}Ni({+48}Ca,X) E=60 MeV/nucleon.   
+#  The {+44}Cl decay branch to {+43}Ar by |b{+-}n is <8%.                 
+#  The level scheme is from 1999WiZX.                                     
+#G E,RI$ From 1999WiZX. The intensities are not corrected for             
+#G summing effects, unless otherwise noted.                               
+#G E(A)$ From 2004Mr01                                                    
+#L E$ From least-squares fit to E|g data                                  
+#L J$ From Adopted Levels                                                 
+#P  0          (2-)              0.56 S    11             12.07E3   14    
+CL44 AR44 beta- 12.07 0.56 1.0
+

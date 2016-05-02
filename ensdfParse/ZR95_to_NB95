@@ -1,0 +1,43 @@
+# 95NB    95ZR B- DECAY                 1999BEZS,1999BEZQ         10NDS    201010
+#  95ZR B- DECAY                 1999BEZS,1999BEZQ         10NDS    201010
+#H TYP=FUL$AUT=S. K. Basu, G. Mukherjee, A. A. Sonzogni$                  
+#H CIT=NDS 111, 2555 (2010)$CUT=30-Jun-2009$                              
+#  1999BEZS,1999BEZQ: Evaluation by R. ^G. Helmer, July 1998 including    
+#  some general comments from previous evaluation (1993Bu08): This        
+#  evaluation was done as part of a collaboration of evaluators from      
+#  Laboratoire National Henri Becquerel (^LNHB) in France;                
+#  Physikalisch-Technische Bundesanstalt (^PTB) in Germany; ^HMS Sultan   
+#  and ^AEA Technology in the United Kingdom; Khlopin Radium Institute    
+#  (^KRI) in Russia; Centro de Investigaciones Energeticas,               
+#  Medioambientales, y Tecnologicas (^CIEMAT) and Universidad Nacional a  
+#  Distancia (^UNED) in Spain; and Brookhaven National Laboratory         
+#  (^BNL), Lawrence Berkeley National Laboratory (^LBNL), and Idaho       
+#  National Engineering and Environmental Laboratory (^INEEL) in the      
+#  United States.                                                         
+#  Measurements include: |b|g circular polarization, scin (1965Co18);     
+#  |g's (Ge(Li)) and ce(K)'s (Si(Li)). {+95}Zr-{+95}Nb equilibrium        
+#  source (1969Br29); |g's (Ge(Li)) and |b{+-}'s and ce(K)'s (|b spect),  
+#  pure {+95}Zr, mixed {+95}Zr and {+95}Nb, pure 35-day I|b               
+#  normalization, and mixed 35-day and 87-h I|b normalization sources     
+#  (1974An22); see {+95}Nb |b{+-} decay (34.975 d) for details            
+#  (1976Ho04); |g(|q), Ge(Li), polarized nuclei (1976Kr01); I|g's,        
+#  Ge(Li), pure {+95}Zr and measured mixed {+95}Zr and {+95}Nb sources    
+#  (1975De17); |b|g(t), scin (1991De24). Others: 1969Fo01 and 1972HeYG    
+#  and see 1983Lu03 for additional references                             
+#B E(A)$From 1974An22                                                     
+#G E$From 2000He14 for 724 |g, for 756 |g from 1978He21 scaled by         
+#G 0.9999943 to 2000He14 energy scale, and from 1976Ho04 for 235 |g.      
+#G M$From |a(K)exp, |b|g circular polarization, and |g(|q)                
+#G EKC$From 1969Br29. Others: |a(K)exp(235|g)=1.67 {I13} and              
+#G |a(K)exp(724|g)=0.00123 {I6} from ce(K) of 1974An22 and I|g of         
+#G 1975De17 assuming |a(K)(757|g)=0.00120. See also {+95}Nb ^IT decay     
+#G (86.6 h)                                                               
+#L J,T$From the {+95}Nb Adopted Levels, except as noted                   
+#L J(A)$From |b|g circular polarization (1965Co18)                        
+#L T(B)$From |b|g(t) (1991De24)                                           
+#P 0.0          5/2+              64.032 D  6              1123.6   18    
++B beta- 0.4056 0.0010299999999999999
++B beta- 0.32724000000000003 0.0108
++B beta- 0.12061 0.4434
++B beta- 0.10939 0.5446
+

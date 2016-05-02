@@ -1,0 +1,25 @@
+# 22F     22O B- DECAY                  1989HU07,2005WE06         15NDS    201507
+#  22O B- DECAY                  1989HU07,2005WE06         15NDS    201507
+#H TYP=FUL$AUT=M. Shamsuzzoha Basunia$CIT=NDS 127, 69(2015)$              
+#H CUT=1-Apr-2015$                                                        
+#  1989Hu07: Source produced by Be({+40}Ar,x) E=60 MeV/A, mass separated  
+#  by LISE mass spectrometer.  HPGe, |g|g and |b|g coincidences.          
+#  2005We06: Mass separated {+12}C{+22}O molecular beam from the ISOLDE   
+#  facility; {+22}O obtained from fission of uranium by 1.4 GeV protons.  
+#  Measured  E|g, I|g, |g|g, |b|g coin using Ge detector for |g rays and  
+#  plastic scintillator for |b rays.                                      
+#G E$From 1989Hu07, except otherwise noted.                               
+#G RI$From 1989Hu07, except otherwise noted. Intensity not corrcted for   
+#G summing in 1989Hu07. 2005We06 corrected intensity for summing from     
+#G simulation, applicable for 2499G (1862.6G + 637.4G). Reported          
+#G intensities in 1989Hu07 and 2005We06 are statistically consistent.     
+#L E$From G-ray energies                                                  
+#L J,T$From Adopted Levels                                                
+#B IB$From G-ray intensity balance                                        
+#P 0           0+                2.25 S     9             6490      58    
+O22 F22 beta- 6.49 2.25 1.0
++G gamma 0.0716 1.02
++G gamma 0.6374 1.0
++G gamma 0.918 0.34
++G gamma 1.8625999999999998 0.63
+

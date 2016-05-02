@@ -1,0 +1,42 @@
+#109SN    109SB EC DECAY                2002RE14,1982JO03         06NDS    200602
+#  109SB EC DECAY                2002RE14,1982JO03         06NDS    200602
+#H TYP=FUL$AUT=JEAN BLACHOT$CIT=NDS 107, 355 (2006)$CUT=1-Aug-2005$       
+#  2002Re14: Measured E|g, I|g, |g|g using 3 large-volume HPGe detectors. 
+#  Recoil products separated in mass and charge by Fragment Mass Analyzer 
+#  1982Jo03: Activity: from {+92}Mo+ {+20}Ne and {+58}Ni+ {+58}Ni         
+#  1976Ox01: Activity: from {+112}Sn(p,4n) E(p)=25-{ 65 MeV}              
+#  The following gammas: 407, 1273, 1488, 1632, 1836, 2195 seen by        
+#  1976Ox01 are not present in 1982Jo03 and certainly belong to           
+#  contaminants                                                           
+#  Measured: T{-1/2}, E|g, I|g, |g|g, |gX, |g|b, Q(|e) (1982Jo03)         
+#  The total average radiation energy released by {+109}Sb is 6396 keV    
+#  {i175} (calculated by evaluators using the computer program RADLST).   
+#  This value agrees with Q(|b{++})={ 6380 keV {i16}} (2003Au03).         
+#  However, some branchings                                               
+#  between the last level (1496 keV) and 6380 could exist.                
+#E TI$Deduced by the evaluators from intensity balance, assuming          
+#E %|e+|b{++}=13 {I7} to g.s. and 2.6 {I14} to 14.0 level.                
+#E LOGFT$From results of log| {Ift} code                                  
+#E IB$A g.s. branching ratio of 2|+1% derived from the fitting            
+#E of the positron spectrum                                               
+#G E(A)$Already seen by 1976Ox01                                          
+#L E$From least-squares fit to E|g's (by evaluators),                     
+#L assuming |D(E|g)=1 keV when not given                                  
+#P         0   (5/2+)            17.0 S    7              6380      16    
++B beta+ 8.487E-4 0.0012
++B beta+ 2.479 3.3E-4
++B beta+ 2.473 3.3E-4
++B beta+ 2.161 4.8E-4
++B beta+ 2.154 4.8E-4
++B beta+ 2.036 5.600000000000001E-4
++B beta+ 2.004 5.8E-4
++B beta+ 1.971 6.1E-4
++B beta+ 1.963 6.2E-4
++B beta+ 1.891 6.8E-4
++B beta+ 1.837 7.3E-4
++B beta+ 1.765 8.100000000000001E-4
++B beta+ 1.708 8.799999999999999E-4
++B beta+ 1.692 9.1E-4
++B beta+ 1.567 0.0011
++B beta+ 1.519 0.0011899999999999999
+

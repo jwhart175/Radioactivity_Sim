@@ -1,0 +1,22 @@
+#188TL    192BI A DECAY (39.6 S)        1991VA04,1988HU03         02NDS    200204
+#  192BI A DECAY (39.6 S)        1991VA04,1988HU03         02NDS    200204
+#H TYP=FUL$AUT=BALRAJ SINGH$CIT=NDS 95, 387 (2002)$CUT=26-Feb-2002$       
+#  1991VA04,1988HU03: sources from rhenium (natural)(16O,XN),             
+#  E(16O) LT 180 MEV and 181TA(20NE,XN), E(20NE) LT 230 MEV,              
+#  mass separation; measured time-sequential ALPHA, X-RAY, and            
+#  G-ray spectra, AG coin, XG coin.                                       
+#  Others: 1966SI11, 1967TR06, 1970TA14, 1972GA27, 1974LE02, 1983FA03.    
+#  The decay scheme is from 1991VA04; data are from 1988HU03, except      
+#  where noted.                                                           
+#  E(level) relative to E(level)=0.0 for high-spin (7+) 188TL             
+#  isomer.                                                                
+#L J$Adopted values.                                                      
+#A IA$From 1991VA04. IA(10- to 188TL(2-))<0.08                            
+#G M$From CE data (1991VA04)                                              
+#P  0.0+X       (10-)            39.6 S    4              6376      5     
+BI192 TL188 alpha 6.376 39.6 0.10
++A alpha 6.348 0.023
++A alpha 6.253 0.0054
++A alpha 6.081 0.065
++A alpha 6.052 0.907
+

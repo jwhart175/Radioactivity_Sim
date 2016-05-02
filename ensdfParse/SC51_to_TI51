@@ -1,0 +1,305 @@
+# 51TI  XA51SC B- DECAY                                                          
+#XA51SC B- DECAY                                                          
+#XB48CA(A,NG)                                                             
+#XC48CA(6LI,2NPG), (7LI,3NPG)                                             
+#XD48CA(16O,13C)                                                          
+#XE49TI(T,P)                                                              
+#XF50TI(N,G) E=THERMAL                                                    
+#XG50TI(D,P), (POL D,P)                                                   
+#XH50TI(13C,12C)                                                          
+#XI50TI(D,PG)                                                             
+#XJ51V(N,P)                                                               
+#XK51V(D,2HE)                                                             
+#L E         For states connected by gammas, E(level)'s are               
+#L from adopted |g-radiations and the level scheme, using least-squares   
+#L fit to data.                                                           
+#L E(E)      Values of 1964Ba39 are consistently lower                    
+#L than the adopted values by 7 keV for the 1160 level to 12              
+#L keV for the 3759 level. Where used in adopted levels (4012 level and   
+#L higher), the evaluator has increased the authors values by 10 keV.     
+#L J         From L value in {+50}Ti(d,p), except as noted.               
+#L J(D)      From |g(|q), polarization, and yield analyses                
+#L in {+48}Ca(|a,n|g).                                                    
+#L J(C)      From L=0 in {+49}Ti(t,p).                                    
+#L J(B)      From |g(|q) and vector analyzing power in {+50}Ti(pol d,p).  
+#L T         From recoil distance in                                      
+#L {+48}Ca({+6}Li,2np|g),({+7}Li,3np|g), except as noted.                 
+#L T(T)      From DSA measurements in {+50}Ti(d,p|g).                     
+#G E         From {+51}Sc |b{+-} decay, except as noted.                  
+#G E(E),RI(E)$From {+50}Ti(n,|g) E=thermal.                               
+#G E(F),RI(F)$From {+48}Ca(|a,n|g).                                       
+#G E(X),RI(Y)$From {+50}Ti(d,p|g). I|g values are not corrected for       
+#G |g(|q).                                                                
+#G RI        Relative photon branching from each level.                   
+#G Values from {+51}Sc |b{+-} decay, except as noted.                     
+#G M         Comparison to RUL and |DJ|p from level scheme, except as     
+#G noted                                                                  
+#N                                                                     6  
+#Q 2471.8    106372.5  5 12473   15-9813.3 23    2012WA38                 
+#Q Note: Current evaluation has used the following Q record               
+#Q 2473.5    116372.5  5 12480   16-9812.6 22    2003Au03                 
+#L 0.0         3/2-              5.76 M    1                              
+#L %B-=100                                                                
+#L XREF=+$                                                                
+#L FLAG=B$                                                                
+#L T         from weighted av of 5.752 min {I7} (1969IsZZ), 5.80 min {I3} 
+#L (1955Bu01), and 5.79 min {I3} (1953Sa11).                              
+#L   1166.7   31/2-              34 FS     4                              
+#L XREF=ADEFGHIK$                                                         
+#L FLAG=BT$                                                               
+#G 1166.6    4 100       [M1]                                             
++G gamma 1.1665999999999999 1.0
+#G FLAG=E$                                                                
+#G BM1W=0.41 5                                                            
+#L   1437.3   37/2-              0.42 PS   +37-15                         
+#L XREF=ABCD(1500)EGIK(1460)$                                             
+#L FLAG=CT$                                                               
+#G 1437.3    4 100       [E2]                                             
++G gamma 1.4373 1.0
+#G BE2W=20 +7-18                                                          
+#L   1567.5   3(5/2)-            86 FS     +26-21                         
+#L XREF=ABD(1500)EGIK(1570)$                                              
+#L FLAG=DT$                                                               
+#G 1567.5    4 100       [M1,E2]                                          
++G gamma 1.5675 1.0
+#G BM1W=0.033 10$BE2W=31 10                                               
+#L   2144.0   35/2-              0.11 PS   2                              
+#L XREF=AD(2150)EGHIK(2150)$                                              
+#L FLAG=BT$                                                               
+#G 576.3     4 10.5    4 [M1]                                             
++G gamma 0.5762999999999999 0.105
+#G BM1W=0.095 18                                                          
+#G 706.6     7 2.97    21[M1,E2]                                          
++G gamma 0.7066 0.0297
+#G BM1W=0.0074 15$BE2W=34 7                                               
+#G 977.2     7 1.98    25[E2]                                             
++G gamma 0.9772000000000001 0.019799999999999998
+#G BE2W=8.8 20                                                            
+#G 2144.1    4 100     3 [M1,E2]                                          
++G gamma 2.1441 1.0
+#G BM1W=0.0088 17$BE2W=4.4 9                                              
+#L    2198.1 4 3/2-               10 FS    3                              
+#L XREF=D(2150)EFGHI$                                                     
+#L FLAG=BT$                                                               
+#G 630.7     5 30        [M1]                                             
++G gamma 0.6307 0.3
+#G FLAG=XY$                                                               
+#G BM1W=1.7 6                                                             
+#G 1031.3    5 21        [M1]                                             
++G gamma 1.0312999999999999 0.21
+#G FLAG=XY$                                                               
+#G BM1W=0.28 9                                                            
+#G 2198.0    10100       [M1,E2]                                          
++G gamma 2.198 1.0
+#G FLAG=XY$                                                               
+#G BM1W=0.0708 22$BE2W=33.5 11                                            
+#L   2344.6   4(11/2-)           9.6 PS    16                             
+#L XREF=ABCIK(2330)$                                                      
+#L FLAG=D$                                                                
+#G 907.2     4 100        E2                                              
++G gamma 0.9072 1.0
+#G M         from (|a,n|g).                                               
+#G BE2W=8.5 15                                                            
+#L   2691.4   87/2-                                                       
+#L XREF=AEGI$                                                             
+#L FLAG=C$                                                                
+#G 1124      1 100     11                                                 
++G gamma 1.124 1.0
+#G 1253.8    1528      5                                                  
++G gamma 1.2538 0.28
+#G 2691      2 16.3    19                                                 
++G gamma 2.691 0.163
+#L   2731.2   4(7/2,9/2)-                                                 
+#L XREF=AK(2720)$                                                         
+#L J         log| {Ift}=5.80 {I4} from (7/2)-,                            
+#L |g to (11/2-)                                                          
+#G 386.7     4 29.9    15                                                 
++G gamma 0.3867 0.299
+#G 1163      1 5.4     8                                                  
++G gamma 1.163 0.054000000000000006
+#G 1293.8    4 100     4                                                  
++G gamma 1.2938 1.0
+#L   2754.2   7(15/2-)           0.8 NS    3                              
+#L XREF=BC$                                                               
+#L FLAG=D$                                                                
+#G 409.6     5 100       [E2]                                             
++G gamma 0.4096 1.0
+#G FLAG=F$                                                                
+#G BE2W=5.5 21                                                            
+#L   2905.8  5 1/2-              7.6 FS    2                              
+#L XREF=DEFGIK(2900)$                                                     
+#L FLAG=BT$                                                               
+#G 707.8     5 60        [M1]                                             
++G gamma 0.7078 0.6
+#G FLAG=XY$                                                               
+#G BM1W=2.30 6                                                            
+#G 1738.9    5 100       [M1,E2]                                          
++G gamma 1.7389000000000001 1.0
+#G FLAG=XY$                                                               
+#G BM1W=0.129 4$BE2W=98 3                                                 
+#G 2905.5    1053        [M1,E2]                                          
++G gamma 2.9055 0.53
+#G FLAG=XY$                                                               
+#G BM1W=0.0147 4$BE2W=3.98 11                                             
+#L   2919.3   4(5/2,7/2)-        14 FS     LT                             
+#L XREF=AI$                                                               
+#L FLAG=T$                                                                
+#L J         log| {Ift}=5.781 {I22} from (7/2)-,                          
+#L |g to 3/2-                                                             
+#G 775.6     7 29      3 [M1]                                             
++G gamma 0.7756000000000001 0.29
+#G BM1W>0.53                                                              
+#G 1351.8    7 34      3 [M1,E2]                                          
++G gamma 1.3518 0.34
+#G BM1W>0.059$BE2W>74                                                     
+#G 1481.9    4 100     5 [M1,E2]                                          
++G gamma 1.4819 1.0
+#G BM1W>0.13$BE2W>140                                                     
+#G 2919      2 20.9    17[M1,E2]                                          
++G gamma 2.919 0.209
+#G BM1W>0.0036$BE2W>0.96                                                  
+#L   3062.3   4(7/2,9/2)-                                                 
+#L XREF=AK(3040)$                                                         
+#L J         log| {Ift}=5.170 {I18} from (7/2)-, |g to (11/2)-            
+#G 331.2     4 40.1    18                                                 
++G gamma 0.3312 0.401
+#G 717.7     4 100     4                                                  
++G gamma 0.7177 1.0
+#G 1625.0    4 47.5    22                                                 
++G gamma 1.625 0.475
+#L   3173.8  5 3/2-              11.8 FS    21                            
+#L XREF=D(3160)FGIK(3160)$                                                
+#L FLAG=BT$                                                               
+#G 975.7     5 14        [M1]                                             
++G gamma 0.9757 0.14
+#G FLAG=XY$                                                               
+#G BM1W=0.23 4                                                            
+#G 2007.0    1010        [M1,E2]                                          
++G gamma 2.007 0.1
+#G FLAG=XY$                                                               
+#G BM1W=0.0092 16$BE2W=5.2 9                                              
+#G 3174.0    10100       [M1,E2]                                          
++G gamma 3.174 1.0
+#G FLAG=XY$                                                               
+#G BM1W=0.023 4$BE2W=5.3 9                                                
+#L   3237.4  21(5/2,7/2,9/2)                                              
+#L XREF=A$                                                                
+#L J         log| {Ift}=6.71 {I9} from (7/2)-, |g to 7/2-; log|           
+#L {If{+1u}t}<8.5 eliminates |DJ=2 and |D|p=+                             
+#G 1800      2 100                                                        
++G gamma 1.8 1.0
+#L   3618.5   4(5/2 TO 9/2)-                                              
+#L XREF=AK(3620)$                                                         
+#L J         log| {Ift}=4.838 {I19} from (7/2)-                           
+#G 887.0     7 10.1    11                                                 
++G gamma 0.887 0.10099999999999999
+#G 1474.4    4 23.5    13                                                 
++G gamma 1.4744000000000002 0.235
+#G 2051.1    4 100     3                                                  
++G gamma 2.0511 1.0
+#G 2181.5    7 23.5    10                                                 
++G gamma 2.1815 0.235
+#L   3644.1  12(13/2,17/2)                                                
+#L XREF=B$                                                                
+#L FLAG=D$                                                                
+#G 889.9     10100       D+Q                                              
++G gamma 0.8899 1.0
+#G FLAG=F$                                                                
+#G M,MR      |d=+5.1 {I+44-17} if J=13/2, |d=-2.9 {I+8-11} if             
+#G J=17/2 in {+48}Ca(|a,n|g).                                             
+#L 3771.3    6 9/2+               116 FS   +21-17                         
+#L XREF=D(3760)G(3759)IK(3770)$                                           
+#L FLAG=BT$                                                               
+#G 1426.7    5 75        [E1,M2]                                          
++G gamma 1.4267 0.75
+#G FLAG=XY$                                                               
+#G BE1W=0.00030 5$BM2W=6.8E2 12                                           
+#G 2334.0    10100       [E1,M2]                                          
++G gamma 2.334 1.0
+#G FLAG=XY$                                                               
+#G BE1W=9.2E-5 16$BM2W=78 13                                              
+#L 4022      10(5/2-,7/2-)                                                
+#L XREF=G$FLAG=E                                                          
+#L   4095.0  15(7/2,9/2)                                                  
+#L XREF=AK(4090)$                                                         
+#L J         log| {Ift}=6.01 {I9} from (7/2)-, log| {If{+1u}t}<8.5        
+#L eliminates |DJ=2 and |D|p=+; |g to (11/2-)                             
+#G 1033      2 100     26                                                 
++G gamma 1.033 1.0
+#G 1750      2 54      14                                                 
++G gamma 1.75 0.54
+#L 4172      10(3/2+,5/2+)                                                
+#L XREF=G$FLAG=E                                                          
+#L   4186.6  21(5/2,7/2,9/2)                                              
+#L XREF=AGK(4230)$FLAG=E                                                  
+#L J         log| {Ift}=6.03 {I7} from (7/2)-, log| {If{+1u}t}<8.5        
+#L eliminates |DJ=2 and |D|p=+                                            
+#G 2619      2 100                                                        
++G gamma 2.619 1.0
+#L 4470      10                                                           
+#L XREF=GK(4440)$FLAG=E                                                   
+#L 4569      101/2-,3/2-                                                  
+#L XREF=G$FLAG=E                                                          
+#L 4602      10(3/2+,5/2+)                                                
+#L XREF=G$FLAG=E                                                          
+#L 4757      10                                                           
+#L XREF=G$FLAG=E                                                          
+#L 4820      101/2+                                                       
+#L XREF=G$FLAG=E                                                          
+#L 4882      101/2+                                                       
+#L XREF=G$FLAG=E                                                          
+#L   4882.1  21(5/2,7/2,9/2)-                                             
+#L XREF=AK(4870)$                                                         
+#L J         log| {Ift}=5.67 {I13} from (7/2)-                            
+#G 2738      2 100                                                        
++G gamma 2.738 1.0
+#L 4998      10                                                           
+#L XREF=GK(4990)$FLAG=E                                                   
+#L 5013      10                                                           
+#L XREF=G$FLAG=E                                                          
+#L 5102      10                                                           
+#L XREF=GK(5110)$FLAG=E                                                   
+#L 5149      105/2-,7/2-                                                  
+#L XREF=G$FLAG=E                                                          
+#L 5224      10                                                           
+#L XREF=GK(5240)$FLAG=E                                                   
+#L 5420      20                                                           
+#L XREF=K$                                                                
+#L 5540      20                                                           
+#L XREF=K$                                                                
+#L 5780      30                                                           
+#L XREF=K$                                                                
+#L 5950      30                                                           
+#L XREF=K$                                                                
+#L 6140      30                                                           
+#L XREF=K$                                                                
+#L 6250      30                                                           
+#L XREF=K$                                                                
+#                                                                         
+
+# 51TI    51SC B- DECAY                 1976DA16                  06NDS    200608
+#  51SC B- DECAY                 1976DA16                  06NDS    200608
+#H TYP=FUL$AUT=Huang Xiaolong$CIT=NDS 107, 2131 (2006)$CUT=1-May-2005$    
+#  Source produced by {+48}Ca(|a,p) E=18 MeV; Ge(Li) detectors,           
+#  measured E|g, I|g, |g|g coin, and T{-1/2}. Deduced decay scheme.       
+#L E         From decay scheme and E|g's, using least-squares fit to      
+#L data.                                                                  
+#L J         From adopted levels.                                         
+#B IB        From intensity imbalance at each level.                      
+#G RI        Relative photon intensities normalized to                    
+#G I|g(1437|g)=100.                                                       
+#G M(E)      From adopted gammas.                                         
+#N 0.520     6           1.0       1.0                                    
+#N NR        Assuming |SI|g(to g.s.)=100.                                 
+#N 0.520     6                     1.0                                    
+#P 0.0         (7/2)-            12.4 S    1              6510      20    
++G gamma 1.1665999999999999 0.41700000000000004
++G gamma 2.1989 0.17300000000000001
++G gamma 2.9042 0.053
++G gamma 3.1745 0.083
++G gamma 3.1973000000000003 0.099
++G gamma 3.4666 0.29
++G gamma 4.1736 0.215
++G gamma 5.2058 0.354
++G gamma 6.3731 0.042
+

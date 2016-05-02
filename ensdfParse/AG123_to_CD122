@@ -1,0 +1,22 @@
+#122CD    123AG B-N DECAY               2006Mo07,1983Re05         07NDS    200704
+#  123AG B-N DECAY               2006Mo07,1983Re05         07NDS    200704
+#H TYP=FUL$AUT=T. TAMURA$CIT=NDS 108, 455 (2007)$CUT=30-Sep-2006$         
+#  2006Mo07: Activity was produced by fragmentation of {+136}Xe{++50,51}  
+#  (E=121.8 MeV/nucleon) on Be. Particle identification was performed.    
+#  The products were passed to a mass spectrometer,                       
+#  position sensitive detector, stacked Si detectors and TOF arrangement. 
+#  |b-delayed neutrons were detected within the neutron                   
+#  emission ratio observer; Implantation and decay events were time       
+#  stamped and correlated. deduced T{-1/2} and P{-n}                      
+#  1995Fe12: U(p,f) E(p)=1 GeV, ISOLDE,                                   
+#  on-line mass separation by laser ion source, from neutron counting,    
+#  observed delayed neutron emitter {+123}Ag                              
+#  (T{-1/2}=293 ms {I7}).                                                 
+#  1983Re05:{+235}U(n,f) on-line ms; measured T{-1/2}, |b-delayed neutron 
+#  spectra, deduced P{-n}                                                 
+#  {+123}Ag: T{-1/2}=296 ms {I6} (2003Au02);                              
+#  other: T{-1/2}=272 ms {I24} (2006Mo07)                                 
+#  Q(|b{+-}n)=2700 syst (2003Au03)                                        
+#P 0.0         (7/2+)            296 MS    6              2700      SY    
+AG123 CD122 neutron&beta- 2.7 0.296 0.0055
+

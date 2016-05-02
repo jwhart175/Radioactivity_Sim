@@ -1,0 +1,1452 @@
+#158GD  XL158GD IT DECAY                                                         
+#XL158GD IT DECAY                                                         
+#N                                                                     6  
+#L 0.0         0+                STABLE                               A   
+#L XREF=-(L)                                                              
+#L           <r{+2}>=26.608 {I24} fm{+2} deduced by 1983La08 from         
+#L      muonic-atom K and L x-ray energies (see also the curve in         
+#L      1991Ho27 and reference cited therein).  Measurements of           
+#L      |d<r{+2}> or the related parameter |l |? |d<r{+2}> are given      
+#L      by 1983La08, 1987Bo58, 1988Al40 (plot only), 1990Du08, and        
+#L      1990Wa25 (as well as earlier references quoted in 1990Du08        
+#L      and 1990Wa25). From 1990Du08 and 1990Wa25, respectively,          
+#L      |l({+156}Gd-{+158}Gd)=0.150 {I5} and 0.130 {I7} fm{+2} and        
+#L      |l({+158}Gd-{+160}Gd)=0.156 {I5} and 0.134 {I7} fm{+2}. The       
+#L      r{+4} and r{+6} radial moments are also given by 1990Wa25.        
+#L 79.5128   15 2+               2.52 NS   3                          A   
+#L XREF=-(L)                                                              
+#L MOMM1=+0.762 8 $ MOME2=-2.01 4                                         
+#L J         from E2 |g to 0+ gs.                                         
+#L T         Weighted average of 2.56 ns {I6} (1967Wo06), 2.59 ns         
+#L      {I12} (1969Av01), and 2.34 ns {I10} (1962Bi05) from Coulomb       
+#L      excitation; 2.47 ns {I10} (1966Fu03), 2.52 ns {I8} (1968Ku03),    
+#L      2.58 ns {I15} and 2.61 ns {I15} (1968Sc04) from {+158}Tb |e       
+#L      decay; and 2.54 ns {I7} calculated from BE2UP=4.99 {I3}.          
+#L      Others: 1959Bi10 and 1961Go09 values replaced by that of          
+#L      1962Bi05, 2.75 ns {I22} [calculated from                          
+#L      T{-1/2}/T{-1/2}({+152}Sm)=1.93 {I15} (1959Bi10) and               
+#L      T{-1/2}({+152}Sm)=1.426 ns {I29}].                                
+#L MOMM1     From 1989Ra17 evaluation and based on g-factor measurement   
+#L      of 1988Al33 in {+158}Tb |e decay; others: g-factor measurements   
+#L      give |m=0.78 {I6} (1991St01) and 0.78 {I6} (1992Br07).            
+#L MOME2     From 1989Ra17 evaluation and based on data of 1983La08;      
+#L      other: -1.96 {I4} (1974Ar23).                                     
+#L           Muonic isomer shift=-235 {I70} eV (1974Ba77,1974En08) and    
+#L      19 {I197} eV (1983La08).                                          
+#L           From Mossbauer measurements, |d<r{+2}>(79 keV-0)=+0.0004     
+#L      {I3} fm{+2} (1967Fi08) and                                        
+#L      |d<r{+2}>(79-0)/<r{+2}>(0)=0.000064 {I17} (1968Ga09) and          
+#L      0.00006 {I3} (1970Ru04).                                          
+#G 79.5132   17 100      E2                         6.02                  
+#G BE2W=198 6                                                             
+#L 261.4568  16 4+               0.148 NS  2                          A   
+#L XREF=ABCEFGHIJK                                                        
+#L MOMM1=+1.64 6                                                          
+#L J         From E2 |g to 2+ level and expected band structure.          
+#L T         Weighted average of 0.162 ns {I13} (1968Ku03), 0.20 ns       
+#L      {I7} (1968Sc04), and 0.148 ns {I2} (1988Al33) from {+158}Tb       
+#L      |e decay.                                                         
+#L MOMM1     From 1989Ra17 evaluation and based on g-factor of 1988Al33;  
+#L      others: g-factor measurements give |m=1.56 {I12} (1991St01)       
+#L      and 1.60 {I12} (1992Br07,1990Ba39).                               
+#G 181.943   1   100     E2                        0.308                  
+#G BE2W=289 5                                                             
+#L 539.021   7  6+                                                    A   
+#L XREF=CEFGHIJK                                                          
+#L MOMM1=2.46 24                                                          
+#L J         From E2 |g to 4+ level and expected band structure.          
+#L MOMM1     From g-factor=0.41 {I4} (1992Br07); other: 2.3 {I3}          
+#L      (1991St01).                                                       
+#G 277.554   8  100      E2                       0.0772                  
+#L 904.12    3 8+                5.1 PS    4                          A   
+#L XREF=IK                                                                
+#L MOMM1=3.4 4                                                            
+#L J         From |g to 6+ level and expected band structure.             
+#L T         From Coulomb excitation by Doppler-shifted line shape.       
+#L (1977Ke06).                                                            
+#L MOMM1     From g-factor=0.42 {I5} (1992Br07).                          
+#G 365.10    3  100      [E2]                     0.0336                  
+#G BE2W=3.3E+2 3                                                          
+#L 977.1453  19 1-               1.43 PS                              B   
+#L XREF=ABCEGIJK                                                          
+#L J         From E1 |g to 0+ ground state.                               
+#L J         Configuration may include ((n,5/2[642])-(n,3/2[521]))        
+#L      (1978Gr14,1994So02) and ((p,5/2[532])-(p,3/2[411])) (1994So02).   
+#L T         From |g-ray induced Doppler-broadening method following      
+#L      (n,|g) (1999Bo10); analysis provides a possible range of          
+#L      T{-1/2} of 0.62 to 1.62 ps.                                       
+#G 897.622   13  76    4  E1                     0.00140                  
+#G BE1W=9.6515E-5 6                                                       
+#G RI        Value of 148 {I6} from {158}Gd(n,n'|g) is discrepant.        
+#G 977.144   2  100    5  E1                     0.00119                  
+#G BE1W=9.8443E-5 4                                                       
+#L 1023.6974 22 2-               3.5 PS    GT                         B   
+#L XREF=ABCFIK                                                            
+#L J         From E1 |g to 2+ level, population by primary |g in (n,|g),  
+#L      and proposed band structure.                                      
+#L T         From |g-ray induced Doppler-broadening method following      
+#L      (n,|g) (1999Bo10).                                                
+#G 944.181   2   100     E1                      0.00127                  
+#G BE1W<7.8E-5                                                            
+#L 1041.6376 19 3-               0.54 PS   15                         B   
+#L XREF=ABCEFGHIJK                                                        
+#L J         From E1 |g's to 2+ and 4+ levels.                            
+#L T         From Coulomb excitation by Doppler-broadened line shape      
+#L      (1979McZU); other: 0.35 ps from |g-ray induced Doppler-broadening 
+#L      method following (n,|g) (1999Bo10); analysis provides             
+#L      a possible range of T{-1/2} of 0.20 to 0.39 ps.                   
+#G 780.183   3   47.2  9 E1                      0.00184                  
+#G BE1W=0.00029 8                                                         
+#G 962.122   2  100.0  20 E1                     0.00123                  
+#G BE1W=0.00033 10                                                        
+#L 1158.9678 22 4-               3.3 PS                               B   
+#L XREF=BCF(1163)IK                                                       
+#L J         From E2 |g to 2- level, E1 to 4+, and expected band          
+#L      structure.                                                        
+#L T         From |g-ray induced Doppler-broadening method following      
+#L      (n,|g) (1999Bo10); analysis provides a possible range of          
+#L      T{-1/2} of 1.07 to 3.8 ps.                                        
+#G 117.335   4  0.55   7 (E2)                      1.425                  
+#G BE2W=781 14                                                            
+#G 135.263   4  3.0    3 E2                        0.858                  
+#G BE2W=2.09E+3 3                                                         
+#G RI        from {+157}Gd(n,|g); other: 1.33 {I10} from {+158}Gd(n,n'|g).
+#G 897.506   2  100    14 E1                     0.00140                  
+#G BE1W=9.0628E-5 4                                                       
+#L 1176.479  5  5-               0.32 PS                              B   
+#L XREF=CG(1172)H(1172)IK                                                 
+#L J         From E1 |g to 4+ level and |g to 6+.                         
+#L T         From |g-ray induced Doppler-broadening method following      
+#L      (n,|g) (1999Bo10); analysis provides a possible range of          
+#L      T{-1/2} of 0.15 to 0.36 ps.                                       
+#G 134.848   6  0.06    1 [E2]                   0.87                     
+#G BE2W=369 6                                                             
+#G 637.469   21 26.7   16 [E1]                   0.00279                  
+#G BE1W=0.00058691 8                                                      
+#G 915.03    5  100    6 E1                      0.00135                  
+#G BE1W=0.00074324 13                                                     
+#L 1187.143  3  2+               0.61 PS   4                          C   
+#L XREF=ABCEF(1190)GIJ(*1196)K                                            
+#L J         From E2 |g to 0+ level.                                      
+#L J         Configuration may include ((n,3/2[521])+(n,1/2[521]))        
+#L      and ((n,5/2[523])-(n,1/2[521])) (1994So02).                       
+#L T         Calculated from BE2UP=0.089 {I4} and |g branching.           
+#G 925.65     7  1.78  20 (E2)                   0.00326                  
+#G BE2W=0.27 4                                                            
+#G 1107.626   4 100    8  E2+M1     -9.0   15    0.00226 1                
+#G BM1W=0.00018 7$BE2W=6.0 7                                              
+#G 1187.143  5   78.5  14 E2                     0.00195                  
+#G BE2W=3.4 3                                                             
+#L 1196.165  8 0+                5.5 PS                               D   
+#L XREF=ACEIJ(*1196)K                                                     
+#L J         From E2 |g to 2+ level, |g to 1-, and band structure.        
+#L J         Configuration may include ((n,3/2[521])-(n,3/2[521]))        
+#L      (1978Gr14,1994So02) and ((n,5/2[523])-(n,5/2[523])) (1994So02).   
+#L T         From |g-ray induced Doppler-broadening method following      
+#L      (n,|g) (1999Bo10); analysis provides a possible range of          
+#L      T{-1/2} of 1.3 to 6.3 ps.                                         
+#G 219.023   7  0.083  10 [E1]                   0.0359                   
+#G BE1W=3.314E-6                                                          
+#G 1116.52   5  100    6 E2                      0.00221                  
+#G BE2W=1.1652                                                            
+#L 1259.8691 18 2+               3.6 PS    3                          D   
+#L XREF=ACE(*1262)IJ(*1266)K                                              
+#L J         From E2 |g to 0+ level.                                      
+#L T         Calculated from BE2UP=0.0080 {I6} and |g branching; other:   
+#L      from |g-ray induced Doppler-broadening method following           
+#L      (n,|g) (1999Bo10); analysis provides a possible range of          
+#L      T{-1/2} of 0.97 to 4.1 ps.                                        
+#G 218.221   5   6.9   6  E1                      0.0362                  
+#G BE1W=0.000189 24                                                       
+#G 236.176   6   0.56  4  [E1]                   0.0295                   
+#G BE1W=1.21E-5 14                                                        
+#G 282.726   7   5.1   4 E1                      0.0186                   
+#G BE1W=6.4E-5 8                                                          
+#G 998.409   2  100    6 E2                      0.00278                  
+#G BE2W=1.39 15                                                           
+#G 1180.35    9  40    3 M1+E2      -0.70  7     0.00277                  
+#G BM1W=0.00044 6$BE2W=0.079 14                                           
+#G MR        from |a{-K}(exp), |r{+2}(E0) |< 0.0008 (1999Wo07).           
+#G 1259.865  3   72    4 E2                      0.00174                  
+#G BE2W=0.31 4                                                            
+#L 1263.514  3 1-                13 FS     4                          E   
+#L XREF=ACDE(*1262)GIJ(*1266)K                                            
+#L J         From E1 |g to 0+ level.                                      
+#L T         Calculated by evaluator from data from (|g,|g'); other:      
+#L T    < 33 fs from |g-ray induced Doppler-broadening method following   
+#L      (n,|g) (1999Bo10).                                                
+#G 1184.01    8 100    6   E1+M2    +0.11  8     0.00092                  
+#G BE1W=0.0064 21$BM2W=3.E+2 +4-3                                         
+#G M         From |a{-K}(exp) assigned E2, but that is not consistent     
+#G      with J|p's, so reanalyzed as E1+M2.                               
+#G 1263.509  3   66    4  E1                     0.00075                  
+#G BE1W=0.0035 12                                                         
+#L 1265.518  3 3+                1.11 PS                              C   
+#L XREF=ACE(*1262)FHIK                                                    
+#L J         From E2 |g's to 2+ and 4+ levels and band structure.         
+#L T         From |g-ray induced Doppler-broadening method following      
+#L      (n,|g) (1999Bo10); analysis provides a possible range of          
+#L      T{-1/2} of 0.38 to 1.24 ps.                                       
+#G 1004.04    8 22     2  E2+M1     -23    +19-7 0.0027511                
+#G BM1W=7.E-6 +11-7$BE2W=1.77                                             
+#G RI        From {+157}Gd(n,|g); others: 16 {I5} from {+158}Eu |b-       
+#G      decay and 21.6 {I14} from {+158}Gd(n,n'|g).                       
+#G 1186.002  3  100    6 E2+M1      +30    +32-140.0019624                
+#G BM1W=1.1E-5 +23-5$BE2W=3.50                                            
+#L 1350.        10+              1.85 PS   15                         A   
+#L XREF=I                                                                 
+#L MOMM1=3.2 4                                                            
+#L J         From |g to 8+ level and band structure.                      
+#L T         From Coulomb excitation by Doppler-shifted line shape        
+#L      (1977Ke06).                                                       
+#L MOMM1     From g-factor(10+)/g-factor(2+)=0.83 {I11} from 1989Ra17     
+#L      evaluation and based on data of 1983Ha24 and                      
+#L      g-factor(2+)=0.381 {I4}.                                          
+#G 446.         100      [E2]                    0.0191                   
+#G BE2W=3.4E+2 3                                                          
+#L 1358.467  3 4+                0.69 PS                              C   
+#L XREF=CEFGIJK                                                           
+#L J         From E2 |g's to 2+ and 4+ levels and band structure.         
+#L T         From |g-ray induced Doppler-broadening method following      
+#L      (n,|g) (1999Bo10); analysis provides a possible range of          
+#L      T{-1/2} of 0.28 to 0.90 ps.                                       
+#G 171.328   5  0.14    1 [E2]                   0.378                    
+#G BE2W=113.                                                              
+#G 819.56     5 5.9    LT [E2]                   0.00426              &   
+#G BE2W=0.949                                                             
+#G 1097.007  3  100     6 E2+M1     +6.4   +14-100.00232 2                
+#G BM1W=0.00042 $BE2W=7.31                                                
+#G 1278.96   7   32.5  21 E2                     0.00169                  
+#G BE2W=1.13                                                              
+#L 1371.938  5 6-                                                     B   
+#L XREF=CIK                                                               
+#L J         From E2 |g to 4- level and band structure.                   
+#G 195.461   6   9.0   7                                                  
+#G 212.979   5   100   7  E2                      0.182                   
+#G 832.889   10  277   LE                                             &   
+#L 1380.626  6 4+                                                     F   
+#L XREF=CFH(1385)K                                                        
+#L J         From E2 |g's to 2+ and 4+ levels and band structure.         
+#L J         Major component is ((p,3/2[411])+(p,5/2[413])) from          
+#L      (pol t,|a) (1981Bu10) and model calculations                      
+#L      (1984So17,1986Ne06,1990So16,1994So02) with minor component of     
+#L      ((n,5/2[523])+(n,3/2[521])) suggested in calculations             
+#L      (1986Ne06,1990So16,1994So02,1997So26).                            
+#G  339.14   10   2.13 21                                                 
+#G RI        from {+158}Gd(n,n'|g).                                       
+#G 1119.20    6 100    6 E2+M1      -4.5   +20-170.0022613                
+#G 1300.90   12  20.5  18E2                      0.00163                  
+#L 1391.        7-                                                    B   
+#L XREF=I                                                                 
+#L J         From |g's to 6+ and 8+ levels and band structure.            
+#G  486.                                                                  
+#G  852.                                                                  
+#L 1402.936  3 3-                0.048 PS  LT                         E   
+#L XREF=ACGIK                                                             
+#L BE3=0.023 (1967BL05)                                                   
+#L J         From E1 |g's to 2+ and 4+ levels.                            
+#L T         From |g-ray induced Doppler-broadening method following      
+#L      (n,|g) (1999Bo10).                                                
+#G 139.434   3  0.07    1 [E2]                   0.771                   ?
+#G BE2W>1.6E+3                                                            
+#G 143.065    6 0.04    1 [E1]                   0.112                    
+#G BE1W>0.00035                                                           
+#G 1141.477  3  85     5 E1                      0.00089                  
+#G BE1W>0.0015                                                            
+#G 1323.44    5 100    6 E1                      0.00069                  
+#G BE1W>0.0011                                                            
+#L 1406.6995 24 4+               1.11 PS                              D   
+#L XREF=CIK                                                               
+#L J         From E2 |g's to 2+ and 6+ levels.                            
+#L T         From |g-ray induced Doppler-broadening method following      
+#L      (n,|g) (1999Bo10); analysis provides a possible range of          
+#L      T{-1/2} of 0.37 to 1.29 ps.                                       
+#G 141.182   10   0.05  2 [M1,E2]                0.75    2                
+#G 146.831    5   0.57  6 [E2]                   0.664                    
+#G BE2W=455                                                               
+#G 219.547   8    0.12  2 [E2]                   0.164                    
+#G BE2W=12.8                                                              
+#G 230.233   7    6.6   5 [E1]                   0.0315                   
+#G BE1W=0.000612                                                          
+#G 247.716   6    0.33  3 [E1]                   0.0260                   
+#G BE1W=2.4569E-5                                                         
+#G 365.063   9   19.9  12 E1                     0.00984                  
+#G BE1W=0.000463                                                          
+#G RI        from {+157}Gd(n,|g); other: 75 {I6} from {+158}Gd(n,n'|g).   
+#G 867.75     5  28.5  17 E2                     0.00375                  
+#G BE2W=3.16                                                              
+#G 1145.26   11  27    4 M1+E2      +1.0   2     0.00240                  
+#G BM1W=0.00097   $BE2W=0.37                                              
+#G 1327.184  3   100   6 E2                      0.00157                  
+#G BE2W=1.32                                                              
+#L 1414                                                                   
+#L XREF=FJ                                                                
+#L 1440                                                                   
+#L XREF=F                                                                 
+#L 1452.352  6 0+                1.04 PS                              G   
+#L XREF=ACEG(1449)J(1461)K                                                
+#L J         From L=0 in (p,t) and E0 |g to 0+ level.                     
+#L J         Configuration may include ((p,5/2[413])-(p,5/2[413]))        
+#L      ((n,3/2[521])-(n,3/2[521])) (1984So17,1994So02).                  
+#L T         From |g-ray induced Doppler-broadening method following      
+#L      (n,|g) (1999Bo10); analysis provides a possible range of          
+#L      T{-1/2} of 0.14 to 1.20 ps.                                       
+#G 188.845   5    1.92 15 [E1]                   0.0531                   
+#G BE1W=0.000602                                                          
+#G 475.218   16   2.94 23E1                      0.00529                  
+#G BE1W=5.7831E-5                                                         
+#G RI        from {+157}Gd(n,|g); other: 6.6 {I9} from {+158}Gd(n,n'|g).  
+#G 1372.95   14  100   10E2                      0.00147                  
+#G BE2W=2.09                                                              
+#G 1452.36   20          E0                               0.30       3    
+#G TI        from Ice{-K}=0.14 {I1} in (n,|g) (1978Gr14) and L/K=0.136    
+#G      (1969Ha61)                                                        
+#L 1481.421  4 5+                                                     C   
+#L XREF=CH(*1493)IK                                                       
+#L J         From E2 |g's to 4+ and 6+ level and band structure.          
+#G 100.787    4   0.19  4                                                ?
+#G 122.943   10   0.08  3                                                 
+#G 215.898   5    0.75 4                                                  
+#G 942.34     7   23   3  M1,E2                  0.00314                  
+#G 1219.91    8  100   6 E2                      0.00185                  
+#L 1499.096  5 5+                                                     F   
+#L XREF=CF(1503)H(*1493)K                                                 
+#L J         From E2(+M1) |g to 4+ level, |g to 6+, and band              
+#L      structure.                                                        
+#G 118.464   10   0.26  7                                                 
+#G 960.03     7   26    3                                                 
+#G 1237.56    9  100   5 E2(+M1)    1      GT    0.0023  5                
+#L 1517.4761 20 2+               1.39 PS   15                         G   
+#L XREF=ACEGIJK                                                           
+#L J         From E2 |g to 0+ level.                                      
+#L T         Calculated from BE2UP=0.0093 {I9} and |g branching; other:   
+#L T    from |g-ray induced Doppler-broadening method following           
+#L      (n,|g) (1999Bo10); analysis provides a possible range of          
+#L      T{-1/2} of 0.19 to 1.02 ps.                                       
+#G 114.544    4   0.50  7 [E1]                   0.203                    
+#G BE1W=0.00024 5                                                         
+#G 158.986   20   0.07  2 [E2]                   0.489                    
+#G BE2W=24 8                                                              
+#G 253.952   6    3.41 24  E1                    0.0244                   
+#G BE1W=0.000150 21                                                       
+#G 475.839   1    5.6  4  E1                     0.00528                  
+#G BE1W=3.7E-5 5                                                          
+#G 493.793   21   1.03  8 [E1]                   0.00485                  
+#G BE1W=6.2E-6 9                                                          
+#G 540.35    20   0.6  4  [E1]                   0.00399                  
+#G BE1W=2.7E-6 19                                                         
+#G 1256.02   10  34    3  E2                     0.00175                  
+#G BE2W=0.38 6                                                            
+#G 1437.960  3   100   6 E0+M1+E2  -1.5    4     0.0066 7                 
+#G BM1W=0.0016 4                                                          
+#G CC        Measured value.                                              
+#G MR        from |a{-K}(exp), |r{+2}(E0)=0.017 {I3} (1999Wo07).          
+#G 1517.49   11  85    6 E2                      0.00102                  
+#G BE2W=0.37 4                                                            
+#L 1554                                                                   
+#L XREF=J                                                                 
+#L 1576.930  16 0+                                                        
+#L XREF=CE                                                                
+#G  317.02   3   10    3                                                  
+#G  388.47   5   32    8                                                  
+#G FL=1187.143                                                            
+#G E         poor energy fit.                                             
+#G  600.08   6  100    17                                                 
+#G FL=977.1453                                                            
+#L 1624         6+                                                    C   
+#L XREF=I                                                                 
+#L J         From |g's to 4+ and 6+ levels and band structure.            
+#G 1084                                                                  ?
+#G 1362                                                                   
+#L 1636         6+                                                    D   
+#L XREF=IJ(*1634)                                                         
+#L J         From |g's to 4+ and 6+ levels and band structure.            
+#G 1096                                                                  ?
+#G 1374                                                                   
+#L 1636.292  4 4-                                                     H   
+#L XREF=CK                                                                
+#L J         From E1 |g's to 4+ and 5+ levels and |g to 3+.               
+#L J         A component of the configuration is                          
+#L      ((p,5/2[532])+(p,3/2[411])) from (pol t,|a) (1981Bu10); model     
+#L      calculations (1990So16,1994So02) suggest this is a minor          
+#L      component, with the major component of                            
+#L      ((n,3/2[521])+(n,5/2[642])).                                      
+#G 137.195   3    1.84 24                                                 
+#G 154.874    4   4.3   4 E1                     0.0902                   
+#G RI        from {+157}Gd(n,|g); other: 6.3 {I6} from {+158}Gd(n,n'|g).  
+#G 229.598   6    0.34  3                                                 
+#G 255.672   6   100    8 E1                     0.0240                   
+#G 277.834   8    5.1   4                                                 
+#G 370.73     4   0.11  3                                                 
+#L 1639.34   9  (5-)                                                  E  ?
+#L XREF=CJ(*1634)K                                                        
+#L J         From (E1) |g to 4+ level and |g to 6+.                       
+#G 1100.29   13   34    5                                                 
+#G RI        from {+157}Gd(n,|g); other: 61 {I6} from {+158}Gd(n,n'|g).   
+#G 1377.90   12  100   8 (E1)                    0.00064                  
+#L 1653                                                                  ?
+#L XREF=I                                                                 
+#G 1392         100                                                      ?
+#L 1667.372  6 (4)+                                                   G   
+#L J         From E1 |g to 3- level and |g's to 2+ and 6+.                
+#L XREF=CEK                                                               
+#G 149.907    9  0.22  5                                                  
+#G 264.430   6   2.35  14 E1                                              
+#G 490.863   21  3.2   3                                                  
+#G 625.79     6  2.1   4                                                  
+#G 1129.20   13  62    7                                                  
+#G FL=539.021                                                             
+#G RI        from {+157}Gd(n,|g); other: 20.6 {I21} from {+158}Gd(n,n'|g).
+#G 1405.91   15  90    7  M1+E2                                           
+#G 1587.71   5  100    7  E2                                              
+#G E,RI      from {+158}Gd(n,n'|g) where |g is a singlet; other:          
+#G      E{-|g}=1588.21 {I15} and I{-|g} < 134 from doublet in             
+#G      {+157}Gd(n,|g).                                                   
+#L 1684         9-                                                    B   
+#L XREF=I                                                                 
+#L J         From |g to 8+ level and band structure.                      
+#G  780.        100                                                       
+#L 1716.801  5 5-                                                     H   
+#L XREF=CK                                                                
+#L J         From E1 |g's to 4+ and 5+ levels and band structure.         
+#G 217.703   5   33    3  E1                      0.0365                  
+#G RI        from {+157}Gd(n,|g); other: 96 {I8} from {+158}Gd(n,n'|g).   
+#G 235.379   6   61     4 E1                      0.0297                  
+#G RI        from {+157}Gd(n,|g); other: 94 {I8} from {+158}Gd(n,n'|g).   
+#G 310.10    3    0.36 13                                                 
+#G 336.167   8  100     7 E1                     0.0120                   
+#G 358.336   10   7.0   5                                                 
+#L 1743.145  14 0+                                                    J   
+#L XREF=CEFJ(1750)K                                                       
+#L J         From E1 |g to 1- level and L=0 in (t,p).                     
+#L J         A component in this band ((p,3/2[411])-(p,3/2[411]))         
+#L      from (pol t,|a) (1981Bu10) and model calculations an additional   
+#L      component is ((n,3/2[521])-(n,3/2[521])) (1984So17,1994So02).     
+#G 225.659   7    0.66  7                                                ?
+#G 479.632   14  28.3  17 E1                     0.00518                  
+#G 1663.77   20 100    10                                                 
+#L 1791.792  9 2+                                                     J   
+#L XREF=CH(1795)K                                                         
+#L J         From E1 |g's to 1- and 3- levels and comparison of measured  
+#L      and calculated cross sections in (pol t,|a).                      
+#G 385.08    3    0.48  9                                                 
+#G 388.827   16   9.0  7 E1                      0.00846                  
+#G 528.231   18  32    3 E1                      0.00420                  
+#G 531.906   18   7.4  5 M1                      0.0222                   
+#G 750.16    4  100    6 (E1)                    0.00200                  
+#G RI        from {+157}Gd(n,|g); other: the I{-|g} of                    
+#G      {+158}Gd(n,n'|g) would agree better if this I{-|g} were |? 200.   
+#G 768.09     5  25    4                                                  
+#G 814.65     4  76    5 E1                      0.00169                  
+#G 1530.12   15  93    8 E2                      0.00101                  
+#G 1712.8    6   45    9                                                  
+#L 1793.569  7 2-                6.3 PS                               K   
+#L XREF=ACK                                                               
+#L J         From E1 g's to 2+ and 3+ levels and |g to 0+ level.          
+#L J         Configuration may include ((p,7/2[523])-(p,3/2[411]))        
+#L      (1994So02).                                                       
+#L T         From |g-ray induced Doppler-broadening method following      
+#L      (n,|g) (1999Bo10); analysis provides a possible range of          
+#L      T{-1/2} of 0.24 to 7.2 ps.                                        
+#G 528.041   18  38.7  23E1                      0.00420                  
+#G BE1W=5.01E-5                                                           
+#G 606.446   21  100   5 E1                      0.00311                  
+#G BE1W=8.55E-5                                                           
+#G 634.77     5   1.25 LT [E2]                   0.00770                 ?
+#G BE2W=0.0557                                                            
+#G FL=1158.9678                                                           
+#G 751.91     4   5.6  4 M1(+E2)                 0.0073 21                
+#G RI        From {+157}Gd(n,|g); other: 7.1 {I11} from {+158}Eu |b-      
+#G      decay.                                                            
+#G 769.88     4  16.0  11 E2                     0.00490                  
+#G BE2W=0.544                                                             
+#G 816.42     4  24.5  15 [M1,E2]                0.0060 17                
+#G RI        from {+157}Gd(n,|g); others: 22.1 {I21} from {+158}Gd(n,n'|g)
+#G      and 9.2 {I6} from {+158}Eu |b- decay.                             
+#G 1531.4     5  1.5    3 [M2]                   0.00331                  
+#G BM2W=0.156                                                             
+#G 1712.8    6   4.6   5  [E1]                   0.00050                  
+#G BE1W=1.75E-7                                                           
+#G RI        from {+158}Eu |b- decay; other: 22 {I4} from {+157}Gd(n,|g)  
+#G      which suggests the latter maybe be a multiplet.                   
+#G 1793.5    15  0.38  15 [M2]                   0.0026                   
+#G BM2W=0.0179                                                            
+#L 1814.139  7 6-                                                     H   
+#L XREF=CK                                                                
+#L J         From E1 |g to 5+ and band structure.                         
+#G 97.357    3   43     8                                                 
+#G 177.844   10   5.2  18                                                 
+#G 315.043   9    53    4  E1                    0.0141                   
+#G 332.797   9    100  8 E1                      0.0123                   
+#G FL=1481.421                                                            
+#L 1819                                                                   
+#L XREF=F                                                                 
+#L 1847.88   3 1+                                                     L   
+#L XREF=ACK                                                               
+#L J         From E1 |g to 2- level, |g to 1-, and band structure.        
+#L J         Probable components of configuration are                     
+#L      ((n,5/2[523])-(n,3/2[521])) and                                   
+#L      ((p,5/2[413])-(p,3/2[411])) (1978Gr14) and model                  
+#L      calculations suggest latter is the major component (1994So02).    
+#G 444.92     5   1.4  4                                                 ?
+#G 584.39     4   1.25 14                                                ?
+#G 824.12     4  100   6 E1                      0.00165                  
+#G 870.89     5   98   12                                                 
+#G RI        from {+157}Gd(n,|g); other: I{-|g}(870)/I{-|g}(824) =        
+#G      3.3 {I2} in {+158}Gd(n,n'|g).                                     
+#G 1768.5    5    3.0  7                                                  
+#L 1856.315  15 1-                                                    M   
+#L XREF=CF(1854)J(*1860)K                                                 
+#L J         From E1 |g to 2+ level, M1 |g to 1-, |g to 0+, and           
+#L      band structure.                                                   
+#L J         Several possible configurations are suggested in 1978Gr14    
+#L      and model calculations suggest ((n,5/2[642])-(n,3/2[521]))        
+#L      and ((p,5/2[532])-(p,3/2[411])) (1994So02).                       
+#G 279.288   14   0.10 2                                                  
+#G FL=1576.930                                                            
+#G E         poor energy fit.                                             
+#G 453.68     4   0.66 20                                                ?
+#G FL=1402.936                                                            
+#G 592.905   21   9.8  5 M1                      0.0169                   
+#G FL=1263.514                                                            
+#G E         poor energy fit.                                             
+#G 669.29     4   13.0 13E1                      0.00252                  
+#G E         poor energy fit.                                             
+#G 832.89     5   14.6 LT (M1,E2)                0.0057 16            &   
+#G FL=1023.6974                                                           
+#G RI        from {+157}Gd(n,|g); other: I{-|g}(832)/I{-|g}(1856) =       
+#G      2.2 {I2} in {+158}Gd(n,n'|g).                                     
+#G 879.32     5   67   4 M1                      0.00639                  
+#G 1857.1     4  100   11                                                 
+#L 1861.277  7 3-                                                     K   
+#L XREF=CG(1856)J(*1860)K                                                 
+#L J         From E1 |g's to 2+ and 4+ levels.                            
+#G 502.789   15  59    4 E1                      0.00469                  
+#G 595.763   21  74    4 E1                      0.00323                  
+#G 674.15    3   68    4 E1                      0.00248                  
+#G 702.37     5  5.8   5 M1(+E2)                 0.009  3                 
+#G 819.56     5  42    LT                                             &   
+#G RI        from {+157}Gd(n,|g); other: I{-|g}(819)/I{-|g}(1782) =       
+#G      2.2 {I2} in {+158}Gd(n,n'|g).                                     
+#G 884.18    6   27.8  22 E2                     0.00360                  
+#G 1782.1     5  100   15                                                 
+#L 1866.        12+              0.98 PS   8                          A   
+#L XREF=I                                                                 
+#L J         From |g to 10+ level and band structure.                     
+#L T         From Coulomb excitation by Doppler-shifted line shape        
+#L      (1977Ke06).                                                       
+#G 516.          100     [E2]                    0.0130                   
+#G BE2W=3.1E+2 3                                                          
+#L 1894.597  25 (2+)                                                  L   
+#L XREF=ACK                                                               
+#L J         From proposed populated in thermal and average-resonance     
+#L      (n,|g) and band structure.  Some |g's are to 1- and 4+ levels.    
+#G 491.543   21   4.7   7                                                ?
+#G FL=1402.936                                                            
+#G 628.99     4   2.5  LT                                             &   
+#G 630.92     6   4.0  16                                                ?
+#G 852.89     4 100    7                                                  
+#G RI        This |g is assigned only to this level in {+158}Eu |b-       
+#G      decay and this is assumed here, although it is also assigned      
+#G      to the 1894, 2- level in the (n,|g) data.                         
+#G 870.89     5  61    6                                              @   
+#G RI        from {+158}Eu |b- decay                                      
+#G 917.50     5  70    10                                             @   
+#G RI        from {+158}Eu |b- decay                                      
+#G 1632.8    7    5.0  12                                                 
+#G E         only reported in {+158}Gd(n,n'|g).                           
+#G 1815.2     5   9.1  23                                             @   
+#G RI        from {+158}Eu |b- decay                                      
+#L 1894.612  8 2-                                                     M   
+#L XREF=CF(*1900)K                                                        
+#L J         From E1 |g to 2+ level and band structure.                   
+#G 101.042   3    1.43 20                                                 
+#G 491.71    3    6.2  9  (M1,E2)                0.021   7                
+#G 631.07    3   23.8  15 (E2)                   0.00781                  
+#G 707.55    3   48.   3  E1                     0.00225                  
+#G 852.89     4                                                           
+#G RI        This |g is assigned only to the 1894, 2+ level as in the     
+#G       {+158}Eu |b- decay and this is assumed here, although it is      
+#G      also assigned to this level in the (n,|g) data.                   
+#G 870.89     5   76   26                                             @   
+#G RI        from evaluator's decomposition based on data from {+158}Eu   
+#G      |b- decay and (n,|g).                                             
+#G 917.50     5  100   20                                             @   
+#G RI        from evaluator's decomposition based on data from {+158}Eu   
+#G      |b- decay and (n,|g).                                             
+#G 1815.2     5   61   11                                             @   
+#G RI        from evaluator's decomposition based on data from {+158}Eu   
+#G      |b- decay and (n,|g).                                             
+#L 1901.593  16 4+                                                    J   
+#L XREF=CF(*1900)H(1904)K                                                 
+#L J         From E1 |g to 3- level, |g to 5-, and band structure.        
+#G 498.663   16  21.5  13E1                      0.00475                  
+#G 725.11     8   6.5   9                                                 
+#G 859.85     6  61     5(E1)                    0.00152                  
+#G 1640.0     5  100   18                                                 
+#G RI        from {+157}Gd(n,|g); other: I{-|g}(1640)/I{-|g}(859) =       
+#G      0.25 {I4} from {+158}Gd(n,n'|g).                                  
+#L 1916.933   6 (4,5,6)-                                                  
+#L XREF=CJ(1912)K                                                         
+#L J         From E1 |g's to 5+ levels.                                   
+#G 200.118   6   29.2  22E2,M1                   0.26    4                
+#G 280.653   7   14.7  10 E2                     0.0745                   
+#G 417.843   11   55   3 E1                      0.00713                  
+#G 435.515   12  100    6 E1                     0.00647                  
+#L 1920.258  6 4+                                                     N   
+#L XREF=CF(*1926)K                                                        
+#L J         From E1 |g to 5- level and |g's to 2+ and 6+.                
+#L J         Major component of configuration is                          
+#L      ((n,5/2[523])+(n,3/2[521])) from model calculations with          
+#L      minor component of ((p,3/2[411])+(p,5/2[413]))                    
+#L      (1984So17,1986Ne06,1990So16,1994So02,1997So26).                   
+#G 203.467    9   0.41  4                                                 
+#G 283.965   7    2.75 20 E1                     0.0184                   
+#G 421.166   12   3.10 22 M1                      0.0400                  
+#G 438.825   13   6.0  5 E2+M1                   0.028   8                
+#G 539.620   18  100   5 M1+E2                   0.016   5                
+#G 561.77     4   6.8   8 E2(+M1)                0.015   5                
+#G 654.67     8   1.4   3                                                 
+#G 733.16     9   3.3   5                                                 
+#G 1381.1     6   18    8                                                 
+#G 1658.0     7   33    8                                                 
+#L 1930.200  24 1+                                                    P   
+#L XREF=ACF(*1926)HK                                                      
+#L J         From E1 |g to 2- and band structure.                         
+#L J         Probable components of configuration are                     
+#L      ((p,5/2[413])-(p,3/2[411])) and                                   
+#L      ((n,5/2[523])-(n,3/2[521])) (1978Gr14) and model calculations     
+#L      suggest the latter is the major component (1994So02).             
+#G 743.08    3   100   5 M1+E2      +0.17  15    0.0095  3                
+#G 906.49     5  44    3 E1                      0.00138                  
+#G RI        from {+157}Gd(n,|g); others: 24.8 {I20} from                 
+#G      {+158}Gd(n,n'|g) and 51 {I3} from {+158}Eu |b- decay.             
+#G 952.96     6  51    4 (E1)                    0.00125                  
+#G 1850.3    4    4.2  8                                                  
+#G 1930.2    6    1.25 25                                                 
+#G RI        from {+157}Gd(n,|g); other: 13.6 {I15} from {+158}Gd(n,n'|g).
+#L 1935.5    6  0+                                                        
+#L XREF=E                                                                 
+#L 1941.26   3 3+                                                     L   
+#L XREF=CJK                                                               
+#L J         From E1 |g to 4-, (E1) |g to 2-, and band structure.         
+#G 676.3      2  32    4                                                  
+#G E,RI      from {+158}Gd(n,n'|g).                                       
+#G 782.31     4 100    6 E1                      0.00183                  
+#G 899.69     9  25    5                                                  
+#G 917.50     5 217    LT                                                 
+#L 1948                                                                   
+#L XREF=F                                                                 
+#L 1952.424  25 (0)+                                                      
+#L XREF=CJ(*1954)K                                                        
+#L J         From E1 |g to 1- level, |g to 2+, population in              
+#L      average-resonance capture, and band structure.                    
+#G 160.654    6  0.13   3                                                ?
+#G 434.91    11  0.36  18                                                ?
+#G 688.86    3   100    6 E1                     0.00238                  
+#G 765.35     5   11.9  9                                                 
+#G 975.43     8   41    5                                                 
+#L 1953.761  23 4-                                                    K   
+#L XREF=CK                                                                
+#L J         From E1 |g to 3+ level, |g (multiply placed) to 5+, and      
+#L      band structure.                                                   
+#G 472.38    3   3.5   LT                                             &   
+#G 595.11     7  3.2    6                                                 
+#G 688.25     5  16.8  20E1                      0.00238                  
+#G 794.73     7  12.4  LT                                             &   
+#G 1691.7     7  100   12                                                 
+#G RI        from {+157}Gd(n,|g); other: from {+158}Gd(n,n'|g)            
+#G      I{-|g}(1692)/I{-|g}(688) = 0.243 {I19}.                           
+#L 1957.27   9  0+                                                       ?
+#L XREF=CE(1960)J(*1954)K                                                 
+#L J         From |g to 2+ level and population in average-resonance      
+#L      capture.                                                          
+#G 1877.76   9   100      E2                                              
+#L 1964.104  24 2+                                                    P   
+#L XREF=ACHK                                                              
+#L J         From E1 |g to 1- level, |g to 0+, and M1+E2 |g to 3+.        
+#G 698.60    3   65    4 E2+M1                   0.009   3                
+#G RI        from {+158}Eu |b- decay; others: 80 {I7} from                
+#G      {+158}Gd(n,n'|g) and 60 {I4} from {+157}Gd(n,|g).                 
+#G 776.98     5  48    6 M1                      0.00863                  
+#G RI        from {+158}Eu |b- decay; others: 39 {I4} from                
+#G      {+158}Gd(n,n'|g) and 46 {I4} from {+157}Gd(n,|g).                 
+#G 922.53     5  100   11 (E1)                   0.00133                  
+#G 940.31    14   20    6                                                 
+#G RI        From {+158}Eu |b- decay; other: 31 {I15} from {+157}Gd(n,|g).
+#G 986.87     6   83   6 E1                      0.00117                  
+#G 1702.8    2     8.3 11                                                 
+#G RI        from {+158}Eu |b- decay; other: 24 {I4} from                 
+#G      {+158}Gd(n,n'|g).                                                 
+#G 1883.1    11   76   4  M1+E2                                          ?
+#G 1964.2    3     8.1 9                                                  
+#L 1972.     3  (0+)                                                      
+#L XREF=EJ                                                                
+#L J         From L=(0) in (t,p).                                         
+#L 1978.035  8  3-                                                    M   
+#L XREF=CK                                                                
+#L J         From E1 |g's to 2+ and 4+ levels.                            
+#G 116.758    4   1.12 16                                                 
+#G 184.491   13   0.12  5                                                 
+#G 619.52    3    12.2 8 E1                      0.00297                  
+#G 712.52     5   13.6 12                                                 
+#G 714.48    15   2.5   8                                                 
+#G 790.89     4   33   3 E1                      0.00180                  
+#G 936.30     6   37    3                                                 
+#G RI        from {+157}Gd(n,|g); other: from {+158}Gd(n,n'|g)            
+#G      I{-|g}(936)/I{-|g}(790) = 0.16 {I5}.                              
+#G 954.31     6   71   5 (E2)                    0.00305                  
+#G 1000.82    7  100   7 E2                      0.00276                  
+#L 1997                                                                   
+#L XREF=F                                                                 
+#L 2017.879  11 (5+)                                                  N   
+#L J         From M1 |g to 5+ level and |g's to 4- and 6-.                
+#L XREF=CK                                                                
+#G 203.718   14   1.6   6                                                 
+#G 301.125   20   8.0  15                                                 
+#G 381.581   18   7.6   8                                                 
+#G 518.80     6   70   20 M1                     0.0236                   
+#G 637.24     5   100  35                                                 
+#L 2023.838  13 1+                                                        
+#L XREF=ACFK                                                              
+#L J         Assigned 1+ in (n,|g) which is consistent with E2 |g to      
+#L      2+ level, inconsistent with E1 |g to 0+ level.                    
+#G 231.989   13   0.06  2                                                 
+#G E         poor energy fit.                                             
+#G 571.80    3    3.7  LT                                             &   
+#G FL=1452.352                                                            
+#G 763.98    4    16.5 10 E2                     0.00499                  
+#G RI        From {+157}Gd(n,|g); other: 39 {I3} from {+158}Eu |b- decay. 
+#G 827.78    5  11.4   10 E1                                              
+#G RI        From {+157}Gd(n,|g); other: 23.9 {I24} from {+158}Eu |b-     
+#G      decay.                                                            
+#G M         E1 assignment is inconsistent with J|p's.                    
+#G 1943.5     5  100   12                                                 
+#G 2023.9     6   65   10                                                 
+#G RI        From {+157}Gd(n,|g); others: 57 {I3} from {+158}Eu |b-       
+#G      decay and 73 {I7} from {+158}Gd(n,n'|g).                          
+#L 2033.921  17 3+                                                    P   
+#L XREF=CHK                                                               
+#L J         From E1 |g's to 2- and 4- levels.                            
+#G 675.45    3   36.4  22 M1+E2                                           
+#G 768.43     5  72    9  M1                     0.00887                  
+#G RI        from {+157}Gd(n,|g); other: 193 {I17} from {+158}Gd(n,n'|g). 
+#G 846.81     5  14.5  10E2+M1                   0.0055 16                
+#G 875.00     4  79    5 E1                      0.00147                  
+#G 1010.20    5  100   5 E1                      0.00112                  
+#L 2035.69   4 (2+)                                                       
+#L XREF=CJ(*2039)K                                                        
+#L J         From |g to 2+ level and population in                        
+#L      average-resonance capture.                                        
+#G 629.01     4   2.4  LT                                             &   
+#G 775.66    20   0.7  4                                                  
+#G 1774.82   4    47    5                                                ?
+#G FL=261.4568                                                            
+#G 1956.9     6  100   10 M1+E2                                           
+#G 2035.6     6    9.0 2                                                  
+#G RI        from {+158}Gd(n,n'|g).                                       
+#L 2041                                                                   
+#L XREF=FJ(*2039)                                                         
+#L 2049.009  22 2-                                                        
+#L XREF=CK                                                                
+#L J         From M1 |g's to 1- and 3- levels.                            
+#G 646.08    3   26.5  17M1                      0.01360                  
+#G RI        from {+157}Gd(n,|g); other: 49 {I4} from {+158}Gd(n,n'|g).   
+#G 785.49     4  63    4 M1                      0.00840                  
+#G RI        from {+157}Gd(n,|g); other: 47 {I4} from {+158}Gd(n,n'|g).   
+#G 1007.29    7  100   7 M1                      0.00461                  
+#G 1025.33    7  52    4 M1                      0.00442                  
+#G RI        from {+157}Gd(n,|g); other: 78 {I7} from {+158}Gd(n,n'|g).   
+#L 2063                                                                   
+#L XREF=F                                                                 
+#L 2083.935  24 2+                                                        
+#L XREF=CK                                                                
+#L J         From E1 |g to 3- level, |g to 1-, and population in          
+#L      average-resonance capture.                                        
+#G 680.72    3   59     4 E1                                              
+#G FL=1402.936                                                            
+#G 820.08     4  100    6                                                 
+#G FL=1263.514                                                            
+#G 887.51    14   33    3                                                 
+#G E,RI      from {+158}Gd(n,n'|g).                                       
+#L 2089.251  8  2+                                                        
+#L XREF=CK                                                                
+#L J         From E1 |g's to 2- and 3- levels and two G's to 1- levels.   
+#L      In (n,n'|g), the |g(|q) for the 902 |g is inconsistent with 2+,   
+#L      so they assign 3+ which is inconsistent with |g's to 1- levels.   
+#G 227.973   8   1.37  14                                                 
+#G 295.677   8   6.7   5  E1                     0.0166                   
+#G 571.80    3   12.7  LT                                             &   
+#G FL=1517.4761                                                           
+#G 686.36     4  25.2  20 E1                     0.00239                  
+#G 825.70    10  22     5                                                 
+#G 829.39     8  19.7  20                                                 
+#G 902.07     6 100    10 M1+E2     +1.5   7                              
+#G 1047.40   13  37     4                                                ?
+#G 1111.86   20  38    10                                                ?
+#G 2009.9    3   27.3  23 M1+E2                                           
+#G E,RI      from {+158}Gd(n,n'|g).                                       
+#L 2095.20   16 (4+)                                                      
+#L XREF=FH(2090)JK                                                        
+#L J         From comparison of measured and calculated cross sections    
+#L      in (pol t,|a).                                                    
+#G 1052.9    2   73    7                                                 ?
+#G 1833.73   16 100    7                                                  
+#G 2014.8    3   67    7                                                 ?
+#L 2120.24   4                                                            
+#L XREF=CH(2117)K                                                         
+#G 602.69    11  0.74  26                                                ?
+#G 713.52     5  8.7    8                                                 
+#G 860.40     6  16.6  21 E1                     0.00152                  
+#G M         Assignment is inconsistent with JPI assignment in 157GD(N,G).
+#G 1858.83    8   91   9                                                  
+#G E,RI      from {+158}Gd(n,n'|g).                                       
+#G 2040.7     6  100   16                                                 
+#L 2134                                                                   
+#L XREF=J                                                                 
+#L 2153.174  9   (2,3)+                                                   
+#L XREF=CF                                                                
+#L J         From E1 |g to 3- level and |g's to 2+ and 4+.                
+#G 291.896    8  2.62  16 E1                     0.0171                   
+#G 359.602   11  3.8    3                                                 
+#G 746.47     6  12.8  21E2                      0.00526                  
+#G 794.73     7  20    LT                                             &   
+#G 887.74     5  100    6                                                 
+#G 893.30     7   25   3                                                  
+#G 965.97     7   55   5  M1,E2                  0.0040 11                
+#G 2072.7    25                                                           
+#L 2176        (5-)                                                   Q   
+#L XREF=H                                                                 
+#L J         From comparison of calculated and measured cross sections    
+#L      in (pol t,|a).                                                    
+#L J         Assigned as K|p=4- band with bandhead unobserved. Major      
+#L      component of configuration is ((p,5/2[532])+(p,3/2[411])) from    
+#L     (pol t,|a) (1991Bu10) and model calculations suggest this and      
+#L     ((n,3/2[521])+(n,5/2[642])) (1994So02) may be present.             
+#L 2210                                                                   
+#L XREF=F                                                                 
+#L 2215.47   8  (1,2,3)+                                                  
+#L XREF=K                                                                 
+#L J         From M1 |g to 2+ level.                                      
+#G 1028.32    8  100   8 M1                      0.00439                  
+#G           This |g is placed from the 2214 level in {+157}Gd(n,|g),     
+#G      but from a separate level in {+158}Gd(n,n'|g).                    
+#L 2215.523  22  1                                                        
+#L XREF=ACK                                                               
+#L J         From |g's to 0+ and 2+ levels  and G to 0+.                  
+#G 423.74    3    60   7  E2                     0.0220                   
+#G 472.38    3    95   LT                                             &   
+#G 697.89     9  100   19                                                 
+#G 1018.9                                                                 
+#G E         from {+158}Gd(n,n'|g).                                       
+#G 2135.26                                                                
+#G FL=79.5128                                                             
+#G E         from {+158}Gd(n,n'|g).                                       
+#G 2215.18                                                                
+#G E         from {+158}Gd(n,n'|g).                                       
+#L 2221.63   5 2-,3-                                                      
+#L XREF=ACF(2225)H(2224)K                                                 
+#L J         From E1 |g to 2+ level and |g to 3+.                         
+#G 956.07     6  39    3                                                  
+#G 1034.51    6  100   6 E1                      0.00107                  
+#L 2237                                                                   
+#L XREF=J                                                                 
+#L 2249.61   5  2+,3,4+                                                   
+#L XREF=CF(2252)J(*2256)K                                                 
+#L J         From |g's to 2+ and 4+ levels.                               
+#G 891.24     7  42     4                                                 
+#G 984.02     8  81     7                                                 
+#G 1062.38    9 100     9                                                 
+#L 2260.158  18 2+,3+                                                     
+#L XREF=CJ(*2256)K                                                        
+#L J         From M1,E2 |g to 3+ level and |g's to 2- and 3-.             
+#G 226.242    9  0.12   2                                                 
+#G 306.089   20  0.12   2                                                ?
+#G FL=1952.424                                                            
+#G 329.816   9   1.42  11 M1                     0.0757                  ?
+#G FL=1930.200                                                            
+#G 398.86     8  0.20   9                                                 
+#G 466.53     5  0.33   9                                                 
+#G RI        from {+157}Gd(n,|g); other: 42 {I4} from {+158}Gd(n,n'|g).   
+#G 994.57    9   24.7  24 M1,E2                  0.0038 10                
+#G 1072.66   17  18.2  24                                                 
+#G 1218.67   20  31     7                                                 
+#G 1236.2    3   24    5                                                  
+#G 2180.4     3  100   29                                                 
+#G 2260.16   16   69   7  E2                                              
+#G E,RI      from {+158}Gd(n,n'|g).                                       
+#L 2267.16   11 1                33 FS     8                              
+#L XREF=DF(*2273)J(*2272)K                                                
+#L J         From dipole excitation in (|g,|g').                          
+#L T         Calculated by evaluator from data from (|g,|g').             
+#G 2187.9    2   54    5  D                                               
+#G BE1W=0.00047 9                                                         
+#G BE1W      Calculation assumes level parity is -.                       
+#G 2267.04   12 100    8  D                                               
+#G BE1W=0.00017 6                                                         
+#G BE1W      Calculation assumes level parity is -.                       
+#L 2269.255  14 (0,1,2)+                                                  
+#L XREF=ACF(*2273)J(*2272)                                                
+#L J         From M1,E2 |g to 1+ level and |g to 1-.                      
+#G 245.417   6   6.0    4 M1,E2                                           
+#G 1005.82    9  100   11                                                 
+#G 1292.3     2   22   3                                                  
+#G 2189.3     8  2.2    5                                                 
+#L 2276.02   3  0+                                                        
+#L XREF=CEF(*2273)J(*2272)                                                
+#L J         From L=0 in (p,t).                                           
+#G  240.324  11  0.73  14                                                 
+#G  381.35   5   1.1   3                                                  
+#G FL=1894.597                                                            
+#G  428.23   6   4.5   14                                                 
+#G 1088.9    3  100    20 M1                     0.00383                  
+#G 2016.2                                                                 
+#G FL=261.4568                                                            
+#G 2195.4                                                                 
+#G FL=79.5128                                                             
+#L 2283.9                                                                 
+#L XREF=C                                                                 
+#G 2204.4       100                                                       
+#L 2285        (6-)                                                   Q   
+#L XREF=F(2287)H(2282)                                                    
+#L J         From comparison of calculated and measured cross section     
+#L      in {+159}Tb(pol t,|a).                                            
+#L 2289.46   12 1,2+                                                      
+#L XREF=K                                                                 
+#L J         From |g|s to 0+ and 2+ level.                                
+#G 2210.2    3   49    5                                                 ?
+#G 2289.44   12 100    9                                                 ?
+#L 2296                                                                   
+#L XREF=J                                                                 
+#L 2322.2                                                                 
+#L XREF=CH(*2323)                                                         
+#G 2061.3                                                                 
+#G 2242.2                                                                 
+#L 2325.32   7  1-,2+                                                     
+#L XREF=AH(*2323)K                                                        
+#L E         In (n,n'|g) the 1347 |g is placed from a level at 2325.11    
+#L      and the 1060 and 2246 |g's are placed from a level at 2326.02.    
+#L      This division is not followed here.                               
+#L J         From |g's to 0+, 1-, and 3- levels.                          
+#G 922.4      3  18.6  22                                                 
+#G 1061.68   16  19.6  16                                                 
+#G 1138.3     3  12.9  16                                                 
+#G 1284.0     2  3.8    6                                                 
+#G 1301.68   14  11.1  11                                                 
+#G 1347.95   13  100    5                                                 
+#G 2246.1     3  27.8  20                                                 
+#G 2326.0    15  1.1    4                                                 
+#L 2327.44   25 (+)                                                       
+#L XREF=C                                                                 
+#L J         From E1 |g from thermal-n capture state.                     
+#L 2338.0    8  0+                                                        
+#L XREF=EJ(*2338)                                                         
+#L J         From L=0 in (p,t).                                           
+#L 2340.3    3 2+                                                         
+#L XREF=AF(2334)J(*2338)                                                  
+#L J         From comparison of measured and calculated cross sections    
+#L      in (d,p).                                                         
+#G 2260.7    3  100    10                                                ?
+#G 2340.5    10  12    4                                                 ?
+#L 2344.48   15 (+)                                                       
+#L XREF=CJ(*2338)                                                         
+#L J         From E1 |g from thermal-n capture state.                     
+#G 2266.4        100                                                      
+#G FL=79.5128                                                             
+#L 2355.09   15 (+)                                                       
+#L XREF=CJ(2358)                                                          
+#L J         From E1 |g from thermal-n capture state.                     
+#L 2369.6    15                                                           
+#L XREF=CF(2366)                                                          
+#L 2384                                                                   
+#L XREF=H                                                                 
+#L 2395.42   13 (3+)                                                      
+#L XREF=ACF(2400)J(2405)                                                  
+#L J         From comparison of measured and calculated cross sections    
+#L      in (d,p) and |g's to 0+ and 3- levels and |p=+ from E1 |g from    
+#L      thermal-n capture state.                                          
+#G 1353.64   14  89    11                                                 
+#G 1372.0     2  100   23                                                 
+#G 2315.3    10  16     7                                                 
+#G 2395.6     5  39     7                                             &   
+#L 2418        (7-)                                                   Q   
+#L XREF=HJ(2427)                                                          
+#L J         From comparison of calculated and measured cross sections    
+#L      in {+159}Tb(pol t,|a).                                            
+#L 2433.1     8                                                           
+#L XREF=C                                                                 
+#L 2446.49   15 1                29 FS     8                              
+#L XREF=ADF(*2450)K                                                       
+#L J         From dipole excitation in (|g,|g').                          
+#L T         Calculated by evaluator from data from (|g,|g').             
+#G 2367.7     3  100    5 D                                               
+#G BE1W=0.00033 8                                                         
+#G BE1W      Calculation assumes level parity is -.                       
+#G 2446.26   16   97    8 D                                               
+#G BE1W=0.00024 8                                                         
+#G E         from {+158}Gd(n,n'|g).                                       
+#G RI        from {+157}Gd(n,|g); other: 130 {I10} from {+158}Gd(n,n'|g). 
+#G BE1W      Calculation assumes level parity is -.                       
+#L 2450.74   12 1,2+                                                      
+#L XREF=ACF(*2450)K                                                       
+#L J         From |g's to 0+ and 2+ levels.                               
+#G 1263.6     4   93   40                                                 
+#G 2450.72   12  100    3                                                 
+#L 2475.4    3  1,2+                                                      
+#L XREF=AJ(2471)                                                          
+#L J         From |g's to 0+ and 2+ levels.                               
+#G 1215.7     4  100   21                                                 
+#G 2395.6     5  61    11                                             &   
+#G 2475.5     5  46     7                                                 
+#L 2480.5    14                                                           
+#L XREF=C                                                                 
+#L 2485.6    7                                                            
+#L XREF=CHJ(*2490)                                                        
+#L 2499.22   10 (1,2)+                                                    
+#L XREF=AF(2494)J(*2490)                                                  
+#L J         From |g's to 0+ and 3+ levels.                               
+#G 1233.7     2   58   12                                                 
+#G 1312.08   12  100    8                                                 
+#G 1475.2     4   18    4                                                 
+#G 2421.0    11  5.6   22                                                 
+#G 2499.0    10  23.4  14                                                 
+#L 2501.0    3  (+)                                                       
+#L XREF=C                                                                 
+#L J         From E1 |g from thermal-n capture state.                     
+#G 2420.6        100                                                      
+#L 2534.1     3 (+)                                                       
+#L XREF=C                                                                 
+#L J         From E1 |g from thermal-n capture state.                     
+#L 2538.9    10(2+)                                                       
+#L XREF=CF                                                                
+#L J         From comparison of measured and calculated cross sections    
+#L      in (d,p).                                                         
+#G 2459.3        100                                                      
+#L 2564.91   17 1(+)             33 FS     9                              
+#L XREF=CDF(2572)J(2561)K                                                 
+#L J         From dipole excitation (|g,|g') and |p from E1 |g from       
+#L      thermal-n capture state.                                          
+#L T         Calculated by evaluator from data from (|g,|g').             
+#G 2485.7    4   24    5  D                                               
+#G RI        from {+158}Gd(n,n'|g); other: 38 {I11} from {+158}Gd(|g,|g').
+#G 2564.82   18 100    8  D                                               
+#L 2594.73   20                                                           
+#L XREF=CF(2589)K                                                         
+#G 2515.2    2  100                                                       
+#L 2600        (3+)                                                       
+#L XREF=FJ(*2601)                                                         
+#L J         From comparison of measured and calculated cross sections    
+#L      in (d,p).                                                         
+#L 2600.23   22 1(+)             28 FS     10                             
+#L XREF=ACDJ(*2601)K                                                      
+#L J         From dipole excitation in (|g,|g') and |p from E1 |g from    
+#L      thermal-n capture state.  Level may be a doublet since (d,p)      
+#L      suggests J|p=(3+).                                                
+#L T         Calculated by evaluator from data from (|g,|g').             
+#G 2520.8    3   72    8  D                                               
+#G RI        from {+158}Gd(n,n'|g); others: 62 {I21} from (|g,|g') and    
+#G      24 {I12} from {+158}Eu |b- decay for |g's with                    
+#G      questionable placements.                                          
+#G 2600.1    3  100    8  D                                               
+#L 2620.94   20                                                           
+#L XREF=A                                                                 
+#G 1433.7     3  100   38                                                 
+#G 1596.9     7  38    10                                                 
+#G 1644.0     4  57    19                                                 
+#G 2542.0    16  17     5                                                 
+#L 2631.0     3 (+)                                                       
+#L XREF=CF(2634)                                                          
+#L J         From E1 |g from thermal-n capture state.                     
+#L 2642      2                                                            
+#L XREF=A(2642)                                                           
+#G 2564      2    81   27                                                ?
+#G 2640      2   100   41                                                ?
+#L 2643.4    8  0+                                                        
+#L XREF=E                                                                 
+#L J         From L=0 in (p,t).                                           
+#L 2644.6                                                                 
+#L XREF=C                                                                 
+#G 2383.1        100                                                      
+#L 2657.0                                                                 
+#L XREF=CF(2658)J(*2666)                                                  
+#G 2577.7                                                                 
+#G 2656.8                                                                 
+#L 2670.6     3                                                           
+#L XREF=AC(2672)J(*2666)                                                  
+#G 1693.4     3  100   24                                                 
+#G 2673       2   19    8                                                 
+#L 2674.56   18 (1),2+                                                    
+#L XREF=K                                                                 
+#L J         From (E2) |g to 0+ level and |g to 2-.                       
+#G 1650.8    2   88    10                                                 
+#G 1697.3    6   18    5                                                  
+#G 2674.8    4  100    12 (E2)                                            
+#L 2686.9    4   1                                                        
+#L XREF=F(*2683)K                                                         
+#L J         From |g's to 0+ and 2+ levels and |g(|q) in (n,n'|g) for     
+#L     2686 |g eliminates 2+.                                             
+#G 2607.5    4   64    8                                                  
+#G 2686.3    8  100    12                                                 
+#L 2687.1     3  0+                                                       
+#L XREF=CEF(*2683)J(2689)                                                 
+#L J         From L=0 in (p,t).                                           
+#L 2701.7    3   2+                                                       
+#L XREF=CF(2701)K                                                         
+#G 2440.2                                                                 
+#G 2618.1                                                                 
+#G FL=79.5128                                                             
+#G E         poor energy fit.                                             
+#G 2702.0    3            E2                                              
+#G E,RI      from {+158}Gd(n,n'|g).                                       
+#L 2723.7    10                                                           
+#L XREF=C                                                                 
+#L 2741                                                                   
+#L XREF=F                                                                 
+#L 2750.36   19                                                           
+#L XREF=CK                                                                
+#G 2670.2    6    87   12                                                 
+#G E,RI      from {+158}Gd(n,n'|g).                                       
+#G 2750.4    2   100   12                                                 
+#G E,RI      from {+158}Gd(n,n'|g).                                       
+#L 2759.5       (+)                                                       
+#L XREF=C                                                                 
+#L J         From E1 |g from thermal-n capture state.                     
+#G 2680.0        100                                                      
+#L 2761.96   21                                                           
+#L XREF=A                                                                 
+#G 1738.0     3  100   19                                                 
+#G 1785.0     3   57   10                                                 
+#G 2764       2   15    3                                                 
+#L 2769      7                                                            
+#L XREF=FJ                                                                
+#L 2782.3     3 (+)                                                       
+#L XREF=C                                                                 
+#L J         From E1 |g from thermal-n capture state.                     
+#G 2703.5        100                                                      
+#L 2794.9     8                                                          ?
+#L XREF=CJ                                                                
+#L 2802.9       1                12.5 FS   21                             
+#L XREF=CDF                                                               
+#L J         From dipole excitation in (|g,|g').                          
+#L T         Calculated by evaluator from data from (|g,|g').             
+#G 2724          40    7  D                                               
+#G BE1W=0.00065 10                                                        
+#G BE1W      Calculation assumes level parity is -.                       
+#G 2802.2       100       D                                               
+#G BE1W=0.00024 6                                                         
+#G BE1W      Calculation assumes level parity is -.                       
+#L 2805.1    3  1,2+                                                      
+#L XREF=K                                                                 
+#L J         From |g's to 0+ and 2+ levels.                               
+#G 1617.6    6   31    10                                                 
+#G 2805.1    3  100    14                                                 
+#L 2822.3    6  1-               8.2 FS    22                             
+#L XREF=ACDK                                                              
+#L J         From E1 excitation in (|g,|g').                              
+#L T         Calculated by evaluator from data from (|g,|g').             
+#G 2742.0    8  100    10 E1                                              
+#G BE1W=0.0009 3                                                          
+#G 2822.8    7   50    5  E1                                              
+#G BE1W=0.00042 13                                                        
+#L 2829.4     7                                                           
+#L XREF=CFJ(*2839)                                                        
+#G 2828.6       100                                                       
+#L 2832.0    3   1                                                        
+#L XREF=K                                                                 
+#G 2832.0    3  100                                                       
+#L 2842         1                16 FS     3                              
+#L XREF=DJ(*2839)                                                         
+#L J         From dipole excitation in (|g,|g').                          
+#L T         Calculated by evaluator from data from (|g,|g').             
+#G 2762          68    13 D                                               
+#G BE1W=0.00042 7                                                         
+#G BE1W      Calculation assumes level parity is -.                       
+#G 2842         100       D                                               
+#G BE1W=0.00026 7                                                         
+#G BE1W      Calculation assumes level parity is -.                       
+#L 2844.2    5                                                            
+#L XREF=AC                                                                
+#G 2844      2  100                                                      ?
+#L 2854.8    5                                                            
+#L XREF=CK                                                                
+#G 2775.4    5   76    13                                                 
+#G E,RI      from {+158}Gd(n,n'|g).                                       
+#G 2854.6    5  100    13                                                 
+#G E,RI      from {+158}Gd(n,n'|g).                                       
+#L 2859.6     6                                                           
+#L XREF=ACF                                                               
+#G 1835.9     6  100                                                      
+#L 2879.0    2  (+)                                                       
+#L XREF=C                                                                 
+#L J         From E1 |g from thermal-n capture state.                     
+#G 2616.6                                                                 
+#G FL=261.4568                                                            
+#G 2799.8                                                                 
+#G 2878.1                                                                 
+#L 2886                                                                   
+#L XREF=F                                                                 
+#L 2896.1     6                                                           
+#L XREF=C                                                                 
+#L 2909.8     3 0+                                                        
+#L XREF=CEF(2915)                                                         
+#L J         From L=0 in (p,t).                                           
+#L 2913.4    7                                                            
+#L XREF=C                                                                 
+#L 2934.7    10                                                           
+#L XREF=CF(2940)                                                          
+#L 2960.7     8                                                           
+#L XREF=CF(2966)                                                          
+#G 2961.9       100                                                       
+#L 2964.3    5  2+                                                        
+#L XREF=K                                                                 
+#L J         From |g's to 0+ and 2+ levels and |g(|q) in (n,n'|g).        
+#G 2885.1    10  56    12                                                 
+#G E,RI      from {+158}Gd(n,n'|g).                                       
+#G 2964.2    5  100    11                                                 
+#G E,RI      from {+158}Gd(n,n'|g).                                       
+#L 2981.5    10                                                           
+#L XREF=C                                                                 
+#L 2986.1    4  1                20 FS     4                              
+#L XREF=CD                                                                
+#L J         From dipole excitation by (|g,|g').                          
+#L T         Calculated by evaluator from data from (|g,|g').             
+#G 2906          45    12 D                                               
+#G 2986         100       D                                               
+#L 2997.7     4 (+)                                                       
+#L XREF=C                                                                 
+#L J         From E1 |g from thermal-n capture state.                     
+#G 2918.5       100                                                       
+#L 3008.3    9                                                            
+#L XREF=C                                                                 
+#G 2746.0                                                                 
+#G 2929.2                                                                 
+#L 3012.05   15 (+)                                                       
+#L XREF=C                                                                 
+#L J         From E1 |g from thermal-n capture state.                     
+#L 3029.1     4                                                           
+#L XREF=C                                                                 
+#G 2950.2       100                                                       
+#L 3038.1    4  1                24 FS     6                              
+#L XREF=DK                                                                
+#L J         From dipole excitation by (|g,|g').                          
+#L T         Calculated by evaluator from data from (|g,|g').             
+#G 2959          28    12 D                                               
+#G 3038.1    4  100       D                                               
+#L 3045.6    15                                                           
+#L XREF=C                                                                 
+#L 3059.9    5                                                            
+#L XREF=CK                                                                
+#G 2980.4    6  100    21                                                 
+#G 3059.8    9   69    16                                                 
+#L 3064.7    5                                                            
+#L XREF=CK                                                                
+#G 2085.1                                                                 
+#G FL=977.1453                                                            
+#G 2986.0    7   80    16                                                 
+#G 3064.7    5  100    15                                                 
+#L 3066.9     4                                                           
+#L XREF=C                                                                 
+#L 3076.7    16  0+                                                       
+#L XREF=E                                                                 
+#L J         From L=0 in (p,t).                                           
+#L 3080.0    6                                                            
+#L XREF=C                                                                 
+#L 3108         1                5.7 FS    9                              
+#L XREF=D                                                                 
+#L J         From dipole excitation by (|g,|g').                          
+#L T         Calculated by evaluator from data from (|g,|g').             
+#G 3028          58    7  D                                               
+#G 3108         100       D                                               
+#L 3109.9    11  0+                                                       
+#L XREF=E                                                                 
+#L J         From L=0 in (p,t).                                           
+#L 3118.5    15                                                           
+#L XREF=C                                                                 
+#L 3141.5     7                                                           
+#L XREF=C                                                                 
+#G 3062.0       100                                                       
+#L 3149.9     7 (+)                                                       
+#L XREF=C                                                                 
+#L J         From E1 |g from thermal-n capture state.                     
+#G 3072.7       100                                                       
+#G FL=79.5128                                                             
+#L 3161         1-               9.0 FS    27                             
+#L XREF=D                                                                 
+#L J         From E1 excitation by (|g,|g').                              
+#L T         Calculated by evaluator from data from (|g,|g').             
+#G 3081         100    22 E1                                              
+#G BE1W=0.00051 21                                                        
+#G 3161          72       E1                                              
+#G BE1W=0.00034 12                                                        
+#L 3171.2     6                                                           
+#L XREF=C                                                                 
+#L 3192      1  1+               4.1 FS    6                              
+#L XREF=D                                                                 
+#L J         From M1 excitation by (|g,|g').                              
+#L T         Calculated by evaluator from data from (|g,|g').             
+#G 3113          41    5  M1                                              
+#G BM1W=0.052 10                                                          
+#G 3192         100       M1                                              
+#G BM1W=0.117 18                                                          
+#L 3195.5     6                                                           
+#L XREF=C                                                                 
+#L 3200.8     6 1+               3.2 FS    4                              
+#L XREF=CD                                                                
+#L J         From M1 excitation by (|g,|g').                              
+#L T         Calculated by evaluator from data from (|g,|g').             
+#G 3121          53    5  M1                                              
+#G BM1W=0.078 13                                                          
+#G 3201         100       M1                                              
+#G BM1W=0.137 18                                                          
+#L 3228.6     7                                                           
+#L XREF=C                                                                 
+#L 3234.5    5                                                            
+#L XREF=C                                                                 
+#L 3247.2     4                                                           
+#L XREF=C                                                                 
+#L 3258.2    6  1-               9 FS      3                              
+#L XREF=CD                                                                
+#L J         From E1 excitation by (|g,|g').                              
+#L T         Calculated by evaluator from data from (|g,|g').             
+#G 3179         100    23 E1                                              
+#G BE1W=0.00052 23                                                        
+#G 3259          53       E1                                              
+#G BE1W=0.00026 10                                                        
+#L 3263.9     6                                                           
+#L XREF=C                                                                 
+#L 3271.4     8                                                           
+#L XREF=C                                                                 
+#L 3288.0     5 1                34 FS     13                             
+#L XREF=CD                                                                
+#L J         From dipole excitation by (|g,|g').                          
+#L T         Calculated by evaluator from data from (|g,|g').             
+#G 3208          45    23 D                                               
+#G 3288         100       D                                               
+#L 3292.0                                                                 
+#L XREF=C                                                                 
+#G 3291.6       100                                                       
+#L 3299         1                7.0 FS    11                             
+#L XREF=D                                                                 
+#L J         From dipole excitation by (|g,|g').                          
+#L T         Calculated by evaluator from data from (|g,|g').             
+#G 3219          47    7  D                                               
+#G 3299         100       D                                               
+#L 3351.9     7                                                           
+#L XREF=C                                                                 
+#L 3411.7     4                                                           
+#L XREF=C                                                                 
+#L 3428         1                23 FS     8                              
+#L XREF=D                                                                 
+#L J         From dipole excitation by (|g,|g').                          
+#L T         Calculated by evaluator from data from (|g,|g').             
+#G 3348          64    23 D                                               
+#G BE1W=0.00016 4                                                         
+#G BE1W      Calculation assumes level parity is -.                       
+#G 3428         100       D                                               
+#G BE1W=0.00010 4                                                         
+#G BE1W      Calculation assumes level parity is -.                       
+#L 3436.4     4 (+)                                                       
+#L XREF=C                                                                 
+#L J         From E1 |g from thermal-n capture state.                     
+#L 3448.8     4 (+)                                                       
+#L XREF=C                                                                 
+#L J         From E1 |g from thermal-n capture state.                     
+#L 3470         1                31 FS     12                             
+#L XREF=D                                                                 
+#L J         From dipole excitation by (|g,|g').                          
+#L T         Calculated by evaluator from data from (|g,|g').             
+#G 3390          39    23 D                                               
+#G BE1W=0.00014 4                                                         
+#G BE1W      Calculation assumes level parity is -.                       
+#G 3470         100       D                                               
+#G BE1W=0.00005 3                                                         
+#G BE1W      Calculation assumes level parity is -.                       
+#L 3534.8     5 (+)                                                       
+#L XREF=C                                                                 
+#L J         From E1 |g from thermal-n capture state.                     
+#L 3570.9    12                                                           
+#L XREF=C                                                                 
+#G 3492.7                                                                 
+#G 3570.1                                                                 
+#L 3577         1                24 FS     10                             
+#L XREF=D                                                                 
+#L J         From dipole excitation by (|g,|g').                          
+#L T         Calculated by evaluator from data from (|g,|g').             
+#G 3497          26    21 D                                               
+#G BE1W=0.00018 5                                                         
+#G BE1W      Calculation assumes level parity is -.                       
+#G 3577         100       D                                               
+#G BE1W=0.00004 4                                                         
+#G BE1W      Calculation assumes level parity is -.                       
+#L 3592.4     5 (-)                                                       
+#L XREF=C                                                                 
+#L J         From M1,E2 |g from thermal-n capture state.                  
+#L 3600.5    10                                                           
+#L XREF=C                                                                 
+#G 3521.0                                                                 
+#G 3600.6                                                                 
+#L 3626.9     5                                                           
+#L XREF=C                                                                 
+#L 3632.7     7                                                           
+#L XREF=C                                                                 
+#L 3647.5     8                                                           
+#L XREF=C                                                                 
+#L 3661.6     6                                                           
+#L XREF=C                                                                 
+#G 3580.6                                                                 
+#G FL=79.5128                                                             
+#G 3658.9                                                                 
+#G FL=0.0                                                                 
+#L 3702.6    12                                                           
+#L XREF=C                                                                 
+#G 3439.8                                                                 
+#G 3623.7                                                                 
+#L 3750.1    15                                                          ?
+#L XREF=C                                                                 
+#L 3794.6    10 (+)                                                       
+#L XREF=C                                                                 
+#L J         From E1 |g from thermal-n capture state.                     
+#L 3820         1-               5.2 FS    23                             
+#L XREF=D                                                                 
+#L J         From E1 excitation by (|g,|g').                              
+#L T         Calculated by evaluator from data from (|g,|g').             
+#G 3740         100    31 E1                                              
+#G BE1W=0.0005 3                                                          
+#G 3820          74       E1                                              
+#G BE1W=0.00034 17                                                        
+#L 3846.7     4 (+)                                                       
+#L XREF=C                                                                 
+#L J         From E1 |g from thermal-n capture state.                     
+#L 3878.8     4 (+)                                                       
+#L XREF=C                                                                 
+#L J         From E1 |g from thermal-n capture state.                     
+#L 3921         1-               2.7 FS    15                             
+#L XREF=D                                                                 
+#L J         From E1 excitation by (|g,|g').                              
+#G 3841         100    34 E1                                              
+#G BE1W=0.0010 7                                                          
+#G 3921          50       E1                                              
+#G BE1W=0.0005 3                                                          
+#L 3923.3    11                                                           
+#L XREF=C                                                                 
+#G 3842.9                                                                 
+#G 3924.7                                                                 
+#L 3948.0     6                                                           
+#L XREF=C                                                                 
+#L 3965.1     7                                                           
+#L XREF=C                                                                 
+#L 4015.8     8                                                          ?
+#L XREF=C                                                                 
+#L 4110.7     8 (+)                                                       
+#L XREF=C                                                                 
+#L J         From E1 |g from thermal-n capture state.                     
+#L 4139.6     4 (+)                                                       
+#L XREF=C                                                                 
+#L J         From E1 |g from thermal-n capture state.                     
+#L 4161.5     8 (+)                                                       
+#L XREF=C                                                                 
+#L J         From E1 |g from thermal-n capture state.                     
+#L 4236.9     6                                                           
+#L XREF=C                                                                 
+#                                                                         
+

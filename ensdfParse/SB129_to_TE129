@@ -1,0 +1,175 @@
+#129TE    129SB B- DECAY (4.366 H)      1989WAZJ,1995STZZ         14NDS    201408
+#  129SB B- DECAY (4.366 H)      1989WAZJ,1995STZZ         14NDS    201408
+#H TYP=FUL$AUT=JANOS TIMAR AND ZOLTAN ELEKES, BALRAJ SINGH$               
+#H CIT=NDS 121, 143 (2014)$CUT=31-May-2014$                               
+#  1989WaZJ: {+129}Sb from fission, mass separated source,                
+#  measured E|g, I|g, |g|g coin                                           
+#  1995StZZ: measured |g(|q) by low-temperature nuclear orientation       
+#  method, deduced mixing ratios. This report is based on a thesis        
+#  by M. Lindroos, Chalmers University of Technology, Goteborg, Sweden    
+#  1970Oh05: source from {+130}Te(|g,p). Measured E|g, I|g, |b; |g|g-     
+#  and |b|g-coin. A total of 55 |g rays were reported with 48 placed      
+#  amongst 22 levels; only one level at 1736 is not confirmed in 1989WaZJ 
+#  1970Ca23: {+235}U(n,F) and {+130}Te(|g,p). Measured E|g, I|g, |g|g.    
+#  A total of 85 gamma rays were reported with 60 placed amongst 33       
+#  levels, nine of these levels have not been confirmed by 1989WaZJ       
+#  The present decay scheme is from 1989WaZJ, which represents an         
+#  extension and major revision of previous decay schemes proposed in     
+#  1970Ca23 and 1970Oh05                                                  
+#B IB$From |g-ray intensity balance, unless otherwise stated. From the    
+#B level scheme, |b feeding to 180.37, 1/2+ level is 0.34% {I17},         
+#B whereas none is expected. In the opinion of the evaluators, this       
+#B apparent feeding is due to poor knowledge of the intensity of 180.42|g;
+#B note that I|g=2.389 in 1989WaZJ is much lower which gives a            
+#B non-physical negative |b feeding of about 1.5%                         
+#G $U{-2}A{-2} values are from 1995StZZ                                   
+#G $Following weak |g rays with E|g (I|g) reported in 1970Ca23 have not   
+#G been confirmed by 1989WaZJ and are omitted: 125.1 (w), 136.8           
+#G (w), 165.0 (0.08 2), 197.4 (0.15 5), 217.2 (0.03 2), 226.3 (0.05 2),   
+#G 232.1 (0.70 2), 950.6 (0.05 3), 984.3 (0.15 5), 1066.8 (0.12 7), 1139.2
+#G (0.4 1), 1155.0 (w), 1161.8 (0.25 5), 1223.3 (0.4 1), 1752.3 (0.10 15),
+#G 1919.2 (0.06 2), 1975.0 (0.17 3), 2011.1 (0.010 5), 2030.5 (0.02 1),   
+#G 2042.0 (0.010 5), 2091.5 (0.04 1), 2198.9 (0.13 3), 2262.5. Energy     
+#G uncertainty is |?1 keV                                                 
+#G E$From 1989WaZJ. The evaluators assign minimum uncertainty             
+#G of 0.1 keV for the purpose of least-squares fit. In Adopted            
+#G dataset increased uncertainties are used when taken from this          
+#G dataset. Values from 1970Ca23 and 1970Oh05 are listed in the dataset   
+#G under 'documentation' records                                          
+#G RI$From 1989WaZJ, unless otherwise stated. The evaluators assign       
+#G minimum uncertainty of 1% for gamma-ray intensity in cases where       
+#G 1989WaZJ quote an uncertainty lower than 1%. Values from 1970Ca23      
+#G and 1970Oh05 are listed in the dataset under 'documentation' records   
+#G E(A)$Doublet                                                           
+#G M$From |g(|q) and other considerations as explained in 1995StZZ.       
+#G Almost all mixing ratios are double values (a low |d and a high |d);   
+#G these are given under comments                                         
+#L $The following levels proposed in 1970Ca23 have been omitted since     
+#L not confirmed by 1989WaZJ: 244.5, 350.1, 948.6, 1302.0, 1415.2,        
+#L 2042.0, 2199.0, 2221,6 and 2262.5                                      
+#L E$From least-squares fit to E|g data by assuming minimum uncertainty   
+#L of 0.1 keV for E|g. In addition following E|g values were left out     
+#L of the fitting procedure due to their poor fit in the level scheme:    
+#L 314.4 from 1481 level, 1646.79 from 1753 level, 1211.89 from 2086      
+#L level, 1669.16 from 2134 level. Without making these adjustments       
+#L and using the uncertainties as quoted in 1989WaZJ, reduced |h{+2}=64   
+#L and 53 E|g values fall outside 3|s. Using 0.05 minimum uncertainty     
+#L for E|g improved the fit but still with reduced |h{+2}=5.0 and         
+#L about 15 |g rays deviating from the fitted values by more than 3|s.    
+#L J,T$From Adopted Levels                                                
+#P 0.0          7/2+             4.366 H   26             2376      21    
++B beta- 0.8997999999999999 0.03
++B beta- 0.7406 0.0038
++B beta- 0.7047 0.0274
++B beta- 0.6648999999999999 0.0108
++B beta- 0.6091 0.0377
++B beta- 0.5857 0.031
++B beta- 0.5186000000000001 0.0229
++B beta- 0.4072 0.0207
++B beta- 0.3847 0.0069299999999999995
++B beta- 0.36960000000000004 0.04019999999999999
++B beta- 0.3422 0.00128
++B beta- 0.3338 0.00109
++B beta- 0.31139999999999995 0.00192
++B beta- 0.30319999999999997 0.00292
++B beta- 0.3024 0.0054
++B beta- 0.2778 5.0E-4
++B beta- 0.26330000000000003 0.00441
++B beta- 0.25630000000000003 0.0294
++B beta- 0.2437 0.0315
++B beta- 0.2346 0.0141
++B beta- 0.2073 0.299
++B beta- 0.1987 0.0155
++B beta- 0.1979 0.0216
++B beta- 0.1945 6.56E-4
++B beta- 0.18880000000000002 5.3E-4
++B beta- 0.1881 7.81E-4
++B beta- 0.1648 0.255
++B beta- 0.15619999999999998 0.00105
++B beta- 0.15480000000000002 0.01533
++B beta- 0.1373 0.001
++B beta- 0.131 0.0017399999999999998
++B beta- 0.087 0.0246
++B beta- 0.0823 0.0067
++B beta- 0.0733 0.0206
++B beta- 0.0682 0.00216
++B beta- 0.06709999999999999 0.0011899999999999999
++B beta- 0.0289 0.0046
+
+#129TE    129SB B- DECAY (17.7 M)       1995ZH37,1987ST23,1982HU0914NDS    201408
+#  129SB B- DECAY (17.7 M)       1995ZH37,1987ST23,1982HU0914NDS    201408
+#H TYP=FUL$AUT=JANOS TIMAR AND ZOLTAN ELEKES, BALRAJ SINGH$               
+#H CIT=NDS 121, 143 (2014)$CUT=31-May-2014$                               
+#  1988StZQ, 1987St23: {+235}U(n,F) E=th, on-line mass separator;         
+#  Ge detector, E|g, I|g, ce, |g|g-coin, half-life                        
+#  1982Hu09: {+235}U(n,F) E=th, on-line mass separator; Ge detector,      
+#  |g|g-coin, half-life. A total of 29 |g rays reported up to 1843 keV,   
+#  but only a few are common with those from 1987St23                     
+#  1988Go19 assigned a 16.7-min isomer to {+131}Sb based on observation   
+#  433.8 and 642.3 gamma rays, but in an erratum (Phys. Rev. C 39, 1646   
+#  (1989) the authors revised its assignment to {+129}Sb based on the     
+#  work of 1982Hu09 and 1987St23; and also stated that 433.8 and 642.3    
+#  |g rays were in coin with a 759|g. While 433.8 and 759|g are confirmed 
+#  in this decay, the origin of 642|g is not known.                       
+#  1995Zh37: 17.7-min isomer produced in {+130}Te({+64}Ni,X) at 275 MeV.  
+#  The authors estimate that |?68% decay feeds the 1958, (21/2-) level    
+#  in {+129}Te which decays by 434-658-760 |g cascade to 11/2- isomer     
+#  at 105 keV.                                                            
+#B IB$From intensity balance. These feedings should be considered         
+#B as approximate since the decay scheme is not well established          
+#G $-------------------------------------------------------------         
+#G $               Gamma-ray data from 1982Hu09                           
+#G $  E|g        I|g      Level        E|g        I|g        Level        
+#G $                                                                      
+#G $  39.0 2   6.0 20   1548.5      583.3 4   1.5 5                       
+#G $  61.1 8   3.0 10               657.78 8# 92 8     1417.6@            
+#G $  63.6 9  10.0 30               684.6 2#  3.5 10   2102.1             
+#G $ 130.9 1   6.0 20               759.8 1# 100.0 9    759.8@            
+#G $ 146.0 2   1.8 5                788.7 2   4.0 15   1548.5@            
+#G $ 186.0 4   1.7 5                793.5 3   5.0 15                      
+#G $ 250.5 2   2.0 5    2102.1      825.4 3   8.5 30                      
+#G $ 281.1 4   1.0 3               1063.2 4   2.0 10                      
+#G $ 346.9 3   2.0 5               1068.8 2#  4.0 15   1828.4             
+#G $ 410.8 1#  8.5 20   1828.4     1091.4 2   3.0 10   1851.4             
+#G $ 433.76 8# 73 8     1851.4@    1225.5 2   4.0 10                      
+#G $ 435.6 3   1.8 5               1327.1 3   2.8 10                      
+#G $ 438.0 2   1.8 5               1417.6 3   3.4 12   1417.6             
+#G $ 443.0 4   1.4 5               1843.1 5   1.8 5                       
+#G $ 453.5 2   4.0 12                                                     
+#G $                                                                      
+#G $  @Energy of 105 keV should be added since the cascades are built     
+#G $   on 105-keV, 11/2- isomer.                                          
+#G $  # |g near this energy reported in 1988StZQ                          
+#G $------------------------------------------------------------------    
+#G $                                                                      
+#G $------------------------------------------------------------------    
+#G $           Gamma-ray data from 1988StZQ, 1987St23                     
+#G $  E|g         Level       E|g         Level                           
+#G $                                                                      
+#G $  232        2190       544@         544                              
+#G $  239        2020       658#        1524                              
+#G $  257        1781       684#@       1228                              
+#G $  307        2109       752         2275                              
+#G $  320        2109       754         1621                              
+#G $  314&       1934       761#         857                              
+#G $  341        2275       814@         814                              
+#G $  405        1623       877         1744                              
+#G $  410#       1934       929         1796                              
+#G $  434        1958      1031         1845                              
+#G $  523        2157      1067#        1934                              
+#G $                                                                      
+#G $  & 314|g shown incorrectly from 1958 level in Fig 6 of 1988StZQ      
+#G $  # |g near this energy reported in 1982Hu09                          
+#G $  @ |g may be from decay of 4.366-h {+129}Sb populated by ^IT decay   
+#G $    of 17.7-min {+129}Sb                                              
+#G $ -----------------------------------------------------------------    
+#G E,RI$From 1982Hu09, unless otherwise stated                            
+#L $Since the gamma-ray data from 1982Hu09 and 1988StZQ are in severe     
+#L disagreement, only those transitions are placed in a level scheme      
+#L which are consistent with in-beam high-spin |g-ray data from 1998Zh09, 
+#L 1995Zh37                                                               
+#L J,T$From Adopted Levels                                                
+#P 1850.31   6 (19/2-)           17.7 M    1              2376      21    
+SB129 TE129 beta- 2.376 1062.0 0.85
++B beta-1.0429000000000002 0.07
+

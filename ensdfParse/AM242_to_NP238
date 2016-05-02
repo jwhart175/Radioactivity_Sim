@@ -1,0 +1,113 @@
+#238NP    242AM A DECAY (141 Y)         1990HO02,1979BA67         15NDS    201507
+#  242AM A DECAY (141 Y)         1990HO02,1979BA67         15NDS    201507
+#H TYP=FUL$AUT=E. BROWNE, J. K. TULI$CIT=NDS 127, 191 (2015)$             
+#H CUT=1-Jun-2014$                                                        
+#  Corrected by E. Browne (Oct. 23, 2014).                                
+#  Corrections done by A.L. Nichols and B. Singh, Nov 16, 2010            
+#  for conversion coefficient of 66.89|g, 5251|a, and several expected    
+#  but unobserved |g transitions added, as indicated in the dataset.      
+#  The |a decay branching of {+242m}Am is 0.459% {I12}; 98.54% decays     
+#  by an isomeric transition (IT).                                        
+#A HF$r{-0}=1.508 {I5}                                                    
+#A IA$From 1990Ho02, except where noted otherwise. Uncertainties are not  
+#A given in 1979Ba67; however,their values agree well with those given    
+#A in 1990Ho02, except for the branch to the 300-keV level (or doublet).  
+#A $ Above comment edited by A.L. Nichols and B. Singh (Nov 16, 2010)     
+#A E(A),IA(A)$From 1979Ba67, not reported in 1990Ho02.                    
+#A E(B),IA(B)$1979Ba67 report a doublet with E|?5173 and 5173.5 {I15} with
+#A I|a=0.04. One of these lines corresponds to the 376.71 {I6} level.     
+#A The other may correspond to a 374.7 keV {I10} level reported in (d,p). 
+#G M,MR$From adopted gammas                                               
+#A E$From Q(|a) and E(level), except where noted otherwise. Experimental  
+#A values have been measured in 1990Ho02 and 1979Ba67 and are given in    
+#A comments. Note that for 1979Ba67, the authors' original values have    
+#A been decreased by 0.2 keV, as recommended in 1991Ry01, to account for  
+#A changes in calibration energies. The authors assign |D(E|a)=0.5 keV to 
+#A the two most intense lines, and state that uncertainties do not        
+#A exceed 1.0- to 1.5 keV for most of the other lines. Based on this      
+#A statement, the evaluators have assigned uncertainties of 1.0 keV       
+#A for lines with I|a between 0.6- and 1.2%, and 1.5 keV for lines with   
+#A I|a between 0.02 and 0.2. No uncertainties have been assigned to the   
+#A two lines with I|a<0.01%.                                              
+#A E(D),IA(D)$E|a=5249.8 keV {I15} (with %I|a=0.04) in 1979Ba67 gives     
+#A E(level)=298.9 keV {I15}. Based just on energy, this |a branch could   
+#A correspond to those to the 299.24 keV and possibly to the 297.04- or   
+#A 300.65 keV levels. The branch with E=5248.1 keV {I12}, is a weighted   
+#A average of 5248.0 keV {I15}, from 1979Ba67, and 5248.4 keV {I22} from  
+#A 1990Ho02, gives E(level)=300.7 keV {I12} which could correspond to the 
+#A the 299.24 level. 1979Ba67 give I|a|?0.11% and 1990Ho02 give 1.0% {I1} 
+#A for this branch. 1990Ho02 assign the first branch to the 297.04 level, 
+#A and the second to the 299.24 and 300.65 levels. Evaluators suggest     
+#A that the 300.755-keV level also may be fed.                            
+#G E,RI$From 1990Ho02, except where noted otherwise. The I|g are per      
+#G 100 |a decays, obtained by measuring the intensity ratio at            
+#G saturation for the 984.45-keV|g in {+238}Np |b{+-} decay and the       
+#G 163.25-keV|g in {+242}Am (141y) |a decay. The uncertainties given      
+#G are relative values. For absolute uncertainties add 14.3% in quadrature
+#G RI(B)$1990Ho02 report I|g=4.0 {I3} for a 109.59 keV {I2} transition    
+#G doubly placed from the 136- and 342-keV levels.                        
+#G RI(C)$1990Ho02 report I|g=0.150 {I8} for a 152.79-keV {I2} transition  
+#G doubly placed from the 179- and 259-keV levels. The energy is probably 
+#G a misprint. The authors report E=152.69 keV {I3} for the same          
+#G transition in (n,|g). From E(level) differences, excluding this        
+#G transition, one obtains E|g=152.733 keV {I9} for placement from the    
+#G 179-keV level,and 152.67 keV {I4} for placement from the 259-keV level 
+#G RI(D)$1990Ho02 report I|g=0.024 {I7} for a 139.05 keV {I2} transition  
+#G doubly placed from the 166- and 300.755 keV levels                     
+#G RI(E)$1990Ho02 report I|g=3.50 {I10} for a 163.25 keV {I2} transition  
+#G doubly placed from the 329- and 342-keV levels. From I|g/I|g(66.9|g)   
+#G in (n,|g), one expects I|g(163|g)=4.0 {I8} for placement from the      
+#G 342-keV level. This leaves I|g|<0.32 for placement from the 329-keV    
+#G level. Evaluators adopt I|g(163.25|g)=3.34 {I19} and |<0.32 for each   
+#G placement, respectively.                                               
+#G E(F),RI(F)$1990Ho02 report I|g=0.122 {I10} for a 250.33 keV {I3}       
+#G transition doubly placed from the 250.3- and 313-keV levels.           
+#G From I|g/I|g(176|g)|<2.6 from the 313-keV level in (n,|g), one obtains 
+#G I|g(250|g from 313)|<0.024,and thus I|g(250|g from 250)=0.110 {I16}    
+#G E(X)$ |g transition included on the basis of (n,|g) results in         
+#G 1990Ho02. E|g is from level-energy difference.                         
+#G (A.L. Nichols, B. Singh, Nov 16, 2010)                                 
+#G E(Z),RI(Z)$The 26.32-keV gamma transition in 1990Ho02 is controversial 
+#G if it is assumed to deexcite the 26.44-keV level in {+238}Np.          
+#G The quoted I|g=1.36 {I10} per 100 |a decays, when combined             
+#G with the internal conversion coefficients for an expected M1 transition
+#G ,generates an unrealistic absolute transition probability of 2.1%.     
+#G           There is a good possibility that the 26.32|g line in 1990Ho02
+#G arises primarily from the alpha decay of {+241}Am (isotopic content of 
+#G 0.79% in the source material used by 1990Ho02, and known |g-ray energy 
+#G of 26.3446 keV {I2} keV in {+237}Np from {+241}Am |a decay).           
+#G (Comment added by A.L. Nichols and B. Singh, Nov 16, 2010)             
+#G E(U)$ This |g unplaced in 1990Ho02.                                    
+#L E$From a least-squares fit to the E|g data, except where noted         
+#L otherwise                                                              
+#L E(A)$From E|a and Q(|a)                                                
+#L E(C)$Rounded-off values from adopted levels                            
+#L J$From adopted levels                                                  
+#L T(B)$1966As06 report T{-1/2}=50 ns for a level at 300 keV from an      
+#L |a|g(t) experiment. No details are given, in particular the |g         
+#L transition selected is not given, so which of the four levels at       
+#L 300 keV is involved cannot be determined                               
+#P 48.63      5 5-               141 Y     2              5588.50   25    
++A alpha 5.51779 6.0E-5
++A alpha 5.4585799999999995 0.0014000000000000002
++A alpha 5.41003 0.01
++A alpha 5.36761 0.011000000000000001
++A alpha 5.33185 0.0015
++A alpha 5.31483 0.006
++A alpha 5.27285 0.011000000000000001
++A alpha 5.25167 4.0E-4
++A alpha 5.2495 4.0E-4
++A alpha 5.24801 0.011000000000000001
++A alpha 5.24812 0.011000000000000001
++A alpha 5.2145 3.0E-4
++A alpha 5.20706 0.89
++A alpha 5.1753 4.0E-4
++A alpha 5.173310000000001 4.0E-4
++A alpha 5.1531 2.0E-4
++A alpha 5.143 0.055999999999999994
++A alpha 5.0918 0.0021
++A alpha 5.082 3.0E-4
++A alpha 5.068 0.0025
++A alpha 5.0272 2.0E-4
++A alpha 4.9746999999999995 2.0E-5
+

@@ -1,0 +1,96 @@
+# 85Y     85ZR EC DECAY (7.86 M)        1992BU10,1977IA01         14NDS    201408
+#  85ZR EC DECAY (7.86 M)        1992BU10,1977IA01         14NDS    201408
+#H TYP=FUL$AUT=BALRAJ SINGH AND JUN CHEN$CIT=NDS 116, 1 (2014)$           
+#H CUT=31-Dec-2013$                                                       
+#  1992Bu10: Source produced in Mo({+3}He,X) reaction at 280 MeV          
+#  followed by mass separation at ISOCELE-2 facility in Orsay.            
+#  Measured E|g, I|g, |g|g, |g|(t), x|g(t) and ce using two Ge            
+#  detectors for |g rays and a Si(Li) detector placed in a magnetic       
+#  selector for conversion electrons.                                     
+#  1982De36: measured isotopic half-life, |b|g coin, Q value              
+#  1977Ia01: Source produced by irradiation of {+89}Y by 70-MeV protons   
+#  followed by chemical separation. Measured E|g, I|g, |g|g using         
+#  Ge detectors.                                                          
+#E TI,LOGFT$All feedings should be considered as upper limits and         
+#E associated LOGFT values as lower limits due to uncertain feeding       
+#E of the 19.6 level and a gap of about 2 MEV between Q value and         
+#E the highest known level at 2660 in this decay. The following levels    
+#E have also apparent negative feedings: 930 level: -0.44 20; 1270 level: 
+#E -0.16 5; 1461 level: -0.24 5; 1788 level: -0.16 5. This implies        
+#E that some aspects of the level scheme are still incomplete.            
+#G $Detailed |g|g coin information is from 1992Bu10, for strong           
+#G transitions consistent information is also available from 1977Ia01     
+#G E,RI$Unweighted averages of 1992Bu10 and 1977Ia01 when same            
+#G |g rays are reported in both studies. The precision of energy          
+#G and intensity measurements are nearly the same in two studies.         
+#G However, 1992Bu10 report a large number of new weak |g rays.           
+#G For 11 doubly-placed transitions, 1992Bu10 state that intensities      
+#G of the two components were estimated from |g|g coin data for the       
+#G purpose of deducing |b feedings, but values of these separated         
+#G intensities are not quoted by 1992Bu10. The evaluators have            
+#G arbitrarily divided the intensities equally between the two components 
+#G in each case, except where only an upper intensity limit is given.     
+#G E(X)$G FROM 1992Bu10 only                                              
+#G E(Y)$Placement from 1992Bu10                                           
+#G E(Z)$G shown only in level-scheme figure 3 and in some cases in        
+#G |g|g coin table 6 of 1992Bu10, not listed in authors' table 5.         
+#G No intensity is available                                              
+#G RI(U)$From |g|g coin data (1992Bu10)                                   
+#G E(V)$UNPLACED G FROM GG coincidence TABLE 6 OF 1992BU10.               
+#G In some cases |g-ray energies agree with level-energy differences      
+#G but observed coincidences, as given in table 6 of 1992Bu10, are not    
+#G satisfied.                                                             
+#G M$From measured conversion coefficients by 1992Bu10                    
+#L E$From least-squares fit to E|g data                                   
+#L J,T$From Adopted Levels unless otherwise indicated                     
+#L T(A)$From (G+-)G(T) (1977Ia01)                                         
+#L $Due to the revised placement of 1191.3|g, a 1607.8 level from         
+#L 1977Ia01 is omitted. This |g is now placed from a 1627 level           
+#P 0.0         (7/2+)            7.86 M    4              4668      20    
+ZR85 Y85 beta+ 4.668 471.6 1
++B beta+ 8.53E-4 0.0012
++B beta+ 1.6531 0.06
++B beta+ 1.5357 0.05
++B beta+ 1.4552 0.05
++B beta+ 1.4372 0.05
++B beta+ 1.375 0.03
++B beta+ 1.2863 0.05
++B beta+ 1.2415 0.04
++B beta+ 1.2370999999999999 0.04
++B beta+ 1.2025 0.03
++B beta+ 1.1754 0.04
++B beta+ 1.166 0.04
++B beta+ 1.1238 0.04
++B beta+ 1.113 0.04
++B beta+ 1.1056 0.04
++B beta+ 1.0877000000000001 0.04
++B beta+ 1.0615999999999999 0.03
++B beta+ 1.0445 0.03
++B beta+ 1.0063 0.03
++B beta+ 0.9927 0.0013
++B beta+ 0.9502999999999999 0.0015
++B beta+ 0.8981 0.0017000000000000001
++B beta+ 0.8617999999999999 0.0019
++B beta+ 0.8536 0.0019
++B beta+ 0.8316 0.002
++B beta+ 0.8077000000000001 0.0022
++B beta+ 0.7764 0.0024
++B beta+ 0.7485 0.0026
++B beta+ 0.6354 0.0036
++B beta+ 0.595 0.004
++B beta+ 0.5701 0.0043
++B beta+ 0.5426 0.004699999999999999
++B beta+ 0.5346000000000001 0.0048
++B beta+ 0.465 0.005699999999999999
+
+# 85Y     85ZR EC DECAY (10.9 S)        1976IA01                  14NDS    201408
+#  85ZR EC DECAY (10.9 S)        1976IA01                  14NDS    201408
+#H TYP=FUL$AUT=BALRAJ SINGH AND JUN CHEN$CIT=NDS 116, 1 (2014)$           
+#H CUT=31-Dec-2013$                                                       
+#  Isotope produced by 89Y(P,5N) reaction at 60 MEV. Yields at different  
+#  bombarding energies and SR targets were used to discriminate against   
+#  other isotopes, GELI detectors.                                        
+#L J,T$From Adopted Levels                                                
+#P 292.2     3 (1/2-)            10.9 S    3              4668      20    
++G gamma 0.4165 0.09
+

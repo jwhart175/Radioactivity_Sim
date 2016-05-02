@@ -1,0 +1,32 @@
+#106TC    106MO B- DECAY (8.73 S)       1995JO02,1980TIZX         08NDS    200806
+#  106MO B- DECAY (8.73 S)       1995JO02,1980TIZX         08NDS    200806
+#H TYP=FUL$AUT=D. DE FRENNE AND A. NEGRET$CIT=NDS 109, 943 (2008)$        
+#H CUT=1-May-2007$                                                        
+#  1995Jo02: {+106}Mo activity from {+238}U(p,f): EP=20 MeV. Measured:    
+#  T(B-), Q-, IG, I(CE), BG, GG, G(X), G(CE), |b{+-}(CE), G(CE)-coin.     
+#  Deduced: 106TC levels, LOGFT, J, PI, ICC, I(B-). Ge, plastic detector  
+#  Conversion electrons measured with a lens-type conversion-electron     
+#  spectrometer. I(|g+ce) obtained using three  different arrangements    
+#  with coincidences between conversion electrons, gammas,                
+#  betas and X-rays. Efficiency of lens spectrometer calibrated internally
+#  with transitions with known conversion coefficients. For more details, 
+#  see 1995Jo02. No details given on normalization of conversion electron 
+#  and gamma intensity scales                                             
+#  1980TiZX: activity from {+239}Pu(th n,f); rapid molybdenum chem        
+#  measured: E|g, I|g, |g|g, deduced: {+106}Tc levels                     
+#  Others: 1969WiZX, 1976KaYO, 1977Ki14, 1977Ti02                         
+#  Unless stated otherwise, all data taken from 1995JO02                  
+#  LOGFT: the LOGFT values are calculated under the assumption of no GS B-
+#  transition. For  several levels, due to large uncertainties on the     
+#  B- branches only limits could be given. These large uncertainties are  
+#  partly due to the large uncertainty on ECC (23.5G): 6.4<ECC(23.5G)<73.1
+#B $Decay scheme may be incomplete  and IB suspect as only levels up to   
+#B 736 keV are observed                                                   
+#G M$From ECC and K/L measurements (1995JO02).                            
+#G $ECC: from conversion electron measurements, unless mentioned otherwise
+#L E$ Obtained by evaluators using a least-squares fit from measured gamma
+#L T$From B-G delayed coincidences, for the two excited states.           
+#L J$From Adopted Levels                                                  
+#P 0.0         0+                8.73 S    12             3520      12    
+MO106 TC106 beta- 3.52 8.73 1.0
+

@@ -1,0 +1,30 @@
+# 69NI    69NI IT DECAY (0.439 US)      2003MA50,1998GR14         14NDS    201401
+#  69NI IT DECAY (0.439 US)      2003MA50,1998GR14         14NDS    201401
+#H TYP=FUL$AUT=C.D. NESARAJA$CIT=NDS 115, 1 (2014)$CUT=31-Jul-2013$       
+#  2003Ma50: {+9}Be({+76}Ge,X) with E(Ge)=60 MeV/nucleon. Fragment        
+#  product identified by energy loss and TOF. Level lifetime measured by  
+#  the Advanced Time-Delayed |g|g(t) method using four BaF{-2} detectors  
+#  at the LISE spectrometer at GANIL.                                     
+#  1998Gr14: Ni({+86}Kr, X|g). E({+86}Kr=60.3 MeV/nucleon on natural Ni   
+#  target using Alpha and LISE3 spectrometers at GANIL. Measured E|g,     
+#  |g|g, |g(t) fragment-|g coincidence with Si planar and HPGe detectors. 
+#  Two isomeric states at E=321 keV and 2701 keV observed.                
+#  Deduced T{-1/2} of isomer.                                             
+#  All data are from 1998Gr14, unless indicated otherwise                 
+#G DE$No uncertainties are given by the authors except for 594 |g         
+#G from 1998Gr14                                                          
+#G RI(A)$% branching from the 2552 level.                                 
+#G Deduced by the evaluator from BE2W(593|g)=0.63 {I3} given by 2003Ma50. 
+#G The source of the branching is not stated.                             
+#G E(B)$ Seen also in |g|g data in 2003Ma50                               
+#L J$Assignments from 1998Gr14 based on level systematics which is in     
+#L good agreement with large scale shell model calculations and the       
+#L valence mirror concept for the isomers.                                
+#G CC$ FROM BrIcc v2.2b (20-Jan-2009) 2008Ki07, "Frozen Orbitals" appr.   
+#L E$Based on measured E|g                                                
+#L J$From adopted levels                                                  
+#P 2700        (17/2-)           0.439 US  3                              
+NI69 NI69 IT 0.0 4.39E-7 1.0
++G gamma 0.311 0.28
++G gamma 0.593 0.72
+

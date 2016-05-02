@@ -1,0 +1,75 @@
+#165ER    165TM EC DECAY (30.06 H)      1982VY03,1980AB18         06NDS    200606
+#  165TM EC DECAY (30.06 H)      1982VY03,1980AB18         06NDS    200606
+#H TYP=ERR$AUT=BALRAJ SINGH$CIT=ENSDF$DAT=29-MAY-2013$                    
+#H COMM=MISSING EC BRANCHES AND LOGFT FOR 297.379 AND 356.529 LEVELS ADDED
+#H TYP=FUL$AUT=ASHOK K. JAIN AND ANWESHA GHOSH, BALRAJ SINGH$             
+#H CIT=NDS 107, 1075 (2006)$CUT=15-Apr-2006$                              
+#  1982Vy03: measured E|g, I|g, E|b, I|b, (ce)(|g) coin. The |g radiation 
+#  measured by Ge(Li), conversion electrons by Si(Li) and |b              
+#  spectra by iron-free toroidal magnetic spectrometer.                   
+#  1980Ab18 (also 1970Ab18 and analysis in 1980Ab22): measured E|g, I|g,  
+#  ce. Conversion electrons measured by a magnetic spectrometer           
+#  1983Mo10: analyzed I|g, ce, |g|g(|q) data.                             
+#  Analysis of E|g, I|g, mult, |d for |g's from doublet of levels at      
+#  589.760 (3/2+) and 589.869 (1/2-)                                      
+#  1988Ul02: Measured |g|g(|q) using Ge(Li) and NaI(Tl) detectors         
+#  for |g|g coincidences                                                  
+#  Others:                                                                
+#  |g: 1987BaZB, 1976Gu02, 1973St22, 1972Ma40 (also 1971Ma74), 1968Ku14,  
+#  1968Ku02, 1967Co26, 1967Co20, 1966Bo07, 1963Gr15, 1963Ra15, 1961Ka30,  
+#  1961Bj02, 1960Gr27, 1959Kh32, 1957Go78, 1953Ha43                       
+#  ce: 1991GaZZ, 1987BaZB, 1972Ma40 (also 1971Ma74), 1968Ku14, 1967Co26,  
+#  1964Ch22, 1963Gr15, 1962Ha24, 1961Ka30, 1961Bj02, 1960Gr27, 1959Bo57,  
+#  1957Gr74                                                               
+#  |g|g: 1972Ma40 (also 1971Ma74), 1968Ku14, 1968Ku02, 1967Dz07, 1963Gr15,
+#  1963Dz06, 1958An39                                                     
+#  (ce)(|g) coin: 1968Ku14, 1968Ku02                                      
+#  (ce)(ce) coin: 1967Dz07                                                
+#  ce|g(t): 1974An04, 1972Af03, 1970Ba71, 1968Ad05. The last three        
+#  references and 1974An04 have some common authors.                      
+#  |g|g(|q): 1975Fu13, 1978EgZY                                           
+#  |b: 1965Pr02                                                           
+#  {+165}Tm isotope T{-1/2}: 1970Ka23, 1967Co20, 1964Ch22, 1963Ra15,      
+#  1961Bj02, 1957Gr74, 1954Mi01, 1953Ha43                                 
+#  1954Mi16 IS SAME AS 1954Mi01                                           
+#E           E|b+=329.25 (2.1|*10{+-3} {I2})%, 272 {I2} (5.6|*10{+-3}     
+#E {I7})% (1982Vy03); other : E|b+=330 {I20} (6.5|*10{+-3} {I20})%        
+#E (1965Pr02)                                                             
+#E $ Intensity balance gives apparent 1.8 {I4} |e+|b{++} feeding for      
+#E 77.260 level, but |DJ=3, |D|p=yes does not allow any such feeding.     
+#G E,RI      From 1982Vy03, except where noted otherwise                  
+#G M,MR$From ce data of 1980Ab18 and 1982Vy03. The data are               
+#G normalized to |a(K)(M1)=0.202 {I7} for 242|g. Below 390 keV, the       
+#G multipolarity assignments and mixing ratios are primarily from         
+#G subshell data and conversion coefficients of 1980Ab18, above this      
+#G the |a(K)exp data are from 1982Vy03 only.                              
+#G 1988Ul02 report |d(E2/M1) and |d(M2/E1) for 19 |g rays                 
+#G from |g|g(|q) data, but no A{-2} and A{-4} values are listed in the    
+#G paper and sign convention for mixing ratio is not given.               
+#G Eight of these transitions are assigned M2+E1 multipolarity with       
+#G significant values of mixing ratios. Several of these M2+E1 mixing     
+#G as given by 1988Ul02 give B(M2)(W.u.) values larger than RUL(M2)=1, for
+#G for 264.5|g from 507 level, |d(M2/E1)=-0.33 {I7} (1988Ul02) gives      
+#G B(M2)(W.u.)=9, about an order of magnitude larger than RUL. For this   
+#G reason the |d values given by 1988Ul02 have not been adopted here      
+#G but are listed under comments.                                         
+#G E(X),RI(X),M(X)$From analysis by 1983Mo10 of earlier ce and            
+#G |g|g(|q) data                                                          
+#G RI(Y)$Tentative value deduced by 1980Ab18 from their ce data           
+#G assuming multipolarity as stated. The evaluators have normalized       
+#G I|g's quoted by 1980Ab18 to I|g(242.9|g)=100                           
+#G E(B)      Observed only in 1982Vy03                                    
+#G E(D)      Observed only in ce spectra, for ce(K) see 1980Ab18          
+#G $ ICE(K) VALUES FROM 1982Vy03 ARE GIVEN UNDER DOCUMENT RECORDS,        
+#G THESE VALUES ARE NORMALIZED TO ICE(K)=100 FOR 242.9G. FOR SOME         
+#G OF THE TRANSITIONS CE DATA ARE AVAILABLE FROM 1980Ab18 ONLY.           
+#G THE ICE(K)'S FROM 1980Ab18, GIVEN UNDER DOCUMENT RECORDS, ARE          
+#G ALSO NORMALIZED TO ICE(K)=100 FOR 242.9G                               
+#L T$From (|g)(ce)(t) (1974An04 (also 1972Af03))                          
+#L J$From 'adopted levels'                                                
+#P 0.0         1/2+              30.06 H   3              1592.4    15    
+TM165 ER165 beta+ 1.5924 108216.0 0.355
++G gamma 0.25345 0.0018
++G gamma 0.2757 0.006
++G gamma 0.277655 0.00109
+

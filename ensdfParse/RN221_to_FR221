@@ -1,0 +1,34 @@
+#221FR    221RN B- DECAY                1977Vy02                  07NDS    200705
+#  221RN B- DECAY                1977Vy02                  07NDS    200705
+#H TYP=FUL$AUT=Ashok Jain, Sukhjeet Singh, Suresh Kumar, Jagdish Tuli$    
+#H CIT=NDS 108, 883 (2007)$CUT=15-Jan-2007$                               
+#  Measured G, CE                                                         
+#G E,RI      From 1977Vy02 (semi, s ce), unless otherwise noted.          
+#G M,MR      From ce measurements of 1977Vy02 in {+221}Rn |b{+-} decay    
+#G and of 1972Dz14 in {+225}Ac |a decay. Multipolarities in brackets are  
+#G assumed from the level scheme; they were not determined experimentally.
+#G E(S,T)    Not observed in {+221}Rn |b{+-} decay; E|g from {+225}Ac |a  
+#G decay.                                                                 
+#G E(A)      Energy from {+225}Ac |a decay.                               
+#G E(B)      Not observed; energy from level scheme.                      
+#G RI(T)     Calculated by the evaluator from adopted branchings          
+#G E(N)      Observed by 2003GR33.                                        
+#L E(M)      Population in {+221}Rn |b{+-} decay is supported by matching 
+#L           intensity ratios from 2001GrZU.                              
+#P 0.0               7/2(+)         25 M    2              1150     SY    
++B beta- 0.382 0.08
++B beta- 0.36719999999999997 0.013000000000000001
++B beta- 0.344 0.009000000000000001
++B beta- 0.3439 0.023
++B beta- 0.3435 0.08800000000000001
++B beta- 0.3407 0.081
++B beta- 0.30789999999999995 0.021
++B beta- 0.2936 0.018600000000000002
++B beta- 0.2865 0.061
++G gamma 0.2282 0.0033263999999999993
++G gamma 0.25353 0.0073458
++B beta- 0.2771 0.059000000000000004
++B beta- 0.2714 0.272
++G gamma 0.18638 0.2772
++B beta- 0.2358 0.023
+

@@ -1,0 +1,59 @@
+#178HF    178TA EC DECAY (2.36 H)       1989KI24,1975WA24         09NDS    200907
+#  178TA EC DECAY (2.36 H)       1989KI24,1975WA24         09NDS    200907
+#H TYP=FMT$AUT=J. TULI$DAT=28-Jun-2011$COM=e(lev) on P record$            
+#H TYP=FUL$AUT=E. Achterberg, O.A. Capurro, G.V. Marti$                   
+#H CIT=NDS 110, 1473 (2009)$CUT=31-May-2008$                              
+#  1958Ca10: Studied the decay of the 2.36 h {+178}Ta isomer.             
+#  Scintillation detectors. Identified |g rays at |?215, 325, 415 keV     
+#  with a T|?150 M. First tentative level scheme for {+178}Hf.            
+#  1960Ha18: Magnetic spectrograph. Measured E(ce), I(ce). Calculated     
+#  conversion coefficients, assigned multipolarities, deduce I|g.         
+#  1975Mo13: Planar and coax Ge(Li). Precision measurements of some E|g.  
+#  1975Wa24: Measured E|g, I|g. Ge(Li) detectors.                         
+#  Calculated log {Ift} values.                                           
+#  1979He11: Planar Ge(Li) detector. Measured E|g, I|g.                   
+#  1989Ki24: Measured E|g, I|g, Ice. Detectors: HPGe, magnetic            
+#  spectrometer.                                                          
+#G E         Weighted averages of values in 1958Ca10, 1960Ha18, 1975Mo13, 
+#G 1975Wa24, 1979He11, 1989Ki24 and 2007La14.                             
+#G RI        Weighted averages of values in                               
+#G 1975Wa24 and 1989Ki24, except when noted otherwise                     
+#G M         From adopted values. Note that the quoted electron conversion
+#G data from 1960Ha18 appear rather crude and unreliable, having trouble  
+#G reproducing even the well known E2 multipolarities of the g.s. band    
+#G cascade.                                                               
+#L E         From a least-squares fit to |g-ray energies.                 
+#L E(A)      K|p=0+ g.s. rotational band                                  
+#P 0.0+X       (7)-              2.36 H    8              1937      15    
+TA178 HF178 beta+ 1.937 8496.0 1.0
+
+#178HF    178TA EC DECAY (9.31 M)       1974HA63,1972LI03,1972SI2609NDS    200907
+#  178TA EC DECAY (9.31 M)       1974HA63,1972LI03,1972SI2609NDS    200907
+#H TYP=FMT$AUT=J. TULI$DAT=28-Jun-2011$COM=e(lev) on P record$            
+#H TYP=FUL$AUT=E. Achterberg, O.A. Capurro, G.V. Marti$                   
+#H CIT=NDS 110, 1473 (2009)$CUT=31-May-2008$                              
+#  Measured E|g, I|g, Ice. Detectors: Ge(Li), Si(Li) (1974Ha63).          
+#  Studied E0 admixtures in various transitions, calculated               
+#  X(E0/E2) values. Determined conversion coefficients from electron      
+#  spectra, and assigned multipolarities.                                 
+#  Measured E|g, I|g, |g|g coin, |g|g(|q). Detectors: Ge(Li) (1972Li03).  
+#  Coincidence spectra, and tables of multipolarity assignments and of    
+#  angular distribution coefficients are shown.                           
+#  Measured E|g, I|g. Detector: Ge(Li) (1972Si26).                        
+#  Other: 1967Ni02. Measured E|g, I|g, |g|g-coin, T.                      
+#G E,RI      Weighted averages of data from 1972Li03 and 1972Si26, unless 
+#G otherwise specified.                                                   
+#G           I|g and Ice intensity scales in 1974Ha63 are normalized      
+#G assuming E2 multipolarity for the 1106|g, 1340|g, and 1350|g.          
+#G M         From adopted gammas, unless otherwise specified.             
+#G M(X)      From |g|g(|q) in 1972Li03                                    
+#G M(Y)      From conversion electron measurements in 1974Ha63.           
+#G E(A)      From level energy differences.                               
+#L E         From a least-squares fit to |g-ray energies.                 
+#L E(A)      K|p=0+ g.s. rotational band                                  
+#L E(B)      K|p=2+ |g-vibrational band                                   
+#L E(D)      K|p=0+ band                                                  
+#L E(E)      K|p=0+ band                                                  
+#P 0.0+Y       1+                9.31 M    3              1937      15    
+TA178 HF178 beta+ 1.937 558.6 0.0048
+

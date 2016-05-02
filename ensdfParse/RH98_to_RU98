@@ -1,0 +1,67 @@
+# 98RU    98RH EC DECAY (8.72 M)        1978KI17,1972BA37         03NDS    200305
+#  98RH EC DECAY (8.72 M)        1978KI17,1972BA37         03NDS    200305
+#H TYP=FUL$AUT=BALRAJ SINGH, ZHIQIANG HU$CIT=NDS 98, 335 (2003)$          
+#H CUT=31-Jan-2003$                                                       
+#  1978KI17 (ALSO 1980ZYZY): MEASURED EG, IG                              
+#  1972BA37: measured G, B+, B+G, GG, T1/2(98RU isotope)                  
+#  1994BA06: MEASURED B+, B+G; DEDUCED Q VALUE. THE AUTHORS stated that   
+#  a detailed GG coincidence study of decay of both isomers of 98RH was   
+#  planned by their group; but no results have appeared as yet            
+#  Others:                                                                
+#  G: 1969AN32                                                            
+#  B+: 1956KA25, 1955AT34                                                 
+#  T1/2(98RH isotope): 2001SEZY, 1970AS08, 1956KA25, 1955AT34 (also       
+#  1953AT27,1952AT32)                                                     
+#E $ ALL EC+B+ FEEDINGS AND ASSOCIATED LOGFT VALUES ARE CONSIDERED AS     
+#E APPROXIMATE SINCE THE LEVEL SCHEME SEEMS POORLY KNOWN                  
+#G           INTENSITY OF G+-=162 4 (1978KI17)                            
+#G           745.4G (RI=5.6) AND 597.7G (RI=0.8) IN 1972BA37 ARE          
+#G NOT OBSERVED BY 1978KI17 (RI<0.2). BOTH THESE G RAYS ARE FROM THE      
+#G DECAY OF THE 3.6-M ISOMER.                                             
+#G           The following G's reported by 1969AN32 only are discarded    
+#G since not confirmation by 1978KI17 and 1972Ba37: 573 (RI=4),           
+#G 607 (RI=2.0), 808 (RI=7), 966 (RI=4), 1012 (RI=3.5), 1228 (RI=5).      
+#G E,RI$ FROM 1978KI17. SELECTED VALUES GIVEN IN 1972BA37 ARE IN          
+#G general AGREEMENT                                                      
+#L E(A)$Level from 1980ZYZY                                               
+#L J$From adopted levels                                                  
+#L E$From least-squares fit to EG's                                       
+#P    0         (2)+              8.72 M   12              5057     10    
++B beta+ 1.538 0.81
++G gamma 0.6526000000000001 0.97
++B beta+ 1.18 0.013000000000000001
++G gamma 0.7615 0.011057999999999998
++B beta+ 0.993 0.052000000000000005
++G gamma 1.1643 0.04946999999999999
++B beta+ 0.696 0.0025
++B beta+ 0.627 0.008100000000000001
++B beta+ 0.38 0.002
++B beta+ 0.368 5.0E-4
++B beta+ 0.298 9.1E-5
++B beta+ 0.225 2.1999999999999998E-4
+
+# 98RU    98RH EC DECAY (3.6 M)         1978KI17,1974SI18         03NDS    200305
+#  98RH EC DECAY (3.6 M)         1978KI17,1974SI18         03NDS    200305
+#H TYP=FUL$AUT=BALRAJ SINGH, ZHIQIANG HU$CIT=NDS 98, 335 (2003)$          
+#H CUT=31-Jan-2003$                                                       
+#  Measured EG, IG                                                        
+#  Others:                                                                
+#  1966AT02, measured T1/2 and reported 652G                              
+#  1972BA37: 745G assigned to GS decay most likely                        
+#  is from 3.6 M decay                                                    
+#  1994BA06: MEASURED TIME DECAY OF 745G                                  
+#  THE DECAY SCHEME IS NOT CONSIDERED AS WELL ESTABLISHED (EVALUATORS)    
+#E TI,LOGFT$ ALL VALUES ARE CONSIDERED AS APPROXIMATE, DUE TO             
+#E POOR KNOWLEDGE OF THE DECAY SCHEME                                     
+#G E,RI$ FROM 1978KI17. Selected values from 1974Si18 are in agreement.   
+#G RI(A)$ FROM INTENSITY BALANCE AND ADOPTED BR; INTENSITY NOT GIVEN      
+#G BY 1978KI17                                                            
+#L J$From adopted levels.                                                 
+#L E$From least-squares fit to EG's                                       
+#P  0+X         (5+)             3.6 M     2              5057      10    
++B beta+ 1.188 0.07
++B beta+ 1.003 0.006999999999999999
++B beta+ 0.903 0.013000000000000001
++B beta+ 0.807 0.0015
++B beta+ 0.428 3.0E-4
+

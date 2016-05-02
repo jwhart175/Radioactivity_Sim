@@ -1,0 +1,32 @@
+#151PR    151CE B- DECAY (1.76 S)       2006KO25                  09NDS    200901
+#  151CE B- DECAY (1.76 S)       2006KO25                  09NDS    200901
+#H TYP=FUL$AUT=BALRAJ SINGH$CIT=NDS 110, 1 (2009)$CUT=20-Nov-2008$        
+#  {+151}Ce produced by neutron-induced fusion of enriched {+235}U,       
+#  followed by online mass separation using KURISOL facility at Kyoto.    
+#  Measured E|g, I|g, |g|g, |b|g coin,, |b(ce) coin using a variety of    
+#  detectors: |g-x n-type HPGe and a short coaxial detector for |g        
+#  rays; Si(Li) detector for conversion electrons and a plastic           
+#  scintillator for |b rays.                                              
+#  Conversion electrons were detected with a Si(Li) detector with a       
+#  FWHM of 1.7 keV, but no peaks were associated with the decay of        
+#  {+151}Ce which may suggest low multipolarity for most |g rays.         
+#  Sufficient information does not exist to obtain normalization factor   
+#  (I|g/100 decays of the parent), |b feedings and log {Ift} values.      
+#G RI(B)$ Estimated value by 2006Ko25 after subtraction of contribution   
+#G from 35.2|g in {+151}Pr decay                                          
+#G $ Almost all |g rays were observed in coin with Pr K-x rays and |b rays
+#G E(X)$ |g not seen in coin with Pr K-x rays                             
+#L J$ From 'adopted levels'                                               
+#P 0.0         (5/2+)            1.76 S    6              5561      22    
+CE151 PR151 beta- 5.561 1.76 1
+
+#151PR    151CE B- DECAY (1.02 S):?     1969WIZX,1970WIZN         09NDS    200901
+#  151CE B- DECAY (1.02 S):?     1969WIZX,1970WIZN         09NDS    200901
+#H TYP=FUL$AUT=BALRAJ SINGH$CIT=NDS 110, 1 (2009)$CUT=20-Nov-2008$        
+#  The existence of 1.02-s activity is considered as tentative            
+#  Other: 1974ClZW                                                        
+#  See 151CE 'adopted levels' for assignment of the isotope               
+#  None of the three |g rays reported here is seen by 2006Ko25 who        
+#  formed the {+151}Ce source by thermal neutron fission of {+235}U       
+#P 0+X                           1.02 S    6              5.27E3    10    
+

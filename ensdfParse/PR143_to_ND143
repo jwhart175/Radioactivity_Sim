@@ -1,0 +1,42 @@
+#143ND    143PR B- DECAY                1972GR21                  12NDS    201203
+#  143PR B- DECAY                1972GR21                  12NDS    201203
+#H TYP=FUL$AUT=E. BROWNE, J. K. TULI$CIT=NDS 113, 715 (2012)$             
+#H CUT=31-May-2011$                                                       
+#  {+143}Pr production: {+142}Ce(n,|g){+143}Ce(|b{+-} decay), fission     
+#  product                                                                
+#  Measured: |b shape (1977Ra26,1974RaYS,1973RaWX,1971Fi02,1966Sp06,      
+#  \1965Pe07,1958Ha29); internal bremsstrahlung                           
+#  (1977Na21,1969Be52,1957St05)                                           
+#  The decay scheme is from 1972Gr21.                                     
+#  Atomic Data for Nd (Z=60) (1996Sc06):                                  
+#              K-shell fluorescence yield |w{-K}=0.918 {I4}               
+#              L-shell fluorescence yield (mean) |w{-L}=0.140 {I6}        
+#              Prob. of creating L vacancy by filling K vacancy,          
+#                                         |c{-kl}=0.866 {I4}              
+#       Electron binding energies (keV) (1967Be73):                       
+#              K-shell =43.5689 {I4}                                      
+#              L1-shell=7.1260 {I4}                                       
+#              M1-shell=1.5753 {I7}                                       
+#              N1-shell=0.3152 {I8}                                       
+#       X-ray Energies (keV) (1999ScZX)                                   
+#              E(Nd K|a{-1}| x ray)=37.3614 {I2}                          
+#              E(Nd K|a{-2}| x ray)=36.8478 {I3}                          
+#              E(Nd K|b| x ray)=42.467                                    
+#              E(Nd L| x ray)=4.63-7.11 (several lines)                   
+#       Auger Energies (1967Be73):                                        
+#              K Auger energy=4.23                                        
+#              L Auger energy=30.5                                        
+#B           K-shell internal ionization probability per 100              
+#B |b{+-} decay=0.0291 {i12}, weighted average of 0.0292 {i16} (1976Ha30),
+#B 0.0295 {i32} (1971Fi02), and 0.0288 {i20} (1973Va22). Other: 1957St05. 
+#B Calculated values: 1977Is05, 1975La20,1972Mo26, 1972La07               
+#B           L-shell internal ionization probability per 100              
+#B |b{+-} decay=0.019 {i2} (1960Su14). Calculated values:                 
+#B 1982Ch19, 1972La09.                                                    
+#L J         From Adopted Levels                                          
+#P 0.0         7/2+              13.57 D   2              934.1     14    
+PR143 ND143 beta- 0.9341 1172448.0 1.0
++B beta- 0.31507999999999997 1.0
++B beta- 0.06207 1.2E-8
++G gamma 0.7421 1.2E-8
+

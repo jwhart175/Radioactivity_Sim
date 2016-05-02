@@ -1,0 +1,48 @@
+#246CM    246BK EC DECAY                1976AH03                  11NDS    201108
+#  246BK EC DECAY                1976AH03                  11NDS    201108
+#H TYP=FUL$AUT=E. BROWNE, J. K. TULI$CIT=NDS 112, 1833 (2011)$            
+#H CUT=1-Jan-2011$                                                        
+#  Modified by E. Browne (March 8, 2011) BRICC, Theory ICC.               
+#  1976Ah03: from {+243}Am(|a,n), ion chem, mass. Measured: |g (Ge(Li)),  
+#  ce (Si(Li)). Earlier report: 1966Ah02                                  
+#  Other: 1966Or01                                                        
+#E           Q(|e)=1350 {I60} and limit of I(|e to g.s.) are based on     
+#E I(K| x ray)=63% {I4} (1976Ah03), log| {Ift} (to 1124 level)>5.9 (first 
+#E forbidden nonunique transition), and the proposed decay scheme.        
+#E The calculation from 1989Sc26 is as follows:                           
+#E for Q(|e)=1350 and zero |e branch to g.s., we calculate                
+#E I(K| x ray)=63% (in agreement with the measured value). The condition  
+#E log| {Ift}>5.9 for the first-forbidden decay requires Q(|e)>1290. For  
+#E Q(|e)=1290 we obtain I(|e)<8% to g.s. from I(K| x ray)<67%. Assuming   
+#E I(|e)=0 to the g.s., we obtain Q(|e)<1410 from I(K| x ray)<67%. The    
+#E conclusion of 1976Ah03 that I(|e)=0 to the g.s. is based on the earlier
+#E (1969) estimate Q(|e)=1460.                                            
+#E IE        From level scheme intensity balance, unless otherwise        
+#E noted.                                                                 
+#G CC$ FROM BrIcc v2.2 (31-Mar-2008) 2008KiAA, "Frozen Orbitals" appr.    
+#G           I(K| x ray)=63 {I4} (1976Ah03)                               
+#G E,RI      From 1976Ah03, unless otherwise noted                        
+#G M         From |a and ce-ratios of 1976Ah03, unless otherwise noted.   
+#G Normalization of I(ce) to I|g not stated (1976Ah03); normalized to     
+#G |a(K)(799|g,E1)=0.00524 (1966Or01).                                    
+#G E(A)      Observed in ce spectrum only (1976Ah03).                     
+#G E(D),RI(D)$The 1124.3|g appears to be a doublet from {+246}Am (25 min) 
+#G decay. From {+246}Am(25 min) decay I|g(1122.64)/I|g(1023.44)=2.5 {I3}  
+#G from the 1165 level giving I|g(1122)=0.38 {I7} leaving I|g(1124.3)=4.4 
+#G {I3}.                                                                  
+#G E(E),M(B)$From Adopted Gammas                                          
+#G M(G)      ce(K) not seen, limiting the multipolarity to E1 or E2       
+#G (1976Ah03)                                                             
+#L J         From Adopted Levels                                          
+#L E$Deduced by evaluators from least-squares fit to G-ray energies.      
+#P 0+X          2(-)              1.80 D   2               1350     60    
++B beta+ 7.14E-4 0.002
++B beta+ 7.484E-4 0.07
++B beta+ 7.04E-4 0.0021
++B beta+ 6.820000000000001E-4 0.002
++B beta+ 6.730000000000001E-4 0.002
++B beta+ 5.3E-4 0.0033
++B beta+ 4.9E-4 0.0036
++B beta+ 4.0E-4 0.0039000000000000003
++B beta+ 4.0E-4 0.004
+

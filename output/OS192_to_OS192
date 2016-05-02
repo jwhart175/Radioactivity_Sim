@@ -1,0 +1,20 @@
+#192OS    192OS IT DECAY (5.9 S)        1970HEZH,1973PA21,1979KAYT12NDS    201209
+#  192OS IT DECAY (5.9 S)        1970HEZH,1973PA21,1979KAYT12NDS    201209
+#H TYP=FUL$AUT=Coral M. Baglin$CIT=NDS 113, 1871 (2012)$CUT=15-Jun-2012$  
+#  The decay scheme is from 1979KaYT.                                     
+#  Sources from 192OS(N,N'), E(n)=14 MEV; enriched 192OS                  
+#  targets; measured EG, IG (Ge(Li)), GG coin. Other: 1965Bl12.           
+#G CC$ FROM BrIcc v2.2b (20-Jan-2009) 2008Ki07, "Frozen Orbitals" appr.   
+#G E,RI      From 1973Pa21, unless noted otherwise.                       
+#G M,MR      From Adopted Gammas, except as noted.                        
+#G E(X)      From Adopted Gammas.                                         
+#G E(Z),RI(YZ)$From 1979KaYT.                                             
+#L E         FROM LEAST-SQUARES FIT TO EG.                                
+#L J,T       Adopted values, unless noted to the contrary.                
+#L BAND(A)      K=0 GS BAND.                                              
+#L BAND(B)      K=2 QUASI-G VIBRATION BAND.                               
+#L BAND(C)      K=4 BAND.                                                 
+#P 2015.40   11 (10-)            5.9 S     1                              
+OS192 OS192 IT 0.0 5.9 0.659
++G gamma 0.0474 2.5E-5
+

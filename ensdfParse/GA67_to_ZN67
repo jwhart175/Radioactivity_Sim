@@ -1,0 +1,48 @@
+# 67ZN    67GA EC DECAY                 2005Ya01,1978ME10         05NDS    200512
+#  67GA EC DECAY                 2005Ya01,1978ME10         05NDS    200512
+#H TYP=FUL$AUT=HUO JUNDE, HUANG XIAOLONG, J.K. TULI$                      
+#H CIT=NDS 106, 159 (2005)$CUT=1-Apr-2005$                                
+#  2005Ya01: measured emission probabilities of XK and |g rays, Si(Li)    
+#  2000Si03: measured E|g, I|g, K x-|g coin. deduced |e branching         
+#  ratio to the ground state and emission probabilities of 93keV |g ray.  
+#  4|p(Liquid Scintillation)e, X-|g coincidence.                          
+#  1991HiZZ: measured E|g, I|g, T{-1/2}, 4|p pressurized                  
+#  proportional counter coincidence counting                              
+#  1990Me15: measured E|g, I|g using various detectors                    
+#  1988Be55: measured probability of K-capture with K x-ray-|g            
+#  coincidences                                                           
+#  1978Me10: measured E|g, I|g, T{-1/2}                                   
+#  1966Fr12, 1969Li04: measured |a                                        
+#  1973Ba54: measured |g|g(|q)                                            
+#  The decay scheme is based on the data of 1991HiZZ, 1990Me15, 1978Me10, 
+#  1966Fr12, and 1973Ba54                                                 
+#  Others: 1975Ro25, 1972Le37, 1972En08, 1971Su18, 1971Sh36, 1971Re01,    
+#  1969Bo41, 1968Li02, and 1974RoZD                                       
+#G           E|g=604.44,814.7 {I5},979 {I1} reported by 1978Me10 are not  
+#G seen by the same author in a later work (1990Me15) or by 1991HiZZ and  
+#G are considered spurious. The I|g in 1990Me15 are consistent with the   
+#G data of 1991HiZZ used in this evaluation.                              
+#G E         From 1978Me10 with a correction factor of 2000He14           
+#G RI        From absolute intensities of 2005Ya01 below 400keV and       
+#G of 1991HiZZ normalized at |g(93.31keV) by 2005Ya01 above 400keV .      
+#G M,MR      From adopted gammas                                          
+#L J         From adopted levels                                          
+#L E         From a least-squares fit to the E|g data                     
+#E IE        From |g-ray intensity balance at each level                  
+#P 0.0         3/2-              3.2617 D  5              1000.8    12    
+GA67 ZN67 beta+ 1.0008 281810.88 1.0
++G gamma 0.09331 0.3881
++B beta+ 8.837000000000001E-4 9.866999999999999E-4
++G gamma 0.091265 0.0311
++G gamma 0.184576 0.2141
++B beta+ 8.836E-4 9.882E-4
++G gamma 0.20895 0.0246
++G gamma 0.300217 0.1664
++G gamma 0.39352699999999996 0.045599999999999995
++B beta+ 8.833E-4 9.901E-4
++G gamma 0.494166 6.84E-4
++G gamma 0.703106 1.05E-4
++G gamma 0.794381 5.4E-4
++G gamma 0.887688 0.00148
++B beta+ 8.826000000000001E-4 9.964000000000002E-4
+

@@ -1,0 +1,29 @@
+#176OS    176IR EC DECAY                1994KI01,2005WA25,1990BO1906NDS    200602
+#  176IR EC DECAY                1994KI01,2005WA25,1990BO1906NDS    200602
+#H TYP=FUL$AUT=M.S. BASUNIA$CIT=NDS 107, 791 (2006)$CUT=15-Sep-2005$      
+#  1994KI01: 176IR activity produced by 149SM(31P,4N) E=148 MEV. Measured 
+#  EG, RI, GG(THETA), ICE. Deduced conversion coefficients, angular       
+#  correlation coefficients, G-ray multipolarities and mixing ratios.     
+#  Detectors: COMPTON-suppressed array of 6 germanium detectors,          
+#  magnetic spectrometer (1994KI01).                                      
+#  2005WA25: 176IR activity produced by 146ND(36CL,5NG) E=210 (effective  
+#  180 MeV); Detector: A coaxial HPGe(^GMX), a planar HPGe(^GLP), and a   
+#  ^Segmented ^Clover detector; Measured: EG, GG coin, T.                 
+#  1990BO19: 176IR activity produced by 141PR(40AR,5N) E=240 MEV. Measured
+#  ALPHAS: EA, %A; G rays: EG, RI, excitation functions. Detectors: semi  
+#  for ALPHAS; GE(LI) and SI(LI) for G rays and X-RAYS, respectively.     
+#G E         From 1994KI01 and 2005WA25, except otherwise noted. The      
+#G G-ray energies in 1994KI01 and 2005WA25 are exactly the same.          
+#G E(A)      From 2005WA25.                                               
+#G MR        From 1994KI01.                                               
+#G CC(H)     Experimental value (ICE/RI)                                  
+#L E         Deduced by evaluator from a least squares fit to the G-ray   
+#L energies assuming DE=1 keV for all G-rays.                             
+#L J         From multipolarity assignments and rotational band structure.
+#L E(W)      KPI=0+ GS ROTATIONAL BAND                                    
+#L E(X)      KPI=0+ BETA-VIBRATIONAL BAND                                 
+#L E(Y)      KPI=2+ GAMMA-VIBRATIONAL BAND                                
+#L E(Z)      KPI=(3-) BAND. Band members are adopted in                   
+#L ^Rotational band 1 and ^Rotational band 2.                             
+#P      0.0                        8.7 S   5               8240     30    
+

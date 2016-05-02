@@ -1,0 +1,47 @@
+# 29AL    29MG B- DECAY                 1984GU19,1973GO34,1979DE0212NDS    201205
+#  29MG B- DECAY                 1984GU19,1973GO34,1979DE0212NDS    201205
+#H TYP=FUL$AUT=M. Shamsuzzoha Basunia$CIT=NDS 113, 909 (2012)$            
+#H CUT=1-Jan-2012$                                                        
+#  Other: 1971Jo03                                                        
+#  1984GU19: 29MG was produced in the fragmentation of iridium target by  
+#  10 GeV protons from the ^CERN synchrotron, recoiled fragments were     
+#  thermalized, ionized and mass-separated; Ge(Li) detector, Measured: EG,
+#  B-GG COIN, absolute RI.                                                
+#  1973GO34: 29MG was produced bombarding Ta{-2}O{-5} target of 99%       
+#  enriched in 18O by 13C beam, E=35 MeV from a remote location using     
+#  pneumatic system; Ge(Li) and ^NE102 detectors; Measured: EG, RI,       
+#  IB, G-B COIN, deduced level energy.                                    
+#  1979DE02: 29MG was produced in the fragmentation of uranium target by  
+#  24 GeV protons from the ^CERN synchrotron, recoil fragments were       
+#  thermalized, ionized and mass-separated; Ge(Li) detector, Measured: EG,
+#  absolute IG.                                                           
+#B IB$From 1984Gu19                                                       
+#G E,RI$From 1984Gu19, except otherwise noted. Absolute IG in 1984Gu19    
+#G is consistent with the reported absolute IG in 1979De02.               
+#L E$Up to 3433 keV, from a least-squares fit to G-ray energies.          
+#L Above 3433 keV, level energies are from Adopted Levels.                
+#L J$From Adopted Levels.                                                 
+#P 0           3/2+              1.30 S    12             7613      11    
+MG29 AL29 beta- 7.613 1.3 1.0
++B beta- 3.537 0.27
++B beta- 2.848 0.07
++G gamma 1.398 0.16399999999999998
++B beta- 2.673 0.03
++B beta- 2.442 0.21
++B beta- 2.127 0.078
++B beta- 2.031 0.06
++G gamma 3.0616 0.015
++B beta- 1.971 0.28
++G gamma 0.9604 0.15
++G gamma 1.7864 0.027999999999999997
++G gamma 3.1844 0.011000000000000001
++B beta- 1.85 0.03
++G gamma 2.0349 0.025
++B beta- 1.78 0.006
++B beta- 1.749 0.0034999999999999996
++B beta- 1.734 0.009000000000000001
++B beta- 1.606 0.003
++B beta- 1.547 0.01
++B beta- 1.468 0.002
++B beta- 1.38 0.005
+

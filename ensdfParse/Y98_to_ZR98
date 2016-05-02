@@ -1,0 +1,85 @@
+# 98ZR    98Y B- DECAY (0.548 S)        1984BE50,1977SI05         03NDS    200305
+#  98Y B- DECAY (0.548 S)        1984BE50,1977SI05         03NDS    200305
+#H TYP=FUL$AUT=BALRAJ SINGH, ZHIQIANG HU$CIT=NDS 98, 335 (2003)$          
+#H CUT=31-Jan-2003$                                                       
+#  1984BE50: G, GG, GG(THETA)                                             
+#  1977SI05: G, GG, B, BG, CEG(T)                                         
+#  Others:                                                                
+#  G: 1987MA58, 1979BO26                                                  
+#  CE: 1975KH05, 1982KA03, 1983VAZJ, 1983VAZQ, 1984VEZU,                  
+#  1985HAZH, 1994LH01                                                     
+#  B, BG: 1988MAYY, 1983MAYZ, 1979PE17, 1978ST02. Theory:                 
+#  1983BE56                                                               
+#  BG(T), BGG(T): 1989MA38, 1982KA03                                      
+#  Q- data: 8840 55 (1988GRZX,1978ST02), 8780 30 (1984BLZN),              
+#  8965 40 (1983MAYZ), 8963 41 (1988MAYY)                                 
+#  T1/2(98Y): 1986WA17, 1983RE10, 1983EN03, 1982GA24, 1971TR02            
+#G M$From GG(THETA) and T1/2(level), unless otherwise noted               
+#G E,RI$From 1984BE50, unless otherwise stated. Uncertainties             
+#G are assigned by the evaluator: DE=0.2 (for RI LT 2), 0.5 (for          
+#G RI GT 2). DRI=5% for RI GT 10, 10% or RI=1 to 10, 25% for RI LT 1      
+#G E(A)$G from 1977SI05 only                                              
+#G M(E)$No G corresponding to CE seen. High multipolarities excluded      
+#G by T1/2(level)                                                         
+#L J$From adopted levels                                                  
+#L E$From least-squares fit to EG's                                       
+#P 0.0          (0)-             0.548 S   2               8824     15    
++G gamma 0.3861 0.009
++G gamma 0.5475 0.009
++G gamma 0.6 0.009
++G gamma 3.2037 0.023399999999999997
++G gamma 3.3756999999999997 0.019799999999999998
++G gamma 3.4686 0.019799999999999998
++B beta- 4.06 0.18
++B beta- 3.65 0.04
++B beta- 3.465 0.05
++G gamma 1.223 0.36
++B beta- 3.37 0.037000000000000005
++B beta- 3.288 0.069
++G gamma 1.5909 0.14723999999999998
++G gamma 1.7444000000000002 0.05364
++B beta- 3.166 0.045
++B beta- 3.075 0.02
++B beta- 2.868 0.013000000000000001
++B beta- 2.715 0.004
++B beta- 2.586 0.024
++B beta- 2.373 0.019
++B beta- 2.057 0.37
++G gamma 2.4206 0.05868
++G gamma 2.9413 0.16668
++G gamma 3.31 0.072
++B beta- 1.92 0.138
++G gamma 3.2279 0.049319999999999996
++G gamma 4.4502 0.08927999999999998
+
+# 98ZR    98Y B- DECAY (2.0 S)          1977SI05,1988STZS         03NDS    200305
+#  98Y B- DECAY (2.0 S)          1977SI05,1988STZS         03NDS    200305
+#H TYP=FUL$AUT=BALRAJ SINGH, ZHIQIANG HU$CIT=NDS 98, 335 (2003)$          
+#H CUT=31-Jan-2003$                                                       
+#  1977SI05: G, GG, T1/2                                                  
+#  1988STZS, 1994ST31: GG(THETA)                                          
+#  Others:                                                                
+#  G: 1979BO26                                                            
+#  T1/2: 1983RE10, 1981EN05, 1979EN02                                     
+#  BG, Q- measurement: 1988GRZX, 1978ST02                                 
+#  A2 values in GG(THETA) are from 1988STZS                               
+#G E,RI$From 1988STZS. Typical uncertainties are taken from 1977SI05      
+#G E(A)$From 1979BO26 (curved-crystal data)                               
+#L J$From adopted levels                                                  
+#L E$From least-squares fit to EG's.                                      
+#L The energy of the isomer state is from BG data (1988GRZX)              
+#L for two isomers of 98Y                                                 
+#P  410      30 (4,5)            2.0 S     2               8824     15    
++B beta- 3.669 0.05
++G gamma 1.2227999999999999 0.8015000000000001
++B beta- 3.493 0.01
++B beta- 3.389 0.032
++B beta- 3.371 0.12
++B beta- 3.273 0.04
++B beta- 3.163 0.025
++B beta- 3.06 0.1
++B beta- 2.911 0.03
++B beta- 2.758 0.02
++B beta- 2.2 0.044000000000000004
++B beta- 2.193 0.5
+

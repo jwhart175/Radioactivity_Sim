@@ -1,0 +1,53 @@
+#179HG    183PB A DECAY (535 MS)        2002JE09,1989TO01         09NDS    200902
+#  183PB A DECAY (535 MS)        2002JE09,1989TO01         09NDS    200902
+#H TYP=FUL$AUT=Coral M. BAGLIN$CIT=NDS 110, 265 (2009)$CUT=15-Nov-2008$   
+#  OTHERS: 1980SC09, 1986KE03, 1987TO09.                                  
+#  2002JE09: SOURCE FROM 144SM(42CA,3N), E=200 MEV; ^RITU GAS-FILLED      
+#  SEPARATOR WITH SI STRIP DETECTOR SURROUNDED BY 3 ^NORDBALL- AND 2      
+#  ^TESSA-type Ge DETECTORS AT FOCAL PLANE; ^JUROSPHERE ^II ARRAY (7      
+#  ^TESSA-type, 5 ^NORDBALL, 15 ^EUROGAM-^II Ge DETECTORS) FOR G DETECTION
+#  AT TARGET POSITION; MEASURED EA, IA, |a(t), EG, IG, PROMPT AND DELAYED 
+#  G-|a COIN, PARENT-DAUGHTER |a CORRELATIONS, I(XK).                     
+#  FWHM for |a spectra: AP 60 KEV (1989TO01), AP 40 KEV (1987TO09), 25 KEV
+#  (1986KE03).                                                            
+#            ^T{-1/2}(183PB)=535 MS 30 FROM 2002JE09.                     
+#            PARENT JPI=(3/2-) BY ANALOGY WITH 185PB AND 187PB.           
+#A IA        RELATIVE IA NORMALIZED SO IA(TOTAL)=100 FOR THIS DECAY.      
+#A HF        IF R0=1.507, the average of R0(178HG)=1.51 5 and             
+#A R0(180HG)=1.505 13 IN 1998AK04, ASSUMING QA=6928 6.                    
+#G E         FROM 2002JE09.                                               
+#L J         FROM Adopted Levels.                                         
+#P 0.0          (3/2-)            535 MS    30            6928      7     
+PB183 HG179 alpha 6.928 0.0 0.90
++A alpha 6.777 0.73
++A alpha 6.576 0.27
+
+#179HG    183PB A DECAY (415 MS)        2002JE09,1989TO01         09NDS    200902
+#  183PB A DECAY (415 MS)        2002JE09,1989TO01         09NDS    200902
+#H TYP=FUL$AUT=Coral M. BAGLIN$CIT=NDS 110, 265 (2009)$CUT=15-Nov-2008$   
+#  OTHERS: 1980SC09, 1984SCZQ, 1986KE03, 1987TO09.                        
+#  2002JE09: SOURCE FROM 144SM(42CA,3N), E=200 MEV; ^RITU GAS-FILLED      
+#  SEPARATOR WITH SI STRIP DETECTOR SURROUNDED BY 3 ^NORDBALL- AND 2      
+#  ^TESSA-type Ge DETECTORS AT FOCAL PLANE; ^JUROSPHERE ^II ARRAY (7      
+#  ^TESSA-type, 5 ^NORDBALL, 15 ^EUROGAM-^II Ge DETECTORS) FOR G DETECTION
+#  AT TARGET POSITION; MEASURED EA, IA, |a(t), EG, IG, PROMPT AND DELAYED 
+#  G-|a COIN, PARENT-DAUGHTER |a CORRELATIONS, I(XK).                     
+#  E(183PB)=97 9 BASED ON EA=6704 6 FROM THIS LEVEL TO 171 LEVEL IN 179HG 
+#  (weighted average of 6718 10 (1987To09), 6712 10 (1989To01) AND        
+#  6698 5 (2002Je09)) and EA=6777 6 FROM 183PB GS TO 179HG GS             
+#  (weighted average of 6798 25 (1980SC09), 6781 15 (1989TO01),           
+#  6775 7 (2002Je09)).                                                    
+#  ^T{-1/2}(183PB)=415 MS 20 (2002JE09). OTHERS: 1987TO09 (300 MS 80,     
+#  6718A); 1984SCZQ.                                                      
+#A HF        IF R0=1.507 (the average of R0(178HG)=1.51 5 and             
+#A R0(180HG)=1.505 13 IN 1998AK04), ASSUMING QA=6928 6.                   
+#A IA        RELATIVE IA NORMALIZED SO IA(TOTAL)=100 FOR THIS DECAY.      
+#G E         FROM 2002JE09.                                               
+#G M         FROM ECC (DEDUCED FROM INTENSITY BALANCE) AND/OR EKC (FROM   
+#G OBSERVED I(XK)) IN 2002JE09.                                           
+#L E         FROM MEASURED EG.                                            
+#L J         FROM Adopted Levels.                                         
+#P 97         9 (13/2+)           415 MS    20            6928      7     
++A alpha 6.868 0.025
++A alpha 6.704 0.976
+

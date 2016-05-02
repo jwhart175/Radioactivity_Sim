@@ -1,0 +1,54 @@
+#197HG    197TL EC DECAY (2.84 H)       1961JU05,1973VA26,1979BR1205NDS    200503
+#  197TL EC DECAY (2.84 H)       1961JU05,1973VA26,1979BR1205NDS    200503
+#H TYP=FUL$AUT=HUANG XIAOLONG, ZHOU CHUNMEI$CIT=NDS 104, 283 (2005)$      
+#H CUT=1-Jan-2002$                                                        
+#  Sources produced by Pb(p,X), isotope separated (1973Va26);             
+#  W({+16}O,pxn) mass and radiochemically separated (1979Br12);           
+#  {+197}Au(|a,4n) (1978Li10); protons on Hg (1973Va26)                   
+#  Others: 1957An53, 1958An52, 1966Vi01, 1979CoZI.                        
+#  1961Ju05: measured E|g, I|g, I(ce), |g|g and |gce                      
+#  1973Va26: measured E|g, I|g, I(ce), |g|g                               
+#  1979Br12: measured E|g, I|g, I(ce), I(x ray), |g|g, |gX, |a, T{-1/2}.  
+#  1993Ch44: measured I|g for 18.18|g, 133.9|g and 152.16|g.              
+#G E,RI      From 1979Br12 (semi |g-singles), except as noted.            
+#G           For |g|g and |gce coin (1961Ju05,1973Va26,1979Br12), see     
+#G drawings                                                               
+#G           |a(K)exp=ce(K)/I|g(1979Br12) normalized to |a(L)(134|g)=0.97 
+#G (E2 theory). I(ce(L) 134|g)=15.1 (1961Ju05,1973Va26) from ce(L)/I|g    
+#G normalization. I(ce) (1979Br12) is normalized to isomeric transitions  
+#G via {+197}Pb decay                                                     
+#G RI        Relative intensities normalized to I|g(425.85|g)=100 {I7}    
+#G (1979Br12). I(K|b{-1}'| x ray)=117 {I24} (1979Br12). I(|g{+|+})=9.8    
+#G {I8} (1979Br12).                                                       
+#G M,MR      From |a(K)exp measurements                                   
+#G M(M)      From |DJ and |D|p between transition levels                  
+#G CC(Z)     From |a=[|a(M1) + |a(E2)]/2 and |D|a=[|a(M1) - |a(E2)]/2     
+#L E         From decay scheme and least-squares fit                      
+#L to E|g's                                                               
+#L J         From adopted levels                                          
+#P 0.0         1/2+              2.84 H    4              2200      17    
+TL197 HG197 beta+ 2.2 10224.0 0.13
++G gamma 0.018179999999999998 3.3E-4
++G gamma 0.1556 0.003
++G gamma 0.1746 0.002
++G gamma 0.2502 0.001
++G gamma 0.4058 0.001
++G gamma 0.558 0.003
++G gamma 0.2702 0.002
++G gamma 0.2767 0.001
++G gamma 0.2068 0.001
++G gamma 0.21409999999999998 0.001
++G gamma 0.2341 0.002
++G gamma 0.4843 0.002
++G gamma 0.3072 0.003
++G gamma 0.3145 0.001
++G gamma 0.3345 0.002
++G gamma 0.5839 0.002
++G gamma 0.675 0.003
++G gamma 0.8488 0.001
++G gamma 0.424 0.001
++G gamma 0.4313 0.001
++G gamma 0.45130000000000003 0.002
++G gamma 0.7007000000000001 0.001
++G gamma 0.8753 0.001
+

@@ -1,0 +1,45 @@
+# 97PD    97AG EC DECAY (25.5 S)        1999HU10,1997SC30,1982KU1510NDS    201004
+#  97AG EC DECAY (25.5 S)        1999HU10,1997SC30,1982KU1510NDS    201004
+#H TYP=FUL$AUT=N. NICA$CIT=NDS 111, 525 (2010)$CUT=19-Nov-2009$           
+#  Others: 1978HU11                                                       
+#  2001HU04,1999Hu10: {+60}Ni({+40}Ca,1p2n) E=4.0 and 4.3 MeV/nucleon,    
+#  a cube-like array of 6 Euroball-Cluster Ge detectors.                  
+#  Measured E|g, I|g.                                                     
+#  1997Sc30: {+60}Ni({+40}Ca,1p2n) E=4.1 MeV/nucleon,                     
+#  Ge(Li) detector. Measured E|g, I|g.                                    
+#  1982Ku15: {+58}Ni, {+60}Ni, {+62}Ni, {+63}Cu, {+65}Cu                  
+#  bombarded with {+40}Ca E=4.0 MeV/u, mass separation, Ge(Li) detector.  
+#  Measured E|g, I|g, observed Pd K| x ray.                               
+#  1978Hu11: {+92}Mo({+14}N,2p7n) E=100-125 MeV, Ge(Li)                   
+#  detector. Measured E|g, I|g, observed Pd x-rays.                       
+#  Data are taken from 2001HU04 AND 1999HU10, unless noted otherwise.     
+#E TI$From intensity balance in level scheme assuming no direct           
+#E |e+|b{++} decay to {+97}Pd g.s.                                        
+#E TI(m)$^GTOL upper limit (method 1): 0.24                               
+#G E$FOR G'S WHOSE ENERGY DIFFER BY 3SIGMA OR MORE FROM CALCULATED VALUE  
+#G SEE ADOPTED LEVELS, GAMMAS DATASET                                     
+#G M$FROM ADOPTED GAMMAS                                                  
+#G E(A)      This |g-transition was tentatively assigned to the           
+#G decay of the {+97}Ag isomeric state in 1997SC30.                       
+#G E(B)      1997SC30 misassigned this |g-line to connect                 
+#G the 3291.3 keV and 2141.1 keV levels.                                  
+#G E(C)      1997SC30 incorrectly placed this transition between the      
+#G 1881.6 keV state (13/2+) and the ground state (5/2+).                  
+#L $THIS EVALUATION ASSUMED THE JPI VALUES                                
+#L ADOPTED PREVIOUSLY BY 2001HU04, EXCEPT FOR THE FACT THAT UNLIKE        
+#L 2001HU04, WE CONSIDER ALL JPI VALUES AS TENTATIVE, WHICH DERIVES FROM  
+#L TENTATIVE JPI'S FOR BOTH 97AG AND 97PD GS'S.                           
+#L E$From a least squares fit to EG'S. NORMALIZED CHI**2=4.0 GREATER      
+#L THAN CRITICAL CHI**2=1.2                                               
+#L J$Unless otherwise noted, spins and parities were assigned to {+97}Pd  
+#L levels according to the |b intensities from {+97}Ag decay and the      
+#L relative |g intensities. THESE VALUES ARE THE SAME AS THE ONES IN THE  
+#L ADOPTED LEVELS DATASET                                                 
+#L J(A)$From shell-model and analogy with other N=51 nuclei;              
+#L also from 775|g to g.s.                                                
+#L J(B)$From 1990PI01.                                                    
+#L J(C)$From 1982FE01.                                                    
+#L E(D)$The level energy was misprinted in 1997SC30 as 3323.4 keV.        
+#P 0.0         (9/2+)            25.5 S    3              6.98E+3   11    
+AG97 PD97 beta+ 6.98 25.5 1.0
+

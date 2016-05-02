@@ -1,0 +1,38 @@
+#233U  CA IA(A)     IA(to GS band)=20 7 per 100 A DECAYS from interband          
+#A IA(A)     IA(to GS band)=20 7 per 100 A DECAYS from interband          
+#A transitions feeding the GS band. ALPHA intensities to each member of   
+#A the band are calculated by the evaluator from the hindrance factors    
+#A for the 235U ALPHA transitions to the 231TH GS band which are believed 
+#A to be analogous.                                                       
+#A HF(A)     Assumed to be identical to the hindrance factors of similar  
+#A ALPHA transitions from 235U GS (7/2[743]) to the 5/2+, 7/2+, 9/2+,     
+#A 11/2+ states of the 5/2[633] band in 231TH.                            
+#A The IA's measured by 1975Va11 in 235U                                  
+#A ALPHA decay and R0(231TH)=1.525 were used in calculations for these    
+#A hindrance factors.                                                     
+#G E         Measurements of 1979El05 (semi).                             
+#G RI        Measurements of 1979El05. RI=100 corresponds to 21.8 17      
+#G photons per 100 ALPHA decays.                                          
+#G E(S)      Not observed in 237PU decay; energies are from the COULOMB   
+#G excitation and the decay scheme.                                       
+#G CC        For E1, except where noted.                                  
+#G CC(M)     For M1.                                                      
+#G RI(G)     GAMMA ray was obscured by the presence of neighboring        
+#G background radiation (1979El05).                                       
+#L J         Adopted values.                                              
+#L BAND(A)   5/2[633] band                                                
+#L BAND(B)   5/2[752] band                                                
+#L BAND(D)   7/2[743] band                                                
+#P 0.0          7/2-             45.2 D    1              5748.4    23    
+PU237 U233 alpha 5.748399999999999 3905280.0000000005 0.000042
++A alpha 5.65 0.071
++A alpha 5.61 0.073
++A alpha 5.56 0.036000000000000004
++A alpha 5.498 0.021
++A alpha 5.356 0.172
++A alpha 5.334 0.435
++A alpha 5.302 0.122
++A alpha 5.259 0.006999999999999999
++A alpha 5.154 0.064
++A alpha 5.098 0.005
+

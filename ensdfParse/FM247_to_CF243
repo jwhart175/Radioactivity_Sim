@@ -1,0 +1,56 @@
+#243CF    247FM A DECAY (31 S)          2006He27                  14NDS    201408
+#  247FM A DECAY (31 S)          2006He27                  14NDS    201408
+#H TYP=FUL$AUT=C.D. Nesaraja, E.A. McCutchan$CIT=NDS 121, 695 (2014)$     
+#H CUT=30-Sep-2013$                                                       
+#  {+247}Fm-%|a decay: from 2006He27. Other: |>50% (1967Fl15).            
+#  2006He27: {+247}Fm activity from |a decay chain of {+255}Rf produced   
+#  in {+207}Pb({+50}Ti,2n), E({+50}Ti)=4.85 MeV/nucleon and |a decay of   
+#  {+251}No produced in {+206}Pb({+48}Ca,3n), E({+48}Ca)=4.8              
+#  MeV/nucleon. Isotopes separated with the velocity filter SHIP and      
+#  implanted into a position-sensitive 16-strip PIPS detector.  Measured  
+#  E|a, I|a, recoil-|a coincidences, recoil-|a(t), conversion electrons   
+#  with the PIPS detector and E|g, I|g, |g|g and |a|g|g coincidences      
+#  using a HPGe Clover detector.  Early results presented in 2005KuZZ,    
+#  2004He28.                                                              
+#  Others: 1989He03, 1967Nu01, 1967Fl15                                   
+#A HF$r{-0}({+243}Cf)=1.49 {I2}, extrapolated from r{-0} systematics      
+#A given in 1998Ak04.                                                     
+#A $1989He03 and 1967Fl15 both observe complex |a structures. 1967Fl15    
+#A report E|a=7870 {I50} with I|a|?70 and E|a=7930 {I50} with I|a|?30,    
+#A while 1989He03 report sum peaks of |a groups with conversion           
+#A electrons at E=8010 {I15} and 8060 {I15} with equal relative           
+#A intensities. 2006He27 also observe a very broad distribution in |a     
+#A energies, however, through |a|g and |a-K x-ray coincidences, they      
+#A establish that there is only a single |a peak, which is significantly  
+#A broadened due to summing with a number of different conversion         
+#A electron energies.                                                     
+#G E$From 2006He27, observed in coincidence with |a decays.               
+#G CC$FROM BrIcc v2.3a (30-Jun-2013) 2008Ki07, "Frozen Orbitals" appr.    
+#L E(a)$Proposed band based on 1/2+[631] Nilsson level.                   
+#L E(b)$Proposed band based on 5/2+[622] Nilsson level.                   
+#L E(c)$Proposed bandhead of 7/2+[624] Nilsson level.                     
+#P 0.0          (7/2+)            31 S      1              8258     10    
++A alpha 7.824 1.0
+
+#243CF    247FM A DECAY (5.1 S)         2006HE27                  14NDS    201408
+#  247FM A DECAY (5.1 S)         2006HE27                  14NDS    201408
+#H TYP=FUL$AUT=C.D. Nesaraja, E.A. McCutchan$CIT=NDS 121, 695 (2014)$     
+#H CUT=30-Sep-2013$                                                       
+#  {+247}Fm-%|a decay: from %IT=12 {I2} measured in 2006He27 based on     
+#  number of correlations between |a({+251m}No)-|a({+247m}Fm) and         
+#  |a({+251m}No)-|a({+247}Fm).                                            
+#  2006He27: {+247}Fm activity from |a decay chain of {+255}Rf produced   
+#  in {+207}Pb({+50}Ti,2n), E({+50}Ti)=4.85 MeV/nucleon and |a decay of   
+#  {+251}No produced in {+206}Pb({+48}Ca,3n), E({+48}Ca)=4.8              
+#  MeV/nucleon. Isotopes separated with the velocity filter SHIP and      
+#  implanted into a position-sensitive 16-strip PIPS detector.  Measured  
+#  E|a, I|a, recoil-|a coincidences, recoil-|a(t), conversion electrons   
+#  with the PIPS detector and E|g, I|g, |g|g and |a|g|g coincidences      
+#  using a HPGe Clover detector.  Early results presented in 2005KuZZ,    
+#  2004He28.                                                              
+#  Others: 1997He29, 1967Fl15                                             
+#A HF$r{-0}({+243}Cf)=1.49 {I2}, extrapolated from r{-0} systematics      
+#A given in 1998Ak04.                                                     
+#P 45        7  (1/2+)            5.1 S     2              8258     10    
++A alpha 8.172 1.0
+

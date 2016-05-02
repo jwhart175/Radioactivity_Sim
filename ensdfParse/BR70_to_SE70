@@ -1,0 +1,39 @@
+# 70SE    70BR EC DECAY (79.1 MS)       1988BU12,2002HA27         04NDS    200412
+#  70BR EC DECAY (79.1 MS)       1988BU12,2002HA27         04NDS    200412
+#H TYP=FUL$AUT=J. K. Tuli$CIT=NDS 103, 389 (2004)$CUT=16-Jan-2004$        
+#  SUPER-ALLOWED ^G-^T TRANSITION CALCULATIONS: 2002TO19, 2002HA27        
+#L E$From adopted levels, the first level with unknown JPI is 3140.       
+#L 2002HA27 calculate the first 1+ level to be at 2.71 MeV and expect     
+#L about 325 1+ states to be fed.                                         
+#P 0.0         0+                79.1 MS   8              10.6E+3   SY    
+BR70 SE70 beta+ 10.6 0.07909999999999999 1.0
++B beta+ 8.807E-4 0.0010044
++B beta+ 4.56 0.05
+
+# 70SE    70BR EC DECAY (2.2 S)         2000PI15,2001DOZZ         04NDS    200412
+#  70BR EC DECAY (2.2 S)         2000PI15,2001DOZZ         04NDS    200412
+#H TYP=FUL$AUT=J. K. Tuli$CIT=NDS 103, 389 (2004)$CUT=16-Jan-2004$        
+#  2000PI15:                                                              
+#  PRODUCTION: 40CA(32S,PN), E=110 MEV 32S. MEASURED G, GG, 4-SEGMENTED   
+#  CLOVER Ge DETECTORS                                                    
+#  2001DOZZ: 40CA(36AR,APN), E=169 MEV. MEASURED BGG, 13 Ge DETECTORS,    
+#  SCIN                                                                   
+#  2002RO25, 2002RO16: E(36AR)=169 MEV. MEASURED BGG, BGG(T)              
+#E TI(A)$REPORTED IN 2001DOZZ                                             
+#G E(A)$FROM 2002RO25 in coin with 569G, not given in 2000PI15            
+#P 2292.3     89+                2.2 S     2              10.6E+3   SY    
+BR70 SE70 beta+ 10.6 2.2 1.0
++G gamma 0.9446 1.0
++G gamma 1.0933 0.96
++G gamma 0.9637 0.92
++G gamma 0.91173 0.63
++G gamma 1.0335999999999999 0.33
++B beta+ 2.67 0.74
++G gamma 0.569 0.33
++G gamma 0.6902 0.42
++G gamma 0.348 0.1
++G gamma 1.1688 0.07
++B beta+ 2.14 0.012
++G gamma 1.6562000000000001 0.05
++G gamma 1.062 0.05
+

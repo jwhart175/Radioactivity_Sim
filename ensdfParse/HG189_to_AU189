@@ -1,0 +1,117 @@
+#189AU5D  with Dr, J. Wood. Same for E|g=695.3 from table 1 for 189HG EC DECAY   
+#  with Dr, J. Wood. Same for E|g=695.3 from table 1 for 189HG EC DECAY   
+#  (8.6 M). Note by S. -C. Wu (Sept-5-2003).                              
+#  1988Ko22: {+189g}Au structure from |e decay of {+189g}Hg and {+189m}Hg 
+#  produced by heavy ion induced reaction. |g-|g, |g-X,  |g-ce, and ce-X. 
+#  Ge(Li), Si(Li) detectors. Band structure.                              
+#  1975Be17: {+189g}Hg, {+189m}Hg from Pb(p,xn3p), mass separated;        
+#  E|g, I|g, Ice, |g|g, ce-|g. E levels, J|p, T{-1/2}.                    
+#  Ge(Li), Si(Li),magnetic spectrometer.                                  
+#  See also, 1976Wo10                                                     
+#E $|e and |b{++} branching ratios are not available experimentally.      
+#E The of {+189}Au (7.6 m) is 1/2+, and the spin of {+189}Hg is 3/2-,     
+#E implying the decay to the ground state is quite probable.              
+#E There is no estimate of the |e and |b{++} branching ratios given here. 
+#G $Annihilation intensity I|g(|g{+|+})=50 {I5}                           
+#G E$From 1996Wo04, except as noted.                                      
+#G RI$I|g relative to I|g(297.9)=100; from 1996Wo04, except as noted.     
+#G M,MR$From conversion electron measurements, weighted averages are      
+#G used for calculating mixing ratios whenever data are available from    
+#G more than one measurement                                              
+#G RI(I)$Estimated from {+189m}Hg(|e)decay                                
+#L E$From least-squares fit to E|g's.                                     
+#L J(J),T(U)$From adopted levels.                                         
+#L T$From 1975Be17, except as noted.                                      
+#L BAND(A)$Band built on the positive-parity proton-hole configuration    
+#L (s{-1/2}, d{-3/2}, d{-5/2})                                            
+#L BAND(B)$Band built on the h{-11/2} proton-hole configuration           
+#L BAND(C)$Band built on the h{-9/2} and i{-13/2}                         
+#L proton particle configuration                                          
+#P 0            3/2-               7.6 M   1                  3950  SY    
+
+#189AU    189HG EC DECAY (8.6 M)        1996WO04                  03NDS    200309
+#  189HG EC DECAY (8.6 M)        1996WO04                  03NDS    200309
+#H TYP=FUL$AUT=S. -C. WU, H. NIU$CIT=NDS 100, 1 (2003)$CUT=31-May-2003$   
+#  1996Wo04: {+180}Hf({+16}O,7n), mass separated {+189m}Hg samples.       
+#  E|g, I|g, Ice; |g|g, ce|g, |gX and eX coincidence. E levels, J|p.      
+#  Ge(Li), Si(Li) detectors.                                              
+#  1988Ko22: {+189g}Au structure from |e decay of {+189g}Hg and {+189m}Hg 
+#  produced by heavy ion induced reaction. |g-|g, |g-X,  |g-ce, and ce-X. 
+#  Ge(Li), Si(Li) detectors. Band structure.                              
+#  1975Be17: {+189g}Hg, {+189m}Hg from Pb(p,xn3p), mass separated;        
+#  E|g, I|g, Ice, |g|g, ce-|g. E levels, J|p, T{-1/2}.                    
+#  Ge(Li), Si(Li),magnetic spectrometer.                                  
+#  See also, 1976Wo10                                                     
+#E $|e and |b{++} branching ratios are not available experimentally.      
+#E The evaluator uses a similar case of {+191}Hg |e decay to estimate     
+#E the decay branching ratios and log{Ift} values.                        
+#E The branching ratio for {+191}Hg |e decay to the {+191}Au              
+#E isomeric state of J|p=11/2- at 266 keV is 9% {I5}.                     
+#E It is assumed that the |e+b{++} feeding to the 247.4 keV state         
+#E is |?10%. Other |e+b{++} feedings are from intensity balance           
+#E calculations                                                           
+#G $Annihilation intensity I|g(|g{+|+})=70 {I10}                          
+#G E,RI$From 1996Wo04, except as noted.                                   
+#G M,MR$From conversion electron measurements, weighted averages are      
+#G used for calculating mixing ratios whenever data are available from    
+#G more than one measurement                                              
+#L E$From least-squares fit to E|g's.                                     
+#L J$From 1996Wo04                                                        
+#L J(J),T(U)$From adopted levels.                                         
+#L T$From 1975Be17, except as noted.                                      
+#L BAND(A)$Band built on the positive-parity proton-hole configuration    
+#L (s{-1/2}, d{-3/2}, d{-5/2})                                            
+#L BAND(B)$Band built on the h{-11/2} proton-hole configuration           
+#L BAND(C)$Band built on the h{-9/2} and i{-13/2}                         
+#L proton particle configuration                                          
+#P  0.0+X       13/2+              8.6 M   1                  3950  SY    
++B beta+ 1.254 0.024
++B beta+ 1.254 0.0063
++B beta+ 1.227 0.0032
++B beta+ 1.145 0.0034999999999999996
++B beta+ 1.132 6.900000000000001E-4
++B beta+ 1.075 0.012
++B beta+ 1.06 0.01
++B beta+ 1.046 0.0064
++B beta+ 1.02 0.0015
++B beta+ 1.001 0.0070999999999999995
++B beta+ 0.986 0.0023
++B beta+ 0.97 4.0E-4
++B beta+ 0.962 3.0E-4
++B beta+ 0.875 0.0026
++B beta+ 0.867 3.9E-4
++B beta+ 0.868 0.0022
++B beta+ 0.861 9.1E-4
++B beta+ 0.855 2.8000000000000003E-4
++B beta+ 0.854 0.0019
++B beta+ 0.835 0.0012
++B beta+ 0.809 6.0E-4
++B beta+ 0.798 5.0E-4
++B beta+ 0.788 8.3E-4
++B beta+ 0.786 0.0012
++B beta+ 0.78 0.0012
++B beta+ 0.763 6.0E-4
++B beta+ 0.756 3.0E-4
++B beta+ 0.749 8.9E-4
++B beta+ 0.733 3.0E-4
++B beta+ 0.715 4.0E-4
++B beta+ 0.706 3.0E-4
++B beta+ 0.682 4.3999999999999996E-4
++B beta+ 0.653 5.4E-4
++B beta+ 0.63 2.0E-4
++B beta+ 0.593 3.3E-4
++B beta+ 0.566 1.0E-4
++B beta+ 0.551 2.0E-4
++B beta+ 0.404 1.4000000000000001E-4
++B beta+ 0.373 6.0E-5
++B beta+ 0.366 8.999999999999999E-5
++B beta+ 0.365 6.0E-5
++B beta+ 0.362 1.0E-4
++B beta+ 0.361 1.2E-4
++B beta+ 0.359 2.1999999999999998E-4
++B beta+ 0.357 5.0E-5
++B beta+ 0.355 1.0E-4
++B beta+ 0.349 1.0999999999999999E-4
++B beta+ 0.339 3.4E-5
++B beta+ 0.339 5.0E-5
+

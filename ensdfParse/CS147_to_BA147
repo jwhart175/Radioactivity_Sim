@@ -1,0 +1,49 @@
+#147BA    147CS B- DECAY                2005SY01                  09NDS    200902
+#  147CS B- DECAY                2005SY01                  09NDS    200902
+#H TYP=FUL$AUT=N. NICA$CIT=NDS 110,749 (2009)$CUT=14-Nov-2008$            
+#  2005Sy01:                                                              
+#  {+147}Cs produced via thermal neutron-induced fission of {+235}U       
+#  target integrated in an ion source. Fission product mass separator     
+#  OSIRIS. Measured E|g, I|g, |g|g, |g-x coin, |b|g(t) coin, lifetimes    
+#  with a three-detector system that included a low-energy photon and     
+#  X-ray (LOAX) detector and two HPGe detectors. |b|g(t) coin             
+#  measurements involved two fast-response scintillators, a thin NE111A   
+#  plastic for |b particle detection, and a small BaF{-2} crystal as well 
+#  as a HPGe detector for |g rays.                                        
+#  Others: 1981ScZM, 1981ShZH, 1987ScZG                                   
+#  The level scheme is from 2005Sy01 and is incomplete. 2005Sy01 compare  
+#  their results to 1981ScZM and find discrepancies (see comments below)  
+#L E$From least-squares fit to E|g's by evaluator                         
+#L J$From Adopted Levels                                                  
+#L T$From 2005Sy01, except where noted. Lifetime measurements from        
+#L 2005Sy01 were made using Advanced Time-Delayed                         
+#L (ATD) |b|g|g(t) method. The values were obtained in least-square       
+#L fitting procedure of the whole spectrum to a response function which   
+#L was constructed by a convolution of the Gaussian prompt and an         
+#L exponential decay curve.                                               
+#L E(A)$Observed in 1981ScZM but not in 2005Sy01                          
+#G E$From 2005Sy01, except where noted                                    
+#G E(a)$Observed in 1981ScZM but not in 2005Sy01                          
+#G M(b)$From 1981ScZM and 1987ScZG based on K/L ratios                    
+#G RI$Relative intensities                                                
+#G RI(X)$From |g-ray singles spectra (2005Sy01)                           
+#G RI(Y)$From |g|g data (2005Sy01)                                        
+#G RI(Z)$Average value of |g intensities from |g-ray singles and |g|g     
+#G data.                                                                  
+#B IB$From intensity balance (evaluator)                                  
+#P 0.0          (3/2+)            230 MS   1              8580      SY    
++G gamma 0.0289 0.035
++G gamma 0.0351 0.035
++G gamma 0.0636 0.035
++G gamma 0.1989 0.38
++G gamma 0.093 0.1
++G gamma 0.292 0.17
++G gamma 0.31930000000000003 0.28
++G gamma 0.1405 0.31
++G gamma 0.35919999999999996 0.07
++G gamma 0.36560000000000004 0.35
++G gamma 0.3775 0.04
++G gamma 0.4868 0.05
++G gamma 0.2761 0.04
++G gamma 0.4095 0.04
+

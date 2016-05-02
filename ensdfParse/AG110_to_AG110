@@ -1,0 +1,16 @@
+#110AG    110AG IT DECAY (249.83 D)     1965GE01,1993KA37,1975CL0312NDS    201206
+#  110AG IT DECAY (249.83 D)     1965GE01,1993KA37,1975CL0312NDS    201206
+#H TYP=FUL$AUT=G. G~URDAL and F.G. KONDEV$CIT=NDS 113, 1315 (2012)$       
+#H CUT=1-Aug-2011$                                                        
+#G CC$ FROM BrIcc v2.2 (31-Mar-2008) 2008KiAA, "Frozen Orbitals" appr.    
+#  1965GE01, 1993KA37: Reaction: {+109}Ag(n,|g). Measured: CE             
+#  1975CL03: {+110}Ag{+m} (249.83 D) Decay. Measured: CE-inner shell      
+#  vacancy delayed coincidences. Deduced: T1/2, J|p. {+109}Ag(n,|g),      
+#  E=thermal. Measured: E|g, |g-inner shell delayed coincidences          
+#  Others: 1967MO12, 1965HA07, 1963SU07, 1962KA07, 1950SI01               
+#L E,J,T$From adopted levels                                              
+#P 117.59    5 6+                249.83 D  4                              
+AG110 AG110 IT 0.0 2.1585312E7 0.0133
++G gamma 0.00116 1.42E-5
++G gamma 0.11648 8.0E-5
+

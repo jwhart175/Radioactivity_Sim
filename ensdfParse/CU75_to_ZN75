@@ -1,0 +1,93 @@
+# 75ZN    75CU B- DECAY (1.224 S)       2011Il01                  13NDS    201309
+#  75CU B- DECAY (1.224 S)       2011Il01                  13NDS    201309
+#H TYP=FUL$AUT=ALEXANDRU NEGRET, BALRAJ SINGH$CIT=NDS 114, 841 (2013)$    
+#H CUT=30-Jun-2013$                                                       
+#  2011Il01: {+75}Cu beam produced from fission of {+238}U                
+#  with protons at Holifield Radioactive Ion beam facility. Mass          
+#  and isobaric separation of the beam with a high-resolution system.     
+#  Measured E|g, I|g, |g|g and |b|g coin, isotopic half-life using four   
+#  HPGe Clover Ge detectors for |g rays and two plastic scintillators for 
+#  |b particles. Level scheme deduced from detailed |g|g coin data        
+#B IB$ 2011Il01 list only strong |b feedings to 345, 420, 476, 725, 1144, 
+#B and 2906 levels. Others are deduced by the evaluators. These feedings  
+#B should be considered as apparent values since about 35% |b feeding     
+#B remains unaccounted. Note that |g rays with uncertain placements are   
+#B not included by the evaluators in obtaining intensity balances         
+#B LOGFT$ Deduced by the evaluators using LOGFT code. Due to incomplete   
+#B decay scheme, these values should be considered as approximate, thus   
+#B no uncertainties are listed here                                       
+#B IB(A)$ 1.8 {I4} in 2011Il01                                            
+#B IB(B)$ 7.9 {I17} in 2011Il01 for feeding to 2904.6+2906.5 levels       
+#G RI$ Uncertainties quoted in 2011Il01 are statistical only, as          
+#G communicated to the evaluators by the first author in an e-mail reply. 
+#G The evaluators have assigned minimum of 1% uncertainty to take into    
+#G account systematic uncertainties arising from efficiency calibration   
+#G and peak fitting procedures                                            
+#G TI(D)$ From intensity balance at 152 level. There may be direct |b     
+#G feeding also which is not taken into account (evaluators' comment)     
+#G E(E)$ Poor fit, level-energy difference=1754.5                         
+#G RI(F)$ Uncertainty quoted as 0.6 in 2011Il01 seems a misprint. The     
+#G evaluators assign 0.06                                                 
+#L E$ From least-squares fit to E|g data. Reduced |h{+2}=1.0              
+#L E(X)$ Two levels at 2904.7 and 2906.5 are proposed by the evaluators   
+#L based on |g-ray fits in the level scheme, and agreed upon by the       
+#L first author of 2011Il01 in an e-mail reply                            
+#L J$ From Adopted Levels. Assignments proposed in 2011Il01 based on |b   
+#L feedings and |g-decay pattern are listed under comments                
+#P   0            5/2(-)          1.224 S  3                8088    3     
++B beta- 3.6345 0.0062
++B beta- 3.5816 0.032
++B beta- 3.5448000000000004 0.05
++B beta- 3.5197 0.021
++B beta- 3.3965 0.021
++B beta- 3.2950999999999997 7.000000000000001E-4
++B beta- 3.2131 0.0079
++B beta- 3.1925 0.17
++B beta- 3.1148000000000002 0.0040999999999999995
++B beta- 2.9945 0.0017000000000000001
++B beta- 2.9679 0.0070999999999999995
++B beta- 2.8794 0.0064
++B beta- 2.8421 0.0015
++B beta- 2.8169 0.0060999999999999995
++B beta- 2.7554000000000003 5.099999999999999E-4
++B beta- 2.6641 0.002
++B beta- 2.6595 0.0028000000000000004
++B beta- 2.6224000000000003 0.0062
++B beta- 2.6107 0.0017000000000000001
++B beta- 2.3621999999999996 0.017
++B beta- 2.3524000000000003 0.0011
++B beta- 2.3362 0.016
++B beta- 2.3353 0.063
++B beta- 2.3045999999999998 0.0067
++B beta- 2.2899000000000003 0.003
++B beta- 2.2801 0.013999999999999999
++B beta- 2.2476 0.03
++B beta- 2.2285 0.013999999999999999
++B beta- 2.2089000000000003 0.0013
++B beta- 2.1759 0.025
++B beta- 2.1606 0.0029
++B beta- 2.1241999999999996 0.008
++B beta- 2.1143 0.023
++B beta- 2.0926 0.0027
++B beta- 2.0838 0.0064
++B beta- 2.0511 0.0044
++B beta- 2.0325 0.0087
++B beta- 2.0249 0.0013
++B beta- 2.0115 0.0034000000000000002
++B beta- 2.0101 0.0029
++B beta- 1.966 0.0055000000000000005
++B beta- 1.8933 0.0054
++B beta- 1.8825999999999998 0.015
++B beta- 1.8602 6.1E-4
++B beta- 1.855 9.9E-4
++B beta- 1.8537000000000001 3.7999999999999997E-4
++B beta- 1.8059 5.0E-4
++B beta- 1.8005 0.0021
++B beta- 1.7975 0.0014000000000000002
++B beta- 1.7883 8.0E-4
++B beta- 1.6320999999999999 3.5999999999999997E-4
++B beta- 1.5166 5.5E-4
++B beta- 1.4747999999999999 0.0013
++B beta- 1.3293 5.099999999999999E-4
++B beta- 1.3137999999999999 1.7E-4
+

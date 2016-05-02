@@ -1,0 +1,19 @@
+#107RU    252CF SF DECAY                2002ZH02                  08NDS    200805
+#  252CF SF DECAY                2002ZH02                  08NDS    200805
+#H TYP=FUL$AUT=Jean Blachot$CIT=NDS 109, 1383 (2008)$CUT=1-Mar-2008$      
+#  Includes 1998Zh39                                                      
+#  Measured E|g, I|g and |g|g using GAMMASPHERE spectrometer              
+#  comprised of 102 escape-suppressed large volume Ge detectors.          
+#  907-824-722-583 |g cascade (related to h{-11/2-} band and built above  
+#  the 371|g from 673, (15/2-) level) reported by                         
+#  2000Fo10: was not supported by 2002Zh02                                
+#G E(A)$Inferred from coin                                                
+#L E$Uncertainties are based on a least-squares fit to E|g's,             
+#L assuming |D(E|g)=0.3 keV for each |g ray                               
+#L BAND(A)$ (5/2+) band, |a=+1/2                                          
+#L BAND(a)$ (5/2+) band, |a=-1/2                                          
+#L BAND(B)$ h{-11/2} band, |a=-1/2.                                       
+#L BAND(C)$ (9/2-) band, |a=+1/2                                          
+#P  0.0         0+               2.645 Y   8                              
+CF252 RU107 SF 0.0 8.346802377600001E7 1.0
+

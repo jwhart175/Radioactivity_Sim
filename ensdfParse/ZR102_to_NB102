@@ -1,0 +1,49 @@
+#102NB    102ZR B- DECAY:2.9 S          2007RI01                  09NDS    200908
+#  102ZR B- DECAY:2.9 S          2007RI01                  09NDS    200908
+#H TYP=FUL$AUT=D. DE FRENNE$CIT=NDS 110, 1745 (2009)$CUT=31-Dec-2008$     
+#  2007Ri01:Measured E|g, I|g, |g|g, |b|g coin, x|g coin, Q(|b{+-}) values
+#  using plastic scintillator for |b rays and Ge detectors for |g rays and
+#  xrays.                                                                 
+#  Most of the data given here are from 2007Ri01 and data received through
+#  e-mail reply on January 30, 2007 from S. Rinta-Antila.(2008SiZZ) They  
+#  are more recent and precise than the data of 1989SiZR                  
+#B LOGFT$Values are deduced by the evaluator using "LOGFT"                
+#B code available at www.nndc.bnl.gov; value of x is assumed as 0 for     
+#B this calculation. From |b|g counting the ground state feeding upper    
+#B limit was deduced to be 59% 3. All values should be treated as lower   
+#B limits since possible feedings to higher levels are unknown.           
+#B For the calculation of conversion coefficients all low-energy          
+#B transitions for which the multipolarity could not be determined        
+#B experimentally are considered [M1] because from systematics and        
+#B structure point of view M1 is a good guess as multipolarity            
+#B IB$All values should be treated as upper limits since possible         
+#B feedings to higher levels are unknown.                                 
+#G $ The |g|g coin information is from e-mail reply of Jan 30, 2007       
+#G from S. Rinta-Antila (2008SiZZ)                                        
+#G E,RI$ From data received through e-mail reply on January 30, 2007 from 
+#G S. Rinta-Antila (2008SiZZ)                                             
+#G TI$Based on photon intensities and conversion coefficients deduced     
+#G by the evaluator using BrIcc code available at www.nndc.bnl.gov        
+#G For the calculation of conversion coefficients all low-energy          
+#G transitions for which the multipolarity could not be determined        
+#G experimentally are considered [M1].                                    
+#G For the calculation of absolute                                        
+#G intensities 2007Ri01 assumed also M1 for low energy |g's with the      
+#G exception of the 20.38 G where  EKC pointed to E1                      
+#L E$ From least-squares fit to measured E|g's by the evaluator           
+#L J$From Adopted levels, gammas                                          
+#P 0.0         0+                2.9 S     2              4626      23    
+ZR102 NB102 beta- 4.626 2.9 1
++B beta- 2.038 0.59
++B beta- 2.029 0.021
++B beta- 2.007 0.021
++B beta- 1.993 0.008
++B beta- 1.963 0.013000000000000001
++B beta- 1.961 0.006999999999999999
++B beta- 1.92 0.022000000000000002
++B beta- 1.914 0.024
++B beta- 1.832 0.0026
++B beta- 1.751 0.25
++B beta- 1.701 0.033
++B beta- 1.588 0.017
+

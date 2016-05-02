@@ -1,0 +1,110 @@
+#130SB    130SN B- DECAY (3.72 M)       1994WAZU,1987STZO         01NDS    200107
+#  130SN B- DECAY (3.72 M)       1994WAZU,1987STZO         01NDS    200107
+#H TYP=FUL$AUT=BALRAJ SINGH$CIT=NDS 93, 33 (2001)$CUT=11-May-2001$        
+#  1994WAZU, 1987STZO (also 1988STZQ): measured EG, IG, GG                
+#  Others:                                                                
+#  1974KE08 (also 1973KE24): measured EG, IG, GG, EB, CE. A total of 15   
+#  GAMMA rays were reported with this decay, 12 of which were assigned in 
+#  a level scheme. These results agree with those from 1994WAZU and       
+#  1987STZO                                                               
+#  1974KR20, 1972IZ01: measured EG, IG, GG. A total of six GAMMA rays     
+#  reported                                                               
+#  Others:                                                                
+#  1990ST13, 1977NU01, 1977LU06: BG coin                                  
+#  1979BO26: measured EG with a curved-crystal spectrometer               
+#  T1/2(130SN GS): 1978IZ03 (also 1972IZ01), 1974GR29, 1974FO06,          
+#  1972FOZA, 1970OSZZ, 1956PA20                                           
+#L E$From least-squares adjustment to EG's                                
+#L J$From adopted levels, based on LOGFT values and                       
+#L transition multipolarities                                             
+#G E,RI$From 1987STZO                                                     
+#G M$From EKC and K/L (1974KE08)                                          
+#P 0.0         0+                3.72 M    7              2148      15    
++B beta-0.023 0.35
++B beta- 0.485 0.024
++B beta- 0.395 0.0036
++B beta- 0.388 0.79
++B beta- 0.329 0.0017000000000000001
++B beta- 0.248 0.0077
++B beta- 0.223 0.0019
++B beta- 0.187 0.0043
+
+#130SB    130SN B- DECAY (1.7 M)        1994WAZU,1987STZO         01NDS    200107
+#  130SN B- DECAY (1.7 M)        1994WAZU,1987STZO         01NDS    200107
+#H TYP=FUL$AUT=BALRAJ SINGH$CIT=NDS 93, 33 (2001)$CUT=11-May-2001$        
+#  1994WAZU, 1987STZO (also 1988STZQ): measured EG, IG, GG                
+#  1974KE08 (also 1973KE24): measured EG, IG, GG, CE, T1/2. A total of    
+#  20 GAMMA rays were reported, five of which were assigned in a          
+#  level scheme                                                           
+#  1990ST13, 1977LU06: measured BG                                        
+#  1979BO26: measured EG with a curved-crystal spectrometer               
+#L E$From least-squares adjustment to EG's                                
+#L J$From adopted levels, based on LOGFT values and transition            
+#L multipolarities                                                        
+#G E,RI$From 1987STZO                                                     
+#G M$From EKC and K/L (1974KE08)                                          
+#G M(B)$From intensity balance (1994WAZU,1987STZO)                        
+#G E(A),RI(A)$From 1974KE08, who state that the identification is         
+#G uncertain, and that the transition may belong to the decay of the      
+#G 3.8-min activity. This transition is considered as suspect by the      
+#G evaluator, since with the intensity quoted by 1974KE08, it should      
+#G have been detected in the G and GG coin experiment of 1987STZO         
+#G E(C)$ LEVEL-ENERGY DIFFERENCE=426.5                                    
+#G E(D)$ LEVEL-ENERGY DIFFERENCE=853.04                                   
+#G E(E)$ LEVEL-ENERGY DIFFERENCE=1194.4                                   
+#G E(F),RI(F)$From level scheme figure of 1987STZO                        
+#G E(G)$ Placement 1912.6-688.98 shown by 1987STZO                        
+#G seems a misprint, since same placement is shown for 1224.2G            
+#P 1946.88     (7-)              1.7 M     1              2148      15    
+SN130 SB130 beta- 2.148 102.0 1.0
++G gamma 0.09190000000000001 0.0161
++G gamma 0.09670000000000001 0.0161
++G gamma 0.9126000000000001 0.0184
++G gamma 0.9722000000000001 0.020700000000000003
++G gamma 1.4785 0.020700000000000003
++G gamma 2.1532 0.0092
++B beta- 1.725 0.084
++B beta- 1.717 0.08
++B beta- 1.705 0.034
++B beta- 1.689 0.21
++B beta- 1.412 0.24
++B beta- 1.374 0.0049
++B beta- 1.348 0.0025
++B beta- 1.342 0.008
++B beta- 1.316 0.051
++B beta- 1.267 0.096
++B beta- 1.265 0.024
++B beta- 1.242 0.0044
++B beta- 1.213 0.013000000000000001
++B beta- 1.165 0.0072
++B beta- 1.145 0.013000000000000001
++B beta- 1.123 0.0037
++B beta- 1.12 0.012
++B beta- 1.063 0.0046
++B beta- 0.992 0.0021
++B beta- 0.955 0.0036
++B beta- 0.95 0.0025
++B beta- 0.911 0.009399999999999999
++B beta- 0.874 0.0015
++B beta- 0.865 0.0012
++B beta- 0.815 0.0040999999999999995
++B beta- 0.813 0.0022
++B beta- 0.787 0.0012
++B beta- 0.782 2.5E-4
++B beta- 0.745 0.0032
++B beta- 0.735 0.006
++B beta- 0.703 0.0087
++B beta- 0.648 0.040999999999999995
++B beta- 0.638 0.0032
++B beta- 0.62 0.0025
++B beta- 0.608 0.016
++B beta- 0.59 0.0042
++B beta- 0.586 7.4E-4
++B beta- 0.581 0.0085
++B beta- 0.566 0.0064
++B beta- 0.551 0.0011
++B beta- 0.541 0.0023
++B beta- 0.487 0.0092
++B beta- 0.462 0.0066
++B beta- 0.393 0.0039000000000000003
+

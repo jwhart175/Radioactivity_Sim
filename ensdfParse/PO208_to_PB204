@@ -1,0 +1,15 @@
+#204PB    208PO A DECAY                 1966HA29                  10NDS    201002
+#  208PO A DECAY                 1966HA29                  10NDS    201002
+#H TYP=FUL$AUT=C.J. CHIARA and F.G. KONDEV$CIT=NDS 111,141 (2010)$        
+#H CUT=1-Oct-2009$                                                        
+#  1996Ha29: several-mCi 208PO source produced via 209BI(P,2N), 0.1-mCi   
+#  source produced via N irradiation of Bi; ALPHA singles and ALPHA-G coin
+#  studied with NaI(Tl) and surface-barrier detectors; measured EA, IA.   
+#A IA$ALPHA intensity per 100 ALPHA decays.                               
+#A HF$R0(204PB)=1.4297 7 is calculated from HF(5114.9A)=1.0.              
+#L E,J$From adopted levels.                                               
+#P 0.0         0+                2.898 Y   2              5215.3    13    
+PO208 PB204 alpha 5.2153 9.145192170240001E7 0.999960
++A alpha 5.1149 0.9999975999999999
++A alpha 4.22 2.4E-6
+

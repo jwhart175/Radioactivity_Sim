@@ -1,0 +1,14 @@
+#169LU    169LU IT DECAY (160 S)        1965BJ01                  08NDS    200809
+#  169LU IT DECAY (160 S)        1965BJ01                  08NDS    200809
+#H TYP=FUL$AUT=CORAL M. BAGLIN$CIT=NDS 109, 2033 (2008)$CUT=15-Jun-2008$  
+#  Isomer identified using excitation-function data for                   
+#  YB(P,XN) (1965BJ01).                                                   
+#  The decay scheme and all data are from 1965BJ01. Sources from          
+#  170YB(P,2N), EP=13 MEV (pulsed beam); YB metal targets                 
+#  enriched to 85% in 170YB. Measured ECE, ICE (magnetic spectrometer).   
+#G RI        Deduced from TI and CC.                                      
+#L J,T       From Adopted Levels, except as noted.                        
+#P 29.0      5  1/2-             160 S     10                             
+LU169 LU169 IT 0.0 160.0 1.0
++G gamma 0.029 1.06E-5
+

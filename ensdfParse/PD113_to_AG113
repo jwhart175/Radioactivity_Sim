@@ -1,0 +1,59 @@
+#113AG    113PD B- DECAY                1988FOZY,1990RO16         10NDS    201006
+#  113PD B- DECAY                1988FOZY,1990RO16         10NDS    201006
+#H TYP=FUL$AUT=Jean Blachot$CIT=NDS 111, 1471 (2010)$CUT=1-May-2009$      
+#  Activity: 235U(n,f) on-line mass separator OSIRIS (1988FoZY)           
+#  Measured G, RI, GG, G(T), B, BG, CE, GE(LI), SI detector (1988FoZY)    
+#  249CF(N,F) radiochemical separation (1990Ro16), measured: G, GG, GG(T) 
+#  Others: 1958Al90, 1968Kj01, 1970Ar19, 1975BrYM, 1981Me17               
+#  Decay mode: 81.5% 20 of 113PD decay is via 5.37-h 113AG and 18.5% 20   
+#  is via 68.7-s 113AG, from IG(5.37-h 113AG)/IG(68.7-s 113AG)            
+#  (1975BrYM). Other: from IB(5.37-h 113AG)/IB(68.7-s 113AG), 90% 5       
+#  of 113PD decay is via 5.37-h 113AG (1958Al90).                         
+#G E,RI$From 1988FoZY                                                     
+#G M$From EKC (1988FoZY). The conversion coefficients were determined     
+#G by simultaneous measurements of G and CE.                              
+#L J$Adopted values. JPI given by 1988FoZY are shown under comments.      
+#L T$Levels GT 43 KEV T are from 1988FoZY, other from adopted levels.     
+#L BAND(A)$ INTRUDER ROTATIONAL BAND (1990Ro16) with A=17.23, E0=228.9 KEV
+#L a=-1.92                                                                
+#P 0.0         (5/2+)            93 S      5              3340      30    
+PD113 AG113 beta- 3.34 93.0 1.0
++B beta- 1.4 0.86
++G gamma 0.0436 0.0015
++B beta- 1.355 0.0189
++G gamma 0.09573999999999999 0.065
++B beta- 1.316 0.011399999999999999
++G gamma 0.1785 2.0E-4
++G gamma 0.22206 0.024
++G gamma 0.27081 0.011000000000000001
++G gamma 0.0515 1.0E-4
++G gamma 0.2736 4.0E-4
++B beta- 1.248 0.0084
++G gamma 0.096 0.005
++G gamma 0.3668 0.0066
++B beta- 1.247 0.009000000000000001
++G gamma 0.14773 0.0034999999999999996
++G gamma 0.23049 0.0027
++G gamma 0.32627999999999996 0.0021
++B beta- 1.197 0.0059
++G gamma 0.20587 8.0E-4
++G gamma 0.25461 0.0043
++G gamma 0.33732 4.0E-4
++G gamma 0.43339999999999995 0.0011
++G gamma 0.0496 4.0E-4
++G gamma 0.38689999999999997 0.0028000000000000004
++G gamma 0.48260000000000003 0.017
++B beta- 1.136 0.0040999999999999995
++G gamma 0.3363 0.0011
++G gamma 0.607 0.0023
++G gamma 0.4721 0.0011
++G gamma 0.5677000000000001 0.016
++B beta- 1.105 0.0036
++G gamma 0.5342 0.0018
++G gamma 0.6732 7.000000000000001E-4
++B beta- 1.054 0.0046
++G gamma 0.4149 0.0014000000000000002
++G gamma 0.5109 0.0021
++G gamma 0.7818999999999999 7.000000000000001E-4
++B beta- 1.054 0.07200000000000001
+

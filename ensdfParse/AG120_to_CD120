@@ -1,0 +1,186 @@
+#120CD  XB120AG B- DECAY (1.23 S)                                                
+#XB120AG B- DECAY (1.23 S)                                                
+#XC124SN(D,6LI)                                                           
+#XD124SN(3HE,7BE)                                                         
+#XE173YB(24MG,F),208PB(18O,F),                                            
+#Q 1.77E3    4 8.05E3  4 12601   16-6550   8     2012WA38                 
+#Q Note: Current evaluation has used the following Q record               
+#Q 1760      448138    8312705   92-6437   59    1995AU04                 
+#L BAND(A)   YRAST BAND                                                   
+#L E         From a least-squares fit to the adopted E(G's) by the        
+#L evaluators, unless otherwise noted. Uncertainty of 1 KEV is assumed    
+#L for E(G), if not given by authors.                                     
+#L T         From BGG(T) in 120AG B- decay, except that of GS             
+#L J         G-cascades to GS and from an expected band structure,        
+#L unless otherwise noted                                                 
+#L J(C)      Suggested by 1984APZZ, based on GG(THETA), and systematics   
+#L of phonon state.                                                       
+#L J(D)      From systematics on (D,6LI) in even CD isotopes              
+#L E(E)      Member of two phonon triplet                                 
+#G E         From 120AG B- decay (1.23 S), unless otherwise noted         
+#G E(F)      From {+173}Yb(24MG,F),{+208}Pb(18O,F),{+232}Th(18O,F)        
+#N                                                                     6  
+#L 0.0         0+                50.80 S   21                         A   
+#L XREF=ADCDE                                                             
+#L %B-=100                                                                
+#L T         from 1973SC19. Other: 50.9 S 5 (1974GR29).                   
+#L     505.94172+                18.0 PS   21                         A   
+#L XREF=+                                                                 
+#G 505.9      2100                                                        
++G gamma 0.5059 1.0
+#L 975       25                                                          ?
+#L XREF=C                                                                 
+#L     1203.7 3(4+)              3.5 PS    28                         A   
+#L XREF=ABCE                                                              
+#L FLAG=D$FLAG=E                                                          
+#G 697.8      2100                                                        
++G gamma 0.6978 1.0
+#L 1323        (7-)                                                   D   
+#L XREF=CD(*1300)E                                                        
+#L E         from (D,6LI).                                                
+#L    1323.0717(2+)                                                   E   
+#L XREF=BD(*1300)                                                         
+#G 817.1      2                                                           
+#G 1323.1     2                                                           
+#L     1388.911(0+)               13 PS    LT                         E   
+#L XREF=B                                                                 
+#L FLAG=C                                                                 
+#G 883.0       100                                                        
++G gamma 0.883 1.0
+#L     1744.911(0+)               13 PS    LT                         C   
+#L XREF=B                                                                 
+#G 1239.0      100                                                        
++G gamma 1.239 1.0
+#L     1899.919(3-)                                                   D   
+#L XREF=BC(1920)                                                          
+#L     2033.7 4(6+)                                                   A   
+#L XREF=ACE                                                               
+#G 830.0      2100                                                        
++G gamma 0.83 1.0
+#L     2093.913                                                           
+#L XREF=B                                                                 
+#L     2129.6 4                                                           
+#L XREF=AE                                                                
+#G 925.8      2100                                                        
++G gamma 0.9258 1.0
+#L     2449.811                                                           
+#L XREF=B                                                                 
+#G 1246.0      100                                                        
++G gamma 1.246 1.0
+#L     2524.7 8                                                           
+#L XREF=E                                                                 
+#G  395        71                                                     F   
++G gamma 0.395 0.71
+#G  491        100     21                                             F   
++G gamma 0.491 1.0
+#L     2886.210(8+)                                                   A   
+#L XREF=E                                                                 
+#G 852.5       100                                                    F   
++G gamma 0.8525 1.0
+#L     2921.410                                                           
+#L XREF=E                                                                 
+#G 887.7                                                              F   
+#L     3129.811(10+)                                                  A   
+#L XREF=E                                                                 
+#G 208.3                                                              F   
+#G 243.5                                                              F   
+#L     3329.011                                                           
+#L XREF=B                                                                 
+#G 2823.0      100                                                        
++G gamma 2.823 1.0
+#L     3423.916                                                           
+#L XREF=B                                                                 
+#G 1330.0                                                                 
+#G 1524.0                                                                 
+#L     3500.9 8                                                           
+#L XREF=B                                                                 
+#G 1407.0                                                                 
+#G 2297.0                                                                 
+#G 2995.0                                                                 
+#L     3536.0 8                                                           
+#L XREF=B                                                                 
+#G 3030.0                                                                 
+#G 3536.0                                                                 
+#L     3549.9 8                                                           
+#L XREF=B                                                                 
+#G 2346.0                                                                 
+#G 3044.0                                                                 
+#L     3559.011                                                           
+#L XREF=B                                                                 
+#G 3053.0      100                                                        
++G gamma 3.053 1.0
+#L     3746.115(12+)                                                  A   
+#L XREF=E                                                                 
+#G 616.3                                                              F   
+#L     3880.110                                                           
+#L XREF=B                                                                 
+#G 3880.0      100                                                        
++G gamma 3.88 1.0
+#L     4579.918(14+)                                                  A   
+#L XREF=E                                                                 
+#G 833.8                                                              F   
+#L     5522.721(16+)                                                  A   
+#L XREF=E                                                                 
+#G 942.8                                                              F   
+#                                                                         
+
+#120CD    120AG B- DECAY (1.23 S)       1971FO22,1982AL29         02NDS    200209
+#  120AG B- DECAY (1.23 S)       1971FO22,1982AL29         02NDS    200209
+#H TYP=FUL$AUT=K. KITAO, Y. TENDOW AND A. HASHIZUME$                      
+#H CIT=NDS 96, 241 (2002)$CUT=1-Dec-2001$                                 
+#  1971FO22: 235U(N,F) E=TH, on-line mass separation; semi G, CE, B, GG.  
+#  1973FR19: 238U(A,F) E=43 MEV, on-line mass separation; semi G.         
+#  1982AL29: fission products, on-line mass separation; BG                
+#  1989MA33: 235U(N,F), on-line mass separation; BGG(T)                   
+#  See also 120AG B- decay (0.32 S).                                      
+#L           Levels below 1323 KEV are from 1971FO22, levels at 1388      
+#L and 1744 KEV are from 1989MA33, and levels above                       
+#L 1899 KEV are from 1982AL29                                             
+#G           1971FO22 reported that the number of detected G's was        
+#G of the order of 100 in the decay of 120AG                              
+#L J         From adopted levels                                          
+#L E         From a least-squares fit to E(G's) by the evaluators         
+#L E(A)      From 1989MA33                                                
+#L E(B)      Member of two phonon triplet                                 
+#B E         From 1982AL29                                                
+#B IB        From 1971FO22, based on G-intensity imbalance for each level.
+#B The authors give no IG data                                            
+#G E         From 1971FO22, unless otherwise noted                        
+#G E(C)      From 1982AL29                                                
+#G E(D)      Assigned only by 1973FR19.                                   
+#G E(E)      From decay scheme in 1989MA33.                               
+#G RI        Tentatively deduced by the evaluators from IB of 1971FO22    
+#P 0.0         3(+)              1.23 S    4              8325      71    
+AG120 CD120 beta- 8.325 1.23 1.0
++B beta- 3.536 0.3
++G gamma 0.5059 0.71
++B beta- 3.205 0.3
++G gamma 0.6978 0.3
++B beta- 3.148 0.2
++G gamma 0.8171 0.11
+
+#120CD C  See also 120AG IT DECAY and 120AG B- decay (1.23 S).                   
+#  See also 120AG IT DECAY and 120AG B- decay (1.23 S).                   
+#L J         From adopted levels                                          
+#L E         From a least-squares fit to E(G's) by the evaluators         
+#B IB        From 1971FO22. The IB sum to AP 57% although the authors     
+#B claim %B- AP 63%. The difference is probably due to an allowance       
+#B being made for the large number of unplaced G transitions.             
+#G           No IG's are given in either reference. Values are deduced    
+#G from the IB's of 1971FO22; however, the evaluators regard the IB's     
+#G given by 1971FO22 as uncertain.                                        
+#G           Authors (1971FO22) observed AP 100 transitions in the        
+#G decay of 120AG.                                                        
+#N 1.0                   1.0       1.0                                    
+#N NR        assumed no B- to GS and AP 10% B- to unknown levels.         
+#N                                                                     3  
+#P 203       1 6(-)              0.32 S    4              8325      71    
++G gamma 0.5059 1.0
++G gamma 0.6978 1.0
++G gamma 0.83 0.56
++G gamma 0.9258 0.22
++G gamma 0.395 0.1
++G gamma 0.491 0.14
++G gamma 0.8525 0.21
++G gamma 0.2435 0.15
+

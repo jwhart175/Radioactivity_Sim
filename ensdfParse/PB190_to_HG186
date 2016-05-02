@@ -1,0 +1,21 @@
+#186HG    190PB A DECAY (71 S)          1996RI12,1981EL03         03NDS    200306
+#  190PB A DECAY (71 S)          1996RI12,1981EL03         03NDS    200306
+#H TYP=FUL$AUT=CORAL M. BAGLIN$CIT=NDS 99, 1 (2003)$CUT=4-Apr-2003$       
+#  190PB PARENT T IS FROM 1996Ri12. OTHERS: 1.2 M 1 (1981El03), 1.2 M 2   
+#  (1974Le02).                                                            
+#  Others: 1984To09, 1977De32, 1974Ho26, 1974Le02, 1972Ga27.              
+#  Calculation of ALPHA decay widths: 1988In03.                           
+#  1996Ri12: mass separation of products from 170-MEV 16O bombardment of  
+#  natural W; GELI, cooled SILI and SI surface barrier detectors;         
+#  measured EA, IA, T.                                                    
+#A E,IA      From 1996Ri12, except as noted.                              
+#A HF        R0(186HG)=1.491 5 for HF(to GS)=1. (R0=1.529 11, 1.461 17,   
+#A respectively, if %A(190PB)=0.9 2, 0.21 7, the limits of reported %A    
+#A values).                                                               
+#L J         From adopted levels.                                         
+#L E         Based on EA.                                                 
+#P  0.0         0+                 71 S    1               5698     5     
++A alpha 5.581 0.9990000000000001
++A alpha 5.181 8.4E-4
++A alpha 5.06 1.4000000000000001E-4
+

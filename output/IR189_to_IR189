@@ -1,0 +1,49 @@
+#189IR    189IR IT DECAY (13.3 MS)                                03NDS    200309
+#  189IR IT DECAY (13.3 MS)                                03NDS    200309
+#H TYP=FUL$AUT=S. -C. WU, H. NIU$CIT=NDS 100, 1 (2003)$CUT=31-May-2003$   
+#L E,J,T$From adopted levels.                                             
+#G E$From adopted gammas.                                                 
+#P 372.17     4 11/2-              13.3 MS 3                              
+IR189 IR189 IT 0.0 0.0 1.0
+
+#189IR    189IR IT DECAY (3.7 MS)       1975KE06,1975AN08         03NDS    200309
+#  189IR IT DECAY (3.7 MS)       1975KE06,1975AN08         03NDS    200309
+#H TYP=FUL$AUT=S. -C. WU, H. NIU$CIT=NDS 100, 1 (2003)$CUT=31-May-2003$   
+#G RI$From 1975Ke06, except where noted.                                  
+#G E$From {+187}Re(|a,2n|g)                                               
+#G RI(G)$Relative intensity calculated from prompt-|g data                
+#G RI(F)$Calculated assuming intensity is balanced through the level      
+#G scheme.                                                                
+#G RI(H)$Intensity of 464.7|g and 466.0|g divided by evaluator on the     
+#G basis of the level scheme intensity balance. I|g(465|g+466|g)=8.8      
+#G RI(I)$From adopted gammas branching intensities                        
+#G RI(C)$Corrected by the evaluator for feeding from {+189}Ir IT decay    
+#G (13.3 ms).                                                             
+#G M$From adopted gammas, except where noted. [M1] transitions may have   
+#G E2 admixtures, however, intensity balance is consistent with pure      
+#G multipolarity.                                                         
+#G CC(B)$|a(exp) derived from the decay scheme intensity balance          
+#G MR$From adopted gammas                                                 
+#G RI(J)$Unobserved, expected from the intensity balance. Intensity       
+#G calculated by the evaluator from I(|g+ce) and |a                       
+#G RI(K)$The relative intensities of the 149|g and 676|g are equal in the 
+#G prompt {+187}Re(|a,2n|g) data but differ by a factor of 5 in the       
+#G delayed data.                                                          
+#L E$From least-squares fit to E|g's                                      
+#L J$From adopted levels                                                  
+#P     2333.2 5(25/2)+             3.7 MS       2                         
+IR189 IR189 IT 0.0 0.0 1.0
++G gamma 0.0 0.005
++G gamma 0.0 0.02
++G gamma 0.0 0.0063
++G gamma 0.0 0.038
++G gamma 0.0 0.027999999999999997
++G gamma 0.0 0.0031
++G gamma 0.0 0.009000000000000001
++G gamma 0.0 0.087
++G gamma 0.0 0.016
++G gamma 0.0 0.043
++G gamma 0.0 0.008
++G gamma 0.0 0.068
++G gamma 0.0 0.018000000000000002
+

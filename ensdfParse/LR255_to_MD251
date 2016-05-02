@@ -1,0 +1,78 @@
+#251MD    255LR A DECAY (31.1 S)        2006CH52,2008HA31         13NDS    201309
+#  255LR A DECAY (31.1 S)        2006CH52,2008HA31         13NDS    201309
+#H TYP=FUL$AUT=E. BROWNE, J. K. TULI$CIT=NDS 114, 1041 (2013)$            
+#H CUT=1-Jan-2012$                                                        
+#  2006Ch52: {+255}Lr isotope produced by {+209}Bi({+48}Ca,2n) reaction   
+#  at 217 MeV, in two separate experiments conducted at JYFL and GANIL.   
+#  Recoil products separated from the primary beam in each.               
+#  JYFL: Measured recoil products, E|a, I|a, and time-of-flight using a   
+#  Multi-Wire Proportional Counter gas detector, two Double-Sided Si      
+#  Strip Detectors (DSSSD) and a "box" of 28 pin-diodes surrounding the   
+#  two DSSSDs.                                                            
+#  GANIL: Measured recoiled products, E|g, I|g, E|a, I|a, ce, and tof     
+#  using a "galotte" detector (mylar foil and micro-channel plate         
+#  detector), a DSSSD, four cooled Si detectors (BEST) and four segmented 
+#  Ge detectors (EXOGAM).                                                 
+#  2008Ha31: {+255}Lr isotope produced by {+209}Bi({+48}Ca,2n) reaction,  
+#  at 219 MeV, using the U400 cyclotron, Dubna. Activity was              
+#  separated using the VASSILISSA fragment separator. Measured |a         
+#  particle-energies and intensities, conversion electrons,               
+#  and |g rays with Si and Ge detectors.                                  
+#  2008An16: 255LR produced by 209BI(48CA,2N) at 214-244 MeV.             
+#  Recoil products separated from the primary beam using the velocity     
+#  filter ^SHIP. Measured recoil products, EA, IA, using a                
+#  position-sensitive 16-strip silicon ^PIPS detector. Measured           
+#  time-of-flight (TOF) using electron foil detectors. Measured EG, IG    
+#  in prompt and coincidence with alpha particles. Detectors:             
+#  clover Ge detector. No gamma-rays were observed (IG/IA <0.01).         
+#  Other: 2006An13                                                        
+#A $ A line at 8512 in |a spectrum with half-life of 87 s {I40} is        
+#A not correlated to the |a decay of {+251}Md (2006Ch52).                 
+#A E$ Energies from JYFL experiment (2006Ch52), which had                 
+#A better resolution.                                                     
+#A IA$ Values quoted by 2006Ch52 have been multiplied by 1.39 to          
+#A convert to intensity per 100 decays through the |a decay branch        
+#A of the parent {+255}Lr. Relative intensities given by 2006Ch52         
+#A are: 8290|a: 1.2 {I4}; 8365|a: 67.1 {I15}; 8420|a: |<3.6 {I5}          
+#A HF        R0=1.465 7                                                   
+#L E$ From |a-particle energy differences.                                
+#P 0.0          1/2-             31.1 S    11             8556      7     
+LR255 MD251 alpha 8.556 31.1 0.997
++A alpha 8.42 0.05
++A alpha 8.365 0.9329999999999999
++A alpha 8.29 0.017
+
+#251MD    255LR A DECAY (2.54 S)        2006CH52,2008AN16         13NDS    201309
+#  255LR A DECAY (2.54 S)        2006CH52,2008AN16         13NDS    201309
+#H TYP=FUL$AUT=E. BROWNE, J. K. TULI$CIT=NDS 114, 1041 (2013)$            
+#H CUT=1-Jan-2012$                                                        
+#  2006Ch52: {+255}Lr isotope produced by {+209}Bi({+48}Ca,2n) reaction   
+#  at 217 MeV, in two separate experiments conducted at JYFL and GANIL.   
+#  Recoil products separated from the primary beam in each.               
+#  JYFL: Measured recoil products, E|a, I|a, and tof using a              
+#  Multi-Wire Proportional Counter gas detector, two Double-Sided Si      
+#  Strip Detectors (DSSSD) and a "box" of 28 pin-diodes surrounding the   
+#  two DSSSDs.                                                            
+#  GANIL: Measured recoiled products, E|g, I|g, E|a, I|a, ce, and tof     
+#  using a "galotte" detector (mylar foil and micro-channel plate         
+#  detector), a DSSSD, four cooled Si detectors (BEST) and four segmented 
+#  Ge detectors (EXOGAM).                                                 
+#  2008An16: 255LR produced by 209BI(48CA,2N) at 214-244 MeV.             
+#  Recoil products separated from the primary beam using the velocity     
+#  filter ^SHIP. Measured recoil products, EA, IA, using a                
+#  position-sensitive 16-strip silicon ^PIPS detector. Measured           
+#  time-of-flight (TOF) using electron foil detectors. Measured EG, IG    
+#  in prompt and coincidence with alpha particles. Detectors:             
+#  clover Ge detector. No gamma-rays were observed (IG/IA <0.03).         
+#A E$ Energies from JYFL experiment, which had better resolution          
+#A (2006Ch52).                                                            
+#A IA$ Values quoted by 2006Ch52 have been multiplied by 3.56 to          
+#A convert to intensity per 100 decays of {+255}Lr (2.54 s).              
+#A Relative intensities given in 2006Ch52                                 
+#A are: 8420|a: 2.1 {I5}; 8457|a: 26.0 {I8}                               
+#A HF        R0=1.465 7                                                   
+#L E$ From |a-particle energy differences.                                
+#P 38        10 7/2-             2.54 S    5              8556      7     
++A alpha 8.457 0.93
++A alpha 8.322 0.07
+

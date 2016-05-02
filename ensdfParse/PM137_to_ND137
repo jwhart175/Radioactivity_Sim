@@ -1,0 +1,129 @@
+#137ND    137PM EC DECAY                1975NO08                  07NDS    200709
+#  137PM EC DECAY                1975NO08                  07NDS    200709
+#H TYP=FUL$AUT=E. BROWNE, J. K. TULI$CIT=NDS 108,2173 (2007)$             
+#H CUT=1-Oct-2006$                                                        
+#  Modified by E. Browne (January 9, 2007)                                
+#  Measured: G rays, GG COIN, conversion electrons (1975NO08)             
+#  Others: 1973VAYZ, 1973HAWA, 1973WEZK                                   
+#  Decay scheme is that proposed by 1975NO08                              
+#  Decay scheme normalization and EC feedings have been determined        
+#  by the assumption of no EC decay to levels below 520 KEV.              
+#  The presence of many unplaced G rays suggests,                         
+#  however, that these feedings are not accurate, and often               
+#  inconsistent with assigned levels spin and parity in 1975No08.         
+#E E         EB+=4132 +150-115 (1983AL06)                                 
+#G           EKC normalized so that KC=0.01 (M1,theory) for 581G from     
+#G 137ND EC decay                                                         
+#G E(A)      From decay scheme in 1975No08.                               
+#L J         From Adopted Levels                                          
+#L E$Deduced by evaluators from a least-squares fit to G-ray energies.    
+#P 0.0         11/2-             2.4 M     1              5507      17    
+PM137 ND137 beta+ 5.507 144.0 1.0
++G gamma 0.087 0.06068
++G gamma 0.213 0.0037
++G gamma 0.22019999999999998 0.0037
++G gamma 0.2931 0.0037
++G gamma 0.3251 0.03071
++G gamma 0.3403 0.00481
++G gamma 0.3795 0.00481
++G gamma 0.41910000000000003 0.0037
++G gamma 0.4592 0.01998
++G gamma 0.4637 0.0037
++G gamma 0.5869 0.00666
++G gamma 0.5915 0.0037
++G gamma 0.6116 0.0037
++G gamma 0.6457 0.00703
++G gamma 0.6692 0.0037
++G gamma 0.6727000000000001 0.004070000000000001
++G gamma 0.6954 0.0037
++G gamma 0.7035 0.0037
++G gamma 0.7128 0.0074
++G gamma 0.7142999999999999 0.004070000000000001
++G gamma 0.7229 0.005549999999999999
++G gamma 0.7491 0.0037
++G gamma 0.7888 0.00888
++G gamma 0.818 0.0037
++G gamma 0.829 0.0037
++G gamma 0.8368 0.010360000000000001
++G gamma 0.854 0.0037
++G gamma 0.871 0.0037
++G gamma 0.88 0.0037
++G gamma 0.895 0.0037
++G gamma 0.9212 0.00703
++G gamma 0.939 0.0037
++G gamma 0.946 0.0037
++G gamma 0.968 0.0037
++G gamma 0.977 0.0037
++G gamma 0.991 0.0037
++G gamma 1.0137 0.0074
++G gamma 1.028 0.0037
++G gamma 1.038 0.0037
++G gamma 1.09 0.00444
++G gamma 1.1236 0.004070000000000001
++G gamma 1.136 0.00444
++G gamma 1.141 0.0037
++G gamma 1.145 0.0037
++G gamma 1.153 0.0037
++G gamma 1.171 0.0037
++G gamma 1.201 0.0037
++G gamma 1.2789000000000001 0.00592
++G gamma 1.381 0.0037
++G gamma 1.409 0.0037
++G gamma 1.461 0.0037
++G gamma 1.468 0.0037
++G gamma 1.518 0.00444
++G gamma 1.551 0.0037
++G gamma 1.605 0.0037
++G gamma 0.10859999999999999 0.37
++G gamma 0.1605 0.017390000000000003
++G gamma 0.2687 0.08954
++G gamma 0.1775 0.42586999999999997
++G gamma 0.286 0.16983
++B beta+ 8.41E-4 0.00123
++G gamma 0.2336 0.31265
++G gamma 0.3285 0.034780000000000005
++G gamma 0.506 0.07400000000000001
++G gamma 0.5292 0.026269999999999998
++G gamma 0.5488 0.04181
++G gamma 0.5656 0.02738
++G gamma 0.5656 0.02738
++G gamma 0.7433 0.00703
++G gamma 0.4573 0.04477
++G gamma 0.6908 0.03071
++B beta+ 1.809 0.0016300000000000002
++G gamma 0.581 0.1406
++G gamma 0.3977 0.012580000000000001
++G gamma 0.7595 0.011470000000000001
++B beta+ 1.538 0.00234
++G gamma 0.4106 0.07400000000000001
++G gamma 0.5337999999999999 0.05476
++G gamma 0.6586000000000001 0.005549999999999999
++B beta+ 1.347 0.0030399999999999997
++G gamma 1.0922 0.04699
++B beta+ 1.257 0.00345
++G gamma 0.414 0.022940000000000002
++B beta+ 1.219 0.00364
++G gamma 0.19290000000000002 0.00592
++G gamma 0.3892 0.03108
++G gamma 0.5251 0.0148
++G gamma 0.7986 0.005180000000000001
++G gamma 0.923 0.025160000000000002
++G gamma 1.0475999999999999 0.0074
++G gamma 1.0647 0.010360000000000001
++G gamma 1.2847 0.07141
++B beta+ 1.168 0.00391
++G gamma 1.1899000000000002 0.012209999999999999
++B beta+ 1.128 0.00413
++G gamma 0.4707 0.03848
++G gamma 0.995 0.00444
++B beta+ 0.953 0.00519
++G gamma 0.5337999999999999 0.05476
++B beta+ 0.925 0.00538
++G gamma 0.3523 0.01369
++G gamma 0.735 0.0037
++G gamma 0.8217000000000001 0.008140000000000001
++B beta+ 0.794 0.00624
++G gamma 0.37060000000000004 0.03071
++G gamma 0.434 0.00703
++G gamma 1.2935 0.011099999999999999
+

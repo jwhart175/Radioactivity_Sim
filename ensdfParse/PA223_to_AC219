@@ -1,0 +1,23 @@
+#219AC    223PA A DECAY                 1970BO13,1995ANZY,1999Ho2801NDS    200110
+#  223PA A DECAY                 1970BO13,1995ANZY,1999Ho2801NDS    200110
+#H TYP=FUL$AUT=E. BROWNE$CIT=NDS 93, 802 (2001)$CUT=1-May-2001$           
+#  1970BO13: 223PA activity produced by 205TL(22NE,4N), 208PB(19F,4N) and 
+#  209BI({+20}Ne,|a2n). Measured EA, IA, excitation                       
+#  functions. Detector: semi.                                             
+#  1993ANZS, 1995ANZY: activity produced by fusion reactions and          
+#  separated using the electrostatic mass separator ^VASSILISSA. Measured 
+#  Ea, IA, T. Detector: semi.                                             
+#  1999HE28: 223PA activity produced by 208PB(19F,4N), E=99 MeV,          
+#  magnetically separated using the Recoil Ion Transport Unit (^RITU).    
+#  Measured EA, IA. Measured EG, RI in coincidence with the recoiling     
+#  ion and one alpha particle group.                                      
+#A E         Original values from 1970BO13 have been increased by 1 KEV   
+#A because of a change in the calibration energies of the 215PO and 212PO 
+#A standard sources (1971GR17,1977MA31).                                  
+#A HF$Using R0(219AC)=1.523, average of R0(218RA)=1.539 8,                
+#A R0(220RA)=1.536 5, R0(218TH)=1.49, and R0(220TH)=1.527 30 (1998AK04).  
+#P 0.0                           5.1 MS    6              8340      50    
+PA223 AC219 alpha 8.34 0.0050999999999999995 1.0
++A alpha 8.178 0.55
++A alpha 8.011 0.45
+

@@ -1,0 +1,61 @@
+#102AG    102CD EC DECAY                1991KE08,1970HN02         09NDS    200908
+#  102CD EC DECAY                1991KE08,1970HN02         09NDS    200908
+#H TYP=FUL$AUT=D. DE FRENNE$CIT=NDS 110, 1745 (2009)$CUT=31-Dec-2008$     
+#  1991Ke08: source: mass separated spallation source produced at ISOLDE  
+#  (CERN), also by fusion evaporation reactions using an on-line mass     
+#  separator at GSI. Measured:  E|b, I|b, E|g, I|g, X|g and |g|g-coin,    
+#  Ice, |a. Deduced: {+102}Ag levels J, |p, Q(|b{++})                     
+#  1970Hn02: measured E|g, I|g, |g|g-coin, Ice, |a; isotopically separated
+#  samples.                                                               
+#  Others: 1966Bu05, 1969Ha03, 1970Hn03, 1976CoYX, 1977CoZT               
+#  Absolute |a(K) values were determined by simultaneously measuring ce   
+#  and |g spectra (1970Hn02)                                              
+#E           |b-branches were deduced from total |g-ray transition        
+#E intensities assuming no |b-feeding either to the g.s. or to 9.3-keV    
+#E isomer.                                                                
+#G           Normalization from sum of I(|g+ce) to g.s. + 9.3 level=100   
+#G E,RI$From 1991Ke08, unless noted otherwise                             
+#G CC        Theoretical total conversion coefficients (BRICC) were used  
+#G for calculating I(|e+|b{++}). These coefficients corresponded to the   
+#G multipolarity indicated.                                               
+#G           |a(K)exp, |a(L)exp from (1991Ke08), K:(L+M) from (1970Hn02)  
+#G M         Deduced from |a(K)exp, |a(L)exp and K:(L+M) ratios. Possible 
+#G multipolarities, which can be ruled out based on the decay scheme, are 
+#G omitted                                                                
+#L E$From a least-squares procedure using measured gammas                 
+#L T$From Adopted levels                                                  
+#L J$From Adopted levels.                                                 
+#P 0           0+                5.5 M     5               2587     8     
++G gamma 0.09745999999999999 0.0354
++G gamma 0.028 3.5999999999999997E-4
++G gamma 0.11613 0.0654
++G gamma 0.05905 0.0144
++G gamma 0.14709 0.00522
++G gamma 0.1561 0.0024
++G gamma 0.2135 0.045
++G gamma 0.2444 0.0014399999999999999
++G gamma 0.36058 0.0336
++B beta+ 0.478 0.121
++G gamma 0.12047 0.0276
++G gamma 0.481 0.6
++B beta+ 0.456 0.0021
++G gamma 0.384 0.0015
++G gamma 0.41505000000000003 0.0768
++G gamma 0.5312 0.0102
++B beta+ 0.236 0.0044
++G gamma 0.505 0.0756
++G gamma 0.555 0.022799999999999997
++G gamma 0.67565 0.042
++G gamma 0.92 6.0E-4
++G gamma 1.0360999999999998 0.13799999999999998
++B beta+ 0.095 2.1E-5
++G gamma 0.3225 0.0018
++G gamma 0.9986 0.0028799999999999997
++G gamma 1.3592 0.06
++G gamma 1.0791 0.0015
++G gamma 1.4396 0.0042
++B beta+ 8.614E-4 0.00111
++G gamma 1.7178 0.0013800000000000002
++B beta+ 8.598E-4 0.0011200000000000001
++G gamma 1.956 0.0036
+

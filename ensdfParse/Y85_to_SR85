@@ -1,0 +1,95 @@
+# 85SR    85Y EC DECAY (2.68 H)         1976LI02,1975BA49         14NDS    201408
+#  85Y EC DECAY (2.68 H)         1976LI02,1975BA49         14NDS    201408
+#H TYP=FUL$AUT=BALRAJ SINGH AND JUN CHEN$CIT=NDS 116, 1 (2014)$           
+#H CUT=31-Dec-2013$                                                       
+#  1976Li02: measured G singles and coincidences.                         
+#  1975Ba49: source produced by 84SR(P,G).                                
+#  Others: 1971Ar17, 1966Ho04, 1963Do07, 1962Pa02.                        
+#  The decay scheme seems incomplete since the highest level populated    
+#  is at 1560 keV whereas Q value is 3260 keV; |g transitions from        
+#  possible levels higher than 1560 keV may have missed detection         
+#E TI,LOGFT$All EC+B+ feedings should be considered as upper limits       
+#E and corresponding LOGFT values as lower limits since the decay         
+#E scheme is not considered complete in view of possible unobserved       
+#E |g transitions from levels above 1.6 MeV                               
+#G E$Weighted average of measurements by 1976Li02, 1975Ba49, and          
+#G 1970HoZU (as given in earlier NDS of 1971Ho42).                        
+#G RI$From 1976Li02.                                                      
+#G M,MR$From ^Adopted ^Gammas unless indicated otherwise.                 
+#L E$From least-squares fit to E|g data                                   
+#L J,T$From Adopted Levels                                                
+#P 0.0         (1/2)-            2.68 H    5              3261      19    
+Y85 SR85 beta+ 3.261 9648.0 1.0
++G gamma 0.23165 0.84
++B beta+ 8.694E-4 0.00107
++B beta+ 0.8889 0.0016
++B beta+ 0.6587999999999999 0.0031
++B beta+ 0.4759 0.0053
++B beta+ 0.31660000000000005 0.0075
+
+# 85SR    85Y EC DECAY (4.86 H)         1976LI02                  14NDS    201408
+#  85Y EC DECAY (4.86 H)         1976LI02                  14NDS    201408
+#H TYP=FUL$AUT=BALRAJ SINGH AND JUN CHEN$CIT=NDS 116, 1 (2014)$           
+#H CUT=31-Dec-2013$                                                       
+#  1976Li02: measured G singles and coincidences, source                  
+#  produced by spallation of MO or ZR targets with 660-MEV                
+#  protons and subsequent mass separation.                                
+#  Others: 1975Ba49, 1971Ar17, 1966Ho04, 1963Do07, 1962Pa02.              
+#G E(A)$Doubly placed. Intensity from branching observed in (P,N) at      
+#G 3.8 MEV (1979Ba13).                                                    
+#G RI(B)     From GG coincidences.                                        
+#G M,MR      From Adopted Gammas.                                         
+#G E(D)      From level difference.                                       
+#G TI(D)$From an intensity balance at the 238 level and                   
+#G TI(7G)/IG(238G)=255 49 from ^Adopted ^Gammas.                          
+#G RI(E)$From an intensity balance at the 743 level.                      
+#G E(F)$1976Li02 assumed a 1110 transition deexciting the                 
+#G 2810 level, but EG disagrees with level-energy difference              
+#G E(G)$This transition was tentatively assigned deexciting the           
+#G 1355 level by 1976Li02, but this is in contradiction with ^Adopted JPI 
+#G RI(I)$Deduced from ^Adopted branching and RI of the 1589 transition    
+#G RI(J)$From IG=12.3 6 for the 1356G and IG deduced for the              
+#G placement from the 1589 level.                                         
+#L E$From least-squares fit to E|g data                                   
+#L J,T$From Adopted Levels                                                
+#P 19.8      4 (9/2)+            4.86 H    13             3261      19    
+Y85 SR85 beta+ 3.261 17496.0 1
++B beta+ 0.2983 0.0077
++B beta+ 1.0079 0.09
++B beta+ 0.9007999999999999 0.0015
++B beta+ 0.6738999999999999 0.0058
++B beta+ 0.6063 0.006500000000000001
++B beta+ 0.4541 0.005699999999999999
++B beta+ 0.43589999999999995 0.0059
++B beta+ 0.3733 0.0068000000000000005
++B beta+ 0.3525 0.0070999999999999995
++B beta+ 0.30810000000000004 0.0076
++B beta+ 0.2938 0.0078000000000000005
++B beta+ 0.2772 0.0079
++B beta+ 0.2641 0.008
++B beta+ 0.2455 0.008199999999999999
++B beta+ 0.2059 0.0084
++B beta+ 0.15230000000000002 0.0086
++B beta+ 0.1257 0.0087
++B beta+ 0.098 0.00872
++B beta+ 8.73E-4 0.0010299999999999999
++B beta+ 0.0645 0.00873
++B beta+ 8.732999999999999E-4 0.0010397000000000002
++B beta+ 8.732999999999999E-4 0.0010399
++B beta+ 8.727E-4 0.0010444
++B beta+ 8.722E-4 0.00104
++B beta+ 8.711E-4 0.00105
++B beta+ 8.703999999999999E-4 0.00106
++B beta+ 8.699000000000001E-4 0.00106
++B beta+ 8.697E-4 0.00106
++B beta+ 8.692999999999999E-4 0.00107
++B beta+ 8.692E-4 0.00107
++B beta+ 8.652999999999999E-4 0.0011
++B beta+ 8.650999999999999E-4 0.0011
++B beta+ 8.647E-4 0.0011
++B beta+ 8.634E-4 0.0011
++B beta+ 8.627E-4 0.0011
++B beta+ 8.605E-4 0.0011
++B beta+ 8.594000000000001E-4 0.0011
++B beta+ 8.581999999999999E-4 0.0011
+

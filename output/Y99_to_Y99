@@ -1,0 +1,36 @@
+# 99Y     99Y IT DECAY                  1985ME09                  11NDS    201102
+#  99Y IT DECAY                  1985ME09                  11NDS    201102
+#H TYP=FUL$AUT=E. BROWNE, J. K. TULI$CIT=NDS 112, 275 (2011)$             
+#H CUT=1-Nov-2009$                                                        
+#  Modified by E. Browne. New conversion coefficients (BRIGG) (2/10/2010) 
+#  Activity produced by neutron-induced fission of {+235}U.               
+#  Measured E|g, I|g, X|g, I(K| x ray), |g|g(t).                          
+#G CC$ FROM BrIcc v2.2 (31-Mar-2008) 2008KiAA, "Frozen Orbitals" appr.    
+#G M         I(K| x ray) determines E2 admixtures to be small. E1 excluded
+#G within rotational band.                                                
+#G M(Z),CC   From the adopted gammas                                      
+#G E(A)      Possibly cascade deexciting the 2141.7 level                 
+#L J         Adopted values                                               
+#P  2141.70  22(17/2+)           8.6 US    8                              
+Y99 Y99 IT 0.0 8.599999999999999E-6 1.0
++G gamma 0.49689999999999995 0.07
++G gamma 0.9388 0.06
++G gamma 0.1251 1.0
++G gamma 0.15869999999999998 0.63
++G gamma 0.1985 0.43
++G gamma 0.22390000000000002 0.36
++G gamma 0.4223 0.13
++G gamma 0.2696 0.19
++G gamma 0.4935 0.1
++G gamma 0.2835 0.14
++G gamma 1.371 0.15
++G gamma 1.5295 0.35
++G gamma 0.214 0.5
++G gamma 0.2452 0.13
++G gamma 0.4592 0.04
++G gamma 0.0277 0.03
++G gamma 0.2729 0.38
++G gamma 0.8825 0.19
++G gamma 1.166 0.16
++G gamma 1.4355 0.15
+

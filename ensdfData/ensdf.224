@@ -1,0 +1,2101 @@
+224      COMMENTS                                                97NDS    199703
+224    H TYP=FUL$AUT=AGDA ARTNA-COHEN$CIT=NDS 80, 227 (1997)$CUT=1-Oct-1996$    
+224   C  TITL$NUCLEAR DATA SHEETS FOR A=224                                     
+224   c  AUTH$AGDA ARTNA-COHEN                                                  
+224   c  INST$8801 Mansion Farm Place                                           
+224  #c       Alexandria, Virginia, 22309, USA                                  
+224  #c                                                                         
+224  #c       Under Subcontract to                                              
+224  #c       Nuclear Data Project                                              
+224  #c       Oak Ridge National Laboratory                                     
+224   c  ABST$Detailed level schemes, decay schemes, and the experimental data  
+224  2c  on which they are based are presented for all nuclei with mass number  
+224  3c  A=224. The experimental data are evaluated, inconsistencies and        
+224  4c  discrepancies are noted, and adopted values for level and |g-ray       
+224  5c  energies, |g intensities, as well as for other nuclear properties are  
+224  6c  given.                                                                 
+224   c  CUT$All data received by October 1996 have been included.              
+224   c  ACKN$The advice and assistance of the members of the Nuclear Data      
+224  2c  Project (Oak Ridge National Laboratory) and National Nuclear Data      
+224  3c  Center (Brookhaven National Laboratory) are gratefully acknowledged.   
+224  4c  The evaluator is also indebted to the editors and reviewers of the     
+224  5c  Nuclear Data Sheets for their critical review of this manuscript.      
+224   c  FUND$Research sponsored by the Oak Ridge National Laboratory, managed  
+224  xc  by Lockheed Martin Energy Research Corporation for the U.S.            
+224  xc  Department of Energy, under contract DE-Ac-05-96OR22464, subcontract   
+224  xc  80X-ST240V.                                                            
+224   C  CIT$NDS 80, 227 (1997)                                                 
+                                                                                
+224      REFERENCES                                                             
+224    R 1938LE07 JOUR JPRAA 9 81                                               
+224    R 1951ME10 JOUR PHRVA 81 782                                             
+224    R 1953AS31 JOUR PHRVA 92 1495                                            
+224    R 1958HI78 THESIS M W Hill,Univ California; UCRL-8423                    
+224    R 1958TO25 JOUR AFYSA 13 549                                             
+224    R 1960BE25 JOUR KDVSA 32 NO.12                                           
+224    R 1961BE28 JOUR JINCA 19 197                                             
+224    R 1961RU06 THESIS C P Ruiz,Univ California; UCRL-9511                    
+224    R 1962LI02 JOUR BAPSA 7 72,V8,Litherland                                 
+224    R 1964BU02 JOUR JINCA 26 1                                               
+224    R 1965NE03 JOUR PHRVA 137 B1164                                          
+224    R 1968DU06 JOUR PHRVA 173 1125                                           
+224    R 1969HA03 JOUR PYLBB 28B 415                                            
+224    R 1969LU12 JOUR ANCEA 81 930                                             
+224    R 1969PE17 JOUR NUIMA 75 66                                              
+224    R 1970BA20 JOUR YAFIA 11 925                                             
+224    R 1970BO13 JOUR PRVCA C2 1841                                            
+224    R 1970SPZW REPT COO-535-620,P102                                         
+224    R 1970TO08 JOUR NUPAB A155 235                                           
+224    R 1970VA13 JOUR PRVCB C1 2115                                            
+224    R 1971JO14 JOUR JINCA 33 1215                                            
+224    R 1973AFZY CONF Tbilisi,p126                                             
+224    R 1973HE13 JOUR ZEPYA 260 57                                             
+224    R 1973TA30 JOUR ADNDA 12 101                                             
+224    R 1974FR01 JOUR PRVCA C9 760                                             
+224    R 1975WE23 JOUR ZEPYA A275 127                                           
+224    R 1976MIZR CONF Dubna(Selected Topics in Nucl Structure)Vol1,P192        
+224    R 1977KU15 JOUR NUPAB A289 1                                             
+224    R 1977KU25 JOUR NUIMA 146 613                                            
+224    R 1978IBZZ REPT JUL-Spez-15,P19,Ibowski                                  
+224    R 1979BA20 JOUR YAFIA 29 903                                             
+224    R 1979VA20 JOUR IANFA 43 45                                              
+224    R 1980KUZL REPT IKMz-80-1,Kurcewicz                                      
+224    R 1980SH07 JOUR PRVCA C21 1660                                           
+224    R 1981KU02 JOUR NUPAB 356 15                                             
+224    R 1981LE15 JOUR PRVCA 24 1175                                            
+224    R 1982SA36 JOUR NUIMA 196 561                                            
+224    R 1984GE07 JOUR IJARA 35 581                                             
+224    R 1984NA22 JOUR NUPAB 429 269                                            
+224    R 1984SA37 JOUR ADNDA 31 399                                             
+224    R 1985CO24 JOUR PYLBB 163 66                                             
+224    R 1985DAZZ REPT Max-Planck Inst,Heidelberg,1984,Ann,P100,Dahlinger       
+224    R 1985PR01 JOUR PRLTA 54 297                                             
+224    R 1985SH01 JOUR PRLTA 54 300                                             
+224    R 1985SH07 JOUR NUPAB 438 450                                            
+224    R 1986AN10 JOUR NCIAA 91 283                                             
+224    R 1986CH23 JOUR PYLBB 175 254                                            
+224    R 1986DA03 JOUR NUPAB 449 256                                            
+224    R 1986DE32 JOUR PRVCA 34 2261                                            
+224    R 1986EK02 JOUR PHSTB 34 624                                             
+224    R 1986GO07 JOUR IANFA 50 2                                               
+224    R 1986IR01 JOUR NUPAB 454 252                                            
+224    R 1986LE05 JOUR NUPAB 453 58                                             
+224    R 1986LE06 JOUR CZYPA 36 253                                             
+224    R 1986LOZT REPT IAEA Tech Ser No 261,Lorenz                              
+224    R 1986PO06 JOUR ADNDA 34 423                                             
+224    R 1986PO15 JOUR ZPAAD 325 435                                            
+224    R 1986SC12 JOUR ZPAAD 323 489                                            
+224    R 1986SC18 JOUR PYLBB 174 241                                            
+224    R 1987CO19 JOUR NUPAB 468 1                                              
+224    R 1987EN05 JOUR NUPAB 472 61                                             
+224    R 1987MI10 JOUR PRVCA 36 420                                             
+224    R 1987NA10 JOUR NUPAB 467 437                                            
+224    R 1987PO06 JOUR YAFIA 45 383                                             
+224    R 1987RA01 JOUR ADNDA 36 1                                               
+224    R 1987TH07 JOUR PRLTA 59 2860                                            
+224    R 1988AH02 JOUR NUPAB 483 244                                            
+224    R 1988IV02 JOUR NUPAB 485 93                                             
+224    R 1988SH01 JOUR PRVCA 37 423                                             
+224    R 1988SO08 JOUR NUPAB 485 16                                             
+224    R 1989DE11 JOUR YAFIA 49 644                                             
+224    R 1989EG02 JOUR NUPAB 494 85                                             
+224    R 1989NE03 JOUR ZDACE 11 105                                             
+224    R 1989PO19 JOUR PYLBB 232 447                                            
+224    R 1989PR06 JOUR NUPAB 502 41c                                            
+224    R 1989RA17 JOUR ADNDA 42 189                                             
+224    R 1990BA20 JOUR NUPAB 512 253                                            
+224    R 1990BU09 JOUR JPGPE 16 L85                                             
+224    R 1990HO28 JOUR PACHA 62 941                                             
+224    R 1990MA20 JOUR ZPAAD 336 27                                             
+224    R 1990MO11 JOUR NCIAA 103 105                                            
+224    R 1990QI03 JOUR YTHLD 12,No 3,193                                        
+224    R 1990SH01 JOUR PRVCA 41 1184                                            
+224    R 1991AN10 JOUR ZPAAD 338 363                                            
+224    R 1991AN13 JOUR YAFIA 53 895                                             
+224    R 1991BAZS REPT IAEA-TECDOC-619,Bambynek                                 
+224    R 1991BU05 JOUR JPGPE 17 1223                                            
+224    R 1991HO15 JOUR PRVCA 44 1424                                            
+224    R 1991HO24 JOUR JPGPE 17 S469                                            
+224    R 1991RY01 JOUR ADNDA 47 205                                             
+224    R 1991SH14 JOUR PRVCA 44 R1732                                           
+224    R 1992AR02 JOUR ARISE 43 1                                               
+224    R 1992CH20 JOUR PYLBB 280 187                                            
+224    R 1992DE44 JOUR PRVCA 46 1346                                            
+224    R 1992DI03 JOUR PRVCA 46 627                                             
+224    R 1992RA14 JOUR NCIAA 105 663                                            
+224    R 1992SA30 JOUR IMPEE 1 379                                              
+224    R 1992SO10 JOUR ADNDA 51 273                                             
+224    R 1992TO02 JOUR PRVCA 45 856                                             
+224    R 1993AC02 JOUR NUPAB 559 61                                             
+224    R 1993AM07 JOUR YAFIA 56,No 9,70                                         
+224    R 1993CS01 JOUR PYLBB 299 205                                            
+224    R 1993GO18 JOUR PRVCA 48 2409                                            
+224    R 1993GR15 JOUR BRSPE 57 824                                             
+224    R 1993GU11 JOUR JPGPE 19 2063                                            
+224    R 1993JO12 JOUR JPGPE 19 L151                                            
+224    R 1993KA21 JOUR YAFIA 56,No 8,80                                         
+224    R 1993SH07 JOUR JPGPE 19 617                                             
+224    R 1994AH03 JOUR NUPAB 576 246                                            
+224    R 1994AN02 JOUR ZPAAD 347 225                                            
+224    R 1994BU07 JOUR JPGPE 20 351                                             
+224    R 1994DE38 JOUR JPGPE 20 1483                                            
+224    R 1994HEZZ PC R G Helmer                                                 
+224    R 1994HU13 JOUR ZPAAD 349 311                                            
+224    R 1994JO02 JOUR PRVCA 49 R2301                                           
+224    R 1994KR13 JOUR PRVCA 50 2288                                            
+224    R 1994KR14 JOUR NUPAB 577 421c                                           
+224    R 1994SK02 JOUR PRVCA 49 2011                                            
+224    R 1994SO16 JOUR ADNDA 58 167                                             
+224    R 1995AU04 JOUR NUPAB 595 409                                            
+224    R 1995DE13 JOUR NUPAB 589 17                                             
+224    R 1995JO11 JOUR NUPAB 587 377                                            
+224    R 1995RU10 JOUR NUPAB 590 680                                            
+224    R 1995SI05 JOUR PRVCA 51 2023                                            
+224    R 1995WE02 JOUR ADNDA 59 1                                               
+224    R 1996BU05 JOUR PRLTA 76 380                                             
+224    R 1996LI05 JOUR ZPAAD 354 153                                            
+224    R 1997MO25 JOUR ADNDA 66 131                                             
+                                                                                
+224BI    COMMENTS                                                         201105
+224BI  H TYP=FUL$AUT=BALRAJ SINGH AND MICHAEL BIRCH$CIT=ENSDF$CUT=15-MAY-2011$  
+224BI C  TITL$NUCLEAR DATA SHEETS FOR 224BI                                     
+224BI c  AUTH$BALRAJ SINGH AND MICHAEL BIRCH                                    
+224BI c  INST$Department of Physics and Astronomy,                              
+224BI#c       McMaster University, Hamilton, Ontario,                           
+224BI#c       Canada, L8S 4M1                                                   
+224BI c  ABST$ Information about the identification and production of the       
+224BI2c  {+224}Bi nuclide is presented.                                         
+224BI c  CUT$Literature available up to May 15, 2011 has been consulted.        
+224BI C  CIT$ENSDF                                                              
+224BI c  FUND$                                                                  
+                                                                                
+224BI    ADOPTED LEVELS                                                   201105
+224BI  H TYP=FUL$AUT=BALRAJ SINGH AND MICHAEL BIRCH$CIT=ENSDF$CUT=15-MAY-2011$  
+224BI  Q 6.9E3     SY3.4E3   SY                        2012WA38                 
+224BI CQ Note: Current evaluation has used the following Q record               
+224BI  Q  6740     SY 3490   SY  8770  CA  1650  CA    2011AUZZ,1997MO25        
+224BI CQ $ Estimated uncertainties in 2011AuZZ: 500 for Q-, 570 for SN          
+224BI CQ $ Q-, and SN from 2011AuZZ, SP and QA from 1997Mo25                    
+224BI CQ $ Q(B-N)=1550 450, ^S(2n)=8100 500 (syst,2011AuZZ),                    
+224BI2CQ ^S(2p)=19460 (1997Mo25,calculated)                                     
+224BI c  2010Al24: {+224}Bi nuclide identified in {+9}Be({+238}U,X) reaction    
+224BI2c  with a beam energy of 1 GeV/nucleon produced by the SIS synchrotron    
+224BI3c  at GSI facility. Target=2500 mg/cm{+2}. The fragment residues were     
+224BI4c  analyzed with the high resolving power magnetic spectrometer Fragment  
+224BI5c  separator (FRS). The identification of nuclei was made on the basis of 
+224BI6c  magnetic rigidity, velocity, time-of-flight, energy loss and atomic    
+224BI7c  number of the fragments using two plastic scintillators and two        
+224BI8c  multisampling ionization chambers. The FRS magnet was tuned to         
+224BI9c  center on {+210}Au, {+216}Pb, {+219}Pb, {+227}At and {+229}At          
+224BIAc  nuclei along the central trajectory of FRS.                            
+224BI c  Unambiguous identification of nuclides required the separation of      
+224BI2c  different charge states of the nuclei passing through the FRS. At      
+224BI3c  1 GeV/nucleon incident energy of {+238}U, fraction of fully stripped   
+224BI4c  {+226}Po nuclei was about 89%. Through the measurement of difference in
+224BI5c  magnetic rigidity in the two sections of the FRS and the difference    
+224BI6c  in energy loss in the two ionization chambers, the charge state of     
+224BI7c  the transmitted nuclei was determined, especially, that of the singly  
+224BI8c  charged (hydrogen-like) nuclei which preserved their charge in the     
+224BI9c  current experimental setup. Measured production cross sections with    
+224BIAc  10% statistical and 20% systematic uncertainties                       
+224BI c  Criterion established in 2010Al24 for acceptance of identification of  
+224BI2c  a new nuclide: 1. number of events should be compatible with the       
+224BI3c  corresponding mass and atomic number located in the expected range     
+224BI4c  of positions at both image planes of the FRS spectrometer; 2. number   
+224BI5c  of events should be compatible with >95% probability that at least     
+224BI6c  one of the counts does not correspond to a charge-state contaminant.   
+224BI7c  Comparisons of measured |s with model predictions using the            
+224BI8c  computer codes COFRA and EPAX.                                         
+224BI  L 0                               300 NS  GT                             
+224BI2 L %B-=? $ %B-N=?                                                         
+224BI cL $ Production |s=89.2 pb (from e-mail reply of Oct 29, 2010 from        
+224BI2cL H. Alvarez-Pol, which also stated that further analysis was in         
+224BI3cL progress)                                                              
+224BI cL $ From A/Z plot (figure 1 in 2010Al24), 4 or 5 events are assigned to  
+224BI2cL  {+224}Bi                                                              
+224BI cL E$ the observed fragments are assumed to be in the ground state of     
+224BI2cL {+224}Bi nuclei                                                        
+224BI cL $The |b{+-} and delayed neutron decay are the only decay modes expected
+224BI CL $ Calculated %B-N=10 (1997Mo25)                                        
+224BI cL T$ lower limit from time-of-flight as given in 2006Ca30 for a similar  
+224BI2cL setup. Actual half-life is expected to be much larger as suggested by  
+224BI3cL the calculated value of 4.1 s for |b decay and >10{+20} s for |a decay 
+224BI4cL (1997Mo25), and systematic value of 300 ms for |b decay (2011AuZY)     
+224BI cL J$ 1/2+ for proton and 5/2- neutron configuration predicted in         
+224BI2cL 1997Mo25 calculations; 1- from systematics (2011AuZY)                  
+224BI cL $ Production cross section measured in 2010Al24, values are given      
+224BI2cL in figure 2, plot of |s versus mass number for Bi isotopes.            
+224BI3cL Statistical uncertainty=10%, systematic uncertainty=20%                
+                                                                                
+224PO    COMMENTS                                                         201105
+224PO  H TYP=FUL$AUT=BALRAJ SINGH AND MICHAEL BIRCH$CIT=ENSDF$CUT=15-MAY-2011$  
+224PO C  TITL$NUCLEAR DATA SHEETS FOR 224PO                                     
+224PO c  AUTH$BALRAJ SINGH AND MICHAEL BIRCH                                    
+224PO c  INST$Department of Physics and Astronomy,                              
+224PO#c       McMaster University, Hamilton, Ontario,                           
+224PO#c       Canada, L8S 4M1                                                   
+224PO c  ABST$ Information about the identification and production of the       
+224PO2c  {+224}Po nuclide is presented.                                         
+224PO c  CUT$Literature available up to May 15, 2011 has been consulted.        
+224PO C  CIT$ENSDF                                                              
+224PO c  FUND$                                                                  
+                                                                                
+224PO    ADOPTED LEVELS                                                   201105
+224PO  H TYP=FUL$AUT=BALRAJ SINGH AND MICHAEL BIRCH$CIT=ENSDF$CUT=15-MAY-2011$  
+224PO  Q 2.20E3    SY5.2E3   SY9.5E3   SY3.8E3   SY    2012WA38                 
+224PO CQ Note: Current evaluation has used the following Q record               
+224PO  Q  2000     SY 5190   SY  9450  SY  3410  SY    2011AUZZ                 
+224PO CQ $ Estimated uncertainties in 2011AuZZ: 300 for Q-, 360 for SN          
+224PO2CQ 500 for SP and QA                                                      
+224PO CQ $ ^S(2n)=8920 310 (syst,2011AuZZ), ^S(2p)=18010 (1997Mo25,calculated)  
+224PO c  2010Al24: {+224}Po nuclide identified in {+9}Be({+238}U,X) reaction    
+224PO2c  with a beam energy of 1 GeV/nucleon produced by the SIS synchrotron    
+224PO3c  at GSI facility. Target=2500 mg/cm{+2}. The fragment residues were     
+224PO4c  analyzed with the high resolving power magnetic spectrometer Fragment  
+224PO5c  separator (FRS). The identification of nuclei was made on the basis of 
+224PO6c  magnetic rigidity, velocity, time-of-flight, energy loss and atomic    
+224PO7c  number of the fragments using two plastic scintillators and two        
+224PO8c  multisampling ionization chambers. The FRS magnet was tuned to         
+224PO9c  center on {+210}Au, {+216}Pb, {+219}Pb, {+227}At and {+229}At          
+224POAc  nuclei along the central trajectory of FRS.                            
+224PO c  Unambiguous identification of nuclides required the separation of      
+224PO2c  different charge states of the nuclei passing through the FRS. At      
+224PO3c  1 GeV/nucleon incident energy of {+238}U, fraction of fully stripped   
+224PO4c  {+226}Po nuclei was about 89%. Through the measurement of difference in
+224PO5c  magnetic rigidity in the two sections of the FRS and the difference    
+224PO6c  in energy loss in the two ionization chambers, the charge state of     
+224PO7c  the transmitted nuclei was determined, especially, that of the singly  
+224PO8c  charged (hydrogen-like) nuclei which preserved their charge in the     
+224PO9c  current experimental setup. Measured production cross sections with    
+224POAc  10% statistical and 20% systematic uncertainties                       
+224PO c  Criterion established in 2010Al24 for acceptance of identification of  
+224PO2c  a new nuclide: 1. number of events should be compatible with the       
+224PO3c  corresponding mass and atomic number located in the expected range     
+224PO4c  of positions at both image planes of the FRS spectrometer; 2. number   
+224PO5c  of events should be compatible with >95% probability that at least     
+224PO6c  one of the counts does not correspond to a charge-state contaminant.   
+224PO7c  Comparisons of measured |s with model predictions using the            
+224PO8c  computer codes COFRA and EPAX.                                         
+224PO  L 0           0+                  300 NS  GT                             
+224PO2 L %B-=?                                                                  
+224PO cL $ Production |s=5.97 nb (from e-mail reply of Oct 29, 2010 from        
+224PO2cL H. Alvarez-Pol, which also stated that further analysis was in         
+224PO3cL progress)                                                              
+224PO cL $ From A/Z plot (figure 1 in 2010Al24), |? 100 events are assigned to  
+224PO2cL  {+224}Po                                                              
+224PO cL $The |b{+-} decay is the only decay mode expected                      
+224PO cL T$ lower limit from time-of-flight as given in 2006Ca30 for a similar  
+224PO2cL setup. Actual half-life is expected to be much larger as suggested by  
+224PO3cL the calculated value of 12 s for |b decay and |? 10{+20} s for |a decay
+224PO4cL (1997Mo25), and systematic value of 1 min for |b decay (2011AuZY)      
+224PO cL $ Production cross section measured in 2010Al24, values are given      
+224PO2cL in figure 2, plot of |s versus mass number for Po isotopes.            
+224PO3cL Statistical uncertainty=10%, systematic uncertainty=20%                
+                                                                                
+224AT    ADOPTED LEVELS                                                   201201
+224AT  H TYP=FUL$AUT=Sukhjeet Singh,A.K. Jain and J.K.Tuli   $CIT=ENSDF$        
+224AT2 H CUT=05-JAN-2012$                                                       
+224AT  Q 5266      253.79E3  3 6.66E3  SY4.5E3   SY    2012WA38                 
+224AT CQ Note: Current evaluation has used the following Q record               
+224AT  Q 5270      60 3740   SY 6410   SY 4620    SY   2011AuZZ                 
+224AT cQ $Estimated |DS(n)=410,|DS(p)=200,|DQ(|a)=200 (2011AuZZ)                
+224AT c  2010CH19:{+224}At nuclide was discovered in the {+9}BE({+238}U,X)      
+224AT2c  reaction;beam energy 670 MeV/nucleon with target= 4g/cm{+2} using      
+224AT3c  Fragment Recoil Separator facility at GSI. The fragments were          
+224AT4c  then injected into the cooler electron storage ring ESR. Measured mass 
+224AT5c  and half-life by time-resolved Schottky Mass spectrometry technique.   
+224AT c  2010Al24 measured |s.Figure 2 of this reference plots |s versus A.     
+224AT2c  Statistical uncertainty < 10% and systematic uncertainty=20%           
+224AT4c  Comparisons of measured |s with model predictions using the computer   
+224AT5c  codes COFRA (1999BE63) and EPAX (2000SU04); COFRA provides an overall  
+224AT6c  good desription of the measured |s.                                    
+224AT  L 0                             150 S     90                             
+224AT cL T$symmetrized from measured value=76 s {I+138-23} (2010Ch19)           
+224AT cL $Measured mass excess=27706 keV {I59} (2010Ch19)                       
+224AT cL J$1/2+ for proton and 5/2+ for neutron configuration predicted in      
+224AT2cL 1997Mo25 calculations;                                                 
+                                                                                
+224RN    ADOPTED LEVELS                                          97NDS    199703
+224RN  H TYP=FUL$AUT=AGDA ARTNA-COHEN$CIT=NDS 80, 227 (1997)$CUT=1-Oct-1996$    
+224RN  Q 650       176016    138272    174757    21    2012WA38                 
+224RN CQ Note: Current evaluation has used the following Q record               
+224RN  Q  8E2      SY 5930   SY 8450   SY              1995AU04                 
+224RN CQ Q-        Estimated DQ-=300 (1995Au04)                                 
+224RN CQ SN        Estimated DSN=400 (1995Au04)                                 
+224RN CQ SP        Estimated DSP=500 (1995Au04)                                 
+224RN C                                                                         
+224RN C  Assignment: 232TH(230-MEV p), chem (1961Be28,1964Bu02)                 
+224RN2C  232TH(660-MEV p), chem (1973AfZY,1979Va20)                             
+224RN3C  parent of 224RA (1961Be28,1964Bu02)                                    
+224RN C                                                                         
+224RN C  Calculations, systematics:                                             
+224RN C  Binding energies, deformation role and characteristics: 1986Ch23       
+224RN C  Equilibrium deformation, energy: 1988So08, 1984Na22                    
+224RN C  Quasi-bands in even-even nuclei: 1984Sa37                              
+224RN C  Super- and hyperdeformed configurations: 1995We02                      
+224RN C                                                                         
+224RN  L 0             0+              107 M      3                             
+224RN2 L %B-=100                                                                
+224RN CL T         from 1973AfZY. Other: 114 M 6 (1964Bu02)                     
+                                                                                
+224FR    ADOPTED LEVELS                                          97NDS    199703
+224FR  H TYP=ERR$AUT=B. Singh$DAT=23-Aug-2010$COM=corrected gs JPI argument$    
+224FR  H TYP=FUL$AUT=AGDA ARTNA-COHEN$CIT=NDS 80, 227 (1997)$CUT=1-Oct-1996$    
+224FR  Q 2968      144660    145884    164994    20    2012WA38                 
+224FR CQ Note: Current evaluation has used the following Q record               
+224FR  Q 2830      50 4810   50 5940   SY 4.97E3 SY    1995AU04                 
+224FR CQ SP        Estimated DSP=300 (1995Au04)                                 
+224FR CQ QA        Estimated DQA=120 (1995Au04)                                 
+224FR C                                                                         
+224FR C  Calculations, compilations, systematics:                               
+224FR C  Deduced GS JPI with octupole deformation: 1988Sh01                     
+224FR C  Level structure in odd-odd actinides: 1994So16                         
+224FR C  p-n interaction energy: 1990Mo11                                       
+224FR C  Properties of prolate superdeformed states: 1992Ch20                   
+224FR C  Spontaneous emission of heavy ions: 1986Po06                           
+224FR C                                                                         
+224FR C  A 4270-KEV a group has been assigned to the decay of 228AC             
+224FR2C  with branching=5.5E-8 22 per 228AC decay (1969Lu12). This group would  
+224FR3C  feed a level at 480 KEV in 224FR. However, such a group would have an  
+224FR4C  unreasonably low ALPHA hindrance factor, HF=4E-4. It, therefore,       
+224FR5C  seems questionable whether the assignment of this ALPHA group to the   
+224FR6C  decay of 228AC is correct (evaluator).                                 
+224FR C  Although G's have been observed in the decay of 224RN,                 
+224FR2C  no level scheme has been proposed.                                     
+224FR  XA224RN B- DECAY                                                         
+224FR  L 0.0           1-              3.33 M     10                            
+224FR2 L %B-=100$ MOMM1=0.40 1$ MOME2=0.517 4                                   
+224FRX L XREF=A                                                                 
+224FR CL J         J=1 from atomic beam laser spect (1985Co24); PI deduced      
+224FR2CL from main CONF=((P,3/2(532))(N,1/2(640))) (1986Ek02) based on nuclear  
+224FR3CL moments                                                                
+224FR CL T         from 1981Ku02. Other: 2.67 M 20 (1969Ha03)                   
+224FR CL           MOMM1, MOME2: based on the ratio of hyperfine constants      
+224FR2CL and the magnetic hyperfine constant for 212FR (1989Ra17,1985Co24).     
+224FR CL           Isotopes shift: DAVRSQ=1.28937 4 relative to 212FR (1987Co19)
+224FR2CL (correction of earlier value quoted in 1985Co24)                       
+                                                                                
+224FR    224RN B- DECAY                1979VA20                  97NDS    199703
+224FR  H TYP=FUL$AUT=AGDA ARTNA-COHEN$CIT=NDS 80, 227 (1997)$CUT=1-Oct-1996$    
+224RN  P  0.0          0+                 107 M  3              8E2       SY    
+224FR  N                       1.0                                              
+224FR CL           No decay scheme is available.                                
+224FR CG E,RI      From 1979Va20. Other: 1973AfZY                               
+224FR CG M         From 1979Va20 based on relative IG and ICE data from a       
+224FR2CG 224RN-224FR equilibrium source and normalized to                       
+224FR3CG KC(216G in 224RA)=0.061 (E1 theory)                                    
+224FR  G 63.55     10 1.4     3  M1                    11.2                     
+224FR  G 108.44     8 1.5     2  M1                    12.0                     
+224FR  G 113.35     7 2.35   25  M1                    10.6                     
+224FR  G 156.17     3 1.45   10  M1                    4.24                     
+224FR  G 202.21     5 4.7     5  M1                    2.05                     
+224FR  G 209.78    10 2.1     3  M1                    1.85                     
+224FR  G 256.84     4 2.9     3  M1                    1.05                     
+224FR  G 260.581   17 21.5   10  M1                    1.01                     
+224FR  G 265.806   17 20.1   10  M1                    0.96                     
+224FR  G 328.331   21 3.7     3  M1                    0.54                     
+224FR  L  0.0         1(-)                                                      
+                                                                                
+224RA    ADOPTED LEVELS, GAMMAS                                  97NDS    199709
+224RA  H TYP=FUL$AUT=AGDA ARTNA-COHEN$CIT=NDS 80, 227 (1997)$CUT=1-Oct-1996$    
+224RA  Q -1408     5 6478.8  236845.6  225788.85 15    2012WA38                 
+224RA CQ Note: Current evaluation has used the following Q record               
+224RA  Q -1403      4 6483.3 25 6850.0 24 5788.8715    1995AU04                 
+224RA PN                                                                     6  
+224RA C                                                                         
+224RA C  Historic NOTE: this isotope was originally called                      
+224RA2C  ^Thorium ^X with symbol ^ThX                                           
+224RA C                                                                         
+224RA C  Calculations, compilations, systematics:                               
+224RA C  ALPHA-decay widths: 1992De44                                           
+224RA C  B(E1), and B(E1)/B(E2) ratios: 1989De11, 1986Le06, 1981Le15            
+224RA C  Binding energy, deformation role: 1986Ch23                             
+224RA C  Cluster decay WIDTH: 1986Ir01                                          
+224RA C  Cluster model for ALPHA decay, ^Geiger-^Nuttall plot: 1991Bu05         
+224RA C  Dipole moments, deformation: 1994Sk02                                  
+224RA C  Equilibrium deformation, energy: 1995Ru10, 1989Eg02, 1988So08, 1984Na22
+224RA C  Levels, band structure: 1993Am07, 1992So10, 1990Qi03, 1984Sa37,1980Sh07
+224RA C  Levels, B(LAMBDA) ratios: 1995De13, 1993Cs01, 1992Ra14, 1987En05,      
+224RA2C  1986An10, 1986Da03, 1986Go07                                           
+224RA C  Octupole shapes and shape changes: 1987Na10                            
+224RA C  p-n interaction energy: 1990Mo11                                       
+224RA C  Properties of prolate superdeformed states: 1992Ch20                   
+224RA C  Transition probabilities in even-even nuclei: 1987Ra01                 
+224RA C  Yrast band parity splitting: 1995Jo11                                  
+224RA C  14C decay rates, models: 1996Bu05, 1995Si05, 1994Bu07, 1994De38,       
+224RA2C  1994Hu13, 1993Go18, 1993Gr15, 1993Gu11, 1993Ka21, 1992Sa30, 1990Ba20,  
+224RA3C  1990Sh01, 1989Pr06, 1986De32, 1986Po15, 1985Sh01, 1985Sh07 ^et ^al.    
+224RA C  12C decay rates, models: 1990Bu09, 1988Iv02                            
+224RA C  Spontaneous emission of heavy ions: 1986Po06                           
+224RA C  Super- and hyperdeformed configurations: 1995We02                      
+224RA C                                                                         
+224RA  XA224FR B- DECAY                                                         
+224RA  XB224AC EC DECAY                                                         
+224RA  XC228TH A DECAY                                                          
+224RA  XD226RA(P,T)                                                             
+224RA  XE226RA(A,A'2NG)                                                         
+224RA  XF226RA(58NI,60NIG)                                                      
+224RA CL E         From a least-squares fit to the EG, unless otherwise noted   
+224RA CL T         From 228TH A DECAY, unless otherwise noted                   
+224RA CL BAND(A)   KPI=0+ GS BAND                                               
+224RA CL BAND(B)   KPI=0- BAND                                                  
+224RA CL J(J)      LOGFT<7.8, LOGF1UT<7.8 from 1- 224FR rules out J=3 for       
+224RA2CL this level.                                                            
+224RA CG E         From 224FR B- decay, unless otherwise noted                  
+224RA CG RI        Relative photon branching from each level as reported in     
+224RA2CG 224FR B- decay, unless otherwise noted                                 
+224RA CG M,MR      From 224FR B- decay, unless otherwise noted                  
+224RA CG E(H),RI(D),M(F)$From 228TH A DECAY                                     
+224RA CG E(E),RI(I)$From (58NI,60NIG)                                           
+224RA  L 0             0+              3.66 D     4                         A   
+224RA2 L %A=100$%14C=4.0E-9 10$                                                 
+224RAX L XREF=ABCDEF                                                            
+224RA CL T         from 1962Li02. Others: 3.66 D 4 (1971Jo14), 3.64 D (1938Le07)
+224RA CL           %14C=4.0E-9 10 (1992Ar02), 6.5E-9 10 (1991Ho15,1991Ho24),    
+224RA2CL 4.3E-9 12 (1985Pr01); fine structure looked for, but not observed      
+224RA3CL (1991Ho15)                                                             
+224RA CL           Isotope shift: DAVRSQ=+1.09 11, relative to 214RA (1988Ah02);
+224RA2CL other: 1989Ne03                                                        
+224RA  L 84.373     3  2+              0.746 NS  14                         A   
+224RA2 L MOMM1=+0.92 22 (1989RA17,1973HE13)                                     
+224RAX L XREF=ABCDEF                                                            
+224RA CL J         E2 G to 0+                                                   
+224RA CL           MOMM1: from G-FACTOR=+0.46 11 in 228TH A DECAY               
+224RA  G 84.373     3 100        E2                    21.6                 F   
+224RA3 G BE2W=97 4                                                              
+224RA CG BE2W      Uncertainty includes a contribution of 3% assigned to CC     
+224RA  L 215.985    4  1-                                                   B   
+224RAX L XREF=ABCDEF                                                            
+224RA CL J         E1 G to 0+                                                   
+224RA  G 131.613    4 51.5   7   E1                    0.251                D   
+224RA3 G FLAG=F                                                                 
+224RA  G 215.983    5 100.0  12  E1                    0.0758               D   
+224RA3 G FLAG=F                                                                 
+224RA  L 250.783    5  4+              0.181 NS  9                          A   
+224RAX L XREF=ABCEF                                                             
+224RA CL J         AG(THETA) from 0+ parent (228TH A DECAY, 1989Po19)           
+224RA  G 166.410    4 100       (E2)                   1.19                 F   
+224RAB G BE2W=138 8                                                             
+224RA  L 290.36    4  (3)-                                                  B   
+224RAX L XREF=ABCEF                                                             
+224RA CL J         E1 G to 2+; no G to 0+; HF=47 for ALPHA branch from 0+;      
+224RA2CL no B- decay from 1- 224FR; member of K=0 octupole band                 
+224RA  G 74.4       5  2.0   8                                              D   
+224RA  G 205.93     5 100    3   E1                    0.0849                   
+224RA  L 433.07    10 (5)-                                                  B   
+224RAX L XREF=ACEF                                                              
+224RA CL J         E1 G to 4+; no G to levels with J<3; member                  
+224RA2CL of K=0 octupole band                                                   
+224RA  G 142.0      5  26    10                                             D   
+224RA3 G FLAG=H                                                                 
+224RA  G 182.30    10 100    35                                             D   
+224RA  L 479.20    18 (6+)                                                  A   
+224RAX L XREF=CDEF                                                              
+224RA CL J         G to 4+; member of GS band                                   
+224RA  G 228.5      2 100                                                   H   
+224RA  L   640.86  20 (7-)                                                  B   
+224RAX L XREF=EF                                                                
+224RA CL J         (E2) G to (5)- level; member of K=0 octupole band            
+224RA  G   161.7        40   LT                                             I  S
+224RA  G   207.7   2   100                                                  E   
+224RA3 G FLAG=I                                                                 
+224RA  L   754.82  22 (8+)                                                  A   
+224RAX L XREF=EF                                                                
+224RA CL J         G to (6+) level; member of GS band                           
+224RA  G   114.0        10   LT                                             I  S
+224RA  G   275.7   2   100                                                  E   
+224RA3 G FLAG=I                                                                 
+224RA  L   906.24  23 (9-)                                                  B   
+224RAX L XREF=EF                                                                
+224RA CL J         G to (7-) level; member of K=0 octupole band                 
+224RA  G   151.4      15     LT                                                S
+224RA CG RI        from (A,A'2NG)                                               
+224RA  G   265.3   2  100                                                   E   
+224RA  L 916.34    7   0+                                                       
+224RAX L XREF=ACD                                                               
+224RA CL J         L(P,T)=0                                                     
+224RA  G 700.5      5 21     AP                                             H   
+224RA3 G FLAG=D                                                                 
+224RA  G 832.00    10 100    17                                             D   
+224RA  L 965.51    6  (2+)                                                      
+224RAX L XREF=A                                                                 
+224RA CL J         G's to 0+ and 2+ levels; possible bandhead of K=2            
+224RA2CL GAMMA-vibrational band                                                 
+224RA  G 881.14    10 100     6                                                 
+224RA  G 965.40    10 60      6                                                 
+224RA  L 992.65    6  (2+)                                                      
+224RAX L XREF=AC                                                                
+224RA CL J         G's to 2+ and 4+ levels; possible G to 0+; HF AP 6.8 for     
+224RA2CL ALPHA branch from 0+                                                   
+224RA  G 741.8      2 88     19                                                 
+224RA  G 908.10    10 100     8                                                 
+224RA  G 992.9     10 88     AP                                                ?
+224RA CG E         reported by 1977Ku15 in 228TH A DECAY with IG/IG(742) AP 1.  
+224RA2CG Not adopted by same authors (1981Ku02) in 224FR B- decay although      
+224RA3CG a 992.1 peak is labelled in their spectrum                             
+224RA  L 1052.95   3   1-                                                       
+224RAX L XREF=A                                                                 
+224RA CL J         M1+E2 G to 1- level; G to 0+                                 
+224RA  G 762.53     6 22.8   12 (E2)                   0.0155                   
+224RA  G 836.90     7 100     5 M1+E2    1.6     +18-4 0.022   6                
+224RA  G 968.50    10 3.4     4                                                 
+224RA  G 1052.96   10 2.2     4                                                 
+224RA  L  1067.4      (10+)                                                 A   
+224RAX L XREF=EF                                                                
+224RA CL J         G to (8+) level; member of GS band                           
+224RA  G   312.6   2                                                        E   
+224RA CG E         313.6 2 in (A,A'2NG)                                         
+224RA  L 1089.98   6  (2,3)-                                                    
+224RAX L XREF=A                                                                 
+224RA CL J         M1(+E2) G to (3)- level; G's to 1-, 2+                       
+224RA  G 799.60     7 100     5 M1(+E2)                0.034  20                
+224RA  G 874.0     10 39.4   24                                                 
+224RA  G 1005.5     5 5.2     7                                                 
+224RA  L 1187.1    4   0+,1,2                                                   
+224RAX L XREF=A                                                                 
+224RA CL J         G's to 1- and 2+ levels; LOGFT=8.2 from 1- 224FR             
+224RA  G 970.9      5 86      9                                                 
+224RA  G 1103.0     5 100    27                                                 
+224RA  L 1216.9    2  (1-,2)                                                    
+224RAX L XREF=A                                                                 
+224RA CL J         G's to 1- and (3)- levels; LOGFT=8.1 from 1- 224FR           
+224RA  G 926.5      2 100    24                                                 
+224RA  G 1001.1     5 71      9                                                 
+224RA  L  1220.7   3  (11-)                                                 B   
+224RAX L XREF=EF                                                                
+224RA CL J         G to (9-) level; member of K=0 octupole band                 
+224RA  G   314.5   2                                                        E   
+224RA  L 1223       4  0+                                                       
+224RAX L XREF=D                                                                 
+224RA CL J         L(P,T)=0                                                     
+224RA  L  1348.22  9   2+,3+                                                    
+224RAX L XREF=A                                                                 
+224RA CL J         G's to 2+ and 4+ level; LOGFT=7.76 11, LOGF1UT=8.5           
+224RA2CL from 1- 224FR                                                          
+224RA  G 1097.6     2 100    28                                                 
+224RA  G 1263.80   10 81     11                                                 
+224RA  L 1378.35   5   1-                                                       
+224RAX L XREF=A                                                                 
+224RA CL J         M1 G to 1- level; G's to 0+ and 2+ levels                    
+224RA  G 325.32     5 31.6   16  M1                    0.600                    
+224RA  G 461.98     8 10.2    6                                                 
+224RA  G 1294.20   10 26      3                                                 
+224RA  G 1378.45   10 100    10                                                 
+224RA  L 1378.93   7  (1+,2+)                                                   
+224RAX L XREF=A                                                                 
+224RA CL J         M1 G to (2+) level; G to 1- level; LOGFT=6.87 from 1-        
+224RA2CL 224FR                                                                  
+224RA  G 386.4     10 26.7   22                                                 
+224RA  G 413.40     5 86      5  M1                    0.312                    
+224RA  G 1163.04   10 100     9                                                 
+224RA  L 1389.71   9   0+,1,2                                                   
+224RAX L XREF=A                                                                 
+224RA CL J         G's to 1- and 2+ levels; LOGFT=7.59 from 1- 224FR            
+224RA  G  1173.66  10 100    14                                                 
+224RA  G  1305.6   2   44    6                                                  
+224RA  L  1413.7   4  (12+)                                                 A   
+224RAX L XREF=EF                                                                
+224RA CL J         possible member of GS band                                   
+224RA  G   345.3   2                                                        E   
+224RA  L 1425.03   5  (0,1,2)-                                                  
+224RAX L XREF=A                                                                 
+224RA CL J         M1 G's to 1- and (2,3)- levels                               
+224RA  G 335.04     5 20.9    9  M1                    0.553                    
+224RA  G 372.06     5 13.1    7  M1                    0.415                    
+224RA  G 1209.2     2 1.36   14                                                 
+224RA  G 1340.70   10 100    10                                                 
+224RA  L 1435.47   4   1-                                                       
+224RAX L XREF=A                                                                 
+224RA CL J         M1 G to 1- level; G to 0+ level                              
+224RA  G 382.50     5 45.1   22  M1                    0.385                    
+224RA  G 442.78     8 24      3                                                 
+224RA  G 519.5      2 7.9     7                                                 
+224RA  G 1219.42   10 21.7   24                                                 
+224RA  G 1350.9     2 27      4                                                 
+224RA  G 1435.60   10 100    10                                                 
+224RA  L 1437.08   6   2+                                                       
+224RAX L XREF=A                                                                 
+224RA CL J         G's to 0+ and 4+ levels                                      
+224RA  G 1186.27   10 35      4                                                 
+224RA  G 1352.60   10 86     12                                                 
+224RA  G 1437.20   10 100    10                                                 
+224RA  L 1553.67   14  1,2+                                                     
+224RAX L XREF=A                                                                 
+224RA CL J         G to 0+ GS                                                   
+224RA  G 1338.0     5 100    AP                                                 
+224RA  G 1469.4     2 100    12                                                 
+224RA  G 1553.5     2 48      6                                                 
+224RA  L  1569.2   4  (13-)                                                 B  ?
+224RAX L XREF=F                                                                 
+224RA CL J         possible member of K=0 octupole band                         
+224RA  G   348.5    2                                                       E  ?
+224RA  L 1614.41   17 (1-,2)                                                    
+224RAX L XREF=A                                                                 
+224RA CL J         G's to (3)- and 1- levels; LOGFT=7.80 from 1- 224FR          
+224RA  G 1323.9     3 42      6                                                 
+224RA  G 1398.5     2 100    13                                                 
+224RA  L 1627       3                                                           
+224RAX L XREF=D                                                                 
+224RA  L 1652.42   6   2+                                                       
+224RAX L XREF=A                                                                 
+224RA CL J         G's to 0+ and 4+ levels                                      
+224RA  G 659.64    10 10.4   19                                                 
+224RA  G 1401.6     2 6.4     9                                                 
+224RA  G 1568.15   10 51      6                                                 
+224RA  G 1652.45   10 100    12                                                 
+224RA  L 1658.52   9   1(-),2+                                                  
+224RAX L XREF=A                                                                 
+224RA CL J         G's to 0+ and (3)- levels                                    
+224RA  G 1368.1     2 57     13                                                 
+224RA  G 1442.3     2 33      4                                                 
+224RA  G 1658.58   10 100    17                                                 
+224RA  L 1736.3    2   1,2+                                                     
+224RAX L XREF=A                                                                 
+224RA CL J         G to 0+ GS                                                   
+224RA  G 1520.6     2 21      3                                                 
+224RA  G 1735.9     2 100    16                                                 
+224RA  L 1754.84   9   0+,1,2                                               J   
+224RAX L XREF=A                                                                 
+224RA CL J         G's to 1- and 2+ levels                                      
+224RA  G 702.0      2 45     15                                                 
+224RA  G 1538.4     2 20      3                                                 
+224RA  G 1670.54   10 100    15                                                 
+224RA  L 1761       4                                                           
+224RAX L XREF=D                                                                 
+224RA CL E         possibly the same as the 1755 level                          
+224RA  L 1789.61   7   1,2+                                                     
+224RAX L XREF=A                                                                 
+224RA CL J         G's to 0+ and 2+ levels                                      
+224RA  G 1573.80   10 100    12                                                 
+224RA  G 1705.09   10 49      8                                                 
+224RA  G 1789.4     2 73     12                                                 
+224RA  L 1796.75   9  (1-,2)                                                J   
+224RAX L XREF=A                                                                 
+224RA CL J         G's to 1- and (3)- levels                                    
+224RA  G 1506.4     2 41      6                                                 
+224RA  G 1580.8     2 37      6                                                 
+224RA  G 1712.36   10 100    16                                                 
+224RA  L 1818.07   19 (1-,2)                                                J   
+224RAX L XREF=A                                                                 
+224RA CL J         G's to 1- and (3)- levels                                    
+224RA  G 1527.7     2 89     17                                                 
+224RA  G 1602.1     5 100    17                                                 
+224RA  L 1838.49   10  0,1,2                                                J   
+224RAX L XREF=A                                                                 
+224RA CL J         G to 1- level                                                
+224RA  G 1622.50   10 100                                                       
+224RA  L 1896.3    3  (1-,2)                                                J   
+224RAX L XREF=A                                                                 
+224RA CL J         G's to 1- and (3)- levels                                    
+224RA  G 1607.1     5 100    17                                                 
+224RA  G 1679.5     5 61     17                                                 
+224RA  G 1811.6     5 72     17                                                 
+224RA  L 1949      4                                                            
+224RAX L XREF=D                                                                 
+224RA  L 1969.92   10  0,1,2                                                J   
+224RAX L XREF=A                                                                 
+224RA CL           G to 1- level                                                
+224RA  G 1753.93   10 100                                                       
+224RA  L 2000.20   17  (1-,2)                                               J   
+224RAX L XREF=A                                                                 
+224RA CL J         G to 1- and (3)- levels                                      
+224RA  G 947.2      2 100    12                                                 
+224RA  G 1784.3     3 70     12                                                 
+224RA  L 2043.2    5   0,1,2                                                J   
+224RAX L XREF=A                                                                 
+224RA CL J         G to 1- level                                                
+224RA  G 1827.2     5 100                                                       
+224RA  L 2052.3    4   2+                                                   J   
+224RAX L XREF=A                                                                 
+224RA CL J         G's to 4+ and 1- levels                                      
+224RA  G 1801.3     5 100    19                                                 
+224RA  G 1836.5     5  63    19                                                 
+224RA  L 2077.3    4   0+,1,2                                               J   
+224RAX L XREF=A                                                                 
+224RA CL J         G's to 1- and 2+ levels                                      
+224RA  G 1862.0     5 48      9                                                 
+224RA  G 1992.2     5 100    18                                                 
+224RA  L 2117.4    4   1,2+                                                     
+224RAX L XREF=A                                                                 
+224RA CL J         G to 0+ GS                                                   
+224RA  G 2033.2     5 65     12                                                 
+224RA  G 2117.3     5 100    15                                                 
+224RA  L 2135.3    5   0,1,2                                                J   
+224RAX L XREF=A                                                                 
+224RA CL J         G to 1- level                                                
+224RA  G 1919.3     5 100                                                       
+224RA  L 2229.4    4  (1-,2)                                                J   
+224RAX L XREF=A                                                                 
+224RA CL J         G's to 1- and (3)- level                                     
+224RA  G 1938.3    10 73     18                                                 
+224RA  G 2013.4     5 91     18                                                 
+224RA  G 2145.2     5 100    18                                                 
+224RA  L 2246.5    3   1,2+                                                     
+224RAX L XREF=A                                                                 
+224RA CL J         G to 0+ GS                                                   
+224RA  G 2030.5     5 100    16                                                 
+224RA  G 2162.0     5 93     15                                                 
+224RA  G 2246.6    5  14      3                                                 
+224RA  L 2368.7    4   1,2+                                                     
+224RAX L XREF=A                                                                 
+224RA CL J         G to 0+ GS                                                   
+224RA  G 2152.5     5 100    16                                                 
+224RA  G 2368.8     5 53     11                                                 
+                                                                                
+224RA    224FR B- DECAY                1981KU02,1980KUZL,1979VA2097NDS    199703
+224RA  H TYP=FUL$AUT=AGDA ARTNA-COHEN$CIT=NDS 80, 227 (1997)$CUT=1-Oct-1996$    
+224FR  P 0             1-              3.33 M    10             2830      50    
+224RA  N 0.163     18          1.0        1.0                                   
+224RA PN                                                                     3  
+224RA CN NR        1979Va20 determine IG(216G)=33% 4 from                       
+224RA2CN IG(216G)/IG(240G in 220RN)                                             
+224RA3CN and IG(240G)=3.97% 4 (1979Va20 used 3.95% 13)                          
+224RA C  The decay scheme is that of 1981Ku02, 1980KuZL. It is consistent       
+224RA2C  with, but more extensive than that of 1979Va20. Other: 1973AfZY        
+224RA CL E         From a least-squares fit to the EG                           
+224RA CL J         From adopted levels                                          
+224RA CL BAND(A)   KPI=O+ GS BAND                                               
+224RA CL BAND(B)   KPI=0- BAND                                                  
+224RA CB           Q-=2830 50 (1995Au04)                                        
+224RA CB E(A)      1975We23 determine EB=2580 80 in singles and 1780 50 in BG.  
+224RA2CB From the decay scheme, these B- groups probably feed the 216 and       
+224RA3CB 1053 levels yielding Q- values of 2800 80 and 2830 50, respectively.   
+224RA4CB Adopted Q-=2830 50 (1995Au04)                                          
+224RA CG E,RI      From 1980KuZL. Others: 1979Va20, 1973AfZY, 1975We23          
+224RA CG E(A)      From 1977Ku25 (228TH A DECAY) and adopted by 1981Ku02.       
+224RA CG E(B),RI(B)$From GG spectra                                             
+224RA CG M         From EKC=ICE(1979Va20)/IG(adopted) normalized                
+224RA2CG to KC(216G)=0.061 (E1 theory)                                          
+224RA CG M(D)      From adopted gammas                                          
+224RA  G 110.34     5 0.84    6                                                 
+224RA  G 396.65    10 0.48    6                                                 
+224RA  G 478.30    10 0.48    7                                                 
+224RA  G 943.8      2 1.10   13                                                 
+224RA  G 1127.7     2 0.86   10                                                 
+224RA  G 1133.8     2 0.86   10                                                 
+224RA  G 1239.1     2 0.30    6                                                 
+224RA  G 1274.50   10 1.22   16                                                 
+224RA  G 1779.1     5 0.12    3                                                 
+224RA  G 1798.4     5 0.18    3                                                 
+224RA  G 1816.2     5 0.11    2                                                 
+224RA  G 1847.1     5 0.40    7                                                 
+224RA  G 1944.8     5 0.12    2                                                 
+224RA  G 1950.1     5 0.12    2                                                 
+224RA  G 1973.9     5 0.10    2                                                 
+224RA  G 2123.2     5 0.17    3                                                 
+224RA  G 2169.7     5 0.29    5                                                 
+224RA  G 2214.8     5 0.22    4                                                 
+224RA  G 2372.6     5 0.20    2                                                 
+224RA  G 2388.0     5 0.11    3                                                 
+224RA  L 0             0+                                                   A   
+224RA  B             16      11             7.0   3                             
+224RAS B EAV=1066 21                                                            
+224RA CB IB        deduced from level scheme                                    
+224RA  L 84.373     3  2+                                                   A   
+224RA  B             7       5              7.3   4                             
+224RAS B EAV=1031 21                                                            
+224RA  G 84.373     3 11.0   11  E2                    21.6                 A   
+224RA3 G FLAG=D                                                                 
+224RAS G LC=15.8$  MC=4.29$  NC+=1.55                                           
+224RA  L 215.985    4  1-                                                   B   
+224RA  B             42      5             6.46   7                         A   
+224RAS B EAV=975 21                                                             
+224RA  G 131.613    4 100     5  E1                    0.251                A   
+224RA3 G FLAG=D                                                                 
+224RAS G KC=0.196$  LC=0.0411$  MC=0.0984$  NC+=0.00340                         
+224RA  G 215.983    5 203    10  E1                    0.0758               A   
+224RA3 G FLAG=D                                                                 
+224RAS G KC=0.0605$  LC=0.0116$  MC=0.00276$  NC+=0.00096                       
+224RA  L 250.783    5  4+                                                   A   
+224RA  G 166.410    4 2.33   11 (E2)                   1.19                 A   
+224RA3 G FLAG=D                                                                 
+224RAS G KC=0.229$  LC=0.701$  MC=0.190$  NC+=0.0685                            
+224RA  L 290.36    4 (3)-                                                   B   
+224RA  G 74.4       5 0.16    3 [E2]                   39.3                 B   
+224RAS G LC=28.7$  MC=7.79$  NC+=2.80                                           
+224RAS G KC=0.0677$  LC=0.0130$  MC=0.00311$  NC+=0.00107                       
+224RA  G  205.93   5   14.0  10  E1                    0.0849                   
+224RAS G KC=0.0677$  LC=0.0130$  MC=0.00311$  NC+=0.00107                       
+224RA  L 433.07    10 (5)-                                                  B   
+224RA  G 142.0     10 0.48   6  [E2]                   2.23                     
+224RAS G KC=0.284$  LC=1.42$  MC=0.385$  NC+=0.140                              
+224RA CG RI        from IG/IG(182G)=0.256 13 in 228TH A DECAY. 1980KuZL         
+224RA2CG report IG<0.8 and do not place this transition                         
+224RA  G 182.30    10 1.86   22 [E1]                   0.114                    
+224RAS G KC=0.0903$  LC=0.0178$  MC=0.00424$  NC+=0.00147                       
+224RA  L 916.34    7   0+                                                       
+224RA  B              0.03   LT             9.1  GT                             
+224RAS B EAV=685 21                                                             
+224RA  G 832.00    10 2.20   30 [E2]                   0.0130                   
+224RAS G KC=0.0098$  LC=0.00244                                                 
+224RA  L 965.51    6 (2+)                                                       
+224RA  B             0.4     1             7.92  12                             
+224RAS B EAV=665 21                                                             
+224RA  G 881.14    10 4.52   27 [M1,E2]                0.027  15                
+224RAS G KC=0.021 13$  LC=0.0041 20                                             
+224RA  G 965.40    10 2.70   27 [E2]                   0.0097                   
+224RAS G KC=0.00749$  LC=0.00170                                                
+224RA  L 992.65    6 (2+)                                                       
+224RA  G 741.8      2 1.40   30 [E2]                   0.0164               B   
+224RAS G KC=0.0121$  LC=0.00327                                                 
+224RA  G 908.10    10 1.60   13 [M1,E2]                0.025  14                
+224RAS G KC=0.020 12$  LC=0.0038 18                                             
+224RA  G 992.9     10 1.4    AP                                                ?
+224RA CG E         reported by authors in earlier work on 228TH A DECAY.        
+224RA2CG IG/IG(742G) AP 1. Not adopted by present authors, although a           
+224RA3CG 992.1G is labelled in their spectrum                                   
+224RA  L 1052.95   3  1-                                                        
+224RA  B             10      2             6.45  10                         A   
+224RAS B EAV=629 21                                                             
+224RA  G 762.53     6 13.7    7 (E2)                   0.0155                   
+224RAS G KC=0.0115$  LC=0.00304                                                 
+224RA CG M         EKC<0.016 allows mult=E1,E2. From decay scheme, DPI=no       
+224RA  G 836.90     7 60.0   30  M1+E2   1.6     +18-4 0.022  6                 
+224RA  G 968.50    10 2.02   20                                                 
+224RA  G 1052.96   10 1.30   20                                                 
+224RA  L 1089.98   6 (2,3)-                                                     
+224RA  B             0.07    LT             8.6  GT                             
+224RAS B EAV=614 21                                                             
+224RA  G 799.60     7 6.3    3 M1(+E2)                 0.034  20                
+224RAS G KC=0.027 17$  LC=0.0053 26                                             
+224RA  G 874.0     10 2.48   15 [M1,E2]                0.027  16                
+224RAS G KC=0.022 13$  LC=0.0042 20                                             
+224RA  G 1005.5     5 0.33    4                                                 
+224RA  L 1187.1    4  0+,1,2                                                    
+224RA  B             0.13    3             8.21  12                             
+224RAS B EAV=575 21                                                             
+224RA  G 970.9      5 0.38    4                                                 
+224RA  G 1103.0     5 0.44   12                                                 
+224RA  L 1216.9    2 (1-,2)                                                     
+224RA  B             0.15    3             8.11  11                             
+224RAS B EAV=563 21                                                             
+224RA  G 926.5      2 0.55   13                                                 
+224RA  G 1001.1     5 0.39    5                                                 
+224RA  L 1348.22   9  2+,3+                                                     
+224RA  B              0.25   5             7.76  11                             
+224RAS B EAV=511 20                                                             
+224RA  G 1097.6     2 0.84   23 [M1,E2]                0.016  8                 
+224RA  G 1263.80   10 0.68    9 [M1,E2]                0.011  5                 
+224RA  L 1378.35   5  1-                                                        
+224RA  B             5.6     7             6.37   8                             
+224RAS B EAV=499 20                                                             
+224RA  G 325.32     5 5.79   28  M1                    0.598                    
+224RAS G KC=0.482$  LC=0.0885$  MC=0.0211$  NC+=0.00743                         
+224RA  G 461.98     8 1.86   10 [E1]                   0.0140                   
+224RAS G KC=0.0114$  LC=0.00197$  MC=0.000466$  NC+=0.000162                    
+224RA  G 1294.20   10 4.8     5                                                 
+224RA  G 1378.45   10 18.3   18                                                 
+224RA  L 1378.93   7 (1+,2+)                                                    
+224RA  B             1.8     3             6.87  10                             
+224RAS B EAV=498 20                                                             
+224RA  G 386.4     10 1.23   10 [M1,E2]                0.23   15                
+224RAS G KC=0.17 13$  LC=0.040 16$  MC=0.010 3$  NC+=0.0034 12                  
+224RA  G 413.40     5 3.96   20  M1                    0.312                    
+224RAS G KC=0.252$  LC=0.0460$  MC=0.0110$  NC+=0.00386                         
+224RA  G 1163.04   10 4.6     4                                                 
+224RA  L 1389.71   9  0+,1,2                                                    
+224RA  B             0.33    5             7.59   9                             
+224RAS B EAV=494 20                                                             
+224RA  G 1173.66   10 1.40   20                                                 
+224RA  G 1305.6     2 0.62    9                                                 
+224RA  L 1425.03   5 (0,1,2)-                                                   
+224RA  B             7.3     10            6.21   9                             
+224RAS B EAV=480 20                                                             
+224RA  G 335.04     5 6.16   25  M1                    0.553                    
+224RAS G KC=0.445$  LC=0.0816$  MC=0.0195$  NC+=0.00685                         
+224RA  G 372.06     5 3.84   19  M1                    0.415                    
+224RAS G KC=0.334$  LC=0.0612$  MC=0.0146$  NC+=0.00514                         
+224RA  G 1209.2     2 0.40    4 [M1,E2]                0.012  6                 
+224RA  G 1340.70   10 29.4   30                                                 
+224RA  L 1435.47   4  1-                                                        
+224RA  B             2.5     3             6.66   8                             
+224RAS B EAV=476 20                                                             
+224RA  G 382.50     5 2.84   14  M1                    0.385                    
+224RAS G KC=0.310$  LC=0.0568$  MC=0.0135$  NC+=0.00477                         
+224RA  G 442.78     8 1.50   20 [E1]                   0.0152                   
+224RAS G KC=0.0124$  LC=0.00216$  MC=0.000511$  NC+=0.000178                    
+224RA  G 519.5      2 0.50    4 [E1]                   0.0110                   
+224RAS G KC=0.00898$  LC=0.00154                                                
+224RA  G 1219.42   10 1.37   15 [M1,E2]                0.012  6                 
+224RA  G 1350.9     2 1.69   25                                                 
+224RA  G 1435.60   10 6.3     6                                                 
+224RA  L 1437.08   6  2+                                                        
+224RA  B             1.8     3             6.80  10                             
+224RAS B EAV=475 20                                                             
+224RA  G 1186.27   10 1.70   17                                                 
+224RA  G 1352.60   10 4.2     6                                                 
+224RA  G 1437.20   10 4.9     5                                                 
+224RA  L 1553.7    2  1,2+                                                      
+224RA  B             0.20    3             7.62  10                             
+224RAS B EAV=430 20                                                             
+224RA  G 1338.0     5 0.5    AP                                             B   
+224RA  G 1469.4     2 0.50    6                                                 
+224RA  G 1553.5     2 0.24    3                                                 
+224RA  L 1614.41   17(1-,2)                                                     
+224RA  B              0.11   2             7.80  11                             
+224RAS B EAV=406 20                                                             
+224RA  G 1323.9     3 0.20    3                                                 
+224RA  G 1398.5     2 0.48    6                                                 
+224RA  L 1652.42   6  2+                                                        
+224RA  B             1.8     3             6.54  10                             
+224RAS B EAV=392 20                                                             
+224RA  G 659.64    10 0.70   13 [M1,E2]                0.06   4                 
+224RA  G 1401.6     2 0.43    6                                                 
+224RA  G 1568.15   10 3.4     4                                                 
+224RA  G 1652.45   10 6.7     8                                                 
+224RA  L 1658.52   9  1(-),2+                                                   
+224RA  B             0.4     1             7.18  13                             
+224RAS B EAV=389 20                                                             
+224RA  G 1368.1     2 0.68   16                                                 
+224RA  G 1442.3     2 0.40    5                                                 
+224RA  G 1658.58   10 1.20   20                                                 
+224RA  L 1736.3    2  1,2+                                                      
+224RA  B             0.20    4             7.38  12                             
+224RAS B EAV=360 19                                                             
+224RA  G 1520.6     2 0.21    3                                                 
+224RA  G 1735.9     2 0.99   16                                                 
+224RA  L 1754.84   9  0+,1,2                                                    
+224RA  B             0.30    5             7.18  11                             
+224RAS B EAV=353 19                                                             
+224RA  G 702.0      2 0.50   16                                                 
+224RA  G 1538.4     2 0.22    3                                                 
+224RA  G 1670.54   10 1.10   16                                                 
+224RA  L 1789.61   7  1,2+                                                      
+224RA  B             0.9     2             6.65  13                             
+224RAS B EAV=339 19                                                             
+224RA  G 1573.80   10 2.60   30                                                 
+224RA  G 1705.09   10 1.28   21                                                 
+224RA  G 1789.4     2 1.90   30                                                 
+224RA  L 1796.75   9  (1-,2)                                                    
+224RA  B             0.5     1             6.89  12                             
+224RAS B EAV=337 19                                                             
+224RA  G 1506.4     2 0.66    9                                                 
+224RA  G 1580.8     2 0.60   10                                                 
+224RA  G 1712.36   10 1.61   26                                                 
+224RA  L 1818.1    2 (1-,2)                                                     
+224RA  B             0.06    1             7.78  11                             
+224RAS B EAV=329 19                                                             
+224RA  G 1527.7     2 0.16    3                                                 
+224RA  G 1602.1     5 0.18    3                                                 
+224RA  L 1838.49   10 0,1,2                                                     
+224RA  B             0.18    4             7.27  13                             
+224RAS B EAV=321 19                                                             
+224RA  G 1622.50   10 1.13   15                                                 
+224RA  L 1896.3    3 (1-,2)                                                     
+224RA  B             0.07    2             7.59  15                             
+224RAS B EAV=300 19                                                             
+224RA  G 1607.1     5 0.18    3                                                 
+224RA  G 1679.5     5 0.11    3                                                 
+224RA  G 1811.6     5 0.13    3                                                 
+224RA  L 1969.92   10 0,1,2                                                     
+224RA  B             0.10    2             7.31  13                             
+224RAS B EAV=273 19                                                             
+224RA  G 1753.93   10 0.59   10                                                 
+224RA  L 2000.2    2 (1-,2)                                                     
+224RA  B              0.12   2             7.18  12                             
+224RAS B EAV=262 19                                                             
+224RA  G 947.2      2 0.43    5                                                 
+224RA  G 1784.3     3 0.30    5                                                 
+224RA  L 2043.2    5  0,1,2                                                     
+224RA  B             0.10    2             7.18  14                             
+224RAS B EAV=246 18                                                             
+224RA  G 1827.2     5 0.61   10                                                 
+224RA  L 2052.3    4  2+                                                        
+224RA  B             0.07    2             7.32  16                             
+224RAS B EAV=243 18                                                             
+224RA  G 1801.3     5 0.27    5                                                 
+224RA  G 1836.5     5 0.17    5                                                 
+224RA  L 2077.3    4  0+,1,2                                                    
+224RA  B             0.11    2             7.07  13                             
+224RAS B EAV=234 18                                                             
+224RA  G 1862.0     5 0.22    4                                                 
+224RA  G 1992.2     5 0.46    8                                                 
+224RA  L 2117.4    4  1,2+                                                      
+224RA  B             0.09    2             7.08  15                             
+224RAS B EAV=220 18                                                             
+224RA  G 2033.2     5 0.22    4                                                 
+224RA  G 2117.3     5 0.34    5                                                 
+224RA  L 2135.3    5  0,1,2                                                     
+224RA  B             0.04    1             7.40  16                             
+224RAS B EAV=214 18                                                             
+224RA  G 1919.3     5 0.26    4                                                 
+224RA  L 2229.4    4 (1-,2)                                                     
+224RA  B             0.05    1             7.08  16                             
+224RAS B EAV=181 18                                                             
+224RA  G 1938.3    10 0.08    2                                                 
+224RA  G 2013.4     5 0.10    2                                                 
+224RA  G 2145.2     5 0.11    2                                                 
+224RA  L 2246.5    3  1,2+                                                      
+224RA  B             0.25    4             6.34  15                             
+224RAS B EAV=175 18                                                             
+224RA  G 2030.5     5 0.74   12                                                 
+224RA  G 2162.0     5 0.69   11                                                 
+224RA  G 2246.6     5 0.10    2                                                 
+224RA  L 2368.7    4  1,2+                                                      
+224RA  B             0.05    1             6.70  19                             
+224RAS B EAV=134 17                                                             
+224RA  G 2152.5     5 0.19    3                                                 
+224RA  G 2368.8     5 0.10    2                                                 
+                                                                                
+224RA    224AC EC DECAY                1976MIZR                  97NDS    199703
+224RA  H TYP=FUL$AUT=AGDA ARTNA-COHEN$CIT=NDS 80, 227 (1997)$CUT=1-Oct-1996$    
+224AC  P 0           0-                2.78 H    17             1403       4    
+224RA  N 1.10        1.10      0.909   17  1.10                                 
+224RA PN                                                                     3  
+224RA C  Authors present only EG and EC feeding. Only gammas from               
+224RA2C  the 84 and 216 levels are given. Branching to the 251 and 290 level    
+224RA3C  are <0.6%. EC branchings are presumably based on I(XK)/IG data.        
+224RA4C  Other: 1958Hi78 report EC(217 level)/SUMOF EC GE 80% from I(XK)/IG     
+224RA CL J         From adopted levels                                          
+224RA CE TI        Per 100 224AC decays                                         
+224RA CE TI(A)     Combined feeding of GS and 84 level is <0.7%                 
+224RA CE TI(B)     Combined feeding of 251 and 290 levels is <0.6%              
+224RA CG RI        Not given by authors. Values are deduced by the              
+224RA2CG evaluator from the authors' EC branches and known GAMMA branching      
+224RA3CG and CC data (see adopted gammas)                                       
+224RA CG RI(C)     1958Hi78 report IG(216G)/IG(131G)=2.24                       
+224RA2CG (from adopted G's: 1.94 4)                                             
+224RA  L 0             0+                                                       
+224RA  E                          0.7  LE   8.1  GE             0.7       LEA   
+224RAS E  CK=0.7780 $CL=0.1651 $CM+=0.05678                                     
+224RA  L 84.4          2+                                                       
+224RA  E                          0.7  LE   8.1  GE             0.7       LEA   
+224RAS E  CK=0.7765 $CL=0.1662 $CM+=0.05723                                     
+224RA  G 84.4          1.52  6   E2                    21.6                     
+224RAS G LC=15.8$ MC=4.29$  NC+=1.55                                            
+224RA  L 215.75        1-                                                       
+224RA  E                          90   2   5.88   3             90        2     
+224RAS E  CK=0.7737 $CL=0.1682 $CM+=0.05807                                     
+224RA  G 131.35       26.9   6   E1                    0.251                C   
+224RAS G KC=0.196$  LC=0.0411$  MC=0.0098$  NC+=0.00340                         
+224RA  G 215.75       52.3   12  E1                    0.0758               C   
+224RAS G KC=0.0605$  LC=0.0116$  MC=0.00276$  NC+=0.000957                      
+224RA  L 251          4+                                                        
+224RA  E                          0.6  LE   8.0  GE             0.6       LEB   
+224RAS E  CK=0.7728 $CL=0.1688 $CM+=0.05833                                     
+224RA  G  166.4       0.27   LE  E2                    1.19                    S
+224RAS G KC=0.229$  LC=0.701$  MC=0.190$  NC+=0.0685                            
+224RA  L 290         (3)-                                                       
+224RA  E                          0.6  LE   8.0  GE             0.6       LEB   
+224RAS E  CK=0.7718 $CL=0.1696 $CM+=0.05864                                     
+224RA  G  74.4        0.006  LE [E2]                   39.3                    S
+224RAS G LC=28.7$  MC=7.79$  NC+=2.80                                           
+224RA  G  205.9       0.32   LE  E1                    0.0849                  S
+224RAS G KC=0.0677$  LC=0.0130$  MC=0.00311$  NC+=0.00108                       
+                                                                                
+224RA    228TH A DECAY                 1977KU15                  97NDS    199703
+224RA  H TYP=FUL$AUT=AGDA ARTNA-COHEN$CIT=NDS 80, 227 (1997)$CUT=1-Oct-1996$    
+228TH  P 0           0+                1.912 Y   2              5520.12   22    
+224RA  N 0.00122               1.0                                              
+224RA PN                                                                     3  
+224RA CN NR        From I(84.4G)=0.0122 2 per 228TH decay (recommended value,   
+224RA2CN 1991BaZS, 1986LoZT. Based on measurements: 0.0121 6 (1969Pe17), 0.019 1
+224RA3CN (1982Sa36), 0.0125 3 (1984Ge07) and value calculated from intensity    
+224RA4CN balance: 0.01195 25)                                                   
+224RA C  The decay scheme is that of 1977Ku15                                   
+224RA CL E         From a least-squares fit to the EG                           
+224RA CL J         From adopted levels                                          
+224RA CA E         Data for the ground-state and 84-level branches are          
+224RA2CA from 1991Ry01, others are from 1970Ba20. Values of 1970Ba20 have been  
+224RA3CA increased by 2 KEV by the evaluator to account for changes in          
+224RA4CA calibration as deduced from a comparison of authors' values for the    
+224RA5CA two strong branches with those of 1991Ry01                             
+224RA CA IA        From I(G+CE) imbalance at each level deduced from            
+224RA2CA absolute IG data. A 3% uncertainty in the theoretical CC values        
+224RA3CA has been adopted by the evaluator for the calculation of TI            
+224RA CA HF        HF(5423.15A)=1.00 yields R0(224RA)=1.5332 7                  
+224RA CG E         From 1977Ku15, unless otherwise noted                        
+224RA CG E(D)      From 1977Ku25. The values have been adjusted by the evaluator
+224RA2CG for change in calibration from relative to 411.794 KEV for the 198AU   
+224RA3CG line used by 1977Ku25 to relative to E(AU G)=411.80205 KEV 17          
+224RAxCG (1994HeZZ).                                                            
+224RA CG RI        Relative to 1000 for the 84G. Values for the strong lines    
+224RA2CG (>1) are from 1984Ge07. Others are from 1977Ku15. Other: 1982Sa36      
+224RA CG M(F)      From an intensity balance at the 216 level, using            
+224RA2CG IA(5211A)=0.36 (1979Ba20), both the 131G and 216G must be E1.          
+224RA  L 0             0+                                                       
+224RA  A 5423.15   22 72.2   11  1.00                                           
+224RA  L 84.373     3  2+              0.746 NS  14                             
+224RA2 L G=+0.46 11                                                             
+224RA CL G         AG(THETA,H) (1973He13)                                       
+224RA CL T         weighted average of ACE(T) value from 1970To08 (0.748 NS 20) 
+224RA2CL and 1965Ne03 (0.744 NS 19). Other: 1960Be25 (0.76 NS 3)                
+224RA  A 5340.36   15 27.2   10  0.90  3                                        
+224RA CA IA        28 (1953As31)                                                
+224RA  G 84.373     3 1000   16 E2                     21.6                 D   
+224RAS G LC=15.8$  MC=4.29$  NC+=1.55                                           
+224RA CG M         L1:L2:L3=5.19 21:134.3 10:100; M1:M2:M3=5.7 6:121.9 9:100    
+224RA2CG (1970SpZW); theory(E2): L1:L2:L3=4.89:130:100. From AG: ECC=21.4 9     
+224RA3CG (1969Pe17), ECC=19.6 14 (1968Du06); theory: CC(E2)=21.6                
+224RA  L 215.986   4   1-                                                       
+224RA  A 5211         0.420  10  10.3  3                                        
+224RA CA IA        0.4 (1953As31), 0.36 (1970Ba20)                              
+224RA  G 131.613    4 107.0  15 E1                     0.251                D   
+224RA3 G FLAG=F                                                                 
+224RAS G KC=0.196$  LC=0.0411$  MC=0.0098$  NC+=0.00340                         
+224RA  G 215.983    5 207.8  25 E1                     0.0758               D   
+224RA3 G FLAG=F                                                                 
+224RAS G KC=0.0605$  LC=0.0116$  MC=0.00276$  NC+=0.00096                       
+224RA  L 250.784   5   4+              0.181 NS  9                              
+224RA CL J         J=4+ from AG(THETA) from 0+ parent (1989Po19)                
+224RA CL T         ACE(T) (1965Ne03)                                            
+224RA  A 5173         0.227  7   11.8  3                                        
+224RA CA IA        0.2 (1953As31), 0.18 (1970Ba20)                              
+224RA  G 166.410    4 84.9   12 (E2)                   1.19                 D   
+224RAS G KC=0.229$  LC=0.701$  MC=0.190$  NC+=0.0685                            
+224RA CG M         from TI(161G)=IA(5173)=0.18 (1970Ba20) ECC(161G)=0.73.       
+224RA2CG Theory: CC(E1)=0.152, CC(E2)=1.32, CC(M1)=4.20                         
+224RA  L 290.36    4 (3)-                                                       
+224RA  A 5138         0.038  6  41     7                                        
+224RA CA IA        AP 0.05 (1953As31), 0.03 (1970Ba20)                          
+224RA  G 74.4       1 0.33   12 [E2]                   39.3                     
+224RAS G LC=15.8$  MC=4.29$  NC+=1.55                                           
+224RA  G 205.93     5 16.1    5  E1                    0.0849                   
+224RAS G KC=0.0677$  LC=0.0130$  MC=0.00311$ NC+=0.00108                        
+224RA CG M         EKC<0.19, ELC<0.05, EMC<0.014 (1989Po19). Theory: E1:        
+224RA2CG KC=0.0677, LC=0.0130, MC=0.00311; E2: KC=0.155, LC=0.280, MC=0.075     
+224RA  L 433.08    10 (5)-                                                      
+224RA  A              1.0E-5 3 2.1E+4  6                                        
+224RA  G 142.0      5 0.0011  4 [E2]                   2.23                     
+224RAS G KC=0.284$  LC=1.42$  MC=0.385$  NC+=0.140                              
+224RA  G 182.2      2 0.0043 15 [E1]                   0.114                    
+224RAS G KC=0.0903$  LC=0.0178$  MC=0.00424$  NC+=0.00147                       
+224RA  L 479.3     2 (6+)                                                       
+224RA  A              2.5E-5 5 4.3E+3  8                                        
+224RA  G 228.5      2 0.015   3  [E2]                  0.373                    
+224RAS G KC=0.126$  LC=0.181$  MC=0.0486$  NC+=0.0174                           
+224RA  L 916.33    7   0+                                                       
+224RA  A              1.8E-5 3  6.5    11                                       
+224RA  G 700.5      5 0.0025 AP [E1]                   0.00614                  
+224RAS G KC=0.00503$  LC=0.00084                                                
+224RA  G 832.0      2 0.012   2 [E2]                   0.0130                   
+224RAS G KC=0.0098$  LC=0.00244                                                 
+224RA  L 992.65    6 (2+)                                                       
+224RA  A              4.7E-6 AP  6.8   AP                                       
+224RA  G 742.2      5 0.0012  4 [E2]                   0.0164                   
+224RAS G KC=0.0121$  LC=0.00327                                                 
+224RA  G 908.10    10 0.0014 AP [M1,E2]                0.025  14                
+224RA CG E,RI      from IG/I(742G)=1.14 26 in 224FR B- decay in later work of   
+224RA2CG these authors (1981Ku02). Spectrum in present work shows               
+224RA3CG 911.2G labelled as a background peak                                   
+224RA  G 992.9     10 0.0012 AP [E2]                   0.0092                   
+                                                                                
+224RA    226RA(P,T)                    1974FR01                  97NDS    199703
+224RA  H TYP=FUL$AUT=AGDA ARTNA-COHEN$CIT=NDS 80, 227 (1997)$CUT=1-Oct-1996$    
+224RA C  E=16.5 MEV                                                             
+224RA CL L         Authors state that only the L=0 angular distributions        
+224RA2CL are reliable. L=2 and L=4 are listed for the 84 and 251 levels         
+224RA3CL based probably on the assumed JPI values                               
+224RA  L 0                                             0                        
+224RA  L 84         2                                                           
+224RA  L 251        3                                                           
+224RA  L 477        2                                                           
+224RA  L 918        3                                  0                        
+224RA  L 1223       4                                  0                        
+224RA  L 1627       3                                                           
+224RA  L 1761       4                                                           
+224RA  L 1949       4                                                           
+                                                                                
+224RA    226RA(A,A'2NG)                1990MA20                  97NDS    199703
+224RA  H TYP=FUL$AUT=AGDA ARTNA-COHEN$CIT=NDS 80, 227 (1997)$CUT=1-Oct-1996$    
+224RA PN                                                                     5  
+224RA C  EA=55 MEV; measured (CEL)(CE) and (CE)G                                
+224RA CL J         From energy systematics of rotational bands (1990Ma20),      
+224RA2CL unless otherwise noted                                                 
+224RA CL E(A),J(A) From adopted levels                                          
+224RA CL BAND(B)   KPI=0+ GS BAND                                               
+224RA CL BAND(C)   KPI=0- BAND                                                  
+224RA CG RI        Relative IG read from level scheme by evaluator              
+224RA  L     0.0       0+                                                   B   
+224RA  L    84.4       2+                                                   A   
+224RA2 L FLAG=B                                                                 
+224RA  G    84.4                                                                
+224RA  L   215.0       1-                                                   A   
+224RA2 L FLAG=C                                                                 
+224RA  G   131.6                                                                
+224RA2 G FL=84.4                                                                
+224RA  G   216.0                                                                
+224RAF G FL=0.0                                                                 
+224RA  L   250.8       4+                                                   A   
+224RA2 L FLAG=B                                                                 
+224RA  G   166.4      46                                                        
+224RA  L   290.4       3-                                                   A   
+224RA2 L FLAG=C                                                                 
+224RA  G    74.4                                                                
+224RA2 G FL=215.0                                                               
+224RA  G   205.9      37                                                        
+224RA  L   433.1       5-                                                   A   
+224RA2 L FLAG=C                                                                 
+224RA  G   142.7                                                                
+224RA  G   182.3      27                                                        
+224RA  L   479.3       6+                                                   A   
+224RA2 L FLAG=B                                                                 
+224RA  G   228.4      39                                                        
+224RA  L   640.9       7-                                                   C   
+224RA  G   161.8                                                               S
+224RA  G   207.8   2   15                                                       
+224RA  L   754.9       8+                                                   B   
+224RA  G   275.6   2   27                                                       
+224RA  L   906.2       9-                                                   C   
+224RA  G   151.5       2     LT                                                S
+224RA  G   265.3   2   13                                                       
+224RA  L  1068.5       10+                                                  B   
+224RA  G   313.6   2   18                                                       
+224RA  L  1220.8       11-                                                  C   
+224RA  G   314.6   2    5                                                       
+224RA  L  1413.6      (12+)                                                 B  ?
+224RA  G   345.1   2    8                                                      ?
+                                                                                
+224RA    226RA(58NI,60NIG)             1989PO19                  97NDS    199703
+224RA  H TYP=FUL$AUT=AGDA ARTNA-COHEN$CIT=NDS 80, 227 (1997)$CUT=1-Oct-1996$    
+224RA PN                                                                     7  
+224RA C  E=315 MEV; measured (60NI)GG coin                                      
+224RA CL BAND(A)   KPI=0+ GS BAND                                               
+224RA CL BAND(B)   KPI=0- BAND                                                  
+224RA CL J         From 1989Po19; based on 228TH A-DECAY measurements (for      
+224RA2CL levels with J LE 4), level decay properties and band structure.        
+224RA CG RI        RI branching from level in %                                 
+224RA  L     0.0       0+                                                   A   
+224RA  L    84.4       2+                                                   A   
+224RA  G    84.4   1                                                            
+224RA  L   215.9       1-                                                   B   
+224RA  G   131.5   1   22.3  3                                                  
+224RA  G   215.9   1   77.7  3                                                  
+224RA  L   250.7       4+                                                   A   
+224RA  G   166.3   1                                                            
+224RA  L   290.3       3-                                                   B   
+224RA  G    74.4   1    2.6  6                                                  
+224RA  G   205.9   1   97.4  6                                                  
+224RA  L   433.0      (5-)                                                  B   
+224RA  G   142.7   1   35    12                                                 
+224RA  G   182.3   1   65    12                                                 
+224RA  L   478.9      (6+)                                                  A   
+224RA  G   228.2   1                                                            
+224RA  L   640.7      (7-)                                                  B   
+224RA  G   161.8   2   30    LT                                                ?
+224RA  G   207.7   2   70    GT                                                 
+224RA  L   754.6      (8+)                                                  A   
+224RA  G   113.9       10    LT                                                S
+224RA  G   275.7   2   90    GT                                                 
+224RA  L   906.0      (9-)                                                  B   
+224RA  G   151.4       15    LT                                                S
+224RA  G   265.3   2   85    GT                                                 
+224RA  L  1067.2      (10+)                                                 A   
+224RA  G   312.6   2                                                            
+224RA  L  1220.5      (11-)                                                 B   
+224RA  G   314.5   2                                                            
+224RA  L  1412.5      (12+)                                                 A   
+224RA  G   345.3   2                                                            
+224RA  L  1569.0      (13-)                                                 B  ?
+224RA  G   348.5   2                                                           ?
+                                                                                
+224AC    ADOPTED LEVELS, GAMMAS                                  97NDS    199703
+224AC  H TYP=ERR$AUT=B. Singh$DAT=11-MAR-2013$COM=Some RI set to 100$           
+224AC  H TYP=FUL$AUT=AGDA ARTNA-COHEN$CIT=NDS 80, 227 (1997)$CUT=1-Oct-1996$    
+224AC  Q 241       115663    9 4289    5 6326.9  7     2012WA38                 
+224AC CQ Note: Current evaluation has used the following Q record               
+224AC  Q 232       13 5666   8  4298    5 6326.9 7     1995AU04                 
+224AC PN                                                                     6  
+224AC C                                                                         
+224AC C  Calculations, compilations, systematics:                               
+224AC C  Cluster formation: 1986Ir01                                            
+224AC C  JPI with octupole deformation: 1988Sh01                                
+224AC C  Level structure of odd-odd actinides: 1994So16                         
+224AC C  Properties of prolate superdeformed states: 1992Ch20                   
+224AC C  Spontaneous emission of heavy ions: 1986Po06, 1986Po15                 
+224AC CL           All excited levels are from 228PA ALPHA decay. For a         
+224AC2CL comment on the level scheme, see 228PA ALPHA decay.                    
+224AC CL E         From least squares fit to EG, unless otherwise noted.        
+224AC CL J         For suggested JPI and band assignments, see 228PA ALPHA      
+224AC2CL decay                                                                  
+224AC CG           All data are from 228PA ALPHA decay                          
+224AC CG RI(A)$Set 100 (B. Singh))                                              
+224AC  L 0           0-                2.78 H    17                             
+224AC2 L %EC=90.9 +14-20$ %A=9.1 +20-14$ %B- LT 1.6 SY                          
+224AC TL J         JPI(224AC GS)=0- and JPI(220FR 140 level)=1- are uniquely    
+224AC2TL established by the following arguments:                                
+224AC TL $1) LOGFT=5.9 from 224AC GS to 1- level in 224RA                       
+224AC TL $2) JPI(220FR GS)=1+ (see 220FR adopted levels)                        
+224AC TL $3) observation of ALPHA group from 224AC(GS) to 220FR(GS)             
+224AC TL $4) forbiddenness of ALPHA branches to 220FR(12.3, 48.4, 140.8 levels) 
+224AC TL $5) E1 transitions from the 140.8 level to g.s., 12.3, 48.4 levels in  
+224AC2TL 220FR                                                                  
+224AC CL J         1988Sh01 deduce JPI=0- or 3- with octupole deformation,      
+224AC2CL 2+(2-) with quadrupole deformation only.                               
+224AC CL T         weighted average of 2.55 28 (1987Mi10) and 2.9 2 (1951Me10)  
+224AC CL %EC,%B-   EC/ALPHA=10 2 (1951Me10). No B- branch observed.             
+224AC2CL From LOGFT>5.9 expected for a 0- to 0+ GS B- branch one gets %B-<1.6   
+224AC  L   17.6    2                                                            
+224AC  L   23.3    2                                                            
+224AC  L   29.8    1   1+                                                       
+224AC CL J         E1 G to 0-                                                   
+224AC  G   29.8    1 100         E1                    2.88                 A   
+224ACS G LC=2.16$  MC=0.543                                                     
+224AC  L   37.2    2                                                            
+224AC  L   45.7    4                                                           ?
+224AC  L   47.3    4                                                           ?
+224AC  L   49.1    2                                                            
+224AC  L   52.2    2                                                            
+224AC  G   22                                                                  S
+224AC  G   28.8    1   42    7   E1                    3.16                    ?
+224ACS G LC=2.37$  MC=0.595                                                     
+224AC  G   34.6    1  100    11  E1                    1.94                     
+224ACS G LC=1.46$  MC=0.363                                                     
+224AC  G   52.1    2   17    4                                                 ?
+224AC  L   64.4    3                                                            
+224AC  G   41.1    1                                                           ?
+224AC  L   78.5    2                                                            
+224AC  G   26.3    1   45    6   E1                    4.01                     
+224ACS G LC=3.00$  MC=0.760                                                     
+224AC  G   48.6    1  100    16                                                ?
+224ACS G LC=0.594$  MC=0.146                                                    
+224AC  L   80.5    2                                                            
+224AC  G   28.3    1    4    AP                                                 
+224AC  G   43.3    1  100    13  E1                    1.07                     
+224ACS G LC=0.808$  MC=0.199                                                    
+224AC  L   90.4    2                                                            
+224AC  G   67.2    1 100        (E1)                   0.332                A   
+224ACS G LC=0.250$  MC=0.0608                                                   
+224AC  L  103.6    3                                                            
+224AC  G   54.2    1            (E1)                   0.589                   ?
+224ACS G LC=0.444$  MC=0.109                                                    
+224AC  L  109.3    2                                                            
+224AC  G   60.3    2   100                                                  &  ?
+224AC  L  110.3    3                                                            
+224AC  G   61.5    1                                                           ?
+224AC  L  116.5    2                                                            
+224AC  G   36.0    1  100    15 (E1)                   1.76                     
+224ACS G LC=1.32$  MC=0.327                                                     
+224AC  G   52.0    2   87    15                                                 
+224AC  L  130.3    2                                                            
+224AC  G   49.8    1   20    4                                                  
+224AC  G   51.8    1  100    11 (E1)                   0.666                    
+224ACS G LC=0.501$  MC=0.123$  NC+=0.0417                                       
+224AC  G   81.2    1   89    15                                                ?
+224AC  L  142.5    3                                                            
+224AC  L  160      2                                                            
+224AC CL E         from EA                                                      
+224AC  L  169      2                                                            
+224AC CL E         from EA                                                      
+224AC  L  176.7    2                                                            
+224AC  G   46.5    2   30    AP                                                 
+224AC  G   60.3    2  125    19                                             &   
+224AC  G   67.4    2  100    15                                                 
+224AC  G   73.4    2   21    9                                                 ?
+224AC  L  183.4    3                                                            
+224AC  G   53.1    1  100    15                                                ?
+224AC  G   74.1    3   38    10                                                 
+224AC  G   80.1    1   85    15                                                ?
+224AC  L  212      2                                                            
+224AC CL E         from EA                                                      
+224AC  L  219.7    4                                                            
+224AC  G   77.2    2                                                            
+224AC  L  236.5    4                                                            
+224AC  G   59.8    3                                                            
+224AC  L  252.7    2                                                            
+224AC  G   69.3    2   100   17                                                 
+224AC  G   76.0    2    43   11                                                 
+224AC  G  110.3    4    86   17                                                 
+224AC  G  122.5    5    23   AP                                                 
+224AC  L  283.4    2                                                            
+224AC  G  140.8    4    20   5                                                  
+224AC  G  193.0    2    11   4                                                  
+224AC  G  237.7    3    26   5                                                 ?
+224AC  G  246.2    2    36   8                                                  
+224AC  G  260.1    1   100   11                                                 
+224AC  L  300      2                                                            
+224AC CL E         from EA                                                      
+224AC  L  317.2    5                                                            
+224AC  G  280.0    5                                                           ?
+224AC  L  333.0    2                                                            
+224AC  G  202.7    1    88   13 (M1)                   2.42                     
+224ACS G KC=1.94$ LC=0.365$  MC=0.0875$  NC+=0.0314                             
+224AC  G  222.7    2    16   AP                                                 
+224AC  G  242.6    2    47   8  (M1)                   1.48                     
+224ACS G KC=1.18$  LC=0.221$  MC=0.0528$  NC+=0.0189                            
+224AC  G  252.6    2    63   13 (M1)                   1.32                     
+224ACS G KC=1.06$  LC=0.197$  MC=0.0471$  NC+=0.0168                            
+224AC  G  280.8    4    31   AP                                                ?
+224AC  G  283.4    4    47   AP                                                 
+224AC  G  285.8    5    16   AP                                                ?
+224AC  G  295.5    4    31   AP                                                 
+224AC  G  303.2    2   100   17                                                 
+224AC  L  354.0    2                                                            
+224AC  G  237.5    2    18.2 23 (M1)                   1.56                     
+224ACS G KC=1.25$  LC=0.234$  MC=0.0560$  NC+=0.0200                            
+224AC  G  244.7    5     9.5 23 (M1)                   1.44                     
+224ACS G KC=1.16$  LC=0.215$  MC=0.0515$  NC+=0.0184                            
+224AC  G  290.0    5    23   AP                                                 
+224AC  G  316.8    1   100   14 (M1)                   0.704                    
+224ACS G KC=0.564$  LC=0.105$  MC=0.0251$  NC+=0.00897                          
+224AC  L  360.2    2                                                            
+224AC  G  230.0    1    45   8  (M1)                   1.71                     
+224ACS G KC=1.37$  LC=0.256$  MC=0.0613$  NC+=0.0219                            
+224AC  G  279.5    4     9.3 23                                                 
+224AC  G  308.0    1   100   10 (M1)                   0.760                    
+224ACS G KC=0.610$  LC=0.114$  MC=0.0272$  NC+=0.0097                           
+224AC  G  312.8    4     5   AP                                                ?
+224AC  G  330.4    1    28   3  (M1)                   0.627                    
+224ACS G KC=0.503$  LC=0.0936$  MC=0.0234$  NC+=0.00799                         
+224AC  L  380.8    2                                                            
+224AC  G  250.5    2    59   12 (M1)                   1.35                     
+224ACS G KC=1.08$  LC=0.202$  MC=0.0483$  NC+=0.0172                            
+224AC  G  300.3    3    17   AP                                                 
+224AC  G  328.6    2   100   14                                                 
+224AC  G  351.0    4    17   AP                                                 
+224AC  L  395.8    2                                                            
+224AC  G  212.5    5     7   AP                                                 
+224AC  G  253.4    5    11   AP                                                 
+224AC  G  317.2    2   100   AP                                                 
+224AC  G  347.0    3    17   7                                                  
+224AC  L  402.9    2                                                            
+224AC  G  226.3    2    17   AP                                                 
+224AC  G  299.5    3    33   AP                                                 
+224AC  G  312.3    3    17   AP                                                 
+224AC  G  322.4    2   100   13 (M1)                   0.670                    
+224ACS G KC=0.538$  LC=0.100$  MC=0.0239$  NC+=0.00855                          
+224AC  L  448.1    2                                                            
+224AC  G  195.5    2    33   10                                                 
+224AC  G  317.8    3   100   AP                                                 
+224AC  G  344.3    4    33   AP                                                 
+224AC  L  452.0    4                                                            
+224AC  G  335.6    3                                                            
+                                                                                
+224AC    228PA A DECAY                 1994AH03,1993SH07         97NDS    199703
+224AC  H TYP=FMT$AUT=J. Tuli$DAT=22-APR-2005$COM=Fixed Fmt/Typo$                
+224AC  H TYP=FUL$AUT=AGDA ARTNA-COHEN$CIT=NDS 80, 227 (1997)$CUT=1-Oct-1996$    
+228PA  P 0             3+              22 H      1              6264.5    15    
+224AC  N   1.00                0.020   2                                        
+224AC PN                                                                     3  
+224AC CN NR        From IG/IA (1994Ah03)                                        
+224AC CN BR        From ALPHA/(ALPHA+EC)=0.020 2 (1994Ah03)                     
+224AC CL           1994Ah03: measured ALPHA, G, AG, |a|g|g, ALPHA(CE)           
+224AC CL           1993Sh07, 1991Sh14: measured ALPHA, G, CE, AG, ALPHA(CE),    
+224AC2CL G(CE)                                                                  
+224AC CL           Other: 1958Hi78                                              
+224AC CL           The level scheme shown is that proposed by 1994Ah03. It is   
+224AC2CL similar in main features to the level scheme suggested by 1993Sh07,    
+224AC3CL 1991Sh14 but includes more levels and accommodates a larger            
+224AC4CL number of G's. Both references propose KPI=3-, 3+                      
+224AC5CL bands, based on levels at 354.0 and 360.2, which are strongly          
+224AC6CL fed by ALPHA decay from the (3+) 228PA. They suggest that since        
+224AC7CL these levels have the lowest HF in the decay scheme (HF=24 and 14),    
+224AC8CL they must be favored transitions. Favored ALPHA transitions (L=0       
+224AC9CL transitions between states with same configuration and JPI) however,   
+224ACACL have generally HF<4. Therefore, one cannot say with                    
+224ACBCL certainty that the level at 354.0 KEV has the same JPI as the          
+224ACCCL parent, I.E. JPI=3+.                                                   
+224AC CL           In addition to the JPI=3+, 3- bands, 1993Sh07 suggest parity 
+224AC2CL doublet KPI=0-, 0+ bands which would be expected from systematics      
+224AC3CL (224RA, 223AC, 225AC). They feel that the ALPHA-decay hindrance        
+224AC4CL factors to the members of these bands confirm the band assignments.    
+224AC5CL However, if the JPI assignments of 1993Sh07 to the members of these    
+224AC6CL bands are correct, then the placement of several G's as                
+224AC7CL proposed by 1994Ah03 cannot be correct. In particular, the 330.4 KEV   
+224AC8CL G is deduced to be M1 from EKC (1994Ah03), but would have to be an E2  
+224AC9CL transition in the scheme of 1993Sh07.                                  
+224AC CL           1994Ah03 point out that because of the available             
+224AC2CL shell model states one could expect 16 rotational bands in this        
+224AC3CL nucleus built on levels with E(level) LT 200 KEV. It seems,            
+224AC4CL therefore, that this is a very complicated level scheme which has      
+224AC5CL not yet been fully unraveled.                                          
+224AC CL E         From least squares fit to EG, unless otherwise noted.        
+224AC CL J         JPI and band assignments for the KPI=3+, 3- bands are        
+224AC2CL from 1993Sh07 and 1994Ah03; the assignments for the KPI=0-, 0+ bands   
+224AC3CL are suggested by 1993Sh07.                                             
+224AC CL BAND(A)   K=3+ BAND                                                    
+224AC CL BAND(B)   K=3- BAND                                                    
+224AC CL BAND(C)   KPI=0- BAND                                                  
+224AC CL BAND(D)   KPI=0+ BAND                                                  
+224AC CL E(H)$From EA                                                           
+224AC CA E         From 1994Ah03                                                
+224AC CA IA        From 1994Ah03, reanalyzis of the ALPHA-spectrum of 1958Hi78. 
+224AC CA HF        R0(224AC)=1.532 7                                            
+224AC CA E(I)$From EA E(level)=147 2                                            
+224AC CG           Since many of the transitions are of very low energy one     
+224AC2CG can deduce from intensity considerations that the stronger of the low  
+224AC3CG energy transitions are E1 (based on the fact that no G can have        
+224AC4CG TI>100 (100 transitions per 100 ALPHA's) and therefore the total       
+224AC5CG conversion coefficient must be LT (100/IG)-1). Also from intensity     
+224AC6CG considerations, G with EG LE 70 KEV cannot be pure E2, because of the  
+224AC7CG large CC(E2)                                                           
+224AC CG           I(XKA1)=6.7 7, I(XKA2)=4.0 4, I(XK)=13.6 15 (1994Ah03)       
+224AC CG           I(XK)=12.5 11, I(XL)=55 10 (1993Sh07)                        
+224AC CG E,RI      From 1994Ah03, unless otherwise noted. IG and I(CEK) are     
+224AC2CG given per 100 ALPHA decays.                                            
+224AC CG M         The E1 assignments are based on intensity considerations,    
+224AC2CG the M1 assignments are based on experimental results as                
+224AC3CG indicated. In addition, 1994Ah03 have also deduced from a comparison of
+224AC4CG (XL)(ALPHA) and (23<EG<87)(ALPHA) spectra that the major transitions   
+224AC5CG deexciting the 52, 80, 130, 177 and 183 levels have E1 multipolarity.  
+224AC CG M(A)$EKC(237.5G+237.7G)=1.1 3 (1994Ah03); theory: KC(M1)=1.25,         
+224AC2CG KC(E2)=0.116. EKC indicates that the 237.5G is mostly M1, the          
+224AC3CG multipolarity of the 237.7G is not determined.                         
+224AC CG M(B)$EKC(242.6G+244.7G)=1.2 3 (1994Ah03); theory: KC(M1)=1.17,         
+224AC2CG KC(E2)=0.111. EKC indicates that both G's have mainly M1 multipolarity.
+224AC CG M(C)$EKC(250.5G+252.6G)=0.95 26 (1994Ah03); theory: KC(M1)=1.07,       
+224AC2CG KC(E2)=0.104. EKC indicates that both G's have mainly M1 multipolarity.
+224AC CG M(D)$EKC(316.8G+317.2G+317.8G)=0.50 11 (1994Ah03); theory:             
+224AC2CG KC(M1)=0.562, KC(E2)=0.0649. EKC indicates that the multipolarity      
+224AC3CG of the 316.8G is mostly M1, the multipolarities of the other two G's   
+224AC4CG cannot be determined.                                                  
+224AC CG M(E)$Assignment confirmed by 1993Sh07 from EKC (not given) and         
+224AC2CG XK/G ratios                                                            
+224AC CG E(F)      If the JPI=0-, 0+ band assignments are correct, then the     
+224AC2CG G cannot be placed from this level                                     
+224AC CG E(G)      1993Sh07 and 1994Ah03 disagree on the placement of G in level
+224AC2CG scheme                                                                 
+224AC  G   23.3    2   0.12  5                                                  
+224AC CG E,RI      from 1993Sh07                                                
+224AC  G   24.9    2   0.10  5                                                  
+224AC CG E,RI      from 1993Sh07                                                
+224AC  G   37.2    1  0.2    AP                                                 
+224AC  G   62.5    1   0.36  6                                                  
+224AC CG           In coin with 6010A                                           
+224AC  G   66.3    3   0.05  AP                                                 
+224AC CG           Possibly in coin with 5997A                                  
+224AC  G   75.5    3   0.10  AP                                                 
+224AC CG           Possibly in coin with 5997A                                  
+224AC  G   86.3    2   0.2   AP                                                 
+224AC CG           In coin with 5940A                                           
+224AC  G  232.6    2   0.38  6                                                  
+224AC CG           Possibly in coin with 5827A                                  
+224AC  G  248.8    5   0.17  6                                                  
+224AC CG           Possibly in coin with 5806A                                  
+224AC  G  267.8    5   0.21  7                                                  
+224AC CG           Possibly in coin with 5827A                                  
+224AC  G  268.7    5   0.36  8                                                  
+224AC CG           Possibly in coin with 5800A                                  
+224AC  G  269.1    4   0.29  7                                                  
+224AC CG           Possibly in coin with 5806A                                  
+224AC  G  278.0    5   0.2   AP                                                 
+224AC CG           Possibly in coin with 5806A                                  
+224AC  G  283.0    5   0.2   AP                                                 
+224AC CG           In coin with 5844A                                           
+224AC  G  288.9    5   0.3   AP                                                 
+224AC CG           In coin with 5827A                                           
+224AC  G  309.6    3   0.5   AP                                                 
+224AC CG           Probably in coin with 5806A                                  
+224AC  L    0.0        0-                                                   C   
+224AC  L   17.6    2   1-                                                   C   
+224AC  L   23.3    2                                                            
+224AC  L   29.8    1   1+                                                   D   
+224AC  A  6126     2   1.0   AP  5880  AP                                       
+224AC  G   29.8    1  2.8    3   E1                    2.88                     
+224ACS G LC=2.16$  MC=0.543                                                     
+224AC  L   37.2    2   2-                                                   C   
+224AC  A  6117     2   9.9   5  5.5E+2 12                                       
+224AC  L   45.7    4                                                           ?
+224AC  L   47.3    4                                                           ?
+224AC  L   49.1    2                                                            
+224AC  L   52.2    2   2+                                                   D   
+224AC  A  6104     2  11.3   6   410   90                                       
+224AC  G   22                   [M1]                                           S
+224AC CG E         G required by the AG results of 1993Sh07                     
+224AC  G   28.8    1  0.76   12  E1                    3.16                 G   
+224ACS G LC=2.37$  MC=0.595                                                     
+224AC CG M         M1 mult. (CC=140 5) would give this G TI=107 17              
+224AC  G   34.6    1  1.8    2   E1                    1.94                     
+224ACS G LC=1.46$  MC=0.363                                                     
+224AC CG M         M1 mult. (CC=81.4) would give this G TI=150                  
+224AC  G   52.1    2   0.30  6                                              F   
+224AC  L   64.4    3                                                            
+224AC  A  6089     2   2.2   3   19E+2 5                                        
+224AC  G   41.1    1  0.54   9                                              G   
+224AC  L   78.5    2    3-                                                  C   
+224AC  G   26.3    1  0.36   5   E1                    4.01                     
+224ACS G LC=3.00$  MC=0.760                                                     
+224AC  G   48.6    1   0.80  13                                             F   
+224AC  L   80.5    2   3+                                                   D   
+224AC  A  6076     2  19.5   7   180   40                                       
+224AC  G   28.3    1  0.1    AP                                                 
+224AC  G   43.3    1  2.4    3   E1                    1.07                     
+224ACS G LC=0.808$  MC=0.199                                                    
+224AC CG M         M1 mult. (CC=41.9) would give this G TI=103                  
+224AC  L   90.4    2                                                            
+224AC  A  6065     2   1.0   2  3.1E+3 10                                       
+224AC  G   67.2    1   1.7   3  (E1)                   0.332                    
+224ACS G LC=0.250$  MC=0.0608                                                   
+224AC  L  103.6    3                                                            
+224AC  A  6052     3   0.7   AP  3800  AP                                       
+224AC  G   54.2    1   1.2   2  (E1)                   0.589                G   
+224ACS G LC=0.444$  MC=0.109                                                    
+224AC  L  109.3    2                                                            
+224AC  G   60.3    2   0.84  13                                             &   
+224AC2 G FLAG=G                                                                 
+224AC  L  110.3    3                                                            
+224AC  A  6047     3   0.3   AP  8300  AP                                       
+224AC  G   61.5    1   0.30  5                                              G   
+224AC  L  116.5    2   4-                                                   C   
+224AC  A  6040     2   2.2   3  1.1E+3 3                                        
+224AC  G   36.0    1  0.52   8  (E1)                   1.76                     
+224ACS G LC=1.32$  MC=0.327                                                     
+224AC  G   52.0    2   0.45  8                                                  
+224AC  L  130.3    2   4+                                                   D   
+224AC  A  6027     2   8.5   4   240   50                                       
+224AC  G   49.8    1   0.27  5                                                  
+224AC  G   51.8    1   1.35  15 (E1)                   0.666                    
+224ACS G LC=0.501$  MC=0.123$  NC+=0.0417                                       
+224AC  G   81.2    1   1.2   2                                              G   
+224AC  L  142.5    3                                                            
+224AC  A  6010     2   0.8   1  2.2E+3 6                                    I   
+224AC  L  160      2                                                        H   
+224AC  A  5997     2   0.3   AP  4800  AP                                       
+224AC  L  169      2                                                        H   
+224AC  A  5988     2   1.0   1  1.3E+3 3                                        
+224AC  L  176.7    2   5+                                                   D   
+224AC  A  5981     2   2.6   2  4.6E+2 10                                       
+224AC  G   46.5    2   0.2   AP                                                 
+224AC  G   60.3    2   0.84  13                                             &   
+224AC  G   67.4    2   0.67  10                                                 
+224AC  G   73.4    2   0.14  6                                              G   
+224AC  L  183.4    3   5-                                                   C   
+224AC  A  5974     2   2.5   2  4.5E+2 10                                       
+224AC  G   53.1    1   0.40  6                                              G   
+224AC  G   74.1    3   0.15  4                                                  
+224AC  G   80.1    1   0.34  6                                              G   
+224AC  L  212      2                                                        H   
+224AC  A  5946     2   0.6   1  1.4E+3 4                                        
+224AC  L  219.7    4                                                            
+224AC  A  5940     2   0.5   1  1.5E+3 5                                        
+224AC  G   77.2    2   0.3   AP                                                 
+224AC  L  236.5    4  (6)                                                   C   
+224AC  A  5921     2   0.8   1  7.8E+2 20                                       
+224AC  G   59.8    3   0.14  5                                                  
+224AC  L  252.7    2  (6)                                                   D   
+224AC  A  5905     2   1.0   1  5.2E+2 12                                       
+224AC  G   69.3    2   0.35  6                                                  
+224AC  G   76.0    2   0.15  4                                                  
+224AC  G  110.3    4   0.30  6                                                  
+224AC  G  122.5    5   0.08  AP                                                 
+224AC  L  283.4    2                                                            
+224AC  A  5875     2   1.30  11 2.8E+2 6                                        
+224AC  G  140.8    4   0.15  4                                                  
+224AC  G  193.0    2   0.08  3                                                  
+224AC  G  237.7    3   0.20  4                                                 ?
+224AC  G  246.2    2   0.27  6                                                  
+224AC  G  260.1    1   0.76  8                                                  
+224AC  L  300      2                                                        H   
+224AC  A  5859     2   0.3   AP  1000  AP                                       
+224AC  L  317.2    5                                                            
+224AC  A  5844     2   0.4   AP   620  AP                                       
+224AC  G  280.0    5   0.2   AP                                             G   
+224AC  L  333.0    2                                                            
+224AC  A  5827     2   5.8   7    36   9                                        
+224AC  G  202.7    1   0.56  8  (M1)                   2.42                     
+224ACS G KC=1.94$ LC=0.365$  MC=0.0875$  NC+=0.0314                             
+224AC CG M         EKC=1.8 5 (1994Ah03); theory: KC(M1)=1.94, KC(E2)=0.158      
+224AC  G  222.7    2   0.1   AP                                                 
+224AC  G  242.6    2   0.30  5  (M1)                   1.48                 B   
+224ACS G KC=1.18$  LC=0.221$  MC=0.0528$  NC+=0.0189                            
+224AC  G  252.6    2   0.40  8  (M1)                   1.32                 C   
+224ACS G KC=1.06$  LC=0.197$  MC=0.0471$  NC+=0.0168                            
+224AC  G  280.8    4   0.2   AP                                             G   
+224AC  G  283.4    4   0.3   AP                                                 
+224AC  G  285.8    5   0.1   AP                                                ?
+224AC  G  295.5    4   0.2   AP                                                 
+224AC  G  303.2    2   0.64  11                                                 
+224AC  L  354.0    2    3-                                                  B   
+224AC  A  5806     2   6.9   4   24    5                                        
+224AC  G  237.5    2   0.40  5  (M1)                   1.56                 A   
+224ACS G KC=1.25$  LC=0.234$  MC=0.0560$  NC+=0.0200                            
+224AC  G  244.7    5   0.21  5  (M1)                   1.44                 B   
+224ACS G KC=1.16$  LC=0.215$  MC=0.0515$  NC+=0.0184                            
+224AC  G  290.0    5   0.5   AP                                                 
+224AC  G  316.8    1   2.2   3  (M1)                   0.704                D   
+224AC3 G FLAG=E                                                                 
+224ACS G KC=0.564$  LC=0.105$  MC=0.0251$  NC+=0.00897                          
+224AC  L  360.2    2    3+                                                  A   
+224AC  A  5800     2  10.7   6   14    3                                        
+224AC  G  230.0    1   1.8   3  (M1)                   1.71                 E   
+224ACS G KC=1.37$  LC=0.256$  MC=0.0613$  NC+=0.0219                            
+224AC CG M         EKC=1.3 3 (1994Ah03); theory: KC(M1)=1.37,                   
+224AC2CG KC(E2)=0.124.                                                          
+224AC  G  279.5    4   0.37  9                                                  
+224AC  G  308.0    1   4.0   4  (M1)                   0.760                E   
+224ACS G KC=0.610$  LC=0.114$  MC=0.0272$  NC+=0.0097                           
+224AC CG M         EKC=0.63 (1994Ah03); theory KC(M1)=0.610                     
+224AC  G  312.8    4   0.2   AP                                                ?
+224AC  G  330.4    1   1.1   1  (M1)                   0.627                F   
+224ACS G KC=0.503$  LC=0.0936$  MC=0.0234$  NC+=0.00799                         
+224AC CG M         EKC=0.57 12 (1994Ah03); theory: KC(M1)=0.503, KC(E2)=0.0598  
+224AC CG           Multipolarity does not agree with suggested JPI              
+224AC2CG assignments in 1993Sh07                                                
+224AC  L  380.8    2                                                            
+224AC  A  5780     2   1.30  14   93   23                                       
+224AC  G  250.5    2   0.34  7  (M1)                   1.35                 C   
+224ACS G KC=1.08$  LC=0.202$  MC=0.0483$  NC+=0.0172                            
+224AC  G  300.3    3   0.1   AP                                                 
+224AC  G  328.6    2   0.58  8                                                  
+224AC  G  351.0    4   0.1   AP                                                 
+224AC  L  395.8    2    4-                                                  B   
+224AC  A  5765     2   2.6   2    39   9                                        
+224AC  G  212.5    5   0.05  AP                                                 
+224AC  G  253.4    5   0.08  AP                                                 
+224AC  G  317.2    2   0.7   AP                                                 
+224AC  G  347.0    3   0.12  5                                                  
+224AC  L  402.9    2   (4+)                                                 A   
+224AC  A  5758     2   3.00  22   31   7                                        
+224AC  G  226.3    2   0.1   AP                                                 
+224AC  G  299.5    3   0.2   AP                                                 
+224AC  G  312.3    3   0.1   AP                                                 
+224AC  G  322.4    2   0.60  8  (M1)                   0.670                    
+224AC CG M         EKC=0.45 11 (1994Ah03); theory: KC(M1)=0.538, KC(E2)=0.0628  
+224AC  L  448.1    2                                                            
+224AC  A  5711     2   1.00  12   55   14                                       
+224AC  G  195.5    2   0.10  3                                                  
+224AC  G  317.8    3   0.3   AP                                                 
+224AC  G  344.3    4   0.1   AP                                                 
+224AC  L  452.0    4   (5-)                                                 B   
+224AC  G  335.6    3   0.16  4                                                  
+                                                                                
+224TH    ADOPTED LEVELS, GAMMAS                                  97NDS    199703
+224TH  H TYP=ERR$AUT=B. Singh$DAT=11-MAR-2013$COM=Some RI set to 100$           
+224TH  H TYP=FUL$AUT=AGDA ARTNA-COHEN$CIT=NDS 80, 227 (1997)$CUT=1-Oct-1996$    
+224TH  Q -3869     137463    145122    137298    6     2012WA38                 
+224TH CQ Note: Current evaluation has used the following Q record               
+224TH  Q -3870     50 7453   15 5116   14 7304   7     1995AU04                 
+224TH PN                                                                     6  
+224TH C  Giant dipole resonance from 208PB + 16O (1992Di03,1987Th07)            
+224TH C                                                                         
+224TH C  Calculations, compilations, systematics:                               
+224TH C  Binding energy, deformation role: 1986Ch23                             
+224TH C  Cluster model for ALPHA decay, Geiger-Nuttall plot: 1991Bu05, 1987Po06,
+224TH2C  1986Ir01                                                               
+224TH C  E1 transitions, octupole deformation: 1989De11                         
+224TH C  Equilibrium deformation: 1988So08, 1984Na22                            
+224TH C  Levels, B(LAMBDA) ratios: 1995De13, 1987Na10, 1987Ra01, 1986Da03,      
+224THxC  1986Le05                                                               
+224TH C  Octupole shape and shape changes at high spins: 1987Na10               
+224TH C  Properties of prolate superdeformed states: 1992Ch20                   
+224TH C  Proton-neutron interaction energy: 1990Mo11                            
+224TH C  Quasi-bands in even-even nuclei: 1984Sa37                              
+224TH C  Rotational bands in deformed even-even nuclei of the actinide          
+224TH2C  region: 1992So10                                                       
+224TH C  Spontaneous emission of heavy ions: 1986Po06                           
+224TH C  Super- and hyperdeformed configurations: 1995We02                      
+224TH C  Yrast band parity splitting: 1995Jo11, 1994Jo02, 1993Jo12              
+224TH  XA228U A DECAY                                                           
+224TH  XB208PB(18O,2NG)                                                         
+224TH  XC226RA(A,6NG)                                                           
+224TH CL E         From least squares fit to EG                                 
+224TH CL BAND(A)   KPI=0+ GS BAND                                               
+224TH CL BAND(B)   KPI=0- BAND                                                  
+224TH CL J         Proposed from reaction studies based on band structure       
+224TH2CL and systematics, unless otherwise noted                                
+224TH CG           All G data are from 226RA(A,6NG) data set, unless otherwise  
+224TH2CG noted.                                                                 
+224TH CG RI        G branching from level                                       
+224TH CG RI(A)     Set to 100 (B. Singh)                                        
+224TH CG M         From (18O,2NG)                                               
+224TH  L     0.0       0+                1.05 S  2                          A   
+224TH2 L %A=100                                                                 
+224THX L XREF=ABC                                                               
+224TH CL T         from 1978IbZZ (value recommended by 1990Ho28). Others: 1.05  
+224TH2CL S 5 (1958To25), 1.03 S 5 (1970Va13)                                    
+224TH  L    98.1   3   2+               0.59 NS  4                          A   
+224THX L XREF=ABC                                                               
+224TH CL J         HF=1.00 7 from 228U 0+, G to 0+. First excited state in      
+224TH2CL an even-even nucleus.                                                  
+224TH CL T         from 226RA(A,6NG)                                            
+224TH  G    98.1   3 100         E2                    12.6                 A   
+224THB G BE2W=96 7                                                              
+224TH  L   251.0   3   1-                                                   B  ?
+224THX L XREF=AC                                                                
+224TH CL J         from systematics                                             
+224TH  G   152.9   3   50    13                                                 
+224TH CG RI        from 228U ALPHA decay                                        
+224TH  G   246     3  100    25                                                 
+224TH CG E,RI      G seen in 228U ALPHA decay only                              
+224TH  L   284.1   5   4+                                                   A   
+224THX L XREF=ABC                                                               
+224TH  G   186.0   3 100         E2                    0.88                 A   
+224TH  L   305.3   5   3-                                                   B   
+224THX L XREF=BC                                                                
+224TH  G   207.2   3 100         (E1)                  0.0868               A   
+224TH  L   464.5   5   5-                                                   B   
+224THX L XREF=BC                                                                
+224TH  G   180.4   3 100         (E1)                  0.1204               A   
+224TH  L   534.7   5   6+                                                   A   
+224THX L XREF=BC                                                                
+224TH  G    70.2   3   85    25                                                 
+224TH  G   250.6   3  100        E2                    0.305                    
+224TH  L   699.5   5   7-                                                   B   
+224THX L XREF=BC                                                                
+224TH  G   164.8   3             D                                              
+224TH  G   235.0   3                                                            
+224TH  L   833.9   6   8+                                                   A   
+224THX L XREF=BC                                                                
+224TH  G   134.4   3  100        D                                              
+224TH  G   299.2   3   50    10                                                 
+224TH  L   997.7   6   9-                                                   B   
+224THX L XREF=BC                                                                
+224TH  G   163.8   3                                                            
+224TH  G   298.2   3                                                            
+224TH  L  1173.8   6   10+                                                  A   
+224THX L XREF=BC                                                                
+224TH  G   176.1   3  100       (D)                                             
+224TH  G   339.9   3   36    4                                                  
+224TH  L  1347.3   6   11-                                                  B   
+224THX L XREF=BC                                                                
+224TH  G   173.4   3  100                                                       
+224TH  G   349.6   3   30    4                                                  
+224TH  L  1549.8   6   12+                                                  A   
+224THX L XREF=C                                                                 
+224TH  G   202.5   3  100                                                       
+224TH  G   376.0   3   29    3                                                  
+224TH  L  1738.7   6   13-                                                  B   
+224THX L XREF=C                                                                 
+224TH  G   188.9   3  100                                                       
+224TH  G   391.4   3   50    5                                                  
+224TH  L  1958.9   7   14+                                                  A   
+224THX L XREF=C                                                                 
+224TH  G   220.2   3  100                                                       
+224TH  G   409.0   3   29    3                                                  
+224TH  L  2164.7   7   15-                                                  B   
+224THX L XREF=C                                                                 
+224TH  G   205.8   3  100                                                       
+224TH  G   426.1   3   45    6                                                  
+224TH  L  2398.0   7   16+                                                  A   
+224THX L XREF=C                                                                 
+224TH  G   233.3   3                                                            
+224TH  G   439.1   3                                                            
+224TH  L  2620.2   7   17-                                                  B  ?
+224THX L XREF=C                                                                 
+224TH  G   222.3      100                                                      ?
+224TH  G   455.4   3   42    11                                                ?
+224TH  L  2864         18+                                                  A  ?
+224THX L XREF=C                                                                 
+224TH  G   466                                                                 ?
+                                                                                
+224TH    228U A DECAY                  1961RU06                  97NDS    199703
+224TH  H TYP=FUL$AUT=AGDA ARTNA-COHEN$CIT=NDS 80, 227 (1997)$CUT=1-Oct-1996$    
+228U   P 0             0+              9.1 M     2              6804      10    
+224TH  N 1.0         1.0       0.975   25                                       
+224TH PN                                                                     2  
+224TH CN NR        RI data of 1961Ru06 are photons per 100 ALPHAS               
+224TH CL J         JPI are from 224TH adopted levels                            
+224TH CL E         E(level) are from EG except for the 93 level                 
+224TH2CL which is from EA                                                       
+224TH CA           QA=6804 10 (1995Au04)                                        
+224TH CA E(A)      Deduced from QA and E(level)                                 
+224TH CA IA(A)     From IG and CC                                               
+224TH CA HF        HF(6680A)=1.00 yields R0(224TH)=1.524 9                      
+224TH CG M         From adopted gammas                                          
+224TH  L 0             0+                                                       
+224TH  A 6680      10 70      4 1.00                                            
+224TH  L 93         4  2+                                                       
+224TH  A 6590      10 29      4 1.00   7                                        
+224TH  G 93           2.1     3  E2                    12.6      29        4   S
+224TH CG TI        from IA imbalance at 93 level                                
+224TH CG RI        from TI and CC                                               
+224TH CG CC        CC is for EG=98.1 KEV, the adopted energy for this G         
+224TH  L 246        4  1-                                                       
+224TH  A 6442      11 0.66   11 10.0   17                                   A  ?
+224TH  G 152        3 0.20    5 [E1]                   0.184                    
+224TH  G 246        3 0.40   10 [E1]                   0.059                    
+224TH  L 280        6  4+                                                       
+224TH  A 6410      12 0.56   20  8.4   30                                   A  ?
+224TH  G 187        3 0.3     1  E2                    0.88                     
+                                                                                
+224TH    208PB(18O,2NG)                1986SC12,1985DAZZ         97NDS    199703
+224TH  H TYP=FUL$AUT=AGDA ARTNA-COHEN$CIT=NDS 80, 227 (1997)$CUT=1-Oct-1996$    
+224TH PN                                                                     1  
+224TH CL           E=78,79 MEV. Measured GG(recoil), CEG(recoil) coincidences,  
+224TH2CL G(THETA) (1986Sc12,1985DaZZ)                                           
+224TH CL           The level scheme is constructed on the basis of              
+224TH2CL coincidence data, energy sums and systematics                          
+224TH CL E         From 1986Sc12                                                
+224TH CL J         Deduced from band structure (1986Sc12)                       
+224TH CL BAND(A)   KPI=0+ GS BAND                                               
+224TH CL BAND(B)   KPI=0- BAND                                                  
+224TH CG E,TI      EG and TI (at EA=78 MEV) read from level scheme in 1986Sc12. 
+224TH2CG No uncertainties given by authors.                                     
+224TH CG M         Determined as stretched ^Q or stretched ^D from              
+224TH2CG IG(45DEG)/IG(190DEG), unless otherwise noted. The assumption is made   
+224TH3CG that stretched ^Q are E2 and stretched ^D are E1.                      
+224TH CG E(C)      Placement of transition in the level scheme is indicated     
+224TH2CG by authors as uncertain; however, placement is confirmed in (A,6NG).   
+224TH  L 0             0+                                                   A   
+224TH  L 98.8          2+                                                   A   
+224TH  G 98.8                    E2                    12.6     135             
+224TH CG M         from L1/L23 (fig. 1, 1986Sc12)                               
+224TH  L 246       5   1-                                                   B  ?
+224TH CL E         no transitions to or from this level are observed.           
+224TH  L 284.5         4+                                                   A   
+224TH  G 185.7                   E2                     0.88    100             
+224TH CG M         from L1/L23 (fig. 1, 1986Sc12)                               
+224TH  L 305.7         3-                                                   B   
+224TH  G 206.9                  (E1)                    0.088    25             
+224TH  L 465           5-                                                   B   
+224TH  G 180.4                  (E1)                    0.122    31             
+224TH  L 535           6+                                                   A   
+224TH  G 70.1                   [E1]                    0.304    19             
+224TH  G 250.4                   E2                     0.305    23             
+224TH  L 700           7-                                                   B   
+224TH  G 164.8                  (E1)                    0.151    30             
+224TH  L 834           8+                                                   A   
+224TH  G 134.5                  (E1)                    0.247    20             
+224TH  G 298.9                  [E2]                    0.175    12             
+224TH  L 997           9-                                                   B   
+224TH  G 162.9                  [E1]                    0.154    12             
+224TH  G 297.3                  [E2]                    0.175     4         C   
+224TH  L 1173          10+                                                  A   
+224TH  G 175.9                  (E1)                    0.129     6             
+224TH  G 339                    [E2]                    0.119               C   
+224TH  L 1346          11-                                                      
+224TH  G  173.4                 [E1]                    0.134     4         C   
+                                                                                
+224TH    226RA(A,6NG)                  1993AC02,1986SC18         97NDS    199703
+224TH  H TYP=FUL$AUT=AGDA ARTNA-COHEN$CIT=NDS 80, 227 (1997)$CUT=1-Oct-1996$    
+224TH PN                                                                     6  
+224TH CL           EA=55 MEV; measured EG, IG, ICE, G(CE) coin (1993Ac02)       
+224TH CL           EA=33, 42, 55 MEV; measured G, CE, G(CE) coin,               
+224TH2CL AG(CE) coin, (CE)(CE)(T) (1986Sc18)                                    
+224TH CL           The level scheme is that proposed by 1993Ac02 based on       
+224TH2CL coincidence relations and energy sums                                  
+224TH CL E         From least squares fit to EG                                 
+224TH CL J         As proposed by 1993Ac02, 1986Sc18, based on band structure   
+224TH2CL and systematics                                                        
+224TH CL BAND(A)   KPI=0+ GS BAND                                               
+224TH CL BAND(B)   KPI=0- BAND                                                  
+224TH CG E         From 1993Ac02; the authors state that the uncertainty        
+224TH2CG varies from 0.1 KEV for transitions between the lower levels to        
+224TH3CG 0.3 KEV for transitions between the upper levels. The evaluator        
+224TH4CG has assigned an uncertainty of +-0.3 KEV to all transitions.           
+224TH CG RI        G branching from level (1993Ac02)                            
+224TH CG M         From adopted gammas. 1986Sc18 state that the multipolarities 
+224TH2CG of the stronger G's were determined from IG and ICE, but do not        
+224TH3CG specify the G's, or give the experimental information.                 
+224TH  L     0.0       0+                                                   A   
+224TH  L    98.1   3   2+               0.59 NS  4                          A   
+224TH CL T         from (CEL2 186.0)(CEL2 98.1)(T) (1986Sc18)                   
+224TH  G    98.1   3             E2                    12.6                     
+224TH  L   251.0   3   1-                                                   B  ?
+224TH  G   152.9   3                                                           ?
+224TH  L   284.1   5   4+                                                   A   
+224TH  G   186.0   3             E2                    0.88                     
+224TH  L   305.3   5   3-                                                   B   
+224TH  G   207.2   3             D                                              
+224TH  L   464.5   5   5-                                                   B   
+224TH  G   180.4   3             D                                              
+224TH  L   534.7   5   6+                                                   A   
+224TH  G    70.2   3  0.85   25                                                 
+224TH  G   250.6   3  1.00       E2                    0.305                    
+224TH  L   699.5   5   7-                                                   B   
+224TH  G   164.8   3             D                                              
+224TH  G   235.0   3                                                            
+224TH  L   833.9   6   8+                                                   A   
+224TH  G   134.4   3  2.0    4   D                                              
+224TH  G   299.2   3  1.0                                                       
+224TH  L   997.7   6   9-                                                   B   
+224TH  G   163.8   3                                                            
+224TH  G   298.2   3                                                            
+224TH  L  1173.8   6   10+                                                  A   
+224TH  G   176.1   3  2.8    3  (D)                                             
+224TH  G   339.9   3  1.0                                                       
+224TH CG E         EG=399.9 on level scheme in 1993Ac02. However, 1986Sc18 give 
+224TH2CG EG=339.9 and the latter figure agrees with the level scheme energy     
+224TH3CG sum, 176.1+163.8.                                                      
+224TH  L  1347.3   6   11-                                                  B   
+224TH  G   173.4   3    3.3  4                                                  
+224TH  G   349.6   3    1.0                                                     
+224TH  L  1549.8   6   12+                                                  A   
+224TH  G   202.5   3  3.4    3                                                  
+224TH  G   376.0   3  1.0                                                       
+224TH  L  1738.7   6   13-                                                  B   
+224TH  G   188.9   3  2.01   20                                                 
+224TH  G   391.4   3  1.00                                                      
+224TH  L  1958.9   7   14+                                                  A   
+224TH  G   220.2   3  3.5    4                                                  
+224TH  G   409.0   3  1.0                                                       
+224TH  L  2164.7   7   15-                                                  B   
+224TH  G   205.8   3  2.2    3                                                  
+224TH  G   426.1   3  1.0                                                       
+224TH  L  2398.0   7   16+                                                  A   
+224TH  G   233.3   3                                                            
+224TH  G   439.1   3                                                            
+224TH  L  2620.2   7   17-                                                  B  ?
+224TH  G   222.3      2.4    6                                                 ?
+224TH CG E         deduced from level energies; G is not shown in level scheme, 
+224TH2CG but the branching ratio is listed in table 2 of 1993Ac02               
+224TH  G   455.4   3  1.0                                                      ?
+224TH  L  2864         18+                                                  A  ?
+224TH  G   466                                                                 ?
+                                                                                
+224PA    ADOPTED LEVELS                                          97NDS    199703
+224PA  H TYP=FUL$AUT=AGDA ARTNA-COHEN$CIT=NDS 80, 227 (1997)$CUT=1-Oct-1996$    
+224PA  Q -1.85E3   3 6.53E3  8 2812    127694    5     2012WA38                 
+224PA CQ Note: Current evaluation has used the following Q record               
+224PA  Q -1840     60 6530   90 2800   50 7694   5     1995AU04                 
+224PA C                                                                         
+224PA C  Calculations:                                                          
+224PA C  Binding energies, deformation role: 1986Ch23                           
+224PA C  Level structure, odd-odd actinides: 1994So16                           
+224PA C  Properties of prolate superdeformed states: 1992Ch20                   
+224PA C  Spontaneous emission of heavy ions: 1986Po06                           
+224PA  L 0                             0.79 S    6                              
+224PA2 L %A=100                                                                 
+224PA CL J         JPI=(5-) from systematics (1996Li05) based on the coupling   
+224PA2CL of the 133rd neutron (JPI=5/2-) and 91st proton (JPI=5/2+).            
+224PA CL T         from 1996Li05. Others: 0.95 S 15 (1970Bo13), 0.60 5          
+224PAxCL (1958To25)                                                             
+224PA CL %A        From gross BETA-decay theory %EC+%B+ AP 0.1 (1973Ta30)       
+                                                                                
+224PA    228NP A DECAY                                           97NDS    199703
+224PA  H TYP=FUL$AUT=AGDA ARTNA-COHEN$CIT=NDS 80, 227 (1997)$CUT=1-Oct-1996$    
+228NP  P 0.0                            61.4 S   17             7420      SY    
+224PA  N                        0.40   7                                        
+224PA CN BR        From EC/ALPHA=1.5 4 (1994Kr13)                               
+224PA C  %A=40 7 from EC/ALPHA=1.5 4 (1994Kr14), based on the measured ratio    
+224PA2C  of 212PO/216FR activities.                                             
+                                                                                
+224U     ADOPTED LEVELS                                          97NDS    199703
+224U   H TYP=FUL$AUT=AGDA ARTNA-COHEN$CIT=NDS 80, 227 (1997)$CUT=1-Oct-1996$    
+224U   Q -6.16E3   SY8.20E3  8 3.90E3  8 8620    13    2012WA38                 
+224U  CQ Note: Current evaluation has used the following Q record               
+224U   Q              8200   80 3910   80 8620   12    1995AU04                 
+224U  C  Production: 208PB(20NE,4N) E=100-125 MEV, in-flight                    
+224U 2C  kinematic separation, genetic relationships (1991An10,1991An13);       
+224U 3C  209BI(19F,4N) E=102-115, velocity filter (1992To02)                    
+224U  C                                                                         
+224U  C  Calculations:                                                          
+224U  C  Binding energies, deformation role: 1986Ch23                           
+224U  C  E1 transitions in octupole deformation: 1989De11                       
+224U  C  Equilibrium deformation: 1988So08, 1984Na22                            
+224U  C  Levels, B(E2): 1986Da03                                                
+224U  C  Properties of prolate superdeformed states: 1992Ch20                   
+224U  C  Super- and hyperdeformed configurations: 1995We02                      
+224U   L     0.0       0+                0.9 MS  3                              
+224U 2 L %A=100                                                                 
+224U  CL T         weighted average of 0.7 MS +5-2 (1991An10,1991An13) and 1.0  
+224U 2CL MS 4 (1992To02)                                                        
+224U  CL %A        EC+B+ decay not observed. From gross B-decay theory          
+224U 2CL %EC+%B+ LT 1.2E-4 (1973Ta30)                                           
+                                                                                
+224U     228PU A DECAY                                                    199805
+224U   H TYP=UPD$AUT=Y. AKOVALI$CIT=NDS 84, 1 (1998)$CUT=1-Jan-1997$            
+224U 2 H COM=ONLY A'S UPDATED$                                                  
+228PU  P 0.0                                                    7950      20    
+224U  C  T1/2(228PU) has not been measured.                                     
+224U  C                                                                         
+224U  C  The partial half-life for 228PU EC BETA decay was calculated by        
+224U 2C  1973Ta30 as T1/2 AP 90 S from the gross BETA decay theory.             
+224U  D  NO CALCULATION FOR T1/2(EC) OF 228PU IS GIVEN IN 1997MoZW.             
+224U  C  Added-in-Proof: the partial half-life of 228PU B+ decay has been       
+224U 2C  calculated by 1997Mo25 as >100 S.                                      
+224U  C  The partial half-life for the 7810A, T1/2(7810A)=0.37 S 10, is         
+224U 2C  obtained from R0 parameter of 1.525 15, suggested by the local trend   
+224U 3C  for R0 parameters. If IA(7810A)=75% 25 of ALPHA decay, then the total  
+224U 4C  partial ALPHA half-life is T1/2(A)=0.28 S 10.                          
+224U  C  The systematics of R0 parameters, together with the gross BETA-decay   
+224U 2C  calculations suggest, therefore, that total half-life of 228PU         
+224U 3C  is T1/2(228PU) AP 0.28 S 10, and that %A AP 99.7, %EC AP 0.3.          
+224U  C                                                                         
+224U  C  QA(228PU)=7950 20 is recommended by 1995Au04.                          
+224U  CA E         EA(to GS) is measurement of 1994An02. No ALPHA has been      
+224U 2CA observed to the expected 2+ state. E(2+ state) is estimated as AP 160  
+224U 3CA KEV from the 2+ level energies of neighboring nuclei.                  
+224U   L 0.0          0+                                                        
+224U   A 7810      20                                                           
+                                                                                

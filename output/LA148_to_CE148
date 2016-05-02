@@ -1,0 +1,77 @@
+#148CE    148LA B- DECAY                1983GI04                  14NDS    201404
+#  148LA B- DECAY                1983GI04                  14NDS    201404
+#H TYP=FUL$AUT=N. NICA$CIT=NDS 117, 1 (2014)$CUT=1-Oct-2013$              
+#  Measured: G, CE, GG, GG(T), GG(THETA) (1983GI04,1982PFZZ), GG(THETA,H),
+#  B, BG (1982BR23)                                                       
+#  B- feeding was determined assuming no B- decay to GS                   
+#  Decay scheme is that of 1983GI04 AND IS INCOMPLETE                     
+#B IB$FROM 1983GI04 (WHO assumed no GS B- feeding) SLIGHTLY ADJUSTED      
+#B BY EVALUATOR BECAUSE OF SLIGHTLY DIFFERENT CONVERSION COEFFICIENTS     
+#B (THE INTENSITIES OF UNCERTAIN GAMMAS WERE INCLUDED IN THE INTENSITY    
+#B BALANCES). HOWEVER because of large Q-, B- decay                       
+#B may populate many GT 2550 levels of 148CE. Possible G's from these     
+#B levels (unobserved yet) may change the adopted balance of intensity    
+#B for observed levels. Therefore, the adopted IB should be considered as 
+#B an upper limit of real IB, and LOGFT as a lower limit of real values   
+#B of LOGFT                                                               
+#G CC$ FROM BrIcc v2.2b (20-Jan-2009) 2008Ki07, "Frozen Orbitals" appr.   
+#L E$From a least-squares fit to EG data (NORMALIZED CHI**2=1.96 GT       
+#L CRITICAL CHI**2=1.77)                                                  
+#L J,T$ADOPTED VALUES                                                     
+#P 0.0         (2-)              1.26 S    8              7690      22    
+LA148 CE148 beta- 7.69 1.26 0.0556
++G gamma 0.92131 0.1
++G gamma 2.03117 0.21
++G gamma 2.21989 0.27
++G gamma 0.158468 10.0
++G gamma 0.29507 1.2
++G gamma 0.60188 1.37
++G gamma 0.7603 1.54
++G gamma 0.61181 0.52
++G gamma 0.38792000000000004 0.25
++G gamma 0.6829700000000001 1.16
++G gamma 0.48219 0.17
++G gamma 0.77716 1.29
++G gamma 0.53638 0.09
++G gamma 0.83133 0.93
++G gamma 0.98985 1.68
++G gamma 0.6632 0.27
++G gamma 0.95823 0.71
++G gamma 0.7705299999999999 0.09
++G gamma 0.25245 0.3
++G gamma 0.37893 0.71
++G gamma 0.43332 0.2
++G gamma 0.29881 0.13
++G gamma 0.42568 0.18
++G gamma 1.25742 0.11
++G gamma 1.29846 0.15
++G gamma 0.36945 0.12
++G gamma 1.33864 0.32
++G gamma 1.4969700000000001 0.11
++G gamma 0.7133700000000001 0.09
++G gamma 0.79444 0.13
++G gamma 1.10506 0.06
++G gamma 1.4255799999999998 0.16
++G gamma 0.65453 0.14
++G gamma 0.81928 0.24
++G gamma 1.43156 0.24
++G gamma 1.58993 0.15
++G gamma 1.4643599999999999 0.16
++G gamma 0.25709 0.06
++G gamma 0.88712 0.08
++G gamma 0.9673999999999999 0.07
++G gamma 1.56965 0.07
++G gamma 1.1309500000000001 0.19
++G gamma 1.7326700000000002 0.12
++G gamma 1.89102 0.22
++G gamma 1.76927 0.16
++G gamma 1.3033 0.02
++G gamma 1.98593 0.44
++G gamma 1.99523 0.59
++G gamma 2.15356 0.13
++G gamma 2.03395 0.12
++G gamma 1.3166900000000001 0.08
++G gamma 2.09366 1.26
++G gamma 2.39194 0.7
++G gamma 2.5498000000000003 0.06
+

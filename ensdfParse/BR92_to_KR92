@@ -1,0 +1,75 @@
+# 92KR    92BR B- DECAY                 2000PFZZ,1989GR03,1976RU0112NDS    201210
+#  92BR B- DECAY                 2000PFZZ,1989GR03,1976RU0112NDS    201210
+#H TYP=FUL$AUT=CORAL M. BAGLIN$CIT=NDS 113, 2187 (2012)$CUT=15-Sep-2012$  
+#  Others: 1992GRZX, 1989PFZZ, 1988KR10, 1984EW01, 1982AL01,              
+#  1978CR03, 1978KR15, 1977SH10, 1975KR17, 1974KR21.                      
+#  Production: delayed neutron emission following 235U(n,f) E=th;         
+#  Th(p,x).                                                               
+#  Mass separation: 1976RU01, 1978CR03, 1984EW01, 1988KR10.               
+#  Chemical separation: 1974KR21.                                         
+#  The decay scheme is that of 2000PFZZ, a fragment of which              
+#  was presented in 1989PFZZ. A very tentative 1994 level, whose          
+#  existence was suggested by the BG coin work of 1989GR03, has also      
+#  been included.                                                         
+#B           1989GR03: deduced Q(|b{+-})=12155 100 based on B             
+#B endpoint energies for 14 BG coin spectra (13 branches); revised to     
+#B Q(|b{+-})=12220 55 in 1992GRZX cf. 12210 50 from 2003AU03 and          
+#B 12537 7 FROM 2011AUZZ.                                                 
+#B           Average E(|b) per decay =3860 (1982AL01) cf. 3500 900        
+#B CALCULATED FOR THE PRESENT DECAY SCHEME USING THE ^RADLST CODE.        
+#B IB        Deduced by evaluator from photon intensity balance at each   
+#B level. The values shown  do not include the (unknown) uncertainty in   
+#B IG data; the latter could be very significant.                         
+#B (see also the comment on decay scheme normalization).                  
+#B LOGFT     Values are given as limits; see comment on decay scheme      
+#B normalization. Note also that the uncertainty                          
+#B in measured photon intensities is unknown.                             
+#B E(D)      Measured endpoint energy for B- spectrum in                  
+#B coincidence with G ray(s) deexciting this level; data from 1989GR03,   
+#B have been rounded to nearest 10 KEV.                                   
+#G E         From 2000PFZZ, except as noted. All but 17 of the placed     
+#G transitions were also reported in 1989PFZZ (from E(level) LE 1805) or  
+#G in 1989GR03 (from E(level)>1805); gammas reported only in 2000PFZZ     
+#G are indicated.                                                         
+#G RI        Relative photon intensity, from 2000PFZZ; for transitions    
+#G deexciting E(level) LE 1805, these data are also given (rounded-off    
+#G values) in 1989PFZZ. Authors do not state uncertainty.                 
+#G M         FROM Adopted Gammas.                                         
+#G E(B)      From 1975KR17. G not reported in 1989GR03, 1989PFZZ or       
+#G 2000PFZZ; probably does not belong to 92KR.                            
+#G E(G)      Reported only in 2000PFZZ.                                   
+#L E         From least-squares FIT TO EG allowing an uncertainty         
+#L of 1 KEV in all EG data, except as noted.                              
+#L J,T       From Adopted Levels.                                         
+#L E(A)      From 1989GR03.                                               
+#L E(E)      Data of 1989GR03 imply that a 593G feeds this level, but no  
+#L G ray deexciting this level has been reported. The evaluator,          
+#L therefore, denotes level's existence as tentative.                     
+#L E(F)      From 1989PFZZ.                                               
+#L E(G)      Reported only in 2000PFZZ.                                   
+#P 0.0                           0.314 S   16             12537      7    
+BR92 KR92 beta- 12.537 0.314 1.0
++B beta- 5.8821 0.33
++B beta- 5.4962 0.29
++B beta- 5.214300000000001 0.0059
++B beta- 5.1712 0.057
++B beta- 4.9991 0.033
++B beta- 4.8957 0.011200000000000002
++B beta- 4.8826 0.031
++B beta- 4.8678 0.059000000000000004
++B beta- 4.831300000000001 0.033
++B beta- 4.826 0.02
++B beta- 4.7362 0.017
++B beta- 4.678 0.019
++B beta- 4.6224 0.0083
++B beta- 4.5098 0.0070999999999999995
++B beta- 4.4836 0.025
++B beta- 4.3818 0.0059
++B beta- 4.3681 0.027000000000000003
++B beta- 4.2856000000000005 0.0077
++B beta- 3.9148 0.0012
++B beta- 3.7081 0.003
++B beta- 3.6942 0.006500000000000001
++B beta- 3.4526 0.0034999999999999996
++B beta- 3.42 0.0018
+

@@ -1,0 +1,33 @@
+#203PB    203PB IT DECAY (6.21 S)       1968DO11,1977LI04,1977Sa1805NDS    200507
+#  203PB IT DECAY (6.21 S)       1968DO11,1977LI04,1977Sa1805NDS    200507
+#H TYP=FUL$AUT=F.G. KONDEV$CIT=NDS 105, 1 (2005)$CUT=1-Mar-2005$          
+#G E$From 1977Li04, unless otherwise specified.                           
+#G M$From adopted levels, unless otherwise specified.                     
+#L E$From a least-squares fit to EG                                       
+#L J$From adopted levels.                                                 
+#L E(A)$CONF=((N,P1/2,-2,0+)(N,F5/2,-2,0+)(N,F5/2,-1))                    
+#L E(L)$CONF=((N,P1/2,-2,0+)(N,F5/2,-2,2+)(N,F5/2,-1))                    
+#L E(B)$CONF=((N,P1/2,-2,0+)(N,F5/2,-2,0+)(N,I13/2,-1))                   
+#P 825.3     5  13/2+            6.21 S    8                              
+
+#203PB    203PB IT DECAY (480 MS)       1977LI04,1977SA18,1988Ro0805NDS    200507
+#  203PB IT DECAY (480 MS)       1977LI04,1977SA18,1988Ro0805NDS    200507
+#H TYP=FUL$AUT=F.G. KONDEV$CIT=NDS 105, 1 (2005)$CUT=1-Mar-2005$          
+#G E$From 1977Sa18, unless otherwise specified.                           
+#G RI$From delayed RI of 1977Sa18.                                        
+#G M$From adopted gammas.                                                 
+#L E$From a least-squares fit to EG. The placement of levels is based on  
+#L GG coin results of 1988Ro08 and 1977Sa18                               
+#L J,T$From adopted levels                                                
+#L E(A)$CONF=((N,P1/2,-2,0+)(N,F5/2,-2,0+)(N,F5/2,-1))                    
+#L E(L)$CONF=((N,P1/2,-2,0+)(N,F5/2,-2,2+)(N,F5/2,-1))                    
+#L E(B)$CONF=((N,P1/2,-2,0+)(N,F5/2,-2,0+)(N,I13/2,-1))                   
+#L E(C)$CONF=((N,P1/2,-2,0+)(N,F5/2,-2,2+)(N,I13/2,-1))                   
+#L E(D)$CONF=((N,P1/2,-2,0+)(N,F5/2,-2,4+)(N,I13/2,-1))                   
+#L E(E)$Probably an admixture of                                          
+#L CONF=((N,P1/2,-2)(N,F5/2,-1)(N,F7/2,-1)(N,I13/2,-1)) and               
+#L CONF=((N,P1/2,-1)(N,F5/2,-3)(N,I13/2,-1))                              
+#L E(F)$CONF=((N,P1/2,-2,0+)(N,F5/2,-1)(N,I13/2,-2,12+))                  
+#P 2949.11   25 29/2-            480 MS    7                              
+PB203 PB203 IT 0.0 0.48 1.0
+

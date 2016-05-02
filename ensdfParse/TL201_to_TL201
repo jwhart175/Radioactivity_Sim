@@ -1,0 +1,23 @@
+#201TL    201TL IT DECAY                1975UY01                  07NDS    200703
+#  201TL IT DECAY                1975UY01                  07NDS    200703
+#H TYP=FUL$AUT=F.G. KONDEV$CIT=NDS 108, 365 (2007)$CUT=1-Dec-2005$        
+#  1975Uy01: Populated following (G,2N) reaction using a pulsed           
+#  bremsstrahlung beam with E(G)=25-32 MEV; Target: natural thallium;     
+#  Detectors: GE(LI); Measured: EG, G(T).                                 
+#  Others: 1962Mo19, 1963De38, 1964Br27, 1965Gr04, 1967Co20, 1977KoZH,    
+#  1977Sl01.                                                              
+#G $Note that 1965Gr04 (scin detector system) reported 225 KEV 10         
+#G transition depopulating the isomer to the 5/2+ level at 692.5 KEV.     
+#G Since, no 361.3G was reported by 1965Gr04 (this EG should follow 225G  
+#G in the cascade), coupled with the fact that work using high-resolution 
+#G GE(LI) detector system (1975Uy01 and 1977Sl01) has not confirmed the   
+#G 1965Gr04 observation, the level scheme proposed in 1965Gr04 was        
+#G rejected by the evaluator.                                             
+#G E$From 1975Uy01.                                                       
+#G M,MR$From adopted levels, unless otherwise specified.                  
+#G RI$From TI=100 and CC                                                  
+#L E$From a least-squares fit to EG                                       
+#L J$From adopted levels, unless otherwise specified.                     
+#P 919.1     3 (9/2-)            2.01 MS   7                              
+TL201 TL201 IT 0.0 0.0020099999999999996 1
+

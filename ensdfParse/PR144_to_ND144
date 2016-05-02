@@ -1,0 +1,86 @@
+#144ND    144PR B- DECAY (17.28 M)      1985DA16                  01NDS    200108
+#  144PR B- DECAY (17.28 M)      1985DA16                  01NDS    200108
+#H TYP=FUL$AUT=A.A. Sonzogni$CIT=NDS 93, 599 (2001)$CUT=1-Dec-2000$       
+#  Activity: chemically separated 144CE in equilibrium with               
+#  144PR (17.28 MIN + 7.2 MIN)                                            
+#  Measured: G, HPGe; GG, HPGe-GELI. FWHM=1.75 KEV at 1.33 MEV, 0.18 KEV  
+#  for iron x ray                                                         
+#  Decay scheme, EG, IG values are from 1985DA16. E(level), IB have       
+#  been determined by the evaluator using least squares fit.              
+#  For B- measurements, B-longitudinal polarization, BG(circular)         
+#  polarization, GG(polarization-direction correlation) see 1967RA40.     
+#  For B-shape see 1967RA40, 1971NA12, 1973BO43. For discussion of        
+#  second-class currents see 1973BO43, 1975EM02                           
+#  BG(THETA): 1967RA40, 1973BO43, 1973WIYS                                
+#  GG-coin: 1967RA40, 1970FA03, 1976RA22, 1985DA16                        
+#G RI(A)     Includes small (AP 0.4) contribution due to                  
+#G 7.2-min 144PR B- decay.                                                
+#  Other measurements: 1979PR11, 1974BE09, 1970FA03; see also references  
+#  given by 1967RA40                                                      
+#G E(B)$From 1979GR01                                                     
+#G RI(D)$From 1975DE17                                                    
+#L $GG(THETA): scin-semi, semi-semi (1974BE09); scin-semi (1983KR09)      
+#L                                                                        
+#L              Cascade        A2             A4         J2-J1-J0   Ref.  
+#L           -------------  ----------     ---------    ---------  ------ 
+#L           (1489G)(696G)  -0.248 4       +0.001 9      1-2-0     1983Kr0
+#L                                                                        
+#L           (1389G)(696G)  +0.282 41      +1.064 67(a)  0-2-0     1983Kr0
+#L           (1389G)(696G)  +0.432 50      +1.122 84(b)  0-2-0     1983Kr0
+#L           (1389G)(696G)  +0.310 35      +0.303 67     2-2-0     1974Be0
+#L                                                                        
+#L           (865G)(696G)   +0.490 85      +0.14 14(b)             1983Kr0
+#L           (814G)(675G+                                                 
+#L                  696G)   -0.122 4       -0.038 42(b)            1983Kr0
+#L           (814G)(696G)   -0.086 60                              1974Be0
+#L $     (a) using single-channel analyzer                                
+#L $     (b) using multi-channel analyzer                                 
+#L J$From adopted levels                                                  
+#P 0.0         0-                17.28 M   5              2997.5    24    
+PR144 ND144 beta- 2.9975 1036.8000000000002 1.0
++B beta- 1.222 0.9790000000000001
++B beta- 0.895 0.0104
++G gamma 0.69651 0.013420000000000001
++G gamma 0.8141 3.2208E-5
++B beta- 0.52627 1.4E-5
++G gamma 0.86445 2.4156000000000004E-5
++G gamma 1.56097 2.013E-6
++B beta- 0.32285 6.2E-6
++G gamma 1.3762699999999999 3.8918E-6
++B beta- 0.30677 6.7E-5
++G gamma 1.38802 6.72342E-5
++B beta- 0.26719 0.0105
++G gamma 0.6247 1.12728E-5
++G gamma 0.67495 2.9524000000000004E-5
++G gamma 1.48916 0.0027779400000000004
++G gamma 2.1856619999999998 0.006938140000000001
++B beta- 0.21325999999999998 5.4E-7
++G gamma 2.3683 5.368000000000001E-7
++B beta- 0.0989 1.4999999999999998E-6
++G gamma 2.6549 1.4762E-6
++B beta- 0.09233 8.7E-6
++G gamma 1.97882 8.723000000000001E-6
++B beta- 0.07110999999999999 2.9999999999999997E-6
++G gamma 1.182 5.368000000000001E-7
++G gamma 2.0463 2.684E-6
+
+#144ND    144PR B- DECAY (7.2 M)        1985DA16                  01NDS    200108
+#  144PR B- DECAY (7.2 M)        1985DA16                  01NDS    200108
+#H TYP=FUL$AUT=A.A. Sonzogni$CIT=NDS 93, 599 (2001)$CUT=1-Dec-2000$       
+#  Activity: chemically separated 144CE in equilibrium with               
+#  144PR(17.3 MIN + 7.2 MIN)                                              
+#  Measured: G, HPGe; GG, HPGe-GELI. FWHM=1.75 at 1.33 MEV, 0.18 for      
+#  iron x ray                                                             
+#  Decay scheme is as given by 1985DA16.                                  
+#  Others: 1979PR11, 1974BE09, 1970FA03                                   
+#G RI$Relative to IG(696.5G)=1000 in 144PR(17.3 MIN + 7.2 MIN) decay      
+#L J$From adopted levels                                                  
+#P 59.03      33-                7.2 M     3              2997.5    24    
+PR144 ND144 beta- 2.9975 432.0 0.0007
++G gamma 0.6177999999999999 0.24891199999999997
++B beta- 0.5702 2.6E-4
++B beta- 0.14321 1.0999999999999999E-4
++G gamma 1.8853 0.15557
++B beta- 0.02914 3.3E-4
++G gamma 1.63136 0.46671
+

@@ -1,0 +1,50 @@
+# 92Y     92SR B- DECAY                 1972OL03,1971PA31         12NDS    201210
+#  92SR B- DECAY                 1972OL03,1971PA31         12NDS    201210
+#H TYP=FUL$AUT=CORAL M. BAGLIN$CIT=NDS 113, 2187 (2012)$CUT=15-Sep-2012$  
+#  OTHERS: 1956HE77, 1957HE39, 1979BO26, 1990RU05.                        
+#B           1957HE39 observed no BG coin for EB>600 KEV.                 
+#B E(D)      Weighted average of 536 20 (1983IA02) and 546 30             
+#B (1978WO15, from |b-1384|g coincidence spectrum). Q(|b{+-})=1951 9      
+#B (2011AUZZ) implies EB=567 9. Others: 545 KEV 50 (1957HE39), 550 KEV 50 
+#B (1956HE77).                                                            
+#G           Measured: G-ray singles with Ge(Li) (1972OL03,1971PA31),     
+#G coincidences with Ge(Li)-Ge(Li) (1972OL03), Ge(Li)-NaI (1971PA31).     
+#G EG and IG from both sources are in excellent agreement.                
+#G           Measured average EG=1130 80 (1990RU05) cf. 1337 19           
+#G CALCULATED FOR THE ADOPTED DECAY SCHEME USING THE CODE ^RADLST.        
+#G E,RI      Weighted average of data from 1972OL03 and 1971PA31.         
+#G An additional, weak line (EG=463.4 2, IG=0.04 1) reported in           
+#G 1971PA31 was not confirmed by 1972OL03 (IG LE 0.015); evaluator does   
+#G not adopt this G.                                                      
+#G E(B)      Weighted average of data from 1972OL03, 1971PA31, 1979BO26.  
+#G E(F)      Note comment on 430 level regarding order of 430G-953G       
+#G cascade.                                                               
+#L           The decay scheme is based on G-ray singles and               
+#L coincidence measurements by 1972OL03 and 1971PA31.                     
+#L E         From least-squares fit to EG.                                
+#L J,T       From Adopted Levels.                                         
+#L E(E)      The order of the 430G, 953G cascade is not established in    
+#L 92SR B- decay data. Consequently, a level exists at either             
+#L 430.56 5 or 953.31 7, and the authors chose the latter. 1956HE77       
+#L reported EB=1500 100, which would support the 430-level option;        
+#L however, 1957HE39 observed no BG coincidences for EB>600 KEV. The      
+#L decay scheme implies negligible B- feeding                             
+#L of either state since I(430G) and                                      
+#L I(953G) are similar. (D,A) excites a (2,3,4)- level at 440 KEV 30.     
+#L The evaluator presumes that this confirms the 430-level option, and    
+#L has ordered the 430G and 953G accordingly.                             
+#P 0.0         0+                2.611 H   17             1951       9    
+SR92 Y92 beta- 1.951 9399.6 1.0
++G gamma 0.3525 5.4E-4
++B beta- 0.7864 0.08
++G gamma 0.24156 0.02925
++G gamma 0.43049 0.032760000000000004
++B beta- 0.3795 0.0017000000000000001
++G gamma 0.6507999999999999 0.00369
++G gamma 0.8926799999999999 8.010000000000001E-4
++B beta- 0.1819 0.97
++G gamma 0.49127 0.002745
++G gamma 0.95331 0.03519
++G gamma 1.14235 0.0279
++G gamma 1.38393 0.9
+

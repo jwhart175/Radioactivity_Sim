@@ -1,0 +1,34 @@
+#187BI    191AT A DECAY (1.7 MS)        2003KE08,2005KE10         09NDS    200905
+#  191AT A DECAY (1.7 MS)        2003KE08,2005KE10         09NDS    200905
+#H TYP=FUL$AUT=M. S. Basunia$CIT=NDS 110, 999 (2009)$CUT=1-Nov-2008$      
+#  2003KE08, 2005KE10: 191AT from 141PR(54FE,4N), E=248 to 266 MeV - 8    
+#  energy points were checked for an optimum cross section;               
+#  ^fusion-evaporation residues (^ER) were separated using gas-filled     
+#  recoil separator ^RITU; Detectors: position sensitive silicon detector,
+#  quadrant silicon detector; Measured: EA, IA, T from                    
+#  ^ER-ALPHA(191PT)-ALPHA(187BI) COIN.                                    
+#A HF        From 2003Ke08, calculated from the measured values using the 
+#A method in 1959RA14 and normalized to the ALPHA decay of 212PB.         
+#P 0.0          (1/2+)           1.7 MS    +11-5          7820      30    
+AT191 BI187 alpha 7.82 0.0017 1
++A alpha 7.552 1.0
+
+#187BI    191AT A DECAY (2.1 MS)        2003KE08,2005KE10         09NDS    200905
+#  191AT A DECAY (2.1 MS)        2003KE08,2005KE10         09NDS    200905
+#H TYP=FUL$AUT=M. S. Basunia$CIT=NDS 110, 999 (2009)$CUT=1-Nov-2008$      
+#  2003KE08, 2005KE10: 191AT from 141PR(54FE,4N), E=248 to 266 MeV - 8    
+#  energy points were checked for an optimum cross section;               
+#  ^fusion-evaporation residues (^ER) were separated using gas-filled     
+#  recoil separator ^RITU; Detectors: position sensitive silicon detector,
+#  quadrant silicon detector; Measured: EA, IA, T from                    
+#  ^ER-ALPHA(191PT)-ALPHA(187BI) COIN.                                    
+#A HF        From 2003Ke08, calculated from the measured values using the 
+#A method in 1959RA14 and normalized to the ALPHA decay of 212PB.         
+#A E,IA      Extracted based on the shape of the ALPHA-decay spectrum, a  
+#A result of the simulation, and systematics of the heavier odd-mass ^At  
+#A isotopes 193AT and 195AT (2003Ke08).                                   
+#P 55        30 (7/2-)           2.1 MS    +4-3           7820      30    
+AT191 BI187 alpha 7.82 0.0021000000000000003 1
++A alpha 7.715 0.02
++A alpha 7.653 0.98
+

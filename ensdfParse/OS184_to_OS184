@@ -1,0 +1,33 @@
+#184OS    184OS IT DECAY (23.6 NS)      1988CH27                  10NDS    201002
+#  184OS IT DECAY (23.6 NS)      1988CH27                  10NDS    201002
+#H TYP=FUL$AUT=CORAL M. BAGLIN$CIT=NDS 111,275 (2010)$CUT=1-Oct-2009$     
+#G CC$ FROM BrIcc v2.2a (13-Jul-2008) 2008Ki07, "Frozen Orbitals" appr.   
+#  1988CH27: ISOMER PRODUCED FROM 170ER(18O,4NG), E=85 MEV,               
+#  pulsed and chopped beam; Ge detector array (6 detectors with BGO       
+#  escape suppression, INCLUDING 2 LOW ENERGY G DETECTORS); measured EG,  
+#  IG, GG-coin (DELAYED-DELAYED, PROMPT-DELAYED AND PROMPT-PROMPT;        
+#  200NS TIME WINDOW), G(|q), GG(T).                                      
+#G E         UNCERTAINTY NOT STATED BY AUTHORS. The evaluator has         
+#G ASSIGNED UNCERTAINTIES OF 0.5 KEV TO DATA QUOTED TO THE NEAREST        
+#G KEV AND 0.2 KEV OTHERWISE, AS RECOMMENDED BY THE AUTHORS FOR DATA      
+#G REPORTED IN THE SAME PAPER FOR A DIFFERENT NUCLIDE; HOWEVER, THESE     
+#G TWO SETS OF DATA WERE MEASURED IN DIFFERENT LABORATORIES.              
+#G RI        RELATIVE photon intensity in 20 NS delayed spectrum in       
+#G coincidence with the 264G; NORMALIZED SO SUMOF (TI TO 384 LEVEL)=100,  
+#G AFTER CORRECTING I(360G) FOR CONVERSION.  THE AUTHORS DO NOT REPORT    
+#G RI FOR SEVERAL TRANSITIONS OR UNCERTAINTY FOR ANY IG.                  
+#G M,MR      FROM Adopted Gammas.                                         
+#G E(Y)      NOTE THAT THE EVALUATOR HAS REVERSED THE ORDER OF THE 145.1  
+#G AND 175.3 CASCADE TRANSITIONS FOR CONSISTENCY WITH Adopted Levels,     
+#G Gammas.                                                                
+#G E(Z)      FROM FIG. 8 OF 1988CH27; NOT INCLUDED IN TABLE 2.            
+#L E         FROM LEAST-SQUARES FIT TO EG, ASSIGNING 1 KEV UNCERTAINTY    
+#L TO EG FOR WHICH NO UNCERTAINTY IS INDICATED.                           
+#L J         FROM Adopted Levels.                                         
+#L T(J)      From GG(T)                                                   
+#L BAND(A)   KPI=0+ GS BAND.                                              
+#L BAND(P)   KPI=2+ GAMMA BAND.                                           
+#L BAND(R)   KPI=3- ROTATIONAL BAND.                                      
+#P  2366.81  19  10+             23.6 NS   14                             
+OS184 OS184 IT 0.0 2.3600000000000003E-8 1.0
+

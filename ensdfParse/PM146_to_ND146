@@ -1,0 +1,23 @@
+#146ND    146PM EC DECAY                1966BU03,1968TA09,1970AV0397NDS    199712
+#  146PM EC DECAY                1966BU03,1968TA09,1970AV0397NDS    199712
+#H TYP=FUL$AUT=L. K. PEKER AND J. K. TULI$CIT=NDS 82, 187 (1997)$         
+#H CUT=30-SEP-1997$                                                       
+#  Measured: GAMMA (1974Sc06,1970Av03,1968Ta09,1967Bu12,1966Bu03,         
+#  \1960Fu05), CE (1981Or03,1960Fu05), GG (1968Ta09,1963Pa21,1960Fu05)    
+#  GG(THETA) (1966Bu03,1960Fu05)                                          
+#E           %EC=66.0 13 from I(747G,146SM)/I(747G,146ND)=0.521 35        
+#E (1970Av03)                                                             
+#  See also 146PM B- decay                                                
+#E           No B+ (LT 0.012%) (1967Va01)                                 
+#G E         From 1974Sc06                                                
+#G           EKC, ELC, and EMC from absolute measurements (1981Or03)      
+#G RI        Weighted average of RI from 1966Bu03, 1968Ta09, 1970Av03     
+#  Decay scheme is that from 1970Av03                                     
+#L J         Adopted values                                               
+#P 0.0         3-                5.53 Y    5              1472      4     
+PM146 ND146 beta+ 1.472 1.7450970566400003E8 0.660
++G gamma 0.45388 0.985
++G gamma 0.5898 0.0064025
++G gamma 0.1462 0.0032505
++G gamma 0.73593 0.34081000000000006
+

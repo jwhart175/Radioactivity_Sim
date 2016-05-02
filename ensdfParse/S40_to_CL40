@@ -1,0 +1,18 @@
+# 40CL    40S B- DECAY (8.8 S)          1998WIZX,1998WIZV         04NDS    200408
+#  40S B- DECAY (8.8 S)          1998WIZX,1998WIZV         04NDS    200408
+#H TYP=FUL$AUT=JOHN A. CAMERON AND BALRAJ SINGH$CIT=NDS 102, 293 (2004)$  
+#H CUT=10-May-2004$                                                       
+#  1998WIZX,1998WIZV: MEASURED EG, IG, GG                                 
+#  1986DU07: MEASURED EG, IG, T1/2. REPORTED FOUR G RAYS AT               
+#  211.6, 431.9, 677.5 AND 888.6.                                         
+#L E$ FROM LEAST-SQUARES FIT TO EG'S                                      
+#L J$ FROM ADOPTED LEVELS                                                 
+#P 0            0+               8.8 S     22             4.69E3    14    
+S40 CL40 beta- 4.69 8.8 1
++B beta- 2.136 0.01
++B beta- 2.02 0.08
++B beta- 1.913 0.04
++B beta- 1.69 0.41
++B beta- 1.494 0.04
++B beta- 1.008 0.46
+

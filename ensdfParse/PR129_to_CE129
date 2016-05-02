@@ -1,0 +1,50 @@
+#129CE    129PR EC DECAY (30 S)         1996GI08                  14NDS    201408
+#  129PR EC DECAY (30 S)         1996GI08                  14NDS    201408
+#H TYP=FUL$AUT=JANOS TIMAR AND ZOLTAN ELEKES, BALRAJ SINGH$               
+#H CIT=NDS 121, 143 (2014)$CUT=31-May-2014$                               
+#  1996Gi08: {+94,96}Mo({+40}Ca,X), E=255 MeV; Ge detectors, He-jet;      
+#  measured |g|g(t)-, (x ray)|g(t)-coin.                                  
+#  Other: 1977Bo02                                                        
+#  1993GeZZ is superseded by 1996Gi08                                     
+#  From assignment of 9/2- to the 60-ns isomer at 108 keV, 1998Io01       
+#  assigned 7/2+ to g.s. and increased spin by one unit all the positive- 
+#  parity levels. For the negative-parity band, a new level was proposed  
+#  at 119.4 keV with J|p=11/2- and energies of higher levels were adjusted
+#  accordingly, and the spins increased by 2 units. The placements        
+#  of 619|g, 701|g, 1028|g, 1040|g, and 1217|g were revised also. These   
+#  modifications of the decay scheme proposed in 1998Io01 have not been   
+#  adopted by the evaluators, since the spin of 9/2 for the 60-ns isomer  
+#  at 107.6 is not considered by the evaluators as definitely determined. 
+#  The experimental quadrupole interaction pattern (figure 1 in 1998Io01) 
+#  fits 9/2 better than 7/2, but the fit for 9/2 still suffers from       
+#  somewhat large |h{+2} of 2.7. Assignment of 9/2- for the isomer also   
+#  leads to serious discrepancies with band structures and theoretical    
+#  predictions                                                            
+#  No meaningful |e and |b{++} feedings can be deduced since feeding      
+#  to ground state of {+129}Ce is unknown and multipolarities of several  
+#  low-energy transitions, with expected large conversion coefficients,   
+#  are unknown. For these reasons, the decay scheme cannot be normalized  
+#  to obtain |g-ray intensities per 100 {+129}Pr nuclei                   
+#G E(A),RI(A)$Complex line                                                
+#G RI(B)$Intensity estimated from A=129 on-line singles spectra           
+#G in {+92}Mo({+40}Ca,X), E=190 MeV, and normalized to I|g(203.8|g) and   
+#G I|g(243.3|g)                                                           
+#G E(C)$The |g line in coin with Ce x rays only                           
+#G CC$MR(E2/M1)=0.3 assumed when not given                                
+#G E(X)$ Based on their assignment of 9/2- for the 107.6 isomer, 1998Io01 
+#G proposed that 1040.0|g and 1027.9|g deexcite a new level at 1147.6;    
+#G former transition to 107.6 level and the latter to a newly proposed    
+#G 11/2- level at 119.4 keV. The evaluators have not adopted this proposal
+#G E(Y)$ Based on their assignment of 9/2- for the 107.6 isomer, 1998Io01 
+#G proposed that 1217|g deexcites level at 1337.6 to a newly proposed     
+#G 11/2- level at 119.4 keV. The evaluators have not adopted this proposal
+#G E(Z)$ Based on their assignment of 9/2- for the 107.6 isomer, 1998Io01 
+#G proposed that 619|g and 701.0|g deexcite level at 820.4; former        
+#G transition to a 201.3, 13/2- level and the latter to a newly proposed  
+#G 11/2- level at 119.4 keV. The evaluators have not adopted this proposal
+#L E$From least-squares fit to E|g data, 305.3|g not used in the fitting  
+#L procedure                                                              
+#L J,T$From Adopted Levels                                                
+#P 0.0         (3/2+)            30 S      4              6510      40    
+PR129 CE129 beta+ 6.51 30.0 1
+

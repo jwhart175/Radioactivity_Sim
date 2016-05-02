@@ -1,0 +1,28 @@
+#170OS2C  EC DECAY OF 174AU; SI STRIP DETECTOR; MEASURED EA, PARENT-DAUGHTER |a  
+#  EC DECAY OF 174AU; SI STRIP DETECTOR; MEASURED EA, PARENT-DAUGHTER |a  
+#  CORRELATIONS; Berkeley GAS-FILLED SEPARATOR, PARALLEL-PLATE            
+#  AVALANCHE COUNTERS, DOUBLE-SIDED SI STRIP FOCAL PLANE DETECTOR (FWHM   
+#  AP 35 KEV).                                                            
+#  1996PA01: sources from heavy-ion fusion-evaporation reactions; recoil  
+#  mass separator, double-sided SI strip detector (FWHM LE 20 KEV);       
+#  measured T1/2 and %A for parent and daughter.                          
+#  1982EN03: sources produced by 144SM(32S,2N); FWHM=25 KEV; measured     
+#  EA using semi E detector and thin gas DE detector, T1/2(170OS).        
+#  1979HA10: sources produced by bombardment of PB targets with 600-MEV   
+#  protons; measured EA, IA using semi detector.                          
+#  1973GA08: sources produced by 142ND(40AR,8N).                          
+#  1966SI08: source produced by 164ER(20NE,10N); measured EA using semi.  
+#  T1/2(174PT)=0.876 S 19 is the average (using limitation of             
+#  statistical weights method) of 0.7 S 2 (1966SI08), 0.80 S 5 (1981DE22),
+#  0.90 S 1 (1982EN03), 0.890 S 20 (1996PA01) and 0.857 S 5 (2004GOZZ).   
+#  (The UNCERTAINTY IN THE 2004GOZZ DATUM WAS INCREASED BY A FACTOR OF    
+#  1.76 AND THE UNCERTAINTY IN THE RESULTING WEIGHTED AVERAGE WAS EXPANDED
+#  TO ENCOMPASS THAT DATUM.)                                              
+#A IA        FROM 2004GOZZ.                                               
+#A HF        R0(170OS)=1.556 3, assuming HF(6038A)=1.0, %A(174PT)=75 4,   
+#A T1/2(174PT)=0.876 S 19, I(6039A)=99.5 5 and QA=6181 3 (from EA=6039 3).
+#G M         FROM Adopted Gammas.                                         
+#L J         FROM Adoped Levels.                                          
+#P 0.0         0+                0.876 S   19             6184      5     
+PT174 OS170 beta+ 6.184 0.876 0.75
+

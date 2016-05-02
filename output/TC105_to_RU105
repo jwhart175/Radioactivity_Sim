@@ -1,0 +1,14 @@
+#105RU    105TC B- DECAY                1975SU02                  05NDS    200511
+#  105TC B- DECAY                1975SU02                  05NDS    200511
+#H TYP=FUL$AUT=D. DE FRENNE AND E. JACOBS$CIT=NDS 105, 775 (2005)$        
+#H CUT=1-Sep-2004$                                                        
+#  1975Su02: chemical separation of technetium from {+235}U,{+239}Pu(n,F) 
+#  fission products. Measured: E|g, I|g, |g|g-coin, |g|g(t), E|b,         
+#  |b|g-coin, T{-1/2}                                                     
+#  1975RaZL: chemical separation of technetium from U(n,F) fission        
+#  products. Measured: E|g, I|g, |g|g- and |b|g-coin, T{-1/2}             
+#P 0.0         (3/2-)            7.6 M     1              3640      60    
+TC105 RU105 beta- 3.64 456.0 0.157
++G gamma 0.04894 0.0025
++G gamma 0.757 0.075
+

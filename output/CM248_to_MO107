@@ -1,0 +1,36 @@
+#107MO    248CM SF DECAY                2005UR02,2006PI14         08NDS    200805
+#  248CM SF DECAY                2005UR02,2006PI14         08NDS    200805
+#H TYP=FUL$AUT=Jean Blachot$CIT=NDS 109, 1383 (2008)$CUT=1-Mar-2008$      
+#  2005Ur02: Measured E|g, I|g, |g|g, |g|g(|q), |g|g(lin pol),            
+#  conversion-electron coefficients using EUROGAM2 array with four        
+#  additional low-energy photon (LEP) detectors                           
+#  2006Pi14: {+107}Mo nuclei produced in thermal-neutron induced          
+#  fission of {+241}Pu target. Lohengrin mass spectrometer used to        
+#  separate fission fragments according to mass/charge ratio. Measured    
+#  |g(ce) coincidences and lifetime for a 65.4 level.                     
+#  Gamma cascades are mostly in agreement with those from 2004Hu02:       
+#  but the spin-parity assignments including that of the ground state,    
+#   and associated band assignments are all different                     
+#  1991Ho16: 6.5E+4 fission/s. Argonne Notre Dame G facility              
+#  10 Bi-germinate-suppressed Ge detectors, 2 LEPS, 1 array of 50 Bi-Ge   
+#  scin used as a multiplicity filter.                                    
+#  All data are from 2005Ur02 unless otherwise stated                     
+#G M$From |g|g(|q), mult=Q corresponds to |DJ=2 and mult=D to |DJ=1       
+#G transition. In some cases mult is also from conversion coefficients    
+#G E(B)$Already seen by 1991Ho16                                          
+#L E$ from least-squares fit to E|g's (by evaluator) |DE|g=0.1 keV for    
+#L strong transitions and up to 0.5 keV for weak |g rays (authors' note). 
+#L The evaluator has assigned uncertainties to |g-ray energies based on   
+#L the following criterion: |DE|g=0.1 keV for I|g>20, 0.3 for I|g=10-20   
+#L and 0.5 for I|g<10.  For |g rays quoted to the nearest keV, |DE|g=1    
+#L keV has been assumed                                                   
+#L J$as given by 2005UR02,2006PI14                                        
+#L BAND(A)$ |n7/2[523], |a=+1/2                                           
+#L BAND(a)$ |n7/2[523], |a=-1/2                                           
+#L BAND(B)$ |n3/2[411], |a=+1/2                                           
+#L BAND(b)$ |n3/2[411], |a=-1/2                                           
+#L BAND(C)$ |n5/2[413], |a=+1/2                                           
+#L BAND(c)$ |n5/2[413], |a=-1/2                                           
+#P 0.0          0+                3.48E+5 Y 6                             
+CM248 MO107 SF 0.0 0.0 1.0
+

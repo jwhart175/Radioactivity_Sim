@@ -1,0 +1,30 @@
+# 19F     19O B- DECAY                                            95NP     199607
+#  19O B- DECAY                                            95NP     199607
+#H TYP=MOD$AUT=J. Blachot$COM=added T reference$DAT=15-FEB-2001$          
+#H TYP=FUL$AUT=TILLEY, WELLER, CHEVES, CHASTELER$CIT=NP A595, 1 (1995)$   
+#H CUT=31-OCT-1994$                                                       
+#  Changed T1/2 to agree with Adopted Levels (JB Feb 2001)                
+#  BETA branchings and G intensities are the work of 1982Ol02             
+#  unless otherwise noted                                                 
+#B IB$BETA intensities are calculated assuming 0% for the                 
+#B ground state transition                                                
+#G RI$GAMMA intensities are calculated assuming 0% for the BETA-branch    
+#G ground state transition                                                
+#P 0            5/2+             26.88 S   5               4819.6   29    
++B beta- 2.1998 0.04
++B beta- 2.146 5.5E-4
++B beta- 2.1031999999999997 0.45399999999999996
++B beta- 1.5432000000000001 1.7E-4
++B beta- 1.4885 1.0E-4
++B beta- 1.4425 0.544
++B beta- 0.8576 2.0E-5
++B beta- 0.3461 8.099999999999999E-5
++G gamma 2.35398 1.81E-5
++G gamma 3.7106399999999997 1.1000000000000001E-5
++G gamma 3.79787 1.33E-5
++G gamma 3.90774 3.84E-5
++B beta- 0.3075 1.0E-5
++B beta- 0.2931 1.0E-5
++B beta- 0.1524 9.84E-4
++B beta- 0.08940000000000001 1.0E-5
+

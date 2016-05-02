@@ -1,0 +1,18 @@
+# 91MO    91MO IT DECAY (64.6 S)        1976DE37,1956SM96         13NDS    201310
+#  91MO IT DECAY (64.6 S)        1976DE37,1956SM96         13NDS    201310
+#H TYP=FUL$AUT=Coral M. Baglin$CIT=NDS 114, 1293 (2013)$CUT=1-Sep-2013$   
+#  Others: 1955Ax02, 1970He03, 1973Ni04.                                  
+#  1976DE37: GE(LI) anti-COMPTON spectrometer. Measured EG, RI.           
+#  A full description of the experiment, together with the                
+#  complete set of data, is reported in 1975DeZX.                         
+#  1956SM96: SOURCE FROM (G,N), EG=22 MEV; 10-CHANNEL NAI(TL)             
+#  SCINTILLATION SPECTROMETER (G DETECTION); 255 DEG MAGNETIC             
+#  SPECTROMETER (B+ DETECTION); MEASURED EG, IG, I(ce), I(B+).            
+#                                                                         
+#G E         From Adopted Gammas. Other EG: 652.6 2 (1973Ni04).           
+#L E         FROM EG.                                                     
+#L T,J       From Adopted Levels.                                         
+#P 653.01     9 1/2-             64.6 S    6                              
+MO91 MO91 IT 0.0 64.6 0.9641
++G gamma 0.0 1.0
+

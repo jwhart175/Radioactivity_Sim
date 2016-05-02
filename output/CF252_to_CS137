@@ -1,0 +1,32 @@
+#137CS    252CF SF DECAY                2007LI21                  07NDS    200709
+#  252CF SF DECAY                2007LI21                  07NDS    200709
+#H TYP=FUL$AUT=E. BROWNE, J. K. TULI$CIT=NDS 108,2173 (2007)$             
+#H CUT=1-Oct-2006$                                                        
+#  Compiled (unevaluated) dataset from 2007Li21:                          
+#  Phys Rev C 75, 044314 (2007)                                           
+#  Compiled by S. Geraedts and B. Singh (McMaster), May 3, 2007           
+#  Spontaneous fission of {+252}Cf source with strength of |?62|mCi.      
+#  Measured E|g, I|g, |g|g coin using Gammasphere array of                
+#  102 Compton-suppressed Ge detectors.                                   
+#  Details of data were requested by the compilers from the authors on    
+#  April 26, 2007 but no response was received as of May 3, 2007.         
+#L E$Deduced by compilers from a least-squares fit to G-ray energies      
+#L assuming an uncertainty of 0.3 keV for each |g-ray.                    
+#L E(D)$ |pg7/2{+5} multiplet                                             
+#L E(E)$ |pg7/2{+4}d5/2 multiplet                                         
+#L E(G)$ |pg7/2{+4}h11/2 multiplet                                        
+#L E(H)$ |pg7/2{+3}d5/2h11/2 multiplet                                    
+#L E(F)$ |pg7/2{+3}d5/2{+2} multiplet                                     
+#L E(C)$ |pg7/2{+5}|nf7/2h11/2 multiplet                                  
+#L E(C)$ Member of configuration=|pg{-7/2}{+5}~#|n(f{-7/2}h{-11/2}{+-1})  
+#L E(D)$ Member of configuration=|pg{-7/2}{+5}                            
+#L E(E)$ Member of configuration=|pg{-7/2}{+4}~#|pd{-5/2}                 
+#L E(F)$ Member of configuration=|pg{-7/2}{+3}~#|pd{-5/2}{+2}             
+#L E(G)$ Member of configuration=|pg{-7/2}{+4}~#|ph{-11/2}                
+#L E(H)$ Member of configuration=|pg{-7/2}{+3}~#|pd{-5/2}~#|ph{-11/2}     
+#L BAND(A)$ |g sequence based on g.s.                                     
+#L BAND(B)$ |g sequence based on (19/2-)                                  
+#L BAND(C)$ Level sequence based on (19/2+)                               
+#P 0.0         0+                2.645 Y   8                              
+CF252 CS137 SF 0.0 8.346802377600001E7 1.0
+

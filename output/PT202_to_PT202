@@ -1,0 +1,26 @@
+#202PT    202PT IT DECAY                2005CA02                  08NDS    200803
+#  202PT IT DECAY                2005CA02                  08NDS    200803
+#H TYP=FUL$AUT=S. ZHU and F.G. KONDEV$CIT=NDS 109, 699 (2008)$            
+#H CUT=1-May-2007$                                                        
+#  2005Ca02: Projectile fragmentation of {+208}Pb beam at 1 GeV on        
+#  1.6 g/CM2 thick 9BE target. Fragment Recoil Separator (^FRS) was used  
+#  to identify {+202}Pt residues. Measured: E|g, I|g, and |g|g, |g|g(t);  
+#  Detectors: four "Clover" type Ge detectors (providing 16 independent   
+#  Ge crystals). The experimental setup also included two multi-wire      
+#  proportional counters for position measurements; two scintillation     
+#  detectors, providing time-of-flight                                    
+#  and position information; and a further two scintillators and an       
+#  ionization chamber (MUSIC) for energy loss measurements.  For each Ge  
+#  crystal, the energy and time of the first |g-ray event was recorded    
+#  after the arrival of a heavy ion, up to a maximum time of 75 |ms.      
+#G E(A)$534.9G was suggested as a doublet by the authors,                 
+#G based on the relatively large width and intensity.                     
+#G RI$Relative |g-ray intensity for transitions observed within the 75    
+#G |ms time window.                                                       
+#G RI(A)$Doublets, undivided intensity is given.                          
+#L E$From a least-square fit to EG.                                       
+#L J$From 2005CA02, based on the systematics of                           
+#L the even-even Pt isotopes.                                             
+#P 1788.5    4  (7-)              0.28 MS  +42-19                         
+PT202 PT202 IT 0.0 0.0 1.0
+

@@ -1,0 +1,34 @@
+# 14C     15B B-N DECAY                 1991HA25,1984DU15                  201305
+#  15B B-N DECAY                 1991HA25,1984DU15                  201305
+#H TYP=UPD$AUT=J. Kelley$CUT=17-January-2013$                             
+#H COM=Updated data set since last full evaluation$                       
+#  1991HA25: ^A beam of 15B ions was produced by fragmenting a 18O beam   
+#  on a thick 9BE target. 15B beam was separated in the ^A1200 fragment   
+#  separator and finally implanted in a ^BC412 detector at the rate of AP 
+#  600 HZ. Less than 6% contamination from 9LI, 6HE and 3H was present in 
+#  the beam.                                                              
+#  Beam on/off cycles of 50 MS on/50 MS off and 20 MS on/40 MS off were   
+#  used to pulse the implantation so the delayed neutron decay could be   
+#  studied.                                                               
+#  An array of 16 ^BC412 neutron detectors, curved bar shaped with a      
+#  radius of 1 m, covered roughly 1.9 SR and detected neutron energies by 
+#  tof between the implantation detector and the wall array.              
+#  Decay half-lives of T1/2=10.4 MS 2 and 10.5 MS 4 were obtained for     
+#  inclusive decays in the implantation detector and exclusive decays     
+#  that required a coincidence between the implantation detector and the  
+#  wall, respectively.                                                    
+#  Feeding to the neutron unbound excited states of 15C was deduced by    
+#  analyzing the tof spectrum between the implantation detector and the   
+#  neutron wall; five groups are observed. Analysis indicates the delayed 
+#  neutron decays proceed via 15C^*(3.1, 4.22, 4.66, 5.83, 6.36 MEV) ->   
+#  14C{-g.s.}+n.                                                          
+#  Finally, a measurement with 5 S activation and 6 S counting was used   
+#  to measure 15B |b-decay to 15C^*(0, 0.74), the ratio of implanted 15B  
+#  ions to the observed 15C decay activity yields the branching ratio to  
+#  populate these states, as well as, the 0 delayed neutron emission      
+#  probability, ^P{-0n}. The value %^P{-0n}=0.32 8 is determined.         
+#  In addition, no evidence of |b-2n emission is observed; however        
+#  ^P{-2n} LT 1.5% from (1984DU15) is accepted.                           
+#P 0           3/2-              10.4 MS   2              17867     21    
+B15 C14 neutron&beta- 17.867 0.0104 0.9968
+

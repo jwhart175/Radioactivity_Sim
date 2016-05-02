@@ -1,0 +1,26 @@
+#112RH    112RU B- DECAY                1991JO11                  15NDS    201412
+#  112RU B- DECAY                1991JO11                  15NDS    201412
+#H TYP=FUL$AUT=S. LALKOVSKI, F.G. KONDEV$CIT=NDS 124, 157 (2015)$         
+#H CUT=1-Aug-2014$                                                        
+#G CC$ FROM BrIcc v2.3 (9-Dec-2011) 2008Ki07, "Frozen Orbitals" appr.     
+#  1991JO11: Facility: ^IGISOL at Jyvaskyla; Source: Mass                 
+#  separated from 238U(P,F). E(P)=20 MeV: Detectors: DE-E telescope       
+#  comprising one SI(AU) surface barrier detector and one plastic         
+#  scintillator, two HPGe, ^CE spectrometer ^ELLI; Measured: Q{-|b},      
+#  E|g, I|g, ^CE, T; Deduced: level scheme, J|p, LOGFT; Also from the     
+#  same group: 1990AYZX, 1990JOZY, 1990JOZS                               
+#L E$From a least-squares fit to E|g                                      
+#L J$From Adopted levels                                                  
+#G E,RI$From 1991JO11                                                     
+#G M$From EKC in 1991JO11                                                 
+#B IB,LOGFT$The decay scheme is incomplete, the quoted values are         
+#B approximate                                                            
+#P 0.0         0+                1.75 S    7              4104      45    
+RU112 RH112 beta- 4.104 1.75 0.018
++G gamma 0.0823 3.2
++G gamma 0.24480000000000002 3.2
++G gamma 0.327 10.0
++G gamma 0.4595 0.2
++G gamma 0.128 0.1
++G gamma 0.5881000000000001 0.94
+

@@ -1,0 +1,16 @@
+#104RU    104RH EC DECAY (42.3 S)                                 07NDS    200709
+#  104RH EC DECAY (42.3 S)                                 07NDS    200709
+#H TYP=FUL$AUT=JEAN BLACHOT$CIT=NDS 108,2035 (2007)$CUT=30-Mar-2007$      
+#  Activity from 103RH(D,P), 103RH(N,G)                                   
+#  Measured G(1971DO10,1970OK03), GG, GG(THETA) (1972OK01,1972SI08)       
+#  GE(LI), NAI detectors. Others: 1967FE03, 1959GI63, 1955JO25, 1953JO09  
+#  See also 104RH B- decay                                                
+#  IB+<0.0005% (1961LA16)                                                 
+#  EC/B-=0.0045 10 from XK/IB (1965FR05)                                  
+#G E,RI$From 1972SI08                                                     
+#L J,T$From adopted levels                                                
+#P 0.0         1+                42.3 S    4              1139      4     
+RH104 RU104 beta+ 1.139 42.3 4.4
++G gamma 0.35812 0.008100000000000001
++G gamma 0.6296 5.0E-4
+

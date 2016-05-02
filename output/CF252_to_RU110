@@ -1,0 +1,170 @@
+#110RU    252CF SF DECAY                2009Zh24,2009LU18         12NDS    201206
+#  252CF SF DECAY                2009Zh24,2009LU18         12NDS    201206
+#H TYP=FUL$AUT=G. G~URDAL and F.G. KONDEV$CIT=NDS 113, 1315 (2012)$       
+#H CUT=1-Aug-2011$                                                        
+#  2009Zh24,2009LuZZ: Source of {+252}Cf |?60 |mCi                        
+#  was placed between two iron foils with a thickness of 10 mg/cm{+2}     
+#  and in the center of Gammasphere array (at LBNL),                      
+#  consisting of 101 Compton-suppressed Ge detectors. A total of          
+#  5.7|*10{+11} triple-|g or higher coincident events were collected.     
+#  Measured: E|g, I|g, |g|g(|q), |g|g|g.                                  
+#  Others: 2009Lu01, 2003Ji03, 2005Go40, 2004Ha19, 2002Ha40, 2001Kr13,    
+#  1995Lu10, 1997Ha64, 1986Ma22, 1980ChZM, 1972Wi15,                      
+#  1971Ch44, 1971Ho29, 1970Ch11, 1970Jo20, 1970Wa05                       
+#L E$ From a least-square fit to E{-|g}. |DE|g = 0.5 keV was assumed      
+#L by evaluators for all transitions                                      
+#L J$From 2009Lu18 and 2009Zh24, based on the multipolarities of the      
+#L transitions deduced by using |g|g(|q), systematics of low-lying        
+#L collective states in Ru isotopes, |g decay pattern and the observed    
+#L band structure                                                         
+#L BAND(A)$GS band.                                                       
+#L BAND(B)$One-phonon quasi-|g band, |a=0.                                
+#L BAND(C)$One-phonon quasi-|g band,|a=1.                                 
+#L BAND(D)$Two-phonon quasi-|g band.                                      
+#L Assignment based on the decay of this band mainly to                   
+#L one-phonon quasi-|g band.                                              
+#L BAND(E)$Band based on (10+) at 3193.4 keV in 2009ZH24.                 
+#L J|p assignments are tentative. This band could have                    
+#L negative parities and odd spins one unit less. Assigned as             
+#L four-quasiparticle band in 2003Ji03, but the authors stated that more  
+#L experimental data needed for assigning a definitive configuration      
+#L BAND(G)$ Band based on 7- at 2426.5 keV                                
+#L BAND(F)$ Band based on 6- at 2242.9 keV                                
+#L BAND(I)$ Band based on (5-) at 2145.3 keV                              
+#L BAND(H)$ Band based on (4-) at 2016.3 keV                              
+#G MR$LABEL=RI                                                            
+#G E,RI$From 2009Zh24 and 2009Lu18. RI normalized to the strongest branch 
+#G from each level                                                        
+#G MR$Relative intensities from 1995LU10, normalized to RI(240.8|g)=100   
+#P 0.0          0+               2.645 Y   8                              
+CF252 RU110 SF 0.0 8.346802377600001E7 1.0
++G gamma 0.24080000000000001 1.0
++G gamma 0.37189999999999995 1.0
++G gamma 0.6127 0.8190000000000001
++G gamma 0.42260000000000003 1.0
++G gamma 0.1965 0.015
++G gamma 0.24730000000000002 0.20600000000000002
++G gamma 0.6191 1.0
++G gamma 0.2245 0.027000000000000003
++G gamma 0.421 0.506
++G gamma 0.4717 1.0
++G gamma 0.8436 0.159
++G gamma 0.8964 1.0
++G gamma 0.5757000000000001 1.0
++G gamma 0.291 0.036000000000000004
++G gamma 0.5155 1.0
++G gamma 0.7119 0.203
++G gamma 0.5372 0.33299999999999996
++G gamma 0.7333 0.222
++G gamma 0.7838999999999999 0.222
++G gamma 1.1562000000000001 1.0
++G gamma 1.3969 0.444
++G gamma 0.534 0.267
++G gamma 0.7585 0.667
++G gamma 1.0057 1.0
++G gamma 1.3776 0.133
++G gamma 0.7963 1.0
++G gamma 1.0435999999999999 0.25
++G gamma 1.4154 0.88
++G gamma 0.3087 0.077
++G gamma 0.4452 0.111
++G gamma 0.5998 1.0
++G gamma 1.021 0.23
++G gamma 0.1645 0.31
++G gamma 0.4235 1.0
++G gamma 0.9605 0.25
++G gamma 1.5797999999999999 0.25
++G gamma 0.2424 1.0
++G gamma 0.7764 0.125
++G gamma 1.0009 0.125
++G gamma 0.7052999999999999 1.0
++G gamma 0.398 0.225
++G gamma 0.9318 0.27
++G gamma 1.1564 1.0
++G gamma 1.353 0.29
++G gamma 0.6455 1.0
++G gamma 0.7817000000000001 0.07400000000000001
++G gamma 0.22190000000000001 1.0
++G gamma 0.4924 0.43
++G gamma 0.7353999999999999 0.048
++G gamma 1.0264000000000002 1.0
++G gamma 0.5271 0.33
++G gamma 1.0608 0.4
++G gamma 1.4819 1.0
++G gamma 0.2265 0.215
++G gamma 0.8675 1.0
++G gamma 0.18280000000000002 0.037000000000000005
++G gamma 0.312 0.127
++G gamma 0.6436000000000001 0.135
++G gamma 0.9525 1.0
++G gamma 1.0888 0.41
++G gamma 0.4525 0.129
++G gamma 0.7127 1.0
++G gamma 0.18359999999999999 0.06
++G gamma 0.7423 0.2
++G gamma 1.1872 1.0
++G gamma 0.18869999999999998 0.002
++G gamma 0.37139999999999995 0.068
++G gamma 0.8322999999999999 0.061
++G gamma 1.2775 1.0
++G gamma 0.2109 0.425
++G gamma 0.3093 0.151
++G gamma 0.3945 1.0
++G gamma 0.6165 0.381
++G gamma 0.815 1.0
++G gamma 0.2479 0.34
++G gamma 0.8202 0.125
++G gamma 0.756 1.0
++G gamma 0.2554 0.152
++G gamma 0.4663 0.47100000000000003
++G gamma 0.9482 1.0
++G gamma 0.2768 0.057999999999999996
++G gamma 0.5247 0.41
++G gamma 1.0968 1.0
++G gamma 0.716 1.0
++G gamma 0.2826 0.145
++G gamma 0.5378999999999999 1.0
++G gamma 0.4164 1.0
++G gamma 0.7963 0.24
++G gamma 1.249 0.51
++G gamma 0.8573 1.0
++G gamma 0.2959 0.21
++G gamma 0.5724 1.0
++G gamma 0.5777 0.001
++G gamma 0.30989999999999995 0.19
++G gamma 0.5926 1.0
++G gamma 0.7259 0.87
++G gamma 0.8502000000000001 1.0
++G gamma 0.8876000000000001 1.0
++G gamma 0.3528 0.086
++G gamma 0.6485 1.0
++G gamma 0.9302999999999999 0.37
++G gamma 0.9405 1.0
++G gamma 0.4649 0.028999999999999998
++G gamma 0.5257000000000001 1.0
++G gamma 0.9595 0.071
++G gamma 0.3333 0.099
++G gamma 0.6432 1.0
++G gamma 0.8439 1.0
++G gamma 0.3488 0.15
++G gamma 0.7017 1.0
++G gamma 0.8996000000000001 1.0
++G gamma 0.3768 0.225
++G gamma 0.7102 1.0
++G gamma 0.6508999999999999 0.14
++G gamma 0.7039 1.0
++G gamma 0.6515 1.0
++G gamma 0.6704 0.018000000000000002
++G gamma 0.7564 1.0
++G gamma 0.929 1.0
++G gamma 0.37089999999999995 0.105
++G gamma 0.7479 1.0
++G gamma 0.8352999999999999 1.0
++G gamma 0.8152999999999999 1.0
++G gamma 0.7725 1.0
++G gamma 0.7997000000000001 1.0
++G gamma 0.8562000000000001 1.0
++G gamma 0.8462999999999999 1.0
++G gamma 0.8744 1.0
++G gamma 0.9001 1.0
+

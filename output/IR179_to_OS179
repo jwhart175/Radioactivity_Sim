@@ -1,0 +1,36 @@
+#179OS    179IR EC DECAY                1992BO19,2000RO41         09NDS    200902
+#  179IR EC DECAY                1992BO19,2000RO41         09NDS    200902
+#H TYP=FUL$AUT=Coral M. BAGLIN$CIT=NDS 110, 265 (2009)$CUT=15-Nov-2008$   
+#  2000RO41: MEASURED E(ce), I(ce) using HIGH-RESOLUTION MAGNETIC         
+#  SPECTROGRAPH.  SOURCE FROM SUCCESSIVE DECAYS FROM 183HG SOURCE.        
+#  1992BO19: SOURCE FROM 240 MEV 36AR BOMBARDMENT OF 148ND ENRICHED TO    
+#  93.2%; He-JET TAPE TRANSPORT; TWO Ge DETECTORS; MEASURED EG, IG,       
+#  G-XK COIN, GG COIN, G(t).                                              
+#  The decay scheme is that of 1992BO19 WITH THE ADDITION OF KNOWN        
+#  115 AND 210 LEVELS TO ACCOMMODATE THE 95G REPORTED BY 2000RO41.        
+#  Since Q+ is large (4943 21), and decay is observed only                
+#  to populate levels with E LE 320 KEV, this decay scheme may be         
+#  far from complete and the evaluator, therefore, considers deduced      
+#  EC+B+ feeding and LOGFT values to be unreliable. The apparent EC+B+    
+#  feeding of the 243, 273 and 320 levels (JPI=(9/2)+, (9/2-), 9/2-,      
+#  respectively) is possibly consistent with a parent JPI of 7/2-, but    
+#  not 5/2-; however, this may instead be attributable to incompleteness  
+#  of the decay scheme.  The latter branch must be <2% (from LOGF1UT>8.5) 
+#  and the other two should be negligible for decay from a (5/2)- parent. 
+#  The principal decay branch appears to occur to the 145-KEV, (7/2)-     
+#  level and is almost certainly an allowed transition.                   
+#G E,RI      FROM 1992BO19, EXCEPT AS NOTED.                              
+#G M         FROM Adopted Gammas, except as noted.                        
+#L E         FROM EG.                                                     
+#L J         FROM Adopted Levels.                                         
+#L E(A)      An additional 24-KEV G is expected (from Adopted Gammas) to  
+#L deexcite the 320 level. Based on I(220G) here and adopted branching,   
+#L its photon intensity in 179IR EC decay is expected to be 0.052 12,     
+#L which is presumably far below the sensitivity limit in the decay       
+#L study by 1992BO19.                                                     
+#L BAND(V)   9/2[624] BAND.                                               
+#L BAND(W)   7/2[514] BAND.                                               
+#L BAND(Z)   1/2[521] BAND.                                               
+#P 0.0          (5/2)-           79 S      1              4943      21    
+IR179 OS179 beta+ 4.943 79.0 0.075
+

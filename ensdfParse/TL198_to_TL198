@@ -1,0 +1,47 @@
+#198TL    198TL IT DECAY (1.87 H)       1960JU01,1971PA06         09NDS    200910
+#  198TL IT DECAY (1.87 H)       1960JU01,1971PA06         09NDS    200910
+#H TYP=FUL$AUT=Huang Xiaolong$CIT=NDS 110, 2533 (2009)$CUT=1-Jun-2008$    
+#  Sources produced by {+198}Hg(d,2n) (1971Pa06) and {+197}Au(|a,3n)      
+#  (1954Mi16,1966Vi01,1970Du10,1971Be09,1977Kr04).                        
+#  1960Ju01: measured E|g, ce.                                            
+#  1971Pa06: measured E|g, I|g, and ce.                                   
+#  Others: 1953Be79, 1954Pa19, 1955Kn34, 1956Fi23, 1968Pe13, 1970Du10,    
+#  1971Be09.                                                              
+#L E         From decay scheme and E|g's by using                         
+#L least-squares fit to the E|g values                                    
+#L J         From adopted levels.                                         
+#L T         From adopted levels, except T{-1/2}(543.5 level)             
+#L from ce(t) decay curves (1960Ju01).                                    
+#G E,RI$From 1971Pa06 (semi), except as noted                             
+#G RI$Relative intensities normalized to I|g(587.2|g)=100 in {+198}Tl |e  
+#G decay (1.87 h). Values from 1971Pa06.                                  
+#G Others: 1960Ju01, 1970Du10, 1971Be09.                                  
+#G CC$ce data from 1960Ju01                                               
+#G CC$|a(K)exp=ce(K)/I|g normalized to |a(K)(259.6|g)=0.478 (M1 theory)   
+#P      543.5 47+                1.87 H    3                              
++G gamma 0.2596 0.06273
++G gamma 0.023100000000000002 8.487E-4
++G gamma 0.2828 0.615
++G gamma 0.26089999999999997 0.028289999999999996
+
+#198TL    198TL IT DECAY (32.1 MS)      1975SE12                  09NDS    200910
+#  198TL IT DECAY (32.1 MS)      1975SE12                  09NDS    200910
+#H TYP=FUL$AUT=Huang Xiaolong$CIT=NDS 110, 2533 (2009)$CUT=1-Jun-2008$    
+#  Sources produced by {+197}Au(|a,3n) (1956Fi23,1954Mi16) and            
+#  {+198}Hg(d,2n) (1971Pa06).                                             
+#  {+197}Au(|a,3n|g); E|a=32-42 MeV (pulsed beam); measured E|g, |g(t),   
+#  excit functions of 198.8|g and 282.8|g.                                
+#L E(A,C),J,T(A)$From adopted levels                                      
+#L E(B)$From E|g                                                          
+#G RI$Deduced from I(|g + ce) and |a                                      
+#G E,M$From adopted |g radiations                                         
+#G TI$From decay scheme. Branching of 23.1|g and 282.8|g is taken from    
+#G adopted |g's                                                           
+#P 742.3     4 (10-)             32.1 MS   10                             
+TL198 TL198 IT 0.0 0.032100000000000004 1
++G gamma 0.2595 0.062
++G gamma 0.023100000000000002 8.100000000000001E-4
++G gamma 0.2828 0.61
++G gamma 0.26089999999999997 0.0276
++G gamma 0.1988 0.20600000000000002
+

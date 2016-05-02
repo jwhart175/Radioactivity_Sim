@@ -1,0 +1,69 @@
+# 19O     19N B- DECAY                  2006Su12                           201308
+#  19N B- DECAY                  2006Su12                           201308
+#H TYP=UPD$AUT=J. Kelley$CUT=10-July-2013$CIT=ENSDF$                      
+#H COM=Updated data set since last full evaluation$                       
+#  1986Du07: 19N ions from the fragmentation of a 60 MeV/u 40AR beam on a 
+#  Be target at ^GANIL were filtered by the ^LISE spectrometer and        
+#  implanted in a Ge detector.                                            
+#  Beta gamma coincidences of 19N were measured along with their relative 
+#  intensities. T1/2=320 MS 100 was also deduced.                         
+#  1988Sa04: 19N ions from the fragmentation of a 35 MeV/u 22NE beam on a 
+#  Ta target at ^MSU were filtered by the ^RPMS and were implanted in a Si
+#  telescope. Multiple neutron-rich isotopes were separated and identified
+#  by the ^RPMS, and each of their half lives was measured. All counts    
+#  above a threshold of 0.3 MEV were recorded. T1/2=235 MS 32 was         
+#  deduced for 19N.                                                       
+#  1988Mu08: 19N ions from the fragmentation of a 45 MEV/u 48CA beam on a 
+#  181TA target at ^GANIL were filtered                                   
+#  by the ^LISE spectrometer and implanted in a SI telescope.             
+#  The telescope was surrounded by a thin scintillator to detect |b-rays  
+#  and a segmented NE102A 4|p neutron array with an energy threshold of   
+#  350 keV.                                                               
+#  Following implantation of 19N in the telescope the cyclotron frequecy  
+#  was scrambled and the decay event was measured.                        
+#  A delayed neutron emission probability of PN=33 +34-11% was deduced.   
+#  T1/2=210 MS +200-100 was also measured.                                
+#  1991Re02: Spallation products from 800 MEV proton bombardment of a     
+#  232TH target were captured by a transport line with a mass-to-charge   
+#  filter and transferred to the ^TOFI spectrometer at ^LAMPF.            
+#  The |b-delayed neutron probability PN=62.4 2.6% was deduced and        
+#  T1/2 = 329 MS 19  was measured.                                        
+#  A reanalysis of the (1991Re02) data, with additional data              
+#  was published in the International conference on nuclear data for      
+#  science and technology: nuclear data for the twenty-first century,     
+#  Gatlinburg, ^TN (United States), 9-13 May 1994. The reanalysis         
+#  indicates PN=(48.7 21)% and T1/2 = 255 MS 10.                          
+#  2006Su12: 19N ions from fragmentation of an 80 MEV/u 22NE beam on a Be 
+#  target were selected by the ^NSCL ^A1200 fragment separator and        
+#  implanted in a plastic scintillator. An array of curved plastic        
+#  scintillator bars surrounded the implantation target. The              
+#  time-of-flight between the implantation detector (beta counter) and the
+#  neutron detector array determined the neutron energies. Two ^HPGE      
+#  detectors measured |g rays. The neutron emission probability           
+#  Pn=(41.8 9)% was deduced from the neutron data. The analysis revealed  
+#  eight neutron groups to 18O states. |g transitions among excited states
+#  in 19O and 18O  were also observed. A detailed decay scheme is         
+#  suggested by comparison of the |g transition intensities amongst the   
+#  19O levels, |b-|g-n coincidences, and a reasonable placement of neutron
+#  group intensties that could give an intensity balance. Neutron emission
+#  groups with intensities less than 1% are left unplaced in the decay    
+#  scheme. T1/2=336 MS 3 was also measured.                               
+#  Comments: The measurements of 2006Su12 provide the most complete       
+#  measure of 19O and 18O spectroscopy for levels and transitions involved
+#  in the decay. 1986Du07 measured an additional |g ray energy            
+#  of 709.2 keV not detected by 2006Su12. This nonobservation can be      
+#  explained by a contaminant of 22O in the beam. 2006Su12 also expresses 
+#  two possible sources of gamma decay for the 2475.2 keV transition. This
+#  energy is consistent with both the 1- to 2+ transition in 18O as well  
+#  as the 3/2- to 1/2+ in 19O. It was assigned to 19O; the intensity ratio
+#  in 18O should have an absolute intensity ratio of 13:5 and the observed
+#  intensity ratio was 1:13.                                              
+#P 0           1/2-              336 MS    3              12532     16    
+N19 O19 beta- 12.532 0.336 1
++G gamma 0.0964 0.474
++G gamma 1.3757000000000001 0.172
++G gamma 3.139 0.081
++G gamma 2.4751999999999996 0.156
++G gamma 3.851 0.22
++G gamma 3.947 0.034
+

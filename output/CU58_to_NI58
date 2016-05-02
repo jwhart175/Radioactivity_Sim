@@ -1,0 +1,39 @@
+# 58NI    58CU EC DECAY (3.204 S)       1972JO01                  10NDS    201004
+#  58CU EC DECAY (3.204 S)       1972JO01                  10NDS    201004
+#H TYP=FUL$AUT=CAROLINE D. NESARAJA, SCOTT D. GERAEDTS AND BALRAJ SINGH$  
+#H CIT=NDS 111, 897 (2010)$CUT=12-Jan-2010$                               
+#  1972JO01: MEASURED EG, IG                                              
+#  1971CA03: MEASURED EG, IG                                              
+#  1970RA34: MEASURED EG, IG, GG                                          
+#  1964SH11: MEASURED GG                                                  
+#  1962SU12, 1962MI13: MEASURED B+, BG, GG                                
+#  Decay scheme is that of 1972Jo01                                       
+#  2001PE23: MEASURED IG COMBINED WITH AN ON-LINE MASS SEPARATION of 58CU 
+#  DEDUCED PRECISE EC+B+ FEEDING TO G.S.                                  
+#  2001JA16: MEASURED TOTAL ABSORPTION G-RAY SPECTRUM, DEDUCED B FEEDINGS 
+#E           From G+-/1454.6G=12.5 13 B feeding of ground state=82% 2 was 
+#E derived (1972Jo01). From similar technique but using a mass separated  
+#E source, 2001Pe23 deduce feeding of 80.7%. 2001Ja16 deduce 81.2 5       
+#E from total absorption gamma-ray spectrum                               
+#E           From BG 1962Su12 give EB+=(6000) (%IB+ LT 4),                
+#E 4500 (%IB+=15 6); EB+(GS)=7439 25 (1962Mi13)                           
+#G M,MR      From 'adopted gammas'                                        
+#L E         From least-squares fit to E|g's                              
+#L J         Adopted values                                               
+#P 0.0         1+                3.204 S   7              8565.6    14    
+CU58 NI58 beta+ 8.5656 3.204 0.169
++G gamma 1.4546 1.0
++G gamma 0.040299999999999996 0.3
++G gamma 0.1672 0.057
++G gamma 1.4886 0.066
++G gamma 1.5842 0.0126
++G gamma 3.0385 0.006500000000000001
++G gamma 2.0776 0.0043
++G gamma 0.8186 0.006999999999999999
++G gamma 2.1401999999999997 0.0042
++G gamma 3.595 0.0271
++G gamma 0.855 0.040999999999999995
++G gamma 1.547 0.0045000000000000005
++G gamma 1.6738 0.0051
++G gamma 3.0837 0.0062
+

@@ -1,0 +1,76 @@
+#164TM    164YB EC DECAY (75.8 M)       1982ADZZ                  NDS01    200107
+#  164YB EC DECAY (75.8 M)       1982ADZZ                  NDS01    200107
+#H TYP=FUL$AUT=BALRAJ SINGH$CIT=NDS 93, 243 (2001)$CUT=15-May-2001$       
+#  1982ADZZ: Measured E|g, I|g, ce, I(x rays). Previous work from         
+#  the same laboratory: 1972GRYR (also 1975GR44), 1965AB05, 1960DA16,     
+#  1960AB05                                                               
+#  1971DE22: Measured E|g, I|g, |g|g coin                                 
+#  1997ZAZW: Measured ce for nine |g rays                                 
+#  The proposed level scheme is considered as tentative.                  
+#E IE        From intensity balance at each level.                        
+#G              TM x rays:                                                
+#G     E(X-RAY)  I(relative to IG(390.62G)=100)   designation             
+#G     -------------------------------------------------------------------
+#G       49.880 4     9725 60                       XKA2                  
+#G       50.836 3     17010 70                      XKA1                  
+#G       57.485 5     5720  80                      XKB1                  
+#G       59.150 9     1500  50                      XKB2                  
+#G                                                                        
+#G           ICE measured by BETA-spectrograph unless otherwise noted.    
+#G Quoted ICE's are relative to ICE(K)(390.6G)=6.3                        
+#G           CE data normalized using KC(362.84 M1)=0.076                 
+#G E,RI$From 1982ADZZ. Values for 16 |g rays (including 8 |g rays         
+#G with uncertain isotopic assignment) are also listed by 1971DE22.       
+#G While E|g's from 1971DE22 are in general agreement with those          
+#G from 1982ADZZ, I|g's differ significantly.                             
+#G E(A)      GAMMA coincidence with CEL1(37.57G).                         
+#G E(D)$From CE data of 1997ZAZW only                                     
+#G E(E)$|g reported by 1971DE22 also.                                     
+#G RI(B)     IG's were calculated (evaluator) from the limit on           
+#G total transition intensities and EKC that were given by 1982ADZZ.      
+#G CC(F)     For MR=1                                                     
+#L J         From adopted levels.                                         
+#P 0           0+                75.8 M    17             1100      AP    
+YB164 TM164 beta+ 1.1 4548.0 1.0
++G gamma 0.358 2.88E-4
++G gamma 0.4446 0.001488
++G gamma 0.4759 1.7759999999999998E-4
++G gamma 0.5468999999999999 6.479999999999999E-4
++B beta+ 8.158E-4 0.0014099999999999998
++B beta+ 8.229E-4 0.00135
++B beta+ 8.224E-4 0.00136
++G gamma 0.040928 0.008879999999999999
++G gamma 0.09405 4.3199999999999993E-4
++G gamma 0.09734000000000001 3.12E-4
++G gamma 0.135 1.68E-4
++G gamma 0.36284 0.0016319999999999998
++B beta+ 8.224E-4 0.00136
++G gamma 0.18780000000000002 6.96E-4
++B beta+ 8.075E-4 0.00147
++G gamma 0.4195 3.12E-4
++B beta+ 8.072E-4 0.00147
++G gamma 0.534 1.1999999999999999E-4
++B beta+ 8.062000000000001E-4 0.00148
++G gamma 0.19080000000000003 7.679999999999999E-4
++G gamma 0.4467 0.0021599999999999996
++G gamma 0.5436 6.72E-4
++G gamma 0.5816 1.1999999999999999E-4
++B beta+ 8.055E-4 0.00148
++G gamma 0.1991 3.12E-4
++G gamma 0.4913 4.7999999999999994E-5
++B beta+ 8.021E-4 0.001
++G gamma 0.63812 0.0018
++G gamma 0.67541 0.0029519999999999998
++B beta+ 7.974E-4 0.02
++G gamma 0.7327 1.44E-4
++B beta+ 7.9E-4 0.06
++G gamma 0.15418 4.5599999999999997E-4
++G gamma 0.6018 7.2E-5
++B beta+ 7.894999999999999E-4 0.07
++G gamma 0.8873 4.0799999999999994E-4
++G gamma 0.9287000000000001 5.76E-4
++B beta+ 7.07E-4 0.002
++G gamma 0.4021 7.199999999999999E-4
++B beta+ 6.730000000000001E-4 0.002
++G gamma 0.32743 2.1599999999999996E-4
+

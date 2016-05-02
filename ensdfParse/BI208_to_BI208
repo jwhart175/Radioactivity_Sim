@@ -1,0 +1,24 @@
+#208BI    208BI IT DECAY                                          07NDS    200707
+#  208BI IT DECAY                                          07NDS    200707
+#H TYP=FUL$AUT=M. J. MARTIN$CIT=NDS 108,1583 (2007)$CUT=1-Jun-2007$       
+#  1958DU80  209BI(G,N)  E|<22 MEV                                        
+#  1961GL16  209BI(N,2N) E=14.7 MEV                                       
+#  1962MO19  208PB(P,N), 209BI(P,PN)  E=9 MEV                             
+#  1966ME02  209BI(N,2N) E=14.7 MEV                                       
+#  1967HI08  209BI(G,N)                                                   
+#  1968BO23  208PB(D,2N) E=13 MEV                                         
+#  1968GA17  209BI(G,N)                                                   
+#  1973SA22  209BI(N,2N) E=14.7 MEV                                       
+#  1974HU11  208PB(D,2N) E=18 MEV                                         
+#  1975WHZY,1974WHZT  204HG(7LI,3N) E=34 MEV                              
+#  1976GA33  209BI(N,2N) E=14.7 MEV                                       
+#  1986AR12  PB(P,XN) E=20 MEV                                            
+#  1995AN36  209BI(N,2N) E=14 MEV                                         
+#  XK: I(XK)/I(921G)=0.50 8 (1968BO23), 0.44 9 (1968GA17).                
+#G E,RI$FROM 1968BO23. OTHER: 1968GA17                                    
+#G $GG: SEE 1967HI08.                                                     
+#G M$FROM RELATIVE ICE(K) AND IG DATA OF 1968BO23 NORMALIZED SO THAT      
+#G EKC(140G)=3.05 14 (SEE 139G BELOW)                                     
+#L E$FROM A LEAST-SQUARES FIT TO THE ADOPTED EG DATA                      
+#P 1571.1     8 10-              2.58 MS   4                              
+

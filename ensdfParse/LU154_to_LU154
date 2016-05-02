@@ -1,0 +1,39 @@
+#154LU    154LU IT DECAY (35 US)        1993MC03,1990MC02         09NDS    200910
+#  154LU IT DECAY (35 US)        1993MC03,1990MC02         09NDS    200910
+#H TYP=FUL$AUT=C. W. Reich$CIT=NDS 110, 2257 (2009)$CUT=1-May-2008$       
+#  DATA SET UPDATED (FEBRUARY, 2007) BY CW REICH TO INCLUDE REFERENCE TO  
+#   A THEORETICAL STUDY OF E2 HINDRANCE, RECALCULATED ICC VALUES,         
+#   A RECALCULATED NR VALUE, AND CHANGES TO SOME COMMENTS.                
+#  This 154LU isomer was produced in the {+102}Pd({+54}Fe,pn) reaction    
+#  with E(54FE)=245 MeV. The recoil-product 154LU isomer was mass-analyzed
+#  in the ^Daresbury ^Recoil ^Separator and collected on an ^Al catcher   
+#  foil. G singles and GG coincidences were measured using several ^Ge    
+#  detectors and a ^LEPS detector.                                        
+#G E         From 1993Mc03, unless noted otherwise                        
+#G E(V)      From level-energy difference. G not observed.                
+#G RI        From 1993Mc03                                                
+#L           There may be some question as to whether the lowest level    
+#L reported here (the (9+) level) is the same as the level that decays    
+#L via EC to 154YB. In their study of the 154LU EC decay, 1988Vi02 assign 
+#L the EC parent level as (7+). With this in mind, 1990Mc02 state that    
+#L their results shed no light on this question, since a low-energy,      
+#L highly converted transition (from (9+) to (7+)) would not have been    
+#L detected in their work. However, the evaluators have concluded, based  
+#L on the information from the in-beam studies (1993Zh10,1996Zh09) of the 
+#L 154YB level scheme, that the JPI value of the 154LU parent in the EC   
+#L decay is probably not (7+) but rather is (9+). Throughout this         
+#L evaluation, it has been assumed that the (9+) level seen here is the   
+#L same as the parent state of the 154LU EC decay.                        
+#L E         Relative values calculated from a least-squares fit to the   
+#L listed EG values. From the 158TA ALPHA decays the energy of the        
+#L lower (9+) level is 59 9 keV (1997Da07).                               
+#L J         The JPI values and configuration assignments are those       
+#L suggested by 1990Mc02 and are based on analogy to those in 150HO and   
+#L 152TM. Assignments agree with those in 154LU Adopted Levels.           
+#L J(A)      CONF=((P,H11/2,n)(N,F7/2))                                   
+#L J(B)      CONF=((P,H11/2,n)(N,H9/2))                                   
+#L J(C)      3- octupole vibration built on the GS CONF.                  
+#L J(D)      CONF=((P,H11/2,n)(N,I13/2))                                  
+#P   130.4+Y  3 (17+)            35 US     3                              
+LU154 LU154 IT 0.0 3.5E-5 1.0
+

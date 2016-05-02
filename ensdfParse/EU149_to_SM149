@@ -1,0 +1,53 @@
+#149SM C  1996VY01 (ALSO 1979VYZV): ANALYSIS OF 149EU EC DECAY DATA FROM         
+#  1996VY01 (ALSO 1979VYZV): ANALYSIS OF 149EU EC DECAY DATA FROM         
+#  AUTHORS' EARLIER (1978-1980) STUDIES REPORTED IN SECONDARY             
+#  PUBLICATIONS; FIVE EXCITED STATES REPORTED AT 22.5, 277.1,             
+#  350.0, 528.5 AND 558.4 WITH EC+B+ FEEDINGS FOR GS AND THE              
+#  FIVE EXCITED STATES.                                                   
+#  Others: 1976Ga10, 1970Ch09, 1968Wi21, 1968Ad01,                        
+#  1966Wi12, 1966Mc11, 1966Av05, 1963Ha43, 1962Wa32, 1962Dz02, 1961Ha40,  
+#  1961Ha23, 1959An36, 1953Ma17, 1951Ho30                                 
+#  GG: 1976Ga10, 1966Mc11, 1966Av05, 1962Wa32                             
+#  CE: 1981Ar17, 1970An17. Others: 1966Mc11, 1966Av05, 1966Wi12, 1962Wa32,
+#  1962Dz02, 1961Ha23, 1959An36                                           
+#  GG(THETA): 1980Kr15 (semi-semi and semi-scin systems), 1963Ha43        
+#  GG(THETA,H,TEMP): 1981KrZS, 1983Kr19                                   
+#  GG(T) and CEG(T): 1970Ko30, 1966Be39, 1963Ki15                         
+#E IE$ THE RESULTS OF 2003MIZU FOR EMISSION PROBABILITIES OF              
+#E 277G AND 327G WOULD IMPLY THAT ALL EC FEEDINGS, EXCEPT THAT FOR        
+#E THE GS, SHOULD BE ADJUSTED UPWARDS BY AP 17%                           
+#G E$From 1982Me10. In several cases 1982Me10 give uncertainties of less  
+#G than 10 EV. The evaluator has adopted a lowest uncertainty of 10 EV    
+#G based on least squares fit to EG's in the level scheme                 
+#G CC$Theoretical values (1968Ha53) based on MR values deduced from CE    
+#G data of 1982Me10 and 1992Ca11 and/or G(THETA) data in reaction studies.
+#G Experimental values of EKC, ELC, EMC given under comments have         
+#G been deduced from present RI's and ICE(K), ICE(L), and ICE(M) from     
+#G 1982Me10. For 254G, 277G, 281G and 327G, weighted average of electron  
+#G intensities available from 1992Ca11 and 1982Me10 are taken.            
+#G The data have been normalized to the 350G treated as pure E2. On the   
+#G basis of AP 3% uncertainty on RI's and 5% on ICE's an uncertainty of   
+#G AP 7% is assigned to ECC's. It may be noted that in some cases the     
+#G ECC's given by 1982Me10 cannot be reproduced from their intensities. In
+#G these cases it appears that the electron intensities are in error      
+#G RI$ THE EMISSION PROBABILITIES (PHOTONS/100 DECAYS) REPORTED BY        
+#G 2003MIZU FOR 277G AND 327G AS 4.13 3 AND 4.75 3, RESPECTIVELY, IMPLY   
+#G THAT ALL INTENSITIES SHOULD BE ADJUSTED UPWARDS BY AP 17%. HOWEVER,    
+#G SINCE THE RESULTS OF 2003MIZU HAVE NOT YET APPEARED IN A REGULAR       
+#G PUBLICATION, THE EVALUATOR CONSIDERS IT PREMATURE TO ADOPT THE         
+#G REVISED ABSOLUTE INTENSITIES.                                          
+#G RI(B)$From 1982Me10                                                    
+#G RI(A)$Weighted average of 1992Ca11, 1982Me10 and 1976Ga10. A 3%        
+#G minimum uncertainty was assigned (by evaluator) in cases where         
+#G quoted uncertainties (by authors) were unrealistically low             
+#G M$From CE data (1982Me10). For 22.5G the data are from 1981Ar17        
+#G and 1970An17. For normalization, MULT(350G) was used as pure E2        
+#G (1982Me10)                                                             
+#L J$From adopted levels                                                  
+#L E$From least squares fit to EG's                                       
+#P   0.0        5/2+               93.1 D  4               695      4     
++B beta+ 0.031 0.11
++G gamma 0.5682699999999999 2.4000000000000003E-7
++G gamma 0.59088 9.600000000000001E-7
++G gamma 0.6365 1.4999999999999998E-6
+

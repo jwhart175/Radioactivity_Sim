@@ -1,0 +1,22 @@
+#110SN    110SB EC DECAY                1976OX01                  12NDS    201206
+#  110SB EC DECAY                1976OX01                  12NDS    201206
+#H TYP=FUL$AUT=G. G~URDAL and F.G. KONDEV$CIT=NDS 113, 1315 (2012)$       
+#H CUT=1-Aug-2011$                                                        
+#G CC$ FROM BrIcc v2.2 (31-Mar-2008) 2008KiAA, "Frozen Orbitals" appr.    
+#  {+110}Sb was produced via{+112}Sn(p,3n) reaction. The proton beam was  
+#  accelerated from 25 to 60 MeV in 5 MeV intervals at the McGill         
+#  cyclotron. Isotropically enriched 79.6% metallic powder tin targets    
+#  sealed in thin-walled beryllium tubes were used. |g-rays were detected 
+#  using two Ge(Li) detectors. Measured: E|g, I|g, |g|g-coin              
+#  Others: 1972Mi26, 1972Si28                                             
+#L E$From least-squares fit to E|g's                                      
+#L J$From adopted levels                                                  
+#G E,RI$From E{-p}=40 MeV (I|g(1211.7)=100) in 1976Ox01                   
+#G M$From adopted gammas                                                  
+#E TI,LOGFT$From total intensity balances and the level scheme            
+#N 0.916     4           1.0       1.0                                    
+#N NR$From SUMOF TI to GS=100 with the assumption that there is           
+#N no direct B-feeding to the 110SN g.s.                                  
+#N                                                                     5  
+#P 0.0         (3+)              23.6 S    3              8394      15    
+

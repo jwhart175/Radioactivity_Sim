@@ -1,0 +1,41 @@
+#183W     183TA B- DECAY (5.1 D)        1975BO05,1965ED01,1965GR16         199107
+#  183TA B- DECAY (5.1 D)        1975BO05,1965ED01,1965GR16         199107
+#H TYP=FMT$AUT=J. TULI$COM=FIXED FATAL FORMAT ERRORS$DAT=30-JUL-1999$     
+#H TYP=FUL$AUT=R.B. FIRESTONE$CIT=NDS 65,589 (1992)$CUT=22-Dec-1992$      
+#H TYP=UPD$AUT=R. Firestone$CUT=22-Dec-1992$                              
+#  Other reference: 1970Gr13                                              
+#G E$Weighted average of 1965Gr16, 1970Gr13 and 1975Bo05 least-squares fit
+#G to the level scheme.                                                   
+#G RI$Average from data of 1965Ed01 and data of Schult and Graber,        
+#G which is unpublished, but included in 1965Ed01, except as noted.       
+#G M,MR$From subshell branching ratios and ICC measurements of            
+#G 1955Mu19, 1962Ha24, 1965Ed01, 1970Ag06, 1972Bb21, and 1980Ar22         
+#G except where noted. MR sign is from 1973Kr01.                          
+#G MR(B)$From angular distribution measurements (1973Kr01).               
+#G RI(A)$Total intensity of 313.0+313.3 KEV G is 26.7 7 relative          
+#G to 100 for the 246-KEV G. The adopted intensity is obtained            
+#G from a weighted average of values derived by assuming that             
+#G IG(313.3)=IG(102.5)(1+ALPHA(102.5))/(1+ALPHA(313.3))=17.2 11 and       
+#G I(313.3)=14.3 9 derived from I(313.0)/I(205.1)=3.78 14 in              
+#G 183RE decay.                                                           
+#G M(A)$From 1965Ed01 L1/L2/L3=58/5/0.6 for the combined transitions.     
+#G If both transitions are M1(+E2) this yields MR=0.08. The               
+#G small admixture cannot be apportioned between the individual           
+#G transitions and is neglected here.                                     
+#N                                                                        
+#N NR$assuming 100% of BETA feeding to levels at 412-,                    
+#N 453-, 595-, and 623-KEV. This is consistent with                       
+#N no B's observed to GS (1955Mu19)                                       
+#N and the intensity balances through the lower levels.                   
+#G RI(B)$The intensities of Schult and Graber quoted in 1965Ed01 appear to
+#G be systematically high for low energy gammas and were not averaged.    
+#N   0.268   14              1.00    1.0                                  
+#G           For DRI(absolute) combine 5.3% in quadrature with            
+#G DRI(relative), except as noted.                                        
+#L J$From adopted levels                                                  
+#P 0.0          7/2+              5.1 D     1              1070.5   19    
++B beta- 0.2051 0.023
++B beta- 0.1904 0.92
++B beta- 0.1412 0.009899999999999999
++B beta- 0.132 0.05
+

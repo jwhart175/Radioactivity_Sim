@@ -1,0 +1,21 @@
+# 60FE    60MN B- DECAY (0.28 S)        2006LI15                  13NDS    201312
+#  60MN B- DECAY (0.28 S)        2006LI15                  13NDS    201312
+#H TYP=FUL$AUT=E. BROWNE, J. K. TULI$CIT=NDS 114, 1849 (2013)$            
+#H CUT=31-Dec-2012$                                                       
+#G CC$ FROM BrIcc v2.2 (31-Mar-2008) 2008KiAA, "Frozen Orbitals" appr.    
+#  Slightly modified by E. Browne (Jan. 11, 2013).                        
+#  2006Li15 produced the {+60}Cr source                                   
+#  from projectile fragmentation of {+86}Kr at E=140 MeV/A incident on Be 
+#  and mass separation. Fully-stripped {+60}Cr fragments were implanted in
+#  double-sided Si microstrip detector which was part of beta counting    
+#  system. Measured fragment-|b|g, |b|g(t)                                
+#  1988Bo06: {+60}Mn from W({+76}Ge,X), E=11.5 MeV/nucleon, mass          
+#  separation, measured E|g, I|g, |b|g, |g|g, T{-1/2}. 1988Bo06 did       
+#  not observe decay in |b{+-}|g coin, which implied a 100% |b{+-} branch 
+#  to {+60}Fe g.s.                                                        
+#P 0.0         1+                0.28 S    2              8444      4     
+MN60 FE60 beta- 8.444 0.28 1.0
++G gamma 0.8234 0.122
++G gamma 1.1502000000000001 0.05
++G gamma 1.5324 0.03
+

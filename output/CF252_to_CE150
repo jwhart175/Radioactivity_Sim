@@ -1,0 +1,22 @@
+#150CE    252CF SF DECAY                2012ZH03                  13NDS    201306
+#  252CF SF DECAY                2012ZH03                  13NDS    201306
+#H TYP=FUL$AUT=S. K. Basu, A. A. Sonzogni$CIT=NDS 114, 435 (2013)$        
+#H CUT=1-Apr-2013$                                                        
+#  {+252}Cf source of |?60 |mCi. Prompt |g-rays detected by the           
+#  Gammasphere array consisting of 101 Compton suppressed Ge detectors.   
+#  Measured E|g, I|g, |g|g-coin, |g|g(|q). Deduced levels, J, |p,         
+#  multipolarity, B(E1)/B(E2) branching ratios and bands.                 
+#L E$From least-squares fit to E|g data, assuming 0.3 keV                 
+#L uncertainty for each |g ray                                            
+#L BAND(A)$Ground state band                                              
+#L BAND(B)$Band based on 7-                                               
+#L BAND(C)$Band based on (6-)                                             
+#L BAND(D)$Band based on (7)                                              
+#L BAND(E)$Band based on (8)                                              
+#  Earlier experimental work: 1995Zh39, 1988Ph02, 1974SeZZ, 1973Kh05,     
+#  1974Ar20, 1977ArZS, 1977Pf01, 1980ChZM, 1980KeZQ, 1992ZhZT             
+#  1999Sm05: Measured g-factors of excited states in Ba and Ce fission    
+#  fragments using time-integral perturbed angular correlation technique  
+#P 0            0+                2.645 Y   8                             
+CF252 CE150 SF 0.0 0.0 1.0
+

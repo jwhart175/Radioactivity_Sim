@@ -1,0 +1,28 @@
+#202TL    202PB EC DECAY (52.5E+3 Y)    1954HU61,1981NA15         08NDS    200803
+#  202PB EC DECAY (52.5E+3 Y)    1954HU61,1981NA15         08NDS    200803
+#H TYP=FUL$AUT=S. ZHU and F.G. KONDEV$CIT=NDS 109, 699 (2008)$            
+#H CUT=1-May-2007$                                                        
+#  1954HU61: 202PB sample was produced using the 203TL(d,3N) reaction.    
+#  E(d)=21 MEV. ^Pb chemically separated, 202PB separated by mass         
+#  spectrometer.                                                          
+#  Measured (202HG XL)/(202TL XL)=1.6, (TL XK)/(HG XK) LT 0.005. T(202PB) 
+#  T(202PB)=3E5 Y estimated by the authors.                               
+#  1981NA15: 202PB sample was produced by {+nat}Tl(p,XN). E(p)=52 MEV.    
+#  ^Pb chemically separated, 202PB separated by mass spectrometer.        
+#  T(202PB)=52.5E+3 Y 28 was obtained from measuring the 202PB activity   
+#  of sample with known number of 202PB atoms.                            
+#L E,J,T$From adopted levels                                              
+#P 0            0+               52.5E+3 Y 28             50        15    
+PB202 TL202 beta+ 0.05 1.656737712E12 1.0
++B beta+ 7.5E-4 0.0018709999999999998
+
+#202TL CG RI$From 1972Gu06 relative to RI(787G)=100 in 202PB IT DECAY            
+#G RI$From 1972Gu06 relative to RI(787G)=100 in 202PB IT DECAY            
+#G E$From 1972Gu06.                                                       
+#G M$From EKC,ELC based on ICE/RI assuming 787G in 202PB has EKC=0.0818 12
+#G (pure E5). CE intensities from 1957Mc40, RI from 1972Gu06.             
+#L E,T$From adopted levels                                                
+#L J$From deduced transition multipolarities using EKC, ELC and subshell  
+#L ratios in 1972Gu06                                                     
+#P 2169.83   7  9-               3.54 H    2               50       15    
+

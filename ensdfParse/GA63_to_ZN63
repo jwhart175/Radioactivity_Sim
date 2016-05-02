@@ -1,0 +1,35 @@
+# 63ZN    63GA EC DECAY                 1971GIZP                  ENSDF    200906
+#  63GA EC DECAY                 1971GIZP                  ENSDF    200906
+#H TYP=FUL$AUT=HUO JUNDE, YANG DONG, HUO MEIRONG,$CIT=ENSDF$              
+#H CUT=28-Aug-2008$                                                       
+#H TYP=FUL$AUT=BAI ERJUN, HUO JUNDE$CIT=NDS 92, 147 (2001)$CUT=1-Mar-1999$
+#  1971GiZP: E|g, I|g, |g|g-coincidence, |b-delayed |a spectra            
+#  1970Du05: {+63}Ga from {+64}Zn(p,2n), E|g, I|g                         
+#G M,MR      From adopted |g radiations.                                  
+#P 0.0         3/2-              32.4 S    5              5665.9    21    
+GA63 ZN63 beta+ 5.6659 32.4 1.0
++B beta+ 2.071 0.0
++G gamma 0.193 0.05712
++B beta+ 1.978 0.0
++G gamma 0.248 0.034272
++B beta+ 1.951 0.0
++G gamma 0.6271 0.10304
++B beta+ 1.768 1.0E-4
++G gamma 0.38980000000000004 0.0038079999999999998
++G gamma 0.637 0.11200000000000002
++B beta+ 1.763 1.0E-4
++G gamma 0.4579 0.006048
++G gamma 0.6501 0.04928
++B beta+ 1.757 1.0E-4
++G gamma 0.415 0.002912
++G gamma 1.0652000000000001 0.022400000000000003
++B beta+ 1.558 1.0E-4
++G gamma 0.7685 0.02128
++G gamma 1.147 0.0034720000000000003
++G gamma 1.2034 0.002688
++G gamma 1.3954000000000002 0.041440000000000005
++B beta+ 1.4 1.0E-4
++G gamma 1.0546 0.002576
++G gamma 1.4985 0.0032479999999999996
++G gamma 1.6917 0.03024
+

@@ -1,0 +1,29 @@
+#128LA    128CE EC DECAY                2000LI08,1997HA30         15NDS    201510
+#  128CE EC DECAY                2000LI08,1997HA30         15NDS    201510
+#H TYP=FUL$AUT=ZOLTAN ELEKES AND JANOS TIMAR$CIT=NDS 129, 191 (2015)$     
+#H CUT=28-Feb-2015$                                                       
+#  2000LI08: 128CE from 116SN(16O,4N), E=90 MEV; chemical separation; G,  
+#  GG coincidence, XG coincidence; coaxial and planar HPGe detectors, 99% 
+#  enriched 116SN target. 117SN(16O,3N) was also studied to distinguish   
+#  128CE lines from 129CE lines.                                          
+#  1997HA30: 103RH(28SI,P2N) E=105 MEV; no mass separation; G, GG         
+#  coincidence, GX coincidence                                            
+#G E,RI$From 2000LI08                                                     
+#G E(B)$Reported in 1997HA30                                              
+#G E(C)$Reported in 1997HA30 but not in 2000LI08                          
+#G E(D)$Doublet                                                           
+#G RI$Relative to I(146.6G)=100 (2000LI08)                                
+#L $The decay scheme is that proposed by 2000LI08. Both levels at 607.1   
+#L and 840.9 KEV in 1997HA30 are not added by the evaluators. Some        
+#L levels (91.5, 263.0, 271.8, 422.0, 463.7, 469.8, 487.6, 642.8, 730.0   
+#L and 879.5 KEV) in 1997HA30 and their de-exciting G's are not adopted,  
+#L because these are those from the decay of 129LA. See 1997GI08 for the  
+#L decay of 129LA.                                                        
+#L E$From a least-squares fit to the E|g's                                
+#L E(A)$Not reported in 1997HA30                                          
+#L J,T$From Adopted Levels                                                
+#G CC$FROM BrIcc v2.3b (16-Dec-2014) 2008Ki07, "Frozen Orbitals" appr.    
+#G MR$IF NO VALUE GIVEN IT WAS ASSUMED MR=0.10 FOR E2/M1,                 
+#G MR=1.00 FOR E3/M2 AND MR=0.10 FOR THE OTHER MULTIPOLARITIES            
+#P 0.0          0+                3.93 M    2              3090     60    
+

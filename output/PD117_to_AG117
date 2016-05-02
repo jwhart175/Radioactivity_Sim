@@ -1,0 +1,24 @@
+#117AG    117PD B- DECAY                1991PE04,1990ROZX         ENSDF    201101
+#  117PD B- DECAY                1991PE04,1990ROZX         ENSDF    201101
+#H TYP=FUL$AUT=JEAN BLACHOT$CIT=ENSDF$CUT=1-Mar-2009$                     
+#  1990PEZU, 1991PE04 238U(P,F) E=28 MEV. On-line mass separator.         
+#  Measured: G, GX, CE (1991PE10), PD is assigned by coin with Ag-K-x     
+#  rays                                                                   
+#  1990ROZX on-line chemistry measured G, G(T).                           
+#  CC$ FROM BrIcc v2.2b (20-Jan-2009) 2008Ki07, "Frozen Orbitals" appr.   
+#  ADDED PN RECORD (TWB. 19990323)                                        
+#G E,RI$From 1990ROZX                                                     
+#P 0.0         (5/2+)            4.3 S     3              4238      15    
+PD117 AG117 beta- 4.238 4.3 1.0
++G gamma 0.14730000000000001 0.07
++G gamma 0.349 0.034
++G gamma 0.4025 0.11
++G gamma 0.5226000000000001 0.16
++G gamma 0.6259 0.28
++G gamma 0.63 0.24
++G gamma 0.6498999999999999 0.41
++G gamma 0.7697 0.1
++G gamma 0.2475 1.0
++G gamma 0.07659999999999999 0.044000000000000004
++G gamma 0.32389999999999997 0.37
+

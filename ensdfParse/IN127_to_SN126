@@ -1,0 +1,22 @@
+#126SN    127IN B-N DECAY (1.09 S)      1993RU01                  02NDS    200301
+#  127IN B-N DECAY (1.09 S)      1993RU01                  02NDS    200301
+#H TYP=FUL$AUT=J. KATAKURA AND K. KITAO$CIT=NDS 97, 765 (2002)$           
+#H CUT=5-Apr-2002$                                                        
+#  1993RU01: (N,F) E=THERMAL, ON-LINE MASS SEPARATION; MEASURED B, G,     
+#  N; BG; DEDUCED PN, T                                                   
+#P 0.0         (9/2+)            1.09 S    1              955       41    
+IN127 SN126 neutron&beta- 0.955 1.09 0.0003
+
+#126SN    127IN B-N DECAY (3.67 S)      1993RU01                  02NDS    200301
+#  127IN B-N DECAY (3.67 S)      1993RU01                  02NDS    200301
+#H TYP=FUL$AUT=J. KATAKURA AND K. KITAO$CIT=NDS 97, 765 (2002)$           
+#H CUT=5-Apr-2002$                                                        
+#  1993RU01: (N,F) E=THERMAL, ON-LINE MASS SEPARATION; MEASURED B, G,     
+#  N; BG; DEDUCED PN, T                                                   
+#  1980LU04: 235U(N,F) E=THERMAL, ON-LINE MASS SEPARATION; MEASURED N, B; 
+#  DEDUCED PN, T                                                          
+#  1986REZS: (N,F) E=THERMAL, ON-LINE MASS SEPARATION; MEASURED B, N;     
+#  DEDUCED PN, T                                                          
+#P 460       70(1/2-)            3.67 S    4              955       41    
+IN127 SN126 neutron&beta- 0.955 3.67 0.0069
+

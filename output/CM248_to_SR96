@@ -1,0 +1,63 @@
+# 96SR    248CM SF DECAY                2001UR01                  08NDS    200810
+#  248CM SF DECAY                2001UR01                  08NDS    200810
+#H TYP=FUL$AUT=D. Abriola(a), A.A. Sonzogni$CIT=NDS 109, 2501 (2008)$     
+#H CUT=1-Apr-2008$                                                        
+#  Measured E|g, I|g, |g|g, |g|g(|q), DCO, T and linear polarization      
+#  using ^EUROGAM-2 spectrometer comprised of 52 large Ge detectors in    
+#  anti-Compton shields including 24 four-crystal (CLOVER) detectors and  
+#  4 ^LEPS detectors.  T1/2 measured using a single gamma ray as a start  
+#  signal while the stop was the detection of at least six gamma rays in  
+#  coincidence.                                                           
+#G $For the geometry of the detectors used, DCO(calculated)=0.89 for      
+#G |DJ=2, Q; 1.09 for |DJ=1, dipole and 0.81 for |DJ=0, dipole.           
+#G POL(calculated)=+0.14 for |DJ=2, E2; +0.09 for |DJ=1, E1; -0.09 for    
+#G |DJ=1, M1; -0.25 for |DJ=0, E1 and +0.25 for |DJ=0, M1                 
+#L $2001Ur01 adopt 1229, 0+ and 1465, 0+ levels from literature           
+#L E$From least-squares fit to E|g's, assuming |D(E|g)=0.3 keV for each   
+#L |g ray                                                                 
+#L BAND(A)$|g-sequence based on GS                                        
+#L BAND(B)$Band based on (6+) 3604 level.                                 
+#L BAND(C)$Band based on 0+ 1229 level.                                   
+#G M$From DCO, linear polarization values.                                
+#L J$As given by 2001UR01, from DCO values, Pol, band patterns.           
+#P 0           0+                3.48E5 Y  6                              
+CM248 SR96 SF 0.0 1.09818042624E13 1.0
++G gamma 0.8148 1.0
++G gamma 0.6917000000000001 0.12
++G gamma 1.5063 0.06
++G gamma 0.8139 0.09
++G gamma 0.9775 0.4
++G gamma 0.347 0.05
++G gamma 0.4688 0.12
++G gamma 1.1604 0.08
++G gamma 0.3281 0.006999999999999999
++G gamma 1.304 0.07
++G gamma 0.644 0.01
++G gamma 1.335 0.008
++G gamma 0.491 0.12
++G gamma 0.6738 0.17
++G gamma 0.361 0.04
++G gamma 0.6882 0.03
++G gamma 0.81 0.04
++G gamma 0.9929 0.08
++G gamma 0.7795 0.01
++G gamma 1.1065999999999998 0.022000000000000002
++G gamma 1.217 0.006999999999999999
++G gamma 0.6593 0.2
++G gamma 0.3395 0.016
++G gamma 0.7577999999999999 0.015
++G gamma 0.5428 0.09
++G gamma 0.8623 0.017
++G gamma 0.19569999999999999 0.017
++G gamma 0.3984 0.09
++G gamma 1.138 0.016
++G gamma 1.812 0.006
++G gamma 0.24659999999999999 0.018000000000000002
++G gamma 0.761 0.08
++G gamma 0.2798 0.01
++G gamma 0.8042999999999999 0.04
++G gamma 0.8059 0.03
++G gamma 0.312 0.006999999999999999
++G gamma 0.8385 0.04
++G gamma 0.342 0.005
+

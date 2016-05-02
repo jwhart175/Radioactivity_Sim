@@ -1,0 +1,74 @@
+#197AU    197PT B- DECAY (19.8915 H)                              05NDS    200503
+#  197PT B- DECAY (19.8915 H)                              05NDS    200503
+#H TYP=FUL$AUT=HUANG XIAOLONG, ZHOU CHUNMEI$CIT=NDS 104, 283 (2005)$      
+#H CUT=1-Jan-2002$                                                        
+#  Sources produced by {+196}Pt(n,|g)                                     
+#  (1937Mc04,1941Sh08,1952Ha16,1964Pr06,1965Ha15,1966Ga07,1971Pr03).      
+#B           Measured E|b, I|b (1971Pr03);                                
+#B others: 1941Sh08, 1952Sc27, 1956Po05, and 1964Gr02                     
+#B           For the calculated log| {Ift} by using interacting           
+#B boson-fermion model, see 1988Na03.                                     
+#B E         440|b unobserved (I|b<0.002%)                                
+#B IB        From |g intensity imbalance                                  
+#G E         From 1974HeYW, semi                                          
+#G RI        Relative intensity normalized to I|g(191|g)=100              
+#G M         From L-subshell ratios                                       
+#G                                                                        
+#G                  x-ray intensities                                     
+#G              -----------------------                                   
+#G    Radiations          E, Kev  a       Intensities b                   
+#G   ------------       ------------   ---------------------              
+#G    Au L x-ray            9.710        21 {I4} a                        
+#G    Au K|a{-2}| x ray          66.9895 {I8}      0.98 {I10} a   1.0 c   
+#G    Au K|a{-1}| x ray          68.8037 {I8}      1.68 {I17} a   1.7 c   
+#G    Au K|b| x ray           78.00          0.73 {I8} a    0.76 c        
+#G                                                                        
+#G   a, Calculated Values                                                 
+#G   b, Values per 100 parent decays                                      
+#G   c, Measured values (1990Pi08)                                        
+#G                                                                        
+#L           For analyzed levels of |b{+-} decay by                       
+#L using interacting boson-fermion model, see 1988Na03.                   
+#L E         From decay scheme                                            
+#L and E|g's by using least-squares fit to data                           
+#L J,T       From adopted levels                                          
+#P 0.0         1/2-              19.8915 H 19             718.7     6     
+PT197 AU197 beta- 0.7187 71609.40000000001 1
++B beta- 0.22521000000000002 0.106
++B beta- 0.19756 0.812
++B beta- 0.13202 0.08199999999999999
++G gamma 0.26877999999999996 0.0023058
+
+#197AU    197PT B- DECAY (95.41 M)      1965HA15                  05NDS    200503
+#  197PT B- DECAY (95.41 M)      1965HA15                  05NDS    200503
+#H TYP=ERR$AUT=J. Tuli$DAT=10-Nov-15$COM=Corrected BR to adopted value$   
+#H TYP=FUL$AUT=HUANG XIAOLONG, ZHOU CHUNMEI$CIT=NDS 104, 283 (2005)$      
+#H CUT=1-Jan-2002$                                                        
+#  Others: 1964Gr02, 1973Ba66                                             
+#  Sources produced by {+196}Pt(n,|g) (1965Ha15) and {+196}Pt(d,p)        
+#  (1941Sh08).                                                            
+#B IB        From |g intensity imbalance                                  
+#G RI,M,MR$Established via Coul. ex., Mossbauer, decay studies            
+#G RI        Relative intensity normalized to I|g(279|g)=100              
+#G                                                                        
+#G                 X-ray intensities                                      
+#G              ----------------------                                    
+#G $  Radiations      E, Kev a      Intensities ab                        
+#G $ ------------   -----------   ---------------                         
+#G $  Au L x-ray      9.710           1.13 {I17}                          
+#G $  Au ka2 x-ray    66.9895 {I8}       0.24 {I3}                        
+#G $  Au ka1 x-ray    68.8037 {I8}       0.40 {I5}                        
+#G $  Au kb x-ray     78.00           0.177 {I20}                         
+#G                                                                        
+#G $  a, Calculated values                                                
+#G $  b, values per 100 parent decays                                     
+#G                                                                        
+#L E,J,T       From adopted levels                                        
+#P 399.59      13/2+             95.41 M   18             718.7     6     
++G gamma 0.077 0.0033558
++G gamma 0.202 0.0104244
++G gamma 0.279 0.714
++B beta- 0.22175999999999998 0.033
++G gamma 0.13 0.031915799999999994
++G gamma 0.409 0.001071
+

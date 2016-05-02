@@ -1,0 +1,51 @@
+#178PT    178AU EC DECAY                1999DA18                  09NDS    200907
+#  178AU EC DECAY                1999DA18                  09NDS    200907
+#H TYP=FUL$AUT=E. Achterberg, O.A. Capurro, G.V. Marti$                   
+#H CIT=NDS 110, 1473 (2009)$CUT=31-May-2008$                              
+#  1998Da18: Low-lying states in {+178}Pt were populated by EC decay      
+#  of the parent gold nucleus, obtained from the reaction                 
+#  {+144}Sm({+37}Cl,3n), E=170 MeV; beam chopped in intervals of 1 s.     
+#  Measured E|g, I|g, |g|g coincidences, and |g-ray angular correlations  
+#  using ^CAESAR array configured with six Compton-suppressed HPGe        
+#  detectors. Also measured singles |g and conversion electrons, and e-|g 
+#  coincidences employing a Compton-suppressed Ge and a cooled Si(Li)     
+#  detectors.                                                             
+#G E         No uncertainties of |g-ray energies are reported by          
+#G 1999Da18                                                               
+#G M         Mixing ratios |d(E2/M1) from angular correlations            
+#G (in cascade with 170.4 keV transition)                                 
+#L J         Based on |g-|g angular correlations and internal             
+#L conversion coefficients.                                               
+#L BAND(P)   Band 1 G.S. (yrast) rotational band                          
+#L BAND(N)   Band 2 Non-yrast even spin, positive parity band             
+#P   0.0                          2.6 S     5              9670     60    
++G gamma 0.1704 1.0
++G gamma 0.2506 0.062
++G gamma 0.25730000000000003 0.6920000000000001
++G gamma 0.2321 0.025
++G gamma 0.483 0.146
++G gamma 0.3379 0.326
++G gamma 0.405 0.036000000000000004
++G gamma 0.6306 0.08
++G gamma 0.8881 0.04
++G gamma 0.4134 0.135
++G gamma 0.58 0.005
++G gamma 0.9176 0.05
++G gamma 0.9984 0.016
++G gamma 1.2561 0.025
++G gamma 0.4183 0.025
++G gamma 0.7115 0.032
++G gamma 1.0493 0.034
++G gamma 0.8078 0.04
++G gamma 1.1457 0.02
++G gamma 1.1541 0.033
++G gamma 0.8679 0.03
++G gamma 1.3194000000000001 0.040999999999999995
++G gamma 1.0447 0.04
++G gamma 0.636 0.065
++G gamma 1.2632999999999999 0.04
++G gamma 0.7202000000000001 0.03
++G gamma 1.0183 0.01
++G gamma 1.432 0.05
++G gamma 0.5302 0.022000000000000002
+

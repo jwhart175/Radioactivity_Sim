@@ -1,0 +1,209 @@
+# 89KR    89BR B- DECAY (4.357 S)       1981HO17                  13NDS    201302
+#  89BR B- DECAY (4.357 S)       1981HO17                  13NDS    201302
+#H TYP=FUL$AUT=BALRAJ SINGH$CIT=NDS 114, 1 (2013)$CUT=20-Oct-2012$        
+#  1981Ho17: 89BR produced from 235U(N,F), chem, AlBr+. Measured EG, IG,  
+#  GG, BG, BETA strength functions.                                       
+#  Q-=8155 30 (BG, 1992GrZX)                                              
+#  B-N measurements: 1993Ru01, 1987PfZX, 1984Ew01, 1981Ho07, 1981Ho17,    
+#  1980ReZQ, 1980Lu04, 1980Al15, 1978Kr15, 1977Re06, 1977Re05, 1976Ru01,  
+#  1974Ru07, 1974NoZR, 1974Kr21, 1972Sc48, 1971Ch38, 1966Si09, 1965Sh07,  
+#  1964Ar24                                                               
+#  Others: 1975Kr17, 1974Gr29, 1971BrYH                                   
+#  Pre-1960 references for production from fission and/or half-life       
+#  measurements by neutron counting:                                      
+#  1959Pe28, 1949Su14, 1948Hu33, 1947Re02, Snell et al.,                  
+#  Phys Rev 72, 541 (1947); Sugarman et al., J Chem Phys 15, 544 (1947)   
+#  Measurement of BETA strength functions: 1982Al01, 1981Ho17, 1979Al05,  
+#  1975Al11                                                               
+#  SYSTEMATICS OF BETA ENERGIES: 1983Be56                                 
+#  2008Ka37: calculated Gamow-Teller strengths, delayed neutron spectra   
+#  using QRPA and Hauser-Feshbach model                                   
+#  Energy balance: total decay energy of 7245 keV {I176} deduced          
+#  (using RADLIST code) from proposed decay scheme is lower than          
+#  the expected value of 8262 keV {I4}, indicating that the decay scheme  
+#  is incomplete                                                          
+#B IB,LOGFT$These values are not considered (evaluator) as firm since     
+#B the BETA fed levels are reported only up to 4707, whereas,             
+#B from Q-=8262 KEV, GAMMA-decaying levels above this energy are possible.
+#B For this reason, uncertainties are not given for LOGFT values.         
+#B Neutron decaying levels above 5104 account for 13.8% decay.            
+#B IB(A)$From intensity balance, IB(GS+28.6 level)=32 2.                  
+#B Arbitrarily, equal intensity is assigned to GS and 28.6 level          
+#G E(A)$Transition feeds the GS or the 28.6 level                         
+#G E(B)$Energy may be too high by AP 2.5 KEV, see comment for 2468 level  
+#G E(D)$Alternative placement (evaluator)                                 
+#G E(E)$Placement from level-energy difference (evaluator), unplaced      
+#G in 1981Ho17                                                            
+#L E$From least-squares fit to EG data. Due to mismatch in energy         
+#L sums, the following EG data were not included: 1487.25, 1697.0, 1915.23
+#L J$From Adopted Levels                                                  
+#L T$For levels connected by transitions observed in GG coin,             
+#L T1/2<15-20 NS from coincidence resolving time                          
+#L E(A)$If the deexciting transition feeds the 28.6 level,                
+#L E(level) should be increased by 28.6 KEV                               
+#L E(B)$If the deexciting transition feeds the GS,                        
+#L E(level) should be lowered by 28.6 KEV                                 
+#L E(D)$From average of values deduced from energies of feeding (1697.0,  
+#L 1915.23) and deexciting (1487.25) GAMMA rays. Mismatch in energy       
+#L sums/differences leads to large uncertainty in E(level). If the        
+#L placement of 1697.0G from 4165.9 level is correct, then the energy     
+#L of 1915.23G is too high by AP 2.5 KEV. Otherwise either the 1915.23G   
+#L or the 1487.25G is too high by AP 2.5 KEV                              
+#L E(E)$According to 1981Ho17, GS transition feeds GS or the 28.6 level,  
+#L but another connecting transition supports this level energy           
+#P 0           (3/2-,5/2-)       4.357 S   22             8261.5    39    
+BR89 KR89 beta- 8.2615 4.357 1
++G gamma 0.35627 0.0014080000000000002
++G gamma 0.49804000000000004 0.0030080000000000003
++G gamma 0.5585 0.0010304000000000001
++G gamma 0.59599 0.00288
++G gamma 0.60938 0.001472
++G gamma 0.73872 0.0016896
++G gamma 1.52979 0.00288
++G gamma 1.53362 0.0023680000000000003
++G gamma 1.7638 0.0016
++G gamma 1.96651 0.004288
++G gamma 2.17969 0.0032
++G gamma 2.3361799999999997 0.002944
++G gamma 2.73397 0.004032
++G gamma 2.8153 0.0023680000000000003
++G gamma 3.1395 0.003968
++G gamma 3.18748 0.004992
++G gamma 3.3264 0.0069759999999999996
++G gamma 3.4951 0.002176
++G gamma 3.5315 0.0060799999999999995
++G gamma 3.588 0.0034560000000000003
++B beta- 3.8085999999999998 0.16
++B beta- 3.7948000000000004 0.16
++B beta- 3.6098000000000003 0.0138
++G gamma 0.38287 0.00384
++G gamma 0.41149 0.02112
++B beta- 3.3339000000000003 0.016
++G gamma 0.95353 0.04544000000000001
++B beta- 3.3294 0.0171
++G gamma 0.5800299999999999 0.004352
++G gamma 0.9627 0.01536
++G gamma 0.9915 0.003392
++B beta- 3.3124000000000002 0.034
++G gamma 0.99793 0.04544000000000001
++G gamma 1.02646 0.0192
++B beta- 3.2779000000000003 0.046
++G gamma 1.06924 0.002304
++G gamma 1.09782 0.064
++B beta- 3.1415 0.028999999999999998
++G gamma 0.2821 6.4E-4
++G gamma 0.35308 0.001152
++G gamma 0.39794 9.856E-4
++G gamma 1.35131 0.022400000000000003
++G gamma 1.3798 0.014144
++B beta- 3.0917 0.034
++G gamma 0.38511 0.0030719999999999996
++G gamma 0.45630000000000004 6.4E-4
++G gamma 1.45422 0.011456
++G gamma 1.483 0.02048
++B beta- 3.0659 0.015
++G gamma 0.55437 0.0014144000000000001
++G gamma 1.5077 0.02624
++B beta- 2.922 0.0053
++G gamma 0.80733 0.007488
++B beta- 2.896 0.0046
++G gamma 0.78976 0.003392
++G gamma 0.89637 0.0011584000000000002
++B beta- 2.8926 0.0086
++G gamma 1.86598 0.00864
++B beta- 2.8623000000000003 8.0E-4
++G gamma 1.9284400000000002 0.003392
++G gamma 1.95722 0.002944
++B beta- 2.8229 0.0074
++G gamma 1.01225 0.010176000000000001
++B beta- 2.8113 0.005600000000000001
++G gamma 1.0361300000000002 0.002496
++G gamma 1.0806099999999998 0.002048
++G gamma 2.03449 0.00384
++B beta- 2.7910999999999997 0.0042
++G gamma 0.6215599999999999 0.0011712
++G gamma 1.12208 0.0030719999999999996
++B beta- 2.7893000000000003 0.0063
++G gamma 2.10816 0.015232
++B beta- 2.7705 0.014199999999999999
++G gamma 2.1184000000000003 0.02048
++B beta- 2.7369 0.0060999999999999995
++G gamma 1.19011 0.0028160000000000004
++G gamma 2.2166 0.007168
++B beta- 2.6973000000000003 0.0073
++G gamma 2.29847 0.008960000000000001
++G gamma 2.34533 0.007807999999999999
++B beta- 2.6355 0.0026
++G gamma 1.39977 0.0026239999999999996
++G gamma 1.48725 0.005056000000000001
++B beta- 2.486 0.0028000000000000004
++G gamma 1.35554 0.002752
++B beta- 2.3695999999999997 0.0067
++G gamma 1.9944000000000002 0.007296
++B beta- 2.2045 0.006500000000000001
++G gamma 1.782 0.00384
++G gamma 3.2898 0.0039039999999999995
++B beta- 1.9944000000000002 0.0059
++G gamma 1.60693 0.0037119999999999996
++G gamma 1.91996 0.002176
++B beta- 1.8797000000000001 0.0127
++G gamma 1.69371 0.0016640000000000001
++G gamma 2.8941999999999997 0.011008
++B beta- 1.8207 0.043
++G gamma 1.7413399999999999 0.002176
++G gamma 2.00672 0.005312
++G gamma 2.07561 0.002752
++G gamma 2.57803 0.008768
++G gamma 3.017 0.00192
++G gamma 3.1323000000000003 0.0030080000000000003
++G gamma 4.0863000000000005 0.0192
++B beta- 1.7960999999999998 0.052000000000000005
++G gamma 1.697 0.0011904
++G gamma 2.20859 0.003584
++G gamma 2.7858 0.002304
++G gamma 3.1746 0.0048
++G gamma 4.166300000000001 0.04096
++B beta- 1.7866 0.0086
++G gamma 2.2284200000000003 0.001984
++G gamma 4.1856 0.006592
++B beta- 1.7641 0.0141
++G gamma 1.85873 0.011392
++G gamma 4.2325 0.002752
++B beta- 1.7612 0.008100000000000001
++G gamma 4.209899999999999 0.0035199999999999997
++G gamma 4.2382 0.004608
++B beta- 1.7562 0.0049
++G gamma 3.8373000000000004 0.004928
++B beta- 1.737 0.011399999999999999
++G gamma 3.877 0.00192
++G gamma 4.2605 0.0041600000000000005
++G gamma 4.288600000000001 0.005312
++B beta- 1.7225 0.0096
++G gamma 4.319 0.0096
++B beta- 1.6924000000000001 0.034
++G gamma 1.064 0.00128
++G gamma 1.91523 0.0039039999999999995
++G gamma 2.16504 0.00384
++G gamma 2.23481 0.00256
++G gamma 2.31879 0.002752
++G gamma 3.0016 0.0048
++G gamma 3.4 0.00192
++G gamma 4.3536 0.012544000000000001
++B beta- 1.6822000000000001 0.0039000000000000003
++G gamma 4.4029 0.0039039999999999995
++B beta- 1.6305999999999998 0.0033
++G gamma 4.5104 0.0032639999999999995
++B beta- 1.628 0.0086
++G gamma 3.4891 0.003648
++G gamma 4.5169 0.004928
++B beta- 1.6211 0.009399999999999999
++G gamma 4.501600000000001 0.009408
++B beta- 1.5826 0.0073
++G gamma 2.50316 0.003648
++G gamma 4.6105 0.003648
++B beta- 1.5527 0.0033
++G gamma 1.697 0.0011904
++G gamma 4.672899999999999 0.0026880000000000003
++B beta- 1.5363 0.0049
++G gamma 4.6786 0.004928
+

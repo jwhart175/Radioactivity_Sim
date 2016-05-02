@@ -1,0 +1,35 @@
+#177PT    181HG A DECAY                 1979HA10                  03NDS    200305
+#  181HG A DECAY                 1979HA10                  03NDS    200305
+#H TYP=FUL$AUT=F.G. KONDEV$CIT=NDS 98, 801 (2003)$CUT=1-Aug-2002$         
+#  1979HA10: 181HG source produced using spallation reaction              
+#  reactions with 600 MEV protons on lead target.                         
+#  Detectors: 200 MM{+2} silicon surface barrier detector with a typical  
+#  energy resolution of 25 KEV (FWHM), 100 MM{+2} surface barrier silicon 
+#  detector, 43 CM3 GE(LI) G-detector with a typical energy resolution    
+#  of 2.1 KEV (FWHM) at 1.33 MEV.                                         
+#  Measured: EA, IA, %A, T , AG coin, AG(t).                              
+#  Others: 1970Ha18, 1975Ho02, 1982HeZM, 1986Ke03, 1996Pa01.              
+#L E$From least-squares fit to the G-ray energies.                        
+#L J,T$From adopted levels.                                               
+#A E,IA$From 1979Ha10.                                                    
+#A HF$Calculated using R0(177PT)=1.525 5, weighted average from R0 values 
+#A for 176PT and 178PT (1998Ak04), parent                                 
+#A T =3.54 s 8, weighted average of T =3.3 s 4, 3.4 s 3, 3.6 s 1, 3.4 s 3 
+#A and  3.4 s 3 (1979Ha10), 3.2 s 7 (1982HeZM), and 3.6 3 s (1970Ha18),   
+#A and parent %A=30 3, weighted average of %A=26 5 (1979Ha10), 26 4       
+#A (1975Ho02) and 36 4 (1982HeZM) (other value: %A=32 (1986Ke03)).        
+#G E$From 1979Ha10. Note, that the 66.3 keV                               
+#G G-ray is presented in the level scheme shown in Fig. 6 (1979Ha10), but 
+#G no evidence for such a transition is seen in the spectrum shown in     
+#G Fig. 5 (1979Ha10). Given the established level scheme for 177PT, the   
+#G multipolarity of such a transition would be M3. Hence, by using        
+#G the WEISSKOPF estimates for the reduced transition probabilities,      
+#G one may expect IG(66.3)/IG(147.7) AP 10{+-11}. In addition the         
+#G 66.3G overlaps with the Pt XKA1.                                       
+#P 0.0         1/2-              3.54 S     8             6287.0    45    
++A alpha 6.148 0.005
++A alpha 6.071 0.015
++A alpha 6.006 0.87
++A alpha 5.938 0.061
++A alpha 5.916 0.046
+

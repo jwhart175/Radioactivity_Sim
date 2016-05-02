@@ -1,0 +1,23 @@
+#144SM    144EU EC DECAY                1976KE01                  01NDS    200108
+#  144EU EC DECAY                1976KE01                  01NDS    200108
+#H TYP=FUL$AUT=A.A. Sonzogni$CIT=NDS 93, 599 (2001)$CUT=1-Dec-2000$       
+#  Source: 144SM(P,N) E=14 MEV                                            
+#  Measured: G, GG, G(T)                                                  
+#  Decay scheme is as given by 1976KE01. The ground-state feeding has     
+#  been determined by measuring G+- from a source enclosed in an          
+#  aluminum absorber. The evaluator has                                   
+#  calculated the level feeding using EC/B+ (theory)                      
+#  Other measurements: 1967GE13, 1966MA15, 1965ME12                       
+#L J$From adopted levels                                                  
+#P 0.0         1+                10.2 S    1              6315      17    
+EU144 SM144 beta+ 6.315 10.2 1.0
++G gamma 1.0006 3.84E-4
++B beta+ 7.28E-4 0.002076
++B beta+ 2.4346 0.01
++G gamma 1.6601 0.096
++B beta+ 1.652 0.0
++G gamma 0.763 4.512E-4
++G gamma 2.4233000000000002 0.0096
++B beta+ 1.2983 0.09
++G gamma 0.8177000000000001 0.015552
+

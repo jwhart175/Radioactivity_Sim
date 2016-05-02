@@ -1,0 +1,60 @@
+# 90NB    90MO EC DECAY                 1968CO05,1966PE10         97NDS    199801
+#  90MO EC DECAY                 1968CO05,1966PE10         97NDS    199801
+#H TYP=FUL$AUT=E. BROWNE$CIT=NDS 82, 379 (1997)$CUT=1-May-1997$           
+#  Production: 93NB(P,4N), E=50-55 MeV, chemical separation.              
+#  Measured: G singles and GG coin with GELI and NAI (1968Co05).          
+#E           Measured: CE(t) and B+ spectra (1966Pe10).                   
+#L           The decay scheme has been established from GG coin data      
+#L (1968Co05) and excit in 90ZR(P,NG) (1972Yo03).                         
+#  Others: 1955Ma31, 1965Co14, 1965Gr29, 1981KaZI, 1984Bu36               
+#L T         From adopted levels.                                         
+#E           EC branches are obtained from I(G+CE) imbalance at each      
+#E level.                                                                 
+#G $      Conversion coefficient data                                     
+#G       ===========================                                      
+#G                                                    Mult from           
+#G      EG      EKC #     EKC/ELC @        CC data                        
+#G    -----     --------    -------------------   ---------               
+#G     42.7     2.3 8           9.5 40                ^D(+Q)              
+#G    122.4                     6.03 18                 E2                
+#G    162.9     0.059 6                                D+Q                
+#G    203.1     0.034 4                                D+Q                
+#G    257.3     0.150 11        5.51 16               E3(+M4)             
+#G    323.2     0.0106 12                              D+Q                
+#G    421.0     0.0038 14                              D+Q                
+#G    445.4     0.0050 7                               D+Q                
+#G    472.2     0.0029 4                               D+Q                
+#G    489.8     0.0038 7                               D+Q                
+#G    941.5     0.00071 10                             D+Q                
+#G    990.2     0.00070 12                             D+Q                
+#G   1271.3     0.00050 6                              D+Q                
+#G   1387.5     0.00044 6                              D+Q                
+#G   1454.6     0.00036 12                                                
+#G   1463.5     0.00048 22                                                
+#G                                                                        
+#G     #) Calculated by the evaluators from IG (1968Co05) and ICE (1966Pe1
+#G 0)                                                                     
+#G        assuming KC(122.4G)=0.466 14 for an E2 transition (1968Ha53).   
+#G     @) From 1966Pe10.                                                  
+#G E         From 1966Pe10 (from CE spectra), except as noted.            
+#G E(A),RI   From 1968Co05.                                               
+#G M         From conversion coefficient data above and adopted JPI's.    
+#N 0.777     290.777   291.0       1.0                                    
+#N                                                                     3  
+#N NR        Calculated from total G feeding to g.s. assuming no EC       
+#N feeding to g.s. (0+ to 8+ transition).                                 
+#P 0.0         0+                5.67 H    5              2489       4    
++G gamma 0.1226 0.51
++G gamma 0.1711 0.22
++G gamma 0.16290000000000002 0.2
++G gamma 0.0425 0.006999999999999999
++G gamma 0.2377 0.22
++G gamma 0.323 0.066
++G gamma 0.8129 1.0
++G gamma 0.9962000000000001 0.21
++G gamma 0.0711 0.018000000000000002
++G gamma 1.0673 0.27
++G gamma 1.1727 0.09
++G gamma 0.6071 0.12
++G gamma 0.5845 0.03
+

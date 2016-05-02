@@ -1,0 +1,82 @@
+#122TE    122I EC DECAY                 1981NG04,1969GF01         07NDS    200704
+#  122I EC DECAY                 1981NG04,1969GF01         07NDS    200704
+#H TYP=FUL$AUT=T. TAMURA$CIT=NDS 108, 455 (2007)$CUT=30-Sep-2006$         
+#  The decay scheme is that proposed by 1981Ng04 and 1969Gf01             
+#  1981Ng04: Ce(p,spallation) E(p)=660 MeV, chem, mass,                   
+#  {+122}Xe EC decay; semi |g, |g|g-coin                                  
+#  1969Gf01: {+120}Te(|a,2n) {+122}Xe EC decay, {+122}Te(d,2n) no chem;   
+#  semi |g, scin-semi |g|g-coin                                           
+#  1987Gi09: {+122}Te(p,n) E(p)=7 MeV, magnetic electron transport with   
+#  Si(Li), FWHM=4 keV, measured ICE, deduced E0.                          
+#  1987Wa17: {+93}Nb({+32}S,x), {+93}Nb({+34}S,x) E=160-175 MeV, measured 
+#  I(ce), |g|g-coin, |g lin pol; deduced J|p, |g-branching, ICC           
+#  Others: |g, |g|g-coin (1969Sp07,1968La22,1970Ga32);                    
+#  |b{++} (1963Jh04,1954Ma75,1960Mo09,1951Yo06,1950Ma29,1965Bu03,         
+#  1977ReZK); |g|g(|q) (1963Jh04)                                         
+#E TI $I(EC+B+)=81.9 {I2}(to g.s.) is calculated using                    
+#E I|g(564.117|g)/I|g(|g{++-})=0.121 and I(|g{++-})=1.85 I(|b{++})        
+#E (1969Gf01) and theoretical EC/|b{++} ratios in the decay scheme        
+#G E         From 1981Ng04; 1037.7|g, 1940.4|g and 2793.2|g               
+#G (measured by 1969Gf01) are not observed by 1981Ng04                    
+#G E(A)      Placed from 1257.4 keV level in the decay scheme of 1981Ng04,
+#G but removed from the decay scheme, because the energy differs 0.45 keV 
+#G from the 1357.4-keV level, which decays to the GS by E0 transition     
+#G with the side E2 transition to the 564.1-keV, 2+ state.                
+#G RI        Relative to I(564.119|g)=100 (1981Ng04)                      
+#G TI(M)     Calculated by Ice(E0)=Ice(K)(E0)|*(1+0.125) for a correction 
+#G of L- and M-shell contributions                                        
+#G M         E0 from 1987Wa17 and 1987Gi09, others from adopted gammas    
+#G MR        From adopted gammas                                          
+#L E         E(levels) are based on a least-squares fit to the            
+#L E(|g's) of 1981Ng04 (evaluator)                                        
+#L J         From adopted levels                                          
+#P 0.0         1+                3.63 M    6              4234      5     
+I122 TE122 beta+ 4.234 217.79999999999998 0.18
++G gamma 1.0043 4.9E-4
++G gamma 1.35694 7.5E-4
++G gamma 1.6401700000000001 5.3E-4
++G gamma 1.8977 3.5000000000000005E-4
++G gamma 1.9361 4.3E-4
++G gamma 2.98264 4.7E-4
++G gamma 3.2080300000000004 3.2E-4
++G gamma 3.28897 2.3E-4
++G gamma 0.564119 1.0
++G gamma 0.61734 0.0013900000000000002
++G gamma 0.692794 0.0753
++G gamma 1.256901 0.015600000000000001
++G gamma 0.793278 0.0737
++G gamma 1.18876 0.00145
++G gamma 1.75277 0.0030299999999999997
++G gamma 0.683647 0.044199999999999996
++G gamma 1.3764 0.00211
++G gamma 1.53508 0.00358
++G gamma 1.72329 0.00211
++G gamma 2.2875 3.1E-4
++G gamma 1.73364 0.0011899999999999999
++G gamma 0.95337 8.6E-4
++G gamma 1.12971 6.8E-4
++G gamma 1.74693 0.018500000000000003
++G gamma 2.3108 2.8000000000000003E-4
++G gamma 1.8438299999999999 0.005659999999999999
++G gamma 1.9443800000000002 0.00222
++G gamma 1.33701 9.1E-4
++G gamma 2.02971 0.0018599999999999999
++G gamma 2.5932 2.0E-4
++G gamma 2.15515 0.00165
++G gamma 2.71927 0.00148
++G gamma 1.4995 0.00882
++G gamma 2.19229 0.0148
++G gamma 2.34687 9.6E-4
++G gamma 0.94578 4.6E-4
++G gamma 2.48074 0.00101
++G gamma 3.04481 3.2E-4
++G gamma 1.7950899999999999 5.7E-4
++G gamma 2.48802 5.5E-4
++G gamma 2.58547 0.00243
++G gamma 2.73844 6.5E-4
++G gamma 2.2265900000000003 8.4E-4
++G gamma 2.91925 9.0E-4
++G gamma 1.183 0.00198
++G gamma 2.2327399999999997 6.1E-4
++G gamma 2.3344 3.1E-4
+

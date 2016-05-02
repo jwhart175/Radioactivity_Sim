@@ -1,0 +1,68 @@
+# 18O     18N B- DECAY                                            95NP     199607
+#  18N B- DECAY                                            95NP     199607
+#H TYP=FUL$AUT=TILLEY, WELLER, CHEVES, CHASTELER$CIT=NP A595, 1 (1995)$   
+#H CUT=31-OCT-1994$                                                       
+#  Branchings to GAMMA decaying levels are from 1982Ol01.                 
+#  Branchings to ALPHA deacying levels are from 1989Zh04.                 
+#  Branchings to neutron decaying levels are from 1994Sc01.               
+#  12.2% 6 of the BETA decay branching ratios has been measured to feed   
+#  ALPHA emitting states 1989Zh04. 14.3% 20 has been measured to feed     
+#  neutron decaying states 1991Re02. The BETA branchings of GAMMA decaying
+#  states (1982Ol01) have been renormalized to take these delayed particle
+#  branchings into account.                                               
+#B IB$Branchings do not add up to 100% since neutron decaying levels      
+#B below 9.00 MEV were not measured by 1994Sc01 and there is a missing    
+#B 12.1% to neutron decaying levels not listed.                           
+#P 0           1-                624 MS    12             13899     20    
+N18 O18 beta- 13.899 0.624 1
++B beta- 5.711 0.034
++G gamma 1.981933 0.7203
++B beta- 4.931 0.005
++G gamma 1.572 0.004704
++B beta- 4.892 0.003
++G gamma 1.651564 0.444675
++G gamma 3.63331 0.001323
++B beta- 4.75 0.004
++G gamma 1.93819 0.033001499999999996
++G gamma 3.9200999999999997 0.0047775000000000005
++B beta- 4.485 0.47200000000000003
++G gamma 0.5352380000000001 0.020947499999999997
++G gamma 0.821708 0.44541
++G gamma 0.90137 0.003087
++G gamma 2.47303 0.14994
++G gamma 4.45493 0.0062475000000000004
++B beta- 4.166 0.004
++G gamma 1.17733 0.003087
++G gamma 1.5434 7.35E-4
++G gamma 3.1145 0.006762000000000001
++B beta- 3.952 0.027000000000000003
++G gamma 1.07477 0.00588
++G gamma 1.60958 0.0062475000000000004
++G gamma 3.5477 0.014773499999999997
++B beta- 3.622 0.012
++G gamma 6.19707 0.010289999999999999
++B beta- 3.547 0.019
++G gamma 1.8939300000000001 0.0027194999999999997
++G gamma 2.42967 0.0103635
++G gamma 4.366 0.006174
++B beta- 3.284 0.128
++G gamma 0.68224 0.0025724999999999997
++G gamma 1.35025 0.010289999999999999
++G gamma 2.42478 0.1288455
++B beta- 2.92 0.068
++B beta- 2.845 0.043
++G gamma 2.6729600000000002 0.011980499999999998
++G gamma 3.31513 0.0046305
++G gamma 5.7885 0.026313
++B beta- 2.713 0.018000000000000002
++B beta- 2.24 0.036000000000000004
++B beta- 2.196 0.0016
++B beta- 2.108 0.0039000000000000003
++B beta- 2.01 0.004699999999999999
++B beta- 1.902 0.0014000000000000002
++B beta- 1.795 0.0017000000000000001
++B beta- 1.635 0.0016
++B beta- 1.436 0.0043
++B beta- 1.272 0.0013
++B beta- 1.033 0.0019
+

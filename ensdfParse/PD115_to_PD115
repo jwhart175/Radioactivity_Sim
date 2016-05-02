@@ -1,0 +1,12 @@
+#115PD    115PD IT DECAY                1990FO07,1987FOZY         12NDS    201210
+#  115PD IT DECAY                1990FO07,1987FOZY         12NDS    201210
+#H TYP=FUL$AUT=JEAN BLACHOT$CIT=NDS 113, 2391 (2012)$CUT=1-Sep-2012$      
+#  Activity: 235U(N,F) mass separator OSIRIS                              
+#  Measured: G, GG, BCE, T1/2, GE(LI), SI(LI)                             
+#  1990Fo07 measured %IT=8.0 20                                           
+#  New J from Adopted levels and 2005FO09                                 
+#L T,J$From adopted levels                                                
+#P 89.3      2 (7/2-)             50 S     3                              
+PD115 PD115 IT 0.0 0.0 0.080
++G gamma 0.08929999999999999 0.04062
+

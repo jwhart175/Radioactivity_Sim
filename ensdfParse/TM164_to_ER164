@@ -1,0 +1,290 @@
+#164ER    164TM EC DECAY (2.0 M)        1990AD07,1971DE22         NDS01    200107
+#  164TM EC DECAY (2.0 M)        1990AD07,1971DE22         NDS01    200107
+#H TYP=FUL$AUT=BALRAJ SINGH$CIT=NDS 93, 243 (2001)$CUT=15-May-2001$       
+#  1990AD07 (also 1992GR24,1987ADZV): Measured E|g, I|g, |g|g coin, ce.   
+#  1992GR24 reanalyzed the CE spectrum of 1990AD07 and added              
+#  23 weak G's in the level scheme                                        
+#  1971DE22: Measured E|g, |g, |g|g coin, ce, |g|g(t)                     
+#  Others:                                                                
+#  1967VR04: Measured E|g, |g, ce. About 90 |g rays reported up to 2532   
+#  1965BA40, 1965AB04, 1960GR31, 1960DA16, 1960AB04: Measured |g, ce, T1/2
+#  1970MO39: ce|g(t)                                                      
+#  1963RA15: T1/2                                                         
+#  1961BJ02: |g, T1/2                                                     
+#  1960WI17: |g, T1/2                                                     
+#  The decay scheme is taken mainly from 1990AD07.                        
+#L J$From adopted levels.                                                 
+#L           The 2476, 2570, 2846, 3135, 3162, 3213 and 3588 levels       
+#L proposed by 1971DE22 have been omitted due to lack of confirmation by  
+#L 1990AD07. The gamma rays deexciting these levels have either not been  
+#L seen by 1990AD07 or have been reassigned from other levels.            
+#L E(A)$Level proposed by 1971DE22 only                                   
+#L E(B)$Level proposed by 1990AD07 only                                   
+#L E(H)$Level proposed by 1992GR24 only                                   
+#G           I(XKA):I(XKB):I(91.4G)=(721 70):(158 15):100 (1971DE22).     
+#G I(G+-):I(91.4G)=1071 30:100 (1971DE22).                                
+#G           The following |g's assigned (by 1971DE22) to either          
+#G 164YB decay or 164TM decay have now been assigned to 164YB decay:      
+#G 154.41, 491.1, 543.54, 588.9, 637.1, 695.12, 887.3                     
+#G M$From ce data of 1990AD07, EKC's given under comments are             
+#G calculated (evaluator) from I(CE) of 1990AD07 and IG's given here,     
+#G using KC(91.4G,E2)=1.34, unless otherwise noted.                       
+#G M$From CE data of 1990AD07 unless otherwise noted.                     
+#G E$Weighted average of values from 1990AD07 and 1971DE22,               
+#G unless otherwise noted.                                                
+#G RI$Unweighted average of values from 1990AD07 and 1971DE22.            
+#G E(A),RI(A)$From 1971DE22. Since this |g is not confirmed by 1990AD07,  
+#G its assignment to 164TM decay is suspect.                              
+#G E(C,D)$|g or E0 transition from 1990AD07 (or 1987ADZV) only.           
+#G Four |g rays in the 2400 KEV region are from 1987ADZV, these are       
+#G missing in the list of 1990AD07.                                       
+#G E(B)$Tentative placement (by the evaluator) from level-energy          
+#G difference                                                             
+#G E(E)$Placement from 1971DE22                                           
+#G E(F)$Placement is different in 1971DE22                                
+#G E(H)$From 1992GR24 (reanalyzed data of 1990AD07)                       
+#G E(J)$Placement from 1992GR24                                           
+#E IE(A)$IB+(to GS)/IB+(to 91.4 level)=2.0 2 (1990AD07).                  
+#G                                                                        
+#G -----------------------------------------------------------------------
+#G EG        91.43   208.6  315.4  595.3  768.9   786.1  860.25  1057.7   
+#G             IG      IG    IG      IG    IG      IG     IG       IG     
+#G EG                                                                     
+#G -----------------------------------------------------------------------
+#G 208.01    26 6                                                         
+#G 768.91    58 11                                                        
+#G 786.06                                 17 7                            
+#G 842.07    yes                          90 16          42 12            
+#G 855.11    yes                                                          
+#G 860.25                                                                 
+#G 905.75    yes                          60 11          92 17            
+#G 1015.02           32 7                 23 9                            
+#G 1134.55   15 6                                                         
+#G 1154.69   49 8                                 28 9                    
+#G 1165.46   25 9                          95 20         110 22           
+#G 1184.16           43 8                                                 
+#G 1223.17   25 6                                                         
+#G 1268.43           12 6                                                 
+#G 1295.30   37 13          21 11                                 117 48  
+#G 1312.28   25 11   12 4                  79 13         72 11            
+#G 1325.15   yes                                                          
+#G 1386.64                  28 7                                  74 25   
+#G 1417.77                                               40 20            
+#G 1486.14   48 12                 yes                                    
+#G 1489.11           93 17                                                
+#G 1533.90           36 5                                                 
+#G 1610.67   33 6                                                         
+#G 1674.30   20 7                                                         
+#G 1696.85   10 4                                                         
+#G 1742.07   8 3                                                          
+#G 1783.12   8 5                                                          
+#G 1819.72   8 4                                                          
+#G 1862.50   11 4                                                         
+#G 1954.89           14 6                                                 
+#G -----------------------------------------------------------------------
+#P 0.          1+                2.0 M     1              3963      19    
+TM164 ER164 beta+ 3.963 120.0 1.0
++G gamma 0.3024 1.3400000000000003E-4
++G gamma 0.5689 3.35E-4
++G gamma 0.5752999999999999 2.6800000000000006E-4
++G gamma 0.6427 3.35E-4
++G gamma 0.6525 2.6800000000000006E-4
++G gamma 0.6919 2.6800000000000006E-4
++G gamma 0.9349 4.6899999999999996E-4
++G gamma 1.1189 2.01E-4
++G gamma 1.2383 3.35E-4
++G gamma 1.2735 2.6800000000000006E-4
++G gamma 1.466 2.6800000000000006E-4
++G gamma 1.9327999999999999 4.02E-4
++G gamma 2.3899 2.01E-4
++G gamma 2.4214 4.6899999999999996E-4
++G gamma 2.4840999999999998 0.001139
++G gamma 2.4897 6.03E-4
++G gamma 2.8817 2.479E-4
++B beta+ 1.331 0.29
++B beta+ 1.289 0.1
++G gamma 0.09140999999999999 0.067
++G gamma 0.20804 0.011725000000000001
++G gamma 0.5615 4.02E-4
++G gamma 0.7689199999999999 0.0134
++G gamma 0.86029 0.011189
++G gamma 0.8550099999999999 0.0028140000000000005
++G gamma 0.75885 4.6899999999999996E-4
++G gamma 0.9678 3.35E-4
++B beta+ 0.767 0.0013
++G gamma 0.38530000000000003 1.3400000000000003E-4
++G gamma 1.15466 0.016549
++B beta+ 0.737 0.0011
++G gamma 0.4546 1.3400000000000003E-4
++G gamma 1.01515 0.001608
++G gamma 1.2231400000000001 0.006097
++G gamma 1.3143 0.003417
++B beta+ 0.705 9.2E-4
++G gamma 1.2953599999999998 0.009648
++G gamma 1.38669 0.006365000000000001
++B beta+ 0.692 6.8E-4
++G gamma 1.3251700000000002 0.007772
++B beta+ 0.695 1.6E-5
++G gamma 1.1345999999999998 8.04E-4
++G gamma 1.34259 0.0014070000000000003
++G gamma 1.1704 2.01E-4
++G gamma 1.3785 2.6800000000000006E-4
++B beta+ 0.662 1.0999999999999999E-4
++G gamma 1.39248 0.0014070000000000003
++G gamma 1.4832 8.04E-4
++G gamma 0.6351 0.0010720000000000003
++G gamma 1.2684000000000002 3.35E-4
++B beta+ 0.62 6.0E-5
++G gamma 1.57772 0.0010720000000000003
++B beta+ 0.565 9.1E-4
++G gamma 0.2185 4.02E-4
++G gamma 0.31544 0.001273
++G gamma 0.3877 6.700000000000002E-5
++G gamma 0.8420599999999999 0.003886
++G gamma 1.61071 0.010653000000000001
++G gamma 1.7021 2.01E-4
++B beta+ 0.537 6.6E-4
++G gamma 0.45130000000000003 6.700000000000002E-5
++G gamma 0.9057000000000001 0.00335
++G gamma 1.67434 0.010385
++G gamma 1.7658 2.01E-4
++B beta+ 0.527 3.4E-4
++G gamma 0.4742 2.01E-4
++G gamma 0.7293 3.35E-4
++G gamma 1.4891500000000002 0.004288000000000001
++G gamma 1.6968599999999998 0.0026130000000000003
++G gamma 1.7884 4.02E-4
++B beta+ 0.507 1.2E-4
++G gamma 0.9733999999999999 2.01E-4
++G gamma 1.74209 0.002211
++B beta+ 0.504 3.3E-5
++G gamma 0.358 6.7E-4
++G gamma 1.7502 2.01E-4
++B beta+ 0.495 2.8E-5
++G gamma 0.37777 1.3400000000000003E-4
++G gamma 0.5468999999999999 6.7E-4
++B beta+ 0.489 6.7E-5
++G gamma 0.30589999999999995 2.6800000000000006E-4
++G gamma 1.01515 0.001608
++G gamma 1.8755 6.03E-4
++B beta+ 0.473 1.5E-4
++G gamma 0.6665 3.35E-4
++G gamma 1.81978 0.004087
++G gamma 1.9109200000000002 5.025E-4
++B beta+ 0.454 1.5E-4
++G gamma 1.0934000000000001 3.35E-4
++G gamma 1.6549 3.35E-4
++G gamma 1.86252 0.005159
++G gamma 1.01515 0.001608
++G gamma 1.6612 4.02E-4
++G gamma 1.8693 2.01E-4
++B beta+ 0.424 4.0E-5
++G gamma 0.6351 0.0010720000000000003
++B beta+ 0.423 1.7999999999999998E-4
++G gamma 0.7112 2.6800000000000006E-4
++G gamma 0.7801 2.6800000000000006E-4
++G gamma 1.16545 0.007437
++B beta+ 0.42 1.6E-5
++G gamma 0.78606 8.04E-4
++B beta+ 0.419 2.5E-5
++G gamma 0.7211000000000001 1.3400000000000003E-4
++G gamma 1.9445 4.3550000000000007E-4
++B beta+ 0.404 3.0E-5
++G gamma 0.355 6.7E-4
++G gamma 0.6351 0.0010720000000000003
++B beta+ 0.36 1.0E-5
++G gamma 0.1423 4.6899999999999996E-4
++G gamma 1.1105 2.01E-4
++G gamma 1.8693 2.01E-4
++B beta+ 0.358 1.83E-4
++G gamma 0.29808999999999997 5.360000000000001E-4
++G gamma 0.3394 6.700000000000002E-5
++G gamma 0.68963 0.001005
++G gamma 0.8583 1.3400000000000003E-4
++G gamma 0.9266 2.01E-4
++B beta+ 0.322 5.6E-6
++B beta+ 0.312 1.9E-5
++G gamma 0.7946 2.01E-4
++G gamma 0.8447 2.01E-4
++G gamma 0.9639 3.35E-4
++G gamma 2.1864 3.35E-4
++B beta+ 0.239 1.3E-5
++G gamma 0.7293 3.35E-4
++G gamma 0.8754299999999999 3.35E-4
++G gamma 1.584 2.6800000000000006E-4
++G gamma 2.353 0.001206
++G gamma 0.6665 3.35E-4
++G gamma 0.77547 4.6899999999999996E-4
++B beta+ 8.274E-4 0.00132
++G gamma 0.7534 2.01E-4
++G gamma 0.7978999999999999 3.35E-4
++G gamma 1.8769 3.35E-4
++B beta+ 8.255000000000001E-4 0.00134
++G gamma 1.4602 0.001005
++G gamma 1.7141 5.226000000000001E-4
++G gamma 1.9696 2.6800000000000006E-4
++B beta+ 8.226E-4 0.00136
++G gamma 1.8408 1.3400000000000003E-4
++G gamma 1.9745 4.02E-4
++G gamma 3.1081999999999996 1.675E-4
++G gamma 3.3156 2.01E-4
++B beta+ 8.106E-4 0.01
++G gamma 1.6239000000000001 5.360000000000001E-4
++G gamma 2.0525 2.6800000000000006E-4
++B beta+ 8.011E-4 0.01
++G gamma 1.3509 2.6800000000000006E-4
++G gamma 2.0525 2.6800000000000006E-4
++G gamma 2.5709 4.02E-4
++B beta+ 7.880000000000001E-4 0.0016
++G gamma 1.8944 2.6800000000000006E-4
+
+#164ER    164TM EC DECAY (5.1 M)        1992CH03,1987AD06,1971DE22NDS01    200107
+#  164TM EC DECAY (5.1 M)        1992CH03,1987AD06,1971DE22NDS01    200107
+#H TYP=FUL$AUT=BALRAJ SINGH$CIT=NDS 93, 243 (2001)$CUT=15-May-2001$       
+#  1992CH03: measured EG, IG, GG                                          
+#  1987AD06: measured EG, IG, GG                                          
+#  1971DE22: measured EG, IG, GG, CE, XG(T)                               
+#  1973CH28: measured |g|g(t)                                             
+#L           A 2370 level proposed by 1987AD06 is omitted. The            
+#L deexciting 386G is placed from 1744 level as proposed by 1992CH03      
+#L and 1971DE22                                                           
+#L J         From adopted levels.                                         
+#L T$From GG(T) (1973CH28), unless otherwise stated                       
+#L E(A)$Level proposed by 1992CH03 only                                   
+#G           The following G rays assigned tentatively by 1987AD06        
+#G have been omitted since these are not reported by 1992CH03 or          
+#G 1971DE22: 360.0, 362.2, 413.1, 536.2, 634.8, 672.4, 817.7, 1019.7,     
+#G 1066.55 and 1488.17. A 256.5G reported by 1971DE22 only is also omitted
+#G           Experimental conversion coefficients are from 1971DE22       
+#G E$Weighted averages of 1992CH03, 1971DE22 and 1987AD06                 
+#G RI$Unweighted averages of 1992CH03, 1971DE22 and 1987AD06              
+#G M$From CE data (1971DE22)                                              
+#G E(A)$From 1992CH03 only                                                
+#P 0+X         6(-)              5.1 M     1              3963      19    
++G gamma 0.09140000000000001 0.205
++G gamma 0.2081 0.775
++B beta+ 7.37E-4 0.002
++G gamma 0.31497 0.5
++G gamma 0.6469400000000001 0.0085
++G gamma 0.8550099999999999 0.04
++B beta+ 1.056 0.0057799999999999995
++G gamma 0.9675 0.0075
++G gamma 0.251 0.011000000000000001
++G gamma 0.89797 0.215
++B beta+ 0.861 0.0077339999999999996
++G gamma 0.9302 0.0075
++G gamma 1.0498599999999998 0.08349999999999999
++G gamma 1.3646800000000001 0.2
++B beta+ 0.639 0.0076500000000000005
++B beta+ 0.578 0.00783
++G gamma 0.08027 0.035
++G gamma 0.54708 0.253
++B beta+ 0.551 0.007899
++B beta+ 0.542 0.00792
++B beta+ 0.527 0.007956
++G gamma 1.23117 0.204
++B beta+ 0.507 0.008
++G gamma 0.13944 0.1315
++G gamma 0.9604 0.0115
++B beta+ 0.445 0.008111
+

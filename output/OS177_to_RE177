@@ -1,0 +1,22 @@
+#177RE    177OS EC DECAY                1976Be62                  03NDS    200305
+#  177OS EC DECAY                1976Be62                  03NDS    200305
+#H TYP=FUL$AUT=F.G. KONDEV$CIT=NDS 98, 801 (2003)$CUT=1-Aug-2002$         
+#  1976Be62: activity produced by spallation of high-energy protons on    
+#  thallium targets. Assignment to 177OS based on chemical separation and 
+#  identification of G rays. Detectors: GE(LI) anti-COMPTON spectrometer, 
+#  two GE(LI) detectors. Measured: EG, RI, GG coin.                       
+#  Others: 1972Be89, 1970Ar15.                                            
+#L E$From a least-squares fit to the G ray energies.                      
+#L J,T$From adopted levels, unless otherwise specified.                   
+#L E(A)$PI 1/2[541].                                                      
+#L E(B)$PI 5/2[402].                                                      
+#L E(C)$PI 1/2[411]?.                                                     
+#G E,RI$From 1976Be62. Gamma rays that are not placed in the level scheme 
+#G have T AP 3 MIN and may belong to either 177OS (T=2.7 MIN) or 176OS    
+#G (3.6 MIN).                                                             
+#G M,MR$From adopted gammas, except as noted.                             
+#P 0.0          1/2-             3.0 M     2              4448      SY    
+OS177 RE177 beta+ 4.448 180.0 0.034
++G gamma 0.0 1.63
++G gamma 0.0 1.0
+

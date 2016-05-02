@@ -1,0 +1,27 @@
+#182TA    182HF B- DECAY (8.90E+6 Y)    2004AH10,1971HE13         ENSDF    201507
+#  182HF B- DECAY (8.90E+6 Y)    2004AH10,1971HE13         ENSDF    201507
+#H TYP=FUL$AUT=BALRAJ SINGH$CIT=ENSDF$CUT=15-JUL-2015$                    
+#H TYP=FUL$AUT=BALRAJ SINGH AND JOEL C. ROEDIGER$CIT=NDS 111, 2081 (2010)$
+#H CUT=15-Jul-2010$                                                       
+#  2004Ah10: {+182}Hf source was the one originally produced by           
+#  1971He13. measured E|g, I|g, |g|g with a 25% Ge detector and           
+#  a low energy photon spectrometer (LEPS).                               
+#  1971He13: {+182}Hf sources produced by irradiation of natural Hf and   
+#  enriched {+180}Hf with neutrons followed by chemical separation after  
+#  a waiting period of about two years. One sample was also               
+#  mass separated. Measured E|g, I|g, |g|g using                          
+#  Ge(Li) and NaI(Tl) detectors                                           
+#G E$From 2004Ah10. Corresponding values from 1971He13 are in             
+#G agreement but somewhat less precise.                                   
+#G RI$ From 2004Ah10 who measured absolute intensities (photons/100       
+#G decays of the parent) were measured by two methods. The first          
+#G involved a counting arrangement with low absolute efficiencies and the 
+#G other is to use a system where one can measure and account for         
+#G the summing effect. Corresponding values from 1971He13 are in          
+#G agreement but somewhat less precise.                                   
+#G M,MR$From Adopted Gammas                                               
+#L E$From least-squares fit to E|g data                                   
+#L J$From Adopted Levels                                                  
+#P 0.0          0+               8.90E+6 Y 9              381       6     
+HF182 TA182 beta- 0.381 2.8085648832E14 1
+

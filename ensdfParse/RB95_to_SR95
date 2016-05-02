@@ -1,0 +1,105 @@
+# 95SR    95RB B- DECAY                 1992KrZZ,1983Kr11         10NDS    201010
+#  95RB B- DECAY                 1992KrZZ,1983Kr11         10NDS    201010
+#H TYP=FUL$AUT=S. K. Basu, G. Mukherjee, A. A. Sonzogni$                  
+#H CIT=NDS 111, 2555 (2010)$CUT=30-Jun-2009$                              
+#  1982Pa24 measured |b|g-coincidences; scin, Ge(Li)                      
+#  1992KrZZ,1983Kr11 measured |g's, |g(t), and |g|g-coin (Ge(Li)), ce's   
+#  (Si(Li)), |gce-coin (Ge(Li),Si(Li)), and |bce-coin (scin,Si(Li))       
+#  using ^ISOL-system ^OSTIS at Grenoble. See also {+95}Rb |b{+-}n decay  
+#  The decay scheme is from 1992KrZZ and 1983Kr11, except as noted.       
+#  Coincidences shown on the drawing are from 1982Pa24. Others:           
+#  1992PrZY, 1982DaZY, 1980De02, 1975Gu03, and 1975Ba36                   
+#B $1985IaZZ measured |b-, |g 's; |DE/E telescope (HPGe,Si)               
+#B $See 1983Kr11 and 1985IaZZ for the deduced |b-strength function        
+#B IB$Calculated by the evaluator from intensity balancing at state,      
+#B except as noted                                                        
+#B IB,LOGFT$I|b and log| {Ift} values derived by the evaluator differ     
+#B somewhat from those suggested by 1983Kr11; primarily due to the        
+#B adoption of %I|g(352|g)=49 {I3} instead of 57% {I4}. Since there are   
+#B 56 unplaced G's therefore the LOGFT values are highly tentative.       
+#B LOGFT(A)$log| {If{+1u}t}|>8.5                                          
+#B IB(B)$From neutron feeding to {+94}Sr g.s.                             
+#B E(D)$E|b=5.61 MeV {I16} for triplet from |b|g-coincidences (1982Pa24)  
+#B E(E),IB(F)$E|b=5750 {I80} and I|b=22% for feeding to these states      
+#B (1985IaZZ. Fermi-Kurie plot analysis)                                  
+#B E(G)$E|b=5.74 MeV {I10} (weighted av of 5.72 MeV {I13} and 5.77 MeV    
+#B {I16}), 5.86 MeV {I15}, and 7.14 MeV {I16}, respectively, from         
+#B |b|g-coincidences (1982Pa24)                                           
+#B IB(H)$I|b=2.4% for feeding to these states (1985IaZZ)                  
+#B IB(I)$Other I|b's: 0.8% to 1260, 1.2% to 1012, and 2.5% to 681 states  
+#B (1985IaZZ)                                                             
+#B E(J)$From 1985IaZZ (Fermi-Kurie plot analysis for |b{+-} to 681        
+#B state. Analysis of |b{+-} spectrum using 13 |b branches assuming       
+#B allowed shapes for others). Other E|b's to 681 state: 8550 {I100}      
+#B (1982Pa24) and 8619 {I30} (1984BlZN. HPGe E/|DE telescope;             
+#B preliminary); Fermi-Kurie plot analysis                                
+#B IB(K)$Estimated by 1985IaZZ                                            
+#B IB(L)$I|b=15 {I7} from the decay scheme; if %I|g(352|g)=57 {I4}        
+#B instead of 49 {I3}, I|b=3 {I+6-3}                                      
+#G $Other: 1979Bo26                                                       
+#G E,RI$From 1992KrZZ                                                     
+#G M$From |a(K)exp, except as noted                                       
+#L J,T(A)$From the adopted levels. See 1983Kr11 for other suggested       
+#L spins and parities based on |b-feedings, multipolarities, and          
+#L cascading of |g-deexcitations. Although the log| {Ift}'s for           
+#L transitions to states between 3.8 and 4.5 MeV suggest first-forbidden  
+#L transitions, 1983Kr11 note that allowed is more probable since the     
+#L strength of the underlying shell-model state has been fragmented over  
+#L a large number of narrowly spaced negative-parity states               
+#L T$From Adopted Levels                                                  
+#  CC$ FROM BrIcc v2.2a (13-Jul-2008) 2008Ki07, "Frozen Orbitals" appr.   
+#P 0.0          5/2-              377.7 MS  8              9284     21    
++B beta- 4.291 0.001
++B beta- 4.122 0.002
++B beta- 4.024 0.06
++B beta- 3.964 0.059000000000000004
++B beta- 3.808 0.0074
++B beta- 3.804 0.018000000000000002
++B beta- 3.752 0.025
++B beta- 3.685 0.023
++B beta- 3.598 0.006
++B beta- 3.448 0.0058
++B beta- 3.403 0.006
++B beta- 3.393 0.0102
++B beta- 3.353 0.0033
++B beta- 3.34 0.0062
++B beta- 3.322 0.008
++B beta- 3.291 0.0026
++B beta- 3.28 0.0075
++B beta- 3.214 8.9E-4
++B beta- 3.209 0.0042
++B beta- 3.2 0.0040999999999999995
++B beta- 3.15 5.0E-4
++B beta- 3.138 0.005699999999999999
++B beta- 3.121 0.0062
++B beta- 2.929 0.0039000000000000003
++B beta- 2.861 0.0106
++B beta- 2.858 0.0092
++B beta- 2.746 0.0072
++B beta- 2.669 0.077
++B beta- 2.629 0.027000000000000003
++B beta- 2.622 0.0148
++B beta- 2.614 0.094
++B beta- 2.589 0.0113
++B beta- 2.564 0.04
++B beta- 2.562 0.0132
++B beta- 2.56 0.0154
++B beta- 2.557 0.022000000000000002
++B beta- 2.553 0.031
++B beta- 2.55 0.037000000000000005
++B beta- 2.544 0.0044
++B beta- 2.539 0.05
++B beta- 2.504 0.0067
++B beta- 2.502 0.0034000000000000002
++B beta- 2.459 0.0095
++B beta- 2.392 0.002
++B beta- 2.37 0.0028000000000000004
++B beta- 2.284 0.0014000000000000002
++B beta- 2.252 0.0019
++B beta- 2.244 0.0026
++B beta- 2.229 4.9E-4
++B beta- 2.222 6.4E-4
++B beta- 2.213 0.002
++B beta- 2.088 5.899999999999999E-4
++B beta- 2.045 1.0E-4
+

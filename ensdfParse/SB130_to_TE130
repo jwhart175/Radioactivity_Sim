@@ -1,0 +1,171 @@
+#130TE    130SB B- DECAY (39.5 M)       1972KE28                  01NDS    200107
+#  130SB B- DECAY (39.5 M)       1972KE28                  01NDS    200107
+#H TYP=FUL$AUT=BALRAJ SINGH$CIT=NDS 93, 33 (2001)$CUT=11-May-2001$        
+#  1972KE28 (also 1973KE21): measured EG, IG, GG, CE, EB, BG, GG(T)       
+#  1979BO26: measured four EG's with a curved-crystal spectrometer        
+#  G, GG: 1974KR20, 1974ER07, 1971KI22. Others: 1969DZ04, 1966TO02,       
+#  1964BEZZ, 1963LA15, 1962HA16, 1962DR01                                 
+#  B, BG: 1990ST13                                                        
+#  T1/2(130SB), production, etc.: 1974GR29, 1974FO06, 1967HA27,           
+#  1965BR34, 1963BR18                                                     
+#G RI$|D(RI) are based on a general comment by 1972KE28 that these are:   
+#G 5% for RI>15, 10% for RI=2-15, 20% or 0.2 for RI LE 2.                 
+#G M,MR$From adopted gammas, consistent with EKC's in this                
+#G dataset                                                                
+#G E(A)$From curved-crystal measurement (1979BO26)                        
+#L E$From least-squares adjustment to EG's                                
+#L J$From adopted levels                                                  
+#L T$From BG(T) and GG(T) (1972KE28)                                      
+#P 0.0         (8-)              39.5 M    8              4959      25    
+SB130 TE130 beta- 4.959 2370.0 1.0
++G gamma 0.6547000000000001 0.02
++G gamma 1.0965 0.008
++G gamma 1.1462 0.006
++G gamma 1.4884000000000002 0.006
++G gamma 1.4995999999999998 0.004
++G gamma 1.617 0.009000000000000001
++G gamma 1.6265999999999998 0.006
++G gamma 1.8844 0.006999999999999999
++G gamma 1.948 0.012
++G gamma 1.9974 0.021
++G gamma 0.8395199999999999 1.0
++G gamma 0.7934 1.0
++G gamma 0.18233000000000002 0.65
++G gamma 0.468 0.18
++B beta- 1.154 0.18
++G gamma 0.330914 0.78
++B beta- 1.035 0.064
++G gamma 0.258 0.039
++G gamma 0.3033 0.057999999999999996
++B beta- 1.022 0.016
++G gamma 0.28548 0.035
++B beta- 0.867 0.005
++G gamma 0.6692 0.011000000000000001
++G gamma 1.1376 0.003
++B beta- 0.861 0.069
++G gamma 0.6357 0.016
++G gamma 0.6809 0.065
++B beta- 0.818 0.062
++G gamma 0.732 0.22
++B beta- 0.726 0.036000000000000004
++G gamma 0.9349 0.19
++B beta- 0.634 0.054000000000000006
++G gamma 0.8557 0.016
++G gamma 0.8833 0.012
++G gamma 1.1414000000000002 0.02
++G gamma 1.4730999999999999 0.006
++B beta- 0.591 0.034
++G gamma 0.5067 0.02
++G gamma 1.239 0.018000000000000002
++B beta- 0.582 0.033
++G gamma 1.0002 0.023
++G gamma 1.2585 0.01
++B beta- 0.554 0.019
++G gamma 1.3687 0.011000000000000001
++G gamma 1.6556 0.008
++B beta- 0.525 0.065
++G gamma 0.45539999999999997 0.048
++G gamma 0.6582 0.017
++G gamma 1.4437 0.025
++B beta- 0.513 0.073
++G gamma 0.48360000000000003 0.022000000000000002
++G gamma 0.6866 0.032
++G gamma 1.1342 0.004
++G gamma 1.4193 0.012
++G gamma 1.7498 0.003
++B beta- 0.451 0.038
++G gamma 0.6267 0.027999999999999997
++G gamma 0.8298 0.018000000000000002
++G gamma 0.926 0.004
++G gamma 1.5615999999999999 0.006
++B beta- 0.367 0.04
++G gamma 1.0307 0.015
++G gamma 1.7626 0.025
++B beta- 0.3 0.019
++G gamma 0.9921 0.019
++B beta- 0.262 0.086
++G gamma 0.4625 0.008
++G gamma 1.0895 0.037000000000000005
++G gamma 1.2923 0.037000000000000005
++G gamma 2.0233 0.004
++B beta- 0.211 0.027000000000000003
++G gamma 0.5955 0.01
++G gamma 1.5211 0.008
++G gamma 1.5337 0.009000000000000001
++B beta- 0.153 0.040999999999999995
++G gamma 0.9148999999999999 0.018000000000000002
++G gamma 1.0755 0.004
++G gamma 1.5819 0.019
+
+#130TE    130SB B- DECAY (6.3 M)        1974KE08                  01NDS    200107
+#  130SB B- DECAY (6.3 M)        1974KE08                  01NDS    200107
+#H TYP=FUL$AUT=BALRAJ SINGH$CIT=NDS 93, 33 (2001)$CUT=11-May-2001$        
+#  1974KE08 (1973KE21, 1972KE28): measured EG, IG, GG, CE, EB, GG(T)      
+#  1979BO26: measured two EG's with a curved-crystal spectrometer         
+#  Others:                                                                
+#  G, GG: 1974KR20, 1974ER07 (also 1970ERZZ), 1971KI22, 1971KI15.         
+#  Others: 1969DZ04, 1966TO02, 1964BEZZ, 1963LA15, 1962HA16, 1962DR01     
+#  B, BG: 1990ST13, 1977LU06, 1977NU01                                    
+#  B strength functions: 1973JO02                                         
+#  T1/2(130SB), production, etc.: 1974GR29, 1974FO06, 1967HA27,           
+#  1965BR34, 1963BR18                                                     
+#G RI$|D(RI) are based on a general comment by 1972KE28 that these are:   
+#G 5% for RI>15, 10% for RI=2-15, 20% or 0.2 for RI LE 2.                 
+#G E(A)$Uncertain assignment to 130SB B- decay                            
+#G E(B)$From curved-crystal measurement (1979BO26)                        
+#G M,MR$From adopted gammas                                               
+#L E$From least-squares adjustment to EG's                                
+#L J$From adopted levels                                                  
+#B E$From 1977LU06                                                        
+#P 4.8       2   (4,5)+          6.3 M     2              4959      25    
+SB130 TE130 beta- 4.959 378.0 1.0
++G gamma 0.37 0.02
++G gamma 0.48160000000000003 0.019
++G gamma 0.6271 0.051
++G gamma 0.658 0.006999999999999999
++G gamma 0.9853999999999999 0.016
++G gamma 1.0395999999999999 0.01
++G gamma 1.0717 0.022000000000000002
++G gamma 1.2323 0.013000000000000001
++G gamma 1.2989000000000002 0.008
++G gamma 1.3231 0.004
++G gamma 1.9341 0.004
++G gamma 2.1166 0.01
++G gamma 2.1365 0.005
++G gamma 2.9991 0.003
++G gamma 0.8395199999999999 1.0
++G gamma 0.7486 0.04
++B beta- 1.396 0.05
++G gamma 0.7934 0.86
++B beta- 1.311 0.04
++G gamma 0.18233000000000002 0.41
++G gamma 1.0465 0.027999999999999997
++B beta- 1.233 0.107
++G gamma 0.3485 0.051
++G gamma 1.142 0.055999999999999994
++B beta- 1.177 0.031
++G gamma 0.468 0.031
++B beta- 1.071 0.033
++G gamma 0.6974 0.044000000000000004
++G gamma 1.4912 0.013000000000000001
++B beta- 1.016 0.124
++G gamma 0.8616 0.004
++G gamma 0.9422 0.027999999999999997
++B beta- 0.885 0.095
++G gamma 0.4052 0.005
++G gamma 0.9208 0.04
++G gamma 1.1028 0.037000000000000005
++G gamma 1.8969 0.013000000000000001
++B beta- 0.871 0.01
++G gamma 0.9498 0.01
++G gamma 1.1319000000000001 0.013000000000000001
++G gamma 1.1773 0.022000000000000002
++G gamma 1.9257 0.004
++B beta- 0.841 0.355
++G gamma 0.5026 0.019
++G gamma 1.0175 0.3
++G gamma 1.2 0.036000000000000004
++B beta- 0.581 0.07400000000000001
++G gamma 0.6477 0.048
++G gamma 1.598 0.026000000000000002
+

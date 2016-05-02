@@ -1,0 +1,33 @@
+# 75AS    75GE B- DECAY (82.78 M)       1979BH07                  13NDS    201309
+#  75GE B- DECAY (82.78 M)       1979BH07                  13NDS    201309
+#H TYP=FUL$AUT=ALEXANDRU NEGRET, BALRAJ SINGH$CIT=NDS 114, 841 (2013)$    
+#H CUT=30-Jun-2013$                                                       
+#  Measured G, GG, GG(T)                                                  
+#  Others: 1974Ve14, 1973McZP, 1972De67, 1970Si21, 1970Az01, 1968Ng02,    
+#  1968Re04, 1967Ch36, 1958Va02, 1955Sc09, 1952Sm51, 1948De05, 1941Se03   
+#  B and BG data are from 1955Sc09                                        
+#G M,MR$From Adopted Gammas                                               
+#G E,RI$From 1979Bh07, unless otherwise stated                            
+#B E$From 1955Sc09                                                        
+#L J$From Adopted Levels                                                  
+#G CC$FROM BrIcc v2.3 (29-Mar-2013) 2008Ki07, "Frozen Orbitals" appr.     
+#G MR$IF NO VALUE GIVEN IT WAS ASSUMED MR=1.00 FOR E2/M1,                 
+#G MR=1.00 FOR E3/M2 AND  MR=0.10 FOR THE OTHER MULTIPOLARITIES           
+#P    0          1/2-             82.78 M  4              1177.2    9     
++B beta- 0.43551999999999996 0.871
++B beta- 0.35045 0.0086
++B beta- 0.32277999999999996 0.115
++B beta- 0.29062 1.0E-5
++B beta- 0.23951 0.0022500000000000003
++B beta- 0.18158000000000002 0.0032
+
+# 75AS CG RI$Relative to IG(140G)=100 in IT DECAY                                
+#G RI$Relative to IG(140G)=100 in IT DECAY                                
+#G E(B)$Rounded value from Adopted Gammas                                 
+#G M,MR$ From Adopted Gammas                                              
+#L           The level proposed (1982BaZP) at 971.7 is omitted here       
+#L due to lack of confirmation in any other study of 75AS levels          
+#L J$From Adopted Levels                                                  
+#P  139.68   3  7/2+             47.7 S    5              1177.2    9     
+GE75 AS75 IT 0.0 47.7 0.00030
+

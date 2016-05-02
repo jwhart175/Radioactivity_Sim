@@ -1,0 +1,33 @@
+# 92RB    252CF SF DECAY                2009HW03,1974CLZX         12NDS    201210
+#  252CF SF DECAY                2009HW03,1974CLZX         12NDS    201210
+#H TYP=FUL$AUT=CORAL M. BAGLIN$CIT=NDS 113, 2187 (2012)$CUT=15-Sep-2012$  
+#  2009HW03: 252CF source (|a-decay intensity of 62 |mCi) placed between  
+#  two 13-micron thick Fe foils inside a 7.62 cm polyethylene ball;       
+#  Gammasphere array (101 Compton-suppressed Ge detectors);               
+#  measured EG, IG, GGG COIN, (Pm x ray)-G-G coin, Pm-Rb cross            
+#  coincidences.                                                          
+#  1974CLZX: 252CF SOURCE (2x10{+5} FISSIONS/SEC) PLACED BETWEEN COOLED   
+#  Si-Au SURFACE BARRIER DETECTORS; PLANAR SILI DETECTOR (FWHM=0.56 AT    
+#  26 KEV) FOR EG=10-100; PROMPT X-RAY SHIELD; PLANAR GELI DETECTOR       
+#  (FWHM=2.9 AT 1332 KEV); COAX GELI DETECTOR (FWHM=3.8 AT 1332); MEASURED
+#  EG, FRAGMENT-FRAGMENT-G(IN SILI AND/OR GELI DETECTORS) DELAYED         
+#  COINCIDENCES, G-XK COIN; GG COIN, ISOMER ^T{-1/2}.                     
+#  The level scheme is based on the coincidence data from 2009HW03.       
+#G E         FROM 2009HW03.  Uncertainty of 0.3 keV assigned as per e-mail
+#G reply to ^XUNDL database compilers from the first author on Sept 21,   
+#G 2009. The statistical uncertainty according to that e-mail reply is    
+#G 0.1 keV.                                                               
+#G RI        FROM 2009HW03.  Uncertainty of 5% for RI>20, 15% for RI=2-20 
+#G and 30% for RI<2 assigned by evaluator based on statement in e-mail    
+#G reply of Sept. 21, 2009 from the first author that the statistical     
+#G uncertainty is 1% but the total uncertainty (including systematic) is  
+#G 5% for strong lines and up to 30% for very weak ones. In the assignment
+#G of the uncertainty, the number of significant digits has been kept the 
+#G same as in the partial level scheme in figure 5 of 2009Hw03.           
+#L E         From least-squares fit to EG.                                
+#L J         FROM Adopted Levels.                                         
+#P 0.0         0+                2.645 Y    8                             
+CF252 RB92 SF 0.0 8.346802377600001E7 1.0
++G gamma 0.1425 1.0
++G gamma 0.1424 0.7
+

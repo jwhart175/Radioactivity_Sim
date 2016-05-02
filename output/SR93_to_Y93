@@ -1,0 +1,135 @@
+# 93Y     93SR B- DECAY                 1977BI01,1974AC04,1972HE4111NDS    201105
+#  93SR B- DECAY                 1977BI01,1974AC04,1972HE4111NDS    201105
+#H TYP=FUL$AUT=CORAL M. BAGLIN$CIT=NDS 112, 1163 (2011)$CUT=15-Dec-2010$  
+#  Others: 1997Gr09, 1996Gr20, 1986Ka20, 1983Ia02, 1979Bo26, 1978St02,    
+#  1976BiZL, 1975Ca01, 1974Sc39, 1972Am01, 1971Ca07, 1970MaZC, 1965Ba04.  
+#  1996Gr20, 1997Gr09: total absorption |g spectrometer (^TAGS) (NaI(Tl)  
+#  well detector with Si e-detector in well) operated in singles or in    
+#  4|p|g-|b coin mode, summed-EG resolution AP 5%; deduced B-             
+#  feeding to (GS+759 level) (1996Gr20; SUPERSEDES 1996GRZZ), B- feeding  
+#  to excited states (1997GR09; SUPERSEDES 1996GrZY).                     
+#  1979Bo26: curved crystal spectrometer; measured EG (4 lines)           
+#  1977Bi01: GELI; measured EG, IG (161 lines), GG coin;                  
+#  see also 1976BiZL for detailed GG coin data.                           
+#  1974Ac04: GELI and Si(Li); measured EG, IG (77 lines), GG coin,        
+#  EKC (relative to 85KR(304G) and 85RB(151G)).                           
+#  1974Sc39: EG, IG, GG coin, BG coin,                                    
+#  internal conversion from XKA.                                          
+#  1972He41: GELI, scin; measured EG, IG (74 lines), GG coin,             
+#  B- spectra, BG coin.                                                   
+#  The adopted decay scheme is based on that of 1977Bi01 and, for         
+#  E(level)<2850, it is supported by extensive coin information. The      
+#  schemes proposed by 1977Bi01 and 1972He41 are in excellent agreement;  
+#  schemes from 1977Bi01 and 1974Ac04 have nothing in common for          
+#  E(level)>2900, but are reasonably consistent for lower E(level).       
+#  The evaluator has relocated the 776G and placed the 1786G,             
+#  based on level energy differences. The level proposed by 1977Bi01 at   
+#  4263.67 15 KEV (IB=0.49% 5, EG=1609.8, 1899.5, 2172.0, 2985.7) has an  
+#  energy exceeding Q- in 2003AU03, and that at 4119.68 23 (IB=0.14% 2,   
+#  EG=2983.5, 2811.3, 2472.7) has an energy so close to Q- that LOGFT     
+#  would be unrealistically low; the evaluator assumes that the associated
+#  gammas are misplaced in 1977Bi01. The total unplaced IG is then AP     
+#  2.1%. Placement of the 2688G is now shown as tentative (see comment on 
+#  that transition).                                                      
+#  Some further modification of the decay scheme of 1977Bi01              
+#  is required in order to obtain consistency with the total absorption   
+#  G spectrometer (^TAGS) data of 1997GR09. Specifically,                 
+#  the ^TAGS data indicate that:                                          
+#  (i) the 590 level is fed by a branch of AP 2%; (ii) there is AP 1.5%   
+#  feeding of an unknown level (or levels) near 2200 KEV; (iii) the       
+#  present level scheme significantly overestimates feeding to levels     
+#  having E>3800; (iv) significant feeding (AP 2.0%) exists to levels with
+#  E=3200-3800, none of which is present in the level scheme of 1977Bi01. 
+#  The evaluator is unable to devise a unique set of new levels           
+#  deexcited by presently unplaced gammas which would remove the above    
+#  inconsistencies. However, levels with E>3800 (and their deexciting     
+#  gammas) are now indicated as tentative since the ^TAGS data            
+#  imply negligible feeding to E>3800 levels. NOTE THAT THE ADOPTED       
+#  DECAY SCHEME IMPLIES A TOTAL ENERGY DEPOSIT OF 4290 80 cf. 4140 12     
+#  FROM Q|xBR.                                                            
+#B           <E{-|b}>=950 40 (1990Ru05), 900 30 (1982Al01);               
+#B FOR THE ADOPTED DECAY SCHEME, <E{-|b}>=801 40 IS CALCULATED USING THE  
+#B CODE ^RADLST AND THE DECAY SCHEME ADOPTED HERE.                        
+#B E         B END-POINT ENERGIES from |g-gated B spectra (1978St02) ARE  
+#B GIVEN IN COMMENTS. END-POINT ENERGIES ARE ALSO REPORTED BY 1983Ia02,   
+#B 1974Sc39, 1972He41, 1970MAZC, 1965Ba04.                                
+#B IB        From TI intensity balance, except as noted. Independent IB   
+#B values (uncertainty unstated) are available, as a function of          
+#B excitation energy, from the total absorption GAMMA spectrometry data   
+#B of 1997Gr09, and these are given in comments; agreement is,            
+#B in general, good, with several noted exceptions.                       
+#B IB(D)     No GS B- feeding confirmed.  IB(GS)<1% estimated by 1974Sc39 
+#B from difference between direct B- spectrum and B- spectrum gated by    
+#B EG>50 KEV. IB(GS) AP 4.5% from multi-branch fit to total B- spectrum   
+#B (1983Ia02); however, branches to other levels included in fit do not   
+#B agree well with decay scheme adopted here. THE EVALUATOR ADOPTS        
+#B IB(GS) LE 4.5.                                                         
+#B IB(E)     IB(GS+759)=5.8% 14 from 4|p|g-|b coin (1996Gr20). Combining  
+#B this with IB(GS) LE 4.5%, evaluator adopts IB(759) LE 7.2%. From       
+#B |g-intensity balance, IB(759)=7.3% 24 is obtained; EVEN IF ALL THE     
+#B UNPLACED IG FED THE 759 LEVEL (WHICH SEEMS EXTREMELY UNLIKELY) IB(759) 
+#B WOULD BE 5.1% 24, FURTHER SUPPORTING 1974SC39's                        
+#B ESTIMATE OF LITTLE, IF ANY, B FEEDING TO G.S. NOTE THAT LOGFT>11.0,    
+#B EXPECTED FOR A DJ=2, DPI=NO TRANSITION, WOULD IMPLY IB(759)<0.001%, A  
+#B VALUE THAT IS DIFFICULT TO RECONCILE WITH OBSERVED TI IMBALANCE.       
+#B IB(J)     From ^TAGS data (1997Gr09); may represent feeding to one     
+#B level or to several levels of undetermined energy, lying within an     
+#B energy bin typically AP 100 KEV wide and centered at the level energy  
+#B indicated.                                                             
+#G           EG for several placed G rays deviates significantly from     
+#G the least-squares adjusted value; this may indicate the existence of   
+#G doublets.                                                              
+#G           1977Bi01 observe more than twice as many G rays as 1972He41  
+#G or 1974Ac04 and resolve nine multiplets reported as single lines in    
+#G prior studies. The evaluator, therefore, omits G rays reported         
+#G by 1974Ac04 alone (EG=814.64, 843.93, 935.11, 1006.2, 1803.7, 2196.1,  
+#G 2359.5, 3414.2, 3972.9).                                               
+#G           <E{-|g}>=1760 70 (1990Ru05) cf.                              
+#G 2264 40 CALCULATED FOR THE DECAY SCHEME PRESENTED HERE USING THE       
+#G ^RADLST CODE.                                                          
+#G M,MR      From EKC.                                                    
+#G E,RI      From 1977Bi01, except as noted. In general, data from        
+#G 1974Ac04 and 1972He41 agree well with those from 1977Bi01.             
+#G E(A),RI(A)$Also observed in studies other than that of 1977Bi01.       
+#G E(F)      Placed by evaluator based on level energy difference.        
+#G 1977Bi01 either left G unplaced or placed it such that EG was 4|s from 
+#G least-squares adjusted level energy difference.                        
+#G E(G)      Differs by 3|s or 4|s from least-squares adjusted level      
+#G energy difference.                                                     
+#G E(H)      Placed by 1977Bi01 from 2688 level, but EG is 5|s from       
+#G least-squares adjusted value. EG is correct for placement from 3825    
+#G level of 1977Bi01, but such a placement would imply IB(1136 level)=0.5 
+#G 5 (cf. 2.6 5 based on authors' placement of 2688G, and 1.9 from ^TAGS  
+#G data (1997Gr09)); more importantly, the ^TAGS data of 1997Gr09 question
+#G the existence of a 3825 level and definitely rule out such strong |b   
+#G feeding to it as the level scheme of 1977Bi01 implies. Since 1978St02  
+#G report 2875B-260G coin (further supporting |b feeding of the 1136      
+#G level) and no G-2688G coin is observed (1977Bi01,                      
+#G 1974Ac04), the evaluator tentatively adopts the placement proposed in  
+#G 1977Bi01. However, the 2688G may well be a doublet. The other component
+#G could feed the long-lived 759 level, consistent both with the absence  
+#G of G-2688G coin and with the B- branching implied by ^TAGS data        
+#G (1997Gr09) for the 759, 2688 levels and in the vicinity of 3400 KEV    
+#G 100; unfortunately, no other transition(s) from the implied 3447 level 
+#G can be identified. Alternatively, a close doublet of 2688 levels could 
+#G exist.                                                                 
+#L E         From least-squares fit to EG, omitting 2688G                 
+#L (5|s from expected value), 910G, 1122G (4|s from expected EG) and      
+#L 1104G, 927G (3|s from expected EG).                                    
+#L Based on the ^TAGS data of 1997Gr09, additional levels with E AP 2200  
+#L and 3200-3800 KEV are fed in this decay, but the summed-EG resolution  
+#L was inadequate to determine specific level energy values, and their    
+#L deexcitation gammas are unknown. These levels are designated here      
+#L by the centroid energy for AP 100 KEV wide energy bins within which    
+#L at least one level lies, for the purpose of indicating the BETA        
+#L strength feeding them.                                                 
+#L J,T       From Adopted Levels.                                         
+#L E(I)      Not a discrete level. The energy indicated here is the       
+#L centroid of an energy bin of                                           
+#L typically AP 100 KEV width which encompasses a level or levels fed     
+#L in B- decay with the summed IB indicated; from total absorption        
+#L |g spectroscopy (1997Gr09). Neither specific level energies nor        
+#L deexcitation |g energies are presently known.                          
+#P 0.0         5/2+              7.43 M     3             4140      12    
+SR93 Y93 beta- 4.14 445.79999999999995 0.068
+

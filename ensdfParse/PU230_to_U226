@@ -1,0 +1,20 @@
+#226U     230PU A DECAY (102 S)         2002CAZZ                  ENSDF    201404
+#  230PU A DECAY (102 S)         2002CAZZ                  ENSDF    201404
+#H TYP=FUL$AUT=B. SINGH and S. SINGH$CIT=ENSDF$CUT=31-MAR-2014$           
+#H TYP=UPD$AUT=Y. AKOVALI$CIT=NDS 84, 1 (1998)$CUT=1-Jan-1997$            
+#H COM=ONLY A'S UPDATED$                                                  
+#  2002CaZZ: measured E|a, I|a, T{-1/2}, |a fine structure                
+#  By using the Geiger-Nuttall relationship between |a energy             
+#  and its partial half-life, systematic studies for |a-decaying          
+#  isotones were performed by 1993Po14, 1991Po21, 1987Po06 and 1985Po25;  
+#  the partial half-life of the |a decay to g.s. was calculated as        
+#  5.2 min (1993Po14), 3.25 min (1991Po21), 5.8 min (1987Po06) and 1.6 min
+#  (1985Po25).                                                            
+#A HF$r{-0}({+226}U)=1.520 fm {I10} is obtained from systematics of r{-0} 
+#A values (1998Ak04)                                                      
+#A E,IA$From 2002CaZZ                                                     
+#P 0.0         0+                102 S     10             7180      8     
+PU230 U226 alpha 7.18 102.0 1.0
++A alpha 7.057 0.81
++A alpha 6.999 0.19
+

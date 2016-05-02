@@ -1,0 +1,21 @@
+#136XE    248CM SF DECAY                1999DA13                  02NDS    200206
+#  248CM SF DECAY                1999DA13                  02NDS    200206
+#H TYP=FUL$AUT=A.A. Sonzogni$CIT=NDS 95, 837 (2002)$CUT=1-Feb-2002$       
+#  Measured E|g, I|g, |g|g using EUROGAM II array with 52                 
+#  Compton-suppressed Ge detectors and four ^LEPS detectors.              
+#  G data published for levels above 6+, 1892 keV isomer.                 
+#G RI$ |D(I|g) < 20%                                                      
+#G E$ |D(E|g)=0.3 keV for I|g |> 10 and 1 keV for I|g < 10, based         
+#G on a statement by 1999Da13                                             
+#G E(A)$From adopted values                                               
+#L J$As given by authors. For levels above 1892 keV isomer, they are      
+#L based on Shell Model calculations and systematics of N=82 nuclei,      
+#L while for levels below they are from adopted values.                   
+#L T$From adopted levels                                                  
+#L E$Following least-square fit to E|g.                                   
+#L BAND(A)$|pg7/2{+4} multiplet                                           
+#L BAND(B)$|pg7/2{+3}d5/2 multiplet                                       
+#L BAND(C)$|pg7/2{+3}h11/2 multiplet                                      
+#P   0.0       0+                3.48E5 Y                                 
+CM248 XE136 SF 0.0 1.09818042624E13 1.0
+

@@ -1,0 +1,31 @@
+# 35S     35P B- DECAY (47.3 S)         1986WA22                  11NDS    201111
+#  35P B- DECAY (47.3 S)         1986WA22                  11NDS    201111
+#H TYP=FUL$AUT=JUN CHEN, JOHN CAMERON AND BALRAJ SINGH$                   
+#H CIT=NDS 112,2715 (2011)$CUT=20-Oct-2011$                               
+#  1986Wa22: Activity of {+35}P produced by the reaction of               
+#  {+36}S(t,|a|g) with a 100 nA, 3.4 MeV triton beam. An intrinsic        
+#  coaxial Ge detector for detecting |g-rays. Measured E|g, I|g.          
+#  Deduced T{-1/2} for {+35}P, levels, log {Ift}.                         
+#  1971Gr53: Activity of {+35}P produced by the reaction of               
+#  {+37}Cl(|g,2p). A NaI(Tl) detector for detecting |g-rays. Measured E|g.
+#  Deduced T{-1/2} for {+35}P, levels for {+35}S.                         
+#  1972Ap01: Activity of {+35}P produced by bombardment of                
+#  LiCl and NaCl with 16 MeV tritons at the Los Alamos tandem van de      
+#  Graaff. An 85 cm{+3} Ge(Li) detector for detecting |g-rays and         
+#  an end-window gas-flow proportional counter for |b-rays. Measured      
+#  E|g, I|g. Deduced T{-1/2} for {+35}P, log {Ift}, J|p.                  
+#  1972Go31: Activity of {+35}P produced with the {+18}O({+19}F,2p),      
+#  {+36}S(t,|a) and {+34}S(d,p|g) reactions from the second tandem of the 
+#  Brookhaven National Laboratory (BNL) tandem van de Graaff facility. A  
+#  60 cm{+3} Ge(Li) detector for detecting |g-rays. Measured E|g,         
+#  |b|g-coin. Deduced T{-1/2} for {+35}P, levels, log {Ift}.              
+#B IB$ From 1986Wa22, unless otherwise noted                              
+#G RI$From 1986Wa22.                                                      
+#G E,RI$From 1986Wa22, unless otherwise noted                             
+#L E$From 1986Wa22, unless otherwise noted                                
+#L E(A)$From 1972Ap01 and 1986Wa22                                        
+#L E(B)$From 1972Ap01, 1972Go31, 1986Wa22                                 
+#L J$From Adopted Levels                                                  
+#P 0            1/2+             47.3 S    8              3988.4    19    
+P35 S35 beta- 3.9884 47.3 1.0
+

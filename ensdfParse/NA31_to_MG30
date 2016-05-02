@@ -1,0 +1,29 @@
+# 30MG    31NA B-N DECAY                2005MA96,1993KL02,1984GU1910NDS    201009
+#  31NA B-N DECAY                2005MA96,1993KL02,1984GU1910NDS    201009
+#H TYP=FUL$AUT=M. SHAMSUZZOHA BASUNIA$CIT=NDS 111, 2331 (2010)$           
+#H CUT=30-Jun-2010$                                                       
+#  2005MA96: 31NA was produced at ^ISOLDE facility, ^CERN. Thin plastic   
+#  scintillator detector, 2 ^BaF{-2} detectors and 2 HPGe detectors;      
+#  Measured: EG, level T, BGG (t) COIN, deduced level scheme.             
+#  1993KL02: 31NA was produced bombarding a uranium carbide target with   
+#  600 MeV protons from the ^CERN synchrocyclotron, mass separated in the 
+#  ^ISOLDE facility; ^NE102 plastic scintillator, 2 HPGe detectors and one
+#  neutron detector; Measured: EG, IG, B-G COIN, B-GG COIN, B-G- n COIN,  
+#  deduced level scheme.                                                  
+#  1984GU19: 31NA was produced in the fragmentation of iridium target by  
+#  10 GeV protons from the ^CERN synchrotron, recoiled fragments were     
+#  thermalized, ionized and mass-separated; Ge(Li) detector, Measured: EG,
+#  B-GG COIN, absolute RI.                                                
+#G E         From 1993Kl02, except otherwise noted                        
+#G E(A)      From 2005Ma96                                                
+#L E         From a least-squares fit to the G-ray energies, DE=1         
+#L keV is assumed for G-ray energies with no uncertainty.                 
+#L J         From adopted levels                                          
+#L T         From 2005Ma96                                                
+#P 0           3/2(+)            17.0 MS     4            134.9E2   21    
+NA31 MG30 neutron&beta- 13.49 0.017 0.37
++G gamma 1.4821 0.41
++G gamma 0.3055 0.05453
++G gamma 0.9851 0.0492
++G gamma 1.9781 0.11972
+

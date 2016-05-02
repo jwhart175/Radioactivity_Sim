@@ -1,0 +1,75 @@
+#214BI    214PB B- DECAY                2004Mo07,2000Sa32,1990Mo0809NDS    200902
+#  214PB B- DECAY                2004Mo07,2000Sa32,1990Mo0809NDS    200902
+#H TYP=FUL$AUT=S. -C. WU{+a}$CIT=NDS 110, 681 (2009)$CUT=1-Nov-2007$      
+#  2004Mo07, 2002De03, 1998Mo14: Radioactivity {+226}Ra(|a);              
+#  measured E|g, relative and absolute I|g, X-ray spectra; Ge(Li), HpGe   
+#  detectors. |a-spectra with 20 keV resolution using ZnS scintillator.   
+#  2002MoZP: RADIOACTIVITY {+226}Ra(|a); measured E|g, I|g;               
+#  Compton suppressed spectrometer, planar HpGe detector.                 
+#  2000Sa32: RADIOACTIVITY {+226}Ra(|a); measured E|g, I|g;               
+#  HpGe detector.                                                         
+#  1990Mo08, 1982Ak03: Radioactivity {+226}Ra(|a); measured E|g, I|g,     
+#  |g|g; planar HpGe detector and Ge(Li) detectors.                       
+#  1991Be06: Radioactivity {+226}Ra(|a); measured E|g, I|g, Ice, |g|g,    
+#  |g|g(t), |b|g|g(t), |g|g(|q);                                          
+#  levels, J|p, T{-1/2}; |g-multi., |d determined.                        
+#  1991Li11:  Radioactivity {+226}Ra(|a); measured E|g, absolute I|g;     
+#  Ge detector.                                                           
+#  1957Ni11: Radioactivity {+222}Em(|a); measured Ice;                    
+#  six gap |b-ray spectrometer.                                           
+#  1954Ml77: measured Ice; spectrometer. See also 1954Ml80.               
+#                                                                         
+#  Others:                                                                
+#  For additional E|g, I|g measurements, see 1983Bu14,                    
+#  1983Ol01, 1983Sc13, 1982Fa10, 1981We18, 1979Hn02,                      
+#  1977Zo01, 1975Ha31, 1972ClZS, 1970Mo28, 1969Li10, 1969Gr33,            
+#  1969Wa27, 1967Ma51, 1964Ew04, 1964Hy02, 1954Ml80, 1952Mu45.            
+#  For additional |g|g(t), |b|g|g(t), T{-1/2} measurements,               
+#  see 1984Pe13.                                                          
+#  For additional ce measurements, see 1952Be78, 1951Ka32.                
+#  For near-zero energy electrons (e{-0}) measurements,                   
+#  see 2006Va02.                                                          
+#                                                                         
+#            |b|g:  1953Ka40, 1952Be78                                    
+#            |g|g:  1991Be06, 1990Mo08, 1957Ni11                          
+#            |g|g(t), |b|g|g(t):  1991Be06, 1984Pe13                      
+#            |g|g(|q):  1991Be06                                          
+#                                                                         
+#  X rays(Bi):                                                            
+#        I(K|a1| x ray)=10.13% {I8}; I(K|a2| x ray)=6.02% {I5} (2004Mo07).
+#  Others: I(K|a| x ray)=)=16.3% {I4} (1983Sc13); 17.3% {I20} (1969Li10)  
+#        I(K|b| x ray)=4.23% {I10} (2004Mo07).                            
+#  Others: I(K|b| x ray)=4.94% {I12} (1983Sc13); 4.3% {I8} (1969Li10).    
+#B IB$From intensity balance, experimental values are given in comments.  
+#G E$Energies measured by 2002MoZP, 1991Be06, 1990Mo08, 1975Ha31          
+#G and 1969Li10 agree well. Weighted averages are presented here.         
+#G The values from 1991Be06 have been adjusted for                        
+#G calibration energies used, as suggested by R. G. Helmer                
+#G (priv. comm. with Y. A. Akovali, 1995El07).                            
+#G RI$Relative intensities from 2004Mo07, 2002MoZP, 2000Sa32,             
+#G 1991Li11, 1983Sc13, 1983Ol01, 1975Ha31 and 1969Li10 agree well.        
+#G Unless otherwise as noted, values given represent                      
+#G weighted averages of all available data                                
+#G normalized to I|g(609)=45.49 {I16} per 100 {+214}Bi |b{+-} decays.     
+#G M         From ce measurements of 1991Be06, 1957Ni11, and 1954Ml77.    
+#G The multipolarities in square brackets are from level scheme,          
+#G except for the 196.19- and 205.68-keV |g's for which                   
+#G M1 multipolarity is assumed because of the improvement                 
+#G on the intensity balances at the 258.87 level.                         
+#G MR        From |g|g(|q) and ce measurements.                           
+#G E(C)$From 1969Li10, transition observed in 1969Li10 and 2000Sa32 only. 
+#G E(M)      Observed by 1990Mo08 and 1991Be06 in coincidence with the    
+#G 462|g. However, assignment to {+214}Pb |b{+-} decay is not certain     
+#G (1990Mo08, 1991Be06).                                                  
+#G RI(T)     Weighted average of values from 2000Sa32 and 1969Li10.       
+#G RI(X)     From 1990Mo08.                                               
+#L E$From least square fit to E|g's by evaluator.                         
+#L 0.3-keV uncertainty assumed when not reported.                         
+#L J$From adopted levels.                                                 
+#P 0.0          0+               26.8 M    9               1019     11    
++B beta- 0.3349 0.11
++B beta- 0.2256 0.402
++B beta- 0.2055 0.45899999999999996
++B beta- 0.1431 0.0104
++B beta- 0.048299999999999996 0.0275
+

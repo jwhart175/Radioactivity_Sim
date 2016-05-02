@@ -1,0 +1,62 @@
+# 65CU    65ZN EC DECAY                                           10NDS    201009
+#  65ZN EC DECAY                                           10NDS    201009
+#H TYP=FUL$AUT=E. BROWNE, J. K. TULI$CIT=NDS 111, 2425 (2010)$            
+#H CUT=1-Aug-2009$                                                        
+#            Updated by E. Browne, 10/13/2009.                            
+#            Evaluation by R. G. Helmer, February 1998 including some     
+#       contributions from previous evaluation (1993Bh04).                
+#       This evaluation was done as part of a collaboration of evaluators 
+#       from Laboratoire National Henri Becquerel (LNHB) in France;       
+#       Physikalisch-Technische Bundesanstalt (PTB) in Germany; HMS       
+#       Sultan and AEA Technology in the United Kingdom; Khlopin Radium   
+#       Institute (KRI) in Russia; Centro de Investigaciones              
+#       Energeticas, Medioambientales, y Tecnologicas (CIEMAT) and        
+#       Universidad Nacional a Distancia (UNED) in Spain; and Brookhaven  
+#       National Laboratory (BNL), Lawrence Berkeley National Laboratory  
+#       (LBNL), and Idaho National Engineering and Environmental          
+#       Laboratory (INEEL) in the United States.                          
+#  1991Sy01: Measurements include: K-shell ionization                     
+#  probability 2.2|*10{+-3} {I4} using a triple coincidence spectrometer. 
+#  1990Ku11: K/|b{++} ratio using single and coincidence                  
+#  counting, Ge(Li), Si(Li), NaI detectors.                               
+#  1990Sc08, 1996Gr13: E|g, I|g, x-ray                                    
+#  emission probabilities with 4|p|b|g coincidences, Ge(Li).              
+#  1972De24, 2006Bo01: I|g, I|b{++}, T{-1/2} and |g-Auger,                
+#  |b{++}|g coincidences, proportional counter, NaI, Ge(Li).              
+#  1968St05: I|g, |g|g coincidences, NaI, Ge(Li).                         
+#  1970Me27: E|g, I|g, Ice, magnetic spectrometer.                        
+#  1949Ma57: E|b+, E|g, magnetic spectrometer.                            
+#  1966Ha07: |a(exp), |a(K)exp, magnetic spectrometer.                    
+#  1979Da20: |g(|q,t), NaI.                                               
+#  1984Bu34: ce; magnetic spectrometer.                                   
+#  1986Ca08:  K|a| x ray, K|b| x ray, intensity ratio, Si(Li)             
+#  detector intensity ratio, Si(Li) detector.                             
+#  1988Av02,1982Le31: search for axions.                                  
+#  1994Al53: Measured |g-ray emission probability, Cd-Te                  
+#  detector. Others: 1993Ko54, 1993Na11.                                  
+#            Earlier decay data evaluation (1991BaZS).                    
+#G CC$ FROM BrIcc v2.2 (31-Mar-2008) 2008KiAA, "Frozen Orbitals" appr.    
+#G E         From 2000He14 for 1115 |g ray, from Adopted Gammas for       
+#G      770G, and from level energy difference for 344G.                  
+#G M,MR      From {+65}Cu Adopted Gammas, unless noted otherwise.         
+#G RI        I{-Kx|a} = 34.1 {I6} and I{-Kx|b} = 4.6 {I1} from 1991BaZS   
+#G      evaluation based on measured values of I{-Kx}: 39.4 {I6}          
+#G      (1963Ta19), 38.70 {I26} (1968Ha47), 38.0 {I2} (Mukerji and Lee    
+#G      Chin in Fink et al. Proceedings of the International Conference   
+#G      on Inner-Shell Ionization Phenomena and Future Applications,      
+#G      1972 (1973)), and 38.4 {I2} (Bambynek, Z. Phys. 214 (1968) 374).  
+#G RI        I XK=38.87% 22, weighted average from several                
+#G measurements (2006Be34).  I XKA=34.6% 3, ^BESSY electron storage ring  
+#G (1994Ar22). I XKB/I AXB= 0.1385 16 or 0.1407 16 depending on the       
+#G modeling (1994Le29). Other values: I XK=39.4% 6 (1963Ta19),            
+#G I XK=38.70% 26 (1968Ha47).                                             
+#G RI        I(annih.) = 2.842 {I13} (2006Be34); others: 3.40 {I20}       
+#G      (1959Gl55), 2.4 {I6} (1962Be28), 2.88 {I15} (1968Ha47),           
+#G      2.92 {I4} (1972De24), 2.84 {I4} (1990Sc08), 2.81 {I3} (2006Ko31). 
+#L J         From {+65}Cu Adopted Levels.                                 
+#P 0           5/2-              243.93 D  9              1352.1    3     
+ZN65 CU65 beta+ 1.3520999999999999 2.1075552E7 1.0
++B beta+ 0.1425 0.01421
++G gamma 0.7706000000000001 2.68E-5
++G gamma 1.115539 0.5004
+

@@ -1,0 +1,41 @@
+#101RU    101RH EC DECAY (3.3 Y)        1985VA15                  ENSDF    200610
+#  101RH EC DECAY (3.3 Y)        1985VA15                  ENSDF    200610
+#H TYP=ERR$AUT=J. Tuli$DAT=14-Dec-2007$COM=Fixed typos noted by PNPI group
+#H TYP=FUL$AUT=JEAN BLACHOT$CIT=ENSDF$CUT=1-Jul-2006$                     
+#  Others: 1971Si16, 1965Ev06, 1965Hi07, 1966Ch13, 1966Ar05, 1966Wo06,    
+#  1966CoZX                                                               
+#  97, 114, 137, 217, 306, 334, 344, 462 |g's given by 1971Si16, not seen 
+#  by 1985Va15 are uncertain. 217, 462|g's seen in coin by 1985Va15 in    
+#  {+102}Rh.                                                              
+#G E,RI$E|g,I|g from 1985Va15, unless otherwise noted                     
+#G           |g|g coin: 1971Si16, 1966Ar05                                
+#G           |a(K)exp from 1996La21 based on I(ce(K))/I|g using calibrated
+#G detectors. The evaluator has renormalized the authors' values to give  
+#G |a(K)exp(325|g)=0.0177 known to be E2 from level scheme. The authors'  
+#G value is 0.0160 8                                                      
+#P 0.0         1/2-              3.3 Y     3              542       17    
+RH101 RU101 beta+ 0.542 1.0413779904E8 1.0
++B beta+ 8.612E-4 0.0011200000000000001
++B beta+ 8.584E-4 19.92
++B beta+ 7.880000000000001E-4 0.001
++B beta+ 8.466E-4 19.92
++B beta+ 8.219999999999999E-4 19.92
+
+#101RU    101RH EC DECAY (4.34 D)       1974HEYW,1985VA15         ENSDF    200610
+#  101RH EC DECAY (4.34 D)       1974HEYW,1985VA15         ENSDF    200610
+#H TYP=FUL$AUT=JEAN BLACHOT$CIT=ENSDF$CUT=1-Jul-2006$                     
+#  Others: 1971Si16, 1966Ar05                                             
+#  4.5, 332, 337, 489, 496, 616, 624, 643 7|g's given by 1971Si16, not    
+#  seen by 1985Va15 are uncertain.                                        
+#G E,RI$E|g,I|g are from 1985Va15, unless otherwise noted                 
+#G           1971Si16 I(ce) measurements are normalized to I(ce(K)        
+#G 307|g)=1.3                                                             
+#G           |a(K)exp=ce(K)(1971Si16)/I|g normalized to                   
+#G |a(K)(307|g)=0.01364 (M1+1% E2 theory)                                 
+#G           623|g not seen by 1985Va15 is uncertain                      
+#G M         Deduced from |a(K)exp and/or K/L ratio data                  
+#G           |g|g coin: 1971Si16, 1966Ar05                                
+#P 157.41    4 9/2+              4.34 D    1              542       17    
+RH101 RU101 beta+ 0.542 374976.0 0.936
++B beta+ 8.577E-4 0.00114
+

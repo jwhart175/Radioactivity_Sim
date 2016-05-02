@@ -1,0 +1,103 @@
+# 44CA    44SC EC DECAY (3.97 H)        1976CO06,1983GU11,1973SI0511NDS    201109
+#  44SC EC DECAY (3.97 H)        1976CO06,1983GU11,1973SI0511NDS    201109
+#H TYP=FUL$AUT=JUN CHEN, BALRAJ SINGH AND JOHN A. CAMERON$                
+#H CIT=NDS 112, 2357 (2011)$CUT=31-Jul-2011$                              
+#  1976Co06: Source of {+44}Sr prepared by the (|g,n) reactions on        
+#  natural Sc at the Livermore linear accelerator or by the (|a,dxn)      
+#  reaction on natural Ca metal at the Berkeley 88-inch cyclotron.        
+#  Ge(Li) detector. Measured E|g, I|g. Deduced levels, |g-branchings,     
+#  log| {Ift}.                                                            
+#  1983Gu11: Ge(Li) detectors. Measured E|g, I|g. Deduced levels, I|b.    
+#  1973Si05: Activity of {+44}Sc from a {+44}Ti source deposited on thin  
+#  mylar in a spot of 0.3 cm diameter. A 25 cm{+3} and a 70 cm{+3}        
+#  Ge(Li) detectors for detecting |g-rays. Measured E|g, I|g, |g|g-coin.  
+#  Deduced levels, branching ratios.                                      
+#  1990Me15: Measured E|g, I|g. Deduced levels.                           
+#  Other main references: 1990Sc08, 1974HeYW                              
+#  Evaluated by E. Browne (LBNL), February 1999. Some revisions and       
+#  updates were done by the present evaluators.                           
+#  This decay-data evaluation was done under the                          
+#  collaboration which includes evaluators at Laboratoire Primaire des    
+#  Rayonnments Ionisants (LPRI) in France; Physikalisch-Technische        
+#  Bundesanstalt (PTB) in Germany; Royal Naval College in the             
+#  United Kingdom; V.G. Kholopin Radium Institute (KRI) in Russia;        
+#  and Brookhaven National Laboratory (BNL), Lawrence Berkeley            
+#  National Laboratory (LBNL) and Idaho National Engineering and          
+#  Environmental Laboratory (INEEL) in the United States.                 
+#  This evaluation was reviewed and                                       
+#  accepted by evaluators in this collaboration.                          
+#  The evaluator applied the Limitation of Relative Statistical Weights   
+#  (LWM) method (1988WoZO) for averaging numbers throughout this          
+#  evaluation. To avoid overestimating precision because of possible data 
+#  correlation, the uncertainty assigned to the average was always equal  
+#  to or greater than the smallest uncertainty of the values used to      
+#  calculate the average.                                                 
+#  The adopted half-life of {+44}Sc, 3.97 h {I4}, is an average (lwm)     
+#  of 3.927 h {I8} (1969Ra16), 4.00 h {I2} (1966Ta01), and 4.05 h {I3}    
+#  (1969Sa34). Others: 3.9 h (1963Di06), 4.04 h (1961Ra06), 4.01 h        
+#  (1961Kh06), 3.92 h 3 (1945Hi05).                                       
+#  The total average radiation energy of 3653.3 keV 25 (which includes    
+#  all the radiations emitted by {+44}Sc), calculated with the computer   
+#  program RADLST, agrees very well with Q(|e)=3652.5 keV {i18} (2011AuZZ)
+#  and confirms the quality and completeness of the {+44}Sc decay scheme. 
+#  Others:                                                                
+#  T{-1/2}({+44}Sc): 1954An25, 1950Br52, 1948Wa13, 1945Hi05, 1942Sm01,    
+#  1940Wa01.                                                              
+#  Isotopic identification: 1937Wa07, 1937Wa04, 1937Wa05, 1937Po04,       
+#  1938Bu05, 1938Co01, 1938Ge01, 1939Bo05, 1940Wa01,                      
+#  1946Bl27, 1950Br52, 1951Ba84, 1954An25, 1954Sh30, 1963Di06, 1963Kl06,  
+#  1973Si05.                                                              
+#  Production cross sections (recent papers): 1999Fa08 ((p,^X)            
+#  reaction on Fe and Ca), 1999He20 (TI(A,^X))                            
+#  |b{++}: 1937Ja03, 1942Sm01, 1950Br52, 1950Cu14, 1954La40, 1955Bl23,    
+#  1958Ko92.                                                              
+#  |g,|g|g: 2006Va23, 1981Yu03, 1973Si05, 1973Gr28, 1972Vo03, 1972Ta36,   
+#  1971Ok03, 1970Le05, 1970Ei07, 1968Ki03, 1968Wa21, 1963Di06, 1961Mc03,  
+#  1955Bl23, 1950Br52, 1950Cu14                                           
+#  |g|g(|q): 1968Wa21                                                     
+#  |b|g(circ pol): 1965Ma06, 1962Ma13, 1962Bl02, 1958Bo90                 
+#  |e/|b{++}: 1983Ba41 (also 1976St21)                                    
+#E IE$ Subshell ratios are theoretical values from 1998Sc28.              
+#E           The log| {Ift} systematic trend of second-forbidden          
+#E transitions suggests log| {Ift}>10.6 (1998Si17) for the 2+ to 0+ |e    
+#E transition to {+44}Ca ground state. This limit corresponds to          
+#E I|e<0.005%.                                                            
+#G E$ Weighted average (LWM) of values from 1990Me15, 1976Co06, 1983Gu11, 
+#G 1974HeYW, and 1973Si05.                                                
+#G RI$ Weighted average (LWM) of values from 1990Me15, 1976Co06, 1990Sc08,
+#G 1983Gu11, 1974HeYW, and 1973Si05; unless otherwise stated.             
+#G CC$ Interpolated theoretical values from 1976Ba63.                     
+#L T         From 1990En08                                                
+#L E$ Deduced by evaluator from a least-squares fit to |g-ray energies.   
+#P 0.0            2+              3.97 H   4              3652.5    18    
++B beta+ 0.632 0.9427
++B beta+ 8.966E-4 9.0E-4
++B beta+ 8.954E-4 9.0E-4
+
+# 44CA    44SC EC DECAY (58.61 H)       1976CO06                  11NDS    201109
+#  44SC EC DECAY (58.61 H)       1976CO06                  11NDS    201109
+#H TYP=FUL$AUT=JUN CHEN, BALRAJ SINGH AND JOHN A. CAMERON$                
+#H CIT=NDS 112, 2357 (2011)$CUT=31-Jul-2011$                              
+#  1976Co06: Source of {+44}Sc prepared by the (|g,n) reactions on        
+#  natural Sc at the Livermore linear accelerator or by the (|a,dxn)      
+#  reaction on natural Ca metal at the Berkeley 88-inch cyclotron.        
+#  Ge(Li) detector. Measured E|g, I|g. Deduced levels, |g-branchings,     
+#  log| {Ift}.                                                            
+#  Others:                                                                
+#  T{-1/2}({+44}Sc isomer): 1940Wa01, 1945Hi05, 1950Br52, 1952Ru23,       
+#  1954An25, 1956Ru45.                                                    
+#  Production cross sections (recent papers): 1999Fa08 ((p,^X)            
+#  reaction on Fe and Ca), 1999He20 (TI(A,^X))                            
+#  Isotopic assignment: 1937Wa03, 1937Wa07, 1937Wa04, 1937Wa05, 1937Po04, 
+#  1938Bu05, 1938Co01, 1940Wa01, 1942Sm01, 1945Hi05, 1950Br52, 1951Ba84,  
+#  1954An25.                                                              
+#  |g: 1972Ta36, 1971Ok03, 1970Ei07, 1968Wa21, 1967Ki07, 1963Kl06,        
+#  1955Bl23, 1950Br52, 1942Sm01, 1941He01.                                
+#  All data from 1976Co06, unless otherwise noted                         
+#G RI$ From decay scheme.                                                 
+#G M,MR$ From Adopted Gammas                                              
+#L J$ From Adopted Levels                                                 
+#P 271.240   10 6+               58.61 H   10             3652.5    18    
+SC44 CA44 beta+ 3.6525 210996.0 0.0120
++B beta+ 8.954E-4 9.0E-4
+

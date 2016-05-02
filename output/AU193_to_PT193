@@ -1,0 +1,48 @@
+#193PT    193AU EC DECAY (17.65 H)      1968SV01,1970PL02         06NDS    200602
+#  193AU EC DECAY (17.65 H)      1968SV01,1970PL02         06NDS    200602
+#H TYP=FUL$AUT=E. Achterberg, G.V. Marti, V.R. Vanin, et al.$             
+#H CIT=NDS 107, 1 (2006)$CUT=30-Sep-2005$                                 
+#  1970Pl02: sources from spallation of PB by 680-MEV protons,            
+#  chem; measured EG, IG (GELI)                                           
+#  1968Sv01: sources from PT(P,XN), EP=35 MEV;                            
+#  measured ECE, ICE (mag spect). (preliminary report 1967Jo14)           
+#  1957Ew34: measured GG, CEG                                             
+#  Others: 1954Gi04, 1962Ma18, 1976Di15, 1976ViZM.                        
+#E           1976Di15 report two B+ groups with E(max.)=320 30 and 150 20.
+#E The higher group gives Q+=1340 30, inconsistent with the adjusted      
+#E Q+=1083 11 from 2003Au03. However, since the observed groups are inner 
+#E groups in the ^FK plot in a combined B+ spectrum from                  
+#E 193HG + 193AU decay, it is possible that the energy and/or the         
+#E nuclear assignment of these groups could be in error.                  
+#E           No G+- seen, IB+ LT 0.08% (1957Ew34)                         
+#E TI        From intensity imbalance at each level.                      
+#E TI(A)     IE given for 0.0 level is a combined value for               
+#E the 0.0 and 1.6 levels.                                                
+#G           All CE data are from 1968Sv01                                
+#G           Unassigned CE-line: ECE=137.54 10 ICE=0.8 2 % of the         
+#G 268 K CE intensity (1968Sv01)                                          
+#G E         Deduced from E(CE) measurements of 1968Sv01, unless otherwise
+#G noted. Calibration: KL1L1 and KL2L3 AUGER lines in PT, E(CEK) 316G     
+#G in 192PT (E(CEK)=238.087 10), ThC ^A (E(CE)=24.509) and ThB ^F         
+#G (E(CE)=148.108) lines.                                                 
+#G RI        From 1970Pl02, unless otherwise noted.                       
+#G M,MR      All experimental internal conversion coefficients and ratios 
+#G are based on ICE of 1968Sv01 and IG of 1970Pl02. The two spectra are   
+#G normalized to KC(173.52G)=1.08, the theoretical value for M1+E2,       
+#G MR=0.355.                                                              
+#G E(A)      From 1970Pl02.                                               
+#L J         From adopted levels                                          
+#P 0.0          3/2+             17.65 H   15             1083      11    
+AU193 PT193 beta+ 1.083 63539.99999999999 0.027
++G gamma 0.32489 0.12
+
+#193PT    193AU EC DECAY (3.9 S)        1955BR41                  06NDS    200602
+#  193AU EC DECAY (3.9 S)        1955BR41                  06NDS    200602
+#H TYP=FUL$AUT=E. Achterberg, G.V. Marti, V.R. Vanin, et al.$             
+#H CIT=NDS 107, 1 (2006)$CUT=30-Sep-2005$                                 
+#  Sources from decay of 193HG parent activity; measured G, CE, G(CE).    
+#G M,E(A)    From adopted gammas                                          
+#L E,J,T     From adopted levels                                          
+#P 290.18    5  11/2-            3.9 S     3              1083      11    
+AU193 PT193 beta+ 1.083 3.9 1.0
+

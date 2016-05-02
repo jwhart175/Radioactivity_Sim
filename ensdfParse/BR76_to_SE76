@@ -1,0 +1,80 @@
+# 76SE    76BR EC DECAY (16.2 H)        1975VYZX,1974NA17,1969DZ0195NDS    199503
+#  76BR EC DECAY (16.2 H)        1975VYZX,1974NA17,1969DZ0195NDS    199503
+#H TYP=ERR$AUT=J. Tuli$COM=FIXED FORMAT ERRORS$DAT=1-Dec-1996$            
+#H TYP=FUL$AUT=BALRAJ SINGH$CIT=NDS 74,63 (1995)$CUT=22-Dec-1994$         
+#  See 1986Gi12 and 1983Pa10 for CE data for 657G and 1122 E0 transition. 
+#  See 1992Gr20 (also 1988Wh03,1988Gr26) for G(THETA,TEMP) measurements   
+#  References: G, GG studies: 1974Na17, 1975VyZX, 1969Dz01, 1970Dz09,     
+#  1974MuZB, 1971La01, 1969Cl11. COMPTON suppression spectrometer used by 
+#  1974Na17. GG results are from 1974Na17 (GELI-NAI detector system) and  
+#  1970Dz09 (GELI-GELI detector system). 1975VyZX, 1969Dz01, 1970Dz09 and 
+#  1971Dz08 are from the same group                                       
+#  G and CE (for E0): 1986Gi12, 1983Pa10                                  
+#  GG(THETA): 1982MuZV. GELI-NAI system                                   
+#  G(THETA,H,TEMP): 1992Gr20 (also 1988Wh03,1988Gr26). G(THETA)           
+#  of 1130G and 2951G used to deduce MOMM1 for 76BR GS                    
+#  B and BG studies: 1971Dz08, 1971La01, 1969Dz01, 1963Sa26, 1962Ku06,    
+#  1959Gi46                                                               
+#  Hyperfine fields in iron through ^NMR studies: 1993Oh09                
+#  Other G-ray studies: 1971La01, 1971FuZP, 1971Dz08, 1970Dz09,           
+#  1962Ku06, 1960Bu22, 1959Gi46, 1955Th01, 1952Fu04                       
+#  CE data are from 1970Dz09 obtained with a magnetic spectrometer        
+#L           The following levels proposed by 1971La01 only have been     
+#L omitted: 1883, 1942, 2048, 2890, 2990, 3910, 4140, 4420, 4570.         
+#L In addition the 2374, 3669, 3913 levels proposed by 1974Na17 and       
+#L the 4065 level from 1969Dz01 have been omitted. None of these          
+#L levels is supported by other studies on 76SE (see adopted levels)      
+#G           The following EG(IG)'s reported by different groups          
+#G have been omitted by the evaluator for lack of confirmation:           
+#G 1974MuZB: 575.1(1.3), 1069.1(0.42)                                     
+#G 1971La01: 248, 832.0(4.5), 1050, 1074, 1088, 1342(0.8), 1489(3.9),     
+#G 1689.5, 1997, 2555, 3625, 3860, 3910, 3940, 4140, 4420, 4570.          
+#G 1969Dz01: 2947(1.5)                                                    
+#G 1969Cl11: 737.7, 831.1, 1488.5, 1578.7, 2281.2, 2329.2, 2334.0,        
+#G 2348.7, 2439.0, 2617.6, 3023.4                                         
+#L E$From least-squares fit to EG's                                       
+#L J$From adopted levels                                                  
+#G E$Wherever possible weighted averages have been taken                  
+#G from 1974Na17, 1974MuZB, 1975VyZX, 1969Dz01 and 1969Cl11               
+#G RI$Averages from 1974Na17, 1975VyZX and 1969Dz01                       
+#G M$From GG(THETA) and CE data                                           
+#E E$From 1971Dz08                                                        
+#E E$For other EC branches, see drawing.                                  
+#G E(A)$G reported by 1974Na17 only                                       
+#G E(B)$G reported by 1969Dz01 only                                       
+#G E(C)$G reported by 1974MuZB only                                       
+#G E(D)$G reported by 1975VyZX only                                       
+#P    0.0       1-                  16.2 H 2               4963     9     
++B beta+ 1.8 0.06
++B beta+ 1.532 0.258
++G gamma 0.5590900000000001 0.74
++B beta+ 1.265 0.021
++B beta+ 1.221 0.027999999999999997
++B beta+ 1.022 0.006999999999999999
++B beta+ 0.953 0.01
++B beta+ 0.797 0.001
++B beta+ 0.659 0.0096
++B beta+ 0.621 0.0034999999999999996
++B beta+ 0.569 0.003
++B beta+ 0.558 0.002
++B beta+ 0.551 0.0124
++B beta+ 0.427 0.052000000000000005
++B beta+ 0.375 0.063
++B beta+ 0.336 0.0144
++B beta+ 0.253 0.0092
++B beta+ 0.207 0.0013
++B beta+ 0.166 4.0E-4
++B beta+ 0.146 3.0E-4
++B beta+ 0.001 0.07
+
+# 76SE    76BR EC DECAY (1.31 S)        1980HA23                  95NDS    199503
+#  76BR EC DECAY (1.31 S)        1980HA23                  95NDS    199503
+#H TYP=FUL$AUT=BALRAJ SINGH$CIT=NDS 74,63 (1995)$CUT=22-Dec-1994$         
+#  Decay branch uncertain. Estimated by 1980Ha23 as <0.55%                
+#L J$From adopted levels                                                  
+#N    1.0                 0.0055 LT181.82                                 
+#N                                 1.0                                 3  
+#P  102.0       (4+)               1.31 S  2               4963     9     
++G gamma 0.559102 0.022
++G gamma 8.7244 0.022
+

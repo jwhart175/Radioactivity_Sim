@@ -1,0 +1,56 @@
+#253NO    257RF A DECAY (4.4 S)         2010ST14                  13NDS    201309
+#  257RF A DECAY (4.4 S)         2010ST14                  13NDS    201309
+#H TYP=FUL$AUT=E. BROWNE, J. K. TULI$CIT=NDS 114, 1041 (2013)$            
+#H CUT=1-Mar-2012$                                                        
+#  2010St14: 257RF PRODUCED IN 261SG DECAY. 261SG produced in             
+#  208PB(54CR,N).                                                         
+#  Measured ALPHA, G, AG. G's measured by four-fold                       
+#  segmented clover detector.                                             
+#  ALPHA energy resolution (FWHM) AP 21 KEV. G energy resolution (FWHM)   
+#  1.3 - 4 KEV. Authors modified results presented in their earlier       
+#  work, 1997HE29                                                         
+#  2009QI04: 257RF PRODUCED IN REACTION 208PB(50TI,N), E=233 MEV.         
+#  MEASURED ALPHA, G, CE, GCE                                             
+#  1997He29: {+257}Rf produced through the {+208}Pb({+50}Ti,n) reaction.  
+#  {+50}Ti beam produced by an electron cyclotron resonance source and    
+#  accelerated to E=233 MeV by the ATLAS accelerator at Argonne National  
+#  Laboratory. The evaporation residues were separated from unreacted     
+#  beam particles by the Argonne Fragment Mass Analyzer. Particles and    
+#  their decay products were detected using a parallel grid avalanche     
+#  counter (PGAC) and a double-sided silicon strip detector (DSSD).       
+#  Time-of-flight measurements were taken between the PGAC and the DSSD.  
+#  Two high-purity germanium detectors and two low-energy photon          
+#  spectrometers were used to measure |g's. Measured |g spectra, |a       
+#  spectra, conversion electrons, fission-like events and half-lives.     
+#  Deduced isomer, Nilsson configurations.                                
+#  The placements of the |a groups is by 2009Qi04.                        
+#  1997He29: 208PB(50TI,n), E=4.52 - 4.81 MEV/^A. Measured ALPHA,         
+#  (ALPHA)(ALPHA). Earlier work reported in 1985He06.                     
+#  1973Be33, 1974BeWM: 249CF(12C,4N), E=73 MEV. Measured ALPHA, G, X-RAYS,
+#  (ALPHA)G, (ALPHA)XK, (ALPHA)G(t)                                       
+#  Other: 1969Gh01                                                        
+#  Observed ^No XK, thus identifying this as ALPHA decaying parent of ^No 
+#  (1973Be33)                                                             
+#  LEVELS (JPI) (EA) REPORTED IN 1997HE29 BUT NOT IN 2010ST14:            
+#  39 (11/2-) (8864), 125 (5/2+) (8779), 209 (9/2+)(8697),                
+#  319 (8589?), 385 (7/2+) (8524), 439 (9/2+) (8471), 485 (11/2+) (8426)  
+#A $ I(K X-RAYS)=0.16 4 per ALPHA decay (1973Be33)                        
+#L E$From least-squares fit to EG assuming |DE|g=1 KEV                    
+#P 0.0         (1/2+)            4.4 S     +6-5           9083      8     
+
+#253NO    257RF A DECAY (4.1 S)         1997HE29,2010ST14         13NDS    201309
+#  257RF A DECAY (4.1 S)         1997HE29,2010ST14         13NDS    201309
+#H TYP=FUL$AUT=E. BROWNE, J. K. TULI$CIT=NDS 114, 1041 (2013)$            
+#H CUT=1-Mar-2012$                                                        
+#  2010St14: 253RF PRODUCED IN 261SG DECAY.                               
+#  261SG produced in 208PB(54CR,N).                                       
+#  Measured ALPHA, G, AG. G's measured by                                 
+#  four-fold segmented clover detector.                                   
+#  ALPHA energy resolution (FWHM) AP 21 KEV.                              
+#  G energy resolution (FWHM) 1.3 - 4 KEV.                                
+#  2002HEZS: Present ALPHA spectrum. Authors state that their preliminary 
+#  results confirm those of 1997HE29.                                     
+#P  75       AP(11/2-)           4.1 S     4              9083      8     
++A alpha 9.021 0.56
++A alpha 8.968 0.44
+

@@ -1,0 +1,21 @@
+#181OS    181IR EC DECAY                1995RO09,1978LA04,1972AK0305NDS    200601
+#  181IR EC DECAY                1995RO09,1978LA04,1972AK0305NDS    200601
+#H TYP=FUL$AUT=S. -C. WU$CIT=NDS 106, 367 (2005)$CUT=31-Aug-2005$         
+#  1995Ro09: ISOCELE separator; Ge(HP) detectors;                         
+#  measured T{-1/2}, E|g, I|g, |g|g-coin.                                 
+#  1978La04: Activity of {+181}Ir from {+169}Tm({+16}O,4n), E=90-130 MeV; 
+#  Ge(Li) detectors, intrinsic Ge detectors for X-rays;                   
+#  measured T{-1/2}, E|g, I|g, |g|g-coin, X-rays, |g|g(t).                
+#  1972Ak03: Activity of {+181}Ir from {+169}Tm({+16}O,4n), E=94 MeV;     
+#  Ge(Li) detectors; measured T{-1/2}, E|g, I|g, |g|g-coin.               
+#G E$Weighted average of values from 1995Ro09,1978La04 and 1972Ak03.      
+#G Uncertainty of 0.3 keV assumed for E|g's from 1995Ro09.                
+#G RI$Weighted average of values from 1978La04 and 1972Ak03.              
+#G M$Calculated from level scheme intensity balances.                     
+#G E(R)$From 1995Ro09                                                     
+#G E(L,M)$From 1978La04                                                   
+#G RI(I,L)$From 1978La04, uncertainties 5-15%                             
+#L E$From least square fit to E|g's by evaluator                          
+#L J$From adopted levels                                                  
+#P 0.0          5/2-             4.90 M     15              4080    40    
+

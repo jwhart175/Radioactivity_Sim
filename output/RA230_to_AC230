@@ -1,0 +1,77 @@
+#230AC    230RA B- DECAY                1980GI04                  12NDS    201209
+#  230RA B- DECAY                1980GI04                  12NDS    201209
+#H TYP=FUL$AUT=E. BROWNE, J. K. TULI$CIT=NDS 113, 2113 (2012)$            
+#H CUT=1-May-2012$                                                        
+#  Modified by E. Browne (June 12, 2007).                                 
+#  A tentative decay scheme is given as proposed by 1980Gi04. It was      
+#  constructed from G-ray energy adjustments to level energies,           
+#  and from G-ray intensity considerations.                               
+#  Source strength was insufficient for GG coincidence studies. Thus,     
+#  1980Gi04 pointed out that due to a lack of GG COIN data this decay     
+#  scheme is not unique; the first-excited state could                    
+#  be at 63.0 KEV rather than at 9.0 KEV.                                 
+#  G rays shown to decay to the 9.0 level would then have to be placed    
+#  elsewhere. 1980Gi04 studied the decay of 230RA without interference    
+#  from the decay of its daughter 230AC (122 sec) by a process of         
+#  continuous chemical separation.                                        
+#  BG: (202.8G)(AP 500B) (1978Gi07).                                      
+#  Q- AP 710 KEV is given in 1980Gi04, deduced by assuming that           
+#  500-KEV BETA feeds a level at 211.6 KEV.                               
+#  Q-=710+-300 is recommended in 2003AU03.                                
+#B           Deduced by evaluators from G-ray transition intensity        
+#B balance, using NR=0.086 22.                                            
+#G           I(K holes)/I(454.9G of 230AC decay) AP 2.50 (1980Gi04).      
+#G E         From 1980Gi04.                                               
+#G RI$Photon intensity relative to RI(454.9G from 230AC decay)=100.       
+#G M         Based on theoretical spin/parity assignments to levels.      
+#G E(S)      Transition was not observed. EG from level energy.           
+#L J$Based on expected quasiparticle states from Nilsson diagrams         
+#L (1980Gi04).                                                            
+#P 0.0          0+               93 M      2              7.1E+2    30    
+RA230 AC230 beta- 0.71 5580.0 0.086
++G gamma 0.1178 0.003
++G gamma 0.1253 0.003
++G gamma 0.1387 0.006
++G gamma 0.2363 0.003
++G gamma 0.2474 0.003
++G gamma 0.29760000000000003 0.005
++G gamma 0.3639 0.006
++G gamma 0.4129 0.009000000000000001
++G gamma 0.4735 0.003
++G gamma 0.101 0.16
++G gamma 0.1515 0.02
++G gamma 0.18919999999999998 0.16699999999999998
++G gamma 0.1982 0.034
++G gamma 0.1107 0.031
++G gamma 0.2028 0.308
++G gamma 0.21180000000000002 0.113
++G gamma 0.1926 0.013999999999999999
++G gamma 0.2557 0.016
++G gamma 0.18409999999999999 0.115
++G gamma 0.2852 0.182
++G gamma 0.1414 0.006999999999999999
++G gamma 0.2929 0.043
++G gamma 0.1343 0.045
++G gamma 0.1479 0.055999999999999994
++G gamma 0.1775 0.006
++G gamma 0.2746 0.01
++G gamma 0.3758 0.003
++G gamma 0.0492 0.026000000000000002
++G gamma 0.1971 0.013000000000000001
++G gamma 0.25989999999999996 0.034
++G gamma 0.44889999999999997 0.15
++G gamma 0.4579 0.185
++G gamma 0.13269999999999998 0.003
++G gamma 0.4697 0.293
++G gamma 0.4787 0.242
++G gamma 0.2515 0.099
++G gamma 0.5368999999999999 0.012
++G gamma 0.2882 0.01
++G gamma 0.29610000000000003 0.012
++G gamma 0.31639999999999996 0.01
++G gamma 0.5094 0.065
++G gamma 0.44 0.003
++G gamma 0.4905 0.043
++G gamma 0.4377 0.003
++G gamma 0.48419999999999996 0.019
+

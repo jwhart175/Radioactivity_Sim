@@ -1,0 +1,23 @@
+#172ER    172HO B- DECAY (25 S)         1991BE04                  ENSDF    201512
+#  172HO B- DECAY (25 S)         1991BE04                  ENSDF    201512
+#H TYP=FUL$AUT=BALRAJ SINGH$CIT=ENSDF$CUT=08-DEC-2015$                    
+#H TYP=FUL$AUT=BALRAJ SINGH$CIT=NDS 75,199 (1995)$CUT=31-May-1995$        
+#  1991Be04: {+172}Ho produced and identified by mass separation of       
+#  products from reaction {+186}W({+136}Xe,X) at E=11.6 MeV/nucleon.      
+#  Enriched (99.8%) target of {+186}W was used. Measured |g, |g|g, |b|g,  
+#  |g(x rays, T{-1/2}.                                                    
+#  2000GrZV: a reconstructed decay scheme proposed based on gamma-ray     
+#  singles and coincidence data in 1991Be04, and known levels from        
+#  (t,p) in 1980Sh14. The author postulated low-spin (1-) and             
+#  high-spin (7+) activities of {+172}Ho, both of |? 25 s half-life       
+#  The evaluator considers the decay scheme of {+172}Ho to {+172}Er as    
+#  incomplete, and the one proposed by 2000GrZV (using data from 1991Be04)
+#  as unconfirmed, until further experiments are carried out to prove     
+#  the hypothesis of isomerism in {+172}Ho                                
+#G CC$FROM BrIcc v2.3b (16-Dec-2014) 2008Ki07, "Frozen Orbitals" appr.    
+#G When no |d value given, value overlaps listed multipolarities          
+#P  0.0                            25 S    3                5000    SY    
++B beta- 1.937 0.15
++B beta- 1.615 0.21
++B beta- 1.417 0.44
+

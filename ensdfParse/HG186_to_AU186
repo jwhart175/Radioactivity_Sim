@@ -1,0 +1,50 @@
+#186AU    186HG EC DECAY                1983PO10,1985AB03         03NDS    200306
+#  186HG EC DECAY                1983PO10,1985AB03         03NDS    200306
+#H TYP=FUL$AUT=CORAL M. BAGLIN$CIT=NDS 99, 1 (2003)$CUT=4-Apr-2003$       
+#E           Q+=3230 140 (1995Au04).                                      
+#G M         From conversion electron measurements of 1983Po10.           
+#G E,RI      From 1983Po10.                                               
+#G E(A)      Transition mixed with XKB1 of PT and AU.                     
+#G RI(B)     Deduced by 1983Po10 from their I(CE) data. |DI{-|g}=10% is   
+#G assumed for these transitions also, since the authors do not           
+#G specify otherwise; however, it is plausible that the precision         
+#G might be poorer for these.                                             
+#L T         From 1985Ab03 (ce-|g or ce-ce delayed coin).                 
+#L J         From adopted levels.                                         
+#L Due to significant unplaced transition intensity (RI=2%), LOGFT        
+#L GE 6.8 is considered by the evaluator to provide only weak support     
+#L for JPI assignments.                                                   
+#P 0.0          0+                   1.38 M 6                 3.23E314    
++B beta+ 1.295 0.0059
++B beta+ 0.948 0.00715
++B beta+ 0.914 0.00724
++B beta+ 0.849 0.00741
++B beta+ 0.843 0.0074199999999999995
++B beta+ 0.837 0.0074399999999999996
++B beta+ 0.824 0.00747
++B beta+ 0.819 0.00748
++B beta+ 0.804 0.00751
++B beta+ 0.793 0.00754
++B beta+ 0.783 0.00756
++B beta+ 0.778 0.00757
++B beta+ 0.752 0.00762
++B beta+ 0.735 0.0076500000000000005
++B beta+ 0.734 0.00766
++B beta+ 0.728 0.00767
++B beta+ 0.705 0.00771
++B beta+ 0.694 0.00773
++B beta+ 0.682 0.00775
++B beta+ 0.675 0.00776
++B beta+ 0.645 0.0078000000000000005
++B beta+ 0.643 0.00781
++B beta+ 0.583 0.007890000000000001
++B beta+ 0.543 0.00793
++B beta+ 0.538 0.00793
++B beta+ 0.494 0.00797
++B beta+ 0.494 0.00797
++B beta+ 0.433 0.00801
++B beta+ 0.426 0.00801
++B beta+ 0.336 0.00803
++B beta+ 0.29 0.00804
++B beta+ 8.042E-4 0.0
+

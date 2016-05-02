@@ -1,0 +1,32 @@
+#192TL    192PB EC DECAY                1981SO09                  12NDS    201209
+#  192PB EC DECAY                1981SO09                  12NDS    201209
+#H TYP=FUL$AUT=Coral M. Baglin$CIT=NDS 113, 1871 (2012)$CUT=15-Jun-2012$  
+#  Others: 1979TO06 (preliminary version of 1981SO09), 1987VA09.          
+#  The decay scheme and data are from 1981SO09, except as noted.          
+#  1981SO09: 192PB sources from                                           
+#  180W(16O,4N), E(16O)=100 MEV; 182W(16O,6N), E(16O)=143 MEV;            
+#  mass separation; measured EG, IG (GELI, FWHM=2.1 KEV at                
+#  1332 KEV), ECE, ICE (SI(LI), FWHM=2.3 KEV at CEK(Bi)=973 KEV),         
+#  GG coin, GG(T).                                                        
+#E           EC+B+ feedings are from intensity imbalance at each          
+#E level assuming no direct feeding to GS (see comment                    
+#E with normalization).                                                   
+#G CC$    FROM BrIcc v2.2b (20-Jan-2009) 2008Ki07, "Frozen Orbitals" appr.
+#G           Most transitions reported in 1981SO09 are                    
+#G also present in the |g spectrum from the ^A=192 fraction in 1987VA09.  
+#G M         From experimental conversion coefficients, determined by     
+#G simultaneous measurement of CE and photon spectra (equipment calibrated
+#G assuming KC(E2 theory) for 422.8G and 634.8G in 192HG daughter).       
+#G MR        From EKC or ELC.                                             
+#G RI(A)     Not determined; transition observed only in                  
+#G coincidence spectra.                                                   
+#L E         From least-squares fit to EG.                                
+#L J         Adopted values.                                              
+#P 0.0          0+               3.5 M     1              3316      34    
+PB192 TL192 beta+ 3.316 210.0 0.999941
++B beta+ 7.34E-4 0.00198
++B beta+ 1.022 0.0076300000000000005
++B beta+ 0.962 0.0072
++B beta+ 0.872 0.00741
++B beta+ 0.694 0.007735
+

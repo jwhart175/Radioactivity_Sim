@@ -1,0 +1,21 @@
+# 60CO    60FE B- DECAY                 1957RO54,2009RU08         13NDS    201312
+#  60FE B- DECAY                 1957RO54,2009RU08         13NDS    201312
+#H TYP=FUL$AUT=E. BROWNE, J. K. TULI$CIT=NDS 114, 1849 (2013)$            
+#H CUT=31-Dec-2012$                                                       
+#  Modified by E. Browne (Feb. 6, 2013; March 18, 2013)                   
+#  1957Ro54: From proton-induced spallation of copper at E(p)=400 MeV.    
+#  Measured T{-1/2}. Chemical analysis, Geiger-Muller counter.            
+#  Assignment of activity to {+60}Fe is uncertain.                        
+#  2009Ru08: {+60}Fe isotope was chemically extracted in 2004 from a Cu   
+#  beam dump, used at Paul Scherrer Institute, in which                   
+#  3.6|*10{+21} {I590}-MeV protons had been stopped between 1980 and 1992.
+#  Measured half-life of {+60}Fe from number of atoms of {+60}Fe and their
+#  activity in a sample containing over 10{+15} {+60}Fe atoms. Sample     
+#  activity was measured by |g-ray spectroscopy in a                      
+#  low-background environment.                                            
+#  E|b=135 keV, E|g=27 and { 59 keV} reported by 1960Me09.                
+#G CC$ FROM BrIcc v2.2 (31-Mar-2008) 2008KiAA, "Frozen Orbitals" appr.    
+#L J,T       From Adopted Levels.                                         
+#P 0           0+                2.62E+6 Y 4              237       3     
+FE60 CO60 beta- 0.237 8.2679101056E13 1.0
+

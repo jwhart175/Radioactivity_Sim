@@ -1,0 +1,133 @@
+# 89RB    89KR B- DECAY (3.15 M)        1973HE01,1972PO13         13NDS    201302
+#  89KR B- DECAY (3.15 M)        1973HE01,1972PO13         13NDS    201302
+#H TYP=FUL$AUT=BALRAJ SINGH$CIT=NDS 114, 1 (2013)$CUT=20-Oct-2012$        
+#  1973He01 (also 1972HeZE): 89KR from on-line isotope separation.        
+#  Measured EG, IG, GG                                                    
+#  1972Po13: 89KR from chemical separation.                               
+#  Measured EG, IG, GG. Deduced coincidence probabilities                 
+#  Others:                                                                
+#  G: 1979Bo26 (energies of five G rays measured with a curved-crystal    
+#  spectrometer), 1970Fi04, 1969Ca03 (energies of six G rays), 1969MaZP   
+#  (energies of AP 40 G rays) 1967Ki01 (EG, RI of 114 G rays), 1962Wa34   
+#  GG: 1967Ki01                                                           
+#  B, BG: 1981Ho17, 1978Wo15, 1976Wo05, 1973Cl02 (also 1972ClZT),         
+#  1969Ca03, 1967Ki01, 1951Ko10                                           
+#  BETA strength functions: 1982Al01, 1975Al11, 1973Jo02. Theory and syst:
+#  1983En03, 1983Be56, 1982Ma02,                                          
+#  T1/2, isotopic identification: 1972Eh02, 1971BrYH, 1970Fi04,           
+#  1962Wa34, (also 1961Wa14), 1951Ko10, 1950Di01, 1943Ha09, 1940Gl05,     
+#  1940Ha10, 1940Se05                                                     
+#  Energy balance: total decay energy of 5325 keV {I163} deduced          
+#  (using RADLIST code) from proposed decay scheme is in agreement with   
+#  the expected value of 5177 keV {I6}, indicating that the decay scheme  
+#  is reasonably complete                                                 
+#G E,RI$From 1973He01, unless indicated otherwise.                        
+#G E(A)$From 1979Bo26; 1973He01 and 1972Po13 give values with less        
+#G precision                                                              
+#G E(B)$A photopeak with nearly the same energy appears in 89RB B- decay  
+#G E(C),RI(C)$From 1972Po13 only. GAMMA ray is considered uncertain       
+#G since it is not confirmed by the higher detection efficiency           
+#G work of 1973He01                                                       
+#G E(D)$Weighted average of 356.24 6 (1979Bo26) and 356.06 7 (1973He01)   
+#G E(E)$Weighted average of 586.047 19 (1979Bo26) and 585.80 7 (1973He01) 
+#G E(F)$844.7G, 887.9G placed from 4217 level and 886.3G, 976.4G from     
+#G 4340 level (1972Po13), but the GAMMA rays are considered suspect since 
+#G quoted (1972Po13) RI values are too intense to have missed detection by
+#G 1973He01                                                               
+#G E(H)$Tentative placement (evaluator) from level energy difference      
+#L           The 1534, 3100, 3430 and 3457 levels proposed by 1972Po13    
+#L have been omitted due to lack of confirmation by 1973He01. GAMMA rays  
+#L associated with these levels have been reassigned by 1973He01.         
+#L A doublet proposed by 1972Po13 near 931 is confirmed as a single level 
+#L only by 1973He01. A level at 4058 is proposed only by 1972Po13         
+#L           THE FOLLOWING LEVELS ARE PROPOSED BY 1973He01 ONLY:          
+#L 867, 1340, 1488, 1865, 2141, 2219, 2270, 2365, 2388, 2789, 3018,       
+#L 3250, 3465, 3720, 3834, 3899, 3966, 4049, 4081, 4198, 4231, 4307,      
+#L 4338, 4367, 4478, 4631, 4686.                                          
+#L J$From ^Adopted ^Levels, based primarily on LOGFT values               
+#L E$From least-squares fit to EG data                                    
+#L E(A)$Level proposed only by 1973He01                                   
+#L E(B)$Level proposed by 1972Po13 only                                   
+#P      0.0     3/2(+)           3.15 M    4              5176.5    59    
+KR89 RB89 beta- 5.1765 189.0 1
++G gamma 0.07490000000000001 1.2059999999999999E-4
++G gamma 0.076 8.04E-5
++G gamma 0.4358 9.647999999999999E-4
++G gamma 0.6605 4.8239999999999996E-4
++G gamma 0.897 0.004824
++G gamma 1.0383 3.015E-4
++G gamma 1.2415 8.844E-4
++G gamma 1.4553 5.226000000000001E-4
++B beta- 2.3148 0.23
++B beta- 2.2081999999999997 0.009000000000000001
++G gamma 0.220948 0.201
++B beta- 2.075 0.012
++B beta- 2.0366 0.043
++G gamma 0.35616000000000003 0.041607000000000005
++B beta- 2.0322999999999998 0.023
++G gamma 0.5860299999999999 0.16683
++B beta- 1.897 0.006
++G gamma 0.8670800000000001 0.059496
++B beta- 1.8662999999999998 0.006
++B beta- 1.8343 0.004
++B beta- 1.7392999999999998 0.012
++B beta- 1.6774 0.035
++G gamma 0.73839 0.04221
++G gamma 0.7474 0.0011457
++G gamma 1.32428 0.030753000000000003
++B beta- 1.6699000000000002 0.005600000000000001
++G gamma 0.7633 0.00402
++B beta- 1.5988 8.0E-4
++G gamma 1.2672 2.4119999999999998E-4
++G gamma 1.4881 9.447E-4
++B beta- 1.5787 0.027000000000000003
++B beta- 1.5005 0.102
++B beta- 1.4395 0.005
++B beta- 1.4189 0.0039000000000000003
++G gamma 0.9346 3.819E-4
++G gamma 1.2785 3.216E-4
++B beta- 1.3552 0.024
++B beta- 1.2872999999999999 4.0E-4
++B beta- 1.2784 0.0308
++B beta- 1.2505 0.0024
++B beta- 1.2264000000000002 8.0E-4
++B beta- 1.1810999999999998 0.002
++B beta- 1.1704 0.0034000000000000002
++B beta- 1.1643 0.068
++G gamma 1.8235999999999999 6.633000000000001E-4
++B beta- 1.0713 0.129
++B beta- 0.9849 0.015
++B beta- 0.9818 0.0028000000000000004
++B beta- 0.9456 0.040999999999999995
++G gamma 0.0834 1.2059999999999999E-4
++B beta- 0.8751 0.0066
++B beta- 0.7677 0.003
++B beta- 0.732 0.020099999999999996
++B beta- 0.7167 0.015600000000000001
++B beta- 0.7123999999999999 0.019799999999999998
++B beta- 0.6695 0.0031
++B beta- 0.6387999999999999 0.015
++B beta- 0.556 0.026000000000000002
++B beta- 0.5548 0.0045000000000000005
++G gamma 2.8533000000000004 0.002412
++B beta- 0.5044 0.0032
++B beta- 0.4759 0.0019
++B beta- 0.44680000000000003 0.0038
++B beta- 0.4417 0.0034999999999999996
++B beta- 0.411 0.0049
++B beta- 0.4068 0.0012
++B beta- 0.3972 0.0069
++B beta- 0.37039999999999995 0.0072
++B beta- 0.3474 0.0018
++B beta- 0.3397 0.00181
++B beta- 0.334 0.002
++B beta- 0.3023 0.0014000000000000002
++B beta- 0.2894 0.00159
++B beta- 0.2887 0.00215
++B beta- 0.2778 0.0059
++B beta- 0.26280000000000003 0.0027
++B beta- 0.2336 0.0032
++B beta- 0.2298 0.006999999999999999
++B beta- 0.1747 0.0067
++B beta- 0.1544 8.4E-4
+

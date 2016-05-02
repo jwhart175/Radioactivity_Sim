@@ -1,0 +1,72 @@
+# 97ZR    97Y B- DECAY (3.75 S)         1976MOZC                  10NDS    201004
+#  97Y B- DECAY (3.75 S)         1976MOZC                  10NDS    201004
+#H TYP=FUL$AUT=N. NICA$CIT=NDS 111, 525 (2010)$CUT=19-Nov-2009$           
+#  1976MOZC: measured EG, IG, CE, prompt and delayed GG and BG            
+#  coincidences. GE(LI), FWHM 2.0 KEV at 1332 KEV, surface barrier        
+#  detector for the fissions.                                             
+#  OTHERS: 1996LH03,1996LH05,1976SAYV (GG, EG, IG), 1990BU01 (BGG,        
+#  T1/2(LEVELS)), 1984BLZN,1978ST02 (EB), 1979BO26 (EG, curved-crystal    
+#  spectrometer)                                                          
+#B IB$Deduced from IG intensity balance with IB-(GS)=40% 10               
+#G $All data are from 1976MoZC, unless otherwise noted. The level         
+#G scheme is deduced from coincidence data (from mass separated fission   
+#G products). THE LEVEL SCHEME IS CONFIRMED BY 1996LH03                   
+#G E,RI$DE and DRI are from 1976SaYV where available, otherwise           
+#G estimated by evaluator based on uncertainties given by 1976SaYV for    
+#G similar energies and intensities (ONE EXCEPTION, 189.6G, IS DOCUMENTED 
+#G IN COMMENTS)                                                           
+#G M$FROM ADOPTED GAMMAS                                                  
+#G E(A)$From 1979Bo26                                                     
+#L E$From a least squares fit to EG                                       
+#L J$From adopted levels                                                  
+#L T(D)$From 1990Bu01 (fig.2), by centroid shift method.                  
+#L T(3288-KEV level) set equal to 0 in calculating the centroid shift     
+#L correction.                                                            
+#P  0.0         (1/2-)            3.75 S   3              6689      11    
+Y97 ZR97 beta- 6.689 0.0 1.0
++B beta- 3.0336 0.4
++B beta- 2.5025999999999997 0.013999999999999999
++B beta- 2.3598000000000003 0.039
++B beta- 2.1391 0.006999999999999999
++B beta- 2.0730999999999997 0.019
++B beta- 1.7152 0.064
++B beta- 1.4553 0.27
++B beta- 1.4012 0.15
++B beta- 1.3308 0.031
+
+# 97ZR CG E(A),RI(A)$Transition fed in the decay of the 1/2- GS (97Y B- DECAY    
+#G E(A),RI(A)$Transition fed in the decay of the 1/2- GS (97Y B- DECAY    
+#G (3.75 S)), but interfering with the decay of the 9/2+, 668 isomer in   
+#G 97Y (THIS DATASET), or fed in both decays. When listed, the intensity  
+#G is the calculated contribution of the 9/2+ isomer (1996LH03).          
+#G E(B),RI(B)$From 1975Gu03, WHICH GIVE INTENSITIES (DRI=5%) RELATIVE TO  
+#G 1104G, LATER PLACED AT 1103 LEVEL. LISTED HERE ARE ABSOLUTE            
+#G INTENSITIES (RECALCULATED BY EVALUATOR). NOTICE THAT THESE RATHER      
+#G HIGH INTENSITY G'S WOULD REMAIN UNPLACED BY THE LATER STUDIES, WHENCE  
+#G THE QUESTION WHETHER THEY REALLY BELONG TO THIS DECAY. FOR THIS        
+#G REASON THE INTENSITIES ARE LISTED IN COMMENTS                          
+#G E(b),RI(b)$From 1996LH03 (ABSOLUTE INTENSITIES)                        
+#G RI(C)$Coincidence near the detection limit in the GG data in 1996LH03  
+#G (50% accuracy of intensity)                                            
+#L E$From a least squares fit to EG                                       
+#L J,T$ADOPTED VALUES                                                     
+#P 667.52    23 (9/2)+            1.17 S   3              6689      11    
+Y97 ZR97 beta- 6.689 0.0 0.993
++B beta- 2.7463 0.316
++B beta- 2.4852 0.018000000000000002
++B beta- 2.394 0.01
++B beta- 2.3646 0.006999999999999999
++B beta- 2.2796 0.431
++B beta- 2.2655 0.021
++B beta- 2.2297 0.021
++B beta- 2.1478 0.081
++B beta- 2.0914 0.011000000000000001
++B beta- 2.0012 0.003
++B beta- 1.9890999999999999 0.011000000000000001
++B beta- 1.9742 0.011000000000000001
++B beta- 1.8346 0.018000000000000002
++B beta- 1.7085 0.025
++B beta- 1.4516 0.009000000000000001
++B beta- 1.4119000000000002 0.013999999999999999
++B beta- 1.3779000000000001 0.013000000000000001
+

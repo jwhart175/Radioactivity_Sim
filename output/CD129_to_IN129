@@ -1,0 +1,97 @@
+#129IN    129CD B- DECAY:MIXED          2009AR04                  14NDS    201408
+#  129CD B- DECAY:MIXED          2009AR04                  14NDS    201408
+#H TYP=FUL$AUT=JANOS TIMAR AND ZOLTAN ELEKES, BALRAJ SINGH$               
+#H CIT=NDS 121, 143 (2014)$CUT=31-May-2014$                               
+#  2009Ar04: experiment performed at ISOLDE facility. 1 GeV proton beam   
+#  hit Ta or W rod producing neutrons close to uranium target where       
+#  fission is induced. The products were laser ionized after diffusion    
+#  out the heated target. |g-ray single and coincidence spectra measured  
+#  with laser on and off by four HPGe detectors. |b rays measured by |DE-E
+#  telescope. All gamma rays from the decay of both the 242-ms and 104-ms 
+#  activities are listed without separating these into two decay schemes. 
+#  An earlier list of 32 |g rays is provided in 2003DiZY, also from an    
+#  experiment at ISOLDE-CERN, possibly the same one as described in       
+#  2009Ar04. There seems a systematic difference between the E|g values   
+#  quoted in 2003DiZY and 2009Ar04; the intensities are in reasonable     
+#  agreement                                                              
+#  1986Go10: {+235}U(n,F),E=th, on-line mass; HPGe |g.                    
+#  Evaluators consider the decay scheme given here as tentative in view of
+#  many unplaced transitions and preliminary nature of the 2009Ar04       
+#  conference paper                                                       
+#G E,RI$From 2009Ar04. The energy uncertainty is quoted by 2009Ar04 as    
+#G |?0.5 keV. Intensity uncertainty is 10% for strong peaks and           
+#G 20% for weak lines. Evaluators assign 10% for I|g|>10 and 20% for      
+#G for I|g<10                                                             
+#G M$From Adopted Gammas                                                  
+#G E(X)$Placement proposed by 2013Ka08 based on a difference of 458 keV   
+#G between some of the unplaced |g rays in 2009Ar04. This placement is    
+#G treated as tentative by the evaluators                                 
+#G E(Y)$Tentative placement by 2009Ar04 is either no longer valid or      
+#G revised in view of Adopted E(level)=459 {I5} for (1/2-) |b{+-}         
+#G decaying isomer                                                        
+#G E(D)$A doublet from 2003DiZY only, not listed by 2009Ar04.             
+#G Intensity is not available                                             
+#L E$From least-squares fit to E|g data, keeping energy of the 459-keV    
+#L isomer as fixed                                                        
+#L E(A)$Level populated by the 11/2-, 104-ms activity of                  
+#L {+129}Cd (2009Ar04)                                                    
+#L E(B)$Level possibly populated by the 3/2+, 242-ms activity of {+129}Cd 
+#L (2009Ar04,2013Ka08)                                                    
+#L J,T$From Adopted Levels                                                
+#P1  0          3/2+             242 MS    8              9330      SY    
+CD129 IN129 beta- 9.33 0.242 1.0
++G gamma 0.3382 0.06
++G gamma 0.4397 0.07
++G gamma 0.5372 0.02
++G gamma 0.5891000000000001 0.052000000000000005
++G gamma 0.6183 0.043
++G gamma 0.8398 0.06
++G gamma 0.8631 0.055
++G gamma 1.2341 0.05
++G gamma 1.4994 0.07
++G gamma 1.5548 0.05
++G gamma 1.5579 0.05
++G gamma 1.6899000000000002 0.06
++G gamma 1.7552999999999999 0.04
++G gamma 1.7632999999999999 0.05
++G gamma 1.7709000000000001 0.03
++G gamma 2.0879000000000003 0.055
++G gamma 2.2167 0.08
++G gamma 2.3309 0.05
++G gamma 2.6285 0.04
++G gamma 2.8384 0.02
++G gamma 2.8799 0.025
++G gamma 2.999 0.02
++G gamma 3.348 0.04
++G gamma 3.3889 0.02
++G gamma 3.7019 0.06
++G gamma 3.7619000000000002 0.06
++G gamma 3.8882 0.02
++G gamma 3.9147 0.03
++G gamma 3.9675 0.04
++G gamma 0.4005 0.07
++G gamma 0.8581 0.033
++G gamma 0.995 1.0
++G gamma 0.5617000000000001 0.08
++G gamma 1.0203 0.085
++G gamma 0.6319 0.3
++G gamma 0.3588 0.5
++G gamma 1.3540999999999999 0.21
++G gamma 1.4225999999999999 0.2
++G gamma 1.1034000000000002 0.05
++G gamma 1.5615 0.05
++G gamma 1.5857 0.12
++G gamma 0.5418 0.11
++G gamma 0.3335 0.13
++G gamma 0.7311 0.085
++G gamma 1.0652000000000001 0.08
++G gamma 2.4602 0.06
++G gamma 2.9185 0.01
++G gamma 1.4622 0.11
++G gamma 1.7960999999999998 0.32
++G gamma 2.1551 0.09
++G gamma 1.7609000000000001 0.19
++G gamma 3.1841 0.03
++G gamma 3.4878 0.01
++G gamma 4.1198999999999995 0.02
+

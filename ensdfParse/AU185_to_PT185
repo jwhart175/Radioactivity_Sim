@@ -1,0 +1,178 @@
+#185PT    185AU EC DECAY                2003SCZW,1985RO06,1992SC0105NDS    200601
+#  185AU EC DECAY                2003SCZW,1985RO06,1992SC0105NDS    200601
+#H TYP=FUL$AUT=S. -C. WU$CIT=NDS 106, 619 (2005)$CUT=1-Nov-2005$          
+#  2003ScZW,1998Vo01,1991ScZY,1992Sc01:                                   
+#  Mass-separated activity produced by {+181}Ta({+12}C,8n), E=140 MeV.    
+#  Measured E|g, I|g, |g|g coin, |gce coin. Detectors: Ge(Li), Si(Li).    
+#  Data from 2003ScZW supersede those from 1998Vo01, 1991ScZY, 1992Sc01.  
+#  1985Ro06, 1988Ro13: mass-separated activity produced                   
+#  by 200-MeV protons on Pt targets.                                      
+#  Measured E|g, I|g, Ice, |g|g coin. Detectors: Ge(Li), Si(Li),          
+#  magnetic spectrograph.                                                 
+#  Two {+185}Au isomers with half-lives of 4.25 min and and 6.8 min had   
+#  been previously reported. 1985Ro06 measured |g-rays from {+185}Au(6.8  
+#  min), and 1991ScZY, 1992Sc01, from {+185}Au(4.25 min). 2003ScZW and    
+#  1992Sc01, however, did not measure the decay rate of the source to     
+#  determine its half-life. The evaluator has assumed the data presented  
+#  here are radiations following the decay of both isomers.               
+#  For |e feedings and their corresponding log| {Ift} values              
+#  deduced under the assumption that the radiations are                   
+#  from {+185}Au(4.25 min) alone, please see 1995Br04.                    
+#G E,RI,TI$From 2003ScZW, unless otherwise specified.                     
+#G M,MR$From electron measurements of 2003ScZW. For |a(K)exp and          
+#G subshell ratios of earlier measurements, please see 1995Br04.          
+#G E(Z)      Observed by 1985Ro06 only, |DE|g|?0.2 keV, |DI|g|?15%.       
+#L E(A)      9/2[624]                                                     
+#L E(B)      7/2[503]                                                     
+#L E(C)      1/2[521]                                                     
+#L E(D)      7/2[514]                                                     
+#L E(E)      5/2[512]                                                     
+#L E(F)      1/2[510]                                                     
+#L J$From adopted levels                                                  
+#P1     0.0           5/2-       4.25 M    6               4820     50    
++G gamma 0.1421 0.01
++G gamma 0.5464 0.028999999999999998
++G gamma 0.6484 0.016
++G gamma 0.6603 0.015
++G gamma 0.6989 0.02
++G gamma 0.7142000000000001 0.015
++G gamma 0.7167 0.015
++G gamma 0.755 0.013000000000000001
++G gamma 0.777 0.02
++G gamma 0.8004 0.038
++G gamma 0.8122 0.012
++G gamma 0.8192 0.013000000000000001
++G gamma 0.8346 0.013999999999999999
++G gamma 0.8379 0.015
++G gamma 0.8883 0.025
++G gamma 0.9002 0.02
++G gamma 0.9088999999999999 0.013000000000000001
++G gamma 0.914 0.024
++G gamma 0.9163 0.02
++G gamma 0.9232 0.022000000000000002
++G gamma 0.9361 0.013000000000000001
++G gamma 0.9501000000000001 0.006999999999999999
++G gamma 0.9773999999999999 0.006
++G gamma 0.9812000000000001 0.017
++G gamma 1.0586 0.013000000000000001
++G gamma 1.0663 0.015
++G gamma 1.0952 0.015
++G gamma 1.1067 0.013999999999999999
++G gamma 1.1153 0.015
++G gamma 1.1353 0.02
++G gamma 1.141 0.012
++G gamma 1.1504 0.012
++G gamma 1.1534 0.022000000000000002
++G gamma 1.1641 0.012
++G gamma 1.1687 0.013000000000000001
++G gamma 1.2009 0.013000000000000001
++G gamma 1.2159 0.015
++G gamma 1.2390999999999999 0.028999999999999998
++G gamma 1.2739 0.011000000000000001
++G gamma 1.2831 0.013000000000000001
++G gamma 1.2973 0.043
++G gamma 1.3103 0.016
++G gamma 1.318 0.013000000000000001
++G gamma 1.3400999999999998 0.015
++G gamma 1.3472 0.009000000000000001
++G gamma 1.3516 0.012
++G gamma 1.3714000000000002 0.017
++G gamma 1.3780999999999999 0.012
++G gamma 1.3858 0.013999999999999999
++G gamma 1.3965 0.02
++G gamma 1.4002999999999999 0.016
++G gamma 1.4154 0.015
++G gamma 1.42 0.017
++G gamma 1.4238 0.013000000000000001
++G gamma 1.4261 0.02
++G gamma 1.4417 0.015
++G gamma 1.4562 0.013000000000000001
++G gamma 1.4632 0.012
++G gamma 1.4799 0.013000000000000001
++G gamma 1.4894 0.018000000000000002
++G gamma 1.4915999999999998 0.012
++G gamma 1.5001 0.023
++G gamma 1.5069000000000001 0.024
++G gamma 1.5175 0.027000000000000003
++G gamma 1.521 0.018000000000000002
++G gamma 1.5274 0.02
++G gamma 1.5429000000000002 0.015
++G gamma 1.5544 0.018000000000000002
++G gamma 1.565 0.015
++G gamma 1.5765 0.016
++G gamma 1.5815 0.013999999999999999
++G gamma 1.5868 0.013000000000000001
++G gamma 1.6073 0.021
++G gamma 1.624 0.027000000000000003
++G gamma 1.636 0.013999999999999999
++G gamma 1.647 0.02
++G gamma 1.6514000000000002 0.017
++G gamma 1.6575 0.013000000000000001
++G gamma 1.6679000000000002 0.015
++G gamma 1.6816 0.019
++G gamma 1.7050999999999998 0.013999999999999999
++G gamma 1.715 0.02
++G gamma 1.7275 0.024
++G gamma 1.731 0.022000000000000002
++G gamma 1.7438 0.013999999999999999
++G gamma 1.7512999999999999 0.021
++G gamma 1.7643 0.022000000000000002
++G gamma 1.7774 0.02
++G gamma 1.7806 0.035
++G gamma 1.792 0.025
++G gamma 1.7945 0.026000000000000002
++G gamma 1.8013 0.013999999999999999
++G gamma 1.8035 0.022000000000000002
++G gamma 1.8183 0.017
++G gamma 1.82 0.013000000000000001
++G gamma 1.8242 0.013000000000000001
++G gamma 1.83 0.026000000000000002
++G gamma 1.832 0.015
++G gamma 1.8352 0.017
++G gamma 1.8473 0.012
++G gamma 1.85 0.013999999999999999
++G gamma 1.8560999999999999 0.015
++G gamma 1.8735 0.013999999999999999
++G gamma 1.8998 0.022000000000000002
++G gamma 1.9025999999999998 0.017
++G gamma 1.9208 0.024
++G gamma 1.9235 0.015
++G gamma 1.9336 0.013000000000000001
++G gamma 1.9384000000000001 0.026000000000000002
++G gamma 1.9424000000000001 0.017
++G gamma 1.962 0.044000000000000004
++G gamma 1.9672 0.015
++G gamma 1.9713 0.017
++G gamma 1.9817 0.022000000000000002
++G gamma 1.9855 0.018000000000000002
++G gamma 1.9947000000000001 0.025
++G gamma 2.0093 0.017
++G gamma 2.0139 0.023
++G gamma 2.0188 0.023
++G gamma 2.0273 0.013000000000000001
++G gamma 2.0456 0.017
++G gamma 2.05 0.018000000000000002
++G gamma 2.0523000000000002 0.012
++G gamma 2.0681 0.03
++G gamma 2.077 0.016
++G gamma 2.0896999999999997 0.015
++G gamma 2.1447 0.017
++G gamma 2.1608 0.015
++G gamma 2.168 0.015
++G gamma 2.1721999999999997 0.013000000000000001
++G gamma 2.1844 0.013000000000000001
++G gamma 2.1895 0.013999999999999999
++G gamma 2.2119 0.013000000000000001
++G gamma 2.2705 0.015
++G gamma 2.2825 0.013000000000000001
++G gamma 2.3428 0.02
++G gamma 2.3469 0.013000000000000001
++G gamma 2.3547 0.02
++G gamma 2.3577 0.013999999999999999
++G gamma 2.3661 0.013999999999999999
++G gamma 2.3855999999999997 0.015
++G gamma 2.3966 0.013999999999999999
++G gamma 2.4737 0.013000000000000001
++G gamma 2.5804 0.015
++G gamma 2.5983 0.016
+

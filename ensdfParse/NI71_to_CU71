@@ -1,0 +1,56 @@
+# 71CU    71NI B- DECAY (2.56 S)        2001FR21                  11NDS    201012
+#  71NI B- DECAY (2.56 S)        2001FR21                  11NDS    201012
+#H TYP=FUL$AUT=KHALIFEH ABUSALEEM, BALRAJ SINGH$CIT=NDS 112, 133 (2011)$  
+#H CUT=30-Nov-2010$                                                       
+#  2001Fr21 (also 1998Fr15): Measured E|g, I|g, |g|g, |b|g coin.          
+#  {+71}Ni obtained from fission of {+238}U by 30-MeV protons followed    
+#  by mass separation using LISE-3 separator at GANIL facility            
+#  The decay scheme is not considered as complete by the evaluators since 
+#  there remains a large gap of 4.5 MEV between the Q- value and the      
+#  highest populated level. All |b branches and associated LOGFT values   
+#  are considered as limits.                                              
+#  2007MA24: THEORY                                                       
+#G CC$ FROM BrIcc v2.2b (20-Jan-2009) 2008Ki07, "Frozen Orbitals" appr.   
+#L E$From least-squares fit to E|g's                                      
+#P  0.0         (9/2+)             2.56 S  3                7304.9  32    
++B beta- 3.1133 0.057
++B beta- 2.8938 0.07
++B beta- 2.7924 0.08199999999999999
++B beta- 2.6639 0.03
++B beta- 2.5018000000000002 0.083
++B beta- 2.4729 0.03
++B beta- 2.4489 0.011000000000000001
++B beta- 2.4108 0.016
++B beta- 2.3353 0.01
++B beta- 2.2569 0.004
++B beta- 2.1299 0.222
++B beta- 2.1065 0.045
++B beta- 2.0644 0.021
++B beta- 2.0331 0.008
++B beta- 2.0065 0.124
++B beta- 1.9768 0.047
++B beta- 1.9487 0.015
++B beta- 1.8957 0.125
+
+# 71CU    71NI B- DECAY (2.3 S)         2009ST07                  11NDS    201012
+#  71NI B- DECAY (2.3 S)         2009ST07                  11NDS    201012
+#H TYP=FUL$AUT=KHALIFEH ABUSALEEM, BALRAJ SINGH$CIT=NDS 112, 133 (2011)$  
+#H CUT=30-Nov-2010$                                                       
+#  {+71}Ni beam produced through {+238}U(p,X) reaction with a proton beam 
+#  energy of 30 MeV at the LISOL facility. The |g rays were detected      
+#  using three high-purity germanium detectors. The |b particles were     
+#  detected with four plastic |DE detectors. Measurements were made       
+#  with and without laser radiation to disentangle |g rays emitted        
+#  by the nuclei of interest from the non-resonant |g rays. Measured      
+#  E|g, E|b, |b|g coin, isomer half-life.                                 
+#  Details of precise E|g and I|g data are not available according to     
+#  an email reply of May 5, 2009 from the first author of 2009St07        
+#  The decay scheme is not considered as complete by the evaluators since 
+#  there remains a large gap of 7 MEV between the Q- value and the        
+#  highest populated level. Both |b branches and associated LOGFT values  
+#  are considered as limits.                                              
+#P 499          (1/2-)           2.3 S     3              7.51E3    37    
+NI71 CU71 beta- 7.51 2.3 1
++B beta- 3.72 0.6
++B beta- 3.49 0.4
+

@@ -1,0 +1,23 @@
+#171ER    171HO B- DECAY                1990CH34                  02NDS    200209
+#  171HO B- DECAY                1990CH34                  02NDS    200209
+#H TYP=FUL$AUT=CORAL M. BAGLIN$CIT=NDS 96,399 (2002)$CUT=5-Aug-2002$      
+#  The partial decay scheme and all data are from 1990CH34.               
+#  Sources from multi-nucleon transfer reactions between 170ER            
+#  and tungsten targets, on-line mass separation; E(170ER)=1445           
+#  MEV; measured EB, IB (plastic, silicon detectors), EG, IG              
+#  (germanium, planar hyperpure germanium), time-resolved                 
+#  singles measurements, BG coin, GG coin.                                
+#  Others: 1989CH05, 1989RY04.                                            
+#G M(A)      Probable multipolarity, consistent with large total XK       
+#G intensity (only plausible source of substantial XK                     
+#G intensity).                                                            
+#G           RI(XK) (relative to RI(903.3G)=100)                          
+#G                         E(x ray)     I(x ray)                          
+#G                         --------     --------                          
+#G           ER XKA2     48.2       51 8                                  
+#G           ER XKA1     49.1       106 7                                 
+#G           ER XKB1P    55.7       34 3                                  
+#G                                                                        
+#P 0.0         (7/2-)            53 S      2              3.2E+3     6    
+HO171 ER171 beta- 3.2 53.0 1.0
+

@@ -1,0 +1,69 @@
+#174TA    174W EC DECAY                 1985SZ03,1973CAYH         99NDS    199908
+#  174W EC DECAY                 1985SZ03,1973CAYH         99NDS    199908
+#H TYP=FUL$AUT=E. BROWNE, HUO JUNDE$CIT=NDS 87, 15 (1999)$CUT=1-Nov-1998$ 
+#  HUO JUNDE DID NOT ADD NEW REFERENCES (E. BROWNE, DECEMBER 1998).       
+#  174W activity produced by 138BA(40AR,4N), E=185 MEV, using a           
+#  target of 99.8% enriched 138BA. Measured EG, RI, GG coin, GX coin.     
+#  Detectors: GE(LI). G-ray assignment to 174W was based on coincidence   
+#  with TA X-RAYS, and cross bombardment arguments (I.E., G ray was not   
+#  observed when using a 136BA target).                                   
+#  174W activity produced by 165HO(14N,5N), E=97.5, 118.0 MEV.            
+#  Measured EG, absolute RI (using genetic relationships between members  
+#  of the decay chain). Detector: GE(LI) (1985Sz03).                      
+#  174W activity produced by 176HF(3HE,5N), E=40, 55, and 72 MEV.         
+#  Target: 77.5% enriched 176HF. Measured EG, RI (1973CaYH).              
+#  Other measurements:                                                    
+#  174W activity produced by 12C on natural ER, E=81 MEV. Tungsten was    
+#  identified by chemical separation and genetic relationship to the      
+#  daughter nucleus 174TA. Measured EG, x rays (1965De25).                
+#  Mass-separated activity of 174W produced by 181TA(P,8N) (1964Sa22).    
+#  Other: 1973GrYA.                                                       
+#G E         From 1973CaYH, unless otherwise specified.                   
+#G E(A,G)    Reported by 1973CaYH only.                                   
+#G RI(A)     Add 7% in quadrature to uncertainty of absolute RI.          
+#G RI$From 1973CaYH, unless otherwise specified.                          
+#G E(D)      Uncertain G ray.                                             
+#N 0.1273                1.0                                              
+#N                                                                     4  
+#N NR$experimental value deduced from 174W-174TA growth and decay curves  
+#N was 0.095 for RI(428G)=134 (1985Sz03).                                 
+#P 0.0         0+                33.2 M    21             1856      SY    
++G gamma 0.0761 0.322
++G gamma 0.0922 0.325
++G gamma 0.0975 1.0
++G gamma 0.0824 0.146
++G gamma 0.1336 0.83
++G gamma 0.1045 0.062
++G gamma 0.1596 0.35700000000000004
++G gamma 0.16390000000000002 0.493
++G gamma 0.1102 0.294
++G gamma 0.1935 0.064
++G gamma 0.1336 0.235
++G gamma 0.2385 0.149
++G gamma 0.1653 0.927
++G gamma 0.29910000000000003 0.434
++G gamma 0.1163 0.196
++G gamma 0.22690000000000002 0.095
++G gamma 0.253 0.536
++G gamma 0.1635 0.109
++G gamma 0.29760000000000003 0.263
++G gamma 0.1615 0.31
++G gamma 0.2785 0.265
++G gamma 0.19390000000000002 0.41
++G gamma 0.3595 0.249
++G gamma 0.1497 0.122
++G gamma 0.31139999999999995 0.095
++G gamma 0.1899 0.062
++G gamma 0.3537 0.38799999999999996
++G gamma 0.3404 0.314
++G gamma 0.2132 0.098
++G gamma 0.4027 0.20600000000000002
++G gamma 0.22190000000000001 0.079
++G gamma 0.44780000000000003 0.305
++G gamma 0.42410000000000003 0.209
++G gamma 0.4884 0.098
++G gamma 0.524 0.125
++G gamma 0.5036 0.13
++G gamma 0.5845 0.083
++G gamma 0.5781000000000001 0.134
+

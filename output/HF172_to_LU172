@@ -1,0 +1,128 @@
+#172LU    172HF EC DECAY (1.87 Y)       1979TO18,1966HA23,1962VA0795NDS    199509
+#  172HF EC DECAY (1.87 Y)       1979TO18,1966HA23,1962VA0795NDS    199509
+#H TYP=FUL$AUT=BALRAJ SINGH$CIT=NDS 75,199 (1995)$CUT=31-May-1995$        
+#  1979To18: 172HF activity produced by 175LU(P,4N) E=40 MEV.             
+#  Measured G, GG, I(XK)                                                  
+#  1966Ha23: 172HF activity produced by 172YB(A,4N) E AP 80 MEV.          
+#  Measured CE.                                                           
+#  1962Va07: CE data                                                      
+#  Others:                                                                
+#  G: 1993He18. Precise energies of five GAMMA rays determined            
+#  from differences of closely spaced peaks                               
+#  G, GG: 1970SeZT, 1967Ja10, 1965Br26, 1962Br40, 1961Br43, 1960Na04      
+#  T1/2(172HF GS): 1971Ch57. Others: 1973Or02, 1960Na11, 1951Wi08         
+#  G FACTOR measurement: 1976Kr04                                         
+#L BAND(G)$ KPI=0+ BAND.                                                  
+#L CONF=((P,7/2(404))(N,7/2(633))) (1979To18,1966Ha23). For the 65.79     
+#L and 191.60 level these assignments disagree with those from            
+#L (3HE,D) and (A,T). See adopted levels for detailed arguments           
+#L E$From least-squares fit to EG's                                       
+#L J$From adopted levels.                                                 
+#G E,RI$From 1979To18 unless otherwise stated                             
+#G M,MR$Deduced from CE data (1966Ha23) and GAMMA-ray data (1979To18).    
+#G The two intensity scales are normalized with respect to 126G           
+#G mult=M1+E2, MR=0.16 2 (from L=subshell ratios), EKC=1.60               
+#G E(A)$From 1966Ha23. 1979To18 report that if this transition exists,    
+#G it is obscured by neighboring intense photon lines                     
+#G E(B)$Reported in CE data of 1966Ha23. It is treated as uncertain       
+#G RI(B)$Photon line not seen by 1979To18, an upper limit is given        
+#G E(D)$From 1993He18 (table 2)                                           
+#G           I(XK)=950 50 (1979To18) (relative to 100 for 126G). Others:  
+#G 1965Br26, 1962Va07, 1961Br43, 1960Na04                                 
+#G           The following GAMMA rays with EG(RI) reported by 1970SeZT    
+#G only are omitted: 45.10 (2.5), 65.67 (1.51), 76.83 (2.3), 77.80 (2.6)  
+#L           The following levels proposed by 1970SeZT and/or 1966Ha23 are
+#L omitted due to lack of coincidence data to support these:              
+#L 133.3, 135.9, 147.6 and 264                                            
+#N 0.113     7  0.113  7  1.0       1.0                                   
+#N NR$TI(G's to 41.86 level)=100. Comparison of TI(41.86G) AP 675         
+#N (deduced from CE data of 1966Ha23) with                                
+#N TI(transitions to the 41.86)=880 50 suggests that there is no          
+#N direct EC feeding of the 41.86 level                                   
+#N                                                                     3  
+#P 0.0         0+                1.87 Y    3              350       50    
+HF172 LU172 beta+ 0.35 5.901141945600001E7 1.0
++G gamma 0.0952 0.45
++G gamma 0.106 0.22
++G gamma 0.10859999999999999 0.31
++G gamma 0.1152 0.33
++G gamma 0.1192 0.3
++G gamma 0.1281 0.57
++G gamma 0.1372 0.17
++G gamma 0.1391 0.12
++G gamma 0.1475 0.25
++G gamma 0.1504 0.21
++G gamma 0.1575 0.66
++G gamma 0.1615 0.54
++G gamma 0.1713 0.88
++G gamma 0.1747 0.14
++G gamma 0.1849 0.24
++G gamma 0.18980000000000002 0.27
++G gamma 0.195 0.26
++G gamma 0.197 0.08
++G gamma 0.2002 0.09
++G gamma 0.206 0.05
++G gamma 0.209 0.25
++G gamma 0.216 0.08
++G gamma 0.22030000000000002 0.21
++G gamma 0.22340000000000002 0.17
++G gamma 0.2265 0.15
++G gamma 0.23 0.14
++G gamma 0.2337 0.23
++G gamma 0.238 0.29
++G gamma 0.2409 0.61
++G gamma 0.245 0.7
++G gamma 0.24869999999999998 0.26
++G gamma 0.2545 0.36
++G gamma 0.25880000000000003 0.18
++G gamma 0.26389999999999997 0.32
++G gamma 0.268 0.14
++G gamma 0.2836 0.09
++G gamma 0.2881 0.26
++G gamma 0.2939 0.24
++G gamma 0.2968 0.26
++G gamma 0.302 0.07
++G gamma 0.30739999999999995 0.27
++G gamma 0.3117 0.48
++G gamma 0.3167 0.15
++G gamma 0.31989999999999996 0.26
++G gamma 0.32380000000000003 0.1
++G gamma 0.33 0.15
++G gamma 0.3334 0.22
++G gamma 0.337 0.1
++G gamma 0.34 0.07
++G gamma 0.3471 0.21
++G gamma 0.3536 0.18
++G gamma 0.3603 0.09
++G gamma 0.3679 0.17
++G gamma 0.3728 0.43
++G gamma 0.3777 0.18
++G gamma 0.38530000000000003 0.19
++G gamma 0.388 0.17
++G gamma 0.3931 0.12
++G gamma 0.3987 0.39
++G gamma 0.4022 0.24
++G gamma 0.406 0.13
++G gamma 0.409 0.14
++G gamma 0.411 0.13
++G gamma 0.4169 1.0
++G gamma 0.421 0.12
++G gamma 0.433 0.23
++G gamma 0.4368 0.18
++G gamma 0.44 0.96
++G gamma 0.4452 0.32
++G gamma 0.453 0.22
++G gamma 0.4611 0.28
++G gamma 0.4704 0.17
++G gamma 0.4758 0.44
++G gamma 0.11120000000000001 0.84
++G gamma 0.0996 0.28
++G gamma 0.1025 0.27
++G gamma 0.2135 0.44
++G gamma 0.1336 0.32
++G gamma 0.1222 0.54
++G gamma 0.1546 0.42
++G gamma 0.1442 0.43
++G gamma 0.1775 0.59
++G gamma 0.168 0.12
+

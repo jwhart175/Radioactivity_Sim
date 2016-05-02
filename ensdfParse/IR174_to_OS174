@@ -1,0 +1,38 @@
+#174OS    174IR EC DECAY (7.9 S+4.9 S)  1994KI01,1992BO21,1992SC1699NDS    199908
+#  174IR EC DECAY (7.9 S+4.9 S)  1994KI01,1992BO21,1992SC1699NDS    199908
+#H TYP=FUL$AUT=E. BROWNE, HUO JUNDE$CIT=NDS 87, 15 (1999)$CUT=1-Nov-1998$ 
+#  1994Ki01:                                                              
+#  174IR activity produced by 144SM(33S,p2n), E=153 MEV. Measured EG, RI, 
+#  GG coin, GG(THETA), ICE. Deduced conversion coefficients, angular      
+#  correlation coefficients, G-ray multipolarities and mixing ratios.     
+#  Detectors: COMPTON-suppressed array of 6 hyperpure germanium detectors,
+#  magnetic spectrometer.                                                 
+#  1992Bo21:                                                              
+#  174IR activity produced by 144SM(32S,PN), E=21 MEV, using an 88.6%     
+#  enriched 144SM target. Measured EG, RI, GG coin. Detectors: hyperpure  
+#  germanium.                                                             
+#  The 342-KEV G ray decays with T=5.1 5 s, whereas the                   
+#  532-KEV G ray with T=7.7 8 s (1992Bo21). The authors interpreted these 
+#  results by assuming the existence of two isomers. A high-spin isomer   
+#  (J GE 5) with T=5.0 4 s, and a low-spin isomer (J=2,3) with T=7.8 6 s. 
+#  1992Sc16:                                                              
+#  activity produced by 141PR(36AR,3n), E=234 MEV. Measured EG, RI,       
+#  GG coin. Detected OS K-x rays. Measured EA, IA, T. Detectors:          
+#  semiconductor for ALPHAS, hyperpure germanium for G rays. Two isomers  
+#  were observed from the decay of individual ALPHA-particle groups and   
+#  G rays: 4.9 3 s (E=193 KEV 11, JPI=(7+), %EC=97.5 3, %A=2.5 3) and     
+#  9 2 s (E=0.0, JPI=(3+), %EC=99.6, %A=0.4).                             
+#L BAND(A)   KPI=0+ GS ROTATIONAL BAND                                    
+#L BAND(B)   KPI=0+ BETA VIBRATIONAL BAND                                 
+#L BAND(C)   KPI=2+ G-VIBRATIONAL BAND                                    
+#L BAND(D)   KPI=(3-) ROTATIONAL BAND                                     
+#L E$Deduced by evaluator from a least-squares fit to G-ray energies.     
+#L J         JPI assignments are based on G-ray multipolarities,          
+#L GG(THETA), G-ray decay patterns, and rotational structure (1994Ki01).  
+#G E,RI$From 1994Ki01, using a source with 174IR(JPI=(7+)) and 174IR(JPI= 
+#G (3+)) isomers, unless otherwise specified.                             
+#G E(P)      Observed by 1992Bo21 only.                                   
+#G           Evaluator did not deduce the decay-scheme normalization      
+#G because EC feeding to GS is unknown.                                   
+#P10.0         (3+)              7.9 S     6              9.0E3           
+

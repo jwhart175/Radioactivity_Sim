@@ -1,0 +1,49 @@
+#194PB    194BI EC DECAY (95 S)         1987VA09,1991VA04         06NDS    200606
+#  194BI EC DECAY (95 S)         1987VA09,1991VA04         06NDS    200606
+#H TYP=FUL$AUT=BALRAJ SINGH$CIT=NDS 107, 1531 (2006)$CUT=15-Apr-2006$     
+#  Other: 1993St01                                                        
+#  194BI(95 S and 115 S) ALPHA activities from 202FR A-DECAY chain,       
+#  produced by IR(20NE,XN), 181TA(32S,2p9n), RE(20NE,XN) (1992Hu04), and  
+#  directly by 181TA(20NE,XN), 182W(20NE,pxn) (1991Va04), and             
+#  RE(16O,XN) (1987Va09).                                                 
+#E           No EC feedings and LOGFT values can be deduced from          
+#E the available information.                                             
+#G           1987Va09 present a composite decay scheme for the 194BI      
+#G isomers. The evaluators have                                           
+#G attempted to separate the decay schemes                                
+#G assuming that the three isomers populate levels with                   
+#G different range of spins, the 95-s GS populating the low               
+#G spin levels (J LE 4) and 115-s, 125-s isomers populating the high spin 
+#G levels (J GT 4). The low lying levels, however, are seen in            
+#G the decay of all the activities                                        
+#G           Measured G, GG, CE, CE G.                                    
+#G           The decay scheme has not been normalized since several       
+#G G rays remain unplaced and separation of GAMMA rays between            
+#G different isomers is not established. See                              
+#G 194BI EC decay (115 S + 125 S) for unplaced transitions                
+#G M$From CE data, unless otherwise stated                                
+#G RI$For total RI from all isomers, see 194BI(115 S + 125 S)             
+#L E         From least-squares fit to EG's                               
+#L J         From adopted levels                                          
+#P    0.0          (3+)            95 S    3               8220     50    
+
+#194PB    194BI EC DECAY (115 S+125 S)  1987VA09                  06NDS    200606
+#  194BI EC DECAY (115 S+125 S)  1987VA09                  06NDS    200606
+#H TYP=FUL$AUT=BALRAJ SINGH$CIT=NDS 107, 1531 (2006)$CUT=15-Apr-2006$     
+#  Others: 1993St01, 1976Ch30, 1962Ju08                                   
+#  Includes the decays of two isomers with JPI=(10-) and JPI=(6+,7+),     
+#  respectively. Since the isotope was produced in (HI,XN) reactions,     
+#  the population of the 194BI GS (JPI=(3+)) was very weak.               
+#  Measured G, x, GG, GG(T), CE, CE-G, T1/2(isotope). 1984Va19 and        
+#  1984Va11 are from the same research group.                             
+#  A 194BI(125 S) activity which decays by electron-capture was produced  
+#  by RE(16O,XN)                                                          
+#G M,MR      From CE data. The CE data normalized to CEK lines of 965G,   
+#G 575G and 421G, all treated as E2 transitions                           
+#G RI        From EC+B+ decay of all three 194BI isomers.                 
+#G RI(B)     Deduced from CE data.                                        
+#G RI(X)     Deduced from transition intensity balance at 1308 level.     
+#L E         From a least-squares fit to G-ray energies.                  
+#L J$From adopted levels                                                  
+#P1 0.0+X       (10-)               115 S  4               8220     50    
+

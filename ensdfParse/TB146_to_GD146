@@ -1,0 +1,50 @@
+#146GD    146TB EC DECAY (8 S)          1982NO08,1983AL06,1993VAZW97NDS    199712
+#  146TB EC DECAY (8 S)          1982NO08,1983AL06,1993VAZW97NDS    199712
+#H TYP=FUL$AUT=L. K. PEKER AND J. K. TULI$CIT=NDS 82, 187 (1997)$         
+#H CUT=30-SEP-1997$                                                       
+#  Measured: G(T) (1993VaZW,1983Al06,1982No08,1981StZO,1980To06), B+      
+#  (1983Al06)                                                             
+#P 0.0         1+                8 S       4              8267      45    
+TB146 GD146 beta+ 8.267 8.0 1.0
++B beta+ 4.7E-4 0.004
++G gamma 1.971 0.19
+
+#146GD    146TB EC DECAY (23 S)         1981STZO,1974NE01         97NDS    199712
+#  146TB EC DECAY (23 S)         1981STZO,1974NE01         97NDS    199712
+#H TYP=FUL$AUT=L. K. PEKER AND J. K. TULI$CIT=NDS 82, 187 (1997)$         
+#H CUT=30-SEP-1997$                                                       
+#  ADDED BR (TWB. 940224)                                                 
+#  Others: 1980To06, 1973HaWA                                             
+#  Measured: G, GG, G(T)                                                  
+#  Level scheme is that proposed by 1981StZO. The reasons for adopted     
+#  normalization are not given by the authors., probably from             
+#  SUMOF TI(GS)=100%. However,                                            
+#  G spectra from 1974Ne01 seem incomplete                                
+#  and cannot be used for estimation of EC+B+ feedings.                   
+#L J         Adopted values                                               
+#G RI        From 1974Ne01. Data on RI used for estimations of IE+IB+     
+#G are not published by 1981StZO                                          
+#E IE$From 1981StZO. The authors do not give IG data, but feedings are    
+#E consistent with IG data of 1974Ne01 except for the 1579 level, where   
+#E the IG intensity data suggest a feeding of 17% 3                       
+#G E$EG with uncertainty are from 1974Ne01                                
+#L E$From least-squares fit to EG                                         
+#P 0.0+X       5-                23 S      2              8267      45    
+TB146 GD146 beta+ 8.267 23.0 1.0
++G gamma 0.9876 0.01
++B beta+ 2.53 0.062
++G gamma 1.5795 1.0
++G gamma 1.9719 0.0029
++G gamma 1.0319 0.028999999999999998
++B beta+ 2.02 0.305
++G gamma 1.0789000000000002 0.516
++G gamma 0.324 0.008
++B beta+ 1.861 0.115
++G gamma 1.4170999999999998 0.172
++B beta+ 1.813 0.135
++G gamma 0.441 0.131
++G gamma 0.655 0.026000000000000002
++B beta+ 1.065 0.05
++G gamma 3.1395999999999997 0.11699999999999999
++B beta+ 1.015 0.004
+

@@ -1,0 +1,27 @@
+#199PO    203RN A DECAY (44 S)          1993WA04                  ENSDF    201512
+#  203RN A DECAY (44 S)          1993WA04                  ENSDF    201512
+#H TYP=FUL$AUT=BALRAJ SINGH$CIT=ENSDF$CUT=01-DEC-2015$                    
+#H TYP=FUL$AUT=BALRAJ SINGH$CIT=NDS 108, 79 (2007)$CUT=15-Oct-2006$       
+#  Others: 1996Ta18, 1995Uu01, 1978HoZZ, 1971Ho01, 1967Va17               
+#A E(A),IA(B)$If {+203}Rn g.s. is 3/2- (as expected from systematics),    
+#A the main |a branch would go to {+199}Po g.s. and an |?2.6% branch      
+#A is expected (from HF syst of 1980Sc26) to populate the 72-keV 5/2-     
+#A state. If, however, the {+203}Rn g.s. has J=5/2, then the 6499.2|a     
+#A (I|a|?97%) is expected to feed the 72-keV level and an |?3%            
+#A 6568.8|a is expected to populate the {+199}Po g.s.                     
+#A HF        r{-0}({+199}Po)=1.508 {I10}                                  
+#L J,T$From Adopted Levels                                                
+#P 0            (3/2-)           44 S      2              6629.8    21    
++A alpha 6.499 0.97
++A alpha 6.4286 0.026000000000000002
+
+#199PO    203RN A DECAY (26.9 S)        1993WA04                  ENSDF    201512
+#  203RN A DECAY (26.9 S)        1993WA04                  ENSDF    201512
+#H TYP=FUL$AUT=BALRAJ SINGH$CIT=ENSDF$CUT=01-DEC-2015$                    
+#H TYP=FUL$AUT=BALRAJ SINGH$CIT=NDS 108, 79 (2007)$CUT=15-Oct-2006$       
+#  Others: 1996Ta18, 1996Le09, 1995Le04, 1987He10, 1971Ho01, 1967Va17     
+#A HF        r{-0}({+199}Po)=1.508 {I10}                                  
+#L J,T       From Adopted Levels                                          
+#P 362       5 (13/2+)           26.9 S    5              6629.8    21    
++A alpha 6.5503 1.0
+

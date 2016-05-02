@@ -1,0 +1,27 @@
+#153GD    153GD IT DECAY (3.5 US)       1979KA16                  06NDS    200602
+#  153GD IT DECAY (3.5 US)       1979KA16                  06NDS    200602
+#H TYP=FUL$AUT=R. G. Helmer {+*}$CIT=NDS 107, 507 (2006)$CUT=31-Dec-2005$ 
+#  Produced by {+154}Sm({+3}He,4n) with E({+3}He)=27 MeV; measured        
+#       T{-1/2}.                                                          
+#G E         Nominal values from {+153}Gd Adopted |g radiations.          
+#G M,MR,CC   From {+153}Gd Adopted Gammas                                 
+#L E         Nominal values from {+153}Gd Adopted levels.                 
+#L J         From {+153}Gd Adopted levels.                                
+#P 95.17       (9/2)+            3.5 US    4                              
+GD153 GD153 IT 0.0 3.5E-6 1.0
+
+#153GD    153GD IT DECAY (76.0 US)      1970BO02,1967CO20         06NDS    200602
+#  153GD IT DECAY (76.0 US)      1970BO02,1967CO20         06NDS    200602
+#H TYP=FUL$AUT=R. G. Helmer {+*}$CIT=NDS 107, 507 (2006)$CUT=31-Dec-2005$ 
+#  Produced by {+153}Eu(d,2n) (1970Bo02) and by {+153}Eu(p,n) (1967Co20)  
+#       with enriched targets.                                            
+#  Other measurements: 1967Bo05, 1968Io01, 1972Lo04, 1979Ka16.            
+#G           I(ce): The values of 1970Bo02 have been normalized to the    
+#G      I|g by the evaluator to give |a{-L}(94 |g)=1.45 (E2 theory).      
+#G E         Nominal value from {+153}Gd Adopted |g radiations.           
+#G M,MR      From {+153}Gd Adopted Gammas.                                
+#L E         Nominal value from {+153}Gd Adopted Levels.                  
+#L J         From {+153}Gd Adopted Levels                                 
+#P 171.19      (11/2-)           76.0 US   16                             
+GD153 GD153 IT 0.0 7.6E-5 1.0
+

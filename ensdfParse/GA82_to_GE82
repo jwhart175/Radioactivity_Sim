@@ -1,0 +1,26 @@
+# 82GE    82GA B- DECAY                 1981HO24                  ENSDF    201102
+#  82GA B- DECAY                 1981HO24                  ENSDF    201102
+#H TYP=FUL$AUT=D. Symochko, S. Nafee, J. Tuli$CIT=ENSDF$CUT=31-Jan-2011$  
+#H TYP=FUL$AUT=J. K. Tuli$CIT=NDS 98, 209 (2003)$CUT=15-Jan-2003$         
+#  Mass separated fission products. GE(LI), SI(LI).                       
+#  detectors. Measured E|g, I|g, |g|g.                                    
+#  All information from 1981Ho24 unless otherwise noted. Uncertainties    
+#  quoted by 1980HoZN.                                                    
+#G           No normalization given as the decay scheme is incomplete     
+#G and g.s. feeding is not known.                                         
+#G E(C)$Seen only in 2004PEZW.                                            
+#L E$From least-squares fit to E|g's. Assuming 0.3 keV uncertainty for    
+#L |g's from 2004PEZW.                                                    
+#L J$ From Adopted Levels                                                 
+#P 0           (1,2,3)           0.599 S   2              12484     3     
+GA82 GE82 beta- 12.484 0.599 1.0
++G gamma 1.3480699999999999 1.0
++G gamma 0.86746 0.134
++G gamma 2.215 0.22
++G gamma 0.9382999999999999 0.057
++G gamma 0.4157 0.021
++G gamma 0.487 0.012
++G gamma 1.3540999999999999 0.037000000000000005
++G gamma 1.3652 0.061
++G gamma 2.7137 0.026000000000000002
+

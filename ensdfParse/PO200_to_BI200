@@ -1,0 +1,15 @@
+#200BI    200PO EC DECAY                1978LIZM                  07NDS    200707
+#  200PO EC DECAY                1978LIZM                  07NDS    200707
+#H TYP=FUL$AUT=F.G. KONDEV, S. LALKOVSKI$CIT=NDS 108,1471 (2007)$         
+#H CUT=1-Aug-2006$                                                        
+#  1978LiZM: mass separated 200PO source following IR(14N,XN)             
+#  reaction; Measured: G singles and GG coin, EG, IG.                     
+#  The decay scheme is tentative.                                         
+#G E,RI$From 1978LiZM                                                     
+#G E(B)$Assignment to 200PO is tentative                                  
+#G E(A)$Seen only in coin                                                 
+#L E$From a least-square fit to EG                                        
+#L J,T$From adopted levels                                                
+#L E(C)$x<200 KEV from syst; CONF=((P,H9/2)(N,F5/2))                      
+#P 0            0+               11.51 M   8               3420     30    
+

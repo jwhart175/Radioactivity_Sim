@@ -1,0 +1,42 @@
+#231PA    235NP A DECAY                 1973BR12                  13NDS    201306
+#  235NP A DECAY                 1973BR12                  13NDS    201306
+#H TYP=FUL$AUT=E. BROWNE, J. K. TULI$CIT=NDS 114, 751 (2013)$             
+#H CUT=24-May-2013$                                                       
+#  Modified by E. Browne (10/1/2012) BRICC, GTOL                          
+#  235NP was produced via the 235U(D,2N) reaction using a 94.4%           
+#  enriched target and 18-MEV deuterons. The 235NP activity was           
+#  chemically separated. Measured EA, IA, EG, RI, AG coin.                
+#  Detectors: semiconductor for ALPHA particles, FWHM=14.5 KEV,           
+#  GELI for G rays. Spurious peaks in the singles ALPHA spectrum          
+#  caused by true coincidences between conversion electrons and           
+#  ALPHA particles were reduced by applying a magnetic field to           
+#  the source.                                                            
+#A E$From 1973BR12, recalibrated by 1991RY01. Recalibrated values         
+#A given here are AP 2 KEV higher than those deduced from QA              
+#A (2011AuZZ).                                                            
+#A HF$Using R0(231PA)=1.520, average of R0(230TH)=1.516 5,                
+#A R0(232TH)=1.527 3, R0(230U)=1.518 25, and R0(232U)=1.5103 3 (1998AK04).
+#A E$Evaluator has adjusted by 9 KEV EA values from 1960GI03 given in     
+#A comments. Original EA are relative to 237NP(86A)=4781 KEV. Values      
+#A given here are relative to 237NP(86A)=4789.8 (1991RY01).               
+#G CC$ FROM BrIcc v2.2 (31-Mar-2008) 2008KiAA, "Frozen Orbitals" appr.    
+#G E,RI$From 1973BR12, unless otherwise specified.                        
+#G E(A)$G ray not seen. RI suggests LT 0.1 ALPHA feeding to               
+#G 174-KEV level.                                                         
+#G E(B),RI(B)$From Adopted Gammas                                         
+#G TI(D)$From G-ray transition intensity balance at 84-, 101-, and        
+#G 102-KEV levels, and G-ray data from 231TH B- decay.                    
+#P 0            5/2+             396.2 D   12             5194.9    15    
+NP235 PA231 alpha 5.1949 3.423168E7 2.60E-5
++A alpha 5.108 0.015
++A alpha 5.1 0.002
++A alpha 5.051 0.018000000000000002
++A alpha 5.025 0.53
++A alpha 5.008 0.24
++A alpha 5.007 0.005
++A alpha 4.997 0.06
++A alpha 4.94 0.006
++A alpha 4.925 0.115
++A alpha 4.862 0.006999999999999999
++A alpha 4.809 0.001
+

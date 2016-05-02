@@ -1,0 +1,24 @@
+#209BI    209PO EC DECAY                1996SC24,1989MA05,1966HA2915NDS    201506
+#  209PO EC DECAY                1996SC24,1989MA05,1966HA2915NDS    201506
+#H TYP=ERR$AUT=F.G. KONDEV$DAT=2-Nov-15$COM=Corrected 209PO(GS) T1/2$     
+#H TYP=FUL$AUT=J. CHEN {+#} AND F.G. KONDEV$CIT=NDS 126, 373 (2015)$      
+#H CUT=30-Sep-2013$                                                       
+#G CC$ FROM BrIcc v2.3 (9-Dec-2011) 2008Ki07, "Frozen Orbitals" appr.     
+#  1996Sc24: x-rays and |g-rays were detected by germanium detectors.     
+#  Measured E|g, E|a, E(x-ray), I|g, I|a, I(x-ray). Deduced levels,       
+#  K-shell to total electron capture ratio.                               
+#  1989Ma05: {+209}Po was produced by {+nat}Pb(|a,3n) with E|a=45 MeV from
+#  VECC, BARC, India. |g-rays were measured by two hyperpure Ge detectors.
+#  Measured E|g, I|g, E(x-ray), I(x-ray), E(|a), I(|a). Deduced K-capture 
+#  probability, levels, conversion coefficients, subshell branching       
+#  ratio.                                                                 
+#  1966Ha29: {+209}Po was produced by {+209}Bi(p,xn). Measured E|g, E|g,  
+#  I|a, I|g, I(ce), |a|g-, |g|g- and |g(ce)-coin. Deduced levels, J|p,    
+#  log {Ift}.                                                             
+#  Other: 1984Sh32                                                        
+#L E$From a least-squares fit to E|g                                      
+#L J$From Adopted Levels                                                  
+#N 0.9795                 0.00454 7 208.33                                
+#N                                  1                                  3  
+#P 0.0          1/2-             124 Y     3               1892.6   16    
+

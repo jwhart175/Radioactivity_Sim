@@ -1,0 +1,14 @@
+#204RN    208RA A DECAY                                           10NDS    201002
+#  208RA A DECAY                                           10NDS    201002
+#H TYP=FUL$AUT=C.J. CHIARA and F.G. KONDEV$CIT=NDS 111,141 (2010)$        
+#H CUT=1-Oct-2009$                                                        
+#  ALPHA branching for 208RA was adopted as 95% 5 by 2007Ma45 from        
+#  estimated EC branching of AP 5% based on gross BETA decay theory       
+#  calculations by 1973Ta30. The partial BETA half-life was calculated by 
+#  1997Mo25 as 23.8055 S which gives %EC+%B+=5.46.                        
+#A HF$ R0(204RN)=1.496 8 is calculated from HF(7133A)=1.0.                
+#A This value fits the local R0 trend where R0=1.50 1 is obtained.        
+#P 0.0         0+                1.3 S     2              7273      5     
+RA208 RN204 alpha 7.273 1.3 0.95
++A alpha 7.133 1.0
+

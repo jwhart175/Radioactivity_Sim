@@ -1,0 +1,18 @@
+#112AG    112PD B- DECAY                1955NU11,1953NU04         15NDS    201412
+#  112PD B- DECAY                1955NU11,1953NU04         15NDS    201412
+#H TYP=FUL$AUT=S. LALKOVSKI, F.G. KONDEV$CIT=NDS 124, 157 (2015)$         
+#H CUT=1-Aug-2014$                                                        
+#  1955NU11,1953NU04: Facility: Synchrocyclotron at ^IKO, Amsterdam;      
+#  Source: 112PD from ^D induced ^U fission, E(^D)=28 MeV;                
+#  Detectors: one alcohol-argon end-window counter, three argon-hydrogen  
+#  counters, one NaI(Tl); Measured:  |b|g, E|g, I|g, E|b. Deduced: 112AG  
+#  levels, LOGFT.  |b-feeding is determined by the assumption of          
+#  no ground-state branch. I|b{+-} to g.s. <0.006% for LOGFT>8.5          
+#  Others: 1977Gi11, 1974Ro18, 1971Ba28.                                  
+#L E$From E|g                                                             
+#L T,J$From adopted levels                                                
+#G E$From 1955NU11                                                        
+#P 0.0         0+                21.04 H   17             262       7     
+PD112 AG112 beta- 0.262 75744.0 1.0
++G gamma 0.0185 0.27
+

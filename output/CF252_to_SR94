@@ -1,0 +1,14 @@
+# 94SR    252CF SF DECAY                1995HA20                  ENSDF    201106
+#  252CF SF DECAY                1995HA20                  ENSDF    201106
+#H TYP=FUL$AUT=A.Negret, A.A.Sonzogni$CIT=ENSDF$CUT=31-Mar-2011           
+#H TYP=FUL$AUT=D. Abriola(a), A.A. Sonzogni$CIT=NDS 107, 2423 (2006)$     
+#H CUT=1-Jan-2006                                                         
+#  Gammasphere array                                                      
+#  The level scheme is that from 1995Ha20. There are differences with     
+#  the adopted values where the assignments from the more recent work     
+#  2009Rz01 (the {+248}Cm decay dataset) was preferred by the evaluators. 
+#L E$From least-squares fit to EG assuming |DE|g=1 keV                    
+#L BAND(A)$Ground-state band                                              
+#P 0.0          0+                2.645 Y   8                             
+CF252 SR94 SF 0.0 0.0 1.0
+

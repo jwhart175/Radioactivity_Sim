@@ -1,0 +1,20 @@
+#115SB    115SB IT DECAY (6.2 NS)       1978SU05,1978KE04         12NDS    201210
+#  115SB IT DECAY (6.2 NS)       1978SU05,1978KE04         12NDS    201210
+#H TYP=FUL$AUT=JEAN BLACHOT$CIT=NDS 113, 2391 (2012)$CUT=1-Sep-2012$      
+#P 1300.21   5 11/2-             6.2 NS    3                              
+SB115 SB115 IT 0.0 6.2E-9 0.917
++G gamma 0.72357 0.08800000000000001
+
+#115SB    115SB IT DECAY (159 NS)       1977BR08,1979KO02,1979FA0312NDS    201210
+#  115SB IT DECAY (159 NS)       1977BR08,1979KO02,1979FA0312NDS    201210
+#H TYP=FUL$AUT=JEAN BLACHOT$CIT=NDS 113, 2391 (2012)$CUT=1-Sep-2012$      
+#  Others: 1974GaZG, 1975FoZK, 1975HeZF                                   
+#  113IN(A,2NG) E=28 MEV (1979Ko02), E=27 MEV (1977Br08) pulsed ALPHA     
+#  115IN(A,4NG) E=48 MEV (1979Fa03) pulsed ALPHA                          
+#  112CD(6LI,3NG) E=34 MEV (1974GaZG,1975FoZK) pulsed 6LI                 
+#G E         From 1977Br08, except 723.57G from 1974Ch51                  
+#G M         Deduced from EKC, ELC, EMC (1977Br08) CE/IG                  
+#L J$From adopted levels                                                  
+#P 2796.26   9 19/2-             159 NS    3                              
+SB115 SB115 IT 0.0 1.59E-7 0.673
+

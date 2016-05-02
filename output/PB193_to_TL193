@@ -1,0 +1,36 @@
+#193TL    193PB EC DECAY (5.8 M)        1976HA25                  06NDS    200602
+#  193PB EC DECAY (5.8 M)        1976HA25                  06NDS    200602
+#H TYP=FUL$AUT=E. Achterberg, G.V. Marti, V.R. Vanin, et al.$             
+#H CIT=NDS 107, 1 (2006)$CUT=30-Sep-2005$                                 
+#  1976Ha25: sources from bombardment of natural tungsten by              
+#  {+16}O, mass separation; measured E|g, I|g (Ge(Li)), |g|g coin.        
+#  Other: 1974Ne16, 1961An03.                                             
+#E           All log| {Ift} information was calculated with Q(|e)=5120    
+#E {I120}, E(365+x, {+193}Tl)=365 and E(5.8 min, {+193}Pb)=100.           
+#G           NR |SI(|g+ce)(to 365+x level)=95 {I5}. From                  
+#G log| {If{+1u}t}>8.5, I(|e+|b{++})(to 365+x level) < 10%                
+#G M,MR$From adopted |g's, unless otherwise noted                         
+#L           The decay scheme shown is from 1976Ha25 and is based on      
+#L |g|g coincidences. The authors state that the results should be        
+#L considered preliminary. The proposed level scheme agrees with          
+#L the scheme obtained from (HI,xn|g).                                    
+#L           1976Ha25 state that the intensity of the 365.0|g (100 on     
+#L the I|g scale) is that of the 5.8 min activity ({+193}Pb 23/2+ state)  
+#L and from that deduce that 70% of the |e+|b{++} decay goes directly     
+#L to the 2.11 min, 365+x level. (they do not state whether this intensity
+#L is the measured intensity, or intensity corrected for transient        
+#L equilibrium conditions). However, a 70% |e+|b{++} branch to the 365+x  
+#L level would give log| {If{+1u}t}=7.6 (expected log| {If{+1u}t}|>8.5).  
+#L This could be explained by: 1) an anomalous log| {If{+1u}t} value or   
+#L 2) the |e+|b{++} transition is not 1U (either                          
+#L J|p({+193}Pb (5.8 min)|=(13/2+) or J|p({+193}Tl (2.11 min)|=9/2-)).    
+#L None of these explanations is really acceptable. Another               
+#L possible explanation for such high I|g(365) is that the {+193}Pb 3/2-  
+#L level has T{-1/2}|?5.8 min (this activity has not been seen)           
+#L and that the source contained both activities. With similar T{-1/2} it 
+#L would be difficult to distinguish between the two decays.              
+#L J$From adopted levels                                                  
+#L BAND(A)$9/2(505) Band                                                  
+#P 130       80 (13/2+)          5.8 M     2              5.12E+3   12    
+PB193 TL193 beta+ 5.12 348.0 1.0
+

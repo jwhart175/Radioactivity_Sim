@@ -1,0 +1,113 @@
+#105TC    105MO B- DECAY (35.6 S)       1989RUZU,1980TIZX         05NDS    200511
+#  105MO B- DECAY (35.6 S)       1989RUZU,1980TIZX         05NDS    200511
+#H TYP=FUL$AUT=D. DE FRENNE AND E. JACOBS$CIT=NDS 105, 775 (2005)$        
+#H CUT=1-Sep-2004$                                                        
+#  1980TiZX: activity produced in {+235}U(n,F). Measured: E|g, I|g,       
+#  |g|g-coin,T{-1/2}. Deduced: {+105}Tc levels                            
+#  1989RuZU: activity produced in {+235}U(n,F). Measured: E|g, I|g,       
+#  |g|g(t),|b|g(t), T{-1/2}. Deduced: {+105}Tc levels, J|p. Level         
+#  scheme seems complete although Q- is 4.95 MeV                          
+#  Other: 1977Ti02                                                        
+#  Unless noted otherwise, data taken from 1989RuZU                       
+#G           |a(K)exp based on ratio I(K| x ray)/I|g.                     
+#G M         Unless noted otherwise, deduced from proposed level scheme.  
+#G Where possible [M1] is preferred over [M1,E2] because in this mass     
+#G region it is known that E2 admixtures are small from experimental data 
+#G of neighboring nuclei. Only used for the calc of |b{+-} branchings and 
+#G thus log| {Ift}.                                                       
+#G M(A)      From |a(K)exp                                                
+#L E         Calculated from measured gammas                              
+#L J         From adopted levels gammas                                   
+#L T         From |b|g|g(t)                                               
+#P 0           (5/2-)            35.6 S    16             4950      50    
+MO105 TC105 beta- 4.95 35.6 1.0
++G gamma 0.0765 0.1925
++G gamma 0.0854 0.25
++G gamma 0.0711 0.006500000000000001
++G gamma 0.14780000000000001 0.1475
++G gamma 0.06409999999999999 0.055
++G gamma 0.089 0.015
++G gamma 0.1605 0.095
++G gamma 0.2369 0.02
++G gamma 0.1016 0.006999999999999999
++G gamma 0.173 0.0225
++G gamma 0.24969999999999998 0.0925
++G gamma 0.129 0.024
++G gamma 0.19319999999999998 0.00125
++G gamma 0.156 0.0017499999999999998
++G gamma 0.2184 0.03775
++G gamma 0.3038 0.02
++G gamma 0.0184 0.004
++G gamma 0.3222 0.034
++G gamma 0.10859999999999999 0.00525
++G gamma 0.1979 0.035
++G gamma 0.2691 0.0435
++G gamma 0.3458 0.0025
++G gamma 0.09509999999999999 0.00125
++G gamma 0.2039 0.017
++G gamma 0.3643 0.025
++G gamma 0.118 0.002
++G gamma 0.214 0.0405
++G gamma 0.22669999999999998 0.0115
++G gamma 0.3158 0.009250000000000001
++G gamma 0.387 0.02075
++G gamma 0.18769999999999998 0.008
++G gamma 0.3418 0.003
++G gamma 0.1782 0.0045000000000000005
++G gamma 0.2743 0.0115
++G gamma 0.2867 0.01975
++G gamma 0.376 0.00625
++G gamma 0.4471 0.03
++G gamma 0.2078 0.01175
++G gamma 0.22669999999999998 0.006500000000000001
++G gamma 0.38039999999999996 0.005
++G gamma 0.4445 0.0032500000000000003
++G gamma 0.213 0.00375
++G gamma 0.3217 0.01175
++G gamma 0.4111 0.006
++G gamma 0.4142 0.016
++G gamma 0.4783 0.004
++G gamma 0.4607 0.004
++G gamma 0.5248999999999999 0.0225
++G gamma 0.5317999999999999 0.0027500000000000003
++G gamma 0.6606000000000001 0.0032500000000000003
++G gamma 0.7249 0.003
++G gamma 0.5903999999999999 7.5E-4
++G gamma 0.7192000000000001 0.005
++G gamma 0.35710000000000003 0.00775
++G gamma 0.4173 0.0034999999999999996
++G gamma 0.3615 0.00125
++G gamma 0.4001 7.5E-4
++G gamma 0.7032999999999999 0.0017499999999999998
++G gamma 0.7927000000000001 0.003
++G gamma 0.8637999999999999 0.0022500000000000003
++G gamma 0.6977000000000001 0.0015
++G gamma 0.8937999999999999 0.003
++G gamma 0.8957 0.00425
++G gamma 0.9577 0.00475
++G gamma 0.9666 0.0055000000000000005
++G gamma 1.0434 0.0175
++G gamma 0.8684 0.008
++G gamma 1.0224 0.0022500000000000003
++G gamma 1.0867 0.0022500000000000003
++G gamma 0.8854 0.001
++G gamma 1.1112 0.018500000000000003
++G gamma 0.9462 0.00425
++G gamma 1.1544 0.006500000000000001
++G gamma 1.2395 0.003
++G gamma 0.7761 0.00875
++G gamma 1.2097 0.01225
++G gamma 1.4742 0.00575
++G gamma 1.5411 0.002
++G gamma 1.6721 0.0045000000000000005
++G gamma 1.8054000000000001 0.0235
++G gamma 1.8142 0.0115
++G gamma 1.2544000000000002 0.002
++G gamma 2.0474 0.00375
++G gamma 1.9333 0.0032500000000000003
++G gamma 2.0624000000000002 0.0032500000000000003
++G gamma 2.1265 0.0032500000000000003
++G gamma 2.3254 0.0125
++G gamma 2.6185 0.00575
++G gamma 2.6812 0.0022500000000000003
+

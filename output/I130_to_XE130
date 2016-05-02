@@ -1,0 +1,48 @@
+#130XE    130I B- DECAY (8.84 M)        1974ME17                  01NDS    200107
+#  130I B- DECAY (8.84 M)        1974ME17                  01NDS    200107
+#H TYP=FUL$AUT=BALRAJ SINGH$CIT=NDS 93, 33 (2001)$CUT=11-May-2001$        
+#  1974ME17 (also 1973HO25): measured EG, IG, GG, T1/2                    
+#  1999SAZW: measured EG, IG using ^GAMS 1,2,3 (curved-crystal)           
+#  spectrometer                                                           
+#  1972BA51: measured EG, IG, GG, GG(THETA), EB, IB, BG coin, T1/2        
+#  1970QA03 (also 1970QA02): EG, IG, EB, IB, BG, T1/2                     
+#  Others: 1974DI03, 1968RE04, 1967KE12, 1967KE11, 1966WI15               
+#G RI$A 3% uncertainty is added in quadrature to account for              
+#G the uncertainty in the efficiency calibration                          
+#G E(A)$From curved-crystal measurements of 1999SAZW                      
+#L E$From least-squares fit to EG's                                       
+#L J$From adopted levels                                                  
+#P 39.9542   13 2+               8.84 M    6              2949      3     
+I130 XE130 beta- 2.949 530.4 0.98
++G gamma 1.9890999999999999 1.5E-4
++G gamma 2.0293 2.7000000000000002E-5
++B beta- 2.48 0.14
++G gamma 0.536066 1.0
++B beta- 1.85 0.0115
++G gamma 0.5860489999999999 0.0681
++G gamma 1.12215 0.010700000000000001
++G gamma 0.6685399999999999 6.900000000000001E-4
++G gamma 0.42793000000000003 2.2000000000000003E-5
++G gamma 0.51035 2.3E-4
++G gamma 1.0964800000000001 1.6E-4
++G gamma 0.6035 1.3E-5
++G gamma 0.68599 2.2000000000000003E-5
++G gamma 1.27212 1.6E-5
++G gamma 0.946 5.0E-5
++G gamma 1.0281099999999999 0.00249
++G gamma 1.6140999999999999 0.0285
++G gamma 2.15015 0.00133
++G gamma 1.75997 0.00188
++G gamma 1.2635 1.3E-4
++G gamma 1.8493 1.0999999999999999E-4
++G gamma 1.9580199999999999 0.0011799999999999998
++G gamma 1.38015 0.00229
++G gamma 1.96604 0.00332
++G gamma 2.5021999999999998 8.4E-4
++G gamma 2.00835 2.9E-4
++G gamma 2.544 3.3E-5
++G gamma 2.10142 6.3E-4
++G gamma 1.44018 6.8E-4
++G gamma 2.1088 6.5E-4
++G gamma 2.7626 5.6E-5
+

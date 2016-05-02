@@ -1,0 +1,56 @@
+#154EU    154EU IT DECAY (46.0 M)       1975CA22,1976CH08,1976ZO0109NDS    200910
+#  154EU IT DECAY (46.0 M)       1975CA22,1976CH08,1976ZO0109NDS    200910
+#H TYP=FUL$AUT=C. W. Reich$CIT=NDS 110, 2257 (2009)$CUT=1-May-2008$       
+#  DATA SET UPDATED (JANUARY, 2008) TO INCLUDE BRICC AND MODIFY SOME      
+#   COMMENTS                                                              
+#  Experimental methods:                                                  
+#  1975Ca22:  Produced by (p,n) on enriched (99.996%) {+154}Sm with       
+#      E(p)=11 MeV. Measured |g singles and |g|g coincidences with        
+#      Ge detectors.                                                      
+#  1976Ch08:  Produced by (p,n) on enriched (99.996%) {+154}Sm with       
+#      E(p)=12.5 MeV followed by chemical separation. Measured |g's       
+#      with Ge detectors and ce in magnetic spectrometer.                 
+#  1976Zo01:  Produced by (p,n), (d,2n), (d,|a), and (d,p); some          
+#      followed by chemical separations. Measured |g singles and |g|g     
+#      coincidences with Ge detectors. Si(Li) detector used in search     
+#      for the isomeric transition.                                       
+#G           The |g transition which deexcites the isomeric level has     
+#G     not been observed; and two other unobserved |g transitions are     
+#G     proposed to provide feeding of the 127 and 129 levels.             
+#G E         From 1976Zo01. These values have the smallest                
+#G      uncertainties, so a weighted average of these values with those   
+#G      of 1975Ca22 and 1976Ch08 would give essentially the same values.  
+#G      For most |g's, more precise energies are given in the Adopted     
+#G      |g Radiations.                                                    
+#G RI        From 1976Ch08, unless otherwise noted. The evaluators have   
+#G      increased the uncertainties by factors of 2.0 above 30 keV and    
+#G      4.0 below 30 keV to allow for the large discrepancy between       
+#G      the values from 1975Ca22, 1976Ch08, and 1976Zo01. The             
+#G      discrepancies among the reported data are illustrated by the      
+#G      fact that, for the three |g's below 34 keV, the reported          
+#G      uncertainties are about 10%, but the values vary by factors       
+#G      of 2 or more.                                                     
+#G M,MR      Assignments and values are from Adopted |g Radiations.       
+#L           Although the observed |g rays are similar, the decay         
+#L     schemes of 1975Ca22, 1976Ch08, and 1976Zo01 are quite different.   
+#L     The scheme adopted here is that of the evaluators and is based     
+#L     on the level structure from the {+153}Eu(n,|g) study of 1987Ba52.  
+#L     The scheme adopted in previous ENSDF evaluations                   
+#L     (1979Ha02 and 1987He20) was similar to that of 1976Zo01, which     
+#L     relied on certain data from the (n,|g) study of 1977St14. This     
+#L     study differs in important ways from that of 1987Ba52.             
+#L E         Computed from these |g energies, unless otherwise noted;     
+#L      for more precise values, see the Adopted Levels.                  
+#L J         From {+154}Eu Adopted Levels, where the band assignments     
+#L      are also discussed.                                               
+#L T         Values included here for excited states are from {+154}Eu    
+#L      (46.0 min) decay only; see Adopted Levels for values deduced      
+#L      from all available data.                                          
+#P 145.3     AP  8-              46.0 M    4                              
++G gamma 0.06817000000000001 0.37
++G gamma 0.03261 8.14E-4
++G gamma 0.10088 0.2664
++G gamma 0.027510000000000003 0.00888
++G gamma 0.02878 0.01073
++G gamma 0.035802 0.1258
+

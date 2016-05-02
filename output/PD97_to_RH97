@@ -1,0 +1,29 @@
+# 97RH    97PD EC DECAY                 1980GO11                  10NDS    201004
+#  97PD EC DECAY                 1980GO11                  10NDS    201004
+#H TYP=FUL$AUT=N. NICA$CIT=NDS 111, 525 (2010)$CUT=19-Nov-2009$           
+#E TI$From IG balance in the level scheme                                 
+#G           Production: 96RU(3HE,2N) E(3HE)=18, 20, 28 MEV. Measured     
+#G T, EG, IG, GG, B-G; GE(LI) detectors (2.1KEV FWHM) and plastic         
+#G scintillators. RU target and ion chem was used for absolute intensity  
+#G measurements.                                                          
+#G           Others: 1980Za11, 1969At01                                   
+#G           All data are from 1980Go11                                   
+#G           From comparison of I(188.9G) (mainly from 97RH isomeric      
+#G state decay) to I(421.8G) (from 97RH GS decay) it was deduced that     
+#G 2.5% 15 97PD decays to 97RH 258.76 KEV isomeric state. In view of      
+#G the number of unplaced gammas (SUMOF IG=12.5 7) it is assumed that     
+#G there is no direct EC+B+ decay to the 97RH 258.76 KEV isomeric state.  
+#G An EC+B+ group with I=1% would have LOGF1UT=8.5, the allowed limit     
+#G for first forbidden unique transition.                                 
+#G           From I(475.2G 97PD decay)/I(421.8G 97RH GS decay)=0.33 4 and 
+#G I(421.8G)=75 per 100 97RH GS decays I(475.2G)=25 3 per 100 97PD        
+#G decay. I(475.2G)=26.5 15 from internal normalization (assuming no      
+#G direct EC+B+ decay to 97RH GS).                                        
+#G E(A)$Assignment to 97PD decay uncertain                                
+#G E(G)$DIFFER BY 3SIGMA OR MORE FROM CALCULATED VALUE                    
+#L E$FROM LEAST SQUARES FIT TO EG. NORMALIZED CHI**2=1.88 GREATER THAN    
+#L CRITICAL CHI**2=1.77                                                   
+#L J,T$From adopted levels                                                
+#P     0.0       (5/2+)           3.10 M   9              4.79E+3   30    
+PD97 RH97 beta+ 4.79 0.0 0.5603
+

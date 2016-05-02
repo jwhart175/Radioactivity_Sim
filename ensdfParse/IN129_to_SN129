@@ -1,0 +1,227 @@
+#129SN    129IN B- DECAY (611 MS)       2004GA24                  14NDS    201408
+#  129IN B- DECAY (611 MS)       2004GA24                  14NDS    201408
+#H TYP=FUL$AUT=JANOS TIMAR AND ZOLTAN ELEKES, BALRAJ SINGH$               
+#H CIT=NDS 121, 143 (2014)$CUT=31-May-2014$                               
+#  2004Ga24: The {+129}In isotope was obtained by thermal-neutron         
+#  induced fission of a {+235}U carbide target inside the combined        
+#  target and ion source ANUBIS.  During the measurements of singles      
+#  data, surface ionization was used to select the element In and         
+#  thereby suppress the daughter activities. Measured E|b, E|g, I|g,      
+#  |g|g, |b|g(coin), |g|g(t), T{-1/2}(isotope) with three Ge detectors of 
+#  which one was a low energy photon (LEP). Three Ge detectors were also  
+#  used for the Q{-|b} measurement, where the LEP detector was used as a  
+#  |b spectrometer.                                                       
+#  1980De35: 235U(N,F) E=TH, on-line MS; semi, scin B, G, CE, GG-,        
+#  BG-coin.                                                               
+#  Others:                                                                
+#  1978Al18: 235U(N,F) E=TH, on-line MS; semi, scin B, G, BG-coin.        
+#  1987Sp09: 235U(N,F) E=TH, on-line MS; HPGE, B, G, BG-coin.             
+#B IB$From 2004Ga24, assuming <10% |b{+-} feeding to g.s. These values are
+#B in close agreement with those deduced by evaluators using GTOL code    
+#G $Most of the unplaced G rays belong to activities T LE 10 S in the mass
+#G 129 isobaric chain (1980De35) and are tentatively assigned to 129IN    
+#G B- decay by the evaluators.                                            
+#G $A |g ray of energy 2546 keV {I1} with I|g=3.5 {I4} assigned by        
+#G 1980De35 to the decay of 611-ms activity in {+129}In is assigned       
+#G by 2004Ga24 totally to the decay of 1.23-s activity, thus 3590-keV     
+#G level is not populated in this decay                                   
+#G E$From 2004Ga24, except as noted.                                      
+#G CC$Value overlaps M1 and E2, when |d not given                         
+#G E(A)$Possibly corresponds to G ray which 1977He24 regarded as          
+#G deexciting the 1703-KEV isomer (3 US) in 129SB (1980De35).             
+#G RI$From 2004Ga24, except for unplaced gammas which are from 1980De35.  
+#G M(B)$From EKC=0.03 1 (1980De35)                                        
+#L E$From least-squares fit by evaluators to the EG data from             
+#L 2004Ga24; level scheme is also from 2004Ga24, except as noted.         
+#L J,T$From Adopted Levels                                                
+#P 0.0         (9/2+)            611 MS    5              7769      19    
+IN129 SN129 beta- 7.769 0.611 1.0
++G gamma 0.3825 0.01176
++G gamma 0.4171 8.4E-4
++G gamma 0.4739 0.00252
++G gamma 0.5012 0.00336
++G gamma 0.5702 0.01596
++G gamma 1.0452000000000001 4.2E-4
++G gamma 1.0635 0.00126
++G gamma 1.136 0.01764
++G gamma 1.1728 0.00126
++G gamma 1.3087 0.0021
++G gamma 1.3237 0.01428
++G gamma 1.4273 0.0042
++G gamma 1.5775 0.00252
++G gamma 1.7161 0.0021
++G gamma 1.9062999999999999 0.00378
++G gamma 1.977 0.0042
++G gamma 2.1895 0.01554
++G gamma 2.302 0.00504
++G gamma 2.367 0.0063
++B beta- 3.4843 0.1
++G gamma 0.31542000000000003 0.001386
++B beta- 3.1395 0.021
++G gamma 0.72853 0.056280000000000004
++B beta- 3.1369000000000002 0.02
++G gamma 0.7693099999999999 0.10206
++B beta- 3.0068 0.02
++G gamma 0.27993 0.002226
++G gamma 1.00853 0.05208
++B beta- 3.0051 0.0034999999999999996
++G gamma 0.27818 0.0017639999999999997
++G gamma 1.0474100000000002 0.0026039999999999995
++B beta- 3.0018000000000002 0.021
++G gamma 0.28524 0.01302
++G gamma 1.0543 0.03948
++G gamma 0.5195 6.3E-4
++G gamma 0.9735 0.001386
++G gamma 1.28864 0.001722
++B beta- 2.8116 0.003
++G gamma 1.45553 0.008022
++B beta- 2.7742 0.0046
++G gamma 0.48029 0.0040739999999999995
++G gamma 0.7654 0.0028139999999999997
++G gamma 1.499 0.004031999999999999
++B beta- 2.6951 0.0024
++G gamma 0.6577000000000001 7.14E-4
++G gamma 0.93196 9.239999999999999E-4
++G gamma 0.9375399999999999 8.819999999999999E-4
++B beta- 2.6228000000000002 0.0076
++G gamma 0.31930000000000003 0.002226
++G gamma 0.79941 0.006971999999999999
++B beta- 2.6174 0.36
++G gamma 0.33080000000000004 0.002058
++G gamma 0.4093 0.00105
++G gamma 0.5761000000000001 0.001218
++G gamma 0.8214 0.0069299999999999995
++G gamma 1.096 0.026459999999999997
++G gamma 1.10139 0.01764
++G gamma 1.8300999999999998 0.0010079999999999998
++G gamma 1.8648900000000002 0.31079999999999997
++B beta- 2.5978000000000003 0.0013
++G gamma 1.90632 0.004031999999999999
++B beta- 2.4972 0.49
++G gamma 0.21217 0.002688
++G gamma 0.25299 3.36E-4
++G gamma 0.265 0.00147
++G gamma 0.66292 0.005124
++G gamma 0.83 0.00252
++G gamma 1.071 8.4E-4
++G gamma 1.07471 0.025619999999999997
++G gamma 1.3492899999999999 0.019319999999999997
++G gamma 1.3544100000000001 0.01218
++G gamma 2.0829 0.0017639999999999997
++G gamma 2.1182600000000003 0.42
++B beta- 2.1783 0.004699999999999999
++G gamma 1.7367000000000001 0.00126
++G gamma 2.0218 0.0035279999999999995
++B beta- 2.157 0.0336
++G gamma 1.3017 0.001974
++G gamma 1.78154 0.019319999999999997
++G gamma 1.7919 0.001386
++G gamma 2.06664 0.010920000000000001
++G gamma 2.0723000000000003 6.72E-4
++B beta- 2.0878 0.0074
++G gamma 2.2127 0.006888
++G gamma 2.9821 6.3E-4
++B beta- 2.0127 0.0067
++G gamma 2.3715 7.56E-4
++G gamma 2.3766 0.001386
++G gamma 3.14027 0.004662
+
+#129SN    129IN B- DECAY (1.23 S)       2004GA24,1980DE35         14NDS    201408
+#  129IN B- DECAY (1.23 S)       2004GA24,1980DE35         14NDS    201408
+#H TYP=FUL$AUT=JANOS TIMAR AND ZOLTAN ELEKES, BALRAJ SINGH$               
+#H CIT=NDS 121, 143 (2014)$CUT=31-May-2014$                               
+#  1980De35: 235U(N,F) E=TH, on-line MS; semi, scin B, G, CE, GG-,        
+#  BG-coin.                                                               
+#  1987Sp09: 235U(N,F) E=TH, on-line MS; HPGE, B, G, BG-coin.             
+#  2004Ga24: The {+129}In isotope was obtained by thermal-neutron         
+#  induced fission of a {+235}U carbide target inside the combined        
+#  target and ion source ^ANUBIS.  During the measurements of singles     
+#  data, surface ionization was used to select the element In and         
+#  thereby suppress the daughter activities. Measured E|b, E|g, I|g,      
+#  |g|g, |b|g(coin), |g|g(t), T (isotope) with 3 Ge detectors of          
+#  which one was a ^LEPS. Three Ge detectors were also                    
+#  used for the Q{-|b} measurement, where the ^LEPS detector was used as a
+#  |b spectrometer.                                                       
+#B IB$From 2004Ga24                                                       
+#G E$From 2004Ga24.                                                       
+#G E$As for unplaced G rays, see comments under 129IN B- decay (0.61 S).  
+#G CC$Value overlaps M1 and E2, when |d not given                         
+#L E$Based on a least-squares fit to the EG data from                     
+#L 2004Ga24; level scheme is also from 2004Ga24.                          
+#L J$From Adopted Levels                                                  
+#P 459       5 (1/2-)            1.23 S    3              7769      19    
+IN129 SN129 beta- 7.769 1.23 1.0
++B beta- 3.7179 0.77
++B beta- 3.5688 0.151
++G gamma 0.31542000000000003 0.18
++G gamma 0.72853 0.002214
++G gamma 0.7693099999999999 0.00342
++G gamma 0.27993 8.100000000000001E-4
++G gamma 1.00853 0.01908
++G gamma 0.27818 1.26E-4
++G gamma 1.0474100000000002 1.7999999999999998E-4
++B beta- 3.1395 0.015600000000000001
++G gamma 0.17513 3.06E-4
++G gamma 0.90734 0.01026
++G gamma 1.22251 0.013859999999999999
++B beta- 3.1081999999999996 0.0058
++G gamma 0.5195 0.0018
++G gamma 0.9735 0.00396
++G gamma 1.28864 0.00504
++G gamma 1.6134000000000002 0.0036
++G gamma 0.6577000000000001 0.001098
++G gamma 0.93196 0.0014759999999999999
++G gamma 0.9375399999999999 0.0014039999999999999
++B beta- 2.2591 0.0042
++G gamma 2.0355 0.001998
++G gamma 2.7639 0.002214
++B beta- 2.1098000000000003 0.0022
++G gamma 3.0789 0.0022319999999999996
++B beta- 2.0168 0.051
++G gamma 1.8896 0.00396
++G gamma 1.977 0.003564
++G gamma 2.3017 0.00504
++G gamma 2.36815 0.00864
++G gamma 2.5466100000000003 0.01692
++G gamma 3.27516 0.010620000000000001
++G gamma 3.5908 0.0021239999999999996
+
+#129SN    129IN B- DECAY (0.67 S)       2004GA24                  14NDS    201408
+#  129IN B- DECAY (0.67 S)       2004GA24                  14NDS    201408
+#H TYP=FUL$AUT=JANOS TIMAR AND ZOLTAN ELEKES, BALRAJ SINGH$               
+#H CIT=NDS 121, 143 (2014)$CUT=31-May-2014$                               
+#  2004Ga24: The {+129}In isotope was obtained by thermal-neutron         
+#  induced fission of a {+235}U carbide target inside the combined        
+#  target and ion source ANUBIS.  During the measurements of singles      
+#  data, surface ionization was used to select the element In and         
+#  thereby suppress the daughter activities.                              
+#  Measured E|b, E|g, I|g, |g|g, |b|g(coin), |g|g(t), T{-1/2} (isotope)   
+#  with 3 Ge detectors of which one was a LEPS. Three                     
+#  Ge detectors were also used for the Q{-|b} measurement, where the LEPS 
+#  detector was used as a |b spectrometer.                                
+#B IB$From 2004Ga24                                                       
+#B IB(X)$Total feeding for 1762 and 1803 levels; but most of this         
+#B feeding is expected to be for 1803 level. The feeding for the          
+#B 1762 level is expected to be much weaker in view of first-             
+#B forbidden unique transition involved                                   
+#G M$From Adopted Gammas                                                  
+#L E$From least-squares fit to E|g data                                   
+#L E(A)$2004Ga24 notes that an imbalance of the |g-ray intensities for    
+#L transitions feeding and depopulating this level has been observed.     
+#L The authors indicate that unobserved |g feeding is most likely the     
+#L cause of the apparent |b feeding and that true |b feeding is assumed   
+#L to be zero for this level.                                             
+#L J,T$From Adopted Levels                                                
+#P 1630      56(23/2-)           0.67 S    10             7769      19    
+IN129 SN129 beta- 7.769 0.67 1
++G gamma 1.13631 0.58
++G gamma 1.32425 0.42919999999999997
++G gamma 0.38249 0.41759999999999997
++G gamma 0.57041 0.5336
++B beta- 3.419 0.14
++G gamma 0.041 0.014499999999999999
++B beta- 3.195 0.08
++G gamma 0.5151 0.036539999999999996
++B beta- 2.381 0.75
++G gamma 1.7161 0.07887999999999999
+

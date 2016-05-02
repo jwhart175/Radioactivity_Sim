@@ -1,0 +1,52 @@
+#152HO    156TM A DECAY (83.8 S)        1983ML01,1981GA36,1971TO1013NDS    201311
+#  156TM A DECAY (83.8 S)        1983ML01,1981GA36,1971TO1013NDS    201311
+#H TYP=FUL$AUT=M. J. MARTIN$CIT=NDS 114, 1497 (2013)$CUT=31-Aug-2013$     
+#  Data on E(|a), T{-1/2}, and I(|a) for this decay have                  
+#  been reported by 1971To10                                              
+#  (1970ToZS and 1971ToZR by same author), 1980AfZZ, 1981Ga36, 1982To14,  
+#  and 1983Ml01 (by same author as 1982To14).                             
+#  Experimental methods:                                                  
+#  1970ToZS: Report E(A), which is same as one value in 1971To10, and T,  
+#       which is different from that in 1971To10.                         
+#            1970ToZS was denoted as 1970To20 at an earlier time.         
+#  1971To10: Produced by 147SM(14N,5N) reaction with products stopped and 
+#       counted with Si(Au) detector.  Report E(A) and T for the decay    
+#       and same for a 19-s isomer.                                       
+#  1971ToZR: Lab report gives E(A) = 4230 10, which is same as one value  
+#        in 1971To10, and T = 77 S 10, which different than 1971To10.     
+#  1980AfZZ: Produced by proton spallation of W target at EP = 1 GeV with 
+#       products isotope separated and counted with Si(Au) detector.      
+#       Report E(A) and T.                                                
+#  1981Ga36: Produced by proton reactions with isotope separation and     
+#       ALPHA's counted with Si(Au) detector.  Report I(A).               
+#  1981GaZR: Conference abstract; see 1981Ga36 for results.               
+#  1982To14: Produced by 147SM(16O,7N) reaction at E(16O) = 141 MeV on    
+#       enriched (98%) target.  Products stopped, isotope separated, and  
+#       ALPHA's counted with Si(Au) detector.  Report E(A), T, and I(A).  
+#  1983Ml01: Produced by 147SM(16O,7N) reaction at E(16O) = 141 MeV on    
+#       enriched (98%) target.  Products stopped, isotope separated, and  
+#       ALPHA's counted with Si(Au) detector and G's with Ge detector.    
+#       Report E(A) and I(A) along with G's after EC decay.  Results,     
+#       except T, are similar to 1982To14, but are not discussed in detail
+#       there.                                                            
+#A HF        r{-0}({+152}Ho)=1.54 {I3}                                    
+#P   0                    2-      83.8 S   18              4345     7     
++A alpha 4.232 1.0
+
+#152HO    156TM A DECAY (19 S)          1971TO10                  13NDS    201311
+#  156TM A DECAY (19 S)          1971TO10                  13NDS    201311
+#H TYP=FUL$AUT=M. J. MARTIN$CIT=NDS 114, 1497 (2013)$CUT=31-Aug-2013$     
+#  It now appears that the assignment of this activity to {+156}Tm        
+#  is incorrect.                                                          
+#  1971To10 observed a 19-s activity with E|a=4460 {I10} and suggested    
+#  that this is the |a decay of a high spin isomer of {+156}Tm.           
+#  The activity was produced by {+162}Er({+3}He,p8n) reaction at          
+#  E({+3}He)=110 MeV with recoil products stopped and counted with        
+#  Si(Au) detector.                                                       
+#  1980Zo02 fail to observe this activity in the {+148}Sm({+14}N,6n)      
+#  reaction, which should populate high-spin levels                       
+#  1992Po14 do not observe the 4460 |a peak (<1% of the {+156}Tm g.s.     
+#  |a peak)                                                               
+#  in their {+156}Tm source produced by W(600-MeV p) ms.                  
+#P  X                            19 S                     4345       7    
+

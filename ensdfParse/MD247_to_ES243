@@ -1,0 +1,40 @@
+#243ES    247MD A DECAY (1.2 S)         2010AN08,2005HE27         14NDS    201408
+#  247MD A DECAY (1.2 S)         2010AN08,2005HE27         14NDS    201408
+#H TYP=FUL$AUT=C.D. Nesaraja, E.A. McCutchan$CIT=NDS 121, 695 (2014)$     
+#H CUT=30-Sep-2013$                                                       
+#  2010An08,2005He27: {+247}Md activity produced in the                   
+#  {+209}Bi({+40}Ar,2n) reaction with                                     
+#  E({+40}Ar)=187 MeV. Evaporation residues (ER) separated with the       
+#  velocity filter SHIP and implanted into a position sensitive Si strip  
+#  detector.  Measured E|a, I|a, ER-|a(t), ER-SF(t), E|g, I|g using an    
+#  array of position sensitive Si detectors and an HPGe detector. Earlier 
+#  preliminary results given in 2006An13, 2004He23.                       
+#  CC$FROM BrIcc v2.3a (30-Jun-2013) 2008Ki07, "Frozen Orbitals" appr.    
+#A E,IA$From 2010An08.                                                    
+#A HF$Calculated using r{-0}({+243}Es)=1.487 {I20}, from                  
+#A r{-0}({+242}Cf)=1.491 and r{-0}({+244}Fm)=1.483, both extrapolated     
+#A from r{-0}'s given in 1998Ak04.                                        
+#G E,RI$From 2005He27. I|g are given relative to I|g(210|g)=100.          
+#L E$From 2010An08.                                                       
+#P 0.0          (7/2-)            1.2 S     1              8764     10    
++A alpha 8.345 0.06
++A alpha 8.616 0.02
++A alpha 8.416 0.92
+
+#243ES    247MD A DECAY (0.25 S)        2010AN08                  14NDS    201408
+#  247MD A DECAY (0.25 S)        2010AN08                  14NDS    201408
+#H TYP=FUL$AUT=C.D. Nesaraja, E.A. McCutchan$CIT=NDS 121, 695 (2014)$     
+#H CUT=30-Sep-2013$                                                       
+#  {+247}Md activity produced in the {+209}Bi({+40}Ar,2n) reaction with   
+#  E({+40}Ar)=187 MeV. Evaporation residues (ER) separated with the       
+#  velocity filter SHIP and implanted into a position sensitive Si strip  
+#  detector.  Measured E|a, I|a, ce, ER-|a, ER-|a|g, |a|g coincidences,   
+#  ER-|a(t), ER-SF(t), E|g, I|g using an array of position sensitive Si   
+#  detectors and an HPGe detector. Subset of results given in 2006An13.   
+#A HF$r{-0}({+243}Es)=1.487 {I20} is used to calculate the hindrance      
+#A factor. This r{-0} is the same value used for the 1.2-second {+247}Md  
+#A |a decay.                                                              
+#P 0.0+X        (1/2-)            0.25 S    4              8764     10    
++A alpha 8.66 0.17
++A alpha 8.783 0.83
+

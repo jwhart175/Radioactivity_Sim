@@ -1,0 +1,500 @@
+#116CD    116AG B- DECAY (237 S)        2009BA52,2005BA94         10NDS    201004
+#  116AG B- DECAY (237 S)        2009BA52,2005BA94         10NDS    201004
+#H TYP=FUL$AUT=Jean Blachot$CIT=NDS 111, 717 (2010)$CUT=1-Dec-2009$       
+#  2009Ba52: {+116}Ag activity was produced by the 40-MeV protons         
+#  bombarding a {+238}UC{-x} target installed at the On-Line Test         
+#  Facility (OLTF) at the Holifield Radioactive Ion Beam Facility         
+#  (HRIBF). Fission products was separated and deposited on a moving      
+#  tape collector (MTC).                                                  
+#  Measured E|g, I|g, |g|g, ce, ce|g coin with the (CARDS) detector       
+#  array, composed of the three segmented-clover Ge detectors, plastic    
+#  scintillators and a high-resolution Si conversion-electron             
+#  spectrometer (BESCA).                                                  
+#  The |g|g and ce-|g coincidences were used to construct the decay       
+#  scheme in {+116}Cd from the |b decay of {+116}Ag g.s.                  
+#  All data are from 2009Ba52, unless otherwise stated                    
+#  The older data with T1/2=2.68 m were from 1979BRZT, 1974BJ01, 1973FOZF 
+#B $No evidence of |b feeding to 1219, 1916, 1922 and 2572 levels         
+#B LOGFT$Deduced by the compilers. The values are nearly the same as in   
+#B Table IV of 2009Ba52, the authors state that log {Ift} values should   
+#B be considered as lower limits, especially, for weak |b feedings, due   
+#B to "pandemonium" effect.                                               
+#G RI$From singles |g and |g|g coin spectra, unless otherwise stated      
+#G RI(A)$From |g singles spectra.                                         
+#G RI(B)$From |g|g coincidence spectra.                                   
+#G E(Z)$1531.6 listed in Table VI of 2009Ba52 is a misprint               
+#L E$From least-squares fit to E|g's                                      
+#L J$From Tables VI, VII and VIII of 2009Ba52.                            
+#L E(X)$No evidence of |b feeding to this level                           
+#L E(E)$3975.1 listed in Table VI of 2009Ba52 is a misprint               
+#P 0           (0-)              237 S     5              6176      4     
+AG116 CD116 beta- 6.176 237.0 1
++G gamma 0.7517999999999999 2.86E-4
++G gamma 0.7933 1.56E-4
++G gamma 1.1969 5.070000000000001E-4
++G gamma 1.2515 3.12E-4
++G gamma 1.5078 4.81E-4
++G gamma 1.5187 1.17E-4
++G gamma 1.5211 1.95E-4
++G gamma 1.5905 3.64E-4
++G gamma 1.6621 2.21E-4
++G gamma 1.6974 5.200000000000001E-4
++G gamma 1.7522 6.5E-4
++G gamma 1.765 6.5E-4
++G gamma 1.8131 7.8E-4
++G gamma 1.8580999999999999 3.9E-4
++G gamma 1.8992 3.9E-4
++G gamma 1.9037 5.200000000000001E-4
++G gamma 2.0309 3.7700000000000006E-4
++G gamma 2.1035 1.82E-4
++G gamma 2.1267 5.200000000000001E-4
++G gamma 2.1712 5.200000000000001E-4
++G gamma 2.378 5.33E-4
++G gamma 2.4249 9.1E-5
++G gamma 2.4486999999999997 4.42E-4
++G gamma 2.6732 2.6000000000000003E-4
++G gamma 2.8116999999999996 4.42E-4
++G gamma 2.9394 7.8E-5
++G gamma 2.943 6.500000000000001E-5
++G gamma 3.0479000000000003 2.34E-4
++G gamma 3.3595 3.5099999999999997E-4
++G gamma 3.3719 1.3000000000000002E-4
++G gamma 3.6638 1.17E-4
++G gamma 3.7033 1.17E-4
++G gamma 3.8171999999999997 3.9E-5
++G gamma 3.8508 3.64E-4
++G gamma 4.151 9.1E-5
++G gamma 4.1784 1.0400000000000001E-4
++G gamma 4.259600000000001 6.500000000000001E-5
++G gamma 4.486800000000001 7.8E-5
++G gamma 4.6334 7.8E-5
++G gamma 0.5135 0.48100000000000004
++G gamma 0.6996 0.0767
++G gamma 1.2130999999999998 0.0403
++G gamma 0.706 0.0351
++G gamma 0.7691 0.011049999999999999
++G gamma 0.867 0.008969999999999999
++G gamma 0.42310000000000003 6.5E-4
++G gamma 1.1291 0.013000000000000001
++G gamma 1.6425999999999998 0.00884
++G gamma 0.6965 0.00117
++G gamma 0.7029 0.0078000000000000005
++G gamma 1.4025 0.008969999999999999
++G gamma 0.7086 0.0052
++G gamma 1.4082000000000001 0.019500000000000003
++G gamma 1.4150999999999998 0.0036400000000000004
++G gamma 0.6687000000000001 0.0041600000000000005
++G gamma 1.4379000000000002 0.009750000000000002
++G gamma 1.9514 0.00169
++G gamma 1.6049 0.00858
++G gamma 1.7815 0.00871
++G gamma 0.4705 5.200000000000001E-4
++G gamma 1.179 0.0018200000000000002
++G gamma 1.8785999999999998 0.00871
++G gamma 1.1527 0.0027300000000000002
++G gamma 1.2224000000000002 0.00169
++G gamma 2.4353000000000002 0.0013
++G gamma 0.5562 1.95E-4
++G gamma 1.098 3.9E-4
++G gamma 1.9653 0.00481
++G gamma 2.4781999999999997 0.0689
++G gamma 0.567 7.8E-4
++G gamma 0.5966 7.8E-4
++G gamma 0.6027 0.0010400000000000001
++G gamma 1.3052000000000001 0.033800000000000004
++G gamma 2.0048 0.011700000000000002
++G gamma 2.059 9.100000000000001E-4
++G gamma 2.14 0.004940000000000001
++G gamma 0.7985 0.00143
++G gamma 1.501 7.8E-4
++G gamma 2.2068000000000003 0.00624
++G gamma 2.2466 0.00767
++G gamma 2.7604 0.0054600000000000004
++G gamma 1.5644 3.9E-4
++G gamma 2.2706999999999997 0.00507
++G gamma 2.2891999999999997 0.013000000000000001
++G gamma 2.3156999999999996 0.0039000000000000003
++G gamma 2.829 0.009099999999999999
++G gamma 2.3306 0.008969999999999999
++G gamma 2.8438000000000003 0.006500000000000001
++G gamma 1.6325999999999998 0.0013
++G gamma 0.941 6.5E-4
++G gamma 1.6493 0.00169
++G gamma 2.3491 0.00689
++G gamma 1.0566 3.9E-4
++G gamma 2.4646999999999997 2.6000000000000003E-4
++G gamma 2.4879000000000002 0.00637
++G gamma 3.0014000000000003 0.006500000000000001
++G gamma 1.0936 0.00156
++G gamma 1.8023 0.00572
++G gamma 2.5013 0.0078000000000000005
++G gamma 3.0689 0.0024700000000000004
++G gamma 1.1809 6.5E-4
++G gamma 2.5892 0.0013
++G gamma 0.6409 0.015600000000000001
++G gamma 2.6241 0.0024700000000000004
++G gamma 1.2543 6.5E-4
++G gamma 1.26 9.100000000000001E-4
++G gamma 1.5334 0.0018200000000000002
++G gamma 2.662 0.024699999999999996
++G gamma 0.7349 0.0010400000000000001
++G gamma 0.9178 7.8E-4
++G gamma 1.2915 0.00338
++G gamma 1.297 0.0052
++G gamma 1.5704 0.0024700000000000004
++G gamma 2.7032 0.044199999999999996
++G gamma 1.5748 0.00143
++G gamma 1.8371 0.0019500000000000001
++G gamma 1.2671 0.00143
++G gamma 3.2506 6.5E-4
++G gamma 0.5552 3.9E-4
++G gamma 2.0628 0.0013
++G gamma 2.7737 7.8E-4
++G gamma 0.829 0.0024700000000000004
++G gamma 3.3399 6.5E-4
++G gamma 0.5456 9.100000000000001E-4
++G gamma 0.7762 7.8E-4
++G gamma 0.8304 0.00117
++G gamma 0.8702000000000001 0.006500000000000001
++G gamma 0.9133 0.0018200000000000002
++G gamma 1.0539 0.0010400000000000001
++G gamma 1.7057 0.00169
++G gamma 2.1353 0.013000000000000001
++G gamma 2.8350999999999997 0.018199999999999997
++G gamma 3.3488 0.00156
++G gamma 1.4622 0.0039000000000000003
++G gamma 2.1651 0.0010400000000000001
++G gamma 2.8649 0.0024700000000000004
++G gamma 0.8611 2.6000000000000003E-4
++G gamma 0.6501 0.00234
++G gamma 1.7915999999999999 0.00156
++G gamma 2.9211 0.0066300000000000005
++G gamma 0.9176 6.5E-4
++G gamma 1.4843 6.5E-4
++G gamma 1.5135999999999998 7.8E-4
++G gamma 2.091 0.0053300000000000005
++G gamma 0.6102000000000001 0.00624
++G gamma 0.7126 0.006500000000000001
++G gamma 0.9951 0.00884
++G gamma 1.0813 0.0052
++G gamma 1.1782000000000001 2.6000000000000003E-4
++G gamma 1.5508 0.00377
++G gamma 2.9594 0.00637
++G gamma 3.5118 3.9E-4
++G gamma 1.0096 0.0010400000000000001
++G gamma 3.0145999999999997 0.0013
++G gamma 3.5315 3.9E-4
++G gamma 0.7826000000000001 0.0032500000000000003
++G gamma 3.0294 2.6000000000000003E-4
++G gamma 1.1688 6.5E-4
++G gamma 3.082 5.200000000000001E-4
++G gamma 3.6013 0.00156
++G gamma 0.9546 0.00117
++G gamma 1.7586 0.0018200000000000002
++G gamma 3.6818 2.6000000000000003E-4
++G gamma 3.1949 0.0018200000000000002
++G gamma 3.7081999999999997 6.5E-4
++G gamma 3.2188000000000003 0.00169
++G gamma 1.354 0.00169
++G gamma 1.824 5.200000000000001E-4
++G gamma 3.2337 0.00169
++G gamma 2.5456 0.00143
++G gamma 1.8727 0.0036400000000000004
++G gamma 1.2768 6.5E-4
++G gamma 3.8059000000000003 2.6000000000000003E-4
++G gamma 1.9176 0.00156
++G gamma 3.328 0.0010400000000000001
++G gamma 3.8506 9.100000000000001E-4
++G gamma 3.8778 2.6000000000000003E-4
++G gamma 1.4067 6.5E-4
++G gamma 3.943 3.9E-4
++G gamma 3.4711 0.0013
++G gamma 4.0096 5.200000000000001E-4
++G gamma 4.0229 6.5E-4
++G gamma 4.0578 2.6000000000000003E-4
++G gamma 2.8672 0.0024700000000000004
++G gamma 2.8011 0.00234
++G gamma 4.0833 0.00117
++G gamma 3.6223 0.0013
++G gamma 3.6635999999999997 2.6000000000000003E-4
++G gamma 4.2314 2.6000000000000003E-4
++G gamma 3.7334 0.00143
++G gamma 4.290100000000001 2.6000000000000003E-4
++G gamma 3.8649 7.8E-4
++G gamma 4.4281999999999995 6.5E-4
++G gamma 3.9185 5.200000000000001E-4
++G gamma 3.9359 2.6000000000000003E-4
++G gamma 3.9624 9.100000000000001E-4
++G gamma 4.4758000000000004 5.200000000000001E-4
++G gamma 4.5391 2.6000000000000003E-4
++G gamma 2.6403000000000003 0.00169
++G gamma 1.7298 0.00286
++G gamma 4.5907 6.5E-4
++G gamma 3.4018 0.00429
++G gamma 4.1011999999999995 0.0020800000000000003
++G gamma 4.118399999999999 2.6000000000000003E-4
++G gamma 3.4297 9.100000000000001E-4
++G gamma 4.129 3.9E-4
++G gamma 4.1338 2.6000000000000003E-4
++G gamma 3.4398 0.00117
++G gamma 3.4762 0.0024700000000000004
++G gamma 4.688899999999999 1.3000000000000002E-4
++G gamma 3.4845 9.100000000000001E-4
++G gamma 3.5421 0.00117
++G gamma 4.259399999999999 1.56E-4
++G gamma 4.2736 2.34E-4
++G gamma 4.315300000000001 5.200000000000001E-4
++G gamma 4.403 1.43E-4
++G gamma 4.411 3.12E-4
++G gamma 4.44 3.9E-4
++G gamma 4.4553 6.5E-4
+
+#116CD    116AG B- DECAY (20 S)         2009BA52,2005BA94         10NDS    201004
+#  116AG B- DECAY (20 S)         2009BA52,2005BA94         10NDS    201004
+#H TYP=FUL$AUT=Jean Blachot$CIT=NDS 111, 717 (2010)$CUT=1-Dec-2009$       
+#  2009Ba52: {+116}Ag activity was produced by the 40-MeV protons         
+#  bombarding a {+238}UC{-x} target installed at the On-Line Test         
+#  Facility (OLTF) at the Holifield Radioactive Ion Beam Facility         
+#  (HRIBF). Fission products was separated and deposited on a moving      
+#  tape collector (MTC).                                                  
+#  Measured E|g, I|g, |g|g, conversion electron-|g with the (CARDS)       
+#  detector array, composed of the three segmented-clover Ge detectors,   
+#  plastic scintillators and a high-resolution Si conversion-electron     
+#  spectrometer (BESCA).                                                  
+#  Transitions arising from the respective short-lived isomers were       
+#  separated by their half-lives.                                         
+#  The |g-|g and conversion electron-|g coincidences were used to         
+#  construct the decay scheme in {+116}Cd after the |b decay of  the      
+#  isomer 20 s {+116}Ag.                                                  
+#B LOGFT$The values are nearly the same as in Table IV of 2009Ba52, the   
+#B authors state that log {Ift} values should be considered as lower      
+#B limits, especially, for weak |b feedings, due to "pandemonium" effect. 
+#G $Unplaced |g rays are from the decay of 20-s or the 9.3-s isomer       
+#G RI$From singles |g and |g|g coin spectra, unless otherwise stated      
+#G RI(A)$From |g singles spectra.                                         
+#G RI(B)$From |g|g coincidence spectra.                                   
+#G RI(D)$From {+116}Ag{-gs} decay data.                                   
+#L E$From least-squares fit to E|g's                                      
+#L J$From Table IV of 2009Ba52.                                           
+#P 47.9      1 (3+)              20 S      1              6176      4     
+AG116 CD116 beta- 6.176 20.0 0.93
++G gamma 0.15280000000000002 0.0016559999999999997
++G gamma 0.1987 0.005795999999999999
++G gamma 0.2042 0.0038640000000000002
++G gamma 0.31510000000000005 0.0030359999999999996
++G gamma 0.3743 0.001104
++G gamma 0.5521 8.279999999999999E-4
++G gamma 0.689 0.00138
++G gamma 0.7387 5.52E-4
++G gamma 0.754 0.0019320000000000001
++G gamma 0.7847999999999999 0.0019320000000000001
++G gamma 0.8623999999999999 0.00552
++G gamma 0.8739 0.0019320000000000001
++G gamma 0.8965 0.0038640000000000002
++G gamma 0.93 3.864E-4
++G gamma 0.9536 8.279999999999999E-4
++G gamma 0.9773 8.279999999999999E-4
++G gamma 1.1805999999999999 8.279999999999999E-4
++G gamma 1.2695 3.864E-4
++G gamma 1.2505 8.279999999999999E-4
++G gamma 1.4222000000000001 5.52E-4
++G gamma 1.5172 0.003588
++G gamma 1.5495 8.279999999999999E-4
++G gamma 1.6309 2.208E-4
++G gamma 1.6767999999999998 0.001104
++G gamma 1.8582 0.001104
++G gamma 1.918 5.52E-4
++G gamma 1.9224 8.279999999999999E-4
++G gamma 2.0128 0.001104
++G gamma 0.5135 0.9935999999999998
++G gamma 0.6996 0.23459999999999998
++G gamma 1.2130999999999998 0.11591999999999998
++G gamma 0.706 0.27599999999999997
++G gamma 0.42310000000000003 3.312E-4
++G gamma 1.1291 0.006071999999999999
++G gamma 1.6425999999999998 0.00414
++G gamma 0.6502 0.008556
++G gamma 0.6567000000000001 0.017939999999999998
++G gamma 1.3564 0.0030359999999999996
++G gamma 0.6965 0.012696
++G gamma 0.7029 0.0276
++G gamma 1.4025 0.038639999999999994
++G gamma 0.7086 0.02208
++G gamma 1.4082000000000001 0.07727999999999999
++G gamma 1.4379000000000002 0.02208
++G gamma 1.9514 0.003588
++G gamma 1.0835 0.00414
++G gamma 0.4183 8.279999999999999E-4
++G gamma 0.4239 0.0038640000000000002
++G gamma 1.1207 0.009384
++G gamma 1.1578 0.02208
++G gamma 1.1641 0.004416
++G gamma 1.8639000000000001 0.009935999999999999
++G gamma 0.4705 0.001104
++G gamma 1.179 0.004967999999999999
++G gamma 1.8785999999999998 0.014352
++G gamma 1.2742 0.004967999999999999
++G gamma 0.567 0.004416
++G gamma 0.5966 0.00414
++G gamma 0.6027 0.00552
++G gamma 2.2706999999999997 0.01104
++G gamma 0.901 0.01242
++G gamma 1.603 0.0414
++G gamma 1.6093 0.019319999999999997
++G gamma 2.3085999999999998 0.0414
++G gamma 2.3306 0.035879999999999995
++G gamma 2.8438000000000003 0.019319999999999997
++G gamma 1.696 0.006348
++G gamma 1.7022 0.006348
++G gamma 1.9116 0.019319999999999997
++G gamma 2.0084 0.0276
++G gamma 2.0151 0.010764000000000001
++G gamma 1.3784 0.019319999999999997
++G gamma 2.075 0.03036
++G gamma 2.0815 0.12144
++G gamma 2.7808 0.0552
++G gamma 1.3815 0.035879999999999995
++G gamma 2.0846999999999998 0.05795999999999999
++G gamma 2.091 0.035879999999999995
++G gamma 2.1354 0.038639999999999994
++G gamma 2.8414 0.18767999999999996
+
+#116CD    116AG B- DECAY (9.3 S)                                  10NDS    201004
+#  116AG B- DECAY (9.3 S)                                  10NDS    201004
+#H TYP=FUL$AUT=Jean Blachot$CIT=NDS 111, 717 (2010)$CUT=1-Dec-2009$       
+#  2009Ba52: {+116}Ag activity was produced by the 40-MeV protons         
+#  bombarding a {+238}UC{-x} target installed at the On-Line Test         
+#  Facility (OLTF) at the Holifield Radioactive Ion Beam Facility         
+#  (HRIBF). Fission products was separated and deposited on a moving      
+#  tape collector (MTC).                                                  
+#  First measurements : 1973FOZF,1974BJ01,1975BRYN                        
+#  Measured E|g, I|g, |g|g, conversion electron-|g with the (CARDS)       
+#  detector array, composed of the three segmented-clover Ge detectors,   
+#  plastic scintillators and a high-resolution Si conversion-electron     
+#  spectrometer (BESCA).                                                  
+#  Transitions arising from the respective short-lived isomers were       
+#  separated by their half-lives.                                         
+#  The |g-|g and conversion electron-|g coincidences were used to         
+#  construct the decay scheme in {+116}Cd after the |b decay of 9.8-s     
+#  isomer of {+116}Ag.                                                    
+#B LOGFT$The values are nearly the same as in Table IV of 2009Ba52,       
+#B unless otherwise stated. 2009Ba52 state that log {Ift} values should   
+#B be considered as lower limits, especially, for weak |b feedings, due   
+#B to "pandemonium" effect.                                               
+#G $Unplaced |g rays are from the decay of 20-s or the 9.8-s isomer       
+#G RI$From singles |g and |g|g coin spectra, unless otherwise stated      
+#G RI(A)$From singles |g spectra.                                         
+#G RI(B)$From |g|g coin spectra.                                          
+#L E$From least-squares fit to E|g's                                      
+#L J$From Table IV (2009Ba52).                                            
+#P 128.8     1 (6-)              9.3 S     1              6176      4     
+AG116 CD116 beta- 6.176 9.3 0.92
++G gamma 0.15280000000000002 0.00264
++G gamma 0.1987 0.00924
++G gamma 0.2042 0.006160000000000001
++G gamma 0.31510000000000005 0.0048400000000000006
++G gamma 0.3743 0.0017600000000000003
++G gamma 0.5521 0.00132
++G gamma 0.689 0.0022
++G gamma 0.7387 8.800000000000001E-4
++G gamma 0.754 0.0030800000000000007
++G gamma 0.7847999999999999 0.0030800000000000007
++G gamma 0.8623999999999999 0.0088
++G gamma 0.8739 0.0030800000000000007
++G gamma 0.8965 0.006160000000000001
++G gamma 0.93 6.160000000000001E-4
++G gamma 0.9536 0.00132
++G gamma 0.9773 0.00132
++G gamma 1.1805999999999999 0.00132
++G gamma 1.2695 6.160000000000001E-4
++G gamma 1.2505 0.00132
++G gamma 1.4222000000000001 8.800000000000001E-4
++G gamma 1.5172 0.00572
++G gamma 1.5495 0.00132
++G gamma 1.6309 3.5200000000000005E-4
++G gamma 1.6767999999999998 0.0017600000000000003
++G gamma 1.8582 0.0017600000000000003
++G gamma 1.918 8.800000000000001E-4
++G gamma 1.9224 0.00132
++G gamma 2.0128 0.0017600000000000003
++G gamma 0.5135 1.056
++G gamma 0.6996 0.0616
++G gamma 1.2130999999999998 0.0308
++G gamma 0.706 0.9680000000000001
++G gamma 0.42310000000000003 8.800000000000001E-5
++G gamma 1.1291 0.0022
++G gamma 1.6425999999999998 0.00132
++G gamma 0.6502 0.03036
++G gamma 0.6567000000000001 0.066
++G gamma 1.3564 0.010120000000000002
++G gamma 0.6965 0.0044
++G gamma 0.7029 0.01056
++G gamma 1.4025 0.014520000000000002
++G gamma 0.7086 0.0022
++G gamma 1.4082000000000001 0.007040000000000001
++G gamma 0.8071 0.28600000000000003
++G gamma 0.3995 0.00264
++G gamma 0.8226 0.00264
++G gamma 1.5288 0.010120000000000002
++G gamma 0.3276 0.0035200000000000006
++G gamma 0.37939999999999996 0.0264
++G gamma 1.0297 0.5720000000000001
++G gamma 1.0835 0.0088
++G gamma 0.4183 0.00264
++G gamma 0.4239 0.014080000000000002
++G gamma 1.1207 0.03388
++G gamma 1.2742 0.0017600000000000003
++G gamma 0.2549 0.1012
++G gamma 0.634 0.03432
++G gamma 1.2846 0.0088
++G gamma 0.5383 0.0015400000000000004
++G gamma 0.3512 0.00396
++G gamma 0.442 0.010120000000000002
++G gamma 0.6646 0.05720000000000001
++G gamma 0.44380000000000003 0.0792
++G gamma 0.6664 0.1672
++G gamma 0.45 0.0176
++G gamma 0.5798 0.0132
++G gamma 1.6461 0.01056
++G gamma 0.1866 0.00528
++G gamma 0.37360000000000004 0.00396
++G gamma 0.5376000000000001 0.01276
++G gamma 0.6286 0.029480000000000003
++G gamma 0.093 0.00132
++G gamma 0.25930000000000003 0.0088
++G gamma 0.26539999999999997 0.08800000000000001
++G gamma 0.4541 0.023760000000000003
++G gamma 0.6183 0.00396
++G gamma 0.7097 0.11440000000000002
++G gamma 0.9321 0.0352
++G gamma 0.1356 0.0022
++G gamma 0.1477 5.28E-4
++G gamma 0.3202 0.022000000000000002
++G gamma 0.6735 0.0264
++G gamma 0.7647 0.011880000000000002
++G gamma 0.987 0.006160000000000001
++G gamma 0.1293 0.007040000000000001
++G gamma 0.21059999999999998 0.006160000000000001
++G gamma 0.3946 0.024640000000000006
++G gamma 0.5839 0.037840000000000006
++G gamma 0.8391000000000001 0.014080000000000002
++G gamma 1.0611 0.00572
++G gamma 0.8811 0.00528
++G gamma 1.1358 0.00264
++G gamma 1.186 0.0044
++G gamma 0.5225 0.027280000000000002
++G gamma 0.9646 0.022000000000000002
++G gamma 0.2296 0.00132
++G gamma 0.6671 0.0088
++G gamma 0.669 0.0132
++G gamma 1.1111 0.0198
++G gamma 1.3333 0.0048400000000000006
++G gamma 1.3453 0.0030800000000000007
++G gamma 1.1242 0.0048400000000000006
++G gamma 0.5591 0.00264
++G gamma 1.2370999999999999 0.0022
++G gamma 1.4595 0.0035200000000000006
++G gamma 1.0457 0.01276
++G gamma 1.606 0.00264
++G gamma 1.4159000000000002 0.007040000000000001
+

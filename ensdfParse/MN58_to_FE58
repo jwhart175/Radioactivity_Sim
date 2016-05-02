@@ -1,0 +1,81 @@
+# 58FE    58MN B- DECAY (3.0 S)         1993SCZS,1988BO06,1969WA1010NDS    201004
+#  58MN B- DECAY (3.0 S)         1993SCZS,1988BO06,1969WA1010NDS    201004
+#H TYP=FUL$AUT=CAROLINE D. NESARAJA, SCOTT D. GERAEDTS AND BALRAJ SINGH$  
+#H CIT=NDS 111, 897 (2010)$CUT=12-Jan-2010$                               
+#  1993ScZS: E=11.6 MEV/nucleon, W(86KR,X), and mass separation. Measured 
+#  EG, IG, ce spectra, T, GG and BG coincidences                          
+#  1988Bo06: E=11.5 MEV/nucleon, W(76GE,X), and mass separation. Measured 
+#  EG, IG, BG, GG, T                                                      
+#  1969Wa10: EN=14.8 MEV, 58FE(N,P). Measured EG, IG, B spectra, BG, GG, T
+#  The decay scheme follows 1988Bo06 as modified by 1993ScZS who propose a
+#  3.0 S 1 GS for 58MN and a 69 S 2 metastable level at 71.78 5.          
+#  2007Li72: calculated neutrino energy loss by |e decay                  
+#B IB        From BG/B(total) (1988Bo06)                                  
+#G E$ From level-energy differences                                       
+#G M,MR      From 'adopted gammas'                                        
+#G RI        G/100B decays (1988Bo06)                                     
+#L E,J       From 'adopted levels'. Energies are rounded values           
+#P 0.0          (1+)             3.0 S     1              6250      30    
+MN58 FE58 beta- 6.25 3.0 1.0
++B beta- 2.867 0.97
++B beta- 1.468 0.005
++G gamma 2.0656 0.005
++B beta- 1.292 0.012
++G gamma 2.4331 0.012
++B beta- 0.686 0.012
++G gamma 1.4465 0.012
+
+# 58FE    58MN B- DECAY (65.4 S)        1974TI01                  10NDS    201004
+#  58MN B- DECAY (65.4 S)        1974TI01                  10NDS    201004
+#H TYP=FUL$AUT=CAROLINE D. NESARAJA, SCOTT D. GERAEDTS AND BALRAJ SINGH$  
+#H CIT=NDS 111, 897 (2010)$CUT=12-Jan-2010$                               
+#  1974Ti01: EN AP 14 MEV, 58FE(N,P). Measured EG, RI                     
+#  1971Dy01: EN AP 14 MEV, 58FE(N,P). Measured EB, IB, EG, RI             
+#  1969Wa10: EN=14.8 MEV, 58FE(N,P). Measured EG, RI, B spectra, BG, GG,  
+#  coincidences, T1/2                                                     
+#  1993ScZS (also 1992ScZS): E=11.6 MEV/nucleon, W(86KR,X), and mass      
+#  separation. Measured EG,  RI, conversion electron spectra, T1/2,       
+#  GG and BG coincidences                                                 
+#  1969DYZZ IS SUPERSEDED BY 1971DY01                                     
+#  The level scheme is from 1974Ti01. The 65.4-S activity is assigned to  
+#  the 71.78 level as determined by 1993ScZS.                             
+#B IB        From RI balance at each level                                
+#G E         From 1974Ti01                                                
+#G M,MR      From 'adopted gammas'                                        
+#G RI$ Values are from 1974Ti01, divided by 100 by the evaluators.        
+#G E(A),RI(A)$ G NOT OBSERVED IN 1974TI01, AN UPPER LIMIT OF INTENSITY    
+#G IS GIVEN                                                               
+#G E(B)$ EXISTENCE OF THIS G IS UNCERTAIN                                 
+#L E         From a least-squares fit to EG data                          
+#L J         From 'adopted levels'                                        
+#P 71.78     5  4+               65.4 S    5              6250      30    
+MN58 FE58 beta- 6.25 65.4 1.0
++G gamma 0.86394 0.14784
++G gamma 1.67472 0.11616
++B beta- 1.89 0.038
++B beta- 1.862 0.76
++B beta- 1.636 0.08
++G gamma 0.46648 0.012672
++G gamma 0.52386 0.03696
++G gamma 0.92568 0.016808
++G gamma 1.78959 0.0286
++B beta- 1.503 0.00158
++B beta- 1.331 0.032400000000000005
++G gamma 1.15677 0.010471999999999999
++G gamma 2.42245 0.011175999999999998
++B beta- 1.142 0.0092
++G gamma 2.8185 0.008448
++G gamma 3.6298000000000004 7.040000000000001E-4
++B beta- 1.013 0.0425
++G gamma 1.76774 0.03168
++B beta- 0.925 0.0024
++B beta- 0.82 0.022400000000000003
++G gamma 1.7122 7.040000000000001E-4
++G gamma 3.5019 1.7600000000000002E-4
++B beta- 0.736 0.0092
++G gamma 3.6816999999999998 7.040000000000001E-4
++B beta- 0.719 0.0019
++B beta- 0.692 0.002
++G gamma 2.5139 5.28E-4
++B beta- 0.581 0.00106
+

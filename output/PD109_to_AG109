@@ -1,0 +1,60 @@
+#109AG    109PD B- DECAY                                          06NDS    200602
+#  109PD B- DECAY                                          06NDS    200602
+#H TYP=FUL$AUT=JEAN BLACHOT$CIT=NDS 107, 355 (2006)$CUT=1-Aug-2005$       
+#  The adopted {+109}Pd decay scheme is basically that proposed by        
+#  1969Sc12, 1968Be22, and 1968Gr02 with modifications proposed by        
+#  1975El10. It has been slightly modified by 1978Pr08. The 114, 402,     
+#  500, 564, 609, 790 gammas have not been seen by 1978Pr08, 1983Ch42.    
+#  They were probably contaminants in 1975El10. They were not present in  
+#  the good spectra of 1968Be22, 1969Sc12 so the 697 and 811 levels have  
+#  been deleted. 1978Pr08 suggest a level at { 912.1 keV} deexcited by a  
+#  496|g.                                                                 
+#  The total average radiation energy released by {+109}Pd is 1115 keV    
+#  {i5} (calculated by evaluators using the computer program RADLST). This
+#  value agrees well with Q(|b{+-})={ 1116.1 keV {i20}} (2003Au03) and    
+#  shows the completeness of decay scheme.                                
+#  Other decay measurements: 1953Av25, 1953Nu04, 1954Mo38, 1957Ma16,      
+#  1957Wa05, 1959St28, 1962Br15, 1962Ec02, 1968BaZY, 1983Ch42             
+#G E,RI$The values of E|g and I|g are from 1969Sc12. The coincidence      
+#G relations are from 1968Be22, 1968Gr02, 1975El10, and 1978Pr08.         
+#G E(A)$E|g and I|g from 1975El10.                                        
+#G MR(B)$From |g|g(|q) of 1977Bo04. Only value consistent with |a(K)exp   
+#G from 1970Ba37 and adopted value of |d(311.4|g)={ 0.20 {i1}}.           
+#G MR(C)$From Coulomb excitation (1970Ro14)                               
+#G M$Except as noted, the |g multipolarity is deduced from                
+#G |a(K)exp measured by 1970Ba37.                                         
+#P 0.0         5/2+              13.7012 H 24             1115.9    20    
+PD109 AG109 beta- 1.1159000000000001 49324.32 0.000244
++B beta- 1.028 0.9990000000000001
++G gamma 0.08804000000000001 148.0
++G gamma 0.044700000000000004 0.045
++G gamma 0.31139999999999995 1.31
++G gamma 0.1039 0.038
++G gamma 0.4152 0.44
++G gamma 0.2863 0.0058
++G gamma 0.3906 0.038
++G gamma 0.7019 0.127
++G gamma 0.3956 0.006999999999999999
++G gamma 0.707 0.065
++G gamma 0.30910000000000004 0.2
++G gamma 0.413 0.27
++G gamma 0.6363 0.409
++G gamma 0.7243999999999999 0.0077
++G gamma 0.4239 0.039
++G gamma 0.6025 0.327
++G gamma 0.6473 1.0
++G gamma 0.4476 0.034
++G gamma 0.5514 0.025
++G gamma 0.8625 0.0054
++G gamma 0.13419999999999999 0.054000000000000006
++G gamma 0.1451 0.046
++G gamma 0.45430000000000004 0.022000000000000002
++G gamma 0.5581 0.1
++G gamma 0.7367 0.069
++G gamma 0.7814 0.46
++G gamma 0.7783 0.062
++G gamma 0.8229 0.0077
++G gamma 0.49689999999999995 0.0031
++G gamma 0.9662000000000001 0.0037
++G gamma 1.01 0.0025
+

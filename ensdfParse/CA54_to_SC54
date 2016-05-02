@@ -1,0 +1,24 @@
+# 54SC    54CA B- DECAY:107 MS          2008MA01,2010CR02         14NDS    201408
+#  54CA B- DECAY:107 MS          2008MA01,2010CR02         14NDS    201408
+#H TYP=FUL$AUT=YANG DONG, HUO JUNDE$CIT=NDS 121, 1 (2014)$CUT=20-Jun-2014$
+#  2008Ma01: The {+54}Ca isotope formed by bombarding a {+9}Be target     
+#  by E=140 MeV/nucleon {+76}Ge beam, A 1900 fragment separator.          
+#  TOF technique. Measured |b particles using Beta Counting System of     
+#  three Si PIN detectors, a double-sided silicon strip detector          
+#  and six single sided silicon strip detectors. Detected |g rays using   
+#  16 Ge detectors of the Segmented Germanium array. Measured half-life of
+#  {+54}Ca by fitting the decay curves to a function which included       
+#  decay of the parent, growth and decay of daughter and a constant       
+#  background. A 247-keV gamma ray was seen in correlation with |b rays   
+#  and assigned to the decay of {+54}Ca.                                  
+#  2010CR02: Same authors as 2008Ma01, SOURCE FROM 9BE(76GE,XG) E=130     
+#  MEV/NUCLEON, TOF TECHNIQUE, measured |b particles using NSCL Beta      
+#  Counting System of three Si PIN detectors, a double-sided silicon      
+#  strip detector and six single sided silicon strip detectors. Detected  
+#  prompt and delayed |g rays in coin with fragments using 16 Ge detectors
+#  of the Segmented Germanium array.  Measured half-life of {+54}Ca by    
+#  fitting the decay curves of ({+54}Ca)|b(247|g) correlated events.      
+#  Decay scheme for 54CA is from 2008Ma01.                                
+#P 0.0          0+               107 MS    14              8820     SY    
++G gamma 0.24719999999999998 1.0
+

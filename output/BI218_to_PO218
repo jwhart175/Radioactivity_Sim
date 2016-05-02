@@ -1,0 +1,34 @@
+#218PO    218BI B- DECAY (33 S)         2004DE16                  06NDS    200602
+#  218BI B- DECAY (33 S)         2004DE16                  06NDS    200602
+#H TYP=FUL$AUT=ASHOK K. JAIN, BALRAJ SINGH$CIT=NDS 107, 1027 (2006)$      
+#H CUT=25-Jan-2006$                                                       
+#  2004DE16 (ALSO 2004FR14): 218BI PRODUCED IN SPALLATION REACTION WITH A 
+#  1.4-GEV PROTON BEAM ON A URANIUM CARBIDE TARGET AT ^ISOLDE FACILITY.   
+#  MEASURED EG, IG, GG, BGG COIN, T1/2 OF 218BI NUCLIDE                   
+#  OTHER: 1998PF02: 218BI NUCLIDE IDENTIFIED IN 9BE(238U,X)               
+#  E=1 GEV/NUCLEON.                                                       
+#B IB,LOGFT$ DEDUCED BY THE EVALUATORS FROM G-RAY INTENSITY BALANCE AT    
+#B EACH LEVEL. VALUES ARE CONSIDERED AS UPPER LIMITS SINCE THERE IS A     
+#B LARGE GAP BETWEEN Q VALUE AND THE LAST POPULATED LEVEL AT 2287. ALSO   
+#B THE UNCERTAINTIES ON G-RAY INTENSITIES ARE QUITE LARGE. VALUES GIVEN   
+#B BY 2004DE16 ARE IN GENERAL AGREEMENT WITH THOSE DEDUCED HERE.          
+#G M$ [^D,E2] REFERS TO ASSUMED M1,E1 OR E2 MULTIPOLARITY                 
+#G E(X)$ ORDERING OF THE CASCADE IS BASED ON SYSTEMATICS IN THIS          
+#G MASS REGION                                                            
+#L E$ FROM LEAST-SQUARES FIT TO EG'S                                      
+#L J$ FROM 'ADOPTED LEVELS'                                               
+#P 0                             33 S      1              4980      SY    
+BI218 PO218 beta- 4.98 33.0 1.0
++G gamma 0.5097 1.34
++G gamma 0.4255 0.95
++G gamma 0.3857 1.0
++G gamma 0.263 0.59
++G gamma 0.1745 0.002
++G gamma 0.437 0.04
++G gamma 0.5378 0.12
++G gamma 0.2871 0.002
++G gamma 0.4183 0.06
++G gamma 0.1766 0.001
++G gamma 0.4635 0.06
++G gamma 0.7029 0.07
+

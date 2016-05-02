@@ -1,0 +1,139 @@
+#204PB    204BI EC DECAY                1970CRZY,1977KAXO,1984DZ0510NDS    201002
+#  204BI EC DECAY                1970CRZY,1977KAXO,1984DZ0510NDS    201002
+#H TYP=FUL$AUT=C.J. CHIARA and F.G. KONDEV$CIT=NDS 111,141 (2010)$        
+#H CUT=1-Oct-2009$                                                        
+#  1970CrZY: 204BI source produced via 206PB(P,3N); Pb(^NO{-3}){-2} target
+#  enriched to 97.2% 206PB; E(P)=30 MeV; G singles with Ge(Li), GG-coin   
+#  with Ge(Li)-NaI(Tl) and Ge(Li)-Ge(Li); Ge(Li)'s had 2.0% and 2.5%      
+#  efficiency and FWHM=3.0 and 2.4 keV at 1.33 MeV, overall               
+#  resolution AP 4.0 keV at 1.33 MeV due to a slight gain drift; measured 
+#  EG, IG, ICE(K).                                                        
+#  1984Dz05: 204PO produced by irradiating thorium target with 660-MeV    
+#  protons, chemically separating Po from Th, and separating by mass;     
+#  204BI decay spectra measured 10-20 h after 204PO preparation; Ge(Li)   
+#  detector for measuring G's, FWHM=0.57 keV at 100 keV and 2.3 keV at    
+#  1.3 MeV; Si(Li) detector for measuring CE's, FWHM=2.1 to 2.5 keV;      
+#  toroidal BETA spectrometer for low-energy electrons; measured EG, IG,  
+#  ICE(K).                                                                
+#  1972Hn01: 204BI produced via 206PB(P,3N); target enriched to >99%      
+#  206PB; decays from 204BI distinguished from 203BI by comparing E(P)=30-
+#  and 40-MeV bombarding energies; Ge(Li) x-ray detector with FWHM=500 eV 
+#  at 100 keV for low-energy G's; Ge(Li) with FWHM=3 keV at 1.33 MeV for  
+#  higher energies; measured EG, IG, deduced EKC.                         
+#  1958St99: 204BI produced via 206PB(P,3N); target enriched to 88% 206PB;
+#  decays from 204BI distinguished from 203BI by comparing E(P)=30- to    
+#  60-MeV bombarding energies; permanent magnet BETA spectrometer,        
+#  double-focusing BETA spectrometer with FWHM=0.15 to 0.5% for           
+#  ECE, ICE(K) measurements.                                              
+#  Others: 1978So02, 1977VaYS, 1977VaYT.                                  
+#                                                                         
+#  The decay scheme is based mostly on the extensive GG-coin results of   
+#  1970CrZY and 1977KaXO, as adopted in 1994Sc24, with weak transitions   
+#  placed on the bases of energy fit and mult consistency. I(EC+B+) were  
+#  calculated from G+CE intensity balance. Evaluators expect that most    
+#  of the more intense unplaced G's feed either the GS or the isomeric    
+#  66.93-min state because such G's are not observed in GG coincidences.  
+#  The uncertainties in LOGFT's do not include the errors caused by       
+#  unplaced or unobserved transitions.                                    
+#  New levels proposed by evaluators: 1351.17, 1582.54, 1665.41, 1948.23, 
+#  2157.98, 2490.99, 2627.30, 2720.0, 2887.2, 4039.0, 4067.87,            
+#  4076.16, 4111.23, 4172.19, 4229.57, 4243.77, 4285.89 KEV. Some of these
+#  levels were observed in (N,N'G).                                       
+#  XK/RI(899)=0.8 3, XL/RI(899)=0.057 19 (1972Hn01).                      
+#  $-----------------                                                     
+#  $-----------------                                                     
+#E $No B+ found, |S(IB+)/TI(374)<5E-4 (1958St99).                         
+#E $According to intensity balances, several low-energy levels with       
+#E J LE 4 may have EC+B+ feeding, but the corresponding LOGFT values are  
+#E considerably lower than expected for such decays and have been rejected
+#E by the evaluators. This may indicate that not all G intensity to these 
+#E levels has been accounted for.                                         
+#E $Specifically, there is supposedly feeding to 1563 4+, 1582 and 1665   
+#E 2+, 1948 and 2490 3+, and 2887 2,3.                                    
+#G CC$ FROM BrIcc v2.2 (31-Mar-2008) 2008KiAA, "Frozen Orbitals" appr.    
+#G E$From 1958St99, 1970CrZY, 1972Hn01, 1977KaXO, and 1984Dz05.           
+#G RI$Most are from average of 1970CrZY and 1971Hn01 (see 1971Ma78) and   
+#G from 1984Dz05.                                                         
+#G E(a),RI(a)$From adopted gammas                                         
+#G M$Based on CE data of 1958St99, 1972Hn01, 1977VaYT, 1977VaYS, and      
+#G 1984Dz05. 1972Hn01 combine their IG values with the ICE(K) values given
+#G in 1958St99 to calculate EKC.                                          
+#G MR$Calculated by evaluators from EKC, unless otherwise specified       
+#G MR(b)$Calculated by evaluators from the % admixture ranges quoted in   
+#G 1984Dz05. These ranges are based on CE measurements                    
+#G and do not determine the sign of |d.                                   
+#G MR(N)$Based on G(THETA) in (N,N'G).                                    
+#G E(P)$Placement is favored by GG-coin.                                  
+#G E(B)$Seen only in CE spectra; EG from 1958St99                         
+#G E(F),RI(F)$Average of 1970CrZY, 1977KaXO                               
+#G E(K)$From 1977KaXO, as adopted in 1994Sc24. |DE|?0.1-0.2 keV [^H.      
+#G Griffin, priv. comm. (1979)].                                          
+#G M(H)$From CE data of 1972Hn01.                                         
+#G $EKC=ICE(K)/RI calculated by evaluators from ICE(K) and RI values      
+#G quoted in 1984Dz05, except as noted.                                   
+#G In a few cases, conversion coefficients for different shells are given.
+#G The electron intensities were normalized by 1984Dz05 such that         
+#G EKC=0.00653 for 899G, the theoretical value for an (assumed) E2        
+#G transition.                                                            
+#G $The total average radiation energy calculated with the ^RADLST        
+#G program, excluding unplaced G's, is 4613 keV 183 that compares to      
+#G 4438 keV 22 from 2003Au03                                              
+#L E$From a least-squares fit to EG.                                      
+#L J$From adopted levels.                                                 
+#L T$From adopted levels, except as noted.                                
+#P 0.0          6+               11.22 H   10             4.44E+3    3    
++B beta+ 0.6216 2.0E-4
++B beta+ 0.581 6.1000000000000005E-5
++B beta+ 0.5458999999999999 7.7E-5
++B beta+ 0.5372 0.0015
++B beta+ 0.5345 3.0E-4
++B beta+ 0.5105 2.7000000000000002E-5
++B beta+ 0.4813 3.5000000000000004E-5
++B beta+ 0.4729 1.6E-4
++B beta+ 0.4602 1.5E-4
++B beta+ 0.44 7.3E-5
++B beta+ 0.4254 1.0E-5
++B beta+ 0.376 2.6E-5
++B beta+ 0.3449 3.6E-5
++B beta+ 0.335 3.1E-6
++B beta+ 0.32939999999999997 2.3E-6
++B beta+ 7.968E-4 0.0015199999999999999
++B beta+ 7.967E-4 0.0015199999999999999
++B beta+ 7.966E-4 0.0015199999999999999
++B beta+ 0.246 0.007965
++B beta+ 0.242 0.007964
++B beta+ 7.955999999999999E-4 0.00153
++B beta+ 0.196 0.007955
++B beta+ 7.947E-4 0.00154
++B beta+ 7.936E-4 0.00155
++B beta+ 7.931E-4 0.00155
++B beta+ 7.928E-4 0.00155
++B beta+ 7.925E-4 0.00156
++B beta+ 7.911E-4 0.00157
++B beta+ 7.889E-4 0.00158
++B beta+ 7.882E-4 0.00159
++B beta+ 7.807E-4 0.0016
++B beta+ 7.756E-4 0.0016
++B beta+ 7.733E-4 0.0016
++B beta+ 7.723E-4 0.0017000000000000001
++B beta+ 7.674E-4 0.0017000000000000001
++B beta+ 7.642E-4 0.0017000000000000001
++B beta+ 7.63E-4 0.0017749999999999999
++B beta+ 7.47E-4 0.00188
++B beta+ 7.47E-4 0.00188
++B beta+ 7.4E-4 0.00194
++B beta+ 7.379999999999999E-4 0.0019500000000000001
++B beta+ 7.31E-4 0.002
++B beta+ 7.28E-4 0.00202
++B beta+ 7.27E-4 0.00203
++B beta+ 7.22E-4 0.0020599999999999998
++B beta+ 7.16E-4 0.00211
++B beta+ 7.14E-4 0.00212
++B beta+ 7.08E-4 0.00217
++B beta+ 6.87E-4 0.00231
++B beta+ 6.820000000000001E-4 0.00234
++B beta+ 6.730000000000001E-4 0.00241
++B beta+ 6.2E-4 0.0028000000000000004
++B beta+ 6.0E-4 0.0029
++B beta+ 5.899999999999999E-4 0.003
+

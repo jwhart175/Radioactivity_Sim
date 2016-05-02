@@ -1,0 +1,65 @@
+#115RH    115RU B- DECAY                2011RI07,2010KU01,2007KU0612NDS    201210
+#  115RU B- DECAY                2011RI07,2010KU01,2007KU0612NDS    201210
+#H TYP=FUL$AUT=JEAN BLACHOT$CIT=NDS 113, 2391 (2012)$CUT=1-Sep-2012$      
+#  {+115}Ru produced in 25-MeV proton-induced fission of uranium          
+#  followed by mass separation at IGISOL-JYFLTRAP facility. The |g rays   
+#  were detected by three Ge detectors, a planar Ge detector (LOAX) and   
+#  a plastic scintillator for |b radiation. Measured E|g, I|g, |g|g,      
+#  |b|g, (x ray)|g coin                                                   
+#  Level scheme is from 2011Ri07. Levels up to 696 were also reported in  
+#  2007Ku06, and up to 1258 in 2010Ku01                                   
+#  All data are from 2011Ri07, unless otherwise stated                    
+#B $By comparison the total |b feeding to states in {+115}Rh with that    
+#B to |b feeding of states in {+115}Pd in {+115}Ru --> {+115}Rh -->       
+#B {+115}Pd decay chain, 2011Ri07 find that 6% {I6} of the |b feeding     
+#B from {+115}Ru is unaccounted. One possibility is that the 76-ms        
+#B isomer found in 2010Ku25 partly decays by |b decay which may also      
+#B explain small |b feeding of (7/2+) state at 617.6                      
+#B LOGFT$2011Ri07 state that all log| {Ift} values should be considered   
+#B as lower limits since there is possibility of missing high-energy      
+#B low-intensity |g rays from high-lying levels allowed by large Q(|b)    
+#B window.                                                                
+#G $A 61.7-keV |g ray is seen in singles |g spectrum in 2010Ku01, but     
+#G not in |b-gated spectrum. Its half-life was measured as 76 ms {I14}.   
+#G In a further study, 2010Ku25 assigned this an isomer in {+115}Ru       
+#G E,RI$From 2011Ri07. Intensities are from |b-gated singles |g spectrum, 
+#G unless otherwise stated                                                
+#G E(X)$Weak |g, seen in coin with 213.2|g                                
+#G RI(Y)$From |b|g coin spectra                                           
+#G CC$Values are from BrIcc code available                                
+#L E$From least-squares fit  to E|g data in 2011Ri07                      
+#L J$From systematics of neighboring nuclides (2011Ri07)                  
+#P 0           (3/2+)            318 MS    19             8165      12    
+RU115 RH115 beta- 8.165 0.318 1
++G gamma 0.2925 0.83
++G gamma 0.08009999999999999 0.1079
++G gamma 0.3725 0.08217
++G gamma 0.207 0.25398
++G gamma 0.24509999999999998 0.02407
++G gamma 0.1965 0.08549
++G gamma 0.2314 0.01909
++G gamma 0.3584 0.02407
++G gamma 0.4383 0.02656
++G gamma 0.2392 0.018260000000000002
++G gamma 0.4355 0.03154
++G gamma 0.63 0.00332
++G gamma 0.7104 0.05727
++G gamma 0.6383 0.03154
++G gamma 0.7182999999999999 0.03071
++G gamma 0.6181 0.01494
++G gamma 0.9662999999999999 0.019919999999999997
++G gamma 1.0258 0.0166
++G gamma 1.1059 0.00747
++G gamma 0.44189999999999996 0.03818
++G gamma 1.0794000000000001 0.01079
++G gamma 0.9749 0.00747
++G gamma 1.1822000000000001 0.01577
++G gamma 1.3922 0.03403
++G gamma 1.0400999999999998 0.023239999999999997
++G gamma 1.6773 0.020749999999999998
++G gamma 1.7582 0.01079
++G gamma 1.2468 0.014109999999999998
++G gamma 1.8767 0.011619999999999998
++G gamma 2.2494 0.011619999999999998
++G gamma 1.7806 0.02158
+

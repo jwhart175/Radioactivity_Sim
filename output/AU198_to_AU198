@@ -1,0 +1,35 @@
+#198AU    198AU IT DECAY (2.272 D)      1972CU06,1973PA08,1975MA3009NDS    200910
+#  198AU IT DECAY (2.272 D)      1972CU06,1973PA08,1975MA3009NDS    200910
+#H TYP=FUL$AUT=Huang Xiaolong$CIT=NDS 110, 2533 (2009)$CUT=1-Jun-2008$    
+#  Sources produced by {+200}Hg(d,|a) (1972Cu06), {+197}Au(d,p)           
+#  (1968Bo30, 1973Pa08), {+198}Hg(n,p) (1973Pa08), {+196}Pt(|a,pn)        
+#  (1975Ma30), {+198}Pt(d,2n) (1975Ma30), and                             
+#  {+197}Au(n,|g) (1990Pi08). {+200}Hg(d,|a) E=18 MeV (1972Cu06), chem;   
+#  {+197}Au(d,p) E=12.5 MeV (1968Bo30, 1973Pa08);                         
+#  {+198}Hg(n,p) E=14.5 MeV (1973Pa08), chem;                             
+#  {+196}Pt(|a,pn) E=35 MeV, {+198}Pt(d,2n) E=18 MeV (1975Ma30), chem.    
+#  {+197}Au(d,p|g) |g(t) (1968Bo30) prompt and delayed |g spectra         
+#G E$From 1972Cu06 (semi), except as noted.                               
+#  Level scheme is consistent with |g|g(t) spectra (1972Cu06,1973Pa08)    
+#G                                                                        
+#G             K  x-ray  Intensities   (1990Pi08)                         
+#G $-----------------------------------------------------                 
+#G                                                                        
+#G $  Radiations          E,keV{+a}         Intensities{=b}               
+#G $ ------------        ----------         -------------                 
+#G $    K|a{-1}| x ray         68.8037 {I8}             47                
+#G $    K|a{-2}| x ray         66.9895 {I8}             28                
+#G $    K|b| x ray          78.00                 21.4                    
+#G                                                                        
+#G $ a  Calculated values                                                 
+#G $ b  Measured values per 100 decays (1990Pi08)                         
+#G                                                                        
+#P 811.7     15(12-)             2.272 D   16                             
+AU198 AU198 IT 0.0 196300.79999999996 0.773
++G gamma 0.21489 1.0
++G gamma 0.09720999999999999 0.89
++G gamma 0.2041 0.5
++G gamma 0.33382 0.23
++G gamma 0.18031 0.64
++G gamma 0.1152 5.2E-4
+

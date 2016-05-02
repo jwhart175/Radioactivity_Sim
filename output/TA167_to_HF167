@@ -1,0 +1,17 @@
+#167HF    167TA EC DECAY                1982LI17,1987ES08         00NDS    200008
+#  167TA EC DECAY                1982LI17,1987ES08         00NDS    200008
+#H TYP=FUL$AUT=Coral M. Baglin$CIT=NDS 90, 431 (2000)$CUT=5-Jul-2000$     
+#  Others: 1969AR22, 1989BR19 (same data as 1987ES08), 1992HEZV.          
+#  The decay scheme cannot be constructed. 1982LI17 report                
+#  nothing more than the energies of the most intense G rays.             
+#  1987ES08: sources from 151EU(22NE,6N), chemical separation, aerosol    
+#  transport; measured EG, G(T). See also 1989BR19.                       
+#  1982LI17: sources from LU(3HE,XN) (E(3HE)=280 MEV, LU metal and LU     
+#  fluoride targets; fluorination of products followed by mass            
+#  separation); measured EG, IG (SILI, coaxial GELI).                     
+#L J,T       From adopted levels.                                         
+#G E         From 1982LI17, except as noted; authors do not state         
+#G uncertainty.                                                           
+#P 0.0          (3/2+)           80 S      4              5010      SY    
+TA167 HF167 beta+ 5.01 80.0 1.0
+

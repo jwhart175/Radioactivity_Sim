@@ -1,0 +1,110 @@
+#148PR    148CE B- DECAY                2004KO05,1983AR15,1997GR0914NDS    201404
+#  148CE B- DECAY                2004KO05,1983AR15,1997GR0914NDS    201404
+#H TYP=FUL$AUT=N. NICA$CIT=NDS 117, 1 (2014)$CUT=1-Oct-2013$              
+#  2004KO05: 148CE PRODUCED BY ON-LINE SPECTROMETER ^KUR-^ISOL FOLLOWING  
+#  THE 235U(N,F) E=THERMAL REACTION, IMPLANTED IN TAPE AND TRANSPORTED    
+#  PERIODICALLY TO THE MEASURING LOCATION EQUIPPED WITH THREE SILI        
+#  DETECTORS, HPGE, AND PLASTIC SCINTILLATOR DETECTORS. MEASURED CE       
+#  (FWHM=1.8 EV AT 258 KEV), G, BETA-GATED CE AND G, CE-GAMMA COIN, T1/2. 
+#  1997GR09,1996GR20: total absorption G-ray spectrometer (^TAGS) system  
+#  used to measure B- decay intensities, and the GS B- feeding when       
+#  operated in the 4PIG-B coin mode                                       
+#  Measured: G, GG, XK (1983AR15,1977BJ02,1974AR25,1973SEYX), BG          
+#  (1978ST03,1981EB01), G (1979BO26), see 1986BUZV                        
+#  Level scheme is that of 1983AR15. ^TAGS data with a number of          
+#  pseudolevels with a substantial B- feeding to them indicates that      
+#  the level scheme has large uncertainties associated with it.           
+#B $WHEN THE CALCULATED FEEDING OVERLAPS ZERO WITHIN THREE STANDARD       
+#B DEVIATIONS, THE CODE GTOL (PART OF ENSDF ^Analysis ^Programs)          
+#B CALCULATES ESTIMATED UPPER LIMITS (90% CONFIDENCE LEVEL) WHICH ARE     
+#B GIVEN BY EVALUATOR IN THE TABLE COMMENTS (SEE                          
+#B "^Statistics for ^Nuclear and ^Particle ^Physics", ^Louis ^Lyons,      
+#B ^Cambridge ^University ^Press, 1986)                                   
+#B IB        From I(G+CE) imbalances at each level, unless indicated      
+#B otherwise. In computing TI, 1983AR15 assumed that G's from E(level)<380
+#B KEV were M1, and G's from E(level)>380 KEV were E1 in general. The     
+#B evaluator has changed these assumed multipolarities to be consistent   
+#B with DJPI.                                                             
+#B IB$^TAGS analysis gives the following pseudolevels and associated      
+#B IB (in %) in addition to the discrete levels listed. 880 KEV { 1.56};  
+#B 970 KEV { 1.15-2.29}; 1060 KEV { 0.73}; 1150 KEV { 2.35};              
+#B 1260 KEV LE 1.33; 1360 KEV { 0.31}; and 1430 KEV { 0.57}.              
+#B The ^TAGS spectrum of 148CE 56s decay,                                 
+#B while predominantly 148CE, is estimated to contain LT 10% contribution 
+#B from 148PR 2.0 M decay. A simultaneous analysis of both these nuclides 
+#B was done, and the authors feel that in the energy range from AP 750 KEV
+#B to AP 1300 KEV, there is some ambiguity in the final results because   
+#B of overlapping peaks. Since the resolution of the ^TAGS system is      
+#B typically 50-100 KEV, the intensity assigned to a pseudolevel may      
+#B represent B- feeding to a single level or a group of levels. The       
+#B same limitation applies to the intensity assigned to a known level,    
+#B since it could include feeding to known or unknown levels in the       
+#B resolution energy range.                                               
+#B E(A)      SUMOF IB over GS and first four excited states is 0.0% 21    
+#B from ^TAGS analysis (1997GR09)                                         
+#G CC$ FROM BrIcc v2.2b (20-Jan-2009) 2008Ki07, "Frozen Orbitals" appr.   
+#G           EKC were derived from IG and I(XK) for the same transition   
+#G (1983CHZG)                                                             
+#G M         G's from E(level)<380 KEV were assumed to be M1, and G's from
+#G E(level)>380 KEV were assumed                                          
+#G to be E1 in general by 1983AR15, except as                             
+#G indicated otherwise. The evaluator has changed these multipolarities   
+#G to be consistent with DJPI.                                            
+#G M(B)      From EKC (1983CHZG)                                          
+#G M(b)      From EKC (2004KO05)                                          
+#L E$From a least-squares fit to EG data (NORMALIZED CHI**2=1.95 GT       
+#L CRITICAL CHI**2=1.76)                                                  
+#L J         Adopted levels; supported by LOGFT values, level decay       
+#L patterns and level systematics (1983AR15)                              
+#P 0.0         0+                56.8 S    3              2137      13    
+CE148 PR148 beta- 2.137 56.8 1.0
++G gamma 0.098166 0.015903
++G gamma 0.09899 0.126882
++G gamma 0.1052 0.053694000000000006
++G gamma 0.121169 0.13509000000000002
++B beta- 0.7447999999999999 0.057999999999999996
++G gamma 0.0745 0.001368
++G gamma 0.09089 0.021033
++G gamma 0.098 0.013167
++G gamma 0.195977 0.06669
++G gamma 0.16852 0.0034200000000000003
++G gamma 0.27376999999999996 0.055746000000000004
++B beta- 0.7042999999999999 0.001
++G gamma 0.1885 0.011798999999999999
++G gamma 0.28717000000000004 0.01881
++B beta- 0.7032 0.001
++G gamma 0.18453 0.016929
++G gamma 0.1916 0.016929
++G gamma 0.28964 0.05814
++G gamma 0.3327 0.015390000000000001
++B beta- 0.6754 0.021
++G gamma 0.2316 0.0034200000000000003
++G gamma 0.24752000000000002 0.009576
++G gamma 0.3524 0.018126
++B beta- 0.6587000000000001 0.59
++G gamma 0.101029 0.036765000000000006
++G gamma 0.1032 0.002565
++G gamma 0.11692 0.038475
++G gamma 0.19469 0.04104
++G gamma 0.26952 0.174078
++G gamma 0.2855 0.008208
++G gamma 0.291724 0.171
++G gamma 0.39079 0.013509
++B beta- 0.6249 0.033
++G gamma 0.1938 0.0034200000000000003
++G gamma 0.2715 0.006840000000000001
++G gamma 0.3463 0.005985000000000001
++G gamma 0.36909 0.016587
++B beta- 0.6017 0.163
++G gamma 0.1678 0.011286000000000001
++G gamma 0.1879 0.015390000000000001
++G gamma 0.23371 0.01026
++G gamma 0.32485 0.077463
++G gamma 0.39943 0.007866000000000001
++G gamma 0.42178 0.037278000000000006
++B beta- 0.556 0.006999999999999999
++G gamma 0.5212 0.007011000000000001
++B beta- 0.49639999999999995 0.021
++G gamma 0.375 0.007011000000000001
++G gamma 0.47817000000000004 0.013680000000000001
+

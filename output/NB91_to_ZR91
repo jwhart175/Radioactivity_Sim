@@ -1,0 +1,30 @@
+# 91ZR    91NB EC DECAY (6.8E+2 Y)      1993HI09,1982NA17         13NDS    201310
+#  91NB EC DECAY (6.8E+2 Y)      1993HI09,1982NA17         13NDS    201310
+#H TYP=FUL$AUT=Coral M. Baglin$CIT=NDS 114, 1293 (2013)$CUT=1-Sep-2013$   
+#  IS 2ND-FORBIDDEN NON-UNIQUE LOGFT CALC HANDLED CORRECTLY?              
+#  1993HI09: radiochemically separated 91NB source; intrinsic Ge          
+#  detectors; measured I(G+-), I(ZR XK); deduced %IB+.                    
+#  1982NA17: HPGe detector, FWHM=263 EV at 5.9 KEV and                    
+#  563 EV at 122 KEV. Measured XK activity of mass-separated              
+#  sample; deduced parent ^T{-1/2}.                                       
+#P 0.0         9/2+              6.8E+2 Y  13             1258       3    
+NB91 ZR91 beta+ 1.258 2.1458697984E10 1.0
+
+# 91ZR    91NB EC DECAY (60.86 D)       1993HI09,1986WA34,1955HA2313NDS    201310
+#  91NB EC DECAY (60.86 D)       1993HI09,1986WA34,1955HA2313NDS    201310
+#H TYP=FUL$AUT=Coral M. Baglin$CIT=NDS 114, 1293 (2013)$CUT=1-Sep-2013$   
+#  Others: 1969BE07, 1993BE08.                                            
+#  1993HI09: radiochemically separated 91NB source; intrinsic Ge          
+#  detectors; measured I(G+-), I(ZR XK), IG, I(Nb XK),                    
+#  XK-G coin.                                                             
+#  1986WA34: GE(LI). Measured EG, RI, CE.                                 
+#  1969BE07: GELI, FWHM=3.1 KEV at 934 KEV. Measured EG.                  
+#  1955HA23: scin. Measured EG, RI, XG coin.                              
+#G E         From 1986WA34.                                               
+#G M         From Adopted Gammas.                                         
+#L E         FROM EG.                                                     
+#L J         FROM Adopted Levels.                                         
+#P 104.60    5 1/2-              60.86 D   22             1258       3    
+NB91 ZR91 beta+ 1.258 5258304.0 29.4118
++G gamma 1.2046700000000001 0.0202
+

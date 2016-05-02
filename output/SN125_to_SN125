@@ -1,0 +1,53 @@
+#125SN    125SN IT DECAY (6.2 US)       2000PI03                  11NDS    201102
+#  125SN IT DECAY (6.2 US)       2000PI03                  11NDS    201102
+#H TYP=FUL$AUT=J. KATAKURA$CIT=NDS 112, 495 (2011)$CUT=1-Jan-2010$        
+#  2000Pi03: Isomer of {+125}Sn formed in {+233}U thermal neutron         
+#  fission; LOHENGRIN spectrometer; Measured |g, ce, |g|g, |g-e, e-e,     
+#  T{-1/2}; No ce were observed.                                          
+#G  $2000Zh47 report strong 792-1087 delayed cascade and a parallel       
+#G but weak delayed 661-1218 cascade with a half-life of |?7 |ms.         
+#L J$From Adopted Levels                                                  
+#P 1892.8       (19/2+)          6.2 US    7                              
+SN125 SN125 IT 0.0 6.2E-6 1.0
++G gamma 1.0875 0.81
++G gamma 1.2187000000000001 0.19
++G gamma 0.661 0.2
++G gamma 0.7928 0.4
++G gamma 0.8055 0.4
+
+#125SN    125SN IT DECAY (0.23 US)      2008LO07,2000ZH47         11NDS    201102
+#  125SN IT DECAY (0.23 US)      2008LO07,2000ZH47         11NDS    201102
+#H TYP=FUL$AUT=J. KATAKURA$CIT=NDS 112, 495 (2011)$CUT=1-Jan-2010$        
+#  2008Lo07: {+125}Sn formed in relativistic fission reaction on {+238}U  
+#  on a {+9}Be target at 750 A-MeV and by the fragmentation of {+136}Xe   
+#  at 600 A-MeV. Measured E|g, I|g, |g|g, lifetimes. Using eight Cluster  
+#  detectors from the RISING array                                        
+#  2000Zh47,2004Br19: Some of {+125}Sn formed in the                      
+#  {+124}Sn({+136}Xe,x|g), {+124}Sn({+238}U,x|g) and                      
+#  {+232}Th({+136}Xe,x|g) reactions at E=665, 1324 and 833 MeV,           
+#  respectively. The first two reactions essentially involve the particle 
+#  transfer of a proton from the beam nucleus, to the target nucleus,     
+#  {+124}Sn. The data of 2000Zh47 are also reported in 2004Br19           
+#  Measured E|g, I|g, |g|g, |g|g(t), lifetimes.  The detection system     
+#  used was GAMMASPHERE array of 73 large-volume Compton-suppressed       
+#  Ge detectors                                                           
+#  XUNDL data set compiled by J. Roediger and B. Singh (McMaster),        
+#  August 31, 2004, is consulted.                                         
+#L J$Spin-parity assignments are based on agreement between               
+#L the experimental level energies and those predicted for                
+#L (|nh{-11/2}){+n} |n=3 states.                                          
+#G E,RI      From 2008Lo07                                                
+#P 2624         (27/2-)           0.23 US  2                              
+SN125 SN125 IT 0.0 0.0 1.0
++G gamma 1.0877000000000001 1.0
++G gamma 1.219 0.25
++G gamma 0.6615 0.29
++G gamma 0.7916 0.55
++G gamma 0.8055 0.45
++G gamma 0.9884 0.45
++G gamma 1.0483 0.09
++G gamma 0.4153 0.15
++G gamma 0.3267 0.09
++G gamma 0.38589999999999997 0.46
++G gamma 0.4029 0.3
+

@@ -1,0 +1,22 @@
+#139SM    139SM IT DECAY (10.7 S)       1986DE35,1975VA14,1973VAYZ01NDS    200104
+#  139SM IT DECAY (10.7 S)       1986DE35,1975VA14,1973VAYZ01NDS    200104
+#H TYP=FUL$AUT=T. W. BURROWS$CIT=NDS 92, 623 (2001)$CUT=9-Feb-2001$       
+#  1973VaYZ,1975Va14: see {+139}Sm |e decay (10.6 s) for details.         
+#  1986De35: see {+139}Eu |e decay for details.                           
+#  All data are from 1986De35, except as noted. Decay scheme based on     
+#  |g-ray singles, |g|g-coincidences, energy sums, and conversion electron
+#  coefficients and differs from that of 1973VaYZ and 1975Va14 in the     
+#  order of the 112|g and completeness. Other: see 1989Bu12.              
+#L J         From the Adopted Levels.                                     
+#G           |a(K)exp: from concurrent measurement of ce(K) and |g.       
+#G           K/L are from 1973VaYZ, except for K/L(190.1|g).              
+#P 457.40    22 11/2-            10.7 S    6              0.0             
+SM139 SM139 IT 0.0 10.7 0.937
++G gamma 0.1119 0.26656
++G gamma 0.11159999999999999 0.008624
++G gamma 0.2235 0.033712
++G gamma 0.0438 6.664E-4
++G gamma 0.15530000000000002 0.392
++G gamma 0.26730000000000004 0.392
++G gamma 0.1901 0.39984000000000003
+

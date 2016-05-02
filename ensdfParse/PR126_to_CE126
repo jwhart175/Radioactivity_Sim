@@ -1,0 +1,298 @@
+#126CE  XA126PR EC DECAY                                                         
+#XA126PR EC DECAY                                                         
+#XB(HI,XNG)                                                               
+#N                                                                     6  
+#L        0.0  0+                51.0 S    3                          J   
+#L %EC+%B+=100                                                            
+#L XREF=AB                                                                
+#L T         weighted average of 50 S 4 (1987GeZX), 50 S 6 (1978Bo32)     
+#L AND 51.0 S 3 (2002KO02).                                               
+#L x ray and G counting (1987GeZX), x ray counting (1978Bo32),            
+#L G counting (2002Ko02).                                                 
+#L     169.59 32+                0.59 NS   10                         J   
+#L XREF=AB                                                                
+#L T         from 2001Ra27; Other: 0.67 NS 4 (1988Mo08), 0.43 NS 5        
+#L (1987IsZX), 0.44 NS 2 or 0.37 NS 5 (1995Ma96).                         
+#G     169.59 3   100    E2                       0.325               E   
+#G KC=0.238 8$LC=0.0683 21$MC=0.0149 5$NC+=0.00388 12                     
+#G BE2W=138 24                                                            
+#L     519.04 84+                15.2 PS   14                         J   
+#L XREF=AB                                                                
+#G     349.45 7   100    E2                       0.0304              E   
+#G KC=0.0248 8$LC=0.00446 14$MC=0.00095 3$NC+=0.00025 1                   
+#G BE2W=185 17                                                            
+#L      954.4 4(2+)                                                   K   
+#L XREF=A                                                                 
+#L FLAG=A$                                                                
+#G      785.1 5    100 21                                             F   
+#G      954.2 4     60 10                                             F   
+#L    1014.94106+                 6 PS     2                          J   
+#L XREF=AB                                                                
+#G     495.90 5   100    E2                       0.0110              E   
+#G BE2W=8.E+1 3                                                           
+#G KC=0.0092 3$LC=0.00145 5$MC=0.00031 1                                  
+#L     1154.7 4(3+)                                                   K   
+#L XREF=A                                                                 
+#L FLAG=A$                                                                
+#G      985.1 4   100                                                     
+#L    1337.1422(4+)                                                   K   
+#L XREF=A                                                                 
+#L FLAG=A$                                                                
+#G      818.1 2   100                                                     
+#L    1625.44118+                 2 PS     1                          J   
+#L XREF=B                                                                 
+#G     610.50 5   100    E2                                               
+#G BE2W=9.E+1 5                                                           
+#G CC=0.00643$KC=0.00538 17$LC=0.00079 2                                  
+#L     1877.0 8(4+)                                                   M   
+#L XREF=B                                                                 
+#G 1358.1    10   100    Q                                                
+#L     1881.8 8(7-)                                                   L   
+#L XREF=B                                                                 
+#L J         FROM DCO AND SYSTEMATICS                                     
+#G 867.1     11   100    D                                                
+#L     2031.2 8(6+)                                                       
+#L XREF=B                                                                 
+#G 154.5     1424      16                                                 
++G gamma 0.1545 0.24
+#G   1016.0  10100     10                                                 
++G gamma 1.016 1.0
+#L     2199.4 3(9-)               8 PS     3                          L   
+#L XREF=B                                                                 
+#L           g=0.75 (1987IsZX);                                           
+#L 1987IsZX assumed that 574-keV G connects 10+ level in                  
+#L the ground state band and measured T and g, but 1998Mo30 and 2001Wi10  
+#L confirmed that the 574-keV G connects 8+ level in the ground band and  
+#L the measured T and g are given to this level by evaluators.            
+#G   317.8   1126      3 E2                       0.0408                  
++G gamma 0.3178 0.26
+#G KC=0.0330 10$LC=0.00618 19$MC=0.00132 4$NC+=0.00035 1                  
+#G BE2W=1.1E+2 5                                                          
+#G   573.92  24100     10D                                                
++G gamma 0.57392 1.0
+#G 1185.0    1411      3                                                  
++G gamma 1.185 0.11
+#L     2208.6 8(6+)                                                   M   
+#L XREF=B                                                                 
+#G 177.2     1350      22                                                 
++G gamma 0.1772 0.5
+#G   331.7   1361      25Q                                                
++G gamma 0.3317 0.61
+#G  1193.8   11100     8                                                  
++G gamma 1.1938 1.0
+#L     2231.215                                                           
+#L XREF=B                                                                 
+#G 200.0     12100                                                        
++G gamma 0.2 1.0
+#L     2312.9 3(10+)                                                  J   
+#L XREF=B                                                                 
+#G     687.5  3   100    Q                                                
+#L     2459.920                                                           
+#L XREF=B                                                                 
+#G    228.7  14100                                                        
++G gamma 0.2287 1.0
+#L     2628.9 3(11-)             4 PS      2                          L   
+#L XREF=B                                                                 
+#G     316.2 1215      3 D                                                
++G gamma 0.3162 0.15
+#G 429.48    10100     8 E2                       0.0165                  
++G gamma 0.42948000000000003 1.0
+#G KC=0.0136 4$LC=0.00226 7$MC=0.00048 2$NC+=0.00013                      
+#G BE2W=2.2E+2 12                                                         
+#L     2658.012 (8+)                                                  M   
+#L XREF=B                                                                 
+#G 449.4     9 100       Q                                                
++G gamma 0.44939999999999997 1.0
+#L     2840.925                                                           
+#L XREF=B                                                                 
+#G 381.0     14100                                                        
++G gamma 0.381 1.0
+#L     2990.9 4(12+)                                                  J   
+#L XREF=B                                                                 
+#G 678.00    8 100       Q                                                
++G gamma 0.678 1.0
+#L     3147.9 3(13-)                                                  L   
+#L XREF=B                                                                 
+#G 518.99    7  100      Q                                                
+#L     3199.917(10+)                                                  M   
+#L XREF=B                                                                 
+#G 541.9     11100       Q                                                
++G gamma 0.5418999999999999 1.0
+#L     3283.611(12+)                                                      
+#L XREF=B                                                                 
+#G     970.9 12100                                                        
++G gamma 0.9709 1.0
+#L       3354 3                                                           
+#L XREF=B                                                                 
+#G 513.2     13100                                                        
++G gamma 0.5132000000000001 1.0
+#L     3598.1 4(14+)                                                  J   
+#L XREF=B                                                                 
+#G 607.20    7  100      Q                                                
+#L     3751.7 3(15-)                                                  L   
+#L XREF=B                                                                 
+#G 603.82    7  100      Q                                                
+#L     3837.020(12+)                                                  M   
+#L XREF=B                                                                 
+#G 637.1     11100                                                        
++G gamma 0.6371 1.0
+#L       3974 3                                                           
+#L XREF=B                                                                 
+#G 619.4     13100                                                        
++G gamma 0.6194 1.0
+#L     4034.810(14+)                                                      
+#L XREF=B                                                                 
+#G 751.4     1347      22                                                 
++G gamma 0.7514 0.47
+#G 1043.7    11100     17Q                                                
++G gamma 1.0437 1.0
+#L     4287.7 7(16+)                                                  J   
+#L XREF=B                                                                 
+#G 689.6     6 100       Q                                                
++G gamma 0.6896 1.0
+#L     4399.123(14+)                                                  M   
+#L XREF=B                                                                 
+#G 562.1     11100       Q                                                
++G gamma 0.5621 1.0
+#L     4441.1 8(17-)                                                  L   
+#L XREF=B                                                                 
+#G     689.4 7 100       Q                                                
++G gamma 0.6894 1.0
+#L     4891.515(16+)                                                      
+#L XREF=B                                                                 
+#G 856.7     11100                                                        
++G gamma 0.8567 1.0
+#L       5065 3(16+)                                                  M   
+#L XREF=B                                                                 
+#G 666.3     12100                                                        
++G gamma 0.6663 1.0
+#L     5097.0 7(18+)                                                  J   
+#L XREF=B                                                                 
+#G 809.24    13100       Q                                                
++G gamma 0.80924 1.0
+#L     5206.911(19-)                                                  L   
+#L XREF=B                                                                 
+#G     765.8 7 100       Q                                                
++G gamma 0.7657999999999999 1.0
+#L     5366.214(18+)                                                      
+#L XREF=B                                                                 
+#G 1078.4    12100       Q                                                
++G gamma 1.0784 1.0
+#L       5764 3(18+)                                                  M   
+#L XREF=B                                                                 
+#G 698.2     13100                                                        
++G gamma 0.6982 1.0
+#L     5849.721(18+)                                                      
+#L XREF=B                                                                 
+#G 958.2     14100                                                        
++G gamma 0.9582 1.0
+#L     6010.910(20+)                                                  J   
+#L XREF=B                                                                 
+#G     913.9 7 100       Q                                                
++G gamma 0.9138999999999999 1.0
+#L     6040.413(21-)                                                  L   
+#L XREF=B                                                                 
+#G     833.5 8 100       Q                                                
++G gamma 0.8335 1.0
+#L       6553 4(20+)                                                  M   
+#L XREF=B                                                                 
+#G 789.4     13100                                                        
++G gamma 0.7894 1.0
+#L     6935.817(23-)                                                  L   
+#L XREF=B                                                                 
+#G     895.4 11100       Q                                                
++G gamma 0.8954 1.0
+#L     6992.213(22+)                                                  J   
+#L XREF=B                                                                 
+#G 981.3     8 100       Q                                                
++G gamma 0.9813 1.0
+#L       7458 4(22+)                                                  M   
+#L XREF=B                                                                 
+#G 904.8     14100                                                        
++G gamma 0.9047999999999999 1.0
+#L     7914.021(25-)                                                  L   
+#L XREF=B                                                                 
+#G 978.2     11100       Q                                                
++G gamma 0.9782000000000001 1.0
+#L     8026.616(24+)                                                  J   
+#L XREF=B                                                                 
+#G 1034.4    9 100       Q                                                
++G gamma 1.0344 1.0
+#L       8483 4(24+)                                                  M   
+#L XREF=B                                                                 
+#G 1025.4    15100                                                        
++G gamma 1.0254 1.0
+#L     8990.625(27-)                                                  L   
+#L XREF=B                                                                 
+#G 1076.6    14100       Q                                                
++G gamma 1.0766 1.0
+#L     9137.219(26+)                                                  J   
+#L XREF=B                                                                 
+#G 1110.6    11100       Q                                                
++G gamma 1.1105999999999998 1.0
+#L       9626 5(26+)                                                  M   
+#L XREF=B                                                                 
+#G 1142.4    17100                                                        
++G gamma 1.1424 1.0
+#L      10141 3(29-)                                                  L   
+#L XREF=B                                                                 
+#G 1150.6    15100                                                        
++G gamma 1.1505999999999998 1.0
+#L    10335.923(28+)                                                  J   
+#L XREF=B                                                                 
+#G 1198.7    13100       Q                                                
++G gamma 1.1987 1.0
+#L      10875 5(28+)                                                  M   
+#L XREF=B                                                                 
+#G 1249.0    19100                                                        
++G gamma 1.249 1.0
+#L      11314 4(31-)                                                  L   
+#L XREF=B                                                                 
+#G 1172.7    16100                                                        
++G gamma 1.1727 1.0
+#L      11626 3(30+)                                                  J   
+#L XREF=B                                                                 
+#G 1289.6    13100       Q                                                
++G gamma 1.2895999999999999 1.0
+#L      12527 4(33-)                                                  L   
+#L XREF=B                                                                 
+#G 1213.0    16100                                                        
++G gamma 1.213 1.0
+#L      13001 3(32+)                                                  J   
+#L XREF=B                                                                 
+#G 1375.0    15100                                                        
++G gamma 1.375 1.0
+#L      13806 4(35-)                                                  L   
+#L XREF=B                                                                 
+#G 1278.7    17100                                                        
++G gamma 1.2787 1.0
+#L      14465 4(34+)                                                  J   
+#L XREF=B                                                                 
+#G 1464.8    17100                                                        
++G gamma 1.4647999999999999 1.0
+#L      15161 5(37-)                                                  L   
+#L XREF=B                                                                 
+#G 1355.3    18100                                                        
++G gamma 1.3553 1.0
+#L      16016 4(36+)                                                  J   
+#L XREF=B                                                                 
+#G 1550.7    19100                                                        
++G gamma 1.5507 1.0
+#L      16603 5(39-)                                                  L   
+#L XREF=B                                                                 
+#G 1442.0    20100                                                        
++G gamma 1.442 1.0
+#                                                                         
+
+#126CE    126PR EC DECAY                1995OS03                  02NDS    200301
+#  126PR EC DECAY                1995OS03                  02NDS    200301
+#H TYP=FUL$AUT=J. KATAKURA AND K. KITAO$CIT=NDS 97, 765 (2002)$           
+#H CUT=5-Apr-2002$                                                        
+#  1995OS03:  94MO(36AR,x), EG, IG, BG, GG, G(T)                          
+#  Other: 1988Ba42: {+92-96}Mo+40CA, EG, XG COIN, GG(T)                   
+#G E,RI$From 1995Os03                                                     
+#G M         FROM ADOPTED GAMMAS                                          
+#L E         FROM A LEAST-SQUARES FIT TO E(G'S)                           
+#L J         FROM ADOPTED LEVELS                                          
+#P 0.0             GE 4          3.14 S    22                  10442SY    
+

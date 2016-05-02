@@ -1,0 +1,42 @@
+#179RE    179OS EC DECAY                1976BE62,1970AR15,2000RO4109NDS    200902
+#  179OS EC DECAY                1976BE62,1970AR15,2000RO4109NDS    200902
+#H TYP=FUL$AUT=Coral M. BAGLIN$CIT=NDS 110, 265 (2009)$CUT=15-Nov-2008$   
+#  Others: 1973GOYJ, 1972BE89, 1968BE43.                                  
+#  2000RO41: MEASURED E(ce), I(ce) using HIGH-RESOLUTION MAGNETIC         
+#  SPECTROGRAPH.  SOURCE: PRODUCT FOLLOWING SUCCESSIVE DECAYS FROM 183HG. 
+#  1976BE62: GE(LI) DETECTOR; MEASURED EG, IG, GG coin.                   
+#  1970AR15: GE(LI), scin DETECTORS; MEASURED EG, IG.                     
+#G           G-ray intensities are not normalized because very few G-ray  
+#G multipolarities are known and many G rays are unplaced; the decay      
+#G scheme is tentative, and possibly incomplete. The scheme shown         
+#G implies NR=0.116 21 if CC(65.4G)=0.23, and LOGFT AP 5.3 to the         
+#G 1429, 1449 and 1562 levels.                                            
+#G E         From 1976BE62.                                               
+#G RI        From 1976BE62. DRI=15-20% for intense G rays, DRI=30-50% for 
+#G weak G rays.                                                           
+#G E(D)      G ray from 179OS or 178OS.                                   
+#G E(E),RI(E)$Assignment to 179OS decay is uncertain.                     
+#G E(F)      Doublet.                                                     
+#L E         Calculated by evaluator from a least-squares fit to EG.      
+#L J         FROM Adopted Levels.                                         
+#L J(K)      JPI=(3/2-), possible three-quasiparticle state, based on     
+#L G-ray decay pattern and EC population from 1/2- parent (1976BE62).     
+#L BAND(Z)   5/2[402] GS BAND.                                            
+#L BAND(T)   1/2[541] BAND.                                               
+#P 0.0          1/2-             6.5 M     3              3570      30    
+OS179 RE179 beta+ 3.57 390.0 1.0
++G gamma 0.032299999999999995 1.0
++G gamma 0.0368 0.2
++G gamma 0.1815 0.05
++G gamma 0.1849 0.17
++G gamma 0.18680000000000002 0.05
++G gamma 0.3354 0.05
++G gamma 0.4719 0.16
++G gamma 0.5597000000000001 0.045
++G gamma 0.5702999999999999 0.07
++G gamma 0.5998 0.42
++G gamma 0.6165 0.06
++G gamma 0.6276 0.06
++G gamma 0.6678 0.21
++G gamma 0.6713 0.18
+

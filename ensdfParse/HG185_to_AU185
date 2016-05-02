@@ -1,0 +1,53 @@
+#185AU    185HG EC DECAY                1982BO27,1988KO22,1988PA1505NDS    200601
+#  185HG EC DECAY                1982BO27,1988KO22,1988PA1505NDS    200601
+#H TYP=FUL$AUT=S. -C. WU$CIT=NDS 106, 619 (2005)$CUT=1-Nov-2005$          
+#  1982Bo27: mass-separated sources of {+185}Hg produced by               
+#  {+197}Au(p,xn). Measured E|g, I|g, |g|g coin, E(ce), Ice.              
+#  Detectors: Ge(Li), Si(Li), magnetic spectrograph. |g-ray data are from 
+#  a source which contained both {+185}Hg(49 s) and {+185}Hg(21 s). For   
+#  most |g rays the intensities could not be separated; therefore, |e     
+#  populations to levels in {+185}Au were not deduced. %|e+%|b{++}=46     
+#  {I10} for {+185}Hg(21 s) is deduced by 1982Bo27 from IT decay and      
+#  decay scheme information.                                              
+#  1988Pa15, 1988Ko22: mass-separated sources of {+185}Hg produced by     
+#  {+176}Hf({+16}O,7n), E=140 MeV. Measured E|g, I|g, |g|g coin, |g-ce    
+#  coin. Detectors: Ge(Li), Si(Li). 1988Pa15 report multipolarities for   
+#  a few transitions only. 1988Ko22 report no tabular data.               
+#  Others: 1985Ab03, 1983Be48.                                            
+#L           The systematics of the level structure in odd-mass {+195}Au, 
+#L {+193}Au, {+191}Au, and {+189}Au has been extended to {+187}Au and     
+#L {+185}Au (1988Ko22,1988Pa15). The level scheme presented here is that  
+#L suggested by these authors, with most of the |g-ray data from 1982Bo27.
+#L E         Calculated by evaluator from a least-squares fit to |g-ray   
+#L energies.                                                              
+#L E         Populated by {+185}Hg(50 s) and/or {+185}Hg(28 s) |e decay.  
+#L J$From adopted levels.                                                 
+#G RI$From a mixed {+185}Hg(49 s)-{+185}Hg(21 s) source.                  
+#G RI(Y),M(Y)$I|g in coincidence with 205|g. Multipolarity determined from
+#G I|g and Ice measured in coincidence with 205|g (1988Pa15). The         
+#G possibility of an E0 component, previously suggested by 1987ZgZZ and   
+#G 1987PaZR, has been discarded by 1988Pa15 who determine                 
+#G more reliable experimental conversion coefficients.                    
+#G See 1989Ki06 for measurements of low-energy conversion                 
+#G electrons (no tabular data reported).                                  
+#G RI(A)$Based on the decay scheme, the main feeding is from              
+#G {+185}Hg |e decay (49 s).                                              
+#G RI(G)$Based on the decay scheme, the main feeding is from              
+#G {+185}Hg |e decay (21 s).                                              
+#G E(W)      From level energy difference (1988Ko22,1988Pa15).            
+#G M,MR      Derived by 1982Bo27 from experimental |a and ce subshell     
+#G ratios, unless otherwise specified. Uncertainties on Ice and           
+#G normalization between Ice and I|g, were not given by the authors.      
+#G M(X)$This transition has |a(K)exp>|a(K)(M1, theory). 1982Bo27 interpret
+#G it as an anomalous M1 transition. 1988Pa15, however, describe this     
+#G transition as an M1 with an E0 component. The decay scheme of 1988Pa15 
+#G and 1988Ko22 supports this interpretation, and is consistent with the  
+#G level structure systematics in other odd-A Au isotopes. 1987ZgZZ and   
+#G 1987PaZR also support this interpretation, which is a clear signature  
+#G of shape coexisting bands in {+185}Au.                                 
+#G RI(B,N)$Mixed with a |g ray from {+181}Os |e decay                     
+#G E         From 1982Bo27, unless otherwise specified.                   
+#G CC(Z)     Experimental |a(K).                                          
+#P10.0         1/2-              49.1 S    10             5690      30    
+HG185 AU185 beta+ 5.69 49.1 0.94
+

@@ -1,0 +1,78 @@
+#106PD    106RH B- DECAY (131 M)        1971TA09,1966DE11         08NDS    200806
+#  106RH B- DECAY (131 M)        1971TA09,1966DE11         08NDS    200806
+#H TYP=FUL$AUT=D. DE FRENNE AND A. NEGRET$CIT=NDS 109, 943 (2008)$        
+#H CUT=1-May-2007$                                                        
+#  1971Ta09: {+106}Rh activity from {+106}Pd(n,p) and {+109}Ag(n,|a).     
+#  Measured: E|g, I|g, E|b, |g|g. Deduced: {+106}Pd levels, J|p, log|     
+#  {Ift} and Q(|b{+-})                                                    
+#  1966De11: {+106}Rh activity from {+106}Pd(d,2p) and {+108}Pd(d,|a).    
+#  Measured: E|b, I|b, E|g, I|g, Ice, |b|g, |a, Q(|b{+-}). Deduced:       
+#  {+106}Pd levels, J|p, log| {Ift}                                       
+#  Others: 1955Ne03, 1958Ma39, 1960Se07, 1969An12                         
+#  |g|g (see drawings) 1971Ta09 semi-scin spectra                         
+#  Q(|b{+-})=3677 {I10} deduced from E|b=920 {I10} to 2757 excitation;    
+#  see 1966De11.                                                          
+#G E,RI      From semi |g-singles analysis (1971Ta09), unless otherwise   
+#G noted. Where comparison possible, E|g systematically 0.7-1.5 keV       
+#G higher than in (|a,2n|g), {+106}Ag |e decay (8.46 d), and (n,n'|g) data
+#G DRI       Only statistical uncertainty given. Evaluators               
+#G added quadratically an uncertainty of 5% due to the systematic         
+#G deviation of the gamma data compared to other similar experiments      
+#G M         Deduced from |a(K)exp including 8.46-d {+106}Ag decay data   
+#G           |a(K)exp=ce(K)/I|g normalized to |a(K)(511.8|g)=0.00484 7 (E2
+#G theory) I(ce(K)) data are from 1966De11                                
+#G CC        Calculated for |d from adopted gammas                        
+#G $For gamma branching-ratio data, see also 8.46-d {+106}Ag decay        
+#L E$From a least squares fit to the given gamma energies                 
+#L J         From adopted levels, gammas                                  
+#P 137       13 (6)+             131 M     2              3541      6     
+RH106 PD106 beta- 3.541 7860.0 1.0
++G gamma 0.3196 0.00855
++G gamma 0.4732 0.00855
++G gamma 0.5117 0.855
++G gamma 0.6161 0.20178000000000001
++G gamma 1.1277000000000001 0.1368
++G gamma 0.7172000000000001 0.28898999999999997
++G gamma 0.32830000000000004 0.011969999999999998
++G gamma 0.4294 0.132525
++G gamma 1.0467 0.303525
++B beta- 0.675 0.028999999999999998
++G gamma 0.3745 0.002736
++G gamma 0.7031000000000001 0.04446
++G gamma 0.8046 0.12996
++B beta- 0.61 0.0165
++G gamma 0.848 0.016245
++G gamma 0.848 0.019665
++G gamma 1.5654000000000001 0.005984999999999999
++B beta- 0.607 0.012
++G gamma 0.9562 0.004788000000000001
++G gamma 1.5739 0.06669
++B beta- 0.509 0.034
++G gamma 0.22180000000000002 0.064125
++G gamma 0.2286 0.02052
++G gamma 0.7485 0.19323
++B beta- 0.489 0.037000000000000005
++G gamma 0.41919999999999996 0.005984999999999999
++G gamma 0.7938 0.05643
++G gamma 1.122 0.006840000000000001
++G gamma 1.2242 0.081225
++G gamma 1.8406 0.01881
++B beta- 0.483 0.044000000000000004
++G gamma 0.43389999999999995 0.0017100000000000001
++G gamma 0.8084 0.07438499999999999
++G gamma 1.1368 0.004275
++B beta- 0.318 0.85
++G gamma 0.39080000000000004 0.035054999999999996
++G gamma 0.406 0.11628
++G gamma 0.45080000000000003 0.241965
++G gamma 0.6806 0.01881
++G gamma 0.825 0.135945
++G gamma 1.5294 0.175275
++B beta- 0.24 0.145
++G gamma 0.1951 0.005984999999999999
++G gamma 0.586 0.00855
++G gamma 0.6012000000000001 0.029924999999999997
++G gamma 0.6457999999999999 0.027360000000000002
++G gamma 1.0205 0.019665
++G gamma 1.7246 0.02223
+

@@ -1,0 +1,75 @@
+#205PO    205AT EC DECAY                1971JO19,1982KU20,1982KU2104NDS    200404
+#  205AT EC DECAY                1971JO19,1982KU20,1982KU2104NDS    200404
+#H TYP=FUL$AUT=F.G. KONDEV$CIT=NDS 101, 521 (2004)$CUT=1-Feb-2004$        
+#  1982Ku20, 1982Ku21: mass-separated source produced using spallation of 
+#  232TH with 660-MEV protons; Detectors: GE(LI) with energy resolution of
+#  0.6 KEV (154G), 1.9 KEV (719G) and 2.8 KEV (719G), magnetic            
+#  spectrograph and SI(LI) detector with energy resolution of 2.5 KEV for 
+#   ECE AP 1 MEV; Measured: EG, IG, ICE, CEG coin, GG coin.               
+#  1971Jo19: source produced as a decay product of mass-separated 205RN   
+#  produced using spallation of 232TH with 600-MEV protons; Detectors:    
+#  GE(LI) and SI(LI); Measured: EG, IG, GG coin, ICE                      
+#  Other: 1970DaZM                                                        
+#E TI$From the decay scheme and intensity balance considerations.         
+#G E,RI$ From 1982Ku20, unless otherwise specified.                       
+#G M$ From the CE data of 1982Ku20 and the observed multiple decay        
+#G branches, unless otherwise specified.                                  
+#G M(a)$ E2 admixtures are possible.                                      
+#G MR$From EKC in 1982Ku20, unless otherwise specified.                   
+#G                                                   x-ray data           
+#G      x-ray                measured a)                deduced           
+#G                           intensity (1982Ku20)       intensity (RADLST)
+#G      ------              --------------------        --------------    
+#G      Po-XKA2                 38 3                      27.6 10         
+#G      Po-XKA1                 64 4                      45.9 17         
+#G      Po-XKB1                 22.9 16                                   
+#G      Po-XKB2                 7.3 5                                     
+#G a) Converted to absolute intensities per 100 decay by multiplying by   
+#G 0.440 16                                                               
+#G                                                                        
+#L E$ From least squares fit to EG.                                       
+#L J$From the deduced transition multipolarities using the measured       
+#L conversion coefficients (1982Ku20) and the observed multiple decay     
+#L branches, unless otherwise specified.                                  
+#L T$From adopted levels.                                                 
+#L E(A)$CONF=((P,H9/2,+2,0+)(N,F5/2,-1))                                  
+#L E(B)$CONF=((P,H9/2,+2,0+)(N,P1/2,-1))                                  
+#L E(C)$CONF=((P,H9/2,+2,0+)(N,P3/2,-1))                                  
+#L E(D)$CONF=((P,H9/2,+2,0+)(N,I13/2,-1))                                 
+#L E(E)$CONF=((P,H9/2,+2,2+)(N,F5/2,-1))                                  
+#P 0.0          9/2-             26.9 M    8               4537     25    
++B beta+ 7.639E-4 0.0017000000000000001
++B beta+ 1.517 0.0097
++B beta+ 1.512 0.013999999999999999
++B beta+ 1.409 0.00431
++B beta+ 1.281 0.012
++B beta+ 1.259 0.012
++B beta+ 1.231 0.012
++B beta+ 1.224 0.0013
++B beta+ 1.22 0.0012
++B beta+ 1.191 0.006
++B beta+ 1.162 0.0019
++B beta+ 1.178 8.0E-4
++B beta+ 1.121 0.008
++B beta+ 1.06 0.0028699999999999997
++B beta+ 0.96 8.6E-4
++B beta+ 0.957 0.0059
++B beta+ 0.946 0.0013900000000000002
++B beta+ 0.896 0.00215
++B beta+ 0.89 0.0032
++B beta+ 0.847 0.007514
++B beta+ 0.799 0.007592
++B beta+ 0.757 0.007652
++B beta+ 0.734 0.007682
++B beta+ 0.733 0.007684
++B beta+ 0.715 0.007707
++B beta+ 0.629 0.007796999999999999
++B beta+ 0.612 0.007812
++B beta+ 0.539 0.007864
++B beta+ 0.483 0.007892
++B beta+ 0.345 0.007921000000000001
++B beta+ 0.286 0.007918
++B beta+ 7.91E-4 0.00156
++B beta+ 7.909000000000001E-4 0.00156
++B beta+ 7.909000000000001E-4 0.00156
+

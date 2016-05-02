@@ -1,0 +1,79 @@
+#102PD    102AG EC DECAY (12.9 M)       2002ZA04                  09NDS    200908
+#  102AG EC DECAY (12.9 M)       2002ZA04                  09NDS    200908
+#H TYP=FUL$AUT=D. DE FRENNE$CIT=NDS 110, 1745 (2009)$CUT=31-Dec-2008$     
+#  Measured E|g, I|g, |g|g using three Compton-suppressed segmented       
+#  clover HPGe detectors and one LEPS detector                            
+#  Other: 1971Hn05                                                        
+#  All data are from 2002Za04                                             
+#  Due to serious problems with the decay scheme no normalization possible
+#L E$From least-squares fit to E|g's by the evaluator                     
+#L J$From adopted levels                                                  
+#P         0   5+                 12.9 M   3              5660      28    
+AG102 PD102 beta+ 5.66 0.0 1.0
+
+#102PD    102AG EC DECAY (7.7 M)        1971HN05,1979CO17,1981COZR09NDS    200908
+#  102AG EC DECAY (7.7 M)        1971HN05,1979CO17,1981COZR09NDS    200908
+#H TYP=FUL$AUT=D. DE FRENNE$CIT=NDS 110, 1745 (2009)$CUT=31-Dec-2008$     
+#  1971Hn05: measured E|g, I|g, |g|g-coin. Sources prepared from          
+#  mass-separated {+102}Cd contained both 12.9-min and 7.7-min activities.
+#  |g-assignments are based on decay-curve analyses and                   
+#  intensity balances.                                                    
+#  1979Co17: measured |gce(t)-coin. Isotopically separated samples.       
+#  1981CoZR: measured |g|g(|q), |g|g-coin                                 
+#  The decay scheme, as given by 1971Hn05, has been extended with data    
+#  reported by 1979Co17 and 1981CoZR from investigations of 0+ states     
+#  in {+102}Pd. However, these transitions were not taken for deducing    
+#  |b-branches.                                                           
+#  A tentative level at 2018, reported by 1971Hn05, is replaced           
+#  by a level at 2735, on the basis of p|g coincidence data of 1977La16.  
+#  Others: 1967Ba26, 1967Ch05, 1970BeYT, 1975FeZS, 1977FeZS               
+#E TI        From I(|g+ce)-imbalance at each level                        
+#G           Normalization to absolute |g-ray intensities is based on the 
+#G assumption that there is no direct (|e+|b{++})-feeding to the          
+#G {+102}Pd g.s.                                                          
+#G E,RI      Unless noted otherwise, from 1971Hn05                        
+#G E(A)      Assignment to 7.7-min or 12.9-min {+102}Ag |e decay unknown. 
+#G E(B)      From 1979Co17.                                               
+#G E(D)      From 1981CoZR                                                
+#L J         From adopted levels                                          
+#L E$From a least-squares procedure using observed gammas                 
+#P 9.2       4 2+                7.7 M     5              5669      28    
+AG102 PD102 beta+ 5.669 462.0 1.0
++G gamma 1.3312 0.029260000000000005
++G gamma 1.9249 0.01064
++G gamma 2.1107 0.00532
++G gamma 2.3102 0.013300000000000001
++G gamma 2.4939 0.007980000000000001
++G gamma 2.613 0.03325
++G gamma 2.6909 0.009309999999999999
++G gamma 2.7269 0.013300000000000001
++G gamma 2.805 0.007980000000000001
++G gamma 3.398 0.013300000000000001
++G gamma 3.4065 0.015960000000000002
++B beta+ 1.878 0.06
++G gamma 0.5567000000000001 0.42560000000000003
++G gamma 0.7193999999999999 0.04522
++B beta+ 1.415 0.036000000000000004
++G gamma 0.9777 0.026600000000000002
++G gamma 1.5348 0.026600000000000002
++G gamma 1.3878 0.015960000000000002
++B beta+ 1.082 0.018000000000000002
++G gamma 1.6923 0.02261
++B beta+ 1.016 0.07200000000000001
++G gamma 1.8347 0.09842000000000001
++B beta+ 0.932 0.019
++G gamma 2.0178 0.02793
++B beta+ 0.915 0.044000000000000004
++G gamma 2.0545 0.0665
++B beta+ 0.867 0.044000000000000004
++G gamma 2.1594 0.05054
++G gamma 2.7165 0.018619999999999998
++B beta+ 0.857 0.027999999999999997
++G gamma 1.4610999999999998 0.04522
++B beta+ 0.682 0.009000000000000001
++G gamma 1.5888 0.011970000000000001
++G gamma 2.5669 0.007980000000000001
++B beta+ 0.63 0.026000000000000002
++G gamma 2.6820999999999997 0.01729
++G gamma 3.2386 0.049210000000000004
+

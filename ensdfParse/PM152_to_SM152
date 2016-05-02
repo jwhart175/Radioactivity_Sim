@@ -1,0 +1,51 @@
+#152SM    152PM B- DECAY (7.52 M)       1977YA07                  13NDS    201311
+#  152PM B- DECAY (7.52 M)       1977YA07                  13NDS    201311
+#H TYP=FUL$AUT=M. J. MARTIN$CIT=NDS 114, 1497 (2013)$CUT=31-Aug-2013$     
+#  Measured: |g, |g|g (1977Ya07,1973WiYY,1972Wa04,1971Da19), |b{+-}       
+#  (1971Da19,1972Wa04), |b|g (1972Wa04)                                   
+#B IB        From intensity balance in level scheme                       
+#G M,MR      From adopted gammas                                          
+#G RI(A)     Weak                                                         
+#G E(B),RI(B)$1977YA07 REPORT EG=1193.2 2 WITH IG=3.3 3 WHICH, ON         
+#G THE BASIS OF GG, THEY PLACE FROM A LEVEL AT 2003. IN (A,2NG) AND       
+#G (N,N'G) AN 1193G IS PLACED DEEXCITING THE ADOPTED 1559.6 5+            
+#G LEVEL. IT IS POSSIBLE THAT THE 1193G IN PM DECAY IS A DOUBLET AND      
+#G THAT THE 1559.6 LEVEL IS BEING POPULATED IN THAT DECAY.                
+#L J         From adopted levels                                          
+#P 1.5E+2     9 4-               7.52 M    8              3508      26    
+PM152 SM152 beta- 3.508 451.2 1.0
++B beta- 1.352 0.19
++B beta- 1.178 0.05
++B beta- 1.132 0.006999999999999999
++B beta- 1.052 0.009000000000000001
++B beta- 1.044 0.0161
++B beta- 1.009 0.017
++B beta- 0.956 0.006999999999999999
++B beta- 0.911 0.0044
++B beta- 0.894 0.02
++B beta- 0.81 0.011000000000000001
++B beta- 0.802 0.013500000000000002
++B beta- 0.735 0.0066
++B beta- 0.72 0.005699999999999999
++B beta- 0.702 0.57
++B beta- 0.615 0.004
++B beta- 0.597 0.081
++B beta- 0.479 0.0129
++B beta- 0.445 0.0077
++B beta- 0.412 0.0077
++B beta- 0.377 0.0092
++B beta- 0.368 0.0046
++B beta- 0.248 0.0106
++B beta- 0.246 0.005699999999999999
+
+#152SM7C  POPULATED DIRECTLY IN THE B- DECAY OF THE 13.8-MIN 152PM ISOMER,       
+#  POPULATED DIRECTLY IN THE B- DECAY OF THE 13.8-MIN 152PM ISOMER,       
+#  WITH PROBABLE KPI=8-                                                   
+#G E$THE 116.5, 852.8, AND 1193.1 G'S WERE SEEN ONLY IN (A,2NG). THE      
+#G 63, 137, 200, 230, AND 360 G'S WERE REPORTED BY 1985YAZV, THE 137.4,   
+#G 229.9, AND 360.4 G'S BY 1977YA07, AND THE 1214, 1233, AND 1437.5 G'S   
+#G BY 1971DA19                                                            
+#L E         Rounded-off values from adopted levels                       
+#L J         From adopted levels                                          
+#P 150+X       (8)               13.8 M    2              3508      26    
+

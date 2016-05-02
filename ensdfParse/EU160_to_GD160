@@ -1,0 +1,702 @@
+#160GD  XT160EU B- DECAY                                                         
+#XT160EU B- DECAY                                                         
+#XU160GD(N,N'G)                                                           
+#XVCOULOMB EXCITATION                                                     
+#XW160GD(D,D')                                                            
+#XX160GD(P,P'),(POL P,P')                                                 
+#XY160GD(G,G')                                                            
+#XZ158GD(T,P)                                                             
+#N                                                                     6  
+#L 0.0          0+               STABLE                               A   
+#L XREF=+                                                                 
+#L           Values for DAVRSQ(160GD-158GD) measured using a variety of   
+#L techniques have been reported. Some of these are as follows (the       
+#L values being expressed in units of FM**2): 0.161 12, from muonic       
+#L K- and L-X-RAY measurements (1983La08); 0.164 5, from                  
+#L LASER-spectroscopic measurements of optical isotope shifts (1990Du08); 
+#L 0.154 10, from isotope shifts of electronic K-X-RAY transitions        
+#L (1969Bh02); and 0.146 8, from optical isotope-shift measurements       
+#L (1987Bo58). 1990Wa25 report LAMBDA(160GD-158GD)=0.135 7 (where         
+#L LAMBDA AP DAVRSQ) from optical isotope-shift measurements. Other       
+#L measurements are reported by, e.g., 1976Ah04, 1988Al40, 1988Kr15.      
+#L 1987Au06 give a compilation of optical isotope-shift information       
+#L (expressed, however, in terms of the nuclear parameter LAMBDA).        
+#L 1995Fr22 REPORT AN ANALYSIS OF DAVRSQ VALUES FROM OPTICAL, MUONIC-ATOM,
+#L AND ELECTROMAGNETIC INTERACTIONS FOR A NUMBER OF Gd-isotope PAIRS. FOR 
+#L 160GD, THEY REPORT DAVRSQ(160GD-156GD)=0.335 fm{+2} 35. IN AN          
+#L EVALUATION OF NUCLEAR rms CHARGE RADII, 2004An14                       
+#L REPORT <r{+2}>{+1/2}=5.17 FM 3.                                        
+#L T         T GT 1.3E+21 Y FOR 0|n,2|b DECAY AND GT 1.9E+19 Y FOR        
+#L  2|n,2|b DECAY, FROM THE SURVEY BY 2002Tr04 (these ARE THE VALUES      
+#L  REPORTED BY 2001Da22 AND ARE QUOTED AT THE 90% CONFIDENCE LEVEL).     
+#L 75.26      1 2+               2.72 NS   1                          A   
+#L           MOMM1=+0.73 3 $ MOME2=-2.08 4 $  XREF=+                      
+#L J         COULOMB excited; member of GS band                           
+#L T         from COULOMB excitation                                      
+#L MOMM1     FROM THE COMPILATION OF g-FACTORS BY 1995St11. THE + SIGN    
+#L  IS INCLUDED BY THE EVALUATOR, SINCE 1995St11 DO NOT GIVE SUCH IN      
+#L  THEIR LISTING OF ^g FACTORS. IN THE COMPILATIONS OF 1989Ra17 AND      
+#L  2001StZZ, MOMM1=+0.72 4 IS LISTED.                                    
+#L MOME2     from the compilations of 1989Ra17 and 2001StZZ.              
+#G 75.26      1 100      [E2]                    7.44                     
+#G BE2W=201.2 16                                                          
+#G E         from curved crystal measurement in Coul. ex.                 
+#L 248.52     6 4+                                                    A   
+#L XREF=-(Y)$ MOMM1=+1.52 20 $                                            
+#L           M(E4; 0+ to 4+)=0.33 5 from Coul. ex.                        
+#L J         E4 COULOMB excited; member of GS band                        
+#L MOMM1     computed by the evaluator from ^g(4+)=+0.38 5, as            
+#L determined, relative to ^g(2+)=+0.387 4 for 156GD (1989Ra17), by       
+#L 1991St01 in Coul. ex. SEE, ALSO, THE COMPILATION OF 2001StZZ.          
+#G 173.19     9 100       [E2]                   0.364                    
+#L 514.75     8 6+                                                    A   
+#L XREF=-(TY)$ MOMM1=+2.3 3 $                                             
+#L J         COULOMB excited; member of GS band                           
+#L MOMM1     computed by the evaluator from ^g(6+)=+0.38 5, as            
+#L determined, relative to ^g(2+)=+0.387 4 for 156GD (1989Ra17),          
+#L by 1991St01 in Coul. ex. SEE, ALSO, THE COMPILATION OF 2001StZZ. THE   
+#L + SIGN IS THAT OF THE EVALUATOR.                                       
+#G 266.31     8 100      [E2]                    0.0880                   
+#L 867.9        8+                                                    A   
+#L XREF=SV                                                                
+#L J         COULOMB excited; member of GS band                           
+#G 352.9        100      [E2]                     0.0371              M   
+#L 913        7                                                          ?
+#L XREF=Z                                                                 
+#L 946                                                                   ?
+#L XREF=W                                                                 
+#L 988.40     8 2+               1.30 PS   6                          B   
+#L XREF=-(STY)                                                            
+#L J         G's to 0+ and 4+ members of the GS band. ^Coulomb excited,   
+#L with a BE2 value typical of those for bandheads of |g-vibrational      
+#L bands.                                                                 
+#L T         from BE2                                                     
+#G 740.05    20   3.4   4 E2                     0.00536                  
+#G BE2W=0.72 10                                                           
+#G 913.25    16 100.0  11 E2(+M1)    100   GE                             
+#G BE2W=7.1 2 $ BM1W LE 1.3E-6$                                           
+#G 988.52    15  76.7  22 E2                     0.00284                  
+#G BE2W=3.80 22                                                           
+#L 1016                                                                  ?
+#L XREF=W                                                                 
+#L 1057.54    9 3+                                                    B   
+#L XREF=UVXZ                                                              
+#L J         G's only to 2+ and 4+ members of GS band. The 3+ member of   
+#L the GAMMA-vibrational band                                             
+#G 809.01    15  38.7  11                                                 
+#G 982.13    15 100.0  12                                                 
+#L 1070.42    9 4+                                                    C   
+#L XREF=TUW                                                               
+#L J         G's to 2+ and 6+ members of GS band.                         
+#G 556.4      5   2.8  13                                                 
+#G 822.04    18 100     6                                                 
+#G 995.13    15  61.1  10                                                 
+#L 1147.78    9 4+                                                    B   
+#L XREF=-(STY)                                                            
+#L J         G's to 2+ and 6+ members of GS band.                         
+#L BE4UP value, from (POL P,P') coupled-channel analysis, is suggestive   
+#L of collective (G-vibrational) character                                
+#G 632.89    14  50     2                                                 
+#G 899.42    20 100     3                                                 
+#G 1072.63   15  46     5                                                 
+#L 1192.69   11 5+                                                    C   
+#L XREF=U                                                                 
+#L J         G's to 4+ and 6+ members of GS band indicate                 
+#L JPI=4+,5,6+. The relative strength of the transition to 1070, 4+       
+#L level and the energy spacing support the interpretation of this state  
+#L as the 5+ member of the 1070-KEV, KPI=4+ band.                         
+#G 122.3      1 100    11                                                 
+#G 678.9      7  24     6                                                 
+#G 943.97    20  58     4                                                 
+#L 1224.28    9 1-               0.015 PS  4                          D   
+#L XREF=-(SZ)                                                             
+#L J         dipole excitation in (G,G'), with G branching ratio          
+#L suggesting E1. Population of this level in (D,D') suggests natural     
+#L parity, although level is only weakly excited there. Bandhead of       
+#L KPI=0- octupole vibration.                                             
+#L T         calculated by evaluator from WIDTHG0**2/WIDTH=4.5 ^meV 12    
+#L in (G,G') (1989Pi05) and the adopted G branching from this level.      
+#G 235.5      3   4.1  11 [E1]                    0.0297              &   
+#G BE1W=0.018 18                                                          
+#G BE1W      this G has more than one proposed placement in the level     
+#G scheme. The listed BE1W corresponds to the range of RI values          
+#G possible for this placement.                                           
+#G 1149.18   15 100.0  22 [E1]                   0.00088                  
+#G BE1W=0.0060 17                                                         
+#G 1224.14   15  65.2  15 (E1)                   0.00079                  
+#G BE1W=0.0032 9                                                          
+#L 1261.07   12 5+                                                    B   
+#L XREF=U                                                                 
+#L J         from expected band structure and transitions to 4+ and 6+    
+#L members of GS band and, possibly, to 3+ member of GAMMA band           
+#G  203.0     4  11     6                                             &   
+#G  746.30   20  23     2                                                 
+#G 1012.47   15 100     4                                                 
+#L 1290.10    9 3-               0.051 PS  14                         D   
+#L XREF=UVWXZ(1299) $ BE3=0.120 6                                         
+#L J         E3 excitation in Coul. ex. BE3UP indicates collective        
+#L excitation.                                                            
+#L T         from 1981Mc06, based on DOPPLER-broadened line shape         
+#L in COULOMB excitation                                                  
+#G  301.9     4   2.3   8 [E1]                   0.0157                   
+#G BE1W=0.0024 11                                                         
+#G 1041.42   16  52     2 [E1]                   0.00106                  
+#G BE1W=0.0013 4                                                          
+#G 1214.92   15 100     2  (E1)                  0.00080                  
+#G BE1W=0.0016 5                                                          
+#G M         from Coul. ex.                                               
+#L 1295.57   15(4+,5+)                                                    
+#L XREF=U                                                                 
+#L J         G's to states having 3+ and 6+. Rotational-band assignment   
+#L unclear at present                                                     
+#G  148.2     9   8     7                                                 
+#G  225.0     3  34     4                                                 
+#G  238.5    10  22    18                                                 
+#G  781.71   30  23     4                                                 
+#G 1046.72   18 100     6                                                 
+#L 1300.7      10+                                                    A   
+#L XREF=V $                                                               
+#L           g(10+)/g(2+)=0.93 13 (1983Ha24)                              
+#L J         COULOMB excited, with sole observed decay mode being a G to  
+#L the 8+ member of the GS band. This, together with the level energy,    
+#L indicates that this is the 10+ member of this band.                    
+#G  432.7       100       [E2]                    0.0207              M   
+#L 1325.73   15(0+)                                                   E   
+#L XREF=U                                                                 
+#L J         observed to deexcite only to 2+ member of GS band, which     
+#L is consistent with a 0+ assignment. Population pattern in (N,N'G) is   
+#L not inconsistent with this and energy spacing between this state and   
+#L the 1377 level is reasonable for members of a KPI=0+ band (1989Be48).  
+#G 1250.40   16 100       (E2)                   0.00176                  
+#L 1331.11   17 6+                                                    C   
+#L XREF=U                                                                 
+#L J         G's to the 4+ and 6+ members of the GS band indicate         
+#L JPI=4+,5,6+. The relative strength of the transition to the 1192, 5+   
+#L level (to the extent that some of the strength of this G is            
+#L associated with this placement) and the energy spacing support the     
+#L interpretation of this state as the 6+ member of the 1070-KEV, KPI=4+  
+#L band.                                                                  
+#G  138.15   20  19     5                                             &   
+#G  816.55   25 100     7                                                 
+#G 1082.9    10   3.6  21                                                 
+#L 1351.09   10 1,2+                                                      
+#L XREF=U                                                                 
+#L J         G's to 0+, 2+ and, possibly, 4+ states. If at least          
+#L some of the RI(203) to 4+ is associated with this level, then JPI=2+   
+#G  126.7     2   9.4  18                                                 
+#G  203.0     4   8     4                                             &   
+#G 1275.90   15 100     3                                                 
+#G 1351.0     2  29.7  21                                                 
+#L 1377.06   13(2+)                                                   E   
+#L XREF=U                                                                 
+#L J         G's to 2+ and 4+ imply JPI=2+, 3, or 4+. Excitation          
+#L function in (N,N'G) indicates 2+ (1974El06). RI(1129) to 4+ is much    
+#L larger than that of the transition to the GS (which is not observed).  
+#L This is consistent with what is expected for DK=0, but not DK=2,       
+#L transitions.                                                           
+#G  305.7     7   1.6   9 [E2]                   0.0571                   
+#G  319.0     4   2.6   4                                                 
+#G 1129.0     6   5.2  15 [E2]                   0.00216                  
+#G 1301.70   17 100     6                                                 
+#L 1379.56   24 0+                                                    F   
+#L XREF=UZ(1382)                                                          
+#L J         L=0 in (T,P).                                                
+#G 1304.30   24 100       [E2]                   0.00162                  
+#L 1388.64   17(2+)                                                       
+#L XREF=U                                                                 
+#L J         G's to 0+, 2+ and, possibly, 3+ and 4+ levels consistent     
+#L with JPI=2+                                                            
+#G  241.2     9  20    15                                             &   
+#G  330.8     5   4.4  22                                             &   
+#G  400.2     4   5.8  22                                                 
+#G 1313.0     8  34    12                                                 
+#G 1388.7     2 100     5                                                 
+#L 1392.80   11 6+                                                    B   
+#L XREF=UV                                                                
+#L J         G's to 4+ and 6+ members of the GS band. Energy spacing      
+#L and excitation in Coul. ex. (^indicating collective character)         
+#L support assignment of the state as the 6+ member of the                
+#L |g-vibrational band.                                                   
+#G  244.9     5  91    38 [E2]                   0.115                    
+#G  878.10    8 100     9                                                 
+#G 1142.9     5  40    13 [E2]                   0.00211                  
+#L 1427.86   11 5-                                                    D   
+#L XREF=UVW                                                               
+#L J         G's to 3- and 6+ require JPI=4+ or 5-. Ratio of (D,D') cross 
+#L sections at 90 DEG and 125 DEG, together with level energy, indicate   
+#L that this is the 5- member of the KPI=0- octupole band.                
+#G  138.15   20  23     6                                             &   
+#G  235.5     3  17     4                                             &   
+#G  913          45    LT                                                 
+#G 1178.8     2 100     6 [E1]                   0.00084                  
+#L 1435.99   11 2+                                                    F   
+#L XREF=U                                                                 
+#L J         G's to 0+ and 4+. BE2 ratios indicate K=0                    
+#G  288.0     3  11     2                                             &   
+#G 1187.7     2 100     6 [E2]                   0.00195                  
+#G 1360.69   17  30     3                                                 
+#G 1435.8     2  20     1 [E2]                   0.00134                  
+#L 1460.3     4(3-)                                                       
+#L XREF=TWX                                                               
+#L J         ratio of (D,D') cross sections at 90 DEG and 125 DEG. G's    
+#L to 4+ and, possibly, 2+ states.                                        
+#G 1385.0     4 100    14                                                 
+#G 1461.7     6  64     7                                                ?
+#L 1531.74    9 2+,3,4+                                                   
+#L XREF=U                                                                 
+#L J         G's to 2+ and 4+ states. 1989Be48 propose this level         
+#L as bandhead of a KPI=4+ band                                           
+#G  384.19   18 100    11                                                 
+#G  460.2     8   4.8  16                                             &   
+#G  474.18   20  35     5                                                 
+#G  543.45   10  56     5                                                 
+#G 1282.6    10  35    21                                                 
+#G 1456.6     6  19    10                                                 
+#L 1537.41   13 4+                                                    E   
+#L XREF=U                                                                 
+#L J         G's to 2+ and 6+ states                                      
+#G  160.1     3  58    11                                                 
+#G  241.2     9  53    38                                             &   
+#G  467.2     2  26     4                                                 
+#G  479.8     2  34     4                                                 
+#G  549.3     6  11     4                                                 
+#G 1023.0     9  23    13                                                 
+#G 1289.2     4 100    21                                                 
+#G 1461.6     6  32     9                                                 
+#L 1548.61   23(7+)                                                   B   
+#L XREF=U                                                                 
+#L J         G's to 5+ and 6+ states. Expected band structure of          
+#L G-vibrational band                                                     
+#G  288.0     3 100    20                                             &   
+#G 1033.4     3 100    25                                                 
+#L 1568.69   12 1,2+                                                      
+#L XREF=U                                                                 
+#L J         G's to 0+ and 2+ states                                      
+#G  217.6     2  20    25                                             &   
+#G  580.15   25  69     9                                                 
+#G 1493.4     3  72     5                                                 
+#G 1568.9     3 100     9                                                 
+#L 1584.03   10 2+                                                    G   
+#L XREF=TU                                                                
+#L J         G's to 0+ and 4+ states                                      
+#G  293.8     2   3.8   6                                                 
+#G  513.6     2 100    12                                                 
+#G 1508.2     3   8.9   8                                                 
+#G 1584.6     6   4.7  14                                                 
+#L 1586.99   13 1,2+                                                      
+#L XREF=U                                                                 
+#L J         G's to 0+ and 2+ states                                      
+#G 1511.78   23  38     3                                                 
+#G 1586.70   20 100     5                                                 
+#L 1599.12   13 1,2+                                                      
+#L XREF=U                                                                 
+#L J         G's to 0+ and 2+ states                                      
+#G   247.5    4  74    24                                                 
+#G   374.9    5  22     8                                             &   
+#G  1523.79  19 100     5                                                 
+#G  1599.23  26  70     6                                                 
+#L 1634.0     3                                                       J   
+#L XREF=U                                                                 
+#L 1643        (7-)                                                   D   
+#L XREF=V                                                                 
+#L J         G's to 6+ and 8+ members of the GS band. Energy spacing and  
+#L excitation in Coul. ex. ^suggest that this is the 7- member of         
+#L the 0- octupole band.                                                  
+#G 775                                                                    
+#G 1128                                                                   
+#L 1653.09   15 4+,5,6+                                                   
+#L XREF=U                                                                 
+#L J         G's to 4+ and 6+ states. 1989Be48 propose this level as      
+#L the 5+ member of a 4+ band based at 1531.9 KEV                         
+#G   391.8    2  23    10                                                 
+#G  1138.4    2 100    11                                                 
+#G  1404.9    3  82     6                                                 
+#L 1665.39   15(3+)                                                   G   
+#L XREF=U                                                                 
+#L J         G's to 2+ and 4+ states indicates JPI=2+,3,4+. Assigned as   
+#L the 3+ member of a KPI=2+ band by 1989Be48.                            
+#G   288.0    3  38     8                                             &   
+#G   374.9    5  27     9                                             &   
+#G  1416.7    2 100    11                                                 
+#G  1590.8    3  92     9                                                 
+#L 1685.5     3                                                       J   
+#L XREF=U                                                                 
+#L 1687.95   23(3-)                                                       
+#L XREF=UWZ(1694)                                                         
+#L J         ratio of the (D,D') cross sections at 90 DEG and 125 DEG     
+#L suggests 3-. Existence of G's to 2+, 3+, and, possibly, 3- states is   
+#L not inconsistent with this.                                            
+#G   397.3    3 164    27                                             &   
+#G   630.0    5  95    32                                                 
+#G  1613.9    4 100    18                                                 
+#L 1717        (8+)                                                   B   
+#L XREF=V                                                                 
+#L J         G's to 6+ and 8+ levels. Level energy consistent with that   
+#L of the 8+ member of the G-vibrational band.                            
+#G 325                                                                    
+#G 849                                                                    
+#G 1202                                                                   
+#L 1720.2    13                                                       J   
+#L XREF=U                                                                 
+#L 1779.07   22                                                       J   
+#L XREF=U                                                                 
+#L 1806.3      12+                                                    A   
+#L XREF=V                                                                 
+#L J         sole observed mode of decay is a G to the 10+ member of      
+#L the GS band. Level energy and population in ^Coulomb excitation        
+#L indicate that this is the 12+ member of this band.                     
+#G 505.5        100       [E2]                    0.0137              M   
+#L 1913.0     1                                                       J   
+#L XREF=U                                                                 
+#L 1941        (9-)                                                   D   
+#L XREF=V                                                                 
+#L J         G's to 8+ and 10+ members of the GS band. Level energy       
+#L consistent with assignment as the 9- member of the 0- octupole band.   
+#G 640                                                                    
+#G 1073                                                                   
+#L 1966.64   22 1-                                                        
+#L XREF=UY                                                                
+#L J         E1 excitation in (G,G')                                      
+#L T         from WIDTHG0**2/WIDTH=3.9 ^meV 9 (1989Pi05) and assuming     
+#L that the 1891 and 1967 G's are the only deexciting transitions,        
+#L the evaluator calculates T=0.020 PS 5 for the 1966.4 level.            
+#G  1891.0    3 100     9 [E1]                                            
+#G BE1W=0.0010 3                                                          
+#G BE1W      computed by evaluator from WIDTHG0**2/WIDTH in (G,G') under  
+#G the assumption that the 1891 and 1967 G's are the only deexciting      
+#G transitions.                                                           
+#G  1967.0    3  70     6  E1                                             
+#G BE1W=0.00062 17                                                        
+#G BE1W      computed by evaluator from WIDTHG0**2/WIDTH in (G,G') under  
+#G the assumption that the 1891 and 1967 G's are the only deexciting      
+#G transitions.                                                           
+#L 1971.5     4 1(-),2+                                                   
+#L XREF=UW(1973)                                                          
+#L J         G's to 0+ and 2+ levels. Excitation in (D,D') suggests       
+#L natural parity, but level is only weakly excited.                      
+#G   535.5   10  24    20                                                ?
+#G           placed by evaluator. Shown by 1989Be48, in (N,N'G),          
+#G deexciting the 1548 level                                              
+#G  1895.6    5  88    24                                                 
+#G  1971.9    4 100    12                                                 
+#L 1996.67    9 2+                                                    H   
+#L XREF=TU                                                                
+#L J         G's to (0+), 2+, and 4+ states. LOGF1UT LT 8.5 in B- decay   
+#L of 160EU to both this state and the G.S. If LOGFT=5.2 reported by      
+#L 1973Da05 for the B- transition to this level is correct, or even       
+#L nearly so, then this level likely contains a significant component     
+#L of a four-quasiparticle excitation. See the comments in the 160EU B-   
+#L Decay data set and in the 160EU Adopted Levels data set.               
+#G   217.6    2  12    15                                             &   
+#G   330.8    5   4.6  23                                             &   
+#G   397.3    3  27     5                                             &   
+#G   412.56  10 100     5                                                 
+#G   427.93  23  11     2                                                 
+#G   460.2    8   2.3   8                                             &   
+#G   465.1    1   7.6  23                                             &   
+#G   559.7    7  16     8                                                 
+#G   645.1    7   6     4                                                 
+#G   670.5    4   7.6  23                                                 
+#G   926.8    4  34     5                                                 
+#G E,RI      from 160EU B- decay                                          
+#G   938.86  25  12     2                                                 
+#G  1008.4    3  28     5                                                 
+#L 2031.1     3                                                       J   
+#L XREF=U                                                                 
+#L 2052.15   14 2+,3,4+                                               H   
+#L XREF=U                                                                 
+#L J         G's to 2+ and 4+ states. Assigned as 3+ member of            
+#L KPI=2+ band by 1989Be48.                                               
+#G   465.1    1  63    19                                             &   
+#G   484.3    8  25    12                                                 
+#G   674.9    7  63    38                                                 
+#G   762.0    5  63    19                                                 
+#G   904.2    4  56    38                                                 
+#G  1064.3    3  88    19                                             &   
+#G  1977.0    5 100    19                                                 
+#L 2059.4     6                                                       J   
+#L XREF=UW(2063)                                                          
+#L 2108.6     3                                                       J   
+#L XREF=U                                                                 
+#L 2111.5     2                                                       J   
+#L XREF=U                                                                 
+#L 2118        (10+)                                                  B   
+#L XREF=V                                                                 
+#L J         G's to 8+ and 10+ states. Level energy consistent with       
+#L assignment as the 10+ member of the G-vibrational band.                
+#G 401                                                                    
+#G FL=1717                                                                
+#G 817                                                                    
+#G 1250                                                                   
+#L 2121.11   18 4+                                                    H   
+#L XREF=U                                                                 
+#L J         G's to 2+ and 6+ states                                      
+#G   729.6   15  24    24                                                 
+#G   789.5    4  57    10                                                 
+#G   859.4    3  57    24                                                 
+#G   929.3    6  29    10                                                 
+#G   972.7    9  90    48                                                 
+#G  1064.3    3  67    14                                             &   
+#G  1132.4    7 100    33                                                 
+#G  1872.8    8  43    29                                                 
+#L 2139       7                                                           
+#L XREF=W(2141)Z                                                          
+#L  2163      1  1                                                        
+#L XREF=Y                                                                 
+#L J         dipole excitation in (G,G')                                  
+#G  2088      1   59   16                                                 
+#G  2163      1  100        D                                             
+#L 2176.3     3                                                       J   
+#L XREF=U                                                                 
+#L 2230.8     3                                                       J   
+#L XREF=UZ(*2236)                                                         
+#L J         assigned as 2+,3 in (N,N'G). However, in (T,P) L=(0) to a    
+#L level at 2236                                                          
+#L 2238.0     3                                                       J   
+#L XREF=UZ(*2236)                                                         
+#L J         assigned as 1+,2+ in (N,N'G). However, in (T,P) L=(0) to a   
+#L level at 2236                                                          
+#L 2244.4     3                                                       J   
+#L XREF=U                                                                 
+#L 2253.5     3                                                       J   
+#L XREF=U                                                                 
+#L  2278      1  1                                                        
+#L XREF=Y                                                                 
+#L J         dipole excitation in (G,G')                                  
+#G  2203      1   73   24                                                 
+#G  2278      1  100        D                                             
+#L 2313        (11-)                                                  D   
+#L XREF=V                                                                 
+#L J         G to the 10+ member and possible G to the 12+ member of the  
+#L GS band. Level energy consistent with assignment as the 11- member     
+#L of the 0- octupole band.                                               
+#G 507                                                                   ?
+#G 1012                                                                   
+#L 2319.1     3                                                       J   
+#L XREF=U                                                                 
+#L 2346.5     3                                                       J   
+#L XREF=UZ(*2350)                                                         
+#L  2348      1 1+                                                        
+#L XREF=YZ(*2350)                                                         
+#L J         M1 excitation in (G,G')                                      
+#G  2273      1   50    5 [M1]                                            
+#G BM1W=0.023 3 $ FLAG=Q $                                                
+#G  2348      1  100       M1                                             
+#G BM1W=0.042 3 $ FLAG=Q $                                                
+#L 2368.4     5                                                       J   
+#L XREF=U                                                                 
+#L 2376.8     3                                                       J   
+#L XREF=U                                                                 
+#L 2377.3      14+                                                    A   
+#L XREF=V                                                                 
+#L J         sole observed decay mode is a G to the 12+ member of the GS  
+#L band. Level energy and population in ^Coulomb excitation indicate      
+#L that this is the 14+ member of that band.                              
+#G 571.0        100       [E2]                    0.0100              M   
+#L 2379.0     3                                                       J   
+#L XREF=U                                                                 
+#L 2407.6     4                                                       J   
+#L XREF=UZ(2410)                                                          
+#L 2450.2     4                                                       J   
+#L XREF=U                                                                 
+#L  2471      1  1-                                                       
+#L XREF=Y                                                                 
+#L J         E1 excitation in (G,G')                                      
+#L           the large BE1 value (3.1E-5 5) for exciting this level in    
+#L (G,G') has been used as evidence for considering it to be a            
+#L collective electric-dipole excitation arising from, for example, a     
+#L reflection-asymmetric shape and/or a cluster configuration.            
+#G  2396      1  100   11 [E1]                                            
+#G BE1W=9.0E-04 17 $ FLAG=R $                                             
+#G  2471      1   66       E1                                             
+#G BE1W=5.4E-04 8 $ FLAG=R $                                              
+#L 2537.7     3                                                       J   
+#L XREF=U                                                                 
+#L 2547.9     3                                                       J   
+#L XREF=U                                                                 
+#L 2582        (12+)                                                  B   
+#L XREF=V                                                                 
+#L J         G's to 10+ and 12+ levels. Level energy consistent with      
+#L assignment as the 12+ member of the G-vibrational band.                
+#G 464                                                                    
+#G 776                                                                    
+#G 1282                                                                   
+#L 2596.7     4                                                       J   
+#L XREF=U                                                                 
+#L  2670      1  1+                                                       
+#L XREF=Y                                                                 
+#L J         M1 excitation in (G,G')                                      
+#G  2595      1   53    4 [M1]                                            
+#G BM1W=0.021 2 $ FLAG=Q $                                                
+#G  2670      1  100       M1                                             
+#G BM1W=0.036 3 $ FLAG=Q $                                                
+#L  2761      1  1                                                        
+#L XREF=Y                                                                 
+#L J         dipole excitation in (G,G')                                  
+#G  2686      1  100                                                      
+#G  2761      1   56   12   D                                             
+#L  2796      1  1+                                                       
+#L XREF=Y                                                                 
+#L J         M1 excitation in (G,G')                                      
+#G  2721      1   56.8 22 [M1]                                            
+#G BM1W=0.086 6 $ FLAG=Q $                                                
+#G  2796      1  100       M1                                             
+#G BM1W=0.14 1 $ FLAG=Q $                                                 
+#L  2820      1  1(+)                                                     
+#L XREF=Y                                                                 
+#L J         dipole, DPI=(no) excitation in (G,G')                        
+#G  2745      1  100   14 [M1]                                            
+#G BM1W=0.053 13 $ FLAG=Q $                                               
+#G  2820      1   76      (M1)                                            
+#G BM1W=0.037 7 $ FLAG=Q $                                                
+#L  2999      1  1                                                        
+#L XREF=Y                                                                 
+#L J         dipole excitation in (G,G')                                  
+#G  2924      1   36   12                                                 
+#G  2999      1  100        D                                             
+#L 3008.1      16+                                                    A   
+#L XREF=V                                                                 
+#L J         sole observed mode of decay is a G to the 14+ member of the  
+#L GS band. Level energy and population in ^Coulomb excitation indicate   
+#L that this is the 16+ member of that band.                              
+#G 630.8        100       [E2]                   0.00781              M   
+#G FL=2377.3 $                                                            
+#L  3032      1  1-                                                       
+#L XREF=Y                                                                 
+#L J         E1 excitation in (G,G')                                      
+#G  2957      1  100   11 [E1]                                            
+#G BE1W=3.7E-04 6 $ FLAG=R $                                              
+#G  3032      1   67       E1                                             
+#G BE1W=2.3E-04 3 $ FLAG=R $                                              
+#L  3131      1  1-                                                       
+#L XREF=Y                                                                 
+#L J         E1 excitation in (G,G')                                      
+#G  3056      1   84    7 [E1]                                            
+#G BE1W=3.5E-04 7 $ FLAG=R $                                              
+#G  3131      1  100       E1                                             
+#G BE1W=3.8E-04 4 $ FLAG=R $                                              
+#L  3166      1  1(-)                                                     
+#L XREF=Y                                                                 
+#L J         dipole, DPI=(yes) excitation in (G,G')                       
+#G  3091      1   64   11 [E1]                                            
+#G BE1W=2.7E-04 6 $ FLAG=R $                                              
+#G  3166      1  100      (E1)                                            
+#G BE1W=4.0E-04 5 $ FLAG=R $                                              
+#L  3170      1  1+                                                       
+#L XREF=Y                                                                 
+#L J         M1 excitation in (G,G')                                      
+#G  3095      1   60    6 [M1]                                            
+#G BM1W=0.049 7 $ FLAG=Q $                                                
+#G  3170      1  100       M1                                             
+#G BM1W=0.077 8 $ FLAG=Q $                                                
+#L  3228      1  1                                                        
+#L XREF=Y                                                                 
+#L J         dipole excitation in (G,G')                                  
+#G  3153      1  100   19                                                 
+#G  3228      1   96        D                                             
+#L  3277      1  1+                                                       
+#L XREF=Y                                                                 
+#L J         M1 excitation in (G,G')                                      
+#G  3202      1   53    4 [M1]                                            
+#G BM1W=0.061 5 $ FLAG=Q $                                                
+#G  3277      1  100       M1                                             
+#G BM1W=0.106 8 $ FLAG=Q $                                                
+#L  3292      1  1                                                        
+#L XREF=Y                                                                 
+#L J         dipole excitation in (G,G')                                  
+#G  3217      1   31    9                                                 
+#G  3292      1  100        D                                             
+#L  3308      1  1+                                                       
+#L XREF=Y                                                                 
+#L J         M1 excitation in (G,G')                                      
+#G  3233      1   58    3 [M1]                                            
+#G BM1W=0.050 5 $ FLAG=Q $                                                
+#G  3308      1  100       M1                                             
+#G BM1W=0.080 7 $ FLAG=Q $                                                
+#L  3328      1  1                                                        
+#L XREF=Y                                                                 
+#L J         dipole excitation in (G,G')                                  
+#G  3253      1                                                           
+#G RI        see the comment for this transition in the (G,G') data set   
+#G  3328      1             D                                             
+#G RI        see the comment for this transition in the (G,G') data set   
+#L  3331      1  1+                                                       
+#L XREF=Y                                                                 
+#L J         M1 excitation in (G,G')                                      
+#G  3256      1   46    5                                                 
+#G FLAG=Q $                                                               
+#G  3331      1  100       M1                                             
+#G FLAG=Q $                                                               
+#L  3340      1  1+                                                       
+#L XREF=Y                                                                 
+#L J         M1 excitation in (G,G')                                      
+#G  3265      1   59    5 [M1]                                            
+#G BM1W=0.029 4 $ FLAG=Q $                                                
+#G  3340      1  100       M1                                             
+#G BM1W=0.047 5 $ FLAG=Q $                                                
+#L  3357      1  1                                                        
+#L XREF=Y                                                                 
+#L J         dipole excitation in (G,G')                                  
+#G  3282      1   40    6                                                 
+#G  3357      1  100        D                                             
+#L  3376      1  1                                                        
+#L XREF=Y                                                                 
+#L J         dipole excitation in (G,G')                                  
+#G  3301      1   43    5                                                 
+#G  3376      1  100        D                                             
+#L  3415      1  1-                                                       
+#L XREF=Y                                                                 
+#L J         E1 excitation in (G,G')                                      
+#G  3340      1   47    3 [E1]                                            
+#G BE1W=3.6E-04 4 $ FLAG=R $                                              
+#G  3415      1  100       E1                                             
+#G BE1W=7.2E-4 7 $ FLAG=R $                                               
+#L  3460      1  1-                                                       
+#L XREF=Y                                                                 
+#L J         E1 excitation in (G,G')                                      
+#G  3385      1   40    3 [E1]                                            
+#G BE1W=2.6E-04 4 $ FLAG=R $                                              
+#G  3460      1  100       E1                                             
+#G BE1W=6.0E-04 7 $                                                       
+#L  3477      1  1(+)                                                     
+#L XREF=Y                                                                 
+#L J         dipole, DPI=(no) excitation in (G,G')                        
+#G  3402      1   43    4 [M1]                                            
+#G BM1W=0.028 5 $ FLAG=Q $                                                
+#G  3477      1  100      (M1)                                            
+#G BM1W=0.060 10 $ FLAG=Q $                                               
+#L  3537      1  1                                                        
+#L XREF=Y                                                                 
+#L J         dipole excitation in (G,G')                                  
+#G  3462      1   47    5                                                 
+#G  3537      1  100        D                                             
+#L  3550      1  1                                                        
+#L XREF=Y                                                                 
+#L J         dipole excitation in (G,G')                                  
+#G  3475      1   40    7                                                 
+#G  3550      1  100        D                                             
+#                                                                         
+
+#160GD    160EU B- DECAY                1973DA05,1973MO18         05NDS    200509
+#  160EU B- DECAY                1973DA05,1973MO18         05NDS    200509
+#H TYP=FUL$AUT=C. W. Reich$CIT=NDS 105, 557 (2005)$CUT=1-Jun-2005$        
+#  DATA SET UPDATED (JANUARY, 2004) BY CW REICH TO CHANGE PARENT JPI AND  
+#   COMMENTS REGARDING BETA FEEDING OF THE 1996, 2+ LEVEL, AS WELL AS     
+#   ADDING COMMENTS REGARDING SOURCE OF JPI AND RI VALUES.                
+#  The decay scheme is from 1973Da05. It disagrees in several important   
+#  respects with that of 1973Mo18. Neither reported decay scheme is       
+#  complete, with significant numbers of B and G transitions              
+#  most likely being unobserved. For this reason, no G-intensity          
+#  normalization is given, and G-intensity balances cannot be used        
+#  to deduce B-transition intensities.                                    
+#  Production: 160GD(N,P), enriched target, E(N)=14.8 MEV                 
+#  Measured: EG, RI, GG, BG, T1/2(G) GELI, scin                           
+#G           GAMMA rays from nuclides produced in competing reactions     
+#G were identified from measured T1/2.                                    
+#G RI        FROM 1973Da05.                                               
+#L J         FROM ADOPTED VALUES. WHERE THESE DIFFER FROM THOSE PROPOSED  
+#L  BY THE AUTHORS, THIS IS POINTED OUT.                                  
+#P    0         1                38 S      4              4580      SY    
+EU160 GD160 beta- 4.58 38.0 1.0
++B beta-4.05 0.52
+

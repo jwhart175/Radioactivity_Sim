@@ -1,0 +1,17 @@
+#122CS    122BA EC DECAY                1987WEZW                  07NDS    200704
+#  122BA EC DECAY                1987WEZW                  07NDS    200704
+#H TYP=FUL$AUT=T. TAMURA$CIT=NDS 108, 455 (2007)$CUT=30-Sep-2006$         
+#  The decay scheme is that proposed by 1987WeZW on the basis of          
+#  |g|g-coin and E|g sums.                                                
+#  1987WeZW: Ce,La({+3}He,spallation) E({+3}He)=280 MeV on-line MS;       
+#  semi, ce, |g|g-coin, no detailed information is given on I|g, Ice, and 
+#  mult.                                                                  
+#  1978Bo32: {+96}Ru({+32}S,xpyn) E({+32}S)=60 MeV, on-line MS; semi      
+#  |b{++}, |g,  K| x ray, T{-1/2} and I|g(25-65 keV)/I(Cs K| x ray)       
+#  |< 10% was measured.                                                   
+#G E         From 1987WeZW; |DE|g is assumed 0.3 keV (evaluator);         
+#G E(A)      Not observed. E|g is calculated from E(level) difference.    
+#L E         From a least-squares fit to E|g's                            
+#P 0.0         0+                1.95 M    15             3530      40    
+BA122 CS122 beta+ 3.53 117.0 1.0
+

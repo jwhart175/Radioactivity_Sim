@@ -1,0 +1,15 @@
+#103RU    103RU IT DECAY (1.69 MS)      1975BA60                  09NDS    200910
+#  103RU IT DECAY (1.69 MS)      1975BA60                  09NDS    200910
+#H TYP=FUL$AUT=D. DE FRENNE$CIT=NDS 110, 2081 (2009)$CUT=1-Mar-2009$      
+#  Others: 1964Br27, 1967Iv03, 1968Io01, 1968Ga17, 1970Uy01               
+#  Isomeric activity produced by {+104}Ru(|g,n) E=40 MeV max              
+#  bremsstrahlung; semi |g(t) spectra via 1.69-ms IT decay are compared   
+#  with 54.2-s {+103}Tc |b{+-} decay                                      
+#G M         Suggested from intensities of short-lived K x-rays           
+#L J         From adopted levels                                          
+#P 238.2     7 11/2-             1.69 MS   7                              
+RU103 RU103 IT 0.0 0.0016899999999999999 0.91
++G gamma 0.0027 0.0033900000000000002
++G gamma 0.2107 1.0
++G gamma 0.2134 0.055999999999999994
+

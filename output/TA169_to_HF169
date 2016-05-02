@@ -1,0 +1,26 @@
+#169HF    169TA EC DECAY                1975RE05                  08NDS    200809
+#  169TA EC DECAY                1975RE05                  08NDS    200809
+#H TYP=FUL$AUT=CORAL M. BAGLIN$CIT=NDS 109, 2033 (2008)$CUT=15-Jun-2008$  
+#  The decay scheme (partial only) and all data are from 1975RE05.        
+#  Sources from 159TB(16O,6N), E(16O)=116 MEV; metallic TB                
+#  targets (99.9% pure); measured EG, IG (GELI, FWHM=2.1 KEV at           
+#  1332 KEV; SILI, FWHM=200 EV at 5.6 KEV). Others: 1969AR22,             
+#  1975GR44.                                                              
+#G           Considerable intensity is unplaced, and origins of           
+#G X-RAY and G+- components, partially uncertain. It is not               
+#G possible to deduce reliable absolute intensities.                      
+#G           RI(XK), RI(G+-) (relative to RI(192.4G)=100):                
+#G                       EG         RI                                    
+#G                    ----       ----                                     
+#G   Hf XKA1     55.81 6    1350 140                                      
+#G   Hf XKB2P    65.1 1      125 13                                       
+#G   G+-              511.0 1    1260 130 (see 511.0G below)              
+#G                                                                        
+#G RI        Arbitrary units, relative to RI=100 for 192.4G (1975RE05).   
+#G E(A)      Assignment to 169TA decay uncertain.                         
+#L E         From EG (1975RE05).                                          
+#L J         From Adopted Levels.                                         
+#L E(A)      5/2[523] band member.                                        
+#P 0.0          (5/2+)           4.9 M     4              4430      40    
+TA169 HF169 beta+ 4.43 294.0 1.0
+

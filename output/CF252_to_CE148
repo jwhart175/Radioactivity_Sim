@@ -1,0 +1,41 @@
+#148CE    252CF SF DECAY                2006CH24,1995HA20,1998ZHZH14NDS    201404
+#  252CF SF DECAY                2006CH24,1995HA20,1998ZHZH14NDS    201404
+#H TYP=FUL$AUT=N. NICA$CIT=NDS 117, 1 (2014)$CUT=1-Oct-2013$              
+#  THIS REACTION AND LEVEL SCHEME WAS MULTIPLY STUDIED BY SAME GROUP.     
+#  ALMOST ALL REFERENCES AFTER 1990 (SHOWN IN THE FOLLOWING TWO ENTRIES)  
+#  ARE PUBLISHED BY THIS GROUP                                            
+#  2006Ch24: measured E|g, I|g, |g|g using Gammasphere array of 102       
+#  Compton suppressed Ge detectors. Deduced octupole correlations.        
+#  GAVE THE MOST COMPLETE LEVEL SCHEME. ALL DATA IN THE TABLES ARE FROM   
+#  THIS SOURCE, UNLESS INDICATED OTHERWISE.                               
+#  1971CH44: MEASURED ^I(|g+ce)                                           
+#  1995HA20,1995ZHZV,1998ZHZH,1999HAZV: measured EG, RI,                  
+#  |g|gx-ray, GX-ray, GG(THETA), GGG(THETA)                               
+#  2009Go09: measured g-factor of the first 2+ state by the method of     
+#  correlation attenuations in randomly oriented magnetic fields,         
+#  or Integral Perturbed Angular Correlation technique (IPAC),            
+#  using the Gammasphere array.                                           
+#  1999SM05: measured G-FACTOR of the first 2+ state using time-integral  
+#  perturbed angular correlation method                                   
+#  SEE ALSO: measured G, GG, XK                                           
+#  (1995ZH39,1988PH02,1970WI16,1970WA05,1971HO29,1972HO08,1974CLZX),      
+#  G(T) (2004LI66,1974JAZN,1974JAYY,1970WA05,1970WI16)                    
+#  G(THETA) (2010SMZZ)                                                    
+#G CC$ FROM BrIcc v2.2b (20-Jan-2009) 2008Ki07, "Frozen Orbitals" appr.   
+#G E$MEAN VALUE OF EG'S GIVEN IN COMMENT WITH UNCERTAINTY ADOPTED AS      
+#G HALF THE DIFFERENCE OF EG'S AND NOT SMALLER THAN 0.2 KEV               
+#G RI$RELATIVE INTENSITY                                                  
+#G TI(a)     G+CE per 100 SF decays (1971CH44)                            
+#L E$From least-squares fit to E|g's                                      
+#L J$FROM 2006CH24 BASED ON PRESUMED ROTATIONAL-BAND STRUCTURE AND        
+#L SYSTEMATICS, UNLESS NOTED OTHERWISE                                    
+#L J(A)$E2 G TO 0+ BAND HEAD AND REGULAR BAND                             
+#L SEQUENCE                                                               
+#L BAND(A)$ K|p=0+ band, |a=+1.                                           
+#L BAND(B)$ K|p=7- band, |a=+1.                                           
+#L BAND(C)$ K|p=3+ band, |a=-1.                                           
+#L BAND(D)$ K|p=4- band, |a=-1.                                           
+#L BAND(E)$ Band based on 7.                                              
+#P 0.0         0+                2.645 Y   8                              
+CF252 CE148 SF 0.0 8.346802377600001E7 1.0
+

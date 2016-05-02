@@ -1,0 +1,43 @@
+#209AT    213FR A DECAY                 2005KU06                  15NDS    201506
+#  213FR A DECAY                 2005KU06                  15NDS    201506
+#H TYP=FUL$AUT=J. CHEN {+#} AND F.G. KONDEV$CIT=NDS 126, 373 (2015)$      
+#H CUT=30-Sep-2013$                                                       
+#  2005KU06: Francium isotopes were produced by 209BI(12C,XN) with        
+#  the 12C beam produced from the ^UNILAC at ^GSI. Evaporation residues   
+#  were separated by the velocity filter ^SHIP and implanted into a       
+#  position sensitive 16-strip ^PIPS Si detectors (FWHM AP 22 KEV at      
+#  8 MEV). |g-rays were detected with a Ge-Clover detector (4.5(3)%       
+#  absolute efficiency at 1.3 MEV). Measured E|g, I|g, E|a, I|a,          
+#  |a|g-coin, |g|g-coin. Deduced level, |a-branchings, hindrance          
+#  factors.                                                               
+#  Others:                                                                
+#  1982BO04: Francium isotopes were produced at the LBL Bevatron.         
+#  |a particles were detected by silicon surface-barrier detectors.       
+#  Measured E|a, |a(t). Deduced levels, T1/2.                             
+#  1974HO27: Francium  isotopes were produced in the ISOLDE facility.     
+#  |a particles were detected by a silicon surface barrier detector       
+#  (FWHM=20 KEV). Measured E|a, I|a, |a(t). Deduced levels, T1/2,         
+#  |a-branchings.                                                         
+#  1967VA20:  Francium isotopes were produced at the Berkeley heavy-ion   
+#  linear acceleration (^HILAC). |a particles were detected by a Si(Au)   
+#  surface barrier detectors. Measured E|a, I|a, |a(t). Deduced levels,   
+#  T1/2, |a-branchings.                                                   
+#  1964GR04: Francium isotopes were produced at the Berkeley heavy-ion    
+#  linear acceleration (HILAC). |a particles were detected by an          
+#  ionization chamber. Measured E|a, I|a, |a(t). Deduced levels, T1/2,    
+#  |a-branchings.                                                         
+#  Others: 2012NO08, 1980LI22                                             
+#A E$From 2005KU06, unless otherwise noted.                               
+#A IA$Relative intensities normalized to 100 for the total                
+#A |a intensity, values extracted indirectly from |a|g-coin data          
+#A (2005Ku06)                                                             
+#A HF$R0=1.445 11, unweighted average of R0(208PO)=1.4343 34 and          
+#A R0(210RN)=1.4552 21 deduced using HF=1.0                               
+#G E$From 2005KU06                                                        
+#L E$From a least-squares fit to EG                                       
+#L J$From Adopted Levels                                                  
+#P 0.0          9/2-             34.6 S    3              6904.8    12    
++A alpha 6.775 0.9978
++A alpha 6.378 0.0012
++A alpha 6.211 0.001
+

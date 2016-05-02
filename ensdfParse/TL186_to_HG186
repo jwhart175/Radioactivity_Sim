@@ -1,0 +1,68 @@
+#186HG    186TL EC DECAY (27.5 S)       1994DE25,1977BE23,1977CO2103NDS    200306
+#  186TL EC DECAY (27.5 S)       1994DE25,1977BE23,1977CO2103NDS    200306
+#H TYP=FUL$AUT=CORAL M. BAGLIN$CIT=NDS 99, 1 (2003)$CUT=4-Apr-2003$       
+#  Others: 1994Jo13, 1993Jo15, 1975Ha27, 1973Pr16.                        
+#  Sources produced via 197AU(3HE,14n) (1977Be23,1994De25) and            
+#  182W(14N,10n) (1977Co21,1975Ha27).                                     
+#  The decay scheme is that of 1977Be23, modified to accommodate          
+#  levels newly proposed in 1994De25; consequently, the 1194 and 1232     
+#  levels from 1977Be23 are now omitted, leaving the 421G unplaced, and   
+#  the 478G, 574G, 788G and 826G from 1977Be23 have been relocated.       
+#  Band structure is from 1994De25.                                       
+#  In principle, this decay scheme can be normalized assuming             
+#  SUMOF (TI to GS)=100%; however, this scheme indicates significant EC   
+#  feeding of 2+, 4+, 6+ and 8+ states, suggesting more than one parent   
+#  state, in which case normalization of the scheme and calculation       
+#  of LOGFT values would be meaningless. A low spin level close to        
+#  the 186TL (7+) level is expected and may EC decay, but it might not    
+#  be noticed if its T were similar to that of the (7+) state; such       
+#  a scenario is in fact suggested by analogy with higher mass Tl         
+#  isotopes. The evaluator presumes that this decay does, indeed, have    
+#  mixed parentage. The scheme may also be quite incomplete, given the    
+#  large Q value.                                                         
+#G E,RI$Weighted average of data from 1977Be23 and 1977Co21, except as    
+#G noted.                                                                 
+#G M         From conversion electron data of 1977Be23 (normalized so     
+#G EKC(403+405)=KC(E2 theory)), except as noted.                          
+#G E(A),RI(A)$Reported as doublet with long half-life component           
+#G (1977Co21).                                                            
+#G E(B)      1977Co21 and 1977Be23 report that G of this energy definitely
+#G belongs in 186HG (from GG coin), but this EG is also present in the    
+#G 186AU daughter of 186HG. Presumably, RI may include some contribution  
+#G from the latter.                                                       
+#G E(D),RI(D)$From 1994De25; authors do not state |DI{-|g}.               
+#G E(E),RI(E)$E=478.3 5, IG=3.0 12 multiplet with long half-life component
+#G is unplaced in 1977Co21; E=477.9 3, IG=1.8 2 (1977Be23), and E=478.6 3,
+#G IG AP 1 (1994De25) transitions are placed by authors from 2057 and 2138
+#G levels, respectively. However, in (HI,XNG), a 477.6G deexcites the     
+#G 2154, 8+ member of the GS band. Since the GG coin information in       
+#G 1977Be23 is also consistent with the latter placement and 1994De25     
+#G report that they observe the 2154 level as well as the 2138 level,     
+#G the evaluator presumes that the 477.9G is a doublet and incorrectly    
+#G placed in 1977Be23.                                                    
+#G E(F),RI(F)$398-KEV gammas are reported from both the 1976 and the 2268 
+#G levels in (HI,XNG) reactions, and 1994De25 report RI=0.5 for a 399.6G  
+#G from the 2268 level in 186TL EC decay. 1977Co21 and 1977Be23 report one
+#G EG=397.84 24, RI=1.80 20 transition; this is presumably a doublet.     
+#G Since RI=0.5 from the 2268 level (1994De25), RI from 1978 level must   
+#G be 1.30 20.                                                            
+#L E         From least-squares adjustment of EG, allowing 1 KEV          
+#L uncertainty in EG whenever |DE{-|g} is unknown for all gammas          
+#L deexciting a given level.                                              
+#L T         From triple coin, centroid shift (1994Jo13). 1994Jo13        
+#L supersedes 1993JoZV; the technique is further discussed                
+#L in 1993Jo15.                                                           
+#L BAND(A)   KPI=0+ GS BAND.                                              
+#L Slightly-deformed oblate band.                                         
+#L BAND(B)   KPI=0+ |b BAND.                                              
+#L Prolate band.                                                          
+#L BAND(L)   POSSIBLE KPI=2+ QUASI-|g BAND.                               
+#L Assignment of levels to band based on comparison between observed      
+#L and calculated level energies, and consistency of observed G           
+#L deexcitation.                                                          
+#L BAND(M)   POSSIBLE SECOND |g BAND.                                     
+#L Assignment of levels to band based on comparison between observed      
+#L and calculated level energies, and consistency of observed G           
+#L deexcitation.                                                          
+#P 0.0+X       (7+)                 27.5 S 10                 8.47E3SY    
+

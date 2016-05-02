@@ -1,0 +1,14 @@
+# 55V     55TI B- DECAY                 2003MA56                  08NDS    200803
+#  55TI B- DECAY                 2003MA56                  08NDS    200803
+#H TYP=FUL$AUT=HUO JUNDE$CIT=NDS 109, 787 (2008)$CUT=30-Apr-2007$         
+#  Measured E|g, I|g, |g|g, |b-correlated |g, half-life using an array    
+#  of six segmented Ge detectors. {+55}Ti isotope was produced by         
+#  fragmentation of  140-MeV {+86}Kr{+34+} beam in a Be target.           
+#  The secondary fragments were selected in the A1900 fragment            
+#  recoil-separator, and implanted in a double-sided Si microstrip        
+#  detector to detect |b particles from decay of fragments.               
+#B IB$As given by 2003Ma56. IB ARE UPPER LIMITS.                          
+#L E         From least-squares fit to E|g's.                             
+#P  0           (GE 1/2-)        1.3 S     1              7.48E+3   18    
+TI55 V55 beta- 7.48 1.3 1.0
+

@@ -1,0 +1,66 @@
+#170LU    170HF EC DECAY                1969TR02                  02NDS    200211
+#  170HF EC DECAY                1969TR02                  02NDS    200211
+#H TYP=ERR$AUT=J. Tuli$DAT=18-DEC-2007$COM=fixed typos from PNPI rpt$     
+#H TYP=FUL$AUT=CORAL M. BAGLIN$CIT=NDS 96, 611 (2002)$CUT=15-Aug-2002$    
+#  Others: 1966HA23, 1968AB08, 1970CH17, 2000LA11.                        
+#  Sources produced, typically, by 175LU(P,6N) and 171YB(A,5N).           
+#  1970CH17: measured EG, IG.                                             
+#  1969TR02: E=66 MEV; measured EG, IG, E(ce), I(ce), ce|g-coin,          
+#  GG-coin.                                                               
+#  1968AB08: measured BG-coin, GG-coin, ^T{-1/2}.                         
+#  1966HA23: measured EG, IG, I(ce).                                      
+#  The decay scheme is that of 1969TR02; portions of the scheme from      
+#  1966HA23 differ significantly.                                         
+#L T         From GG(t) measurement (1968AB08).                           
+#E IE,LOGFT  The indicated uncertainties in I|e are those which stem from 
+#E uncertainty in GS EC branching; DRI is not given in 1969TR02.          
+#E Also, unplaced lines could influence weak branches significantly       
+#E (2.4% of IG remains unplaced). Consequently, |D(LOGFT) represents      
+#E a lower limit, and LOGFT values for weak branches do not               
+#E constitute reliable arguments for JPI assignments.                     
+#G           Data are from 1969TR02, except as noted. Conversion electron 
+#G data are given in comments; uncertainty in Ice from 1969TR02 is |?20%. 
+#G Conversion coefficients, when given, are calculated by the evaluator   
+#G from authors' stated IG and ICE (some values differ from those given   
+#G in table 3 of 1969TR02); the authors' normalization gives values       
+#G consistent with those expected based on subshell ratios for low        
+#G energy transitions, and with E1 theory for the 164.7, 572.9 and 620.7  
+#G keV transitions. EKC for other E1 transitions are, typically,          
+#G within about 30% of E1 theory, but those for 541G, 481G, 470G are      
+#G 40-50% high.                                                           
+#G E         From table 1 of 1969TR02 for transitions listed in           
+#G that table; from tables 4 and 5 otherwise. For several transitions,    
+#G slight energy differences (LE 0.1 KEV) exist between data in these     
+#G tables. DE=0.1 for photon data (1969TR02); internal consistency of     
+#G ce energies from different subshells is at least that precise, so      
+#G evaluator assigns DE=0.1 to all transitions except 661, 674, 724,      
+#G which 1969TR02 quote to nearest KEV only.                              
+#G RI        Relative photon intensities from 1969TR02 normalized so      
+#G I(165G)=119.50; uncertainties not stated by authors. IG values         
+#G (|+10%) given by 1970CH17 are in excellent agreement with those of     
+#G 1969TR02 for 10 of the 12 lines measured by 1970CH17.                  
+#G M         From available subshell ratios and/or EKC.                   
+#G MR        From subshell ratios, except as noted.                       
+#G E(A)      Assignment probable although only photons were               
+#G observed (1969TR02).                                                   
+#L BAND(F)   KPI=0+ GS BAND.                                              
+#L Configuration=((|p 7/2[404])-(|n 7/2[633])) (1969TR02).                
+#L Odd J members exhibit Newby shift.                                     
+#L BAND(Y)   KPI=1- BAND.                                                 
+#L Configuration=((|p 7/2[404])-(|n 5/2[512])) (1969TR02).                
+#L BAND(W)   PROPOSED KPI=0- BAND;                                        
+#L configuration=((|p 1/2[411])-(|n 1/2[521])) (1969TR02).                
+#L BAND(X)   KPI=1- BAND.                                                 
+#L Configuration=((|p 1/2[411])+(|n 1/2[521])) (1969TR02).                
+#E LOGFT(Z)  Apparently too low to allow J(213)=2; LOGF1UT<8.5 for        
+#E IE>0.5%.                                                               
+#N 0.22      6  0.22   6 1          1.                                    
+#N NR        no EC+B+ branch to GS has been observed. LOGFT>6.4 is        
+#N expected for this 0+ to 0+, isospin-forbidden transition; this implies 
+#N EC+B+ branching<40% to G.S. The evaluator, therefore, assumes          
+#N %EC+B+=20 20 to GS, so |S (TI to GS)=80% 20. |D(I|g                    
+#N normalization) allows only for uncertainty in branching to GS; it      
+#N would rise to 0.07 if DRI were 20%.                                    
+#N                                                                     3  
+#P 0.0         0+                16.01 H   13             1.10E3    SY    
+

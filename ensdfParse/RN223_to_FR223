@@ -1,0 +1,83 @@
+#223FR    223RN B- DECAY                1992KU03                  01NDS    200110
+#  223RN B- DECAY                1992KU03                  01NDS    200110
+#H TYP=FUL$AUT=E. BROWNE$CIT=NDS 93, 846 (2001)$CUT=1-May-2001$           
+#  223RN activity was produced by spallation of 600-MEV protons on        
+#  targets of 232TH and mass separated in the ISOLDE on-line separator.   
+#  Characteristic FR XK, and G rays previously observed in the ALPHA      
+#  decay of 227AC confirmed the assignment of the activity to 223RN.      
+#L           The structure of 223FR has been interpreted in terms of      
+#L the reflection-asymmetric rotor model, and most of the levels below    
+#L 600 KEV have been assigned to KPI=3/2+- and KPI=1/2+- parity           
+#L doublet bands.                                                         
+#L E$Deduced by evaluator from a least-squares fit to G-ray energies.     
+#L J         From adopted levels.                                         
+#L BAND(A)   KPI=3/2- PARITY DOUBLET BAND                                 
+#L BAND(a)   KPI=3/2+ PARITY DOUBLET BAND                                 
+#L BAND(B)   KPI=1/2- PARITY DOUBLET BAND                                 
+#L BAND(b)   KPI=1/2+ PARITY DOUBLET BAND                                 
+#L BAND(D)   KPI=3/2+ PARITY DOUBLET BAND                                 
+#L BAND(d)   KPI=3/2- PARITY DOUBLET BAND                                 
+#L BAND(E)   KPI=5/2- PARITY DOUBLET BAND                                 
+#B IB$Deduced by evaluator from G-ray transition intensity balance        
+#B at each level.                                                         
+#G           Experimental FR XK intensities: 330 13 (XKA2),               
+#G 580 30 (XKA1), and 252 10 (XKB), compare with 400 42 (XKA2),           
+#G 650 58 (XKA1) and 300 33 (XKB), respectively, deduced by evaluator     
+#G (using ^RADLST) from the G-ray intensities and K-conversion            
+#G coefficients                                                           
+#G presented here, using a K-fluorescence yield of 0.967 4 (1996SC06).    
+#G CC$Conversion coefficients for M1+E2 multipolarities are for MR=1.0,   
+#G unless MR is given.                                                    
+#G E(A),RI(B)$From GG coin measurement.                                   
+#G RI(D)$Deduced by evaluator from reported TI, and CC.                   
+#G           Measured EG, RI, GG coin, ICE. Deduced multipolarities.      
+#G Detector: high-purity germanium, mini-orange magnetic spectrometer.    
+#G           Others: 1986BO35, 1982BRZF, 1975VYZS, 1964BU02, 1961BE28.    
+#P 0.0          7/2              24.3 M    4              1900      SY    
+RN223 FR223 beta- 1.9 1458.0 1.0
++B beta- 0.67588 0.24
++B beta- 0.64754 0.21
++B beta- 0.64044 0.021
++B beta- 0.6398400000000001 0.02
++B beta- 0.6109600000000001 0.02
++B beta- 0.6048300000000001 0.09
++B beta- 0.5916699999999999 0.008
++B beta- 0.59028 0.017
++B beta- 0.53285 0.006999999999999999
++B beta- 0.46341000000000004 0.0023
++B beta- 0.43795999999999996 0.14
++B beta- 0.42151 0.027000000000000003
++B beta- 0.42069999999999996 0.047
++B beta- 0.40707 0.0044
++B beta- 0.40172 0.0025
++B beta- 0.38697000000000004 0.11
++B beta- 0.37686000000000003 0.0053
++B beta- 0.36945 0.013999999999999999
++B beta- 0.34970999999999997 0.006
++B beta- 0.3479 0.0027
++B beta- 0.32773 0.0053
++B beta- 0.31689 0.0019
++B beta- 0.29237 0.001
++B beta- 0.28947 0.0021
++B beta- 0.28817000000000004 0.0034000000000000002
++B beta- 0.28713 0.0022
++B beta- 0.27488999999999997 0.0015
++B beta- 0.27233999999999997 0.001
++B beta- 0.2622 0.0052
++B beta- 0.25036 0.0049
++B beta- 0.24409 0.005699999999999999
++B beta- 0.208311 0.0012
++B beta- 0.17342 0.0039000000000000003
++B beta- 0.160936 0.006999999999999999
++B beta- 0.14786000000000002 0.001
++B beta- 0.147571 0.0031
++B beta- 0.11084000000000001 9.4E-4
++B beta- 0.101911 0.0044
++B beta- 0.09836400000000001 0.0048
++B beta- 0.09387999999999999 0.0012
++B beta- 0.09165000000000001 9.4E-4
++B beta- 0.08651 0.0021
++B beta- 0.085118 0.0018
++B beta- 0.07475 0.0016
++B beta- 0.05526 2.9E-4
+

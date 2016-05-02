@@ -1,0 +1,50 @@
+#157TM    157YB EC DECAY                1994XU07,1994STZZ,1996XU0304NDS    200501
+#  157YB EC DECAY                1994XU07,1994STZZ,1996XU0304NDS    200501
+#H TYP=FUL$AUT=R. G. Helmer$CIT=NDS 103, 565 (2004)$CUT=1-Feb-2004$       
+#  The scheme is from 1994Xu07, who produced the {+157}Yb by an {+16}O    
+#       beam on {+147}Sm, with some added data from 1996Xu03 (same        
+#       authors).  |g placements are from |g|g coincidence data.          
+#  With a Q value of 5500 keV, this decay scheme is clearly very          
+#       incomplete since levels are only reported up to 834 keV.          
+#            I(|e+|b+) values are given by 1994Xu07, but for two          
+#       reasons they are not given here. First, the values of 1994Xu07    
+#       depend critically on assumptions concerning the |g-ray            
+#       multipolarities. Second, the scheme is very incomplete since      
+#       levels are only reported to 834 keV compared to a Q value of      
+#       5500 keV. Also, the strongest |g, at 23 keV, is not placed        
+#       in this scheme.                                                   
+#            The ratio of the intensities of the K x-rays and the 511     
+#       photons suggests a major share of the decays are to levels        
+#       above 834 KeV and even above 2000 keV.  The largest single        
+#       component of the K x ray intensity from internal conversion       
+#       will come from the 69 |g and its maximum value will be |? 250     
+#       if it is an M1 transition.  Therefore, the measured               
+#       I(K|ax) = 1660 {I150}, from which one can calculate that          
+#       I(Kx) |? 2100, is primarily from |e decay.  Since                 
+#       the I(511) = 821 {I13} should correspond to 2 times the |b+       
+#       decays (this assumes all of the |b+ were stopped near the         
+#       source), the measured capture to positron ratio is |? 5.          
+#       For comparison, the theoretical capture to positron ratios are:   
+#       to 0 keV level 0.35, to 835 level 0.65, to a 2000 level 2.0,      
+#       and to a 3000 level 10.  Therefore, most of the |e+|b+ decays     
+#       are to levels above 2000 keV, assuming that the I(K|ax) and       
+#       I(511) are correct.                                               
+#G           Unplaced |g's are from 1994StZZ.                             
+#G E,RI      Weighted average of values of 1994Xu07 and 1994StZZ;         
+#G      significant discrepancies are noted; other: 1991StZZ. Somewhat    
+#G      different values are given in 1996Xu03 (same authors as           
+#G      1994Xu07), but the origin of values is not given.                 
+#G RI        I(X{-K|a})=1660 {I150} and I(511)=821 {I13} (1994StZZ).      
+#G M         Scheme of 1996Xu03 shows multipolarities of E1 for 35- and   
+#G      69-keV |g's and E2+M1 for 105-keV |g. Origin of assignments not   
+#G      stated, so assignments are not included here.                     
+#G E(R)      |g reported only by 1994Xu07.                                
+#G E(S)      |g reported only by 1994StZZ.                                
+#L E         From least-squares fit to |g energies.                       
+#L J         From 1994Xu07 and 1996Xu03 and based on the suggestion       
+#L      that these levels form bands. These band assignments have not been
+#L      adopted.                                                          
+#L BAND(A)   K|p=1/2+ band                                                
+#L BAND(B)   K|p=3/2+ band                                                
+#P      0       7/2-             38.6 S    10              5267     30    
+

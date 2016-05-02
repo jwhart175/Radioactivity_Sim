@@ -1,0 +1,25 @@
+#184PT    184PT IT DECAY (1.01 MS)      1966BU08                  10NDS    201002
+#  184PT IT DECAY (1.01 MS)      1966BU08                  10NDS    201002
+#H TYP=FUL$AUT=CORAL M. BAGLIN$CIT=NDS 111,275 (2010)$CUT=1-Oct-2009$     
+#G CC$ FROM BrIcc v2.2a (13-Jul-2008) 2008Ki07, "Frozen Orbitals" appr.   
+#  Produced by 181TA(11B,8N), 175LU(14N,5N), and 169TM(19F,4N)            
+#  reactions. E(11B)=114 MEV; E(14N)=84, 90, 98 MEV; E(19F)=92 MEV        
+#G E         Authors estimate uncertainty to be 0.3% for strong peaks,    
+#G rising to twice that for weak peaks.                                   
+#G M         Based on EKC and K/L values, EXCEPT AS NOTED. EKC VALUES are 
+#G from relative photon and relative CE intensities normalized so that    
+#G KC(361G)=0.0389 (E2 THEORY).                                           
+#G RI(A)     Calculated from authors' values for TI and CC(theory).       
+#G $GG(|q) DATA (1966BU08; |q=90 DEG,135 DEG,180 DEG):                    
+#G $   |g1      |g2       A2               |g1      |g2       A2          
+#G  272     162     +0.18 7           610     162    +0.15 10             
+#G  272     361     +0.13 5           610     272    +0.25 9              
+#G  272     431     +0.13 5           610     361    +0.11 9              
+#G  272     610     +0.19 5           610     431    +0.10 9              
+#G                                                                        
+#L E         FROM LEAST-SQUARES FIT TO EG.                                
+#L J         From Adopted Levels.                                         
+#L T(A)      From OBSERVATION OF PROMPT (118G)(272G) COIN, T LT 1.5 NS.   
+#L This implies that the 434, 839, 1230, and 1669 levels have T LT 1.5 NS.
+#P    1840.3  8 8-               1.01 MS    5                             
+

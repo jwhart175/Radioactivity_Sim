@@ -1,0 +1,60 @@
+#253NO    253NO IT DECAY (706 US)       2011LO06                  13NDS    201309
+#  253NO IT DECAY (706 US)       2011LO06                  13NDS    201309
+#H TYP=FUL$AUT=E. BROWNE, J. K. TULI$CIT=NDS 114, 1041 (2013)$            
+#H CUT=1-Mar-2012$                                                        
+#  From  207PB(48CA,2NG)                                                  
+#  Beam: {+48}Ca with an average mid-target bombarding energy of          
+#  220 MeV. Target: 350|mg/cm{+2} and 680 |mg/cm{+2}, 96.2% enriched in   
+#  {+207}Pb, with 1.5|mg/cm{+2} Ti backing.                               
+#  The evaporation residues were separated by VASSILISSA separator and    
+#  implanted into the GABRIELA detection system at the focal plane of the 
+#  separator. GABRIELA consisted of four micro-channel plates to detect   
+#  the secondary electrons emitted due to the passage of separated        
+#  evaporation residues through thin mylar foil, 48|*48 strip             
+#  Double-sided silicon-strip detector to provide energy and time         
+#  information of the implanted evaporation residues, 32-strip silicon    
+#  detectors for the detection of internal conversion electrons and escape
+#  |a particles and a ring of six Compton suppressed EUROGAM Phase-I Ge   
+#  detectors placed around the focal plane and one unsuppressed Ge        
+#  detector, placed in a collinear geometry with respect to the beam line 
+#  to detect the |g-rays. Measured: E|g, I|g, x rays, ce, (x-ray)ce coin, 
+#  T{-1/2}. Deduced: {+253}No energy levels, mult, J|p                    
+#  The x rays from the decay of 0.706 ms isomeric state: K{-|a2}=120.2 5  
+#  (I=19 4), K{-|a1}=127 5 (I=26 5), K{-|b1,|b3}=142.7 5 (I=13 3),        
+#  K{-|b2,|b4,|b5}=147.9 5 (I=4.7 14). Intensities were measured relative 
+#  to 100 for 801.8|g                                                     
+#  Existence of a 0.7-ms isomer is confirmed through recoil-decay tagging 
+#  method, although, the energy of this isomer is not determined.         
+#P  0+Z                           706 US   24                             
++G gamma 0.155 0.034
++G gamma 0.254 0.037000000000000005
++G gamma 0.6051 0.11
++G gamma 0.6137999999999999 0.08
++G gamma 0.7042 0.1
++G gamma 0.75 0.046
++G gamma 0.7793 0.11
++G gamma 0.7142999999999999 0.42
++G gamma 0.8018 1.0
++G gamma 0.0877 0.059000000000000004
++G gamma 0.0986 0.07200000000000001
++G gamma 0.1886 0.04
++G gamma 0.2095 0.12
+
+#253NO    253NO IT DECAY (627 US)       2011AN13                  13NDS    201309
+#  253NO IT DECAY (627 US)       2011AN13                  13NDS    201309
+#H TYP=FUL$AUT=E. BROWNE, J. K. TULI$CIT=NDS 114, 1041 (2013)$            
+#H CUT=1-Mar-2012$                                                        
+#  2011AN13: 207PB(48CA,2NG)                                              
+#  Beam={+48}Ca, E=218.4 MeV. Produced via ECR-ion source of the UNILAC   
+#  at GSI. Target={+207}Pb of thickness 418 |mg/cm{+2} enriched to 98.9%  
+#  evaporated on a 40 |mg/cm{+2} carbon backing. Evaporation residues     
+#  (ERs) separated by velocity filter SHIP, implantation events detected  
+#  by position-sensitive 16-strip PIPS detector in the focal plane of     
+#  SHIP. |g-rays detected using a four crystal Ge-clover detector,        
+#  calibrated with {+133}Ba and {+152}Eu with estimated accuracy of |+0.3 
+#  keV. Measured E|g, I|g, ER-|g coin, (ce)|g coin and |g|g coin.         
+#  Deduced levels and T{-1/2} of isomeric states.                         
+#  Delayed |g rays reported in this study, although both delayed and      
+#  prompt coincidences were measured                                      
+#P 1440+X                        627 US    5                              
+

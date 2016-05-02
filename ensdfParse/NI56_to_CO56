@@ -1,0 +1,66 @@
+# 56CO    56NI EC DECAY                 1990SU13,1974HO25,1974HEYW11NDS    201105
+#  56NI EC DECAY                 1990SU13,1974HO25,1974HEYW11NDS    201105
+#H TYP=FUL$AUT=HUO JUNDE, HUO SU, YANG DONG$CIT=NDS 112, 1513 (2011)$     
+#H CUT=29-Oct-2009$                                                       
+#  Sources produced generally by {+54}Fe(|a,2n), {+56}Fe({+3}He,3n) or    
+#  {+58}Ni(|g,2n).                                                        
+#  1990Su13: measured I|g, I|b{++}, and T{-1/2}.                          
+#  1974Ho25: measured E|g, I|g, and |g|g(|q) with Ge(Li).                 
+#  1973Sa11: measured E|g, I|g, |g|g-coin and |s(|q).                     
+#  1974HeYW: measured E|g and I|g.                                        
+#  1965Oh01: measured E|g, I|g, |g|g-coin, |g|g(|q) and |a(exp).          
+#  1963We06: measured T{-1/2}, E|g, I|g and |g|g(|q).                     
+#  1964Je03: measured E|g, I|g, |a(K)exp, |a(L)exp and |a(exp).           
+#  1996La20: measured E|g, I|g.                                           
+#  1999Za08, 1999Za19: measured E|g, I|g, |g|g-coin.                      
+#  See also 1991FuZW.                                                     
+#  Decay scheme from 1974Ho25.                                            
+#E IE,IB     From 1990Su13.                                               
+#G           |g|g-angular correction coefficients                         
+#G              E|g          A{-2}              A{-4}                     
+#G           --------    ---------   -------------------                  
+#G           158-1562    -0.083 {I9}     0.0   15(1974Ho25)               
+#G                       -0.055 {I26}   -0.03  {I4} (1965Oh01)            
+#G                       -0.049 {I37}    0.00  {I6} (1963We06)            
+#G           158-750      0.055 {I4}    -0.011 {I8} (1974Ho25)            
+#G                        0.041 {I13}    0.029 {I19}(1965Oh01)            
+#G           158-270     -0.002 {I4}    -0.002 {I8} (1974Ho25)            
+#G                        0.006 {I22}    0.04  {I3} (1965Oh01)            
+#G           158-480     -0.083 {I4}    -0.005 {I8} (1974Ho25)            
+#G                       -0.021 {I14}    0.027 {I20}(1965Oh01)            
+#G           158-812      0.043 {I4}    -0.004 {I6} (1974Ho25)            
+#G                        0.046 {I13}    0.006 {I18}(1965Oh01)            
+#G                        0.038 {I16}    0.O14 26(1963We06)               
+#G           480-270     -0.003 {I7}    -0.003 {I12}(1974Ho25)            
+#G                        0.025 {I15}    0.012 {I21}(1965Oh01)            
+#G                        0.053 {I22}            (1963We06)               
+#G           812-750      0.064 {I8}     0.012 {I14}(1974Ho25)            
+#G                        0.080 {I12}    0.001 {I17}(1965Oh01)            
+#G                        0.08  {I4}    -0.02  {I6} (1963We06)            
+#G           812-270     -0.015 {I10}    0.014 {I17}(1974Ho25)            
+#G                        0.006 {I13}   -0.014 {I18}(1965Oh01)            
+#G           812-480     -0.068 {I14}   -0.032 {I24}(1974Ho25)            
+#G                       -0.049 {I16}   -0.011 {I22}(1965Oh01)            
+#G                       -0.015 {I3}     0.06  {I5} (1963We06)            
+#G E         From 1974HeYW.                                               
+#G RI        Based on relative intensities from 1973Sa11, 1974HeYW, and   
+#G 1974Ho25 plus intensity balances assuming I(|e)=100% to                
+#G 1720 level.                                                            
+#G M,MR      From |g|g(|q) (1974Ho25).                                    
+#L E         From E|g and decay scheme by using least-squares fits        
+#L J         From adopted levels; |g|g(|q) (1974Ho25) support             
+#L adopted J|p values.                                                    
+#L T         From |g|g(t). Values from 1963We06, except as noted.         
+#P 0.0         0+                6.075 D   10              2136     12    
++B beta+ 8.768000000000001E-4 0.00104
++B beta+ 0.478 0.0023599999999999997
++G gamma 0.15838 0.988
++B beta+ 0.408 0.00332
++G gamma 0.8118500000000001 0.86
++B beta+ 0.065 0.00886
++G gamma 0.48044 0.365
++B beta+ 8.864999999999999E-4 9.6E-4
++G gamma 0.2695 0.365
++G gamma 0.74995 0.495
++G gamma 1.5617999999999999 0.14
+

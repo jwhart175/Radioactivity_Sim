@@ -1,0 +1,27 @@
+# 42AR    42CL B- DECAY (6.9 S)         1981HUZT,1998WIZX         01NDS    200103
+#  42CL B- DECAY (6.9 S)         1981HUZT,1998WIZX         01NDS    200103
+#H TYP=FMT$AUT=J. Tuli$DAT=11-Apr-2005$COM=corrected typo/fmt$            
+#H TYP=FUL$AUT=BALRAJ SINGH AND JOHN A. CAMERON$CIT=NDS 92, 1 (2001)$     
+#H CUT=31-Dec-2000$                                                       
+#  1998WIZX: measured EG, IG, GG                                          
+#  1981HUZT, 1989MI03: measured EG, IG, GG. 1989MI03 give BG coin         
+#  results                                                                
+#L E$From 1981HUZT, except for levels where EG's are quoted with          
+#L uncertainties, which are from 1998WIZX                                 
+#L J$From adopted levels                                                  
+#L E(A)$Most levels above 4000, reported only by 1981HUZT are             
+#L considered as tentative in view of comments                            
+#L by 1989MI03 that the level scheme proposed earlier (1981HUZT)          
+#L has been revised by taking account of source impurities.               
+#L However, this revision is not available in the literature.             
+#L ENQUIRY (MADE BY THE EVALUATORS IN MARCH 2000) FROM THE LEAD           
+#L AUTHOR OF 1989MI03 DID NOT PRODUCE ANY RESPONSE.                       
+#G E$From 1998WIZX for EG's quoted with uncertainty. All other EG's       
+#G are differences of level energies as given by 1981HUZT                 
+#G RI$From 1998WIZX                                                       
+#G E(A)$From 1998WIZX only                                                
+#P 0                              6.9 S    3               9.43E3   12    
++B beta- 3.263 0.19
++B beta- 2.462 0.26
++B beta- 2.28 0.17
+

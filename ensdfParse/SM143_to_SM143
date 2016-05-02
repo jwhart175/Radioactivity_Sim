@@ -1,0 +1,21 @@
+#143SM    143SM IT DECAY (30 MS)        1969NE04,1974KO29,1983KOZU12NDS    201203
+#  143SM IT DECAY (30 MS)        1969NE04,1974KO29,1983KOZU12NDS    201203
+#H TYP=FUL$AUT=E. BROWNE, J. K. TULI$CIT=NDS 113, 715 (2012)$             
+#H CUT=31-May-2011$                                                       
+#  Produced in Te+Ne with E(Ne)=80-110 MeV (1969Ne04); {+142}Nd(|a,3n|g)  
+#  E=43-52 MeV (1974Ko29), {+142}Nd({+3}He,2n|g) and                      
+#  {+143}Nd({+3}He,3n|g) (1983Ko24)                                       
+#  Measured: |g, |g(t) (1969Ne04,1974Ko29,1983KoZU), |g|g                 
+#  (1973VaYZ,1974Ko29,1983KoZU), ce(1969Ne04,1983KoZU), |g(|q) (1983KoZU) 
+#G CC$ FROM BrIcc v2.2 (31-Mar-2008) 2008KiAA, "Frozen Orbitals" appr.    
+#G E         From 1974Ko29, except where noted otherwise                  
+#G RI$From 1969Ne04, using I|g(1573|g+1705|g+1831|g)=100%.                
+#G E(A)      Observed only in 1983KoZU                                    
+#L J         Adopted values                                               
+#P 2793.8    1323/2(-)           30 MS     3                              
++G gamma 1.5734000000000001 0.67
++G gamma 1.7055 0.21
++G gamma 0.0765 0.26
++G gamma 1.8317 0.12
++G gamma 0.208 0.52
+

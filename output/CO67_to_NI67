@@ -1,0 +1,21 @@
+# 67NI    67CO B- DECAY (0.425 S)       1999WE07                  05NDS    200512
+#  67CO B- DECAY (0.425 S)       1999WE07                  05NDS    200512
+#H TYP=FUL$AUT=HUO JUNDE, HUANG XIAOLONG, J.K. TULI$                      
+#H CIT=NDS 106, 159 (2005)$CUT=1-Apr-2005$                                
+#  1999We07: isotopically pure source via 30 MeV p-induced Fission of     
+#  {+238}U, mass separated.                                               
+#  Measured |b|g, |g|g, T{-1/2} ({+67}Co), present tentative decay scheme.
+#  Others: 1985Bo49, 1988Bo06, 1999We09                                   
+#L J$Suggested by 1999We07 based on estimated log| {Ift} values.          
+#B IB        The g.s. |b{+-} transition determined to be <1%              
+#B consistent with the large |DJ|p (1988Bo06). The values are             
+#B the calculated values as given by 1999We07.                            
+#G RI        Calculated from level scheme by evaluator                    
+#G M         FROM ADOPTED LEVELS                                          
+#N 1.0                   1.0       1.0                                    
+#N                                                                     4  
+#P 0           (7/2-)            0.425 S   20             8.68E+3   32    
+CO67 NI67 beta- 8.68 0.425 1.0
++G gamma 0.6941 1.0
++G gamma 0.31310000000000004 1.0
+

@@ -1,0 +1,96 @@
+#194PT    194AU EC DECAY (38.02 H)      1996TEZW,1974HEYW,1970BE3006NDS    200606
+#  194AU EC DECAY (38.02 H)      1996TEZW,1974HEYW,1970BE3006NDS    200606
+#H TYP=FUL$AUT=BALRAJ SINGH$CIT=NDS 107, 1531 (2006)$CUT=15-Apr-2006$     
+#  1996TEZW, 1997Te09: measured EG, RI, GG                                
+#  FOR GG AND GG(THETA) ^HERA ARRAY OF 20 ^Ge DETECTORS USED,             
+#  MAIN RESULTS OF THIS WORK ARE GIVEN IN THE THESIS BY 1996TEZW          
+#  About 34 new weak transitions and and some revised placements are      
+#  given in this study, the details are given in 1996TeZW                 
+#  Measured G, GG, CE, GG(THETA)                                          
+#  1974HEYW: MEASURED EG, IG                                              
+#  1970BE30: MEASURED EG, IG, GG                                          
+#  1971VI15, 1970AG05, 1964BE23 (ALSO 1962BE50): MEASURED CE,             
+#  PHOTOELECTRONS                                                         
+#  OTHERS:                                                                
+#  1992SI02: MEASURED T1/2, EC/B+ RATIO FROM IG AND XK                    
+#  1981HO18: MEASURED EC/B+ RATIO FROM IG AND XK                          
+#  1977VY01, 1977GO15, 1967CR09: MEASURED EG, IG                          
+#  G, CE: 1965LE17 (CE), 1962MA18 (also 1960MA19), 1960DE17 (CE),         
+#  1960DE15 (G), 1960BA17 (CE), 1957AL45, 1955BR12, 1956TH11, 1949ST17    
+#  B, BG: 1970Ag03, 1960BA17, 1956TH11                                    
+#  GG(THETA): 1971KR01, 1969Ha43                                          
+#  C(CE)(THETA): 1971DO12, DEDUCED E0/E2 MIXING RATIO FOR 293G            
+#  GG(LIN POL): 1969HA43                                                  
+#G $ A2 AND A4 COEFFICIENTS ARE FROM GG(THETA) DATA OF 1996TEZW           
+#G E,RI$ FROM 1996TEZW, UNLESS OTHERWISE STATED. VALUES AVAILABLE         
+#G 1974HEYW AND 1970BE30 AGREE WELL WITH THOSE FROM 1996TEZW BUT          
+#G ARE GENERALLY LESS PRECISE. ENERGIES FROM 1974HEYW ARE LISTED          
+#G IN THE 1996 NDS FOR A=194 (1996BR26). In cases where RI'S HAVE         
+#G been deduced from ICE data, the data have been                         
+#G normalized to ICE(K)(328G)=100 and KC(328G)=0.0492                     
+#G M,MR$ Mainly from CE data, GG(THETA) DATA OF 1996TEZW ARE ALSO USED    
+#G WHERE APPLICABLE                                                       
+#G E(A)$ FROM CE DATA OF 1971VI15 AND 1970AG05, UNCERTAINTY ASSIGNED      
+#G BY THE EVALUATOR                                                       
+#G E(B)$ Transition from photo electron data of 1964Be23 and 1960Ba17     
+#G E(D),RI(D)$EG from CE data of 1971Vi15 and RI from G-ray data of       
+#G 1977Vy01                                                               
+#G E(K)$ G from 1997Te09 and 1996TeZW only, observed in coincidence with  
+#G other G rays with ^HERA array of 20 intrinsic germanium detectors.     
+#G E(X)$ NOT REPORTED BY 1996TEZW, ITS EXISTENCE TREATED AS UNCERTAIN     
+#G BY THE EVALUATOR                                                       
+#L E$ From least-squares fit to EG's. The least-squares fit procedure     
+#L employed here using ^GTOL code at ^Brookhaven gives normalized         
+#L |h{+2}=2.1, with about 20 measured |g-ray energies lying outside       
+#L of fitted level-energy differences by 2 |s's and another five by       
+#L 3 |s's. This suggests that some of the energy uncertainties quoted     
+#L by 1996TeZW are underestimated probably by a factor of about 2.        
+#L An extreme situation is presented by 69.64|g which deviates by 1 KEV,  
+#L this E|g has been omitted in the present least-squares fit procedure   
+#L J$ From 'adopted levels'                                               
+#P    0.0       1-                38.02 H  10             2501      10    
+AU194 PT194 beta+ 2.501 0.0 1.0
++B beta+ 0.672 0.0113
++B beta+ 0.528 0.0059
++G gamma 0.328464 0.604
++B beta+ 0.399 8.0E-5
++B beta+ 0.316 8.0E-6
++B beta+ 0.279 2.8E-7
++B beta+ 0.126 1.7E-8
++B beta+ 0.108 5.0000000000000004E-8
++B beta+ 8.0E-4 0.19
++B beta+ 7.0E-4 0.19
++B beta+ 7.0E-4 0.2
++B beta+ 7.0E-4 0.22
++B beta+ 7.0E-4 0.23
++B beta+ 0.0 0.09
++B beta+ 0.0 0.09
++B beta+ 0.0 0.09
++B beta+ 0.0 0.09
++B beta+ 0.0 0.09
++B beta+ 0.0 0.08
++B beta+ 0.0 0.08
++B beta+ 0.0 0.08
++B beta+ 0.0 0.08
++B beta+ 0.0 0.07
++B beta+ 0.0 0.07
++B beta+ 0.0 0.06
++B beta+ 0.0 0.06
++B beta+ 0.0 0.05
++B beta+ 0.0 0.05
++B beta+ 0.0 0.05
++G gamma 1.5186199999999999 6.462799999999999E-4
++B beta+ 0.0 0.05
++B beta+ 0.0 0.04
++B beta+ 0.0 0.04
++B beta+ 0.0 0.03
++B beta+ 0.0 0.02
++B beta+ 0.0 0.02
++B beta+ 0.0 0.0
++B beta+ 0.0 0.11
++B beta+ 0.0 0.12
++B beta+ 0.0 0.13
++B beta+ 0.0 0.17
++B beta+ 0.0 0.18
++B beta+ 0.0 0.13
+

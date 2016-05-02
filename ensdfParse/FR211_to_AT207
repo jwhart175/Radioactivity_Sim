@@ -1,0 +1,24 @@
+#207AT    211FR A DECAY                 2005KU06                  11NDS    201102
+#  211FR A DECAY                 2005KU06                  11NDS    201102
+#H TYP=FUL$AUT=F.G. KONDEV, S. LALKOVSKI$CIT=NDS 112, 707 (2011)$         
+#H CUT=1-Aug-2010$                                                        
+#  2005Ku06: {+211}Fr produced in {+209}Bi({+12}C,6n){+215}Ac reaction at 
+#  E({+12}C)=7.1 MeV per nucleon following the |a-decay of {+215}Ac.      
+#  Velocity filter SHIP at GSI. Reaction products were implanted into a   
+#  position-sensitive 16-strip PIPS Si detector. Measured E|g, E|a, I|g,  
+#  I|a, |g|g, |a-|g coin with a Ge clover detector placed behind Si       
+#  detector.                                                              
+#  Others: 1967Va20 and 1964Gr04                                          
+#L E$From a least-squares fit to EG                                       
+#L J,T$From adopted levels                                                
+#G E$From 2005Ku06                                                        
+#G RI$From IA and ICC                                                     
+#G M,MR$From adopted gammas                                               
+#A E$From 2005Ku06                                                        
+#A IA$From 2005Ku06, estimated indirectly from RI in |a-|g coin data      
+#P 0.0          9/2-              3.10 M   2              6663      4     
++A alpha 6.537 0.9994299999999999
++A alpha 6.199 4.1E-4
++A alpha 5.905 6.0E-5
++A alpha 5.866 8.999999999999999E-5
+

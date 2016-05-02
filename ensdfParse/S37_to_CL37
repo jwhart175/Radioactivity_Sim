@@ -1,0 +1,59 @@
+# 37CL    37S B- DECAY (5.05 M)         1986WA22,1984RA09         12NDS    201203
+#  37S B- DECAY (5.05 M)         1986WA22,1984RA09         12NDS    201203
+#H TYP=FUL$AUT=JOHN CAMERON, JUN CHEN AND BALRAJ SINGH, NINEL NICA$       
+#H CIT=NDS 113, 365 (2012)$CUT=15-Jan-2012$                               
+#  1986Wa22: Activity of {+37}S produced by the reaction of               
+#  {+36}S(d,p) with a 100 nA of 3 MeV neutron beam. An intrinsic          
+#  coaxial Ge detector for detecting |g-rays. Measured E|g, I|g.          
+#  Deduced levels, branchings, log {Ift}.                                 
+#  1984Ra09: Activity of {+37}S produced by the (n,|g) with neutron beam  
+#  produced from the Los Alamos Omega West Reactor. Target of enriched    
+#  {+36}S (81.1%). A 26-cm{+3} Ge(Li) and a NaI(Tl) detector. Measured    
+#  E|g, I|g. Deduced levels, branchings, log {Ift}.                       
+#  1967Wi14: Activity of {+37}S produced by the reaction of               
+#  {+37}Cl(n,p) with a 1 mA of 165 keV deuteron beam accelerated from     
+#  the University of Kentucky neutron generator. Target of enriched       
+#  NaCl (98.4% {+37}Cl). A |b-ray spectrometer, NaI(Tl) and Ge(Li)        
+#  detectors. Measured E|b, E|g, I|g. Deduced levels, branchings,         
+#  log {Ift}.                                                             
+#  1970Kl08, 1973Kl02: Activity of {+37}S produced by the reaction of     
+#  {+37}Cl(n,p) with natural {+37}Cl targets. Ge(Li) detector.            
+#  Measured E|g, I|g. Deduced levels, log {Ift}.                          
+#  1974Hi02: Activity of {+37}S produced by the (n,|g) reaction with the  
+#  neutron beam from the Texas A & M University "Triga" reactor. Target   
+#  of (NH{-4}){-2}SO{-4}. A 55-cm{+3} Ge(Li) detector. Measured           
+#  E|g, I|g, |g|g-coin. Deduced levels, log {Ift}                         
+#  1974Li09: Activity of {+37}S produced by the reaction of               
+#  {+37}Cl(n,p) with natural targets of LiCl and CCl{-4}. Ge(Li)          
+#  detectors. Measured E|g, I|g. Deduced levels, branchings, log {Ift}.   
+#  1984Ra09(a),1967Wi14(b),1986Wa22(c),1974Hi02(d),1974Li09(e),           
+#  1970Kl08,1973Kl02(f),1971Ke03(g)                                       
+#  Others:1966MA01, 1968LI09, 1971Ke03, 1986Ji02                          
+#B IB$ Deduced by 1986Wa22 based on relative |g-intensities form          
+#B 1986Wa22 and 1984Ra09 with the value 5.6 {I6} for the ground state     
+#B decay branch from 1967Wi14                                             
+#G E,RI$ Primarily from 1984Ra09 and 1986Wa22. Weighted average is taken  
+#G where available, unless otherwise noted.                               
+#G E(B)$From 1967Wi14                                                     
+#G RI(A)$0.50 {I7} from 1984Ra09 quoted in 1986Wa22 is revised value from 
+#G private communication to M.E.Bunker                                    
+#L E$ From a least-square fit to E|g's, unless otherwise noted.           
+#L J$ From adopted levels.                                                
+#P 0           7/2-              5.05 M    2              4865.13   20    
++B beta- 2.20911 0.055999999999999994
++B beta- 0.72525 4.0E-4
++G gamma 3.0862 3.4742999999999997E-4
++B beta- 0.7172999999999999 0.94
++G gamma 3.10337 0.939
++B beta- 0.47935 5.0E-5
++B beta- 0.44360000000000005 5.0E-5
++B beta- 0.42893000000000003 0.00267
++B beta- 0.31307999999999997 9.0E-4
++G gamma 0.90631 5.9157E-4
++B beta- 0.31035 3.0E-5
++B beta- 0.24374 2.0E-5
++B beta- 0.20499 5.600000000000001E-4
++G gamma 1.16906 5.352299999999999E-4
++B beta- 0.15655000000000002 4.0E-5
++B beta- 0.13231 1.7999999999999998E-4
+

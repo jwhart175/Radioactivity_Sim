@@ -1,0 +1,27 @@
+#142ND    142PR B- DECAY                1968RA04                  11NDS    201108
+#  142PR B- DECAY                1968RA04                  11NDS    201108
+#H TYP=FUL$AUT=T.D. Johnson, D. Symochko(a), M. Fadil(b), and J.K. Tuli$  
+#H CIT=NDS 112, 1949 (2011)$CUT=1-Jun-2010$                               
+#  Measured: G, GG (1968Ra04,1968Hi07), BG-coin                           
+#  (1959Fr52,1955St51,1954Po26), B- (1975Ra09)                            
+#B           From BETA- shape analysis, 2158B is first-forbidden unique   
+#B (1975Ra09,1966Be12,1954Po26,1952Mo29)                                  
+#B           BETA- shape analysis of 583B (1977GeZO,1976Ra41)             
+#B           B- longitudinal polarization (1965Ka06)                      
+#B           BG circular polarization (1964He15)                          
+#B           BG(THETA) (1972Kh02,1964He15)                                
+#B           EC/B-=1.64E-4 8 from measured 142CE/142ND (1966Cr02) MS      
+#B           Average EB=701 16 (1964Bi16)                                 
+#B           BETA decay matrix elements: 1993Ni17                         
+#G CC$ FROM BrIcc v2.2 (31-Mar-2008) 2008KiAA, "Frozen Orbitals" appr.    
+#G           1576G(THETA,H,TEMP) (1958Da12,1958Gr92)                      
+#L J         Adopted values                                               
+#L E$From least-squares fit to EG, assuming                               
+#L |DE|g=1 where uncertainty not known                                    
+#P 0.0         2-                19.12 H   4              2162.2    15    
+PR142 ND142 beta- 2.1622 68832.0 0.0368
++B beta- 2.158 0.963
++B beta- 0.586 0.037000000000000005
++G gamma 1.5756 1.0
++G gamma 0.5088 0.0062
+

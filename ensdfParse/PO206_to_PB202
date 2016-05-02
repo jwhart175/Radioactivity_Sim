@@ -1,0 +1,15 @@
+#202PB    206PO A DECAY                 1967TI04                  08NDS    200803
+#  206PO A DECAY                 1967TI04                  08NDS    200803
+#H TYP=FUL$AUT=S. ZHU and F.G. KONDEV$CIT=NDS 109, 699 (2008)$            
+#H CUT=1-May-2007$                                                        
+#  1967TI04: 206PO sample was made by 209BI(p,4N). E(P)=110 to 130 MEV.   
+#  Proton flux 10{+13} protons/sec. Target: 0.5 to 1 g/CM2 bismuth-oxide  
+#  powder. Irradiation time: 10 to 30 MIN. 206PO chemically separated.    
+#  SI(LI) detector for ALPHA measurement.                                 
+#  Others: 1969GO23, 1970RA14.                                            
+#A IA$ALPHA intensity per 100 ALPHA decays.                               
+#A HF$R0(202PB)=1.4550 17 is calculated from HF(5223.7A)=1.0.             
+#P 0.0         0+                8.8 D     1              5327.0    13    
+PO206 PB202 alpha 5.327 760320.0000000001 0.0545
++A alpha 5.2237 1.0
+

@@ -1,0 +1,35 @@
+#126SB C  See also 126SB IT DECAY.                                               
+#  See also 126SB IT DECAY.                                               
+#G                                                                        
+#G        RELATIVE INTENSITY OF CONVERSION ELECTRON                       
+#G                                                                        
+#G --------------------------------------------------------------------   
+#G   ELECTRON LINE    INTENSITY         ELECTRON LINE      INTENSITY      
+#G --------------------------------------------------------------------   
+#G       K42.6            3.3               L42.6              0.29       
+#G       L17.7           10.7            K86.9+K87.6          28          
+#G L21.6+(M+N)17.7+                         L64.3              0.66       
+#G  L22.7+L23.3          90              L86.9+87.7            8.5        
+#G (M+N)21.6+(M+N)22.7+                 (M+N)86.9+                        
+#G  (M+N)23.3            24              (M+N)87.6             2.1        
+#G       K64.3            5.4                                             
+#G --------------------------------------------------------------------   
+#G                                                                        
+#G  NORMALIZED TO THE VALUE OF 5.4 FOR THE K64.3 LINE.                    
+#G  TYPICAL UNCERTAINTIES IN PEAK AREA ARE 15 % FOR THE STRONG LINES.     
+#G                                                                        
+#G M         From ICE and  transition rates (1976Sm01).                   
+#L E         E(levels) are based on a least-squares fit (by evaluators)   
+#L to EG's.                                                               
+#L J         Spin and parity values are those given under the adopted     
+#L levels.                                                                
+#P 0.0         0+                2.30E+5 Y 14             378       30    
++G gamma 0.0177 4.5510000000000005E-7
++G gamma 0.022699999999999998 9.99E-4
++G gamma 0.042641 0.004995
++G gamma 0.021646000000000002 0.012580000000000001
++G gamma 0.064281 0.0962
++G gamma 0.086938 0.08917
++G gamma 0.023280000000000002 0.06401
++G gamma 0.08756699999999999 0.37
+

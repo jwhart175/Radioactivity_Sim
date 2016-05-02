@@ -1,0 +1,27 @@
+#164TA    164W EC DECAY (6.3 S)         1994TEZZ                  ENSDF    200809
+#  164W EC DECAY (6.3 S)         1994TEZZ                  ENSDF    200809
+#H TYP=FUL$AUT=BALRAJ SINGH$CUT=31-AUG-2008$CIT=ENSDF$                    
+#H TYP=FUL$AUT=BALRAJ SINGH$CIT=NDS 93, 243 (2001)$CUT=15-May-2001$       
+#  1994TeZZ: Diploma thesis by Christian Teich, Gottingen, Germany (1994) 
+#  The level scheme is considered (by the evaluator) as tentative         
+#  1994TeZZ: Measured E|g, I|g, |g|g, |g(K| x ray) coin, E|a, T{-1/2}.    
+#  Source from {+110}Pd({+58}Ni,4n) E=340 MeV followed by mass-separation.
+#  1997Dr09: {+144}Sm({+24}Mg,xn) E=109-141 MeV. From excitation          
+#  functions, two |g rays of 187.0 {I1} and 268.7 assigned to the decay   
+#  of {+164}W. T{-1/2}=7.0 s {I2} from time decay of 187|g. But none of   
+#  these |g rays is reported by 1994TeZZ. A 186.8|g is assigned by        
+#  1994TeZZ to {+165}W decay with T{-1/2}=5.9 s {I3}                      
+#  T{-1/2}=6.44 s {I17} (1994TeZZ)                                        
+#  {+164}W decays by |a also (%|a=3.8 {I12})                              
+#L $1994TeZZ propose J|p=(1+) for all the levels above 11.4,              
+#L based on log| {Ift} values. But in the evaluator's opinion, the level  
+#L scheme does not seem well established to calculate correct |e+|b+      
+#L feedings.                                                              
+#E $1994TeZZ give %|e+%|b+ feedings of 84 {I14}, 2.5 {I15}, 4.7 {I23} and 
+#E 8.6 {I18} for levels 111, 443, 483 and 513, respectively, based on the 
+#E present level scheme                                                   
+#G E(A)$From 1997Dr09 only. I|g(187)/I|g(269)=5.7 {I19} (1997Dr09).       
+#G This |g ray is not reported by 1994TeZZ                                
+#P  0.0         0+                 6.3 S   2               5050     30    
++B beta+ 2.687 0.001
+

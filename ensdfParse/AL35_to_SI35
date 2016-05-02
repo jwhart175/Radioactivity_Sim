@@ -1,0 +1,51 @@
+# 35SI    35AL B- DECAY (37.2 MS)       2005TI11,2001NU01                  201506
+#  35AL B- DECAY (37.2 MS)       2005TI11,2001NU01                  201506
+#H TYP=FUL$AUT=JUN CHEN AND BALRAJ SINGH$CIT=ENSDF$CUT=31-MAY-2015$       
+#H TYP=FUL$AUT=JUN CHEN, JOHN CAMERON AND BALRAJ SINGH$                   
+#H CIT=NDS 112,2715 (2011)$CUT=20-Oct-2011$                               
+#  No changes made in this dataset, except that the reference for Q value 
+#  for beta decay is changed to 2012Wa38                                  
+#  2005Ti11, 2006AnZW: Fragmentation of {+36}S beam at 78 MeV/nucleon at  
+#  GANIL facility. A detector telescope for detecting betas, two EXOGAM   
+#  clover modules and a LEPS detector for detecting gammas and 19 plastic 
+#  scintillator modules of the TONNERRE for detecting neutrons. Measured  
+#  |b-delayed E|g, T{-1/2} and delayed neutron emission probability.      
+#  Deduced levels, J, |p, log {Ift}. (2006AnZW: Conference paper)         
+#  2001Nu01: {+35}Al produced at the ISOLDE facility at CERN in           
+#  fragmentation with 1 GeV proton beam on a uranium carbide              
+#  target. A plastic scintillator for detecting betas, two Ge counters    
+#  or a small BaF{-2} counter for detecting gammas. Neutron energies      
+#  measured by time of flight. Measured E|g, E|g, |g|g, |b|g-coin, T{-1/2}
+#  and delayed-neutron branches. Deduced levels, J, |p, log {Ift}.        
+#  2002Nu02: conference paper of 2001Nu01                                 
+#  Others: 1988Mu08, 1989Le16, 1995ReZZ, 1999YoZW                         
+#  {+35}Al also decays to {+34}Si by |b{+-}n (38% {I2}) (2005Ti11).       
+#B IB$From absolute measurements in 2001Nu01 and/or 2005Ti11 using        
+#B absolute |g-ray intensities for levels below neutron separation energy 
+#B and using delayed neutron intensities for levels above.                
+#B IB(D)$From 2005Ti11 only                                               
+#B IB(B)$From 2001Nu01 only                                               
+#G E,RI$ From 2001Nu01                                                    
+#G CC$FROM BrIcc v2.3a (10-Sep-2014) 2008Ki07, "Frozen Orbitals" appr.    
+#L E$From a least-squares fit to |g-ray energies if applicable.           
+#L E(A)$From measured delayed neutron spectrum in 2005Ti11.               
+#L J$From Adopted Levels                                                  
+#P 0           (5/2+)            37.2 MS   8              14141     80    
+AL35 SI35 beta- 14.141 0.037200000000000004 1.0
++G gamma 1.1304 0.014400000000000001
++G gamma 5.629 0.0108
++B beta- 6.786 0.03
++B beta- 6.337 0.009000000000000001
++B beta- 6.306 0.5
++G gamma 0.06409999999999999 0.45
++B beta- 5.717 0.092
++G gamma 1.1942000000000002 0.023849999999999996
++B beta- 5.237 0.033
++B beta- 5.084 0.06
++B beta- 4.927 0.032
++B beta- 4.226 0.08900000000000001
++B beta- 3.944 0.045
++B beta- 3.663 0.068
++B beta- 3.156 0.026000000000000002
++B beta- 2.993 0.027000000000000003
+

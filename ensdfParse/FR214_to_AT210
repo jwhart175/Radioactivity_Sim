@@ -1,0 +1,55 @@
+#210AT    214FR A DECAY (5.0 MS)        1970TO18                  14NDS    201408
+#  214FR A DECAY (5.0 MS)        1970TO18                  14NDS    201408
+#H TYP=FUL$AUT=M. SHAMSUZZOHA BASUNIA$CIT=NDS 121, 561 (2014)$            
+#H CUT=31-Mar-2014$                                                       
+#  Other references: 1968TO10, 1968VA18                                   
+#  1970To18: Measured EA, IA, deduced excited levels of 210AT             
+#A E,IA      From 1970To18, unless otherwise specified.                   
+#A HF        Using R0(210AT)=1.4906, average of R0(208PO)=1.4343 34,      
+#A R0(210PO)=1.532 6, R0(210RN)=1.4552 21, and R0(212RN)=1.541 5          
+#A (1998Ak04).                                                            
+#A E(B)$Final level fed by ALPHA branch is uncertain and existence of     
+#A branch is questionable.                                                
+#L J         From Adopted Levels                                          
+#P 0.0          (1-)             5.0 MS    2              8589      4     
+FR214 AT210 alpha 8.589 0.005 1.0
++A alpha 8.427 0.93
++A alpha 8.358 0.048
++A alpha 7.937 0.01
++A alpha 7.84 0.001
++A alpha 7.605 0.01
++A alpha 7.406 0.003
+
+#210AT    214FR A DECAY (3.35 MS)       2005KU06,1968TO10         14NDS    201408
+#  214FR A DECAY (3.35 MS)       2005KU06,1968TO10         14NDS    201408
+#H TYP=FUL$AUT=M. SHAMSUZZOHA BASUNIA$CIT=NDS 121, 561 (2014)$            
+#H CUT=31-Mar-2014$                                                       
+#  2005Ku06: 214FR was produced from 209BI(12C,|a3n) reaction, E=7.1      
+#  MeV/nucleon, Evaporation residues were separated by Velocity filter    
+#  SHIP and implanted into position-sensitive 16-strip PIPS Si-detector.  
+#  Measured EG, E|a, IG, I|a, GG, |a-G coin with a Ge Clover detector     
+#  placed behind Si detector.                                             
+#  1968TO10: 214FR was produced from 208PB(11B,5N) reaction, E=50 to 95   
+#  MeV, 99.3% enriched 208PB target. Recoiled products were thermalized in
+#  helium, swept to an evacuated chamber, and collected on a metal drum.  
+#  |a particles were detected using a Si(Au) surface barrier detector,    
+#  FWHM=25 keV. Measured E|a, I|a.                                        
+#A HF        Using R0(210AT)=1.4906, average of R0(208PO)=1.4343 34,      
+#A R0(210PO)=1.532 6, R0(210RN)=1.4552 21, and R0(212RN)=1.541 5          
+#A (1998Ak04).                                                            
+#A E         From 2005Ku06, unless otherwise noted                        
+#A IA        From 1968To10, unless otherwise noted                        
+#A E(X)$Calculated value in 2005Ku06                                      
+#G E,RI      From 2005Ku06                                                
+#L E$From least-squares fit to G-ray energies, unless otherwise noted.    
+#L J         From Adopted Levels                                          
+#P 122       5  (8-)             3.35 MS   5              8589      4     
+FR214 AT210 alpha 8.589 0.00335 1.0
++A alpha 8.546 0.46
++A alpha 8.478 0.509
++A alpha 8.046 0.009000000000000001
++A alpha 7.963 0.006999999999999999
++A alpha 7.715 0.011000000000000001
++A alpha 7.591 0.005
++A alpha 7.341 5.0E-4
+

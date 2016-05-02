@@ -1,0 +1,62 @@
+#138CE    138PR EC DECAY (1.45 M)       1974BU03                  03NDS    200305
+#  138PR EC DECAY (1.45 M)       1974BU03                  03NDS    200305
+#H TYP=FUL$AUT=A.A. Sonzogni$CIT=NDS 98, 515 (2003)$CUT=1-Dec-2002$       
+#  EB+=3415 10 (1971Af05). Other: 3440 40 (1966Gr15)                      
+#  The decay scheme is that of 1974Bu03, except for the level at          
+#  2593 added by 1976Pa04 on the basis of energy fit.                     
+#G           E(G),I(G) are data of 1974Bu03. Others: 1971Ju01, 1971Af05,  
+#G 1970Ho28.                                                              
+#G           EKC from I(CE) of 1971Af05 and I(G) of 1974Bu03 normalized so
+#G that KC(789G)=0.00292 (E2 theory).                                     
+#G M$Adopted values. Arguments for mult from this experiment are given    
+#G as comments.                                                           
+#L J$From adopted levels                                                  
+#P 0.0          1+               1.45 M     5              4437     10    
++B beta+ 1.5524 0.741
++B beta+ 1.1865999999999999 0.0048
++B beta+ 0.8723 0.003
++B beta+ 0.8571 4.2E-4
++B beta+ 0.6157 1.4999999999999998E-6
++B beta+ 0.5323 2.1E-4
++B beta+ 0.48669999999999997 3.2E-4
++B beta+ 0.429 4.4999999999999996E-5
++B beta+ 0.37560000000000004 2.3999999999999997E-5
++B beta+ 0.3539 8.1E-6
++B beta+ 0.2398 2.7E-6
+
+#138CE    138PR EC DECAY (2.12 H)       1974BU03                  03NDS    200305
+#  138PR EC DECAY (2.12 H)       1974BU03                  03NDS    200305
+#H TYP=FUL$AUT=A.A. Sonzogni$CIT=NDS 98, 515 (2003)$CUT=1-Dec-2002$       
+#  Measured: GAMMA (1974Bu03,1972Lu01,1971Af05,1971Ju01,1970Ho28,1968Na04,
+#  \1967Ba66), GG (1972Lu01,1968Na04,1965Ba45,1964Fu08), BG               
+#  (1967Ba66,1965Ba45,1964Fu08), GG(T) (1972Lu01), GG(THETA)              
+#  (1965Gr38,1964Fu08)                                                    
+#  The adopted decay scheme is that of 1974Bu03. Additional levels        
+#  at 4026, 4145, and tentative levels at 1729, 1985 or 2058, 2011 or     
+#  2033, 2318, 3501 and 4107 proposed by 1972Lu01 have not been confirmed 
+#  by 1974Bu03.                                                           
+#E           No (B+)(303G,789G,1038G) (1965Ba45,1964Fu08).                
+#G E         From 1974Bu03, except where noted otherwise                  
+#G E(A,G)    From 1971Af05                                                
+#G E(D)      Seen only by 1972Lu01                                        
+#G RI        From 1972Lu01, except where noted otherwise                  
+#G RI(A,B)   From 1974Bu03, not seen in 1972Lu01                          
+#G M         From EKC data, except where noted otherwise, EKC were        
+#G derived from CEK of 1971Af05 and IG of 1972Lu01 normalized so that     
+#G KC(789G)=0.00292 (E2); EKC for the 303 and 1038 gammas are based       
+#G on CEK from 1964Fu08; other: 1965Ba45                                  
+#G M(C)$From adopted gammas                                               
+#G RI(E)     Seen only in coincidence by 1972Lu01                         
+#L T         T<0.3 NS for (547G)(390G) (1972Lu01)                         
+#L J         Adopted values                                               
+#P 364       23 7-               2.12 H     4              4437     10    
++B beta+ 8.445E-4 0.0012106
++B beta+ 0.742 0.00633
++B beta+ 0.46 0.007940000000000001
++B beta+ 0.401 0.00814
++B beta+ 0.195 0.008436
++B beta+ 8.438E-4 0.00121
++B beta+ 8.427E-4 0.00122
++B beta+ 8.412E-4 0.00123
++B beta+ 8.370999999999999E-4 0.00126
+

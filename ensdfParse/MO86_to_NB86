@@ -1,0 +1,26 @@
+# 86NB    86MO EC DECAY (19.1 S)        2005Ka39,1994SH07         15NDS    201412
+#  86MO EC DECAY (19.1 S)        2005Ka39,1994SH07         15NDS    201412
+#H TYP=FUL$AUT=ALEXANDRU NEGRET, BALRAJ SINGH$CIT=NDS 124, 1 (2015)$      
+#H CUT=30-Nov-2014$                                                       
+#  2005Ka39: {+86}Mo produced by a 150-170 MeV {+32}S beam impinging on a 
+#  {+nat}Ni target. The reaction products were separated using the IGISOL 
+#  facility and implanted into a collector tape. Two HPGe detectors and a 
+#  plastic scintillator were placed next to the implantation position and 
+#  two low-energy Ge detectors and a magnetic conversion-electron         
+#  spectrometer (ELLI) were placed at a second detector station. Measured 
+#  E|g, I|g, |g|g coin, conversion electrons.                             
+#  1994Sh07: {+86}Mo produced in reactions {+54}Fe({+35}Cl,p2n|g)         
+#  E=103 MeV, and {+58}Ni({+32}S,2p2n|g) E=120 MeV;                       
+#  identification by (x ray)|g- and |b|g coin and cross bombardment.      
+#  The decay scheme of 86MO to 86NB does not seem complete in view of     
+#  possible missing higher levels (above the currently known level at     
+#  236+x) and high Q value, thus IG/100 decays, EC feedings and LOGFT     
+#  values cannot be deduced                                               
+#G M$From EKC                                                             
+#G E$Unweighted average from 2005Ka39 and 1994Sh07, unless noted otherwise
+#G RI$From 2005Ka39.                                                      
+#L J$From Adopted Levels                                                  
+#P 0           0+                19.1 S    3              5023      7     
+MO86 NB86 beta+ 5.023 19.1 1
++B beta+ 8.669E-4 0.00108
+

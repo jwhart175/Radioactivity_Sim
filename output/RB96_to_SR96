@@ -1,0 +1,128 @@
+# 96SR    96RB B- DECAY                 1980JUZY                  08NDS    200810
+#  96RB B- DECAY                 1980JUZY                  08NDS    200810
+#H TYP=FUL$AUT=D. Abriola(a), A.A. Sonzogni$CIT=NDS 109, 2501 (2008)$     
+#H CUT=1-Apr-2008$                                                        
+#  Measured: |g, |g|g, ce (1980JuZY); |g|g(|q) (1980Ju03); |g(t)          
+#  (1991Ma05,1989Ma38) delayed neutrons: 1980Lu04, 1979Ri09, 1977Re05.    
+#  Other: 1979Pe17                                                        
+#  Delayed neutrons probability=13.3% {I7} (2002PF04)                     
+#G E(A)$Assignment to {+96}Rb |b{+-} decay uncertain.                     
+#G M$From |g|g(|q) and RUL                                                
+#G MR$From |g|g(|q) if the 814.9|g is E2.                                 
+#B IB$From intensity imbalance.  Because of the large Q-value and the     
+#B many weak gamma rays that may not have been measured, these            
+#B intensities and the derived LOGFT values should be taken as            
+#B approximate.                                                           
+#L E$From least-squares fit to EG.                                        
+#L J$From Adopted Levels.                                                 
+#P 0           2+                203 MS    3              11571     11    
+RB96 SR96 beta- 11.571 0.203 0.78
++G gamma 0.3745 0.0019
++G gamma 0.5227 0.0025
++G gamma 0.9681000000000001 0.0022
++G gamma 1.0279 0.0026
++G gamma 1.131 0.0015
++G gamma 1.2202 0.0021
++G gamma 1.2528 0.0023
++G gamma 1.4392 0.0023
++G gamma 1.6501 0.0034000000000000002
++G gamma 1.7565 0.0042
++G gamma 1.7708 0.0023
++G gamma 1.9644000000000001 0.0022
++G gamma 1.9999 0.0027
++G gamma 2.0349 9.0E-4
++G gamma 2.1466999999999996 0.0058
++G gamma 2.3239 0.0019
++G gamma 2.4766 0.0073
++G gamma 2.4936 0.0046
++G gamma 2.512 0.0045000000000000005
++G gamma 2.5414 0.0026
++G gamma 2.7514000000000003 0.011000000000000001
++G gamma 2.8156 0.0052
++G gamma 3.0218000000000003 0.0025
++G gamma 3.0471999999999997 0.004
++G gamma 3.0503 0.0051
++G gamma 3.5136999999999996 0.0032
++G gamma 3.5271 0.0042
++G gamma 3.9069000000000003 0.003
++G gamma 3.9337 0.003
++G gamma 4.105600000000001 0.0027
++G gamma 4.228 0.0043
++G gamma 4.4468000000000005 0.005
++G gamma 4.6048 0.0028000000000000004
++G gamma 5.0203 0.0013
++G gamma 5.2326999999999995 0.0016
++G gamma 5.357600000000001 0.002
++G gamma 5.42 0.002
++G gamma 0.815 1.0
++G gamma 0.4143 0.036000000000000004
++G gamma 0.6505 0.008
++G gamma 0.692 0.102
++G gamma 1.5069000000000001 0.057
++G gamma 0.3989 0.0048
++G gamma 0.8132 0.09
++G gamma 1.6282 0.011000000000000001
++G gamma 0.9778 0.065
++G gamma 0.3454 0.0021
++G gamma 1.0372999999999999 0.084
++G gamma 0.3473 0.0037
++G gamma 0.469 0.015700000000000002
++G gamma 1.1605999999999999 0.011000000000000001
++G gamma 0.3668 0.0011
++G gamma 0.7659 0.0021
++G gamma 1.18 0.042
++G gamma 1.9948 0.0044
++G gamma 0.5772999999999999 0.0022
++G gamma 0.8545 0.0072
++G gamma 1.269 0.0038
++G gamma 2.0839000000000003 0.0141
++G gamma 0.3206 0.0025
++G gamma 0.48519999999999996 0.009000000000000001
++G gamma 0.6066 0.0147
++G gamma 1.2985 0.0163
++G gamma 1.3051 0.023399999999999997
++G gamma 0.644 0.013000000000000001
++G gamma 1.3359 0.032
++G gamma 0.9879 0.0023
++G gamma 1.4024 0.0276
++G gamma 1.4546 0.0027
++G gamma 0.4555 0.005600000000000001
++G gamma 1.4926 0.0091
++G gamma 2.3070999999999997 0.0176
++G gamma 0.5554 0.0084
++G gamma 1.5924 0.0059
++G gamma 1.5969 0.0017000000000000001
++G gamma 2.412 0.0155
++G gamma 0.9368 0.008
++G gamma 1.6781 0.011000000000000001
++G gamma 0.6733 0.002
++G gamma 0.7328 0.0042
++G gamma 0.6772 0.0025
++G gamma 1.7143 0.01
++G gamma 1.7612999999999999 0.026000000000000002
++G gamma 1.0759 0.0029
++G gamma 1.1965999999999999 0.0039000000000000003
++G gamma 1.8889 0.01
++G gamma 0.8677999999999999 0.0027
++G gamma 1.9045 0.0063
++G gamma 2.0655 0.015700000000000002
++G gamma 1.2125 0.0053
++G gamma 2.25 0.0143
++G gamma 2.3808000000000002 0.0143
++G gamma 2.4299 0.0062
++G gamma 2.6313 0.018000000000000002
++G gamma 2.9400999999999997 0.0064
++G gamma 3.7561 0.0096
++G gamma 2.1965 0.0027
++G gamma 3.5076 0.0034000000000000002
++G gamma 3.9844 0.0062
++G gamma 4.2345 0.0058
++G gamma 4.2759 0.0039000000000000003
++G gamma 3.9034 0.0034000000000000002
++G gamma 3.3654 0.0072
++G gamma 4.3442 0.0088
++G gamma 3.3752 0.0039000000000000003
++G gamma 4.355 0.0059
++G gamma 5.1673 0.0017000000000000001
++G gamma 3.8424 0.0019
+

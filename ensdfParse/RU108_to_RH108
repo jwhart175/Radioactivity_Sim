@@ -1,0 +1,31 @@
+#108RH    108RU B- DECAY                1969WIZX,1978FR16         ENSDF    200810
+#  108RU B- DECAY                1969WIZX,1978FR16         ENSDF    200810
+#H TYP=FUL$AUT=Jean Blachot$CIT=ENSDF$CUT=1-Jul-2008$                     
+#H TYP=FUL$AUT=Jean Blachot$CIT=NDS 91, 135 (2000)$CUT=1-Jun-2000$        
+#  Source: 235U, 239PU, {+249}Cf(n,f) E=th, rapid ruthenium chemistry     
+#  Q(|b{+-})=1320 {i100} from |b|g coin (1962Pi02) was used for log| {Ift}
+#  calculations. See {+108}Ru adopted levels for discussion on            
+#  g.s. to g.s. Q(|b{+-}) value                                           
+#  Others: 1955Ba19, 1958Ba02, 1962Pi02, 1971Ri02, 1975Fe12               
+#  The decay scheme is based on energy fits only. 1978Fr16 suggest that   
+#  the 14.6 transition deexcites a 2- level to the 1+ ground state;       
+#  however, they give no arguments for the 2- assignment. It is           
+#  possibly based partly on the fact that |a(14.6|g)=5.0(E1), 2617(E2) and
+#  13.0(M1) so observation of the 14.6 transition in the photon           
+#  spectrum suggests mult.=E1. Note that the order of the 73 and 91 |g's  
+#  is not established. Even with this uncertain placement, if one         
+#  assumes that the observed transitions have mult.=E1, M1 or E2,         
+#  the |b{+-} feeding to the 165 level can be determined accurately       
+#  enough to establish that J|p=1+. Similarly one can determine           
+#  I(|b{+-} to 73.6 level)<3.4% (log| {Ift}>5.5) and I(|b{+-} to alternate
+#  91.3 level)<5.0% (log| {Ift}>5.3). Feeding to the 14.6 level           
+#  cannot be determined since I(14.6|g) is not known, and thus            
+#  I|b(g.s.) cannot be determined. However, g.s. feeding is probably large
+#  since J|p(g.s.)=1+.                                                    
+#B IB$From intensity balance at each level                                
+#G CC$Value covers all multipolarities shown                              
+#G E,RI$From 1969WiZX, except for the 14.6|g which is from 1978Fr16       
+#P 0.0          0+               4.55 M     5              1350     50    
++B beta- 0.505 0.64
++B beta- 0.433 0.46
+

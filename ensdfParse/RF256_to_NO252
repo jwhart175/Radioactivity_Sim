@@ -1,0 +1,14 @@
+#252NO    256RF A DECAY                                           05NDS    200601
+#  256RF A DECAY                                           05NDS    200601
+#H TYP=FUL$AUT=N. NICA$CIT=NDS 106, 813 (2005)$CUT=21-Mar-2005$           
+#  Q(|a)=8930 {I20} is calculated from E|a=8790 {I20}.                    
+#                                                                         
+#  T{-1/2}({+256}Rf)=6.4 ms {I2} is from the measured half-lives of       
+#  6.7 ms {I2} (1984Og02) and 6.2 ms {I2} (1997He29).                     
+#  The |a branching was determined by 1997He29 as (0.32|+0.17)%.          
+#A HF        Calculations by requiring HF=1.0 and using I|a(8790|a)=84    
+#A {I4} per 100 |a decays yield r{-0}({+252}No)=1.460 {I7}. This r{-0}    
+#A value is in agreement with the local trend (see 1998Ak04).             
+#P 0.0          0+               6.4 MS    2              8930      20    
+RF256 NO252 alpha 8.93 0.0064 0.0032
+

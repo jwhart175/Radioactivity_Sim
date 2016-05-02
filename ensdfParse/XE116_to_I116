@@ -1,0 +1,20 @@
+#116I     116XE EC DECAY                                          10NDS    201004
+#  116XE EC DECAY                                          10NDS    201004
+#H TYP=FUL$AUT=Jean Blachot$CIT=NDS 111, 717 (2010)$CUT=1-Dec-2009$       
+#  Activity: 104PD(16O,4NG), on-line MS (1974HA10,1976GO02)               
+#  Measured: G, T1/2, EB, semi.                                           
+#  E(B+)=3320 200 (1976GO02)                                              
+#  E(B+)=3040 120 (1970BEYT)                                              
+#  The 8 G's are not placed in a level scheme                             
+#G E,RI      From 1973XEZY. See also 1974HA10; 104G also from 1969HA03    
+#P 0.0         0+                59 S      2              4.45E+3   10    
+XE116 I116 beta+ 4.45 59.0 1.0
++G gamma 0.1045 1.0
++G gamma 0.1916 0.38
++G gamma 0.22640000000000002 0.29
++G gamma 0.24769999999999998 0.4
++G gamma 0.3 0.12
++G gamma 0.3107 0.42
++G gamma 0.4127 0.36
++G gamma 0.923 0.25
+

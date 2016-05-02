@@ -1,0 +1,68 @@
+#212AT    212AT IT DECAY (152 US)       1999BA30,1998BY01         05NDS    200503
+#  212AT IT DECAY (152 US)       1999BA30,1998BY01         05NDS    200503
+#H TYP=FUL$AUT=E. BROWNE$CIT=NDS 104, 427 (2005)$CUT=1-Jan-2004$          
+#  Other: 1994By01, 1979Sj01                                              
+#  1999Ba30. Target: 208PB. Projectile 7LI, E=30-44 MeV. Measured EG,     
+#  RI, GG COIN, GG(T), G(THETA) using the ^CAESAR array of six            
+#  Compton-suppressed Ge detectors. Measured conversion electrons using   
+#  a superconducting solenoide spectrometer. Deduced internal conversion  
+#  coefficients and assigned G-ray multipolarities.                       
+#G E         DE not given in 1999Ba30.                                    
+#G M$Based on G(THETA), EKC as deduced from G-ray transition              
+#G intensity balances (1999Ba30).                                         
+#G M(A)      From total conversion coefficients deduced from G-ray        
+#G transition intensity balance (1999BA30).                               
+#G RI$Delayed relative RI at E=40 MeV (1999Ba30).                         
+#L E         Deduced by evaluator from a least-squares fit to G-ray       
+#L energies. Uncertainties do not include the contribution from the       
+#L 7-keV uncertainty in the 223-keV isomer.                               
+#L Authors did not report uncertainties in G-ray energies,                
+#L evaluator assumed 0.5 keV for all G rays.                              
+#L T$From 1999Ba30, unless otherwise specified.                           
+#L J(B)$Possible CONF=((P,H9/2,+3)(N,G9/2))                               
+#L J(D)$Possible CONF=((P,H9/2,+3)(N,I11/2))                              
+#L J(E)$Possible CONF=((P,H9/2,+3)(N,J15/2))                              
+#L J(F)$Possible CONF=((P,H9/2,+2)(P,F7/2)(N,J9/2))                       
+#L J(G)$Possible CONF=((P,H9/2,+2)(P,I13/2)(N,G9/2))                      
+#L J(H)$Possible CONF=((P,H9/2,+2)(P,I13/2)(N,I11/2))                     
+#L J(I)$Possible CONF=((P,H9/2,+2)(P,I13/2)(N,J15/2))                     
+#L J(J)$Possible CONF=((P,H9/2)(P,I13/2)(P,F7/2)(N,G9/2))                 
+#L J(K)$Possible CONF=((P,H9/2)(P,I13/2)(P,F7/2)(N,I11/2))                
+#L J(L)$Possible CONF=((P,H9/2)(P,I13/2,+2)(N,G9/2))                      
+#L J(M)$Possible CONF=((P,H9/2,+3)(N,G9/2)(N,I11/2)(N,P1/2,-1))           
+#L J(N)$Possible CONF=((P,H9/2,+2)(P,F7/2)(N,G9/2)(N,I11/2)(N,P1/2,-1))   
+#L J(O)$Possible CONF=((P,H9/2,+2)(P,I13/2)(N,G9/2)(N,I11/2)(N,P1/2,-1))  
+#P     4771.611 (25-)            152 US    5                              
++G gamma 0.4785 3.17
++G gamma 0.377 8.15
++G gamma 1.094 1.0
++G gamma 0.22369999999999998 0.8
++G gamma 0.2781 10.0
++G gamma 0.0639 0.19
++G gamma 0.10629999999999999 0.05
++G gamma 0.1701 0.05
++G gamma 0.15930000000000002 0.25
++G gamma 0.3503 0.38
++G gamma 0.4481 0.59
++G gamma 0.6078 7.9
++G gamma 0.037700000000000004 0.15
++G gamma 0.2954 0.15
++G gamma 0.486 0.39
++G gamma 0.6455 1.2
++G gamma 0.237 0.09
++G gamma 0.7843 0.09
++G gamma 0.5255 0.05
++G gamma 1.0593 0.04
++G gamma 0.5668 1.04
++G gamma 0.7087 0.05
++G gamma 1.2425 0.12
++G gamma 0.1765 0.07
++G gamma 0.3183 0.07
++G gamma 0.885 0.03
++G gamma 0.56 0.24
++G gamma 0.848 0.15
++G gamma 1.0854000000000001 0.77
++G gamma 0.1072 0.91
++G gamma 0.22419999999999998 2.91
++G gamma 1.2654 0.12
+

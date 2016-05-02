@@ -1,0 +1,318 @@
+#120TE    120I EC DECAY (81.6 M)        1988BR38,1970LAZT,1970GA3202NDS    200209
+#  120I EC DECAY (81.6 M)        1988BR38,1970LAZT,1970GA3202NDS    200209
+#H TYP=ERR$AUT=J. TULI$DAT=16-Jul-2007$COM=Fixed typo in comment$         
+#H TYP=FUL$AUT=K. KITAO, Y. TENDOW AND A. HASHIZUME$                      
+#H CIT=NDS 96, 241 (2002)$CUT=1-Dec-2001$                                 
+#  1988BR38, 1990BRZL: 93NB+34S; on-line mass separation; G, CE, GG,      
+#  CE-G coin, G(THETA); low-temperature nuclear orientation               
+#  2000HO19: 120TE(P,N) E=15 MEV, 99% enriched target, chem; G, XK        
+#  1970LAZT: TE(P,XN) E=140 MEV; G, GG                                    
+#  1970GA32: ^La,^Ca(p,xn) E=660 MEV; G, B, CE, GG                        
+#  1987WA17: 93Nb(32S,X),(34S,X) E=160-175 MEV; G, CE, GG, G lin. Pol     
+#  Other: 1969SP07                                                        
+#  The decay scheme is that proposed by 1988BR38. Nine levels above       
+#  3800 KEV proposed by 1970GA32 are added by the evaluators.             
+#  However, it seems still tentative, because the scheme does not         
+#  reproduce a measured sum(B+) value of 56% from 2000HO19. The           
+#  evaluators do not adopt a level at 2184.6 KEV and both 6+              
+#  states at 1776 and 2201 KEV proposed by 1988BR38 are ignored           
+#  by one of authors (1990BRZL)                                           
+#  Following levels are ignored: 1983, 2103, 2109, 2573, 2654, 2865,      
+#  2934, and 3125 KEV proposed by 1970LAZT; 1833, 2106, 2586, 2693,       
+#  2741, 2778, 3015, 3072,3096, 3124, 3333, 3360, 3498, 3580, 3609,       
+#  3642, 3693, and 3740 KEV proposed by 1970GA32                          
+#E           (B+)(G)-coincidences (1968LA18)                              
+#E (511G)(B+) - E(B+)=4000 100,                                           
+#E (560G)(B+) - E(B+)=3450 100,                                           
+#E (640G)(B+) - E(B+)=2900 200.                                           
+#E           Sum(B+)=56% 3 from G's and XK counting (2000HO19)            
+#L E         From a least-squares fit to E(G's) by the evaluators         
+#L J         From adopted levels                                          
+#G E         From 1970LAZT, unless otherwise noted                        
+#G RI        From unweighted av from 1988BR38, 1970GA32 and 1970LAZT,     
+#G unless otherwise noted. For each value, see additional comments        
+#G RI        Relative to I(560G)=100                                      
+#G E(X,Z)    Isomeric assignment uncertain (1970LAZT)                     
+#G E(Y,Z)    Uncertain transition (1970LAZT)                              
+#G E(A),RI(A)$From 1988BR38, not reported in 1970LAZT and 1970GA32        
+#G E(B)      Reported only in 1970GA32. Uncertainty from author's         
+#G statements that 0.1% for EG and 10-35% for RI                          
+#G E(D)      Reported in both 1970LAZT and 1970GA32, but not in 1988BR38  
+#G E(E)      Not reported in 1970GA32                                     
+#G E(F)      Not reported in 1970LAZT                                     
+#G E(H)      E0 transition from 1970GA32 and/or 1987WA17                  
+#G E(R)      Assigned to 120I decay (53 M) in 1970LAZT but unplaced       
+#G           I(G+-)=64 6 (1970LAZT)                                       
+#G           EKC from 1970GA32. Values are relative to KC(E2)=0.00509     
+#G (theory) for 560G                                                      
+#G M         From G(THETA) in low temperature oriented nuclei             
+#G (1988BR38), unless otherwise noted                                     
+#G MR        From A2 of G(THETA) in low temperature oriented nuclei       
+#G (1988BR38)                                                             
+#P 0.0         2-                81.6 M    2              5615      15    
+I120 TE120 beta+ 5.615 4896.0 1.0
++G gamma 0.4779 0.0019487999999999999
++G gamma 0.48510000000000003 0.0019487999999999999
++G gamma 0.6944 9.047999999999999E-4
++G gamma 0.713 0.001392
++G gamma 0.733 0.001392
++G gamma 0.7431 0.0033407999999999997
++G gamma 0.752 0.002784
++G gamma 0.8747 0.0014615999999999997
++G gamma 0.9085 0.0026448
++G gamma 0.9796 0.0036888
++G gamma 1.0859 0.001392
++G gamma 1.158 0.004176
++G gamma 1.1688 0.005568
++G gamma 1.2994 0.004036799999999999
++G gamma 1.383 0.004871999999999999
++G gamma 1.4042000000000001 0.016704
++G gamma 1.4410999999999998 0.002088
++G gamma 1.492 0.0038280000000000002
++G gamma 1.536 0.009047999999999999
++G gamma 1.54 0.005568
++G gamma 1.543 0.011136
++G gamma 1.5475 0.0087
++G gamma 1.5522 0.0034799999999999996
++G gamma 1.605 0.006959999999999999
++G gamma 1.6636 0.0034799999999999996
++G gamma 1.674 0.004871999999999999
++G gamma 1.7614 0.005915999999999999
++G gamma 1.764 0.004871999999999999
++G gamma 1.769 0.002088
++G gamma 1.79 0.012528
++G gamma 1.8682999999999998 0.005846399999999999
++G gamma 1.872 0.0034799999999999996
++G gamma 1.911 0.005568
++G gamma 1.9228 0.002784
++G gamma 1.935 0.002784
++G gamma 1.9834 0.0041064
++G gamma 2.1090999999999998 0.00522
++G gamma 2.142 0.0034799999999999996
++G gamma 2.158 0.0034799999999999996
++G gamma 2.218 0.002088
++G gamma 2.3054 0.002784
++G gamma 2.3753 0.0034799999999999996
++G gamma 2.51 0.002784
++G gamma 2.526 0.002784
++G gamma 2.638 0.002088
++G gamma 2.654 0.002088
++G gamma 2.693 0.005568
++G gamma 2.6971999999999996 0.0034103999999999996
++G gamma 2.74 0.004176
++G gamma 2.747 0.002784
++G gamma 2.778 0.0034799999999999996
++G gamma 2.8643 0.0035496
++G gamma 2.939 0.002784
++G gamma 3.047 0.012528
++G gamma 3.098 0.0034799999999999996
++G gamma 3.1050999999999997 0.0032016
++G gamma 3.16 0.002088
++G gamma 3.182 0.006264
++G gamma 3.395 0.002784
++G gamma 3.545 0.002784
++G gamma 3.58 0.002784
++G gamma 3.608 0.006264
++G gamma 3.694 0.002784
++G gamma 3.742 0.002784
++G gamma 4.413 0.001392
++B beta+ 2.0993000000000004 0.19
++B beta+ 1.845 0.293
++G gamma 0.5604 0.696
++B beta+ 1.5884 0.002
++G gamma 0.5427000000000001 0.009813599999999999
++B beta+ 1.5613 0.009300000000000001
++G gamma 0.6011 0.0551232
++B beta+ 1.5424 0.027000000000000003
++G gamma 0.6411 0.084216
++G gamma 1.2016 0.025056
++B beta+ 1.386 0.019299999999999998
++G gamma 0.334 8.351999999999999E-4
++G gamma 0.433 0.0033407999999999997
++G gamma 0.9751000000000001 0.014963999999999998
++G gamma 1.5349000000000002 0.018095999999999998
++B beta+ 1.3548 0.0019
++G gamma 0.412 8.351999999999999E-4
++G gamma 1.053 0.0032016
++G gamma 0.614 0.0047328
++G gamma 0.653 0.0021227999999999998
++G gamma 1.2554 6.96E-4
++B beta+ 1.2332 0.0013
++G gamma 0.6621 0.0105096
++G gamma 0.7014 0.0034799999999999996
++G gamma 1.3027 0.008282399999999999
++B beta+ 1.2047 0.00664
++G gamma 0.763 0.0043152
++G gamma 1.3635 0.006611999999999999
++B beta+ 1.1992 0.0023499999999999997
++G gamma 0.7353 0.0032711999999999997
++B beta+ 1.1314000000000002 0.062
++G gamma 0.8817999999999999 0.0029928
++G gamma 0.9213 0.0036191999999999995
++G gamma 1.523 0.10857599999999999
++B beta+ 0.9601000000000001 0.0213
++G gamma 0.529 0.0017399999999999998
++G gamma 0.9213 0.0022968
++G gamma 1.255 0.0067512
++G gamma 1.895 0.006542399999999999
++G gamma 2.4548 0.019487999999999995
++B beta+ 0.8885 0.00422
++G gamma 0.529 1.392E-4
++G gamma 0.749 9.743999999999999E-4
++G gamma 1.4517 0.0046632
++G gamma 2.613 0.0025055999999999993
++B beta+ 0.8535 0.00264
++G gamma 2.1294 0.0054984
++B beta+ 0.8269 0.006500000000000001
++G gamma 2.188 0.014407199999999998
++B beta+ 0.7415 0.009399999999999999
++G gamma 0.8533 0.0018792000000000001
++G gamma 1.074 0.0057767999999999995
++G gamma 1.402 0.0052896
++G gamma 1.7758 0.0086304
++G gamma 2.3784 0.0070295999999999996
++B beta+ 0.7292000000000001 0.0053
++G gamma 1.101 0.0041064
++G gamma 2.404 0.0105792
++B beta+ 0.7163999999999999 6.8E-4
++G gamma 1.8747 0.0053592
++B beta+ 0.6897000000000001 0.0043
++G gamma 0.9691000000000001 0.0018095999999999998
++G gamma 1.8514000000000002 0.0025055999999999993
++G gamma 2.4918 0.011623199999999998
++B beta+ 0.6521 0.00155
++G gamma 1.601 0.0054984
++B beta+ 0.6401 0.00131
++G gamma 2.6025 0.004871999999999999
++B beta+ 0.5987 6.900000000000001E-4
++G gamma 2.094 0.0029928
++B beta+ 0.5851000000000001 0.0016200000000000001
++G gamma 1.4229 0.0075168000000000006
++B beta+ 0.5604 6.569999999999999E-4
++G gamma 2.18 0.0034103999999999996
++B beta+ 0.5494 0.0012
++G gamma 1.2834 0.0024359999999999994
++G gamma 2.165 0.004036799999999999
++B beta+ 0.5471 0.0015
++G gamma 2.8112 0.008073599999999998
++B beta+ 0.4929 0.0025
++G gamma 1.4109 0.012528
++G gamma 2.9329 0.006055199999999999
++B beta+ 0.4171 6.900000000000001E-4
++G gamma 0.7292000000000001 0.0019487999999999999
++G gamma 2.4628 0.0067512
++B beta+ 0.4144 2.3999999999999997E-5
++G gamma 0.7353 3.131999999999999E-4
++B beta+ 0.3735 0.0014000000000000002
++G gamma 2.5644 0.025056
++B beta+ 0.3206 3.7000000000000005E-5
++G gamma 0.95 0.0011832
++B beta+ 0.3163 4.3999999999999996E-4
++G gamma 2.034 0.0034799999999999996
++G gamma 2.082 0.009047999999999999
++G gamma 3.334 0.002088
++B beta+ 0.2706 8.2E-5
++G gamma 2.8 0.002784
++G gamma 3.442 0.002088
++B beta+ 0.25830000000000003 2.8999999999999997E-5
++G gamma 2.172 0.006959999999999999
++G gamma 2.829 0.002088
++B beta+ 0.2201 4.6E-5
++G gamma 2.034 0.0034799999999999996
++G gamma 4.12 0.002784
++B beta+ 0.21480000000000002 5.6E-5
++G gamma 2.045 0.002088
++G gamma 3.029 0.0034799999999999996
++G gamma 4.134 0.002784
++B beta+ 0.207 1.58E-5
++G gamma 4.148 0.002784
++B beta+ 0.1894 2.7000000000000002E-5
++G gamma 2.987 0.004176
++G gamma 4.188 0.002784
++B beta+ 0.14780000000000001 7.2999999999999996E-6
++G gamma 3.082 0.002784
++G gamma 4.283 0.002784
++B beta+ 0.1457 2.5999999999999997E-6
++G gamma 4.288 0.002088
+
+#120TE    120I EC DECAY (53 M)          1970LAZT,1970GA32         02NDS    200209
+#  120I EC DECAY (53 M)          1970LAZT,1970GA32         02NDS    200209
+#H TYP=FUL$AUT=K. KITAO, Y. TENDOW AND A. HASHIZUME$                      
+#H CIT=NDS 96, 241 (2002)$CUT=1-Dec-2001$                                 
+#  1970LAZT: TE(P,XN) E=140 MEV; G, GG                                    
+#  1970GA32: ^La,^Ce(p,xn) E=660 MEV; G, B, CE, GG                        
+#  1988BR38: see general comment in 81.6-min 120I EC decay                
+#  Other: 1969SP07                                                        
+#  The most extensive results are given by 1970LAZT, but the evaluators   
+#  regard unpublished results as tentative. The evaluators note that      
+#  there are discrepancies between the authors' GAMMA-ray                 
+#  assignments and decay schemes.                                         
+#  The decay scheme is that proposed by 1970LAZT. States at 1863,         
+#  2083, 2835, and 3764 KEV are ignored. Transitions assigned only by     
+#  1970LAZT are regarded as tentative.                                    
+#L E         From a least-squares fit to E(G's) by the evaluators         
+#L J         From adopted levels                                          
+#E           EB=3750 150 from (600G)(B+ to 1161.8 level) coin (1968LA18). 
+#E The evaluators note that assignment of the coin to 120I 53-min decay   
+#E is inconsistent with adopted feeding to 1162 level                     
+#G           GG-coincidence results are from 1970LAZT.                    
+#G           Uncertain G's at 433 KEV (1970LAZT) and 1665 KEV (1970GA32)  
+#G are not adopted. Unplaced G's at 976, 1054, 1328 and 1443 KEV in       
+#G 1970GA32 are also not adopted.                                         
+#G           I(G+-)=61 13 (1970LAZT).                                     
+#G E,RI      From 1970LAZT, unless otherwise noted                        
+#L E(X)      Not reported by 1970GA32                                     
+#G E(A,B)    Isomeric assignment uncertain (1970LAZT)                     
+#G E(B,D)    Uncertain transition (1970LAZT)                              
+#G           EKC from 1970GA32. Values are renormalized to                
+#G KC(E2)=0.00509 for 560G by the evaluators                              
+#G E(C)      From drawing of 1970LAZT. Uncertainty is assumed             
+#G by the evaluators                                                      
+#G RI(E)     From intensity balance and branching ratio in 1988BR38.      
+#G Uncertainty assigned by the evaluators                                 
+#G M         From EKC (1970GA32)                                          
+#P 3.2E+2    15(7-)              53 M      4              5615      15    
+I120 TE120 beta+ 5.615 3180.0 1.0
++G gamma 0.4779 0.012
++G gamma 0.48510000000000003 0.012
++G gamma 0.7039 0.019
++G gamma 0.8747 0.01
++G gamma 0.8817999999999999 0.022000000000000002
++G gamma 1.0315 0.015
++G gamma 1.0399 0.065
++G gamma 1.0592000000000001 0.051
++G gamma 1.158 0.027000000000000003
++G gamma 1.1973 0.023
++G gamma 1.2612999999999999 0.017
++G gamma 1.3027 0.0095
++G gamma 1.3346 0.044000000000000004
++G gamma 1.4410999999999998 0.013000000000000001
++G gamma 1.523 0.0105
++G gamma 1.8514000000000002 0.016
++G gamma 1.8682999999999998 0.038
++G gamma 1.9228 0.02
++G gamma 1.9882 0.023
++G gamma 2.3054 0.02
++G gamma 2.5606 0.037000000000000005
++G gamma 2.8643 0.023
++G gamma 3.1050999999999997 0.021
++G gamma 0.5604 1.0
++G gamma 0.6011 0.87
++G gamma 0.6411 0.015
++G gamma 1.2016 0.0033
++B beta+ 1.423 0.34
++G gamma 0.6147 0.64
++G gamma 0.6147 0.031
++G gamma 0.6545 0.021
++G gamma 1.2554 0.006999999999999999
++B beta+ 1.225 0.023
++G gamma 0.385 0.0036
++G gamma 0.42569999999999997 0.027999999999999997
++B beta+ 1.12 0.0025
++G gamma 0.6518999999999999 0.006999999999999999
++G gamma 1.405 0.09300000000000001
++B beta+ 0.802 0.08199999999999999
++G gamma 0.6944 0.005600000000000001
++G gamma 0.9213 0.043
++G gamma 1.3459 0.18899999999999997
+

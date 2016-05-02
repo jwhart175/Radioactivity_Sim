@@ -1,0 +1,25 @@
+#156PM    252CF SF DECAY                2009HW03                  12NDS    201210
+#  252CF SF DECAY                2009HW03                  12NDS    201210
+#H TYP=FUL$AUT=C. W. REICH$CIT=NDS 113, 2537 (2012)$CUT=1-Mar-2012$       
+#  NEW DATA SET PREPARED (AUGUST, 2011) BY CW REICH                       
+#  Unless noted otherwise, all the data listed here are from 2009Hw03.    
+#  Excited states populated in deexcitation of highly excited fragments   
+#   from the spontaneous fission of a 62-|mCi source of 252CF. Radiation  
+#   studied using the Gammasphere array at ^ANL with 101                  
+#   Compton-suppressed HPGe detectors. Data obtained as a part of a       
+#   study of excited states in {+91,92,93}Rb. Measured EG, |g|g|g,        
+#   (Pm x-ray)|g|g coin, cross coincidences between Rb and Pm. Report     
+#   5 excited states with connecting |g's in 156PM but no RI values,      
+#   owing to experimental difficulties.                                   
+#  The evaluator has assumed that the band structure is based on the      
+#   156PM g.s., for which JPI=4(+).                                       
+#  Properties of this band have been discussed by 2011So14.               
+#L E         From a least-squares fit by the evaluator to the listed EG   
+#L  values.                                                               
+#L J         Values assigned by the evaluator assuming that the levels    
+#L  form a rotational-band sequence based on the 156PM g.s.               
+#L BAND(A)   Assumed K=4 (g.s.) band.                                     
+#L  A=8.51 keV; B=+3.2 eV.                                                
+#P      0       0+               2.645 Y   8                              
+CF252 PM156 SF 0.0 8.346802377600001E7 0.03092
+

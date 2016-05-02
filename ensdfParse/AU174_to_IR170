@@ -1,0 +1,126 @@
+#170IR6C  |a BRANCH WITH LOWEST HF IN (2-) 178TL A DECAY DOES NOT                
+#  |a BRANCH WITH LOWEST HF IN (2-) 178TL A DECAY DOES NOT                
+#  FEED THIS LEVEL IN 174AU, SO IT IS REASONABLE TO SUPPOSE ITS STRUCTURE 
+#  DIFFERS FROM THAT OF 178TL(GS).                                        
+#A HF        TENTATIVE VALUE ASSUMING R0=1.5530 24 (unweighted average of 
+#A R0(170OS)=1.556 6 and R0(170PT)=1.548 12 from the evaluation by        
+#A 2002BA93, R0(168OS)=1.558 8 AND R0(172PT)=1.55 3 FROM 1998AK04),       
+#A %A(174AU)=90 6 (2002RO17) and QA(174AU)=6699 7 FROM 2003AU03 (WHICH    
+#A ASSUMES GS TO GS TRANSITION FOR THE 6547A).                            
+#P 0.0         (3-)              139 MS     3             6699       7    
+AU174 IR170 alpha 6.699 0.139 0.90
++A alpha 6.547 1.0
+
+#170IR    174AU A DECAY: HIGH J         2004GOZZ,1996PA01         ENSDF    200802
+#  174AU A DECAY: HIGH J         2004GOZZ,1996PA01         ENSDF    200802
+#H TYP=FUL$AUT=CORAL M. BAGLIN$CIT=ENSDF$CUT=15-Jan-2008$                 
+#H TYP=FUL$AUT=CORAL M. BAGLIN$CIT=NDS 96, 611 (2002)$CUT=15-Aug-2002$    
+#  OTHERS: 1984SCZQ, 2002RO17.                                            
+#  2004GOZZ: 174AU SOURCE FROM 92MO(84SR,PN), E=390, 395 MEV; 98.27% 92MO 
+#  target; FRAGMENT MASS ANALYZER AND DOUBLE-SIDED SI STRIP               
+#  DETECTOR (FOR RECOILS AND DECAY |a PARTICLES) SURROUNDED BY 4 Ge       
+#  DETECTORS AND A LOW-ENERGY PHOTON SPECTROMETER; RECOIL DECAY TAGGING   
+#  TECHNIQUE; MEASURED EA, IA, EG, IG, I(XK), RECOIL-|a-G COIN, |a(t),    
+#  PARENT-DAUGHTER |a CORRELATIONS.  SUPERSEDES 2001KOZY.                 
+#  2002RO17: 174AU PRODUCED BY |a DECAY OF 178TL; SI STRIP DETECTOR;      
+#  MEASURED EA, PARENT-DAUGHTER |a CORRELATIONS, ^T{-1/2} FOR             
+#  DAUGHTER.                                                              
+#  1996PA01: 174AU produced in 309 MEV 70GE bombardment of 106CD;         
+#  RECOIL MASS SEPARATOR WITH DOUBLE-SIDED SI STRIP DETECTOR AT FOCAL     
+#  PLANE (FWHM LE 20 KEV); measured EA, IA, |a(t), parent-daughter |a     
+#  correlations.                                                          
+#  THE ADOPTED DECAY SCHEME IS BASED ON THE DATA OF 2004GOZZ.             
+#                                                                         
+#  ^T{-1/2} for 174AU parent is weighted average of                       
+#  163 MS 2 (6618A), 160 MS 5 (6548A), 171 MS 7 (6471A), 162 MS 4 (6433A),
+#  ALL FROM 2004GOZZ. OTHERS: 119 MS 26 (1984SCZQ FOR 6626A);             
+#  171 MS 29 (1996PA01, 6544A).  ^T{-1/2}=120 MS 20 (1983SC24, 6530A)     
+#  AND 123 MS 20 (1984SCZQ, 6546A) ARE TENTATIVELY ASSOCIATED BY THE      
+#  EVALUATOR WITH A DIFFERENT 174AU STATE.                                
+#                                                                         
+#  JPI(174AU PARENT) IS UNMEASURED.  HOWEVER, FOR SMALL DEFORMATION, THE  
+#  LOWEST-ENERGY ORBITALS AVAILABLE TO THE 79th PROTON ARE PROBABLY       
+#  1/2[400] (s{-1/2}), 1/2[411] AND 3/2[402] (d{-3/2}), AND 11/2[505]     
+#  (h{-11/2}); THOSE AVAILABLE TO THE 95th NEUTRON ARE 5/2[512]           
+#  (h{-9/2}) AND 7/2[514] (f{-7/2}).  THE CLOSE PROXIMITY OF 1/2+ AND     
+#  11/2- ORBITALS RESULTS IN 1/2+ AND 11/2- ISOMER PAIRS IN THE           
+#  NEIGHBORING ODD-^A AU ISOTOPES, AND THE ISOTONES 173PT, 171OS, 167W    
+#  HAVE (5/2-) (PROBABLY 5/2[523]) GROUND STATES. IF 174AU IS             
+#  NEAR-SPHERICAL, ITS STRUCTURE MIGHT RESEMBLE THAT OF 166IR (AND        
+#  POSSIBLY 170AU) WHERE A ((|p d{-3/2})~#(|n f{-7/2}))2- STATE IS        
+#  BELIEVED TO ACCOUNT FOR THE LOW-SPIN GS, BASED ON THE Nordheim STRONG  
+#  RULE (1997DA07), AND A (|p h{-11/2})(|n f{-7/2}) CONFIGURATION LEADS   
+#  VIA THE Nordheim WEAK RULE TO A JPI=9+ ISOMERIC STATE (1997DA07).      
+#  HOWEVER, IF THE DEFORMATION IS LARGE ENOUGH FOR THE                    
+#  Gallagher-Moszkowski RULE TO APPLY, A 3- AND 9+ ISOMER DOUBLET COULD   
+#  RESULT FROM COUPLING A 1/2[411] OR 1/2[400] PROTON OR A 11/2[505]      
+#  PROTON WITH A NEUTRON IN THE 5/2[523] (OR 5/2[512]) ORBITAL,           
+#  CONSISTENT WITH JPI VALUES SUGGESTED BY 2004GOZZ AND SUPPORTED BY      
+#  HF<4 DEDUCED HERE FOR LOW-SPIN 174AU |a DECAY TO A POSSIBLE (3-)       
+#  170IR GS.  THE EVALUATOR VERY TENTATIVELY ADOPTS (3-) AND (9+) FOR     
+#  THE 174AU ISOMERS.                                                     
+#                                                                         
+#  {U 174AU |a DECAY}:                                                    
+#  THE INTERPRETATION OF DATA FROM THIS DECAY IS COMPLICATED BY THE       
+#  SIMILARITY OF ^T{-1/2} FOR THE TWO 174AU ISOMERS, THE SIMILARITY OF    
+#  ^T{-1/2} AND ONE EA TO THAT FOR 175AU AND THE POSSIBILITY OF TWO |a+ce 
+#  SUM PEAKS FOR ONE 174AU ISOMER AT ALMOST THE SAME ENERGY AS AN |a GROUP
+#  FROM THE OTHER 174AU ISOMER.  |a CORRELATION INFORMATION IS OF VITAL   
+#  IMPORTANCE. THE AVAILABLE DATA FOR BOTH 174AU ISOMERS ARE SUMMARIZED   
+#  IN THE TABLE BELOW.  IT REMAINS UNCLEAR WHY THE 6471A AND 6433A FROM   
+#  2004GOZZ ARE NOT REPORTED BY EITHER 2002RO17 OR 1996PA01 EVEN THOUGH   
+#  THE LATTER STUDIES REPORT A 6544A CORRELATED WITH THE 170IR 6083A.     
+#  ADDITIONAL MEASUREMENTS APPEAR TO BE NECESSARY.                        
+#                                                                         
+#  {U Summary of 174AU |a DECAY data (for {b both} isomers):}             
+#                                                                         
+#    EA      IA      Half-life        Reference(s)  Correlation(s)        
+#                                                                         
+#  6433 5    29 2    162 MS 4     ^H   2004GOZZ      170IR(6088A),191.2G  
+#                                                                         
+#  6471 5    32 3    171 MS 7     ^H   2004GOZZ      170IR(6088A),153.2G  
+#                                                                         
+#  6544 10   -       171 MS 29    ^H   1996PA01      170IR(6083A)         
+#  6544      -                    ^H   2002RO17      170IR(6082A)         
+#  6548# 10  35 3    160 MS 5     ^H   2004GOZZ      170IR(6088A)         
+#  6530 20   -       120 MS 20    ?   1983SC24                            
+#  6546 10   -       123 MS 20    ?   1984SCZQ                            
+#  6538      -       139 MS 3     ^L   2002RO17      178TL(6704A)&        
+#                                                     170IR(5817A)        
+#  6547 5    -       -            ^L   2004GOZZ      170IR(5815A)         
+#                                                                         
+#  6626 10   -       119 MS 26    ?   1984SCZQ      -                     
+#  6637 13   -       -            ^H   1996PA01      -                    
+#  6618 15   <4      163 MS 2     ^H   2004GOZZ      170IR(6088A)         
+#                                                                         
+#  # IDENTIFIED BY 2004GOZZ AS SUM PEAK FROM 6471A(174AU)-153ce(K)(170IR) 
+#    COINCIDENCES.                                                        
+#  L - ASSOCIATED WITH LOW-SPIN 174AU DECAY.                              
+#  H - ASSOCIATED WITH HIGH-SPIN 174AU DECAY.                             
+#                                                                         
+#A IA        RELATIVE INTENSITIES FROM 2004GOZZ HAVE BEEN RENORMALIZED    
+#A SO SUMOF IA=100%; THE RELATIVE IA(6618)<4 FROM 2004GOZZ HAS BEEN       
+#A INTERPRETED AS IA=2 2.                                                 
+#A 1996PA01 note that their 6544A is stronger than their 6637A; HOWEVER,  
+#A IT IS UNCLEAR WHETHER THOSE TWO LINES ARISE ENTIRELY FROM THE          
+#A SAME PARENT.                                                           
+#A HF        R0=1.5530 24 (unweighted average of R0(170OS)=1.556 6 and    
+#A R0(170PT)=1.548 12 from 2002BA93, R0(168OS)=1.558 8 AND                
+#A R0(172PT)=1.55 3 FROM 1998AK04).  HF can be given only as a lower      
+#A limit because %A(174AU) is unknown.                                    
+#A E(Z)      THIS |a LINE HAS BEEN ATTRIBUTED TO 174AU ONLY BY 2004GOZZ   
+#A AND 2001KOZY.  HOWEVER, 1984SCZQ ATTRIBUTE TO 175AU BOTH AN EA=6435 10 
+#A (^T{-1/2}=220 MS 20) AND AN EA=6470, AND THESE ARE IN COINCIDENCE      
+#A WITH 190.0G AND 152.7G, RESPECTIVELY; IT SEEMS POSSIBLE THAT THESE     
+#A MAY ARISE, INSTEAD, FROM 174AU DECAY.                                  
+#G E         From 2004GOZZ.                                               
+#L E         Based on measured EG, except as noted.  EA ENERGY DIFFERENCES
+#L from 2004GOZZ lead to E(level) values that are consistent with         
+#L these.                                                                 
+#L J         FROM Adopted Levels.                                         
+#P 0.0+X       (9+)              162.9 MS  16             6699       7    
+AU174 IR170 alpha 6.699 0.16290000000000002 1.0
++A alpha 6.629 0.04
++A alpha 6.471 0.685
++A alpha 6.433 0.29600000000000004
+

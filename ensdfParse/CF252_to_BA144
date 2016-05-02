@@ -1,0 +1,57 @@
+#144BA    252CF SF DECAY                1999HA10                  01NDS    200108
+#  252CF SF DECAY                1999HA10                  01NDS    200108
+#H TYP=FUL$AUT=A.A. Sonzogni$CIT=NDS 93, 599 (2001)$CUT=1-Dec-2000$       
+#  1999HA10: Gammasphere array experiment.  Previous publications         
+#  from the same group, using a large number of Ge detectors and which are
+#  superseded by 1999HA10:                                                
+#  1997HA64, 1995ZH34, 1995ZH39, 1995ZHZW.                                
+#  1988PHZY,1987PHZY,1986PH02: measured EG, RI, GG, G-X-RAY, GG(THETA),   
+#  seven BGO-suppressed Ge detectors, and low-energy photon detector      
+#  1970WI16, 1971CH44, 1972WI15 established GS band levels up to 8+. They 
+#  measured: G, GG, XG, G(THETA) semi                                     
+#  1996TE04:  Measured yield of 144BA correlated with MO fission          
+#  fragments, 4.0% 3 per 252CF fission event.                             
+#  Other measurements: 1970JO20, 1970WA05, 1971HO29, 1972CLZN, 1972HO08,  
+#  1973HO22, 1974CLZX, 1974JAYY, 1977YOZM                                 
+#G M$From 1986PH02, unless stated otherwise; these are inferred           
+#G from: 1. GG(THETA)                                                     
+#G for the intraband transitions are consistent with stretched Q - Q,     
+#G while the GG(THETA) for J+1 to J to J-2 transitions are consistent     
+#G with stretched ^D - Q. 2. The estimated reduced transition             
+#G probabilities indicate that ^D are more likely to be E1 than M1        
+#G transitions.                                                           
+#G RI$ From 1999HA10, unless stated otherwise;                            
+#G relative intensities of in coincidence with the                        
+#G 199.0G from the first excited 2+ level to GS                           
+#L J$As given by 1999HA10, based on GG(THETA) and G multiplicities.       
+#L E$From 1999HA10                                                        
+#G E$From 1999HA10                                                        
+#L BAND(A)   GS BAND                                                      
+#L BAND(B)   OCTUPOLE BAND                                                
+#L BAND(C)   ROTATIONAL BAND 1                                            
+#L BAND(D)   ROTATIONAL BAND 2                                            
+#P 0.0          0+               2.645 Y   8                              
+CF252 BA144 SF 0.0 8.346802377600001E7 0.0309
++G gamma 0.33080000000000004 1.0
++G gamma 0.43139999999999995 0.7140000000000001
++G gamma 0.5088 0.064
++G gamma 0.31610000000000005 0.047
++G gamma 0.39380000000000004 0.19
++G gamma 0.1158 0.034
++G gamma 0.5093 0.41600000000000004
++G gamma 0.3018 0.2
++G gamma 0.4176 0.15
++G gamma 0.2715 0.034
++G gamma 0.5732999999999999 0.087
++G gamma 0.2343 0.069
++G gamma 0.506 0.156
++G gamma 0.3885 0.015
++G gamma 0.6231 0.023
++G gamma 0.19590000000000002 0.015
++G gamma 0.5847 0.067
++G gamma 0.4576 0.006999999999999999
++G gamma 0.654 0.016
++G gamma 0.6555 0.023
++G gamma 0.7233999999999999 0.006999999999999999
++G gamma 0.7855 0.002
+

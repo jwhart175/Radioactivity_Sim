@@ -1,0 +1,105 @@
+#148SM    148PM B- DECAY (5.368 D)      1977KA14                  14NDS    201404
+#  148PM B- DECAY (5.368 D)      1977KA14                  14NDS    201404
+#H TYP=FUL$AUT=N. NICA$CIT=NDS 117, 1 (2014)$CUT=1-Oct-2013$              
+#  Measured: GAMMA (1984LAZZ,1977KA14,1971MO04,1971CA23,1963BA31),        
+#  GG (1984LAZZ,1977KA14,1963BA31,1962SC04,1962RE04,1959BH95),            
+#  GG(THETA) (1977KA14,1968WY02,1964HA17,1963BA31,1962RE03,1962SC04),     
+#  BG (1963BA31,1962SC04,1962RE03,1961EL02,1959BH95),                     
+#  CE (1963BA31), analysis of non-unique B- spectra (1983RO06)            
+#  Decay scheme is that of 1977KA14                                       
+#  Observed B groups: 2480 30 (50%), 1930 30 (10%), 1020 30               
+#  (40%) (1963BA31), see also 1962SC04, 1962RE03,                         
+#  1930B-G(THETA) (1971SH08,1970GR09,1968WY02,1968AM03,1967NA03,1963BA31),
+#  2480B shape factor (1972AMZX,1963BA06)                                 
+#B IB        From TI imbalance at each level                              
+#G CC$ FROM BrIcc v2.2b (20-Jan-2009) 2008Ki07, "Frozen Orbitals" appr.   
+#G           EKC were normalized to KC(550G)=0.00825 (1963BA31), and to   
+#G KC(630G)=0.0060 (1970GRYP), assuming both gammas to be E2.             
+#G E         From 1977KA14                                                
+#G RI        Relative intensity from 1977KA14                             
+#G M         From adopted gammas. Supporting data from this decay are     
+#G given in comments                                                      
+#G MR        From adopted gammas.                                         
+#G M(A)      From EKC                                                     
+#L E         From a least-squares fit to EG data                          
+#L J         Adopted values; supporting assignments from this data set    
+#L are given in comments                                                  
+#P 0.0         1-                5.368 D   7              2471      6     
+PM148 SM148 beta- 2.471 463795.19999999995 1.0
++B beta- 0.9777 0.555
++B beta- 0.7316 0.094
++G gamma 0.55027 0.220002
++G gamma 0.61126 0.010212
++B beta- 0.35910000000000003 0.0023599999999999997
++G gamma 0.87418 0.0023532
++B beta- 0.3471 9.299999999999999E-4
++G gamma 0.9039400000000001 4.218E-4
++G gamma 1.45421 5.106E-4
++B beta- 0.3427 0.33399999999999996
++G gamma 0.30358999999999997 3.774E-4
++G gamma 0.91485 0.11455200000000001
++G gamma 1.46512 0.222
++B beta- 0.26439999999999997 1.7999999999999998E-4
++G gamma 1.1138800000000002 2.22E-4
++G gamma 1.66415 1.1322E-4
++B beta- 0.169 1.38E-4
++G gamma 1.3713 1.3764E-4
++B beta- 0.12190000000000001 0.013600000000000001
++G gamma 0.39380000000000004 1.554E-4
++G gamma 0.5928300000000001 0.0035298
++G gamma 0.89642 0.0098124
++G gamma 1.5076800000000001 5.55E-5
++B beta- 0.0507 9.6E-4
++G gamma 0.3628 2.22E-5
++G gamma 0.8192699999999999 1.332E-4
++G gamma 1.7341199999999999 3.8628E-4
++G gamma 2.2843899999999997 4.44E-4
++B beta- 0.0421 9.1E-5
++G gamma 1.1525 2.886E-5
++G gamma 1.7637 6.216000000000001E-5
++G gamma 2.314 2.22E-6
+
+#148SM C  See also 148PM IT DECAY                                                
+#  See also 148PM IT DECAY                                                
+#  Measured: GAMMA (1984LAZZ,1977KA14,1971MO04,1970GRYP,1963BA31),        
+#  GG (1984LAZZ,1977KA14,1963BA31,1962RE03),                              
+#  GG(THETA) (1977KA14,1963BA31,1962SC04,1962RE03), B- (1963BA31),        
+#  CE (1963BA31,1970GRYP)                                                 
+#  Decay scheme is that of 1977KA14                                       
+#B IB        From TI balance at each level and assuming no B-feeding to   
+#B the GS                                                                 
+#G CC$ FROM BrIcc v2.2b (20-Jan-2009) 2008Ki07, "Frozen Orbitals" appr.   
+#G           EKC were normalized to KC(550G)=0.00825 (1963BA31), and to   
+#G KC(630G)=0.0060 (1970GRYP), assuming both gammas to be E2.             
+#G RI        Relative intensity from 1977KA14                             
+#G M         From adopted gammas. Supporting data from this decay         
+#G are from EKC (1963BA31,1970GRYP), GG(THETA) (1977KA14)                 
+#G MR        From adopted gammas. MR from GG(THETA) (1977KA14) are given  
+#G in comments                                                            
+#L E         From a least-squares fit to EG data                          
+#L J         Adopted values; supporting assignments from this data set    
+#L are given in comments                                                  
+#P 137.9     3 5-,6-             41.29 D   11             2471      6     
+PM148 SM148 IT 0.0 3567456.0 0.958
++G gamma 0.55027 0.990314
++G gamma 0.61126 0.057226400000000004
++G gamma 0.62997 0.929
++G gamma 0.41407 0.1948113
++G gamma 0.43278 0.0558329
++G gamma 0.55324 0.0041805
++G gamma 0.5719500000000001 0.0022296
++G gamma 0.7147 4.7379E-4
++G gamma 1.3446 6.131400000000001E-4
++G gamma 0.31163 0.040876
++G gamma 0.7257 0.34280099999999997
++G gamma 0.18963 0.011519600000000001
++G gamma 0.36208999999999997 0.0018580000000000003
++G gamma 0.50126 0.0704182
++G gamma 0.9153300000000001 0.1792041
++G gamma 0.09848 0.0258262
++G gamma 0.28811000000000003 0.1310819
++G gamma 0.29910000000000003 9.290000000000001E-4
++G gamma 0.46057 0.0043663
++G gamma 0.59974 0.13089610000000002
++G gamma 1.0138099999999999 0.2117191
+

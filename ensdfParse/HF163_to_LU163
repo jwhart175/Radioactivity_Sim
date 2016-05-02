@@ -1,0 +1,47 @@
+#163LU    163HF EC DECAY (40.0 S)       1982SC15                  10NDS    201005
+#  163HF EC DECAY (40.0 S)       1982SC15                  10NDS    201005
+#H TYP=FUL$AUT=C. W. REICH, BALRAJ SINGH$CIT=NDS 111, 1211 (2010)$        
+#H CUT=12-Apr-2010$                                                       
+#  DATA SET REVIEWED (AUGUST, 2008) BY CW REICH TO INCLUDE CC VALUES      
+#   FROM BRICC.                                                           
+#  1982Sc15: {+142}Nd({+24}Mg,3n) E=105-133 MeV. He-jet. Measured x-rays, 
+#  |g's, |g|g-coin, |g(t), and |a's. Identification by cross-bombardment  
+#  ({+141}Pr({+24}Mg,X) E=110-130 MeV) and excitation functions.          
+#  Others:                                                                
+#  1995Hi12: {+163}Hf produced by {+135}Ba({+32}S,xn) E=172 MeV. Measured 
+#  |g, |a. Authors state that the decay scheme proposed by 1982Sc15 is    
+#  confirmed and %|a(measured)<0.0001                                     
+#  1982Br31 (also 1989Br19,1987Es08,1981Br30): {+147}Sm({+20}Ne,4n)       
+#  E=110, 139 MeV. Chem separation. Measured |g's and T{-1/2}.            
+#  Identification by {+163}Lu 163|g                                       
+#  1981LiZM: Yb({+3}He,xn). On-line separation; fluoride compounds.       
+#  Measured x-rays, |g's, and K| x ray(t)                                 
+#G $All gammas are observed in coincidence with Lu x-rays and             
+#G |g{+|+} and, except for the 688.2|g, measured T{-1/2}'s are consistent 
+#G with the mean value of {+163}Hf ground state T{-1/2}.                  
+#G In addition excitation function measured for all |g's except the three 
+#G weakest |g rays in the ({+24}Mg,3n) reaction are in agreement          
+#G with those expected for a three-particle evaporation reaction.         
+#G M$From a comparison of experimental intensity ratios in |g|g           
+#G with the predicted values using |a's (for M1 and E1). Based on         
+#G width of prompt peak, multipolarities higher than E1, M1, E2           
+#G are excluded                                                           
+#L E$The level scheme from 1982Sc15 is now built on the top of the 17.0   
+#L level, as proposed in the ({+29}Si,5n|g) study of 1999Do34 and         
+#L 2002Je05 from the observation of parallel |g rays of 191.0 and         
+#L 174.0 from a level at 191 keV                                          
+#L J$From adopted levels                                                  
+#L E(A)$Width of prompt peak (FWHM) is <30 ns                             
+#P 0.0                           40.0 S      6            5510      40    
+HF163 LU163 beta+ 5.51 40.0 1.
++G gamma 0.04539 0.48
++G gamma 0.06214 0.64
++G gamma 0.07098 1.0
++G gamma 0.13308 0.24
++G gamma 0.16225 0.16
++G gamma 0.23335 0.17
++G gamma 0.0849 0.016
++G gamma 0.49607 0.13
++G gamma 0.52032 0.19
++G gamma 0.68825 0.33
+

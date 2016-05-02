@@ -1,0 +1,17 @@
+#141GD    141GD IT DECAY (24.5 S)       1989GI06                  14NDS    201411
+#  141GD IT DECAY (24.5 S)       1989GI06                  14NDS    201411
+#H TYP=FUL$AUT=N. NICA$CIT=NDS 122, 1 (2014)$CUT=1-Jan-2012$              
+#  Measured: |g, |g|g, ce, X|g                                            
+#G CC$ FROM BrIcc v2.2b (20-Jan-2009) 2008Ki07, "Frozen Orbitals" appr.   
+#L E$FROM LEAST-SQUARES FIT TO EG DATA                                    
+#L J         Adopted values                                               
+#P 377.76    9 11/2-             24.5 S    5                              
+GD141 GD141 IT 0.0 24.5 1.22
++G gamma 0.11320000000000001 0.09
++G gamma 0.0852 0.03
++G gamma 0.1984 0.27
++G gamma 0.0598 0.05
++G gamma 0.145 0.06
++G gamma 0.2582 0.23
++G gamma 0.1196 0.05
+

@@ -1,0 +1,39 @@
+# 70CU    70NI B- DECAY                 2004VA08                  04NDS    200412
+#  70NI B- DECAY                 2004VA08                  04NDS    200412
+#H TYP=ERR$AUT=B. Singh$DAT=6-Aug-2008$COM=Fixed IG(101G)$                
+#H TYP=FUL$AUT=J. K. Tuli$CIT=NDS 103, 389 (2004)$CUT=16-Jan-2004$        
+#  70NI isotope produced through induced fission by impinging a proton    
+#  beam on two thin foils of natural uranium at E=30 MeV via the          
+#  thin-target gas cell method.  The fission fragments were subsequently  
+#  thermalized and neutralized in a buffer gas.  The beam was made        
+#  sufficiently clean through resonant laser ionization.                  
+#  Measured G, GG, BG, T1/2 with 2 HPGE                                   
+#  detectors and 3 thin plastic |DE scintillators for B detection.        
+#  In-source laser spectroscopy was used to probe the hyperfine           
+#  splitting of atomic states.                                            
+#  See also 2002VAZX.                                                     
+#G E(A)$PLACEMENT OF THESE G'S IN THE DECAY SCHEME COULD BE REVERSED and  
+#G hence move 628 keV level to 892 keV.                                   
+#P 0.0         0+                6.0 S     3              3.8E+3    4     
+NI70 CU70 beta- 3.8 6.0 0.134
++G gamma 0.1274 0.033
++G gamma 0.0783 0.34
++G gamma 0.1265 0.04
++G gamma 0.1404 0.028999999999999998
++G gamma 0.26780000000000004 0.036000000000000004
++G gamma 0.3857 0.096
++G gamma 0.3772 0.21
++G gamma 0.4551 0.27
++G gamma 0.3857 0.02
++G gamma 0.2328 0.02
++G gamma 0.6184 0.14
++G gamma 0.6961 0.10099999999999999
++G gamma 0.3396 0.25
++G gamma 0.5811000000000001 0.035
++G gamma 0.6501 0.096
++G gamma 0.9569 0.027999999999999997
++G gamma 1.0355999999999999 1.0
++G gamma 1.1522999999999999 0.06
++G gamma 1.2775999999999998 0.3
++G gamma 1.6112 0.09
+

@@ -1,0 +1,22 @@
+# 91ZR    91ZR IT DECAY                 2009HO07                  13NDS    201310
+#  91ZR IT DECAY                 2009HO07                  13NDS    201310
+#H TYP=FUL$AUT=Coral M. Baglin$CIT=NDS 114, 1293 (2013)$CUT=1-Sep-2013$   
+#  ISOMER POPULATED BY BOMBARDING A 99% ISOTOPICALLY-ENRICHED 13C FOIL    
+#  WITH A 7.4 MEV/NUCLEON 86KR{+21+} BEAM; ACHROMATICALLY-FOCUSSED        
+#  EVAPORATION RESIDUES IMPLANTED AFTER A FLIGHT PATH OF ~520 NS INTO PB  
+#  FOIL SURROUNDED BY 14 HPGe DETECTORS, TWO OF WHICH WERE EQUIPPED       
+#  WITH ^BGO COMPTON-SUPPRESSION SHIELDS; MEASURED EG, GG COIN.           
+#  THE LEVEL SCHEME WAS CONSTRUCTED BY THE EVALUATOR TO ACCOMMODATE THE   
+#  91ZR TRANSITIONS IDENTIFIED IN FIG. 2 OF 2009HO07 IN ACCORD WITH       
+#  Adopted Levels, Gammas.                                                
+#G E         FROM G-G COINCIDENCE SPECTRUM IN FIG. 2 OF 2009HO07.         
+#G AUTHORS QUOTE EG TO THE NEAREST KEV AND GIVE NO UNCERTAINTIES.         
+#G M         FROM Adopted Gammas.                                         
+#G E(A)      FROM Adopted Gammas; G EXPECTED, BUT EG IS OUTSIDE ENERGY    
+#G RANGE FOR SPECTRUM SHOWN IN FIG. 2 OF 2009HO07.                        
+#L E         FROM LEAST-SQUARES FIT TO EG, ASSIGNING EQUAL WEIGHT TO ALL  
+#L TRANSITIONS, EXCEPT AS NOTED.                                          
+#L J         FROM Adopted Levels.                                         
+#P 3167.3     4 (21/2+)          4.35 US   14                             
+ZR91 ZR91 IT 0.0 4.35E-6 1.0
+

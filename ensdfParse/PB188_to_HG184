@@ -1,0 +1,35 @@
+#184HG    188PB A DECAY                 1993WA03                  10NDS    201002
+#  188PB A DECAY                 1993WA03                  10NDS    201002
+#H TYP=FUL$AUT=CORAL M. BAGLIN$CIT=NDS 111,275 (2010)$CUT=1-Oct-2009$     
+#  1993WA03: MASS-SEPARATED 188PB SOURCE FROM 155GD(40AR,7N), E=240 MEV;  
+#  ^PIPS-type |a DETECTORS (FWHM=23 KEV AT 5486), PLASTIC SCIN (FOR ce),  
+#  LOW-ENERGY Ge DETECTOR (FWHM=0.67 AT 122 KEV); MEASURED EA, IA, EG,    
+#  |a-X(t), |a-ce(t).                                                     
+#  The measured half-lives are ^T{-1/2}=23.6 S 45 (1972Ga27),             
+#  24.5 S 15 (1973Ho01), 26 S 2 (1974Le02), 22 S 2 (1984To09),            
+#  25.5 S 1 (1992Wa14). The weighted average of these values IS 25.1 S 1. 
+#  ^T{-1/2}(188PB)=24 S 2 was adopted by 1998Ak04 (unweighted average     
+#  covering all measured values), and used for that calculation of R0     
+#  (=1.491 14).                                                           
+#                                                                         
+#  %A(188PB)=9.3 8 from 1999An22 is adopted here.                         
+#  1998Ak04 adopted 8.5 13 from 1996Bi17.  Previously,                    
+#  |a branchings of 15% and 22% 7 were deduced by 1981To02                
+#  from x-ray/|a and |g/|a counts, respectively; %|a=3-10 is              
+#  listed in 1992Wa14.                                                    
+#                                                                         
+#  QA(188PB)=6109 3 (2003AU03, 2009AUZZ).                                 
+#  EA(to GS)=5983 4 (1991RY01) gives QA=6113 4.                           
+#A E         |a energies to excited states were measured by 1993Wa03.     
+#A IA        |a intensity per 100 |a decays.                              
+#A HF        R0(184HG)=1.494 4 is calculated by requiring the             
+#A hindrance factor for the 5983A to be 1.0.                              
+#G M         FROM Adopted Gammas.                                         
+#L E         FROM EG.                                                     
+#L J         FROM Adopted Levels.                                         
+#P 0.0          0+               25.1 S    1              6109      3     
+PB188 HG184 alpha 6.109 25.1 0.093
++A alpha 5.983 0.99
++A alpha 5.633 9.5E-4
++A alpha 5.614 0.01
+

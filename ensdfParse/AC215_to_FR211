@@ -1,0 +1,37 @@
+#211FR    215AC A DECAY                 2004KU24,2000HE17         13NDS    201306
+#  215AC A DECAY                 2004KU24,2000HE17         13NDS    201306
+#H TYP=FUL$AUT=A. Sonzogni, G. Mukherjee, H. Huang, A. Tarazaga, J. Wang$ 
+#H CIT=NDS 114, 231 (2013)$CUT=28-FEB-2013 $                              
+#  2004Ku24:{+215}Ac isotope produced in the reaction                     
+#  {+209}Bi({+12}C,6n) at E=7.1, 8.6 and 9.1 MeV/nucleon. Evaporation     
+#  residues separated from {+12}C beam by SHIP velocity filter. Measured  
+#  E|g, E|a, I|g, I|a, |g|a coin with a position-sensitive 16-strip PIPS  
+#  Si detector and an HPGe detector. In a later experiment, the latter    
+#  was replaced by a Ge Clover detector consisting of four crystals to    
+#  measure |g-ray multiplicity. The Si detector had FWHM=22 keV at 8 MeV. 
+#  2000He17: {+215}Ac recoils from {+12}C on {+209}Bi (E=100 MeV) were    
+#  separated from the beam using a velocity filter and implanted into a   
+#  position-sensitive semiconductor detector. Measured E|a, |a|g coin     
+#  (2000He17). Data in this Ref. will not be  used since it is            
+#  superseded by 2004Ku24 (same group)                                    
+#A HF$ Using r{-0}({+211}Fr=1.4606 {I41}; interpolated value deduced from 
+#A R0(212RA)=1.466 6, and R0(210RN)=1.4552 21 (1998Ak04).                 
+#A IA$2004Ku24 indicate that |a-intensities are probably underestimated   
+#A as losses due to electron summing were not taken into account.         
+#A HF$ Deduced using ALPHAD computer code. Values from 2004Ku24           
+#A are given under comments                                               
+#G RI$ Branching ratios given in 2004Ku24 converted to absolute I|g       
+#G M,MR$ From Adopted Gammas                                              
+#L J$Assignments based upon the tentative multipolarity assignment for    
+#L the 110 |g-ray, comparison with isotones {+207}Bi and {+209}At,        
+#L hindrance factors, and on the (11/2-) and (13/2-) spin-parity          
+#L assignments to 583 and 653 levels, respectively (from literature).     
+#P 0.0          9/2-              0.17 S    1              7746     3     
++A alpha 7.6 0.9956999999999999
++A alpha 7.211 0.002
++A alpha 7.108 7.000000000000001E-5
++A alpha 7.029 0.0012
++A alpha 6.979 7.000000000000001E-5
++A alpha 6.959 7.000000000000001E-4
++A alpha 6.877 2.6E-4
+

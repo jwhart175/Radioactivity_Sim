@@ -1,0 +1,78 @@
+#170ER    170HO B- DECAY (43 S)         1978TU04,1974KA21         02NDS    200211
+#  170HO B- DECAY (43 S)         1978TU04,1974KA21         02NDS    200211
+#H TYP=ERR$AUT=J. Tuli$DAT=18-DEC-2007$COM=fixed typos from PNPI rpt$     
+#H TYP=FUL$AUT=CORAL M. BAGLIN$CIT=NDS 96, 611 (2002)$CUT=15-Aug-2002$    
+#  Other: 1969SC01.                                                       
+#  Typically, sources are produced by 170ER(N,P), E=14 MEV.               
+#  1969SC01: measured EB, EG, IG, BG coin.                                
+#  1974KA21: measured EG, IG, GG-coin, EB, BG-coin.                       
+#  1978TU04: measured BG-coin, EB.                                        
+#  The adopted decay scheme is based on that of 1974KA21; however, I(79G) 
+#  is taken from 1978TU04, I(182G) is deduced from intensity balance, and 
+#  the following G rays (unplaced in 1974KA21) are tentatively placed by  
+#  the evaluator from the same levels as were lines with the same EG      
+#  in (N,N'G): 1187.5G, 1226.3G, 1245.2G, 1663.8, 1940.1, 1992.5G,        
+#  2132.8G, 2621.4G, 2789.2G. The scheme is unnormalized because the B-   
+#  branch to the GS is unmeasured; LOGFT information which can,           
+#  nevertheless, be deduced is indicated.                                 
+#L E         FROM LEAST-SQUARES ADJUSTMENT OF EG.                         
+#L J         FROM ADOPTED LEVELS.                                         
+#B E         VALUES GIVEN WITHOUT PARENTHESES ARE                         
+#B measured endpoint energies from G-gated B- spectra                     
+#B (1978TU04). Other endpoint energies: 4000 200 (1974KA21) and 4000      
+#B (1969SC01) for B- branch to GS and/or 79 level.                        
+#B IB,LOGFT  Intensity of GS branch has not been measured and an          
+#B accurate decay scheme normalization cannot be deduced. An              
+#B approximate normalization obtained from IB to 79 level                 
+#B and Alaga rule (see 1974KA21) gives AP 36% GS branch. Relative IB      
+#B values are given here for excited states; they are normalized to give  
+#B IB per 100 parent decays if IB(GS)=36% and presume that all placements 
+#B are indeed correct.                                                    
+#G E         From 1974KA21.                                               
+#G RI        Relative photon intensities normalized so I(812G)=100.       
+#G M,MR      From adopted gammas.                                         
+#G I(812.3G)=100 3 (1974KA21).                                            
+#G RI(A)     From 1978TU04. 1974KA21 report IG=170 40.                    
+#G RI(B)     Since no B- branch to 4+ is expected, IG(181)=9.6 4 is       
+#G implied by intensity balance at 260 level if mult(181G)=E2. Evaluator  
+#G adopts this value in preference to measured I(181G)=14.5 15            
+#G (1974KA21); a measurement error is at least plausible given that       
+#G 1974KA21 overestimate I(79G) (cf. 1978TU04). Alternatively, the decay  
+#G scheme may omit some additional transition(s) feeding the 260 level.   
+#G E(D)      Placement shown as tentative because G was placed by the     
+#G evaluator.                                                             
+#P 120       70 (1+)             43 S      2              3870      50    
+HO170 ER170 beta- 3.87 43.0 1.0
++G gamma 1.8366 0.006999999999999999
++G gamma 1.8762999999999999 0.008
++G gamma 2.7595 0.008
++G gamma 0.0787 0.4
++G gamma 0.18159999999999998 0.096
++B beta- 3.068 0.16
++G gamma 0.8122999999999999 1.0
++G gamma 0.6998 0.129
++G gamma 0.8812000000000001 0.19699999999999998
++G gamma 0.9594 0.124
++G gamma 1.1875 0.255
++G gamma 1.2263 0.134
++G gamma 1.2452 0.026000000000000002
++G gamma 1.3374000000000001 0.057999999999999996
++G gamma 1.4156 0.05
++G gamma 0.5408999999999999 0.218
++G gamma 1.6638 0.013999999999999999
++B beta- 2.015 0.13
++G gamma 1.894 0.452
++G gamma 1.9726 0.365
++G gamma 0.482 0.121
++G gamma 1.0227 0.152
++G gamma 1.9401 0.105
++G gamma 1.9607 0.027000000000000003
++G gamma 2.0393 0.028999999999999998
++G gamma 1.9925 0.048
++G gamma 2.1328 0.012
++G gamma 2.6061 0.043
++G gamma 2.6848 0.045
++G gamma 2.6214 0.008
++G gamma 2.6465 0.038
++G gamma 2.7151 0.025
+

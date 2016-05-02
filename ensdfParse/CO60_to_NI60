@@ -1,0 +1,88 @@
+# 60NI    60CO B- DECAY (1925.28 D)                               13NDS    201312
+#  60CO B- DECAY (1925.28 D)                               13NDS    201312
+#H TYP=FUL$AUT=E. BROWNE, J. K. TULI$CIT=NDS 114, 1849 (2013)$            
+#H CUT=31-Dec-2012$                                                       
+#  Based on an evaluation by R. G. Helmer, January 1998 including some    
+#  general comments from previous evaluation (1993Ki10).                  
+#  This evaluation was done as part of a collaboration of evaluators      
+#  from Laboratoire National Henri Becquerel (LNHB) in France;            
+#  Physikalisch-Technische Bundesanstalt (PTB) in Germany; HMS            
+#  Sultan and AEA Technology in the United Kingdom; Khlopin Radium        
+#  Institute (KRI) in Russia; Centro de Investigaciones                   
+#  Energeticas, Medioambientales, y Tecnologicas (CIEMAT) and             
+#  Universidad Nacional a Distancia (UNED) in Spain; and Brookhaven       
+#  National Laboratory (BNL), Lawrence Berkeley National Laboratory       
+#  (LBNL), and Idaho National Engineering and Environmental               
+#  Laboratory (INEEL) in the United States. See also: 1999BeZQ,           
+#  1999BeZS                                                               
+#  {+60}Co generally from {+59}Co(n,|g). Measured E|g, I|g with Compton   
+#  suppression spectrometer, Ge(Li) and NaI detectors (1976Ca18).         
+#  Measured E|b, I|b, E|g with magnetic spectrometer, Ge(Li)              
+#  detector (1968Ha03). Measured |g(|q) from {+60}Co polarized in         
+#  Fe by low-temperature techniques with Ge(Li) and NaI detectors         
+#  (1980Kr05). Measured |g|g(t) with combined plastic-NaI detectors       
+#  and centroid shift technique (1976Kl04). Measured E|b in               
+#  iron-free spectrometer (1968Wo02). For |b(|q) emitted from             
+#  polarized {+60}Co, see 1980Ch14. For |g|g(|q) measurements,            
+#  see 1969Kh11. Measured I|g by detecting neutrons from the              
+#  d(|g,n) reaction caused by the 2505 |g-ray (1978Fu05).                 
+#  For K-shell ionization in the |b{+-} decay of {+60}Co, see 1983Ki04.   
+#  Others: 2008Sy01, 2006Pa20, 2004Ge20, 2004Ka07, 2003Lu04, 1983La06,    
+#  1982Er10, 1977Lo01, 1976Bo16, 1976Hu09, 1973Fu15, 1972Le14, 1970Wa19,  
+#  1970Di01, 1970Ri20, 1969Va20, 1969Ra23, 1961Ca05, 1956Wo09, 1954Ke04.  
+#  Decay scheme is internally consistent since the total decay energy     
+#  computed from this scheme is 2821.0 {i2} keV compared                  
+#  to the Q value of 2822.8 {i2}.                                         
+#  1998Ku24: measured "Near-Zero Energy" electrons (distribution, peak=   
+#  0.2 eV, FWHM=1 eV) intensity=0.14 per |b{+-} decay                     
+#  2010Wa40: measured |b- asymmetry by polarizing a 60CO source using     
+#  a low-temperature nuclear orientation method.                          
+#B E         From 1968Ha03, except as noted.                              
+#G CC$ FROM BrIcc v2.2 (31-Mar-2008) 2008KiAA, "Frozen Orbitals" appr.    
+#G E. Browne (2/28/2013).                                                 
+#G           A possible |g of 467 keV with I|g<0.0004% (1969Va20) and     
+#G <0.00023 (1976Ca18) from the known level at 2626 keV to the            
+#G 2158 level is not included here. At the lower intensity limit,         
+#G the I{-|b} to the 2626 level would be <0.001%.                         
+#G E         From 2000He14 for 1173 and 1332 |g rays. The others were     
+#G deduced from the level energies from a fit to the |g-ray               
+#G energies. In addition to the 1173 and 1332 values, the input to        
+#G this fit included 346.93 {i7} (1978Ca18 where the authors average      
+#G their result and that of 1969Va20); 826.06 [from                       
+#G {+59}Co(p,|g){+60}Ni (1975Er05)]; 2158.57 {i10} [from                  
+#G {+59}Co(p,|g) (1975Er05)]. Other measured |g energies include:         
+#G 346.95 {i10} (1969Va20)], 826.18 {i20} (1969Va20), 826.28 {i9}         
+#G (1976Ca18, but includes value of 1969Va20), 2158.8 {i4}                
+#G (1970Di01), 2158.9 {i2} (1969Ra07), and 2159.6 {i8} (1969Ho22).        
+#G RI        I(K| x ray)=0.0112 computed from decay scheme                
+#G M,MR      From {+60}Ni Adopted gammas, except as noted.                
+#G CC        Interpolated using program BRICC, unless                     
+#G otherwise noted.                                                       
+#L J         From {+60}Ni Adopted Levels.                                 
+#P 0.0          5+               1925.28 D 14              2822.8   2     
++B beta- 0.62587 0.0012
++G gamma 1.332492 0.9998260000000001
++G gamma 2.15857 1.1999999999999999E-5
++B beta-0.67 0.0
+
+# 60NI    60CO B- DECAY (10.467 M)      1963SC14                  13NDS    201312
+#  60CO B- DECAY (10.467 M)      1963SC14                  13NDS    201312
+#H TYP=FUL$AUT=E. BROWNE, J. K. TULI$CIT=NDS 114, 1849 (2013)$            
+#H CUT=31-Dec-2012$                                                       
+#G CC$ FROM BrIcc v2.2 (31-Mar-2008) 2008KiAA, "Frozen Orbitals" appr.    
+#  Activity from {+59}Co(n,|g). Measured E|b, I|b, T{-1/2}, E|g, I|g.     
+#  Scintillators (1963Sc14). Others: 2010Wa40, 2008Po05.                  
+#  See 1973Ha69 for compilation and additional measurements.              
+#B           |b{+-} branches are obtained from I(|g+ce) imbalance at each 
+#B level assuming no g.s. feeding (2+ to 0+ transition).                  
+#B IB        |b{+-} decay to g.s. <5|*10{+-3} % (1963Sc14)                
+#G E         From {+60}Co |b{+-} decay ({ 1925.28 d})                     
+#L J         See Adopted Levels.                                          
+#P 58.59     1 2+                10.467 M  6              2822.8    2     
+CO60 NI60 beta- 2.8228 628.02 0.0025
++B beta- 0.60599 0.0024
++G gamma 1.332492 1.0
++B beta- 0.24844999999999998 8.6E-5
++G gamma 0.8261000000000001 0.031
++G gamma 2.15857 0.003
+

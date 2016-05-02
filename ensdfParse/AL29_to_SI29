@@ -1,0 +1,29 @@
+# 29SI    29AL B- DECAY                 1982AL27,1970JO06,1969HA5112NDS    201205
+#  29AL B- DECAY                 1982AL27,1970JO06,1969HA5112NDS    201205
+#H TYP=FUL$AUT=M. Shamsuzzoha Basunia$CIT=NDS 113, 909 (2012)$            
+#H CUT=1-Jan-2012$                                                        
+#  1982AL27: 29AL produced from 27AL(T,P)29AL reaction, E=3.0 MeV; Ge(Li) 
+#  detector; Measured EG, RI, deduced beta feeding, deduced logft.        
+#  1970JO06: 29AL produced from 27AL(T,P)29AL reaction, E=2.7-MeV; Ge(Li) 
+#  detector; measured EG, RI, deduced beta feeding, logft values.         
+#  1969HA51: 29AL produced from 27AL(T,P)29AL reaction, E=3.1-MeV; Ge(Li),
+#  NaI(Tl) detectors; measured EG and G-ray branching from levels, deduced
+#  beta feeding, logft values.                                            
+#B IB$From 1982Al27. The data in 1982AL27, 1970JO06, and 1969HA51 are in  
+#B good agreement.                                                        
+#G E,RI$From 1982Al27, except otherwise noted.                            
+#L E$From a least-squares fit to G-ray energies                           
+#L J$From Adopted Levels                                                  
+#P 0           5/2+              6.56 M    6              3679.7    12    
++B beta- 1.0237 0.899
++G gamma 1.2733610000000002 0.9125999999999999
++B beta- 0.6704 0.038
++G gamma 0.7548400000000001 0.00310284
++G gamma 2.0280899999999997 0.0351351
++B beta- 0.49010000000000004 0.063
++G gamma 0.39785000000000004 2.92032E-4
++G gamma 1.1525699999999999 0.01031238
++B beta- 0.21569999999999998 3.3E-4
++G gamma 1.0391 7.3008E-5
++G gamma 1.79383 2.64654E-4
+

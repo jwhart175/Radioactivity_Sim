@@ -1,0 +1,35 @@
+#142ND    142PM EC DECAY                1973RA01                  11NDS    201108
+#  142PM EC DECAY                1973RA01                  11NDS    201108
+#H TYP=FUL$AUT=T.D. Johnson, D. Symochko(a), M. Fadil(b), and J.K. Tuli$  
+#H CIT=NDS 112, 1949 (2011)$CUT=1-Jun-2010$                               
+#  Measured: EG, IG                                                       
+#  (1973Ra01,1972De23,1970Ha29,1969Ar24,1969HaZT,1968Bl13),               
+#  GG (1970Ha29), CE (1969Ar24), B+ (1960Ma27), G, XK                     
+#  (1991Fi03)                                                             
+#  1991Fi03: %B+=77.1 27, %EC=22.9 27 %IG(1576G)=1.96 11                  
+#G CC$ FROM BrIcc v2.2 (31-Mar-2008) 2008KiAA, "Frozen Orbitals" appr.    
+#G           I(G+-) GT 2000 if I(1576G)=100 (1973Ka01);                   
+#G I(1576G)/I(G+-,142SM+142PM)=0.0198 4 (1972Sc41) where                  
+#G I(G+=,142SM+142PM) is the 511 keV annihilation radiation from          
+#G {+142}Pm decay.                                                        
+#G From this 1973Ra01                                                     
+#G deduce I(1576G)/I(G+-,142PM)=0.0215 assuming that 100% of EC decay     
+#G from 142SM leads to 142PM g.s.                                         
+#L J         Adopted values                                               
+#L E$From least-squares fit to EG, assuming                               
+#L |DE|g=1 where uncertainty not known                                    
+#P 0.0         1+                40.5 S    5              4870      40    
+PM142 ND142 beta+ 4.87 40.5 0.033
++G gamma 1.5757999999999999 1.0
++G gamma 0.6414 0.196
++G gamma 0.8097000000000001 0.0062
++G gamma 2.3843 0.034
++G gamma 1.0079 0.0063
++G gamma 2.583 0.013999999999999999
++G gamma 2.8459 0.024
++G gamma 3.0456999999999996 0.006500000000000001
++G gamma 1.5522 0.009399999999999999
++G gamma 3.1283000000000003 0.004699999999999999
++G gamma 1.782 0.006
++G gamma 3.358 0.0023
+

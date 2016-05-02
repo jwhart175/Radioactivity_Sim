@@ -1,0 +1,125 @@
+#141SM    141EU EC DECAY (40.7 S)       1977DE25                  14NDS    201411
+#  141EU EC DECAY (40.7 S)       1977DE25                  14NDS    201411
+#H TYP=FUL$AUT=N. NICA$CIT=NDS 122, 1 (2014)$CUT=1-Jan-2012$              
+#  Measured: |g, |g|g, |b|g, K| x ray (1977De25,1989Gi06), |b{++}         
+#  (1983Al06), |g, ce (1973VaYZ)                                          
+#  Level scheme is that of 1977De25                                       
+#  Others: 1973WeZK, 1973HaWA                                             
+#  %|e+%|b{++}=73 {I5} to <2-keV levels of {+141}Sm (1989Gi06); 59 {I4}   
+#  in 1977De25                                                            
+#E           |e feedings were determined from the imbalance of I|g        
+#E feedings and                                                           
+#E measured %|e+%|b{++}=73 {I5} to 1.58 level (1989Gi06, assuming no      
+#E |e+|b{++} to g.s.)                                                     
+#E           EC/B+=0.22 2 and IG(394G)=9% 2 (1989GI06)                    
+#G CC$ FROM BrIcc v2.2b (20-Jan-2009) 2008Ki07, "Frozen Orbitals" appr.   
+#G M         From |a(K)exp                                                
+#L J         Adopted values                                               
+#P 0.0         5/2+              40.7 S    7              6008      14    
+EU141 SM141 beta+ 6.008 40.7 1.0
++G gamma 0.8174 8.100000000000001E-4
++G gamma 0.8829 0.00729
++G gamma 0.99 0.0014399999999999999
++G gamma 0.9961 0.0036899999999999993
++G gamma 1.052 0.00198
++G gamma 1.0534000000000001 9.0E-4
++G gamma 1.6916 0.00135
++G gamma 1.839 0.00216
++B beta+ 0.69 0.0069
++B beta+ 2.2883 0.07
++G gamma 0.38289999999999996 0.029699999999999997
++G gamma 0.3845 0.055529999999999996
++B beta+ 2.1071 0.07
++G gamma 0.394 0.09
++G gamma 0.3956 0.01638
++B beta+ 2.1019 0.07
++G gamma 0.3695 0.0162
++B beta+ 2.0312 0.06
++G gamma 0.5931000000000001 0.029519999999999994
++G gamma 0.5947 0.00414
++B beta+ 2.008 0.06
++G gamma 0.2023 0.00171
++G gamma 0.2135 0.00117
++G gamma 0.5962999999999999 0.00504
++G gamma 0.5979 0.01224
++B beta+ 2.0065 0.06
++G gamma 0.2346 5.67E-4
++G gamma 0.43389999999999995 0.00567
++B beta+ 1.8976 0.06
++G gamma 0.3544 0.0014399999999999999
++G gamma 0.7242000000000001 0.0016200000000000001
++B beta+ 1.8645 0.06
++G gamma 0.3958 0.0016200000000000001
++G gamma 0.606 0.00315
++B beta+ 1.822 0.06
++G gamma 0.6059 0.00945
++G gamma 0.9997999999999999 0.00252
++B beta+ 1.8168 0.06
++G gamma 0.6878 0.00189
++G gamma 0.699 0.00189
++G gamma 1.0819 0.00189
++G gamma 1.0836 8.100000000000001E-4
++B beta+ 1.7784 0.06
++G gamma 0.7649 0.00216
++G gamma 0.776 0.0027
++B beta+ 1.7424000000000002 0.06
++G gamma 0.7996 0.0027
++B beta+ 1.6562000000000001 0.06
++G gamma 0.9762000000000001 0.00171
++B beta+ 1.5739 0.06
++G gamma 0.9357000000000001 0.00126
++B beta+ 1.5699 0.06
++G gamma 1.2344000000000002 0.0018
++G gamma 1.2454 0.0028799999999999997
++B beta+ 1.5235999999999998 0.05
++G gamma 1.3820999999999999 0.00216
++G gamma 1.7662 0.00405
++B beta+ 1.4602 0.05
++G gamma 0.8936000000000001 8.100000000000001E-4
++G gamma 1.3004 0.00198
++G gamma 1.5107000000000002 0.0035099999999999997
++B beta+ 1.4007 0.05
++G gamma 1.5607 9.0E-4
++B beta+ 1.3725 0.05
++G gamma 1.3924 0.00135
++G gamma 1.676 0.00153
++G gamma 1.8266 0.00234
++G gamma 2.2216 0.00171
++B beta+ 1.2501 0.05
++G gamma 1.7449000000000001 0.0027
+
+#141SM    141EU EC DECAY (2.7 S)        1977DE25,1989GI06         14NDS    201411
+#  141EU EC DECAY (2.7 S)        1977DE25,1989GI06         14NDS    201411
+#H TYP=FUL$AUT=N. NICA$CIT=NDS 122, 1 (2014)$CUT=1-Jan-2012$              
+#  Measured: |g, K| x ray (1977De25,1989Gi06)                             
+#  Other: 1973VaYZ                                                        
+#  |e+|b{++} feedings were determined from balance of I|g for each level  
+#  and absolute I(1595|g)=0.4% deduced from measurement of growth and     
+#  decay of 196.6|g in daughter {+141}Sm activity                         
+#G CC$ FROM BrIcc v2.2b (20-Jan-2009) 2008Ki07, "Frozen Orbitals" appr.   
+#G RI        Relative to I|g(96.4|g)=100 in IT decay                      
+#G           I(395.6|g+394.0|g)=95 {I20}; I(395.6|g)/I(394.0|g)=0.182     
+#G {I15} from {+141}Eu g.s. |e decay                                      
+#L J         Adopted values                                               
+#P 96.45     7 11/2-             2.7 S     3              6008      14    
+EU141 SM141 beta+ 6.008 2.7 0.13
++G gamma 0.8829 0.041832
++B beta+ 1.2186 0.05
++G gamma 0.394 0.046479999999999994
++G gamma 0.3956 0.008714999999999999
++G gamma 0.3695 0.023239999999999997
++G gamma 0.43389999999999995 0.033117
++B beta+ 2.2515 0.07
++G gamma 0.6059 0.011038999999999998
++B beta+ 1.862 0.06
++G gamma 0.5187999999999999 0.034279
++G gamma 0.8873 0.022077999999999997
++B beta+ 1.833 0.06
++G gamma 0.116 0.005809999999999999
++G gamma 0.6356 0.0034860000000000004
++B beta+ 1.7783 0.06
++G gamma 0.8044 0.033698
++B beta+ 1.5666 0.06
++G gamma 1.2257 0.001162
++G gamma 1.5953 0.030793
+

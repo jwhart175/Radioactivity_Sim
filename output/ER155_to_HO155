@@ -1,0 +1,31 @@
+#155HO    155ER EC DECAY                1980BU25                  05NDS    200501
+#  155ER EC DECAY                1980BU25                  05NDS    200501
+#H TYP=FUL$AUT=C. W. REICH$CIT=NDS 104, 1 (2005)$CUT=1-Jun-2004$          
+#  Source produced by 660-MEV proton spallation of TA,                    
+#  followed by mass separation. Measured EG, RI, GG coincidence,          
+#  GCE coincidence, ICE (magnetic spectrometer)                           
+#  The decay scheme is not sufficiently complete to allow calculation of  
+#  the G-ray normalization factor. For example, if one assumes            
+#  LOGFT GT 5.9 for the GS EC+B+ branch, then I(EC+B+ GS) LT 10%. From    
+#  I(XK)=843 60, fluorescence yield=0.943 21, I(CEK)=231 35 and           
+#  EC(K)/(EC+B+)=0.55 one obtains NR=0.083 10. This NR value yields       
+#  I(EC+B+ GS)=59% 5 and LOGFT=5.1. These values are quite inconsistent   
+#  with the required LOGFT GT 5.9.                                        
+#G           The CE intensities have been normalized to those of the G    
+#G rays by requiring that EKC=1.70 for the prominent 110.1 G, the         
+#G theoretical value for an M1 transition (see (HI,XNG)).                 
+#G RI        I(HO K x rays)=843 60, relative to RI(110.12G)=100           
+#G M         Deduced from comparison of EKC with KC, unless otherwise     
+#G noted.                                                                 
+#G M(D)      The K-lines of the 234.0 and 234.8 G's were not resolved in  
+#G the conversion-electron spectrum of 1980Bu25. Assuming an E1           
+#G multipolarity for the 234.0 G and subtracting its contribution to the  
+#G composite peak, the evaluator deduces EKC(234.8G)=0.54 13 (using a     
+#G reasonable estimate of 20% for the uncertainty of the intensity of     
+#G the K-electron peak). 1980Bu25 estimate EKC(234.8G) AP 0.4 using this  
+#G procedure and conclude that the 234.8 G is M1. However, our deduced    
+#G value is over twice the KC value for an M1 transition of this energy.  
+#P 0.0          7/2-             5.3 M     3              3824      19    
+ER155 HO155 beta+ 3.824 318.0 1.0
++G gamma 0.11012000000000001 1.0
+

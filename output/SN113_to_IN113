@@ -1,0 +1,53 @@
+#113IN    113SN EC DECAY (115.09 D)                               10NDS    201006
+#  113SN EC DECAY (115.09 D)                               10NDS    201006
+#H TYP=FUL$AUT=Jean Blachot$CIT=NDS 111, 1471 (2010)$CUT=1-May-2009$      
+#  In addition to the 3 excited levels populated in this decay scheme,    
+#  there is a level below the decay energy in 113IN at 1024 (JPI=5/2+).   
+#  The B- decay to this level will be negligible.                         
+#  Decay data evaluated by R. G. Helmer, August 1996 with minor editing   
+#  done in July 1998. This evaluation was done under the collaboration    
+#  which includes evaluators from Laboratoire Primaire des Rayonnments    
+#  Ionisants (^LPRI) in France; Physikalisch-Technische Bundesanstalt     
+#  (^PTB) in Germany; Imperial College in the United Kingdom; and         
+#  Brookhaven National Laboratory (^BNL), Lawrence Berkeley National      
+#  Laboratory (^LBNL), and Idaho National Engineering Laboratory (^INEL)  
+#  in the United States. This evaluation was reviewed and accepted by     
+#  evaluators in this collaboration.                                      
+#  The main G ray of 391 keV depopulates a level with a T of 99 MIN, so   
+#  the ratio of its emission rate to the 113SN decay rate will vary with  
+#  time. After a sufficient time, about five half-lives for the level,    
+#  the ratio of the 113IN (99 MIN) and 113SN activities remains constant  
+#  and is T(113SN)/[T(113SN)-T(113min)]=1.0006                            
+#  The total average radiation energy released by 113Sn is 1035.5 KEV 5   
+#  (calculated by evaluators using the computer program radlst). This     
+#  value agrees remarkably well with Q(EC)=1036.6 KEV 27 (2003Au03) and   
+#  confirms the quality of the decay scheme.                              
+#  CC$ FROM BrIcc v2.2b (20-Jan-2009) 2008Ki07, "Frozen Orbitals" appr.   
+#E $The electron-capture decay from the 1/2+ parent to the ground state   
+#E (9/2+) is 4th forbidden. From LOGFT systematics (1973Ra10), one        
+#E expects this LOGFT value to be GE 22, with a corresponding I(EC) LE    
+#E 1.E-12%. For the unpopulated level at 1024 keV, the decay is 2nd       
+#E forbidden, with an expected LOGFT value of GT 11.0. The corresponding  
+#E I(EC) is LT 2.E-7%; so this branch is also completely negligible.      
+#E CK,CL,CM$Calculated from tables of 1995ScZY.                           
+#G RI$Values are with 113IN in equilibrium (i.e., at long decay times).   
+#G RI$I(XKA2)=27.85 22, I(XKA1)=52.2 4, I(XKB)=17.44 14 calculated by     
+#G radlst.                                                                
+#G M,MR$From 1998Bl04 evaluation.                                         
+#L J$From 1998Bl04 evaluation.                                            
+#P 0           1/2+              115.09 D  3              1036.6    27    
+SN113 IN113 beta+ 1.0366 9943776.0 1.00
++G gamma 0.391698 0.6496999999999999
++G gamma 0.25513399999999997 0.021099999999999997
++G gamma 0.64683 4.0E-8
++G gamma 0.38289999999999996 6.0E-7
++G gamma 0.63803 9.7E-6
+
+#113IN    113SN EC DECAY (21.4 M)       1961SC12                  10NDS    201006
+#  113SN EC DECAY (21.4 M)       1961SC12                  10NDS    201006
+#H TYP=FUL$AUT=Jean Blachot$CIT=NDS 111, 1471 (2010)$CUT=1-May-2009$      
+#  Measured I(XK), 1961Sc12.                                              
+#L T$From adopted levels.                                                 
+#P 77.38     2 7/2+              21.4 M    4              1036.6    27    
+SN113 IN113 beta+ 1.0366 1284.0 1.0
+

@@ -1,0 +1,89 @@
+#194PT    194IR B- DECAY (19.28 H)      1976CL03,1974HEYW         06NDS    200606
+#  194IR B- DECAY (19.28 H)      1976CL03,1974HEYW         06NDS    200606
+#H TYP=FUL$AUT=BALRAJ SINGH$CIT=NDS 107, 1531 (2006)$CUT=15-Apr-2006$     
+#  EVALUATED BY E. BROWNE (LBNL), AUGUST 1996.                            
+#  This decay-data evaluation was done under the                          
+#  collaboration which includes evaluators at Laboratoire Primaire des    
+#  Rayonnments Ionisants (LPRI) in France; Physikalisch-Technische        
+#  Bundesanstalt (PTB) in Germany; Imperial College in the United         
+#  Kingdom; and Brookhaven National Laboratory (BNL), Lawrence Berkeley   
+#  National Laboratory (LBNL) and Idaho National Engineering Laboratory   
+#  (INEL) in the United States. This evaluation was reviewed and          
+#  accepted by each evaluator in this collaboration.                      
+#  The limitation of relative statistical weight (^LWM) method (1988WoZZ) 
+#  applied for averaging numbers throughout this evaluation by the        
+#  ^DDEP group (see 1999BeZQ for details).                                
+#  To avoid overestimating precision because of possible data             
+#  correlation, the uncertainty assigned to the average was always equal  
+#  or greater than the smallest uncertainty of the values used to         
+#  calculate the average.                                                 
+#  The adopted value of 194IR half-life, 19.28 H 13, is a weighted        
+#  average (^LWM) of 19.15 H 3 (1972Ge10), 19.41 H 1 (1972Em01), 20.7 H 5 
+#  (1947Se33), and 19.0 H 2 (1947Go01). The ^LWM method changed the       
+#  uncertainty of 0.01 H, given by 1972Em01, to 0.03 H, in order to reduce
+#  its statistical weight.                                                
+#  Other value: 17.4 H 1 (1964Pe18), significantly differs from the       
+#  average, and therefore it was not included in the average. Others:     
+#  1941Wi07, 1938Ja01, 1935Am01.                                          
+#  The total average radiation energy released by 194IR is 2244 KEV 38    
+#  (calculated by evaluator using the computer program ^RADLST). This     
+#  value agrees with 2233.8 KEV 17 (2003Au03), which constitutes          
+#  a test for the self-consistency of the decay scheme.                   
+#  G, GG: 1976Cl03 (also 1976ClZT from the same group), 1974HeYW,         
+#  1968Bu15, 1967Pa02. Others: 1979Dz07, 1969Re06, 1966Wi06, 1965Ma10,    
+#  1963Ma08, 1959Be54, 1955Ry53, 1955Ma34, 1954Bu02, 1951Co33, 1951Co01,  
+#  1950Wi01, 1948Ma14                                                     
+#  GG(THETA): 1976Cl03, 1973Si22. Others: 1975Ka42, 1974BeYP, 1965Ma10,   
+#  1962Bu03, 1960Ma19, 1959Jo35, 1953Kr07                                 
+#  G(THETA,TEMP) and G(pol), oriented nuclei: 1983Ri14, 1970Si17, 1969Re06
+#  GG(THETA,H), PAC technique for G-FACTOR measurement: 1975Ka42,         
+#  1970Ke14, 1966Ag02, 1965Ke11                                           
+#  CE data using external conversion: 1963Vi01, 1962Vi05, 1960Ke09,       
+#  1954Jo20. Other: 1971Ba79                                              
+#  CE-G(THETA): 1967Al09                                                  
+#  CE-G(T): 1972Be53                                                      
+#  CE-G(THETA,H): 1972Be53                                                
+#  B-, BG: 1976Ra33, 1966Wi06, 1965Ma10, 1954Jo20. Others: 1948Ma14,      
+#  1941Wi07, 1936Al01                                                     
+#  CE B: 1965Ma10                                                         
+#  B(THETA,TEMP): 1970Br09, 1970BrZW                                      
+#  BG(THETA): 1975Pr11                                                    
+#  G FACTOR measurements by GG(THETA,H) and CE-G(THETA,H): 1975Ka42,      
+#  1972Be53, 1970Ke14, 1966Ag02, 1965Ke11                                 
+#B           EB: from BG or B CE data of 1965Ma10, unless stated otherwise
+#G E         From 1976Cl03, except for E0 transitions that are from       
+#G 194AU EC decay. Energies from 1974HeYW are comparable in accuracy to   
+#G those of 1976Cl03, but                                                 
+#G above 1200 they are systematically higher, deviating by as much as     
+#G 2 KEV near 2100 KEV.                                                   
+#G $RI weighted average of values from 1976Cl03 and 1974HeYW.             
+#G M         From CE data in 194AU EC decay                               
+#G MR        From GG(THETA), unless otherwise stated                      
+#G CC        From 1978Ro22. The values are close to those deduced from    
+#G ^HSICC code.                                                           
+#G E(A),RI(A)$From GG data (1976Cl03). RI(doublet)=0.31 7 (1974HeYW).     
+#G E(B),RI(B)$E0 transition taken from CE data in 194AU EC decay. TI      
+#G deduced from branching in 194AU EC decay                               
+#G RI(D)$From 1976Cl03. Not observed by 1974HeYW.                         
+#L E         From least-squares fit to EG's                               
+#L J         From adopted levels, unless otherwise stated                 
+#P   0.0        1-               19.28 H   13             2233.8    17    
+IR194 PT194 beta- 2.2338 69408.0 1.0
++G gamma 0.0 1.0
+
+#194PT    194IR B- DECAY (171 D)        1968SU02                  06NDS    200606
+#  194IR B- DECAY (171 D)        1968SU02                  06NDS    200606
+#H TYP=FUL$AUT=BALRAJ SINGH$CIT=NDS 107, 1531 (2006)$CUT=15-Apr-2006$     
+#  194IR (171 D) formed by three successive neutron captures in 191IR     
+#  via high-spin states in 192IR and 193IR. G, GG, G-CE, X-RAY and T1/2   
+#  measurements                                                           
+#  Other: 1970To14. 194IR (171 D) formed by 196PT(D,A) reaction. Level    
+#  half-life measurements by BG(T), GG(T) and G-CE(T) methods. See also   
+#  1970ToZZ from the same laboratory                                      
+#G M         From CE data, normalized to the 328G and 811G, both          
+#G treated as E2 (see adopted levels)                                     
+#L E         From least-squares fit to EG's                               
+#L J$ FROM 'ADOPTED LEVELS'                                               
+#P  190+X       (10,11)            171 D   11             2233.8    17    
+IR194 PT194 beta- 2.2338 0.0 1.00
+

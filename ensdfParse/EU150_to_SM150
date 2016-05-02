@@ -1,0 +1,85 @@
+#150SM    150EU EC DECAY (36.9 Y)       1977SI12,1978MEZK         13NDS    201306
+#  150EU EC DECAY (36.9 Y)       1977SI12,1978MEZK         13NDS    201306
+#H TYP=FUL$AUT=S. K. Basu, A. A. Sonzogni$CIT=NDS 114, 435 (2013)$        
+#H CUT=1-Apr-2013$                                                        
+#  1973MeZX: private communication giving precision spectrometer          
+#  measurements of E|g (which appear in improved form in 1978MeZK). Also  
+#  given are I|g, ce(K), and ce(L). |eK(exp) and |eL(exp) are deduced,    
+#  as are multipolarities. No experimental details are given. A complete  
+#  listing of this work appears in 1976Ba18.                              
+#  1977Si12: this published work agrees remarkably with 1973MeZX and      
+#  reports most, but not all, of the photons seen by 1973MeZX. E|g, I|g   
+#  are given.                                                             
+#  Others: 1990Me15                                                       
+#G $The |g-ray data below are taken from 1977Si12 and from 1978MeZK       
+#G which has been reproduced in part in 1990Me15. 1977Si12 used the       
+#G {+150}Sm(d,2n) E=14 MeV reaction on Sm enriched to 99.7% in {+150}Sm   
+#G to obtain {+150}Eu. A period of 3 years was allowed to pass before     
+#G beginning spectroscopic studies. A Ge(Li) detector with 9.5%           
+#G efficiency and 2.1-keV resolution at 1332 keV was used.                
+#  The decay scheme is based on that of 1977Si12, but some unplaced |g    
+#  rays reported in 1977Si12 or 1978MeZK have been placed in the scheme   
+#  on the basis of energy fit, multipolarities, and other experiments.    
+#G E,RI$From 1978MeZK, unless otherwise stated.                           
+#E $I|e deduced from |g-ray intensity balance at each level.              
+#G $|a(K)exp,|a(L)exp: deduced from ce(K), ce(L) by 1973MeZX.             
+#G E(A)$|g ray reported only by 1973MeZX. Placement made on basis of      
+#G energy fit and multipolarities.                                        
+#G M(B)$From 1973MeZX.                                                    
+#G M$From adopted gammas, unless otherwise noted.                         
+#L J$Adopted values.                                                      
+#L E(A)$Level suggested by 1973MeZX.                                      
+#  CC$ FROM BrIcc v2.2b (20-Jan-2009) 2008Ki07, "Frozen Orbitals" appr.   
+#P 0.0          5-                36.9 Y    9              2259     6     
++B beta+ 0.22080000000000002 1.8999999999999998E-4
++B beta+ 8.353000000000001E-4 0.0012762000000000001
++B beta+ 8.342800000000001E-4 0.0012
++B beta+ 8.317E-4 0.0013
++B beta+ 8.28E-4 0.00133
++B beta+ 8.195E-4 0.0013900000000000002
++B beta+ 8.193E-4 0.0013900000000000002
++B beta+ 8.192000000000001E-4 0.0013900000000000002
++B beta+ 8.021E-4 0.0015
++B beta+ 7.902E-4 0.0016
++B beta+ 7.889E-4 0.0016
++B beta+ 7.853E-4 0.0016
++B beta+ 7.53E-4 0.00189
++B beta+ 7.42E-4 0.00197
++B beta+ 7.31E-4 0.0020499999999999997
++B beta+ 7.28E-4 0.00207
++B beta+ 6.62E-4 0.00256
+
+#150SM    150EU EC DECAY (12.8 H)       1968KU10,1965GU03         13NDS    201306
+#  150EU EC DECAY (12.8 H)       1968KU10,1965GU03         13NDS    201306
+#H TYP=FUL$AUT=S. K. Basu, A. A. Sonzogni$CIT=NDS 114, 435 (2013)$        
+#H CUT=1-Apr-2013$                                                        
+#  Some coincidence data were taken from 1974ShYQ.                        
+#  1968Ku10: sources of {+150}Eu (12.8 h) were made with the reaction     
+#  {+150}Sm(d,2n) E=12 MeV. |g-ray energies, intensities were obtained    
+#  with a 7-mm Ge(Li) detector with an energy resolution at 662 keV of    
+#  2.0 keV. |g|g-coincidence measurements were made with a resolving      
+#  time of 90 ns. A table of ratios of reduced transition probabilities   
+#  is given.                                                              
+#  See also 1977Ho08.                                                     
+#L E$Evaluators have supplied level energies adjusted by means of a       
+#L least-squares method which takes into account all transitions and      
+#L recoil corrections.                                                    
+#L J$From adopted levels. |g|g(|q) consistent with these assignments.     
+#E TI$Deduced from |g-ray intensity balance at each level.                
+#G M$From adopted gammas.                                                 
+#G TI(D)$From relative ce intensities of 1961Ha23.                        
+#G RI(E)$The |g-ray intensity ratios for the following E2 transitions     
+#G are I|g(406):I|g(921):I|g(209)=100(6):8.0(6):0.94(12)(1986PA14)        
+#G RI,E$From 1968Ku10.                                                    
+#E E(Z)$E(|b{++})=1242 {I25} measured by 1965Gu03.                        
+#P 41.7      10 0-                12.8 H    1              2259     6     
++B beta+ 3.4E-4 0.0049
++B beta+ 0.5792999999999999 0.0076
++B beta+ 0.4506 0.008199999999999999
++B beta+ 0.2538 0.0083
++B beta+ 8.269E-4 0.00133
++B beta+ 8.37E-4 0.0012641
++B beta+ 8.238E-4 0.00136
++B beta+ 8.361E-4 0.0012706
++B beta+ 8.238999999999999E-4 0.00136
+

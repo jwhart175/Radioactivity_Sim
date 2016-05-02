@@ -1,0 +1,39 @@
+# 54FE    54CO EC DECAY (193.28 MS)     1994HA43,1977AL11,1992SHZM14NDS    201408
+#  54CO EC DECAY (193.28 MS)     1994HA43,1977AL11,1992SHZM14NDS    201408
+#H TYP=FUL$AUT=YANG DONG, HUO JUNDE$CIT=NDS 121, 1 (2014)$CUT=20-Jun-2014$
+#  1995: ADD NEW DATA.                                                    
+#  1977Vo02: TOF, Q3D, measured Q-value for (3HE,T), deduced ft.          
+#  1977Al11: 54FE(P,N) E=10 MEV, measured T by multiscaling B rays        
+#  detected in a plastic scintillator.                                    
+#  1992ShZM: 54FE(P,N), the intense sources efficiently transferred by    
+#  HE-jet system, the G-rays observed with HPGE, B+ rays detected         
+#  in two plastic scintillators. Measured GB.                             
+#  1994Ha43: clear evidence for a nonanalog decay branch to the 0+ state  
+#  at 2561 KEV, isospin-mixing correction is (0.035 5)%.                  
+#  Q(EC)-value differences between superallowed B emitters:               
+#  42SC and 54CO, 50MN and 54CO, see 1987Ko34, 1990Ha13.                  
+#P 0.0         0+                193.28 MS 7              8244.55   9     
+CO54 FE54 beta+ 8.244549999999998 0.19328 1.0
++B beta+ 3.40327 0.9989319999999999
++B beta+ 2.1487399999999997 4.4999999999999996E-5
+
+# 54FE    54CO EC DECAY (1.48 M)        1976NOZX,1971SA07,1970NO0414NDS    201408
+#  54CO EC DECAY (1.48 M)        1976NOZX,1971SA07,1970NO0414NDS    201408
+#H TYP=FUL$AUT=YANG DONG, HUO JUNDE$CIT=NDS 121, 1 (2014)$CUT=20-Jun-2014$
+#  1993: ADD NEW REFERENCE AND DATA.                                      
+#  Produced in 54FE(D,2N) E=19 MEV (1967We01); 40CA(16O,PN) E=36          
+#  and 38 MEV (1976NoZX); 54FE(P,N) E=15.5 MEV (1971Sa07,1970Co32).       
+#  1971Sa07, 1970No04, 1970Co32: BG(T), GELI, measured T and B(E2) of 6+  
+#  state.                                                                 
+#  1967We01: GG, GG(THETA), measured T, IG, GELI, NAI.                    
+#  No decay observed to the 6382 or 6528 levels of 54FE (1976NoZX)        
+#G M         From GG(THETA) and JPI of level scheme.                      
+#G RI        From 1967We01.                                               
+#L J         From adopted levels.                                         
+#P 197.1     4 (7)+              1.48 M    2              8244.55   9     
+CO54 FE54 beta+ 8.244549999999998 88.8 1.0
++G gamma 1.407 1.0
++G gamma 1.13 0.98
++B beta+ 2.0563000000000002 0.99558
++G gamma 0.411 0.97
+

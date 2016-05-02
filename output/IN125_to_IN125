@@ -1,0 +1,23 @@
+#125IN    125IN IT DECAY:5.0 MS         2004SC42,1998FOZY         11NDS    201102
+#  125IN IT DECAY:5.0 MS         2004SC42,1998FOZY         11NDS    201102
+#H TYP=FUL$AUT=J. KATAKURA$CIT=NDS 112, 495 (2011)$CUT=1-Jan-2010$        
+#  2004Sc42,2005ScZQ: Thermal-neutron fission of {+239}Pu and {+241}Pu.   
+#  The LOHENGRIN mass spectrometer; Measured E|g, I|g, |g|g, |g(t)        
+#  1998FoZY: Thermal-neutron fission of {+233}U, {+235}U and {+238}U;     
+#  measured E|g, I|g(t), E(ce), I(ce)                                     
+#  XUNDL data set compiled by J. Roediger and B. Singh (McMaster),        
+#  December 29, 2004, is consulted.                                       
+#G E$From 1998FoZY. |DE|g=0.5 keV assumed.                                
+#G M$From 1998FoZY.                                                       
+#L T$From 1998FoZY.                                                       
+#L J $ From 1998FoZY and systematics. Based on the non-observation of     
+#L crossover transitions between the 1953 and 1173 levels, and between    
+#L the 1909 and 1027 levels, 2004Sc42 propose J|p=25/2+ for the 5.0 ms    
+#L isomer and 19/2-, 17/2-, and 15/2- for the 2009, 1953, and 1909        
+#L levels, respectively. The evaluator notes that J|p(1909 level)=15/2-   
+#L is probably inconsistent with the observed, although weak, |g branch   
+#L to the 9/2+ gs. Also 15/2- is not consistent with log| {Ift}=5.29 from 
+#L (11/2-).                                                               
+#P 2161.2    18 (23/2-)           5.0 MS   15                             
+IN125 IN125 IT 0.0 0.0 1.0
+

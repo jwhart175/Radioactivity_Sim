@@ -1,0 +1,21 @@
+# 75KR    75RB EC DECAY (19.0 S)        1983KE08                  13NDS    201309
+#  75RB EC DECAY (19.0 S)        1983KE08                  13NDS    201309
+#H TYP=FUL$AUT=ALEXANDRU NEGRET, BALRAJ SINGH$CIT=NDS 114, 841 (2013)$    
+#H CUT=30-Jun-2013$                                                       
+#  1983Ke08: 75RB isotope produced by 58NI(20NE,p2n) reaction and mass    
+#  separated with an on-line isotope separator. Measured G, GG, T1/2 using
+#  two Ge(Li) detectors.                                                  
+#  Others: 1998Sk01, 1977Da04, 1975Bo52, 1975Ra03                         
+#  1998Sk01: mass-separated source. Measured precise energies and ce      
+#  for the 179 doublet; details are given in 1995BeZS thesis              
+#E           All EC, B+ feedings are considered as upper limits           
+#E and associated LOGFT values as lower limits since the level            
+#E scheme is known only up to 1042 KEV whereas Q value is 7 MEV           
+#G E(A)$Observed in coincidence with 178.9G                               
+#G           I(|g|+)=140 14 (1983Ke08)                                    
+#G CC$ FROM BrIcc v2.2b (20-Jan-2009) 2008Ki07, "Frozen Orbitals" appr.   
+#G M,MR$From Adopted Gammas                                               
+#L J,T$From Adopted Levels                                                
+#P    0.0       (3/2-)           19.0 S    12             7105       8    
+RB75 KR75 beta+ 7.105 19.0 1.0
+

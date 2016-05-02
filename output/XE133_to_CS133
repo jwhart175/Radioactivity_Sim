@@ -1,0 +1,32 @@
+#133CS    133XE B- DECAY (5.2475 D)     1961Er04,1968Al16,1992Ma0511NDS    201104
+#  133XE B- DECAY (5.2475 D)     1961Er04,1968Al16,1992Ma0511NDS    201104
+#H TYP=FUL$AUT=YU. KHAZOV AND A. RODIONOV, F.G. KONDEV$                   
+#H CIT=NDS 112, 855 (2011)$CUT=31-Oct-2010$                               
+#  1992Ma05: {+133}Xe gas source; measured E|g, I|g, T{-1/2}; HPGe        
+#  detector                                                               
+#  1961Er04: {+133}Xe source was implanted in Al-backing with isotope     
+#  separator; measured E|g. I|g, Ece, Ice, |a(exp), T{-1/2}, Q(|b{+-}).   
+#  Separator, NaI(Tl) detector, double-focusing magnetic spectrometer     
+#  1968Al16: {+133}Xe gas source; measured E|g, I|g, T{-1/2}; Ge(Li)      
+#  detector.                                                              
+#  Others: 1952Be55, 1953Gr07, 1958Al98, 1958Pl55, 1959Jh17, 1960Bo02,    
+#  1960Mu03, 1962Th12, 1964Si21, 1965Ge04, 1969Fr04, 1970Av01, 1980VyZZ   
+#G CC$ FROM BrIcc v2.2 (31-Mar-2008) 2008KiAA, "Frozen Orbitals" appr.    
+#G E,M,MR$From adopted gammas. Spectroscopic information on conversion    
+#G coefficients and subshell ratios from 133XE B- decay data is presented.
+#G The penetration effect in the conversion was investigated in 1970To01, 
+#G 1975Ra17, 1979Th02, but the results were contradictory.                
+#G RI$Normalized to I|g(80.9974)=100 by the evaluators                    
+#L E$From a least-squares fit to E|g's                                    
+#L J$From adopted levels                                                  
+#B IB$From intensity balances                                             
+#G $I(XKA2/XKA1)=0.5310 15, I(XKB1/XKA1)=0.1767 21, I(XKB/XKA)=0.2021 10  
+#G (2007Ya02)                                                             
+#P 0.0         3/2+               5.2475 D 5              427.4     24    
+XE133 CS133 beta- 0.4274 0.0 0.369
++B beta- 0.346 0.985
++G gamma 0.0809979 1.0
++G gamma 0.22323679999999999 3.7E-6
++G gamma 0.3028508 1.5E-4
++G gamma 0.3838485 7.3E-5
+

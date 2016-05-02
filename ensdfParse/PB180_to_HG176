@@ -1,0 +1,20 @@
+#176HG    180PB A DECAY                 1999TO11,1996TO08         06NDS    200602
+#  180PB A DECAY                 1999TO11,1996TO08         06NDS    200602
+#H TYP=FUL$AUT=M.S. BASUNIA$CIT=NDS 107, 791 (2006)$CUT=15-Sep-2005$      
+#  T1/2(180PB) from 1999TO11.                                             
+#  1999To11: {+90}Zr({+92}Mo,2n), E=410 MeV; Detector: double sided Si    
+#  strip detector; measured E|a, T{-1/2}; deduced |a-branching ratio.     
+#  1996To08: {+144}Sm({+40}Ca,4n),E=230 MeV; detector: an array of six Si 
+#  detector; measured E|a, I|a; deduced evidence for {+180}Pb.            
+#                                                                         
+#  ALPHA/BETA branchings have not been experimentally determined.         
+#  The gross-BETA calculations of 1973TA30 yield T1/2(B+)=1-4 S from      
+#  which BETA branching can be calculated as 0.1-0.4%. Any                
+#  BETA branching is taken as negligible here and %A=100 is adopted.      
+#  NO CALCULATION FOR T1/2(B+) OF 180PB IS GIVEN IN 1997MOZW.             
+#  Added-in-Proof: 1997MO25 calculated the BETA partial half-life as      
+#  T1/2(BETA)=618.8 MS which corresponds to a BETA branching of 0.65%.    
+#A HF        R0(176HG)=1.53 4 (1998AK04).                                 
+#P 0.0         0+                4.4 MS    11             7415      15    
+PB180 HG176 alpha 7.415 0.0044 1.0
+

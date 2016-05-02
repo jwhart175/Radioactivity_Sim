@@ -1,0 +1,21 @@
+# 44AR    45CL B-N DECAY                2004MR01                  11NDS    201109
+#  45CL B-N DECAY                2004MR01                  11NDS    201109
+#H TYP=FUL$AUT=JUN CHEN, BALRAJ SINGH AND JOHN A. CAMERON$                
+#H CIT=NDS 112, 2357 (2011)$CUT=31-Jul-2011$                              
+#  See ENSDF for {+45}Cl for identification of {+45}Cl isotope.           
+#  Decay scheme of {+45}Cl |b{+-}n decay is not known.                    
+#  2004Mr01: {+45}Cl produced by E=60 MeV/nucleon {+48}Ca beam fragmented 
+#  on Be target and selected by the spectrometer LISE3 at GANIL. Isotopes 
+#  implanted into double-sided Si detector surrounded by two coaxial HPGe 
+#  and one EXOGRAM four-fold clover detector; two plastic scintillators   
+#  for detecting |b radiation; The TONNERRE array for detecting neutrons. 
+#  Measured E|g, I|g, n|g-coin. Deduced levels, branchings.               
+#  Others: 1993So06, 1995So03                                             
+#G RI$ Normalized to the 853 keV |g-ray.                                  
+#L J$ From Adopted Levels                                                 
+#P 0           (1/2+)            413 MS    25             6.24E+3   10    
+CL45 AR44 neutron&beta- 6.24 0.413 0.24
++G gamma 1.1581 1.4
++G gamma 0.8532000000000001 1.0
++G gamma 2.0105999999999997 0.6
+

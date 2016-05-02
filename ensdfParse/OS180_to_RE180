@@ -1,0 +1,27 @@
+#180RE    180OS EC DECAY                1968HA39,1968KO10         15NDS    201506
+#  180OS EC DECAY                1968HA39,1968KO10         15NDS    201506
+#H TYP=FUL$AUT=E.A. MCCUTCHAN$CIT=NDS 126, 151 (2015)$CUT=1-Feb-2015$     
+#  1968Ha39: {+180}Os activity produced in {+182}W(|a,6n), E(|a)=75 MeV.  
+#  Measured E(ce), I(ce) using permanent magnet spectrograph and x-ray    
+#  film.                                                                  
+#  1968Ko10: {+180}Os activity produced in  {+184}W({+3}He,7n),           
+#  E({+3}He)=70 MeV. Measured E|g, I|g, |g|g, |g(t) using Si(Li) and      
+#  NaI(Tl) detectors.                                                     
+#  Other: 1967Ho12, observed no |g-rays with E|g>40 keV in the decay of   
+#  {+180}Os.                                                              
+#  A total energy release of 700 keV {I60} is calculated for the decay    
+#  scheme using the RADLST code, compared with Q=1475 keV {I27},          
+#  indicating the decay scheme is incomplete.                             
+#G $K| x-ray intensity=79.1%, L| x-ray intensity=33% {I12} (1968Ko10).    
+#G K| x-ray intensity=84.6% {I90} (1967Ho12).                             
+#L J$From the Adopted Levels.                                             
+#L $Level scheme is that proposed by 1968Ha39 and should be considered    
+#L tentative.                                                             
+#L BAND(A)$KPI=1- BAND. Probable                                          
+#L configuration=((|n7/2[514])-(|p5/2[402])                               
+#L BAND(B)$KPI=1+ BAND. Probable                                          
+#L configuration=((|p9/2[514])-(|n7/2[514]))                              
+#  CC$FROM BrIcc v2.3a (30-Jun-2013) 2008Ki07, "Frozen Orbitals" appr.    
+#P 0.0          0+                21.5 M    4              1475     27    
++B beta+ 8.074E-4 0.00146
+

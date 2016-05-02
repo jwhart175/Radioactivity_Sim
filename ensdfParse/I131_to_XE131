@@ -1,0 +1,47 @@
+#131XE    131I B- DECAY                                           06NDS    200612
+#  131I B- DECAY                                           06NDS    200612
+#H TYP=FUL$AUT=YU. KHAZOV, I. MITROPOLSKY, A. RODIONOV$                   
+#H CIT=NDS 107, 2715 (2006)$CUT=17-Jul-2006$                              
+#  1974Me21, 1989Ch45: {+131}I(|b-) (T{-1/2}=8 d); measured E(|g), I(|g), 
+#  |g|g. Ge(Li) anti-Compton, HPGe and Si(Li) detectors                   
+#  1960Jo11, 1972Kr07, 1974Ko02, 1975Ko15: {+131}I(|b-) decay             
+#  (T{-1/2}=8 d); measured |g(|q). Nuclear orientation study              
+#  1971Gf01, 1972Be90, 1976Ba42: {+131}I(|b-) decay (T{-1/2}=8 d);        
+#  measured |g|g(|q).                                                     
+#  The level scheme is as given by 1974Me21                               
+#B IB        From net |g feeding of each level                            
+#G E         From 1990Me15                                                
+#G RI        Weighted average of 1990Me15, 1989Ch45, 1980VyZZ             
+#G MR        From |g|g(|q) and |g(|q) as adopted by 1977Kr13. Phase       
+#G convention changed to the standard for Nuclear Data Sheets by the      
+#G evaluators                                                             
+#G           |a(K)exp: from I(ce) measurements of 1962Wo09 normalized to  
+#G |a(K)(284.3, E2)=0.0408                                                
+#L E$From least-squares fit to E|g's                                      
+#P 0.0         7/2+              8.0252 D   6             970.8     6     
+I131 XE131 beta- 0.9708 693377.28 1.0
++G gamma 0.080185 0.026161499999999997
++B beta- 0.28324 0.0039000000000000003
++G gamma 0.16393000000000002 2.11085E-4
++B beta- 0.20022 5.0E-4
++G gamma 0.177214 0.0026895
++B beta- 0.19158 0.8959999999999999
++G gamma 0.28430500000000003 0.0612065
++G gamma 0.36448899999999995 0.815
++G gamma 0.404814 5.4605E-4
++B beta- 0.09662000000000001 0.0723
++G gamma 0.23218 3.1784999999999995E-5
++G gamma 0.272498 5.76205E-4
++G gamma 0.2958 1.793E-5
++G gamma 0.636989 0.07155699999999998
++B beta- 0.08694 0.00645
++G gamma 0.3024 4.726999999999999E-5
++G gamma 0.325789 0.00273025
++G gamma 0.503004 0.00359415
++B beta- 0.06936 0.0208
++G gamma 0.0859 8.965E-7
++G gamma 0.31808800000000004 7.7425E-4
++G gamma 0.3584 1.6299999999999998E-4
++G gamma 0.642719 0.0021679
++G gamma 0.722911 0.0176855
+

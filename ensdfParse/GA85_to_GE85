@@ -1,0 +1,39 @@
+# 85GE    85GA B- DECAY (92 MS)         2013KO31,2012MA37,2010WI0314NDS    201408
+#  85GA B- DECAY (92 MS)         2013KO31,2012MA37,2010WI0314NDS    201408
+#H TYP=FUL$AUT=BALRAJ SINGH AND JUN CHEN$CIT=NDS 116, 1 (2014)$           
+#H CUT=31-Dec-2013$                                                       
+#  2013Ko31: measured E|g, I|g, |b|g|g-coin, |b|g-coin at HRIBF. Level    
+#  scheme of {+85}Ge is proposed. See experimental details in 2012Ma37    
+#  2012Ma37: {+85}Ga produced in fission of U with 50 MeV proton beam.    
+#  Target=6 g/cm{+2} thick UC{-x} located at target ion source assembly   
+#  mounted on the Injector for Radioactive Ion Species 2 (IRIS-2) at HRIBF
+#  facility at ORNL. Fission products were separated by electromagnetic   
+#  system. Separated ions were transmitted to Low energy Radioactive Ion  
+#  beam Spectroscopy Station (LeRIBSS). Ions at 200 keV energy were       
+#  deposited on a tape in the Moving Tape Collector located in the middle 
+#  of |b-|g counting system consisting of four Ge Clovers and two plastic 
+#  scintillators. Measured |b-gated |g spectra and half-lives.            
+#  Half-life of isotope was measured by fitting the growth and decay      
+#  curves of |g rays assigned to |b-|g or |b|g-neutron channels after     
+#  subtraction of background. Comparison with theoretical calculations    
+#  using density functional model.                                        
+#  Gamma ray assigned to |b{+-}n decay of {+85}Ga to {+84}Ge: 624.3 keV.  
+#  A |g ray at 107.8 keV is assigned to decay of {+85}Ga (2012Ma37)       
+#  2010Wi03: {+85}Ga from {+238}U(p,F),E=54 MeV; products were accelerated
+#  to 225 MeV in the ORNL Tandem. Measured E|g, I|g, |g|g,                
+#  (fragment)|g coin (ion-tagged |g-ray spectra), |b|g(ion) coin,         
+#  |bn|g coin using an array composed of four Ge clover and two plastic   
+#  scintillator detectors. Ion-tagging technique for assignment of |g rays
+#  to the decay of {+85}Ga. Comparison with spherical HFB calculations.   
+#  See also 2009Gr06 and 2008WiZS (conference articles) from the same     
+#  group                                                                  
+#G $A tentative 321|g reported in 2010Wi03 is not confirmed by 2013Ko31   
+#G $Available data are inadequate to obtain normalization factor to deduce
+#G I|g/100 decays                                                         
+#G E,RI$From 2013Ko31. Intensities are normalized to 100 for 623.9|g      
+#G in {+84}Ge from |b{+-}n decay of {+85}Ga                               
+#L E$From least-squares fit to E|g data                                   
+#L J$From shell-model predictions (2013Ko31) and Adopted Levels           
+#P 0            (5/2-)            92 MS    4              13060     SY    
+GA85 GE85 beta- 13.06 0.0 1
+

@@ -1,0 +1,63 @@
+#175AU    179TL A DECAY (0.23 S)        2002RO17,1998TO14,1996Pa0104NDS    200410
+#  179TL A DECAY (0.23 S)        2002RO17,1998TO14,1996Pa0104NDS    200410
+#H TYP=ERR$AUT=J. TULI$DAT=16-Jul-2007$COM=Fixed typo in comment$         
+#H TYP=FUL$AUT=M. SHAMSUZZOHA BASUNIA$CIT=NDS 102, 719 (2004)$            
+#H CUT=1-Jun-2004$                                                        
+#  Other: 1983SC24                                                        
+#  2002Ro17: Target: 90.4% enriched 202PB; Projectile: 78KR, E=355 MeV    
+#  (340 MeV at midtarget); gas-filled separator, parallel-plate avalanche 
+#  counters, Si strip detector, HPGe detector; deduced T , corrected for  
+#  random correlation rates.                                              
+#  1998To14: Target: 90ZR; Projectile: 92MO, E=420 MeV (404 MeV at        
+#  midtarget); fragmented mass analyzer, gas-filled parallel grid         
+#  avalanche counter, double sided Si strip detector with 40 horizontal   
+#  and 40 vertical strips; measured: EA, T, IA.                           
+#  1996Pa01: Sources from heavy-ion fusion-evaporation reactions; recoil  
+#  mass separator, double-sided Si strip detector (FWHM |< 20 keV);       
+#  measured EA, parent and daughter T.                                    
+#  1983SC24: Target: enriched (GT 95%) RB-MO isotopes; Projectile: 92MO,  
+#  E=414-497 MeV; An array of seven position sensitive surface            
+#  barrier detectors, HPGe detector; measured EA, IA.                     
+#  Parent (179TL) T: 0.23 S 4 from 1998To14. Others: 0.42 S 6 (2002Ro17), 
+#  0.43 S 35 (1996Pa01), 0.16 S +9-4 (1983Sc24). JPI: From JPI(GS)        
+#  systematics for heavier ODD-^A Tl isotopes.                            
+#A HF(A)     Using R0=1.537; average of R0(174PT)=1.545 10,               
+#A and R0(176HG)=1.53 4 (1998Ak04).                                       
+#P 0.0         (1/2+)            0.23 S    4              6718       8    
+TL179 AU175 alpha 6.718 0.23 1.0
++A alpha 6.567 1.0
+
+#175AU    179TL A DECAY (1.5 MS)        2002RO17,1998TO14,1996Pa0104NDS    200410
+#  179TL A DECAY (1.5 MS)        2002RO17,1998TO14,1996Pa0104NDS    200410
+#H TYP=ERR$AUT=M. S. Basunia$DAT=11-Jul-2013$COM=Corrected 7096ALPHA      
+#H placement$                                                             
+#H TYP=ERR$AUT=J. TULI$DAT=16-Jul-2007$COM=Fixed typo in comment$         
+#H TYP=UPD$AUT=M. S. Basunia$COM=Added comment to EA=7096$CUT=31-Jan-2005$
+#H TYP=FUL$AUT=M. SHAMSUZZOHA BASUNIA$CIT=NDS 102, 719 (2004)$            
+#H CUT=1-Jun-2004$                                                        
+#  Other: 1983Sc24                                                        
+#  2002Ro17: Target: 90.4% enriched 202Pb; Projectile: {+78}Kr, E=355 MeV 
+#  (340 MeV at midtarget); gas-filled separator, parallel-plate avalanche 
+#  counters, Si strip detector, HPGe detector; deduced T{-1/2}, corrected 
+#  for random correlation rates.                                          
+#  1998To14: Target: {+90}Zr; Projectile: {+92}Mo, E=420 MeV (404 MeV at  
+#  mid-target); fragmented mass analyzer, gas-filled parallel grid        
+#  avalanche counter, double-sided Si strip detector with 40 horizontal   
+#  and 40 vertical strips; measured: E|a, t, I|a.                         
+#  1996Pa01: Sources from heavy-ion fusion-evaporation reactions; recoil  
+#  mass separator, double-sided Si strip detector (FWHM|<20 keV);         
+#  measured E|a, parent and daughter T{-1/2}.                             
+#  1983Sc24: Target: enriched (>95%) Rb-Mo isotopes; Projectile: {+92}Mo, 
+#  E=414-497 MeV; An array of seven position sensitive surface            
+#  barrier detectors, HPGe detector; measured E|a, I|a. {+179}Tl assigned 
+#  from the known |a particle emission by the daughter {+175}Au.          
+#  Parent ({+179}Tl) T{-1/2}: 1.5 s {I3}, weighted average of 1.7 ms {I2} 
+#  (2002Ro17), 1.8 ms {I4} from E|a=7213 and 1.6 ms {I8} from E|a=7096    
+#  (1998To14), 0.7 ms {I+6-4} (1996Pa01), and 1.4 ms {I5} (1983Sc24).     
+#A HF(A)     Using r{-0}=1.537; average of r{-0}({+174}Pt)=1.545 {I10},   
+#A and r{-0}({+176}Hg)=1.53 {I4} (1998Ak04).                              
+#P 0.0+X       (11/2-)           1.5 MS    3              6718      8     
+TL179 AU175 alpha 6.718 0.0015 1.0
++A alpha 7.096 0.2
++A alpha 7.209 0.8
+

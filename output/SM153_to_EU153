@@ -1,0 +1,45 @@
+#153EU    153SM B- DECAY                                          06NDS    200602
+#  153SM B- DECAY                                          06NDS    200602
+#H TYP=FUL$AUT=R. G. Helmer {+*}$CIT=NDS 107, 507 (2006)$CUT=31-Dec-2005$ 
+#  The I|g and the decay scheme are from 1964Al09, 1966Bl06, 1969Pa03,    
+#       1974HeYW, 1987Co04, 1992Ch44, 1998BO18 and 1999Sc12.              
+#  The E|g are from 1969Un03, 1978He21, 1985Ab08, and 2000He14.           
+#       Other measurements: 1950Hi17, 1952Ba49, 1952Ru10, 1954Gr19,       
+#       1954Le08, 1955Ma62, 1956Du31, 1957Jo24, 1958Co76, 1958Gu09,       
+#       1960Su08, 1961Gr18, 1961Mo07, 1961Ru01, 1961Wy01, 1962Bi16,       
+#       1962Ca24, 1962Su01, 1963Ch25, 1963Ho15, 1964No08, 1966Ne06,       
+#       1968Re04, 1969Sm04, 1970Ch09, 1970Me26, 1970Mi15,                 
+#       1970PaZI, and 1970Ra37.                                           
+#  For an independent evaluation for this decay, see 1995Ch70.            
+#B IB        From |g intensity balances with all questionable |g's        
+#B      included.                                                         
+#G           RI(XL)=3400 130, RI(XKA)=15200 450, and                      
+#G      RI(XKB)=3700 100 measured by 1992Ch44; the corresponding values   
+#G      calculated from the decay scheme are 3800 200, 16400 500, and     
+#G      4200 130, respectively.                                           
+#G E         From the 2000He14 evaluation of |g-ray energies for the      
+#G      lines previously measured with curved-crystal spectrometers;      
+#G      on this scale the strong {+198}Au line is 411.80205 {I17} keV.    
+#G      This reference gives several E|g deduced level energies. Other    
+#G      E|g are average of values from 1969Pa03, 1969Un03, and 1985Ab08,  
+#G      unless otherwise noted.                                           
+#G RI        From weighted averages of the data from 1964Al09, 1966Bl06,  
+#G      1969Pa03, 1974HeYW, 1987Co04, 1992Ch44, 1998Bo18, and 1999Sc12.   
+#G      About 60% of these weighted averages have reduced-|h{+2} values   
+#G      of greater than 1.0.  In these cases the uncertainty is either    
+#G      the external uncertainty or the a larger value which includes     
+#G      the most precise input value.  Also, in these cases, the          
+#G      uncertainty, of any value which contributed more than 50% of the  
+#G      relative weight, was increased to reduce this weight to 50%.      
+#G RI        Values of 1987Co04, 1998Bo18, and 1999Sc12 are given as      
+#G      absolute intensities.                                             
+#G M,MR      From {+153}Eu Adopted |g's.                                  
+#G           Conversion electron intensities are from 1961Mo07, 1962Su01, 
+#G      1969Sm04, and 1970PaZI, and are given in number of K-conversion   
+#G      electrons per 100 decays normalized to 40.8 for the 103 |g to     
+#G      give |a{-K}(exp)(103 |g)=1.44.                                    
+#L E         From least-squares fit to E|g.                               
+#L J         From {+153}Eu Adopted Levels.                                
+#P 0.0         3/2+                46.50 H 21             807.6     7     
+SM153 EU153 beta- 0.8076 0.0 0.002925
+

@@ -1,0 +1,42 @@
+# 28MG2C  14030 keV {I10} obtained from 28NA B- DECAY ^Q(g.s.) and branching.    
+#  14030 keV {I10} obtained from 28NA B- DECAY ^Q(g.s.) and branching.    
+#  2012KU11: B- decay is studied in polarized 28NA isotope. It was        
+#  produced from fragmentation of tantalum targets by 500 MeV protons at  
+#  ^TRIUMF. Separated 28NA{++} beam, E=30.6 keV, was neutralized by       
+#  colliding with the Na vapor and nuclear spin was polarized (|?50%)     
+#  by collinear optical pumping. Polarized 28NA beam was ionized and      
+#  transported with the polarization direction perpendicular to the beam  
+#  direction. The spin orientation was flipped by changing the laser      
+#  helicity in every 5 minutes. The beam was focused and stopped on a Pt  
+#  foil. EG, RI, B-G and G-G coincidence measurements were performed      
+#  using 9 HPGe detectors. A pair of plastic scintillators placed in front
+#  of each HPGe detectors. Deduced level scheme, JPI.                     
+#  1984GU19: 28NA was produced from fragmentation of iridium target by    
+#  10 GeV protons from the ^CERN synchrotron, recoiled fragments were     
+#  thermalized in graphite, ionized and mass-separated; a thin plastic    
+#  scintillator, 2 Ge(Li) detectors, Measured: EG, B-GG COIN, RI.         
+#  1979DE02,1974RO31: 28NA was produced from fragmentation of uranium     
+#  target by 24 GeV protons from the ^CERN synchrotron, recoiled fragments
+#  were thermalized in graphite, ionized and mass-separated; a thin       
+#  plastic scintillator, 2 Ge(Li) detectors, Measured: EG, B-GG COIN,     
+#  absolute RI.                                                           
+#  1984GU19, 1979DE02 and 1974RO31 are all from the same research group.  
+#B IB$Deduced by the evaluator from G-ray intensity balance at each level 
+#G E$From 2012Ku11, except otherwise noted. Some G-ray energies           
+#G in 2012KU11 are discrepant compared to 1984Gu19 or other datasets. The 
+#G source of the discrepancy is not clear.                                
+#G RI$From 2012Ku11, except otherwise noted. G-ray intensities reported   
+#G in 2012Ku11 and 1984Gu19 are mostly in agreement, except a few.        
+#G E(A)$From Adopted Gammas                                               
+#L E$From a least-squares fit to G-ray energies.                          
+#L J,T$From Adopted Levels, except otherwise noted                        
+#L J(Z)$Assigned in 2012Ku11, based on the angular distribution           
+#L measurements of B and G-ray emissions.                                 
+#L J(Y)$Assignment reconfirmed in 2012Ku11, based on the angular          
+#L distribution measurements of B and G-ray emissions.                    
+#P 0.0         1+                30.5 MS   4              14030     10    
+NA28 MG28 beta- 14.03 0.0305 1.0
++G gamma 1.4735 0.37
++G gamma 2.3885 0.22
++G gamma 3.0873000000000004 0.04
+

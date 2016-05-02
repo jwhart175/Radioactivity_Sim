@@ -1,0 +1,17 @@
+#193IR    193PT EC DECAY (50 Y)         1983JO04                  06NDS    200602
+#  193PT EC DECAY (50 Y)         1983JO04                  06NDS    200602
+#H TYP=FUL$AUT=E. Achterberg, G.V. Marti, V.R. Vanin, et al.$             
+#H CIT=NDS 107, 1 (2006)$CUT=30-Sep-2005$                                 
+#  1983Jo04 and 1985Ri05 report LE 500 EV for electron-neutrino           
+#  mass (measured internal bremsstrahlung spectrum,                       
+#  bremmstrahlung-XL coin (193PT sources extracted from lead              
+#  in ISOLDE facility; silicon, intrinsic germanium detectors)).          
+#  1983Ke07 discuss recoilless resonant neutrino absorption               
+#  by nuclei.                                                             
+#                                                                         
+#E           Adopted Q(EC)=56.8 3 from 2003Au03 adjustment to the         
+#E endpoint of internal bremsstrahlung spectrum measured by 1983Jo04.     
+#L J         From adopted levels                                          
+#P 0.0          1/2-             50 Y      6              56.8      3     
+PT193 IR193 beta+ 0.056799999999999996 1.57784544E9 1.0
+

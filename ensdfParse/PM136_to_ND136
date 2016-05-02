@@ -1,0 +1,114 @@
+#136ND    136PM EC DECAY:E=X            1989VI04                  02NDS    200206
+#  136PM EC DECAY:E=X            1989VI04                  02NDS    200206
+#H TYP=FUL$AUT=A.A. Sonzogni$CIT=NDS 95, 837 (2002)$CUT=1-Feb-2002$       
+#  Partial. Produced by {+92}Mo({+48}Ti,xpyn) via the decay               
+#  of {+136}Sm. Authors state that in their experiment only the low-spin  
+#  isomer was populated. 30 s<T{-1/2}({+136}Pm)<150 s                     
+#L J$From adopted values                                                  
+#G M$From adopted gammas                                                  
+#P X           (2+)              47 S       2             7.85E+3   20    
+PM136 ND136 beta+ 7.85 47.0 1.0
++G gamma 0.3737 1.0
++G gamma 0.48860000000000003 0.22
++G gamma 0.8622000000000001 0.28
++G gamma 0.6026 0.17
++G gamma 0.36869999999999997 0.035
++G gamma 0.8572000000000001 0.15
++G gamma 0.6792999999999999 0.028999999999999998
+
+#136ND    136PM EC DECAY:E=X,Y          1987KEZZ                  02NDS    200206
+#  136PM EC DECAY:E=X,Y          1987KEZZ                  02NDS    200206
+#H TYP=FUL$AUT=A.A. Sonzogni$CIT=NDS 95, 837 (2002)$CUT=1-Feb-2002$       
+#  Partial. Produced by {+92}Mo({+48}Ti,X) and {+112}Sn({+28}Si,X) and    
+#  via the decay of {+136}Sm. Measured |g's and |g|g-coincidences. Decay  
+#  scheme constructed from the time data, the singles, and coincidence    
+#  spectra and is confirmed in independent but preliminary work of        
+#  1989BhZZ consisting of |g, ce, |g|g measurements.                      
+#  Population of the 6+ member of the g.s. band indicates presence of     
+#  5(+),6-                                                                
+#  isomer produced directly by the initial reaction rather than by |e     
+#  decay. The |e feeding to the 2+ and 4+ members compared to feeding of  
+#  the 6+ member is substantively larger than observed by 1973PaZV in     
+#  5(+),6- |e decay indicating the presence of the (3+) isomer produced   
+#  by |e decay.                                                           
+#G           See 1987KeZZ for estimates of                                
+#G strengths of unobserved transitions                                    
+#G M         From adopted gammas, except those in square brackets.        
+#G E(A)      Not observed in decay of E=y isomer                          
+#G RI(B)     See comment in adopted gammas                                
+#L           Relative direct feedings (normalized to feeding of 6+ level) 
+#L deduced from these data and the data of 1973PaZV are compared in the   
+#L comments                                                               
+#L J         From adopted levels. These are in agreement with those       
+#L suggested by 1987KeZZ                                                  
+#L BAND(A)$ KPI=0+ GS BAND                                                
+#L BAND(B)$ KPI=2+ G BAND (?).                                            
+#L Assignment is supported by comparison of the interacting-boson         
+#L calculations of 1983Ma03 to the relative B(E2)(|_)'s derived by        
+#L 1987KeZZ                                                               
+#L BAND(C)$ |ph{-11/2}|pg{-7/2}, ALPHA=1.                                 
+#P1X            (2+)              47 S     2               7.85E+3  20    
++G gamma 1.748 0.25
++G gamma 1.787 0.12
++G gamma 1.835 0.3
++G gamma 0.3738 10.0
++G gamma 0.48869999999999997 1.86
++G gamma 0.8625 1.9
++G gamma 0.6027 3.84
++G gamma 0.2547 0.05
++G gamma 0.36869999999999997 0.65
++G gamma 0.8572000000000001 2.34
++G gamma 0.5652 0.17
++G gamma 0.6792 0.5
++G gamma 0.7703 1.04
++G gamma 1.4019000000000001 0.44
++G gamma 0.5869 0.22
++G gamma 0.9552 0.22
++G gamma 0.695 0.46
++G gamma 1.0594000000000001 0.6
++G gamma 0.5037 0.07
++G gamma 0.8147000000000001 1.51
++G gamma 1.0691 0.24
++G gamma 1.2047 0.21
++G gamma 0.19240000000000002 0.09
++G gamma 1.2512999999999999 0.12
++G gamma 0.30060000000000003 0.76
++G gamma 0.42019999999999996 0.24
++G gamma 0.37110000000000004 0.44
++G gamma 0.4045 0.06
++G gamma 0.6931 0.2
++G gamma 1.6604 0.3
+
+#136ND    136PM EC DECAY:E=Y            1973PAZV                  02NDS    200206
+#  136PM EC DECAY:E=Y            1973PAZV                  02NDS    200206
+#H TYP=FUL$AUT=A.A. Sonzogni$CIT=NDS 95, 837 (2002)$CUT=1-Feb-2002$       
+#  Partial. Produced by {+121}Sb({+20}Ne,5n). Measured: |g's,             
+#  |g|g-coincidences, |g(|q), and |g(t). Assignment based on coincidences 
+#  with known transitions in {+136}Nd from {+120}Sn({+20}Ne,4n|g) and     
+#  |g(t). The evaluator considers this decay scheme to be partial from    
+#  comparison of the maximum level energy to Q(|e). See also |e decay     
+#  E=x,y, above                                                           
+#L E         Energies with uncertainties given are from the ({+20}Ne,4n|g)
+#L data of 1973PaZV. Other energies are from |e decay                     
+#L J         From adopted levels                                          
+#L BAND(A)$ GS BAND                                                       
+#L BAND(B)$ K=2+ G BAND?                                                  
+#L BAND(C)$ |ph{-11/2}|pg{-7/2}, ALPHA=1                                  
+#P Y           (5-)              107 S     6              7.85E+3   20    
+PM136 ND136 beta+ 7.85 107.0 1.
++G gamma 0.3735 0.8976000000000001
++G gamma 0.488 0.09163
++G gamma 0.8621 0.07760500000000001
++B beta+ 8.369E-4 0.00126
++G gamma 0.6027 0.49742000000000003
++G gamma 0.37 0.10098000000000001
++G gamma 0.858 0.31416000000000005
++G gamma 0.678 0.06919
++G gamma 0.7704 0.17952
++G gamma 0.696 0.10098000000000001
++G gamma 1.0597 0.137445
++G gamma 0.815 0.30855000000000005
++G gamma 1.07 0.026180000000000002
++G gamma 0.3028 0.13651000000000002
++G gamma 0.693 0.026180000000000002
+

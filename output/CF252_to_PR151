@@ -1,0 +1,13 @@
+#151PR    252CF SF DECAY                2000HW03                  09NDS    200901
+#  252CF SF DECAY                2000HW03                  09NDS    200901
+#H TYP=FUL$AUT=BALRAJ SINGH$CIT=NDS 110, 1 (2009)$CUT=20-Nov-2008$        
+#  2000Hw03 (also 2001Ha14): Measured E|g and |g|g using                  
+#  GAMMASPHERE array comprised of 72 Compton-suppressed Ge detectors.     
+#  |ph{-11/2} band assigned to {+149}Pr in 1998Hw08 actually              
+#  belongs to {+151}Pr as explained in 2000Hw03                           
+#L E$ FROM EG'S, ASSUMING |D(EG)=0.3 KEV FOR EACH G RAY                   
+#L BAND(A)$ |ph{-11/2} band.                                              
+#L Band assignment from systematics                                       
+#P  0.0          0+               2.645 Y  8                              
+CF252 PR151 SF 0.0 0.0 1.0
+

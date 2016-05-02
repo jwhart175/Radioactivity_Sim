@@ -1,0 +1,20 @@
+#104ZR    248CM SF DECAY                1990HO12,1991HO16         07NDS    200709
+#  248CM SF DECAY                1990HO12,1991HO16         07NDS    200709
+#H TYP=FUL$AUT=JEAN BLACHOT$CIT=NDS 108,2035 (2007)$CUT=30-Mar-2007$      
+#  Assignment: (fragment)(fragment)(XK)(G) coin and (fragment)(G)(G) coin 
+#  248CM SF decay 1990HO12. 6.5E+4 fissions/s. Argonne                    
+#  Notre Dame G facility                                                  
+#  10 BI-germinate-suppressed Ge detectors, 2 small Ge detector, 1 array  
+#  of 50 BI-Gescin used as a multiplicity filter. They                    
+#  select only fission fragments with an average G multiplicity           
+#  of AP 10. The                                                          
+#  assignment is mainly based on coin with complementary Ba isotopes.     
+#G E,RI$From 1991HO16.                                                    
+#L J$From adopted levels                                                  
+#L BAND(A)$ g.s. band                                                     
+#P 0.0          0+               3.48E+5 Y 6                              
++G gamma 0.1403 1.0
++G gamma 0.3125 0.93
++G gamma 0.4737 0.46
++G gamma 0.6247999999999999 0.1
+

@@ -1,0 +1,30 @@
+#183PT    187HG A DECAY (2.4 M)         1970HA18                           199107
+#  187HG A DECAY (2.4 M)         1970HA18                           199107
+#H TYP=FUL$AUT=R.B. FIRESTONE$CIT=NDS 65,589 (1992)$CUT=22-Dec-1992$      
+#H TYP=UPD$AUT=R. Firestone$CUT=22-Dec-1992$                              
+#  The authors observed 5035 and 4870 ALPHAS                              
+#  with half-lives of 1.9 M 3 and                                         
+#  2.4 M 3. These ALPHAS are presumed to arise from the decay of the      
+#  13/2+ and 3/2- levels of 187HG. 187HG EC decay is dominated            
+#  by the feeding to levels with higher spin and half-life                
+#  (2.4 M, 1970Fi16) and (2.2 M, 1978Bo05) comparable to longer-lived     
+#  ALPHA. The evaluator has reassigned the                                
+#  2.4 M half-life to the 13/2+ isomer in variance with previous          
+#  evaluations.                                                           
+#N                       0.00012 GT                                       
+#N BR$from spontaneous counting of ALPHAS and K X-RAYS. X-RAY intensity   
+#N not corrected for internal conversion and not divided between isomer   
+#N and ground state decays.                                               
+#P 0.0          13/2+                2.4 M  3                 5011  20    
++A alpha 4.87 17000.0
+
+#183PT    187HG A DECAY (1.9 M)         1970HA18                           199107
+#  187HG A DECAY (1.9 M)         1970HA18                           199107
+#H TYP=FUL$AUT=R.B. FIRESTONE$CIT=NDS 65,589 (1992)$CUT=22-Dec-1992$      
+#H TYP=UPD$AUT=R. Firestone$CUT=22-Dec-1992$                              
+#  See the comment on 187HG ALPHA decay (2.4 M).                          
+#N                       0.00025 GT                                       
+#N BR$see normalization comment on 187HG ALPHA decay (2.4 M)              
+#P    134    20 3/2-                  1.9 M 3                  5011 20    
++A alpha 5.035 3.5E-8
+

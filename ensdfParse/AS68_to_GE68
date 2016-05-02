@@ -1,0 +1,48 @@
+# 68GE    68AS EC DECAY (151.6 S)       1977PA13                  12NDS    201206
+#  68AS EC DECAY (151.6 S)       1977PA13                  12NDS    201206
+#H TYP=FUL$AUT=E.A. McCutchan$CIT=NDS 113, 1735 (2012)$CUT=1-Mar-2012$    
+#  1977Pa13: {+68}As from {+58}Ni({+12}C,pn) at 32,42 MeV. Measured E|g,  
+#  I|g, E|b{++}, |g|g and |b{++}|g coincidences, and T{-1/2} using a      
+#  Ge(Li) detector (FWHM=2.5 keV at 1.3 MeV) and a NE102 plastic          
+#  scintillator. See also 1976PaZY.                                       
+#  1971Pa32: {+68}As from {+70}Ge(p,3n) at 40 MeV. Measured E|g, I|g,     
+#  |g|g and T{-1/2} with Ge(Li) (FWHM=2.5 keV at 1.3 MeV), LEPS and       
+#  NaI(Tl) detectors.                                                     
+#L E$From a least squares fit to E|g by evaluator.                        
+#L J$From Adopted Levels.                                                 
+#G E,RI$From 1977Pa13, except where noted otherwise. I|g normalized to    
+#G I|g(1016|g)=100.                                                       
+#G M,MR$From Adopted Gammas.                                              
+#G RI(a)$Doublet components derived from |g|g data (1977Pa13).            
+#G E(b),RI(b)$Reported only by 1971Pa32.                                  
+#E IB,IE$From I(|e+|b{++}) and theoretical |b{++}/|e ratios.              
+#E TI$From I(|g+ce) imbalance at each level and assuming no direct        
+#E feeding of the g.s.                                                    
+#E E$Experimental values from |b{++}|g coincidence |b{++} endpoint        
+#E energy measurements (1977Pa13) are given in the comments.              
+#  CC$ FROM BrIcc v2.2b (20-Jan-2009) 2008Ki07, "Frozen Orbitals" appr.   
+#  CC$ FROM BrIcc v2.2b (20-Jan-2009) 2008Ki07, "Frozen Orbitals" appr.   
+#  CC$ FROM BrIcc v2.2b (20-Jan-2009) 2008Ki07, "Frozen Orbitals" appr.   
+#P 0.0          3+                151.6 S   8              8084     3     
++B beta+ 8.645E-4 0.00114
++B beta+ 2.8245 0.05
++B beta+ 2.464 0.05
++B beta+ 2.4526 0.05
++B beta+ 2.2142 0.05
++B beta+ 2.1361999999999997 0.05
++B beta+ 2.1226 0.05
++B beta+ 2.0298 0.06
++B beta+ 1.9421 0.05
++B beta+ 1.8857000000000002 0.05
++B beta+ 1.8493 0.05
++B beta+ 1.8406 0.05
++B beta+ 1.8184 0.05
++B beta+ 1.7222 0.05
++B beta+ 1.6681 0.05
++B beta+ 1.6599000000000002 0.05
++B beta+ 1.6325 0.06
++B beta+ 1.6098 0.06
++B beta+ 1.4727000000000001 0.05
++B beta+ 1.2691 0.05
++B beta+ 1.1142 0.05
+

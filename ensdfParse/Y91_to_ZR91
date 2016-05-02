@@ -1,0 +1,34 @@
+# 91ZR    91Y B- DECAY                  1975RA08,1955KA12,1954BU3813NDS    201310
+#  91Y B- DECAY                  1975RA08,1955KA12,1954BU3813NDS    201310
+#H TYP=FUL$AUT=Coral M. Baglin$CIT=NDS 114, 1293 (2013)$CUT=1-Sep-2013$   
+#  Others: 1972EJ01, 1970AK05, 1965SI17, 1964LA13, 1963MA14, 1960JO07,    
+#  1956HE77.                                                              
+#  1975RA08: LOW-DISTORTION INTERMEDIATE-IMAGE |b SPECTROMETER; CARRIER   
+#  FREE {+91}YCl{-3} ON ALUMINIZED MYLAR BACKING; SHAPE-FACTOR ANALYSIS OF
+#  |b SPECTRUM; MEASURED END-POINT ENERGY.                                
+#  1955KA12: 91Y FISSION PRODUCT SEPARATED ON CATION EXCHANGE COLUMN      
+#  CONVERTED TO NITRATE AND EVAPORATED ONTO POLYSTYRENE; 4|p COUNTERS     
+#  AND END-WINDOW COUNTERS (FOR |b RADIATION); CALIBRATED HIGH-PRESSURE   
+#  ION CHAMBER (FOR |g ACTIVITY, CORRECTED FOR CONTRIBUTION FROM          
+#  BREMSSTRAHLUNG); MEASURED EB, EG, PARENT ^T{-1/2}, BG COIN.            
+#  1954BU38: SCINTILLATION SPECTROMETERS; MEASURED |b AND |g SPECTRA      
+#  USING Pilot PLASTIC SCIN-^B{+4} PHOSPHOR AND NaI(Tl) DETECTORS,        
+#  RESPECTIVELY, AND |b END-POINT ENERGY, PARENT ^T{-1/2}, |b BRANCHING.  
+#B           B-spectra: 1975RA08, 1964LA13, 1960JO07.                     
+#B           B-NU(THETA): 1963MA14.                                       
+#G           G-spectra were measured by 1970AK05, 1965SI17, 1960JO07      
+#G (NAI), 1955KA12, 1954BU38.                                             
+#G           No G's (RI>4.5 RELATIVE TO I(1205G)=100) other than the 1205G
+#G were found for 100 KEV<EG<2000 KEV by 1955KA12. The assignment of a    
+#G 1480G to 91Y decay (1970AK05) appears to be erroneous; the resulting   
+#G 1480 level is not adopted.                                             
+#G           For discussion of the first-forbidden unique matrix          
+#G element for decay to GS, see 1972EJ01.                                 
+#G M         From Adopted Gammas.                                         
+#L E         FROM EG.                                                     
+#L J         FROM Adopted Levels.                                         
+#P 0.0         1/2-              58.51 D   6              1544.3    18    
+Y91 ZR91 beta- 1.5443 5055264.0 1.0
++B beta- 0.6043099999999999 0.9974
++B beta- 0.10034 0.0026
+

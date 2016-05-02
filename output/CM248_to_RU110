@@ -1,0 +1,47 @@
+#110RU    248CM SF DECAY                1994SH26                  12NDS    201206
+#  248CM SF DECAY                1994SH26                  12NDS    201206
+#H TYP=FUL$AUT=G. G~URDAL and F.G. KONDEV$CIT=NDS 113, 1315 (2012)$       
+#H CUT=1-Aug-2011$                                                        
+#  1994Sh26: Source: |? 2|mCi {+248}Cf. Prompt |g-rays were detected using
+#  the EUROGAM array consisting of 45 Compton suppressed Ge               
+#  and 5 LEPS detectors.                                                  
+#  Measured: E|g, I|g, |g|g|g (2|*10{+9} triple-|g or higher fold         
+#  coincident events). Deduced: Levels, J|p                               
+#  Other: 1999SmZX                                                        
+#L E$From a least-square fit to E{-|g}.                                   
+#L J$From 1994Sh26, based on |g|g(|q), systematics of low-lying collective
+#L states in Ru isotopes and the observed decay patterns                  
+#G E$From the level energy differences in 1994SH26.                       
+#G |DE|g estimated by the evaluator                                       
+#G RI$From 1994SH26. The uncertainties vary from ~~20% for weak           
+#G transitions to ~~3% for strong transitions                             
+#G M$From |g|g(|q) in 1994Sh26, but A2 and A4 values were not given by the
+#G authors.                                                               
+#L BAND(A)$ GS band                                                       
+#L BAND(B)$ GAMMA band                                                    
+#P 0.0          0+                348E+3 Y 6                              
+CM248 RU110 SF 0.0 0.0 1.0
++G gamma 0.24059999999999998 1.0
++G gamma 0.37210000000000004 0.11699999999999999
++G gamma 0.6127 0.10300000000000001
++G gamma 0.42260000000000003 0.546
++G gamma 0.1966 0.0040999999999999995
++G gamma 0.2471 0.057
++G gamma 0.6192000000000001 0.233
++G gamma 0.22490000000000002 0.004
++G gamma 0.4215 0.055
++G gamma 0.472 0.10800000000000001
++G gamma 0.8441000000000001 0.017
++G gamma 0.5756 0.406
++G gamma 0.2908 0.009000000000000001
++G gamma 0.5157 0.214
++G gamma 0.7122999999999999 0.038
++G gamma 0.30910000000000004 0.005
++G gamma 0.44580000000000003 0.006
++G gamma 0.5999 0.062
++G gamma 0.7052 0.19399999999999998
++G gamma 0.6454 0.092
++G gamma 0.7135 0.02
++G gamma 0.8147000000000001 0.036000000000000004
++G gamma 0.7559 0.019
+

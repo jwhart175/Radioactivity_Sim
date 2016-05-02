@@ -1,0 +1,32 @@
+# 86Y     86ZR EC DECAY (16.5 H)        1977LAZN,1966HY01         15NDS    201412
+#  86ZR EC DECAY (16.5 H)        1977LAZN,1966HY01         15NDS    201412
+#H TYP=FUL$AUT=ALEXANDRU NEGRET, BALRAJ SINGH$CIT=NDS 124, 1 (2015)$      
+#H CUT=30-Nov-2014$                                                       
+#  1977LAZN (also 1975LAYR): Assignment to                                
+#  86ZR from lifetime observations. Used chemically and mass-separated    
+#  isotopes.                                                              
+#  1966HY01: measured EG, IG, GG, GG(T), (x ray)G(T) using Ge(Li), Si and 
+#  ^Na^I(^Tl) gamma detectors.                                            
+#  1964AW02: measured EG, IG, T1/2                                        
+#  1968TR11: measured GG(T), G FACTOR by G(THETA,H,T)                     
+#G M$From EKC of 1977LAZN, unless indicated otherwise.                    
+#G E,RI$From 1977LAZN.                                                    
+#G E(A)$A possible cascade of 620.6G, 135.6G and 127.7G which             
+#G adds to 883.9, could possibly decay from 883.9 level. Since the        
+#G GAMMA rays involved are very weak, additional information is           
+#G required to verify such a placement                                    
+#L J$From Adopted Levels                                                  
+#P 0.0          0+               16.5 H     1             1315      15    
+ZR86 Y86 beta+ 1.315 59400.0 1
++G gamma 0.0942 4.6003200000000003E-4
++G gamma 0.1277 6.99632E-4
++G gamma 0.1356 0.0046961600000000004
++G gamma 0.16069999999999998 9.584000000000001E-4
++G gamma 0.1737 6.99632E-4
++G gamma 0.2079 8.242239999999999E-4
++G gamma 0.2149 8.242239999999999E-4
++G gamma 0.6206 0.0026835200000000004
++B beta+ 8.645E-4 0.00111
++B beta+ 8.675E-4 0.00108
++B beta+ 8.717E-4 0.0010499
+

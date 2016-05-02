@@ -1,0 +1,36 @@
+#110PD    110RH B- DECAY (3.35 S)       1988AY02                  12NDS    201206
+#  110RH B- DECAY (3.35 S)       1988AY02                  12NDS    201206
+#H TYP=FUL$AUT=G. G~URDAL and F.G. KONDEV$CIT=NDS 113, 1315 (2012)$       
+#H CUT=1-Aug-2011$                                                        
+#G CC$ FROM BrIcc v2.2 (31-Mar-2008) 2008KiAA, "Frozen Orbitals" appr.    
+#  Source: {+238}U(P,F), E(P) = 20 MeV. IGISOL on-line mass separator     
+#  facility was used to separate the parent {+110}Rh nucleus.             
+#  The {+110}Rh production rate was |?2|*10{+3}  ions/|mC.                
+#  The ion beams of the separated activities were implanted on a 6 mm     
+#  wide moving tape. The |g-rays were detected by  25% and 23% coaxial    
+#  Ge detectors. A 1.4 cm{+3} planar Ge detector was used to detect the   
+#  low-energy |g-rays. The conversion electrons were detected by a 3 mm   
+#  thick, LN-cooled Si(Li) detector. |b-rays were detected with a 1       
+#  mm thick NE102 plastic  |DE detector in a combination with a 6.0 cm    
+#  long and 7.5 cm in diameter NEE102 plastic scintillator.               
+#  Measured: E|g, I|g, GG, BG, CE. Deduced: Levels, Mult., JPI            
+#  Other: 1972PIZQ                                                        
+#L E$From least-squares fit to  E|g                                       
+#L J$From adopted levels                                                  
+#G E$From 1988AY02. |DE|g = 0.3 keV, as stated by the authors             
+#G RI$From 1988AY02, combination of both {+110}Rh |b- (3.35 S) (J|p=(1+)) 
+#G and {+110}Rh |b- (28.0 S) (J|p=(6+)) decays                            
+#G M$From adopted gammas                                                  
+#B $Since the decay scheme is incomplete, no IB- and LOGFT values were    
+#B calculated                                                             
+#P 0.0         (1+)              3.35 S    12             5505      18    
+RH110 PD110 beta- 5.505 3.35 1.0
++G gamma 0.3738 1.0
++G gamma 0.4397 0.149
++G gamma 0.8137000000000001 0.055
++G gamma 0.5726 0.022000000000000002
++G gamma 0.357 0.024
++G gamma 0.7967000000000001 0.075
++G gamma 0.8405 0.016
++G gamma 1.2144000000000001 0.011000000000000001
+

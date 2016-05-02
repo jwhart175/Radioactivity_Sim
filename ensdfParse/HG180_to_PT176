@@ -1,0 +1,23 @@
+#176PT    180HG A DECAY                 1993WA03,1979HA10,1978HA3006NDS    200602
+#  180HG A DECAY                 1993WA03,1979HA10,1978HA3006NDS    200602
+#H TYP=FUL$AUT=M.S. BASUNIA$CIT=NDS 107, 791 (2006)$CUT=15-Sep-2005$      
+#  Others: 2002RO17, 2000KO48                                             
+#  1979HA10, 1978HA30: activity produced by bombarding PB targets with    
+#  600-MEV protons.                                                       
+#  Measured EA, IA, EG, AG coin. Detectors: semi, GE(LI).                 
+#  Other: 1968DE01.                                                       
+#  1993WA03: activity produced by 144SM(40AR,4N)180HG EC 180AU,           
+#  E(40AR)=225 MEV. Measured EA, IA (not reported), AG coin, a CE coin,   
+#  AG(T), a CE(T). Detectors: semi, germanium hyperpure, plastic          
+#  scintillator. Measured T(lev).                                         
+#A IA        From 1979HA10, except as noted.                              
+#A E         From 1993WA03, except otherwise noted.                       
+#A HF        R0(176PT)=1.533 8 (1998AK04).                                
+#G E         From 1993WA03, unless otherwise specified.                   
+#L J,T       From adopted levels, except otherwise noted.                 
+#P 0.0         0+                2.58 S    1              6258      4     
+HG180 PT176 alpha 6.258 2.58 0.480
++A alpha 6.119 0.9987
++A alpha 5.862 5.4E-4
++A alpha 5.689 7.9E-4
+

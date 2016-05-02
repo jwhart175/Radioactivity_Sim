@@ -1,0 +1,41 @@
+#102CD    102IN EC DECAY                2003GI06                  09NDS    200908
+#  102IN EC DECAY                2003GI06                  09NDS    200908
+#H TYP=FUL$AUT=D. DE FRENNE$CIT=NDS 110, 1745 (2009)$CUT=31-Dec-2008$     
+#  Measured E|g, |g|g, I|g, and I|b, |b strength functions                
+#  using an array of 42 Ge detectors and total absorption                 
+#  spectroscopy (TAS) with a large NaI(Tl) detector.                      
+#  All data are from 2003Gi06 as they are more complete than those of     
+#  1995Sz01                                                               
+#  Others: 1995Sz01                                                       
+#E TI$Deduced by evaluator from intensity balance. These feedings         
+#E should be considered as approximate since there are probably           
+#E many weak unobserved transitions as suggested by 2003Gi06 from the     
+#E measured total absorption spectra.                                     
+#E $log| {Ift} values have not been calculated since the |e+|b{++}        
+#E feedings are only the apparent values and log| {Ift} values from these 
+#E are not meaningful following 2003GiZX.                                 
+#G E,RI$ From priv. comm. (2003GiZX) received as e-mail reply on June 26  
+#G and July 8,2003 from M. Gierlik  of 2003Gi06.                          
+#G Intensities are not corrected for summing effects which could amount   
+#G to 5% for 100% cascades. As suggested by the total absorption          
+#G spectroscopy (TAS), a large number of weak |g rays remain              
+#G unobserved.                                                            
+#G RI(A)$Same intensity is quoted for two components but with             
+#G different uncertainties. It is not clear whether the values            
+#G correspond to divided or undivided intensities.                        
+#G E(B),RI(B)$The energy and intensity values are the same for            
+#G the doublet, but different uncertainties are quoted. It is not clear   
+#G whether the values correspond to divided or undivided intensities.     
+#G $All transitions are assigned on the basis of |g|g coin data with      
+#G gates on 777|g and 861|g. No direct transitions to g.s. were found     
+#G beyond the first 2+ state.                                             
+#L E$ Closely spaced (within less than { 2 keV} or so) levels whose       
+#L energies overlap within the uncertainties are treated as one           
+#L level by the evaluator, as advised in e-mail reply from M. Gierlik.    
+#L It is possible that several other closely spaced levels (within        
+#L { 4 keV} or so) also correspond to one level                           
+#L E$ From least-squares fit to E|g's (by evaluator).                     
+#L J$From adopted levels                                                  
+#P 0.0          (6+)                 23.3 S    1             8.95E3 12    
++B beta+ 8.573E-4 0.00114
+

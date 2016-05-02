@@ -1,0 +1,158 @@
+#145LA    145BA B- DECAY                1978PF02,1997GR09         09NDS    200902
+#  145BA B- DECAY                1978PF02,1997GR09         09NDS    200902
+#H TYP=FUL$AUT=E. BROWNE, J. K. TULI$CIT=NDS 110, 507 (2009)$             
+#H CUT=1-Oct-2008$                                                        
+#  1982ChZV                                                               
+#  Modified significantly by E. Browne (January 31, 2008).                
+#  Measured: G, GG, G(T), CE, B, BG (1978Pf02), G, GG                     
+#  (1982ChZV). Others: 1969WiZX, 1970OsZZ, 1971Ho29                       
+#  A deduced (using ^RADLST) average radiation energy of 5198 keV 73      
+#  from this decay scheme, is in fair agreement with a Q-value of         
+#  4923 keV 65 from the latest atomic mass adjustment (2003Au03).         
+#  This agreement suggests the decay scheme is reasonably complete.       
+#  In addition, this decay scheme is consistent with a total              
+#  B- average energy of 1277 keV, a neutrino average energy of 1820 keV,  
+#  and an average G-ray energy of 2071 keV.  That is, most of the         
+#  radiation energy is carried by G rays and neutrinos.                   
+#L           Except for the 2566.4-keV level, all levels above 1177 keV   
+#L are pseudolevels, deduced from total G-ray absorption spectrometer     
+#L measurements.                                                          
+#B           EB-=4855 170, 4570 200, 4500 200, 4230 170 from BG;          
+#B EB-=4920 120 (single B-spectrum) (1978Pf02)                            
+#B           B- feedings to the various pseudolevels are from total       
+#B absorption G-ray spectrometer measurements (1997Gr09, 1996Gr20).       
+#G M$EKC were normalized to KC(M1)=1.035 for 96.6G, CEK and               
+#G CEL are from 1986RoZU                                                  
+#G E,RI$From private communication of 1982ChZV, except where noted        
+#G otherwise                                                              
+#G E(A)      Observed only in 1978Pf02                                    
+#G E(B)      Observed only in 1982ChZV                                    
+#G E(X),RI(X)$Inferred by evaluators (from total G-ray absorption         
+#G spectrometer measurements) to balance the decay scheme.                
+#L J         The 145LA levels: 0, 96.6, 189.0, 351.5 and                  
+#L probably 65.9 are interconnected by M1,E2 transitions and therefore    
+#L have the same parity                                                   
+#L E(P)$"Pseudo level" from total G-ray absorption spectrometer           
+#L measurements (1997Gr09).                                               
+#P 0.0         5/2-              4.31 S    16             4923      65    
+BA145 LA145 beta- 4.923 4.31 1.0
++G gamma 0.2585 0.0017000000000000001
++G gamma 0.3163 0.00578
++G gamma 0.3437 0.0102
++G gamma 0.4 0.0034000000000000002
++G gamma 0.42719999999999997 0.006290000000000001
++G gamma 0.6109 0.00901
++G gamma 0.6436000000000001 0.00391
++G gamma 0.6553 0.0085
++G gamma 0.7477 0.00221
++G gamma 0.8165 0.0018700000000000004
++G gamma 0.8495 0.00459
++G gamma 0.9446 0.0032300000000000002
++G gamma 1.0663 0.00561
++G gamma 1.2552 0.0017000000000000001
++G gamma 1.2632999999999999 8.500000000000001E-4
++G gamma 1.2687 6.8E-4
++G gamma 1.516 0.00442
++G gamma 1.6925 0.0035700000000000003
++G gamma 1.7141 0.00391
++G gamma 1.7762 0.0018700000000000004
++G gamma 1.8465 0.0037400000000000007
++G gamma 1.9509 0.00102
++G gamma 2.0336 0.00136
++G gamma 2.0655 0.00102
++G gamma 2.1851 0.0030600000000000007
++G gamma 2.1908000000000003 0.0018700000000000004
++G gamma 2.4563 0.00425
++G gamma 2.5156 0.00221
++G gamma 2.565 0.00136
++G gamma 2.7087 6.8E-4
++B beta- 2.096 0.07
++G gamma 0.0659 0.052700000000000004
++B beta- 2.081 0.044000000000000004
++G gamma 0.09659999999999999 0.17
++B beta- 2.038 0.022000000000000002
++G gamma 0.09190000000000001 0.0731
++G gamma 0.1232 0.0119
++G gamma 0.1895 0.0187
++B beta- 2.015 0.006500000000000001
++G gamma 0.1716 0.012920000000000001
++G gamma 0.2379 0.01156
++B beta- 1.962 0.034
++G gamma 0.1623 0.0374
++G gamma 0.2549 0.0102
++G gamma 0.3518 0.017
++B beta- 1.904 0.0084
++G gamma 0.2862 0.0204
++G gamma 0.3788 0.0408
++B beta- 1.896 0.0051
++G gamma 0.30319999999999997 0.030600000000000002
++G gamma 0.49269999999999997 0.0204
++B beta- 1.886 0.0484
++G gamma 0.1623 0.0374
++G gamma 0.3252 0.0204
++G gamma 0.4178 0.0425
++B beta- 1.872 0.0194
++G gamma 0.4778 0.01394
++G gamma 0.5442 0.049300000000000004
++B beta- 1.846 0.0189
++G gamma 0.2475 0.0051
++G gamma 0.36110000000000003 0.0047599999999999995
++G gamma 0.5327999999999999 0.0204
++G gamma 0.5988 0.0204
++B beta- 1.828 0.0102
++G gamma 0.2862 0.0204
++B beta- 1.783 0.0054
++G gamma 0.5442 0.049300000000000004
++G gamma 0.6682 0.0034000000000000002
++G gamma 0.7341 0.0068000000000000005
++B beta- 1.74 0.0102
++G gamma 0.31360000000000005 0.00136
++G gamma 0.3344 0.0037400000000000007
++G gamma 0.5908 0.0018700000000000004
++G gamma 0.7306 0.013600000000000001
++G gamma 0.3788 0.0408
++G gamma 0.4077 0.0068000000000000005
++G gamma 0.5719 0.015300000000000001
++G gamma 0.6838 0.0119
++B beta- 1.671 0.0022
++G gamma 0.4815 0.0011899999999999999
++G gamma 0.7845 0.00102
++B beta- 1.643 0.0017000000000000001
++G gamma 0.8445 0.0017000000000000001
++B beta- 1.576 0.0183
++G gamma 0.5786 0.0102
++G gamma 0.6838 0.0119
++G gamma 0.701 0.0051
++G gamma 1.1104 0.0119
++B beta- 1.519 0.0038
++B beta- 1.472 0.008100000000000001
++B beta- 1.426 0.013500000000000002
++B beta- 1.38 0.0269
++B beta- 1.333 0.0161
++B beta- 1.287 0.0054
++B beta- 1.194 0.0753
++B beta- 1.148 0.043
++B beta- 1.102 0.013999999999999999
++B beta- 1.057 0.013999999999999999
++B beta- 1.011 0.0215
++B beta- 0.965 0.08070000000000001
++B beta- 0.935 0.008
++G gamma 1.9686 0.0017000000000000001
++G gamma 2.0215 0.0037400000000000007
++G gamma 2.0524 0.0015300000000000003
++G gamma 2.501 0.0011899999999999999
++B beta- 0.92 0.062400000000000004
++B beta- 0.874 0.0538
++B beta- 0.829 0.0538
++B beta- 0.784 0.0398
++B beta- 0.74 0.0301
++B beta- 0.695 0.0258
++B beta- 0.651 0.0215
++B beta- 0.607 0.0161
++B beta- 0.563 0.0118
++B beta- 0.52 0.0108
++B beta- 0.478 0.0086
++B beta- 0.435 0.006500000000000001
++B beta- 0.394 0.0032
++B beta- 0.353 0.00161
+

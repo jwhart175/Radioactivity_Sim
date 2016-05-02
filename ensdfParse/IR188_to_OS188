@@ -1,0 +1,86 @@
+#188OS    188IR EC DECAY (41.5 H)       1975TH06,1969YA02,1964HA0602NDS    200204
+#  188IR EC DECAY (41.5 H)       1975TH06,1969YA02,1964HA0602NDS    200204
+#H TYP=FUL$AUT=BALRAJ SINGH$CIT=NDS 95, 387 (2002)$CUT=26-Feb-2002$       
+#  1975TH06: G, GG data                                                   
+#  1969YA02: G, GG, GG(THETA), CE, B+ data                                
+#  1964HA06: CE data                                                      
+#  Others:                                                                
+#  G: 1980BE27, 1972BAZX, 1963GR22, 1962WA20                              
+#  (also 1962WA37), 1961KR02, 1958DI44, 1958FI32, 1955SM42, 1950CH11      
+#  GG: 1973ARZT, 1962WA20, 1958FI32                                       
+#  GG(T): 1971BO13                                                        
+#  GG(THETA): 1971KR01 (also 1970KRZW), 1975PRZU, 1963YA01                
+#  G(THETA) on oriented nuclei: 1992KA49 (also 1992KA48)                  
+#  G(THETA,H,TEMP): 1980BE27                                              
+#  G(THETA,H,TEMP) and NMR: 1985ED02, 1988OH05                            
+#  CE: 1966HA08, 1964SA30, 1962GR02, 1961KR02,                            
+#  1960MA28, 1959KA09, 1958DI44, 1958FI32, 1954NA25, 1954NIZZ             
+#  CE CE: 1962WA20                                                        
+#  CE G: 1962GR02                                                         
+#  CE G(T): 1970BE18 (also 1971BB09)                                      
+#  CE G(THETA): 1963YA01 (also 1965YA01,1963YA07)                         
+#  B+: 1970AG03, 1962WA20, 1960KA14, 1950CH11                             
+#  B+ G: 1970AG03, 1966DZ12                                               
+#  T1/2 of 188IR GS: 1963GR22, 1955SM42, 1954NA25, 1950CH11               
+#            Yield of 188IR in other reactions: 1979Ka28, 1974St04        
+#L E$From least-squares fit to EG's given by 1975TH06                     
+#L J$From adopted levels                                                  
+#G E,RI$From 1975TH06, unless otherwise stated                            
+#G M,MR$From CE data, unless otherwise stated                             
+#E IB$From IB+/RI(478G) (1969YA02). Total IB+ to GS and 633 level         
+#E of 0.33 8 agrees well with 0.41 4 determined from I(G+-)/RI(478G)      
+#E =0.056 5 (1969YA02). The value IB+(633 level)/IB(GS)=0.26 (1970AG03)   
+#E is much lower as compared to 0.57 from 1969YA02                        
+#G E(A)$Reported in CE data only (1964HA06).                              
+#G Intensity not given by authors. Its presence regarded as doubtful      
+#G E(B)$Reported by 1969YA02 and 1964HA06. Presence of this G ray         
+#G regarded doubtful                                                      
+#G E(D)$G reported by 1975TH06 only                                       
+#G CC$Experimental values of ICC's deduced by the evaluator               
+#G using RI's from 1975TH06 and ICE's from 1969YA02 and 1964HA06. The CE  
+#G data were normalized to 478G, using KC(E2)=0.0191. The ICE's from      
+#G 1964HA06 were related to those from 1969YA02, using different          
+#G normalization factors: 0.33 below 1 MEV, 0.39 between 1-2 MEV and      
+#G 0.48 above 2 MEV. Uncertainties on ICE's are not given by either       
+#G 1964HA06 or 1969YA02, 25-50% assumed by the evaluator in determining   
+#G ECC's                                                                  
+#P  0.0          1-               41.5 H   5               2809     7     
++B beta+ 0.743 0.002
++B beta+ 0.6 1.0999999999999999E-4
++B beta+ 0.532 0.0013
++G gamma 0.47799 0.147
++B beta+ 0.476 4.7000000000000004E-5
++B beta+ 0.386 1.4E-5
++B beta+ 0.333 4.4E-6
++B beta+ 8.111E-4 0.0014199999999999998
++B beta+ 8.102000000000001E-4 0.0014399999999999999
++B beta+ 0.165 0.008101
++B beta+ 8.100000000000001E-4 0.0014399999999999999
++B beta+ 8.082E-4 0.00145
++B beta+ 8.071E-4 0.00146
++B beta+ 8.064E-4 0.00147
++B beta+ 8.047999999999999E-4 0.00148
++B beta+ 8.04E-4 0.00148
++B beta+ 8.008999999999999E-4 0.0015
++B beta+ 8.007E-4 0.00151
++B beta+ 7.969E-4 0.00153
++B beta+ 7.962000000000001E-4 0.00154
++B beta+ 7.955999999999999E-4 0.00154
++B beta+ 7.921E-4 0.00157
++B beta+ 7.897E-4 0.00159
++B beta+ 7.89E-4 0.00159
++B beta+ 7.862E-4 0.00161
++B beta+ 7.833E-4 0.0016300000000000002
++B beta+ 7.82E-4 0.00164
++B beta+ 7.792E-4 0.001
++B beta+ 7.765999999999999E-4 0.001
++B beta+ 7.765E-4 0.001
++B beta+ 7.73E-4 0.01
++B beta+ 7.725999999999999E-4 0.01
++B beta+ 7.662E-4 0.04
++B beta+ 7.564999999999999E-4 0.08
++B beta+ 7.479E-4 0.03
++B beta+ 7.37E-4 0.0019
++B beta+ 7.23E-4 0.002
++B beta+ 7.019999999999999E-4 0.0022
+

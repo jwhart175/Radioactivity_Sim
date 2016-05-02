@@ -1,0 +1,22 @@
+#176TA    176W EC DECAY                 1963VA20                  06NDS    200602
+#  176W EC DECAY                 1963VA20                  06NDS    200602
+#H TYP=FUL$AUT=M.S. BASUNIA$CIT=NDS 107, 791 (2006)$CUT=15-Sep-2005$      
+#  Measured conversion electron energies and relative intensities         
+#  (magnetic spectrograph), and photon energies (NAI scin). Decay scheme  
+#  not normalized and log ft not given because %EC to GS is unknown.      
+#E           %EC(195)/%EC(184)=9 given by authors is inconsistent with    
+#E G-ray transition intensities.                                          
+#G RI        From ICE and theoretical CC.                                 
+#L E         From a least squares fit to the G-ray energies assuming      
+#L DE=1 keV for all G-ray energies by evaluator.                          
+#L E(A)      K=(0+), possible CONF=((P,7/2(404))-(N,7/2(633))).           
+#L J         From adopted levels.                                         
+#P 0.0            0+             2.5 H     1              7.2E+2    4     
+W176 TA176 beta+ 0.72 9000.0 1.0
++G gamma 0.1002 18.16
++G gamma 0.03358 0.0067
++G gamma 0.05055 0.11
++G gamma 0.08414 0.81
++G gamma 0.06129 1.52
++G gamma 0.09486 1.53
+

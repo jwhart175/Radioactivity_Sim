@@ -1,0 +1,52 @@
+#204HG    204AU B- DECAY                1984CR01                  10NDS    201002
+#  204AU B- DECAY                1984CR01                  10NDS    201002
+#H TYP=FUL$AUT=C.J. CHIARA and F.G. KONDEV$CIT=NDS 111,141 (2010)$        
+#H CUT=1-Oct-2009$                                                        
+#  1984Cr01: 204AU parent produced via 204HG(N,P) reaction; natural HG    
+#  target; E(N)=14 MEV. Measured G singles with Ge, GG coin               
+#  with Ge-Ge(Li); DE=1.7 and 2.3 KEV at 1332 KEV for Ge and GE(LI),      
+#  10% efficiency for both;                                               
+#  2-min irradiation followed by 30-35 s delay and 2 min count.           
+#  Measured G(T) spectra for EG in                                        
+#  400-1000 keV or 1800-2400 keV range, in 6 ^15-s intervals;             
+#  T(204AU) determined from G(T) of 436.6G, 691.7G, and 723.0G.           
+#  Other: 1972Pa06.                                                       
+#  $-------                                                               
+#  287 irradiation's for G singles, 350 for GG coin, 140 for G(T);        
+#  they used Q(B-) = 4500 keV from 1982AuAA (priv.comm.) mass estimates;  
+#  1128.30 16 est'd as second excited state (was uncertain in 72Pa06);    
+#  estimated x-sec 0.63(8) mb;                                            
+#  >10% B- to g.s. gives too large x-sec compared to 202Hg, assume <10%;  
+#  0% to g.s. used to calc log(ft) and B- branches (by evaluator, too);   
+#  only 0+ and 2+ are firmly assigned, all other Jpi's are tentative in   
+#  1984Cr01!                                                              
+#  $-------                                                               
+#B $1972Pa06 measured with a plastic scin an endpoint energy AP 3300 KEV  
+#B with T1/2=30-40 S, which can be associated with decay of 202,204AU.    
+#B Based on evaluators' estimate of relative yields of the 436.6G (204AU) 
+#B and 439.6G (202AU, normalized to account for 90% B- to GS)             
+#B from Fig.1 of 1972Pa06, this is consistent with Q-(202AU)=2950 KEV and 
+#B systematic Q-(204AU)=3900 KEV. 1967Wa23 report                         
+#B E(B-)=3500 KEV 200 with T1/2 AP 30 S and E(B-)=4500 KEV 300 with       
+#B T1/2 AP 4 S; decay with the latter lifetime was not confirmed by       
+#B 1972Pa06 or 1984Cr01. 1984Cr01 deduce IB- to GS<10%                    
+#B from estimate of (N,P) cross sections; other IB- branches are from     
+#B G+CE intensity balance, assuming negligible feeding to g.s.            
+#B $The total energy calculated with the program ^RADLST for B- decay of  
+#B 204AU is 4267 keV 155, compared to the Q value from systematics,       
+#B 3940 keV, indicating that the decay scheme is incomplete               
+#B $-------                                                               
+#G CC$ FROM BrIcc v2.2 (31-Mar-2008) 2008KiAA, "Frozen Orbitals" appr.    
+#G E$From 1984Cr01, with assignment to 204AU B- decay based on T1/2 and on
+#G GG-coin; other: 1972Pa06. For EG<400 KEV, sensitivity was reduced by Pb
+#G absorbers; GG not recorded if EG<400 KEV.                              
+#G $All intense G's are in coin with EB>500 KEV (1972Pa06).               
+#G E(D)$Assigned to both 204AU and 202AU (1984Cr01).                      
+#G M$From adopted G's.                                                    
+#G $-------                                                               
+#L E$From a least-squares fit to EG.                                      
+#L J$From adopted levels.                                                 
+#L $-------                                                               
+#P 0.0          (2-)             39.8 S    9              3940            
+AU204 HG204 beta- 3.94 39.8 1.0
+

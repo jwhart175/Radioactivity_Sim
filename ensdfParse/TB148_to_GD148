@@ -1,0 +1,268 @@
+#148GD    148TB EC DECAY (60 M)         1979SHZF,1985TI03         14NDS    201404
+#  148TB EC DECAY (60 M)         1979SHZF,1985TI03         14NDS    201404
+#H TYP=FUL$AUT=N. NICA$CIT=NDS 117, 1 (2014)$CUT=1-Oct-2013$              
+#  1993KRZW,1992KRZN: measured EG, RI, GG coin, CE, G(THETA) from oriented
+#  nuclei. The following levels with their assigned JPI by these authors  
+#  have not been placed in the level scheme because their placement was   
+#  not shown:                                                             
+#  scheme: 3521, 3795 (1,2+), 4274 (2+,3,4+), 4338 (3-,4+), 4559 (1-,2+), 
+#  4862 (2-,3,4), 4960, 5018 (3,4), 5061 (3-,4+), 5303, 5400 (3-,4+).     
+#  Measured: G, GG (1973KR10,1973VY01,1973VY02,1974NE01,1979SHZF,         
+#  \1985TI03), G(THETA) (1985TI01), CE (1973VY01,1979SHZF), B+            
+#  (1961BO19,1975PYZZ), GAMOW-TELLER STRENGTH DISTRIBUTION (2003NAZV,     
+#  2001ALZY)                                                              
+#  Decay scheme is that of 1979SHZF and 1985TI03                          
+#  Level scheme is incomplete and the evaluated                           
+#  IB and IE, especially for the weak transitions, are less reliable.     
+#E           B+ with EB=4610 80 (IB=1.00, IB/CEK(784G) AP 10),            
+#E 3840 150 (0.47), 2730 300 (0.75) (1975PYZZ); 4600, 2600 (1961BO19)     
+#E were observed. However, from EC/B+=1.541 93 (to 1864 level) follows    
+#E Q+=5290 50; therefore, EB+(g.s.)=4270 45 (1985TI01)                    
+#E $Level scheme is incomplete and the evaluated                          
+#E IB and IE, especially for the weak transitions, are less reliable.     
+#G           EKC were normalized to KC(784G)=0.0039 (E2)                  
+#G (1979SHZF,1993KRZW)                                                    
+#G E         From 1979SHZF, except as indicated otherwise                 
+#G RI        Relative intensity from 1979SHZF, except as indicated        
+#G otherwise                                                              
+#G E(A),RI(A)$From 1985TI03                                               
+#G M         From adopted gammas; supported by internal conversion data   
+#G and G(THETA) of oriented nuclei from this decay                        
+#G MR        From adopted gammas; supported by G(THETA) from 1993KRZW,    
+#G 1992KRZN from this decay                                               
+#L E         From a least-squares fit to EG                               
+#L J         From adopted levels; supported by internal conversion data   
+#L and G(THETA) of oriented nuclei from this decay                        
+#L J(E)      FROM G(THETA) FROM ORIENTED NUCLEI (1993KRZW).               
+#L J(F)      From G(THETA) of oriented nuclei                             
+#G CC$FROM BrIcc v2.3a (30-Jun-2013) 2008Ki07, "Frozen Orbitals" appr.    
+#P 0.0         2-                60 M      1              5738      13    
+TB148 GD148 beta+ 5.738 3600.0 1.0
++G gamma 0.8415900000000001 0.0026544
++G gamma 1.167 0.001092
++G gamma 1.215 0.00168
++G gamma 1.679 0.002772
++G gamma 1.9887000000000001 0.003276
++G gamma 2.168 0.0031079999999999997
++G gamma 2.24732 0.003276
++G gamma 2.2881 0.004031999999999999
++G gamma 2.33192 0.005124
++G gamma 2.3629000000000002 0.005712
++G gamma 2.4859400000000003 0.005292
++G gamma 2.5933 0.0026039999999999995
++G gamma 2.8585 0.002772
++G gamma 2.8718000000000004 0.00378
++G gamma 3.5529 0.00294
++G gamma 3.6449000000000003 0.0036959999999999996
++G gamma 3.6858 0.00504
++G gamma 3.9837 0.00294
++B beta+ 6.7E-4 0.00252
++B beta+ 2.1275999999999997 0.0
++G gamma 0.78443 0.84
++B beta+ 1.7907 0.01
++G gamma 0.48904899999999996 0.1974
++B beta+ 1.563 0.01
++G gamma 0.14287799999999998 0.0030828
++G gamma 0.631947 0.10626
++B beta+ 1.4853 0.09
++G gamma 1.0501500000000001 0.008106
++B beta+ 1.3039 0.0
++G gamma 0.5899 0.005964
++G gamma 1.0790250000000001 0.11424
++G gamma 1.86339 0.056196
++B beta+ 1.2907 0.0
++G gamma 0.63947 0.026376
++G gamma 0.80856 0.0044016
++B beta+ 1.2679 0.0
++G gamma 0.9153 0.003024
++G gamma 1.40422 0.021336
++G gamma 2.18865 0.017136
++B beta+ 1.1418 0.0
++G gamma 0.96009 0.010752
++G gamma 1.44916 0.009072
++B beta+ 1.1213 0.0
++G gamma 1.52645 0.006384
++G gamma 2.31103 0.011591999999999998
++B beta+ 1.0860999999999998 0.0
++G gamma 1.00772 0.006468000000000001
++G gamma 1.6396600000000001 0.0042
++B beta+ 1.0347 0.09
++G gamma 1.23018 0.008232
++G gamma 1.7196300000000002 0.014531999999999998
++B beta+ 0.9986 0.0055000000000000005
++G gamma 1.08941 0.022511999999999997
++G gamma 1.7225 0.003444
++B beta+ 0.9976 0.0055000000000000005
++G gamma 1.10565 0.006131999999999999
++G gamma 1.2482 0.0020159999999999996
++G gamma 1.7379 0.00168
++B beta+ 0.9949 0.0070999999999999995
++G gamma 1.3422 0.00168
++G gamma 1.83014 0.018228
++G gamma 2.6143 0.006888
++B beta+ 0.9484 0.0058
++G gamma 1.84836 0.005795999999999999
++B beta+ 0.9402 0.0058
++G gamma 1.42649 0.002772
++G gamma 1.91554 0.004031999999999999
++G gamma 2.7005700000000004 0.006384
++B beta+ 0.9097999999999999 0.006
++G gamma 0.96009 0.010752
++G gamma 1.59939 0.010752
++G gamma 2.089 0.004368
++B beta+ 0.832 0.0064
++G gamma 0.382 0.001512
++G gamma 1.4701 0.00126
++G gamma 2.10187 0.0063
++B beta+ 0.826 0.006500000000000001
++G gamma 1.00248 0.0033516
++G gamma 1.64198 0.004452
++G gamma 2.13114 0.012096
++G gamma 1.23 0.003276
++B beta+ 0.8129 0.0066
++G gamma 1.80262 0.00504
++B beta+ 0.741 0.0069
++G gamma 1.00772 0.006468000000000001
++G gamma 1.81606 0.004452
++G gamma 3.0905 0.001596
++B beta+ 0.735 0.006999999999999999
++G gamma 2.3451 0.004368
++G gamma 3.13089 0.006888
++B beta+ 0.7166 0.0070999999999999995
++G gamma 2.51056 0.003024
++G gamma 3.2955 0.0010079999999999998
++B beta+ 0.6435 0.0074
++G gamma 2.30144 0.00252
++G gamma 3.5745999999999998 0.002268
++B beta+ 0.5197999999999999 0.0078000000000000005
++G gamma 2.6346 0.001344
++G gamma 2.7775 6.72E-4
++G gamma 3.2664 0.003444
++B beta+ 0.3107 0.008199999999999999
++G gamma 2.1553299999999997 0.0031079999999999997
++G gamma 2.7946 0.001596
++G gamma 4.0668 0.001344
++B beta+ 0.30310000000000004 0.008199999999999999
++G gamma 3.1254 0.0026039999999999995
++G gamma 3.2691999999999997 0.005544
+
+#148GD    148TB EC DECAY (2.20 M)       1991COZY                  14NDS    201404
+#  148TB EC DECAY (2.20 M)       1991COZY                  14NDS    201404
+#H TYP=FUL$AUT=N. NICA$CIT=NDS 117, 1 (2014)$CUT=1-Oct-2013$              
+#  1991COZY: measured EG, RI, GG coin, T1/2                               
+#  1985SC09: measured IB+/(IE+IB+), IB+/ECK to the 2693-KEV level to      
+#  determine Q+-                                                          
+#  1981SC21: measured EC/B+ to the 2693-KEV level to determine Q+-        
+#  1974NE01: measured EG, RI, GG coin, T1/2                               
+#  1973BO13: measured EG, RI, GG coin, T1/2                               
+#  2003NAZV: MEASURED GAMOW-TELLER STRENGTH DISTRIBUTION                  
+#  Other: 1971AR31                                                        
+#  There are problems in reconciling LOGFT values from 148TB EC decay     
+#  (2.20 M) with DJPI of the transitions. More data are needed to clarify 
+#  these problems.                                                        
+#  All data and the level scheme are from 1991COZY, unless indicated      
+#  otherwise                                                              
+#E TI        From GAMMA transition intensity balance at each level. BASED 
+#E ON THE EXISTING DATA, THE FOLLOWING LEVELS HAVE NEGATIVE B++EC FEEDING 
+#E (NOT GIVEN HERE): 784.48, 1273.36, 1416.34, 2563.83                    
+#G $All data and the level scheme are from 1991COZY, unless indicated     
+#G otherwise                                                              
+#G E         From 1991COZY, unless indicated otherwise. The evaluator has 
+#G assumed a |DE|g=0.3 KEV, since the authors did not give these data     
+#G E(A)      From 1973BO13                                                
+#G RI        Relative intensity                                           
+#G M         From adopted gammas; supported by internal conversion data   
+#G this decay                                                             
+#L E         From a least-squares fit to EG                               
+#L J         Adopted values; supported by internal conversion data,       
+#L LOGFT values from this decay, and related in-beam work                 
+#G CC$FROM BrIcc v2.3a (30-Jun-2013) 2008Ki07, "Frozen Orbitals" appr.    
+#P 90.1      3 (9)+              2.20 M    5              5738      13    
+TB148 GD148 beta+ 5.738 132.0 1.0
++G gamma 0.7844800000000001 0.99536
++G gamma 0.48883 0.06171232
++G gamma 0.1427 0.03185152
++G gamma 0.63187 0.93265232
++B beta+ 8.334E-4 0.00128
++G gamma 0.39455 0.9605224
++G gamma 0.6395 0.0012939680000000002
++G gamma 0.1692 0.0012939680000000002
++G gamma 0.271 0.00398144
++G gamma 0.6658 0.00398144
++G gamma 0.8081 0.02886544
++G gamma 0.48164999999999997 0.03782368
++G gamma 0.753 0.02090256
++B beta+ 1.3562 0.0
++G gamma 0.1295 0.03085616
++G gamma 0.8824099999999999 0.895824
++B beta+ 0.9535 0.0058
++G gamma 0.1308 0.010650351999999998
++G gamma 0.8836 0.011048495999999998
++B beta+ 0.9529 0.0058
++G gamma 0.9717 0.001891184
++G gamma 1.3664 0.0027870079999999997
++G gamma 1.0577 0.0013935039999999998
++B beta+ 0.9132 0.006
++G gamma 1.1252 0.0036828320000000005
++B beta+ 0.8532000000000001 0.0076
++G gamma 0.3348 0.003384224
++G gamma 0.4656 0.005374944
++G gamma 1.2347000000000001 5.97216E-4
++G gamma 1.3177999999999999 7.96288E-4
++B beta+ 0.8022 0.0066
++G gamma 0.123 6.967519999999999E-4
++G gamma 0.4579 5.97216E-4
++G gamma 0.5886 5.97216E-4
++B beta+ 0.7472000000000001 0.0069
++G gamma 1.346 0.0012939680000000002
++B beta+ 0.7452000000000001 0.0069
++G gamma 1.5469000000000002 0.003085616
++B beta+ 0.6557000000000001 0.0073
++G gamma 1.667 0.00597216
++B beta+ 0.6023999999999999 0.0076
++G gamma 0.9382999999999999 0.001194432
++B beta+ 0.5917 0.0076
++G gamma 0.9527 9.9536E-4
++G gamma 1.8348 0.00398144
++G gamma 0.9717 5.97216E-4
++G gamma 1.0637 5.97216E-4
++G gamma 1.9572 0.001692112
++B beta+ 0.5282 0.0078000000000000005
++G gamma 1.1137000000000001 6.967519999999999E-4
++G gamma 1.115 8.95824E-4
++G gamma 1.9972999999999999 0.001791648
++B beta+ 0.4567 0.008
++G gamma 1.174 0.0024884
++G gamma 1.1754 6.967519999999999E-4
++B beta+ 0.43019999999999997 0.008100000000000001
++G gamma 1.2082 0.00199072
++G gamma 1.2955 3.98144E-4
++G gamma 1.2972000000000001 0.0022893279999999998
++B beta+ 0.3767 0.008199999999999999
++G gamma 1.0897000000000001 0.00149304
++G gamma 1.2505 9.9536E-4
++G gamma 1.3366 0.00149304
++G gamma 1.4245999999999999 0.0024884
++G gamma 1.4259000000000002 0.01144664
++G gamma 1.5554000000000001 0.0021897920000000003
++G gamma 2.3082 0.002687472
++B beta+ 0.32030000000000003 0.008199999999999999
++G gamma 1.4755999999999998 0.00149304
++G gamma 1.4769 0.001194432
++G gamma 1.6064 4.9768E-4
++B beta+ 0.2979 0.0083
++G gamma 1.578 0.001592576
++B beta+ 0.2534 0.0083
++G gamma 0.44339999999999996 3.98144E-4
++G gamma 0.9542999999999999 0.00199072
++G gamma 1.2823 0.002090256
++G gamma 1.6187 0.00895824
++G gamma 1.7481 0.00447912
++B beta+ 0.2353 0.0083
++G gamma 0.5403 4.9768E-4
++G gamma 0.6404 0.0012939680000000002
++G gamma 1.5400999999999998 3.98144E-4
++G gamma 1.7143 0.001592576
++G gamma 1.7157 0.005574015999999999
++G gamma 1.845 0.002090256
+

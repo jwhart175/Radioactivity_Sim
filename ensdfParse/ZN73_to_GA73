@@ -1,0 +1,61 @@
+# 73GA    73ZN B- DECAY (23.5 S)        1983RU06                  04NDS    200403
+#  73ZN B- DECAY (23.5 S)        1983RU06                  04NDS    200403
+#H TYP=FUL$AUT=BALRAJ SINGH$CIT=NDS 101, 193 (2004)$CUT=12-May-2003$      
+#  1983Ru06: Measured E|g, I|g, |b|g- and |g|g.                           
+#  Others: 1972Er05                                                       
+#  The decay scheme is based on (t,p) results of 1979Ve01                 
+#L J$From adopted levels.                                                 
+#P 0           (1/2)-            23.5 S    10             4294      40    
+ZN73 GA73 beta- 4.294 23.5 1
++G gamma 1.113 0.00294
++G gamma 1.9799 0.0037199999999999998
++G gamma 2.344 0.0013800000000000002
++B beta- 1.901 0.89
++B beta- 1.796 0.051
++G gamma 0.2181 0.06
++B beta- 1.662 0.004
++G gamma 0.2784 9.6E-4
++G gamma 0.49560000000000004 0.01482
++B beta- 1.462 0.016
++G gamma 0.4152 0.00102
++G gamma 0.6931 0.00378
++G gamma 0.9105 0.01914
++B beta- 1.089 0.003
++G gamma 1.4743 0.00132
++G gamma 1.6925 0.00216
++B beta- 0.98 0.006
++G gamma 1.4283 9.0E-4
++G gamma 1.9247 0.005580000000000001
++B beta- 0.894 0.023
++G gamma 1.1973 0.00774
++G gamma 1.6129 0.00924
++G gamma 2.109 0.00726
++B beta- 0.491 0.002
++G gamma 2.772 0.00102
++G gamma 2.989 0.00126
+
+# 73GA    73ZN B- DECAY (5.8 S):?       1985RU05                  04NDS    200403
+#  73ZN B- DECAY (5.8 S):?       1985RU05                  04NDS    200403
+#H TYP=FUL$AUT=BALRAJ SINGH$CIT=NDS 101, 193 (2004)$CUT=12-May-2003$      
+#  A 5.8-s {+73}Zn activity reported by 1985Ru05 in the bombardment of    
+#  natural tungsten target by {+82}Se beam at 11.5 MeV/nucleon.           
+#  In E|g and |b|g coin measurements, 1985Ru05 reported two |g rays       
+#  at 195.5 and 42.1. The 195.5|g was proposed as an isomeric             
+#  transition (E3 multipolarity suggested from |a(K)exp=0.24 {I6} deduced 
+#  from I(K-x ray)/I|g ratio) from a 195.5 level of 5.8 s half-life. Based
+#  on arguments of K-x ray intensity and its observation in |g|b coin     
+#  data, 42.1|g was suggested as a transition in {+73}Ga from |b- decay   
+#  of the 5.8-s isomer of {+73}Zn.                                        
+#  1998Hu20 did see a 195.5|g from |b- decay of {+73}Cu and assigned      
+#  this |g from a level of the same energy, however, its half-life was    
+#  was measured as 13.0 ms. The 42.1|g could not have been seen by        
+#  1998Hu20 since it was outside their range of detection. From           
+#  systematics, 1998Hu20 suggested that an expected low-energy 9/2+       
+#  level may correspond to the 5.8-s isomer with 42.1|g feeding the       
+#  195.5 level. This suggestion is, however, inconsistent with the        
+#  observation of 42.1|g|b coin reported by 1985Ru05. In the              
+#  opinion of the evaluator, the existence of this isomer and decaying    
+#  transitions remain uncertain.                                          
+#L E,J$From adopted levels                                                
+#P  0+X                          5.8 S     8              4294      40    
+

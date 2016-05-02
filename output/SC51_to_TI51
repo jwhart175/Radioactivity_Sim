@@ -1,0 +1,27 @@
+# 51TI    51SC B- DECAY                 1976DA16                  06NDS    200608
+#  51SC B- DECAY                 1976DA16                  06NDS    200608
+#H TYP=FUL$AUT=Huang Xiaolong$CIT=NDS 107, 2131 (2006)$CUT=1-May-2005$    
+#  Source produced by {+48}Ca(|a,p) E=18 MeV; Ge(Li) detectors,           
+#  measured E|g, I|g, |g|g coin, and T{-1/2}. Deduced decay scheme.       
+#L E         From decay scheme and E|g's, using least-squares fit to      
+#L data.                                                                  
+#L J         From adopted levels.                                         
+#B IB        From intensity imbalance at each level.                      
+#G RI        Relative photon intensities normalized to                    
+#G I|g(1437|g)=100.                                                       
+#G M(E)      From adopted gammas.                                         
+#N 0.520     6           1.0       1.0                                    
+#N NR        Assuming |SI|g(to g.s.)=100.                                 
+#N 0.520     6                     1.0                                    
+#P 0.0         (7/2)-            12.4 S    1              6510      20    
+SC51 TI51 beta- 6.51 12.4 1.0
++G gamma 1.1665999999999999 0.41700000000000004
++G gamma 2.1989 0.17300000000000001
++G gamma 2.9042 0.053
++G gamma 3.1745 0.083
++G gamma 3.1973000000000003 0.099
++G gamma 3.4666 0.29
++G gamma 4.1736 0.215
++G gamma 5.2058 0.354
++G gamma 6.3731 0.042
+

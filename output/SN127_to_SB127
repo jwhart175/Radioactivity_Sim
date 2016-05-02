@@ -1,0 +1,235 @@
+#127SB    127SN B- DECAY (2.10 H)       1974AP01                  11NDS    201108
+#  127SN B- DECAY (2.10 H)       1974AP01                  11NDS    201108
+#H TYP=FUL$AUT=A. HASHIZUME$CIT=NDS 112, 1647 (2011)$CUT=1-Oct-2009$      
+#  1974Ap01, 1971Ap01: {+235}U(n,F) E=th, chem; Ge(Li), NaI(Tl), |g,      
+#  |g|g coin, |g|g(t)                                                     
+#  The decay scheme is that proposed by 1974Ap01 on the basis of          
+#  |g|g-coin and E|g sums.                                                
+#L E         From a least-squares fit to E(|g's)                          
+#L J         From adopted levels                                          
+#L J$1974Ap01 analyze the {+127}Sn(11/2-) isomer and the levels fed       
+#L by |b decay from the model of one particle coupled to two              
+#L quasiparticles. 1974Ap01 propose                                       
+#L configuration=(|n h{-11/2})(|n d{-3/2},|n d{-3/2})                     
+#L for the {+127}Sn(11/2-) isomer                                         
+#L and configuration=(|p d{-3/2})(|n d{-3/2},|n h{-11/2}),                
+#L configuration=(|p d{-5/2})(|n d{-3/2},|n h{-11/2}) or                  
+#L configuration=(|p g{-7/2})(|n d{-3/2},|n h{-11/2}) for                 
+#L excited states in {+127}Sb.                                            
+#L 1974Ap01 suggest that |b decay to those levels consisting of           
+#L configuration=(|p d{-3/2})(|n d{-3/2},|n h{-11/2})                     
+#L have large transition                                                  
+#L probabilities (log ft <5.9) and the {+127}Sn isomer decays with        
+#L smaller transition probabilities for other states. The very small      
+#L transition probability to the 1920.2 (15/2-) isomer in {+127}Sb        
+#L (log ft>7.2) may be interpreted if this level consists of              
+#L configuration=(|p g{-7/2})(|n d{-3/2},|n h{-11/2}). (1974Ap01)         
+#G E         From 1974Ap01                                                
+#G CC$Theoretical conversion coefficients are calculated using BrIcc code 
+#G for the multipolarity indicated.                                       
+#G M         Assumed by 196Ki01 to obtain transition intensities          
+#P 0.0         (11/2-)           2.10 H    4              3201      24    
+SN127 SB127 beta- 3.201 7560.0 0.38
++G gamma 0.0349 0.001
++G gamma 0.0469 0.0021
++G gamma 0.0515 5.0E-4
++G gamma 0.0528 0.001
++G gamma 0.0569 0.0015
++G gamma 0.0834 0.005
++G gamma 0.0881 0.0011
++G gamma 0.42069999999999996 0.004
++G gamma 0.4909 0.14
++G gamma 1.0956 0.51
++G gamma 1.1142999999999998 1.0
++G gamma 0.357 0.005
++G gamma 0.9803 0.02
++G gamma 1.4712 0.02
++G gamma 1.0933 0.1
++G gamma 1.5843 0.047
++G gamma 1.2205 0.013999999999999999
++G gamma 0.8059 0.217
++G gamma 0.8247000000000001 0.16
++G gamma 0.3533 0.003
++G gamma 0.8231 0.28
++G gamma 1.9373 0.002
++G gamma 0.8595 0.21
++G gamma 0.0703 0.01
++G gamma 0.0664 0.0038
++G gamma 0.889 0.009000000000000001
++G gamma 2.0034 0.14
++G gamma 0.1556 0.006
++G gamma 0.509 0.038
++G gamma 0.9792000000000001 0.19
++G gamma 0.9979 0.051
++G gamma 2.0933 0.002
++G gamma 1.6108 0.004
++G gamma 2.1024000000000003 0.013000000000000001
++G gamma 0.1197 0.057
++G gamma 0.1901 0.015
++G gamma 0.1692 0.053
++G gamma 0.2041 0.006
++G gamma 0.2028 0.02
++G gamma 0.2204 0.008
++G gamma 1.0449000000000002 0.006999999999999999
++G gamma 0.2129 0.003
++G gamma 0.5658 0.003
++G gamma 1.0360999999999998 0.052000000000000005
++G gamma 1.0555 0.006
++G gamma 2.1503 9.0E-4
++G gamma 1.0646 0.01
++G gamma 2.16 0.008
++G gamma 0.2115 0.003
++G gamma 0.282 0.013999999999999999
++G gamma 0.09720000000000001 0.012
++G gamma 0.2843 0.07
++G gamma 0.30169999999999997 0.003
++G gamma 1.142 0.005
++G gamma 0.2715 0.003
++G gamma 1.1604 0.063
++G gamma 1.1792 0.013000000000000001
++G gamma 1.8128 0.003
++G gamma 2.3042 0.003
++G gamma 0.215 0.002
++G gamma 2.3174 0.028999999999999998
++G gamma 0.124 0.002
++G gamma 0.1437 0.013000000000000001
++G gamma 0.2052 0.006
++G gamma 0.2353 0.006999999999999999
++G gamma 0.3905 0.033
++G gamma 0.42569999999999997 0.006
++G gamma 0.3484 0.013000000000000001
++G gamma 0.3969 0.009000000000000001
++G gamma 1.2374 0.003
++G gamma 0.4382 0.16
++G gamma 0.1703 0.002
++G gamma 0.2486 0.002
++G gamma 0.2625 0.061
++G gamma 0.4521 0.01
++G gamma 0.18469999999999998 0.028999999999999998
++G gamma 0.4687 0.012
++G gamma 1.2920999999999998 0.02
++G gamma 1.3105 0.002
++G gamma 0.5097 0.02
++G gamma 0.9761 0.02
++G gamma 2.4475 0.009000000000000001
++G gamma 0.1041 0.005
++G gamma 0.11009999999999999 0.01
++G gamma 0.2343 0.013999999999999999
++G gamma 0.3317 0.012
++G gamma 0.36269999999999997 0.011000000000000001
++G gamma 0.5007 0.04
++G gamma 0.5182 0.005
++G gamma 1.3603 0.004
++G gamma 2.47 0.003
++G gamma 1.3684 0.013999999999999999
++G gamma 0.1419 0.011000000000000001
++G gamma 0.2793 0.015
++G gamma 0.36060000000000003 0.005
++G gamma 0.4071 0.04
++G gamma 0.5454 0.06
++G gamma 0.5634 0.004
++G gamma 0.9165 0.031
++G gamma 2.5139 0.003
++G gamma 0.1569 0.006999999999999999
++G gamma 0.178 0.003
++G gamma 0.184 0.012
++G gamma 0.2553 0.003
++G gamma 0.37889999999999996 0.005
++G gamma 0.405 0.012
++G gamma 0.5922999999999999 0.053
++G gamma 0.6095 0.008
++G gamma 1.4344000000000001 0.008
++G gamma 0.18109999999999998 0.004
++G gamma 0.208 0.004
++G gamma 0.6161 0.006
++G gamma 1.4584000000000001 0.006999999999999999
++G gamma 2.5849 0.040999999999999995
++G gamma 0.2284 0.005
++G gamma 0.3655 0.005
++G gamma 0.44630000000000003 0.006
++G gamma 0.49319999999999997 0.08199999999999999
++G gamma 0.5832999999999999 0.084
++G gamma 0.6316 0.013999999999999999
++G gamma 0.6491 0.021
++G gamma 1.0026 0.046
++G gamma 1.4725 0.033
++G gamma 0.5285 0.003
++G gamma 1.1592 0.024
++G gamma 0.2322 0.022000000000000002
++G gamma 0.2662 0.055999999999999994
++G gamma 0.2929 0.033
++G gamma 0.5139 0.006999999999999999
++G gamma 1.5427 0.002
++G gamma 0.5396 0.006
++G gamma 0.5701 0.015
++G gamma 0.7087 0.005
++G gamma 0.195 0.002
++G gamma 1.6 0.004
++G gamma 2.6959 0.043
++G gamma 0.30589999999999995 0.002
++G gamma 0.4447 0.012
++G gamma 0.6219 0.012
++G gamma 0.6686 0.005
++G gamma 0.7591 0.004
++G gamma 1.6478 0.027000000000000003
++G gamma 1.6665 0.013000000000000001
++G gamma 0.6349 0.006999999999999999
++G gamma 0.8476 0.005
++G gamma 0.865 0.009000000000000001
++G gamma 0.4875 0.012
++G gamma 0.5306000000000001 0.003
++G gamma 0.7026 0.004
++G gamma 1.7099000000000002 0.006999999999999999
++G gamma 2.8057 0.01
++G gamma 0.8987999999999999 0.005
++G gamma 1.72 0.005
++G gamma 1.1345 0.003
++G gamma 1.7507000000000001 0.005
++G gamma 2.8464 0.025
++G gamma 0.7737 0.011000000000000001
++G gamma 0.9124 0.003
++G gamma 0.9297000000000001 0.009000000000000001
++G gamma 1.7528 0.006999999999999999
++G gamma 2.3895 0.003
++G gamma 2.8811 0.006999999999999999
+
+#127SB    127SN B- DECAY (4.13 M)       1995ST28                  11NDS    201108
+#  127SN B- DECAY (4.13 M)       1995ST28                  11NDS    201108
+#H TYP=FUL$AUT=A. HASHIZUME$CIT=NDS 112, 1647 (2011)$CUT=1-Oct-2009$      
+#  1995St28: {+235}U(n,F) on-line mass; semi |g, |g|g(t)                  
+#  1970HeZG: semi |g                                                      
+#  1977Lu06: {+235}U(n,F) on-line mass; Si(Li) |b, Si(Li)-NaI(Tl),        
+#  Si(Li)-Ge(Li) |b|g-coin                                                
+#  It is announced that the levels confirmed only by |g|g coincidences    
+#  are shown in the decay scheme (1995St28). Furthermore, because of the  
+#  large Q(|b{+-})value of 3021 keV, many unobserved high-energy levels   
+#  could be populated in this decay. Consequently, th |b{+-} feedings may 
+#  be inaccurate (evaluator).                                             
+#L E         From a least-squares fit to E(|g's)                          
+#L J         From adopted levels                                          
+#G E         From 1995St28                                                
+#G E(A)      Reported only by 1970HeZG.                                   
+#B E(B)      The intensity of |b-ray feeding is obtained from the |g-ray  
+#B intensity balance to this level, assuming no |b-ray feeding to the     
+#B ground state.                                                          
+#P 5.06      6 (3/2+)            4.13 M    3              3201      24    
+SN127 SB127 beta- 3.201 247.79999999999998 1.0
++G gamma 0.49060000000000004 1.0
++G gamma 0.7652 0.013600000000000001
++G gamma 0.4199 0.0034999999999999996
++G gamma 0.6952999999999999 0.0098
++G gamma 1.3516 0.0075
++G gamma 1.4712 5.0E-4
++G gamma 1.2102 0.0147
++G gamma 1.22051 0.0052
++G gamma 0.36910000000000004 5.0E-4
++G gamma 1.0752000000000002 0.0023
++G gamma 1.3492 0.0139
++G gamma 1.8403 0.0046
++G gamma 1.5035 5.0E-4
++G gamma 0.3423 0.0013
++G gamma 0.3548 0.0011
++G gamma 1.5643 0.0151
++G gamma 1.6594 0.0021
++G gamma 1.8131 9.0E-4
+

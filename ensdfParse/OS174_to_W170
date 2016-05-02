@@ -1,0 +1,18 @@
+#170W     174OS A DECAY                 1972BE89,1971BO06         02NDS    200211
+#  174OS A DECAY                 1972BE89,1971BO06         02NDS    200211
+#H TYP=FUL$AUT=CORAL M. BAGLIN$CIT=NDS 96, 611 (2002)$CUT=15-Aug-2002$    
+#  1971BO06: sources produced by 164ER(16O,6N), E=90-154 MEV; semi;       
+#  measured EA, |a branching.                                             
+#  1972BE89: sources produced by 1-GEV proton bombardment of HG targets.  
+#A IA        Only the 4760A to the GS has been observed. IA for a possible
+#A unobserved 4607A to the 156.9-KEV 2+ state in 170W is estimated to be  
+#A less than 11% of ALPHA decay by requiring its hindrance factor         
+#A to be greater than 1.0. This does not affect significantly the         
+#A computation of the R0 parameter.                                       
+#A HF        R0(170W)=1.54 3, assuming HF(4760A)=1.0, T1/2(174OS)=44 S 4  
+#A (weighted average of 45 S 5 (1973Be67) and 42 S 6 (1972Be89)),         
+#A QA(174OS)=4872 10 (1995AU04) and %A(174OS)=0.020 +10-4 (1971BO06).     
+#P 0.0         0+                44 S      4              4872      10    
+OS174 W170 alpha 4.872 44.0 0.00020
++A alpha 4.76 1.0
+

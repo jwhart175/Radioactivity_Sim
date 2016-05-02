@@ -1,0 +1,82 @@
+#187IR    187PT EC DECAY                1992GUZX,1992GU14,1973SE1309NDS    200905
+#  187PT EC DECAY                1992GUZX,1992GU14,1973SE1309NDS    200905
+#H TYP=FUL$AUT=M. S. Basunia$CIT=NDS 110, 999 (2009)$CUT=1-Nov-2008$      
+#  Others: 1970Du09,1969Ha03, 1965Qa01, 1962Gr27, and 1961Kr02.           
+#  1992GUZX,1992GU14: 187PT was obtained as daughter product of 187AU,    
+#  the latter was produced by 181TA(12C,6n)187AU reaction; Measured: EG,  
+#  RI, deduced MR, JPI, level scheme, G-G-t and G-e-t coincidences, G and 
+#  electron multiscaled singles events were collected. Also angular       
+#  distribution of the G-rays from the decay of 187PT, in a 128 ^T        
+#  magnetic field, is studied semi-on-line, 187PT was obtained from the   
+#  decay of 187HG [produced from 176HF(16O,5n)187HG reaction, E=125-MeV]; 
+#  detectors at 7 angles, 3 DEG to 45 DEG, relative to applied field      
+#  direction.                                                             
+#  1973SE13: 187PT produced from decay of 187HG; Detector: GE(LI), SI(LI),
+#  electron spectrograph; Measured: EG, RI, CE, GG                        
+#  COIN, electron-electron coincidence, deduced levels scheme, JPI.       
+#E IB$From the 511.7-KEV intensity, an upper limit of 1% can be placed    
+#E on the positron intensity.                                             
+#G E$Weighted average of 1992GUZX and 1973Se13, unless otherwise noted.   
+#G E(A)$Transition mixed with impurity from 187IR decay (1973SE13).       
+#G E(G)$Transition placed by the evaluator on the basis of energy sums.   
+#G E(W)       From 1973Se13                                               
+#G E(H),RI(H)$From 1992GuZX                                               
+#G RI        From 1992GuZX, except otherwise noted                        
+#G RI(Z)$Weighted average of 1992GuZX and 1973Se13                        
+#G RI(B)$The (200.8-201.5-201.8) GAMMA-ray triplet (1973Se13),            
+#G RI=81.5 80 was unresolved in the GAMMA-ray spectrum. From coincidence  
+#G data, IG(201.5)=60 15, which is consistent only with E1 for the        
+#G measured K-conversion electron intensity. The measured K-conversion    
+#G electron intensity and the total 201G intensity (correcting for the    
+#G 201.5G intensity) are consistent only with M1 multipolarity for the    
+#G 201.8G. The 200.8G can be M1 or E2 by a similar argument (1973SE13).   
+#G RI(C)$RI(244.8G+245.1G)=17 2. The K-conversion intensities for both    
+#G transitions are consistent with predominantly M1 multipolarity         
+#G (1973SE13). The intensity was divided by the evaluator using the CEK   
+#G ratio (1973se13). RI(244.79G+244.99G)=11.3 2.                          
+#G RI(D)$Calculated from measured CE data and theoretical conversion      
+#G coefficients.                                                          
+#G RI(F)$RI(285G)=RI=56.6 24 (1992GuZX) for triplet (284.51G+284.51G+     
+#G 285.07G). Intensity was divided for 285G from the 285 keV level using  
+#G BR from the (A,XNG), while intensity of 284.5G from the 486 keV        
+#G (3/2-) and (7/2-) states was divided from an approximate intensity     
+#G balance at those states and at the 201 keV level.                      
+#G M$From CE measurements of 1973Se13 and 1992GuZX, except otherwise      
+#G noted. The CE data can be normalized to the same relative scale as     
+#G gammas multiplying by 1.04 8. G-ray angular distribution coefficients  
+#G ^A2 and ^A4 are from 1992Gu14.                                         
+#G MR        Deduced by the evaluator from EKC value of 1992GuZX, except  
+#G otherwise noted.                                                       
+#G MR(V)     Deduced by the evaluator from EKC value of 1973Se13.         
+#G MR(R)     From 1992Gu14.                                               
+#G MR(Q)     From 1992GuZX.                                               
+#L E         From a least-squares adjustment to the G-ray energies without
+#L considering the 186.25G and 551.64G from the 388-keV and 738-keV       
+#L levels, respectively (|s>3).                                           
+#L J         From adopted levels.                                         
+#L T         From GG(T), CE-CE(T) (1973Se13).                             
+#L E(A)$3/2+[402]                                                         
+#L E(B)$1/2+[400]                                                         
+#L E(C)$1/2-[541]                                                         
+#L E(D)$K=9/2?                                                            
+#L E(E)$11/2-[505]?                                                       
+#P 0.0          3/2-             2.35 H    3              3000      30    
++B beta+ 7.656E-4 0.0017000000000000001
++B beta+ 0.849 0.00735
++B beta+ 0.847 0.00735
++B beta+ 0.813 0.0074399999999999996
++B beta+ 0.812 0.0074399999999999996
++B beta+ 0.771 0.007897
++B beta+ 0.758 0.00758
++B beta+ 0.724 0.0076500000000000005
++B beta+ 0.693 2.9E-4
++B beta+ 0.573 7.099999999999999E-4
++B beta+ 0.57 3.5999999999999997E-4
++B beta+ 0.536 6.8E-4
++B beta+ 0.535 0.003
++B beta+ 0.501 6.6E-4
++B beta+ 0.455 2.1999999999999998E-4
++B beta+ 0.446 3.6E-5
++B beta+ 0.359 6.0E-5
++B beta+ 0.343 1.6E-4
+

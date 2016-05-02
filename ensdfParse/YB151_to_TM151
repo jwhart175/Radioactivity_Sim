@@ -1,0 +1,22 @@
+#151TM    151YB EC DECAY (1.6 S):MIXED  1985KL10,1986TO12,1990AK0109NDS    200901
+#  151YB EC DECAY (1.6 S):MIXED  1985KL10,1986TO12,1990AK0109NDS    200901
+#H TYP=FUL$AUT=BALRAJ SINGH$CIT=NDS 110, 1 (2009)$CUT=20-Nov-2008$        
+#  Decay of two isomers in 151YB: JPI=(1/2+), T1/2 AP 1.6 S and           
+#  JPI=(11/2-), T1/2 AP 1.6 S.                                            
+#  Source produced in 96RU(58NI,2PN)                                      
+#  Measured: GG, XG, G(T), p(T) and X(T) in 1985Kl10 and G-p, xp, B+p,    
+#  X(T) and p(T) in 1986ToZT.                                             
+#  The two isomers of 151YB decay to levels in 151TM above 3.8 MEV. These 
+#  levels in turn decay either by proton emission to 150ER levels or by   
+#  G ray emission to low-lying single proton                              
+#  (g{-7/2},d{-5/2},d{-3/2},s{-1/2} and h{-11/2})                         
+#  states in 151TM. The G rays from the deexcitation of these             
+#  latter states by M1 transitions were observed by 1985Kl10. The         
+#  contributions from the two isomers to RI are not separated.            
+#G E,RI$Weighted average from 1985Kl10 and 1990Ak01, unless otherwise     
+#G stated                                                                 
+#L J$ from 'adopted levels'                                               
+#P10.0         (1/2+)              1.6 S   1              9.24E3    30    
++G gamma 0.10840000000000001 1.0
++G gamma 0.4742 2.0
+

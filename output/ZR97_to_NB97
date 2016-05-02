@@ -1,0 +1,45 @@
+# 97NB    97ZR B- DECAY                                           10NDS    201004
+#  97ZR B- DECAY                                           10NDS    201004
+#H TYP=FUL$AUT=N. NICA$CIT=NDS 111, 525 (2010)$CUT=19-Nov-2009$           
+#B           IB calculated from IG balance in level scheme                
+#B LOGFT(F)$LOGFT too low for second forbidden B transition; see          
+#B comment above                                                          
+#G           The EKC of 1971Mu13 were obtained from measured I(CEK)/IG,   
+#G normalized to KC(743G M4)=0.0185.                                      
+#G E,RI$Weighted average of measurements by 1968Si02, 1970Ar11, 1970Ho01  
+#G 1970Me06, 1970Mi02, 1972TiZS, unless otherwise noted                   
+#G M,MR$From GG(THETA) (1978Kr03), unless otherwise noted                 
+#G E(A),RI(A)$Observed by 1972TiZS only                                   
+#G M(B)$Deduced from RUL                                                  
+#G M(E)$^D,E2 deduced from RUL, level scheme limits mult to E1            
+#L           The level scheme is based on EG, IG, GG data of 1968Si02 and 
+#L modified and refined by subsequent measurements of EG, IG, GG, by      
+#L 1970Ar11, 1970Ho01, 1970Me06, 1970Mi02, 1972TiZS, 1975Co26. The level  
+#L scheme shown here omits the levels previously suggested at 1547 and    
+#L 2056 KEV. It is felt that the experimental basis for the placement of  
+#L the 804.52G deexciting a level at 1547 KEV is lacking; if this G       
+#L deexcites a 1547-KEV level, then the coin spectra of 1970Me06 require  
+#L that the 218.90G is a triplet (feeding both the 1547 and 1548-KEV      
+#L levels and also 1433-KEV level). The 2056-KEV level is omitted         
+#L because although the coin data (1970Me06) indicate that the 508G is    
+#L a doublet, it has not been shown that it feeds the 1548 level          
+#L directly.                                                              
+#L           Although seemingly well established, the decay scheme still  
+#L presents several difficulties: 1) B- feeding of the 1851.71 KEV 5/2+   
+#L level. 1970Me06 measure the EB-(max.)=825 30 KEV in coin with the      
+#L 1851G, implying direct B- feeding to this level, yet strong 1851.61G   
+#L to GS will not allow J<5/2 or JPI=5/2- for this level. The BETA-group  
+#L is, therefore, a second forbidden nonunique transition which should    
+#L have LOGFT>11.0, I.E. IB-<10E-3%. 2) B- feeding of the 1750.43 KEV 5/2+
+#L level. Again, the LOGFT=8.25 is too low for 1/2+ to 5/2+               
+#L B- transition, but strong decay to 9/2+ GS rules out J<5/2 or JPI=5/2- 
+#L           Additional data: 1969Be83: GG(T); 1970Be86, 1978Kr03:        
+#L GG(THETA); 1970Ho01, 1970Me06: BG; 1970Mi02: (CE)G, BG; 1971Mu13:      
+#L I(CE), KC, GG(THETA); 1976Pr13: BG(THETA); 1979Bo26: EG (curved        
+#L crystal spect.)                                                        
+#L E$From least squares fit to EG                                         
+#L J,T(D)$From adopted levels                                             
+#L T$From GG(T) (1969Be83)                                                
+#P  0.0           1/2+            16.749 H 8              2659.0    18    
+ZR97 NB97 beta- 2.659 0.0 1.0
+

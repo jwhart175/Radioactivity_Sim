@@ -1,0 +1,27 @@
+#153HO    153ER EC DECAY                1996XU03,1994XU09         06NDS    200602
+#  153ER EC DECAY                1996XU03,1994XU09         06NDS    200602
+#H TYP=FUL$AUT=R. G. Helmer {+*}$CIT=NDS 107, 507 (2006)$CUT=31-Dec-2005$ 
+#  Produced by {+142}Nd({+16}O,5n) with E |< 138 MeV and measured |g      
+#       singles, |g|g coincidences, and |g(t).                            
+#  Data here are from 1994Xu09 and 1996Xu03.                              
+#E TI        From 1996Xu03 and based on intensity balances. Since the     
+#E      decay energy is 4.56 MeV and levels are reported only to 835 keV, 
+#E      the decay scheme is quite incomplete and these values may not be  
+#E      very accurate. For example, the log{Ift} of 5.9 for the unique    
+#E      first forbidden decay from (7/2-) to (3/2+) is too low. As the    
+#E      |e feeding is moved to higher energy levels, these I(|e+|b+)      
+#E      will decrease and the log{Ift} values increase.                   
+#E TI,LOGFT  The 2nd and 3rd forbidden decays to the ground state and     
+#E      68-keV level are assumed to be negligible. Uncertainties are      
+#E      not given because the scheme is assumed to be very incomplete.    
+#E TI        Values are per 100 EC+B+ decays.                             
+#G E,RI      From 1994Xu09, except for the two |g's that are only given   
+#G      in 1996Xu03. The larger intensities given in 1996Xu03 for the     
+#G      188 and 377 |g's are assumed to include internal conversion.      
+#G M         From intensity balances (1994Xu09).                          
+#L J         The J|p and configuration assignments are from 1996Xu03 and  
+#L      are based on comparison with model calculations. These are used   
+#L      to suggest the nucleus is spherical in the ground state.          
+#P    0         (7/2-)           37.1 S    2              4531      10    
+ER153 HO153 beta+ 4.531 37.1 1.0
+

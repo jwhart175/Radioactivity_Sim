@@ -1,0 +1,24 @@
+# 54FE    58NI A DECAY                  2009JO03,2001RU03         14NDS    201408
+#  58NI A DECAY                  2009JO03,2001RU03         14NDS    201408
+#H TYP=FUL$AUT=YANG DONG, HUO JUNDE$CIT=NDS 121, 1 (2014)$CUT=20-Jun-2014$
+#  2009JO03: 58NI from 28SI(36AR,A2P) E=136, 143, and 148 MeV,            
+#  measured EG, IG,GG-coin, (charged Particle)G-coin, gammasphere,        
+#  microball arrays. The 16797 keV 3 and 17582 keV 3 states of 58Ni       
+#  were observed to A decay by emission of a prompt discrete A            
+#  particle, respectively, both A particles feed the 2949 keV 6+          
+#  yrast state in the daughter nucleus 54Fe.                              
+#  2001RU03: 58NI was produced by 28SI(36AR,A2P) E=143 MeV, measured      
+#  EG, IG, GG-coin, (charged Particle)G-coin, gammasphere, microball      
+#  arrays. The 16795 state of 58Ni was observed to A decay by emission    
+#  of a prompt discrete A particle that feeds the 2949 keV 6+ spherical   
+#  yrast state in the daughter nucleus 54Fe.                              
+#  All data are from 2009Jo03, except as noted.                           
+#  Decay scheme is only listed for 16797 state A decay of 58Ni.           
+#G RI$From 2001Ru03.                                                      
+#P 16795       15-                                        6399.2    4     
+NI58 FE54 alpha 6.3991999999999996 0.0 1
++G gamma 1.408 0.026000000000000002
++G gamma 1.13 0.02574
++A alpha 7.447 0.026000000000000002
++G gamma 0.411 0.024699999999999996
+

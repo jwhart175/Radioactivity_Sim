@@ -1,0 +1,66 @@
+# 71AS    71SE EC DECAY (4.74 M)        1980TE01                  11NDS    201012
+#  71SE EC DECAY (4.74 M)        1980TE01                  11NDS    201012
+#H TYP=FUL$AUT=KHALIFEH ABUSALEEM, BALRAJ SINGH$CIT=NDS 112, 133 (2011)$  
+#H CUT=30-Nov-2010$                                                       
+#  1980Te01: mass-separated source of {+71}Se produced in                 
+#  {+70}Ge({+3}He,2n) reaction at 25 MeV. Measured E|g, I|g, |g|g,        
+#  using several Ge(Li) detectors in singles and coincidence modes. For   
+#  singles measurement a Ge(Li) detector was surrounded by a large NaI(Tl)
+#  detector to achieve some level of Compton suppression. Internal        
+#  conversion data were obtained for 143|g and 147|g using solenoidal     
+#  magnetic spectrometer. Isotopic half-life was also measured by timing  
+#  decay of |g rays with a Compton-suppressed Ge detector system.         
+#  Comparisons with cluster-phonon model calculations.                    
+#  1971TeZW is superseded by 1980Te01                                     
+#  1969Hu13: measured E|g, I|g, |g|g, isotopic half-life, eight |g rays   
+#  reported                                                               
+#  Others:                                                                
+#  2001To06 (also 2001Br44): measured E|b, |b|g coin using Ge and plastic 
+#  scintillators. Weighted average Q(|e)=4762 {I35} (2001Br44). Deduced   
+#  mass excess. The {+71}Se source produced in {+58}Ni({+16}O,2pn)        
+#  reaction at 65 MeV/nucleon                                             
+#  1976Ro01: measured E|g                                                 
+#  1974Ro14: measured E|g, I|g                                            
+#  1973Sc17: measured E|b, deduced Q value=4428 {I125}                    
+#  1973ScZE and 1973ScZW superseded by 1973Sc17                           
+#  1971Do01: measured E|g, isotopic half-life                             
+#  1968At04: measured E|g                                                 
+#  1957Be43: measured isotopic half-life                                  
+#  1957At37: measured E|b{++}                                             
+#G CC$ FROM BrIcc v2.2b (20-Jan-2009) 2008Ki07, "Frozen Orbitals" appr.   
+#G M$ From Adopted Gammas unless otherwise stated                         
+#G M(X)$ from ce spectrum, measured EKC(143.2|g)/EKC(147.5|g)=6 (1980Te01)
+#G which is consistent with E2 for 143.2|g and M1 147.5|g                 
+#G E(Y)$ Uncertainty doubled for the purpose of least-squares adjustment  
+#G procedure.                                                             
+#L E$ From least-squares fit to E|g's. With uncertainty doubled for       
+#L 1462.54|g and 3171.82|g, normalized |h{+2}=2.1 as compared to critical 
+#L |h{+2}=1.7. Otherwise normalized |h{+2}=3.0.                           
+#L J$ From Adopted Levels                                                 
+#L E(Z)$ Value of 1616.7 given in the decay scheme of 1980Te01 is         
+#L adopted here as 1615.72 based on least-squares fit to E|g data         
+#P    0.0       (5/2-)            4.74 M     5               4749   8     
++B beta+ 8.24E-4 0.00147
++B beta+ 1.6999000000000002 0.09
++B beta+ 1.6293 0.09
++B beta+ 1.4581 0.08
++B beta+ 1.3052000000000001 0.08
++B beta+ 1.2855 0.08
++B beta+ 1.2599 0.08
++B beta+ 1.2348 0.08
++B beta+ 1.2288 0.08
++B beta+ 1.2445 0.08
++B beta+ 1.1636 0.08
++B beta+ 1.1103 0.08
++B beta+ 1.0906 0.08
++B beta+ 1.0308 0.08
++B beta+ 1.0167 0.08
++B beta+ 1.0072999999999999 0.08
++B beta+ 1.0036 0.08
++B beta+ 0.9365 8.0E-4
++B beta+ 0.8736 0.001
++B beta+ 0.768 0.0014000000000000002
++B beta+ 0.5919 0.0026
++B beta+ 0.5652999999999999 0.0029
++B beta+ 0.5306000000000001 0.0033
+

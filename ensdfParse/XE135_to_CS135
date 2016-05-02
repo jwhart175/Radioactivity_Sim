@@ -1,0 +1,44 @@
+#135CS    135XE B- DECAY (9.14 H)       1974MEZV                  08NDS    200803
+#  135XE B- DECAY (9.14 H)       1974MEZV                  08NDS    200803
+#H TYP=FUL$AUT=BALRAJ SINGH, ALEXANDER A. RODIONOV and YURI L. KHAZOV$    
+#H CIT=NDS 109, 517 (2008)$CUT=22-Jan-2008$                               
+#  1974MEZV (priv comm to 1975He12): measured EG, IG.                     
+#  1972AC02: CE data                                                      
+#  1999FO01: MEASURED BG COIN, DEDUCED Q- VALUE                           
+#  Others: 1964CL01, 1965AN05, 1966HA28, 1966JA16, 1968AL16,              
+#  1968OP02, 1973SA27, 1974CA26, 1975HO18, 1996Yo12                       
+#  Pre-1960 references: 1940DO07, 1940WU05, 1941CL02, 1943RI01, 1945WU05, 
+#  1946BL27, 1949TH04, 1950HO04, 1950GL09, 1950NE07, 1952BE55, 1953GR07,  
+#  1953BR11, 1955TH01                                                     
+#  Theory (LOGFT calculation): 1995TO12                                   
+#  Total decay energy of 1164 KEV 28 calculated (by ^RADLIST code)        
+#  from level scheme agrees with the expected value of 1165 KEV 4         
+#G M$From CE data (1972AC02)                                              
+#G E,RI$ Uncertainties quoted in 1974MeZV are statistical only.           
+#G As suggested in the earlier evaluation (1975He12), 15 EV uncertainty   
+#G to E|g's and 3% uncertainty to I|g's have been added in the values     
+#G given here.                                                            
+#L J$From 'adopted levels'                                                
+#P 0.0         3/2+              9.14 H    2              1165      4     
+XE135 CS135 beta- 1.165 32904.0 1.0
++B beta- 0.3102 0.96
++B beta- 0.2481 0.0059
++B beta- 0.1733 0.0311
++B beta- 0.05 7.5E-4
++G gamma 0.57332 4.77E-5
++G gamma 0.73152 5.49E-4
++B beta- 0.0269 0.00123
++G gamma 0.4542 3.6E-5
++G gamma 0.81263 7.019999999999999E-4
++G gamma 1.06241 4.0499999999999995E-5
+
+#135CS CG RI$Relative to RI(526.56G)=100 in 135XE IT DECAY; CC(526.56G)=0.236    
+#G RI$Relative to RI(526.56G)=100 in 135XE IT DECAY; CC(526.56G)=0.236    
+#L J$From 'adopted levels'                                                
+#P 526.55      11/2-             15.29 M   5              1165      4     
+XE135 CS135 IT 0.0 917.4 0.003
++G gamma 0.7868999999999999 0.0146652
++G gamma 1.133 9.999E-4
++G gamma 1.1922000000000001 1.3332000000000003E-4
++G gamma 1.358 6.666000000000002E-4
+

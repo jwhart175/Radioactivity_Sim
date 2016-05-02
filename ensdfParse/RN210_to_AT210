@@ -1,0 +1,30 @@
+#210AT    210RN EC DECAY (2.4 H)        1978VY01,1973JO09         14NDS    201408
+#  210RN EC DECAY (2.4 H)        1978VY01,1973JO09         14NDS    201408
+#H TYP=FUL$AUT=M. SHAMSUZZOHA BASUNIA$CIT=NDS 121, 561 (2014)$            
+#H CUT=31-Mar-2014$                                                       
+#  Measured EG, RI, GG coin, ICE. Detectors: GE(LI), SI(LI), magnetic     
+#  spectrometer.                                                          
+#G E         Weighted average of values from 1978Vy01 and 1973Jo09.       
+#G RI        Weighted average with CHI**2 minimization of values from     
+#G 1978Vy01 and 1973Jo09.                                                 
+#G           EKC presented here have been deduced by evaluator using      
+#G weighted averages with CHI**2 minimization of K-electron and photon    
+#G intensities from 1978Vy01 and 1973Jo09. These intensities were         
+#G normalized to the same scale using KC(571G)=0.0793 (M1, theory).       
+#G K/L subshell ratios are from 1978Vy01.                                 
+#G           Measured X-RAY intensities: I(XKA1)=1300 120 (1978Vy01),     
+#G 1560 200 (1973Jo09); I(XKA2)=760 70, I(XKB1P)=450 45, I(XKB2P)=145 15  
+#G (1978Vy01), compare with I(XKA1)=1365, I(XKA2)=818, I(XKB1P)=482, and  
+#G I(XKB2P)=150 deduced by evaluator from decay scheme, and thus confirm  
+#G the quality and interpretation of the data.                            
+#G E(A)      From 1978Vy01. Tentatively assigned to 210RN EC decay.       
+#G CC$FROM BrIcc v2.3a (30-Jun-2013) 2008Ki07, "Frozen Orbitals" appr.    
+#G MR$IF NO VALUE GIVEN IT WAS ASSUMED MR=1.00 FOR E2/M1,                 
+#G MR=1.00 FOR E3/M2 AND MR=0.10 FOR THE OTHER MULTIPOLARITIES            
+#L E$Deduced by evaluator from a least-squares fit to G-ray energies.     
+#L J         From Adopted Levels.                                         
+#P 0.0                0+          2.4 H    1              2367      9     
++B beta+ 0.0 0.11
++B beta+ 0.0 0.07
++B beta+ 0.0 0.07
+

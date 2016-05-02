@@ -1,0 +1,75 @@
+#181RE    181OS EC DECAY (105 M)        1971AK03                  05NDS    200601
+#  181OS EC DECAY (105 M)        1971AK03                  05NDS    200601
+#H TYP=FUL$AUT=S. -C. WU$CIT=NDS 106, 367 (2005)$CUT=31-Aug-2005$         
+#  1971Ak03: {+181}Os activity produced by proton on Au, {+16}O on Tm,    
+#  or {+11}B on Lu; |b spectrograph with a magnet,                        
+#  Ge(Li) detectors, NaI(Tl) detectors;                                   
+#  measured E|g, I|g, I(ce), |g|g-coin, |g|g-delay, ICC;                  
+#  deduced log| {Ift}, level J|p, T{-1.2}.                                
+#  Level scheme from 1971Ak03.                                            
+#L J$From adopted levels                                                  
+#G RI(B)$Unresolved doublet in |g data. Intensities divided               
+#G by the evaluator using ce(K) data (1968Ha39) and coincidence           
+#G intensities (1971Ak03).                                                
+#G M,MR$From ce subshell ratios of 1968Ha39 assuming 20% intensity        
+#G uncertainty, and from ce(K) data of 1971Ak03 assuming the 827-keV |g   
+#G is E2 and the uncertainty in intensity is 20% below 200 keV            
+#G and 40% above 200 keV.                                                 
+#G M(M)$From conversion coefficients (1968Ha39)                           
+#N 0.199     12          1.00      1.0                                    
+#N NR$normalized assuming the sum I|g+ce(g.s.)=100.                       
+#P 0.0          1/2-               105 M     3            2960      30    
++B beta+ 6.99E-4 0.0022500000000000003
++B beta+ 0.686 0.0077
++B beta+ 0.613 0.007845
++B beta+ 0.53 0.007972
++B beta+ 0.513 0.007993
++B beta+ 0.511 0.007995
++B beta+ 0.495 0.008013
++B beta+ 0.467 0.008041
++B beta+ 0.437 0.008067
++B beta+ 0.411 0.008085
++B beta+ 0.411 0.008085
++B beta+ 0.39 0.008098
++B beta+ 0.353 0.008114
++B beta+ 0.267 0.008131000000000001
++B beta+ 0.245 0.008132
++B beta+ 0.242 0.008132
++B beta+ 8.079E-4 0.00146
++B beta+ 8.076E-4 0.00146
++B beta+ 8.075E-4 0.00146
++B beta+ 8.072E-4 0.00146
++B beta+ 8.058999999999999E-4 0.00147
++B beta+ 8.04E-4 0.00148
++B beta+ 8.026E-4 0.0014000000000000002
++B beta+ 8.014E-4 0.0015
++B beta+ 7.880000000000001E-4 0.001608
++B beta+ 7.82E-4 0.00165
+
+#181RE    181OS EC DECAY (2.7 M)        1967GO25,1971AK03         05NDS    200601
+#  181OS EC DECAY (2.7 M)        1967GO25,1971AK03         05NDS    200601
+#H TYP=FUL$AUT=S. -C. WU$CIT=NDS 106, 367 (2005)$CUT=31-Aug-2005$         
+#  1967Go25: {+181}Os activity produced by proton on Re;                  
+#  plastic scintillator for positrons, double focusing |b spectrometer    
+#  for conversion electrons, Ge(li) detectors for |g's;                   
+#  measured E|g, I|g, E(ce), I(ce), |g|g-coin; deduced ICC.               
+#  deduced levels, J|p, |g-multipolarity.                                 
+#  1971Ak03: {+181}Os activity produced by proton on Au, {+16}O on Tm,    
+#  or {+11}B on Lu; |b spectrograph with a magnet,                        
+#  Ge(Li) detectors, NaI(Tl) detectors;                                   
+#  measured E|g, I|g, I(ce), |g|g-coin, |g|g-delay, ICC;                  
+#  deduced log| {Ift}, level J|p, T{-1.2}.                                
+#  Level scheme is given as presented in 1967Go25.                        
+#L J$From adopted levels                                                  
+#G E,RI$From 1967Go25, except as noted                                    
+#G M$From adopted levels                                                  
+#G E(R),RI(R)$From 1971Ak03                                               
+#G           I(K| x ray)=200 {I50}, I(511)|?14.4                          
+#P 49.22        7/2-                2.7 M   1              2960     30    
++G gamma 0.163 0.008
++G gamma 0.221 0.002
++G gamma 0.238 0.01
++G gamma 0.253 0.002
++G gamma 0.263 0.005
++B beta+ 2.0E-4 0.0054
+

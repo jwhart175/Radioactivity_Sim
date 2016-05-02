@@ -1,0 +1,35 @@
+#211PB    215PO A DECAY                 1998LI53,1962WA18         13NDS    201306
+#  215PO A DECAY                 1998LI53,1962WA18         13NDS    201306
+#H TYP=FUL$AUT=A. Sonzogni, G. Mukherjee, H. Huang, A. Tarazaga, $        
+#H J. Wang$CIT=NDS 114, 231 (2013)$CUT=28-FEB-2013 $                      
+#  Others: 1992Wa24, 1970Da09, 1968Br17, 1965Va10, 1961Ry02               
+#  1998Li53: Activity produced by {+219}Rn nuclei recoiling from an       
+#  {+223}Ra alpha emitting source and implanted on to a transport tape.   
+#  This tape moved between alpha- and |g-ray detectors. The {+215}Po      
+#  (1.781 ms) activity was measured in secular equilibrium with {+219}Rn  
+#  (3.96 s). Measured |a|g coin. Detectors: Not specified for detecting   
+#  alpha particles (possibly a silicon surface barrier detector);         
+#  coaxial germanium detector for |g rays.                                
+#  1962Wa18: Measured alpha spectrum. Detector: magnetic spectrometer.    
+#A HF$Using r{-0}({+211}Pb)=1.5401 {I8}; interpolated value deduced from  
+#A r{-0}({+210}Pb)=1.5394 {I6} and r{-0}({+212}Pb)=1.5408 {I9} (1998Ak04) 
+#A E,IA$From 1998Li53, unless otherwise specified. Evaluator has          
+#A adjusted all energies to E|a=7386.1 keV 8 (1971Gr17,1991Ry01) for the  
+#A group that populates the ground state.                                 
+#G E$|DE uncertainties are |>1.0 keV for all |g rays, except for 438.9|g  
+#G (1998Li53).                                                            
+#L E$ From E|g data                                                       
+#L E(A)$Configuration=(|n 2g{-9/2}){++3}                                  
+#L E(B)$Configuration=((|n 2g{-9/2}){++2}(|n 1i{-11/2}){++1})             
+#L J$ From Adopted Levels                                                 
+#P 0.0          9/2+              1.781 MS  4              7526.3   8     
++A alpha 7.386100000000001 1.0
++A alpha 6.954 6.0E-4
++A alpha 6.819 4.0E-6
++A alpha 6.802 1.6E-5
++A alpha 6.754 8.0E-6
++A alpha 6.671 8.0E-6
++A alpha 6.636 2.9999999999999997E-6
++A alpha 6.589 2.0E-5
++A alpha 6.519 2.9999999999999997E-6
+

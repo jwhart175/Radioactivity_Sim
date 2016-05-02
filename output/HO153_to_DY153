@@ -1,0 +1,67 @@
+#153DY    153HO EC DECAY (2.01 M)       1982BA75                  06NDS    200602
+#  153HO EC DECAY (2.01 M)       1982BA75                  06NDS    200602
+#H TYP=FUL$AUT=R. G. Helmer {+*}$CIT=NDS 107, 507 (2006)$CUT=31-Dec-2005$ 
+#  1982Ba75 produced sources in 1-GeV proton spallation of target         
+#       followed by mass separation with nuclide identification from      
+#       E(K-x ray), T{-1/2} of I(K-x ray) along with T{-1/2} associated   
+#       with each |g. 1981PaZP produced sources from Tb({+3}He,xn)        
+#       reaction and measured |g and ce spectra.                          
+#  Others: 1974Sc19, 1977ZuZV                                             
+#E E         Decay energy of 4153 {I50} determined by 1983Al06 from |b+   
+#E      endpoint to the 296 level and 4160 {I60} by 1993Al03 from total   
+#E      absorption |g spectrometer.                                       
+#E TI        From intensity balances at each level and the assumption of  
+#E      no |e+|b+ feeding of the ground state. This neglects the          
+#E      influence of the unplaced |g's which would shift the |e+|b+       
+#E      feeding to higher energy levels.                                  
+#G E         From 1982Ba75; others: 1981PaZP (especially below 700 keV)   
+#G      and short lists in 1977ZuZV and 1974Sc19.                         
+#G RI        From 1982Ba75; where these values are given as approximate,  
+#G      the values of 1981PaZP are given in comments.                     
+#G M         From {+153}Dy Adopted |g's, but primarily from 1977ZuZV      
+#G      and 1981PaZP.                                                     
+#G E(A),RI(A)$Only reported by 1977ZuZV.                                  
+#G E(B),RI(B)$Only reported by 1981PaZP.                                  
+#L J         From {+153}Dy Adopted Levels                                 
+#P 0.0          11/2-            2.01 M    3              4130      6     
+HO153 DY153 beta+ 4.13 120.6 0.67
+
+#153DY    153HO EC DECAY (9.3 M)        1978AN25,1977ZUZV         06NDS    200602
+#  153HO EC DECAY (9.3 M)        1978AN25,1977ZUZV         06NDS    200602
+#H TYP=FUL$AUT=R. G. Helmer {+*}$CIT=NDS 107, 507 (2006)$CUT=31-Dec-2005$ 
+#  1978An25 and 1977ZuZV produced sources by spallation of Ta target      
+#       with 660-MeV protons followed by mass separation; measured E|g,   
+#       I|g, |g-ce coincidences with Ge detector and magnetic             
+#       spectrometer as well as level T{-1/2} by delayed |g-ce            
+#       coincidences with magnetic spectrometer and plastic               
+#       scintillator. Other measurements: 1974Sc19 with sources from      
+#       {+147}Sm({+10}B,4n) and 1981PaZP with sources from Tb({+3}He,xn). 
+#E TI        Since the Q|e value is over 4 MeV and levels are reported    
+#E      to only 565 keV, this scheme is very incomplete. Therefore, the   
+#E      intensity balances can not be expected to give good estimates of  
+#E      the |e+|b+ feedings. These balances at the excited states would   
+#E      give |e+|b+ feedings of 23, 31, 20, 16, and 13% in order of       
+#E      increasing level energy. If one assumes that 50% of the |e+|b+    
+#E      feeding is to higher energy levels, the relative feeding to       
+#E      these five levels is unchanged, and there is no direct feeding to 
+#E      the ground state, the log{Ift} values for these five level        
+#E      would be in the range 5.1 to 6.3.                                 
+#G E         From 1978An25, unless otherwise noted from 1977ZuZV.         
+#G RI        From 1978An25, unless otherwise noted from 1977ZuZV. The     
+#G      values of 1974Sc19 differ dramatically, including five strong     
+#G      lines not reported by 1978An25 or 1977ZuZV, and are not given     
+#G      here.                                                             
+#G M         From 153DY Adopted |g's, but based primarily on the          
+#G      |a{-K}(exp) and |a{-L}(exp) or K/L ratios of 1977ZuZV and         
+#G      1981PaZP.                                                         
+#G           I(XK|a1)=190 {I23} and I(XK|a2)=282 {I30}                    
+#G E(A)      |g peak includes contribution from {+153}Dy |e decay         
+#G      (1978An25).                                                       
+#G E(B),RI(B)$From 1977ZuZV.                                              
+#G RI(C)     From 1977ZuZV; no value given by 1978An25 due to {+153}Dy    
+#G      |e decay contribution.                                            
+#L J         From {+153}Dy Adopted Levels                                 
+#L T         From delayed coincidences (1978An25).                        
+#P 68        7 1/2+              9.3 M     5              4130      6     
+HO153 DY153 beta+ 4.13 558.0 1.0
+

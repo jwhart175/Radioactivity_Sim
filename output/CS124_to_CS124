@@ -1,0 +1,28 @@
+#124CS    124CS IT DECAY                1983WE07                  08NDS    200807
+#  124CS IT DECAY                1983WE07                  08NDS    200807
+#H TYP=FUL$AUT=J. KATAKURA, Z.D. WU$CIT=NDS 109, 1655 (2008)$             
+#H CUT=1-Apr-2008$                                                        
+#  The decay scheme is that proposed by 1983We07                          
+#  1983We07: activity Ce+{+3}He (E=280 MeV), ms; measured: |g, ce, |g|g,  
+#  |g-K| x ray, |g|g(t), |g-ce                                            
+#  Others: 1981Li08, 1981LiZN; these are previous papers of 1983We07      
+#  The unplaced |g's probably depopulate levels at 169.5 and 270.2 keV    
+#L E         From a least-squares fit to E|g's                            
+#L J         From adopted levels                                          
+#G E,RI      From 1983We07                                                
+#G M,MR      From {+124}Ba |e decay, unless otherwise noted               
+#G $         |a(K)exp normalized with respect to 89.5|g which has typical 
+#G characteristics of an E1                                               
+#P 462.54     9(7)+              6.3 S     2                              
+CS124 CS124 IT 0.0 6.3 15.0
++G gamma 0.1695 0.0034000000000000002
++G gamma 0.18897999999999998 0.016
++G gamma 0.21164 0.033
++G gamma 0.05385 0.0042
++G gamma 0.2703 0.0062
++G gamma 0.0582 0.0123
++G gamma 0.0895 0.031
++G gamma 0.09655 0.0305
++G gamma 0.0649 0.0015
++G gamma 0.161 5.0E-4
+

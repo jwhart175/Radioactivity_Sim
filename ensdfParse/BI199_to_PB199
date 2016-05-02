@@ -1,0 +1,47 @@
+#199PB2C  and A DECAY                                                            
+#  and A DECAY                                                            
+#  The partial decay scheme is that proposed by 1978RI04 with             
+#  the following changes: 1) the 3/2- state is the ground state and       
+#  not at 19.58 KEV as proposed by 1978RI04; and 2) the 5/2- state is at  
+#  0+x KEV (x LE 9.3 KEV) and not the g.s. All level energies of 1978RI04 
+#  are therefore raised by x KEV. These changes are indicated by the      
+#  results of 1983TH03 (J(GS)=3/2-) and 1962JU05, 1957AN53                
+#  (E(5/2- level) LE 9.3). For tentative GG-coin results see table 6      
+#  of 1978RI04.                                                           
+#  THE DECAY SCHEME OF 199BI TO 199PB IS QUITE INCOMPLETE DUE TO A LARGE  
+#  NUMBER OF UNPLACED TRANSITIONS AND SEVERAL OTHERS WITH UNCERTAIN       
+#  PLACEMENTS                                                             
+#G $I(G+-)=18.1 9 (relative to I(841G)=100) corresponds to %B+ AP 1.0     
+#G RI$The 199BI source was produced by 1978RI04 in (P,XN)                 
+#G reactions on natural lead followed by mass and radio-chemical          
+#G separation. 1978RI04 assumed that all the G's are from the 9/2- 199BI  
+#G GS EC decay; however, it is expected that some of the G rays           
+#G are from EC decay of the 25-min 1/2+ isomer of 199BI. Some of the G's  
+#G deexciting levels of 199PB fed directly from the EC decay of the 1/2+  
+#G isomer may populate the 3/2- GS of 199PB rather than the 5/2-          
+#G first excited state.                                                   
+#G M$Based on EKC of 1978RI04 (425.3 M4 transition was used for           
+#G normalization). The experimental precision did not allow a meaningful  
+#G extraction of MR.                                                      
+#G E(A)$1978RI04 list two G's in coin with 926.4G and five G's in coin    
+#G with 945.96G; only the 391.28G is in coin with both of the             
+#G above G's. This result may be inconsistent with the decay scheme.      
+#G E(B)$1978RI04 list seven G's possibly in coin with the 1034.0G;        
+#G none of these G's is the same as the three G's in coin with the        
+#G 1052.8G, and the coin with the 720.3G is inconsistent with the         
+#G decay scheme proposed by 1978RI04.                                     
+#G E(C)$Listed as 1086.79 in figure 7 of 1978RI04                         
+#G M(D)$The multipolarities of the 294.0G, 533.1G and 560.1G lead         
+#G to contradictory PI assignments for the 1804 level according to        
+#G the proposed level scheme.                                             
+#G RI(E)$The uncertainty could be greater than 20% because of the         
+#G long half-life of the isomeric state (1978RI04)                        
+#L J$ FROM 'ADOPTED LEVELS', BASED ON G multipolarities and               
+#L on the assumption that all the placed G's are from the EC decay of     
+#L 9/2- 199BI g.s. The assignments proposed by 1978Ri04 are given         
+#L under comments                                                         
+#L T$From 'adopted levels'                                                
+#P1 0           9/2-             27 M      1               4430     29    
++G gamma 0.294 0.078
++G gamma 0.4626 0.054000000000000006
+

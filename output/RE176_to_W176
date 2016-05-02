@@ -1,0 +1,85 @@
+#176W     176RE EC DECAY                2001KI10,1977BE72,1977HA2406NDS    200602
+#  176RE EC DECAY                2001KI10,1977BE72,1977HA2406NDS    200602
+#H TYP=FUL$AUT=M.S. BASUNIA$CIT=NDS 107, 791 (2006)$CUT=15-Sep-2005$      
+#  Others: 1972BE89, 1970GO20, 1967NA17.                                  
+#  2001KI10: 176RE produced from an 176IR grandparent activity made in the
+#  149SM(31P,4N) reaction. Measured: EG, RI, G-G coin, G(THETA), CC, and  
+#  M. Detector: ^CAESAR array of six Compton-suppressed Ge detectors,     
+#  and electron spectrometer.                                             
+#  1977BE72: measured EG, RI, GG coin. Detectors: GE(LI).                 
+#  1977HA24: activity produced by 181TA(A,9N), E(A)=133 MEV.              
+#  Measured EG, RI. Detector: GE(LI).                                     
+#  1970GO20: activity produced by 180W(P,5N), E(P)=54 MEV. Measured EG,   
+#  RI. Detector: GE(LI).                                                  
+#G E,RI,M      From 2001KI10, unless otherwise specified.                 
+#G E(A),RI(A)$From 1977BE72. RI multiplied by 10 to normalize to the      
+#G 240.3G RI.                                                             
+#L E$Deduced by evaluator from a least-squares fit to G-ray energies      
+#L assuming DE=1 keV.                                                     
+#L J         From multipolarity, rotational band assignment, and energy   
+#L systematics (2001KI10).                                                
+#L E(A)$KPI=0+ GS rotational band.                                        
+#L E(B)$KPI=2+ quasi G-vibrational band.                                  
+#L E(C)$KPI=0+ quasi B-vibrational band.                                  
+#L E(D)$KPI=(2-)                                                          
+#P 0.0         3+                5.3 M     3              5580      40    
+RE176 W176 beta+ 5.58 318.0 1.0
++G gamma 0.10909999999999999 4.65
++G gamma 0.2403 10.0
++G gamma 0.3514 1.51
++G gamma 0.735 0.141
++G gamma 0.844 0.0024
++G gamma 0.582 0.368
++G gamma 0.8222 0.71
++G gamma 0.6921 0.021
++G gamma 0.9324 0.364
++G gamma 1.0415999999999999 0.297
++G gamma 0.1865 0.021
++G gamma 0.4173 0.11
++G gamma 0.7687 0.96
++G gamma 1.009 0.5
++G gamma 0.0871 0.040999999999999995
++G gamma 1.0199 0.76
++G gamma 0.8309 0.19
++G gamma 1.071 0.84
++G gamma 0.1569 0.12
++G gamma 0.8491000000000001 1.0
++G gamma 0.12279999999999999 0.047
++G gamma 0.1743 0.066
++G gamma 0.9539 0.67
++G gamma 0.973 0.39899999999999997
++G gamma 1.2132 0.26
++G gamma 0.6966 0.10300000000000001
++G gamma 1.0484 0.043
++G gamma 0.2039 0.023
++G gamma 0.7012999999999999 0.24
++G gamma 1.0523 0.087
++G gamma 1.3291 0.19
++G gamma 0.3685 0.091
++G gamma 1.1481 0.048
++G gamma 1.3882999999999999 0.138
++G gamma 0.8184 0.081
++G gamma 1.1698 0.20199999999999999
++G gamma 1.4173 0.076
++G gamma 1.1898 0.207
++G gamma 0.3881 0.076
++G gamma 1.2382 0.136
++G gamma 1.4788 0.085
++G gamma 0.6596000000000001 0.066
++G gamma 0.2921 0.062
++G gamma 0.3972 0.114
++G gamma 0.9581000000000001 0.10300000000000001
++G gamma 0.5427000000000001 0.09699999999999999
++G gamma 1.3117999999999999 0.7
++G gamma 1.3345 0.159
++G gamma 0.48819999999999997 0.039
++G gamma 0.5575 0.07200000000000001
++G gamma 1.3522 0.147
++G gamma 1.009 0.14
++G gamma 1.3602 0.040999999999999995
++G gamma 0.6951 0.335
++G gamma 0.6273 0.09699999999999999
++G gamma 1.5378 0.031
++G gamma 1.7779 0.068
++G gamma 1.2233 0.12
+

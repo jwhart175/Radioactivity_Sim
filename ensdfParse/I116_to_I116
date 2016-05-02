@@ -1,0 +1,19 @@
+#116I     116I IT DECAY                 1990WU01                  10NDS    201004
+#  116I IT DECAY                 1990WU01                  10NDS    201004
+#H TYP=FUL$AUT=Jean Blachot$CIT=NDS 111, 717 (2010)$CUT=1-Dec-2009$       
+#  Activity: 92MO(28SI,3PNG) E=120 MEV                                    
+#  Measured: G, GG, recoil-mass spectrometer (^RMS), G(T).                
+#  The ^RMS determines with a good separation the nucleus which is        
+#  isomer                                                                 
+#  The G's are not placed in a level scheme, but two independent          
+#  branches are found from GG correlations. One path includes             
+#  65, 105 (doublet), 109 G's. The other: 114, 227 G's. The first         
+#  cascade gives E(isomer) GE 385. One component of 105 doublet could     
+#  correspond to the 104.5G seen in 116XE EC decay                        
+#P 430.4     5                   3.27 US   16                             
+I116 I116 IT 0.0 3.27E-6 1.0
++G gamma 0.105 1.8
++G gamma 0.10959999999999999 1.0
++G gamma 0.1142 0.33
++G gamma 0.22719999999999999 0.36
+

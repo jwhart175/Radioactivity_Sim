@@ -1,0 +1,25 @@
+#202HG    202AU B- DECAY                1984CR01,1972Pa06         08NDS    200803
+#  202AU B- DECAY                1984CR01,1972Pa06         08NDS    200803
+#H TYP=FUL$AUT=S. ZHU and F.G. KONDEV$CIT=NDS 109, 699 (2008)$            
+#H CUT=1-May-2007$                                                        
+#  1984Cr01: 202AU produced using the 202HG(N,P) reaction. E(N)=14 MEV;   
+#  {+nat}Hg target with a thickness of 32 g. Detectors: ^Ge and GE(LI).   
+#  Measured: EG, GG coin, G(T).                                           
+#  1972Pa06: 202AU produced using 202HG(N,P) reaction. E(N)=14-15 MEV;    
+#  {+nat}Hg target with 1-10 g thickness. Detectors: GE(LI),              
+#  ^NaI(Tl), plastic scintillation detector. Measured: EG by              
+#  GE(LI), GG coin by ^NaI(Tl)-GE(LI), BG coin by plastic-GE(LI).         
+#  Others: 1967Wa23,1972BU05.                                             
+#G E,M$From adopted gammas                                                
+#G RI$From 1984Cr01                                                       
+#L E$From a least-square fit to EG.                                       
+#L J$From adopted levels                                                  
+#P 0             (1-)            28.4 S    12              295E1    17    
++B beta- 1.145 0.9
++B beta- 0.732 0.005
++B beta- 0.57 0.0285
++B beta- 0.544 0.0075
++B beta- 0.482 0.023
++B beta- 0.45 0.020099999999999996
++B beta- 0.409 0.028300000000000002
+

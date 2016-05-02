@@ -1,0 +1,30 @@
+#125CS    125BA EC DECAY (3.3 M)        1975AR31                  11NDS    201102
+#  125BA EC DECAY (3.3 M)        1975AR31                  11NDS    201102
+#H TYP=FUL$AUT=J. KATAKURA$CIT=NDS 112, 495 (2011)$CUT=1-Jan-2010$        
+#  1996Os04: On-line ms, HPGe, |b{++}, |g, |g|g coin, |b{++}|g coin, end  
+#  point energy                                                           
+#  1975Ar31: {+117}Sn({+12}C,4n) E=75 MeV, semi |g, scin |b, |b|g-coin    
+#  1987Fr10: Ce({+3}He,X) E=270 MeV, on-line ms, scin. Magnetic           
+#  spectrometer, ce-|g coin                                               
+#  1978Bo32: {+96}Ru+{+32}S, {+98}Ru+{+32}S, E=190 MeV, on-line ms, semi  
+#  |g, scin |b{++}, (x-ray)|b{++} coin                                    
+#  1968Da09: {+115}In({+14}N,4n), {+115}In({+16}O,6n){+125}La |e          
+#  {+125}Ba, semi |g scin |b{++}, |g|g-coin                               
+#  The decay scheme is that proposed by 1975Ar31                          
+#G CC$ FROM BrIcc v2.2 (31-Mar-2008) 2008KiAA, "Frozen Orbitals" appr.    
+#G RI        From 1975Ar31, relative to I(77.6)=100                       
+#L E         From a least-squares fit to E|g's                            
+#L J         Spin and parity values are those given under adopted         
+#L levels                                                                 
+#P 0.0         1/2(+)            3.3 M     3              4420      14    
+BA125 CS125 beta+ 4.42 198.0 1.0
++B beta+ 8.431E-4 0.00123
++G gamma 0.07759999999999999 1.0
++G gamma 0.0854 0.82
++G gamma 0.055 0.48
++G gamma 0.0631 0.08
++G gamma 0.1409 0.86
++G gamma 0.045 0.03
++G gamma 0.1001 0.06
++G gamma 0.108 0.08
+

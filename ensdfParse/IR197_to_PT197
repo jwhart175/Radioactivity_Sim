@@ -1,0 +1,67 @@
+#197PT    197IR B- DECAY (5.8 M+8.9 M)  1976PEZW,1978PEZJ         05NDS    200503
+#  197IR B- DECAY (5.8 M+8.9 M)  1976PEZW,1978PEZJ         05NDS    200503
+#H TYP=FUL$AUT=HUANG XIAOLONG, ZHOU CHUNMEI$CIT=NDS 104, 283 (2005)$      
+#H CUT=1-Jan-2002$                                                        
+#  Sources produced by {+198}Pt(n,pn) (1954Bu02) and {+198}Pt(|g,p)       
+#  (1987Da29,1978BeZJ,1961Ho10).                                          
+#  Measured results could not be separated.                               
+#  Others: 1952Ch18, 1954Bu02, 1961Ho10, 1974Al25, 1976HiZF               
+#  Preliminary decay scheme; |g rays may originate from {+197}Ir isomer   
+#  and/or g.s.                                                            
+#B           Max E(|b{+-})=2.0 MeV (1961Ho10). Other: 1954Bu02            
+#B           I(2-MeV |b)/I(1.5-MeV |b)|?1 (1961Ho10)                      
+#B IB,LOGFT$Can not be given from decay scheme.                           
+#G           |g-placements are consistent with I|g-branching ratios via   
+#G (n,|g) study (1978Ya07)                                                
+#G E         From {+197}Ir isomer and/or g.s., except as noted.           
+#G RI        Relative photon intensity normalized to                      
+#G I|g(469.72|g)=1000                                                     
+#G M         From adopted |g-ray radiations, except as noted.             
+#G M(N)      From |DJ and |D|p between transition levels.                 
+#L E         From decay scheme and E|g's by                               
+#L using least-squares fit to data                                        
+#L J,T       From adopted levels                                          
+#P10.0         3/2+              5.8 M     5              2155      20    
+IR197 PT197 beta- 2.155 348.0 1
++G gamma 0.1351 2.72
++G gamma 0.22878 0.23
++G gamma 0.27376999999999996 0.25
++G gamma 0.33932 0.54
++G gamma 0.34016 0.47
++G gamma 0.37832 3.77
++G gamma 0.40582 0.93
++G gamma 0.43056 6.11
++G gamma 0.46972 10.0
++G gamma 0.49644 3.62
++G gamma 0.50914 2.06
++G gamma 0.52718 2.39
++G gamma 0.53387 0.59
++G gamma 0.5392 1.45
++G gamma 0.54202 1.06
++G gamma 0.56349 0.45
++G gamma 0.7153200000000001 0.91
++G gamma 0.73883 0.12
++G gamma 0.7916799999999999 0.5
++G gamma 0.80912 3.19
++G gamma 0.81592 4.5
++G gamma 0.84949 0.66
++G gamma 0.86152 0.6
++G gamma 0.8664400000000001 1.32
++G gamma 0.8733099999999999 0.64
++G gamma 0.88786 0.46
++G gamma 0.93941 2.07
++G gamma 0.98713 1.46
++G gamma 1.00803 0.17
++G gamma 1.05353 0.18
++G gamma 1.06217 0.19
++G gamma 1.34322 2.11
++G gamma 0.0531 0.86
++G gamma 0.26892 1.27
++G gamma 0.22782 0.43
++G gamma 0.24638 0.82
++G gamma 0.29957999999999996 2.37
++G gamma 0.15722 0.39
++G gamma 0.40412 0.58
++G gamma 0.45682999999999996 3.72
++G gamma 0.7081799999999999 0.5
+

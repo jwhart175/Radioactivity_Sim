@@ -1,0 +1,37 @@
+#205PB    205BI EC DECAY                1972HA71                  04NDS    200404
+#  205BI EC DECAY                1972HA71                  04NDS    200404
+#H TYP=FUL$AUT=F.G. KONDEV$CIT=NDS 101, 521 (2004)$CUT=1-Feb-2004$        
+#  Others: 1990Si13, 1973Ah01, 1972LaYV, 1971Gi03, 1971KoZP, 1971Ru01,    
+#  1971Jo06, 1960St24, 1960Ve04, 1959St42, 1956Sc18                       
+#E $IE is calculated from intensity balance considerations.               
+#G E,RI$ From 1972Ha71, unless otherwise specified.                       
+#G RI(D)$ From coincidence data. EG deduced from E(level) in 1972Ha71.    
+#G M$From G(THETA) (1990Si13), GG(THETA) (1973Ah01) and EKC data,         
+#G unless otherwise specified.                                            
+#G MR$From EKC data of 1972Ha71, unless otherwise specified.              
+#L E$From a least-squares fit to EG.                                      
+#L J,T$From adopted levels.                                               
+#P 0.0          9/2-             15.31 D   4               2708     7     
++B beta+ 5.989E-4 0.004
++B beta+ 0.7684 0.0076
++B beta+ 0.4605 0.0079
++B beta+ 0.3356 0.0079
++B beta+ 0.3357 0.0078000000000000005
++B beta+ 0.3108 0.0079
++B beta+ 7.925E-4 0.00156
++B beta+ 7.91E-4 0.00157
++B beta+ 7.905999999999999E-4 0.00157
++B beta+ 7.902E-4 0.00157
++B beta+ 7.879E-4 0.00159
++B beta+ 7.863E-4 0.0016
++B beta+ 7.861E-4 0.0016
++B beta+ 7.858E-4 0.0016
++B beta+ 7.444E-4 0.0019
++B beta+ 7.777E-4 0.00166
++B beta+ 7.572999999999999E-4 0.0018
++B beta+ 7.499E-4 0.0018
++B beta+ 6.38E-4 0.00265
++B beta+ 5.83E-4 0.0030399999999999997
++B beta+ 4.4E-4 0.0040999999999999995
++G gamma 1.90345 0.024662300000000005
+

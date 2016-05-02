@@ -1,0 +1,50 @@
+#103MO    252CF SF DECAY                1998HW02,2006OR05         09NDS    200910
+#  252CF SF DECAY                1998HW02,2006OR05         09NDS    200910
+#H TYP=FUL$AUT=D. DE FRENNE$CIT=NDS 110, 2081 (2009)$CUT=1-Mar-2009$      
+#  1998Hw02: assignment: (fragment)(fragment)(K| x ray)(|g)-coin and      
+#  (fragment)(fragment)(|g)(|g)-coin. measured: E|g, I|g, |g|g|g.         
+#  Deduced: {+103}Mo levels, J|p, band structure                          
+#  2006Or05: Measured |g, g factors by time integrated perturbed angular  
+#  correlation functions. The |g rays were detected with GAMMASPHERE      
+#  array with 101 Compton-suppressed Ge detectors.                        
+#  Others: 1991Ho16 ({+248}Cm SF decay), 1974ClZX, 1972ClZN, 1973TaZG     
+#G E,RI$Taken from 1998Hw02. It supersedes the results of 1991Ho16 for    
+#G {+248}Cm SF decay.                                                     
+#G $A{-2} and A{-4} are from 2006Or05                                     
+#G M,MR$From 2006Or05, unless noted otherwise                             
+#G DRI$|DI|g not given by 1998Hw02; estimated by the evaluator            
+#G between 10 and 50% depending on I|g.                                   
+#G DE$|DE|g not given by 1998Hw02; estimated by the evaluator between 0.2 
+#G and 1.0 depending on I|g. For |g's where no I|g was given |DE|g=0.5 was
+#G estimated.                                                             
+#G M         Transitions in |DJ=1 band are assumed M1 and in |DJ=2        
+#G bands as E2.                                                           
+#L E$Calculated with a least-squares procedure based on observed          
+#L |g energies                                                            
+#L J$From proposed band structure and systematics (1998Hw02)              
+#L $g-factors were inferred from Larmor precessions deduced from the      
+#L measurement of time integrated perturbed angular correlation           
+#L functions (2006Or05)                                                   
+#L BAND(A)$ |n3/2[411] (2006Or05)                                         
+#L BAND(B)$ |n5/2[532] (2006Or05)                                         
+#P 0.0          0+               2.645 Y   8                              
+CF252 MO103 SF 0.0 8.346802377600001E7 0.03092
++G gamma 0.1028 1.0
++G gamma 0.3465 0.03
++G gamma 0.1129 0.26
++G gamma 0.2511 0.58
++G gamma 0.12490000000000001 0.22
++G gamma 0.13190000000000002 0.036000000000000004
++G gamma 0.2373 0.081
++G gamma 0.144 1.0
++G gamma 0.3527 0.052000000000000005
++G gamma 0.3723 0.07
++G gamma 0.363 0.43
++G gamma 0.547 0.17
++G gamma 0.5645 0.02
++G gamma 0.5757000000000001 0.075
++G gamma 0.7068 0.06
++G gamma 0.738 0.017
++G gamma 0.7555 0.013000000000000001
++G gamma 0.845 0.027000000000000003
+

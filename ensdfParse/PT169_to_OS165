@@ -1,0 +1,72 @@
+#165OS  XC169PT A DECAY (6.99 MS)                                                
+#XC169PT A DECAY (6.99 MS)                                                
+#XD92MO(78KR,2P3NG)                                                       
+#XE106CD(64ZN,2P3NG)                                                      
+#N                                                                     6  
+#L 0.0          (7/2-)           71 MS     3                          A   
+#L %A=90 2 (2008BI15) $ %EC+%B+=10 2                                      
+#L XREF=ABCDE                                                             
+#L $%|a is measured by 2008Bi15 from correlated |a events in              
+#L {+169}Pt -> {+165}Os -> {+161}W |a decay chain. Other: 100 {I40}       
+#L (1981Ho10)                                                             
+#L J$from 1997Da07, based on proton decay from {+166}Ir.                  
+#L Possible configuration=|nf{-7/2} from systematics                      
+#L T$from timing of |a decay of {+165}Os (1996Pa01). Others:              
+#L 72 ms {I8} (1991Se01), 65 ms {I+70-30} (1981Ho10)                      
+#L $E(|a)=6188 {I7} (1996Pa01), 6164 {I10} (1981Ho10), 6200 {I20}         
+#L (1978Ca11,1977Ca23)                                                    
+#L 95.2      10 (9/2-)                                                B   
+#L XREF=DE                                                                
+#L J$(M1) |g to (7/2-); possible configuration=|nh{-9/2} from systematics 
+#G  95.2     10  100      (M1)                    6.48  22                
+#G M$from intensity balance arguments                                     
+#L 499.3      5 (11/2-)                                               A   
+#L XREF=DE                                                                
+#G  499.3    5  100       Q                                               
+#L 584.8     12 (13/2-)                                               B   
+#L XREF=DE                                                                
+#G  489.6    5   100      Q                                               
+#L 1096.0     7 (15/2-)                                               A   
+#L XREF=DE                                                                
+#G  596.7    5   100      Q                                               
+#L 1218.0    13 (17/2-)                                               B   
+#L XREF=DE                                                                
+#G  633.2    5   100      Q                                               
+#L 1654.6     9 (19/2-)                                               A   
+#L XREF=DE                                                                
+#G  558.6    5   100      Q                                               
+#L 1917.8    14 (21/2-)                                               B   
+#L XREF=DE                                                                
+#G  699.8    5   100                                                      
+#L 2247.6    14 (23/2-)                                               A   
+#L XREF=DE                                                                
+#G  593.0    10  100                                                      
+#L 2609.4    17 (25/2-)                                               B   
+#L XREF=DE                                                                
+#G  691.6    10  100                                                      
+#                                                                         
+#  166IR P DECAY (10.5 MS)       1997DA07                  ENSDF    201410
+#H TYP=FUL$AUT=BALRAJ SINGH$CIT=ENSDF$CUT=10-OCT-2014$                    
+#H TYP=FUL$AUT=ASHOK K. JAIN AND ANWESHA GHOSH, BALRAJ SINGH$             
+#H CIT=NDS 107, 1075 (2006)$CUT=15-Apr-2006$                              
+#  {+166}Ir produced (1997Da07) by {+92}Mo({+78}Kr,p3n) reaction at       
+#  E({+78}Kr)=384 MeV. The recoil products were analyzed by Fragment Mass 
+#  Analyzer and prompt protons were identified by position, time and      
+#  energy correlations between the residual nucleus, observation of       
+#  decay proton and decay |a particle.                                    
+#  Selected theoretical references for calculations of {+166}Ir proton    
+#  decay half-life: 2012Qi03, 2012Ro17, 2011Pa02, 2006De07. Consult NSR   
+#  database for many other theory references                              
+#P  0            (2-)             10.5 MS  22              1152     8     
+
+#165OS    169PT A DECAY (6.99 MS)       2009Go16,2004KE06,2008BI15ENSDF    201410
+#  169PT A DECAY (6.99 MS)       2009Go16,2004KE06,2008BI15ENSDF    201410
+#H TYP=FUL$AUT=BALRAJ SINGH$CIT=ENSDF$CUT=10-OCT-2014$                    
+#H TYP=FUL$AUT=ASHOK K. JAIN AND ANWESHA GHOSH, BALRAJ SINGH$             
+#H CIT=NDS 107, 1075 (2006)$CUT=15-Apr-2006$                              
+#  Others: 1996Pa01, 1981Ho10                                             
+#  Measured: E|a, isotopic T{-1/2}                                        
+#  Assumed g.s. to g.s. decay.                                            
+#P 0.0          (7/2-)            6.99 MS  10             6858      5     
++A alpha 6.692 1.0
+

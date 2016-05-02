@@ -1,0 +1,61 @@
+#103RH    103RU B- DECAY (39.247 D)                               09NDS    200910
+#  103RU B- DECAY (39.247 D)                               09NDS    200910
+#H TYP=FUL$AUT=D. DE FRENNE$CIT=NDS 110, 2081 (2009)$CUT=1-Mar-2009$      
+#  2008KrZX: {+103}Ru activity from Ru(n,|g). Measured E|g,I|g. Deduced:  
+#  {+103}Rh levels, log| {Ift}                                            
+#  1970Pe04: {+103}Ru activity from commercial source and {+102}Ru(n,|g). 
+#  Measured: E|b, I|b, ce(K), ce(L), E|g, I|g. Deduced: {+103}Rh levels,  
+#  log| {Ift}, J|p, |a(K)exp, K:L1:L2:L3, |d(E2/M1). Enriched isotope,    
+#  double-focusing |b spectrometer, Ge(Li) detector                       
+#  1976Ma37: {+103}Ru activity from {+102}Ru(n,|g). Measured: E|g, I|g,   
+#  X|g-coin. Deduced: {+103}Rh levels, log| {Ift}, J|p, |a, |d(E2/M1),    
+#  B(E2), B(M1). Enriched targets, Ge(Li) and Si(Li) detectors,           
+#  anti-Compton spectrometer                                              
+#  1982Oh04: {+103}Ru activity from {+102}Ru(n,|g). Measured: E|b, I|b,   
+#  Ice. Deduced: {+103}Rh levels, log| {Ift}, J|p                         
+#  1988Ch44: {+103}Ru activity from commercial                            
+#  source. Measured: E|g, I|g, I|g(K| x ray)                              
+#  Others: 1950Me26, 1952Co16, 1952Ko27, 1952Kn12, 1954De35, 1955Dr43,    
+#  1955Sa16, 1956Sh19, 1958Ro07, 1962Na12, 1964Ka23, 1965Mu09, 1966Po05,  
+#  1968Ru08, 1968Mu11, 1968Ma08, 1969Zo02, 1969Ra18, 1969Su08, 1970Ma58,  
+#  1970Su05, 1970NiZV, 1971Av03, 1972De67, 1974HeYW, 1976Ba36, 1977Ra02   
+#B IB        Calculated by the evaluator based on                         
+#B I|b(769|b)/I|b(223|b)=0.0094 {I4} (1982Oh04) and the decay scheme of   
+#B 2008KrZX                                                               
+#G $E|g and I|g from 2008KrZX.                                            
+#G 1988Ch44 measured: I(K|a| x ray)(20.17)=9.35 {I20} and I(K|b| x        
+#G ray)(22.78)=1.92 {I4}                                                  
+#G M$Unless noted otherwise, |a(K)exp=ce(K)(1970Pe04)/I|g(1976Ma37)       
+#G normalized to |a(K)(53|g)=1.81 (M1 theory).                            
+#G Unless noted otherwise, the mult are from comparison of experimental   
+#G and BRICC conversion coefficients                                      
+#G M(A)      From adopted gammas                                          
+#L $Level scheme and level energies from 2008KrZX                         
+#L J         From adopted levels                                          
+#P 0.0          3/2+             39.247 D    3             763.4    21    
++B beta- 0.2559 0.0087
++G gamma 0.03976 6.916E-4
++G gamma 0.053286 0.0044317
++B beta- 0.1449 0.0028000000000000004
++G gamma 0.294964 0.0028847
++B beta- 0.123 8.3E-5
++G gamma 0.06240999999999999 4.368E-6
++G gamma 0.357382 8.645E-5
++B beta- 0.06409999999999999 0.92
++G gamma 0.241875 1.4287E-4
++G gamma 0.44381 0.0033943000000000003
++G gamma 0.497085 0.91
++B beta- 0.0429 3.1E-5
++G gamma 0.514365 6.188E-5
++G gamma 0.567693 2.093E-5
++B beta- 0.030699999999999998 0.065
++G gamma 0.04263 5.187E-5
++G gamma 0.113191 3.185E-5
++G gamma 0.2927 9.1E-6
++G gamma 0.557057 0.0084084
++G gamma 0.610333 0.057603
++B beta- 0.030199999999999998 0.0011
++G gamma 0.11487 7.371E-5
++G gamma 0.612094 0.0010465000000000001
++G gamma 0.6516900000000001 2.184E-6
+

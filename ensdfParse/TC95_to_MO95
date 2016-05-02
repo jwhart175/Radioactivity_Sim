@@ -1,0 +1,100 @@
+# 95MO    95TC EC DECAY (20.0 H)        1977ME12                  10NDS    201010
+#  95TC EC DECAY (20.0 H)        1977ME12                  10NDS    201010
+#H TYP=FUL$AUT=S. K. Basu, G. Mukherjee, A. A. Sonzogni$                  
+#H CIT=NDS 111, 2555 (2010)$CUT=30-Jun-2009$                              
+#  1971He20 measured |g's (Ge(Li))                                        
+#  1974An05 measured |g's and |g|g-coincidences (Ge(Li)) and |b{++}'s     
+#  and ce's; |b spectrometer                                              
+#  1974Kr08 measured |g's and |g|g-coincidences; Ge(Li)                   
+#  1977Me12 measured |g's (Compton-suppressed Ge(Li) with Pb absorber     
+#  and planner Ge(Li)) and ce's (Si(Li)) for mixed 20-h and 61-d {+95}Tc  
+#  and pure 61-d sources                                                  
+#  All data are from 1977Me12, except as noted. Other: 1959Le25. See      
+#  1983Lu03 for additional references                                     
+#G $Coincidences shown on the drawing are from 1974Kr08                   
+#G EKC,ELC,K/L$see also 61-d {+95}Tc |e decay                             
+#G M,MR,CC$From the adopted gammas                                        
+#G E(A),RI(B)$From the adopted gammas. I|g obtained from adopted          
+#G branching ratios and I|g(1074|g). 1977Me12 looked for but did not      
+#G observe a 127|g (I|g|<0.005)                                           
+#L J,T$From the adopted levels                                            
+#  CC$ FROM BrIcc v2.2a (13-Jul-2008) 2008Ki07, "Frozen Orbitals" appr.   
+#P 0.0          9/2+              20.0 H    1              1691     5     
++B beta+ 8.675E-4 0.0010769
++B beta+ 8.663999999999999E-4 0.0010856
++B beta+ 8.652E-4 0.0010948
++B beta+ 8.408E-4 0.0012
++B beta+ 8.378E-4 0.0013
++B beta+ 7.099999999999999E-4 0.0023
+
+# 95MO    95TC EC DECAY (61 D)          1977ME12,1974AN05         10NDS    201010
+#  95TC EC DECAY (61 D)          1977ME12,1974AN05         10NDS    201010
+#H TYP=FUL$AUT=S. K. Basu, G. Mukherjee, A. A. Sonzogni$                  
+#H CIT=NDS 111, 2555 (2010)$CUT=30-Jun-2009$                              
+#  1970Bo28 measured |g's and |g{+|+}'s (Ge(Li)), |g(|q) (NaI,Ge(Li)),    
+#  |g|g-coincidences (NaI,Ge(Li)), |g|g(|q,H,t) (NaI), and |g|g(t) (scin) 
+#  1973Be34 measured |g|g(|q) and linear polarization; Ge(Li)             
+#  1974An05 measured |g's and |g|g-coincidences (Ge(Li)) and |b{++}'s     
+#  and ce's; |b spectrometer                                              
+#  1977Me12: see {+95}Tc |e decay (20.0 h) for experimental details       
+#  1978He21 reevaluated their earlier measurements (1971He20. Ge(Li)) to  
+#  be consistent with an energy scale based on E|g({+198}Au)=411.80441    
+#  {I108} (1978Ke02) and the fundamental constants of 1973CoTA            
+#  The level scheme is from 1977Me12. It is in good agreement with the    
+#  results of 1974An05. See 1983Lu03 for other references                 
+#E LOGFT(A)$log| {If{+1u}t}|>8.5                                          
+#E E(B)$From E|b=710 {I6} and 506 {I6} (1974An05)                         
+#E IB(D)$From I|b(to g.s.)/I|b(to 204)=1.2 {I2} and the adopted decay     
+#E scheme; see the comment on I|g normalization. Others for I|b(to        
+#E g.s.+204): 0.47% {I6} (1970Bo28), 0.31% {I4} (1974An05), and 0.24%     
+#E {I3} (1977Me12). From |g{+|+} and decay scheme                         
+#E IE(E)$From I|b and theoretical |e/|b{++} ratios                        
+#G $Coincidences shown on the drawing are from 1974An05                   
+#G $|a(K)exp: from 1974An05, except as noted. Values were normalized by   
+#G assuming |a(K)(204|g)=0.046                                            
+#G $|a(L)exp,|a(M)exp,K/L,K:L:M: from 1977Me12. See also 20-h {+95}Tc |e  
+#G decay                                                                  
+#G E,RI$From 1977Me12, except as noted                                    
+#G MR,M(A)$From |g|g(|q) and linear polarization (1973Be34) assuming      
+#G J(786)=1/2,3/2, J(821)=1/2,3/2,5/2, and J(1039)=1/2,3/2, except as     
+#G noted                                                                  
+#G CC,M(B),MR(D)$From the adopted gammas                                  
+#G E(E)$From 1978He21. Other relatively precise energies are 204.12 {I1}  
+#G (1977Me12) and 204.12 {I2} (1974An05), 252.95 {I1} (1977Me12) and      
+#G 253.00 {I3} (1974An05), 582.07 {I1} (1977Me12), 786.18 {I2}            
+#G (1977Me12) and 786.18 {I5} (1974An05), 820.61 {I1} (1977Me12), 835.13  
+#G {I1} (1977Me12), and 1039.25 {I2} (1977Me12), respectively             
+#G RI(F)$I|g(219|g)=1.00 {I15} and I|g(1416|g)=0.07 {I2} (1974An05) are   
+#G discrepant                                                             
+#G E(G),RI(H)$From 1974An05. Not reported by 1977Me12                     
+#L J$From the adopted levels.                                             
+#  CC$ FROM BrIcc v2.2a (13-Jul-2008) 2008Ki07, "Frozen Orbitals" appr.   
+#  1994: UPDATED QP ON PARENT RECORD TO VALUE FROM 1993Au05. RERAN LOGFT. 
+#  1983Lu03 NOTED THAT 1977Me12 PROBABLY UNDERESTIMATED SOME              
+#  UNCERTAINTIES IN G-ENERGIES SINCE G-RAYS WITH DE=10 EV OR LESS DO NOT  
+#  FIT WELL IN THE LEVEL SCHEME. HOWEVER, THERE IS EXCELLENT AGREEMENT    
+#  WITH THE EQUALLY PRECISE DATA OF 1978He21 AND 1974An05                 
+#  NR        AS NOTED BY 1983Lu03, WITH THE NORMALIZATION AND BRANCHING   
+#  RATIOS GIVEN IN THAT EVALUATION THERE IS AN INCONSISTENCY WITH IB(to   
+#  204) AND THE TOTAL DIRECT FEEDING TO THE 204-KEV STATE. FROM THEORY    
+#  (1971Go40) EC/B+=37.2 18 ASSUMING Q+=1691 6 WHILE 1983Lu03 OBTAINED    
+#  54 16 FROM THEIR DECAY SCHEME AND NORMALIZATIONS. THERE APPEARED TO    
+#  BE TWO POSSIBLE PROBLEMS: 1) IB(TO GS)+IB(T0 204) SEEMS TO BE          
+#  DEPENDENT ON THE NORMALIZATION AND THE DECAY SCHEME. 2) THE BRANCHING  
+#  RATIO IS DEPENDENT ON THE NORMALIZATION ASSUMED AND BOTH THE 20-H AND  
+#  61-D DECAY SCHEMES.                                                    
+#  NR,BR     DETAILS OF THE CALCULATIONS MAY BE OBTAINED FROM THE         
+#  EVALUATOR (REQUEST THE FILE 95TCNORM.TEX)                              
+#P 38.91     4  1/2-              61 D      2              1691     5     
++B beta+ 7.0E-4 0.003
++B beta+ 0.3368 0.0085
++B beta+ 0.2258 0.0084
++B beta+ 8.68E-4 0.001076
++B beta+ 8.67E-4 0.00108
++B beta+ 8.66E-4 0.00109
++B beta+ 8.56E-4 0.001165
++B beta+ 8.62E-4 0.0011193
++B beta+ 8.6E-4 0.001135
++B beta+ 8.25E-4 0.0014099999999999998
++B beta+ 8.259999999999999E-4 0.0014000000000000002
+

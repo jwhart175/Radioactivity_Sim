@@ -1,0 +1,31 @@
+# 97Y     97SR B- DECAY                 1981PFZZ,1990BU01         10NDS    201004
+#  97SR B- DECAY                 1981PFZZ,1990BU01         10NDS    201004
+#H TYP=FUL$AUT=N. NICA$CIT=NDS 111, 525 (2010)$CUT=19-Nov-2009$           
+#            1981PfZZ: 235U(N,F), E=TH; mass separator measured: EG, IG,  
+#  CE, prompt and delayed GG, BG. GE(LI); SI(LI), surface barrier         
+#  detector for the fissions. DE, DRI and unassigned gammas from priv     
+#  comm to 1985Ha28.                                                      
+#            1990Bu01: measured T by centroid shift method                
+#  1998LH03,1996LH03,1996LH05: 1998LH03 REPORT DATA MEASURED PREVIOUSLY   
+#  BY 1996LH03,1996LH05 IN 232TH(P,FG) E=25 MEV REACTION WITH ^IGISOL     
+#  AND ^TARDIS (12 COMPTON-SUPPRESSED Ge DETECTORS); COMPARISON           
+#  WITH 1981PFZZ DATA AND TWO NEW G'S FOUND (SEE TABLE)                   
+#            Other: 1975Gu03                                              
+#B           IB- calculated from the IG(absolute) balance in the level    
+#B scheme.                                                                
+#B           No B- to 97Y GS (1981PfZZ)                                   
+#B           SUMOF IB-=85 6 %. The remainder of the intensity could       
+#B be accounted for by the gammas not placed in the level scheme          
+#B (SUMOF IG=18 1).                                                       
+#G           Previous reports by 1981PfZZ: 1976MoZC, 1976SaYW             
+#G           All data are from 1981PfZZ, unless otherwise noted           
+#G M$Multipolarities were deduced by 1981PfZZ from conversion             
+#G electron measurements (data not given).                                
+#G E(a),DE(a),RI(a),DRI(a)$FROM 1998LH03                                  
+#L E,J,T(A)$From adopted levels                                           
+#L T$From BGG(T) by centroid shift method (1990Bu01), unless              
+#L otherwise noted.                                                       
+#P  0.0         1/2+             429 MS    5              7470      16    
+SR97 Y97 beta- 7.47 0.429 0.0250
++G gamma 1.905 10.0
+

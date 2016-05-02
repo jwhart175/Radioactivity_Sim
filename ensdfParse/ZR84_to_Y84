@@ -1,0 +1,45 @@
+# 84Y     84ZR EC DECAY                 2000DO10                  09NDS    200910
+#  84ZR EC DECAY                 2000DO10                  09NDS    200910
+#H TYP=FUL$AUT=N. Nica and M. Bostan$                                     
+#H CIT=NDS 110,2815 (2009)$CUT=30-Sep-2009$                               
+#  2000DO10: 58NI(28SI,2P) E=97, 99 MEV (ONLY 84ZR WAS PRODUCED),         
+#  58NI(32S,4P2N) E=135 MEV. E=97 MEV                                     
+#  EXPERIMENT WAS DONE WITH MODIFIED ^NORDBALL, AND E=99 MEV AND E=135 MEV
+#  WERE DONE WITH A SETUP OF FIVE ^Ge DETECTORS AND A LOW-ENERGY PHOTON   
+#  SPECTROMETER (^Florida ^State ^University). MEASURED EG, IG, GG        
+#  COINCIDENCES                                                           
+#  1982SA34: GE(LI), FWHM=2.1 KEV at 1.33 MEV, low-energy photon          
+#  spectrometer, FWHM=400 EV at 5.9 KEV. Measured EG, RI,                 
+#  GG, XG.                                                                
+#  1982LI17: GE(LI), SI(LI), measured X-rays and G-rays                   
+#  Others: 1982De36, 1983Sh27.                                            
+#G CC$ FROM BrIcc v2.2b (20-Jan-2009) 2008Ki07, "Frozen Orbitals" appr.   
+#G $I(112.5G, per 100 decay of 84ZR)=98.4% 44 measured by 1983SH27        
+#G relative to I(1040G, per 100 decay of 84Y 39.5 M GS)=56.8% 2           
+#G $None of the G's reported here was seen in (HI,XNG) or in the          
+#G radioactivity spectra from the target foil taken immediately after the 
+#G beam was stopped (1994Ch01). The (HI,XNG) reaction studied populates   
+#G 84ZR strongly.                                                         
+#G RI$INTENSITIES RELATIVE TO 112G (1982SA34)                             
+#G E(B)$From 1982LI17                                                     
+#G E(A)$From 1982SA34                                                     
+#L E(X)$The ordering of the (6+) and 1+ states proposed by 2000DO10 is the
+#L same as that proposed by 2005IO02 (84SR(P,NG) dataset), but            
+#L obtained independently (except for the 112G, the reactions and details 
+#L of the level schemes are different). This supersedes the reversed      
+#L ordering, with the 1+ as GS, and with (5-) (instead of (6+)) for the   
+#L 39.5-min activity (1997TU02 and references therein)                    
+#L J$ From Adopted Levels                                                 
+#L T(a)$^Adopted values (see ^Adopted ^Levels)                            
+#P 0.0         0+                25.8 M    5              2472      7     
+ZR84 Y84 beta+ 2.472 1548.0 1
++G gamma 0.32 0.3
++G gamma 0.37289999999999995 0.41
++G gamma 0.557 0.2
++G gamma 0.6 0.2
++G gamma 0.6667000000000001 0.39
++G gamma 0.1125 1.0
++G gamma 0.044899999999999995 0.48
++G gamma 0.041100000000000005 0.37
++G gamma 0.1316 0.28
+

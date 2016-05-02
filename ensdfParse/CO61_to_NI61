@@ -1,0 +1,21 @@
+# 61NI    61CO B- DECAY (1.649 H)       1969KI09                  15NDS    201503
+#  61CO B- DECAY (1.649 H)       1969KI09                  15NDS    201503
+#H TYP=FUL$AUT=KAZIMIERZ ZUBER, BALRAJ SINGH$CIT=NDS 125, 1 (2015)$       
+#H CUT=25-Jan-2015$                                                       
+#  1969Ki09: source produced in {+61}Ni(n,p) reaction and separated by a  
+#  chemical method. Measured E|g, I|g, |b                                 
+#  Source produced by {+64}Ni(d,|a), {+61}Ni(n,p), {+59}Co(t,p)           
+#  (see references in 1978LeZA compilation), and {+58}Fe(|a,p) (1973Sc09).
+#  Others: 1956Nu02, 1968Ka21, 1971VoZX, 1972GeZG.                        
+#  From RADLIST code, deduced total decay energy is 1324 keV {I5}         
+#  agrees with 1324 keV {I1} from Q(|b{+-}) value.                        
+#B IB$|b{+-} branches are obtained from I(|g+ce) imbalance at each level. 
+#G RI$Relative intensity normalized to I|g(67.415|g)=96.                  
+#G M,MR$From Adopted Gammas                                               
+#L E$From least-squares fit to E|g data.                                  
+#L J$From Adopted Levels.                                                 
+#P 0.0         7/2-              1.649 H   5              1323.7    8     
+CO61 NI61 beta- 1.3237 5936.4 1
++B beta- 0.47502999999999995 0.956
++B beta- 0.12695 0.044000000000000004
+

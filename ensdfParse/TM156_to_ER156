@@ -1,0 +1,78 @@
+#156ER    156TM EC DECAY (83.8 S)       1975AG02,1980ZO02         12NDS    201210
+#  156TM EC DECAY (83.8 S)       1975AG02,1980ZO02         12NDS    201210
+#H TYP=FUL$AUT=C. W. REICH$CIT=NDS 113, 2537 (2012)$CUT=1-Mar-2012$       
+#  DATA SET MODIFIED (OCTOBER, 2011) BY CW REICH TO INCLUDE NEW QP        
+#   VALUE, NEW CC VALUES, REVISED G-VIBR-BAND ASSIGNMENTS AND MODIFYING   
+#   RELATED COMMENTS AND CC VALUES.                                       
+#  2003NaZX, using total-absorption |g spectroscopy, measured the         
+#   Gamow-Teller strength distribution in the 156TM decay to 156ER. This  
+#   information is presented in graphical form only.                      
+#  1975Ag02: 156TM source material produced by the (p,xn) reaction        
+#   (E(p)=157 MeV) on natural ER, followed by isotope separation.         
+#   Measured |g singles, GG coincidences using two Ge(Li) detectors of    
+#   volumes 30 CM3 and 40 CM3. CE spectra measured using a                
+#   150 mm{+2}|*3 mm Si(Li) detector. Report EG, RI, GG, CEK.             
+#  1980Zo02: 156TM produced via the 148SM(14N,6N) reaction on             
+#   isotope-separated targets. E(14N)=109,113,119 MeV. Reaction products  
+#   collected and transported to counting station using a He-jet system.  
+#   |g spectra studied using 30 CM3 and 55 CM3 GELI detectors and a 1 CM3 
+#   planar GELI detector. CE spectra measured using a 2 cm{+2}|*3 mm SILI 
+#   detector. Measured |g singles, GG coincidences and EKC values.        
+#G           |g's that are only tentatively assigned to this decay by     
+#G 1975Ag02, not reported by 1980Zo02, and not placed in the decay        
+#G scheme are not included in this table. These |g's are at 763.9,        
+#G 974.9, 1415.2, 1545.5, and 1573.4 keV.                                 
+#G E         From weighted average of values of 1975Ag02 and 1980Zo02.    
+#G RI        From weighted average of values of 1975Ag02 and 1980Zo02.    
+#G M         Except for the 344 and 543 |g's, the assignments are those   
+#G  of 1975Ag02 and 1980Zo02 and are based on the EKC values. In deducing 
+#G  these values, the normalization of the CE and |g intensity scales was 
+#G  done using the theoretical KC value for the 344 |g, assuming a pure   
+#G  E2 multipolarity.                                                     
+#G E(P)      From 1975Ag02 only.                                          
+#G E(Q)      From 1980Zo02 only.                                          
+#G E(R)      Placed only by 1980Zo02; but observed in both studies.       
+#G E(M)      Only tentatively assigned to this decay by 1980Zo02 and not  
+#G reported by 1975Ag02.                                                  
+#G E(S)      Only tentatively assigned to this decay by 1975Ag02 and not  
+#G reported by 1980Zo02.                                                  
+#G E(T)      |g placed from 1243-keV level by 1980Zo02 and from 2249-keV  
+#G level by 1975Ag02.                                                     
+#L           The two published decay schemes differ substantially in      
+#L that several levels are reported in only one scheme: there are 5       
+#L levels reported by 1975Ag02 only, 9 levels by 1980Zo02 only, and 11    
+#L levels reported by both. There is, however, only 1 |g that is          
+#L differently placed.                                                    
+#L           The coincidences indicated on the level scheme drawing are   
+#L from 1975Ag02.                                                         
+#L           No |e+|b{++} intensities or log| {Ift} values are given on   
+#L the level scheme drawing since the values deduced from the |g-intensity
+#L balances are clearly not meaningful. For example, they give log|       
+#L {If{+1}t} |?8.1 for some unique first-forbidden transitions; and the   
+#L |e+|b{++} intensities are comparable for ordinary and first-forbidden, 
+#L unique transitions. These computed |e+|b{++} intensities are most      
+#L probably too large because, with a decay energy above 7 MeV, there are 
+#L many higher-lying levels that are not observed, whose deexciting |g's  
+#L would influence the deduced intensity balance for a number of levels.  
+#L E         From least-squares fit to |g energies.                       
+#L J         From {+156}Er Adopted Levels.                                
+#L E(L)      Level from 1980Zo02 only.                                    
+#L E(K)      Level from 1975Ag02 only.                                    
+#L BAND(A)   KPI=0+ ground-state band.                                    
+#L BAND(B)   First excited KPI=0+ band.                                   
+#L BAND(C)   KPI=2+ G-vibrational band.                                   
+#L BAND(E)   KPI=0- octupole band.                                        
+#L  From the systematics of octupole states in the neighboring ^N=88      
+#L  nuclides, 1980Zo02 infer that these states form an octupole band.     
+#L  Note, however, that the configurational make-up of this band is       
+#L  thought to change at higher spin values (see, e.g., 1980Zo02 in       
+#L  (HI,XNG) and the comment on the associated band in the Adopted Levels 
+#L  data set).                                                            
+#L BAND(I)   KPI=2+ band. Possible two-phonon |b|g-vibration.             
+#L BAND(Y)   Probable octupole-related states.                            
+#L  From consideration of the systematics of octupole excitations in the  
+#L  ^N=88 nuclides in this mass region, as well as from results of a      
+#L  quadrupole-octupole coupling calculation, 1980Zo02 infer that these   
+#L  levels have octupole character.                                       
+#P    0         2-                83.8 S   18                7373   28    
+

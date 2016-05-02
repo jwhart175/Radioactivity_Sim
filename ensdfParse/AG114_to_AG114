@@ -1,0 +1,17 @@
+#114AG    114AG IT DECAY                1990PE10                  12NDS    201203
+#  114AG IT DECAY                1990PE10                  12NDS    201203
+#H TYP=FUL$AUT=Jean Blachot$CIT=NDS 113, 515 (2012)$CUT=1-Jan-2012$       
+#  Activity: {+238}U(p,F), E=20 MeV. On-line isotope separator IGISOL     
+#  Measured: |g, |g|g, |gX, |g(t)                                         
+#  The assignment is derived from observation of coin with Ag K| x ray    
+#  No |b coincidence observed for the |g. The relative positions of       
+#  the transitions in the cascade is not given by the authors.            
+#P 199         (|<6+)            1.50 MS   5                              
++G gamma 0.3533 1.0
++G gamma 0.30119999999999997 0.38
++G gamma 0.6535 0.43
++G gamma 0.422 0.37
++G gamma 0.7225 0.11
++G gamma 0.4205 0.2
++G gamma 0.8418 0.34
+

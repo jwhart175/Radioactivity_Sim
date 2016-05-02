@@ -1,0 +1,56 @@
+#172YB    172TM B- DECAY (63.6 H)       1974RE07,1967OT03,1968WI2295NDS    199509
+#  172TM B- DECAY (63.6 H)       1974RE07,1967OT03,1968WI2295NDS    199509
+#H TYP=FUL$AUT=BALRAJ SINGH$CIT=NDS 75,199 (1995)$CUT=31-May-1995$        
+#  Source obtained from chemical separation of 172TM activity from        
+#  172ER B- decay. 172ER produced by double-neutron capture in            
+#  enriched 170ER                                                         
+#  1974Re07: measured G                                                   
+#  1967Ot03: measured T1/2, G, GG                                         
+#  1968Wi22: measured G, GG, CE, B, BG, BCE                               
+#  1966Ha15: measured B, BG, BG(THETA) (shape factors)                    
+#  Earlier measurements:                                                  
+#  G: 1961Or01, 1961He11, 1961Ha42, 1961Ku10, 1956Ne08                    
+#  GG: 1961Or01, 1961He11, 1961Ha42                                       
+#  B: 1963Ku22, 1961Or01, 1961He11, 1961Ha42, 1960Vo08, 1956Ne08          
+#  BG: 1961Ha42, 1961Or01, 1961He11                                       
+#  GG(THETA): 1973HoYJ and 1972WuZZ (thesis)                              
+#  GG(THETA,H,T): 1970Wa25, 1970He17, 1969Fo07                            
+#  T1/2 and isotopic identification: 1963Ku22, 1961Or01, 1961Ha42,        
+#  1961Ku10, 1961He11, 1960Vo08, 1956Ne08                                 
+#  Systematics of BETA decay: 1979Mi17                                    
+#L BAND(A)$ GS BAND                                                       
+#L BAND(B)$ KPI=1- OCTUPOLE BAND                                          
+#L BAND(C)$ KPI=0+ BAND.                                                  
+#L BAND(D)$ KPI=0+ BAND                                                   
+#L BAND(E)$ KPI=2+ GAMMA-BAND                                             
+#L BAND(F)$ KPI=2+ BAND.                                                  
+#L BAND(G)$ KPI=3+ BAND.                                                  
+#L BAND(H)$ KPI=3+ BAND.                                                  
+#L E$From least-squares fit to EG's                                       
+#L J$From adopted levels.                                                 
+#B E$From 1966Ha15. Others: 1963Ku22, 1961Or01, 1961He11, 1961Ha42,       
+#B 1960Vo08                                                               
+#G           The following GAMMA rays with EG(RI) reported by 1967Ot03    
+#G are omitted since these seem to belong to background radiation:        
+#G 133.6 (AP 0.1), 238.5 (AP 0.2), 351.8 (AP 0.2), 1461.0 (3.9),          
+#G 1592.7 (1.4)                                                           
+#G           The following GAMMA rays with EG(RI) reported by 1967Ot03 are
+#G omitted since these are not confirmed in later studies                 
+#G (1968Wi22,1974Re07): 112.8 (AP 0.1), 145.0 (AP 0.2), 203.6 (AP 0.1),   
+#G 374.1 (AP 0.1), 542.0 (AP 0.1), 1116.0 (AP 1), 1184.0 (AP 1),          
+#G 1491.0 (AP 0.5), 1545.0 (AP 0.5). None of these GAMMA rays is          
+#G observed by 1968Wi22. The following upper limits are quoted,           
+#G respectively: 0.15, 0.2, 0.3, 0.2, 0.1, 1.0, 1.0, 0.1, 0.1             
+#L           The 1376, 1750, and 1807 levels proposed by 1967Ot03 are     
+#L omitted since the GAMMA rays connecting these levels are not reported  
+#L in other studies                                                       
+#G E,RI$From 1974Re07                                                     
+#G M,MR$From adopted gammas for GAMMA rays below 600 where internal       
+#G conversion is significant (>1%). For GAMMA rays above 600, values      
+#G are from GG(THETA) data (1973HoYJ,1972WuZZ)                            
+#N 0.060     5            1.0          1.0                                
+#N NR$SUMOF (TI of G's to GS)=71 4. IB(GS)=29 4 (1966Ha15)                
+#N                                                                     3  
+#P 0.0              2-               63.6 H    3          1880      6     
+TM172 YB172 beta- 1.88 0.0 1.0
+

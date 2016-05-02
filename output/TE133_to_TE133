@@ -1,0 +1,15 @@
+#133TE    133TE IT DECAY (55.4 M)       1984WA04,1984BR31         11NDS    201104
+#  133TE IT DECAY (55.4 M)       1984WA04,1984BR31         11NDS    201104
+#H TYP=FUL$AUT=YU. KHAZOV AND A. RODIONOV, F.G. KONDEV$                   
+#H CIT=NDS 112, 855 (2011)$CUT=31-Oct-2010$                               
+#G CC$ FROM BrIcc v2.2 (31-Mar-2008) 2008KiAA, "Frozen Orbitals" appr.    
+#  1984Wa04: {+133m}Te(|b{+-}),(IT) [from {+235}U(n,F), E=thermal];       
+#  measured T{-1/2}, E|g, I|g, |g|g-coin. HPGe detectors                  
+#  1984Br31: {+133,133m}Te(|b{+-}) from {+133}Sb |b{+-} decay; measured   
+#  absolute I|g; deduced |b{+-}, IT-decay branching ratios.               
+#  Fission products, radiochemical methods, mass separation.              
+#  Others: 1968Pa03, 1968Mc09 and 1968Be64.                               
+#P 334.26    4  (11/2-)          55.4 M    4                              
+TE133 TE133 IT 0.0 3324.0 1.0
++G gamma 0.33426 0.4143
+

@@ -1,0 +1,41 @@
+# 61MN    61CR B- DECAY (237 MS)        2009CR02                  15NDS    201503
+#  61CR B- DECAY (237 MS)        2009CR02                  15NDS    201503
+#H TYP=FUL$AUT=KAZIMIERZ ZUBER, BALRAJ SINGH$CIT=NDS 125, 1 (2015)$       
+#H CUT=25-Jan-2015$                                                       
+#  2009Cr02:{+61}Cr produced through the {+9}Be({+76}Ge,X) reaction at a  
+#  beam energy of 130 MeV/nucleon. The {+76}Ge beam was produced by the   
+#  coupled cyclotrons at the National Superconducting Cyclotron           
+#  Laboratory at Michigan State University. Fragments were separated      
+#  using the A1900 fragment separator. The |b and |g spectra were measured
+#  using the Beta Counting System and the Segmented Germanium Array, as   
+#  well as three Si PIN detectors. Measured E|g, I|g, |g|g, |b, |b|g      
+#  coin, (fragment)|b coin, half-life of the {+61}Cr ground state.        
+#  Others dealing with production and half-life of {+61}Cr:               
+#  2001So07 (also 1999So20 and 1999Le67): {+61}Cr produced in the         
+#  fragmentation of 60.4 MeV/nucleon {+86}Kr beam with {+58}Ni target;    
+#  LISE3 spectrometer at GANIL facility. Measured half-live of {+61}Cr.   
+#  1998Am04: {+61}Cr formed in fragmentation of 500 MeV/nucleon {+86}Kr   
+#  beam incident on a Be target, FRS spectrometer at GSI facility.        
+#  Measured half-life of decay of {+61}Cr.                                
+#  In view of the large Q value of 9.4 MeV, this decay scheme may be      
+#  incomplete since the levels, currently, are reported only up to 2.4 MeV
+#  From RADLIST code, deduced total decay energy of 9290 {I450} keV       
+#  agrees with 9290 {I130} expected from Q value                          
+#B IB,LOGFT$Apparent |b feedings and log| {Ift} values deduced by         
+#B 2009Cr02 from absolute |g-ray intensities. Uncertainties in log| {Ift} 
+#B values are given by 2009Cr02 as 0.1 to 0.2, but the evaluators omit    
+#B these here since the decay scheme is most likely incomplete and        
+#B the log| {Ift} values can be treated as (lower) limits only            
+#L E$ From least-squares fit to E|g data                                  
+#L J$ From Adopted Levels                                                 
+#L J(A)$ Negative parity is suggested by the apparent LOGFT values        
+#P 0           (5/2-)            237 MS    11             929E1     13    
+CR61 MN61 beta- 9.29 0.237 1
++G gamma 0.15719999999999998 0.09
++G gamma 1.1422 0.21
++G gamma 0.3548 0.16
++G gamma 1.4972999999999999 0.09
++G gamma 1.8608 0.2
++G gamma 0.5346000000000001 0.05
++G gamma 2.3781999999999996 0.11
+

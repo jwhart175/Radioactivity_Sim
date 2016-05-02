@@ -1,0 +1,158 @@
+#104CD    104IN EC DECAY (1.80 M)       1989VA05,1978HU06,1977VA0607NDS    200709
+#  104IN EC DECAY (1.80 M)       1989VA05,1978HU06,1977VA0607NDS    200709
+#H TYP=FUL$AUT=JEAN BLACHOT$CIT=NDS 108,2035 (2007)$CUT=30-Mar-2007$      
+#  Activity: 106CD(P,XN) E=39 MEV (1978HU06),                             
+#  92MO(16O,3NP) E=100 MEV (1989VA05,1977VA06),                           
+#  92MO(14N,2N) E=72 MEV (1989VA05,1976COYX),                             
+#  92MO(20NE,3p5n) (1989VA05)                                             
+#  1989VA05 selected A=104 by means of the mass separator.                
+#  Measured: G, GG, B, BG                                                 
+#  1991SH19: from a measurement of mass ratio 104IN/103IN and combined    
+#  with the mass of 104CD, they give a Q+=7938 KEV 140 for 104IN          
+#  The level scheme is mainly derived from 1989VA05.                      
+#  Data from 1978HU06 are consistent with the data from 1977VA06          
+#  and 1976COYX but are more complete.                                    
+#  Some discrepancies for the GAMMA energies between 1978HU06             
+#  and 1977VA06 should, however, be noted.                                
+#  An 884.8-KEV GAMMA line (RI=0.48) has been observed by                 
+#  1978HU06 but has not been seen by others.                              
+#  The levels above 2492 KEV are from 1989VA05 and 1978HU06 only.         
+#  T(104IN): weighted average of values from 1978HU06, 1977VA06, 1976COYX 
+#  The 0-, 658.0-, and 1492.1-KEV levels are assumed                      
+#  to be the first members of the g.s. band and are therefore,            
+#  assigned JPI=0+, 2+, and 4+                                            
+#E IE$From imbalances but 1989VA05 point out not reliable.                
+#G E(A)$Seen only by 1989VA05                                             
+#G RI$From 1989VA05                                                       
+#G E(D)$Not seen by 1989VA05                                              
+#G           Above 4800 level, statistical gammas not resolved            
+#P  0          (6+)               1.80 M    3             7870      80    
+IN104 CD104 beta+ 7.87 0.0 1.
++G gamma 0.1732 0.0022
++G gamma 0.3305 0.0046
++G gamma 0.3374 0.0042
++G gamma 0.3423 0.0040999999999999995
++G gamma 0.4198 0.004
++G gamma 0.4819 0.005
++G gamma 0.6143 0.01
++G gamma 0.631 0.0076
++G gamma 0.636 0.005699999999999999
++G gamma 0.7938 0.011200000000000002
++G gamma 0.8621 0.0077
++G gamma 0.8847999999999999 0.0048
++G gamma 0.9567 0.008100000000000001
++G gamma 1.0395999999999999 0.0134
++G gamma 1.1385999999999998 0.0038
++G gamma 1.1464 0.0048
++G gamma 1.1649 0.0068000000000000005
++G gamma 1.2115 0.0032
++G gamma 1.229 0.0031
++G gamma 1.2681 0.004
++G gamma 1.2752999999999999 0.004
++G gamma 1.3282 0.003
++G gamma 1.344 0.011000000000000001
++G gamma 1.3608 0.0034999999999999996
++G gamma 1.3820999999999999 0.005
++G gamma 1.4082999999999999 0.0054
++G gamma 1.4605 0.008
++G gamma 1.4676 0.0031
++G gamma 1.4919 0.011000000000000001
++G gamma 1.5395 0.008
++G gamma 1.5734000000000001 0.0048
++G gamma 1.6547 0.0034000000000000002
++G gamma 1.667 0.0064
++G gamma 1.7238 0.0038
++G gamma 1.7308 0.001
++G gamma 1.7367000000000001 0.006
++G gamma 1.7529000000000001 0.0039000000000000003
++G gamma 1.771 0.005
++G gamma 1.8007 0.0034999999999999996
++G gamma 1.855 0.0045000000000000005
++G gamma 1.998 0.01
++G gamma 2.074 0.0074
++G gamma 2.1104000000000003 0.0033
++G gamma 2.1315 0.0027
++G gamma 2.1369000000000002 0.0054
++G gamma 2.1521999999999997 0.0037
++G gamma 2.2064 0.0045000000000000005
++G gamma 2.2209 0.006999999999999999
++G gamma 2.2528 0.009000000000000001
++G gamma 2.4221 0.0046
++G gamma 2.4806 0.0052
++G gamma 2.4983 0.006
++G gamma 2.6557 0.0025
++G gamma 2.6675999999999997 0.0051
++G gamma 2.7023 0.0055000000000000005
++G gamma 2.7121999999999997 0.0026
++G gamma 2.7588000000000004 0.0024
++G gamma 2.9236 0.004
++G gamma 2.9346 0.0031
++G gamma 3.1391999999999998 0.0031
++G gamma 3.15 0.0062
++G gamma 3.3165 0.0022
++G gamma 3.3515 0.0025
++G gamma 3.38 0.0017000000000000001
++G gamma 3.5473000000000003 0.0017000000000000001
++G gamma 3.7075 0.0026
++G gamma 3.7337 0.0013
++G gamma 3.7407 0.0026
++G gamma 3.8190999999999997 0.0031
++G gamma 3.8507 0.0017000000000000001
++G gamma 3.9373 0.0014000000000000002
++G gamma 3.9436 0.0021
++G gamma 3.9651 0.0018
++G gamma 0.658 1.0
++G gamma 0.8341000000000001 0.99
++G gamma 0.6222000000000001 0.145
++G gamma 1.4562 0.006
++G gamma 1.6382 0.006999999999999999
++G gamma 0.8781 0.294
++G gamma 0.3212 0.032
++G gamma 0.9432999999999999 0.149
++G gamma 0.3783 0.0098
++G gamma 1.0005 0.09699999999999999
++G gamma 0.4244 0.0064
++G gamma 1.0477 0.01
++G gamma 1.8813 0.011000000000000001
++G gamma 1.1152 0.0054
++G gamma 0.4997 0.024
++G gamma 0.5026 0.043
++G gamma 1.1254000000000002 0.01
++G gamma 1.2315 0.0038
++G gamma 2.1007 0.006
++G gamma 0.4033 0.0077
++G gamma 1.2819 0.024
++G gamma 0.4739 0.052000000000000005
++G gamma 1.353 0.01
++G gamma 0.4677 0.006999999999999999
++G gamma 0.533 0.0276
++G gamma 0.7102 0.012
++G gamma 1.6184 0.019
++G gamma 0.2925 0.0029
++G gamma 0.7674 0.02
++G gamma 1.6445999999999998 0.012
++G gamma 1.7012 0.006
++G gamma 0.7758999999999999 0.012
++G gamma 0.8411000000000001 0.0138
++G gamma 0.8041 0.0068000000000000005
++G gamma 1.7478 0.006500000000000001
++G gamma 0.7605 0.006500000000000001
++G gamma 0.8172 0.016
++G gamma 0.9276 0.02
++G gamma 0.5484 0.005
++G gamma 1.0214 0.0127
++G gamma 2.0062 0.018000000000000002
++G gamma 0.7724 0.006
++G gamma 1.3169000000000002 0.013000000000000001
++G gamma 1.2454 0.0049
++G gamma 1.4165 0.012
++G gamma 1.338 0.0052
++G gamma 1.5144000000000002 0.016
++G gamma 1.5787 0.006
++G gamma 1.7156 0.006999999999999999
++G gamma 1.8182 0.009000000000000001
++G gamma 1.9407999999999999 0.006999999999999999
++G gamma 1.4965 0.008
++G gamma 2.0062 0.018000000000000002
++G gamma 1.6745 0.02
+

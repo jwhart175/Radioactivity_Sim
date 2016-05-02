@@ -1,0 +1,66 @@
+#167TM    167YB EC DECAY                1971FU10                  00NDS    200008
+#  167YB EC DECAY                1971FU10                  00NDS    200008
+#H TYP=FUL$AUT=Coral M. Baglin$CIT=NDS 90, 431 (2000)$CUT=5-Jul-2000$     
+#  Others: 1954HA16, 1958AR59, 1959HA09, 1960BA32, 1964WA04, 1966PA17,    
+#  1967PA04, 1978CR06, 1987BAZB, 1993ABZZ.                                
+#  The decay scheme and most data are from 1971FU10 (sources              
+#  from 168YB(G,N) (bremsstrahlung from 30-MEV electron                   
+#  accelerator), YB oxide targets enriched to 20% in 168YB;               
+#  sources also from spallation of metallic tantalum (EP=680              
+#  MEV), chemical separation; measured EG, IG (GELI detectors             
+#  (several), high-resolution GELI X-RAY spectrometer                     
+#  (FWHM=500 EV at 113 KEV)), ECE, ICE (mag spect,                        
+#  resolution=0.05%), prompt and delayed GG coin (GELI-GELI,              
+#  GELI-NAI)).                                                            
+#G           RI(TM XK) AP 1220, relative to RI=100 for 176.2G             
+#G (1960WI15). The corresponding decay-scheme value is                    
+#G RI(TM XK)=911.                                                         
+#E           EC+B+ feedings are from intensity imbalance at each          
+#E level. It is assumed that there is no direct EC feeding to             
+#E the GS or the 10.4 level.                                              
+#L J         Adopted values.                                              
+#G M         From EKC and/or CE subshell ratios, except where noted;      
+#G the photon and CE intensity scales were normalized through             
+#G KC=2.23 (M1+E2 theory, MR=0.090) for 106.2G. Uncertainties in I(CE)    
+#G data quoted from 1971FU10 are typically 20-30%, but at low energies    
+#G they may be much larger.                                               
+#L BAND(A)   1/2[411] BAND.                                               
+#L BAND(B)   1/2[541] BAND.                                               
+#L BAND(C)   7/2[404] BAND.                                               
+#L BAND(D)   7/2[523] BAND.                                               
+#L BAND(E)   3/2[411] BAND.                                               
+#L BAND(F)   5/2[402] BAND.                                               
+#G M(AE),MR(E)$From adopted gammas; based on G(|q) in 165HO(A,2NG).       
+#G M(BK),MR(BK)$From L subshell ratios (1965GR20) adopted                 
+#G by 1976KR21.                                                           
+#G M(D),MR(D)$Reported in 1981ABZR; experimental details not given.       
+#G E(FH)     Placement from adopted levels, gammas.                       
+#G M(GH)     From adopted gammas; based on (P,2NG)/(P,NG)                 
+#G excitation-strength ratios.                                            
+#G CC(N)     Value and uncertainty cover combined range for M1 and E2.    
+#G E(X)      No intensity is attributed to this questionable              
+#G second placement of 1511.9G.                                           
+#G E(Z)      Placed by 1993ABZZ from 383 level, but ICE(L1)=2.0 3 and     
+#G ICE(M1)=0.5 2 (1993ABZZ) imply TI=74 8 for that E1 placement.          
+#G Such an intense transition would, in turn, imply a %(EC+B+)=15         
+#G (DJ=2, DPI=no) branch to the 383 level and a -15% branch to the 296    
+#G level, which is untenable. Also, this G is absent in (A,2NG),          
+#G whereas the 91G (which does deexcite the 383 level) is observed        
+#G strongly in that reaction. The evaluator; therefore, concludes that    
+#G the placement of the 87.54G by 1993ABZZ is incorrect.                  
+#P 0.0          5/2-             17.5 M    2              1954      4     
++B beta+ 7.508E-4 0.001
++B beta+ 0.307 0.008
++B beta+ 0.30310000000000004 0.008
++B beta+ 0.3023 0.008
++B beta+ 0.2236 0.008
++B beta+ 8.255000000000001E-4 0.00133
++B beta+ 8.227E-4 0.00136
++B beta+ 8.156E-4 0.0014099999999999998
++B beta+ 8.152000000000001E-4 0.0014099999999999998
++B beta+ 8.057E-4 0.00148
++B beta+ 7.976E-4 0.00154
++B beta+ 7.909000000000001E-4 0.00159
++B beta+ 7.883E-4 0.00161
++B beta+ 7.823E-4 0.001
+

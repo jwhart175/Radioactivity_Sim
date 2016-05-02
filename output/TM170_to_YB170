@@ -1,0 +1,56 @@
+#170YB    170TM B- DECAY                1990KE01,1988KUZM,1979BU2102NDS    200211
+#  170TM B- DECAY                1990KE01,1988KUZM,1979BU2102NDS    200211
+#H TYP=ERR$AUT=CORAL M. BAGLIN$COM=CHANGED 1987GEZW TO 1987GEZU$          
+#H DAT=29-Oct-2007                                                        
+#H TYP=FUL$AUT=CORAL M. BAGLIN$CIT=NDS 96, 611 (2002)$CUT=15-Aug-2002$    
+#  Others: 1995VI11, 1994DH01,                                            
+#  1993MA52, 1993SA44, 1992BEYY, 1987GEZU, 1986VE01, 1986VE05, 1985ME18,  
+#  1985VE01, 1982BO26, 1981GU06, 1979KE04, 1976TU01, 1973KH04,            
+#  1973PL08, 1972GR05, 1972GU03, 1971MA43, 1970MO07, 1969AN24, 1969DA03,  
+#  1969HA20, 1969NE02, 1969VA17, 1968AN19, 1968NI06, 1968NA08, 1968RA30,  
+#  1967AM02, 1967AN02, 1967BA27, 1967GR11, 1966FU03, 1966RA04, 1965ME08,  
+#  1965RO17, 1965RU03, 1963FO02, 1962EL03, 1960MA04, 1956DE57, 1952MC05,  
+#  1952GR18.                                                              
+#  170TM sources, typically, were produced by 169TM(N,G).                 
+#B           B- spectrum shape: 1969VA17, 1968AN19, 1967AN02, 1967GR11.   
+#B Shape is non-allowed for both branches (1969VA17).                     
+#B           883B-84G(|q): A2=-0.179 18 at 1.5 m{-e}c{+2} after correction
+#B for time dependent attenuation (1976TU01). Others: 1973KH04,           
+#B 1971MA43, 1969DA03, 1968RA30, 1967AM02, 1965RU03.                      
+#B           Inner bremsstrahlung: 1981GU06, 1994DH01.                    
+#B           B- decay nuclear matrix element parameters: see, e.g.,       
+#B 1985VE01, 1982BO26, 1973KH04, 1971MA43, 1968RA30, 1968AN19, 1967AN02,  
+#B 1965RU03.                                                              
+#B           Total K- and L-shell ionization probabilities: 1995VI11,     
+#B 1992BEYY.                                                              
+#G           Relative Yb X-RAY intensity data: 1986VE01, 1985ME18,        
+#G 1970MO07, 1969HA20 [I(XK Yb):I(XK Er):I(79G Er):I(84G Yb)], 1986VE01,  
+#G 1986VE05 [XK and/or XL intensity ratios]                               
+#G           Absolute Yb X-RAY intensity data: XKA, 2.54% 5               
+#G (1990KE01); XKA, 0.67% 2 (1990KE01); XKA, 1.73% 5 (1988KUZM).          
+#G           Transverse polarization of CEL(84 KEV): ^K{-^L}=0.34 14      
+#G (1968NA08).                                                            
+#G           L1 fluorescence yield of YB=0.131 13 (1993MA52).             
+#G           Conversion electron MOSSBAUER spectroscopy (84G): 1993SA44.  
+#L E         From measured EG.                                            
+#L J         FROM ADOPTED LEVELS.                                         
+#B E         From 1969VA17. Others: 1969AN24, 1967AN02, 1967GR11.         
+#L T(A)      From BG(T). Weighted average of 1.60 NS 2 (1972GR05),        
+#L 1.62 NS 2 (1972GU03), 1.58 NS 3 (1967BA27). Others:                    
+#L 1.56 NS 8 (1966FU03), 1.60 NS 5 (1966RA04), 1.64 NS 5 (1965ME08),      
+#L 1.56 NS 5 (1965RO17), 1.47 NS 4 (1963FO02), 1.61 NS 6 (1962EL03),      
+#L 1.62 NS 7 (1961GO24), 1.57 NS 5 (1952GR18).                            
+#G M(B)      From the following conversion coefficient values and ratios. 
+#G EKC: 1.43 4 (1990KE01), 1.41 3 (1986VE01), 1.39 3 (1985ME18),          
+#G 1.46 7 (1973PL08), 1.41 5 (1971CA08), 1.37 4 (1970MO07), 1.41 4        
+#G (1969NE02), 1.48 5 (1966DI02), from I(XK)/I(84G) adjusted by evaluator 
+#G assuming |w{-k}(Yb)=0.950; numerous less precise data also exist.      
+#G |a{-^LMN}=4.87 24 (1990KE01). EKC/ELC:0.356 9 (1968NI06), 0.369 5      
+#G (1960MA04). EL1C/EL2C: 0.0798 4 (1979BU21). EL1C/EL3C: 0.082 3         
+#G (1966KA13), 0.0796 18 (1967GE07), 0.0810 12 (1966ER03).                
+#G EL2C/EL3C:1.012 3 (1979BU21), 0.985 9 (1966KA13), 0.994 10 (1967GE07), 
+#G 0.996 14 (1966ER03). EL3C/EM3C: 3.91 4 (1968NI06). EMC/ENC+: 3.77 9    
+#G (1968NI06). ECC: 8.1 2 (1973PL08).                                     
+#P 0.0          1-               128.6 D   3              968.0      8    
+TM170 YB170 beta- 0.968 1.1111039999999998E7 0.0248
+

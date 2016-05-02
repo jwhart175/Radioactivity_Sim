@@ -1,0 +1,32 @@
+# 27AL    27SI EC DECAY                 1985DA04,1974MA41,1971DE0511NDS    201108
+#  27SI EC DECAY                 1985DA04,1974MA41,1971DE0511NDS    201108
+#H TYP=FUL$AUT=M. Shamsuzzoha Basunia$CIT=NDS 112, 1875 (2011)$           
+#H CUT=30-Nov-2010$                                                       
+#  Other: 1971Be58                                                        
+#  1985Da04: 27SI produced from 27AL(P,N), E=9 MeV, reaction, Compton     
+#  suppressed Ge(Li), HPGe, NAI detectors; Measured: EG, RI, deduced weak 
+#  feeding branches to 27AL excited levels.                               
+#  1974Ma41: 27SI produced from 27AL(P,N), E=10 MeV, reaction, Ge(Li)     
+#  detector; Measured EG, RI, deduced weak feeding branches to 27AL       
+#  levels and absolute G-ray feeding intensity to the 2210 keV level.     
+#  1971De05: 27SI produced from 27AL(P,N) reaction, Ge(Li) detector,      
+#  measured EG, RI, deduced upper limits for the G-ray feeding intensity  
+#  to 27AL excited levels.                                                
+#G E,M,MR$From Adopted Gammas.                                            
+#G RI$Deduced by the evaluator based on B-feedings (G-ray intensities are 
+#G not presented in 1985DA04, 1974MA41, 1971DE05).                        
+#L E$From a least-squares fit to G-ray energies.                          
+#L J$From Adopted Levels                                                  
+#P 0.0         5/2+              4.16 S    4              4812.36   10    
+SI27 AL27 beta+ 4.81236 4.16 1.0
++B beta+ 1.7201300000000002 0.9971
++B beta+ 1.31381 1.0E-4
++B beta+ 1.2322899999999999 6.0E-5
++B beta+ 0.6715399999999999 0.00178
++B beta+ 0.43687 1.6E-4
++G gamma 1.7203 1.3E-4
++G gamma 2.7346999999999997 4.0E-5
++B beta+ 0.329357 2.4E-4
++G gamma 2.982 2.6E-4
++B beta+ 0.31992000000000004 5.0E-6
+

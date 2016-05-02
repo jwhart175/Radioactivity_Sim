@@ -1,0 +1,37 @@
+#174LU    174LU IT DECAY (142 D)        1987VA34                  99NDS    199908
+#  174LU IT DECAY (142 D)        1987VA34                  99NDS    199908
+#H TYP=FUL$AUT=E. BROWNE, HUO JUNDE$CIT=NDS 87, 15 (1999)$CUT=1-Nov-1998$ 
+#  MODIFIED COMMENTS FOR T1/2. UPDATED MOMM1 OF 142-D ISOMER.             
+#  Others: 1959Di44, 1962Dz07, 1965Fu01, 1965Ri05, 1967Gi06, 1969Ka19,    
+#  1975Ki06.                                                              
+#  174LU (142 D) produced with 40AR (E=304 MEV), 84KR (E=714 MEV), and    
+#  136XE (E=1156 MEV) on tungsten targets (1987Va34). No additional 174LU 
+#  isomers with T GT 2 MIN were observed (1983Zy02).                      
+#P     170.83 5(6-)              142 D     2                              
+LU174 LU174 IT 0.0 1.22688E7 1.0
+
+#174LU CG RI(B)     Contains component due to 145-ns IT DECAY                    
+#G RI(B)     Contains component due to 145-ns IT DECAY                    
+#G RI        Relative to RI(129.066G)=100                                 
+#G M         From 176YB(P,3NG).                                           
+#P 240.7     9 3+                395 NS    15                             
+LU174 LU174 IT 0.0 3.95E-7 1.0
++G gamma 0.067058 0.08
++G gamma 0.11164 0.006
++G gamma 0.12906600000000001 1.0
++G gamma 0.19612000000000002 0.322
+
+#174LU CG RI(B)     Contains component due to 395-ns IT DECAY                    
+#G RI(B)     Contains component due to 395-ns IT DECAY                    
+#G M         From 176YB(P,3NG).                                           
+#P 365.1     9 (4-)              145 NS    3                              
+LU174 LU174 IT 0.0 1.45E-7 1.0
++G gamma 0.067058 0.08
++G gamma 0.11164 0.006
++G gamma 0.088525 0.025
++G gamma 0.12906600000000001 0.035
++G gamma 0.10565000000000001 0.02
++G gamma 0.12437000000000001 0.026000000000000002
++G gamma 0.164885 0.049
++G gamma 0.253415 0.158
+

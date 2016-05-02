@@ -1,0 +1,33 @@
+#108IN    108SN EC DECAY                1978HS01,1981BU20         ENSDF    200810
+#  108SN EC DECAY                1978HS01,1981BU20         ENSDF    200810
+#H TYP=FUL$AUT=Jean Blachot$CIT=ENSDF$CUT=1-Jul-2008$                     
+#H TYP=FUL$AUT=Jean Blachot$CIT=NDS 91, 135 (2000)$CUT=1-Jun-2000$        
+#E TI$From I(|g+ce)-imbalance at each level                               
+#G E$From 1981BU20, except where noted otherwise. Others:                 
+#G 1978HS01, 1977VA14, 1975AD10, 1970KI04                                 
+#G E(A)$From 1978HS01                                                     
+#G RI(B)$From 1981BU20                                                    
+#G RI$From 1978HS01, except where noted otherwise. Others:                
+#G 1981BU20, 1979PL06, 1977VA14, 1975AD10, 1970KI04                       
+#G M$From |a(K)exp based on I|g and Ice(K) of 1977VA14 (Ice for 36|g).    
+#G Data are normalized so that |a(K)exp(633|g {+108}Cd)=0.00301 (E2       
+#G theory) multipolarities designated ^D,Q are from |g(|q) in             
+#G {+108}Cd(p,n) (1978HS01). |a(K)exp for the 236|g is from Ice(K) of     
+#G 1975AD10 normalized to |a(K)exp(168|g) value of 1977VA14. Other        
+#G |a(K)exp: 1975AD10                                                     
+#G MR$From |g(|q) in {+108}Cd(p,n|g) (1978HS01) with adopted J|p          
+#L           The decay scheme proposed by 1981BU20 is                     
+#L identical to that of 1978HS01, except for the 847.6, 1926.8 and        
+#L 1957.2 levels for which the deexciting transitions were not            
+#L observed by 1981BU20.                                                  
+#L E$All levels have been determined by evaluator                         
+#L considering the energy and the position of the two                     
+#L isomers.                                                               
+#L J$From adopted levels, except as noted.                                
+#L E$From evaluator                                                       
+#P 0.0           0+              10.30 M    8              2075     19    
++B beta+ 0.1499 0.0085
++B beta+ 0.345 0.00812
++B beta+ 0.173 0.00856
++B beta+ 8.584E-4 0.0011200000000000001
+

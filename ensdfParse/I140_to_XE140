@@ -1,0 +1,45 @@
+#140XE    140I B- DECAY                 1999LI18                  07NDS    200707
+#  140I B- DECAY                 1999LI18                  07NDS    200707
+#H TYP=FUL$AUT=N. NICA$CIT=NDS 108,1287 (2007)$CUT=1-Feb-2006$            
+#  1999Li18:                                                              
+#  Activity: n-induced fission product, mass separated, doubly-charged    
+#  beam.                                                                  
+#  Measured: |g, ce, |g|g, |b|g|g(t), semi. About 80 |g's with            
+#  E|g|<2.8 MeV observed but authors report only partial decay scheme.    
+#  No |b{+-}n decay was observed                                          
+#  Measured: |g (1985RoZR,1971Kr22), delayed neutrons (1980Al15,1975Is03, 
+#  1974Kr21,1973To16).                                                    
+#  Others: 1976Ah01, 1970Wi16, 1970HeZH, 1969ScZY                         
+#L BAND(a)$GS BAND                                                        
+#L BAND(b)$3- OCTUPOLE BAND                                               
+#L J$From Adopted Levels (same values as from 1999Li18)                   
+#L T$From 1999Li18, except where noted                                    
+#L T(C)$From Adopted Levels                                               
+#B E$av E|b=2610 from analysis of 1982Al01                                
+#B $1999Li18 observed significant |b{+-} from {+140}I g.s. to {+140}Xe    
+#B 2+, 4+, and 6+ levels (see comment in {+140}I Adopted Levels). They    
+#B also stated that the relatively strong |b{+-} transitions observed to  
+#B the 3- and 5- states are thus of the allowed Gamow-Teller type         
+#B $The decay scheme is incomplete                                        
+#G E(A)$Transition feeding 376 level; used as gate in the half-life       
+#G determination                                                          
+#G E(B)$Transition feeding 678 level used as gate in the half-life        
+#G determination                                                          
+#G $B(E2)|_(W.u.): Some of the B(E2)|_(W.u.) differ from, but are         
+#G consistent with, the values in adopted dataset                         
+#P 0.0         (4-)              0.86 S    4              8720      SY    
+I140 XE140 beta- 8.72 0.86 1.0
++B beta- 3.74 0.27
++G gamma 0.37665699999999996 0.9799378
++B beta- 3.532 0.39
++G gamma 0.45763 0.6785720000000001
++B beta- 3.24 0.08
++G gamma 0.5824 0.09280470000000002
++B beta- 3.213 0.054000000000000006
++G gamma 0.6787000000000001 0.016964299999999998
++G gamma 1.1367 0.043907600000000005
++B beta- 3.091 0.209
++G gamma 0.2586 0.0069853
++G gamma 0.355 0.012972700000000002
++G gamma 0.9374 0.1876052
+

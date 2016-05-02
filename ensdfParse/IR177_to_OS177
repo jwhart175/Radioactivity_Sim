@@ -1,0 +1,34 @@
+#177OS    177IR EC DECAY                1990BO19,1993SCZZ         03NDS    200305
+#  177IR EC DECAY                1990BO19,1993SCZZ         03NDS    200305
+#H TYP=ERR$AUT=F.G. KONDEV$DAT=28-Nov-2011$COM=Typo fixed for Band(B)conf$
+#H TYP=FUL$AUT=F.G. KONDEV$CIT=NDS 98, 801 (2003)$CUT=1-Aug-2002$         
+#  -----------------------------------------------------------------------
+#  Activity produced using the 141PR(40AR,4N) reaction. Projectile: 40AR, 
+#  E=240 MEV. Target: AP 2 MG/CM2. Detectors: SI-surface barrier          
+#  ALPHA detector, SI(LI) and GE(LI) for X-RAYS, and 40%                  
+#  GE                                                                     
+#  for G-RAYS. He-jet and moving tape transport systems.                  
+#  Measured: EA, T , %A, EG, GG coin, RI, excitation functions.           
+#L E,J,T$From adopted levels.                                             
+#L E(A)$NU 1/2[521] (p{-3/2}).                                            
+#L E(B)$NU 5/2[512] (h{-9/2}).                                            
+#L E(C)$NU 7/2[633] (i{-13/2}).                                           
+#E TI$Deduced by the evaluator from the decay scheme. It is assumed that  
+#E there is no direct EC+B+ decay feeding to the GS and the 75.6 KEV      
+#E level.                                                                 
+#E TI(D)$Depends sensitively on IG(88.1G), MR(88.1G); IG(61.7G),MR(61.7G);
+#E IG(15.0G), MR(15.0G) and IG(75.6G), MR(75.6G) whose values are not     
+#E known accurately.                                                      
+#G E,M,MR$ From adopted gammas.                                           
+#G RI$From 1990Bo19, unless otherwise specified.                          
+#G RI(W)$From 1983Dr05, after appropriate normalization.                  
+#G RI(X)$From 1993ScZZ.                                                   
+#P 0.0                5/2-       30 S      2              5705      SY    
+IR177 OS177 beta+ 5.705 30.0 0.9994
++B beta+ 2.056 0.069
++B beta+ 2.015 0.012
++B beta+ 2.006 0.055
++B beta+ 1.994 0.012
++B beta+ 1.987 0.052000000000000005
++B beta+ 1.962 0.025
+

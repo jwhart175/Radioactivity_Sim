@@ -1,0 +1,27 @@
+#183RE    183OS EC DECAY (9.9 H)        1983BR24                           199107
+#  183OS EC DECAY (9.9 H)        1983BR24                           199107
+#H TYP=FMT$AUT=J. TULI$COM=FIXED FATAL FORMAT ERRORS$DAT=30-JUL-1999$     
+#H TYP=FUL$AUT=R.B. FIRESTONE$CIT=NDS 65,589 (1992)$CUT=22-Dec-1992$      
+#H TYP=UPD$AUT=R. Firestone$CUT=22-Dec-1992$                              
+#  The decay scheme is primarily from 1983Br24.                           
+#  Other references: 1960Ne03, 1968Ha39, 1970Ak01, 1970PlZZ.              
+#G           Energies were least-squares fit to the level scheme.         
+#G Multipolarities and mixing ratios are calculated from                  
+#G the electron data of 1960Ne03, 1968Ha39, and 1970Ak01.                 
+#G RI(E)$Transition may include intensity from 183OS(13 H)                
+#G           For DRI(absolute) combine 2.1% in quadrature with            
+#G DRI(relative), except as noted.                                        
+#N   0.576     0.576        0.85  2   1.0                                 
+#N NR$from the sum of TI(G's to the GS)=85 2. EC branching deduced        
+#N from %IT=15 2.                                                         
+#L J$From adopted levels                                                  
+#P     170.72 9 1/2-                  9.9 H 3                2.30E3 10    
++B beta+ 0.297 1.1000000000000001E-5
++B beta+ 0.275 3.8E-5
++B beta+ 0.205 2.18E-5
++B beta+ 0.02 0.46
++B beta+ 0.019 0.46
++B beta+ 0.017 0.46
++B beta+ 0.017 0.46
++B beta+ 0.0 0.18
+

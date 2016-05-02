@@ -1,0 +1,42 @@
+#173LU    173HF EC DECAY                1974FU01,1975BR15         95NDS    199509
+#  173HF EC DECAY                1974FU01,1975BR15         95NDS    199509
+#H TYP=FUL$AUT=V. S. SHIRLEY$CIT=NDS 75,377 (1995)$CUT=1-Oct-1993$        
+#  The decay scheme is based mainly on data from                          
+#  two papers: 1974Fu01 (sources from                                     
+#  172YB(A,3N) (EA=37 MEV, enriched 172YB target (91.5%));                
+#  measured EG, IG (coaxial GELI with FWHM=2.2 KEV at                     
+#  1332 KEV, planar GELI, SILI), ECE, ICE (SILI with                      
+#  FWHM=1.5 KEV at 234 KEV and 2.5 KEV at 836 KEV), prompt                
+#  and delayed GG and GCE coin) and 1975Br15 (sources from                
+#  172YB(A,3N) and 173YB(A,4N)) (enriched YB oxide targets                
+#  (97.2% for 172YB, 95.0% for 173YB); measured EG, IG (GELI              
+#  with FWHM AP 2.2 KEV at 1332 KEV, planar GELI detector,                
+#  anti-COMPTON spect), GG coin).                                         
+#  Reference citations are given with data from other                     
+#  sources. Others: 1954Wa02, 1959Ba10, 1961Br29, 1961Br39, 1963Ra14,     
+#  1971Na28, 1972Lo22.                                                    
+#E           EC+B+ feedings are from intensity imbalance at each          
+#E level (GS feeding not expected (DJ=3)).                                
+#G           RI(LU XK)=1140 200 (relative to RI=1000 for                  
+#G 123.7G) (1962Va06).                                                    
+#G           The high energies of several unplaced G's                    
+#G tentatively attributed to 173HF decay are not consistent               
+#G with Q+=1605 (1993Au05).                                               
+#L T(OP)$Adopted values.                                                  
+#L T$GG(T), GCE(T) (1974Fu01), except where noted. Other: 1967WiZY.       
+#G E$Weighted average from 1962Va06, 1972Gn01, 1974Fu01, 1975Br15, and    
+#G 1978Gu18, except where noted.                                          
+#G RI$From combined analysis of RI values from 1972Gn01,                  
+#G 1974Fu01, 1975Br15, and 1978Gu18, except where noted.                  
+#G M,MR$From EKC except where noted (IG from 1974Fu01, ICE                
+#G from 1959Ha09, 1962Va06, and 1974Fu01); the photon and CE intensity    
+#G scales were normalized through KC=0.0178 (E1 theory) for               
+#G 297.0G.                                                                
+#G TI(T)$Deduced from EKC, RI, and K/L ratios for E0 transitions          
+#G (1969Ha61).                                                            
+#L           Band structure: see adopted levels.                          
+#G M(D),MR(D)$From CE subshell ratios (1962Va06).                         
+#G CC(E)$Experimental value.                                              
+#P 0.0          1/2-             23.6 H    1              1600      SY    
+HF173 LU173 beta+ 1.6 84960.0 1.0
+

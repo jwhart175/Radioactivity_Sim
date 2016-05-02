@@ -1,0 +1,95 @@
+#230AC    230RA B- DECAY                1980GI04                  12NDS    201209
+#  230RA B- DECAY                1980GI04                  12NDS    201209
+#H TYP=FUL$AUT=E. BROWNE, J. K. TULI$CIT=NDS 113, 2113 (2012)$            
+#H CUT=1-May-2012$                                                        
+#  Modified by E. Browne (June 12, 2007).                                 
+#  A tentative decay scheme is given as proposed by 1980Gi04. It was      
+#  constructed from G-ray energy adjustments to level energies,           
+#  and from G-ray intensity considerations.                               
+#  Source strength was insufficient for GG coincidence studies. Thus,     
+#  1980Gi04 pointed out that due to a lack of GG COIN data this decay     
+#  scheme is not unique; the first-excited state could                    
+#  be at 63.0 KEV rather than at 9.0 KEV.                                 
+#  G rays shown to decay to the 9.0 level would then have to be placed    
+#  elsewhere. 1980Gi04 studied the decay of 230RA without interference    
+#  from the decay of its daughter 230AC (122 sec) by a process of         
+#  continuous chemical separation.                                        
+#  BG: (202.8G)(AP 500B) (1978Gi07).                                      
+#  Q- AP 710 KEV is given in 1980Gi04, deduced by assuming that           
+#  500-KEV BETA feeds a level at 211.6 KEV.                               
+#  Q-=710+-300 is recommended in 2003AU03.                                
+#B           Deduced by evaluators from G-ray transition intensity        
+#B balance, using NR=0.086 22.                                            
+#G           I(K holes)/I(454.9G of 230AC decay) AP 2.50 (1980Gi04).      
+#G E         From 1980Gi04.                                               
+#G RI$Photon intensity relative to RI(454.9G from 230AC decay)=100.       
+#G M         Based on theoretical spin/parity assignments to levels.      
+#G E(S)      Transition was not observed. EG from level energy.           
+#L J$Based on expected quasiparticle states from Nilsson diagrams         
+#L (1980Gi04).                                                            
+#P 0.0          0+               93 M      2              7.1E+2    30    
+RA230 AC230 beta- 0.71 5580.0 1.0
++G gamma 0.1178 2.58E-4
++G gamma 0.1253 2.58E-4
++G gamma 0.1387 5.16E-4
++G gamma 0.2363 2.58E-4
++G gamma 0.2474 2.58E-4
++G gamma 0.29760000000000003 4.3E-4
++G gamma 0.3639 5.16E-4
++G gamma 0.4129 7.74E-4
++G gamma 0.4735 2.58E-4
++B beta- 0.218 0.4
++B beta- 0.193 0.16
++B beta- 0.183 0.11
++G gamma 0.101 0.01376
++B beta- 0.166 0.008
++G gamma 0.1515 0.00172
++B beta- 0.151 0.006
++G gamma 0.18919999999999998 0.014362
++G gamma 0.1982 0.002924
++B beta- 0.146 0.09
++G gamma 0.1107 0.002666
++G gamma 0.2028 0.026488
++G gamma 0.21180000000000002 0.009718
++B beta- 0.129 0.002
++G gamma 0.1926 0.0012039999999999998
++G gamma 0.2557 0.001376
++B beta- 0.122 0.05
++G gamma 0.18409999999999999 0.00989
++G gamma 0.2852 0.015651999999999996
++B beta- 0.12 0.003
++G gamma 0.1414 6.019999999999999E-4
++G gamma 0.2929 0.0036979999999999995
++B beta- 0.103 0.034
++G gamma 0.1343 0.0038699999999999997
++G gamma 0.1479 0.004815999999999999
++B beta- 0.094 0.0016
++G gamma 0.1775 5.16E-4
++G gamma 0.2746 8.6E-4
++G gamma 0.3758 2.58E-4
++B beta- 0.088 0.008
++G gamma 0.0492 0.002236
++G gamma 0.1971 0.001118
++B beta- 0.069 0.04
++G gamma 0.25989999999999996 0.002924
++G gamma 0.44889999999999997 0.012899999999999998
++G gamma 0.4579 0.01591
++B beta- 0.063 0.06
++G gamma 0.13269999999999998 2.58E-4
++G gamma 0.4697 0.025198
++G gamma 0.4787 0.020812
++B beta- 0.046 0.02
++G gamma 0.2515 0.008513999999999999
++G gamma 0.5368999999999999 0.001032
++B beta- 0.034 0.009000000000000001
++G gamma 0.2882 8.6E-4
++G gamma 0.29610000000000003 0.001032
++G gamma 0.31639999999999996 8.6E-4
++G gamma 0.5094 0.0055899999999999995
++B beta- 0.031 0.005
++G gamma 0.44 2.58E-4
++G gamma 0.4905 0.0036979999999999995
++B beta- 0.019 0.002
++G gamma 0.4377 2.58E-4
++G gamma 0.48419999999999996 0.0016339999999999998
+

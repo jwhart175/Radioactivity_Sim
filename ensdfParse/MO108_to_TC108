@@ -1,0 +1,52 @@
+#108TC    108MO B- DECAY                1995JO02                  ENSDF    200810
+#  108MO B- DECAY                1995JO02                  ENSDF    200810
+#H TYP=FUL$AUT=Jean Blachot$CIT=ENSDF$CUT=1-Jul-2008$                     
+#H TYP=FUL$AUT=Jean Blachot$CIT=NDS 91, 135 (2000)$CUT=1-Jun-2000$        
+#  Activity: {+238}U(p,f), E={ 20 MeV}, on-line isotope separator IGISOL  
+#  Measured: |g, |g|g, |g(t), ce, Ge(Li), Ge, Si(Li), Elli spectrometer   
+#  Others: 1972Tr08, rapid technetium chem on fission product mixture     
+#  1969WiZX; coin measurements with {+252}Cf SF products                  
+#  1977Ti02: (268|g)|<{ 2 s} rapid molybdenum                             
+#  chem on fission product mixture.                                       
+#  The level scheme is as given by 1995Jo02                               
+#G RI$I|g are from the authors' table of I(|g+ce) values using the        
+#G mults as given by the authors (and adopted here) with the |a's as      
+#G noted. These |a's are slightly different from those used by            
+#G the authors.                                                           
+#P 0.0         0+                1.09 S    2              4650      SY    
+MO108 TC108 beta- 4.65 1.09 1.0
++G gamma 0.028 0.03526
++B beta- 2.237 0.06
++G gamma 0.0678 0.04171
++B beta- 2.228 0.26
++G gamma 0.0584 0.0387
++G gamma 0.0864 0.0774
++B beta- 2.218 0.023
++G gamma 0.1618 0.0086
++G gamma 0.26830000000000004 0.2236
++B beta- 2.113 0.13
++G gamma 0.29960000000000003 0.00731
++B beta- 2.109 0.11
++G gamma 0.06570000000000001 0.0559
++G gamma 0.2282 0.0129
++G gamma 0.3346 0.0086
++B beta- 2.106 0.015
++G gamma 0.2542 0.00817
++G gamma 0.3122 0.01849
++G gamma 0.3403 0.047299999999999995
++B beta- 2.049 0.31
++G gamma 0.1184 0.02709
++G gamma 0.1905 0.0645
++G gamma 0.37239999999999995 0.1032
++G gamma 0.391 0.0688
++G gamma 0.4308 0.0086
++G gamma 0.4585 0.01978
++B beta- 1.999 0.11
++G gamma 0.2233 0.02795
++G gamma 0.29560000000000003 0.035690000000000006
++G gamma 0.4775 0.03483
++G gamma 0.5357999999999999 0.01075
++B beta- 1.837 0.044000000000000004
++G gamma 0.5701 0.018920000000000003
++G gamma 0.6357999999999999 0.023649999999999997
+

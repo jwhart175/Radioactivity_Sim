@@ -1,0 +1,16 @@
+# 84NB    84MO EC DECAY                 2009ST04                  09NDS    200910
+#  84MO EC DECAY                 2009ST04                  09NDS    200910
+#H TYP=FUL$AUT=D. Abriola and M. Galan$                                   
+#H CIT=NDS 110,2815 (2009)$CUT=30-Sep-2009$                               
+#  2009ST04: {+84}Mo produced in fragmentation  reactions                 
+#  {+9}Be({+124}Xe,^X) E=140 MeV/^A ; separation by ^A1900 Fragment       
+#  ^separator and further purified by new Radio Frequency Fragment        
+#  Separator, fragment implanted into a double-sided silicon strip        
+#  detector, ^TOF of fragment measured and event by event correlation     
+#  with subsequent |b decays. Prompt and delayed |g rays measured with    
+#  16 Ge detectors (segmented germanium array).  The |b|g coincidence     
+#  spectrum does not show any |g ray of  {+84}Nb daughter.                
+#L J,T$From adopted levels                                                
+#P 0           0+                2.3 S     3              6720      SY    
+MO84 NB84 beta+ 6.72 2.3 1
+

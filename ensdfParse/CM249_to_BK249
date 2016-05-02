@@ -1,0 +1,32 @@
+#249BK    249CM B- DECAY                2005AH03                  11NDS    201108
+#  249CM B- DECAY                2005AH03                  11NDS    201108
+#H TYP=FUL$AUT=KHALIFEH ABUSALEEM$CIT=NDS 112, 2129 (2011)$               
+#H CUT=31-Dec-2010$                                                       
+#  2005Ah03: Electron data are from 1975HoZA.                             
+#  All information taken from 2005Ah03, unless otherwise stated.          
+#  {+249}Cm isotope prepared by neutron capture reactions on {+248}Cm     
+#  targets.                                                               
+#  Measured E|g, E|b, I|g, I|b, ce with three Ge(Li) detectors, where     
+#  only one was equipped with a NaI Compton-suppression shield, a         
+#  gas-flow proportional counter and a cooled Si(Li) detector.  All |g    
+#  rays assigned to {+249}Cm |b-decay exhibited decays consistent with    
+#  the adopted T{-1/2} for the parent.                                    
+#B IB$ Deduced by evaluator from intensity balance at each level in       
+#B {+249}Cm |b-decay scheme; 2005Ah03 values are given as comments.       
+#G E(X),M(X),MR(X),CC(X)$ From {+253}Es |a decay of 2005Ah03, see         
+#G dataset for this decay from 2005Ah03 in XUNDL database.                
+#G M,MR$ From {+249}Cm |b- decay in 1975HoZA                              
+#L E$From least-squares fit to E|gs (by evaluator)                        
+#L BAND(A)$ 3/2[521]                                                      
+#L BAND(B)$ 1/2[400]                                                      
+#L BAND(C)$ 1/2[530]                                                      
+#L BAND(D)$ 1/2[521]                                                      
+#P 0.0          1/2+              64.15 M  3              901       5     
++B beta- 0.2789 0.96
++B beta- 0.1529 0.0049
++B beta- 0.14909999999999998 8.9E-5
++B beta- 0.0958 0.0023
++B beta- 0.0925 0.0104
++B beta- 0.0704 0.0192
++B beta- 0.065 0.0037
+

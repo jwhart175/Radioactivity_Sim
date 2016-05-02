@@ -1,0 +1,20 @@
+#151CE    248CM SF DECAY                1997HO11                  09NDS    200901
+#  248CM SF DECAY                1997HO11                  09NDS    200901
+#H TYP=FUL$AUT=BALRAJ SINGH$CIT=NDS 110, 1 (2009)$CUT=20-Nov-2008$        
+#  1997Ho11: Measured E|g, I|g, |g|g, |g|g(|q)(DCO) using EUROGAM II      
+#  array 52 escape-suppressed Ge detectors, 24 Clovers, and four LEPS.    
+#  Same information is given in level-scheme figure 1 of 2000HoZX         
+#G M(X)$ Probably not E1 from estimate of intensity balance by 1997Ho11   
+#G at 75.3 and 166.0 levels. If E1, then 75.3|g should have been seen     
+#G prominently in the |g-ray spectrum and the gamma intensity of 90.6|g   
+#G would have been larger than seen. 1997Ho11 do not report gamma         
+#G intensity for 75.2|g, neither do they show a spectrum figure.          
+#L E$From least-squares fit to E|g's, assuming |D(E|g)=0.3 keV for        
+#L each |g ray                                                            
+#L J(B)$ possible 5/2[642] state from |ni{-13/2} orbital as suggested by  
+#L systematics of N=93 isotones (1997Ho11)                                
+#L BAND(A)$ |n5/2[642] band (?).                                          
+#L Tentative assignment, the band shows signature splitting.              
+#P 0            0+               3.48E5 Y  6                              
+CM248 CE151 SF 0.0 1.09818042624E13 1.0
+

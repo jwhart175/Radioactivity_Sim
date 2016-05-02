@@ -1,0 +1,154 @@
+# 92RB    92KR B- DECAY                 1972OL03,1973CL02         12NDS    201210
+#  92KR B- DECAY                 1972OL03,1973CL02         12NDS    201210
+#H TYP=FUL$AUT=CORAL M. BAGLIN$CIT=NDS 113, 2187 (2012)$CUT=15-Sep-2012$  
+#  Others: 1970LU05, 1972MC04, 1973HAZK, 1974CLZX, 1978ST02, 1982AL01,    
+#  1988GRZX, 1989GR03, 1992GRZX, 1992GR06.                                
+#B           Singles and coincidence B- spectrum measurements:            
+#B           1973CL02: eight gated spectra give an average Q(|b{+-}) value
+#B of 5970 KEV 80, revised to Q(|b{+-})=6160 80 in 1978WO15.              
+#B           1978ST02: measured four B- spectra gated by G rays           
+#B deexciting the 1361 level to obtain Q(|b{+-})=5915 120.                
+#B           1988GRZX: Q(|b{+-})=6000 60, from BG coin data.              
+#B           1989GR03: measured six B- spectra gated by G rays            
+#B deexciting the 1361 level to obtain Q(|b{+-})=6045 80                  
+#B           1992GR06: measured five B- spectra gated by G rays           
+#B deexciting the 1361 level to obtain Q(|b{+-})=5993 27.                 
+#B           1992GRZX: measured six B- spectra gated by G rays            
+#B deexciting the 1361 level to obtain Q(|b{+-})=5987 10 (adopted by      
+#B 2003AU03).                                                             
+#B           1982AL01: average EB=2670 470 cf. 2000 100 CALCULATED        
+#B FOR THE DECAY SCHEME ADOPTED HERE USING THE ^RADLST CODE.              
+#B LOGFT     Calculated assuming GS B- feeding of |?2%, as                
+#B determined from B- spectrum by 1973CL02.                               
+#B IB        From intensity balance at level, assuming a G intensity of   
+#B I{-|g}/2 |+ I{-|g}/2 for multiply-placed or tentatively-placed lines.  
+#B E(B)      From Q(|b{+-})=5987 10 (1992GRZX, based on BG coin           
+#B spectrum endpoint energies) minus E(1361 level).                       
+#B IB(D)     From 1973CL02, whose singles B- spectrum agreed much         
+#B better with a calculated spectrum which assumed 2% GS B-               
+#B branching than with one which assumed the 50% 15 GS branch             
+#B deduced indirectly by 1972OL03 (on the basis of authors'               
+#B estimated relative amounts of 92SR, 92KR, 92BR on source               
+#B collection tape, authors' decay schemes (without allowance for         
+#B possible internal conversion) and I(1384G in 92SR)=90% 10). A          
+#B 50% 15 B- branch to GS would imply allowed B- feeding                  
+#B from the 0+ parent and hence JPI=1+ for the 92RB GS, in                
+#B contradiction to J(92RB)=0 adopted from atomic beam work (note that    
+#B IB(GS) must be <8% if LOGFT(GS)|>5.9).                                 
+#G E         From 1972OL03, except for 142G which is from 1979BO26.       
+#G RI        From 1972OL03.                                               
+#G M(A),CC(A)$Evaluator adopts EKC=0.051 6 (1972MC04) which allows        
+#G mult=M1(+E2) or E1+M2; the latter mult is excluded by RUL. Other data: 
+#G EKC=0.128 6 and K/L=5.6 9 (1973HAZK); these values imply               
+#G mutually inconsistent mult; also, this EKC requires significant        
+#G mixing for this transition to J=0 GS, which is untenable (pure mult    
+#G demanded for J to 0 transition).                                       
+#L           The adopted decay scheme is essentially that obtained by     
+#L 1972OL03 based upon G-ray singles and coincidence measurements, but    
+#L renormalized in accord with %|b(g.s.) estimate from 1973CL02.          
+#L E         From least-squares fit to EG.                                
+#L J,T(D)    From Adopted Levels.                                         
+#L T(F)      From 1972MC04.                                               
+#P 0.0         0+                1.840 S   8              6003       7    
+KR92 RB92 beta- 6.003 1.84 0.64
++G gamma 0.1856 0.0017000000000000001
++G gamma 0.6837000000000001 0.0026
++G gamma 0.826 0.002
++G gamma 1.2325 8.0E-4
++G gamma 1.2405 0.0024
++G gamma 1.285 8.0E-4
++G gamma 1.5258 0.0013
++G gamma 1.9329 9.0E-4
++G gamma 2.0754 0.0014000000000000002
++G gamma 2.7131999999999996 9.0E-4
++G gamma 3.0998 0.0014000000000000002
++G gamma 3.7273 6.0E-4
++G gamma 0.142307 1.0
++G gamma 0.3168 0.091
++G gamma 0.1911 0.013000000000000001
++G gamma 0.3334 7.000000000000001E-4
++G gamma 0.1679 0.002
++G gamma 0.3423 0.033
++G gamma 0.48460000000000003 0.05
++G gamma 0.15919999999999998 0.0016
++G gamma 0.3503 0.0042
++G gamma 0.49260000000000004 0.0088
++G gamma 0.2149 0.005600000000000001
++G gamma 0.5483 0.218
++G gamma 0.4809 0.0028000000000000004
++G gamma 0.6237 0.021
++G gamma 0.3947 0.0018
++G gamma 0.5859 0.0034999999999999996
++G gamma 0.7283999999999999 0.0018
++G gamma 0.535 0.0064
++G gamma 0.8679 0.0013
++G gamma 0.3723 0.0018
++G gamma 0.4362 0.0033
++G gamma 0.921 0.0043
++G gamma 0.7857000000000001 0.006999999999999999
++G gamma 0.928 0.0021
++G gamma 0.44 0.009399999999999999
++G gamma 0.49260000000000004 0.0088
++G gamma 0.6326 0.0029
++G gamma 0.7373999999999999 0.008
++G gamma 0.8126 0.22699999999999998
++G gamma 0.8763 0.066
++G gamma 1.0442 0.07400000000000001
++G gamma 1.2186 0.93
++G gamma 1.3608 0.054000000000000006
++G gamma 1.1158 0.0016
++G gamma 1.1789 0.0016
++G gamma 1.3455 7.000000000000001E-4
++G gamma 1.6634 0.0014000000000000002
++G gamma 0.6781 0.0058
++G gamma 1.3107 0.0018
++G gamma 1.4150999999999998 0.0026
++G gamma 1.5544 0.006
++G gamma 1.8968 0.013000000000000001
++G gamma 2.039 0.0063
++G gamma 1.5944 8.0E-4
++G gamma 1.7628 0.0011
++G gamma 2.0791999999999997 0.0014000000000000002
++G gamma 0.282 0.0042
++G gamma 2.0045 8.0E-4
++G gamma 1.6587 7.000000000000001E-4
++G gamma 2.039 0.0063
++G gamma 2.0953000000000004 0.002
++G gamma 2.271 8.0E-4
++G gamma 2.4449 0.0027
++G gamma 2.5875 0.0038
++G gamma 1.2499 0.0015
++G gamma 1.9874 0.0038
++G gamma 2.2773000000000003 0.0018
++G gamma 2.4685 0.0027
++G gamma 2.6114 0.0046
++G gamma 2.0953000000000004 0.002
++G gamma 2.4018 7.000000000000001E-4
++G gamma 2.7186999999999997 0.0042
++G gamma 1.5404 7.000000000000001E-4
++G gamma 1.9734 0.0022
++G gamma 1.981 0.0013
++G gamma 2.4172 0.0014000000000000002
++G gamma 2.5850999999999997 0.0019
++G gamma 2.759 0.0033
++G gamma 1.3942 8.0E-4
++G gamma 2.1287 0.0013
++G gamma 2.4351 0.0016
++G gamma 3.0569 0.002
++G gamma 2.8328 0.004699999999999999
++G gamma 3.149 0.0019
++G gamma 1.2588 0.0012
++G gamma 1.6750999999999998 9.0E-4
++G gamma 2.8545 0.0011
++G gamma 2.4141 7.000000000000001E-4
++G gamma 2.7933000000000003 0.0015
++G gamma 3.1995 0.0068000000000000005
++G gamma 3.3427 6.0E-4
++G gamma 1.6211 6.0E-4
++G gamma 3.3427 6.0E-4
++G gamma 3.6595999999999997 0.0013
++G gamma 1.2915999999999999 0.0014000000000000002
++G gamma 1.4741 0.0015
++G gamma 3.2723 0.001
++G gamma 3.3244000000000002 7.000000000000001E-4
+

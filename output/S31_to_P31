@@ -1,0 +1,27 @@
+# 31P     31S EC DECAY (2.5534 S)       1980WI13                  13NDS    201303
+#  31S EC DECAY (2.5534 S)       1980WI13                  13NDS    201303
+#H TYP=FUL$AUT=CHRISTIAN OUELLET AND BALRAJ SINGH$CIT=NDS 114, 209 (2013)$
+#H CUT=15-Feb-2013$                                                       
+#  1980WI13: 31S from 31P(P,N), 11 MEV protons from the ^ONR-^CIT tandem  
+#  accelerator. Target of ^MnP powder was bombarded then transferred to a 
+#  counting station via a pneumatic shuttle (rabbit) system. Ge detectors 
+#  used to measure E|g and I|g. ALSO 1980WIZQ THESIS                      
+#  1974AL03: 31S from 31P(P,N), 10 MEV protons from the ^Van de ^Graaff at
+#  ^Brookhaven. Rabbit transfer system from bombarding chamber to remote  
+#  counting cell. ^Ge detectors used for E|g and I|g measurements.        
+#  1971DE05: 31S from 31P(P,N), 9-18 MEV protons from ^University of      
+#  ^Colorado ^Nuclear ^Physics lab. Phosphorus target bombarded then      
+#  transferred to a counting station via pneumatic shuttle system.        
+#  Ge detectors used for |b-delayed |g-ray measurements but only reported 
+#  |b-branching ratios.                                                   
+#  2012Ba54: measured g.s. half-life of {+31}S                            
+#E TI$ From intensity balance for excited states                          
+#G M,MR$ From Adopted Gammas                                              
+#G E$ From level energy differences, with recoil correction removed.      
+#G None of the papers cited above contain independently measured          
+#G |g-ray energies                                                        
+#G RI$ From 1980WI13                                                      
+#L E,J$ From Adopted Levels                                               
+#P 0           1/2+              2.5534 S  18             5398.02   23    
+S31 P31 beta+ 5.398020000000001 2.5534 0.01087
+

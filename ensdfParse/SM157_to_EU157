@@ -1,0 +1,118 @@
+#157EU    157SM B- DECAY                1994WIZZ,1997GR09,1996GR2004NDS    200501
+#  157SM B- DECAY                1994WIZZ,1997GR09,1996GR2004NDS    200501
+#H TYP=ERR$AUT=J. TULI$DAT=16-Jul-2007$COM=Fixed typo in comment$         
+#H TYP=FUL$AUT=R. G. Helmer$CIT=NDS 103, 565 (2004)$CUT=1-Feb-2004$       
+#  For these decay scheme studies, {+157}Sm has been produced by the      
+#       {+160}Gd(n,|a) reaction, n fission of {+235}U with isotope        
+#       separation, and spontaneous fission of {+252}Cf with chemical     
+#       separation.  Measurements have included |g singles and            
+#       |g|g-coincidence spectra with Ge detectors, |b- spectra with      
+#       plastic and anthracene detectors, and |g|b- coincidences.         
+#  Experimental methods:                                                  
+#  1960Wi10: Produced by {+160}Gd(n,|a), but T{-1/2} reported as 0.5      
+#       min {I1}, so isotope probably misassigned.                        
+#  1972Mo28: Produced by {+160}Gd(n,|a) with E{-n}=14.7 MeV on            
+#       enriched (96.5%) target.  Report |g of 121 keV and E{-|b-}        
+#       of 2.83 MeV {I10}, but report T{-1/2}=83 s                        
+#       {I1}, so isotope probably misassigned.                            
+#  1973Da05: Produced by {+160}Gd(n,|a) reaction with E{-n}=14.8 MeV      
+#       on natural target.  |g measured with Ge detector,  |b- with       
+#       anthracene detector, and |g|b- coincidences.  Report 7 |g's,      
+#       but report isotope assignment is not certain.                     
+#  1973Ka23: Produced by {+160}Gd(n,|a) reaction with fast n on           
+#       enriched (95.2%) target.  |g measured with Ge detectors, |g|g     
+#       coincidences with Ge detectors, and |b- with plastic detectors.   
+#       Report 14 |g's.                                                   
+#  1980Ba51: Produced from {+252}Cf spontaneous fission with chemical     
+#       separation.  |g measured with Ge detector.  Report 23 |g's, but   
+#       no decay scheme.                                                  
+#  1986Ma12: Produced by n fission of {+235}U with isotope separation.    
+#       |g singles and |g|g coincidences measured with Ge detectors.      
+#       T{-1/2} measured.                                                 
+#  1994WiZZ: Produced from {+252}Cf spontaneous fission with chemical     
+#       separation.  |g measured with Ge detector. Same authors as        
+#       1980Ba51.                                                         
+#  1993Gr17: Produced from {+252}Cf spontaneous fission with isotope      
+#       separation.  Measured |b- end-point energy with Ge detector.      
+#  1996Gr20: Produced from {+252}Cf spontaneous fission with isotope      
+#       separation.  Measured |b- intensity for "ground-state" branch     
+#       with total absorption |g-ray spectrometer.                        
+#  1997Gr09: Produced from {+252}Cf spontaneous fission with isotope      
+#       separation.  Measured |b- branch intensity as a function of the   
+#       excited level energy with total absorption |g-ray spectrometer.   
+#B IB        Relative values are from |g-ray intensity balances for       
+#B      levels with deexciting |g's, except for the 76 level.  These      
+#B      values are converted to absolute values by including the values   
+#B      from the total absorption |g spectra, TAGS, for the ground        
+#B      state (1996Gr20) and the pseudolevels (1997Gr09).  The values     
+#B      from the intensity balances and TAGS data are in good agreement.  
+#B IB        The |b- intensity distribution from the total                
+#B      absorption |g spectra (TAGS) (1997Gr09) indicate that             
+#B      |? 9.4% of the decays are to levels that are not in the |g-ray    
+#B      decay scheme, namely, |? 850, 1050 - 1250, and above 1500 keV.    
+#B      These decays are represented here by pseudolevels which do not    
+#B      have any depopulating |g's.  These pseudolevels represent the     
+#B      sum of the |b- feeding to all the actual levels in an energy      
+#B      range.  Where the pseudolevels are adjacent, this range is half   
+#B      of the distance between the adjacent levels; and where a          
+#B      pseudolevel is between discrete levels, the range is between      
+#B      these levels.                                                     
+#B      No uncertainties are included for the I{-|b-} to the              
+#B      pseudolevels, and no log {Ift}'s are given since this intensity   
+#B      is expected to be distributed over several actual levels.         
+#B IB,LOGFT$The inability to include the unknown |g decays from the       
+#B      upper levels will, in principle, cause the I{-|b-} values         
+#B      deduced from the |g intensity balances to be incorrect; however,  
+#B      since most of these unknown |g's are expected to populate the     
+#B      strongly fed levels                                               
+#B      below 460 keV, the changes in the log {Ift} values are probably   
+#B      small. The uncertainties in the I{-|b-} and log {Ift}'s do not    
+#B      include any contributions from the incompleteness of the decay    
+#B      scheme.                                                           
+#G           The |g|g coincidences noted in the decay-scheme drawing      
+#G      are those of 1973Ka23.                                            
+#G           The unplaced |g's are those of 1994WiZZ.                     
+#G E,RI      From 1994WiZZ. Others: 1973Da05 and 1973Ka23.                
+#G M         All assignments are deduced from the assigned J|p values.    
+#G      The intensity balance at 77 level supports the multipolarity      
+#G      of the 77 |g.                                                     
+#L E         From least-squares fit to |g energies.                       
+#L J         From {+157}Eu Adopted Levels and in agreement with J|p and   
+#L      band assignments of 1994WiZZ and those in the {+158}Gd(pol t,|a)  
+#L      study (1979Bu05). See 1990Ja11 for review of band assignments.    
+#L BAND(A)   5/2[413] band                                                
+#L BAND(B)   5/2[532] band                                                
+#L BAND(C)   3/2[411] band                                                
+#L BAND(D)   1/2[411] band                                                
+#P    0         (3/2-)             482 S   4                2730    50    
++B beta- 1.095 0.03
++B beta- 1.044 0.025
++B beta- 1.005 0.43
++B beta- 0.917 0.13
++B beta- 0.89 0.17
++B beta- 0.793 0.026000000000000002
++B beta- 0.773 0.017
++B beta- 0.714 0.002
++B beta- 0.66 0.006999999999999999
++B beta- 0.653 0.019
++B beta- 0.639 0.008
++B beta- 0.627 0.016
++B beta- 0.583 0.006999999999999999
++B beta- 0.54 0.01
++B beta- 0.493 0.012
++B beta- 0.486 0.01
++B beta- 0.484 0.012
++B beta- 0.469 0.006999999999999999
++B beta- 0.451 0.038
++B beta- 0.415 0.004
++B beta- 0.374 0.006
++B beta- 0.333 0.006999999999999999
++B beta- 0.294 0.012
++B beta- 0.255 0.012
++B beta- 0.218 0.005
++B beta- 0.181 0.003
++B beta- 0.146 0.004
++B beta- 0.112 0.003
++B beta- 0.08 0.002
++B beta- 0.05 0.002
+

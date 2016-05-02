@@ -1,0 +1,81 @@
+# 46K   XA46AR B- DECAY                                                          
+#XA46AR B- DECAY                                                          
+#XB48CA(P,3HE)                                                            
+#XC48CA(D,A),(D,AG)                                                       
+#XD48CA(POL D,A)                                                          
+#Q 7724.5    246869.6  9 12932.1 9 -1.293E415    2012WA38                 
+#Q Note: Current evaluation has used the following Q record               
+#Q    7716   16  6882  19 12989  62              1995AU04                 
+#  Isotope shifts: 1990MA52.                                              
+#L E$From least-squares fit to G data, except as noted                    
+#L J$Based on analysis of SIGMA(THETA) in (P,3HE), (D,A) and tensor       
+#L analyzing power in (POL D,A), except as noted.                         
+#G E,RI$From (D,AG), except as noted.                                     
+#N                                                                     6  
+#L    0.0               (2-)      105 S    10                             
+#L XREF=ABCD                                                              
+#L %B-=100                                                                
+#L T$unweighted average of 95 S 5 from decay of 1345G (1968YAZZ), and     
+#L 115 S 4 from decays of 1347G and B- GT 3 MEV (1966PA20).               
+#L J         L=(1+3) in (P,3HE), (D,A)                                    
+#L   587.4   4           3-                                               
+#L XREF=BCD                                                               
+#L J         L=3 in (P,3HE), (D,A)                                        
+#G   587.3   5   100                                                      
+#L   690.9   4         (4-)                                               
+#L XREF=BCD                                                               
+#L J         L=(3+5) in (P,3HE), (D,A)                                    
+#G   103.5   5   100                                                      
+#G   691.0   5    38   11                                                 
+#L   885.5   7         5-                                                 
+#L XREF=BCD                                                               
+#L J         L=5 in (P,3HE), (D,A)                                        
+#G   194.6   5   100                                                      
+#L   1369.9  7          3-                                                
+#L XREF=BCD                                                               
+#L J         L=3 in (P,3HE), (D,A)                                        
+#G   679.0   5   100                                                      
+#L    1738.4 21        (4-)                                               
+#L XREF=BCD                                                               
+#L J         L=(3) in (D,A)                                               
+#G    1151   2   100                                                      
+#L   1944.34 9         1+                                                 
+#L XREF=+                                                                 
+#L J         L=2+0 in (P,3HE), (D,A)                                      
+#G  1944.30  9   100                                                      
+#G E$from 46AR B- decay.                                                  
+#L    2222   5        (0+)                                                
+#L XREF=B                                                                 
+#L J         L=0 in (P,3HE)                                               
+#L    2790   6        (2+)                                                
+#L XREF=B                                                                 
+#L J         L=(2) in (P,3HE)                                             
+#L    2969   6        (4-)                                                
+#L XREF=B                                                                 
+#L J         L=(3+5) in (P,3HE)                                           
+#L    3383   7                                                            
+#L XREF=B                                                                 
+#L J         L=(0+?) in (P,3HE)                                           
+#L           Doublet; 3350 level reported in (D,A), DE not given.         
+#L    3606   8                                                            
+#L XREF=BC                                                                
+#L E$from (P,3HE)                                                         
+#L    4340   AP       (3+)                                                
+#L XREF=C                                                                 
+#L J         L=4 in (D,A)                                                 
+#L    4540   AP       7+                                                  
+#L XREF=CD                                                                
+#L J         L=6 in (POL D,A)                                             
+#L    5950   AP       7+                                                  
+#L XREF=CD                                                                
+#L J         L=6 in (POL D,A)                                             
+#L   11470   AP       (0+)                                                
+#L XREF=B                                                                 
+#L E$possible J=0+, ISPIN=5 analog state from (P,3HE).                    
+#                                                                         
+
+# 46K     46AR B- DECAY                 1980HU01,1978PE04         00NDS    200011
+#  46AR B- DECAY                 1980HU01,1978PE04         00NDS    200011
+#H TYP=FUL$AUT=S. -C. WU$CIT=NDS 91, 1 (2000)$CUT=15-Jul-2000$            
+#P    0.0                0+        8.4 S     6               5698   43    
+

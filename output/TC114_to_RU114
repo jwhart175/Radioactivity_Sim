@@ -1,0 +1,35 @@
+#114RU    114TC B- DECAY:90 MS          2011RI01                  12NDS    201203
+#  114TC B- DECAY:90 MS          2011RI01                  12NDS    201203
+#H TYP=FUL$AUT=Jean Blachot$CIT=NDS 113, 515 (2012)$CUT=1-Jan-2012$       
+#  Penning-trap assisted |g-ray spectroscopy at JYFL facility             
+#  Tc ions were produced in U(d,F) at 25 MeV beam energy at the IGISOL    
+#  facility. Fission products were thermalized inside the gas cell, and   
+#  guided through the sextupole ion guide (SPIG) and accelerated to 30    
+#  30 keV. The ions were directed through a 55|' dipole magnet and        
+#  injected into a gas-filled rf cooler buncher, and finally injected     
+#  into the double Penning-trap JYFLTRAP. Measured cyclotron frequencies  
+#  to determine Q value. For decay measurements, purified ions of {+114}Tc
+#  were transported through the second Penning trap to the spectroscopy   
+#  setup. Purified beam implanted into a movable tape surrounded a 2 mm   
+#  thick plastic scintillation detector and three Ge detectors and a LOAX 
+#  Ge detector for |b, |g, and x rays, E|g, I|g, |b|g and |g|g coin       
+#  measurements. The yield of high-spin (|>4) isomer to the low-spin      
+#  (1+) isomer is deduced by 2011Ri01 to be 0.27 {I6}                     
+#  In an e-mail rely of Jan 11, 2011 from the first author (J. Rissanen), 
+#  it is stated that there is a misprint in table I of 2011Ri01. The      
+#  intensity of the two components of the 563.4-keV |g rays should read   
+#  as follows: 23 {I4} for 828.5 --> 265.1 transition and 10 {I4} for     
+#  563.4 --> 0.0 transition. Values were reversed in table I.             
+#B LOGFT$ All values are considered as lower limits by 2011Ri01 due to    
+#B possible unobserved feedings to high-energy states. Note that {+114}Tc 
+#B could also decay by delayed neutrons by a small fraction               
+#G RI$ Obtained from |b-gated |g-singles spectra. 2011Ri01 state that     
+#G intensities include correction for internal conversion with assumed    
+#G E2 multipolarity for low-energy transitions                            
+#G RI(X)$ Deduced by Xundl by dividing the total intensity of             
+#G 0.9 amongst 265|g and 563|g based on ratio of intensity of the two     
+#G gamma rays from mixed isomers                                          
+#L E$From least-squares fit to E|g's                                      
+#P 0+Y         (1+)              90 MS     20             11785     12    
+TC114 RU114 beta- 11.785 0.09 0.30
+

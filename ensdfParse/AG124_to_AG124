@@ -1,0 +1,30 @@
+#124AG    124AG IT DECAY (1.46 US)      2013LA11,2012KA36,2006TOZWENSDF    201508
+#  124AG IT DECAY (1.46 US)      2013LA11,2012KA36,2006TOZWENSDF    201508
+#H TYP=FUL$AUT=BALRAJ SINGH$CUT=20-AUG-2015$CIT=ENSDF$                    
+#  Reactions: 9BE(136XE,XG),(238U,FG)                                     
+#  2013La11: E=750 MeV/nucleon {+136}Xe and {+238}U beams from GSI, SIS-18
+#  synchrotron. Targets: 1 and 4 g/cm{+2} Be. Detectors: FRS, ionization  
+#  chambers, multiwire chambers, scintillation detectors, RISING          
+#  multidetector array comprising 105 HPGe detectors, mounted in 15       
+#  composite Cluster detectors without anti-Compton shields. Measured:    
+#  tof, |DE, B|r, E|g, I|g, |g(t), |g|g, |g|g(t), half-lives.             
+#  2012Ka36: {+238}U beam at E=345 MeV/nucleon provided by the RIBF       
+#  accelerator complex at RIKEN facility. Fission fragments were separated
+#  and analyzed by BigRIPS separator, transported to focal plane of       
+#  ZeroDegree spectrometer and finally implanted in an aluminum stopper.  
+#  Particle identification was achieved by |DE-tof-B|r method.            
+#  Delayed gamma rays from microsecond isomers were detected by three     
+#  clover-type HPGe detectors. Measured E|g, I|g, |g|g-coin, isomer       
+#  half-life. Deduced levels                                              
+#  2007To23, 2006ToZW, 2005WaZY: fragmentation of a 120 MeV/nucleon       
+#  {+136}Xe beam; MSU Beta Counting System; measured E|g, I|g, |g|g-coin, 
+#  half-life of the isomer in 2005WaZY                                    
+#G E,RI$From 2012Ka36 unless otherwise stated                             
+#G E(X)$ Reverse ordering of the 75.5-155.6 |g cascade is also possible   
+#G (2012Ka36)                                                             
+#L J$For excited states, assignment are based on systematics and          
+#L observed decay pattern (2013La11)                                      
+#L T$From |g(t) (2013La11)                                                
+#P 231.1+X   7   (1-)             1.46 US   20                            
++G gamma 1.1322 0.26
+

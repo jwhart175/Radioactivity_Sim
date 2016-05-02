@@ -1,0 +1,67 @@
+#239PU    239NP B- DECAY                1959EW90,1965DA04,1996WO0514NDS    201411
+#  239NP B- DECAY                1959EW90,1965DA04,1996WO0514NDS    201411
+#H TYP=FUL$AUT=E. BROWNE, J. K. TULI$CIT=NDS 122, 293 (2014)$             
+#H CUT=30-Jun-2013$                                                       
+#  Updated by E. Browne (September 16, 2013). BRICC (2008)                
+#B E         From 1959Co63                                                
+#B IB        I(|b{+-}) to 7.85, 57 and 75 levels deduced from I(|b{+-} to 
+#B 7.85)/ I(|b{+-} to 57+75)=1.6 (1959Co63) and from |S(I|b) to higher    
+#B levels)=100.                                                           
+#B IB        I(|b{+-} to 57+75 level)<2                                   
+#G CC$ FROM BrIcc v2.2 (31-Mar-2008) 2008KiAA, "Frozen Orbitals" appr.    
+#G           x-rays(Pu):                                                  
+#G                                                                        
+#G   E|g         I|g(%|a)               I|g(%|a)         Calculated       
+#G (1982Ah04)  (1982Ah04)           (1972Ah02)      (RADLST)              
+#G ----------  ----------           ----------      --------              
+#G                                                                        
+#G  99.53      12.8 {I4}    K|a{-2}| x ray   14.5 {I6}          13.1 {I5} 
+#G 103.74      20.4 {I6}    K|a{-1}| x ray   22.2 {I8}          20.8 {I7} 
+#G 117.6        7.3 {I3}    K|b{-1}'| x ray                  10.3 {I4} (K|
+#G b| x ray)                                                              
+#G 120.6        2.6 {I1}    K|b{-2}'| x ray   2.8 {I1}                    
+#G           The agreement between measured and calculated K| x ray suppor
+#G ts                                                                     
+#G the experimental |g-ray intensities and assigned multipolarities.      
+#G RI        Unless otherwise specified, absolute G-ray intensities are   
+#G values deduced from thermal neutron activations analysis [238U(N,G)]   
+#G combined with absolute intensities measured by several authors, and    
+#G included as fitted parameters in a least-squares fit (2005Tr08).       
+#G E(B)      From 1976BoYH corrected for change in calibration line of    
+#G K|a{-1}| x ray of U from 98.440 to 98.4346 eV (cryst).                 
+#G See also 1979Bo30.                                                     
+#G E(E)$From 1959Ew90, magnetic spectrometer ce                           
+#G RI(X)$From ce data of 1959Ew90 and theoretical                         
+#G conversion coefficient |a.                                             
+#G RI(D),E(D)$From 1965Da04; Ge(Li), |DI|g estimated by evaluator at      
+#G 15-30%                                                                 
+#G E(A)$From 1982Ah04                                                     
+#G           Others: 1975Pa04, 2008Gr11.                                  
+#G MR        From 1972Kr07, 1959Ew90, 1990Si12, unless otherwise          
+#G specified. Other: 1974Pa03                                             
+#G MR(Y)$Deduced by evaluator from conversion electron data of 1991Sh06   
+#G in {+243}Cm |a decay.                                                  
+#L T(A)$Average of values from 1974Pa03, 1955En07, 1951Gr34               
+#P 0            5/2+             2.356 D   3               722.5    10    
++B beta- 0.2181 0.02
++B beta- 0.1256 0.45
++B beta- 0.1115 0.07
++G gamma 0.32226 5.2E-5
++B beta- 0.0925 0.44
++B beta- 0.0747 2.7000000000000002E-5
++G gamma 0.4619 1.6E-5
++G gamma 0.4698 1.1000000000000001E-5
++B beta- 0.0625 2.0E-4
++G gamma 0.4347 1.3E-4
++G gamma 0.4843 1.0E-5
++G gamma 0.4923 6.0E-5
++B beta- 0.0587 7.400000000000001E-5
++G gamma 0.4295 3.9E-5
++G gamma 0.4476 2.5999999999999997E-6
++G gamma 0.4978 3.2E-5
++B beta- 0.056799999999999996 0.017
++G gamma 0.12440000000000001 1.0E-4
++B beta- 0.0442 3.0E-5
++G gamma 0.39239999999999997 1.6E-5
++G gamma 0.4987 1.0E-5
+

@@ -1,0 +1,23 @@
+#154ND    154PR B- DECAY                1996TO05,1988KA16         09NDS    200910
+#  154PR B- DECAY                1996TO05,1988KA16         09NDS    200910
+#H TYP=FUL$AUT=C. W. Reich$CIT=NDS 110, 2257 (2009)$CUT=1-May-2008$       
+#  {+154}Pr produced by isotope separation of products from               
+#       neutron-induced fission of {+235}U. The authors of 1988Ka16       
+#       are coauthors of 1996To05.                                        
+#  Since the Q value is over 7 MeV and only a few levels are              
+#       reported, this scheme is very incomplete and, therefore, no       
+#       I(|b-) values are given. Limits for such values are given         
+#       by 1996To05.                                                      
+#G E         From average of values of 1988Ka16 and 1996To05.             
+#G RI        From weighted average of values of 1988Ka16 and 1996To05,    
+#G      except where a large discrepancy is noted. Since                  
+#G      the uncertainties in the later paper are significantly larger     
+#G      than those in earlier paper, the values adopted here are very     
+#G      similar to those in 1988Ka16.                                     
+#G E(R)      |g reported only by 1988Ka16.                                
+#G E(S)      |g reported only by 1996To05.                                
+#L E         From least-squares fit to |g energies.                       
+#L J         From assignments in the Adopted Levels.                      
+#P      0       (3+)             2.3 S     1              7.49E+3   10    
+PR154 ND154 beta- 7.49 2.3 1.0
+

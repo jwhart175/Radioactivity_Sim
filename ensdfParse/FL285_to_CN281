@@ -1,0 +1,58 @@
+#281CN    285FL A DECAY (0.15 S)        2010EL06,2015UT02         ENSDF    201511
+#  285FL A DECAY (0.15 S)        2010EL06,2015UT02         ENSDF    201511
+#H TYP=FUL$AUT=BALRAJ SINGH$CIT=ENSDF$CUT=31-OCT-2015$                    
+#  2010El06: {+285}Fl nuclide produced in {+242}Pu({+48}Ca,5n) at         
+#  E=256 MeV from LBNL cyclotron facility. Evaporation residues were      
+#  separated by BGS based on magnetic rigidities. Signals from            
+#  multiwire proportional counters (MWPC) and focal plane detector (FPD)  
+#  were used to distinguish implantation events from radioactive decay    
+#  events in the FPD. Z=114 events were identified by detecting time      
+#  and position correlated events corresponding to their implantation     
+#  and subsequent radioactive decay chain terminating in SF decay.        
+#  Decay chain (2010El06): evaporation residues at 15.97 MeV {I4}         
+#  E{-|a1}=1.64 MeV {I10},  t{-1}=0.181 s,   -assigned to {+285}Fl decay  
+#  E{-|a2}=10.31 MeV {I4},  t{-2}=0.140 s,   -assigned to {+281}Cn decay  
+#  E{-|a3}=10.57 MeV {I4},  t{-3}=8.21 ms,   -assigned to {+277}Ds decay  
+#  E{-|a4}=9.59 MeV {I4},   t{-4}=346 ms,    -assigned to {+273}Hs decay  
+#  E{-|a5}=8.57 MeV {I10},  t{-4}=185 s,     -assigned to {+269}Sg decay  
+#  E(SF)=208.1 MeV,         t(SF)=152 s,     -assigned to {+265}Rf decay  
+#  2015Ut02: {+285}Fl produced in {+239},{+240}Pu({+48}Ca,2n),            
+#  E=245,250 MeV at U400 cyclotron at FLNR-JINR facility.                 
+#  Targets={+240}Pu enriched to 98.97% at ORNL facility, and 92%          
+#  enriched at JINR facility, with average thickness of 0.39 mg/cm{+2}    
+#  {I4} for mixed ORNL/JINR {+240}Pu material. Evaporation residues (ERs) 
+#  were separated from the incident beam ions, scattered particles, and   
+#  transfer reaction products by the DGFRS based on magnetic rigidities.  
+#  Recoils passed through a tof system of two multiwire proportional      
+#  counters (MWPCs), and were implanted in the DSSD detector system       
+#  (0.3-mm thick double-sided silicon strip detectors) placed at the      
+#  final focus of the DGFRS. Events related to Z=114 were identified by   
+#  detecting time and position correlated events corresponding to their   
+#  implantation and subsequent |a-decay chain terminating in SF decay.    
+#  {+239}Pu target was 98.2% enriched obtained from JINR facility,        
+#  thickness=0.50 mg/cm{+2} {I5}                                          
+#  Decay chain #1 (2015Ut02): evaporation residues at 12.56 MeV           
+#  E{-|a1}=10.457 MeV {I50}, t{-1}=0.3998 s  -assigned to {+285}Fl decay  
+#  E{-|a2}=10.292 MeV {I50}, t{-2}=0.0889 s  -assigned to {+281}Cn decay  
+#  E{-|a3}=10.461 MeV {I156}, t{-3}=3.852 ms -assigned to {+277}Ds decay  
+#  E{-|a4}=9.529 MeV {I50}, t{-4}=1.2136 s   -assigned to {+273}Hs decay  
+#  E{-|a5}=8.448 MeV {I263}, t{-5}=521.84 s  -assigned to {+269}Sg decay  
+#  E(SF)=218 MeV, t(SF)=10.37 s              -assigned to {+265}Rf decay  
+#                                                                         
+#  Decay chain #2 (2015Ut02): evaporation residues at 10.20 MeV           
+#  E{-|a1}=10.391 MeV {I62}, t{-1}=0.2525 s  -assigned to {+285}Fl decay  
+#  E{-|a2}=1.73 MeV, t{-2}=0.3684 s          -assigned to {+281}Cn decay  
+#  E{-|a3}=10.536 MeV {I167}, t{-3}=8.282 ms -assigned to {+277}Ds decay  
+#  E{-|a4}=9.462 MeV {I62}, t{-4}=1.9517 s   -assigned to {+273}Hs decay  
+#  E{-|a5}=8.482 MeV {I62}, t{-5}=95.42 s    -assigned to {+269}Sg decay  
+#  E(SF)=220 MeV, t(SF)=99.95 s              -assigned to {+265}Rf decay  
+#                                                                         
+#  Decay chain #3 (2015Ut02): evaporation residues at 9.98 MeV            
+#  E{-|a1}=10.359 MeV {I61}, t{-1}=0.0432 s  -assigned to {+285}Fl decay  
+#  E{-|a2}=10.179 MeV {I220}, t{-2}=0.1433 s -assigned to {+281}Cn decay  
+#  E{-|a3}=10.237 MeV {I220}, t{-3}=3.223 ms -assigned to {+277}Ds decay  
+#  E{-|a4}=9.475 MeV {I61}, t{-4}=0.9013 s   -assigned to {+273}Hs decay  
+#  E{-|a5}=missing, t{-5}=0.9013 s           -assigned to {+269}Sg decay  
+#  E(SF)=166 MeV, t(SF)=491.06 s             -assigned to {+265}Rf decay  
+#P  0                             0.15 S   +14-5           10.56E3  5     
+

@@ -1,0 +1,40 @@
+#202FR    206AC A DECAY (22 MS)         1998ES02,1998LuZV         08NDS    200803
+#  206AC A DECAY (22 MS)         1998ES02,1998LuZV         08NDS    200803
+#H TYP=FUL$AUT=S. ZHU and F.G. KONDEV$CIT=NDS 109, 699 (2008)$            
+#H CUT=1-May-2007$                                                        
+#  1998ES02(recommended): 175LU(36AR,5N) reaction; Target: 320 UG/CM2;    
+#  Beam: 199 MEV; Detectors: Gas-filled recoil separator (^RITU),         
+#  position sensitive ^PIPS detector; Measured:                           
+#  recoil-|a{-1}-|a{-2}-|a{-3} coin, EA, T. The assignment to the         
+#  JPI=(3+) state in 206AC is based on                                    
+#  E|a{-1} ({+206}Ac) - E|a{-2} (202FR) (3+) - E|a{-3} (198AT) (3+)       
+#  correlations.                                                          
+#  1998LUZV: Beam: 186-MEV 35CL; Target: 307 UG/CM2 hafnium (64.6% 176HF, 
+#  21.7% 177HF, 6.8% 178HF, 2.2% 179HF and 4.7% 180HF);                   
+#  Detectors: recoil mass separator at ^JAERI, position sensitive silicon 
+#  detector. The recoils were separator and implanted on the silicon      
+#  detector;                                                              
+#  The assignment to the                                                  
+#  JPI=(3+) state in 206AC is based on                                    
+#  E|a{-1} ({+206}Ac) - E|a{-2} (202FR) (3+) - E|a{-3} (198AT) (3+)       
+#  correlations.                                                          
+#A HF$Using R0(202FR)=1.532 4, weighted average of 1.533 4 (200RN) and    
+#A 1.527 8 (202RN) from 1998Ak04. No information is available on          
+#A R0(202RA) and R0(204RA) in 1998Ak04                                    
+#L E,J,T$From adopted levels.                                             
+#P 0.0         (3+)              22 MS     +9-5           7945      50    
+AC206 FR202 alpha 7.945 0.022 1.0
++A alpha 7.79 1.0
+
+#202FR    206AC A DECAY (33 MS)         1998ES02,1998LuZV         08NDS    200803
+#  206AC A DECAY (33 MS)         1998ES02,1998LuZV         08NDS    200803
+#H TYP=FUL$AUT=S. ZHU and F.G. KONDEV$CIT=NDS 109, 699 (2008)$            
+#H CUT=1-May-2007$                                                        
+#A HF$Using R0(202FR)=1.532 4, weighted average of 1.533 4 (200RN) and    
+#A 1.527 8 (202RN) from 1998Ak04. No information is available on          
+#A R0(202RA) and R0(204RA) in 1998Ak04                                    
+#L E,J,T$From adopted levels.                                             
+#P 0.0+X       (10-)             33 MS     +22-9          7945      50    
+AC206 FR202 alpha 7.945 0.033 1.0
++A alpha 7.75 1.0
+

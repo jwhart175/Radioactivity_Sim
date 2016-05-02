@@ -1,0 +1,48 @@
+#140GD    140TB EC DECAY                1991FI03,2000XU08         07NDS    200707
+#  140TB EC DECAY                1991FI03,2000XU08         07NDS    200707
+#H TYP=FUL$AUT=N. NICA$CIT=NDS 108,1287 (2007)$CUT=1-Feb-2006$            
+#  1991Fi03:                                                              
+#  97% enriched {+92}Mo(HI,xpyn), HI= 312 MeV {+54}Fe and 244 MeV {+52}Cr 
+#  at LBL SuperHILAC with OASIS mass separator and tape transport.        
+#  Detector array: Si |DE-E, HPGe, 2 n-type Ge, 1-mm plastic scintillator 
+#  Measured coin particle, |g, K X-ray, and |b{++} in event-by-event mode 
+#  with tagged time signal (T{-1/2}).                                     
+#  2000Xu08:                                                              
+#  2.5 mg/cm{+2} self-supported 75% enriched {+106}Cd({+36}Ar{+11+},pn)   
+#  at SCF accelerator, Langzhou; 1 atm He reaction chamber; He jet        
+#  plus tape transport.                                                   
+#  Detector array: 2 HPGe(GMX) for <2 MeV |g spectra, HPGe planar for     
+#  X-rays.                                                                
+#  Measured |g|g(t), X|g(t).                                              
+#  Level scheme is from 2000Xu08 and is incomplete                        
+#L BAND(A)   YRAST GS BAND                                                
+#L BAND(B)   K=2+ G-VIBRATIONAL BAND                                      
+#E LOGFT,TI$Calculated by evaluator based on I(|e+|b{++}) from GTOL.      
+#E The level scheme is incomplete                                         
+#E TI(D)$Upper limits from GTOL - Lyon's method 1                         
+#L J$Adopted values                                                       
+#G M$Adopted values                                                       
+#P 0.0          (7+)             2.4 S     2              11.3E3    8     
+TB140 GD140 beta+ 11.3 2.4 1.0
++G gamma 0.3287 0.877
++B beta+ 1.341 0.00356
++G gamma 0.385 0.19294
++G gamma 0.7138 0.12278
++B beta+ 4.49 0.09
++G gamma 0.5078 0.49988999999999995
++B beta+ 4.43 0.09
++G gamma 0.355 0.14032
++G gamma 0.74 0.0877
++B beta+ 4.32 0.09
++G gamma 0.5681 0.15786
++B beta+ 4.21 0.09
++G gamma 0.628 0.45604
++B beta+ 4.12 0.09
++G gamma 0.6254 0.15786
++B beta+ 4.01 0.09
++G gamma 0.6002000000000001 0.21048000000000003
++B beta+ 3.92 0.09
++G gamma 0.6759 0.18417000000000003
++B beta+ 3.8 0.09
++G gamma 0.718 0.14032
+

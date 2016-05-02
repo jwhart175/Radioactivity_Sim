@@ -1,0 +1,100 @@
+#133TE    133SB B- DECAY (2.34 M)       1974MEZQ,1980MEZQ         11NDS    201104
+#  133SB B- DECAY (2.34 M)       1974MEZQ,1980MEZQ         11NDS    201104
+#H TYP=FUL$AUT=YU. KHAZOV AND A. RODIONOV, F.G. KONDEV$                   
+#H CIT=NDS 112, 855 (2011)$CUT=31-Oct-2010$                               
+#  Data are from 1974MeZQ, private communication of R. Meyer,             
+#  as quoted by 1978LeZA, 1977MeZD, and 1980MeZQ. Other: 1973Er18         
+#  The decay scheme is tentative. Intensity of unplaced |g                
+#  transitions |?25% of total |g-ray intensity                            
+#G E,RI$From 1974MeZQ, unless otherwise specified                         
+#L E$From a least-squares fit to EG                                       
+#L J,T$From adopted levels, except as noted                               
+#L J(Y)$From 1980MeZQ                                                     
+#B IB,LOGFT$Values are tentative, because the level scheme is incomplete  
+#B with |?25% of the total |g-ray intensity missing                       
+#P 0.0         (7/2+)            2.34 M    5              4002      7     
+SB133 TE133 beta- 4.002 140.39999999999998 1.0
++G gamma 0.16049000000000002 0.0033280000000000002
++G gamma 0.25804000000000005 5.44E-4
++G gamma 0.26098000000000005 0.0032
++G gamma 0.26604 0.00288
++G gamma 0.27656000000000003 0.00544
++G gamma 0.44095999999999996 0.0048
++G gamma 0.5294 0.0016
++G gamma 0.55838 0.0032
++G gamma 0.6796 0.0044800000000000005
++G gamma 0.68747 0.012159999999999999
++G gamma 0.8089299999999999 0.00736
++G gamma 0.9363400000000001 0.0064
++G gamma 0.9396 0.0022400000000000002
++G gamma 0.9641000000000001 0.00256
++G gamma 0.98717 0.016
++G gamma 1.01441 0.0060799999999999995
++G gamma 1.06549 0.02048
++G gamma 1.18347 0.024
++G gamma 1.21866 0.01344
++G gamma 1.27155 0.03136
++G gamma 1.2935 0.0016
++G gamma 1.30968 0.00512
++G gamma 1.3440999999999999 0.00192
++G gamma 1.3543 0.00192
++G gamma 1.4192 0.00192
++G gamma 1.4433 0.00128
++G gamma 1.49656 0.008
++G gamma 1.5809000000000002 0.0064
++G gamma 1.6979600000000001 0.0096
++G gamma 1.77579 0.00864
++G gamma 1.7949000000000002 0.00128
++G gamma 1.8869 0.0016
++G gamma 1.8967 0.00384
++G gamma 1.9045999999999998 0.00384
++G gamma 1.931 9.6E-4
++G gamma 1.933 3.2E-4
++G gamma 1.9342000000000001 9.6E-4
++G gamma 1.9441 0.01696
++G gamma 1.992 0.0022400000000000002
++B beta- 1.1970999999999998 0.048
++G gamma 1.09622 0.32
++B beta- 1.1185999999999998 0.021
++G gamma 1.26532 0.04064
++B beta- 1.0465 0.0166
++G gamma 1.1130799999999998 0.0144
++G gamma 1.4213 0.0022400000000000002
++B beta- 1.0099 0.0058
++G gamma 0.40436 0.01696
++B beta- 0.9862000000000001 0.031
++G gamma 1.55213 0.03104
++B beta- 0.9461 0.0285
++G gamma 1.3052300000000001 0.04288
++B beta- 0.9452 0.0291
++G gamma 1.64151 0.02912
++B beta- 0.9158999999999999 0.006999999999999999
++G gamma 1.7055 0.007039999999999999
++B beta- 0.9053 0.051
++G gamma 0.63242 0.0288
++G gamma 1.7285899999999998 0.06304
++B beta- 0.8211 0.07
++G gamma 0.8178 0.1376
++B beta- 0.7925 0.006999999999999999
++G gamma 1.97644 0.007039999999999999
++B beta- 0.7711 0.0026
++G gamma 0.92767 0.00864
++B beta- 0.6869 0.035
++G gamma 0.5722999999999999 0.00128
++G gamma 1.11518 0.035840000000000004
++G gamma 1.8771900000000001 0.01152
++B beta- 0.6332000000000001 0.0026
++G gamma 1.23598 0.01568
++B beta- 0.45139999999999997 0.19
++G gamma 0.53876 0.014079999999999999
++G gamma 1.11082 0.01312
++G gamma 1.65423 0.01184
++G gamma 2.4162 0.062400000000000004
++B beta- 0.4492 0.205
++G gamma 0.4234 0.02624
++G gamma 1.02683 0.04096
++G gamma 1.49014 0.0192
++G gamma 1.65926 0.016640000000000002
++G gamma 2.447 0.0096
++G gamma 2.755 0.0928
+

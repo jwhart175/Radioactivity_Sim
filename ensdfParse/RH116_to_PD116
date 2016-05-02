@@ -1,0 +1,80 @@
+#116PD    116RH B- DECAY (0.68 S)       2001WA04,1988AY02         10NDS    201004
+#  116RH B- DECAY (0.68 S)       2001WA04,1988AY02         10NDS    201004
+#H TYP=FUL$AUT=Jean Blachot$CIT=NDS 111, 717 (2010)$CUT=1-Dec-2009$       
+#  By taking advantage of higher production yields and more efficiency,   
+#  detectors, 2001WA04, same group as 1988AY02 have remeasured the        
+#   decay of 116RH                                                        
+#  Activity: 238U(P,F) EP=20 MEV, mass separator IGISOL                   
+#  Measured: G, GG, BCE, T1/2, GE(LI), SI(LI)                             
+#  Conversion electron measurements support the E2 character for          
+#  340G. No evidence for strong E0 transition (1988AY02).                 
+#  The GS BETA branching was determined by comparing the gross BETA       
+#  intensity with the BETA intensity in coincidence with the 2+ to 0+     
+#G CC$ FROM BrIcc v2.2b (20-Jan-2009) 2008Ki07, "Frozen Orbitals" appr.   
+#G RI$ See the 0.57 S decay for the discrimination in |g intensities.     
+#P 0.0          1+               0.68 S      6            9.22E+3   15    
++B beta- 4.213 0.45
++B beta- 4.052 0.23
++B beta- 3.863 0.22
++G gamma 0.3977 0.2706
++G gamma 0.7377999999999999 0.1804
++B beta- 3.686 0.035
++G gamma 0.7695 0.06314
++B beta- 3.389 0.032
++G gamma 0.9954 0.027059999999999994
++G gamma 1.3925 0.03034
++B beta- 3.259 0.024
++B beta- 3.226 0.009000000000000001
++G gamma 1.3362 0.01722
+
+#116PD    116RH B- DECAY (0.57 S)       2001WA04,1988AY02         10NDS    201004
+#  116RH B- DECAY (0.57 S)       2001WA04,1988AY02         10NDS    201004
+#H TYP=FUL$AUT=Jean Blachot$CIT=NDS 111, 717 (2010)$CUT=1-Dec-2009$       
+#  By taking advantage of higher production yields and more efficiency,   
+#  detectors, 2001WA04, same group as 1988AY02 have remeasured the        
+#   decay of 116RH                                                        
+#  Activity: 238U(P,F) EP=20 MEV, mass separator IGISOL                   
+#  After each cycle, the acquisition system was blocked while             
+#  the tape moved forward about 20 cm in 0.3 s. In the detection          
+#  setup, a 2 mm thick ^BC408 cylindrical plastic scintillator            
+#  was used for detection of |b particles with the total efficiency       
+#  of about 60%. Four large volume Eurogam phase-I                        
+#  Ge detectors with relative efficiency of 70% in each,                  
+#  were used to detect |g rays.                                           
+#  Measured: G, GG, BCE, T1/2, GE(LI), SI(LI)                             
+#  Conversion electron measurements support the E2 character for          
+#  340G, 538G. No evidence for strong E0 transition (1988AY02)            
+#  Authors have assign the intensities of the gammas by assuming that the 
+#  1+ decay directly populates only states with I<2. This argument        
+#  is supported by the intensity balance for the 1066.2-keV 3+            
+#  level indicating no direct |b feeding. Accordingly,                    
+#  only the 340.3-keV 2+ and 737.9 2+ levels are populated in             
+#  both |b decays. The intensities of 340.3, 397.7, and 737.8-keV         
+#  |g transitions are then separated, as the |b feedings must             
+#  be negligible to the 340.3 and 737.9-keV levels in the decay           
+#  of high-spin isomer.                                                   
+#P 150          (6-)             0.57 S     5             9.22E+3   15    
+RH116 PD116 beta- 9.22 0.57 1.0
++B beta- 3.867 0.07
++B beta- 3.632 0.039
++B beta- 3.543 0.004
++B beta- 3.478 0.048
++B beta- 3.467 0.036000000000000004
++B beta- 3.424 0.009000000000000001
++B beta- 3.341 0.065
++B beta- 3.285 0.011000000000000001
++B beta- 3.202 0.086
++B beta- 3.183 0.045
++B beta- 3.174 0.019
++B beta- 3.169 0.01
++B beta- 3.127 0.017
++B beta- 3.125 0.109
++B beta- 3.119 0.268
++B beta- 3.099 0.011000000000000001
++B beta- 3.045 0.042
++B beta- 3.039 0.012
++B beta- 3.021 0.006999999999999999
++B beta- 2.991 0.026000000000000002
++B beta- 2.946 0.006
++B beta- 2.919 0.043
+

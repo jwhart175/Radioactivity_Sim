@@ -1,0 +1,25 @@
+#179LU    179YB B- DECAY                1982KI04,1993BO14         09NDS    200902
+#  179YB B- DECAY                1982KI04,1993BO14         09NDS    200902
+#H TYP=FUL$AUT=Coral M. BAGLIN$CIT=NDS 110, 265 (2009)$CUT=15-Nov-2008$   
+#  1982KI04: activity produced by 136XE bombardment of tungsten/tantalum  
+#  targets. Measured EG, RI, BG coin, GG coin. Detectors: GE(LI), scin.   
+#  1993BO14: activity from 136XE bombardment of Re target. Measured EG,   
+#  IG, GG coin, EKC(592G).                                                
+#  The decay scheme is taken from 1993BO14.                               
+#B LOGFT     CALCULATED ASSUMING 300-KEV UNCERTAINTY IN systematic        
+#B VALUE FOR Q- (2003AU03).                                               
+#G E,RI      From 1993BO14. The less precise data of 1982KI04 are,        
+#G typically, consistent with these. IG=15% remains unplaced.             
+#G E(A),RI(A)$1992BU12 report that, according to a private communication  
+#G to them from one of the authors of 1982KI04, a 592G decaying with      
+#G appropriate half-life was observed in a singles |g spectrum from that  
+#G study but it was not mentioned in 1982KI04.                            
+#L E         FROM LEAST-SQUARES FIT TO EG.                                
+#L J         FROM Adopted Levels.                                         
+#P 0.0          (1/2-)           8.0 M     4              2.65E3    SY    
+YB179 LU179 beta- 2.65 480.0 0.355
++G gamma 0.42660000000000003 0.02
++G gamma 0.43119999999999997 0.07
++G gamma 0.5 0.17
++G gamma 0.6432 0.15
+

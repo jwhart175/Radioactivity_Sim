@@ -1,0 +1,137 @@
+#147TB    147DY EC DECAY (67 S)         1984SCZU                  09NDS    200902
+#  147DY EC DECAY (67 S)         1984SCZU                  09NDS    200902
+#H TYP=FUL$AUT=N. NICA$CIT=NDS 110,749 (2009)$CUT=14-Nov-2008$            
+#  According to 1984SCZU and 1982TO01 both 147DY{+g.s.} EC+B+ DECAY (67 S)
+#  and 147DY{+m} EC+B+ DECAY (55.2 S) contribute to this level scheme     
+#  1984SCZU: 93NB(58NI,3PN), E=290 MEV, followed by EC+B+ decay at        
+#  ^UNILAC, ^GSI (from 1984SCZT). Measured EG, IG, |g|g, X-ray-|g         
+#  from 147DY{+g.s.}, 147DY{+m} decays                                    
+#  1983ALZN: MEASURED EG, IG, T1/2 FROM 147DY{+g.s.}, 147DY{+m} DECAYS    
+#  (NO DETAILS ABOUT EXPERIMENT)                                          
+#  1982TO01: 142ND(12C,7N), E AP 127 MEV, followed by EC+B+ decay at      
+#  the on-line mass separator ^RAMA, ^LBNL. Measured EG, IG, |g|g from    
+#  147DY{+g.s.}, 147DY{+m} decays                                         
+#  Others:                                                                
+#  2002RUZZ, 147DY EC+B+ ^TAS MEASUREMENTS OF GAMOW-TELLER STRENGTH       
+#  FUNCTIONS                                                              
+#  2001XU06, identified three GAMMAS in 147TB of                          
+#  I(253|g+ce)=100 15, I(101|g+ce)=105 30, I(365|g+ce)=45 10 in           
+#  coincidence with 2.5-6.4 MEV protons from 148HO (BETA-delayed P)       
+#  precursor                                                              
+#  1997CO21, 147DY EC+B+ HPGE MEASUREMENTS OF GAMOW-TELLER STRENGTH       
+#  FUNCTIONS FROM GS, AND METASTABLE STATE                                
+#  1989NI02, 147DY(1/2+) BETA-delayed P decay, through 147TB(1/2+,3/2+),  
+#  to 146GD(0+)                                                           
+#  1988AL42, 147DY BETA-DELAYED P DECAY AND GAMOW-TELLER EC+B+ STRENGTH   
+#  FUNCTIONS, FROM GS (MAX OF GAMOW-TELLER RESONANCE 3.95 MEV), AND       
+#  METASTABLE STATE (MAX OF GAMOW-TELLER RESONANCE 4.85 MEV); OTHERS (SAME
+#  GROUP, GENERALLY SUPERSEDED): 1987AL12, 1985AL30, 1985AL13, 1985AL08,  
+#  1983BYZZ                                                               
+#  1988NI02, 148HO BETA-delayed P decay, measured P-decay                 
+#  branches from 148HO: from 1+ GS, b(G7/2)=7% 4, b(D5/2)=1% 4,           
+#  b(D3/2)=3% 5, and b(S1/2,H11/2)=89% 20; from 6- isomer, b(G7/2)=2.3%,  
+#  b(D5/2)=1.7%, b(D3/2)=0.8%, and b(H11/2)=94.5%                         
+#  1988SCZV, 147DY(1/2+) BETA-delayed P decay, through                    
+#  147Tb(^Ex AP 4 MEV,JPI=1/2+,3/2+), to 146GD(0+). Observed 2 strong     
+#  proton lines with E(P)=2210 KEV and 2600 KEV (1988ScZV), and           
+#  measured SP=1945 18. Supersede 1982KL03                                
+#  1987AL18, 147DY BETA-DELAYED P DECAY AND GAMOW-TELLER EC+B+ STRENGTH   
+#  FUNCTIONS (SAME AS 1988AL42, SAME GROUP). STUDIED FINE STRUCTURE OF    
+#  GAMOW-TELLER RESONANCE FROM DELAYED PROTONS SPECTRA TO 146GD GS AND    
+#  FOUND REGULAR STRENGTH MAXIMA SITUATED AT MULTIPLES OF 0.18 MEV FROM   
+#  EACH OTHER                                                             
+#  1984SCZT, 147DY BETA-delayed P decay                                   
+#  1984TO07, 147DY(1/2+) BETA-delayed P decay                             
+#  1976RA07,1975TO04, 147DY EC+B+ decay                                   
+#  Level scheme is from 1984SCZU. 1992DE38 observe that data given by     
+#  1984SCZU and 1983ALZN do not agree and do not adopt any of the         
+#  data. However the evaluator found consistent data common to 1984SCZU   
+#  and 1995CO12 (144SM(6LI,3NG) dataset), based on which the 1984SCZU     
+#  data are adopted here                                                  
+#P 0.0         (1/2+)            67 S      7              6564      23    
+DY147 TB147 beta+ 6.564 67.0 1.0
++B beta+ 8.278E-4 0.00133
++G gamma 0.2534 1.0
++G gamma 0.1011 0.23
++G gamma 0.3648 0.25
++G gamma 0.9758 0.046
++G gamma 1.1594 0.031
++G gamma 1.2259 0.004
++G gamma 1.4798 0.053
++G gamma 1.4045999999999998 0.046
++G gamma 1.5052999999999999 0.016
++G gamma 1.7588 0.05
++G gamma 1.4122000000000001 0.032
++G gamma 1.5128 0.008
++G gamma 1.7665 0.124
++G gamma 1.4607999999999999 0.08900000000000001
++G gamma 2.382 0.028999999999999998
++G gamma 3.4044 0.011000000000000001
++G gamma 3.5053 0.036000000000000004
++G gamma 3.7584 0.132
++G gamma 3.7009000000000003 0.018000000000000002
++G gamma 3.9535 0.064
++G gamma 3.9751999999999996 0.026000000000000002
++G gamma 3.7671 0.008
++G gamma 4.0191 0.006999999999999999
++G gamma 3.6906999999999996 0.024
++G gamma 3.7912 0.017
++G gamma 3.8318000000000003 0.006
++G gamma 4.0846 0.027000000000000003
++G gamma 2.639 0.022000000000000002
+
+#147TB CG RI$Relative to 253G from 147DY EC DECAY (67 S)                         
+#G RI$Relative to 253G from 147DY EC DECAY (67 S)                         
+#G E(A),RI(A)$Observed only in 1983AlZN                                   
+#G E(B),RI(B)$Observed in 1984ScZU (adopted here) and 1983AlZN            
+#G $GAMMA decay in general shown only for levels where at least one       
+#G transition has IG GT 2 (1984SCZU)                                      
+#E TI$Relative intensity from G intensity balance (Fig. 3, "The 147TB     
+#E levels populated in |b-decay of {+147}Dy", 1984ScZU),                  
+#E except where noted                                                     
+#E TI(T)$(per 100 parent decays) 33 6 (1997CO21); other: LT 5% and        
+#E LOGFT GT 6.8 (1983BYZZ)                                                
+#E $I(|e+|b{++})(levels GT 4.7 MEV levels group)=46% (1983ByZZ) (in units 
+#E of per 100 parent decay)                                               
+#P 750.5     4  (11/2-)           55.2 S    5             6564      23    
+DY147 TB147 beta+ 6.564 0.0 0.689
++G gamma 1.213 0.02
++G gamma 1.2178 0.03
++G gamma 1.2617 0.1
++G gamma 1.503 0.02
++G gamma 1.5635999999999999 0.03
++G gamma 1.6096 0.05
++G gamma 1.9834 0.02
++G gamma 2.3313 0.05
++G gamma 2.484 0.05
++G gamma 2.494 0.04
++G gamma 2.875 0.02
++G gamma 2.9320999999999997 0.05
++G gamma 2.954 0.02
++G gamma 0.2534 0.2
++G gamma 0.1011 0.15
++G gamma 0.3648 0.25
++G gamma 1.2658 0.11
++G gamma 1.388 0.15
++G gamma 1.4367999999999999 0.076
++G gamma 1.5508 0.09
++G gamma 1.6650999999999998 0.023
++G gamma 1.7247000000000001 0.13
++G gamma 1.9367 0.027000000000000003
++G gamma 1.9697 0.055
++G gamma 1.9947000000000001 0.027000000000000003
++G gamma 2.1066 0.09300000000000001
++G gamma 2.1846 0.044000000000000004
++G gamma 2.2697 0.049
++G gamma 2.3501999999999996 0.044000000000000004
++G gamma 2.4352 0.025
++G gamma 2.6533 0.022000000000000002
++G gamma 2.764 0.038
++G gamma 4.6188 0.013999999999999999
++G gamma 4.6518999999999995 0.01
++G gamma 4.6905 0.008
++G gamma 4.7038 0.008
++G gamma 4.7191 0.008
++G gamma 3.0511 0.013000000000000001
++G gamma 4.777399999999999 0.027000000000000003
+

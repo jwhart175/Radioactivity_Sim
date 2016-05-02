@@ -1,0 +1,39 @@
+#157DY    157DY IT DECAY (21.6 MS)      1970BO02,1971KIZQ         04NDS    200501
+#  157DY IT DECAY (21.6 MS)      1970BO02,1971KIZQ         04NDS    200501
+#H TYP=FUL$AUT=R. G. Helmer$CIT=NDS 103, 565 (2004)$CUT=1-Feb-2004$       
+#  This isomer has been produced by {+157}Gd({+3}He,3n), {+156}Dy(n,|g),  
+#       and {+156}Gd(|a,3n|g) reactions.  |g's measured with Ge, Si(Li),  
+#       and NaI detectors and ce measured with magnetic spectrometer.     
+#  Experimental methods:                                                  
+#  1970Bo02: produced by {+157}Gd({+3}He,3n) with pulsed beam with        
+#       E({+3}He)=20 MeV on enriched (93.7%) target.  |g's measured       
+#       with Ge and NaI detectors and ce with magnetic spectrometer.      
+#  1971KiZQ: produced by {+156}Dy(n,|g) with pulsed n source on           
+#       enriched target.  |g's measured with Ge, Si(Li), and NaI          
+#       detectors.                                                        
+#G E         From 1971KiZQ; other: 1970Bo02.                              
+#G RI        Average of data from 1970Bo02 and 1971KiZQ.                  
+#G RI        From 1970Bo02, I(XK)+I{-|g}(51)=2.7 {I11}.  Since            
+#G      I{-|g}(51) is negligible, this value is the measured K x-ray      
+#G      intensity. However, for this decay scheme the calculated I(XK)    
+#G      is much larger, namely |? 5.2.  In contrast, 1971KiZQ indicate    
+#G      that their measured I(XK) is consistent with the decay scheme,    
+#G      but they do not give a value.                                     
+#G M         From {+157}Dy Adopted |g radiations and based on the ce      
+#G      data of 1970Bo02 and the ce data from the |e decay of {+157}Ho.   
+#G      1970Bo02 assign M1 for 61 and 87 |g's from |a{-L}(exp) and E2     
+#G      for 148 from K/L.  1971KiZQ assign E1 to 14 and 37 |g's from      
+#G      intensity balance at 148 level.                                   
+#G MR        From {+157}Dy Adopted |g radiations.                         
+#L E         From least-squares fit to |g energies. More precise values   
+#L      are available in {+157}Dy Adopted Levels.                         
+#L J         From {+157}Dy Adopted Levels.                                
+#L T         Values are from isomer decay studies only; see {+157}Dy      
+#L      Adopted Levels for values from all measurements.  Measurement     
+#L      methods are: {+3}He pulse-|g(t) (1970Bo02), |g(t) (1971KiZQ),     
+#L      and |a pulse-|g(t) (1973Kl03).                                    
+#L           Level is 11/2- (199).                                        
+#L BAND(A)   3/2[521] band                                                
+#L BAND(E)   11/2[505] bandhead                                           
+#P  199.5    5  11/2-            21.6 MS   16                             
+

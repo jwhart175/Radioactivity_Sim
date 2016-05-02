@@ -1,0 +1,17 @@
+#173RE    177IR A DECAY                 1967SI02,1986KE03,1990BO1995NDS    199509
+#  177IR A DECAY                 1967SI02,1986KE03,1990BO1995NDS    199509
+#H TYP=ERR$AUT=T. W. BURROWS$DAT=25-JAN-2000$COM=Removed PN since no G's  
+#H TYP=FUL$AUT=V. S. SHIRLEY$CIT=NDS 75,377 (1995)$CUT=1-Oct-1993$        
+#  1967Si02: sources from {+19}F bombardments of Er; measured E|a         
+#  (Au-Si surface-barrier detector).                                      
+#  1986Ke03: sources from fusion of {+90}Zr with {+90}Zr, {+92}Zr, and    
+#  {+89}Y, followed by velocity-filter, evaporation-residue               
+#  separation; measured E|a, I|a (central surface-barrier                 
+#  detector, FWHM=25); determined |a branching ratio.                     
+#  1990Bo19: sources from {+141}Pr({+40}Ar,4n), helium-jet transport;     
+#  measured E|a, I|a (silicon surface-barrier detector);                  
+#  determined |a branching ratio.                                         
+#P 0.0          (5/2-)           30 S      2              5130      50    
+IR177 RE173 alpha 5.13 30.0 0.0006
++A alpha 5.011 1.0
+

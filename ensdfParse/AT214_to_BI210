@@ -1,0 +1,32 @@
+#210BI C  1982EW01: 214AT was produced from 218FR A DECAY. Measured EA and IA.   
+#  1982EW01: 214AT was produced from 218FR A DECAY. Measured EA and IA.   
+#                                                                         
+#A E         From 1982Ew01. EA's were calibrated to 8819A, measured by    
+#A 1982Bo04. Other measurements: 1951Me10, 1958To25, 1964Mc21, 1968Ha14,  
+#A 1999Sh03                                                               
+#A IA        From 1982Ew01.                                               
+#A HF        Using R0(210BI)=1.5443, average of R0(208PB)=1.5394 6,       
+#A R0(210PB)=1.5408 9, R0(210PO)=1.532 6, and R0(212PO)=1.5649 8          
+#A (1998AK04).                                                            
+#L J,T       From Adopted Levels.                                         
+#P 0.0          1-               558 NS    10             8987      4     
+AT214 BI210 alpha 8.987 5.58E-7 1.0
++A alpha 8.819 0.9895
++A alpha 8.507 0.0015
++A alpha 8.48 0.0058
++A alpha 8.27 0.0032
+
+#210BI C  214AT was produced from 218FR A DECAY. Measured EA and IA.             
+#  214AT was produced from 218FR A DECAY. Measured EA and IA.             
+#A E         Measurements of 1982Ew01. Other: 1999SH03.                   
+#A IA        From 1982Ew01.                                               
+#A HF        Using R0(210BI)=1.5443, average of R0(208PB)=1.5394 6,       
+#A R0(210PB)=1.5408 9, R0(210PO)=1.532 6, and R0(212PO)=1.5649 8          
+#A (1998AK04).                                                            
+#L J         From Adopted Levels.                                         
+#P 232       6   9-              760 NS    15             8987      4     
+AT214 BI210 alpha 8.987 7.6E-7 1.0
++A alpha 8.782 0.9918
++A alpha 8.62 0.0064
++A alpha 8.39 0.0018
+

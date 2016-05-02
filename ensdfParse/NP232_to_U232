@@ -1,0 +1,21 @@
+#232U     232NP EC DECAY                1972WE16                  06NDS    200610
+#  232NP EC DECAY                1972WE16                  06NDS    200610
+#H TYP=FUL$AUT=E. BROWNE$CIT=NDS 107, 2579 (2006)$CUT=1-Nov-2004$         
+#E           %|b{++}<0.1% from |g{+|+} (1972We16)                         
+#E TI$Deduced by evaluator from decay-scheme transition intensity balance 
+#E at each level.                                                         
+#G           From 1972We16. Other: 1970Ho27                               
+#G E         Comparison with {+232}Pa |b{+-} decay suggests that all      
+#G E|g's in 1972We16 are |?1 keV too high.                                
+#G           K| x ray=57.8% of intensity of all observed |g's (1970Ho27)  
+#G M         From adopted gammas                                          
+#L E$Deduced by evaluator from a least-squares fit to G-ray energies.     
+#L BAND(A)   KPI=0+ GS rotational band                                    
+#L BAND(E)   KPI=2+ G vibrational band                                    
+#L BAND(G)   KPI=2-                                                       
+#L BAND(H)   KPI=2+                                                       
+#L BAND(I)   KPI=(1-)                                                     
+#P 0            (4+)             14.7 M    3               2750     99    
++B beta+ 7.679000000000001E-4 0.05
++B beta+ 0.268 0.00767
+

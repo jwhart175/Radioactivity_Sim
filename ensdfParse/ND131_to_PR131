@@ -1,0 +1,40 @@
+#131PR    131ND EC DECAY                1996GE12,1993GEZZ         06NDS    200612
+#  131ND EC DECAY                1996GE12,1993GEZZ         06NDS    200612
+#H TYP=FUL$AUT=YU. KHAZOV, I. MITROPOLSKY, A. RODIONOV$                   
+#H CIT=NDS 107, 2715 (2006)$CUT=17-Jul-2006$                              
+#  1996Ge12: {+131}Nd |e decay [from {+94}Mo({+40}Ca,2pn), E=255 MeV];    
+#  measured E|g, I|g, ce, |g|g, x|g, ce|g(t), x|g(t). He-jet transport,   
+#  magnetic selector, Ge, Si(Li) detectors.                               
+#  Others: 1996Gi08, 1983ViZU                                             
+#E IE$From net feeding of each level assuming no feeding to g.s.          
+#G $All data from 1996Ge12, except as noted                               
+#G E(X)$Assigned to {+131}Nd |e decay by 1983ViZU on the basis of         
+#G partial T{-1/2}<30 s                                                   
+#G M$From ECC                                                             
+#L E$From least-squares fit to E|g's                                      
+#L J$As in 1996Ge12: from multipolarities of |g's, level scheme and       
+#L systematics                                                            
+#P 0.0           (5/2+)          26.0 S     11            6510      60    
+ND131 PR131 beta+ 6.51 26.0 1
++B beta+ 8.378E-4 0.0012
++B beta+ 2.49 6.900000000000001E-4
++B beta+ 2.412 7.5E-4
++B beta+ 2.407 7.5E-4
++B beta+ 2.318 8.3E-4
++B beta+ 2.317 8.3E-4
++B beta+ 2.286 8.6E-4
++B beta+ 2.266 8.799999999999999E-4
++B beta+ 2.259 8.9E-4
++B beta+ 2.213 9.299999999999999E-4
++B beta+ 2.208 9.4E-4
++B beta+ 2.207 9.4E-4
++B beta+ 2.187 9.6E-4
++B beta+ 2.164 9.9E-4
++B beta+ 2.157 0.001
++B beta+ 2.151 0.001
++B beta+ 2.137 0.0010199999999999999
++B beta+ 2.107 0.00106
++B beta+ 2.092 0.00107
++B beta+ 2.068 0.00111
++B beta+ 2.02 0.00117
+

@@ -1,0 +1,55 @@
+# 65CU    65NI B- DECAY                 1987JU05,1973RA10         10NDS    201009
+#  65NI B- DECAY                 1987JU05,1973RA10         10NDS    201009
+#H TYP=FUL$AUT=E. BROWNE, J. K. TULI$CIT=NDS 111, 2425 (2010)$            
+#H CUT=1-Aug-2009$                                                        
+#  Nothing new.  E. Browne (10/13/2009).                                  
+#  1990Lo03: E|g, I|g; 4|p|b|g coincidences, Ge(Li)                       
+#  1987Ju05: E|g, I|g, T{-1/2}; 4|p|b|g coincidences, Ge(Li), ionization  
+#  chamber                                                                
+#  1980RuZY: T{-1/2} and |g emission probabilities for 33 radionuclides   
+#  are discussed along with an assessment of data uncertainties           
+#  1973Ra10: E|g, I|g; Ge(Li)                                             
+#  1971Me14,1980RuZY: I|g, I|b{+-}, |b|g coincidences and T{-1/2};        
+#  proportional and ionization counters                                   
+#  1972Pa30: E|g, I|g, |g|g coincidences; Ge(Li), NaI                     
+#  1963Cl06: E|g, I|g, |g|g coincidences, |g|g(|q) and T{-1/2}; 4|p|b     
+#  counter, NaI                                                           
+#  1968Re04: {+65}Ni T{-1/2}                                              
+#  1977Ba64: {+65}Ni T{-1/2}                                              
+#  1964Fr04: E|g, I|g, E|b{+-}, I|b{+-}; magnetic spectrometer, NaI       
+#  1965Sp07: E|g, I|g, |g|g coincidences and |g|g(|q); Ge(Li), NaI        
+#  1976Kr09: |g(|q) anisotropies from oriented nuclei; Ge(Li)             
+#  1968At03,1969Be28: |b-|g circular polarization correlations; magnetic  
+#  spectrometer, scintillators, Ge(Li)                                    
+#  Others: 1958Ha11, 1960Ja16, 1962Ba27                                   
+#  Absolute intensities for 1482|g: 23.59% {I14} (1987Ju05), 23.5% {I4}   
+#  (1980RuZY) and 21.95% {I28} (1990Lo03). The first two show excellent   
+#  agreement while the last one is lower by 7%.                           
+#  Further, the absolute intensities of 1990Lo03 are systematically       
+#  lower than the 1987Ju05 values by 8-11% for other |g rays. There is    
+#  good agreement between the intensities of 1973Ra10 and 1987Ju05.       
+#B IB        From |g intensity imbalance at each level                    
+#G CC$ FROM BrIcc v2.2 (31-Mar-2008) 2008KiAA, "Frozen Orbitals" appr.    
+#G E         From 1973Ra10, except as noted.                              
+#G RI        Relative intensity (1987Ju05)                                
+#G M,MR      From adopted gammas; supporting arguments from this data set 
+#G based on |g(|q), |g|g(|q) and RUL are indicated                        
+#L E         From a least-squares fit to E|g data.                        
+#L J         From adopted levels.                                         
+#P 0           5/2-              2.51719 H 26              2137.9   7     
++B beta- 0.8754 0.6
++G gamma 0.7706000000000001 0.001035601
++B beta- 0.3717 0.1018
++G gamma 1.11553 0.15427860000000002
++B beta- 0.2205 0.284
++G gamma 0.36627 0.048052830000000005
++G gamma 1.4818399999999998 0.2359
++B beta- 0.1658 0.0089
++G gamma 0.5079 0.00292516
++G gamma 0.8527 9.6719E-4
++G gamma 1.62342 0.004977489999999999
++B beta- 0.12840000000000001 0.00555
++G gamma 0.6095 0.001545145
++G gamma 0.9545 3.5385E-5
++G gamma 1.72492 0.00398671
+

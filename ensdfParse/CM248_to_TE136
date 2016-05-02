@@ -1,0 +1,24 @@
+#136TE    248CM SF DECAY                2000KO15                  02NDS    200206
+#  248CM SF DECAY                2000KO15                  02NDS    200206
+#H TYP=FUL$AUT=A.A. Sonzogni$CIT=NDS 95, 837 (2002)$CUT=1-Feb-2002$       
+#  Eurogam2 array of compton-suppressed Ge detectors. Measured G, GG      
+#  Earlier work by the same group: 1998NO13                               
+#  1993CI01: first article to report excited states on 136TE, 10          
+#  Compton-suppressed Ge detectors plus 2 ^LEPS and a 50-element BGO      
+#  array for multiplicity filter.                                         
+#  See 252CF SF decay for addition level information on 136TE             
+#L $Authors claim lifetimes of levels up to 3720 keV to be smaller than   
+#L 10 ns                                                                  
+#L J$As given by authors, from G multipolarities, systematics of N=84     
+#L nuclei.                                                                
+#L E$As given by authors                                                  
+#L BAND(A)$GS yrast band                                                  
+#G RI$From 1993CI01                                                       
+#G M$From G(THETA) and linear polarization values.                        
+#P 0            0+               3.48E+5 Y 6                              
++G gamma 0.6065 1.0
++G gamma 0.4234 0.94
++G gamma 0.3526 0.79
++G gamma 0.7495 0.37
++G gamma 0.6602 0.19
+

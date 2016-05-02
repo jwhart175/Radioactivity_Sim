@@ -1,0 +1,40 @@
+#100RU    100TC B- DECAY (15.46 S)      1969BE69,2001FU21         08NDS    200802
+#  100TC B- DECAY (15.46 S)      1969BE69,2001FU21         08NDS    200802
+#H TYP=FUL$AUT=BALRAJ SINGH$CIT=NDS 109, 297 (2008)$CUT=26-Dec-2007$      
+#  1969Be69: Measured EG, IG, GG, GG(THETA), BG, T1/2. GG(THETA) data     
+#  using scin (^Na^I(^Tl)) detectors                                      
+#  2001Fu21 (also 2005Fu18,2004Fu30): Measured EG, IG, BG coin,           
+#  isotopic half-life, absolute intensities of 539G and 591G              
+#  2005FuZY is superseded by 2004Fu30 and 2005Fu18.                       
+#  Others:                                                                
+#  T1/2(100TC GS): 2002Ab03, 1995Ha46, 1963Cs01, 1952Ho17, 1952Bo30       
+#  B- data: 1977ReZK, 1958Ok13, 1952Bo30, 1952Ho17                        
+#  BG coin: 1958Ok13                                                      
+#  2006Za02: Calculated Gamow-Teller transition matrix elements           
+#  Total decay energy deposit of 3202 keV {I4} calculated by RADLIST      
+#  code is in agreement with expected value of 3203 keV {I2}              
+#B E$From 1958Ok13. Others: 1952Bo30, 1952Ho17                            
+#G E,RI$ Weighted averages from 2001Fu21 and 1969Be29,                    
+#G unless otherwise stated                                                
+#G M$ From 'adopted gammas', except where assumed assignment is given     
+#G in square brackets from DJPI                                           
+#G E(X),RI(X)$ G from 1969Be29 only                                       
+#G E(A)$ G unobserved but its existence assumed (by 1969Be69) according   
+#G to the proposed decay scheme                                           
+#L E$From least-squares fit to EG's                                       
+#L J$From 'adopted levels', unless otherwise stated                       
+#L J(A)$ From GG(THETA) data of 1969Be69, parity is from 'adopted levels' 
+#P  0.0         1+                 15.46 S 19              3202.8   17    
++B beta-8.446E-4 0.0012
++B beta-1.353 0.81
++B beta-1.0992 0.8
++B beta-0.8252200000000001 0.09
++B beta-0.71936 0.08
++B beta-0.54977 0.06
++B beta-0.49539 0.05
++B beta-0.41504 0.03
++B beta-0.39515 0.04
++B beta-0.33577999999999997 0.02
++B beta-0.27618 0.09
++B beta-0.17101 0.07
+

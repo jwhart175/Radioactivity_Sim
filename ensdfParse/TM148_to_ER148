@@ -1,0 +1,21 @@
+#148ER    148TM EC DECAY (0.7 S)        1982NO08                  14NDS    201404
+#  148TM EC DECAY (0.7 S)        1982NO08                  14NDS    201404
+#H TYP=FUL$AUT=N. NICA$CIT=NDS 117, 1 (2014)$CUT=1-Oct-2013$              
+#  1982No08: {+148}Tm produced in {+92}Mo({+58}Ni,np) E=233-250 MeV.      
+#  Measured: E|g, I|g, |g|g, |g(t)                                        
+#  Level scheme is from 1982No08. The present decay scheme seems          
+#  incomplete and several |g rays may have been unobserved. In addition,  
+#  from systematics of odd-odd Tm nuclei, several isomers in {+148}Tm are 
+#  expected with J|p values in the range of 1-10, although evidence of    
+#  isomerism in {+148}Tm was not found in the mass measurement by 2008Ra03
+#L J$ From Adopted Levels                                                 
+#P 0+X         (10+)             0.7 S     2              12714     14    
+TM148 ER148 beta+ 12.714 0.7 1.0
++G gamma 0.6466000000000001 1.0
++G gamma 0.8774 0.72
++G gamma 0.7303 0.35
++G gamma 1.0029 0.55
++G gamma 0.283 0.46
++G gamma 0.2471 0.15
++G gamma 0.2575 0.52
+

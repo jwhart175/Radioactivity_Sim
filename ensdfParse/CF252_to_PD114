@@ -1,0 +1,20 @@
+#114PD    252CF SF DECAY                1999BU32                  12NDS    201203
+#  252CF SF DECAY                1999BU32                  12NDS    201203
+#H TYP=FUL$AUT=Jean Blachot$CIT=NDS 113, 515 (2012)$CUT=1-Jan-2012$       
+#  1999Bu32: Measured E|g, |g|g, I|g using Gammasphere array of 36 and 72 
+#   Ge detectors and one x-ray detector.                                  
+#  1970Ch11: Measured K| x ray, |g, |g(t). Identified 2+, 4+, 6+ levels.  
+#  Others: 1972Ho08, 1972Wi15                                             
+#  The level scheme is as given by 1999Bu32                               
+#G E$|D(E|g)=0.3 for I|g>10 and 0.5 for I|g<10 set by evaluator for       
+#G least-squares fit                                                      
+#L E$From least-squares fit to E|g's                                      
+#L J$From angular correlation analysis and comparison with other Pd       
+#L nuclides                                                               
+#L BAND(A)$ GS band                                                       
+#L BAND(B)$ BAND BASED ON (4-)                                            
+#L BAND(C)$ BAND BASED ON (5-)                                            
+#L BAND(D)$ BAND BASED ON (9-)                                            
+#L BAND(E)$ GAMMA BAND                                                    
+#P  0.0        0+                  2.645 Y 8                              
+

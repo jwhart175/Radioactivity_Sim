@@ -1,0 +1,23 @@
+# 93KR    93BR B- DECAY                 2001LH01                  11NDS    201105
+#  93BR B- DECAY                 2001LH01                  11NDS    201105
+#H TYP=FUL$AUT=CORAL M. BAGLIN$CIT=NDS 112, 1163 (2011)$CUT=15-Dec-2010$  
+#  2001LH01: 93BR FROM 600 MEV PROTON-INDUCED FISSION OF U;               
+#  CHEMICALLY-SELECTIVE LaB{-6} SURFACE ION SOURCE, MOVING-TAPE SYSTEM;   
+#  TWO COAXIAL Ge DETECTORS (FOR EG<4 MEV), PLANAR Ge DETECTOR (FOR       
+#  >8 KEV X RAYS) AND BaF{-2} AND PLASTIC (FOR B'S) SCINTILLATORS;        
+#  MEASURED EG, IG, I(XK), GG COIN, GG(T).                                
+#  SUPERSEDES VERY BRIEF, PRELIMINARY REPORT BY 1990WoZZ.                 
+#B IB        FROM INTENSITY IMBALANCE.                                    
+#B LOGFT     CALCULATED ALLOWING 300 KEV UNCERTAINTY IN Q-.               
+#G RI(A)     FROM COINCIDENCE SPECTRUM.                                   
+#G M(B)      EKC CANNOT BE MEASURED INDEPENDENTLY FOR 237G AND 242G;      
+#G HOWEVER, 2001LH01 CONCLUDE THAT ONE IS PREDOMINANTLY M1 AND THE OTHER  
+#G IS E2. SINCE THE LEVEL SCHEME IMPLIES DJ=2 FOR THE 237G, THAT G IS     
+#G ASSIGNED AS THE E2 TRANSITION (NOTE ALSO THAT, WERE IT AN M1           
+#G TRANSITION, ITS BM1W=7E-5 4 WOULD BE UNUSUALLY SMALL). THE 242G MUST   
+#G THEN BE THE M1(+E2) TRANSITION.                                        
+#L E         FROM LEAST-SQUARES FIT TO EG.                                
+#L J         FROM Adopted Levels.                                         
+#P 0            (5/2-)           102 MS    10             11.09E3   SY    
+BR93 KR93 beta- 11.09 0.102 0.19
+

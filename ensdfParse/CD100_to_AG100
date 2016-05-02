@@ -1,0 +1,29 @@
+#100AG    100CD EC DECAY (49.1 S)       1989RY02                  08NDS    200802
+#  100CD EC DECAY (49.1 S)       1989RY02                  08NDS    200802
+#H TYP=FUL$AUT=BALRAJ SINGH$CIT=NDS 109, 297 (2008)$CUT=26-Dec-2007$      
+#  Mass-separated source produced in spallation reaction of               
+#  600-MEV protons on tin. Measured G, GG, CE, XG. See also 1988BaZS      
+#  Other: 1970Hn03 (T1/2 and a few G's reported);                         
+#  1995Sc50: cross section for production of 100CD in 50CR(58NI,^X)       
+#  reaction                                                               
+#  Calculated B+/EC ratio: 1988Su16                                       
+#  Total decay energy deposit of 3956 keV {I135} calculated by RADLIST    
+#  code is in agreement with the expected value of 3900 keV {I70}.        
+#G E(B)$Placement suggested by the evaluator on the basis of energy sums  
+#L E$From least-squares fit to EG's                                       
+#L J$From 'adopted levels'                                                
+#P 0.0         0+                49.1 S    5               3900     70    
++B beta+ 1.229 0.006999999999999999
++B beta+ 1.191 0.006999999999999999
++B beta+ 1.159 0.011000000000000001
++B beta+ 1.03 0.005
++B beta+ 0.891 0.0069
++B beta+ 0.861 0.42
++B beta+ 0.821 0.002
++B beta+ 0.768 0.012
++B beta+ 0.742 0.018000000000000002
++B beta+ 0.661 0.064
++B beta+ 0.58 0.017
++B beta+ 0.439 0.0028000000000000004
++B beta+ 0.409 6.6E-4
+

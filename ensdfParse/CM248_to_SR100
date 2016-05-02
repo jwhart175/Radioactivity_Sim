@@ -1,0 +1,19 @@
+#100SR    248CM SF DECAY                1991HO16,2001UR01         08NDS    200802
+#  248CM SF DECAY                1991HO16,2001UR01         08NDS    200802
+#H TYP=FUL$AUT=BALRAJ SINGH$CIT=NDS 109, 297 (2008)$CUT=26-Dec-2007$      
+#  1991Ho16: 248CM SF decay. Measured EG, IG, GG. First three excited     
+#  states reported, ten ^BGO suppressed ^Ge detectors and two ^LEPS       
+#  2001Ur01: Measured lifetime by Doppler-shift profile                   
+#  method and deduced intrinsic quadrupole moment of g.s. band,           
+#  Eurogam2 array with 52 large Ge detectors, 24 'Clovers' and four LEPS. 
+#  1999SmZX: superseded by 2001Ur01                                       
+#G E(X)$ FROM 2001UR01                                                    
+#G E(Y)$ FROM 1991HO16                                                    
+#L E$ FROM EG'S, ASSUMING 0.5 KEV UNCERTAINTY FOR EACH EG                 
+#L J$ Probable assignment to GS yrast band. The same assignments are      
+#L given in 'adopted levels'                                              
+#L BAND(A)$ GS BAND.                                                      
+#L ^Q{-0}=3.70 25 (2001Ur01) from Doppler-shift attenuations for          
+#L 566|g and 690|g                                                        
+#P  0           0+               3.48E+5 Y 6                              
+

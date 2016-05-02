@@ -1,0 +1,27 @@
+# 22O     22N B- DECAY                  2010SU03                  15NDS    201507
+#  22N B- DECAY                  2010SU03                  15NDS    201507
+#H TYP=FUL$AUT=M. Shamsuzzoha Basunia$CIT=NDS 127, 69(2015)$              
+#H CUT=1-Apr-2015$                                                        
+#  {+22}N beam was produced by fragmentation of a E=140 MeV/nucleon       
+#  {+48}Ca primary beam on a Be target and separated by A1900 fragment    
+#  separator at NSCL facility. The secondary beam containing {+22}N was   
+#  implanted on a thin plastic implantation detector. Measured E|g, I|g,  
+#  |b, |b|g coin, |b-delayed neutrons, |b(n) coin, and half-life using an 
+#  array of sixteen neutron detectors and eight detectors from the        
+#  Segmented Germanium Array (SeGA). Deduced level scheme of {+22}O.      
+#L E$ From E|g's                                                          
+#L E(A)$ Level decays by neutrons                                         
+#L J$From comparison with shell model calculations (2010Su03), except     
+#L  otherwise noted.                                                      
+#B IB$From 2010Su03, calculated based on the shell model.                 
+#P 0.0          (0-)             24 MS     3              2.276E4   20    
+N22 O22 beta- 22.76 0.024 1
++B beta- 11.073 0.316
++B beta- 9.494 0.15
++B beta- 8.809 0.07
++B beta- 7.86 0.02
++B beta- 7.292 0.12
++B beta- 6.731 0.13
++B beta- 5.85 0.066
++B beta- 4.493 0.096
+

@@ -1,0 +1,52 @@
+# 81SR    81Y EC DECAY                  1985LI12                  08NDS    200810
+#  81Y EC DECAY                  1985LI12                  08NDS    200810
+#H TYP=FUL$AUT=CORAL M. BAGLIN$CIT=NDS 109, 2257 (2008)$CUT=15-Aug-2008$  
+#  Others: 1981Li12, 1982De36, 1993Mi11, 2005KA39.                        
+#  1985Li12: source from 58NI(28SI,AP) at E(28SI)=95 MEV,                 
+#  alternating 120-s bombardment and 180-s counting cycles, Ge(Li);       
+#  measured EG, I|g(t). Data from 1981Li12 reappraised.                   
+#  1982De36: 81Y from 32S induced reactions on 54FE, 58NI and             
+#  50CR, E=100-160 MEV, |b recoil tof mass spectrometer, plastic scin,    
+#  Ge(Li), x-ray detector.                                                
+#  1981Li12: heavy ion reactions, measured with Ge(Li), intrinsic         
+#  germanium, plastic detectors.                                          
+#  The adopted decay scheme is essentially that of 1985Li12 and differs   
+#  fundamentally from that of 1982De36. It                                
+#  relies heavily on tentative JPI assignments to                         
+#  Sr excited states deduced from (A,XNG) data.                           
+#E           1982De36 report endpoint energy of 4520 227 for ^T{-1/2}=70 S
+#E  |b{++} from A=81 |b-recoil nuclei. They attribute this to GS          
+#E feeding, but DE is too great to preclude attribution to excited        
+#E states up to |? 200 KEV.  IT WAS, PRESUMABLY, FEEDING TO THE 203       
+#E LEVEL THAT WAS OBSERVED.                                               
+#E LOGFT     CALCULATED USING Q=5819 9 FROM MASS MEASUREMENT BY           
+#E 2006KA48.  NOTE THAT THIS VALUE IS SIGNIFICANTLY HIGHER THAN           
+#E Q=5510 60 (2003AU03) BASED ON EARLIER |b ENDPOINT DATA.                
+#E TI(B)     Because the 89 level to 79 level transition is unobserved,   
+#E only EC+B+ branching (=35.6% 12) to this pair of levels can be deduced.
+#E However, if JPI(81Y GS)=5/2+, most of the feeding would be expected to 
+#E go to the (7/2+) 89 level. Decay to either level would be allowed      
+#E (LOGFT LE 5.9) if I(EC+B+) GE 16.5%, so the evaluator suggests         
+#E I(EC+B+)=8% 8 feeds the 79 level leaving I(EC+B+)=28% 8 (LOGFT=5.67 13)
+#E to feed the 89 level.                                                  
+#G E,RI      From 1985Li12, except as noted. Data for the 3 gammas in     
+#G 1982De36 agree closely with these, except for RI(79).                  
+#G M,MR      FROM Adopted Gammas, EXCEPT AS NOTED.                        
+#G E(A)      Unresolved from much stronger 221G from 83ZR EC decay.       
+#G Decay time of multiplet indicates that most of intensity comes from    
+#G the A=83 chain (1985Li12).                                             
+#L E         FROM LEAST-SQUARES FIT TO EG.                                
+#L J         FROM Adopted Levels.                                         
+#N 0.372     12 0.372  12 1.       1.0                                    
+#N NR        if |S(TI to GS)=98.7% 13 (i.e., assuming GS                  
+#N branch <2.6%, which follows if LOGF1UT>8.5).                           
+#N Note: absolute RI determined by 1982De36 from                          
+#N (total IG/total |b{++} recoils) implies IG normalization=0.011 1       
+#N (97% GS branch); the reason for this major discrepancy is not          
+#N understood. The decay scheme normalization is consequently             
+#N tentative (see also comments on adopted JPI for 81Y GS).               
+#N                                                                     3  
+#P 0           (5/2+)            70.4 S    10             5819       9    
++G gamma 0.7724 1.219
++G gamma 0.9609 1.0
+

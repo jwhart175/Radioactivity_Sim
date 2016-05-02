@@ -1,0 +1,17 @@
+#122CS    122CS IT DECAY (0.36 S)       1983WE07,1987WEZW         07NDS    200704
+#  122CS IT DECAY (0.36 S)       1983WE07,1987WEZW         07NDS    200704
+#H TYP=FUL$AUT=T. TAMURA$CIT=NDS 108, 455 (2007)$CUT=30-Sep-2006$         
+#  1987WeZW,1983We07: Ce,La({+3}He,spallation) E({+3}He)=280 MeV on-line  
+#  MS semi, ce, |g|g-coin                                                 
+#  Other: 1969NeZX; {+109}Ag({+18}O,5n) E({+18}O)=94 MeV,                 
+#  {+113}In({+12}C,3n) E({+12}C)=68 MeV; measured |g, ce and              
+#  excitation functions                                                   
+#G M         From |a(K)exp; data are normalized to ce(K)(331|g in         
+#G {+122}Xe) as  mult.=E2 (1987WeZW); Evaluator notes that the 81.2-K and 
+#G 45.9-L peak seems to be inadequately divided by 1987WeZW. This might   
+#G be a cause of a large imbalance at 45.9 keV level.                     
+#P     127.0518(5)-              0.36 S    2                              
+CS122 CS122 IT 0.0 0.36 2.08
++G gamma 0.04585 0.008
++G gamma 0.08120000000000001 0.0226
+

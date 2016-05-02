@@ -1,0 +1,69 @@
+#182W     182RE EC DECAY (64.2 H)       1977JE02,1980SP01,1972GA15ENSDF    201507
+#  182RE EC DECAY (64.2 H)       1977JE02,1980SP01,1972GA15ENSDF    201507
+#H TYP=FUL$AUT=BALRAJ SINGH$CIT=ENSDF$CUT=10-Jul-2015$                    
+#H TYP=FUL$AUT=BALRAJ SINGH AND JOEL C. ROEDIGER$CIT=NDS 111, 2081 (2010)$
+#H CUT=15-Jul-2010$                                                       
+#  1980Sp01: measured |g(|q,temp), nuclear orientation at low temperature 
+#  1977Je02: measured E|g, I|g, |g|g                                      
+#  1975We22: measured |g(ce)(|q) and |g(ce)(|q) for |DJ=0, |DPI=no        
+#  transitions to investigate E0 admixtures                               
+#  1972Ga15 (also 1971Ga30): Measured E|g, I|g, |g|g. The ce data were    
+#  used from 1970Ag07 and 1961Ha23                                        
+#  1971Ga37, 1970Ag07 (from the same group): measured                     
+#  conversion electrons using an iron-free |p|62 |b spectrometer.         
+#  1969Sa25: measured E|g, I|g, |g|g. Deduced conversion coefficients     
+#  using ce data from 1961Ha23.                                           
+#  1964Ba43: measured ce. Relative electron intensities measured for about
+#  14 transitions from 734 to 1189 keV. No conversion coefficients given. 
+#  1961Ha23: measured ce                                                  
+#  1958Ga24: measured E|g, ce                                             
+#  Unless otherwise stated, experimental conversion coefficients          
+#  are from 1972Ga15 who deduced these from their |g-ray intensities and  
+#  ce data from 1961Ha23, 1964Ba43 and 1970Ag07. The ce data from         
+#  1971Ga37 (supplementary to those from their earlier publication        
+#  1970Ag07) were probably not available to 1972Ga15                      
+#  2008Ya10: measured intensities of L-subshell x rays from {+182}Re      
+#  decay and photoionization.                                             
+#G $--------------------------------------------------------              
+#G $               L x-ray intensity ratios (2008Ya10)                    
+#G $  L-subshell ratio     {+182}Re decay    Photoionization              
+#G $    L{-|a}/L{-|b}        0.625 {I14}       0.65 {I7}                  
+#G $    L{-|a}/L{-|g}        3.08 {I5}         3.21 {I7}                  
+#G $    L{-|a}/L{-l}        21.14 {I5}        21.27 {I18}                 
+#G $    L{-|b}/L{-|g}        4.68 {I11}        4.865 {I13}                
+#G $    L{-l}/L{-|g}         0.127 {I11}       0.156 {I4}                 
+#G $ --------------------------------------------------------             
+#G $A{-2} values and W(0|')-1 anisotropies are from low-temperature       
+#G nuclear orientation study of 1980Sp01                                  
+#G E,RI$For E|g<84, values are from ce data of 1961Ha23 normalized        
+#G assuming using E2 for the 100.1|g, energy uncertainty of 0.1 keV is    
+#G assumed by the evaluators. For E|g=85-357 from 1977Je02, and for       
+#G E|g>357 from 1972Ga15. For |DI|g(absolute) combine 5.5% in quadrature  
+#G with |DI|g(relative), except as noted.                                 
+#G M,MR$From {+182}Ta |b{+-} decay; ce data in 1971Ga37, 1970Ag07 and     
+#G 1961Ha23; and |g(|q,temp) data of 1980Sp01. The conversion data were   
+#G normalized to 100.1|g with E2 multipolarity                            
+#G RI(A)$Calculated from adopted branching ratios                         
+#G E(A)$Not observed in this decay                                        
+#G CC$Theoretical values from BrIcc v2.3b (16-Dec-2014) 2008Ki07,         
+#G "Frozen Orbitals" approximation. If mixing ratio |d is not given, it   
+#G was assumed as 1.0 for E2/M1 and E3/M2 and 0.10 for others             
+#L J$From Adopted Levels.                                                 
+#P 0.0          7+                   64.2 H 5               2.80E3  10    
++B beta+ 0.506 2.0E-4
++B beta+ 7.94E-4 0.00157
++B beta+ 8.127999999999999E-4 0.0014000000000000002
++B beta+ 7.920000000000001E-4 0.00158
++B beta+ 8.106E-4 0.0014000000000000002
++B beta+ 8.104E-4 0.0014000000000000002
++B beta+ 7.86E-4 0.0016200000000000001
++B beta+ 8.096E-4 0.0014000000000000002
++B beta+ 8.092E-4 0.0014000000000000002
++B beta+ 8.070000000000001E-4 0.0014680000000000001
++B beta+ 8.060000000000001E-4 0.001477
++B beta+ 8.060000000000001E-4 0.001477
++B beta+ 8.060000000000001E-4 0.00148
++B beta+ 8.05E-4 0.00148
++B beta+ 8.0E-4 0.0015199999999999999
++B beta+ 8.0E-4 0.0015199999999999999
+

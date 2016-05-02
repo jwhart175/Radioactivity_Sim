@@ -1,0 +1,925 @@
+#182W     182TA B- DECAY (114.74 D)     1992CH26,1992SU09,1990ME15ENSDF    201507
+#  182TA B- DECAY (114.74 D)     1992CH26,1992SU09,1990ME15ENSDF    201507
+#H TYP=FUL$AUT=BALRAJ SINGH$CIT=ENSDF$CUT=10-Jul-2015$                    
+#H TYP=FUL$AUT=BALRAJ SINGH AND JOEL C. ROEDIGER$CIT=NDS 111, 2081 (2010)$
+#H CUT=15-Jul-2010$                                                       
+#  Main references for E|g data: 2000He14 (evaluation and analysis),      
+#  1992Su09, 1990Me15, 1990Ja02, 1989Ka20, 1974La15                       
+#  Precise E|g measurements of low-energy (<300 keV) |g rays with         
+#  curved-crystal spectrometers: 1975Bo05, 1973Pi02 (also 1974Be26),      
+#  1970Ne11, 1965Ed01, 1964Da15, 1962Se10, 1958Be73, 1957Su01, 1955Mu19,  
+#  1952Mu45                                                               
+#  Main references for I|g data: 1998Mi17, 1992Ch26, 1992Ke02, 1992Su09,  
+#  1990Me15, 1990Ja02, 1986Wa35, 1983Ji01, 1981Is08, 1980Sc07, 1977Ge12   
+#  (also 1976He18), 1974La15, 1971Ja21, 1970Wh03, 1969Sa25, 1966Ko12,     
+#  1965Ed01, 1964Da15                                                     
+#  Main references for multipolarities and mixing ratios: 1992Ch26        
+#  (|g|g(|q) and ce); 1983Ri05 (|g(|q,temp) and |g(lin pol,temp));        
+#  1980Sp01 (|g(|q),temp in {+182}Re decay); 1976He18 (ce),               
+#  1975Qu01 (|g|g(|q)); 1972Kr05 (|g(|q),temp); 1972He10 (|g|g(|q)        
+#  and ce); 1971Ga37 (ce); 1967Ni03 (ce, subshell ratios for low          
+#  energy transitions up to 264 keV), 1966Ko12 (ce), 1966Dz01 (ce)        
+#  1975We22 investigate E0 component in interband |DJ=0, |DPI=no          
+#  transitions by comparing |g(ce)(|q) or (ce)(ce)|q) data with measured  
+#  conversion coefficients. Also 1976Kl09 and 1990Ka35 for E0 transitions 
+#  2000He14: recommended |g-ray energies from evaluation and analysis     
+#  1999He10, 1997HeZZ, 1995HeZZ, 1994HeZZ, 1986HeZU, 1979He19, 1978He21   
+#  are superseded by 2000He14                                             
+#  1998Mi17: |g-ray emission probabilities for selected transitions.      
+#  1997Ka47: cross sections in {+182}Ta(n,|g) and from                    
+#  multi-element standard (MES) technique deduced emission probabilities  
+#  for two |g rays at 1189 and 1221 keV                                   
+#  1994KaZL: E|g measured for 100-keV |g ray, Ge detector                 
+#  1992Ch26 (also 1989Ka20,1989Ka01,1981Ka22,1967Ma31): measured          
+#  E|g, I|g, |g|g, ce, |g|g(|q), lifetime. For |g rays, HPGe detectors and
+#  for electrons mini-orange spectrometer were used                       
+#  1992Su09 (also 1993Li03): Measured E|g, I|g, |g|g coin. In 1993Li03,   
+#  five new |g rays and two new levels reported in 1990Ja02 were          
+#  found to be non-existent                                               
+#  1986SuZS superseded by 1992Su09                                        
+#  1992Ke02: K-x rays and |g rays, emission probabilities                 
+#  1992Yo05: measured 1189|g(|q,H,T), oriented {+182}Ta, search           
+#  for violation of parity (P), time reversal (T) and PT through          
+#  measurement of |g|g(|q) for 1189|g from 1289, 2- level which is        
+#  close in energy to 1221, 2+ level. No results are reported             
+#  1991Fa12, 1983Fa18: |g anisotropy vs polarizing field and              
+#  temperature, deduced nuclear quadrupole resonance, quadrupole moment   
+#  and quadrupole interaction, nuclear orientation technique              
+#  1991Ki09, 1979Hn02: evaluated E|g measurements                         
+#  1990Ja02 (1983El02 from the same lab): measured E|g, I|g, |g|g coin,   
+#  |g|g(t). Deduced |a(K)(exp) from their measured I|g and using ce(K)    
+#  data from literature. 1983El02 report 15 new transitions and 5 new     
+#  levels based on such transitions. A later study 1990Ja02 from the      
+#  same laboratory retracted many of these transitions, yet contained     
+#  five new transitions and two new levels, not reported in any other     
+#  study. These were later disproved in the work of 1993Li03.             
+#  1990Me15: E|g, I|g                                                     
+#  1978MeZZ superseded by 1990Me15                                        
+#  1990Ka35, 1977Ka30: ce, deduced E0 transitions                         
+#  1989KaZR, 1989KaZF, 1987KaZO, 1985KaZP superseded by 1990Ka35          
+#  1990Ki11: Compiled E|b, I|b, ce                                        
+#  1988Wa26: two |g rays of 1121.301 {I4} and 1189.050 {I4} used          
+#  for calibration purpose                                                
+#  1987Ba66: x rays, |g(L x ray)(|q), oriented nuclei, deduced anisotropy 
+#  1987Ka34: |g(|q,temp), deduced electric-field gradient.                
+#  1986Wa35: E|g, I|g                                                     
+#  1986Bu19: KLL Auger electron energies and intensities, mag spec        
+#  1979BuZH superseded by 1986Bu19                                        
+#  1985Je05: E|g with a crystal spectrometer; energy of 67.7|g measured   
+#  as 67.75016 {i12} keV                                                  
+#  1985GoZK: evaluated low energy E|g data from curved-crystal data       
+#  1984He12: Deduced transition energies for {+182}Ta decay               
+#  1984AlZN: pair conversion spectra                                      
+#  1984AlZO is same as 1984AlZN                                           
+#  1983Ri05: |g(|q,T) and |g(lin pol,T) on oriented                       
+#  {+182}Ta, low temperature nuclear orientation                          
+#  1981NoZT superseded by 1983Ri05                                        
+#  1983Ji01: E|g, I|g                                                     
+#  1981Al21, 1980Al27: NMR, oriented nuclei in Fe, deduced g factor       
+#  1981Is08: E|g, I|g, |g|g coin                                          
+#  1981YoZX: I|g                                                          
+#  1980Sc07 (also 1983De11 for 3 |g rays): I|g, T{-1/2}, |b|g coin and    
+#  |g(x ray) coin                                                         
+#  1976DeYV, 1976WaZH superseded by 1980Sc07                              
+#  1980Al27: NMR on oriented nuclei, deduced |m                           
+#  1980Ro22: I|g                                                          
+#  1979MaZI: conversion electrons and K-x rays                            
+#  1978Bu26: L-subshell ratios for 100-keV |g using magnetic spectrometer 
+#  1977Ka30: ce, penetration parameters                                   
+#  1977Ge12, 1976He18 (also 1971He20,1970Gr13,1967He18,1967He22):         
+#  E|g, I|g, ce                                                           
+#  1976GeZS, 1973HeYI, 1971HeYX, 1970GrZG, 1970HeZS superseded by         
+#  1977Ge12 and other primary publications                                
+#  1977VyZX: E|g, I|g                                                     
+#  1977VyZW, 1977VyZZ, 1976VyZZ are from the same group as 1977VyZX       
+#  1976Kl09: ce data for 1035.8 and 1135.9 transitions                    
+#  1976KlZV superseded by 1976Kl09                                        
+#  1975Bo05: E|g, curved-crystal spectrometer                             
+#  1975BoZG superseded by 1975Bo05                                        
+#  1975Gr15: |b|g(t), |g(ce)(t), deduced level lifetime                   
+#  1975Qu01: |g|g(|q)                                                     
+#  1974QuZY is thesis from the same lab as 1975Qu01, 1971QuZY an          
+#  earlier conference abstract                                            
+#  1975We22: E|g, I|g, ce, |g(ce)(|q), (ce)(ce)(|q); data                 
+#  1076, 1113, 1121, 1157, 1189, 1221, 1231 and 1427 |g rays              
+#  1975Be26: I|g of 31.7 and 42.7 |g rays                                 
+#  1974La15: E|g, I|g                                                     
+#  1974Ha47: |g|g(|q,H), deduced g factor                                 
+#  1973Be55: K-x rays                                                     
+#  1973El11: ce, E|g                                                      
+#  1973Mi28: Subshell data for 100-keV transition                         
+#  1973Pi02, 1974Be26: E|g by curved crystal spectrometer                 
+#  1973Se14: |g|g(|q), |g|g(|q,H), deduced g factor                       
+#  1973Se18, 1973Se19, 1973SeYL, 1972SeZM, 1971Se12 secondary references  
+#  superseded by 1973Se14                                                 
+#  1973Vi13: T{-1/2} of {+181}Ta g.s.                                     
+#  1973ScYU: |g|g(|q)                                                     
+#  1973ScXD superseded by 1973ScYU                                        
+#  1973GrXX: |g|g(t), level lifetimes                                     
+#  1972Be94: |g|g(|q), |g|g(|q,H), deduced g factor                       
+#  1972De67: E|g, I|g of 5 |g rays from 31-85 keV, Si detector            
+#  1972Em01: T{-1/2} of {+181}Ta g.s.                                     
+#  1972WyZZ superseded by 1972Em01                                        
+#  1972Ga23: I|g, ce, sub-shell ce data                                   
+#  1972He10: |g|g(|q), |g|g(|q,H), (ce)(ce)(t), L-subshell ce             
+#  1972He20: (ce)(ce)(t), |g|g(|q,H), ce; level lifetime and |m           
+#  1972Kr05: |g(|q,temp), oriented nuclei                                 
+#  1971KrZO, 1971KrZV superseded by 1972Kr05                              
+#  1972Li11: |g(circ pol), deduced parity admixtures.                     
+#  1972Si30: |b|g(|q), |b|g(circ pol), |b-longitudinal pol.               
+#  1971SiYU: thesis from the same lab as 1972Si30                         
+#  1972Si33: |g|g(|q,H), deduced magnetic moment                          
+#  1972SiYN superseded by 1972Si33                                        
+#  1972JeZZ: |g(circ pol), parity non-conservation                        
+#  1971Ja21: I|g                                                          
+#  1972JaZN superseded by 1971Ja21                                        
+#  1971Ho14: |b(ce)(t), |b|g(t), deduced level lifetimes.                 
+#  1971MaYZ superseded by 1971Ho14                                        
+#  1971Ml01, 1971Ni02, 1970Ni13: I|g                                      
+#  1970Ab14: |g(ce)(t), |b|g(t), (ce)(ce)(t), |b(ce)(t), level lifetimes. 
+#  1970El09: ce                                                           
+#  1970Pa33: |g|g|g(|q)                                                   
+#  1970PaZX superseded by 1970Pa33                                        
+#  1970Ro15: |b|g(|q) for 521-keV |b transition                           
+#  1970St03: I|g, ce                                                      
+#  1970Wh03, 1969Wh03: E|g, I|g                                           
+#  1970Ne11: E|g by curved-crystal spectrometer: three |g rays measured   
+#  at 67.748 {I2}, 84.678 {I3} and 100.106 {I3}                           
+#  1969Sa25: E|g, I|g, |g|g coin                                          
+#  1968Bo01, 1968Bo38: ce data for M/L, K/L, K/L{-3} and                  
+#  (N+O)/M ratios for E2 transitions                                      
+#  1968Ho19, 1968Ni06, 1968Ni07, 1967Ni03: ce for M, K/L,                 
+#  L{-3}/M{-3}, M/(N+O+P) for E2 transitions                              
+#  1968Me24: E|g, ce, subshell ratios                                     
+#  1967Ba01, 1966Ba41: E|b, I|b                                           
+#  1967Wa29: isotopic half-life                                           
+#  1967Pi05: E|g, I|g                                                     
+#  1966Dz01: E|g, I|g, external conversion method                         
+#  1966Ka13: ce for L subshells for E2 transitions                        
+#  1966Ko12: E|g, I|g, ce for high-energy transitions                     
+#  1966Me13, 1965Me08: |b|g(t), |b|g|g(t), |g|g(t), |g(ce)(t),            
+#  deduced level lifetimes                                                
+#  1966Ra04: |g(ce)(t), deduced level lifetime.                           
+#  1966Ve05: |b                                                           
+#  1965Do02: |g|g(t) for first 2+ and 2- states in {+182}W                
+#  1965Ed01: I|g with curved-crystal spectrometer                         
+#  1965Gr16: E|g, I|g                                                     
+#  1964Da15: E|g, I|g, E|b, I|b, |b|g coin, ce, curved-crystal for E|g    
+#  1964Ha28: |b, |b|g coin                                                
+#  1964Ba12, 1964Ba47, 1963St16: ce                                       
+#  1963El08: |g|g coin                                                    
+#  1963Ko02: |g|g(|q,H,t)                                                 
+#  1963Kl04, 1963El02, 1960Hi02: |g|g(|q)                                 
+#  1962Se10: E|g, I|g using bent-crystal spectrometer                     
+#  1965Me08, 1964R019, 1964Be36, 1963Ba24, 1961Go24: |b|g(t)              
+#  1965He07, 1964Ko07, 1962Mo15, 1961Vi07, 1961Vi02, 1961Va27,            
+#  1961Vo05, 1961Ry03, 1960Gv01, 1960Da11: E|g, I|g                       
+#  1965Me08, 1964Ro19, 1964Be36, 1963Ko02, 1963Fo02, 1963Ba24, 1962Ba39:  
+#  |g|g(t)                                                                
+#  1958Be73: E|g using curved-crystal spectrometer                        
+#  1957Su01: E|g, I|g with a curved-crystal spectrometer                  
+#  1955Mu19: E|g, I|g, ce using curved-crystal spectrometer for |g rays   
+#  and magnetic spectrometer for electrons                                
+#  Other (pre-1960) references (list may not be complete):                
+#  1959Vo27, 1952Mu45, 1950Co16: |g                                       
+#  1959Si84: |b, |g|g coin                                                
+#  1958Sp17, 1958Ke26, 1957Wr37, 1952Ei12, 1951Si25: {+182}Ta half-life   
+#  Demuynck et al.: Compt. Rend. 244, 3050 (1957) (|b)                    
+#  Froman et al., Ark. Fys. 12, 399 (1957)                                
+#  Backstrom: Ark. Fys. 10, 387 (1956) (|g)                               
+#  Williams et al., Can. Jour. Phys. 34, 1087 (1956)                      
+#  1955Su64: |g|g(t)                                                      
+#  1954Su10: |b|g(t)                                                      
+#  Fowler et al. Phys. Rev. 94, 1082 (1954) (|g)                          
+#  1949Be60: isotopic assignment, |g                                      
+#  Goddard et al., Phys. Rev. 76, 1419 (1949) (|g)                        
+#  Cork et al., Phys. Rev. 75, 1778 (1949), ibid 72, 581 (1947) (ce)      
+#  Jnanananda: J. Sci. Ind. Research (India) {+8}B, 147 (1949) (|b)       
+#  Mandeville et al., Phys. Rev. 73, 340 (1948) (|b)                      
+#  Zumstein et al., Phys. Rev. 63, 59 (1943) (|g).                        
+#  First identifications of {+182}Ta in (n,|g):                           
+#  Fomin and Houtermans: Physik Z. Sowjetunion 9, 273 (1936);             
+#  Oldenberg: Phys. Rev 53, 35 (1938); Naturwissenschaften 28, 578 (1940) 
+#  Techniques or {+182}Ta source standardization for energy or intensity  
+#  calibration purposes: 2008Ko07, 1997Sh20, 1995Ko44, 1990Gu31, 1988Wa26 
+#  RADLST code (at www.nndc.bnl.gov) on the given level scheme gives      
+#  total energy deposit of 1812 keV {I6} in agreement with                
+#  Q value=1814.3 keV {I17}                                               
+#B           From 1813|b measurements with a magnetic                     
+#B spectrometer, 1967Ba01                                                 
+#B report upper limit of |b feeding to g.s. of {+182}W as <0.001%         
+#B E$From 1967Ba01 (also 1966Ba41), 1964Ha28, 1966Ve05, and 1964Da15      
+#B E(D),IB(D)$From 1967Ba01, 1966Ba41 using 2|62 magnetic spectrometer    
+#G           ------------------------------------------------------------ 
+#G           Data details for energies, relative intensities,             
+#G multipolarities and mixing ratios of |g rays used in the evaluation    
+#G process                                                                
+#G                                                                        
+#G            {B31.7|g}:                                                  
+#G           E|g: from table 4 of 2000He14; curved-crystal data of        
+#G 1973Pi02                                                               
+#G           I|g: NRM average of 2.44 {I7} (1992Ch26), 2.46 {I5}          
+#G (1992Ke02), 1.80 {I6}                                                  
+#G (1992Su09), 2.21 {I2} (1990Ja02), 2.75 {I6} (1990Me15), 2.53 {I6}      
+#G (1980Sc07); uncertainties increased to 0.3 in 1992Su09, 0.14 in        
+#G 1990Ja02 and 0.13 in 1990Me15. LWM gives 2.31 {I14} with reduced       
+#G |h{+2}=33. Other:1.18 {I12} (1981Is08) omitted as outlier.             
+#G            Absolute intensity=2.48 {I6} (1980Sc07)                     
+#G                                                                        
+#G            {B42.7|g}:                                                  
+#G           E|g: from table 4 in 2000He14; curved-crystal data of        
+#G 1973Pi02                                                               
+#G           I|g: NRM, LWM average of 0.710 {I21} (1992Ch26), 0.754 {I18} 
+#G (1992Ke02), 0.827 {I24} (1992Su09), 0.82 {I3} (1990Ja02), 0.86 {I7}    
+#G (1990Me15), 0.82 {I10} (1981Is08), 0.75 {I2} (1980Sc07), 0.70 {I4}     
+#G (1965Ed01)                                                             
+#G            Absolute intensity=0.266 {I8} (1980Sc07)                    
+#G                                                                        
+#G            {B44.7|g}:                                                  
+#G           E|g, I|g: from 1992Su09 only. 42.72+44.66 form doublet       
+#G STRUCTURE.                                                             
+#G Assignment by 1992Su09 in the level scheme is tentative                
+#G                                                                        
+#G            {B65.7|g}:                                                  
+#G           I|g: NRM average of 8.40 {I21} (1992Ch26),                   
+#G 9.02 {I22} (1992Ke02), 7.61 {I16} (1992Su09), 8.55 {I7} (1990Ja02),    
+#G 8.75 {I17} (1990Me15), 8.04 {I40} (1965Ed01), 8.0 {I5} (1964Da15). LWM 
+#G gives 8.44 {I16} reduced |h{+2}=6.8. Other: 13.5 {I14} (1981Is08) is   
+#G omitted as an outlier                                                  
+#G                                                                        
+#G            {B67.7|g}:                                                  
+#G           E|g: other: 67.75016 {I12} (1985Je05,curved crystal). It     
+#G seems this                                                             
+#G  value was not used in the analyses by 2000He14, although for {+161}Tb 
+#G  decay, E|g values measured in 1985Je05 for three |g rays were used    
+#G           I|g: NRM average of 131.8 {I25} (1992Ch26), 126.2 {I24}      
+#G (1992Su09),                                                            
+#G 120.0 {I11} (1990Ja02), 131 {I10} (1990Me15), 122 {I6} (1977Ge12), 121 
+#G {I5} (1974La15), 118 {I6} (1965Ed01), 119 {I6} (1964Da15). Other:      
+#G 147.6 {I37} (1992Ke02) omitted as outlier, mixed with K-x rays. LWM    
+#G gives 123.3 {I33} with reduced |h{+2}=2.9                              
+#G           Mult, |d: RUL(M2)=1 implies |d<0.002, thus pure E1 is        
+#G assigned. Experimental limit: |d<0.02                                  
+#G                                                                        
+#G            {B84.7|g}:                                                  
+#G           I|g: NRM average of 7.58 {I7} (1998Mi17), 7.65 {I7}          
+#G (1992Ch26), 7.43 {I12}                                                 
+#G (1992Ke02), 7.80 {I16} (1992Su09), 7.31 {I5} (1990Ja02), 7.19 {I15}    
+#G (1990Me15), 7.30 {I22} (1986Wa35), 7.64 {I60} (1981Is08), 7.45 {I17}   
+#G (1980Sc07,1983De11), 7.8 {I4} (1977Ge12), 7.82 {I16} (1974La15), 7.6   
+#G {I8} (1972Ga23), 6.7 {I10} (1971Ml01), 7.0 {I7} (1969Sa25), 7.56 {I36} 
+#G (1965Ed01), 8.3 {I6} (1964Da15); uncertainty increased to 0.09 in      
+#G 1990Ja02. LWM gives 7.48 {I17} with reduced |h{+2}=2.4                 
+#G            Absolute intensity=2.68 {I2} (1998Mi17)                     
+#G           |d: from Adopted Gammas. Others: +0.32 {I3} from A{-2}=-0.25 
+#G {I4} (1983Ri05),                                                       
+#G +0.30 {I2} (1972Kr05), +0.31 {I5} (1975Qu01), 0.352 {I3} (1972He10)    
+#G                                                                        
+#G           {B100.1|g}:                                                  
+#G           I|g: NRM average of 38.5 {I2} (1998Mi17), 41.4 {I5}          
+#G (1992Ch26), 40.5 {I5}                                                  
+#G (1992Ke02), 42.6 {I5} (1992Su09), 40.45 {I51} (1990Ja02), 40.4 {I5}    
+#G (1990Me15), 39.03 {I64} (1986Wa35), 40.3 {I6} (1983Ji01), 41.6 {I14}   
+#G (1981Is08), 40.6 {I26} (1980Ro22), 40.33 {I98} (1980Sc07), 40.8 {I13}  
+#G (1977Ge12), 37.43 {I80} (1974La15), 40.3 {I40} (1972Ga23), 40.2 {I10}  
+#G (1971Ja21), 38 {I2} (1971Ml01), 40.7 {I41} (1969Sa25). Reduced         
+#G |h{+2}=2.0 with |D(I|g) increased to 0.11 in 1974La15. LWM gives 40.2  
+#G {I17} with reduced |h{+2}=4.8.                                         
+#G           Absolute intensity=13.59 {I6} (1998Mi17)                     
+#G           Mult: L1/L2=0.0823 {I13}, L2/L3=1.126 {I10} (1978Bu26)       
+#G                                                                        
+#G            {B110.4|g}:                                                 
+#G           E|g: weighted average of 110.41 {I4} (1992Su09), 110.391     
+#G {I12} (1990Me15).                                                      
+#G E|g=109.52 {I19} in 1990Ja02 is an outlier, thus not used in averaging.
+#G           I|g: weighted average of 0.300 {I10} (1992Ch26), 0.32 {I2}   
+#G (1992Ke02),                                                            
+#G 0.37 {I3} (1992Su09), 0.30 {I4} (1990Ja02), 0.30 {I2} (1990Me15), 0.25 
+#G {I6} (1983Ji01), 0.25 {I4} (1981Is08)                                  
+#G                                                                        
+#G            {B113.7|g}:                                                 
+#G           I|g: NRM average of 5.21 {I5} (1998Mi17), 5.27 {I10}         
+#G (1992Ch26), 5.34 {I6}                                                  
+#G (1992Ke02), 5.64 {I11} (1992Su09), 5.31 {I8} (1990Ja02), 5.34 {I5}     
+#G (1990Me15), 4.44 {I16} (1986Wa35), 5.36 {I7} (1983Ji01), 5.87 {I40}    
+#G (1981Is08), 4.95 {I40} (1980Ro22), 5.29 {I19} (1980Sc07,1983De11),     
+#G 5.43 {I18} (1977Ge12), 5.28 {I40} (1972Ga23), 4.90 {I29} (1971Ml01),   
+#G 5.2 {I5} (1969Sa25), 5.47 {I28} (1965Ed01), 5.21 {I28} (1964Da15);     
+#G uncertainty increased to 0.4 in 1986Wa35. LWM gives 5.30 {I9} with     
+#G reduced |h{+2}=3.1. Other: 6.15 {I14} (1974La15) for mixed 113|g+116|g 
+#G            Absolute intensity=1.839 {I15} (1998Mi17)                   
+#G           |d: from 0.36 {I2} from A{-2}=-0.324 {I21} (1983Ri05) and    
+#G 0.36 {I1} from  subshell                                               
+#G ratios in 1972He10. Others: +0.31 {I2} (1972Kr05), +0.31 {I5}          
+#G (1975Qu01)                                                             
+#G           MR: note that negative sign is a misprint in table III of    
+#G 1972Kr05                                                               
+#G                                                                        
+#G            {B116.4|g}:                                                 
+#G           I|g: NRM, LWM average of 1.230 {I22} (1992Ch26), 1.27 {I2}   
+#G (1992Ke02),                                                            
+#G 1.33 {I3} (1992Su09), 1.28 {I6} (1990Ja02), 1.26 {I2} (1990Me15), 1.26 
+#G {I3} (1983Ji01), 1.14 {I8} (1981Is08), 1.18 {I18} (1980Ro22), 1.26     
+#G {I5} (1980Sc07), 1.26 {I4} (1977Ge12), 1.27 {I13} (1972Ga23), 1.00     
+#G {I8} (1971Ml01), 1.2 {I2} (1969Sa25), 1.27 {I8} (1965Ed01), 1.31 {I11} 
+#G (1964Da15)                                                             
+#G            Absolute intensity=0.445 {I15} (1980Sc07)                   
+#G                                                                        
+#G            {B152.4|g}:                                                 
+#G           I|g: NRM average of 19.60 {I11} (1998Mi17), 20.40 {I26}      
+#G (1992Ch26),                                                            
+#G 19.81 {I22} (1992Ke02), 20.94 {I24} (1992Su09), 19.86 {I17} (1990Ja02),
+#G (1990Me15), 21.19 {I39} (1986Wa35), 19.94 {I19} (1983Ji01), 19.59 {I80}
+#G 19.95 {I19} (1980Ro22), 19.69 {I28} (1980Sc07), 20.5 {I6} (1977Ge12),  
+#G 18.7 {I6} (1974La15),19.3 {I14} (1972Ga23), 20.5 {I5} (1971Ja21), 19.7 
+#G {I13} (1971Ml01), 21.3 {I10} (1970Wh03), 19.5 {I20} (1969Sa25), 20.5   
+#G {I8} (1965Ed01), 18.1 {I7} (1964Da15); uncertainties increased to 0.4  
+#G in 1992Su09 and 0.5 in (1964Da15); LWM gives 19.92 {I32} with reduced  
+#G |h{+2}=3.2. Other: 23.15 {I50} (1981Is08) omitted as an outlier        
+#G            Absolute intensity=6.92 {I2} (1998Mi17)                     
+#G           |d: -0.22 {I11} (1992Ch26), -0.023 {I4} (1983Ri05), 0.035    
+#G {I53} (1980Sp01 in {+182}Re decay); +0.014 {I13} (1975Qu01); all from  
+#G |g(|q) or |g|g(|q).                                                    
+#G Subshell ratios in ce data (1967Ni03) give pure E1 consistent with     
+#G RUL(M2)=1 suggests |d<0.006, thus the evaluators assign pure E1        
+#G           (152|g)(|q): A{-2}=+0.392 {I6}, Pol=-0.33 {I3} (1983Ri05).   
+#G           (152|g)[892|g](229|g)(|q): A{-2}=-0.14 {I5}, A{-4}=-0.8 {I6} 
+#G (1992Ch26);                                                            
+#G                                                                        
+#G            {B156.4|g}:                                                 
+#G           I|g: NRM average of 7.57 {I5} (1998Mi17), 7.54 {I10}         
+#G (1992Ch26), 7.51 {I8}                                                  
+#G (1992Ke02), 7.89 {I16} (1992Su09), 7.59 {I12} (1990Ja02), 7.59 {I10}   
+#G (1990Me15), 7.26 {I18} (1986Wa35), 7.60 {I8} (1983Ji01), 7.55 {I80}    
+#G (1981Is08), 7.43 {I40} (1980Ro22), 7.46 {I12} (1980Sc07), 7.77 {I24}   
+#G (1977Ge12), 7.78 {I20} (1974La15), 7.13 {I48} (1972Ga23), 7.6 {I2}     
+#G (1971Ja21), 7.5 {I7} (1971Ml01), 8.07 {I4} (1970Wh03), 7.5 {I8}        
+#G (1969Sa25), 8.04 {I36} (1965Ed01), 6.79 {I37} (1964Da15); uncertainty  
+#G increased to 0.18 in 1970Wh03. LWM gives 7.56 {I52} with reduced       
+#G |h{+2}=6.5.                                                            
+#G            Absolute intensity=2.672 {I10} (1998Mi17)                   
+#G           |d(M2/E1)=-0.053 {I4} from A{-2}=+0.411 {I7}, Pol=-0.36 {I9} 
+#G (1983Ri05); -0.08 {I5} (1992Ch26) from (156|g)[1002|g](229|g)(|q):     
+#G A{-2}=-0.06 {I2}, A{-4}=+0.03 {I2} (1992Ch26); +0.06 {I+3-6}           
+#G (1981Ka22) from |g|g(|q), +0.003 {I16} (1980Sp01), -0.13 {I19}         
+#G (1975Qu01), pure E1 (1967Ni03, 1971Ga37 from subshell ce data).        
+#G RUL(M2)=1 implies |d<0.005, thus the evaluators assign E1.             
+#G                                                                        
+#G            {B179.4|g}:                                                 
+#G           I|g: NRM average of 8.77 {I5} (1998Mi17), 8.93 {I12}         
+#G (1992Ch26), 8.81 {I9}                                                  
+#G (1992Ke02), 9.04 {I18} (1992Su09), 8.83 {I8} (1990Ja02), 8.82 {I10}    
+#G (1990Me15), 8.85 {I24} (1986Wa35), 8.84 {I10} (1983Ji01), 9.11 {I70}   
+#G (1981Is08), 8.88 {I66} (1980Ro22), 8.75 {I11} (1980Sc07), 9.10 {I30}   
+#G (1977Ge12), 8.57 {I25} (1974La15), 8.7 {I6} (1972Ga23), 8.8 {I3}       
+#G (1971Ja21), 8.7 {I5} (1971Ml01), 9.57 {I5} (1970Wh03), 8.7 {I9}        
+#G (1969Sa25), 9.21 {I40} (1965Ed01), 9.30 {I47} (1964Da15); uncertainty  
+#G increased to 0.3 in 1970Wh03. LWM gives 9.0 {I6} with reduced          
+#G |h{+2}=9.3                                                             
+#G            Absolute intensity=3.098 {I11} (1998Mi17)                   
+#G           |d: unweighted average of +2.2 {I2} (1992Ch26), +2.1 {I+3-2} 
+#G (1983Ri05),                                                            
+#G +1.3 {I5} (1980Sp01), +0.9 {I4} (1975Qu01), +0.92 {I+13-7} (1972Kr05), 
+#G +0.90m +40-23 (1972He10), 0.7 {I1} (1967Ni03). Weighted average is 1.0 
+#G {I2} but with reduced |h{+2}=10.                                       
+#G           A{-2}=-0.706 {I19}, Pol=+0.17 {I10} (1983Ri05); +0.56 to +1.3
+#G (1975Qu01)                                                             
+#G           (179|g)[1044|g](229|g)(|q): A{-2}=+0.11 {I2}, A{-4}=-0.30    
+#G {I2} (1992Ch26)                                                        
+#G                                                                        
+#G            {B198.3|g}:                                                 
+#G           I|g: LWM, NRM average of 4.150 {I24} (1998Mi17), 4.19 {I5}   
+#G (1992Ch26),                                                            
+#G 4.12 {I6} (1992Ke02), 4.21 {I10} (1992Su09), 4.12 {I5} (1990Ja02),     
+#G 4.19 {I9} (1990Me15), 4.14 {I7} (1986Wa35), 4.22 {I6} (1983Ji01), 4.2  
+#G {I2} (1981Is08), 4.13 {I28} (1980Ro22), 4.09 {I6} (1980Sc07), 4.31     
+#G {I14} (1977Ge12), 4.15 {I28} (1972Ga23), 4.2 {I2} (1971Ml01), 4.40     
+#G {I25} (1970Wh03), 4.3 {I4} (1969Sa25), 4.30 {I24} (1965Ed01), 4.19     
+#G {I28} (1964Da15). Other: 3.75 {I12} (1974La15) is omitted as an outlier
+#G            Absolute intensity=1.465 {I6} (1998Mi17)                    
+#G           |d(M3/E2)=+0.067 {I10} from A{-2}=-0.519 {I10}, Pol=-0.43    
+#G {I9} (1983Ri05),                                                       
+#G but RUL(M3)=10 suggests |d|?0                                          
+#G                                                                        
+#G            {B222.1|g}:                                                 
+#G           I|g: weighted average of 21.17 {I12} (1998Mi17), 21.90 {I27} 
+#G (1992Ch26),                                                            
+#G 21.43 {I23} (1992Ke02), 21.6 {I5} (1992Su09), 21.80 {I20} (1990Ja02),  
+#G 21.6 {I3} (1990Me15), 21.62 {I51} (1986Wa35), 21.61 {I20} (1983Ji01),  
+#G 21.3 {I8} (1981Is08), 21.75 {I56} (1980Ro22), 21.27 {I28} (1980Sc07),  
+#G 21.9 {I7} (1977Ge12), 21.26 {I62} (1974La15), 21.5 {I15} (1972Ga23),   
+#G 21.30 {I55} (1971Ja21), 21.5 {I12} (1971Ml01), 22.6 {I12} (1970Wh03),  
+#G 21.2 {I21} (1969Sa25), 22.6 {I9} (1965Ed01), 21.8 {I7} (1964Da15).     
+#G            Absolute intensity=7.48 {I3} (1998Mi17)                     
+#G           |d: +0.007 {I5} (1972Kr05), +0.027 {I7} (1992Ch26), -0.12    
+#G {I18} (1975Qu01),                                                      
+#G pure E1 from subshell data (1967Ni01), as also suggested by            
+#G RUL for M2.                                                            
+#G           A{-2}=+0.358 {I10}, Pol=-0.34 {I8} (1972Kr05)                
+#G           (222|g)[1002|g](229|g)(|q): A{-2}=-0.026 {I2}, A{-4}=-0.052  
+#G {I3} (1992Ch26)                                                        
+#G           (222|g)(1002|g)(|q): A{-2}=+0.27 {I8}, A{-4}=+0.33 {I11}     
+#G (1992Ch26)                                                             
+#G           (222|g)(1231|g)(|q): A{-2}=-0.030 {I6}, A{-4}=-0.015 {I8}    
+#G (1992Ch26); A{-2}=-0.020 {I12}, A{-4}=+0.010 {I15} (1975Qu01)          
+#G                                                                        
+#G           {B229.3|g}:                                                  
+#G           I|g: NRM, LWM average of 10.20 {I6} (1998Mi17), 10.43 {I13}  
+#G (1992Ch26),                                                            
+#G 10.43 {I12} (1992Ke02), 10.5 {I2} (1992Su09), 10.38 {I11} (1990Ja02),  
+#G 10.39 {I18}                                                            
+#G (1990Me15), 10.24 {I22} (1986Wa35), 10.49 {I10} (1983Ji01), 10.24 {I60}
+#G (1981Is08), 10.39 {I34} (1980Ro22), 10.32 {I13} (1980Sc07), 10.6 {I3}  
+#G (1977Ge12), 10.3 {I7} (1972Ga23), 10.3 {I3} (1971Ja21), 10.3 {I7}      
+#G (1971Ml01), 10.9 {I5} (1970Wh03), 10.5 {I11} (1969Sa25), 11.1 {I5}     
+#G (1965Ed01), 9.6 {I5} (1964Da15). I|g=9.24 {I26} (1974La15) is an       
+#G outlier thus omitted from the averaging procedure                      
+#G            Absolute intensity=3.601 {I13} (1998Mi17)                   
+#G           |d(M3/E2)=+0.007 {I7} from A{-2}=-0.508 {I7}, Pol=-0.27 {I12}
+#G (1983Ri05)                                                             
+#G                                                                        
+#G            {B264.1|g}:                                                 
+#G           I|g: weighted average of 10.13 {I6} (1998Mi17), 10.37 {I15}  
+#G (1992Ch26),                                                            
+#G 10.43 {I14} (1992Ke02), 10.26 {I22} (1992Su09), 10.14 {I9} (1990Ja02), 
+#G 10.26 {I18} (1990Me15), 9.91 {I80} (1986Wa35), 10.37 {I7} (1983Ji01),  
+#G 9.98 {I50} (1981Is08), 10.36 {I52} (1980Ro22), 10.26 {I16} (1980Sc07), 
+#G 10.5 {I3} (1977Ge12), 10.4 {I7} (1972Ga23), 10.1 {I3} (1971Ja21), 10.0 
+#G {I6} (1971Ml01), 10.6 {I4} (1970Wh03), 10.3 {I10} (1969Sa25), 10.8     
+#G {I5} (1965Ed01), 9.9 {I7} (1964Da15). Other: 9.46 {I29} (1974La15) is  
+#G omitted as an outlier                                                  
+#G            Absolute intensity=3.579 {I13} (1998Mi17)                   
+#G           Pol=-0.33 {I14} (1983Ri05)                                   
+#G                                                                        
+#G            {B351.0|g}:                                                 
+#G           E|g: weighted average of 351.0 {I2} (1992Su09), 351.023 {I85}
+#G (1990Me15),                                                            
+#G 351.03 {I10} (1969Wh03)                                                
+#G           I|g: LWM average of 0.033 {I3} (1992Ch26, uncertainty of 3%  
+#G quoted by                                                              
+#G the authors increased to 10% by the evaluators for this very weak      
+#G |g ray), 0.028 {I6} (1992Ke02), 0.3 {I1} (1992Su09), 0.034 {I8}        
+#G (1990Me15), 0.033 {I19} (1983Ji01)                                     
+#G                                                                        
+#G            {B829.9|g}:                                                 
+#G           E|g: from 1992Su09                                           
+#G           I|g: weighted average of 0.039 {I8} (1992Ch26), 0.05 {I2}    
+#G (1992Su09),                                                            
+#G 0.038 {I15} (1983Ji01)                                                 
+#G                                                                        
+#G            {B891.7|g}:                                                 
+#G           E|g: weighted average of 891.59 {I9} (1992Su09), 891.73 {I18}
+#G (1990Ja02),                                                            
+#G 891.92 {I13} (1969Wh03). Level-energy difference=891.97                
+#G           I|g: NRM, LWM average of 0.160 {I10} (1992Ch26), 0.174 {I22} 
+#G (1992Ke02),                                                            
+#G 0.20 {I6} (1992Su09), 0.15 {I4} (1990Ja02), 0.16 {I5} (1983Ji01), 0.21 
+#G {I5} (1981Is08), 0.164 {I19} (1976He18), 0.15 {I2} (1970Wh03), 0.20    
+#G {I7} (1969Sa25). Others: <0.3 (1972Ga23), |?0.3 (1966Dz01)             
+#G                                                                        
+#G            {B928.0|g}:                                                 
+#G           E|g: weighted average of 928.08 {I4} (1992Su09), 927.983     
+#G {I42} (1990Me15),                                                      
+#G 927.90 {I7} (1990Ja02), 927.96 {I11} (1989Ka20), 927.78 {I10}          
+#G (1974La15), 927.99 {I7} (1969Wh03)                                     
+#G           I|g: weighted average (LWM, NRM give the same result)        
+#G of 1.720 {I24} (1992Ch26), 1.75 {I7} (1992Ke02), 1.72 {I8} (1992Su09), 
+#G 1.77 {I6} (1990Ja02), 1.73 {I3} (1990Me15), 1.76 {I4} (1983Ji01), 1.64 
+#G {I10} (1981Is08), 1.53 {I45} (1980Ro22), 1.78 {I3} (1976He18), 1.75    
+#G {I20} (1972Ga23), 1.5 {I3} (1971Ml01), 1.79 {I9} (1970Wh03), 1.6 {I2}  
+#G (1969Sa25), 1.74 {I26} (1966Dz01). Other: 2.10 {I8} (1974La15) is      
+#G omitted as outlier.                                                    
+#G           (928|g)(229|g)(|q): A{-2}=+0.18 {I6}, A{-4}=+0.11 {I1}       
+#G (1992Ch26)                                                             
+#G           |d(M3/E2)=+0.04 {I14} (1992Ch26)                             
+#G           |a(K)exp=0.0039 {I2} (1992Ch26)                              
+#G                                                                        
+#G            {B959.7|g}:                                                 
+#G           E|g: weighted average of 959.83 {I7} (1992Su09), 959.722     
+#G {I42} (1990Me15),                                                      
+#G 959.69 {I7} (1990Ja02), 959.71 {I8} (1989Ka20), 959.60 {I10}           
+#G (1974La15), 959.74 {I7} (1969Wh03)                                     
+#G           I|g: weighted average (also LWM and NRM) of 0.970 {I21}      
+#G (1992Ch26),                                                            
+#G 0.99 {I8} (1992Ke02), 0.99 {I8} (1992Su09), 1.01 {I3} (1990Ja02), 0.98 
+#G {I3} (1990Me15), 0.98 {I5} (1983Ji01), 0.87 {I8} (1981Is08), 0.92      
+#G {I47} (1980Ro22), 1.00 {I2} (1976He18), 1.12 {I6} (1974La15), 0.95     
+#G {I11} (1972Ga23), 1.0 {I1} (1971Ml01), 1.02 {I6} (1970Wh03), 1.3 {I2}  
+#G (1969Sa25), 0.94 {I24} (1966Dz01)                                      
+#G           |d: -4.6 {I+36-}|@ (1992Ch26)                                
+#G           (960|g)(229|g)(|q): A{-2}=+0.31 {I14}, A{-4}=-0.46 {I20}     
+#G (1992Ch26)                                                             
+#G $|a(K)exp=0.0095 {I6}; |a(L)exp=0.0019 {I2} (1992Ch26)                 
+#G                                                                        
+#G            {B1001.7|g}:                                                
+#G           E|g: weighted average of 1001.79 {I4} (1992Su09), 1001.696   
+#G {I18} (1990Me15),                                                      
+#G 1001.67 {I12} (1990Ja02), 1001.66 {I6} (1989Ka20), 1001.62 {I10}       
+#G (1974La15), 1001.68 {I7} (1969Wh03)                                    
+#G           I|g: NRM average of 5.86 {I10} (1992Ch26), 5.89 {I12}        
+#G (1992Ke02),  5.87 {I13}                                                
+#G (1992Su09), 6.01 {I5} (1990Ja02), 5.87 {I6} (1990Me15), 5.89 {I34}     
+#G (1986Wa35), 5.85 {I10} (1983Ji01), 5.36 {I11} (1981Is08), 5.99 {I35}   
+#G (1980Ro22), 5.90 {I9} (1976He18), 6.43 {I11} (1974La15), 5.66 {I40}    
+#G (1972Ga23), 5.4 {I10} (1971Ml01), 5.98 {I30} (1970Wh03), 5.6 {I6}      
+#G (1969Sa25), 5.4 {I3} (1966Dz01), 7.9 {I25} (1966Ko12); uncertainties   
+#G increased to 0.21 in 1981Is08 and 0.19 in 1974La15. LWM gives 5.91     
+#G {I10} with reduced |h{+2}=3.6                                          
+#G           |d: from 1972Kr05. Others: -8.2 {I+22-42} (1992Ch26), -30    
+#G {I+18-54} (1983Ri05)                                                   
+#G           A{-2}=+0.26 {I3}, Pol=+0.58 {I23} (1983Ri05)                 
+#G           (1002|g)(229|g)(|q): A{-2}=+0.12 {I3}, A{-4}=-0.10 {I4}      
+#G (1992Ch26)                                                             
+#G           |a(K)exp=0.0034 {I2}, |a(L)exp=0.00049 {I4}, |a(M)exp +      
+#G |a(N)exp=0.00026 {I3} (1992Ch26)                                       
+#G                                                                        
+#G            {B1035.7|g}:                                                
+#G           E|g: average of 1035.8 {I6} (1976Kl09) and 1035.6 {I5}       
+#G (1992Su09). This |g not reported in any other study                    
+#G           I|g: average of 0.017 {I6} (1992Su09) and 0.021 {I6}         
+#G (1976Kl09), the                                                        
+#G latter deduced by the evaluators from authors' ce(K) data              
+#G                                                                        
+#G            {B1044.4|g}:                                                
+#G           E|g: weighted average of 1044.47 {I11} (1992Su09), 1044.39   
+#G {I9} (1990Ja02),                                                       
+#G 1044.40 {I7} (1989Ka20), 1044.43 {I9} (1969Wh03)                       
+#G           I|g: weighted average of 0.660 {I21} (1992Ch26), 0.72 {I5}   
+#G (1992Ke02),                                                            
+#G 0.68 {I5} (1992Su09), 0.70 {I8} (1990Ja02), 0.72 {I7} (1983Ji01), 0.58 
+#G {I10} (1981Is08), 0.679 {I16} (1976He18), 0.69 {I10} (1972Ga23), 0.6   
+#G {I1} (1971Ml01), 0.69 {I8} (1970Wh03), 0.8 {I1} (1969Sa25), 1.2 {I2}   
+#G (1966Dz01). Other: <1 (1966Ko12)                                       
+#G           |d: from Adopted Gammas. Other: +0.4 {I3} (1972Kr05)         
+#G           Mult: E3 admixture is possible, |d(E3/E1)=-0.3 {I2}          
+#G (1972Kr05)                                                             
+#G           (1044|g)(229|g)(|q): A{-2}=-0.11 {I6}, A{-4}=+0.16 {I8}      
+#G (1992Ch26)                                                             
+#G           |a(K)exp=0.0048 {I3} (1992Ch26)                              
+#G                                                                        
+#G            {B1113.4|g}:                                                
+#G           E|g: weighted average of 1113.4 {I1} (1992Su09), 1113.414    
+#G {I18} (1990Me15),                                                      
+#G 1113.50 {I12} (1990Ja02), 1113.38 {I7} (1989Ka20), 1113.36 {I20}       
+#G (1974La15), 1113.38 {I10} (1969Wh03)                                   
+#G           I|g: NRM average of 1.240 {I22} (1992Ch26), 1.19 {I7}        
+#G (1992Ke02),  1.08 {I5}                                                 
+#G (1992Su09), 1.35 {I15} (1990Ja02), 1.32 {I3} (1990Me15), 1.30 {I3}     
+#G (1983Ji01), 1.18 {I7} (1980Ro22), 1.28 {I2} (1976He18), 1.11 {I7}      
+#G (1974La15), 1.44 {I20} (1972Ga23), 1.13 {I10} (1970Wh03), 1.2 {I2}     
+#G (1969Sa25); uncertainty increased to 0.07 in 1992Su09. LWM gives 1.261 
+#G {I24} with reduced |h{+2}=4.4. Other: 2.21 {I20} (1981Is08) omitted as 
+#G an outlier                                                             
+#G           Mult, |d: from A{-2}=+0.127 {I13} (1983Ri05). Other: +1.1    
+#G {I2} (1992Ch26).                                                       
+#G E0 admixture is measured and discussed in 1975We22 from ce             
+#G and |g(ce)(|q) data with q(E0/E2)=0.41 {I9}, X(E0/E2)=0.011 {I5}       
+#G           (1113|g)(229|g)(|q): A{-2}=-0.12 {I2}, A{-4}=+0.09 {I3}      
+#G (1992Ch26)                                                             
+#G                                                                        
+#G            {B1121.3|g}:                                                
+#G           I|g: 100.0 for the intensity of this |g ray is used as a     
+#G reference                                                              
+#G for intensities of other |g rays.                                      
+#G            Absolute intensity=35.32 {I12} (1998Mi17), 35.30 {I32}      
+#G (1980Sc07)                                                             
+#G           |d: from A{-2}=+0.088 {I6}, Pol=+0.03 {I4} (1983Ri05).       
+#G Others: +21 {I+19-8}                                                   
+#G (1972Kr05), +24 {I+21-8} (1972He10), +12 {I+2-1} (1975Qu01).           
+#G E0 admixture is measured and discussed in 1975We22 from ce             
+#G and (ce)(ce)(|q) data with q(E0/E2)=0.16 {I9}, X(E0/E2)=0.0016 {I11},  
+#G |r(magnitude)=0.019 {I11}. See also 1990Ka35.                          
+#G |a(pair)/|a(K)=0.00029                                                 
+#G $|a(K)exp=0.0030 {I1}, |a(L)exp=0.00054 {I2} (1992Ch26),               
+#G |a(K)exp=0.00303 {I10} (1975We22)                                      
+#G                                                                        
+#G            {B1135.9} E0 transition:                                    
+#G            This transition reported in |p|62 magnetic spectrograph     
+#G study by 1976Kl09. Not reported by 1976He18 in their ce data           
+#G           Intensity: deduced from I(ce(K))=0.000134 {I33} in 1976Kl09  
+#G                                                                        
+#G            {B1157.3|g}:                                                
+#G           E|g: from level-energy difference, with recoil removed.      
+#G Weighted                                                               
+#G average of 1157.52 {I6} (1992Su09), 1157.505 {I15} (1990Me15), 1157.53 
+#G {I7} (1990Ja02), 1157.52 {I20} (1974La15) and 1157.58 {I8} (1969Wh03)  
+#G is 1157.510 {I15}, which fits poorly in the level scheme, differing by 
+#G 0.2 keV from the level-energy difference. The poor fit is due to the   
+#G presence of a weak component at 1158.1 keV reported in 1992Su09        
+#G deexciting 1487 level. For this reason, the evaluators have not used   
+#G this |g in the least-squares fitting procedure and have adopted the    
+#G value from level-energy difference, deduced uncertainty=0.0011 keV     
+#G           I|g: deduced from total intensity of 1157+1158 doublet=      
+#G 2.896 {I14} and                                                        
+#G the intensity of 0.82 {I10} for the weaker 1158 |g ray; the former     
+#G value                                                                  
+#G is determined from the weighted average (same result for LWM, NRM)     
+#G of 2.930 {I22} (1998Mi17), 2.83 {I5} (1992Ch26), 2.87 {I5} (1992Ke02), 
+#G 2.83 {I9} (1992Su09), 2.71 {I20} (1990Ja02), 2.92 {I3} (1990Me15),     
+#G 2.91 {I34} (1986Wa35), 2.88 {I32} (1983Ji01), 2.65 {I20} (1981Is08),   
+#G 2.85 {I5} (1977Ge12), 2.96 {I9} (1974La15), 2.90 {I20} (1972Ga23), 2.6 
+#G {I2} (1971Ml01), 2.83 {I7} (1970Wh03), 2.76 {I34} (1969Sa25), 4.1      
+#G {I12} (1966Dz01), 2.67 {I15} (1966Ko12). From singles spectra,         
+#G intensity of 1157|g: 2.01 {I7} (1992Su09), 1.66 {I24} (1983Ji01), 1.84 
+#G {I35} (1970Wh03), 2.0 {I3} (1968Sa25). Ice(1157K)/Ice(1221K)=6.65      
+#G {I6}/100 (1976He18) (large Ice(K), factor of |?2.2 higher if 1157 is   
+#G M1+E2, gives clear evidence of E0 admixture, 1.84 {I35} (1970Wh03)     
+#G            Absolute intensity=1.036 {I6} for 1157+1158 (1998Mi17)      
+#G           |d: from Adopted Gammas. |a(K)exp=0.0077 {I4} (1992Ch26)     
+#G disagrees with M1                                                      
+#G or any mixture of M1+E2, gives evidence of E0 admixture.               
+#G Others: -7.6 {I+48-}|@ (1972Kr05), -0.65 to -1.6 (1972He10).           
+#G E0 admixture is measured and discussed in 1975We22 from ce             
+#G and (ce)(ce)(|q) data with q(E0/E2)=1.13 {I13}, X(E0/E2)=0.090 {I24},  
+#G | r(magnitude)=0.049 {I6}. Ice(1157K)/Ice(1221K)=6.56 {I6}/100         
+#G (1976He18) also clearly indicates presence of E0 component of 0.5% {I1}
+#G           |a(K)exp=0.0077 {I4} (1992Ch26)                              
+#G           |a: from |a(K)exp multiplied by a factor of 1.2 to account   
+#G for other shells                                                       
+#G                                                                        
+#G            {B1158.1|g}:                                                
+#G           E|g: from 1992Su09. Others: 1983Ji01, 1976He18 (as K-        
+#G conversion                                                             
+#G   line), 1969Sa25 (|g|g coin)                                          
+#G           I|g: weighted average of 0.76 {I16} (|g|g coin,1969Sa25).    
+#G 0.99 {I28}                                                             
+#G (singles |g,1970Wh03), 0.82 {I5} (singles |g,1992Su09); uncertainty    
+#G increased to 0.10 in 1992Su09.                                         
+#G Others: 1.22 {I21} (1983Ji01, singles |g), 1.85 {I35} (deduced by the  
+#G evaluators from Ice(1158K)/Ice(1223K)=1.10 {I21}/100 (1976He18));      
+#G values are inconsistent, due possibly to poor splitting of the         
+#G 1157+1158 doublet and large contribution of E0 component in Ice(K)     
+#G           |d: -0.01 {I+20-10} (1992Ch26)                               
+#G           (1158|g)(229|g)(|q): A{-2}=+0.20 {I4}, A{-4}=+0.04 {I5}      
+#G (1992Ch26)                                                             
+#G                                                                        
+#G            {B1180.8|g}:                                                
+#G           E|g: weighted average of 1180.5 {I5} (1992Su09), 1180.88     
+#G {I14} (1990Ja02)                                                       
+#G           I|g: weighted average of 0.250 {I10} (1992Ch26), 0.22 {I6}   
+#G (1992Ke02),                                                            
+#G 0.23 {I4} (1992Su09), 0.23 {I9} (1990Ja02), 0.21 {I4} (1983Ji01),      
+#G 0.249 {I15} (1976He18), 0.28 {I4} (1972Ga23), 0.25 {I4} (1969Sa25).    
+#G Other: 0.56 {I7} (1981Is08) is omitted as an outlier                   
+#G                                                                        
+#G            {B1189.0|g}:                                                
+#G           I|g: weighted average (also LWM and NRM) of 46.70 {I24}      
+#G (1998Mi17),                                                            
+#G 46.6 {I8} (1992Ch26), 47.0 {I6} (1992Ke02), 46.3 {I19} (1992Su09),     
+#G 47.37 {I29} (1990Ja02), 47.1 {I8} (1990Me15), 47.02 {I48} (1986Wa35),  
+#G 46.40 {I20} (1983Ji01), 48.8 {I17} (1981Is08), 47.61 {I53} (1980Ro22), 
+#G 46.59 {I47} (1980Sc07), 46.5 {I7} (1977Ge12), 46.1 {I15} (1974La15),   
+#G 46.7 {I23} (1972Ga23), 46.5 {I7} (1971Ja21), 47.2 {I15} (1971Ml01),    
+#G 47.4 {I7} (1970Wh03), 46.3 {I33} (1969Sa25), 44.3 {I15} (1966Dz01),    
+#G 48.1 {I20} (1966Ko12)                                                  
+#G            Absolute intensity=16.49 {I6} {I6} (1998Mi17), 16.7 {I2}    
+#G (1997Ka47)                                                             
+#G           Mult, |a: 59% {I4} E1, 14% {I1} M2 and 27% {I3} E3.          
+#G Conversion coefficient deduced for this admixture,                     
+#G it agrees well with measured values from 1992Ch26                      
+#G           |d: from weighted averages of |d(M2/E1)=+0.44 {I6},          
+#G |d(E3/E1)= -0.69 {I10}                                                 
+#G from A{-2}=-0.884 {I19}, Pol=+0.13 {I3} (1983Ri05); |d(M2/E1)=+0.49    
+#G {I3}, |d(E3/E1)=-0.64 {I5} (1972Kr05); |d(M2/E1)=0.49 {I3},            
+#G |d(E3/E1)=0.72 {I7} (1972He10) from |a(K)exp ratios of 1189, 1121 and  
+#G 1221 |g rays and |g|g(|q)                                              
+#G           |a(pair)/|a(K)=0.0022                                        
+#G           |a(K)exp=0.0037 {I3}, |a(L)exp=0.00061 {I3},                 
+#G |a(M+...)exp|a(N)exp=0.00014 {I1} (1992Ch26); |a(K)exp=0.00418 {I14}   
+#G (1975We22)                                                             
+#G                                                                        
+#G            {B1221.4|g}:                                                
+#G           I|g: deduced from total intensity of 1221+1223 doublet=      
+#G 77.94 {I20} and                                                        
+#G the intensity of 0.67 {I8} for the weaker 1223 |g ray; the former value
+#G is determined from the weighted average (same result in LWM, NRM)      
+#G of 78.5 {I5} (1998Mi17), 78.3 {I11} (1992Ch26), 78.0 {I10} (1992Ke02), 
+#G 76.8 {I15} (1992Su09), 78.03 {I36} (1990Ja02), 78.1 {I13} (1990Me15),  
+#G 77.3 {I13} (1986Wa35), 77.3 {I6} (1983Ji01), 77.9 {I27} (1981Is08),    
+#G 78.14 {I93} (1980Ro22), 76.96 {I76} (1980Sc07), 77.8 {I11} (1977Ge12), 
+#G 78.4 {I12} (1974La15), 80.3 {I41} (1972Ga23), 77.3 {I12} (1971Ja21),   
+#G 78.0 {I30} (1971Ml01), 79.3 {I12} (1970Wh03), 77.9 {I54} (1969Sa25),   
+#G 77 {I6} (1966Dz01). Other: 85.1 {I31} (1966Ko12) omitted as outlier.   
+#G From singles spectra intensity of 1221|g: 76.2 {I15} (1992Su09), 77.8  
+#G {I15} (1990Me15), 76.8 {I6} (1983Ji01), 77.3 {I54} (1969Sa25); all     
+#G these are consistent with the adopted value of 77.34 {I22}.            
+#G           Absolute intensity=27.71 {I9} for 1221+1223 (1998Mi17),      
+#G   26.5 {I3} (1997Ka47)                                                 
+#G           Pol=-0.34 {I9} (1983Ri05). |a(pair)/|a(K)=0.0028             
+#G           |a(K)=0.0025 used for normalization of ce data (1992Ch26)    
+#G                                                                        
+#G            {B1223.6|g}:                                                
+#G           E|g: weighted average (NRM method) of 1223.7 {I1} (1992Su09),
+#G 1223.2 {I1}                                                            
+#G (1990Me15), 1224.0 {I4} (1990Ja02), 1223.2 {I5} (1969Sa25); |D(E|g)    
+#G adjusted to 0.2 keV in 1990Me15. LWM weighted average is 1223.46 {I26} 
+#G with reduced |h{+2}=4.7. Level-energy difference=1223.79               
+#G           I|g: weighted average of 0.58 {I10} (1992Su09), 0.53 {I24}   
+#G (1983Ji01),                                                            
+#G 0.75 {I7} (deduced by the evaluators from K-conversion intensities of  
+#G 1223|g and 1221|g measured in 1976He18), 0.6 {I1} (|g|g coin,          
+#G 1969Sa25). Other: 0.3 {I1} (1990Me15) omitted as outlier               
+#G           Mult,|d: from |g|g(|q) (1992Ch26). Other: %E1>80% (or |d<0.5 
+#G  from                                                                  
+#G |a(K)exp=0.0024 {I4} and assuming equal M2 and E3 admixtures (ce data, 
+#G 1976He18, using I|g=0.8 from 19). E3 admixture cannot be ruled out.    
+#G           (1223|g)(229|g)(|q): A{-2}=+0.23 {I3}, A{-4}=+0.11 {I9}      
+#G (1992Ch26)                                                             
+#G                                                                        
+#G            {B1231.0|g}:                                                
+#G           I|g: NRM average of 33.18 {I19} (1998Mi17), 32.8 {I5}        
+#G (1992Ch26),  33.17 {I37}                                               
+#G (1992Ke02), 32.2 {I7} (1992Su09), 33.85 {I22} (1990Ja02), 33.1 {I5}    
+#G (1990Me15), 33.42 {I31} (1986Wa35), 32.72 {I14} (1983Ji01), 32.3 {I11} 
+#G (1981Is08), 32.32 {I56} (1980Ro22), 32.81 {I32} (1980Sc07), 32.96 {I47}
+#G (1977Ge12), 32.60 {I52} (1974La15), 34.5 {I25} (1972Ga23), 32.8 {I5}   
+#G (1971Ja21), 32.3 {I10} (1971Ml01), 33.4 {I5} (1970Wh03), 32.7 {I23}    
+#G (1969Sa25), 26 {I5} (1966Dz01), 28.6 {I11} (1966Ko12); uncertainties   
+#G increased to 0.4 in 1990Ja02 and 1.6 in 1966Ko12. LWM gives 32.4 {I4}  
+#G with reduced |h{+2}=2.4                                                
+#G            Absolute intensity=11.72 {I4} (1998Mi17)                    
+#G           |d: from 1983Ri05. Others: +11 {I+6-3} (1992Ch26), -60       
+#G {I+20-100} (1972Kr05), -32 {I+15-142} (1975Qu01)                       
+#G           A{-2}=-0.067 {I12}, Pol=-0.24 {I12} (1983Ri05)               
+#G           |a(pair)/|a(K)=0.0024                                        
+#G           |a(K)exp=0.0023 {I1}, |a(M)exp + |a(N)exp=0.000085 {I7}      
+#G (1992Ch26)                                                             
+#G                                                                        
+#G            {B1257.4|g}:                                                
+#G           I|g: weighted average (also LWM and NRM) of 4.320 {I24}      
+#G (1998Mi17),                                                            
+#G 4.31 {I7} (1992Ch26), 4.34 {I7} (1992Ke02), 4.22 {I9} (1992Su09), 4.35 
+#G {I6} (1990Ja02), 4.36 {I8} (1990Me15), 4.30 {I16} (1986Wa35), 4.276    
+#G {I24} (1983Ji01), 4.07 {I30} (1981Is08), 4.33 {I15} (1980Ro22), 4.25   
+#G {I2} (1980Sc07), 4.26 {I6} (1977Ge12), 4.31 {I8} (1974La15), 4.46      
+#G {I45} (1972Ga23), 4.27 {I14} (1971Ml01), 4.33 {I7} (1970Wh03), 4.3     
+#G {I3} (1969Sa25), 3.8 {I3} (1966Dz01), 3.91 {I15} (1966Ko12)            
+#G            Absolute intensity=1.524 {I7} (1998Mi17)                    
+#G           Pol=-0.36 {I9} (1983Ri05). |a(pair)/|a(K)=0.008              
+#G           |a(K)exp=0.00032 {I2}, |a(M)exp + |a(N)exp=0.00012 {I2}      
+#G (1992Ch26)                                                             
+#G                                                                        
+#G            {B1273.7|g}:                                                
+#G           I|g: weighted average of 1.85 {I3} (1992Ch26), 1.86 {I3}     
+#G (1992Ke02), 1.84 {I5}                                                  
+#G (1992Su09), 1.90 {I4} (1990Ja02), 1.95 {I3} (1990Me15), 1.73 {I12}     
+#G (1986Wa35), 1.871 {I13} (1983Ji01), 1.67 {I15} (1981Is08), 1.66 {I18}  
+#G (1980Ro22), 1.86 {I3} (1977Ge12), 1.83 {I5} (1974La15), 1.96 {I19}     
+#G (1972Ga23), 1.92 {I8} (1971Ml01), 1.90 {I4} (1970Wh03), 1.80 {I13}     
+#G (1969Sa25), 1.5 {I3} (1966Dz01), 1.64 {I15} (1966Ko12)                 
+#G           Mult, |a: 81% {I5} E1, 12% {I4} M2 and 7% {I2} E3.           
+#G Conversion coefficient deduced for this admixture,                     
+#G it agrees well with measured values from 1992Ch26                      
+#G           |d: from A{-2}=-0.37 {I6}, Pol=-0.39 {I5} (1983Ri05). Other: 
+#G |d(M2/E1)=+0.42 {I4} (1972Kr05), only M2/E1 mixing given               
+#G           |a(pair)/|a(K)=0.014                                         
+#G           |a(K)exp=0.0024 {I3}, |a(L)exp=0.00047 {I4} (1992Ch26);      
+#G |a(K)exp=0.00291 {I5}                                                  
+#G                                                                        
+#G            {B1289.1|g}:                                                
+#G           I|g: NRM average of 3.940 {I23} (1998Mi17), 3.91 {I6}        
+#G (1992Ch26),  4.03 {I7}                                                 
+#G (1992Ke02), 3.80 {I8} (1992Su09), 3.90 {I5} (1990Ja02), 4.29 {I8}      
+#G (1990Me15), 4.17 {I30} (1986Wa35), 3.80 {I3} (1983Ji01), 3.65 {I20}    
+#G (1981Is08), 4.06 {I22} (1980Ro22), 3.86 {I2} (1980Sc07), 3.86 {I6}     
+#G (1977Ge12), 3.96 {I8} (1974La15), 4.10 {I40} (1972Ga23), 4.06 {I14}    
+#G (1971Ml01), 4.04 {I7} (1970Wh03), 3.8 {I3} (1969Sa25), 3.7 {I2}        
+#G (1966Dz01), 3.67 {I15} (1966Ko12). Uncertainties increased to 0.14 in  
+#G 1990Me15 and 0.05 in 1983Ji01. LWM gives 3.895 {I35} with reduced      
+#G |h{+2}=3.3                                                             
+#G            Absolute intensity=1.393 {I7} (1998Mi17)                    
+#G           Pol=+0.39 {I12} (1983Ri05). |a(pair)/|a(K)=0.0009            
+#G           |a(L)exp=0.0019 {I2}, |a(M+...)exp|a(N)exp=0.00036 {I3}      
+#G (1992Ch26)                                                             
+#G                                                                        
+#G            {B1342.7|g}:                                                
+#G           E|g: weighted average of 1342.80 {I7} (1992Su09), 1342.731   
+#G {I15} (1990Me15),                                                      
+#G 1342.73 {I6} (1990Ja02), 1342.70 {I7} (1989Ka20), 1342.60 {I10}        
+#G (1974La15), 1342.72 {I6} (1969Wh03)                                    
+#G           I|g: weighted average of 0.720 {I12} (1992Ch26), 0.748 {I21} 
+#G (1992Ke02),                                                            
+#G 0.69 {I3} (1992Su09), 0.76 {I4} (1990Ja02), 0.74 {I1} (1990Me15),      
+#G 0.723 {I7} (1983Ji01), 0.66 {I8} (1981Is08), 0.718 {I12} (1977Ge12),   
+#G 0.74 {I3} (1974La15), 0.80 {I9} (1972Ga23), 0.75 {I3} (1971Ml01), 0.75 
+#G {I2} (1970Wh03), 0.7 {I1} (1969Sa25), 0.60 {I9} (1966Dz01), 0.79 {I5}  
+#G (1966Ko12)                                                             
+#G           |d(M3/E2)=-0.11 {I+4-20} from A{-2}=-0.33 {I12}, Pol=-0.57   
+#G {I18} (1983Ri05)                                                       
+#G is inconsistent with RUL(M3)=10, which suggests that |d should         
+#G be near zero. The evaluators assign pure E2 as in Adopted Gammas.      
+#G           ICE(K)+(ICE(L) FOR 1289G)=2.48 13; ICE(L)=0.074 13;          
+#G ICE(M+N)+(ICE(K) FOR 1410G)=0.094 20 (1992Ch26)                        
+#G           |a(pair)/|a(K)=0.013                                         
+#G           |a(L)exp=0.00030 {I6}, |a(M+...)exp|a(N)exp=0.00009 {I3}     
+#G (1992Ch26)                                                             
+#G                                                                        
+#G            {B1373.8|g}:                                                
+#G           I|g: NRM average of 0.610 {I15} (1992Ch26), 0.628 {I13}      
+#G (1992Ke02), 0.55 {I2}                                                  
+#G (1992Su09), 0.65 {I2} (1990Ja02), 0.68 {I1} (1990Me15), 0.626 {I6}     
+#G (1983Ji01), 0.58 {I8} (1981Is08), 0.628 {I11} (1977Ge12), 0.65 {I3}    
+#G (1974La15), 0.70 {I8} (1972Ga23), 0.69 {I3} (1971Ml01), 0.66 {I2}      
+#G (1970Wh03), 0.6 {I1} (1969Sa25), 0.52 {I9} (1966Dz01), 0.70 {I14}      
+#G (1966Ko12); uncertainties increased to 0.02 in 1990Me15. LWM gives     
+#G 0.634 {I8} with reduced |h{+2}=3.8                                     
+#G           |a(K)exp=0.0036 {I3}, |a(L)exp=0.00074 {I4} (1992Ch26)       
+#G                                                                        
+#G            {B1387.4|g}:                                                
+#G           I|g: NRM average of 0.205 {I6} (1992Ch26), 0.220 {I11}       
+#G (1992Ke02) , 0.19 {I2}                                                 
+#G (1992Su09), 0.24 {I3} (1990Ja02), 0.27 {I1} (1990Me15), 0.204 {I4}     
+#G (1983Ji01), 0.20 {I5} (1981Is08), 0.202 {I7} (1977Ge12), 0.21 {I1}     
+#G (1974La15), 0.225 {I23} (1972Ga23), 0.24 {I2} (1971Ml01), 0.217 {I10}  
+#G (1970Wh03), 0.18 {I2} (1969Sa25), 0.25 {I6} (1966Dz01), 0.18 {I4}      
+#G (1966Ko12); uncertainty increased to 0.023 in 1990Me15. LWM average is 
+#G 0.211 {I7} with reduced |h{+2}=3.5                                     
+#G           |a(K)exp=0.0040 {I3} (1992Ch26)                              
+#G                                                                        
+#G            {B1410.1|g}:                                                
+#G           E|g: weighted average of 1410.13 {I8} (1992Su09), 1410.15    
+#G {I11} (1990Ja02),                                                      
+#G 1410.10 {I10} (1969Wh03). E|g=1411.077 {I45} is an outlier thus not    
+#G used in averaging. If it is 1410.077, then weighted average is 1410.10 
+#G {I4}                                                                   
+#G           I|g: LWM average of 0.109 {I4} (1992Ch26), 0.117 {I8}        
+#G (1992Ke02),  0.083 {I10}                                               
+#G (1992Su09), 0.14 {I2} (1990Ja02), 0.117 {I4} (1990Me15), 0.111 {I5}    
+#G (1983Ji01), 0.10 {I4} (1981Is08), 0.112 {I6} (1977Ge12), 0.130 {I25}   
+#G (1972Ga23), 0.14 {I3} (1971Ml01), 0.117 {I8} (1970Wh03), 0.11 {I2}     
+#G (1969Sa25), 0.115 {I17} (1966Dz01), 0.13 {I6} (1966Ko12).              
+#G           Ice(K)+(Ice(M+N) for 1343|g)=0.094 {I20} (1992Ch26).         
+#G |a(pair)/|a(K)|?0.026                                                  
+#G                                                                        
+#G            {B1453.1|g}:                                                
+#G           E|g: weighted average of 1453.1 {I1} (1992Su09), 1453.125    
+#G {I62} (1990Me15),                                                      
+#G 1453.22 {I14} (1990Ja02), 1453.05 {I11} (1969Wh03).                    
+#G Level-energy difference=1453.112                                       
+#G           I|g: NRM average of 0.083 {I3} (1992Ch26), 0.097 {I7}        
+#G (1992Ke02),  0.11 {I1}                                                 
+#G (1992Su09), 0.11 {I2} (1990Ja02), 0.123 {I8} (1990Me15), 0.0872 {I24}  
+#G (1983Ji01), 0.10 {I4} (1981Is08), 0.079 {I3} (1977Ge12), 0.10 {I2}     
+#G (1972Ga23), 0.12 {I3} (1971Ml01), 0.123 {I10} (1970Wh03), 0.12 {I2}    
+#G (1969Sa25), 0.094 {I12} (1966Dz01), 0.14 {I6} (1966Ko12); uncertainty  
+#G increased to 0.014 in 1990Me15 and 1970Wh03. LWM average is 0.106      
+#G {I19} with reduced |h{+2}=4.3                                          
+#G           Mult: |a(K)exp=0.0028 {I4} (1992Ch26) suggests dominant E3   
+#G                                                                        
+#G            ------------------------------------------------------------
+#G           |a(pair)/|a(K) are from 1966Ko12                             
+#G            Pol=coefficient of linear polarization measurement by       
+#G 1983Ri05                                                               
+#G E$Values for 22 |g rays, as indicated, are recommended values from     
+#G 2000He14 evaluation and analysis, based on curved-crystal data for     
+#G low-energy (<270 keV) transitions, and from precise energy difference  
+#G measurements of closely spaced |g rays of other isotopes. Two others   
+#G are in table 4 of 2000He14 from curved-crystal data. Others are        
+#G from weighted averages of values from 1992Su09, 1990Ja02,              
+#G 1990Me15, 1989Ka20, 1974La15 and 1969Wh03 (also 1970Wh03).             
+#G E(Z)$Recommended value from 2000He14 (evaluation and analysis)         
+#G E(U),RI(U)$ The 121|g not seen, its energy is from level-energy        
+#G difference. Intensity is deduced (by evaluators) by requiring          
+#G intensity balance at 1136 level and assumed E2 multipolarity. It       
+#G is considered as an uncertain transition                               
+#G RI$Average of available values from 1998Mi17, 1992Ch26, 1992Ke02,      
+#G 1992Su09, 1990Ja02, 1990Me15, 1986Wa35, 1983Ji01, 1981Is08, 1980Ro22,  
+#G 1980Sc07, 1977Ge12 (includes 1976He18), 1974La15, 1972Ga23, 1971Ja21,  
+#G 1971Ml01, 1970Wh03, 1969Sa25, 1966Dz01, 1966Ko12, 1965Ed01, 1964Da15.  
+#G AVETOOLS code is used for averaging procedure; this code combines      
+#G four methods: weighted average, limitation of statistical weights      
+#G (LWM), normalized residuals method (NRM) and Rajeval technique (RT).   
+#G Adopted value is from best reduced |h{+2} as compared to critical      
+#G value of |h{+2}, with as small adjustment (increase) of uncertainties  
+#G in input values as possible. In most cases LWM and/or NRM values       
+#G are adopted. Values in 1965Ed01 and 1964Da15 are normalized to 40.3    
+#G for 100-keV |g ray. Values in 1976He18 are renormalized to 77.94 for   
+#G 1221+1223 doublet.                                                     
+#G M,MR$From ce data, |g(|q), and |g|g(|q) measurements                   
+#G of 1967Ni03, 1983Ri05, 1972Kr05, 1961Ha23, 1963El02, 1971Ga37,         
+#G 1972He10, 1975Qu01, 1980Sp01 and 1992Ch26                              
+#G MR(M)$Sign from |g|g(|q) measurements of 1983Ri05, 1972Kr05;           
+#G magnitude from these measurements and ce data.                         
+#G M(B)$From pol |g|g(|q) measurement of 1983Ri05                         
+#G CC$Theoretical values from BrIcc v2.3b (16-Dec-2014) 2008Ki07,         
+#G "Frozen Orbitals" approximation. If mixing ratio |d is not given, it   
+#G was assumed as 1.0 for E2/M1 and E3/M2 and 0.10 for others             
+#L E$ From least-squares fit to E|g data with the omission of 1157.5|g    
+#L due to its being a doublet. Normalized |h{+2} is 0.4                   
+#L J$From Adopted Levels                                                  
+#L T$ From Adopted levels, unless otherwise stated                        
+#L T(A)$ From delayed coincidence techniques in {+182}Ta decay            
+#P 0.0          3-                114.74 D 12                1814.5 17    
++B beta- 0.6253099999999999 5.8E-4
++B beta- 0.52912 9.6E-4
++B beta- 0.18181999999999998 0.032
++B beta- 0.16922 0.001
++B beta- 0.15827000000000002 0.43200000000000005
++G gamma 0.0317377 0.008739519999999999
++B beta- 0.14395 0.023700000000000002
++B beta- 0.12963999999999998 0.201
++B beta- 0.10708 0.00565
++B beta- 0.09286 0.013000000000000001
++B beta- 0.08574 0.0014199999999999998
++B beta- 0.07254000000000001 0.2923
+

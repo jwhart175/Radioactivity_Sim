@@ -1,0 +1,104 @@
+# 73BR    73KR EC DECAY (27.3 S)        1999MI17                  04NDS    200403
+#  73KR EC DECAY (27.3 S)        1999MI17                  04NDS    200403
+#H TYP=FUL$AUT=BALRAJ SINGH$CIT=NDS 101, 193 (2004)$CUT=12-May-2003$      
+#  1999Mi17: {+73}Kr produced by bombarding a niobium target with a       
+#  600-MeV proton beam Measured E|g, I|g, |g|g, |b|g, delayed protons,    
+#  and half-life using a 4|p |b-detector and two Ge counters of 33% and   
+#  80% efficiency, and a Si(Li) counter. See also 2000Gi11 for            
+#  beta-delayed proton spectra and (proton)(|g) coin.                     
+#  Others:                                                                
+#  1973Da22: {+73}Kr produced by chemical separation and identified by the
+#  growth of {+73}Br product. Measure E|g, I|g of 9 |g-rays, out of which 
+#  8 were placed in the level scheme.                                     
+#  1974Ro11: {+73}Kr produced by bombarding a zinc target with 600-MeV    
+#  proton beam. Measured E|g, I|g, E|b, |b|g coin, T{-1/2} of 16 |g-rays. 
+#  For studies of delayed-p emission following {+73}Kr |e decay, see      
+#  1972Ho20, 1978As05, 1981As06, 1981Ha44, 2000Gi11                       
+#  For studies which measured Q{-|e}-B{-p}, see 1972Ho20, 1976Ha29.       
+#  Decay scheme constructed using observed energy sums and intensities    
+#  Decay to high-lying proton-emitting levels amounting to 0.68% {I12}    
+#  from 1972Ho20 disagrees with calculations (1981As06,1981Ha44)          
+#E $ 1981Ha44: Measured Q(|e)-S(p), E(p), Ip, p|g, p(x ray), and |g(x ray)
+#E $|ep decay to {+72}Se states: 80.4% {I15} to g.s.; 19.1% {I15} to 860  
+#E level; 0.5% {I1} to 1310 level (1999Mi17). %|ep values from 1981Ha44   
+#E are in agreement but less precise.                                     
+#G RI$Deduced by compilers from I(|g+ce)'s of 1999Mi17 and calculated |a's
+#G M,MR$From ENSDF for {+73}Br. Assignments in square brackets are assumed
+#G values                                                                 
+#G $A 220.0|g with I|g=3.4 {I14} reported by 1973Da22 and 1974Ro11        
+#G is not confirmed by 1999Mi17                                           
+#L $The following levels proposed by 1973Da22 have been omitted here      
+#L since these are not confirmed by 1999Mi17: 303.6, 329.2, 391.9.        
+#L The g.s. transitions proposed by 1973Da22 have been assigned           
+#L elsewhere by 1999Mi17                                                  
+#L $ See 1981As06 for level widths, level density parameter               
+#L and |b-strength function                                               
+#L J$From adopted levels                                                  
+#L E$From least-squares fit to E|g's (by compilers)                       
+#L E(A)$Decays 100% to {+72}Se g.s.                                       
+#P         0   3/2-              27.3 S    10             7106      71    
++B beta+ 2.842 0.36
++B beta+ 2.829 0.0855
++B beta+ 2.755 0.08900000000000001
++B beta+ 2.725 0.049
++B beta+ 2.702 0.038
++B beta+ 2.637 0.045
++B beta+ 2.635 0.039
++B beta+ 2.611 0.052000000000000005
++B beta+ 2.607 0.044000000000000004
++B beta+ 2.532 0.055999999999999994
++B beta+ 2.51 0.02
++B beta+ 2.494 0.028999999999999998
++B beta+ 2.288 0.045
++B beta+ 2.126 0.009000000000000001
++B beta+ 2.092 0.017
++B beta+ 1.798 0.013000000000000001
++B beta+ 1.746 0.009000000000000001
++B beta+ 1.606 0.008
++B beta+ 1.386 0.023
++B beta+ 1.275 0.0022
++B beta+ 1.259 0.0033
++B beta+ 1.176 0.004699999999999999
++B beta+ 1.173 0.0023
++B beta+ 0.796 2.0E-6
++B beta+ 0.774 5.0E-6
++B beta+ 0.751 5.999999999999999E-6
++B beta+ 0.728 5.0E-6
++B beta+ 0.714 1.1999999999999999E-5
++B beta+ 0.696 8.2E-6
++B beta+ 0.683 3.2E-5
++B beta+ 0.651 3.0E-5
++B beta+ 0.633 2.5E-5
++B beta+ 0.619 2.3999999999999997E-5
++B beta+ 0.601 1.8E-5
++B beta+ 0.588 1.7E-5
++B beta+ 0.57 2.5E-5
++B beta+ 0.548 3.7000000000000005E-5
++B beta+ 0.521 1.9E-5
++B beta+ 0.49 3.8E-5
++B beta+ 0.454 5.0E-5
++B beta+ 0.432 3.4E-5
++B beta+ 0.397 3.4E-5
++B beta+ 0.371 2.6E-5
++B beta+ 0.354 2.3E-5
++B beta+ 0.336 1.5E-5
++B beta+ 0.323 1.4E-5
++B beta+ 0.302 2.5E-5
++B beta+ 0.276 1.1000000000000001E-5
++B beta+ 0.255 1.1000000000000001E-5
++B beta+ 0.229 1.1999999999999999E-5
++B beta+ 0.208 2.0E-6
++B beta+ 0.191 2.9E-6
++B beta+ 0.17 2.1000000000000002E-6
++B beta+ 0.149 1.0E-6
++B beta+ 0.132 5.0E-7
++B beta+ 0.115 2.0000000000000002E-7
++B beta+ 0.089 1.0000000000000001E-7
++B beta+ 8.774E-4 0.01
++B beta+ 8.773E-4 0.0010199999999999999
++B beta+ 8.771E-4 0.0010199999999999999
++B beta+ 8.77E-4 0.0010199999999999999
++B beta+ 8.768000000000001E-4 0.0010199999999999999
++B beta+ 8.766000000000001E-4 0.0010199999999999999
++B beta+ 8.761999999999999E-4 0.0010299999999999999
+

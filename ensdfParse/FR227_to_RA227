@@ -1,0 +1,128 @@
+#227RA    227FR B- DECAY                1981VO03,1987BO04,1996AA0101NDS    200110
+#  227FR B- DECAY                1981VO03,1987BO04,1996AA0101NDS    200110
+#H TYP=FUL$AUT=E. BROWNE$CIT=NDS 93, 920 (2001)$CUT=1-May-2001$           
+#            MODIFIED BY E. BROWNE (INCLUDED 1996AA01) IN APRIL 2000.     
+#L           See 1984LE04 for a discussion of a stable octupole           
+#L deformation in 227RA.                                                  
+#G           227FR activity produced by spallation of 600-MEV protons on  
+#G a target of 238U. Mass-separated sources measured on-line              
+#G (1981VO03,1987BO04).                                                   
+#G           227FR activity produced by spallation of 1-GEV protons on    
+#G a target on 232TH to produce 227RN, which decays to 227FR.             
+#G Measured BGG(T), determine levels half-life (1996AA01).                
+#G           Measured EG, RI, GG coin. Deduced conversion coefficients.   
+#G Detector: GE(LI) (1981VO03). Other: 1975WE23.                          
+#G           Measured conversion electron energies and intensities.       
+#G Deduced conversion coefficients using RI from 1981VO03 and EKC(586G)=  
+#G 0.095 10. This value was obtained by a simultaneous                    
+#G measurement of G-ray                                                   
+#G and conversion electron intensities using efficiency-calibrated        
+#G detectors in a known geometry. Uncertainties in the conversion         
+#G coefficients are statistical, combined with those due to the spectral  
+#G analysis. Additional systematic uncertainties of AP 10% and AP 50% for 
+#G values deduced from singles and from coincidence measurements,         
+#G respectively, also affect the measured conversion coefficients.        
+#G Detectors: high-purity germanium, SI(LI) with a mini-orange magnetic   
+#G focusing spectrometer (1987BO04).                                      
+#B           See 1975WE23 for measurements of B- spectra, singles, and in 
+#B coincidence with individual G rays. Mass-separated source.             
+#B Detectors: GE(LI), plastic scintillator.                               
+#L E$From 1981VO03, deduced using a least-squares fit to G-ray energies.  
+#L BAND(A)   3/2(631) GS ROTATIONAL BAND.                                 
+#L BAND(B)   5/2(633) ROTATIONAL BAND.                                    
+#L BAND(D)   3/2(761) ROTATIONAL BAND.                                    
+#L BAND(E)   1/2(631) ROTATIONAL BAND.                                    
+#L BAND(F)   [1/2(631) + 0-] OCTUPOLE VIBRATION.                          
+#L BAND(H)   1/2(770)? ROTATIONAL BAND.                                   
+#L BAND(I)   1/2(501) ROTATIONAL BAND.                                    
+#L J$From adopted levels. See also adopted levels for assignments of      
+#L parity doublet bands.                                                  
+#L T$From BGG(T) (1996AA01)                                               
+#G RI(Z),E(V)$From 226RA(N,G) E=thermal (1981VO03).                       
+#G E,RI      From 1981VO03, unless otherwise specified.                   
+#G E(X),RI(X)$From 1996AA01.                                              
+#P 0.0         1/2+              2.47 M    3              2477      90    
++G gamma 0.2706 4.74E-4
++B beta- 0.88 0.2
++G gamma 0.06426699999999999 0.14457
++G gamma 0.037899999999999996 0.006478
++G gamma 0.0761 0.0015010000000000002
++G gamma 0.1001 0.02686
++G gamma 0.10189400000000001 0.03555
++B beta- 0.868 0.08
++G gamma 0.120709 0.013904000000000001
++B beta- 0.851 0.03
++G gamma 0.13528 0.007110000000000001
++G gamma 0.15937 0.0022120000000000004
++B beta- 0.8 0.006
++G gamma 0.107306 0.005925000000000001
++G gamma 0.12317 0.001343
++G gamma 0.131 0.0011060000000000002
++G gamma 0.163563 0.015642
++B beta- 0.795 0.022000000000000002
++G gamma 0.135525 0.010270000000000001
++G gamma 0.175867 0.010270000000000001
++G gamma 0.206539 0.005293000000000001
++G gamma 0.29669999999999996 3.1600000000000004E-4
++B beta- 0.758 0.013000000000000001
++G gamma 0.2637 4.74E-4
++G gamma 0.384348 0.018012
++B beta- 0.736 0.005
++G gamma 0.35085 0.001975
++G gamma 0.36966899999999997 0.0316
++G gamma 0.4698 0.0010270000000000001
++B beta- 0.721 0.01
++B beta- 0.701 0.071
++G gamma 0.36286 0.0022120000000000004
++G gamma 0.422 7.109999999999999E-4
++G gamma 0.433824 0.05056000000000001
++G gamma 0.49839999999999995 7.109999999999999E-4
++B beta- 0.67 0.004
++B beta- 0.639 0.52
++G gamma 0.20085 0.005925000000000001
++G gamma 0.2043 0.029230000000000006
++G gamma 0.2372 5.530000000000001E-4
++G gamma 0.29155000000000003 0.007347
++G gamma 0.39157 0.025991
++G gamma 0.5147999999999999 0.018959999999999998
++B beta- 0.616 0.0043
++B beta- 0.471 0.003
++G gamma 0.8104 7.109999999999999E-4
++G gamma 0.993 0.0015800000000000002
++G gamma 1.005 7.109999999999999E-4
++B beta- 0.384 0.0014000000000000002
++G gamma 0.7953 7.109999999999999E-4
++G gamma 0.8468 0.0010270000000000001
++G gamma 1.217 0.0011849999999999999
++B beta- 0.341 0.0066
++G gamma 0.9085 5.530000000000001E-4
++G gamma 0.993 0.0015800000000000002
++G gamma 1.0484 9.48E-4
++G gamma 1.1474000000000002 4.74E-4
++G gamma 1.3424 0.0024490000000000002
++G gamma 1.4323 5.530000000000001E-4
++B beta- 0.337 8.0E-4
++G gamma 1.1474000000000002 4.74E-4
++G gamma 1.3543 3.1600000000000004E-4
++B beta- 0.332 0.0033
++G gamma 0.9835 3.9500000000000006E-4
++G gamma 1.3651 9.48E-4
++G gamma 1.4553 0.001975
++B beta- 0.328 0.022000000000000002
++G gamma 0.14930000000000002 0.0015010000000000002
++G gamma 0.7369 0.001343
++G gamma 0.9446 7.900000000000001E-4
++G gamma 0.993 0.0015800000000000002
++G gamma 0.9961 5.530000000000001E-4
++G gamma 1.3071 0.004424000000000001
++G gamma 1.3474000000000002 0.005293000000000001
++G gamma 1.3780999999999999 0.003871
++G gamma 1.4681 0.0027649999999999997
++B beta- 0.325 0.0051
++G gamma 0.7434 6.320000000000001E-4
++G gamma 1.1782000000000001 7.109999999999999E-4
++G gamma 1.1903 6.320000000000001E-4
++G gamma 1.3137 8.690000000000001E-4
++G gamma 1.3849 0.001896
++G gamma 1.4749 3.1600000000000004E-4
+

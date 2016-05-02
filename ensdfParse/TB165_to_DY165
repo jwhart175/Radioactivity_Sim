@@ -1,0 +1,53 @@
+#165DY    165TB B- DECAY (2.11 M)       1983GR02                  06NDS    200606
+#  165TB B- DECAY (2.11 M)       1983GR02                  06NDS    200606
+#H TYP=FUL$AUT=ASHOK K. JAIN AND ANWESHA GHOSH, BALRAJ SINGH$             
+#H CIT=NDS 107, 1075 (2006)$CUT=15-Apr-2006$                              
+#  1983GR02: 165TB produced in 252CF SF. Measured EG, IG using            
+#  ^Ge detectors                                                          
+#G E(G)$ Tentative |g ray                                                 
+#G M,MR$ FROM 'ADOPTED GAMMAS'                                            
+#L E$ FROM LEAST-SQUARES FIT TO EG'S                                      
+#L J$ FROM 'ADOPTED LEVELS'                                               
+#L BAND(A)$ 7/2[633]                                                      
+#L BAND(B)$ 1/2[521]                                                      
+#L BAND(C)$ 5/2[512]                                                      
+#L BAND(D)$ KPI=3/2+ BAND.                                                
+#L K-2 |g vibration built on 7/2[633], where K=7/2                        
+#L BAND(E)$ 3/2[521].                                                     
+#L Configuration taken from the 'adopted levels'.                         
+#L 1983Gr02 assigned this level as KPI=3/2+ based on                      
+#L 3/2[521]+(K-2 |g vibration built on 1/2[521]; K=1/2)                   
+#P 0.0         (3/2+)            2.11 M    10             2960      SY    
+TB165 DY165 beta- 2.96 126.6 1.0
++G gamma 0.5092 0.016
++G gamma 0.5355 0.02304
++G gamma 1.0388499999999998 0.01024
++G gamma 1.2876500000000002 0.032
++G gamma 1.39183 0.044160000000000005
++G gamma 1.39645 0.014079999999999999
++G gamma 1.4397 0.016640000000000002
++G gamma 1.5906 0.01024
++B beta- 1.1363800000000002 0.2
++B beta- 1.1136300000000001 0.3
++G gamma 0.05037 0.056319999999999995
++B beta- 1.1021500000000002 0.06
++G gamma 0.18408000000000002 0.0608
++B beta- 0.94277 0.06
++G gamma 0.53885 0.07232
++G gamma 0.4654 0.03136
++B beta- 0.5922999999999999 0.14400000000000002
++G gamma 1.17853 0.13248000000000001
++G gamma 1.22895 0.012159999999999999
++B beta- 0.5652999999999999 0.163
++G gamma 0.8262 0.03648
++G gamma 1.2192 0.0256
++G gamma 1.2416500000000001 0.03072
++G gamma 1.29205 0.0704
++B beta- 0.4093 0.106
++G gamma 1.2349 0.01472
++G gamma 1.6146500000000001 0.02688
++G gamma 1.6648 0.064
++B beta- 0.39280000000000004 0.017
++G gamma 1.63274 0.01728
++G gamma 1.7055 0.0096
+

@@ -1,0 +1,15 @@
+# 34P     34SI B- DECAY (2.77 S)        1977NA05                  12NDS    201206
+#  34SI B- DECAY (2.77 S)        1977NA05                  12NDS    201206
+#H TYP=FUL$AUT=NINEL NICA, BALRAJ SINGH$CIT=NDS 113, 1563 (2012)$         
+#H CUT=28-May-2012$                                                       
+#  1977Na05: measured E|g, I|g, |b|g coin, half-life                      
+#  Energy balance: total decay energy of 3166 keV {I1069} deduced         
+#  (using RADLIST code) from proposed decay scheme is in disagreement with
+#  the expected value of 4592 keV {I14}, indicating that decay scheme is  
+#  incomplete                                                             
+#B IB$ Only limits given with assumed no |b feeding to {+34}P g.s.        
+#B From shell-model considerations |b feeding to g.s. can vary from       
+#B zero to 52%                                                            
+#P  0           0+               2.77 S    20             4592      14    
+SI34 P34 beta- 4.592 2.77 1.0
+

@@ -1,0 +1,59 @@
+#109PD    109RH B- DECAY                1978KA10                  06NDS    200602
+#  109RH B- DECAY                1978KA10                  06NDS    200602
+#H TYP=FUL$AUT=JEAN BLACHOT$CIT=NDS 107, 355 (2006)$CUT=1-Aug-2005$       
+#  The decay scheme is that proposed by 1978Ka10, as are the |g-energies, 
+#  intensities, and coincidence relations. 1978Ka10 measured the |a(K)exp 
+#  for three low-energy gammas. The results indicate M1(+E2) for the      
+#  gammas. To calculate total transition intensity, the evaluators have   
+#  assumed an M1 multipolarity for the 50.6 and 59.0 gammas and           
+#  ignored the conversion for other gammas (all over 100 keV in energy).  
+#  Since nearly all the low-energy gammas must be M1 and/or E2, the       
+#  conversion can be ignored for E|g>{ 200 keV} when compared to the      
+#  normalization uncertainty. For gammas in the 150-keV energy range      
+#  the conversion increases the transition intensity by |?15%.            
+#  Other decay measurements: 1975Fe12, 1971Ri02, 1969WiZX, 1959Pi49.      
+#  The total average radiation energy released by {+109}Rh is 2678 keV    
+#  {i230} (calculated by evaluators using the computer program RADLST).   
+#  This value agrees with Q(|b{+-})={ 2596 keV {i12}} (2003Au03)          
+#G M         From |a(K)exp (1978Ka10) based on I|g/K| x ray ratio in coin 
+#G spectra and adopting E2 mult for the 113.4 |g                          
+#P 0.0         7/2+              80 S      2              2591      12    
+RH109 PD109 beta- 2.591 80.0 0.52
++G gamma 0.6179 0.002
++G gamma 1.072 0.001
++G gamma 0.11334999999999999 0.105
++G gamma 0.24503 0.024
++G gamma 0.15291 0.012
++G gamma 0.26626 0.005
++G gamma 0.27626 0.04
++G gamma 0.0251 6.0E-4
++G gamma 0.17803 0.141
++G gamma 0.29136 0.139
++G gamma 0.059 6.0E-4
++G gamma 0.21187999999999999 0.012
++G gamma 0.32543 0.027000000000000003
++G gamma 0.03534 0.024
++G gamma 0.0506 6.0E-4
++G gamma 0.08178 0.013000000000000001
++G gamma 0.32683 1.0
++G gamma 0.14981999999999998 0.011000000000000001
++G gamma 0.42613999999999996 0.14300000000000002
++G gamma 0.1663 0.001
++G gamma 0.20013 0.009000000000000001
++G gamma 0.37805 0.023
++G gamma 0.49169999999999997 0.006999999999999999
++G gamma 0.21381 0.01
++G gamma 0.21528 0.032
++G gamma 0.24916 0.10800000000000001
++G gamma 0.26433 0.006999999999999999
++G gamma 0.27420999999999995 0.002
++G gamma 0.29554 0.006
++G gamma 0.4273 0.005
++G gamma 0.5407000000000001 0.009000000000000001
++G gamma 0.32 0.001
++G gamma 0.5972999999999999 0.002
++G gamma 0.391 0.001
++G gamma 0.692 0.002
++G gamma 1.0417 0.002
++G gamma 1.318 0.002
+

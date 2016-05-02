@@ -1,0 +1,21 @@
+#197PO    201RN A DECAY (7.1 S)                                   05NDS    200503
+#  201RN A DECAY (7.1 S)                                   05NDS    200503
+#H TYP=FUL$AUT=HUANG XIAOLONG, ZHOU CHUNMEI$CIT=NDS 104, 283 (2005)$      
+#H CUT=1-Jan-2002$                                                        
+#A HF        r{-0}=1.5101(1993Wa04)                                       
+#  T1/2: from 1996Ta18. Other: 7.0 s {I4} (1971Ho01).                     
+#P 0            (3/2-)           7.1 S     8              6861      50    
+RN201 PO197 alpha 6.861 7.1 0.80
++A alpha 6.725 0.97
++A alpha 6.59 0.025
+
+#197PO    201RN A DECAY (3.8 S)                                   05NDS    200503
+#  201RN A DECAY (3.8 S)                                   05NDS    200503
+#H TYP=FUL$AUT=HUANG XIAOLONG, ZHOU CHUNMEI$CIT=NDS 104, 283 (2005)$      
+#H CUT=1-Jan-2002$                                                        
+#  Mass-separated Rn isotopes and Po daughter |a decays studied.          
+#A HF        r{-0}=1.5101(1993Wa04)                                       
+#  T1/2: from 1996Ta18. Other: 3.8 s {I4} (1971Ho01).                     
+#P 280       SY (13/2+)          3.8 S     1               6861     50    
++A alpha 6.773 1.0
+

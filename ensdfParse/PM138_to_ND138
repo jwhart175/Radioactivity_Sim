@@ -1,0 +1,96 @@
+#138ND    138PM EC DECAY (3.24 M)       1981DE38                  03NDS    200305
+#  138PM EC DECAY (3.24 M)       1981DE38                  03NDS    200305
+#H TYP=FUL$AUT=A.A. Sonzogni$CIT=NDS 98, 515 (2003)$CUT=1-Dec-2002$       
+#  Measured: G, CE (1981De38,1973VaYZ), GG, BG (1981De38)                 
+#  The experimental work of 1981DE38 presents 2 problems: a) Levels with  
+#  JPI=2+ to 6+ are populated with LOGFT=5.8-6.5, b) the measured         
+#  Q(EC)=5.4 MeV 2 is about 1.5 MeV lower than more recent measurements.  
+#  The first problem may be explained by either, a combined decay of two  
+#  138PM isomers, or by an incomplete decay scheme, that is, the higher   
+#  spin levels are not directly fed in the EC+B+ decay, they are instead  
+#  populated by unplaced G-rays.                                          
+#  Due to these problems, the only information from this data that        
+#  is adopted is the measured T and G multipolarities.  See also 138PM    
+#  Adopted Levels comments.                                               
+#E E$EB+=3900 200 coin with 520.9G (1981De38)                             
+#E           The value Q-=7.09 MEV (from B+ decay of isomer 138PM         
+#E (10 S)) suggests that the observed component of                        
+#E B+ spectra with EB+=3900 200 populates levels with E AP 2100 but not   
+#E the 2+ level 520.9, which is contrary to suggestion by 1981De38.       
+#G M$EKC are derived from simultaneous measurements                       
+#G of IG and CEK (1981De38)                                               
+#G E$No CE with E=25-100, no PM XK                                        
+#L J$Adopted values                                                       
+#P 0.2E+2    10                  3.24 M    5              7.00E+3   25    
+PM138 ND138 beta+ 7.0 194.4 1.0
++G gamma 0.8185 0.011000000000000001
++G gamma 1.2145 0.005
++G gamma 1.318 0.006
++G gamma 1.322 0.006
++G gamma 1.36 0.006
++G gamma 1.5766 0.009000000000000001
++G gamma 1.7365 0.006999999999999999
++G gamma 1.7898 0.006
++G gamma 1.8005 0.003
++G gamma 1.8511 0.005
++G gamma 1.9510999999999998 0.011000000000000001
++G gamma 2.0295 0.006
++G gamma 2.036 0.004
++G gamma 2.303 0.008
++G gamma 2.77 0.008
++G gamma 2.966 0.005
++G gamma 3.016 0.006
++G gamma 3.139 0.004
++G gamma 3.4799 0.01
++G gamma 0.5209 1.0
++G gamma 0.49310000000000004 0.21600000000000003
++G gamma 1.014 0.07400000000000001
++G gamma 0.729 0.37799999999999995
++G gamma 0.43739999999999996 0.10400000000000001
++G gamma 0.9306 0.051
++G gamma 0.786 0.009000000000000001
++G gamma 1.2791 0.11
++G gamma 0.5929 0.009000000000000001
++G gamma 0.829 0.071
++G gamma 0.7406 0.064
++G gamma 0.8844 0.008
++G gamma 1.6753 0.032
++G gamma 0.9721000000000001 0.045
++G gamma 0.8102999999999999 0.031
++G gamma 1.0116 0.038
++G gamma 1.2592 0.005
++G gamma 2.273 0.006
++G gamma 1.8029000000000002 0.017
++G gamma 1.0332000000000001 0.003
++G gamma 1.4709 0.008
++G gamma 1.3733 0.013000000000000001
++G gamma 1.3758 0.011000000000000001
++G gamma 1.2588 0.003
++G gamma 1.4604000000000001 0.006
++G gamma 1.5087000000000002 0.004
++G gamma 1.7448 0.011000000000000001
++G gamma 0.9445 0.008
++G gamma 1.0919 0.008
++G gamma 1.1345999999999998 0.025
++G gamma 1.4828 0.025
++G gamma 1.0975 0.012
++G gamma 1.1409 0.008
++G gamma 0.699 0.005
++G gamma 0.9707 0.008
++G gamma 1.1178 0.006999999999999999
++G gamma 1.1614 0.006999999999999999
++G gamma 1.5092999999999999 0.008
++G gamma 1.7110999999999998 0.015
++G gamma 2.242 0.013999999999999999
++G gamma 1.984 0.006
++G gamma 2.3328 0.003
++G gamma 2.4036 0.013000000000000001
++G gamma 2.605 0.03
++G gamma 2.841 0.005
++G gamma 2.138 0.003
++G gamma 2.7313 0.011000000000000001
++G gamma 3.4605 0.028999999999999998
++G gamma 2.7543 0.002
++G gamma 2.3693 0.006999999999999999
++G gamma 2.9629000000000003 0.009000000000000001
+

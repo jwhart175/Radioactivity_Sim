@@ -1,0 +1,25 @@
+# 78GA    78GA IT DECAY (LT 500 NS)                               09NDS    200910
+#  78GA IT DECAY (LT 500 NS)                               09NDS    200910
+#H TYP=FUL$AUT=AMEENAH R. FARHAN, BALRAJ SINGH$CIT=NDS 110, 1917 (2009)$  
+#H CUT=30-Jun-2009$                                                       
+#  Isomer with half-life of <500 ns discovered by                         
+#  C.M. Folden III et al., Phys. Rev. C 79, 064318 (2009) through         
+#  measurement of delayed |g rays in correlation with implanted           
+#  {+78}Ga nuclei.                                                        
+#  {+78}Ga produced through the {+9}Be({+238}U,X) reaction. {+238}U beam  
+#  produced at E=8.00 MeV/nucleon by the K500 and K1200  cyclotrons at the
+#  NSCL facility. Reaction products were separated using the A1900        
+#  fragment separator and detected using two parallel plate avalanche     
+#  counters, a Si |DE detector, four Si detectors, and a plastic          
+#  scintillator. Measurements of the time-of-flight (TOF), B|r and total  
+#  kinetic energy were used to determine the atomic number, mass number   
+#  and charge state of reaction products. The |g rays were detected with  
+#  an HPGe detector. Isomer half-life were measured using the time        
+#  difference between implantation events and HPGe events. Measured       
+#  particle spectra, E|g, I|g, (particle)|g-coincidence and half-life of  
+#  the isomeric state.                                                    
+#G RI$ Photons per 100 fragments.                                         
+#L J$ From adopted levels                                                 
+#P 560.0     10                  500 NS    LT                             
+GA78 GA78 IT 0.0 5.0E-7 1
+

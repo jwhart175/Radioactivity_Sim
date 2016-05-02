@@ -1,0 +1,21 @@
+#134TE    135SB B-N DECAY               1981HO07,1979KR03         04NDS    200410
+#  135SB B-N DECAY               1981HO07,1979KR03         04NDS    200410
+#H TYP=FUL$AUT=A.A. Sonzogni$CIT=NDS 103, 1 (2004)$CUT=31-Jul-2004$       
+#  1989HO08, 1981HO07:  measured EG, IG, GG, BETA-strength functions.     
+#  Deduced B-delayed neutron feedings                                     
+#  1979KR03 (also 1976KR18): measured delayed neutron energies and        
+#  intensities, GAMMA-ray spectra                                         
+#  Others: 1966TO02, 1968TO19, 1968TO18, 1974SH18, 1974FR09, 1976LU02,    
+#  1977RU04, 1978CR03, 1979KR03, 1980LU04, 1993RU01. See 1975IZ03,        
+#  1977RU10, 1982RU01, 1984MA39, 1989BRZI for analysis and compilations   
+#L E$From least-squares fit to E|g                                        
+#L J$From adopted levels                                                  
+#G E$From 1989HO08                                                        
+#G RI$From 1989HO08, relative to RI(1127.0G in 135TE)=100                 
+#G M$From adopted gammas                                                  
+#DNE$Recoil-corrected energies from 1979KR03                              
+#DNIP$From 1979KR03, normalized so that total                             
+#DN reported neutron feeding to first 2+, 4+ and 6+ states                
+#DN is 38%, based on 62% 6 (1989HO08) as the neutron feeding of GS.       
+#P 0.0         (7/2+)            1.68 S    2               4.78E3   10    
+

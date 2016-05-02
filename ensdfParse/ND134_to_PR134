@@ -1,0 +1,22 @@
+#134PR    134ND EC DECAY                1977KOYN,1977BEWR         04NDS    200410
+#  134ND EC DECAY                1977KOYN,1977BEWR         04NDS    200410
+#H TYP=FUL$AUT=A.A. Sonzogni$CIT=NDS 103, 1 (2004)$CUT=31-Jul-2004$       
+#L           The decay scheme is based on GG-coincidence measurements.    
+#L Preliminary data. Other: 1975BaXC                                      
+#E LOGFT$Obtained assuming X=0                                            
+#L J$From adopted levels                                                  
+#G E         0.5 KEV uncertainty assigned to EG                           
+#N 0.59                  1.0       1.0                                    
+#N NR        From SUMOF TI=100 to GS (assuming no EC+B+ feeding to GS)    
+#P 0.0          0+               8.5 M     15             2870      40    
++G gamma 0.8715 0.0087
++G gamma 0.9482 0.01
++G gamma 1.0095 0.0087
++G gamma 1.0643 0.0077
++G gamma 1.1265 0.0060999999999999995
++G gamma 1.2007999999999999 0.0043
++G gamma 1.2877 0.0038
++G gamma 1.3857000000000002 0.0034000000000000002
++G gamma 1.482 0.0017000000000000001
++G gamma 1.588 9.0E-4
+

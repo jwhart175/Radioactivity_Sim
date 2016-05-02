@@ -1,0 +1,37 @@
+#129SN    129SN IT DECAY (3.40 US)      2002GE07,2008LO07         14NDS    201408
+#  129SN IT DECAY (3.40 US)      2002GE07,2008LO07         14NDS    201408
+#H TYP=FUL$AUT=JANOS TIMAR AND ZOLTAN ELEKES, BALRAJ SINGH$               
+#H CIT=NDS 121, 143 (2014)$CUT=31-May-2014$                               
+#G E,M$From Adopted Gammas                                                
+#G RI$From 2008Lo07                                                       
+#L E,J,T$From Adopted Levels                                              
+#P 1761.6    10(19/2+)           3.40 US   13                             
+
+#129SN    129SN IT DECAY (217 NS)       2008LO07                  14NDS    201408
+#  129SN IT DECAY (217 NS)       2008LO07                  14NDS    201408
+#H TYP=FUL$AUT=JANOS TIMAR AND ZOLTAN ELEKES, BALRAJ SINGH$               
+#H CIT=NDS 121, 143 (2014)$CUT=31-May-2014$                               
+#  2008Lo07: {+129m}Sn produced in the reactions: {+9}Be({+238}U,X)       
+#  E=750 MeV/nucleon and {+9}Be({+136}Xe,X) E=600 MeV/nucleon. Measured   
+#  delayed |g, E|g, I|g, |g|g, (ion)|g coin using eight Cluster Ge        
+#  detectors of RISING array with BGO Compton and bremsstrahlung          
+#  suppression. Particles identified using FRS fragment separator,        
+#  time-of-flight and energy loss measurements.                           
+#  2011Pi05: {+136}Xe beam with E=750 MeV/nucleon impinged on a 4 g/cm{+2}
+#  thick {+9}Be target within the RISING campaign at GSI using            
+#  15 large-volume Ge cluster detectors. Measured E|g, I|g, |g|g, |g|g(t).
+#  Comparison with shell model-calculations.                              
+#G E$Uncertainties assigned as 0.3 keV based                              
+#G on a general statement by 2008Lo07.                                    
+#G E(A)$From 2002Ge07, not detected by 2008Lo07 due to energy             
+#G limitations of the recorded |g-ray spectra                             
+#G M$From Adopted Gammas                                                  
+#L E$From least-squares fit to E|g data                                   
+#L T$Measured by 2008Lo07 using delayed coin technique (|g(t)).           
+#L E(A)$Member of h{-11/2}{+-3} multiplet                                 
+#L E(B)$Member of d{-3/2}{+-1}h{-11/2}{+-2} multiplet                     
+#L J,T$From Adopted Levels, unless otherwise specified                    
+#P 2552.6    15(27/2-)           217 NS    19                             
+SN129 SN129 IT 0.0 2.17E-7 1.0
++G gamma 0.605 0.97
+

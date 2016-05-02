@@ -1,0 +1,27 @@
+#188IR    188PT EC DECAY (10.2 D)       1978EL11                  02NDS    200204
+#  188PT EC DECAY (10.2 D)       1978EL11                  02NDS    200204
+#H TYP=FUL$AUT=BALRAJ SINGH$CIT=NDS 95, 387 (2002)$CUT=26-Feb-2002$       
+#  1978EL11: Measured G, GG, CE G, ALPHA                                  
+#  Others:                                                                
+#  G, GG: 1970BA53, 1970BA10, 1969PL07, 1968HA23, 1967KO22, 1965JA06      
+#  CE: 1963PR12, 1962CA27, 1964SA30, 1962KR05, 1961KR02, 1958FIZZ         
+#  CE G(T), GG(T): 1969MA37, 1970BA53, 1965JA06, 1965KR03                 
+#  T1/2(188PT GS): 1963GR08, 1963KA17, 1961KR02, 1960AL20,                
+#  1955SM42, 1954NA25                                                     
+#G           Production cross section in 197AU(PI,X): 1979Ka28            
+#G           I(XK)=506 50 (1978EL11), 486 50 (1969PL07), 520 78 (1968HA23)
+#L J$From adopted levels                                                  
+#G M$From CE data (1963PR12), data normalized to 187.6 treated as M1.     
+#G Small E2 mixture in this transition does not affect the normalization  
+#G significantly                                                          
+#L E$From least-squares fit to EG's                                       
+#L T$From 1969MA37. G CE (T) and G AUGER electrons(T)                     
+#L others: 1970BA53, 1965JA06, and 1965KR03                               
+#P 0           0+                10.2 D    3               506      7     
++B beta+ 6.580000000000001E-4 0.002
++B beta+ 7.711E-4 0.0
++B beta+ 7.645999999999999E-4 0.03
++B beta+ 7.423999999999999E-4 0.05
++B beta+ 7.4E-4 0.0019
++B beta+ 6.919999999999999E-4 0.0022
+

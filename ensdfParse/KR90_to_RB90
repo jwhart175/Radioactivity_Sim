@@ -1,0 +1,58 @@
+# 90RB    90KR B- DECAY                 1979DU04                  97NDS    199801
+#  90KR B- DECAY                 1979DU04                  97NDS    199801
+#H TYP=FUL$AUT=E. BROWNE$CIT=NDS 82, 379 (1997)$CUT=1-May-1997$           
+#  Activity from 235U(N,F), mass separation.                              
+#  Measured EG, IG, CE, GG coin. Magnetic spectrometer, GELI (1979Du04).  
+#  Measured IG, IB. GELI, 4PI plastic scintillators (1976Wo05).           
+#  For a discussion of the differences between decay schemes of 1979Du04  
+#  and 1970Ma11, see 1979Du04.                                            
+#  Measured EG, IG(T) from n induced fission. Anti-Compton and curved     
+#  crystal spectrometers. EG values given as comments include             
+#  statistical and systematic uncertainties (1979Bo26).                   
+#  Others: 1962Wa34, 1970Ma11, 1974Gr29                                   
+#  All data are from 1979Du04, except as noted.                           
+#L J,T       See adopted levels.                                          
+#B IB        IB(g.s.) from 1976Wo05 from absolute B counting.             
+#B IB for excited states obtained by TI imbalance at each level,          
+#B assuming no B- feeding to 106.9 level from spin difference.            
+#G RI        Relative photon intensity.                                   
+#G E(A)      The 106-keV and 121-keV doublets were resolved by G and      
+#G conversion electron measurements (1979Du04).                           
+#N 0.039     3           1.0       1.0                                    
+KR90 RB90 beta- 10.35 1.92 1.0
+#N                                                                     3  
+#N NR$from SUMOF RI(1 + ALPHA) (GS) + RI(1 + ALPHA) (isomer)=100 - 29 4%, 
+#N where IB(GS)=29% 4 was measured by 1976Wo05. Normalization factor      
+#N NR=0.047 3 given by 1976Wo05 is incorrect. It was possibly deduced     
+#N without including the sum of G-ray transition intensities to the       
+#N 106.9-KEV isomer. NR=0.039 3 deduced by evaluators agree with          
+#N NR=0.0389 27 from 1975Ko16.                                            
+#P 0                   0+        32.32 S   9              4392      17    
++B beta- 1.935 0.29
++B beta- 1.877 0.015
++B beta- 1.826 0.002
++B beta- 1.764 0.0029
++B beta- 1.64 0.002
++B beta- 1.611 0.001
++B beta- 1.593 0.002
++B beta- 1.58 0.0034000000000000002
++B beta- 1.533 0.0015
++B beta- 1.488 0.0058
++B beta- 1.265 8.2E-4
++B beta- 1.236 2.9E-4
++B beta- 1.129 0.0018
++B beta- 1.086 0.65
++B beta- 1.029 0.0034999999999999996
++B beta- 0.923 0.0229
++B beta- 0.856 0.001
++B beta- 0.781 0.003
++B beta- 0.488 0.0207
++B beta- 0.484 0.0069
++G gamma 2.1609000000000003 3.159E-4
++B beta- 0.421 0.0019
++B beta- 0.321 3.5999999999999997E-4
++B beta- 0.26 0.00105
++B beta- 0.228 0.0017000000000000001
++B beta- 0.162 6.900000000000001E-4
++B beta- 0.161 0.00148
+

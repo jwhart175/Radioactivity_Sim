@@ -1,0 +1,57 @@
+# 95RH    95PD EC DECAY (13.3 S)        1982NO06,1982KU15         10NDS    201010
+#  95PD EC DECAY (13.3 S)        1982NO06,1982KU15         10NDS    201010
+#H TYP=FUL$AUT=S. K. Basu, G. Mukherjee, A. A. Sonzogni$                  
+#H CIT=NDS 111, 2555 (2010)$CUT=30-Jun-2009$                              
+#  1982Ku15: {+58}Ni({+40}Ca,n2p) E=4 MeV/^A; measured T1/2, EG, IG,      
+#  B-delayed EP, IP, BG-, P(X-ray)-coin.                                  
+#  All data are from 1982Ku15, except as noted. The decay scheme is from  
+#  1982Ku15 and is an extension of that proposed by 1982No06              
+#  Published data on the 95PD(GS) EC+B+ Decay is not available, only      
+#  data on the decay of the 95PD isomer is found.                         
+#  CC$ FROM BrIcc v2.2a (13-Jul-2008) 2008Ki07, "Frozen Orbitals" appr.   
+#E TI,LOGFT$Approximate values due to the large number of unplaced        
+#E gammas.                                                                
+#G M$From the adopted gammas                                              
+#G E(A)$Unweighted average of 168.8 {I1} (1982Ku15) and 169.0 {I3}        
+#G (1982No06) and 1351.1 {I1} (1982Ku15) and 1350.7 {I3} (1982No06),      
+#G respectively                                                           
+#L E$From least-squares fit to E|g's.                                     
+#L J,T$From the adopted levels, except as noted                           
+#P 1875.3    4 (21/2+)           13.3 S    3              8189      SY    
+PD95 RH95 beta+ 8.189 13.3 0.9888
++G gamma 0.3476 0.011000000000000001
++G gamma 0.6406000000000001 0.004699999999999999
++G gamma 0.7319 0.0059
++G gamma 0.7882 0.0126
++G gamma 0.7947000000000001 0.0032
++G gamma 0.8398 0.0031
++G gamma 0.9357000000000001 0.0052
++G gamma 0.9571000000000001 0.0121
++G gamma 1.111 0.0137
++G gamma 1.1442999999999999 0.01
++G gamma 1.213 0.0044
++G gamma 1.2408 0.0077
++G gamma 1.2751 0.0245
++G gamma 1.3635 0.0052
++G gamma 1.408 0.0064
++G gamma 1.4247999999999998 0.025
++G gamma 1.4438 0.006
++G gamma 1.7459 0.004
++G gamma 1.7645 0.0064
++G gamma 1.7932000000000001 0.012199999999999999
++G gamma 1.35106 1.0
++G gamma 0.7166 0.6709999999999999
++G gamma 0.1688 0.124
++G gamma 0.9132 0.129
++G gamma 0.185 0.062
++G gamma 0.38180000000000003 0.483
++G gamma 0.524 0.106
++G gamma 0.8599 0.0044
++G gamma 1.0282 0.027200000000000002
++G gamma 0.6802999999999999 0.081
++G gamma 1.0051 0.0381
++G gamma 1.6005999999999998 0.0518
++G gamma 1.7705 0.0088
++G gamma 1.8988 0.025
++G gamma 1.927 0.004
+

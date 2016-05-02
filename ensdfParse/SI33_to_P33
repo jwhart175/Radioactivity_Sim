@@ -1,0 +1,44 @@
+# 33P     33SI B- DECAY (6.11 S)        1973GO33                  11NDS    201105
+#  33SI B- DECAY (6.11 S)        1973GO33                  11NDS    201105
+#H TYP=FUL$AUT=JUN CHEN AND BALRAJ SINGH$CIT=NDS 112, 1393 (2011)$        
+#H CUT=31-Mar-2011$                                                       
+#  1973Go33: {+33}Si produced by {+18}O({+18}O,2pn){+33}Si reactions using
+#  a beam of 42 MeV {+18}O ions bombarding a 3 mg/cm{+2} thick Ta{-2}O{-5}
+#  target, enriched to 99% in {+18}O. The target then was transferred to  
+#  a remotely located counting station. Measured E|g,I|g.                 
+#  Deduced levels, I|b, log| {ift}. Detectors: a 7.6 cm diameter by 5.1 cm
+#  deep NE 102 detector and a 60 cm{+3} Ge(Li) detector. Also see         
+#  1972Go09 and 1972Go32 for the same experiments                         
+#  2002Mo29: {+33}Mg and {+33}Al produced by projectile fragmentation of  
+#  140 MeV/A {+40}Ar{+18+} in a 1455 mg/cm{+2} beryllium target using the 
+#  new Coupled Cyclotron Facility at NSCL. A double-sided silicon strip   
+#  detector (DSSD) as a monitor of |b-decay activity and two HPGe counters
+#  for detecting |g-rays, FWHM=3.5 ekV at 1.33 MeV. Measured E|g, I|g,    
+#  T{-1/2}. Deduced levels, transition intensities.                       
+#G E$From level-energy differences, unless otherwise indicated            
+#G M,MR$From Adopted Gammas                                               
+#L J$ From Adopted Levels                                                 
+#L E(A)$Excitation energy determined from |g-ray                          
+#L energies in 1973Go33. Others were quoted from 1973Po02 by the author of
+#L 1973Go33                                                               
+#P        0    3/2+              6.11 S    21                  5845 16    
++B beta- 2.6933000000000002 0.937
++B beta- 1.9917 0.0022
++G gamma 1.4315 0.0066809999999999994
++B beta- 1.7888 0.053
++G gamma 0.4158 0.003417
++B beta- 1.4541 0.004699999999999999
++G gamma 2.5375 0.004743
++B beta- 1.0997999999999999 5.600000000000001E-4
++B beta- 0.9975 0.0014000000000000002
++B beta- 0.9327000000000001 2.6E-4
++B beta- 0.7359 7.000000000000001E-4
++B beta- 0.669 4.0E-4
++B beta- 0.6547999999999999 1.6E-4
++B beta- 0.37239999999999995 7.000000000000001E-4
++B beta- 0.2906 7.7E-4
++G gamma 3.2 7.65E-4
++B beta- 0.2319 0.0011
++G gamma 3.342 6.119999999999999E-4
++G gamma 3.758 4.59E-4
+

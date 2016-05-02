@@ -1,0 +1,281 @@
+#172YB    172LU EC DECAY (6.70 D)       1978BO18,1978HN01,1984KR1495NDS    199509
+#  172LU EC DECAY (6.70 D)       1978BO18,1978HN01,1984KR1495NDS    199509
+#H TYP=FUL$AUT=BALRAJ SINGH$CIT=NDS 75,199 (1995)$CUT=31-May-1995$        
+#  172LU has been formed in many different reactions such as:             
+#  (p,^X) spallation reactions on TA and PB (1978Bo18,1978Hn01) followed  
+#  by chemical or mass separation; 169TM(A,N) (1980En01); from 172HF      
+#  parent produced by YB(A,XN) (1970Se05); 172YB(D,2N) (1976Kr04);        
+#  172YB(P,N) (1968Ka01), etc.                                            
+#  1978Bo18 (also 1978Bo19): measured G, CE, GG                           
+#  1978Hn01: measured G                                                   
+#  1970Se05 (also 1970SeZT): G                                            
+#  1968PrZW: G, GG, CE                                                    
+#  1984Kr14: G(THETA,TEMP), oriented nuclei. 1993KrZX report anisotropy   
+#  for 410.3G, 929.1G, and 2083.4G                                        
+#  Other measurements:                                                    
+#  G: 1993He18, 1980En01, 1978Me13, 1978BaYJ, 1976Sh26, 1976Kr04,         
+#  1974Ba56, 1972Dz02, 1972Ba50, 1969Mo26, 1968Ka01, 1967Kl01, 1967Co26,  
+#  1967Co20, 1966Vr02, 1965Ka17, 1961Ha23, 1960Wi11, 1960Bu27, 1959Di44   
+#  CE: main data are reported by 1972Ba50, 1968Ka01,                      
+#  1964Dz01, 1964Ka07, 1961Ha23, 1960Tu01 and 1960Pl03. Others: 1980Bu28, 
+#  1979Bu21, 1978Me13, 1977Ka30, 1974Ba56, 1974Ba21, 1972Dz02, 1969Vu01,  
+#  1967Kl01, 1967Co26, 1966Ba51, 1964Dz04, 1963Tu01, 1962Dz05, 1962Br40,  
+#  1960Io02, 1960Io01, 1960Dz02, 1960Ab06, 1959Di44, 1957Bo61             
+#  GG: 1980Pe16, 1978BaYJ, 1967Kl01, 1967Dz10, 1962Va07, 1960Wi11,        
+#  1959Di44                                                               
+#  cece: 1960Dz08                                                         
+#  GG(T): 1980En01, 1963He01                                              
+#  GCE(T): 1970Ra18, 1968Ka01                                             
+#  cece(t): 1969Vu01                                                      
+#  AUGER electrons: 1982Ar22, 1965Ka17                                    
+#  BETA-strength functions: 1981By04 (total absorption), 1979Mi17         
+#  (analysis)                                                             
+#  G(THETA,TEMP): 1983No10, 1976Kr04, 1985Fi06                            
+#  GG(lin pol): 1967We08, 1967Bl01, 1963St09,                             
+#  G(lin pol,TEMP): 1983No10                                              
+#  GG(THETA): 1982BuZH, 1972Be94, 1971Wa03, 1965Gu01, 1963St09            
+#  GCE(THETA), cece(THETA): 1969Vu01, 1967Kl01                            
+#  GG(THETA,T): 1970Ra18, 1969Fo07, 1962Bl01                              
+#  GG(THETA,H): 1987Bu15, 1972Be94, 1971Wa03, 1970He17, 1965Gu01, 1964Gu01
+#  GG(THETA,H,T): 1969Li08                                                
+#  T1/2(172LU isotope): 1960Wi11, 1967Co26, 1967Co20, 1967Ba57, 1963Ra14, 
+#  1962Bo12, 1960Dz02, 1960Bu27, 1960Wi06, 1951Wi08                       
+#G           The following G rays with EG (RI) assigned by 1970Se05 are   
+#G omitted here due to lack of confirmation by other studies              
+#G (1978Bo18,1978Hn01,1976Kr04). Some of these may be sum lines as pointed
+#G out by 1976Sh26:                                                       
+#G 137.94 (0.059), 142.63 (0.158), 233.46 (0.54), 241.03 (0.11),          
+#G 383.1 (0.09), 562.1 (0.19), 862.4 (0.52), 953.01 (0.69),               
+#G 963.7 (0.27), 979.7 (0.22), 1061.83 (0.17), 1145.38 (0.80),            
+#G 1152.97 (0.32), 1179.3 (0.20), 1400.2 (0.32), 1592.88 (0.13).          
+#G           The following lines with EG(CEK) reported by 1978Me13        
+#G in CE study are omitted due to lack of confirmation in GAMMA-ray       
+#G studies and other electron studies: 557.5 (0.38 20), 718.8 (0.9 3),    
+#G 745.0 (0.43 21), 833.1 (0.55 22), 1448.2 (0.05 3), 1452.4 (0.06 3),    
+#G 1501.4 (0.026 18)                                                      
+#G           EKC's are generally from 1978Bo18. The electron intensities  
+#G are given under comments (only in ENSDF) and are relative to 100       
+#G for 1094G. Typically ECC=(ICE/IG)0.00275                               
+#L E$From least-squares fit to EG's                                       
+#L J$From adopted levels.                                                 
+#G E,RI$From weighted averages of 1978Bo18, 1978Hn01 and 1970Se05         
+#G E(D)$From GG data (1978BaYJ)                                           
+#G E(P),RI(P)$From 1978Hn01 only                                          
+#G M$From CE data (generally from 1978Bo18, but other data have also      
+#G been considered). The CE data were normalized (by 1978Bo18) to those   
+#G for 662G from 137CS decay (KC(M4)=0.0905). Other studies used          
+#G different normalization procedures: 1972Ba50 used 1093.6G assumed as E2
+#G and 1968Ka01 used 181.5G (mult=E2)                                     
+#G MR$From G(THETA,TEMP) (1984Kr14) when value is given with sign(MR).    
+#G The values without sign(MR) are from ECK (generally from 1978Bo18)     
+#G M(R)$From subshell ratios: L1/L2=0.0661 7, L2/L3=0.995 7 (1979Bu21).   
+#G L1/L2=0.069 3, L1/L3=0.068 3, L2/L3=0.998 35, M1/M2=0.057 2,           
+#G M2/M3=0.97 1 (1968Ka01).                                               
+#G L3/M3=3.95 8, M1/M3=0.0595 18, M2/M3=0.946 13, (M4+M5)/M3=0.0187 26,   
+#G N1/M3=0.011 4, N2/M3=0.226 7, N3/M3=0.227 6, O1/M3=0.010 3,            
+#G (O2+O3)/M3=0.048 3, (O1+O2+O3)/M3=0.058 4, (N1+N2+N3)/(O1+O2+O3)=      
+#G 7.9 6 (1980Bu28). Others: 1968Ka01, 1961Ha23, 1962Br40, 1960Tu01,      
+#G 1960Pl03, 1960Io01. EL2C=2.8 1                                         
+#L BAND(A)$ KPI=0+ GS BAND                                                
+#L BAND(B)$ KPI=0+ BETA BAND                                              
+#L BAND(C)$ KPI=3+ BAND.                                                  
+#L two-quasiparticle state.                                               
+#L BAND(D)$ KPI=1- OCTUPOLE BAND                                          
+#L BAND(E)$ KPI=2+ GAMMA BAND                                             
+#L BAND(F)$ KPI=0+ BAND                                                   
+#L BAND(G)$ KPI=2+                                                        
+#L BAND(H)$ KPI=(4-) BAND                                                 
+#L BAND(I)$ KPI=3+ BAND                                                   
+#L BAND(J)$ KPI=2- OCTUPOLE BAND                                          
+#L BAND(K)$ BAND 1                                                        
+#L BAND(L)$ KPI=4+ BAND                                                   
+#L BAND(M)$ KPI=3+ BAND                                                   
+#L BAND(N)$ KPI=4+ BAND                                                   
+#G           ---------------------------------------------------------    
+#G                       A2 values from G(THETA,TEMP)                     
+#G                        (A4 AP 0 for all transitions)                   
+#G               EG        1984Kr14      1976Kr04      1983No10           
+#G              79                     0.21 5 b)                          
+#G              91                     0.67 5                             
+#G             181        -0.44 4     -0.45 3 a)                          
+#G             203        -0.44 6     -0.44 4 a)  -0.420 20               
+#G             247                    -0.45 8 a)                          
+#G             265         0.02 9      0.14 6 b)  -0.136 7                
+#G             270        -0.49 7     -0.59 3     -0.57 3                 
+#G             280        -0.41 11    -0.41 7 a)  -0.37 7                 
+#G             324        -0.65 8     -0.59 3     -0.573 7                
+#G             330                    -0.53 5                             
+#G             367                    -0.32 12     0.20 19                
+#G             372        -0.70 4     -0.80 3     -0.655 13               
+#G             378        -0.41 3     -0.42 3     -0.326 22               
+#G             400         0.05 9      0.15 6                             
+#G             410        -0.71 4     -0.79 3     -0.80 3                 
+#G             432        -0.46 5     -0.53 3     -0.486 10               
+#G             438         0.28 14                                        
+#G             482        -0.36 5     -0.49 7     -0.415 23               
+#G             486        -0.66 10    -0.57 7     -0.41 3                 
+#G             490        -0.47 3     -0.53 4     -0.46 3                 
+#G             524        -0.62 6                                         
+#G             528        -0.441 23   -0.48 3     -0.405 19               
+#G             536        -0.31 5     -0.42 6     -0.163 4                
+#G             540        -0.42 6     -0.41 5     -0.30 3                 
+#G             551        -0.20 12    -0.32 11                            
+#G             577        -0.13 11     0.50 15                            
+#G             585         0.20 16     0.39 10                            
+#G             595        -0.55 17    -0.50 10                            
+#G             607        -0.33 14    -0.34 14 a)                         
+#G             631         0.49 27     0.23 7                             
+#G             682         0.32 11     0.31 7                             
+#G             697         0.138 15    0.142 10    0.121 2                
+#G             709        -0.48 5     -0.24 5                             
+#G             723        -0.29 9                                         
+#G             810        -0.38 3     -0.421 17   -0.421 17 a)            
+#G             816        -0.52 4     -0.54 4     -0.373 19               
+#G             901         0.186 17    0.187 8     0.187 8  a)            
+#G             912        -0.23 3     -0.318 21   -0.216 12               
+#G             929         0.415 16    0.422 17    0.41 4                 
+#G             968        -0.68 15                                        
+#G            1003         0.21 5      0.250 19    0.293 3                
+#G            1022        -0.54 6     -0.50 5     -0.459 23               
+#G            1041                    -0.52 7                             
+#G            1081        -0.27 10    -0.31 5                             
+#G            1094         0.35 3      0.46 3      0.345 1                
+#G            1113         0.62 7      0.75 7                             
+#G            1184        -0.50 8     -0.29 13 a)                         
+#G            1289        -0.16 11                                        
+#G            1387         0.34 4      0.48 5                             
+#G            1398         0.28 8                                         
+#G            1403         0.42 5      0.35 3                             
+#G            1441         0.52 5      0.46 4                             
+#G            1466        -0.66 13    -0.67 10 a)                         
+#G            1470         0.13 8      0.13 4                             
+#G            1489         0.30 6      0.29 3                             
+#G            1543         0.18 5      0.29 4                             
+#G            1579        -0.49 20                                        
+#G            1584        -0.158 21   -0.229 17                           
+#G            1603        -0.09 6     -0.15 6                             
+#G            1622        -0.232 21   -0.225 19                           
+#G            1666        -0.26 5     -0.29 5                             
+#G            1670        -0.46 5     -0.43 5 a)                          
+#G            1724        -0.47 7     -0.46 3 a)                          
+#G            1813         0.14 7      0.25 5                             
+#G            1915        -0.23 3     -0.27 3                             
+#G            1994                    -0.11 6                             
+#G            2083        -0.67 11    -0.63 9                             
+#G            2096        -0.68 10                                        
+#G                                                                        
+#G            a) transition used for determination of orientation         
+#G               coefficient                                              
+#G            b) from 4 MILLIK data. Sign of A2 is negative               
+#G               in the 20 MILLIK data                                    
+#G                                                                        
+#G                                                                        
+#G                                                                        
+#G                                                                        
+#G                                                                        
+#G                                                                        
+#G           ---------------------------------------------------------    
+#G           ---------------------------------------------------------    
+#G                  G(lin pol,TEMP) data (1983No10)                       
+#G            EG       pol          EG       pol                          
+#G            203     -0.55 15      528     -0.209 5                      
+#G            265     -0.15 8       536     -0.66 33                      
+#G            270     -0.25 11      540     -0.10 2                       
+#G            280     -0.21 10      697      0.14 9                       
+#G            324     -0.10 3       810     -0.15 9                       
+#G            373      0.24 7       816     -0.28 3                       
+#G            378      0.32 8       901      0.28 5                       
+#G            410      0.45 22      912      0.17 10                      
+#G            433      0.23 4       929      0.15 2                       
+#G            482     -0.16 30     1003      0.38 4                       
+#G            486     -0.25 20     1022     -0.27 6                       
+#G            490     -0.06 35     1094     -0.11 3                       
+#G           ---------------------------------------------------------    
+#G           ---------------------------------------------------------    
+#G              A2 and A4 values from GG(THETA)                           
+#G           Level  ^Cascade      A2       A4       ^Reference            
+#G           1172   912-181   0.337 7  -0.150 12  (1982BuZH)              
+#G                 1094-79   -0.387 6  -0.061 9   (1982BuZH)              
+#G                           -0.386 16 -0.081 16  (1971Wa03)              
+#G                           -0.410 10 -0.042 12  (1967Bl01)              
+#G           1263    91-1094  0.356 12  0.010 20  (1982BuZH)              
+#G                            0.354 16  0.06 3    (1971Wa03)              
+#G                            0.420 20  0.012 25  (1967Bl01)              
+#G                 1003-181  -0.126 4   0.150 8   (1982BuZH)              
+#G           1376   203-1094 -0.081 4   0.013 9   (1982BuZH)              
+#G           1641   377-91   -0.294 15  0.00 3    (1982BuZH)              
+#G           1663  1402-181  -0.235 14 -0.144 24  (1982BuZH)              
+#G           1701   528-1094 -0.173 17  0.02 3    (1982BuZH)              
+#G                 1440-181  -0.134 18 -0.14 3    (1982BuZH)              
+#G           2073   697-203  -0.050 22 -0.01 4    (1982BuZH)              
+#G                  697-1094 -0.095 10 0.008 17   (1982BuZH)              
+#G                  810-91   -0.38 8    0.04 5    (1971Wa03)              
+#G                  810-1094 -0.095 10  0.008 17  (1982BuZH)              
+#G                  901-1094  0.023 8  -0.015 13  (1982BuZH)              
+#G           Others: 1965Gu01, 1963St09                                   
+#G           ---------------------------------------------------------    
+#G           ---------------------------------------------------------    
+#G                 GCE(THETA), cece(THETA) data (1969Vu01)                
+#G            Level       ^Cascade              ^A{-2}^G{-2}              
+#G             260      181(CEL)-79(CEL)   0.037 6                        
+#G                      181(CEK)-79(CEL)   0.040 4                        
+#G                      181G-79(CEL)         0.032 4                      
+#G            1172      912(CEK)-181(CEK)  0.310 15                       
+#G                      912(CEK)-181(CEL)  0.309 22                       
+#G                      912G-181(CEK)        0.465 9                      
+#G                      912G-181(CEL)        0.415 19                     
+#G                     1094(CEK)-79(CEL)  -0.109 5                        
+#G                                            -0.115 12 (1967Kl01)        
+#G                     1094G-79(CEL)        -0.123 4                      
+#G                                            -0.136 14 (1967Kl01)        
+#G           ---------------------------------------------------------    
+#G           ---------------------------------------------------------    
+#G                 X-RAY intensities (1978Bo18)                           
+#G                    (relative to 100 for 1093.6G)                       
+#G             Transition        ^Energy   ^Intensity                     
+#G              XKA1         51.35      45.7 9                            
+#G              XKA2         52.39      79.2 15                           
+#G              XKB1         59.3       25.2 5                            
+#G              XKB2         61.0        6.51 13                          
+#G           ---------------------------------------------------------    
+#G                                                                        
+#G                                                                        
+#N 0.625     25 0.625  25  1.0      1.0                                   
+#N NR$SUMOF (TI of transitions to 78.7 level + TI of transitions          
+#N to GS (except 78.7G))=100. NR=0.625 gives calculated I(kx)=110         
+#N (1986BrZQ) compared to the observed intensity of 98 (1978Bo18)         
+#N                                                                     3  
+#P 0.0         4-                   6.70 D  4              2519.3   24    
++G gamma 0.18159999999999998 1.0
++G gamma 1.0936199999999998 0.41700000000000004
++G gamma 0.20345 0.1063
++G gamma 0.6251 0.0025
++G gamma 0.99742 0.026699999999999998
++G gamma 0.1875 0.0014000000000000002
++G gamma 1.01763 0.0219
++G gamma 0.26473 0.0058
++G gamma 0.15599000000000002 0.004699999999999999
++G gamma 0.29028 0.030299999999999997
++G gamma 0.0658 0.0012
++G gamma 0.1963 0.0037
++G gamma 0.33047000000000004 0.0209
++G gamma 0.5586 0.005699999999999999
++G gamma 0.6023999999999999 0.0045000000000000005
++G gamma 1.6785 0.0019
++G gamma 1.7167000000000001 0.0040999999999999995
++G gamma 0.1391 0.0051
++G gamma 0.25930000000000003 5.600000000000001E-4
++G gamma 1.7427000000000001 0.0068000000000000005
++G gamma 0.288 0.0045000000000000005
++G gamma 0.33167 0.0147
++G gamma 0.3163 0.0025
++G gamma 0.15791999999999998 0.0066
++G gamma 0.29710000000000003 0.0019
++G gamma 1.9315 0.0024
++G gamma 2.0105 0.0025
++G gamma 0.1972 0.002
++G gamma 0.8098 0.0022
++G gamma 0.901 0.006
++G gamma 1.6165 0.0076
++G gamma 1.8522 0.0033
+

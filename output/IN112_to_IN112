@@ -1,0 +1,26 @@
+#112IN    112IN IT DECAY (20.67 M)      1983RY06,1962RU05,1953BL4415NDS    201412
+#  112IN IT DECAY (20.67 M)      1983RY06,1962RU05,1953BL4415NDS    201412
+#H TYP=FUL$AUT=S. LALKOVSKI, F.G. KONDEV$CIT=NDS 124, 157 (2015)$         
+#H CUT=1-Aug-2014$                                                        
+#  1983RY06: Facility: ^SAMES accelerator at  ^NPL-Teddington; Source:    
+#  from 113IN(N,2NG). E(N)=14 MeV from a (D,T) reaction on                
+#  ^Ti-^T target; Detectors: one coaxial Ge, one gas-flow proportional    
+#  counter; Measured: G, CE, EG, IG, EKC, ELC; Deduced: level             
+#  scheme, MULT., J|p, T, |s(112IN)/|s({+112m}In)                         
+#  1962RU05: Facility: cyclotron accelerator at Osaka; Sources: from      
+#  113IN(G,N), 112CD(D,2N), 109AG(A,N); Detectors: |b-spectrometer, one   
+#  NaI(Tl); Measured: G, CE, E|g, IG, EKC; Deduced: level scheme,         
+#  |g-ray Mult., J|p, T                                                   
+#  1953Bl44: Source: chemically separated from 109Ag(A,N); Detectors:     
+#  double-coil lens spectrometer, 180{+0} spectrometer; Measured: |b(T)   
+#  CE(T); Deduced: EKC, K/LM, 112IN level scheme, |g-ray Mult., J|p, T    
+#  Others: 1973FrYM, 1968Ko25, 1968RO03, 1947TE04, 1942SM10, 1940LA07,    
+#  1939BA03, 1937LA05;                                                    
+#  Also, R.K.Girgis and R.Van Lieshout in Physica 25 (1959) 597           
+#L E$From EG                                                              
+#L J$From the adopted levels                                              
+#G E$From the adopted gammas                                              
+#P 156.61    3 4+                20.67 M   8                              
+IN112 IN112 IT 0.0 1240.2 0.1333
++G gamma 0.15661000000000003 1.0
+

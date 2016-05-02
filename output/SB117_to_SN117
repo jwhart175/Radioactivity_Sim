@@ -1,0 +1,26 @@
+#117SN    117SB EC DECAY                                          ENSDF    201101
+#  117SB EC DECAY                                          ENSDF    201101
+#H TYP=FUL$AUT=JEAN BLACHOT$CIT=ENSDF$CUT=1-Mar-2009$                     
+#  Activity: 115IN(A,2N), 117SN(P,N)                                      
+#  Measured: GAMMA (1974HEYW), GG (1969BE02), ce (1955MC17), G/B+         
+#  (1964BA46)                                                             
+#  Others: 1947CO04, 1949TE11                                             
+#  CC$ FROM BrIcc v2.2b (20-Jan-2009) 2008Ki07, "Frozen Orbitals" appr.   
+#G E$From 1974HEYW                                                        
+#L J$From adopted levels                                                  
+#P 0.0         5/2+              2.80 H    1              1755      9     
+SB117 SN117 beta+ 1.755 10080.0 0.859
++B beta+ 1.586 0.0181
++G gamma 0.158562 1.0
++G gamma 0.553 9.5E-4
++G gamma 0.846 6.0E-4
++G gamma 1.00451 0.0024
++G gamma 0.8613500000000001 0.0036
++G gamma 1.0206 0.0012
++G gamma 1.021 0.0013
++G gamma 1.2875999999999999 3.3E-4
++G gamma 1.4464000000000001 6.5E-4
++G gamma 1.3395 1.0999999999999999E-4
++G gamma 1.4201 2.0E-4
++G gamma 1.578 2.1999999999999998E-4
+

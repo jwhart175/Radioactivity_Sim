@@ -1,0 +1,59 @@
+# 62NI    62CU EC DECAY (9.67 M)        1971JOZN,1975CA40,1970VA1112NDS    201205
+#  62CU EC DECAY (9.67 M)        1971JOZN,1975CA40,1970VA1112NDS    201205
+#H TYP=FUL$AUT=ALAN L. NICHOLS, BALRAJ SINGH, JAGDISH K. TULI$            
+#H CIT=NDS 113, 973 (2012)$CUT=15-Apr-2012$                               
+#  1971JoZN, 1969Jo07 (thesis): source from {+62}Ni(p,n) at 7, 13 MeV and 
+#  from decay of {+62}Zn parent. Measured E|g, I|g, and conversion        
+#  electrons using a double-focusing magnetic spectrometer. 1969Jo07      
+#  report four gamma rays and intensity of 511 annihilation               
+#  radiation, but the latter is revised in 1971JoZN. More details can     
+#  be found in the thesis (1971JoZN)                                      
+#  1975Ca40: source from {+63}Cu(n,2n) at 14 MeV. Measured E|g, I|g for   
+#  seven |g rays                                                          
+#  1970Va11: source from {+62}Ni(p,n) at 6.8 MeV; measured E|g, I|g for   
+#  nine |g rays                                                           
+#  1969Es03: source from {+62}Zn parent produced in Cu(p,2n); measured    
+#  E|g, I|g for five |g rays                                              
+#  Others:                                                                
+#  1993Os06 (also 2001Ko07): measured |b{++} spectrum, deduced maximum    
+#  E|b, and Q(|e)=3967 {I16}                                              
+#  1976Ca31: measured |g|g(|q) using Ge(Li) and NaI(Tl) detectors;        
+#  deduced E2/M1 mixing ratio for second 2+ to first 2+ transition        
+#  1967An01: source from {+62}Zn parent produced in Cu(p,2n); measured    
+#  |b{++} spectrum by a double-focusing iron yoke |b spectrometer;        
+#  deduced E|b(max)=2934 {I7}                                             
+#  1964Sa32: source from {+62}Zn parent produced in Cu(p,2n). Measured    
+#  |b{++} and ce spectra using double-focusing |b spectrometer            
+#  1954Nu27: source from {+62}Zn parent produced in Cu(d,3n). Measured    
+#  upper limit of |g intensity of <5% relative to total |b{++} emission   
+#  for 350-650 keV region, and <3% for higher-energy region. Deduced      
+#  E|b(max)=2910 {I10}                                                    
+#  Half-life measurements of {+62}Cu g.s.: 2002Un02, 1997Zi06, 1975Ca40,  
+#  1969Jo07, 1969Bo11, 1966Ch24, 1965Li11, 1965Eb01, 1961Sa19, 1958Po07,  
+#  1954Nu27, 1954Be84, 1952Ma28, 1951Go43, 1947Le07, 1939Cr03.            
+#  Production and identification of {+62}Cu isotope: 1937Ri01, 1937He05,  
+#  1937Bo10, 1938St05, 1946Me01, 1950Gh62, 1950Ha65, 1954Nu27             
+#  |b measurements: 1949Be17, 1950Ha65, 1954Nu27, 1958Cr86, 1964Sa32,     
+#  1967An01                                                               
+#  |b|g coin: 1958Cr86 (1750|b-1173|g coin)                               
+#  Other |g-ray measurements: 1955Re08, 1957Br20, 1958Bu10                
+#  Total decay energy of 3959.0 keV {I12} deduced (by RADLIST code) from  
+#  proposed decay scheme is in agreement with the expected value of       
+#  3958.9 keV {I5}, indicating that decay scheme is complete              
+#G CC$ FROM BrIcc 2008Ki07, "frozen orbital" approximation                
+#G $ Measured intensity of G+- annihilation radiation:                    
+#G 58100 30 (1971JoZN), 55900 34 (1970Va11), 50260 (1975Ca40), relative   
+#G to 100 for 1173|g. Normalization factor is determined from these       
+#G values.                                                                
+#G E,RI$ Weighted averages of values from 1969Es03, 1970Va11, 1971JoZN    
+#G and 1975Ca40                                                           
+#G E(A)$Expected |g from Adopted Levels, Gammas dataset; not reported     
+#G in studies of EC decay                                                 
+#G M,MR$From Adopted Gammas, unless otherwise stated                      
+#L E$From least-squares fit to E|g data                                   
+#L J$From Adopted Levels                                                  
+#P 0.0          1+               9.67 M    3              3958.90   48    
+CU62 NI62 beta+ 3.9589000000000003 580.2 0.00342
++G gamma 1.12882 0.09300000000000001
++G gamma 2.3019499999999997 0.12300000000000001
+

@@ -1,0 +1,57 @@
+#181HG    185PB A DECAY (6.3 S)         2002AN15,1980SC09         05NDS    200601
+#  185PB A DECAY (6.3 S)         2002AN15,1980SC09         05NDS    200601
+#H TYP=FUL$AUT=S. -C. WU$CIT=NDS 106, 367 (2005)$CUT=31-Aug-2005$         
+#  Others: 1987To09, 1982HeZM, 1975Ca06.                                  
+#  2005Va04: {+185}Pb from {+189}Po(|a); activity of {+189}Po             
+#  produced by {+142}Nd({+52}Cr,5n) at 5.27 MeV/A;                        
+#  {+142}Nd({+50}Cr,3n) at 5.04 MeV/A; 99.8% enriched                     
+#  {+142}Nd{-2}F{-3} target; Detectors: velocity filter (SHIP),           
+#  16-strip position sensitive silicon detector for |a-particles;         
+#  6 silicon detectors for conversion electrons; four-fold segmented      
+#  Clover detector for |g's.                                              
+#  measured E(|a), I(|a), E(|g), |a-|g-coin., |a-e coin., |a{-tot}.       
+#  2002An15: |a activity produced by 1.4 GeV protons on UC{-x} target;    
+#  Resonance ionization laser ion source; on-line mass separator;         
+#  measured E|a, E|g, |a|g-coin, T{-1/2}. {+181}Hg deduced levels,        
+#  possible J|p.                                                          
+#  1980Sc09: |a activity produced by {+150}Sm({+40}Ca,5n) (1975Ca06),     
+#  {+142}Nd({+48}Ti,5n) at E=185 MeV (1980Sc09), Pd({+82}Kr,X) at E=4.2,  
+#  4.4 MeV/nucleon (1982HeZM), {+147}Sm({+40}Ca,2n) at 194 MeV            
+#  (1987To09).                                                            
+#A E,IA$From 2002An15 and 2005Va04                                        
+#A HF        If r{-0}=1.503 {I17} (based on r{-0}({+180}Hg)=1.505 13      
+#A and r{-0}({+182}Hg)=1.50 2 from 1998Ak04).                             
+#G E$From 2002An15 and 2005Va04                                           
+#P 0.0         3/2-              6.3 S      4             6695      5     
+PB185 HG181 alpha 6.695 6.3 0.34
++A alpha 6.548 0.013999999999999999
++A alpha 6.486 0.44
++A alpha 6.288 0.56
+
+#181HG    185PB A DECAY (4.3 S)         2002AN15,1980SC09         05NDS    200601
+#  185PB A DECAY (4.3 S)         2002AN15,1980SC09         05NDS    200601
+#H TYP=FUL$AUT=S. -C. WU$CIT=NDS 106, 367 (2005)$CUT=31-Aug-2005$         
+#  Others: 1987To09, 1982HeZM, 1975Ca06.                                  
+#  2005Va04: {+185}Pb from {+189}Po(|a); activity of {+189}Po             
+#  produced by {+142}Nd({+52}Cr,5n) at 5.27 MeV/A;                        
+#  {+142}Nd({+50}Cr,3n) at 5.04 MeV/A; 99.8% enriched                     
+#  {+142}Nd{-2}F{-3} target; Detectors: velocity filter (SHIP),           
+#  16-strip position sensitive silicon detector for |a-particles;         
+#  6 silicon detectors for conversion electrons; four-fold segmented      
+#  Clover detector for |g's.                                              
+#  measured E(|a), I(|a), E(|g), |a-|g-coin., |a-e coin., |a{-tot}.       
+#  2002An15: |a activity produced by 1.4 GeV protons on UC{-x} target;    
+#  Resonance ionization laser ion source; on-line mass separator;         
+#  measured E|a, E|g, |a|g-coin, T{-1/2}. {+181}Hg deduced levels,        
+#  possible J|p.                                                          
+#  1980Sc09: |a activity produced by: {+150}Sm({+40}Ca,5n) (1975Ca06),    
+#  {+142}Nd({+48}Ti,5n) at E=185 MeV (1980Sc09), Pd({+82}Kr,X) at E=4.2,  
+#  4.4 MeV/nucleon (1982HeZM), {+147}Sm({+40}Ca,2n) at 194 MeV            
+#  (1987To09).                                                            
+#A E,IA      From 2002An15.                                               
+#A HF        If r{-0}=1.503 {I17} (based on r{-0}({+180}Hg)=1.505 13      
+#A and r{-0}({+182}Hg)=1.50 2 from 1998Ak04).                             
+#P 0.0+X        13/2+            4.3 S     2              6695      5     
+PB185 HG181 alpha 6.695 4.3 0.50
++A alpha 6.408 1.0
+

@@ -1,0 +1,38 @@
+#161ER    161ER IT DECAY (7.5 US)       1970BO02                  11NDS    201111
+#  161ER IT DECAY (7.5 US)       1970BO02                  11NDS    201111
+#H TYP=FUL$AUT=C. W. Reich$CIT=NDS 112,2497 (2011)$CUT=1-Jun-2011$        
+#  DATA SET UPDATED (AUGUST, 2009) BY CW REICH TO INCORPORATE CC          
+#   VALUES FROM BRICC, RECOMPUTE SOME OF THE RI VALUES, AND MODIFY        
+#   SOME COMMENTS                                                         
+#  All data are from 1970Bo02, unless otherwise noted. {+161}Er isomer    
+#  produced by {+161}Dy({+3}He,3n) on enriched (80.7%) target. |g's       
+#  measured with Ge detectors and ce's with magnetic spectrometer.        
+#  |gce coincidences measured.                                            
+#G M,MR      Multipolarity assignments and |d values are from the {+161}Er
+#G Adopted |g's and are consistent with those of 1970Bo02.                
+#G CC        Values were computed for the more precise |g energies given  
+#G in the {+161}Er Adopted |g's.                                          
+#G E(MNPQ)   Although not observed in the IT decay, this |g is            
+#G observed to depopulate this level in the |e decay of {+161}Tm.         
+#G RI(M)     Value computed by evaluator to give intensity balance        
+#G at 267 level [i.e., I(|g+ce)(78)=I(|g+ce)(131)+I(|g+ce)(29)].          
+#G RI(N)     Value computed from I|g's from {+161}Tm |e decay and scaled  
+#G to give intensity balance at 297 level [i.e., I(|g+ce)(29)+I(|g+ce)(46)
+#G + I(|g+ce)(79)+I(|g+ce)(107)=I(|g+ce)(100)].                           
+#G RI(P)     Value computed from I|g(207)/I|g(147) from {+161}Tm |e decay.
+#G The in-beam study 1970Hj02 gives a value that is larger by a factor    
+#G of 1.8.                                                                
+#G RI(Q)     Value computed to give intensity balance at 189 level.       
+#G RI(R)     Value computed to give intensity balance at 59 level.        
+#G RI(T)     Value computed to give intensity balance at 217 level.       
+#L J         J|p and band assignments are those of 1970Bo02, except as    
+#L noted. They agree with those in the {+161}Er Adopted Levels.           
+#L           Levels are 3/2(0), 5/2(59), 7/2(144), and 9/2(250).          
+#L           Levels are 13/2(267) and 11/2(297), but not assigned here.   
+#L           Level is 11/2(397).                                          
+#L BAND(A)   3/2[521] band                                                
+#L BAND(C)   Mixed positive-parity band.                                  
+#L BAND(E)   Bandhead of 11/2[505]                                        
+#P  397         11/2-             7.5 US   7                              
+ER161 ER161 IT 0.0 0.0 1.0
+

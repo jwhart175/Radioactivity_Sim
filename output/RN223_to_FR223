@@ -1,0 +1,38 @@
+#223FR    223RN B- DECAY                1992KU03                  01NDS    200110
+#  223RN B- DECAY                1992KU03                  01NDS    200110
+#H TYP=FUL$AUT=E. BROWNE$CIT=NDS 93, 846 (2001)$CUT=1-May-2001$           
+#  223RN activity was produced by spallation of 600-MEV protons on        
+#  targets of 232TH and mass separated in the ISOLDE on-line separator.   
+#  Characteristic FR XK, and G rays previously observed in the ALPHA      
+#  decay of 227AC confirmed the assignment of the activity to 223RN.      
+#L           The structure of 223FR has been interpreted in terms of      
+#L the reflection-asymmetric rotor model, and most of the levels below    
+#L 600 KEV have been assigned to KPI=3/2+- and KPI=1/2+- parity           
+#L doublet bands.                                                         
+#L E$Deduced by evaluator from a least-squares fit to G-ray energies.     
+#L J         From adopted levels.                                         
+#L BAND(A)   KPI=3/2- PARITY DOUBLET BAND                                 
+#L BAND(a)   KPI=3/2+ PARITY DOUBLET BAND                                 
+#L BAND(B)   KPI=1/2- PARITY DOUBLET BAND                                 
+#L BAND(b)   KPI=1/2+ PARITY DOUBLET BAND                                 
+#L BAND(D)   KPI=3/2+ PARITY DOUBLET BAND                                 
+#L BAND(d)   KPI=3/2- PARITY DOUBLET BAND                                 
+#L BAND(E)   KPI=5/2- PARITY DOUBLET BAND                                 
+#B IB$Deduced by evaluator from G-ray transition intensity balance        
+#B at each level.                                                         
+#G           Experimental FR XK intensities: 330 13 (XKA2),               
+#G 580 30 (XKA1), and 252 10 (XKB), compare with 400 42 (XKA2),           
+#G 650 58 (XKA1) and 300 33 (XKB), respectively, deduced by evaluator     
+#G (using ^RADLST) from the G-ray intensities and K-conversion            
+#G coefficients                                                           
+#G presented here, using a K-fluorescence yield of 0.967 4 (1996SC06).    
+#G CC$Conversion coefficients for M1+E2 multipolarities are for MR=1.0,   
+#G unless MR is given.                                                    
+#G E(A),RI(B)$From GG coin measurement.                                   
+#G RI(D)$Deduced by evaluator from reported TI, and CC.                   
+#G           Measured EG, RI, GG coin, ICE. Deduced multipolarities.      
+#G Detector: high-purity germanium, mini-orange magnetic spectrometer.    
+#G           Others: 1986BO35, 1982BRZF, 1975VYZS, 1964BU02, 1961BE28.    
+#P 0.0          7/2              24.3 M    4              1900      SY    
+RN223 FR223 beta- 1.9 1458.0 0.012
+

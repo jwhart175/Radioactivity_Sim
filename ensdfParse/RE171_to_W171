@@ -1,0 +1,30 @@
+#171W     171RE EC DECAY                1987RU05                  02NDS    200209
+#  171RE EC DECAY                1987RU05                  02NDS    200209
+#H TYP=FUL$AUT=CORAL M. BAGLIN$CIT=NDS 96,399 (2002)$CUT=5-Aug-2002$      
+#  Other: 1987SZ03 (435G and 570G).                                       
+#  The decay scheme and all data are from 1987RU05. Note that decay       
+#  scheme may be incomplete (Q=5.7 MEV, observed level energies LE 1066). 
+#  1987RU05: Sources from 139LA(36AR,4N), E(139LA)=165, 175, 194 MEV,     
+#  helium-jet transport; measured EG, IG (Ge, GELI), fast-slow            
+#  XK-G coin, GG coin, G(T).                                              
+#E           EC+B+ feedings are from intensity imbalance at each          
+#E level (significant GS feeding is not expected (DJ=2, DPI=no)).         
+#E           CK/B+=0.51 7 (to 568.3 level); value corrected by 1987RU05   
+#E for feeding from 1066 level.                                           
+#E           CK/B+=1.05 17 (to 1066.2 level).                             
+#L E         From 1987RU05; authors do not state uncertainties.           
+#L J         Adopted values.                                              
+#G E         Uncertainties not reported by 1987RU05.                      
+#G M         From approximate ECC values, as deduced from simultaneous    
+#G G-XK(W) coin and G-G+- coin, except as noted.                          
+#L BAND(A)   5/2[523] band.                                               
+#G M(Z)      From adopted gammas.                                         
+#P 0.0         (9/2-)            15.2 S    4              5670      SY    
+RE171 W171 beta+ 5.67 15.2 1.0
++B beta+ 2.066 0.23
++B beta+ 2.051 0.044000000000000004
++B beta+ 1.972 0.008
++B beta+ 2.005 0.078
++B beta+ 1.85 0.18100000000000002
++B beta+ 1.621 0.065
+

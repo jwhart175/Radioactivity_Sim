@@ -1,0 +1,156 @@
+#145SM    145EU EC DECAY                1986AD06                  09NDS    200902
+#  145EU EC DECAY                1986AD06                  09NDS    200902
+#H TYP=FUL$AUT=E. BROWNE, J. K. TULI$CIT=NDS 110, 507 (2009)$             
+#H CUT=1-Oct-2008$                                                        
+#  Measured: GAMMA                                                        
+#  (1986Ad06,1984Me09,1982De26,1978VyZX,1977BaZP,1973Ne01,1968Ad04,       
+#  \1967Dr01,1967Hi05), GG (1986Ad06,1978VyZX,1977BaZP,1973Ne01), CEG, BG 
+#  (1968Ad04), G(THETA) from oriented nuclei (1983Va02,1982De26), CE      
+#  (1978VyZX,1977BaZP,1967Hi05), BG(T) (1976Be09), GG(THETA)              
+#  (1978VyZX,1977BaZP,1976Be09,1975BuZA,1967Ob03,1966Go08), probability   
+#  of EC (1983Sc28,1983BeZF)                                              
+#  1998OM01: MEASURED G, CE, GG, GG(THETA). AUTHORS REPORT only WEAK G'S  
+#  Decay scheme, EG, RI are from 1986Ad06 with additional weaker          
+#  transitions reported by 1998OM01                                       
+#  1996Vy01 give level feedings and level JPI assignments and a few       
+#  multipolarities. No IG given. 1996OmZZ (perhaps the same group) give   
+#  several EG, IG, I(CE) but no decay scheme.                             
+#E E,IE      ECK(1658 level)=0.841 24, ECK(1996 level)=0.835 15           
+#E (1983BeZF), ECK(2508+2513)/ECK(1997)=0.941 17, Q-=2647 +14-10 from     
+#E ECK(2425)/ECK(1997) (1983Sc28)                                         
+#E IE(A)     IE deduced from balance of IG is too large and LOGFT=9.9     
+#E too small for DJ=2, DPI=no. Expected for such transitions              
+#E LOGFT GT 12.8                                                          
+#E E(B),IB(B)$EB+=1688 15 (IB=1.00) (1968Ad04), 1724 30 (1967Hi05),       
+#E 1740 40 (IB=1.00) (1966Zh01), 1670 50 (IB=1.00) (1967Ob03)             
+#E E(D),IE(D)$EB+=794 15 (IB=0.24 10) (1968Ad04), 786 40 (1967Hi05),      
+#E 800 40 (IB=0.33 6) (1966Zh01), 780 50 (IB=0.32 11) (1967Ob03)          
+#G CC$ FROM BrIcc v2.2 (31-Mar-2008) 2008KiAA, "Frozen Orbitals" appr.    
+#G E(A),RI(A)$FROM 1998OM01                                               
+#G E(B)$ALSO REPORTED IN 1998OM01                                         
+#G E(C)$PLACEMENT IN 1998OM01 DIFFERS FROM EARLIER PLACEMENT              
+#G E,RI      For additional questionable G's see 1978VyZX                 
+#G M         EKC from RI (1986Ad06) and CE (1978VyZX) normalized to KC    
+#G of G's: 542, 653, 764, 894, 1423, 1658, 1804 with mult known from      
+#G G(THETA) in oriented nuclei (1982De26)                                 
+#G           G+-/894G=0.066 5 (1973Ne01)                                  
+#G MR        From G(THETA) in decay of oriented nuclei (1982De26)         
+#L E(A)$LEVEL FROM 1996OM01,1998OM01                                      
+#P 0.0         5/2+              5.93 D    4              2659.3    27    
+EU145 SM145 beta+ 2.6593 512352.0 0.0657
++G gamma 0.136325 5.0E-4
++G gamma 0.22544 6.0E-4
++G gamma 0.3097 5.0E-5
++G gamma 0.36815 5.0E-4
++G gamma 0.56486 5.0E-4
++G gamma 0.95997 1.0999999999999999E-4
++G gamma 1.0635 7.7E-4
++G gamma 1.2666400000000002 0.0019
++G gamma 2.1299 1.7999999999999998E-4
++G gamma 2.422 7.000000000000001E-5
++G gamma 0.89373 10.0
++G gamma 1.42319 0.055
++G gamma 0.54257 0.68
++G gamma 0.110943 0.292
++G gamma 0.653512 2.29
++G gamma 1.5473 0.008199999999999999
++G gamma 0.71348 0.035699999999999996
++G gamma 0.08045999999999999 0.0022
++G gamma 0.19138 0.091
++G gamma 0.7335 1.4000000000000001E-4
++G gamma 0.76474 0.256
++G gamma 1.65853 2.27
++G gamma 1.78027 0.0023
++G gamma 0.17662 0.0012
++G gamma 0.25689 0.0033
++G gamma 0.91047 0.0104
++G gamma 1.80426 0.163
++G gamma 1.84812 0.0011
++G gamma 0.19913999999999998 0.0045000000000000005
++G gamma 0.43443 0.0258
++G gamma 0.9638 1.0E-4
++G gamma 1.85766 0.06
++G gamma 0.21811000000000003 0.0014000000000000002
++G gamma 0.2691 4.0E-5
++G gamma 0.45342 0.0054
++G gamma 0.98262 3.0E-4
++G gamma 1.87667 0.203
++G gamma 0.29225 3.7E-4
++G gamma 1.95076 1.8999999999999998E-4
++G gamma 0.3552 1.0E-4
++G gamma 0.31413 0.0069
++G gamma 0.34492 0.0014000000000000002
++G gamma 0.36551 0.0076
++G gamma 0.42548 0.0028000000000000004
++G gamma 0.53615 0.004
++G gamma 1.07891 0.066
++G gamma 1.97277 0.0147
++G gamma 0.12043999999999999 0.0026
++G gamma 0.33837 0.008100000000000001
++G gamma 0.5604 1.6E-4
++G gamma 0.57355 0.001
++G gamma 1.10322 9.0E-4
++G gamma 1.997 1.09
++G gamma 0.6743300000000001 4.0E-5
++G gamma 2.11058 0.006
++G gamma 0.16069999999999998 0.0024
++G gamma 0.47489 0.0038
++G gamma 0.5261 0.0147
++G gamma 0.5860599999999999 0.0031
++G gamma 1.2395999999999998 0.0184
++G gamma 2.13342 0.0335
++G gamma 0.49732 6.0E-4
++G gamma 1.2619 6.0E-4
++G gamma 2.15546 0.0182
++G gamma 0.38894999999999996 1.7999999999999998E-4
++G gamma 2.1929600000000002 0.0054
++G gamma 0.72909 0.0040999999999999995
++G gamma 2.27654 0.0161
++G gamma 0.8696 8.0E-5
++G gamma 2.2928 8.0E-4
++G gamma 2.3292800000000002 0.0287
++G gamma 0.18519999999999998 8.999999999999999E-5
++G gamma 0.23 5.0E-4
++G gamma 0.4637 2.6E-4
++G gamma 0.56024 6.0E-4
++G gamma 0.91713 1.7999999999999998E-4
++G gamma 2.34064 0.0032
++G gamma 0.21294 0.0032
++G gamma 0.34943 0.0042
++G gamma 0.37368 0.0095
++G gamma 0.46966 0.0039000000000000003
++G gamma 0.68783 0.0045000000000000005
++G gamma 0.92315 9.0E-4
++G gamma 1.4526 0.010700000000000001
++G gamma 2.34642 0.029900000000000003
++G gamma 0.4224 8.0E-5
++G gamma 0.5816 0.003
++G gamma 0.72734 0.0075
++G gamma 0.75813 0.0070999999999999995
++G gamma 0.7786000000000001 0.0055000000000000005
++G gamma 0.83861 0.016200000000000003
++G gamma 0.94953 0.011699999999999999
++G gamma 2.3851999999999998 8.0E-5
++G gamma 0.9651000000000001 6.0E-4
++G gamma 2.38755 0.0040999999999999995
++G gamma 0.2705 4.0E-4
++G gamma 0.29247 0.0038
++G gamma 0.42925 0.001
++G gamma 0.54934 0.0025
++G gamma 0.62179 8.0E-4
++G gamma 1.00277 0.0016
++G gamma 1.53214 0.052000000000000005
++G gamma 2.42596 0.020499999999999997
++G gamma 0.48510000000000003 9.0E-4
++G gamma 0.8232999999999999 6.0E-5
++G gamma 1.05875 0.0018
++G gamma 1.5884200000000002 0.0017000000000000001
++G gamma 2.48217 0.0055000000000000005
++G gamma 1.61467 0.0014000000000000002
++G gamma 2.50824 0.0046
++G gamma 0.1724 1.5E-4
++G gamma 2.51295 0.0033
++G gamma 0.21819 1.0999999999999999E-4
++G gamma 0.4255 2.4E-4
++G gamma 2.5594 1.8999999999999998E-4
+

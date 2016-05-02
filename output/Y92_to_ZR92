@@ -1,0 +1,54 @@
+# 92ZR    92Y B- DECAY                  1970TA05                  12NDS    201210
+#  92Y B- DECAY                  1970TA05                  12NDS    201210
+#H TYP=FUL$AUT=CORAL M. BAGLIN$CIT=NDS 113, 2187 (2012)$CUT=15-Sep-2012$  
+#  Others: 1990MA40, 1983IA02, 1973PAYG, 1962BU16.                        
+#B E(F)      From 1983IA02. Others: 3600 30 (1957GA59), 3640 20           
+#B (1962BU16).                                                            
+#G CC$ FROM BrIcc v2.2b (20-Jan-2009) 2008Ki07, "Frozen Orbitals" appr.   
+#G E,RI      From 1970TA05. Energies above 2100 KEV were reported by      
+#G 1970TA05 only. Below 2 MEV, energies and intensities from 1962BU16     
+#G and 1970TA05 are in good agreement.                                    
+#G M,MR      From Adopted Gammas, except as noted.                        
+#G E(A)      1978GL04 observe a 2475G in (N,N'G) also; however, its       
+#G threshold clearly indicates that decay is from E(level)>2473, and      
+#G 1978GL04 assign it to a level which also deexcites via a 1068G (absent 
+#G in 92Y B- decay). That G presumably differs from the 2473G             
+#G reported here.                                                         
+#G RI(B)     From 1970TA05, who observe only a sum peak at this energy.   
+#G 1962BU16 report I(2067G)=0.3 1. This G ray is absent in (N,G),         
+#G which does reveal weak 571G and 219G (|?0.7% branches) deexciting      
+#G this level in that reaction, yet absent in 92Y B- decay.               
+#G Evaluator does not adopt this G ray.                                   
+#G E(D)      Weighted average of 934.44 9 (1979BO26) and 934.5 1          
+#G (1970TA05)                                                             
+#G RI(E),E(E)$Transition not observed in 92Y B- decay. 1962BU16           
+#G report I(1383 ce(K))/I(448G)|<0.01.                                    
+#G M(G)      A2=+0.37 6, A4=+1.15 8 from 449G-934G(|q)                    
+#G (1962BU16); hence this is a 0-2-0+ cascade and mult(449G)=Q            
+#G (1962BU16).                                                            
+#G M(H)      A2=+0.11 6, A4=-0.02 8 for 561G-934G(|q)                     
+#G (1962BU16). This allows J=1 to 4 for 1496 level; if J=4,               
+#G MR(561G)=+0.01 +11-9 or +1.6 +4-3. Evaluator adopts the former         
+#G MR and assigns mult(561G)=E2 for this 4+ to 2+ transition (see         
+#G Adopted Levels).                                                       
+#G M(I)      A2=-0.086 16, A4=-0.005 26 for 1405G-934G(|q)                
+#G (1962BU16). This allows J=1,3,4, not 2 for 2340 level. If J=3,         
+#G MR(1405G)=-0.019 +21-20 and mult(1405G)=E1(+M2), assuming adopted      
+#G JPI. See comment on MR(1405G) in (N,G) source dataset.                 
+#L           The decay scheme is essentially that proposed by 1970TA05.   
+#L It is based on coincidence results and energy sum relations.           
+#L The levels at 3040 and 3264 KEV, based on only one G transition,       
+#L are supported by (N,G) and other reaction studies.                     
+#L E         FROM LEAST-SQUARES FIT TO EG.                                
+#L T         From BGG fast-coin timing (1990MA40).                        
+#L J         FROM Adopted Levels.                                         
+#P 0.0         2-                3.54 H    1              3643       9    
+Y92 ZR92 beta- 3.643 12744.0 0.139
++G gamma 2.067 1.0E-4
++G gamma 2.4734000000000003 1.8999999999999998E-4
++G gamma 2.1056 0.0013700000000000001
++G gamma 3.2639 8.0E-5
++G gamma 1.9886 4.3999999999999996E-4
++G gamma 2.437 2.1999999999999998E-4
++G gamma 3.3712 2.1999999999999998E-4
+

@@ -1,0 +1,175 @@
+#103CD    103IN EC DECAY                                          09NDS    200910
+#  103IN EC DECAY                                          09NDS    200910
+#H TYP=FUL$AUT=D. DE FRENNE$CIT=NDS 110, 2081 (2009)$CUT=1-Mar-2009$      
+#  1998Ka42: {+103}In source from {+50}Cr({+58}Ni,xpyn). Measured: E|g,   
+#  I|g. Deduced: |b-intensity, |b-strength distributions                  
+#  1997Sz04: mass-separated activity produced in {+50}Cr({+58}Ni,3p2n)    
+#  measured: E|g, I|g, |g|g. Deduced: {+103}Cd levels, J|p.               
+#  1984Ve01: measured E|g, I|g, |g|g-coin. Deduced: T{-1/2}, {+103}Cd     
+#  levels, J|p                                                            
+#  1983Wo04: measured E|g, I|g, E|b+, |b|g-coin                           
+#  1988Bo28: measured E|b+, Q(|e)                                         
+#  1978Lh01: measured E|g, I|g, EKC                                       
+#  Others: 1981BeZD, 1981CeZX, 1978Lh01                                   
+#  As Q|e=6050 keV  and the highest E|g is less than 4 MeV it might be    
+#  possible that a significant fraction of the |g strength is unobserved  
+#  Therefore the decay scheme should be considered as tentative           
+#E           I(|e)/[I(|e+I|b{++})]=0.445 {I20} (1998Ka42)                 
+#E           |g-ray multiplicity for |e: 3.0-3.2 (1998Ka42)               
+#E |g-ray multiplicity for |b{++}: 2.5 (1998Ka42)                         
+#E           Total experimental Gamow-Teller strength: 2.47 {I25}         
+#E (1998Ka42). Total theoretical full-space shell-model calculation: 12.7 
+#E {I10}                                                                  
+#E TI        Calculated by evaluator from I(|g+ce) imbalance at each      
+#E level                                                                  
+#G E,RI$Unless noted otherwise, from 1997Sz04                             
+#G M         From comparison of exp and theoretical BRICC |a(K)           
+#G $EKC from 1978Lh01                                                     
+#G E,RI$All unplaced gammas from 1997Sz04                                 
+#L E         Level scheme taken from 1997Sz04                             
+#L J         From adopted levels                                          
+#P 0.0         (9/2)+            60 S      1              6050      20    
+IN103 CD103 beta+ 6.05 60.0 1
++B beta+ 2.232 0.128
++B beta+ 2.225 0.008
++G gamma 0.3917 0.027159999999999997
++B beta+ 2.049 0.028999999999999998
++G gamma 0.1778 0.0026190000000000002
++G gamma 0.3675 0.03686
++G gamma 0.3817 0.0024735
++G gamma 0.5694 0.021825
++B beta+ 1.974 0.022000000000000002
++G gamma 0.15669999999999998 0.0016974999999999998
++G gamma 0.5243 0.005480499999999999
++G gamma 0.5383 0.004462
++G gamma 0.72629 0.085845
++B beta+ 1.968 0.073
++G gamma 0.5381 0.0042195
++G gamma 0.5521 0.01164
++G gamma 0.7397999999999999 0.16005
++B beta+ 1.888 0.08
++G gamma 0.168 0.0012125
++G gamma 0.5156000000000001 9.215E-4
++G gamma 0.7199 0.1649
++G gamma 0.191 0.0026190000000000002
++G gamma 0.525 0.0022795
++G gamma 0.7148 0.005141
++B beta+ 1.809 0.021
++G gamma 0.871 0.0016974999999999998
++B beta+ 1.806 0.0051
++G gamma 0.877 0.0023765
++G gamma 0.8913 0.003104
++G gamma 0.8985 0.008147999999999999
++B beta+ 1.794 0.077
++G gamma 0.37860000000000005 0.0023279999999999998
++G gamma 0.5351 0.0022795
++G gamma 0.9167000000000001 0.08827
++B beta+ 1.793 0.07
++G gamma 0.19080000000000003 1.4549999999999999E-4
++G gamma 0.36769999999999997 0.0037345
++G gamma 0.538 0.006789999999999999
++G gamma 0.7152000000000001 0.0097
++G gamma 0.9057000000000001 0.0058685
++G gamma 0.9198 0.025705
++G gamma 1.1073 0.035405
++G gamma 0.9466 0.003104
++G gamma 0.9502 0.006596000000000001
++G gamma 1.092 0.003977
++B beta+ 1.698 0.002
++G gamma 0.391 0.002231
++B beta+ 1.689 0.0108
++G gamma 0.5867 0.0049955
++G gamma 1.1247 0.0068385
++B beta+ 1.679 0.0076
++G gamma 1.1456 0.0020854999999999997
++G gamma 1.1593 0.006305
++B beta+ 1.669 0.036000000000000004
++G gamma 0.977 0.0069355
++G gamma 1.1670999999999998 0.0048985
++G gamma 1.181 0.0194
++G gamma 1.3688 0.0087785
++B beta+ 1.616 0.033
++G gamma 0.5729 0.004268
++G gamma 0.7404 0.010669999999999999
++G gamma 0.7544 0.021339999999999998
++B beta+ 1.601 0.022000000000000002
++G gamma 0.6047 0.003686
++G gamma 0.7724 0.023765
++G gamma 1.3403 0.00291
++B beta+ 1.56 0.025
++G gamma 0.49069999999999997 0.0027644999999999996
++G gamma 0.8717 0.0049955
++G gamma 1.4105 0.019884999999999996
++B beta+ 1.557 0.011000000000000001
++G gamma 0.8647999999999999 0.0087785
++G gamma 1.4025999999999998 0.0035405
++B beta+ 1.53 0.018000000000000002
++G gamma 1.4601 0.0089725
++G gamma 1.4741 0.011155
++G gamma 1.6613 0.0047044999999999995
++B beta+ 1.491 0.0129
++G gamma 1.005 0.007275
++G gamma 1.0185 0.007323499999999999
++B beta+ 1.475 0.0124
++G gamma 1.04 0.014065
++G gamma 1.5912 0.005528999999999999
++B beta+ 1.47 0.0098
++G gamma 1.0500999999999998 0.00485
++G gamma 1.064 0.006305
++G gamma 1.0859 0.006789999999999999
++G gamma 1.6655 0.0043165
++G gamma 1.677 0.006305
++B beta+ 1.417 0.0101
++G gamma 0.9947999999999999 0.01164
++B beta+ 1.409 0.0158
++G gamma 0.407 0.002134
++G gamma 1.1803 0.012124999999999999
++G gamma 1.732 0.0040254999999999996
++G gamma 1.1881 0.0083905
++B beta+ 1.384 0.047
++G gamma 0.8643 0.0087785
++G gamma 1.232 0.0064990000000000004
++G gamma 1.4022999999999999 0.0030069999999999997
++G gamma 1.5808 0.004365
++G gamma 1.7707 0.00291
++G gamma 1.7839 0.0077115
++G gamma 1.972 0.024734999999999997
++B beta+ 1.373 0.0106
++G gamma 0.8923 0.0046559999999999995
++G gamma 1.0891 0.00776
++B beta+ 1.347 0.028999999999999998
++G gamma 1.145 0.010185
++G gamma 1.3268 0.02328
++B beta+ 1.331 0.0069
++G gamma 1.1785999999999999 0.008245
++B beta+ 1.296 0.001
++G gamma 0.6485 0.0011639999999999999
++G gamma 2.0072 0.007372
++G gamma 1.3311 0.010669999999999999
++B beta+ 1.233 0.0051
++G gamma 1.57 0.006402
++B beta+ 1.211 0.013600000000000001
++G gamma 1.4257 0.016975
++G gamma 2.3863000000000003 0.011155
++G gamma 2.4246 0.005626
++G gamma 2.4528000000000003 0.01261
++B beta+ 1.008 0.0132
++G gamma 2.2117 0.018915
++B beta+ 1.002 0.0040999999999999995
++G gamma 1.69 0.00582
++B beta+ 0.989 0.015
++G gamma 1.9152 0.021825
++G gamma 1.947 0.007081
++G gamma 2.0736 0.0025705
++B beta+ 0.684 0.0123
++G gamma 2.585 0.013579999999999998
++G gamma 3.305 0.01649
++B beta+ 0.649 0.0018
++G gamma 2.0898000000000003 0.0061595
++G gamma 3.0019 0.0045105
++G gamma 3.3828 0.0033949999999999996
++G gamma 3.5709 0.0015034999999999998
++B beta+ 0.534 7.000000000000001E-4
++G gamma 3.6424000000000003 0.0030555
++G gamma 3.8301999999999996 4.85E-4
+

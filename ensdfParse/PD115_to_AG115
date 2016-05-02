@@ -1,0 +1,45 @@
+#115AG    115PD B- DECAY (25 S)         1987FOZY,1981ME17         12NDS    201210
+#  115PD B- DECAY (25 S)         1987FOZY,1981ME17         12NDS    201210
+#H TYP=FUL$AUT=JEAN BLACHOT$CIT=NDS 113, 2391 (2012)$CUT=1-Sep-2012$      
+#  Source: 238U(N,F) E=14 MEV chem (1973BrXC); 252CF(SF). Fast            
+#  chem (1981Me17,1990Ro16).                                              
+#  1987FoZY: 235U(N,F) OSIRIS on-line mass separator.                     
+#  Measured: G, BG(T), CE                                                 
+#  The decay scheme is preliminary; it is not possible to derive all      
+#  BETA branching because the RI data for many GAMMA rays are not known.  
+#G E$From 1987FoZY. Others: 1973BrXC, 1981Me17, 1990Ro16                  
+#G DE$|DE|g not given by 1987FoZY; assumed to be 100 EV for EG given      
+#G to two decimal places and 200 EV for EG given to one decimal place.    
+#G M$From CE (1987FoZY)                                                   
+#L T,J$From adopted levels                                                
+#L BAND(A)$ INTRUDER BAND WITH K=1/2. COULD ^be FIT WITH                  
+#L A=15.56 KEV, a=-2.73 and E0=336.4 KEV                                  
+#P 0.0           (1/2)+          25 S      2              4557      22    
++G gamma 0.048299999999999996 0.0010639999999999998
++G gamma 0.2627 9.88E-4
++G gamma 0.30387000000000003 0.074936
++G gamma 0.34270999999999996 0.076
++G gamma 0.0927 0.002888
++G gamma 0.1406 0.010107999999999999
++G gamma 0.39656 0.06308
++G gamma 0.11040000000000001 0.011019999999999999
++G gamma 0.15869999999999998 9.88E-4
++G gamma 0.24753 0.02736
++G gamma 0.37292000000000003 0.03952
++G gamma 0.2007 0.006232
++G gamma 0.29356 0.004712
++G gamma 0.43089999999999995 0.005776
++G gamma 0.55632 0.05928
+
+#115AG    115PD B- DECAY (50 S)         1990FO07                  12NDS    201210
+#  115PD B- DECAY (50 S)         1990FO07                  12NDS    201210
+#H TYP=FUL$AUT=JEAN BLACHOT$CIT=NDS 113, 2391 (2012)$CUT=1-Sep-2012$      
+#  235U(N,F) OSIRIS on-line mass separator (1990Fo07). Preliminary in     
+#  1987FoZY                                                               
+#  Measured: G, BG(T), CE                                                 
+#  Fragmentary decay scheme. 1990Fo07 report IG(749)=10.0 10              
+#G E$From 1990Fo07; uncertainty unstated by authors                       
+#L T,J$From adopted levels                                                
+#P 89.3         (7/2-)           50 S      3              4557      22    
++G gamma 0.749 0.1
+

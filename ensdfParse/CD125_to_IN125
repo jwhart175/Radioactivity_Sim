@@ -1,0 +1,185 @@
+#125IN    125CD B- DECAY (0.68 S)       1989HU03,1986HO24         11NDS    201102
+#  125CD B- DECAY (0.68 S)       1989HU03,1986HO24         11NDS    201102
+#H TYP=FUL$AUT=J. KATAKURA$CIT=NDS 112, 495 (2011)$CUT=1-Jan-2010$        
+#  Sources: U(n,F), E=fast, on-line mass (1989Hu03)                       
+#  {+235}U(n,F), E=th; on-line mass (1986Ho24)                            
+#  Measured: |g singles, |g|g coin (1989Hu03,1986Ho24); T{-1/2} (1989Hu03)
+#  The decay scheme is that proposed by 1989Hu03.                         
+#  1986Ho24 report decay only of the (3/2+), 0.65-s g.s.                  
+#G E,RI      From 1989Hu03, unless otherwise noted                        
+#G E(B)      Not given in 1986Ho24                                        
+#L E$From a least-squares fit to E|g's by evaluators                      
+#L T,J       From adopted levels                                          
+#L E(H)$From energy difference of g.s. transitions (1099|g, 2147|g and    
+#L 2947|g) and those competing |g cascades to 796 level, with E|g=436.25  
+#L for the transition from 796 to 360. However, this                      
+#L is a different value, 287 keV {I31}, from |b|g-coin experiments        
+#L (1987Sp09)                                                             
+#P 0.0         (3/2+)            0.68 S    4              7.12E+3   6     
+CD125 IN125 beta- 7.12 0.68 1.0
++G gamma 0.26788 0.01455
++G gamma 0.29438 0.013579999999999998
++G gamma 0.36110000000000003 0.006692999999999999
++G gamma 0.38944999999999996 0.02231
++G gamma 0.44532 0.013579999999999998
++G gamma 0.5514600000000001 0.004947
++G gamma 0.799 0.01746
++G gamma 1.2567000000000002 0.0046559999999999995
++G gamma 1.27515 0.00873
++G gamma 2.11558 0.024249999999999997
++G gamma 2.13325 0.03783
++G gamma 2.2902600000000004 0.03201
++G gamma 2.3802399999999997 0.01552
++G gamma 2.9387 0.007372
++B beta- 3.028 0.06
++B beta- 2.821 0.04
++G gamma 0.43629 0.4171
++B beta- 2.677 0.245
++G gamma 0.30296 0.01843
++G gamma 1.09948 0.24832
++B beta- 2.62 0.047
++G gamma 0.42291 0.03104
++G gamma 0.8597100000000001 0.06586299999999999
++G gamma 0.36923 0.008245
++G gamma 0.79243 0.03201
++G gamma 1.01397 0.03783
++B beta- 2.179 0.23
++G gamma 1.3499 0.01746
++G gamma 2.14719 0.21242999999999998
++B beta- 2.083 0.071
++G gamma 0.5388999999999999 0.003201
++G gamma 1.24975 0.021339999999999998
++G gamma 1.55288 0.02813
++G gamma 1.9895 0.01843
++B beta- 2.068 0.09300000000000001
++G gamma 1.58483 0.08051
++G gamma 2.02116 0.01261
++B beta- 2.013 0.149
++G gamma 0.68728 0.0291
++G gamma 1.70096 0.12028
++B beta- 1.971 0.094
++G gamma 0.77446 0.01164
++G gamma 0.99678 0.04656
++G gamma 1.36464 0.026771999999999997
++G gamma 1.78838 0.009215
++B beta- 1.945 0.034
++G gamma 1.42167 0.01455
++G gamma 1.84443 0.0194
+
+#125IN    125CD B- DECAY (0.48 S)       1989HU03,1986HO24         11NDS    201102
+#  125CD B- DECAY (0.48 S)       1989HU03,1986HO24         11NDS    201102
+#H TYP=FUL$AUT=J. KATAKURA$CIT=NDS 112, 495 (2011)$CUT=1-Jan-2010$        
+#  Sources: U(n,F), E=fast, on-line mass (1989Hu03)                       
+#  {+235}U(n,F), E=th; on-line mass (1986Ho24)                            
+#  Measured: |g-singles, |g|g-coin (1989Hu03,1986Ho24); T{-1/2} (1989Hu03)
+#  The decay scheme is that proposed by 1989Hu03. 1986Ho24 report decay   
+#  of (3/2+) state alone, with half-life 0.75 s.                          
+#G E,RI      From 1989Hu03, unless otherwise noted                        
+#G E(B)      Not given in 1986Ho24                                        
+#G E(E),RI(E)$From 1989Hu03's drawing. Uncertainties of energy and        
+#G intensity are assigned by the evaluators                               
+#L E$From a least-squares fit to E|g's by evaluators                      
+#L T,J       From adopted levels                                          
+#L E(A)      From 1986Ho24                                                
+#B $ Log| {Ift} values are calculated assuming X of parent energy value   
+#B to be 350 keV.                                                         
+#P X           (11/2-)           0.48 S    3              7.12E+3   6     
+CD125 IN125 beta- 7.12 0.48 1.0
++G gamma 0.13283 0.002784
++G gamma 0.16428 0.0017279999999999997
++G gamma 0.2769 0.0024
++G gamma 0.28683 0.004128
++G gamma 0.34134 0.00768
++G gamma 0.34586 0.0057599999999999995
++G gamma 0.39130000000000004 0.0030719999999999996
++G gamma 0.44532 0.003648
++G gamma 0.4537 0.0033599999999999997
++G gamma 0.4828 0.007488
++G gamma 0.52428 0.0035519999999999996
++G gamma 0.52966 0.007103999999999999
++G gamma 0.5431 0.007488
++G gamma 0.5551 0.002208
++G gamma 0.57052 0.004992
++G gamma 0.60652 0.007103999999999999
++G gamma 0.62681 0.0031680000000000002
++G gamma 0.64611 0.008544
++G gamma 0.707 0.002496
++G gamma 0.716 0.009023999999999999
++G gamma 0.75376 0.0025919999999999997
++G gamma 1.1065 0.00384
++G gamma 1.1132 0.006719999999999999
++G gamma 1.7193 0.0024
++G gamma 1.8982999999999999 0.003648
++G gamma 2.3608000000000002 0.003648
++B beta- 3.365 0.07
++B beta- 2.877 0.049
++G gamma 1.02753 0.27264
++G gamma 0.14637999999999998 0.023039999999999998
++G gamma 1.17316 0.26496
++B beta- 2.623 0.0191
++G gamma 0.5364800000000001 0.008736
++G gamma 1.5638599999999998 0.010367999999999999
++B beta- 2.616 0.004
++G gamma 1.57766 0.02544
++B beta- 2.458 0.076
++G gamma 0.73665 0.13344
++G gamma 1.90994 0.007103999999999999
++B beta- 2.435 0.0025
++G gamma 1.9582899999999999 0.022368000000000002
++G gamma 1.97109 0.016319999999999998
++B beta- 2.385 0.023
++G gamma 2.06464 0.03744
++B beta- 2.367 0.036000000000000004
++G gamma 0.19188 0.02016
++G gamma 0.9284 0.011327999999999998
++G gamma 2.10106 0.004608
++B beta- 2.312 0.036000000000000004
++G gamma 0.15378 0.0024
++G gamma 1.04472 0.03744
++B beta- 2.297 0.021
++G gamma 1.07544 0.009311999999999999
++G gamma 1.22109 0.011519999999999999
++B beta- 2.295 0.015700000000000002
++G gamma 0.28155 0.007776000000000001
++G gamma 2.2528 0.011519999999999999
++B beta- 2.236 0.018000000000000002
++G gamma 0.16003 0.0034559999999999994
++G gamma 0.31347 0.006623999999999999
++G gamma 0.40746 0.006719999999999999
++G gamma 1.20519 0.01008
++G gamma 1.3510799999999998 0.01728
++B beta- 2.229 0.099
++G gamma 1.21908 0.01728
++G gamma 1.36464 0.01056
++G gamma 2.39243 0.09888
++B beta- 2.22 0.0152
++G gamma 1.23841 0.015168
++B beta- 2.143 0.021099999999999997
++G gamma 1.39969 0.02112
++B beta- 2.123 0.085
++G gamma 0.23897 0.006143999999999999
++G gamma 1.5891099999999998 0.027936000000000002
++G gamma 2.61626 0.05088
++B beta- 2.115 0.0131
++G gamma 0.72188 0.013056000000000002
++B beta- 2.111 0.096
++G gamma 0.24753 0.027839999999999997
++G gamma 0.26215 0.019584
++G gamma 0.73073 0.017088
++G gamma 1.46735 0.031872
++B beta- 2.111 0.22699999999999998
++G gamma 0.57736 0.00528
++G gamma 0.68364 0.019871999999999997
++G gamma 1.06426 0.021023999999999998
++G gamma 1.61374 0.11606399999999999
++G gamma 2.6418000000000004 0.06431999999999999
++B beta- 2.035 0.069
++G gamma 0.5492999999999999 0.0035519999999999996
++G gamma 1.7749000000000001 0.00528
++G gamma 2.8018 0.06048
++B beta- 2.027 0.0144
++G gamma 0.9091 0.0144
++B beta- 2.005 0.0158
++G gamma 1.8358800000000002 0.0033599999999999997
++G gamma 2.8633 0.01248
+

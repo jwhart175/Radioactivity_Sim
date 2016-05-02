@@ -1,0 +1,144 @@
+# 83RB    83SR EC DECAY                 2000SH49                  15NDS    201503
+#  83SR EC DECAY                 2000SH49                  15NDS    201503
+#H TYP=FUL$AUT=E.A. MCCUTCHAN$CIT=NDS 125, 201 (2015)$CUT=31-Dec-2014$    
+#  2014In02: {+83}Sr activity produced by proton spallation on a          
+#  metallic Y target with E(p)=300 MeV followed by chemical separation.   
+#  Measured Ee, Ie using a combined electrostatic electron spectrometer   
+#  consisting of a retarding sphere followed by a double-pass             
+#  cylindrical mirror energy analyzer.                                    
+#  2000Sh49,2000Yu03: {+83}Sr activity produced in the {+85}Rb(p,3n)      
+#  reaction with E(p)=27.1 MeV followed by chemical separation. Target    
+#  consisted of high-purity RbCl powder. Measured E|g, I|g using a        
+#  Compton-suppressed HPGe detector and |g|g using a planar Ge detector   
+#  and a coaxial Ge detector.                                             
+#  1982Gr07: {+83}Sr activity produced in the irradiation of RbCl         
+#  pellets with 72-MeV protons.  Stacks of targets and aluminum           
+#  degraders were used and {+83}Sr was observed down to a mean proton     
+#  energy of 29 MeV. Measured E|g, I|g, |g(t) using a Ge(Li) detector     
+#  for the energy range 80 - 2250 keV and a planar Ge detector for        
+#  energies below 800 keV.                                                
+#  1973Br32: {+83}Sr activity produced first through the production of    
+#  {+83}Y in the {+65}Cu({+22}Ne,4n), E({+22}Ne)=85 MeV followed by |b    
+#  decay to {+83}Sr. Measured E|g, I|g, |g(t), |g|g, |b|g coincidences    
+#  using Ge(Li) detectors and a plastic NE102 scintillator.               
+#  Others: 1968Et01, 1972Mo16, 1972Mo40, 1982Po04                         
+#  The level scheme is that of 2000Sh49. Precise energies and             
+#  intensities are reported by 1982Gr07, however, they did not construct  
+#  a level scheme.  There is good agreement between 1973Br32 and          
+#  2000Sh49 concerning the placement of strong transitions, however,      
+#  considerable disagreement in the placement of weak transitions. These  
+#  are indicated in the comments.  Eight levels (760, 1044, 1054.5,       
+#  1085.5, 1808, 2020, 2147, and 2178 keV) proposed by 1973Br32 are not   
+#  observed in 2000Sh49. For the most part, transitions depopulating      
+#  these levels are given alternative placements in the level scheme by   
+#  2000Sh49.                                                              
+#  A total energy release of 2270 keV {I90} is calculated for this decay  
+#  using the RADLST code, in good agreement with the Q value of 2273 keV  
+#  {I6}.                                                                  
+#E TI$From an intensity balance at each level, except where noted.        
+#G E$From 2000Sh49, except where noted.  2000Sh49 give no indication of   
+#G uncertainty on |g-ray energies.                                        
+#G M,MR$From |a(K)exp and ce ratios, except where noted.                  
+#G RI$From 2000Sh49, except where noted. 2000Sh49 quote I(|g+ce) values,  
+#G however, as the experimental setup only measured |g-rays, and for      
+#G many transitions, the multipolarity is unknown, the evaluator assumes  
+#G that values correspond to I|g values.  A few exceptions for the low    
+#G energy transitions are noted in the comments.  2000Sh49 provide no     
+#G information on |DI|g.  In cases where I|g is consistent with the       
+#G measurements of 1982Gr07, the uncertainty is taken from 1982Gr07. For  
+#G all other transitions, an |?10% uncertainty is added by the evaluator. 
+#G E(a),RI(a)$A single transition with E|g=1324.45 {I20}, I|g=0.68 {I3}   
+#G and E|g=1324.6 {I4}, I|g=0.85 {I9} is observed by 1982Gr07 and         
+#G 1973Br32, respectively, and placed from the 1749-keV level by          
+#G 1973Br32. 2000Sh49 observe a closely spaced doublet of E|g=1323.8,     
+#G I|g=0.478 from the 1366-keV level and E|g=1325.62, I|g=0.258 from the  
+#G 1749-keV level. The sum of the two intensities from 2000Sh49 is in     
+#G good agreement with the intensities of the single transitions          
+#G measured in 1982Gr07, 1973Br32, suggesting the possibility of doublet  
+#G transitions in those works.                                            
+#G E(b),RI(b)$A single transition with E|g=907.7, I|g=1.01 {I4} and       
+#G E|g=907.8 {I3}, I|g=1.10 {I8} is observed by 1982Gr07 and 1973Br32,    
+#G respectively, and placed from the 1952-keV level by 1973Br32.          
+#G 2000Sh49 observe a closely spaced triplet of E|g=907.94, I|g=0.722     
+#G from the 908-keV level, E|g=907.6, I|g=0.021 from the 1375-keV level,  
+#G and E|g=906.6, I|g=0.30 from the 1296-keV level. The sum of the        
+#G intensities from 2000Sh49 is in good agreement with the intensities    
+#G of the single transitions measured in 1982Gr07, 1973Br32, suggesting   
+#G the possibility of triplet transitions in those works.                 
+#G E(c),RI(c)$A single transition with E|g=853.8, I|g=0.431 {I15} and     
+#G E|g=853.8 {I3}, I|g=0.45 {I5} is observed by 1982Gr07 and 1973Br32,    
+#G respectively, and multiply placed from the 1243- and 2057-keV levels   
+#G by 1973Br32. 2000Sh49 observe a closely spaced doublet of E|g=854.0,   
+#G I|g=0.27 from the 854-keV level and E|g=853.4, I|g=0.20 from the       
+#G 1243-keV level. The sum of the two intensities from 2000Sh49 is in     
+#G good agreement with the intensities of the single transitions          
+#G measured in 1982Gr07, 1973Br32, suggesting the possibility of doublet  
+#G transitions in those works.                                            
+#G E(d),RI(d)$A single transition with E|g=848.4, I|g=0.765 {I20} and     
+#G E|g=848.4 {I3}, I|g=0.72 {I7} is observed by 1982Gr07 and 1973Br32,    
+#G respectively, and placed from the 1952-keV level by 1973Br32.          
+#G 2000Sh49 observe a closely spaced doublet of E|g=846.9, I|g=0.19 from  
+#G the 2090-keV level and E|g=848.7, I|g=0.59 from the 854-keV level.     
+#G The sum of the two intensities from 2000Sh49 is in good agreement      
+#G with the intensities of the single transitions measured in 1982Gr07,   
+#G 1973Br32, suggesting the possibility of doublet transitions in those   
+#G works.                                                                 
+#G E(e),RI(e)$A single transition with E|g=381.5, I|g=58.2 {I13} and      
+#G E|g=381.6 {I3}, I|g=66 {I3} is observed by 1982Gr07 and 1973Br32,      
+#G respectively, and placed from the 424-keV level by 1973Br32. 2000Sh49  
+#G observe a closely spaced doublet of E|g=381.09, I|g=6.7 from the       
+#G 805-keV level and E|g=381.52, I|g=53 from the 424-keV level. The sum   
+#G of the two intensities from 2000Sh49 is in good agreement with the     
+#G intensities of the single transitions measured in 1982Gr07, 1973Br32,  
+#G suggesting the possibility of doublet transitions in those works.      
+#G E(p)$From 1982Po04.                                                    
+#G E(g),RI(s)$From 1982Gr07. Authors provide a general statement that     
+#G |DE|g|<0.1 keV for E|g below 1500 keV and |<0.15 keV for higher        
+#G energies, for cases where no uncertainty is given.                     
+#G E(r),RI(r)$From 1973Br32.  Not observed in the subsequent works of     
+#G 1982Gr07 or 2000Sh49. Assignment to {+83}Sr |e decay is questionable.  
+#L E$From a least-squares fit to E|g, by evaluator.                       
+#L T$From delay coincidence timing in 1973Br32, except where noted.       
+#L J$From the Adopted Levels.                                             
+#G MR$IF NO VALUE GIVEN IT WAS ASSUMED MR=1.00 FOR E2/M1, MR=1.00 FOR     
+#G E3/M2 AND  MR=0.10 FOR THE OTHER MULTIPOLARITIES                       
+#  CC$FROM BrIcc v2.3a (30-Jun-2013) 2008Ki07, "Frozen Orbitals" appr.    
+#  CC$FROM BrIcc v2.3 (29-Mar-2013) 2008Ki07, "Frozen Orbitals" appr.     
+#P 0.0          7/2+              32.41 H   3              2273     6     
++B beta+ 8.518999999999999E-4 0.00122
++B beta+ 0.5481 0.0040999999999999995
++B beta+ 0.5293 0.0043
++B beta+ 0.3763 0.0066
++B beta+ 0.3614 0.0068000000000000005
++B beta+ 0.22640000000000002 0.0083
++B beta+ 0.2023 0.0084
++B beta+ 0.1976 0.0084
++B beta+ 0.1904 0.0085
++B beta+ 0.1767 0.0085
++B beta+ 0.15369999999999998 0.0086
++B beta+ 0.1102 0.0087
++B beta+ 0.0996 0.00873
++B beta+ 0.0985 0.00873
++B beta+ 8.745000000000001E-4 0.0010326
++B beta+ 8.745000000000001E-4 0.0010328
++B beta+ 8.746E-4 0.0010351
++B beta+ 8.745000000000001E-4 0.001036
++B beta+ 8.744E-4 0.0010368
++B beta+ 8.743E-4 0.0010373000000000001
++B beta+ 8.740999999999999E-4 0.0010391999999999999
++B beta+ 8.74E-4 0.0010394
++B beta+ 8.729E-4 0.0010484000000000001
++B beta+ 8.729E-4 0.0010489
++B beta+ 8.728000000000001E-4 0.0010494
++B beta+ 8.726000000000001E-4 0.0010514
++B beta+ 8.722E-4 0.0010546
++B beta+ 8.716E-4 0.001059
++B beta+ 8.71E-4 0.0010639999999999998
++B beta+ 8.688E-4 0.00108
++B beta+ 8.678000000000001E-4 0.00108
++B beta+ 8.641E-4 0.0011200000000000001
++B beta+ 8.627E-4 0.00113
++B beta+ 8.598E-4 0.00115
++B beta+ 8.592E-4 0.00115
++B beta+ 8.531999999999999E-4 0.0012
+

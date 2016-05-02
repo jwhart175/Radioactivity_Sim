@@ -1,0 +1,34 @@
+#111RH    111RU B- DECAY                1998LH02                  09NDS    200905
+#  111RU B- DECAY                1998LH02                  09NDS    200905
+#H TYP=FUL$AUT=Jean Blachot$CIT=NDS 110, 1239 (2009)$CUT=1-Feb-2008$      
+#  The previous data have been kept in comments                           
+#  1998LH02: 249CF(N,F), CHEMICALLY SEPARATED, G, GG, T, BG(T).           
+#  PRELIMINARY RESULTS:                                                   
+#  1992PEZX: 238U(P,F), E=20 MEV, ON-LINE ISOTOPE SEPARATOR IGISOL        
+#  MEASURED: G, GG, G(T), CE, GELI, Ge, SILI, ^ELLI SPECTROMETER          
+#  1990RO13: 249CF(N,F), CHEMICALLY SEPARATED, G, GG,  T                  
+#  1990RO13 HAVE POSTULATED A INTRUDER BAND FOR LEVELS AT 395,            
+#  440, 568, and 663 KEV. THEY FIT A=19.77 KEV, B=-1.701                  
+#  1991SHZX: 252CF SF, CHEMICALLY SEPARATED, REPORT 4 GAMMAS              
+#  THE LEVEL SCHEME IS  as GIVEN BY 1998LH02. They have                   
+#  added the 568, 732                                                     
+#  860, 960, 977, 1018, 1039, 1096, 1160, 1349, 2127, 2215 levels to the  
+#  level scheme of 1992PEZX.                                              
+#G M$From 1992PEZX. DIFFERENT METHODS WERE USED: SIMULTANEOUS MEASUREMENT 
+#G OF CONVERSION ELECTRONS AND GAMMAS AND ALSO ELECTRON INTENSITY         
+#G  FROM THE K-ALPHA X-RAY COINCIDENT SPECTRUM.                           
+#G E,RI$ From 1998LH02                                                    
+#G E(A)$ Tentative placement from 1998LH02                                
+#L T$ From BG(T) 1998LH02                                                 
+#P 0.0         (5/2+)            2.12 S    7              5.69E+3   8     
+RU111 RH111 beta- 5.69 2.12 0.165
++G gamma 0.2114 0.75
++G gamma 0.30360000000000004 1.0
++G gamma 0.0787 0.27
++G gamma 0.382 0.33
++G gamma 0.0 0.061
++G gamma 0.395 0.14
++G gamma 0.0455 0.005
++G gamma 0.1891 0.145
++G gamma 1.0546 0.128
+

@@ -1,0 +1,57 @@
+#191BI    195AT A DECAY (328 MS)        2003KE04,1999TA20,1995LE1507NDS    200710
+#  195AT A DECAY (328 MS)        2003KE04,1999TA20,1995LE1507NDS    200710
+#H TYP=FUL$AUT=V.R. Vanin et al.$CUT=1-Dec-2006$CIT=NDS 108, 2393 (2007)$ 
+#                                                                         
+#  2003Ke04,2005Ke10: Production of {+195}At by {+142}Nd({+56}Fe,p2n),    
+#  E(lab) = 255-268 MeV. The evaporation residues formed in               
+#  the fusion reaction were separated using the ^RITU gas-filled mass     
+#  separator and implanted into a position-sensitive Si strip             
+#  detector. A multiwire proportional avalanche gas counter was used to   
+#  discriminate |a-ray particles from other signals in the Si detector.   
+#  A Compton-suppressed, 40% relative efficiency, Ge detector was used    
+#  for prompt |a-|g coincidence measurements.                             
+#  1995Le15: Production of {+195}At from {+141}Pr({+56}Fe,2n),            
+#  E(target)=249 MeV. Reaction fragment separation using gas-filled mass  
+#  separator ^RITU. Used parent-daughter, and time and position-correlated
+#  event evaluation.                                                      
+#  1999Ta20: Used reaction {+169}Tm({+36}Ar,|a6n), E = 215 MeV. ^RIKEN    
+#  ring cyclotron. Recoil reaction products separated with the gas-filled 
+#  recoil separator ^GARIS. Detection of recoil fragments and decay |a    
+#  rays using two-dimensional position-sensitive Si detector at the focal 
+#  plane. Microchannel plate placed before this detector allows to        
+#  distinguish evaporation residues from alpha particles. ^RDT method,    
+#  analyzed correlated recoil-|a1-|a2 decay chains.                       
+#L J,T,E     From adopted levels.                                         
+#P 0.0          (1/2+)             328 MS  20                  7339  5    
++A alpha 6.953 1.0
+
+#191BI    195AT A DECAY (147 MS)        2003KE04,1999TA20         07NDS    200710
+#  195AT A DECAY (147 MS)        2003KE04,1999TA20         07NDS    200710
+#H TYP=FUL$AUT=V.R. Vanin et al.$CUT=1-Dec-2006$CIT=NDS 108, 2393 (2007)$ 
+#                                                                         
+#  1999Ta20: reaction {+169}Tm({+36}Ar,|a6n), E = 215 MeV. ^RIKEN ring    
+#  cyclotron. Recoil reaction products separated with the gas-filled      
+#  recoil separator ^GARIS. Detection of recoil fragments and decay |a    
+#  rays using two-dimensional position-sensitive Si detector at the focal 
+#  plane. Microchannel plate placed before this detector allows to        
+#  distinguish evaporation residues from alpha particles. ^RDT method.    
+#  Analyze correlated recoil-alpha1-alpha2 decay chains.                  
+#  2003Ke04,2005Ke10: Production of {+195}At by {+142}Nd({+56}Fe,P2N),    
+#  E(lab) = 255-268 MeV. The evaporation residues formed in               
+#  the fusion reaction were separated using the ^RITU gas-filled mass     
+#  separator and implanted into a position-sensitive Si strip             
+#  detector. A multiwire proportional avalanche gas counter was used to   
+#  discriminate |a-ray particles from other signals in the Si detector.   
+#  A Compton-suppressed, 40% relative efficiency, Ge detector was used    
+#  for prompt |a-|g coincidence measurements.                             
+#A           |a-ray energy and relative intensity from                    
+#A 2003Ke04 (see also preliminary data in 1995Le15, 1999Ta20).            
+#A HF        A r{-0}({+191}Bi)=1.54 {I2} is obtained as average of the    
+#A r{-0} values for the neighboring even-Z, N=108 isotones:               
+#A r{-0}({+190}Pb)=1.511 {I6}, from 1998Ak04, and r{-0}({+192}Po)=1.56    
+#A {I2}, from extrapolation of trend for Po isotopes (1998Ak04).          
+#L T,J       From adopted levels.                                         
+#P 32        7  (7/2-)           147 MS    5                   7339  5    
++A alpha 7.221 0.045
++A alpha 7.075 0.955
+

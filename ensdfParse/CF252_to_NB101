@@ -1,0 +1,368 @@
+#101NB  XC252CF SF DECAY                                                         
+#XC252CF SF DECAY                                                         
+#N                                                                     6  
+#L 0.0          (5/2+)           7.1 S     3                          A   
+#L XREF=ABC                                                               
+#L %B-=100                                                                
+#L T$via 276|g-decay curve: { 7.1 s {i3}} (1972Tr08), { 7.2 s {i3}}       
+#L (1970Ei02)                                                             
+#L     119.41 7 (7/2+)           84 PS     4                          a   
+#L XREF=ABC                                                               
+#G 119.3     1  100       M1(+E2)  0.33    LT     0.162 24                
+#G BM1W>0.11$BE2W<8.9E+2                                                  
+#L     205.28 7 (3/2-)           1.83 NS   3                          c   
+#L XREF=AC                                                                
+#G 205.7     1 100          D                                             
++G gamma 0.2057 1.0
+#L     208.36 8 (5/2-)           0.80 NS   5                          B   
+#L XREF=AC                                                                
+#G 208.5     1 100                                                        
++G gamma 0.2085 1.0
+#L     255.2410 (9/2+)              35 PS  5                          A   
+#L XREF=ABC                                                               
+#G 135.8     1 100     8   M1(+E2) 1.05    LT    0.17   7                 
++G gamma 0.1358 1.0
+#G BM1W>0.071$BE2W<5.9E+3                                                 
+#G 255.2     3 17      5                                                  
++G gamma 0.2552 0.17
+#L     346.08 8  (5/2-)             24 PS  5                          C   
+#L XREF=AC                                                                
+#G 137.9     2 6       3                                                  
++G gamma 0.1379 0.06
+#G 140.6     1 100     6  M1+E2    0.25    LT    0.096  7                 
++G gamma 0.1406 1.0
+#G BM1W>0.18$BE2W<8.4E+2                                                  
+#G 226.8     1 3       3                                                  
++G gamma 0.2268 0.03
+#G 346.2     2 13      3                                                  
++G gamma 0.3462 0.13
+#L     373.9910 (7/2-)              19 PS  11                         b   
+#L XREF=AC                                                                
+#G 165.7     1 83      33                                                 
++G gamma 0.1657 0.83
+#G 254.4     2 50      17                                                 
++G gamma 0.2544 0.5
+#G 373.9     2 100     17                                                 
++G gamma 0.37389999999999995 1.0
+#L      532.1 1 (7/2-)              13 PS  10                         c   
+#L XREF=AC                                                                
+#G 186.0     1 100     20 M1,E2                  0.08   4                 
++G gamma 0.186 1.0
+#G 327.1     5 22      8                                                  
++G gamma 0.3271 0.22
+#L   532.2     (11/2+)                                                a   
+#L XREF=BC                                                                
+#G 276.8     3   100                                                      
+#G 412.8     3   13                                                       
+#L 572.8        (9/2-)                                                B   
+#L XREF=C                                                                 
+#G 198.6                                                                  
+#G 364.2                                                                  
+#L     593.4 2                                                            
+#L XREF=A                                                                 
+#G 338.2     1 73      9                                                  
++G gamma 0.3382 0.73
+#G 473.9     2 100     9                                                  
++G gamma 0.4739 1.0
+#G 593.5     5 100     36                                                 
++G gamma 0.5935 1.0
+#L     597.9 2                                                            
+#L XREF=A                                                                 
+#G 597.8     2 100                                                        
++G gamma 0.5978 1.0
+#L     673.2 3                                                            
+#L XREF=A                                                                 
+#G 417.5     2 8       4                                                  
++G gamma 0.4175 0.08
+#G 553.6     1 100     8                                                  
++G gamma 0.5536 1.0
+#G 673.1     3 15      8                                                  
++G gamma 0.6731 0.15
+#L     702.6 3                                                            
+#L XREF=A                                                                 
+#G 494.3     4 13      13                                                 
++G gamma 0.4943 0.13
+#G 497.3     2 100     13                                                 
++G gamma 0.4973 1.0
+#L     722.2 2                      25 PS  5                              
+#L XREF=A                                                                 
+#G 124.4     2 17      3                                                  
++G gamma 0.12440000000000001 0.17
+#G 722.2     2 100     7                                                  
++G gamma 0.7222000000000001 1.0
+#L      729.3   (13/2+)                                               A   
+#L XREF=BC                                                                
+#G 197.7     1 100                                                        
++G gamma 0.1977 1.0
+#G 473.9     2 67                                                         
++G gamma 0.4739 0.67
+#L 747.1        (9/2-)                                                C   
+#L XREF=C                                                                 
+#G 214.1                                                                  
+#G 400.3                                                                  
+#L     777.8 3                                                            
+#L XREF=A                                                                 
+#G 569.7     4 33      33                                                 
++G gamma 0.5697000000000001 0.33
+#G 572.5     2 100     33                                                 
++G gamma 0.5725 1.0
+#L     783.1 5                                                            
+#L XREF=A                                                                 
+#G 108.3     2 6       3                                                  
++G gamma 0.1083 0.06
+#G 183.6     4 9       3                                                  
++G gamma 0.18359999999999999 0.09
+#G 781.6     3 100     15                                                 
++G gamma 0.7816000000000001 1.0
+#L 809.4        (11/2-)                                               b   
+#L XREF=C                                                                 
+#G 236.3     3                                                            
+#G 435.1     3                                                            
+#L     878.9615                                                           
+#L XREF=A                                                                 
+#G 759.6     2 100     10                                                 
++G gamma 0.7596 1.0
+#G 878.9     2 75      10                                                 
++G gamma 0.8789 0.75
+#L     899.4515                                                           
+#L XREF=A                                                                 
+#G 553.3     2 83      17                                                 
++G gamma 0.5532999999999999 0.83
+#G 693.9     2 100     17                                                 
++G gamma 0.6939 1.0
+#L     912.0412                                                           
+#L XREF=A                                                                 
+#G 706.3     2 5.2     17                                                 
++G gamma 0.7062999999999999 0.052000000000000005
+#G 912.2     2 100     7                                                  
++G gamma 0.9122 1.0
+#L     921.6019                                                           
+#L XREF=A                                                                 
+#G 802.4     2 100                                                        
++G gamma 0.8024 1.0
+#L     952.7722                                                           
+#L XREF=A                                                                 
+#G 744.9     3 33      17                                                 
++G gamma 0.7449 0.33
+#G 747.0     3 100     17                                                 
++G gamma 0.747 1.0
+#L 1006.5       (11/2-)                                               c   
+#L XREF=C                                                                 
+#G 259.4     3                                                            
+#G 473.4     3                                                            
+#L    1061.3515                                                           
+#L XREF=A                                                                 
+#G 806.4     3 100     33                                                 
++G gamma 0.8064 1.0
+#G 941.8     2 33      33                                                 
++G gamma 0.9418 0.33
+#L 1073.2       (13/2-)                                               B   
+#L XREF=C                                                                 
+#G 263.9     3                                                            
+#G 500.4     3                                                            
+#L     1093.3   (15/2+)                                               a   
+#L XREF=BC                                                                
+#G 364.0     3 100                                                        
++G gamma 0.364 1.0
+#G 561.1     3 14                                                         
++G gamma 0.5611 0.14
+#G FL=532.2                                                               
+#L    1109.4419                                                           
+#L XREF=A                                                                 
+#G 904.2     2 100                                                        
++G gamma 0.9042 1.0
+#L    1119.4312                                                           
+#L XREF=A                                                                 
+#G 587.2     3 22      11                                             @   
++G gamma 0.5872 0.22
+#G FL=532.1                                                               
+#G 773.5     2 56      11                                                 
++G gamma 0.7735 0.56
+#G 911.2     2 33      11                                                 
++G gamma 0.9112 0.33
+#G 914.1     2 67      11                                                 
++G gamma 0.9141 0.67
+#G 1119.0    3 100     44                                                 
++G gamma 1.119 1.0
+#L    1126.2118                                                           
+#L XREF=A                                                                 
+#G 920.7     2 100                                                        
++G gamma 0.9207000000000001 1.0
+#L    1180.2819                                                           
+#L XREF=A                                                                 
+#G 587.2     3 100     23                                             @   
++G gamma 0.5872 1.0
+#G 971.5     4 15      8                                                  
++G gamma 0.9715 0.15
+#G 1060.9    3 54      15                                                 
++G gamma 1.0609000000000002 0.54
+#G 1180.0    5 77      15                                                 
++G gamma 1.18 0.77
+#L 1280.98   12 (13/2-)                                               C   
+#L XREF=C                                                                 
+#G 275.2     1   62                                                       
+#G 534.6     1   100                                                      
+#L     1294.2 6                                                           
+#L XREF=A                                                                 
+#G 1085.8    6 100                                                        
++G gamma 1.0857999999999999 1.0
+#L 1340.1       (17/2+)                                               A   
+#L XREF=C                                                                 
+#G 246.9     3                                                            
+#G 611.0     3                                                            
+#L 1373.7       (15/2-)                                               b   
+#L XREF=C                                                                 
+#G 300.5     3                                                            
+#G 564.4     3                                                            
+#L 1599.37   13 (15/2-)                                               c   
+#L XREF=C                                                                 
+#G 318.4     1   1.9                                                      
+#G 593.5     1   3.6                                                      
+#L     1620.1 4                                                           
+#L XREF=A                                                                 
+#G 1364.9    3 100                                                        
++G gamma 1.3649 1.0
+#L 1693.3       (17/2-)                                               B   
+#L XREF=C                                                                 
+#G 319.6     3                                                            
+#G 620.1     3                                                            
+#L 1773.1       (19/2+)                                               a   
+#L XREF=C                                                                 
+#G 433.0     3                                                            
+#G 680.0     3                                                            
+#L     1844.3 3                                                           
+#L XREF=A                                                                 
+#G 1635.9    3 100                                                        
++G gamma 1.6359000000000001 1.0
+#L    1878.1212                                                           
+#L XREF=A                                                                 
+#G 751.4     3 41      6                                                  
++G gamma 0.7514 0.41
+#G 966.0     1 65      12                                                 
++G gamma 0.966 0.65
+#G 1095.8    4 47      18                                                 
++G gamma 1.0957999999999999 0.47
+#G 1156.0    2 100     18                                                 
++G gamma 1.156 1.0
+#G 1280.6    4 41      12                                                 
++G gamma 1.2806 0.41
+#G 1673.1    3 18      6                                                  
++G gamma 1.6730999999999998 0.18
+#L 1924.83   14 (17/2-)                                               C   
+#L XREF=C                                                                 
+#G 325.4     1   52                                                       
+#G 643.9     1   100                                                      
+#L    1925.4317                                                           
+#L XREF=A                                                                 
+#G 816.1     3 16      5                                                  
++G gamma 0.8161 0.16
+#G 1143.0    3 63      16                                                 
++G gamma 1.143 0.63
+#G 1327.6    3 53      11                                                 
++G gamma 1.3276 0.53
+#G 1924.5    3 100     16                                                 
++G gamma 1.9245 1.0
+#L    1929.5321                                                           
+#L XREF=A                                                                 
+#G 1810.1    2 100                                                        
++G gamma 1.8100999999999998 1.0
+#L    1957.8713                                                           
+#L XREF=A                                                                 
+#G 896.5     2 11      4                                                  
++G gamma 0.8965 0.11
+#G 1037.1    4 6       2                                                  
++G gamma 1.0371 0.06
+#G 1838.5    2 46      6                                                  
++G gamma 1.8385 0.46
+#G 1957.6    2 100     11                                                 
++G gamma 1.9576 1.0
+#L    2009.6613                                                           
+#L XREF=A                                                                 
+#G 1337.1    3 14      4                                                  
++G gamma 1.3371 0.14
+#G 1801.1    2 25      4                                                  
++G gamma 1.8011 0.25
+#G 1890.6    6 5.3     18                                                 
++G gamma 1.8905999999999998 0.053
+#G 2009.5    2 100     12                                                 
++G gamma 2.0095 1.0
+#L    2030.8020                                                           
+#L XREF=A                                                                 
+#G 1131.0    2 63      13                                                 
++G gamma 1.131 0.63
+#G 1249.0    4 100     63                                                 
++G gamma 1.249 1.0
+#G 1825.5    4 100     13                                                 
++G gamma 1.8255 1.0
+#L 2046.18   16 (19/2-)                                               b   
+#L XREF=C                                                                 
+#G 353.2                                                                 ?
+#G 672.5     1   100                                                      
+#L 2073.1       (21/2+)                                               A   
+#L XREF=C                                                                 
+#G 733.0     3  100                                                       
+#L     2096.1 3                                                           
+#L XREF=A                                                                 
+#G 1750.0    3 100                                                        
++G gamma 1.75 1.0
+#L     2118.7 4                                                           
+#L XREF=A                                                                 
+#G 1910.3    4 100     25                                                 
++G gamma 1.9102999999999999 1.0
+#G 1999.3    5 100     25                                                 
++G gamma 1.9992999999999999 1.0
+#L 2288.9    10 (19/2-)                                               c   
+#L XREF=C                                                                 
+#G 364.2     3                                                            
+#G FL=1924.83                                                             
+#G 689.5     3                                                            
+#L 2415.3       (21/2-)                                               B   
+#L XREF=C                                                                 
+#G 721.8     2   100                                                      
+#L 2547.32   15 (23/2+)                                               a   
+#L XREF=C                                                                 
+#G 474.7     1  100                                                       
+#G 774.4     1  100                                                       
+#L 2624.13   17 (21/2-)                                               C   
+#L XREF=C                                                                 
+#G 335.0     2                                                           ?
+#G 699.3     1                                                            
+#L 2810.18   19 (23/2-)                                               b   
+#L XREF=C                                                                 
+#G 764.0     1  100                                                       
+#L 2906.47   15 (25/2+)                                               A   
+#L XREF=C                                                                 
+#G 359.1     1                                                            
+#G 833.9     1  100                                                       
+#L 3206.88   19 (25/2-)                                               B   
+#L XREF=C                                                                 
+#G 792.1     1  100                                                       
+#L 3396.63   18 (27/2+)                                               a   
+#L XREF=C                                                                 
+#G 490.3     2                                                           ?
+#G 849.3     1   100                                                      
+#                                                                         
+
+#101NB    252CF SF DECAY                2005LU21,1998HW08         ENSDF    200610
+#  252CF SF DECAY                2005LU21,1998HW08         ENSDF    200610
+#H TYP=FUL$AUT=JEAN BLACHOT$CIT=ENSDF$CUT=1-Jul-2006$                     
+#  All data are from 2005Lu21. The level scheme was less complete in      
+#  1998Hw08                                                               
+#  Measured |g, |g|g|g using GAMMASPHERE array of 102 Compton-suppressed  
+#  Ge detectors. In 1998Hw08, the GAMMASPHERE array contained 72 Ge       
+#  detectors                                                              
+#G E$2005Lu21 state 0.1 keV as the systematic uncertainty in energy       
+#G determination.                                                         
+#G RI$Uncertainty varies from 3% for strong transitions to 20% for        
+#G weaker ones. When no intensity is listed, the peak has very small      
+#G intensity or overlapped by other transitions                           
+#L E$From least-squares fit to E|g's (by evaluator)                       
+#L J$As given by the authors based on band assignments                    
+#L BAND(A)$ 5/2[422], |a=+1/2                                             
+#L BAND(a)$ 5/2[422], |a=-1/2                                             
+#L BAND(B)$ 5/2[303], |a=+1/2                                             
+#L BAND(b)$ 5/2[303], |a=-1/2                                             
+#L BAND(C)$ 3/2[301], |a=+1/2                                             
+#L BAND(c)$ 3/2[301], |a=-1/2                                             
+#P 0            0+               2.645 Y   8                              
+

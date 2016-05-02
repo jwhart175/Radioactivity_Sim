@@ -1,0 +1,42 @@
+#171IR C  2002RO17: 175AU FROM 179TL A DECAY;                                    
+#  2002RO17: 175AU FROM 179TL A DECAY;                                    
+#  179TL PRODUCED BY BOMBARDMENT OF 90.4%                                 
+#  ENRICHED 102PD TARGETS WITH 78KR, E=340 MEV (MID-TARGET); GAS-FILLED   
+#  SEPARATOR, TWO PARALLEL-PLATE AVALANCHE COUNTERS (PPACs), SI STRIP     
+#  DETECTOR IN FOCAL PLANE, TOF MEASURED BETWEEN ^PPAC AND FOCAL PLANE    
+#  DETECTOR; TWO HPGe DETECTORS NEAR FOCAL PLANE TO MEASURE G AND X RAYS; 
+#  MEASURED EA (FWHM=35 KEV), PARENT-DAUGHTER (OR GRANDDAUGHTER)          
+#  CORRELATIONS; DEDUCED ^T{-1/2}(171IR), CORRECTED FOR RANDOM            
+#  CORRELATION RATES.                                                     
+#            175AU PARENT PROPERTIES: ^T{-1/2} HAS NOT BEEN REPORTED;     
+#  JPI=(1/2+) BY ANALOGY WITH 171AU AND 173AU (BOTH 1/2+; SEE 1999PO09);  
+#  QA=6562 IF OBSERVED 6412A IS A GS TO GS TRANSITION; |a DECAY HAS BEEN  
+#  OBSERVED SO %A GT 0.                                                   
+#P 0.0          (1/2+)                                    6562            
+AU175 IR171 alpha 6.562 0.0 1.0
++A alpha 6.412 1.0
+
+#171IR C  2002RO17: 175AU FROM 179TL A DECAY;                                    
+#  2002RO17: 175AU FROM 179TL A DECAY;                                    
+#  179TL PRODUCED BY BOMBARDMENT OF 90.4%                                 
+#  ENRICHED 102PD TARGETS WITH 78KR, E=340 MEV (MID-TARGET); GAS-FILLED   
+#  SEPARATOR, TWO PARALLEL-PLATE AVALANCHE COUNTERS (PPACs), SI STRIP     
+#  DETECTOR IN FOCAL PLANE, TOF MEASURED BETWEEN ^PPAC AND FOCAL PLANE    
+#  DETECTOR; TWO HPGe DETECTORS NEAR FOCAL PLANE TO MEASURE G AND X RAYS; 
+#  MEASURED EA (FWHM=35 KEV), PARENT-DAUGHTER (OR GRANDDAUGHTER)          
+#  CORRELATIONS; DEDUCED ^T{-1/2}, CORRECTED FOR RANDOM CORRELATION RATES.
+#            ^T{-1/2}(175AU)=160 MS 5 IS WEIGHTED AVERAGE OF              
+#  200 MS 22 (1983SC24), 185 MS 30 (1996PA01), 158 MS 3 (2002RO17) (ALL   
+#  FOR 6439A); THE UNWEIGHTED AVERAGE OF THESE DATA IS 185 MS 9.          
+#            JPI(175AU)=(11/2-) BASED ON APPARENTLY UNHINDERED            
+#  |a DECAY TO (11/2-) 171IR.                                             
+#A HF        If R0=1.56 1 (based on R0 for 170OS, 172OS, 170PT, 172PT     
+#A obtained from 1998AK04), ^T{-1/2}(175AU)=160 MS 5,                     
+#A QA=6562 (which assumes that EA=6412 (2002RO17) is the GS to GS         
+#A transition; QA=6680 SY IN 1995AU04), E AP 200 FOR PARENT LEVEL         
+#A (BASED ON E(11/2-)=250 16 IN 171AU AND 214 23 IN 173AU                 
+#A (1997DA07,1999PO09)).                                                  
+#P 0.0+X        (11/2-)          160 MS    5              6562            
+AU175 IR171 alpha 6.562 0.16 0.94
++A alpha 6.439 1.0
+

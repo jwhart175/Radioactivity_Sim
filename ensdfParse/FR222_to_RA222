@@ -1,0 +1,54 @@
+#222RA    222FR B- DECAY                1992RU01                  11NDS    201111
+#  222FR B- DECAY                1992RU01                  11NDS    201111
+#H TYP=FUL$AUT=Sukhjeet Singh, A. K. Jain, Jagdish K. Tuli$               
+#H CIT=NDS 112,2851 (2011)$CUT=31-Mar-2011$                               
+#  The {+222}Fr |b{+-} decay scheme is presented as constructed by        
+#  1992Ru01 based on their |b-gated |g|g-coincidence measurements. The    
+#  decay scheme was built upon the previously known levels which were     
+#  established up to the 1170-keV level.                                  
+#B $ See 1975We23 for singles |b spectrum measurements. The spectrum      
+#B shows a flat tail of low intensity and extended to much higher         
+#B energy than the main portion of the data. After subtraction of this    
+#B tail (which was assumed due to |a particles from {+222}Ra),            
+#B an F-K analysis gives E|b(max)=1780 {I20} for the endpoint which does  
+#B not agree with the E|b{+-} (to 111.12 level).                          
+#B IB$        From intensity balance at each level.                       
+#G E$ From 1992Ru01, except where noted. Other measurement: 1985Go05      
+#G RI$        Relative photon intensities, measured by 1992Ru01.          
+#G M$         From {+226}Th |a decay. The multipolarities in square       
+#G brackets are from the level scheme.                                    
+#G $ |b|g, |b|g|g: see 1992Ru01                                           
+#G                                                                        
+#G           X rays(Ra):                                                  
+#G                 E             I(x ray)/I(206|g)                        
+#G               1985Go05    1985Go05      calculated                     
+#G               --------    ---------     ----------                     
+#G                88.5       0.143 {I20}       0.111 {I16}    K|a| x ray  
+#G               100.0       0.0275 {I35}      0.032 {I5}     K|b| x ray  
+#G                                                                        
+#P 0.0          2-               14.2 M    3              2032      21    
+FR222 RA222 beta- 2.032 852.0 1.0
++B beta- 0.703 0.03
++B beta- 0.688 0.38
++B beta- 0.634 0.017
++B beta- 0.586 0.0037
++B beta- 0.604 0.54
++B beta- 0.327 0.0085
++B beta- 0.273 7.000000000000001E-4
++B beta- 0.273 0.0078000000000000005
++B beta- 0.253 8.699999999999999E-4
++B beta- 0.239 0.0034000000000000002
++B beta- 0.223 2.1999999999999998E-4
++B beta- 0.205 5.2E-4
++B beta- 0.2 3.7E-4
++B beta- 0.191 0.006500000000000001
++B beta- 0.181 0.00147
++B beta- 0.178 0.0034000000000000002
++B beta- 0.158 0.00117
++B beta- 0.139 6.900000000000001E-4
++B beta- 0.119 4.9E-4
++B beta- 0.111 0.0012
++B beta- 0.077 0.0010299999999999999
++B beta- 0.057 1.6E-4
++B beta- 0.051 0.001
+

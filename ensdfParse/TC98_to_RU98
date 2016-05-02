@@ -1,0 +1,20 @@
+# 98RU    98TC B- DECAY (4.2E+6 Y)      1973COYY                  03NDS    200305
+#  98TC B- DECAY (4.2E+6 Y)      1973COYY                  03NDS    200305
+#H TYP=FUL$AUT=BALRAJ SINGH, ZHIQIANG HU$CIT=NDS 98, 335 (2003)$          
+#H CUT=31-Jan-2003$                                                       
+#  1973COYY: Measured G                                                   
+#  Others:                                                                
+#  B-: 1973OK05, 1955KA26                                                 
+#  B-G: 1973OK05, 1956OK15, 1956BO65, 1955KA26                            
+#  G: 1993KO64, 1958KA11, 1956BO65, 1955KA26                              
+#  T1/2 (98TC isotope): 1973OK05, 1993KO64. Others:                       
+#  1956OK15 (quoted by 1956BO65), 1955BO97, 1955KA26                      
+#G           1979DZ07 deduced RI(745G)/RI(652G)                           
+#G           RI(1398G) LT 0.49 (1973COYY)                                 
+#L           The level scheme is as suggested by 1955KA26                 
+#L J$From adopted levels                                                  
+#P 0           (6)+              4.2E+6 Y  3              1796      7     
++G gamma 0.6524099999999999 1.0
++B beta- 0.118 1.0
++G gamma 0.7453500000000001 1.02
+

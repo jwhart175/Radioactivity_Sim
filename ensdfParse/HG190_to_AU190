@@ -1,0 +1,49 @@
+#190AU    190HG EC DECAY (20.0 M)       1976BI09                  03NDS    200306
+#  190HG EC DECAY (20.0 M)       1976BI09                  03NDS    200306
+#H TYP=FUL$AUT=BALRAJ SINGH$CIT=NDS 99, 275 (2003)$CUT=30-Apr-2003$       
+#  1976Bi09 (also 1988KoZW): Source from {+190}Pb |e decay. Mass          
+#  separated {+190}Pb obtained from {+181}Ta({+16}O,7n) and W({+16}O,xn)  
+#  E=143 MeV. Measured |g, |g|g                                           
+#  Others:                                                                
+#  |g: 1968Ki04, 1964Ja05, 1960Al20, 1960Po07, 1959Al94                   
+#  ce: 1968Ki04, 1964Ja05 (magnetic spectrometer), 1954Gi04               
+#  ce ce(t) and ce |g(t): 1985Ab03                                        
+#  |b{++}: 1974DiZQ (also 1973ViZJ), 1961Ja17, 1959Al94                   
+#  Q value from |b{++} data: 1974DiZQ (also 1973ViZJ)                     
+#  T{-1/2} and production of {+190}Hg: 1969Na10, 1968Ki04, 1964Ja05,      
+#  1961Ja25, 1961Ja17, 1961An02, 1960Al20, 1960Po07, 1959Al94, 1954Gi04   
+#  Except for the 29.1 and 171.6 levels, the decay scheme                 
+#  of {+190}Hg to {+190}Au is considered as poorly known                  
+#E           Q value from |b{++} data is reported as 2100 {I80}           
+#E (1974DiZQ) from |b{++} data. Also quoted as 1910 {I80} (1973ViZJ) by   
+#E the same group. The value of 2100 {I80} later revised to 3070 {I300}   
+#E (priv. comm. to 1976Bi09 from authors of 1974DiZQ). The original value 
+#E of 1910 is in better agreement with the syst value of 1600 {I100}      
+#E (1985Wa02) and with reported %|b{++}<1 (1959Al94), |?2 (1961Ja17). Q   
+#E value of 3070 keV will produce a significantly larger %|b{++}          
+#E component which is not apparent in the intensity of annihilation       
+#E radiation shown in the |g-ray spectrum by 1976Bi09. The systematics    
+#E value (1985Wa02) is adopted here                                       
+#G RI$Uncertainty of |?20% assumed by the evaluator. Intensities for      
+#G 6 |g rays reported by 1968Ki04 are in general agreement                
+#G M,MR$From |a(K)exp, unless otherwise noted. ce data normalized to      
+#G 142.6|g treated as E1 with |a(K)=0.137. Uncertainties on |a(K)exp's    
+#G assumed as |?30% (evaluator)                                           
+#L E$From least-squares fit to E|g's; uncertainty on E|g assumed as 0.3   
+#L J$From adopted levels                                                  
+#P 0.0         0+                20.0 M    5              1.52E3    10    
+HG190 AU190 beta+ 1.52 1200.0 1.0
++B beta+ 8.035E-4 0.00148
++B beta+ 0.245 0.00804
++B beta+ 8.032E-4 0.02
++B beta+ 8.031000000000001E-4 0.02
++B beta+ 8.026999999999999E-4 0.03
++B beta+ 0.167 0.008020000000000001
++B beta+ 8.012000000000001E-4 0.07
++B beta+ 8.001E-4 0.0
++B beta+ 7.989000000000001E-4 0.02
++B beta+ 7.987999999999999E-4 0.03
++B beta+ 7.987999999999999E-4 0.03
++B beta+ 7.987999999999999E-4 0.03
++B beta+ 7.986E-4 0.03
+

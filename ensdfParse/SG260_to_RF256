@@ -1,0 +1,35 @@
+#256RF    260SG A DECAY (4.95 MS)       2009HE20,1985MU11         ENSDF    201404
+#  260SG A DECAY (4.95 MS)       2009HE20,1985MU11         ENSDF    201404
+#H TYP=FUL$AUT=BALRAJ SINGH$CIT=ENSDF$CUT=31-MAR-2014$                    
+#H TYP=FUL$AUT=Y. A. AKOVALI$CIT=NDS 87, 287 (1999)$CUT=1-Oct-1998$       
+#  {+260}Sg assignment: {+207}Pb({+54}Cr,n), {+208}Pb({+54}Cr,2n); parent 
+#  of {+256}Rf (1984De07,1984Og03,1985Mu11)                               
+#  1985Mu11: measured E|a, I|a, half-life                                 
+#  2009He20: {+260}Sg produced in the {+208}Pb({+54}Cr,2n) and            
+#  {+207}Pb({+54}Cr,n) reactions with the {+54}Cr beam delivered by the   
+#  charge state injector of the UNILAC accelerator at GSI Darmstadt.      
+#  Evaporation residues were separated by the velocity filter SHIP and    
+#  implanted into a 16-strip Si PIPS detector. A box of six Si-wafers was 
+#  used to measure escaping |a-particles. A Ge clover detector consisting 
+#  of four crystals was used to measure |g rays in coincidence with       
+#  particles. Measured E|a, E|g, half-lives, |s.                          
+#  Q(|a)({+260}Sg)=9923 {I30} is recommended by 1995Au04 which is         
+#  calculated from E|a(to {+256}Rf g.s.)=9770 {I30}.                      
+#  %|a=50 {I+20-30} was obtained by 1985Mu11.                             
+#  When |a branching of 50% is used, r{-0}({+256}Rf)=1.486 is calculated  
+#  from HF(9770|a)=1.0. This r{-0} parameter is larger than the           
+#  expected r{-0} of 1.465 {I20}, obtained from the trend of r{-0} values 
+#  given in 1998Ak04.                                                     
+#  Calculations by using r{-0}=1.465 {I20} yield 12 ms {I+6-5} for        
+#  partial |a of half-life of {+260}Sg, corresponding to %|a=30           
+#  {I+20-10} [T{-1/2}({+260}Sg)=3.6 {I9} ms is used]. See '{+260}Sg       
+#  adopted levels' for partial |a half-lives calculated theoretically.    
+#A E$Measured by 1985Mu11.                                                
+#A IA$|a intensity per 100 |a decays, measured by 1985Mu11.               
+#A HF$r{-0}({+256}Rf)=1.465 fm {I20}, obtained from the trend of          
+#A r{-0} values, is recommended                                           
+#L J,T$From Adopted Levels                                                
+#P 0.0          0+               4.95 MS   33              9901     10    
++A alpha 9.77 0.83
++A alpha 9.72 0.17
+

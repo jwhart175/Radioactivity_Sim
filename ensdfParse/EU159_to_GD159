@@ -1,0 +1,64 @@
+#159GD    159EU B- DECAY                1969KE10                  12NDS    201201
+#  159EU B- DECAY                1969KE10                  12NDS    201201
+#H TYP=FUL$AUT=C. W. Reich$CIT=NDS 113, 157 (2012)$CUT=31-Dec-2010$       
+#  DATA SET UPDATED (MAY, 2009) BY CW REICH TO INCLUDE REVISED QP AND     
+#   RI(17.1) VALUES, NEW CC VALUES, POINTING OUT A QUESTIONABLE LEVEL     
+#   AND COMMENTS ABOUT SUBSEQUENT PROPOSED PLACEMENTS OF GAMMAS..         
+#  The decay scheme is that of 1969Ke10 and data are from 1969Ke10,       
+#       unless otherwise noted.  Other: 1961Ku10, 1964Iw01, 1965Iw01,     
+#       1965Mu16, 1966Da06, 1966Da19, 1974Da24.                           
+#  The intensity of the B- feeding of the several levels                  
+#       below 60 keV is not known; therefore, the absolute B- feeding     
+#       of the higher levels is not known. However, the intensities       
+#       have been normalized for a particular assumption about this B     
+#       feeding.                                                          
+#B           1965Iw01 assume that the measured 2570-keV B- branch was     
+#B      to the ground state. In contrast, 1969Ke10 assume this B- was     
+#B      to the 67-keV level with no B- to the 0- and 50-keV levels.       
+#B IB        Relative values deduced from G intensity balances. Values    
+#B      given are based on the assumption that there is no B- feeding     
+#B      of the levels at 0 and 50 keV. The table gives the                
+#B      results from the decomposition of the B- spectrum. From the       
+#B      density of the levels in 159GD it is clear that the reported      
+#B      components represent the decay to several levels. Due to the      
+#B      various ambiguities, no uncertainties are given for the IB        
+#B      and the associated log {Ift} values.                              
+#B           Results from analysis of measured |b{+-} spectrum:           
+#B     From 1965Iw01:                                                     
+#B             E(|b{+-})      I(|b{+-})        Method                     
+#B             (keV)       (%)                                            
+#B            1000 {I100}    10 {I3}      BG-coincidence                  
+#B            1500 {I50}     11 {I3}      BG-coincidence                  
+#B            1750 {I50}     11 {I3}      BG-coincidence                  
+#B            1900 {I50}     21 {I4}      scintillation, F-K analysis     
+#B            2350 {I50}     21 {I4}      scintillation, F-K analysis     
+#B            2570 {I50}     25 {I4}      scintillation, F-K analysis     
+#B     From 1961Ku10:                                                     
+#B            2200 {I100}              scintillation, F-K analysis        
+#B     From 1966Da06:                                                     
+#B            2400 {I+20-10}           scintillation                      
+#G           2004Gr26, in (n{-th},|g), propose placements for some of     
+#G  the unplaced |g's and propose alternate placements for some others.   
+#G  See their Table 5 for these placements.                               
+#G E(V)      |g proposed by 2004Gr26 (their Table 5) in (n{-th},|g) to    
+#G  deexcite a level at 1159.9 keV.                                       
+#G M         From 159GD Adopted G radiations.                             
+#L E         From least-squares fit to G energies.                        
+#L J         From 159GD Adopted Levels.                                   
+#P  0.0           5/2+             18.1 M  1                  2515   7    
++B beta- 0.9625 0.19
++B beta- 0.9382 0.05
++B beta- 0.9272 0.37
++B beta- 0.8977 0.023
++B beta- 0.8909 0.14
++B beta- 0.7248 0.013000000000000001
++B beta- 0.6774 0.021
++B beta- 0.6677000000000001 0.066
++B beta- 0.6625 0.033
++B beta- 0.6068 0.047
++B beta- 0.5742 0.013999999999999999
++B beta- 0.4977 0.011000000000000001
++B beta- 0.4833 0.025
++B beta- 0.4048 0.0045000000000000005
++B beta- 0.3369 0.011000000000000001
+

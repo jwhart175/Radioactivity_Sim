@@ -1,0 +1,67 @@
+#245CM    245BK EC DECAY                1976AH03                  11NDS    201102
+#  245BK EC DECAY                1976AH03                  11NDS    201102
+#H TYP=FUL$AUT=E. BROWNE, J. K. TULI$CIT=NDS 112, 447 (2011)$             
+#H CUT=1-Jun-2010$                                                        
+#  Modified by E. Browne (August 24, 2010). BRICC. X-rays,                
+#  decay-scheme normalization.                                            
+#  Previous evaluation (1993) deduced an EC feeding of 89.9 (10)%         
+#  to the 252-keV level.  This value has about 1% precision.  However,    
+#  its normalization factor of 0.93 (7) had an uncertainty of 7.5%.       
+#  Maybe it is just a typographical error, it was meant to be 90 (10)%?   
+#  Using program ^RADLST the evaluators have calculated from decay        
+#  scheme X-ray intensities as follows: XKA2=35.7 30, XKA1=56.1 40,       
+#  XKB=28.6 30. These values compare with experimental results (1976Ah03) 
+#  of XKA2=35.0 24, XKA1=54.0 34, and (XKB1P=20.5 15 + XKB2P=7.3 5)=      
+#  27.8 16. This agreement confirms the quality of the data and the       
+#  consistency of the decay scheme.                                       
+#G CC$ FROM BrIcc v2.2 (31-Mar-2008) 2008KiAA, "Frozen Orbitals" appr.    
+#G           |g|g: (ce(L2) 103.1|g)(252.85,350.5,385.0|g) (1976Ah03),     
+#G (ce(K) 252.85|g)(350.5,365.8,380.8,385.0,408.7|g) (1976Ah03);          
+#G other measurements: 1956Ch77, 1956Ma32.                                
+#G                                                                        
+#G           |g|g(t): (320-450|g)(ce(L) 103.0|g)(t) T{-1/2}=0.29 |ms {I2} 
+#G (1975Ya03); other measurement: 1956Ma32.                               
+#G           From measured intensities of K-Auger electrons and K x-rays, 
+#G 1979Ah01 deduced K-shell fluorescence yield for |eM: |w(K)=97.1% {I6}  
+#G           Evaluators deduced |e feedings to levels in {+245}Cm from    
+#G intensity balance at each level.                                       
+#G                                                                        
+#G           Curium x-rays:             (1976Ah03)                        
+#G                     relative                                           
+#G        E(x ray)     I(x-ray)                                           
+#G                 (I|g(252.8|g)=31.3)                                    
+#G        -------- -----------------                                      
+#G        104.6 {I1}       35.0 {I24}          K|a{-2}| x ray             
+#G        109.3 {I1}       54.0 {I34}          K|a{-1}| x ray             
+#G        123.2 {I2}       20.5 {I15}          K|b{-1}'| x ray            
+#G        127.1 {I2}        7.3 {I5}           K|b{-2}'| x ray            
+#G                                                                        
+#G E,RI$From 1976Ah03 (semi).                                             
+#G See also |g rays  seen in {+245}Am and {+249}Cf decays.                
+#G Other measurements: 1956Ch77, 1956Ma32 (scin).                         
+#G RI        From 1976Ah03. I|g=100 corresponds to 93 {I7} photons per    
+#G 100 |e decays of {+245}Bk. (1976Ah03 DID NOT GIVE THIS. NOT USEFUL,    
+#G E. Browne, August 2010).                                               
+#G M         From ce ratios of 1976Ah03 (semi), except for the 365.8      
+#G and 407.8 |g's, for which relative ce intensities are given here.      
+#G A multiplication factor of N=1.1 {I1} converts electron intensities    
+#G into the same units as photon intensities (obtained by normalizing     
+#G Ice's for various transitions such that Ice/I|g would yield            
+#G theoretical conversion coefficient).                                   
+#G Very poorly explained.  E. Browne, August 2010.                        
+#G M         From experimental conversion-electron and G-ray data.        
+#G Multipolarities in square brackets have been inferred from decay       
+#G scheme.                                                                
+#G E(S)      |g-ray not observed in {+245}Bk |e decay; E|g from adopted   
+#G levels, |g's.                                                          
+#L J         From Adopted Levels                                          
+#L E$Deduced by evaluators from least-squares fit to G-ray energies.      
+#P 0.0          3/2-             4.94 D    3              810.7     17    
+BK245 CM245 beta+ 0.8107000000000001 426816.0 0.9988
++B beta+ 6.933E-4 0.00223
++B beta+ 6.664E-4 0.00241
++B beta+ 2.54E-4 0.005
++B beta+ 8.5E-5 0.006
++B beta+ 5.93E-4 0.004
++G gamma 0.4078 2.94E-4
+

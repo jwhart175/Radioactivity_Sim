@@ -1,0 +1,22 @@
+#173YB    173TM B- DECAY                1963OR01,1966HA23         95NDS    199509
+#  173TM B- DECAY                1963OR01,1966HA23         95NDS    199509
+#H TYP=FUL$AUT=V. S. SHIRLEY$CIT=NDS 75,377 (1995)$CUT=1-Oct-1993$        
+#  The decay scheme and most data are from 1963Or01 and 1966Ha23.         
+#  1963Or01: sources from 174YB(G,P) (EG GE 23 MEV),                      
+#  173YB(N,P) (EN=14.8 MEV), 170ER(A,P) (EA=26 MEV);                      
+#  measured EG, IG, EB, IB (scin), prompt and delayed                     
+#  XG, GG, BG coin.                                                       
+#  1966Ha23: sources from 176YB(P,A) (EP=20 MEV); measured                
+#  ECE, ICE (mag spect, resolution=0.1%).                                 
+#  Some data are from 1967BlZY and 1969BoZP. Others:                      
+#  1961Ku10, 1963Ku22.                                                    
+#L           Band structure: see adopted levels.                          
+#G E$From 1966Ha23.                                                       
+#G RI$From 1967BlZY.                                                      
+#B           Excited-state B- feedings are from intensity                 
+#B imbalance at each level; GS feeding ( AP 2%) is from 1963Or01.         
+#P 0.0          (1/2+)           8.24 H    8              1298      5     
++B beta- 0.45530000000000004 0.02
++B beta- 0.2964 0.76
++B beta- 0.2724 0.22
+

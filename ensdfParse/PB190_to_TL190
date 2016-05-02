@@ -1,0 +1,42 @@
+#190TL    190PB EC DECAY (71 S)         1981EL03                  03NDS    200306
+#  190PB EC DECAY (71 S)         1981EL03                  03NDS    200306
+#H TYP=FUL$AUT=BALRAJ SINGH$CIT=NDS 99, 275 (2003)$CUT=30-Apr-2003$       
+#  1981El03: Measured |g, |g|g, ce, |a decay.                             
+#  Mass separated sources from the reaction {+180}W({+16}O,6n)            
+#  Due to lack of knowledge about the intensities and                     
+#  multipolarities of some of the transitions, there are intensity        
+#  balance problems such as that at the 274.17+x level. This also         
+#  makes it difficult to deduce log| {Ift} values for some of the levels  
+#E LOGFT$Due to poor knowledge of intensities                             
+#E and multipolarity of 59.4|g, 78.6|g, 140.6|g, and 142.2|g,             
+#E log| {Ift} values for the following levels are not given separately:   
+#E 151.31+x, 210.55+x, 416.68+x, 495.07+x, 598.33+x and 738.99+x. See     
+#E comments for combined feeding to pair of levels                        
+#G M$From ce data, normalized to known E2 transitions in                  
+#G {+190}Hg (416|g,731|g) and in {+190}Pt(296|g). The                     
+#G values of |a(exp)'s are not given in the paper by 1981El03             
+#G RI(S)     I|g(140.6|g+142.2|g)=130 {I50}                               
+#G M(A)$Quoted as M1+E2 by 1981El03                                       
+#G M(B)$Quoted as M1(+E2) by 1981El03                                     
+#G E(D)$From |g|g only                                                    
+#L E$From least-squares fit to E|g's. Uncertainty in the numeric value    
+#L is estimated as |?0.2 keV                                              
+#L J$From log| {Ift} values and multipolarity assignments                 
+#P 0.0          0+                 71 S    1              3.83E3    14    
+PB190 TL190 beta+ 3.83 0.0 0.9960
++B beta+ 1.463 0.0055000000000000005
++B beta+ 1.24 0.0073
++B beta+ 1.198 0.006500000000000001
++B beta+ 1.195 0.006500000000000001
++B beta+ 1.171 0.0066
++B beta+ 1.099 0.0068000000000000005
++B beta+ 1.098 0.0068000000000000005
++B beta+ 1.08 0.0068000000000000005
++B beta+ 1.045 0.0069
++B beta+ 1.025 0.006999999999999999
++B beta+ 0.999 0.0070999999999999995
++B beta+ 0.937 0.00726
++B beta+ 0.87 0.00741
++B beta+ 0.847 0.00746
++B beta+ 0.718 0.0077
+

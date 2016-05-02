@@ -1,0 +1,26 @@
+#128CS    128BA EC DECAY                1976HE04                  15NDS    201510
+#  128BA EC DECAY                1976HE04                  15NDS    201510
+#H TYP=FUL$AUT=ZOLTAN ELEKES AND JANOS TIMAR$CIT=NDS 129, 191 (2015)$     
+#H CUT=28-Feb-2015$                                                       
+#  1976HE04: PR(P,SPALL) E=800 MEV, chemical separation, mass separation; 
+#  Ge(Li), GG-coincidence                                                 
+#  Others: G (1967JU04); G, CE (1968KU07)                                 
+#  The decay scheme is that proposed by 1976HE04 on the basis of          
+#  GG-coincidence and EG sums                                             
+#E TI$%EC(to GS)=84.0 8 is determined by I(273.44G)=0.145 7 per decay     
+#E which was deduced from IG and I(XK) (1976HE04)                         
+#G RI$Relative to I(273.44G)=100                                          
+#L E$E(levels) are based on a least-squares fit to the E|g's from         
+#L 1976HE04 (evaluators)                                                  
+#G MR$IF NO VALUE GIVEN IT WAS ASSUMED MR=0.10 FOR E2/M1, MR=1.00 FOR     
+#G E3/M2 AND MR=0.10 FOR THE OTHER MULTIPOLARITIES                        
+#  CC$FROM BrIcc v2.3b (16-Dec-2014) 2008Ki07, "Frozen Orbitals" appr.    
+#P 0.0          0+                2.43 D    5              553      8     
++B beta+ 8.42E-4 0.00123
++B beta+ 8.406E-4 0.00124
++B beta+ 8.296E-4 0.00132
++B beta+ 8.283E-4 0.00133
++B beta+ 8.233E-4 0.0013
++B beta+ 8.16E-4 0.0014000000000000002
++B beta+ 8.05E-4 0.001512
+

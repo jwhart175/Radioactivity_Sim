@@ -1,0 +1,23 @@
+#119SN    119SN IT DECAY                1968BO09                  09NDS    200910
+#  119SN IT DECAY                1968BO09                  09NDS    200910
+#H TYP=FUL$AUT=D. M. SYMOCHKO, E. BROWNE, J. K. TULI$                     
+#H CIT=NDS 110,2945 (2009)$CUT=1-Dec-2008$                                
+#  Modified by E. Browne (November 24, 2008)                              
+#  CC$ FROM BrIcc v2.2  "Frozen Orbitals" appr.                           
+#  1968BO09: 15 MEV |a on CD, chemi; mag spect CE                         
+#  1971BE04: scin, mag spect CE, XG(T)                                    
+#  1975AB03: semi G, XK                                                   
+#  1988GEZS: semi G, XK                                                   
+#  XG(T), CEG(T): 1980LA03 scin-scin semi-scin; 1976AB01 scin-semi;       
+#  1971DR04, 1957OL05 scin-scin                                           
+#  Others: 1966BO13, 1968KO12, 1971DR04, 1973SO09, 1973RA17.              
+#  For simultaneous emission of two conversion electrons see              
+#  1999Vi15 and 1998BoZY.                                                 
+#G E         From E(CE) (1968BO09)                                        
+#G           XKA/RI(23.9G)=1.40 3 (2003Po21); XKA/RI(23.9G)=1.66 3        
+#G (1968Ko12). Other: 1988GeZS.                                           
+#L J,T       From Adopted Levels, unless otherwise specified.             
+#P     89.5351511/2-             293 D     1                              
+SN119 SN119 IT 0.0 2.53152E7 1.0
++G gamma 0.023875 0.165
+

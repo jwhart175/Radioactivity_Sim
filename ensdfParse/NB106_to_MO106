@@ -1,0 +1,25 @@
+#106MO    106NB B- DECAY                1983SH06                  08NDS    200806
+#  106NB B- DECAY                1983SH06                  08NDS    200806
+#H TYP=FUL$AUT=D. DE FRENNE AND A. NEGRET$CIT=NDS 109, 943 (2008)$        
+#H CUT=1-May-2007$                                                        
+#  1983Sh06: activity from mass separated, but not isotopically pure,     
+#  sample produced in {+235}U(n,F). Measured: E|g, I|g, |g|g, |g(t).      
+#  Deduced: {+106}Mo levels, J|p                                          
+#G DE$Uncertainties communicated orally to the evaluators by one of the   
+#G authors (K. Sistemich, January 1984)                                   
+#L J$From adopted levels                                                  
+#P 0.0                           0.93 S    4              9160      SY    
+NB106 MO106 beta- 9.16 0.93 1.0
++G gamma 0.171548 1.0
++G gamma 0.3507 0.39
++G gamma 0.5392 0.15
++G gamma 0.7107 0.11
++G gamma 0.714 0.3
++G gamma 0.785 0.06
++G gamma 0.5113 0.06
++G gamma 0.5457000000000001 0.06
++G gamma 0.8969 0.09
++G gamma 1.1083 0.06
++G gamma 0.5498999999999999 0.09
++G gamma 0.7251000000000001 0.17
+

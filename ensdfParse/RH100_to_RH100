@@ -1,0 +1,40 @@
+#100RH    100RH IT DECAY (4.6 M)        1980BA59,1978KI07,1982MAZP08NDS    200802
+#  100RH IT DECAY (4.6 M)        1980BA59,1978KI07,1982MAZP08NDS    200802
+#H TYP=FUL$AUT=BALRAJ SINGH$CIT=NDS 109, 297 (2008)$CUT=26-Dec-2007$      
+#  1980BA59, 1978KI07, 1982MAZP: Measured G                               
+#  1998HU13: 100RU(P,N) E=6-9 MEV. MEASURED ISOMER YIELD RATIO            
+#  Others: 1974Si18, 1984Ma30, 1986Du04                                   
+#  T1/2(isomer): 1974Si18, 1978Ki07, 1982MaZP                             
+#  Total decay energy deposit of 101 keV calculated by RADLIST            
+#  code is in agreement with expected value of 106 keV                    
+#G           There are two main G rays reported in the decay of this      
+#G isomer: one at 32.6 and the other at 74.9. The third G ray at 42.1 is  
+#G reported by 1982MaZP and possibly by 1984Ma30 but 1978Ki07 report not  
+#G observing such a transition. A 264.7 G ray reported by 1974Si18 has    
+#G not been seen in any later work (1978Ki07,1980Ba59,1986Du04), thus     
+#G omitted here. Information concerning relative G-ray intensities is only
+#G partially available. 1978Ki07, however, pointed out that the 32.6G     
+#G and 74.9G have comparable G-intensities. Coincidence data and          
+#G CE data are not available to confirm the complete level scheme.        
+#G E$From 1984Ma30 and 1982MaZP                                           
+#G RI$Arbitrarily assigned as 100 for 32.7G and 74.9G. The intensity      
+#G division based on the suggested level scheme. Measured values are      
+#G given under comments                                                   
+#G M,MR$From 'adopted gammas'                                             
+#L           The level scheme presented here is as suggested by 1982MaZP  
+#L $ The decay scheme does not seem well established in the absence of    
+#L supporting coincidence data and CE data. The 32.6G-74.9G cascade seems 
+#L to be correct based on intensity balance, thus defining the energy of  
+#L the isomer at 107.6. Using CC(th)=10.3 for 32.6G (see 100PD EC decay)  
+#L the intensity balance gives mult=M2 for 74.9G as suggested by 1980Ba59.
+#L This gives JPI=4+ for the isomer which is in conflict with the         
+#L systematics of even-^A RH isotopes and the absence of transition       
+#L to GS (JPI=1-). Based on the observation of 42.1G (also supported      
+#L by the in-beam spectrum of 1984Ma30) 1982MaZP suggested that both the  
+#L 74.9G and 32.6G are doublets, deexciting the known 74.9 level          
+#L and the 107.6 isomer. This scheme is consistent with mult=E3           
+#L for a part of the 74.9G and JPI=5+ for the isomer, but remains to      
+#L be confirmed through coincidence and conversion electron data          
+#L J$From 'adopted levels'                                                
+#P  107.6    2   (5+)               4.6 M  2                              
+

@@ -1,0 +1,31 @@
+#165YB    165LU EC DECAY (10.74 M)      1980ADZP,1982RA19         06NDS    200606
+#  165LU EC DECAY (10.74 M)      1980ADZP,1982RA19         06NDS    200606
+#H TYP=FUL$AUT=ASHOK K. JAIN AND ANWESHA GHOSH, BALRAJ SINGH$             
+#H CIT=NDS 107, 1075 (2006)$CUT=15-Apr-2006$                              
+#  1980ADZP (ALSO 1980ADZO): MEASURED EG, IG, GG, G(CE) COIN, |g|g(x)     
+#  COIN, conversion electrons measured by iron-free beta spectrometer     
+#  1982RA19: MEASURED EG, IG, GG, GX, G(B+)G COIN, positrons detected     
+#  with a hyperpure ^Ge detector                                          
+#  OTHERS:                                                                
+#  1981BY04: MEASURED EB, IB, B STRENGTH FUNCTION, mass-separated         
+#  sources, total absorption (^Na^I(^Tl)) gamma-ray spectrometer          
+#  1978BU13: MEASURED EG, IG, GG, T1/2                                    
+#  1975GR44: MEASURED GAMMA SPECTRA, T1/2                                 
+#  1973Me25: MEASURED EG, IG, T1/2                                        
+#E TI$ FROM BETA STRENGTH MEASUREMENT OF 1981BY04. THIS STUDY             
+#E INDICATES THAT MOST OF THE B FEEDING IS TO LEVELS IN THE               
+#E ENERGY RANGE 1.5 TO 2.5 MEV EXCITATION ENERGY. THE FEEDING TO          
+#E LOW-LYING LEVELS (BELOW 1 MEV) AND TO LEVELS ABOVE 3.5 MEV IS WEAK     
+#G E,RI$ From 1980AdZP, except where noted otherwise                      
+#G M,MR$ From EKC and subshell ratio's: K/L, L1/L2, etc.                  
+#G EKC from 1980AdZP, normalized to KC(120.6)=1.56 for M1                 
+#G $ FOLLOWING G'S FROM 1973ME25 WITH EG (RI) WERE NOT CONFIRMED IN OTHER 
+#G STUDIES: 443.0 3 (1.5 5), 1029.93 25 (6.5 10), 1073.35 25 (7.5 10)     
+#G E(A),RI(A)$ Observed only by 1982Ra19                                  
+#L J$ FROM 'adopted levels'                                               
+#L T$ From GG(T) (1980AdZO)                                               
+#L E(P)$ PSEUDO-LEVEL INDICATED BY B STRENGTH FUNCTION MEASUREMENT OF     
+#L 1981BY04                                                               
+#P 0            1/2+             10.74 M   10             3840      40    
+LU165 YB165 beta+ 3.84 644.4 1.0
+

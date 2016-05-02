@@ -1,0 +1,28 @@
+#220RN    224RA A DECAY                 1977KU15,1962WA28         11NDS    201104
+#  224RA A DECAY                 1977KU15,1962WA28         11NDS    201104
+#H TYP=FUL$AUT=E. BROWNE, J. K. TULI$CIT=NDS 112, 1115 (2011)$            
+#H CUT=31-Oct-2010$                                                       
+#  Modified by E. Browne (November 23, 2010) BRICC, GTOL                  
+#A E         From 1962Wa28, except where noted otherwise. Authors' values 
+#A have been increased by 1.6 keV to correct for changes in calibration   
+#A energies (1991Ry01)                                                    
+#A IA(T)$From G-ray transition intensity balance.                         
+#A HF        HF(5685|a)=1.00 yields r{-0}({+220}Rn)=1.5419 {I6}           
+#G CC$ FROM BrIcc v2.2 (31-Mar-2008) 2008KiAA, "Frozen Orbitals" appr.    
+#G E         From 1977Ku15, unless otherwise noted                        
+#G RI        Relative I|g from 1977Ku15, normalized to I|g(abs.)=4.10 {I5}
+#G (1991BaZS) for the 240.987|g, unless otherwise noted.                  
+#L           |a|g(|q): 1954Mi53, 1974Or02                                 
+#L           |a|g(|q,H): 1972Ab13, 1973He13, 1974Do11                     
+#L           The decay scheme is that of 1977Ku15                         
+#L E         From a least-squares fit to E|g                              
+#L BAND(A)   GS KPI=0+ ROTATIONAL BAND                                    
+#L BAND(B)   KPI=0- BAND                                                  
+#P 0             0+              3.66 D    4              5788.87   15    
+RA224 RN220 alpha 5.78887 316224.0 1.0
++A alpha 5.68537 0.9492
++A alpha 5.448600000000001 0.0506
++A alpha 5.161 7.1E-5
++A alpha 5.051 7.6E-5
++A alpha 5.034 3.0E-5
+

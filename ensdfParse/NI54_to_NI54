@@ -1,0 +1,16 @@
+# 54NI    54NI IT DECAY:152 NS          2008RU09                  14NDS    201408
+#  54NI IT DECAY:152 NS          2008RU09                  14NDS    201408
+#H TYP=FUL$AUT=YANG DONG, HUO JUNDE$CIT=NDS 121, 1 (2014)$CUT=20-Jun-2014$
+#  {+54}Ni produced using the reaction {+9}Be({+58}Ni,X|g)                
+#  with a 550 MeV/nucleon beam produced at GSI. {+54}Ni selected          
+#  using GSI Fragment Separator consisting of scintillators and           
+#  ionization detectors. Measured E|g, I|g, |g|g-coin using RISING        
+#  array of Cluster Ge detectors. Comparisons with shell-model            
+#  calculations, conf=1F7/2,2 and 1F7/2,-2 were used.                     
+#G M$From adopted levels and gammas.                                      
+#L E$From a least-squares fit to E|g's.                                   
+#L BAND(A)$ Yrast sequence                                                
+#P 6457.4    9  10+              152 NS    4                              
++G gamma 0.1461 0.53504
++G gamma 3.3861999999999997 0.032639999999999995
+

@@ -1,0 +1,15 @@
+#218AC    222PA A DECAY (2.9 MS)        1970BO13,1979SC09         06NDS    200602
+#  222PA A DECAY (2.9 MS)        1970BO13,1979SC09         06NDS    200602
+#H TYP=FUL$AUT=ASHOK K. JAIN, BALRAJ SINGH$CIT=NDS 107, 1027 (2006)$      
+#H CUT=25-Jan-2006$                                                       
+#  PRODUCTION CROSS SECTION OF 222PA: 1990AN19                            
+#A HF        r{-0}({+218}Ac)=1.536 {I4} is used in calculations.          
+#A E$From 1970Bo13. Only one |a at 8210 was observed by 1979Sc09.         
+#A IA$From 1970Bo13.                                                      
+#L E$Level energies are deduced from Q(|a)=8850 {I50} (SYST,2003AU03)     
+#L and E|a's given here.                                                  
+#P 0.0                           2.9 MS    +6-4           8850      SY    
+PA222 AC218 alpha 8.85 0.0029 1.0
++A alpha 8.54 0.3
++A alpha 8.33 0.2
+

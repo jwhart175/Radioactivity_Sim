@@ -1,0 +1,109 @@
+# 17O     18N B-N DECAY                 1994Sc01,2005Li60,2007Lo05         201404
+#  18N B-N DECAY                 1994Sc01,2005Li60,2007Lo05         201404
+#H TYP=UPD$AUT=C.G. Sheu, J. Kelley$CUT=09-December-2013$CIT=ENSDF$       
+#H COM=Updated data set since last full evaluation$                       
+#  1991RE02: Spallation products from 800 MeV proton bombardment of a     
+#  {+232}Th target were captured by a transport line with a mass-to-charge
+#  filter and transfered to the TOFI spectrometer at LAMPF. The beam line 
+#  was separately tuned to transport a number of different nuclides. The  
+#  ions were implanted in a Si detector, and identification by standard   
+#  techniques was implemented. The |b-delayed neutrons were detected in a 
+#  polyethylene moderated {+3}He counter; half-lives and |b-delayed       
+#  neutron probabilities were deduced from analysis of the number of      
+#  implanted ions (per beam pulse) and the rate of |b-delayed neutrons    
+#  detected in the zero-threshold counter. The |b-delayed neutron         
+#  probability =14.3% {I20} was deduced along with T{-1/2}=790 ms {I210}; 
+#  an additional proceedings result                                       
+#  of P{-n}=12.0% {I13} (U. Koster et al., AIP Conf. Proc. 455 (1998)     
+#  p. 989) is mentioned in the text.                                      
+#  A reanalysis of the 1991Re02 data, with additional data was published  
+#  in the International conference on nuclear data for science and        
+#  technology: nuclear data for the twenty-first century, Gatlinburg, TN  
+#  (United States), 9-13 May 1994. The reanalysis indicates P{-n}=(12.0   
+#  {I13})% and T{-1/2}=658 ms {I44}.                                      
+#  1994Sc01: A Be target was bombarded by a 75 MeV/A {+22}Ne beam         
+#  to produce {+18}N ions that were selected and stopped in a thin plastic
+#  detector. The implantation detector was surrounded by 15 large area    
+#  neutron detectors that covered 14.3% of 4|p, and neutron energies      
+#  were determined by time-of-flight between the implantation foil and    
+#  the neutron array.                                                     
+#  The lifetime T{-1/2}=624 ms {I12} was measured. Nine neutron groups    
+#  with energies (branching ratios) of E{-n}=0.99 MeV {I3} (0.16 {I3})%,  
+#  1.16 MeV {I2} (0.39 {I9})%, 1.35 MeV {I2} (0.47 {I9})%, 1.55 MeV {I2}  
+#  (0.14 {I3})%, 1.77 MeV {I2} (0.17 {I3})%, 2.07 MeV {I3} (0.16 {I3})%,  
+#  2.46 MeV {I3} (0.43 {I9})%, 2.78 MeV {I3} (0.13 {I3})% and 3.26 MeV    
+#  {I3} (0.19 {I4})% were observed in the ToF spectrum. The total observed
+#  branching ratio (BR) to neutron unbound levels is 2.2% {I4}.           
+#  2005Li60: A thick Be target was bombarded by a 68.8 MeV/A {+22}Ne beam 
+#  to produce {+18}N ions that were selected and stopped in a thin plastic
+#  scintillation detector. Two different plastic scintillator arrays      
+#  (neutron walls) were used to detect delayed neutrons with coverage of  
+#  30% and 2.2% of 4|p sr for high energy and low energy, respectively.   
+#  The neutron detection efficiecies were calibrated with the known       
+#  {+17}N |b{+-}n decay neutron spectrum. A set of 3 HPGe detectors       
+#  were positioned around the target to measure |g-ray emissions.         
+#  Beam was collected in the target for cycles of 2.0 s activation        
+#  periods followed by 2.0 s counting periods. The result                 
+#  T{-1/2}=619 ms {I2} was obtained from analysis of the |b-ray decay     
+#  curve observed in the thin plastic catcher foil; a small 5%            
+#  {+20}O (T{-1/2}=13.5 s) component was the main active beam contaminant.
+#  An exclusive gate on the on the strongest neutron peak at E{-n}=       
+#  0.58 MeV yielded the value T{-1/2}=610 ms {I23}.                       
+#  Analysis of the ToF spectrum indicates decays of 11 neutron emitting   
+#  states in {+18}O with E{-n} (branching ratio)=0.58 MeV {I2}            
+#  (5.04 {I112})%, 0.79 MeV {I4} (0.28 {I6})%, 0.97 MeV {I2} (0.11 {I3})%,
+#  1.16 MeV {I3} (0.18 {I3})%, 1.35 MeV {I3} (0.24 {I4})%, 1.48 MeV {I3}  
+#  (0.05 {I2})%, 1.72 MeV {I3} (0.18 {I3})%, 1.98 MeV {I4} (0.11 {I3})%,  
+#  2.44 MeV {I4} (0.43 {I6})%, 2.70 MeV {I4} (0.13 {I2})% and 3.22 MeV    
+#  {I5} (0.23 {I3})%. The total observed BR is 6.98% {I146}. The          
+#  |b-delayed |g-ray emissions were briefly discussed, though there is no 
+#  mention of any transitions observed in {+17}O; it is assumed that none 
+#  are observed.                                                          
+#  2007Lo05: A Be target was bombarded by a 68.8 MeV/A {+22}Ne beam       
+#  to produce {+18}N ions that were selected and stopped in a thin plastic
+#  scintillation detector. A neutron sphere composed of eight identical   
+#  plastic scintillator counters was used to detect delayed neutrons; each
+#  segment covered 3.75% of 4|p sr.                                       
+#  Three T{-1/2} values were obtained by gating the |b-time spectrum      
+#  corresponding to various neutron peaks, 625 ms {I30}, 635 ms {I40} and 
+#  609 ms {I60}. In this measurement, the emphasis was on fast neutrons.  
+#  Nine neutron peaks were observed, eight are in good agreement with     
+#  2005Li60. Peaks are observed at  E{-n}=1.13 MeV {I3}, 1.35 MeV {I3},   
+#  1.58 MeV {I3}, 1.79 MeV {I3}, 2.05 MeV {I3}, 2.43 MeV {I4}, 2.76 MeV   
+#  {I4}, 3.22 MeV {I4} and 3.78 MeV {I5} (0.05 {I3})%. A new peak at      
+#  E{-n}(lab)=3.78 MeV {I5} was identified. The detection efficiency for  
+#  groups with E{-n} < 2.0 MeV was low, and therefore the proceedure for  
+#  fitting of these peaks relied on prior analysis. The total observed    
+#  |b-delayed BR is 7.03% {I146}.                                         
+#  In this experiment, the calibration using {+17}N provided the          
+#  neutron detection efficiency up to 1.73 MeV, the authors used the      
+#  efficiency curve obtained in 2005Li60 (efficiency up to 3.22 MeV) to   
+#  determine the absolute BR of this new peak. The BR of 0.05% {I3}       
+#  corresponding to E{-x}({+18}O)=12.05 MeV {I5} and log {Ift}=5.24 {I3}  
+#  was deduced. This new state was also observed by 1995Se02 in an        
+#  electron scattering experiment, who found the J|p=1- or 2+. The present
+#  authors concluded J|p=1-.                                              
+#  Comments:                                                              
+#  P{-n}=12.0% {I13} is reported in the reanalysis of 1991Re02. Results   
+#  reported in (2005Li60, 2007Lo05) can account for only (7.03 {I146})%;  
+#  the missing strength of |? 5% is attributed to one or several states in
+#  {+18}O with 8.044 MeV |< E{-x} |< 8.50 MeV, where the corresponding    
+#  neutron group's emission energy is below the threshold of the neutron  
+#  detector systems.                                                      
+#  No evidence was found for population of a broad state at E{-x} |? 9 MeV
+#  (suggested by 1989Zh04 in |b-delayed |a-emission); In 1994Sc01 an      
+#  upper limit for its BR of |< 1% was deduced from the total number of   
+#  counts in the relevant energy range. Comparing with 1989Zh04, it can   
+#  be concluded that most of the observed width corresponds to the |G{-|a}
+#  of this state.                                                         
+#  In 1994Sc01, neutron groups with a total BR of 2.2% {I4} were          
+#  observed; a comparison with those same groups observed in              
+#  2005Li60 yields a slightly lower BR of 1.66% {I28}. The analysis of    
+#  2005Li60, which finds a total %|b{+-}n intensity of (7.0 {I15})%, is   
+#  accepted. In addition 2007Lo05 taylored their sensitivity to fast      
+#  neutron groups, which were difficult to resolve, and a new transition  
+#  in the |b-delayed neutron decay is observed. No neutron peaks between  
+#  3.78 and 5.5 MeV were observed.                                        
+#P 0           1-                619 MS     2             5850      19    
+N18 O17 neutron&beta- 5.85 0.619 0.120
+

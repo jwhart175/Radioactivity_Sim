@@ -1,0 +1,22 @@
+#160GD    160EU B- DECAY                1973DA05,1973MO18         05NDS    200509
+#  160EU B- DECAY                1973DA05,1973MO18         05NDS    200509
+#H TYP=FUL$AUT=C. W. Reich$CIT=NDS 105, 557 (2005)$CUT=1-Jun-2005$        
+#  DATA SET UPDATED (JANUARY, 2004) BY CW REICH TO CHANGE PARENT JPI AND  
+#   COMMENTS REGARDING BETA FEEDING OF THE 1996, 2+ LEVEL, AS WELL AS     
+#   ADDING COMMENTS REGARDING SOURCE OF JPI AND RI VALUES.                
+#  The decay scheme is from 1973Da05. It disagrees in several important   
+#  respects with that of 1973Mo18. Neither reported decay scheme is       
+#  complete, with significant numbers of B and G transitions              
+#  most likely being unobserved. For this reason, no G-intensity          
+#  normalization is given, and G-intensity balances cannot be used        
+#  to deduce B-transition intensities.                                    
+#  Production: 160GD(N,P), enriched target, E(N)=14.8 MEV                 
+#  Measured: EG, RI, GG, BG, T1/2(G) GELI, scin                           
+#G           GAMMA rays from nuclides produced in competing reactions     
+#G were identified from measured T1/2.                                    
+#G RI        FROM 1973Da05.                                               
+#L J         FROM ADOPTED VALUES. WHERE THESE DIFFER FROM THOSE PROPOSED  
+#L  BY THE AUTHORS, THIS IS POINTED OUT.                                  
+#P    0         1                38 S      4              4580      SY    
+EU160 GD160 beta- 4.58 38.0 1.0
+

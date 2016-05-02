@@ -1,0 +1,71 @@
+#165HO    165DY B- DECAY (2.334 H)      1972MA06                  06NDS    200606
+#  165DY B- DECAY (2.334 H)      1972MA06                  06NDS    200606
+#H TYP=FUL$AUT=ASHOK K. JAIN AND ANWESHA GHOSH, BALRAJ SINGH$             
+#H CIT=NDS 107, 1075 (2006)$CUT=15-Apr-2006$                              
+#  1972MA06: MEASURED EG, IG, GG, CE; magnetic spectrometer for ce        
+#  2004MI18: MEASURED EG, IG; EMISSION PROBABILITY OF 94.7G;              
+#  RELATIVE INTENSITIES OF 19 G RAYS FROM 94.7 TO 1079.6 KEV              
+#  1991MI26: MEASURED CE DATA FOR 94.7G, 279.8G, 361.7G AND 633.4G        
+#  using high-resolution magnetic spectrometer                            
+#  OTHERS:                                                                
+#  G: 1971Lu08, 1965Sc09, 1964Re09, 1963Ma08, 1962Ni11, 1962Ha46, 1956An34
+#  CE: 1963Pe11, 1962No07, 1962Vo02                                       
+#  G(THETA,^T) from oriented 165DY: 1982HaYO                              
+#  B: 1963Pe11, 1959Cr73, 1955Ro57, 1947Sl14                              
+#  GG(THETA): 1964Si24, 1959Gr01                                          
+#  G(T): 1967Ba27, 1964Ha19, 1959Gr01, 1959Cr80, 1958Ka10, 1951Wr13       
+#  BG: 1959Bo52                                                           
+#B IB        CEK(94.7G)/B-=0.093 10 (1963Pe11)                            
+#G E,RI$ From 1972Ma06, except where noted otherwise. The intensities     
+#G quoted by 1972Ma06 have been divided by a factor of 42.6 so that       
+#G the two sets of intensities (from 1972Ma06 and 2004Mi18) are on        
+#G the same scale.                                                        
+#G RI(B)$ FROM 2004MI18, CORRESPONDING VALUE IN 1972MA06 IS IN            
+#G AGREEMENT BUT MUCH LESS PRECISE                                        
+#G E(A)$ From 1965Sc09 (CURVED-CRYSTAL SPECTROMETER)                      
+#G M$ G's with significant MR GT 0.1 are interpreted as M1+E2,            
+#G BASED ON WEISSKOPF ESTIMATES FOR TRANSITION PROBABILITIES              
+#G M         EKC were deduced from RI (1972Ma06), CE (1972Ma06,1963Pe11)  
+#G and normalized to KC(94.7G)=2.59 (for M1+E2, MR=0.168 9)               
+#L J$ FROM 'Adopted LEVELS'                                               
+#P 0.0         7/2+              2.334 H   1              1286.6    9     
+DY165 HO165 beta- 1.2866 8402.4 0.0380
++B beta- 1.285 0.83
++B beta- 1.19 0.15
++G gamma 0.06771200000000001 0.004
++G gamma 0.029715 0.0012
++G gamma 0.087585 0.004
++G gamma 0.12938999999999998 1.4000000000000001E-4
++G gamma 0.095931 2.6E-4
++G gamma 0.153803 0.0016
++G gamma 0.61029 0.00148
++B beta- 0.305 0.017
+
+#165HO    165DY B- DECAY (1.257 M)      1972MA06,1974STZQ         06NDS    200606
+#  165DY B- DECAY (1.257 M)      1972MA06,1974STZQ         06NDS    200606
+#H TYP=FUL$AUT=ASHOK K. JAIN AND ANWESHA GHOSH, BALRAJ SINGH$             
+#H CIT=NDS 107, 1075 (2006)$CUT=15-Apr-2006$                              
+#  1972MA06, 1974STZQ: MEASURED EG, IG, G(T)                              
+#  OTHERS:                                                                
+#  G: 1964Ha19, 1964Bu01                                                  
+#  B: 1960To06 using scintillation detector                               
+#  TI(108G):IB=97.76 11:2.24 11 from decay scheme in 1972Ma06;            
+#  97.6 3:2.4 3 (1960TO06). Others: 1959Cr73, 1964Ha19                    
+#G E$ From 1972Ma06, unless otherwise stated                              
+#G M,MR$ FROM 'ADOPTED GAMMAS'                                            
+#G E(A)$ G's from 1965Sc09 used for normalization of EG in 1972Ma06       
+#G RI$ Normalized to I(108.16G from 165DY IT decay)=1000                  
+#G E(B)$ From 1974StZQ                                                    
+#L J$ From 'Adopted levels'                                               
+#P 108.160    31/2-              1.257 M   6              1286.6    9     
+DY165 HO165 beta- 1.2866 75.41999999999999 0.134
++B beta- 1.02 0.0016
++G gamma 0.0679 0.04
++G gamma 0.03 0.02
++G gamma 0.0877 0.037000000000000005
++G gamma 0.09595999999999999 0.13
++G gamma 0.515467 5.09
++G gamma 0.1195 0.009000000000000001
++G gamma 0.25173 0.06
++G gamma 0.676 0.0015
+

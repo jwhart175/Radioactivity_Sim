@@ -1,0 +1,20 @@
+#125LA    125CE EC DECAY                1994ASZY,1978BO32,1988GEZR11NDS    201102
+#  125CE EC DECAY                1994ASZY,1978BO32,1988GEZR11NDS    201102
+#H TYP=FUL$AUT=J. KATAKURA$CIT=NDS 112, 495 (2011)$CUT=1-Jan-2010$        
+#  1999Ca21: {+94}Mo({+36}Ar,2p3n), E=175 MeV, enriched target 97.6 %, ms;
+#  ce-T, |g-T,ce-|g-t coin, X-rays                                        
+#  1998Be64: {+94}Mo+{+36}Ar, E=175 MeV, enriched target 97.6%, ms;       
+#  HPGe, |g|g|t, |gX(t), X(t), |g(t)                                      
+#  1994AsZY: {+92}Mo({+36}Ar,2pn), E=195 MeV, enriched target, on-line ms;
+#  |g|g coin, |b|g coin                                                   
+#  1988GeZR: {+96}Mo+{+35}Cl, on-line mass                                
+#  1978Bo32: {+96}Ru+{+32}S, {+98}Ru+{+32}S, E=190 MeV, on-line mass      
+#  separator, semi |g                                                     
+#  Decay scheme is from 1994AsZY                                          
+#L J         From adopted levels                                          
+#L E         From a least-squares fit to E|g's by evaluator.              
+#L Uncertainties of 1 keV are assumed for the energies of |g's.           
+#G E         From 1994AsZy, unless otherwise noted                        
+#P 0.0         (7/2-)            9.7 S     3              7102      SY    
+CE125 LA125 beta+ 7.102 9.7 1.0
+

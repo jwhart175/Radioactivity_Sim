@@ -1,0 +1,105 @@
+# 98MO    98NB B- DECAY (51.3 M)        1984ME04                  03NDS    200305
+#  98NB B- DECAY (51.3 M)        1984ME04                  03NDS    200305
+#H TYP=FUL$AUT=BALRAJ SINGH, ZHIQIANG HU$CIT=NDS 98, 335 (2003)$          
+#H CUT=31-Jan-2003$                                                       
+#  Measured G, GG. Calculations based on IBA model                        
+#  Previous work:                                                         
+#  1976SI04: G, GG, T1/2 (98NB isomer)                                    
+#  1976HE10 (also thesis by ^Herzog): G, GG, B, BG                        
+#  1972KOYZ, 1971KOZM: G, GG. 22 levels and 56 G's reported.              
+#  Results are consistent with those presented here                       
+#  1969HU07: G, GG, B, BG, CE for 735                                     
+#  1966GU05: G, GG, B, BG, T1/2(98NB isomer)                              
+#  1962WA36: G, T1/2(98NB isomer)                                         
+#  1961TA08: G, B, T1/2(98NB isomer)                                      
+#  1960OR02: G, B, BG, T1/2(98NB isomer)                                  
+#  1949BO29: T1/2(98NB isomer)                                            
+#            Systematics of BETA-ray endpoint energies: 1983BE56          
+#B           Q values: 4500 200 (1976HE10), 4600 100 (1966GU05)           
+#B IB(A)$The value obtained from intensity balance is inconsistent        
+#B with assigned JPI to this level. The apparent B- feeding is            
+#B most likely due to the fact that many transitions are still unplaced   
+#B LOGFT(A)$Value is too low to be consistent with assigned JPI's         
+#B to this level and JPI=(5+) to the parent state                         
+#G           Yield measurement from 243CM(N,F): 1986DI09                  
+#G M$From adopted gammas                                                  
+#G           Based on least-squares fit, possible assignments have        
+#G been suggested (evaluator) for unplaced transitions and given          
+#G under comments only                                                    
+#G E$The uncertainties on some of the transitions have been               
+#G increased (evaluator) as suggested by the least-squares fitting        
+#G procedure. The revised minimum uncertainties, based on expected        
+#G statistical errors only (not on actual positions of the peaks in       
+#G the GAMMA-ray spectra) are                                             
+#G 0.020 for RI GT 5, 0.050 for RI=1 to 5 and 0.10 for RI LT 1            
+#G E(A)$From 1976SI04 only. Treated as uncertain (evaluator)              
+#G E(B)$Not reported by 1976SI04. Treated as uncertain (evaluator) since  
+#G intensity given by 1984ME04 should have been detected by 1976SI04      
+#G RI(D)$Only a small fraction of the intensity may belong here           
+#L E$From least-squares fit to EG's                                       
+#L           A 3742 level proposed by 1976SI04 has been omitted for       
+#L lack of confirmation by 1984ME04                                       
+#L J$From adopted levels                                                  
+#P 84        4 (5+)              51.3 M    4              4586      6     
++B beta- 1.337 0.044000000000000004
++B beta- 1.057 0.003
++B beta- 1.001 0.159
++B beta- 0.95 0.013000000000000001
++B beta- 0.91 0.015
++B beta- 0.88 0.0060999999999999995
++B beta- 0.876 0.024
++B beta- 0.839 0.0014000000000000002
++B beta- 0.838 0.0023
++B beta- 0.818 7.000000000000001E-4
++B beta- 0.791 0.27899999999999997
++B beta- 0.781 0.0016
++B beta- 0.75 0.077
++B beta- 0.729 7.000000000000001E-4
++B beta- 0.719 0.004
++B beta- 0.71 1.3E-4
++B beta- 0.655 0.0068000000000000005
++B beta- 0.64 5.3E-4
++B beta- 0.635 0.0078000000000000005
++B beta- 0.635 0.0637
++B beta- 0.622 0.024
++B beta- 0.614 0.0052
++B beta- 0.602 5.0E-4
++B beta- 0.57 0.0060999999999999995
++B beta- 0.551 0.0033
++B beta- 0.55 0.10400000000000001
++B beta- 0.543 0.0022
++B beta- 0.537 9.0E-4
++B beta- 0.5 0.033
++B beta- 0.482 4.0E-4
++B beta- 0.47 0.037000000000000005
++B beta- 0.467 0.0022
++B beta- 0.466 0.0033
++B beta- 0.46 7.000000000000001E-4
++B beta- 0.444 0.0173
++B beta- 0.439 0.0053
++B beta- 0.424 1.3E-4
++B beta- 0.417 0.0089
++B beta- 0.407 8.0E-4
++B beta- 0.404 0.006500000000000001
++B beta- 0.401 3.5000000000000005E-4
++B beta- 0.397 0.0070999999999999995
++B beta- 0.383 9.0E-4
++B beta- 0.382 0.0014000000000000002
++B beta- 0.375 8.0E-4
++B beta- 0.374 9.0E-4
++B beta- 0.372 0.0127
++B beta- 0.335 1.0E-4
++B beta- 0.33 0.006
++B beta- 0.325 0.0023
++B beta- 0.308 4.6E-4
++B beta- 0.295 0.0011
++B beta- 0.295 0.0034999999999999996
++B beta- 0.282 5.0E-4
++B beta- 0.24 7.000000000000001E-4
++B beta- 0.234 0.0023
++B beta- 0.227 0.0012
++B beta- 0.22 0.0012
++B beta- 0.197 3.7E-4
++B beta- 0.191 4.6E-4
++B beta- 0.181 3.0E-4
+

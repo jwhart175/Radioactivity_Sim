@@ -1,0 +1,84 @@
+#177HF    177TA EC DECAY                1974JE02,1961WE11         03NDS    200305
+#  177TA EC DECAY                1974JE02,1961WE11         03NDS    200305
+#H TYP=ERR$AUT=F.G. KONDEV$DAT=1-Nov-2011$COM=Corrected NR value$         
+#H TYP=FUL$AUT=F.G. KONDEV$CIT=NDS 98, 801 (2003)$CUT=1-Aug-2002$         
+#  1974Je02: Source produced using the 175LU(A,2NG) reaction.             
+#  Detectors: 2 GE(LI) detectors with energy resolution of 2.1 KEV at     
+#  1333 KEV. Measured: G-ray singles, GG coin.                            
+#  1961We11: Source produced using the 175LU(A,2NG) and Hf(P,XNG)         
+#  reactions at beam energies of 34 MEV and 11 MEV, respectively.         
+#  Others: 1960Ha18.                                                      
+#L E$From a least squares fit to the G ray energies, unless otherwise     
+#L specified.                                                             
+#L J,T$From adopted levels.                                               
+#L E(A)$NU 7/2[514] (f{-7/2}).                                            
+#L E(B)$NU 9/2[624] (i{-13/2}).                                           
+#L E(C)$NU 5/2[512] (h{-9/2}).                                            
+#L E(D)$NU 1/2[521] (p{-3/2}).                                            
+#L E(F)$NU 7/2[633] (i{-13/2}).                                           
+#L E(G)$NU 3/2[512] (p{-3/2}).                                            
+#L E(H)$NU 7/2[503] (h{-9/2}).                                            
+#G E,RI$From 1974Je02, unless otherwise specified.                        
+#G M,MR$From adopted gammas, unless otherwise specified.                  
+#P 0.0         7/2+              56.56 H   6              1166      3     
+TA177 HF177 beta+ 1.166 203616.0 1.0
++B beta+ 8.172E-4 0.0013973
++G gamma 0.1129 0.07238
++B beta+ 8.156E-4 0.0014095
++G gamma 0.1367 7.708E-5
++G gamma 0.24969999999999998 3.102E-4
++B beta+ 7.882E-4 0.0016
++G gamma 0.0717 1.316E-4
++G gamma 0.2084 0.0094
++G gamma 0.32130000000000003 2.162E-4
++B beta+ 8.112E-4 0.0014412
++G gamma 0.10529999999999999 6.486E-5
++G gamma 0.177 2.068E-5
++G gamma 0.3138 7.1440000000000005E-6
++B beta+ 8.08E-4 0.00146
++G gamma 0.3952 5.2640000000000004E-5
++G gamma 0.5081 7.050000000000001E-4
++B beta+ 8.047E-4 0.00148
++G gamma 0.0963 9.117999999999999E-5
++G gamma 0.2832 5.546000000000001E-6
++G gamma 0.3549 1.8800000000000003E-5
++G gamma 0.4915 3.102E-4
++G gamma 0.6043999999999999 2.162E-4
++B beta+ 7.994E-4 0.0015199999999999999
++G gamma 0.31930000000000003 2.3500000000000002E-5
++G gamma 0.42460000000000003 0.001034
++G gamma 0.6329 2.9140000000000004E-4
++G gamma 0.7459 0.002068
++B beta+ 7.864E-4 0.0016200000000000001
++G gamma 0.29769999999999996 1.3160000000000001E-5
++G gamma 0.8057000000000001 2.726E-5
++B beta+ 6.746E-4 0.0024
++G gamma 0.4208 3.102E-4
++G gamma 0.5261 1.6920000000000002E-4
++G gamma 0.5977 9.400000000000001E-5
++G gamma 0.7343999999999999 3.948E-4
++G gamma 0.8473999999999999 2.726E-4
++G gamma 0.2685 1.316E-6
++G gamma 0.36510000000000004 1.598E-6
++G gamma 0.76 6.674E-6
++G gamma 0.873 8.648E-6
++B beta+ 7.679000000000001E-4 0.0017499999999999998
++G gamma 0.1424 5.4520000000000005E-6
++G gamma 0.43989999999999996 3.478E-6
++B beta+ 7.252E-4 0.002
++G gamma 0.12990000000000002 1.034E-5
++G gamma 0.1971 2.914E-5
++G gamma 0.25689999999999996 8.742E-6
++G gamma 0.3983 5.64E-6
++G gamma 0.4947 4.2300000000000005E-5
++G gamma 0.6815 7.520000000000001E-6
++G gamma 1.0028 1.034E-5
++B beta+ 6.66E-4 0.0025
++G gamma 0.2102 4.6059999999999996E-5
++G gamma 0.31189999999999996 4.888E-6
++G gamma 0.4532 2.256E-5
++G gamma 0.5496 6.016000000000001E-5
++G gamma 0.7363999999999999 1.598E-4
++G gamma 0.9448 5.546E-4
++G gamma 1.0577999999999999 0.002914
+

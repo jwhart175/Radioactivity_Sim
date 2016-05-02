@@ -1,0 +1,40 @@
+# 93NB    93NB IT DECAY (16.12 Y)                                 11NDS    201105
+#  93NB IT DECAY (16.12 Y)                                 11NDS    201105
+#H TYP=FUL$AUT=CORAL M. BAGLIN$CIT=NDS 112, 1163 (2011)$CUT=15-Dec-2010$  
+#  1999ZHZY, 1991BaZS, 1990Co17, 1983Va25, 1982Re09, 1981Ll01, 1977Ll01,  
+#  1977Mo07, 1972FlZM, 1965Fl02, 1964Ho08.                                
+#  1977Mo07: intrinsic Ge detector, measured EG and I(30G)/I(XK).         
+#  1999ZHZY OBSERVE BOTH THE 30.8-KEV ^IT AND A 28.5-KEV TRANSITION;      
+#  THEY ATTRIBUTE THE LATTER TO AN ELECTRON BRIDGE MECHANISM WITH         
+#  ELECTRON BRIDGE EMISSION PROBABILITY 0.061 14 TIMES THAT OF THE        
+#  30.8-KEV RADIATION.                                                    
+#                                                                         
+#  {U{+93}Nb x-ray Emission Probabilities} (per 100 ^IT decays):          
+#                                                                         
+#        Calculated    1990Co17   X-ray                                   
+#         6.34 24                 (K{-|a1})                               
+#         3.32 13                 (K{-|a2})                               
+#         1.89 7                  (K{-|b})                                
+#        11.55 28      11.12 22   (K(Total))                              
+#  The calculated values are those obtained using the program ^RADLST and 
+#  the adopted decay scheme.  The most precise measurement of I(XK) is    
+#  that by 1990CO17 (other data are 11.5 3 (1983Va25) and unpublished     
+#  values of 11.6 4, 10.7 3, 11.0 3 referenced in 1991BaZS).              
+#  THE ENERGY BALANCE FOR THIS DECAY IS SATISFACTORY: TOTAL ENERGY        
+#  DEPOSITED IS  CALCULATED TO BE 30.3 11 cf. 30.77 2 BASED ON Q VALUE.   
+#G E         From 1977Mo07. Others: 30.4 3 (1972FLZM), 30.7 1 (1976JU04). 
+#G M         From measured EKC and subshell ratios.                       
+#G RI(A)     FROM %IT=100 AND CC(31G), ASSUMING 1.4% UNCERTAINTY IN       
+#G CC(31G) CALCULATION AND AN ADDITIONAL 0.4% UNCERTAINTY ARISING FROM    
+#G UNCERTAINTY IN EG.  THIS VALUE DIFFERS FROM THAT CALCULATED BY         
+#G 2007BEZP BECAUSE THAT EVALUATION ASSUMED A DIFFERENT VALUE FOR CC(31G).
+#L E         FROM EG.                                                     
+#L J         FROM Adopted Levels.                                         
+#L T(Z)      weighted average of 16.13 Y 15 (1983Va25; STATISTICAL        
+#L UNCERTAINTY 0.10) and 16.11 Y 19 (1981Ll01; presumed to supersede      
+#L preliminary datum from 1977Ll01); DECAY WAS FOLLOWED FOR >4 AND 10     
+#L YEARS, RESPECTIVELY. Other ^T{-1/2}: 13.6 Y 3 (1965Fl02; decay followed
+#L for 11 Y)); GE 5 Y (1976JU04; FROM G(T), DECAY FOLLOWED FOR 1 Y).      
+#P 30.77      2 1/2-             16.12 Y   12                             
++G gamma 0.03077 5.91E-6
+

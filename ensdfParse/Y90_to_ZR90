@@ -1,0 +1,17 @@
+# 90ZR    90Y B- DECAY (3.19 H)         1976GR16                  97NDS    199801
+#  90Y B- DECAY (3.19 H)         1976GR16                  97NDS    199801
+#H TYP=ERR$AUT=O. Bersillon$COM=Fixed NB$DAT=9-May-2000$                  
+#H TYP=FUL$AUT=E. BROWNE$CIT=NDS 82, 379 (1997)$CUT=1-May-1997$           
+#  Y(N,G), chemical separation. Measured G(t) with GELI (1976Gr16).       
+#  Other: 1973Ra10                                                        
+#N 1.0                   0.000018 25.555E+4                               
+Y90 ZR90 beta- 2.2801 0.0 0.000018
+#N                                 1.0                                    
+#N BR        From measured I(2319G)/I(480G)=1.89E-5 18 (1976Gr16).        
+#N in agreement with upper limit of 8E-5 (1973Ra10). Value is recalculated
+#N by evaluators with adopted photon branching ratios.                    
+#L T         From adopted levels.                                         
+#P 682.04    2  7+               3.19 H     1             2280.1    16    
++B beta- 0.2325 1.8E-5
++G gamma 2.318968 1.0
+

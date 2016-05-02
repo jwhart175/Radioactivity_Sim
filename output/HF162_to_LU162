@@ -1,0 +1,44 @@
+#162LU    162HF EC DECAY                1995HI12,1982SC15         07NDS    200708
+#  162HF EC DECAY                1995HI12,1982SC15         07NDS    200708
+#H TYP=FUL$AUT=C. W. Reich$CIT=NDS 108,1807 (2007)$CUT=1-Mar-2007$        
+#  DATA SET UPDATED (MARCH, 2006) BY CW REICH TO INCLUDE NEW Q+ VALUE,    
+#   NEW CC VALUES AND AA NEW JPI VALUE FOR THE Lu GS.                     
+#  1995Hi12: source material produced via the 135BA(32S,5N) reaction, with
+#  E(32S) having five different values, ranging from 214 MEV down to      
+#  172 MEV. Enriched (92.7% 135BA) BaF{-2} targets. The reaction products 
+#  were removed from the reaction chamber to a moving tape, for           
+#  subsequent analysis, using a He-jet system. Measurements were made     
+#  with two high-resolution Ge detectors in a close 180 DEG geometry      
+#  and a 450-mm{+2} Si surface |a detector. Excitation functions were     
+#  used to assign mass numbers to the radiations. Measured EG, RI, GG,    
+#  XG, T1/2, EA.                                                          
+#  1982Sc15: source material produced via the 142ND(24MG,4N) reaction on  
+#  an enriched (96.24% 142ND) target. G singles and GG coincidences       
+#  measured with Ge detectors.                                            
+#  ALPHA's measured with Si detector.                                     
+#  The data are from 1995Hi12, unless noted otherwise                     
+#  Experimental methods:                                                  
+#  1981LiZM:  Produced by YB(3HE,XN) reaction and isotope separation.  G  
+#       measured with Ge detectors.  Report T1/2.                         
+#  1982Br31:  Produced by 147SM(20NE,5N) reaction.  G measured with Ge    
+#       detector.  Report T1/2 and two G's.                               
+#  1982Sc15:  Produced by 142ND(24MG,4N) reaction on enriched (96.24%)    
+#       target.  G singles and GG coincidences measured with Ge detectors.
+#       ALPHA's measured with Si detector.                                
+#G           The data are from 1995Hi12, unless noted otherwise           
+#G           Values of CC for several multipolarities are given in the    
+#G ENSDF file.                                                            
+#G RI        annihilation radiation is observed, but 511 peak includes    
+#G contribution from 163HF decay. For the combined 511 peak,              
+#G RI(174)/I(511)=1.13 21 (1982Sc15).                                     
+#G E(M)      From 1982Sc15. This value agrees well with that of 1995Hi12, 
+#G but is considerably more precise.                                      
+#G E(P)      The ordering of these two transitions is that given by both  
+#G 1982Sc15 and 1995Hi12, but it has not been definitely established      
+#G E(R)      The ordering of these two transitions is not definitely      
+#G established. The one shown here is that shown by 1995Hi12, based on the
+#G larger intensity of the 79G.                                           
+#L E(N)      Level not reported by 1982Sc15                               
+#P    0         0+                39.4 S   9              3660      80    
+HF162 LU162 beta+ 3.66 0.0 1.0
+

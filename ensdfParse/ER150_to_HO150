@@ -1,0 +1,21 @@
+#150HO    150ER EC DECAY (18.5 S)       1987TO05                  13NDS    201306
+#  150ER EC DECAY (18.5 S)       1987TO05                  13NDS    201306
+#H TYP=FUL$AUT=S. K. Basu, A. A. Sonzogni$CIT=NDS 114, 435 (2013)$        
+#H CUT=1-Apr-2013$                                                        
+#  Others: 1982ElZT, 1982Mo19.                                            
+#E LOGFT$Calculated under the assumptions that the 2- level is the        
+#E ground state and that conversion is not significant.                   
+#G M(A)$From |a(K)exp (1989KlZX). No details are given.                   
+#  2011ES03: measured |e+|b+ total intensities using ^TAGS spectrometer.  
+#  Results agree well with those from 1987TO05.   The intensity to        
+#  weakly populated levels above the 1160 one is given as 4.3 7 in        
+#  2011ES03.                                                              
+#L J$From adopted levels                                                  
+#  CC$ FROM BrIcc v2.2b (20-Jan-2009) 2008Ki07, "Frozen Orbitals" appr.   
+#P 0            0+                18.5 S    7              4115     14    
++B beta+ 0.9248 0.0062
++B beta+ 1.3407 0.05
++B beta+ 1.1825999999999999 0.04
++B beta+ 0.877 0.006500000000000001
++B beta+ 0.7435 0.0072
+

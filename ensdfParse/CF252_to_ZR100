@@ -1,0 +1,50 @@
+#100ZR    252CF SF DECAY                2006HW04,1997HA64,2002SM1008NDS    200802
+#  252CF SF DECAY                2006HW04,1997HA64,2002SM1008NDS    200802
+#H TYP=FUL$AUT=BALRAJ SINGH$CIT=NDS 109, 297 (2008)$CUT=26-Dec-2007$      
+#  2006Hw04: Measured E|g, I|g, |g|g using Gammasphere array with         
+#  102 Ge detectors.                                                      
+#  1997Ha64 (also 1995HaZT,1995HaZZ): Measured E|g, I|g, |g|g using       
+#  GAMMASPHERE array. This work is from the same group as 2006Hw04        
+#  2006Hw01: measured level lifetimes by time-gated triple |g             
+#  coincidence method using Gammasphere array with 72 Ge detectors        
+#  2002Sm10: Measured lifetimes by differential plunger method using the  
+#  EUROBALL and SAPHIR arrays consisting of 48 square solar cells.        
+#  Data for g.s. band up to 12+                                           
+#  2004Sm04 (also 2005Sm08): Measured g factor of first 2+ state by       
+#  perturbed angular correlation method, Gammasphere array                
+#  2005Ja12: Measured E|g, I|g, |a|g and |g|g coin for |a-accompanied     
+#  ternary fission, deduced intensity ratios                              
+#  Other: 254CF SF decay: 1980ChZM                                        
+#  Earlier references:                                                    
+#  1974KhZV, 1974JaYY, 1974ClZX, 1972Wi15, 1972ClZN, 1972Ho08, 1971Ho29,  
+#  1971Ch44, 1970Ch11, 1970Jo20, 1966WaZX. Others: 1983MaYT, 1987BoZN     
+#  In pre 1990 papers, the following measurements were reported           
+#  for four GAMMA rays linking GS band members up to (8+):                
+#  prompt and delayed G rays and conversion electrons; coincidence        
+#  measurements using (x ray)G, GG, (fragment)(G), (fragment)(fragment)(G)
+#  techniques; lifetime measurements by recoil-distance DOPPLER-shift     
+#  and delayed coincidence methods. But the 614.2G from (8+) level        
+#  is not confirmed in later studies. According to 1997Ha64, a 625.0G     
+#  deexcites the 8+ level, instead                                        
+#  All data are from 2006Hw04, unless otherwise stated                    
+#G E,RI$From 2006Hw04, unless otherwise stated. Intensity uncertainties   
+#G vary from 5% for strong transitions to 30% for weak ones, as           
+#G stated by 2006Hw04.                                                    
+#L $ Q{-t}=Transition quadrupole moment                                   
+#L E$ FROM LEAST-SQUARES FIT TO EG'S, ASSUMING |D(EG)=0.3 KEV             
+#L J$ From 'adopted levels'.                                              
+#L T$From differential plunger method (2002Sm10), unless otherwise        
+#L stated. The uncertainties are purely statistical.                      
+#L E(G)$ Population of this level seems uncertain since it is not included
+#L in the level scheme of 2006Hw04, and according to an e-mail reply from 
+#L the authors, the existence of 936.8 gamma does not seem certain        
+#L BAND(C)$ GS BAND                                                       
+#L BAND(D)$ KPI=(6+), |n9/2[404]~#|n3/2[411] BAND.                        
+#L Probable configuration from (2004Hu02,1995Du10).                       
+#L Earlier (1997Ha64) this band was                                       
+#L interpreted as KPI=5- band with configuration=|p5/2[422]~#|p5/2[303]   
+#L BAND(E)$ EXCITED 0+ BAND                                               
+#L BAND(F)$ |DJ=1 band (?)                                                
+#P 0            0+               2.645 Y   8                              
+CF252 ZR100 SF 0.0 8.346802377600001E7 0.03092
+

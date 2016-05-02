@@ -1,0 +1,127 @@
+#167YB    167LU EC DECAY                1976GR06,1976ME06         00NDS    200008
+#  167LU EC DECAY                1976GR06,1976ME06         00NDS    200008
+#H TYP=FUL$AUT=Coral M. Baglin$CIT=NDS 90, 431 (2000)$CUT=5-Jul-2000$     
+#  Others: 1959HA09, 1959KA08, 1960BA32, 1960BO29, 1960BU27,              
+#  1965GR20, 1969AR23, 1971AB04, 1975VAYV, 1977GR21, 1981KR08, 1987BAZB.  
+#  1971AB04: sources from spallation of tantalum by 680-MEV               
+#  protons; measured EG, IG (GELI spectrometers) and ECE, ICE (permanent  
+#  magnet uniform-field 0.05% resolution spectrographs).                  
+#  1976GR06: sources from spallation of tantalum by 660-MEV               
+#  protons, chemical and electromagnetic isotope separations; measured    
+#  EG, IG (GELI (various)), ECE, ICE (SILI (FWHM=2.8 KEV at 401 KEV K     
+#  line), mag spectrograph (resolution=0.05%)), prompt and delayed GG     
+#  coin (20-30 NS timing resolution)                                      
+#  1976ME06: sources from 169TM(3HE,5N) (E(3HE)=45 MEV, TM foil           
+#  targets) and 170YB(P,4N) (E(P)=45 MEV, YB oxide targets                
+#  enriched to 67% in 170YB); measured EG, IG (GELI-NAI                   
+#  COMPTON-suppression spectrometer, GELI surface barrier                 
+#  detector), prompt and delayed GG coin.                                 
+#  1981KR08: sources from spallation of tantalum by 660-MEV               
+#  protons, chemical and mass separations; measured anisotropies          
+#  of G rays from oriented nuclei (GELI, FWHM=2.5 KEV at 1.33             
+#  MEV).                                                                  
+#  The decay scheme is from 1976ME06, with some additions and             
+#  changes incorporated from 1975VAYV, 1976GR06, and 1981KR08.            
+#  Knowledge of the scheme is incomplete, with about 15% of the           
+#  transition intensity unplaced and several transitions                  
+#  multiply placed. Some of the more serious inconsistencies              
+#  are noted.                                                             
+#E           EC+B+ feedings are from intensity imbalance at each          
+#E level, assuming no branch to GS, consistent with                       
+#E RI(239.2G)=8.6% 6 (1976ME06).                                          
+#E           1977GR21 discuss conclusions of 1976ME06 regarding           
+#E anomalies in the EC/B+ ratios.                                         
+#L E         From least-squares adjustment of EG, omitting uncertainly-   
+#L or multiply-placed gammas and also 1676G, 1753G, 1873G, 1893G, each    
+#L of which fits its placement poorly.                                    
+#L J         Adopted values.                                              
+#G E         Weighted average of values from 1976GR06 and 1976ME06 if     
+#G E{-|g}>300, and from 1976GR06 and 1971AB04 for lower E{-|g},           
+#G except when transition is reported in only one of these studies.       
+#G Exceptions are noted.                                                  
+#G RI        From 1976GR06, except as noted. Data from 1976ME06 are a     
+#G little less comprehensive, but are of comparable precision and, in     
+#G general, are in excellent agreement with those from 1976GR06. However, 
+#G data for a few lines in the energy ranges 550-900 KEV and 1470-1900    
+#G KEV are significantly lower in 1976ME06 (by as much as a factor of     
+#G two). In order to compare data from 1976GR06 and 1976ME06, the         
+#G evaluator scaled data from 1976ME06 by a factor of 2.2 1 for EG<300    
+#G and 2.8 1 for EG>300; these factors are the unweighted averages of the 
+#G 9 most precise intensity ratios IG(1976GR06)/IG(1976ME06) in each      
+#G energy range (the need for different scaling factors in these energy   
+#G ranges is not understood).                                             
+#G M         From EKC and/or CE subshell ratios (1976GR06), except where  
+#G noted; the photon and CE intensity scales were normalized by           
+#G 1976GR06 assuming KC(M1 theory) for the 401.2G, and this normalization 
+#G implies an EKC(213G) which is consistent with M1 theory (as expected   
+#G on the basis of subshell ratios for the 213-KEV transition).           
+#G MR        Unless indicated otherwise, MR data given with a sign are    
+#G from G-ray anisotropy (nuclear orientation measurements of 1981KR08)   
+#G and those without a sign are from conversion electron data (authors'   
+#G analysis of subshell ratios from 1976GR06).                            
+#L E(A)      5/2[523] band member.                                        
+#L E(B)      5/2[642] band member.                                        
+#L E(C)      1/2[521] band member.                                        
+#L E(D)      3/2[521] band member.                                        
+#L E(E)      11/2[505] band member.                                       
+#G TI(B)     Deduced from ICE data (1976GR06) and adopted mult.           
+#G CC(F)     Value and uncertainty cover combined range for               
+#G both multipolarities.                                                  
+#G M(G)$From G-ray anisotropies (nuclear orientation                      
+#G measurements (1981KR08)); decay scheme of 1976ME06 was used in         
+#G analysis.                                                              
+#G E(U)      Alternative placement from 569.4 level consistent            
+#G only with mult(443.0G)=E2 and JPI(569.4 level)=7/2+. 1976GR06          
+#G report no conversion electrons for 443.0G, favoring mult=E1.           
+#G RI(W),M(W)$IG=9.5 8 (1976ME06), presumably for 351G+352G doublet since,
+#G otherwise, EKC=0.007 2 cf. KC(E1)=0.0114; RI=9.8 25 for this doublet in
+#G 1976GR06. ICE(K)=0.06 2 for each component (1976GR06), favoring E1 for 
+#G each; therefore, the evaluator assigns IG=4.8 4 to each.               
+#G RI(X)     IG=17 3 for 570.0G+570.7G in 1976GR06 (14.0 11 in 1976ME06). 
+#G From ICE(570.0), EKC(570.0) GE 0.015 4 (ruling out E1 multipolarity),  
+#G and IG(570.0) GE 10 2 assuming EKC LE KC(M1 theory); the evaluator     
+#G adopts RI=14 6 for this component of the doublet, leaving IG=3 7 for   
+#G the 570.7G. Additionally, from ICE(570.7), IG(570.7) LE 13 3 and GE 2, 
+#G respectively, assuming EKC GE KC(E1) and LE KC(M1).                    
+#G E(Y)      Placed by 1976ME06 (and 1981KR08) from 677 and/or 1305       
+#G level(s); the energy fit for the former placement is excellent, but    
+#G the level scheme requires mult=M1,E2 whereas EKC lies midway between   
+#G KC(E1) and KC(E2).                                                     
+#G RI(Z)     From 1976ME06; data scaled as indicated in general comment   
+#G on RI data.                                                            
+#P 0.0          7/2+             51.5 M    10             3.13E3    10    
++B beta+ 7.767E-4 0.01
++B beta+ 0.94 0.00657
++B beta+ 0.938 0.00658
++B beta+ 0.927 0.0066300000000000005
++B beta+ 0.918 0.006670000000000001
++B beta+ 0.873 0.00687
++B beta+ 0.857 0.0069299999999999995
++B beta+ 0.846 0.006979999999999999
++B beta+ 0.828 0.00705
++B beta+ 0.823 0.00784
++B beta+ 0.815 0.00711
++B beta+ 0.769 0.00728
++B beta+ 0.76 0.00731
++B beta+ 0.74 0.00739
++B beta+ 0.706 0.0075
++B beta+ 0.699 0.00753
++B beta+ 0.707 0.008
++B beta+ 0.673 0.0076100000000000004
++B beta+ 0.602 0.00781
++B beta+ 0.499 0.008020000000000001
++B beta+ 0.391 0.008159999999999999
++B beta+ 0.375 0.00818
++B beta+ 0.352 0.00819
++B beta+ 8.218E-4 0.03
++B beta+ 8.218E-4 0.03
++B beta+ 8.218E-4 0.03
++B beta+ 8.215E-4 0.04
++B beta+ 8.215E-4 0.04
++B beta+ 8.215E-4 0.04
++B beta+ 8.213000000000001E-4 0.05
++B beta+ 8.212E-4 0.05
++B beta+ 8.209999999999999E-4 0.05
++B beta+ 8.209999999999999E-4 0.05
++B beta+ 8.205E-4 0.06
+

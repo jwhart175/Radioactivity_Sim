@@ -1,0 +1,17 @@
+# 56CR    56V B- DECAY                  2003MA02,1998SO03         11NDS    201105
+#  56V B- DECAY                  2003MA02,1998SO03         11NDS    201105
+#H TYP=FUL$AUT=HUO JUNDE, HUO SU, YANG DONG$CIT=NDS 112, 1513 (2011)$     
+#H CUT=29-Oct-2009$                                                       
+#  2003Ma02: {+56}V isotope produced in {+9}Be({+86}Kr{+14+},X)           
+#  at E=140 MeV/nucleon; A1900 fragment separator. Measured E|g,          
+#  I|g, |g|g, |b|g, |b|g(t), lifetime using a double-sided                
+#  Si microstrip detector (DSSD) and Segmented Germanium Array (SeGA).    
+#  The SeGA array was arranged around the |b counting system.             
+#  1998So03: {+56}V isotope produced in {+9}Be({+65}Cu,X)                 
+#  at E=64.5 MeV/nucleon; Measured E|g, I|g, |b|g-coin and T{-1/2}.       
+#  Si telescope surrounded by 4|p|g detection system of                   
+#  eight BGO crystals.                                                    
+#  All data are from 2003Ma02, EXCEPT AS NOTED.                           
+#P 0.0          1+               0.216 S   4              9.20E+3   20    
+V56 CR56 beta- 9.2 0.216 1.0
+

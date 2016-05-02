@@ -1,0 +1,72 @@
+#104PD    104RH B- DECAY (42.3 S)                                 07NDS    200709
+#  104RH B- DECAY (42.3 S)                                 07NDS    200709
+#H TYP=FUL$AUT=JEAN BLACHOT$CIT=NDS 108,2035 (2007)$CUT=30-Mar-2007$      
+#  See also 104RH EC decay                                                
+#  Activity from 103RH(D,P), 103RH(N,G)                                   
+#  Measured GAMMA (1971DO10,1970OK03), GG, GG(THETA) (1972OK01,1972SI08)  
+#  GE(LI), NAI detectors. Others: 1967FE03, 1959GI63, 1955JO25, 1953JO09  
+#G E,RI      From 1972SI08                                                
+#L J         From adopted levels                                          
+#P 0.0         1+                42.3 S    4              2440      5     
+RH104 PD104 beta- 2.44 42.3 0.020
++G gamma 0.5558099999999999 1.0
++G gamma 0.7671 0.005600000000000001
++G gamma 0.77777 0.0031
++G gamma 0.78588 0.0018
++G gamma 1.3416700000000001 0.0014000000000000002
++G gamma 0.45116 0.0031
++G gamma 0.4605 0.0018
++G gamma 1.23705 0.033
++G gamma 1.23802 0.005
++G gamma 1.79383 5.099999999999999E-4
++G gamma 0.4791 0.0015
++G gamma 0.4885 0.0014000000000000002
++G gamma 0.4978 0.0011
++G gamma 1.6890999999999998 2.1999999999999998E-4
+
+#104PD C  See also 104RH IT DECAY                                                
+#  See also 104RH IT DECAY                                                
+#  From 1971DO10, 1972OK01, 1972SI08, 1974GI11. Others: 1967FE03, 1963WI10
+#  GG-coincidence measurements by 1972SI08 are summarized on the decay    
+#  scheme. Others: 1963WI10, 1955BU33                                     
+#  GG(THETA): 1972OK01, 1972SI08                                          
+#  The total BETA branching as estimated from the equilibrium source      
+#  intensities reported by 1972SI08 and 1974GI11 and the adopted decay    
+#  scheme is IB=0.13%. This gives IB(1323 level)=0.062%, in good          
+#  agreement with AP 0.07% reported by 1960BU05                           
+#G RI        Relative photon intensity from 4.34 M+42.3 S 104RH           
+#G equilibrium sources                                                    
+#G E         From 1972SI08                                                
+#G E(A)      From 1974GI11                                                
+#G E(B)      From 1971DO10                                                
+#L J         From adopted levels                                          
+#P 128.9679  5    5+             4.34 M    3              2440      5     
+RH104 PD104 IT 0.0 260.4 1.0
++G gamma 0.5558099999999999 1.0
++G gamma 0.76778 0.05
++G gamma 0.7772 0.0029
++G gamma 0.78588 0.0066
++G gamma 1.3416700000000001 0.005
++G gamma 1.23705 0.032
++G gamma 0.4515 0.0029
++G gamma 0.4605 8.0E-4
++G gamma 1.238 0.005
++G gamma 1.7932000000000001 5.0E-4
++G gamma 0.4794 5.0E-4
++G gamma 0.4885 0.0011
++G gamma 0.4978 9.0E-4
++G gamma 1.2648499999999998 3.0E-4
++G gamma 0.618 3.0E-4
++G gamma 0.7406900000000001 0.0066
++G gamma 0.75878 0.0072
++G gamma 1.5266 0.0060999999999999995
++G gamma 0.3326 0.0011
++G gamma 0.8399 5.0E-4
++G gamma 0.858 0.0055000000000000005
++G gamma 1.62576 0.003
++G gamma 0.4435 7.000000000000001E-4
++G gamma 0.92362 0.0014000000000000002
++G gamma 0.94172 0.0052
++G gamma 1.708 5.0E-5
++G gamma 0.6232000000000001 6.0E-4
+

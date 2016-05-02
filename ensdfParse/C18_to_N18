@@ -1,0 +1,22 @@
+# 18N     18C B- DECAY                  1991PR03                  95NP     199611
+#  18C B- DECAY                  1991PR03                  95NP     199611
+#H TYP=MOD$AUT=J. Blachot$COM=chnaged T to adopted$DAT=15-FEB-2001$       
+#H TYP=FUL$AUT=TILLEY, WELLER, CHEVES, CHASTELER$CIT=NP A595, 1 (1995)$   
+#H CUT=31-OCT-1994$                                                       
+#  Changed QP from 1170E+1 10 to adopted value - JKT 11/96                
+#  Changed T1/2 from 95 MS 10 to adopted value - JB 02/2001               
+#P 0           (0+)              92 MS     2              11807     36    
+C18 N18 beta- 11.807 0.092 1
++G gamma 0.1149 0.365
++B beta- 5.314 0.01
++G gamma 0.4727 0.102
++B beta- 4.745 0.09
++G gamma 1.1478 0.08
++G gamma 1.6199000000000001 0.105
++G gamma 1.7348 0.091
++B beta- 4.309 0.72
++G gamma 0.8797 0.187
++G gamma 2.0253 0.022000000000000002
++G gamma 2.4993000000000003 0.158
++G gamma 2.6142 0.353
+

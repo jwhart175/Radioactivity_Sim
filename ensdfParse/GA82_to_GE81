@@ -1,0 +1,18 @@
+# 81GE    82GA B-N DECAY                1980HOZN,1986WA17,1993RU0108NDS    200810
+#  82GA B-N DECAY                1980HOZN,1986WA17,1993RU0108NDS    200810
+#H TYP=FUL$AUT=CORAL M. BAGLIN$CIT=NDS 109, 2257 (2008)$CUT=15-Aug-2008$  
+#  OTHERS: 1980LU04, 1984MA39.                                            
+#  Parent JPI is from 2003TU03; parent T is weighted average of 0.602 S 6 
+#  (1986Wa17) and 0.598 S 4 (1993Ru01). |DQ=320 (2003AU03) FROM           
+#  SYSTEMATICS.                                                           
+#G           Mass separated fission products; GE(LI) DETECTORS.           
+#G Decay scheme known from 81GA B- decay.                                 
+#G E         FROM 1980HOZN.                                               
+#G RI        Photon intensity relative to RI(1348.07)(82GE)=100 4.        
+#L E         FROM EG, EXCEPT AS NOTED.                                    
+#L J,T       From Adopted Levels.                                         
+#P 0           (1,2,3)           0.599 S   3               5130     SY    
++G gamma 0.71105 0.16
++G gamma 0.21646 0.065
++G gamma 0.5302 0.023
+

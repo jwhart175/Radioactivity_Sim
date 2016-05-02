@@ -1,0 +1,27 @@
+#255RF    259SG A DECAY                 2009HE20,2009FO02         13NDS    201309
+#  259SG A DECAY                 2009HE20,2009FO02         13NDS    201309
+#H TYP=FUL$AUT=E. BROWNE, J. K. TULI$CIT=NDS 114, 1041 (2013)$            
+#H CUT=1-Nov-2011$                                                        
+#  New data set.  E. Browne (October 28, 2011)                            
+#  2009He20: 259SG activity produced by 207PB(54CR,2N). Evaporation       
+#  residues with energies of 35 to 60 MeV were separated from the         
+#  primary beam by the velocity filter SHIP. Measured gamma rays using    
+#  a Ge CLOVER detector, emitted in prompt or delayed coincidence.        
+#  Alpha particles were detected with position-sensitive Silicon          
+#  detectors.                                                             
+#  2009FO02: 259SG activity produced by 208PB(52CR,N). Evaporation        
+#  residues were identified using the                                     
+#  Berkeley Gas-filled Separator (BGS).                                   
+#  Alpha particles were detected with position-sensitive Silicon          
+#  detectors.                                                             
+#  1985Mu11: From 207PB(54CR,2N), E=4.90 MeV/nucleon; A total of 9        
+#  alpha-particle events were measured with position-sensitive Silicon    
+#  surface barrier detectors, FWHM=32 keV.                                
+#A E         From 2009He20.                                               
+#A HF        R0=1.46 (estimated by evaluators from 1998Ak04).             
+#P 0.0                           0.29 S    5              9821      10    
+SG259 RF255 alpha 9.821 0.29 0.9
++A alpha 9.607 0.24
++A alpha 9.55 0.27
++A alpha 9.05 0.06
+

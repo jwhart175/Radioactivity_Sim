@@ -1,0 +1,22 @@
+#247BK    251ES A DECAY                 1979AH03                  15NDS    201503
+#  251ES A DECAY                 1979AH03                  15NDS    201503
+#H TYP=FUL$AUT=C. D. NESARAJA$CIT=NDS 125, 395 (2015)$CUT=31-Mar-2014$    
+#  1979Ah03: {+251}Es produced from decay of {+251}Fm followed by mass    
+#  separation. The |a-particle spectrum was measured with the Argonne     
+#  double focussing magnetic spectrometer (FWHM=5 keV) and Au-Si          
+#  surface barrier detector (FWHM|?13.0 keV)                              
+#A E$From 1979Ah03. Uncertainties are from spectrometer calibration.      
+#A IA$Alpha intensities per 100 |a decays, measured by 1979Ah03           
+#A HF$r{-0}({+247}Bk)=1.4753 83, unweighted average of                    
+#A r{-0}({+246}Cm)=1.4836 5 and r{-0}({+248}Cf)=1.4670 8 (1998Ak04),      
+#A is used in calculations of HF.                                         
+#L BAND(B)$3/2[521] BAND MEMBER                                           
+#L BAND(A)$7/2[633] BAND MEMBER                                           
+#P 0.0         3/2-              33 H      1              6598      3     
+ES251 BK247 alpha 6.598 118800.0 0.005
++A alpha 6.492 0.81
++A alpha 6.462 0.094
++A alpha 6.452 0.033
++A alpha 6.422 0.03
++A alpha 6.41 0.033
+

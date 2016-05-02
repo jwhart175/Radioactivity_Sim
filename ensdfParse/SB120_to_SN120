@@ -1,0 +1,56 @@
+#120SN    120SB EC DECAY (5.76 D)       1970PA17,1971LI09,1984IW0302NDS    200209
+#  120SB EC DECAY (5.76 D)       1970PA17,1971LI09,1984IW0302NDS    200209
+#H TYP=ERR$AUT=J. Tuli$DAT=13-Apr-2006$COM=changed E(lev)(P) to adopted$  
+#H TYP=FUL$AUT=K. KITAO, Y. TENDOW AND A. HASHIZUME$                      
+#H CIT=NDS 96, 241 (2002)$CUT=1-Dec-2001$                                 
+#  1970PA17: 121SB(G,N) E=25 MEV; semi, scin; G, GG.                      
+#  1971LI09: 120SN(N,P) E=14-15 MEV; semi, scin; G, GG, XKG coin.         
+#  1984IW03: 120SN(P,N); semi.                                            
+#  Others: 1958MC59, 1960IK01, 1961IK03.                                  
+#  Decay scheme was first suggested by 1961BO13 and 1961IK03.             
+#L J         From adopted levels.                                         
+#L E         From a least-squares fit to E(G's) by the evaluators         
+#G E         From 1971LI09; values from 1970PA17 seem systematically low. 
+#G RI        From 1984IW03.                                               
+#G           CE from 1960IK01; K/(L+M) from 1958MC59.                     
+#G           GG coin from 1958MC59, 1960IK01, 1961IK03; see also          
+#G 1968RA14, 1970PA17, 1971LI09.                                          
+#G           See 1958MC59 for coincidence intensity ratios of             
+#G (X-RAY)(89.8G) coin to (X-RAY)(197.3G) coin.                           
+#G 1960IK01; results are consistent with adopted EC feeding to 2482.2     
+#G level.                                                                 
+#G           GG(THETA), (CEK)G(THETA), (pol G)G(THETA); see 1960IK01      
+#G for results generally consistent with adopted level spins.             
+#G           GG(THETA,H,T) - G(2285 level) from 1962BO16;                 
+#G see also 1964DEZZ.                                                     
+#G           GG(THETA,TEMP,T) - Q(2285 level) from 1970WO02.              
+#G M         Deduced by the evaluators by normalizing ICE to IG           
+#G assuming CC(1171.7G)=0.00092 for an E2 transition and                  
+#G comparing with theory (1968HA52).                                      
+#N 1.0         1.0       1.0                                              
+#N NR        based on assumption of no direct feeding to 120SN GS and     
+#N adopted decay scheme.                                                  
+#N                                                                     3  
+#P 0.0+X       8-                5.76 D    2              2681      7     
++G gamma 6.73 1.0
++G gamma 5.15 0.14
++G gamma 7.31 1.0
++G gamma 4.059 0.18
++G gamma 4.846 0.11
++G gamma 5.095 0.08
++G gamma 5.335 0.12300000000000001
++G gamma 5.52 0.013999999999999999
++G gamma 6.522 0.073
++G gamma 7.695 1.0
++G gamma 4.846 1.72
++G gamma 5.443 0.62
++G gamma 5.963 0.85
++G gamma 5.993 0.7
++G gamma 6.264 0.39
++G gamma 6.634 1.4
++G gamma 6.675 0.85
++G gamma 6.833 0.47
++G gamma 6.89 0.98
++G gamma 7.823 0.47
++G gamma 8.995 1.0
+

@@ -1,0 +1,45 @@
+#152TM    156LU A DECAY (494 MS)        1979HO10,1965MA14         13NDS    201311
+#  156LU A DECAY (494 MS)        1979HO10,1965MA14         13NDS    201311
+#H TYP=FUL$AUT=M. J. MARTIN$CIT=NDS 114, 1497 (2013)$CUT=31-Aug-2013$     
+#  Data for E(|a), I(|a), and T{-1/2} are from 1996Pa01, 1979Ho10 and     
+#  1965Ma14                                                               
+#  Experimental methods:                                                  
+#  1965Ma14: Produced by 144SM(19F,7N) reaction on enriched (94.6%) target
+#        Mass assignment from excitation function.  Report E(A), T, and   
+#        P(A) from this activity and for a 180-ms isomer.                 
+#  1979Ho10: Produced in bombardments of targets with 58NI.  Reaction     
+#       products separated with velocity selector and ALPHA's counted     
+#       with position sensitive Si detector to define decay chains.       
+#       Report E(A), T, and I(A).                                         
+#  1981HoZM: Conference report, repeats data of 1979Ho10.                 
+#  1996Pa01: Produced by 106CD+58NI, E(58NI)=300 MEV. ALPHA CORRELATED    
+#       WITH PRECEDING 160TA ALPHA.                                       
+#A HF        r{-0}({+152}Tm)=1.566 {I20}                                  
+#A HF$R0 IS AN AVERAGE FROM THE ADJACENT EVEN-EVEN NUCLIDES, 154YB,       
+#A 156YB, AND 156HF, 158HF                                                
+#P   0         (2)-               494 MS   12              5596      3    
++A alpha 5.453 1.0
+
+#152TM    156LU A DECAY (198 MS)        1979HO10,1965MA14         13NDS    201311
+#  156LU A DECAY (198 MS)        1979HO10,1965MA14         13NDS    201311
+#H TYP=FUL$AUT=M. J. MARTIN$CIT=NDS 114, 1497 (2013)$CUT=31-Aug-2013$     
+#  Measured: E(|a), I(|a): 1996Pa01, 1992Ha10, 1979Ho10, 1965Ma14;        
+#  T{-1/2}: 1996Pa01, 1979Ho10; %|a: 1996Pa01, 1992Ha10, 1979Ho10         
+#  Experimental methods:                                                  
+#  1965Ma14: Produced by 144SM(19F,7N) reaction on enriched (94.6%) target
+#        Mass assignment from excitation function.  Report E(A), T, and   
+#        P(A) from this activity and for an 0.5-s isomer.                 
+#  1979Ho10: Produced in bombardments of targets with 58NI.  Reaction     
+#       products separated with velocity selector and ALPHA's counted     
+#       with position sensitive Si detector to define decay chains.       
+#       Report E(A), T, and I(A).                                         
+#  1981HoZM: Conference report, repeats data of 1979Ho10.                 
+#  1992Ha10: PRODUCED BY CA + 127I, E(127I)=711 MEV                       
+#  1996Pa01: Produced by 106CD+58NI, E(58NI)=300 MEV. ALPHA CORRELATED    
+#       WITH PRECEDING 160TA ALPHA.                                       
+#A HF        r{-0}({+152}Tm)=1.566 {I20}                                  
+#A HF$R0 IS TAKEN BY THE EVALUATOR TO be THE SAME AS THAT FOR THE         
+#A GS DECAY                                                               
+#P  0+X         9+                  198 MS   2               5596    3    
++A alpha 5.565 1.0
+

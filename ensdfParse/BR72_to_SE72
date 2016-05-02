@@ -1,0 +1,70 @@
+# 72SE    72BR EC DECAY                 1974CO14,1974HA04         10NDS    201002
+#  72BR EC DECAY                 1974CO14,1974HA04         10NDS    201002
+#H TYP=FUL$AUT=D. Abriola(a), A.A. Sonzogni$CIT=NDS 111,1 (2010)$         
+#H CUT=1-May-2009$                                                        
+#  The assumption that there is no ground state feeding will lead to a    
+#  5% direct feeding of the 1637 keV level with J|p=4+, as well as a      
+#  direct feeding of about 20% to the first 2+ levels.  As a result, the  
+#  ground state of 72BR could be characterized as having J|p=3+. A        
+#  recent experiment by Piqueras et al (2003PI03) points to a J|p=1+ for  
+#  the ground state 72BR based on the decay of 72KR.  This result will    
+#  in turn mean that the ground state feeding of 72SE is not zero.  In    
+#  consequence, all gamma and beta intensities, as well as LOGFT values   
+#  should be taken as approximate                                         
+#  The decay scheme is based on |g|g coincidence measurements with        
+#  Ge(Li)-NaI(Tl) (1974Co14)                                              
+#  |g|g(t) for 936.8 level (1974Ha04)                                     
+#E TI$From intensity balance.                                             
+#G TI(A)$From I(|g+ce)(75+937)=|SI|g(feeding the 937 level) and           
+#G I(|g+ce)(937|g)/I(|g+ce)(75|g)=0.37 {I23}, from a comparison of        
+#G singles and |g|g intensities (1974Ha04). I|g(379.9|g) feeding the 937  
+#G level is taken as 3.0 {I30}                                            
+#L $J|p: from adopted levels.                                             
+#P 0           1+                78.6 S    24             8799      7     
+BR72 SE72 beta+ 8.799 78.6 1.0
++G gamma 2.465 0.009827999999999998
++G gamma 0.862 0.7019999999999998
++B beta+ 8.748E-4 0.00105
++G gamma 0.37989999999999996 0.035801999999999994
++G gamma 0.4547 0.13127399999999997
++G gamma 1.3167 0.172692
++B beta+ 3.2495 0.05
++G gamma 0.7747999999999999 0.07090199999999999
++B beta+ 3.0265 0.05
++G gamma 0.5592999999999999 0.025974
++G gamma 1.014 0.007019999999999999
++G gamma 1.0615999999999999 0.055458
++G gamma 1.1364 0.0702
++B beta+ 2.8699 0.05
++G gamma 0.512 0.020357999999999998
++G gamma 0.832 0.020357999999999998
++G gamma 2.1506999999999996 0.009827999999999998
++B beta+ 2.6931 0.05
++G gamma 1.0547 0.037205999999999996
++G gamma 1.4336 0.009827999999999998
++G gamma 1.5098 0.032993999999999996
++G gamma 2.3719 0.07511399999999999
++B beta+ 2.6193 0.05
++G gamma 1.5713 0.037908
++G gamma 2.4326999999999996 0.012636000000000001
++B beta+ 2.5114 0.05
++G gamma 0.7102 0.016145999999999997
++G gamma 1.2695 0.008424
++G gamma 1.724 0.034398
++B beta+ 2.4814000000000003 0.05
++G gamma 0.37989999999999996 0.035801999999999994
++G gamma 1.0892 0.03159
++G gamma 1.6485 0.015444
++B beta+ 2.407 0.04
++G gamma 0.5376000000000001 0.012636000000000001
++G gamma 0.7527999999999999 0.029484
++G gamma 1.1251 0.053352
++G gamma 1.8074000000000001 0.01755
++B beta+ 2.2228000000000003 0.04
++G gamma 1.2273 0.01053
++G gamma 1.3499 0.022463999999999998
++G gamma 1.9094 0.013338
++B beta+ 2.1462 0.04
++G gamma 1.0892 0.03159
++B beta+ 2.0967 0.04
+

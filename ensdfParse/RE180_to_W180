@@ -1,0 +1,52 @@
+#180W     180RE EC DECAY                1980MA14,1967GO22         15NDS    201506
+#  180RE EC DECAY                1980MA14,1967GO22         15NDS    201506
+#H TYP=FUL$AUT=E.A. MCCUTCHAN$CIT=NDS 126, 151 (2015)$CUT=1-Feb-2015$     
+#  1980Ma14: {+180}Re activity produced through the {+182}W(p,3n)         
+#  reaction with E(p)=27 MeV. Measured E|g, I|g, |g|g, and |g(t) using    
+#  two coaxial Ge(Li) detectors and a LEPS detector.                      
+#  1967Go22: {+180}Re activity produced through the {+182}W(p,3n)         
+#  reaction (target of natural tungsten) with E(p)=35 MeV. Measured       
+#  E|g, I|g, |g|g, |g|g(|q), |g|g(t), E(ce), I(ce), |g-|b, and |g-x-ray   
+#  coincidences using Ge(Li) and NaI(Tl) detectors for |g-rays, a Si(Li)  
+#  detector for electrons and a double focusing beta spectrometer for     
+#  |bs.                                                                   
+#  A total energy release of 3800 keV {I150} is calculated for this       
+#  decay scheme using the RADLST code, in good agreement with Q=3801 keV  
+#  {I21}.                                                                 
+#G $K| x-ray relative intensity=87 {I15} (1967Go22). Other: 105           
+#G (1967Ho12).                                                            
+#L E$From least-squares fit to E|g by evaluator.                          
+#L J$From the adopted levels. In cases where spin is constrained by data  
+#L from {+180}Re |e decay, details are included in the comments.          
+#G E(c)$Observed only by 1967Go22. |g-rays were not confirmed by          
+#G 1980Ma14.                                                              
+#L T$From |g|g(t) in 1967Go22.                                            
+#  Others: 1968Be53, 1968Ha39, 1967Ho12.                                  
+#E TI$From an intensity balance at each level by evaluator. The I|g       
+#E normalization of 0.91 {I3} is used which assumes no |e branch to the   
+#E g.s. An upper limit on the intensity to the g.s. of I(|e+|b{++})=8%    
+#E is obtained from a lower limit of log {Ift}=5.9. Such a branch would   
+#E change the log {Ift} values by a maximum of 0.1 units.                 
+#G E$From 1980Ma14.                                                       
+#G RI$From 1980Ma14. These are in general in agreement with the results   
+#G of 1967Go22. In cases where the measured values differ by more than    
+#G 1|s, the values from 1967Go22 are included in the comments.            
+#  CC$FROM BrIcc v2.3a (30-Jun-2013) 2008Ki07, "Frozen Orbitals" appr.    
+#P 0.0          (1)-              2.46 M    3              3801     21    
++B beta+ 1.2084000000000001 0.032
++B beta+ 0.8041 0.083
++B beta+ 0.7549 1.0999999999999999E-4
++B beta+ 0.5478 5.2E-5
++B beta+ 0.5277999999999999 7.6E-5
++B beta+ 0.44789999999999996 5.199999999999999E-6
++B beta+ 0.44060000000000005 0.00164
++B beta+ 0.2888 4.7E-6
++B beta+ 0.2661 2.5999999999999997E-6
++B beta+ 0.2533 2.1000000000000002E-6
++B beta+ 8.15E-4 0.0014000000000000002
++B beta+ 8.148E-4 0.0014000000000000002
++B beta+ 8.139999999999999E-4 0.0014099999999999998
++B beta+ 8.139E-4 0.0014099999999999998
++B beta+ 8.137999999999999E-4 0.0014099999999999998
++B beta+ 8.08E-4 0.00146
+

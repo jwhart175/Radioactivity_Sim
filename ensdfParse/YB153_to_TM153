@@ -1,0 +1,52 @@
+#153TM    153YB EC DECAY (4.2 S)        1989KO02,1988WI05         06NDS    200602
+#  153YB EC DECAY (4.2 S)        1989KO02,1988WI05         06NDS    200602
+#H TYP=FUL$AUT=R. G. Helmer {+*}$CIT=NDS 107, 507 (2006)$CUT=31-Dec-2005$ 
+#  1989Ko02: Source produced by {+92}Mo({+64}Zn,n2p) followed by mass     
+#       separation. Measured coincidences of particles, |g rays, x rays,  
+#       and positrons.                                                    
+#  Decay scheme is very incomplete; with a Q values of over               
+#       6 MeV, many more levels will be populated.                        
+#E TI        Since the 43-keV level decays primarily by |a emission       
+#E      and secondarily by |e+|b+ decay, one has 100% of the |e+|b+       
+#E      decays feeding the 43-keV level plus the ground state, rather     
+#E      than 100% to the ground state.                                    
+#E TI,LOGFT  From |g intensity balance at each level. No uncertainties    
+#E      are given because the scheme is very incomplete so these          
+#E      uncertainties are very large.                                     
+#L           Proton emission has been observed (1988Wi05) from excited    
+#L      levels in {+153}Tm. These protons have a continuous energy        
+#L      spectrum from 2.8 to 5.2 MeV with a mean energy of 3.9 MeV.       
+#L      The emission is from levels in {+153}Tm from 4 to 6 MeV and       
+#L      occur following 8E-3% {I2} of the decays of {+153}Yb. (This       
+#L      uncertainty is statistical only and does not include several      
+#L      contributions.) From p-|g coincidences, these protons populate    
+#L      the following levels in {+152}Er: 0 keV, 0+, 57% {I17};           
+#L      808 keV, 2+, 40% {I12}; and 1481 keV, 4+, 3% {I3}.                
+#L E         From least-squares fit to |g energies.                       
+#L J         From authors (1989Ko02) and based on |e and |g decay         
+#L      modes along with shell-model arguments.                           
+#P 0.0          7/2-             4.2 S     2              6960      SY    
+YB153 TM153 beta+ 6.96 4.2 0.50
++B beta+ 2.608 0.00231
++B beta+ 2.49 0.0014099999999999998
++B beta+ 2.47 0.0014299999999999998
++B beta+ 2.41 0.0015199999999999999
++B beta+ 2.348 0.00161
++B beta+ 2.33 0.00164
++B beta+ 2.31 0.00167
++B beta+ 2.307 0.00167
++B beta+ 2.299 0.00169
++B beta+ 2.285 0.0017100000000000001
++B beta+ 2.275 0.0017299999999999998
++B beta+ 2.247 0.0017699999999999999
++B beta+ 2.209 0.00184
++B beta+ 2.194 0.00187
++B beta+ 2.185 0.00189
++B beta+ 2.103 0.0020499999999999997
++B beta+ 2.086 0.00208
++B beta+ 2.043 0.00218
++B beta+ 1.968 0.0023499999999999997
++B beta+ 1.894 0.0025
++B beta+ 1.857 0.0026
++B beta+ 1.773 0.0029
+

@@ -1,0 +1,28 @@
+#181IR    185AU A DECAY (4.25 M)        1995BI01                  05NDS    200601
+#  185AU A DECAY (4.25 M)        1995BI01                  05NDS    200601
+#H TYP=FUL$AUT=S. -C. WU$CIT=NDS 106, 367 (2005)$CUT=31-Aug-2005$         
+#  1995Bi01: {+185}Au activity produced by 153 MeV {+12}C                 
+#  on Ta foils; UNISOR usitioe separator; Si(Li) detectors for |a's,      
+#  Ge(Li) detector for |g's and X-rays; measured E|a, I|a, |a|g-coin,     
+#  branching ratios. Results supersedes those from 1991Bi04.              
+#  1970Ha18: |a activity of {+185}Au from decay of {+185}Hg produced      
+#  by Pb(p,X); ISOLDE separator; Si(Li) detectors for |a's,               
+#  NaI(Tl), Ge(li) detectors for |g's and X-rays; measured E|a, I|a,      
+#  |a|g-coin; deduced |a-branching, T{-1/2}.                              
+#  1968Si01: |a activity produced by {+175}Lu({+16}O,6n);                 
+#  enriched targets; surface barrier detector; measured E|a, T{-1/2}.     
+#  1968De01: |a activity produced by {+147}Sm({+40}Ar,xn),                
+#  enriched target; helium sweeping technique; surface-barrier detector;  
+#  measured E|a, T{-1/2}.                                                 
+#  1953Ra02: {+185}Au activity produced by Au(d,pxn) at 190 MeV,          
+#  Pt(p,xn) at 120 MeV; chemical separation; Geiger counter               
+#  with and without Be and Pb absorbers; measured E|a, T{-1/2}.           
+#A E,IA$From 1995Bi01, except as noted.                                   
+#A HF        If r{-0}=1.52 {I3} (based on r{-0}({+180}Os)=1.54 3          
+#A and r{-0}({+182}Pt)=1.504 27 from 1998Ak04).                           
+#L J$From 1995Bi01 from I|a and HF factors.                               
+#P 0.0         5/2-              4.25 M    6              5180      5     
++A alpha 5.069 1.0
++A alpha 4.826 0.0015
++A alpha 4.579 3.0E-4
+

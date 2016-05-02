@@ -1,0 +1,30 @@
+#  9BE    9LI B- DECAY                  2004TI06,1993CH06         04NP     200602
+#  9LI B- DECAY                  2004TI06,1993CH06         04NP     200602
+#H TYP=FUL$AUT=J.H. KELLEY, C.G. SHEU, J.L. GODWIN, ET AL.$               
+#H CIT=NP A745 155 (2004)$CUT=31-Mar-2004$                                
+#  1976AL02: 9LI(B-), MEASURED E{-G}, I{-G}, G(^t), ^T{-1/2}, DELAYED     
+#  NEUTRONS LOGFT.                                                        
+#  1979GA20: 9LI(B-), MEASURED BETA^-DECAY T.                             
+#  1981LA11: 9LI(B-), MEASURED BETA^-DELAYED E{-ALPHA}, B^-ALPHA^-COIN.   
+#  9BE LEVELS DEDUCED ANTI^-ANALOG CHARACTER.                             
+#  1986CU01: 9LI(B-), MEASURED BETA^-DECAY T.                             
+#  1988SA04: 9LI(B-), MEASURED BETA^-DECAY T.                             
+#  1990NY01: 9LI(B-), MEASURED BETA^-DELAYED NEUTRON, ALPHA SPECTRA.      
+#  DEDUCED LOGFT. 9BE LEVELS DEDUCED BRANCHING RATIOS, ^B(^GT). R^-MATRIX 
+#  ANALYSIS.                                                              
+#  1991BO31: 9LI(B-), MEASURED CONTINUUM PARTICLE SPECTRA FOLLOWING       
+#  BETA^-DECAY. DEDUCED LOGFT, GAMOW^-TELLER TRANSITION STRENGTH, WIDTH,  
+#  DI^-NEUTRON, NEUTRON HALO ROLES.                                       
+#  2003PR11: 9LI(B-), MEASURED BETA^-DELAYED E{-ALPHA},                   
+#  ALPHA^-ALPHA^-COIN. 9BE DEDUCED LEVEL J, PI, BETA^-BRANCHING STRENGTHS.
+#  SEE ^Table 9.7 IN (1984AJ01) FOR REFERENCES                            
+#B           THE PROBABILITY FOR DELAYED NEUTRON DECAY=50.8 2%            
+#P 0.0         3/2-              178.3 MS  4              13606.7   19    
+LI9 BE 9 beta- 13.6067 0.17830000000000001 1.0
++B beta- 6.56193 0.49200000000000005
++B beta- 5.353800000000001 0.297
++B beta- 5.18 0.158
++B beta- 2.623 0.015
++B beta- 0.998 0.011000000000000001
++B beta- 0.751 0.027000000000000003
+

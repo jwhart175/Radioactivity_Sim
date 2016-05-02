@@ -1,0 +1,66 @@
+#210FR    214AC A DECAY                 2004KU24,2000HE17,1968VA0414NDS    201408
+#  214AC A DECAY                 2004KU24,2000HE17,1968VA0414NDS    201408
+#H TYP=FUL$AUT=M. SHAMSUZZOHA BASUNIA$CIT=NDS 121, 561 (2014)$            
+#H CUT=31-Mar-2014$                                                       
+#  Others: 1961Gr42, 1979Sc09.                                            
+#  2004Ku24: 214AC isotope was produced from 209BI(12C,7N) reaction,      
+#  E=9.1 MeV/nucleon. Evaporation residues separated from 12C beam by     
+#  the velocity filter ^SHIP at ^GSI. After separation the residues were  
+#  implanted into a position-sensitive 16-strip ^PIPS Si detector         
+#  (FWHM=22 keV at 8 MeV for each strip). In one experiment an HPGe,      
+#  and in another experiment a Ge clover detector were mounted behind     
+#  the Si detector. Measured EG, EA, RI, IA, |a-|g/^X-ray COIN. Deduced   
+#  level scheme, G-ray multipolarity, and JPI.                            
+#  2000He17: Same research group of 2004Ku24. 214AC was produced from     
+#  218PA |a decay, 170ER(51V,|a3n) and 209BI(12C,7N) reactions. 16-strip  
+#  ^PIPS Si detector, two planar Ge-detectors or an HPGe detector.        
+#  Measured EG, EA, RI, IA, |a-|g/^X-ray COIN. Deduced level scheme.      
+#  1968Va04: 214AC isotope was produced from 209BI(12C,7N) reaction.      
+#  Recoiling reaction products were slowed down in a helium atmosphere and
+#  collected onto a catcher foil in an adjacent vacuum chamber. Si(Au)    
+#  surface-barrier detector. Measured EA, IA, EG. Deduced level           
+#  scheme.                                                                
+#A E,IA      From 2004Ku24, except otherwise noted. EA values of 1968Va04 
+#A (in comment section) have been increased by 2 KEV, as recommended in   
+#A 1991Ry01 because of changes in calibration energies. IA: deduced       
+#A indirectly from |a-|g coin events in 2004Ku24, unless otherwise stated.
+#A IA(A)$|a-intensity extracted from singles |a-spectrum (2004Ku24)       
+#A IA(B)$>0.35 5; 7011|a and 7023|a form a doublet                        
+#A (2004Ku24) with %I{-|a}=2.1 {I2} from the singles |a-spectrum.         
+#A HF        Using R0(210FR)=1.4701, average of R0(208RN)=1.467 10,       
+#A R0(210RN)=1.4552 21, R0(210RA)=1.492 16, and R0(212RA)=1.466 6         
+#A (1998Ak04).                                                            
+#G E         Detected in coincidence with alpha particles (2004Ku24).     
+#G E(Y)$Based upon |a-|g coin data - 2004Ku24 identify the |g-ray as a    
+#G transition between excited states, and not feeding the g.s.. The sum   
+#G of 41.5 and 121.0 keV is equal to 162.5 keV, which is a tentative      
+#G transition from 225 level to 62 level. It is speculated in 2004Ku24    
+#G that in a cascade 41.5G and 121.0G could feed the level at 62 keV via  
+#G a level at 104.1- or 183.6-keV from 225-keV level.                     
+#G RI        From 2004Ku24                                                
+#G E(X)      Also reported in 2000He17                                    
+#G CC$FROM BrIcc v2.3a (30-Jun-2013) 2008Ki07, "Frozen Orbitals" appr.    
+#G MR$IF NO VALUE GIVEN IT WAS ASSUMED MR=1.00 FOR E2/M1,                 
+#G MR=1.00 FOR E3/M2 AND MR=0.10 FOR THE OTHER MULTIPOLARITIES            
+#L E$From least-squares fit to G-ray energies.                            
+#L E(R)$Possible (unobserved) transition from this to a low-lying level.  
+#L J,T$From Adopted Levels                                                
+#P 0.0          (5-)             8.2 S     2              7352.1    25    
+AC214 FR210 alpha 7.3521 8.2 0.89
++A alpha 7.215 0.54
++A alpha 7.081 0.42
++A alpha 7.023 0.0034999999999999996
++A alpha 7.011 0.0044
++A alpha 6.998 4.0E-4
++A alpha 6.978 0.011000000000000001
++A alpha 6.889 5.4E-4
++A alpha 6.879 3.1E-4
++A alpha 6.878 0.0013
++A alpha 6.861 9.0E-4
++A alpha 6.783 1.5E-4
++A alpha 6.701 0.0014000000000000002
++A alpha 6.626 4.7000000000000004E-5
++A alpha 6.606 6.6E-5
++A alpha 6.515 2.2000000000000003E-5
++A alpha 6.478 2.3E-5
+

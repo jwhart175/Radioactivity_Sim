@@ -1,0 +1,86 @@
+# 83BR    83SE B- DECAY (22.25 M)       2015Kr02,1974KR27,1973FE0815NDS    201503
+#  83SE B- DECAY (22.25 M)       2015Kr02,1974KR27,1973FE0815NDS    201503
+#H TYP=FUL$AUT=E.A. MCCUTCHAN$CIT=NDS 125, 201 (2015)$CUT=31-Dec-2014$    
+#  2015Kr02: {+83}Se activity from {+82}Se(n,|g), E=thermal. Measured     
+#  E|g, I|g, and |g(t) using two HPGe detectors; deduced T{-1/2}.         
+#  1974Kr27: {+83}Se activity from {+82}Se(n,|g), E=thermal. Measured     
+#  E|g, I|g, |g|g using two coaxial Ge(Li) detectors                      
+#  1973Fe08: {+83}Se activity from {+82}Se(n,|g), E=thermal. Measured     
+#  E|g, I|g, |g|g using two Ge(Li) detectors.                             
+#  All of the gamma rays observed in 1974Kr27 and 1973Fe08 have been      
+#  confirmed by 2015Kr02 with the exception of two transitions: a         
+#  581.9-keV transition reported by 1973Fe08 was determined to be due to  
+#  coincidence summing and a 2167-keV transition reported by 1973Fe08     
+#  was found to be associated with the decay of {+38}Cl.                  
+#  Others: 1973BeXW, 1967Ma35, 1962Ba27, 1960Yt03, 1959Co51               
+#  A total energy release of 3770 keV {I30} is calculated for this decay  
+#  scheme using the RADLST code, compared with the Q value of 3673 keV    
+#  {I5}.  Non-physical negative |b feedings and a large reduced |h{+2}    
+#  for least-squares fit to |g-ray energies suggests that some aspects    
+#  of the decay scheme remain unsettled.                                  
+#B IB$From |g-ray transition intensity balance                            
+#G E,RI$From 2015Kr02. Intensities from 1974Kr27 and 1973Fe08 are         
+#G included in the comments.                                              
+#G M,MR$From the Adopted Gammas.                                          
+#L E$From a least-squares fit to E|g, by evaluator. Large reduced |h{+2}  
+#L suggests incorrect placements in the level scheme or that the          
+#L uncertainties are underestimated.                                      
+#L J$From the Adopted Levels.                                             
+#L T$From the Adopted Levels, except where noted.                         
+#B $Levels at 1352.8, 1701.9, and 2073.4 keV have negative |b{+-}         
+#B feedings of -0.53 {I11}, -1.16 {I2}, and -0.73 {I5}, respectively.     
+#  CC$FROM BrIcc v2.3 (29-Mar-2013) 2008Ki07, "Frozen Orbitals" appr.     
+#P 0.0          9/2+              22.25 M   4              3673     5     
++B beta- 1.4281 0.012
++B beta- 1.2199 0.017
++B beta- 1.1817 0.019
++B beta- 1.0753 0.040999999999999995
++B beta- 1.0064 0.005
++B beta- 0.9208999999999999 0.0044
++B beta- 0.9126000000000001 0.006
++B beta- 0.7433 0.0298
++B beta- 0.7406 0.004
++B beta- 0.6275 0.005600000000000001
++B beta- 0.5932999999999999 0.006
++B beta- 0.4763 0.009399999999999999
++B beta- 0.4182 5.0E-4
++B beta- 0.3688 0.307
++B beta- 0.3489 0.263
++B beta- 0.3305 0.16399999999999998
++B beta- 0.31439999999999996 0.009000000000000001
++B beta- 0.2454 0.10300000000000001
++B beta- 0.1715 0.0191
+
+# 83BR    83SE B- DECAY (70.1 S)        1973FE08,1976KR20         15NDS    201503
+#  83SE B- DECAY (70.1 S)        1973FE08,1976KR20         15NDS    201503
+#H TYP=FUL$AUT=E.A. MCCUTCHAN$CIT=NDS 125, 201 (2015)$CUT=31-Dec-2014$    
+#  1976Kr20: {+83}Se activity from {+82}Se(n,|g), E=thermal. Measured     
+#  E|g, I|g, |g|g using two coaxial Ge(Li) detectors                      
+#  1973Fe08: {+83}Se activity from {+82}Se(n,|g), E=thermal. Measured     
+#  E|g, I|g, |g|g using two Ge(Li) detectors.                             
+#  Others: 1986Sc10, 1967Ma35, 1958Co57                                   
+#  A total energy release of 3940 keV {I40} is calculated for this decay  
+#  scheme using the RADLST code, in good agreement with the Q value of    
+#  3902 keV {I5}.                                                         
+#G E,RI$Weighted average of 1973Fe08 and 1976Kr20, except where noted.    
+#G E(A)$From 1976Kr20. 1973Fe08 could not place this |g.                  
+#G E(B)$Seen by 1976Kr20 only.                                            
+#G M,MR$From the Adopted Gammas.                                          
+#L E$From a least-squares fit to E|g, by evaluator.                       
+#L J,T$From the Adopted Levels.                                           
+#  1986Mu15 GIVES NR=0.170 4.  VALUE OF 0.175 4 WAS DEDUCED BY E. BROWNE  
+#  USING PROGRAM GABS.                                                    
+#  CC$FROM BrIcc v2.3 (29-Mar-2013) 2008Ki07, "Frozen Orbitals" appr.     
+#P 228.92    7  1/2-              70.1 S    4              3673     5     
++B beta- 1.7050999999999998 0.31
++B beta- 1.3225 0.002
++B beta- 1.2903 0.0027
++B beta- 1.2327000000000001 0.128
++B beta- 1.2125 0.332
++B beta- 1.2015 0.0036
++B beta- 0.916 0.0263
++B beta- 0.7975 0.0207
++B beta- 0.7349 0.18600000000000003
++B beta- 0.3969 0.0021
++B beta- 0.2792 9.5E-4
+

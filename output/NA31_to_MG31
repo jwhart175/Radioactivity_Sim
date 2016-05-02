@@ -1,0 +1,61 @@
+# 31MG    31NA B- DECAY (17.35 MS)      1993KL02,1984GU19,1979DE0213NDS    201303
+#  31NA B- DECAY (17.35 MS)      1993KL02,1984GU19,1979DE0213NDS    201303
+#H TYP=FUL$AUT=CHRISTIAN OUELLET AND BALRAJ SINGH$CIT=NDS 114, 209 (2013)$
+#H CUT=15-Feb-2013$                                                       
+#  1993Kl02: 31NA from ^U(p,^X) E(p)=600 MEV,                             
+#  target=^Uranium carbide, ^ISOLDE2 at ^CERN, measured E|g, I|g, |g|g,   
+#  n|g coin, |b|g|g coin, |b|gn coin, |b|g coin, |b|g(t)                  
+#  1984Gu19: 31NA from ^Ir(p,^X) E(p)=10 GEV, ^CERN, measured             
+#  E|g, I|g, |b|g coin, |b|g|g coin, 31MG half-life. Other                
+#  papers from the same group are 1984La03: measured %B-N, half-life and  
+#  |b-n coin; 1983De04: measured Q value, |b-|g coin.                     
+#  1979De02: 31NA from ^U(p,^X) E(p)=24 GEV, CERN, measured E|g, 31MG     
+#  half-life, |b|g coin, |b|g|g coin. 1980De26 from the same group        
+#  produced the source using 600 MEV protons, measured E|g, I|g, |bn(t)   
+#  Others:                                                                
+#  2005Ma96: Measured level lifetimes by |b|g|g(t), ultra-fast timing     
+#  1999Dl01, 1997Ta22 (also 2001Pe14): {+31}Na from fragmentation of      
+#  {+36}S beam with {+181}Ta target. Measured isotopic half-life,         
+#  LISE spectrometer at GANIL                                             
+#  1999YoZW, 1998NoZW: {+31}Na from fragmentation of 75 MeV/nucleon       
+#  {+40}Ar beam with {+181}Ta target, RIKEN facility. Results are         
+#  preliminary in these reports.                                          
+#  According to an email reply of Dec 2000 from the authors of 1999YoZW,  
+#  the values listed in these reports were preliminary and should not     
+#  be adopted.                                                            
+#  2000Ke09, 1996Ke08: Measured |b{+-}NMR, deduced                        
+#  quadrupole interactions. Measured spin of g.s. of {+31}Na              
+#  1974Ro31: Measured half-life, delayed neutrons, |b|g coin              
+#  1972Kl04 (also 1972RiZJ, 1971ThZL theses): Measured isotopic half-life.
+#  1969Kl08: First paper on the production and identification of          
+#  {+31}Na isotope from Ir,U(p,X) reaction Ep=24 GeV, measured half-life  
+#  Structure calculations and log {Ift} values from theory: 2007Ki08      
+#  2010Gu19: theoretical calculation of GS half-life, %B-N, %B-2N, %B-3N  
+#B IB$ From intensity balance using %B-N=37 5, %B-2N=0.87 24 from 1984Gu19
+#G $ The following |g-rays with E|g (relative I|g) reported only by       
+#G 1979De02 have been omitted here since these have not been confirmed in 
+#G later studies (1993Kl02, 1984Gu19): 372.3 10 (2.9 14), 473 1 (8.2 25), 
+#G 1222 2 (13 4), 1259 2 (4.5 22), 2030.5 25 (12 4)                       
+#G E,RI$ Weighted averages of values from 1993Kl02 and 1984Gu19.          
+#G The intensities are given by these authors as per 100 decays of the    
+#G parent. The weighted average of relative intensities from 1993Kl02 and 
+#G 1984Gu19 are given under comments. The conversion factor between       
+#G relative and absolute intensities is |?6.5. For branching ratios in    
+#G Adopted Gammas, relative intensities are used since these are          
+#G more precisely known than the absolute intensities                     
+#G E(A),RI(A)$ |g from 1993Kl02 only                                      
+#L T$ FROM 2005MA96 decay curve was measured using implantation of the    
+#L 31MG into a Si strip detector.                                         
+#L J$ From Adopted Levels                                                 
+#P 0           3/2(+)            17.35 MS    40           15383     23    
+NA31 MG31 beta- 15.383 0.01735 1
++G gamma 0.1707 0.053
++G gamma 0.22119999999999998 0.021
++G gamma 0.6234 0.035
++G gamma 0.8946000000000001 0.008
++G gamma 0.808 0.015
++G gamma 1.2145 0.013999999999999999
++G gamma 2.022 0.043
++G gamma 2.1929000000000003 0.036000000000000004
++G gamma 2.2437 0.124
+

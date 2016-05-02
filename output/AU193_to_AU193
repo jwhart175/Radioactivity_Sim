@@ -1,0 +1,20 @@
+#193AU    193AU IT DECAY (3.9 S)        1970FO08                  06NDS    200602
+#  193AU IT DECAY (3.9 S)        1970FO08                  06NDS    200602
+#H TYP=FUL$AUT=E. Achterberg, G.V. Marti, V.R. Vanin, et al.$             
+#H CIT=NDS 107, 1 (2006)$CUT=30-Sep-2005$                                 
+#  1970Fo08: activity from 193HG EC (3.80 H) + 193HG (11.8 H) decay       
+#  (produced by spallation of PB by 600-MEV protons, MS).                 
+#  Measured EG, IG (GELI), ECE, ICE (mag spect), G(CE), (CE)(CE)t         
+#  Others: 1974ViZS, 1958Br88, 1955Br12, 1955Br41, 1955Fi30, 1954Gi04,    
+#  1952Fi06                                                               
+#G           All data are from 1970Fo08, unless otherwise noted.          
+#G E         Deduced from E(CE); calibrated with E(CEK) of the            
+#G 117.99 2 G in 193PT.                                                   
+#G RI        Calculated from intensity balances in the level scheme, the  
+#G conversion coefficients, and the ratio I(219.75G)/I(257.97G)=0.0572 30 
+#G (1970Fo08).                                                            
+#L           The decay scheme is that proposed by 1970Fo08.               
+#L E,J,T     From adopted levels, unless otherwise noted.                 
+#P 290.19    3  11/2-            3.9 S     3                              
+AU193 AU193 IT 0.0 3.9 1.0
+

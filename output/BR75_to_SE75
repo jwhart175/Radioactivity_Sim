@@ -1,0 +1,28 @@
+# 75SE    75BR EC DECAY (96.7 M)        1972CO06                  13NDS    201309
+#  75BR EC DECAY (96.7 M)        1972CO06                  13NDS    201309
+#H TYP=FUL$AUT=ALEXANDRU NEGRET, BALRAJ SINGH$CIT=NDS 114, 841 (2013)$    
+#H CUT=30-Jun-2013$                                                       
+#  75BR produced by the 65CU(12C,2n)75BR reaction. Enriched target.       
+#  Measured G, GG, T1/2, CE.                                              
+#  Others: 1948Wo08, 1952Fu04, 1961Ba43, 1969Dz05, 1969La07, 1969Ra24,    
+#  1970Dz10, 1974Ro11, 1995BeZS                                           
+#  Measured ce, K-conversion coefficients: 1995BeZS                       
+#  Measured end point energies: 1952Fu04, 1961Ba43, 1969La07, 1969Ra24,   
+#  1974Ro11                                                               
+#  Measured T1/2(75BR GS): 1972Co06, 1969Ra24, 1969La07, 1961Ba43,        
+#  1957Be46, 1953Ho53                                                     
+#  Measured annihilation radiation intensity: 166 11 (1969Dz05),          
+#  167 10 (1972Co06)                                                      
+#  Measured G(THETA,H,T): 1995Ma97                                        
+#  The decay scheme is based on GG data of 1972Co06 and some G rays from  
+#  other reactions                                                        
+#G CC$FROM BrIcc v2.3 (29-Mar-2013) 2008Ki07, "Frozen Orbitals" appr.     
+#G M,MR$From Adopted Gammas                                               
+#G E(A)$Assigned by the evaluators on the basis of (N,G)                  
+#G E(B)$Observed only in the coincidence measurements                     
+#G E(C)$Shown incorrectly from 1554 level by 1972Co06                     
+#L J$ From Adopted Levels                                                 
+#P 0.0         3/2-              96.7 M    13             3062      4     
+BR75 SE75 beta+ 3.062 5802.0 0.88
++G gamma 0.0065 0.0017000000000000001
+

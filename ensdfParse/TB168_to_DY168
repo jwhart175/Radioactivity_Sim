@@ -1,0 +1,19 @@
+#168DY    168TB B- DECAY                1999AS03                  10NDS    201008
+#  168TB B- DECAY                1999AS03                  10NDS    201008
+#H TYP=FUL$AUT=CORAL M. BAGLIN$CIT=NDS 111, 1807 (2010)$CUT=15-Jun-2010$  
+#  Source from on-line isotope separation of products from 20-MEV         
+#  proton-induced fission of 238U; measured EG, IG, I(XK), x-G coin,      
+#  |b|g coin, GG coin, XKA(T), G(T).                                      
+#  The decay scheme is from 1999As03. Feeding of J=3 and 5 members of the 
+#  octupole band would also be expected. The decay scheme is presumably   
+#  so incomplete that normalization would not be meaningful.              
+#G E,RI      From 1999As03. On this intensity scale, I(XKA, DY)=184 28,   
+#G somewhat higher than expected from the decay scheme; however, the level
+#G scheme is almost certainly incomplete. All three G's observed are      
+#G coincident with each other and with XK(Dy).                            
+#L E         From EG.                                                     
+#L J         From Adopted Levels.                                         
+#L BAND(A)   GS BAND (1999As03).                                          
+#P 0.0          (4-)             8.2 S     13             6070      SY    
+TB168 DY168 beta- 6.07 8.2 1.0
+

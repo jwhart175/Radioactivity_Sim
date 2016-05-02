@@ -1,0 +1,42 @@
+# 56FE    56MN B- DECAY                 1974TI01,2004MI10,1989CO0111NDS    201105
+#  56MN B- DECAY                 1974TI01,2004MI10,1989CO0111NDS    201105
+#H TYP=FUL$AUT=HUO JUNDE, HUO SU, YANG DONG$CIT=NDS 112, 1513 (2011)$     
+#H CUT=29-Oct-2009$                                                       
+#  Sources produced generally by {+55}Mn(n,|g) E=thermal, production by   
+#  {+56}Fe(|a,3pn) (1996La20).                                            
+#  {+56}Mn |b{+-} decay has been recommended as calibration standard for  
+#  E|g and I|g (1983LoZV).                                                
+#  2004Mi10: measured I|g with HPGe detector systems.                     
+#  1974Ti01: measured E|g, I|g with Ge(Li).                               
+#  1974Ho25: measured E|g, I|g, |g|g(|q) with Ge(Li).                     
+#  1973Ar15: measured E|g, I|g with Ge(Li).                               
+#  1989Co01: oriented source, measured |g(|q).                            
+#  2004BeZR: evaluation and recommendation of decay data                  
+#  for radionuclides.                                                     
+#  Others: 1969Va07, 1968Sh07, 1967Ma03, 1967Ch20, 1967Au01, 1966Vo08,    
+#  1965Re14, 1964Bi11.                                                    
+#  For |b|g-coin, see 1965Ar14.                                           
+#  For |b(|q), see 1961Po04.                                              
+#  For |b|g(|q), |b|g-CP, longitudinal polarization, see 1972Si30.        
+#  Decay scheme is from 1974Ti01.                                         
+#B IB        From intensity imbalance (1974Ti01).                         
+#G E,RI      From 2004BeZR.                                               
+#G M         From adopted |g radiations.                                  
+#G MR        From |g|g(|q) (1974Ho25), except as noted.                   
+#G MR(A)     From 1989Co01.                                               
+#L E         From E|g and decay scheme using least-squares adjustment     
+#L procedure.                                                             
+#L J(H)      Consistent with |g|g(|q) (1974Ho25) and log| {Ift}.          
+#P 0.0         3+                2.5789 H  1              3695.64   21    
+MN56 FE56 beta- 3.69564 9284.039999999999 0.9885
++G gamma 0.8467638 1.0
++G gamma 1.2382736 4.0E-4
++G gamma 1.810726 0.272
++G gamma 2.65756 0.00653
++G gamma 2.113092 0.14400000000000002
++G gamma 2.95992 0.0031
++G gamma 1.0378333 4.0E-4
++G gamma 2.52306 0.0103
++G gamma 3.3698099999999998 0.0017000000000000001
++G gamma 2.5984380000000002 2.0E-4
+

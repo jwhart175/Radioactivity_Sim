@@ -1,0 +1,67 @@
+#206TL    210BI A DECAY (5.012 D)       1962KA27,1959WA05,1969LA1808NDS    200805
+#  210BI A DECAY (5.012 D)       1962KA27,1959WA05,1969LA1808NDS    200805
+#H TYP=FUL$AUT=F.G. KONDEV$CIT=NDS 109, 1527 (2008)$CUT=31-Jan-2008$      
+#  Data are primarily from 1959Wa05, 1962Ka27, and 1969La18. See also     
+#  1960Wa14 and 1961Nu01. Others:  1947Br36, 1953Lo09, 1956Ro18           
+#L E$From a least-squares fit to EG                                       
+#L J,T$From 206TL adopted levels.                                         
+#A E$Placement of ALPHA branches is from AG coincidences (1969La18).      
+#A IA$ From 1959Wa05 and 1969La18.                                        
+#G E,M$From 206TL adopted gammas.                                         
+#P 0.0         1-                5.012 D   5              5036.4    8     
+BI210 TL206 alpha 5.0363999999999995 433036.79999999993 13.2E-7
++A alpha 4.694 0.4
++A alpha 4.656 0.6
+
+#206TL    210BI A DECAY (3.04E+6 Y)     1976TUZY                  08NDS    200805
+#  210BI A DECAY (3.04E+6 Y)     1976TUZY                  08NDS    200805
+#H TYP=FUL$AUT=F.G. KONDEV$CIT=NDS 109, 1527 (2008)$CUT=31-Jan-2008$      
+#  1976TuZY:  210BI ISOMER PRODUCED BY 209BI(N,G) REACTION WITH CHEMICAL  
+#       AND ISOTOPE SEPARATION.  HALF-LIFE MEASUREMENT INCLUDED ISOTOPIC  
+#       ASSAY AND GRID CHAMBER.  LIMIT ON B- BRANCHING IS DEDUCED         
+#        FROM LIMIT ON G'S IN 210PO.  ALPHA SINGLES,  G SINGLES,          
+#        CE SINGLES, AND GG AND G-ALPHA COINCIDENCES MEASURED WITH        
+#       SI AND ^Ge DETECTORS.                                             
+#  Others:                                                                
+#  1953Hu42: MEASURED HALF-LIFE.                                          
+#  1954Le60: 210BI ISOMER PRODUCED BY 209BI(N,G) REACTION WITH ISOTOPE    
+#        SEPARATION.  MEASURED E(A) AND B- BRANCHING.                     
+#  1958Go89:  MEASURED E(A), IA, E(G), AND I(G).  PROBABLY IS PRELIMINARY 
+#       VERSION OF DATA IN 1961Ru02.                                      
+#  1959Go77:  MEASURED E(A), IA, AND E(G).  PROBABLY IS PRELIMINARY       
+#       VERSION OF DATA IN 1961Ru02.                                      
+#  1961Ru02:  210BI ISOMER PRODUCED BY 209BI(N,G) REACTION WITH CHEMICAL  
+#       AND ISOTOPE SEPARATION.  MEASURED ALPHA'S WITH IONIZATION CHAMBER 
+#       WITH RESOLVING POWER OF 28 KEV, G WITH NAI, CE WITH MAGNETIC      
+#       SPECTROMETER, LIFETIMES FROM G-ALPHA COINCIDENCES WITH PLASTIC    
+#       DETECTORS, AND CE-ALPHA COINCIDENCES IN THE MAGNETIC SPECTROMETER.
+#  1962Ko12:  MEASURED E(A) AND I(A) WITH IONIZATION CHAMBER.  REFERENCE  
+#       LINE IS 234U AT 4768 KEV.                                         
+#  1967Sp07:  SOURCE FROM 1954Le60.  G'S MEASURED using ^Ge DETECTOR.     
+#  1969La18:  210BI ISOMER WAS PRODUCED BY 209BI(N,G) REACTION WITH, AND  
+#       WITHOUT, ISOTOPE SEPARATION AND BY CHEMICAL EXTRACTION OF 210PB   
+#       FROM THE SOURCE.  MEASURED: G SINGLES AND GG                      
+#      COINCIDENCES WITH ^Ge, SI(LI), AND ^NaI DETECTORS AND ALPHA SINGLES
+#       AND G-ALPHA COINCIDENCES WITH ^Ge AND SI SURFACE-BARRIER DETECTORS
+#  1960Wa14, 1969LaZY, 1970La23, 1975TuZW                                 
+#L E$From a least-squares fit to EG                                       
+#L J,T$From adopted levels                                                
+#A E$From singles in 1976TuZY, unless otherwise specified                 
+#A E(b)$From ALPHA-G coincidences in 1976TuZY                             
+#A IA$From singles in 1976TuZY, unless otherwise specified.               
+#A The I(A) values deduced from the G intensity                           
+#A balances are given in comments.                                        
+#A IA(c)$From ALPHA-G coincidences in 1976TuZY.                           
+#G E$From 1976TuZY, unless otherwise specified. Uncertainty of 0.5 KEV was
+#G assigned by the evaluator to the strong and well resolved G-RAYS and   
+#G of 1.0 KEV to the weak ones. Others: 1967Sp07, 1961Ru02, 1969La18      
+#G E(a)$From 1967Sp07                                                     
+#G RI$Unweighted average of 1969La18 and 1976TuZY, unless otherwise       
+#G specified. Others: 1961Ru02 and 1967Sp07                               
+#G M$ From EKC and ELC (1961Ru02 and 1976TuZY).                           
+#N 0.51      AP          1.00                                             
+#N                                                                     3  
+#N NR$From SUMOF (TI[GS 206TL])=100%                                      
+#N BR$ the B- branch is LT 3.0E-5% (1976TuZY).                            
+#P 271.31    11 9-               3.04E+6 Y 6              5036.4     8    
+

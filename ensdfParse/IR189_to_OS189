@@ -1,0 +1,46 @@
+#189OS    189IR EC DECAY                1970MA37,1969GR10,1962HA2403NDS    200309
+#  189IR EC DECAY                1970MA37,1969GR10,1962HA2403NDS    200309
+#H TYP=FUL$AUT=S. -C. WU, H. NIU$CIT=NDS 100, 1 (2003)$CUT=31-May-2003$   
+#G           |g|g(|q) angular correlations (1971Be71). NaI(Tl), resolving 
+#G time of 50 ns, chemical separation of sources. Assignments below were  
+#G made by evaluator assuming J|p(0)=3/2-, J|p(69)=5/2-, and J|p(95)=3/2- 
+#G from adopted levels. All parities are from adopted levels.             
+#G                                                                        
+#G Cascade(keV)   A{-2}         A{-4}         probable J|p and |d values  
+#G ---------   ---------   --------   ------------------------------------
+#G 1. {I206}-69   -0.100 {I20}   0.058 {I38}   J|p(276)=3/2-,5/2-,7/2-    
+#G 2. {I180}-95   -0.087 {I15}   0.066 {I63}   J|p(276)=1/2,3/2,5/2-; |d(9
+#G 5)=+0.32                                                               
+#G 3. {I147}-69   -0.184 {I34}   0.049 {I19}   J|p(217)=7/2-              
+#G 4. {I138}-95   -0.123 {I19}  -0.004 {I9}    |d(95)=+0.32 and           
+#G                                      J|p(233)=1/2-, |d(138)=+0.19 or   
+#G                                      J|p(233)=3/2-, |d(138)=-0.37 or   
+#G                                      J|p(233)=5/2-, |d(138)=+0.043     
+#G 5. {I56}-219   -0.075 {I25}   0.031 {I30}  J|p(276)=3/2,7/2- and J|p(21
+#G 9)=5/2-                                                                
+#G                                      sign of |d(56) not determined,    
+#G                                      or J|p(276)=5/2- and J|p(219)=7/2-
+#G                                      sign of |d(56)=-0.09 {I4}.        
+#G 6. {I197}-36    0          0          isotropic, J|p(36)=1/2-          
+#G                                                                        
+#G           Experimental conversion coefficients from 1970Ma37, 1962Ha24.
+#G Other: 1966Sy01. Normalized assuming |a(K)exp(245|g)=0.101             
+#G E$Weighted average of 1963Cr06, 1970Ma37 ({+189}Ir |e decay),          
+#G and 1973Ho27, 1979Sa18 ({+189}Re |b{+-} decay), unless otherwise noted.
+#G E$From {+189}Ir |e decay, unless otherwise noted                       
+#G RI$From 1970Ma37                                                       
+#G M$From adopted gammas                                                  
+#G MR$Sign from |g|g(|q) in {+189}Ir |e decay. Magnitude from             
+#G internal conversion coefficients in                                    
+#G {+189}Re |b{+-} decay, {+189}Ir |e decay and (n,|g) E=thermal.         
+#L J         From adopted levels                                          
+#L T         From 1970Ma37, except where noted otherwise, based on        
+#L |g|g(t).                                                               
+#P 0.0         3/2+              13.2 D         1         532       13    
++B beta+ 7.841E-4 0.02
++B beta+ 7.806E-4 0.05
++B beta+ 7.767E-4 0.07
++B beta+ 7.733E-4 0.0
++B beta+ 7.41E-4 0.0019
++B beta+ 7.22E-4 0.002
+

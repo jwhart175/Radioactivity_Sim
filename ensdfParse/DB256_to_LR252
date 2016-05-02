@@ -1,0 +1,25 @@
+#252LR    256DB A DECAY                 2001HE35                  05NDS    200601
+#  256DB A DECAY                 2001HE35                  05NDS    200601
+#H TYP=FUL$AUT=N. NICA$CIT=NDS 106, 813 (2005)$CUT=21-Mar-2005$           
+#  Source of {+256}Db produced in {+209}Bi({+50}Ti,3n) at 4.59-5.08 MeV/A,
+#  evaporation residues implanted in 16 strips Si detector following      
+#  filtering by SHIP separator. Measured E|a, T{-1/2}(|a), |a|a and |aSF  
+#  parent-daughter correlations. A total of 16 |a-decay chains were       
+#  observed.                                                              
+#  Q(|a)=9265 {I20} keV from 2001He35 assuming E(|a)=9120 {i20} keV to    
+#  g.s. of {+252}Lr.                                                      
+#A HF$r{-0}({+252}Lr)=1.49 {i3} calculated as average of the r{-0} for the
+#A doubly-even neighboring nuclei; r{-0}({+252}No)=1.460 {i7} from        
+#A 1999Ak02 is in agreement with the local trend (1998Ak04). The other    
+#A r{-0}'s were estimated by the evaluator based on existing scarce data, 
+#A hence the big uncertainties on r{-0}({+252}Lr) and hindrance factors   
+#L E$From Q(|a) differences; |DE(level) taken equal to individual |DQ(|a),
+#L rather than added quadratically                                        
+#L T$From |a(t)                                                           
+#P 0.0                           1.6 S     +5-3           9265      20    
+DB256 LR252 alpha 9.265 1.6 0.64
++A alpha 9.12 0.11
++A alpha 9.075 0.11
++A alpha 9.014 0.67
++A alpha 8.891 0.11
+

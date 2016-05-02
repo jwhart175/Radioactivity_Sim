@@ -1,0 +1,34 @@
+#180IR    184AU A DECAY (47.6 S)        1995BI01                  15NDS    201506
+#  184AU A DECAY (47.6 S)        1995BI01                  15NDS    201506
+#H TYP=FUL$AUT=E.A. MCCUTCHAN$CIT=NDS 126, 151 (2015)$CUT=1-Feb-2015$     
+#  1995Bi01:{+184}Au activity produced in Ta({+12}C,X) with               
+#  E({+12}C)=153 MeV. Channel selection performed with FeBIAD ion         
+#  source and a mass separator. Measured E|a, I|a, E|g, |g|g-, |g|a-,     
+#  and x|a-coincidences using a Si(Li) detector for |a particles and      
+#  electrons and a Ge(Li) detector for |g- and x-rays.                    
+#  Other: 1970Ha18                                                        
+#A $1995Bi01 assumed the |a-decay is from the 69 keV isomeric state of    
+#A {+184}Au, yet it is possible the decay comes from both ground state    
+#A and the 69 keV state.                                                  
+#A $All |a's, except those of 5187 keV, are in coincidence with the       
+#A K{-|a} x-rays.                                                         
+#A E,IA$From 1995Bi01                                                     
+#A HF$From 1995Bi01, assuming the |a-decay is from the 69 keV isomeric    
+#A state of {+184}Au                                                      
+#A HF$r{-0}=1.515                                                         
+#G E$From 1995Bi01. Uncertainty not given, evaluator assumed |DE|g=0.5    
+#G keV.                                                                   
+#G E(A)$In coincidence with E|a=4980 keV                                  
+#G E(B)$In coincidence with E|a=5024 keV                                  
+#G E(C)$In coincidence with E|a=5109 keV                                  
+#L E$From E|g, except where noted.                                        
+#L E(f)$From E|a.                                                         
+#  Ex=0+X, 80.4+X, 114+X, 167+X, 212+X, and X=0.0, since the 80.6 keV |g  
+#  is probably the same as 80.4 |g in 180Pt EC decay.                     
+#P 68.46     4  2+                47.6 S    14             5234     5     
++A alpha 5.187 0.257
++A alpha 5.109 0.467
++A alpha 5.065 0.065
++A alpha 5.024 0.10300000000000001
++A alpha 4.98 0.107
+

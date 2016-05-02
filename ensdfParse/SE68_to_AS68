@@ -1,0 +1,39 @@
+# 68AS    68SE EC DECAY                 1994BA50                  12NDS    201206
+#  68SE EC DECAY                 1994BA50                  12NDS    201206
+#H TYP=FUL$AUT=E.A. McCutchan$CIT=NDS 113, 1735 (2012)$CUT=1-Mar-2012$    
+#  {+68}Se parent from Zr(p,X), E(p)=600 MeV followed by mass separation  
+#  by the ISOLDE facility. Measured E|g, I|g, ce, |b|g and |g|g           
+#  coincidences, and T{-1/2} using a 4|p |b counter, a 2% Ge(Li)          
+#  detector, 2 Ge detectors (33% and 70%) and a cooled Si detector.       
+#  The evaluator considers this decay scheme to be incomplete based on    
+#  the large Q(|e) value of 4.7 MeV and the highest observed state at     
+#  426 keV.  Thus, the I(|e+|b{++})'s should be taken as upper limits     
+#  and the log {Ift}'s as lower limits.                                   
+#  1994Ba50 placed the 314|g-111|g cascade among the 426, 111, and        
+#  ground states.  In an earlier progress report by the same authors of   
+#  1994Ba50, the cascade is placed among the 426, 315, and ground         
+#  states. The latter placement is supported by the observation of a 314  
+#  level in {+40}Ca({+32}S,3pn|g) (2005St08), {+12}C({+58}Ni,pn|g)        
+#  (1998So23), and {+54}Fe({+16}O,pn|g) (1997Ba24) and thus adopted       
+#  here.  However, this leads to a severe intensity imbalance (-36%) for  
+#  the 315 level in {+68}Se |e decay, using the intensities given in      
+#  1994Ba50.  Taking intensities derived from the adopted branching       
+#  ratios (in particular for the 49.5|g) improves, but does not           
+#  completely resolve this issue, with a -9% feeding to the 315 level.    
+#  Other: 2004Wo16: |b-endpoint energy measurement giving Q(|e)=4710      
+#  {I200}. Confirmed transitions observed by 1994Ba50, however, no level  
+#  scheme given.                                                          
+#L J,E(a),T(b)$From the Adopted Levels.                                   
+#L E$From a least-squares fit to E|g's by evaluator, except where noted.  
+#L T$From delayed |g|g coincidence measurement, except where noted.       
+#E IB,IE$From I(|e+|b{++}) and theoretical |b{++}/|e ratios               
+#E TI$From I(|g+ce) imbalance at each level.                              
+#G RI$Relative intensity normalized to I|g(111|g)=100.                    
+#G M,MR,E(f)$From the Adopted Gammas.                                     
+#  CC$ FROM BrIcc v2.2b (20-Jan-2009) 2008Ki07, "Frozen Orbitals" appr.   
+#P 0            0+                35.5 S    7              4705     2     
++B beta+ 0.9692000000000001 6.0E-4
++B beta+ 1.6018 0.96
++B beta+ 1.51 0.97
++B beta+ 1.5049000000000001 0.97
+

@@ -1,0 +1,157 @@
+#132SB  XB248CM SF DECAY                                                         
+#XB248CM SF DECAY                                                         
+#N                                                                     6  
+#L 0.0          (4)+             2.79 M    7                          E   
+#L %B-=100                                                                
+#L XREF=A                                                                 
+#L J$ M1+E2 G FROM (3)+. Configuration=|pg{-7/2}|nd{-3/2}{+-1}.           
+#L J|p=3+ is not completely ruled out                                     
+#L T$ weighted average of 2.70 min {I15} (1972Na10), 2.80 min {I10}       
+#L (1974Ke08), 2.80 min {I7} (1975Ba36), 2.79 min {I10} (1975NuZX).       
+#L Other: 2.1 min {I3} (1973Er18). Others: 1974Fo06,                      
+#L 1974Gr29, 1973Mc09, 1973Ke25, 1972Ke20, 1966St25, 1956Pa20             
+#L 0+X          (8-)             4.10 M    5                          AM  
+#L XREF=A(?)B$                                                            
+#L %B-=100                                                                
+#L E$ x=150-250 keV (1989St06)                                            
+#L T$ from 1975Ba36. Others: 4.2 min {I1} (1974Ke08) and                  
+#L 4.1 min {I4} (1973Er18,1970ErZZ). Others: 1974Fo06, 1974Gr29,          
+#L 1972Na10, 1966St25, 1956Pa20                                           
+#L J$ configuration=|pg{-7/2}|nh{-11/2}{+-1}                              
+#L 85.55      6  (3)+            15.62 NS  13                         E   
+#L XREF=A$                                                                
+#L J$ M1+E2 G FROM (2)+. J=2 IF J(132SB GS)=3                             
+#L Configuration=|pg{-7/2}|nd{-3/2}{+-1}.                                 
+#G 85.58     8  100       M1+E2    -0.095  14    0.99                     
+#G FL=0.0                                                                 
+#G BM1W=0.00112 2$BE2W=0.9 3                                              
+#L 162.8     2   (5+)                                                 E   
+#L XREF=A$                                                                
+#L FLAG=F                                                                 
+#G 162.8     2  100       (M1)                   0.16                     
+#G FL=0.0                                                                 
+#L 254.5     3   (6-)            102 NS    4                          A   
+#L XREF=A$                                                                
+#L FLAG=F                                                                 
+#L J$ 4- IS POSSIBLE BUT LESS LIKELY                                      
+#L T$ from GG(T) (1974ClZX)                                               
+#G 91.7      2   100      (E1)                    0.242                   
+#G BE1W=2.67E-6 11                                                        
+#L 389.2     4  (4-)                                                  A  ?
+#L XREF=A$                                                                
+#L FLAG=YF                                                                
+#L J$ 3- IS POSSIBLE BUT LESS LIKELY                                      
+#G 134.7      2  100      (E2)                    0.578               Y   
+#L 426.07     6  (2)+            15.8 PS   17                         E   
+#L XREF=A$                                                                
+#L J$ M1+E2 G FROM 1+. J=3 IF J(132SB GS)=3.                              
+#L Configuration=|pg{-7/2}|nd{-3/2}{+-1}                                  
+#G 340.53    5  100       M1(+E2)   0.2    LE     0.023                   
+#G BM1W=0.029 3$ BE2W<8.1                                                 
+#G 426.1          1    LE                                                ?
+#G FL=0.0                                                                 
+#L 483.1     4  (3-)                                                  A   
+#L XREF=A$                                                                
+#L FLAG=F                                                                 
+#L J$ 2- IS POSSIBLE BUT LESS LIKELY                                      
+#G 93.9      2  100       (M1)                    0.75                Y   
+#L 529.10     5  (3+)            13 PS     LE                             
+#L XREF=A$                                                                
+#L J$ G FROM 1+; G TO (4+). J=2 IF J(132SB GS)=3.                         
+#L Configuration=|pg{-7/2}|ns{-1/2}{+-1}                                  
+#G 443.5     2  10.6   9                                                  
+#G 529.09    6  100    9   D(+Q)   -0.23   23                             
+#G FL=0.0                                                                 
+#L 1025.0+X  8  (9-)                                                  A   
+#L XREF=B$                                                                
+#G   1025       100                                                       
+#G FL=0+X                                                                 
+#L 1078.31   6  (2)+             2.6 PS    14                             
+#L XREF=A$                                                                
+#L J$ M1+E2 G FROM 1+; G TO (4+). J=1 IF J(132SB GS)=3.                   
+#L Possible member of configuration=|pd{-5/2}|nd{-3/2}{+-1}               
+#G 549.23    7  6.3    5  D(+Q)    -0.07   21                             
+#G 652.31    6  7.3    5 (M1+E2)   -0.7    6                              
+#G BM1W=0.0012 10$BE2W=0.9 8                                              
+#G 992.66    8  100    5  M1+E2    -0.49   8                              
+#G BM1W=0.006 4$BE2W=0.9 6                                                
+#G 1078.3    1 6.8     4                                                  
++G gamma 1.0783 0.068
+#G FL=0.0                                                                 
+#L 1325.15   6 1+                37 PS     LE                             
+#L XREF=A$                                                                
+#L J$ log| {Ift}=4.05 from 0+.                                            
+#L Possible member of configuration=|pd{-5/2}|nd{-3/2}{+-1}               
+#G 246.87    5  95     5  M1+E2    -0.14   6     0.0528                   
+#G BM1W>0.016$BE2W>0.55                                                   
+#G 795.7     2  0.70   5                                                  
+#G 899.04    5  100    6   M1+E2   -0.22   10                             
+#G BM1W>0.00034$BE2W>0.0018                                               
+#G 1239.63   5  21.9   11                                                 
+#L 2268.26   19 1+               60 PS     LE                             
+#L XREF=A$                                                                
+#L J$ log| {Ift}=4.88 from 0+.                                            
+#L Possible configuration=|pd{-5/2}|nd{-3/2}{+-1}                         
+#G 1739.10   25 19     4                                                  
+#G 1842.22   25 100    7                                                  
+#L 2799.0+X  8  (10+)                                                 B   
+#L XREF=B$                                                                
+#G   1774       100                                                       
+#G  2799        49                                                        
+#G FL=0+X                                                                 
+#L 3199.7+X  11 (11+)                                                 B   
+#L XREF=B$                                                                
+#G   401        100                                                       
+#L 3489.1+X  11 (10-)                                                 X   
+#L XREF=B$                                                                
+#G   2464       100                                                   X   
+#L 4126.3+X  11 (11+)                                                 C   
+#L XREF=B$                                                                
+#G   927        100                                                       
+#G  1327        25                                                        
+#L 4266.2+X  12 (12+)                                                 C   
+#L XREF=B$                                                                
+#G   140        100                                                       
+#G  1066          50                                                      
+#L 4446.2+X  12 (12-)                                                 D   
+#L XREF=B$                                                                
+#G  957         70                                                    X   
+#G  1247        100                                                       
+#L 4544.7+X  13 (13+)                                                 C   
+#L XREF=B$                                                                
+#G    99        100                                                       
+#G  278         50                                                        
+#L 4601.2+X  16 (13-)                                                 D   
+#L XREF=B$                                                                
+#G  155         100                                                       
+#L 4892.2+X  19 (14-)                                                 D   
+#L XREF=B$                                                                
+#G    291       100                                                       
+#L 5109.2+X  21 (15-)                                                 D   
+#L XREF=B$                                                                
+#G    217       100                                                       
+#                                                                         
+
+#132SB    248CM SF DECAY                2001BH06                  05NDS    200504
+#  248CM SF DECAY                2001BH06                  05NDS    200504
+#H TYP=FUL$AUT=YU. KHAZOV, A.A. RODIONOV AND S. SAKHAROV, BALRAJ SINGH$   
+#H CIT=NDS 104, 497 (2005)$CUT=10-Feb-2005$                               
+#  2001Bh06: Measured E|g and |g|g using GAMMASPHERE array                
+#G RI$ Intensities are estimated (by evaluators) from thickness           
+#G of arrows in figure 3 of 2001Bh06                                      
+#G E(X)$ REVERSE ORDERING OF 957-2464 IS POSSIBLE, HOWEVER, THE           
+#G ORDERING SHOWN HERE IS PREFERRED. SEE ALSO COMMENT FOR 3489+X LEVEL    
+#L E$ FROM LEAST-SQUARES FIT TO EG'S, ASSUMING |D(EG)=1 KEV FOR           
+#L EACH G RAY                                                             
+#L J$ AS PROPOSED BY 2001BH06                                             
+#L E(X)$ REVERSE ORDERING OF 957-2464 IS POSSIBLE FROM INTENSITY          
+#L CONSIDERATIONS (2001BH06) WITH AN INTERMEDIATE LEVEL AT 1982+X         
+#L INSTEAD OF THAT AT 3489+X, HOWEVER, BASED ON MODEL CONSIDERATIONS AND  
+#L DECAY CHARACTERISTICS DISCUSSED BY 2001BH06, THE LATTER IS PREFERRED.  
+#L BAND(A)$ Member of |pg{-7/2}|n(h{-11/2}{+-1}) configuration            
+#L BAND(B)$ Member of |ph{-11/2}|n(h{-11/2}{+-1}) configuration           
+#L BAND(C)$ Member of |pg{-7/2}|n(f{-7/2}h{-11/2}{+-1}d{-3/2}{+-1})       
+#L configuration                                                          
+#L BAND(D)$ Member of |pg{-7/2}|n(f{-7/2}h{-11/2}{+-2}) configuration     
+#P  0.0         0+               3.48E+5 Y 6                              
+

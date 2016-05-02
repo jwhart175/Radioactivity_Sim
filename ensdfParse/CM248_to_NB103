@@ -1,0 +1,26 @@
+#103NB    248CM SF DECAY                1991HO16                  09NDS    200910
+#  248CM SF DECAY                1991HO16                  09NDS    200910
+#H TYP=FUL$AUT=D. DE FRENNE$CIT=NDS 110, 2081 (2009)$CUT=1-Mar-2009$      
+#  {+248}Cm chemically purified.                                          
+#  The {+248}Cm source was placed at the normal target position           
+#  of the Argonne-Notre Dame BGO |g Ray Facility.                         
+#  10 BGO-suppressed Ge detectors, 2 LEPS, an array 50 BGO                
+#  detectors. 500 million coin events recorded.                           
+#  The authors use the fission properties of the fragments (complementary)
+#  and the coin with previously established transitions to identify the   
+#  nuclides.                                                              
+#G E$Not given by 1991Ho16, derived by evaluator from level energy        
+#G differences.                                                           
+#L J         From adopted levels                                          
+#L BAND(A)   POSSIBLE 5/2[422] BAND MEMBER. CONF SUPPORTED BY THE MEASURED
+#L in-band branching ratios                                               
+#L BAND(B)   POSSIBLE 5/2[303] BAND MEMBER. CONF SUPPORTED BY THE MEASURED
+#L in-band branching ratios                                               
+#P 0.0          0+               3.48E+5 Y 6                              
+CM248 NB103 SF 0.0 1.09818042624E13 0.0839
++G gamma 0.1589 1.0
++G gamma 0.2853 0.1
++G gamma 0.15059999999999998 0.32
++G gamma 0.31460000000000005 0.11
++G gamma 0.3384 0.21
+

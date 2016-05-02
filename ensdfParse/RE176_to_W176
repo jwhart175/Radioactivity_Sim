@@ -1,0 +1,117 @@
+#176W     176RE EC DECAY                2001KI10,1977BE72,1977HA2406NDS    200602
+#  176RE EC DECAY                2001KI10,1977BE72,1977HA2406NDS    200602
+#H TYP=FUL$AUT=M.S. BASUNIA$CIT=NDS 107, 791 (2006)$CUT=15-Sep-2005$      
+#  Others: 1972BE89, 1970GO20, 1967NA17.                                  
+#  2001KI10: 176RE produced from an 176IR grandparent activity made in the
+#  149SM(31P,4N) reaction. Measured: EG, RI, G-G coin, G(THETA), CC, and  
+#  M. Detector: ^CAESAR array of six Compton-suppressed Ge detectors,     
+#  and electron spectrometer.                                             
+#  1977BE72: measured EG, RI, GG coin. Detectors: GE(LI).                 
+#  1977HA24: activity produced by 181TA(A,9N), E(A)=133 MEV.              
+#  Measured EG, RI. Detector: GE(LI).                                     
+#  1970GO20: activity produced by 180W(P,5N), E(P)=54 MEV. Measured EG,   
+#  RI. Detector: GE(LI).                                                  
+#G E,RI,M      From 2001KI10, unless otherwise specified.                 
+#G E(A),RI(A)$From 1977BE72. RI multiplied by 10 to normalize to the      
+#G 240.3G RI.                                                             
+#L E$Deduced by evaluator from a least-squares fit to G-ray energies      
+#L assuming DE=1 keV.                                                     
+#L J         From multipolarity, rotational band assignment, and energy   
+#L systematics (2001KI10).                                                
+#L E(A)$KPI=0+ GS rotational band.                                        
+#L E(B)$KPI=2+ quasi G-vibrational band.                                  
+#L E(C)$KPI=0+ quasi B-vibrational band.                                  
+#L E(D)$KPI=(2-)                                                          
+#P 0.0         3+                5.3 M     3              5580      40    
++B beta+ 7.39E-4 0.00196
++G gamma 0.10909999999999999 2501.7
++B beta+ 2.021 0.0029
++G gamma 0.2403 5380.0
++B beta+ 1.91 0.0032
++G gamma 0.3514 812.38
++B beta+ 1.748 0.0037099999999999998
++G gamma 0.735 75.858
++G gamma 0.844 1.2912000000000001
++B beta+ 1.682 0.00393
++G gamma 0.582 197.98399999999998
++G gamma 0.8222 381.98
++B beta+ 1.642 0.00407
++G gamma 0.6921 11.298
++G gamma 0.9324 195.832
++G gamma 1.0415999999999999 159.786
++B beta+ 1.591 0.00426
++G gamma 0.1865 11.298
++G gamma 0.4173 59.18
++G gamma 0.7687 516.48
++G gamma 1.009 269.0
++B beta+ 1.556 0.00439
++G gamma 0.0871 22.057999999999996
++G gamma 1.0199 408.88
++B beta+ 1.551 0.00441
++G gamma 0.8309 102.22
++G gamma 1.071 451.92
++B beta+ 1.528 0.0045000000000000005
++G gamma 0.1569 64.56
++G gamma 0.8491000000000001 538.0
++B beta+ 1.519 0.00453
++G gamma 0.12279999999999999 25.285999999999998
++G gamma 0.1743 35.507999999999996
++G gamma 0.9539 360.46
++B beta+ 1.471 0.004719999999999999
++G gamma 0.973 214.662
++G gamma 1.2132 139.88
++B beta+ 1.463 0.00475
++G gamma 0.6966 55.41400000000001
++G gamma 1.0484 23.134
++B beta+ 1.428 0.00489
++G gamma 0.2039 12.373999999999999
++G gamma 0.7012999999999999 129.12
++G gamma 1.0523 46.806
++B beta+ 1.426 0.0049
++G gamma 1.3291 102.22
++B beta+ 1.41 0.00497
++G gamma 0.3685 48.958
++G gamma 1.1481 25.824
++G gamma 1.3882999999999999 74.244
++B beta+ 1.383 0.00508
++G gamma 0.8184 43.578
++G gamma 1.1698 108.676
++B beta+ 1.373 0.00512
++G gamma 1.4173 40.888
++B beta+ 1.37 0.00513
++G gamma 1.1898 111.366
++B beta+ 1.364 0.0051600000000000005
++G gamma 0.3881 40.888
++B beta+ 1.342 0.00525
++G gamma 1.2382 73.168
++G gamma 1.4788 45.73
++B beta+ 1.342 0.00525
++G gamma 0.6596000000000001 35.507999999999996
++B beta+ 1.34 0.00525
++G gamma 0.2921 33.356
++G gamma 0.3972 61.332
++B beta+ 1.338 0.00526
++G gamma 0.9581000000000001 55.41400000000001
++B beta+ 1.31 0.00538
++G gamma 0.5427000000000001 52.18599999999999
++G gamma 1.3117999999999999 376.6
++B beta+ 1.309 0.005390000000000001
++G gamma 1.3345 85.542
++B beta+ 1.298 0.005430000000000001
++G gamma 0.48819999999999997 20.982
++G gamma 0.5575 38.736
++B beta+ 1.297 0.00544
++G gamma 1.3522 79.086
++B beta+ 1.29 0.0054600000000000004
++G gamma 1.009 75.32
++G gamma 1.3602 22.057999999999996
++B beta+ 1.287 0.0054800000000000005
++G gamma 0.6951 180.23
++B beta+ 1.274 0.00553
++G gamma 0.6273 52.18599999999999
++B beta+ 1.27 0.00555
++G gamma 1.5378 16.678
++G gamma 1.7779 36.584
++B beta+ 1.206 0.00582
++G gamma 1.2233 64.56
+

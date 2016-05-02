@@ -1,0 +1,13 @@
+#200RN    204RA A DECAY                                           07NDS    200707
+#  204RA A DECAY                                           07NDS    200707
+#H TYP=FUL$AUT=F.G. KONDEV, S. LALKOVSKI$CIT=NDS 108,1471 (2007)$         
+#H CUT=1-Aug-2006$                                                        
+#  T1/2(204RA) weighted average of 45 MS +55-21 (1995Le04), 59 MS +12-9   
+#  (1996Le09) and 54 MS +19-11 (2005Uu02). Other: 72 MS +24-14 in         
+#  1995Le15, but value is superseded by 1996Le09.                         
+#                                                                         
+#A HF$Using R0(200RN)=1.533 4 from 1998Ak04                               
+#P 0.0          0+               57 MS     +11-5          7636      8     
+RA204 RN200 alpha 7.636 0.057 1.000
++A alpha 7.486 1.0
+

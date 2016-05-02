@@ -1,0 +1,45 @@
+# 52CR    52MN EC DECAY (5.591 D)       1978MEZK,1977YA08         15NDS    201509
+#  52MN EC DECAY (5.591 D)       1978MEZK,1977YA08         15NDS    201509
+#H TYP=FUL$AUT=YANG DONG, HUO JUNDE$CIT=NDS 128, 185 (2015)$              
+#H CUT=10-Jul-2015$                                                       
+#  Others: 1996La20, 1990Me15, 1980Iw03, 1979ArZT, 1975BaXO, 1972GeZF,    
+#  1967Pa22, 1966Fr05, 1962Wi08.                                          
+#  1977Ya08: chemically separated sources from {+51}V(|a,3n),             
+#  measured E|g, I|g, a Compton suppression spectrometer system,          
+#  several large volume Ge(Li) detectors.                                 
+#  1978MeZK: from LLL-M-100, Multigamma-ray calibration sources.          
+#  Decay scheme from 1977Ya08.                                            
+#G $Experimental conversion information see 1966Fr05,                     
+#G 1962Wi08, 1960Ka20. |g|g-coin: from 1967Pa22 and 1962Wi08.             
+#G E,RI      From 1978MeZK, except as noted.                              
+#G M,MR      From adopted gammas.                                         
+#G RI(H),E(H)$From 1977Ya08                                               
+#L J         From adopted levels.                                         
+#P 0.0          6+               5.591 D   3              4711.2    19    
+MN52 CR52 beta+ 4.7112 483062.39999999997 1.0
++B beta+ 0.24159 0.294
++B beta+ 0.033909999999999996 1.18E-5
++B beta+ 8.899E-4 9.379999999999999E-4
+
+# 52CR    52MN EC DECAY (21.1 M)        1977YA08                  15NDS    201509
+#  52MN EC DECAY (21.1 M)        1977YA08                  15NDS    201509
+#H TYP=FUL$AUT=YANG DONG, HUO JUNDE$CIT=NDS 128, 185 (2015)$              
+#H CUT=10-Jul-2015$                                                       
+#  1977Ya08: chemically separated sources from {+52}Fe |e decay,          
+#  measured E|g, I|g, a Compton suppression spectrometer system,          
+#  several large volume Ge(Li).                                           
+#  %IT=1.78 {I5} (1977Ya08), so %|e+%|b{++}=98.22 {I5}.                   
+#G E(A)      Assignment to 21.1-min {+52}Mn tentative.                    
+#G M,MR      From adopted gammas.                                         
+#L J         From adopted levels.                                         
+#P 377.749    5 2+               21.1 M     2              4711.5   19    
++G gamma 2.8476999999999997 5.999999999999999E-6
++B beta+ 8.778E-4 0.0010299999999999999
++B beta+ 1.174 0.9
++B beta+ 0.46958999999999995 0.04
++B beta+ 0.38312 0.03
++B beta+ 0.24994999999999998 0.01
++B beta+ 0.12542 0.09
++B beta+ 0.051840000000000004 0.0088
++B beta+ 8.893999999999999E-4 9.421E-4
+

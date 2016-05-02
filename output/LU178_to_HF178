@@ -1,0 +1,30 @@
+#178HF    178LU B- DECAY (28.4 M)       1975KA15,1973OR03         09NDS    200907
+#  178LU B- DECAY (28.4 M)       1975KA15,1973OR03         09NDS    200907
+#H TYP=FUL$AUT=E. Achterberg, O.A. Capurro, G.V. Marti$                   
+#H CIT=NDS 110, 1473 (2009)$CUT=31-May-2008$                              
+#  Measured E|g, I|g, |g|g coin, E|b, I|b, |g|b coin. Detectors: Ge(Li),  
+#  scin.                                                                  
+#G E,RI      Weighted averages of data from 19730r03 and 1975Ka15, unless 
+#G otherwise specified.                                                   
+#G E(B)      Observed by 1973Or03 only.                                   
+#G E(D)      Observed by 1971Gu01 only.                                   
+#G E(F)      Observed by 1975Ka15 only.                                   
+#L E         From a least-squares fit to |g-ray energies.                 
+#P 0.0         1(+)              28.4 M    2              2101.3    20    
+LU178 HF178 beta- 2.1013 1704.0 1.0
+
+#178HF    178LU B- DECAY (23.1 M)       1975WA24,1975KA15,1973OR0309NDS    200907
+#  178LU B- DECAY (23.1 M)       1975WA24,1975KA15,1973OR0309NDS    200907
+#H TYP=FUL$AUT=E. Achterberg, O.A. Capurro, G.V. Marti$                   
+#H CIT=NDS 110, 1473 (2009)$CUT=31-May-2008$                              
+#  Measured E|g, I|g. Detector: Ge(Li) (1975Wa24).                        
+#  Measured E|g, I|g, |g|g coin, E|b, I|b, |g|b coin. Detectors: Ge(Li),  
+#  scin (1975Ka15, 1973Or03).                                             
+#G M         From adopted gammas.                                         
+#G E,RI$Weighted averages of data from 1975Wa24, 1975Ka15, and 1973Or03,  
+#G unless otherwise specified.                                            
+#G RI(D)     From {+178}Hf IT decay (4 s).                                
+#L E         From a least-squares fit to |g-ray energies.                 
+#P 123.8     26 9(-)             23.1 M    3              2101.3    20    
+LU178 HF178 beta- 2.1013 1386.0 0.941
+

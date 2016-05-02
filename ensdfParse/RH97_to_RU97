@@ -1,0 +1,61 @@
+# 97RU    97RH EC DECAY (30.7 M)        1974OH07,1975PL05         10NDS    201004
+#  97RH EC DECAY (30.7 M)        1974OH07,1975PL05         10NDS    201004
+#H TYP=FUL$AUT=N. NICA$CIT=NDS 111, 525 (2010)$CUT=19-Nov-2009$           
+#E TI$Deduced from IG balance in level scheme with I(EC+B+ to             
+#E GS)=0                                                                  
+#G           1974Oh07: measured: T, EG, EB, IG, I(CE), GG, BG, C(CE)(T).  
+#G Detectors: GE(LI) for G with 2.5 KEV FWHM at 1332 KEV, SI(LI) for B,   
+#G CE with 2.1 KEV FWHM at 624 KEV. Source: 96RU(P,G), 101RU(P,5N)        
+#G reactions.                                                             
+#G           1975Pl05: measured: T, EG, IG, I(CE), GG. Detector: GE(LI)   
+#G for G, SI(LI) for CE. Source: 96RU(d,n), 97PD decay.                   
+#G           For additional unassigned gammas, see 97RH EC decay (46.2 M) 
+#G E$Weighted average of measurements given by 1974Oh07 and 1975Pl05,     
+#G unless otherwise noted. 1981Gr20 does not quote uncertainties of       
+#G measurements and in general, the values quoted agree exactly with      
+#G those of 1975Pl05.                                                     
+#G RI$Weighted average of measurements by 1974Oh07, 1975Pl05 and          
+#G 1981Gr20, unless otherwise noted.                                      
+#G E(B),RI(A)$From 1974Oh07                                               
+#G RI(D),E(E)$Unweighted average of measurements by 1974Oh07 and 1981Gr20 
+#G E(G),RI(G)$From 1974Oh07, not observed by 1975Pl05 or 1981Gr20         
+#G E(H),RI(H)$From 1981Gr20, not observed by 1974Oh07 or 1975Pl05         
+#G RI(I)$Total intensity of the doublet divided according to the          
+#G intensity ratio in 1974Oh07.                                           
+#G E(J),RI(N)$From 1975Pl05                                               
+#G RI(K)$Average of measurements by 1975Pl05 and 1981Gr20, not observed   
+#G by 1974Oh07.                                                           
+#G E(L)$G not observed by 1981Gr20, RI is the average of                  
+#G measurements by 1974Oh07, 1975Pl05                                     
+#G E(M)$Assignment to GS or MS activity uncertain                         
+#G E(P)      Assigned to GS? activity by 1975Pl05                         
+#L           Level scheme is that proposed by 1974Oh07 and is based on    
+#L coincidence work and energy fit. Levels have been added at 2760        
+#L (1975Pl05) and 2966 (1981Gr20). Additional levels have been proposed by
+#L 1975Pl05 at 2800.5 and 3101.4 KEV, and by 1981Gr20 at 2037.0, 2050.0,  
+#L 2663.4, 2966.2, 2999.5 and 3101.2 KEV. However, the existence of these 
+#L levels is not supported by coincidence work, and each accommodates     
+#L only one previously unassigned GAMMA.                                  
+#L E$From a least squares fit to EG                                       
+#L J$From adopted levels                                                  
+#P     0.0         9/2+            30.7 M  6               3520     40    
++B beta+ 8.24E-4 0.0014199999999999998
++B beta+ 0.923 0.491
++B beta+ 0.732 0.045
++B beta+ 0.715 0.03
++B beta+ 0.571 0.0055000000000000005
++B beta+ 0.557 0.012
++B beta+ 0.419 0.0012
++B beta+ 0.385 8.699999999999999E-4
++B beta+ 0.25 0.0011
++B beta+ 0.225 1.0999999999999999E-4
++B beta+ 0.221 2.1999999999999998E-4
++B beta+ 0.155 7.000000000000001E-5
++B beta+ 0.14 2.6E-5
++B beta+ 8.648E-4 0.00109
++B beta+ 8.637E-4 0.0011
++B beta+ 8.637E-4 0.0011
++B beta+ 8.636000000000001E-4 0.0011
++B beta+ 8.62E-4 0.00111
++B beta+ 8.613E-4 0.0011200000000000001
+

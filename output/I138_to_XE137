@@ -1,0 +1,20 @@
+#137XE    138I B-N DECAY                1981HO07                  07NDS    200709
+#  138I B-N DECAY                1981HO07                  07NDS    200709
+#H TYP=FUL$AUT=E. BROWNE, J. K. TULI$CIT=NDS 108,2173 (2007)$             
+#H CUT=1-Oct-2006$                                                        
+#  Measured: delayed n, GAMMA (1981Ho07,1979Ho21)                         
+#  Delayed neutron emission probability=5.56% 22 (1993Ru01). Others:      
+#  5.5% 4 (1980Lu04), 4.5% 9 (1978Kr15), 6.0% 35 (1977Re05),              
+#  AP 7% (1977Sh01), 5.14% 23 (1975Iz03)                                  
+#  EN(av)=380 (1982Ru01). Others: 467 30 (1979KrZT); EN LE 1400 (1977Re05)
+#  I(588.8G, 138XE)/n=10.2 6 (1981Ho07)                                   
+#  n-feeding to 137XE GS is 79.0% 21 (%|b-n=4.39 22), to 601 level is     
+#  19.8% 21 (%|b-n=1.10 10), to 986 level is 1.2% 3 (%|b-n=0.067 17),     
+#  to GT 986 levels is LT 6% (%B- LT 0.33) of B-n decay (1981Ho07).       
+#G RI        Assuming I(588G 138XE)=1000                                  
+#L J,E       Adopted values                                               
+#P 0.0         (2-)              6.41 S    6              1980      80    
+I138 XE137 neutron&beta- 1.98 6.41 1.0
++G gamma 0.601 0.205
++G gamma 0.3852 0.011000000000000001
+

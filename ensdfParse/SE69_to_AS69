@@ -1,0 +1,162 @@
+# 69AS    69SE EC DECAY                 1988DE28,1977MA24         14NDS    201401
+#  69SE EC DECAY                 1988DE28,1977MA24         14NDS    201401
+#H TYP=FUL$AUT=C.D. NESARAJA$CIT=NDS 115, 1 (2014)$CUT=31-Jul-2013$       
+#  1988De28: Measured |e delayed p, |g, and |b{++}, E|g, I|g, |g|g and    
+#  p|g coincidences using the recoil transport helium jet technique.      
+#  Gammas detected by Ge(Li)counters with 20% efficiency. Emitted protons 
+#  detected with the Si(Au) surface barrier counter. FWHM typically 18    
+#  keV for composite |a source of {+239}Pu,{+241}Am, {+244}Cm.            
+#  Authors assume that all the observed transitions are                   
+#  Gamow-Teller and conclude that the sum over all of them over an        
+#  energy range of about 6.5 MeV is equal to 0.23 or 7.7% of the sum rule 
+#  limit of 3.                                                            
+#  1977Ma24: Measured |e delayed p, |g, and |b{++} spectra, E|g, I|g,     
+#  and |g|g, |b{++}|g, p|g, pX-ray and |gX-ray coincidences and |a(K)exp. 
+#  Other: 1973Pr12.                                                       
+#E IB$ From intensity balance                                             
+#E TI(A)$ From intensity imbalances. No direct measurements of the g.s.   
+#E branch have been made. From a measurement of the annihilation          
+#E radiation, 1977Ma24 deduce a g.s. branch of 19% {I12}, and 1988De28    
+#E using their revised decay scheme and the annihilation measurement of   
+#E 1977Ma24 deduce a g.s. branch of 22% {I10}. Both authors               
+#E assume J|p({+69}Se g.s.)=3/2-. See 1989Ar13 for a discussion of this   
+#E feeding. With J|p({+69}Se g.s.) established as 1/2-, any decay to the  
+#E 5/2- g.s. will be negligible (an expected log {Ift} > 12.8 gives       
+#E I{-|e+|b{-+}}<3 x10{+-6} %. The evaluator has revised the decay        
+#E scheme so that the g.s. feeding is zero. The I|g normalization now is  
+#E 0.85 {I5} compared with 0.78 {I10} for a g.s. branch of 22% {I10}, and 
+#E the log {Ift} values for the excited levels are slightly smaller. No   
+#E changes in J|p assignments for the {+69}As levels are necessary        
+#E TI(B)$From the delayed proton spectrum (1988De28)                      
+#G E,RI$Weighted average data from 1988De28 and 1977Ma24, unless indicated
+#G otherwise                                                              
+#G E(D),RI(D)$ From 1977Ma24. Not reported by 1988De28                    
+#G E(F),RI(F)$ From 1988De28. Not reported by 1977Ma24                    
+#G M(E)$|a(K)exp consistent with multi E1 or M1. |D|p from decay scheme   
+#L E$ From a least-squares fit to the E|g data. Levels at 4649 and        
+#L above were deduced by 1988De28 from measurements of proton energy      
+#L emitted from these levels and the assumption that the proton feeding is
+#L essentially (98.6 %) to the ground state of {+68}Ge. A proton          
+#L separation energy of 3391 {I30} keV was adopted by these authors       
+#L for {+69}As and a recoil correction was applied. The present S(p)      
+#L value is 3420 {I20}                                                    
+#L J$From Adopted Levels                                                  
+#G CC$Calculated from |a(K)exp and |a(K)/|a.                              
+#G |a(K)exp have been recalculated from the values given by 1977Ma24      
+#G using the fluorescent yield from 1972Bb16.                             
+#P 0.0         1/2-              27.4 S    2              6680      30    
+SE69 AS69 beta+ 6.68 27.4 1.0
++G gamma 0.6371 0.027200000000000002
++G gamma 1.2023 0.0034000000000000002
++G gamma 1.3945 0.011899999999999999
++G gamma 1.5629000000000002 0.0034000000000000002
++B beta+ 2.587 0.09
++G gamma 0.09799 0.85
++B beta+ 2.554 0.32
++G gamma 0.0665 0.3196
++B beta+ 2.392 0.008
++G gamma 0.3327 0.013600000000000001
++G gamma 0.3993 0.04505
++G gamma 0.4975 0.013600000000000001
++B beta+ 2.251 0.22699999999999998
++G gamma 0.2919 0.022949999999999998
++G gamma 0.625 0.0323
++G gamma 0.6915 0.21675
++G gamma 0.7894 0.05184999999999999
++B beta+ 2.181 0.009000000000000001
++G gamma 0.8357 0.022949999999999998
++B beta+ 2.112 0.009000000000000001
++G gamma 0.9112 0.013600000000000001
++G gamma 0.9781 0.019549999999999998
++B beta+ 1.815 0.031
++G gamma 1.5265 0.0102
++G gamma 1.5926 0.0102
++G gamma 1.6909 0.011899999999999999
++B beta+ 1.79 0.018000000000000002
++G gamma 1.6464 0.011899999999999999
++G gamma 1.7441 0.0059499999999999996
++B beta+ 1.732 0.079
++G gamma 1.0757999999999999 0.0374
++G gamma 1.7002000000000002 0.014449999999999998
++G gamma 1.7668 0.022099999999999998
++G gamma 1.866 0.0059499999999999996
++B beta+ 1.61 0.017
++G gamma 1.3296 0.01275
++G gamma 2.1191999999999998 0.00425
++B beta+ 1.595 0.033
++G gamma 1.3609 0.014449999999999998
++G gamma 1.6529 0.011899999999999999
++G gamma 2.0514 0.0076500000000000005
++B beta+ 1.579 0.0033
++G gamma 2.086 0.0034000000000000002
++B beta+ 1.501 0.017
++G gamma 1.5572000000000001 0.0102
++G gamma 1.8494000000000002 0.0068000000000000005
++B beta+ 1.471 0.061
++G gamma 1.4757 0.014449999999999998
++G gamma 1.62 0.0204
++G gamma 1.9122999999999999 0.0102
++G gamma 2.2445999999999997 0.0068000000000000005
++G gamma 2.3102 0.011049999999999999
++B beta+ 1.413 0.021
++G gamma 1.4569 0.014449999999999998
++G gamma 2.3686 0.0059499999999999996
++G gamma 2.435 0.0017000000000000001
++B beta+ 1.252 0.011399999999999999
++G gamma 2.3756 0.011899999999999999
++B beta+ 1.177 0.009399999999999999
++G gamma 1.9562 0.0059499999999999996
++G gamma 2.8665 0.00136
++G gamma 2.9324 0.00255
++B beta+ 1.124 0.0089
++G gamma 2.0690999999999997 0.0034000000000000002
++G gamma 3.0459 0.00612
++B beta+ 1.089 0.0028000000000000004
++G gamma 3.122 0.0029749999999999998
++B beta+ 1.029 0.0049
++G gamma 3.1819 0.00272
++G gamma 3.2487 0.00255
++B beta+ 1.007 0.004
++G gamma 3.23 0.00425
++B beta+ 0.973 0.0019
++G gamma 3.3043 0.002125
++B beta+ 0.888 0.001
++G gamma 3.487 0.001105
++B beta+ 0.728 0.0021
++G gamma 3.835 0.00255
++B beta+ 0.437 1.1000000000000001E-5
++B beta+ 0.394 8.9E-6
++B beta+ 0.34 2.7E-6
++B beta+ 0.313 5.6E-6
++B beta+ 0.292 1.9E-6
++B beta+ 0.263 1.4999999999999998E-6
++B beta+ 0.241 1.8000000000000001E-6
++B beta+ 0.216 1.7E-6
++B beta+ 0.188 1.6000000000000001E-6
++B beta+ 0.169 2.8E-7
++B beta+ 0.152 2.9E-7
++B beta+ 0.128 1.0000000000000001E-7
++B beta+ 0.109 5.0000000000000004E-8
++B beta+ 0.093 3.0000000000000004E-8
++B beta+ 0.082 1.5000000000000002E-8
++B beta+ 8.799E-4 0.001
++B beta+ 8.8E-4 0.001
++B beta+ 8.8E-4 0.0010075000000000001
++B beta+ 8.799E-4 0.001
++B beta+ 8.798E-4 0.001
++B beta+ 8.797000000000001E-4 0.00101
++B beta+ 8.795E-4 0.00101
++B beta+ 8.793999999999999E-4 0.00101
++B beta+ 8.793E-4 0.00101
++B beta+ 8.791E-4 0.00101
++B beta+ 8.79E-4 0.00101
++B beta+ 8.788E-4 0.00101
++B beta+ 8.786E-4 0.00101
++B beta+ 8.782999999999999E-4 0.0010199999999999999
++B beta+ 8.779E-4 0.0010199999999999999
++B beta+ 8.774E-4 0.0010199999999999999
++B beta+ 8.769E-4 0.0010299999999999999
++B beta+ 8.764999999999999E-4 0.0010299999999999999
++B beta+ 8.757E-4 0.001
++B beta+ 8.742E-4 0.001
+

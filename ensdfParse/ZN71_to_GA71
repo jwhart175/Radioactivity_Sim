@@ -1,0 +1,96 @@
+# 71GA    71ZN B- DECAY (2.45 M)        1970ZO01,1961TH04         11NDS    201012
+#  71ZN B- DECAY (2.45 M)        1970ZO01,1961TH04         11NDS    201012
+#H TYP=FUL$AUT=KHALIFEH ABUSALEEM, BALRAJ SINGH$CIT=NDS 112, 133 (2011)$  
+#H CUT=30-Nov-2010$                                                       
+#  The decay scheme is from 1970Zo01                                      
+#  1970Zo01: measured E|g, I|g, |g|g coincidences; NaI and Ge(Li)         
+#  detectors                                                              
+#  1961Th04: measured E|g, I|g, |g|g, |b|g coin, T{-1/2},                 
+#  |b{+-} spectrum and |b-|g coincidences; Fermi-Kurie analysis           
+#  Other measurements:                                                    
+#  |g: 1967Li01, 1955Le03                                                 
+#  |b|g, |g|g coin: 1955Le03                                              
+#  T{-1/2}: 1962Ma24, 1958Le26, 1955Le03.                                 
+#B IB        From intensity balance of |g's. These are approximate with   
+#B no uncertainty estimate on I|g normalization.                          
+#G CC$ FROM BrIcc v2.2b (20-Jan-2009) 2008Ki07, "Frozen Orbitals" appr.   
+#G M,MR      From Adopted Gammas                                          
+#G RI        Relative intensities with I|g(512)=100                       
+#L E         From a least-squares fit to E|g data                         
+#L J         From Adopted Levels                                          
+#P    0.0      1/2-               2.45 M     10             2810.2  29    
++B beta- 1.1904000000000001 0.55
++B beta- 1.0057 0.004
++B beta- 0.96 2.0E-4
++B beta- 0.9486 0.32
++B beta- 0.7629 0.08
++B beta- 0.7377999999999999 8.0E-4
++B beta- 0.6715 0.0016
++B beta- 0.438 0.040999999999999995
++B beta- 0.2557 7.000000000000001E-4
++B beta- 0.166 0.0023
+
+# 71GA    71ZN B- DECAY (3.96 H)        1970ZO01,1970TA07,1969CO2011NDS    201012
+#  71ZN B- DECAY (3.96 H)        1970ZO01,1970TA07,1969CO2011NDS    201012
+#H TYP=FUL$AUT=KHALIFEH ABUSALEEM, BALRAJ SINGH$CIT=NDS 112, 133 (2011)$  
+#H CUT=30-Nov-2010$                                                       
+#  1970Zo01: measured E|g, I|g, |g|g, |b|g coincidences; NaI and Ge(Li)   
+#  detectors                                                              
+#  1970Ta07: measured E|g, I|g, |g|g coincidences; NaI and Ge(Li)         
+#  detectors                                                              
+#  1969Co20: measured E|g, I|g, |g|g, |g|g(t). Total of 17 |g rays        
+#  reported                                                               
+#  1978Kr06: measured |g|g(|q)                                            
+#  1967Li01: measured E|g, I|g, |g|g, |b|g(t), |g|g(t). Total of 14 |g    
+#  rays reported                                                          
+#  Other measurements:                                                    
+#  |g: 1969SiZT, 1964Ta08, 1964So01, 1962Gh01, 1955Le03                   
+#  |b: 1964So01, 1961Th04                                                 
+#  |g|g coin: 1964Ta08, 1964So01, 1962Gh01                                
+#  |b|g coin: 1964So01, 1955Le03                                          
+#  |g|g(|q): 1976Sa39, 1975BeYD (data for four cascades using NaI(Tl)     
+#  and Ge detectors), 1969Kh10, 1962Gh01                                  
+#  |g|g(|q,H): 1975BeYD                                                   
+#  |g|g(t), |b|g(t): 1969Kh10                                             
+#  1962Ma24: T{-1/2}, yield                                               
+#  The decay scheme is from 1970Zo01 and 1970Ta07, enhanced based         
+#  on earlier level schemes of 1969Co20 and 1967Li01                      
+#B $ The |g-ray intensity balance gives 2.3% {I18} for 511.5, 3/2- level, 
+#B but none is expected from |DJ=3, |D|p=yes                              
+#B $ The |g-ray intensity balance gives 0.07% {I4} for 909.9, 3/2- level, 
+#B but none is expected from |DJ=3, |D|p=yes                              
+#B $ The |g-ray intensity balance gives 0.011% {I3} for 1702.1, 1/2+ level
+#B but none is expected from |DJ=4, |D|p=no                               
+#G CC$ FROM BrIcc v2.2b (20-Jan-2009) 2008Ki07, "Frozen Orbitals" appr.   
+#G $ A2 and A4 coefficients are from |g|g(|q) data of 1978Kr06,           
+#G unless otherwise stated                                                
+#G E$ Weighted averages of values from 1970Zo01 and 1970Ta07. For         
+#G very weak (<0.1 or so) and higher energy (>1500 keV) transitions,      
+#G values are from 1970Zo01 only                                          
+#G RI$ Weighted averages of values from 1970Zo01, 1970Ta07, 1969Co20      
+#G and 1967Li01                                                           
+#G M,MR$ From Adopted Gammas. Values of mixing ratios from                
+#G 1978Kr06 are given under comments                                      
+#G M(B)$ 1978KR06 ASSUMED E1 FOR 386G AND E2 FOR 596G IN THE ANALYSIS OF  
+#G THEIR GG(THETA) DATA. MEASURED A2=-0.071 FOR 386-596 CASCADE SUPPORTS  
+#G THESE ASSUMPTIONS                                                      
+#G E(A)$ From 1970Zo01 only                                               
+#G E(E)$ Uncertainties of 0.05 and 0.06 in table 1 of 1970Zo01 seem       
+#G unreasonable. The evaluators have increased these by a factor of 10    
+#L E$ From a least-squares fit to E|g data                                
+#L J$ From Adopted Levels                                                 
+#L T$ From |b|g(t) and/or |g|g(t) (1967Li01)                              
+#P   157.7   13 9/2+              3.96 H     5               2810.2 29    
++B beta- 0.8261000000000001 0.004
++B beta- 0.7447 0.018000000000000002
++B beta- 0.5688 0.878
++B beta- 0.5667000000000001 0.0059
++B beta- 0.49019999999999997 8.500000000000001E-4
++B beta- 0.2457 0.064
++B beta- 0.1666 0.006500000000000001
++B beta- 0.15259999999999999 0.0038
++B beta- 0.1119 0.006999999999999999
++B beta- 0.0716 9.2E-4
++B beta- 0.044899999999999995 0.0033
++B beta- 0.0417 0.0033
+

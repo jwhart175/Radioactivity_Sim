@@ -1,0 +1,13 @@
+#133I     133I IT DECAY (9 S)           1970BEZT,1970OSZZ         11NDS    201104
+#  133I IT DECAY (9 S)           1970BEZT,1970OSZZ         11NDS    201104
+#H TYP=FUL$AUT=YU. KHAZOV AND A. RODIONOV, F.G. KONDEV$                   
+#H CIT=NDS 112, 855 (2011)$CUT=31-Oct-2010$                               
+#  1970BeZT,1970OsZZ: {+133}I IT decay (T{-1/2}=9 s) [from {+235}U(n,F)]; 
+#  measured T{-1/2}, E|g, I|g, |g|g-coin, E(ce); deduced                  
+#  levels, J|p. OSIRIS facility, Ge(Li) detectors                         
+#G E,M$From adopted gammas                                                
+#G RI$From intensity balance and CC by assuming TI=100                    
+#L E,J$From adopted levels                                                
+#P 1634.148  10 (19/2-)          9 S       2                              
+I133 I133 IT 0.0 9.0 1.0
+

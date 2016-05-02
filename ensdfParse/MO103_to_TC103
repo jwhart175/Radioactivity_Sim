@@ -1,0 +1,63 @@
+#103TC    103MO B- DECAY                1980TIZX                  09NDS    200910
+#  103MO B- DECAY                1980TIZX                  09NDS    200910
+#H TYP=FUL$AUT=D. DE FRENNE$CIT=NDS 110, 2081 (2009)$CUT=1-Mar-2009$      
+#  Assignment: mass separation of fission fragments and chemical          
+#  separation of molybdenum produced in {+235}U(n,F). Measured: E|g, I|g, 
+#  |g|g, T{-1/2}. Deduced: {+103}Tc levels (1980TiZX)                     
+#  1987Gr18: on-line mass separator LOHENGRIN, measured |g|b, Q(|b{+-}),  
+#  E|b                                                                    
+#  Others: 1977Ki14, 1977Ti02, 1976KaYO                                   
+#B           Levels for which a net |b-feeding is found from              
+#B I(|g+ce) imbalances are indicated by arrows in the drawing             
+#G E(A)$Seen only in coin spectrum                                        
+#G E(B)$From 1979Bo26                                                     
+#G RI(D)     From |g|g                                                    
+#L           From delayed |g|g-coin results, states with T{-1/2}>500 ns   
+#L are not observed                                                       
+#L J         From adopted levels                                          
+#P 0.0          (3/2+)           67.5 S    15             3750      60    
+MO103 TC103 beta- 3.75 67.5 1.0
++G gamma 0.0458 0.82
++G gamma 0.0834 1.45
++G gamma 0.093 0.15
++G gamma 0.095 0.16
++G gamma 0.176 0.23
++G gamma 0.259 0.051
++G gamma 0.205 0.032
++G gamma 0.2998 0.135
++G gamma 0.3832 0.017
++G gamma 0.33089999999999997 0.037000000000000005
++G gamma 0.42391 1.0
++G gamma 0.4698 0.221
++G gamma 0.404 0.32
++G gamma 0.487 0.022000000000000002
++G gamma 0.436 0.01
++G gamma 0.5192 0.4
++G gamma 0.15080000000000002 0.161
++G gamma 0.5748 0.069
++G gamma 0.6207999999999999 0.23199999999999998
++G gamma 0.5477000000000001 0.083
++G gamma 0.2005 0.057999999999999996
++G gamma 0.21780000000000002 0.22
++G gamma 0.429 0.005
++G gamma 0.6417999999999999 0.095
++G gamma 0.6876 0.45
++G gamma 0.172 0.13
++G gamma 0.2045 0.15
++G gamma 0.3085 0.055999999999999994
++G gamma 0.6082000000000001 0.321
++G gamma 0.6916 0.207
++G gamma 0.4173 0.09699999999999999
++G gamma 0.8873 0.051
++G gamma 0.616 0.022000000000000002
++G gamma 1.0402 0.33
++G gamma 1.0859 0.25
++G gamma 0.599 0.188
++G gamma 0.75 0.262
++G gamma 1.081 0.05
++G gamma 1.1742000000000001 0.13699999999999998
++G gamma 1.22 0.067
++G gamma 1.4485999999999999 0.264
++G gamma 1.4946 0.071
++G gamma 1.1513 0.121
+

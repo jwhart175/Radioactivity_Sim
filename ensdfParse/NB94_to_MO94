@@ -1,0 +1,32 @@
+# 94MO    94NB B- DECAY (2.03E+4 Y)     1971HE20,1971EA01         06NDS    200609
+#  94NB B- DECAY (2.03E+4 Y)     1971HE20,1971EA01         06NDS    200609
+#H TYP=FUL$AUT=D. Abriola(a), A.A. Sonzogni$CIT=NDS 107, 2423 (2006)$     
+#H CUT=1-Jan-2006$                                                        
+#  1971He20: Ge(Li), FWHM|<1 keV at 100 keV and |<2 keV at 1 MeV.         
+#  Precision measurement of E|g.                                          
+#  1971Ea01: Ge(Li), FWHM=2.0 keV at 1.33 MeV. Precision measurement of   
+#  E|g and I|g.                                                           
+#L J$From adopted levels.                                                 
+#G M,MR$From adopted gammas.                                              
+#G E$From 1971He20.                                                       
+#G RI$From 1971Ea01.                                                      
+#B $Measurements of |b decay observables: shape factor: 1968Ho10.         
+#B |b|g(|q): 1968Ho24.                                                    
+#P 0.0         6+                2.03E+4 Y 16             2045.2    20    
+NB94 MO94 beta- 2.0452 6.4060524864E11 1.0
+
+# 94MO    94NB B- DECAY (6.263 M)       1971HA54                  06NDS    200609
+#  94NB B- DECAY (6.263 M)       1971HA54                  06NDS    200609
+#H TYP=FUL$AUT=D. Abriola(a), A.A. Sonzogni$CIT=NDS 107, 2423 (2006)$     
+#H CUT=1-Jan-2006$                                                        
+#  1971HA54: Ge(Li), FWHM=4.0 keV at 1.33 MeV. NaI(Tl). Measured E|g,     
+#  I|g, |g|g.                                                             
+#  Other measurements: 1962Ki08, 1963Re01.                                
+#L J$From adopted levels.                                                 
+#G M,MR$From adopted gammas                                               
+#P 40.892    123+                6.263 M   4              2045.2    20    
+NB94 MO94 beta- 2.0452 375.78 0.0050
++G gamma 0.871 0.9990000000000001
++G gamma 0.702 0.0062937
++G gamma 0.993 0.0014984999999999998
+

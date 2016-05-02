@@ -1,0 +1,62 @@
+#101MO    101NB B- DECAY (7.1 S)        1990SE17,1976AH06,1978ST02ENSDF    200610
+#  101NB B- DECAY (7.1 S)        1990SE17,1976AH06,1978ST02ENSDF    200610
+#H TYP=FUL$AUT=JEAN BLACHOT$CIT=ENSDF$CUT=1-Jul-2006$                     
+#  On-line ms of fission products: 1990Se17, 1977LaZG, 1978St02, 1987Gr18.
+#  On-line chem: 1976Ah06 |g(t)                                           
+#  Measured |b|g coin (1987Gr18)                                          
+#  Q(|b{+-})=4500 {i60} (1982VoZR), 4570 {i100} (1978St02), 4600 {i200}   
+#  (1970Ei02), 4575 {i30} (1987Gr18)                                      
+#G E$From 1990Se17 (semi).                                                
+#L T$From adopted levels, unless otherwise noted.                         
+#P 0.0         (5/2+)            7.1 S     3              4569      18    
+NB101 MO101 beta- 4.569 7.1 0.21
++G gamma 0.01349 1.0
++G gamma 0.043515 1.0
++B beta- 4.425 0.026000000000000002
++G gamma 0.114 0.02
++G gamma 0.1575 0.32
++G gamma 0.18059999999999998 0.08800000000000001
++G gamma 0.224 0.006999999999999999
++G gamma 0.2375 0.002
++G gamma 0.1186 0.14
++G gamma 0.2326 0.049
++G gamma 0.2761 1.0
++G gamma 0.2896 0.1
++G gamma 0.2368 0.015
++G gamma 0.2803 0.034
++G gamma 0.294 0.02
++G gamma 0.08120000000000001 0.01
++G gamma 0.30519999999999997 0.009000000000000001
++G gamma 0.2945 0.05
++G gamma 0.3381 0.002
++G gamma 0.3516 0.024
++B beta- 4.105 0.055
++G gamma 0.165 0.002
++G gamma 0.217 0.012
++G gamma 0.2835 0.033
++G gamma 0.3975 0.013999999999999999
++G gamma 0.44110000000000005 0.22
++G gamma 0.4545 0.017
++G gamma 0.186 0.026000000000000002
++G gamma 0.4228 0.005
++G gamma 0.4663 0.18
++G gamma 0.4798 0.19
++G gamma 0.5075 0.04
++G gamma 0.5597000000000001 0.033
++G gamma 0.6261 0.009000000000000001
++G gamma 0.7402000000000001 0.017
++G gamma 0.7835 0.07400000000000001
++G gamma 0.3563 0.008
++G gamma 0.4591 0.019
++G gamma 0.6395 0.008
++G gamma 0.7536 0.008
++G gamma 0.8106 0.025
++G gamma 0.3745 0.004
++G gamma 0.3993 0.027999999999999997
++G gamma 0.6829 0.032
++G gamma 0.7971 0.07200000000000001
++G gamma 0.8405 0.013999999999999999
++G gamma 0.8539 0.046
++G gamma 1.0422 0.036000000000000004
++G gamma 1.0857 0.012
+

@@ -1,0 +1,61 @@
+#  5LI    9C B+A DECAY                  1988MI03,2000GE09,2001BE51               
+#  9C B+A DECAY                  1988MI03,2000GE09,2001BE51               
+#H TYP=UPD$AUT=J. Kelley$CUT=26-FEB-2013$CIT=ENSDF$                       
+#H COM=Updated data set since last full evaluation$                       
+#  1988MI03: Implanted 9C into a thick SI detector and measured the total 
+#  |b-delayed breakup energy; deduced |b-decay feeding to low-lying       
+#  states. They missed several higherlying states that are fed and did not
+#  directly distinguish delayed p vs. |a emission.                        
+#  2000GE09: 9C from the ^TRIUMF/^TISOL facility was implanted in a thin  
+#  carbon foil. Data were taken in two detector configurations; one       
+#  configuration was sensitive to decay through the p+8BE{-g.s.} decay    
+#  mode while the other configuration was sensitive to the |a+5LI{-g.s.}  
+#  and p+8BE^*(3.0) decay channels. Breakup particles from 9C -> 8BE+p -> 
+#  2|a+p and 9C -> 5LI+|a -> 2|a+p were detected either in an array of    
+#  4 DE-E telescopes configured with two segmented SI annular detectors   
+#  or with a similar array 2 DE-E telescopes configured with two          
+#  doublesided position sensitive SI strip detectors and a plastic        
+#  scintillator to count |b-particles. Detector sensitivities and         
+#  coincidence efficiencies were evaluated by Monte Carlo techniques,     
+#  and a phenomenological approach was used to deduce the |b-decay        
+#  reaction branching ratios.                                             
+#  2001BE51: At the ^CERN/^ISOLDE facility, doublesided strip detectors   
+#  (^DSSD) were coupled with thick stopping detectors to provide          
+#  high-granularity and large solid angle coverage for detecting decay    
+#  particles. Emphasis was placed on characterizing population and decay  
+#  of the AP 14.65 MEV IAS. Furthermore a thin DE ^DSSD was implemented   
+#  to avoid threshold (efficiency) concerns that troubled (2000GE09).     
+#  Lastly, the experimenters evaluated the decay branching ratios for the 
+#  12B^*(12.2) state. Little comment is given on other populated levels.  
+#  2001BU05: The authors of (2000GE09) give a more rigorous alternate     
+#  interpretation of their data in a full R-MATRIX analysis. There is a   
+#  poor agreement between deduced level energies and accepted energy      
+#  values.                                                                
+#                                                                         
+#  Comments:                                                              
+#  Four relevant articles are given that discuss three different          
+#  experimental efforts. Agreement is relatively mixed.                   
+#  The experiments that are most sensitive to decay to 9B{-g.s.} find the 
+#  largest feeding to that state, we take (54.1 15)% from (2001BE51). Data
+#  from ^TRIUMF produced the most comprehensive set of populated          
+#  levels, though they are analyzed via two different methods in          
+#  (2000GE09) and (2001BU05) yielding somewhat different results, due in  
+#  part to differences in the 9B{-g.s.} branch and subsequent             
+#  renormalization. Lastly are the states above 14 MEV, (2000GE09) reports
+#  only 9B^*(14.0: JPI= ?) which decays mainly via proton emission, while 
+#  (2001BE51) reports population of 9B^*(14.6: JPI=3/2-) which decays     
+#  about evenly via p and |a emission. On the other hand the analysis of  
+#  (2001BU05) reports population of both levels. Finally, in (2000GE09,   
+#  2001BU05) a previously unknown 9B level at E{-x}=13.3 MEV is reported. 
+#  The 9B ground state feeding from (2001BE51) is accepted here; the      
+#  branching ratios from (2000GE09) including the mostly |a background    
+#  component are then renormalized ( * 0.864). The branches feeding both  
+#  of the E{-x}=14.0 and 14.6 MEV states are accepted, though it may      
+#  be that only one level was populated. The particle breakup branching   
+#  ratios for 9B^*(12.2) are accepted from (2001BE51). And lastly, the    
+#  weak branch to 9B^*(13.3) is included with some uncertainty.           
+#L T$LABEL=WIDTH                                                          
+#L E,J,T$From (2002TI10).                                                 
+#P 0           (3/2-)            126.5 MS  9              14807     50    
+C9 LI 5 alpha 14.807 0.1265 0.379
+

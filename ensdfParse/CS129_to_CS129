@@ -1,0 +1,16 @@
+#129CS    129CS IT DECAY (0.718 US)     1978DE29                  14NDS    201408
+#  129CS IT DECAY (0.718 US)     1978DE29                  14NDS    201408
+#H TYP=FUL$AUT=JANOS TIMAR AND ZOLTAN ELEKES, BALRAJ SINGH$               
+#H CIT=NDS 121, 143 (2014)$CUT=31-May-2014$                               
+#  1978De29: measured E|g, I|g, half-life, g factor                       
+#G E,M,MR$From Adopted dataset for {+129}Cs                               
+#G RI$Branching ratios of |g rays from 575-keV isomer taken from Adopted  
+#G dataset. Based on these values, intensities for |g rays from lower     
+#G levels are deduced                                                     
+#L E,J,T$From Adopted Levels, unless otherwise stated                     
+#P 575.45    5 (11/2-)           0.718 US  21                             
++G gamma 0.053200000000000004 7.89E-4
++G gamma 0.14905000000000002 0.526
++G gamma 0.3867 0.33664
++G gamma 0.5692999999999999 0.066802
+

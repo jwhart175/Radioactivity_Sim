@@ -1,0 +1,94 @@
+#220FR    224AC A DECAY                 1992LI31,1968LE17         11NDS    201104
+#  224AC A DECAY                 1992LI31,1968LE17         11NDS    201104
+#H TYP=FUL$AUT=E. BROWNE, J. K. TULI$CIT=NDS 112, 1115 (2011)$            
+#H CUT=31-Oct-2010$                                                       
+#  Modified by E. Browne. Nov. 30, 2010. BRICC, GTOL.                     
+#A E,IA      From 1968Le17, unless otherwise noted. These data are also   
+#A given in 1969LeZW. Authors' E|a values have been increased by 3.8      
+#A keV (see 1991Ry01) to adjust for newer energy calibration values.      
+#A HF        r{-0}({+220}Fr)=1.540 {I6}                                   
+#G CC$ FROM BrIcc v2.2 (31-Mar-2008) 2008KiAA, "Frozen Orbitals" appr.    
+#G E         From 1992Li31; others: 1970Br31 (see also 1973ChZH),         
+#G 1969Le07, 1969LeZW                                                     
+#G RI        From 1992Li31, I|g/10{+4} |a; others: 1973ChZH, 1969Le07,    
+#G 1969LeZW.                                                              
+#G M         From 1992Li31 and 1973ChZH. |a(exp) values are from          
+#G 1973ChZH. |g and the ce spectra were normalized through the 261|g      
+#G (M1) with |a(K)=0.83 and |a(L)=0.15                                    
+#G E(F),M(F)$From 1992Li31. Not listed in the |g-ray table or shown in    
+#G the |g-ray or ce spectra; however, |g ray is shown in the level scheme.
+#G E|g and multipolarity probably have been deduced from the level scheme.
+#G E(K)$|g ray placed from the 55.8-keV level in 1992Li31; however, the   
+#G transition intensity indicates a slight imbalance at this level. The   
+#G energy of the |g ray fits also from the 48.4-keV level, and this second
+#G placement would improve the intensity balance at both levels.          
+#G RI(H)     I|g deduced from |a|g coin. In singles spectrum |g ray mixed 
+#G or masked by K| x rays or other |g rays of about the same energy       
+#G from daughter nuclei.                                                  
+#G M(B)$From transition-intensity balance in level scheme. With any other 
+#G multipolarity, I(|g+ce) would be larger than total feeding from |a     
+#G decay to levels above this level.                                      
+#G M(G)      Deduced from internal conversion data (not given)            
+#G (1992Li31). In some cases additional conversion data from other        
+#G sources are given.                                                     
+#G M(J)$From transition-intensity balance in level scheme. Based on the   
+#G criterion that |SI(|g+ce) de-exciting the level cannot exceed |SI|a    
+#G populating levels with higher energy. From the level scheme the        
+#G 55.3|g ray and 81.5|g ray from the 355.2-keV level must                
+#G have the same mixing ratio |D|p, therefore, from transition-intensity  
+#G balance both must have E1 multipolarity.                               
+#G M(M)      The M1(e-) multipolarity given in table 1 in 1992Li31 for the
+#G 271.5|g ray is a misprint, the multipolarity belongs to the next       
+#G |g ray, the 273.7|g ray. (Priv. comm. from first author in 1992Li31).  
+#G TI(L)     |g ray not seen; transition intensity estimated from         
+#G transition-intensity balance.                                          
+#L           1992Li31: measured |g, ce, |a, |a|g, |a(ce), |g|g, |g(ce)    
+#L           1973ChZH: measured |g, |a|g, |a(ce)                          
+#L           1968Le17, 1969LeZW: measured |g, |a, |a|g                    
+#L           Others: 1970Br31, 1969Le07, 1967Br15                         
+#L                                                                        
+#L           The decay scheme is that of 1992Li31, based on               
+#L |g and ce measurements, and on |a|g, |a(ce) coincidence                
+#L results of 1992Li31,                                                   
+#L and on |a-particle measurements of 1968Le17.                           
+#L E         From least squares fit to E|g. Band assignments are from     
+#L 1992Li31. They suggest that the bands with K|p=1|+ and K|p=2|+         
+#L form two sets of parity doublets.                                      
+#L J         From 1992Li31                                                
+#L BAND(A)   KPI=1+ GS ROTATIONAL BAND                                    
+#L BAND(B)   KPI=1- BAND                                                  
+#L BAND(C)   KPI=2+ BAND                                                  
+#L BAND(D)   POSSIBLE KPI=2- BAND                                         
+#L BAND(E)   POSSIBLE KPI=0- BAND                                         
+#P 0           0-                2.78 H    17             6326.9     7    
+AC224 FR220 alpha 6.326899999999999 10008.0 0.091
++A alpha 6.2138 0.204
++A alpha 6.207 0.11900000000000001
++A alpha 6.1589 0.0103
++A alpha 6.1417 0.256
++G gamma 0.0246 0.001
++A alpha 6.0598 0.21899999999999997
++G gamma 0.016 4.6000000000000007E-4
++A alpha 6.017600000000001 0.013999999999999999
++A alpha 6.0036000000000005 0.067
++A alpha 5.9715 0.0018
++A alpha 5.9615 3.0E-4
++A alpha 5.945600000000001 0.044000000000000004
++A alpha 5.9196 0.0096
++A alpha 5.9125 0.0015
++A alpha 5.905399999999999 0.0014000000000000002
++A alpha 5.8803 0.017
++A alpha 5.871 0.001
++A alpha 5.864 0.0075
++A alpha 5.8576999999999995 0.0025
++A alpha 5.8546000000000005 7.000000000000001E-4
++A alpha 5.8445 0.0055000000000000005
++A alpha 5.8406 0.0026
++A alpha 5.8067 2.0E-4
++A alpha 5.7798 6.0E-4
++A alpha 5.7718 0.0024
++A alpha 5.7428 5.0E-4
++A alpha 5.7218 0.0012
++A alpha 5.7128000000000005 0.0012
++A alpha 5.6443 6.0E-4
+

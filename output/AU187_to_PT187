@@ -1,0 +1,54 @@
+#187PT    187AU EC DECAY                1983GN01,1992RO15         09NDS    200905
+#  187AU EC DECAY                1983GN01,1992RO15         09NDS    200905
+#H TYP=FUL$AUT=M. S. Basunia$CIT=NDS 110, 999 (2009)$CUT=1-Nov-2008$      
+#  Other: 1979Be51, 1986ROZI, 1986AbZZ, 1975Ho03, 1970Du09                
+#  1983GN01: Mass separated 187AU was produced from 181TA(12C,6N) and     
+#  178HF(14N,5N) reactions; Detectors: large volume Ge(Li), HPGe, Si(Li); 
+#  Measured: EG, RI, GG t, x-G-t, e-x-t.                                  
+#  1992RO15,1986ROZI: 187AU produced from Pt(p,xn)Au, E=200 MeV,          
+#  reactions, 187AU mass separated online and collected on myler/aluminum 
+#  tape; Detector: 4 n-type HPGe; Measured: EG, deduced angular           
+#  correlation coefficients, MR, assigned level spin. 1986ROZI also       
+#  studied 187PT from the 176YB(16O,5NG) reaction, E=93 MeV.              
+#  1979Be51: On-line mass separation of 187AU, produced through Pb(P,3pxn)
+#  spallation reaction and 187HG decay, E=157 MeV; Detector: Ge(Li), HPGe,
+#  Si(Li), Magnetic spectrometer; Measured: EG, RI, CE, G-x coin,         
+#  CE-G COIN, G-CE(t), CE-CE-t.                                           
+#  1986AbZZ: 187AU EC Decay; Measured EG, RI, CE.                         
+#  1975Ho03, 1970Du09: Measured total absorption spectrum of 187AU EC     
+#  decay.                                                                 
+#E TI(A)$1983Gn01 estimate that 5% of the decay goes to the GS+9.3 keV    
+#E levels based on observed X-RAY intensities (unreported).               
+#G E,RI      From 1983Gn01.                                               
+#G RI(A),TI(X)$From analysis of coincidence data                          
+#G TI(B)$From CE intensities renormalized to GAMMA data of 1983Gn01       
+#G TI(C)$From intensity balance                                           
+#G M$From EKC data of 1979Be51, except otherwise noted. The evaluator has 
+#G assigned a 20% uncertainty to the CE intensities (50% uncertainty for  
+#G approximate values) for determining mixing ratios. For multipolarity   
+#G assignment, 1983Gn01 relies on the CE values of 1979Be51 (high         
+#G resolution). The 1983Gn01 CE data are in good agreement with 1979Be51. 
+#G Only a couple of EKC values are listed along with 1979Be51 EKC values  
+#G here to show the agreement. EKC data are from 1979Be51, except noted.  
+#G M(D)$Transitions at 498.2 and 498.8 KEV were observed with             
+#G E0 admixture (1979Be51). Three gammas at 498.2, 498.3, and 498.6 KEV   
+#G were identified by 1983Gn01. The two higher-energy transitions were    
+#G assumed by 1983Gn01 to contain the E0 admixture although there is no   
+#G apparent reason to exclude the 498.2 transition.                       
+#G MR        Deduced by the evaluator from 1979Be51 and 1983Gn01 EKC data,
+#G except otherwise noted.                                                
+#G MR(E),M(E)$Deduced from GG(THETA) correlation coefficient ^A2 and ^A4  
+#G (1992Ro15). Sign was changed by the evaluator to follow the phase      
+#G convention of Krane and Steffen (1970Kr03).                            
+#E LOGFT     Approximate beta strength function derived from the total    
+#E absorption spectrum measurement of 187AU EC decay by 1975Ho03 and      
+#E 1970Du09 indicates level population upto AP 3.2 MeV and AP 3.9 MeV,    
+#E respectively. So the calculated LOGFT values should be considered as a 
+#E lower limit.                                                           
+#L E         From a least-squares adjustment to the G-ray energies.       
+#L J         From adopted levels, except otherwise noted.                 
+#L J(Z)      From GG(THETA) (1992Ro15) and deduced G-ray multipolarities. 
+#L T         From CE-CE(T) and CE-G(T) (1979Be51), except otherwise noted.
+#P 0.0          1/2(+)           8.3 M     2              3710      40    
+AU187 PT187 beta+ 3.71 498.00000000000006 1.0
+

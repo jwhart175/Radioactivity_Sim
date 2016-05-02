@@ -1,0 +1,39 @@
+#163YB    163LU EC DECAY (3.97 M)       1980BE39,1983GE08,1980ADZU10NDS    201005
+#  163LU EC DECAY (3.97 M)       1980BE39,1983GE08,1980ADZU10NDS    201005
+#H TYP=FUL$AUT=C. W. REICH, BALRAJ SINGH$CIT=NDS 111, 1211 (2010)$        
+#H CUT=12-Apr-2010$                                                       
+#  DATA SET UPDATED (SEPTEMBER, 2008) BY CW REICH TO INCLUDE NEW QP       
+#   VALUE, CC VALUES COMPUTED USING BrIcc, AND REVISED COMMENTS.          
+#  1980Be39: W(p,X) E=1 GeV. Mass separation. Measured K| x ray's, |g's,  
+#  K| x ray(t), |g(t)                                                     
+#  1983Ge08 (also 1981RaZH, 1982RaZI): {+155}Gd({+14}N,6n) and            
+#  {+151}Eu({+16}O,4n) E(max)=154 MeV. Measured excitation functions,     
+#  x-rays, |g's, X|g coin, |g|g-coin, K| x ray(t), |g(t).                 
+#  1980AdZU: W(p,X) E={ 660 MeV}. Measured |g's, ce's, |g|g- and          
+#  ce|g-coin, |g|g(t).                                                    
+#  Others:                                                                
+#  1994MoZY: |g|g(t), ce|g(t)                                             
+#  1993Al03: measured total |g spectra, deduced Q value={ 4600 {I200}}    
+#  1981By04: measured E|b, I|b, |b strength functions                     
+#  1979Al16: production, identification and T{-1/2}                       
+#  1975Ad09: tentative isotopic assignment with T{-1/2}({+163}Lu)<{ 3 min}
+#  The level scheme is as proposed by 1980Be39 and 1983Ge08. Due to       
+#  several discrepancies between the two studies, the level scheme given  
+#  here is considered as tentative                                        
+#E $From total-absorption |g-ray measurements,                            
+#E 1981By04 report following |b{++},|e branches with energy (intensity):  
+#E { 1.8 MeV} (25%), { 2.8 MeV} (52%), { 3.1 MeV} (16%), { 3.6 MeV} (5%), 
+#E { 4.1 MeV} (1.5). These branches are not assigned in a level scheme    
+#G E,RI$From 1980Be39, except as noted. I|g's from 1983Ge08, renormalized 
+#G to 100 for 163|g are generally consistent with those from 1980Be39     
+#G E(B),RI(B)$|g from 1983Ge08. I|g renormalized (evaluators)             
+#G E(A)$Placement from 1983Ge08 and/or 1980AdZU, unplaced or              
+#G differently placed in 1980Be39                                         
+#G E(D)$Placement from 1980Be39                                           
+#L E$From least-squares fit to E|g's, keeping 58.1 level fixed in energy  
+#L J$From adopted levels                                                  
+#L E(A)$Level from 1980AdZU and 1983Ge08, not reported by 1980Be39        
+#L E(B)$From 1983Ge08 only                                                
+#L E(C)$From 1980Be39 only                                                
+#P 0.0          1/2(+)           3.97 M    13               4510    30    
+

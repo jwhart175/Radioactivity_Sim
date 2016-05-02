@@ -1,0 +1,129 @@
+#161DY    161TB B- DECAY                1984VY01                  11NDS    201111
+#  161TB B- DECAY                1984VY01                  11NDS    201111
+#H TYP=FUL$AUT=C. W. Reich$CIT=NDS 112,2497 (2011)$CUT=1-Jun-2011$        
+#  DATA SET UPDATED (NOVEMBER, 2009) BY CW REICH TO INCLUDE NEW QP        
+#   VALUE, CC VALUES FROM BRICC, NEW REFERENCE FOR PRECISE EG VALUES,     
+#   AND REVISED COMMENTS                                                  
+#  DATA SET REVISED (OCT., 1999) BY CW REICH TO INCLUDE: NEW QP VALUE AND 
+#  RECALCULATED LOGFT VALUES; NEW CIRCULAR POLARIZATION DATA FOR THE 25   
+#  AND 74 G'S; REVISED MR DATA AND RELATED COMMENTS, ADDED 4 NEW PRECISE  
+#  EG VALUES                                                              
+#  Experimental methods:                                                  
+#  All 161TB sources were made by the 160GD(N,G) reaction followed by     
+#  B- decay, unless otherwise noted. Usually an enriched target was       
+#  used and the Tb was chemically separated.                              
+#  1956Co58: CE's measured in magnetic spectrograph and B-'s in magnetic  
+#       spectrometer. Report 7 G's. Evaluator suggests that the           
+#       531 B- should feed the 75 level rather than the ground state.     
+#  1956Sm10: CE's and B-'s measured in magnetic spectrometer. G singles   
+#     and GG coincidences measured with NaI detectors. Report 4 G's.      
+#  1957Ve17: Measured half-lives of 25 and 74 levels.                     
+#  1958Be01: Theoretical discussion of 161DY levels, based on data of     
+#       1958Ha13.                                                         
+#  1958Ha13: CE's and B-'s measured in magnetic spectrometer.             
+#       G and GG spectra measured with NaI                                
+#       detectors. G-CE and G-B- coincidences measured. Report 7 G's.     
+#  1958Mc11: G and GG spectra measured with NaI and Xenon detectors.      
+#  1959Ha09: 161TB produced by p reactions on Er or Yb targets, with      
+#       chemical separation. CE's measured in magnetic spectrograph.      
+#       Report 10 G's.                                                    
+#  1960Ve03: G and GG spectra measured with NaI detectors. CE's and B-'s  
+#       measured with magnetic spectrometers. Half-lives measured.        
+#  1961Gr01: CE's measured in iron-free magnetic spectrometer.            
+#  Abstract only, but 1974Tu05 have some additional information.          
+#  1962Su03: G's, GG coincidences, and GG(THETA) measured with NaI        
+#       detectors. Report 7 G's.                                          
+#  1963Ho15: Measured 161TB half-life with proportional counters.         
+#  1963Ko08: B- spectra measured with magnetic spectrometer.              
+#  1964Fu11: Measured G and CE singles and GG, G-CE and G-B- coincidences 
+#       with NaI detectors and magnetic spectrometers. Report 9 G's.      
+#  1965Br16: 161TB produced by 159TB(2N,G). G's measured with             
+#       curved-crystal spectrometer. Report 10 G's.                       
+#  1965Su04: Reanalyzed GG(THETA) data of 1962Su03 with CE data of        
+#  1961Gr01 to obtain two mixing ratios and one penetration               
+#  parameter.                                                             
+#  1966Fu07: Measured G's with small Ge detector. Report 15 G's (i.e.,    
+#       15 RI values).                                                    
+#  1966Gi02: CE's measured in magnetic spectrometer for 25 and 48 G's     
+#  1966Su03: Abstract giving same results as in 1965Su04.                 
+#  1968Mu11: G-sum coincidence spectra with NaI detector. Verified scheme 
+#  1969Be49: Measured G spectra with small Ge detector. Measured          
+#       half-lives by CE-CE coincidences with two long-lens spectrometers.
+#  1971Ba28: Measured 161TB half-life with proportional counters.         
+#  1971Kr19: Measured G(THETA,H) with oriented 161TB nuclei. Deduced MR   
+#  for 49 and 75 G's.                                                     
+#  1971St38: Measured x/G ratio for 25 G in coincidence with 49 G         
+#       with Ge detectors.                                                
+#  1972De67: Measured RI's for 4 G's. Interest is data for activation     
+#       analysis.                                                         
+#  1972WyZZ: Laboratory report; gives preliminary value of 161TB half-life
+#  1974Bo41: Theoretical calculation of LOGFT values between Nilsson      
+#       states of interest here.                                          
+#  1974Pr06: Measured G's with small Ge detector. Data given only on      
+#       decay-scheme drawing. Uncertainties for RI are `10%'.             
+#  1979Mi17: Discuss LOGFT values for B- transitions from 3/2[411] to     
+#       members of 1/2[521] band.                                         
+#  1982Bh07: Calculated penetration parameter for 48.9 |g using earlier   
+#       data.                                                             
+#  1983Hn01: Measured G energies and intensities for 18 G's and K x and   
+#  computed B- feeding intensities. Deduced penetration parameter         
+#  of 57 G.                                                               
+#  1983Ri15: Measured G(THETA) for oriented nuclei to determine moments of
+#  161TB ground state and MR for G's in 161DY.                            
+#  1984De49: Precise measurement of 3 G energies with crystal             
+#       spectrometer. See 1985Je05 for later paper.                       
+#  1984Vy01: Measured G energies and intensities for 33 G's.              
+#  1985Bh08: Updated penetration parameter calculation for 48 G in        
+#       1982Bh07.                                                         
+#  1985Je05: Precise remeasurement of 3 G energies with crystal           
+#       spectrometer, replacing 1984De49.                                 
+#  1999Ts02: Measured the parity-odd circular polarizations of the 25.6   
+#  and 74.4 gammas using a Compton polarimeter.                           
+#  Theory calculations related to LOGFT values: 1974Bo41 and 1979Mi17.    
+#B IB        From G-intensity balance, except where noted otherwise.      
+#G           Decay scheme is that of 1984Vy01, which is the same as that  
+#G proposed by 1966Fu07 and each succeeding investigator.                 
+#G           Studies of this decay not otherwise referenced here include  
+#G 1956Co58, 1956Sm10, 1958Be01, 1958Mc11, 1962Su03, 1963Ho15,            
+#G 1963Ko08, 1964Fu11, 1968Mu11, 1971Ba28, 1972De67, 1972WyZZ, and        
+#G 1984De49.                                                              
+#G E         Values are averages of the best available data from 1984Vy01,
+#G 1985Je05, 1969Be49, 1983Hn01, and 1965Br16.                            
+#G E(Y)      Value from the evaluation by 2000He14 (see also 1999He10).   
+#G RI        Weighted average of values from 1984Vy01, 1983Hn01, 1974Pr06,
+#G 1969Be49, and 1965Br16.                                                
+#G RI        I(K x rays)=221 12 (1983Hn01).                               
+#G M,MR      From the Adopted Gammas data set. These are based on         
+#G studies of the 161HO and 161TB decays and the (N,G) reaction. The      
+#G results are from ICC, L (and M) subshell ratios, G(THETA), and         
+#G GG(THETA) measurements. For a discussion of the bases for the MR       
+#G choices in specific cases, see the Adopted Gammas data set.            
+#G E(X)      Existence of G known from 161HO EC decay.                    
+#L $Decay scheme is that of 1984Vy01, which is the same as that proposed  
+#L by 1966Fu07 and each succeeding investigator.                          
+#L           Studies of this decay not otherwise referenced here include  
+#L 1956Co58, 1956Sm10, 1958Be01, 1958Mc11, 1962Su03, 1963Ho15,            
+#L 1963Ko08, 1964Fu11, 1968Mu11, 1971Ba28, 1972De67, 1972WyZZ, and        
+#L 1984De49.                                                              
+#L E         From a least-squares fit to the G energies.                  
+#L J         From the adopted values. See the '^Adopted ^Levels' data set 
+#L for further discussion.                                                
+#L T         Level half-lives include data from 161TB B- decay only. See  
+#L the Adopted Levels for additional data on these and other levels.      
+#L           Levels are 5/2(0), 7/2(43), 9/2(100), and 11/2(184).         
+#L           Levels are 5/2(25), 7/2(103), 9/2(200), and 11/2(320).       
+#L           Levels are 3/2(74), 5/2(131), 7/2(212), and (9/2)(314).      
+#L           Levels are 1/2(366), 3/2(418), and 5/2(451).                 
+#L           Level is 3/2(550).                                           
+#L BAND(A)   GS BAND. CONF=5/2[642].                                      
+#L BAND(B)   5/2[523] band                                                
+#L BAND(C)   3/2[521] band                                                
+#L BAND(D)   1/2[521] band                                                
+#L BAND(F)   |DN=2-MIXED 3/2[402]+3/2[651] BAND.                          
+#L In these studies, this band has often been assigned simply as          
+#L 3/2[651], but the evaluator believes that the |DN=2-mixed              
+#L configuration assignment is more appropriate here.                     
+#P   0         3/2+                 6.89 D 2              593.0     13    
+TB161 DY161 beta- 0.593 0.0 1.0
++G gamma 0.21280000000000002 3.8E-6
+

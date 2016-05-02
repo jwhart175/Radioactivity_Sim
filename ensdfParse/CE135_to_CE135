@@ -1,0 +1,16 @@
+#135CE    135CE IT DECAY (20 S)         1970DR04,1971VA22         08NDS    200803
+#  135CE IT DECAY (20 S)         1970DR04,1971VA22         08NDS    200803
+#H TYP=FUL$AUT=BALRAJ SINGH, ALEXANDER A. RODIONOV and YURI L. KHAZOV$    
+#H CIT=NDS 109, 517 (2008)$CUT=22-Jan-2008$                               
+#  Other: 1963BR30                                                        
+#  Total decay energy calculated (by ^RADLIST code)                       
+#  from level scheme agrees with the expected value of 446 KEV            
+#G E$Weighted average of 1970DR04 and 1971VA22                            
+#G RI$Unweighted average of 1970DR04 and 1971VA22                         
+#L J$From adopted levels                                                  
+#P 445.8     3  (11/2-)          20 S      1                              
++G gamma 0.0824 0.21266
++G gamma 0.2129 0.7529899999999999
++G gamma 0.2958 0.18445
++G gamma 0.15030000000000002 0.217
+

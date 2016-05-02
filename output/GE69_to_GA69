@@ -1,0 +1,84 @@
+# 69GA    69GE EC DECAY                 1969ZO01,1976HO09         14NDS    201401
+#  69GE EC DECAY                 1969ZO01,1976HO09         14NDS    201401
+#H TYP=FUL$AUT=C.D. NESARAJA$CIT=NDS 115, 1 (2014)$CUT=31-Jul-2013$       
+#G CC$ FROM BrIcc v2.2b (20-Jan-2009) 2008Ki07, "Frozen Orbitals" appr.   
+#  1969ZO01: measured EG, IG, GG coincidences, and 69GE T1/2, GELI and NAI
+#  detectors                                                              
+#  1976HO09: EG, IG and GG(THETA) for THETA(G)=90 DEG-180 DEG, GELI and   
+#  NAI detectors                                                          
+#  1951HU38: EG, IG, EB+, IB+, B+G coincidences and 69GE T1/2, G-ray      
+#  measurements from photoelectrons of PB and U radiators,                
+#  magnetic spectrograph                                                  
+#  1963SC27: EG, IG, EB+, IB+ and GG and B+G coincidences, scintillation  
+#  detectors                                                              
+#  1969KH10: level lifetimes by B+G and GG delayed coincidences, GG(THETA)
+#  for THETA(G)=90 DEG-270 DEG, scintillators                             
+#  1970DZ05: internal conversion spectra, ECC measured from ICE and       
+#  ICE/IG(872), B spectrometer                                            
+#  1975PA22: GG(THETA) for THETA(G)=92 DEG-246 DEG, GELI and NAI detectors
+#  Data are mainly taken from 1969ZO01 and 1976HO09, also from 1951HU38,  
+#  1963SC27, 1969KH10, 1970DZ05 and 1975PA22.                             
+#  1992BE57: measured K-capture probabilities for B transitions to 574,   
+#  872, and 1106-KEV levels                                               
+#E E         From B+ end point energies (1951HU38,1963SC27). EC decay     
+#E placement by 1963SC27.                                                 
+#E IE        From TI and theoretical B+/EC ratios.                        
+#E TI        From intensity balance at each level.                        
+#E EC+B+ feeding to the GS calculated using the                           
+#E ratio IB+(g.s.)/IB+(574 level) of 1951HU38 and theoretical             
+#E EC/B+ ratios. Uncertainty on IB+(g.s.)/IB+(574) ratio not given by     
+#E 1951HU38 and estimated as AP 10% by the evaluator                      
+#G E,RI$Energies quoted to two decimal digits, and the corresponding I|g  
+#G values are from 1976Ho09. Other E|g and I|g are from 1969Zo01.         
+#G M$From adopted gammas                                                  
+#G MR$From adopted gammas, unless stated otherwise                        
+#G RI(D)$On the basis of |g|g, 1969Zo01 suggest placing part of I|g       
+#G (1723|g) with the 2044 level; however, a comparison  with I|g          
+#G (1723|g)/ I|g(1404|g) from (p,|g) and (n,n'|g) suggests that all       
+#G the intensity belongs to the 1723 level                                
+#G           GG coincidences are taken from 1969ZO01.                     
+#G ECC$: |a(exp) are calculated by the evaluator using I(ce) data of      
+#G 1970Dz05 and the adopted I(|g) in this dataset. I(ce) and I(|g) scales 
+#G are normalized to |a(exp)(662|g in {+137}Cs decay)= 0.0915 {I13}       
+#L E         From least squares fit to EG data.                           
+#L J         From adopted levels.                                         
+#L T         By B+G and GG delayed coincidences (1969KH10)                
+#P 0           5/2-              39.05 H   10             2227.1    5     
+GE69 GA69 beta+ 2.2271 140580.0 0.36
++G gamma 0.2 7.000000000000001E-4
++G gamma 1.6151 3.0E-4
++G gamma 0.31862999999999997 0.043
++G gamma 0.2554 7.000000000000001E-4
++G gamma 0.57411 0.37
++G gamma 0.2983 7.000000000000001E-4
++G gamma 0.55335 0.0191
++G gamma 0.87198 0.33
++G gamma 0.23479 0.0102
++G gamma 0.53266 0.0075
++G gamma 0.78814 0.0095
++G gamma 1.10677 1.0
++G gamma 0.76249 0.0064
++G gamma 1.3366 0.125
++G gamma 0.38089999999999996 7.000000000000001E-4
++G gamma 0.9127000000000001 0.0017000000000000001
++G gamma 1.48796 0.0027
++G gamma 0.41907 0.002
++G gamma 0.95173 0.0011
++G gamma 1.2072100000000001 0.0109
++G gamma 1.5258399999999999 0.0074
++G gamma 1.4047 5.0E-4
++G gamma 1.72333 0.0017000000000000001
++G gamma 1.3171 8.0E-5
++G gamma 1.5728499999999999 0.0064
++G gamma 1.89148 0.013300000000000001
++G gamma 0.5873999999999999 0.009000000000000001
++G gamma 0.8169 0.001
++G gamma 1.05202 0.011899999999999999
++G gamma 1.34989 0.009000000000000001
++G gamma 1.924 0.0042
++G gamma 1.15167 0.0012
++G gamma 1.44954 0.0013
++G gamma 2.02365 0.015
++G gamma 1.4703 3.0E-4
++G gamma 2.0449 0.001
+

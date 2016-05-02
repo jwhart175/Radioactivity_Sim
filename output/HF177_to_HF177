@@ -1,0 +1,30 @@
+#177HF2CG Intensities are in equilibrium with 177HF IT DECAY (1.09 S).           
+#G Intensities are in equilibrium with 177HF IT DECAY (1.09 S).           
+#G RI(D)$Intensity has been reduced by 5% in order to account for a       
+#G feeding from 177LU B- decay (6.647 D). This has been determined from   
+#G intensity balance considerations.                                      
+#G M,MR$From 1974Kr12, unless otherwise specified.                        
+#P  1315.4504 823/2+             1.09 S    5                              
+HF177 HF177 IT 0.0 1.09 1.0
++G gamma 0.0884 0.0060999999999999995
++G gamma 0.0692 0.0017000000000000001
+
+#177HF    177HF IT DECAY (51.4 M)       1972CH48,1971WA16         03NDS    200305
+#  177HF IT DECAY (51.4 M)       1972CH48,1971WA16         03NDS    200305
+#H TYP=FUL$AUT=F.G. KONDEV$CIT=NDS 98, 801 (2003)$CUT=1-Aug-2002$         
+#  1971Wa16, 1972Ch48: Activity produced using the 176YB(A,3N) reaction at
+#  E=46 MEV. Target: 176YB, enriched up to 96%. Detectors: GE(LI).        
+#  Measured: EG, RI, GG coin, CE.                                         
+#  Others: 1976ReZH, 2002AlZY, 2002AlZX                                   
+#L E$From a least-squares fit to the G ray energies                       
+#L J$From 1972Ch48.                                                       
+#L BAND(I)$KPI=23/2+: CONF=NU 7/2[514] + PI 7/2[404] + PI 9/2[514].       
+#L BAND(M)$KPI=37/2-: CONF=NU 5/2[512] + NU 7/2[514] + NU 9/2[624] +      
+#L PI 7/2[404] + PI 9/2[514].                                             
+#G E,RI,M$From 1972Ch48.                                                  
+#G $Mixing ratios values are deduced from the branching ratios (1972Ch48) 
+#G and rotational model, and by assuming K=23/2, unless otherwise         
+#G specified.                                                             
+#P  2740.02  15 37/2-            51.4 M     5                             
+HF177 HF177 IT 0.0 3084.0 1.0
+

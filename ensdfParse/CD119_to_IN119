@@ -1,0 +1,264 @@
+#119IN    119CD B- DECAY (2.69 M)       1974MC09,1976SC30         09NDS    200910
+#  119CD B- DECAY (2.69 M)       1974MC09,1976SC30         09NDS    200910
+#H TYP=ERR$AUT=J. K. Tuli$DAT=8-May-2013$COM=changed 119Cd JPI$           
+#H TYP=FUL$AUT=D. M. SYMOCHKO, E. BROWNE, J. K. TULI$                     
+#H CIT=NDS 110,2945 (2009)$CUT=1-Dec-2008$                                
+#  Modified by E. Browne. New BRICC conversion coefficients (January 8, 20
+#  1974MC09: 235U(N,F) E=TH, on-line mass separation; measured semi, scin 
+#  G, CE, semi-semi GG; scin-scin BG(T), GG(T)                            
+#  1976SC30: ^Sn(p,spallation), on-line mass separation, chem; measured   
+#  semi G, CE, G(T); semi-semi GG                                         
+#  Others: 1982AL29 (semi-semi BG, deduced Q-), 1968SC24, 1961GL06        
+#  The decay scheme is that proposed by 1974MC09, unless otherwise        
+#  noted                                                                  
+#B IB$Evaluators estimated IB(to 311 level) AP 10% from a systematic      
+#B trend of B-feedings to the first 1/2- state of indium from other       
+#B (1/2+ or 3/2+) cadmium isotopes. 1974MC09 estimated this feeding       
+#B at AP 40%.                                                             
+#G CC$ FROM BrIcc v2.2 (31-Mar-2008) 2008KiAA, "Frozen Orbitals" appr.    
+#G E,RI      EG and IG values are weighted averages of values of          
+#G 1974MC09 and 1976SC30, unless otherwise noted                          
+#G M$From EKC. Values are from ICE(K)/IG, normalized to KC for            
+#G transitions with known multipolarities in 85KR and 135XE (1974MC09)    
+#G E(A,F)    From 1974MC09 only                                           
+#G E(B,D)    From 1976SC30 only                                           
+#G E(C)      Assigned in 1976SC30 to 119CD(2.20-min) decay, but observed  
+#G in coincidence with a G ray that belongs to  119CD(2.69-min) decay     
+#G (1974Mc09,1976SC30).                                                   
+#G E(E)      Assigned in 1976SC30 to 119CD(2.20-min) decay based on G(T)  
+#G for 1950G+1960G                                                        
+#G E(D,F,H)  Assignment to 119Cd(2.69-min) or 119CD(2.20-min) is uncertain
+#L E         E(levels) are based on a least-squares fit                   
+#L by the evaluators to E(G's)                                            
+#L J,T       From adopted levels                                          
+#L E(K)      From 1976SC30                                                
+#P 0.0         1/2+              2.69 M    2              3.73E+3   4     
+CD119 IN119 beta- 3.73 161.4 1.0
++G gamma 0.2459 0.001845
++G gamma 0.3317 0.001845
++G gamma 0.3483 0.002583
++G gamma 0.3551 0.00369
++G gamma 0.4737 0.004059
++G gamma 0.4943 0.001845
++G gamma 0.709 0.006642
++G gamma 0.7847000000000001 0.010332
++G gamma 0.9027000000000001 0.009225
++G gamma 0.9288 0.007749000000000001
++G gamma 0.9339 7.38E-4
++G gamma 0.9816 0.005904
++G gamma 1.2229 0.003321
++G gamma 1.3322 0.010701
++G gamma 1.7732 0.006642
++G gamma 1.92 0.002583
++G gamma 1.9566 0.006642
++G gamma 2.3941999999999997 0.006273
++G gamma 2.4667 0.005166
++G gamma 2.5256 0.00369
++G gamma 2.594 0.004428
++G gamma 2.6883000000000004 0.0010332000000000002
++G gamma 2.7016 0.002583
++G gamma 2.7481 0.001476
++G gamma 2.7811 7.38E-4
++B beta- 1.477 0.1
++B beta- 1.339 0.05
++G gamma 0.2929 0.369
++B beta- 1.316 0.03
++G gamma 0.0502 0.0036162
++G gamma 0.343 0.16974
++B beta- 1.253 0.064
++G gamma 0.134 0.06641999999999999
++G gamma 0.18409999999999999 0.0021033
++G gamma 0.4767 0.008487
++B beta- 1.181 0.021
++G gamma 0.1535 7.38E-4
++G gamma 0.2876 0.004428
++G gamma 0.3376 0.005535
++G gamma 0.9412 0.031734
++B beta- 1.133 0.02
++G gamma 0.44110000000000005 0.004059
++G gamma 0.733 0.015867
++B beta- 1.131 0.021
++G gamma 0.4462 0.01845
++G gamma 1.0502 0.065682
++B beta- 0.865 0.017
++G gamma 0.8366 0.013284
++G gamma 0.9706 0.008118
++B beta- 0.799 0.0151
++G gamma 0.8285 0.007749000000000001
++G gamma 1.1157000000000001 0.012546
++B beta- 0.782 0.025
++G gamma 0.8647999999999999 0.004797
++G gamma 1.0184 0.012177
++G gamma 1.1524 0.008487
++B beta- 0.731 0.205
++G gamma 0.8706 0.005166
++G gamma 1.1325999999999998 0.009225
++G gamma 1.2672999999999999 0.0010332000000000002
++G gamma 1.3169000000000002 0.08856
++G gamma 1.6097000000000001 0.109593
++B beta- 0.666 0.021
++G gamma 0.1432 0.0011808
++G gamma 1.014 0.006642
++G gamma 1.1225 0.0033948
++G gamma 1.4097 0.004059
++G gamma 1.7532999999999999 0.006199199999999999
++B beta- 0.545 0.14400000000000002
++G gamma 0.4171 0.005166
++G gamma 1.2878 0.026937
++G gamma 1.5494 0.009225
++G gamma 1.6839000000000002 0.00738
++G gamma 1.7338 0.08118
++G gamma 2.0265999999999997 0.014022
++B beta- 0.532 0.16399999999999998
++G gamma 0.44730000000000003 0.002214
++G gamma 0.5979 0.005166
++G gamma 0.7427999999999999 0.004428
++G gamma 1.3177999999999999 0.01107
++G gamma 1.4263 0.0033948
++G gamma 1.714 0.022878
++G gamma 1.7637 0.09225
++G gamma 2.0565 0.02214
++B beta- 0.464 0.02
++G gamma 1.4744000000000002 0.013284
++G gamma 1.8694000000000002 0.004059
++G gamma 1.92 0.002952
++B beta- 0.451 0.016200000000000003
++G gamma 1.9502000000000002 0.016236
++B beta- 0.447 0.0095
++G gamma 1.623 0.0017712
++G gamma 1.911 0.001845
++G gamma 1.9607 0.005904
++B beta- 0.403 0.05
++G gamma 2.0641 0.004059
++G gamma 2.3564000000000003 0.05904
++B beta- 0.349 0.011000000000000001
++G gamma 0.1308 0.007749000000000001
++B beta- 0.324 0.017
++G gamma 2.5482 0.017343
+
+#119IN    119CD B- DECAY (2.20 M)       1974MC09,1976SC30         09NDS    200910
+#  119CD B- DECAY (2.20 M)       1974MC09,1976SC30         09NDS    200910
+#H TYP=FUL$AUT=D. M. SYMOCHKO, E. BROWNE, J. K. TULI$                     
+#H CIT=NDS 110,2945 (2009)$CUT=1-Dec-2008$                                
+#  Modified by E. Browne.  BRICC. (January 12, 2009).                     
+#  1974MC09: 235U(N,F) E=TH, on-line mass separation; measured semi, scin 
+#  G, CE, semi-semi GG; scin-scin BG(T), GG(T)                            
+#  1976SC30: ^Sn(p,spallation), on-line mass separation, chem; measured   
+#  semi G, CE, G(T); semi-semi GG                                         
+#  Others: 1982AL29 (semi-semi BG, deduced Q-), 1968SC24, 1961GL06        
+#  The decay scheme is that proposed by 1974MC09, unless otherwise        
+#  noted                                                                  
+#G CC$ FROM BrIcc v2.2 (31-Mar-2008) 2008KiAA, "Frozen Orbitals" appr.    
+#G           See 119CD(2.69-min) decay for transitions tentatively        
+#G assigned to that decay but which might belong to 119CD(2.20-min)       
+#G decay. Evaluators reassigned the 130G in 1974MC09 to the decay         
+#G scheme from 119CD(2.69-min).                                           
+#G E,RI      EG and IG values are weighted averages of values given in    
+#G 1974MC09 and 1976SC30, unless otherwise noted. Intensities of          
+#G multiply-placed transitions are divided based on G-ray intensity       
+#G balance.                                                               
+#G M         From 119CD(2.69-min) B- decay                                
+#G E(A,P)    From 1974MC09                                                
+#G E(B)      From 1976SC30                                                
+#G E(P)      Isomeric assignment uncertain                                
+#G E(F),RI(G)$EG from 119CD(2.69-min) decay. IG from intensity balance    
+#G and branching ratios in 119CD(2.69-min) decay                          
+#L E$Level energies have been deduced by evaluators from                  
+#L least-squares fit to G-ray energies.                                   
+#L by the evaluators to E(G's)                                            
+#L J,T       From adopted levels                                          
+#L E(K)      From 1976SC30                                                
+#P 146.54    11(11/2-)           2.20 M    2              3.73E+3   4     
++G gamma 0.318 0.00357
++G gamma 0.3551 0.0027300000000000002
++G gamma 0.6882999999999999 0.0063
++G gamma 0.709 0.01029
++G gamma 0.9027000000000001 0.00945
++G gamma 0.9997 0.0063
++G gamma 1.2229 0.0042
++G gamma 1.6245 0.00336
++G gamma 1.6336 0.00294
++G gamma 1.7732 0.010920000000000001
++G gamma 1.8457000000000001 0.00462
++G gamma 2.3941999999999997 0.0105
++G gamma 2.5274 0.0084
++B beta- 1.693 0.3
++G gamma 0.2929 9.45E-4
++G gamma 0.0502 1.722E-5
++G gamma 0.343 8.4E-4
++B beta- 1.353 0.013999999999999999
++G gamma 0.7207 0.1512
++G gamma 0.134 8.19E-5
++G gamma 0.1535 1.05E-4
++G gamma 0.2876 6.509999999999999E-4
++G gamma 0.3376 8.19E-4
++G gamma 0.9412 0.004704000000000001
++B beta- 1.211 0.033
++G gamma 0.30460000000000004 0.00147
++G gamma 1.025 0.21
++B beta- 1.156 0.012
++G gamma 0.4224 0.08022
++G gamma 1.1427 0.00777
++B beta- 1.127 0.016
++G gamma 0.17859999999999998 0.00777
++G gamma 1.2037 0.1134
++B beta- 1.058 0.009000000000000001
++G gamma 0.4115 0.0063
++G gamma 0.633 0.00609
++G gamma 1.3529 0.0069299999999999995
++B beta- 1.042 0.009000000000000001
++G gamma 0.36360000000000003 0.0054600000000000004
++G gamma 0.6678999999999999 0.0021
++G gamma 1.3881 0.00735
++B beta- 1.019 0.009000000000000001
++G gamma 0.4115 0.009659999999999998
++G gamma 1.4365 0.04305
++B beta- 0.751 0.22
++G gamma 0.585 0.04137
++G gamma 0.633 0.00588
++G gamma 0.6678999999999999 0.00189
++G gamma 0.8176 0.011340000000000001
++G gamma 0.8783 0.00294
++G gamma 0.9963 0.013859999999999999
++G gamma 2.0213 0.1911
++B beta- 0.714 0.043
++G gamma 2.1043000000000003 0.04956000000000001
++B beta- 0.704 0.19
++G gamma 0.1056 0.027719999999999998
++G gamma 0.9232 0.05816999999999999
++G gamma 0.9839 0.00819
++G gamma 1.1019 0.0819
++B beta- 0.6 0.024
++G gamma 1.2170999999999998 0.00105
++G gamma 1.3342 0.017849999999999998
++G gamma 1.6392 0.00462
++B beta- 0.587 0.109
++G gamma 0.2849 0.00651
++G gamma 1.0351 0.00798
++G gamma 1.1855 0.024569999999999998
++G gamma 1.3640999999999999 0.0441
++G gamma 1.6685 0.025830000000000002
++G gamma 2.3893 0.00609
++B beta- 0.572 0.07400000000000001
++G gamma 1.2795 0.0021
++G gamma 1.3971 0.0105
++G gamma 1.7019000000000002 0.02373
++G gamma 2.4226 0.03801
++B beta- 0.544 0.07200000000000001
++G gamma 0.098 0.00651
++G gamma 0.3603 0.00861
++G gamma 1.3442 0.056909999999999995
++B beta- 0.529 0.0095
++G gamma 2.5203 0.00945
++B beta- 0.527 0.0076
++G gamma 1.806 0.00756
++B beta- 0.51 0.022000000000000002
++G gamma 0.4377 0.00252
++G gamma 1.3608 0.0126
++G gamma 1.5399 0.0069299999999999995
++B beta- 0.464 0.021
++G gamma 1.2362 0.0021
++G gamma 1.468 0.00882
++G gamma 1.5283 0.00441
++G gamma 2.6725 0.00588
+

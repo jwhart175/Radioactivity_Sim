@@ -1,0 +1,36 @@
+#164OS CL T$from A DECAY (1996PA01). Others: 27 MS 4 (1996BI07),                 
+#L T$from A DECAY (1996PA01). Others: 27 MS 4 (1996BI07),                 
+#L 41 MS 20 (1981HO10)                                                    
+#L   548.0    2(2+)                                                   A   
+#L XREF=C                                                                 
+#G     548.0  2    100                                                    
+#L   1206.3   3(4+)                                                   A   
+#L XREF=C                                                                 
+#G     658.3  2    100                                                    
+#L   1889.7   4(6+)                                                   A   
+#L XREF=C                                                                 
+#G     683.4  2    100                                                    
+#L   2281.9   4(8+)                                                   A   
+#L XREF=C                                                                 
+#G     392.2  2    100                                                    
+#L   2839.3   5(10+)                                                  A   
+#L XREF=C                                                                 
+#G     557.4  2    100                                                    
+#                                                                         
+#  165IR P DECAY (0.30 MS)       1997DA07                  01NDS    200107
+#H TYP=FMT$AUT=J. Tuli$DAT=19-Apr-2005$COM=fixed fmt/typo$                
+#H TYP=FUL$AUT=BALRAJ SINGH$CIT=NDS 93, 243 (2001)$CUT=15-May-2001$       
+#  165IR produced (1997DA07) by 92MO(78KR,P4N) reaction at E(78KR)=384    
+#  MeV. The recoil products were analyzed by Fragment Mass                
+#  Analyzer and prompt protons were identified by position, time and      
+#  energy correlations between the residual nucleus, observation of       
+#  decay proton and decay |a particle.                                    
+#P  2.3E2    11  (11/2-)          0.30 MS  6               1717     7     
+
+#164OS CA IA$ALPHA intensity per 100 A DECAYS.                                   
+#A IA$ALPHA intensity per 100 A DECAYS.                                   
+#A HF$R0(164OS)=1.554 17 is calculated from HF(6832A)=1.0.                
+#P 0.0         0+                2.0 MS    4              6999      10    
+PT168 OS164 alpha 6.999 0.002 0.993
++A alpha 6.832 1.0
+

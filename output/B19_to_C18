@@ -1,0 +1,43 @@
+# 18C     19B B-N DECAY                 1998Yo06,2003Yo02                  201310
+#  19B B-N DECAY                 1998Yo06,2003Yo02                  201310
+#H TYP=UPD$AUT=C.G. Sheu, J. Kelley$CUT=21-AUG-2013$                      
+#H COM=Updated data set since last full evaluation$                       
+#  1998Yo06: A beam of {+19}B was produced by fragmentation of a 95 MeV/A 
+#  {+40}Ar beam on a {+181}Ta target. {+19}B was selected using the RIKEN 
+#  Projectile-fragment Separator (RIPS) and was implanted into a 12 mm    
+#  thick plastic scintillator stopper. The |b-decays were observed during 
+#  the 100 ms beam-off period. The active stopper detected |b-rays and a  
+#  neutron detector array, consisting of 14 liquid scintillation counters 
+#  covering about 80% of 4|p detected delayed neutrons. The efficiency of 
+#  the neutron array was 30% by comparison of a measurement of |b-delayed 
+#  neutrons of {+15}B, which has a known delayed neutron emission         
+#  probability of 100%.                                                   
+#  A preliminary value of T{-1/2}=3.3 ms {I2} was dedcued from the        
+#  least-squares fits to the data, and P{-n}=125% {I32} was determined    
+#  from the ratio of the number of detected neutrons to that of |b-rays.  
+#  P{-n} is more than 100% which implies the existence of significant     
+#  multineutron emissions in the decay, reflecting its large Q{-|b} value 
+#  (26.5 MeV) compared with the multineutron separation energies of       
+#  daughter nucleus {+19}C (S{-1n}=160 keV, S{-2n}=4.4 MeV,.....).        
+#  2003Yo02: The authors reevaluated the preliminary values T{-1/2} and   
+#  P{-n} reported in 1998Yo06. The new experiment was performed using     
+#  RIPS at RIKEN Accelerator Research Facility as was in 1998Yo06. A beam 
+#  of {+19}B was produced by the projectile-fragmentation reaction of a   
+#  95 MeV/{Iu} {+40}Ar beam on a 670 mg/cm{+2} {+nat}Ta target. The values
+#  of T{-1/2} and P{-{Ii}n} were determined by fitting a set of decay     
+#  curves altogether to remove possible complication and inconsistency.   
+#  The method of maximum likelihood was applied for deducing T{-1/2} and  
+#  P{-{Ii}n}. The neutron detection efficiencies were treated carefully,  
+#  the total detection efficiencies of direct and scattered neutrons are  
+#  31.5 % {I3} and 4.7% {I+2}{I-6}, respectively. The new values of       
+#  T{-1/2}=2.92 ms {I13}, P{-1n}=71.8% {I+83}{I-91} and P{-2n}=16.0%      
+#  {I+56}{I-48} were determined with a better precision. P{-3n} was not   
+#  determined because of the limited statistics. In the text it is unclear
+#  if the 1998Yo06 "preliminary" data are included in the 2003Yo02        
+#  analysis; we assume that it is and use the 2003Yo02 result to avoid    
+#  possible data correlations.                                            
+#  1999Re16: A low statistics determination of T{-1/2}=4.5 ms {I15} was   
+#  given.                                                                 
+#P 0           (3/2-)            2.92 MS   13             2.579E4   43    
+B19 C18 neutron&beta- 25.79 0.00292 1.39276
+

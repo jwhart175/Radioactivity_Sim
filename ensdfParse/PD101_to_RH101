@@ -1,0 +1,40 @@
+#101RH    101PD EC DECAY (8.47 H)       1972NY01,1970PH04         ENSDF    200610
+#  101PD EC DECAY (8.47 H)       1972NY01,1970PH04         ENSDF    200610
+#H TYP=FUL$AUT=JEAN BLACHOT$CIT=ENSDF$CUT=1-Jul-2006$                     
+#  Others: 1965Ev04, 1965Dz05, 1974HeYW                                   
+#  Q(|e)=1982 {i4} (1971Ib01) from E(|b{++})=776 {i4} to E(level)=182, and
+#  E(|b{++})={ 488 {i12}} to E(level)=478 (weighted av)                   
+#G E,RI$Are from 1972Ny01, unless otherwise noted                         
+#G M$From ce                                                              
+#G           |g|g-coin: 1970Ph04, 1972Ny01; (ce)|g-coin: 1965Ev04         
+#G           |a(K)exp=ce(K)/I|g (1972Ny01) normalized to                  
+#G |a(K)(296|g)=0.0170 (M1+7.8% E2,theory). Other: ce(K)/I|g (1970Ph04)   
+#G simultaneous measurement                                               
+#L J,T$From adopted levels                                                
+#P 0.0         5/2+              8.47 H    6              1980      4     
+PD101 RH101 beta+ 1.98 30492.000000000004 1.0
++G gamma 0.171 1.728E-4
++G gamma 0.1731 2.304E-4
++B beta+ 8.349999999999999E-4 0.0013
++G gamma 0.024460000000000003 0.038976000000000004
++B beta+ 0.346 0.18
++G gamma 0.3053 3.84E-4
++B beta+ 0.271 0.18
++G gamma 0.29629 0.192
++G gamma 0.32074 0.0056448
++B beta+ 0.218 0.18
++G gamma 0.26967 0.06432
++G gamma 0.56598 0.034367999999999996
++G gamma 0.5904400000000001 0.12057599999999999
++B beta+ 0.101 0.18
++G gamma 0.158 2.304E-4
++G gamma 0.42765 9.792000000000002E-4
++G gamma 0.74837 0.0050112
++G gamma 0.4537 0.006048
++G gamma 0.1114 1.152E-4
++G gamma 0.43507999999999997 6.336E-4
++G gamma 0.492 9.6E-5
++G gamma 0.1328 2.112E-4
++G gamma 0.7904 2.304E-4
++G gamma 0.787 4.8E-5
+

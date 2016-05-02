@@ -1,0 +1,18 @@
+#192OS    192RE B- DECAY                1979KAYT                  12NDS    201209
+#  192RE B- DECAY                1979KAYT                  12NDS    201209
+#H TYP=FUL$AUT=Coral M. Baglin$CIT=NDS 113, 1871 (2012)$CUT=15-Jun-2012$  
+#  The partial decay scheme is from 1979KAYT.                             
+#  Sources from 192OS(N,P), EN=14 MEV, enriched                           
+#  192OS targets; measured EG, IG (GELI), GG coin; confirmed              
+#  that earlier work on 192RE decay was either incorrect or               
+#  totally superseded.                                                    
+#G CC$ FROM BrIcc v2.2b (20-Jan-2009) 2008Ki07, "Frozen Orbitals" appr.   
+#G E         From Adopted Gammas. All transitions were observed by        
+#G 1979KAYT.                                                              
+#G RI        Relative to RI(467.5)=100 (1979KAYT).                        
+#G M,MR      From Adopted Gammas.                                         
+#L E         FROM LEAST-SQUARES FIT TO EG.                                
+#L J         Adopted values.                                              
+#P 0.0                           16 S      1              4.11E3    SY    
+RE192 OS192 beta- 4.11 16.0 1.0
+

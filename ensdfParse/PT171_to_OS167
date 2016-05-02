@@ -1,0 +1,38 @@
+#167OS    171PT A DECAY                 1981DE22,1981HO10         00NDS    200909
+#  171PT A DECAY                 1981DE22,1981HO10         00NDS    200909
+#H TYP=FUL$AUT=BALRAJ SINGH$CIT=ENSDF$CUT=8-SEPT-2009$                    
+#H TYP=FUL$AUT=Coral M. Baglin$CIT=NDS 90, 431 (2000)$CUT=5-Jul-2000$     
+#  In the Sept 8, 2009 revision, 2002Ro17 and 2004GoZZ references were    
+#  added, revised {+171}Pt half-life was adopted from 2002 update of      
+#  A=171 nuclides in ENSDF, and revised value of hindrance factor was     
+#  deduced                                                                
+#  PARENT T: >20 MS (1981Ho10), 20 MS 6 (1982En03), 25 MS +11-6 (1997Uu01)
+#  43 MS 3 (1996Pa01), 40 MS 10 (1981De22). USE 34 MS 9 FROM ENSDF        
+#  (BASED ON ALL DATA, LIMITATION OF STATISTICAL WEIGHTS METHOD).         
+#  Others: 1982En03, 1997Uu01.                                            
+#  1981De22: sources from {+112}Sn({+63}Cu,p3n), E=240-300 MeV; measured  
+#  E|a (annular silicon detector), parent T{-1/2}.                        
+#  1981Ho10: sources from {+58}Ni bombardments of tin; measured E|a       
+#  (silicon detector system correlating time, energy, position), parent   
+#  and daughter T{-1/2}, %|a({+167}Os).                                   
+#  1982En03: sources from {+144}Sm({+32}S,5n), E|?186 MeV; recoil-mass    
+#  selection; measured E|a (thin gas |DE, surface-barrier E detectors),   
+#  parent and daughter T{-1/2}, %|a({+167}Os).                            
+#  1996Pa01: sources from heavy-ion fusion-evaporation reactions; recoil  
+#  mass separator, double-sided Si strip detector (FWHM|<20 keV);         
+#  measured E|a, parent and daughter T{-1/2}, %|a({+167}Os).              
+#  1997Uu01: observed (evaporation residue)-|a(mother)-|a(daughter)       
+#  correlated chains following the {+144}Sm({+36}Ar,5n) reaction at       
+#  E=180-230 MeV; gas-filled recoil separator with PIPS detector in focal 
+#  plane. Measured E|a (FWHM|?27 keV), parent T{-1/2}.                    
+#  2002Ro17: {+102}Pd({+78}Kr,X) E=340 MeV, Berkeley gas-filled separator,
+#  measured half-life of {+171}Pt |a decay                                
+#  Other: 2004GoZZ: source from {+84}Sr bombardment of Mo targets.        
+#  measured E|a, %|a                                                      
+#A HF        If r{-0}=1.560 {I5} (from r{-0}({+166}Os)=1.561 {I6} and     
+#A r{-0}({+168}Os)=1.558 {I8} in 1998Ak04), T{-1/2}({+171}Pt)=44 ms {I7}, 
+#A %|a({+171}Pt)=98 {I2}.                                                 
+#P 0.0                           44 MS     7              6610      50    
+PT171 OS167 alpha 6.61 0.044 0.98
++A alpha 6.453 1.0
+

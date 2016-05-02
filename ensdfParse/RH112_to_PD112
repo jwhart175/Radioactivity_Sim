@@ -1,0 +1,215 @@
+#112PD    112RH B- DECAY (3.6 S)        1999LH01                  15NDS    201412
+#  112RH B- DECAY (3.6 S)        1999LH01                  15NDS    201412
+#H TYP=FUL$AUT=S. LALKOVSKI, F.G. KONDEV$CIT=NDS 124, 157 (2015)$         
+#H CUT=1-Aug-2014$                                                        
+#  1999LH01: Facility: ^IGISOL at Jyvaskyla; Source: mass separated       
+#  fission products from 238U(P,F). E(P)=25 MeV. Detectors: four Ge       
+#  detectors from ^EUROGAM I, plastic scintillators;                      
+#  Measured: |b-ce and |g-|g coinc, |g(THETA), |b-|g(t), E|g, I|g;        
+#  Deduced: 112PD level scheme, IB(GS), LOGFT, upper limit of 0.5 ns for T
+#  for all states from centroid shift measurements;                       
+#  Others: 1998LH04, 1988AYZZ, 1988AY02, 1985Bu05, 1976MaYL, 1970WiZN     
+#L E$From a least squares fit to EG                                       
+#L J$From the adopted levels.                                             
+#G E,RI,MR$From 1999LH01                                                  
+#B $The level scheme is incomplete (pandemonium), and hence, IB- and LOGFT
+#B values should be considered as approximate                             
+#B IB$ From intensity imbalances                                          
+#G CC$FROM BrIcc v2.3a (30-Jun-2013) 2008Ki07, "Frozen Orbitals" appr.    
+#G MR$IF NO VALUE GIVEN IT WAS ASSUMED MR=0.00 FOR E2/M1,                 
+#G MR=1.00 FOR E3/M2 AND MR=0.10 FOR THE OTHER MULTIPOLARITIES            
+#P    0.0      (1+)              3.6 S     3              6589      44    
+RH112 PD112 beta- 6.589 3.6 1.0
++B beta- 2.961 0.65
++G gamma 0.3487 0.3
++B beta- 2.795 0.1
++G gamma 0.388 0.06899999999999999
++G gamma 0.7367 0.0219
++B beta- 2.609 0.05
++G gamma 0.5343 0.0039000000000000003
++G gamma 0.21330000000000002 6.599999999999999E-5
++G gamma 0.35960000000000003 0.0018
++G gamma 0.7476 0.0014099999999999998
++G gamma 0.7768999999999999 0.0297
++B beta- 2.424 0.027999999999999997
++G gamma 0.4028 0.0039000000000000003
++G gamma 0.7911 0.0126
++B beta- 2.417 0.0123
++G gamma 0.5197999999999999 0.0012
++G gamma 0.6658 0.0039000000000000003
++G gamma 1.054 0.012899999999999998
++G gamma 1.4025999999999998 0.0087
++B beta- 2.291 0.008
++G gamma 0.29710000000000003 0.0015
++G gamma 0.3266 0.003
++G gamma 0.5397000000000001 0.0027
++G gamma 0.686 0.0108
++G gamma 1.074 0.006
++G gamma 1.4225999999999999 0.0087
++B beta- 2.282 0.023
++G gamma 1.3988 0.0048
++G gamma 1.4257 0.005699999999999999
++G gamma 1.7587000000000002 0.0126
++G gamma 2.1066 0.0024
++B beta- 1.955 0.013000000000000001
++G gamma 2.0080999999999998 0.0021
++G gamma 2.0834 0.0027
++G gamma 2.4326999999999996 0.0027
++G gamma 2.1174 0.0021
++G gamma 1.0743 0.0039000000000000003
++G gamma 1.0942 0.0036
++G gamma 1.7601 0.0072
++G gamma 2.1477 0.0018
++B beta- 1.77 0.0165
++G gamma 2.1611 0.0036
++G gamma 2.5111999999999997 9.0E-4
++B beta- 1.764 0.0036
++G gamma 1.8037999999999998 0.0027
++B beta- 1.749 0.0027
++G gamma 1.8672 0.011699999999999999
++B beta- 1.719 0.011699999999999999
++G gamma 2.3168 0.0048
++G gamma 2.6647 0.0033
++B beta- 1.69 0.0048
++G gamma 1.2655 0.003
++G gamma 1.2852000000000001 0.0027
++G gamma 1.9513 0.0039000000000000003
++G gamma 2.3396999999999997 0.0096
++B beta- 1.679 0.0192
++B beta- 1.651 0.031
++G gamma 1.3448 0.0054
++G gamma 1.6073 0.0042
++G gamma 2.3987 0.0216
++G gamma 2.7466 0.0045
++G gamma 2.4213 0.0039000000000000003
++B beta- 1.64 0.0039000000000000003
++G gamma 2.4471 0.0027
++B beta- 1.609 0.0054
++G gamma 1.4135 0.0033
++G gamma 2.4882 0.0021
++G gamma 2.6286 0.0042
++G gamma 1.6112 0.0039000000000000003
++G gamma 2.665 0.008100000000000001
++B beta- 1.525 0.012
++G gamma 1.8231 0.0027
++G gamma 2.8766 0.0048
++B beta- 1.425 0.0075
++G gamma 2.9892 0.0015
+
+#112PD    112RH B- DECAY (6.76 S)       1999LH01                  15NDS    201412
+#  112RH B- DECAY (6.76 S)       1999LH01                  15NDS    201412
+#H TYP=FUL$AUT=S. LALKOVSKI, F.G. KONDEV$CIT=NDS 124, 157 (2015)$         
+#H CUT=1-Aug-2014$                                                        
+#  1999LH01: Facility: ^IGISOL at Jyvaskyla; Source: mass-separated       
+#  fission products from 238U(P,F); Beam: E(P)=25 MeV; Detectors: four Ge 
+#  from ^EUROGAM I, plastic scintillators; Measured: |g-|g and            
+#  |b-ce coinc., E|g, I|g, |b-|g(t); Deduced: 112PD level scheme, IB(GS), 
+#  LOGFT                                                                  
+#  Others: 1998LH04, 1988AY02, 1985Bu05, 1976MaYL, 1970WiZN               
+#L E$From a least squares fit to EG                                       
+#L J$From the adopted levels                                              
+#G E,RI,MR$From 1999LH01                                                  
+#B $The level scheme is incomplete (pandemonium), and hence, IB- and LOGFT
+#B values should be considered as approximate                             
+#B IB$ From intensity imbalances                                          
+#G CC$FROM BrIcc v2.3a (30-Jun-2013) 2008Ki07, "Frozen Orbitals" appr.    
+#G MR$IF NO VALUE GIVEN IT WAS ASSUMED MR=0.00 FOR E2/M1,                 
+#G MR=1.00 FOR E3/M2 AND MR=0.10 FOR THE OTHER MULTIPOLARITIES            
+#P     Y       (6+)              6.76 S    12             6589      44    
+RH112 PD112 beta- 6.589 6.76 1.0
++G gamma 0.3487 0.89
++G gamma 0.388 0.29993000000000003
++G gamma 0.7367 0.09434
++G gamma 0.5343 0.3293
++G gamma 0.21330000000000002 0.01157
++G gamma 0.35960000000000003 0.32484999999999997
++G gamma 0.4794 0.01246
++G gamma 0.6257 0.050730000000000004
++G gamma 1.0139 0.002403
++B beta- 2.221 0.037000000000000005
++G gamma 0.6675 0.08188
++G gamma 0.6186 0.033819999999999996
++G gamma 0.8319 0.0089
++G gamma 0.9782000000000001 0.0178
++G gamma 1.3662 0.0035600000000000002
++B beta- 2.121 0.028999999999999998
++G gamma 0.3966 0.00267
++G gamma 0.6627000000000001 0.05162
++G gamma 0.876 0.0017800000000000001
++G gamma 0.4647 0.00267
++G gamma 0.7911 0.00534
++G gamma 1.0047000000000001 0.0012460000000000001
++G gamma 0.8551 0.0035600000000000002
++G gamma 1.0692000000000002 0.0018689999999999998
++G gamma 1.2147999999999999 0.00445
++B beta- 2.005 0.010700000000000001
++G gamma 0.6404 0.01602
++G gamma 1.6878 0.00267
++G gamma 1.0617 0.0035600000000000002
++G gamma 0.1581 8.010000000000001E-4
++G gamma 0.43560000000000004 0.0035600000000000002
++G gamma 0.4797 0.01513
++G gamma 0.8322 0.0012460000000000001
++G gamma 1.0983 0.445
++G gamma 1.3115999999999999 0.07654
++G gamma 1.4579000000000002 0.0017800000000000001
++G gamma 1.8459 0.00445
++B beta- 1.911 0.011000000000000001
++G gamma 0.4413 0.0017800000000000001
++G gamma 0.48569999999999997 0.0071200000000000005
++G gamma 0.6501 0.0035600000000000002
++G gamma 0.8382000000000001 0.0071200000000000005
++G gamma 1.3175999999999999 0.00445
++B beta- 1.878 0.006999999999999999
++G gamma 1.3864 0.0178
++G gamma 1.4510999999999998 0.00445
++B beta- 1.838 0.012
++G gamma 0.15990000000000001 0.002225
++G gamma 0.9933 6.230000000000001E-4
++G gamma 1.2582 0.0089
++G gamma 1.4715 0.03026
++B beta- 1.818 0.0070999999999999995
++G gamma 1.2989000000000002 0.00534
++G gamma 1.5121 0.00445
++B beta- 1.801 0.0062
++G gamma 1.5478 0.00623
++B beta- 1.796 0.005600000000000001
++G gamma 0.7265 0.0035600000000000002
++G gamma 0.8909 0.002047
++B beta- 1.748 0.016
++G gamma 1.4469 0.01157
++G gamma 1.6602999999999999 0.00445
++B beta- 1.731 0.0011
++G gamma 1.0283 0.001068
++B beta- 1.707 0.0024
++G gamma 1.0792 0.002403
++B beta- 1.647 0.72
++G gamma 0.35960000000000003 0.00267
++G gamma 0.4003 0.036489999999999995
++G gamma 0.4854 0.01068
++G gamma 0.5542 0.0089
++G gamma 0.5602 0.5518
++G gamma 0.8029 0.0017800000000000001
++G gamma 0.9957999999999999 0.02047
++G gamma 1.0399 0.01068
++G gamma 1.2043 0.022250000000000002
++G gamma 1.3924 0.00445
++G gamma 1.6585 0.03026
++G gamma 1.8718 0.02047
++G gamma 0.9639 0.00534
++G gamma 1.4161 0.00623
++G gamma 1.6042 0.00267
++B beta- 1.547 0.014199999999999999
++B beta- 1.511 0.0053
++G gamma 0.8423999999999999 0.00267
++G gamma 1.4930999999999999 0.00267
++B beta- 1.173 0.008
++G gamma 2.2089000000000003 0.00534
++G gamma 2.3975999999999997 0.00267
++B beta- 1.167 0.0045000000000000005
++G gamma 2.4095999999999997 0.00445
++B beta- 1.157 0.0045000000000000005
++G gamma 2.9113 0.00445
++B beta- 1.089 0.0053
++G gamma 3.0573 0.00534
+

@@ -1,0 +1,87 @@
+# 95MO    95NB B- DECAY (34.991 D)      1999BEZS,1999BEZQ         10NDS    201010
+#  95NB B- DECAY (34.991 D)      1999BEZS,1999BEZQ         10NDS    201010
+#H TYP=FUL$AUT=S. K. Basu, G. Mukherjee, A. A. Sonzogni$                  
+#H CIT=NDS 111, 2555 (2010)$CUT=30-Jun-2009$                              
+#  Evaluation by ^ R.G. Helmer, July 1998 including some general          
+#  comments from previous evaluation (1993Bu08). This evaluation was      
+#  done as part of a collaboration of evaluators from Laboratoire         
+#  National Henri Becquerel (LNHB) in France; Physikalisch-Technische     
+#  Bundesanstalt (PTB) in Germany; HMS Sultan and AEA Technology in the   
+#  United Kingdom; Khlopin Radium Institute (KRI) in Russia; Centro de    
+#  Investigaciones Energeticas, Medioambientales, y Tecnologicas          
+#  (^CIEMAT) and Universidad Nacional a Distancia (^UNED) in Spain; and   
+#  Brookhaven National Laboratory (^BNL), Lawrence Berkeley National      
+#  Laboratory (^LBNL), and Idaho National Engineering and Environmental   
+#  Laboratory (^INEEL) in the United States.                              
+#  Measurements include: |b{+-}'s and ce's (mag spect, pc, Si)            
+#  (1963La06); see {+95}Zr |b{+-} decay for details (1974An22); |g's for  
+#  a mixed 35-day and 3.61-d {+95}Nb source and a mixed {+95}Zr and       
+#  {+95}Nb source, Compton-suppressed Ge(Li), lead attenuator to enhance  
+#  high-energy |g's (1976Ho04); |g's, Ge(Li), energy difference method    
+#  (1979Gr01).                                                            
+#  For previous evaluation, see 1991BaZS.                                 
+#B $The unobserved |b transitions to the 786- and 820-keV states are      
+#B 4{+th} forbidden and unique 2{+nd} forbidden, respectively.  From the  
+#B log| {Ift} systematics of 1998Si17, the feeding of these levels are    
+#B expected to be <1.0|*10{+-15}% and <1.0|*10{+-8}%, respectively, and,  
+#B therefore, are completely negligible.                                  
+#B $Probability of K-shell autoionization=3.4|*10{+-4} {I4} (1976Ju02.    
+#B X|g-coin; NaI,Ge(Li))                                                  
+#G E$From 2000He14 evaluation for the 204 and 765 |g's and from 1976Ho04  
+#G for 561 |g from {+95}Nb (3.61 h) |b- decay.                            
+#L J,T$From the {+95}Mo Adopted Levels                                    
+#  CC$ FROM BrIcc v2.2a (13-Jul-2008) 2008Ki07, "Frozen Orbitals" appr.   
+#P 0.0          9/2+              34.991 D  6              925.6    5     
++B beta- 0.32194 3.0E-4
++B beta- 0.28356 2.0E-5
++B beta- 0.043340000000000004 0.9997
+
+# 95MO    95NB B- DECAY (3.61 D)        1999BEZS,1999BEZQ,2000HE1410NDS    201010
+#  95NB B- DECAY (3.61 D)        1999BEZS,1999BEZQ,2000HE1410NDS    201010
+#H TYP=FUL$AUT=S. K. Basu, G. Mukherjee, A. A. Sonzogni$                  
+#H CIT=NDS 111, 2555 (2010)$CUT=30-Jun-2009$                              
+#  1999BEZS,1999BEZQ: Evaluation by M.-M. Be, ^R. Helmer, ^N. Coursol,    
+#  and            F. Lagoutine, January 1998 and including information    
+#  from a previous evaluation (1993Bu08). This evaluation was done as     
+#  part of a collaboration of evaluators from Laboratoire National Henri  
+#  Becquerel (LNHB) in France; Physikalisch-Technische Bundesanstalt      
+#  (^PTB) in Germany; ^HMS Sultan and ^AEA Technology in the United       
+#  Kingdom; Khlopin Radium Institute (KRI) in Russia; Centro de           
+#  Investigaciones Energeticas, Medioambientales, y Tecnologicas          
+#  (^CIEMAT) and Universidad Nacional a Distancia (^UNED) in Spain; and   
+#  Brookhaven National Laboratory (^BNL), Lawrence Berkeley National      
+#  Laboratory (^LBNL), and Idaho National Engineering and Environmental   
+#  Laboratory (^INEEL) in the United States.                              
+#  Measurements include: measured |g's, Ge(Li) and Compton-suppressed     
+#  Ge(Li), mixed and pure sources (1972Er08); see {+95}Zr |b{+-} decay    
+#  for details (1974An22); see {+95}Nb |b{+-} decay (34.975 d) for        
+#  details (1976Ho04).                                                    
+#B IB$The intensity of the |b- transition to the ground state has been    
+#B deduced by the evaluators from the |b spectrum analysis relative to    
+#B the intensity of the K electrons from the 235-keV isomeric decay |g    
+#B of 1974An22.  1974An22 report I|b- to ground state of 5.5% {I4} of     
+#B the IT decays and I|b- to 204-keV level of 0.5% {I1}.  Current         
+#B I|g(204)/I|g(234) data imply that I{-|b-}(204) is more nearly 2.4% of  
+#B all decays of the isomer. Therefore, this evaluator has taken the      
+#B total |b- intensity to these two levels to be 5.6% and divided it      
+#B 3.2% and 2.4%. Since Kurie-Fermi plot of 1974An22 does not show two    
+#B components, the uncertainty in the total intensity may be larger than  
+#B reported; the evaluator has assigned 5.6% {I10}.  The I|b(204) is      
+#B assigned as 2.4% {I3} from the |g data, leaving the I|b(ground state)  
+#B = 3.2% {I10}.                                                          
+#G E$From 2000He14 where they are associated with the {+95m}Tc |e decay   
+#G (61 d), except 218, 253, and 616 |g's which are from the level         
+#G energies.                                                              
+#G RI$From 1976Ho04 with the addition of the data for the 218, 253, 616,  
+#G 1039 |g's from the {+95m}Tc |e decay (61 d).                           
+#G M,MR,CC$From the {+95}Mo Adopted Gammas                                
+#L J,T$From Adopted Levels                                                
+#  CC$ FROM BrIcc v2.2a (13-Jul-2008) 2008Ki07, "Frozen Orbitals" appr.   
+#P 234.70    14 1/2-              3.61 D    3              925.6    5     
++B beta- 0.43737 0.032
++B beta- 0.33455 0.024
++B beta- 0.11168 7.099999999999999E-4
++B beta- 0.10006 3.7E-6
++G gamma 0.21863999999999997 1.0E-8
++B beta- 0.0322 2.7E-7
+

@@ -1,0 +1,20 @@
+#152ER    156YB A DECAY                                           13NDS    201311
+#  156YB A DECAY                                           13NDS    201311
+#H TYP=FUL$AUT=M. J. MARTIN$CIT=NDS 114, 1497 (2013)$CUT=31-Aug-2013$     
+#  T{-1/2}=26.1 s {I7} as adopted in 1992He01 from the weighted average of
+#  the measured half-lives: 23.6 s {I13} (1983Ml01), 26.7 s {I6}          
+#  (1980AfZZ) and 25.8 s {I10} (1977Ha48).                                
+#  T{-1/2}({+156}Yb)=26 s {I2} is used in calculations here; the          
+#  uncertainty is increased to cover all measurements.                    
+#                                                                         
+#  %|a=10 {I2}, adopted in 1992He01 and used here, is the weighted        
+#  average of the |a branchings determined as 10% {I+5-2} (1984GaZY), 9%  
+#  {I2} (1983Ml01) and 21% {I6} (1979Ho10).                               
+#                                                                         
+#A IA        |a intensity per 100 |a decays.                              
+#A HF        r{-0}({+152}Er)=1.595 {I12} is calculated by requiring       
+#A HF(4687|a)=1.0.                                                        
+#P 0.0         0+                26.1 S    7              4811      4     
+YB156 ER152 alpha 4.811 26.1 0.10
++A alpha 4.687 1.0
+

@@ -1,0 +1,47 @@
+#117AG  XB117AG IT DECAY                                                         
+#XB117AG IT DECAY                                                         
+#N                                                                     6  
+#L 0.0         (1/2-)            72.8 S    +20-7                          
+#L XREF=AB$FLAG=A$%B- AP 100                                              
+#L J$from shell-model systematics.                                        
+#L 28.6      2 (7/2+)            5.34 S    5                           M  
+#L XREF=AB$FLAG=A$%IT=6.0 15$%B-=94.0 15                                  
+#L J$E3 |g to (1/2-)                                                      
+#L %IT$from 1990Fo07                                                      
+#G 28.6      2 100       E3                      1.15E4 6                 
++G gamma 0.0286 1.0
+#G KC=61 4$LC=9.2E3 5$MC=1.96E3 9$NC=302 14$OC=0.0208 7$NC+=302 14        
+#G BE3W=0.093 25                                                          
+#G M$from 1990Fo07                                                        
+#L 247.5       (3/2-)                                                     
+#L XREF=A                                                                 
+#L J$M1 |g to (1/2-). Syst                                                
+#G 247.5     5 100       M1                      0.0357                   
++G gamma 0.2475 1.0
+#G KC=0.0311 5$LC=0.00377 6$MC=0.000716 11$NC=0.0001241 19$OC=5.81E-6 9$  
+#G NC+=0.0001299 20                                                       
+#G M$from 1990PeZU, 1991Pe04                                              
+#L 323.9       (5/2-)                                                     
+#L XREF=A                                                                 
+#L J$M1 |g to (3/2-). Syst                                                
+#G 76.6      3 11.9    16M1                      0.895  16                
++G gamma 0.07659999999999999 0.11900000000000001
+#G KC=0.776 14$LC=0.0969 18$MC=0.0184 4$NC=0.00319 6$OC=0.000146 3$       
+#G NC+=0.00333 6                                                          
+#G M$from 1990PeZU, 1991Pe04                                              
+#G 323.9     2 100     12                                                 
++G gamma 0.32389999999999997 1.0
+#                                                                         
+
+#117AG    117AG IT DECAY                1990FO07                  ENSDF    201101
+#  117AG IT DECAY                1990FO07                  ENSDF    201101
+#H TYP=FUL$AUT=JEAN BLACHOT$CIT=ENSDF$CUT=1-Mar-2009$                     
+#  On line mass separator OSIRIS. Measured: G, GX, CE                     
+#  Isomeric transition now observed by 1990Fo07. They have been able to   
+#  complete their previous work where they said: no electron energies     
+#  greater than { 15 keV} (1976Fo10), { 25 keV} (1982Al29).               
+#  CC$ FROM BrIcc v2.2b (20-Jan-2009) 2008Ki07, "Frozen Orbitals" appr.   
+#L J,T$From adopted levels.                                               
+#P 28.6      2 (7/2)+            5.34 S    5                              
+AG117 AG117 IT 0.0 5.34 0.060
+

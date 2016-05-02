@@ -1,0 +1,21 @@
+#159GD    159GD IT DECAY (26.2 NS)      1968BO10                  12NDS    201201
+#  159GD IT DECAY (26.2 NS)      1968BO10                  12NDS    201201
+#H TYP=FUL$AUT=C. W. Reich$CIT=NDS 113, 157 (2012)$CUT=31-Dec-2010$       
+#  DATA SET UPGRADED (APRIL, 2010) BY CW REICH TO INCLUDE NEW CC AND      
+#   RI VALUES, AND REWRITTEN COMMENTS.                                    
+#  Isomer was produced in the 158GD(d,p) reaction.                        
+#G RI        Computed from the IG(1+|a) and CC values.                    
+#G M         From 159GD Adopted G radiation                               
+#G TI        Calculated by evaluator and based on authors' ratio of       
+#G    the L-shell conversion-electron intensities, L(68)/L(51)=1.1        
+#G    {I2}; and photon intensity ratio, I(XK)/I(68)=1.4 {I2}; and the     
+#G    assumption that the 50.7 G is pure M1. The authors report           
+#G    IG(1+|a)(17) = IG(1+|a)(50) = 26% (4) and IG(1+|a)(67) = 74% (4).   
+#G    These values differ from those adopted here due to the              
+#G    differences in the conversion coefficients used. The  measured      
+#G    data cannot be fit if the 50 G is pure E2, but some E2 mixture      
+#G    is possible.                                                        
+#L J         From 159GD Adopted Levels.                                   
+#P 67.829    24 5/2+             26.2 NS   8                              
+GD159 GD159 IT 0.0 2.62E-8 1.0
+

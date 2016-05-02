@@ -1,0 +1,47 @@
+#129IN    129IN IT DECAY (8.7 US)       2004SC42,2003GE04,2012KA3614NDS    201408
+#  129IN IT DECAY (8.7 US)       2004SC42,2003GE04,2012KA3614NDS    201408
+#H TYP=FUL$AUT=JANOS TIMAR AND ZOLTAN ELEKES, BALRAJ SINGH$               
+#H CIT=NDS 121, 143 (2014)$CUT=31-May-2014$                               
+#  2004Sc42, 2003Ge04, 2002Ge07: E(n)=thermal. Measured E|g, I|g, |g|g,   
+#  |g(t) using two large-volume Ge detectors and two cooled Si(Li)        
+#  detectors after isotopic separation by the LOHENGRIN spectrometer.     
+#  2012Ka36: {+238}U beam at E=345 MeV/nucleon provided by the RIBF       
+#  accelerator complex at RIKEN facility. Fission fragments were separated
+#  and analyzed by BigRIPS separator, transported to focal plane of       
+#  ZeroDegree spectrometer and finally implanted in an aluminum stopper.  
+#  Particle identification was achieved by |DE-tof-B|r method.            
+#  Delayed gamma rays from microsecond isomers were detected by three     
+#  clover-type HPGe detectors. Measured E|g, I|g, |g|g-coin, isomer       
+#  half-life.                                                             
+#  All data taken from 2003Ge04, unless otherwise stated.                 
+#G E$|D(E|g) assigned as 0.2 keV based on a general statement by 2003Ge04 
+#L E$From least-squares fit to E|g data                                   
+#L J$From Adopted Levels                                                  
+#L E(A)$Member of |nh{-11/2}{+-2}~#|pg{-9/2}{+-1} multiplet               
+#L $Configurations from figure 5(a) of 2004Sc42.                          
+#P 1687.97   25(17/2-)           8.7 US    7                              
+IN129 IN129 IT 0.0 8.7E-6 0.92
++G gamma 0.9952000000000001 0.82
++G gamma 0.359 0.83
++G gamma 1.3540999999999999 0.28
++G gamma 0.3338 1.0
+
+#129IN    129IN IT DECAY (110 MS)       2004GA24,2004SC42         14NDS    201408
+#  129IN IT DECAY (110 MS)       2004GA24,2004SC42         14NDS    201408
+#H TYP=FUL$AUT=JANOS TIMAR AND ZOLTAN ELEKES, BALRAJ SINGH$               
+#H CIT=NDS 121, 143 (2014)$CUT=31-May-2014$                               
+#  2004Ga24: the {+129}In isotope was obtained by thermal-neutron         
+#  induced fission of a {+235}U carbide target inside the combined        
+#  target and ion source ANUBIS.  During the measurements of singles      
+#  data, surface ionization was used to select the element In and         
+#  thereby suppress the daughter activities. Measured E|b, E|g, I|g,      
+#  |g|g, |b|g(coin), |g|g(t), T (isotope) with 3 Ge detectors of          
+#  which one was a LEPS. Three Ge detectors were also                     
+#  used for the Q{-|b} measurement, where the LEPS detector was used as a 
+#  |b spectrometer.                                                       
+#  1998FoZY is superseded by 2004Ga24                                     
+#L J$From Adopted Levels                                                  
+#P 1911      56(29/2+)           110 MS    15                             
+IN129 IN129 IT 0.0 0.11 1.0
++G gamma 0.281 0.855
+

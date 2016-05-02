@@ -1,0 +1,18 @@
+#234NP    238AM A DECAY                                           07NDS    200704
+#  238AM A DECAY                                           07NDS    200704
+#H TYP=FUL$AUT=E. BROWNE, J. K. TULI$CIT=NDS 108, 681 (2007)$             
+#H CUT=1-Jun-2006$                                                        
+#  Slightly modified by E. Browne (August 2006).                          
+#A           %A=1.0E-4 4                                                  
+#L           If the 238AM GS configuration, in analogy to 241AM           
+#L proton and 235U neutron states, were:                                  
+#L JPI=1+: { |p 5/2[523],|n 7/2[743]}, and if the 234NP GS                
+#L configuration were: JPI=0+; p 5/2[642],n 5/2[633],                     
+#L ALPHA decay from 238AM to 234NP GS would involve                       
+#L spin flips for both proton and neutron states. A hindrance             
+#L factor of AP 60 (using IA=100%) for 5940A is not                       
+#L consistent with such a transition (see 1972El21). Therefore,           
+#L 5940A from 238AM GS should feed an excited state.                      
+#P 0.0          1+               98 M      2              6040      50    
++A alpha 5.94 1.0
+

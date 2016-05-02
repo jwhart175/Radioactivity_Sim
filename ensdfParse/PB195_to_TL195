@@ -1,0 +1,44 @@
+#195TL    195PB EC DECAY (AP 15 M)      1982HI04,1977COZM         14NDS    201408
+#  195PB EC DECAY (AP 15 M)      1982HI04,1977COZM         14NDS    201408
+#H TYP=FUL$AUT=Huang Xiaolong and Kang Mengxiao$CIT=NDS 121, 395 (2014)$  
+#H CUT=1-Mar-2014$                                                        
+#  Sources produced by {+197}Au({+6}Li,8n) (1982Hi04), {+203}Tl(p,9n)     
+#  (1957An53), and {+181}Ta({+19}F,5n) (1974Ne16).                        
+#  ms sources of {+195}Pb are mixed: isomer + g.s.                        
+#  1982Hi04: measured E|g, I|g, |g|g-coin, and T{-1/2} with Ge(Li).       
+#  Analyzed with Nilsson configurations.                                  
+#  1977CoZM: measured E|g, relative |g-ray intensities, and partial       
+#  decay scheme.                                                          
+#  Decay schemes of 1982Hi04 and 1977CoZM are different. One of 1982Hi04  
+#  adopted by evaluators.                                                 
+#L           All data are from |g's and scheme (1982Hi04), using          
+#L least-squares fit to data.                                             
+#L J         From adopted levels.                                         
+#E IB,IE,TI,LOGFT$Since the decay scheme cannot be normalized, these      
+#E feedings and log| {Ift}'s are not given. The |e+|b{++} feedings and    
+#E log| {Ift} values of author's are "EFFECTIVE" values, representing     
+#E feeding from higher levels.                                            
+#G           All data are from 1982Hi04, except as noted.                 
+#G RI        Relative photon intensities normalized to                    
+#G I|g(394.6|g in {+195}Pb |e decay (15 min))=100.                        
+#P 0.0         3/2-              15 M      AP             4442      26    
+PB195 TL195 beta+ 4.442 900.0 1
++G gamma 0.3937 0.045
++G gamma 0.7776000000000001 0.032
++B beta+ 7.3E-4 0.00201
++G gamma 0.4274 0.009000000000000001
++G gamma 0.696 0.033
++G gamma 0.8831 0.106
++G gamma 0.5078 0.006999999999999999
++G gamma 0.9943 0.011000000000000001
++G gamma 1.051 0.009000000000000001
++G gamma 0.346 0.003
++G gamma 0.8352 0.017
++G gamma 0.871 0.038
++G gamma 0.2532 0.005
++G gamma 1.3042 0.017
++G gamma 1.4601 0.013999999999999999
++G gamma 0.1961 0.008
++G gamma 0.578 0.004
++G gamma 1.067 0.011000000000000001
+

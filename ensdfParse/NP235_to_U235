@@ -1,0 +1,20 @@
+#235U     235NP EC DECAY                1958GI05                  14NDS    201411
+#  235NP EC DECAY                1958GI05                  14NDS    201411
+#H TYP=FUL$AUT=E. BROWNE, J. K. TULI$CIT=NDS 122, 205 (2014)$             
+#H CUT=1-Feb-2014$                                                        
+#  No |g rays were observed. Based on (L xray)(L xray) coincidences, an   
+#  upper limit of 2% was deduced for |e populations to levels above       
+#  13 keV, and from the 26-min activity in equilibrium with {+235}Np,     
+#  a total |e feeding of 0.1% to the 1/2[631] rotational band.            
+#  K| x ray, L| x ray studied by 1956Ho46, 1958Gi05, 1972Ha21, 1972Mc25,  
+#  1983Ah02. L| x ray/K| x ray={ 18.5 {I10}} measured by 1983Ah02.        
+#  L| x ray={ 34.0% {I4}}, K|a{-2}| x ray={ 0.59% {I14}}, K|a{-1}| x      
+#  ray={ 0.95% {I23}}, K|b| x ray={ 0.46% {I11}}, calculated by evaluator 
+#  using the computer program RADLST.                                     
+#E           |e(L1)/|e(K)={ 29 {I4}}, |e(L)/|e(K)={ 32 {I4}},             
+#E |e(M)/|e(L)={ 0.46 {I3}} (1972Mc25)                                    
+#L J,T$From Adopted Levels                                                
+#P 0            5/2+             396.2 D   12             124.0     9     
+NP235 U235 beta+ 0.124 3.423168E7 0.999974
++B beta+ 2.1000000000000002E-5 0.0067
+

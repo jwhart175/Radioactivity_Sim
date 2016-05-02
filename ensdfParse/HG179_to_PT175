@@ -1,0 +1,19 @@
+#175PT    179HG A DECAY                 1971HA03,1979HA10,2002KO0904NDS    200410
+#  179HG A DECAY                 1971HA03,1979HA10,2002KO0904NDS    200410
+#H TYP=UPD$AUT=M. S. Basunia$COM=UPDATED GS SPIN of 179HG and 175PT$      
+#H CUT=31-Jan-2005$                                                       
+#H TYP=FUL$AUT=M. SHAMSUZZOHA BASUNIA$CIT=NDS 102, 719 (2004)$            
+#H CUT=1-Jun-2004$                                                        
+#  1971HA03,1979HA10: Activity produced by protons on Pb. Measured E|a.   
+#  Detector: Surface Barrier Silicon Detector (1971Ha03,1979Ha10).        
+#  T{-1/2}=3.5 s {I4} |a-activity (E|a=6076 {I2}) produced by {+40}Ar on  
+#  {+147}Sm was probably {+180}Hg or {+181}Hg.                            
+#A HF(A)     r{-0}=1.539, (average value from r{-0}({+174}Pt)=1.545       
+#A {I10}, and r{-0}({+176}Pt)=1.533 {I8} (1998Ak04));                     
+#A T{-1/2}({+179}Hg)=1.05 s {I3} (weighted average of 1.00 s {I5}         
+#A (2002Ko09), 1.08 s {I9} (2002Ro17), 0.93 s {I11} (1996Pa01), and       
+#A 1.09 s {I4} (1971Ha03)).                                               
+#P 0.0          7/2-             1.05 S    3              6340      30    
+HG179 PT175 alpha 6.34 1.05 0.53
++A alpha 6.285 1.0
+

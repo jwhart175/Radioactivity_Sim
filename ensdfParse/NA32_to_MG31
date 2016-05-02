@@ -1,0 +1,27 @@
+# 31MG    32NA B-N DECAY (13.2 MS)      2007MA04,1993KL02,1984GU1913NDS    201303
+#  32NA B-N DECAY (13.2 MS)      2007MA04,1993KL02,1984GU1913NDS    201303
+#H TYP=ERR$AUT=Balraj Singh$DAT=8-Nov-2013$COM=Fixed NP on N record$      
+#H TYP=FUL$AUT=CHRISTIAN OUELLET AND BALRAJ SINGH$CIT=NDS 114, 209 (2013)$
+#H CUT=15-Feb-2013$                                                       
+#  2007Ma04: ^Ta target+protons at ^ISAC, ^TRIUMF, |b|g|g, |b|g, |g|g     
+#  coin measurements                                                      
+#  1993Kl02: ^Uranium ^Carbide target+protons at ^ISOLDE2, |b|g|g, |b|gn, 
+#  |b|g measurements                                                      
+#  1984Gu19: ^Ir target+protons, ^CERN, |b|g, |b|g|g coin measurements    
+#  2008Tr04: {+32}Na parent produced in reaction {9}Be({+48}Ca,X) with    
+#  E=140 MeV/nucleon beam provided by NSCL.                               
+#  A1900 spectrometer. Products implanted in double-sided silicon         
+#  strip detector as part of Beta counting system. Measured half-lives    
+#  using time-of-flight. Measured E|g, I|g using SeGa germanium           
+#  array of 16 detectors.                                                 
+#G E$ Weighted averages from 2008TR04, 2007MA04, 1993KL02, 1984GU19       
+#G RI$ Data are discrepant for 3 |g-rays 171, 221 and 240. The            
+#G evaluators have taken un-weighted averages of relative intensities     
+#G from all available data (reference I|g=100 for 885 |g in {+32}Mg). All 
+#G the intensity data from the four papers are given under document       
+#G records. The weighted averages do overlap the unweighted average       
+#G values but in 3 cases are unacceptably high.                           
+#L J$ From Adopted Levels                                                 
+#L E$ FROM E|g data.                                                      
+#P   0         (3-,4-)              13.2 MS 4              13.86E3  12    
+

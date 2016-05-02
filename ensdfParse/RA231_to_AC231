@@ -1,0 +1,46 @@
+#231AC    231RA B- DECAY                2008BO29                  13NDS    201306
+#  231RA B- DECAY                2008BO29                  13NDS    201306
+#H TYP=FUL$AUT=E. BROWNE, J. K. TULI$CIT=NDS 114, 751 (2013)$             
+#H CUT=24-May-2013$                                                       
+#  Modified by E. Browne (8/21/2012)                                      
+#  Compiled (unevaluated) dataset from 2008Bo29:                          
+#  Nucl Phys A 811, 244 (2008)                                            
+#  compiled by: K. Abusaleem (University of Jordan) and                   
+#  B. Singh (McMaster), September 10,2008                                 
+#  Edited by B. Singh in response to e-mail reply from M.J.G. Borge       
+#  on November 25, 2008.                                                  
+#  {+231}Ra has been produced via two methods. The first one utilized the 
+#  spallation reactions to produce the A=231 isobars following            
+#  a bombardment of a UC{-2}-C target with a 1 GeV proton beam from       
+#  CERN PS-Booster.                                                       
+#  In the second experiment, the Ta(Re) surface ionizer was employed      
+#  were the {+231}Ac was produced through the decay chain                 
+#  {+231}Fr --> {+231}Ra -->{+231}Ac. The ions were accelerated to        
+#  60 keV then recorded on a magnetic tape after mass separation.         
+#  Detection system: to measure the half-lives of the excited states, a   
+#  3 mm thick NE111A plastic scintillator was used in the                 
+#  Advanced Time Delayed (ATD) |b|g|g(t) technique.                       
+#  Conversion electrons were measured with a                              
+#  mini-orange spectrometer.                                              
+#  Others: 2007Bo48, 2006Bo33.                                            
+#  Measurements: E|g, I|g, |g|g, |b|g, ce, (ce)|g coin, lifetimes of      
+#  levels by |b|g|g(t) fast timing technique                              
+#G $Evaluators' calculated (using the RADLST code) x-ray intensities of   
+#G 626 {I94} for 87.66 {I5} (K{-|a2}) and 1018 {I152} for                 
+#G 90.86 {I6} (K{-|a1}) significantly disagree with experimental values   
+#G of 903 {I106} for 87.66 {I5} (K{-|a2})                                 
+#G and 1411 {I165} for 90.86 {I6} (K{-|a1}) given in 2008Bo29.            
+#G This discrepancy suggests incorrect G-ray multipolarities and therefore
+#G does not warrant neither deducing a decay-scheme normalization factor  
+#G nor B- intensities from G-ray transition intensity balances.           
+#G RI(D)$ Contribution from Th subtracted                                 
+#G M$ E1 or M1 assumed when not listed by 2008Bo29, according to          
+#G a general statement by the authors                                     
+#G MR$ Deduced by evaluators from experimental conversion data            
+#L E$ Deduced by evaluators from least-squares fit to G-ray energies.     
+#L J$ As assigned by 2008Bo29 based on multipolarity assignments          
+#L T$ From |b|g|g(t) fast timing technique (2008Bo29,2007Bo48)            
+#L BAND(A)$ 1/2[400]                                                      
+#P 0           (5/2+)            104 S     1              2454      17    
+RA231 AC231 beta- 2.454 104.0 1
+

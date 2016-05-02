@@ -1,0 +1,51 @@
+#192HG    192TL EC DECAY (9.6 M+10.8 M) 1981SO09                  12NDS    201209
+#  192TL EC DECAY (9.6 M+10.8 M) 1981SO09                  12NDS    201209
+#H TYP=FUL$AUT=Coral M. Baglin$CIT=NDS 113, 1871 (2012)$CUT=15-Jun-2012$  
+#G CC$ FROM BrIcc v2.2b (20-Jan-2009) 2008Ki07, "Frozen Orbitals" appr.   
+#  Others: 1961An03, 1963Di10, 1966Pe06, 1967Na14, 1968Pe13, 1975Va20.    
+#  The mixed-source decay scheme and data are from 1981So09, except       
+#  where noted. Sources (preferential population of (2-) 192TL):          
+#  daughter OF 192PB produced in 180W(16O,4n), E(16O)=100 MEV OR          
+#  182W(16O,6n), E(16O)=143 MEV OR {+nat}W(16O,xn), E=113 MEV. Sources    
+#  (preferred population of (7+) 192TL): 180W(16O,P3N), E(16O)=100 MEV;   
+#  182W(16O,P5N), E(16O)=143 MEV; 181TA(16O,5N), E(16O)=133               
+#  MeV. 1981So09 measured EG, IG (Ge(Li), FWHM=2.1 KEV at 1332 KEV),      
+#  E(ce), Ice (Si(Li), FWHM=2.3 KEV at { 973 KEV}), GG coin, GG(t).       
+#  No sources of either pure (2-) 192TL or pure (7+) 192TL could          
+#  be produced, and the similarity between the half-lives of the two      
+#  isomers makes it difficult to associate radiations with a specific     
+#  isomer. The combined decay scheme shows IG values for a                
+#  source enhanced in (7+) 192TL; individual |e feedings                  
+#  are not indicated. IG values for source enhanced in (2-) 192TL are     
+#  given in comments.                                                     
+#G RI        INTENSITY RELATIVE TO I(423G)=100. Values are from singles   
+#G run using source most enhanced in (7+) 192TL (from 180W(16O,4NG) at    
+#G 100 MEV). IG values from singles run using source most enhanced        
+#G in (2-) 192TL (from W(16O,XNG) at 113 MEV) are given in comments when  
+#G available, along with authors' calculated IG(LOW J):IG(HIGH J)         
+#G (estimates of IG for individual isomer decays) deduced using spectra   
+#G from sources containing several different proportions of the parent    
+#G isomers.                                                               
+#G M         From experimental conversion coefficients, determined by     
+#G simultaneous measurement of ce and photon spectra (equipment           
+#G calibrated assuming KC(E2 theory) for 422.8G and 634.8G)               
+#G (1981So09), except where noted. Data from 1975Va20 were normalized so  
+#G EKC(423)=KC(E2 theory); see 1975Va20 for some additional data.         
+#G MR        From EKC, except where noted.                                
+#G RI(A)     Combined value for 2053.0G and 2056.0G.                      
+#G M(B)      From Adopted Gammas.                                         
+#G M(E)      EKC=0.0077 13 (1981So09) for composite 1113.0 peak           
+#G corresponds to M1+E2, with MR=0.8 4; this EKC rules out E1 for         
+#G the (stronger) component placed from the 1535 level, and is consistent 
+#G with pure M1 for the latter if the component placed from the 2+ 1113   
+#G level is taken to be pure E2. From the level scheme, DPI=no for the    
+#G 1113G from 1113 level and, since it feeds the 0+ GS, its mult must     
+#G be pure. Other EKC: 0.0042 21 (1975Va20), possibly for                 
+#G different mixture of parent isomers.                                   
+#L E         FROM LEAST-SQUARES FIT TO EG, OMITTING DATA FOR TRANSITIONS  
+#L WHICH ARE TENTATIVELY- OR MULTIPLY-PLACED.                             
+#L J,T       Adopted values. See 1981So09 for authors' preferred JPI,     
+#L based on IG(high-J decay)/IG(low-J decay) for individual transitions.  
+#P1 0.0         (2-)             9.6 M     4              6140      35    
+TL192 HG192 beta+ 6.14 576.0 1.
+

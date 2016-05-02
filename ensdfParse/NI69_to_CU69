@@ -1,0 +1,103 @@
+# 69CU    69NI B- DECAY (11.4 S)        2001FR21,1988BO06         14NDS    201401
+#  69NI B- DECAY (11.4 S)        2001FR21,1988BO06         14NDS    201401
+#H TYP=FUL$AUT=C.D. NESARAJA$CIT=NDS 115, 1 (2014)$CUT=31-Jul-2013$       
+#G CC$ FROM BrIcc v2.2b (20-Jan-2009) 2008Ki07, "Frozen Orbitals" appr.   
+#  2001Fr21,1998Fr15: {+69}Ni produced from 30 MeV proton induced fission 
+#  reaction on {+238}U. Extracted selectively by resonant laser           
+#  ionization and mass separator (LIGIS-LISOL) facility at Leuven.        
+#  Measured |b|g and |g|g coincidence spectra with high purity Ge         
+#  detectors and plastic scintillators. Measured T{-1/2} from timing of   
+#  |b delayed |g intensity.                                               
+#  1999Pr10,1998PrZY: {+69}Ni produced by fragmentation of 70             
+#  MeV/nucleon {+76}Ge beam on Be target using the A1200  separator at    
+#  NSCL, MSU. |b delay |g measured with two thin plastic scintillators    
+#  and two large-volume Ge detectors.                                     
+#  1988Bo06,1987BoZW: {+69}Ni produced by irradiation of thick W target   
+#  with 11.5 MeV/u {+76}Ge beam followed by on-line mass separation;      
+#  measured E|g, I|g, |b|g, |g|g coincidences using 300|mm Si detector,   
+#  NE102A plastic scintillator, 33 % efficiency Ge and 4|p lucite         
+#  detectors.                                                             
+#  1985Bo49: {+69}Ni produced and identified in W({+76}Ge,X)              
+#  reaction at 11.4 MeV/nucleon followed by mass separation at GSI        
+#  facility. Measured |g, |b, |b|g coin on the decay of 205|g, 680|g and  
+#  1213|g, and isotopic half-life using Ge, Si detectors and plastic      
+#  scintillators.                                                         
+#  1985Bo49: {+69}Ni produced by irradiation of W target with 11.4 MeV/u  
+#  {+76}Ge beam. On-line mass separation; measured E|g, I|g, T{-1/2},     
+#  |b|g coincidences.                                                     
+#  1985Ru05: {+69}Ni produced by irradiation of W target with             
+#  11.5 MeV/nucleon {+76}Se beam followed by on-line mass separation.     
+#  Measured E|g, I|g, T{-1/2}, |b|g coincidences using 4|p plastic |b     
+#  and Ge detectors.                                                      
+#B LOGFT$Authors give lower limits to account for possible unobserved     
+#B feeding from higher levels                                             
+#G E,RI$From 2001Fr21, except as noted otherwise. Due to limited          
+#G statistics and decreasing detector efficiency for high energy          
+#G transitions, |g's to g.s. from levels above 2 MeV may have be missed   
+#G E(A)$From 1988Bo06                                                     
+#G M$From adopted levels                                                  
+#L J,M$From adopted levels                                                
+#L E$From least-square fit to |g's                                        
+#P 0.0         (9/2+)            11.4 S    3              5758      4     
+NI69 CU69 beta- 5.758 11.4 1
++G gamma 0.1832 0.042
++G gamma 0.2314 0.00378
++G gamma 0.5848 0.0042
++G gamma 0.7807999999999999 0.00504
++G gamma 2.285 0.00714
++B beta- 2.0287 0.079
++G gamma 1.2135 0.42
++B beta- 1.7875999999999999 0.017
++G gamma 1.7119000000000002 0.14238
++B beta- 1.7103 1.0E-4
++G gamma 1.8722999999999999 0.39732
++B beta- 1.5604 0.003
++G gamma 0.4707 0.1176
++B beta- 1.3828 0.10300000000000001
++G gamma 0.6805 0.39732
++G gamma 1.336 0.00462
++G gamma 2.55 0.02436
++B beta- 1.3584 1.0E-4
++G gamma 1.3895 0.013859999999999999
++B beta- 1.3134000000000001 0.332
++G gamma 1.4835999999999998 0.3318
++G gamma 2.695 0.01638
++B beta- 1.2846 0.406
++G gamma 0.1541 0.0189
++G gamma 0.2051 0.2583
++G gamma 0.5749 0.11424
++B beta- 1.2635999999999998 0.06
++G gamma 0.1041 0.01008
++G gamma 0.2491 0.0399
++G gamma 1.0893 0.0084
++B beta- 1.1385 0.001
++G gamma 0.26280000000000003 4.2E-4
+
+# 69CU    69NI B- DECAY (3.5 S)         2001FR21,1997MU17         14NDS    201401
+#  69NI B- DECAY (3.5 S)         2001FR21,1997MU17         14NDS    201401
+#H TYP=FUL$AUT=C.D. NESARAJA$CIT=NDS 115, 1 (2014)$CUT=31-Jul-2013$       
+#  2001Fr21: {+69}Ni produced from 30 MeV proton induced                  
+#  fission reaction on {+238}U. Extracted selectively by resonant laser   
+#  ionization and mass separator (LIGIS-LISOL) facility at Leuven.        
+#  Measured |b|g and |g|g coincidence spectra with high purity Ge         
+#  detectors and plastic scintillators.                                   
+#  1999Mu17: {+69}Ni produced from 30 MeV proton induced fission          
+#  reaction on {+238}U. Extracted selectively by resonant laser           
+#  ionization and mass separator (LIGIS-LISOL) facility at Leuven.        
+#  Measured |b|g  and |g|g coincidence spectra with high purity           
+#  Ge detectors and plastic scintillators.                                
+#  1999Pr10: {+69}Ni produced by fragmentation of 70                      
+#  MeV/nucleon {+76}Ge beam on Be target using the A1200  separator at    
+#  NSCL, MSU. |b delay |g measured with two thin plastic scintillators    
+#  and two large-volume Ge detectors.                                     
+#B IB(B)$From 1999Mu17                                                    
+#L E$From least square fit of the |g-ray                                  
+#L E(A)$From 1999Mu17                                                     
+#L J$From adopted levels                                                  
+#P 321       2 (1/2-)            3.5 S     4              5758      4     
+NI69 CU69 beta- 5.758 3.5 1.0
++B beta- 2.7748000000000004 0.26
++B beta- 2.2346999999999997 0.03
++B beta- 2.1435 0.74
++G gamma 1.2979 0.74
+

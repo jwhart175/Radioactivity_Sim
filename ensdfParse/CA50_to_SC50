@@ -1,0 +1,30 @@
+# 50SC    50CA B- DECAY (13.9 S)        1984AL18                  11NDS    201012
+#  50CA B- DECAY (13.9 S)        1984AL18                  11NDS    201012
+#H TYP=FUL$AUT=ZOLTAN ELEKES AND JANOS TIMAR, BALRAJ SINGH$               
+#H CIT=NDS 112, 1 (2011)$CUT=20-Oct-2010$                                 
+#  Measured |g's (pneumatic transfer system), |b|g(t). Others: 1968Ch11   
+#  and 1970Wa29                                                           
+#B $ B FEEDING TO 257 AND 328 LEVELS FROM HIGHER LEVELS (INCLUDING FROM   
+#B KNOWN (1+) STATES) IS ESTIMATED AS <0.75%                              
+#G TI$From the decay scheme (|DI(|g+ce) includes possible unobserved      
+#G feedings). 1984Al18 give I(|g+ce)(71.6|g)=54 {i5} assuming M1 and      
+#G I(|g+ce)(256.9|g)=102 {i3} assuming M3                                 
+#G RI(A)$1984Al18 suggest that there is an intensity imbalance of 15% 5   
+#G between the 1519 and 71.5 G rays, the latter assumed as pure M1.       
+#G But allowance of MR(E2/M1)=0.40 15 and CC=0.19 12 removes this problem 
+#G $ Precision Energy Measurements                       {U     Reference 
+#G E|g|:      }  {U#|;}  {U|\E|g-E{-ref}|\} {U    E|g     } 71.8042 {I8}  
+#G {+208}Pb x ray&  3    1.252 {I4}     71.552 {I5} 264.0755 {I8}         
+#G {+182}Ta 3    7.182 {I10}   256.894 {I10} 1562.302 {I5}  {+110m}Ag     
+#G 7 43.002 {I19}  1519.300 {I20} 7   28.548 {I30}  1590.850 {I30} |:     
+#G 1979He19,1978MeZK |;  Number of runs &  1967Be65                       
+#L T(A)$From the Adopted Levels.                                          
+#L T(D)$From |b|g(t). 1984Al18 obtained 5 ns {i2}, but, since there may   
+#L be possible systematic errors which were not properly monitored, they  
+#L cite an upper limit                                                    
+#L J$ From Adopted Levels                                                 
+#P 0.0         0+                13.9 S    6              4966      17    
++G gamma 0.071552 0.5147999999999999
++G gamma 0.32844999999999996 0.0069299999999999995
++B beta- 1.354 0.99
+

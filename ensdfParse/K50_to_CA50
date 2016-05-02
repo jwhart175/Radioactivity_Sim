@@ -1,0 +1,52 @@
+# 50CA    50K B- DECAY (472 MS)         1998BA80,1986MI08,1983RAZR11NDS    201012
+#  50K B- DECAY (472 MS)         1998BA80,1986MI08,1983RAZR11NDS    201012
+#H TYP=FUL$AUT=ZOLTAN ELEKES AND JANOS TIMAR, BALRAJ SINGH$               
+#H CIT=NDS 112, 1 (2011)$CUT=20-Oct-2010$                                 
+#  1978De17: measured |b|g coincidences.                                  
+#  1983RaZR, 1982Ca04: measured n's, |g's, and |g-n coincidences.         
+#  1986Mi08: measured |b{+-}'s (|DE/E telescope), n's (scin), and         
+#  |b{+-}n coincidences. Deduced Q(|b{+-})                                
+#  1998Ba80: measured |b{+-}|g and  |b{+-}n coincidences. Deduced         
+#  levels,  |b{+-} intensities, log| {Ift}, J, |p, first-forbidden        
+#  branch enhancement factor.                                             
+#  All information from 1998Ba80, except as noted. Other: 1981HuZT        
+#B IB$I|b to unbound states normalized to |b{+-}n=29% {i3}. I|b to bound  
+#B excited states deduced from |b|g coincidence measurements.  I|b to     
+#B the ground state is from the difference between the total |b           
+#B intensity and the measured |b intensity to the excited states.         
+#L E$ FROM LEAST-SQUARES FIT TO EG'S UP TO 4886 KEV. ABOVE THIS ENERGY    
+#L LEVEL ENERGIES ARE DEDUCED FROM MEASURED NEUTRON ENERGIES IN 1998BA80  
+#L (REFER TO TABLE ^IV IN 1998BA80) AND SN(50CA)=6353 8 (2009AUZZ)        
+#L J$ FROM ADOPTED LEVELS                                                 
+#P 0.0         (0-,1-,2-)        472 MS    4              14.22E+3  28    
+K50 CA50 beta- 14.22 0.472 1.0
++B beta- 6.79 0.61
++B beta- 6.29 0.037000000000000005
++G gamma 1.027 0.064
++B beta- 5.32 0.0083
++G gamma 1.9753 0.008256
++B beta- 5.06 0.0079
++G gamma 2.5049 0.004096
++G gamma 3.5318 0.0037760000000000003
++B beta- 4.81 0.035
++G gamma 3.0089 0.012928
++G gamma 4.0356 0.02144
++B beta- 4.6 0.0019
++G gamma 3.449 0.0018559999999999998
++B beta- 4.4 0.0106
++G gamma 4.886 0.010624
++B beta- 3.6 0.013000000000000001
++B beta- 3.34 0.0038
++B beta- 3.23 0.0029
++B beta- 3.21 0.0038
++B beta- 3.06 0.017
++B beta- 2.87 0.008
++B beta- 2.75 0.008
++B beta- 2.47 0.098
++B beta- 2.26 0.055999999999999994
++B beta- 2.0 0.025
++B beta- 1.68 0.009300000000000001
++B beta- 1.63 0.025
++B beta- 1.38 0.009000000000000001
++B beta- 1.18 0.0105
+

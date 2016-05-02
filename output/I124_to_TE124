@@ -1,0 +1,180 @@
+#124TE    124I EC DECAY                 1998Wa18,1969RA31,1992WO0308NDS    200807
+#  124I EC DECAY                 1998Wa18,1969RA31,1992WO0308NDS    200807
+#H TYP=FUL$AUT=J. KATAKURA, Z.D. WU$CIT=NDS 109, 1655 (2008)$             
+#H CUT=1-Apr-2008$                                                        
+#  1998Wa18: {+123}Sb(|a,2n), E(|a)=32 MeV; four Compton-shielded         
+#  Ge detectors; measured E|g, I|g, |g|g-coin; deduced log| {Ift} values  
+#  1969Ra31: {+123}Sb({+4}He,3n) chemical separation; |g, |g|g coin;      
+#  decay scheme                                                           
+#  1992Wo03: {+124}Te(d,2n){+124}I, isotope separator sources; activity   
+#  standardization by 4|p |b|g coincidence; measured absolute branchings; 
+#  measured positron spectra and analyzed main components, measured |g in 
+#  400-1726 keV range                                                     
+#  1969Be70: La,C(p,X); E|g, I|g, Ice, E|b+; deduced level scheme         
+#  1969La32: Te(p,xn); E|g, I|g, |g|g coin; deduced E/|b{++} branching,   
+#  level scheme                                                           
+#  2001ElZZ: {+124}Te(p,n), E(p)=14 MeV; enriched target 99.8 %;          
+#  chemical separation;                                                   
+#  measured |g, X-ray; deduced %I|b{++}.                                  
+#  2007Qa02: {+124}Te(p,), E(p)=14 MeV; chemical separation;              
+#  measured |b, |g, X-ray, |g|g coin; deduced %I|b{++}.                   
+#  The decay scheme is based on that proposed by 1998Wa18.                
+#  The 2039 keV level has doublet structure according to 2000Do11.        
+#L E         From a least-squares fit to E|g's                            
+#L J         From adopted levels                                          
+#L J(A)      Doublet                                                      
+#E TI        From I|g imbalance                                           
+#E $         %I|b{++}{-exp}=23.0 {I5} (2001ElZZ), 22.0 {I5} (2007Qa02)    
+#G $         |a(K)exp values were calculated by using I|g of 1998Wa18     
+#G (below 2400 keV) and 1969Ra31 (above 2400 keV)                         
+#G and each Ice of 1967Ru04, 1969Be70, or 1971Zh01, respectively,         
+#G normalizing so that |a(K)exp(602.72|g)=0.00420 (E2 theory)             
+#G E,RI      From 1998Wa18, unless otherwise indicated.                   
+#G E(A,C),RI(C)$From 1969Ra31                                             
+#G M,MR      From adopted gammas, unless otherwise indicated;             
+#G |a's in table are |a theory from 1968Ha53                              
+#N 0.0629    6 0.0629  6 1.0       1.00    8                              
+#N NR,NT     I|g/100 decays=0.0629 {I6}; I|g per 100 decays are determined
+#N from an intensity calibrated source of {+124}I by 4|p |b|g coincidence 
+#N method (1992Wo03)                                                      
+#N                                                                     3  
+#P 0.0         2-                4.1760 D  3              3159.6    19    
+I124 TE124 beta+ 3.1595999999999997 360806.4 1.0
++G gamma 0.602726 10.0
++G gamma 0.645851 8.21
++G gamma 0.722789 0.475
++G gamma 1.32551 0.078
++G gamma 1.05457 0.0126
++G gamma 0.498363 5.09
++G gamma 0.55735 0.009000000000000001
++G gamma 0.6321100000000001 0.0174
++G gamma 0.7092999999999999 0.268
++G gamma 1.355164 0.231
++G gamma 0.713736 0.157
++G gamma 0.79071 0.0547
++G gamma 1.4364700000000001 0.146
++G gamma 2.03931 0.0319
++G gamma 0.89949 0.022099999999999998
++G gamma 0.97642 0.091
++G gamma 1.62224 0.048
++G gamma 1.691 0.132
++G gamma 1.0731330000000001 0.030899999999999997
++G gamma 1.7201099999999998 0.027200000000000002
++G gamma 0.37718 0.0316
++G gamma 1.08644 0.9079999999999999
++G gamma 0.6027 0.38
++G gamma 1.1008399999999998 0.29600000000000004
++G gamma 1.85131 0.0144
++G gamma 0.444005 0.10439999999999999
++G gamma 0.525443 0.0695
++G gamma 1.2633800000000002 0.0645
++G gamma 1.3013800000000002 0.059000000000000004
++G gamma 0.84265 0.0304
++G gamma 0.63658 0.0259
++G gamma 0.84748 0.0252
++G gamma 1.345939 0.12
++G gamma 1.37048 0.0259
++G gamma 0.329336 0.233
++G gamma 0.91744 1.794
++G gamma 0.338754 0.032
++G gamma 0.92677 1.119
++G gamma 2.0908 0.0426
++G gamma 1.37605 0.0146
++G gamma 0.96278 0.0225
++G gamma 1.3850799999999999 0.0134
++G gamma 0.96681 0.009300000000000001
++G gamma 0.40286 0.013999999999999999
++G gamma 0.9909600000000001 0.026000000000000002
++G gamma 1.48896 0.182
++G gamma 1.0269220000000001 0.0956
++G gamma 1.52625 0.061799999999999994
++G gamma 1.50935 0.021400000000000002
++G gamma 0.504007 0.1253
++G gamma 0.361135 0.0574
++G gamma 1.5959400000000001 0.04
++G gamma 0.530231 0.0387
++G gamma 1.62429 0.0294
++G gamma 1.1265699999999998 0.255
++G gamma 1.13337 0.0698
++G gamma 1.6541199999999998 0.0535
++G gamma 0.561716 0.157
++G gamma 0.5761470000000001 0.156
++G gamma 1.16425 0.059699999999999996
++G gamma 1.67211 0.0187
++G gamma 0.59873 0.0229
++G gamma 1.18693 0.069
++G gamma 0.28049 0.0074
++G gamma 0.470863 0.03
++G gamma 0.6192300000000001 0.0495
++G gamma 1.2076900000000002 0.0334
++G gamma 0.61566 0.105
++G gamma 0.63018 0.07629999999999999
++G gamma 1.2200199999999999 0.0199
++G gamma 0.13419 0.0029
++G gamma 0.29952 0.0255
++G gamma 1.22622 0.0207
++G gamma 1.7381099999999998 0.04190000000000001
++G gamma 1.6755799999999998 0.0077
++G gamma 0.121656 0.025
++G gamma 0.35907 0.19
++G gamma 0.36838 0.010700000000000001
++G gamma 0.373851 0.1247
++G gamma 1.2913299999999999 0.0925
++G gamma 1.11133 0.0132
++G gamma 1.32259 0.015
++G gamma 0.472333 0.091
++G gamma 1.38971 0.038900000000000004
++G gamma 0.48993000000000003 0.488
++G gamma 0.38050900000000004 0.0285
++G gamma 0.361135 0.0574
++G gamma 0.43307999999999996 0.0040999999999999995
++G gamma 0.6077229999999999 0.11
++G gamma 0.25801 0.022799999999999997
++G gamma 0.61703 0.434
++G gamma 0.4684 0.017
++G gamma 1.56025 0.031200000000000002
++G gamma 0.6624500000000001 0.07980000000000001
++G gamma 0.677183 0.242
++G gamma 0.6275299999999999 0.038
++G gamma 0.21359999999999998 0.0197
++G gamma 0.70359 0.099
++G gamma 0.33186 0.0175
++G gamma 1.635962 0.047
++G gamma 0.74461 0.124
++G gamma 0.75816 0.0313
++G gamma 0.411186 0.018799999999999997
++G gamma 1.117653 0.0219
++G gamma 0.5022 0.0074
++G gamma 1.72863 0.0225
++G gamma 0.81512 0.025099999999999997
++G gamma 1.76647 0.0235
++G gamma 0.852918 0.042
++G gamma 0.395641 0.06
++G gamma 0.8855299999999999 0.1303
++G gamma 1.80748 0.024300000000000002
++G gamma 0.18997 0.0137
++G gamma 0.6877920000000001 0.113
++G gamma 0.77859 0.018000000000000002
++G gamma 0.35251 0.0161
++G gamma 0.41276 0.0322
++G gamma 0.670628 0.0786
++G gamma 1.04955 0.0342
++G gamma 1.17202 0.051
++G gamma 0.81238 0.016399999999999998
++G gamma 0.69617 0.175
++G gamma 0.8340299999999999 0.0222
++G gamma 0.5806079999999999 0.0168
++G gamma 0.6408400000000001 0.0159
++G gamma 0.63382 0.0089
++G gamma 0.6379600000000001 0.0677
++G gamma 0.6978260000000001 0.23600000000000002
++G gamma 0.68172 0.0397
++G gamma 0.7421599999999999 0.028399999999999998
++G gamma 0.435458 0.0403
++G gamma 0.89703 0.042699999999999995
++G gamma 1.449639 0.0277
++G gamma 0.82272 0.0262
++G gamma 0.387855 0.0421
++G gamma 0.253337 0.0167
++G gamma 0.297465 0.043899999999999995
+

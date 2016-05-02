@@ -1,0 +1,98 @@
+#247CM    251CF A DECAY                 2003AH07,1968CH03,1970BRZN15NDS    201503
+#  251CF A DECAY                 2003AH07,1968CH03,1970BRZN15NDS    201503
+#H TYP=FUL$AUT=C. D. NESARAJA$CIT=NDS 125, 395 (2015)$CUT=31-Mar-2014$    
+#  2003Ah07: Produced {+251}Cf from |a decay of {+255}Fm. Measured level  
+#  T{-1/2}, |g, |a, |a-|g coincidence, and electron spectra with high     
+#  resolution spectrometers such as the passivated, implanted, planar     
+#  silicon Detector (PIPS) (FWHM=10.5 and 9.2 keV). The latter being also 
+#  measured by the PIN diode.                                             
+#  1970BrZN: Studied alpha spectrum decay of {+251}Cf with a Au-Si        
+#  surface barrier detector (FWHM=15 keV) and ZnS-photomultiplier tube.   
+#  Measured |g's with 5 cm{+3} Ge(Li) detector and electrons with         
+#  Si(Li) detector. Measured |a-particles energies, |g energies,          
+#  intensities, |a-|g coincidence, and conversion electrons.              
+#  1968Ch03: |a decay of {+251}Cf along with |a-|g coincidence            
+#  measurements were done using Si(Au), Ge(Li) and NaI(Tl) detectors      
+#  Measured E|a, I|a, E|g, I|g, |a-|g coincidences. Deduced J|p, T{-1/2}  
+#  and identified rotational bands                                        
+#  Other measurements: 1966Rg01                                           
+#A E$Measurements by 2003Ah07, except where noted otherwise.              
+#A IA$Measurements of 2003Ah07 are adopted.                               
+#A HF$r{-0}({+247}Cm)=1.4924 {I88}, unweighted average of                 
+#A r{-0}({+246}Cm)=1.4836 {I5} and r{-0}({+248}Cm)=1.5012 {I6} (1998Ak04),
+#A is used in calculations of HF.                                         
+#G $251CM x-rays: (2003Ah07)                                              
+#G                                                                        
+#G   E(x-ray)     I(x-ray)                    Transitions                 
+#G   --------     --------                    -----------                 
+#G   104.57 2     12.6 7                      K|a{-2} x-ray               
+#G   109.26 2     19.8 10                     K|a{-1} x-ray               
+#G   122.31 2                                 K|b{-3} x-ray               
+#G                 7.7 5                                                  
+#G                 I(K|b{-3} x-ray+K|b{-1} x-ray)                         
+#G   123.40 2                                 K|b{-1} x-ray               
+#G   127.01 4                                 K|b{-2} x-ray+K|b{-4} x-ray 
+#G                 2.6 2                                                  
+#G                 I(K|b{-2} x-ray+K|b{-4} x-ray                          
+#G                 +K|O{-23} x-ray)                                       
+#G   128.00 5                                 K|O{-23} x-ray              
+#G                                                                        
+#G Others: 1966Rg01, 1968Ch03, 1970BrZN                                   
+#G                                                                        
+#G                                                                        
+#G E$From 2003Ah07. Other measurements: 1968Ch03, 1970BrZN.               
+#G RI$Measured by 2003Ah07, except as noted otherwise.                    
+#G Absolute intensities were determined by 2003Ah07 by measuring the      
+#G alpha rate of a thin {+251}Cf source with a Si detector of known       
+#G geometry and measuring the gamma spectrum with a Ge spectrometer of    
+#G known absolute efficiency which was determined with a calibrated       
+#G source. Earlier measurements: 1968Ch03, 1970BrZN.                      
+#G See also {+247}Am |b{+-} decay.                                        
+#G E(S)$Transition was not observed. Existence is from the level          
+#G scheme.                                                                
+#G M,MR(B)$Determined by evaluator from |a(exp) (2003Ah07)                
+#G CC(A)$Deduced by evaluator from intensity balance                      
+#G CC$FROM BrIcc v2.3a (30-Jun-2013) 2008Ki07, "Frozen Orbitals" appr.    
+#L E$From least-squares fit to E|g's                                      
+#L BAND(D)$ 9/2[734]                                                      
+#L BAND(E)$ 5/2[622]                                                      
+#L BAND(F)$ 7/2[624]                                                      
+#L BAND(G)$ 1/2[620]                                                      
+#L BAND(H)$ 1/2[631]                                                      
+#P 0.0         1/2+              898 Y     44             6177.0    9     
+CF251 CM247 alpha 6.177 2.8338104102399998E10 1.0
++A alpha 6.078 0.026000000000000002
++A alpha 6.017 0.125
++G gamma 0.06167 0.004
++A alpha 5.946 0.006
++G gamma 0.073 4.0E-4
++G gamma 0.13465 1.4000000000000001E-4
++G gamma 0.08435 4.0E-4
++G gamma 0.15735 2.0E-4
++A alpha 5.854 0.276
++G gamma 0.1657 0.0012
++G gamma 0.22738 0.068
++A alpha 5.817 0.04
++G gamma 0.03848 3.7999999999999997E-4
++A alpha 5.798 0.025
++G gamma 0.05803 2.4E-4
++A alpha 5.766 0.036000000000000004
++G gamma 0.052450000000000004 4.8E-4
++G gamma 0.25665 0.0013
++G gamma 0.3183 5.0E-4
++A alpha 5.738 0.008
++G gamma 0.0605 1.0E-4
++G gamma 0.2842 0.0012
++G gamma 0.3459 4.3E-4
++A alpha 5.6793000000000005 0.354
++A alpha 5.651 0.033
++A alpha 5.635 0.049
++A alpha 5.569 0.019
++G gamma 0.2893 7.000000000000001E-4
++A alpha 5.567 0.019
++G gamma 0.11370000000000001 2.4E-4
++G gamma 0.2912 0.003
++A alpha 5.505 0.0027
++G gamma 0.3158 2.4E-4
++G gamma 0.3543 1.3E-4
+

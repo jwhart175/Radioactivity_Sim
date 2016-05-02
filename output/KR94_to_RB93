@@ -1,0 +1,16 @@
+# 93RB    94KR B-N DECAY                2003BE05,1975AS04         11NDS    201105
+#  94KR B-N DECAY                2003BE05,1975AS04         11NDS    201105
+#H TYP=FUL$AUT=CORAL M. BAGLIN$CIT=NDS 112, 1163 (2011)$CUT=15-Dec-2010$  
+#  2003BE05: 94KR FROM PULSED 1 OR 1.4 GeV PROTON BOMBARDMENT OF          
+#  2000|'^C URANIUM CARBIDE/GRAPHITE TARGET; 94KR STOPPED IN              
+#  AL OR ALUMINIZED MYLAR TAPE AT CENTER OF 4|p NEUTRON LONG COUNTER      
+#  (12 PARALLEL-COUPLED 3HE PROPORTIONAL COUNTERS IN PARAFFIN MODERATOR)  
+#  WITH PLASTIC |b DETECTOR OR TRANSPORTED TO A 4|p |b DETECTOR;          
+#  MEASURED |b-N TIME CORRELATIONS (US SCALE), ^T{-1/2} AND %B-N FOR 94KR.
+#  1975As04: 94KR from 235U(N,F) E=thermal, Lohengrin mass separator;     
+#  measured B- and n activities simultaneously; deduced %B-N=5.7 22.      
+#  PARENT ^T{1/2} FROM 2003BE05.  OTHER DATA: 0.20 S 1 (1972AM01),        
+#  0.22 S 2 (1975AS04), 0.33 S 10 (1996ME09).                             
+#P 0.0          0+               212 MS    5              3202      14    
+KR94 RB93 neutron&beta- 3.202 0.212 1.0
+

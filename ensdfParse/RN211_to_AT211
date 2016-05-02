@@ -1,0 +1,48 @@
+#211AT    211RN EC DECAY (14.6 H)       1972AS11,1972AS12         13NDS    201306
+#  211RN EC DECAY (14.6 H)       1972AS11,1972AS12         13NDS    201306
+#H TYP=FUL$AUT=B. SINGH, S. SINGH, H.X. Nguyen and M. Patial$             
+#H CIT=NDS 114, 231 (2013)$CUT=28-FEB-2013$                               
+#  The decay scheme proposed is that of 1972As11 and is based on          
+#  energy fit and extensive coincidence data.                             
+#  Others: 1990Ve05 and 1985BuZT (GG(THETA)); 1970Be37 (EG,IG);           
+#  1956St60 (CE).                                                         
+#E           The electron capture branches have been deduced from I(G+CE) 
+#E balances on the adopted decay scheme.                                  
+#E $ Intensity balance is negative (-4.3 21) for 947 level                
+#G           Unless noted otherwise, all data are from 1972As11.          
+#G           The CE spectra measured by 1972As11, 1972As12 were normalized
+#G to the G spectra through KC(442.2G)=0.02955, the theoretical value for 
+#G an E2 transition.                                                      
+#G E(A)$ |g ray tentatively assigned to decay of 211RN or 207PO           
+#G M(B)$The 946.7G and 947.4G CEK are not resolved; the measured          
+#G EKC(sum)=0.010 1 is consistent with M1 for 946.7G and E2 for           
+#G 947.4G.                                                                
+#G CC$ FROM BrIcc v2.3 (19-Sep-2012) 2008Ki07, "Frozen Orbitals" appr.    
+#G MR$ From 1990Ve05, obtained from combined analysis of their |g|g(|q)   
+#G and previous ce data, unless otherwise stated                          
+#G CC$ FROM BrIcc v2.3 (9-Dec-2011) 2008Ki07, "Frozen Orbitals" appr.     
+#L           Spin assignments are taken from ^Adopted ^Levels where       
+#L specific arguments for these assignments, based on experimental        
+#L results, are listed. 1972As11, 1972As12 also consider shell-model      
+#L calculations and propose the spin sequence 7/2-,7/2-,5/2-,3/2-         
+#L and 1/2+ for the levels at 674.1, 866.0, 947.4, 1116.2 and             
+#L 2479.2 KEV. The GG(THETA) results reported in 1985BuZT,                
+#L however, rule out the 1/2(D)3/2(D+Q)5/2 sequence for the               
+#L (1362.9G)(168.7G) cascade if MR(168.7G)=2.7 4 (the MR measured         
+#L in CE data).                                                           
+#L $1990Ve05 report GG(THETA) results for ten cascades in                 
+#L this decay. Their conclusions, in general, agree with those of         
+#L 1972As11, 1972As12, but do not agree with the results of 1985BuZT      
+#L for the (1362.9G)(168.7G) cascade.                                     
+#L J$From Adopted Levels.                                                 
+#P 0.0           1/2-             14.6 H   2              2892      7     
+RN211 AT211 beta+ 2.892 0.0 0.726
++G gamma 0.6741 0.625
++B beta+ 1.6E-5 0.00683
++B beta+ 0.3619 0.0078000000000000005
++B beta+ 7.81E-4 0.0016300000000000002
++B beta+ 7.717000000000001E-4 0.0017000000000000001
++B beta+ 7.693E-4 0.0017100000000000001
++B beta+ 7.682E-4 0.00172
++B beta+ 7.252999999999999E-4 0.002
+

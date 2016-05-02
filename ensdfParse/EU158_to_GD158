@@ -1,0 +1,79 @@
+#158GD    158EU B- DECAY                1974KL11,1975BL03,1996GR2004NDS    200403
+#  158EU B- DECAY                1974KL11,1975BL03,1996GR2004NDS    200403
+#H TYP=FUL$AUT=R. G. Helmer$CIT=NDS 101, 325 (2004)$CUT=1-Oct-2003$       
+#  The decay scheme and |g data are primarily from 1974Kl11; that of      
+#       1975Bl03 is in substantial agreement.  The sum of the             
+#       intensities of the |b- branches to the 0- and 79-keV levels       
+#       is from the 4|p|g-|b- measurement of 1996Gr20.  Other             
+#       measurements: 1997Gr09, 1972Kl01, 1972Ho08, 1969RiZY, 1966Da19,   
+#       1966Da06, 1965Sc19, 1965Mu16, 1963Da07.                           
+#B IB        Deduced from |g-ray intensity balances at the various        
+#B      levels and along with the I{-|b-}(0) + I{-|b-}(79) = 8.6% {I24}   
+#B      from 1996Gr20.  Other: I{-|b-}(0) = 0 and I{-|b-}(79)=24          
+#B      from 1974Kl11.                                                    
+#B           Below 2100 keV, these calculated I{-|b-} are in excellent    
+#B      agreement with those deduced from the total absorption |g         
+#B      spectrometer, TAGS, data of 1997Gr09.  Above this energy, these   
+#B      I{-|b-} are lower than those from the TAGS data which is          
+#B      consistent with the fact that there are a number of unplaced,     
+#B      high-energy |g rays.  For the larger differences, the TAGS        
+#B      results are given in comments.                                    
+#B LOGFT     See I{-|b-} comments for assumptions and limitations.        
+#B           Measured E(|b-) in keV include:                              
+#B           3400 {I150} (1966Da06)                                       
+#B           2430 {I100} (1966Da06), 2520 {I120} (1965Sc19)               
+#B           1550 {I100} (1966Da06), 1950 {I230} (1965Sc19)               
+#B           |? 1100 (1966Da06), 1150 {I90} (1965Sc19)                    
+#B           Measured I(|b-) include:                                     
+#B           I|b(3400 keV)/I|b(2430 keV)=0.11 (1966Da06) and              
+#B      I|b(3400 keV)=5%.                                                 
+#G E,RI      From 1974Kl11 for |? 130 |g's; others: 1975Bl03 for 65       
+#G      |g's and 1966Da06, 1965Sc19, 1965Mu16, and 1963Da07 with          
+#G      <25 |g's.                                                         
+#G M         From {+158}Gd Adopted |g radiations.                         
+#G E(A)      From level energy differences (1974Kl11).                    
+#G RI(B)     From coincidence data (1974Kl11).                            
+#G RI(H)     Author's uncertainty of 0.60 is assumed by evaluator to      
+#G      be a misprint; evaluator used 0.06.                               
+#G RI(S)     This value of 2.10 {I15} is higher relative to that of       
+#G      the 1944 |g than that observed in {+157}Gd(n,|g) where the        
+#G      relative values would give I{-|g}(763)=0.89 {I13}.                
+#G RI(T)     This value of 1.29 {I13} is higher relative to that of       
+#G      the 1944 |g than that  observed in {+157}Gg(n,|g) where the       
+#G      relative values would give I{-|g}(827)=0.62 {I9}.                 
+#L           See {+158}Gd Adopted Levels for band assignments.            
+#L E         From least-squares fit to |g energies.                       
+#L J         From {+158}Gd Adopted Levels.                                
+#P   0         (1-)              45.9 M    2              3485      77    
++B beta- 1.4 0.09
++B beta- 1.315 0.008
++B beta- 0.99 0.213
++B beta- 0.97 0.251
++B beta- 0.96 0.0031
++B beta- 0.9 0.004
++B beta- 0.89 0.0087
++B beta- 0.865 0.0039000000000000003
++B beta- 0.86 0.037000000000000005
++B beta- 0.85 0.006999999999999999
++B beta- 0.8 0.0011
++B beta- 0.78 8.0E-4
++B beta- 0.75 6.6E-4
++B beta- 0.63 0.07
++B beta- 0.605 0.0259
++B beta- 0.585 0.0095
++B beta- 0.57 0.076
++B beta- 0.555 0.066
++B beta- 0.53 0.0345
++B beta- 0.445 0.0014000000000000002
++B beta- 0.425 0.0163
++B beta- 0.405 0.0322
++B beta- 0.375 0.0032
++B beta- 0.355 0.0155
++B beta- 0.355 0.0044
++B beta- 0.345 0.0017000000000000001
++B beta- 0.335 0.0055000000000000005
++B beta- 0.285 0.0013
++B beta- 0.265 7.5E-4
++B beta- 0.23 0.0022
++B beta- 0.195 3.5999999999999997E-4
+

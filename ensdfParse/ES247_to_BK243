@@ -1,0 +1,38 @@
+#243BK    247ES A DECAY (4.55 M)        1989HA27                  14NDS    201408
+#  247ES A DECAY (4.55 M)        1989HA27                  14NDS    201408
+#H TYP=FUL$AUT=C.D. Nesaraja, E.A. McCutchan$CIT=NDS 121, 695 (2014)$     
+#H CUT=30-Sep-2013$                                                       
+#  {+247}Es-%|a decay: estimated by 1967Mi06 from observed |a yield and   
+#  calculated total cross section for {+238}U({+14}N,5n)                  
+#  1989Ha27: {+247}Es activity produced in the {+249}Cf(p,3n) reaction    
+#  with E(p)=18 to 33 MeV and the {+238}U({+15}N,4n) reaction with        
+#  E({+15}N)=82 to 103 MeV.  Reaction products transferred via He jet and 
+#  collected onto a moving tape or a rotating wheel.  Measured E|a, I|a,  
+#  |a(t) using Si(Au) surface barrier detectors. FHWM=27 to 30 MeV for    
+#  the 7.275 MeV |a-group of {+211m}Po.                                   
+#  Others: 1973Es01, 1967Mi06                                             
+#A E$From 1989Ha27. The {+212}Po |a peak at 8784 MeV was used for energy  
+#A calibration (E|a=8784.86 {I12} is recommended by 1991Ry01).            
+#A IA$Alpha intensities per 100 |a decays, from 1989Ha27.                 
+#A HF$r{-0}({+243}Bk)=1.493 {I7}, average of r{-0}({+242}Cm)=1.4953 {I9}  
+#A and r{-0}({+244}Cf)=1.490 {I13} is used in the calculations.           
+#A HF$Because of the approximate value of %|a decay, the hindrance        
+#A factors should be taken as approximate.                                
+#L E$Calculated from Q(|a)=7462 from 2012Wa38 and the measured E|a's.     
+#L J$Hindrance factors for |a decay from (7/2+) {+247}Es and the level    
+#L spacings imply that these levels are probably members of a rotational  
+#L band. From the unhindered character of the |a transition (HF|?2.4)     
+#L to the |?18 keV level,                                                 
+#L the bandhead member should be the same state as that of the parent.    
+#L Systematics of Nilsson states (see, for example, 1972El21)             
+#L suggest either the 3/2[521] or the 7/2[633] orbital for {+247}Es       
+#L g.s. If the |a decay was to the 3/2[521] orbital, the band parameter   
+#L would be 9.4                                                           
+#L which would not fit the local trend. By assuming a rotational band     
+#L built on the 7/2[633] state, the rotational band parameter of 5.7 is   
+#L consistent with band parameters for 7/2[633] bands in the region.      
+#P 0.0+X        (7/2+)            4.55 M    26             7462     20    
++A alpha 7.323 0.86
++A alpha 7.275 0.12
++A alpha 7.213 0.02
+

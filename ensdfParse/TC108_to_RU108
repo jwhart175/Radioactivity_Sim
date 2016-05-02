@@ -1,0 +1,131 @@
+#108RU    108TC B- DECAY                1984ST04,1980SU01         ENSDF    200810
+#  108TC B- DECAY                1984ST04,1980SU01         ENSDF    200810
+#H TYP=FUL$AUT=Jean Blachot$CIT=ENSDF$CUT=1-Jul-2008$                     
+#H TYP=FUL$AUT=Jean Blachot$CIT=NDS 91, 135 (2000)$CUT=1-Jun-2000$        
+#  Others: 1969WiZX, 1972Tr08, 1973Ka22, 1976KaYO                         
+#  Sources: from {+235}U, {+238}U, {+239}Pu(n,f) rapid technetium chem;   
+#  see 1972Tr08                                                           
+#B E$From 1989Gr23, mass separation LOHENGRIN. |b|g coin.                 
+#B IB        From (|g+ce)-intensity balance at each level                 
+#B           I|b{+-}(975.96 level): the observed intensity imbalance must 
+#B be from unplaced or as yet unobserved gammas.                          
+#B E         1989GR23 report a BETA branch to the 665 level, with         
+#B EB=7190 375, but no intensity is given. Since JPI(665)=4+,             
+#B an observed branch from the (2+) B- parent would invalidate one of the 
+#B two JPI assignments.                                                   
+#G E,RI$E|g, I|g are from 1984St04, except where noted otherwise. 1984St04
+#G adopt data from 1980Su01 where available. The unplaced transitions     
+#G are given as tabulated by 1984St04 with uncertainties on E|g and I|g.  
+#G However, the placed transitions are given only in the decay scheme     
+#G and are given without uncertainties. For these transitions the         
+#G evaluator has assigned |DE|g=0.2 keV and |DI|g=10%                     
+#G E(C)$Seen in coin only                                                 
+#G E(D),RI(D)$E|g and I|g from 1980Su01                                   
+#G RI(E)$From |g|g (1984St04). Authors state the value should be          
+#G considered a lower limit.                                              
+#G M$From |g|g(|q)                                                        
+#L           Level scheme is based on |g|g-coin, E|g fits, and            
+#L band-structure systematics.                                            
+#L 1969ZiZZ proposed an E2 |g-cascade of 98-233 keV built on g.s. up to   
+#L 4+, in conflict with more recent {+108}Tc |b{+-} and {+252}Cf SF decay 
+#L studies                                                                
+#L E$From least-squares fit to E|g's                                      
+#L BAND(A)$GS BAND                                                        
+#L BAND(B)$G-VIBRATIONAL BAND?                                            
+#L J(C)$A 6+ is proposed by 1984St04, not adopted                         
+#P 0.0          (2)+             5.17 S    7              7720      50    
+TC108 RU108 beta- 7.72 5.17 1.0
++G gamma 0.19290000000000002 0.0019584
++G gamma 0.21230000000000002 0.007344
++G gamma 0.3892 0.0027744
++G gamma 0.8772000000000001 0.0016320000000000002
++G gamma 0.9746 0.0023663999999999994
++G gamma 1.3562 0.013871999999999997
++G gamma 1.4904000000000002 0.0080784
++G gamma 1.5709000000000002 0.0022031999999999998
++G gamma 1.6236 0.007344
++G gamma 1.6336 0.009791999999999999
++G gamma 1.6701 0.0026111999999999997
++G gamma 1.934 0.008976000000000001
++G gamma 2.001 0.0026111999999999997
++G gamma 2.032 0.011423999999999998
++G gamma 2.0446 0.010608
++G gamma 2.1304000000000003 0.007915199999999999
++G gamma 2.2791 0.0052223999999999994
++G gamma 2.4602 0.0016320000000000002
++G gamma 2.5399000000000003 0.006935999999999999
++G gamma 2.5485 0.006201599999999999
++G gamma 2.6711 0.0055488
++G gamma 2.7025 0.0051408
++G gamma 2.944 0.008976000000000001
++G gamma 3.0133 0.010608
++G gamma 3.0503 0.006854399999999999
++G gamma 3.0733 0.005711999999999999
++G gamma 3.4545 0.0023663999999999994
++G gamma 3.4991999999999996 0.006528000000000001
++B beta- 3.28939 0.276
++G gamma 0.24225 0.816
++G gamma 0.4229 0.032639999999999995
++B beta- 3.0665999999999998 0.079
++G gamma 0.4656 0.14279999999999998
++G gamma 0.7078099999999999 0.11424
++B beta- 2.9388 0.025
++G gamma 0.2671 0.010608
++G gamma 0.3097 0.00612
++G gamma 0.7326 0.09792
++G gamma 0.7339 0.018767999999999996
++B beta- 2.83912 0.003
++G gamma 0.4754 0.0051408
++G gamma 0.518 0.0032640000000000004
++G gamma 0.5537000000000001 0.0022848
++B beta- 2.80745 0.022000000000000002
++G gamma 0.2734 0.0025295999999999995
++G gamma 0.5413 0.0032640000000000004
++G gamma 0.584 0.00612
++G gamma 1.0071 0.022032
++G gamma 1.249 0.014688
++G gamma 0.511 0.0031823999999999997
++G gamma 0.821 0.0024479999999999997
++B beta- 2.61848 0.019
++G gamma 0.3946 0.0044063999999999996
++G gamma 0.6691 0.01224
++G gamma 0.9359 0.005059199999999999
++G gamma 1.4016 0.008976000000000001
++B beta- 2.5718400000000003 0.002
++G gamma 0.49210000000000004 0.0017951999999999998
++B beta- 2.5314 0.18100000000000002
++G gamma 0.1819 0.008976000000000001
++G gamma 0.5766 0.017952000000000003
++G gamma 0.851 0.032639999999999995
++G gamma 1.118 0.047327999999999995
++G gamma 1.5835 0.09792
++B beta- 2.46077 0.028999999999999998
++G gamma 0.7906 0.005711999999999999
++G gamma 1.308 0.008976000000000001
++G gamma 1.7305 0.014688
++B beta- 2.44677 0.031
++G gamma 0.35869999999999996 0.0024479999999999997
++G gamma 1.0274 0.005385600000000001
++G gamma 1.7604000000000002 0.022847999999999997
++B beta- 2.3881799999999997 0.045
++G gamma 1.1504 0.005385600000000001
++G gamma 1.417 0.039167999999999994
++G gamma 1.8828 0.006935999999999999
++B beta- 2.2794 0.011000000000000001
++G gamma 1.6872 0.0019584
++G gamma 2.3521 0.008976000000000001
++B beta- 2.09829 0.018000000000000002
++G gamma 1.2445 0.0070176
++G gamma 1.7562 0.0035903999999999997
++G gamma 2.0234 0.0078336
++B beta- 2.03541 0.01
++G gamma 1.8877000000000002 0.003672
++G gamma 2.6203000000000003 0.00612
++B beta- 2.00553 0.02
++G gamma 1.9504000000000001 0.005059199999999999
++G gamma 2.2171 0.014688
++B beta- 1.9231500000000001 0.037000000000000005
++G gamma 0.9726 0.006201599999999999
++G gamma 1.2721 0.016319999999999998
++G gamma 2.3894 0.014688
+

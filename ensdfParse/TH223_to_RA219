@@ -1,0 +1,70 @@
+#219RA    223TH A DECAY                 1992LI09,1987EL02,1989AN1301NDS    200110
+#  223TH A DECAY                 1992LI09,1987EL02,1989AN1301NDS    200110
+#H TYP=FMT$AUT=J. Tuli$DAT=22-APR-2005$COM=Fixed Fmt/Typo$                
+#H TYP=FUL$AUT=E. BROWNE$CIT=NDS 93, 802 (2001)$CUT=1-May-2001$           
+#  Other: 1970VA13                                                        
+#  1992LI09: 223TH activity produced by 208PB(18O,3N), E=82 MEV.          
+#  GT 99% enriched 208PB target. Measured EA, IA, EG, %RI, AG coin.       
+#  Deduced G-ray multipolarities from G-ray transition intensity balances 
+#  and XK/RI ratios.                                                      
+#  1987EL02: 223TH activity produced by 208PB(18O,3N), E=83 MEV.          
+#  Measured EA, EG, %RI, ICE, AG coin, a CE coin. Detectors: semi, GELI,  
+#  SI(LI). Assignment of ALPHA-particle groups to 223TH is based on the   
+#  agreement with EA from 1970VA13, and on the observation of RA x rays   
+#  in coincidence with ALPHA particles.                                   
+#  1970VA13: 223TH activity produced by 208PB(18O,3N), E=108-130 MEV;     
+#  205TL(22NE,p3n), E AP 100 MEV; 208PB(19F,P3N), E=100-130 MEV.          
+#  Measured EA, IA. Detector: semi.                                       
+#  1989AN13: 223TH activity produced by 208PB(22NE,a3n), E=100-130 MEV.   
+#  Measured EA, IA. Detector: semi.                                       
+#  1990AN19: 223TH activity produced by 205TL(22NE,p3n), E=100-109 MEV.   
+#  Measured EA, IA. Detector: semi.                                       
+#  The decay scheme presented in this evaluation is from 1992LI09,        
+#  modified by evaluator on the basis of 208PB(14C,3NG) results           
+#  in 2000RI12.  The 5/2+ spin and parity that evaluator has assigned     
+#  to the 140-keV level is consistent with the favored alpha decay        
+#  (HF=2.3) from 223Th (5/2+).                                            
+#  This decay scheme supersedes that of 1987EL02, which included G        
+#  rays of 57.1-, 68.2-, and 75.2 KEV that defined levels at 57-,         
+#  68.2-, and 145 KEV. 1992LI09 did not see these G rays in a G-ray       
+#  spectrum with about ten times better statistics.                       
+#  The measured XK intensity of 49% 3 (1992LI09) agrees well with         
+#  50% 5 deduced by evaluator (using the ^RADLST computer program), and   
+#  confirms the selfconsistency of the decay scheme adopted here. The     
+#  total average radiation energy of 7572 KEV 40, deduced by evaluator    
+#  (using the ^RADLST computer program), also agrees with QA=7567 KEV 4   
+#  from mass tables (1995AU04).                                           
+#L           The transitional nucleus 219RA appears to be at the limit    
+#L of the region of validity for the reflection asymmetry model. Levels   
+#L at 0- (7/2+), 16.6- (3/2+), and 52 KEV (11/2+) have been interpreted   
+#L as members of a KPI=1/2+ band associated to the i{-11/2} shell. This   
+#L spin sequence corresponds to a decoupling parameter a=-5.5, very       
+#L close to the theoretical value of a=-6 for this orbital. The levels    
+#L at 113.8- (5/2+), 140.1- (9/2+), and 152/0 KEV (7/2+), all of which    
+#L receive ALPHA populations with low hindrance factors, are probably     
+#L members of a KPI=5/2+ band associated to the g{-9/2} shell, with the   
+#L same structure of 223TH (JPI=5/2+) ground state. The irregular spin    
+#L sequence in this band may be due to the CORIOLIS interaction with      
+#L other even-parity bands. This interaction may have mixed these bands   
+#L and produced the lowest ALPHA hindrance factor of 2.3 for the ALPHA    
+#L group that populates the (9/2+) level at 140 KEV, rather than for      
+#L that to the (5/2+) level at 113.8 KEV. The levels above 152 KEV may    
+#L be the parity doublet counterparts of the above mentioned              
+#L even-parity bands (1992LI09).                                          
+#L J         Spin and parity assignments are those assigned by the        
+#L evaluator based on 208PB(14C,3NG) in 2000RI12.                         
+#L Band assignments are based on the analogy with band structures         
+#L in 221RA and 223RA.                                                    
+#L BAND(A)   KPI=(1/2+) BAND                                              
+#L BAND(B)   KPI=(5/2+) BAND                                              
+#L E$Deduced by evaluator from a least-squares fit to G-ray energies.     
+#G M(A)$Deduced from XK/RI ratios in AG coin experiments (1992LI09).      
+#A E,IA$From 1992LI09, unless otherwise specified. DE=5 KEV, estimated    
+#A by evaluator.                                                          
+#A HF$Using R0(219RA)=1.5375, average of R0(218RA)=1.539 8 and            
+#A R0(220RA)=1.536 5 (1998AK04).                                          
+#N 1.0         1.0       1.0                                              
+#N NR$Measured |a|g coin, absolute |g-ray intensities (1992LI09).         
+#N                                                                     3  
+#P 0.0            (5/2)+           0.60 S  2              7567      4     
+

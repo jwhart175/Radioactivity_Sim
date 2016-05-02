@@ -1,0 +1,105 @@
+#159ER    159TM EC DECAY                1975AG03,1975ST07         12NDS    201201
+#  159TM EC DECAY                1975AG03,1975ST07         12NDS    201201
+#H TYP=FUL$AUT=C. W. Reich$CIT=NDS 113, 157 (2012)$CUT=31-Dec-2010$       
+#  DATA SET UPDATED (OCTOBER, 2010) BY CW REICH TO INCLUDE NEW QP VALUE,  
+#   REVISED ICC VALUES AND RECOMPUTED LOGFT VALUES.                       
+#  Decay scheme is from 1975Ag03. This scheme goes up to 1318 keV and     
+#       is very incomplete since there are many unplaced G's and the      
+#       Total-Absorption G-Spectral (^TAGS) data of 1982By03 indicate     
+#       that over 50% of the decays are to levels above 2 MeV. 1975St07   
+#       propose a scheme up to 566 keV; below this energy this scheme     
+#       agrees with that of 1975Ag03, except it lacks two levels. A       
+#       long list of unplaced G's above 1400 keV is given by 1995AdZV     
+#       and a set of more precise data on the G's below 502 keV is        
+#       given by 1997AdZY.                                                
+#  1970DeZF: produced by 162ER(P,4NG). Measured G singles with Ge         
+#       detectors, ce singles with Si(Li) detector, and GG and ce-|g      
+#       coincidences                                                      
+#  1975Ag03: produced by Er(p,xn) at 157 MeV with isotope separation;     
+#       Measured G singles with Ge detectors                              
+#  1975Bu10, 1974BuZM: produced by spallation of Ta with 660-MeV p.       
+#       Measured T1/2(182 level) from time difference between             
+#       differential and integral pulses from source in well of           
+#       scintillation detector.                                           
+#  1975Gr44: review of previous laboratory work                           
+#  1975VaYW: abstract which gives T1/2(59 level)                          
+#  1975St07: produced by spallation of Ta target with 660-MeV p with      
+#       chemical and isotope separation. Measurements with Ge and         
+#       Si(Li) detectors and magnetic spectrograph and spectrometer of    
+#       G and ce singles, GG and GG(t) coincidences                       
+#  1982By03: measured total-absorption G-spectra (^TAGS) with 3 NaI(Tl)   
+#       G detectors and a Si(Li) B+ detector. Spectra measured with       
+#       and without coincidences with B+. Measurement gives the           
+#       |e+B+ feeding as function of the excitation energy.               
+#  1983Be17: produced by Er(p,xn) with isotope separation. Measured       
+#       ce-ce and ce-G coincidences in magnetic-lens spectrometer for     
+#       ce and plastic scintillator for G.                                
+#  1991AlZY: report maximum B+ energy and Q(|e) values as determined      
+#       with ^TAGS spectrometer (see 1982By03).                           
+#  1994Po26: report maximum B+ energy and Q(|e) values                    
+#  1995AdZV: abstract listing EG and IG values for G's from               
+#       1400 to 2864 keV.                                                 
+#  1997AdZY: abstract listing EG and IG values for G's from               
+#       38 to 501 keV.                                                    
+#E E         Endpoint E{-B+}=2050 {I100} (1975St07) with Q=3.4 {I3}       
+#E      MeV where the larger uncertainty on the Q value is from the       
+#E      ambiguity of the lowest level with significant population.        
+#E      Other Q(|e) values: 3850 {I100} (1991AlZY); 3670 {I100}           
+#E      (1994Po26).                                                       
+#E TI        These values are computed from the G intensity balances      
+#E      at each level with the ground-state branch assumed to be          
+#E      approximately equal to those to the 59- and 144-keV levels        
+#E      and the sum of the feeding to the levels below 500 keV set to     
+#E      AP 31% as reported by 1982By03 for a band of branches centered    
+#E      at 300 keV. The total |e+B+ decay accounted for is, then, 34%.    
+#E TI        The decays from the higher-lying levels via the unplaced     
+#E      G's will change the |e+B+ feedings of these levels. These         
+#E      values thus represent upper limits.                               
+#E LOGFT     From the comment on the I(|e+B+) values, there is a large    
+#E      uncertainty in these values.                                      
+#G E,RI      From 1975Ag03, unless otherwise noted. Other: 1975St07.      
+#G M         From 159ER Adopted Gammas. They are from 1975St07 and        
+#G      based on |a{-K}(exp) and L-subshell ratios, and from evaluator's  
+#G      interpretation of |a{-K}(exp) data of 1975Ag03.                   
+#G MR        From 159ER Adopted Gammas. They are based on the             
+#G      data from 1975St07.                                               
+#G E(A)      Assignment to decay of 159TM is uncertain (1975Ag03)         
+#G      and transition is not reported by 1975St07.                       
+#G E(B)      Assignment to decay of 159TM is uncertain (1975Ag03).        
+#G      Transition is reported by 1975St07 with quite different           
+#G      intensity.                                                        
+#G E(C)      Assignment to decay of 159TM is uncertain (1975Ag03),        
+#G      but transition is reported by 1975St07 with similar intensity.    
+#G E(D)      From 1975St07.                                               
+#G E(E)      From 1995AdZV.                                               
+#G E(F)      From 1997AdZY.                                               
+#L J         From 159ER Adopted Levels.                                   
+#L T         All values are from this decay mode. The measurement         
+#L      methods are noted under the experimental description.             
+#P   0          5/2+             9.13 M    16               3997    28    
++B beta+ 1.346 0.00435
++B beta+ 1.319 0.00447
++G gamma 0.08498 0.02128
++G gamma 0.03832 0.02528
++B beta+ 1.28 0.0046500000000000005
++G gamma 0.22030000000000002 0.016
++B beta+ 1.245 0.00482
++B beta+ 1.228 0.00491
++G gamma 0.27142 0.01936
++B beta+ 1.222 0.00494
++B beta+ 1.208 0.00501
++B beta+ 1.206 0.00502
++B beta+ 1.187 0.00511
++B beta+ 1.141 0.00534
++B beta+ 1.133 0.00538
++B beta+ 1.088 0.00561
++B beta+ 1.066 0.00573
++B beta+ 1.065 0.00573
++B beta+ 1.02 0.00596
++B beta+ 0.987 0.00613
++B beta+ 0.942 0.00635
++B beta+ 0.909 0.006520000000000001
++B beta+ 0.897 0.00658
++B beta+ 0.87 0.0067
++B beta+ 0.807 0.00699
+

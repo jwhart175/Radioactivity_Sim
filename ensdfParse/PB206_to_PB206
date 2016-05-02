@@ -1,0 +1,44 @@
+#206PB    206PB IT DECAY (125 US)       1977DR08,1972MA24         08NDS    200805
+#  206PB IT DECAY (125 US)       1977DR08,1972MA24         08NDS    200805
+#H TYP=FUL$AUT=F.G. KONDEV$CIT=NDS 109, 1527 (2008)$CUT=31-Jan-2008$      
+#  EXPERIMENTAL METHODS:                                                  
+#  1966MoZZ: 207PB(N,2N) REACTION. MEASURED G'S AND LIFETIME.             
+#  1967Co20: 206PB(P,P') REACTION WITH E(P)=17.5 MEV.  MEASURED G(T).     
+#       REPORTS LIFETIME AND TWO G'S.                                     
+#  1970Qu03: 204HG(A,2N) REACTION ON ENRICHED (50.72%) TARGET WITH E(A) = 
+#       30-40 MEV.  MEASURED PERTURBED ANGULAR DISTRIBUTIONS TO           
+#       MOMM1.                                                            
+#  1972Ma24: 204HG(A,2N) REACTION WITH E(A)=26 MEV. PERTURBED ANGULAR     
+#       DISTRIBUTION MEASURED TO DETERMINE G-FACTOR OF 7- LEVEL.          
+#  1973DaZL: LAB REPORT.  MEASURED LIFETIME, NO DETAILS.                  
+#  1973DiZE: LAB REPORT.  204HG(A,2N) REACTION.  MEASURED LARMOR          
+#       PRECESSION TO DETERMINE MOME2 OF 7- LEVEL.                        
+#  1975KaZH: LAB REPORT, SEE 1976Ka10 FOR PUBLISHED VERSION.              
+#  1976Ka10: MEASURED CROSS SECTION FOR PRODUCTION OF 7- LEVEL BY         
+#       208PB(P,P'2N) REACTION WITH E(P)=24-52 MEV.                       
+#  1977Dr08: MEASURED G SINGLES AND GG(T) COINCIDENCES WITH GE DETECTORS  
+#       AND CE WITH SI(LI) DETECTOR.                                      
+#  1978Dr09: DESCRIBED CE SPECTROMETER USED IN 1977Dr08.                  
+#  Others: 1994Po20 and 1993Bl02                                          
+#L E$From a least-squares fit to EG                                       
+#L J$ From 206PB adopted levels.                                          
+#G E,M,MR$From 206PB adopted gammas                                       
+#G RI$From 1977Dr08, unless otherwise noted.                              
+#G E(P)$Assignment of this G-RAY is based on data of 206PB adopted gammas 
+#G RI(Q)$Computed from branching ratio in 206PB adopted gammas            
+#G RI(R)$Computed from branching ratio in 206PB adopted gammas            
+#G and intensity of the 202.4G.                                           
+#P  2200.14  4  7-               125 US    2                              
+PB206 PB206 IT 0.0 1.25E-4 1.0
+
+#206PB2CG are not repeated here; see pertinent IT DECAY and adopted levels for   
+#G are not repeated here; see pertinent IT DECAY and adopted levels for   
+#G details                                                                
+#G E$From 1993Bl02, unless otherwise specified                            
+#G RI$From 1977Dr08, unless otherwise specified                           
+#G M$From 206PB adopted gammas. These assignments are                     
+#G based on the CE measurements of 1977Dr08, which were normalized        
+#G on EKC(803G).                                                          
+#P  4027.2      12+              202 NS    3                              
+PB206 PB206 IT 0.0 2.02E-7 1.0
+

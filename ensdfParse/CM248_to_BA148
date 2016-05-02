@@ -1,0 +1,58 @@
+#148BA    248CM SF DECAY                1997UR01                  14NDS    201404
+#  248CM SF DECAY                1997UR01                  14NDS    201404
+#H TYP=FUL$AUT=N. NICA$CIT=NDS 117, 1 (2014)$CUT=1-Oct-2013$              
+#  Eurogam2, 52 ^Ge including 24, four-crystal clover detectors, 4 ^LEPS. 
+#  Measured: EG, RI, DCO ratios, GGG(THETA), linear polarization.         
+#  Assigned by coincidence with ZR partner. Other: 1997AHZZ               
+#G $1997UR01 GIVE THE FOLLOWING CHARACTERISTIC VALUES FOR DCO RATIOS:     
+#G $a) FROM GGG(THETA), FOR A STRETCHED quadrupole transition DCO = 1.00, 
+#G independent of the spin value of the initial level;                    
+#G for a stretched, unmixed dipole transition DCO = 1.20,                 
+#G independent of the spin value of the initial level;                    
+#G for a non-stretched, unmixed dipole transition in                      
+#G a 4 -> 4 -> 2 -> 0 cascade DCO = 0.91;                                 
+#G and for a stretched, unmixed dipole transition                         
+#G in a 3 -> 4 -> 2 -> 0 cascade DCO = 1.28.                              
+#G $b) FROM GG(THETA), for a stretched quadrupole transition DCO = 0.89   
+#G independent of the spin value of the initial level;                    
+#G for a stretched, unmixed dipole transition DCO = 1.09 independent of   
+#G the spin value of the initial level;                                   
+#G for a non-stretched, unmixed dipole transition DCO = 0.81              
+#G for a 6 -> 6 -> 4 cascade, and DCO = 0.82 for a 8 -> 8 -> 6 cascade;   
+#G and for a stretched, unmixed dipole transition in a 3 -> 4 -> 2 cascade
+#G DCO = 1.19.                                                            
+#G $1997UR01 GIVE THE FOLLOWING CHARACTERISTIC VALUES FOR LINEAR          
+#G POLARIZATION:                                                          
+#G for a stretched quadrupole transition +0.14 for electric transition    
+#G and -0.14 for magnetic transition independent of the spin value of     
+#G the initial level;                                                     
+#G for a stretched unmixed dipole transition +0.09 for electric           
+#G transition and -0.09 for magnetic transition independent of the spin   
+#G value of the initial level                                             
+#G RI        Relative intensity                                           
+#G M$DEDUCED BY EVALUATOR BASED ON DCO AND LINEAR POLARIZATION            
+#G MEASUREMENTS                                                           
+#L E         From a least-squares fit to EG data                          
+#L J         From adopted levels; supporting assignments based on DCO     
+#L ratios, linear polarization, and GGG(THETA) from this data set are     
+#L given in comments                                                      
+#L BAND(A)$GS BAND                                                        
+#L BAND(B)$OCTUPOLE BAND                                                  
+#P 0.0         0+                3.48E5 Y  6                              
++G gamma 0.1418 1.0
++G gamma 0.2813 0.86
++G gamma 0.6332000000000001 0.03
++G gamma 0.38480000000000003 0.7
++G gamma 0.5401 0.08
++G gamma 0.293 0.01
++G gamma 0.44780000000000003 0.16
++G gamma 0.4568 0.35
++G gamma 0.3802 0.14
++G gamma 0.3892 0.06
++G gamma 0.5031 0.17
++G gamma 0.3496 0.06
++G gamma 0.4723 0.08
++G gamma 0.5357000000000001 0.09
++G gamma 0.542 0.04
++G gamma 0.5635 0.05
+

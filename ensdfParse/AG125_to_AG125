@@ -1,0 +1,59 @@
+#125AG    125AG IT DECAY (80 NS)        2013LA11                  ENSDF    201508
+#  125AG IT DECAY (80 NS)        2013LA11                  ENSDF    201508
+#H TYP=FUL$AUT=BALRAJ SINGH$CUT=20-AUG-2015$CIT=ENSDF$                    
+#  Reactions: {+9}Be({+136}Xe,X|g),({+238}U,F|g)                          
+#  2013La11: facility: GSI, SIS-18 synchrotron. Beams: {+136}Xe and       
+#  {+238}U at 750 MeV/nucleon. Targets: 1 and 4 g/cm{+2} Be. Detectors:   
+#  FRS, ionization chambers, multiwire chambers, scintillation detectors, 
+#  RISING multidetector array comprising 105 HPGe detectors, mounted in 15
+#  composite Cluster detectors without anti-Compton shields. Measured:    
+#  tof, |DE, B|r, E|g, I|g, |g(t), |g|g, |g|g(t), level half-lives.       
+#G RI$Values are relative to 100 for 714.1|g in the decay of 0.491-|ms    
+#G isomer                                                                 
+#L E$From E|g data                                                        
+#P   859.9+X 14                  80 NS     17                             
+
+#125AG    125AG IT DECAY (0.491 US)     2013LA11,2012KA36,2009ST28ENSDF    201508
+#  125AG IT DECAY (0.491 US)     2013LA11,2012KA36,2009ST28ENSDF    201508
+#H TYP=FUL$AUT=BALRAJ SINGH$CUT=20-AUG-2015$CIT=ENSDF$                    
+#  Reactions: {+9}Be({+136}Xe,X|g) (2009St28); {+9}BE({+238}U,F|g)        
+#  (2012Ka36); {+9}Be({+136}Xe,X|g),({+238}U,F|g) (2013La11)              
+#  2009St28 (also 2007To23, 2006ToZW, 2005WaZY): {+136}Xe beam of         
+#  E=120 MeV/nucleon. Reaction products separated by A1900 spectrometer,  
+#  and implanted in NSCL-MSU Beta Counting System, consisting of three    
+#  silicon PIN detectors, one double-sided and six single-sided silicon   
+#  detectors. Neutron-rich Pd and Ag isotopes identified based on         
+#  time-of-flight and energy loss. Measured E|g, I|g, half-life,          
+#  fragment-|g coincidence. One possible scenario of placement of the four
+#  |g rays is shown, with an ambiguous ordering of the 731-672 and 717-686
+#  cascades                                                               
+#  2012Ka36: {+238}U beam at E=345 MeV/nucleon provided by the RIBF       
+#  accelerator complex at RIKEN facility. Fission fragments were separated
+#  and analyzed by BigRIPS separator, transported to focal plane of       
+#  ZeroDegree spectrometer and finally implanted in an aluminum stopper.  
+#  Particle identification was achieved by |DE-tof-B|r method.            
+#  Delayed gamma rays from microsecond isomers were detected by three     
+#  clover-type HPGe detectors. Measured E|g, I|g, |g|g-coin, isomer       
+#  half-life. Deduced levels, J, |p. Comparison with previous studies.    
+#  2013La11: facility: GSI, SIS-18 synchrotron. Beams: {+136}Xe and       
+#  {+238}U at 750 MeV/nucleon. Targets: 1 and 4 g/cm{+2} Be. Detectors:   
+#  FRS, ionization chambers, multiwire chambers, scintillation detectors, 
+#  RISING multidetector array comprising 105 HPGe detectors, mounted in 15
+#  composite Cluster detectors without anti-Compton shields. Measured:    
+#  tof, |DE, B|r, E|g, I|g, |g(t), |g|g, |g|g(t), level half-lives.       
+#G E$Weighted averaged values from 2013La11 and 2012Ka36. Some of the     
+#G values given in 2006ToZW are more precise but these are in disagreement
+#G with the values in 2009St28 from the same group. The energies of all   
+#G the four gamma rays in 2009St28 are systematically higher by |?3 keV   
+#G as compared to those in 2013La11, 2012Ka36 and 2006ToZW.               
+#G RI$From 2013La11, where the values are most precisely given probably   
+#G due to better statistics                                               
+#G $The orderings of the 728-670 and 683-714 cascades is taken from       
+#G 2013La13, these were not established in 2009St28 (also 2006ToZW),      
+#G while the ordering of the 728-670 cascade was reversed in              
+#G 2012Ka36 defining a level at 728 keV instead of that at 670 keV as in  
+#G 2013La11 and 2009St28                                                  
+#L E$From least-squares fit to E|g data                                   
+#L J$From 2013La11, based on systematics and decay pattern                
+#P 1501.2     6 (17/2-)          0.491 US  20                             
+

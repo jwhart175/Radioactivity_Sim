@@ -1,0 +1,38 @@
+#117SB    117SB IT DECAY (355 US)       1987IO01                  ENSDF    201101
+#  117SB IT DECAY (355 US)       1987IO01                  ENSDF    201101
+#H TYP=FUL$AUT=JEAN BLACHOT$CIT=ENSDF$CUT=1-Mar-2009$                     
+#  1990Ko42: (|a,2n|g)E(|a)=26, 27 MeV |g, |g|g, |g(t)                    
+#  1987Io01: (|a,2n|g)E(|a)=27 MeV |g, |g|g, |g(|q), |g(|q,H,t)           
+#  1975Fr10, 1970He13: (|a,2n|g) E(|a)=21-27 MeV, |g|g-coin, |g(|q),      
+#  |g(t) , Ice/I|g                                                        
+#  1978Su05: (|a,2n|g)E(|a)=22 MeV, |g(t), ce(t)                          
+#  CC$ FROM BrIcc v2.2b (20-Jan-2009) 2008Ki07, "Frozen Orbitals" appr.   
+#G E,RI$From 1987Io01, |a(K)exp are from 1975Fr10                         
+#L T$From (|a,2n|g), except for 3131 level                                
+#P 3130.82   17(25/2)+           355 US    17                             
+SB117 SB117 IT 0.0 3.55E-4 0.260
++G gamma 0.5273 1.0
++G gamma 1.16 0.86
++G gamma 1.3105 0.36
++G gamma 0.1628 0.2
++G gamma 0.7957000000000001 0.79
++G gamma 1.3229000000000002 1.62
++G gamma 0.3745 0.48
++G gamma 0.3369 0.47
++G gamma 0.7117 0.08
++G gamma 0.366 0.36
++G gamma 0.7029 0.08
++G gamma 1.0002 2.95
++G gamma 1.0897999999999999 0.23
++G gamma 0.2022 1.36
++G gamma 0.3872 0.41
++G gamma 0.7532000000000001 0.15
++G gamma 0.4571 0.33
++G gamma 0.2505 0.52
++G gamma 0.35 0.9
++G gamma 0.4624 0.17
++G gamma 0.5522999999999999 1.14
++G gamma 0.1974 2.43
++G gamma 0.2926 0.3
++G gamma 0.0581 0.06
+

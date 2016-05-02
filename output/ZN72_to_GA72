@@ -1,0 +1,34 @@
+# 72GA    72ZN B- DECAY                 1968KJ02,1969KU08         10NDS    201002
+#  72ZN B- DECAY                 1968KJ02,1969KU08         10NDS    201002
+#H TYP=FUL$AUT=D. Abriola(a), A.A. Sonzogni$CIT=NDS 111,1 (2010)$         
+#H CUT=1-May-2009$                                                        
+#  The decay scheme is mainly from 1968Kj02.                              
+#B $|b|g by 1963De11, 1963Is03, 1963Th03 and 1969Ku08.                    
+#G $|g|g-coin measurements by 1963Is03, 1963Kj01, 1963Th03, 1968Kj02 and  
+#G 1969Ku08.                                                              
+#G E,RI$Data are from 1968Kj02                                            
+#G $The |a(K)exp values given in comments have been recalculated by the   
+#G evaluators following 1974Al34 from the data of 1968Kj02 with           
+#G |a(K)exp=0.104 {I7} for {+99}Tc(6.02-h) 140.5|g and with a correction  
+#G made for the 142.6|g Ice(K).                                           
+#G M$The |a(K)exp are all consistent with mult=E1 or M1, except E2 or M2  
+#G for the 102.8|g. The |D|p character comes from the probable J|p for    
+#G the levels.                                                            
+#L T$From |b|g and |g|g delayed coincidences (1969Ku08), except where     
+#L noted otherwise.                                                       
+#  CC$ FROM BrIcc v2.2a (13-Jul-2008) 2008Ki07, "Frozen Orbitals" appr.   
+#  THE EKC VALUE FOR 99TC IS FROM 1968Va14                                
+#P 0           0+                46.5 H    1              442.8     23    
+ZN72 GA72 beta- 0.4428 167400.0 0.8278
++G gamma 0.016399999999999998 0.1
++G gamma 0.1028 0.027999999999999997
++G gamma 0.11209999999999999 0.025
++G gamma 0.0419 0.01
++G gamma 0.1447 1.0
++B beta- 0.296 0.851
++G gamma 0.046799999999999994 0.006999999999999999
++G gamma 0.07940000000000001 0.021
++G gamma 0.0887 0.026000000000000002
++G gamma 0.1915 0.113
++B beta- 0.249 0.147
+

@@ -1,0 +1,179 @@
+# 98SR    98RB B- DECAY (114 MS)        2002LH01,1984BE50         03NDS    200305
+#  98RB B- DECAY (114 MS)        2002LH01,1984BE50         03NDS    200305
+#H TYP=ERR$AUT=J. Tuli$DAT=3-Jul-2007$COM=Minor typo/syntex fix$          
+#H TYP=FUL$AUT=BALRAJ SINGH, ZHIQIANG HU$CIT=NDS 98, 335 (2003)$          
+#H CUT=31-Jan-2003$                                                       
+#  The sources of {+98}Rb studied contained both 114-ms and 96-ms         
+#  isomers. Combined |g-ray data were given by 2002Lh01, 1984Be50,        
+#  1980Sc13 and 1980JuZY.                                                 
+#  2002Lh01: Measured E|g, I|g, |g|g, |g|g(t). The source was             
+#  formed by on-line mass separation of fragments from {+238}U(p,X)       
+#  at 600 MeV proton energy                                               
+#  1984Be50: measured |g, |g|g, |g|g(|q)                                  
+#  1980Sc13, 1980JuZY (also 1982Ka03): measured |g, |g|g, ce,             
+#  ce|g, |bce(t). Complete details and level scheme are given by 1980JuZY 
+#  Others:                                                                
+#  |g, |g|g: 1987Ma58, 1979Bo26, 1979Pe17, 1977Wo07                       
+#  |b|g and Q(|b{+-}): 1992Pr03, 1988GrZX (and 1982Pa24),                 
+#  1987Ma58, 1985IaZZ (also 1984IaZZ), 1984BlZN, 1982Br23, 1979Pe17       
+#  T{-1/2} ({+98}Rb isotope): 1986Wa17, 1983Re10, 1981En05,               
+#  1981Re05, 1979Pe17, 1979Ri09, 1979Pe01, 1979En02, 1978Wo09, 1976Ru01,  
+#  1974Ro15, 1971Tr02, 1967Kl06                                           
+#  |g|g(|q,h): 1989Wo05                                                   
+#  |g|g(t): 1987Oh05                                                      
+#  |b|g|g(t): 1989Ma47 (also 1989Ma38)                                    
+#B           |b feedings and associated log| {Ift} values are considered  
+#B as approximate (by the evaluators) since several arbitrary assumptions 
+#B have been made by 2002Lh01 in dividing |g-ray intensities amongst      
+#B the two isomers. 2002Lh01 also state that there are unplaced           
+#B transitions, although, these are not listed in the paper.              
+#G           The following |g rays with E|g(I|g) reported by 1984Be50     
+#G have been omitted due to lack of confirmation by 2002Lh01:             
+#G 166.1 (1.0), 173.8 (0.5), 253.0 (0.8), 437.2 (0.5), 1259.3 (0.5),      
+#G 1335.4 (0.7), 1530.2 (0.8), 1837.5 (7.4), 1986.8 (0.9), 2000.1 (0.7)   
+#G $ The following |g rays with E|g(I|g) described as uncertain by        
+#G 1980JuZY (or 1980Sc13) have been omitted due to lack of confirmation   
+#G by 1984Be50 and 2002Lh01: 301.4 (0.2); 692.2 (1.2), 713.8 (1.1),       
+#G 776.6 (0.3), 882.8 (0.3), 1119.7 (0.5), 1149.7 (0.6), 1386.2 (3.3),    
+#G 1611.1 (0.5), 1865.8 (1.1), 2008.2 (0.5),                              
+#G 2035.1 (0.5), 2101.5 (0.5), 2487.5 (1.5), 3680.5 (3.1)                 
+#G $ A possible 2526|g to ground state and a 129|g in coin with           
+#G 2498|g are mentioned by Pfeiffer et al in Mainz Annual report 2001,    
+#G see www.arxiv.org/abs/nucl-ex/0202025.                                 
+#G           |g|g(|q) coefficients (A{-2} and A{-4}) are from 1984Be50    
+#G E$From 2002Lh01, unless otherwise stated.                              
+#G RI$ Deduced (by the evaluators) from combined |g-ray intensity         
+#G data of 2002Lh01 and proposed |b feeding to separate levels            
+#G populated in the two activities. The separated intensities are         
+#G considered as tentative since some arbitrary assumptions have been     
+#G made by 2002Lh01 in the proposed |b feedings                           
+#G M$From ce data (1980Sc13). Mult=D+Q is from |g|g(|q) (1984Be50)        
+#G MR$From |g|g(|q) data (1984Be50). Values deduced by 1984Be50 were, in  
+#G some cases, found to be inconsistent with quoted A{-2} and A{-4}       
+#G coefficients. The values given here are from evaluator's estimate      
+#G based on A{-2} and A{-4} values of 1984Be50                            
+#G $  -------------------------------------------------------------       
+#G $  Gamma-ray intensities for the combined (96 ms+114 ms) activity      
+#G $     E|g      I|g       I|g         E|g      I|g      I|g             
+#G $         2002Lh01   1984Be50            2002Lh01  1984Be50            
+#G $                                                                      
+#G $     71.0    2.1 {I2}   2.5       1359.8   3.0 {I5}   3.5             
+#G $    107.2    2.1 {I2}   1.9 a     1403.9   0.6 {I2}   0.7             
+#G $    140.6    3.9 {I3}   3.0       1455.9   6.9 {I5}  10.2             
+#G $    144.5  100        100      1530.2              0.8                
+#G $    166.1               1.0    1539.2   0.8 {I3}   1.2                
+#G $    173.8               0.5    1600.4   1.7 {I9}   3.8 b              
+#G $    175.1    0.4 {I1}             1600.6   1.6 {I4}                   
+#G $    192.1    0.5 {I3}             1693.2  15.5 {I13} 17.8             
+#G $  Gamma-ray intensities for the combined (96 ms+114 ms) activity      
+#G $     E|g      I|g       I|g         E|g      I|g      I|g             
+#G $         2002Lh01   1984Be50            2002Lh01  1984Be50            
+#G $    215.5    7.8 {I9}   8.6       1772.0   3.5 {I5}   2.1             
+#G $    234.2    0.8 {I4}             1777.7   1.8 {I3}                   
+#G $    253.0               0.8    1819.5   4.4 {I4}   7.5                
+#G $    286.2    0.5 {I1}             1837.5              7.4             
+#G $    289.3   32.6 {I17} 31         1925.5   1.8 {I3}                   
+#G $    433.2    1.5 {I2}   2.9       1964.1   2.4 {I6}   2.2             
+#G $    437.2               0.5    1979.6   1.2 {I3}   0.8                
+#G $    523.4    0.5 {I2}             1986.8              0.9             
+#G $    585.0    0.4 {I2}             2000.1              0.7             
+#G $    605.4    1.2 {I2}   2.0       2086.3   1.0 {I3}   1.3 a           
+#G $    630.7    3.0 {I3}   3.6       2092.9   1.3 {I3}   1.4 a           
+#G $    655.8    8.4 {I8}   2.2       2144.5   3.4 {I5}   1.8             
+#G $    668.1    1.1 {I2}   1.1       2171.5  15.7 {I15} 16.7             
+#G $    726.8    1.9 {I3}   2.6       2214.7   0.8 {I2}                   
+#G $    810.4    0.3 {I1}   1.4 a     2315.8   7.5 {I21} 10.4             
+#G $    871.4    2.1 {I3}   1.9       2498.2   1.7 {I3}                   
+#G $   1079.7    2.2 {I3}   2.2       2659.8   1.5 {I3}                   
+#G $   1092.8    2.0 {I3}   0.9       2804.2   2.1 {I5}   2.5 a           
+#G $   1105.5    1.7 {I3}   2.9       3008.6   7.0 {I7}   9.0             
+#G $   1167.1    0.5 {I2}   0.7       3028.6   2.9 {I5}   6.8             
+#G $   1253.2    0.7 {I2}   0.5 a     3145.9   2.1 {I4}   3.6             
+#G $   1259.3               0.5    3290.2   3.6 {I14}  4.2                
+#G $   1323.9    2.0 {I4}   2.2       3478.1   1.1 {I3}   1.6 a           
+#G $   1335.4               0.7    3622.2   1.7 {I7}   2.2 a              
+#G $      a: from 1980JuZY (or 1980Sc13)                                  
+#G $      b: combined intensity for 1600 doublet                          
+#G $  ---------------------------------------------------------------     
+#L           The following levels are omitted here due to lack of         
+#L confirmation in more recent work: 799.9, 1888.6, 2519.0 (proposed by   
+#L 1977Wo07) and 2606.1 (from 1979Pe17)                                   
+#L E$From least-squares fit to E|g's                                      
+#L J$See adopted levels                                                   
+#P  0.0         (0,1)             114 MS   5              12326     25    
++G gamma 0.144224 0.46
++B beta- 5.645 0.185
++B beta- 5.163 0.051
++B beta- 4.913 0.018000000000000002
++B beta- 4.829 0.021
++B beta- 4.808 0.10099999999999999
++B beta- 4.677 0.015
++B beta- 4.653 0.039
++B beta- 4.64 0.27
++B beta- 4.405 0.040999999999999995
++B beta- 4.171 0.066
++B beta- 4.012 0.032
+
+# 98SR    98RB B- DECAY (96 MS)         2002LH01,1984BE50         03NDS    200305
+#  98RB B- DECAY (96 MS)         2002LH01,1984BE50         03NDS    200305
+#H TYP=ERR$AUT=J. Tuli$DAT=3-Jul-2007$COM=Minor typo/syntex fix$          
+#H TYP=FUL$AUT=BALRAJ SINGH, ZHIQIANG HU$CIT=NDS 98, 335 (2003)$          
+#H CUT=31-Jan-2003$                                                       
+#  The sources of {+98}Rb studied contained both 114-ms and 96-ms         
+#  isomers. Combined |g-ray data were given by 2002Lh01, 1984Be50,        
+#  1980Sc13 and 1980JuZY.                                                 
+#  2002Lh01: measured |g, |g|g, |g|g, |g|g(t)                             
+#  1984Be50: measured |g, |g|g, |g|g(|q)                                  
+#  1980Sc13 (and 1980JuZY,1982Ka03): measured |g, |g|g, ce,               
+#  ce|g, |bce(t). Complete details and level scheme are given by 1980JuZY 
+#  Others:                                                                
+#  |b|g and Q(|b{+-}): 1988GrZX (and 1982Pa24)                            
+#  |b|g|g(t): 1989Ma47                                                    
+#  See detailed comments and |g-ray intensity data from the               
+#  combined activities in 98RB B- decay (114 MS)                          
+#B           |b feedings and associated log| {Ift} values are considered  
+#B as approximate (by the evaluators) since several arbitrary assumptions 
+#B have been made by 2002Lh01 in dividing |g-ray intensities amongst      
+#B the two isomers. 2002Lh01 also state that there are unplaced           
+#B transitions, although, these are not listed in the paper.              
+#G           |g|g(|q) coefficients (A{-2} and A{-4}) are from 1984Be50    
+#G E$From 2002Lh01, unless otherwise stated.                              
+#G RI$ Deduced (by the evaluators) from combined |g-ray intensity         
+#G data of 2002Lh01 and proposed |b feeding to separate levels            
+#G populated in the two activities. The separated intensities are         
+#G considered as tentative since some arbitrary assumptions have been     
+#G made by 2002Lh01 in the proposed |b feedings                           
+#G M$From ce data (1980Sc13). Mult=D+Q is from |g|g(|q) (1984Be50)        
+#G MR$From |g|g(|q) data (1984Be50). Values deduced by 1984Be50 were, in  
+#G some cases, found to be inconsistent with quoted A{-2} and A{-4}       
+#G coefficients. The values given here are from evaluator's estimate      
+#G based on A{-2} and A{-4} values of 1984Be50                            
+#L J$See adopted levels                                                   
+#L E$From least-squares fit to E|g's                                      
+#P  270      AP (3,4)              96 MS   3              12326     25    
++B beta- 5.808 0.24
++G gamma 0.144224 0.688
++B beta- 5.67 0.05
++B beta- 5.463 0.013000000000000001
++B beta- 5.461 0.054000000000000006
++B beta- 5.141 0.045
++B beta- 5.112 0.038
++B beta- 5.073 0.003
++B beta- 4.958 0.008
++B beta- 4.938 0.038
++B beta- 4.931 0.03
++B beta- 4.861 0.006
++B beta- 4.847 0.0034000000000000002
++B beta- 4.822 0.04
++B beta- 4.81 0.078
++B beta- 4.807 0.006
++B beta- 4.653 0.015
++B beta- 4.769 0.10300000000000001
++B beta- 4.749 0.028999999999999998
++B beta- 4.535 0.015
++B beta- 4.473 0.015
++B beta- 4.301 0.025
++B beta- 4.228 0.06
++B beta- 4.218 0.025
++B beta- 4.141 0.012
+

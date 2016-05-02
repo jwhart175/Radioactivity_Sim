@@ -1,0 +1,30 @@
+#113RU    113TC B- DECAY:160 MS         1998KU17,2007KU23         10NDS    201006
+#  113TC B- DECAY:160 MS         1998KU17,2007KU23         10NDS    201006
+#H TYP=FUL$AUT=Jean Blachot$CIT=NDS 111, 1471 (2010)$CUT=1-May-2009$      
+#  1998Ku17: {+113}Tc produced in the proton induced fission of {+238}U   
+#  using 25 MeV protons delivered by the K-130 cyclotron at Jyvaskyla.    
+#  Mass separator IGISOL used. Measured E|g, I|g, |g|g using LEGe array   
+#  of Ge detectors and a BGO shield.                                      
+#  2007Ku23: Reanalysis of data in 1998Ku17                               
+#B IB,LOGFT$From 2007Ku23, values should be considered as approximate     
+#B due to the complex nature of the level scheme and observation of no    
+#B levels above 1620 keV whereas the Q value is |?8500                    
+#G E(X)$The |g ray is also from {+113}Rh decay                            
+#L E$From least-squares fit to E|g's, assuming an uncertainty of 0.4      
+#L keV.                                                                   
+#P 0           (GT 5/2)          160 MS    +50-40         8480      SY    
+TC113 RU113 beta- 8.48 0.16 0.5
++G gamma 0.11320000000000001 0.12
++G gamma 0.14709999999999998 0.0
++G gamma 0.2747 0.05
++G gamma 0.0985 1.0
++G gamma 0.0658 0.08
++G gamma 0.1643 0.54
++G gamma 0.1311 0.16
++G gamma 0.1971 0.12
++G gamma 0.2943 0.24
++G gamma 0.3355 0.33
++G gamma 0.43339999999999995 0.3
++G gamma 0.5895 0.19
++G gamma 1.5201 0.25
+

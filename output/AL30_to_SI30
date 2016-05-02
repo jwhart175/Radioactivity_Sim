@@ -1,0 +1,24 @@
+# 30SI    30AL B- DECAY                 1974AL09,1974KL07         10NDS    201009
+#  30AL B- DECAY                 1974AL09,1974KL07         10NDS    201009
+#H TYP=FUL$AUT=M. SHAMSUZZOHA BASUNIA$CIT=NDS 111, 2331 (2010)$           
+#H CUT=30-Jun-2010$                                                       
+#  1974Al09: 30AL was produced in the 18O(18O,ALPHA pn) reaction; Ge(Li)  
+#  detector; measured EG, RI.                                             
+#  1974Kl07: 30AL was produced in the 30SI(n,p) reaction; Ge(Li) detector;
+#  Measured EG, RI.                                                       
+#B IB$Weighted average of values from 1974Al09 and 1974Kl07, except       
+#B otherwise noted.                                                       
+#B IB(B)     From 1974Kl07.                                               
+#G E         From Adopted gammas, except otherwise noted.                 
+#G RI        From 1974Al09                                                
+#G E(A)      From 1974Kl07                                                
+#G M,MR      From adopted gammas.                                         
+#L E$From a least-square fit to the G-ray energies, DE=0.5 keV            
+#L assumed by the evaluator for missing G-ray uncertainty.                
+#L J$From adopted levels.                                                 
+#P 0           3+                3.62 S    6              8561      14    
+AL30 SI30 beta- 8.561 3.62 1.0
++G gamma 1.26313 0.624
++G gamma 3.4983299999999997 0.504
++G gamma 1.53412 0.0025
+

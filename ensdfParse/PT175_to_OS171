@@ -1,0 +1,34 @@
+#171OS    175PT A DECAY                 1979HA10,1982DE11,1996PA0102NDS    200209
+#  175PT A DECAY                 1979HA10,1982DE11,1996PA0102NDS    200209
+#H TYP=FUL$AUT=CORAL M. BAGLIN$CIT=NDS 96,399 (2002)$CUT=5-Aug-2002$      
+#  PARENT T: 2.4 S 3 (1996Pa01), 2.54 S 15 & 2.56 S 10 (1979Ha10), 2.1 S 2
+#  (1966Si08), 2.52 S 8 (1973Ga08). w.a. 1979Ha10, 1973Ga08: 2.54 S 6.    
+#  Others: 1966SI08, 1970HA18, 1971HA03, 1973GA08, 1986KE03.              
+#  1979HA10: sources from decay of 179HG parent activity; measured        
+#  EA, IA, AG coin (silicon surface-barrier detector, FWHM AP 25          
+#  KEV; GELI, FWHM=2.1 KEV at 1.33 MEV).                                  
+#  1982DE11: sources from 63CU bombardments of indium and tin             
+#  (E(63CU)=245-300 MEV, helium-jet transport); enriched                  
+#  targets; measured EA, IA (silicon surface-barrier detector).           
+#  1986KE03: sources from 90ZR on YTTRIUM, ZR, and                        
+#  MO (E(90ZR)=321-390 MEV); velocity-filter,                             
+#  evaporation-residue separation; enriched targets; measured             
+#  EA, IA (silicon surface-barrier detector).                             
+#  1996PA01: sources from heavy-ion fusion-evaporation reactions; recoil  
+#  mass separator, double-sided SI strip detector (FWHM LE 20 KEV);       
+#  measured ^T{-1/2}, %A for 175PT.                                       
+#  The decay scheme is from 1979HA10.  JPI(175PT)=(7/2-) IS ASSUMED       
+#  BASED ON UNHINDERED DECAY TO (7/2-) 76.7 LEVEL.                        
+#L J,T       From adopted levels.                                         
+#G E         From 1979HA10.                                               
+#A IA        From 1979HA10, renormalized so |S(IA)=100.                   
+#A HF        If R0=1.557 8 (from R0(170OS)=1.553 14 and R0(172OS)=1.559 10
+#A in 1998AK04), ^T{-1/2}(175PT)=2.54 S 6 (weighted average of 2.52 S 8   
+#A (1973GA08), 2.56 S 10 (1979HA10) and 2.54 S 15 (1979HA10)), %A=64 5    
+#A (1979HA10).                                                            
+#P 0.0          (7/2-)           2.54 S    6              6178      3     
+PT175 OS171 alpha 6.178 2.54 0.64
++A alpha 6.038 0.07400000000000001
++A alpha 5.9595 0.85
++A alpha 5.831 0.073
+

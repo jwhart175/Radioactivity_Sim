@@ -1,0 +1,19 @@
+# 67CU    67CU IT DECAY                 2000As05                  05NDS    200512
+#  67CU IT DECAY                 2000As05                  05NDS    200512
+#H TYP=FUL$AUT=HUO JUNDE, HUANG XIAOLONG, J.K. TULI$                      
+#H CIT=NDS 106, 159 (2005)$CUT=1-Apr-2005$                                
+#  {+198}Pt({+76}Ge,^X), E=635 MeV, measured isomers T1/2, EG, IG,        
+#  GG and (projectile-like fragment)G coincidences, angular correlations. 
+#  Decay scheme established for isomeric state at 3464 keV.               
+#L J$From adopted levels                                                  
+#L E         From least-squares fit to EG data.                           
+#P 3463.6      15/2+             2.4 NS    LT                             
+CU67 CU67 IT 0.0 2.4E-9 1.0
++G gamma 1.1154000000000002 0.29
++G gamma 0.5542 0.25
++G gamma 1.6696 0.28
++G gamma 0.8331000000000001 0.48
++G gamma 2.5025999999999997 0.48
++G gamma 0.8609 1.0
++G gamma 0.0999 0.71
+

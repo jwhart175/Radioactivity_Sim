@@ -1,0 +1,208 @@
+#123IN    123CD B- DECAY (2.10 S)       1989HU03,1986HO24         04NDS    200410
+#  123CD B- DECAY (2.10 S)       1989HU03,1986HO24         04NDS    200410
+#H TYP=FUL$AUT=S. Ohya$CIT=NDS 102, 547 (2004)$CUT=1-Nov-2003$            
+#  1989HU03: U(N,F), FAST NEUTRON, ON-LINE MS, SEMI G, GG-COIN.           
+#  1986HO24: 235U(N,F), ON-LINE MS, SEMI G, GG-COIN, CE.                  
+#  THE DECAY SCHEME IS THAT PROPOSED BY 1989HU03. FAST-NEUTRON FISSION    
+#  FAVORS HIGH-SPIN ISOMER. G-RAYS WERE DISTINGUISHED BY COMPARING THE    
+#  RESULTS FROM 1986HO24. Decay scheme from 1986Ho24 is mixed from decays 
+#  of G.S. and isomer. There are some discrepancies between the level     
+#  scheme from 1989Hu03 and from 1986Ho24. Evaluator                      
+#  adopted the G.S. decay                                                 
+#  scheme from 1989Hu03. However, there are many unplaced |g rays and the 
+#  decay scheme is incomplete. Therefore, logft values to weakly fed      
+#  levels are tentative.                                                  
+#L E         E(levels) are based on a least-squares fit to E(|g's)        
+#L J,T       From Adopted Levels                                          
+#G E,RI$From 1989HU03                                                     
+#G M(A)$FROM CE MEASUREMENTS (1986HO24).                                  
+#G CC(L)$FOR MR=1; UNCERTAINTIES ARE CHOSEN TO COVER M1, E2 THEORY VALUES 
+#P 0.0         (3/2+)            2.10 S    2               6115     33    
++G gamma 0.244 0.003663
++G gamma 0.5252 0.009999000000000001
++G gamma 0.5454 0.026136
++G gamma 0.714 0.004554
++G gamma 0.9134099999999999 0.019799999999999998
++G gamma 1.04488 0.01683
++G gamma 1.51948 0.010791000000000002
++G gamma 1.5948 0.006237
++G gamma 1.6418599999999999 0.006237
++G gamma 1.976 0.02178
++B beta- 2.39 0.01
++G gamma 0.37132 0.5147999999999999
++B beta- 2.222 0.151
++G gamma 0.35363 0.03564
++G gamma 1.0522799999999999 0.24849
++B beta- 2.182 0.039
++G gamma 0.43868 0.022968
++G gamma 0.81029 0.06237
++G gamma 1.51209 0.04237200000000001
++G gamma 1.56609 0.003267
++B beta- 1.955 0.028999999999999998
++G gamma 0.91716 0.04356
++G gamma 1.2883499999999999 0.0037619999999999997
++B beta- 1.807 0.01
++G gamma 1.2275 0.024552
++G gamma 1.59923 0.011583
++B beta- 1.763 0.012
++G gamma 0.45425 0.0024749999999999998
++G gamma 0.883 0.0024749999999999998
++G gamma 2.0207100000000002 0.007029
++B beta- 1.758 0.051
++G gamma 1.33144 0.06534
++G gamma 1.70237 0.02178
++B beta- 1.708 0.134
++G gamma 0.99912 0.013859999999999999
++G gamma 1.08432 0.0495
++G gamma 1.4381300000000001 0.08316000000000001
++G gamma 1.8095 0.017027999999999998
++B beta- 1.697 0.040999999999999995
++G gamma 1.46007 0.040589999999999994
++B beta- 1.594 0.044000000000000004
++G gamma 0.34748 0.029699999999999997
++G gamma 1.32477 0.013859999999999999
++B beta- 1.587 0.212
++G gamma 0.25669 0.027719999999999998
++G gamma 0.36369999999999997 0.0024749999999999998
++G gamma 0.82723 0.003267
++G gamma 0.88117 0.04356
++G gamma 1.2556500000000002 0.025938
++G gamma 1.34106 0.03069
++G gamma 1.69481 0.07029
++G gamma 2.39346 0.007029
++B beta- 1.57 0.052000000000000005
++G gamma 0.81363 0.01881
++G gamma 1.37736 0.013760999999999999
++G gamma 1.73095 0.019701
++B beta- 1.523 0.10400000000000001
++G gamma 0.60273 0.012078
++G gamma 1.83078 0.06039
++G gamma 2.20214 0.03168
++B beta- 1.517 0.141
++G gamma 0.512 0.004059
++G gamma 0.6151 0.013760999999999999
++G gamma 1.4033699999999998 0.004356
++G gamma 1.4889100000000002 0.02574
++G gamma 1.84286 0.07722
++G gamma 2.21433 0.015939000000000002
+
+#123IN    123CD B- DECAY (1.82 S)       1989HU03                  04NDS    200410
+#  123CD B- DECAY (1.82 S)       1989HU03                  04NDS    200410
+#H TYP=FUL$AUT=S. Ohya$CIT=NDS 102, 547 (2004)$CUT=1-Nov-2003$            
+#  1989HU03: U(N,F), FAST NEUTRON, ON-LINE MS, SEMI G, GG.                
+#  1986HO24: 235U(N,F), ON-LINE MS, SEMI G, GG, CE.                       
+#  THE DECAY SCHEME IS THAT PROPOSED BY 1989HU03.                         
+#  G-RAYS FOR BOTH DECAYS WERE DISTINGUISHED BY DECAY RATES AND BY        
+#  COMPARISON TO THE RESULTS FROM 1986HO24, THERMAL NEUTRON FISSION       
+#  PRODUCTION WAS USED. There are many unplaced |g rays and the decay     
+#  scheme is incomplete. Therefore, logft values to weakly fed levels     
+#  are tentative.                                                         
+#  DECAY SCHEME BY 1986HO24 WAS CONSTRUCTED FOR MIXED STATES OF G.S. and  
+#  ISOMER. THERE ARE SOME DISCREPANCIES BETWEEN THE LEVEL SCHEMES FROM    
+#  1989HU03 AND FROM 1986HO24.                                            
+#L E         E(levels) are based on a least-squares fit to                
+#L E|g's from 1989Hu03 and 1986Ho24.                                      
+#G RI,E$FROM 1989HU03.                                                    
+#G RI$UNREALISTICALLY SMALL UNCERTAINTIES FOR SOME |g RAYS GIVEN BY       
+#G 1989HU03 WERE INCREASED BY THE EVALUATOR.                              
+#G E(A)$ FROM 1986HO24. UNCERTAINTIES OF ENERGY AND INTENSITY WERE        
+#G ESTIMATED BY THE EVALUATOR.                                            
+#G M$FROM CE MEASUREMENTS WITH SI DETECTOR (1986HO24).                    
+#G CC(L)$FOR MR=1; UNCERTAINTIES ARE CHOSEN TO COVER M1, E2 THEORY        
+#G VALUES                                                                 
+#G RI(B)$ THE PARENT STATE (11/2-) CAN NOT FEED THESE LEVELS WITH         
+#G DJ LT 2. These levels are expected to be populated by undetected       
+#G |g rays from higher levels.                                            
+#L J,T       From Adopted Levels                                          
+#P 316.53    23(11/2-)           1.82 S    3              6115      33    
+CD123 IN123 beta- 6.115 1.82 1.0
++G gamma 0.22636 0.00612
++G gamma 0.2999 0.001836
++G gamma 0.45955 0.004794
++G gamma 0.646 0.00204
++G gamma 0.6720900000000001 0.001938
++G gamma 0.68425 0.0017340000000000003
++G gamma 1.1777 0.002346
++G gamma 1.2757 0.008976000000000001
++G gamma 1.30718 0.007446
++G gamma 2.00908 0.002652
++G gamma 2.11129 0.014688
++G gamma 2.15152 0.001428
++G gamma 2.30841 0.004998
++G gamma 2.4081599999999996 0.019379999999999998
++G gamma 3.0776999999999997 0.00153
++G gamma 0.37132 0.009078000000000001
++B beta- 2.384 0.019
++G gamma 1.0275 0.22643999999999997
++G gamma 0.35363 5.1E-4
++G gamma 1.0522799999999999 0.00306
++G gamma 0.43868 0.002448
++G gamma 0.81029 0.007241999999999999
++B beta- 2.318 0.027000000000000003
++G gamma 0.13838 0.008874
++G gamma 1.16586 0.25704
++G gamma 1.47377 0.012546
++G gamma 1.51209 0.04691999999999999
++B beta- 2.128 0.0124
++G gamma 1.56609 0.019686
++G gamma 0.45425 0.007038
++G gamma 0.883 0.005508000000000001
++G gamma 2.0207100000000002 0.012648
++G gamma 0.9351 0.10608000000000001
++B beta- 1.874 0.052000000000000005
++G gamma 2.10281 0.12546000000000002
++G gamma 0.99912 2.0400000000000003E-4
++G gamma 1.08432 7.14E-4
++G gamma 1.4381300000000001 0.0011220000000000002
++G gamma 1.8095 3.06E-4
++B beta- 1.838 0.11199999999999999
++G gamma 0.07581 0.02448
++G gamma 0.07759999999999999 0.015912000000000003
++G gamma 1.01291 0.019889999999999998
++G gamma 1.1508 0.004182
++G gamma 2.17898 0.002856
++G gamma 0.0847 0.00204
++B beta- 1.796 0.107
++G gamma 1.1022 0.030906
++G gamma 1.24048 0.08058
++G gamma 2.26809 0.005406000000000001
++B beta- 1.776 0.055999999999999994
++G gamma 0.20712 0.013770000000000003
++G gamma 1.14384 0.01122
++G gamma 1.2821900000000002 0.033659999999999995
++B beta- 1.754 0.059000000000000004
++G gamma 0.33403 0.007956000000000001
++G gamma 1.18879 0.004692
++G gamma 2.3547399999999996 0.07446
++G gamma 0.25669 0.002346
++G gamma 0.82723 2.0400000000000003E-4
++G gamma 0.88117 0.003672
++G gamma 1.2556500000000002 0.0022440000000000003
++G gamma 1.34106 0.0027540000000000004
++G gamma 1.69481 0.00561
++G gamma 2.39346 6.12E-4
++B beta- 1.704 0.095
++G gamma 0.1071 0.001428
++G gamma 0.9876 0.01224
++G gamma 2.4615 0.08058
++B beta- 1.685 0.141
++G gamma 0.48028 0.013668
++G gamma 0.98873 0.04794
++G gamma 1.47377 0.07344
++G gamma 2.50044 0.006324
++B beta- 1.672 0.156
++G gamma 0.17479 0.02244
++G gamma 0.2615 0.009486000000000001
++G gamma 0.42841 0.07446
++G gamma 1.3636400000000002 0.04691999999999999
++G gamma 1.5021300000000002 0.003162
++B beta- 1.637 0.125
++G gamma 0.2929 0.004182
++G gamma 2.60198 0.12036000000000001
++B beta- 1.63 0.0174
++G gamma 0.515 0.006324
++G gamma 1.452 0.011118000000000001
++B beta- 1.58 0.016399999999999998
++G gamma 0.19340000000000002 0.004284
++G gamma 1.55774 0.011627999999999998
+

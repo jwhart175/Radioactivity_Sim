@@ -1,0 +1,105 @@
+# 65GA    65GE EC DECAY                 1973JO12                  10NDS    201009
+#  65GE EC DECAY                 1973JO12                  10NDS    201009
+#H TYP=FUL$AUT=E. BROWNE, J. K. TULI$CIT=NDS 111, 2425 (2010)$            
+#H CUT=1-Aug-2009$                                                        
+#  1987Vi01: measured B-delayed p's, EG and RI from 64ZN(P,G)             
+#  1973Jo12: measured EG, RI; deduced decay scheme; GELI's detectors      
+#  1974Ro16: measured EG, RI; deduced decay scheme                        
+#  1976Ha29,1981Ha44: measured p-X-RAY, p-G, G-X-RAY and B+G coincidences 
+#  and B-delayed G's                                                      
+#  1975Ro25: measured delayed GG coincidences, deduced T; NAI's           
+#  A T1/2=1.5 MIN 65GE activity reported in 1958Po79 and associated with  
+#  G-rays at 0.67 and 1.72 MEV has been searched for but not              
+#  observed (1973Jo12,1974Ro16).                                          
+#E IB        From G intensity balance at each level for E(level) LT 2000; 
+#E from %B+P for E(level)=5065 and above, normalized to RI(650)=33.0%     
+#E (1987Vi01)                                                             
+#G E         From 1973Jo12, except as noted.                              
+#G RI        From 1973Jo12. RI's from 1974Ro16, where measured, are in    
+#G good agreement with 1973Jo12 values, except as noted.                  
+#G M         From adopted G's.                                            
+#G MR        From adopted G's.                                            
+#L E         From a least-squares fit to EG data, except where noted.     
+#L Levels at 5065 and above are from 1987Vi01; their energy is determined 
+#L from B-delayed protons and a proton binding energy for 65GA=3943 KEV 1.
+#L The energy uncertainty was estimated by the evaluators from the        
+#L uncertainties in these two quantities.                                 
+#L E(A)      Level populated in 64ZN(P,G) (1987Vi01)                      
+#L E(B)      Not seen in 64ZN(P,G) (1987Vi01)                             
+#L J         From adopted levels                                          
+#P 0           (3/2)-            30.9 S    5              6.24E3    10    
+GE65 GA65 beta+ 6.24 30.9 1.0
++G gamma 0.753 0.01287
++G gamma 2.219 0.00231
++G gamma 2.448 0.01386
++G gamma 2.7035 0.00198
++G gamma 2.7171999999999996 0.0033
++G gamma 2.9685 0.0049499999999999995
++B beta+ 8.834E-4 9.8E-4
++G gamma 0.062 0.2673
++B beta+ 2.39 0.0
++G gamma 0.19080000000000003 0.10329
++B beta+ 2.328 0.0
++G gamma 0.4591 0.019799999999999998
++G gamma 0.5877 0.0264
++G gamma 0.6497 0.33
++B beta+ 2.105 0.0
++G gamma 0.6187 0.01518
++G gamma 0.8091 0.2145
++G gamma 0.8849 0.0033
++G gamma 1.0759 0.00825
++B beta+ 2.028 0.0
++G gamma 1.6008 0.00693
++B beta+ 1.617 1.0E-4
++G gamma 1.0702 0.00924
++G gamma 1.2298 0.022110000000000005
++G gamma 1.6885 0.022110000000000005
++G gamma 1.8163 0.00396
++G gamma 1.8792 0.00957
++G gamma 0.8268 0.0036300000000000004
++G gamma 1.902 0.00396
++G gamma 0.9707 0.00231
++G gamma 1.2370999999999999 0.01254
++G gamma 1.5119 0.0033
++G gamma 2.0995999999999997 0.01485
++G gamma 2.1626 0.00528
++G gamma 2.1216 0.0033
++G gamma 2.2795 0.0033
++G gamma 1.1836 0.00462
++G gamma 1.2057 0.01221
++G gamma 3.0859 0.00231
++G gamma 1.1507 0.00132
++G gamma 2.1216 0.0033
++G gamma 2.3876 0.0036300000000000004
++G gamma 1.6165999999999998 0.007260000000000001
++G gamma 2.4693 0.0033
++G gamma 3.28 0.0029700000000000004
++B beta+ 1.513 1.0E-4
++B beta+ 0.07 0.00882
++B beta+ 8.827E-4 0.05
++B beta+ 8.827E-4 9.9E-4
++B beta+ 8.826000000000001E-4 9.9E-4
++B beta+ 8.824999999999999E-4 9.9E-4
++B beta+ 8.824E-4 9.9E-4
++B beta+ 8.824E-4 9.9E-4
++B beta+ 8.822999999999999E-4 9.9E-4
++B beta+ 8.822999999999999E-4 9.9E-4
++B beta+ 8.821E-4 9.9E-4
++B beta+ 8.82E-4 9.9E-4
++B beta+ 8.82E-4 9.9E-4
++B beta+ 8.819E-4 9.9E-4
++B beta+ 8.817E-4 0.001
++B beta+ 8.817E-4 0.001
++B beta+ 8.814999999999999E-4 0.001
++B beta+ 8.813E-4 0.001
++B beta+ 8.812E-4 0.001
++B beta+ 8.811E-4 0.001
++B beta+ 8.809E-4 0.001
++B beta+ 8.805E-4 0.01
++B beta+ 8.801E-4 0.04
++B beta+ 8.796E-4 0.08
++B beta+ 8.793E-4 0.01
++B beta+ 8.79E-4 0.001
++B beta+ 8.78E-4 0.001
++B beta+ 8.78E-4 0.001
+

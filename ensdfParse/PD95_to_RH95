@@ -1,0 +1,65 @@
+# 95RH    95PD EC DECAY (13.3 S)        1982NO06,1982KU15         10NDS    201010
+#  95PD EC DECAY (13.3 S)        1982NO06,1982KU15         10NDS    201010
+#H TYP=FUL$AUT=S. K. Basu, G. Mukherjee, A. A. Sonzogni$                  
+#H CIT=NDS 111, 2555 (2010)$CUT=30-Jun-2009$                              
+#  1982Ku15: {+58}Ni({+40}Ca,n2p) E=4 MeV/^A; measured T1/2, EG, IG,      
+#  B-delayed EP, IP, BG-, P(X-ray)-coin.                                  
+#  All data are from 1982Ku15, except as noted. The decay scheme is from  
+#  1982Ku15 and is an extension of that proposed by 1982No06              
+#  Published data on the 95PD(GS) EC+B+ Decay is not available, only      
+#  data on the decay of the 95PD isomer is found.                         
+#  CC$ FROM BrIcc v2.2a (13-Jul-2008) 2008Ki07, "Frozen Orbitals" appr.   
+#E TI,LOGFT$Approximate values due to the large number of unplaced        
+#E gammas.                                                                
+#G M$From the adopted gammas                                              
+#G E(A)$Unweighted average of 168.8 {I1} (1982Ku15) and 169.0 {I3}        
+#G (1982No06) and 1351.1 {I1} (1982Ku15) and 1350.7 {I3} (1982No06),      
+#G respectively                                                           
+#L E$From least-squares fit to E|g's.                                     
+#L J,T$From the adopted levels, except as noted                           
+#P 1875.3    4 (21/2+)           13.3 S    3              8189      SY    
+PD95 RH95 beta+ 8.189 13.3 0.89
++G gamma 0.3476 0.010876800000000002
++G gamma 0.6406000000000001 0.00464736
++G gamma 0.7319 0.00583392
++G gamma 0.7882 0.01245888
++G gamma 0.7947000000000001 0.0031641600000000005
++G gamma 0.8398 0.00306528
++G gamma 0.9357000000000001 0.00514176
++G gamma 0.9571000000000001 0.01196448
++G gamma 1.111 0.013546560000000001
++G gamma 1.1442999999999999 0.009888000000000001
++G gamma 1.213 0.00435072
++G gamma 1.2408 0.007613760000000001
++G gamma 1.2751 0.024225600000000003
++G gamma 1.3635 0.00514176
++G gamma 1.408 0.006328320000000001
++G gamma 1.4247999999999998 0.02472
++G gamma 1.4438 0.0059328
++G gamma 1.7459 0.003955200000000001
++G gamma 1.7645 0.006328320000000001
++G gamma 1.7932000000000001 0.01206336
++G gamma 1.35106 0.9887999999999999
++G gamma 0.7166 0.6634848
++G gamma 0.1688 0.1226112
++G gamma 0.9132 0.1275552
++B beta+ 0.35919999999999996 0.0077
++G gamma 0.185 0.0613056
++G gamma 0.38180000000000003 0.47759039999999997
++B beta+ 3.08 1.14E-4
++G gamma 0.524 0.1048128
++B beta+ 2.83 1.5E-4
++G gamma 0.8599 0.00435072
++G gamma 1.0282 0.026895360000000004
++B beta+ 2.77 1.5E-4
++G gamma 0.6802999999999999 0.0800928
++B beta+ 2.75 1.6E-4
++G gamma 1.0051 0.03767328
++B beta+ 2.7 1.7E-4
++G gamma 1.6005999999999998 0.051219839999999996
++G gamma 1.7705 0.00870144
++B beta+ 2.41 2.3E-4
++G gamma 1.8988 0.02472
++B beta+ 2.27 2.7E-4
++G gamma 1.927 0.003955200000000001
+

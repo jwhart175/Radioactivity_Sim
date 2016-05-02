@@ -1,0 +1,103 @@
+# 69AS    69SE EC DECAY                 1988DE28,1977MA24         14NDS    201401
+#  69SE EC DECAY                 1988DE28,1977MA24         14NDS    201401
+#H TYP=FUL$AUT=C.D. NESARAJA$CIT=NDS 115, 1 (2014)$CUT=31-Jul-2013$       
+#  1988De28: Measured |e delayed p, |g, and |b{++}, E|g, I|g, |g|g and    
+#  p|g coincidences using the recoil transport helium jet technique.      
+#  Gammas detected by Ge(Li)counters with 20% efficiency. Emitted protons 
+#  detected with the Si(Au) surface barrier counter. FWHM typically 18    
+#  keV for composite |a source of {+239}Pu,{+241}Am, {+244}Cm.            
+#  Authors assume that all the observed transitions are                   
+#  Gamow-Teller and conclude that the sum over all of them over an        
+#  energy range of about 6.5 MeV is equal to 0.23 or 7.7% of the sum rule 
+#  limit of 3.                                                            
+#  1977Ma24: Measured |e delayed p, |g, and |b{++} spectra, E|g, I|g,     
+#  and |g|g, |b{++}|g, p|g, pX-ray and |gX-ray coincidences and |a(K)exp. 
+#  Other: 1973Pr12.                                                       
+#E IB$ From intensity balance                                             
+#E TI(A)$ From intensity imbalances. No direct measurements of the g.s.   
+#E branch have been made. From a measurement of the annihilation          
+#E radiation, 1977Ma24 deduce a g.s. branch of 19% {I12}, and 1988De28    
+#E using their revised decay scheme and the annihilation measurement of   
+#E 1977Ma24 deduce a g.s. branch of 22% {I10}. Both authors               
+#E assume J|p({+69}Se g.s.)=3/2-. See 1989Ar13 for a discussion of this   
+#E feeding. With J|p({+69}Se g.s.) established as 1/2-, any decay to the  
+#E 5/2- g.s. will be negligible (an expected log {Ift} > 12.8 gives       
+#E I{-|e+|b{-+}}<3 x10{+-6} %. The evaluator has revised the decay        
+#E scheme so that the g.s. feeding is zero. The I|g normalization now is  
+#E 0.85 {I5} compared with 0.78 {I10} for a g.s. branch of 22% {I10}, and 
+#E the log {Ift} values for the excited levels are slightly smaller. No   
+#E changes in J|p assignments for the {+69}As levels are necessary        
+#E TI(B)$From the delayed proton spectrum (1988De28)                      
+#G E,RI$Weighted average data from 1988De28 and 1977Ma24, unless indicated
+#G otherwise                                                              
+#G E(D),RI(D)$ From 1977Ma24. Not reported by 1988De28                    
+#G E(F),RI(F)$ From 1988De28. Not reported by 1977Ma24                    
+#G M(E)$|a(K)exp consistent with multi E1 or M1. |D|p from decay scheme   
+#L E$ From a least-squares fit to the E|g data. Levels at 4649 and        
+#L above were deduced by 1988De28 from measurements of proton energy      
+#L emitted from these levels and the assumption that the proton feeding is
+#L essentially (98.6 %) to the ground state of {+68}Ge. A proton          
+#L separation energy of 3391 {I30} keV was adopted by these authors       
+#L for {+69}As and a recoil correction was applied. The present S(p)      
+#L value is 3420 {I20}                                                    
+#L J$From Adopted Levels                                                  
+#G CC$Calculated from |a(K)exp and |a(K)/|a.                              
+#G |a(K)exp have been recalculated from the values given by 1977Ma24      
+#G using the fluorescent yield from 1972Bb16.                             
+#P 0.0         1/2-              27.4 S    2              6680      30    
+SE69 AS69 beta+ 6.68 27.4 0.85
++G gamma 0.6371 0.032
++G gamma 1.2023 0.004
++G gamma 1.3945 0.013999999999999999
++G gamma 1.5629000000000002 0.004
++G gamma 0.09799 1.0
++G gamma 0.0665 0.376
++G gamma 0.3327 0.016
++G gamma 0.3993 0.053
++G gamma 0.4975 0.016
++G gamma 0.2919 0.027000000000000003
++G gamma 0.625 0.038
++G gamma 0.6915 0.255
++G gamma 0.7894 0.061
++G gamma 0.8357 0.027000000000000003
++G gamma 0.9112 0.016
++G gamma 0.9781 0.023
++G gamma 1.5265 0.012
++G gamma 1.5926 0.012
++G gamma 1.6909 0.013999999999999999
++G gamma 1.6464 0.013999999999999999
++G gamma 1.7441 0.006999999999999999
++G gamma 1.0757999999999999 0.044000000000000004
++G gamma 1.7002000000000002 0.017
++G gamma 1.7668 0.026000000000000002
++G gamma 1.866 0.006999999999999999
++G gamma 1.3296 0.015
++G gamma 2.1191999999999998 0.005
++G gamma 1.3609 0.017
++G gamma 1.6529 0.013999999999999999
++G gamma 2.0514 0.009000000000000001
++G gamma 2.086 0.004
++G gamma 1.5572000000000001 0.012
++G gamma 1.8494000000000002 0.008
++G gamma 1.4757 0.017
++G gamma 1.62 0.024
++G gamma 1.9122999999999999 0.012
++G gamma 2.2445999999999997 0.008
++G gamma 2.3102 0.013000000000000001
++G gamma 1.4569 0.017
++G gamma 2.3686 0.006999999999999999
++G gamma 2.435 0.002
++G gamma 2.3756 0.013999999999999999
++G gamma 1.9562 0.006999999999999999
++G gamma 2.8665 0.0016
++G gamma 2.9324 0.003
++G gamma 2.0690999999999997 0.004
++G gamma 3.0459 0.0072
++G gamma 3.122 0.0034999999999999996
++G gamma 3.1819 0.0032
++G gamma 3.2487 0.003
++G gamma 3.23 0.005
++G gamma 3.3043 0.0025
++G gamma 3.487 0.0013
++G gamma 3.835 0.003
+

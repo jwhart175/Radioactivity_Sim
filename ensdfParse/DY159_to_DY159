@@ -1,0 +1,43 @@
+#159DY    159DY IT DECAY (122 US)       1968BO18,1967CO26         12NDS    201201
+#  159DY IT DECAY (122 US)       1968BO18,1967CO26         12NDS    201201
+#H TYP=FUL$AUT=C. W. Reich$CIT=NDS 113, 157 (2012)$CUT=31-Dec-2010$       
+#  DATA SET PUDATED (NOVEMBER, 2010) BY CW REICH TO INCLUDE REVISED CC    
+#   VALUES, REVISED RI VALUE FOR THE 57 G, INCLUSION OF K-XRAY            
+#   INTENSITIES, REVISED NR VALUE, CORRECTED FORMAT PROBLEMS, AND         
+#   REVISED COMMENTS.                                                     
+#  Isomer produced by 159TB(d,2n) with pulsed beam (1968Bo18,1965Bo22)    
+#       with E(d)=12 MeV; by 159TB(p,n) (1967Co26,1965Bo22) with          
+#       EP=5-18 MeV, and Gd(|a,xn) (1965Bo22,1968Io01).                   
+#  Decay scheme is that of 1968Bo18, plus several G rays known from       
+#       159HO |e decay to depopulate these levels.                        
+#  Experimental methods:                                                  
+#  1965Bo22: From (p,n), (d,2n), and (|A,xn) reactions with pulsed        
+#   beams. Measured G's with NaI(Tl) detector and ce in magnetic          
+#   spectrometer. Report EG, IG, K/L, multipolarities for 7 G's.          
+#  1967Co20: From 159TB(p,n). Report EG and T1/2 of parent level.         
+#  1967Co26: From (p,n). Report EG, IG, for 7 G's.                        
+#  1968Bo18: From 159TB(d,2n). Measured G and ce singles and ce-G         
+#   and GG coincidences.  Report EG, IG, I(ce), |a{-K}(exp), and          
+#   |a{-L}(exp) for 11 G's.                                               
+#  1968Io01: From (A,xn). Summary, not clear what data are new results.   
+#  1972AnZK: Abstract, comments on isomerism.                             
+#G           I(XK)=175 30 (1968Bo18). Others: 183 (1965Bo22); and         
+#G  154 (1967Co26), after scaling the published data to make the          
+#G  intensity scale compatible.                                           
+#G E         From 1967Co26, except as otherwise noted. Other: 1965Bo22.   
+#G      For more precise values, see 159DY Adopted G radiations.          
+#G RI        From 1968Bo18, except as otherwise stated. Others: 1965Bo22  
+#G      and 1967Co26, which do not give uncertainties. See 1968Bo18 for   
+#G      I(ce) data.                                                       
+#G M,MR      From 159DY Adopted G radiations.                             
+#G CC        Values were computed for the more accurate G-ray energies    
+#G      from the 159HO |e decay.                                          
+#G E(R)      Not seen in isomer decay, but placement established in       
+#G      159HO |e decay. EG, IG, and IG(1+|a) from Adopted G data and      
+#G  IG(1+|a)(30+62+102)=IG(1+|a)(112.9)=22 {i6}.                          
+#G TI(U)     Note that IG(1+|a)(62)/IG(1+|a)(30)=0.11 (1982Vy02) and      
+#G   0.66 (1971Bo18), so IG(1+|a)(62) is uncertain.                       
+#L E         From least-squares fit to G energies.                        
+#L J         From 159DY Adopted Levels, but same are given by 1968Bo18.   
+#P 352.77    14 11/2-            122 US    3                              
+

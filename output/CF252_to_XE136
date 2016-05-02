@@ -1,0 +1,19 @@
+#136XE    252CF SF DECAY                1974SU04,1974CLZX,1970JO2002NDS    200206
+#  252CF SF DECAY                1974SU04,1974CLZX,1970JO2002NDS    200206
+#H TYP=FUL$AUT=A.A. Sonzogni$CIT=NDS 95, 837 (2002)$CUT=1-Feb-2002$       
+#  1970JO20, 1974CLZX and 1972CLZN, and 1974SU04 all measured G's, X-RAYS,
+#  (fragment)(fragment)- and FG-coincidences, and FG(T) and GG(T);        
+#  solid-state detectors and SILI. Other: 1971CH44.                       
+#  See 248CM SF Decay data set for a far more recent work                 
+#L J,T       From adopted levels                                          
+#G           GG-coincidences from 1974CLZX                                
+#G E         Weighted average from 1974SU04, 1974CLZX, and 1970JO20       
+#G RI        Photons per 100 fissions from 1970JO20, except as noted. Data
+#G of 1974SU04 agree but results from 1974CLZX are about half the         
+#G intensity                                                              
+#P 0            0+               2.645 Y   8                              
+CF252 XE136 SF 0.0 8.346802377600001E7 1.
++G gamma 1.3132000000000001 0.0086
++G gamma 0.38110000000000005 0.0073
++G gamma 0.1973 0.006
+

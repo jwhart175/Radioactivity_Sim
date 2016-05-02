@@ -1,0 +1,33 @@
+#153ER    153TM EC DECAY (1.48 S)       1989KO02,1988SCZV         06NDS    200602
+#  153TM EC DECAY (1.48 S)       1989KO02,1988SCZV         06NDS    200602
+#H TYP=FUL$AUT=R. G. Helmer {+*}$CIT=NDS 107, 507 (2006)$CUT=31-Dec-2005$ 
+#  Source produced in {+92}Mo({+64}Zn,n2p){+153}Yb(|e) and ({+64}Zn,3p)   
+#       followed by mass separation. Measured event-mode coincidence of   
+#       particles, |g rays, x rays and |b+'s tagged with time.            
+#E           Values give are calculated from the intensity balances at    
+#E      level.  However, this decay scheme is very incomplete, so it      
+#E      should be expected that the actual I(|e+|b+) are less than those  
+#E      given here, and that the actual log{Ift} values are larger.       
+#E      For example, see note for 971-keV 13/2+ level.  Therefore, no     
+#E      uncertainties are given.                                          
+#G E,RI      From 1989Ko02.                                               
+#L           Since the decay energy is over 6 MeV, this decay scheme      
+#L      with only a few |g rays is certainly not complete.                
+#L J         From Adopted Levels.                                         
+#P 0.0         (11/2-)           1.48 S    1              6473      16    
+TM153 ER153 beta+ 6.473 1.48 0.71
+
+#153ER    153TM EC DECAY (2.5 S)        1989KO02,1988SCZV         06NDS    200602
+#  153TM EC DECAY (2.5 S)        1989KO02,1988SCZV         06NDS    200602
+#H TYP=FUL$AUT=R. G. Helmer {+*}$CIT=NDS 107, 507 (2006)$CUT=31-Dec-2005$ 
+#  Source produced in {+92}Mo({+64}Zn,n2p){+153}Yb(|e) and ({+64}Zn,3p)   
+#       followed by mass separation. Measured event-mode coincidence of   
+#       particles, |g rays, x rays and |b+ tagged with time.              
+#L           Since the decay energy is over 6 MeV, this decay scheme      
+#L      with only one |g ray is certainly not complete. Therefore,        
+#L      the deduced |e+|b+ and |g intensities should be considered        
+#L      tentative.                                                        
+#L J         From Adopted Levels.                                         
+#P 43.2        (1/2+)            2.5 S     2              6473      16    
+TM153 ER153 beta+ 6.473 2.5 1.0
+

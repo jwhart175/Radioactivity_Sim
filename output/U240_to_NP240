@@ -1,0 +1,31 @@
+#240NP    240U B- DECAY (14.1 H)        1981HS02                  08NDS    200810
+#  240U B- DECAY (14.1 H)        1981HS02                  08NDS    200810
+#H TYP=FUL$AUT=BALRAJ SINGH, E. BROWNE$CIT=NDS 109, 2439 (2008)$          
+#H CUT=31-Jul-2008$                                                       
+#  1981HS02: MEASURED EG, IG, T1/2; RADIO-CHEMICAL SEPARATION             
+#  OTHERS: 1959BU20, 1953KN23, 1948HY61                                   
+#B IB,LOGFT$ Since the multipolarities of transitions are unknown,        
+#B the B- feedings given here are based on the assumption of              
+#B MULT=M1 or E1 for all transitions, except that for 44.1G which         
+#B is M1(+E2). Corresponding LOGFT's are deduced using X=20 15;           
+#B and are considered as approximate or lower limits.                     
+#L E$ FROM LEAST-SQUARES FIT TO EG'S                                      
+#L J$From 'adopted levels'.                                               
+#P 0           0+                14.1 H    1              400       16    
+U240 NP240 beta- 0.4 50760.0 1.0
++G gamma 0.0441 0.0105
++G gamma 0.08259999999999999 1.4000000000000001E-4
++G gamma 0.049100000000000005 7.000000000000001E-5
++G gamma 0.0665 0.00154
++G gamma 0.0503 5.0E-5
++G gamma 0.07809999999999999 4.0E-5
++G gamma 0.12830000000000003 8.699999999999999E-4
++G gamma 0.1454 8.100000000000001E-4
++G gamma 0.18969999999999998 0.0024
++G gamma 0.1692 0.00115
++G gamma 0.2801 1.6E-4
++G gamma 0.21230000000000002 1.5E-5
++G gamma 0.2948 1.9E-5
++G gamma 0.2556 4.0E-5
++G gamma 0.2998 1.3E-4
+

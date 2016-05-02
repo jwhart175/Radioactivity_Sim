@@ -1,0 +1,14 @@
+#216PO    220RN A DECAY                 1977Ku15                  07NDS    200705
+#  220RN A DECAY                 1977Ku15                  07NDS    200705
+#H TYP=FUL$AUT=S. -C. WU$CIT=NDS 108, 1057 (2007)$CUT=1-Mar-2007$         
+#  1977Ku15: {+220}Rn activity from decay chain of {+232}U;               
+#  E|g, I|g measured;  Ge(Li) detectors.                                  
+#  1989Po03: {+220}Rn activity from decay chain of {+228}Th;              
+#  measured E|g, I|g, |a|g-coin. |g(|q);                                  
+#  POLYTESSA array, 24 Compton suppressed Ge(L detectors.                 
+#A HF$HF(6288.08|a)=1.00 yields r{-0}({+216}Po)=1.5555 {I2} (1998Ak04)    
+#P 0             0+              55.6 S     1             6404.67   10    
+RN220 PO216 alpha 6.40467 55.6 1.0
++A alpha 6.28808 0.99886
++A alpha 5.747 0.00114
+

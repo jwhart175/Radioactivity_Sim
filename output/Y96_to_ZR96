@@ -1,0 +1,186 @@
+# 96ZR    96Y B- DECAY (5.34 S)         1990MA03,1988MA01,1990MA4508NDS    200810
+#  96Y B- DECAY (5.34 S)         1990MA03,1988MA01,1990MA4508NDS    200810
+#H TYP=FUL$AUT=D. Abriola(a), A.A. Sonzogni$CIT=NDS 109, 2501 (2008)$     
+#H CUT=1-Apr-2008$                                                        
+#  1975Kh05: measured ce spectra, T.                                      
+#  1975Sa15: studied both g.s. and isomeric decay of 96Y; measured E|g,   
+#  I|g, |g|g coin, E|b, T.                                                
+#  1988Ma01: E|g, I|g, ce spectra, I|g(t), |g|g coin, |g-ce coin, and     
+#  |g|g(|q)                                                               
+#  1990Ma03: measured E|g, I|g, I|g(t), |g|g(t) coin, ce-|g coin, |b|g    
+#  coin, ce spectra                                                       
+#  Other: 1988MaYY                                                        
+#  1990Ma45: measured T using |b|g delayed coin.                          
+#L E$From a least-squares fit to E|g data                                 
+#L J$From Adopted Levels                                                  
+#L T$From 1990Ma45                                                        
+#G E$From 1990Ma03, except where noted otherwise                          
+#G E(B)$From 1988Ma01                                                     
+#G E(C),RI(A)$From |g|g or ce-|g coincidence                              
+#G RI(D)$Mixed with a first-or second-escape peak from transitions of     
+#G higher energy; intensity of the impurity line was subtracted           
+#G M,MR$From adopted gammas                                               
+#B IB$From intensity balance at each level (1990Ma03)                     
+#P 0.0         0-                5.34 S    5              7096      23    
+Y96 ZR96 beta- 7.096 5.34 0.00235
++G gamma 1.7504000000000002 10.0
++G gamma 0.14665299999999998 0.32
++G gamma 1.8974000000000002 0.06
++G gamma 0.3287 0.221
++G gamma 0.4753 0.8
++G gamma 0.6444 0.3
++G gamma 2.2256 1.37
++G gamma 0.7717 0.064
++G gamma 0.9185 0.32
++G gamma 0.4695 0.73
++G gamma 0.6999 0.076
++G gamma 1.175 0.19
++G gamma 1.315 0.033
++G gamma 1.462 0.028999999999999998
++G gamma 3.2129000000000003 0.028999999999999998
++G gamma 0.7812 0.2
++G gamma 1.2252 0.024
++G gamma 1.6996 0.12
++G gamma 1.6120999999999999 0.008
++G gamma 3.701 0.05
++G gamma 2.274 0.022000000000000002
++G gamma 1.3324 0.055
++G gamma 4.5123999999999995 0.047
++G gamma 4.7374 0.045
++G gamma 1.6258 0.1
++G gamma 1.9121 0.035
++G gamma 2.94 0.06
++G gamma 3.0869 0.045
++G gamma 3.2574 0.036000000000000004
++G gamma 4.8392 0.10099999999999999
++G gamma 1.9563 0.015
++G gamma 4.8951 0.134
++G gamma 4.914 0.039
++G gamma 4.929 0.094
++G gamma 3.6151999999999997 0.013999999999999999
++G gamma 5.2283 0.055
++G gamma 5.2718 0.061
++G gamma 3.7308000000000003 0.062
++G gamma 3.8266 0.055999999999999994
++G gamma 3.8617 0.12
++G gamma 5.4425 0.043
++G gamma 5.502 0.052000000000000005
++G gamma 5.5386999999999995 0.045
++G gamma 5.551399999999999 0.19
++G gamma 3.9922 0.019
++G gamma 5.5737 0.026000000000000002
++G gamma 5.6013 0.14400000000000002
++G gamma 4.0442 0.017
++G gamma 4.0712 0.013999999999999999
++G gamma 4.1196 0.044000000000000004
++G gamma 5.7189 0.10300000000000001
++G gamma 4.159800000000001 0.009000000000000001
++G gamma 5.7829 0.016
++G gamma 5.8043000000000005 0.038
++G gamma 5.838100000000001 0.027000000000000003
++G gamma 5.847300000000001 0.063
++G gamma 4.1629 0.057999999999999996
++G gamma 4.3342 0.011000000000000001
++G gamma 5.914899999999999 0.055999999999999994
++G gamma 5.934399999999999 0.122
++G gamma 4.5626999999999995 0.009000000000000001
++G gamma 6.1416 0.015
++G gamma 6.2314 0.035
+
+# 96ZR    96Y B- DECAY (9.6 S)          1987STZX                  08NDS    200810
+#  96Y B- DECAY (9.6 S)          1987STZX                  08NDS    200810
+#H TYP=FUL$AUT=D. Abriola(a), A.A. Sonzogni$CIT=NDS 109, 2501 (2008)$     
+#H CUT=1-Apr-2008$                                                        
+#  1995HaZT,1997RaZZ: SF of {+252}Cf; measured E|g, I|g, |g|g|g coin      
+#  data at the |g-sphere; experimental details not available              
+#  1991OhZZ,1990OhZZ,1990Oh02: measured T{-1/2} by |b|g|g coin            
+#  1987StZX,1987St12,1988StZS: measured E|g, I|g, |g|g coin, |g|g(|q)     
+#  1975Sa15: studied both g.s. and isomeric decay of {+96}Y; measured     
+#  E|g, I|g, |g|g coin, E|b, T{-1/2}.                                     
+#  1975Kl11: identification of {+96}Y decay with T{-1/2}=9.6 s {I3} from  
+#  chemical separation of fission products; measured E|g, I|g, |g|g coin. 
+#  Decay scheme is from 1987StZX. This decay scheme and that of           
+#  1995HaZT, 1997RaZZ are very similar, except for the differences        
+#  pointed out in comments.                                               
+#L E$From 1987StZX, unless indicated otherwise                            
+#L E(B)$From 1995HaZT, 1997RaZZ; not reported by 1987StZX                 
+#L J$From Adopted Levels; supporting arguments mainly from |g|g(|q) in    
+#L 1988StZS are given in comments                                         
+#G E$From energy difference of initial and final levels of 1987StZX,      
+#G unless indicated otherwise. Some E|g from 1987StZX are not consistent  
+#G with their level energies                                              
+#G RI$From 1987StZX, unless indicated otherwise. Uncertainty not given by 
+#G authors                                                                
+#G M,MR$From adopted gammas                                               
+#G E(A)$Measured with a curved-crystal diffraction spectrometer           
+#G (1979Bo26).                                                            
+#B IB$From 1987StZX. These are not the same as the I|b obtained from I|g  
+#B normalization=0.0880 and the I|g balance. However, if I(|g+ce)(1582)   
+#B is neglected, one obtains an I|g normalization=0.0893 and if the I|b   
+#B thus obtained to the eleven levels from 4235 to 5900 keV are           
+#B arbitrarily renormalized to add up to 100, one obtains the I|b from    
+#B 1987StZX which are higher by about 13.8%.                              
+#P 1140      30(8+)              9.6 S     2              7096      23    
+Y96 ZR96 beta- 7.096 9.6 0.0880
++G gamma 1.7506 10.0
++G gamma 0.14665299999999998 3.87
++G gamma 1.8976 0.57
++G gamma 0.3286 0.06
++G gamma 0.4756 0.35
++G gamma 0.6437 0.17
++G gamma 2.2262 0.63
++G gamma 0.884 0.08
++G gamma 0.6314500000000001 0.85
++G gamma 0.9602 0.45
++G gamma 1.1072 5.47
++G gamma 0.2248 0.04
++G gamma 1.185 0.39
++G gamma 1.2229 3.04
++G gamma 1.2794 0.14
++G gamma 0.13290000000000002 0.1
++G gamma 0.1894 0.04
++G gamma 0.2273 0.16
++G gamma 0.1737 0.24
++G gamma 0.36310000000000003 2.56
++G gamma 0.401 0.03
++G gamma 0.626 0.08
++G gamma 1.8515 0.06
++G gamma 0.289 0.1
++G gamma 0.4627 0.05
++G gamma 0.6521 0.17
++G gamma 0.69 0.13
++G gamma 0.9148 6.7
++G gamma 0.8047000000000001 0.18
++G gamma 1.0064 0.13
++G gamma 0.7515 0.08
++G gamma 1.1145999999999998 0.2
++G gamma 0.489 0.11
++G gamma 0.778 0.13
++G gamma 1.179 0.03
++G gamma 0.15469999999999998 0.05
++G gamma 0.6172000000000001 6.25
++G gamma 0.9062 2.3
++G gamma 0.3354 0.03
++G gamma 1.7127000000000001 0.05
++G gamma 0.455 0.04
++G gamma 0.9792000000000001 0.41
++G gamma 0.5226000000000001 0.35
++G gamma 0.7191000000000001 0.09
++G gamma 0.5174 0.12
++G gamma 0.3147 0.07
++G gamma 0.6767000000000001 0.04
++G gamma 0.8049 0.14
++G gamma 1.5829000000000002 0.18
++G gamma 0.7283 0.1
++G gamma 0.8458 0.07
++G gamma 1.463 0.05
++G gamma 0.44139999999999996 0.04
++G gamma 0.6007 0.05
++G gamma 0.7505 0.05
++G gamma 0.7561 0.11
++G gamma 1.1180999999999999 0.15
++G gamma 1.2463 0.09
++G gamma 1.7353 0.12
++G gamma 1.2394 0.09
++G gamma 1.5103 0.07
+

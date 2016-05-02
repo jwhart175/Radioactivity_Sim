@@ -1,0 +1,49 @@
+# 38K     38CA EC DECAY (440 MS)        1996AN09,1980WI13         08NDS    200802
+#  38CA EC DECAY (440 MS)        1996AN09,1980WI13         08NDS    200802
+#H TYP=FUL$AUT=JOHN A. CAMERON AND BALRAJ SINGH$CIT=NDS 109, 1 (2008)$    
+#H CUT=26-Nov-2007$                                                       
+#  1996AN09: ON-LINE MASS SEPARATION AT ^ISOLDE FACILITY AT ^CERN.        
+#  MEASURED EG, IG, GG, BG COIN                                           
+#  1980WI13 (ALSO 1980WIZQ THESIS): MEASURED EG, IG                       
+#  1969GA27, 1968KA15: MEASURED EG, IG, ISOTOPIC HALF-LIFE                
+#  OTHERS:                                                                
+#  2006BO11 (also 2007Ri08): MASS MEASUREMENT OF 38CA (PENNING-TRAP       
+#  METHOD), DEDUCED Q VALUE                                               
+#  1998BA80: MEASURED BG COIN, SEARCH FOR THE FEEDING OF 2993, 0- STATE   
+#  1972ZI02: MEASURED ISOTOPIC HALF-LIFE                                  
+#  1970ASZV (THESIS): MEASURED HALF-LIFE, EG, IG                          
+#  1957CL23: FIRST isotopic IDENTIFICATION AND HALF-LIFE MEASUREMENT      
+#  REVIEW AND ANALYSIS OF SUPERALLOWED B TRANSITION:                      
+#  2005HA27 (ALSO 2006HA12,2005HA15,2005HA65)                             
+#  THEORY: 1991HI18                                                       
+#  This decay is important from the point-of-view of superallowed         
+#  (0+ to 0+) |b transition from {+38}Ca g.s. to 130.4, 0+ isomer         
+#  in {+38}K. Precise half-life measurement of {+38}Ca has recently       
+#  (2007Ge07) been remeasured and the analysis is in progress.            
+#  The |b{++}+|e feeding is not known experimentally, it is only          
+#  deduced from averaged {Ift} value for 12 other well-established        
+#  superallowed |b transitions in other nuclides.                         
+#  THE FOLLOWING LEVELS AND GAMMAS LISTED BY 1980WI13 HAVE NOT            
+#  BEEN INCLUDED HERE SINCE THE INTENSITIES OF THE DEEXCITING G RAYS      
+#  WERE GIVEN AS UPPER LIMITS ONLY BUT WHICH HAVE NOT BEEN REPORTED BY    
+#  1996AN09 WITH A BETTER DETECTION SENSITIVITY:                          
+#  2402 (1944G, RI<1.1); 2646 (2646G, RI<0.46); 3316 (3185G, RI<0.29,     
+#  3316G, RI<0.27); 3739 (3739G, RI<0.36); 3841 (3710G, RI<0.59);         
+#  4214 (4084G, RI<0.29); 4318 (4318G, RI<0.19); 4395 (4395G, RI<0.37)    
+#  Total decay energy deposit of 6613 keV {I18} calculated by RADLIST     
+#  code is somewhat lower than the expected value of 6742 keV             
+#G E,RI$ From 1996An09, unless otherwise stated                           
+#L E$ FROM LEAST-SQUARES FIT TO EG'S, ASSUMING |D(EG)=1 KEV WHEN NOT GIVEN
+#L J$ FROM 'ADOPTED LEVELS'.                                              
+#P 0            0+               440 MS    12             6742.3    5     
+CA38 K38 beta+ 6.7423 0.44 1.0
++B beta+ 2.323 0.0
++B beta+ 2.601 0.29
++B beta+ 2.4403 0.39
++G gamma 1.5677 0.201
++B beta+ 1.8360999999999998 0.35
++B beta+ 1.2145 0.24
++B beta+ 1.0492000000000001 0.45
++B beta+ 0.80932 0.02
++B beta+ 0.7533 0.04
+

@@ -1,0 +1,15 @@
+#203PO    203AT EC DECAY                1987SE04                  05NDS    200507
+#  203AT EC DECAY                1987SE04                  05NDS    200507
+#H TYP=FUL$AUT=F.G. KONDEV$CIT=NDS 105, 1 (2005)$CUT=1-Mar-2005$          
+#  1987Se04: Source produced using the IR(16O,XN) reaction. E(16O)=       
+#  125 and 130 MEV;                                                       
+#  Measured: G, I(CE), I X-RAY, GG(T), G(CE)(T); Deduced: levels, JPI,    
+#  EKC, ELC, multipolarity.                                               
+#  Others: 1971Jo11 1975BaYJ, 1970DaZM, 1969MoZW                          
+#G E,RI$From 1987Se04.                                                    
+#G M,MR$From EKC and ELC data, unless otherwise specified.                
+#L E$From a least-squares fit to EG.                                      
+#L J$From deduced transition multipolarities, unless otherwise specified. 
+#L T$From adopted levels.                                                 
+#P 0            9/2-             7.4 M      2              5144     29    
+

@@ -1,0 +1,36 @@
+#211RA    215TH A DECAY                 2005KU31,2000HE17,1968VA1813NDS    201306
+#  215TH A DECAY                 2005KU31,2000HE17,1968VA1813NDS    201306
+#H TYP=FUL$AUT=D. ABRIOLA, P. DEMETRIOU, M. HASSANVAND, M. HUSSAIN$       
+#H CIT=NDS 114, 231 (2013)$CUT=28-FEB-2013$                               
+#  2005Ku31: {+215}Th recoils from the {+170}Er({+50}Ti,5n) reaction      
+#  were separated from the beam using a velocity filter SHIP at GSI and   
+#  implanted into a position-sensitive 16-strip PIPS semiconductor        
+#  detector. Measured (recoil)-|g-|a-|g coincidences-correlations and     
+#  |g-rays.  Ge-Clover detector was used for |g measurements. Measured    
+#  E|a, E|g, I|g.                                                         
+#  2000He17: {+215}Th recoils from the {+170}Er({+51}V,p5n) reaction      
+#  were separated from the beam using a velocity filter and implanted     
+#  into a position-sensitive semiconductor detector. Measured E|a, E|g,   
+#  |a-|g coin. Detector: Ge for |g rays.                                  
+#  1973Mi03: {+215}Th recoils from the {+182}W({+35}Cl,pn) reaction were  
+#  separated with the JAERI recoil separator and implanted into a PSSD.   
+#  Measured E|a, T{-1/2}.                                                 
+#  1968Va18: Activity produced by {+206}Pb({+16}O,7n). Measured E|a,      
+#  I|a. Semiconductor detector.                                           
+#A E$From weighted average of values from 2005Ku31, 2000He17, 1968Va18,   
+#A unless otherwise stated                                                
+#A IA$From 1968Va18, unless otherwise stated                              
+#A HF$Using r{-0}({+211}Ra)=1.479 {I11}; interpolated value deduced from  
+#A r{-0}({+212}Ra)=1.466 {I6} and r{-0}({+210}Ra)=1.492 {I16} (1998Ak04). 
+#G E$From weighted average of values from 2005Ku31 and 2000He17, unless   
+#G otherwise stated                                                       
+#G M$From comparison of |a(exp) and |a from BrIcc.                        
+#G $|a(exp): determined from ratio of observed |a-|g coincidences and     
+#G calculated ones for a given |a line (2005Ku31)                         
+#L E,J,T$From Adopted Levels                                              
+#P 0.0          (1/2-)            1.2 S     2              7665     4     
++A alpha 7.522 0.396
++A alpha 7.392 0.515
++A alpha 7.334 0.079
++A alpha 7.236 0.01
+

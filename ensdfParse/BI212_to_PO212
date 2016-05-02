@@ -1,0 +1,95 @@
+#212PO    212BI B- DECAY (60.55 M)      1973DA38,1984GE07         05NDS    200503
+#  212BI B- DECAY (60.55 M)      1973DA38,1984GE07         05NDS    200503
+#H TYP=ERR$AUT=E. BROWNE$DAT=26-AUG-2008$COM=Corrected NB$                
+#H TYP=FUL$AUT=E. BROWNE$CIT=NDS 104, 427 (2005)$CUT=1-Jan-2004$          
+#  Modified by E. Browne (March 20, 2004).                                
+#B           Q(B-)=2248 4                                                 
+#B           F-K analysis of 1957Bu34 shows an additional B- group with   
+#B EB(endpoint)=0.08 MEV, IB=5% of B- decay.                              
+#B           BG: 1960Sc07                                                 
+#B           BG(THETA): 1969Sc06                                          
+#B           B(ALPHA), B(ALPHA)(T), B(ALPHA)(THETA): see 212PO levels     
+#B from 212BI B- decay (60.55 M).                                         
+#B IB$The intensities of the BETA groups have been deduced from           
+#B the absolute IG and the I(G+CE) balance at each level. The             
+#B intensities of B- delayed ALPHAS from the excited levels, other than   
+#B from the 1801 level, are insignificant. In the case of the 1801        
+#B level an ALPHA group with intensity IA=0.008% 8 has been considered    
+#B in IB calculation.                                                     
+#G           The conversion coefficients based on the ICE of 1963Da11 and 
+#G 1957Vo22 have been deduced by the evaluator using the adopted IG       
+#G and the E2 multipolarity of the 727.330G (KC=0.0106 for 1963Da11,      
+#G and LC=0.0026 for 1957Vo22).                                           
+#G E$From 1973Da38, unless otherwise noted                                
+#G RI$From 1984Ge07 (normalized to IG/100 212BI B- decays), unless        
+#G otherwise noted. Peaks at EG AP 1300 and EG=2200 were reported in      
+#G early studies (1947Jo05, 1947La24, 1958Ch43). These were not found by  
+#G 1960Em01 (EG=1.34 MEV, IG LE 0.3; EG=2.20 MEV, IG LE 1.9) and 1960Gi07 
+#G (EG=1.3 MEV, IG LT 0.2; EG=2.2 MEV, IG LT 0.06), nor reported by       
+#G later references.                                                      
+#G MR$From GG(THETA) of 1982Be09, unless otherwise noted                  
+#G E(A)$From 1979He10                                                     
+#G E(B)$From 1969Br24                                                     
+#G E(F)$From 1957Vo22                                                     
+#G E(G)$From 1982Be09                                                     
+#G RI(D)$From 1973Da38                                                    
+#L           (212BI B-)(212PO ALPHA): 1957Bu34                            
+#L           (212BI B-)(212PO ALPHA)(T): 1982Be09.                        
+#L The authors measured (100 LE EB LE 200)(10.55 MEV ALPHA)(T)            
+#L and obtained T=34 PS 4. It was assumed that the 10.55 ALPHA-group      
+#L originated entirely from the 1801 level. However, the currently        
+#L adopted energy of the observed "long range" ALPHA, EA=10554 2          
+#L (212BI B-|a (60.55 M)) gives E(212PO level)=1803.8 20. Since both the  
+#L 1800.8 and 1805.8 could decay by ALPHA emission, it is, therefore,     
+#L possible that this group may contain ALPHAS from either or both        
+#L of these levels. Thus, there is no experimental evidence to            
+#L conclusively assign the measured T to one of these two levels .        
+#L           (212BI 2250 B-)(212PO 8785 ALPHA)(THETA): isotropic          
+#L (1961De04), nonisotropic (1956Be38). (the last conclusion is not in    
+#L agreement with the adopted spin assignments).                          
+#L           (212PO 727 G)(212PO 8785 ALPHA)(THETA): isotropic            
+#L (1961De04,1956Fi41)                                                    
+#L           (212PO G, GG, sum G)(212PO ALPHA): 1962Be09, 1960Ga15,       
+#L 1960Gi07, 1960Ha19, 1960Sc07, 1958Ch43                                 
+#L           GG, sum GG: 1962Be09, 1960Ga15, 1960Gi07, 1960Sc07           
+#L           Others: 1983Sc13, 1982Sa36, 1968Yt02, 1960Em01               
+#L           GG(THETA): 1982Be09, 1961Gi05                                
+#L E$From a least-squares fit to EG                                       
+#L J$From 212PO adopted levels.                                           
+#L E(H)$From (100 LE EG LE 200)(10.55 MEV ALPHA)(T) T=34 PS 4             
+#L (1982Be09), see comment above.                                         
+#P    0.0       1(-)              60.55 M  6              2252.1    17    
+BI212 PO212 beta- 2.2521 0.0 0.6406
++B beta- 0.8342 0.5537
++B beta- 0.5331 0.0447
++B beta- 0.2308 0.0144
++B beta- 0.1926 0.018600000000000002
++B beta- 0.1724 0.0023
++B beta- 0.13169999999999998 3.0E-4
++B beta- 0.1301 0.0066
+
+#212PO    212BI B- DECAY (25.0 M)       1980LE27                  05NDS    200503
+#  212BI B- DECAY (25.0 M)       1980LE27                  05NDS    200503
+#H TYP=FUL$AUT=E. BROWNE$CIT=NDS 104, 427 (2005)$CUT=1-Jan-2004$          
+#  Only change is Q-record.  E. Browne. March 21, 2004.                   
+#  Assignment: U + 208PB with energy from reaction barrier up to 7.0      
+#  MEV/u; MS                                                              
+#  Measured E(212PO ALPHA), EG, G(212PO ALPHA)                            
+#L J$From 212PO adopted levels                                            
+#L E$E(level) calculated from EG, unless otherwise noted.                 
+#L E(A)$Levels populated by B- appear to decay by ALPHA decay only.       
+#L E(level) calculated from DQA=(Q(|a)(from level)-Q(|a)(from 212PO GS)). 
+#L On the bases of 212BI Q- and E(1st excited state in 208PB),            
+#L all ALPHA groups decay to 208PB GS                                     
+#P  250         (9-)             25.0 M    2              2252.1    17    
+BI212 PO212 beta- 2.2521 1500.0 0.33
+
+#212PO    212BI B- DECAY (7.0 M)        1984ES01,1980LE27         05NDS    200503
+#  212BI B- DECAY (7.0 M)        1984ES01,1980LE27         05NDS    200503
+#H TYP=FUL$AUT=E. BROWNE$CIT=NDS 104, 427 (2005)$CUT=1-Jan-2004$          
+#            Activity produced by 204HG(18O,14N), 205TL(18O,11C),         
+#  208PB(18O,14N) E(18O)=99-195 MeV (1984Es01).                           
+#L E,J,T     From Adopted Levels                                          
+#P 1910      GT GT16             7.0 M     3              2252.1    17    
+BI212 PO212 beta- 2.2521 420.0 1.0
+

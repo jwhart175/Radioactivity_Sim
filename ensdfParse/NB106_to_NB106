@@ -1,0 +1,29 @@
+#106NB    106NB IT DECAY (0.82 US)      2012KA36,1999GE01         ENSDF    201507
+#  106NB IT DECAY (0.82 US)      2012KA36,1999GE01         ENSDF    201507
+#H TYP=FUL$AUT=BALRAJ SINGH$CIT=ENSDF$CUT=20-JUL-2015$                    
+#  2012Ka36: {+238}U beam at E=345 MeV/nucleon provided by the            
+#  RIBF accelerator complex at RIKEN facility bombarded a Be target.      
+#  Fission fragments were separated and analyzed by BigRIPS separator,    
+#  transported to focal plane of ZeroDegree spectrometer and finally      
+#  implanted in an aluminum stopper. Particle identification was achieved 
+#  by |DE-tof-B|r method. Delayed gamma rays from microsecond isomers were
+#  detected by three clover-type HPGe detectors. Measured E|g, I|g,       
+#  |g|g-coin, isomer half-life. Deduced levels. Comparison with previous  
+#  studies.                                                               
+#  1999Ge01: {+106}Nb isomer produced and identified in thermal neutron   
+#  induced fission in {+241}Pu and also neutron-induced fission in        
+#  {+239}Pu for verification of isotopic assignment of the isomer. Six    
+#  gamma rays were observed at 63.5, 94.5, 107.3, 147.4, 201.8 and 204.6  
+#  keV, the last one being the most intense in the gamma-ray spectrum     
+#  Fig. 13 of 1999Ge01. Half-life was measured from the decay curves for  
+#  94.5, 107.3, 201.8 and 204.6 gamma lines in the spectrum. A preliminary
+#  level scheme without any J|p assignment was proposed, which is given   
+#  here, and later confirmed in 2012Ka36 and 2014Lu07. The gamma          
+#  intensities were not given in this work                                
+#  The decay scheme is from 1999Ge01, none was given by 2012Ka36          
+#G E,RI$From 2012Ka36                                                     
+#G CC$From BrIcc code (2008Ki07) with "Frozen-orbit" approximation        
+#L J$From Adopted Levels, based on assignments by 2014Lu07 in {+252}Cf SF 
+#L decay                                                                  
+#P 204.9     5                   0.82 US   6                              
+

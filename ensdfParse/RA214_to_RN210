@@ -1,0 +1,40 @@
+#210RN    214RA A DECAY (2.46 S)        2006KU26,2000HE17         14NDS    201408
+#  214RA A DECAY (2.46 S)        2006KU26,2000HE17         14NDS    201408
+#H TYP=FUL$AUT=M. SHAMSUZZOHA BASUNIA$CIT=NDS 121, 561 (2014)$            
+#H CUT=31-Mar-2014$                                                       
+#  2006Ku26: 214RA isotope produced by 170ER(48CA,4N) reaction at E=4.25  
+#  and 4.30 MeV/nucleon. Evaporation residues were separated in-flight    
+#  with the velocity filter SHIP, Measured EG, IG, GG, E|a, I|a, |a|g     
+#  coin, ce, lifetimes using a 16-strip ^PIPS detector and a Ge-Clover    
+#  detector placed behind the ^PIPS.                                      
+#  2000He17: Activity produced by 208PB(12C,6N), E=88-100 MeV, and        
+#  separated in-flight using a velocity filter.                           
+#A IA        From 2006Ku26.                                               
+#A HF        R0(210RN)=1.4552 21 was obtained by 1998AK04 by              
+#A requiring HF(7137A)=1.0.                                               
+#L J,T         From Adopted Levels                                        
+#P 0.0          0+               2.46 S    3              7273      3     
+RA214 RN210 alpha 7.273 2.46 0.99941
++A alpha 7.137 0.9984000000000001
++A alpha 6.505 0.0016
+
+#210RN    214RA A DECAY (68.6 US)       2006KU26                  14NDS    201408
+#  214RA A DECAY (68.6 US)       2006KU26                  14NDS    201408
+#H TYP=FUL$AUT=M. SHAMSUZZOHA BASUNIA$CIT=NDS 121, 561 (2014)$            
+#H CUT=31-Mar-2014$                                                       
+#  214RA isotope produced by 170ER(48CA,4N) reaction at E=4.25            
+#  and 4.30 MeV/nucleon. Evaporation residues were separated in-flight    
+#  with the velocity filter SHIP. Measured E|g, I|g, |g|g, E|a, I|a,      
+#  |a|g coin, ce, lifetimes using a 16-strip ^PIPS detector and a         
+#  Ge-Clover detector placed behind the ^PIPS. Deduced isomeric level     
+#  energy at 1710 keV 30 and |a branching.                                
+#A HF        R0(210RN)=1.4552 21 (1998AK04)                               
+#L E$From least-squares fit to G-ray energies, except otherwise           
+#L noted.                                                                 
+#L J         From Adopted Levels                                          
+#P 1865.2    4  8+               68.6 US   20             7273      3     
+RA214 RN210 alpha 7.273 6.86E-5 0.0009
++A alpha 8.95 0.91
++A alpha 8.35 0.03
++A alpha 7.29 0.06
+

@@ -1,0 +1,26 @@
+#210PB    210TL B- DECAY (1.30 M)       1964WE06,1981HA54         14NDS    201408
+#  210TL B- DECAY (1.30 M)       1964WE06,1981HA54         14NDS    201408
+#H TYP=FUL$AUT=M. SHAMSUZZOHA BASUNIA$CIT=NDS 121, 561 (2014)$            
+#H CUT=31-Mar-2014$                                                       
+#  Measured EG, GG coin, CE, 4PIBG coin, EB, IB. Detectors: scin, semi.   
+#  Others: 1961St20, 1959Dz97, 1957We21, 1956Ma61, 1938Le07, 1937De03.    
+#B IB(A)     No B- with EB GT 3 MEV was observed (1957Da03,1964We06).     
+#G           EG, IG (scin), ICE (semi) are from 1964We06, except as noted.
+#G M         Deduced from measured EKC and K/L, unless otherwise noted.   
+#G           EKC=CEK/IG normalized to KC(799G)=0.00815 (E2 theory)        
+#G RI        I(XK)=10 1 deduced by evaluator (2003Br13) from G-ray        
+#G intensities and theoretical CC, disagrees with measured I(XK)=20 4     
+#G (1964We06).                                                            
+#G CC$FROM BrIcc v2.3 (29-Mar-2013) 2008Ki07, "Frozen Orbitals" appr.     
+#L J         From Adopted Levels                                          
+#L E$Deduced by evaluator from a least-squares fit to G-ray energies.     
+#P 0.0         (5+)              1.30 M    3              5482      12    
+TL210 PB210 beta- 5.482 78.0 1.0
++B beta- 1.7626 0.2
++B beta- 1.635 0.3
++B beta- 0.8771 0.1
++B beta- 0.743 0.1
++B beta- 0.674 0.24
++B beta- 0.568 0.07
++B beta- 0.477 0.02
+

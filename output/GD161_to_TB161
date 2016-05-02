@@ -1,0 +1,103 @@
+#161TB    161GD B- DECAY                1975GA16,1976HN01         11NDS    201111
+#  161GD B- DECAY                1975GA16,1976HN01         11NDS    201111
+#H TYP=FUL$AUT=C. W. Reich$CIT=NDS 112,2497 (2011)$CUT=1-Jun-2011$        
+#  DATA SET UPDATED (OCTOBER, 2009) TO INCLUDE NEW QP VALUE, ICC          
+#   VALUES FROM BRICC AND REVISED COMMENTS                                
+#  The experimental methods were:                                         
+#  161GD produced from 160GD(N,G), unless otherwise noted.                
+#  1959Sc29: CE's measured in magnetic spectrograph. Enriched (95.4%)     
+#       samples. ECK's from CE's and RI's from NaI spectra. Deduced       
+#       several multipolarities. 1976Hn01 have better ECK's from better   
+#       RI's.                                                             
+#  1960Wi10: Measured activation cross section and 161GD half-life.       
+#  1964Lo09: 417-level half-life measured by GB- coincidences with plastic
+#       scintillators.                                                    
+#  1965Ma24: 417-, 480-, and 586-level half-lives from GB- coincidences wi
+#       plastic scintillators.                                            
+#  1966FuZZ: Thesis including EG's and RI's.                              
+#  1966Zy02: Enriched sample (98.7%) was used in the production. G single 
+#       were measured with Ge detector. Some GG coincidences were         
+#       measured with NaI detectors. B- spectrum measured with            
+#       anthracene detector.  Measured 161GD half-life.                   
+#  1967Ma33: 480-level half-life from CEB- coincidences with plastic      
+#       scintillator and magnetic lens spectrometer.                      
+#  1969Be54: 417-level half-life from GB- coincidences with plastic and   
+#       stilbene crystals and GG coincidences with NaI detectors.         
+#  1973Ga27: Conference report; see 1975Ga16 for complete work.           
+#  1973MaZI: Progress report; give preliminary list of |g's assigned to   
+#       this decay, but not useful.                                       
+#  1973ViZN: 1973MaZI is better keyno.                                    
+#  1974OkZW: Enriched (95.95%) sample used in production. G singles       
+#       measured with Ge detector. GG(THETA) with Ge and NaI detectors    
+#       and deduced four MR values, but 2nd solution not quoted.          
+#  1975Ga16: Enriched (99.999%) sample used in production. G singles      
+#       and GG coincidences measured with Ge detectors. Report 29 G's     
+#       below 530 keV and 101 G's above 750 keV.                          
+#  1975GnZZ: Conference report; these data are repeated in 1976Hn01.      
+#  1975HiZE: Abstract; saw 45 G's above 600 keV, but no data given. Not   
+#       published.                                                        
+#  1976Hn01: G singles and GG coincidences measured with Ge detectors.    
+#       Report 29 G's below 600 keV and none above that. Deduce G         
+#       multipolarities from ECK's using CE data of 1959Sc29.             
+#B E         Measured E(|b{+-}) value is from 1966Zy02.                   
+#B IB,LOGFT  I|b{+-} values are computed from |g-intensity balances and   
+#B the I|g values are normalized to give a total I|b{+-} of 100%. They    
+#B are not normalized to give 100% feeding of the ground state because    
+#B this value depends significantly on the very uncertain |a of the 56|g. 
+#B I|b{+-} and log| {Ift} values are not given for levels above 600 keV,  
+#B as the I|b{+-} values are too small (|<0.04%) to be meaningful, since  
+#B the unplaced |g's can change the values significantly.                 
+#B The total I|b{+-} given is 99.4%.                                      
+#B IB        The calculated I|b{+-}(g.s.)=8% {I12} is not included since  
+#B it is assumed that this value results from an error in the             
+#B transition intensity of the 56-keV |g. This assumption is              
+#B supported by the calculated I|b{+-}(56)=-7% {I12}. See comments on     
+#B |a for the 56|g.                                                       
+#G E,RI      From 1975Ga16; the nine doubtful unplaced |g's and one       
+#G possible sum peak (1975Ga16) have been omitted.                        
+#G Others: 1976Hn01, 1974OkZW, 1966Zy02, and 1966FuZZ.                    
+#G M         From K| x ray/|g and L{-1}/M ratios for 56-keV |g (1959Sc29  
+#G and 1976Hn01) and from |a(K)exp's (1976Hn01), using ce data of         
+#G 1959Sc29 for all other |g's with the |g and ce data scaled to the      
+#G theoretical M1 value for the 56-keV |g. The precision of the           
+#G ce data (1959Sc29)                                                     
+#G is judged by the evaluator to be sufficient to distinguish between E1  
+#G and M1+E2 transitions, but not between M1 and E2 transitions.          
+#G MR        From |g|g(|q) results of 1974OkZW.                           
+#G E(M)      Authors (1975Ga16) indicate |g is doubtful even though it is 
+#G placed in scheme and intensity is >0.                                  
+#G RI(H)     This I|g and the |a result in an intensity for the |b{+-}    
+#G feeding of the 56-keV level of -7% {I12}. If the theoretical |a for an 
+#G M1 |g is used, this computed I|b{+-} becomes -23%. To obtain an        
+#G intensity balance, I|g would need to increase by about 10%.            
+#L           Decay scheme is primarily that of 1975Ga16, which is the only
+#L report of levels above 750 keV. Below 750 keV, similar schemes are     
+#L given by 1976Hn01, 1974OkZW, 1966Zy02, and 1966FuZZ.                   
+#L           The following data have been measured: |g-ray energies and   
+#L intensities (1975Ga16, also 1976Hn01,1966Zy02,1966FuZZ), level         
+#L half-lives (1964Lo09,1965Ma24,1967Ma33,1969Be54), |g|g coincidences    
+#L (1966Zy02,1969Be54,1974OkZW,1975Ga16,1976Hn01), and multipolarities    
+#L from ce data (1959Sc29,1976Hn01) and from |g|g(|q) data (1974OkZW).    
+#L           The |g|g-coincidence data on the drawing are from 1976Hn01.  
+#L E         From least-squares fit to |g energies.                       
+#L J         The J{+|p} and band assignments are from {+161}Tb            
+#L  Adopted Levels. They agree with those from the {+161}Gd |b{+-}        
+#L  decay results of 1975Ga16 and are based on |g multipolarities         
+#L  and expected band structure. Other J{+|p} and band assignments from   
+#L  1975Ga16 which are not adopted are given in comments.                 
+#L T         From {+161}Tb Adopted Levels. All data are from this decay.  
+#L           Levels are 3/2(0), 5/2(56), 7/2(133), and 9/2(230).          
+#L           Levels are 5/2(314) and 7/2(394).                            
+#L           Levels are 7/2(417) and 9/2(488).                            
+#L           Levels are 5/2(480), 7/2(585), and 9/2(707).                 
+#L           Level is 5/2(1252).                                          
+#L BAND(A)   3/2[411] band                                                
+#L BAND(B)   5/2[413] band                                                
+#L BAND(C)   7/2[523] band                                                
+#L BAND(D)   5/2[532] band                                                
+#L BAND(F)   5/2[402] bandhead                                            
+#P  0          5/2-              3.66 M    5              1955.5    14    
+GD161 TB161 beta- 1.9555 219.60000000000002 0.00991
++G gamma 0.31492000000000003 22.9
++G gamma 0.102315 14.0
+

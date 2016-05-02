@@ -1,0 +1,145 @@
+#118SN    118IN B- DECAY (5.0 S)        1977DE10                  95NDS    199509
+#  118IN B- DECAY (5.0 S)        1977DE10                  95NDS    199509
+#H TYP=FUL$AUT=K. KITAO$CIT=NDS 75,99 (1995)$CUT=1-Feb-1993$              
+#  The decay scheme is that proposed by 1977De10                          
+#L J         From adopted levels                                          
+#L E         From a least-squares fit to E(G's)                           
+#G E         Assumed uncertainty of 0.5 KEV (evaluators)                  
+#G M         From 118SB EC decay (5.00 H)                                 
+#P 0.0          1+               5.0 S     3              4423      8     
+IN118 SN118 beta- 4.423 5.0 1.0
++B beta- 1.916 0.9490000000000001
++B beta- 1.336 0.034
++G gamma 1.2297 0.05
++B beta- 1.089 0.006999999999999999
++G gamma 0.528 0.007000000000000001
++B beta- 0.958 0.003
++G gamma 0.813 0.0019500000000000001
++G gamma 2.0432 0.0010500000000000002
++B beta- 0.951 3.5000000000000005E-4
++G gamma 0.827 3.4999999999999994E-4
++B beta- 0.828 0.001
++G gamma 1.097 0.001
++B beta- 0.793 0.0043
++G gamma 1.1734 0.0043
++B beta- 0.467 0.0013
++G gamma 1.9082000000000001 0.0013
+
+#118SN    118IN B- DECAY (4.45 M)       1988RA09                  95NDS    199509
+#  118IN B- DECAY (4.45 M)       1988RA09                  95NDS    199509
+#H TYP=FUL$AUT=K. KITAO$CIT=NDS 75,99 (1995)$CUT=1-Feb-1993$              
+#  The decay scheme is that proposed by 1988Ra09                          
+#  Source produced by (N,P) on enriched isotope, GE(LI), GG coin          
+#  1988Ra09 looked for the 528.2G from 1758.37 0+ level to the 1229.65    
+#  2+ level, IG LT 0.21                                                   
+#  Others: 1970Ha08, 1968Sc24, 1967Go35, 1964Ka10, 1960Yu01               
+#L E         From a least-squares fit to E(G's)                           
+#L J         From adopted levels                                          
+#G E,RI      From 1988Ra09                                                
+#P 0.0+X       5+                4.45 M    5              4423      8     
+IN118 SN118 beta- 4.423 267.0 1.0
++G gamma 0.18624000000000002 4.3199999999999993E-4
++G gamma 0.47220999999999996 0.0019871999999999997
++G gamma 0.56894 6.911999999999999E-4
++G gamma 0.5761799999999999 0.0019679999999999997
++G gamma 0.6425599999999999 5.76E-4
++G gamma 0.675 0.001152
++G gamma 0.90865 8.447999999999998E-4
++G gamma 1.1025399999999999 6.528E-4
++G gamma 1.27126 7.007999999999999E-4
++G gamma 1.3682999999999998 2.304E-4
++G gamma 1.4304000000000001 1.824E-4
++G gamma 1.53196 0.0012768000000000002
++G gamma 2.1075999999999997 1.536E-4
++G gamma 2.9039 2.6880000000000003E-4
++G gamma 3.1045 1.536E-4
++G gamma 3.6696999999999997 3.84E-5
++G gamma 1.22964 0.96
++G gamma 0.8132 0.037247999999999996
++G gamma 2.04277 0.034848
++B beta- 0.849 0.22
++G gamma 0.2376 3.8399999999999996E-4
++G gamma 1.05065 0.81024
++G gamma 1.095 0.0144
++G gamma 0.28522000000000003 7.775999999999999E-4
++G gamma 1.0982 0.01536
++G gamma 2.32782 0.0035903999999999997
++G gamma 1.17352 0.013727999999999997
++B beta- 0.754 0.085
++G gamma 0.20852 0.026015999999999997
++G gamma 0.44598000000000004 0.05529599999999999
++G gamma 1.25918 0.038304
++G gamma 1.44755 4.512E-4
++G gamma 2.6774 3.744E-4
++B beta- 0.644 0.0067
++G gamma 1.5041 0.01584
++B beta- 0.58 6.6E-4
++G gamma 0.59834 6.624000000000001E-4
++B beta- 0.543 0.62
++G gamma 0.22965 0.0075168000000000006
++G gamma 0.47457 0.0288
++G gamma 0.56021 0.009503999999999999
++G gamma 0.6354 0.016992
++G gamma 0.63861 0.013152000000000002
++G gamma 0.68306 0.54336
++G gamma 0.92057 0.0048576
++B beta- 0.527 0.00198
++G gamma 0.5105 0.001248
++G gamma 0.7189 7.296E-4
++B beta- 0.458 0.00104
++G gamma 0.7564 3.5519999999999996E-4
++G gamma 1.11642 6.815999999999999E-4
++B beta- 0.368 0.0151
++G gamma 0.41144 3.5519999999999996E-4
++G gamma 0.88566 0.0025344
++G gamma 0.9714400000000001 0.0033599999999999997
++G gamma 1.0943 0.0077280000000000005
++G gamma 2.14464 0.0011615999999999998
++B beta- 0.332 0.009000000000000001
++G gamma 0.9714400000000001 0.0030719999999999996
++G gamma 1.13249 9.504E-4
++G gamma 1.18018 0.0015648
++G gamma 1.418 2.592E-4
++G gamma 2.23076 0.0031968
++B beta- 0.279 0.0063
++G gamma 0.85884 0.0011232
++G gamma 1.31222 0.0017951999999999998
++G gamma 1.54963 0.0026976
++G gamma 2.3627800000000003 6.528E-4
++B beta- 0.235 0.00294
++G gamma 1.30162 5.376000000000001E-4
++G gamma 1.37709 3.648E-4
++G gamma 1.4247 2.0160000000000002E-4
++G gamma 1.6619300000000001 3.9359999999999997E-4
++G gamma 2.47506 0.0014399999999999999
++B beta- 0.216 0.00302
++G gamma 1.26496 0.0013248000000000001
++G gamma 1.4735 0.0016991999999999999
++B beta- 0.193 9.2E-4
++G gamma 2.5869 9.216E-4
++B beta- 0.185 8.3E-4
++G gamma 2.60918 8.255999999999999E-4
+
+#118SN    118IN B- DECAY (8.5 S)        1969HA08                  95NDS    199509
+#  118IN B- DECAY (8.5 S)        1969HA08                  95NDS    199509
+#H TYP=ERR$AUT=J. TULI$DAT=5-Mar-2002$COM=Changed BR to adopted value.    
+#H TYP=FUL$AUT=K. KITAO$CIT=NDS 75,99 (1995)$CUT=1-Feb-1993$              
+#  Source: 118SN(N,P), 96.6% enriched target; G, GG(T), T1/2              
+#  The level scheme is that proposed by 1969Ha08                          
+#  1969Ha08 determined that the 138.2G to be a isomeric transition to the 
+#  4.4-min isomeric state and that the branching for B- decay to be 1.5%  
+#  Based on a ratio of the total intensity of 138.2G to that of 253.7G    
+#L E$Energy values are from 118SB EC decay (5.00 H)                       
+#L J$From adopted levels                                                  
+#G E$From 118SB EC decay (5.00 H)                                         
+#G RI$No intensities were given by author, values are those from 118SB    
+#G EC decay (5.00 H)                                                      
+#G M$From 118SB EC decay (5.00 H)                                         
+#P 138.5+X     8-                8.5 S      3             4423      8     
+IN118 SN118 beta- 4.423 8.5 0.014
++G gamma 1.22964 1.0
++G gamma 1.0506900000000001 0.98
++G gamma 0.041 0.18
++B beta- 0.778 1.0
++G gamma 0.253678 0.93
+

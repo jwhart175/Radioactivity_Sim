@@ -1,0 +1,52 @@
+# 56FE    56CO EC DECAY                 1990ME15,1988WA26,2008Dr0411NDS    201105
+#  56CO EC DECAY                 1990ME15,1988WA26,2008Dr0411NDS    201105
+#H TYP=FUL$AUT=HUO JUNDE, HUO SU, YANG DONG$CIT=NDS 112, 1513 (2011)$     
+#H CUT=29-Oct-2009$                                                       
+#  Sources produced by {+56}Fe(p,n) and {+55}Mn(|a,3n).                   
+#  Production by {+54}Fe(|a,pn) and {+56}Fe(|a,p3n) (1996La20).           
+#  {+56}Co |e decay has been recommended as calibration standards for E|g 
+#  and I|g see 1983LoZV, 1990Me15, 1990Ni03, 1990Tr06, 1991BaZS, 1999He10.
+#  1990Me15: measured E|g, I|g for multi |g-ray calibration standards.    
+#  1988Wa26: measured E|g.                                                
+#  1986Br01: measured |g(|q) from oriented nuclei.                        
+#  1984Oh03: measured |g(|q) from oriented nuclei.                        
+#  1980St20: measured E|g, I|g, |g|g(|q), |g|g-coin with Ge(Li).          
+#  Recalculated |a(K)exp from 1965Pe18.                                   
+#  1980Sh28: measured E|g, I|g, |g|g-coin and |g|g(|q).                   
+#  1992ScZZ: measured |g-ray emission probabilities.                      
+#  2008Dr04: measured I|g with HPGe.                                      
+#  2005MaZS: evaluation of |g-ray emission probabilities                  
+#  in the decay of {+56}Co.                                               
+#  2006BeZL: evaluation and recommendation of decay data                  
+#  for radionuclides.                                                     
+#  Adopted decay scheme is taken mainly from 1980St20                     
+#E           |b-measurement: E|b+=1464 keV {I15}(I|b|>90%);               
+#E E|b+=440 keV {I30}(I|b|<10%) (1961Ha16); E|b+=1459 keV {I2}            
+#E (I|b=18.1%), E|b+=440 keV (I|b|?0.8%) (1965Pe18).                      
+#E LOGFT(L)  Value too low for a second-forbidden non-unique              
+#E transition. Direct feeding to this level is expected to                
+#E be negligible.                                                         
+#G           Experimental internal conversion coefficients are            
+#G calculated from Ice of 1965Pe18 and adopted I|g, normalizing           
+#G to |a(K)=0.00026 for the 847|g (1980St20).                             
+#G           For other |g-measurements, see 1967Hj01, 1967Ma03, 1968Gu05, 
+#G 1969Au09, 1970Ph01, 1971Ag04, 1971Ca14, 1971Ge07, 1971Ge08, 1971Ta18,  
+#G 1974HeYW, 1974Ho25, 1975Ka06, 1975Mc07, 1977Ge12, 1979Gr01, 1979Sh16,  
+#G 1980Yo05, 1982Gr10, 1983Me17, 1983Mo20, 1996La20. For |g|g-coincidence 
+#G see 1980St20.                                                          
+#G E         From 2006BeZl.                                               
+#G RI        From weighted average of values of 2006BeZL and 2008Dr04.    
+#G M         From 1984Oh03, based on |g(|q) from oriented nuclei,         
+#G except as noted.                                                       
+#G M(Y)      Based on |a(K)exp (1980St20).                                
+#G M(Z),MR(W)$From adopted |g radiations.                                 
+#G M(X),MR(B)$From 1980Sh28.                                              
+#G MR        From 1986Br01, based on |g(|q) from oriented nuclei,         
+#G except as noted.                                                       
+#G MR(O)     From 1984Oh03.                                               
+#L E         From E|g and decay scheme using least-squares                
+#L adjustment procedure.                                                  
+#L J(X)      Consistent with |g(|q) from oriented nuclei (1984Oh03)       
+#P 0.0          4+               77.236 D  26             4566.0    20    
+CO56 FE56 beta+ 4.566 6673190.4 0.999399
+

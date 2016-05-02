@@ -1,0 +1,135 @@
+#113AG  XB113AG IT DECAY                                                         
+#XB113AG IT DECAY                                                         
+#N                                                                     6  
+AG113 AG113 IT 0.0 8.346802377600001E7 1.0
+#L 0           1/2-              5.37 H    5                              
+#L XREF=A                                                                 
+#L %B-=100$ MOMM1=0.159 2 (1989RA17)                                      
+#L J$atomic beam (1976Fu06), negative parity from MOMM1.                  
+#L T         from 1970Tr02. Other: 5.25 H 4 (1968RoZZ).                   
+#L 43.5      1  7/2+             68.7 S    16                          M  
+#L %IT= 64 7$ %B-=36 7$ XREF=AB                                           
+#L %IT$from 1990Fo07                                                      
+#L J$allowed B- decay to 5/2+ level. E3 G to 1/2-.                        
+#L T$weighted av of 67.8 S 21 (1974Gr29) and 70.0 S 25 (1975BrYM).        
+#L Others: 72 S 9 (1958Al90), 66 S 12 (1970Ma47).                         
+#G 43.6      2 100       E3                         1047                  
++G gamma 0.0436 1.0
+#G BE3W=0.048 6                                                           
+#L   139.30  15   9/2+                                                    
+#L XREF=A                                                                 
+#L J$M1 G to 7/2+ and syst                                                
+#G 95.74     20100       M1                        0.478                  
++G gamma 0.09573999999999999 1.0
+#L   222.08  13     3/2+          23 NS    2                          A   
+#L XREF=A                                                                 
+#L J$E1 G to 1/2-, band assignment favors 3/2+                            
+#G 222.06    20100       E1                      0.01660                  
++G gamma 0.22206 1.0
+#G BE1W=1.13E-6 10                                                        
+#L   270.82  14(3/2-)                                                 B   
+#L XREF=A                                                                 
+#L J$G to 1/2-, not fed from (5/2)+ parent, no G to 7/2+, syst            
+#G 270.81    20100                                                        
++G gamma 0.27081 1.0
+#L   273.59  16(1/2)                30 NS  AP                             
+#L XREF=A                                                                 
+#L J$G's to 1/2- and 1/2+,3/2+, not fed from 5/2+ parent                  
+#G 51.5      2 25                                                         
++G gamma 0.0515 0.25
+#G 273.6     2 100                                                        
++G gamma 0.2736 1.0
+#L   280.0   2  1/2+                                                  A   
+#L XREF=A                                                                 
+#L J$member of the intruder band                                          
+#G 57.9      3 1.2     6                                                  
++G gamma 0.0579 0.012
+#G 280.0     2 100     4                                                  
++G gamma 0.28 1.0
+#L   366.84  20(5/2-)                                                 B   
+#L XREF=A                                                                 
+#L J$G's to 1/2- and 3/2-, syst favors 5/2-                               
+#G 96.0      3 76                                                         
++G gamma 0.096 0.76
+#G 366.8     3 100                                                        
++G gamma 0.3668 1.0
+#L   369.80  17     7/2+             0.8 NS  LT                       A   
+#L XREF=A                                                                 
+#L J$E2 G to 3/2+. G to 9/2+                                              
+#G 147.73    20100       E2                       0.362                   
++G gamma 0.14773 1.0
+#G BE2W>1.1E+2                                                            
+#G 230.49    2077                                                         
++G gamma 0.23049 0.77
+#G 326.28    2060                                                         
++G gamma 0.32627999999999996 0.6
+#L   476.70  14     5/2+             0.5 NS   LT                      A   
+#L XREF=A                                                                 
+#L J$member of the intruder band                                          
+#G 205.87    2019                                                         
++G gamma 0.20587 0.19
+#G 254.61    20100                                                        
++G gamma 0.25461 1.0
+#G 337.32    209                                                          
++G gamma 0.33732 0.09
+#G 433.4     2 26                                                         
++G gamma 0.43339999999999995 0.26
+#L   526.16  16                                                           
+#L XREF=A                                                                 
+#G 49.6      2 2.3                                                        
++G gamma 0.0496 0.023
+#G 386.9     2 16                                                         
++G gamma 0.38689999999999997 0.16
+#G 482.4     3 100                                                        
++G gamma 0.4824 1.0
+#L   607.06  23                                                           
+#L XREF=A                                                                 
+#G 336.3     3 48                                                         
++G gamma 0.3363 0.48
+#G 607.0     3 100                                                        
++G gamma 0.607 1.0
+#L   611.31  25(3/2-)                                                 B   
+#L XREF=A                                                                 
+#L J$from syst.                                                           
+#G 472.1     3 7                                                          
++G gamma 0.4721 0.07
+#G 567.7     3 100                                                        
++G gamma 0.5677000000000001 1.0
+#L   673.35  23                                                           
+#L XREF=A                                                                 
+#G 534.2     3 100                                                        
++G gamma 0.5342 1.0
+#G 673.2     3 39                                                         
++G gamma 0.6732 0.39
+#L   781.79  20 (5/2-)                                                B   
+#L XREF=A                                                                 
+#L J$G's to 3/2- and sys.                                                 
+#G 414.9     3 67                                                         
++G gamma 0.4149 0.67
+#G 510.9     3 100                                                        
++G gamma 0.5109 1.0
+#G 781.9     3 33                                                         
++G gamma 0.7818999999999999 0.33
+#L   783.16  14(3/2,5/2,7/2)                                              
+#L XREF=A                                                                 
+#L J$LOGFT AP 6.1 from (5/2+)                                             
+#G 257.1     3 4.5                                                        
++G gamma 0.2571 0.045
+#G 643.7     3 100                                                        
++G gamma 0.6437 1.0
+#G 739.63    3 80                                                         
++G gamma 0.73963 0.8
+#                                                                         
+
+#113AG    113AG IT DECAY                1990FO07                  10NDS    201006
+#  113AG IT DECAY                1990FO07                  10NDS    201006
+#H TYP=FUL$AUT=Jean Blachot$CIT=NDS 111, 1471 (2010)$CUT=1-May-2009$      
+#  Activity: {+235}U(n,f) on-line mass separator OSIRIS                   
+#  Measured |g, I|g, |g|g, |g(t), |b, |b|g, ce, Ge(Li), Si detector       
+#  (1988FoZY)                                                             
+#  %IT: 1990Fo07 have measured %IT=64 {I7}                                
+#L T$From adopted levels                                                  
+#P    43.6   2 7/2+              68.7 S    16                             
+AG113 AG113 IT 0.0 68.7 1.0
++G gamma 0.0436 0.0064
+

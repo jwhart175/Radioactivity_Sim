@@ -1,0 +1,80 @@
+# 83SR    83Y EC DECAY (7.08 M)         1976LI27                  15NDS    201503
+#  83Y EC DECAY (7.08 M)         1976LI27                  15NDS    201503
+#H TYP=FUL$AUT=E.A. MCCUTCHAN$CIT=NDS 125, 201 (2015)$CUT=31-Dec-2014$    
+#  1976Li27: {+83}Y activity from proton spallation on a Mo target with   
+#  E(p)=660 MeV followed by electromagnetic mass separation. Measured     
+#  E|g, I|g, |g|g, and |g(t) using 2 coaxial Ge(Li) detectors and a       
+#  low-energy Ge(Li) detector.                                            
+#  1973Si16: {+83}Y activity from {+84}Sr(p,2n) with E(p)=31 MeV          
+#  followed by chemical separation. Measured E|g, I|g, |g|g, |g(t) using  
+#  two Ge(Li) detectors and a Ge(Li) x-ray detector; measured Ece, Ice    
+#  using a cooled Si detector.                                            
+#  A total energy release of 4900 keV {I400} is calculated for this       
+#  decay scheme using the RADLST code, in general agreement with the Q    
+#  value of 4593 keV {I20}.  However, there are a large number of         
+#  unplaced |g rays and a |?1.5 MeV gap between the highest observed      
+#  energy level and the Q value, suggesting that the decay scheme is      
+#  incomplete.                                                            
+#G M,MR$From the Adopted Gammas, except where noted.                      
+#L E$From a least-squares fit to E|g, by evaluator.                       
+#L J,T$From the Adopted Levels.                                           
+#  SLIGHTLY MODIFIED BY E. BROWNE (NOVEMBER 1991).                        
+#  CC$FROM BrIcc v2.3a (30-Jun-2013) 2008Ki07, "Frozen Orbitals" appr.    
+#P 0.0          9/2+              7.08 M    8              4593     20    
++B beta+ 8.33E-4 0.0013700000000000001
++B beta+ 1.6265 0.06
++B beta+ 1.6096 0.06
++B beta+ 1.3676 0.05
++B beta+ 1.2864 0.05
++B beta+ 1.252 0.04
++B beta+ 1.2475 0.04
++B beta+ 1.2259 0.04
++B beta+ 1.2035 0.04
++B beta+ 1.1713 0.04
++B beta+ 1.1105 0.04
++B beta+ 1.1080999999999999 0.04
++B beta+ 1.0882 0.04
++B beta+ 1.045 0.03
++B beta+ 1.0423 0.03
++B beta+ 0.9835 0.0012
++B beta+ 0.9807 0.0012
++B beta+ 0.9519 0.0013
++B beta+ 0.922 0.0014000000000000002
++B beta+ 0.8732000000000001 0.0016
++B beta+ 0.8087000000000001 0.002
++B beta+ 0.8054 0.002
++B beta+ 0.7462000000000001 0.0024
++B beta+ 0.7312000000000001 0.0025
++B beta+ 0.7091000000000001 0.0027
++B beta+ 0.6851 0.0029
++B beta+ 0.6594 0.0031
++B beta+ 0.6523 0.0032
++B beta+ 0.5253 0.004699999999999999
++B beta+ 0.2923 0.0078000000000000005
+
+# 83SR    83Y EC DECAY (2.85 M)         1976LI27                  15NDS    201503
+#  83Y EC DECAY (2.85 M)         1976LI27                  15NDS    201503
+#H TYP=FUL$AUT=E.A. MCCUTCHAN$CIT=NDS 125, 201 (2015)$CUT=31-Dec-2014$    
+#  1976Li27: {+83}Y activity from proton spallation on a Mo target with   
+#  E(p)=660 MeV followed by electromagnetic mass separation. Measured     
+#  E|g, I|g, |g|g, and |g(t) using 2 coaxial Ge(Li) detectors and a       
+#  low-energy Ge(Li) detector.                                            
+#  1973Si16: {+83}Y activity from {+84}Sr(p,2n) with E(p)=31 MeV          
+#  followed by chemical separation. Measured E|g, I|g, |g|g, |g(t) using  
+#  two Ge(Li) detectors and a Ge(Li) x-ray detector, measured Ece, Ice    
+#  using a cooled Si detector.                                            
+#  A total energy release of 2830 keV {I210} is calculated for this       
+#  decay scheme using the RADLST code, in general agreement with the      
+#  effective Q value of 2790 keV {I230}.                                  
+#G E,RI$From 1976Li27.                                                    
+#G M$From the Adopted Gammas                                              
+#L E$From a least-squares fit to E|g, by evaluator.                       
+#L J,T$From the Adopted Levels.                                           
+#  MODIFIED BY E. BROWNE (OCTOBER 1991). UNCERTAINTIES OF B+ FEEDINGS     
+#  INCLUDE COVARIANT TERMS.                                               
+#  CC$FROM BrIcc v2.3a (30-Jun-2013) 2008Ki07, "Frozen Orbitals" appr.    
+#P 62.04     10 3/2-              2.85 M    2              4593     20    
++B beta+ 0.2757 0.0079
++B beta+ 1.5327 0.05
++B beta+ 1.3329000000000002 0.05
+

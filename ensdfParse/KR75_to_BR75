@@ -1,0 +1,107 @@
+# 75BR    75KR EC DECAY (4.60 M)        1995BEZS,1974HO35,1974RO1213NDS    201309
+#  75KR EC DECAY (4.60 M)        1995BEZS,1974HO35,1974RO1213NDS    201309
+#H TYP=FUL$AUT=ALEXANDRU NEGRET, BALRAJ SINGH$CIT=NDS 114, 841 (2013)$    
+#H CUT=30-Jun-2013$                                                       
+#G CC$ FROM BrIcc v2.3 (9-Dec-2011) 2008Ki07, "Frozen Orbitals" appr.     
+#  1995BeZS: Measured E|g, I|g, |g|g, ce, half-life using HPGe detectors, 
+#  a mini-orange electron spectrometer for the determination of           
+#  internal conversion coefficients, and a positron annihilator.          
+#  {+75}Kr source prepared in {+58}Ni({+20}Ne,2pn) reaction at            
+#  4.2 MeV/nucleon beam energy from GSI Unilac accelerator followed       
+#  by mass separation                                                     
+#  1974Ho35 (also 1973HoYM thesis): Measured E|g, I|g, |g|g, ce. A total  
+#  of 32 |g rays reported placed amongst 15 excited states. {+75}Kr       
+#  produced in {+79}Br(p,5n) E=65 MeV reaction; Kr gas separated from     
+#  other elements by cold traps. No information was deduced from ce data  
+#  1974Ro12 (also 1974Ro11): Measured E|g, I|g, |g|g, ce, E|b {+75}Kr     
+#  formed in Zr(p,5pxn) E=600 MeV reaction at CERN-ISOLDE facility        
+#  followed by mass separation. A total of 16 |g rays reported with ce    
+#  data for three |g transitions. A 6.5-keV |g ray reported belongs to    
+#  the decay of {+75}Br to {+75}Se. Measured level lifetimes by |g|g(t)   
+#  Others: 1975CoZR, 1973DaYM, 1969Ha03, 1960Gr19, 1960Bu22               
+#  Measured annihilation radiation intensity: 250 {I50} (1975CoZR).       
+#  Other: 607 {I60} (1974Ho35)                                            
+#  Most data given here are from 1995BeZS. The level scheme originally    
+#  proposed in 1974Ho35 and 1974Ro12 has been extended and greatly        
+#  modified based on their detailed |g|g coincidence measurements         
+#G $Following |g rays reported by 1974Ho35 have not been seen in 1995BeZS:
+#G E|g=692.8 {I4}, I|g=0.07 {I6} placed from an 824.7 level;              
+#G E|g=698.2 {I4}, I|g=0.26 {I3} placed from 1072.5 level;                
+#G E|g=787.6 {I4}, I|g=0.39 {I4} placed from 1612.3 level;                
+#G E|g=1356.9 {I5}, I|g=0.39 {I6} placed from a 2958.7 level.             
+#G These |g rays have been omitted here                                   
+#G E,RI$From 1995BeZS, unless otherwise stated. The I|g values in         
+#G 1995BeZS are normalized to 100 disintegrations of {+75}Kr. Energy      
+#G uncertainty of 0.3 keV is assigned for most transitions in consultation
+#G Dr. B. Rubio (adviser of 1995BeZS thesis) through e-mail reply         
+#G of April 5. Several lines are indicated by 1995BeZS as contaminated    
+#G with other activities. The evaluators assume that appropriate          
+#G corrections have been applied to the values listed in table 3.2 of     
+#G 1995BeZS                                                               
+#G M,MR$ From Adopted Gammas, based on measured EKC, ELC and EMC values   
+#G in 1995BeZS. Mixing ratios deduced by the evaluators from ce data in   
+#G 1995BeZS                                                               
+#G E(A)$ Contamination from a line in {+75}Rb decay                       
+#G E(B)$ Contamination from a sum peak of either two transitions in       
+#G cascade or a gamma ray summing with 511-keV annihilation peak          
+#G E(C)$ Contamination from room background                               
+#G E(D)$ Contamination from a line from {+75}Br decay                     
+#G E(H)$ Observed in |g|g coin spectrum, not in singles                   
+#G E(I)$ Contaminated with 511-keV annihilation peak                      
+#G E(K)$ Transition observed in an experiment at HMI by producing {+75}Kr 
+#G source in {+58}Ni({+20}Ne,2pn) at 80 MeV using OSIRIS detector system  
+#G for |g-ray detection (some details are given in appendix C of 1995BeZS)
+#G RI(G)$ From |g|g coincidence gated spectrum                            
+#G MR$ IF NO VALUE GIVEN IT WAS ASSUMED MR=1.00 FOR E2/M1,                
+#G MR=1.00 FOR E3/M2 AND  MR=0.10 FOR THE OTHER MULTIPOLARITIES           
+#L $ The following levels reported in 1974Ho35 have not been confirmed    
+#L in the more detailed |g|g-coin study of 1995BeZS, thus have been       
+#L omitted: 285.7, 782.0, 793.1, 824.7, 2042.5 and 2958.7 keV. The        
+#L gamma rays shown from these levels have either been relocated by       
+#L 1995BeZS or have not been seen                                         
+#L $ A 507.2 level proposed in 1974Ro12 is omitted with the relocation    
+#L of 352-keV gamma ray as a ground-state transition from 352 level       
+#L E$ From least-squares fit to E|g data. Reduced |h{+2}=0.49             
+#L J$ From Adopted Levels                                                 
+#P    0.0       5/2+             4.60 M     7             4783      9     
++B beta+ 0.2093 0.0083
++B beta+ 1.6593 0.03
++B beta+ 1.6533 0.03
++B beta+ 1.6427 0.03
++B beta+ 1.6439000000000001 0.03
++B beta+ 1.6111 0.03
++B beta+ 1.586 0.03
++B beta+ 1.5754000000000001 0.03
++B beta+ 1.5483 0.03
++B beta+ 1.5379 0.03
++B beta+ 1.4694 0.03
++B beta+ 1.4665 0.03
++B beta+ 1.3824 0.03
++B beta+ 1.3662999999999998 0.03
++B beta+ 1.348 0.03
++B beta+ 1.3465 0.03
++B beta+ 1.3346 0.03
++B beta+ 1.3264 0.03
++B beta+ 1.3200999999999998 0.03
++B beta+ 1.313 0.03
++B beta+ 1.2880999999999998 0.03
++B beta+ 1.2749000000000001 0.03
++B beta+ 1.2664000000000002 0.03
++B beta+ 1.2304000000000002 0.03
++B beta+ 1.2189 0.03
++B beta+ 1.2073 0.03
++B beta+ 1.1730999999999998 0.03
++B beta+ 1.1576 0.03
++B beta+ 1.1364 0.03
++B beta+ 1.1352 0.03
++B beta+ 1.1287 0.03
++B beta+ 1.0319 0.02
++B beta+ 1.0072 0.02
++B beta+ 0.9602 9.0E-4
++B beta+ 0.9552999999999999 0.001
++B beta+ 0.9442999999999999 0.001
++B beta+ 0.8941 0.0011
++B beta+ 0.8736 0.0012
++B beta+ 0.8679 0.0012
++B beta+ 0.7205 0.002
+

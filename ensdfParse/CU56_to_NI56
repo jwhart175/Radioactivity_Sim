@@ -1,0 +1,35 @@
+# 56NI    56CU EC DECAY (93 MS)         2001BO54,1998RA15         11NDS    201105
+#  56CU EC DECAY (93 MS)         2001BO54,1998RA15         11NDS    201105
+#H TYP=FUL$AUT=HUO JUNDE, HUO SU, YANG DONG$CIT=NDS 112, 1513 (2011)$     
+#H CUT=29-Oct-2009$                                                       
+#  Includes contents of an erratum to 2001Bo54 submitted by the           
+#  authors to Nucl Phys A (November 21, 2001)                             
+#  Revised November 21, 2001 (in response to e-mail replies and a         
+#  a copy of an erratum from one of the authors E. Roeckl)                
+#  November 6, 2001 and November 21, 2001                                 
+#  1998Ra15: mass-separated source produced by Si({+32}S,XpYn) E=148 MeV  
+#  NATURAL TARGET, measured E|g, I|g, |g|g, |b|g coin, delayed protons    
+#  2001BO54: mass-separated source produced by {+28}Si({+32}S,p3n)        
+#  reaction. Measured E|g, I|g, |g|g, |b|g coin, delayed protons          
+#  2002RO16: mass-separated source produced by {+28}Si({+32}S,p3n)        
+#  reaction. Measured E|g, I|g, |g|g, |b|g coin.                          
+#  ALL DATA ARE FROM 2001BO54, EXCEPT AS NOTED.                           
+#E $Total |b{++} feeding adds to 129 {I9} rather than 100. The discrepancy
+#E is ascribed (by 2001Bo54) to unobserved |g rays                        
+#G $Intensity of annihilation radiation (511 keV)=309 {I17} (2001Bo54),   
+#G intensity of annihilation radiation (511 keV)=233 {I15} (1998RA15)     
+#G E(A)      From Table 1 of 2001Bo54. The value is somewhat different in 
+#G Figure 3 of 2001Bo54. The authors state that value in Table 1 is       
+#G correct and the some values quoted in Figure 3 have typographical      
+#G errors, see Nucl. Phys. A703, 889-890 (2002).                          
+#L E$From least-squares fit to E|g's. The values given here differ        
+#L slightly from those in 2001Bo54, due to gamma-ray energy               
+#L mismatches in Table 1 and Figure 3 of 2001Bo54.                        
+#P  0.0          (4+)              93 MS   3              15.30E3   14    
++B beta+ 8.851E-4 9.7E-4
++B beta+ 4.952 0.0
++B beta+ 4.451 0.0
++B beta+ 4.181 0.0
++B beta+ 3.93 0.0
++B beta+ 3.711 0.0
+

@@ -1,0 +1,44 @@
+#171TM    171ER B- DECAY                1972GR09                  02NDS    200209
+#  171ER B- DECAY                1972GR09                  02NDS    200209
+#H TYP=FUL$AUT=CORAL M. BAGLIN$CIT=NDS 96,399 (2002)$CUT=5-Aug-2002$      
+#  The decay scheme and all data are from 1972GR09, except where          
+#  noted.                                                                 
+#  1972GR09: sources from neutron bombardment of ER oxide (targets        
+#  enriched to 96% in 170ER); measured EG, IG (GELI), ECE, ICE            
+#  (iron-free mag spect), prompt and delayed BG and GG coin.              
+#  GG(|q) and/or CEG(|q): 1965AG02,                                       
+#  1968KA14, 1972AG03, 1972BE85, 1975GO06, 1976PA16, 1978BA03.            
+#  Nuclear orientation: 1972KR18 (looked for                              
+#  forward-backward asymmetries in strongly hindered 296G and 308G from   
+#  polarized 171ER; saw no definitive evidence for parity mixing).        
+#  G polarization: 1974KU16 (determined absence of                        
+#  substantial G polarization in measurement of average                   
+#  polarization of 295.9G+308.3G).                                        
+#  Others: 1948DE05, 1948KE11, 1951KE44, 1956KO21, 1957HA19, 1957JO12,    
+#  1958CR84, 1961AR15, 1961BL13, 1963OR01, 1963SC18, 1964SU02, 1965BO34,  
+#  1966BE51, 1966EL01, 1968ME02, 1968RA09, 1970EL10, 1970KN04,            
+#  1972TUZV, 1973EL13, 1973FOZX, 1976KR21.                                
+#B           B- data are from 1961AR15; measured EB, IB                   
+#B (double-focusing mag spect, momentum resolution=0.5%).                 
+#B IB        B- feedings are from intensity imbalance at each             
+#B level assuming IB=2.3% 2 (1961AR15) for decay to 0.0+5.0 levels        
+#B combined.                                                              
+#L J         Adopted values.                                              
+#G E         From 1968RA09, except where noted; (GELI, cryst).            
+#G M         From EKC and presence of prompt coincidences, except where   
+#G noted; see comment with 308.3G for normalization of the                
+#G photon and ce intensity scales.                                        
+#G MR        From 1976KR21, except where noted (these values are based    
+#G on angular correlation, nuclear orientation, and ce data).             
+#L BAND(A)   1/2[411] band.                                               
+#L BAND(D)   7/2[523] band.                                               
+#L BAND(B)   3/2[411] band.                                               
+#L BAND(C)   5/2[402] band.                                               
+#G E(A,D)    From 1972GR09; uncertainties are from subsequent             
+#G private communication from authors.                                    
+#G M(B,D)    From CE subshell ratios.                                     
+#P 0.0          5/2-             7.516 H   2              1490.7    13    
+ER171 TM171 beta- 1.4907000000000001 27057.6 0.100
++B beta- 1.065 0.9440000000000001
++B beta- 0.575 0.0219
+

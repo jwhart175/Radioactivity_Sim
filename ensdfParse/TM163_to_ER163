@@ -1,0 +1,358 @@
+#163ER    163TM EC DECAY (1.810 H)      1982VY07                  10NDS    201005
+#  163TM EC DECAY (1.810 H)      1982VY07                  10NDS    201005
+#H TYP=FUL$AUT=C. W. REICH, BALRAJ SINGH$CIT=NDS 111, 1211 (2010)$        
+#H CUT=12-Apr-2010$                                                       
+#  DATA SET UPDATED (OCTOBER, 2008) BY CW REICH TO INCLUDE CC VALUES      
+#   FROM BRICC, SOME MODIFIED COMMENTS AND DIFFERENT NOTATION FOR THE     
+#   GAMMA VIBRATION.                                                      
+#  1982Vy07 (also 1982Vy08): measured K| x ray, |g, ce, |b{++} (spect),   
+#  ce|g. Chem, mass separation. Level scheme given by 1982Vy08            
+#  1980Ab18 (also 1980Ab22): measured |g, ce. Chem. 47 |g rays            
+#  measured up to { 400 keV}                                              
+#  1976Ab09: measured |g, ce                                              
+#  1982Vy08 (and 1982Vy07), 1980Ab18 (and 1980Ab22), and 1976Ab09 all     
+#  share some common authors.                                             
+#  Others:                                                                
+#  |g: 1963Gr14, 1967Gn01, 1975Gr44                                       
+#  ce: 1962Ha24, 1963Gr14, 1967Gn01, 1987BaZB, 1991GaZZ                   
+#  ce|g(t): 1974An04                                                      
+#  (x ray)|g(t)): 1969Ve05                                                
+#  E|e,I|e: 1960Bo29, 1964Gr37, 1982By03                                  
+#  T{-1/2} of {+163}Tm g.s.: 1961Bj02, 1963Ra15, 1963Gr14, 1969Ve05.      
+#  Others: 1959Ha09, 1960Bo29, 1960Bu27                                   
+#  The decay scheme is from 1982Vy07 and 1982Vy08, superseding the level  
+#  schemes of 1980Ab18, 1976Ab09, 1967Gn01 and 1963Gr14                   
+#E $I|g(|g{+|+})=4.7 {I6} relative to I|g(104|g)=100 (1982Vy07) compared  
+#E to 6.2 {I5} (5.4 {I3} excluding I|e's with upper limits and I|e(to     
+#E 91.6)) from the decay scheme.                                          
+#E $I|g(104|g)/I|g(K| x ray)=0.135 {I3} (1982Vy07), compared to 0.208 {I6}
+#E from the decay scheme, is indicative of a substantive |e feeding which 
+#E has not been placed. The measured I|b{++}=0.047 {I6} to levels above   
+#E 720 compared to 0.00074 {I5} also suggests that the |e feeding to      
+#E levels between 735 and 1060 has been underestimated. The               
+#E total-absorption |g spectroscopy measurements (NaI,Si(Li)) of 1982By03 
+#E also show a higher population of levels than observed in the present   
+#E decay scheme.                                                          
+#E $Intensity balance gives apparent |e feedings (none                    
+#E expected from |DJ and |D|p) to the following levels, resulting in      
+#E anomalously low log| {Ift} values. Such feedings have been omitted from
+#E the level scheme given here:                                           
+#E 91.5,7/2+ level (%|e=0.7 {I2}); 120.3,9/2+ level (%|e=0.14 {I6});      
+#E 190.0,9/2- level (%|e=0.11 {I4}); 664.78,5/2+ (%|e=0.24 {I6}). This    
+#E discrepancy is due either to misplaced |g rays or to missing |g rays,  
+#E or both.                                                               
+#E $I(|e+|b{++}) from decay scheme, except as noted.                      
+#E Uncertainties include estimate of those caused by uncertain or         
+#E multiply-placed gammas.                                                
+#E $I|b{++}(to g.s. and 69 level): upper limit estimated by the           
+#E evaluators from Fermi-Kurie analysis of 1982Vy07 and |b{++}/ce ratios. 
+#E $I|e,I(|e+|b{++})(to g.s. and 69 level): from estimated                
+#E upper limit on I|b{++} and theoretical |e/|b{++} ratios.               
+#E $I(|e+|b{++})(to 69 level)=1.1 {I9} from decay scheme.                 
+#E $I(|e+|b{++})(to 92 level)=0.9 {I3} inconsistent with                  
+#E I(|e+|b{++})|<7.1|*10{+-6} from log| {Ift}|>12.8 expected for          
+#E 1/2+|)7/2+ transition.                                                 
+#E $I|b{++}(to 104 and 346 levels): relative intensities                  
+#E obtained by 1982Vy07 from Fermi-Kurie analysis and normalized to       
+#E I|b{++}=0.41 {I3} from ce(K)(104.3|g)/|b{++}=98.9 {I35} and            
+#E I|b{++}=0.332 {I24} from |b{++}/ce(K)(655.8|g+666.1|g)=13.0 {I6}.      
+#E Renormalized by the evaluators from I|g normalization=0.188 {I9} to    
+#E 0.186 {I5}.                                                            
+#E $I|e,I(|e+|b{++})(to 104 and 346 levels): from I|b{++} and             
+#E theoretical |e/|b{++}.                                                 
+#E $I(|e+|b{++})(to 104 level): 2.2 {I15} from decay scheme.              
+#E $I(|e+|b{++})(to 346 level): 5.5 {I5} from decay scheme.               
+#E $I|b{++}(to levels between 541 and 735):                               
+#E I|b(Emax=884)=0.136 {I7} compared to |SI|b(to|>540 and                 
+#E |<735)=0.0122 {I5} from decay scheme.                                  
+#E $I|e(to 684 and 780 levels) from decay scheme. Uncertainties           
+#E include estimate of those caused by uncertain or multiply-placed       
+#E gammas.                                                                
+#E $I|b{++}(to 735 and 856 levels): I|b(Emax=671)=0.032 {I4}              
+#E compared to |SI|b(to 735 and 856)=0.0069 {I8} from decay scheme.       
+#E $I|b{++}(to levels |>963): I|b(Emax=453)=0.0146 {I13}                  
+#E compared to |SI|b(to|>963)=0.0005 {I2} from decay scheme.              
+#E TI,IE(E)  From decay scheme, except as noted. Uncertainties include    
+#E estimate of those caused by uncertain or multiply-placed |g rays       
+#E IB(A)$Relative intensities obtained by 1982Vy07 from Fermi-Kurie       
+#E analysis and normalized to I|b=0.41 {I3} from                          
+#E ce(K)(104.3|g)/|b{++}=98.9 {I35} and I|b=0.332 {I24} from              
+#E |b{++}/ce(K)(655.8|g+666.1|g)=13.0 {I6}. Renormalized by the evaluators
+#E from I|g normalization=0.188 {I9} to 0.186 {I5}.                       
+#E IE(A),TI(A)$From I|b{++} and theoretical |e/|b{++}                     
+#E IB(B)$Upper limit estimated (evaluators) from Fermi-Kurie analysis     
+#E of 1982Vy07 and theoretical |e/|b{++} ratios                           
+#E IE(B),TI(B)$From estimated upper limit on I|b{++} and theoretical      
+#E |e/|b{++} ratios                                                       
+#G $|a(K)exp: from 1982Vy07, except                                       
+#G as noted. |a(K)exp's available from 1976Ab09 and from 1980Ab18         
+#G (for E|g<400) are in general agreement with those from 1982Vy07.       
+#G Relative I|g's and Ice(K)'s normalized to |a(K)(104|g; M1)=0.218 by    
+#G 1982Vy07, 1980Ab18, and 1976Ab09                                       
+#G $Subshell ratios are from 1980Ab18 or 1976Ab09                         
+#G $ce|g-coincidences from 1982Vy07 and |g|g-coincidences are from        
+#G 1976Ab09                                                               
+#G TI$Absolute intensities obtained by 1982Vy07 from Ice's and            
+#G theoretical |a's, except as noted. Renormalized by the evaluators from 
+#G I|g normalization={ 0.188 {I9}} to { 0.186 {I5}}.                      
+#G E,RI$From 1982Vy07, unless otherwise stated. Least-squares analysis of 
+#G |g rays suggests that the uncertainties quoted by 1982Vy07 are         
+#G too low to be realistic. These should at least be doubled.             
+#G M$From |a(K)exp's and subshell ratios given in comments.               
+#G 1982Vy07 appear to give only the dominant component when there is only 
+#G |a(K)exp. |d's added in these cases by the evaluators                  
+#G MR$From subshell ratios when available, otherwise from |a(K)exp        
+#G E(H),RI(H)$|g from 1980Ab18 only. It is considered as uncertain        
+#G (evaluators) due to lack of confirmation by 1982Vy07.                  
+#G Intensity is renormalized to 100 for 104|g                             
+#G E(G)$Tentative placement (evaluators) based on approximate (within     
+#G <{ 1 keV}) level-energy difference                                     
+#G TI(Y)$Deduced (evaluators) from renormalized ce's of 1980Ab18 and |a's 
+#G E(Z)$Poor fit, deviates by more than 2 |s's in the least-squares       
+#G analysis. It is possible that some of the |g rays in this              
+#G category are misplaced                                                 
+#G M(C)$E1,E2 from |a(K)exp. Multipolarity further restricted by          
+#G adopted |DJ|p                                                          
+#G M(B)$Large value of |a(K)exp suggests possibility of some E0 admixture 
+#G $  ------------------------------------------------------------------  
+#G $          The following unplaced |g rays reported by 1976Ab09 only    
+#G have been omitted, since these are not confirmed by 1982Vy07 or        
+#G 1980Ab18. (I|g renormalized by evaluators to I|g(104|g)=100 from       
+#G I|g={ 1940 {I37}})                                                     
+#G     E|g        I|g      Mult.   |a(K)exp       E|g        I|g       Mul
+#G t.  |a(K)exp                                                           
+#G ----------  -------  -------  -------     --------  --------  -------  
+#G  -------                                                               
+#G   63.67  {I5}  0.53  {I8}   (E1)    |? 0.7        755.4 {I3}  1.2   1  
+#G   E2,(M1)   0.007                                                      
+#G   96.35 {I10}  0.21  {I7}    E1      <0.3        872.5 {I5}  0.3   1   
+#G   { 97.41  {I7}}  { 0.55  {I9}}   (M1)    |? 4          { 906.9 {I2}}  
+#G   1.4   2   E2                                                         
+#G        0.003                                                           
+#G   { 98.29  {I7}}  { 0.47  {I9}}    E1       0.14       { 936.4 {I4}}   
+#G   0.5   1   E2                                                         
+#G        0.003                                                           
+#G  { 111.10 {I15}}  { 0.07  {I4}}    M1                  { 957.3 {I8}}   
+#G   { 0.10  {I5}}                                                        
+#G  { 118.65  {I5}}  { 0.61 {I10}}    E1       0.1       { 1011.3 {I6}}   
+#G   0.4   1  E1,E2                                                       
+#G     <0.003                                                             
+#G  { 147.7   {I2}}  { 0.08  {I3}}   (M1)      1.0       { 1014.8 {I6}}   
+#G   0.4   1  E2,(M1)                                                     
+#G   |?0.003                                                              
+#G  { 152.7   {I1}}  { 0.38  {I7}}    E1     |? 0.06      1018.8 {I6}     
+#G   0.4   1                                                              
+#G  { 153.37 {I10}}  { 0.49  {I8}}    E2       0.33      { 1022.5 {I7}}   
+#G   0.3   1  M1,E2                                                       
+#G      0.004                                                             
+#G  { 287.6   {I4}}  { 0.2   (I1}}                        1039.2 {I6}     
+#G   0.5   1   E2                                                         
+#G        0.002                                                           
+#G  { 289.8   {I3}}  { 0.35 {I18}}                       { 1108.0 {I7}}   
+#G   { 0.22 {I10}}  (E2)                                                  
+#G      |?0.002                                                           
+#G  { 697.0   {I6}}  { 0.6  {I2}}                        1113.0 {I7}      
+#G   0.5   2                                                              
+#G  { 727.3   {I3}}  { 0.4  {I2}}                       { 1212.4 {I6}}    
+#G   0.4   2     E2,(M1)                                                  
+#G    0.002                                                               
+#G  { 732.0   {I4}}  { 0.4  {I2}}     M1      0.013     { 1302.9 {I5}}    
+#G    1.1  21    E1,(E2)                                                  
+#G    <0.001                                                              
+#G  { 742.5   {I5}}  { 0.3  {I1}}    E2,(M1)  |? 0.007    { 1889.5 {I4}}  
+#G    0.15  {I5}                                                          
+#G  { 747.0   {I5}}  { 0.3  {I1}}     M1      |? 0.014    { 2038.5 {I6}}  
+#G    0.03  {I1}                                                          
+#G  --------------------------------------------------------------------  
+#L $Bands: band structure suggested by 1976Ab09 and 1970Hj02              
+#L extended and confirmed by 1982Vy08.                                    
+#L $Fragmentation of three-quasiparticle states: |?75% of the             
+#L decay of {+163}Tm goes to levels above 1 MeV. Of the 19 levels, seven  
+#L have J|p=3/2+ and for most of the others the large |e feedings make    
+#L J>3/2 very unlikely. This observed high density of 3/2+ levels may be  
+#L related to the fact that the three-quasiparticle states are highly     
+#L fragmented due to the interaction of the quasiparticle and collective  
+#L degrees of freedom. Note, however, that theory predicts this           
+#L fragmentation to be in the 2- to 3-MeV range.                          
+#L E$From least-squares fit to E|g's by assuming double the uncertainties 
+#L quoted by 1982Vy07. Least-squares analysis with the uncertainties      
+#L given by 1982Vy07 resulted in a poor fit with about 60 |g rays         
+#L out of a total of 225 |g rays deviating in energy by more              
+#L than 2 |s's. Doubling each uncertainty                                 
+#L improved the fit in that only 19 |g rays deviated by more              
+#L 2 |s's. All the discrepant cases are noted under comments. This        
+#L suggests that the uncertainties quoted by 1982Vy07 are underestimated. 
+#L The level energies are further rounded-off to nearest 0.01 keV         
+#L in view of poor fit to E|g's                                           
+#L J$From adopted levels. Assignments proposed by 1982Vy08 based          
+#L on multipolarities and band structure are consistent                   
+#L BAND(A)$ |n5/2[523] band.                                              
+#L BAND(B)$ |n5/2[642] band.                                              
+#L This is probably the dominant configuration, but this band most likely 
+#L  also contains sizeable components of other orbitals originating from  
+#L  the i{-13/2} spherical-shell-model state that are introduced by the   
+#L  expected strong Coriolis coupling among these orbitals.               
+#L BAND(D)$ |n3/2[521] band.                                              
+#L BAND(E)$ |n1/2[521] band                                               
+#L BAND(F)$ |n3/2[402] band (?).                                          
+#L BAND(H)$ |n1/2[400] band.                                              
+#L BAND(Z)$ |n3/2[651] band.                                              
+#L BAND(Y)$ K-2 |g vibration built on the |n5/2[523] g.s.                 
+#L The small value of the decoupling parameter excludes other             
+#L interpretations for this K=1/2 band. This band may have                
+#L some admixture of |n1/2[510]                                           
+#P 0           1/2+              1.810 H   5              2439      3     
+TM163 ER163 beta+ 2.439 6516.0 1.0
++G gamma 0.49163999999999997 7.997999999999999E-4
++G gamma 0.49383 0.0013763999999999998
++G gamma 0.75617 0.0021761999999999997
++G gamma 0.7799299999999999 0.006584400000000001
++G gamma 0.78188 0.0037757999999999997
++G gamma 0.8927999999999999 0.001209
++G gamma 1.65447 0.0010788
++G gamma 1.7297 3.3479999999999995E-4
++G gamma 1.79012 0.0015438
++G gamma 1.7933800000000002 0.0018786
++G gamma 1.8796 2.7156E-4
++B beta+ 5.3E-4 0.0034999999999999996
++B beta+ 0.6562 0.008
++G gamma 0.083968 0.0074958
++G gamma 0.09154999999999999 0.0023436
++B beta+ 0.6134 0.006999999999999999
++G gamma 0.10432 0.18600000000000003
++B beta+ 0.5979 0.006999999999999999
++G gamma 0.072875 0.0014694
++G gamma 0.08045999999999999 0.005207999999999999
++G gamma 0.164419 0.009039600000000002
++G gamma 0.10604999999999999 3.1620000000000004E-4
++G gamma 0.085118 0.0038688
++G gamma 0.1656 7.068E-4
++G gamma 0.249498 8.742E-4
++B beta+ 0.5852999999999999 0.008
++G gamma 0.24130500000000002 0.108624
++B beta+ 0.4915 0.008
++G gamma 0.23958500000000002 0.044081999999999996
++G gamma 0.29966699999999996 0.045570000000000006
++B beta+ 0.4659 0.008
++G gamma 0.190006 0.0142848
++G gamma 0.275125 0.026784
++B beta+ 0.4663 0.008
++G gamma 0.37107 4.464E-4
++G gamma 0.36197 7.811999999999999E-4
++G gamma 0.42192 0.001674
++G gamma 0.43472000000000005 0.0052452
++B beta+ 0.4402 0.008
++B beta+ 0.4101 0.008
++G gamma 0.43624 0.001581
++B beta+ 0.4059 0.008
++G gamma 0.46964999999999996 0.0044454
++B beta+ 0.3912 0.008
++B beta+ 0.3713 0.008
++G gamma 0.22540000000000002 3.3479999999999995E-4
++G gamma 0.41514999999999996 8.742E-4
++G gamma 0.56051 0.0012276000000000001
++G gamma 0.57323 0.0028086
++G gamma 0.59535 0.0023808
++B beta+ 0.3514 0.008
++G gamma 0.33827999999999997 0.0013391999999999998
++G gamma 0.5201 5.208E-4
++G gamma 0.68387 0.0049476
++B beta+ 0.3431 0.008
++G gamma 0.63377 0.0014508000000000001
++B beta+ 0.32830000000000004 0.008
++G gamma 0.16131 0.0015995999999999999
++B beta+ 0.32039999999999996 0.008
++G gamma 0.52975 0.0033108
++B beta+ 8.189E-4 0.0013800000000000002
++G gamma 0.7520399999999999 0.0037386
++B beta+ 0.267 0.0
++G gamma 0.79874 0.0017112
++B beta+ 0.21969999999999998 0.008
++G gamma 0.41166 9.858E-4
++G gamma 0.6404 7.440000000000001E-4
++G gamma 0.8814 4.6499999999999997E-4
++B beta+ 8.165E-4 0.0014000000000000002
++G gamma 0.37587 0.0015438
++G gamma 0.97519 0.0037199999999999998
++G gamma 0.991 5.765999999999999E-4
++B beta+ 8.274E-4 0.00132
++G gamma 0.59812 0.0025296000000000003
++B beta+ 8.257E-4 0.00134
++G gamma 0.8288 5.765999999999999E-4
++B beta+ 8.247E-4 0.00134
++G gamma 0.7336 6.509999999999999E-4
++G gamma 0.94062 0.005059200000000001
++G gamma 1.0751300000000001 0.0079608
++G gamma 1.3501500000000002 0.0042594
++G gamma 1.41019 0.0045942000000000005
++G gamma 1.5143 6.324000000000001E-4
++B beta+ 8.224E-4 0.00136
++G gamma 0.7594099999999999 0.002325
++G gamma 1.09938 0.0052452
++G gamma 1.43445 0.07960799999999998
++G gamma 1.4694200000000002 0.029015999999999997
++B beta+ 8.219E-4 0.00136
++G gamma 0.79012 0.003069
++G gamma 0.83396 0.005115
++G gamma 0.9056000000000001 0.0021576
++G gamma 0.9957999999999999 0.0020088
++G gamma 1.02918 0.0015066
++G gamma 1.0426600000000001 0.0013763999999999998
++G gamma 1.46573 0.019158
++G gamma 1.50061 0.0037199999999999998
++B beta+ 8.213000000000001E-4 0.0013700000000000001
++B beta+ 8.208E-4 0.0013700000000000001
++G gamma 0.7962 6.509999999999999E-4
++G gamma 1.5615999999999999 0.0020646
++G gamma 1.58395 0.0039618
++B beta+ 8.194E-4 0.0013800000000000002
++G gamma 1.00501 0.0019158
++G gamma 1.6314000000000002 2.976E-4
++B beta+ 8.174E-4 0.0014000000000000002
++G gamma 0.4332 8.928E-4
++G gamma 0.9452699999999999 0.0086862
++G gamma 1.06649 0.0019716
++B beta+ 8.146E-4 0.0014199999999999998
++G gamma 0.8632000000000001 5.394E-4
++G gamma 1.0469000000000002 0.0012833999999999999
++G gamma 1.14251 0.0080538
++G gamma 1.3656 6.324000000000001E-4
++G gamma 1.6621199999999998 0.009950999999999998
++G gamma 1.72237 0.005207999999999999
++G gamma 1.74175 8.37E-4
++B beta+ 8.135E-4 0.0014299999999999998
++G gamma 0.48402999999999996 0.0026226
++G gamma 1.6891500000000002 0.0036828
++G gamma 1.74922 0.010285800000000001
++G gamma 1.78429 0.0037757999999999997
++B beta+ 8.122E-4 0.0014399999999999999
++G gamma 0.30306 7.068E-4
++G gamma 1.33213 0.0013019999999999998
++G gamma 1.70903 0.0013578
++G gamma 1.80355 0.0129456
++B beta+ 8.112E-4 0.0014399999999999999
++G gamma 1.75345 0.0014694
++G gamma 1.8135999999999999 4.6314E-4
++G gamma 1.82523 0.001953
++G gamma 1.84822 3.7200000000000004E-4
++B beta+ 8.086E-4 0.00146
++G gamma 1.87623 0.0022319999999999996
++G gamma 1.9363800000000002 0.0036456
++G gamma 1.9712 9.300000000000001E-5
++B beta+ 7.978E-4 0.00154
++G gamma 1.52597 0.0075144
++G gamma 1.6493 5.394E-4
++G gamma 1.8881 2.0459999999999999E-4
++G gamma 1.9484000000000001 6.695999999999999E-4
++G gamma 1.9832400000000001 6.509999999999999E-4
++G gamma 2.0528000000000004 1.5996E-4
++B beta+ 7.963E-4 0.00155
++G gamma 1.95757 5.394E-4
++G gamma 2.01796 4.6314E-4
++B beta+ 7.849E-4 0.00164
++G gamma 0.41789 5.765999999999999E-4
++G gamma 2.079 1.4322E-4
++B beta+ 7.373E-4 0.03
++G gamma 0.47376 0.0020088
++G gamma 2.2745 7.812E-5
+

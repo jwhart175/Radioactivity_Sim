@@ -1,0 +1,30 @@
+# 70NI    70CO B- DECAY (119 MS)        2003SA40,2000MU10,1998FR1504NDS    200412
+#  70CO B- DECAY (119 MS)        2003SA40,2000MU10,1998FR1504NDS    200412
+#H TYP=FUL$AUT=J. K. Tuli$CIT=NDS 103, 389 (2004)$CUT=16-Jan-2004$        
+#  2000MU10,1998FR15: Measured G, GG, BG. 70CO obtained from              
+#  fission of 238U by 30-MeV protons followed by mass separation          
+#  using ^LIGLIS-^LISOL separator                                         
+#  2003SA40,2003GRZZ: {+86}KR{++36} on Ta, E=58 MEV/nucleon.              
+#  Measured beta-delayed G, ^LISE2000 spectrometer. In addition to G's    
+#  seen earlier, 2003GRZZ have seen a 916G which they have tentatively    
+#  PLACED from a 3146 level                                               
+#G E$FROM 2000MU10                                                        
+#G RI$FROM 2003GRZZ                                                       
+#B LOGFT$Estimated by authors                                             
+#P  0.0         (6-)               119 MS  6                1.35E+4 9     
+
+# 70NI    70CO B- DECAY (0.50 S)        2000MU10,1998FR15         04NDS    200412
+#  70CO B- DECAY (0.50 S)        2000MU10,1998FR15         04NDS    200412
+#H TYP=FUL$AUT=J. K. Tuli$CIT=NDS 103, 389 (2004)$CUT=16-Jan-2004$        
+#  2000MU10,1998FR15: Measured G, GG, BG. 70CO obtained from              
+#  fission of {+238}U by 30-MeV protons followed by mass separation       
+#  using LIGLIS-LISOL separator                                           
+#  2003SA40,2003GRZZ: {+86}KR{+36+} on Ta, E=58 MEV/nucleon.              
+#  Measured beta-delayed G, ^LISE2000 spectrometer. This isomer is weakly 
+#  populated in this reaction.                                            
+#G $2003GRZZ: The intensity for 608G was much weaker than                 
+#G 2000MU10 value and 1868G was  not observed at all, this is             
+#G attributed to much weaker population of this activity in this reaction.
+#B LOGFT$Estimated by authors                                             
+#P  0+X         (3+)               0.50 S  18               1.35E+4 9     
+

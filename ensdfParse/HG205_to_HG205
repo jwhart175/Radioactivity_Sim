@@ -1,0 +1,16 @@
+#205HG    205HG IT DECAY (1.09 MS)      1994Po21,1986Ze03,1985Ma4804NDS    200404
+#  205HG IT DECAY (1.09 MS)      1994Po21,1986Ze03,1985Ma4804NDS    200404
+#H TYP=FUL$AUT=F.G. KONDEV$CIT=NDS 101, 521 (2004)$CUT=1-Feb-2004$        
+#  1994Po21: 204HG(9BE,2AG); E=62 MEV; pulsed beam.                       
+#  1986Ze03: 204HG(D,PG); E=14,18 MEV; US and MS pulsed beams;            
+#  1985Ma48: 204HG(T,DG); E=14.2 MEV pulsed beam with ~1 NS on and        
+#  12.8 US off; E=16 MEV, pulsed beam with 25 MS on and 25 MS off, but    
+#  the data were collected only during beam off period.                   
+#G E,RI$From 1994Po21. EG uncertainties are assumed as 0.2 KEV.           
+#G M$ From adopted gammas.                                                
+#L E$From a least-squares fit to the gamma-ray energies and by            
+#L assuming |DE|g=0.20 KEV.                                               
+#L J,T$ From adopted levels.                                              
+#P 1556.41   12 13/2+              1.09 MS  4                             
+HG205 HG205 IT 0.0 0.0 1.0
+

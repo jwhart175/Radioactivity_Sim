@@ -1,0 +1,53 @@
+#171HF    171TA EC DECAY                1974LA24,1970RE11         02NDS    200209
+#  171TA EC DECAY                1974LA24,1970RE11         02NDS    200209
+#H TYP=FUL$AUT=CORAL M. BAGLIN$CIT=NDS 96,399 (2002)$CUT=5-Aug-2002$      
+#  Other: 1972CH45.                                                       
+#  1974LA24, 1970RE11: sources from 165HO(12C,6N), E(12C)=80 MEV          
+#  and 159TB(16O,4N), E(16O)=93 MEV; metallic HO and TB targets,          
+#  chemical separation; measured EG, IG (GELI, SILI), GG coin,            
+#  GG(T) 3-parameter coin. Incomplete transition data and                 
+#  unknown GS feeding (first-forbidden transition) prevent construction   
+#  of complete decay scheme. See comment with 198.9G concerning data from 
+#  1987SZ03.                                                              
+#  The tentative decay scheme is based on that of 1974LA24; however,      
+#  the 171TA parent configuration adopted here is 5/2- 1/2[541], not      
+#  7/2[404] as assumed by 1974LA24.  THE DECAY SCHEME HAS NOT BEEN        
+#  NORMALIZED BECAUSE EC+B+ FEEDING TO THE GS IS POSSIBLE (DJ=1, DPI=YES) 
+#  BUT ITS MAGNITUDE IS NOT KNOWN.  THE STRONGEST BRANCHES FEED (3/2-),   
+#  (5/2-) AND (7/2-) STATES (50, 142, 255, 506, 560 LEVELS), AS EXPECTED  
+#  FROM A (5/2-) PARENT.  HOWEVER, SIGNIFICANT BRANCHES ALSO APPEAR TO    
+#  FEED (9/2-) AND (11/2) STATES AND, ALTHOUGH CONSIDERABLE IG REMAINS    
+#  UNPLACED, THAT WOULD NOT APPEAR ADEQUATE TO EXPLAIN ALL SUCH FEEDING.  
+#  MANY OF THOSE JPI ASSIGNMENTS ARE VERY TENTATIVE AND MAY BE INCORRECT. 
+#G E         From 1970RE11, except as noted.                              
+#G RI        Photon intensity relative to RI(49.6G)=100; from 1970RE11,   
+#G except as noted.                                                       
+#G M         From CE data (measured, but not quoted, by evaluators of     
+#G 1974HO38), except where noted.                                         
+#L BAND(A)   7/2[633] band.                                               
+#L BAND(B)   1/2[521] band.                                               
+#L BAND(C)   5/2[512] band.                                               
+#L BAND(D)   3/2[521]? band.                                              
+#L ANALOGOUS TO BAND KNOWN IN ISOTONE 169YB.                              
+#L BAND(E)   5/2[642]? band.                                              
+#L BAND KNOWN IN ISOTONE 169YB.                                           
+#L BAND(J)   5/2[523]? BAND.                                              
+#L BAND KNOWN IN ISOTONE 169YB.                                           
+#L BAND(K)   7/2[514]? BAND.                                              
+#G M(FG),MR(G)$From adopted gammas.                                       
+#G E(H)      From 1987SZ03; attributed to 171TA decay on basis of         
+#G growth/decay and excitation function data (previously attributed to    
+#G otherwise unknown 6.3-min 171TA).  EG and growth/decay data are also   
+#G consistent with 168TA decay, but experimental conditions were          
+#G inappropriate for production of 168TA and other gammas associated with 
+#G that decay were not observed by 1987SZ03. Transition is intense        
+#G relative to other 171TA G's, but 1987SZ03 do not discuss findings as   
+#G they relate to present decay scheme.                                   
+#G E(I),RI(IJ)$From 1974LA24. No uncertainties are indicated in 1974LA24: 
+#G however, the same authors, in 1970RE11, report DE=0.1 KEV and          
+#G DRI LT 10% for the many transitions reported in both 1970RE11 and      
+#G 1974LA24. The evaluator, therefore, assigns the same uncertainties to  
+#G data reported in 1974LA24 alone.                                       
+#P 0.0          (5/2-)           23.3 M    3              3.74E3    14    
+TA171 HF171 beta+ 3.74 1398.0 1.0
+

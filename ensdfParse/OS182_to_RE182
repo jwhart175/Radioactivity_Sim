@@ -1,0 +1,60 @@
+#182RE    182OS EC DECAY (21.84 H)      1973BU08,1973SV01         ENSDF    201507
+#  182OS EC DECAY (21.84 H)      1973BU08,1973SV01         ENSDF    201507
+#H TYP=FUL$AUT=BALRAJ SINGH$CIT=ENSDF$CUT=15-Jul-2015$                    
+#H TYP=FUL$AUT=BALRAJ SINGH AND JOEL C. ROEDIGER$CIT=NDS 111, 2081 (2010)$
+#H CUT=15-Jul-2010$                                                       
+#  1973Bu08 (also 1968BuZX): {+182}Os source from {+182}W({+3}He,3n) and  
+#  {+185}Re(p,4n) reactions. Measured E|g, I|g, ce, |g|g, |g|g(t).        
+#  1973Sv01: {+182}Os source from (p,xn) reaction on Re. Measured E|g,    
+#  I|g, ce, |g|g, isotopic T{-1/2}                                        
+#  1970Ak02: {+182}Os source from (p,X) on Au and ({+22}Ne,X) on Ho.      
+#  Measured E|g, I|g, ce, subshell ratios, |g|g, (x ray)(|g) coin,        
+#  |g|g(t).                                                               
+#  1969An13: {+182}Os source from {+182}W(|a,2n). Measured E|g, I|g,      
+#  |g|g, |g|g(t)                                                          
+#  1969Pl04: {+182}Os source from (p,spallation) on Pb. Measured          
+#  E|g, I|g, ce, |g|g                                                     
+#  1968Ha39: measured ce, subshell ratios, E|g deduced from ce spectrum   
+#  {+182}Os isotopic identification and half-life measurements:           
+#  1976Ka22, 1969Hu03, 1966Be47, 1963Gr22, 1960Su13, 1960Ne03, 1958Fo47,  
+#  1950St89                                                               
+#  The level scheme is essentially from 1973Sv01, based on                
+#  earlier schemes proposed by 1968Ha39, 1968BuZX, 1969An13, 1970Ak02.    
+#  Several levels proposed by 1968Ha39 have not been confirmed by 1973Sv01
+#E LOGFT$Values have been deduced assuming x=|+50 keV                     
+#G E$Weighted average of 1973Bu08 and 1973Sv01, except that minimum       
+#G uncertainty is assigned from the lower of the two quoted values        
+#G by 1973Bu08 and 1973Sv01                                               
+#G RI$Weighted average of 1973Bu08 and 1973Sv01.                          
+#G E(B),RI(B)$From 1973Bu08; not reported by 1973Sv01                     
+#G E(D),RI(D)$From 1973Sv01; not reported by 1973Bu08                     
+#G E(E)$From ce data of 1968Ha39 and/or 1970Ak02, |g not confirmed        
+#G by 1973Sv01 in their ce data, upper limits on |g intensity quoted.     
+#G Some of the lines have been identified by 1973Sv01 as possibly         
+#G belonging to other nuclides. The ce intensities from 1968Ha39          
+#G are given under comments but these are renormalized as in 1973Sv01     
+#G RI(F)$From 1973Bu08                                                    
+#G RI(G)$From 1973Sv01                                                    
+#G M$From ce data of 1973Sv01, 1973Bu08, 1968Ha39                         
+#G $A 1410|g with I|g=0.31 (1969Pl04), <0.1 (1973Sv01) is higher than     
+#G the Q value, thus cannot belong to {+182}Os decay                      
+#G CC$FROM BrIcc v2.3b (16-Dec-2014) 2008Ki07, "Frozen Orbitals" appr.    
+#G MR(E2/M1)=1 assumed when not given                                     
+#L $The following levels have been rejected either due to revised         
+#L placements (by 1973Sv01 and 1973Bu08) or non-confirmation of           
+#L |g ray by 1973Sv01:                                                    
+#L 346 (1968Ha39,1969An13) decaying by 110.5|g; 486 level (1970Ak02)      
+#L decaying by 223.0|g and 486|g; 504 level (1969An13) decaying by 241|g; 
+#L 620 level (1973Sv01) decaying by 110|g and 241|g; 632 level (1968Ha39, 
+#L 1973Bu08) decaying by 369.2|g and 632.3|g (1968Ha39 also show 286.4|g  
+#L and 315|g, 1973Bu08 show 122.3|g); 738 level (1968Ha39,1973Bu08)       
+#L decaying by 359|g, 475|g and 503|g; 797 level (1968Ha39,1973Bu08)      
+#L decaying by 480|g and 561|g (1968Ha39 also show 450|g and 1973Bu08     
+#L show 164|g and 359|g)                                                  
+#L J$From Adopted Levels, where all the arguments for J|p assignments     
+#L are specified.                                                         
+#L T(F)$From |g|g(t) (1970Ak02)                                           
+#N  0.524    10 0.524  10    1.0    1                                     
+#N                                                                     3  
+#P 0.0          0+                  21.84 H 20             8.4E2    10    
+

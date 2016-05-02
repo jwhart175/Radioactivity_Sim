@@ -1,0 +1,34 @@
+# 33MG    33NA B- DECAY (8.0 MS)        2001NU02,1984GU19         11NDS    201105
+#  33NA B- DECAY (8.0 MS)        2001NU02,1984GU19         11NDS    201105
+#H TYP=FUL$AUT=JUN CHEN AND BALRAJ SINGH$CIT=NDS 112, 1393 (2011)$        
+#H CUT=31-Mar-2011$                                                       
+#  2001Nu02, 2002Ra16 (also 2002Nu02,2004Co29): Measured E|g,             
+#  I|g, half-life, |g|g, |b|g coin, |b|g|g coin, |bn|g coin, n|g coin,    
+#  delayed neutrons, ISOLDE facility. Shell-model calculations            
+#  1984Gu19: Four unplaced |g rays reported                               
+#  Other:                                                                 
+#  2006AnZW: {+33}Mg produced in fragmentation of {+36}S beam at          
+#  GANIL facility, measured |g and delayed neutrons from its decay.       
+#  {+33}Na also decays to {+31}Mg by |b{+-}2n (13% {I3}) and to           
+#  {+32}Mg by |b{+-}n (47% {I6}); total                                   
+#  All data are from 2001Nu02, unless otherwise stated                    
+#  The data on neutron energies are not available in detail to            
+#  deduce all the level energies in {+33}Mg populated by {+33}Na          
+#  |b decay. Several |g rays are unplaced and there still could be        
+#  unobserved transitions in the large energy gap allowed by              
+#  the Q(|b{+-}) value.                                                   
+#B IB,LOGFT$ The evaluators consider the level scheme as incomplete       
+#B and tentative, thus all |b branches are considered as upper limits     
+#B and associated log| {Ift} values as lower limits.                      
+#G RI$Relative to 100 for 885.3|g in {+32}Mg populated in |b{+-}n decay   
+#G of {+33}Na                                                             
+#G E(A)$ The evaluators note that 1857.7-1011.3=846.4, which matches the  
+#G gamma energy of 845.7 {I2} keV within the uncertainty range and may    
+#G suggest a level at 1011.3+845.7=1856 and another level either at 1011  
+#G or 846. The evaluators tentatively define a level at 1856.7 keV. Also  
+#G 845.7-297.9=547.8 which is close in energy to 546.2|g                  
+#L J$From Adopted Levels                                                  
+#L E(A)$Decays to {+32}Mg by neutron emission                             
+#P  0.0         (3/2+)            8.0 MS   4              19.94E3   88    
+NA33 MG33 beta- 19.94 0.0 1.0
+

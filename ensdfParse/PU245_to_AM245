@@ -1,0 +1,134 @@
+#245AM    245PU B- DECAY                1968Da02                  11NDS    201102
+#  245PU B- DECAY                1968Da02                  11NDS    201102
+#H TYP=FUL$AUT=E. BROWNE, J. K. TULI$CIT=NDS 112, 447 (2011)$             
+#H CUT=1-Jun-2010$                                                        
+#  Modified by E. Browne (August 10, 2010). BRICC (2008).                 
+#  The {+245}Pu |b{+-} decay scheme shown is basically that proposed by   
+#  1968Da02 and 1968WaZZ. Two additional levels, at 755 and 796 keV, were 
+#  tentatively proposed by 1968Da02. Of the transitions suggested to      
+#  deexcite these levels, 670, 738, and 796 |g rays were placed elsewhere 
+#  in the decay scheme; energy fits of remaining |g rays are poor. These  
+#  two proposed levels and the |g rays de-exciting  them are not          
+#  given here.                                                            
+#G CC$ FROM BrIcc v2.2 (31-Mar-2008) 2008KiAA, "Frozen Orbitals" appr.    
+#G           Of the 113 |g rays observed, 47 |g rays have not been placed 
+#G on the decay scheme. Sum of photon intensities of unplaced gammas      
+#G amounts to about 14% of the 327|g photon intensity. The expected       
+#G low-energy intra- and inter-band transition between the states in the  
+#G 5/2[642] and 5/2[523] bands, except the 28-keV transition, have not    
+#G been observed. These transitions should settle the imbalances          
+#G at those levels with the present decay scheme.                         
+#G                                                                        
+#G           |b branch intensities shown on the decay scheme have been    
+#G deduced by evaluators from |g-ray transition intensity balances.       
+#G The individual branchings to levels in the 5/2[642] and 5/2[523]       
+#G bands could not be deduced because the low-energy gammas expected      
+#G between them were not observed. The total |b{+-} intensity to these    
+#G levels is taken to be 1/5 of the total |b intensity to the 7/2[633]    
+#G band, as reported in 1968Da02.                                         
+#G           |b|g coincidences: see 1968Da02.                             
+#G           |g|g coincidences: see 1968Da02.                             
+#G           Measured |b's:                                               
+#G                     E(|b)=1210 {I40}, I(|b) |? 1/5 of 930-keV |b{+-}  (
+#G 1968Da02)                                                              
+#G .                                                                      
+#G                     E(|b)=930 {I30}   by (327|g)|b coincidence    (1968
+#G Da02).                                                                 
+#G                     E(|b) |? 400    by (800|g)|b coincidence    (1968Da
+#G 02)                                                                    
+#G .                                                                      
+#G E         Measured energies from 1968Da02 (semi,pc), 1968WaZZ (semi),  
+#G and 1979Bo30 (cryst) are in good agreement.                            
+#G Energies given here are those reported in 1968WaZZ, except that for    
+#G the 28-keV G ray, which is from pc and crystal measurements            
+#G in 1979Bo30.                                                           
+#G E(B)      From 1979Bo30 (cryst).                                       
+#G RI        Reported in 1968WaZZ. A comparison of energies and           
+#G intensities measured by 1968Da02 and 1968WaZZ is also given.           
+#G M         From ce data in 1968Da02. The ce intensities given here were 
+#G deduced from experimental conversion coefficients listed in            
+#G 1968Da02, and renormalized by the evaluators to Ice(K)(327|g)=105      
+#G so that |a(K)=0.70 {I20}. Multipolarities in square brackets are from  
+#G level scheme (not determined experimentally). For |DJ=1                
+#G interband transitions, conversion coefficients for pure M1             
+#G multipolarity are used (E2 admixtures are expected to be small).       
+#L BAND(A)$5/2[642] ROTATIONAL BAND.                                      
+#L BAND(B)$5/2[523] ROTATIONAL BAND.                                      
+#L BAND(D)$7/2[633] ROTATIONAL BAND.                                      
+#P 0.0         (9/2-)            10.5 H    1              1278      15    
+PU245 AM245 beta- 1.278 37800.0 1.0
++G gamma 0.277 1.7999999999999998E-4
++G gamma 0.2932 1.7999999999999998E-4
++G gamma 0.3331 3.5999999999999997E-4
++G gamma 0.3927 7.199999999999999E-4
++G gamma 0.42319999999999997 3.5999999999999997E-4
++G gamma 0.439 3.5999999999999997E-4
++G gamma 0.45 3.5999999999999997E-4
++G gamma 0.4798 2.1599999999999996E-4
++G gamma 0.4863 3.5999999999999997E-4
++G gamma 0.5146000000000001 0.0018
++G gamma 0.5182 5.4E-4
++G gamma 0.5306000000000001 3.5999999999999997E-4
++G gamma 0.5988 0.00126
++G gamma 0.642 3.5999999999999997E-4
++G gamma 0.6572 0.0014399999999999999
++G gamma 0.6622 9.0E-4
++G gamma 0.691 3.5999999999999997E-4
++G gamma 0.7017 7.199999999999999E-4
++G gamma 0.712 3.5999999999999997E-4
++G gamma 0.7335 9.0E-4
++G gamma 0.7402000000000001 0.0014399999999999999
++G gamma 0.7437 0.0016200000000000001
++G gamma 0.7582000000000001 3.5999999999999997E-4
++G gamma 0.78155 7.199999999999999E-4
++G gamma 0.8219 9.0E-4
++G gamma 0.8796 5.4E-4
++G gamma 0.923 5.4E-4
++G gamma 0.9254 1.7999999999999998E-4
++G gamma 0.9452 5.4E-4
++G gamma 0.964 4.5E-4
++G gamma 0.9726 9.0E-4
++G gamma 0.975 0.0027
++G gamma 0.9823999999999999 9.0E-4
++G gamma 1.001 2.7E-4
++G gamma 1.00731 0.00432
++G gamma 1.0132 0.00108
++G gamma 1.0282 1.7999999999999998E-4
++G gamma 1.0362 8.999999999999999E-5
++G gamma 1.0424 1.6199999999999998E-4
++G gamma 1.0937000000000001 1.44E-4
++G gamma 0.028 0.0072
++B beta- 0.405 0.1
++B beta- 0.301 0.53
++G gamma 0.327428 0.27
++B beta- 0.277 0.039
++B beta- 0.248 0.0040999999999999995
++B beta- 0.111 0.15
++B beta- 0.1 0.023
++B beta- 0.089 0.085
++B beta- 0.08 0.028999999999999998
++G gamma 0.941 0.0027
++G gamma 0.9685 3.5999999999999997E-4
++G gamma 0.9876 0.014039999999999999
++B beta- 0.069 0.011000000000000001
++G gamma 0.5492 3.5999999999999997E-4
++G gamma 0.6968 9.0E-4
++G gamma 0.8993 3.5999999999999997E-4
++G gamma 0.953 1.7999999999999998E-4
++G gamma 0.9772000000000001 0.00414
++G gamma 0.996 0.00216
++G gamma 1.0051 0.0028799999999999997
++B beta- 0.057 0.017
++G gamma 0.66928 0.0036
++G gamma 0.9302999999999999 5.4E-4
++G gamma 1.01833 0.010979999999999998
++B beta- 0.044 0.006999999999999999
++G gamma 1.02332 0.0057599999999999995
++G gamma 1.0402 7.2E-5
++G gamma 1.0839 3.5999999999999997E-4
++B beta- 0.024 0.0012
++G gamma 1.0513 5.399999999999999E-5
++G gamma 1.0979 1.7999999999999998E-4
++G gamma 1.1385 4.5E-4
++G gamma 1.1663 5.4E-4
+

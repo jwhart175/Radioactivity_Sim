@@ -1,0 +1,200 @@
+#137PR    137ND EC DECAY                1975KL02,1973BU18         07NDS    200709
+#  137ND EC DECAY                1975KL02,1973BU18         07NDS    200709
+#H TYP=FUL$AUT=E. BROWNE, J. K. TULI$CIT=NDS 108,2173 (2007)$             
+#H CUT=1-Oct-2006$                                                        
+#  Significantly modified by E. Browne. ICC from BRICC. New normalization 
+#  New G-ray intensity balance.  Log ft's have been                       
+#  recalculated (Feb 5, 2007).                                            
+#  Measured: G, CE, GG (1975Kl02,1973Bu18), B+ (1973Bu18), GCE (1980ZhZY) 
+#  CEG(T) (1973Bu18)                                                      
+#  Decay scheme is that proposed by 1975Kl02.                             
+#  1973Bu18 measured two B+ components with E(B+)=2400 40 and 1700 30     
+#  respectively. Q(B+)=3485 30 if 2400B{++} feeds the 75.5-keV level,     
+#  and 1700B{++} the 761-keV level. EB{++}=2590 60 (1983AlZP)             
+#E           EC+B feedings have been determined from the assumption of no 
+#E direct feeding to GS (1975Kl02)                                        
+#G           EKC normalized so that KC(581)=0.01 (M1) (1975Kl02)          
+#G E$G rays placed in the decay scheme are from 1975Kl02;                 
+#G unplaced G rays are from 1973Bu18, except 540G, 1791G, and             
+#G G rays with EG GE 2570.5, which are from 1975Kl02.                     
+#G E(A)      Observed by 1975Kl02 and 1973Bu18                            
+#G E(B)      May depopulate the 2044.6-keV level.                         
+#G E(D)      May depopulate the 1968.9-keV level.                         
+#L J         From Adopted Levels                                          
+#P 0.0         1/2+              38.5 M    15             3597      16    
+ND137 PR137 beta+ 3.597 2310.0 1.0
++G gamma 0.1108 0.02
++G gamma 0.14896 0.011000000000000001
++G gamma 0.1702 0.006999999999999999
++G gamma 0.22782 0.016
++G gamma 0.24538 0.006
++G gamma 0.25196 0.009000000000000001
++G gamma 0.25799 0.012
++G gamma 0.31759 0.009000000000000001
++G gamma 0.32321 0.009000000000000001
++G gamma 0.32549 0.008
++G gamma 0.32706 0.008
++G gamma 0.36098 0.015
++G gamma 0.38453 0.009000000000000001
++G gamma 0.38615 0.009000000000000001
++G gamma 0.39502 0.008
++G gamma 0.49451999999999996 0.008
++G gamma 0.5407000000000001 0.02
++G gamma 0.5764199999999999 0.025
++G gamma 0.59814 0.023
++G gamma 0.63173 0.004
++G gamma 0.6350399999999999 0.0046
++G gamma 0.63761 0.0079
++G gamma 0.64442 0.006999999999999999
++G gamma 0.6468200000000001 0.009000000000000001
++G gamma 0.65392 0.004
++G gamma 0.66115 0.008
++G gamma 0.67813 0.008
++G gamma 0.70835 0.004
++G gamma 0.71148 0.006999999999999999
++G gamma 0.72702 0.006
++G gamma 0.74803 0.009000000000000001
++G gamma 0.77632 0.011000000000000001
++G gamma 0.79738 0.005
++G gamma 0.79977 0.006
++G gamma 0.81139 0.006999999999999999
++G gamma 0.81448 0.013000000000000001
++G gamma 0.84769 0.006
++G gamma 0.84949 0.004
++G gamma 0.86017 0.016
++G gamma 0.87975 0.008
++G gamma 0.9400700000000001 0.006999999999999999
++G gamma 0.94289 0.008100000000000001
++G gamma 0.96723 0.006
++G gamma 0.97112 0.006999999999999999
++G gamma 1.02958 0.012
++G gamma 1.04822 0.006999999999999999
++G gamma 1.11671 0.006999999999999999
++G gamma 1.16678 0.01
++G gamma 1.1761400000000002 0.01
++G gamma 1.18205 0.008
++G gamma 1.19109 0.006
++G gamma 1.20431 0.006999999999999999
++G gamma 1.21308 0.01
++G gamma 1.25348 0.005
++G gamma 1.25652 0.013999999999999999
++G gamma 1.26295 0.006
++G gamma 1.26802 0.006999999999999999
++G gamma 1.32012 0.006999999999999999
++G gamma 1.34044 0.006
++G gamma 1.35122 0.008
++G gamma 1.37224 0.006999999999999999
++G gamma 1.4096600000000001 0.009000000000000001
++G gamma 1.43404 0.013000000000000001
++G gamma 1.4439600000000001 0.0085
++G gamma 1.47228 0.006999999999999999
++G gamma 1.49344 0.009000000000000001
++G gamma 1.5425 0.006999999999999999
++G gamma 1.55167 0.005
++G gamma 1.5745 0.008
++G gamma 1.60776 0.013000000000000001
++G gamma 1.6465 0.013000000000000001
++G gamma 1.70061 0.008
++G gamma 1.76492 0.023
++G gamma 1.76969 0.025
++G gamma 1.77951 0.009000000000000001
++G gamma 1.7913 0.005
++G gamma 1.84557 0.006
++G gamma 1.8938199999999998 0.025
++G gamma 1.9645299999999999 0.008
++G gamma 1.99966 0.006
++G gamma 2.09119 0.005
++G gamma 2.20512 0.004
++G gamma 2.5705 0.003
++G gamma 2.6395 0.003
++G gamma 2.7538 0.001
++G gamma 2.801 0.001
++G gamma 2.831 0.001
++G gamma 0.0755 1.33
++G gamma 0.2305 0.1
++G gamma 0.2382 0.275
++G gamma 0.3135 0.06
++G gamma 0.30660000000000004 0.78
++G gamma 0.382 0.08
++G gamma 0.1985 0.05
++G gamma 0.267 0.075
++G gamma 0.35 0.03
++G gamma 0.5051 0.7
++G gamma 0.5806 1.0
++G gamma 0.342 0.02
++G gamma 0.6494 0.015
++G gamma 0.7248 0.02
++G gamma 0.18080000000000002 0.01
++G gamma 0.4475 0.01
++G gamma 0.531 0.06
++G gamma 0.6861 0.14
++G gamma 0.7616 0.7
++G gamma 0.2763 0.05
++G gamma 0.4749 0.09
++G gamma 0.7816000000000001 0.73
++G gamma 0.857 0.018000000000000002
++G gamma 0.1675 0.015
++G gamma 0.3485 0.02
++G gamma 0.5468999999999999 0.03
++G gamma 0.6156 0.081
++G gamma 0.9292 0.23
++G gamma 0.8837 0.025
++G gamma 0.9592 0.005
++G gamma 0.1445 0.005
++G gamma 0.6192000000000001 0.045
++G gamma 0.688 0.01
++G gamma 0.9259 0.57
++G gamma 1.0012 0.02
++G gamma 0.2885 0.015
++G gamma 0.6672 0.02
++G gamma 1.2475 0.01
++G gamma 1.2183 0.015
++G gamma 1.2935999999999999 0.03
++G gamma 1.2345 0.04
++G gamma 1.31 0.035
++G gamma 0.5253 0.03
++G gamma 0.6275 0.013999999999999999
++G gamma 1.1028 0.023
++G gamma 1.4846 0.048
++G gamma 0.6237999999999999 0.024
++G gamma 0.8634 0.026000000000000002
++G gamma 1.0445 0.075
++G gamma 1.2430999999999999 0.11
++G gamma 1.1798 0.01
++G gamma 1.36 0.05
++G gamma 1.8653 0.027999999999999997
++G gamma 1.9407999999999999 0.002
++G gamma 1.3885 0.025
++G gamma 1.5865 0.025
++G gamma 1.969 0.025
++G gamma 1.1199000000000001 0.045
++G gamma 1.5945 0.035
++G gamma 1.9015 0.06
++G gamma 1.9773 0.006999999999999999
++G gamma 1.4277 0.005
++G gamma 1.6264 0.07
++G gamma 1.9335 0.03
++G gamma 2.0086 0.025
++G gamma 1.4641 0.057999999999999996
++G gamma 1.6625 0.01
++G gamma 1.7310999999999999 0.02
++G gamma 1.969 0.025
++G gamma 1.3651 0.02
++G gamma 1.4015 0.025
++G gamma 1.546 0.03
++G gamma 1.7446 0.005
++G gamma 1.8131 0.065
++G gamma 2.0513000000000003 0.075
++G gamma 2.1265 0.013000000000000001
++G gamma 2.2887 0.015
++G gamma 2.3655999999999997 0.001
++G gamma 0.7853 0.015
++G gamma 2.0957 0.006999999999999999
++G gamma 2.3333000000000004 0.003
++G gamma 2.2306 0.005
++G gamma 2.5435 0.006
++G gamma 1.2965 0.002
++G gamma 2.2756999999999996 0.005
++G gamma 2.5153000000000003 0.006999999999999999
++G gamma 2.5905 0.001
+

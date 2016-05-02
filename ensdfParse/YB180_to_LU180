@@ -1,0 +1,49 @@
+#180LU    180YB B- DECAY                1995ME03,1987RU04         15NDS    201506
+#  180YB B- DECAY                1995ME03,1987RU04         15NDS    201506
+#H TYP=FUL$AUT=E.A. MCCUTCHAN$CIT=NDS 126, 151 (2015)$CUT=1-Feb-2015$     
+#  1995Me03: {+180}Yb activity from {+197}Au or {+136}Xe at 11            
+#  MeV/nucleon on targets of natural W or Re. Channel selection using     
+#  online mass separator, fast tape transport system, and the             
+#  FEBIAD-B2-C ion source to suppress contamination from {+180}Lu.        
+#  Measured E|g, I|g, |g|g, |b|g, and I(ce) using setups of two Ge        
+#  detectors and a 4|p|b counter or a low-energy Ge detector and a        
+#  mini-orange electron spectrometer.                                     
+#  1987Ru04: {+180}Yb activity from {+186}W at 15 MeV/nucleon on targets  
+#  of natural W or Ta. Channel selection with GSI online mass separator   
+#  and fast transport tape system. Measured E|g, I|g, |g|g, and |b|g      
+#  using a plastic 4|p|b detector and |g and |g/X Ge detectors.           
+#  The level scheme is that of 1995Me03. The level scheme proposed by     
+#  1987Ru04 is in general agreement, except for the omission of the       
+#  13.9-keV level, which results in all the level energies in 1987Ru04    
+#  quoted as 13.9-keV lower than those in 1995Me03. Configuration         
+#  assignments are from 1995Me03.                                         
+#B IB$From intensity balance at each level and assuming E1 multipolarity  
+#B for the 172.9|g.                                                       
+#B IB,LOGFT$Large uncertainties on I|g's and unknown multipolarities      
+#B make a precise determination of I|b{+-} difficult. Both I|b{+-} and    
+#B Log {Ift} should be considered approximate.                            
+#G E$From 1987Ru04, except where noted. E|g's were measured in            
+#G coincidence with |b{+-}.                                               
+#G RI$From 1995Me03. Values from 1987Ru04 are included in the comments.   
+#G E(A)$From 1995Me03                                                     
+#G M$Determined from conversion electron data (1995Me03); no specific     
+#G details are given by authors.                                          
+#L E$From a least-squares fit to E|g's by the evaluator. |DE|g=0.3 keV    
+#L is taken when no uncertainty is given.                                 
+#L J,T$From the Adopted Levels                                            
+#L J(c)$Calculated two-quasiparticle spectrum predicts two closely lying  
+#L 1+ states around 1 MeV in excitation energy with configurations        
+#L (|n1/2{+-}[510])(|p1/2{+-}[514]) and (|n7/2{+-}[514])(|p9/2{+-}[514]). 
+#  Total energy release is calculated as 2180 keV {I130} by the RADLST    
+#  code, in general agreement with the Q value of 2080 keV {I210, syst}.  
+#  However, due to large uncertainties on I|g's, unknown                  
+#  multipolarities, and a difference of 1 MeV between the highest         
+#  observed level and the decay Q value, the level scheme should be       
+#  considered incomplete.                                                 
+#  CC$FROM BrIcc v2.3a (30-Jun-2013) 2008Ki07, "Frozen Orbitals" appr.    
+#P 0.0          0+                2.4 M     5              2080     SY    
++B beta- 0.794 0.09
++B beta- 0.632 0.32
++B beta- 0.47 0.26
++B beta- 0.456 0.33
+

@@ -1,0 +1,61 @@
+#170PT  XA174HG A DECAY                                                          
+#XA174HG A DECAY                                                          
+#XB171AU P DECAY (1.02 MS)                                                
+#XC(HI,XNG)                                                               
+#XD171AU P DECAY (17 US)                                                  
+#L 0.0         0+                13.8 MS   5                          A   
+#L %A=98 2$%EC+%B+=?                                                      
+#L XREF=ABCD                                                              
+#L T         weighted average of 14.7 MS 5 (1996BI07) and 13.5 MS 3       
+#L (1998KI20). Other ^T{-1/2}: 6 MS +5-2 from |a(t) measurement           
+#L (1981HO10); 15 MS +16-6 (1997UU01).                                    
+#L %A        Gross |b decay theory calculations predict partial |b        
+#L half-life to be AP 2 S (1973TA30) and 1997MO25 predict 0.38 S, implying
+#L %EC+%B+ AP 0.7 or 3.6, respectively; based on this, the evaluator      
+#L adopts %A=98 2. |a decay of 170PT has been observed                    
+#L (1981HO10,1982EN03,1996BI07), but %A has not been measured.            
+#L EC+B+ decay has not been observed.                                     
+#L 508.9     10 (2+)                                                  A   
+#L XREF=C                                                                 
+#G  508.9       100       Q                                               
+#L 1171.2    15(4+)                                                   A   
+#L XREF=C                                                                 
+#G  662.3       100       Q                                               
+#L 1910.7    18(6+)                                                   A   
+#L XREF=C                                                                 
+#G  739.5       100       Q                                               
+#L 2636.6    20 (8+)                                                  A  ?
+#L XREF=C                                                                 
+#L J         possible extension of GS band.                               
+#G  725.9       100                                                      ?
+#                                                                         
+#  171AU P DECAY (17 US)         1999PO09                  02NDS    200211
+#H TYP=ERR$AUT=J. Tuli$DAT=18-DEC-2007$COM=fixed typos from PNPI rpt$     
+#H TYP=FUL$AUT=CORAL M. BAGLIN$CIT=NDS 96, 611 (2002)$CUT=15-Aug-2002$    
+#  1999PO09: produced 171AU using 96RU(78KR,p2n) reaction                 
+#  at 375 MEV; fragment mass analyzer, recoils implanted into double-sided
+#  Si strip detector; measured EP, (A=171 implant)-p-|a(170PT)            
+#  correlation, parent ^T{-1/2}, branching.                               
+#  ALL DATA ARE FROM 1999PO09.                                            
+#P 0.0           (1/2+)          17 US     +9-5           1452      17    
+
+#170PT    174HG A DECAY                 1999SE14,1997UU01         02NDS    200211
+#  174HG A DECAY                 1999SE14,1997UU01         02NDS    200211
+#H TYP=ERR$AUT=J. Tuli$DAT=18-DEC-2007$COM=fixed typos from PNPI rpt$     
+#H TYP=FUL$AUT=CORAL M. BAGLIN$CIT=NDS 96, 611 (2002)$CUT=15-Aug-2002$    
+#  1999SE14: produced 174HG parent using 96RU(80KR,2n), E=375 MEV,        
+#  isotopically enriched target; fragment mass analyzer, double-sided     
+#  SI strip detector, observed spatial and time correlations between      
+#  fragment implantation and its decays; measured EA, parent ^T{-1/2}.    
+#  1997UU01: produced 174HG parent using 144SM(36AR,6n) reaction at       
+#  E(36AR)=180-230 MEV; 88.6% 144SM target; gas-filled recoil separator   
+#  with ^PIPS detector in focal plane (FWHM=27 KEV at 6 MEV); observed    
+#  correlated recoil-|a-|a chains; measured EA, parent and daughter       
+#  ^T{-1/2}.                                                              
+#  ^T{-1/2}(174HG)=1.9 MS +4-3 (1999SE14), 2.1 MS +18-7 (1997UU01).       
+#A HF        R0=1.548 12, assuming HF=1.0 for 7066A,                      
+#A ^T{-1/2}(174HG)=1.9 MS +4-3 (1999SE14),                                
+#A QA(174HG)=7233 6 (based on adopted EA) and %A(174HG)=99.7 3.           
+#P 0.0          0+               1.9 MS    +4-3           7233      6     
++A alpha 7.067 1.0
+

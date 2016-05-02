@@ -1,0 +1,56 @@
+#227FR    227RN B- DECAY                1997KU20                  01NDS    200110
+#  227RN B- DECAY                1997KU20                  01NDS    200110
+#H TYP=FMT$AUT=J. Tuli$DAT=22-APR-2005$COM=Fixed Fmt/Typo$                
+#H TYP=FUL$AUT=E. BROWNE$CIT=NDS 93, 920 (2001)$CUT=1-May-2001$           
+#  1997KU20: the 227RN activity was produced by spallation of 1-GEV       
+#  protons on a 232TH target and subsequently mass separated              
+#  in the ISOLDE mass-separator. The separated activity was               
+#  deposited on a tape transport for G-ray, conversion electron, and B-   
+#  measurements. The assignment of G rays to 227RN was based on its       
+#  half-life of about 20 S. Measured EG, RI, GG coin, BG coin, ICE,       
+#  BG(T), and BGG(T). Detectors: hyper-pure germanium detectors;          
+#  the TESSA array of 12 COMPTON-suppressed germanium detectors for       
+#  G rays; a plastic scintillator for B- particles; and a                 
+#  mini-orange magnetic spectrometer for conversion electrons.            
+#  Deduced levels half-life and G-ray multipolarities.                    
+#  Other measurements:                                                    
+#  1989BO11: measured EG, RI, BG coin. Detector: plastic scintillator for 
+#  B- particles, and a hyper-pure germanium detector for G rays. Authors  
+#  reported 33 G rays, none of them placed in the level scheme.           
+#  1986BO35: the activity was produced by spallation of 600-MEV protons on
+#  targets of {+232}Th. Assignment to {+227}Rn is based on mass           
+#  separation, and on the genetic relationship with its daughter nucleus  
+#  227FR. Measured B-. Detector: plastic scintillator (1986BO35).         
+#  Measured XK intensities of 790 25 (XKA2), 1260 50 (XKA1),              
+#  453 20 (XKB1P), and 128 10 (XKB2P) agree well with the following       
+#  values calculated by the evaluator using the computer program          
+#  ^RADLST: 740 36 (XKA2), 1214 59 (XKA1), and                            
+#  562 28 (XKB1P + XKB2P). This agreement shows that most G rays with     
+#  EG GE 101 KEV (the K-binding energy in francium) have correct          
+#  multipolarities and accurate mixing ratios. The normalization of the   
+#  decay scheme, however, cannot be done accurately because possible B-   
+#  feedings to low energy levels are unknown. Nevertheless, 1997KU20      
+#  normalized the decay scheme assuming no B- feeding to any level below  
+#  40 KEV. Except for the GS (1/2+), this assumption is unrealistic since 
+#  these levels have spins of 3/2 or 5/2, and the parent nucleus 227RN    
+#  is expected to have a spin of 5/2. As 1997KU20 pointed out, their      
+#  B- and G-ray deduced absolute intensities are just limits.             
+#  Others: 1989BO11, 1986BO35.                                            
+#L J$Spin, parity, and rotational band assignments are based mostly       
+#L on G-ray multipolarities and the band structure expected from the      
+#L reflection-symmetric rotor model, including an octupole deformation.   
+#L Only the better established rotational bands are presented in          
+#L this evaluation.                                                       
+#L J$Although octupole deformations are small in this region, nuclear     
+#L states are no longer fully characterized by single Nilsson orbitals.   
+#L This terminology, however, is used throughout this evaluation to       
+#L label states rather than to accurately describe their nature.          
+#L E$From 1997KU20                                                        
+#L BAND(A)   1/2+(400) PARITY DOUBLET ROTATIONAL BAND                     
+#L BAND(a)   1/2-(530) PARITY DOUBLET ROTATIONAL BAND                     
+#L BAND(B)   3/2+(402) PARITY DOUBLET ROTATIONAL BAND                     
+#L BAND(b)   3/2-(532) PARITY DOUBLET ROTATIONAL BAND                     
+#G RI$Relative photon intensity                                           
+#P 0.0          5/2              20.8 S    7              3300      SY    
+RN227 FR227 beta- 3.3 20.8 1.0
+

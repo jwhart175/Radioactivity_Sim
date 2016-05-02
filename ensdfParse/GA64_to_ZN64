@@ -1,0 +1,48 @@
+# 64ZN    64GA EC DECAY (2.627 M)       1975RA28,1967MA04,1967KO0207NDS    200703
+#  64GA EC DECAY (2.627 M)       1975RA28,1967MA04,1967KO0207NDS    200703
+#H TYP=FUL$AUT=BALRAJ SINGH$CIT=NDS 108, 197 (2007)$CUT=31-Dec-2006$      
+#  Decays mainly by B+ (only AP 2% by EC)                                 
+#  1990SuZR: measured G, T1/2 using mass-separated sources                
+#  produced by 64ZN(P,N) E=16 MEV                                         
+#  1975Ra28: measured G                                                   
+#  1967Ma04: measured G, GG, B+G circ pol                                 
+#  1967Ko02: measured G, GG, B+G, T1/2(64GA)                              
+#  Other studies:                                                         
+#  G: 1967Au04, 1960Ja07, 1953Co14                                        
+#  GG: 1960Ja07                                                           
+#  CE: 1985Pa07 (also 1983Pa05)                                           
+#  B+G circ pol: 1966De10                                                 
+#  B+: 1977ReZK, 1976Mo12, 1960Ja07                                       
+#  B+ shape factor: 1977ReZK                                              
+#  T1/2(64GA): 1980NaZS, 1973Da01, 1972Mo08, 1953Co14, 1953Cr15           
+#  Production of 64GA: references for T1/2 and 1987Yo03, 1960Ja07         
+#  Theoretical calculations of FERMI matrix elements:                     
+#  1981Ya01, 1972Ya05, 1970Ko41, 1968Kr10, 1966Va27                       
+#G E,RI$From 1975Ra28, unless otherwise stated. Values from 1990SuZR are  
+#G given under comments (in ENSDF). EG's given by 1990SuZR are            
+#G systematically higher than those given by 1975Ra28. In the range       
+#G 750 to 4610, the deviation is from 0.5 to 2 KEV. RI's given by 1990SuZR
+#G agree well with those given by 1975Ra28, but no uncertainties are      
+#G quoted                                                                 
+#G E(A),RI(A)$Reported by 1967Ko02 only, most likely contributed by an    
+#G impurity. Limiting intensity from 1967Ma04, unless otherwise stated    
+#G E(B)$Weak transition reported by 1975Ra28 only                         
+#G E(D)$Reported by 1967Ma04 only, most likely an impurity.               
+#G RI(D)$Upper limit from 1975Ra28                                        
+#G           RI(G+-)=453 14 (1975Ra28)                                    
+#L E$From least-squares fit to EG's                                       
+#L J$From adopted levels                                                  
+#P 0.0         0+                2.627 M   12              7169.3   21    
++B beta+ 0.19069999999999998 0.07
++B beta+ 2.8748 0.01
++B beta+ 1.9445999999999999 0.01
++B beta+ 1.6084 0.0
++B beta+ 1.333 0.0
++B beta+ 1.2974 0.0
++B beta+ 1.2691 0.02
++B beta+ 1.2482 0.0
++B beta+ 1.2202 0.0
++B beta+ 1.0463 0.99
++B beta+ 0.7414 0.0011
++B beta+ 0.6713 0.0014000000000000002
+

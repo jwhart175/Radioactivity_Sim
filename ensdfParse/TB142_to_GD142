@@ -1,0 +1,45 @@
+#142GD    142TB EC DECAY                1991FI03                  11NDS    201108
+#  142TB EC DECAY                1991FI03                  11NDS    201108
+#H TYP=FUL$AUT=T.D. Johnson, D. Symochko(a), M. Fadil(b), and J.K. Tuli$  
+#H CIT=NDS 112, 1949 (2011)$CUT=1-Jun-2010$                               
+#  1991Fi03: measured G, GG, XG, T1/2. MEASURED                           
+#  delayed proton emission probability=2.2E-5 11                          
+#  1988GiZV: same authors as 1991Fi03                                     
+#  Delayed proton emission probability AP 3E-7%; EP=2.5-5.2 MEV,          
+#  EP(av)=3.9 MEV (1988NiZX)                                              
+#  All data are from 1991Fi03, unless stated otherwise                    
+#E IE        EC/B+=0.032 4/0.968 4                                        
+#G CC$ FROM BrIcc v2.2 (31-Mar-2008) 2008KiAA, "Frozen Orbitals" appr.    
+#G E(C)$Observed only in coincidence                                      
+#L E$From least-squares fit to EG. ASSUMED UNCERTAINTY AS 1 KEV WHERE NOT 
+#L KNOWN.                                                                 
+#P 0.0         1+                597 MS    17             10400     70    
+TB142 GD142 beta+ 10.4 0.597 1.0
++B beta+ 0.535 0.00783
++B beta+ 4.399 2.1999999999999998E-4
++G gamma 0.5153 0.249
++B beta+ 4.148 2.6E-4
++G gamma 0.465 0.027389999999999998
++G gamma 0.9801 0.004482
++G gamma 0.6937000000000001 0.00996
++B beta+ 3.923 3.1E-4
++G gamma 0.38880000000000003 0.002241
++G gamma 0.8531 0.024152999999999997
++B beta+ 3.734 3.5000000000000005E-4
++G gamma 0.465 0.00498
++B beta+ 3.697 3.5999999999999997E-4
++G gamma 1.3992 0.023904
++G gamma 1.915 0.0057269999999999995
++B beta+ 3.471 4.3E-4
++G gamma 1.5874000000000001 0.0034859999999999995
++B beta+ 3.38 4.6E-4
++G gamma 1.2995999999999999 0.0039840000000000006
++G gamma 1.7641 0.002241
++B beta+ 3.295 4.9E-4
++G gamma 1.799 0.00498
++B beta+ 3.278 5.0E-4
++G gamma 0.8984 0.002739
++G gamma 1.3640999999999999 0.0019920000000000003
++G gamma 1.8287 0.006723
++G gamma 2.3436 0.00249
+

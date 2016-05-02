@@ -1,0 +1,19 @@
+#255LR C  Data based on 255LR (GS and ISOMER) A DECAY                            
+#  Data based on 255LR (GS and ISOMER) A DECAY                            
+#P 38        10  [7/2-]          2.54 S    5                              
+
+#255LR    255LR IT DECAY (1.70 MS)      2008HA31                  13NDS    201309
+#  255LR IT DECAY (1.70 MS)      2008HA31                  13NDS    201309
+#H TYP=ERR$AUT=J. Tuli$DAT=28-Jul-2015$COM=FIXED decay mode for isomer$   
+#H TYP=FUL$AUT=E. BROWNE, J. K. TULI$CIT=NDS 114, 1041 (2013)$            
+#H CUT=1-Nov-2011$                                                        
+#  E=219 MeV beam provided by U400 cyclotron at Dubna. VASSILISSA         
+#  fragment separator. Detected evaporation residues using GABRIELA       
+#  array of 16 Si strips. Detected conversion electrons using four        
+#  four-strip Si strips. Measured E|g, I|g, |g(ce) coin, recoil-ce        
+#  correlations using seven Ge detectors for |g rays and Si detectors     
+#  for electrons. Measured 2.54-s isomer half-life using time-of-flight   
+#  method.                                                                
+#P 1408.6+Y  10  (25/2+)         1.70 MS   3                              
+LR255 LR255 IT 0.0 0.0017 0.9985
+

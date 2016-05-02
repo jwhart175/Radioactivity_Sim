@@ -1,0 +1,54 @@
+#151ER2CG 1990AK01 IN 151TM EC DECAY (4.17 S) STUDY ARE IN CONFLICT WITH THEIR   
+#G 1990AK01 IN 151TM EC DECAY (4.17 S) STUDY ARE IN CONFLICT WITH THEIR   
+#G WORK. APPARENTLY, THE DETAILS OF the WORK BY 1997CO24 ARE IN A THESIS  
+#G BY ^R. ^Collatz, ^KFA ^Julich (1994) (reference 8 in 1997Co24).        
+#G $ THE EVALUATOR IS TRYING TO GET A COPY OF THESIS BY ^R. ^Collatz.     
+#G TI$ FROM 1997CO24                                                      
+#G RI$ DEDUCED BY THE EVALUATOR FROM TI IF 1997CO24 AND CC FROM           
+#G ^Br^Icc CODE. Uncertainties for TI were not given by 1997Co24.         
+#G These are assumed as 2% for three (289, 1099 and 1140) strong          
+#G gamma rays and 5-10% for the others in comparison to those quoted      
+#G in 1988Ba02, a study done at the same laboratory                       
+#G M(F)$ FROM CE DATA IN 1997CO24; the details of these data are not      
+#G available.                                                             
+#G E(B)$ From 1988Ba02                                                    
+#G M(D)$ FROM 'ADOPTED GAMMAS'                                            
+#G E(A),TI(A)$ G FROM 1997Co24 only, no uncertainties are provided by     
+#G the authors.                                                           
+#L $ All configurations are from 1997Co24                                 
+#L E$ FROM LEAST-SQUARES FIT TO EG'S, ASSUMING |D(EG)=0.2 KEV             
+#L WHEN NOT GIVEN                                                         
+#L J$ From 'adopted levels'                                               
+#P 2585.5    6 (27/2-)           0.58 S    2                              
+
+#151ER    151ER IT DECAY (0.42 US)      2000FO15,1990AN25         09NDS    200901
+#  151ER IT DECAY (0.42 US)      2000FO15,1990AN25         09NDS    200901
+#H TYP=FUL$AUT=BALRAJ SINGH$CIT=NDS 110, 1 (2009)$CUT=20-Nov-2008$        
+#  2000Fo15 (also 2000Pa51): {+116}Sn({+40}Ca,2p3n|g) E=220 MeV.          
+#  Measured E|g, ce and |g-ce coin from a high-spin isomer                
+#  1990An25: 116SN(40CA,2P3NG) E=250 MEV. 144SM(12C,5NG) E=90-110 MEV     
+#  and 115IN(40CA,P3NG) reactions. Measured G, GG, isomer T1/2, G(THETA). 
+#  The details of this study are not available                            
+#  Other: 1987McZZ (also 1987DaZS): 93NB(60NI,NPG) E=240 MEV. Measured G, 
+#  GG. Isomer T1/2 deduced                                                
+#  The two papers (2000Fo15 and 1990An25) are from the same experimental  
+#  group, thus spin assignments from 2000Fo15 are adopted here            
+#  2002OgZY: Systematics of isomers, no original data for {+151}Er        
+#  presented in this paper                                                
+#G $ The EKC/ELC ratios, EKC AND ELC ARE ESTIMATED VALUES; READ (BY THE   
+#G EVALUATOR) FROM FIGURES 2, 3 AND 4, RESPECTIVELY, OF 2000FO15.         
+#G NUMERICAL DATA TABLES WERE NOT GIVEN BY THE AUTHORS.                   
+#G E$ From 2000Fo15 unless otherwise stated                               
+#G M$From ce data of 2000Fo15, measured K/L ratios, |a(K)exp and |a(L)exp 
+#G M(A)$DJ=1, dipole transition from |g(|q) (1990An25) is consistent with 
+#G M1 or E1 from ce data of 2000Fo15                                      
+#G M(B)$DJ=2, quadrupole transition from |g(|q) (1990An25) is consistent  
+#G with E2 from ce data of 2000Fo15                                       
+#G E(C)$Taken by 1990An25 from 1988Ba02                                   
+#L J$From shell-model considerations and analogy to neighboring           
+#L nuclides such as 149DY. For levels above 3600, the assignments are     
+#L from 2000Fo15 with the parentheses added by the evaluator. Below this  
+#L energy the assignments are from 'adopted levels'                       
+#L E$From least-squares fit to EG's, assuming 0.3 KEV uncertainty on EG's 
+#P 10286.0   10 (67/2-)           0.42 US  5                              
+

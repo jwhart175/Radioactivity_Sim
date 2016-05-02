@@ -1,0 +1,48 @@
+# 72CU    72NI B- DECAY                 2006TH12                  10NDS    201002
+#  72NI B- DECAY                 2006TH12                  10NDS    201002
+#H TYP=FUL$AUT=D. Abriola(a), A.A. Sonzogni$CIT=NDS 111,1 (2010)$         
+#H CUT=1-May-2009$                                                        
+#  {+72}Ni isotope produced by proton induced fission of {+238}U target   
+#  with a 30-MeV proton beam at the ^LISOL facility of Louvain-La-Neuve,  
+#  Belgium.  The fission products were selectively ionized and mass       
+#  separated.                                                             
+#  Measured E|g, I|g, |g|g, |g|b coin with four plastic scintillators     
+#  for |b detection with three of them associated with the HPGE |g-ray    
+#  detectors. Comparisons with shell-model calculations                   
+#B IB$Deduced by evaluators from intensity balance, assuming no direct    
+#B feeding to the g.s. of {+72}Cu.  The values given in 2006Th12 are      
+#B slightly different in some cases                                       
+#G RI$Deduced from |b-gated |g spectra.                                   
+#G M$From Adopted Gammas.                                                 
+#L E$from least-squares fit to E|g's.                                     
+#L J$From Adopted Levels.                                                 
+#P 0.0         0+                1.57 S    5              5557      3     
+NI72 CU72 beta- 5.557 1.57 0.75
++G gamma 0.1374 0.05
++G gamma 0.37639999999999996 1.0
++G gamma 0.07479999999999999 0.009000000000000001
++G gamma 0.3143 0.033
++G gamma 0.4517 0.05
++G gamma 0.094 0.27
++G gamma 0.476 0.013999999999999999
++G gamma 0.2026 0.021
++G gamma 0.297 0.022000000000000002
++G gamma 0.9873 0.12
++G gamma 1.1413 0.022000000000000002
++G gamma 1.5174 0.013000000000000001
++G gamma 1.3325 0.006999999999999999
++G gamma 1.7622 0.02
++G gamma 1.4218 0.006
++G gamma 1.4434 0.005
++G gamma 1.518 0.023
++G gamma 1.895 0.009000000000000001
++G gamma 1.3875 0.018000000000000002
++G gamma 1.59 0.013000000000000001
++G gamma 1.684 0.06
++G gamma 2.0603000000000002 0.06
++G gamma 1.7262 0.046
++G gamma 1.7452 0.028999999999999998
++G gamma 1.8202 0.019
++G gamma 2.12 0.003
++G gamma 2.221 0.009000000000000001
+

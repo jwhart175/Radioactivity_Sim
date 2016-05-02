@@ -1,0 +1,22 @@
+#197PB    201PO A DECAY (15.3 M)        1971AU09,1986SC31         05NDS    200503
+#  201PO A DECAY (15.3 M)        1971AU09,1986SC31         05NDS    200503
+#H TYP=FUL$AUT=HUANG XIAOLONG, ZHOU CHUNMEI$CIT=NDS 104, 283 (2005)$      
+#H CUT=1-Jan-2002$                                                        
+#A IA        From syst of 1980Sc26                                        
+#A HF        r{-0}=1.4753                                                 
+#L E,J,T(T)$From adopted levels                                           
+#P 0           3/2-              15.3 M    2              5798.9    17    
+PO201 PB197 alpha 5.7989 918.0 0.016
++A alpha 5.683 0.98
++A alpha 5.599 0.02
+
+#197PB    201PO A DECAY (8.9 M)         1971AU09,1986SC31         05NDS    200503
+#  201PO A DECAY (8.9 M)         1971AU09,1986SC31         05NDS    200503
+#H TYP=FUL$AUT=HUANG XIAOLONG, ZHOU CHUNMEI$CIT=NDS 104, 283 (2005)$      
+#H CUT=1-Jan-2002$                                                        
+#A HF        r{-0}=1.4753                                                 
+#L E,J,T     From adopted levels                                          
+#P 424       3  13/2+            8.9 M     2              5798.9    17    
+PO201 PB197 alpha 5.7989 534.0 0.029
++A alpha 5.786 1.0
+

@@ -1,0 +1,61 @@
+# 33CL    33AR EC DECAY (173.0 MS)      1993SC16,1987BO21,2010AD0311NDS    201105
+#  33AR EC DECAY (173.0 MS)      1993SC16,1987BO21,2010AD0311NDS    201105
+#H TYP=FUL$AUT=JUN CHEN AND BALRAJ SINGH$CIT=NDS 112, 1393 (2011)$        
+#H CUT=31-Mar-2011$                                                       
+#  1993Sc16: neutron-deficient argon isotopes produced  in spallation     
+#  reactions of 600 MeV protons with a CaO-target and subsequently        
+#  separated at ISOLDE-2. {+33}Ar production rate: 2E4/s. Detectors: a    
+#  silicon surface barrier detector (>150|mg thick,50mm{+2} active area), 
+#  FWHM=8 {I1} keV at 3 MeV. Measured |b{++}p coincidence,|s(E{-p}),I{-p}.
+#  Deduced levels, widths.                                                
+#  1987Bo21: neutron-deficient argon isotopes produced  in spallation     
+#  reactions of 600 MeV protons with a CaO-target and subsequently        
+#  separated at ISOLDE-2. {+33}Ar production rate: 2E4/s. Detectors: two  
+#  silicon surface barrier detector (500|mg thick,300mm{+2} active area), 
+#  FWHM=25 {I1} keV at 5 MeV. Measured |b{++}p coincidence,|s(E{-p}),     
+#  I{-p}. Deduced levels, E|g,I|g,I|b.                                    
+#  2010Ad03: Isotopes of interest produced by projectile fragmentation of 
+#  {+36}Ar{+18+} primary beam with intensities between 4 |mA and 8 |mA    
+#  provided by the coupled cyclotrons of GANIL. {+33}Ar{+3+} beam was     
+#  identified in the SPIRAL identification station, consisting of a       
+#  silicon cube detector (6 double-sided silicon strips-DSSSD) for        
+#  detecting protons and |b particles and three high-efficiency for       
+#  detecting |g-rays. Measured |s(E{-p}), E|g, I|g, p|g-coincidence.      
+#  Deduced levels, J|p, branching ratios.                                 
+#  Others:                                                                
+#  1996Ho24: neutron-deficient argon isotopes produced  in spallation     
+#  reactions of 1 GeV protons with a CaO-target and subsequently          
+#  separated at ISOLDE PSB Facility. {+33}Ar production rate: 1000 ions/s.
+#  Detectors: a silicon |DE-E telescope, a gas-Si combination telescope,  
+#  an annular Si for charged particles, a 70% germanium detector for      
+#  |g-rays. Measured |b{++}p coincidence,|s(E{-p}),I{-p}. Deduced         
+#  levels, widths. Performed shell model calculations.                    
+#  1971Ha05: {+33}Ar produced by {+32}S({+3}He,2n) with {+3}He beam from  
+#  the Berkeley 88-inch cyclotron. Detectors: a silicon |DE-E telescope   
+#  for charged particles and a 2-in by 2-in NaI(Tl) crystal and a 45-cc   
+#  Ge(Li) counter for |g-rays (FWHM=4 keV at E{-|g}=1 MeV). Measured p|g  
+#  coincidence,|s(E{-p}),I{-p}. Measured T{-1/2} for{+33}Ar ground state. 
+#  Deduced levels,I|b.                                                    
+#  {+33}Ar also decays to {+32}S by |ep (38.7% {I10}) (1987Bo21).         
+#  Others: 1966Ha22                                                       
+#  The normalization of I|b in 1998En04 is wrong because a value of       
+#  38.7% was mistakenly used for the I|b of the decay branch to the       
+#  5544 keV level instead of the correct I|b value 30.7% from 1987Bo21.   
+#E IB$ From the table of comparison of proton intensities above. Absolute 
+#E intensities deduced from the relative intensities assuming the 31.0%   
+#E intensity for the strongest protons (2010Ad03)                         
+#L E$ From the table of comparison of proton energies above, unless       
+#L otherwise noted.                                                       
+#L $E{-p}(lab) in 1987Bo21 are corrected for the pulse height             
+#L effect due to the use of alpha calibration for high proton energies.   
+#L Formula used for correction: E(final)=E*1.01611-52.4                   
+#L E(X)$ Pseudo level                                                     
+#L J$ From Adopted Levels, unless otherwise noted.                        
+#L J(A)$ From log| {Ift} value from 1/2+ parent state, which is typical of
+#L allowed |b-decay transition                                            
+#L T$LABEL=|G                                                             
+#L T$ From 1993Sc16, unless otherwise noted                               
+#N      1.0                 1.0     1.0                                   
+#N                                                                     4  
+#P        0    1/2+               173.0 MS 20              11619.1  6     
+

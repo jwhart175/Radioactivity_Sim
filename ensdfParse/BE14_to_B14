@@ -1,0 +1,170 @@
+# 14B     14BE B- DECAY                 1988Du09,2002Ao03                        
+#  14BE B- DECAY                 1988Du09,2002Ao03                        
+#H TYP=UPD$AUT=C.G. Sheu, J. Kelley$CUT=23-Oct-2013$CIT=ENSDF$            
+#H COM=Updated data set since last full evaluation$                       
+#  1986Cu01: A beam of {+14}Be ions was produced by fragmenting a         
+#  540 MeV {+18}O beam on Be and Ta targets. The secondary fragments      
+#  were filtered using the RPMS Wein Filter at NSCL and were focused      
+#  on a |DE-E stopping detector telescope. When a particle was            
+#  measured in the telescope the rf was scrambled until a decay           
+#  was measured in the telescope. Analysis of the implantation to         
+#  decay period, gated on nuclear species, provided the lifetime          
+#  measurement. T{-1/2}=4.2 ms {I7} was measured.                         
+#  1988Du09: {+14}Be was produced by fragmentation of a 60 MeV/n {+22}Ne  
+#  beam impinging on either a tantalum or a carbon target and was selected
+#  using the LISE spectrometer. The |b-particles were                     
+#  detected by a plastic scintillator while the delayed neutrons          
+#  were detected through the Gd(n,|g) reaction. T{-1/2}=4.35 ms           
+#  {I17}, P{-0n}=0.14 {I3}, P{-1n}=0.81 {I4} and P{-2n}=0.05 {I2} were    
+#  measured.                                                              
+#  1995Be25: {+14}Be ions were produced by fragmenting an 80 MeV/A        
+#  {+18}O beam on a Be target and filtering in the A1200 separator. The   
+#  beam was implanted in a thick BC412 scintillator during a 10.3 ms      
+#  accumulation period, followed by either a 10.3 ms or 40 ms beam-off    
+#  counting period. Beta particles from the decay were detected by        
+#  the implantation detector, while delayed neutrons were detected        
+#  using an array of 15 curved scintillator bars that were placed 1 meter 
+#  from the implantation detector. Neutron energies were deduced from the 
+#  time-of-flight (tof) between the |b-detector and the neutron array.    
+#  In addition a HPGe detector was placed 83 mm from the implantation     
+#  target.                                                                
+#  Analysis of the data indicated 3-4% contamination from {+11}Li, a      
+#  correction was possible since the {+11}Li decay had been studied in    
+#  the same configuration. A neutron detector threshold of                
+#  0.77 MeV was unfortunately used in the measurements, which led to a    
+#  significantly low number of |b-n events. The data showed evdence for   
+#  delayed neutron groups at E{-n}= 3.02 MeV {I3} and 3.52 MeV {I7} with  
+#  intensities of 0.11% {I2}(stat) {I4}(sys) and 0.30% {I3}(stat)         
+#  {I5}(sys); the peaks from these weak branches lay ontop of a broad     
+#  peak that is likely associated with 2n and 3n decay. The multi-neutron 
+#  branching ratio associated with the broad peak is 5% {I1}(stat)        
+#  {I2}(sys). Furthermore, it is plausible that, for example, the         
+#  E{-n}=3.52 MeV neutron group may correspond to sequantial 2n decay.    
+#  Data from the HPGe detector indicated small participation from two     
+#  known transitions in {+13}B with E{-|g}=3528 keV {I1} and 3680 keV     
+#  {I1}, however low statistics prevented analysis of the neutron groups  
+#  that feed these transitions. No 740 keV |g-ray was observed for        
+#  the transition between the first excited state and ground state.       
+#  A critical issue in the data collection is the relatively low rate of  
+#  delayed neutron emission. While more than 85% of the decays were       
+#  expected to be accompanied with neutrons, only about 7% of that        
+#  intensity is presently observed. It is then suggested that a state     
+#  in {+14}B, neutron unbound by < 800 keV, is strongly populated.        
+#  Lifetimes were deduced by two techniques, though high backgrounds      
+#  significantly complicated the determinations; 4.8 ms {I2}(stat)        
+#  {I4}(sys) was deduced from the raw decay curve while 4.0 ms {I12} was  
+#  deduced from the |b-n coincidence data.                                
+#  1997Be66: The authors of (1995Be25) carried out a new measurement      
+#  at RIKEN, aimed at identifying the low-energy neutron group that       
+#  participates in the decay. A {+14}Be beam was produced by fragmenting  
+#  a 100 MeV/A {+18}O beam on a Be target; the beam was implanted in the  
+#  center of a Si detector telescope comprised of 5 detectors. The        
+#  telescope was sandwiched between two sets of plastic scintillators     
+#  that detected beta particles. Neutrons were detected in an array of    
+#  BC408 scintillator walls that were positioned |? 200 cm from the       
+#  implantation detector. In addition a HPGe detector was positioned      
+#  131 mm from the implantation detector.                                 
+#  Analysis of the decay curve indicates T{-1/2}=4.29 ms {I18}. Attention 
+#  was focused on the neutron energy region below E{-n}=800 keV, where    
+#  a sharp peak with E{-n}=287 keV {I3} and width=60 keV {I5} is observed.
+#  The peak falls at the edge of the neutron detectors' thresholds        
+#  and hence yields significant uncertainty in the branching ratio;       
+#  I(n:287)=39 to 100%. No |g-rays are observed in coincidence with       
+#  the neutron group, strongly (but inconclusively) suggesting decay      
+#  to {+13}B ground state. Decay to {+13}B{-g.s.} would imply decay from  
+#  a {+14}B*(1.28 MeV {I2}). The 740 keV |g-ray is not found in the       
+#  spectrum, and no comment is given on the 3528 and 3680 keV gamma       
+#  rays.                                                                  
+#  1999Be53, 2002Be53: An uranium carbide target was bombarded by a 1-GeV 
+#  proton beam to produce a {+14}Be beam that was implanted in a kapton   
+#  foil located at the center of a moderated {+3}He cylindrical           
+#  neutron counter array.                                                 
+#  The |b-particles from {+14}Be decay were detected by a plastic         
+#  scintillator located directly behind the implantation foil. The        
+#  P{-n} value was determined from the rate of neutrons detected in the   
+#  {+3}He counter. The total neutron-emission probability P{-n}=101%      
+#  {I4} was measured along with an upper limit of P{-2n}+3P{-3n}          
+#  < 2.4% (95% confidence limit). Combining P{-n} with the P{-2n}+3P{-3n} 
+#  limit P{-1n} |? 100%(> 96%), P{-0n} < 4%, and P{-2n}+3P{-3n}=0.8% {I8} 
+#  were deduced.                                                          
+#  1997Ao01, 1997Ao04, 2002Ao03: A thick Be target was bombarded by a     
+#  100 MeV/A {+18}O beam to produce a {+14}Be beam that was selected by   
+#  the RIPS separator. The beam was implanted in a Si detector.           
+#  The |b-rays were detected using a set of |DE-|DE-E plastic             
+#  scintillator detectors that were positioned above and below the        
+#  implantation detector, and a |DE-|DE coincidence requirement           
+#  was implemented to reduce background. Neutrons were detected either    
+#  in a low-energy array located 50 cm away from the stopper or           
+#  in a high-energy array located 1.5 m from the stopper. In addition a   
+#  HPGe clover detector was placed 149 mm from the target.                
+#  T{-1/2}=4.84 ms {I10} was deduced by analyzing the                     
+#  the decay curve associated with the E{-n}=288-keV group; there is no   
+#  understanding of the discrepancy between this and prior values.        
+#  The neutron tof spectrum was dominated by E{-n}=288 keV {I1} peak,     
+#  I(n:288)=91% {I9}, that was not found in coincidence with any |g-ray.  
+#  The intensity of an additional neutron group at E{-n}=3.51 MeV {I6}    
+#  is found to be in agreement with the expectation from |b-delayed       
+#  neutron decay of the {+13}B daughter nucleus. The present analysis     
+#  was insensitive to the 3.02 MeV group reported by 1995Be25.            
+#  The |g-ray spectrum indicated peaks at E{-|g}=3536 keV {I2} and 3685   
+#  keV {I1}; the 3536 keV transition with I(|g)=0.9% {I3} is ascribed to  
+#  a transition fed following delayed neutron decay to states in {+13}B,  
+#  while the 3685 keV transition is fed in {+13}B decay to {+13}C states. 
+#  Analysis of the data provides a measure on the 0n, 1n and 2n decay     
+#  branches. While the 740 keV transition between {+14}B first excited    
+#  state and {+14}B{-g.s.} is not observed, a limit on decay to either of 
+#  these states is found as I(0n) < 0.6% by searching for the 6.09 MeV    
+#  |g-ray that is fed in 81% of {+14}B decays to {+14}C. Similarly, the   
+#  intensity of the 3685 keV transition, which is fed by 7.6% of {+13}B   
+#  decays to {+13}C, implies I(1n)=94% {I5}. While no details on 2n decay 
+#  are observed, I(2n)=6% {I5} is deduced.                                
+#  Comments:                                                              
+#  With the exception of (1988Du09), all experiments find only upper      
+#  limits on the population of the bound levels in {+14}B*(0,740);        
+#  stringent limits of P(0n) < 4% (1999Be53) and < 0.6% (1997Ao04)        
+#  are determined. P(0n) < 0.6%, which is based on the search for         
+#  {+14}B decay radiations is accepted.                                   
+#  Evidence for |b-delayed one neutron decay is significant. Analysis     
+#  of the {+13}B radiations implies I(1n)=94% {I5} (1997Ao04) while       
+#  data from a moderated {+3}He counter gives                             
+#  I(1n) > 96% (1999Be53).                                                
+#  The decay path is not fully understood for all the intensity.          
+#  (1997Ao04) assign 91% {I9} of the intensity to decay from              
+#  {+14}B*(1.28 MeV {I1}) to {+13}B{-g.s.}; no |g-rays are observed in    
+#  coincidence, so the |b-decay is here assumed to populate               
+#  {+14}B*(1.28 MeV) directly. Two additional decay radiations            
+#  appear relevant to |b{+-}1n decay; first is the 3536 keV transition    
+#  to {+13}B ground state observed by (1995Be25) and (1997Ao04),          
+#  and second is the E{-n}=3.02 MeV group observed by (1995Be25).         
+#  The intensity I(|g:3536)=0.9% {I3} was measured by (1997Ao04),         
+#  though no neutron group was observed in a coincidence spectrum.        
+#  Very weak population of an E{-n}=3.02 MeV group was observed           
+#  by (1995Be25); while no |g-rays are observed in a coincidence,         
+#  the neutron group cannot be definitively associated with decay to      
+#  {+13}B{-g.s.}.                                                         
+#  The 2n and 3n decay modes are not clearly identifiable,                
+#  most reported values are given as upper limits. Two relevant results   
+#  are given in (1997Ao04), where I(2n)=6% {I5} is deduced from           
+#  their I(0n) < 0.6% and I(1n)=94% {I6} values, and in                   
+#  (1999Be53) where analysis of the n-n and n-n-n                         
+#  correlations in their moderated {+3}He counter set the limit           
+#  P{-2n}+3P{-3n} < 0.8% {I8} (based on the 95% confidence                
+#  limit P{-2n}+3P{-3n} < 0.8% {I8}.                                      
+#  Most of the lifetime measurements are consistent with                  
+#  values near 4.3 ms: T{-1/2}=4.2 ms {I7} (1986Cu01), 4.35 ms {I17}      
+#  (1988Du09), 4.8 ms {I2}(sta) {I4}(sys)                                 
+#  and 4.0 ms {I12} (1995Be25), 4.29 ms {I12} (1997Be66) and 4.84 ms {I10}
+#  (1997Ao07); however, the most precise value is the most discrepant.    
+#  The value  T{-1/2}=4.31 ms {I24} is accepted; this value               
+#  is the weighted value of measurements, excluding (1997Ao07),           
+#  with the uncertainty doubled.                                          
+#  Further studies on the open charged particle decay channels have       
+#  found the |b{+-}|a intensity of I(|a) < 0.4% (2002Je14)                
+#  and the |b{+-}t intensity of I(t) = 0.02% {I1} (2002Je14); the parent  
+#  levels are not identified.                                             
+#P 0           0+                4.31 MS   24             1.629E4   13    
+BE14 B14 beta- 16.29 0.00431 1
++B beta- 7.89 0.006
++B beta- 7.523 0.006
++B beta- 7.255 0.91
+

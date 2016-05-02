@@ -1,0 +1,24 @@
+#202HG    202TL EC DECAY                1965LE04,1966LE06,1984TA0908NDS    200803
+#  202TL EC DECAY                1965LE04,1966LE06,1984TA0908NDS    200803
+#H TYP=FUL$AUT=S. ZHU and F.G. KONDEV$CIT=NDS 109, 699 (2008)$            
+#H CUT=1-May-2007$                                                        
+#  1965LE04: 202TL was produced by irradiating {+nat}Hg with deutron      
+#  beam. A long lens B spectrometer was used to measure the K-conversion  
+#  electrons. A ^NaI(Tl) detector was used to detect the G rays.          
+#  1966LE06: 202TL was produced by irradiation of {+nat}HgO with deutron  
+#  beam. Tl was chemically separated and built into the lattice of NaI    
+#  single crystals. The ^NaI({+202}Tl) was used to measure all the        
+#  radiations from 202TL decay. The escaped G ray was detected with       
+#  ^NaI(Tl) detector.                                                     
+#  1984TA09: 202TL was produced by {+nat}Tl(N,2N). E(N)=14.6 MEV. GE(LI)  
+#  detector was used to measure the G rays.                               
+#  Others: 1953BE79, 1957HA97, 1959BO47, 1967Cl05, 1975CO19.              
+#G E,RI$From 1984Ta09                                                     
+#G M$Based on EKC, ELC and subshell ratios                                
+#L E$From a least-square fit to EG.                                       
+#L J$Deduced from the mult. of G transitions.                             
+#P 0            2-               12.31 D   8               1363     15    
++B beta+ 7.804E-4 0.00165
++G gamma 0.43951 0.915
++B beta+ 7.917E-4 0.00157
+

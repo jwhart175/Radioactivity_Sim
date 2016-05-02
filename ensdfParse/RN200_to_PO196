@@ -1,0 +1,38 @@
+#196PO    200RN A DECAY (0.96 S)        1995BI17,1984CA32,1971HO0107NDS    200706
+#  200RN A DECAY (0.96 S)        1995BI17,1984CA32,1971HO0107NDS    200706
+#H TYP=FUL$AUT=Huang Xiaolong$CIT=NDS 108, 1093 (2007)$CUT=1-Jan-2006$    
+#  1995Bi17: sources from 1.0 GEV-proton on ^Th and on-line mass          
+#  separator. Measured EA, IA, K X-RAY, and K X-RAY -ALPHA coin.          
+#  1984Ca32,1971Ho01: sources from 232TH(p,spallation)200RN, E(P)=600 MEV.
+#  1982Hi14: sources from 86KR(116SN,2n), E(116SN)=370 MEV. Secondary     
+#  electron transmission detector, SI surface barrier detector.           
+#L E,J$From 196PO adopted levels                                          
+#A HF        R0=1.513 10                                                  
+#N                       0.98                                             
+#N BR        Estimated from B-strength function systematics               
+#N (1971Ho01,1970Du09). Other: 0.86 +14-4 (1993Wa04).                     
+#P 0.0         0+                0.96 S    3              7043      3     
++G gamma 0.4048 0.14
++G gamma 0.46302 1.0
++G gamma 0.3963 0.131
++G gamma 0.8592000000000001 0.205
++G gamma 0.42782 0.9470000000000001
++G gamma 0.49674 0.185
++G gamma 0.52855 0.152
++G gamma 0.49860000000000004 0.6970000000000001
++G gamma 0.2778 0.11
++G gamma 0.4141 0.44799999999999995
++G gamma 0.9115 0.201
++G gamma 0.5176000000000001 0.09
++G gamma 0.55029 0.209
++G gamma 0.5832999999999999 0.517
++G gamma 0.23736000000000002 0.29
++G gamma 0.2538 0.308
++G gamma 0.6513 0.069
++G gamma 0.2838 0.15
++G gamma 0.48579 0.18899999999999997
++G gamma 0.38830000000000003 0.46799999999999997
++G gamma 0.4323 0.15
++G gamma 0.5652999999999999 0.0817
++G gamma 0.6677000000000001 0.41600000000000004
+

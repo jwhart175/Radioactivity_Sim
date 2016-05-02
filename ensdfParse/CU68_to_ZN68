@@ -1,0 +1,107 @@
+# 68ZN    68CU B- DECAY (30.9 S)        1972SW01,1975TI01         12NDS    201206
+#  68CU B- DECAY (30.9 S)        1972SW01,1975TI01         12NDS    201206
+#H TYP=FUL$AUT=E.A. McCutchan$CIT=NDS 113, 1735 (2012)$CUT=1-Mar-2012$    
+#  1975Ti01: {+68}Cu activity produced by {+68}Zn(n,p), E(n)=14.9 MeV.    
+#  Measured E|g, I|g, and T{-1/2} using Ge(Li) detector.                  
+#  1972Sw01: {+68}Cu activity produced by {+68}Zn(n,p), E(n)=14.7 MeV.    
+#  Measured E|g, I|g, E|b{+-}, I|b{+-}, T{-1/2}, |g|g and |b|g coin       
+#  using Ge(Li) and NaI(Tl) detectors and a plastic scintillator.         
+#  Data are taken mainly from 1972Sw01 and 1975Ti01.                      
+#  Others: 2002Ko31, 1971Si19, 1969Wa22, 1969Va16, 1964Ba13, 1960Yt03.    
+#  The decay scheme given here is based on the equilibrium decay of the   
+#  3.75-min {+68}Cu isomer which proceeds 86% via IT decay and            
+#  subsequent decay of the 30.9-s g.s. to {+68}Zn. This branching         
+#  fraction includes a correction for the different T{-1/2} of the two    
+#  branches. Included here are only those |g's which decay with a         
+#  composite 30.9-s and 3.75-min half-life and their associated levels.   
+#L E$From a least-squares fit to the E|g's by evaluator.                  
+#L J,T$From the Adopted Levels.                                           
+#G E$From 1975Ti01. Transition with E|g=570.7 reported by 1972Sw01 is     
+#G not confirmed by 1975Ti01 and is not adopted here.                     
+#G RI$Weighted average of 1975Ti01 and 1972Sw01, relative to              
+#G I|g(525.9|g)=100 in {+68}Cu IT decay. Taken or calculated from I|g's   
+#G observed in the equilibrium decay: {+68}Cu |b{+-} decay (30.9 s +      
+#G 3.75 min) using branching fraction. Full separation of I|g's           
+#G associated with 30.9 s and 3.75 min |b{+-} decays was not possible     
+#G with the data available. I|g's are listed here for only those |g's     
+#G which decay with a composite 30.9-s and 3.75-min half-life.            
+#G M,MR$From the Adopted Gammas.                                          
+#G RI(a)$Intensity deduced by evaluator based on equilibrium decay        
+#G intensities for {+68}Cu |b{+-} decay (30.9 s + 3.75 min), branching    
+#G fraction and assumptions on feeding.                                   
+#B E$Experimentally measured values from |b|g coincidences are included   
+#B in the comments.                                                       
+#B IB$From I|g imbalances in {+68}Cu |b{+-} decay (30.9 s + 3.75 min) in  
+#B equilibrium. Branches to low-spin states are assumed to be from the    
+#B 30.9-s parent state.                                                   
+#B IB(B)$Others: 31.4% {I41} from |g intensities and 28.0% {I42} from     
+#B comparison with |b{+-} in coincidence with 1077|g (1972Sw01); 37%      
+#B (1971Si19).                                                            
+#G $For additional unplaced |g's, see {+68}Cu |b decay (3.75 min)         
+#  CC$ FROM BrIcc v2.2b (20-Jan-2009) 2008Ki07, "Frozen Orbitals" appr.   
+#P 0.0          1+                30.9 S    6              4439.8   18    
++B beta-1.9758 0.88
++B beta-1.4558 0.9
++B beta-1.1794 0.98
++B beta-1.0711 0.96
++B beta-0.85723 0.02
++B beta- 0.7777999999999999 0.003
++B beta- 0.6661 0.005
++B beta- 0.6352000000000001 0.017
++B beta- 0.47161000000000003 0.024
++B beta- 0.3406 0.01
+
+# 68ZN    68CU B- DECAY (3.75 M)        1975TI01,1972SW01         12NDS    201206
+#  68CU B- DECAY (3.75 M)        1975TI01,1972SW01         12NDS    201206
+#H TYP=FUL$AUT=E.A. McCutchan$CIT=NDS 113, 1735 (2012)$CUT=1-Mar-2012$    
+#  1975Ti01: {+68}Cu activity produced by {+68}Zn(n,p), E(n)=14.9 MeV.    
+#  Measured E|g, I|g, and T{-1/2} using a Ge(Li) detector.                
+#  1972Sw01: {+68}Cu activity produced by {+68}Zn(n,p), E(n)=14.7 MeV.    
+#  Measured E|g, I|g, E|b{+-}, I|b{+-}, T{-1/2}, |g|g and |b|g coin       
+#  using Ge(Li) and NaI(Tl) detectors and a plastic scintillator.         
+#  Data are taken mainly from 1972Sw01 and 1975Ti01.                      
+#  Others: 2002Ko31, 1971Si19, 1969Wa22, 1969Va16, 1964Ba13, 1960Yt03.    
+#  The decay scheme of {+68}Zn given here is for the equilibrium decay    
+#  of the 3.75-min {+68}Cu isomer which proceeds 14% by direct |b{+-}     
+#  decay and 86% via IT decay with subsequent g.s. decay to {+68}Zn.      
+#  These branching fractions include a correction for the different       
+#  T{-1/2} of the two branches.                                           
+#L E$From least-squares fit to E|g's by evaluator, except as noted.       
+#L J,T$From the Adopted Levels.                                           
+#L E(C)$From 1975Ti01. E=3735.9 in 1972Sw01.                              
+#L E(D)$From 1975Ti01. E=3964.4 in 1972Sw01.                              
+#G E$From 1975Ti01. Transitions with E|g=498.6, 570.7, and 1074.0         
+#G reported by 1972Sw01 are not confirmed by 1975Ti01 and are not         
+#G adopted here.                                                          
+#G RI$Weighted average of 1975Ti01 and 1972Sw01, relative to              
+#G I|g(525.9|g)=100 in {+68}Cu IT decay. Taken or calculated from I|g's   
+#G observed in the equilibrium decay: {+68}Cu |b decay (30.9 s + 3.75     
+#G min) using branching fraction. Full separation of I|g's associated     
+#G with 30.9 s and 3.75 min |b{+-} decays was not possible with the data  
+#G available. I|g's are listed here for only those |g's which can be      
+#G assigned wholly or partly to the 3.75 min |b{+-} decay.                
+#G M,MR$From the Adopted Gammas.                                          
+#G E(A)$Observed to decay with a single half-life of 3.75 min             
+#G (1972Sw01,1975Ti01).                                                   
+#B IB$From I|g imbalances in {+68}Cu |b{+-} decay (30.9 s + 3.75 min) in  
+#B equilibrium. Branches to high-spin states are assumed to be from the   
+#B 3.75 min {+68}Cu parent state.                                         
+#B E$Experimental values from |b|g coincidence measurements are given in  
+#B the comments.                                                          
+#G RI(b)$Intensity deduced by evaluator based on equilibrium decay        
+#G intensities for {+68}Cu |b{+-} decay (30.9 s + 3.75 min), branching    
+#G fraction and assumptions on feeding.                                   
+#G $For additional unplaced |g's see {+68}Cu |b decay (30.9 s)            
+#G E(f)$The 670.7|g is multiply placed by the authors as deexciting       
+#G levels at 3010 and 3424, and the 1540.7|g is placed from a 3425        
+#G level; however, these placements are inconsistent with branching from  
+#G these levels in (n,|g) and thus not adopted.                           
+#  CC$ FROM BrIcc v2.2b (20-Jan-2009) 2008Ki07, "Frozen Orbitals" appr.   
+#P 721.26    8  6-                3.75 M    5              4439.8   18    
++B beta- 1.16 0.025
++B beta- 0.6732 0.04
++B beta- 0.6043 0.063
++B beta- 0.5527000000000001 0.0038
++B beta- 0.5492999999999999 0.009000000000000001
++B beta- 0.444 0.013999999999999999
+

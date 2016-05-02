@@ -1,0 +1,35 @@
+#191HG    191TL EC DECAY (5.22 M)       1988WOZZ,1976GOZE         07NDS    200710
+#  191TL EC DECAY (5.22 M)       1988WOZZ,1976GOZE         07NDS    200710
+#H TYP=FUL$AUT=V.R. Vanin et al.$CUT=1-Dec-2006$CIT=NDS 108, 2393 (2007)$ 
+#            E(ex) from {+195}Bi |a decay to the {+191}Tl (1/2+) g.s. and 
+#  (9/2-) isomeric state (1985Co06, 2003Au02, 2003Wa32)                   
+#            Q(|b{++}) from 2003Au03                                      
+#                                                                         
+#  1976GoZP assigned the 5.22 min activity to the 9/2- isomer             
+#  on the basis of |e+|b{++} population to levels with spin (assigned from
+#  {+194}Pt(|a,7n|g) (1975Li16) and systematics) consistent with the      
+#  decay. Activity produced by HI reactions also indicates it belongs to  
+#  {+191}Tl(J|p=9/2-) (1975UnZZ).                                         
+#                                                                         
+#  1988WoZZ: Mass-separated sources. Measured E|g, I|g, |g|g coin.        
+#  Ge(Li) detectors.                                                      
+#  1976GoZE: Mass-separated sources. Measured E|g, I|g, Ice, |g|g(t), |g  
+#  ce(t). Ge(Li), Si(Li) detectors.                                       
+#  Others: 1976GoZP, 1974Va19, 1970FeZU.                                  
+#                                                                         
+#G           |g rays observed only by 1976GoZE have not been included     
+#G here.                                                                  
+#G           |a(K)exp values were calculated using I|g from 1988WoZZ, Ice 
+#G from 1976GoZE, and using |a(K)(215|g)=0.142 (E2, theory) (1995Br38).   
+#G The current best value is |a(K)=0.1407. The |?1% shift does not        
+#G significantly affect the experimental |a values quoted below, nor      
+#G the resulting multipolarity assignments.                               
+#G           Coincidence information from 1988WoZZ.                       
+#G E,RI      From 1988WoZZ.                                               
+#G M         From ce data (1976GoZE)                                      
+#L E         Level energies from least-squares fit to |g-ray energies.    
+#L J         From internal conversion coefficients, and level sequences   
+#L established by coincidence data and energy fits.                       
+#P 297       7 (9/2-)            5.22 M    16             4312      24    
+TL191 HG191 beta+ 4.312 313.2 1.0
+

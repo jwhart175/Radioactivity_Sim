@@ -1,0 +1,121 @@
+#129LA    129CE EC DECAY (3.5 M)        1997GI08,2001XI01         14NDS    201408
+#  129CE EC DECAY (3.5 M)        1997GI08,2001XI01         14NDS    201408
+#H TYP=FUL$AUT=JANOS TIMAR AND ZOLTAN ELEKES, BALRAJ SINGH$               
+#H CIT=NDS 121, 143 (2014)$CUT=31-May-2014$                               
+#  1997Gi08: {+129}Ce from {+94}Mo({+40}Ca,n4p),E=225 MeV; He-jet,        
+#  Ge G, semi for ce. Measured  E|g, I|g, |g|g, |b|g coin, x|g coin,      
+#  (ce)|g coin, half-life. Deduced conversion coefficients, levels, J, |p.
+#  2001Xi01 (also 1997Xi01): {+129}Ce from {+117}Sn({+16}O,4n),E=102 MeV; 
+#  He-jet, chemical separation, Ge G . Measured E|g, I|g, |g|g, |b|g coin,
+#  x|g coin. Deduced levels, log {Ift} values.                            
+#  Both studies deduced level feeding intensities. There are disagreements
+#  between the two studies.                                               
+#  Others: 1993Al03, 1969ArZZ, 1963La03                                   
+#  Experimental conversion coefficients are taken from 1997Gi08.          
+#E TI$Values treated by the evaluators as approximate since there         
+#E are several disagreements between the data from 1997Gi08 and 2001Xi01. 
+#E The |b feeding to ground-state in 2001Xi01 seems to be only an         
+#E estimated value.                                                       
+#E LOGFT$Values are treated as only approximate and not used for J|p      
+#E assignments                                                            
+#E LOGFT(X)$Value of |?6.8 is too low to be realistic for                 
+#E 5/2+ to 9/2+ |b transition                                             
+#G E$WEIGHTED AVERAGE OF EG values FROM 1997GI08 AND 2001XI01             
+#G RI$FROM 2001XI01, UNLESS IF OTHERWISE NOTED                            
+#G E(A)$Reported only in 1997GI08                                         
+#G E(B)$Reported only in 2001XI01                                         
+#G RI(C)$From 1997GI08, normalized to the 171.5 keV transition.           
+#L J,T$From Adopted Levels                                                
+#L E(A)$Reported only in 1997GI08                                         
+#L E(B)$Reported only in 2001XI01                                         
+#L E$FROM LEAST-SQUARES FIT TO EG data                                    
+#P 0.0         (5/2+)            3.5 M     3              5040      40    
+CE129 LA129 beta+ 5.04 210.0 1.0
++B beta+ 1.836 0.22
++B beta+ 1.803 0.15
++G gamma 0.0682 0.14428999999999997
++B beta+ 1.734 0.002
++G gamma 0.1482 0.00611
++B beta+ 1.723 0.11
++G gamma 0.1715 0.14241
++G gamma 0.2395 0.00987
++B beta+ 1.719 0.034
++G gamma 0.1804 0.06533
++G gamma 0.2485 0.011749999999999998
++B beta+ 1.708 0.006999999999999999
++G gamma 0.271 0.02021
++B beta+ 1.648 0.01
++G gamma 0.1276 0.0014099999999999998
++G gamma 0.1589 0.01034
++G gamma 0.33030000000000004 0.02021
++G gamma 0.3985 0.01692
++B beta+ 1.629 0.037000000000000005
++G gamma 0.192 9.4E-4
++G gamma 0.201 0.0035719999999999997
++G gamma 0.3722 0.0329
++G gamma 0.44 0.02068
++B beta+ 1.626 0.013000000000000001
++G gamma 0.1979 0.01222
++G gamma 0.378 0.017859999999999997
++B beta+ 1.617 0.02
++G gamma 0.21559999999999999 0.00705
++G gamma 0.3958 0.029139999999999996
++G gamma 0.464 0.00611
++B beta+ 1.614 0.012
++G gamma 0.256 0.00611
++G gamma 0.404 0.00376
++G gamma 0.4722 0.004699999999999999
++B beta+ 1.574 0.006999999999999999
++G gamma 0.556 0.009399999999999999
++B beta+ 1.56 0.017
++G gamma 0.5195 0.011279999999999998
++G gamma 0.5876 0.01034
++B beta+ 1.545 0.04
++G gamma 0.17909999999999998 0.00987
++G gamma 0.2215 0.00705
++G gamma 0.3485 0.00517
++G gamma 0.3707 0.0028199999999999996
++G gamma 0.38010000000000005 0.008929999999999999
++G gamma 0.5512999999999999 0.01504
++B beta+ 1.533 0.015
++G gamma 0.397 0.00705
++G gamma 0.4057 0.004699999999999999
++G gamma 0.5772999999999999 0.00846
++B beta+ 1.529 0.018000000000000002
++G gamma 0.254 0.011279999999999998
++G gamma 0.414 0.0028199999999999996
++G gamma 0.584 0.00846
++B beta+ 1.504 0.033
++G gamma 0.2425 0.005639999999999999
++G gamma 0.26 0.0014099999999999998
++G gamma 0.30810000000000004 0.00752
++G gamma 0.4585 0.004699999999999999
++G gamma 0.4667 0.02021
++G gamma 0.6384 0.0028199999999999996
++B beta+ 1.469 0.024
++G gamma 0.318 0.01269
++G gamma 0.336 0.01269
++G gamma 0.342 0.0028199999999999996
++G gamma 0.5431 0.00423
++B beta+ 1.462 0.013000000000000001
++G gamma 0.548 0.0014099999999999998
++G gamma 0.728 0.007989999999999999
++G gamma 0.796 0.00846
++B beta+ 1.445 0.0089
++G gamma 0.584 0.00752
++G gamma 0.764 0.004699999999999999
++B beta+ 1.401 0.005
++G gamma 0.4825 0.0028199999999999996
++G gamma 0.6805 0.00376
++B beta+ 1.398 0.0086
++G gamma 0.5366000000000001 0.007989999999999999
++G gamma 0.664 0.00188
++G gamma 0.8666 0.00188
++B beta+ 1.383 0.006
++G gamma 0.8979 0.00423
++G gamma 0.9666 0.00423
++B beta+ 1.36 0.006999999999999999
++G gamma 0.6167 0.00611
++G gamma 0.7445 0.0032899999999999995
++G gamma 1.0151000000000001 9.4E-4
+

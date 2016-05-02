@@ -1,0 +1,124 @@
+#190PT    190AU EC DECAY (42.8 M)       1973JO11,1972FI12         03NDS    200306
+#  190AU EC DECAY (42.8 M)       1973JO11,1972FI12         03NDS    200306
+#H TYP=FUL$AUT=BALRAJ SINGH$CIT=NDS 99, 275 (2003)$CUT=30-Apr-2003$       
+#  1973Jo11: measured |g, ce, |b{++}, T{-1/2}({+190}Au).                  
+#  {+190}Au isotope obtained by chemical separation                       
+#  1972Fi12 (also 1972HuZL,1971Hu11,1971MaXM,1971JoZK,1970Er09):          
+#  measured |g, |g|g, ce, ce |g(t).                                       
+#  {+190}Au isotope obtained by mass separation                           
+#  Others:                                                                
+#  |g: 1980GnZZ, 1970Du09, 1969Na10, 1964Ja05, 1960Al20,                  
+#  1960Po07, 1959Al94                                                     
+#  |g|g: 1980GnZZ (no further details are available as per                
+#  reply from one of the authors (September 1989))                        
+#  ce |g: 1969Na10                                                        
+#  T{-1/2} of {+190}Au: 1969Na10, 1961An02, 1961Ja17,                     
+#  1960Po07, 1960Al20, 1959Al94. Other: 1966Ch05                          
+#  |b{++}: 1973Jo11, 1974DiZQ                                             
+#  |b{++} strength function: 1975Ho03                                     
+#E           Due to many unplaced transitions, the quoted |e,|b{++}       
+#E feedings to levels above 296 keV should be treated as uncertain when   
+#E <2%.                                                                   
+#G           |a(K)exp's deduced (evaluator) from averaged I|g's and       
+#G Ice(K)'s are given under comments; the quoted references indicate the  
+#G source of ce data. The data were normalized to 296|g, using            
+#G |a(K)=0.0638. The averaging procedure gives |a(K)exp's which are       
+#G somewhat different from those given in 1973Jo11 and 1972Fi12. For      
+#G transitions above 1500 keV, total conversion coefficients are from     
+#G tables by 1978Ro21                                                     
+#G           For transitions with E0 admixtures, total conversion         
+#G coefficients are deduced based on Ice(K)'s. Pair conversion is         
+#G considered when necessary                                              
+#G E,RI$Weighted average from 1973Jo11 and 1972Fi12 (from 1972HuZL        
+#G above 1836), unless otherwise stated                                   
+#G MR$From ce data (1973Jo11,1972Fi12)                                    
+#G E(A)$|g reported by 1973Jo11 only                                      
+#G E(B)$|g reported by 1972Fi12 (and 1972HuZL) only                       
+#G E(D)$|g reported by 1972HuZL only                                      
+#G E(E),RI(E)$From 1972Fi12. In 1973Jo11, |g is complex due to            
+#G contribution from impurity.                                            
+#G E(F),RI(F)$Complex |g in 1973Jo11 but authors have corrected for       
+#G admixtures. Values given here are weighted averages of 1973Jo11 and    
+#G 1972Fi12 (from 1972HuZL above 1836 keV)                                
+#G E(G)$|g from 1972HuZL only. Placement considered tentative (evaluator) 
+#G E(K)$Tentative placement suggested by 1972HuZL                         
+#G RI(J)$From 1973Jo11. Value from 1972HuZL (given under comments) is     
+#G systematically lower by |?30% for |g rays above 1840 keV               
+#G                                                                        
+#G           I(|b{++}) estimate: from |g{+|+}/K| x ray, %|b{++}=2         
+#G (1961Ja17), <1 (1959Al94). From |g-ray spectra shown by 1969Na10 and   
+#G 1972HuZL (both mass-separated samples), I(|g{+|+})/I|g(597|g)|?0.5     
+#G (evaluator's estimate) implying I(|b{++})|?2.4% which is consistent    
+#G with 2% (1961Ja17) and weak |b{++} branches (to g.s. and 296 level)    
+#G observed by 1973Jo11                                                   
+#G E(M)$Uncertain |g                                                      
+#G E(N)$|a(K)exp(2957|g+2960|g)=0.00039 {I13} (1973Jo11). Mult=E1 for     
+#G both or (E2,M1) for one component and E1 for the other.                
+#L E(H)$Tentative level proposed by 1972HuZL                              
+#P    0.0      1-                42.8 M    10             4442      15    
+AU190 PT190 beta+ 4.442 2568.0 1.0
++B beta+ 7.91E-4 0.00158
++B beta+ 1.544 0.005
++G gamma 0.29581999999999997 0.9
++B beta+ 1.41 0.00549
++G gamma 0.30182 0.297
++G gamma 0.59768 0.1197
++B beta+ 1.273 0.00599
++G gamma 0.17980000000000002 0.0016200000000000001
++B beta+ 1.115 0.00746
++G gamma 0.32317 0.013049999999999999
++B beta+ 1.128 0.006520000000000001
++G gamma 0.2823 0.009720000000000001
++G gamma 0.2864 0.004860000000000001
++G gamma 0.466 0.006030000000000001
++G gamma 0.9073 0.01845
++B beta+ 1.002 0.006939999999999999
++B beta+ 0.935 0.007145
++G gamma 0.192 0.00108
++G gamma 0.4784 0.004050000000000001
++G gamma 0.6578999999999999 0.0015300000000000003
++B beta+ 0.917 0.0071979999999999995
++G gamma 0.2061 9.000000000000001E-4
++G gamma 0.8645 0.0015300000000000003
++G gamma 1.0054 0.00747
++G gamma 1.3075999999999999 0.005040000000000001
++G gamma 1.6015 0.0022500000000000003
++B beta+ 0.825 0.007442
++B beta+ 0.766 0.00758
++B beta+ 0.704 0.007704
++B beta+ 0.557 0.007925
++B beta+ 0.555 0.007925999999999999
++G gamma 1.7607000000000002 0.010080000000000002
++B beta+ 0.493 0.007987
++G gamma 1.4616 0.00747
++G gamma 1.7849000000000002 0.02619
++G gamma 2.0873000000000004 0.014400000000000001
++G gamma 2.3826 0.06480000000000001
++B beta+ 0.482 0.007995
++G gamma 1.0131000000000001 0.00108
++G gamma 1.0547 0.0045000000000000005
++G gamma 1.2055 0.00369
++G gamma 1.8107 0.00189
++G gamma 2.1119 0.0020700000000000002
++B beta+ 0.471 0.008003
++G gamma 2.4976 0.01629
++B beta+ 0.432 0.008028
++B beta+ 0.352 0.008059
++B beta+ 0.333 0.008063
++B beta+ 0.3 0.008067
++B beta+ 0.265 0.008067
++B beta+ 8.065E-4 0.00146
++G gamma 2.6851 0.01728
++G gamma 2.9809 0.014400000000000001
++B beta+ 0.218 0.008063
++G gamma 2.0972 0.0279
++B beta+ 0.203 0.008061
++G gamma 2.1325 0.012240000000000003
++G gamma 2.452 0.016200000000000003
++G gamma 2.7533000000000003 0.054000000000000006
++B beta+ 0.187 0.008058
++G gamma 1.8645 0.0126
++G gamma 2.4695 0.015300000000000001
++G gamma 2.7712 0.00927
++B beta+ 8.056E-4 0.00147
+

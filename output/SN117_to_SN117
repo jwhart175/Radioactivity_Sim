@@ -1,0 +1,16 @@
+#117SN    117SN IT DECAY                                          ENSDF    201101
+#  117SN IT DECAY                                          ENSDF    201101
+#H TYP=MOD$AUT=J. TULI$DAT=9-Mar-2012$COM=updated T1/2(314)$              
+#H TYP=FUL$AUT=JEAN BLACHOT$CIT=ENSDF$CUT=1-Mar-2009$                     
+#  GG(T), GG(THETA), GG(THETA,H) (1972JO13); GG(T) (1963SC12)             
+#  (156G)(158G)(THETA): A2=-0.132 13(1972JO13), -0.146 10 (1962HA02)      
+#  Others: 1950MI52, 1951CO34, 1952MI38, 1956GO27, 1956KA43               
+#  CC$ FROM BrIcc v2.2b (20-Jan-2009) 2008Ki07, "Frozen Orbitals" appr.   
+#G E$From 1974HEYW                                                        
+#L J$From adopted levels                                                  
+#P 314.58    4 11/2-             14.00 D   5                              
+SN117 SN117 IT 0.0 1209600.0 0.864
++G gamma 0.15856 1.0
++G gamma 0.15602000000000002 0.024460000000000003
++G gamma 0.3143 4.9E-6
+

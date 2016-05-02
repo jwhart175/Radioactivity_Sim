@@ -1,0 +1,15 @@
+# 89MO    89MO IT DECAY (190 MS)        1980GA16                  13NDS    201302
+#  89MO IT DECAY (190 MS)        1980GA16                  13NDS    201302
+#H TYP=FUL$AUT=BALRAJ SINGH$CIT=NDS 114, 1 (2013)$CUT=20-Oct-2012$        
+#  89MO formed by 92MO(P,P3N) E=60 MEV reaction. Measured G               
+#  Energy balance: total decay energy of 353 keV {I10} deduced            
+#  (using RADLIST code) from proposed decay scheme is in agreement with   
+#  the expected value of 387.3 keV {I3}, indicating that the decay scheme 
+#  is complete                                                            
+#G RI$From TI and CC                                                      
+#L J$From Adopted Levels                                                  
+#P    387.3   3(1/2-)            190 MS    15                             
+MO89 MO89 IT 0.0 0.19 1.0
++G gamma 0.1188 0.71
++G gamma 0.2685 0.87
+

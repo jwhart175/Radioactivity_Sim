@@ -1,0 +1,37 @@
+#218FR    222AC A DECAY (5.0 S)         1982BO04,1972ES03,1964MC2106NDS    200602
+#  222AC A DECAY (5.0 S)         1982BO04,1972ES03,1964MC2106NDS    200602
+#H TYP=FUL$AUT=ASHOK K. JAIN, BALRAJ SINGH$CIT=NDS 107, 1027 (2006)$      
+#H CUT=25-Jan-2006$                                                       
+#  Other: 1991Ga28: |a|a correlations from successive |a decays           
+#  Q(|a)=7137.4 {I20} from E|a=7008.6.                                    
+#A IA        |a intensity per 100 |a decays. These I|a's are the values   
+#A recommended by 1991Ry01 from I|a's measured by 1964Mc21.               
+#A HF        r{-0}({+218}Fr)=1.5401 {I20} is used in calculations.        
+#P 0.0          1-               5.0 S     5              7137.4    20    
+AC222 FR218 alpha 7.1373999999999995 5.0 0.99
++A alpha 7.0086 0.94
++A alpha 6.963 0.06
+
+#218FR    222AC A DECAY (63 S)          1972ES03                  06NDS    200602
+#  222AC A DECAY (63 S)          1972ES03                  06NDS    200602
+#H TYP=FUL$AUT=ASHOK K. JAIN, BALRAJ SINGH$CIT=NDS 107, 1027 (2006)$      
+#H CUT=25-Jan-2006$                                                       
+#  From the energy difference of highest energy |a's from 5-s             
+#  and 63-s {+222}Ac isomeric states, the energy difference between       
+#  the 63-s {+222}Ac isomeric level and the lowest level which the        
+#  63-s{+222}Ac decays to, is 9|+21 keV.                                  
+#A E         From 1972Es03. No adjustment to the energies has been        
+#A applied.                                                               
+#A IA        |a intensity per 100 |a decays of 63-s {+222}Ac.             
+#A HF        r{-0}({+218}Fr)=1.5401 {I20} is used in calculations.        
+#P 0+Z                             63 S    4              7137.4    20    
+AC222 FR218 alpha 7.1373999999999995 0.0 0.94
++A alpha 7.0 0.15
++A alpha 6.97 0.08
++A alpha 6.89 0.15
++A alpha 6.84 0.1
++A alpha 6.81 0.27
++A alpha 6.75 0.15
++A alpha 6.71 0.08
++A alpha 6.46 0.02
+

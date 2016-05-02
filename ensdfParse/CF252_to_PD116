@@ -1,0 +1,33 @@
+#116PD    252CF SF DECAY                1999BU32                  10NDS    201004
+#  252CF SF DECAY                1999BU32                  10NDS    201004
+#H TYP=FUL$AUT=Jean Blachot$CIT=NDS 111, 717 (2010)$CUT=1-Dec-2009$       
+#  1999BU32: Measured E|g, |g|g, I|g, |g|g(|q), using Gammasphere array   
+#  of 36 and 72 Ge detectors and one x-ray detector.                      
+#  The level scheme is as given by 1999BU32 based on |g|g,|g|g(|q) and    
+#  band assignments.                                                      
+#  1995HAZZ: 252CF(SF). Measured prompt G-rays emitted by fission         
+#  fragments. Their level scheme show GS band, the band based on 5-,      
+#  and partly the gamma band.                                             
+#  1990DUZW: 232TH(18O,XNG). Measured prompt G-rays emitted by fission    
+#  fragments from 246CF fissioning system.                                
+#  They have shown only the GS band until the 12+                         
+#  1970CH11, 1974JAZN: 252CF(SF).                                         
+#  Measured: XK, G, G(T), T1/2, recoil-distance DOPPLER shift (1974JAZN). 
+#  A and Z identification from multiparameter coincidences                
+#  The identification is based on gating on 2+ - 0+ known transitions     
+#  and on the fact that complementary fragments are in coin (CD,Sn)       
+#G E$|D(E|g)=0.3 for I|g>10 and 0.5 for I|g<10 assumed  by the evaluator  
+#G for least-squares fit                                                  
+#G E,RI,M$From 1999BU32, mult are from angular correlation. |DJ=2 Q       
+#G are assigned E2, D+Q as M1+E2                                          
+#L E$From least-squares fit to E|g's                                      
+#L J$J|p based on |g|g(|q), known  |g mult and the others from band       
+#L assignments                                                            
+#L T(F)$From 1974JAZN                                                     
+#L BAND(A)$ GS Band                                                       
+#L BAND(B)$ BAND BASED ON 4-                                              
+#L BAND(C)$ BAND BASED ON 5-                                              
+#L BAND(D)$ BAND BASED ON (7-)                                            
+#L BAND(E)$ GAMMA BAND                                                    
+#P  0.0                            2.645 Y 8                              
+

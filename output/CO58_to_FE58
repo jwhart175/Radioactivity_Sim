@@ -1,0 +1,20 @@
+# 58FE D  2007LI49: CALCULATED EC DECAY RATE AS A FUNCTION OF MAGNETIC FIELD     
+#  2007LI49: CALCULATED EC DECAY RATE AS A FUNCTION OF MAGNETIC FIELD     
+#  2007Li72: calculated neutrino energy loss by |e decay of {+58}Co       
+#  The level scheme is consistent since the total decay                   
+#  energy computed by RADLST is 2307.6 {I29} compared to the Q            
+#  value of 2307.5 {I12}.                                                 
+#  1968Ba49: measured |e/|b{++}=5.05 {I9}, I(K x ray).                    
+#E $ The probability for K-shell electron shakeoff =                      
+#E 16.6|*10{+-4} {I21} (1983Sc09), 13.8|*10{+-4} {I24} (1983Nh01)         
+#G E$ From 2000He14                                                       
+#G RI$ I{-K x ray}=26.7 {I3} calculated from this decay scheme; the       
+#G same value is given in the 1991BaZS evaluation where I{-Kx|a}          
+#G =23.5 {I3} and I{-Kx|b} = 3.2 {I1}.                                    
+#G M,MR$ From 'Adopted Gammas'                                            
+#L J$ From 'Adopted Levels'                                               
+#P 0.0         2+                70.86 D   6              2307.6    12    
+CO58 FE58 beta+ 2.3076 6122304.0 0.9945
++G gamma 0.863951 0.0069
++G gamma 1.674725 0.0052
+

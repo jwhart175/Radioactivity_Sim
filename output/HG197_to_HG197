@@ -1,0 +1,16 @@
+#197HG    197HG IT DECAY (23.8 H)                                 05NDS    200503
+#  197HG IT DECAY (23.8 H)                                 05NDS    200503
+#H TYP=ERR$AUT=J. TULI$DAT=16-Jul-2007$COM=Fixed typo in comment$         
+#H TYP=FUL$AUT=HUANG XIAOLONG, ZHOU CHUNMEI$CIT=NDS 104, 283 (2005)$      
+#H CUT=1-Jan-2002$                                                        
+#  Sources produced by {+196}Hg(n,|g) (1987Vi08,1986Hi05), {+197}Au(p,n)  
+#  (1984BeZP,1986LoZX), {+197}Au(d,2n) (1980He05,1980Kr12), {+198}Hg(p,d) 
+#  (1986VeZY), Pt(|a,xn) (1983Li21), and {+197}Au(|a,d2n) (1993Ch44).     
+#G M         Deduced from ce-ratio data                                   
+#L E         From decay scheme and least-squares fit to E|g's             
+#L T         From adopted levels, except as noted.                        
+#P     298.93 813/2+             23.8 H    1                              
+HG197 HG197 IT 0.0 85680.0 0.3663
++G gamma 0.13398 1.0
++G gamma 0.16497 0.00782
+

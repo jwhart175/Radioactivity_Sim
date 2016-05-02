@@ -1,0 +1,21 @@
+#171TA    171W EC DECAY                 1990ME12,1987SZ03         02NDS    200209
+#  171W EC DECAY                 1990ME12,1987SZ03         02NDS    200209
+#H TYP=FUL$AUT=CORAL M. BAGLIN$CIT=NDS 96,399 (2002)$CUT=5-Aug-2002$      
+#  The decay scheme and all data are from 1990ME12, except where          
+#  noted.                                                                 
+#  1990ME12: sources from 36AR, 38AR, 40AR bombardments of enriched       
+#  barium fluoride (93% for 136BA, 99.8% for 138BA); E(36AR,              
+#  38AR, 40AR)=165-205 MEV, helium-jet transport; measured EG (8 lines),  
+#  IG (intrinsic germanium, GELI (timed spectra)), fast-slow              
+#  GG and GX coin, excitation functions.                                  
+#  1987SZ03: sources from 165HO(14N,8n), E(14N)=118-147 MEV; He-jet       
+#  recoil transportation, GELI; measured EG, IG, G(T), excit.             
+#L J,T       From adopted levels.                                         
+#G RI        Photon intensity relative to RI=100 for 184.2G.              
+#G M,MR      From adopted gammas.                                         
+#G E(A),RI(A)$From 1987SZ03; uncertainty unstated by authors.             
+#G Tentatively assigned to 171W decay, but G(T) data indicate a ^T{-1/2}  
+#G which is inconsistent with that assignment.                            
+#P 0.0         (5/2-)            2.38 M    4              4.56E3    14    
+W171 TA171 beta+ 4.56 142.79999999999998 1.0
+

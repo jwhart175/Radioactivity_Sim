@@ -1,0 +1,135 @@
+#187RE    187W B- DECAY                 1979YA14,1976BR09,1966RE0109NDS    200905
+#  187W B- DECAY                 1979YA14,1976BR09,1966RE0109NDS    200905
+#H TYP=FUL$AUT=M. S. Basunia$CIT=NDS 110, 999 (2009)$CUT=1-Nov-2008$      
+#  Measurements: 1986Ha21, 1983Si18, 1979Ya14, 1976Br09, 1974HeYW,        
+#  1970He14, 1969GuZW, 1966Wi17, 1966Re01, 1965Se03, 1965Fu08,            
+#  1965Bi07, 1963Ha26, 1963Ma08, 1963Mi15, 1962Bi08, 1962St21, 1960Ar03,  
+#  1960Dz04, 1960Ga11, 1958Ve35, 1957Ma16, 1957Du49, 1953Co11, and        
+#  1952Mu45.                                                              
+#                                                                         
+#  The 187W B- decay scheme is a synthesis of several papers which are    
+#  not fully consistent. The intense transitions agree well in            
+#  most references, but considerable disagreement exists for many weak    
+#  transitions in observation and placement in the decay scheme.          
+#                                                                         
+#B IB        From decay scheme except where indicated. Direct measurement 
+#B from BG coincidence measurements of 1970He14 agree well with these     
+#B results and are given in comments.                                     
+#B IB(A)     From 1970He14, except otherwise noted.                       
+#G E,RI      From 1976Br09, except otherwise noted.                       
+#G E(Y)      From 1966Re01.                                               
+#G E(X),RI(X)$From 1986Ha21.                                              
+#G E(Z)      From 1986Ha21                                                
+#G E(W)      Weighted average of 1966Re01 and 1976Br09.                   
+#G E(V)      From 1983Si18.                                               
+#G E(U)      Weighted average of 1983Si18 and 1976Br09.                   
+#G E(T),RI(T)$From 1979Ya14.                                              
+#G E(B,F)    Tentative assignment to 187W decay by 1976Br09 on the basis  
+#G of approximate half-life.                                              
+#G E(C)      Observed only in coincidence.                                
+#G E(F)      Placed in the decay scheme by the evaluator on the basis of  
+#G energy sums.                                                           
+#G E(E)      Observed only by 1979Ya14 and not confirmed by 1986Ha21.     
+#G RI(S)     Weighted average of 1983Si18 and 1976Br09.                   
+#G RI(R)     Weighted average of 1983Si18 and 1986Ha21.                   
+#G RI(Q)     From 1986Ha21.                                               
+#G RI(P)     From 1999Mb04.                                               
+#G TI(G)     From CEG data of 1965Bi07, the intensity of the 70.2G and    
+#G 582G deexciting the 582 level are about equal. The total intensity for 
+#G these transitions has been calculated assuming an intensity balance    
+#G at the 582 level.                                                      
+#G M         From CE measurements of 1963Ha26, 1966Wi17, 1970He14,        
+#G 1971Br45, and 1979Ya14. ICE's of 1966Wi17 and 1971Br45 have been       
+#G renormalized to KC(480)=0.0183 (E2 theory) and compared to the adopted 
+#G GAMMA ray intensities.                                                 
+#G MR        From 1973Kr05, except otherwise noted.                       
+#G           Experimental and theoretical AUGER-electron and X-RAY        
+#G intensities are given below. The AUGER-electron intensities from       
+#G 1966Wi17 and the XKA1 intensity from 1960Ga11 are compared with the    
+#G theoretical values from 1986BrZQ.                                      
+#G                                                                        
+#G                        AUGER-electron{+a}                              
+#G                                                                        
+#G                                     Intensity                          
+#G         energy   transition   experiment  theory                       
+#G         ------   ----------   -------------------                      
+#G         46.37      KL1L1        1.0 1      1.00                        
+#G         46.91      KL1L2        1.50 15    1.51                        
+#G         47.41      KL2L2        0.10 5     0.10                        
+#G         48.35      KL1L3        0.9 1      1.00                        
+#G         48.91      KL2L3        1.70 15    1.85                        
+#G         50.32      KL3L3        0.8 1      0.88                        
+#G         56.18   KL1M1+KL1M2     0.80 15    0.72                        
+#G         56.65   KL1M3+KL2M1     0.69 15    0.48                        
+#G         57.25      KL2M3        0.55 15    0.35                        
+#G         57.76      KL2M4        0.39 20    0.02                        
+#G         58.19   KL3LM1+KL3M2    0.75 20    0.49                        
+#G         58.69      KL3M3        0.7 2      0.33                        
+#G         60.57      KL3N         0.61 20    0.22                        
+#G         66.1  KM2N2+KM2M3+KM3M3 0.30 15    0.08                        
+#G                                                                        
+#G                           X-RAY{+b}                                    
+#G                                                                        
+#G         59.72      XKA2      --        7.25 19                         
+#G         61.14      XKA1    11.0 5     12.6 4                           
+#G         69.21      XKB1      --        4.22 12                         
+#G         71.47      XKB2      --        1.07 4                          
+#G         -----------------------------------------                      
+#G  {+a}multiply by 0.106 3 for absolute intensity per 100 decays.        
+#G  This normalization is based on the decay scheme (26.3 5 K-vacancies   
+#G  per 100 decays) and table 8 in 1986BrZQ. The normalization factor     
+#G  0.089 8 is obtained from the relative KL1L2+KL1L3+KL3L3 intensities of
+#G  1960Ga11.                                                             
+#G  {+b}multiply by 1.0 for absolute intensity per 100 decays.            
+#G                                                                        
+#G               Summary of GG(THETA) results                             
+#G                                                                        
+#G Cascade(spin sequence)     A2        A4           |d*       Reference  
+#G ----------------------  ---------  ---------  ------------  ---------  
+#G       72-134            -0.23      +0.09 5                   1958Be22  
+#G 5/2(E1)7/2(M1+E2)5/2    +0.010 11                            1959Ka09  
+#G                         -0.047 24   0.00 4                   1963Mi10  
+#G                         -0.022 15  -0.04 4                   1966Gu12  
+#G                         -0.035 23   0.003 32                 1971Ni01  
+#G                         -0.006 2                             1972Ke34  
+#G                         -0.066 11   0.030 23                 1983Si18  
+#G                         -0.002 1   -0.004 3   +0.182 +3-4    1979Ya14  
+#G                                                                        
+#G       480-72            -0.12 3                              1963Ko19  
+#G 5/2(E2)9/2(E1)7/2       -0.071 5                             1963Wa16  
+#G                         -0.116 3   -0.003 6   E1 pure        1979Ya14  
+#G                                                                        
+#G       551-134           -0.015                               1959Ka09  
+#G 5/2(E1)7/2(M1+E2)5/2    +0.316 18  -0.086 27                 1960Ar03  
+#G                         -0.034 17  -0.007 30                 1963Mi10  
+#G                         -0.024 13  +0.03 2                   1966Gu12  
+#G                         -0.028 15  +0.012 17                 1970Na15  
+#G                         -0.026 22  +0.003 27                 1971Ni01  
+#G                         -0.058 19  -0.023 39                 1983Si18  
+#G                         -0.019 3   -0.002 4   +0.202 +14-4   1979Ya14  
+#G                                                                        
+#G       246-618           +0.284 18  -0.007 30   0.5<MR(1)<5.0  1979Ya14 
+#G 3/2(M1+E2)3/2(M1+E2)5/2                   or  -2.0<MR(1)<-0.2          
+#G                                                                        
+#G     480-(72)-134        -0.04 3                              1959Kl90  
+#G                         -0.001 4   -0.004 6   +0.134 +37-38  1979Ya14  
+#G -------------------------------------------------------------------    
+#G  *Mixing ratio for the second transition except where indicated        
+#L E         From a least-squares adjustment to the G-ray energies.       
+#L J         From adopted levels.                                         
+#P 0.0         3/2-               24.000 H 4                 1310.9 13    
++B beta- 0.45708 0.16899999999999998
++B beta- 0.40169 0.022000000000000002
++B beta- 0.21761000000000003 0.054000000000000006
++B beta- 0.21502000000000002 0.043
++B beta- 0.19341999999999998 0.662
++B beta- 0.16293000000000002 0.051
++B beta- 0.148 5.099999999999999E-4
++B beta- 0.14452 1.26E-4
++B beta- 0.13188999999999998 0.00751
++B beta- 0.12695 0.0055000000000000005
++B beta- 0.10076 2.05E-4
++B beta- 0.03208 1.5E-4
++B beta- 0.02379 2.1000000000000002E-6
++B beta- 0.02128 4.1E-4
+

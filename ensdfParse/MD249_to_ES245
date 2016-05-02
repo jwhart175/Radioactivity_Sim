@@ -1,0 +1,25 @@
+#245ES    249MD A DECAY                 2005HE27,2008GA25         11NDS    201102
+#  249MD A DECAY                 2005HE27,2008GA25         11NDS    201102
+#H TYP=FUL$AUT=E. BROWNE, J. K. TULI$CIT=NDS 112, 447 (2011)$             
+#H CUT=1-Jun-2010$                                                        
+#  Compiled (unevaluated) dataset from 2005He27:                          
+#  Eur Phys J A 26, 233 (2005)                                            
+#  Compiled by B. Singh (McMaster) December 20, 2005                      
+#  Modified by E. Browne (Sept. 3, 2010)                                  
+#  2005He27: {+249}Md produced as grand-daughter of |a decay of {+257}Db  
+#  produced in reaction: {+209}Bi({+50}Ti,2n) E=4.85 MeV/nucleon;         
+#  and as daughter of {+253}Lr produced in reaction {+209}Bi({+48}Ca,4n)  
+#  E=5.05 MeV/nucleon. {+257}Db decays by |a to {+253}Lr which further    
+#  decays by |a to {+249}Md.                                              
+#  Evaporation residues were separated from the primary beam by velocity  
+#  SHIP at GSI facility. Measured (fragments)|a coin, |a|g coin, prompt   
+#  and delayed |g rays, K-x rays. A 'Clover' detector used for |g rays.   
+#  2008Ga25: 249MD produced in decay chain: 257Db - 253Lr - 249Md.        
+#  The 257Db activity was produced by the 209BI(50TI,2N) and              
+#  208PB(51V,2N) reactions at 4.7 - 5.1 MeV/nucleon beams of 51V and 50Ti 
+#  provided by the 88-Inch Cyclotron at the Lawrence Berkeley National    
+#  Laboratory (LBNL).                                                     
+#P 0.0           7/2-             23.8 S   +38-29         8425      18    
+MD249 ES245 alpha 8.425 0.0 0.6
++A alpha 8.026 1.0
+

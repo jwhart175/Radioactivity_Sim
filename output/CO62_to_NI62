@@ -1,0 +1,104 @@
+# 62NI    62CO B- DECAY (1.54 M)        1970JO12,1969ES03         12NDS    201205
+#  62CO B- DECAY (1.54 M)        1970JO12,1969ES03         12NDS    201205
+#H TYP=FUL$AUT=ALAN L. NICHOLS, BALRAJ SINGH, JAGDISH K. TULI$            
+#H CIT=NDS 113, 973 (2012)$CUT=15-Apr-2012$                               
+#  1970JO12 (also 1971JoZN thesis): 62CO from 64NI(D,A), enriched 64NI    
+#  target, E=16 MEV, GELI, plastic scintillator,                          
+#  identified 60CU, 61CU, 62CU and 61CO as main impurities.               
+#  Measured E|g, I|g, E|b, I|b, |g|g, |b|g coin, half-life of 62CO GS     
+#  1969ES03: 62CO from NI(N,P), natural NI target, E=14.5 MEV, GELI       
+#  singles, NAI(TL) for GG. Measured E|g, I|g, |g|g                       
+#  1969WA16: 62CO from 62NI(N,P) and 65CU(N,A), 97.8% and 99.05% enriched 
+#  62NI target and natural CU target, E=14.8 MEV, GELI singles, NAI(TL)   
+#  for GG and BG coincidences, plastic scintillator for BG coincidences.  
+#  Four |g rays assigned to {+62}Co GS decay. Measured E|g, I|g, E|b,     
+#  I|b, |g|g and |b|g coin, half-life of 62CO GS                          
+#  1968Ki08: 62CO from 62NI(n,p) and 65CU(n,|a); measured E|g, I|g, E|b.  
+#  GELI detector for |g rays                                              
+#  1962Va23: measured half-life, E|b, I|b                                 
+#  1960Pr05: measured E|b, half-life of 62CO GS                           
+#  1949Pa01: identified 62CO isotope, measured E|b, half-life of 62CO GS  
+#  Total decay energy of 5270 keV {I49} deduced (by RADLIST code) from    
+#  proposed decay scheme is in agreement with the expected value of       
+#  5315 keV {I20}, indicating that decay scheme is complete               
+#G CC$ FROM BrIcc 2008Ki07, "frozen orbital" approximation                
+#G E,RI$ Weighted average of 1968KI08, 1969ES03, 1969WA16 and             
+#G 1970JO12, except as noted                                              
+#G E(B),RI(B)$ |g reported by 1970JO12 only                               
+#G E(C),RI(C)$ |g reported by 1969ES03 only                               
+#G E(D),RI(D)$ Upper limit of intensity defined by 1970JO12; assigned to  
+#G the 13.86-min isomer by 1969ES03                                       
+#G M,MR$From Adopted Gammas                                               
+#L J$From Adopted Levels                                                  
+#P 0.0         (2)+              1.54 M    10             5315      20    
+CO62 NI62 beta- 5.315 92.4 0.832
++G gamma 1.1729 1.0
++G gamma 1.1289 0.128
++G gamma 2.3019000000000003 0.177
++G gamma 1.9850999999999999 0.021
++G gamma 3.158 0.01
++G gamma 2.083 0.004
++G gamma 3.37 0.0045000000000000005
++G gamma 3.519 0.001
++G gamma 4.063 0.004
+
+# 62NI    62CO B- DECAY (13.86 M)       1970JO12,1969ES03         12NDS    201205
+#  62CO B- DECAY (13.86 M)       1970JO12,1969ES03         12NDS    201205
+#H TYP=FUL$AUT=ALAN L. NICHOLS, BALRAJ SINGH, JAGDISH K. TULI$            
+#H CIT=NDS 113, 973 (2012)$CUT=15-Apr-2012$                               
+#  1970JO12: 62CO from 64NI(D,A), enriched 64NI target, E=16 MEV, GELI,   
+#  plastic scintillator, identified 60CU, 61CU, 62CU and 61CO as main     
+#  impurities.                                                            
+#  Measured E|g, I|g, E|b, I|b, |g|g, |b|g coin, half-life of 62CO isomer.
+#  1969ES03: 62CO from NI(N,P), natural NI target, E=14.5 MEV, GELI       
+#  singles, NAI for GG. Measured E|g, I|g, |g|g                           
+#  1969WA16: 62CO from 62NI(N,P) and 65CU(N,A), 97.8% and 99.05% enriched 
+#  62NI target and natural CU target, E=14.8 MEV, GELI singles, NAI for   
+#  GG and BG coincidences, plastic scintillator for BG coincidence.       
+#  Measured E|g, I|g, E|b, I|b, |g|g and |b|g coin, half-life of          
+#  62CO isomer                                                            
+#  1969Mo04: 62CO from NI(P,3HE) and NI(P,2PN), 97.92% enriched 64NI,     
+#  chemical separation of CO and CU, GELI singles, Ge-NAI for GG          
+#  coincidences. Measured E|g, I|g, |g|g. Data for five |g rays           
+#  1968Ki08: 62CO from 62NI(n,p) and 65CU(n,A); measured E|g, I|g, E|b.   
+#  GELI detector for |g rays. Data for five |g rays                       
+#  1960Pr05: measured E|b, half-life of 62CO isomer                       
+#  1957Ga15: measured E|b, I|b, E|g, I|g, |b|g and |g|g coin, half-life   
+#  of {+62}Co isomer                                                      
+#  1949Pa01: identified 62CO isotope, measured E|b, half-life of 62CO     
+#  isomer                                                                 
+#  Other:                                                                 
+#  1975TIZW: 62CO from 62NI(N,P), enriched 62NI target, fast neutrons,    
+#  GELI, scintillators; these authors report 13.9-min gammas connecting   
+#  low-spin levels at 2048.6 (0+) and 3861.1 (1,2) levels, as already     
+#  known from other data, but their report is too brief for adoption in   
+#  this evaluation                                                        
+#  Total decay energy of 5297 keV {I44} deduced (by RADLIST code) from    
+#  proposed decay scheme is in agreement with the expected value of       
+#  5310 keV {I34}, indicating that decay scheme is complete               
+#B IB        B- per 100 decays of 13.9-min 62CO. Although intensity       
+#B balances give a small amount of feeding to the 2301.9 level, this      
+#B transition has not been included in the proposed decay scheme          
+#B (second-forbidden unique transition)                                   
+#G CC$ FROM BrIcc 2008Ki07, "frozen orbital" approximation                
+#G E,RI$ Weighted averages of values from 1968KI08, 1969ES03, 1969MO04 and
+#G 1970JO12, except as noted                                              
+#G RI(U)$ Unweighted average of values from 1968KI08, 1969ES03, 1969MO04  
+#G and 1970JO12                                                           
+#G E(A)$ From 1970JO12, not reported by 1969ES03                          
+#G E(B)$ From 1969ES03, not reported by 1970JO12, although 1970JO12 shows 
+#G resulting double-escape peak (2248-keV line) attributed to the decay   
+#G of the 13.86-min isomer                                                
+#G M,MR$ From Adopted Gammas                                              
+#P 22        5  (5)+             13.86 M   9              5315      20    
+CO62 NI62 beta- 5.315 831.5999999999999 0.9821
++G gamma 1.1729 1.0
++G gamma 1.1289 0.013000000000000001
++G gamma 2.3019000000000003 0.018000000000000002
++G gamma 0.875 0.013000000000000001
++G gamma 2.0037000000000003 0.18600000000000003
++G gamma 0.7775 0.018000000000000002
++G gamma 1.7187000000000001 0.069
++G gamma 1.7535 0.006
++G gamma 2.8823000000000003 0.011200000000000002
+

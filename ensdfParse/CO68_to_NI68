@@ -1,0 +1,64 @@
+# 68NI    68CO B- DECAY (0.20 S)        2000MU10                  12NDS    201206
+#  68CO B- DECAY (0.20 S)        2000MU10                  12NDS    201206
+#H TYP=FUL$AUT=E.A. McCutchan$CIT=NDS 113, 1735 (2012)$CUT=1-Mar-2012$    
+#  {+238}U(p,F) with E(p)=30 MeV. Isotopes separated using the Leuven     
+#  ion-guide laser-ion source (LIGLIS) coupled to the LISOL mass          
+#  separator. Measured E|g, I|g, T{-1/2}, |b-|g and |g|g coincidences     
+#  using two HPGe detectors and three |DE plastic detectors.              
+#  Others: 1999MuZZ, 2002Ko31 (details on LIGLIS).                        
+#L E$From a least squares fit to E|g's by evaluator.                      
+#L J,T$From the Adopted Levels.                                           
+#G RI$Normalized to I(272|g) = 100.                                       
+#G RI(a)$Determined from |g|g coincidence.                                
+#G E(b)$The ordering of the 272|g and 324|g is reversed in                
+#G {+198}Pt({+76}Ge,X|g) (2000Is01).                                      
+#G M$From the Adopted Gammas.                                             
+#B IB$From an intensity balance at each level.                            
+#B E(c)$Existence of this branch is questionable.                         
+#L J(g)$Suggested configuration |nf{+-1}\{-5/2}|ng{++1}\{-9/2}. Assuming  
+#L a simple |d interaction the 3444 state is most likely 7{+-} and the    
+#L 3557 state is most likely 6{+-} (2000Mu10).                            
+#  CC$ FROM BrIcc v2.2b (20-Jan-2009) 2008Ki07, "Frozen Orbitals" appr.   
+#P 0.0          (7-)              0.20 S    2              1.155E+4 13    
++B beta- 3.766 0.62
++B beta- 3.711 0.28
++B beta- 3.527 0.015
+
+# 68NI    68CO B- DECAY (1.6 S)         2000MU10                  12NDS    201206
+#  68CO B- DECAY (1.6 S)         2000MU10                  12NDS    201206
+#H TYP=FUL$AUT=E.A. McCutchan$CIT=NDS 113, 1735 (2012)$CUT=1-Mar-2012$    
+#  {+238}U(p,F), E(p) = 30 MeV. Isotopes separated using the Leuven       
+#  ion-guide laser-ion source (LIGLIS) coupled to the LISOL mass          
+#  separator.   Measured E|g, I|g, T{-1/2}, |b-|g and |g|g coincidences   
+#  using two HPGe detectors and three |DE plastic detectors.              
+#  Others: 1999MuZZ, 2002Ko31 (details on LIGLIS).                        
+#  The total average radiation energy released by {+68}Co |b-decay (1.6   
+#  s) is 9700 {I300} (calculated by evaluator using computer program      
+#  RADLST), 16% lower than 11550 {I130}, suggesting an incomplete decay   
+#  scheme. This is supported by |b-|g coincidence measurements which      
+#  estimate AP 50% of the |b-decay proceeds via unresolved levels that    
+#  subsequently |g-decay to low-lying levels in {+68}Ni (2000Mu10).       
+#L E$From a least-squares fit to E|g's by evaluator.                      
+#G RI$Normalized to I|g(2033|g)=100.                                      
+#G $I|g(511|g)=20.8 {I5}.  Nearly all the intensity is coincident with    
+#G |b particles and can be accounted for as 511-511 coincidences.  The    
+#G 511|g's are prompt with |b particles within the |? 15 ns time          
+#G resolution; thus it can be ruled out that the 511|g originates from    
+#G the 1770 0+ state which has T{-1/2}=211 ns {I50}.  2000Mu10 propose    
+#G the source of the 511|g may be an E0 transition from the decay of the  
+#G 2511 state to the g.s.                                                 
+#L J(a)$Low-lying J=1 states are not expected from the available neutron  
+#L fp orbitals. A strong |g to the g.s. indicates J|p=2+ for the 2744     
+#L state. Lack of a similar transition from the 2512 state and the        
+#L possible E0 transition to the g.s. supports a J|p=0+ assignment.       
+#L J,T$From the Adopted Levels.                                           
+#G M$From Adopted Gammas.                                                 
+#L E(g)$Identification of the 3543 and 3989 levels is based on the        
+#L observation of a 694|g and 1139|g with T{-1/2}|?1.6 s which are        
+#L non-coincident with any other transitions, suggesting they directly    
+#L populate the 5- 2849 isomeric level (2000Mu10). This, however, is in   
+#L disagreement with the direct population of these levels from J|p=(1+)  
+#L and thus, the evaluator considers their existence tentative.           
+#  CC$ FROM BrIcc v2.2b (20-Jan-2009) 2008Ki07, "Frozen Orbitals" appr.   
+#P X            (1+)              1.6 S     3              1.155E+4 13    
+

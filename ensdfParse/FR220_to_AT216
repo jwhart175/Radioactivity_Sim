@@ -1,0 +1,55 @@
+#216AT    220FR A DECAY                 1996SH05,1968BA73         07NDS    200705
+#  220FR A DECAY                 1996SH05,1968BA73         07NDS    200705
+#H TYP=ERR$AUT=J. TULI$DAT=16-Jul-2007$COM=Fixed typo in comment$         
+#H TYP=FUL$AUT=S. -C. WU$CIT=NDS 108, 1057 (2007)$CUT=1-Mar-2007$         
+#  1996Sh05: Radioactivity of {+220}Fr (from 224Ac(|a-decay),             
+#  produced by Th(p,X), E=200 MeV); ISOCLEL separator; Ge detectors;      
+#  measured E|a, I|a, E|g, I|g, |a|g, |a(ce)                              
+#  1974Ho27, 1968Ba73: measured E|a, I|a                                  
+#  1970Br29: measured |g, |g|g                                            
+#  Others: 1964Br16, 1964Mc21                                             
+#                                                                         
+#A E         From 1968Ba73, except where noted otherwise. Authors' values 
+#A have been increased by 1.5 keV to correct for more recent values       
+#A of calibration energies (1991Ry01). Others: 1964Br16, 1964Mc21,        
+#A 1974Ho27                                                               
+#A IA        From 1996Sh05 (corrected values of 1968Ba73, priv. comm. from
+#A C.F. Liang)                                                            
+#A E(A)      From 1991Ry01, based on measurements of 1968Ba73 and 1974Ho27
+#A HF        r{-0}({+216}At)=1.553 {I3},                                  
+#A unweighted average of r{-0}({+214}Po)=1.559 {I8},                      
+#A r{-0}({+216}Po)=1.5555 {I2}, r{-0}({+216}Rn)=1.554 {I6}                
+#A and r{-0}({+218}Rn)=1.5446 {I19}                                       
+#G $All |g data are from 1996Sh05                                         
+#G $I|g(K| x ray At)=82 {I5} per 1000 |a (1996Sh05). If all the           
+#G observed |g's above the K-shell binding energy are M1, yielding the    
+#G largest possible number of K| x ray, the evaluator obtained total      
+#G I(K| x ray)=68 {I2} per 1000 |a's                                      
+#G RI        I|g per 1000 |a's                                            
+#L $The level scheme is that proposed by 1996Sh05 and based on            
+#L their measurements of E|g, I|g and |a|g; on E|a and I|a of 1968Ba73;   
+#L and on |g|g of 1970Br29. The level configurations are from 1996Sh05.   
+#L E         From least squares fit to E|g                                
+#L J         From adopted levels                                          
+#L E(D)      From E|a                                                     
+#L BAND(A)   CONF=((P,H9/2,+3)(N,G9/2,+5))                                
+#L BAND(B)   CONF=((P,H9/2,+3)(N,G9/2,+4)(N,I11/2)) +                     
+#L ((|p h{-9/2}){++2}(|p f{-7/2})(|n g{-9/2}){++5})                       
+#P 0             1+              27.4 S     3             6800.7    19    
++A alpha 6.677 0.66
++A alpha 6.633 0.122
++A alpha 6.62 0.016
++A alpha 6.573 0.09
++A alpha 6.5241999999999996 0.025
++A alpha 6.5165 0.03
++A alpha 6.5086 0.006
++A alpha 6.4801 0.006
++A alpha 6.4715 0.013000000000000001
++A alpha 6.4448 1.0E-4
++A alpha 6.4276 0.0024
++A alpha 6.402100000000001 0.0125
++A alpha 6.3782 0.0034999999999999996
++A alpha 6.363899999999999 1.0E-4
++A alpha 6.303100000000001 1.5E-4
++A alpha 6.26 5.0E-5
+

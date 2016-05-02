@@ -1,0 +1,60 @@
+#122I     122XE EC DECAY                1981NG04,1973LO10,1969GF0107NDS    200704
+#  122XE EC DECAY                1981NG04,1973LO10,1969GF0107NDS    200704
+#H TYP=FUL$AUT=T. TAMURA$CIT=NDS 108, 455 (2007)$CUT=30-Sep-2006$         
+#  The decay scheme is that proposed by 1981Ng04 on the basis of          
+#  (ce)|g-coin, |g|g-coin and E|g sums                                    
+#  1981Ng04: ^Ce(p,spallation) E(p)=660 MeV, chem, mass;                  
+#  semi |g, |g|g-coin, magnetic spectrometer ce, magnetic                 
+#  spectrometer-semi ce|g-coin                                            
+#  1973Lo10: ^Ce(p,spallation) E(p)=800 MeV, mass; semi |g,               
+#  scin-semi |g|g(t), magnetic double-lens spectrometer,                  
+#  (ce)(Auger)(t), (ce)(ce)(t), scin-magnetic spectrometer                
+#  (|g)ce(t), (XK)ce(t)                                                   
+#  1969Gf01: {+120}Te(|a,2n); semi |g, semi-scin |g|g-coin                
+#  Others: G(1970LaZX,1965An05,1960Mo09,1954Ma75)                         
+#E IE        IEC=83.0 4(to g.s.) is calculated using                      
+#E I|g(350.065|g)/I(564.119|g) in {+122}Te)=0.444 observed with           
+#E {+122}Xe(20 h)+{+122}I(3.6 min) equilibrium source (1969Gf01) and      
+#E I|g(564.119|g)=0.176 4 per {+122}I |b{++} decay                        
+#G E         From 1981Ng04; all |g's, except for 259.35G and 326.3G       
+#G are also observed by 1973Lo10                                          
+#G RI        Relative to I(350.065|g)=100; I(326.3|g) is deduced from     
+#G CEG-coin spectrum                                                      
+#G M,MR      Multipolarities and mixing ratios are deduced from ECC       
+#G (1981Ng04,1973Lo10); values are normalized to |a(K)exp(148 |g)=0.215   
+#G (M1 theory), for the transitions below 100 keV 1981Ng04 use ICE(K) of  
+#G 1973Lo10                                                               
+#L E         E(levels) are based on a least-squares fit to the            
+#L E(|g's) of 1981Ng04 (evaluator)                                        
+#P 0.0         0+                20.1 H    1              725       12    
+XE122 I122 beta+ 0.725 72360.0 1.0
++B beta+ 8.488E-4 0.0011899999999999999
++B beta+ 8.483000000000001E-4 0.0011899999999999999
++G gamma 0.053079999999999995 2.886E-4
++B beta+ 8.474E-4 0.0012
++G gamma 0.061626 0.0040716
++G gamma 0.09059600000000001 0.0056316
++B beta+ 8.473E-4 0.0012
++G gamma 0.058015 9.047999999999999E-4
++G gamma 0.148612 0.026208
++G gamma 0.07246999999999999 0.0018564
++G gamma 0.10989700000000001 4.134E-4
++G gamma 0.163052 0.0013338
++G gamma 0.175582 0.0026052
++B beta+ 8.454000000000001E-4 0.00121
++G gamma 0.103857 4.914E-4
++G gamma 0.116355 0.0010140000000000001
++B beta+ 8.412E-4 0.00124
++G gamma 0.17445 0.0014352000000000002
++G gamma 0.186978 0.0055769999999999995
++G gamma 0.20143 0.0011622
++G gamma 0.25939999999999996 5.459999999999999E-4
++G gamma 0.28842 0.004056000000000001
++G gamma 0.350065 0.078
++B beta+ 8.376E-4 0.00127
++G gamma 0.06663 2.652E-4
++G gamma 0.25368999999999997 0.0011856
++G gamma 0.32630000000000003 3.9E-4
++G gamma 0.35511000000000004 0.002418
++G gamma 0.416633 0.01872
+

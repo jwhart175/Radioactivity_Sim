@@ -1,0 +1,23 @@
+#113IN    113CD B- DECAY (8.04E15 Y)    2007BE61                  10NDS    201006
+#  113CD B- DECAY (8.04E15 Y)    2007BE61                  10NDS    201006
+#H TYP=FUL$AUT=Jean Blachot$CIT=NDS 111, 1471 (2010)$CUT=1-May-2009$      
+#  {+113}Cd measured in CdWO{-4} crystal at Gran Sasso National           
+#  Lab of INFN. Measured half-life of {+113}Cd using the low-background   
+#  CdWO{-4} crystal scintillator of mass 434g.                            
+#  1996Da11: measured scintillation crystals of ^CDW04                    
+#  1970Gr20: measured B- activity of enriched and natural cadmium samples 
+#  Others: 1962Wa15, 1969De25, 1994Al49.                                  
+#B $log| {Ift} deduced by the evaluator                                   
+#L T$See adopted levels.                                                  
+#P 0            1/2+             8.04E15 Y 5              322       1     
+CD113 IN113 beta- 0.322 2.53717546752E23 1.0
+
+#113IN    113CD B- DECAY (14.1 Y)       1969DE25                  10NDS    201006
+#  113CD B- DECAY (14.1 Y)       1969DE25                  10NDS    201006
+#H TYP=FUL$AUT=Jean Blachot$CIT=NDS 111, 1471 (2010)$CUT=1-May-2009$      
+#  Measured EB, BG coin. No BG coin were observed, 1969De25.              
+#L T$From adopted levels.                                                 
+#P 263.7     3 11/2-             14.1 Y    5              322       1     
+CD113 IN113 beta- 0.322 4.4495241408E8 1.0
++B beta- 0.58 0.99977
+

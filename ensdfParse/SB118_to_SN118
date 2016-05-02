@@ -1,0 +1,79 @@
+#118SN    118SB EC DECAY (3.6 M)        1982KA09,1970HA08         95NDS    199509
+#  118SB EC DECAY (3.6 M)        1982KA09,1970HA08         95NDS    199509
+#H TYP=FMT$AUT=J. Tuli$DAT=19-Apr-2005$COM=fixed fmt/typo$                
+#H TYP=FUL$AUT=K. KITAO$CIT=NDS 75,99 (1995)$CUT=1-Feb-1993$              
+#  1982Ka09: p on natural SB target (121SB(P,4N)118TE); chem, iron-free   
+#  B-spectrometer; G, GG(THETA), CE                                       
+#  1970Ha08: 118SN(P,N) E=25 MEV; mass, chem; G, GG coin, GG(THETA)       
+#  Other: 1964Ka10                                                        
+#L E         From a least-squares fit to E(G's)                           
+#L J         From adopted levels unless otherwise noted                   
+#L J(B)      From GG(THETA) (1970Ha08,1982Ka09)                           
+#G E,RI      From 1982Ka09, values are deduced from conversion electron   
+#G energies unless otherwise noted                                        
+#G E(A),RI(A)$From 1970Ha08                                               
+#G TI        From authors' drawing (1982Ka09)                             
+#G           EKC values are recalculated by assuming                      
+#G KC(1229.34G E2)=0.00072                                                
+#G M         E2 assignments from EKC and GG(THETA), E0 assignments        
+#G from nonobservation of G                                               
+#P  0.0        1+                 3.6 M    1              3656.6    30    
+SB118 SN118 beta+ 3.6566 0.0 1.0
++B beta+ 1.1885999999999999 0.732
++B beta+ 0.6276 0.0024
++G gamma 1.22933 0.025
++B beta+ 0.3935 3.7999999999999997E-4
++G gamma 0.52873 0.004775000000000001
++B beta+ 0.2695 4.7E-6
++G gamma 0.8132 1.5E-4
++B beta+ 0.26339999999999997 7.5E-5
++G gamma 0.8273400000000001 0.004
++B beta+ 0.1455 1.0E-6
++G gamma 1.0985 8.000000000000001E-4
++G gamma 2.327 1.0750000000000001E-4
++G gamma 1.1729 4.75E-4
++B beta+ 8.57E-4 0.00113
++G gamma 1.26723 0.005175
++B beta+ 8.569E-4 0.00113
++G gamma 1.4474 2.2500000000000002E-4
++G gamma 2.6775 1.25E-4
++B beta+ 8.56E-4 0.00114
++G gamma 1.6997 7.750000000000001E-4
++B beta+ 8.536E-4 0.00116
++G gamma 1.9072 4.5000000000000004E-4
+
+#118SN    118SB EC DECAY (5.00 H)       1970HA08,1974HEYW         95NDS    199509
+#  118SB EC DECAY (5.00 H)       1970HA08,1974HEYW         95NDS    199509
+#H TYP=FUL$AUT=K. KITAO$CIT=NDS 75,99 (1995)$CUT=1-Feb-1993$              
+#  1970Ha08 source mass and chem; semi, GG coin                           
+#  1974HeYW source from SB(G,XN), G                                       
+#  1968Ra14 source from SN(D,XN), SB(D,XN), SN(P,XN), SB(P,XN); G,        
+#  GG coin                                                                
+#  1974Bu25 source from 120SN(P,3N); semi, G, B, CE                       
+#  Others: 1972GeZF, 1961Bo13, 1960Je03                                   
+#  The decay scheme is that proposed by 1970Ha08 except the 3559 level    
+#G $Additional gammas: 1303 2 (IG=0.5 2), 1481 2 (IG=0.5), and 2361 5     
+#G (IG=0.01 1) seen only by 1968Ra14 and placed in level scheme proposed  
+#G by author                                                              
+#G $EKC and ELC given in 1974Bu25 are renormalized to                     
+#G KC(1229.64G E2)=0.00072 by evaluator                                   
+#L E$Energy values are from a least-squares fit to E(G's)                 
+#L J         From adopted levels, unless otherwise noted                  
+#G E,RI      From 1974HeYW unless otherwise noted                         
+#G E(A),RI(A)$Reported by 1968Ra14 only                                   
+#G E(B),RI(B)$From 1970Ha08                                               
+#L E(C)      From adopted levels                                          
+#G M         From EKC                                                     
+#P 250       6 8-                5.00 H    2              3656.6    30    
+SB118 SN118 beta+ 3.6566 18000.0 1.0
++G gamma 1.303 0.004995
++G gamma 1.481 0.004995
++G gamma 2.361 9.99E-5
++G gamma 1.2296500000000001 0.9990000000000001
++G gamma 1.0506900000000001 0.9690300000000001
++G gamma 0.040799999999999996 0.29969999999999997
++B beta+ 8.499E-4 0.0011899999999999999
++G gamma 0.253678 0.98901
++B beta+ 0.1468 0.008
++G gamma 0.984 0.014985
+

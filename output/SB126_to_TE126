@@ -1,0 +1,82 @@
+#126TE    126SB B- DECAY (12.35 D)      1975BA17,1972BU28         02NDS    200301
+#  126SB B- DECAY (12.35 D)      1975BA17,1972BU28         02NDS    200301
+#H TYP=FUL$AUT=J. KATAKURA AND K. KITAO$CIT=NDS 97, 765 (2002)$           
+#H CUT=5-Apr-2002$                                                        
+#  The decay scheme is that proposed by 1975Ba17 on the basis of          
+#  GG-coin and EG sums.                                                   
+#  1972Kr15: U(N,F) chem, oriented nuclei, G(THETA).                      
+#  1974Li14: 124SN(A,PN) chem; semi G, GG                                 
+#  1975Ba17: 128TE(D,A) chem; semi G, GG; GG(THETA).                      
+#  1975So09: 128TE(D,A) chem; semi G, GG; scin-scin BG(T), GG(T).         
+#  1975Ba46: 128TE(D,A) chem; scin-scin BG(T).                            
+#G                                                                        
+#G                               GG(THETA) DATA                           
+#G                                                                        
+#G                                 1975BA17                               
+#G   CASCADE          A2        A4         CASCADE       A2        A4     
+#G  -------------------------------------------------------------------   
+#G   224-990       0.13 5    -0.01 4       278-857    -0.10 6    0.10 5   
+#G   297-857       0.16 4     0.01 2       593-857    -0.08 3    0.03 3   
+#G   857-696      -0.04 2     0.03 2       587-667    -0.08 2   -0.01 2   
+#G  -------------------------------------------------------------------   
+#G                                                                        
+#G E         From 1975Ba17, unless otherwise noted. Others:               
+#G 1969KlZZ, 1971Ki22, 1971Or04, 1972Bu28, 1975So09.                      
+#G RI        From 1975Ba17. Others: 1969KlZZ, 1971Ki22, 1971Or04,         
+#G 1975So09.                                                              
+#G M,MR      FROM ADOPTED LEVELS, GAMMAS                                  
+#L E         E(levels) are based on a least-squares fit                   
+#L (by evaluators)                                                        
+#L J         Spin and parity values are those given under adopted         
+#L levels.                                                                
+#P 0.0         (8-)              12.35 D   6              3673      33    
+SB126 TE126 beta- 3.673 1067040.0 0.996
++G gamma 1.0613 0.004
++G gamma 0.6665 1.0
++G gamma 0.695 1.0
++G gamma 0.4147 0.836
++G gamma 0.8568 0.177
++G gamma 0.6199 0.009000000000000001
++G gamma 1.0362 0.01
++G gamma 0.2782 0.024
++G gamma 0.7207 0.54
++G gamma 0.2965 0.045
++G gamma 0.9896 0.068
++G gamma 0.29710000000000003 0.005
++G gamma 0.4153 0.01
++G gamma 0.5932000000000001 0.075
++G gamma 1.0644 0.009000000000000001
++G gamma 1.4769 0.0028000000000000004
++G gamma 0.2086 0.005
++G gamma 0.1487 0.004
++G gamma 0.22390000000000002 0.013999999999999999
++G gamma 1.2133 0.024
++G gamma 0.5562999999999999 0.017
++G gamma 0.5739 0.067
++G gamma 0.6563 0.022000000000000002
++G gamma 0.6748 0.037000000000000005
++G gamma 0.697 0.29
++G gamma 0.6387999999999999 0.009000000000000001
++G gamma 0.9537 0.012
++G gamma 0.9582999999999999 0.005
+
+#126TE C  See also 126SB IT DECAY.                                               
+#  See also 126SB IT DECAY.                                               
+#G E         From 1969KlZZ.                                               
+#G RI        From 1971Ki22.                                               
+#G M,MR      From ADOPTED LEVELS, GAMMAS                                  
+#L E         E(levels) are based on a least-squares fit                   
+#L (by evaluators) to the EG's.                                           
+#L J         Spin and parity values are those given under adopted         
+#L levels.                                                                
+#P 17.7       3(5+)              19.15 M   8              3673      32    
+SB126 TE126 IT 0.0 1149.0 0.9962
++G gamma 0.6661 1.0
++G gamma 0.6948 0.96
++G gamma 0.4145 1.0
++G gamma 0.62 0.018000000000000002
++G gamma 1.0349000000000002 0.021
++G gamma 0.9282 0.015
++G gamma 1.0615999999999999 0.006
++G gamma 1.4761 0.004
+

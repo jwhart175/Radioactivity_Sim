@@ -1,0 +1,16 @@
+#222PA    226NP A DECAY                                           11NDS    201111
+#  226NP A DECAY                                           11NDS    201111
+#H TYP=FUL$AUT=Sukhjeet Singh, A. K. Jain, Jagdish K. Tuli$               
+#H CIT=NDS 112,2851 (2011)$CUT=31-Mar-2011$                               
+#  Q(|a)({+226}Np)=8205 {I20}+E(level in {+222}Pa populated by the        
+#  8060|a). 2003Au03, 2011AuZZ give Q(|a)({+226}Np)=8200 {I50}.           
+#  T{-1/2}({+226}Np)=31 ms {I8}, measured by 1990Ni05.                    
+#A E $ Measurement by 1993AnZS. Only one |a group at 8044 {I20} was       
+#A observed by 1990Ni05.                                                  
+#A IA $ |a intensity per 100 |a decay, measured by 1993AnZS.              
+#A HF $  r{-0}({+222}Pa)=1.53 {I2} is used in calculations.               
+#P 0.0                           35 MS     10             8200      50    
+NP226 PA222 alpha 8.2 0.035 1.0
++A alpha 8.06 0.5
++A alpha 8.0 0.5
+

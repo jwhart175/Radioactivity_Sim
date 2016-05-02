@@ -1,0 +1,52 @@
+#121SN    121IN B- DECAY (23.1 S)       1976FO02                  10NDS    201006
+#  121IN B- DECAY (23.1 S)       1976FO02                  10NDS    201006
+#H TYP=FUL$AUT=S. OHYA$CIT=NDS 111, 1619 (2010)$CUT=20-Jan-2009$          
+#  The decay scheme is that proposed by 1976Fo02 based                    
+#  on energy sums and |g|g-coincidence data                               
+#L E         E(levels) are based on a least-squares fit to the            
+#L E(|g's) of 1976Fo02                                                    
+#L J         From adopted levels                                          
+#P 0.0         9/2+              23.1 S    6              3363      27    
+IN121 SN121 beta- 3.363 23.1 1.0
++G gamma 1.0928 0.0034000000000000002
++G gamma 0.65732 0.071
++G gamma 0.8087000000000001 0.0022
++G gamma 0.8693099999999999 0.011000000000000001
++B beta- 0.984 1.0
++G gamma 0.056350000000000004 0.0019
++G gamma 0.26195999999999997 0.079
++G gamma 0.91928 0.042
++G gamma 0.92557 0.87
+
+#121SN    121IN B- DECAY (3.88 M)       1973DE24,1976FO02         10NDS    201006
+#  121IN B- DECAY (3.88 M)       1973DE24,1976FO02         10NDS    201006
+#H TYP=FUL$AUT=S. OHYA$CIT=NDS 111, 1619 (2010)$CUT=20-Jan-2009$          
+#  The decay scheme of {+121}In (3.88 min) is that proposed               
+#  by 1973De24 with correction of IT and |b-branchings:                   
+#  %IT=1.2 {I2} and %I(|b to 60 level)=70 {I15} from 1976Fo02.            
+#L E         E(levels) are based on a least-squares fit to the            
+#L E(|g's) of 1973De24                                                    
+#L J         From adopted levels                                          
+#G E,RI$From 1973De24                                                     
+#P 313.6     1 1/2-              3.88 M    10             3363      27    
+IN121 SN121 beta- 3.363 232.79999999999998 0.988
++B beta- 1.563 0.26
++B beta- 1.535 0.7
++G gamma 0.0601 0.20800000000000002
++B beta- 1.137 0.0033
++G gamma 0.9088999999999999 0.0033799999999999998
++B beta- 1.047 0.02
++G gamma 1.0412000000000001 0.011439999999999999
++G gamma 1.1022 0.00936
++B beta- 1.033 0.0051
++G gamma 1.1204 0.0052
++B beta- 0.906 5.099999999999999E-4
++G gamma 1.403 5.2E-4
++B beta- 0.272 0.0021
++G gamma 2.8038000000000003 0.001144
++G gamma 2.8643 0.00104
++B beta- 0.174 9.0E-4
++G gamma 3.0597 8.839999999999999E-4
++B beta- 0.1359 1.5E-4
++G gamma 3.228 1.56E-4
+

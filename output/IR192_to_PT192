@@ -1,0 +1,52 @@
+#192PT2TG TO be A MISPRINT OF 0.043 7, CONSISTENT WITH BRANCHING IN EC DECAY.    
+#G TO be A MISPRINT OF 0.043 7, CONSISTENT WITH BRANCHING IN EC DECAY.    
+#G $e WEIGHTED AVERAGE WITH UNCERTAINTY EXPANDED TO ENCOMPASS MOST PRECISE
+#G DATUM.                                                                 
+#G                                                                        
+#G RI        Data from 1994MI22, 1992SI25, 1988LI06, 1987ME14, 1986ME07,  
+#G 1985DAZX, 1985EI01, 1984IW03, 1983SC12, 1975PR03, 1973GE05 ARE         
+#G SUMMARIZED ABOVE. THE RECOMMENDED VALUES ARE WEIGHTED AVERAGES OF THESE
+#G DATA, EXCLUDING DATA GIVEN AS A LIMIT, OR WITHOUT AN UNCERTAINTY OR    
+#G IDENTIFIED AS A STATISTICAL OUTLIER BASED ON THE Chauvenet CRITERION,  
+#G EXCEPT AS NOTED.  NOTE THAT MANY VALUES FROM 1975PR03 are              
+#G statistically inconsistent (outliers).                                 
+#G M         From EKC, except where noted. Conversion coefficients        
+#G attributed to 1966SC20 were calculated by the evaluator from IG given  
+#G here and ICE from 1966SC20; the photon and CE intensity                
+#G scales were normalized assuming KC(E2 theory)=0.0535 for               
+#G 316.5G.                                                                
+#G MR        From GG(|q) and G-ray linear polarization (oriented nuclei)  
+#G (1985RI13), except where noted.                                        
+#G E(A)      Seen in ce spectra only (1966SC20); transition could         
+#G alternatively be attributed to 192IR EC decay (73.829 D).              
+#G E(B)      From evaluation by 2000HE14, based on a revised energy scale 
+#G that uses the fundamental constants and wave lengths from an           
+#G updated value of the Si CRYSTAL lattice spacing (1987CO39).            
+#G 2000HE14 fitted the revised G-ray energies to a level scheme. Their    
+#G recommended G-ray energies are from level-energy differences corrected 
+#G for recoil.  SEE 1999HE26 FOR DISCUSSION OF IMPROVEMENT OF 192IR       
+#G CALIBRATION ENERGIES BY USE OF A SELF-CALIBRATION PROCEDURE.           
+#L E         FROM LEAST-SQUARES FIT TO EG.                                
+#L J,T       From 192PT Adopted Levels.                                   
+#P 0.0         4+                73.829 D  11             1454.5    23    
+IR192 PT192 beta+ 1.4545 6378825.599999999 0.870
++G gamma 1.08996 1.4E-5
+
+#192PT    192IR B- DECAY (1.45 M)       1959SC41,1961SC07         12NDS    201209
+#  192IR B- DECAY (1.45 M)       1959SC41,1961SC07         12NDS    201209
+#H TYP=FUL$AUT=Coral M. Baglin$CIT=NDS 113, 1871 (2012)$CUT=15-Jun-2012$  
+#G CC$ FROM BrIcc v2.2b (20-Jan-2009) 2008Ki07, "Frozen Orbitals" appr.   
+#  The decay scheme and data are from 1959SC41, 1961SC07, except          
+#  where noted. Sources from 191IR(N,G); measured EB, IB, EG              
+#  (scin), GG coin, BG coin.                                              
+#  Others: 1960HE08, 1961HE07.                                            
+#B IB        Measured values (1959SC41); uncertainty unstated by authors. 
+#B Total IB=0.0175%.                                                      
+#G E,M,MR    From Adopted Gammas.                                         
+#G TI        Arbitrary units. Deduced from measured IB and adopted        
+#G transition branchings from 316.5 and 612.5 levels.                     
+#L E         FROM LEAST-SQUARES FIT TO EG.                                
+#L J,T       Adopted values.                                              
+#P 56.720     5 1-               1.45 M    5              1454.5    23    
+IR192 PT192 beta- 1.4545 87.0 1.0
+

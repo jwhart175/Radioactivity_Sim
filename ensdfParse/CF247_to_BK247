@@ -1,0 +1,66 @@
+#247BK    247CF EC DECAY                1979AH03                  15NDS    201503
+#  247CF EC DECAY                1979AH03                  15NDS    201503
+#H TYP=FUL$AUT=C. D. NESARAJA$CIT=NDS 125, 395 (2015)$CUT=31-Mar-2014$    
+#  1979Ah03: {+247}Cf produced by irradiating {+246}Cm with 40-MeV        
+#  |a-particle at the Argonne cyclotron. Chemical separation of the       
+#  product was followed by isotope separation. |g spectra were measured   
+#  with a Ge(Li) detector. Cd, Cu and Al absorbers were used to reduce    
+#  summing-effect interference from intense Bk K x-rays.                  
+#  The electron spectra was measured with a cooled Si(Li)                 
+#  spectrometer with FWHM at 100 keV=1.0 keV                              
+#  1977Ah01: Experimental evidence for the identification of the deformed 
+#  proton orbital 1/2[521]                                                
+#E IE$Electron-capture intensity per 100 |e decay, deduced from           
+#E intensity balance at each level.                                       
+#G E$Measurements of 1979Ah03.                                            
+#G RI$Measurements of 1979Ah03.                                           
+#G M$From conversion electron data of 1979Ah03. Absolute                  
+#G conversion coefficients were determined by measuring |g and ce spectra 
+#G of a {+203}Hg source at identical geometries. Multipolarities in square
+#G brackets are from level scheme; they were not determined               
+#G experimentally.                                                        
+#G                                                                        
+#G $x-rays:                                                               
+#G $K x-ray measurements are from 1979Ah03.                               
+#G           x-ray intensities given are in same units as the photons.    
+#G                                                                        
+#G              E|g           I|g        Transitions                      
+#G            -------     --------    -------------                       
+#G            107.2 1     2130 150     K|a{-2} x-ray                      
+#G            112.1 1     3370 240     K|a{-1} x-ray                      
+#G            126.2 2     1260 90      K|b{-1}' x-ray                     
+#G            130.3 2      470 40      K|b{-2}' x-ray                     
+#G                                                                        
+#G                                                                        
+#G $The total observed K x-ray intensity is 7230 {I300}; the              
+#G calculated intensity due to internal conversions (153 {I10}) and those 
+#G due to electron captures (6250 {I996}) deduced from |e branchings and  
+#G theoretical K/|e ratios for Q+=613 {I16} keV yield 6403 {I996} for     
+#G total K x-ray intensity. Experimental K-shell fluorescence yield of    
+#G 0.971 {I4} (1979Ah01) was used in calculations. For Q+=570 keV,        
+#G the calculated total K x-ray intensity is 6682 {I1031}.                
+#L J$From Adopted Levels.                                                 
+#L BAND(A)$3/2[521] BAND                                                  
+#L BAND(B)$7/2[633] BAND                                                  
+#L BAND(D)$5/2[642] BAND                                                  
+#L BAND(E)$5/2[523] BAND                                                  
+#G CC$FROM BrIcc v2.3a (30-Jun-2013) 2008Ki07, "Frozen Orbitals" appr.    
+#P 0.0         (7/2+)            3.11 H    3              613       16    
+CF247 BK247 beta+ 0.613 11196.0 0.99965
++G gamma 0.0299 0.0024024000000000003
++G gamma 0.040799999999999996 1.8719999999999997E-5
++B beta+ 6.889999999999999E-4 0.002258
++G gamma 0.042 0.0018095999999999998
++B beta+ 6.8E-4 0.00232
++G gamma 0.30519999999999997 9.256000000000001E-5
++G gamma 0.3349 2.912E-4
++B beta+ 5.3E-4 0.00335
++G gamma 0.3373 6.24E-5
++G gamma 0.3762 7.383999999999998E-4
++G gamma 0.407 0.001976
++G gamma 0.4179 0.0035359999999999996
++G gamma 0.44780000000000003 0.005719999999999999
++B beta+ 1.6E-4 0.0058
++G gamma 0.3639 1.144E-4
++G gamma 0.4595 1.144E-4
+

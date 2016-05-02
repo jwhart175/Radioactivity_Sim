@@ -1,0 +1,153 @@
+# 84SR    84Y EC DECAY (39.5 M)         1981FRZY,1970RE03,1969ZA0609NDS    200910
+#  84Y EC DECAY (39.5 M)         1981FRZY,1970RE03,1969ZA0609NDS    200910
+#H TYP=FUL$AUT=B. Singh, A. Negret, and K. Zuber$                         
+#H CIT=NDS 110,2815 (2009)$CUT=30-Sep-2009$                               
+#  1981FrZY: source from {+70}Ge({+16}O,pn|g) reaction. Measured E|g, I|g,
+#  |g|g, E|b from |b|g coin using Ge(Li), Si(Li) and plastic              
+#  scintillators. A total of 20 |g rays reported up to 1503 keV and       
+#  confirmed another seven |g rays at higher energies from |g|g data.     
+#  The source prepared in heavy-ion studies contained many impurities.    
+#  1970Re03: measured E|g, I|g, |g|g, E|b, ce, |g|g(|q) using Ge(Li) and  
+#  NaI(Tl) detectors. A total of 60 |g rays reported. This work is        
+#  the most detailed study of {+84}Y but it is a private communication,   
+#  and the results have not appeared in open literature                   
+#  1969Za06: measured E|g, I|g. A total of 24 |g rays reported and        
+#  level scheme proposed with 11 excited states                           
+#  Other measurements:                                                    
+#  2000Do10: Decay of {+84}Y g.s. and isomer studied by using several     
+#  gamma-ray detectors. The authors stated that 50 |g rays were           
+#  observed in the decay of the high-spin isomer (assigned as g.s.        
+#  by 2000Do10) as well as in the decay of 5.6-s activity, including      
+#  population of a 7+ member of quasi-|g band from the decay of           
+#  39.5-min activity. But details of this study are not available either  
+#  in the (conference) paper or according to an e-mail                    
+#  reply from the first author of this work on May 24, 2003               
+#  1984Ak02: measured |g|g(|q) for four |g|g cascades using Ge(Li) and    
+#  NaI(Tl) detector combination                                           
+#  1981Li12: measured |b|g coin                                           
+#  1976Ia01: measured E|g for three |g rays                               
+#  1974PoZT: measured ce for about 12 transitions, but no data            
+#  are available. This work is from the same group as 1970Re03            
+#  1971Do01: measured E|g, I|g for 12 |g rays                             
+#  1962Ya02: measured E|g, I|g, ce for six |g rays, T{-1/2} of {+84}Y     
+#  The level scheme given here is mostly from 1970Re03 with some          
+#  revisions based on in-beam |g-ray studies. The level scheme given      
+#  by 1981FrZY is quite similar to the one given in 1970Re03 with some    
+#  minor differences                                                      
+#  The evaluators treat the level scheme as incomplete since many         
+#  transitions are either unplaced or questionable. In the opinion of     
+#  the evaluators there is no complete and comprehensive study of         
+#  this decay in the literature                                           
+#E $ From intensity balance following direct |b{++}+|e feedings           
+#E treated as zero are as follows: 3 4 for 793 level, -3.8 9 for          
+#E 1454 level, -1 5 for 1767 level, 0.1 8 for 2448 level, 0.8 5 for       
+#E 2886 level.                                                            
+#E $ NEED TO RESOLVE -3.8 9 FOR 1454 LEVEL ??                             
+#E $ The |b|g coin study of 1970Re03 shows that observed |b branches      
+#E are in coin with 793, 974 and 1040 |g rays implying that the           
+#E 2808 keV level is the lowest level which has appreciable direct        
+#E |b{++}+|e feeding. The |b branches reported by 1970Re03 are:           
+#E E|b=1641 {I10} (I|b=47%); E|b=2242 {I17} (I|b=25%);                    
+#E E|b=2637 {I20} (I|b=21%); E|b=3148 {I20} (I|b=7%)                      
+#E $ E(B+ ENDPOINT)=4.2 MEV 1 FROM 793G(B) COIN (1981FrZY) cannot         
+#E be accounted, it implies a direct feeding of 1454 level,               
+#E which is inconsistent with |g intensity balance. This |b branch may    
+#E be associated either with an impurity or with the decay of 4.6-s       
+#E activity of 84Y                                                        
+#E TI,LOGFT$ The decay scheme seems to be incomplete, thus all weak       
+#E feedings and associated LOGFT values should be regarded as tentative.  
+#E TI(M)$ Feeding is too large for the high degree of forbiddenness       
+#E probably due to incompleteness of the decay scheme.                    
+#G $ 1970RE03 GIVE A2 AND A4 COEFFICIENTS FROM GG(THETA) DATA FOR 17      
+#G CASCADES BUT THE AUTHORS STATE THAT POOR STATISTICS MAKE MOST OF THESE 
+#G OF DUBIOUS NATURE. THESE ARE LISTED IN THIS DATASET UNDER DOCUMENT     
+#G RECORDS                                                                
+#G $ GG COIN INFORMATION IS FROM 1970RE03                                 
+#G E$From weighted averages of values from 1970Re03, 1971Do01 and         
+#G 1981FrZY when possible. Values from 1969Za06 are not used due to       
+#G less precision in this work                                            
+#G RI$From weighted averages of values from 1970Re03, 1969Za06 and        
+#G 1981FrZY when possible. Values from 1971Do01 are not used since        
+#G these values are systematically lower by about 25-50%                  
+#G M,MR$From GG(THETA) (1984Ak02). Pure quadrupole transitions and        
+#G transitions with significant quadrupole admixture are assigned E2 and  
+#G M1+E2, respectively, based on RUL.                                     
+#G E(A)$ From 1981FrZY.                                                   
+#G E(B)$ From 1970Re03 only                                               
+#G E(D)$ From 1969Za06 only                                               
+#L $ Following levels proposed in different studies have been omitted:    
+#L 2367 and 4290 levels in 1962Ya02; 2558, 3086, 3202 and 4177 levels     
+#L in 1969Za06; 1833 level in 1971Do01; 3385, 3449 and 4539 levels        
+#L in 1981FrZY. The |g rays associated with these levels have either      
+#L been placed differently or not seen consistently in all studies.       
+#L E$From least-squares fit to EG's; normalized |h{+2}=3.0 whereas        
+#L critical |h{+2}=1.7. Two |g rays show poor fits.                       
+#L J$ From adopted levels.                                                
+#L E(A)$ Level proposed by the evaluators based on high-spin studies      
+#P 0           (6+)              39.5 M     8             6757      5     
+Y84 SR84 beta+ 6.757 2370.0 0.983
++G gamma 0.7931 1.0
++G gamma 0.6606000000000001 0.115
++G gamma 1.4534 0.016
++G gamma 0.9742999999999999 0.79
++G gamma 0.2883 0.008
++G gamma 0.6022000000000001 0.09699999999999999
++G gamma 1.2626 0.027000000000000003
++G gamma 0.9947999999999999 0.040999999999999995
++G gamma 1.6545999999999998 0.026000000000000002
++G gamma 1.1442 0.032
++G gamma 0.6806 0.048
++G gamma 1.0397 0.57
++G gamma 0.4628 0.10300000000000001
++G gamma 1.5028 0.064
++G gamma 0.2412 0.003
++G gamma 0.7036 0.059000000000000004
++G gamma 1.0635 0.0077
++G gamma 0.0 0.011399999999999999
++G gamma 1.3708 0.004
++G gamma 1.7635999999999998 0.019
++G gamma 2.0529 0.005
++G gamma 1.1103 0.031
++G gamma 1.4699 0.009000000000000001
++G gamma 2.1509 0.0052
++G gamma 1.255 0.067
++G gamma 1.4633 0.004
++G gamma 1.6145 0.018000000000000002
++G gamma 2.0067 0.003
++G gamma 2.2953 0.022000000000000002
++G gamma 1.4792 0.009000000000000001
++G gamma 1.5575999999999999 0.006
++G gamma 1.918 0.023
++G gamma 2.3095 0.012
++G gamma 1.2329 0.011000000000000001
++G gamma 1.3307 0.028999999999999998
++G gamma 1.6385999999999998 0.0034999999999999996
+
+# 84SR    84Y EC DECAY (4.6 S)          1976IA01,1981DEZD,2000DO1009NDS    200910
+#  84Y EC DECAY (4.6 S)          1976IA01,1981DEZD,2000DO1009NDS    200910
+#H TYP=FUL$AUT=B. Singh, A. Negret, and K. Zuber$                         
+#H CIT=NDS 110,2815 (2009)$CUT=30-Sep-2009$                               
+#  1976IA01: 84Y produced by 84SR(P,N) reaction. Measured EG, IG, T.      
+#  1981Li12: measured |b|g coin, deduced Q value                          
+#  1981DEZD: 84Y produced by decay chain 84MO->84NB->84ZR->84Y produced   
+#  in reaction 54FE(32S,2N). Measured G and B+ spectra in coincidence     
+#  with mass. Deduced Q values and relative B feedings.                   
+#  1982De36 (same group as 1981DeZD): {+84}Y isotope obtained from the    
+#  decay of {+84}Zr produced in a {+54}Fe+{+32}S reaction. Measured       
+#  |b|g coin, deduced Q value                                             
+#  2000Do10: 84Y produced by decay of 84ZR produced in 58NI(32S,4P2N)     
+#  reaction. Measured EG, IG, GG using 5 ^HPGe detectors and a low        
+#  energy photon spectrometer. The authors claim to have observed 50 |g   
+#  rays from decay of 39.5-min and 4.6-s activities of 84Y, but           
+#  details of this study are not available either in the                  
+#  (conference) paper or according to an e-mail reply from the first      
+#  author on May 24, 2003                                                 
+#  The decay scheme is considered by the evaluators as incomplete.        
+#E TI$From 1981DEZD.                                                      
+#G E$From 2000DO10 unless otherwise mentioned.                            
+#L E$From 2000DO10 above the first 2+ level.                              
+#L J$ FROM ADOPTED LEVELS                                                 
+#P 67.0      2 1+                4.6 S     2              6757      5     
+Y84 SR84 beta+ 6.757 4.6 0.30
++G gamma 0.793 1.0
+

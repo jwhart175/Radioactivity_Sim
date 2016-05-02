@@ -1,0 +1,30 @@
+# 87BR    87SE B- DECAY                 1980ZE04                  15NDS    201510
+#  87SE B- DECAY                 1980ZE04                  15NDS    201510
+#H TYP=FUL$AUT=T.D. Johnson and W.D. Kulp(a)$CIT=NDS 129, 1 (2015)$       
+#H CUT=27-Jul-2015$                                                       
+#  1980Ze04:  {+87}Se produced by thermal neutron fission of {+235}U,     
+#      chemical separation of fission products, measured |g spectra with  
+#      GeLi detectors and measured coincidences                           
+#  1975Hu02:   {+87}Se [from {+235}U(n,F) E=thermal] chemically separated 
+#      from fission products; measured |g, |g(t), assigned gamma rays at  
+#      468.0 and 1497.9 keV based on decay curve T{-1/2} of 6 seconds     
+#            See 2014Al15 for TAGs data and implication for decay heat.   
+#L E         From least-squares fit to |g energies.                       
+#L J         From logft values and |g's to daughter levels.  However      
+#L     as the level scheme is very incomplete, assignments are done       
+#L     with some risk.                                                    
+#P 0.0         (3/2+)            5.50 S    14             7466       4    
+SE87 BR87 beta- 7.466 5.5 1.0
++G gamma 0.2425 1.0
++G gamma 0.334 0.9359999999999999
++G gamma 0.5732 0.518
++G gamma 0.468 0.48200000000000004
++G gamma 0.7105 0.19699999999999998
++G gamma 0.7015 0.11
++G gamma 1.1676 0.184
++G gamma 1.305 0.17800000000000002
++G gamma 1.8780999999999999 0.23600000000000002
++G gamma 3.6838 0.044000000000000004
++G gamma 3.9263000000000003 0.077
++G gamma 3.7445 0.061
+

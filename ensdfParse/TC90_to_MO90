@@ -1,0 +1,102 @@
+# 90MO    90TC EC DECAY (49.2 S)        1981OX01                  97NDS    199801
+#  90TC EC DECAY (49.2 S)        1981OX01                  97NDS    199801
+#H TYP=FUL$AUT=E. BROWNE$CIT=NDS 82, 379 (1997)$CUT=1-May-1997$           
+#  Production: 92MO(97%)(P,3N) EP=43 MeV. Measured: G(t) with GELI and    
+#  Ge. GG coin and BG coin with GELI and magnetic spectrometer. The       
+#  decay scheme is established from GG-coin data (1981Ox01).              
+#  Other: 1974Ia01                                                        
+#G M         See adopted levels.                                          
+#E           EC branches are obtained from I(G+CE) imbalance at each      
+#E level.                                                                 
+#E LOGFT     Using Q(EC)=8960 KEV 240.                                    
+#N 1.0                   1.0       1.0                                    
+TC90 MO90 beta+ 8.96 8.7 1.0
+#N                                                                     3  
+#N NR        From the assumption of no EC feeding to the GS (EC           
+#N feeding to the 2549, 5- level indicates J(parent) GE 4,                
+#N and thus no feeding to 0+ is expected). With this normalization the    
+#N total average g-ray energy (SUMOF ^E|g|*I|g) is 9240 230, which        
+#N compares with Q(EC)|*branching ratio=9700 300.                         
+#N This small disagreement is probably due unplaced transitions.          
+#P 50E+1     43 4,5,6            49.2 S    4              8.96E3    24    
++G gamma 0.2312 0.0268
++G gamma 0.5434 0.042
++G gamma 0.9835 0.054000000000000006
++G gamma 0.9481 1.0
++G gamma 1.0543 1.0
++B beta+ 2.74 0.053
++G gamma 0.5468 0.09300000000000001
++B beta+ 2.61 0.13
++G gamma 0.2625 0.013000000000000001
++G gamma 0.8098 0.34299999999999997
++B beta+ 2.59 0.026000000000000002
++G gamma 0.3103 0.026000000000000002
++B beta+ 2.55 0.39899999999999997
++G gamma 0.1346 0.052000000000000005
++G gamma 0.9447000000000001 0.366
++B beta+ 2.51 0.011000000000000001
++B beta+ 2.45 0.017
++G gamma 1.1479000000000001 0.017
++B beta+ 2.38 0.177
++G gamma 0.48169999999999996 0.136
++G gamma 1.2914 0.073
++B beta+ 2.26 0.012
++G gamma 0.5929 0.012
++B beta+ 2.0 0.045
++G gamma 0.8012 0.027999999999999997
++G gamma 2.0917 0.019
++B beta+ 1.96 0.035
++G gamma 1.3637000000000001 0.036000000000000004
++B beta+ 1.87 0.006999999999999999
+
+# 90MO    90TC EC DECAY (49.2 S)        1981OX01                  97NDS    199801
+#  90TC EC DECAY (49.2 S)        1981OX01                  97NDS    199801
+#H TYP=FUL$AUT=E. BROWNE$CIT=NDS 82, 379 (1997)$CUT=1-May-1997$           
+#  Production: 92MO(97%)(P,3N) EP=43 MeV. Measured: G(t) with GELI and    
+#  Ge. GG coin and BG coin with GELI and magnetic spectrometer. The       
+#  decay scheme is established from GG-coin data (1981Ox01).              
+#  Other: 1974Ia01                                                        
+#G M         See adopted levels.                                          
+#E           EC branches are obtained from I(G+CE) imbalance at each      
+#E level.                                                                 
+#E LOGFT     Using Q(EC)=8960 KEV 240.                                    
+#N 1.0                   1.0       1.0                                    
+TC90 MO90 beta+ 8.96 8.7 1.0
+#N                                                                     3  
+#N NR        From the assumption of no EC feeding to the GS (EC           
+#N feeding to the 2549, 5- level indicates J(parent) GE 4,                
+#N and thus no feeding to 0+ is expected). With this normalization the    
+#N total average g-ray energy (SUMOF ^E|g|*I|g) is 9240 230, which        
+#N compares with Q(EC)|*branching ratio=9700 300.                         
+#N This small disagreement is probably due unplaced transitions.          
+#P 50E+1     43 4,5,6            49.2 S    4              8.96E3    24    
++G gamma 0.2312 0.0268
++G gamma 0.5434 0.042
++G gamma 0.9835 0.054000000000000006
++G gamma 0.9481 1.0
++G gamma 1.0543 1.0
++B beta+ 2.74 0.053
++G gamma 0.5468 0.09300000000000001
++B beta+ 2.61 0.13
++G gamma 0.2625 0.013000000000000001
++G gamma 0.8098 0.34299999999999997
++B beta+ 2.59 0.026000000000000002
++G gamma 0.3103 0.026000000000000002
++B beta+ 2.55 0.39899999999999997
++G gamma 0.1346 0.052000000000000005
++G gamma 0.9447000000000001 0.366
++B beta+ 2.51 0.011000000000000001
++B beta+ 2.45 0.017
++G gamma 1.1479000000000001 0.017
++B beta+ 2.38 0.177
++G gamma 0.48169999999999996 0.136
++G gamma 1.2914 0.073
++B beta+ 2.26 0.012
++G gamma 0.5929 0.012
++B beta+ 2.0 0.045
++G gamma 0.8012 0.027999999999999997
++G gamma 2.0917 0.019
++B beta+ 1.96 0.035
++G gamma 1.3637000000000001 0.036000000000000004
++B beta+ 1.87 0.006999999999999999
+

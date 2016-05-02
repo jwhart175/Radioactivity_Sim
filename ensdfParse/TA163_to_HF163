@@ -1,0 +1,20 @@
+#163HF    163TA EC DECAY (10.6 S)       1985LI14                  ENSDF    201501
+#  163TA EC DECAY (10.6 S)       1985LI14                  ENSDF    201501
+#H TYP=FUL$AUT=BALRAJ SINGH$CIT=ENSDF$CUT=31-DEC-2014$                    
+#H TYP=FUL$AUT=C. W. REICH, BALRAJ SINGH$CIT=NDS 111, 1211 (2010)$        
+#H CUT=12-Apr-2010$                                                       
+#  1985Li14: {+163}Ta produced by {+175}Lu({+3}He,15n),E=280 MeV. On-line 
+#  separation of fluoride compounds. Measured x rays, E|g, |g(t), K| x    
+#  ray(t), |b{++}, T{-1/2}                                                
+#  Measured T{-1/2}: 1986Ru05, 1989Br19, 1983Sc18                         
+#  See {+163}Ta |a decay to {+159}Lu for additional details               
+#P 0.0                           10.6 S    18             6730      50    
+TA163 HF163 beta+ 6.73 10.6 0.998
++G gamma 0.21 0.5
++G gamma 0.3757 0.4
++G gamma 0.396 1.0
++G gamma 0.4487 0.6
++G gamma 0.4511 0.7
++G gamma 0.6277 0.25
++G gamma 0.7126 0.45
+

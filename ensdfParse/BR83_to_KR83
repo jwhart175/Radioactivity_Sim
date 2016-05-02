@@ -1,0 +1,33 @@
+# 83KR    83BR B- DECAY                 2015Kr02,1976VA03         15NDS    201503
+#  83BR B- DECAY                 2015Kr02,1976VA03         15NDS    201503
+#H TYP=FUL$AUT=E.A. MCCUTCHAN$CIT=NDS 125, 201 (2015)$CUT=31-Dec-2014$    
+#  2015Kr02: {+83}Br activity from the decay of {+83}Se produced via      
+#  {+82}Se(n,|g), E=thermal. Measured E|g, I|g, and |g(t) using two HPGe  
+#  detectors; deduced T{-1/2}.                                            
+#  1976Va03: {+83}Br activity from neutron irradiation of natural Se      
+#  target followed by chemical separation. Measured E|g, I|g, |g|g, Ece,  
+#  Ice using a Ge(Li) detector, a low-energy Ge(Li) detector and a        
+#  Si(Li) detector for |g rays, a surface-barrier Si detector for         
+#  conversion electrons and a Ge(Li)-NaI(Tl) detector system for |g|g     
+#  coincidences.                                                          
+#  x-rays measured by 1969Ph03 with Si(Li), resolution 260 eV at 6.406    
+#  keV. K|a{-1}| x ray=12.71 keV {I8}, K|b{-1} x ray=14.13 keV {I8}.      
+#  I{-Kx}/I{-9|g}=3.14 {I4} (from IT decay).                              
+#  A total energy release of 935 keV {I6} is calculated for this decay    
+#  scheme using the RADLST code, compared with the Q value of 977 keV     
+#  {I4}.                                                                  
+#G E,RI$From 2015Kr02, except where noted.  Values from 1976Va03 are      
+#G included in the comments.                                              
+#G E(A),M,MR$From the Adopted Gammas                                      
+#G E(v),RI(w)$From 1976Va03.                                              
+#L E$From a least-squares fit to E|g, by evaluator.                       
+#L J,T$From the Adopted Levels.                                           
+#  CC$FROM BrIcc v2.3 (29-Mar-2013) 2008Ki07, "Frozen Orbitals" appr.     
+#P 0.0          3/2-              2.374 H   4              977      4     
++B beta- 0.36510000000000004 0.0013
++B beta- 0.3301 0.986
++B beta- 0.1273 8.4E-4
++B beta- 0.12409999999999999 0.013000000000000001
++B beta- 0.0835 2.1E-4
++B beta- 0.049 1.2000000000000002E-7
+

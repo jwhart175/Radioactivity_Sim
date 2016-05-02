@@ -1,0 +1,18 @@
+#220RN    220AT B- DECAY                1989LI04,1989BU09         11NDS    201104
+#  220AT B- DECAY                1989LI04,1989BU09         11NDS    201104
+#H TYP=FUL$AUT=E. BROWNE, J. K. TULI$CIT=NDS 112, 1115 (2011)$            
+#H CUT=31-Oct-2010$                                                       
+#  Modified by E. Browne (11/22/2010). BRICC, GTOL, GABS, LOGFT, RADLST.  
+#B           Q(|b{+-})=3739 keV 51 (2009AuZZ).                            
+#B IB$Deduced by evaluators from G-ray transition intensity balances.     
+#G CC$ FROM BrIcc v2.2 (31-Mar-2008) 2008KiAA, "Frozen Orbitals" appr.    
+#G E,RI      From 1989Li04. Other: 1989Bu09.                              
+#G M         From Adopted Gammas                                          
+#G           I(K|a| x ray)/I(241.0|g)=0.083 {I8} (1989Bu09); 0.11 {I1}    
+#G calculated by evaluators from |g-ray intensities and K-shell           
+#G conversion coefficients (Program RADLST).                              
+#L E$Deduced by evaluators from least-squares fit to G-ray energies.      
+#L J         From adopted levels                                          
+#P    0.0        3                3.71 M   4              3739      51    
+AT220 RN220 beta- 3.739 0.0 1.0
+

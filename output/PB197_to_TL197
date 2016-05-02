@@ -1,0 +1,54 @@
+#197TL    197PB EC DECAY (8 M)          1979COZI                  05NDS    200503
+#  197PB EC DECAY (8 M)          1979COZI                  05NDS    200503
+#H TYP=FUL$AUT=HUANG XIAOLONG, ZHOU CHUNMEI$CIT=NDS 104, 283 (2005)$      
+#H CUT=1-Jan-2002$                                                        
+#  Others: 1972Ho09, 1974Ne16, 1979Ra04, 1980Hi04.                        
+#  Sources produced by Re({+16}O,X) (1979CoZI,1989MeZZ),                  
+#  {+197}Au({+6}Li,xn)                                                    
+#  Measured E|g, I|g, |g|g-coin. and |a(K)exp with Ge(Li) and Si(Li),     
+#  respectively. Shell model analysis.                                    
+#  Source: E({+16}O)|?120 MeV on natural rhenium target for |?50 min;     
+#  on-line ms; mixed 8 min + 44 min activity                              
+#  close to equilibrium (1979CoZI)                                        
+#  Approximate level intensity balance obtained for partial               
+#  decay scheme; see drawings                                             
+#E IB,IE     From |b{++}/|e theoretical calculation and |g-ray            
+#E intensity imbalance, except I|e+I|b{++}(to g.s.)|?10 from systematics. 
+#E IE,IB     For absolute intensity per 100 decays, multiply by           
+#E 1.0                                                                    
+#G M         Deduced from |a(K)exp measurements                           
+#G MR        From |a(K)exp, except as noted.                              
+#G           |a(K)exp=ce(K)/I|g normalized to |a(K)(695.6|g)=0.0103 (E2   
+#G theory)                                                                
+#L E         Five tentative states in                                     
+#L 2-MeV region suggested by 1979CoZI                                     
+#L E         From decay scheme and                                        
+#L |g's by using least-squares fit to data                                
+#L J         From adopted levels                                          
+#P 0.0         3/2-              8 M       2              3592      17    
+PB197 TL197 beta+ 3.592 480.0 0.9
+
+#197TL    197PB EC DECAY (43 M)         1979COZI                  05NDS    200503
+#  197PB EC DECAY (43 M)         1979COZI                  05NDS    200503
+#H TYP=FUL$AUT=HUANG XIAOLONG, ZHOU CHUNMEI$CIT=NDS 104, 283 (2005)$      
+#H CUT=1-Jan-2002$                                                        
+#  Others: 1957An53, 1957An54, 1972Ho09, 1974Ne16, 1978Li10, 1980Hi04     
+#  Source: E({+16}O)|?120 MeV on natural rhenium target for |?50 min;     
+#  on-line ms; mixed 10-min + 44-min                                      
+#  activity close to equilibrium (1979CoZI)                               
+#  Approximate level I(|g+ce) balance obtained; see drawings              
+#E           I|b,I|e: from |b{++}/|e theoretical calculations and |g-ray  
+#E intensity imbalance.                                                   
+#G           E|g, I|g, |g|g-coin, I(ce) measured (1979CoZI) semi          
+#G RI        Relative intensity normalized to I|g(387.72|g)=100 {I9}      
+#G M         |a(K)exp=ce(K)/I|g normalized to |a(K)(695.6|g)=0.0103 (E2   
+#G theory)                                                                
+#G M         Deduced from |a(K)exp, except as noted                       
+#G MR        From |a(K)exp (1979CoZI), except as noted                    
+#L E         From decay scheme                                            
+#L and |g's by using least-squares fit to data                            
+#L           J|p,T{-1/2}: from adopted levels                             
+#L BAND(A)   REGULAR DIPOLE BAND 1. DJ=1 SEQUENCE POPULATED UP TO 17/2-   
+#P 319.31      13/2+             43 M      1              3592      17    
+PB197 TL197 beta+ 3.592 2580.0 0.31
+

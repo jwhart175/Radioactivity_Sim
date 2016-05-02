@@ -1,0 +1,87 @@
+#149DY    149HO EC DECAY (21.1 S)       1994ME13                  04NDS    200406
+#  149HO EC DECAY (21.1 S)       1994ME13                  04NDS    200406
+#H TYP=FUL$AUT=BALRAJ SINGH$CIT=NDS 102, 1 (2004)$CUT=20-Apr-2004$        
+#  1994Me13 (also 1989Me13): measured G, GG, CE, T1/2(149HO).             
+#  Configurations suggested for many levels reported in this decay.       
+#  SEE ADOPTED LEVELS FOR A SUMMARY OF THESE ASSIGNMENTS                  
+#  1994Me13=Z. FUR PHYSIK A349, 13-24 (1994)                              
+#  Others:                                                                
+#  G, GG: 1979To01 (three GAMMA rays reported), 1982Ba75 (two GAMMA rays  
+#  reported), 1987ElZZ                                                    
+#  T1/2 (149HO): 1979To01, 1982Ba75, 1993Al03                             
+#  Q(EC): 1993Al03 (total GAMMA absorption), 1991Ke11 (B+G),              
+#  1984HaZD (EC/B+), 1983Al06 (B+,G)                                      
+#E TI,LOGFT$ ^I(ce+|b{++}) are FROM GAMMA INTENSITY BALANCE AT EACH       
+#E LEVEL. Since a significant |b strength may have missed                 
+#E detection, all values should be treated as approximate                 
+#E or as upper limits for |b feedings and lower limits for LOGFT values.  
+#E LOGFT(A)$Too low for suggested DJ=2 transition                         
+#G RI(D)$Estimated from GG spectra (1994Me13)                             
+#G E(A)$Poor fit in level scheme, deviation is AP 0.8 KEV                 
+#L E$From least-squares fit to EG's                                       
+#L J$From adopted levels. JPI=(9/2-,11/2-,13/2-) for levels               
+#L above 2200, from LOGFT values (from (11/2-))                           
+#P 0.0         (11/2-)           21.1 S    2              6027      16    
++B beta+ 1.2463 0.02
++B beta+ 1.7892000000000001 0.05
++B beta+ 1.781 0.05
++B beta+ 1.5522 0.04
++B beta+ 1.5152999999999999 0.04
++B beta+ 1.4967000000000001 0.04
++B beta+ 1.4925 0.04
++B beta+ 1.4605 0.04
++B beta+ 1.2842 0.04
++B beta+ 1.2266 0.04
++B beta+ 1.2173 0.03
++B beta+ 1.2132 0.03
++B beta+ 1.1964000000000001 0.03
++B beta+ 1.1761 0.03
++B beta+ 1.173 0.03
++B beta+ 1.147 0.03
++B beta+ 1.1375 0.03
++B beta+ 1.083 0.03
++B beta+ 1.0325 0.03
++B beta+ 1.0279 0.03
++B beta+ 1.0005 0.03
++B beta+ 0.9833 0.0058
++B beta+ 0.9582999999999999 0.006
++B beta+ 0.9143 0.0062
++B beta+ 0.8991 0.0063
++B beta+ 0.8832000000000001 0.0064
++B beta+ 0.8699 0.006500000000000001
++B beta+ 0.8472999999999999 0.0066
++B beta+ 0.8247000000000001 0.0067
++B beta+ 0.8146 0.0067
++B beta+ 0.7655 0.006999999999999999
++B beta+ 0.7493 0.0070999999999999995
++B beta+ 0.743 0.0070999999999999995
+
+#149DY    149HO EC DECAY (56 S)         1994ME13                  04NDS    200406
+#  149HO EC DECAY (56 S)         1994ME13                  04NDS    200406
+#H TYP=FUL$AUT=BALRAJ SINGH$CIT=NDS 102, 1 (2004)$CUT=20-Apr-2004$        
+#  1994Me13 (also 1989Me13): measured G, GG and GX, T1/2. Configurations  
+#  are suggested for all levels reported in this decay.                   
+#  SEE ADOPTED LEVELS FOR A SUMMARY OF THESE ASSIGNMENTS                  
+#  Other:                                                                 
+#  T1/2(149HO): 1988ToZW                                                  
+#E TI,LOGFT$ ^I(ce+|b{++}) are FROM GAMMA INTENSITY BALANCE AT EACH       
+#E LEVEL. Since a significant |b strength may have missed                 
+#E detection, all values should be treated as approximate                 
+#E or as upper limits for |b feedings and lower limits for LOGFT values.  
+#E LOGFT(A)$Too low for suggested DJ=2, DPI=no transition                 
+#G M$From CE data (1994Me13)                                              
+#G RI(D)$Estimated from GG spectra (1994Me13)                             
+#L E$From least-squares fit to EG's                                       
+#L J$From adopted levels                                                  
+#P 48.8      2 (1/2+)              56 S    3              6027      16    
++B beta+ 0.6862 0.0073
++B beta+ 1.8299 0.05
++B beta+ 1.6568 0.05
++B beta+ 1.613 0.05
++B beta+ 1.5797999999999999 0.05
++B beta+ 1.555 0.04
++B beta+ 1.5082 0.04
++B beta+ 1.486 0.04
++B beta+ 1.0308 0.03
++B beta+ 1.0229 0.03
+

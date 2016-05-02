@@ -1,0 +1,17 @@
+# 93RU    93RU IT DECAY                 1976DE37                  11NDS    201105
+#  93RU IT DECAY                 1976DE37                  11NDS    201105
+#H TYP=FUL$AUT=CORAL M. BAGLIN$CIT=NDS 112, 1163 (2011)$CUT=15-Dec-2010$  
+#  Others: 1976DiZP, 1972Do04.                                            
+#  Assignment: from presence of known 93TC G rays among decay G rays;     
+#  10.8 S component also detected in G+- radiation;                       
+#  absence of G or G+- in coincidence with 734G (1976De37).               
+#  1976De37: GE(LI) detectors, coincidence timing FWHM=50 NS; measured EG,
+#  IG, I(G+-), GG coin, G(T).                                             
+#L J         FROM Adopted Levels.                                         
+#L T         From decay of four strongest G rays following                
+#L EC decay (1976De37). Other: 45 S +30-20 (1972Do04);                    
+#L probably does not belong to this level (1976De37).                     
+#P   734.4   1 (1/2)-            10.8 S    3                              
+RU93 RU93 IT 0.0 10.8 1.748
++G gamma 0.7343999999999999 0.556
+

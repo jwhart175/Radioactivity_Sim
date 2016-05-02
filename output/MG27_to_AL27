@@ -1,0 +1,25 @@
+# 27AL    27MG B- DECAY                 1999HA16,1969BI06         11NDS    201108
+#  27MG B- DECAY                 1999HA16,1969BI06         11NDS    201108
+#H TYP=FUL$AUT=M. Shamsuzzoha Basunia$CIT=NDS 112, 1875 (2011)$           
+#H CUT=30-Nov-2010$                                                       
+#  Others: 1998Sh13, 1970Sk06, 1968Be38                                   
+#  1999Ha16: {+26}Mg0 target irradiated with thermal neutrons, 27MG       
+#  chemically separated; 4PIB-G coincidence apparatus consists of 4PIB    
+#  proportional counter and HPGe detector; Measured: EG, absolute IG      
+#  and B- feeding to levels.                                              
+#  1969BI06: 27MG produced from 26MG(D,P) reaction; Ge(Li), NAI(Tl)       
+#  detectors; Measured: EG, absolute RI, G-B coincidence, deduced B-      
+#  feeding to 27AL levels.                                                
+#  1968BE38: 27MG produced from 27AL(N,P) reaction; Ge(Li) detector;      
+#  Measured: EG, RI.                                                      
+#G E$From 1969Bi06.                                                       
+#G RI$From 1999Ha16. Uncertainties for 834G and 1014G intensities have    
+#G been deduced by the evaluator based on IG(844G)/IG(1014G)=0.39276(43)  
+#G (1999Ha16). Uncertainties of 0.08 is reported in 1999Ha16 for these    
+#G G-ray intensities.                                                     
+#B IB$From G-ray transition intensity balance                             
+#L E$From a least-squares fit to G-ray energies.                          
+#L J$From Adopted Levels                                                  
+#P 0.0         1/2+              9.458 M   12             2610.6    6     
+MG27 AL27 beta- 2.6106 567.48 1.00
+

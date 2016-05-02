@@ -1,0 +1,15 @@
+#135CS    135CS IT DECAY (53 M)         1962WA22,1964HA18,1982BU0708NDS    200803
+#  135CS IT DECAY (53 M)         1962WA22,1964HA18,1982BU0708NDS    200803
+#H TYP=FUL$AUT=BALRAJ SINGH, ALEXANDER A. RODIONOV and YURI L. KHAZOV$    
+#H CIT=NDS 109, 517 (2008)$CUT=22-Jan-2008$                               
+#  Total decay energy calculated (by ^RADLIST code)                       
+#  from level scheme agrees with the expected value of 1633.3 KEV         
+#G E$From 1982BU07                                                        
+#G RI$From intensity balance                                              
+#G M$From EKC and K/L                                                     
+#L J$From 'adopted levels'                                                
+#P 1633.3      19/2-             53 M      2                              
+CS135 CS135 IT 0.0 3180.0 1.0
++G gamma 0.7872 0.997
++G gamma 0.8461000000000001 0.96
+

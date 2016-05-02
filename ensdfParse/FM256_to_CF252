@@ -1,0 +1,29 @@
+#252CF    256FM A DECAY                 1968Ho13                  05NDS    200601
+#  256FM A DECAY                 1968Ho13                  05NDS    200601
+#H TYP=FUL$AUT=N. NICA$CIT=NDS 106, 813 (2005)$CUT=21-Mar-2005$           
+#  T{-1/2}({+256}Fm)=157.6 min {I13} was measured by 1972Fl04. Other      
+#  measured half-lives: 160 min {I10} (1958Ph40), 162 min {I6}            
+#  (1965Si14), 157 min {I2} (1968Ho13), 150 min {I4} (1981Lo15).          
+#                                                                         
+#  %|a({+256}Fm)=8.1 {I3} and %SF=91.9 were determined by 1968Ho13.       
+#  {+256}Fm is |b stable.                                                 
+#                                                                         
+#  Q(|a)({+256}Fm)=7027 {I5} is recommended by 2003Au03, obtained from    
+#  E|a=6917 {I5}.                                                         
+#A IA        Ratio of relative |a intensities,                            
+#A I|a(6917|a)/I|a(6872|a)=85 {I3}/15 {I3}, is calculated from            
+#A HF(6872|a)/HF(6917|a)=3.5 {I5}. Uncertainties for I|a's are            
+#A increased so that I|a's of other unobserved but expected |a            
+#A transitions to higher-energy levels would be within these              
+#A uncertainties: I|a(6917|a)+I|a(6872|a)+|SI|a(other |a's)=100. If sum   
+#A of all other I|a's can be neglected, then the relative intensities     
+#A given here represent intensities per 100 |a decays.                    
+#A HF        r{-0}({+252}Cf)=1.500 {I4} is calculated from                
+#A HF(6917|a)=1.0. The intensity of I|a(6917|a)=85 {I5} per 100 |a decays 
+#A is used in the calculations.                                           
+#L BAND(A)   KPI=0+ GS BAND.                                              
+#P 0.0         0+                157.6 M   13             7027      5     
+FM256 CF252 alpha 7.027 9456.0 0.081
++A alpha 6.917 0.85
++A alpha 6.872 0.15
+

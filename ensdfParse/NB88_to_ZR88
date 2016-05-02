@@ -1,0 +1,91 @@
+# 88ZR    88NB EC DECAY (14.55 M)       1984OX01                  14NDS    201401
+#  88NB EC DECAY (14.55 M)       1984OX01                  14NDS    201401
+#H TYP=FUL$AUT=E.A. McCutchan and A.A. Sonzogni$CIT=NDS 115, 135 (2014)$  
+#H CUT=1-Nov-2013$                                                        
+#  1984Ox01: {+88}Nb activity produced in the Zr(p,3n) and Zr(d,4n)       
+#  reactions with E(p)=38 MeV and E(d)=47 MeV. Measured E|g, I|g, |g|g    
+#  using two n-type HPGe detectors (FWHM=2.0 and 2.1 keV at 1.3 MeV) and  
+#  |b|g coincidences using a E-|DE telescope consisting of a Ge detector  
+#  and a Si detector.                                                     
+#  A total energy release of 7380 keV {I210} is calculated for this       
+#  decay using the code RADLST, in agreement with the Q value of 7450     
+#  keV {I60}                                                              
+#  Others: 1974Ba55, 1972Ia01, 1971Do01, 1966Fl03, 1966Hy03.              
+#G M$From the Adopted Gammas, except where noted.                         
+#G TI$Intensity deduced from |g-ray feeding (1984Ox01).                   
+#G RI(A)$Weak.                                                            
+#G RI(B)$Contamination intensity subtracted.                              
+#G E(D)$From level energy difference.                                     
+#G RI(C)$From coincidence spectra.                                        
+#L E$From a least-squares fit to E|g by evaluators.                       
+#L J$From the Adopted Levels.                                             
+#E TI$From an intensity balance at each level.                            
+#  CC$FROM BrIcc v2.3a (30-Jun-2013) 2008Ki07, "Frozen Orbitals" appr.    
+#P 0.0          (8+)              14.55 M   11             7450     60    
++B beta+ 8.621E-4 0.0011200000000000001
++B beta+ 1.649 3.9E-4
++B beta+ 1.612 4.1E-4
++B beta+ 1.457 5.5E-4
++B beta+ 1.374 6.4E-4
++B beta+ 1.33 7.000000000000001E-4
++B beta+ 1.267 8.0E-4
++B beta+ 0.978 0.00154
++B beta+ 0.927 0.0017499999999999998
++B beta+ 0.908 0.00184
++B beta+ 0.875 0.00201
++B beta+ 0.805 0.00242
++B beta+ 0.659 0.0036
++B beta+ 0.59 0.0044
+
+# 88ZR    88NB EC DECAY (7.78 M)        1984OX01                  14NDS    201401
+#  88NB EC DECAY (7.78 M)        1984OX01                  14NDS    201401
+#H TYP=FUL$AUT=E.A. McCutchan and A.A. Sonzogni$CIT=NDS 115, 135 (2014)$  
+#H CUT=1-Nov-2013$                                                        
+#  1984Ox01: {+88}Nb activity produced in the Zr(p,3n) and Zr(d,4n)       
+#  reactions with E(p)=38 MeV and E(d)=47 MeV. Measured E|g, I|g, |g|g    
+#  using two n-type HPGe detectors (FWHM=2.0 and 2.1 keV at 1.3 MeV) and  
+#  |b|g coincidences using a E-|DE telescope consisting of a Ge detector  
+#  and a Si detector.                                                     
+#  A total energy release of 7360 keV {I230} is calculated for this       
+#  decay using the RADLST code. This can be compared with the Q value of  
+#  7450 keV {I60} + x.                                                    
+#  Others: 1972Ia01, 1971Do04, 1966Fl03, 1966Hy03.                        
+#E LOGFT$Approximate values from I(|e+|b{++}) and assuming x=0.0          
+#E TI$From gamma intensity balance                                        
+#G M$From the Adopted Gammas.                                             
+#G RI(w)$Weak.                                                            
+#G RI(e)$Contamination intensity subtracted.                              
+#G E(a)$From level energy difference.                                     
+#G RI(f)$From coincidence spectra.                                        
+#G TI(g)$Intensity deduced from |g-ray feeding (1985Ox01).                
+#L E$From a least-squares fit to E|g by the evaluators.                   
+#L J$From the Adopted Levels.                                             
+#  CC$FROM BrIcc v2.3a (30-Jun-2013) 2008Ki07, "Frozen Orbitals" appr.    
+#P 0.0+X        (4-)              7.78 M    1              7450     60    
++B beta+ 0.283 0.008060000000000001
++B beta+ 2.488 2.7E-4
++B beta+ 1.818 2.9E-4
++B beta+ 1.778 3.1E-4
++B beta+ 1.714 3.5000000000000005E-4
++B beta+ 1.653 3.7999999999999997E-4
++B beta+ 1.564 4.5E-4
++B beta+ 1.543 4.6E-4
++B beta+ 1.453 5.5E-4
++B beta+ 1.427 5.8E-4
++B beta+ 1.381 6.3E-4
++B beta+ 1.357 6.6E-4
++B beta+ 1.29 7.599999999999999E-4
++B beta+ 1.258 8.100000000000001E-4
++B beta+ 1.146 0.0010299999999999999
++B beta+ 1.117 0.0011
++B beta+ 1.113 0.00111
++B beta+ 1.103 0.00114
++B beta+ 1.077 0.00121
++B beta+ 1.061 0.00126
++B beta+ 1.049 0.0012900000000000001
++B beta+ 1.036 0.00134
++B beta+ 1.016 0.0014000000000000002
++B beta+ 0.993 0.00149
++B beta+ 0.992 0.00149
++B beta+ 0.933 0.0017299999999999998
+

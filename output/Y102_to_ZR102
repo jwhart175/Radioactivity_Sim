@@ -1,0 +1,52 @@
+#102ZR    102Y B- DECAY (0.36 S)        1991HI02                  09NDS    200908
+#  102Y B- DECAY (0.36 S)        1991HI02                  09NDS    200908
+#H TYP=FUL$AUT=D. DE FRENNE$CIT=NDS 110, 1745 (2009)$CUT=31-Dec-2008$     
+#  Assignment: mass and charge separation of fission fragments            
+#  from {+235}U(n,F); (K| x ray)|g-coincidences. Measured: E|g, I|g,      
+#  |g|g, (K| x ray)|g-coin, T{-1/2} deduced: {+102}Zr levels              
+#  Others: 1991Hi02 supersedes 1974GrZN                                   
+#  From systematics, the existence of two Y isomers is                    
+#  expected. The production method ({+235}U(n,F)) favors the              
+#  high-spin isomer, so probably mainly the decay of the high-spin {+102}Y
+#  isomer has been observed by 1983Sh13. Existence of two {+102}Y isomers 
+#  has been confirmed by the different I(152|g)/I(326|g) ratios given by  
+#  1983Sh13 and 1991Hi02. However in a recent paper of 2007Ch07 a high    
+#  spin isomer is not mentioned                                           
+#  1992Ba28 performed |b-|g coincidences                                  
+#L E$From a least-squares procedure using measured gammas                 
+#L J$From Adopted levels                                                  
+#G E(A)      |DE|g from 1983Sh13                                          
+#G E,RI      From 1991Hi02                                                
+#P 0.0+X                         0.36 S    4              9850      70    
+Y102 ZR102 beta- 9.85 0.36 1.0
++G gamma 0.15172999999999998 0.79
++G gamma 0.32664 0.42
++G gamma 0.4868 0.067
++G gamma 1.05921 0.08
++G gamma 1.21108 0.11
++G gamma 1.0913 0.33
++G gamma 0.5794 0.28
++G gamma 0.1598 0.08
+
+#102ZR    102Y B- DECAY (0.298 S)       1991HI02                  09NDS    200908
+#  102Y B- DECAY (0.298 S)       1991HI02                  09NDS    200908
+#H TYP=FUL$AUT=D. DE FRENNE$CIT=NDS 110, 1745 (2009)$CUT=31-Dec-2008$     
+#  Assignment: mass-separated samples of A=102 from {+235}U(n,F).         
+#  {+102}Sr was selected using a high temperature ionization source. The  
+#  existence of a second {+102}Y isomer is based mainly on a different    
+#  I(152|g)/I(326|g) ratio for each isomer. Measured: E|g, I|g, |g|g,     
+#  T{-1/2}. Deduced: {+102}Zr levels                                      
+#  Others: 1991Hi02 supersedes 1988HiZQ, 1989HiZY, 1974GrZN, 1992Ba28     
+#  performed |b-|g coincidences                                           
+#L E$From a least-squares procedure using measured gammas                 
+#L J$From Adopted levels                                                  
+#G E,RI      From 1991Hi02                                                
+#P 0.0+Y                         0.298 S   9              9850      70    
+Y102 ZR102 beta- 9.85 0.298 1.0
++G gamma 0.15172999999999998 1.0
++G gamma 0.32664 0.086
++G gamma 0.74301 0.17
++G gamma 1.15949 0.16
++G gamma 1.05921 0.29
++G gamma 1.21108 0.4
+

@@ -1,0 +1,139 @@
+#143BA    143CS B- DECAY                1989RO20                  12NDS    201203
+#  143CS B- DECAY                1989RO20                  12NDS    201203
+#H TYP=FUL$AUT=E. BROWNE, J. K. TULI$CIT=NDS 113, 715 (2012)$             
+#H CUT=31-May-2011$                                                       
+#  Measured: |g (1979Sc11,1979Bo26,1985Ra20,1984So18,1989Ro20), |g|g,     
+#  |g|g(|q) (1988WaZQ,1989Ro20), ce (1979Sc11,1985Ra20), |b{+-}           
+#  (1981De25), |b|g (1982Pa24,1981Ke07,1981De25,1978Wu04),                
+#  |b{+-}n (1981En05,1980Re03,1980Lu04,1979WaZU,1979Ri09,1979En02,        
+#  \1978Gj01, \1978Gj02,1977Re06)                                         
+#  Level scheme is mostly that of 1989Ro20. I|b, log| {Ift} values are the
+#  upper and lower limits, respectively as 1989Ro20 studied only the      
+#  lower-lying levels. But other studies also did not observe any         
+#  E|g>2 MeV. With Q(|b{+-}) of 6.26 MeV level scheme may not be          
+#  complete                                                               
+#  Delayed-neutron emission probability=1.62% {I10} (evaluated in         
+#  1983ReZX). Others: 1.68% {I17} (1981En05), 1.54% {I9} (1980Lu04),      
+#  1.74% {I12} (1979Ri09)                                                 
+#  Observed delayed neutrons with E(n)=25.9 (strong group), 72,           
+#  84.5, 93, 124, 173, 211, 290, 330; for I(n) see 1985Gr15               
+#  E(n)(av)=335 (1980Re03);                                               
+#  E(n)(av)=232 (if neutrons with E(n)>800 are neglected)                 
+#B           Measured E|b (coin |g): 3520 {I180} (1978|g), 5545 {I120}    
+#B (661|g), 5515 {I150} (627|g), 5395 {I180} (571|g), 5500 {I150}         
+#B (527|g), 5575 {I180} (467|g), 5810 {I180} (307|g), 6075 {I130}         
+#B (232|g), 6090 {I150} (195|g) (1982Pa24); 6070 {I50} (195|g) (1981De25) 
+#G CC$ FROM BrIcc v2.2 (31-Mar-2008) 2008KiAA, "Frozen Orbitals" appr.    
+#G           KC(exp), LC(exp), MC(exp) presented here have been           
+#G normalized to KC(117G, E2, theory)=0.741.                              
+#G RI        Absolute I|g from 1984So18 are based on                      
+#G I(|g+ce)(293.3|g)=42.8% {I4} in {+143}Ce |b{+-} decay (1982Ge03)       
+#G E$|g's: EG (RI): 595.0 (2), 653.3 (1.5), 681.9 (2),                    
+#G 743.3 (2), 753.0 (1), 911.3 (1.5), 969.6 (3)                           
+#G from 1979Sc11 were not observed in 1985Ra20 or 1989Ro20                
+#G M$From 1985Ra20 based on |a(K)exp, |a(L)exp                            
+#G E(A),RI(A) $From 1985Ra20; |DE=0.1-0.3; |DI|g<10%                      
+#G E(B)      From 1979Bo26                                                
+#L J$From Adopted Levels                                                  
+#P 0.0         3/2+              1.791 S   7              6262      22    
+CS143 BA143 beta- 6.262 1.791 1.0
++G gamma 0.1985 6.3E-4
++G gamma 0.2043 7.56E-4
++G gamma 0.7115 0.001134
++G gamma 0.8805 0.00126
++B beta- 2.759 0.25
++B beta- 2.743 0.11
++G gamma 0.033460000000000004 0.002898
++G gamma 0.11732 0.012222
++B beta- 2.651 0.12
++G gamma 0.195554 0.126
++G gamma 0.2288 0.0252
++B beta- 2.65 0.055999999999999994
++G gamma 0.232421 0.08316000000000001
++G gamma 0.146 0.004032
++G gamma 0.263383 0.036539999999999996
++B beta- 2.615 0.057999999999999996
++G gamma 0.07413 0.001512
++G gamma 0.07775 3.78E-4
++G gamma 0.272656 0.042839999999999996
++G gamma 0.306424 0.06804
++B beta- 2.54 0.033
++G gamma 0.16 0.00441
++G gamma 0.2342 0.00252
++G gamma 0.23793 0.003906
++G gamma 0.46669 0.03024
++B beta- 2.508 0.012
++G gamma 0.30251 0.004914
++G gamma 0.41744 0.001386
++G gamma 0.5347999999999999 0.013482
++G gamma 0.4804 0.00126
++B beta- 2.449 0.057999999999999996
++G gamma 0.62658 0.029232
++G gamma 0.66006 0.047880000000000006
++G gamma 0.4072 0.003276
++G gamma 0.43810000000000004 8.82E-4
++G gamma 0.5532 0.002268
++G gamma 0.6706 0.003024
++B beta- 2.432 0.049
++G gamma 0.38889999999999997 0.00756
++G gamma 0.46674 0.016254
++G gamma 0.6621 0.03024
++B beta- 2.417 0.016
++G gamma 0.61193 0.00882
++G gamma 0.72923 0.013734
++G gamma 0.5161 0.001386
++G gamma 0.5595 0.001134
++G gamma 0.5902999999999999 0.001134
++G gamma 0.8227000000000001 0.00504
++G gamma 0.5241 0.00252
++G gamma 0.6022000000000001 0.003528
++B beta- 2.367 0.077
++G gamma 0.29933 0.008064
++G gamma 0.5274 0.03402
++G gamma 0.5707000000000001 0.016254
++G gamma 0.6016 5.04E-4
++G gamma 0.6053 0.015498000000000001
++G gamma 0.834 0.007308
++B beta- 2.321 0.004
++G gamma 0.6702 0.002016
++G gamma 0.93375 0.00189
++G gamma 0.616 0.001512
++G gamma 0.77606 0.002016
++G gamma 1.0492000000000001 7.56E-4
++G gamma 1.0834000000000001 0.003528
++B beta- 2.249 0.022000000000000002
++G gamma 0.6185 0.002898
++G gamma 0.7786000000000001 0.006425999999999999
++G gamma 0.8527 0.002772
++G gamma 0.8563999999999999 0.007056
++G gamma 1.0517 0.002394
++B beta- 2.242 0.02
++G gamma 0.7935 0.00126
++G gamma 0.8371000000000001 0.005166
++G gamma 0.8682000000000001 0.00756
++G gamma 0.8717999999999999 0.005292
++G gamma 1.1008 0.00126
++G gamma 0.8465499999999999 0.002016
++G gamma 0.8776 0.002898
++G gamma 0.89 0.001386
++G gamma 0.9212 0.002016
++G gamma 1.1536 0.00126
++G gamma 0.9711000000000001 0.001512
++G gamma 0.7867000000000001 0.00189
++G gamma 1.0208 0.002646
++G gamma 1.0245 0.001638
++G gamma 1.2534 7.56E-4
++G gamma 0.833 0.001512
++G gamma 1.2084000000000001 0.00252
++G gamma 1.4409 2.52E-4
++B beta- 2.077 0.017
++G gamma 0.7567 0.005166
++G gamma 0.7921 0.006552
++G gamma 0.9857 0.002268
++G gamma 1.2199 0.00252
++G gamma 1.3126 0.003276
++B beta- 1.522 0.027000000000000003
++G gamma 1.8055 0.004662
++G gamma 1.9095 0.006678
++G gamma 1.9789 0.0126
+

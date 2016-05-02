@@ -1,0 +1,35 @@
+# 67ZN    67CU B- DECAY                 1978ME10,1969RA15,1953EA1105NDS    200512
+#  67CU B- DECAY                 1978ME10,1969RA15,1953EA1105NDS    200512
+#H TYP=FUL$AUT=HUO JUNDE, HUANG XIAOLONG, J.K. TULI$                      
+#H CIT=NDS 106, 159 (2005)$CUT=1-Apr-2005$                                
+#  1978Me10: measured E|g, I|g on chemically separated sources            
+#  1969Ra15: measured E|g, I|g; source purification by ion exchange       
+#  chemistry                                                              
+#  1953Ea11: measured |b{+-} and conversion electron spectra with a thick 
+#  lens spectrometer; Fermi plot analysis; ion exchange chemistry         
+#  1966Fr12, 1969Li04: measured |a in {+67}Ga |e decay                    
+#  1973Le18: measured T{-1/2} of 93 keV level in {+67}Zn                  
+#  The decay scheme is based on the |g data of 1978Me10, ce data of       
+#  1966Fr12 and 1969Li04 in {+67}Ga |e decay and g.s. |b{+-} branching    
+#  from 1953Ea11                                                          
+#    Cascade             spin sequence                                    
+#  (209|g)(184|g)        3/2-       3/2-(M1+E2)5/2-                       
+#  (494.3|g)(393.6|g)    5/2-(M1+E2)3/2-       5/2-                       
+#  (494.3|g)(300.2|g)    5/2-(M1+E2)3/2-(M1+E2)1/2-                       
+#  (703.6|g)(184.6|g)    5/2-       3/2-(M1+E2)5/2-                       
+#  Others: 1970Ma56                                                       
+#G E,RI      From 1978Me10                                                
+#G M,MR      From adopted gammas                                          
+#L E         From a least-squares fit to the E|g data                     
+#L J         From adopted levels                                          
+#B IB        From |g-ray intensity balance at each level, except as       
+#B indicated                                                              
+#P 0.0         3/2-              61.83 H   12             561.7     15    
+CU67 ZN67 beta- 0.5617000000000001 222588.0 1.0
++G gamma 0.093311 0.161
++G gamma 0.091266 0.07
++G gamma 0.184577 0.48700000000000004
++G gamma 0.208951 0.00115
++G gamma 0.300219 0.00797
++G gamma 0.393529 0.0022
+

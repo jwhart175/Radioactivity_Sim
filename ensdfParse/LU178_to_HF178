@@ -1,0 +1,51 @@
+#178HF    178LU B- DECAY (28.4 M)       1975KA15,1973OR03         09NDS    200907
+#  178LU B- DECAY (28.4 M)       1975KA15,1973OR03         09NDS    200907
+#H TYP=FUL$AUT=E. Achterberg, O.A. Capurro, G.V. Marti$                   
+#H CIT=NDS 110, 1473 (2009)$CUT=31-May-2008$                              
+#  Measured E|g, I|g, |g|g coin, E|b, I|b, |g|b coin. Detectors: Ge(Li),  
+#  scin.                                                                  
+#G E,RI      Weighted averages of data from 19730r03 and 1975Ka15, unless 
+#G otherwise specified.                                                   
+#G E(B)      Observed by 1973Or03 only.                                   
+#G E(D)      Observed by 1971Gu01 only.                                   
+#G E(F)      Observed by 1975Ka15 only.                                   
+#L E         From a least-squares fit to |g-ray energies.                 
+#P 0.0         1(+)              28.4 M    2              2101.3    20    
+LU178 HF178 beta- 2.1013 1704.0 1.0
++B beta- 0.79463 0.63
++B beta- 0.75419 0.29
++B beta- 0.30612 8.0E-4
++B beta- 0.29651 0.0012
++B beta- 0.27327999999999997 8.0E-4
++B beta- 0.26696 3.0E-4
++B beta- 0.25454 0.011000000000000001
++B beta- 0.25824 3.0E-4
++B beta- 0.23498 0.0063
++B beta- 0.20887 0.032
++B beta- 0.20531 5.099999999999999E-4
++B beta- 0.18656999999999999 0.011000000000000001
++B beta- 0.18036000000000002 0.006999999999999999
++B beta- 0.16365000000000002 0.0037
++B beta- 0.16182 0.006
++B beta- 0.09372 0.0027
++B beta- 0.07931 2.7E-4
+
+#178HF    178LU B- DECAY (23.1 M)       1975WA24,1975KA15,1973OR0309NDS    200907
+#  178LU B- DECAY (23.1 M)       1975WA24,1975KA15,1973OR0309NDS    200907
+#H TYP=FUL$AUT=E. Achterberg, O.A. Capurro, G.V. Marti$                   
+#H CIT=NDS 110, 1473 (2009)$CUT=31-May-2008$                              
+#  Measured E|g, I|g. Detector: Ge(Li) (1975Wa24).                        
+#  Measured E|g, I|g, |g|g coin, E|b, I|b, |g|b coin. Detectors: Ge(Li),  
+#  scin (1975Ka15, 1973Or03).                                             
+#G M         From adopted gammas.                                         
+#G E,RI$Weighted averages of data from 1975Wa24, 1975Ka15, and 1973Or03,  
+#G unless otherwise specified.                                            
+#G RI(D)     From {+178}Hf IT decay (4 s).                                
+#L E         From a least-squares fit to |g-ray energies.                 
+#P 123.8     26 9(-)             23.1 M    3              2101.3    20    
+LU178 HF178 beta- 2.1013 1386.0 1.0
++B beta- 0.36510000000000004 0.8370000000000001
++B beta- 0.2809 0.033
++B beta- 0.2377 0.13
++B beta- 0.1931 2.3E-4
+

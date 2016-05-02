@@ -1,0 +1,148 @@
+#100ZR    100Y B- DECAY (735 MS)        1986WO01                  08NDS    200802
+#  100Y B- DECAY (735 MS)        1986WO01                  08NDS    200802
+#H TYP=FUL$AUT=BALRAJ SINGH$CIT=NDS 109, 297 (2008)$CUT=26-Dec-2007$      
+#  1986Wo01: Measured G, GG, GG(THETA), CE, BG. See also 1990Wo01         
+#  for discussion of level structure. The 100Y isotope produced by        
+#  neutron fission of 235U and mass separation of A=100 ion-beam          
+#  (at ^TRISTAN facility) containing only the 100RB and 100SR activities. 
+#  The B- decay of 100SR (JPI(GS)=0+) to 100Y is expected to populate     
+#  only the low spin 735-MS isomer (most likely the GS of 100Y). The      
+#  presence of the 0.94-s isomer is estimated as LT 1% by 1986Wo01        
+#  The decay scheme from G and GG data of 1986Wo01 represents a           
+#  significant improvement over the one suggested by 1985Mu07             
+#  Others:                                                                
+#  G: 1985Mu07, 1983Mu19, 1977Kh03                                        
+#  GG: 1985Mu07, 1977Kh03                                                 
+#  GG(THETA): 1978Se03                                                    
+#  GG(THETA,H,T): 1980Wo09                                                
+#  GG(T): 1989Lh01                                                        
+#  CE: 1978Kh01, 1977Kh03                                                 
+#  CEG: 1977Kh03                                                          
+#  B: 1985IaZZ, 1984Pa19, 1978Kh01                                        
+#  BG: 1984Pa19                                                           
+#  BG(T): 1990Ma01, 1989Oh06, 1989Wo05, 1989Ma47                          
+#  1990Ma04 and 1990Ma01 have the same citation                           
+#  BCE(T): 1978Kh01                                                       
+#  T1/2(100Y isotope): 1986Wa17, 1985IaZZ, 1983Mu19, 1977Kh03             
+#  Calculation of B- strength functions: 1981Al25                         
+#  Calculation of T1/2, and LOGFT: 1987Kr02                               
+#  Total decay energy deposit of 10078 keV {I460} calculated by RADLIST   
+#  code is higher than the expected value of 9044 keV {I16}               
+#B $ 1984Pa19 deduced Q- value from an average of 10 endpoint             
+#B energies determined from 24 BG coincidence spectra                     
+#B IB,LOGFT$ All values are considered as approximate since a large       
+#B gap of about 5 MEV between Q- value and the highest known populated    
+#B level at 4288 allows the possibility of additional levels and          
+#B undetected gamma rays.                                                 
+#G $ The following G rays tentatively assigned to 100Y decay              
+#G by 1985Mu07 have not been seen by 1986Wo01: 326, 966, 1077, 1262, 1542,
+#G 1563, 1929, 2010, 2092, 2509 and 2838. All have a reported intensity   
+#G of 0.5 (1985Mu07). These G rays have been omitted by the evaluator     
+#G M$From CE data (1986Wo01)                                              
+#G E(A)$G reported by 1985Mu07 only. Treated as uncertain by the evaluator
+#G E(B)$G in coincidence with 212.5G, but no unique assignment possible   
+#G E(D)$From curved-crystal spectrometer data (1979Bo26)                  
+#G E(E)$ (617G)(213G)(THETA) (1986Wo01)                                   
+#G MR(F)$from (666G)(213G)(THETA) (1986Wo01). Sign(MR) reassigned by the  
+#G evaluator from the angular distribution pattern shown by the authors   
+#G for the 666-213 cascade                                                
+#G M(F)$from GG(THETA) and DPI=no                                         
+#G E(G)$ Tentative placement (evaluator) from level energy difference     
+#L J$From 'adopted levels'. JPI=(1,2+) is from G to 0+                    
+#P  0.0         1-,2-              735 MS  7              9044      16    
+Y100 ZR100 beta- 9.044 0.0 1.0
++B beta- 4.165100000000001 0.03
++B beta- 4.0630999999999995 0.23
++G gamma 0.212531 0.73
++B beta- 4.0062 0.07
++B beta- 3.8941999999999997 0.0039000000000000003
++B beta- 3.767 0.033
++B beta- 3.7433 0.052000000000000005
++B beta- 3.5907 0.031
++B beta- 3.5431999999999997 0.008
++B beta- 3.4728000000000003 0.015
++B beta- 3.2967 0.040999999999999995
++B beta- 3.2339 0.12
++B beta- 3.1161 0.0085
++B beta- 2.8707 0.048
++B beta- 2.8541 0.013999999999999999
++B beta- 2.8331999999999997 0.15
++B beta- 2.7968 0.14
++B beta- 2.7556 0.083
++B beta- 2.6893000000000002 0.015
++B beta- 2.4476999999999998 0.016
++B beta- 2.2626 0.01
++B beta- 2.1031999999999997 0.0054
+
+#100ZR    100Y B- DECAY (0.94 S)        2002LH01                  08NDS    200802
+#  100Y B- DECAY (0.94 S)        2002LH01                  08NDS    200802
+#H TYP=FUL$AUT=BALRAJ SINGH$CIT=NDS 109, 297 (2008)$CUT=26-Dec-2007$      
+#  2002Lh01: Measured E|g, I|g, |g|g coin. Source of 100Y obtained        
+#  from 238U(p,^X) E(p)=600 MEV, followed by mass separation using        
+#  ^OSTIS mass separator at ^Grenoble                                     
+#  Others:                                                                
+#  1977Kh03: Measured G, GG, CE. Isotope 100Y obtained by mass            
+#  separation of A=100 recoils from 235U(N,F)                             
+#  1977Pf01: Measured E|g, I|g, T1/2(100Y isotope)                        
+#  1979Bo26: Measured selected E|g using curved-crystal measurement       
+#  The identification of this isomer is based on the observation of       
+#  an intense 352G, decaying with T1/2=0.96 S and in coincidence          
+#  with the 212G to the g.s. The 352G is most likely the same as the      
+#  (4+) to 2+ transition observed in 252CF SF decay. 1977Kh03 assigned    
+#  five G rays to this isomer only, on the basis of T1/2 data, but the    
+#  later work of 1986Wo01 showed that all these G rays were also present  
+#  in the decay of the 735-MS isomer, with the difference that the 352G   
+#  was much more intense in the spectrum obtained by 1977Kh03 and a       
+#  weak 1097G was not reported by 1986Wo01. The source collection         
+#  procedures were different in 1977Kh03 and 1986Wo01, although both used 
+#  mass separation of fragments from neutron fission of 235U.             
+#  The recoil-separator method used by 1977Kh03 collected all the         
+#  activities of A=100 whereas only the 100RB and 100SR isotopes were     
+#  collected in the method used by 1986Wo01. In the former, all isomers   
+#  of 100Y (high and low spin) would be observed whereas in the latter    
+#  mainly the low spin isomer would be detected since the formation of    
+#  100Y was entirely due to 100SR B- decay (GS JPI=0+). It may also be    
+#  pointed out that the G-ray spectra shown by 1977Kh03 contain a much    
+#  larger number of contaminants than those in the spectra                
+#  shown by 1986Wo01.                                                     
+#  Existence of isomerism in {+100}Y is confirmed in precision mass       
+#  measurements of 2007Ha32.                                              
+#  Q-=9310 70 (1988GrZX,1984Pa19). Other: 7920 100 (1985IaZZ)             
+#  Total decay energy deposit of 9243 keV {I775} calculated by RADLIST    
+#  code is in agreement with expected value of 9189 keV {I23}             
+#B IB$ All values are considered as approximate since a large             
+#B gap of about 7 MEV between Q- value and the highest known populated    
+#B level at 2349 allows the possibility of additional levels and          
+#B undetected gamma rays.                                                 
+#B IB(A),LOGFT(A)$ Value of 6.6 or 6.9 is too low to be realistic for     
+#B DJ=3, thus the B feeding is considered as uncertain                    
+#G $ The following G rays with EG(RI) assigned to 100Y decay              
+#G by 1977Pf01 have been discarded: 455.6(8), 555.6(26), 583.0(12),       
+#G 724.6(13), 809.4(12), 826.7(21), 831.5(21), 911.1 (15). None of these  
+#G G rays was assigned to 100Y by 2002Lh01, 1986Wo01 or 1977Kh03.         
+#G A 1096.7G, RI=4 2 REPORTED ONLY BY 1977KH03 HAS ALSO BEEN DISCARDED    
+#G E,RI$ From 2002Lh01, unless otherwise stated                           
+#G M$From 'adopted gammas'                                                
+#G E(A)$From curved-crystal measurement (1979Bo26)                        
+#G RI(X)$ INTENSITY DEDUCED FROM 'ADOPTED GAMMAS'                         
+#L $ 1408 AND 1428 LEVELS PROPOSED BY 1977KH03 HAVE BEEN DISCARDED,       
+#L 1196G FROM 1408 LEVEL HAS NOW BEEN PLACED FROM 1196 LEVEL AND          
+#L 1096.7G (RI=4 2) from 1428 level HAS NOT BEEN REPORTED BY 2002LH01     
+#L E(A)$ The branching ratios of |g rays are in disagreement with those   
+#L from 1986Wo01 in the decay of 100Y B- decay (735 MS)                   
+#L J$From 'adopted levels'                                                
+#P  145      15 (3,4,5)            0.94 S  3                9044    16    
++B beta- 4.133 0.28
++B beta- 4.076 0.023
++B beta- 3.964 0.17
++B beta- 3.813 0.07200000000000001
++B beta- 3.725 0.016
++B beta- 3.66 0.069
++B beta- 3.563 0.036000000000000004
++B beta- 3.555 0.024
++B beta- 3.343 0.019
++B beta- 3.292 0.005
++B beta- 3.24 0.127
++B beta- 3.168 0.019
++B beta- 3.106 0.14800000000000002
+

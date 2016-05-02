@@ -1,0 +1,44 @@
+#132XE    132CS EC DECAY (6.480 D)      1990DA09,1990ME15,1987DE3305NDS    200504
+#  132CS EC DECAY (6.480 D)      1990DA09,1990ME15,1987DE3305NDS    200504
+#H TYP=FUL$AUT=YU. KHAZOV, A.A. RODIONOV AND S. SAKHAROV, BALRAJ SINGH$   
+#H CIT=NDS 104, 497 (2005)$CUT=10-Feb-2005$                               
+#  1990Da09: Measured E|g, I|g, |g|g, |g|g(|q)                            
+#  1990ME15: MEASURED EG, IG                                              
+#  1987De33: Measured E|g, I|g, |g|g, |g|g(|q), I(|b{++})                 
+#  1970Qa03: Measured E|g, I|g, |g|g                                      
+#  1968Ca12: Measured E|g, I|g                                            
+#  OTHERS:                                                                
+#  2000HE14 (ALSO 1979GR01): PRECISE ENERGIES OF THREE GAMMA RAYS         
+#  1974Go18 (also 1973GoXT): Measured |g, |g|g, |b{++}, |eL/|eK,          
+#  |eK/|b{++}                                                             
+#  1971TA21: GG(THETA)                                                    
+#  1967FR08: G, CE                                                        
+#  1965JO06: G, GG                                                        
+#  1963TA05: G, GG                                                        
+#  1962Ro07: |g, |g|g, |g|g(|q), T{-1/2}                                  
+#  1961JH03: G, GG                                                        
+#  1960WH05: G, T1/2                                                      
+#  1955RO58: G, GG                                                        
+#  1955RO58: ROBINSON AND FINK; PHYS REV 98, 231, abstract H7 (1955)      
+#  1953WA20: G                                                            
+#  T1/2(ISOTOPE): 1973GI06, 1973DU08, 1971RU11, 1962RO07, 1960WH05.       
+#  OTHERS: 1964DE18, 1956BH61, 1955RO58                                   
+#  1956BH61: BHATKI ET AL., NUOVO CIMENTO 4, 1519 (1956)                  
+#  132CS PRODUCTION METHODS: 133CS(G,N) (1990DA09,1987DE33,1963Ta05);     
+#  134BA(D,A) (1987DE33); 133CS(P,PN) (1962RO07,1968CA12);                
+#  133CS(N,2N) (1970QA03)                                                 
+#G $ I(|g{+|+})=8.23 {I18}, weighted average of 8.28 {I20}                
+#G (1987De33) and 8.05 {I40} (1990Da09). Others: 1961Jh03, 1962Ro07,      
+#G 1963Ta05, 1968Ca12, 1970Qa03, 1974Go18, 1975WiZJ                       
+#G E$ Average of values from 1990Me15 and 1987De33, except as noted       
+#G RI$ Average of values from 1990Da09, 1990Me15, 1987De33,               
+#G 1970Qa03 and 1968Ca12                                                  
+#G E(B)$ From 2000He14.                                                   
+#G M,MR$ FROM ADOPTED GAMMAS                                              
+#L J$ FROM ADOPTED LEVELS                                                 
+#P 0.0         2+                6.480 D   6              2124.6    21    
+CS132 XE132 beta+ 2.1246 559872.0 0.9813
++B beta+ 0.20373 0.00407
++B beta+ 8.479E-4 0.001194
++B beta+ 8.311E-4 0.00132
+

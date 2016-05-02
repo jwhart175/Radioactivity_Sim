@@ -1,0 +1,95 @@
+# 61CU    61ZN EC DECAY (89.1 S)        1970HO29,1972DU09         15NDS    201503
+#  61ZN EC DECAY (89.1 S)        1970HO29,1972DU09         15NDS    201503
+#H TYP=FUL$AUT=KAZIMIERZ ZUBER, BALRAJ SINGH$CIT=NDS 125, 1 (2015)$       
+#H CUT=25-Jan-2015$                                                       
+#  Source produced by {+58}Ni(|a,n) (1970Ho29,1969Ho02).                  
+#  1970Ho29: measured E|g, I|g, |g(t) with Compton suppression            
+#  spectrometer.                                                          
+#  1972Du09: measured E|g, I|g, |g(t) with Ge(Li). Mass separated source. 
+#  Others: 1955Li39, 1959Cu86, 1969Ho02, 1974YoZT.                        
+#  The decay scheme is based on |g|g coin data from 1969Ho02 and on       
+#  energy sums.                                                           
+#  Data are from 1970Ho29, except as noted. There is good agreement       
+#  between the results of 1970Ho29 and 1972Du09.                          
+#  From RADLIST code, deduced total decay energy is 5638 keV {I70}        
+#  agrees with 5640 keV {I16} from Q(|e) value.                           
+#E $Measured endpoint energy of |b{++} radiation is 4380 {I200}. This     
+#E |b{++} endpoint must correspond to g.s. feeding from intensity         
+#E arguments (1959Cu86).                                                  
+#E TI$From intensity imbalance at each level                              
+#E IB,IE$From I(|g+ce) and theoretical |b{++}/|e                          
+#G RI$From 1970Ho29.                                                      
+#G M,MR$From Adopted Gammas                                               
+#G $The 1234.0|g and 1289.8|g seen by 1970Ho29 were not observed by       
+#G 1972Du09 (I|g|<0.6).                                                   
+#G RI(A),E(B)$From 1972Du09.                                              
+#L E$From least-squares fit to E|g data.                                  
+#L J$From Adopted Levels.                                                 
+#P 0           3/2-              89.1 S    2              5635      16    
+ZN61 CU61 beta+ 5.635 89.1 1
++G gamma 0.149 0.0016852
++G gamma 0.6045 8.426E-4
++G gamma 0.6382000000000001 7.66E-4
++G gamma 1.1473 0.001532
++G gamma 1.5655999999999999 0.0010724
++B beta+ 8.738E-4 0.00107
++B beta+ 2.1265 0.08
++G gamma 0.475 0.165456
++B beta+ 1.8965999999999998 0.08
++G gamma 0.97 0.025278000000000002
++B beta+ 1.6582000000000001 0.07
++G gamma 1.311 0.009192
++B beta+ 1.495 0.07
++G gamma 0.9196 9.192E-4
++G gamma 1.3945999999999998 0.0119496
++B beta+ 1.4552 0.07
++G gamma 0.26589999999999997 0.0053620000000000004
++G gamma 0.6902999999999999 0.018384
++G gamma 1.1853 0.016928600000000002
++G gamma 1.6604 0.0766
++B beta+ 1.3287 0.06
++G gamma 0.421 9.192E-4
++B beta+ 1.2945 0.06
++G gamma 0.5942000000000001 6.128E-4
++G gamma 0.9344 8.426E-4
++G gamma 1.9041 8.9622E-4
++B beta+ 1.2130999999999998 0.06
++G gamma 1.4578 0.003064
++G gamma 1.9324000000000001 0.006511
++B beta+ 1.1999000000000002 0.06
++G gamma 1.6133 0.0029108
++G gamma 2.0889 0.0061663
++B beta+ 1.1262999999999999 0.06
++G gamma 0.426 0.0014554
++G gamma 0.6976 0.004213
++G gamma 1.8831 0.0047109000000000005
++G gamma 2.3586 0.0032172
++B beta+ 1.0002 0.05
++G gamma 1.5024000000000002 0.0013788000000000001
++G gamma 1.9974 0.0115666
++G gamma 2.4720999999999997 7.66E-4
++B beta+ 0.9469 5.0E-4
++G gamma 2.209 0.0082728
++G gamma 2.6833 0.0066642
++B beta+ 0.8489 6.0E-4
++G gamma 1.1319000000000001 0.0017618
++G gamma 1.4821 0.0077366
++G gamma 2.7923 0.0078898
++B beta+ 0.7987000000000001 8.0E-4
++G gamma 0.7516 0.003064
++G gamma 2.8428 0.00243588
++B beta+ 0.7768999999999999 8.0E-4
++G gamma 2.3814 0.0010724
++G gamma 2.857 0.004213
++B beta+ 0.7693 9.0E-4
++G gamma 1.5389000000000002 8.349400000000002E-4
++G gamma 2.4576 0.0064344
++G gamma 2.9318 9.192E-4
++B beta+ 0.7346 0.001
++G gamma 2.5439000000000003 7.430199999999999E-4
++G gamma 3.0193000000000003 0.0018384
++B beta+ 0.6952 0.0011
++G gamma 3.0923000000000003 0.001149
++B beta+ 0.662 0.0013
++G gamma 3.5211 0.0013788000000000001
+

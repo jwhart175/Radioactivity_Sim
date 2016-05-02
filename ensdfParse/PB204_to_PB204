@@ -1,0 +1,25 @@
+#204PB    204PB IT DECAY (66.93 M)      1956He50,1971Ha39,1972Si2210NDS    201002
+#  204PB IT DECAY (66.93 M)      1956He50,1971Ha39,1972Si2210NDS    201002
+#H TYP=FUL$AUT=C.J. CHIARA and F.G. KONDEV$CIT=NDS 111,141 (2010)$        
+#H CUT=1-Oct-2009$                                                        
+#  1956He50: isomer produced via metallic Tl bombarded with 25-MeV d's or 
+#  by EC decay of 204BI from Pb bombarded with 50-MeV p's;                
+#  permanent-magnet and double-focusing BETA spectrometers for            
+#  ECE, ICE(K), CE(T) measurements.                                       
+#  1971Ha39: isomer produced via decay of 204BI from 206PB(d,4n), and by  
+#  Tl(d,xn); Ge(Li) for G's, FWHM=1.8 keV at 661 keV; cooled Si(Au)       
+#  detector for CE's, FWHM=1.8 keV at 624 keV; measured EG, IG, ICE;      
+#  deduced EKC.                                                           
+#  1972Si22: 205TL(P,2N) reaction; 99.99%-pure natural Tl target; E(P)=14 
+#  MeV; Ge(Li) detector; spectra recorded in AP 1-h intervals; measured   
+#  EG, IG(T).                                                             
+#G CC$ FROM BrIcc v2.2 (31-Mar-2008) 2008KiAA, "Frozen Orbitals" appr.    
+#G E$From 1970CrZY, except as noted                                       
+#G RI$From relative intensities deduced from ICE(K) of 1956He50 and EKC   
+#G from ^Br^Icc, unless otherwise stated. The absolute intensities per 100
+#G decays were obtained using the ^GABS program, unless othewise stated   
+#G M$From ce data of 1971Ha39, except as noted.                           
+#L E$From a least-squares fit to EG, unless otherwise specified           
+#L J$From G mult assignments, based on EKC and K/L ratios.                
+#P 2185.88   8  9-               66.93 M   10                             
+

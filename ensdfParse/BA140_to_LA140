@@ -1,0 +1,48 @@
+#140LA    140BA B- DECAY                1990ME03                  07NDS    200707
+#  140BA B- DECAY                1990ME03                  07NDS    200707
+#H TYP=FUL$AUT=N. NICA$CIT=NDS 108,1287 (2007)$CUT=1-Feb-2006$            
+#  Measured: |g (1991Ch05,1990Me03,1982Ad02,1979Bo26,                     
+#  1977De34,1977Ge12,1976Li06,1975Ha50,1970Ke09,1969Ka33),                
+#  ce (1991Ch05,1982Ad02,1966GeZZ,1961Ge01), |g|g and ce|g                
+#  (1982Ad02,1965Bu07,1961Ge01,1959Bo61), |g|g(|q)                        
+#  (1982Ad02,1965Zu03,1965Bu07,1964Ag01), |g(t) (1982Ad02,1965Bu07), |b   
+#  and |b|g (1965Bu07,1957Pe20,1956Se28), |b|g(|q) (1964Ag01)             
+#  Measured I(K|a| x ray)=10.0 {I20}, I(K|b| x ray)|<2.0 {I3} (1969Ka33); 
+#  L| x ray, K| x ray (1991Ch05).                                         
+#  Calculated from this decay scheme data (absolute intensity per 100     
+#  decays): I(K|a| x ray)=1.249 {I34}, I(K|b| x ray)=0.301 {I10};         
+#  The level scheme is that of 1990Me03                                   
+#  The level scheme is incomplete                                         
+#G M         |a(K)exp were normalized to |a(K)(M1)=0.24 for 162.672|g     
+#L J         Adopted values                                               
+#G RI        From 1990Me03, except where noted otherwise                  
+#G RI(A)     From 1977De34                                                
+#G E(B),RI(B)$Assignment to {+140}Ba decay is uncertain                   
+#G E(C)$Differ by 3SIGMA or more from calculated value                    
+#P 0.0         0+                12.7527 D 23             1050      8     
+BA140 LA140 beta- 1.05 1101833.28 1.0
++G gamma 0.18383000000000002 9.756000000000001E-6
++G gamma 0.27518 3.6585E-6
++G gamma 0.69989 8.2926E-6
++B beta- 0.3628 0.24
++G gamma 0.029966 0.1409742
++B beta- 0.3458 0.38
++G gamma 0.013846 0.012195000000000001
++G gamma 0.0438 1.9512000000000002E-5
++G gamma 0.06317 2.9268E-7
++B beta- 0.31139999999999995 0.044199999999999996
++G gamma 0.09949 1.9512000000000002E-7
++G gamma 0.118837 6.0975E-4
++G gamma 0.132687 0.00202437
++G gamma 0.16266 0.0621945
++B beta- 0.182 0.09300000000000001
++G gamma 0.304849 0.0429264
++G gamma 0.423722 0.03151188
++G gamma 0.437575 0.01929249
++G gamma 0.4675 1.9512000000000002E-5
++B beta- 0.1417 0.23800000000000002
++G gamma 0.11351 1.60974E-4
++G gamma 0.41844 3.6584999999999996E-5
++G gamma 0.537261 0.2439
++G gamma 0.55108 3.12192E-5
+

@@ -1,0 +1,39 @@
+#145TB    145DY EC DECAY (6 S)          1993TO04                  09NDS    200902
+#  145DY EC DECAY (6 S)          1993TO04                  09NDS    200902
+#H TYP=FUL$AUT=E. BROWNE, J. K. TULI$CIT=NDS 110, 507 (2009)$             
+#H CUT=1-Oct-2008$                                                        
+#  145DY PRODUCED IN 58NI + 92MO IRRADIATION. MEASURED P, G, P(T), PB+(T),
+#   PG(T), HPGe, SCIN                                                     
+#G RI(A)$Admixture from 145DY (14.1 S) decay                              
+#P 0.0         (1/2+)            6 S       2              7590      70    
++G gamma 0.10809999999999999 1.0
++G gamma 0.1451 0.77
++G gamma 0.2531 0.48
++G gamma 0.1845 0.45
++G gamma 0.4377 1.09
+
+#145TB    145DY EC DECAY (14.1 S)       1982AL07,1982NO08         09NDS    200902
+#  145DY EC DECAY (14.1 S)       1982AL07,1982NO08         09NDS    200902
+#H TYP=FUL$AUT=E. BROWNE, J. K. TULI$CIT=NDS 110, 507 (2009)$             
+#H CUT=1-Oct-2008$                                                        
+#  Measured: G, XK (1982Al07), GAMMA (1982No08)                           
+#  Decay scheme was proposed by 1993PE07 on the assumption of similarity  
+#  with decay schemes of other N=79 nuclei with JPI=11/2: 139ND, 141SM,   
+#  143GD. 1993To04 observed 38 transitions in 145DY decay, of which       
+#  only 108.1G decayed with pure 6 S 2 half-life and most of the rest     
+#  decayed wholly or partially with 14 S half-life. 1993To04 stated that  
+#  their intensities agree with the values given here.                    
+#G CC$ FROM BrIcc v2.2 (31-Mar-2008) 2008KiAA, "Frozen Orbitals" appr.    
+#G E,RI      From 1982Al07                                                
+#L J         From similarity with decay schemes of other JPI=11/2- N=79   
+#L nuclei: 139ND, 141SM, 143GD                                            
+#P 118.2      2(11/2-)           14.1 S    7              7.59E+3   7     
+DY145 TB145 beta+ 7.59 14.1 1.0
++B beta+ 0.149 1.4
++B beta+ 2.956 7.000000000000001E-4
++G gamma 0.5782 0.13
++B beta+ 2.68 9.0E-4
++G gamma 0.6396000000000001 0.1209
++B beta+ 2.65 9.0E-4
++G gamma 0.8042999999999999 0.1001
+

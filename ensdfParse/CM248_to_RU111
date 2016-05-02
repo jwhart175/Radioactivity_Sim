@@ -1,0 +1,40 @@
+#111RU    248CM SF DECAY                2004UR05                  09NDS    200905
+#  248CM SF DECAY                2004UR05                  09NDS    200905
+#H TYP=FUL$AUT=Jean Blachot$CIT=NDS 110, 1239 (2009)$CUT=1-Feb-2008$      
+#  2004Ur05: Measured E|g, I|g, |g|g, |g|g(|q), |g|g(lin pol) with the    
+#  EUROGAM2 array, consisting of 52 large Ge detectors in anti-Compton    
+#  shields,including 24 four-crystal CLOVER detectors, which could act as 
+#  Compton polarimeters.  In addition, four LEPS detectors were used to   
+#  measure X rays and low energy transitions (1997Ur02).                  
+#  2003URZZ was a preprint of 2004UR05                                    
+#G $R(pol)=[aN{-perpendicular} - N{-parallel}] /                          
+#G Q[aN{-perpendicular} + N{-parallel}], where Q is the polarization      
+#G sensitivity and a=0.977.                                               
+#G M$For stretched transitions, A{-2}=0.10 and A{-4}=0.01 for a           
+#G |DJ=2-|DJ=2 cascade; A{-2}=-0.07 and A{-4}=0 for a |DJ=2-|DJ=1         
+#G cascade; and A{-2}=0.05 and A{-4}=0 for a |DJ=1-|DJ=1 cascade          
+#G (a{-0}=1). All stretched |DJ=2 transitions with energies lower than    
+#G 750 keV are assigned E2 multipolarity based on the observation of no   
+#G half-lives longer than 10 ns for any of the |DJ=2 transitions.         
+#G M$Clover detectors were used to extract linear polarization from       
+#G direction-polarization correlations where linear polarization was      
+#G induced by observing a reference |g-ray. Please refer to table 1 of    
+#G 2004Ur05 for specific reference |g-rays used.                          
+#L E(Z)$ 3380 given in figure 2 of 2004Ur05 seems to be a misprint.       
+#L E$From least-squares fit to E|g's ; |DE|g=0.5 keV                      
+#L assumed for each |g-ray.                                               
+#L BAND(A)$ GS BAND, |a=+1/2                                              
+#L BAND(a)$ GS BAND, |a=-1/2                                              
+#L BAND(B)$ (1/2+) BAND, |a=-1/2.                                         
+#L Assigned to {+111}Ru based on the ratio of intensities of the 1180.0   
+#L keV line in {+135}Te and the 1278.9 keV line in {+134}Te,              
+#L I{-|g}(1180.0)/I{-|g}(1278.9), as such a ratio is correlated with the  
+#L mass of the gated Ru isotope.                                          
+#L BAND(b)$ (1/2+) BAND, |a=+1/2.                                         
+#L See comment for the other signature partner of this band               
+#L BAND(C)$ 7/2- BAND, |a=+1/2                                            
+#L BAND(c)$ 7/2- BAND, |a=-1/2                                            
+#L BAND(D)$ 11/2- BAND                                                    
+#L BAND(E)$ |g-sequence based on (9/2-)                                   
+#P 0.0          0+                3.48E+5 Y 6                             
+

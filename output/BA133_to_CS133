@@ -1,0 +1,52 @@
+#133CS    133BA EC DECAY (10.551 Y)                               11NDS    201104
+#  133BA EC DECAY (10.551 Y)                               11NDS    201104
+#H TYP=FUL$AUT=YU. KHAZOV AND A. RODIONOV, F.G. KONDEV$                   
+#H CIT=NDS 112, 855 (2011)$CUT=31-Oct-2010$                               
+#  1981He15, 1985Ku26, 1987Mu07, 1991We08, 1983Yo03, 1989Da11, 1990Me15,  
+#  1998Hw07, 1996Mi26: {+133}Ba |e decay (10.539 y); precise measurement  
+#  E|g, I|g using Ge detectors.                                           
+#  See also 2008Si19, 1993Ve06, 1983Yo03, 1980HaYX, 1978He21, 1977Ge12,   
+#  1977Sc31                                                               
+#  1983Ch11: {+133}Ba |e decay (10.539 y); compiled, evaluated, E|g, I|g, 
+#  resulted from an International Intercomparison of Photon Emission-rate 
+#  measurements. {+133}Cs; deduced photon emission rates                  
+#G CC$ FROM BrIcc v2.2 (31-Mar-2008) 2008KiAA, "Frozen Orbitals" appr.    
+#G E$From adopted gammas                                                  
+#G RI$Evaluated values from 2004BeZR                                      
+#G M$From ECC in 1984SeZV (compiled and evaluated ECC and penetration     
+#G parameters values) with EKC=Ice(K)/I|g normalized to |a(K)=0.0211 {I3} 
+#G for 356.0129 pure E2 transition (by evaluators), compilation of        
+#G |a(exp) and subshell ratios in 1981HaZY, and |g|g(|q) in 1977Kr13 and  
+#G 1980Kr22 (others: 1970NaZL and 1974Aw02)                               
+#G MR$From ECC, except as noted. Values from |g|g(|q) are from            
+#G 1977Kr13 and 1980Kr22                                                  
+#L E$From a least-squares fit to E|g's                                    
+#L J$From deduced transition multipolarities                              
+#G $I(XKA2/XKA1)=0.5376 13, I(XKB1/XKA1)=0.1756 23, I(XKB/XKA)=0.2165 7   
+#G (2007Ya02)                                                             
+#P 0.0         1/2+              10.551 Y  11             517.5     10    
+BA133 CS133 beta+ 0.5175 3.3295694474880004E8 0.6205
++G gamma 0.160612 0.010280000000000001
++G gamma 0.3028508 0.2955
++G gamma 0.3838485 0.1441
++G gamma 0.0531622 0.0345
++G gamma 0.2763989 0.11539999999999999
+
+#133CS    133BA EC DECAY (38.93 H)      1971SU04,1980ANZG         11NDS    201104
+#  133BA EC DECAY (38.93 H)      1971SU04,1980ANZG         11NDS    201104
+#H TYP=FUL$AUT=YU. KHAZOV AND A. RODIONOV, F.G. KONDEV$                   
+#H CIT=NDS 112, 855 (2011)$CUT=31-Oct-2010$                               
+#G CC$ FROM BrIcc v2.2 (31-Mar-2008) 2008KiAA, "Frozen Orbitals" appr.    
+#  1971Su04: {+133}Ba |e decay (38.9 h) [from {+133}Cs(p,n), E=5.5 MeV];  
+#  measured E|g, I|g(t), log {Ift}; deduced levels, J|p. Ge(Li)           
+#  spectrometry. Van de Graaff.                                           
+#  1980AnZG: {+133}Ba |e decay (38.9 h) [from {+133}Cs(p,n), E not given];
+#   measured E|g, I|g, T{-1/2}; deduced by means of Ge(Li)                
+#  spectrometry. Cyclotron, chemical refinement.                          
+#  {+133m}Ba (J=11/2-), T{-1/2}=38.9 h decays to only one 633-keV, 11/2+  
+#  state in {+133}Cs level according to 1980AnZG. The second 606-keV,     
+#  11/2- state, suggested in 1971Su04 and in 1971Ki10 ((n,n'|g) reaction) 
+#  was not confirmed by available data (see {+133}Cs(n,n'|g))             
+#P 288.252   9  11/2-            38.93 H   10             517.5     10    
+BA133 CS133 beta+ 0.5175 140148.0 1.0
+

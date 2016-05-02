@@ -1,0 +1,140 @@
+#195PT    195IR B- DECAY (2.29 H)       1973JA10                  14NDS    201408
+#  195IR B- DECAY (2.29 H)       1973JA10                  14NDS    201408
+#H TYP=FUL$AUT=Huang Xiaolong and Kang Mengxiao$CIT=NDS 121, 395 (2014)$  
+#H CUT=1-Mar-2014$                                                        
+#  Others: 1968Ho01, 1968Ja06.                                            
+#  1973Ja10: measured E|g, I|g, E(ce), and |b|g-coin with Ge(Li) and      
+#  Si(Li).                                                                
+#  Sources produced by {+195}Pt(n,p) (1954Bu02,1968Ja06), {+198}Pt(p,|a)  
+#  (1973Ja10), {+198}Pt(d,|an) (1968Ja06), and {+192}Os(|a,p) (1968Ho01). 
+#L E         From decay scheme and E|g using least-squares fit to data    
+#L J,T       From adopted levels.                                         
+#L           All data are shown in the drawing.                           
+#B IB        From photon intensity imbalance, except for I|b(g.s.)=13     
+#B {I9}.                                                                  
+#G E         Adopted value in 1973Ja10.                                   
+#G RI$I|g(3.67 h component), deduced from 3.67-h {+195}Ir |b{+-}          
+#G decay scheme by evaluator.                                             
+#  Energy balance: total decay energy of 1089 keV {I222} deduced          
+#  (using RADLIST code) from proposed decay scheme is in agreement with   
+#  the expected value of 1102.0 keV {I21} (2012Wa38),                     
+#  suggesting that the decay scheme is reasonably complete.               
+#P 0.0         3/2+              2.29 H    17             1102.0    21    
+IR195 PT195 beta- 1.102 8244.0 0.099
++G gamma 0.09883 1.01
++G gamma 0.030879999999999998 0.14
++G gamma 0.12971000000000002 0.14
++G gamma 0.21130000000000002 0.25
+
+#195PT    195IR B- DECAY (3.67 H)       1973JA10                  14NDS    201408
+#  195IR B- DECAY (3.67 H)       1973JA10                  14NDS    201408
+#H TYP=FUL$AUT=Huang Xiaolong and Kang Mengxiao$CIT=NDS 121, 395 (2014)$  
+#H CUT=1-Mar-2014$                                                        
+#  Measured E|g, I|g, E(ce), |a(K)exp, and |g|b with Ge(Li) and Si(Li).   
+#  Sources produced by {+198}Pt(p,|a) (1973Ja10), {+198}Pt(d,|an)         
+#  (1968Ja06), and {+192}Os(|a,p) (1968Ho01).                             
+#L           All data are shown in the drawing.                           
+#L E         From decay scheme and E|g using least-squares fit to data.   
+#L J,T       From adopted levels.                                         
+#B IB        From I(|g+ce) imbalance                                      
+#  Energy balance: total decay energy of 1054 keV {I56} deduced           
+#  (using RADLIST code) from proposed decay scheme is in agreement with   
+#  the expected value of 1142 keV {I60} ((Q(|b{+-}, g.s.)+100keV)         
+#  \|*| %I|b{+-}), suggesting that the decay scheme                       
+#  is reasonably complete.                                                
+#P 100       5 11/2-             3.67 H    8              1102.0    21    
+IR195 PT195 beta- 1.102 13212.0 0.103
++G gamma 0.027800000000000002 0.024
++G gamma 0.14759999999999998 0.01
++G gamma 0.17846 0.009000000000000001
++G gamma 0.19744 0.01
++G gamma 0.2645 0.006
++G gamma 0.2707 0.004
++G gamma 0.277 0.004
++G gamma 0.3852 0.017
++G gamma 0.38985000000000003 0.06
++G gamma 0.3957 0.005
++G gamma 0.4136 0.027000000000000003
++G gamma 0.41969 0.04
++G gamma 0.4278 0.07
++G gamma 0.4636 0.006
++G gamma 0.5245 0.006999999999999999
++G gamma 0.5267000000000001 0.003
++G gamma 0.5301 0.006999999999999999
++G gamma 0.5341 0.036000000000000004
++G gamma 0.5374 0.016
++G gamma 0.5404 0.002
++G gamma 0.5445 0.002
++G gamma 0.5481 0.003
++G gamma 0.6111 0.005
++G gamma 0.6136 0.002
++G gamma 0.6165 0.02
++G gamma 0.6192000000000001 0.005
++G gamma 0.7155 0.006
++G gamma 0.7237 0.02
++G gamma 0.7507999999999999 0.021
++G gamma 0.7841 0.009000000000000001
++G gamma 0.09885 1.093
++G gamma 0.030850000000000002 0.193
++G gamma 0.12969999999999998 0.174
++G gamma 0.100652 0.0102
++G gamma 0.19958 0.06
++G gamma 0.21130000000000002 0.201
++G gamma 0.1405 0.08
++G gamma 0.23921 0.17800000000000002
++G gamma 0.1295 0.00385
++G gamma 0.15011000000000002 0.018000000000000002
++G gamma 0.25933 0.08
++G gamma 0.2903 0.2
++G gamma 0.17278 0.52
++G gamma 0.060399999999999995 0.15
++G gamma 0.21130000000000002 0.027000000000000003
++G gamma 0.23921 0.013000000000000001
++G gamma 0.31989999999999996 1.0
++G gamma 0.3509 0.106
++G gamma 0.216 0.09
++G gamma 0.24387 0.08
++G gamma 0.25579 0.09
++G gamma 0.32518 0.08
++G gamma 0.35638 0.19
++G gamma 0.37824 0.1
++G gamma 0.40904 0.15
++G gamma 0.115 0.01
++G gamma 0.2878 0.1
++G gamma 0.1303 0.008
++G gamma 0.43286 1.0
++G gamma 0.22369999999999998 0.001
++G gamma 0.37339 0.11
++G gamma 0.4013 0.03
++G gamma 0.5136000000000001 0.003
++G gamma 0.30648000000000003 0.08800000000000001
++G gamma 0.45594 0.081
++G gamma 0.4958 0.053
++G gamma 0.56548 0.023
++G gamma 0.59648 0.022000000000000002
++G gamma 0.11912 0.04
++G gamma 0.20165 0.08
++G gamma 0.25161 0.19
++G gamma 0.2671 0.06
++G gamma 0.30648000000000003 0.142
++G gamma 0.35931 0.48
++G gamma 0.36494 0.99
++G gamma 0.38330000000000003 0.025
++G gamma 0.42541 0.07
++G gamma 0.57535 0.16
++G gamma 0.68488 1.0
++G gamma 0.283 0.006
++G gamma 0.3332 0.008
++G gamma 0.3871 0.033
++G gamma 0.44039999999999996 0.022000000000000002
++G gamma 0.44555 0.049
++G gamma 0.50616 0.067
++G gamma 0.2354 0.027000000000000003
++G gamma 0.38330000000000003 0.025
++G gamma 0.4224 0.013999999999999999
++G gamma 0.47537999999999997 0.016
++G gamma 0.48117000000000004 0.28
++G gamma 0.49860000000000004 0.012
++G gamma 0.6916 0.005
++G gamma 0.8009 0.11
+

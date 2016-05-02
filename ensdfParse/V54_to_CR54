@@ -1,0 +1,61 @@
+# 54CR    54V B- DECAY                  1977NA17,1970WA14,1956SC5414NDS    201408
+#  54V B- DECAY                  1977NA17,1970WA14,1956SC5414NDS    201408
+#H TYP=FUL$AUT=YANG DONG, HUO JUNDE$CIT=NDS 121, 1 (2014)$CUT=20-Jun-2014$
+#  1993: MODIFY THE COMMENT.                                              
+#  1977Na17: produced by 48CA(9BE,2NP) at E=20 MEV. 99.9% enriched target,
+#  GG(T), BG(T), GELI detector.                                           
+#  1970Wa14: produced by 54CR(N,P) at E=14 MEV. 94.1% enriched target,    
+#  GG- and BG-coincidence, GELI, plastic detector.                        
+#B IB$The decay scheme is that of 1977Na17 based on extensive coincidence 
+#B and G's data with the decay scheme as proposed. There is an intensity  
+#B imbalance at 835- and 3160-KEV levels. Due to the negative imbalances, 
+#B the positive BETA branches as given, sum to 114 rather than 100. This  
+#B reflects the incompleteness of the decay scheme.                       
+#B IB(D)$Negative imbalance at 835 level with IB=-4.9 19 and at 3160 level
+#B with IB=-7.6 13.                                                       
+#G           All data are from 1977Na17, except as noted.                 
+#G RI        Normalized to 835G from 1977Na17.                            
+#G RI(A)     Observed in coincidence only. The intensity is that derived  
+#G from the 835-KEV gate.                                                 
+#G E(B),RI(B)$Observed and assigned in the level scheme by 1970Wa14 only. 
+#L E         From using least-squares adjustment procedures.              
+#L J         From adopted levels, except as noted.                        
+#P 0.0         3+                49.8 S    5              7042      15    
+V54 CR54 beta- 7.042 49.8 1.0
++G gamma 2.353 0.11166499999999999
++G gamma 2.82 0.03884
++G gamma 3.17 0.11457800000000001
++G gamma 0.83475 0.971
++B beta- 2.368 0.04
++G gamma 0.9889600000000001 0.801075
++B beta- 1.98 0.024
++G gamma 1.78444 0.081564
++G gamma 2.6213 0.02913
++G gamma 2.23911 0.012623
++G gamma 1.33622 0.025246
++G gamma 2.32502 0.022333
++G gamma 1.39863 0.045637
++B beta- 1.584 0.012
++G gamma 2.60204 0.027188
++B beta- 1.478 0.048
++G gamma 1.83127 0.047579
++B beta- 1.415 0.15
++G gamma 0.56368 0.0423356
++G gamma 0.6265599999999999 0.007379599999999999
++G gamma 1.96153 0.100013
++B beta- 1.409 0.11599999999999999
++G gamma 0.63935 0.035927
++G gamma 1.97433 0.044666
++G gamma 2.96429 0.034956
++B beta- 1.273 0.659
++G gamma 0.64627 0.022333
++G gamma 0.9232899999999999 0.080593
++G gamma 1.00925 0.013594
++G gamma 1.46351 0.086419
++G gamma 2.25935 0.45637
++B beta- 1.208 0.07
++G gamma 2.39482 0.030101
++G gamma 3.38296 0.039811
++B beta- 1.097 0.016
++G gamma 2.627 0.015536000000000001
+

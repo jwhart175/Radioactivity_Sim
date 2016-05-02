@@ -1,0 +1,43 @@
+#189PB    189PB IT DECAY (22.2 US)      2005BA51,2009DR03         ENSDF    201102
+#  189PB IT DECAY (22.2 US)      2005BA51,2009DR03         ENSDF    201102
+#H TYP=FUL$AUT=T.D. Johnson, D. Choudhury, H. Pai, B. Singh$CIT=ENSDF$    
+#H CUT=28-FEB-2011$                                                       
+#  2005Ba51: {+158}Gd({+36}Ar,5n|g): E=178 MeV.  Target=0.43 mg/cm{+2}    
+#  92.9% enriched {+158}Gd. Measured E|g, I|g, |g|g,                      
+#  particle-|g coin with 10 Compton-suppressed Ge detectors and           
+#  parallel-grid avalanche counter (PGAC).  Fragment mass analyzer (FMA)  
+#  used to accept evaporation residues recoiling from target according to 
+#  their mass/charge ratio.  Reaction products detected by PGAC via energy
+#  loss (|DE) and focal-plane-position signals.                           
+#  {+164}Er({+29}Si,4n|g): E=140 MeV.  Target=2.5 mg/cm{+2} 73.6% enriched
+#  {+164}Er. Measured E|g, I|g, |g|g, |g|g(t),                            
+#  lifetimes with six Compton-suppressed Ge detectors and two planar low  
+#  energy photon spectrometer (LEPS) detectors of the CAESAR array.       
+#  2009Dr03: {+164}Er beam produced at E=145 MeV by 14UD Pelletron        
+#  accelerator at Australian National University. Target=700 |mg/cm{+2}.  
+#  A spectrometer,                                                        
+#  consisting of the fusion product separator SOLITAIRE, an annular array 
+#  of six cooled Si(Li) electron detectors, a single large-volume Ge      
+#  detector and a single LEPS detector, were used to measure both |g rays 
+#  and electrons. CAESAR array of Ge detectors was used in complementary  
+#  experiments                                                            
+#G RI$Values are from out-of-beam measurements. Intensities from          
+#G in-beam measurements are given under comments for those transitions    
+#G for which values have been deduced. All values scaled down by a factor 
+#G of five by the compilers so as to renormalize the decay scheme to an   
+#G intensity of 100 for the 818 |g-ray.                                   
+#G M(Z)$Measured |a(exp) implies E0 admixture                             
+#G $|a(exp)'s have been determined from intensity balance considerations. 
+#L E$From least-squares fit to E|g data                                   
+#L J$Assignments are as given in 2005Ba51 and 2009Dr03, based on          
+#L multipolarities from conversion data, systematics of                   
+#L neighbouring isotopes and isotones,                                    
+#L and transition strengths                                               
+#L T(Y)$ Estimated from |g(t), upper limit is given                       
+#L BAND(A)$ BAND BASED ON (17/2+), |a=+1/2.                               
+#L 2005Ba51 compared this band with 9/2[624] band in {+187}Pb             
+#L BAND(a)$ BAND BASED ON (15/2+), |a=-1/2.                               
+#L 2005Ba51 compared this band with 9/2[624] band in {+187}Pb.            
+#L BAND(B)$ |ni{-13/2}{+-3} band                                          
+#P 2434.53+X 18 (31/2-)          22.2 US   +69-14                         
+

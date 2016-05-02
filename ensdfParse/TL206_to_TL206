@@ -1,0 +1,23 @@
+#206TL    206TL IT DECAY (3.74 M)       1978UR01,1976HA44,1976BE4408NDS    200805
+#  206TL IT DECAY (3.74 M)       1978UR01,1976HA44,1976BE4408NDS    200805
+#H TYP=FUL$AUT=F.G. KONDEV$CIT=NDS 109, 1527 (2008)$CUT=31-Jan-2008$      
+#  1976Be44:  PRODUCED BY 204HG(A,PN) REACTION ON ENRICHED (99.7%)        
+#       TARGET WITH E(A)=39-55 MEV.  G'S MEASURED WITH ^Ge DETECTOR.      
+#  1976Ha44:  PRODUCED BY 204HG(7LI,AN) REACTION ON ENRICHED (92.5%       
+#       TARGET WITH E(7LI)=36 MEV.  MEASURED: G SINGLES, GG COINCIDENCES, 
+#       PERTURBED GG(THETA) and G(T) WITH GE(LI) DETECTORS.               
+#  1978Ur01: PRODUCED BY 209BI(N,A) REACTION WITH E(N)=14 MEV.            
+#       MEASURED G SINGLES AND GG COINCIDENCES with ^Ge DETECTORS.        
+#  Others: 1976HaXT, 1976HaYV, 1976HaYY, 1977UrZY, 1978Bo16, and 1982BoZN.
+#L E$From a least-squares fit to EG                                       
+#L J$From 206TL adopted levels                                            
+#G E$From 1978Ur01. Others: 1976Be44 and 1976Ha44, both without           
+#G uncertainties.                                                         
+#G RI$From TI of 1978Ur01, but converted to RI values by the evaluator    
+#G using the theoretical ICC values. The 1978Ur01 values are in agreement 
+#G with those of 1976Be44 (incomplete data set) and 1976Ha44              
+#G (no uncertainties given)                                               
+#G M$From adopted levels                                                  
+#P 2643.3    3  (12-)            3.74 M    3                              
+TL206 TL206 IT 0.0 224.4 1.0
+

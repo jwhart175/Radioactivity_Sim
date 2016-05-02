@@ -1,0 +1,32 @@
+# 34SI    34AL B- DECAY (56.3 MS)       2001NU01                  12NDS    201206
+#  34AL B- DECAY (56.3 MS)       2001NU01                  12NDS    201206
+#H TYP=FUL$AUT=NINEL NICA, BALRAJ SINGH$CIT=NDS 113, 1563 (2012)$         
+#H CUT=28-May-2012$                                                       
+#G CC$ FROM BrIcc v2.2b (20-Jan-2009) 2008Ki07, "Frozen Orbitals" appr.   
+#  2001Nu01 (also 2002Nu02): mass-separated {+34}Al produced in U(p,X)    
+#  E=1 GeV reaction using uranium carbide target, CERN-ISOLDE facility.   
+#  Measured E|g, I|g, |b, |b|g, |b|g|g, |bn|g coin, |b|g(t), T{-1/2} and  
+#  delayed neutron-emission probability using Ge and BaF{-2} detectors for
+#  |g rays, plastic scintillation detectors for |b rays and neutrons.     
+#  No evidence was found for delayed two-neutron decay mode. Comparison   
+#  with {Isd-fp} shell-model calculations and Gamow-Teller strengths.     
+#  1989Ba50: previous experiment at CERN-ISOLDE facility,                 
+#  measured E|g, I|g, %|b{+-}n, estimate of level half-life               
+#  from |b|g(t). Evaluators consider it superseded by 2001Nu01, an        
+#  improved experiment from the same laboratory                           
+#  Energy balance: total decay energy of 12130 keV {I890} deduced         
+#  (using RADLIST code) from proposed decay scheme is much lower than     
+#  the expected value of 16910 keV {I62}, indicating that the decay scheme
+#  is incomplete                                                          
+#B IB$ From |g-ray intensity balance                                      
+#G E(A)$Placement from 2003Iw02 from {+2}H({+34}Si,{+34}Si'|g)            
+#L $ A 2133, (0+) level proposed in 2001Nu01 with possible population     
+#L by 1193.3-keV transition from 3327, 2+ level is not confirmed by       
+#L 2003Iw01 who find 1193|g to be in coin with 3327|g. Thus 2133, (0+)    
+#L is omitted here                                                        
+#L E$From least-squares fit to E|g data                                   
+#L E(A)$Level proposed in 2003Iw02 from {+2}H({+34}Si,{+34}Si'|g)         
+#L J$From Adopted Levels                                                  
+#P 0             (4-)            56.3 MS   5              16910     62    
+AL34 SI34 beta- 16.91 0.056299999999999996 1.0
+

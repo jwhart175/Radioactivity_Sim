@@ -1,0 +1,100 @@
+#158DY    158HO EC DECAY (11.3 M+28 M)  1978AN11,1974AL30,1975RU0204NDS    200403
+#  158HO EC DECAY (11.3 M+28 M)  1978AN11,1974AL30,1975RU0204NDS    200403
+#H TYP=FUL$AUT=R. G. Helmer$CIT=NDS 101, 325 (2004)$CUT=1-Oct-2003$       
+#  These activities have been studied in equilibrium following the decay  
+#       of 2.4-h {+158}Er which has been produced by spallation of Ta     
+#       with 660-MeV protons with chemical separation or chemical and     
+#       mass separation (1968Ab14,1974Al30) and by {+150}Sm({+12}C,4n)    
+#       and {+151}Eu({+11}B,4n) reactions (1975Ru02,1978An11). The Ho     
+#       activities have also been produced by Ta(p,x) (1974Al30) and      
+#       {+148}Nd({+14}N,4n) (1975Ru02) reactions. Others: 1974AlZG,       
+#       1973Ch28, 1966La11, 1966Ab02, 1965St08, 1962Sc10, 1961Gr25,       
+#       1961Bo24, 1961Ba32, 1961Ab04, 1960Dn01, 1960Ba66, 1960Ab07.       
+#L           1978An11 have suggested the assignment of a number of        
+#L      excited states as members of octupole bands having KPI=0-, 1-     
+#L      and 2-. The evaluator, however, has not adopted these band        
+#L      assignments.                                                      
+#E           If one assumes that all |e decays are allowed or             
+#E      nonunique first forbidden, the 5+ parent will populated levels    
+#E      with J = 3, 4, and 5 and the 2- parent will populate levels with  
+#E      J = 1, 2, and 3.  Although this would allow some separation of    
+#E      the decays of the two parents, a complete separation is not       
+#E      possible.  Therefore, no I(-|e+|b+) or log {Ift} values are       
+#E      given.                                                            
+#G           The longest list of |g's is from 1978An11, but substantial   
+#G      lists are also given by 1968Ab14, 1974Al30, and 1975Ru02. There   
+#G      are many |g's that are only reported by one or two authors. Any   
+#G      |g's reported by only one author are flagged.                     
+#G           The coincidence data are from 1978An11.                      
+#L E         From least-squares fit to the |g energies.                   
+#L T         From measurements from this decay mode only, see {+158}Dy    
+#L      Adopted Levels for all values.                                    
+#G E         Weighted average of values from 1974Al30, 1975Ru02, and      
+#G      1978An11 with the larger of the internal and external             
+#G      uncertainties used. This process may underestimate the            
+#G      uncertainties since 1975Ru02 and 1978An11 have a common author    
+#G      so these values may not be independent; this possibility is       
+#G      supported by the fact that a number of the energies are exactly   
+#G      the same in these two references.  Other: 1968Ab14.               
+#G RI        From 1978An11, unless noted otherwise. Other values that     
+#G      differ significantly are noted.                                   
+#G M         From {+158}Dy Adopted Gammas, but they are as reported by    
+#G      1978An11 from |a{-K}(exp) values based on I{-|g} of 1978An11      
+#G      and ce data of 1974Al30 and normalized to |a{-K}(218.20)=0.125    
+#G      as expected for an E2 |g.                                         
+#G M(M)      |a{-K}(exp), including the uncertainty, exceeds the M1       
+#G     value; mult=E0 + E2 is assigned when |DJ=0, but there could        
+#G     also be an M1 component.                                           
+#G M(N)      Mult=E1,E2 for multiplet                                     
+#G M(O)      Mult=E2 for multiplet                                        
+#G E(R),RI(R)$From 1975Ru02 only.                                         
+#G E(T),RI(T)$From 1974Al30 only.                                         
+#G E(U),RI(U)$From 1978An11 only.                                         
+#L T(D)      From 1970Mo39.                                               
+#L BAND(A)   K|p=0+ ground-state band                                     
+#L BAND(B)   K|p=0+ |b-vibrational band                                   
+#L BAND(C)   K|p=2+ |g-vibrational band                                   
+#L BAND(E)   K|p=2+ band                                                  
+#L BAND(F)   K|p=4+ two-quasineutron band                                 
+#P1   0.0       5+               11.3 M    4              4230      30    
++G gamma 0.21819999999999998 10.0
+
+#158DY    158HO EC DECAY (21.3 M)       1979GOZU,1975AL13,1970SCZO04NDS    200403
+#  158HO EC DECAY (21.3 M)       1979GOZU,1975AL13,1970SCZO04NDS    200403
+#H TYP=ERR$AUT=J. Tuli$DAT=15-Nov-2007$COM=fixed typos based on PNPI rpt  
+#H TYP=FUL$AUT=R. G. Helmer$CIT=NDS 101, 325 (2004)$CUT=1-Oct-2003$       
+#  {+158}Ho produced in spallation of Ta by protons (1979GoZU,1975Al13)   
+#       and by {+159}Tb(|a,5n) (1970ScZO).                                
+#  Scheme is primarily from 1979GoZU, but includes the placements of      
+#       only a few |g's.  Scheme is not complete.  1970ScZO report the    
+#       population of the 6+ of the |g band which they place at 1552      
+#       (adopted value is 1547) fed by a 977 |g from 2528 level and       
+#       depopulated by a 915 |g. Here the 977 |g is placed                
+#       elsewhere and the 915 |g is omitted.                              
+#  E{-|g} measured by 1970ScZO, 1975Al13, 1979GoZU, and I{-|g} measured   
+#       by 1975Al13, 1979GoZU.                                            
+#  I{-ce}(K)(162):I{-ce}(K)(166):I{-ce}(K)(187)=20:10:24 (1979GoZU)       
+#  The energy of the parent level, with J|p=(9+) and a configuration of   
+#       (|p,7/2[523])+(|n,11/2[505]), has not been measured, but          
+#       it has been calculated by 1986So02 to be |? 180 keV and this      
+#       value is used for log {Ift} calculations.                         
+#            The high spin of the parent suggests that the decay be to    
+#       a few levels. such as those at 2528 and 3237 keV.  However, the   
+#       low log {Ift} value for the decay to the 2528 level suggests      
+#       that most of the decay may be missing.                            
+#G E         From 1979GoZU, except as otherwise noted.                    
+#G RI        From 1979GoZU.                                               
+#G M         From {+158}Dy Adopted |g radiations                          
+#G E(B)      Nominal values from {+158}Dy Adopted |g's.                   
+#G E(D)      From 1970ScZO.                                               
+#G E(E)      From 1975Al13.                                               
+#L J         From {+158}Dy Adopted Levels.                                
+#L E(A)      From 1970ScZO.                                               
+#L E(C)      From Adopted Levels and included to provide for deexcitation 
+#L      of 2021 level.                                                    
+#P 180       CA(9+)              21.3 M    23             4230      30    
++G gamma 0.1626 0.196
++G gamma 0.2044 0.212
++G gamma 0.2065 0.214
++B beta+ 0.2069 0.00116
+

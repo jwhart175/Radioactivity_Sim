@@ -1,0 +1,77 @@
+# 80SR    80Y EC DECAY (30.1 S)         1999DO01,1981LI12,1982DE3605NDS    200508
+#  80Y EC DECAY (30.1 S)         1999DO01,1981LI12,1982DE3605NDS    200508
+#H TYP=FUL$AUT=BALRAJ SINGH$CIT=NDS 105, 223 (2005)$CUT=22-Jun-2005$      
+#  1999Do01 (also 2000Do10): {+80}Y source produced by {+24}Mg({+58}Ni,pn)
+#  at 190 MeV and separated by Argonne fragment mass analyzer (FMA).      
+#  Measured E|g, I|g, |g|g, |b|g, time-|g and |b-gated time-|g using      
+#  three Compton-suppressed HPGe detectors, a low-energy photon (LEPS)    
+#  spectrometer. Positrons emitted in the decay of {+80}Y were detected   
+#  with thin plastic scintillators placed in front of Ge detectors.       
+#  1981Li12: source produced by {+58}Ni({+24}Mg,pn) E=85 MeV,             
+#  {+58}Ni({+25}Mg,p2n) E=95 MeV and {+58}Ni({+28}Si,pn|a) E=110 MeV.     
+#  Measured T{-1/2}({+80}Y), |g, |g|g, |gX, |b, |b|g                      
+#  1982De36: source produced by {+54}Fe({+32}S,pn|a) and mass             
+#  separation. Measured |g, |g|g, |g|g(t), |b, |b|g, T{-1/2}({+80}Y)      
+#  Others:                                                                
+#  2003Ba18: Source produced by 58NI(28SI,NPA); measured Q value          
+#  by |b|g coin.                                                          
+#  1996Sh27: Source produced by {+54}Fe({+28}Si,pn) E=88 MEV.             
+#  Measured Q value by |b|g coin                                          
+#  1987Li14, 1987Lo10, 1987LeZT: yield of {+80}Y in heavy-ion reactions   
+#  All data are from 1999Do01, unless otherwise stated                    
+#E TI,LOGFT$ All feedings should be treated as upper limits and           
+#E associated LOGFT values as lower limits since there                    
+#E could be many higher levels, unobserved as yet, in the energy          
+#E gap of about 5.5 MEV between Q value and the highest known level       
+#G E,RI$ From 1999Do01. Values for 9 gamma rays from 1981Li12 and         
+#G 7 gamma rays from 1982De36 are in general agreement                    
+#G E(A)$ From text and figure 2 of 1999Do01; intensity is estimated       
+#G (by the evaluator) as <1 from figure 2 of 1999Do01                     
+#L E$From least-squares fit to E|g's                                      
+#L J$From 'adopted levels'. The assignments by 1999Do01, based on rather  
+#L weak arguments, are different in some cases; these are listed under    
+#L comments. In other cases the evaluator has added parentheses since     
+#L strong arguments are lacking                                           
+#P    0.0       (4-)               30.1 S  5               9.09E3   18    
++B beta+ 3.606 0.22
++B beta+ 3.331 0.31
++B beta+ 3.239 0.05
++B beta+ 3.042 0.052000000000000005
++B beta+ 2.992 0.017
++B beta+ 2.939 0.054000000000000006
++B beta+ 2.914 0.068
++B beta+ 2.688 0.031
++B beta+ 2.686 0.017
++B beta+ 2.628 0.043
++B beta+ 2.426 0.015
++B beta+ 2.367 0.013999999999999999
++B beta+ 2.318 0.018000000000000002
++B beta+ 2.301 0.005
++B beta+ 2.267 0.006999999999999999
++B beta+ 2.209 0.026000000000000002
++B beta+ 2.196 0.006
++B beta+ 2.164 0.009000000000000001
++B beta+ 2.009 0.036000000000000004
+
+# 80SR    80Y EC DECAY (4.8 S)          1999DO01                  05NDS    200508
+#  80Y EC DECAY (4.8 S)          1999DO01                  05NDS    200508
+#H TYP=FUL$AUT=BALRAJ SINGH$CIT=NDS 105, 223 (2005)$CUT=22-Jun-2005$      
+#  1999Do01 (also 2000Do10): {+80}Y source produced by {+24}Mg({+58}Ni,pn)
+#  at 190 MeV and separated by Argonne fragment mass analyzer (FMA).      
+#  Measured E|g, I|g, |g|g, |b|g, time-|g and |b-gated time-|g using      
+#  three Compton-suppressed HPGe detectors, a low-energy photon (LEPS)    
+#  spectrometer. Positrons emitted in the decay of {+80}Y were detected   
+#  with thin plastic scintillators placed in front of Ge detectors.       
+#  2001No07: Measured T1/2 for neutral and fully-ionized {+80}Y           
+#E TI$ Total feeding to all the states should be 19% 2.                   
+#E Upper limits of feedings to GS and 385.8 level are from LOGFT>5.9      
+#E for first-forbidden |b transitions. The actual feedings to both these  
+#E states are expected to be much lower                                   
+#G RI(A)$ Estimated (evaluator) from figure 5 of 1999Do01                 
+#L J$ FROM ADOPTED LEVELS                                                 
+#P  228.5    1  (1-)               4.8 S   3               9.09E3   18    
++B beta+ 3.925 0.15
++B beta+ 3.735 0.12
++B beta+ 3.364 0.004
++B beta+ 2.704 0.008
+

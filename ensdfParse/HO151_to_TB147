@@ -1,0 +1,77 @@
+#147TB    151HO A DECAY (35.2 S):A151   1991TO08,1987LI09,1996PA0109NDS    200902
+#  151HO A DECAY (35.2 S):A151   1991TO08,1987LI09,1996PA0109NDS    200902
+#H TYP=FUL$AUT=N. NICA$CIT=NDS 110,749 (2009)$CUT=14-Nov-2008$            
+#  Measured: a, |g (1991To08); a, |g, |a|g (1987Li09); a                  
+#  (1979Ry03,1996Pa01), a, |a|g coin (1995Wa31).                          
+#  Others: 1995Wa31, 1987LiZU                                             
+#L J$Adopted values for {+147}Tb in ENSDF for A=147                       
+#A E$|DE=0.6 for E(4517|a)-E(4220|a)                                      
+#A           No |a to 1/2+ (I|a<0.04 (1995Wa31), 0.7 (1987Li09)),         
+#A no |a to 3/2+ (I|a<0.01 (1995Wa31,1987Li09))                           
+#P 0.0         11/2-             35.2 S    1              4695.0    18    
+HO151 TB147 alpha 4.695 35.2 0.22
++A alpha 4.5221 1.0
++A alpha 4.22 3.2E-4
+
+#147TB    151HO A DECAY (35.2 S)        1995WA31,1991TO08,1987LI0909NDS    200902
+#  151HO A DECAY (35.2 S)        1995WA31,1991TO08,1987LI0909NDS    200902
+#H TYP=FUL$AUT=N. NICA$CIT=NDS 110,749 (2009)$CUT=14-Nov-2008$            
+#  1995WA31: 660-MEV protons on W at ^ISOL/^YASNAPP-2 (^JINR Dubna);      
+#  used Si(Au) and HPGe detectors with disk transport;                    
+#  measured EA, IA, |a|g                                                  
+#  1991TO08: 291-MEV (273-MEV at target midpoint) 64ZN on 95MO (98.8%)    
+#  followed by |a and EC decays; used SI DE-E, HPGe, 1-mm-thick plastic   
+#  scintillator, n-type Ge detectors with tape transport; measured EG, IG,
+#  EA, IA, |g|g                                                           
+#  1987LI09: 280-MEV 3HE on TB at ^ISOCELE ^II mass separator (Orsay);    
+#  used Ge(Li) and Si surface barrier detectors with tape transport;      
+#  measured |a|g, |g|g. Also 96MO(58NI,3p) at ^GSI                        
+#  Others: 1996PA01: (EA), 1990PO13 (EA, IA), 1988SCZV (|a|g), 1982BA75   
+#  (EG, IG, deduced 151HO A branching), 1982BO04 (EA), 1974SC19 (EA, IA,  
+#  EG, deduced 151HO ALPHA branching), 1963MA17 (EA, T1/2)                
+#  Used data adopted by 1997SI03, and 1991RY01, 1979RY03                  
+#L J,T$Adopted values                                                     
+#P 0.0         (11/2-)           35.2 S    1              4695.0    18    
+HO151 TB147 alpha 4.695 35.2 0.22
++A alpha 4.568 4.0E-4
++A alpha 4.5221 1.0
++A alpha 4.32 1.0E-4
++A alpha 4.223 3.2E-4
+
+#147TB    151HO A DECAY (47.2 S)        1995WA31,1991TO08,1987LI0909NDS    200902
+#  151HO A DECAY (47.2 S)        1995WA31,1991TO08,1987LI0909NDS    200902
+#H TYP=FUL$AUT=N. NICA$CIT=NDS 110,749 (2009)$CUT=14-Nov-2008$            
+#  1995WA31: 660-MEV protons on W at ^ISOL/^YASNAPP-2 (^JINR Dubna);      
+#  used Si(Au) and HPGe detectors with disk transport;                    
+#  measured EA, IA, |a|g                                                  
+#  1991TO08: 291-MEV (273-MEV at target midpoint) 64ZN on 95MO (98.8%)    
+#  followed by |a and EC decays; used SI DE-E, HPGe, 1-mm-thick plastic   
+#  scintillator, n-type Ge detectors with tape transport; measured EG, IG,
+#  EA, IA, |g|g                                                           
+#  1987LI09: 280-MEV 3HE on TB at ^ISOCELE ^II mass separator (Orsay);    
+#  used Ge(Li) and Si surface barrier detectors with tape transport;      
+#  measured |a|g, |g|g. Also 96MO(58NI,3p) at ^GSI; supersedes 1987LIZU   
+#  Others: 1990PO13 (EA, IA), 1988SCZV (|a|g), 1982BA75                   
+#  (EG, IG, deduced 151HO{+m} ALPHA branching), 1982BO04 (EA), 1974SC19   
+#  (EA, IA, EG, deduced 151HO{+m} ALPHA branching), 1963MA17 (EA, T1/2)   
+#  Used data adopted by 1997SI03, and 1991RY01, 1979RY03                  
+#L J,T$Adopted values                                                     
+#P 41.0      2 (1/2+)            47.2 S    10             4695.0    18    
++A alpha 4.610600000000001 0.998
++A alpha 4.562 6.0E-4
++A alpha 4.363 2.0E-4
++A alpha 4.263 0.0023499999999999997
+
+#147TB    151HO A DECAY (47.2 S):A151   1991TO08,1987LI09,1995WA3109NDS    200902
+#  151HO A DECAY (47.2 S):A151   1991TO08,1987LI09,1995WA3109NDS    200902
+#H TYP=FUL$AUT=N. NICA$CIT=NDS 110,749 (2009)$CUT=14-Nov-2008$            
+#  Measured: a, (1991To08); a, |g, |a|g (1987Li09); a (1979Ry03), |a|g    
+#  (1995Wa31). Other: 1987LiZU                                            
+#L J$Adopted values for {+147}Tb in ENSDF for A=147                       
+#A E         |DE=0.6 for E(4604|a)-E(4260|a)                              
+#A           No |a to 11/2- (I|a<0.06 (1995Wa31), 1.1 (1987Li09));        
+#A no |a to 3/2+ (I|a<0.02 (1995Wa31), 0.05 (1987Li09))                   
+#P 41.0      2 1/2+              47.2 S    10             4695.0    18    
++A alpha 4.610600000000001 1.0
++A alpha 4.26 0.0024
+

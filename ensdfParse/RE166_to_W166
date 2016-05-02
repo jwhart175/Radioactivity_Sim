@@ -1,0 +1,17 @@
+#166W     166RE EC DECAY                1992ME10                  08NDS    200804
+#  166RE EC DECAY                1992ME10                  08NDS    200804
+#H TYP=FUL$AUT=CORAL M. BAGLIN$CIT=NDS 109, 1103 (2008)$CUT=1-Mar-2008$   
+#  1992ME10: SOURCES FROM 141PR(32S,PXN), E=204 MEV; MEASURED EG, IG,     
+#  XK-|g COIN, GG COIN, EA (166RE), G EXCITATION FUNCTIONS, G(T), |a(t).  
+#  ISOTOPIC IDENTIFICATION FROM EXCIT AND CROSS BOMBARDMENTS.             
+#  THE PARTIAL DECAY SCHEME IS TAKEN FROM 1992ME10.  IT HAS NOT BEEN      
+#  NORMALIZED BECAUSE Q(EC) IS LARGE (AP 10 MEV) AND THE SCHEME IS        
+#  ALMOST CERTAINLY VERY INCOMPLETE.                                      
+#G E,RI      FROM 1992ME10.                                               
+#G M         FROM Adopted Gammas.                                         
+#L E         FROM EG.                                                     
+#L J         FROM Adopted Levels.                                         
+#P 0.0                           2.25 S     21            10040     SY    
+RE166 W166 beta+ 10.04 2.25 0.76
++B beta+ 1.259 0.0054600000000000004
+

@@ -1,0 +1,68 @@
+#195TL7C  ALPHA DECAY FROM A (9/2-) 199BI GROUND STATE WOULD BE EXPECTED         
+#  ALPHA DECAY FROM A (9/2-) 199BI GROUND STATE WOULD BE EXPECTED         
+#  TO POPULATE THE 483-KEV (9/2-) LEVEL IN 195TL WITH A CONSEQUENTLY      
+#  EVEN SMALLER ENERGY RELEASE.                                           
+#  For the evaluations, see 1988Sc02 and 1986BrZQ.                        
+#L J(A),T(A)$From adopted levels                                          
+#N 1                     0.0001  AP                                       
+BI199 TL195 alpha 4.441 900.0 0.0001
+#N BR        |e/a|?8|*10{+3} (1950Ne77), K| x ray/a|?1|*10{+4}            
+#N (1964Si11); |e/a< 0.028 (1970DaZM). Value from 1988Sc02                
+#P 667       4 (1/2+)            24.70 M   15             4933      7     
++A alpha 5.484 1.0
+
+#195TL7C  ALPHA DECAY FROM A (9/2-) 199BI GROUND STATE WOULD BE EXPECTED         
+#  ALPHA DECAY FROM A (9/2-) 199BI GROUND STATE WOULD BE EXPECTED         
+#  TO POPULATE THE 483-KEV (9/2-) LEVEL IN 195TL WITH A CONSEQUENTLY      
+#  EVEN SMALLER ENERGY RELEASE.                                           
+#  For the evaluations, see 1988Sc02 and 1986BrZQ.                        
+#L J(A),T(A)$From adopted levels                                          
+#N 1                     0.0001  AP                                       
+BI199 TL195 alpha 4.441 900.0 0.0001
+#N BR        |e/a|?8|*10{+3} (1950Ne77), K| x ray/a|?1|*10{+4}            
+#N (1964Si11); |e/a< 0.028 (1970DaZM). Value from 1988Sc02                
+#P 667       4 (1/2+)            24.70 M   15             4933      7     
++A alpha 5.484 1.0
++G gamma 0.09179999999999999 0.006
++G gamma 0.4021 0.019
++G gamma 0.3836 0.94
++G gamma 0.0991 0.006
++G gamma 0.3942 0.54
++G gamma 0.31322000000000005 0.2
++G gamma 0.7072 0.36
++G gamma 0.6072000000000001 0.084
++G gamma 0.42860000000000004 0.107
++G gamma 0.7415 0.115
++G gamma 0.3058 0.016
++G gamma 0.7339 0.122
++G gamma 0.39280000000000004 0.046
++G gamma 0.8212999999999999 0.131
++G gamma 0.4185 0.04
++G gamma 0.5529 0.048
++G gamma 0.8471000000000001 0.2
++G gamma 0.1757 0.10400000000000001
++G gamma 0.4587 0.15
++G gamma 0.5457000000000001 0.032
++G gamma 0.8513 0.025
++G gamma 0.3168 0.125
++G gamma 0.49260000000000004 0.02
++G gamma 0.1173 0.021
++G gamma 0.5758 0.034
++G gamma 0.6631 0.081
++G gamma 0.31139999999999995 0.1
++G gamma 0.6277 0.051
++G gamma 0.2737 0.11800000000000001
++G gamma 0.1988 0.027999999999999997
++G gamma 0.4723 0.018000000000000002
++G gamma 0.0973 0.006999999999999999
++G gamma 0.36110000000000003 0.063
++G gamma 0.6723 0.091
++G gamma 0.3123 0.064
++G gamma 0.6732 0.091
++G gamma 0.21580000000000002 0.057999999999999996
++G gamma 0.5276000000000001 0.035
++G gamma 0.15569999999999998 0.031
++G gamma 0.1175 0.013000000000000001
++G gamma 0.172 0.027000000000000003
++G gamma 0.2185 0.028999999999999998
+

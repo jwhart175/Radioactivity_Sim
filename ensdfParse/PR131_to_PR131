@@ -1,0 +1,15 @@
+#131PR    131PR IT DECAY (5.73 S)       1996GE12                  06NDS    200612
+#  131PR IT DECAY (5.73 S)       1996GE12                  06NDS    200612
+#H TYP=FUL$AUT=YU. KHAZOV, I. MITROPOLSKY, A. RODIONOV$                   
+#H CIT=NDS 107, 2715 (2006)$CUT=17-Jul-2006$                              
+#  1996Ge12: {+96}Mo({+40}Ca,^X), E=255 MeV; |g(t), ce(t), |g|g, ce|g     
+#  coincidences, He-jet technique, electron selector.                     
+#  {+nat}In({+20}Ne,X), E=95 MeV; measured |g|g. Beam chopper             
+#  Others: 1983GaZT, 1992GeZZ, 1993GeZZ                                   
+#  Level scheme from 1996Ge12                                             
+#G RI        From I(|g+ce) and |a                                         
+#G M$From ECC                                                             
+#L E$From least-squares fit to E|g's                                      
+#P      152.4   (11/2-)          5.73 S    20                             
+PR131 PR131 IT 0.0 5.73 0.964
+

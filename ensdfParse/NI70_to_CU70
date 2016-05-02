@@ -1,0 +1,44 @@
+# 70CU    70NI B- DECAY                 2004VA08                  04NDS    200412
+#  70NI B- DECAY                 2004VA08                  04NDS    200412
+#H TYP=ERR$AUT=B. Singh$DAT=6-Aug-2008$COM=Fixed IG(101G)$                
+#H TYP=FUL$AUT=J. K. Tuli$CIT=NDS 103, 389 (2004)$CUT=16-Jan-2004$        
+#  70NI isotope produced through induced fission by impinging a proton    
+#  beam on two thin foils of natural uranium at E=30 MeV via the          
+#  thin-target gas cell method.  The fission fragments were subsequently  
+#  thermalized and neutralized in a buffer gas.  The beam was made        
+#  sufficiently clean through resonant laser ionization.                  
+#  Measured G, GG, BG, T1/2 with 2 HPGE                                   
+#  detectors and 3 thin plastic |DE scintillators for B detection.        
+#  In-source laser spectroscopy was used to probe the hyperfine           
+#  splitting of atomic states.                                            
+#  See also 2002VAZX.                                                     
+#G E(A)$PLACEMENT OF THESE G'S IN THE DECAY SCHEME COULD BE REVERSED and  
+#G hence move 628 keV level to 892 keV.                                   
+#P 0.0         0+                6.0 S     3              3.8E+3    4     
+NI70 CU70 beta- 3.8 6.0 1.0
++G gamma 0.1274 0.004422
++B beta- 1.55 0.71
++G gamma 0.0783 0.04556
++G gamma 0.1265 0.00536
++G gamma 0.1404 0.003886
++G gamma 0.26780000000000004 0.004824
++G gamma 0.3857 0.012864
++B beta- 1.33 0.06
++G gamma 0.3772 0.028140000000000002
++G gamma 0.4551 0.036180000000000004
++G gamma 0.3857 0.00268
++G gamma 0.2328 0.00268
++G gamma 0.6184 0.018760000000000002
++G gamma 0.6961 0.013534
++B beta- 1.06 0.18
++G gamma 0.3396 0.0335
++G gamma 0.5811000000000001 0.004690000000000001
++G gamma 0.6501 0.012864
++G gamma 0.9569 0.0037519999999999997
++G gamma 1.0355999999999999 0.134
++B beta- 0.94 0.048
++G gamma 1.1522999999999999 0.00804
++G gamma 1.2775999999999998 0.04020000000000001
++B beta- 0.73 0.012
++G gamma 1.6112 0.01206
+

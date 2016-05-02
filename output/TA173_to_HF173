@@ -1,0 +1,37 @@
+#173HF    173TA EC DECAY                1973RE03                  95NDS    199509
+#  173TA EC DECAY                1973RE03                  95NDS    199509
+#H TYP=FUL$AUT=V. S. SHIRLEY$CIT=NDS 75,377 (1995)$CUT=1-Oct-1993$        
+#  The decay scheme and most data are from 1973Re03 (sources from         
+#  165HO(12C,4N) (E(12C)=76-83 MEV, metallic holmium targets);            
+#  measured EB (anthracene), EG, IG (GELI with FWHM AP 1.1 KEV            
+#  at 120 KEV and 2.0 KEV at 660 KEV, SILI with FWHM=600 EV at            
+#  67 KEV, surface-barrier SI with FWHM=5 KEV at 624 KEV, NAI),           
+#  prompt and delayed GG and CEG coin, GB coin). Some intensity           
+#  values differ from those in 1973Re03 because of                        
+#  computation errors therein.                                            
+#  Reference citations are given with data from other sources.            
+#  Others: 1960Fa03, 1960Ha18, 1963Sa14, 1971Na28, 1972An04, 1983Ed01.    
+#L T$Delayed CEG coin (1971BoZG,1973Re03). Other: 1972An04.               
+#G M$From CC(exp) except where noted. To normalize the ICE and            
+#G IG intensity scales, ICE values were multiplied by a factor            
+#G of 0.064 5, as deduced from a fit of KC and/or LC (theory)             
+#G for 69.7G, 81.5G, 160.4G, and 172.2G. For EG GT 500, IG and            
+#G ICE values from 1971BoZG were also considered, and a different         
+#G normalization factor deduced.                                          
+#E           EC+B+ feedings are from intensity imbalance at each          
+#E level (GS feeding not expected (DJPI=2, no)). Values are               
+#E approximate because of large number of unplaced transitions.           
+#E           1973Re03 report Q+=3670 200, deduced from                    
+#E EB+=2480 200 (172.2G-B coin). This value, which is                     
+#E considerably higher than Q+=2790 (SY) adopted by 1993Au05, would       
+#E result in LOGFT values ranging from 0.3 to 0.9 larger.                 
+#L           Band structure: see adopted levels.                          
+#G RI(A)$Weak.                                                            
+#G M(BDHK),MR(D)$From CE subshell ratios (1968Ha39).                      
+#G E(E),RI(EG)$From 1971BoZG.                                             
+#G E(FGH)$From CE data (1968Ha39); uncertainty implied by                 
+#G spectrometer resolution.                                               
+#G CC(JK)$Brackets combined range for M1 and E2.                          
+#P 0.0          5/2-             3.14 H    13             2790      SY    
+TA173 HF173 beta+ 2.79 11304.0 1.0
+

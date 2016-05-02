@@ -1,0 +1,45 @@
+# 88RB    88KR B- DECAY                 1976BU05                  14NDS    201401
+#  88KR B- DECAY                 1976BU05                  14NDS    201401
+#H TYP=FUL$AUT=E.A. McCutchan and A.A. Sonzogni$CIT=NDS 115, 135 (2014)$  
+#H CUT=1-Nov-2013$                                                        
+#  1976Bu05: {+88}Kr activity from {+235}U(n,F) and subsequent            
+#  mass-separation and gas-chromatographic-isolation.  Measured E|g,      
+#  I|g, and |g|g using two coaxial Ge(Li) detectors (FWHM=2.5 keV), a     
+#  Compton-suppressed Ge(Li) detector, and a planar Ge(Li) low-energy     
+#  photon spectrometer.                                                   
+#  1976Wo05: {+88}Kr activity from {+235}U(n,f) and subsequent            
+#  separation by the TRISTAN on-line separator. Measured absolute I|b     
+#  and I|g using a Ge(Li) detector and plastic scintillator.              
+#  Shapes of |b spectra measured by 1986HeZY.                             
+#  Others: 1974WoZO, 1973BlZH, 1973GeZZ, 1970Ly01.                        
+#  Total energy release of 2930 keV {I100} is calculated using the        
+#  RADLST code, in good agreement with the decay Q value of 2918 keV      
+#  {I3}.                                                                  
+#G $|a(K)exp: from magnetic spectrometer measurement (1973HaZW), except   
+#G where noted.                                                           
+#G E$From 1976Bu05, except where noted                                    
+#G RI$From 1976Bu05, normalized to I|g(2392|g)=100.                       
+#L E$From a least-squares fit to E|g by evaluators.                       
+#L J$From the Adopted Levels.                                             
+#L E(a)$Level is not adopted                                              
+#B IB$From an intensity balance at each level.                            
+#  CC$FROM BrIcc v2.3a (30-Jun-2013) 2008Ki07, "Frozen Orbitals" appr.    
+#P 0.0          0+                2.825 H   19             2918     3     
++B beta- 1.2354 0.14
++B beta- 1.1385 0.02
++B beta- 1.0537999999999998 0.0026
++B beta- 0.8378 0.013000000000000001
++B beta- 0.6988 0.001
++B beta- 0.6941 0.0102
++B beta- 0.5634 0.0022
++B beta- 0.4665 0.0023
++B beta- 0.4432 0.0192
++B beta- 0.4093 3.5000000000000005E-4
++B beta- 0.37839999999999996 0.0020399999999999997
++B beta- 0.2856 0.0014000000000000002
++B beta- 0.2285 0.091
++B beta- 0.1673 0.67
++B beta- 0.1439 6.6E-4
++B beta- 0.11120000000000001 0.0265
++B beta- 0.03979 0.0035299999999999997
+

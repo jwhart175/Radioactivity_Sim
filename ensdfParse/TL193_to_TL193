@@ -1,0 +1,16 @@
+#193TL    193TL IT DECAY (2.11 M)       1963DI10,1976HA25         06NDS    200602
+#  193TL IT DECAY (2.11 M)       1963DI10,1976HA25         06NDS    200602
+#H TYP=FUL$AUT=E. Achterberg, G.V. Marti, V.R. Vanin, et al.$             
+#H CIT=NDS 107, 1 (2006)$CUT=30-Sep-2005$                                 
+#  1963Di10: sources from {+185}Re({+12}C,4n), E({+12}C)=59, 67 MeV;      
+#  {+181}Ta({+16}O,4n), E({+16}O)=74, 79, 94 MeV. Natural targets.        
+#  Measured E(ce), Ice (mag spect).                                       
+#  1976Ha25: from {+193}Pb (5.8 min) |e decay ({+193}Pb produced by       
+#  bombardment of natural tungsten by {+16}O, mass separation); measured  
+#  E|g, I|g (Ge(Li)).                                                     
+#  Other: 1976GoZP                                                        
+#G TI        From intensity balance in the level scheme                   
+#L J         From adopted levels                                          
+#P 365.0+X      (9/2-)           2.11 M    15                             
+TL193 TL193 IT 0.0 126.6 0.75
+
