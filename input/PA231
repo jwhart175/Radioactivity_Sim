@@ -1,0 +1,203 @@
+#Radioactivity Sim Decay Chain Input File
+#Data:
+#STRING1 = Initial Nucleus (no spaces)
+#STRING2 = Ending Nucleus  (no spaces)
+#STRING3 = alpha, beta-, beta+, or gamma (no spaces)
+#DOUBLE1 = EndNucleus to StartNucleus energy difference in MEV (no commas, no carats, greater than 0)
+#DOUBLE2 = halflife in seconds (no commas, no carats, greater than 0)(note
+#DOUBLE3 = probability (no commas, no carats, between 0 and 1)
+#Rule Format:
+#Rules are separated by lines, each line must have the following format:
+#STRING1 STRING2 STRING3 DOUBLE1 DOUBLE2 DOUBLE3
+#If a given rule has coincident radiation like gamma or x-rays then those are added with:
+#+G STRING4 DOUBLE4 DOUBLE5
+#where STRING4 is the photon name
+#      DOUBLE4 is the photon energy in MeV
+#      DOUBLE5 is the photon percent intensity
+#It is useful to track these in order to get a complete radiation picture
+#Each beta emission energy for the rule should be tracked with:
+#+B STRING5 DOUBLE6 DOUBLE7
+#where STRING5 is the beta name
+#      DOUBLE6 is the beta energy in MeV
+#      DOUBLE7 is the beta percent intensity
+#Each alpha emission energy for the rule should be tracked with:
+#+A STRING8 DOUBLE9 DOUBLE10
+#where STRING8 is the alpha name
+#      DOUBLE9 is the alpha energy in MeV
+#      DOUBLE10 is the alpha percent intensity
+#Each neutron emission energy for the rule should be tracked with:
+#+N STRING11 DOUBLE12 DOUBLE13
+#where STRING11 is the neutron name
+#      DOUBLE12 is the neutron energy in MeV
+#      DOUBLE13 is the neutron percent intensity
+#It is useful to track these in order to get a complete radiation picture
+#*************************************************************
+#227AC    231PA A DECAY                 1979TE02,1982AN02,1970DE1901NDS    200110
+#  231PA A DECAY                 1979TE02,1982AN02,1970DE1901NDS    200110
+#H TYP=FUL$AUT=E. BROWNE$CIT=NDS 93, 920 (2001)$CUT=1-May-2001$
+#  1979BO30.
+#P 0.0         3/2-              3.276E+4 Y11             5149.9    8
+PA231 AC227 alpha 5.1499 1.033804E12 1
++G gamma 0.031 1.0030000000000001E-4
++G gamma 0.03154 6.97E-5
++G gamma 0.039729999999999994 2.3800000000000006E-5
++G gamma 0.03997 1.309E-4
++G gamma 0.04248 5.95E-5
++G gamma 0.04305 6.97E-5
++G gamma 0.05676 6.120000000000001E-5
++G gamma 0.0705 6.97E-5
++G gamma 0.2422 9.010000000000001E-5
++G gamma 0.31 1.5300000000000003E-5
++G gamma 0.31810000000000005 3.4E-5
++A alpha 5.0586 0.11
++A alpha 5.032 0.025
++A alpha 5.0283999999999995 0.2
++A alpha 5.0138 0.254
++A alpha 4.986 0.013999999999999999
++A alpha 4.975 0.004
++A alpha 4.9513 0.228
++A alpha 4.934 0.03
++A alpha 4.9 2.0E-5
++A alpha 4.853 0.013999999999999999
++A alpha 4.795 4.0E-4
++A alpha 4.736 0.084
++A alpha 4.713 0.01
++A alpha 4.681 0.015
++A alpha 4.643 0.001
++A alpha 4.632 0.001
++A alpha 4.599 1.5E-4
++A alpha 4.566 8.0E-5
++A alpha 4.508 3.0E-5
++A alpha 4.41 1.0E-5
+#227TH2CG RI(24.5G)/RI(15.2G)=45.5 in 231U A DECAY.
+#G RI(24.5G)/RI(15.2G)=45.5 in 231U A DECAY.
+#G RI(C)     From TI(9.3G)=35% and CC=326000.
+#P 0.0                3/2-       21.772 Y  3               44.8     8
+AC227 TH227 beta- 0.0448 687057018.4 1
+#223RA    227TH A DECAY                 1990BR23,1972HE18,1969BR2701NDS    200110
+#  227TH A DECAY                 1990BR23,1972HE18,1969BR2701NDS    200110
+#H TYP=ERR$AUT=E. BROWNE$DAT=27-MARCH-2003$
+#H COM=MODIFIED JPI BASED ON 1998JO08 AND LETTER FROM JONES$
+#H TYP=ERR$AUT=E. BROWNE$DAT=27-Aug-2012$CIT=NDS 96,391 (2002)
+#H COM=Corrected normalization$
+#H TYP=FUL$AUT=E. BROWNE$CIT=NDS 93, 846 (2001)$CUT=1-May-2001$
+#  MODIFIED BY E. BROWNE. ADDED G-RAY MULTPS. FROM 1998JO08.
+#  RECALCULATED ALPHA HF USING R0 FROM 1998AK04 (DEC.1999).
+#  ADDED EG, RI FROM 1993AB01 (Jan. 2000).
+#  Modified spin/parity assignments based on AG(THETA) and
+#  ACE(THETA) measurements in 1998JO08. E. Browne, March 2003.
+#  1998JO08: measured AG(THETA), ACE(THETA). Deduced G-ray
+#  multipolarities and mixing ratios. Detectors: GE for G rays,
+#  Si(Li) for electrons, pin diodes for alpha particles.
+#  1993AB01: measured EG, RI. Detector: high-purity germanium.
+#  Data quoted as from a private communication from G. Ardisson
+#  (unpublished).
+#  1990BR23: measured EG, RI, AG(THETA), GG(THETA), G(THETA,H).
+#  Detectors: high-purity germanium, SI(LI).
+#  1972HE18: measured EG, RI, AG coin. Detectors: GE(LI), semi.
+#  1969BR27: measured EG, RI,AG coin. Detectors: GE(LI),
+#  crystal spectrometer.
+#G E         Weighted average (lwm) from 1993AB01, 1990BR23, 1972HE18,
+#G and 1969BR27, unless otherwise specified.
+#G RI        Weighted average (lwm) from 1993AB01, 1972HE18, and
+#G 1969BR27, unless otherwise specified.
+#G           Others: 1971BR29, 1971BR28, 1970GE02, 1969PE17, 1968WA09,
+#G 1968BR30, 1967VI04, 1966PO02, 1966LA10, 1965TR02, 1960PE13, 1960WA16,
+#G 1957PI31, 1955FR25.
+#G E(A),RI(A)$From 1993AB03
+#G E(B),RI(B)$From 1990BR23
+#G E(C),RI(C)$From 1972HE18
+#G E(D),RI(D)$From 1969BR27
+#A E(R)      EA from 1971GR17, IA from 1964BA33, values recommended
+#A by 1991RY01.
+#G E(W)$Uncertain G ray
+#A E(S)      From 1964BA33. Original energies have been increased by 1.7
+#A KEV to correct for systematic differences with { ALPHA (GS)}, ALPHA
+#A (62), and ALPHA (286) of 1971GR17 (1977MA32).
+#A IA        from 1964BA33. Because of the abundance of low-energy
+#A G rays, IA values deduced from G-ray transition intensity balances
+#A are very inaccurate, and therefore not shown here.
+#A HF        Using R0(223RA)=1.536, average of R0(222RA)=1.5383 8 and
+#A R0(224RA)=1.5332 8 (1998AK04).
+#L E$Deduced by evaluator from a least-squares fit to G-ray energies.
+#L J$Parity doublet rotational band assignments are
+#L from 1986SH02, 1988SH34, 1988LE13, 1990JA11, and 1990BR23.
+#L Spin and parity assignments are based on G-ray multipolarities,
+#L GG(THETA), and AG(THETA), unless otherwise specified.
+#L J$Although octupole deformations are small in this region, nuclear
+#L states are no longer fully characterized by single Nilsson orbitals.
+#L This terminology, however, is used throughout this evaluation to
+#L label states rather than to accurately describe their nature.
+#L BAND(A)   3/2(631) PARITY DOUBLET ROTATIONAL BAND.
+#L BAND(B)   3/2(761) PARITY DOUBLET ROTATIONAL BAND.
+#L BAND(D)   5/2(633) PARITY DOUBLET ROTATIONAL BAND.
+#L BAND(E)   5/2(752) PARITY DOUBLET ROTATIONAL BAND.
+#L BAND(F)   1/2(640) PARITY DOUBLET ROTATIONAL BAND.
+#L BAND(G)   1/2(770) PARITY DOUBLET ROTATIONAL BAND.
+#P 0.0                (1/2+)     18.68 D   9              6146.43   15
+TH227 RA223 alpha 6.14643 1613952 1
++G gamma 0.6485 1.935E-7
++A alpha 6.03801 0.242
++A alpha 6.0088 0.028999999999999998
++A alpha 5.9894 2.0E-5
++A alpha 5.977720000000001 0.235
++A alpha 5.9597 0.03
++A alpha 5.916 0.00775
++A alpha 5.9098999999999995 0.0017399999999999998
++A alpha 5.8666 0.0242
++A alpha 5.8075 0.0127
++A alpha 5.7955 0.00311
++A alpha 5.7623 0.00228
++A alpha 5.75687 0.204
++A alpha 5.7281 3.42E-4
++A alpha 5.7132 0.0489
++A alpha 5.7088 0.083
++A alpha 5.7008 0.0363
++A alpha 5.693 0.015
++A alpha 5.674300000000001 5.72E-4
++A alpha 5.668 0.0206
++A alpha 5.6402 1.79E-4
++A alpha 5.622 7.000000000000001E-5
++A alpha 5.613300000000001 0.00216
++A alpha 5.6006 0.0017000000000000001
++A alpha 5.5859 0.0017599999999999998
++A alpha 5.5317 2.1E-4
++A alpha 5.5099 1.66E-4
++A alpha 5.4803999999999995 1.1999999999999999E-5
++A alpha 5.458600000000001 2.7000000000000002E-5
++A alpha 5.4087 4.4E-6
++A alpha 5.365 6.6E-6
++A alpha 5.3359 2.0E-6
++G gamma 0.6628 5.934E-7
++A alpha 5.3218000000000005 2.4E-6
++G gamma 0.7842 9.933E-7
++A alpha 5.2643 2.6E-5
++G gamma 0.7384 6.966E-7
++G gamma 0.7874 3.9990000000000003E-7
++A alpha 5.2483 3.2E-5
++G gamma 0.7874 3.9990000000000003E-7
++A alpha 5.2292 9.8E-5
++G gamma 0.589 5.934E-7
++A alpha 5.2101999999999995 7.000000000000001E-5
++A alpha 5.1937 3.8E-5
++A alpha 5.1806 1.1999999999999999E-5
++G gamma 0.6443 9.03E-7
++G gamma 0.7042999999999999 7.998000000000001E-7
++A alpha 5.171 1.7E-5
++G gamma 0.8543 6.966E-7
++G gamma 0.5346000000000001 9.933E-7
++A alpha 5.1465 4.1E-5
++G gamma 0.6214 5.934E-7
++G gamma 0.8573 5.934E-7
++A alpha 5.1287 6.2E-6
++G gamma 0.576 3.2250000000000005E-6
++G gamma 0.8467 1.4835E-6
++G gamma 0.8961 1.0965E-6
++G gamma 0.927 0.00645
++A alpha 5.1105 2.8E-6
++A alpha 5.0835 1.4999999999999998E-6
++G gamma 0.9717 0.010320000000000001
++A alpha 5.056100000000001 2.3E-6
++G gamma 0.92 0.01161
++G gamma 0.9587 6.192E-7
++A alpha 5.0335 3.1E-6

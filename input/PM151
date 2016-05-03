@@ -1,0 +1,322 @@
+#Radioactivity Sim Decay Chain Input File
+#Data:
+#STRING1 = Initial Nucleus (no spaces)
+#STRING2 = Ending Nucleus  (no spaces)
+#STRING3 = alpha, beta-, beta+, or gamma (no spaces)
+#DOUBLE1 = EndNucleus to StartNucleus energy difference in MEV (no commas, no carats, greater than 0)
+#DOUBLE2 = halflife in seconds (no commas, no carats, greater than 0)(note
+#DOUBLE3 = probability (no commas, no carats, between 0 and 1)
+#Rule Format:
+#Rules are separated by lines, each line must have the following format:
+#STRING1 STRING2 STRING3 DOUBLE1 DOUBLE2 DOUBLE3
+#If a given rule has coincident radiation like gamma or x-rays then those are added with:
+#+G STRING4 DOUBLE4 DOUBLE5
+#where STRING4 is the photon name
+#      DOUBLE4 is the photon energy in MeV
+#      DOUBLE5 is the photon percent intensity
+#It is useful to track these in order to get a complete radiation picture
+#Each beta emission energy for the rule should be tracked with:
+#+B STRING5 DOUBLE6 DOUBLE7
+#where STRING5 is the beta name
+#      DOUBLE6 is the beta energy in MeV
+#      DOUBLE7 is the beta percent intensity
+#Each alpha emission energy for the rule should be tracked with:
+#+A STRING8 DOUBLE9 DOUBLE10
+#where STRING8 is the alpha name
+#      DOUBLE9 is the alpha energy in MeV
+#      DOUBLE10 is the alpha percent intensity
+#Each neutron emission energy for the rule should be tracked with:
+#+N STRING11 DOUBLE12 DOUBLE13
+#where STRING11 is the neutron name
+#      DOUBLE12 is the neutron energy in MeV
+#      DOUBLE13 is the neutron percent intensity
+#It is useful to track these in order to get a complete radiation picture
+#*************************************************************
+#151SM    151PM B- DECAY (28.40 H)      1973CO29,1977HO21,1964BE1009NDS    200901
+#  151PM B- DECAY (28.40 H)      1973CO29,1977HO21,1964BE1009NDS    200901
+#H TYP=FUL$AUT=BALRAJ SINGH$CIT=NDS 110, 1 (2009)$CUT=20-Nov-2008$
+#  Main level scheme is from G and GG data of 1973Co29. GG results from
+#  1977Ho21 are in general agreement with those from 1973Co29. Both report
+#  G, GG data using germanium detectors. 1964Be10 report detailed B, BG
+#  and CE results
+#  Other measurements:
+#  B: 1964Be10, 1963Ho15, 1963Bu02, 1963Na03, 1963Re03, 1962Ch06,
+#  1960Bu06, 1952Ru10
+#  BG: 1964Be10, 1962Ch06, 1952Ru10
+#  BG(T): 1971An07
+#  (B)(CE)(T): 1977Bu12, 1971Dr05, 1971An07
+#  G,GG: 1971Ho09, 1971Be23, 1969GuZW, 1969Gr32, 1966Lo17,
+#  1965Fu15, 1965Fo08, 1965Be13, 1964Ew04, 1964Be10, 1963Re03, 1963Na03,
+#  1963Bu08, 1963Bu02, 1962Ch06, 1960Bu06, 1955Ha33, 1952Ru10
+#  GG(THETA): 1981Ya07, 1977Ho21, 1977Bu12, 1976Ba44 and
+#  1975Wa02 use germanium detectors. 1974Si12 and 1971Be23 use semi-scin
+#  combination. 1962Ch06 use pair of scin detectors
+#  G(THETA): 1975Wa02 (low temperature nuclear orientation technique)
+#  GG(THETA,H,TEMP): 1974Dr03, 1971Be23
+#  GG(T): 1971Ho09, 1965Fo08
+#  (G)(CE): 1964Be10, 1963Bu02
+#  (G)(CE)(T): 1971Dr05, 1971An07, 1965Fo08
+#  CE: 1985GrZT, 1965Be13, 1964Be10, 1963Ma51, 1963Ma16, 1963Ge10,
+#  1963Bu02, 1962Ha24, 1952Ru10
+#  (ce)(ce): 1963Bu02
+#  For levels and radiation data, consult ENSDF database
+#  (http://www.nndc.bnl.gov/ensdf/)
+#  and/or Nuclear Data Sheets 80, 263 (1997).
+#G
+#G     The table below contains experimental conversion
+#G     coefficients deduced (evaluator) using CE data
+#G     mainly from 1964Be10. Uncertainty in conversion coefficients
+#G     is |?25% for strong transitions and |?50% for weak
+#G     transitions. Other CE data: 1963Ma16, 1963Bu02, 1962Ha24. ENC
+#G     values are available for 25.7G, 64.9G, 65.8G, 100.0G, 104.8G,
+#G     and 177.2G (1964Be10,1963Bu02,1962Ha24) but not given here
+#G
+#G   EG      K        L      L1      L2      L3     M        M1
+#G     M2     M3
+#G --------------------------------------------------------
+#G --------------------
+#G  25.7                            0.25           0.33    0.25
+#G           0.25
+#G  61.0                    3.6     11      11
+#G  62.9   |?0.7
+#G  64.9    5.9      0.99   0.88    0.107          0.27    0.16
+#G    0.027
+#G  65.8    5.0                     0.22    0.22   0.22    0.18
+#G    0.044  0.022
+#G  69.7    4.5      0.64   0.53    0.11                   0.22
+#G  76.2    2.2             0.57    2.1     1.9
+#G                    0.50   0.50
+#G  88.8    3.3
+#G  98.0    0.28
+#G  98.7    1.7
+#G 100.0    2.0      0.34   0.24    0.02           0.067   0.059
+#G 101.9    0.23     0.043  0.040           0.022
+#G 104.8    1.9      0.21   0.19    0.029   0.010  0.054   0.043
+#G 109.6    0.59
+#G 121.8    1.1             0.28
+#G 139.3    0.41            0.10    0.020   0.020          0.051
+#G 143.2    0.47            0.19
+#G 156.2    0.58            0.068
+#G 162.9    0.092    0.14   0.023
+#G 163.6    0.36            0.065           0.016
+#G 167.7    0.054    0.015  0.0061                 0.0073  0.0030
+#G 168.4    0.44            0.055                          0.027
+#G 176.5    0.059
+#G 177.2    0.33     0.045  0.034   0.0053  0.0053 0.0106  0.013
+#G 186.6    0.084
+#G 204.2    0.12
+#G 209.0    0.18     0.035  0.035                  0.0079  0.0087
+#G 227.2+
+#G 227.8    0.20
+#G 232.4+
+#G 232.7    0.16     0.044  0.044
+#G 236.6+
+#G 236.7+
+#G 237.1    0.041
+#G 240.1    0.024    0.0072 0.0026
+#G 258.1    0.018
+#G 275.2    0.021    0.0023 0.0022
+#G 277.6    0.083
+#G 280.1    0.087
+#G 290.7    0.018
+#G 308.9    0.062
+#G 323.9    0.0095
+#G 329.7    0.014
+#G 340.0    0.102
+#G 344.9    0.0060
+#G 349.8    0.036
+#G 440.8    0.0050
+#G 445.7    0.0060
+#G 654.2   |?0.006
+#G 671.2   |?0.08
+#G 717.7    0.0010
+#G 752.8    0.0020
+#G ---------------------------------------------------------------
+#G
+#G        G(THETA) data from oriented nuclei (1975Wa02)
+#G
+#G    EG         A2                 EG         A2
+#G ---------------------------------------------------------------
+#G   64.88    +0.56 6             440.8     +0.34 2
+#G   65.83    +0.81 12            445.7     -0.44 2
+#G   69.70    -0.55 15            451.4     -0.10 12
+#G  100.00    -0.41 5             565.0     +0.20 8
+#G  101.93    +0.16 4             636.2     -0.41 2
+#G  104.84    -0.01 3             717.7     -0.385 9
+#G  163.6     +0.55 12
+#G  168.39    -0.2 5              736.1     -0.43 3
+#G  177.2     -0.25 3             752.8     +0.09 2
+#G  201.96    -0.37 6             772.7     +0.37 3
+#G  209.0     +0.19 5             785.1     +0.12 6
+#G  240.0     -0.42 2             795.7     -0.24 8
+#G  258.1     -0.35 9             807.9     -0.47 3
+#G  275.2     +0.102 5            848.6     -0.44 6
+#G  290.7     +0.34 3             877.7     -0.40 7
+#G  323.9     +0.30 3             948.7     -0.37 4
+#G  344.9     +0.125 13           953.4     +0.06 14
+#G  379.8     +0.12 2
+#G
+#G  -----------------------------------------------------------------
+#G
+#G
+#G                    GG(THETA) data
+#G
+#G  G - G cascade      A2        A4          references
+#G                                        from           others
+#G -------------------------------------------------------------------
+#G   98 - 65        +0.05 3    +0.01 4    1977Ho21
+#G  102 - 66        +0.14 8    -0.05 9    1977Ho21
+#G  139 - 65        +0.25 6    -0.06 11   1977Ho21     1981Ya02,1974Si12
+#G  143 - 66        +0.03 6    -0.20 13   1974Si12
+#G 177.2 - 167.8
+#G     +            +0.11 1    +0.01 2    1971Be23     1962Ch06
+#G 176.5 - 168.4
+#G 177.2 - 102      +0.01 2    +0.02 4    1974Si12
+#G 177.2 - 76       +0.09 3               1981Ya07
+#G  187 - 209       +0.084 24             1981Ya07
+#G  202 - 100       +0.14 1               1981Ya07     1975Wa02,1974Si12
+#G  202 - 105       +0.01 3               1975Wa02
+#G  232 - 26        +0.038 4              1974Dr03
+#G  237 - 65+70     +0.07 6    +0.02 12   1974Si12
+#G  240 - 100       +0.169 15  +0.012 18  1977Bu12     1976Ba44,1975Wa02
+#G  240 - 100       +0.142 4              1981Ya07     1974Si12,1962Ch06
+#G  240 - 105       -0.005 10  +0.011 15  1977Bu12     1977Ho21,1976Ba44,
+#G                                                     1975Wa02,1971Be23
+#G  258 - 66        -0.31 2               1981Ya07     1977Ho21,1975Wa02,1
+#G 974Si12
+#G  275 - 65        +0.208 15  -0.008 18  1977Bu12     1977Ho21,1976Ba44,1
+#G 975Wa02
+#G  275 - 65        +0.220 4              1981Ya07     1974Si12,1962Ch06
+#G  275 - 70        -0.24 3    -0.03 4    1977Bu12     1976Ba44,1975Wa02,1
+#G 971Be23
+#G 277.6 - 168.4
+#G      +           +0.14 3               1971Be23
+#G 278.2 - 167.7
+#G  330 - 66        +0.22 4               1981Ya07     1974Si12
+#G  350 - 66        +0.43 15              1981Ya07
+#G  380 - 66        +0.203 14             1981Ya07     1975Wa02,1974Si12
+#G  451 - 65        +0.27 12              1974Si12
+#G  565 - 139       +0.20 6               1981Ya07
+#G  598 - 66        -0.32 21              1981Ya07
+#G  636 - 100       +0.17 1               1981Ya07     1974Si12
+#G  654 - 163       +0.27 2               1981Ya07
+#G  654 - 168       -0.10 4               1981Ya07
+#G 668.7 - 209      +0.15 4    +0.06 4    1971Be23
+#G 669.2 - 209      -0.14 3               1981Ya07     1974Si12
+#G  671 - 65        +0.19 2               1981Ya07     1974Si12
+#G  704 - 65        -0.25 3               1981Ya07     1974Si12
+#G  718 - 100       +0.152 5              1981Ya07     1974Si12
+#G  718 - 105       +0.02 3               1974Si12     1971Be23
+#G  753 - 65        +0.16 2               1981Ya07     1974Si12
+#G  773 - 100       +0.01 4               1974Si12
+#G  773 - 105       +0.01 3               1974Si12
+#G  785 - 168       -0.11 5               1981Ya07
+#G  796 - 163       -0.30 6               1981Ya07
+#G  808 - 65        -0.03 6               1974Si12
+#G  808 - 70        +0.12 3    +0.07 5    1971Be23
+#G  849 - 100+105   +0.18 5    -0.00 8    1974Si12
+#G
+#G
+#G           The following G's reported in CE data of 1962Ha24 have
+#G been discarded because of lack of confirmation from G, GG data
+#G 58.7, 77.2 105.8, 112.0, 188.1, 219.5, 251.1, 394.5, 422.9,
+#G 433.6, 447.3, 459.0, 464.3, 467.8, 498.1, 547.0, 555.5, 833.4 and 838.2
+#G           Unplaced G's are from 1973Co29
+#G E         Weighted average of 1973Co29 and 1977Ho21
+#G RI        Unweighted average of 1973Co29 and 1977Ho21, except for
+#G closely spaced lines where values are from 1973Co29
+#G MR        From CE data and/or GG(THETA) data
+#G CC$Theoretical values for assigned mult and MR (from ^Br^Icc code). The
+#G experimental values deduced from ICE's taken mainly from 1964Be10 and
+#G RI's given here are given under comments. The uncertainties on these
+#G values are AP 25% for strong lines and AP 50% for weak lines. CC's are
+#G given for all transitions where expected to be GT 0.01
+#G M         From ce data
+#G unless otherwise indicated. For purposes
+#G of normalization of the decay scheme, mult of several transitions
+#G have been assumed as E1, M1,E2 etc.,
+#G based on adopted JPI's
+#G M(D)      From G(THETA) data (1975Wa02)
+#G E(A)      Probably from room background. Treated uncertain (evaluator)
+#G E(B)      Observed in GG only
+#G RI(S)     From 1973Co29. 1977Ho21 give RI=0.54 4
+#L           The 405 and 650 levels proposed by 1964Be10 have been
+#L discarded due to lack of confirmatory evidence in later studies.
+#L J         From 'adopted levels', unless stated otherwise
+#L E         From least squares fitting to EG's
+#P    0.0       5/2+               28.40 H 4              1187      5
+PM151 SM151 beta- 1.187 102240 1
++B beta- 0.417 0.1
++B beta- 0.415 0.1
++B beta- 0.39 0.013000000000000001
++B beta- 0.388 0.027000000000000003
++B beta- 0.379 0.005
++B beta- 0.374 0.03
++B beta- 0.348 0.079
++B beta- 0.348 0.013999999999999999
++B beta- 0.345 2.0E-4
++B beta- 0.332 0.023
++B beta- 0.302 5.0E-4
++B beta- 0.298 2.0E-5
++B beta- 0.295 0.0017000000000000001
++B beta- 0.293 0.017
++B beta- 0.291 2.0E-4
++B beta- 0.29 5.0E-4
++B beta- 0.287 0.033
++B beta- 0.278 0.42
++G gamma 0.34008 0.225
++B beta- 0.274 2.0E-4
++B beta- 0.259 0.019
++B beta- 0.251 0.0017000000000000001
++B beta- 0.24 0.071
++B beta- 0.239 0.001
++B beta- 0.231 5.0E-4
++B beta- 0.223 0.004699999999999999
++B beta- 0.212 0.0077
++B beta- 0.175 0.0012
++B beta- 0.16 5.3E-4
++B beta- 0.16 0.0022
++B beta- 0.133 0.031
++B beta- 0.122 0.011399999999999999
++B beta- 0.121 1.4000000000000001E-4
++B beta- 0.106 0.061
++B beta- 0.097 2.0E-4
++B beta- 0.088 0.024
++B beta- 0.085 0.0034999999999999996
++B beta- 0.085 1.0999999999999999E-4
++B beta- 0.073 3.9E-4
++B beta- 0.065 0.01
++B beta- 0.062 0.0018
++B beta- 0.046 1.3E-4
+#151EU    151SM B- DECAY (90 Y)         1981UN02,1980LA02,1975FR0109NDS    200901
+#  151SM B- DECAY (90 Y)         1981UN02,1980LA02,1975FR0109NDS    200901
+#H TYP=FUL$AUT=BALRAJ SINGH$DAT=30-Nov-2009$COM=corrected NR$
+#H TYP=FUL$AUT=BALRAJ SINGH$CIT=NDS 110, 1 (2009)$CUT=20-Nov-2008$
+#            B: 1975Fr01, 1976BeWY, 1959Ac28. Others: 1952Fr31, 1952Wi25,
+#  1950Ag01, 1949Ma05, 1949Ke05
+#            X-B coincidences: 1975Fr01, 1976BeWY
+#            B-G coincidences: 1975Fr01
+#            K-shakeoff probability (measurement): 1981Un02, 1980La02,
+#  1975Fr01, 1971Ca44. Other: 1976BeWY
+#            K-and L- shakeoff probability (theory): 1983In01, 1982Ch19,
+#  1981Mu15, 1981Ba29, 1977Is05, 1975La20, 1974La30, 1972Mo26, 1972La09,
+#  1972La07, 1972Ca27
+#            L-shakeoff probability (measurement): 1981Un02, 1975Fr01
+#            See 1983Ke07 and 1976Ba65 for some theoretical work on the
+#  B- decay of 151SM
+#            Theoretical predictions for B decay rates of highly
+#  ionized states: 1987Ta16
+#            G ray: 1989Di05, 1981Un02, 1980La02, 1975Fr01, 1974HeYW,
+#  1971Ca44. Others: 1976BeWY, 1959Ac28, 1952Wi25, 1950Sc07
+#            X-RAY: 1981Un02, 1980La02, 1975Fr01, 1971Ca44. Other:
+#  1976BeWY
+#            X-G coincidences: 1981Un02
+#            CE: 1959Ac28
+#            T1/2 (151SM): 1968Re04, 1965Fl02. Others: 1955Me52, 1952Ru10,
+#  1952Ka26, 1950In01, 1949Ke05
+#L J         See 'adopted levels'
+#P    0.0       5/2-               90 Y    8               76.6     5
+SM151 EU151 beta- 0.0766 2.840121792E9 1
++B beta- 0.01968 0.9909
++B beta- 0.01396 0.0091
++G gamma 0.021543 3.179999999999999E-4

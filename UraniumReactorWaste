@@ -1,0 +1,36 @@
+Constructing a sample of uranium reactor waste (4% enriched uranium reacted with 80% efficiency):
+new PSample 1.2145E24 U238 0 31556908.8 365
+add PSample 1.012096E22 U235
+add PSample 1.1578E20 KR85
+add PSample 5.275E20 305KR85
+add PSample 2.3197E21 SR90
+add PSample 2.6323E21 ZR95
+add PSample 2.6306E21 NB95
+add PSample 2.4825E21 MO99
+add PSample 2.4825E21 TC99
+add PSample 1.2562E21 RU103
+add PSample 1.6598E20 RU106
+add PSample 1.6598E20 RH106
+add PSample 1.7311E21 TE132
+add PSample 2.8582E20 I129
+add PSample 1.651E21 I131
+add PSample 2.6679E21 I133
+add PSample 2.5869E21 I135
+add PSample 2.6719E21 XE133
+add PSample 2.676E21 XE135
+add PSample 2.5185E21 CS137
+add PSample 2.5561E21 BA140
+add PSample 2.4837E21 LA140
+add PSample 2.3724E21 CE141
+add PSample 2.2161E21 CE144
+add PSample 2.2165E21 PR144
+add PSample 9.036E20 ND147
+add PSample 9.036E20 PM147
+add PSample 4.2629E20 PM149
+add PSample 1.7019E20 PM151
+add PSample 1.7019E20 SM151
+add PSample 5.9795E19 SM153
+get PSample energy all > /home/user/git/Radioactivity_Sim/WasteEnergyCalcs
+get PSample energy 0 86400 > /home/user/git/Radioactivity_Sim/WasteEnergyCalcs
+get PSample energy 15552000 15638400 > /home/user/git/Radioactivity_Sim/WasteEnergyCalcs
+get PSample energy 31449600 31536000 > /home/user/git/Radioactivity_Sim/WasteEnergyCalcs

@@ -1,0 +1,88 @@
+#Radioactivity Sim Decay Chain Input File
+#Data:
+#STRING1 = Initial Nucleus (no spaces)
+#STRING2 = Ending Nucleus  (no spaces)
+#STRING3 = alpha, beta-, beta+, or gamma (no spaces)
+#DOUBLE1 = EndNucleus to StartNucleus energy difference in MEV (no commas, no carats, greater than 0)
+#DOUBLE2 = halflife in seconds (no commas, no carats, greater than 0)(note
+#DOUBLE3 = probability (no commas, no carats, between 0 and 1)
+#Rule Format:
+#Rules are separated by lines, each line must have the following format:
+#STRING1 STRING2 STRING3 DOUBLE1 DOUBLE2 DOUBLE3
+#If a given rule has coincident radiation like gamma or x-rays then those are added with:
+#+G STRING4 DOUBLE4 DOUBLE5
+#where STRING4 is the photon name
+#      DOUBLE4 is the photon energy in MeV
+#      DOUBLE5 is the photon percent intensity
+#It is useful to track these in order to get a complete radiation picture
+#Each beta emission energy for the rule should be tracked with:
+#+B STRING5 DOUBLE6 DOUBLE7
+#where STRING5 is the beta name
+#      DOUBLE6 is the beta energy in MeV
+#      DOUBLE7 is the beta percent intensity
+#Each alpha emission energy for the rule should be tracked with:
+#+A STRING8 DOUBLE9 DOUBLE10
+#where STRING8 is the alpha name
+#      DOUBLE9 is the alpha energy in MeV
+#      DOUBLE10 is the alpha percent intensity
+#Each neutron emission energy for the rule should be tracked with:
+#+N STRING11 DOUBLE12 DOUBLE13
+#where STRING11 is the neutron name
+#      DOUBLE12 is the neutron energy in MeV
+#      DOUBLE13 is the neutron percent intensity
+#It is useful to track these in order to get a complete radiation picture
+#*************************************************************
+#147PM    147ND B- DECAY (10.98 D)      1997SA53                  09NDS    200902
+#  147ND B- DECAY (10.98 D)      1997SA53                  09NDS    200902
+#H TYP=ERR$AUT=N. NICA$DAT=4-Dec-2013$COM=recalculated normalization$
+#H TYP=ERR$AUT=J. Tuli$DAT=5-APR-2013$COM=fixed DIB(531 lev)$
+#H TYP=ERR$AUT=N. NICA$DAT=30-JAN-2012$COM=fixed DIG(531.016G)$
+#H TYP=FUL$AUT=N. NICA$CIT=NDS 110,749 (2009)$CUT=14-Nov-2008$
+#G CC$FROM BrIcc v2.3a (30-Jun-2013) 2008Ki07, "Frozen Orbitals" appr.
+#G MR$IF NO VALUE GIVEN IT WAS ASSUMED MR=1.00 FOR E2/M1,
+#G MR=1.00 FOR E3/M2 AND MR=0.10 FOR THE OTHER MULTIPOLARITIES
+#P 0.0         5/2-              10.98 D   1              896.0     9
+ND147 PM147 beta- 0.896 948672 1.0
++B beta- 0.29957 0.0015
++B beta- 0.26411 0.802
++G gamma 0.091105 0.28077
++G gamma 0.40852 1.8718E-4
++B beta- 0.14677 0.006959999999999999
++G gamma 0.41048 0.00149744
++B beta- 0.11993000000000001 0.00847
++G gamma 0.48924 0.0015509200000000001
++B beta- 0.10611 0.154
++G gamma 0.12048 0.0037569700000000005
++B beta- 0.07368000000000001 1.0E-5
++G gamma 0.54183 1.8718E-4
++B beta- 0.06874 0.00311
++B beta- 0.05925 9.4E-4
++G gamma 0.14930000000000002 3.8773E-5
++G gamma 0.191 3.7436000000000005E-5
++G gamma 0.27187 1.32363E-4
++G gamma 0.58935 3.8773000000000003E-4
++G gamma 0.68052 2.9414E-4
++B beta- 0.05763 0.024300000000000002
++G gamma 0.19663999999999998 0.0018985400000000002
++G gamma 0.5948 0.00283444
++G gamma 0.6859 0.00886431
+#147SM    147PM B- DECAY (2.6234 Y)                               09NDS    200902
+#  147PM B- DECAY (2.6234 Y)                               09NDS    200902
+#H TYP=FUL$AUT=N. NICA$CIT=NDS 110,749 (2009)$CUT=14-Nov-2008$
+#P 0.0         7/2+              2.6234 Y  2              224.6     4
+PM147 SM147 beta- 0.2246 8.278639454592001E7 1.0
++B beta- 0.06193 0.9998999999999999
++B beta- 0.02707 5.69E-5
++G gamma 0.12122 2.85E-5
++B beta- 0.00708 4.7E-9
++G gamma 0.07607299999999999 1.1685E-10
++G gamma 0.197299 3.42E-9
+#143ND    147SM A DECAY                 2010SU30                  12NDS    201203
+#  147SM A DECAY                 2010SU30                  12NDS    201203
+#H TYP=FUL$AUT=E. BROWNE, J. K. TULI$CIT=NDS 113, 715 (2012)$
+#H CUT=31-May-2011$
+#  Measured: E(|a), T{-1/2}(|a)
+#L J         From Adopted Levels
+#P 0.0         7/2-              1.07E+11 Y 1             2311      1
+SM147 ND143 alpha 2.311 3.3765892416E18 1.0
++A alpha 2.248 1.0

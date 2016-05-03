@@ -1,0 +1,117 @@
+#Radioactivity Sim Decay Chain Input File
+#Data:
+#STRING1 = Initial Nucleus (no spaces)
+#STRING2 = Ending Nucleus  (no spaces)
+#STRING3 = alpha, beta-, beta+, or gamma (no spaces)
+#DOUBLE1 = EndNucleus to StartNucleus energy difference in MEV (no commas, no carats, greater than 0)
+#DOUBLE2 = halflife in seconds (no commas, no carats, greater than 0)(note
+#DOUBLE3 = probability (no commas, no carats, between 0 and 1)
+#Rule Format:
+#Rules are separated by lines, each line must have the following format:
+#STRING1 STRING2 STRING3 DOUBLE1 DOUBLE2 DOUBLE3
+#If a given rule has coincident radiation like gamma or x-rays then those are added with:
+#+G STRING4 DOUBLE4 DOUBLE5
+#where STRING4 is the photon name
+#      DOUBLE4 is the photon energy in MeV
+#      DOUBLE5 is the photon percent intensity
+#It is useful to track these in order to get a complete radiation picture
+#Each beta emission energy for the rule should be tracked with:
+#+B STRING5 DOUBLE6 DOUBLE7
+#where STRING5 is the beta name
+#      DOUBLE6 is the beta energy in MeV
+#      DOUBLE7 is the beta percent intensity
+#Each alpha emission energy for the rule should be tracked with:
+#+A STRING8 DOUBLE9 DOUBLE10
+#where STRING8 is the alpha name
+#      DOUBLE9 is the alpha energy in MeV
+#      DOUBLE10 is the alpha percent intensity
+#Each neutron emission energy for the rule should be tracked with:
+#+N STRING11 DOUBLE12 DOUBLE13
+#where STRING11 is the neutron name
+#      DOUBLE12 is the neutron energy in MeV
+#      DOUBLE13 is the neutron percent intensity
+#It is useful to track these in order to get a complete radiation picture
+#*************************************************************
+#140CE    140LA B- DECAY                1982AD02,1991CH05         07NDS    200707
+#  140LA B- DECAY                1982AD02,1991CH05         07NDS    200707
+#H TYP=FUL$AUT=N. NICA$CIT=NDS 108,1287 (2007)$CUT=1-Feb-2006$
+#  Measured: |g (1991Ch05,1986Ha20,1982Ad02,1980Ka32,1977De34,1970Ka18,
+#  \1968Ba18), |g|g (1991Ch05,1982Ad02,1980Ka32,1986Ha20)
+#  |g|g(|q) (1991Ch05,1982Mi03,1982Ad02,1980Ka32,1976Ga12,1973Sa01,
+#  \1971Wi23), linear pol, |g|g(|q,H,T,t) (1965Le16), |g(|q,t)
+#  (1972KlZU), |b|g(t), |g|g(t) (1993Gr08,1990PeZR,1982ZhZV,1971Bo13,
+#  \1963Do16, \1962Cu02), ce (1991Ch05,1967Ka12), pair conversion
+#  (1968Be57), T{-1/2} by fast timing |b|g|g(t) (1995Ma75).
+#  Level scheme is that of 1982Ad02
+#L J$From Adopted Levels
+#G RI        From 1991Ch05
+#G E         From 1982Ad02
+#G M         K/L, L1:L2:L3, M1:M2:M3 from 1967Ka12
+#G MR        From |g|g(|q) and |a(K)exp (1991Ch05)
+#G M         |a(K)exp from 1991Ch05 were normalized to |a(K)(E2)=0.000696
+#G for 1596|g
+#G E,RI      1986Ha20 also reported additional |g's: 20.7 (0.011 {I1}),
+#G 167.89, 411.9 (0.054 {I2}), 468.6 (0.004 {I2}), 668.85 (0.038 {I1}),
+#G 700.29 (0.014 {I1}), 721.09 (0.030 {I1}), 976.69 (0.044 {I1}), 995.7
+#G (0.020 {I1}), 1009.8 (0.014 {I1}), 1061.88 (0.045 {I1}), 1150.18
+#G (0.023 {I1}), 1214.9 (0.076 {I2}) not included in the present adopted
+#G |b{+-} decay scheme
+#P 0.0         3-                1.67855 D 12             3762.2    18
+LA140 CE140 beta- 3.7622 145026.72 1.00
++B beta- 1.58114 4.0E-6
++B beta- 0.8470700000000001 0.059000000000000004
++G gamma 1.5962100000000001 0.954
++B beta- 0.70972 2.0E-5
++G gamma 0.30689999999999995 2.4803999999999994E-4
++B beta- 0.6303500000000001 0.20199999999999999
++G gamma 0.48702100000000004 0.455058
++G gamma 2.0831999999999997 1.1543399999999999E-4
++G gamma 0.024595 2.862E-5
++B beta- 0.51559 0.049699999999999994
++G gamma 0.4455 2.862E-5
++G gamma 0.7516369999999999 0.0433116
++G gamma 2.34788 0.0084906
++B beta- 0.5194 0.00207
++G gamma 0.24193299999999998 0.004140359999999999
++G gamma 0.26654300000000003 0.00465552
++B beta- 0.48821 0.439
++G gamma 0.06413500000000001 1.4309999999999998E-4
++G gamma 0.328762 0.203202
++G gamma 0.815772 0.23277599999999996
++B beta- 0.46617000000000003 0.0552
++G gamma 0.867846 0.05504579999999999
++G gamma 2.4640999999999997 1.1448E-4
++B beta- 0.45906 0.011240000000000002
++G gamma 0.06891599999999999 7.536600000000001E-4
++G gamma 0.13111699999999998 0.0046746
++G gamma 0.39752 7.3458E-4
++B beta- 0.44439 0.0562
++G gamma 0.432493 0.029001600000000002
++G gamma 0.91955 0.0266166
++B beta- 0.44201999999999997 0.1105
++G gamma 0.10942199999999999 0.0021942
++G gamma 0.173543 0.00126882
++G gamma 0.4385 3.9114000000000005E-4
++G gamma 0.61812 3.7205999999999996E-4
++G gamma 0.9251889999999999 0.0689742
++G gamma 2.5214000000000003 0.0346302
++B beta- 0.43901999999999997 0.00622
++G gamma 0.9509869999999999 0.00518976
++G gamma 2.54734 0.0010112399999999998
++B beta- 0.28786 0.00109
++G gamma 1.3035 4.197599999999999E-4
++G gamma 2.89961 6.678000000000001E-4
++B beta- 0.24847 8.2E-4
++G gamma 1.0972 2.2896E-4
++G gamma 1.4052 5.9148E-4
++B beta- 0.20421 2.48E-4
++G gamma 3.11851 2.4803999999999994E-4
++B beta- 0.13219999999999998 3.8E-5
++G gamma 3.3204000000000002 3.816E-5
++B beta- 0.1072 2.5E-4
++G gamma 1.04505 2.4803999999999994E-4
++B beta- 0.08181999999999999 5.4E-4
++G gamma 0.9929 1.3356E-4
++G gamma 1.87729 4.1022E-4
++B beta- 0.06715 1.34E-4
++G gamma 1.92462 1.3356E-4

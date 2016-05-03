@@ -1,0 +1,96 @@
+#Radioactivity Sim Decay Chain Input File
+#Data:
+#STRING1 = Initial Nucleus (no spaces)
+#STRING2 = Ending Nucleus  (no spaces)
+#STRING3 = alpha, beta-, beta+, or gamma (no spaces)
+#DOUBLE1 = EndNucleus to StartNucleus energy difference in MEV (no commas, no carats, greater than 0)
+#DOUBLE2 = halflife in seconds (no commas, no carats, greater than 0)(note
+#DOUBLE3 = probability (no commas, no carats, between 0 and 1)
+#Rule Format:
+#Rules are separated by lines, each line must have the following format:
+#STRING1 STRING2 STRING3 DOUBLE1 DOUBLE2 DOUBLE3
+#If a given rule has coincident radiation like gamma or x-rays then those are added with:
+#+G STRING4 DOUBLE4 DOUBLE5
+#where STRING4 is the photon name
+#      DOUBLE4 is the photon energy in MeV
+#      DOUBLE5 is the photon percent intensity
+#It is useful to track these in order to get a complete radiation picture
+#Each beta emission energy for the rule should be tracked with:
+#+B STRING5 DOUBLE6 DOUBLE7
+#where STRING5 is the beta name
+#      DOUBLE6 is the beta energy in MeV
+#      DOUBLE7 is the beta percent intensity
+#Each alpha emission energy for the rule should be tracked with:
+#+A STRING8 DOUBLE9 DOUBLE10
+#where STRING8 is the alpha name
+#      DOUBLE9 is the alpha energy in MeV
+#      DOUBLE10 is the alpha percent intensity
+#Each neutron emission energy for the rule should be tracked with:
+#+N STRING11 DOUBLE12 DOUBLE13
+#where STRING11 is the neutron name
+#      DOUBLE12 is the neutron energy in MeV
+#      DOUBLE13 is the neutron percent intensity
+#It is useful to track these in order to get a complete radiation picture
+#*************************************************************
+#153EU    153SM B- DECAY                                          06NDS    200602
+#  153SM B- DECAY                                          06NDS    200602
+#H TYP=FUL$AUT=R. G. Helmer {+*}$CIT=NDS 107, 507 (2006)$CUT=31-Dec-2005$
+#  The I|g and the decay scheme are from 1964Al09, 1966Bl06, 1969Pa03,
+#       1974HeYW, 1987Co04, 1992Ch44, 1998BO18 and 1999Sc12.
+#  The E|g are from 1969Un03, 1978He21, 1985Ab08, and 2000He14.
+#       Other measurements: 1950Hi17, 1952Ba49, 1952Ru10, 1954Gr19,
+#       1954Le08, 1955Ma62, 1956Du31, 1957Jo24, 1958Co76, 1958Gu09,
+#       1960Su08, 1961Gr18, 1961Mo07, 1961Ru01, 1961Wy01, 1962Bi16,
+#       1962Ca24, 1962Su01, 1963Ch25, 1963Ho15, 1964No08, 1966Ne06,
+#       1968Re04, 1969Sm04, 1970Ch09, 1970Me26, 1970Mi15,
+#       1970PaZI, and 1970Ra37.
+#  For an independent evaluation for this decay, see 1995Ch70.
+#B IB        From |g intensity balances with all questionable |g's
+#B      included.
+#G           RI(XL)=3400 130, RI(XKA)=15200 450, and
+#G      RI(XKB)=3700 100 measured by 1992Ch44; the corresponding values
+#G      calculated from the decay scheme are 3800 200, 16400 500, and
+#G      4200 130, respectively.
+#G E         From the 2000He14 evaluation of |g-ray energies for the
+#G      lines previously measured with curved-crystal spectrometers;
+#G      on this scale the strong {+198}Au line is 411.80205 {I17} keV.
+#G      This reference gives several E|g deduced level energies. Other
+#G      E|g are average of values from 1969Pa03, 1969Un03, and 1985Ab08,
+#G      unless otherwise noted.
+#G RI        From weighted averages of the data from 1964Al09, 1966Bl06,
+#G      1969Pa03, 1974HeYW, 1987Co04, 1992Ch44, 1998Bo18, and 1999Sc12.
+#G      About 60% of these weighted averages have reduced-|h{+2} values
+#G      of greater than 1.0.  In these cases the uncertainty is either
+#G      the external uncertainty or the a larger value which includes
+#G      the most precise input value.  Also, in these cases, the
+#G      uncertainty, of any value which contributed more than 50% of the
+#G      relative weight, was increased to reduce this weight to 50%.
+#G RI        Values of 1987Co04, 1998Bo18, and 1999Sc12 are given as
+#G      absolute intensities.
+#G M,MR      From {+153}Eu Adopted |g's.
+#G           Conversion electron intensities are from 1961Mo07, 1962Su01,
+#G      1969Sm04, and 1970PaZI, and are given in number of K-conversion
+#G      electrons per 100 decays normalized to 40.8 for the 103 |g to
+#G      give |a{-K}(exp)(103 |g)=1.44.
+#L E         From least-squares fit to E|g.
+#L J         From {+153}Eu Adopted Levels.
+#P 0.0         3/2+                46.50 H 21             807.6     7
+SM153 EU153 beta- 0.8076 167400 1
++B beta- 0.26430000000000003 0.184
++B beta- 0.22740000000000002 0.006
++B beta- 0.2253 0.494
++B beta- 0.221 2.6E-4
++B beta- 0.1995 0.313
++B beta- 0.16472 1.0E-5
++B beta- 0.06129 2.28E-5
++B beta- 0.04664 4.77E-4
++B beta- 0.04614 6.65E-4
++B beta- 0.040060000000000005 9.3E-6
++B beta- 0.03324 1.0200000000000001E-4
++B beta- 0.02983 2.41E-4
++B beta- 0.027829999999999997 7.000000000000001E-5
++B beta- 0.02641 2.37E-4
++B beta- 0.024640000000000002 1.35E-4
++B beta- 0.023129999999999998 1.34E-5
++B beta- 0.012039999999999999 1.0059999999999999E-4
++B beta- 0.01115 4.3999999999999997E-7

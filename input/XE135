@@ -1,0 +1,76 @@
+#Radioactivity Sim Decay Chain Input File
+#Data:
+#STRING1 = Initial Nucleus (no spaces)
+#STRING2 = Ending Nucleus  (no spaces)
+#STRING3 = alpha, beta-, beta+, or gamma (no spaces)
+#DOUBLE1 = EndNucleus to StartNucleus energy difference in MEV (no commas, no carats, greater than 0)
+#DOUBLE2 = halflife in seconds (no commas, no carats, greater than 0)(note
+#DOUBLE3 = probability (no commas, no carats, between 0 and 1)
+#Rule Format:
+#Rules are separated by lines, each line must have the following format:
+#STRING1 STRING2 STRING3 DOUBLE1 DOUBLE2 DOUBLE3
+#If a given rule has coincident radiation like gamma or x-rays then those are added with:
+#+G STRING4 DOUBLE4 DOUBLE5
+#where STRING4 is the photon name
+#      DOUBLE4 is the photon energy in MeV
+#      DOUBLE5 is the photon percent intensity
+#It is useful to track these in order to get a complete radiation picture
+#Each beta emission energy for the rule should be tracked with:
+#+B STRING5 DOUBLE6 DOUBLE7
+#where STRING5 is the beta name
+#      DOUBLE6 is the beta energy in MeV
+#      DOUBLE7 is the beta percent intensity
+#Each alpha emission energy for the rule should be tracked with:
+#+A STRING8 DOUBLE9 DOUBLE10
+#where STRING8 is the alpha name
+#      DOUBLE9 is the alpha energy in MeV
+#      DOUBLE10 is the alpha percent intensity
+#Each neutron emission energy for the rule should be tracked with:
+#+N STRING11 DOUBLE12 DOUBLE13
+#where STRING11 is the neutron name
+#      DOUBLE12 is the neutron energy in MeV
+#      DOUBLE13 is the neutron percent intensity
+#It is useful to track these in order to get a complete radiation picture
+#*************************************************************
+#135CS    135XE B- DECAY (9.14 H)       1974MEZV                  08NDS    200803
+#  135XE B- DECAY (9.14 H)       1974MEZV                  08NDS    200803
+#H TYP=FUL$AUT=BALRAJ SINGH, ALEXANDER A. RODIONOV and YURI L. KHAZOV$
+#H CIT=NDS 109, 517 (2008)$CUT=22-Jan-2008$
+#  1974MEZV (priv comm to 1975He12): measured EG, IG.
+#  1972AC02: CE data
+#  1999FO01: MEASURED BG COIN, DEDUCED Q- VALUE
+#  Others: 1964CL01, 1965AN05, 1966HA28, 1966JA16, 1968AL16,
+#  1968OP02, 1973SA27, 1974CA26, 1975HO18, 1996Yo12
+#  Pre-1960 references: 1940DO07, 1940WU05, 1941CL02, 1943RI01, 1945WU05,
+#  1946BL27, 1949TH04, 1950HO04, 1950GL09, 1950NE07, 1952BE55, 1953GR07,
+#  1953BR11, 1955TH01
+#  Theory (LOGFT calculation): 1995TO12
+#  Total decay energy of 1164 KEV 28 calculated (by ^RADLIST code)
+#  from level scheme agrees with the expected value of 1165 KEV 4
+#G M$From CE data (1972AC02)
+#G E,RI$ Uncertainties quoted in 1974MeZV are statistical only.
+#G As suggested in the earlier evaluation (1975He12), 15 EV uncertainty
+#G to E|g's and 3% uncertainty to I|g's have been added in the values
+#G given here.
+#L J$From 'adopted levels'
+#P 0.0         3/2+              9.14 H    2              1165      4
+XE135 CS135 beta- 1.165 32904.0 1.0
++B beta- 0.3102 0.96
++B beta- 0.2481 0.0059
++B beta- 0.1733 0.0311
++B beta- 0.05 7.5E-4
++G gamma 0.57332 4.77E-5
++G gamma 0.73152 5.49E-4
++B beta- 0.0269 0.00123
++G gamma 0.4542 3.6E-5
++G gamma 0.81263 7.019999999999999E-4
++G gamma 1.06241 4.0499999999999995E-5
+#135BA    135CS B- DECAY (2.3E+6 Y)     1949SU03,1953LI01,1955PA5308NDS    200803
+#  135CS B- DECAY (2.3E+6 Y)     1949SU03,1953LI01,1955PA5308NDS    200803
+#H TYP=FUL$AUT=BALRAJ SINGH, ALEXANDER A. RODIONOV and YURI L. KHAZOV$
+#H CIT=NDS 109, 517 (2008)$CUT=22-Jan-2008$
+#  Other: 1950ZE55
+#  THEORY: 1977IS05, 1969KO31
+#P 0.0          7/2+             2.3E+6 Y  3              268.7     11
+CS135 BA135 beta- 0.2687 7.258089024E13 1
++B beta- 0.0757 1.0

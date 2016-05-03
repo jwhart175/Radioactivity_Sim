@@ -1,0 +1,187 @@
+#Radioactivity Sim Decay Chain Input File
+#Data:
+#STRING1 = Initial Nucleus (no spaces)
+#STRING2 = Ending Nucleus  (no spaces)
+#STRING3 = alpha, beta-, beta+, or gamma (no spaces)
+#DOUBLE1 = EndNucleus to StartNucleus energy difference in MEV (no commas, no carats, greater than 0)
+#DOUBLE2 = halflife in seconds (no commas, no carats, greater than 0)(note
+#DOUBLE3 = probability (no commas, no carats, between 0 and 1)
+#Rule Format:
+#Rules are separated by lines, each line must have the following format:
+#STRING1 STRING2 STRING3 DOUBLE1 DOUBLE2 DOUBLE3
+#If a given rule has coincident radiation like gamma or x-rays then those are added with:
+#+G STRING4 DOUBLE4 DOUBLE5
+#where STRING4 is the photon name
+#      DOUBLE4 is the photon energy in MeV
+#      DOUBLE5 is the photon percent intensity
+#It is useful to track these in order to get a complete radiation picture
+#Each beta emission energy for the rule should be tracked with:
+#+B STRING5 DOUBLE6 DOUBLE7
+#where STRING5 is the beta name
+#      DOUBLE6 is the beta energy in MeV
+#      DOUBLE7 is the beta percent intensity
+#Each alpha emission energy for the rule should be tracked with:
+#+A STRING8 DOUBLE9 DOUBLE10
+#where STRING8 is the alpha name
+#      DOUBLE9 is the alpha energy in MeV
+#      DOUBLE10 is the alpha percent intensity
+#Each neutron emission energy for the rule should be tracked with:
+#+N STRING11 DOUBLE12 DOUBLE13
+#where STRING11 is the neutron name
+#      DOUBLE12 is the neutron energy in MeV
+#      DOUBLE13 is the neutron percent intensity
+#It is useful to track these in order to get a complete radiation picture
+#*************************************************************
+#144PR    144CE B- DECAY                1960GE05,1984DA13         01NDS    200108
+#  144CE B- DECAY                1960GE05,1984DA13         01NDS    200108
+#H TYP=FUL$AUT=A.A. Sonzogni$CIT=NDS 93, 599 (2001)$CUT=1-Dec-2000$
+#  Measured G, x ray (1984DA13) HPGe; CE (1960GE05,1969GE01) s;
+#  G, XG (1970AN15) semi, semi-scin; x ray, GAMMA (1976CH33) semi;
+#  BG (1956PU24,1957PA51,1959FR54,1960SA22,1962FO04,1963FU16);
+#  GG (1959FR54,1960SA22,1961GE09,1962FO04,1963AZ02,1963IW02,1969MA24)
+#  Measured EB=315.6 15, IB=76%, shape not statistical (1966DA04) s.
+#  For other BETA measurements see 1954CO60, 1954EM09, 1956PU24, 1957PA51,
+#  1958HI76, 1959FR54, 1959SE57, 1960SA22, 1963FU16 or see 1967RA40.
+#G E,RI$From 1984DA13 HPGE
+#  For BG(THETA) see 1963CO18, 1963CR11, 1964AZ02, 1965CO19, 1965RE13,
+#  1968DA12
+#  For BG(circular polarization) see 1963CO18, 1963KN05, 1968DA12
+#  For B-CE(transverse polarization) see 1962BI05, 1963SI10
+#  Other measurements: 1969GU15, 1970FA03, 1970PO09, 1971SA20, 1976RA22;
+#  see also references cited in 1967RA40
+#  Decay scheme is as given by 1960GE05. Many other transitions have
+#  been suggested to belong to this decay (see 1967RA40); however,
+#  these assignments seem very doubtful and are not confirmed in the semi
+#  spectrum of 1970AN15, 1976CH33
+#G $X-RAYS (1984DA13):
+#G                E(x ray)     I(x ray)    identification
+#G                       (IG(133G)=100.0 10)
+#G                 5.012 50    5.4 9       PR XLA1 + XLA2
+#G                 5.486 50    5.3 9       PR XLB1 + XLB3+XLB4
+#G                 5.851 50    1.6 3       PR XLB215
+#G                 6.297 50    0.8 2       PR XLG1
+#G                 6.594 50    0.6 2       PR XLG2 + XLG3
+#G                35.547 10   20.0 10      PR XKA2
+#G                36.026 10   37.0 18      PR XKA1
+#G                40.739 20   13 8         PR XKB1'
+#G                41.778 10    2.93 23     PR XKB2'
+#G
+#L J,T$From adopted levels
+#P 0.0         0+                284.91 D  5              318.7     8
+CE144 PR144 beta- 0.3187 2.4616224E7 0.996
++B beta- 0.0911 0.765
++G gamma 0.05903 9.7592E-6
++B beta- 0.06609999999999999 0.039
++G gamma 0.08012000000000001 0.0136407
++G gamma 0.040979999999999996 0.0025728799999999996
++G gamma 0.099961 3.9924000000000003E-4
++B beta- 0.0502 0.196
++G gamma 0.033568 0.0019962
++G gamma 0.053395000000000005 9.981E-4
++G gamma 0.133515 0.1109
+CE144 59PR144 beta- 0.3187 2.4616224E7 0.004
++B beta- 0.0911 0.765
++G gamma 0.05903 9.7592E-6
++B beta- 0.06609999999999999 0.039
++G gamma 0.08012000000000001 0.0136407
++G gamma 0.040979999999999996 0.0025728799999999996
++G gamma 0.099961 3.9924000000000003E-4
++B beta- 0.0502 0.196
++G gamma 0.033568 0.0019962
++G gamma 0.053395000000000005 9.981E-4
++G gamma 0.133515 0.1109
+#144ND    144PR B- DECAY (7.2 M)        1985DA16                  01NDS    200108
+#  144PR B- DECAY (7.2 M)        1985DA16                  01NDS    200108
+#H TYP=FUL$AUT=A.A. Sonzogni$CIT=NDS 93, 599 (2001)$CUT=1-Dec-2000$
+#  Activity: chemically separated 144CE in equilibrium with
+#  144PR(17.3 MIN + 7.2 MIN)
+#  Measured: G, HPGe; GG, HPGe-GELI. FWHM=1.75 at 1.33 MEV, 0.18 for
+#  iron x ray
+#  Decay scheme is as given by 1985DA16.
+#  Others: 1979PR11, 1974BE09, 1970FA03
+#G RI$Relative to IG(696.5G)=1000 in 144PR(17.3 MIN + 7.2 MIN) decay
+#L J$From adopted levels
+#P 59.03      33-                7.2 M     3              2997.5    24
+59PR144 ND144 beta- 2.9975 432.0 0.0007
++G gamma 0.6177999999999999 0.24891199999999997
++B beta- 0.5702 2.6E-4
++B beta- 0.14321 1.0999999999999999E-4
++G gamma 1.8853 0.15557
++B beta- 0.02914 3.3E-4
++G gamma 1.63136 0.46671
+#144PR    144PR IT DECAY (7.2 M)        1970FA03,1974BE09         01NDS    200108
+#  144PR IT DECAY (7.2 M)        1970FA03,1974BE09         01NDS    200108
+#H TYP=FUL$AUT=A.A. Sonzogni$CIT=NDS 93, 599 (2001)$CUT=1-Dec-2000$
+#P 59.03      33-                7.2 M     3
+59PR144 PR144 IT 0.05903 432.0 0.9993
+#144ND    144PR B- DECAY (17.28 M)      1985DA16                  01NDS    200108
+#  144PR B- DECAY (17.28 M)      1985DA16                  01NDS    200108
+#H TYP=FUL$AUT=A.A. Sonzogni$CIT=NDS 93, 599 (2001)$CUT=1-Dec-2000$
+#  Activity: chemically separated 144CE in equilibrium with
+#  144PR (17.28 MIN + 7.2 MIN)
+#  Measured: G, HPGe; GG, HPGe-GELI. FWHM=1.75 KEV at 1.33 MEV, 0.18 KEV
+#  for iron x ray
+#  Decay scheme, EG, IG values are from 1985DA16. E(level), IB have
+#  been determined by the evaluator using least squares fit.
+#  For B- measurements, B-longitudinal polarization, BG(circular)
+#  polarization, GG(polarization-direction correlation) see 1967RA40.
+#  For B-shape see 1967RA40, 1971NA12, 1973BO43. For discussion of
+#  second-class currents see 1973BO43, 1975EM02
+#  BG(THETA): 1967RA40, 1973BO43, 1973WIYS
+#  GG-coin: 1967RA40, 1970FA03, 1976RA22, 1985DA16
+#G RI(A)     Includes small (AP 0.4) contribution due to
+#G 7.2-min 144PR B- decay.
+#  Other measurements: 1979PR11, 1974BE09, 1970FA03; see also references
+#  given by 1967RA40
+#G E(B)$From 1979GR01
+#G RI(D)$From 1975DE17
+#L $GG(THETA): scin-semi, semi-semi (1974BE09); scin-semi (1983KR09)
+#L
+#L              Cascade        A2             A4         J2-J1-J0   Ref.
+#L           -------------  ----------     ---------    ---------  ------
+#L           (1489G)(696G)  -0.248 4       +0.001 9      1-2-0     1983Kr0
+#L
+#L           (1389G)(696G)  +0.282 41      +1.064 67(a)  0-2-0     1983Kr0
+#L           (1389G)(696G)  +0.432 50      +1.122 84(b)  0-2-0     1983Kr0
+#L           (1389G)(696G)  +0.310 35      +0.303 67     2-2-0     1974Be0
+#L
+#L           (865G)(696G)   +0.490 85      +0.14 14(b)             1983Kr0
+#L           (814G)(675G+
+#L                  696G)   -0.122 4       -0.038 42(b)            1983Kr0
+#L           (814G)(696G)   -0.086 60                              1974Be0
+#L $     (a) using single-channel analyzer
+#L $     (b) using multi-channel analyzer
+#L J$From adopted levels
+#P 0.0         0-                17.28 M   5              2997.5    24
+PR144 ND144 beta- 2.9975 1036.8000000000002 1.0
++B beta- 1.222 0.9790000000000001
++B beta- 0.895 0.0104
++G gamma 0.69651 0.013420000000000001
++G gamma 0.8141 3.2208E-5
++B beta- 0.52627 1.4E-5
++G gamma 0.86445 2.4156000000000004E-5
++G gamma 1.56097 2.013E-6
++B beta- 0.32285 6.2E-6
++G gamma 1.3762699999999999 3.8918E-6
++B beta- 0.30677 6.7E-5
++G gamma 1.38802 6.72342E-5
++B beta- 0.26719 0.0105
++G gamma 0.6247 1.12728E-5
++G gamma 0.67495 2.9524000000000004E-5
++G gamma 1.48916 0.0027779400000000004
++G gamma 2.1856619999999998 0.006938140000000001
++B beta- 0.21325999999999998 5.4E-7
++G gamma 2.3683 5.368000000000001E-7
++B beta- 0.0989 1.4999999999999998E-6
++G gamma 2.6549 1.4762E-6
++B beta- 0.09233 8.7E-6
++G gamma 1.97882 8.723000000000001E-6
++B beta- 0.07110999999999999 2.9999999999999997E-6
++G gamma 1.182 5.368000000000001E-7
++G gamma 2.0463 2.684E-6
+#140CE    144ND A DECAY                                           07NDS    200707
+#  144ND A DECAY                                           07NDS    200707
+#H TYP=ERR$AUT=J. Tuli$DAT=4-Mar-2008$COM=corrected comment on IA to gs$
+#H TYP=FUL$AUT=N. NICA$CIT=NDS 108,1287 (2007)$CUT=1-Feb-2006$
+#P 0.0         0+                2.29E+15 Y 16            1905.2    17
+ND144 CE140 alpha 1.9052 7.2265321152E22 1.0

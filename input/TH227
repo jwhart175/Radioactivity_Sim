@@ -1,0 +1,100 @@
+#Radioactivity Sim Decay Chain Input File
+#Data:
+#STRING1 = Initial Nucleus (no spaces)
+#STRING2 = Ending Nucleus  (no spaces)
+#STRING3 = alpha, beta-, beta+, or gamma (no spaces)
+#DOUBLE1 = EndNucleus to StartNucleus energy difference in MEV (no commas, no carats, greater than 0)
+#DOUBLE2 = halflife in seconds (no commas, no carats, greater than 0)(note
+#DOUBLE3 = probability (no commas, no carats, between 0 and 1)
+#Rule Format:
+#Rules are separated by lines, each line must have the following format:
+#STRING1 STRING2 STRING3 DOUBLE1 DOUBLE2 DOUBLE3
+#If a given rule has coincident radiation like gamma or x-rays then those are added with:
+#+G STRING4 DOUBLE4 DOUBLE5
+#where STRING4 is the photon name
+#      DOUBLE4 is the photon energy in MeV
+#      DOUBLE5 is the photon percent intensity
+#It is useful to track these in order to get a complete radiation picture
+#Each beta emission energy for the rule should be tracked with:
+#+B STRING5 DOUBLE6 DOUBLE7
+#where STRING5 is the beta name
+#      DOUBLE6 is the beta energy in MeV
+#      DOUBLE7 is the beta percent intensity
+#Each alpha emission energy for the rule should be tracked with:
+#+A STRING8 DOUBLE9 DOUBLE10
+#where STRING8 is the alpha name
+#      DOUBLE9 is the alpha energy in MeV
+#      DOUBLE10 is the alpha percent intensity
+#Each neutron emission energy for the rule should be tracked with:
+#+N STRING11 DOUBLE12 DOUBLE13
+#where STRING11 is the neutron name
+#      DOUBLE12 is the neutron energy in MeV
+#      DOUBLE13 is the neutron percent intensity
+#It is useful to track these in order to get a complete radiation picture
+#*************************************************************
+TH227 RA223 alpha 6.14643 1613952 1
++G gamma 0.6485 1.935E-7
++A alpha 6.03801 0.242
++A alpha 6.0088 0.028999999999999998
++A alpha 5.9894 2.0E-5
++A alpha 5.977720000000001 0.235
++A alpha 5.9597 0.03
++A alpha 5.916 0.00775
++A alpha 5.9098999999999995 0.0017399999999999998
++A alpha 5.8666 0.0242
++A alpha 5.8075 0.0127
++A alpha 5.7955 0.00311
++A alpha 5.7623 0.00228
++A alpha 5.75687 0.204
++A alpha 5.7281 3.42E-4
++A alpha 5.7132 0.0489
++A alpha 5.7088 0.083
++A alpha 5.7008 0.0363
++A alpha 5.693 0.015
++A alpha 5.674300000000001 5.72E-4
++A alpha 5.668 0.0206
++A alpha 5.6402 1.79E-4
++A alpha 5.622 7.000000000000001E-5
++A alpha 5.613300000000001 0.00216
++A alpha 5.6006 0.0017000000000000001
++A alpha 5.5859 0.0017599999999999998
++A alpha 5.5317 2.1E-4
++A alpha 5.5099 1.66E-4
++A alpha 5.4803999999999995 1.1999999999999999E-5
++A alpha 5.458600000000001 2.7000000000000002E-5
++A alpha 5.4087 4.4E-6
++A alpha 5.365 6.6E-6
++A alpha 5.3359 2.0E-6
++G gamma 0.6628 5.934E-7
++A alpha 5.3218000000000005 2.4E-6
++G gamma 0.7842 9.933E-7
++A alpha 5.2643 2.6E-5
++G gamma 0.7384 6.966E-7
++G gamma 0.7874 3.9990000000000003E-7
++A alpha 5.2483 3.2E-5
++G gamma 0.7874 3.9990000000000003E-7
++A alpha 5.2292 9.8E-5
++G gamma 0.589 5.934E-7
++A alpha 5.2101999999999995 7.000000000000001E-5
++A alpha 5.1937 3.8E-5
++A alpha 5.1806 1.1999999999999999E-5
++G gamma 0.6443 9.03E-7
++G gamma 0.7042999999999999 7.998000000000001E-7
++A alpha 5.171 1.7E-5
++G gamma 0.8543 6.966E-7
++G gamma 0.5346000000000001 9.933E-7
++A alpha 5.1465 4.1E-5
++G gamma 0.6214 5.934E-7
++G gamma 0.8573 5.934E-7
++A alpha 5.1287 6.2E-6
++G gamma 0.576 3.2250000000000005E-6
++G gamma 0.8467 1.4835E-6
++G gamma 0.8961 1.0965E-6
++G gamma 0.927 0.00645
++A alpha 5.1105 2.8E-6
++A alpha 5.0835 1.4999999999999998E-6
++G gamma 0.9717 0.010320000000000001
++A alpha 5.056100000000001 2.3E-6
++G gamma 0.92 0.01161
++G gamma 0.9587 6.192E-7
++A alpha 5.0335 3.1E-6

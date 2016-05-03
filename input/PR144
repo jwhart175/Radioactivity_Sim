@@ -1,0 +1,66 @@
+#Radioactivity Sim Decay Chain Input File
+#Data:
+#STRING1 = Initial Nucleus (no spaces)
+#STRING2 = Ending Nucleus  (no spaces)
+#STRING3 = alpha, beta-, beta+, or gamma (no spaces)
+#DOUBLE1 = EndNucleus to StartNucleus energy difference in MEV (no commas, no carats, greater than 0)
+#DOUBLE2 = halflife in seconds (no commas, no carats, greater than 0)(note
+#DOUBLE3 = probability (no commas, no carats, between 0 and 1)
+#Rule Format:
+#Rules are separated by lines, each line must have the following format:
+#STRING1 STRING2 STRING3 DOUBLE1 DOUBLE2 DOUBLE3
+#If a given rule has coincident radiation like gamma or x-rays then those are added with:
+#+G STRING4 DOUBLE4 DOUBLE5
+#where STRING4 is the photon name
+#      DOUBLE4 is the photon energy in MeV
+#      DOUBLE5 is the photon percent intensity
+#It is useful to track these in order to get a complete radiation picture
+#Each beta emission energy for the rule should be tracked with:
+#+B STRING5 DOUBLE6 DOUBLE7
+#where STRING5 is the beta name
+#      DOUBLE6 is the beta energy in MeV
+#      DOUBLE7 is the beta percent intensity
+#Each alpha emission energy for the rule should be tracked with:
+#+A STRING8 DOUBLE9 DOUBLE10
+#where STRING8 is the alpha name
+#      DOUBLE9 is the alpha energy in MeV
+#      DOUBLE10 is the alpha percent intensity
+#Each neutron emission energy for the rule should be tracked with:
+#+N STRING11 DOUBLE12 DOUBLE13
+#where STRING11 is the neutron name
+#      DOUBLE12 is the neutron energy in MeV
+#      DOUBLE13 is the neutron percent intensity
+#It is useful to track these in order to get a complete radiation picture
+#*************************************************************
+PR144 ND144 beta- 2.9975 1036.8000000000002 1.0
++B beta- 1.222 0.9790000000000001
++B beta- 0.895 0.0104
++G gamma 0.69651 0.013420000000000001
++G gamma 0.8141 3.2208E-5
++B beta- 0.52627 1.4E-5
++G gamma 0.86445 2.4156000000000004E-5
++G gamma 1.56097 2.013E-6
++B beta- 0.32285 6.2E-6
++G gamma 1.3762699999999999 3.8918E-6
++B beta- 0.30677 6.7E-5
++G gamma 1.38802 6.72342E-5
++B beta- 0.26719 0.0105
++G gamma 0.6247 1.12728E-5
++G gamma 0.67495 2.9524000000000004E-5
++G gamma 1.48916 0.0027779400000000004
++G gamma 2.1856619999999998 0.006938140000000001
++B beta- 0.21325999999999998 5.4E-7
++G gamma 2.3683 5.368000000000001E-7
++B beta- 0.0989 1.4999999999999998E-6
++G gamma 2.6549 1.4762E-6
++B beta- 0.09233 8.7E-6
++G gamma 1.97882 8.723000000000001E-6
++B beta- 0.07110999999999999 2.9999999999999997E-6
++G gamma 1.182 5.368000000000001E-7
++G gamma 2.0463 2.684E-6
+#140CE    144ND A DECAY                                           07NDS    200707
+#  144ND A DECAY                                           07NDS    200707
+#H TYP=ERR$AUT=J. Tuli$DAT=4-Mar-2008$COM=corrected comment on IA to gs$
+#H TYP=FUL$AUT=N. NICA$CIT=NDS 108,1287 (2007)$CUT=1-Feb-2006$
+#P 0.0         0+                2.29E+15 Y 16            1905.2    17
+ND144 CE140 alpha 1.9052 7.2265321152E22 1.0

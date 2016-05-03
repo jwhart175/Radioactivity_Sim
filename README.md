@@ -8,6 +8,8 @@ The program has reached a state where trying to test and debug every feature is 
 
 Running the program:
 
+Make sure to use the latest the version!
+
 On a linux machine: install java
 
 The actual install method varies by distro but this can typically be done (with an internet connection) with one of the following commands in a terminal:
