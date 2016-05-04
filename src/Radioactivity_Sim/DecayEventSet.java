@@ -180,7 +180,7 @@ public class DecayEventSet extends DecayEvent {
 	        			System.out.println("(puGetNumWithinTimeBounds) failed because something unexpected happened!");
 	        			return prsfDoubleMinusOne;
 	        		} else {
-	        			if(prEndTime < endTime & prEndTime >= prStartTime) {
+	        			if(prEndTime < endTime & startTime <= prStartTime) {
 	        				return pvNum;
 	        			} else if (prStartTime >= endTime) {
 	        				return prsfIntZero;
@@ -199,23 +199,23 @@ public class DecayEventSet extends DecayEvent {
 	        		double var = pvNum/(Math.exp(-(prStartTime)*lambda)-Math.exp(-(prEndTime)*lambda));
 	        		if(prStartTime < startTime) {
 	        			if(prEndTime < endTime & prEndTime >= startTime) {
-	        				return (var*(Math.exp(-(startTime-prStartTime)*lambda)-Math.exp(-(prEndTime-prStartTime)*lambda)));
+	        				return (var*(Math.exp(-(startTime)*lambda)-Math.exp(-(prEndTime)*lambda)));
 	        			} else if (prEndTime < startTime) {
 	        				return 0;
 	        			} else if (prEndTime >= endTime) {
-	        				return (var*(Math.exp(-(startTime-prStartTime)*lambda)-Math.exp(-(endTime-prStartTime)*lambda)));
+	        				return (var*(Math.exp(-(startTime)*lambda)-Math.exp(-(endTime)*lambda)));
 	        			}
 	        			System.out.println("(puGetEnergyWithinTimeBounds) failed because something unexpected happened!");
 	        			return prsfDoubleMinusOne;
 	        		} else {
-	        			if(prEndTime <= endTime & prEndTime >= prStartTime) {
+	        			if(prEndTime < endTime & startTime <= prStartTime) {
 	        				return (pvNum);
 	        			} else if (prStartTime >= endTime) {
 	        				return prsfIntZero;
-	        			} else if (prEndTime > endTime) {
-	        				return (var*(prsfDoubleOne-Math.exp(-(endTime-prStartTime)*lambda)));
+	        			} else if (prEndTime >= endTime) {
+	        				return (var*(Math.exp(-(prStartTime)*lambda)-Math.exp(-(endTime)*lambda)));
 	        			}
-	        			System.out.println("(puGetEnergyWithinTimeBounds) failed because something unexpected happened!");
+	        			System.out.println("(puGetNumWithinTimeBounds) failed because something unexpected happened!");
 	        			return prsfDoubleMinusOne;
 	        		}
 	        	}
@@ -231,64 +231,7 @@ public class DecayEventSet extends DecayEvent {
 
 	public double puGetEnergyWithinTimeBounds(double startTime, double endTime){
 		//returns any energy contained in this (DecayEventSet) in MeV within the specified time bounds
-		if (pvNum*prEnergy >= prsfIntZero) {
-			if (startTime >= prsfIntZero & startTime < endTime & endTime >= prsfIntZero ) {
-	        	if(pvIsChild){
-	        		if(prStartTime < startTime) {
-	        			if(prEndTime < endTime & prEndTime >= startTime) {
-	        				return (puGetTotalEnergy()*(prEndTime-startTime)/(prEndTime-prStartTime));
-	        			} else if (prEndTime < startTime) {
-	        				return prsfIntZero;
-	        			} else if (prEndTime >= endTime) {
-	        				return (puGetTotalEnergy()*(endTime-startTime)/(prEndTime-prStartTime));
-	        			}
-	        		} else {
-	        			if(prEndTime < endTime & prEndTime >= prStartTime) {
-	        				return (puGetTotalEnergy());
-	        			} else if (prStartTime >= endTime) {
-	        				return prsfIntZero;
-	        			} else if (prEndTime >= endTime) {
-	        				return (puGetTotalEnergy()*(endTime-prStartTime)/(prEndTime-prStartTime));
-	        			}
-	        		}
-	        	} else {
-	        		//N_between_two_bounds = N(0)/lambda*(e^(-upperbound*lambda)-e^(-lowerbound*lambda))
-	        		//N(0) here is = pvNum
-	        		//lambda is ln(2)/half-life
-	        		//upperbound = 0 if prStartTime is the upper bound
-	        		double lambda = prsfDoubleLN2/prHalfLife;
-	        		if(prStartTime < startTime) {
-	        			if(prEndTime < endTime & prEndTime >= startTime) {
-	        				return (prEnergy*pvNum*(Math.exp(-(startTime-prStartTime)*lambda)-Math.exp(-(prEndTime-prStartTime)*lambda)));
-	        			} else if (prEndTime < startTime) {
-	        				return prsfIntZero;
-	        			} else if (prEndTime >= endTime) {
-	        				return (prEnergy*pvNum*(Math.exp(-(startTime-prStartTime)*lambda)-Math.exp(-(endTime-prStartTime)*lambda)));
-	        			}
-	        			System.out.println("(puGetEnergyWithinTimeBounds) failed because something unexpected happened!");
-	        			return prsfDoubleMinusOne;
-	        		} else {
-	        			if(prEndTime <= endTime & prEndTime >= prStartTime) {
-	        				return (puGetTotalEnergy());
-	        			} else if (prStartTime >= endTime) {
-	        				return prsfIntZero;
-	        			} else if (prEndTime > endTime) {
-	        				return (prEnergy*pvNum*(prsfDoubleOne-Math.exp(-(endTime-prStartTime)*lambda)));
-	        			}
-	        			System.out.println("(puGetEnergyWithinTimeBounds) failed because something unexpected happened!");
-	        			return prsfDoubleMinusOne;
-	        		}
-	        	}
-	        } else {
-	            System.out.println("(puGetEnergyWithinTimeBounds) failed because the inputs (startTime) and (endTime) must be greater than or equal to zero and (startTime) must be less than (endTime)");
-	            return prsfDoubleMinusOne;
-	        }
-		} else {
-			System.out.println("(puGetEnergyWithinTimeBounds) failed because either (pvNum) or (prEnergy) is less than or equal to zero!");
-			return prsfDoubleMinusOne;
-		}
-		System.out.println("(puGetEnergyWithinTimeBounds) failed because something unexpected happened!");
-		return prsfDoubleMinusOne;
+		return (prEnergy*puGetNumWithinTimeBounds(startTime,endTime));
 	}
 
 	public double puGetStartTime(){

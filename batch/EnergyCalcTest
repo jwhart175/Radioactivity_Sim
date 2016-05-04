@@ -1,0 +1,27 @@
+new PSample 1E30 U238 0 10000E13 1
+get PSample energy all > /home/user/git/Radioactivity_Sim/proofs/energyCalc
+get PSample energy 0 10000E13 > /home/user/git/Radioactivity_Sim/proofs/energyCalc
+get PSample energy 0 5000E13 > /home/user/git/Radioactivity_Sim/proofs/energyCalc
+get PSample energy 5000E13 100000E13 > /home/user/git/Radioactivity_Sim/proofs/energyCalc
+get PSample energy 0 2500E13 > /home/user/git/Radioactivity_Sim/proofs/energyCalc
+get PSample energy 2500E13 5000E13 > /home/user/git/Radioactivity_Sim/proofs/energyCalc
+get PSample energy 5000E13 7500E13 > /home/user/git/Radioactivity_Sim/proofs/energyCalc
+get PSample energy 7500E13 10000E13 > /home/user/git/Radioactivity_Sim/proofs/energyCalc
+new PSample 1E30 U238 0 10000E13 3
+get PSample energy all > /home/user/git/Radioactivity_Sim/proofs/energyCalc
+get PSample energy 0 10000E13 > /home/user/git/Radioactivity_Sim/proofs/energyCalc
+get PSample energy 0 5000E13 > /home/user/git/Radioactivity_Sim/proofs/energyCalc
+get PSample energy 5000E13 100000E13 > /home/user/git/Radioactivity_Sim/proofs/energyCalc
+get PSample energy 0 2500E13 > /home/user/git/Radioactivity_Sim/proofs/energyCalc
+get PSample energy 2500E13 5000E13 > /home/user/git/Radioactivity_Sim/proofs/energyCalc
+get PSample energy 5000E13 7500E13 > /home/user/git/Radioactivity_Sim/proofs/energyCalc
+get PSample energy 7500E13 10000E13 > /home/user/git/Radioactivity_Sim/proofs/energyCalc
+new PSample 1E30 U238 0 10000E13 9
+get PSample energy all > /home/user/git/Radioactivity_Sim/proofs/energyCalc
+get PSample energy 0 10000E13 > /home/user/git/Radioactivity_Sim/proofs/energyCalc
+get PSample energy 0 5000E13 > /home/user/git/Radioactivity_Sim/proofs/energyCalc
+get PSample energy 5000E13 100000E13 > /home/user/git/Radioactivity_Sim/proofs/energyCalc
+get PSample energy 0 2500E13 > /home/user/git/Radioactivity_Sim/proofs/energyCalc
+get PSample energy 2500E13 5000E13 > /home/user/git/Radioactivity_Sim/proofs/energyCalc
+get PSample energy 5000E13 7500E13 > /home/user/git/Radioactivity_Sim/proofs/energyCalc
+get PSample energy 7500E13 10000E13 > /home/user/git/Radioactivity_Sim/proofs/energyCalc
